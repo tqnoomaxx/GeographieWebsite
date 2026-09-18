@@ -4,13 +4,15 @@ import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
 import { useAsync, useDocumentTitle } from '@/app/hooks'
 import { CATEGORIES, ROUND_LENGTHS } from '@/config/categories'
+import { MODES } from '@/config/modes'
 import { SCOPES } from '@/engine/scope'
 import { poolFor } from '@/engine/session'
 import type { CategoryId } from '@/engine/types'
 import { getRepository } from '@/services/progress'
 import { Page, Card, Chips, ProgressBar } from '@/ui'
+import { CATEGORY_ICONS, CATEGORY_TONES, Icons, IconTile } from '@/ui/icons'
 
-const REGION_CATEGORIES: CategoryId[] = ['regions', 'cities', 'maps', 'mixed']
+const REGION_CATEGORIES: CategoryId[] = ['regions', 'cities', 'maps', 'mixed', 'flags']
 const PLATE_CATEGORIES: CategoryId[] = ['license_plates', 'mixed']
 
 export default function PlayStartPage() {
@@ -24,6 +26,9 @@ export default function PlayStartPage() {
     const v = localStorage.getItem(`gk.len.${category}`)
     return v === 'all' ? 'all' : v ? Number(v) : 10
   })
+  const [mode, setMode] = useState<string>(() => localStorage.getItem(`gk.mode.${category}`) ?? 'auto')
+  const modes = category ? MODES[category] ?? [] : []
+  const generatorIds = mode === 'auto' ? undefined : modes.find((m) => m.id === mode)?.generators
   const { data: open } = useAsync(() => getRepository().getOpenSessions(), [])
 
   useEffect(() => {
@@ -33,8 +38,8 @@ export default function PlayStartPage() {
 
   const poolSize = useMemo(() => {
     if (!category || !geo.ready) return 0
-    return poolFor(category, geo.contextFor(scope)).size
-  }, [category, scope, geo])
+    return poolFor(category, geo.contextFor(scope), generatorIds).size
+  }, [category, scope, geo, generatorIds])
 
   const countryScopes = useMemo(() => {
     // Länder mit Regionen als zusätzliche Bereiche (nur für Regionen/Karten/Gemischt)
@@ -71,18 +76,14 @@ export default function PlayStartPage() {
         )}
         <div className="grid grid-cols-2 gap-3 md:grid-cols-3">
           {CATEGORIES.map((c) => (
-            <Link key={c.id} to={`/play/${c.id}`} className="card flex items-center gap-3 p-4 hover:bg-card-2">
-              <span className="text-2xl" aria-hidden>
-                {c.icon}
-              </span>
+            <Link key={c.id} to={`/play/${c.id}`} className="card flex items-center gap-3 p-3 hover:bg-card-2">
+              <IconTile icon={CATEGORY_ICONS[c.id]} tone={CATEGORY_TONES[c.id]} size="sm" />
               <span className="font-medium">{t(`category.${c.id}`)}</span>
               {c.countKey && geo.index?.counts[c.countKey] !== undefined && <span className="ml-auto text-xs text-ink-2">{geo.index.counts[c.countKey]}</span>}
             </Link>
           ))}
-          <Link to="/daily" className="card flex items-center gap-3 p-4 hover:bg-card-2">
-            <span className="text-2xl" aria-hidden>
-              🧩
-            </span>
+          <Link to="/daily" className="card flex items-center gap-3 p-3 hover:bg-card-2">
+            <IconTile icon={Icons.daily} tone="tone-violet" size="sm" />
             <span className="font-medium">{t('daily.title')}</span>
           </Link>
         </div>
@@ -94,12 +95,13 @@ export default function PlayStartPage() {
   const start = () => {
     localStorage.setItem('gk.scope', scope)
     localStorage.setItem(`gk.len.${category}`, String(length))
-    navigate(`/play/${category}/round?scope=${encodeURIComponent(scope)}&len=${length}`)
+    localStorage.setItem(`gk.mode.${category}`, mode)
+    navigate(`/play/${category}/round?scope=${encodeURIComponent(scope)}&len=${length}${generatorIds ? `&gens=${generatorIds.join(',')}` : ''}`)
   }
   const lengths = [...ROUND_LENGTHS.filter((l) => l < poolSize).map((l) => ({ value: l as number | 'all', label: String(l) })), { value: 'all' as const, label: t('play.all', { count: poolSize }) }]
 
   return (
-    <Page title={`${def?.icon ?? ''} ${t(`category.${category}`)}`} back="/play">
+    <Page title={t(`category.${category}`)} back="/play" action={def && <IconTile icon={CATEGORY_ICONS[def.id]} tone={CATEGORY_TONES[def.id]} size="sm" />}>
       <Card className="grid gap-5">
         <div>
           <h2 className="mb-2 text-sm font-medium text-ink-2">{t('play.scope')}</h2>
@@ -117,6 +119,12 @@ export default function PlayStartPage() {
             </div>
           )}
         </div>
+        {modes.length > 0 && (
+          <div>
+            <h2 className="mb-2 text-sm font-medium text-ink-2">{t('play.mode')}</h2>
+            <Chips label={t('play.mode')} value={mode} onChange={setMode} items={[{ value: 'auto', label: t('modes.auto') }, ...modes.map((m) => ({ value: m.id, label: t(`modes.${m.id}`) }))]} />
+          </div>
+        )}
         <div>
           <h2 className="mb-2 text-sm font-medium text-ink-2">{t('play.length')}</h2>
           <Chips label={t('play.length')} value={length} onChange={setLength} items={lengths} />

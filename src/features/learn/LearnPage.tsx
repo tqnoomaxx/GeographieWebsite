@@ -44,7 +44,7 @@ export default function LearnPage() {
   }
 
   return (
-    <Page title={`📚 ${t('learn.title')}`}>
+    <Page title={t('learn.title')}>
       <div className="mb-4">
         <Chips
           label={t('play.scope')}

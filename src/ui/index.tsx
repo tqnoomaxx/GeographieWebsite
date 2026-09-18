@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
 import { mediaUrl } from '@/services/data/dataService'
 import type { Entity } from '@/domain/types'
+import { ChevronLeft } from 'lucide-react'
 
 export function Page({ title, children, back, action }: { title?: string; children: ReactNode; back?: string; action?: ReactNode }) {
   return (
@@ -11,7 +12,7 @@ export function Page({ title, children, back, action }: { title?: string; childr
         <header className="mb-5 flex items-center gap-3">
           {back && (
             <Link to={back} className="btn-ghost -ml-2 px-2" aria-label="Zurück">
-              ←
+              <ChevronLeft className="h-6 w-6" />
             </Link>
           )}
           {title && <h1 className="text-2xl font-semibold tracking-tight md:text-3xl">{title}</h1>}

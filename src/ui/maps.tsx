@@ -41,7 +41,7 @@ export function WorldMap({
   if (!world || !path) return <div className="skeleton aspect-[1.92] w-full" />
   return (
     <svg viewBox={`0 0 ${width} ${height}`} className="w-full touch-manipulation select-none" role={onPick ? 'group' : 'img'} aria-label="Weltkarte">
-      <rect width={width} height={height} className="fill-accent-soft/40" rx={16} />
+      <rect width={width} height={height} className="fill-card-2/60" rx={16} />
       {features.map((f, i) => {
         const id = f.properties?.id as string
         const isCorrect = id === correct
@@ -51,8 +51,8 @@ export function WorldMap({
           <path
             key={id ?? i}
             d={path(f as GeoPermissibleObjects) ?? undefined}
-            className={`stroke-bg stroke-[0.6] transition-colors ${
-              isCorrect ? 'fill-ok' : isWrong ? 'fill-bad' : isHi ? 'fill-accent' : 'fill-card-2 hover:fill-accent/60'
+            className={`stroke-card stroke-[0.6] transition-colors ${
+              isCorrect ? 'fill-ok' : isWrong ? 'fill-bad' : isHi ? 'fill-accent' : 'fill-accent-soft hover:fill-accent/60'
             } ${onPick && !disabled ? 'cursor-pointer' : ''}`}
             onClick={() => onPick && !disabled && onPick(id)}
             role={onPick ? 'button' : undefined}
@@ -123,8 +123,8 @@ export function RegionMapView({
           <path
             key={s.flagId}
             d={s.d}
-            className={`stroke-bg stroke-[0.8] transition-colors ${
-              isCorrect ? 'fill-ok' : isWrong ? 'fill-bad' : isHi ? 'fill-accent' : 'fill-card-2 hover:fill-accent/60'
+            className={`stroke-card stroke-[0.8] transition-colors ${
+              isCorrect ? 'fill-ok' : isWrong ? 'fill-bad' : isHi ? 'fill-accent' : 'fill-accent-soft hover:fill-accent/60'
             } ${onPick && !disabled ? 'cursor-pointer' : ''}`}
             onClick={() => onPick && !disabled && onPick(id)}
             role={onPick ? 'button' : undefined}

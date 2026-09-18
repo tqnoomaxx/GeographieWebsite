@@ -5,7 +5,8 @@ import { useAsync, useDocumentTitle } from '@/app/hooks'
 import { useGeoData } from '@/app/DataProvider'
 import { loadSearch } from '@/services/data/dataService'
 import { normalizeAnswer } from '@/engine/normalize'
-import { Page, typeIcon, entityPath } from '@/ui'
+import { Page, entityPath } from '@/ui'
+import { TypeIcon } from '@/ui/icons'
 
 export default function SearchPage() {
   const { t } = useTranslation()
@@ -27,7 +28,7 @@ export default function SearchPage() {
     return scored.slice(0, 40).map((x) => x.e)
   }, [q, index])
   return (
-    <Page title={`🔎 ${t('nav.search')}`}>
+    <Page title={t('nav.search')}>
       <input
         autoFocus
         value={q}
@@ -47,7 +48,7 @@ export default function SearchPage() {
             return (
               <li key={r.id}>
                 <Link to={entityPath({ id: r.id, type: r.t as never })} className="flex items-center gap-3 px-4 py-2.5 hover:bg-card-2">
-                  <span aria-hidden>{typeIcon(r.t)}</span>
+                  <TypeIcon type={r.t} className="h-4 w-4 text-ink-2" />
                   <span className="flex-1">
                     <span className="font-medium">{r.n}</span>
                     <span className="ml-2 text-xs text-ink-2">{t(`type.${r.t}`)}{country ? ` · ${country.names.de}` : ''}</span>

@@ -11,7 +11,7 @@ import { Card, ErrorState, Skeleton, ProgressBar, entityPath } from '@/ui'
 import { WorldMap, RegionMapView } from '@/ui/maps'
 import { ReportDialog } from '@/features/legal/ReportDialog'
 
-const REGION_CATEGORIES: CategoryId[] = ['regions', 'cities', 'maps', 'mixed']
+const REGION_CATEGORIES: CategoryId[] = ['regions', 'cities', 'maps', 'mixed', 'flags']
 const PLATE_CATEGORIES: CategoryId[] = ['license_plates', 'mixed']
 
 export default function RoundPage() {
@@ -30,6 +30,7 @@ export default function RoundPage() {
   const lenParam = params.get('len') ?? '10'
   const length: number | 'all' = lenParam === 'all' ? 'all' : Number(lenParam)
   const only = params.get('only')?.split(',').filter(Boolean)
+  const gens = params.get('gens')?.split(',').filter(Boolean)
 
   const [stored, setStored] = useState<QuizSession | null | undefined>(sessionId ? undefined : null)
   useEffect(() => {
@@ -55,7 +56,7 @@ export default function RoundPage() {
         }
         const progress = await repo.getAllEntityProgress()
         const ctx = geo.contextFor(sc)
-        const s = buildSession(ctx, { category: cat, scope: sc, length, progress, onlyEntities: only, mode: only ? 'repeat_errors' : undefined })
+        const s = buildSession(ctx, { category: cat, scope: sc, length, progress, onlyEntities: only, generatorIds: gens, mode: only ? 'repeat_errors' : undefined })
         if (!s.questions.length) throw new Error(t('play.no_questions'))
         setSession(s)
         if (s.mode === 'full') await repo.saveSession(s)
@@ -175,7 +176,7 @@ function QuestionView({ q, given, correct, onAnswer, onNext }: { q: Question; gi
           <img
             src={q.media.url}
             alt={q.media.alt}
-            className={`max-h-56 w-auto max-w-full rounded-xl border border-line object-contain md:max-h-72 ${q.media.kind === 'flag' ? 'bg-white' : ''}`}
+            className={`${q.map ? 'max-h-24 md:max-h-32' : 'max-h-56 md:max-h-72'} w-auto max-w-full rounded-xl border border-line object-contain ${q.media.kind === 'flag' ? 'bg-white' : ''}`}
             decoding="async"
           />
           {answered && q.media.attribution && (
@@ -185,7 +186,7 @@ function QuestionView({ q, given, correct, onAnswer, onNext }: { q: Question; gi
           )}
         </figure>
       )}
-      <h1 className="mb-4 text-center text-xl font-semibold md:text-2xl">{t(q.prompt.key, q.prompt.params)}</h1>
+      <h1 className={`${q.map ? 'mb-2 text-lg md:text-xl' : 'mb-4 text-xl md:text-2xl'} text-center font-semibold`}>{t(q.prompt.key, q.prompt.params)}</h1>
 
       {q.map && (
         <div className="mb-4">
@@ -284,8 +285,9 @@ function ResultView({ session, outcome }: { session: QuizSession; outcome: Round
   const correct = answered.filter((q) => q.correct).length
   const wrong = [...new Set(answered.filter((q) => !q.correct).map((q) => q.question.entities[0]))]
   const pct = answered.length ? Math.round((correct / answered.length) * 100) : 0
-  const again = `/play/${session.category}/round?scope=${encodeURIComponent(session.scope)}&len=${session.length}`
-  const repeat = `/play/${session.category}/round?scope=${encodeURIComponent(session.scope)}&len=${wrong.length}&only=${wrong.join(',')}`
+  const gensQ = session.generatorIds ? `&gens=${session.generatorIds.join(',')}` : ''
+  const again = `/play/${session.category}/round?scope=${encodeURIComponent(session.scope)}&len=${session.length}${gensQ}`
+  const repeat = `/play/${session.category}/round?scope=${encodeURIComponent(session.scope)}&len=${wrong.length}&only=${wrong.join(',')}${gensQ}`
   return (
     <div className="mx-auto w-full max-w-xl px-4 pb-24 pt-8 text-center md:pb-10">
       <h1 className="text-2xl font-semibold">{session.mode === 'full' ? t('play.full_done') : t('play.round_done')}</h1>

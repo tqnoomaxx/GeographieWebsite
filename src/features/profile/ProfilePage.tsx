@@ -6,6 +6,7 @@ import { ACHIEVEMENTS } from '@/config/achievements'
 import { getRepository } from '@/services/progress'
 import type { Profile } from '@/services/progress/types'
 import { Page, Card, useToast } from '@/ui'
+import { Settings } from 'lucide-react'
 
 const AVATARS = ['🧭', '🌍', '🗺️', '🏔️', '🌊', '🏛️', '🦊', '🦉', '🐢', '🦜', '🚀', '⛵']
 const COLORS = ['#1e2a5a', '#2f7d4f', '#c98a12', '#b83232', '#6b3fa0', '#0e7490']
@@ -29,7 +30,7 @@ export default function ProfilePage() {
   const toggleFeatured = (id: string) =>
     setP((x) => ({ ...x, featuredAchievements: x.featuredAchievements.includes(id) ? x.featuredAchievements.filter((a) => a !== id) : [...x.featuredAchievements, id].slice(-5) }))
   return (
-    <Page title={`👤 ${t('profile.title')}`} action={<Link to="/settings" className="btn-ghost px-3" aria-label={t('nav.settings')}>⚙️</Link>}>
+    <Page title={t('profile.title')} action={<Link to="/settings" className="btn-ghost px-3" aria-label={t('nav.settings')}><Settings className="h-5 w-5" /></Link>}>
       <Card className="mb-5 flex flex-col items-center py-8 text-center" style={{ background: `linear-gradient(180deg, ${p.color}22, transparent)` }}>
         <div className="flex h-24 w-24 items-center justify-center rounded-full text-5xl" style={{ background: p.color + '33' }} aria-hidden>
           {p.avatar}

@@ -29,13 +29,12 @@ test('Flaggenrunde spielen bis zum Ergebnis', async ({ page }) => {
     await expect(page.getByText(new RegExp(`^${i + 1} / 10$`))).toBeVisible()
     const heading = page.getByRole('heading', { level: 1 })
     await expect(heading).toBeVisible()
-    const options = page.getByRole('group').getByRole('button')
     const input = page.getByPlaceholder('Antwort eingeben …')
     if (await input.count()) {
       await input.fill('Deutschland')
       await page.getByRole('button', { name: 'Prüfen' }).click()
     } else {
-      await options.first().click()
+      await pickAnswer(page)
     }
     await expect(page.getByRole('status')).toBeVisible()
     await page.getByRole('button', { name: 'Weiter' }).click()

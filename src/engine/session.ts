@@ -28,6 +28,7 @@ export interface QuizSession {
   questions: SessionQuestion[]
   /** Nur bei mode=full: noch nicht gestellte Entities zum Fortsetzen. */
   remaining?: string[]
+  generatorIds?: string[]
   position: number
   score: number
   xpEarned: number
@@ -96,6 +97,7 @@ export function buildSession(ctx: GeneratorContext, opts: BuildOptions): QuizSes
     startedAt: new Date().toISOString(),
     questions,
     remaining: opts.length === 'all' ? remaining : undefined,
+    generatorIds: opts.generatorIds,
     position: 0,
     score: 0,
     xpEarned: 0,
@@ -106,7 +108,7 @@ export function buildSession(ctx: GeneratorContext, opts: BuildOptions): QuizSes
 export function extendSession(session: QuizSession, ctx: GeneratorContext, count = 25, difficulty = 2): QuizSession {
   if (!session.remaining?.length) return session
   const rng = createRng(`${session.seed}-${session.questions.length}`)
-  const pool = poolFor(session.category, ctx)
+  const pool = poolFor(session.category, ctx, session.generatorIds)
   const next = session.remaining.slice(0, count)
   const rest = session.remaining.slice(count)
   const added: SessionQuestion[] = []

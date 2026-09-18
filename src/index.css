@@ -1,9 +1,10 @@
 @import 'tailwindcss';
+@import '@fontsource-variable/inter';
 
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   --color-bg: var(--bg);
   --color-card: var(--card);
   --color-card-2: var(--card-2);
@@ -30,9 +31,10 @@
   --ink: #17203a;
   --ink-2: #5b6478;
   --line: #e2ded3;
-  --accent: #1e2a5a;
+  --accent: #2b3a8f;
   --accent-ink: #ffffff;
-  --accent-soft: #e4e8f7;
+  --accent-soft: #e6e9f9;
+  --shadow: 0 1px 2px rgb(23 32 58 / 0.05), 0 6px 20px -8px rgb(23 32 58 / 0.12);
   --ok: #2f7d4f;
   --ok-soft: #dff3e6;
   --bad: #b83232;
@@ -52,6 +54,7 @@
   --accent: #8fa3ff;
   --accent-ink: #0f1526;
   --accent-soft: #232f55;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 8px 24px -10px rgb(0 0 0 / 0.5);
   --ok: #5fcf8a;
   --ok-soft: #173a29;
   --bad: #f07070;
@@ -105,10 +108,36 @@ body {
 }
 @utility card {
   @apply bg-card border border-line rounded-2xl;
+  box-shadow: var(--shadow);
 }
 @utility chip {
   @apply inline-flex items-center rounded-full border border-line px-3 py-1.5 text-sm font-medium bg-card hover:bg-card-2 min-h-10;
 }
 @utility chip-active {
   @apply bg-accent text-accent-ink border-accent;
+}
+
+/* Kategoriefarben: Hintergrund und Icon-Farbe, dunkelmodusfähig */
+.tone-red { background: #fde8e8; color: #b83232; }
+.tone-indigo { background: #e6e9f9; color: #2b3a8f; }
+.tone-amber { background: #fdf0d5; color: #a8690a; }
+.tone-teal { background: #d9f2ef; color: #0f766e; }
+.tone-slate { background: #e7eaf0; color: #3b4658; }
+.tone-green { background: #dff3e6; color: #2f7d4f; }
+.tone-pink { background: #fbe3ef; color: #a8306e; }
+.tone-blue { background: #dcecfb; color: #1d5fa8; }
+.tone-violet { background: #ece4fb; color: #6b3fa0; }
+.dark .tone-red { background: #4a1f1f; color: #f29a9a; }
+.dark .tone-indigo { background: #232f55; color: #aab8ff; }
+.dark .tone-amber { background: #4a3a10; color: #f5c96a; }
+.dark .tone-teal { background: #123d3a; color: #7fd6cc; }
+.dark .tone-slate { background: #2a3347; color: #b9c2d3; }
+.dark .tone-green { background: #173a29; color: #8fe0ad; }
+.dark .tone-pink { background: #4a1f36; color: #f2a1c8; }
+.dark .tone-blue { background: #15304f; color: #8fc0f5; }
+.dark .tone-violet { background: #34244f; color: #c9b1f5; }
+
+.hero-map {
+  mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
+  -webkit-mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
 }

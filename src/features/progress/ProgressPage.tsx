@@ -7,7 +7,9 @@ import { QUESTS } from '@/config/quests'
 import { CATEGORIES } from '@/config/categories'
 import { getRepository } from '@/services/progress'
 import { metric } from '@/services/gamification'
-import { Page, Card, ProgressBar, Stat, EmptyState, entityPath, typeIcon } from '@/ui'
+import { Page, Card, ProgressBar, Stat, EmptyState, entityPath } from '@/ui'
+import { CategoryIcon, Icons, TypeIcon } from '@/ui/icons'
+import type { CategoryId } from '@/engine/types'
 
 export default function ProgressPage() {
   const { t } = useTranslation()
@@ -37,14 +39,14 @@ export default function ProgressPage() {
   const acc = stats.answered ? Math.round((stats.correct / stats.answered) * 100) : 0
 
   return (
-    <Page title={`🏆 ${t('progress.title')}`} action={<Link to="/profile" className="btn-ghost px-3" aria-label={t('nav.profile')}>👤</Link>}>
+    <Page title={t('progress.title')} action={<Link to="/profile" className="btn-ghost px-3" aria-label={t('nav.profile')}><Icons.profile className="h-5 w-5" /></Link>}>
       <Card className="mb-5">
         <div className="flex items-baseline justify-between">
           <p className="text-xl font-semibold">{t('progress.level', { level: level.level })}</p>
           <p className="text-sm tabular-nums text-ink-2">{t('progress.xp_of', { xp: stats.xp.toLocaleString('de-DE'), next: level.next.toLocaleString('de-DE') })}</p>
         </div>
         <ProgressBar value={level.progress} className="mt-2" label="XP" />
-        {stats.streak.current > 0 && <p className="mt-3 text-sm">🔥 {t('progress.streak_hint', { days: stats.streak.current })}</p>}
+        {stats.streak.current > 0 && <p className="mt-3 inline-flex items-center gap-1.5 text-sm"><Icons.flame className="h-4 w-4 text-warn" /> {t('progress.streak_hint', { days: stats.streak.current })}</p>}
       </Card>
 
       <h2 className="mb-2 text-sm font-medium uppercase tracking-wider text-ink-2">{t('progress.my_world')}</h2>
@@ -52,7 +54,7 @@ export default function ProgressPage() {
         {world.map((w) => (
           <div key={w.key}>
             <div className="flex justify-between text-sm">
-              <span>{w.icon} {t(`category.${w.key}`)}</span>
+              <span className="inline-flex items-center gap-2"><CategoryIcon id={w.key as CategoryId} className="h-4 w-4 text-ink-2" /> {t(`category.${w.key}`)}</span>
               <span className="tabular-nums text-ink-2">{t('progress.known', { known: w.known, total: w.total })} · {Math.round((w.known / w.total) * 100)} %</span>
             </div>
             <ProgressBar value={w.known / w.total} className="mt-1" />
@@ -71,7 +73,7 @@ export default function ProgressPage() {
           const s = stats.byCategory[c.id]!
           return (
             <div key={c.id} className="flex justify-between rounded-lg bg-card-2 px-3 py-2">
-              <span>{c.icon} {t(`category.${c.id}`)}</span>
+              <span className="inline-flex items-center gap-2"><CategoryIcon id={c.id} className="h-4 w-4 text-ink-2" /> {t(`category.${c.id}`)}</span>
               <span className="tabular-nums">{Math.round((s.correct / Math.max(1, s.answered)) * 100)} %</span>
             </div>
           )
@@ -127,14 +129,14 @@ export default function ProgressPage() {
         })}
       </ul>
 
-      <h2 className="mb-2 text-sm font-medium uppercase tracking-wider text-ink-2">♥ {t('progress.favorites')}</h2>
+      <h2 className="mb-2 text-sm font-medium uppercase tracking-wider text-ink-2">{t('progress.favorites')}</h2>
       {favorites && favorites.length > 0 ? (
         <ul className="mb-5 flex flex-wrap gap-2">
           {favorites.map((id) => {
             const e = geo.byId.get(id)
             return (
               <li key={id}>
-                <Link to={e ? entityPath(e) : '#'} className="chip">{typeIcon(id.split(':')[0])} {e?.names.de ?? id}</Link>
+                <Link to={e ? entityPath(e) : '#'} className="chip gap-1.5"><TypeIcon type={id.split(':')[0]} /> {e?.names.de ?? id}</Link>
               </li>
             )
           })}

@@ -48,7 +48,7 @@ export default function SettingsPage() {
   }
 
   return (
-    <Page title={`⚙️ ${t('settings.title')}`} back="/profile">
+    <Page title={t('settings.title')} back="/profile">
       <Card className="mb-4">
         <h2 className="mb-2 font-medium">{t('settings.theme')}</h2>
         <Chips
