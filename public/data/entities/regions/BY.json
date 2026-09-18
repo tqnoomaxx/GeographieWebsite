@@ -3,9 +3,13 @@
   "id": "region:BY-BR",
   "type": "region",
   "names": {
-   "de": "Brest"
+   "de": "Breszkaja Woblasz",
+   "en": "Byerastsye Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Brest",
+   "Byerastsye Region"
+  ],
   "media": [
    {
     "id": "media:flag:BY-BR",
@@ -35,9 +39,12 @@
   "id": "region:BY-HM",
   "type": "region",
   "names": {
-   "de": "Minsk City"
+   "de": "Minsk",
+   "en": "Minsk"
   },
-  "aliases": [],
+  "aliases": [
+   "Minsk City"
+  ],
   "media": [
    {
     "id": "media:flag:BY-HM",
@@ -67,9 +74,13 @@
   "id": "region:BY-HO",
   "type": "region",
   "names": {
-   "de": "Gomel"
+   "de": "Homelskaja Woblasz",
+   "en": "Gomel Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Gomel",
+   "Gomel Region"
+  ],
   "media": [
    {
     "id": "media:flag:BY-HO",
@@ -99,9 +110,13 @@
   "id": "region:BY-HR",
   "type": "region",
   "names": {
-   "de": "Grodno"
+   "de": "Woblast Hrodna",
+   "en": "Horadnia Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Grodno",
+   "Horadnia Region"
+  ],
   "media": [
    {
     "id": "media:flag:BY-HR",
@@ -131,9 +146,13 @@
   "id": "region:BY-MA",
   "type": "region",
   "names": {
-   "de": "Mogilev"
+   "de": "Woblast Mahiljou",
+   "en": "Mahilyow Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Mogilev",
+   "Mahilyow Region"
+  ],
   "media": [
    {
     "id": "media:flag:BY-MA",
@@ -163,9 +182,13 @@
   "id": "region:BY-MI",
   "type": "region",
   "names": {
-   "de": "Minsk"
+   "de": "Woblast Minsk",
+   "en": "Minsk region"
   },
-  "aliases": [],
+  "aliases": [
+   "Minsk",
+   "Minsk region"
+  ],
   "media": [
    {
     "id": "media:flag:BY-MI",
@@ -195,9 +218,13 @@
   "id": "region:BY-VI",
   "type": "region",
   "names": {
-   "de": "Vitebsk"
+   "de": "Wizebskaja Woblasz",
+   "en": "Vitebsk Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Vitebsk",
+   "Vitebsk Region"
+  ],
   "media": [
    {
     "id": "media:flag:BY-VI",

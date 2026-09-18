@@ -3,7 +3,8 @@
   "id": "region:ES-AN",
   "type": "region",
   "names": {
-   "de": "Andalusien"
+   "de": "Andalusien",
+   "en": "Andalusia"
   },
   "aliases": [],
   "media": [
@@ -36,9 +37,13 @@
   "id": "region:ES-AR",
   "type": "region",
   "names": {
-   "de": "Aragón"
+   "de": "Aragonien",
+   "en": "Aragon"
   },
-  "aliases": [],
+  "aliases": [
+   "Aragón",
+   "Aragon"
+  ],
   "media": [
    {
     "id": "media:flag:ES-AR",
@@ -69,7 +74,8 @@
   "id": "region:ES-AS",
   "type": "region",
   "names": {
-   "de": "Asturien"
+   "de": "Asturien",
+   "en": "Asturias"
   },
   "aliases": [],
   "media": [
@@ -102,7 +108,8 @@
   "id": "region:ES-CB",
   "type": "region",
   "names": {
-   "de": "Kantabrien"
+   "de": "Kantabrien",
+   "en": "Cantabria"
   },
   "aliases": [],
   "media": [
@@ -135,7 +142,8 @@
   "id": "region:ES-CE",
   "type": "region",
   "names": {
-   "de": "Ceuta"
+   "de": "Ceuta",
+   "en": "Ceuta"
   },
   "aliases": [],
   "media": [
@@ -168,7 +176,8 @@
   "id": "region:ES-CL",
   "type": "region",
   "names": {
-   "de": "Kastilien und León"
+   "de": "Kastilien und León",
+   "en": "Castile and León"
   },
   "aliases": [],
   "media": [
@@ -201,7 +210,8 @@
   "id": "region:ES-CM",
   "type": "region",
   "names": {
-   "de": "Kastilien-La Mancha"
+   "de": "Kastilien-La Mancha",
+   "en": "Castilla–La Mancha"
   },
   "aliases": [],
   "media": [
@@ -234,7 +244,8 @@
   "id": "region:ES-CN",
   "type": "region",
   "names": {
-   "de": "Kanarische Inseln"
+   "de": "Kanarische Inseln",
+   "en": "Canary Islands"
   },
   "aliases": [],
   "media": [
@@ -267,7 +278,8 @@
   "id": "region:ES-CT",
   "type": "region",
   "names": {
-   "de": "Katalonien"
+   "de": "Katalonien",
+   "en": "Catalonia"
   },
   "aliases": [],
   "media": [
@@ -300,7 +312,8 @@
   "id": "region:ES-EX",
   "type": "region",
   "names": {
-   "de": "Extremadura"
+   "de": "Extremadura",
+   "en": "Extremadura"
   },
   "aliases": [],
   "media": [
@@ -333,7 +346,8 @@
   "id": "region:ES-GA",
   "type": "region",
   "names": {
-   "de": "Galicien"
+   "de": "Galicien",
+   "en": "Galicia"
   },
   "aliases": [],
   "media": [
@@ -366,7 +380,8 @@
   "id": "region:ES-IB",
   "type": "region",
   "names": {
-   "de": "Balearische Inseln"
+   "de": "Balearische Inseln",
+   "en": "Balearic Islands"
   },
   "aliases": [],
   "media": [
@@ -399,9 +414,13 @@
   "id": "region:ES-MC",
   "type": "region",
   "names": {
-   "de": "Murcia"
+   "de": "Region Murcia",
+   "en": "Region of Murcia"
   },
-  "aliases": [],
+  "aliases": [
+   "Murcia",
+   "Region of Murcia"
+  ],
   "media": [
    {
     "id": "media:flag:ES-MC",
@@ -432,9 +451,13 @@
   "id": "region:ES-MD",
   "type": "region",
   "names": {
-   "de": "Madrid"
+   "de": "Autonome Gemeinschaft Madrid",
+   "en": "Community of Madrid"
   },
-  "aliases": [],
+  "aliases": [
+   "Madrid",
+   "Community of Madrid"
+  ],
   "media": [
    {
     "id": "media:flag:ES-MD",
@@ -465,7 +488,8 @@
   "id": "region:ES-ML",
   "type": "region",
   "names": {
-   "de": "Melilla"
+   "de": "Melilla",
+   "en": "Melilla"
   },
   "aliases": [],
   "media": [
@@ -498,7 +522,8 @@
   "id": "region:ES-NC",
   "type": "region",
   "names": {
-   "de": "Navarra"
+   "de": "Navarra",
+   "en": "Navarre"
   },
   "aliases": [],
   "media": [
@@ -531,7 +556,8 @@
   "id": "region:ES-PV",
   "type": "region",
   "names": {
-   "de": "Baskenland"
+   "de": "Baskenland",
+   "en": "Basque Country"
   },
   "aliases": [],
   "media": [
@@ -564,7 +590,8 @@
   "id": "region:ES-RI",
   "type": "region",
   "names": {
-   "de": "La Rioja"
+   "de": "La Rioja",
+   "en": "La Rioja"
   },
   "aliases": [],
   "media": [
@@ -597,7 +624,8 @@
   "id": "region:ES-VC",
   "type": "region",
   "names": {
-   "de": "Valencianische Gemeinschaft"
+   "de": "Valencianische Gemeinschaft",
+   "en": "Valencian Community"
   },
   "aliases": [],
   "media": [

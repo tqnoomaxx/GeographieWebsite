@@ -3,9 +3,13 @@
   "id": "region:CO-AMA",
   "type": "region",
   "names": {
-   "de": "Amazonas"
+   "de": "Departamento del Amazonas",
+   "en": "Amazonas Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Amazonas",
+   "Amazonas Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-AMA",
@@ -35,7 +39,8 @@
   "id": "region:CO-ANT",
   "type": "region",
   "names": {
-   "de": "Antioquia"
+   "de": "Antioquia",
+   "en": "Antioquia"
   },
   "aliases": [],
   "media": [
@@ -67,9 +72,13 @@
   "id": "region:CO-ARA",
   "type": "region",
   "names": {
-   "de": "Arauca"
+   "de": "Departamento del Arauca",
+   "en": "Arauca Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Arauca",
+   "Arauca Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-ARA",
@@ -99,9 +108,13 @@
   "id": "region:CO-ATL",
   "type": "region",
   "names": {
-   "de": "Atlántico"
+   "de": "Departamento del Atlántico",
+   "en": "Atlántico Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Atlántico",
+   "Atlántico Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-ATL",
@@ -131,9 +144,13 @@
   "id": "region:CO-BOL",
   "type": "region",
   "names": {
-   "de": "Bolívar"
+   "de": "Departamento de Bolívar",
+   "en": "Bolívar Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Bolívar",
+   "Bolívar Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-BOL",
@@ -163,9 +180,13 @@
   "id": "region:CO-BOY",
   "type": "region",
   "names": {
-   "de": "Boyacá"
+   "de": "Departamento de Boyacá",
+   "en": "Boyacá Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Boyacá",
+   "Boyacá Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-BOY",
@@ -195,9 +216,13 @@
   "id": "region:CO-CAL",
   "type": "region",
   "names": {
-   "de": "Caldas"
+   "de": "Departamento de Caldas",
+   "en": "Caldas Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Caldas",
+   "Caldas Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-CAL",
@@ -227,9 +252,13 @@
   "id": "region:CO-CAQ",
   "type": "region",
   "names": {
-   "de": "Caquetá"
+   "de": "Departamento de Caquetá",
+   "en": "Caquetá Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Caquetá",
+   "Caquetá Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-CAQ",
@@ -259,9 +288,13 @@
   "id": "region:CO-CAS",
   "type": "region",
   "names": {
-   "de": "Casanare"
+   "de": "Departamento de Casanare",
+   "en": "Casanare Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Casanare",
+   "Casanare Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-CAS",
@@ -291,9 +324,13 @@
   "id": "region:CO-CAU",
   "type": "region",
   "names": {
-   "de": "Cauca"
+   "de": "Departamento del Cauca",
+   "en": "Cauca Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Cauca",
+   "Cauca Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-CAU",
@@ -323,9 +360,13 @@
   "id": "region:CO-CES",
   "type": "region",
   "names": {
-   "de": "Cesar"
+   "de": "Departamento del Cesar",
+   "en": "Cesar Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Cesar",
+   "Cesar Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-CES",
@@ -355,9 +396,13 @@
   "id": "region:CO-CHO",
   "type": "region",
   "names": {
-   "de": "Chocó"
+   "de": "Departamento del Chocó",
+   "en": "Chocó Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Chocó",
+   "Chocó Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-CHO",
@@ -387,9 +432,13 @@
   "id": "region:CO-COR",
   "type": "region",
   "names": {
-   "de": "Córdoba"
+   "de": "Departamento de Córdoba",
+   "en": "Córdoba Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Córdoba",
+   "Córdoba Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-COR",
@@ -419,7 +468,8 @@
   "id": "region:CO-CUN",
   "type": "region",
   "names": {
-   "de": "Cundinamarca"
+   "de": "Cundinamarca",
+   "en": "Cundinamarca Department"
   },
   "aliases": [],
   "media": [
@@ -451,7 +501,8 @@
   "id": "region:CO-DC",
   "type": "region",
   "names": {
-   "de": "Bogotá"
+   "de": "Bogotá",
+   "en": "Bogotá"
   },
   "aliases": [],
   "media": [
@@ -483,7 +534,8 @@
   "id": "region:CO-GUA",
   "type": "region",
   "names": {
-   "de": "Guainía"
+   "de": "Guainía",
+   "en": "Guainía Department"
   },
   "aliases": [],
   "media": [
@@ -515,7 +567,8 @@
   "id": "region:CO-GUV",
   "type": "region",
   "names": {
-   "de": "Guaviare"
+   "de": "Guaviare",
+   "en": "Guaviare Department"
   },
   "aliases": [],
   "media": [
@@ -547,9 +600,13 @@
   "id": "region:CO-HUI",
   "type": "region",
   "names": {
-   "de": "Huila"
+   "de": "Departamento de Huila",
+   "en": "Huila Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Huila",
+   "Huila Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-HUI",
@@ -579,7 +636,8 @@
   "id": "region:CO-LAG",
   "type": "region",
   "names": {
-   "de": "La Guajira"
+   "de": "La Guajira",
+   "en": "La Guajira Department"
   },
   "aliases": [],
   "media": [
@@ -611,9 +669,13 @@
   "id": "region:CO-MAG",
   "type": "region",
   "names": {
-   "de": "Magdalena"
+   "de": "Departamento del Magdalena",
+   "en": "Magdalena Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Magdalena",
+   "Magdalena Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-MAG",
@@ -643,7 +705,8 @@
   "id": "region:CO-MET",
   "type": "region",
   "names": {
-   "de": "Meta"
+   "de": "Meta",
+   "en": "Meta"
   },
   "aliases": [],
   "media": [
@@ -675,9 +738,13 @@
   "id": "region:CO-NAR",
   "type": "region",
   "names": {
-   "de": "Nariño"
+   "de": "Departamento de Nariño",
+   "en": "Nariño Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Nariño",
+   "Nariño Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-NAR",
@@ -707,9 +774,13 @@
   "id": "region:CO-NSA",
   "type": "region",
   "names": {
-   "de": "Norte de Santander"
+   "de": "Departamento de Norte de Santander",
+   "en": "Norte de Santander Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Norte de Santander",
+   "Norte de Santander Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-NSA",
@@ -739,9 +810,13 @@
   "id": "region:CO-PUT",
   "type": "region",
   "names": {
-   "de": "Putumayo"
+   "de": "Departamento de Putumayo",
+   "en": "Putumayo Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Putumayo",
+   "Putumayo Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-PUT",
@@ -771,9 +846,13 @@
   "id": "region:CO-QUI",
   "type": "region",
   "names": {
-   "de": "Quindío"
+   "de": "Departamento del Quindío",
+   "en": "Quindío Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Quindío",
+   "Quindío Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-QUI",
@@ -803,9 +882,13 @@
   "id": "region:CO-RIS",
   "type": "region",
   "names": {
-   "de": "Risaralda"
+   "de": "Departamento de Risaralda",
+   "en": "Risaralda Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Risaralda",
+   "Risaralda Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-RIS",
@@ -835,9 +918,13 @@
   "id": "region:CO-SAN",
   "type": "region",
   "names": {
-   "de": "Santander"
+   "de": "Departamento de Santander",
+   "en": "Santander Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Santander",
+   "Santander Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-SAN",
@@ -867,7 +954,8 @@
   "id": "region:CO-SAP",
   "type": "region",
   "names": {
-   "de": "San Andrés und Providencia"
+   "de": "San Andrés und Providencia",
+   "en": "Archipelago of San Andrés, Providencia and Santa Catalina"
   },
   "aliases": [],
   "media": [
@@ -899,9 +987,13 @@
   "id": "region:CO-SUC",
   "type": "region",
   "names": {
-   "de": "Sucre"
+   "de": "Departamento de Sucre",
+   "en": "Sucre Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Sucre",
+   "Sucre Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-SUC",
@@ -931,7 +1023,8 @@
   "id": "region:CO-TOL",
   "type": "region",
   "names": {
-   "de": "Tolima"
+   "de": "Tolima",
+   "en": "Tolima Department"
   },
   "aliases": [],
   "media": [
@@ -963,7 +1056,8 @@
   "id": "region:CO-VAC",
   "type": "region",
   "names": {
-   "de": "Valle del Cauca"
+   "de": "Valle del Cauca",
+   "en": "Valle del Cauca Department"
   },
   "aliases": [],
   "media": [
@@ -995,9 +1089,13 @@
   "id": "region:CO-VAU",
   "type": "region",
   "names": {
-   "de": "Vaupés"
+   "de": "Departamento del Vaupés",
+   "en": "Vaupés Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Vaupés",
+   "Vaupés Department"
+  ],
   "media": [
    {
     "id": "media:flag:CO-VAU",
@@ -1027,7 +1125,8 @@
   "id": "region:CO-VID",
   "type": "region",
   "names": {
-   "de": "Vichada"
+   "de": "Vichada",
+   "en": "Vichada Department"
   },
   "aliases": [],
   "media": [

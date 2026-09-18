@@ -3,7 +3,8 @@
   "id": "region:HU-BA",
   "type": "region",
   "names": {
-   "de": "Komitat Baranya"
+   "de": "Komitat Baranya",
+   "en": "Baranya County"
   },
   "aliases": [],
   "media": [
@@ -35,7 +36,8 @@
   "id": "region:HU-BC",
   "type": "region",
   "names": {
-   "de": "Békéscsaba"
+   "de": "Békéscsaba",
+   "en": "Békéscsaba"
   },
   "aliases": [],
   "media": [
@@ -67,7 +69,8 @@
   "id": "region:HU-BE",
   "type": "region",
   "names": {
-   "de": "Komitat Békés"
+   "de": "Komitat Békés",
+   "en": "Békés County"
   },
   "aliases": [],
   "media": [
@@ -99,7 +102,8 @@
   "id": "region:HU-BK",
   "type": "region",
   "names": {
-   "de": "Komitat Bács-Kiskun"
+   "de": "Komitat Bács-Kiskun",
+   "en": "Bács-Kiskun County"
   },
   "aliases": [],
   "media": [
@@ -131,7 +135,8 @@
   "id": "region:HU-BZ",
   "type": "region",
   "names": {
-   "de": "Komitat Borsod-Abaúj-Zemplén"
+   "de": "Komitat Borsod-Abaúj-Zemplén",
+   "en": "Borsod-Abaúj-Zemplén County"
   },
   "aliases": [],
   "media": [
@@ -163,7 +168,8 @@
   "id": "region:HU-CS",
   "type": "region",
   "names": {
-   "de": "Komitat Csongrád-Csanád"
+   "de": "Komitat Csongrád-Csanád",
+   "en": "Csongrád-Csanád County"
   },
   "aliases": [],
   "media": [
@@ -195,7 +201,8 @@
   "id": "region:HU-DE",
   "type": "region",
   "names": {
-   "de": "Debrecen"
+   "de": "Debrecen",
+   "en": "Debrecen"
   },
   "aliases": [],
   "media": [
@@ -227,9 +234,12 @@
   "id": "region:HU-DU",
   "type": "region",
   "names": {
-   "de": "Dunaújváros"
+   "de": "Neustadt an der Donau",
+   "en": "Dunaújváros"
   },
-  "aliases": [],
+  "aliases": [
+   "Dunaújváros"
+  ],
   "media": [
    {
     "id": "media:flag:HU-DU",
@@ -259,7 +269,8 @@
   "id": "region:HU-EG",
   "type": "region",
   "names": {
-   "de": "Eger"
+   "de": "Eger",
+   "en": "Eger"
   },
   "aliases": [],
   "media": [
@@ -291,7 +302,8 @@
   "id": "region:HU-FE",
   "type": "region",
   "names": {
-   "de": "Komitat Fejér"
+   "de": "Komitat Fejér",
+   "en": "Fejér County"
   },
   "aliases": [],
   "media": [
@@ -323,7 +335,8 @@
   "id": "region:HU-GS",
   "type": "region",
   "names": {
-   "de": "Komitat Győr-Moson-Sopron"
+   "de": "Komitat Győr-Moson-Sopron",
+   "en": "Győr-Moson-Sopron County"
   },
   "aliases": [],
   "media": [
@@ -355,7 +368,8 @@
   "id": "region:HU-GY",
   "type": "region",
   "names": {
-   "de": "Győr"
+   "de": "Győr",
+   "en": "Győr"
   },
   "aliases": [],
   "media": [
@@ -387,7 +401,8 @@
   "id": "region:HU-HB",
   "type": "region",
   "names": {
-   "de": "Komitat Hajdú-Bihar"
+   "de": "Komitat Hajdú-Bihar",
+   "en": "Hajdú-Bihar County"
   },
   "aliases": [],
   "media": [
@@ -419,7 +434,8 @@
   "id": "region:HU-HE",
   "type": "region",
   "names": {
-   "de": "Komitat Heves"
+   "de": "Komitat Heves",
+   "en": "Heves County"
   },
   "aliases": [],
   "media": [
@@ -451,7 +467,8 @@
   "id": "region:HU-HV",
   "type": "region",
   "names": {
-   "de": "Hódmezővásárhely"
+   "de": "Hódmezővásárhely",
+   "en": "Hódmezővásárhely"
   },
   "aliases": [],
   "media": [
@@ -483,7 +500,8 @@
   "id": "region:HU-JN",
   "type": "region",
   "names": {
-   "de": "Komitat Jász-Nagykun-Szolnok"
+   "de": "Komitat Jász-Nagykun-Szolnok",
+   "en": "Jász-Nagykun-Szolnok County"
   },
   "aliases": [],
   "media": [
@@ -515,7 +533,8 @@
   "id": "region:HU-KE",
   "type": "region",
   "names": {
-   "de": "Komitat Komárom-Esztergom"
+   "de": "Komitat Komárom-Esztergom",
+   "en": "Komárom-Esztergom County"
   },
   "aliases": [],
   "media": [
@@ -547,7 +566,8 @@
   "id": "region:HU-KM",
   "type": "region",
   "names": {
-   "de": "Kecskemét"
+   "de": "Kecskemét",
+   "en": "Kecskemét"
   },
   "aliases": [],
   "media": [
@@ -579,7 +599,8 @@
   "id": "region:HU-KV",
   "type": "region",
   "names": {
-   "de": "Kaposvár"
+   "de": "Kaposvár",
+   "en": "Kaposvár"
   },
   "aliases": [],
   "media": [
@@ -611,7 +632,8 @@
   "id": "region:HU-MI",
   "type": "region",
   "names": {
-   "de": "Miskolc"
+   "de": "Miskolc",
+   "en": "Miskolc"
   },
   "aliases": [],
   "media": [
@@ -643,7 +665,8 @@
   "id": "region:HU-NK",
   "type": "region",
   "names": {
-   "de": "Nagykanizsa"
+   "de": "Nagykanizsa",
+   "en": "Nagykanizsa"
   },
   "aliases": [],
   "media": [
@@ -675,7 +698,8 @@
   "id": "region:HU-NO",
   "type": "region",
   "names": {
-   "de": "Komitat Nógrád"
+   "de": "Komitat Nógrád",
+   "en": "Nógrád County"
   },
   "aliases": [],
   "media": [
@@ -707,7 +731,8 @@
   "id": "region:HU-NY",
   "type": "region",
   "names": {
-   "de": "Nyíregyháza"
+   "de": "Nyíregyháza",
+   "en": "Nyíregyháza"
   },
   "aliases": [],
   "media": [
@@ -739,7 +764,8 @@
   "id": "region:HU-PE",
   "type": "region",
   "names": {
-   "de": "Komitat Pest"
+   "de": "Komitat Pest",
+   "en": "Pest County"
   },
   "aliases": [],
   "media": [
@@ -771,7 +797,8 @@
   "id": "region:HU-PS",
   "type": "region",
   "names": {
-   "de": "Pécs"
+   "de": "Pécs",
+   "en": "Pécs"
   },
   "aliases": [],
   "media": [
@@ -803,7 +830,8 @@
   "id": "region:HU-SD",
   "type": "region",
   "names": {
-   "de": "Szeged"
+   "de": "Szeged",
+   "en": "Szeged"
   },
   "aliases": [],
   "media": [
@@ -835,7 +863,8 @@
   "id": "region:HU-SF",
   "type": "region",
   "names": {
-   "de": "Székesfehérvár"
+   "de": "Székesfehérvár",
+   "en": "Székesfehérvár"
   },
   "aliases": [],
   "media": [
@@ -867,7 +896,8 @@
   "id": "region:HU-SH",
   "type": "region",
   "names": {
-   "de": "Szombathely"
+   "de": "Szombathely",
+   "en": "Szombathely"
   },
   "aliases": [],
   "media": [
@@ -899,7 +929,8 @@
   "id": "region:HU-SK",
   "type": "region",
   "names": {
-   "de": "Szolnok"
+   "de": "Szolnok",
+   "en": "Szolnok"
   },
   "aliases": [],
   "media": [
@@ -931,7 +962,8 @@
   "id": "region:HU-SN",
   "type": "region",
   "names": {
-   "de": "Sopron"
+   "de": "Sopron",
+   "en": "Sopron"
   },
   "aliases": [],
   "media": [
@@ -963,7 +995,8 @@
   "id": "region:HU-SO",
   "type": "region",
   "names": {
-   "de": "Komitat Somogy"
+   "de": "Komitat Somogy",
+   "en": "Somogy County"
   },
   "aliases": [],
   "media": [
@@ -995,7 +1028,8 @@
   "id": "region:HU-SS",
   "type": "region",
   "names": {
-   "de": "Szekszárd"
+   "de": "Szekszárd",
+   "en": "Szekszárd"
   },
   "aliases": [],
   "media": [
@@ -1027,7 +1061,8 @@
   "id": "region:HU-ST",
   "type": "region",
   "names": {
-   "de": "Salgótarján"
+   "de": "Salgótarján",
+   "en": "Salgótarján"
   },
   "aliases": [],
   "media": [
@@ -1059,7 +1094,8 @@
   "id": "region:HU-SZ",
   "type": "region",
   "names": {
-   "de": "Komitat Szabolcs-Szatmár-Bereg"
+   "de": "Komitat Szabolcs-Szatmár-Bereg",
+   "en": "Szabolcs-Szatmár-Bereg County"
   },
   "aliases": [],
   "media": [
@@ -1091,7 +1127,8 @@
   "id": "region:HU-TB",
   "type": "region",
   "names": {
-   "de": "Tatabánya"
+   "de": "Tatabánya",
+   "en": "Tatabánya"
   },
   "aliases": [],
   "media": [
@@ -1123,7 +1160,8 @@
   "id": "region:HU-TO",
   "type": "region",
   "names": {
-   "de": "Komitat Tolna"
+   "de": "Komitat Tolna",
+   "en": "Tolna County"
   },
   "aliases": [],
   "media": [
@@ -1155,7 +1193,8 @@
   "id": "region:HU-VA",
   "type": "region",
   "names": {
-   "de": "Komitat Vas"
+   "de": "Komitat Vas",
+   "en": "Vas County"
   },
   "aliases": [],
   "media": [
@@ -1187,7 +1226,8 @@
   "id": "region:HU-VE",
   "type": "region",
   "names": {
-   "de": "Komitat Veszprém"
+   "de": "Komitat Veszprém",
+   "en": "Veszprém County"
   },
   "aliases": [],
   "media": [
@@ -1219,7 +1259,8 @@
   "id": "region:HU-VM",
   "type": "region",
   "names": {
-   "de": "Veszprém"
+   "de": "Veszprém",
+   "en": "Veszprém"
   },
   "aliases": [],
   "media": [
@@ -1251,7 +1292,8 @@
   "id": "region:HU-ZA",
   "type": "region",
   "names": {
-   "de": "Komitat Zala"
+   "de": "Komitat Zala",
+   "en": "Zala County"
   },
   "aliases": [],
   "media": [
@@ -1283,7 +1325,8 @@
   "id": "region:HU-ZE",
   "type": "region",
   "names": {
-   "de": "Zalaegerszeg"
+   "de": "Zalaegerszeg",
+   "en": "Zalaegerszeg"
   },
   "aliases": [],
   "media": [

@@ -3,9 +3,12 @@
   "id": "region:RU-AD",
   "type": "region",
   "names": {
-   "de": "Adygea"
+   "de": "Adygeja",
+   "en": "Adygea"
   },
-  "aliases": [],
+  "aliases": [
+   "Adygea"
+  ],
   "media": [
    {
     "id": "media:flag:RU-AD",
@@ -35,9 +38,13 @@
   "id": "region:RU-ARK",
   "type": "region",
   "names": {
-   "de": "Arkhangelsk Oblast"
+   "de": "Oblast Archangelsk",
+   "en": "Arkhangelsk Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Arkhangelsk Oblast",
+   "Archangelsk"
+  ],
   "media": [
    {
     "id": "media:flag:RU-ARK",
@@ -67,9 +74,13 @@
   "id": "region:RU-AST",
   "type": "region",
   "names": {
-   "de": "Astrakhan Oblast"
+   "de": "Oblast Astrachan",
+   "en": "Astrakhan Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Astrakhan Oblast",
+   "Astrachan"
+  ],
   "media": [
    {
     "id": "media:flag:RU-AST",
@@ -99,9 +110,12 @@
   "id": "region:RU-BA",
   "type": "region",
   "names": {
-   "de": "Bashkortostan"
+   "de": "Baschkortostan",
+   "en": "Bashkortostan"
   },
-  "aliases": [],
+  "aliases": [
+   "Bashkortostan"
+  ],
   "media": [
    {
     "id": "media:flag:RU-BA",
@@ -131,9 +145,13 @@
   "id": "region:RU-BEL",
   "type": "region",
   "names": {
-   "de": "Belgorod Oblast"
+   "de": "Oblast Belgorod",
+   "en": "Belgorod Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Belgorod Oblast",
+   "Belgorod"
+  ],
   "media": [
    {
     "id": "media:flag:RU-BEL",
@@ -163,9 +181,13 @@
   "id": "region:RU-BRY",
   "type": "region",
   "names": {
-   "de": "Bryansk Oblast"
+   "de": "Oblast Brjansk",
+   "en": "Bryansk Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Bryansk Oblast",
+   "Brjansk"
+  ],
   "media": [
    {
     "id": "media:flag:RU-BRY",
@@ -195,9 +217,12 @@
   "id": "region:RU-CE",
   "type": "region",
   "names": {
-   "de": "Chechnya"
+   "de": "Tschetschenien",
+   "en": "Chechnya"
   },
-  "aliases": [],
+  "aliases": [
+   "Chechnya"
+  ],
   "media": [
    {
     "id": "media:flag:RU-CE",
@@ -227,9 +252,13 @@
   "id": "region:RU-CHE",
   "type": "region",
   "names": {
-   "de": "Chelyabinsk Oblast"
+   "de": "Oblast Tscheljabinsk",
+   "en": "Chelyabinsk Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Chelyabinsk Oblast",
+   "Tscheljabinsk"
+  ],
   "media": [
    {
     "id": "media:flag:RU-CHE",
@@ -259,9 +288,12 @@
   "id": "region:RU-CU",
   "type": "region",
   "names": {
-   "de": "Chuvashia"
+   "de": "Tschuwaschien",
+   "en": "Chuvashia"
   },
-  "aliases": [],
+  "aliases": [
+   "Chuvashia"
+  ],
   "media": [
    {
     "id": "media:flag:RU-CU",
@@ -291,7 +323,8 @@
   "id": "region:RU-DA",
   "type": "region",
   "names": {
-   "de": "Dagestan"
+   "de": "Dagestan",
+   "en": "Dagestan"
   },
   "aliases": [],
   "media": [
@@ -323,9 +356,12 @@
   "id": "region:RU-IN",
   "type": "region",
   "names": {
-   "de": "Ingushetia"
+   "de": "Inguschetien",
+   "en": "Ingushetia"
   },
-  "aliases": [],
+  "aliases": [
+   "Ingushetia"
+  ],
   "media": [
    {
     "id": "media:flag:RU-IN",
@@ -355,9 +391,13 @@
   "id": "region:RU-IVA",
   "type": "region",
   "names": {
-   "de": "Ivanovo Oblast"
+   "de": "Oblast Iwanowo",
+   "en": "Ivanovo Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Ivanovo Oblast",
+   "Iwanowo"
+  ],
   "media": [
    {
     "id": "media:flag:RU-IVA",
@@ -387,9 +427,12 @@
   "id": "region:RU-KB",
   "type": "region",
   "names": {
-   "de": "Kabardino-Balkaria"
+   "de": "Kabardino-Balkarien",
+   "en": "Kabardino-Balkaria"
   },
-  "aliases": [],
+  "aliases": [
+   "Kabardino-Balkaria"
+  ],
   "media": [
    {
     "id": "media:flag:RU-KB",
@@ -419,9 +462,12 @@
   "id": "region:RU-KC",
   "type": "region",
   "names": {
-   "de": "Karachay-Cherkessia"
+   "de": "Karatschai-Tscherkessien",
+   "en": "Karachay-Cherkessia"
   },
-  "aliases": [],
+  "aliases": [
+   "Karachay-Cherkessia"
+  ],
   "media": [
    {
     "id": "media:flag:RU-KC",
@@ -451,9 +497,13 @@
   "id": "region:RU-KDA",
   "type": "region",
   "names": {
-   "de": "Krasnodar Krai"
+   "de": "Region Krasnodar",
+   "en": "Krasnodar Krai"
   },
-  "aliases": [],
+  "aliases": [
+   "Krasnodar Krai",
+   "Krasnodar"
+  ],
   "media": [
    {
     "id": "media:flag:RU-KDA",
@@ -483,9 +533,13 @@
   "id": "region:RU-KGD",
   "type": "region",
   "names": {
-   "de": "Kaliningrad"
+   "de": "Oblast Kaliningrad",
+   "en": "Kaliningrad Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Kaliningrad",
+   "Kaliningrad Oblast"
+  ],
   "media": [
    {
     "id": "media:flag:RU-KGD",
@@ -515,9 +569,13 @@
   "id": "region:RU-KHM",
   "type": "region",
   "names": {
-   "de": "Khanty-Mansiysk Autonomous Okrug – Ugra"
+   "de": "Autonomer Kreis der Chanten und Mansen/Jugra",
+   "en": "Khanty-Mansi Autonomous District"
   },
-  "aliases": [],
+  "aliases": [
+   "Khanty-Mansiysk Autonomous Okrug – Ugra",
+   "Khanty-Mansi Autonomous District"
+  ],
   "media": [
    {
     "id": "media:flag:RU-KHM",
@@ -547,9 +605,13 @@
   "id": "region:RU-KIR",
   "type": "region",
   "names": {
-   "de": "Kirov Oblast"
+   "de": "Oblast Kirow",
+   "en": "Kirov Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Kirov Oblast",
+   "Kirow"
+  ],
   "media": [
    {
     "id": "media:flag:RU-KIR",
@@ -579,9 +641,12 @@
   "id": "region:RU-KL",
   "type": "region",
   "names": {
-   "de": "Kalmykia"
+   "de": "Kalmückien",
+   "en": "Kalmykia"
   },
-  "aliases": [],
+  "aliases": [
+   "Kalmykia"
+  ],
   "media": [
    {
     "id": "media:flag:RU-KL",
@@ -611,9 +676,13 @@
   "id": "region:RU-KLU",
   "type": "region",
   "names": {
-   "de": "Kaluga Oblast"
+   "de": "Oblast Kaluga",
+   "en": "Kaluga Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Kaluga Oblast",
+   "Kaluga"
+  ],
   "media": [
    {
     "id": "media:flag:RU-KLU",
@@ -643,9 +712,12 @@
   "id": "region:RU-KO",
   "type": "region",
   "names": {
-   "de": "Komi Republic"
+   "de": "Republik Komi",
+   "en": "Komi Republic"
   },
-  "aliases": [],
+  "aliases": [
+   "Komi Republic"
+  ],
   "media": [
    {
     "id": "media:flag:RU-KO",
@@ -675,9 +747,13 @@
   "id": "region:RU-KOS",
   "type": "region",
   "names": {
-   "de": "Kostroma Oblast"
+   "de": "Oblast Kostroma",
+   "en": "Kostroma Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Kostroma Oblast",
+   "Kostroma"
+  ],
   "media": [
    {
     "id": "media:flag:RU-KOS",
@@ -707,9 +783,13 @@
   "id": "region:RU-KR",
   "type": "region",
   "names": {
-   "de": "Republic of Karelia"
+   "de": "Karelien",
+   "en": "Karelia"
   },
-  "aliases": [],
+  "aliases": [
+   "Republic of Karelia",
+   "Karelia"
+  ],
   "media": [
    {
     "id": "media:flag:RU-KR",
@@ -739,9 +819,13 @@
   "id": "region:RU-KRS",
   "type": "region",
   "names": {
-   "de": "Kursk Oblast"
+   "de": "Oblast Kursk",
+   "en": "Kursk Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Kursk Oblast",
+   "Kursk"
+  ],
   "media": [
    {
     "id": "media:flag:RU-KRS",
@@ -771,9 +855,14 @@
   "id": "region:RU-LEN",
   "type": "region",
   "names": {
-   "de": "Leningrad oblast"
+   "de": "Oblast Leningrad",
+   "en": "Leningrad Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Leningrad oblast",
+   "Leningrad Oblast",
+   "Leningrad"
+  ],
   "media": [
    {
     "id": "media:flag:RU-LEN",
@@ -803,9 +892,13 @@
   "id": "region:RU-LIP",
   "type": "region",
   "names": {
-   "de": "Lipetsk Oblast"
+   "de": "Oblast Lipezk",
+   "en": "Lipetsk Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Lipetsk Oblast",
+   "Lipezk"
+  ],
   "media": [
    {
     "id": "media:flag:RU-LIP",
@@ -835,7 +928,8 @@
   "id": "region:RU-ME",
   "type": "region",
   "names": {
-   "de": "Mari El"
+   "de": "Mari El",
+   "en": "Mari El"
   },
   "aliases": [],
   "media": [
@@ -867,9 +961,13 @@
   "id": "region:RU-MO",
   "type": "region",
   "names": {
-   "de": "Republic of Mordovia"
+   "de": "Mordwinien",
+   "en": "Mordovia"
   },
-  "aliases": [],
+  "aliases": [
+   "Republic of Mordovia",
+   "Mordovia"
+  ],
   "media": [
    {
     "id": "media:flag:RU-MO",
@@ -899,9 +997,13 @@
   "id": "region:RU-MOS",
   "type": "region",
   "names": {
-   "de": "Moscow Oblast"
+   "de": "Oblast Moskau",
+   "en": "Moscow Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Moscow Oblast",
+   "Moskau"
+  ],
   "media": [
    {
     "id": "media:flag:RU-MOS",
@@ -931,9 +1033,12 @@
   "id": "region:RU-MOW",
   "type": "region",
   "names": {
-   "de": "Moscow"
+   "de": "Moskau",
+   "en": "Moscow"
   },
-  "aliases": [],
+  "aliases": [
+   "Moscow"
+  ],
   "media": [
    {
     "id": "media:flag:RU-MOW",
@@ -963,9 +1068,13 @@
   "id": "region:RU-MUR",
   "type": "region",
   "names": {
-   "de": "Murmansk Oblast"
+   "de": "Oblast Murmansk",
+   "en": "Murmansk Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Murmansk Oblast",
+   "Murmansk"
+  ],
   "media": [
    {
     "id": "media:flag:RU-MUR",
@@ -995,9 +1104,13 @@
   "id": "region:RU-NEN",
   "type": "region",
   "names": {
-   "de": "Nenets Autonomous Okrug"
+   "de": "Autonomer Kreis der Nenzen",
+   "en": "Nenets Autonomous District"
   },
-  "aliases": [],
+  "aliases": [
+   "Nenets Autonomous Okrug",
+   "Nenets Autonomous District"
+  ],
   "media": [
    {
     "id": "media:flag:RU-NEN",
@@ -1027,9 +1140,13 @@
   "id": "region:RU-NGR",
   "type": "region",
   "names": {
-   "de": "Novgorod Oblast"
+   "de": "Oblast Nowgorod",
+   "en": "Novgorod Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Novgorod Oblast",
+   "Nowgorod"
+  ],
   "media": [
    {
     "id": "media:flag:RU-NGR",
@@ -1059,9 +1176,13 @@
   "id": "region:RU-NIZ",
   "type": "region",
   "names": {
-   "de": "Nizhny Novgorod Oblast"
+   "de": "Oblast Nischni Nowgorod",
+   "en": "Nizhny Novgorod Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Nizhny Novgorod Oblast",
+   "Nischni Nowgorod"
+  ],
   "media": [
    {
     "id": "media:flag:RU-NIZ",
@@ -1091,9 +1212,13 @@
   "id": "region:RU-ORE",
   "type": "region",
   "names": {
-   "de": "Orenburg Oblast"
+   "de": "Oblast Orenburg",
+   "en": "Orenburg Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Orenburg Oblast",
+   "Orenburg"
+  ],
   "media": [
    {
     "id": "media:flag:RU-ORE",
@@ -1123,9 +1248,13 @@
   "id": "region:RU-ORL",
   "type": "region",
   "names": {
-   "de": "Oryol Oblast"
+   "de": "Oblast Orjol",
+   "en": "Oryol Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Oryol Oblast",
+   "Orjol"
+  ],
   "media": [
    {
     "id": "media:flag:RU-ORL",
@@ -1155,9 +1284,13 @@
   "id": "region:RU-PER",
   "type": "region",
   "names": {
-   "de": "Perm Krai"
+   "de": "Region Perm",
+   "en": "Perm Krai"
   },
-  "aliases": [],
+  "aliases": [
+   "Perm Krai",
+   "Perm"
+  ],
   "media": [
    {
     "id": "media:flag:RU-PER",
@@ -1187,9 +1320,13 @@
   "id": "region:RU-PNZ",
   "type": "region",
   "names": {
-   "de": "Penza Oblast"
+   "de": "Oblast Pensa",
+   "en": "Penza Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Penza Oblast",
+   "Pensa"
+  ],
   "media": [
    {
     "id": "media:flag:RU-PNZ",
@@ -1219,9 +1356,13 @@
   "id": "region:RU-PSK",
   "type": "region",
   "names": {
-   "de": "Pskov Oblast"
+   "de": "Oblast Pskow",
+   "en": "Pskov Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Pskov Oblast",
+   "Pskow"
+  ],
   "media": [
    {
     "id": "media:flag:RU-PSK",
@@ -1251,9 +1392,13 @@
   "id": "region:RU-ROS",
   "type": "region",
   "names": {
-   "de": "Rostov Oblast"
+   "de": "Oblast Rostow",
+   "en": "Rostov Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Rostov Oblast",
+   "Rostow"
+  ],
   "media": [
    {
     "id": "media:flag:RU-ROS",
@@ -1283,9 +1428,13 @@
   "id": "region:RU-RYA",
   "type": "region",
   "names": {
-   "de": "Ryazan Oblast"
+   "de": "Oblast Rjasan",
+   "en": "Ryazan Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Ryazan Oblast",
+   "Rjasan"
+  ],
   "media": [
    {
     "id": "media:flag:RU-RYA",
@@ -1315,9 +1464,13 @@
   "id": "region:RU-SAM",
   "type": "region",
   "names": {
-   "de": "Samara Oblast"
+   "de": "Oblast Samara",
+   "en": "Samara Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Samara Oblast",
+   "Samara"
+  ],
   "media": [
    {
     "id": "media:flag:RU-SAM",
@@ -1347,9 +1500,13 @@
   "id": "region:RU-SAR",
   "type": "region",
   "names": {
-   "de": "Saratov Oblast"
+   "de": "Oblast Saratow",
+   "en": "Saratov Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Saratov Oblast",
+   "Saratow"
+  ],
   "media": [
    {
     "id": "media:flag:RU-SAR",
@@ -1379,9 +1536,12 @@
   "id": "region:RU-SE",
   "type": "region",
   "names": {
-   "de": "North Ossetia–Alania"
+   "de": "Nordossetien-Alanien",
+   "en": "North Ossetia–Alania"
   },
-  "aliases": [],
+  "aliases": [
+   "North Ossetia–Alania"
+  ],
   "media": [
    {
     "id": "media:flag:RU-SE",
@@ -1411,9 +1571,13 @@
   "id": "region:RU-SMO",
   "type": "region",
   "names": {
-   "de": "Smolensk Oblast"
+   "de": "Oblast Smolensk",
+   "en": "Smolensk Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Smolensk Oblast",
+   "Smolensk"
+  ],
   "media": [
    {
     "id": "media:flag:RU-SMO",
@@ -1443,9 +1607,12 @@
   "id": "region:RU-SPE",
   "type": "region",
   "names": {
-   "de": "Saint Petersburg"
+   "de": "Sankt Petersburg",
+   "en": "Saint Petersburg"
   },
-  "aliases": [],
+  "aliases": [
+   "Saint Petersburg"
+  ],
   "media": [
    {
     "id": "media:flag:RU-SPE",
@@ -1475,9 +1642,13 @@
   "id": "region:RU-STA",
   "type": "region",
   "names": {
-   "de": "Stavropol Krai"
+   "de": "Region Stawropol",
+   "en": "Stavropol Krai"
   },
-  "aliases": [],
+  "aliases": [
+   "Stavropol Krai",
+   "Stawropol"
+  ],
   "media": [
    {
     "id": "media:flag:RU-STA",
@@ -1507,9 +1678,13 @@
   "id": "region:RU-SVE",
   "type": "region",
   "names": {
-   "de": "Sverdlovsk Oblast"
+   "de": "Oblast Swerdlowsk",
+   "en": "Sverdlovsk Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Sverdlovsk Oblast",
+   "Swerdlowsk"
+  ],
   "media": [
    {
     "id": "media:flag:RU-SVE",
@@ -1539,7 +1714,8 @@
   "id": "region:RU-TA",
   "type": "region",
   "names": {
-   "de": "Tatarstan"
+   "de": "Tatarstan",
+   "en": "Tatarstan"
   },
   "aliases": [],
   "media": [
@@ -1571,9 +1747,13 @@
   "id": "region:RU-TAM",
   "type": "region",
   "names": {
-   "de": "Tambov Oblast"
+   "de": "Oblast Tambow",
+   "en": "Tambov Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Tambov Oblast",
+   "Tambow"
+  ],
   "media": [
    {
     "id": "media:flag:RU-TAM",
@@ -1603,9 +1783,13 @@
   "id": "region:RU-TUL",
   "type": "region",
   "names": {
-   "de": "Tula Oblast"
+   "de": "Oblast Tula",
+   "en": "Tula Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Tula Oblast",
+   "Tula"
+  ],
   "media": [
    {
     "id": "media:flag:RU-TUL",
@@ -1635,9 +1819,13 @@
   "id": "region:RU-TVE",
   "type": "region",
   "names": {
-   "de": "Tver Oblast"
+   "de": "Oblast Twer",
+   "en": "Tver Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Tver Oblast",
+   "Twer"
+  ],
   "media": [
    {
     "id": "media:flag:RU-TVE",
@@ -1667,9 +1855,12 @@
   "id": "region:RU-UD",
   "type": "region",
   "names": {
-   "de": "Udmurtia"
+   "de": "Udmurtien",
+   "en": "Udmurtia"
   },
-  "aliases": [],
+  "aliases": [
+   "Udmurtia"
+  ],
   "media": [
    {
     "id": "media:flag:RU-UD",
@@ -1699,9 +1890,13 @@
   "id": "region:RU-ULY",
   "type": "region",
   "names": {
-   "de": "Ulyanovsk Oblast"
+   "de": "Oblast Uljanowsk",
+   "en": "Ulyanovsk Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Ulyanovsk Oblast",
+   "Uljanowsk"
+  ],
   "media": [
    {
     "id": "media:flag:RU-ULY",
@@ -1731,9 +1926,13 @@
   "id": "region:RU-VGG",
   "type": "region",
   "names": {
-   "de": "Volgograd Oblast"
+   "de": "Oblast Wolgograd",
+   "en": "Volgograd Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Volgograd Oblast",
+   "Wolgograd"
+  ],
   "media": [
    {
     "id": "media:flag:RU-VGG",
@@ -1763,9 +1962,13 @@
   "id": "region:RU-VLA",
   "type": "region",
   "names": {
-   "de": "Vladimir Oblast"
+   "de": "Oblast Wladimir",
+   "en": "Vladimir Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Vladimir Oblast",
+   "Wladimir"
+  ],
   "media": [
    {
     "id": "media:flag:RU-VLA",
@@ -1795,9 +1998,13 @@
   "id": "region:RU-VLG",
   "type": "region",
   "names": {
-   "de": "Vologda Oblast"
+   "de": "Oblast Wologda",
+   "en": "Vologda Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Vologda Oblast",
+   "Wologda"
+  ],
   "media": [
    {
     "id": "media:flag:RU-VLG",
@@ -1827,9 +2034,13 @@
   "id": "region:RU-VOR",
   "type": "region",
   "names": {
-   "de": "Voronezh Oblast"
+   "de": "Oblast Woronesch",
+   "en": "Voronezh Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Voronezh Oblast",
+   "Woronesch"
+  ],
   "media": [
    {
     "id": "media:flag:RU-VOR",
@@ -1859,9 +2070,13 @@
   "id": "region:RU-YAR",
   "type": "region",
   "names": {
-   "de": "Yaroslavl Oblast"
+   "de": "Oblast Jaroslawl",
+   "en": "Yaroslavl Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Yaroslavl Oblast",
+   "Jaroslawl"
+  ],
   "media": [
    {
     "id": "media:flag:RU-YAR",

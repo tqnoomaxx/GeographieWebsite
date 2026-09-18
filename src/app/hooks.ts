@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
-import { getRepository } from '@/services/progress'
+import { getRepository, onRepositoryChange } from '@/services/progress'
 import type { UserStats } from '@/services/progress/types'
 import { levelForXp } from '@/config/levels'
 
@@ -23,6 +23,10 @@ export function useAsync<T>(fn: () => Promise<T>, deps: unknown[]) {
 
 export function useStats() {
   const { data, reload } = useAsync(() => getRepository().getStats(), [])
+  useEffect(() => {
+    const off = onRepositoryChange(reload)
+    return () => void off()
+  }, [reload])
   const stats: UserStats | undefined = data
   const level = stats ? levelForXp(stats.xp) : undefined
   return { stats, level, reload }

@@ -3,7 +3,8 @@
   "id": "region:DE-BB",
   "type": "region",
   "names": {
-   "de": "Brandenburg"
+   "de": "Brandenburg",
+   "en": "Brandenburg"
   },
   "aliases": [],
   "media": [
@@ -36,7 +37,8 @@
   "id": "region:DE-BE",
   "type": "region",
   "names": {
-   "de": "Berlin"
+   "de": "Berlin",
+   "en": "Berlin"
   },
   "aliases": [],
   "media": [
@@ -69,7 +71,8 @@
   "id": "region:DE-BW",
   "type": "region",
   "names": {
-   "de": "Baden-Württemberg"
+   "de": "Baden-Württemberg",
+   "en": "Baden-Württemberg"
   },
   "aliases": [],
   "media": [
@@ -102,7 +105,8 @@
   "id": "region:DE-BY",
   "type": "region",
   "names": {
-   "de": "Bayern"
+   "de": "Bayern",
+   "en": "Bavaria"
   },
   "aliases": [],
   "media": [
@@ -135,9 +139,12 @@
   "id": "region:DE-HB",
   "type": "region",
   "names": {
-   "de": "Bremen"
+   "de": "Freie Hansestadt Bremen",
+   "en": "Bremen"
   },
-  "aliases": [],
+  "aliases": [
+   "Bremen"
+  ],
   "media": [
    {
     "id": "media:flag:DE-HB",
@@ -168,7 +175,8 @@
   "id": "region:DE-HE",
   "type": "region",
   "names": {
-   "de": "Hessen"
+   "de": "Hessen",
+   "en": "Hesse"
   },
   "aliases": [],
   "media": [
@@ -201,7 +209,8 @@
   "id": "region:DE-HH",
   "type": "region",
   "names": {
-   "de": "Hamburg"
+   "de": "Hamburg",
+   "en": "Hamburg"
   },
   "aliases": [],
   "media": [
@@ -234,7 +243,8 @@
   "id": "region:DE-MV",
   "type": "region",
   "names": {
-   "de": "Mecklenburg-Vorpommern"
+   "de": "Mecklenburg-Vorpommern",
+   "en": "Mecklenburg-Vorpommern"
   },
   "aliases": [],
   "media": [
@@ -267,7 +277,8 @@
   "id": "region:DE-NI",
   "type": "region",
   "names": {
-   "de": "Niedersachsen"
+   "de": "Niedersachsen",
+   "en": "Lower Saxony"
   },
   "aliases": [],
   "media": [
@@ -300,7 +311,8 @@
   "id": "region:DE-NW",
   "type": "region",
   "names": {
-   "de": "Nordrhein-Westfalen"
+   "de": "Nordrhein-Westfalen",
+   "en": "North Rhine-Westphalia"
   },
   "aliases": [],
   "media": [
@@ -333,7 +345,8 @@
   "id": "region:DE-RP",
   "type": "region",
   "names": {
-   "de": "Rheinland-Pfalz"
+   "de": "Rheinland-Pfalz",
+   "en": "Rhineland-Palatinate"
   },
   "aliases": [],
   "media": [
@@ -366,7 +379,8 @@
   "id": "region:DE-SH",
   "type": "region",
   "names": {
-   "de": "Schleswig-Holstein"
+   "de": "Schleswig-Holstein",
+   "en": "Schleswig-Holstein"
   },
   "aliases": [],
   "media": [
@@ -399,7 +413,8 @@
   "id": "region:DE-SL",
   "type": "region",
   "names": {
-   "de": "Saarland"
+   "de": "Saarland",
+   "en": "Saarland"
   },
   "aliases": [],
   "media": [
@@ -432,7 +447,8 @@
   "id": "region:DE-SN",
   "type": "region",
   "names": {
-   "de": "Sachsen"
+   "de": "Sachsen",
+   "en": "Saxony"
   },
   "aliases": [],
   "media": [
@@ -465,7 +481,8 @@
   "id": "region:DE-ST",
   "type": "region",
   "names": {
-   "de": "Sachsen-Anhalt"
+   "de": "Sachsen-Anhalt",
+   "en": "Saxony-Anhalt"
   },
   "aliases": [],
   "media": [
@@ -498,7 +515,8 @@
   "id": "region:DE-TH",
   "type": "region",
   "names": {
-   "de": "Thüringen"
+   "de": "Thüringen",
+   "en": "Thuringia"
   },
   "aliases": [],
   "media": [

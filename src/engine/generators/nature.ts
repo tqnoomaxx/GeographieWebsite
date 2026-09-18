@@ -1,10 +1,10 @@
 import type { Generator } from './base'
-import { qid, effectiveDifficulty, nameOf, options } from './base'
+import { qid, effectiveDifficulty, nameOf, options, countryPool as sovereignPool } from './base'
 import type { GeneratorContext } from '../types'
 import type { Entity } from '@/domain/types'
 
 const countriesOf = (e: Entity, ctx: GeneratorContext) => ((e.attributes.countries as string[]) ?? []).map((id) => ctx.byId.get(id)).filter((x): x is Entity => !!x)
-const countryPool = (ctx: GeneratorContext) => (ctx.countries.length >= 4 ? ctx.countries : [...ctx.byId.values()].filter((e) => e.type === 'country'))
+const countryPool = (ctx: GeneratorContext) => sovereignPool(ctx)
 
 function toCountry(id: string, category: 'water' | 'nature', promptKey: string, pool: (ctx: GeneratorContext) => Entity[]): Generator {
   return {

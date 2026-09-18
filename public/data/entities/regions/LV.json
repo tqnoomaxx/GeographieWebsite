@@ -3,9 +3,13 @@
   "id": "region:LV-007",
   "type": "region",
   "names": {
-   "de": "Alūksnes novads"
+   "de": "Bezirksgemeinde Alūksne",
+   "en": "Alūksne Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Alūksnes novads",
+   "Alūksne Municipality"
+  ],
   "media": [
    {
     "id": "media:flag:LV-007",
@@ -35,9 +39,13 @@
   "id": "region:LV-011",
   "type": "region",
   "names": {
-   "de": "Ādažu novads"
+   "de": "Bezirksgemeinde Ādaži",
+   "en": "Ādaži Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Ādažu novads",
+   "Ādaži Municipality"
+  ],
   "media": [
    {
     "id": "media:flag:LV-011",
@@ -67,9 +75,14 @@
   "id": "region:LV-015",
   "type": "region",
   "names": {
-   "de": "Balvu novads"
+   "de": "Bezirk Balvi",
+   "en": "Balvi Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Balvu novads",
+   "Balvi Municipality",
+   "Balvi"
+  ],
   "media": [
    {
     "id": "media:flag:LV-015",
@@ -99,9 +112,13 @@
   "id": "region:LV-016",
   "type": "region",
   "names": {
-   "de": "Bauskas novads"
+   "de": "Bezirksgemeinde Bauska",
+   "en": "Bauska Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Bauskas novads",
+   "Bauska Municipality"
+  ],
   "media": [
    {
     "id": "media:flag:LV-016",
@@ -131,9 +148,14 @@
   "id": "region:LV-022",
   "type": "region",
   "names": {
-   "de": "Cēsu novads"
+   "de": "Bezirk Cēsis",
+   "en": "Cēsis Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Cēsu novads",
+   "Cēsis Municipality",
+   "Cēsis"
+  ],
   "media": [
    {
     "id": "media:flag:LV-022",
@@ -163,9 +185,13 @@
   "id": "region:LV-041",
   "type": "region",
   "names": {
-   "de": "Jelgavas novads"
+   "de": "Bezirksgemeinde Jelgava",
+   "en": "Jelgava Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Jelgavas novads",
+   "Jelgava Municipality"
+  ],
   "media": [
    {
     "id": "media:flag:LV-041",
@@ -195,9 +221,13 @@
   "id": "region:LV-042",
   "type": "region",
   "names": {
-   "de": "Jēkabpils novads"
+   "de": "Bezirksgemeinde Jēkabpils",
+   "en": "Jēkabpils Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Jēkabpils novads",
+   "Jēkabpils Municipality"
+  ],
   "media": [
    {
     "id": "media:flag:LV-042",
@@ -227,9 +257,13 @@
   "id": "region:LV-052",
   "type": "region",
   "names": {
-   "de": "Ķekavas novads"
+   "de": "Bezirksgemeinde Ķekava",
+   "en": "Ķekava Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Ķekavas novads",
+   "Ķekava Municipality"
+  ],
   "media": [
    {
     "id": "media:flag:LV-052",
@@ -259,9 +293,13 @@
   "id": "region:LV-054",
   "type": "region",
   "names": {
-   "de": "Limbažu novads"
+   "de": "Bezirksgemeinde Limbaži",
+   "en": "Limbaži Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Limbažu novads",
+   "Limbaži Municipality"
+  ],
   "media": [
    {
     "id": "media:flag:LV-054",
@@ -291,9 +329,13 @@
   "id": "region:LV-080",
   "type": "region",
   "names": {
-   "de": "Ropažu novads"
+   "de": "Bezirksgemeinde Ropaži",
+   "en": "Ropaži Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Ropažu novads",
+   "Ropaži Municipality"
+  ],
   "media": [
    {
     "id": "media:flag:LV-080",
@@ -323,9 +365,13 @@
   "id": "region:LV-088",
   "type": "region",
   "names": {
-   "de": "Saldus novads"
+   "de": "Bezirksgemeinde Saldus",
+   "en": "Saldus Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Saldus novads",
+   "Saldus Municipality"
+  ],
   "media": [
    {
     "id": "media:flag:LV-088",
@@ -355,9 +401,13 @@
   "id": "region:LV-089",
   "type": "region",
   "names": {
-   "de": "Saulkrastu novads"
+   "de": "Bezirksgemeinde Saulkrasti",
+   "en": "Saulkrasti Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Saulkrastu novads",
+   "Saulkrasti Municipality"
+  ],
   "media": [
    {
     "id": "media:flag:LV-089",
@@ -387,9 +437,13 @@
   "id": "region:LV-094",
   "type": "region",
   "names": {
-   "de": "Smiltenes novads"
+   "de": "Bezirksgemeinde Smiltene",
+   "en": "Smiltene Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Smiltenes novads",
+   "Smiltene Municipality"
+  ],
   "media": [
    {
     "id": "media:flag:LV-094",
@@ -419,9 +473,13 @@
   "id": "region:LV-106",
   "type": "region",
   "names": {
-   "de": "Ventspils novads"
+   "de": "Bezirksgemeinde Ventspils",
+   "en": "Ventspils Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Ventspils novads",
+   "Ventspils Municipality"
+  ],
   "media": [
    {
     "id": "media:flag:LV-106",
@@ -451,9 +509,13 @@
   "id": "region:LV-111",
   "type": "region",
   "names": {
-   "de": "Augšdaugavas novads"
+   "de": "Bezirksgemeinde Augšdaugava",
+   "en": "Augšdaugava Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Augšdaugavas novads",
+   "Augšdaugava Municipality"
+  ],
   "media": [
    {
     "id": "media:flag:LV-111",
@@ -483,9 +545,13 @@
   "id": "region:LV-112",
   "type": "region",
   "names": {
-   "de": "Dienvidkurzemes novads"
+   "de": "Bezirksgemeinde Dienvidkurzeme",
+   "en": "South Kurzeme Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Dienvidkurzemes novads",
+   "South Kurzeme Municipality"
+  ],
   "media": [
    {
     "id": "media:flag:LV-112",
@@ -515,9 +581,13 @@
   "id": "region:LV-113",
   "type": "region",
   "names": {
-   "de": "Valmieras novads"
+   "de": "Bezirksgemeinde Valmiera",
+   "en": "Valmiera Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Valmieras novads",
+   "Valmiera Municipality"
+  ],
   "media": [
    {
     "id": "media:flag:LV-113",
@@ -547,7 +617,8 @@
   "id": "region:LV-DGV",
   "type": "region",
   "names": {
-   "de": "Daugavpils"
+   "de": "Daugavpils",
+   "en": "Daugavpils"
   },
   "aliases": [],
   "media": [
@@ -579,9 +650,12 @@
   "id": "region:LV-JEL",
   "type": "region",
   "names": {
-   "de": "Jelgavas"
+   "de": "Jelgava",
+   "en": "Jelgava"
   },
-  "aliases": [],
+  "aliases": [
+   "Jelgavas"
+  ],
   "media": [
    {
     "id": "media:flag:LV-JEL",
@@ -611,9 +685,12 @@
   "id": "region:LV-JUR",
   "type": "region",
   "names": {
-   "de": "Jūrmalas"
+   "de": "Jūrmala",
+   "en": "Jūrmala"
   },
-  "aliases": [],
+  "aliases": [
+   "Jūrmalas"
+  ],
   "media": [
    {
     "id": "media:flag:LV-JUR",
@@ -643,9 +720,13 @@
   "id": "region:LV-LPX",
   "type": "region",
   "names": {
-   "de": "Liepājas"
+   "de": "Libau",
+   "en": "Liepāja"
   },
-  "aliases": [],
+  "aliases": [
+   "Liepājas",
+   "Liepāja"
+  ],
   "media": [
    {
     "id": "media:flag:LV-LPX",
@@ -675,9 +756,12 @@
   "id": "region:LV-REZ",
   "type": "region",
   "names": {
-   "de": "Rēzeknes"
+   "de": "Rēzekne",
+   "en": "Rēzekne"
   },
-  "aliases": [],
+  "aliases": [
+   "Rēzeknes"
+  ],
   "media": [
    {
     "id": "media:flag:LV-REZ",
@@ -707,9 +791,12 @@
   "id": "region:LV-RIX",
   "type": "region",
   "names": {
-   "de": "Rīga"
+   "de": "Riga",
+   "en": "Riga"
   },
-  "aliases": [],
+  "aliases": [
+   "Rīga"
+  ],
   "media": [
    {
     "id": "media:flag:LV-RIX",
@@ -739,7 +826,8 @@
   "id": "region:LV-VEN",
   "type": "region",
   "names": {
-   "de": "Ventspils"
+   "de": "Ventspils",
+   "en": "Ventspils"
   },
   "aliases": [],
   "media": [

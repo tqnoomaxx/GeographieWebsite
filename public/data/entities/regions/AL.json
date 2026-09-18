@@ -3,9 +3,13 @@
   "id": "region:AL-01",
   "type": "region",
   "names": {
-   "de": "Berat"
+   "de": "Qark Berat",
+   "en": "Berat County"
   },
-  "aliases": [],
+  "aliases": [
+   "Berat",
+   "Berat County"
+  ],
   "media": [
    {
     "id": "media:flag:AL-01",
@@ -35,9 +39,13 @@
   "id": "region:AL-02",
   "type": "region",
   "names": {
-   "de": "Durrës"
+   "de": "Qark Durrës",
+   "en": "Durrës County"
   },
-  "aliases": [],
+  "aliases": [
+   "Durrës",
+   "Durrës County"
+  ],
   "media": [
    {
     "id": "media:flag:AL-02",
@@ -67,9 +75,13 @@
   "id": "region:AL-03",
   "type": "region",
   "names": {
-   "de": "Elbasan"
+   "de": "Qark Elbasan",
+   "en": "Elbasan County"
   },
-  "aliases": [],
+  "aliases": [
+   "Elbasan",
+   "Elbasan County"
+  ],
   "media": [
    {
     "id": "media:flag:AL-03",
@@ -99,9 +111,13 @@
   "id": "region:AL-06",
   "type": "region",
   "names": {
-   "de": "Korçë"
+   "de": "Qark Korça",
+   "en": "Korçë County"
   },
-  "aliases": [],
+  "aliases": [
+   "Korçë",
+   "Korçë County"
+  ],
   "media": [
    {
     "id": "media:flag:AL-06",
@@ -131,9 +147,13 @@
   "id": "region:AL-07",
   "type": "region",
   "names": {
-   "de": "Kukës"
+   "de": "Qark Kukës",
+   "en": "Kukës County"
   },
-  "aliases": [],
+  "aliases": [
+   "Kukës",
+   "Kukës County"
+  ],
   "media": [
    {
     "id": "media:flag:AL-07",
@@ -163,9 +183,13 @@
   "id": "region:AL-09",
   "type": "region",
   "names": {
-   "de": "Dibër"
+   "de": "Qark Dibra",
+   "en": "Dibra County"
   },
-  "aliases": [],
+  "aliases": [
+   "Dibër",
+   "Dibra County"
+  ],
   "media": [
    {
     "id": "media:flag:AL-09",
@@ -195,9 +219,13 @@
   "id": "region:AL-11",
   "type": "region",
   "names": {
-   "de": "Tiranë"
+   "de": "Qark Tirana",
+   "en": "Tirana County"
   },
-  "aliases": [],
+  "aliases": [
+   "Tiranë",
+   "Tirana County"
+  ],
   "media": [
    {
     "id": "media:flag:AL-11",
@@ -227,9 +255,13 @@
   "id": "region:AL-12",
   "type": "region",
   "names": {
-   "de": "Vlorë"
+   "de": "Qark Vlora",
+   "en": "Vlorë County"
   },
-  "aliases": [],
+  "aliases": [
+   "Vlorë",
+   "Vlorë County"
+  ],
   "media": [
    {
     "id": "media:flag:AL-12",

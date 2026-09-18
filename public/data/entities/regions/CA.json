@@ -3,7 +3,8 @@
   "id": "region:CA-AB",
   "type": "region",
   "names": {
-   "de": "Alberta"
+   "de": "Alberta",
+   "en": "Alberta"
   },
   "aliases": [],
   "media": [
@@ -36,7 +37,8 @@
   "id": "region:CA-BC",
   "type": "region",
   "names": {
-   "de": "Britisch-Kolumbien"
+   "de": "Britisch-Kolumbien",
+   "en": "British Columbia"
   },
   "aliases": [],
   "media": [
@@ -69,7 +71,8 @@
   "id": "region:CA-MB",
   "type": "region",
   "names": {
-   "de": "Manitoba"
+   "de": "Manitoba",
+   "en": "Manitoba"
   },
   "aliases": [],
   "media": [
@@ -102,7 +105,8 @@
   "id": "region:CA-NB",
   "type": "region",
   "names": {
-   "de": "New Brunswick"
+   "de": "New Brunswick",
+   "en": "New Brunswick"
   },
   "aliases": [],
   "media": [
@@ -135,7 +139,8 @@
   "id": "region:CA-NL",
   "type": "region",
   "names": {
-   "de": "Neufundland und Labrador"
+   "de": "Neufundland und Labrador",
+   "en": "Newfoundland and Labrador"
   },
   "aliases": [],
   "media": [
@@ -168,7 +173,8 @@
   "id": "region:CA-NS",
   "type": "region",
   "names": {
-   "de": "Nova Scotia"
+   "de": "Nova Scotia",
+   "en": "Nova Scotia"
   },
   "aliases": [],
   "media": [
@@ -201,7 +207,8 @@
   "id": "region:CA-NT",
   "type": "region",
   "names": {
-   "de": "Nordwest-Territorien"
+   "de": "Nordwest-Territorien",
+   "en": "Northwest Territories"
   },
   "aliases": [],
   "media": [
@@ -234,7 +241,8 @@
   "id": "region:CA-NU",
   "type": "region",
   "names": {
-   "de": "Nunavut"
+   "de": "Nunavut",
+   "en": "Nunavut"
   },
   "aliases": [],
   "media": [
@@ -267,7 +275,8 @@
   "id": "region:CA-ON",
   "type": "region",
   "names": {
-   "de": "Ontario"
+   "de": "Ontario",
+   "en": "Ontario"
   },
   "aliases": [],
   "media": [
@@ -300,9 +309,12 @@
   "id": "region:CA-PE",
   "type": "region",
   "names": {
-   "de": "Prince Edward Island"
+   "de": "Prinz-Edward-Insel",
+   "en": "Prince Edward Island"
   },
-  "aliases": [],
+  "aliases": [
+   "Prince Edward Island"
+  ],
   "media": [
    {
     "id": "media:flag:CA-PE",
@@ -333,9 +345,12 @@
   "id": "region:CA-QC",
   "type": "region",
   "names": {
-   "de": "Quebec"
+   "de": "Québec",
+   "en": "Quebec"
   },
-  "aliases": [],
+  "aliases": [
+   "Quebec"
+  ],
   "media": [
    {
     "id": "media:flag:CA-QC",
@@ -366,7 +381,8 @@
   "id": "region:CA-SK",
   "type": "region",
   "names": {
-   "de": "Saskatchewan"
+   "de": "Saskatchewan",
+   "en": "Saskatchewan"
   },
   "aliases": [],
   "media": [
@@ -399,7 +415,8 @@
   "id": "region:CA-YT",
   "type": "region",
   "names": {
-   "de": "Yukon"
+   "de": "Yukon",
+   "en": "Yukon"
   },
   "aliases": [],
   "media": [

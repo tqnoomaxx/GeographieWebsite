@@ -3,9 +3,13 @@
   "id": "region:RO-B",
   "type": "region",
   "names": {
-   "de": "BUCURESTI"
+   "de": "Bukarest",
+   "en": "Bucharest"
   },
-  "aliases": [],
+  "aliases": [
+   "BUCURESTI",
+   "Bucharest"
+  ],
   "media": [
    {
     "id": "media:flag:RO-B",
@@ -35,9 +39,14 @@
   "id": "region:RO-IL",
   "type": "region",
   "names": {
-   "de": "IALOMITA"
+   "de": "Kreis Ialomița",
+   "en": "Ialomița County"
   },
-  "aliases": [],
+  "aliases": [
+   "IALOMITA",
+   "Ialomița County",
+   "Ialomița"
+  ],
   "media": [
    {
     "id": "media:flag:RO-IL",
@@ -67,9 +76,14 @@
   "id": "region:RO-MM",
   "type": "region",
   "names": {
-   "de": "MARAMURES"
+   "de": "Kreis Maramureș",
+   "en": "Maramureș County"
   },
-  "aliases": [],
+  "aliases": [
+   "MARAMURES",
+   "Maramureș County",
+   "Maramureș"
+  ],
   "media": [
    {
     "id": "media:flag:RO-MM",

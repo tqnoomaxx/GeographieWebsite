@@ -3,9 +3,13 @@
   "id": "region:LT-AL",
   "type": "region",
   "names": {
-   "de": "Alytus County"
+   "de": "Bezirk Alytus",
+   "en": "Alytus County"
   },
-  "aliases": [],
+  "aliases": [
+   "Alytus County",
+   "Alytus"
+  ],
   "media": [
    {
     "id": "media:flag:LT-AL",
@@ -35,9 +39,14 @@
   "id": "region:LT-KL",
   "type": "region",
   "names": {
-   "de": "Klaipeda County"
+   "de": "Bezirk Klaipėda",
+   "en": "Klaipėda County"
   },
-  "aliases": [],
+  "aliases": [
+   "Klaipeda County",
+   "Klaipėda County",
+   "Klaipėda"
+  ],
   "media": [
    {
     "id": "media:flag:LT-KL",
@@ -67,9 +76,13 @@
   "id": "region:LT-KU",
   "type": "region",
   "names": {
-   "de": "Kaunas County"
+   "de": "Bezirk Kaunas",
+   "en": "Kaunas County"
   },
-  "aliases": [],
+  "aliases": [
+   "Kaunas County",
+   "Kaunas"
+  ],
   "media": [
    {
     "id": "media:flag:LT-KU",
@@ -99,9 +112,14 @@
   "id": "region:LT-MR",
   "type": "region",
   "names": {
-   "de": "Marijampole County"
+   "de": "Bezirk Marijampolė",
+   "en": "Marijampolė County"
   },
-  "aliases": [],
+  "aliases": [
+   "Marijampole County",
+   "Marijampolė County",
+   "Marijampolė"
+  ],
   "media": [
    {
     "id": "media:flag:LT-MR",
@@ -131,9 +149,14 @@
   "id": "region:LT-PN",
   "type": "region",
   "names": {
-   "de": "Panevezys County"
+   "de": "Bezirk Panevėžys",
+   "en": "Panevėžys County"
   },
-  "aliases": [],
+  "aliases": [
+   "Panevezys County",
+   "Panevėžys County",
+   "Panevėžys"
+  ],
   "media": [
    {
     "id": "media:flag:LT-PN",
@@ -163,9 +186,14 @@
   "id": "region:LT-SA",
   "type": "region",
   "names": {
-   "de": "Siauliai County"
+   "de": "Bezirk Šiauliai",
+   "en": "Šiauliai County"
   },
-  "aliases": [],
+  "aliases": [
+   "Siauliai County",
+   "Šiauliai County",
+   "Šiauliai"
+  ],
   "media": [
    {
     "id": "media:flag:LT-SA",
@@ -195,9 +223,14 @@
   "id": "region:LT-TA",
   "type": "region",
   "names": {
-   "de": "Taurage County"
+   "de": "Bezirk Tauragė",
+   "en": "Tauragė County"
   },
-  "aliases": [],
+  "aliases": [
+   "Taurage County",
+   "Tauragė County",
+   "Tauragė"
+  ],
   "media": [
    {
     "id": "media:flag:LT-TA",
@@ -227,9 +260,13 @@
   "id": "region:LT-UT",
   "type": "region",
   "names": {
-   "de": "Utena County"
+   "de": "Bezirk Utena",
+   "en": "Utena County"
   },
-  "aliases": [],
+  "aliases": [
+   "Utena County",
+   "Utena"
+  ],
   "media": [
    {
     "id": "media:flag:LT-UT",
@@ -259,9 +296,13 @@
   "id": "region:LT-VL",
   "type": "region",
   "names": {
-   "de": "Vilnius County"
+   "de": "Bezirk Vilnius",
+   "en": "Vilnius County"
   },
-  "aliases": [],
+  "aliases": [
+   "Vilnius County",
+   "Vilnius"
+  ],
   "media": [
    {
     "id": "media:flag:LT-VL",

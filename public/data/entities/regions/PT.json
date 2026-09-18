@@ -3,9 +3,13 @@
   "id": "region:PT-20",
   "type": "region",
   "names": {
-   "de": "RegiÃ£o AutÃ³noma dos AÃ§ores"
+   "de": "Azoren",
+   "en": "Azores"
   },
-  "aliases": [],
+  "aliases": [
+   "RegiÃ£o AutÃ³noma dos AÃ§ores",
+   "Azores"
+  ],
   "media": [
    {
     "id": "media:flag:PT-20",
@@ -35,9 +39,12 @@
   "id": "region:PT-30",
   "type": "region",
   "names": {
-   "de": "RegiÃ£o AutÃ³noma da Madeira"
+   "de": "Madeira",
+   "en": "Madeira"
   },
-  "aliases": [],
+  "aliases": [
+   "RegiÃ£o AutÃ³noma da Madeira"
+  ],
   "media": [
    {
     "id": "media:flag:PT-30",

@@ -3,7 +3,8 @@
   "id": "region:US-AK",
   "type": "region",
   "names": {
-   "de": "Alaska"
+   "de": "Alaska",
+   "en": "Alaska"
   },
   "aliases": [],
   "media": [
@@ -36,7 +37,8 @@
   "id": "region:US-AL",
   "type": "region",
   "names": {
-   "de": "Alabama"
+   "de": "Alabama",
+   "en": "Alabama"
   },
   "aliases": [],
   "media": [
@@ -69,7 +71,8 @@
   "id": "region:US-AR",
   "type": "region",
   "names": {
-   "de": "Arkansas"
+   "de": "Arkansas",
+   "en": "Arkansas"
   },
   "aliases": [],
   "media": [
@@ -102,7 +105,8 @@
   "id": "region:US-AZ",
   "type": "region",
   "names": {
-   "de": "Arizona"
+   "de": "Arizona",
+   "en": "Arizona"
   },
   "aliases": [],
   "media": [
@@ -135,9 +139,12 @@
   "id": "region:US-CA",
   "type": "region",
   "names": {
-   "de": "California"
+   "de": "Kalifornien",
+   "en": "California"
   },
-  "aliases": [],
+  "aliases": [
+   "California"
+  ],
   "media": [
    {
     "id": "media:flag:US-CA",
@@ -168,7 +175,8 @@
   "id": "region:US-CO",
   "type": "region",
   "names": {
-   "de": "Colorado"
+   "de": "Colorado",
+   "en": "Colorado"
   },
   "aliases": [],
   "media": [
@@ -201,7 +209,8 @@
   "id": "region:US-CT",
   "type": "region",
   "names": {
-   "de": "Connecticut"
+   "de": "Connecticut",
+   "en": "Connecticut"
   },
   "aliases": [],
   "media": [
@@ -234,7 +243,8 @@
   "id": "region:US-DC",
   "type": "region",
   "names": {
-   "de": "District of Columbia"
+   "de": "District of Columbia",
+   "en": "District of Columbia"
   },
   "aliases": [],
   "media": [
@@ -266,7 +276,8 @@
   "id": "region:US-DE",
   "type": "region",
   "names": {
-   "de": "Delaware"
+   "de": "Delaware",
+   "en": "Delaware"
   },
   "aliases": [],
   "media": [
@@ -299,7 +310,8 @@
   "id": "region:US-FL",
   "type": "region",
   "names": {
-   "de": "Florida"
+   "de": "Florida",
+   "en": "Florida"
   },
   "aliases": [],
   "media": [
@@ -332,7 +344,8 @@
   "id": "region:US-GA",
   "type": "region",
   "names": {
-   "de": "Georgia"
+   "de": "Georgia",
+   "en": "Georgia"
   },
   "aliases": [],
   "media": [
@@ -365,7 +378,8 @@
   "id": "region:US-HI",
   "type": "region",
   "names": {
-   "de": "Hawaii"
+   "de": "Hawaii",
+   "en": "Hawaii"
   },
   "aliases": [],
   "media": [
@@ -398,7 +412,8 @@
   "id": "region:US-IA",
   "type": "region",
   "names": {
-   "de": "Iowa"
+   "de": "Iowa",
+   "en": "Iowa"
   },
   "aliases": [],
   "media": [
@@ -431,7 +446,8 @@
   "id": "region:US-ID",
   "type": "region",
   "names": {
-   "de": "Idaho"
+   "de": "Idaho",
+   "en": "Idaho"
   },
   "aliases": [],
   "media": [
@@ -464,7 +480,8 @@
   "id": "region:US-IL",
   "type": "region",
   "names": {
-   "de": "Illinois"
+   "de": "Illinois",
+   "en": "Illinois"
   },
   "aliases": [],
   "media": [
@@ -497,7 +514,8 @@
   "id": "region:US-IN",
   "type": "region",
   "names": {
-   "de": "Indiana"
+   "de": "Indiana",
+   "en": "Indiana"
   },
   "aliases": [],
   "media": [
@@ -530,7 +548,8 @@
   "id": "region:US-KS",
   "type": "region",
   "names": {
-   "de": "Kansas"
+   "de": "Kansas",
+   "en": "Kansas"
   },
   "aliases": [],
   "media": [
@@ -563,7 +582,8 @@
   "id": "region:US-KY",
   "type": "region",
   "names": {
-   "de": "Kentucky"
+   "de": "Kentucky",
+   "en": "Kentucky"
   },
   "aliases": [],
   "media": [
@@ -596,7 +616,8 @@
   "id": "region:US-LA",
   "type": "region",
   "names": {
-   "de": "Louisiana"
+   "de": "Louisiana",
+   "en": "Louisiana"
   },
   "aliases": [],
   "media": [
@@ -629,7 +650,8 @@
   "id": "region:US-MA",
   "type": "region",
   "names": {
-   "de": "Massachusetts"
+   "de": "Massachusetts",
+   "en": "Massachusetts"
   },
   "aliases": [],
   "media": [
@@ -662,7 +684,8 @@
   "id": "region:US-MD",
   "type": "region",
   "names": {
-   "de": "Maryland"
+   "de": "Maryland",
+   "en": "Maryland"
   },
   "aliases": [],
   "media": [
@@ -695,7 +718,8 @@
   "id": "region:US-ME",
   "type": "region",
   "names": {
-   "de": "Maine"
+   "de": "Maine",
+   "en": "Maine"
   },
   "aliases": [],
   "media": [
@@ -728,7 +752,8 @@
   "id": "region:US-MI",
   "type": "region",
   "names": {
-   "de": "Michigan"
+   "de": "Michigan",
+   "en": "Michigan"
   },
   "aliases": [],
   "media": [
@@ -761,7 +786,8 @@
   "id": "region:US-MN",
   "type": "region",
   "names": {
-   "de": "Minnesota"
+   "de": "Minnesota",
+   "en": "Minnesota"
   },
   "aliases": [],
   "media": [
@@ -794,7 +820,8 @@
   "id": "region:US-MO",
   "type": "region",
   "names": {
-   "de": "Missouri"
+   "de": "Missouri",
+   "en": "Missouri"
   },
   "aliases": [],
   "media": [
@@ -827,7 +854,8 @@
   "id": "region:US-MS",
   "type": "region",
   "names": {
-   "de": "Mississippi"
+   "de": "Mississippi",
+   "en": "Mississippi"
   },
   "aliases": [],
   "media": [
@@ -860,7 +888,8 @@
   "id": "region:US-MT",
   "type": "region",
   "names": {
-   "de": "Montana"
+   "de": "Montana",
+   "en": "Montana"
   },
   "aliases": [],
   "media": [
@@ -893,7 +922,8 @@
   "id": "region:US-NC",
   "type": "region",
   "names": {
-   "de": "North Carolina"
+   "de": "North Carolina",
+   "en": "North Carolina"
   },
   "aliases": [],
   "media": [
@@ -926,7 +956,8 @@
   "id": "region:US-ND",
   "type": "region",
   "names": {
-   "de": "North Dakota"
+   "de": "North Dakota",
+   "en": "North Dakota"
   },
   "aliases": [],
   "media": [
@@ -959,7 +990,8 @@
   "id": "region:US-NE",
   "type": "region",
   "names": {
-   "de": "Nebraska"
+   "de": "Nebraska",
+   "en": "Nebraska"
   },
   "aliases": [],
   "media": [
@@ -992,7 +1024,8 @@
   "id": "region:US-NH",
   "type": "region",
   "names": {
-   "de": "New Hampshire"
+   "de": "New Hampshire",
+   "en": "New Hampshire"
   },
   "aliases": [],
   "media": [
@@ -1025,7 +1058,8 @@
   "id": "region:US-NJ",
   "type": "region",
   "names": {
-   "de": "New Jersey"
+   "de": "New Jersey",
+   "en": "New Jersey"
   },
   "aliases": [],
   "media": [
@@ -1058,7 +1092,8 @@
   "id": "region:US-NM",
   "type": "region",
   "names": {
-   "de": "New Mexico"
+   "de": "New Mexico",
+   "en": "New Mexico"
   },
   "aliases": [],
   "media": [
@@ -1091,7 +1126,8 @@
   "id": "region:US-NV",
   "type": "region",
   "names": {
-   "de": "Nevada"
+   "de": "Nevada",
+   "en": "Nevada"
   },
   "aliases": [],
   "media": [
@@ -1124,7 +1160,8 @@
   "id": "region:US-NY",
   "type": "region",
   "names": {
-   "de": "New York"
+   "de": "New York",
+   "en": "New York"
   },
   "aliases": [],
   "media": [
@@ -1157,7 +1194,8 @@
   "id": "region:US-OH",
   "type": "region",
   "names": {
-   "de": "Ohio"
+   "de": "Ohio",
+   "en": "Ohio"
   },
   "aliases": [],
   "media": [
@@ -1190,7 +1228,8 @@
   "id": "region:US-OK",
   "type": "region",
   "names": {
-   "de": "Oklahoma"
+   "de": "Oklahoma",
+   "en": "Oklahoma"
   },
   "aliases": [],
   "media": [
@@ -1223,7 +1262,8 @@
   "id": "region:US-OR",
   "type": "region",
   "names": {
-   "de": "Oregon"
+   "de": "Oregon",
+   "en": "Oregon"
   },
   "aliases": [],
   "media": [
@@ -1256,7 +1296,8 @@
   "id": "region:US-PA",
   "type": "region",
   "names": {
-   "de": "Pennsylvania"
+   "de": "Pennsylvania",
+   "en": "Pennsylvania"
   },
   "aliases": [],
   "media": [
@@ -1289,7 +1330,8 @@
   "id": "region:US-RI",
   "type": "region",
   "names": {
-   "de": "Rhode Island"
+   "de": "Rhode Island",
+   "en": "Rhode Island"
   },
   "aliases": [],
   "media": [
@@ -1322,7 +1364,8 @@
   "id": "region:US-SC",
   "type": "region",
   "names": {
-   "de": "South Carolina"
+   "de": "South Carolina",
+   "en": "South Carolina"
   },
   "aliases": [],
   "media": [
@@ -1355,7 +1398,8 @@
   "id": "region:US-SD",
   "type": "region",
   "names": {
-   "de": "South Dakota"
+   "de": "South Dakota",
+   "en": "South Dakota"
   },
   "aliases": [],
   "media": [
@@ -1388,7 +1432,8 @@
   "id": "region:US-TN",
   "type": "region",
   "names": {
-   "de": "Tennessee"
+   "de": "Tennessee",
+   "en": "Tennessee"
   },
   "aliases": [],
   "media": [
@@ -1421,7 +1466,8 @@
   "id": "region:US-TX",
   "type": "region",
   "names": {
-   "de": "Texas"
+   "de": "Texas",
+   "en": "Texas"
   },
   "aliases": [],
   "media": [
@@ -1454,7 +1500,8 @@
   "id": "region:US-UT",
   "type": "region",
   "names": {
-   "de": "Utah"
+   "de": "Utah",
+   "en": "Utah"
   },
   "aliases": [],
   "media": [
@@ -1487,7 +1534,8 @@
   "id": "region:US-VA",
   "type": "region",
   "names": {
-   "de": "Virginia"
+   "de": "Virginia",
+   "en": "Virginia"
   },
   "aliases": [],
   "media": [
@@ -1520,7 +1568,8 @@
   "id": "region:US-VT",
   "type": "region",
   "names": {
-   "de": "Vermont"
+   "de": "Vermont",
+   "en": "Vermont"
   },
   "aliases": [],
   "media": [
@@ -1553,7 +1602,8 @@
   "id": "region:US-WA",
   "type": "region",
   "names": {
-   "de": "Washington"
+   "de": "Washington",
+   "en": "Washington"
   },
   "aliases": [],
   "media": [
@@ -1586,7 +1636,8 @@
   "id": "region:US-WI",
   "type": "region",
   "names": {
-   "de": "Wisconsin"
+   "de": "Wisconsin",
+   "en": "Wisconsin"
   },
   "aliases": [],
   "media": [
@@ -1619,7 +1670,8 @@
   "id": "region:US-WV",
   "type": "region",
   "names": {
-   "de": "West Virginia"
+   "de": "West Virginia",
+   "en": "West Virginia"
   },
   "aliases": [],
   "media": [
@@ -1652,7 +1704,8 @@
   "id": "region:US-WY",
   "type": "region",
   "names": {
-   "de": "Wyoming"
+   "de": "Wyoming",
+   "en": "Wyoming"
   },
   "aliases": [],
   "media": [

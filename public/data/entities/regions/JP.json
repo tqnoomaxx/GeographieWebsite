@@ -3,9 +3,12 @@
   "id": "region:JP-01",
   "type": "region",
   "names": {
-   "de": "Hokkaido"
+   "de": "Hokkaidō",
+   "en": "Hokkaido"
   },
-  "aliases": [],
+  "aliases": [
+   "Hokkaido"
+  ],
   "media": [
    {
     "id": "media:flag:JP-01",
@@ -35,9 +38,13 @@
   "id": "region:JP-02",
   "type": "region",
   "names": {
-   "de": "Aomori"
+   "de": "Präfektur Aomori",
+   "en": "Aomori Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Aomori",
+   "Aomori Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-02",
@@ -67,9 +74,13 @@
   "id": "region:JP-03",
   "type": "region",
   "names": {
-   "de": "Iwate"
+   "de": "Präfektur Iwate",
+   "en": "Iwate Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Iwate",
+   "Iwate Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-03",
@@ -99,9 +110,13 @@
   "id": "region:JP-04",
   "type": "region",
   "names": {
-   "de": "Miyagi"
+   "de": "Präfektur Miyagi",
+   "en": "Miyagi Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Miyagi",
+   "Miyagi Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-04",
@@ -131,9 +146,13 @@
   "id": "region:JP-05",
   "type": "region",
   "names": {
-   "de": "Akita"
+   "de": "Präfektur Akita",
+   "en": "Akita Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Akita",
+   "Akita Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-05",
@@ -163,9 +182,13 @@
   "id": "region:JP-06",
   "type": "region",
   "names": {
-   "de": "Yamagata"
+   "de": "Präfektur Yamagata",
+   "en": "Yamagata Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Yamagata",
+   "Yamagata Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-06",
@@ -195,9 +218,13 @@
   "id": "region:JP-07",
   "type": "region",
   "names": {
-   "de": "Fukushima"
+   "de": "Präfektur Fukushima",
+   "en": "Fukushima Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Fukushima",
+   "Fukushima Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-07",
@@ -227,9 +254,13 @@
   "id": "region:JP-08",
   "type": "region",
   "names": {
-   "de": "Ibaraki"
+   "de": "Präfektur Ibaraki",
+   "en": "Ibaraki Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Ibaraki",
+   "Ibaraki Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-08",
@@ -259,9 +290,13 @@
   "id": "region:JP-09",
   "type": "region",
   "names": {
-   "de": "Tochigi"
+   "de": "Präfektur Tochigi",
+   "en": "Tochigi Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Tochigi",
+   "Tochigi Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-09",
@@ -291,9 +326,13 @@
   "id": "region:JP-10",
   "type": "region",
   "names": {
-   "de": "Gunma"
+   "de": "Präfektur Gunma",
+   "en": "Gunma Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Gunma",
+   "Gunma Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-10",
@@ -323,9 +362,13 @@
   "id": "region:JP-11",
   "type": "region",
   "names": {
-   "de": "Saitama"
+   "de": "Präfektur Saitama",
+   "en": "Saitama Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Saitama",
+   "Saitama Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-11",
@@ -355,9 +398,13 @@
   "id": "region:JP-12",
   "type": "region",
   "names": {
-   "de": "Chiba"
+   "de": "Präfektur Chiba",
+   "en": "Chiba Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Chiba",
+   "Chiba Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-12",
@@ -387,9 +434,12 @@
   "id": "region:JP-13",
   "type": "region",
   "names": {
-   "de": "Tokyo"
+   "de": "Tokio",
+   "en": "Tokyo"
   },
-  "aliases": [],
+  "aliases": [
+   "Tokyo"
+  ],
   "media": [
    {
     "id": "media:flag:JP-13",
@@ -419,9 +469,13 @@
   "id": "region:JP-14",
   "type": "region",
   "names": {
-   "de": "Kanagawa"
+   "de": "Präfektur Kanagawa",
+   "en": "Kanagawa Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Kanagawa",
+   "Kanagawa Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-14",
@@ -451,9 +505,13 @@
   "id": "region:JP-15",
   "type": "region",
   "names": {
-   "de": "Niigata"
+   "de": "Präfektur Niigata",
+   "en": "Niigata Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Niigata",
+   "Niigata Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-15",
@@ -483,9 +541,13 @@
   "id": "region:JP-16",
   "type": "region",
   "names": {
-   "de": "Toyama"
+   "de": "Präfektur Toyama",
+   "en": "Toyama Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Toyama",
+   "Toyama Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-16",
@@ -515,9 +577,13 @@
   "id": "region:JP-17",
   "type": "region",
   "names": {
-   "de": "Ishikawa"
+   "de": "Präfektur Ishikawa",
+   "en": "Ishikawa Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Ishikawa",
+   "Ishikawa Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-17",
@@ -547,9 +613,13 @@
   "id": "region:JP-18",
   "type": "region",
   "names": {
-   "de": "Fukui"
+   "de": "Präfektur Fukui",
+   "en": "Fukui Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Fukui",
+   "Fukui Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-18",
@@ -579,9 +649,13 @@
   "id": "region:JP-19",
   "type": "region",
   "names": {
-   "de": "Yamanashi"
+   "de": "Präfektur Yamanashi",
+   "en": "Yamanashi Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Yamanashi",
+   "Yamanashi Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-19",
@@ -611,9 +685,13 @@
   "id": "region:JP-20",
   "type": "region",
   "names": {
-   "de": "Nagano"
+   "de": "Präfektur Nagano",
+   "en": "Nagano Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Nagano",
+   "Nagano Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-20",
@@ -643,9 +721,13 @@
   "id": "region:JP-21",
   "type": "region",
   "names": {
-   "de": "Gifu"
+   "de": "Präfektur Gifu",
+   "en": "Gifu Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Gifu",
+   "Gifu Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-21",
@@ -675,9 +757,13 @@
   "id": "region:JP-22",
   "type": "region",
   "names": {
-   "de": "Shizuoka"
+   "de": "Präfektur Shizuoka",
+   "en": "Shizuoka Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Shizuoka",
+   "Shizuoka Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-22",
@@ -707,9 +793,13 @@
   "id": "region:JP-23",
   "type": "region",
   "names": {
-   "de": "Aichi"
+   "de": "Präfektur Aichi",
+   "en": "Aichi Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Aichi",
+   "Aichi Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-23",
@@ -739,9 +829,13 @@
   "id": "region:JP-24",
   "type": "region",
   "names": {
-   "de": "Mie"
+   "de": "Präfektur Mie",
+   "en": "Mie Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Mie",
+   "Mie Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-24",
@@ -771,9 +865,13 @@
   "id": "region:JP-25",
   "type": "region",
   "names": {
-   "de": "Shiga"
+   "de": "Präfektur Shiga",
+   "en": "Shiga Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Shiga",
+   "Shiga Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-25",
@@ -803,9 +901,14 @@
   "id": "region:JP-26",
   "type": "region",
   "names": {
-   "de": "Kyoto"
+   "de": "Präfektur Kyōto",
+   "en": "Kyoto Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Kyoto",
+   "Kyoto Prefecture",
+   "Kyōto"
+  ],
   "media": [
    {
     "id": "media:flag:JP-26",
@@ -835,9 +938,13 @@
   "id": "region:JP-27",
   "type": "region",
   "names": {
-   "de": "Osaka"
+   "de": "Präfektur Osaka",
+   "en": "Osaka Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Osaka",
+   "Osaka Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-27",
@@ -867,9 +974,13 @@
   "id": "region:JP-28",
   "type": "region",
   "names": {
-   "de": "Hyogo"
+   "de": "Präfektur Hyogo",
+   "en": "Hyōgo Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Hyogo",
+   "Hyōgo Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-28",
@@ -899,9 +1010,13 @@
   "id": "region:JP-29",
   "type": "region",
   "names": {
-   "de": "Nara"
+   "de": "Präfektur Nara",
+   "en": "Nara Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Nara",
+   "Nara Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-29",
@@ -931,9 +1046,13 @@
   "id": "region:JP-30",
   "type": "region",
   "names": {
-   "de": "Wakayama"
+   "de": "Präfektur Wakayama",
+   "en": "Wakayama Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Wakayama",
+   "Wakayama Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-30",
@@ -963,9 +1082,13 @@
   "id": "region:JP-31",
   "type": "region",
   "names": {
-   "de": "Tottori"
+   "de": "Präfektur Tottori",
+   "en": "Tottori Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Tottori",
+   "Tottori Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-31",
@@ -995,9 +1118,13 @@
   "id": "region:JP-32",
   "type": "region",
   "names": {
-   "de": "Shimane"
+   "de": "Präfektur Shimane",
+   "en": "Shimane Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Shimane",
+   "Shimane Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-32",
@@ -1027,9 +1154,13 @@
   "id": "region:JP-33",
   "type": "region",
   "names": {
-   "de": "Okayama"
+   "de": "Präfektur Okayama",
+   "en": "Okayama Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Okayama",
+   "Okayama Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-33",
@@ -1059,9 +1190,13 @@
   "id": "region:JP-34",
   "type": "region",
   "names": {
-   "de": "Hiroshima"
+   "de": "Präfektur Hiroshima",
+   "en": "Hiroshima Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Hiroshima",
+   "Hiroshima Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-34",
@@ -1091,9 +1226,13 @@
   "id": "region:JP-35",
   "type": "region",
   "names": {
-   "de": "Yamaguchi"
+   "de": "Präfektur Yamaguchi",
+   "en": "Yamaguchi Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Yamaguchi",
+   "Yamaguchi Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-35",
@@ -1123,9 +1262,13 @@
   "id": "region:JP-36",
   "type": "region",
   "names": {
-   "de": "Tokushima"
+   "de": "Präfektur Tokushima",
+   "en": "Tokushima Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Tokushima",
+   "Tokushima Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-36",
@@ -1155,9 +1298,13 @@
   "id": "region:JP-37",
   "type": "region",
   "names": {
-   "de": "Kagawa"
+   "de": "Präfektur Kagawa",
+   "en": "Kagawa Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Kagawa",
+   "Kagawa Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-37",
@@ -1187,9 +1334,13 @@
   "id": "region:JP-38",
   "type": "region",
   "names": {
-   "de": "Ehime"
+   "de": "Präfektur Ehime",
+   "en": "Ehime Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Ehime",
+   "Ehime Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-38",
@@ -1219,9 +1370,14 @@
   "id": "region:JP-39",
   "type": "region",
   "names": {
-   "de": "Kochi"
+   "de": "Präfektur Kōchi",
+   "en": "Kōchi Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Kochi",
+   "Kōchi Prefecture",
+   "Kōchi"
+  ],
   "media": [
    {
     "id": "media:flag:JP-39",
@@ -1251,9 +1407,13 @@
   "id": "region:JP-40",
   "type": "region",
   "names": {
-   "de": "Fukuoka"
+   "de": "Präfektur Fukuoka",
+   "en": "Fukuoka Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Fukuoka",
+   "Fukuoka Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-40",
@@ -1283,9 +1443,13 @@
   "id": "region:JP-41",
   "type": "region",
   "names": {
-   "de": "Saga"
+   "de": "Präfektur Saga",
+   "en": "Saga Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Saga",
+   "Saga Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-41",
@@ -1315,9 +1479,13 @@
   "id": "region:JP-42",
   "type": "region",
   "names": {
-   "de": "Nagasaki"
+   "de": "Präfektur Nagasaki",
+   "en": "Nagasaki Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Nagasaki",
+   "Nagasaki Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-42",
@@ -1347,9 +1515,13 @@
   "id": "region:JP-43",
   "type": "region",
   "names": {
-   "de": "Kumamoto"
+   "de": "Präfektur Kumamoto",
+   "en": "Kumamoto Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Kumamoto",
+   "Kumamoto Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-43",
@@ -1379,9 +1551,14 @@
   "id": "region:JP-44",
   "type": "region",
   "names": {
-   "de": "Oita"
+   "de": "Präfektur Ōita",
+   "en": "Ōita Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Oita",
+   "Ōita Prefecture",
+   "Ōita"
+  ],
   "media": [
    {
     "id": "media:flag:JP-44",
@@ -1411,9 +1588,13 @@
   "id": "region:JP-45",
   "type": "region",
   "names": {
-   "de": "Miyazaki"
+   "de": "Präfektur Miyazaki",
+   "en": "Miyazaki Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Miyazaki",
+   "Miyazaki Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-45",
@@ -1443,9 +1624,13 @@
   "id": "region:JP-46",
   "type": "region",
   "names": {
-   "de": "Kagoshima"
+   "de": "Präfektur Kagoshima",
+   "en": "Kagoshima Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Kagoshima",
+   "Kagoshima Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-46",
@@ -1475,9 +1660,13 @@
   "id": "region:JP-47",
   "type": "region",
   "names": {
-   "de": "Okinawa"
+   "de": "Präfektur Okinawa",
+   "en": "Okinawa Prefecture"
   },
-  "aliases": [],
+  "aliases": [
+   "Okinawa",
+   "Okinawa Prefecture"
+  ],
   "media": [
    {
     "id": "media:flag:JP-47",

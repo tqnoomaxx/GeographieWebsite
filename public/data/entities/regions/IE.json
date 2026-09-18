@@ -3,7 +3,8 @@
   "id": "region:IE-C",
   "type": "region",
   "names": {
-   "de": "Connacht"
+   "de": "Connacht",
+   "en": "Connacht"
   },
   "aliases": [],
   "media": [
@@ -35,7 +36,8 @@
   "id": "region:IE-L",
   "type": "region",
   "names": {
-   "de": "Leinster"
+   "de": "Leinster",
+   "en": "Leinster"
   },
   "aliases": [],
   "media": [
@@ -67,7 +69,8 @@
   "id": "region:IE-M",
   "type": "region",
   "names": {
-   "de": "Munster"
+   "de": "Munster",
+   "en": "Munster"
   },
   "aliases": [],
   "media": [
@@ -99,9 +102,12 @@
   "id": "region:IE-U",
   "type": "region",
   "names": {
-   "de": "Ulster"
+   "de": "Provinz Ulster",
+   "en": "Ulster"
   },
-  "aliases": [],
+  "aliases": [
+   "Ulster"
+  ],
   "media": [
    {
     "id": "media:flag:IE-U",

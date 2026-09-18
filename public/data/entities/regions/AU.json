@@ -3,7 +3,8 @@
   "id": "region:AU-ACT",
   "type": "region",
   "names": {
-   "de": "Australian Capital Territory"
+   "de": "Australian Capital Territory",
+   "en": "Australian Capital Territory"
   },
   "aliases": [],
   "media": [
@@ -36,7 +37,8 @@
   "id": "region:AU-NSW",
   "type": "region",
   "names": {
-   "de": "New South Wales"
+   "de": "New South Wales",
+   "en": "New South Wales"
   },
   "aliases": [],
   "media": [
@@ -69,9 +71,12 @@
   "id": "region:AU-NT",
   "type": "region",
   "names": {
-   "de": "Northern Territory"
+   "de": "Nordterritorium",
+   "en": "Northern Territory"
   },
-  "aliases": [],
+  "aliases": [
+   "Northern Territory"
+  ],
   "media": [
    {
     "id": "media:flag:AU-NT",
@@ -102,7 +107,8 @@
   "id": "region:AU-QLD",
   "type": "region",
   "names": {
-   "de": "Queensland"
+   "de": "Queensland",
+   "en": "Queensland"
   },
   "aliases": [],
   "media": [
@@ -135,9 +141,12 @@
   "id": "region:AU-SA",
   "type": "region",
   "names": {
-   "de": "South Australia"
+   "de": "Süd-Australien",
+   "en": "South Australia"
   },
-  "aliases": [],
+  "aliases": [
+   "South Australia"
+  ],
   "media": [
    {
     "id": "media:flag:AU-SA",
@@ -168,7 +177,8 @@
   "id": "region:AU-TAS",
   "type": "region",
   "names": {
-   "de": "Tasmanien"
+   "de": "Tasmanien",
+   "en": "Tasmania"
   },
   "aliases": [],
   "media": [
@@ -201,7 +211,8 @@
   "id": "region:AU-VIC",
   "type": "region",
   "names": {
-   "de": "Victoria"
+   "de": "Victoria",
+   "en": "Victoria"
   },
   "aliases": [],
   "media": [
@@ -234,9 +245,12 @@
   "id": "region:AU-WA",
   "type": "region",
   "names": {
-   "de": "Western Australia"
+   "de": "Westaustralien",
+   "en": "Western Australia"
   },
-  "aliases": [],
+  "aliases": [
+   "Western Australia"
+  ],
   "media": [
    {
     "id": "media:flag:AU-WA",

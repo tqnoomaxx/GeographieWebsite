@@ -3,9 +3,13 @@
   "id": "region:FR-20R",
   "type": "region",
   "names": {
-   "de": "Corse"
+   "de": "Korsika",
+   "en": "Corsica"
   },
-  "aliases": [],
+  "aliases": [
+   "Corse",
+   "Corsica"
+  ],
   "media": [
    {
     "id": "media:flag:FR-20R",
@@ -35,7 +39,8 @@
   "id": "region:FR-ARA",
   "type": "region",
   "names": {
-   "de": "Auvergne-Rhône-Alpes"
+   "de": "Auvergne-Rhône-Alpes",
+   "en": "Auvergne-Rhône-Alpes"
   },
   "aliases": [],
   "media": [
@@ -67,7 +72,8 @@
   "id": "region:FR-BFC",
   "type": "region",
   "names": {
-   "de": "Bourgogne-Franche-Comté"
+   "de": "Bourgogne-Franche-Comté",
+   "en": "Bourgogne-Franche-Comté"
   },
   "aliases": [],
   "media": [
@@ -99,7 +105,8 @@
   "id": "region:FR-BRE",
   "type": "region",
   "names": {
-   "de": "Bretagne"
+   "de": "Bretagne",
+   "en": "Brittany"
   },
   "aliases": [],
   "media": [
@@ -131,7 +138,8 @@
   "id": "region:FR-CVL",
   "type": "region",
   "names": {
-   "de": "Centre-Val de Loire"
+   "de": "Centre-Val de Loire",
+   "en": "Centre-Val de Loire"
   },
   "aliases": [],
   "media": [
@@ -163,7 +171,8 @@
   "id": "region:FR-GES",
   "type": "region",
   "names": {
-   "de": "Grand Est"
+   "de": "Grand Est",
+   "en": "Grand Est"
   },
   "aliases": [],
   "media": [
@@ -195,7 +204,8 @@
   "id": "region:FR-HDF",
   "type": "region",
   "names": {
-   "de": "Hauts-de-France"
+   "de": "Hauts-de-France",
+   "en": "Hauts-de-France"
   },
   "aliases": [],
   "media": [
@@ -227,7 +237,8 @@
   "id": "region:FR-IDF",
   "type": "region",
   "names": {
-   "de": "Île-de-France"
+   "de": "Île-de-France",
+   "en": "Île-de-France"
   },
   "aliases": [],
   "media": [
@@ -259,7 +270,8 @@
   "id": "region:FR-NAQ",
   "type": "region",
   "names": {
-   "de": "Nouvelle-Aquitaine"
+   "de": "Nouvelle-Aquitaine",
+   "en": "Nouvelle-Aquitaine"
   },
   "aliases": [],
   "media": [
@@ -291,7 +303,8 @@
   "id": "region:FR-NOR",
   "type": "region",
   "names": {
-   "de": "Normandie"
+   "de": "Normandie",
+   "en": "Normandy"
   },
   "aliases": [],
   "media": [
@@ -323,9 +336,13 @@
   "id": "region:FR-OCC",
   "type": "region",
   "names": {
-   "de": "Occitanie"
+   "de": "Okzitanien",
+   "en": "Occitania"
   },
-  "aliases": [],
+  "aliases": [
+   "Occitanie",
+   "Occitania"
+  ],
   "media": [
    {
     "id": "media:flag:FR-OCC",
@@ -355,9 +372,12 @@
   "id": "region:FR-PAC",
   "type": "region",
   "names": {
-   "de": "Provence-Alpes-Côte d'Azur"
+   "de": "Provence-Alpes-Côte d’Azur",
+   "en": "Provence-Alpes-Côte d'Azur"
   },
-  "aliases": [],
+  "aliases": [
+   "Provence-Alpes-Côte d'Azur"
+  ],
   "media": [
    {
     "id": "media:flag:FR-PAC",
@@ -387,7 +407,8 @@
   "id": "region:FR-PDL",
   "type": "region",
   "names": {
-   "de": "Pays de la Loire"
+   "de": "Pays de la Loire",
+   "en": "Pays de la Loire"
   },
   "aliases": [],
   "media": [

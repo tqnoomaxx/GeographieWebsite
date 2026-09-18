@@ -3,9 +3,13 @@
   "id": "region:BE-BRU",
   "type": "region",
   "names": {
-   "de": "Brüssel-Hauptstadt"
+   "de": "Region Brüssel-Hauptstadt",
+   "en": "Brussels-Capital Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Brüssel-Hauptstadt",
+   "Brussels-Capital Region"
+  ],
   "media": [
    {
     "id": "media:flag:BE-BRU",
@@ -35,9 +39,13 @@
   "id": "region:BE-VAN",
   "type": "region",
   "names": {
-   "de": "Antwerpen"
+   "de": "Provinz Antwerpen",
+   "en": "Province of Antwerp"
   },
-  "aliases": [],
+  "aliases": [
+   "Antwerpen",
+   "Province of Antwerp"
+  ],
   "media": [
    {
     "id": "media:flag:BE-VAN",
@@ -67,7 +75,8 @@
   "id": "region:BE-VBR",
   "type": "region",
   "names": {
-   "de": "Flämisch-Brabant"
+   "de": "Flämisch-Brabant",
+   "en": "Flemish Brabant"
   },
   "aliases": [],
   "media": [
@@ -99,9 +108,13 @@
   "id": "region:BE-VLG",
   "type": "region",
   "names": {
-   "de": "Flandern"
+   "de": "Flämische Region",
+   "en": "Flemish Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Flandern",
+   "Flemish Region"
+  ],
   "media": [
    {
     "id": "media:flag:BE-VLG",
@@ -131,7 +144,8 @@
   "id": "region:BE-VLI",
   "type": "region",
   "names": {
-   "de": "Limburg"
+   "de": "Limburg",
+   "en": "Limburg"
   },
   "aliases": [],
   "media": [
@@ -163,7 +177,8 @@
   "id": "region:BE-VOV",
   "type": "region",
   "names": {
-   "de": "Ostflandern"
+   "de": "Ostflandern",
+   "en": "East Flanders"
   },
   "aliases": [],
   "media": [
@@ -195,7 +210,8 @@
   "id": "region:BE-VWV",
   "type": "region",
   "names": {
-   "de": "Westflandern"
+   "de": "Westflandern",
+   "en": "West Flanders"
   },
   "aliases": [],
   "media": [
@@ -227,9 +243,13 @@
   "id": "region:BE-WAL",
   "type": "region",
   "names": {
-   "de": "Wallonien"
+   "de": "Wallonische Region",
+   "en": "Walloon Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Wallonien",
+   "Walloon Region"
+  ],
   "media": [
    {
     "id": "media:flag:BE-WAL",
@@ -259,7 +279,8 @@
   "id": "region:BE-WBR",
   "type": "region",
   "names": {
-   "de": "Wallonisch-Brabant"
+   "de": "Wallonisch-Brabant",
+   "en": "Walloon Brabant"
   },
   "aliases": [],
   "media": [
@@ -291,9 +312,13 @@
   "id": "region:BE-WHT",
   "type": "region",
   "names": {
-   "de": "Hennegau"
+   "de": "Provinz Hennegau",
+   "en": "Hainaut"
   },
-  "aliases": [],
+  "aliases": [
+   "Hennegau",
+   "Hainaut"
+  ],
   "media": [
    {
     "id": "media:flag:BE-WHT",
@@ -323,9 +348,13 @@
   "id": "region:BE-WLG",
   "type": "region",
   "names": {
-   "de": "Lüttich"
+   "de": "Provinz Lüttich",
+   "en": "Province of Liege"
   },
-  "aliases": [],
+  "aliases": [
+   "Lüttich",
+   "Province of Liege"
+  ],
   "media": [
    {
     "id": "media:flag:BE-WLG",
@@ -355,9 +384,13 @@
   "id": "region:BE-WLX",
   "type": "region",
   "names": {
-   "de": "Luxemburg"
+   "de": "Provinz Luxemburg",
+   "en": "province of Luxembourg"
   },
-  "aliases": [],
+  "aliases": [
+   "Luxemburg",
+   "province of Luxembourg"
+  ],
   "media": [
    {
     "id": "media:flag:BE-WLX",
@@ -387,9 +420,13 @@
   "id": "region:BE-WNA",
   "type": "region",
   "names": {
-   "de": "Namur"
+   "de": "Provinz Namur",
+   "en": "Province of Namur"
   },
-  "aliases": [],
+  "aliases": [
+   "Namur",
+   "Province of Namur"
+  ],
   "media": [
    {
     "id": "media:flag:BE-WNA",

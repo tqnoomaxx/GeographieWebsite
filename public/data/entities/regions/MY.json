@@ -3,7 +3,8 @@
   "id": "region:MY-01",
   "type": "region",
   "names": {
-   "de": "Johor"
+   "de": "Johor",
+   "en": "Johor"
   },
   "aliases": [],
   "media": [
@@ -35,7 +36,8 @@
   "id": "region:MY-02",
   "type": "region",
   "names": {
-   "de": "Kedah"
+   "de": "Kedah",
+   "en": "Kedah"
   },
   "aliases": [],
   "media": [
@@ -67,7 +69,8 @@
   "id": "region:MY-03",
   "type": "region",
   "names": {
-   "de": "Kelantan"
+   "de": "Kelantan",
+   "en": "Kelantan"
   },
   "aliases": [],
   "media": [
@@ -99,7 +102,8 @@
   "id": "region:MY-04",
   "type": "region",
   "names": {
-   "de": "Malakka"
+   "de": "Malakka",
+   "en": "Malacca"
   },
   "aliases": [],
   "media": [
@@ -131,7 +135,8 @@
   "id": "region:MY-05",
   "type": "region",
   "names": {
-   "de": "Negeri Sembilan"
+   "de": "Negeri Sembilan",
+   "en": "Negeri Sembilan"
   },
   "aliases": [],
   "media": [
@@ -163,7 +168,8 @@
   "id": "region:MY-06",
   "type": "region",
   "names": {
-   "de": "Pahang"
+   "de": "Pahang",
+   "en": "Pahang"
   },
   "aliases": [],
   "media": [
@@ -195,7 +201,8 @@
   "id": "region:MY-07",
   "type": "region",
   "names": {
-   "de": "Penang"
+   "de": "Penang",
+   "en": "Penang"
   },
   "aliases": [],
   "media": [
@@ -227,7 +234,8 @@
   "id": "region:MY-08",
   "type": "region",
   "names": {
-   "de": "Perak"
+   "de": "Perak",
+   "en": "Perak"
   },
   "aliases": [],
   "media": [
@@ -259,7 +267,8 @@
   "id": "region:MY-09",
   "type": "region",
   "names": {
-   "de": "Perlis"
+   "de": "Perlis",
+   "en": "Perlis"
   },
   "aliases": [],
   "media": [
@@ -291,7 +300,8 @@
   "id": "region:MY-10",
   "type": "region",
   "names": {
-   "de": "Selangor"
+   "de": "Selangor",
+   "en": "Selangor"
   },
   "aliases": [],
   "media": [
@@ -323,7 +333,8 @@
   "id": "region:MY-11",
   "type": "region",
   "names": {
-   "de": "Terengganu"
+   "de": "Terengganu",
+   "en": "Terengganu"
   },
   "aliases": [],
   "media": [
@@ -355,7 +366,8 @@
   "id": "region:MY-12",
   "type": "region",
   "names": {
-   "de": "Sabah"
+   "de": "Sabah",
+   "en": "Sabah"
   },
   "aliases": [],
   "media": [
@@ -387,7 +399,8 @@
   "id": "region:MY-13",
   "type": "region",
   "names": {
-   "de": "Sarawak"
+   "de": "Sarawak",
+   "en": "Sarawak"
   },
   "aliases": [],
   "media": [
@@ -419,7 +432,8 @@
   "id": "region:MY-14",
   "type": "region",
   "names": {
-   "de": "Kuala Lumpur"
+   "de": "Kuala Lumpur",
+   "en": "Kuala Lumpur"
   },
   "aliases": [],
   "media": [
@@ -451,7 +465,8 @@
   "id": "region:MY-15",
   "type": "region",
   "names": {
-   "de": "Labuan"
+   "de": "Labuan",
+   "en": "Labuan"
   },
   "aliases": [],
   "media": [
@@ -483,7 +498,8 @@
   "id": "region:MY-16",
   "type": "region",
   "names": {
-   "de": "Putrajaya"
+   "de": "Putrajaya",
+   "en": "Putrajaya"
   },
   "aliases": [],
   "media": [

@@ -3,7 +3,8 @@
   "id": "region:AT-1",
   "type": "region",
   "names": {
-   "de": "Burgenland"
+   "de": "Burgenland",
+   "en": "Burgenland"
   },
   "aliases": [],
   "media": [
@@ -36,7 +37,8 @@
   "id": "region:AT-2",
   "type": "region",
   "names": {
-   "de": "Kärnten"
+   "de": "Kärnten",
+   "en": "Carinthia"
   },
   "aliases": [],
   "media": [
@@ -69,7 +71,8 @@
   "id": "region:AT-3",
   "type": "region",
   "names": {
-   "de": "Niederösterreich"
+   "de": "Niederösterreich",
+   "en": "Lower Austria"
   },
   "aliases": [],
   "media": [
@@ -102,7 +105,8 @@
   "id": "region:AT-4",
   "type": "region",
   "names": {
-   "de": "Oberösterreich"
+   "de": "Oberösterreich",
+   "en": "Upper Austria"
   },
   "aliases": [],
   "media": [
@@ -135,7 +139,8 @@
   "id": "region:AT-5",
   "type": "region",
   "names": {
-   "de": "Salzburg"
+   "de": "Salzburg",
+   "en": "Salzburg"
   },
   "aliases": [],
   "media": [
@@ -168,7 +173,8 @@
   "id": "region:AT-6",
   "type": "region",
   "names": {
-   "de": "Steiermark"
+   "de": "Steiermark",
+   "en": "Styria"
   },
   "aliases": [],
   "media": [
@@ -201,7 +207,8 @@
   "id": "region:AT-7",
   "type": "region",
   "names": {
-   "de": "Tirol"
+   "de": "Tirol",
+   "en": "Tyrol"
   },
   "aliases": [],
   "media": [
@@ -234,7 +241,8 @@
   "id": "region:AT-8",
   "type": "region",
   "names": {
-   "de": "Vorarlberg"
+   "de": "Vorarlberg",
+   "en": "Vorarlberg"
   },
   "aliases": [],
   "media": [
@@ -267,7 +275,8 @@
   "id": "region:AT-9",
   "type": "region",
   "names": {
-   "de": "Wien"
+   "de": "Wien",
+   "en": "Vienna"
   },
   "aliases": [],
   "media": [

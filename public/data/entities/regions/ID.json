@@ -35,9 +35,12 @@
   "id": "region:ID-BA",
   "type": "region",
   "names": {
-   "de": "Bali"
+   "de": "Provinz Bali",
+   "en": "Bali"
   },
-  "aliases": [],
+  "aliases": [
+   "Bali"
+  ],
   "media": [
    {
     "id": "media:flag:ID-BA",
@@ -67,9 +70,13 @@
   "id": "region:ID-BB",
   "type": "region",
   "names": {
-   "de": "Bangka-Belitung"
+   "de": "Kepulauan Bangka-Belitung",
+   "en": "Bangka Belitung Islands"
   },
-  "aliases": [],
+  "aliases": [
+   "Bangka-Belitung",
+   "Bangka Belitung Islands"
+  ],
   "media": [
    {
     "id": "media:flag:ID-BB",
@@ -99,7 +106,8 @@
   "id": "region:ID-BE",
   "type": "region",
   "names": {
-   "de": "Bengkulu"
+   "de": "Bengkulu",
+   "en": "Bengkulu"
   },
   "aliases": [],
   "media": [
@@ -131,7 +139,8 @@
   "id": "region:ID-BT",
   "type": "region",
   "names": {
-   "de": "Banten"
+   "de": "Banten",
+   "en": "Banten"
   },
   "aliases": [],
   "media": [
@@ -163,7 +172,8 @@
   "id": "region:ID-GO",
   "type": "region",
   "names": {
-   "de": "Gorontalo"
+   "de": "Gorontalo",
+   "en": "Gorontalo"
   },
   "aliases": [],
   "media": [
@@ -195,7 +205,8 @@
   "id": "region:ID-JA",
   "type": "region",
   "names": {
-   "de": "Jambi"
+   "de": "Jambi",
+   "en": "Jambi"
   },
   "aliases": [],
   "media": [
@@ -227,9 +238,13 @@
   "id": "region:ID-JB",
   "type": "region",
   "names": {
-   "de": "Westjava"
+   "de": "Jawa Barat",
+   "en": "West Java"
   },
-  "aliases": [],
+  "aliases": [
+   "Westjava",
+   "West Java"
+  ],
   "media": [
    {
     "id": "media:flag:ID-JB",
@@ -259,9 +274,13 @@
   "id": "region:ID-JI",
   "type": "region",
   "names": {
-   "de": "Ostjava"
+   "de": "Jawa Timur",
+   "en": "East Java"
   },
-  "aliases": [],
+  "aliases": [
+   "Ostjava",
+   "East Java"
+  ],
   "media": [
    {
     "id": "media:flag:ID-JI",
@@ -291,7 +310,8 @@
   "id": "region:ID-JK",
   "type": "region",
   "names": {
-   "de": "Jakarta"
+   "de": "Jakarta",
+   "en": "Jakarta"
   },
   "aliases": [],
   "media": [
@@ -323,9 +343,14 @@
   "id": "region:ID-JT",
   "type": "region",
   "names": {
-   "de": "Zentraljava"
+   "de": "Provinz in Indonesien",
+   "en": "Central Java"
   },
-  "aliases": [],
+  "aliases": [
+   "Zentraljava",
+   "Central Java",
+   "in Indonesien"
+  ],
   "media": [
    {
     "id": "media:flag:ID-JT",
@@ -355,9 +380,13 @@
   "id": "region:ID-KB",
   "type": "region",
   "names": {
-   "de": "Westkalimantan"
+   "de": "Kalimantan Barat",
+   "en": "West Kalimantan"
   },
-  "aliases": [],
+  "aliases": [
+   "Westkalimantan",
+   "West Kalimantan"
+  ],
   "media": [
    {
     "id": "media:flag:ID-KB",
@@ -387,9 +416,13 @@
   "id": "region:ID-KI",
   "type": "region",
   "names": {
-   "de": "Ostkalimantan"
+   "de": "Kalimantan Timur",
+   "en": "East Kalimantan"
   },
-  "aliases": [],
+  "aliases": [
+   "Ostkalimantan",
+   "East Kalimantan"
+  ],
   "media": [
    {
     "id": "media:flag:ID-KI",
@@ -419,9 +452,13 @@
   "id": "region:ID-KR",
   "type": "region",
   "names": {
-   "de": "Riau-Inseln"
+   "de": "Kepulauan Riau",
+   "en": "Riau Islands"
   },
-  "aliases": [],
+  "aliases": [
+   "Riau-Inseln",
+   "Riau Islands"
+  ],
   "media": [
    {
     "id": "media:flag:ID-KR",
@@ -451,9 +488,13 @@
   "id": "region:ID-KS",
   "type": "region",
   "names": {
-   "de": "Südkalimantan"
+   "de": "Kalimantan Selatan",
+   "en": "South Kalimantan"
   },
-  "aliases": [],
+  "aliases": [
+   "Südkalimantan",
+   "South Kalimantan"
+  ],
   "media": [
    {
     "id": "media:flag:ID-KS",
@@ -483,9 +524,13 @@
   "id": "region:ID-KT",
   "type": "region",
   "names": {
-   "de": "Zentralkalimantan"
+   "de": "Kalimantan Tengah",
+   "en": "Central Kalimantan"
   },
-  "aliases": [],
+  "aliases": [
+   "Zentralkalimantan",
+   "Central Kalimantan"
+  ],
   "media": [
    {
     "id": "media:flag:ID-KT",
@@ -515,9 +560,13 @@
   "id": "region:ID-KU",
   "type": "region",
   "names": {
-   "de": "Nordkalimantan"
+   "de": "Kalimantan Utara",
+   "en": "North Kalimantan"
   },
-  "aliases": [],
+  "aliases": [
+   "Nordkalimantan",
+   "North Kalimantan"
+  ],
   "media": [
    {
     "id": "media:flag:ID-KU",
@@ -547,7 +596,8 @@
   "id": "region:ID-LA",
   "type": "region",
   "names": {
-   "de": "Lampung"
+   "de": "Lampung",
+   "en": "Lampung"
   },
   "aliases": [],
   "media": [
@@ -579,7 +629,8 @@
   "id": "region:ID-MA",
   "type": "region",
   "names": {
-   "de": "Maluku"
+   "de": "Maluku",
+   "en": "Maluku"
   },
   "aliases": [],
   "media": [
@@ -611,7 +662,8 @@
   "id": "region:ID-MU",
   "type": "region",
   "names": {
-   "de": "Nordmolukken"
+   "de": "Nordmolukken",
+   "en": "North Maluku"
   },
   "aliases": [],
   "media": [
@@ -643,9 +695,13 @@
   "id": "region:ID-NB",
   "type": "region",
   "names": {
-   "de": "West-Nusa-Tenggara"
+   "de": "Nusa Tenggara Barat",
+   "en": "West Nusa Tenggara"
   },
-  "aliases": [],
+  "aliases": [
+   "West-Nusa-Tenggara",
+   "West Nusa Tenggara"
+  ],
   "media": [
    {
     "id": "media:flag:ID-NB",
@@ -675,9 +731,13 @@
   "id": "region:ID-NT",
   "type": "region",
   "names": {
-   "de": "Ost-Nusa-Tenggara"
+   "de": "Nusa Tenggara Timur",
+   "en": "East Nusa Tenggara"
   },
-  "aliases": [],
+  "aliases": [
+   "Ost-Nusa-Tenggara",
+   "East Nusa Tenggara"
+  ],
   "media": [
    {
     "id": "media:flag:ID-NT",
@@ -707,9 +767,12 @@
   "id": "region:ID-PA",
   "type": "region",
   "names": {
-   "de": "Papua"
+   "de": "Provinz Papua",
+   "en": "Papua"
   },
-  "aliases": [],
+  "aliases": [
+   "Papua"
+  ],
   "media": [
    {
     "id": "media:flag:ID-PA",
@@ -739,9 +802,13 @@
   "id": "region:ID-PB",
   "type": "region",
   "names": {
-   "de": "Westpapua"
+   "de": "Papua Barat",
+   "en": "West Papua"
   },
-  "aliases": [],
+  "aliases": [
+   "Westpapua",
+   "West Papua"
+  ],
   "media": [
    {
     "id": "media:flag:ID-PB",
@@ -771,7 +838,8 @@
   "id": "region:ID-RI",
   "type": "region",
   "names": {
-   "de": "Riau"
+   "de": "Riau",
+   "en": "Riau"
   },
   "aliases": [],
   "media": [
@@ -803,9 +871,13 @@
   "id": "region:ID-SA",
   "type": "region",
   "names": {
-   "de": "Nordsulawesi"
+   "de": "Sulawesi Utara",
+   "en": "North Sulawesi"
   },
-  "aliases": [],
+  "aliases": [
+   "Nordsulawesi",
+   "North Sulawesi"
+  ],
   "media": [
    {
     "id": "media:flag:ID-SA",
@@ -835,9 +907,13 @@
   "id": "region:ID-SB",
   "type": "region",
   "names": {
-   "de": "Westsumatra"
+   "de": "Sumatera Barat",
+   "en": "West Sumatra"
   },
-  "aliases": [],
+  "aliases": [
+   "Westsumatra",
+   "West Sumatra"
+  ],
   "media": [
    {
     "id": "media:flag:ID-SB",
@@ -867,9 +943,13 @@
   "id": "region:ID-SG",
   "type": "region",
   "names": {
-   "de": "Südostsulawesi"
+   "de": "Sulawesi Tenggara",
+   "en": "Southeast Sulawesi"
   },
-  "aliases": [],
+  "aliases": [
+   "Südostsulawesi",
+   "Southeast Sulawesi"
+  ],
   "media": [
    {
     "id": "media:flag:ID-SG",
@@ -899,9 +979,13 @@
   "id": "region:ID-SN",
   "type": "region",
   "names": {
-   "de": "Südsulawesi"
+   "de": "Sulawesi Selatan",
+   "en": "South Sulawesi"
   },
-  "aliases": [],
+  "aliases": [
+   "Südsulawesi",
+   "South Sulawesi"
+  ],
   "media": [
    {
     "id": "media:flag:ID-SN",
@@ -931,9 +1015,13 @@
   "id": "region:ID-SR",
   "type": "region",
   "names": {
-   "de": "Westsulawesi"
+   "de": "Sulawesi Barat",
+   "en": "West Sulawesi"
   },
-  "aliases": [],
+  "aliases": [
+   "Westsulawesi",
+   "West Sulawesi"
+  ],
   "media": [
    {
     "id": "media:flag:ID-SR",
@@ -963,9 +1051,13 @@
   "id": "region:ID-SS",
   "type": "region",
   "names": {
-   "de": "Südsumatra"
+   "de": "Sumatera Selatan",
+   "en": "South Sumatra"
   },
-  "aliases": [],
+  "aliases": [
+   "Südsumatra",
+   "South Sumatra"
+  ],
   "media": [
    {
     "id": "media:flag:ID-SS",
@@ -995,9 +1087,13 @@
   "id": "region:ID-ST",
   "type": "region",
   "names": {
-   "de": "Zentralsulawesi"
+   "de": "Sulawesi Tengah",
+   "en": "Central Sulawesi"
   },
-  "aliases": [],
+  "aliases": [
+   "Zentralsulawesi",
+   "Central Sulawesi"
+  ],
   "media": [
    {
     "id": "media:flag:ID-ST",
@@ -1027,9 +1123,13 @@
   "id": "region:ID-SU",
   "type": "region",
   "names": {
-   "de": "Nordsumatra"
+   "de": "Sumatera Utara",
+   "en": "North Sumatra"
   },
-  "aliases": [],
+  "aliases": [
+   "Nordsumatra",
+   "North Sumatra"
+  ],
   "media": [
    {
     "id": "media:flag:ID-SU",
@@ -1059,9 +1159,12 @@
   "id": "region:ID-YO",
   "type": "region",
   "names": {
-   "de": "Yogyakarta"
+   "de": "Daérah Istiméwa Yogyakarta",
+   "en": "Yogyakarta"
   },
-  "aliases": [],
+  "aliases": [
+   "Yogyakarta"
+  ],
   "media": [
    {
     "id": "media:flag:ID-YO",

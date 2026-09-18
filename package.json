@@ -15,11 +15,14 @@
     "data:countries": "node scripts/import-countries.mjs",
     "data:wikidata": "node scripts/import-wikidata.mjs",
     "data:validate": "node scripts/validate-data.mjs",
-    "data:all": "npm run data:countries && npm run data:legacy && npm run data:wikidata && npm run data:plates && npm run data:nature && npm run data:validate",
+    "data:all": "npm run data:countries && npm run data:legacy && npm run data:wikidata && npm run data:labels && npm run data:cities && npm run data:plates && npm run data:nature && npm run data:validate",
     "deploy": "npm run build && gh-pages -d dist -t true",
     "e2e": "playwright test",
     "data:plates": "node scripts/import-plates.mjs DE && node scripts/import-plates.mjs AT && node scripts/import-plates.mjs CH",
-    "data:nature": "node scripts/import-nature.mjs"
+    "data:nature": "node scripts/import-nature.mjs",
+    "data:labels": "node scripts/import-labels.mjs",
+    "data:cities": "node scripts/import-cities.mjs",
+    "supabase:seed": "node --experimental-strip-types scripts/supabase-seed.mts"
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.3.0",

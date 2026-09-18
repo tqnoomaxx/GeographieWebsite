@@ -3,9 +3,12 @@
   "id": "region:SE-AB",
   "type": "region",
   "names": {
-   "de": "Stockholm County"
+   "de": "Stockholms län",
+   "en": "Stockholm County"
   },
-  "aliases": [],
+  "aliases": [
+   "Stockholm County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-AB",
@@ -35,9 +38,13 @@
   "id": "region:SE-AC",
   "type": "region",
   "names": {
-   "de": "Västerbotten"
+   "de": "Västerbottens län",
+   "en": "Västerbotten County"
   },
-  "aliases": [],
+  "aliases": [
+   "Västerbotten",
+   "Västerbotten County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-AC",
@@ -67,9 +74,13 @@
   "id": "region:SE-BD",
   "type": "region",
   "names": {
-   "de": "Norrbotten"
+   "de": "Norrbottens län",
+   "en": "Norrbotten County"
   },
-  "aliases": [],
+  "aliases": [
+   "Norrbotten",
+   "Norrbotten County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-BD",
@@ -99,9 +110,12 @@
   "id": "region:SE-C",
   "type": "region",
   "names": {
-   "de": "Uppsala County"
+   "de": "Uppsala län",
+   "en": "Uppsala County"
   },
-  "aliases": [],
+  "aliases": [
+   "Uppsala County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-C",
@@ -131,9 +145,13 @@
   "id": "region:SE-D",
   "type": "region",
   "names": {
-   "de": "Södermanland"
+   "de": "Södermanlands län",
+   "en": "Södermanland County"
   },
-  "aliases": [],
+  "aliases": [
+   "Södermanland",
+   "Södermanland County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-D",
@@ -163,9 +181,13 @@
   "id": "region:SE-E",
   "type": "region",
   "names": {
-   "de": "Östergötland"
+   "de": "Östergötlands län",
+   "en": "Östergötland County"
   },
-  "aliases": [],
+  "aliases": [
+   "Östergötland",
+   "Östergötland County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-E",
@@ -195,9 +217,13 @@
   "id": "region:SE-F",
   "type": "region",
   "names": {
-   "de": "Jönköping"
+   "de": "Jönköpings län",
+   "en": "Jönköping County"
   },
-  "aliases": [],
+  "aliases": [
+   "Jönköping",
+   "Jönköping County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-F",
@@ -227,9 +253,12 @@
   "id": "region:SE-G",
   "type": "region",
   "names": {
-   "de": "Kronoberg County"
+   "de": "Kronobergs län",
+   "en": "Kronoberg County"
   },
-  "aliases": [],
+  "aliases": [
+   "Kronoberg County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-G",
@@ -259,9 +288,12 @@
   "id": "region:SE-H",
   "type": "region",
   "names": {
-   "de": "Kalmar County"
+   "de": "Kalmar län",
+   "en": "Kalmar County"
   },
-  "aliases": [],
+  "aliases": [
+   "Kalmar County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-H",
@@ -291,9 +323,12 @@
   "id": "region:SE-I",
   "type": "region",
   "names": {
-   "de": "Gotland County"
+   "de": "Gotlands län",
+   "en": "Gotland County"
   },
-  "aliases": [],
+  "aliases": [
+   "Gotland County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-I",
@@ -323,9 +358,12 @@
   "id": "region:SE-K",
   "type": "region",
   "names": {
-   "de": "Blekinge County"
+   "de": "Blekinge län",
+   "en": "Blekinge County"
   },
-  "aliases": [],
+  "aliases": [
+   "Blekinge County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-K",
@@ -355,9 +393,13 @@
   "id": "region:SE-M",
   "type": "region",
   "names": {
-   "de": "Skåne"
+   "de": "Skåne län",
+   "en": "Skåne County"
   },
-  "aliases": [],
+  "aliases": [
+   "Skåne",
+   "Skåne County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-M",
@@ -387,9 +429,12 @@
   "id": "region:SE-N",
   "type": "region",
   "names": {
-   "de": "Halland County"
+   "de": "Hallands län",
+   "en": "Halland County"
   },
-  "aliases": [],
+  "aliases": [
+   "Halland County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-N",
@@ -419,9 +464,13 @@
   "id": "region:SE-O",
   "type": "region",
   "names": {
-   "de": "Västra Götaland"
+   "de": "Västra Götalands län",
+   "en": "Västra Götaland County"
   },
-  "aliases": [],
+  "aliases": [
+   "Västra Götaland",
+   "Västra Götaland County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-O",
@@ -451,9 +500,13 @@
   "id": "region:SE-S",
   "type": "region",
   "names": {
-   "de": "Värmland"
+   "de": "Värmlands län",
+   "en": "Värmland County"
   },
-  "aliases": [],
+  "aliases": [
+   "Värmland",
+   "Värmland County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-S",
@@ -483,9 +536,13 @@
   "id": "region:SE-T",
   "type": "region",
   "names": {
-   "de": "Örebro"
+   "de": "Örebro län",
+   "en": "Örebro County"
   },
-  "aliases": [],
+  "aliases": [
+   "Örebro",
+   "Örebro County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-T",
@@ -515,9 +572,13 @@
   "id": "region:SE-U",
   "type": "region",
   "names": {
-   "de": "Västmanland"
+   "de": "Västmanlands län",
+   "en": "Västmanland County"
   },
-  "aliases": [],
+  "aliases": [
+   "Västmanland",
+   "Västmanland County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-U",
@@ -547,9 +608,12 @@
   "id": "region:SE-W",
   "type": "region",
   "names": {
-   "de": "Dalarna County"
+   "de": "Dalarnas län",
+   "en": "Dalarna County"
   },
-  "aliases": [],
+  "aliases": [
+   "Dalarna County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-W",
@@ -579,9 +643,13 @@
   "id": "region:SE-X",
   "type": "region",
   "names": {
-   "de": "Gävleborg"
+   "de": "Gävleborgs län",
+   "en": "Gävleborg County"
   },
-  "aliases": [],
+  "aliases": [
+   "Gävleborg",
+   "Gävleborg County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-X",
@@ -611,9 +679,13 @@
   "id": "region:SE-Y",
   "type": "region",
   "names": {
-   "de": "Västernorrland"
+   "de": "Västernorrlands län",
+   "en": "Västernorrland County"
   },
-  "aliases": [],
+  "aliases": [
+   "Västernorrland",
+   "Västernorrland County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-Y",
@@ -643,9 +715,13 @@
   "id": "region:SE-Z",
   "type": "region",
   "names": {
-   "de": "Jämtland"
+   "de": "Jämtlands län",
+   "en": "Jämtland County"
   },
-  "aliases": [],
+  "aliases": [
+   "Jämtland",
+   "Jämtland County"
+  ],
   "media": [
    {
     "id": "media:flag:SE-Z",

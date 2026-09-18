@@ -3,9 +3,13 @@
   "id": "region:CR-A",
   "type": "region",
   "names": {
-   "de": "Alajuela"
+   "de": "Provinz Alajuela",
+   "en": "Alajuela Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Alajuela",
+   "Alajuela Province"
+  ],
   "media": [
    {
     "id": "media:flag:CR-A",
@@ -35,9 +39,13 @@
   "id": "region:CR-C",
   "type": "region",
   "names": {
-   "de": "Cartago"
+   "de": "Provinz Cartago",
+   "en": "Cartago Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Cartago",
+   "Cartago Province"
+  ],
   "media": [
    {
     "id": "media:flag:CR-C",
@@ -67,9 +75,13 @@
   "id": "region:CR-G",
   "type": "region",
   "names": {
-   "de": "Guanacaste"
+   "de": "Provinz Guanacaste",
+   "en": "Guanacaste Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Guanacaste",
+   "Guanacaste Province"
+  ],
   "media": [
    {
     "id": "media:flag:CR-G",
@@ -99,9 +111,13 @@
   "id": "region:CR-H",
   "type": "region",
   "names": {
-   "de": "Heredia"
+   "de": "Provinz Heredia",
+   "en": "Heredia Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Heredia",
+   "Heredia Province"
+  ],
   "media": [
    {
     "id": "media:flag:CR-H",
@@ -131,9 +147,13 @@
   "id": "region:CR-L",
   "type": "region",
   "names": {
-   "de": "Limón"
+   "de": "Provinz Limón",
+   "en": "Limón Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Limón",
+   "Limón Province"
+  ],
   "media": [
    {
     "id": "media:flag:CR-L",
@@ -163,9 +183,13 @@
   "id": "region:CR-P",
   "type": "region",
   "names": {
-   "de": "Puntarenas"
+   "de": "Provinz Puntarenas",
+   "en": "Puntarenas Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Puntarenas",
+   "Puntarenas Province"
+  ],
   "media": [
    {
     "id": "media:flag:CR-P",
@@ -195,9 +219,13 @@
   "id": "region:CR-SJ",
   "type": "region",
   "names": {
-   "de": "San José"
+   "de": "Provinz San José",
+   "en": "San José Province"
   },
-  "aliases": [],
+  "aliases": [
+   "San José",
+   "San José Province"
+  ],
   "media": [
    {
     "id": "media:flag:CR-SJ",

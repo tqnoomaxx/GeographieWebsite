@@ -3,7 +3,8 @@
   "id": "region:NO-03",
   "type": "region",
   "names": {
-   "de": "Oslo"
+   "de": "Oslo",
+   "en": "Oslo"
   },
   "aliases": [],
   "media": [
@@ -35,7 +36,8 @@
   "id": "region:NO-11",
   "type": "region",
   "names": {
-   "de": "Rogaland"
+   "de": "Rogaland",
+   "en": "Rogaland"
   },
   "aliases": [],
   "media": [
@@ -67,7 +69,8 @@
   "id": "region:NO-15",
   "type": "region",
   "names": {
-   "de": "Møre og Romsdal"
+   "de": "Møre og Romsdal",
+   "en": "Møre og Romsdal"
   },
   "aliases": [],
   "media": [
@@ -99,7 +102,8 @@
   "id": "region:NO-18",
   "type": "region",
   "names": {
-   "de": "Nordland"
+   "de": "Nordland",
+   "en": "Nordland"
   },
   "aliases": [],
   "media": [
@@ -131,7 +135,8 @@
   "id": "region:NO-34",
   "type": "region",
   "names": {
-   "de": "Innlandet"
+   "de": "Innlandet",
+   "en": "Innlandet"
   },
   "aliases": [],
   "media": [
@@ -163,7 +168,8 @@
   "id": "region:NO-46",
   "type": "region",
   "names": {
-   "de": "Vestland"
+   "de": "Vestland",
+   "en": "Vestland"
   },
   "aliases": [],
   "media": [

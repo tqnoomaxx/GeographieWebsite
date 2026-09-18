@@ -3,9 +3,13 @@
   "id": "region:TR-34",
   "type": "region",
   "names": {
-   "de": "İstanbul"
+   "de": "Istanbul",
+   "en": "Istanbul Province"
   },
-  "aliases": [],
+  "aliases": [
+   "İstanbul",
+   "Istanbul Province"
+  ],
   "media": [
    {
     "id": "media:flag:TR-34",

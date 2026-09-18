@@ -3,7 +3,8 @@
   "id": "region:AR-A",
   "type": "region",
   "names": {
-   "de": "Salta"
+   "de": "Salta",
+   "en": "Salta Province"
   },
   "aliases": [],
   "media": [
@@ -35,7 +36,8 @@
   "id": "region:AR-B",
   "type": "region",
   "names": {
-   "de": "Buenos Aires"
+   "de": "Buenos Aires",
+   "en": "Buenos Aires Province"
   },
   "aliases": [],
   "media": [
@@ -67,9 +69,12 @@
   "id": "region:AR-C",
   "type": "region",
   "names": {
-   "de": "Buenos Aires (Stadt)"
+   "de": "Buenos Aires",
+   "en": "Buenos Aires"
   },
-  "aliases": [],
+  "aliases": [
+   "Buenos Aires (Stadt)"
+  ],
   "media": [
    {
     "id": "media:flag:AR-C",
@@ -99,7 +104,8 @@
   "id": "region:AR-D",
   "type": "region",
   "names": {
-   "de": "San Luis"
+   "de": "San Luis",
+   "en": "San Luis Province"
   },
   "aliases": [],
   "media": [
@@ -131,7 +137,8 @@
   "id": "region:AR-E",
   "type": "region",
   "names": {
-   "de": "Entre Ríos"
+   "de": "Entre Ríos",
+   "en": "Entre Ríos Province"
   },
   "aliases": [],
   "media": [
@@ -163,7 +170,8 @@
   "id": "region:AR-F",
   "type": "region",
   "names": {
-   "de": "La Rioja"
+   "de": "La Rioja",
+   "en": "La Rioja Province"
   },
   "aliases": [],
   "media": [
@@ -195,7 +203,8 @@
   "id": "region:AR-G",
   "type": "region",
   "names": {
-   "de": "Santiago del Estero"
+   "de": "Santiago del Estero",
+   "en": "Santiago del Estero Province"
   },
   "aliases": [],
   "media": [
@@ -227,7 +236,8 @@
   "id": "region:AR-H",
   "type": "region",
   "names": {
-   "de": "Chaco"
+   "de": "Chaco",
+   "en": "Chaco Province"
   },
   "aliases": [],
   "media": [
@@ -259,7 +269,8 @@
   "id": "region:AR-J",
   "type": "region",
   "names": {
-   "de": "San Juan"
+   "de": "San Juan",
+   "en": "San Juan Province"
   },
   "aliases": [],
   "media": [
@@ -291,7 +302,8 @@
   "id": "region:AR-K",
   "type": "region",
   "names": {
-   "de": "Catamarca"
+   "de": "Catamarca",
+   "en": "Catamarca Province"
   },
   "aliases": [],
   "media": [
@@ -323,7 +335,8 @@
   "id": "region:AR-L",
   "type": "region",
   "names": {
-   "de": "La Pampa"
+   "de": "La Pampa",
+   "en": "La Pampa Province"
   },
   "aliases": [],
   "media": [
@@ -355,7 +368,8 @@
   "id": "region:AR-M",
   "type": "region",
   "names": {
-   "de": "Mendoza"
+   "de": "Mendoza",
+   "en": "Mendoza Province"
   },
   "aliases": [],
   "media": [
@@ -387,7 +401,8 @@
   "id": "region:AR-N",
   "type": "region",
   "names": {
-   "de": "Misiones"
+   "de": "Misiones",
+   "en": "Misiones Province"
   },
   "aliases": [],
   "media": [
@@ -419,7 +434,8 @@
   "id": "region:AR-P",
   "type": "region",
   "names": {
-   "de": "Formosa"
+   "de": "Formosa",
+   "en": "Formosa Province"
   },
   "aliases": [],
   "media": [
@@ -451,7 +467,8 @@
   "id": "region:AR-Q",
   "type": "region",
   "names": {
-   "de": "Neuquén"
+   "de": "Neuquén",
+   "en": "Neuquén Province"
   },
   "aliases": [],
   "media": [
@@ -483,7 +500,8 @@
   "id": "region:AR-R",
   "type": "region",
   "names": {
-   "de": "Río Negro"
+   "de": "Río Negro",
+   "en": "Río Negro Province"
   },
   "aliases": [],
   "media": [
@@ -515,7 +533,8 @@
   "id": "region:AR-S",
   "type": "region",
   "names": {
-   "de": "Santa Fe"
+   "de": "Santa Fe",
+   "en": "Santa Fe Province"
   },
   "aliases": [],
   "media": [
@@ -547,7 +566,8 @@
   "id": "region:AR-T",
   "type": "region",
   "names": {
-   "de": "Tucumán"
+   "de": "Tucumán",
+   "en": "Tucumán Province"
   },
   "aliases": [],
   "media": [
@@ -579,7 +599,8 @@
   "id": "region:AR-U",
   "type": "region",
   "names": {
-   "de": "Chubut"
+   "de": "Chubut",
+   "en": "Chubut Province"
   },
   "aliases": [],
   "media": [
@@ -611,9 +632,13 @@
   "id": "region:AR-V",
   "type": "region",
   "names": {
-   "de": "Tierra del Fuego"
+   "de": "Provinz Tierra del Fuego",
+   "en": "Tierra del Fuego, Antarctica and South Atlantic Islands Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Tierra del Fuego",
+   "Tierra del Fuego, Antarctica and South Atlantic Islands Province"
+  ],
   "media": [
    {
     "id": "media:flag:AR-V",
@@ -643,7 +668,8 @@
   "id": "region:AR-W",
   "type": "region",
   "names": {
-   "de": "Corrientes"
+   "de": "Corrientes",
+   "en": "Corrientes Province"
   },
   "aliases": [],
   "media": [
@@ -675,9 +701,13 @@
   "id": "region:AR-X",
   "type": "region",
   "names": {
-   "de": "Córdoba"
+   "de": "Provinz Córdoba",
+   "en": "Córdoba Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Córdoba",
+   "Córdoba Province"
+  ],
   "media": [
    {
     "id": "media:flag:AR-X",
@@ -707,7 +737,8 @@
   "id": "region:AR-Y",
   "type": "region",
   "names": {
-   "de": "Jujuy"
+   "de": "Jujuy",
+   "en": "Jujuy Province"
   },
   "aliases": [],
   "media": [
@@ -739,9 +770,13 @@
   "id": "region:AR-Z",
   "type": "region",
   "names": {
-   "de": "Santa Cruz"
+   "de": "Nationalpark Los Glaciares",
+   "en": "Los Glaciares National Park"
   },
-  "aliases": [],
+  "aliases": [
+   "Santa Cruz",
+   "Los Glaciares National Park"
+  ],
   "media": [
    {
     "id": "media:flag:AR-Z",

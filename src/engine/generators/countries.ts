@@ -1,9 +1,11 @@
 import type { Generator } from './base'
-import { qid, effectiveDifficulty, nameOf, flagMedia } from './base'
+import { qid, effectiveDifficulty, nameOf, flagMedia, isSovereign } from './base'
+
+const CONTINENT_DE: Record<string, string> = { europe: 'Europa', asia: 'Asien', africa: 'Afrika', 'north-america': 'Nordamerika', 'south-america': 'Südamerika', oceania: 'Ozeanien', antarctica: 'Antarktis' }
 import type { Country } from '@/domain/types'
 import type { GeneratorContext } from '../types'
 
-const independent = (ctx: GeneratorContext) => ctx.countries.filter((c) => (c as Country).attributes.independent !== false)
+const independent = (ctx: GeneratorContext) => ctx.countries.filter(isSovereign)
 
 /** Fragt eine Eigenschaft ab: Kontinent, Währung, Amtssprache, Nachbar, Einwohnervergleich. */
 export const countryAttribute: Generator = {
@@ -45,7 +47,7 @@ export const countryAttribute: Generator = {
     if (c.attributes.continent) {
       variants.push(() => {
         const all = ['europe', 'asia', 'africa', 'north-america', 'south-america', 'oceania']
-        const opts = rng.shuffle([c.attributes.continent!, ...rng.shuffle(all.filter((x) => x !== c.attributes.continent)).slice(0, 3)]).map((l) => ({ id: l, label: l }))
+        const opts = rng.shuffle([c.attributes.continent!, ...rng.shuffle(all.filter((x) => x !== c.attributes.continent)).slice(0, 3)]).map((l) => ({ id: l, label: CONTINENT_DE[l] ?? l }))
         return {
           id: qid('continent', target), category: 'countries' as const, type: 'country_continent', question_type: 'multiple_choice' as const,
           prompt: { key: 'q.country_continent', params: { name: nameOf(c) } }, answer: c.attributes.continent!, options: opts, difficulty: 1,
@@ -71,8 +73,8 @@ export const neighborOfCountry: Generator = {
     if (!neighbors.length) return null
     const correct = rng.pick(neighbors)!
     const neighborSet = new Set([target.id, ...neighbors.map((n) => n!.id)])
-    const sameContinent = ctx.countries.filter((c) => !neighborSet.has(c.id) && c.attributes.continent === target.attributes.continent)
-    const others = ctx.countries.filter((c) => !neighborSet.has(c.id) && c.attributes.continent !== target.attributes.continent)
+    const sameContinent = independent(ctx).filter((c) => !neighborSet.has(c.id) && c.attributes.continent === target.attributes.continent)
+    const others = independent(ctx).filter((c) => !neighborSet.has(c.id) && c.attributes.continent !== target.attributes.continent)
     const wrong = [...rng.shuffle(sameContinent), ...rng.shuffle(others)].slice(0, 3)
     if (wrong.length < 3) return null
     const d = effectiveDifficulty(target, difficulty)

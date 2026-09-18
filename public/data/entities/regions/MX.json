@@ -3,7 +3,8 @@
   "id": "region:MX-AGU",
   "type": "region",
   "names": {
-   "de": "Aguascalientes"
+   "de": "Aguascalientes",
+   "en": "Aguascalientes"
   },
   "aliases": [],
   "media": [
@@ -35,7 +36,8 @@
   "id": "region:MX-BCN",
   "type": "region",
   "names": {
-   "de": "Baja California"
+   "de": "Baja California",
+   "en": "Baja California"
   },
   "aliases": [],
   "media": [
@@ -67,7 +69,8 @@
   "id": "region:MX-BCS",
   "type": "region",
   "names": {
-   "de": "Baja California Sur"
+   "de": "Baja California Sur",
+   "en": "Baja California Sur"
   },
   "aliases": [],
   "media": [
@@ -99,7 +102,8 @@
   "id": "region:MX-CAM",
   "type": "region",
   "names": {
-   "de": "Campeche"
+   "de": "Campeche",
+   "en": "Campeche"
   },
   "aliases": [],
   "media": [
@@ -131,7 +135,8 @@
   "id": "region:MX-CHH",
   "type": "region",
   "names": {
-   "de": "Chihuahua"
+   "de": "Chihuahua",
+   "en": "Chihuahua"
   },
   "aliases": [],
   "media": [
@@ -163,7 +168,8 @@
   "id": "region:MX-CHP",
   "type": "region",
   "names": {
-   "de": "Chiapas"
+   "de": "Chiapas",
+   "en": "Chiapas"
   },
   "aliases": [],
   "media": [
@@ -195,7 +201,8 @@
   "id": "region:MX-CMX",
   "type": "region",
   "names": {
-   "de": "Mexiko-Stadt"
+   "de": "Mexiko-Stadt",
+   "en": "Mexico City"
   },
   "aliases": [],
   "media": [
@@ -227,7 +234,8 @@
   "id": "region:MX-COA",
   "type": "region",
   "names": {
-   "de": "Coahuila"
+   "de": "Coahuila",
+   "en": "Coahuila"
   },
   "aliases": [],
   "media": [
@@ -259,7 +267,8 @@
   "id": "region:MX-COL",
   "type": "region",
   "names": {
-   "de": "Colima"
+   "de": "Colima",
+   "en": "Colima"
   },
   "aliases": [],
   "media": [
@@ -291,7 +300,8 @@
   "id": "region:MX-DUR",
   "type": "region",
   "names": {
-   "de": "Durango"
+   "de": "Durango",
+   "en": "Durango"
   },
   "aliases": [],
   "media": [
@@ -323,7 +333,8 @@
   "id": "region:MX-GRO",
   "type": "region",
   "names": {
-   "de": "Guerrero"
+   "de": "Guerrero",
+   "en": "Guerrero"
   },
   "aliases": [],
   "media": [
@@ -355,7 +366,8 @@
   "id": "region:MX-GUA",
   "type": "region",
   "names": {
-   "de": "Guanajuato"
+   "de": "Guanajuato",
+   "en": "Guanajuato"
   },
   "aliases": [],
   "media": [
@@ -387,7 +399,8 @@
   "id": "region:MX-HID",
   "type": "region",
   "names": {
-   "de": "Hidalgo"
+   "de": "Hidalgo",
+   "en": "Hidalgo"
   },
   "aliases": [],
   "media": [
@@ -419,7 +432,8 @@
   "id": "region:MX-JAL",
   "type": "region",
   "names": {
-   "de": "Jalisco"
+   "de": "Jalisco",
+   "en": "Jalisco"
   },
   "aliases": [],
   "media": [
@@ -451,7 +465,8 @@
   "id": "region:MX-MEX",
   "type": "region",
   "names": {
-   "de": "México"
+   "de": "México",
+   "en": "State of Mexico"
   },
   "aliases": [],
   "media": [
@@ -483,7 +498,8 @@
   "id": "region:MX-MIC",
   "type": "region",
   "names": {
-   "de": "Michoacán"
+   "de": "Michoacán",
+   "en": "Michoacán"
   },
   "aliases": [],
   "media": [
@@ -515,7 +531,8 @@
   "id": "region:MX-MOR",
   "type": "region",
   "names": {
-   "de": "Morelos"
+   "de": "Morelos",
+   "en": "Morelos"
   },
   "aliases": [],
   "media": [
@@ -547,7 +564,8 @@
   "id": "region:MX-NAY",
   "type": "region",
   "names": {
-   "de": "Nayarit"
+   "de": "Nayarit",
+   "en": "Nayarit"
   },
   "aliases": [],
   "media": [
@@ -579,7 +597,8 @@
   "id": "region:MX-NLE",
   "type": "region",
   "names": {
-   "de": "Nuevo León"
+   "de": "Nuevo León",
+   "en": "Nuevo León"
   },
   "aliases": [],
   "media": [
@@ -611,7 +630,8 @@
   "id": "region:MX-OAX",
   "type": "region",
   "names": {
-   "de": "Oaxaca"
+   "de": "Oaxaca",
+   "en": "Oaxaca"
   },
   "aliases": [],
   "media": [
@@ -643,7 +663,8 @@
   "id": "region:MX-PUE",
   "type": "region",
   "names": {
-   "de": "Puebla"
+   "de": "Puebla",
+   "en": "Puebla"
   },
   "aliases": [],
   "media": [
@@ -675,7 +696,8 @@
   "id": "region:MX-QUE",
   "type": "region",
   "names": {
-   "de": "Querétaro"
+   "de": "Querétaro",
+   "en": "Querétaro"
   },
   "aliases": [],
   "media": [
@@ -707,7 +729,8 @@
   "id": "region:MX-ROO",
   "type": "region",
   "names": {
-   "de": "Quintana Roo"
+   "de": "Quintana Roo",
+   "en": "Quintana Roo"
   },
   "aliases": [],
   "media": [
@@ -739,7 +762,8 @@
   "id": "region:MX-SIN",
   "type": "region",
   "names": {
-   "de": "Sinaloa"
+   "de": "Sinaloa",
+   "en": "Sinaloa"
   },
   "aliases": [],
   "media": [
@@ -771,7 +795,8 @@
   "id": "region:MX-SLP",
   "type": "region",
   "names": {
-   "de": "San Luis Potosí"
+   "de": "San Luis Potosí",
+   "en": "San Luis Potosí"
   },
   "aliases": [],
   "media": [
@@ -803,7 +828,8 @@
   "id": "region:MX-SON",
   "type": "region",
   "names": {
-   "de": "Sonora"
+   "de": "Sonora",
+   "en": "Sonora"
   },
   "aliases": [],
   "media": [
@@ -835,7 +861,8 @@
   "id": "region:MX-TAB",
   "type": "region",
   "names": {
-   "de": "Tabasco"
+   "de": "Tabasco",
+   "en": "Tabasco"
   },
   "aliases": [],
   "media": [
@@ -867,7 +894,8 @@
   "id": "region:MX-TAM",
   "type": "region",
   "names": {
-   "de": "Tamaulipas"
+   "de": "Tamaulipas",
+   "en": "Tamaulipas"
   },
   "aliases": [],
   "media": [
@@ -899,7 +927,8 @@
   "id": "region:MX-TLA",
   "type": "region",
   "names": {
-   "de": "Tlaxcala"
+   "de": "Tlaxcala",
+   "en": "Tlaxcala"
   },
   "aliases": [],
   "media": [
@@ -931,7 +960,8 @@
   "id": "region:MX-VER",
   "type": "region",
   "names": {
-   "de": "Veracruz"
+   "de": "Veracruz",
+   "en": "Veracruz"
   },
   "aliases": [],
   "media": [
@@ -963,7 +993,8 @@
   "id": "region:MX-YUC",
   "type": "region",
   "names": {
-   "de": "Yucatán"
+   "de": "Yucatán",
+   "en": "Yucatán"
   },
   "aliases": [],
   "media": [
@@ -995,7 +1026,8 @@
   "id": "region:MX-ZAC",
   "type": "region",
   "names": {
-   "de": "Zacatecas"
+   "de": "Zacatecas",
+   "en": "Zacatecas"
   },
   "aliases": [],
   "media": [

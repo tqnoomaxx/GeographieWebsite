@@ -3,7 +3,8 @@
   "id": "region:NL-DR",
   "type": "region",
   "names": {
-   "de": "Drenthe"
+   "de": "Drenthe",
+   "en": "Drenthe"
   },
   "aliases": [],
   "media": [
@@ -36,7 +37,8 @@
   "id": "region:NL-FL",
   "type": "region",
   "names": {
-   "de": "Flevoland"
+   "de": "Flevoland",
+   "en": "Flevoland"
   },
   "aliases": [],
   "media": [
@@ -69,7 +71,8 @@
   "id": "region:NL-FR",
   "type": "region",
   "names": {
-   "de": "Friesland"
+   "de": "Friesland",
+   "en": "Friesland"
   },
   "aliases": [],
   "media": [
@@ -102,7 +105,8 @@
   "id": "region:NL-GE",
   "type": "region",
   "names": {
-   "de": "Gelderland"
+   "de": "Gelderland",
+   "en": "Gelderland"
   },
   "aliases": [],
   "media": [
@@ -135,7 +139,8 @@
   "id": "region:NL-GR",
   "type": "region",
   "names": {
-   "de": "Groningen"
+   "de": "Groningen",
+   "en": "Groningen"
   },
   "aliases": [],
   "media": [
@@ -168,7 +173,8 @@
   "id": "region:NL-LI",
   "type": "region",
   "names": {
-   "de": "Limburg"
+   "de": "Limburg",
+   "en": "Limburg"
   },
   "aliases": [],
   "media": [
@@ -201,9 +207,13 @@
   "id": "region:NL-NB",
   "type": "region",
   "names": {
-   "de": "Noord-Brabant"
+   "de": "Nordbrabant",
+   "en": "North Brabant"
   },
-  "aliases": [],
+  "aliases": [
+   "Noord-Brabant",
+   "North Brabant"
+  ],
   "media": [
    {
     "id": "media:flag:NL-NB",
@@ -234,9 +244,13 @@
   "id": "region:NL-NH",
   "type": "region",
   "names": {
-   "de": "Noord-Holland"
+   "de": "Nordholland",
+   "en": "North Holland"
   },
-  "aliases": [],
+  "aliases": [
+   "Noord-Holland",
+   "North Holland"
+  ],
   "media": [
    {
     "id": "media:flag:NL-NH",
@@ -267,7 +281,8 @@
   "id": "region:NL-OV",
   "type": "region",
   "names": {
-   "de": "Overijssel"
+   "de": "Overijssel",
+   "en": "Overijssel"
   },
   "aliases": [],
   "media": [
@@ -300,7 +315,8 @@
   "id": "region:NL-UT",
   "type": "region",
   "names": {
-   "de": "Utrecht"
+   "de": "Utrecht",
+   "en": "Utrecht"
   },
   "aliases": [],
   "media": [
@@ -333,9 +349,12 @@
   "id": "region:NL-ZE",
   "type": "region",
   "names": {
-   "de": "Zeeland"
+   "de": "Seeland",
+   "en": "Zeeland"
   },
-  "aliases": [],
+  "aliases": [
+   "Zeeland"
+  ],
   "media": [
    {
     "id": "media:flag:NL-ZE",
@@ -366,9 +385,13 @@
   "id": "region:NL-ZH",
   "type": "region",
   "names": {
-   "de": "Zuid-Holland"
+   "de": "Südholland",
+   "en": "South Holland"
   },
-  "aliases": [],
+  "aliases": [
+   "Zuid-Holland",
+   "South Holland"
+  ],
   "media": [
    {
     "id": "media:flag:NL-ZH",

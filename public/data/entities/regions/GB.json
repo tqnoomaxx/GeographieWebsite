@@ -3,7 +3,8 @@
   "id": "region:GB-ENG",
   "type": "region",
   "names": {
-   "de": "England"
+   "de": "England",
+   "en": "England"
   },
   "aliases": [],
   "media": [
@@ -33,7 +34,8 @@
   "id": "region:GB-NIR",
   "type": "region",
   "names": {
-   "de": "Nordirland"
+   "de": "Nordirland",
+   "en": "Northern Ireland"
   },
   "aliases": [],
   "media": [
@@ -63,7 +65,8 @@
   "id": "region:GB-SCT",
   "type": "region",
   "names": {
-   "de": "Schottland"
+   "de": "Schottland",
+   "en": "Scotland"
   },
   "aliases": [],
   "media": [
@@ -93,7 +96,8 @@
   "id": "region:GB-WLS",
   "type": "region",
   "names": {
-   "de": "Wales"
+   "de": "Wales",
+   "en": "Wales"
   },
   "aliases": [],
   "media": [

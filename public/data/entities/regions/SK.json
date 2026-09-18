@@ -3,9 +3,13 @@
   "id": "region:SK-BC",
   "type": "region",
   "names": {
-   "de": "Banská Bystrica"
+   "de": "Banskobystrický kraj",
+   "en": "Banská Bystrica Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Banská Bystrica",
+   "Banská Bystrica Region"
+  ],
   "media": [
    {
     "id": "media:flag:SK-BC",
@@ -35,9 +39,13 @@
   "id": "region:SK-BL",
   "type": "region",
   "names": {
-   "de": "Bratislava"
+   "de": "Bratislavský kraj",
+   "en": "Bratislava Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Bratislava",
+   "Bratislava Region"
+  ],
   "media": [
    {
     "id": "media:flag:SK-BL",
@@ -67,9 +75,13 @@
   "id": "region:SK-KI",
   "type": "region",
   "names": {
-   "de": "Košice"
+   "de": "Košický kraj",
+   "en": "Košice Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Košice",
+   "Košice Region"
+  ],
   "media": [
    {
     "id": "media:flag:SK-KI",
@@ -99,9 +111,13 @@
   "id": "region:SK-NI",
   "type": "region",
   "names": {
-   "de": "Nitra"
+   "de": "Nitriansky kraj",
+   "en": "Nitra Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Nitra",
+   "Nitra Region"
+  ],
   "media": [
    {
     "id": "media:flag:SK-NI",
@@ -131,9 +147,13 @@
   "id": "region:SK-PV",
   "type": "region",
   "names": {
-   "de": "Prešov"
+   "de": "Eperieser Landschaftsverband",
+   "en": "Prešov Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Prešov",
+   "Prešov Region"
+  ],
   "media": [
    {
     "id": "media:flag:SK-PV",
@@ -163,9 +183,13 @@
   "id": "region:SK-TA",
   "type": "region",
   "names": {
-   "de": "Trnava"
+   "de": "Trnavský kraj",
+   "en": "Trnava Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Trnava",
+   "Trnava Region"
+  ],
   "media": [
    {
     "id": "media:flag:SK-TA",
@@ -195,9 +219,13 @@
   "id": "region:SK-TC",
   "type": "region",
   "names": {
-   "de": "Trenčín"
+   "de": "Trenčiansky kraj",
+   "en": "Trenčín Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Trenčín",
+   "Trenčín Region"
+  ],
   "media": [
    {
     "id": "media:flag:SK-TC",
@@ -227,9 +255,13 @@
   "id": "region:SK-ZI",
   "type": "region",
   "names": {
-   "de": "Žilina"
+   "de": "Žilinský kraj",
+   "en": "Žilina region"
   },
-  "aliases": [],
+  "aliases": [
+   "Žilina",
+   "Žilina region"
+  ],
   "media": [
    {
     "id": "media:flag:SK-ZI",

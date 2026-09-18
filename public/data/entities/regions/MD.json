@@ -3,9 +3,13 @@
   "id": "region:MD-AN",
   "type": "region",
   "names": {
-   "de": "Anenii Noi"
+   "de": "Rajon Anenii Noi",
+   "en": "Anenii Noi District"
   },
-  "aliases": [],
+  "aliases": [
+   "Anenii Noi",
+   "Anenii Noi District"
+  ],
   "media": [
    {
     "id": "media:flag:MD-AN",
@@ -35,9 +39,13 @@
   "id": "region:MD-BS",
   "type": "region",
   "names": {
-   "de": "Basarabeasca"
+   "de": "Rajon Basarabeasca",
+   "en": "Basarabeasca District"
   },
-  "aliases": [],
+  "aliases": [
+   "Basarabeasca",
+   "Basarabeasca District"
+  ],
   "media": [
    {
     "id": "media:flag:MD-BS",
@@ -67,9 +75,13 @@
   "id": "region:MD-CA",
   "type": "region",
   "names": {
-   "de": "Cahul"
+   "de": "Rajon Cahul",
+   "en": "Cahul District"
   },
-  "aliases": [],
+  "aliases": [
+   "Cahul",
+   "Cahul District"
+  ],
   "media": [
    {
     "id": "media:flag:MD-CA",
@@ -99,9 +111,13 @@
   "id": "region:MD-CR",
   "type": "region",
   "names": {
-   "de": "Criuleni"
+   "de": "Rajon Criuleni",
+   "en": "Criuleni District"
   },
-  "aliases": [],
+  "aliases": [
+   "Criuleni",
+   "Criuleni District"
+  ],
   "media": [
    {
     "id": "media:flag:MD-CR",
@@ -131,9 +147,13 @@
   "id": "region:MD-CT",
   "type": "region",
   "names": {
-   "de": "Cantemir"
+   "de": "Rajon Cantemir",
+   "en": "Cantemir District"
   },
-  "aliases": [],
+  "aliases": [
+   "Cantemir",
+   "Cantemir District"
+  ],
   "media": [
    {
     "id": "media:flag:MD-CT",
@@ -195,9 +215,13 @@
   "id": "region:MD-DU",
   "type": "region",
   "names": {
-   "de": "Dubasari"
+   "de": "Rajon Dubăsari",
+   "en": "Dubăsari District"
   },
-  "aliases": [],
+  "aliases": [
+   "Dubasari",
+   "Dubăsari District"
+  ],
   "media": [
    {
     "id": "media:flag:MD-DU",
@@ -227,9 +251,13 @@
   "id": "region:MD-ED",
   "type": "region",
   "names": {
-   "de": "Edinet"
+   "de": "Rajon Edineț",
+   "en": "Edineț District"
   },
-  "aliases": [],
+  "aliases": [
+   "Edinet",
+   "Edineț District"
+  ],
   "media": [
    {
     "id": "media:flag:MD-ED",
@@ -259,9 +287,13 @@
   "id": "region:MD-FL",
   "type": "region",
   "names": {
-   "de": "Floresti"
+   "de": "Rajon Florești",
+   "en": "Florești District"
   },
-  "aliases": [],
+  "aliases": [
+   "Floresti",
+   "Florești District"
+  ],
   "media": [
    {
     "id": "media:flag:MD-FL",
@@ -291,9 +323,12 @@
   "id": "region:MD-GA",
   "type": "region",
   "names": {
-   "de": "Gagauzia"
+   "de": "Gagausien",
+   "en": "Gagauzia"
   },
-  "aliases": [],
+  "aliases": [
+   "Gagauzia"
+  ],
   "media": [
    {
     "id": "media:flag:MD-GA",
@@ -323,9 +358,13 @@
   "id": "region:MD-GL",
   "type": "region",
   "names": {
-   "de": "Glodeni"
+   "de": "Rajon Glodeni",
+   "en": "Glodeni District"
   },
-  "aliases": [],
+  "aliases": [
+   "Glodeni",
+   "Glodeni District"
+  ],
   "media": [
    {
     "id": "media:flag:MD-GL",
@@ -355,9 +394,13 @@
   "id": "region:MD-HI",
   "type": "region",
   "names": {
-   "de": "Hincesti"
+   "de": "Rajon Hîncești",
+   "en": "Hîncești District"
   },
-  "aliases": [],
+  "aliases": [
+   "Hincesti",
+   "Hîncești District"
+  ],
   "media": [
    {
     "id": "media:flag:MD-HI",
@@ -387,9 +430,13 @@
   "id": "region:MD-RE",
   "type": "region",
   "names": {
-   "de": "Rezina"
+   "de": "Rajon Rezina",
+   "en": "Rezina District"
   },
-  "aliases": [],
+  "aliases": [
+   "Rezina",
+   "Rezina District"
+  ],
   "media": [
    {
     "id": "media:flag:MD-RE",
@@ -419,9 +466,13 @@
   "id": "region:MD-SO",
   "type": "region",
   "names": {
-   "de": "Soroca"
+   "de": "Rajon Soroca",
+   "en": "Soroca District"
   },
-  "aliases": [],
+  "aliases": [
+   "Soroca",
+   "Soroca District"
+  ],
   "media": [
    {
     "id": "media:flag:MD-SO",
@@ -451,9 +502,13 @@
   "id": "region:MD-UN",
   "type": "region",
   "names": {
-   "de": "Ungheni"
+   "de": "Rajon Ungheni",
+   "en": "Ungheni District"
   },
-  "aliases": [],
+  "aliases": [
+   "Ungheni",
+   "Ungheni District"
+  ],
   "media": [
    {
     "id": "media:flag:MD-UN",

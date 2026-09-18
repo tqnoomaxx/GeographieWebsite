@@ -3,9 +3,14 @@
   "id": "region:ME-06",
   "type": "region",
   "names": {
-   "de": "Cetinje Municipality"
+   "de": "Gemeinde Cetinje",
+   "en": "Old Royal Capital Cetinje"
   },
-  "aliases": [],
+  "aliases": [
+   "Cetinje Municipality",
+   "Old Royal Capital Cetinje",
+   "Cetinje"
+  ],
   "media": [
    {
     "id": "media:flag:ME-06",
@@ -35,9 +40,13 @@
   "id": "region:ME-08",
   "type": "region",
   "names": {
-   "de": "Herceg Novi Municipality"
+   "de": "Gemeinde Herceg Novi",
+   "en": "Herceg Novi Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Herceg Novi Municipality",
+   "Herceg Novi"
+  ],
   "media": [
    {
     "id": "media:flag:ME-08",
@@ -67,9 +76,13 @@
   "id": "region:ME-15",
   "type": "region",
   "names": {
-   "de": "Plužine Municipality"
+   "de": "Gemeinde Plužine",
+   "en": "Plužine Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Plužine Municipality",
+   "Plužine"
+  ],
   "media": [
    {
     "id": "media:flag:ME-15",
@@ -99,9 +112,14 @@
   "id": "region:ME-16",
   "type": "region",
   "names": {
-   "de": "Podgorica Municipality"
+   "de": "Gemeinde Podgorica",
+   "en": "Podgorica Capital City"
   },
-  "aliases": [],
+  "aliases": [
+   "Podgorica Municipality",
+   "Podgorica Capital City",
+   "Podgorica"
+  ],
   "media": [
    {
     "id": "media:flag:ME-16",
@@ -131,9 +149,13 @@
   "id": "region:ME-17",
   "type": "region",
   "names": {
-   "de": "Rožaje Municipality"
+   "de": "Gemeinde Rožaje",
+   "en": "Rožaje Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Rožaje Municipality",
+   "Rožaje"
+  ],
   "media": [
    {
     "id": "media:flag:ME-17",
@@ -163,9 +185,13 @@
   "id": "region:ME-18",
   "type": "region",
   "names": {
-   "de": "Šavnik Municipality"
+   "de": "Gemeinde Šavnik",
+   "en": "Šavnik Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Šavnik Municipality",
+   "Šavnik"
+  ],
   "media": [
    {
     "id": "media:flag:ME-18",
@@ -195,9 +221,13 @@
   "id": "region:ME-19",
   "type": "region",
   "names": {
-   "de": "Tivat Municipality"
+   "de": "Gemeinde Tivat",
+   "en": "Tivat Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Tivat Municipality",
+   "Tivat"
+  ],
   "media": [
    {
     "id": "media:flag:ME-19",
@@ -227,9 +257,13 @@
   "id": "region:ME-20",
   "type": "region",
   "names": {
-   "de": "Ulcinj Municipality"
+   "de": "Gemeinde Ulcinj",
+   "en": "Ulcinj Municipality"
   },
-  "aliases": [],
+  "aliases": [
+   "Ulcinj Municipality",
+   "Ulcinj"
+  ],
   "media": [
    {
     "id": "media:flag:ME-20",

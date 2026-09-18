@@ -3,9 +3,13 @@
   "id": "region:CZ-20",
   "type": "region",
   "names": {
-   "de": "Mittelböhmen"
+   "de": "Středočeský kraj",
+   "en": "Central Bohemian Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Mittelböhmen",
+   "Central Bohemian Region"
+  ],
   "media": [
    {
     "id": "media:flag:CZ-20",
@@ -35,9 +39,13 @@
   "id": "region:CZ-31",
   "type": "region",
   "names": {
-   "de": "Südböhmen"
+   "de": "Jihočeský kraj",
+   "en": "South Bohemian Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Südböhmen",
+   "South Bohemian Region"
+  ],
   "media": [
    {
     "id": "media:flag:CZ-31",
@@ -67,9 +75,14 @@
   "id": "region:CZ-32",
   "type": "region",
   "names": {
-   "de": "Plzeň"
+   "de": "Region Pilsen",
+   "en": "Plzeň Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Plzeň",
+   "Plzeň Region",
+   "Pilsen"
+  ],
   "media": [
    {
     "id": "media:flag:CZ-32",
@@ -99,9 +112,13 @@
   "id": "region:CZ-41",
   "type": "region",
   "names": {
-   "de": "Karlovy Vary"
+   "de": "Karlovarský kraj",
+   "en": "Karlovy Vary Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Karlovy Vary",
+   "Karlovy Vary Region"
+  ],
   "media": [
    {
     "id": "media:flag:CZ-41",
@@ -131,9 +148,13 @@
   "id": "region:CZ-42",
   "type": "region",
   "names": {
-   "de": "Ústí nad Labem"
+   "de": "Ústecký kraj",
+   "en": "Ústí nad Labem Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Ústí nad Labem",
+   "Ústí nad Labem Region"
+  ],
   "media": [
    {
     "id": "media:flag:CZ-42",
@@ -163,9 +184,13 @@
   "id": "region:CZ-51",
   "type": "region",
   "names": {
-   "de": "Liberec"
+   "de": "Liberecký kraj",
+   "en": "Liberec Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Liberec",
+   "Liberec Region"
+  ],
   "media": [
    {
     "id": "media:flag:CZ-51",
@@ -195,9 +220,13 @@
   "id": "region:CZ-52",
   "type": "region",
   "names": {
-   "de": "Hradec Králové"
+   "de": "Královéhradecký kraj",
+   "en": "Hradec Králové Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Hradec Králové",
+   "Hradec Králové Region"
+  ],
   "media": [
    {
     "id": "media:flag:CZ-52",
@@ -227,9 +256,13 @@
   "id": "region:CZ-53",
   "type": "region",
   "names": {
-   "de": "Pardubice"
+   "de": "Pardubický kraj",
+   "en": "Pardubice Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Pardubice",
+   "Pardubice Region"
+  ],
   "media": [
    {
     "id": "media:flag:CZ-53",
@@ -259,9 +292,13 @@
   "id": "region:CZ-63",
   "type": "region",
   "names": {
-   "de": "Vysočina"
+   "de": "Kraj Vysočina",
+   "en": "Vysočina Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Vysočina",
+   "Vysočina Region"
+  ],
   "media": [
    {
     "id": "media:flag:CZ-63",
@@ -291,9 +328,13 @@
   "id": "region:CZ-64",
   "type": "region",
   "names": {
-   "de": "Südmähren"
+   "de": "Jihomoravský kraj",
+   "en": "South Moravian Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Südmähren",
+   "South Moravian Region"
+  ],
   "media": [
    {
     "id": "media:flag:CZ-64",
@@ -323,9 +364,13 @@
   "id": "region:CZ-71",
   "type": "region",
   "names": {
-   "de": "Olomouc"
+   "de": "Olomoucký kraj",
+   "en": "Olomouc Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Olomouc",
+   "Olomouc Region"
+  ],
   "media": [
    {
     "id": "media:flag:CZ-71",
@@ -355,9 +400,13 @@
   "id": "region:CZ-72",
   "type": "region",
   "names": {
-   "de": "Zlín"
+   "de": "Zlínský kraj",
+   "en": "Zlín Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Zlín",
+   "Zlín Region"
+  ],
   "media": [
    {
     "id": "media:flag:CZ-72",
@@ -387,9 +436,13 @@
   "id": "region:CZ-80",
   "type": "region",
   "names": {
-   "de": "Mährisch-Schlesien"
+   "de": "Moravskoslezský kraj",
+   "en": "Moravian-Silesian Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Mährisch-Schlesien",
+   "Moravian-Silesian Region"
+  ],
   "media": [
    {
     "id": "media:flag:CZ-80",

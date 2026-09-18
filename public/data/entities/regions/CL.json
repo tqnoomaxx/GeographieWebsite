@@ -3,9 +3,13 @@
   "id": "region:CL-AI",
   "type": "region",
   "names": {
-   "de": "Aysén"
+   "de": "Región de Aysén",
+   "en": "Aysén Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Aysén",
+   "Aysén Region"
+  ],
   "media": [
    {
     "id": "media:flag:CL-AI",
@@ -35,9 +39,13 @@
   "id": "region:CL-AN",
   "type": "region",
   "names": {
-   "de": "Antofagasta"
+   "de": "Región de Antofagasta",
+   "en": "Antofagasta Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Antofagasta",
+   "Antofagasta Region"
+  ],
   "media": [
    {
     "id": "media:flag:CL-AN",
@@ -67,9 +75,13 @@
   "id": "region:CL-AP",
   "type": "region",
   "names": {
-   "de": "Arica und Parinacota"
+   "de": "Región de Arica y Parinacota",
+   "en": "Arica y Parinacota Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Arica und Parinacota",
+   "Arica y Parinacota Region"
+  ],
   "media": [
    {
     "id": "media:flag:CL-AP",
@@ -99,9 +111,13 @@
   "id": "region:CL-AR",
   "type": "region",
   "names": {
-   "de": "Araucanía"
+   "de": "Región de La Araucanía",
+   "en": "Araucanía Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Araucanía",
+   "Araucanía Region"
+  ],
   "media": [
    {
     "id": "media:flag:CL-AR",
@@ -131,9 +147,13 @@
   "id": "region:CL-AT",
   "type": "region",
   "names": {
-   "de": "Atacama"
+   "de": "Región de Atacama",
+   "en": "Atacama Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Atacama",
+   "Atacama Region"
+  ],
   "media": [
    {
     "id": "media:flag:CL-AT",
@@ -163,9 +183,13 @@
   "id": "region:CL-BI",
   "type": "region",
   "names": {
-   "de": "Biobío"
+   "de": "Región del Biobío",
+   "en": "Biobío Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Biobío",
+   "Biobío Region"
+  ],
   "media": [
    {
     "id": "media:flag:CL-BI",
@@ -195,9 +219,13 @@
   "id": "region:CL-CO",
   "type": "region",
   "names": {
-   "de": "Coquimbo"
+   "de": "Región de Coquimbo",
+   "en": "Coquimbo Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Coquimbo",
+   "Coquimbo Region"
+  ],
   "media": [
    {
     "id": "media:flag:CL-CO",
@@ -227,9 +255,13 @@
   "id": "region:CL-LI",
   "type": "region",
   "names": {
-   "de": "O’Higgins"
+   "de": "Región del Libertador General Bernardo O’Higgins",
+   "en": "O'Higgins Region"
   },
-  "aliases": [],
+  "aliases": [
+   "O’Higgins",
+   "O'Higgins Region"
+  ],
   "media": [
    {
     "id": "media:flag:CL-LI",
@@ -259,9 +291,13 @@
   "id": "region:CL-LL",
   "type": "region",
   "names": {
-   "de": "Los Lagos"
+   "de": "Región de Los Lagos",
+   "en": "Los Lagos Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Los Lagos",
+   "Los Lagos Region"
+  ],
   "media": [
    {
     "id": "media:flag:CL-LL",
@@ -291,9 +327,13 @@
   "id": "region:CL-LR",
   "type": "region",
   "names": {
-   "de": "Los Ríos"
+   "de": "Región de Los Ríos",
+   "en": "Los Ríos Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Los Ríos",
+   "Los Ríos Region"
+  ],
   "media": [
    {
     "id": "media:flag:CL-LR",
@@ -323,9 +363,13 @@
   "id": "region:CL-MA",
   "type": "region",
   "names": {
-   "de": "Magallanes und Chilenische Antarktis"
+   "de": "Región de Magallanes y de la Antártica Chilena",
+   "en": "Magellan and the Chilean Antarctic Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Magallanes und Chilenische Antarktis",
+   "Magellan and the Chilean Antarctic Region"
+  ],
   "media": [
    {
     "id": "media:flag:CL-MA",
@@ -355,9 +399,13 @@
   "id": "region:CL-ML",
   "type": "region",
   "names": {
-   "de": "Maule"
+   "de": "Región del Maule",
+   "en": "Maule Región"
   },
-  "aliases": [],
+  "aliases": [
+   "Maule",
+   "Maule Región"
+  ],
   "media": [
    {
     "id": "media:flag:CL-ML",
@@ -387,9 +435,13 @@
   "id": "region:CL-NB",
   "type": "region",
   "names": {
-   "de": "Ñuble"
+   "de": "Región de Ñuble",
+   "en": "Ñuble Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Ñuble",
+   "Ñuble Region"
+  ],
   "media": [
    {
     "id": "media:flag:CL-NB",
@@ -419,7 +471,8 @@
   "id": "region:CL-RM",
   "type": "region",
   "names": {
-   "de": "Metropolregion Santiago"
+   "de": "Metropolregion Santiago",
+   "en": "Santiago Metropolitan Region"
   },
   "aliases": [],
   "media": [
@@ -451,9 +504,13 @@
   "id": "region:CL-TA",
   "type": "region",
   "names": {
-   "de": "Tarapacá"
+   "de": "Región de Tarapacá",
+   "en": "Tarapacá Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Tarapacá",
+   "Tarapacá Region"
+  ],
   "media": [
    {
     "id": "media:flag:CL-TA",
@@ -483,9 +540,13 @@
   "id": "region:CL-VS",
   "type": "region",
   "names": {
-   "de": "Valparaíso"
+   "de": "Región de Valparaíso",
+   "en": "Valparaíso Region"
   },
-  "aliases": [],
+  "aliases": [
+   "Valparaíso",
+   "Valparaíso Region"
+  ],
   "media": [
    {
     "id": "media:flag:CL-VS",

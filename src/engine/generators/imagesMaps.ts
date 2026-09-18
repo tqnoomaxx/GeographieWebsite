@@ -1,9 +1,14 @@
 import type { Generator } from './base'
-import { options, qid, effectiveDifficulty, nameOf, photoOf, photoMedia, countryOf } from './base'
+import { options, qid, effectiveDifficulty, nameOf, photoOf, photoMedia, countryOf, countryPool, isSovereign } from './base'
 import type { GeneratorContext } from '../types'
-import type { Country } from '@/domain/types'
 
 const withPhoto = (list: GeneratorContext['landmarks']) => list.filter((e) => photoOf(e))
+/** Stadt-Entity einer Sehenswürdigkeit über located_in oder Namensgleichheit des Ortes. */
+const cityOfLandmark = (l: GeneratorContext['landmarks'][0], ctx: GeneratorContext) => {
+  const viaRel = (ctx.rel.locatedIn.get(l.id) ?? []).map((id) => ctx.byId.get(id)).find((e) => e?.type === 'city')
+  if (viaRel) return viaRel
+  return [...ctx.byId.values()].find((e) => e.type === 'city' && e.attributes.country === l.attributes.country && e.names.de === l.attributes.place_name)
+}
 
 export const imageToLandmark: Generator = {
   id: 'image_to_landmark',
@@ -28,8 +33,7 @@ export const imageToCountry: Generator = {
   make(target, ctx, rng, difficulty) {
     const country = countryOf(target, ctx)!
     const d = effectiveDifficulty(target, difficulty)
-    const pool = ctx.countries.length >= 4 ? ctx.countries : [...ctx.byId.values()].filter((e) => e.type === 'country')
-    const opts = options(country, pool, ctx, rng, d)
+    const opts = options(country, countryPool(ctx), ctx, rng, d)
     if (!opts) return null
     return {
       id: qid(this.id, target), category: 'images', type: this.id, question_type: 'multiple_choice',
@@ -63,8 +67,7 @@ export const landmarkToCountry: Generator = {
   make(target, ctx, rng, difficulty) {
     const country = countryOf(target, ctx)!
     const d = effectiveDifficulty(target, difficulty)
-    const pool = ctx.countries.length >= 4 ? ctx.countries : [...ctx.byId.values()].filter((e) => e.type === 'country')
-    const opts = options(country, pool, ctx, rng, d)
+    const opts = options(country, countryPool(ctx), ctx, rng, d)
     if (!opts) return null
     return {
       id: qid(this.id, target), category: 'landmarks', type: this.id, question_type: 'multiple_choice',
@@ -77,18 +80,18 @@ export const landmarkToCountry: Generator = {
 export const landmarkToCity: Generator = {
   id: 'landmark_to_city',
   category: 'landmarks',
-  pool: (ctx) => ctx.landmarks.filter((e) => typeof e.attributes.place_name === 'string'),
+  pool: (ctx) => ctx.landmarks.filter((e) => cityOfLandmark(e, ctx)),
   make(target, ctx, rng, difficulty) {
-    const place = target.attributes.place_name as string
-    const others = [...new Set(ctx.landmarks.map((l) => l.attributes.place_name as string).filter((p) => p && p !== place))]
-    const wrong = rng.shuffle(others).slice(0, 3)
-    if (wrong.length < 3) return null
+    const city = cityOfLandmark(target, ctx)!
     const d = effectiveDifficulty(target, difficulty)
+    const cities = [...ctx.byId.values()].filter((e) => e.type === 'city' && e.id !== city.id)
+    const opts = options(city, cities, ctx, rng, d)
+    if (!opts) return null
     return {
       id: qid(this.id, target), category: 'landmarks', type: this.id, question_type: 'multiple_choice',
-      prompt: { key: 'q.landmark_to_city', params: { name: nameOf(target) } }, answer: place,
-      options: rng.shuffle([place, ...wrong]).map((p) => ({ id: p, label: p })), media: photoMedia(target), difficulty: d,
-      entities: [target.id], metadata: { generator: this.id, scope: ctx.scope },
+      prompt: { key: 'q.landmark_to_city', params: { name: nameOf(target) } }, answer: city.id,
+      options: opts, media: photoMedia(target), difficulty: d,
+      entities: [target.id, city.id], metadata: { generator: this.id, scope: ctx.scope },
     }
   },
 }
@@ -96,7 +99,7 @@ export const landmarkToCity: Generator = {
 export const countryOnMap: Generator = {
   id: 'country_on_map',
   category: 'maps',
-  pool: (ctx) => ctx.countries.filter((c) => c.geometry && (c as Country).attributes.independent !== false),
+  pool: (ctx) => ctx.countries.filter((c) => c.geometry && isSovereign(c)),
   make(target, ctx, _rng, difficulty) {
     const d = effectiveDifficulty(target, difficulty)
     return {

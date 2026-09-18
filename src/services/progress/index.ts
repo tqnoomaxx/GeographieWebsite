@@ -1,19 +1,35 @@
 import type { ProgressRepository } from './types'
 import { LocalRepository } from './localRepository'
+import { SupabaseRepository } from './supabaseRepository'
+import { authConfigured, SUPABASE_URL, SUPABASE_ANON_KEY } from '@/services/auth'
 
-let instance: ProgressRepository | undefined
-/** Wählt den Adapter: Supabase, wenn konfiguriert (Phase 2), sonst lokal. Die UI kennt nur das Interface. */
+const local = new LocalRepository()
+let remote: SupabaseRepository | undefined
+let activeUserId: string | null = null
+const listeners = new Set<() => void>()
+
+/** Wählt den Adapter: Supabase für eingeloggte Nutzer (Phase 2), sonst lokal. Die UI kennt nur das Interface. */
 export function getRepository(): ProgressRepository {
-  if (!instance) {
-    const url = import.meta.env.VITE_SUPABASE_URL
-    const key = import.meta.env.VITE_SUPABASE_ANON_KEY
-    if (url && key) {
-      instance = new LocalRepository()
-      // Lazy: Supabase-Adapter ersetzt den lokalen, sobald das Modul geladen ist.
-      void import('./supabaseRepository').then((m) => {
-        instance = new m.SupabaseRepository(url, key)
-      })
-    } else instance = new LocalRepository()
+  if (activeUserId && authConfigured) {
+    remote ??= new SupabaseRepository(SUPABASE_URL!, SUPABASE_ANON_KEY!)
+    return remote
   }
-  return instance
+  return local
 }
+
+export function getLocalRepository(): LocalRepository {
+  return local
+}
+
+export function setActiveUser(userId: string | null) {
+  if (activeUserId === userId) return
+  activeUserId = userId
+  for (const l of listeners) l()
+}
+
+export function onRepositoryChange(l: () => void) {
+  listeners.add(l)
+  return () => listeners.delete(l)
+}
+
+export const isRemoteActive = () => !!activeUserId && authConfigured

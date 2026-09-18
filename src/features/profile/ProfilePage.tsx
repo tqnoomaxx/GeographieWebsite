@@ -6,7 +6,8 @@ import { ACHIEVEMENTS } from '@/config/achievements'
 import { getRepository } from '@/services/progress'
 import type { Profile } from '@/services/progress/types'
 import { Page, Card, useToast } from '@/ui'
-import { Settings } from 'lucide-react'
+import { Settings, LogIn, UserCircle2 } from 'lucide-react'
+import { useAuth } from '@/app/AuthProvider'
 
 const AVATARS = ['🧭', '🌍', '🗺️', '🏔️', '🌊', '🏛️', '🦊', '🦉', '🐢', '🦜', '🚀', '⛵']
 const COLORS = ['#1e2a5a', '#2f7d4f', '#c98a12', '#b83232', '#6b3fa0', '#0e7490']
@@ -20,6 +21,7 @@ export default function ProfilePage() {
   const { data: unlocked } = useAsync(() => repo.getAchievements(), [])
   const [p, setP] = useState<Profile>({ username: '', avatar: '🧭', color: COLORS[0], featuredAchievements: [], createdAt: new Date().toISOString() })
   const { show, toast } = useToast()
+  const { user, configured } = useAuth()
   useEffect(() => {
     if (saved) setP(saved)
   }, [saved])
@@ -38,6 +40,14 @@ export default function ProfilePage() {
         <p className="mt-3 text-2xl font-semibold">{p.username || t('profile.guest')}</p>
         {level && <p className="text-ink-2">{t('progress.level', { level: level.level })}{p.title && ` · ${p.title}`}</p>}
         <p className="mt-2 text-2xl">{p.featuredAchievements.map((id) => ACHIEVEMENTS.find((a) => a.id === id)?.icon).join(' ')}</p>
+      </Card>
+      <Card className="mb-4 flex items-center gap-3">
+        <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl tone-indigo">{user ? <UserCircle2 className="h-5 w-5" /> : <LogIn className="h-5 w-5" />}</span>
+        <div className="min-w-0 flex-1 text-sm">
+          <p className="truncate font-medium">{user ? user.email : t('profile.guest')}</p>
+          <p className="text-ink-2">{user ? t('account.synced') : configured ? t('account.login_hint') : t('profile.account_hint')}</p>
+        </div>
+        <Link to={user ? '/account' : '/login'} className="btn-secondary py-2">{user ? t('account.title') : t('account.login')}</Link>
       </Card>
       <Card className="grid gap-4">
         <label className="grid gap-1 text-sm">
@@ -80,7 +90,6 @@ export default function ProfilePage() {
           </div>
         </fieldset>
         <button className="btn-primary" onClick={save}>{t('profile.save')}</button>
-        <p className="text-xs text-ink-2">{t('profile.account_hint')}</p>
         {stats && <p className="text-xs text-ink-2">{stats.answered} {t('progress.answered')}</p>}
       </Card>
       {toast}

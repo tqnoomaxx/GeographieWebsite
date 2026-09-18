@@ -3,9 +3,13 @@
   "id": "region:RS-00",
   "type": "region",
   "names": {
-   "de": "Belgrade"
+   "de": "Stadt Belgrad",
+   "en": "City of Belgrade"
   },
-  "aliases": [],
+  "aliases": [
+   "Belgrade",
+   "City of Belgrade"
+  ],
   "media": [
    {
     "id": "media:flag:RS-00",

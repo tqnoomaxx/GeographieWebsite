@@ -3,7 +3,8 @@
   "id": "region:IT-21",
   "type": "region",
   "names": {
-   "de": "Piemont"
+   "de": "Piemont",
+   "en": "Piedmont"
   },
   "aliases": [],
   "media": [
@@ -36,7 +37,8 @@
   "id": "region:IT-23",
   "type": "region",
   "names": {
-   "de": "Aostatal"
+   "de": "Aostatal",
+   "en": "Aosta Valley"
   },
   "aliases": [],
   "media": [
@@ -69,7 +71,8 @@
   "id": "region:IT-25",
   "type": "region",
   "names": {
-   "de": "Lombardei"
+   "de": "Lombardei",
+   "en": "Lombardy"
   },
   "aliases": [],
   "media": [
@@ -102,7 +105,8 @@
   "id": "region:IT-32",
   "type": "region",
   "names": {
-   "de": "Trentino-Südtirol"
+   "de": "Trentino-Südtirol",
+   "en": "Trentino-South Tyrol"
   },
   "aliases": [],
   "media": [
@@ -135,7 +139,8 @@
   "id": "region:IT-34",
   "type": "region",
   "names": {
-   "de": "Venetien"
+   "de": "Venetien",
+   "en": "Veneto"
   },
   "aliases": [],
   "media": [
@@ -168,7 +173,8 @@
   "id": "region:IT-36",
   "type": "region",
   "names": {
-   "de": "Friaul-Julisch Venetien"
+   "de": "Friaul-Julisch Venetien",
+   "en": "Friuli Venezia Giulia"
   },
   "aliases": [],
   "media": [
@@ -201,7 +207,8 @@
   "id": "region:IT-42",
   "type": "region",
   "names": {
-   "de": "Ligurien"
+   "de": "Ligurien",
+   "en": "Liguria"
   },
   "aliases": [],
   "media": [
@@ -234,7 +241,8 @@
   "id": "region:IT-45",
   "type": "region",
   "names": {
-   "de": "Emilia-Romagna"
+   "de": "Emilia-Romagna",
+   "en": "Emilia-Romagna"
   },
   "aliases": [],
   "media": [
@@ -267,7 +275,8 @@
   "id": "region:IT-52",
   "type": "region",
   "names": {
-   "de": "Toskana"
+   "de": "Toskana",
+   "en": "Tuscany"
   },
   "aliases": [],
   "media": [
@@ -300,7 +309,8 @@
   "id": "region:IT-55",
   "type": "region",
   "names": {
-   "de": "Umbrien"
+   "de": "Umbrien",
+   "en": "Umbria"
   },
   "aliases": [],
   "media": [
@@ -333,7 +343,8 @@
   "id": "region:IT-57",
   "type": "region",
   "names": {
-   "de": "Marken"
+   "de": "Marken",
+   "en": "Marche"
   },
   "aliases": [],
   "media": [
@@ -366,7 +377,8 @@
   "id": "region:IT-62",
   "type": "region",
   "names": {
-   "de": "Latium"
+   "de": "Latium",
+   "en": "Lazio"
   },
   "aliases": [],
   "media": [
@@ -399,7 +411,8 @@
   "id": "region:IT-65",
   "type": "region",
   "names": {
-   "de": "Abruzzen"
+   "de": "Abruzzen",
+   "en": "Abruzzo"
   },
   "aliases": [],
   "media": [
@@ -432,7 +445,8 @@
   "id": "region:IT-67",
   "type": "region",
   "names": {
-   "de": "Molise"
+   "de": "Molise",
+   "en": "Molise"
   },
   "aliases": [],
   "media": [
@@ -465,7 +479,8 @@
   "id": "region:IT-72",
   "type": "region",
   "names": {
-   "de": "Kampanien"
+   "de": "Kampanien",
+   "en": "Campania"
   },
   "aliases": [],
   "media": [
@@ -498,7 +513,8 @@
   "id": "region:IT-75",
   "type": "region",
   "names": {
-   "de": "Apulien"
+   "de": "Apulien",
+   "en": "Apulia"
   },
   "aliases": [],
   "media": [
@@ -531,7 +547,8 @@
   "id": "region:IT-77",
   "type": "region",
   "names": {
-   "de": "Basilikata"
+   "de": "Basilikata",
+   "en": "Basilicata"
   },
   "aliases": [],
   "media": [
@@ -564,7 +581,8 @@
   "id": "region:IT-78",
   "type": "region",
   "names": {
-   "de": "Kalabrien"
+   "de": "Kalabrien",
+   "en": "Calabria"
   },
   "aliases": [],
   "media": [
@@ -630,7 +648,8 @@
   "id": "region:IT-88",
   "type": "region",
   "names": {
-   "de": "Sardinien"
+   "de": "Sardinien",
+   "en": "Sardinia"
   },
   "aliases": [],
   "media": [

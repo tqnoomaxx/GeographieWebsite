@@ -18,6 +18,17 @@ export const flagOf = (e: Entity) => e.media?.find((m) => m.kind === 'flag')
 export const photoOf = (e: Entity) => e.media?.find((m) => m.kind === 'photo')
 export const nameOf = (e: Entity) => e.names.de
 export const accepted = (e: Entity) => [e.names.de, e.names.en ?? '', ...(e.aliases ?? [])].filter((s) => s && s.length > 1)
+/** Souveräne Staaten (plus allgemein anerkannte Sonderfälle). Abhängige Gebiete bleiben Detailseiten/Entdecken vorbehalten. */
+const SPECIAL = new Set(['TW', 'XK', 'PS', 'VA'])
+export const isSovereign = (e: Entity) => e.type === 'country' && (e.attributes.independent !== false || SPECIAL.has(e.attributes.iso2 as string))
+export const sovereign = (ctx: GeneratorContext) => ctx.countries.filter(isSovereign)
+/** Länder-Pool für Distraktoren: souveräne Staaten; Fallback auf alle, wenn der Bereich zu klein ist. */
+export const countryPool = (ctx: GeneratorContext) => {
+  const s = sovereign(ctx)
+  if (s.length >= 4) return s
+  const all = [...ctx.byId.values()].filter(isSovereign)
+  return all.length >= 4 ? all : [...ctx.byId.values()].filter((e) => e.type === 'country')
+}
 export const countryOf = (e: Entity, ctx: GeneratorContext) =>
   e.attributes.country ? ctx.byId.get(e.attributes.country) : undefined
 

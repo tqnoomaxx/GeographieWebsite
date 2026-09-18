@@ -17263,5 +17263,5340 @@
   "from": "mountain:Q15122",
   "to": "country:CH",
   "type": "located_in"
+ },
+ {
+  "from": "city:IN-delhi",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IN-bengaluru",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IN-ahmedabad",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IN-pune",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IN-prayagraj",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IN-surat",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IN-kanpur",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IN-kolkata",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IN-lucknow",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IN-vadodara",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IN-jaipur",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IN-nagpur",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IN-ghaziabad",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IN-rajkot",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CN-chengdu",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CN-guangzhou",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CN-shenzhen",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CN-tianjin",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CN-xi-an",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CN-suzhou",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CN-zhengzhou",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CN-wuhan",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CN-hangzhou",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CN-baoding",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CN-shijiazhuang",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CN-dongguan",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CN-qingdao",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BD-chittagong",
+  "to": "country:BD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BD-gazipur",
+  "to": "country:BD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BD-narayanganj",
+  "to": "country:BD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BD-khulna",
+  "to": "country:BD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BD-sylhet",
+  "to": "country:BD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BD-tongi",
+  "to": "country:BD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BD-sirajganj",
+  "to": "country:BD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BD-rajshahi",
+  "to": "country:BD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BD-bogra",
+  "to": "country:BD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BD-barishal",
+  "to": "country:BD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BD-kumilla",
+  "to": "country:BD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BD-rangpur",
+  "to": "country:BD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BD-brahmanbaria",
+  "to": "country:BD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BD-sreepur",
+  "to": "country:BD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TR-istanbul",
+  "to": "country:TR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TR-istanbul",
+  "to": "region:TR-34",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TR-bursa",
+  "to": "country:TR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TR-antalya",
+  "to": "country:TR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TR-konya",
+  "to": "country:TR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TR-sanl-urfa",
+  "to": "country:TR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TR-adana",
+  "to": "country:TR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TR-diyarbak-r",
+  "to": "country:TR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TR-gaziantep",
+  "to": "country:TR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TR-kayseri",
+  "to": "country:TR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TR-samsun",
+  "to": "country:TR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TR-bal-kesir",
+  "to": "country:TR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TR-van",
+  "to": "country:TR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TR-mersin",
+  "to": "country:TR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TR-denizli",
+  "to": "country:TR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NG-lagos",
+  "to": "country:NG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NG-kano",
+  "to": "country:NG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NG-port-harcourt",
+  "to": "country:NG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NG-ibadan",
+  "to": "country:NG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NG-benin-stadt",
+  "to": "country:NG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NG-onitsha",
+  "to": "country:NG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NG-maiduguri",
+  "to": "country:NG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NG-aba",
+  "to": "country:NG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NG-ogbomosho",
+  "to": "country:NG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NG-enugu",
+  "to": "country:NG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NG-owerri",
+  "to": "country:NG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NG-abeokuta",
+  "to": "country:NG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NG-ikeja",
+  "to": "country:NG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NG-akure",
+  "to": "country:NG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NG-ilorin",
+  "to": "country:NG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PK-karatschi",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PK-lahore",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PK-faisalabad",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PK-rawalpindi",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PK-gujranwala",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PK-peschawar",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PK-multan",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PK-hyderabad",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PK-quetta",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PK-bahawalpur",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PK-parachinar",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PK-sargodha",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PK-sialkot",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PK-sahiwal",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-osaka",
+  "to": "region:JP-27",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-sapporo",
+  "to": "country:JP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-sapporo",
+  "to": "region:JP-01",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-fukuoka",
+  "to": "country:JP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-fukuoka",
+  "to": "region:JP-40",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-kobe",
+  "to": "country:JP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-kobe",
+  "to": "region:JP-28",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-saitama",
+  "to": "country:JP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-saitama",
+  "to": "region:JP-11",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-hiroshima",
+  "to": "country:JP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-hiroshima",
+  "to": "region:JP-34",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-chiba",
+  "to": "country:JP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-chiba",
+  "to": "region:JP-12",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-kitakyushu",
+  "to": "country:JP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-kitakyushu",
+  "to": "region:JP-40",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-sakai",
+  "to": "country:JP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-sakai",
+  "to": "region:JP-27",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-niigata",
+  "to": "country:JP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-niigata",
+  "to": "region:JP-15",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-hamamatsu",
+  "to": "country:JP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-hamamatsu",
+  "to": "region:JP-22",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-kumamoto",
+  "to": "country:JP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-kumamoto",
+  "to": "region:JP-43",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-sagamihara",
+  "to": "country:JP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JP-sagamihara",
+  "to": "region:JP-14",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VN-ho-chi-minh-stadt",
+  "to": "country:VN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VN-can-tho",
+  "to": "country:VN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VN-a-nang",
+  "to": "country:VN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VN-hai-phong",
+  "to": "country:VN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VN-hue",
+  "to": "country:VN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VN-bien-hoa",
+  "to": "country:VN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VN-vinh",
+  "to": "country:VN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VN-a-lat",
+  "to": "country:VN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VN-nha-trang",
+  "to": "country:VN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VN-vung-tau",
+  "to": "country:VN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VN-nam-inh",
+  "to": "country:VN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VN-buon-ma-thuot",
+  "to": "country:VN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VN-ca-mau",
+  "to": "country:VN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VN-tuy-hoa",
+  "to": "country:VN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-sankt-petersburg",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-nowosibirsk",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-jekaterinburg",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-jekaterinburg",
+  "to": "region:RU-SVE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-kasan",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-kasan",
+  "to": "region:RU-TA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-nischni-nowgorod",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-nischni-nowgorod",
+  "to": "region:RU-NIZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-krasnodar",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-krasnodar",
+  "to": "region:RU-KDA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-samara",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-samara",
+  "to": "region:RU-SAM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-rostow-am-don",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-rostow-am-don",
+  "to": "region:RU-ROS",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-omsk",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-krasnojarsk",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-woronesch",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-woronesch",
+  "to": "region:RU-VOR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-perm",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-perm",
+  "to": "region:RU-PER",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-wolgograd",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-wolgograd",
+  "to": "region:RU-VGG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-saratow",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RU-saratow",
+  "to": "region:RU-SAR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-sao-paulo",
+  "to": "region:BR-SP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-rio-de-janeiro",
+  "to": "region:BR-RJ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-brasilia",
+  "to": "region:BR-DF",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-fortaleza",
+  "to": "country:BR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-fortaleza",
+  "to": "region:BR-CE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-belo-horizonte",
+  "to": "country:BR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-belo-horizonte",
+  "to": "region:BR-MG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-manaus",
+  "to": "country:BR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-manaus",
+  "to": "region:BR-AM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-curitiba",
+  "to": "country:BR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-curitiba",
+  "to": "region:BR-PR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-recife",
+  "to": "country:BR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-recife",
+  "to": "region:BR-PE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-goiania",
+  "to": "country:BR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-goiania",
+  "to": "region:BR-GO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-porto-alegre",
+  "to": "country:BR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-porto-alegre",
+  "to": "region:BR-RS",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-guarulhos",
+  "to": "country:BR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-guarulhos",
+  "to": "region:BR-SP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-belem",
+  "to": "country:BR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-belem",
+  "to": "region:BR-PA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-nova-iguacu",
+  "to": "country:BR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-nova-iguacu",
+  "to": "region:BR-RJ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-campinas",
+  "to": "country:BR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-campinas",
+  "to": "region:BR-SP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-sao-luis",
+  "to": "country:BR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BR-sao-luis",
+  "to": "region:BR-MA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PE-arequipa",
+  "to": "country:PE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PE-trujillo",
+  "to": "country:PE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PE-callao",
+  "to": "country:PE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PE-chiclayo",
+  "to": "country:PE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PE-piura",
+  "to": "country:PE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PE-chimbote",
+  "to": "country:PE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PE-huancayo",
+  "to": "country:PE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PE-iquitos",
+  "to": "country:PE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PE-pucallpa",
+  "to": "country:PE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PE-tacna",
+  "to": "country:PE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PE-ica",
+  "to": "country:PE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PE-juliaca",
+  "to": "country:PE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PE-tarapoto",
+  "to": "country:PE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EG-gizeh",
+  "to": "country:EG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EG-neu-kairo",
+  "to": "country:EG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EG-schubra-al-chaima",
+  "to": "country:EG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EG-port-said",
+  "to": "country:EG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EG-sues",
+  "to": "country:EG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EG-sinnuris",
+  "to": "country:EG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EG-dairut",
+  "to": "country:EG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EG-al-mansura",
+  "to": "country:EG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EG-helwan",
+  "to": "country:EG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EG-mahalla-al-kubra",
+  "to": "country:EG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EG-manfalut",
+  "to": "country:EG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EG-asyut",
+  "to": "country:EG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EG-al-fayyum",
+  "to": "country:EG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KR-busan",
+  "to": "country:KR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KR-daegu",
+  "to": "country:KR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KR-gwangju",
+  "to": "country:KR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KR-daejeon",
+  "to": "country:KR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KR-suwon",
+  "to": "country:KR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KR-ulsan",
+  "to": "country:KR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KR-goyang",
+  "to": "country:KR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KR-seongnam",
+  "to": "country:KR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KR-cheongju",
+  "to": "country:KR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KR-namyangju",
+  "to": "country:KR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KR-jeju-si",
+  "to": "country:KR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KR-jeonju",
+  "to": "country:KR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KR-ansan",
+  "to": "country:KR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KR-pyeongtaek",
+  "to": "country:KR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-veracruz",
+  "to": "country:MX",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-veracruz",
+  "to": "region:MX-VER",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-san-luis-potosi",
+  "to": "country:MX",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-san-luis-potosi",
+  "to": "region:MX-SLP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-tijuana",
+  "to": "country:MX",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-tijuana",
+  "to": "region:MX-BCN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-leon",
+  "to": "country:MX",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-leon",
+  "to": "region:MX-GUA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-ciudad-juarez",
+  "to": "country:MX",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-ciudad-juarez",
+  "to": "region:MX-CHH",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-guadalajara",
+  "to": "region:MX-JAL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-zapopan",
+  "to": "country:MX",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-zapopan",
+  "to": "region:MX-JAL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-monterrey",
+  "to": "country:MX",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-monterrey",
+  "to": "region:MX-NLE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-aguascalientes",
+  "to": "country:MX",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-aguascalientes",
+  "to": "region:MX-AGU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-chihuahua",
+  "to": "country:MX",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-chihuahua",
+  "to": "region:MX-CHH",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-merida",
+  "to": "country:MX",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-merida",
+  "to": "region:MX-YUC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-cancun",
+  "to": "country:MX",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-cancun",
+  "to": "region:MX-ROO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-saltillo",
+  "to": "country:MX",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-saltillo",
+  "to": "region:MX-COA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-hermosillo",
+  "to": "country:MX",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MX-hermosillo",
+  "to": "region:MX-SON",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-klang",
+  "to": "country:MY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-klang",
+  "to": "region:MY-10",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-ipoh",
+  "to": "country:MY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-ipoh",
+  "to": "region:MY-08",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-george-town",
+  "to": "country:MY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-george-town",
+  "to": "region:MY-07",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-subang-jaya",
+  "to": "country:MY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-subang-jaya",
+  "to": "region:MY-10",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-petaling-jaya",
+  "to": "country:MY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-petaling-jaya",
+  "to": "region:MY-10",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-kuantan",
+  "to": "country:MY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-kuantan",
+  "to": "region:MY-06",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-shah-alam",
+  "to": "country:MY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-shah-alam",
+  "to": "region:MY-10",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-kota-bharu",
+  "to": "country:MY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-kota-bharu",
+  "to": "region:MY-03",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-malakka",
+  "to": "country:MY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-malakka",
+  "to": "region:MY-04",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-seremban",
+  "to": "country:MY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-seremban",
+  "to": "region:MY-05",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-sandakan",
+  "to": "country:MY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-sandakan",
+  "to": "region:MY-12",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-kuching",
+  "to": "country:MY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-kuching",
+  "to": "region:MY-13",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-kuala-terengganu",
+  "to": "country:MY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-kuala-terengganu",
+  "to": "region:MY-11",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-sibu",
+  "to": "country:MY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MY-sibu",
+  "to": "region:MY-13",
+  "type": "located_in"
+ },
+ {
+  "from": "city:US-new-york-city",
+  "to": "region:US-NY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:US-chicago",
+  "to": "region:US-IL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:US-houston",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "city:US-houston",
+  "to": "region:US-TX",
+  "type": "located_in"
+ },
+ {
+  "from": "city:US-san-antonio",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "city:US-san-antonio",
+  "to": "region:US-TX",
+  "type": "located_in"
+ },
+ {
+  "from": "city:US-san-diego",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "city:US-san-diego",
+  "to": "region:US-CA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:US-dallas",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "city:US-dallas",
+  "to": "region:US-TX",
+  "type": "located_in"
+ },
+ {
+  "from": "city:US-san-jose",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "city:US-san-jose",
+  "to": "region:US-CA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:US-fort-worth",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "city:US-fort-worth",
+  "to": "region:US-TX",
+  "type": "located_in"
+ },
+ {
+  "from": "city:US-charlotte",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "city:US-charlotte",
+  "to": "region:US-NC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:US-san-francisco",
+  "to": "region:US-CA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:US-seattle",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "city:US-seattle",
+  "to": "region:US-WA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GB-glasgow",
+  "to": "country:GB",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GB-leeds",
+  "to": "country:GB",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GB-sheffield",
+  "to": "country:GB",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GB-bristol",
+  "to": "country:GB",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GB-cardiff",
+  "to": "country:GB",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GB-leicester",
+  "to": "country:GB",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GB-coventry",
+  "to": "country:GB",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GB-belfast",
+  "to": "country:GB",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GB-newcastle-upon-tyne",
+  "to": "country:GB",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GB-nottingham",
+  "to": "country:GB",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GB-bolton",
+  "to": "country:GB",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IQ-bagdad",
+  "to": "country:IQ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IQ-mossul",
+  "to": "country:IQ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IQ-basra",
+  "to": "country:IQ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IQ-kirkuk",
+  "to": "country:IQ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IQ-sulaimaniyya",
+  "to": "country:IQ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IQ-ramadi",
+  "to": "country:IQ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IQ-erbil",
+  "to": "country:IQ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IQ-nadschaf",
+  "to": "country:IQ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IQ-kerbela",
+  "to": "country:IQ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IQ-nasiriya",
+  "to": "country:IQ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IQ-hilla",
+  "to": "country:IQ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IQ-amara",
+  "to": "country:IQ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IQ-baquba",
+  "to": "country:IQ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IQ-diwaniyya",
+  "to": "country:IQ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IQ-kut",
+  "to": "country:IQ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-bogota",
+  "to": "region:CO-CUN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-medellin",
+  "to": "country:CO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-medellin",
+  "to": "region:CO-ANT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-cali",
+  "to": "country:CO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-cali",
+  "to": "region:CO-VAC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-barranquilla",
+  "to": "country:CO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-barranquilla",
+  "to": "region:CO-ATL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-cartagena",
+  "to": "country:CO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-cartagena",
+  "to": "region:CO-BOL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-cucuta",
+  "to": "country:CO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-cucuta",
+  "to": "region:CO-NSA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-villavicencio",
+  "to": "country:CO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-villavicencio",
+  "to": "region:CO-MET",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-bucaramanga",
+  "to": "country:CO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-bucaramanga",
+  "to": "region:CO-SAN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-ibague",
+  "to": "country:CO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-ibague",
+  "to": "region:CO-TOL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-valledupar",
+  "to": "country:CO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-valledupar",
+  "to": "region:CO-CES",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-santa-marta",
+  "to": "country:CO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-santa-marta",
+  "to": "region:CO-MAG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-manizales",
+  "to": "country:CO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-manizales",
+  "to": "region:CO-CAL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-pasto",
+  "to": "country:CO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-pasto",
+  "to": "region:CO-NAR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-monteria",
+  "to": "country:CO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-monteria",
+  "to": "region:CO-COR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-neiva",
+  "to": "country:CO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CO-neiva",
+  "to": "region:CO-HUI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MM-rangun",
+  "to": "country:MM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MM-mandalay",
+  "to": "country:MM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MM-hpa-an",
+  "to": "country:MM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MM-mawlamyaing",
+  "to": "country:MM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MM-pathein",
+  "to": "country:MM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MM-bago",
+  "to": "country:MM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MM-taunggyi",
+  "to": "country:MM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MM-myitkyina",
+  "to": "country:MM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MM-mergui",
+  "to": "country:MM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MM-monywa",
+  "to": "country:MM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CL-santiago-de-chile",
+  "to": "region:CL-RM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CL-puente-alto",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CL-puente-alto",
+  "to": "region:CL-RM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CL-antofagasta",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CL-vina-del-mar",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CL-valparaiso",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CL-temuco",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CL-talca",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CL-rancagua",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CL-concepcion",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CL-coquimbo",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CL-arica",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CL-la-serena",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CL-iquique",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CL-curico",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CL-puerto-montt",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ET-soddo",
+  "to": "country:ET",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ET-adama",
+  "to": "country:ET",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ET-gonder",
+  "to": "country:ET",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ET-mekele",
+  "to": "country:ET",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ET-awasa",
+  "to": "country:ET",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ET-dire-dawa",
+  "to": "country:ET",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ET-bahir-dar",
+  "to": "country:ET",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ET-bishoftu",
+  "to": "country:ET",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ET-dese",
+  "to": "country:ET",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ET-jimma",
+  "to": "country:ET",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ET-harar",
+  "to": "country:ET",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TH-chiang-mai",
+  "to": "country:TH",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TH-phrae",
+  "to": "country:TH",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TH-nonthaburi",
+  "to": "country:TH",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TH-pak-kret",
+  "to": "country:TH",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TH-hat-yai",
+  "to": "country:TH",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CI-abidjan",
+  "to": "country:CI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CI-bouake",
+  "to": "country:CI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CI-korhogo",
+  "to": "country:CI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CI-san-pedro",
+  "to": "country:CI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CI-gagnoa",
+  "to": "country:CI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CI-soubre",
+  "to": "country:CI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CI-man",
+  "to": "country:CI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CI-duekoue",
+  "to": "country:CI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CI-bouafle",
+  "to": "country:CI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CI-bingerville",
+  "to": "country:CI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CI-guiglo",
+  "to": "country:CI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CI-lakota",
+  "to": "country:CI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CI-abengourou",
+  "to": "country:CI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CI-ferkessedougou",
+  "to": "country:CI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KE-mombasa",
+  "to": "country:KE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KE-kisumu",
+  "to": "country:KE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KE-eldoret",
+  "to": "country:KE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KE-kitale",
+  "to": "country:KE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AU-gold-coast",
+  "to": "country:AU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AU-gold-coast",
+  "to": "region:AU-QLD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AU-wollongong",
+  "to": "country:AU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AU-wollongong",
+  "to": "region:AU-NSW",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AU-ipswich",
+  "to": "country:AU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AU-ipswich",
+  "to": "region:AU-QLD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AU-geelong",
+  "to": "country:AU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AU-geelong",
+  "to": "region:AU-VIC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AU-townsville",
+  "to": "country:AU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AU-townsville",
+  "to": "region:AU-QLD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AU-newcastle",
+  "to": "country:AU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AU-newcastle",
+  "to": "region:AU-NSW",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SD-chartum",
+  "to": "country:SD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SD-omdurman",
+  "to": "country:SD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SD-al-chartum-bahri",
+  "to": "country:SD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SD-bur-sudan",
+  "to": "country:SD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SD-al-ubayyid",
+  "to": "country:SD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SD-kassala",
+  "to": "country:SD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SD-kusti",
+  "to": "country:SD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SD-nyala",
+  "to": "country:SD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SD-al-qadarif",
+  "to": "country:SD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SD-al-faschir",
+  "to": "country:SD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AF-kandahar",
+  "to": "country:AF",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AF-herat",
+  "to": "country:AF",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AF-masar-e-scharif",
+  "to": "country:AF",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AF-kundus",
+  "to": "country:AF",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AF-dschalalabad",
+  "to": "country:AF",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AF-taloqan",
+  "to": "country:AF",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AF-laschkar-gah",
+  "to": "country:AF",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AF-scheberghan",
+  "to": "country:AF",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AF-chost",
+  "to": "country:AF",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZA-johannesburg",
+  "to": "country:ZA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZA-soweto",
+  "to": "country:ZA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZA-durban",
+  "to": "country:ZA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZA-east-london",
+  "to": "country:ZA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZA-randburg",
+  "to": "country:ZA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZA-roodepoort",
+  "to": "country:ZA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZA-gqeberha",
+  "to": "country:ZA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZA-bloemfontein",
+  "to": "country:ZA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZA-centurion",
+  "to": "country:ZA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZA-benoni",
+  "to": "country:ZA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZA-george",
+  "to": "country:ZA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TZ-daressalam",
+  "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TZ-sansibar-stadt",
+  "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TZ-mwanza",
+  "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TZ-mbeya",
+  "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TZ-morogoro",
+  "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TZ-arusha",
+  "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TZ-geita",
+  "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TZ-tabora",
+  "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TZ-songea",
+  "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TZ-bariadi",
+  "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TZ-kahama",
+  "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TZ-kasulu",
+  "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TZ-kigoma",
+  "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TZ-tanga",
+  "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SA-dschidda",
+  "to": "country:SA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SA-medina",
+  "to": "country:SA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SA-dammam",
+  "to": "country:SA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SA-tabuk",
+  "to": "country:SA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SA-ta-if",
+  "to": "country:SA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SA-buraida",
+  "to": "country:SA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SA-chamis-muschait",
+  "to": "country:SA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SA-hafar-al-batin",
+  "to": "country:SA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SA-al-dschubail",
+  "to": "country:SA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SA-ha-il",
+  "to": "country:SA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SA-yanbu-al-bahr",
+  "to": "country:SA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SA-nadschran",
+  "to": "country:SA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SA-al-chardsch",
+  "to": "country:SA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SA-unaizah",
+  "to": "country:SA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SA-abha",
+  "to": "country:SA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ML-sikasso",
+  "to": "country:ML",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TW-neu-taipeh",
+  "to": "country:TW",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TW-taichung",
+  "to": "country:TW",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TW-taipeh",
+  "to": "country:TW",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TW-taoyuan",
+  "to": "country:TW",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TW-tainan",
+  "to": "country:TW",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TW-pingtung",
+  "to": "country:TW",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JO-irbid",
+  "to": "country:JO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JO-zarqa",
+  "to": "country:JO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JO-russeifa",
+  "to": "country:JO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JO-ar-ramtha",
+  "to": "country:JO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JO-ajloun",
+  "to": "country:JO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JO-wadi-as-sir",
+  "to": "country:JO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AE-schardscha",
+  "to": "country:AE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AE-al-ain",
+  "to": "country:AE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AE-adschman",
+  "to": "country:AE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GH-kumasi",
+  "to": "country:GH",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GH-tamale",
+  "to": "country:GH",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GH-sekondi-takoradi",
+  "to": "country:GH",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GH-cape-coast",
+  "to": "country:GH",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GH-obuasi",
+  "to": "country:GH",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GH-tema",
+  "to": "country:GH",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DE-koln",
+  "to": "region:DE-NW",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DE-frankfurt-am-main",
+  "to": "region:DE-HE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DE-leipzig",
+  "to": "country:DE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DE-leipzig",
+  "to": "region:DE-SN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DE-dortmund",
+  "to": "country:DE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DE-dortmund",
+  "to": "region:DE-NW",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DE-essen",
+  "to": "country:DE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DE-essen",
+  "to": "region:DE-NW",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DE-nurnberg",
+  "to": "country:DE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DE-nurnberg",
+  "to": "region:DE-BY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DE-duisburg",
+  "to": "country:DE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DE-duisburg",
+  "to": "region:DE-NW",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ES-stadt-madrid",
+  "to": "country:ES",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ES-stadt-madrid",
+  "to": "region:ES-MD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ES-malaga",
+  "to": "country:ES",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ES-malaga-stadt",
+  "to": "country:ES",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ES-alicante",
+  "to": "country:ES",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ES-las-palmas-de-gran-canaria",
+  "to": "country:ES",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ES-l-hospitalet-de-llobregat",
+  "to": "country:ES",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ES-xixon",
+  "to": "country:ES",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ES-terrassa",
+  "to": "country:ES",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ES-badalona",
+  "to": "country:ES",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ES-sabadell",
+  "to": "country:ES",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ES-mostoles",
+  "to": "country:ES",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ES-mostoles",
+  "to": "region:ES-MD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MA-casablanca",
+  "to": "country:MA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MA-tanger",
+  "to": "country:MA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MA-fes",
+  "to": "country:MA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MA-sale",
+  "to": "country:MA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MA-meknes",
+  "to": "country:MA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MA-agadir",
+  "to": "country:MA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MA-kenitra",
+  "to": "country:MA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MA-oujda",
+  "to": "country:MA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MA-tetouan",
+  "to": "country:MA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MA-temara",
+  "to": "country:MA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MA-el-aaiun",
+  "to": "country:MA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MA-el-jadida",
+  "to": "country:MA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MA-ait-melloul",
+  "to": "country:MA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BO-santa-cruz-de-la-sierra",
+  "to": "country:BO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BO-santa-cruz-de-la-sierra",
+  "to": "region:BO-S",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BO-el-alto",
+  "to": "country:BO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BO-la-paz",
+  "to": "country:BO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BO-la-paz",
+  "to": "region:BO-L",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BO-cochabamba",
+  "to": "country:BO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BO-cochabamba",
+  "to": "region:BO-C",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BO-sucre",
+  "to": "region:BO-H",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BO-oruro",
+  "to": "country:BO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BO-oruro",
+  "to": "region:BO-O",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BO-warnes",
+  "to": "country:BO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BO-warnes",
+  "to": "region:BO-S",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BO-potosi",
+  "to": "country:BO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BO-tarija",
+  "to": "country:BO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BO-tarija",
+  "to": "region:BO-T",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BO-sacaba",
+  "to": "country:BO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KW-kuweit-stadt",
+  "to": "country:KW",
+  "type": "located_in"
+ },
+ {
+  "from": "city:YE-sanaa",
+  "to": "country:YE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:YE-aden",
+  "to": "country:YE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:YE-al-hudaida",
+  "to": "country:YE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:YE-taizz",
+  "to": "country:YE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:YE-ibb",
+  "to": "country:YE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:YE-dhamar",
+  "to": "country:YE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UZ-taschkent",
+  "to": "country:UZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UZ-namangan",
+  "to": "country:UZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UZ-andijon",
+  "to": "country:UZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UZ-samarqand",
+  "to": "country:UZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UZ-nukus",
+  "to": "country:UZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UZ-fargona",
+  "to": "country:UZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UZ-buchara",
+  "to": "country:UZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UZ-qarshi",
+  "to": "country:UZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UZ-qoqon",
+  "to": "country:UZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UZ-margilon",
+  "to": "country:UZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UZ-jizzax",
+  "to": "country:UZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UZ-chirchiq",
+  "to": "country:UZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UZ-urganch",
+  "to": "country:UZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KP-pjongjang",
+  "to": "country:KP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KP-hamhung",
+  "to": "country:KP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KP-ch-ongjin",
+  "to": "country:KP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KP-sunch-on-nordkorea",
+  "to": "country:KP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KP-namp-o",
+  "to": "country:KP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KP-wonsan",
+  "to": "country:KP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KP-sinuiju",
+  "to": "country:KP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KP-tanch-on",
+  "to": "country:KP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KP-kaech-on",
+  "to": "country:KP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KP-sariwon",
+  "to": "country:KP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KP-p-yongsong",
+  "to": "country:KP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KP-haeju",
+  "to": "country:KP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KP-kanggye",
+  "to": "country:KP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KP-anju",
+  "to": "country:KP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KP-tokch-on",
+  "to": "country:KP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CA-montreal",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CA-montreal",
+  "to": "region:CA-QC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CA-calgary",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CA-calgary",
+  "to": "region:CA-AB",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CA-ottawa",
+  "to": "region:CA-ON",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CA-mississauga",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CA-mississauga",
+  "to": "region:CA-ON",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CA-vancouver",
+  "to": "region:CA-BC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CA-brampton",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CA-brampton",
+  "to": "region:CA-ON",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CA-hamilton",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CA-hamilton",
+  "to": "region:CA-ON",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CA-surrey",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CA-surrey",
+  "to": "region:CA-BC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CA-laval",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CA-laval",
+  "to": "region:CA-QC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CA-london",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CA-london",
+  "to": "region:CA-ON",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CA-markham",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CA-markham",
+  "to": "region:CA-ON",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CM-douala",
+  "to": "country:CM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CM-garoua",
+  "to": "country:CM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CM-bafoussam",
+  "to": "country:CM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CM-bamenda",
+  "to": "country:CM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CM-maroua",
+  "to": "country:CM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CM-ngaoundere",
+  "to": "country:CM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CM-bertoua",
+  "to": "country:CM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IT-catania",
+  "to": "country:IT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IT-verona",
+  "to": "country:IT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IT-messina",
+  "to": "country:IT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IT-padua",
+  "to": "country:IT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IT-parma",
+  "to": "country:IT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SY-damaskus",
+  "to": "country:SY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SY-aleppo",
+  "to": "country:SY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SY-homs",
+  "to": "country:SY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SY-latakia",
+  "to": "country:SY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SY-hama",
+  "to": "country:SY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SY-duma",
+  "to": "country:SY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SY-raqqa",
+  "to": "country:SY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SY-deir-ez-zor",
+  "to": "country:SY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SY-al-hasaka",
+  "to": "country:SY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SY-qamischli",
+  "to": "country:SY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SY-idlib",
+  "to": "country:SY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SY-nawa",
+  "to": "country:SY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-guayaquil",
+  "to": "country:EC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-guayaquil",
+  "to": "region:EC-G",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-quito",
+  "to": "region:EC-P",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-cuenca",
+  "to": "country:EC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-cuenca",
+  "to": "region:EC-A",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-duran",
+  "to": "country:EC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-duran",
+  "to": "region:EC-G",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-machala",
+  "to": "country:EC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-machala",
+  "to": "region:EC-O",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-manta",
+  "to": "country:EC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-manta",
+  "to": "region:EC-M",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-loja",
+  "to": "country:EC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-loja",
+  "to": "region:EC-L",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-quevedo",
+  "to": "country:EC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-quevedo",
+  "to": "region:EC-R",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-ambato",
+  "to": "country:EC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-ambato",
+  "to": "region:EC-T",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-riobamba",
+  "to": "country:EC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-riobamba",
+  "to": "region:EC-H",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-daule",
+  "to": "country:EC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-daule",
+  "to": "region:EC-G",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-milagro",
+  "to": "country:EC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-milagro",
+  "to": "region:EC-G",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-ibarra",
+  "to": "country:EC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-ibarra",
+  "to": "region:EC-I",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-esmeraldas",
+  "to": "country:EC",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EC-esmeraldas",
+  "to": "region:EC-E",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CU-santiago-de-cuba",
+  "to": "country:CU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CU-holguin",
+  "to": "country:CU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CU-camaguey",
+  "to": "country:CU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CU-santa-clara",
+  "to": "country:CU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CU-bayamo",
+  "to": "country:CU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CU-guantanamo",
+  "to": "country:CU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CU-carlos-manuel-de-cespedes",
+  "to": "country:CU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CU-las-tunas",
+  "to": "country:CU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CU-pinar-del-rio",
+  "to": "country:CU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CU-cienfuegos",
+  "to": "country:CU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CU-matanzas",
+  "to": "country:CU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CU-manzanillo",
+  "to": "country:CU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AO-quilamba-quiaxi",
+  "to": "country:AO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AO-lubango",
+  "to": "country:AO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AO-viana",
+  "to": "country:AO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AO-huambo",
+  "to": "country:AO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AO-cazenga",
+  "to": "country:AO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AO-cabinda",
+  "to": "country:AO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AO-malanje",
+  "to": "country:AO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AO-benguela",
+  "to": "country:AO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AO-lobito",
+  "to": "country:AO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AO-belas",
+  "to": "country:AO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AO-luena",
+  "to": "country:AO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AO-bailundo",
+  "to": "country:AO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AO-sumbe",
+  "to": "country:AO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AO-mocamedes",
+  "to": "country:AO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZM-kitwe",
+  "to": "country:ZM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZM-ndola",
+  "to": "country:ZM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZM-kabwe",
+  "to": "country:ZM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZM-chingola",
+  "to": "country:ZM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZM-mufulira",
+  "to": "country:ZM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZM-livingstone",
+  "to": "country:ZM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZM-kasama",
+  "to": "country:ZM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BF-bobo-dioulasso",
+  "to": "country:BF",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BF-koudougou",
+  "to": "country:BF",
+  "type": "located_in"
+ },
+ {
+  "from": "city:LB-tripoli",
+  "to": "country:LB",
+  "type": "located_in"
+ },
+ {
+  "from": "city:LB-sidon",
+  "to": "country:LB",
+  "type": "located_in"
+ },
+ {
+  "from": "city:LB-tyros",
+  "to": "country:LB",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DZ-algier",
+  "to": "country:DZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DZ-oran",
+  "to": "country:DZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DZ-constantine",
+  "to": "country:DZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DZ-batna",
+  "to": "country:DZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DZ-setif",
+  "to": "country:DZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DZ-el-djelfa",
+  "to": "country:DZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DZ-annaba",
+  "to": "country:DZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DZ-sidi-bel-abbes",
+  "to": "country:DZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DZ-biskra",
+  "to": "country:DZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DZ-tebessa",
+  "to": "country:DZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DZ-blida",
+  "to": "country:DZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DZ-tiaret",
+  "to": "country:DZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DZ-bejaia",
+  "to": "country:DZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DZ-tlemcen",
+  "to": "country:DZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DZ-bordj-bou-arreridj",
+  "to": "country:DZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VE-maracaibo",
+  "to": "country:VE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VE-valencia",
+  "to": "country:VE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VE-maracay",
+  "to": "country:VE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VE-barquisimeto",
+  "to": "country:VE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VE-barinas",
+  "to": "country:VE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VE-maturin",
+  "to": "country:VE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VE-ciudad-guayana",
+  "to": "country:VE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VE-catia-la-mar",
+  "to": "country:VE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VE-ciudad-bolivar",
+  "to": "country:VE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VE-santa-teresa-del-tuy",
+  "to": "country:VE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VE-cumana",
+  "to": "country:VE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VE-cabimas",
+  "to": "country:VE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VE-los-teques",
+  "to": "country:VE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:VE-puerto-la-cruz",
+  "to": "country:VE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KZ-almaty",
+  "to": "country:KZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KZ-schymkent",
+  "to": "country:KZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KZ-qaraghandy",
+  "to": "country:KZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KZ-taras",
+  "to": "country:KZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KZ-aqtobe",
+  "to": "country:KZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KZ-semei",
+  "to": "country:KZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KZ-pawlodar",
+  "to": "country:KZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KZ-oskemen",
+  "to": "country:KZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KZ-atyrau",
+  "to": "country:KZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KZ-qysylorda",
+  "to": "country:KZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KZ-qostanai",
+  "to": "country:KZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KZ-oral",
+  "to": "country:KZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KZ-turkistan",
+  "to": "country:KZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KZ-petropawl",
+  "to": "country:KZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DO-concepcion-de-la-vega",
+  "to": "country:DO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DO-higuey",
+  "to": "country:DO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DO-san-pedro-de-macoris",
+  "to": "country:DO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DO-san-francisco-de-macoris",
+  "to": "country:DO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZW-masvingo",
+  "to": "country:ZW",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZW-bulawayo",
+  "to": "country:ZW",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ZW-mutare",
+  "to": "country:ZW",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CG-pointe-noire",
+  "to": "country:CG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SO-mogadischu",
+  "to": "country:SO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SO-burao",
+  "to": "country:SO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SO-berbera",
+  "to": "country:SO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SO-merka",
+  "to": "country:SO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SO-kismaayo",
+  "to": "country:SO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FR-paris",
+  "to": "region:FR-IDF",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FR-metropole-de-lyon",
+  "to": "country:FR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FR-metropole-de-lyon",
+  "to": "region:FR-ARA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FR-communaute-urbaine-de-bordeaux",
+  "to": "country:FR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FR-lyon",
+  "to": "region:FR-ARA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FR-toulouse",
+  "to": "country:FR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FR-montpellier",
+  "to": "country:FR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FR-strassburg",
+  "to": "country:FR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FR-lille",
+  "to": "country:FR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FR-reims",
+  "to": "country:FR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FR-saint-etienne",
+  "to": "country:FR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FR-le-havre",
+  "to": "country:FR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FR-villeurbanne",
+  "to": "country:FR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FR-dijon",
+  "to": "country:FR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BY-homel",
+  "to": "country:BY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BY-homel",
+  "to": "region:BY-HO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BY-hrodna",
+  "to": "country:BY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BY-hrodna",
+  "to": "region:BY-HR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BY-witebsk",
+  "to": "country:BY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BY-witebsk",
+  "to": "region:BY-VI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BY-mahiljou",
+  "to": "country:BY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BY-mahiljou",
+  "to": "region:BY-MA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BY-brest",
+  "to": "country:BY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BY-brest",
+  "to": "region:BY-BR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BY-babrujsk",
+  "to": "country:BY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BY-babrujsk",
+  "to": "region:BY-MA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BY-baranawitschy",
+  "to": "country:BY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BY-baranawitschy",
+  "to": "region:BY-BR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CD-kananga",
+  "to": "country:CD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CD-lubumbashi",
+  "to": "country:CD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CD-kisangani",
+  "to": "country:CD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CD-likasi",
+  "to": "country:CD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CD-butembo",
+  "to": "country:CD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IR-isfahan",
+  "to": "country:IR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IR-ahvaz",
+  "to": "country:IR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IR-kermanschah",
+  "to": "country:IR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IR-urmia",
+  "to": "country:IR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IR-rasht",
+  "to": "country:IR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IR-zahedan",
+  "to": "country:IR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IR-hamadan",
+  "to": "country:IR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IR-kerman",
+  "to": "country:IR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IR-yazd",
+  "to": "country:IR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IR-bandar-abbas",
+  "to": "country:IR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IR-arak",
+  "to": "country:IR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IR-eslamschahr",
+  "to": "country:IR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IR-zandschan",
+  "to": "country:IR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IR-sanandadsch",
+  "to": "country:IR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IR-qazvin",
+  "to": "country:IR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PL-posen",
+  "to": "country:PL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PL-posen",
+  "to": "region:PL-30",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PL-stettin",
+  "to": "country:PL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PL-stettin",
+  "to": "region:PL-32",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PL-bydgoszcz",
+  "to": "country:PL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PL-bydgoszcz",
+  "to": "region:PL-04",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PL-gdynia",
+  "to": "country:PL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PL-gdynia",
+  "to": "region:PL-22",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PL-czestochowa",
+  "to": "country:PL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PL-czestochowa",
+  "to": "region:PL-24",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PL-radom",
+  "to": "country:PL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PL-radom",
+  "to": "region:PL-14",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PL-torun",
+  "to": "country:PL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PL-torun",
+  "to": "region:PL-04",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RW-gitarama",
+  "to": "country:RW",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RW-ruhengeri",
+  "to": "country:RW",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RO-cluj-napoca",
+  "to": "country:RO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RO-iasi",
+  "to": "country:RO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RO-constanta",
+  "to": "country:RO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RO-timisoara",
+  "to": "country:RO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RO-brasov",
+  "to": "country:RO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RO-krajowa",
+  "to": "country:RO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RO-galati",
+  "to": "country:RO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RO-oradea",
+  "to": "country:RO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RO-ploiesti",
+  "to": "country:RO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RO-braila",
+  "to": "country:RO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UG-mbale",
+  "to": "country:UG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UG-arua",
+  "to": "country:UG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UG-kira-town",
+  "to": "country:UG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UG-masaka",
+  "to": "country:UG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UG-jinja",
+  "to": "country:UG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UG-mbarara",
+  "to": "country:UG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UG-gulu",
+  "to": "country:UG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GN-siguiri",
+  "to": "country:GN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GN-gueckedou",
+  "to": "country:GN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GN-kamsar",
+  "to": "country:GN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PA-san-miguelito",
+  "to": "country:PA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PA-colon",
+  "to": "country:PA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NE-maradi",
+  "to": "country:NE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NE-zinder",
+  "to": "country:NE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NZ-christchurch",
+  "to": "country:NZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NZ-hamilton",
+  "to": "country:NZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NZ-tauranga",
+  "to": "country:NZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MR-nouadhibou",
+  "to": "country:MR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SN-pikine",
+  "to": "country:SN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SN-touba",
+  "to": "country:SN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SN-thies",
+  "to": "country:SN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SN-rufisque",
+  "to": "country:SN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SN-m-bour",
+  "to": "country:SN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SN-saint-louis",
+  "to": "country:SN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SN-keur-massar-nord",
+  "to": "country:SN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SN-ziguinchor",
+  "to": "country:SN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SN-yeumbeul-nord",
+  "to": "country:SN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SN-kaolack",
+  "to": "country:SN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:OM-maskat",
+  "to": "country:OM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:OM-sib",
+  "to": "country:OM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:OM-salala",
+  "to": "country:OM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:OM-matrah",
+  "to": "country:OM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:OM-suhar",
+  "to": "country:OM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CZ-brunn",
+  "to": "country:CZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CZ-ostrava",
+  "to": "country:CZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CZ-pilsen",
+  "to": "country:CZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MN-ulaanbaatar",
+  "to": "country:MN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GE-tiflis",
+  "to": "country:GE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GE-batumi",
+  "to": "country:GE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GE-kutaissi",
+  "to": "country:GE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:LY-tripolis",
+  "to": "country:LY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:LY-bengasi",
+  "to": "country:LY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:LY-misrata",
+  "to": "country:LY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:LY-al-baida",
+  "to": "country:LY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MG-antsirabe",
+  "to": "country:MG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MG-toamasina",
+  "to": "country:MG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BG-sofia",
+  "to": "region:BG-22",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BG-burgas",
+  "to": "country:BG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RS-belgrad",
+  "to": "region:RS-00",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RS-novi-sad",
+  "to": "country:RS",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RS-pristina",
+  "to": "country:RS",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RS-prizren",
+  "to": "country:RS",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RS-nis",
+  "to": "country:RS",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RS-ferizaj",
+  "to": "country:RS",
+  "type": "located_in"
+ },
+ {
+  "from": "city:RS-kragujevac",
+  "to": "country:RS",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KG-bischkek",
+  "to": "country:KG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:KG-osch",
+  "to": "country:KG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MZ-matola",
+  "to": "country:MZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MZ-nampula",
+  "to": "country:MZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MZ-beira",
+  "to": "country:MZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MZ-quelimane",
+  "to": "country:MZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MZ-chimoio",
+  "to": "country:MZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MZ-nacala",
+  "to": "country:MZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MZ-maxixe",
+  "to": "country:MZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MZ-tete",
+  "to": "country:MZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AM-jerewan",
+  "to": "country:AM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:HN-san-pedro-sula",
+  "to": "country:HN",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IL-tel-aviv-jaffa",
+  "to": "country:IL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IL-haifa",
+  "to": "country:IL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IL-rischon-lezion",
+  "to": "country:IL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IL-petach-tikwa",
+  "to": "country:IL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IL-aschdod",
+  "to": "country:IL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IL-netanja",
+  "to": "country:IL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IL-be-er-scheva",
+  "to": "country:IL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IL-cholon",
+  "to": "country:IL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IL-bnei-berak",
+  "to": "country:IL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IL-ramat-gan",
+  "to": "country:IL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TM-asgabat",
+  "to": "country:TM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TM-turkmenabat",
+  "to": "country:TM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TM-dasoguz",
+  "to": "country:TM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TM-mary",
+  "to": "country:TM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GT-guatemala-stadt",
+  "to": "country:GT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GT-mixco",
+  "to": "country:GT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GT-villa-nueva",
+  "to": "country:GT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GT-quetzaltenango",
+  "to": "country:GT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GT-jalapa",
+  "to": "country:GT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GT-escuintla",
+  "to": "country:GT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GT-villa-canales",
+  "to": "country:GT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MW-blantyre",
+  "to": "country:MW",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MW-mzuzu",
+  "to": "country:MW",
+  "type": "located_in"
+ },
+ {
+  "from": "city:HT-carrefour",
+  "to": "country:HT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:HT-petionville",
+  "to": "country:HT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:HT-gonaives",
+  "to": "country:HT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:HT-delmas",
+  "to": "country:HT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:HT-saint-marc",
+  "to": "country:HT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:HT-cap-haitien",
+  "to": "country:HT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:HT-les-cayes",
+  "to": "country:HT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SE-stockholm",
+  "to": "region:SE-AB",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SE-goteborg",
+  "to": "country:SE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SE-goteborg",
+  "to": "region:SE-O",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SE-malmo",
+  "to": "country:SE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SE-malmo",
+  "to": "region:SE-M",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SE-uppsala",
+  "to": "country:SE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SE-uppsala",
+  "to": "region:SE-C",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UA-dnipro",
+  "to": "country:UA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UA-dnipro",
+  "to": "region:UA-12",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UA-donezk",
+  "to": "country:UA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UA-saporischschja",
+  "to": "country:UA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UA-saporischschja",
+  "to": "region:UA-23",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UA-krywyj-rih",
+  "to": "country:UA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UA-winnyzja",
+  "to": "country:UA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UA-winnyzja",
+  "to": "region:UA-05",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UA-czernowitz",
+  "to": "country:UA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UA-iwano-frankiwsk",
+  "to": "country:UA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UA-iwano-frankiwsk",
+  "to": "region:UA-26",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UA-luzk",
+  "to": "country:UA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:UA-luzk",
+  "to": "region:UA-07",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SL-bo",
+  "to": "country:SL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SL-kenema",
+  "to": "country:SL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TJ-duschanbe",
+  "to": "country:TJ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:TJ-chudschand",
+  "to": "country:TJ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:JM-portmore",
+  "to": "country:JM",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NI-leon",
+  "to": "country:NI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NL-amsterdam",
+  "to": "region:NL-NH",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NL-rotterdam",
+  "to": "country:NL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NL-rotterdam",
+  "to": "region:NL-ZH",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NL-eindhoven",
+  "to": "country:NL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NL-eindhoven",
+  "to": "region:NL-NB",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NL-tilburg",
+  "to": "country:NL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NL-tilburg",
+  "to": "region:NL-NB",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NL-almere",
+  "to": "country:NL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NL-almere",
+  "to": "region:NL-FL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NL-breda",
+  "to": "country:NL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NL-breda",
+  "to": "region:NL-NB",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NL-arnheim",
+  "to": "country:NL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NL-arnheim",
+  "to": "region:NL-GE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NL-enschede",
+  "to": "country:NL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NL-enschede",
+  "to": "region:NL-OV",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NL-herzogenbusch",
+  "to": "country:NL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NL-herzogenbusch",
+  "to": "region:NL-NB",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GA-port-gentil",
+  "to": "country:GA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NP-lalitpur",
+  "to": "country:NP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NP-bharatpur",
+  "to": "country:NP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NP-pokhara",
+  "to": "country:NP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NP-biratnagar",
+  "to": "country:NP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NP-ghorahi",
+  "to": "country:NP",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BJ-cotonou",
+  "to": "country:BJ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BJ-ouidah",
+  "to": "country:BJ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:HR-split",
+  "to": "country:HR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:HR-split",
+  "to": "region:HR-17",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NO-bergen",
+  "to": "country:NO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NO-bergen",
+  "to": "region:NO-46",
+  "type": "located_in"
+ },
+ {
+  "from": "city:NO-trondheim",
+  "to": "country:NO",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FI-helsinki",
+  "to": "region:FI-18",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FI-espoo",
+  "to": "country:FI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FI-espoo",
+  "to": "region:FI-18",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FI-tampere",
+  "to": "country:FI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FI-tampere",
+  "to": "region:FI-11",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FI-vantaa",
+  "to": "country:FI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FI-vantaa",
+  "to": "region:FI-18",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FI-oulu",
+  "to": "country:FI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FI-oulu",
+  "to": "region:FI-14",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FI-turku",
+  "to": "country:FI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:FI-turku",
+  "to": "region:FI-19",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DK-kopenhagen",
+  "to": "region:DK-84",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DK-aarhus",
+  "to": "country:DK",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DK-aarhus",
+  "to": "region:DK-82",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DK-odense",
+  "to": "country:DK",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DK-odense",
+  "to": "region:DK-83",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BI-bujumbura",
+  "to": "country:BI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:LK-gampaha",
+  "to": "country:LK",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GR-thessaloniki",
+  "to": "country:GR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GR-patras",
+  "to": "country:GR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GR-piraus",
+  "to": "country:GR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:DJ-dschibuti",
+  "to": "country:DJ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-mar-del-plata",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-mar-del-plata",
+  "to": "region:AR-B",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-san-juan",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-san-juan",
+  "to": "region:AR-J",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-lanus",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-lanus",
+  "to": "region:AR-B",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-avellaneda",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-avellaneda",
+  "to": "region:AR-B",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-san-salvador-de-jujuy",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-san-salvador-de-jujuy",
+  "to": "region:AR-Y",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-santiago-del-estero",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-santiago-del-estero",
+  "to": "region:AR-G",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-resistencia",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-resistencia",
+  "to": "region:AR-H",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-bahia-blanca",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-bahia-blanca",
+  "to": "region:AR-B",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-neuquen",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-neuquen",
+  "to": "region:AR-Q",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-posadas",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-posadas",
+  "to": "region:AR-N",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-parana",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-parana",
+  "to": "region:AR-E",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-formosa",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-formosa",
+  "to": "region:AR-P",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-quilmes",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-quilmes",
+  "to": "region:AR-B",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-merlo",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-merlo",
+  "to": "region:AR-B",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-gonzalez-catan",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AR-gonzalez-catan",
+  "to": "region:AR-B",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IE-dublin",
+  "to": "region:IE-L",
+  "type": "located_in"
+ },
+ {
+  "from": "city:IE-cork",
+  "to": "country:IE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PS-gaza",
+  "to": "country:PS",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PS-hebron",
+  "to": "country:PS",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PS-chan-yunis",
+  "to": "country:PS",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PS-nablus",
+  "to": "country:PS",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PS-rafah",
+  "to": "country:PS",
+  "type": "located_in"
+ },
+ {
+  "from": "city:LT-kaunas",
+  "to": "country:LT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:LT-klaipeda",
+  "to": "country:LT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MD-kischinau",
+  "to": "country:MD",
+  "type": "located_in"
+ },
+ {
+  "from": "city:MD-kischinau",
+  "to": "region:MD-CU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SS-wau",
+  "to": "country:SS",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SS-bor",
+  "to": "country:SS",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SK-bratislava",
+  "to": "region:SK-BL",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SK-kosice",
+  "to": "country:SK",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SK-kosice",
+  "to": "region:SK-KI",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PY-ciudad-del-este",
+  "to": "country:PY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PY-san-lorenzo",
+  "to": "country:PY",
+  "type": "located_in"
+ },
+ {
+  "from": "city:EE-tallinn",
+  "to": "region:EE-37",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AZ-sumqay-t",
+  "to": "country:AZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AZ-g-nc",
+  "to": "country:AZ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:AL-tirana",
+  "to": "region:AL-11",
+  "type": "located_in"
+ },
+ {
+  "from": "city:CR-san-jose",
+  "to": "region:CR-SJ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SV-santa-ana",
+  "to": "country:SV",
+  "type": "located_in"
+ },
+ {
+  "from": "city:SV-san-miguel",
+  "to": "country:SV",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BH-al-muharraq",
+  "to": "country:BH",
+  "type": "located_in"
+ },
+ {
+  "from": "city:GQ-bata",
+  "to": "country:GQ",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BA-banja-luka",
+  "to": "country:BA",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BE-gent",
+  "to": "country:BE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BE-gent",
+  "to": "region:BE-VOV",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BE-brussel",
+  "to": "region:BE-BRU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BE-luttich",
+  "to": "country:BE",
+  "type": "located_in"
+ },
+ {
+  "from": "city:BE-luttich",
+  "to": "region:BE-WLG",
+  "type": "located_in"
+ },
+ {
+  "from": "city:PT-porto",
+  "to": "country:PT",
+  "type": "located_in"
+ },
+ {
+  "from": "city:HU-szeged",
+  "to": "country:HU",
+  "type": "located_in"
+ },
+ {
+  "from": "city:HU-szeged",
+  "to": "region:HU-CS",
+  "type": "located_in"
+ },
+ {
+  "from": "city:ME-podgorica",
+  "to": "region:ME-16",
+  "type": "located_in"
  }
 ]

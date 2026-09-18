@@ -3,9 +3,13 @@
   "id": "region:PL-02",
   "type": "region",
   "names": {
-   "de": "Niederschlesien"
+   "de": "Woiwodschaft Niederschlesien",
+   "en": "Lower Silesian Voivodeship"
   },
-  "aliases": [],
+  "aliases": [
+   "Niederschlesien",
+   "Lower Silesian Voivodeship"
+  ],
   "media": [
    {
     "id": "media:flag:PL-02",
@@ -36,9 +40,13 @@
   "id": "region:PL-04",
   "type": "region",
   "names": {
-   "de": "Kujawien-Pommern"
+   "de": "Woiwodschaft Kujawien-Pommern",
+   "en": "Kuyavian-Pomeranian Voivodeship"
   },
-  "aliases": [],
+  "aliases": [
+   "Kujawien-Pommern",
+   "Kuyavian-Pomeranian Voivodeship"
+  ],
   "media": [
    {
     "id": "media:flag:PL-04",
@@ -69,9 +77,13 @@
   "id": "region:PL-06",
   "type": "region",
   "names": {
-   "de": "Lublin"
+   "de": "Woiwodschaft Lublin",
+   "en": "Lublin Voivodeship"
   },
-  "aliases": [],
+  "aliases": [
+   "Lublin",
+   "Lublin Voivodeship"
+  ],
   "media": [
    {
     "id": "media:flag:PL-06",
@@ -102,9 +114,13 @@
   "id": "region:PL-08",
   "type": "region",
   "names": {
-   "de": "Lebus"
+   "de": "Woiwodschaft Lebus",
+   "en": "Lubusz Voivodeship"
   },
-  "aliases": [],
+  "aliases": [
+   "Lebus",
+   "Lubusz Voivodeship"
+  ],
   "media": [
    {
     "id": "media:flag:PL-08",
@@ -135,9 +151,13 @@
   "id": "region:PL-10",
   "type": "region",
   "names": {
-   "de": "Łódź"
+   "de": "Woiwodschaft Łódź",
+   "en": "Łódź Voivodeship"
   },
-  "aliases": [],
+  "aliases": [
+   "Łódź",
+   "Łódź Voivodeship"
+  ],
   "media": [
    {
     "id": "media:flag:PL-10",
@@ -168,9 +188,13 @@
   "id": "region:PL-12",
   "type": "region",
   "names": {
-   "de": "Kleinpolen"
+   "de": "Woiwodschaft Kleinpolen",
+   "en": "Lesser Poland Voivodeship"
   },
-  "aliases": [],
+  "aliases": [
+   "Kleinpolen",
+   "Lesser Poland Voivodeship"
+  ],
   "media": [
    {
     "id": "media:flag:PL-12",
@@ -201,9 +225,13 @@
   "id": "region:PL-14",
   "type": "region",
   "names": {
-   "de": "Masowien"
+   "de": "Woiwodschaft Masowien",
+   "en": "Masovian Voivodeship"
   },
-  "aliases": [],
+  "aliases": [
+   "Masowien",
+   "Masovian Voivodeship"
+  ],
   "media": [
    {
     "id": "media:flag:PL-14",
@@ -234,9 +262,13 @@
   "id": "region:PL-16",
   "type": "region",
   "names": {
-   "de": "Oppeln"
+   "de": "Woiwodschaft Opole",
+   "en": "Opole Voivodeship"
   },
-  "aliases": [],
+  "aliases": [
+   "Oppeln",
+   "Opole Voivodeship"
+  ],
   "media": [
    {
     "id": "media:flag:PL-16",
@@ -267,9 +299,13 @@
   "id": "region:PL-18",
   "type": "region",
   "names": {
-   "de": "Karpatenvorland"
+   "de": "Woiwodschaft Karpatenvorland",
+   "en": "Podkarpackie Voivodeship"
   },
-  "aliases": [],
+  "aliases": [
+   "Karpatenvorland",
+   "Podkarpackie Voivodeship"
+  ],
   "media": [
    {
     "id": "media:flag:PL-18",
@@ -300,9 +336,13 @@
   "id": "region:PL-20",
   "type": "region",
   "names": {
-   "de": "Podlachien"
+   "de": "Woiwodschaft Podlachien",
+   "en": "Podlaskie Voivodeship"
   },
-  "aliases": [],
+  "aliases": [
+   "Podlachien",
+   "Podlaskie Voivodeship"
+  ],
   "media": [
    {
     "id": "media:flag:PL-20",
@@ -333,9 +373,13 @@
   "id": "region:PL-22",
   "type": "region",
   "names": {
-   "de": "Pommern"
+   "de": "Woiwodschaft Pommern",
+   "en": "Pomeranian Voivodeship"
   },
-  "aliases": [],
+  "aliases": [
+   "Pommern",
+   "Pomeranian Voivodeship"
+  ],
   "media": [
    {
     "id": "media:flag:PL-22",
@@ -366,9 +410,13 @@
   "id": "region:PL-24",
   "type": "region",
   "names": {
-   "de": "Schlesien"
+   "de": "Woiwodschaft Schlesien",
+   "en": "Silesian Voivodeship"
   },
-  "aliases": [],
+  "aliases": [
+   "Schlesien",
+   "Silesian Voivodeship"
+  ],
   "media": [
    {
     "id": "media:flag:PL-24",
@@ -399,9 +447,13 @@
   "id": "region:PL-26",
   "type": "region",
   "names": {
-   "de": "Heiligkreuz"
+   "de": "Woiwodschaft Heiligkreuz",
+   "en": "Świętokrzyskie Voivodeship"
   },
-  "aliases": [],
+  "aliases": [
+   "Heiligkreuz",
+   "Świętokrzyskie Voivodeship"
+  ],
   "media": [
    {
     "id": "media:flag:PL-26",
@@ -432,9 +484,13 @@
   "id": "region:PL-28",
   "type": "region",
   "names": {
-   "de": "Ermland-Masuren"
+   "de": "Woiwodschaft Ermland-Masuren",
+   "en": "Warmian-Masurian Voivodeship"
   },
-  "aliases": [],
+  "aliases": [
+   "Ermland-Masuren",
+   "Warmian-Masurian Voivodeship"
+  ],
   "media": [
    {
     "id": "media:flag:PL-28",
@@ -465,9 +521,13 @@
   "id": "region:PL-30",
   "type": "region",
   "names": {
-   "de": "Großpolen"
+   "de": "Woiwodschaft Großpolen",
+   "en": "Greater Poland Voivodeship"
   },
-  "aliases": [],
+  "aliases": [
+   "Großpolen",
+   "Greater Poland Voivodeship"
+  ],
   "media": [
    {
     "id": "media:flag:PL-30",
@@ -498,9 +558,13 @@
   "id": "region:PL-32",
   "type": "region",
   "names": {
-   "de": "Westpommern"
+   "de": "Woiwodschaft Westpommern",
+   "en": "West Pomeranian Voivodeship"
   },
-  "aliases": [],
+  "aliases": [
+   "Westpommern",
+   "West Pomeranian Voivodeship"
+  ],
   "media": [
    {
     "id": "media:flag:PL-32",

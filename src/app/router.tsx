@@ -3,6 +3,7 @@ import { createBrowserRouter, Navigate } from 'react-router-dom'
 import { Layout } from './Layout'
 import { DataProvider } from './DataProvider'
 import { ErrorBoundary } from './ErrorBoundary'
+import { AuthProvider } from './AuthProvider'
 
 const Home = lazy(() => import('@/features/home/HomePage'))
 const PlayStart = lazy(() => import('@/features/play/PlayStartPage'))
@@ -26,6 +27,10 @@ const Forms = lazy(() => import('@/features/legal/FormsPage'))
 const Sources = lazy(() => import('@/features/legal/SourcesPage'))
 const Admin = lazy(() => import('@/features/admin/AdminPage'))
 const NaturePage = lazy(() => import('@/features/explore/NaturePage'))
+const Login = lazy(() => import('@/features/account/LoginPage'))
+const Account = lazy(() => import('@/features/account/AccountPage'))
+const ResetPw = lazy(() => import('@/features/account/ResetPasswordPage'))
+const PublicProfile = lazy(() => import('@/features/account/PublicProfilePage'))
 
 // GitHub-Pages-Fallback: 404.html kodiert den Pfad als ?p=
 const params = new URLSearchParams(location.search)
@@ -40,9 +45,11 @@ export const router = createBrowserRouter(
     {
       element: (
         <ErrorBoundary>
-          <DataProvider>
-            <Layout />
-          </DataProvider>
+          <AuthProvider>
+            <DataProvider>
+              <Layout />
+            </DataProvider>
+          </AuthProvider>
         </ErrorBoundary>
       ),
       children: [
@@ -74,6 +81,10 @@ export const router = createBrowserRouter(
         { path: '/vorschlagen', element: <Forms kind="suggest" /> },
         { path: '/quellen', element: <Sources /> },
         { path: '/admin', element: <Admin /> },
+        { path: '/login', element: <Login /> },
+        { path: '/account', element: <Account /> },
+        { path: '/passwort', element: <ResetPw /> },
+        { path: '/u/:username', element: <PublicProfile /> },
         { path: '*', element: <Navigate to="/" replace /> },
       ],
     },

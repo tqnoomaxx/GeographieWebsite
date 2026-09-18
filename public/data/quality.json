@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-09-18T15:03:34.646Z",
+ "generated_at": "2026-09-18T23:25:04.573Z",
  "counts": {
   "country": 254,
-  "city": 458,
+  "city": 1308,
   "landmark": 78,
   "river": 220,
   "lake": 113,
@@ -11,7 +11,7 @@
   "license_plate": 711
  },
  "media": 1187,
- "relationships": 3453,
+ "relationships": 4520,
  "countries_without_population": [
   "country:AC",
   "country:EU",

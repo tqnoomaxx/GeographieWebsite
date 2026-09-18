@@ -3,9 +3,13 @@
   "id": "region:BO-B",
   "type": "region",
   "names": {
-   "de": "Beni"
+   "de": "Departamento Beni",
+   "en": "Beni Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Beni",
+   "Beni Department"
+  ],
   "media": [
    {
     "id": "media:flag:BO-B",
@@ -35,9 +39,13 @@
   "id": "region:BO-C",
   "type": "region",
   "names": {
-   "de": "Cochabamba"
+   "de": "Departamento Cochabamba",
+   "en": "Cochabamba Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Cochabamba",
+   "Cochabamba Department"
+  ],
   "media": [
    {
     "id": "media:flag:BO-C",
@@ -67,9 +75,13 @@
   "id": "region:BO-H",
   "type": "region",
   "names": {
-   "de": "Chuquisaca"
+   "de": "Departamento Chuquisaca",
+   "en": "Chuquisaca Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Chuquisaca",
+   "Chuquisaca Department"
+  ],
   "media": [
    {
     "id": "media:flag:BO-H",
@@ -99,9 +111,13 @@
   "id": "region:BO-L",
   "type": "region",
   "names": {
-   "de": "La Paz"
+   "de": "Departamento La Paz",
+   "en": "La Paz Department"
   },
-  "aliases": [],
+  "aliases": [
+   "La Paz",
+   "La Paz Department"
+  ],
   "media": [
    {
     "id": "media:flag:BO-L",
@@ -131,7 +147,8 @@
   "id": "region:BO-N",
   "type": "region",
   "names": {
-   "de": "Pando"
+   "de": "Pando",
+   "en": "Pando Department"
   },
   "aliases": [],
   "media": [
@@ -163,9 +180,13 @@
   "id": "region:BO-O",
   "type": "region",
   "names": {
-   "de": "Oruro"
+   "de": "Departamento Oruro",
+   "en": "Oruro Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Oruro",
+   "Oruro Department"
+  ],
   "media": [
    {
     "id": "media:flag:BO-O",
@@ -195,9 +216,13 @@
   "id": "region:BO-P",
   "type": "region",
   "names": {
-   "de": "Potosí"
+   "de": "Departamento Potosí",
+   "en": "Potosí Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Potosí",
+   "Potosí Department"
+  ],
   "media": [
    {
     "id": "media:flag:BO-P",
@@ -227,9 +252,13 @@
   "id": "region:BO-S",
   "type": "region",
   "names": {
-   "de": "Santa Cruz"
+   "de": "Departamento Santa Cruz",
+   "en": "Santa Cruz Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Santa Cruz",
+   "Santa Cruz Department"
+  ],
   "media": [
    {
     "id": "media:flag:BO-S",
@@ -259,9 +288,13 @@
   "id": "region:BO-T",
   "type": "region",
   "names": {
-   "de": "Tarija"
+   "de": "Departamento Tarija",
+   "en": "Tarija Department"
   },
-  "aliases": [],
+  "aliases": [
+   "Tarija",
+   "Tarija Department"
+  ],
   "media": [
    {
     "id": "media:flag:BO-T",

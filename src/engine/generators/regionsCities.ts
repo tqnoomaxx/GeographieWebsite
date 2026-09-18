@@ -1,5 +1,5 @@
 import type { Generator } from './base'
-import { options, qid, effectiveDifficulty, nameOf, flagMedia, flagOf, countryOf, accepted } from './base'
+import { options, qid, effectiveDifficulty, nameOf, flagMedia, flagOf, countryOf, accepted, countryPool, isSovereign } from './base'
 import type { GeneratorContext } from '../types'
 
 const regionsWithFlag = (ctx: GeneratorContext) => ctx.regions.filter((r) => flagOf(r))
@@ -30,8 +30,7 @@ export const regionToCountry: Generator = {
   make(target, ctx, rng, difficulty) {
     const country = countryOf(target, ctx)!
     const d = effectiveDifficulty(target, difficulty)
-    const pool = ctx.countries.length >= 4 ? ctx.countries : [...ctx.byId.values()].filter((e) => e.type === 'country')
-    const opts = options(country, pool, ctx, rng, d)
+    const opts = options(country, countryPool(ctx), ctx, rng, d)
     if (!opts) return null
     return {
       id: qid(this.id, target), category: 'regions', type: this.id, question_type: 'multiple_choice',
@@ -66,12 +65,11 @@ export const regionCapital: Generator = {
 export const cityToCountry: Generator = {
   id: 'city_to_country',
   category: 'cities',
-  pool: (ctx) => ctx.cities.filter((c) => countryOf(c, ctx)),
+  pool: (ctx) => ctx.cities.filter((c) => countryOf(c, ctx) && isSovereign(countryOf(c, ctx)!)),
   make(target, ctx, rng, difficulty) {
     const country = countryOf(target, ctx)!
     const d = effectiveDifficulty(target, difficulty)
-    const pool = ctx.countries.length >= 4 ? ctx.countries : [...ctx.byId.values()].filter((e) => e.type === 'country')
-    const opts = options(country, pool, ctx, rng, d)
+    const opts = options(country, countryPool(ctx), ctx, rng, d)
     if (!opts) return null
     return {
       id: qid(this.id, target), category: 'cities', type: this.id, question_type: 'multiple_choice',
@@ -103,7 +101,7 @@ export const cityToRegion: Generator = {
 export const cityInput: Generator = {
   id: 'city_input',
   category: 'cities',
-  pool: (ctx) => ctx.cities.filter((c) => c.attributes.is_capital && countryOf(c, ctx)),
+  pool: (ctx) => ctx.cities.filter((c) => c.attributes.is_capital && countryOf(c, ctx) && isSovereign(countryOf(c, ctx)!)),
   make(target, ctx, _rng, difficulty) {
     const country = countryOf(target, ctx)!
     const d = effectiveDifficulty(target, difficulty)

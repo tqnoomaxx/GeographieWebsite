@@ -3,9 +3,13 @@
   "id": "region:BG-22",
   "type": "region",
   "names": {
-   "de": "Sofia City"
+   "de": "Oblast Sofia-Stadt",
+   "en": "Sofia City"
   },
-  "aliases": [],
+  "aliases": [
+   "Sofia City",
+   "Sofia-Stadt"
+  ],
   "media": [
    {
     "id": "media:flag:BG-22",

@@ -3,9 +3,13 @@
   "id": "region:UA-05",
   "type": "region",
   "names": {
-   "de": "Vinnytsia Oblast"
+   "de": "Oblast Winnyzja",
+   "en": "Vinnytsia Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Vinnytsia Oblast",
+   "Winnyzja"
+  ],
   "media": [
    {
     "id": "media:flag:UA-05",
@@ -35,9 +39,13 @@
   "id": "region:UA-07",
   "type": "region",
   "names": {
-   "de": "Volyn Oblast"
+   "de": "Oblast Wolhynien",
+   "en": "Volyn Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Volyn Oblast",
+   "Wolhynien"
+  ],
   "media": [
    {
     "id": "media:flag:UA-07",
@@ -67,9 +75,13 @@
   "id": "region:UA-09",
   "type": "region",
   "names": {
-   "de": "Luhansk Oblast"
+   "de": "Oblast Luhansk",
+   "en": "Luhansk Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Luhansk Oblast",
+   "Luhansk"
+  ],
   "media": [
    {
     "id": "media:flag:UA-09",
@@ -99,9 +111,13 @@
   "id": "region:UA-12",
   "type": "region",
   "names": {
-   "de": "Dnipropetrovsk Oblast"
+   "de": "Oblast Dnipropetrowsk",
+   "en": "Dnipropetrovsk Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Dnipropetrovsk Oblast",
+   "Dnipropetrowsk"
+  ],
   "media": [
    {
     "id": "media:flag:UA-12",
@@ -131,9 +147,13 @@
   "id": "region:UA-14",
   "type": "region",
   "names": {
-   "de": "Donetsk Oblast"
+   "de": "Oblast Donezk",
+   "en": "Donetsk Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Donetsk Oblast",
+   "Donezk"
+  ],
   "media": [
    {
     "id": "media:flag:UA-14",
@@ -163,9 +183,13 @@
   "id": "region:UA-18",
   "type": "region",
   "names": {
-   "de": "Zhytomyr Oblast"
+   "de": "Oblast Schytomyr",
+   "en": "Zhytomyr Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Zhytomyr Oblast",
+   "Schytomyr"
+  ],
   "media": [
    {
     "id": "media:flag:UA-18",
@@ -195,9 +219,13 @@
   "id": "region:UA-21",
   "type": "region",
   "names": {
-   "de": "Zakarpattia Oblast"
+   "de": "Oblast Transkarpatien",
+   "en": "Zakarpattia Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Zakarpattia Oblast",
+   "Transkarpatien"
+  ],
   "media": [
    {
     "id": "media:flag:UA-21",
@@ -227,9 +255,14 @@
   "id": "region:UA-23",
   "type": "region",
   "names": {
-   "de": "Zaporizhia Oblast"
+   "de": "Oblast Saporischschja",
+   "en": "Zaporizhzhia Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Zaporizhia Oblast",
+   "Zaporizhzhia Oblast",
+   "Saporischschja"
+  ],
   "media": [
    {
     "id": "media:flag:UA-23",
@@ -259,9 +292,13 @@
   "id": "region:UA-26",
   "type": "region",
   "names": {
-   "de": "Ivano-Frankivsk Oblast"
+   "de": "Oblast Iwano-Frankiwsk",
+   "en": "Ivano-Frankivsk Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Ivano-Frankivsk Oblast",
+   "Iwano-Frankiwsk"
+  ],
   "media": [
    {
     "id": "media:flag:UA-26",
@@ -291,9 +328,12 @@
   "id": "region:UA-30",
   "type": "region",
   "names": {
-   "de": "Kyiv"
+   "de": "Kiew",
+   "en": "Kyiv"
   },
-  "aliases": [],
+  "aliases": [
+   "Kyiv"
+  ],
   "media": [
    {
     "id": "media:flag:UA-30",
@@ -323,9 +363,13 @@
   "id": "region:UA-32",
   "type": "region",
   "names": {
-   "de": "Kyiv Oblast"
+   "de": "Oblast Kyjiw",
+   "en": "Kyiv Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Kyiv Oblast",
+   "Kyjiw"
+  ],
   "media": [
    {
     "id": "media:flag:UA-32",
@@ -355,9 +399,13 @@
   "id": "region:UA-35",
   "type": "region",
   "names": {
-   "de": "Kirovohrad Oblast"
+   "de": "Oblast Kirowohrad",
+   "en": "Kirovohrad Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Kirovohrad Oblast",
+   "Kirowohrad"
+  ],
   "media": [
    {
     "id": "media:flag:UA-35",
@@ -419,9 +467,12 @@
   "id": "region:UA-43",
   "type": "region",
   "names": {
-   "de": "Autonomous Republic of Crimea"
+   "de": "Autonome Republik Krim",
+   "en": "Autonomous Republic of Crimea"
   },
-  "aliases": [],
+  "aliases": [
+   "Autonomous Republic of Crimea"
+  ],
   "media": [
    {
     "id": "media:flag:UA-43",
@@ -451,9 +502,13 @@
   "id": "region:UA-46",
   "type": "region",
   "names": {
-   "de": "Lviv Oblast"
+   "de": "Oblast Lwiw",
+   "en": "Lviv Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Lviv Oblast",
+   "Lwiw"
+  ],
   "media": [
    {
     "id": "media:flag:UA-46",
@@ -483,9 +538,13 @@
   "id": "region:UA-48",
   "type": "region",
   "names": {
-   "de": "Mykolaiv Oblast"
+   "de": "Oblast Mykolajiw",
+   "en": "Mykolaiv Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Mykolaiv Oblast",
+   "Mykolajiw"
+  ],
   "media": [
    {
     "id": "media:flag:UA-48",
@@ -515,9 +574,14 @@
   "id": "region:UA-51",
   "type": "region",
   "names": {
-   "de": "Odessa Oblast"
+   "de": "Oblast Odessa",
+   "en": "Odesa Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Odessa Oblast",
+   "Odesa Oblast",
+   "Odessa"
+  ],
   "media": [
    {
     "id": "media:flag:UA-51",
@@ -547,9 +611,13 @@
   "id": "region:UA-53",
   "type": "region",
   "names": {
-   "de": "Poltava Oblast"
+   "de": "Oblast Poltawa",
+   "en": "Poltava Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Poltava Oblast",
+   "Poltawa"
+  ],
   "media": [
    {
     "id": "media:flag:UA-53",
@@ -579,9 +647,13 @@
   "id": "region:UA-56",
   "type": "region",
   "names": {
-   "de": "Rivne Oblast"
+   "de": "Oblast Riwne",
+   "en": "Rivne Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Rivne Oblast",
+   "Riwne"
+  ],
   "media": [
    {
     "id": "media:flag:UA-56",
@@ -611,9 +683,13 @@
   "id": "region:UA-59",
   "type": "region",
   "names": {
-   "de": "Sumy Oblast"
+   "de": "Oblast Sumy",
+   "en": "Sumy Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Sumy Oblast",
+   "Sumy"
+  ],
   "media": [
    {
     "id": "media:flag:UA-59",
@@ -643,9 +719,13 @@
   "id": "region:UA-61",
   "type": "region",
   "names": {
-   "de": "Ternopil Oblast"
+   "de": "Oblast Ternopil",
+   "en": "Ternopil Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Ternopil Oblast",
+   "Ternopil"
+  ],
   "media": [
    {
     "id": "media:flag:UA-61",
@@ -675,9 +755,13 @@
   "id": "region:UA-63",
   "type": "region",
   "names": {
-   "de": "Kharkiv Oblast"
+   "de": "Oblast Charkiw",
+   "en": "Kharkiv Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Kharkiv Oblast",
+   "Charkiw"
+  ],
   "media": [
    {
     "id": "media:flag:UA-63",
@@ -707,9 +791,13 @@
   "id": "region:UA-65",
   "type": "region",
   "names": {
-   "de": "Kherson Oblast"
+   "de": "Oblast Cherson",
+   "en": "Kherson Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Kherson Oblast",
+   "Cherson"
+  ],
   "media": [
    {
     "id": "media:flag:UA-65",
@@ -739,9 +827,13 @@
   "id": "region:UA-68",
   "type": "region",
   "names": {
-   "de": "Khmelnytskyi Oblast"
+   "de": "Oblast Chmelnyzkyj",
+   "en": "Khmelnytskyi Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Khmelnytskyi Oblast",
+   "Chmelnyzkyj"
+  ],
   "media": [
    {
     "id": "media:flag:UA-68",
@@ -771,9 +863,13 @@
   "id": "region:UA-71",
   "type": "region",
   "names": {
-   "de": "Cherkasy Oblast"
+   "de": "Oblast Tscherkassy",
+   "en": "Cherkasy Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Cherkasy Oblast",
+   "Tscherkassy"
+  ],
   "media": [
    {
     "id": "media:flag:UA-71",
@@ -803,9 +899,13 @@
   "id": "region:UA-74",
   "type": "region",
   "names": {
-   "de": "Chernihiv Oblast"
+   "de": "Oblast Tschernihiw",
+   "en": "Chernihiv Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Chernihiv Oblast",
+   "Tschernihiw"
+  ],
   "media": [
    {
     "id": "media:flag:UA-74",
@@ -835,9 +935,13 @@
   "id": "region:UA-77",
   "type": "region",
   "names": {
-   "de": "Chernivtsi Oblast"
+   "de": "Oblast Tscherniwzi",
+   "en": "Chernivtsi Oblast"
   },
-  "aliases": [],
+  "aliases": [
+   "Chernivtsi Oblast",
+   "Tscherniwzi"
+  ],
   "media": [
    {
     "id": "media:flag:UA-77",

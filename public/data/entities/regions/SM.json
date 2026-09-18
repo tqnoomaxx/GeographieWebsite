@@ -3,7 +3,8 @@
   "id": "region:SM-01",
   "type": "region",
   "names": {
-   "de": "Acquaviva"
+   "de": "Acquaviva",
+   "en": "Acquaviva"
   },
   "aliases": [],
   "media": [
@@ -35,7 +36,8 @@
   "id": "region:SM-02",
   "type": "region",
   "names": {
-   "de": "Chiesanuova"
+   "de": "Chiesanuova",
+   "en": "Chiesanuova"
   },
   "aliases": [],
   "media": [
@@ -67,7 +69,8 @@
   "id": "region:SM-03",
   "type": "region",
   "names": {
-   "de": "Domagnano"
+   "de": "Domagnano",
+   "en": "Domagnano"
   },
   "aliases": [],
   "media": [
@@ -99,7 +102,8 @@
   "id": "region:SM-04",
   "type": "region",
   "names": {
-   "de": "Faetano"
+   "de": "Faetano",
+   "en": "Faetano"
   },
   "aliases": [],
   "media": [
@@ -131,7 +135,8 @@
   "id": "region:SM-05",
   "type": "region",
   "names": {
-   "de": "Fiorentino"
+   "de": "Fiorentino",
+   "en": "Fiorentino"
   },
   "aliases": [],
   "media": [
@@ -163,7 +168,8 @@
   "id": "region:SM-06",
   "type": "region",
   "names": {
-   "de": "Borgo Maggiore"
+   "de": "Borgo Maggiore",
+   "en": "Borgo Maggiore"
   },
   "aliases": [],
   "media": [
@@ -195,9 +201,12 @@
   "id": "region:SM-07",
   "type": "region",
   "names": {
-   "de": "Città di San Marino"
+   "de": "San Marino",
+   "en": "San Marino"
   },
-  "aliases": [],
+  "aliases": [
+   "Città di San Marino"
+  ],
   "media": [
    {
     "id": "media:flag:SM-07",
@@ -227,7 +236,8 @@
   "id": "region:SM-08",
   "type": "region",
   "names": {
-   "de": "Montegiardino"
+   "de": "Montegiardino",
+   "en": "Montegiardino"
   },
   "aliases": [],
   "media": [
@@ -259,7 +269,8 @@
   "id": "region:SM-09",
   "type": "region",
   "names": {
-   "de": "Serravalle"
+   "de": "Serravalle",
+   "en": "Serravalle"
   },
   "aliases": [],
   "media": [

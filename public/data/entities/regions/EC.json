@@ -3,9 +3,13 @@
   "id": "region:EC-A",
   "type": "region",
   "names": {
-   "de": "Azuay"
+   "de": "Provinz Azuay",
+   "en": "Azuay Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Azuay",
+   "Azuay Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-A",
@@ -35,9 +39,13 @@
   "id": "region:EC-B",
   "type": "region",
   "names": {
-   "de": "Bolívar"
+   "de": "Provinz Bolívar",
+   "en": "Bolívar Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Bolívar",
+   "Bolívar Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-B",
@@ -67,9 +75,13 @@
   "id": "region:EC-C",
   "type": "region",
   "names": {
-   "de": "Carchi"
+   "de": "Provinz Carchi",
+   "en": "Carchi Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Carchi",
+   "Carchi Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-C",
@@ -99,9 +111,13 @@
   "id": "region:EC-D",
   "type": "region",
   "names": {
-   "de": "Orellana"
+   "de": "Provinz Orellana",
+   "en": "Orellana Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Orellana",
+   "Orellana Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-D",
@@ -131,9 +147,13 @@
   "id": "region:EC-E",
   "type": "region",
   "names": {
-   "de": "Esmeraldas"
+   "de": "Provinz Esmeraldas",
+   "en": "Esmeraldas Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Esmeraldas",
+   "Esmeraldas Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-E",
@@ -163,9 +183,13 @@
   "id": "region:EC-F",
   "type": "region",
   "names": {
-   "de": "Cañar"
+   "de": "Provinz Cañar",
+   "en": "Cañar Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Cañar",
+   "Cañar Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-F",
@@ -195,9 +219,13 @@
   "id": "region:EC-G",
   "type": "region",
   "names": {
-   "de": "Guayas"
+   "de": "Provinz Guayas",
+   "en": "Guayas Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Guayas",
+   "Guayas Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-G",
@@ -227,9 +255,13 @@
   "id": "region:EC-H",
   "type": "region",
   "names": {
-   "de": "Chimborazo"
+   "de": "Provinz Chimborazo",
+   "en": "Chimborazo Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Chimborazo",
+   "Chimborazo Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-H",
@@ -259,9 +291,13 @@
   "id": "region:EC-I",
   "type": "region",
   "names": {
-   "de": "Imbabura"
+   "de": "Provinz Imbabura",
+   "en": "Imbabura Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Imbabura",
+   "Imbabura Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-I",
@@ -291,9 +327,13 @@
   "id": "region:EC-L",
   "type": "region",
   "names": {
-   "de": "Loja"
+   "de": "Provinz Loja",
+   "en": "Loja Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Loja",
+   "Loja Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-L",
@@ -323,9 +363,13 @@
   "id": "region:EC-M",
   "type": "region",
   "names": {
-   "de": "Manabí"
+   "de": "Provinz Manabí",
+   "en": "Manabí Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Manabí",
+   "Manabí Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-M",
@@ -355,9 +399,13 @@
   "id": "region:EC-N",
   "type": "region",
   "names": {
-   "de": "Napo"
+   "de": "Provinz Napo",
+   "en": "Napo Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Napo",
+   "Napo Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-N",
@@ -387,9 +435,13 @@
   "id": "region:EC-O",
   "type": "region",
   "names": {
-   "de": "El Oro"
+   "de": "Provinz El Oro",
+   "en": "El Oro Province"
   },
-  "aliases": [],
+  "aliases": [
+   "El Oro",
+   "El Oro Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-O",
@@ -419,9 +471,13 @@
   "id": "region:EC-P",
   "type": "region",
   "names": {
-   "de": "Pichincha"
+   "de": "Provinz Pichincha",
+   "en": "Pichincha Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Pichincha",
+   "Pichincha Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-P",
@@ -451,9 +507,13 @@
   "id": "region:EC-R",
   "type": "region",
   "names": {
-   "de": "Los Ríos"
+   "de": "Provinz Los Ríos",
+   "en": "Los Ríos Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Los Ríos",
+   "Los Ríos Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-R",
@@ -483,9 +543,13 @@
   "id": "region:EC-S",
   "type": "region",
   "names": {
-   "de": "Morona Santiago"
+   "de": "Provinz Morona Santiago",
+   "en": "Morona-Santiago Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Morona Santiago",
+   "Morona-Santiago Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-S",
@@ -515,9 +579,13 @@
   "id": "region:EC-SD",
   "type": "region",
   "names": {
-   "de": "Santo Domingo de los Tsáchilas"
+   "de": "Provinz Santo Domingo de los Tsáchilas",
+   "en": "Santo Domingo de los Tsáchilas Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Santo Domingo de los Tsáchilas",
+   "Santo Domingo de los Tsáchilas Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-SD",
@@ -547,9 +615,13 @@
   "id": "region:EC-SE",
   "type": "region",
   "names": {
-   "de": "Santa Elena"
+   "de": "Provinz Santa Elena",
+   "en": "Santa Elena Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Santa Elena",
+   "Santa Elena Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-SE",
@@ -579,9 +651,13 @@
   "id": "region:EC-T",
   "type": "region",
   "names": {
-   "de": "Tungurahua"
+   "de": "Provinz Tungurahua",
+   "en": "Tungurahua Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Tungurahua",
+   "Tungurahua Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-T",
@@ -611,9 +687,13 @@
   "id": "region:EC-U",
   "type": "region",
   "names": {
-   "de": "Sucumbíos"
+   "de": "Provinz Sucumbíos",
+   "en": "Sucumbíos Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Sucumbíos",
+   "Sucumbíos Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-U",
@@ -643,9 +723,13 @@
   "id": "region:EC-W",
   "type": "region",
   "names": {
-   "de": "Galápagos"
+   "de": "Provinz Galápagos",
+   "en": "Galápagos Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Galápagos",
+   "Galápagos Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-W",
@@ -675,9 +759,13 @@
   "id": "region:EC-X",
   "type": "region",
   "names": {
-   "de": "Cotopaxi"
+   "de": "Provinz Cotopaxi",
+   "en": "Cotopaxi Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Cotopaxi",
+   "Cotopaxi Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-X",
@@ -707,9 +795,13 @@
   "id": "region:EC-Y",
   "type": "region",
   "names": {
-   "de": "Pastaza"
+   "de": "Provinz Pastaza",
+   "en": "Pastaza Province"
   },
-  "aliases": [],
+  "aliases": [
+   "Pastaza",
+   "Pastaza Province"
+  ],
   "media": [
    {
     "id": "media:flag:EC-Y",
@@ -739,9 +831,12 @@
   "id": "region:EC-Z",
   "type": "region",
   "names": {
-   "de": "Zamora Chinchipe"
+   "de": "Provinz Zamora Chinchipe",
+   "en": "Zamora Chinchipe"
   },
-  "aliases": [],
+  "aliases": [
+   "Zamora Chinchipe"
+  ],
   "media": [
    {
     "id": "media:flag:EC-Z",

@@ -3,7 +3,8 @@
   "id": "region:BR-AC",
   "type": "region",
   "names": {
-   "de": "Acre"
+   "de": "Acre",
+   "en": "Acre"
   },
   "aliases": [],
   "media": [
@@ -35,7 +36,8 @@
   "id": "region:BR-AL",
   "type": "region",
   "names": {
-   "de": "Alagoas"
+   "de": "Alagoas",
+   "en": "Alagoas"
   },
   "aliases": [],
   "media": [
@@ -67,7 +69,8 @@
   "id": "region:BR-AM",
   "type": "region",
   "names": {
-   "de": "Amazonas"
+   "de": "Amazonas",
+   "en": "Amazonas"
   },
   "aliases": [],
   "media": [
@@ -99,7 +102,8 @@
   "id": "region:BR-AP",
   "type": "region",
   "names": {
-   "de": "Amapá"
+   "de": "Amapá",
+   "en": "Amapá"
   },
   "aliases": [],
   "media": [
@@ -131,7 +135,8 @@
   "id": "region:BR-BA",
   "type": "region",
   "names": {
-   "de": "Bahia"
+   "de": "Bahia",
+   "en": "Bahia"
   },
   "aliases": [],
   "media": [
@@ -163,7 +168,8 @@
   "id": "region:BR-CE",
   "type": "region",
   "names": {
-   "de": "Ceará"
+   "de": "Ceará",
+   "en": "Ceará"
   },
   "aliases": [],
   "media": [
@@ -195,7 +201,8 @@
   "id": "region:BR-DF",
   "type": "region",
   "names": {
-   "de": "Distrito Federal"
+   "de": "Distrito Federal",
+   "en": "Federal District"
   },
   "aliases": [],
   "media": [
@@ -227,7 +234,8 @@
   "id": "region:BR-ES",
   "type": "region",
   "names": {
-   "de": "Espírito Santo"
+   "de": "Espírito Santo",
+   "en": "Espírito Santo"
   },
   "aliases": [],
   "media": [
@@ -259,7 +267,8 @@
   "id": "region:BR-GO",
   "type": "region",
   "names": {
-   "de": "Goiás"
+   "de": "Goiás",
+   "en": "Goiás"
   },
   "aliases": [],
   "media": [
@@ -291,7 +300,8 @@
   "id": "region:BR-MA",
   "type": "region",
   "names": {
-   "de": "Maranhão"
+   "de": "Maranhão",
+   "en": "Maranhão"
   },
   "aliases": [],
   "media": [
@@ -323,7 +333,8 @@
   "id": "region:BR-MG",
   "type": "region",
   "names": {
-   "de": "Minas Gerais"
+   "de": "Minas Gerais",
+   "en": "Minas Gerais"
   },
   "aliases": [],
   "media": [
@@ -355,7 +366,8 @@
   "id": "region:BR-MS",
   "type": "region",
   "names": {
-   "de": "Mato Grosso do Sul"
+   "de": "Mato Grosso do Sul",
+   "en": "Mato Grosso do Sul"
   },
   "aliases": [],
   "media": [
@@ -387,7 +399,8 @@
   "id": "region:BR-MT",
   "type": "region",
   "names": {
-   "de": "Mato Grosso"
+   "de": "Mato Grosso",
+   "en": "Mato Grosso"
   },
   "aliases": [],
   "media": [
@@ -419,7 +432,8 @@
   "id": "region:BR-PA",
   "type": "region",
   "names": {
-   "de": "Pará"
+   "de": "Pará",
+   "en": "Pará"
   },
   "aliases": [],
   "media": [
@@ -451,7 +465,8 @@
   "id": "region:BR-PB",
   "type": "region",
   "names": {
-   "de": "Paraíba"
+   "de": "Paraíba",
+   "en": "Paraíba"
   },
   "aliases": [],
   "media": [
@@ -515,7 +530,8 @@
   "id": "region:BR-PI",
   "type": "region",
   "names": {
-   "de": "Piauí"
+   "de": "Piauí",
+   "en": "Piauí"
   },
   "aliases": [],
   "media": [
@@ -547,7 +563,8 @@
   "id": "region:BR-PR",
   "type": "region",
   "names": {
-   "de": "Paraná"
+   "de": "Paraná",
+   "en": "Paraná"
   },
   "aliases": [],
   "media": [
@@ -579,7 +596,8 @@
   "id": "region:BR-RJ",
   "type": "region",
   "names": {
-   "de": "Rio de Janeiro"
+   "de": "Rio de Janeiro",
+   "en": "Rio de Janeiro"
   },
   "aliases": [],
   "media": [
@@ -611,7 +629,8 @@
   "id": "region:BR-RN",
   "type": "region",
   "names": {
-   "de": "Rio Grande do Norte"
+   "de": "Rio Grande do Norte",
+   "en": "Rio Grande do Norte"
   },
   "aliases": [],
   "media": [
@@ -643,7 +662,8 @@
   "id": "region:BR-RO",
   "type": "region",
   "names": {
-   "de": "Rondônia"
+   "de": "Rondônia",
+   "en": "Rondônia"
   },
   "aliases": [],
   "media": [
@@ -675,7 +695,8 @@
   "id": "region:BR-RR",
   "type": "region",
   "names": {
-   "de": "Roraima"
+   "de": "Roraima",
+   "en": "Roraima"
   },
   "aliases": [],
   "media": [
@@ -707,7 +728,8 @@
   "id": "region:BR-RS",
   "type": "region",
   "names": {
-   "de": "Rio Grande do Sul"
+   "de": "Rio Grande do Sul",
+   "en": "Rio Grande do Sul"
   },
   "aliases": [],
   "media": [
@@ -739,7 +761,8 @@
   "id": "region:BR-SC",
   "type": "region",
   "names": {
-   "de": "Santa Catarina"
+   "de": "Santa Catarina",
+   "en": "Santa Catarina"
   },
   "aliases": [],
   "media": [
@@ -771,7 +794,8 @@
   "id": "region:BR-SE",
   "type": "region",
   "names": {
-   "de": "Sergipe"
+   "de": "Sergipe",
+   "en": "Sergipe"
   },
   "aliases": [],
   "media": [
@@ -803,9 +827,12 @@
   "id": "region:BR-SP",
   "type": "region",
   "names": {
-   "de": "São Paulo"
+   "de": "São Paulo (Staat)",
+   "en": "São Paulo"
   },
-  "aliases": [],
+  "aliases": [
+   "São Paulo"
+  ],
   "media": [
    {
     "id": "media:flag:BR-SP",

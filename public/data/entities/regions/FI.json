@@ -3,9 +3,12 @@
   "id": "region:FI-02",
   "type": "region",
   "names": {
-   "de": "South Karelia"
+   "de": "Südkarelien",
+   "en": "South Karelia"
   },
-  "aliases": [],
+  "aliases": [
+   "South Karelia"
+  ],
   "media": [
    {
     "id": "media:flag:FI-02",
@@ -35,9 +38,12 @@
   "id": "region:FI-03",
   "type": "region",
   "names": {
-   "de": "South Ostrobothnia"
+   "de": "Südösterbotten",
+   "en": "South Ostrobothnia"
   },
-  "aliases": [],
+  "aliases": [
+   "South Ostrobothnia"
+  ],
   "media": [
    {
     "id": "media:flag:FI-03",
@@ -67,9 +73,13 @@
   "id": "region:FI-04",
   "type": "region",
   "names": {
-   "de": "Southern Savonia"
+   "de": "Südsavo",
+   "en": "South Savo"
   },
-  "aliases": [],
+  "aliases": [
+   "Southern Savonia",
+   "South Savo"
+  ],
   "media": [
    {
     "id": "media:flag:FI-04",
@@ -99,7 +109,8 @@
   "id": "region:FI-05",
   "type": "region",
   "names": {
-   "de": "Kainuu"
+   "de": "Kainuu",
+   "en": "Kainuu"
   },
   "aliases": [],
   "media": [
@@ -131,9 +142,12 @@
   "id": "region:FI-06",
   "type": "region",
   "names": {
-   "de": "Tavastia Proper"
+   "de": "Kanta-Häme",
+   "en": "Kanta-Häme"
   },
-  "aliases": [],
+  "aliases": [
+   "Tavastia Proper"
+  ],
   "media": [
    {
     "id": "media:flag:FI-06",
@@ -163,9 +177,13 @@
   "id": "region:FI-07",
   "type": "region",
   "names": {
-   "de": "Keski-Pohjanmaa"
+   "de": "Mittelösterbotten",
+   "en": "Central Ostrobothnia"
   },
-  "aliases": [],
+  "aliases": [
+   "Keski-Pohjanmaa",
+   "Central Ostrobothnia"
+  ],
   "media": [
    {
     "id": "media:flag:FI-07",
@@ -195,9 +213,12 @@
   "id": "region:FI-08",
   "type": "region",
   "names": {
-   "de": "Central Finland"
+   "de": "Mittelfinnland",
+   "en": "Central Finland"
   },
-  "aliases": [],
+  "aliases": [
+   "Central Finland"
+  ],
   "media": [
    {
     "id": "media:flag:FI-08",
@@ -227,7 +248,8 @@
   "id": "region:FI-09",
   "type": "region",
   "names": {
-   "de": "Kymenlaakso"
+   "de": "Kymenlaakso",
+   "en": "Kymenlaakso"
   },
   "aliases": [],
   "media": [
@@ -259,9 +281,12 @@
   "id": "region:FI-10",
   "type": "region",
   "names": {
-   "de": "Lapland"
+   "de": "Lappland",
+   "en": "Lapland"
   },
-  "aliases": [],
+  "aliases": [
+   "Lapland"
+  ],
   "media": [
    {
     "id": "media:flag:FI-10",
@@ -291,7 +316,8 @@
   "id": "region:FI-11",
   "type": "region",
   "names": {
-   "de": "Pirkanmaa"
+   "de": "Pirkanmaa",
+   "en": "Pirkanmaa"
   },
   "aliases": [],
   "media": [
@@ -323,9 +349,12 @@
   "id": "region:FI-12",
   "type": "region",
   "names": {
-   "de": "Ostrobothnia"
+   "de": "Österbotten",
+   "en": "Ostrobothnia"
   },
-  "aliases": [],
+  "aliases": [
+   "Ostrobothnia"
+  ],
   "media": [
    {
     "id": "media:flag:FI-12",
@@ -355,9 +384,12 @@
   "id": "region:FI-13",
   "type": "region",
   "names": {
-   "de": "North Karelia"
+   "de": "Nordkarelien",
+   "en": "North Karelia"
   },
-  "aliases": [],
+  "aliases": [
+   "North Karelia"
+  ],
   "media": [
    {
     "id": "media:flag:FI-13",
@@ -387,9 +419,13 @@
   "id": "region:FI-14",
   "type": "region",
   "names": {
-   "de": "Northern Ostrobothnia"
+   "de": "Nordösterbotten",
+   "en": "North Ostrobothnia"
   },
-  "aliases": [],
+  "aliases": [
+   "Northern Ostrobothnia",
+   "North Ostrobothnia"
+  ],
   "media": [
    {
     "id": "media:flag:FI-14",
@@ -419,9 +455,13 @@
   "id": "region:FI-15",
   "type": "region",
   "names": {
-   "de": "Northern Savonia"
+   "de": "Nordsavo",
+   "en": "North Savo"
   },
-  "aliases": [],
+  "aliases": [
+   "Northern Savonia",
+   "North Savo"
+  ],
   "media": [
    {
     "id": "media:flag:FI-15",
@@ -451,7 +491,8 @@
   "id": "region:FI-16",
   "type": "region",
   "names": {
-   "de": "Päijät-Häme"
+   "de": "Päijät-Häme",
+   "en": "Päijät-Häme"
   },
   "aliases": [],
   "media": [
@@ -483,7 +524,8 @@
   "id": "region:FI-17",
   "type": "region",
   "names": {
-   "de": "Satakunta"
+   "de": "Satakunta",
+   "en": "Satakunta"
   },
   "aliases": [],
   "media": [
@@ -515,7 +557,8 @@
   "id": "region:FI-18",
   "type": "region",
   "names": {
-   "de": "Uusimaa"
+   "de": "Uusimaa",
+   "en": "Uusimaa"
   },
   "aliases": [],
   "media": [
@@ -547,9 +590,13 @@
   "id": "region:FI-19",
   "type": "region",
   "names": {
-   "de": "Finland Proper"
+   "de": "Varsinais-Suomi",
+   "en": "Southwest Finland"
   },
-  "aliases": [],
+  "aliases": [
+   "Finland Proper",
+   "Southwest Finland"
+  ],
   "media": [
    {
     "id": "media:flag:FI-19",

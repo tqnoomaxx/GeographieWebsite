@@ -3,9 +3,14 @@
   "id": "region:EE-37",
   "type": "region",
   "names": {
-   "de": "Harju maakond"
+   "de": "Kreis Harju",
+   "en": "Harju County"
   },
-  "aliases": [],
+  "aliases": [
+   "Harju maakond",
+   "Harju County",
+   "Harju"
+  ],
   "media": [
    {
     "id": "media:flag:EE-37",
@@ -35,9 +40,13 @@
   "id": "region:EE-39",
   "type": "region",
   "names": {
-   "de": "Hiiu maakond"
+   "de": "Kreis",
+   "en": "Hiiu County"
   },
-  "aliases": [],
+  "aliases": [
+   "Hiiu maakond",
+   "Hiiu County"
+  ],
   "media": [
    {
     "id": "media:flag:EE-39",
@@ -67,9 +76,14 @@
   "id": "region:EE-74",
   "type": "region",
   "names": {
-   "de": "Saare maakond"
+   "de": "Kreis Saare",
+   "en": "Saare County"
   },
-  "aliases": [],
+  "aliases": [
+   "Saare maakond",
+   "Saare County",
+   "Saare"
+  ],
   "media": [
    {
     "id": "media:flag:EE-74",
@@ -99,9 +113,14 @@
   "id": "region:EE-84",
   "type": "region",
   "names": {
-   "de": "Viljandi maakond"
+   "de": "Kreis Viljandi",
+   "en": "Viljandi County"
   },
-  "aliases": [],
+  "aliases": [
+   "Viljandi maakond",
+   "Viljandi County",
+   "Viljandi"
+  ],
   "media": [
    {
     "id": "media:flag:EE-84",

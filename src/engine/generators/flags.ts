@@ -1,7 +1,7 @@
 import type { Generator } from './base'
-import { flagOf, options, qid, accepted, flagMedia, effectiveDifficulty, nameOf } from './base'
+import { flagOf, options, qid, accepted, flagMedia, effectiveDifficulty, nameOf, isSovereign, countryPool } from './base'
 
-const countriesWithFlag = (ctx: Parameters<Generator['pool']>[0]) => ctx.countries.filter((c) => flagOf(c))
+const countriesWithFlag = (ctx: Parameters<Generator['pool']>[0]) => ctx.countries.filter((c) => flagOf(c) && isSovereign(c))
 
 export const flagToCountry: Generator = {
   id: 'flag_to_country',
@@ -157,8 +157,7 @@ export const regionFlagToCountry: Generator = {
   make(target, ctx, rng, difficulty) {
     const country = countryOf(target, ctx)!
     const d = effectiveDifficulty(target, difficulty)
-    const pool = ctx.countries.length >= 4 ? ctx.countries : [...ctx.byId.values()].filter((e) => e.type === 'country')
-    const opts = options(country, pool, ctx, rng, d)
+    const opts = options(country, countryPool(ctx), ctx, rng, d)
     if (!opts) return null
     return {
       id: qid(this.id, target), category: 'flags', type: this.id, question_type: 'multiple_choice',

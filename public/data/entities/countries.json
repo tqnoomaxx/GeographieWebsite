@@ -70,11 +70,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Catalan"
+    "Katalanisch"
    ],
    "tld": [
     ".ad"
@@ -95,7 +96,14 @@
     "name": "Comapedrosa",
     "elevation_m": 2942,
     "wikidata": "Q62467"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "cat",
+     "de": "Katalanisch",
+     "en": "Catalan"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -157,12 +165,13 @@
    "currencies": [
     {
      "code": "AED",
-     "name": "United Arab Emirates dirham",
+     "name": "VAE-Dirham",
+     "name_en": "United Arab Emirates dirham",
      "symbol": "د.إ"
     }
    ],
    "languages": [
-    "Arabic"
+    "Arabisch"
    ],
    "tld": [
     ".ae",
@@ -184,7 +193,14 @@
     "name": "Dschabal Jais",
     "elevation_m": 1911,
     "wikidata": "Q3492099"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -246,14 +262,15 @@
    "currencies": [
     {
      "code": "AFN",
-     "name": "Afghan afghani",
+     "name": "Afghani",
+     "name_en": "Afghan afghani",
      "symbol": "؋"
     }
    ],
    "languages": [
     "Dari",
-    "Pashto",
-    "Turkmen"
+    "Paschtu",
+    "Turkmenisch"
    ],
    "tld": [
     ".af"
@@ -278,7 +295,24 @@
     "name": "Noshak",
     "elevation_m": 7492,
     "wikidata": "Q271700"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "prs",
+     "de": "Dari",
+     "en": "Dari"
+    },
+    {
+     "code": "pus",
+     "de": "Paschtu",
+     "en": "Pashto"
+    },
+    {
+     "code": "tuk",
+     "de": "Turkmenisch",
+     "en": "Turkmen"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -338,12 +372,13 @@
    "currencies": [
     {
      "code": "XCD",
-     "name": "Eastern Caribbean dollar",
+     "name": "Ostkaribischer Dollar",
+     "name_en": "Eastern Caribbean dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".ag"
@@ -361,7 +396,14 @@
     "name": "Mount Obama",
     "elevation_m": 402,
     "wikidata": "Q1718336"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -420,12 +462,13 @@
    "currencies": [
     {
      "code": "XCD",
-     "name": "Eastern Caribbean dollar",
+     "name": "Ostkaribischer Dollar",
+     "name_en": "Eastern Caribbean dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".ai"
@@ -438,7 +481,14 @@
    "emoji": "🇦🇮",
    "capital": "city:AI-the-valley",
    "wikidata": "Q25228",
-   "population": 19079
+   "population": 19079,
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -498,12 +548,13 @@
    "currencies": [
     {
      "code": "ALL",
-     "name": "Albanian lek",
+     "name": "Albanischer Lek",
+     "name_en": "Albanian lek",
      "symbol": "L"
     }
    ],
    "languages": [
-    "Albanian"
+    "Albanisch"
    ],
    "tld": [
     ".al"
@@ -526,7 +577,14 @@
     "name": "Korab",
     "elevation_m": 2764,
     "wikidata": "Q912579"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "sqi",
+     "de": "Albanisch",
+     "en": "Albanian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -590,12 +648,13 @@
    "currencies": [
     {
      "code": "AMD",
-     "name": "Armenian dram",
+     "name": "Dram",
+     "name_en": "Armenian dram",
      "symbol": "֏"
     }
    ],
    "languages": [
-    "Armenian"
+    "Armenisch"
    ],
    "tld": [
     ".am"
@@ -618,7 +677,14 @@
     "name": "Aragaz",
     "elevation_m": 4090,
     "wikidata": "Q203568"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "hye",
+     "de": "Armenisch",
+     "en": "Armenian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -681,12 +747,13 @@
    "currencies": [
     {
      "code": "AOA",
-     "name": "Angolan kwanza",
+     "name": "Kwanza",
+     "name_en": "Angolan kwanza",
      "symbol": "Kz"
     }
    ],
    "languages": [
-    "Portuguese"
+    "Portugiesisch"
    ],
    "tld": [
     ".ao"
@@ -709,7 +776,14 @@
     "name": "Môco",
     "elevation_m": 2619,
     "wikidata": "Q1348116"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "por",
+     "de": "Portugiesisch",
+     "en": "Portuguese"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -779,7 +853,8 @@
     "name": "Vinson-Massiv",
     "elevation_m": 4892,
     "wikidata": "Q163758"
-   }
+   },
+   "languages_detail": []
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -861,13 +936,14 @@
    "currencies": [
     {
      "code": "ARS",
-     "name": "Argentine peso",
+     "name": "argentinischer Peso",
+     "name_en": "Argentine peso",
      "symbol": "$"
     }
    ],
    "languages": [
     "Guaraní",
-    "Spanish"
+    "Spanisch"
    ],
    "tld": [
     ".ar"
@@ -891,7 +967,19 @@
     "name": "Aconcagua",
     "elevation_m": 6962,
     "wikidata": "Q39739"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "grn",
+     "de": "Guaraní",
+     "en": "Guaraní"
+    },
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -954,13 +1042,14 @@
    "currencies": [
     {
      "code": "USD",
-     "name": "United States dollar",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English",
-    "Samoan"
+    "Englisch",
+    "Samoanisch"
    ],
    "tld": [
     ".as"
@@ -978,7 +1067,19 @@
     "name": "Lata",
     "elevation_m": 963,
     "wikidata": "Q1226878"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "smo",
+     "de": "Samoanisch",
+     "en": "Samoan"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -1043,11 +1144,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Austro-Bavarian German"
+    "Bairisch"
    ],
    "tld": [
     ".at"
@@ -1074,7 +1176,14 @@
     "name": "Großglockner",
     "elevation_m": 3798,
     "wikidata": "Q3388"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "bar",
+     "de": "Bairisch",
+     "en": "Austro-Bavarian German"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -1136,12 +1245,13 @@
    "currencies": [
     {
      "code": "AUD",
-     "name": "Australian dollar",
+     "name": "Australischer Dollar",
+     "name_en": "Australian dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".au"
@@ -1159,7 +1269,14 @@
     "name": "Mawson Peak",
     "elevation_m": 2745,
     "wikidata": "Q2114101"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -1218,13 +1335,14 @@
    "currencies": [
     {
      "code": "AWG",
-     "name": "Aruban florin",
+     "name": "Aruba-Florin",
+     "name_en": "Aruban florin",
      "symbol": "ƒ"
     }
    ],
    "languages": [
-    "Dutch",
-    "Papiamento"
+    "Niederländisch",
+    "Papiamentu"
    ],
    "tld": [
     ".aw"
@@ -1242,7 +1360,19 @@
     "name": "Jamanota",
     "elevation_m": 188,
     "wikidata": "Q594885"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "nld",
+     "de": "Niederländisch",
+     "en": "Dutch"
+    },
+    {
+     "code": "pap",
+     "de": "Papiamentu",
+     "en": "Papiamento"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -1307,11 +1437,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Swedish"
+    "Schwedisch"
    ],
    "tld": [
     ".ax"
@@ -1329,7 +1460,14 @@
     "name": "Orrdalsklint",
     "elevation_m": 127,
     "wikidata": "Q2031587"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "swe",
+     "de": "Schwedisch",
+     "en": "Swedish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -1392,13 +1530,14 @@
    "currencies": [
     {
      "code": "AZN",
-     "name": "Azerbaijani manat",
+     "name": "Aserbaidschan-Manat",
+     "name_en": "Azerbaijani manat",
      "symbol": "₼"
     }
    ],
    "languages": [
-    "Azerbaijani",
-    "Russian"
+    "Aserbaidschanisch",
+    "Russisch"
    ],
    "tld": [
     ".az"
@@ -1422,7 +1561,19 @@
     "name": "Bazardüzü",
     "elevation_m": 2706,
     "wikidata": "Q725591"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "aze",
+     "de": "Aserbaidschanisch",
+     "en": "Azerbaijani"
+    },
+    {
+     "code": "rus",
+     "de": "Russisch",
+     "en": "Russian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -1484,14 +1635,15 @@
    "currencies": [
     {
      "code": "BAM",
-     "name": "Bosnia and Herzegovina convertible mark",
+     "name": "konvertible Mark",
+     "name_en": "Bosnia and Herzegovina convertible mark",
      "symbol": "KM"
     }
    ],
    "languages": [
-    "Bosnian",
-    "Croatian",
-    "Serbian"
+    "Bosnisch",
+    "Kroatisch",
+    "Serbisch"
    ],
    "tld": [
     ".ba"
@@ -1513,7 +1665,24 @@
     "name": "Maglić",
     "elevation_m": 2386,
     "wikidata": "Q837723"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "bos",
+     "de": "Bosnisch",
+     "en": "Bosnian"
+    },
+    {
+     "code": "hrv",
+     "de": "Kroatisch",
+     "en": "Croatian"
+    },
+    {
+     "code": "srp",
+     "de": "Serbisch",
+     "en": "Serbian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -1572,12 +1741,13 @@
    "currencies": [
     {
      "code": "BBD",
-     "name": "Barbadian dollar",
+     "name": "Barbados-Dollar",
+     "name_en": "Barbadian dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".bb"
@@ -1595,7 +1765,14 @@
     "name": "Mount Hillaby",
     "elevation_m": 340,
     "wikidata": "Q1854502"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -1658,12 +1835,13 @@
    "currencies": [
     {
      "code": "BDT",
-     "name": "Bangladeshi taka",
+     "name": "Taka",
+     "name_en": "Bangladeshi taka",
      "symbol": "৳"
     }
    ],
    "languages": [
-    "Bengali"
+    "Bengalisch"
    ],
    "tld": [
     ".bd"
@@ -1684,7 +1862,14 @@
     "name": "Mowdok Mual",
     "elevation_m": 1054,
     "wikidata": "Q2696459"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ben",
+     "de": "Bengalisch",
+     "en": "Bengali"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -1752,13 +1937,14 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "German",
-    "French",
-    "Dutch"
+    "Deutsch",
+    "Französisch",
+    "Niederländisch"
    ],
    "tld": [
     ".be"
@@ -1781,7 +1967,24 @@
     "name": "Botrange",
     "elevation_m": 694.24,
     "wikidata": "Q322824"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "deu",
+     "de": "Deutsch",
+     "en": "German"
+    },
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    },
+    {
+     "code": "nld",
+     "de": "Niederländisch",
+     "en": "Dutch"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -1840,12 +2043,13 @@
    "currencies": [
     {
      "code": "XOF",
-     "name": "West African CFA franc",
+     "name": "CFA-Franc BCEAO",
+     "name_en": "West African CFA franc",
      "symbol": "Fr"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".bf"
@@ -1870,7 +2074,14 @@
     "name": "Tena Kourou",
     "elevation_m": 749,
     "wikidata": "Q116675"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -1934,11 +2145,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Bulgarian"
+    "Bulgarisch"
    ],
    "tld": [
     ".bg"
@@ -1962,7 +2174,14 @@
     "name": "Musala",
     "elevation_m": 2925.4,
     "wikidata": "Q209341"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "bul",
+     "de": "Bulgarisch",
+     "en": "Bulgarian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -2024,12 +2243,13 @@
    "currencies": [
     {
      "code": "BHD",
-     "name": "Bahraini dinar",
+     "name": "Bahrain-Dinar",
+     "name_en": "Bahraini dinar",
      "symbol": ".د.ب"
     }
    ],
    "languages": [
-    "Arabic"
+    "Arabisch"
    ],
    "tld": [
     ".bh"
@@ -2047,7 +2267,14 @@
     "name": "Dschabal ad-Duchan",
     "elevation_m": 134,
     "wikidata": "Q1032812"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -2110,12 +2337,13 @@
    "currencies": [
     {
      "code": "BIF",
-     "name": "Burundian franc",
+     "name": "Burundi-Franc",
+     "name_en": "Burundian franc",
      "symbol": "Fr"
     }
    ],
    "languages": [
-    "French",
+    "Französisch",
     "Kirundi"
    ],
    "tld": [
@@ -2138,7 +2366,19 @@
     "name": "Mont Heha",
     "elevation_m": 2684,
     "wikidata": "Q1649074"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    },
+    {
+     "code": "run",
+     "de": "Kirundi",
+     "en": "Kirundi"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -2200,12 +2440,13 @@
    "currencies": [
     {
      "code": "XOF",
-     "name": "West African CFA franc",
+     "name": "CFA-Franc BCEAO",
+     "name_en": "West African CFA franc",
      "symbol": "Fr"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".bj"
@@ -2228,7 +2469,14 @@
     "name": "Mont Sokbaro",
     "elevation_m": 658,
     "wikidata": "Q923330"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -2293,11 +2541,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".bl"
@@ -2315,7 +2564,14 @@
     "name": "Morne du Vitet",
     "elevation_m": 286,
     "wikidata": "Q3055081"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -2377,12 +2633,13 @@
    "currencies": [
     {
      "code": "BMD",
-     "name": "Bermudian dollar",
+     "name": "Bermuda-Dollar",
+     "name_en": "Bermudian dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".bm"
@@ -2395,7 +2652,14 @@
    "emoji": "🇧🇲",
    "capital": "city:BM-hamilton",
    "wikidata": "Q23635",
-   "population": 65024
+   "population": 65024,
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -2454,17 +2718,19 @@
    "currencies": [
     {
      "code": "BND",
-     "name": "Brunei dollar",
+     "name": "Brunei-Dollar",
+     "name_en": "Brunei dollar",
      "symbol": "$"
     },
     {
      "code": "SGD",
-     "name": "Singapore dollar",
+     "name": "Singapur-Dollar",
+     "name_en": "Singapore dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "Malay"
+    "Malaiisch"
    ],
    "tld": [
     ".bn"
@@ -2484,7 +2750,14 @@
     "name": "Bukit Pagon",
     "elevation_m": 1850,
     "wikidata": "Q1003282"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "msa",
+     "de": "Malaiisch",
+     "en": "Malay"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -2553,7 +2826,8 @@
    "currencies": [
     {
      "code": "BOB",
-     "name": "Bolivian boliviano",
+     "name": "Boliviano",
+     "name_en": "Bolivian boliviano",
      "symbol": "Bs."
     }
    ],
@@ -2561,7 +2835,7 @@
     "Aymara",
     "Guaraní",
     "Quechua",
-    "Spanish"
+    "Spanisch"
    ],
    "tld": [
     ".bo"
@@ -2585,7 +2859,29 @@
     "name": "Sajama",
     "elevation_m": 6542,
     "wikidata": "Q272593"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "aym",
+     "de": "Aymara",
+     "en": "Aymara"
+    },
+    {
+     "code": "grn",
+     "de": "Guaraní",
+     "en": "Guaraní"
+    },
+    {
+     "code": "que",
+     "de": "Quechua",
+     "en": "Quechua"
+    },
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -2649,14 +2945,15 @@
    "currencies": [
     {
      "code": "USD",
-     "name": "United States dollar",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English",
-    "Dutch",
-    "Papiamento"
+    "Englisch",
+    "Niederländisch",
+    "Papiamentu"
    ],
    "tld": [
     ".bq",
@@ -2675,7 +2972,24 @@
     "name": "Mount Scenery",
     "elevation_m": 870,
     "wikidata": "Q1301834"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "nld",
+     "de": "Niederländisch",
+     "en": "Dutch"
+    },
+    {
+     "code": "pap",
+     "de": "Papiamentu",
+     "en": "Papiamento"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -2739,12 +3053,13 @@
    "currencies": [
     {
      "code": "BRL",
-     "name": "Brazilian real",
+     "name": "brasilianischer Real",
+     "name_en": "Brazilian real",
      "symbol": "R$"
     }
    ],
    "languages": [
-    "Portuguese"
+    "Portugiesisch"
    ],
    "tld": [
     ".br"
@@ -2773,7 +3088,14 @@
     "name": "Pico da Neblina",
     "elevation_m": 2994,
     "wikidata": "Q739484"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "por",
+     "de": "Portugiesisch",
+     "en": "Portuguese"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -2834,17 +3156,19 @@
    "currencies": [
     {
      "code": "BSD",
-     "name": "Bahamian dollar",
+     "name": "Bahama-Dollar",
+     "name_en": "Bahamian dollar",
      "symbol": "$"
     },
     {
      "code": "USD",
-     "name": "United States dollar",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".bs"
@@ -2862,7 +3186,14 @@
     "name": "Mount Alvernia",
     "elevation_m": 63,
     "wikidata": "Q746274"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -2923,12 +3254,14 @@
    "currencies": [
     {
      "code": "BTN",
-     "name": "Bhutanese ngultrum",
+     "name": "Ngultrum",
+     "name_en": "Bhutanese ngultrum",
      "symbol": "Nu."
     },
     {
      "code": "INR",
-     "name": "Indian rupee",
+     "name": "Indische Rupie",
+     "name_en": "Indian rupee",
      "symbol": "₹"
     }
    ],
@@ -2954,7 +3287,14 @@
     "name": "Gangkhar Puensum",
     "elevation_m": 7570,
     "wikidata": "Q219986"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "dzo",
+     "de": "Dzongkha",
+     "en": "Dzongkha"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -3010,7 +3350,7 @@
    "area_km2": 49,
    "currencies": [],
    "languages": [
-    "Norwegian"
+    "Norwegisch"
    ],
    "tld": [
     ".bv"
@@ -3027,7 +3367,14 @@
     "name": "Olavtoppen",
     "elevation_m": 780,
     "wikidata": "Q618361"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "nor",
+     "de": "Norwegisch",
+     "en": "Norwegian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -3089,13 +3436,14 @@
    "currencies": [
     {
      "code": "BWP",
-     "name": "Botswana pula",
+     "name": "botswanischer Pula",
+     "name_en": "Botswana pula",
      "symbol": "P"
     }
    ],
    "languages": [
-    "English",
-    "Tswana"
+    "Englisch",
+    "Setswana"
    ],
    "tld": [
     ".bw"
@@ -3118,7 +3466,19 @@
     "name": "Otse Hill",
     "elevation_m": 1491,
     "wikidata": "Q3491942"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "tsn",
+     "de": "Setswana",
+     "en": "Tswana"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -3182,13 +3542,14 @@
    "currencies": [
     {
      "code": "BYN",
-     "name": "Belarusian ruble",
+     "name": "Belarussischer Rubel",
+     "name_en": "Belarusian ruble",
      "symbol": "Br"
     }
    ],
    "languages": [
-    "Belarusian",
-    "Russian"
+    "Belarussisch",
+    "Russisch"
    ],
    "tld": [
     ".by"
@@ -3212,7 +3573,19 @@
     "name": "Dsjarschynskaja Hara",
     "elevation_m": 345,
     "wikidata": "Q921447"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "bel",
+     "de": "Belarussisch",
+     "en": "Belarusian"
+    },
+    {
+     "code": "rus",
+     "de": "Russisch",
+     "en": "Russian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -3271,14 +3644,15 @@
    "currencies": [
     {
      "code": "BZD",
-     "name": "Belize dollar",
+     "name": "Belize-Dollar",
+     "name_en": "Belize dollar",
      "symbol": "$"
     }
    ],
    "languages": [
     "Belizean Creole",
-    "English",
-    "Spanish"
+    "Englisch",
+    "Spanisch"
    ],
    "tld": [
     ".bz"
@@ -3299,7 +3673,24 @@
     "name": "Doyle’s Delight",
     "elevation_m": 1124,
     "wikidata": "Q47490"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "bjz",
+     "de": "Belizean Creole",
+     "en": "Belizean Creole"
+    },
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -3359,13 +3750,14 @@
    "currencies": [
     {
      "code": "CAD",
-     "name": "Canadian dollar",
+     "name": "kanadischer Dollar",
+     "name_en": "Canadian dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English",
-    "French"
+    "Englisch",
+    "Französisch"
    ],
    "tld": [
     ".ca"
@@ -3385,7 +3777,19 @@
     "name": "Mount Logan",
     "elevation_m": 5959,
     "wikidata": "Q120306"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -3448,12 +3852,13 @@
    "currencies": [
     {
      "code": "AUD",
-     "name": "Australian dollar",
+     "name": "Australischer Dollar",
+     "name_en": "Australian dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".cc"
@@ -3466,7 +3871,14 @@
    "emoji": "🇨🇨",
    "capital": "city:CC-west-island",
    "wikidata": "Q36004",
-   "population": 602
+   "population": 602,
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -3527,15 +3939,16 @@
    "currencies": [
     {
      "code": "CDF",
-     "name": "Congolese franc",
+     "name": "Kongo-Franc",
+     "name_en": "Congolese franc",
      "symbol": "FC"
     }
    ],
    "languages": [
-    "French",
+    "Französisch",
     "Kikongo",
     "Lingala",
-    "Tshiluba",
+    "Tschiluba",
     "Swahili"
    ],
    "tld": [
@@ -3564,7 +3977,34 @@
     "name": "Mount Stanley",
     "elevation_m": 5109,
     "wikidata": "Q221666"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    },
+    {
+     "code": "kon",
+     "de": "Kikongo",
+     "en": "Kikongo"
+    },
+    {
+     "code": "lin",
+     "de": "Lingala",
+     "en": "Lingala"
+    },
+    {
+     "code": "lua",
+     "de": "Tschiluba",
+     "en": "Tshiluba"
+    },
+    {
+     "code": "swa",
+     "de": "Swahili",
+     "en": "Swahili"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -3625,12 +4065,13 @@
    "currencies": [
     {
      "code": "XAF",
-     "name": "Central African CFA franc",
+     "name": "CFA-Franc BEAC",
+     "name_en": "Central African CFA franc",
      "symbol": "Fr"
     }
    ],
    "languages": [
-    "French",
+    "Französisch",
     "Sango"
    ],
    "tld": [
@@ -3656,7 +4097,19 @@
     "name": "Ngaoui",
     "elevation_m": 1410,
     "wikidata": "Q2422162"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    },
+    {
+     "code": "sag",
+     "de": "Sango",
+     "en": "Sango"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -3719,12 +4172,13 @@
    "currencies": [
     {
      "code": "XAF",
-     "name": "Central African CFA franc",
+     "name": "CFA-Franc BEAC",
+     "name_en": "Central African CFA franc",
      "symbol": "Fr"
     }
    ],
    "languages": [
-    "French",
+    "Französisch",
     "Kikongo",
     "Lingala"
    ],
@@ -3750,7 +4204,24 @@
     "name": "Mont Nabebe",
     "elevation_m": 1020,
     "wikidata": "Q3113296"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    },
+    {
+     "code": "kon",
+     "de": "Kikongo",
+     "en": "Kikongo"
+    },
+    {
+     "code": "lin",
+     "de": "Lingala",
+     "en": "Lingala"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -3815,15 +4286,16 @@
    "currencies": [
     {
      "code": "CHF",
-     "name": "Swiss franc",
+     "name": "Schweizer Franken",
+     "name_en": "Swiss franc",
      "symbol": "Fr."
     }
    ],
    "languages": [
-    "French",
-    "Swiss German",
-    "Italian",
-    "Romansh"
+    "Französisch",
+    "Alemannisch",
+    "Italienisch",
+    "Bündnerromanisch"
    ],
    "tld": [
     ".ch"
@@ -3847,7 +4319,29 @@
     "name": "Dufourspitze",
     "elevation_m": 4634,
     "wikidata": "Q3403"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    },
+    {
+     "code": "gsw",
+     "de": "Alemannisch",
+     "en": "Swiss German"
+    },
+    {
+     "code": "ita",
+     "de": "Italienisch",
+     "en": "Italian"
+    },
+    {
+     "code": "roh",
+     "de": "Bündnerromanisch",
+     "en": "Romansh"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -3911,12 +4405,13 @@
    "currencies": [
     {
      "code": "XOF",
-     "name": "West African CFA franc",
+     "name": "CFA-Franc BCEAO",
+     "name_en": "West African CFA franc",
      "symbol": "Fr"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".ci"
@@ -3940,7 +4435,14 @@
     "name": "Mont Nimba",
     "elevation_m": 1752,
     "wikidata": "Q849129"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -4002,17 +4504,19 @@
     {
      "code": "CKD",
      "name": "Cook Islands dollar",
+     "name_en": "Cook Islands dollar",
      "symbol": "$"
     },
     {
      "code": "NZD",
-     "name": "New Zealand dollar",
+     "name": "Neuseeland-Dollar",
+     "name_en": "New Zealand dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English",
-    "Cook Islands Māori"
+    "Englisch",
+    "Rarotonganisch"
    ],
    "tld": [
     ".ck"
@@ -4030,7 +4534,19 @@
     "name": "Te Manga",
     "elevation_m": 652,
     "wikidata": "Q498069"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "rar",
+     "de": "Rarotonganisch",
+     "en": "Cook Islands Māori"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -4092,12 +4608,13 @@
    "currencies": [
     {
      "code": "CLP",
-     "name": "Chilean peso",
+     "name": "chilenischer Peso",
+     "name_en": "Chilean peso",
      "symbol": "$"
     }
    ],
    "languages": [
-    "Spanish"
+    "Spanisch"
    ],
    "tld": [
     ".cl"
@@ -4119,7 +4636,14 @@
     "name": "Nevado Ojos del Salado",
     "elevation_m": 6893,
     "wikidata": "Q233836"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -4182,13 +4706,14 @@
    "currencies": [
     {
      "code": "XAF",
-     "name": "Central African CFA franc",
+     "name": "CFA-Franc BEAC",
+     "name_en": "Central African CFA franc",
      "symbol": "Fr"
     }
    ],
    "languages": [
-    "English",
-    "French"
+    "Englisch",
+    "Französisch"
    ],
    "tld": [
     ".cm"
@@ -4213,7 +4738,19 @@
     "name": "Kamerunberg",
     "elevation_m": 4095,
     "wikidata": "Q190562"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -4279,12 +4816,13 @@
    "currencies": [
     {
      "code": "CNY",
-     "name": "Chinese yuan",
+     "name": "Renminbi",
+     "name_en": "Chinese yuan",
      "symbol": "¥"
     }
    ],
    "languages": [
-    "Chinese"
+    "Chinesisch"
    ],
    "tld": [
     ".cn",
@@ -4323,7 +4861,14 @@
     "name": "Mount Everest",
     "elevation_m": 8848.86,
     "wikidata": "Q513"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "zho",
+     "de": "Chinesisch",
+     "en": "Chinese"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -4386,12 +4931,13 @@
    "currencies": [
     {
      "code": "COP",
-     "name": "Colombian peso",
+     "name": "kolumbianischer Peso",
+     "name_en": "Colombian peso",
      "symbol": "$"
     }
    ],
    "languages": [
-    "Spanish"
+    "Spanisch"
    ],
    "tld": [
     ".co"
@@ -4415,7 +4961,14 @@
     "name": "Pico Simón Bolívar",
     "elevation_m": 5775,
     "wikidata": "Q338790"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -4477,12 +5030,13 @@
    "currencies": [
     {
      "code": "CRC",
-     "name": "Costa Rican colón",
+     "name": "Costa-Rica-Colón",
+     "name_en": "Costa Rican colón",
      "symbol": "₡"
     }
    ],
    "languages": [
-    "Spanish"
+    "Spanisch"
    ],
    "tld": [
     ".cr"
@@ -4503,7 +5057,14 @@
     "name": "Cerro Chirripó",
     "elevation_m": 3820,
     "wikidata": "Q252362"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -4567,16 +5128,18 @@
     {
      "code": "CUC",
      "name": "Cuban convertible peso",
+     "name_en": "Cuban convertible peso",
      "symbol": "$"
     },
     {
      "code": "CUP",
-     "name": "Cuban peso",
+     "name": "kubanischer Peso",
+     "name_en": "Cuban peso",
      "symbol": "$"
     }
    ],
    "languages": [
-    "Spanish"
+    "Spanisch"
    ],
    "tld": [
     ".cu"
@@ -4594,7 +5157,14 @@
     "name": "Pico Turquino",
     "elevation_m": 1974,
     "wikidata": "Q1145743"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -4657,12 +5227,13 @@
    "currencies": [
     {
      "code": "CVE",
-     "name": "Cape Verdean escudo",
+     "name": "Kap-Verde-Escudo",
+     "name_en": "Cape Verdean escudo",
      "symbol": "Esc"
     }
    ],
    "languages": [
-    "Portuguese"
+    "Portugiesisch"
    ],
    "tld": [
     ".cv"
@@ -4680,7 +5251,14 @@
     "name": "Pico do Fogo",
     "elevation_m": 2829,
     "wikidata": "Q499108"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "por",
+     "de": "Portugiesisch",
+     "en": "Portuguese"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -4744,14 +5322,15 @@
    "currencies": [
     {
      "code": "ANG",
-     "name": "Netherlands Antillean guilder",
+     "name": "Antillen-Gulden",
+     "name_en": "Netherlands Antillean guilder",
      "symbol": "ƒ"
     }
    ],
    "languages": [
-    "English",
-    "Dutch",
-    "Papiamento"
+    "Englisch",
+    "Niederländisch",
+    "Papiamentu"
    ],
    "tld": [
     ".cw"
@@ -4764,7 +5343,24 @@
    "emoji": "🇨🇼",
    "capital": "city:CW-willemstad",
    "wikidata": "Q25279",
-   "population": 152849
+   "population": 152849,
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "nld",
+     "de": "Niederländisch",
+     "en": "Dutch"
+    },
+    {
+     "code": "pap",
+     "de": "Papiamentu",
+     "en": "Papiamento"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -4820,12 +5416,13 @@
    "currencies": [
     {
      "code": "AUD",
-     "name": "Australian dollar",
+     "name": "Australischer Dollar",
+     "name_en": "Australian dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".cx"
@@ -4843,7 +5440,14 @@
     "name": "Murray Hill",
     "elevation_m": 361,
     "wikidata": "Q524471"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -4910,12 +5514,13 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Greek",
-    "Turkish"
+    "Neugriechisch",
+    "Türkisch"
    ],
    "tld": [
     ".cy"
@@ -4933,7 +5538,19 @@
     "name": "Olympos",
     "elevation_m": 1952,
     "wikidata": "Q819979"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ell",
+     "de": "Neugriechisch",
+     "en": "Greek"
+    },
+    {
+     "code": "tur",
+     "de": "Türkisch",
+     "en": "Turkish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -5012,13 +5629,14 @@
    "currencies": [
     {
      "code": "CZK",
-     "name": "Czech koruna",
+     "name": "tschechische Krone",
+     "name_en": "Czech koruna",
      "symbol": "Kč"
     }
    ],
    "languages": [
-    "Czech",
-    "Slovak"
+    "Tschechisch",
+    "Slowakisch"
    ],
    "tld": [
     ".cz"
@@ -5041,7 +5659,19 @@
     "name": "Schneekoppe",
     "elevation_m": 1603.3,
     "wikidata": "Q617511"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ces",
+     "de": "Tschechisch",
+     "en": "Czech"
+    },
+    {
+     "code": "slk",
+     "de": "Slowakisch",
+     "en": "Slovak"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -5104,11 +5734,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "German"
+    "Deutsch"
    ],
    "tld": [
     ".de"
@@ -5136,7 +5767,14 @@
     "name": "Zugspitze",
     "elevation_m": 2962.06,
     "wikidata": "Q3375"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "deu",
+     "de": "Deutsch",
+     "en": "German"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -5203,13 +5841,14 @@
    "currencies": [
     {
      "code": "DJF",
-     "name": "Djiboutian franc",
+     "name": "Dschibuti-Franc",
+     "name_en": "Djiboutian franc",
      "symbol": "Fr"
     }
    ],
    "languages": [
-    "Arabic",
-    "French"
+    "Arabisch",
+    "Französisch"
    ],
    "tld": [
     ".dj"
@@ -5231,7 +5870,19 @@
     "name": "Mousa Alli",
     "elevation_m": 2028,
     "wikidata": "Q1951029"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    },
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -5295,12 +5946,13 @@
    "currencies": [
     {
      "code": "DKK",
-     "name": "Danish krone",
+     "name": "dänische Krone",
+     "name_en": "Danish krone",
      "symbol": "kr"
     }
    ],
    "languages": [
-    "Danish"
+    "Dänisch"
    ],
    "tld": [
     ".dk"
@@ -5320,7 +5972,14 @@
     "name": "Møllehøj",
     "elevation_m": 170.86,
     "wikidata": "Q689106"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "dan",
+     "de": "Dänisch",
+     "en": "Danish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -5383,12 +6042,13 @@
    "currencies": [
     {
      "code": "XCD",
-     "name": "Eastern Caribbean dollar",
+     "name": "Ostkaribischer Dollar",
+     "name_en": "Eastern Caribbean dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".dm"
@@ -5406,7 +6066,14 @@
     "name": "Morne Diablotins",
     "elevation_m": 1447,
     "wikidata": "Q1638549"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -5466,12 +6133,13 @@
    "currencies": [
     {
      "code": "DOP",
-     "name": "Dominican peso",
+     "name": "dominikanischer Peso",
+     "name_en": "Dominican peso",
      "symbol": "$"
     }
    ],
    "languages": [
-    "Spanish"
+    "Spanisch"
    ],
    "tld": [
     ".do"
@@ -5491,7 +6159,14 @@
     "name": "Pico Duarte",
     "elevation_m": 3101,
     "wikidata": "Q783742"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -5555,12 +6230,13 @@
    "currencies": [
     {
      "code": "DZD",
-     "name": "Algerian dinar",
+     "name": "algerischer Dinar",
+     "name_en": "Algerian dinar",
      "symbol": "د.ج"
     }
    ],
    "languages": [
-    "Arabic"
+    "Arabisch"
    ],
    "tld": [
     ".dz",
@@ -5587,7 +6263,14 @@
     "name": "Tahat",
     "elevation_m": 2908,
     "wikidata": "Q822326"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -5649,12 +6332,13 @@
    "currencies": [
     {
      "code": "USD",
-     "name": "United States dollar",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "Spanish"
+    "Spanisch"
    ],
    "tld": [
     ".ec"
@@ -5675,7 +6359,14 @@
     "name": "Chimborazo",
     "elevation_m": 6263.47,
     "wikidata": "Q14081"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -5740,11 +6431,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Estonian"
+    "Estnisch"
    ],
    "tld": [
     ".ee"
@@ -5765,7 +6457,14 @@
     "name": "Suur Munamägi",
     "elevation_m": 317.4,
     "wikidata": "Q504991"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "est",
+     "de": "Estnisch",
+     "en": "Estonian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -5827,12 +6526,13 @@
    "currencies": [
     {
      "code": "EGP",
-     "name": "Egyptian pound",
+     "name": "ägyptisches Pfund",
+     "name_en": "Egyptian pound",
      "symbol": "£"
     }
    ],
    "languages": [
-    "Arabic"
+    "Arabisch"
    ],
    "tld": [
     ".eg",
@@ -5856,7 +6556,14 @@
     "name": "Dschabal Katrin",
     "elevation_m": 2629,
     "wikidata": "Q1140642"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -5919,24 +6626,27 @@
    "currencies": [
     {
      "code": "DZD",
-     "name": "Algerian dinar",
+     "name": "algerischer Dinar",
+     "name_en": "Algerian dinar",
      "symbol": "دج"
     },
     {
      "code": "MAD",
-     "name": "Moroccan dirham",
+     "name": "Marokkanischer Dirham",
+     "name_en": "Moroccan dirham",
      "symbol": "DH"
     },
     {
      "code": "MRU",
-     "name": "Mauritanian ouguiya",
+     "name": "Ouguiya",
+     "name_en": "Mauritanian ouguiya",
      "symbol": "UM"
     }
    ],
    "languages": [
     "Berber",
-    "Hassaniya",
-    "Spanish"
+    "Hassania",
+    "Spanisch"
    ],
    "tld": [
     ".eh"
@@ -5953,7 +6663,24 @@
    "emoji": "🇪🇭",
    "capital": "city:EH-el-aaiun",
    "wikidata": "Q6250",
-   "population": 612000
+   "population": 612000,
+   "languages_detail": [
+    {
+     "code": "ber",
+     "de": "Berber",
+     "en": "Berber"
+    },
+    {
+     "code": "mey",
+     "de": "Hassania",
+     "en": "Hassaniya"
+    },
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -6013,13 +6740,14 @@
    "currencies": [
     {
      "code": "ERN",
-     "name": "Eritrean nakfa",
+     "name": "eritreischer Nakfa",
+     "name_en": "Eritrean nakfa",
      "symbol": "Nfk"
     }
    ],
    "languages": [
-    "Arabic",
-    "English",
+    "Arabisch",
+    "Englisch",
     "Tigrinya"
    ],
    "tld": [
@@ -6042,7 +6770,24 @@
     "name": "Soira",
     "elevation_m": 3013,
     "wikidata": "Q1753730"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    },
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "tir",
+     "de": "Tigrinya",
+     "en": "Tigrinya"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -6106,11 +6851,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Spanish"
+    "Spanisch"
    ],
    "tld": [
     ".es"
@@ -6134,7 +6880,14 @@
     "name": "Teide",
     "elevation_m": 3715,
     "wikidata": "Q38954"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -6198,12 +6951,13 @@
    "currencies": [
     {
      "code": "ETB",
-     "name": "Ethiopian birr",
+     "name": "Äthiopischer Birr",
+     "name_en": "Ethiopian birr",
      "symbol": "Br"
     }
    ],
    "languages": [
-    "Amharic"
+    "Amharisch"
    ],
    "tld": [
     ".et"
@@ -6228,7 +6982,14 @@
     "name": "Ras Daschän",
     "elevation_m": 4533,
     "wikidata": "Q275435"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "amh",
+     "de": "Amharisch",
+     "en": "Amharic"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -6322,12 +7083,13 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Finnish",
-    "Swedish"
+    "Finnisch",
+    "Schwedisch"
    ],
    "tld": [
     ".fi"
@@ -6349,7 +7111,19 @@
     "name": "Haltitunturi",
     "elevation_m": 1361.4,
     "wikidata": "Q216035"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fin",
+     "de": "Finnisch",
+     "en": "Finnish"
+    },
+    {
+     "code": "swe",
+     "de": "Schwedisch",
+     "en": "Swedish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -6414,14 +7188,15 @@
    "currencies": [
     {
      "code": "FJD",
-     "name": "Fijian dollar",
+     "name": "Fidschi-Dollar",
+     "name_en": "Fijian dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English",
-    "Fijian",
-    "Fiji Hindi"
+    "Englisch",
+    "Fidschi",
+    "Fidschi-Hindi"
    ],
    "tld": [
     ".fj"
@@ -6439,7 +7214,24 @@
     "name": "Tomanivi",
     "elevation_m": 1324,
     "wikidata": "Q1513944"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "fij",
+     "de": "Fidschi",
+     "en": "Fijian"
+    },
+    {
+     "code": "hif",
+     "de": "Fidschi-Hindi",
+     "en": "Fiji Hindi"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -6501,12 +7293,13 @@
    "currencies": [
     {
      "code": "FKP",
-     "name": "Falkland Islands pound",
+     "name": "Falkland-Pfund",
+     "name_en": "Falkland Islands pound",
      "symbol": "£"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".fk"
@@ -6524,7 +7317,14 @@
     "name": "Mount Usborne",
     "elevation_m": 705,
     "wikidata": "Q1064229"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -6586,7 +7386,7 @@
    "area_km2": 702,
    "currencies": [],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".fm"
@@ -6604,7 +7404,14 @@
     "name": "Dolohmwar",
     "elevation_m": 791,
     "wikidata": "Q1236265"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -6668,18 +7475,20 @@
    "currencies": [
     {
      "code": "DKK",
-     "name": "Danish krone",
+     "name": "dänische Krone",
+     "name_en": "Danish krone",
      "symbol": "kr"
     },
     {
      "code": "FOK",
      "name": "Faroese króna",
+     "name_en": "Faroese króna",
      "symbol": "kr"
     }
    ],
    "languages": [
-    "Danish",
-    "Faroese"
+    "Dänisch",
+    "Färöisch"
    ],
    "tld": [
     ".fo"
@@ -6697,7 +7506,19 @@
     "name": "Slættaratindur",
     "elevation_m": 880,
     "wikidata": "Q738746"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "dan",
+     "de": "Dänisch",
+     "en": "Danish"
+    },
+    {
+     "code": "fao",
+     "de": "Färöisch",
+     "en": "Faroese"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -6761,11 +7582,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".fr"
@@ -6792,7 +7614,14 @@
     "name": "Mont Blanc",
     "elevation_m": 4805.59,
     "wikidata": "Q583"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -6855,12 +7684,13 @@
    "currencies": [
     {
      "code": "XAF",
-     "name": "Central African CFA franc",
+     "name": "CFA-Franc BEAC",
+     "name_en": "Central African CFA franc",
      "symbol": "Fr"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".ga"
@@ -6882,7 +7712,14 @@
     "name": "Mont Bengoué",
     "elevation_m": 1070,
     "wikidata": "Q3210770"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -6946,12 +7783,13 @@
    "currencies": [
     {
      "code": "GBP",
-     "name": "British pound",
+     "name": "Wirtschaft des Vereinigten Königreichs",
+     "name_en": "British pound",
      "symbol": "£"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".uk"
@@ -6971,7 +7809,14 @@
     "name": "Ben Nevis",
     "elevation_m": 1344.527,
     "wikidata": "Q104674"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -7030,12 +7875,13 @@
    "currencies": [
     {
      "code": "XCD",
-     "name": "Eastern Caribbean dollar",
+     "name": "Ostkaribischer Dollar",
+     "name_en": "Eastern Caribbean dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".gd"
@@ -7053,7 +7899,14 @@
     "name": "Mount Saint Catherine",
     "elevation_m": 840,
     "wikidata": "Q525281"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -7114,12 +7967,13 @@
    "currencies": [
     {
      "code": "GEL",
-     "name": "lari",
+     "name": "georgischer Lari",
+     "name_en": "lari",
      "symbol": "₾"
     }
    ],
    "languages": [
-    "Georgian"
+    "Georgisch"
    ],
    "tld": [
     ".ge"
@@ -7142,7 +7996,14 @@
     "name": "Schchara",
     "elevation_m": 5193.2,
     "wikidata": "Q217457"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "kat",
+     "de": "Georgisch",
+     "en": "Georgian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -7204,11 +8065,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".gf"
@@ -7229,7 +8091,14 @@
     "name": "Bellevue de l’Inini",
     "elevation_m": 831,
     "wikidata": "Q2550799"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -7291,19 +8160,21 @@
    "currencies": [
     {
      "code": "GBP",
-     "name": "British pound",
+     "name": "Wirtschaft des Vereinigten Königreichs",
+     "name_en": "British pound",
      "symbol": "£"
     },
     {
      "code": "GGP",
      "name": "Guernsey pound",
+     "name_en": "Guernsey pound",
      "symbol": "£"
     }
    ],
    "languages": [
-    "English",
-    "French",
-    "Guernésiais"
+    "Englisch",
+    "Französisch",
+    "Nafaanra"
    ],
    "tld": [
     ".gg"
@@ -7321,7 +8192,24 @@
     "name": "Le Moulin",
     "elevation_m": 109,
     "wikidata": "Q3224807"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    },
+    {
+     "code": "nfr",
+     "de": "Nafaanra",
+     "en": "Guernésiais"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -7382,12 +8270,13 @@
    "currencies": [
     {
      "code": "GHS",
-     "name": "Ghanaian cedi",
+     "name": "Cedi",
+     "name_en": "Ghanaian cedi",
      "symbol": "₵"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".gh"
@@ -7409,7 +8298,14 @@
     "name": "Afadjato",
     "elevation_m": 885,
     "wikidata": "Q635179"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -7467,12 +8363,13 @@
    "currencies": [
     {
      "code": "GIP",
-     "name": "Gibraltar pound",
+     "name": "Gibraltar-Pfund",
+     "name_en": "Gibraltar pound",
      "symbol": "£"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".gi"
@@ -7487,7 +8384,14 @@
    "emoji": "🇬🇮",
    "capital": "city:GI-gibraltar",
    "wikidata": "Q1410",
-   "population": 34003
+   "population": 34003,
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -7543,12 +8447,13 @@
    "currencies": [
     {
      "code": "DKK",
-     "name": "krone",
+     "name": "dänische Krone",
+     "name_en": "krone",
      "symbol": "kr."
     }
    ],
    "languages": [
-    "Greenlandic"
+    "Grönländisch"
    ],
    "tld": [
     ".gl"
@@ -7566,7 +8471,14 @@
     "name": "Gunnbjørns Fjeld",
     "elevation_m": 3694,
     "wikidata": "Q825709"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "kal",
+     "de": "Grönländisch",
+     "en": "Greenlandic"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -7627,12 +8539,13 @@
    "currencies": [
     {
      "code": "GMD",
-     "name": "dalasi",
+     "name": "Dalasi",
+     "name_en": "dalasi",
      "symbol": "D"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".gm"
@@ -7647,7 +8560,14 @@
    "emoji": "🇬🇲",
    "capital": "city:GM-banjul",
    "wikidata": "Q1005",
-   "population": 2639916
+   "population": 2639916,
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -7704,12 +8624,13 @@
    "currencies": [
     {
      "code": "GNF",
-     "name": "Guinean franc",
+     "name": "Franc Guinéen",
+     "name_en": "Guinean franc",
      "symbol": "Fr"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".gn"
@@ -7734,7 +8655,14 @@
     "name": "Mont Nimba",
     "elevation_m": 1752,
     "wikidata": "Q849129"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -7794,11 +8722,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".gp"
@@ -7816,7 +8745,14 @@
     "name": "Soufrière",
     "elevation_m": 1467,
     "wikidata": "Q1149310"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -7881,14 +8817,15 @@
    "currencies": [
     {
      "code": "XAF",
-     "name": "Central African CFA franc",
+     "name": "CFA-Franc BEAC",
+     "name_en": "Central African CFA franc",
      "symbol": "Fr"
     }
    ],
    "languages": [
-    "French",
-    "Portuguese",
-    "Spanish"
+    "Französisch",
+    "Portugiesisch",
+    "Spanisch"
    ],
    "tld": [
     ".gq"
@@ -7909,7 +8846,24 @@
     "name": "Pico Basilé",
     "elevation_m": 3011,
     "wikidata": "Q1518286"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    },
+    {
+     "code": "por",
+     "de": "Portugiesisch",
+     "en": "Portuguese"
+    },
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -7974,11 +8928,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Greek"
+    "Neugriechisch"
    ],
    "tld": [
     ".gr"
@@ -8001,7 +8956,14 @@
     "name": "Berg Olymp",
     "elevation_m": 2917.727,
     "wikidata": "Q80344"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ell",
+     "de": "Neugriechisch",
+     "en": "Greek"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -8061,12 +9023,13 @@
    "currencies": [
     {
      "code": "SHP",
-     "name": "Saint Helena pound",
+     "name": "St.-Helena-Pfund",
+     "name_en": "Saint Helena pound",
      "symbol": "£"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".gs"
@@ -8084,7 +9047,14 @@
     "name": "Mount Paget",
     "elevation_m": 2934,
     "wikidata": "Q1573762"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -8145,12 +9115,13 @@
    "currencies": [
     {
      "code": "GTQ",
-     "name": "Guatemalan quetzal",
+     "name": "guatemaltekischer Quetzal",
+     "name_en": "Guatemalan quetzal",
      "symbol": "Q"
     }
    ],
    "languages": [
-    "Spanish"
+    "Spanisch"
    ],
    "tld": [
     ".gt"
@@ -8173,7 +9144,14 @@
     "name": "Tajumulco",
     "elevation_m": 4203,
     "wikidata": "Q818467"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -8233,14 +9211,15 @@
    "currencies": [
     {
      "code": "USD",
-     "name": "United States dollar",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
      "symbol": "$"
     }
    ],
    "languages": [
     "Chamorro",
-    "English",
-    "Spanish"
+    "Englisch",
+    "Spanisch"
    ],
    "tld": [
     ".gu"
@@ -8258,7 +9237,24 @@
     "name": "Mount Lamlam",
     "elevation_m": 406,
     "wikidata": "Q4380977"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "cha",
+     "de": "Chamorro",
+     "en": "Chamorro"
+    },
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -8320,13 +9316,14 @@
    "currencies": [
     {
      "code": "XOF",
-     "name": "West African CFA franc",
+     "name": "CFA-Franc BCEAO",
+     "name_en": "West African CFA franc",
      "symbol": "Fr"
     }
    ],
    "languages": [
-    "Portuguese",
-    "Upper Guinea Creole"
+    "Portugiesisch",
+    "Guineabissauisches Kreol"
    ],
    "tld": [
     ".gw"
@@ -8347,7 +9344,19 @@
     "name": "Monte Torin",
     "elevation_m": 262,
     "wikidata": "Q109837809"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "por",
+     "de": "Portugiesisch",
+     "en": "Portuguese"
+    },
+    {
+     "code": "pov",
+     "de": "Guineabissauisches Kreol",
+     "en": "Upper Guinea Creole"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -8408,12 +9417,13 @@
    "currencies": [
     {
      "code": "GYD",
-     "name": "Guyanese dollar",
+     "name": "Guyana-Dollar",
+     "name_en": "Guyanese dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".gy"
@@ -8435,7 +9445,14 @@
     "name": "Roraima-Tepui",
     "elevation_m": 2810,
     "wikidata": "Q4777"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -8497,13 +9514,14 @@
    "currencies": [
     {
      "code": "HKD",
-     "name": "Hong Kong dollar",
+     "name": "Hongkong-Dollar",
+     "name_en": "Hong Kong dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English",
-    "Chinese"
+    "Englisch",
+    "Chinesisch"
    ],
    "tld": [
     ".hk",
@@ -8524,7 +9542,19 @@
     "name": "Tai Mo Shan",
     "elevation_m": 957,
     "wikidata": "Q1481864"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "zho",
+     "de": "Chinesisch",
+     "en": "Chinese"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -8580,7 +9610,7 @@
    "area_km2": 412,
    "currencies": [],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".hm",
@@ -8597,7 +9627,14 @@
     "name": "Mawson Peak",
     "elevation_m": 2745,
     "wikidata": "Q2114101"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -8659,12 +9696,13 @@
    "currencies": [
     {
      "code": "HNL",
-     "name": "Honduran lempira",
+     "name": "Lempira",
+     "name_en": "Honduran lempira",
      "symbol": "L"
     }
    ],
    "languages": [
-    "Spanish"
+    "Spanisch"
    ],
    "tld": [
     ".hn"
@@ -8686,7 +9724,14 @@
     "name": "Cerro Las Minas",
     "elevation_m": 2849,
     "wikidata": "Q1055875"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -8751,11 +9796,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Croatian"
+    "Kroatisch"
    ],
    "tld": [
     ".hr"
@@ -8779,7 +9825,14 @@
     "name": "Dinara",
     "elevation_m": 1831,
     "wikidata": "Q3183447"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "hrv",
+     "de": "Kroatisch",
+     "en": "Croatian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -8842,13 +9895,14 @@
    "currencies": [
     {
      "code": "HTG",
-     "name": "Haitian gourde",
+     "name": "Gourde",
+     "name_en": "Haitian gourde",
      "symbol": "G"
     }
    ],
    "languages": [
-    "French",
-    "Haitian Creole"
+    "Französisch",
+    "Haitianisch-Kreolisch"
    ],
    "tld": [
     ".ht"
@@ -8868,7 +9922,19 @@
     "name": "Pic la Selle",
     "elevation_m": 2674,
     "wikidata": "Q1971319"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    },
+    {
+     "code": "hat",
+     "de": "Haitianisch-Kreolisch",
+     "en": "Haitian Creole"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -8928,12 +9994,13 @@
    "currencies": [
     {
      "code": "HUF",
-     "name": "Hungarian forint",
+     "name": "Forint",
+     "name_en": "Hungarian forint",
      "symbol": "Ft"
     }
    ],
    "languages": [
-    "Hungarian"
+    "Ungarisch"
    ],
    "tld": [
     ".hu"
@@ -8959,7 +10026,14 @@
     "name": "Kékes",
     "elevation_m": 1014,
     "wikidata": "Q747618"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "hun",
+     "de": "Ungarisch",
+     "en": "Hungarian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -9050,12 +10124,13 @@
    "currencies": [
     {
      "code": "IDR",
-     "name": "Indonesian rupiah",
+     "name": "indonesische Rupiah",
+     "name_en": "Indonesian rupiah",
      "symbol": "Rp"
     }
    ],
    "languages": [
-    "Indonesian"
+    "Indonesisch"
    ],
    "tld": [
     ".id"
@@ -9077,7 +10152,14 @@
     "name": "Carstensz-Pyramide",
     "elevation_m": 4884,
     "wikidata": "Q1045888"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ind",
+     "de": "Indonesisch",
+     "en": "Indonesian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -9142,12 +10224,13 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "English",
-    "Irish"
+    "Englisch",
+    "Irisch"
    ],
    "tld": [
     ".ie"
@@ -9167,7 +10250,19 @@
     "name": "Carrantuohill",
     "elevation_m": 1038.6,
     "wikidata": "Q503368"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "gle",
+     "de": "Irisch",
+     "en": "Irish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -9229,13 +10324,14 @@
    "currencies": [
     {
      "code": "ILS",
-     "name": "Israeli new shekel",
+     "name": "Schekel",
+     "name_en": "Israeli new shekel",
      "symbol": "₪"
     }
    ],
    "languages": [
-    "Arabic",
-    "Hebrew"
+    "Arabisch",
+    "Hebräisch"
    ],
    "tld": [
     ".il"
@@ -9259,7 +10355,19 @@
     "name": "Har Meron",
     "elevation_m": 1208,
     "wikidata": "Q540520"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    },
+    {
+     "code": "heb",
+     "de": "Hebräisch",
+     "en": "Hebrew"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -9322,17 +10430,19 @@
    "currencies": [
     {
      "code": "GBP",
-     "name": "British pound",
+     "name": "Wirtschaft des Vereinigten Königreichs",
+     "name_en": "British pound",
      "symbol": "£"
     },
     {
      "code": "IMP",
      "name": "Manx pound",
+     "name_en": "Manx pound",
      "symbol": "£"
     }
    ],
    "languages": [
-    "English",
+    "Englisch",
     "Manx"
    ],
    "tld": [
@@ -9351,7 +10461,19 @@
     "name": "Snaefell",
     "elevation_m": 621,
     "wikidata": "Q147557"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "glv",
+     "de": "Manx",
+     "en": "Manx"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -9416,12 +10538,13 @@
    "currencies": [
     {
      "code": "INR",
-     "name": "Indian rupee",
+     "name": "Indische Rupie",
+     "name_en": "Indian rupee",
      "symbol": "₹"
     }
    ],
    "languages": [
-    "English",
+    "Englisch",
     "Hindi",
     "Tamil"
    ],
@@ -9448,7 +10571,24 @@
     "name": "Kangchendzönga",
     "elevation_m": 8586,
     "wikidata": "Q82019"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "hin",
+     "de": "Hindi",
+     "en": "Hindi"
+    },
+    {
+     "code": "tam",
+     "de": "Tamil",
+     "en": "Tamil"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -9508,12 +10648,13 @@
    "currencies": [
     {
      "code": "USD",
-     "name": "United States dollar",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".io"
@@ -9526,7 +10667,14 @@
    "emoji": "🇮🇴",
    "capital": "city:IO-diego-garcia",
    "wikidata": "Q43448",
-   "population": 3000
+   "population": 3000,
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -9584,13 +10732,14 @@
    "currencies": [
     {
      "code": "IQD",
-     "name": "Iraqi dinar",
+     "name": "irakischer Dinar",
+     "name_en": "Iraqi dinar",
      "symbol": "ع.د"
     }
    ],
    "languages": [
-    "Arabic",
-    "Aramaic",
+    "Arabisch",
+    "Reichsaramäisch",
     "Sorani"
    ],
    "tld": [
@@ -9616,7 +10765,24 @@
     "name": "Cheekha Dar",
     "elevation_m": 3611,
     "wikidata": "Q1068860"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    },
+    {
+     "code": "arc",
+     "de": "Reichsaramäisch",
+     "en": "Aramaic"
+    },
+    {
+     "code": "ckb",
+     "de": "Sorani",
+     "en": "Sorani"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -9679,12 +10845,13 @@
    "currencies": [
     {
      "code": "IRR",
-     "name": "Iranian rial",
+     "name": "iranischer Rial",
+     "name_en": "Iranian rial",
      "symbol": "﷼"
     }
    ],
    "languages": [
-    "Persian (Farsi)"
+    "Persisch"
    ],
    "tld": [
     ".ir",
@@ -9711,7 +10878,14 @@
     "name": "Damavand",
     "elevation_m": 5610,
     "wikidata": "Q40758"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fas",
+     "de": "Persisch",
+     "en": "Persian (Farsi)"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -9773,12 +10947,13 @@
    "currencies": [
     {
      "code": "ISK",
-     "name": "Icelandic króna",
+     "name": "isländische Krone",
+     "name_en": "Icelandic króna",
      "symbol": "kr"
     }
    ],
    "languages": [
-    "Icelandic"
+    "Isländisch"
    ],
    "tld": [
     ".is"
@@ -9796,7 +10971,14 @@
     "name": "Hvannadalshnúkur",
     "elevation_m": 2110,
     "wikidata": "Q140084"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "isl",
+     "de": "Isländisch",
+     "en": "Icelandic"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -9860,11 +11042,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Italian"
+    "Italienisch"
    ],
    "tld": [
     ".it"
@@ -9889,7 +11072,14 @@
     "name": "Mont Blanc",
     "elevation_m": 4805.59,
     "wikidata": "Q583"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ita",
+     "de": "Italienisch",
+     "en": "Italian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -9952,19 +11142,21 @@
    "currencies": [
     {
      "code": "GBP",
-     "name": "British pound",
+     "name": "Wirtschaft des Vereinigten Königreichs",
+     "name_en": "British pound",
      "symbol": "£"
     },
     {
      "code": "JEP",
      "name": "Jersey pound",
+     "name_en": "Jersey pound",
      "symbol": "£"
     }
    ],
    "languages": [
-    "English",
-    "French",
-    "Jèrriais"
+    "Englisch",
+    "Französisch",
+    "Normannisch"
    ],
    "tld": [
     ".je"
@@ -9977,7 +11169,24 @@
    "emoji": "🇯🇪",
    "capital": "city:JE-saint-helier",
    "wikidata": "Q785",
-   "population": 103267
+   "population": 103267,
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    },
+    {
+     "code": "nrf",
+     "de": "Normannisch",
+     "en": "Jèrriais"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -10032,13 +11241,14 @@
    "currencies": [
     {
      "code": "JMD",
-     "name": "Jamaican dollar",
+     "name": "Jamaika-Dollar",
+     "name_en": "Jamaican dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English",
-    "Jamaican Patois"
+    "Englisch",
+    "Jamaikanisch-Kreolisch"
    ],
    "tld": [
     ".jm"
@@ -10056,7 +11266,19 @@
     "name": "Blue Mountain Peak",
     "elevation_m": 2256,
     "wikidata": "Q885798"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "jam",
+     "de": "Jamaikanisch-Kreolisch",
+     "en": "Jamaican Patois"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -10119,12 +11341,13 @@
    "currencies": [
     {
      "code": "JOD",
-     "name": "Jordanian dinar",
+     "name": "jordanischer Dinar",
+     "name_en": "Jordanian dinar",
      "symbol": "د.ا"
     }
    ],
    "languages": [
-    "Arabic"
+    "Arabisch"
    ],
    "tld": [
     ".jo",
@@ -10149,7 +11372,14 @@
     "name": "Dschabal Umm ad-Dami",
     "elevation_m": 1854,
     "wikidata": "Q1261902"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -10210,12 +11440,13 @@
    "currencies": [
     {
      "code": "JPY",
-     "name": "Japanese yen",
+     "name": "Yen",
+     "name_en": "Japanese yen",
      "symbol": "¥"
     }
    ],
    "languages": [
-    "Japanese"
+    "Japanisch"
    ],
    "tld": [
     ".jp",
@@ -10234,7 +11465,14 @@
     "name": "Fuji",
     "elevation_m": 3777.24,
     "wikidata": "Q39231"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "jpn",
+     "de": "Japanisch",
+     "en": "Japanese"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -10297,12 +11535,13 @@
    "currencies": [
     {
      "code": "KES",
-     "name": "Kenyan shilling",
+     "name": "Kenia-Schilling",
+     "name_en": "Kenyan shilling",
      "symbol": "Sh"
     }
    ],
    "languages": [
-    "English",
+    "Englisch",
     "Swahili"
    ],
    "tld": [
@@ -10327,7 +11566,19 @@
     "name": "Mount-Kenya-Massiv",
     "elevation_m": 5199,
     "wikidata": "Q172070"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "swa",
+     "de": "Swahili",
+     "en": "Swahili"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -10392,13 +11643,14 @@
    "currencies": [
     {
      "code": "KGS",
-     "name": "Kyrgyzstani som",
+     "name": "Som",
+     "name_en": "Kyrgyzstani som",
      "symbol": "с"
     }
    ],
    "languages": [
-    "Kyrgyz",
-    "Russian"
+    "Kirgisisch",
+    "Russisch"
    ],
    "tld": [
     ".kg"
@@ -10421,7 +11673,19 @@
     "name": "Pik Pobedy",
     "elevation_m": 7439,
     "wikidata": "Q332762"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "kir",
+     "de": "Kirgisisch",
+     "en": "Kyrgyz"
+    },
+    {
+     "code": "rus",
+     "de": "Russisch",
+     "en": "Russian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -10483,12 +11747,14 @@
    "currencies": [
     {
      "code": "KHR",
-     "name": "Cambodian riel",
+     "name": "Kambodschanischer Riel",
+     "name_en": "Cambodian riel",
      "symbol": "៛"
     },
     {
      "code": "USD",
-     "name": "United States dollar",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
      "symbol": "$"
     }
    ],
@@ -10515,7 +11781,14 @@
     "name": "Phnom Aural",
     "elevation_m": 1813,
     "wikidata": "Q539772"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "khm",
+     "de": "Khmer",
+     "en": "Khmer"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -10578,18 +11851,20 @@
    "currencies": [
     {
      "code": "AUD",
-     "name": "Australian dollar",
+     "name": "Australischer Dollar",
+     "name_en": "Australian dollar",
      "symbol": "$"
     },
     {
      "code": "KID",
      "name": "Kiribati dollar",
+     "name_en": "Kiribati dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English",
-    "Gilbertese"
+    "Englisch",
+    "Kiribatisch"
    ],
    "tld": [
     ".ki"
@@ -10607,7 +11882,19 @@
     "name": "Banaba",
     "elevation_m": 81,
     "wikidata": "Q271901"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "gil",
+     "de": "Kiribatisch",
+     "en": "Gilbertese"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -10672,14 +11959,15 @@
    "currencies": [
     {
      "code": "KMF",
-     "name": "Comorian franc",
+     "name": "Komoren-Franc",
+     "name_en": "Comorian franc",
      "symbol": "Fr"
     }
    ],
    "languages": [
-    "Arabic",
-    "French",
-    "Comorian"
+    "Arabisch",
+    "Französisch",
+    "Ngazidja"
    ],
    "tld": [
     ".km"
@@ -10697,7 +11985,24 @@
     "name": "Karthala",
     "elevation_m": 2361,
     "wikidata": "Q527548"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    },
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    },
+    {
+     "code": "zdj",
+     "de": "Ngazidja",
+     "en": "Comorian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -10759,12 +12064,13 @@
    "currencies": [
     {
      "code": "XCD",
-     "name": "Eastern Caribbean dollar",
+     "name": "Ostkaribischer Dollar",
+     "name_en": "Eastern Caribbean dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".kn"
@@ -10782,7 +12088,14 @@
     "name": "Mount Liamuiga",
     "elevation_m": 1156,
     "wikidata": "Q1269774"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -10850,12 +12163,13 @@
    "currencies": [
     {
      "code": "KPW",
-     "name": "North Korean won",
+     "name": "nordkoreanischer Won",
+     "name_en": "North Korean won",
      "symbol": "₩"
     }
    ],
    "languages": [
-    "Korean"
+    "Koreanisch"
    ],
    "tld": [
     ".kp"
@@ -10877,7 +12191,14 @@
     "name": "Paektusan",
     "elevation_m": 2744,
     "wikidata": "Q107635"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "kor",
+     "de": "Koreanisch",
+     "en": "Korean"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -10942,12 +12263,13 @@
    "currencies": [
     {
      "code": "KRW",
-     "name": "South Korean won",
+     "name": "südkoreanischer Won",
+     "name_en": "South Korean won",
      "symbol": "₩"
     }
    ],
    "languages": [
-    "Korean"
+    "Koreanisch"
    ],
    "tld": [
     ".kr",
@@ -10968,7 +12290,14 @@
     "name": "Hallasan",
     "elevation_m": 1947.06,
     "wikidata": "Q494645"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "kor",
+     "de": "Koreanisch",
+     "en": "Korean"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -11030,12 +12359,13 @@
    "currencies": [
     {
      "code": "KWD",
-     "name": "Kuwaiti dinar",
+     "name": "Kuwait-Dinar",
+     "name_en": "Kuwaiti dinar",
      "symbol": "د.ك"
     }
    ],
    "languages": [
-    "Arabic"
+    "Arabisch"
    ],
    "tld": [
     ".kw"
@@ -11056,7 +12386,14 @@
     "name": "Mutla Ridge",
     "elevation_m": 140,
     "wikidata": "Q4116111"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -11117,12 +12454,13 @@
    "currencies": [
     {
      "code": "KYD",
-     "name": "Cayman Islands dollar",
+     "name": "Kaiman-Dollar",
+     "name_en": "Cayman Islands dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".ky"
@@ -11135,7 +12473,14 @@
    "emoji": "🇰🇾",
    "capital": "city:KY-george-town",
    "wikidata": "Q5785",
-   "population": 88833
+   "population": 88833,
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -11198,13 +12543,14 @@
    "currencies": [
     {
      "code": "KZT",
-     "name": "Kazakhstani tenge",
+     "name": "Tenge",
+     "name_en": "Kazakhstani tenge",
      "symbol": "₸"
     }
    ],
    "languages": [
-    "Kazakh",
-    "Russian"
+    "Kasachisch",
+    "Russisch"
    ],
    "tld": [
     ".kz",
@@ -11229,7 +12575,19 @@
     "name": "Khan Tengri",
     "elevation_m": 7010,
     "wikidata": "Q211529"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "kaz",
+     "de": "Kasachisch",
+     "en": "Kazakh"
+    },
+    {
+     "code": "rus",
+     "de": "Russisch",
+     "en": "Russian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -11292,12 +12650,13 @@
    "currencies": [
     {
      "code": "LAK",
-     "name": "Lao kip",
+     "name": "Kip",
+     "name_en": "Lao kip",
      "symbol": "₭"
     }
    ],
    "languages": [
-    "Lao"
+    "Laotisch"
    ],
    "tld": [
     ".la"
@@ -11321,7 +12680,14 @@
     "name": "Phu Bia",
     "elevation_m": 2819,
     "wikidata": "Q239485"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "lao",
+     "de": "Laotisch",
+     "en": "Lao"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -11384,13 +12750,14 @@
    "currencies": [
     {
      "code": "LBP",
-     "name": "Lebanese pound",
+     "name": "libanesisches Pfund",
+     "name_en": "Lebanese pound",
      "symbol": "ل.ل"
     }
    ],
    "languages": [
-    "Arabic",
-    "French"
+    "Arabisch",
+    "Französisch"
    ],
    "tld": [
     ".lb"
@@ -11411,7 +12778,19 @@
     "name": "Al-Qurnat as-Sauda",
     "elevation_m": 3088,
     "wikidata": "Q311330"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    },
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -11471,12 +12850,13 @@
    "currencies": [
     {
      "code": "XCD",
-     "name": "Eastern Caribbean dollar",
+     "name": "Ostkaribischer Dollar",
+     "name_en": "Eastern Caribbean dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".lc"
@@ -11494,7 +12874,14 @@
     "name": "Mount Gimie",
     "elevation_m": 952.4,
     "wikidata": "Q1811114"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -11555,12 +12942,13 @@
    "currencies": [
     {
      "code": "CHF",
-     "name": "Swiss franc",
+     "name": "Schweizer Franken",
+     "name_en": "Swiss franc",
      "symbol": "Fr"
     }
    ],
    "languages": [
-    "German"
+    "Deutsch"
    ],
    "tld": [
     ".li"
@@ -11581,7 +12969,14 @@
     "name": "Grauspitz",
     "elevation_m": 2599,
     "wikidata": "Q665000"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "deu",
+     "de": "Deutsch",
+     "en": "German"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -11643,12 +13038,13 @@
    "currencies": [
     {
      "code": "LKR",
-     "name": "Sri Lankan rupee",
+     "name": "Sri-Lanka-Rupie",
+     "name_en": "Sri Lankan rupee",
      "symbol": "Rs රු"
     }
    ],
    "languages": [
-    "Sinhala",
+    "Singhalesisch",
     "Tamil"
    ],
    "tld": [
@@ -11671,7 +13067,19 @@
     "name": "Pidurutalagala",
     "elevation_m": 2524,
     "wikidata": "Q1146327"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "sin",
+     "de": "Singhalesisch",
+     "en": "Sinhala"
+    },
+    {
+     "code": "tam",
+     "de": "Tamil",
+     "en": "Tamil"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -11732,12 +13140,13 @@
    "currencies": [
     {
      "code": "LRD",
-     "name": "Liberian dollar",
+     "name": "Liberianischer Dollar",
+     "name_en": "Liberian dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".lr"
@@ -11759,7 +13168,14 @@
     "name": "Mount Wuteve",
     "elevation_m": 1440,
     "wikidata": "Q1950836"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -11821,18 +13237,20 @@
    "currencies": [
     {
      "code": "LSL",
-     "name": "Lesotho loti",
+     "name": "Lesothischer Loti",
+     "name_en": "Lesotho loti",
      "symbol": "L"
     },
     {
      "code": "ZAR",
-     "name": "South African rand",
+     "name": "südafrikanischer Rand",
+     "name_en": "South African rand",
      "symbol": "R"
     }
    ],
    "languages": [
-    "English",
-    "Sotho"
+    "Englisch",
+    "Sesotho"
    ],
    "tld": [
     ".ls"
@@ -11852,7 +13270,19 @@
     "name": "Thabana Ntlenyana",
     "elevation_m": 3482,
     "wikidata": "Q733132"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "sot",
+     "de": "Sesotho",
+     "en": "Sotho"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -11916,11 +13346,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Lithuanian"
+    "Litauisch"
    ],
    "tld": [
     ".lt"
@@ -11943,7 +13374,14 @@
     "name": "Aukštojas",
     "elevation_m": 293.84,
     "wikidata": "Q771431"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "lit",
+     "de": "Litauisch",
+     "en": "Lithuanian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -12009,13 +13447,14 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "German",
-    "French",
-    "Luxembourgish"
+    "Deutsch",
+    "Französisch",
+    "Luxemburgisch"
    ],
    "tld": [
     ".lu"
@@ -12037,7 +13476,24 @@
     "name": "Kneiff",
     "elevation_m": 560,
     "wikidata": "Q24457"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "deu",
+     "de": "Deutsch",
+     "en": "German"
+    },
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    },
+    {
+     "code": "ltz",
+     "de": "Luxemburgisch",
+     "en": "Luxembourgish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -12101,11 +13557,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Latvian"
+    "Lettisch"
    ],
    "tld": [
     ".lv"
@@ -12128,7 +13585,14 @@
     "name": "Gaiziņkalns",
     "elevation_m": 311.94,
     "wikidata": "Q1122342"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "lav",
+     "de": "Lettisch",
+     "en": "Latvian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -12191,12 +13655,13 @@
    "currencies": [
     {
      "code": "LYD",
-     "name": "Libyan dinar",
+     "name": "libyscher Dinar",
+     "name_en": "Libyan dinar",
      "symbol": "ل.د"
     }
    ],
    "languages": [
-    "Arabic"
+    "Arabisch"
    ],
    "tld": [
     ".ly"
@@ -12221,7 +13686,14 @@
     "name": "Bikku Bitti",
     "elevation_m": 2267,
     "wikidata": "Q860146"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -12284,12 +13756,13 @@
    "currencies": [
     {
      "code": "MAD",
-     "name": "Moroccan dirham",
+     "name": "Marokkanischer Dirham",
+     "name_en": "Moroccan dirham",
      "symbol": "د.م."
     }
    ],
    "languages": [
-    "Arabic",
+    "Arabisch",
     "Berber"
    ],
    "tld": [
@@ -12313,7 +13786,19 @@
     "name": "Tubqal",
     "elevation_m": 4167,
     "wikidata": "Q503433"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    },
+    {
+     "code": "ber",
+     "de": "Berber",
+     "en": "Berber"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -12376,11 +13861,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".mc"
@@ -12400,7 +13886,14 @@
     "name": "Chemin des Révoires",
     "elevation_m": 162,
     "wikidata": "Q1069352"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -12464,12 +13957,13 @@
    "currencies": [
     {
      "code": "MDL",
-     "name": "Moldovan leu",
+     "name": "moldauischer Leu",
+     "name_en": "Moldovan leu",
      "symbol": "L"
     }
    ],
    "languages": [
-    "Moldavian"
+    "Rumänisch"
    ],
    "tld": [
     ".md"
@@ -12490,7 +13984,14 @@
     "name": "Dealul Bălănești",
     "elevation_m": 430,
     "wikidata": "Q47940"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ron",
+     "de": "Rumänisch",
+     "en": "Moldavian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -12551,11 +14052,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Montenegrin"
+    "Montenegrinisch"
    ],
    "tld": [
     ".me"
@@ -12579,7 +14081,14 @@
     "name": "Zla Kolata",
     "elevation_m": 2534,
     "wikidata": "Q2720697"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "cnr",
+     "de": "Montenegrinisch",
+     "en": "Montenegrin"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -12643,11 +14152,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".fr",
@@ -12668,7 +14178,14 @@
     "name": "Pic Paradis",
     "elevation_m": 424,
     "wikidata": "Q5919800"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -12732,12 +14249,13 @@
    "currencies": [
     {
      "code": "MGA",
-     "name": "Malagasy ariary",
+     "name": "Ariary",
+     "name_en": "Malagasy ariary",
      "symbol": "Ar"
     }
    ],
    "languages": [
-    "French",
+    "Französisch",
     "Malagasy"
    ],
    "tld": [
@@ -12756,7 +14274,19 @@
     "name": "Maromokotro",
     "elevation_m": 2876,
     "wikidata": "Q1147144"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    },
+    {
+     "code": "mlg",
+     "de": "Malagasy",
+     "en": "Malagasy"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -12819,13 +14349,14 @@
    "currencies": [
     {
      "code": "USD",
-     "name": "United States dollar",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English",
-    "Marshallese"
+    "Englisch",
+    "Marshallesisch"
    ],
    "tld": [
     ".mh"
@@ -12843,7 +14374,19 @@
     "name": "Likiep",
     "elevation_m": 10,
     "wikidata": "Q518353"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "mah",
+     "de": "Marshallesisch",
+     "en": "Marshallese"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -12909,12 +14452,13 @@
    "currencies": [
     {
      "code": "MKD",
-     "name": "denar",
+     "name": "mazedonischer Denar",
+     "name_en": "denar",
      "symbol": "den"
     }
    ],
    "languages": [
-    "Macedonian"
+    "Mazedonisch"
    ],
    "tld": [
     ".mk"
@@ -12938,7 +14482,14 @@
     "name": "Korab",
     "elevation_m": 2764,
     "wikidata": "Q912579"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "mkd",
+     "de": "Mazedonisch",
+     "en": "Macedonian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -13000,12 +14551,13 @@
    "currencies": [
     {
      "code": "XOF",
-     "name": "West African CFA franc",
+     "name": "CFA-Franc BCEAO",
+     "name_en": "West African CFA franc",
      "symbol": "Fr"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".ml"
@@ -13031,7 +14583,14 @@
     "name": "Hombori Tondo",
     "elevation_m": 1153,
     "wikidata": "Q1454300"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -13094,12 +14653,13 @@
    "currencies": [
     {
      "code": "MMK",
-     "name": "Burmese kyat",
+     "name": "Kyat",
+     "name_en": "Burmese kyat",
      "symbol": "Ks"
     }
    ],
    "languages": [
-    "Burmese"
+    "Birmanisch"
    ],
    "tld": [
     ".mm"
@@ -13123,7 +14683,14 @@
     "name": "Hkakabo Razi",
     "elevation_m": 5881,
     "wikidata": "Q870063"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "mya",
+     "de": "Birmanisch",
+     "en": "Burmese"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -13183,12 +14750,13 @@
    "currencies": [
     {
      "code": "MNT",
-     "name": "Mongolian tögrög",
+     "name": "Tögrög",
+     "name_en": "Mongolian tögrög",
      "symbol": "₮"
     }
    ],
    "languages": [
-    "Mongolian"
+    "Mongolisch"
    ],
    "tld": [
     ".mn"
@@ -13209,7 +14777,14 @@
     "name": "Chüiten-Gipfel",
     "elevation_m": 4374,
     "wikidata": "Q1091113"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "mon",
+     "de": "Mongolisch",
+     "en": "Mongolian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -13271,13 +14846,14 @@
    "currencies": [
     {
      "code": "MOP",
-     "name": "Macanese pataca",
+     "name": "Macao-Pataca",
+     "name_en": "Macanese pataca",
      "symbol": "P"
     }
    ],
    "languages": [
-    "Portuguese",
-    "Chinese"
+    "Portugiesisch",
+    "Chinesisch"
    ],
    "tld": [
     ".mo"
@@ -13296,7 +14872,19 @@
     "name": "Alto de Coloane",
     "elevation_m": 1706,
     "wikidata": "Q5147805"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "por",
+     "de": "Portugiesisch",
+     "en": "Portuguese"
+    },
+    {
+     "code": "zho",
+     "de": "Chinesisch",
+     "en": "Chinese"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -13359,14 +14947,15 @@
    "currencies": [
     {
      "code": "USD",
-     "name": "United States dollar",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "Carolinian",
+    "Karolinisch",
     "Chamorro",
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".mp"
@@ -13383,7 +14972,24 @@
    "highest_point": {
     "name": "Mount Agrihan",
     "wikidata": "Q27728822"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "cal",
+     "de": "Karolinisch",
+     "en": "Carolinian"
+    },
+    {
+     "code": "cha",
+     "de": "Chamorro",
+     "en": "Chamorro"
+    },
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -13442,11 +15048,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".mq"
@@ -13464,7 +15071,14 @@
     "name": "Montagne Pelée",
     "elevation_m": 1397,
     "wikidata": "Q76309"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -13527,12 +15141,13 @@
    "currencies": [
     {
      "code": "MRU",
-     "name": "Mauritanian ouguiya",
+     "name": "Ouguiya",
+     "name_en": "Mauritanian ouguiya",
      "symbol": "UM"
     }
    ],
    "languages": [
-    "Arabic"
+    "Arabisch"
    ],
    "tld": [
     ".mr"
@@ -13555,7 +15170,14 @@
     "name": "Kediet Ijill",
     "elevation_m": 915,
     "wikidata": "Q2595789"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -13614,12 +15236,13 @@
    "currencies": [
     {
      "code": "XCD",
-     "name": "Eastern Caribbean dollar",
+     "name": "Ostkaribischer Dollar",
+     "name_en": "Eastern Caribbean dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".ms"
@@ -13632,7 +15255,14 @@
    "emoji": "🇲🇸",
    "capital": "city:MS-plymouth",
    "wikidata": "Q13353",
-   "population": 5440
+   "population": 5440,
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -13690,12 +15320,13 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "English",
-    "Maltese"
+    "Englisch",
+    "Maltesisch"
    ],
    "tld": [
     ".mt"
@@ -13713,7 +15344,19 @@
     "name": "Ta’ Dmejrek",
     "elevation_m": 253,
     "wikidata": "Q1850604"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "mlt",
+     "de": "Maltesisch",
+     "en": "Maltese"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -13775,14 +15418,15 @@
    "currencies": [
     {
      "code": "MUR",
-     "name": "Mauritian rupee",
+     "name": "Mauritius-Rupie",
+     "name_en": "Mauritian rupee",
      "symbol": "₨"
     }
    ],
    "languages": [
-    "English",
-    "French",
-    "Mauritian Creole"
+    "Englisch",
+    "Französisch",
+    "Morisyen"
    ],
    "tld": [
     ".mu"
@@ -13800,7 +15444,24 @@
     "name": "Piton de la Petite Rivière Noire",
     "elevation_m": 828,
     "wikidata": "Q1760978"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    },
+    {
+     "code": "mfe",
+     "de": "Morisyen",
+     "en": "Mauritian Creole"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -13864,12 +15525,13 @@
    "currencies": [
     {
      "code": "MVR",
-     "name": "Maldivian rufiyaa",
+     "name": "Rufiyaa",
+     "name_en": "Maldivian rufiyaa",
      "symbol": ".ރ"
     }
    ],
    "languages": [
-    "Maldivian"
+    "Dhivehi"
    ],
    "tld": [
     ".mv"
@@ -13887,7 +15549,14 @@
     "name": "Villingili",
     "elevation_m": 5.1,
     "wikidata": "Q176749"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "div",
+     "de": "Dhivehi",
+     "en": "Maldivian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -13948,13 +15617,14 @@
    "currencies": [
     {
      "code": "MWK",
-     "name": "Malawian kwacha",
+     "name": "Malawi-Kwacha",
+     "name_en": "Malawian kwacha",
      "symbol": "MK"
     }
    ],
    "languages": [
-    "English",
-    "Chewa"
+    "Englisch",
+    "Chichewa"
    ],
    "tld": [
     ".mw"
@@ -13976,7 +15646,19 @@
     "name": "Mulanje Massiv",
     "elevation_m": 3002,
     "wikidata": "Q1510436"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "nya",
+     "de": "Chichewa",
+     "en": "Chewa"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -14040,12 +15722,13 @@
    "currencies": [
     {
      "code": "MXN",
-     "name": "Mexican peso",
+     "name": "Mexikanischer Peso",
+     "name_en": "Mexican peso",
      "symbol": "$"
     }
    ],
    "languages": [
-    "Spanish"
+    "Spanisch"
    ],
    "tld": [
     ".mx"
@@ -14067,7 +15750,14 @@
     "name": "Citlaltépetl",
     "elevation_m": 5636,
     "wikidata": "Q238147"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -14126,13 +15816,14 @@
    "currencies": [
     {
      "code": "MYR",
-     "name": "Malaysian ringgit",
+     "name": "Ringgit",
+     "name_en": "Malaysian ringgit",
      "symbol": "RM"
     }
    ],
    "languages": [
-    "English",
-    "Malay"
+    "Englisch",
+    "Malaiisch"
    ],
    "tld": [
     ".my"
@@ -14154,7 +15845,19 @@
     "name": "Kinabalu",
     "elevation_m": 4095,
     "wikidata": "Q60967"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "msa",
+     "de": "Malaiisch",
+     "en": "Malay"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -14217,12 +15920,13 @@
    "currencies": [
     {
      "code": "MZN",
-     "name": "Mozambican metical",
+     "name": "Metical",
+     "name_en": "Mozambican metical",
      "symbol": "MT"
     }
    ],
    "languages": [
-    "Portuguese"
+    "Portugiesisch"
    ],
    "tld": [
     ".mz"
@@ -14247,7 +15951,14 @@
     "name": "Monte Binga",
     "elevation_m": 2436,
     "wikidata": "Q1353678"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "por",
+     "de": "Portugiesisch",
+     "en": "Portuguese"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -14309,25 +16020,27 @@
    "currencies": [
     {
      "code": "NAD",
-     "name": "Namibian dollar",
+     "name": "Namibia-Dollar",
+     "name_en": "Namibian dollar",
      "symbol": "$"
     },
     {
      "code": "ZAR",
-     "name": "South African rand",
+     "name": "südafrikanischer Rand",
+     "name_en": "South African rand",
      "symbol": "R"
     }
    ],
    "languages": [
     "Afrikaans",
-    "German",
-    "English",
-    "Herero",
+    "Deutsch",
+    "Englisch",
+    "Otjiherero",
     "Khoekhoe",
-    "Kwangali",
+    "RuKwangali",
     "Lozi",
     "Ndonga",
-    "Tswana"
+    "Setswana"
    ],
    "tld": [
     ".na"
@@ -14350,7 +16063,54 @@
     "name": "Brandbergmassiv",
     "elevation_m": 2573,
     "wikidata": "Q897834"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "afr",
+     "de": "Afrikaans",
+     "en": "Afrikaans"
+    },
+    {
+     "code": "deu",
+     "de": "Deutsch",
+     "en": "German"
+    },
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "her",
+     "de": "Otjiherero",
+     "en": "Herero"
+    },
+    {
+     "code": "hgm",
+     "de": "Khoekhoe",
+     "en": "Khoekhoe"
+    },
+    {
+     "code": "kwn",
+     "de": "RuKwangali",
+     "en": "Kwangali"
+    },
+    {
+     "code": "loz",
+     "de": "Lozi",
+     "en": "Lozi"
+    },
+    {
+     "code": "ndo",
+     "de": "Ndonga",
+     "en": "Ndonga"
+    },
+    {
+     "code": "tsn",
+     "de": "Setswana",
+     "en": "Tswana"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -14410,12 +16170,13 @@
    "currencies": [
     {
      "code": "XPF",
-     "name": "CFP franc",
+     "name": "CFP-Franc",
+     "name_en": "CFP franc",
      "symbol": "₣"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".nc"
@@ -14428,7 +16189,14 @@
    "emoji": "🇳🇨",
    "capital": "city:NC-noumea",
    "wikidata": "Q33788",
-   "population": 278500
+   "population": 278500,
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -14485,12 +16253,13 @@
    "currencies": [
     {
      "code": "XOF",
-     "name": "West African CFA franc",
+     "name": "CFA-Franc BCEAO",
+     "name_en": "West African CFA franc",
      "symbol": "Fr"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".ne"
@@ -14516,7 +16285,14 @@
     "name": "Idoukal-n-Taghès",
     "elevation_m": 2022,
     "wikidata": "Q3042286"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -14579,13 +16355,14 @@
    "currencies": [
     {
      "code": "AUD",
-     "name": "Australian dollar",
+     "name": "Australischer Dollar",
+     "name_en": "Australian dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English",
-    "Norfuk"
+    "Englisch",
+    "Pitcairn-Englisch"
    ],
    "tld": [
     ".nf"
@@ -14598,7 +16375,19 @@
    "emoji": "🇳🇫",
    "capital": "city:NF-kingston",
    "wikidata": "Q31057",
-   "population": 2188
+   "population": 2188,
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "pih",
+     "de": "Pitcairn-Englisch",
+     "en": "Norfuk"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -14656,12 +16445,13 @@
    "currencies": [
     {
      "code": "NGN",
-     "name": "Nigerian naira",
+     "name": "Naira",
+     "name_en": "Nigerian naira",
      "symbol": "₦"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".ng"
@@ -14684,7 +16474,14 @@
     "name": "Chappal Waddi",
     "elevation_m": 2419,
     "wikidata": "Q976055"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -14746,12 +16543,13 @@
    "currencies": [
     {
      "code": "NIO",
-     "name": "Nicaraguan córdoba",
+     "name": "Córdoba Oro",
+     "name_en": "Nicaraguan córdoba",
      "symbol": "C$"
     }
    ],
    "languages": [
-    "Spanish"
+    "Spanisch"
    ],
    "tld": [
     ".ni"
@@ -14772,7 +16570,14 @@
     "name": "Cerro Mogotón",
     "elevation_m": 2107,
     "wikidata": "Q2092378"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -14837,11 +16642,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Dutch"
+    "Niederländisch"
    ],
    "tld": [
     ".nl"
@@ -14862,7 +16668,14 @@
     "name": "Mount Scenery",
     "elevation_m": 870,
     "wikidata": "Q1301834"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "nld",
+     "de": "Niederländisch",
+     "en": "Dutch"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -14943,13 +16756,14 @@
    "currencies": [
     {
      "code": "NOK",
-     "name": "Norwegian krone",
+     "name": "norwegische Krone",
+     "name_en": "Norwegian krone",
      "symbol": "kr"
     }
    ],
    "languages": [
-    "Norwegian Nynorsk",
-    "Norwegian Bokmål",
+    "Nynorsk",
+    "Bokmål",
     "Sami"
    ],
    "tld": [
@@ -14972,7 +16786,24 @@
     "name": "Galdhøpiggen",
     "elevation_m": 2468.854,
     "wikidata": "Q203942"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "nno",
+     "de": "Nynorsk",
+     "en": "Norwegian Nynorsk"
+    },
+    {
+     "code": "nob",
+     "de": "Bokmål",
+     "en": "Norwegian Bokmål"
+    },
+    {
+     "code": "smi",
+     "de": "Sami",
+     "en": "Sami"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -15034,7 +16865,8 @@
    "currencies": [
     {
      "code": "NPR",
-     "name": "Nepalese rupee",
+     "name": "Nepalesische Rupie",
+     "name_en": "Nepalese rupee",
      "symbol": "₨"
     }
    ],
@@ -15060,7 +16892,14 @@
     "name": "Mount Everest",
     "elevation_m": 8848.86,
     "wikidata": "Q513"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "nep",
+     "de": "Nepali",
+     "en": "Nepali"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -15124,13 +16963,14 @@
    "currencies": [
     {
      "code": "AUD",
-     "name": "Australian dollar",
+     "name": "Australischer Dollar",
+     "name_en": "Australian dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English",
-    "Nauru"
+    "Englisch",
+    "Nauruisch"
    ],
    "tld": [
     ".nr"
@@ -15148,7 +16988,19 @@
     "name": "Command Ridge",
     "elevation_m": 70,
     "wikidata": "Q2667931"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "nau",
+     "de": "Nauruisch",
+     "en": "Nauru"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -15207,13 +17059,14 @@
    "currencies": [
     {
      "code": "NZD",
-     "name": "New Zealand dollar",
+     "name": "Neuseeland-Dollar",
+     "name_en": "New Zealand dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English",
-    "Niuean"
+    "Englisch",
+    "Niueanisch"
    ],
    "tld": [
     ".nu"
@@ -15231,7 +17084,19 @@
     "name": "Niue Highest Point",
     "elevation_m": 68,
     "wikidata": "Q28745318"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "niu",
+     "de": "Niueanisch",
+     "en": "Niuean"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -15292,14 +17157,15 @@
    "currencies": [
     {
      "code": "NZD",
-     "name": "New Zealand dollar",
+     "name": "Neuseeland-Dollar",
+     "name_en": "New Zealand dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English",
+    "Englisch",
     "Māori",
-    "New Zealand Sign Language"
+    "neuseeländische Gebärdensprache"
    ],
    "tld": [
     ".nz"
@@ -15317,7 +17183,24 @@
     "name": "Mount Cook",
     "elevation_m": 3724,
     "wikidata": "Q5059"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "mri",
+     "de": "Māori",
+     "en": "Māori"
+    },
+    {
+     "code": "nzs",
+     "de": "neuseeländische Gebärdensprache",
+     "en": "New Zealand Sign Language"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -15379,12 +17262,13 @@
    "currencies": [
     {
      "code": "OMR",
-     "name": "Omani rial",
+     "name": "Omanischer Rial",
+     "name_en": "Omani rial",
      "symbol": "ر.ع."
     }
    ],
    "languages": [
-    "Arabic"
+    "Arabisch"
    ],
    "tld": [
     ".om"
@@ -15406,7 +17290,14 @@
     "name": "Dschabal Schams",
     "elevation_m": 3018,
     "wikidata": "Q1261915"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -15468,17 +17359,19 @@
    "currencies": [
     {
      "code": "PAB",
-     "name": "Panamanian balboa",
+     "name": "Panamaischer Balboa",
+     "name_en": "Panamanian balboa",
      "symbol": "B/."
     },
     {
      "code": "USD",
-     "name": "United States dollar",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "Spanish"
+    "Spanisch"
    ],
    "tld": [
     ".pa"
@@ -15499,7 +17392,14 @@
     "name": "Volcán Barú",
     "elevation_m": 3475,
     "wikidata": "Q594726"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -15561,14 +17461,15 @@
    "currencies": [
     {
      "code": "PEN",
-     "name": "Peruvian sol",
+     "name": "Nuevo Sol",
+     "name_en": "Peruvian sol",
      "symbol": "S/."
     }
    ],
    "languages": [
     "Aymara",
     "Quechua",
-    "Spanish"
+    "Spanisch"
    ],
    "tld": [
     ".pe"
@@ -15592,7 +17493,24 @@
     "name": "Huascarán",
     "elevation_m": 6768,
     "wikidata": "Q200935"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "aym",
+     "de": "Aymara",
+     "en": "Aymara"
+    },
+    {
+     "code": "que",
+     "de": "Quechua",
+     "en": "Quechua"
+    },
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -15654,12 +17572,13 @@
    "currencies": [
     {
      "code": "XPF",
-     "name": "CFP franc",
+     "name": "CFP-Franc",
+     "name_en": "CFP franc",
      "symbol": "₣"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".pf"
@@ -15677,7 +17596,14 @@
     "name": "Mont Orohena",
     "elevation_m": 2241,
     "wikidata": "Q512465"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -15740,12 +17666,13 @@
    "currencies": [
     {
      "code": "PGK",
-     "name": "Papua New Guinean kina",
+     "name": "Kina",
+     "name_en": "Papua New Guinean kina",
      "symbol": "K"
     }
    ],
    "languages": [
-    "English",
+    "Englisch",
     "Hiri Motu",
     "Tok Pisin"
    ],
@@ -15767,7 +17694,24 @@
     "name": "Mount Wilhelm",
     "elevation_m": 4509,
     "wikidata": "Q277441"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "hmo",
+     "de": "Hiri Motu",
+     "en": "Hiri Motu"
+    },
+    {
+     "code": "tpi",
+     "de": "Tok Pisin",
+     "en": "Tok Pisin"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -15830,12 +17774,13 @@
    "currencies": [
     {
      "code": "PHP",
-     "name": "Philippine peso",
+     "name": "philippinischer Peso",
+     "name_en": "Philippine peso",
      "symbol": "₱"
     }
    ],
    "languages": [
-    "English",
+    "Englisch",
     "Filipino"
    ],
    "tld": [
@@ -15854,7 +17799,19 @@
     "name": "Apo",
     "elevation_m": 2954,
     "wikidata": "Q455963"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "fil",
+     "de": "Filipino",
+     "en": "Filipino"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -15917,12 +17874,13 @@
    "currencies": [
     {
      "code": "PKR",
-     "name": "Pakistani rupee",
+     "name": "pakistanische Rupie",
+     "name_en": "Pakistani rupee",
      "symbol": "₨"
     }
    ],
    "languages": [
-    "English",
+    "Englisch",
     "Urdu"
    ],
    "tld": [
@@ -15946,7 +17904,19 @@
     "name": "K2",
     "elevation_m": 8611,
     "wikidata": "Q43512"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "urd",
+     "de": "Urdu",
+     "en": "Urdu"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -16009,12 +17979,13 @@
    "currencies": [
     {
      "code": "PLN",
-     "name": "Polish złoty",
+     "name": "Złoty",
+     "name_en": "Polish złoty",
      "symbol": "zł"
     }
    ],
    "languages": [
-    "Polish"
+    "Polnisch"
    ],
    "tld": [
     ".pl"
@@ -16040,7 +18011,14 @@
     "name": "Rysy",
     "elevation_m": 2501,
     "wikidata": "Q672936"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "pol",
+     "de": "Polnisch",
+     "en": "Polish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -16102,11 +18080,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".pm"
@@ -16124,7 +18103,14 @@
     "name": "Morne de la Grande Montagne",
     "elevation_m": 240,
     "wikidata": "Q3051597"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -16187,12 +18173,13 @@
    "currencies": [
     {
      "code": "NZD",
-     "name": "New Zealand dollar",
+     "name": "Neuseeland-Dollar",
+     "name_en": "New Zealand dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".pn"
@@ -16205,7 +18192,14 @@
    "emoji": "🇵🇳",
    "capital": "city:PN-adamstown",
    "wikidata": "Q35672",
-   "population": 50
+   "population": 50,
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -16262,13 +18256,14 @@
    "currencies": [
     {
      "code": "USD",
-     "name": "United States dollar",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English",
-    "Spanish"
+    "Englisch",
+    "Spanisch"
    ],
    "tld": [
     ".pr"
@@ -16286,7 +18281,19 @@
     "name": "Cerro de Punta",
     "elevation_m": 1338,
     "wikidata": "Q2714342"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -16350,22 +18357,25 @@
    "currencies": [
     {
      "code": "EGP",
-     "name": "Egyptian pound",
+     "name": "ägyptisches Pfund",
+     "name_en": "Egyptian pound",
      "symbol": "E£"
     },
     {
      "code": "ILS",
-     "name": "Israeli new shekel",
+     "name": "Schekel",
+     "name_en": "Israeli new shekel",
      "symbol": "₪"
     },
     {
      "code": "JOD",
-     "name": "Jordanian dinar",
+     "name": "jordanischer Dinar",
+     "name_en": "Jordanian dinar",
      "symbol": "JD"
     }
    ],
    "languages": [
-    "Arabic"
+    "Arabisch"
    ],
    "tld": [
     ".ps",
@@ -16388,7 +18398,14 @@
     "name": "Nabi Yunis",
     "elevation_m": 1026,
     "wikidata": "Q6922335"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -16452,11 +18469,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Portuguese"
+    "Portugiesisch"
    ],
    "tld": [
     ".pt"
@@ -16476,7 +18494,14 @@
     "name": "Ponta do Pico",
     "elevation_m": 2351,
     "wikidata": "Q928681"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "por",
+     "de": "Portugiesisch",
+     "en": "Portuguese"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -16538,13 +18563,14 @@
    "currencies": [
     {
      "code": "USD",
-     "name": "United States dollar",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English",
-    "Palauan"
+    "Englisch",
+    "Palauisch"
    ],
    "tld": [
     ".pw"
@@ -16562,7 +18588,19 @@
     "name": "Mount Ngerchelchuus",
     "elevation_m": 242,
     "wikidata": "Q1191219"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "pau",
+     "de": "Palauisch",
+     "en": "Palauan"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -16625,13 +18663,14 @@
    "currencies": [
     {
      "code": "PYG",
-     "name": "Paraguayan guaraní",
+     "name": "Paraguayischer Guaraní",
+     "name_en": "Paraguayan guaraní",
      "symbol": "₲"
     }
    ],
    "languages": [
     "Guaraní",
-    "Spanish"
+    "Spanisch"
    ],
    "tld": [
     ".py"
@@ -16653,7 +18692,19 @@
     "name": "Cerro Tres Kandú",
     "elevation_m": 842,
     "wikidata": "Q1055965"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "grn",
+     "de": "Guaraní",
+     "en": "Guaraní"
+    },
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -16716,12 +18767,13 @@
    "currencies": [
     {
      "code": "QAR",
-     "name": "Qatari riyal",
+     "name": "Katar-Riyal",
+     "name_en": "Qatari riyal",
      "symbol": "ر.ق"
     }
    ],
    "languages": [
-    "Arabic"
+    "Arabisch"
    ],
    "tld": [
     ".qa",
@@ -16742,7 +18794,14 @@
     "name": "Qurain Abu l-Baul",
     "elevation_m": 103,
     "wikidata": "Q1633034"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -16803,11 +18862,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".re"
@@ -16825,7 +18885,14 @@
     "name": "Piton des Neiges",
     "elevation_m": 3070,
     "wikidata": "Q1545452"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -16888,12 +18955,13 @@
    "currencies": [
     {
      "code": "RON",
-     "name": "Romanian leu",
+     "name": "rumänischer Leu",
+     "name_en": "Romanian leu",
      "symbol": "lei"
     }
    ],
    "languages": [
-    "Romanian"
+    "Rumänisch"
    ],
    "tld": [
     ".ro"
@@ -16917,7 +18985,14 @@
     "name": "Moldoveanu",
     "elevation_m": 2544,
     "wikidata": "Q746524"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ron",
+     "de": "Rumänisch",
+     "en": "Romanian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -16983,12 +19058,13 @@
    "currencies": [
     {
      "code": "RSD",
-     "name": "Serbian dinar",
+     "name": "serbischer Dinar",
+     "name_en": "Serbian dinar",
      "symbol": "дин."
     }
    ],
    "languages": [
-    "Serbian"
+    "Serbisch"
    ],
    "tld": [
     ".rs",
@@ -17016,7 +19092,14 @@
     "name": "Rudoka",
     "elevation_m": 2658,
     "wikidata": "Q20568528"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "srp",
+     "de": "Serbisch",
+     "en": "Serbian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -17079,12 +19162,13 @@
    "currencies": [
     {
      "code": "RUB",
-     "name": "Russian ruble",
+     "name": "russischer Rubel",
+     "name_en": "Russian ruble",
      "symbol": "₽"
     }
    ],
    "languages": [
-    "Russian"
+    "Russisch"
    ],
    "tld": [
     ".ru",
@@ -17119,7 +19203,14 @@
     "name": "Elbrus",
     "elevation_m": 5642,
     "wikidata": "Q43105"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "rus",
+     "de": "Russisch",
+     "en": "Russian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -17183,13 +19274,14 @@
    "currencies": [
     {
      "code": "RWF",
-     "name": "Rwandan franc",
+     "name": "Ruanda-Franc",
+     "name_en": "Rwandan franc",
      "symbol": "Fr"
     }
    ],
    "languages": [
-    "English",
-    "French",
+    "Englisch",
+    "Französisch",
     "Kinyarwanda"
    ],
    "tld": [
@@ -17213,7 +19305,24 @@
     "name": "Karisimbi",
     "elevation_m": 4507,
     "wikidata": "Q737859"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    },
+    {
+     "code": "kin",
+     "de": "Kinyarwanda",
+     "en": "Kinyarwanda"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -17277,12 +19386,13 @@
    "currencies": [
     {
      "code": "SAR",
-     "name": "Saudi riyal",
+     "name": "Saudi-Rial",
+     "name_en": "Saudi riyal",
      "symbol": "ر.س"
     }
    ],
    "languages": [
-    "Arabic"
+    "Arabisch"
    ],
    "tld": [
     ".sa",
@@ -17309,7 +19419,14 @@
     "name": "Dschabal Sauda",
     "elevation_m": 3133,
     "wikidata": "Q1261892"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -17369,12 +19486,13 @@
    "currencies": [
     {
      "code": "SBD",
-     "name": "Solomon Islands dollar",
+     "name": "Salomonen-Dollar",
+     "name_en": "Solomon Islands dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".sb"
@@ -17392,7 +19510,14 @@
     "name": "Mount Popomanaseu",
     "elevation_m": 2335,
     "wikidata": "Q760819"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -17456,14 +19581,15 @@
    "currencies": [
     {
      "code": "SCR",
-     "name": "Seychellois rupee",
+     "name": "Seychellen-Rupie",
+     "name_en": "Seychellois rupee",
      "symbol": "₨"
     }
    ],
    "languages": [
-    "Seychellois Creole",
-    "English",
-    "French"
+    "Seychellenkreol",
+    "Englisch",
+    "Französisch"
    ],
    "tld": [
     ".sc"
@@ -17481,7 +19607,24 @@
     "name": "Morne Seychellois",
     "elevation_m": 905,
     "wikidata": "Q1579060"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "crs",
+     "de": "Seychellenkreol",
+     "en": "Seychellois Creole"
+    },
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -17543,13 +19686,14 @@
    "currencies": [
     {
      "code": "SDG",
-     "name": "Sudanese pound",
+     "name": "sudanesisches Pfund",
+     "name_en": "Sudanese pound",
      "symbol": "PT"
     }
    ],
    "languages": [
-    "Arabic",
-    "English"
+    "Arabisch",
+    "Englisch"
    ],
    "tld": [
     ".sd"
@@ -17575,7 +19719,19 @@
     "name": "Deriba Caldera",
     "elevation_m": 3042,
     "wikidata": "Q2520348"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    },
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -17638,12 +19794,13 @@
    "currencies": [
     {
      "code": "SEK",
-     "name": "Swedish krona",
+     "name": "schwedische Krone",
+     "name_en": "Swedish krona",
      "symbol": "kr"
     }
    ],
    "languages": [
-    "Swedish"
+    "Schwedisch"
    ],
    "tld": [
     ".se"
@@ -17664,7 +19821,14 @@
     "name": "Kebnekaise",
     "elevation_m": 2096.8,
     "wikidata": "Q214011"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "swe",
+     "de": "Schwedisch",
+     "en": "Swedish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -17729,15 +19893,16 @@
    "currencies": [
     {
      "code": "SGD",
-     "name": "Singapore dollar",
+     "name": "Singapur-Dollar",
+     "name_en": "Singapore dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English",
-    "Malay",
+    "Englisch",
+    "Malaiisch",
     "Tamil",
-    "Chinese"
+    "Chinesisch"
    ],
    "tld": [
     ".sg",
@@ -17757,7 +19922,29 @@
     "name": "Bukit Timah",
     "elevation_m": 163.63,
     "wikidata": "Q720209"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "msa",
+     "de": "Malaiisch",
+     "en": "Malay"
+    },
+    {
+     "code": "tam",
+     "de": "Tamil",
+     "en": "Tamil"
+    },
+    {
+     "code": "zho",
+     "de": "Chinesisch",
+     "en": "Chinese"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -17819,17 +20006,19 @@
    "currencies": [
     {
      "code": "GBP",
-     "name": "Pound sterling",
+     "name": "Wirtschaft des Vereinigten Königreichs",
+     "name_en": "Pound sterling",
      "symbol": "£"
     },
     {
      "code": "SHP",
-     "name": "Saint Helena pound",
+     "name": "St.-Helena-Pfund",
+     "name_en": "Saint Helena pound",
      "symbol": "£"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".sh",
@@ -17848,7 +20037,14 @@
     "name": "Queen Mary’s Peak",
     "elevation_m": 2062,
     "wikidata": "Q2062890"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -17912,11 +20108,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Slovene"
+    "Slowenisch"
    ],
    "tld": [
     ".si"
@@ -17939,7 +20136,14 @@
     "name": "Triglav",
     "elevation_m": 2864,
     "wikidata": "Q1024"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "slv",
+     "de": "Slowenisch",
+     "en": "Slovene"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -17999,12 +20203,13 @@
    "currencies": [
     {
      "code": "NOK",
-     "name": "krone",
+     "name": "norwegische Krone",
+     "name_en": "krone",
      "symbol": "kr"
     }
    ],
    "languages": [
-    "Norwegian"
+    "Norwegisch"
    ],
    "tld": [
     ".sj"
@@ -18022,7 +20227,14 @@
     "name": "Newtontoppen",
     "elevation_m": 1713,
     "wikidata": "Q1419222"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "nor",
+     "de": "Norwegisch",
+     "en": "Norwegian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -18086,11 +20298,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Slovak"
+    "Slowakisch"
    ],
    "tld": [
     ".sk"
@@ -18114,7 +20327,14 @@
     "name": "Gerlsdorfer Spitze",
     "elevation_m": 2654.4,
     "wikidata": "Q81213"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "slk",
+     "de": "Slowakisch",
+     "en": "Slovak"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -18175,12 +20395,13 @@
    "currencies": [
     {
      "code": "SLE",
-     "name": "Sierra Leonean leone",
+     "name": "Sierra-leonischer Leone",
+     "name_en": "Sierra Leonean leone",
      "symbol": "Le"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".sl"
@@ -18201,7 +20422,14 @@
     "name": "Bintumani",
     "elevation_m": 1945,
     "wikidata": "Q769525"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -18265,11 +20493,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Italian"
+    "Italienisch"
    ],
    "tld": [
     ".sm"
@@ -18289,7 +20518,14 @@
     "name": "Titano",
     "elevation_m": 739,
     "wikidata": "Q158526"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ita",
+     "de": "Italienisch",
+     "en": "Italian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -18351,12 +20587,13 @@
    "currencies": [
     {
      "code": "XOF",
-     "name": "West African CFA franc",
+     "name": "CFA-Franc BCEAO",
+     "name_en": "West African CFA franc",
      "symbol": "Fr"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".sn"
@@ -18380,7 +20617,14 @@
     "name": "Népin Cliff",
     "elevation_m": 531,
     "wikidata": "Q98596662"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -18444,12 +20688,13 @@
    "currencies": [
     {
      "code": "SOS",
-     "name": "Somali shilling",
+     "name": "Somalia-Schilling",
+     "name_en": "Somali shilling",
      "symbol": "Sh"
     }
    ],
    "languages": [
-    "Arabic",
+    "Arabisch",
     "Somali"
    ],
    "tld": [
@@ -18472,7 +20717,19 @@
     "name": "Shimbiris",
     "elevation_m": 2460,
     "wikidata": "Q649162"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    },
+    {
+     "code": "som",
+     "de": "Somali",
+     "en": "Somali"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -18536,12 +20793,13 @@
    "currencies": [
     {
      "code": "SRD",
-     "name": "Surinamese dollar",
+     "name": "Suriname-Dollar",
+     "name_en": "Surinamese dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "Dutch"
+    "Niederländisch"
    ],
    "tld": [
     ".sr"
@@ -18563,7 +20821,14 @@
     "name": "Julianatop",
     "elevation_m": 1280,
     "wikidata": "Q1549215"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "nld",
+     "de": "Niederländisch",
+     "en": "Dutch"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -18625,12 +20890,13 @@
    "currencies": [
     {
      "code": "SSP",
-     "name": "South Sudanese pound",
+     "name": "südsudanesisches Pfund",
+     "name_en": "South Sudanese pound",
      "symbol": "£"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".ss"
@@ -18655,7 +20921,14 @@
     "name": "Kinyeti",
     "elevation_m": 3187,
     "wikidata": "Q948298"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -18719,12 +20992,13 @@
    "currencies": [
     {
      "code": "STN",
-     "name": "São Tomé and Príncipe dobra",
+     "name": "São-toméischer Dobra",
+     "name_en": "São Tomé and Príncipe dobra",
      "symbol": "Db"
     }
    ],
    "languages": [
-    "Portuguese"
+    "Portugiesisch"
    ],
    "tld": [
     ".st"
@@ -18742,7 +21016,14 @@
     "name": "Pico de São Tomé",
     "elevation_m": 2024,
     "wikidata": "Q1471391"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "por",
+     "de": "Portugiesisch",
+     "en": "Portuguese"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -18804,12 +21085,13 @@
    "currencies": [
     {
      "code": "USD",
-     "name": "United States dollar",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "Spanish"
+    "Spanisch"
    ],
    "tld": [
     ".sv"
@@ -18830,7 +21112,14 @@
     "name": "El Pital",
     "elevation_m": 2730,
     "wikidata": "Q74214"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -18890,14 +21179,15 @@
    "currencies": [
     {
      "code": "ANG",
-     "name": "Netherlands Antillean guilder",
+     "name": "Antillen-Gulden",
+     "name_en": "Netherlands Antillean guilder",
      "symbol": "ƒ"
     }
    ],
    "languages": [
-    "English",
-    "French",
-    "Dutch"
+    "Englisch",
+    "Französisch",
+    "Niederländisch"
    ],
    "tld": [
     ".sx"
@@ -18912,7 +21202,24 @@
    "emoji": "🇸🇽",
    "capital": "city:SX-philipsburg",
    "wikidata": "Q26273",
-   "population": 43847
+   "population": 43847,
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    },
+    {
+     "code": "nld",
+     "de": "Niederländisch",
+     "en": "Dutch"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -18970,12 +21277,13 @@
    "currencies": [
     {
      "code": "SYP",
-     "name": "Syrian pound",
+     "name": "syrische Lira",
+     "name_en": "Syrian pound",
      "symbol": "£"
     }
    ],
    "languages": [
-    "Arabic"
+    "Arabisch"
    ],
    "tld": [
     ".sy",
@@ -19000,7 +21308,14 @@
     "name": "Hermon",
     "elevation_m": 2813.95,
     "wikidata": "Q215471"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -19066,18 +21381,20 @@
    "currencies": [
     {
      "code": "SZL",
-     "name": "Swazi lilangeni",
+     "name": "Lilangeni",
+     "name_en": "Swazi lilangeni",
      "symbol": "L"
     },
     {
      "code": "ZAR",
-     "name": "South African rand",
+     "name": "südafrikanischer Rand",
+     "name_en": "South African rand",
      "symbol": "R"
     }
    ],
    "languages": [
-    "English",
-    "Swazi"
+    "Englisch",
+    "Siswati"
    ],
    "tld": [
     ".sz"
@@ -19098,7 +21415,19 @@
     "name": "Emlembe",
     "elevation_m": 1862,
     "wikidata": "Q1337951"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "ssw",
+     "de": "Siswati",
+     "en": "Swazi"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -19188,12 +21517,13 @@
    "currencies": [
     {
      "code": "USD",
-     "name": "United States dollar",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".tc"
@@ -19211,7 +21541,14 @@
     "name": "Blue Hills",
     "elevation_m": 49,
     "wikidata": "Q3492008"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -19275,13 +21612,14 @@
    "currencies": [
     {
      "code": "XAF",
-     "name": "Central African CFA franc",
+     "name": "CFA-Franc BEAC",
+     "name_en": "Central African CFA franc",
      "symbol": "Fr"
     }
    ],
    "languages": [
-    "Arabic",
-    "French"
+    "Arabisch",
+    "Französisch"
    ],
    "tld": [
     ".td"
@@ -19306,7 +21644,19 @@
     "name": "Emi Koussi",
     "elevation_m": 3445,
     "wikidata": "Q257441"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    },
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -19369,11 +21719,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".tf"
@@ -19391,7 +21742,14 @@
     "name": "Mont Ross",
     "elevation_m": 1850,
     "wikidata": "Q1945447"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -19454,12 +21812,13 @@
    "currencies": [
     {
      "code": "XOF",
-     "name": "West African CFA franc",
+     "name": "CFA-Franc BCEAO",
+     "name_en": "West African CFA franc",
      "symbol": "Fr"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".tg"
@@ -19481,7 +21840,14 @@
     "name": "Mont Agou",
     "elevation_m": 986,
     "wikidata": "Q1753509"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -19546,12 +21912,13 @@
    "currencies": [
     {
      "code": "THB",
-     "name": "Thai baht",
+     "name": "Baht",
+     "name_en": "Thai baht",
      "symbol": "฿"
     }
    ],
    "languages": [
-    "Thai"
+    "Thailändisch"
    ],
    "tld": [
     ".th",
@@ -19575,7 +21942,14 @@
     "name": "Doi Inthanon",
     "elevation_m": 2565,
     "wikidata": "Q1140075"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "tha",
+     "de": "Thailändisch",
+     "en": "Thai"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -19640,13 +22014,14 @@
    "currencies": [
     {
      "code": "TJS",
-     "name": "Tajikistani somoni",
+     "name": "Somoni",
+     "name_en": "Tajikistani somoni",
      "symbol": "ЅМ"
     }
    ],
    "languages": [
-    "Russian",
-    "Tajik"
+    "Russisch",
+    "Tadschikisch"
    ],
    "tld": [
     ".tj"
@@ -19669,7 +22044,19 @@
     "name": "Pik Kommunisma",
     "elevation_m": 7495,
     "wikidata": "Q41413"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "rus",
+     "de": "Russisch",
+     "en": "Russian"
+    },
+    {
+     "code": "tgk",
+     "de": "Tadschikisch",
+     "en": "Tajik"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -19727,14 +22114,15 @@
    "currencies": [
     {
      "code": "NZD",
-     "name": "New Zealand dollar",
+     "name": "Neuseeland-Dollar",
+     "name_en": "New Zealand dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English",
-    "Samoan",
-    "Tokelauan"
+    "Englisch",
+    "Samoanisch",
+    "Tokelauisch"
    ],
    "tld": [
     ".tk"
@@ -19747,7 +22135,24 @@
    "emoji": "🇹🇰",
    "capital": "city:TK-fakaofo",
    "wikidata": "Q36823",
-   "population": 1499
+   "population": 1499,
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "smo",
+     "de": "Samoanisch",
+     "en": "Samoan"
+    },
+    {
+     "code": "tkl",
+     "de": "Tokelauisch",
+     "en": "Tokelauan"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -19810,12 +22215,13 @@
    "currencies": [
     {
      "code": "USD",
-     "name": "United States dollar",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "Portuguese",
+    "Portugiesisch",
     "Tetum"
    ],
    "tld": [
@@ -19836,7 +22242,19 @@
     "name": "Tatamailau",
     "elevation_m": 2963,
     "wikidata": "Q1539961"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "por",
+     "de": "Portugiesisch",
+     "en": "Portuguese"
+    },
+    {
+     "code": "tet",
+     "de": "Tetum",
+     "en": "Tetum"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -19895,13 +22313,14 @@
    "currencies": [
     {
      "code": "TMT",
-     "name": "Turkmenistan manat",
+     "name": "Turkmenistan-Manat",
+     "name_en": "Turkmenistan manat",
      "symbol": "m"
     }
    ],
    "languages": [
-    "Russian",
-    "Turkmen"
+    "Russisch",
+    "Turkmenisch"
    ],
    "tld": [
     ".tm"
@@ -19924,7 +22343,19 @@
     "name": "Airibaba",
     "elevation_m": 3139,
     "wikidata": "Q794684"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "rus",
+     "de": "Russisch",
+     "en": "Russian"
+    },
+    {
+     "code": "tuk",
+     "de": "Turkmenisch",
+     "en": "Turkmen"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -19988,12 +22419,13 @@
    "currencies": [
     {
      "code": "TND",
-     "name": "Tunisian dinar",
+     "name": "tunesischer Dinar",
+     "name_en": "Tunisian dinar",
      "symbol": "د.ت"
     }
    ],
    "languages": [
-    "Arabic"
+    "Arabisch"
    ],
    "tld": [
     ".tn"
@@ -20014,7 +22446,14 @@
     "name": "Djebel Chambi",
     "elevation_m": 1544,
     "wikidata": "Q1232136"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -20075,13 +22514,14 @@
    "currencies": [
     {
      "code": "TOP",
-     "name": "Tongan paʻanga",
+     "name": "Paʻanga",
+     "name_en": "Tongan paʻanga",
      "symbol": "T$"
     }
    ],
    "languages": [
-    "English",
-    "Tongan"
+    "Englisch",
+    "Tongaisch"
    ],
    "tld": [
     ".to"
@@ -20099,7 +22539,19 @@
     "name": "Kao",
     "elevation_m": 1030,
     "wikidata": "Q1520405"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "ton",
+     "de": "Tongaisch",
+     "en": "Tongan"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -20164,12 +22616,13 @@
    "currencies": [
     {
      "code": "TRY",
-     "name": "Turkish lira",
+     "name": "türkische Lira",
+     "name_en": "Turkish lira",
      "symbol": "₺"
     }
    ],
    "languages": [
-    "Turkish"
+    "Türkisch"
    ],
    "tld": [
     ".tr"
@@ -20196,7 +22649,14 @@
     "name": "Ararat",
     "elevation_m": 5137,
     "wikidata": "Q72303"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "tur",
+     "de": "Türkisch",
+     "en": "Turkish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -20258,12 +22718,13 @@
    "currencies": [
     {
      "code": "TTD",
-     "name": "Trinidad and Tobago dollar",
+     "name": "Trinidad-und-Tobago-Dollar",
+     "name_en": "Trinidad and Tobago dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".tt"
@@ -20281,7 +22742,14 @@
     "name": "Cerro del Aripo",
     "elevation_m": 940,
     "wikidata": "Q1056103"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -20340,18 +22808,20 @@
    "currencies": [
     {
      "code": "AUD",
-     "name": "Australian dollar",
+     "name": "Australischer Dollar",
+     "name_en": "Australian dollar",
      "symbol": "$"
     },
     {
      "code": "TVD",
      "name": "Tuvaluan dollar",
+     "name_en": "Tuvaluan dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English",
-    "Tuvaluan"
+    "Englisch",
+    "Tuvaluisch"
    ],
    "tld": [
     ".tv"
@@ -20369,7 +22839,19 @@
     "name": "Niulakita",
     "elevation_m": 4.6,
     "wikidata": "Q632489"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "tvl",
+     "de": "Tuvaluisch",
+     "en": "Tuvaluan"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -20435,12 +22917,13 @@
    "currencies": [
     {
      "code": "TWD",
-     "name": "New Taiwan dollar",
+     "name": "Neuer Taiwan-Dollar",
+     "name_en": "New Taiwan dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "Chinese"
+    "Chinesisch"
    ],
    "tld": [
     ".tw",
@@ -20460,7 +22943,14 @@
     "name": "Yu Shan",
     "elevation_m": 3952,
     "wikidata": "Q500275"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "zho",
+     "de": "Chinesisch",
+     "en": "Chinese"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -20539,12 +23029,13 @@
    "currencies": [
     {
      "code": "TZS",
-     "name": "Tanzanian shilling",
+     "name": "Tansania-Schilling",
+     "name_en": "Tanzanian shilling",
      "symbol": "Sh"
     }
    ],
    "languages": [
-    "English",
+    "Englisch",
     "Swahili"
    ],
    "tld": [
@@ -20572,7 +23063,19 @@
     "name": "Kibo",
     "elevation_m": 5895,
     "wikidata": "Q1394606"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "swa",
+     "de": "Swahili",
+     "en": "Swahili"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -20632,12 +23135,13 @@
    "currencies": [
     {
      "code": "UAH",
-     "name": "Ukrainian hryvnia",
+     "name": "Hrywnja",
+     "name_en": "Ukrainian hryvnia",
      "symbol": "₴"
     }
    ],
    "languages": [
-    "Ukrainian"
+    "Ukrainisch"
    ],
    "tld": [
     ".ua",
@@ -20664,7 +23168,14 @@
     "name": "Howerla",
     "elevation_m": 2061,
     "wikidata": "Q627508"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ukr",
+     "de": "Ukrainisch",
+     "en": "Ukrainian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -20726,12 +23237,13 @@
    "currencies": [
     {
      "code": "UGX",
-     "name": "Ugandan shilling",
+     "name": "Uganda-Schilling",
+     "name_en": "Ugandan shilling",
      "symbol": "Sh"
     }
    ],
    "languages": [
-    "English",
+    "Englisch",
     "Swahili"
    ],
    "tld": [
@@ -20756,7 +23268,19 @@
     "name": "Mount Stanley",
     "elevation_m": 5109,
     "wikidata": "Q221666"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "swa",
+     "de": "Swahili",
+     "en": "Swahili"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -20813,12 +23337,13 @@
    "currencies": [
     {
      "code": "USD",
-     "name": "United States dollar",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".us"
@@ -20835,7 +23360,14 @@
     "name": "Dunning Hill",
     "elevation_m": 76,
     "wikidata": "Q11695306"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -20898,12 +23430,13 @@
    "currencies": [
     {
      "code": "USD",
-     "name": "United States dollar",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".us"
@@ -20924,7 +23457,14 @@
     "name": "Denali",
     "elevation_m": 6190,
     "wikidata": "Q130018"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -20986,12 +23526,13 @@
    "currencies": [
     {
      "code": "UYU",
-     "name": "Uruguayan peso",
+     "name": "uruguayischer Peso",
+     "name_en": "Uruguayan peso",
      "symbol": "$"
     }
    ],
    "languages": [
-    "Spanish"
+    "Spanisch"
    ],
    "tld": [
     ".uy"
@@ -21012,7 +23553,14 @@
     "name": "Cerro Catedral",
     "elevation_m": 513.7,
     "wikidata": "Q1055837"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -21076,13 +23624,14 @@
    "currencies": [
     {
      "code": "UZS",
-     "name": "Uzbekistani soʻm",
+     "name": "Soʻm",
+     "name_en": "Uzbekistani soʻm",
      "symbol": "so'm"
     }
    ],
    "languages": [
-    "Russian",
-    "Uzbek"
+    "Russisch",
+    "Usbekisch"
    ],
    "tld": [
     ".uz"
@@ -21106,7 +23655,19 @@
     "name": "Hasrat Sulton",
     "elevation_m": 4643,
     "wikidata": "Q519822"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "rus",
+     "de": "Russisch",
+     "en": "Russian"
+    },
+    {
+     "code": "uzb",
+     "de": "Usbekisch",
+     "en": "Uzbek"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -21172,12 +23733,13 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Italian",
-    "Latin"
+    "Italienisch",
+    "Latein"
    ],
    "tld": [
     ".va"
@@ -21197,7 +23759,19 @@
     "name": "Vatikanischer Hügel",
     "elevation_m": 75,
     "wikidata": "Q1053000"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ita",
+     "de": "Italienisch",
+     "en": "Italian"
+    },
+    {
+     "code": "lat",
+     "de": "Latein",
+     "en": "Latin"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -21257,12 +23831,13 @@
    "currencies": [
     {
      "code": "XCD",
-     "name": "Eastern Caribbean dollar",
+     "name": "Ostkaribischer Dollar",
+     "name_en": "Eastern Caribbean dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".vc"
@@ -21280,7 +23855,14 @@
     "name": "Soufrière",
     "elevation_m": 1220,
     "wikidata": "Q26544"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -21344,11 +23926,12 @@
     {
      "code": "VES",
      "name": "Venezuelan bolívar soberano",
+     "name_en": "Venezuelan bolívar soberano",
      "symbol": "Bs.S."
     }
    ],
    "languages": [
-    "Spanish"
+    "Spanisch"
    ],
    "tld": [
     ".ve"
@@ -21370,7 +23953,14 @@
     "name": "Pico Bolívar",
     "elevation_m": 4978,
     "wikidata": "Q213704"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "spa",
+     "de": "Spanisch",
+     "en": "Spanish"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -21433,12 +24023,13 @@
    "currencies": [
     {
      "code": "USD",
-     "name": "United States dollar",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".vg"
@@ -21451,7 +24042,14 @@
    "emoji": "🇻🇬",
    "capital": "city:VG-road-town",
    "wikidata": "Q25305",
-   "population": 39369
+   "population": 39369,
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -21508,12 +24106,13 @@
    "currencies": [
     {
      "code": "USD",
-     "name": "United States dollar",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
      "symbol": "$"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".vi"
@@ -21531,7 +24130,14 @@
     "name": "Crown Mountain",
     "elevation_m": 473,
     "wikidata": "Q3005470"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -21594,12 +24200,13 @@
    "currencies": [
     {
      "code": "VND",
-     "name": "Vietnamese đồng",
+     "name": "vietnamesischer Đồng",
+     "name_en": "Vietnamese đồng",
      "symbol": "₫"
     }
    ],
    "languages": [
-    "Vietnamese"
+    "Vietnamesisch"
    ],
    "tld": [
     ".vn"
@@ -21621,7 +24228,14 @@
     "name": "Fansipan",
     "elevation_m": 3143,
     "wikidata": "Q123782"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "vie",
+     "de": "Vietnamesisch",
+     "en": "Vietnamese"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -21683,14 +24297,15 @@
    "currencies": [
     {
      "code": "VUV",
-     "name": "Vanuatu vatu",
+     "name": "Vatu",
+     "name_en": "Vanuatu vatu",
      "symbol": "Vt"
     }
    ],
    "languages": [
     "Bislama",
-    "English",
-    "French"
+    "Englisch",
+    "Französisch"
    ],
    "tld": [
     ".vu"
@@ -21708,7 +24323,24 @@
     "name": "Tabwemasana",
     "elevation_m": 1879,
     "wikidata": "Q1542459"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "bis",
+     "de": "Bislama",
+     "en": "Bislama"
+    },
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -21771,12 +24403,13 @@
    "currencies": [
     {
      "code": "XPF",
-     "name": "CFP franc",
+     "name": "CFP-Franc",
+     "name_en": "CFP franc",
      "symbol": "₣"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".wf"
@@ -21794,7 +24427,14 @@
     "name": "Mont Puke",
     "elevation_m": 524,
     "wikidata": "Q1549756"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -21856,13 +24496,14 @@
    "currencies": [
     {
      "code": "WST",
-     "name": "Samoan tālā",
+     "name": "samoanischer Tala",
+     "name_en": "Samoan tālā",
      "symbol": "T"
     }
    ],
    "languages": [
-    "English",
-    "Samoan"
+    "Englisch",
+    "Samoanisch"
    ],
    "tld": [
     ".ws"
@@ -21880,7 +24521,19 @@
     "name": "Silisili",
     "elevation_m": 1858,
     "wikidata": "Q1147814"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "smo",
+     "de": "Samoanisch",
+     "en": "Samoan"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -21943,12 +24596,13 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "Albanian",
-    "Serbian"
+    "Albanisch",
+    "Serbisch"
    ],
    "tld": [
     ".xk"
@@ -21971,7 +24625,19 @@
     "name": "Gjeravica",
     "elevation_m": 2656,
     "wikidata": "Q341983"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "sqi",
+     "de": "Albanisch",
+     "en": "Albanian"
+    },
+    {
+     "code": "srp",
+     "de": "Serbisch",
+     "en": "Serbian"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -22035,12 +24701,13 @@
    "currencies": [
     {
      "code": "YER",
-     "name": "Yemeni rial",
+     "name": "Jemen-Rial",
+     "name_en": "Yemeni rial",
      "symbol": "﷼"
     }
    ],
    "languages": [
-    "Arabic"
+    "Arabisch"
    ],
    "tld": [
     ".ye"
@@ -22061,7 +24728,14 @@
     "name": "Dschabal an-Nabi Schuʿaib",
     "elevation_m": 3666,
     "wikidata": "Q1261935"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "ara",
+     "de": "Arabisch",
+     "en": "Arabic"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -22123,11 +24797,12 @@
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     }
    ],
    "languages": [
-    "French"
+    "Französisch"
    ],
    "tld": [
     ".yt"
@@ -22145,7 +24820,14 @@
     "name": "Benara",
     "elevation_m": 660,
     "wikidata": "Q210180"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "fra",
+     "de": "Französisch",
+     "en": "French"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -22211,22 +24893,23 @@
    "currencies": [
     {
      "code": "ZAR",
-     "name": "South African rand",
+     "name": "südafrikanischer Rand",
+     "name_en": "South African rand",
      "symbol": "R"
     }
    ],
    "languages": [
     "Afrikaans",
-    "English",
-    "Southern Ndebele",
-    "Northern Sotho",
-    "Southern Sotho",
-    "Swazi",
-    "Tswana",
-    "Tsonga",
-    "Venda",
-    "Xhosa",
-    "Zulu"
+    "Englisch",
+    "Süd-Ndebele",
+    "Nord-Sotho",
+    "Sesotho",
+    "Siswati",
+    "Setswana",
+    "Xitsonga",
+    "Tshivenda",
+    "IsiXhosa",
+    "isiZulu"
    ],
    "tld": [
     ".za"
@@ -22251,7 +24934,64 @@
     "name": "Mafadi",
     "elevation_m": 3450,
     "wikidata": "Q1883683"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "afr",
+     "de": "Afrikaans",
+     "en": "Afrikaans"
+    },
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "nbl",
+     "de": "Süd-Ndebele",
+     "en": "Southern Ndebele"
+    },
+    {
+     "code": "nso",
+     "de": "Nord-Sotho",
+     "en": "Northern Sotho"
+    },
+    {
+     "code": "sot",
+     "de": "Sesotho",
+     "en": "Southern Sotho"
+    },
+    {
+     "code": "ssw",
+     "de": "Siswati",
+     "en": "Swazi"
+    },
+    {
+     "code": "tsn",
+     "de": "Setswana",
+     "en": "Tswana"
+    },
+    {
+     "code": "tso",
+     "de": "Xitsonga",
+     "en": "Tsonga"
+    },
+    {
+     "code": "ven",
+     "de": "Tshivenda",
+     "en": "Venda"
+    },
+    {
+     "code": "xho",
+     "de": "IsiXhosa",
+     "en": "Xhosa"
+    },
+    {
+     "code": "zul",
+     "de": "isiZulu",
+     "en": "Zulu"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -22313,12 +25053,13 @@
    "currencies": [
     {
      "code": "ZMW",
-     "name": "Zambian kwacha",
+     "name": "sambischer Kwacha",
+     "name_en": "Zambian kwacha",
      "symbol": "ZK"
     }
    ],
    "languages": [
-    "English"
+    "Englisch"
    ],
    "tld": [
     ".zm"
@@ -22345,7 +25086,14 @@
     "name": "Mafinga Central",
     "elevation_m": 2339,
     "wikidata": "Q18351462"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -22407,66 +25155,75 @@
    "currencies": [
     {
      "code": "BWP",
-     "name": "Botswana pula",
+     "name": "botswanischer Pula",
+     "name_en": "Botswana pula",
      "symbol": "P"
     },
     {
      "code": "CNY",
-     "name": "Chinese yuan",
+     "name": "Renminbi",
+     "name_en": "Chinese yuan",
      "symbol": "¥"
     },
     {
      "code": "EUR",
      "name": "Euro",
+     "name_en": "Euro",
      "symbol": "€"
     },
     {
      "code": "GBP",
-     "name": "British pound",
+     "name": "Wirtschaft des Vereinigten Königreichs",
+     "name_en": "British pound",
      "symbol": "£"
     },
     {
      "code": "INR",
-     "name": "Indian rupee",
+     "name": "Indische Rupie",
+     "name_en": "Indian rupee",
      "symbol": "₹"
     },
     {
      "code": "JPY",
-     "name": "Japanese yen",
+     "name": "Yen",
+     "name_en": "Japanese yen",
      "symbol": "¥"
     },
     {
      "code": "USD",
-     "name": "United States dollar",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
      "symbol": "$"
     },
     {
      "code": "ZAR",
-     "name": "South African rand",
+     "name": "südafrikanischer Rand",
+     "name_en": "South African rand",
      "symbol": "Rs"
     },
     {
      "code": "ZWB",
      "name": "Zimbabwean bonds",
+     "name_en": "Zimbabwean bonds",
      "symbol": "$"
     }
    ],
    "languages": [
-    "Chibarwe",
-    "English",
+    "Barwe",
+    "Englisch",
     "Kalanga",
     "Khoisan",
     "Ndau",
-    "Northern Ndebele",
-    "Chewa",
+    "Nord-Ndebele",
+    "Chichewa",
     "Shona",
-    "Sotho",
-    "Tonga",
-    "Tswana",
-    "Tsonga",
-    "Venda",
-    "Xhosa",
-    "Zimbabwean Sign Language"
+    "Sesotho",
+    "ChiTonga",
+    "Setswana",
+    "Xitsonga",
+    "Tshivenda",
+    "IsiXhosa",
+    "Simbabwische Gebärdensprache"
    ],
    "tld": [
     ".zw"
@@ -22489,7 +25246,84 @@
     "name": "Inyangani",
     "elevation_m": 2592,
     "wikidata": "Q152294"
-   }
+   },
+   "languages_detail": [
+    {
+     "code": "bwg",
+     "de": "Barwe",
+     "en": "Chibarwe"
+    },
+    {
+     "code": "eng",
+     "de": "Englisch",
+     "en": "English"
+    },
+    {
+     "code": "kck",
+     "de": "Kalanga",
+     "en": "Kalanga"
+    },
+    {
+     "code": "khi",
+     "de": "Khoisan",
+     "en": "Khoisan"
+    },
+    {
+     "code": "ndc",
+     "de": "Ndau",
+     "en": "Ndau"
+    },
+    {
+     "code": "nde",
+     "de": "Nord-Ndebele",
+     "en": "Northern Ndebele"
+    },
+    {
+     "code": "nya",
+     "de": "Chichewa",
+     "en": "Chewa"
+    },
+    {
+     "code": "sna",
+     "de": "Shona",
+     "en": "Shona"
+    },
+    {
+     "code": "sot",
+     "de": "Sesotho",
+     "en": "Sotho"
+    },
+    {
+     "code": "toi",
+     "de": "ChiTonga",
+     "en": "Tonga"
+    },
+    {
+     "code": "tsn",
+     "de": "Setswana",
+     "en": "Tswana"
+    },
+    {
+     "code": "tso",
+     "de": "Xitsonga",
+     "en": "Tsonga"
+    },
+    {
+     "code": "ven",
+     "de": "Tshivenda",
+     "en": "Venda"
+    },
+    {
+     "code": "xho",
+     "de": "IsiXhosa",
+     "en": "Xhosa"
+    },
+    {
+     "code": "zib",
+     "de": "Simbabwische Gebärdensprache",
+     "en": "Zimbabwean Sign Language"
+    }
+   ]
   },
   "provenance": {
    "source": "mledoze/countries",

@@ -3,7 +3,8 @@
   "id": "region:HR-01",
   "type": "region",
   "names": {
-   "de": "Gespanschaft Zagreb"
+   "de": "Gespanschaft Zagreb",
+   "en": "Zagreb County"
   },
   "aliases": [],
   "media": [
@@ -35,9 +36,13 @@
   "id": "region:HR-02",
   "type": "region",
   "names": {
-   "de": "Krapina-Zagorje"
+   "de": "Gespanschaft Krapina-Zagorje",
+   "en": "Krapina-Zagorje County"
   },
-  "aliases": [],
+  "aliases": [
+   "Krapina-Zagorje",
+   "Krapina-Zagorje County"
+  ],
   "media": [
    {
     "id": "media:flag:HR-02",
@@ -67,9 +72,13 @@
   "id": "region:HR-03",
   "type": "region",
   "names": {
-   "de": "Sisak-Moslavina"
+   "de": "Gespanschaft Sisak-Moslavina",
+   "en": "Sisak-Moslavina County"
   },
-  "aliases": [],
+  "aliases": [
+   "Sisak-Moslavina",
+   "Sisak-Moslavina County"
+  ],
   "media": [
    {
     "id": "media:flag:HR-03",
@@ -99,9 +108,13 @@
   "id": "region:HR-04",
   "type": "region",
   "names": {
-   "de": "Karlovac"
+   "de": "Gespanschaft Karlovac",
+   "en": "Karlovac County"
   },
-  "aliases": [],
+  "aliases": [
+   "Karlovac",
+   "Karlovac County"
+  ],
   "media": [
    {
     "id": "media:flag:HR-04",
@@ -131,9 +144,13 @@
   "id": "region:HR-05",
   "type": "region",
   "names": {
-   "de": "Varaždin"
+   "de": "Gespanschaft Varaždin",
+   "en": "Varaždin County"
   },
-  "aliases": [],
+  "aliases": [
+   "Varaždin",
+   "Varaždin County"
+  ],
   "media": [
    {
     "id": "media:flag:HR-05",
@@ -163,9 +180,13 @@
   "id": "region:HR-06",
   "type": "region",
   "names": {
-   "de": "Koprivnica-Križevci"
+   "de": "Gespanschaft Koprivnica-Križevci",
+   "en": "Koprivnica-Križevci County"
   },
-  "aliases": [],
+  "aliases": [
+   "Koprivnica-Križevci",
+   "Koprivnica-Križevci County"
+  ],
   "media": [
    {
     "id": "media:flag:HR-06",
@@ -195,9 +216,13 @@
   "id": "region:HR-07",
   "type": "region",
   "names": {
-   "de": "Bjelovar-Bilogora"
+   "de": "Gespanschaft Bjelovar-Bilogora",
+   "en": "Bjelovar-Bilogora County"
   },
-  "aliases": [],
+  "aliases": [
+   "Bjelovar-Bilogora",
+   "Bjelovar-Bilogora County"
+  ],
   "media": [
    {
     "id": "media:flag:HR-07",
@@ -227,9 +252,13 @@
   "id": "region:HR-08",
   "type": "region",
   "names": {
-   "de": "Primorje-Gorski kotar"
+   "de": "Gespanschaft Primorje-Gorski kotar",
+   "en": "Primorje-Gorski Kotar County"
   },
-  "aliases": [],
+  "aliases": [
+   "Primorje-Gorski kotar",
+   "Primorje-Gorski Kotar County"
+  ],
   "media": [
    {
     "id": "media:flag:HR-08",
@@ -259,9 +288,13 @@
   "id": "region:HR-09",
   "type": "region",
   "names": {
-   "de": "Lika-Senj"
+   "de": "Gespanschaft Lika-Senj",
+   "en": "Lika-Senj County"
   },
-  "aliases": [],
+  "aliases": [
+   "Lika-Senj",
+   "Lika-Senj County"
+  ],
   "media": [
    {
     "id": "media:flag:HR-09",
@@ -291,9 +324,13 @@
   "id": "region:HR-10",
   "type": "region",
   "names": {
-   "de": "Virovitica-Podravina"
+   "de": "Gespanschaft Virovitica-Podravina",
+   "en": "Virovitica-Podravina County"
   },
-  "aliases": [],
+  "aliases": [
+   "Virovitica-Podravina",
+   "Virovitica-Podravina County"
+  ],
   "media": [
    {
     "id": "media:flag:HR-10",
@@ -323,9 +360,13 @@
   "id": "region:HR-11",
   "type": "region",
   "names": {
-   "de": "Požega-Slawonien"
+   "de": "Gespanschaft Požega-Slawonien",
+   "en": "Požega-Slavonia County"
   },
-  "aliases": [],
+  "aliases": [
+   "Požega-Slawonien",
+   "Požega-Slavonia County"
+  ],
   "media": [
    {
     "id": "media:flag:HR-11",
@@ -355,9 +396,13 @@
   "id": "region:HR-12",
   "type": "region",
   "names": {
-   "de": "Brod-Posavina"
+   "de": "Gespanschaft Brod-Posavina",
+   "en": "Brod-Posavina County"
   },
-  "aliases": [],
+  "aliases": [
+   "Brod-Posavina",
+   "Brod-Posavina County"
+  ],
   "media": [
    {
     "id": "media:flag:HR-12",
@@ -387,9 +432,13 @@
   "id": "region:HR-13",
   "type": "region",
   "names": {
-   "de": "Zadar"
+   "de": "Gespanschaft Zadar",
+   "en": "Zadar County"
   },
-  "aliases": [],
+  "aliases": [
+   "Zadar",
+   "Zadar County"
+  ],
   "media": [
    {
     "id": "media:flag:HR-13",
@@ -419,9 +468,13 @@
   "id": "region:HR-14",
   "type": "region",
   "names": {
-   "de": "Osijek-Baranja"
+   "de": "Gespanschaft Osijek-Baranja",
+   "en": "Osijek-Baranja County"
   },
-  "aliases": [],
+  "aliases": [
+   "Osijek-Baranja",
+   "Osijek-Baranja County"
+  ],
   "media": [
    {
     "id": "media:flag:HR-14",
@@ -451,9 +504,13 @@
   "id": "region:HR-15",
   "type": "region",
   "names": {
-   "de": "Šibenik-Knin"
+   "de": "Gespanschaft Šibenik-Knin",
+   "en": "Šibenik-Knin County"
   },
-  "aliases": [],
+  "aliases": [
+   "Šibenik-Knin",
+   "Šibenik-Knin County"
+  ],
   "media": [
    {
     "id": "media:flag:HR-15",
@@ -483,9 +540,13 @@
   "id": "region:HR-16",
   "type": "region",
   "names": {
-   "de": "Vukovar-Syrmien"
+   "de": "Gespanschaft Vukovar-Srijem",
+   "en": "Vukovar-Srijem County"
   },
-  "aliases": [],
+  "aliases": [
+   "Vukovar-Syrmien",
+   "Vukovar-Srijem County"
+  ],
   "media": [
    {
     "id": "media:flag:HR-16",
@@ -515,9 +576,13 @@
   "id": "region:HR-17",
   "type": "region",
   "names": {
-   "de": "Split-Dalmatien"
+   "de": "Gespanschaft Split-Dalmatien",
+   "en": "Split-Dalmatia County"
   },
-  "aliases": [],
+  "aliases": [
+   "Split-Dalmatien",
+   "Split-Dalmatia County"
+  ],
   "media": [
    {
     "id": "media:flag:HR-17",
@@ -547,9 +612,13 @@
   "id": "region:HR-18",
   "type": "region",
   "names": {
-   "de": "Istrien"
+   "de": "Gespanschaft Istrien",
+   "en": "Istria County"
   },
-  "aliases": [],
+  "aliases": [
+   "Istrien",
+   "Istria County"
+  ],
   "media": [
    {
     "id": "media:flag:HR-18",
@@ -579,9 +648,13 @@
   "id": "region:HR-19",
   "type": "region",
   "names": {
-   "de": "Dubrovnik-Neretva"
+   "de": "Gespanschaft Dubrovnik-Neretva",
+   "en": "Dubrovnik-Neretva County"
   },
-  "aliases": [],
+  "aliases": [
+   "Dubrovnik-Neretva",
+   "Dubrovnik-Neretva County"
+  ],
   "media": [
    {
     "id": "media:flag:HR-19",
@@ -611,9 +684,13 @@
   "id": "region:HR-20",
   "type": "region",
   "names": {
-   "de": "Međimurje"
+   "de": "Gespanschaft Međimurje",
+   "en": "Međimurje County"
   },
-  "aliases": [],
+  "aliases": [
+   "Međimurje",
+   "Međimurje County"
+  ],
   "media": [
    {
     "id": "media:flag:HR-20",
@@ -643,9 +720,12 @@
   "id": "region:HR-21",
   "type": "region",
   "names": {
-   "de": "Stadt Zagreb"
+   "de": "Zagreb",
+   "en": "Zagreb"
   },
-  "aliases": [],
+  "aliases": [
+   "Stadt Zagreb"
+  ],
   "media": [
    {
     "id": "media:flag:HR-21",

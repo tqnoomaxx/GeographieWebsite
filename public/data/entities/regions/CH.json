@@ -3,9 +3,13 @@
   "id": "region:CH-AG",
   "type": "region",
   "names": {
-   "de": "Aargau"
+   "de": "Kanton Aargau",
+   "en": "Canton of Aargau"
   },
-  "aliases": [],
+  "aliases": [
+   "Aargau",
+   "Canton of Aargau"
+  ],
   "media": [
    {
     "id": "media:flag:CH-AG",
@@ -36,9 +40,13 @@
   "id": "region:CH-AI",
   "type": "region",
   "names": {
-   "de": "Appenzell Innerrhoden"
+   "de": "Kanton Appenzell Innerrhoden",
+   "en": "Canton of Appenzell Innerrhoden"
   },
-  "aliases": [],
+  "aliases": [
+   "Appenzell Innerrhoden",
+   "Canton of Appenzell Innerrhoden"
+  ],
   "media": [
    {
     "id": "media:flag:CH-AI",
@@ -69,9 +77,13 @@
   "id": "region:CH-AR",
   "type": "region",
   "names": {
-   "de": "Appenzell Ausserrhoden"
+   "de": "Kanton Appenzell Ausserrhoden",
+   "en": "Canton of Appenzell Ausserrhoden"
   },
-  "aliases": [],
+  "aliases": [
+   "Appenzell Ausserrhoden",
+   "Canton of Appenzell Ausserrhoden"
+  ],
   "media": [
    {
     "id": "media:flag:CH-AR",
@@ -102,9 +114,12 @@
   "id": "region:CH-BE",
   "type": "region",
   "names": {
-   "de": "Bern"
+   "de": "Kleines Schneehorn",
+   "en": "Kleines Schneehorn"
   },
-  "aliases": [],
+  "aliases": [
+   "Bern"
+  ],
   "media": [
    {
     "id": "media:flag:CH-BE",
@@ -135,9 +150,13 @@
   "id": "region:CH-BL",
   "type": "region",
   "names": {
-   "de": "Basel-Landschaft"
+   "de": "Kanton Basel-Landschaft",
+   "en": "Canton of Basel-Landschaft"
   },
-  "aliases": [],
+  "aliases": [
+   "Basel-Landschaft",
+   "Canton of Basel-Landschaft"
+  ],
   "media": [
    {
     "id": "media:flag:CH-BL",
@@ -168,9 +187,13 @@
   "id": "region:CH-BS",
   "type": "region",
   "names": {
-   "de": "Basel-Stadt"
+   "de": "Kanton Basel-Stadt",
+   "en": "Canton of Basel-Stadt"
   },
-  "aliases": [],
+  "aliases": [
+   "Basel-Stadt",
+   "Canton of Basel-Stadt"
+  ],
   "media": [
    {
     "id": "media:flag:CH-BS",
@@ -201,9 +224,13 @@
   "id": "region:CH-FR",
   "type": "region",
   "names": {
-   "de": "Freiburg"
+   "de": "Kanton Freiburg",
+   "en": "Canton of Fribourg"
   },
-  "aliases": [],
+  "aliases": [
+   "Freiburg",
+   "Canton of Fribourg"
+  ],
   "media": [
    {
     "id": "media:flag:CH-FR",
@@ -234,9 +261,13 @@
   "id": "region:CH-GE",
   "type": "region",
   "names": {
-   "de": "Genf"
+   "de": "Kanton Genf",
+   "en": "Canton of Geneva"
   },
-  "aliases": [],
+  "aliases": [
+   "Genf",
+   "Canton of Geneva"
+  ],
   "media": [
    {
     "id": "media:flag:CH-GE",
@@ -267,9 +298,13 @@
   "id": "region:CH-GL",
   "type": "region",
   "names": {
-   "de": "Glarus"
+   "de": "Kanton Glarus",
+   "en": "Canton of Glarus"
   },
-  "aliases": [],
+  "aliases": [
+   "Glarus",
+   "Canton of Glarus"
+  ],
   "media": [
    {
     "id": "media:flag:CH-GL",
@@ -300,9 +335,14 @@
   "id": "region:CH-GR",
   "type": "region",
   "names": {
-   "de": "Grisons"
+   "de": "Kanton Graubünden",
+   "en": "Canton of the Grisons"
   },
-  "aliases": [],
+  "aliases": [
+   "Grisons",
+   "Canton of the Grisons",
+   "Graubünden"
+  ],
   "media": [
    {
     "id": "media:flag:CH-GR",
@@ -333,9 +373,13 @@
   "id": "region:CH-JU",
   "type": "region",
   "names": {
-   "de": "Jura"
+   "de": "Kanton Jura",
+   "en": "Canton of Jura"
   },
-  "aliases": [],
+  "aliases": [
+   "Jura",
+   "Canton of Jura"
+  ],
   "media": [
    {
     "id": "media:flag:CH-JU",
@@ -366,9 +410,14 @@
   "id": "region:CH-LU",
   "type": "region",
   "names": {
-   "de": "Lucerne"
+   "de": "Kanton Luzern",
+   "en": "Canton of Lucerne"
   },
-  "aliases": [],
+  "aliases": [
+   "Lucerne",
+   "Canton of Lucerne",
+   "Luzern"
+  ],
   "media": [
    {
     "id": "media:flag:CH-LU",
@@ -399,9 +448,13 @@
   "id": "region:CH-NE",
   "type": "region",
   "names": {
-   "de": "Neuenburg"
+   "de": "Kanton Neuenburg",
+   "en": "Canton of Neuchâtel"
   },
-  "aliases": [],
+  "aliases": [
+   "Neuenburg",
+   "Canton of Neuchâtel"
+  ],
   "media": [
    {
     "id": "media:flag:CH-NE",
@@ -432,9 +485,13 @@
   "id": "region:CH-NW",
   "type": "region",
   "names": {
-   "de": "Nidwalden"
+   "de": "Kanton Nidwalden",
+   "en": "Canton of Nidwalden"
   },
-  "aliases": [],
+  "aliases": [
+   "Nidwalden",
+   "Canton of Nidwalden"
+  ],
   "media": [
    {
     "id": "media:flag:CH-NW",
@@ -465,9 +522,13 @@
   "id": "region:CH-OW",
   "type": "region",
   "names": {
-   "de": "Obwalden"
+   "de": "Kanton Obwalden",
+   "en": "Canton of Obwalden"
   },
-  "aliases": [],
+  "aliases": [
+   "Obwalden",
+   "Canton of Obwalden"
+  ],
   "media": [
    {
     "id": "media:flag:CH-OW",
@@ -498,9 +559,13 @@
   "id": "region:CH-SG",
   "type": "region",
   "names": {
-   "de": "St. Gallen"
+   "de": "Kanton St. Gallen",
+   "en": "Canton of St. Gallen"
   },
-  "aliases": [],
+  "aliases": [
+   "St. Gallen",
+   "Canton of St. Gallen"
+  ],
   "media": [
    {
     "id": "media:flag:CH-SG",
@@ -531,9 +596,13 @@
   "id": "region:CH-SH",
   "type": "region",
   "names": {
-   "de": "Schaffhausen"
+   "de": "Kanton Schaffhausen",
+   "en": "Canton of Schaffhausen"
   },
-  "aliases": [],
+  "aliases": [
+   "Schaffhausen",
+   "Canton of Schaffhausen"
+  ],
   "media": [
    {
     "id": "media:flag:CH-SH",
@@ -564,9 +633,13 @@
   "id": "region:CH-SO",
   "type": "region",
   "names": {
-   "de": "Solothurn"
+   "de": "Kanton Solothurn",
+   "en": "Canton of Solothurn"
   },
-  "aliases": [],
+  "aliases": [
+   "Solothurn",
+   "Canton of Solothurn"
+  ],
   "media": [
    {
     "id": "media:flag:CH-SO",
@@ -597,9 +670,13 @@
   "id": "region:CH-SZ",
   "type": "region",
   "names": {
-   "de": "Schwyz"
+   "de": "Kanton Schwyz",
+   "en": "Canton of Schwyz"
   },
-  "aliases": [],
+  "aliases": [
+   "Schwyz",
+   "Canton of Schwyz"
+  ],
   "media": [
    {
     "id": "media:flag:CH-SZ",
@@ -630,9 +707,13 @@
   "id": "region:CH-TG",
   "type": "region",
   "names": {
-   "de": "Thurgau"
+   "de": "Kanton Thurgau",
+   "en": "Canton of Thurgau"
   },
-  "aliases": [],
+  "aliases": [
+   "Thurgau",
+   "Canton of Thurgau"
+  ],
   "media": [
    {
     "id": "media:flag:CH-TG",
@@ -663,9 +744,13 @@
   "id": "region:CH-TI",
   "type": "region",
   "names": {
-   "de": "Tessin"
+   "de": "Kanton Tessin",
+   "en": "Canton of Ticino"
   },
-  "aliases": [],
+  "aliases": [
+   "Tessin",
+   "Canton of Ticino"
+  ],
   "media": [
    {
     "id": "media:flag:CH-TI",
@@ -696,9 +781,13 @@
   "id": "region:CH-UR",
   "type": "region",
   "names": {
-   "de": "Uri"
+   "de": "Kanton Uri",
+   "en": "Canton of Uri"
   },
-  "aliases": [],
+  "aliases": [
+   "Uri",
+   "Canton of Uri"
+  ],
   "media": [
    {
     "id": "media:flag:CH-UR",
@@ -729,9 +818,13 @@
   "id": "region:CH-VD",
   "type": "region",
   "names": {
-   "de": "Waadt"
+   "de": "Kanton Waadt",
+   "en": "Canton of Vaud"
   },
-  "aliases": [],
+  "aliases": [
+   "Waadt",
+   "Canton of Vaud"
+  ],
   "media": [
    {
     "id": "media:flag:CH-VD",
@@ -762,9 +855,13 @@
   "id": "region:CH-VS",
   "type": "region",
   "names": {
-   "de": "Wallis"
+   "de": "Kanton Wallis",
+   "en": "Canton of Valais"
   },
-  "aliases": [],
+  "aliases": [
+   "Wallis",
+   "Canton of Valais"
+  ],
   "media": [
    {
     "id": "media:flag:CH-VS",
@@ -795,9 +892,13 @@
   "id": "region:CH-ZG",
   "type": "region",
   "names": {
-   "de": "Zug"
+   "de": "Kanton Zug",
+   "en": "Canton of Zug"
   },
-  "aliases": [],
+  "aliases": [
+   "Zug",
+   "Canton of Zug"
+  ],
   "media": [
    {
     "id": "media:flag:CH-ZG",
@@ -828,9 +929,13 @@
   "id": "region:CH-ZH",
   "type": "region",
   "names": {
-   "de": "Zürich"
+   "de": "Kanton Zürich",
+   "en": "Canton of Zurich"
   },
-  "aliases": [],
+  "aliases": [
+   "Zürich",
+   "Canton of Zurich"
+  ],
   "media": [
    {
     "id": "media:flag:CH-ZH",

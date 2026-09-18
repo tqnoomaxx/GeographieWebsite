@@ -1,9 +1,9 @@
 import type { Generator } from './base'
-import { options, qid, accepted, effectiveDifficulty, nameOf } from './base'
+import { options, qid, accepted, effectiveDifficulty, nameOf, isSovereign } from './base'
 import type { GeneratorContext } from '../types'
 
 const countriesWithCapital = (ctx: GeneratorContext) =>
-  ctx.countries.filter((c) => ctx.rel.capitalCity.has(c.id) && ctx.byId.has(ctx.rel.capitalCity.get(c.id)!))
+  ctx.countries.filter((c) => isSovereign(c) && ctx.rel.capitalCity.has(c.id) && ctx.byId.has(ctx.rel.capitalCity.get(c.id)!))
 const capitalCities = (ctx: GeneratorContext) => countriesWithCapital(ctx).map((c) => ctx.byId.get(ctx.rel.capitalCity.get(c.id)!)!)
 
 export const countryToCapital: Generator = {
