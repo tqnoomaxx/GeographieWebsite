@@ -99,7 +99,7 @@ export const landmarkToCity: Generator = {
 export const countryOnMap: Generator = {
   id: 'country_on_map',
   category: 'maps',
-  pool: (ctx) => ctx.countries.filter((c) => c.geometry && isSovereign(c)),
+  pool: (ctx) => ctx.countries.filter((c) => c.attributes.on_world_map && isSovereign(c)),
   make(target, ctx, _rng, difficulty) {
     const d = effectiveDifficulty(target, difficulty)
     return {

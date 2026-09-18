@@ -106,6 +106,16 @@ describe('nature', () => {
   })
 })
 
+describe('maps', () => {
+  it('Weltkarten-Fragen zielen nur auf anklickbare Länder', () => {
+    const c = ctx('world')
+    for (const gid of ['country_on_map', 'flag_to_country_map', 'water_on_map', 'mountain_on_map']) {
+      const s = buildSession(c, { category: gid.startsWith('country') || gid.startsWith('flag') ? (gid.startsWith('flag') ? 'flags' : 'maps') : gid.startsWith('water') ? 'water' : 'nature', scope: 'world', length: 'all', seed: gid, generatorIds: [gid] })
+      for (const q of s.questions) expect(c.byId.get(q.question.answer)?.attributes.on_world_map, q.question.answer).toBe(true)
+    }
+  })
+})
+
 describe('srs + level', () => {
   it('steigt bei richtigen Antworten und fällt bei falschen', () => {
     let p = initialProgress('country:DE')

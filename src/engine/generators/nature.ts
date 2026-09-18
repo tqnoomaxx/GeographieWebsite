@@ -64,7 +64,7 @@ function onMap(id: string, category: 'water' | 'nature', promptKey: string, pool
   return {
     id,
     category,
-    pool: (ctx) => pool(ctx).filter((e) => (e.attributes.countries as string[])?.length === 1 && ctx.byId.get(e.attributes.country!)?.geometry),
+    pool: (ctx) => pool(ctx).filter((e) => (e.attributes.countries as string[])?.length === 1 && ctx.byId.get(e.attributes.country!)?.attributes.on_world_map),
     make(target, ctx, _rng, difficulty) {
       const country = ctx.byId.get(target.attributes.country!)!
       const d = effectiveDifficulty(target, difficulty)

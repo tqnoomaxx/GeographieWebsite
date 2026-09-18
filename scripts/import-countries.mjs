@@ -157,6 +157,8 @@ const world = {
     }))
     .filter((f) => f.properties.id),
 }
+const onWorld = new Set(world.features.map((f) => f.properties.id))
+for (const c of countries) if (onWorld.has(c.id)) c.attributes.on_world_map = true
 writeJson(join(DATA, 'geo', 'world.json'), world)
 writeJson(join(DATA, 'geo', 'SOURCES.json'), {
   natural_earth: { url: 'https://www.naturalearthdata.com/', license: 'Public Domain', versions: ['110m', '50m'] },

@@ -138,7 +138,7 @@ export const flagToRegionMap: Generator = {
 export const flagToCountryMap: Generator = {
   id: 'flag_to_country_map',
   category: 'flags',
-  pool: (ctx) => countriesWithFlag(ctx).filter((c) => c.geometry && c.attributes.independent !== false),
+  pool: (ctx) => countriesWithFlag(ctx).filter((c) => c.attributes.on_world_map),
   make(target, ctx, _rng, difficulty) {
     const d = effectiveDifficulty(target, difficulty)
     return {
