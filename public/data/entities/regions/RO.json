@@ -1,0 +1,98 @@
+[
+ {
+  "id": "region:RO-B",
+  "type": "region",
+  "names": {
+   "de": "BUCURESTI"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RO-B",
+    "kind": "flag",
+    "url": "media/flags/regions/RO-B.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Bucharest",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Bucharest"
+   }
+  ],
+  "attributes": {
+   "code": "RO-B",
+   "country": "country:RO",
+   "admin_level": 1,
+   "collection": "europe-ro",
+   "continent": "europe",
+   "map": "media/maps/regions/RO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Bucharest"
+  }
+ },
+ {
+  "id": "region:RO-IL",
+  "type": "region",
+  "names": {
+   "de": "IALOMITA"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RO-IL",
+    "kind": "flag",
+    "url": "media/flags/regions/RO-IL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Romania",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Romania"
+   }
+  ],
+  "attributes": {
+   "code": "RO-IL",
+   "country": "country:RO",
+   "admin_level": 1,
+   "collection": "europe-ro",
+   "continent": "europe",
+   "map": "media/maps/regions/RO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Romania"
+  }
+ },
+ {
+  "id": "region:RO-MM",
+  "type": "region",
+  "names": {
+   "de": "MARAMURES"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RO-MM",
+    "kind": "flag",
+    "url": "media/flags/regions/RO-MM.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Romania",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Romania"
+   }
+  ],
+  "attributes": {
+   "code": "RO-MM",
+   "country": "country:RO",
+   "admin_level": 1,
+   "collection": "europe-ro",
+   "continent": "europe",
+   "map": "media/maps/regions/RO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Romania"
+  }
+ }
+]

@@ -1,0 +1,866 @@
+[
+ {
+  "id": "region:BR-AC",
+  "type": "region",
+  "names": {
+   "de": "Acre"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-AC",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-AC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Acre",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Acre"
+   }
+  ],
+  "attributes": {
+   "code": "BR-AC",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Acre"
+  }
+ },
+ {
+  "id": "region:BR-AL",
+  "type": "region",
+  "names": {
+   "de": "Alagoas"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-AL",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-AL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Alagoas",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Alagoas"
+   }
+  ],
+  "attributes": {
+   "code": "BR-AL",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Alagoas"
+  }
+ },
+ {
+  "id": "region:BR-AM",
+  "type": "region",
+  "names": {
+   "de": "Amazonas"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-AM",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-AM.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Amazonas",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Amazonas"
+   }
+  ],
+  "attributes": {
+   "code": "BR-AM",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Amazonas"
+  }
+ },
+ {
+  "id": "region:BR-AP",
+  "type": "region",
+  "names": {
+   "de": "Amapá"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-AP",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-AP.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Amap%C3%A1",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Amap%C3%A1"
+   }
+  ],
+  "attributes": {
+   "code": "BR-AP",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Amap%C3%A1"
+  }
+ },
+ {
+  "id": "region:BR-BA",
+  "type": "region",
+  "names": {
+   "de": "Bahia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-BA",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-BA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Bahia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Bahia"
+   }
+  ],
+  "attributes": {
+   "code": "BR-BA",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Bahia"
+  }
+ },
+ {
+  "id": "region:BR-CE",
+  "type": "region",
+  "names": {
+   "de": "Ceará"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-CE",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-CE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Cear%C3%A1",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Cear%C3%A1"
+   }
+  ],
+  "attributes": {
+   "code": "BR-CE",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Cear%C3%A1"
+  }
+ },
+ {
+  "id": "region:BR-DF",
+  "type": "region",
+  "names": {
+   "de": "Distrito Federal"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-DF",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-DF.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Federal_District_(Brazil)",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_the_Federal_District_(Brazil)"
+   }
+  ],
+  "attributes": {
+   "code": "BR-DF",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Federal_District_(Brazil)"
+  }
+ },
+ {
+  "id": "region:BR-ES",
+  "type": "region",
+  "names": {
+   "de": "Espírito Santo"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-ES",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-ES.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Esp%C3%ADrito_Santo",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Esp%C3%ADrito_Santo"
+   }
+  ],
+  "attributes": {
+   "code": "BR-ES",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Esp%C3%ADrito_Santo"
+  }
+ },
+ {
+  "id": "region:BR-GO",
+  "type": "region",
+  "names": {
+   "de": "Goiás"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-GO",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-GO.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Goi%C3%A1s",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Goi%C3%A1s"
+   }
+  ],
+  "attributes": {
+   "code": "BR-GO",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Goi%C3%A1s"
+  }
+ },
+ {
+  "id": "region:BR-MA",
+  "type": "region",
+  "names": {
+   "de": "Maranhão"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-MA",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-MA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Maranh%C3%A3o",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Maranh%C3%A3o"
+   }
+  ],
+  "attributes": {
+   "code": "BR-MA",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Maranh%C3%A3o"
+  }
+ },
+ {
+  "id": "region:BR-MG",
+  "type": "region",
+  "names": {
+   "de": "Minas Gerais"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-MG",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-MG.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Minas_Gerais",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Minas_Gerais"
+   }
+  ],
+  "attributes": {
+   "code": "BR-MG",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Minas_Gerais"
+  }
+ },
+ {
+  "id": "region:BR-MS",
+  "type": "region",
+  "names": {
+   "de": "Mato Grosso do Sul"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-MS",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-MS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Mato_Grosso_do_Sul",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Mato_Grosso_do_Sul"
+   }
+  ],
+  "attributes": {
+   "code": "BR-MS",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Mato_Grosso_do_Sul"
+  }
+ },
+ {
+  "id": "region:BR-MT",
+  "type": "region",
+  "names": {
+   "de": "Mato Grosso"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-MT",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-MT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Mato_Grosso",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Mato_Grosso"
+   }
+  ],
+  "attributes": {
+   "code": "BR-MT",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Mato_Grosso"
+  }
+ },
+ {
+  "id": "region:BR-PA",
+  "type": "region",
+  "names": {
+   "de": "Pará"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-PA",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-PA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Par%C3%A1",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Par%C3%A1"
+   }
+  ],
+  "attributes": {
+   "code": "BR-PA",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Par%C3%A1"
+  }
+ },
+ {
+  "id": "region:BR-PB",
+  "type": "region",
+  "names": {
+   "de": "Paraíba"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-PB",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-PB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Para%C3%ADba",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Para%C3%ADba"
+   }
+  ],
+  "attributes": {
+   "code": "BR-PB",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Para%C3%ADba"
+  }
+ },
+ {
+  "id": "region:BR-PE",
+  "type": "region",
+  "names": {
+   "de": "Pernambuco"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-PE",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-PE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Pernambuco",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Pernambuco"
+   }
+  ],
+  "attributes": {
+   "code": "BR-PE",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Pernambuco"
+  }
+ },
+ {
+  "id": "region:BR-PI",
+  "type": "region",
+  "names": {
+   "de": "Piauí"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-PI",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-PI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Piau%C3%AD",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Piau%C3%AD"
+   }
+  ],
+  "attributes": {
+   "code": "BR-PI",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Piau%C3%AD"
+  }
+ },
+ {
+  "id": "region:BR-PR",
+  "type": "region",
+  "names": {
+   "de": "Paraná"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-PR",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-PR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Paran%C3%A1",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Paran%C3%A1"
+   }
+  ],
+  "attributes": {
+   "code": "BR-PR",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Paran%C3%A1"
+  }
+ },
+ {
+  "id": "region:BR-RJ",
+  "type": "region",
+  "names": {
+   "de": "Rio de Janeiro"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-RJ",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-RJ.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Rio_de_Janeiro_(state)",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Rio_de_Janeiro_(state)"
+   }
+  ],
+  "attributes": {
+   "code": "BR-RJ",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Rio_de_Janeiro_(state)"
+  }
+ },
+ {
+  "id": "region:BR-RN",
+  "type": "region",
+  "names": {
+   "de": "Rio Grande do Norte"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-RN",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-RN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Rio_Grande_do_Norte",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Rio_Grande_do_Norte"
+   }
+  ],
+  "attributes": {
+   "code": "BR-RN",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Rio_Grande_do_Norte"
+  }
+ },
+ {
+  "id": "region:BR-RO",
+  "type": "region",
+  "names": {
+   "de": "Rondônia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-RO",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-RO.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Rond%C3%B4nia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Rond%C3%B4nia"
+   }
+  ],
+  "attributes": {
+   "code": "BR-RO",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Rond%C3%B4nia"
+  }
+ },
+ {
+  "id": "region:BR-RR",
+  "type": "region",
+  "names": {
+   "de": "Roraima"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-RR",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-RR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Roraima",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Roraima"
+   }
+  ],
+  "attributes": {
+   "code": "BR-RR",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Roraima"
+  }
+ },
+ {
+  "id": "region:BR-RS",
+  "type": "region",
+  "names": {
+   "de": "Rio Grande do Sul"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-RS",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-RS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Rio_Grande_do_Sul",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Rio_Grande_do_Sul"
+   }
+  ],
+  "attributes": {
+   "code": "BR-RS",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Rio_Grande_do_Sul"
+  }
+ },
+ {
+  "id": "region:BR-SC",
+  "type": "region",
+  "names": {
+   "de": "Santa Catarina"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-SC",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-SC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Santa_Catarina",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Santa_Catarina"
+   }
+  ],
+  "attributes": {
+   "code": "BR-SC",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Santa_Catarina"
+  }
+ },
+ {
+  "id": "region:BR-SE",
+  "type": "region",
+  "names": {
+   "de": "Sergipe"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-SE",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-SE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Sergipe",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Sergipe"
+   }
+  ],
+  "attributes": {
+   "code": "BR-SE",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Sergipe"
+  }
+ },
+ {
+  "id": "region:BR-SP",
+  "type": "region",
+  "names": {
+   "de": "São Paulo"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-SP",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-SP.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_S%C3%A3o_Paulo_(state)",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_S%C3%A3o_Paulo_(state)"
+   }
+  ],
+  "attributes": {
+   "code": "BR-SP",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_S%C3%A3o_Paulo_(state)"
+  }
+ },
+ {
+  "id": "region:BR-TO",
+  "type": "region",
+  "names": {
+   "de": "Tocantins"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BR-TO",
+    "kind": "flag",
+    "url": "media/flags/regions/BR-TO.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Tocantins",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Tocantins"
+   }
+  ],
+  "attributes": {
+   "code": "BR-TO",
+   "country": "country:BR",
+   "admin_level": 1,
+   "collection": "brazil",
+   "continent": "south-america",
+   "map": "media/maps/regions/BR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Tocantins"
+  }
+ }
+]

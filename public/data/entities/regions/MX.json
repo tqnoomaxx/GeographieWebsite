@@ -1,0 +1,1026 @@
+[
+ {
+  "id": "region:MX-AGU",
+  "type": "region",
+  "names": {
+   "de": "Aguascalientes"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-AGU",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-AGU.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Aguascalientes",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Aguascalientes"
+   }
+  ],
+  "attributes": {
+   "code": "MX-AGU",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Aguascalientes"
+  }
+ },
+ {
+  "id": "region:MX-BCN",
+  "type": "region",
+  "names": {
+   "de": "Baja California"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-BCN",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-BCN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Baja_California",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Baja_California"
+   }
+  ],
+  "attributes": {
+   "code": "MX-BCN",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Baja_California"
+  }
+ },
+ {
+  "id": "region:MX-BCS",
+  "type": "region",
+  "names": {
+   "de": "Baja California Sur"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-BCS",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-BCS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Baja_California_Sur",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Baja_California_Sur"
+   }
+  ],
+  "attributes": {
+   "code": "MX-BCS",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Baja_California_Sur"
+  }
+ },
+ {
+  "id": "region:MX-CAM",
+  "type": "region",
+  "names": {
+   "de": "Campeche"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-CAM",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-CAM.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Campeche.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Campeche.svg"
+   }
+  ],
+  "attributes": {
+   "code": "MX-CAM",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Campeche.svg"
+  }
+ },
+ {
+  "id": "region:MX-CHH",
+  "type": "region",
+  "names": {
+   "de": "Chihuahua"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-CHH",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-CHH.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Chihuahua_(state)",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Chihuahua_(state)"
+   }
+  ],
+  "attributes": {
+   "code": "MX-CHH",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Chihuahua_(state)"
+  }
+ },
+ {
+  "id": "region:MX-CHP",
+  "type": "region",
+  "names": {
+   "de": "Chiapas"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-CHP",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-CHP.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Chiapas",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Chiapas"
+   }
+  ],
+  "attributes": {
+   "code": "MX-CHP",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Chiapas"
+  }
+ },
+ {
+  "id": "region:MX-CMX",
+  "type": "region",
+  "names": {
+   "de": "Mexiko-Stadt"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-CMX",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-CMX.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Mexico_City",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Mexico_City"
+   }
+  ],
+  "attributes": {
+   "code": "MX-CMX",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Mexico_City"
+  }
+ },
+ {
+  "id": "region:MX-COA",
+  "type": "region",
+  "names": {
+   "de": "Coahuila"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-COA",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-COA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Coahuila",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Coahuila"
+   }
+  ],
+  "attributes": {
+   "code": "MX-COA",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Coahuila"
+  }
+ },
+ {
+  "id": "region:MX-COL",
+  "type": "region",
+  "names": {
+   "de": "Colima"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-COL",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-COL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Colima",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Colima"
+   }
+  ],
+  "attributes": {
+   "code": "MX-COL",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Colima"
+  }
+ },
+ {
+  "id": "region:MX-DUR",
+  "type": "region",
+  "names": {
+   "de": "Durango"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-DUR",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-DUR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://es.wikipedia.org/wiki/Bandera_de_Durango",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://es.wikipedia.org/wiki/Bandera_de_Durango"
+   }
+  ],
+  "attributes": {
+   "code": "MX-DUR",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://es.wikipedia.org/wiki/Bandera_de_Durango"
+  }
+ },
+ {
+  "id": "region:MX-GRO",
+  "type": "region",
+  "names": {
+   "de": "Guerrero"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-GRO",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-GRO.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2327250",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2327250"
+   }
+  ],
+  "attributes": {
+   "code": "MX-GRO",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2327250"
+  }
+ },
+ {
+  "id": "region:MX-GUA",
+  "type": "region",
+  "names": {
+   "de": "Guanajuato"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-GUA",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-GUA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Guanajuato",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Guanajuato"
+   }
+  ],
+  "attributes": {
+   "code": "MX-GUA",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Guanajuato"
+  }
+ },
+ {
+  "id": "region:MX-HID",
+  "type": "region",
+  "names": {
+   "de": "Hidalgo"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-HID",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-HID.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Hidalgo.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Hidalgo.svg"
+   }
+  ],
+  "attributes": {
+   "code": "MX-HID",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Hidalgo.svg"
+  }
+ },
+ {
+  "id": "region:MX-JAL",
+  "type": "region",
+  "names": {
+   "de": "Jalisco"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-JAL",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-JAL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Jalisco",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Jalisco"
+   }
+  ],
+  "attributes": {
+   "code": "MX-JAL",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Jalisco"
+  }
+ },
+ {
+  "id": "region:MX-MEX",
+  "type": "region",
+  "names": {
+   "de": "México"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-MEX",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-MEX.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/State_of_Mexico",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/State_of_Mexico"
+   }
+  ],
+  "attributes": {
+   "code": "MX-MEX",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/State_of_Mexico"
+  }
+ },
+ {
+  "id": "region:MX-MIC",
+  "type": "region",
+  "names": {
+   "de": "Michoacán"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-MIC",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-MIC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Michoac%C3%A1n",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Michoac%C3%A1n"
+   }
+  ],
+  "attributes": {
+   "code": "MX-MIC",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Michoac%C3%A1n"
+  }
+ },
+ {
+  "id": "region:MX-MOR",
+  "type": "region",
+  "names": {
+   "de": "Morelos"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-MOR",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-MOR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Morelos",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Morelos"
+   }
+  ],
+  "attributes": {
+   "code": "MX-MOR",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Morelos"
+  }
+ },
+ {
+  "id": "region:MX-NAY",
+  "type": "region",
+  "names": {
+   "de": "Nayarit"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-NAY",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-NAY.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Nayarit",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Nayarit"
+   }
+  ],
+  "attributes": {
+   "code": "MX-NAY",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Nayarit"
+  }
+ },
+ {
+  "id": "region:MX-NLE",
+  "type": "region",
+  "names": {
+   "de": "Nuevo León"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-NLE",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-NLE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Nuevo_Le%C3%B3n",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Nuevo_Le%C3%B3n"
+   }
+  ],
+  "attributes": {
+   "code": "MX-NLE",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Nuevo_Le%C3%B3n"
+  }
+ },
+ {
+  "id": "region:MX-OAX",
+  "type": "region",
+  "names": {
+   "de": "Oaxaca"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-OAX",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-OAX.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Oaxaca",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Oaxaca"
+   }
+  ],
+  "attributes": {
+   "code": "MX-OAX",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Oaxaca"
+  }
+ },
+ {
+  "id": "region:MX-PUE",
+  "type": "region",
+  "names": {
+   "de": "Puebla"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-PUE",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-PUE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Puebla",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Puebla"
+   }
+  ],
+  "attributes": {
+   "code": "MX-PUE",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Puebla"
+  }
+ },
+ {
+  "id": "region:MX-QUE",
+  "type": "region",
+  "names": {
+   "de": "Querétaro"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-QUE",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-QUE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Quer%C3%A9taro",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Quer%C3%A9taro"
+   }
+  ],
+  "attributes": {
+   "code": "MX-QUE",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Quer%C3%A9taro"
+  }
+ },
+ {
+  "id": "region:MX-ROO",
+  "type": "region",
+  "names": {
+   "de": "Quintana Roo"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-ROO",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-ROO.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2129668",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2129668"
+   }
+  ],
+  "attributes": {
+   "code": "MX-ROO",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2129668"
+  }
+ },
+ {
+  "id": "region:MX-SIN",
+  "type": "region",
+  "names": {
+   "de": "Sinaloa"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-SIN",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-SIN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Sinaloa",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Sinaloa"
+   }
+  ],
+  "attributes": {
+   "code": "MX-SIN",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Sinaloa"
+  }
+ },
+ {
+  "id": "region:MX-SLP",
+  "type": "region",
+  "names": {
+   "de": "San Luis Potosí"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-SLP",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-SLP.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/San_Luis_Potos%C3%AD",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/San_Luis_Potos%C3%AD"
+   }
+  ],
+  "attributes": {
+   "code": "MX-SLP",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/San_Luis_Potos%C3%AD"
+  }
+ },
+ {
+  "id": "region:MX-SON",
+  "type": "region",
+  "names": {
+   "de": "Sonora"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-SON",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-SON.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Sonora",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Sonora"
+   }
+  ],
+  "attributes": {
+   "code": "MX-SON",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Sonora"
+  }
+ },
+ {
+  "id": "region:MX-TAB",
+  "type": "region",
+  "names": {
+   "de": "Tabasco"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-TAB",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-TAB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Tabasco",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Tabasco"
+   }
+  ],
+  "attributes": {
+   "code": "MX-TAB",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Tabasco"
+  }
+ },
+ {
+  "id": "region:MX-TAM",
+  "type": "region",
+  "names": {
+   "de": "Tamaulipas"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-TAM",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-TAM.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Tamaulipas",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Tamaulipas"
+   }
+  ],
+  "attributes": {
+   "code": "MX-TAM",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Tamaulipas"
+  }
+ },
+ {
+  "id": "region:MX-TLA",
+  "type": "region",
+  "names": {
+   "de": "Tlaxcala"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-TLA",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-TLA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2697223",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2697223"
+   }
+  ],
+  "attributes": {
+   "code": "MX-TLA",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2697223"
+  }
+ },
+ {
+  "id": "region:MX-VER",
+  "type": "region",
+  "names": {
+   "de": "Veracruz"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-VER",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-VER.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Veracruz",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Veracruz"
+   }
+  ],
+  "attributes": {
+   "code": "MX-VER",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Veracruz"
+  }
+ },
+ {
+  "id": "region:MX-YUC",
+  "type": "region",
+  "names": {
+   "de": "Yucatán"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-YUC",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-YUC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Yucat%C3%A1n",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Yucat%C3%A1n"
+   }
+  ],
+  "attributes": {
+   "code": "MX-YUC",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Yucat%C3%A1n"
+  }
+ },
+ {
+  "id": "region:MX-ZAC",
+  "type": "region",
+  "names": {
+   "de": "Zacatecas"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MX-ZAC",
+    "kind": "flag",
+    "url": "media/flags/regions/MX-ZAC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Zacatecas",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Zacatecas"
+   }
+  ],
+  "attributes": {
+   "code": "MX-ZAC",
+   "country": "country:MX",
+   "admin_level": 1,
+   "collection": "mexico",
+   "continent": "north-america",
+   "map": "media/maps/regions/MX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Zacatecas"
+  }
+ }
+]

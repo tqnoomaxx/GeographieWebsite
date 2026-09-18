@@ -1,0 +1,258 @@
+[
+ {
+  "id": "region:ME-06",
+  "type": "region",
+  "names": {
+   "de": "Cetinje Municipality"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ME-06",
+    "kind": "flag",
+    "url": "media/flags/regions/ME-06.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/me-ceti.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/me-ceti.html"
+   }
+  ],
+  "attributes": {
+   "code": "ME-06",
+   "country": "country:ME",
+   "admin_level": 1,
+   "collection": "europe-me",
+   "continent": "europe",
+   "map": "media/maps/regions/ME"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/me-ceti.html"
+  }
+ },
+ {
+  "id": "region:ME-08",
+  "type": "region",
+  "names": {
+   "de": "Herceg Novi Municipality"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ME-08",
+    "kind": "flag",
+    "url": "media/flags/regions/ME-08.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Herceg_Novi,_Montenegro.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Herceg_Novi,_Montenegro.svg"
+   }
+  ],
+  "attributes": {
+   "code": "ME-08",
+   "country": "country:ME",
+   "admin_level": 1,
+   "collection": "europe-me",
+   "continent": "europe",
+   "map": "media/maps/regions/ME"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Herceg_Novi,_Montenegro.svg"
+  }
+ },
+ {
+  "id": "region:ME-15",
+  "type": "region",
+  "names": {
+   "de": "Plužine Municipality"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ME-15",
+    "kind": "flag",
+    "url": "media/flags/regions/ME-15.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Plužine,_Montenegro.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Plužine,_Montenegro.svg"
+   }
+  ],
+  "attributes": {
+   "code": "ME-15",
+   "country": "country:ME",
+   "admin_level": 1,
+   "collection": "europe-me",
+   "continent": "europe",
+   "map": "media/maps/regions/ME"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Plužine,_Montenegro.svg"
+  }
+ },
+ {
+  "id": "region:ME-16",
+  "type": "region",
+  "names": {
+   "de": "Podgorica Municipality"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ME-16",
+    "kind": "flag",
+    "url": "media/flags/regions/ME-16.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org"
+   }
+  ],
+  "attributes": {
+   "code": "ME-16",
+   "country": "country:ME",
+   "admin_level": 1,
+   "collection": "europe-me",
+   "continent": "europe",
+   "map": "media/maps/regions/ME"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org"
+  }
+ },
+ {
+  "id": "region:ME-17",
+  "type": "region",
+  "names": {
+   "de": "Rožaje Municipality"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ME-17",
+    "kind": "flag",
+    "url": "media/flags/regions/ME-17.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Rozaje.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Rozaje.svg"
+   }
+  ],
+  "attributes": {
+   "code": "ME-17",
+   "country": "country:ME",
+   "admin_level": 1,
+   "collection": "europe-me",
+   "continent": "europe",
+   "map": "media/maps/regions/ME"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Rozaje.svg"
+  }
+ },
+ {
+  "id": "region:ME-18",
+  "type": "region",
+  "names": {
+   "de": "Šavnik Municipality"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ME-18",
+    "kind": "flag",
+    "url": "media/flags/regions/ME-18.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Šavnik,_Montenegro.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Šavnik,_Montenegro.svg"
+   }
+  ],
+  "attributes": {
+   "code": "ME-18",
+   "country": "country:ME",
+   "admin_level": 1,
+   "collection": "europe-me",
+   "continent": "europe",
+   "map": "media/maps/regions/ME"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Šavnik,_Montenegro.svg"
+  }
+ },
+ {
+  "id": "region:ME-19",
+  "type": "region",
+  "names": {
+   "de": "Tivat Municipality"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ME-19",
+    "kind": "flag",
+    "url": "media/flags/regions/ME-19.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Tivat.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Tivat.svg"
+   }
+  ],
+  "attributes": {
+   "code": "ME-19",
+   "country": "country:ME",
+   "admin_level": 1,
+   "collection": "europe-me",
+   "continent": "europe",
+   "map": "media/maps/regions/ME"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Tivat.svg"
+  }
+ },
+ {
+  "id": "region:ME-20",
+  "type": "region",
+  "names": {
+   "de": "Ulcinj Municipality"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ME-20",
+    "kind": "flag",
+    "url": "media/flags/regions/ME-20.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Ulcinj.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Ulcinj.svg"
+   }
+  ],
+  "attributes": {
+   "code": "ME-20",
+   "country": "country:ME",
+   "admin_level": 1,
+   "collection": "europe-me",
+   "continent": "europe",
+   "map": "media/maps/regions/ME"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Ulcinj.svg"
+  }
+ }
+]

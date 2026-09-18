@@ -1,0 +1,34 @@
+[
+ {
+  "id": "region:MT-60",
+  "type": "region",
+  "names": {
+   "de": "Valletta"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MT-60",
+    "kind": "flag",
+    "url": "media/flags/regions/MT-60.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/mt-01.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/mt-01.html"
+   }
+  ],
+  "attributes": {
+   "code": "MT-60",
+   "country": "country:MT",
+   "admin_level": 1,
+   "collection": "europe-mt",
+   "continent": "europe",
+   "map": "media/maps/regions/MT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/mt-01.html"
+  }
+ }
+]

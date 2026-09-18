@@ -1,0 +1,258 @@
+[
+ {
+  "id": "region:SK-BC",
+  "type": "region",
+  "names": {
+   "de": "Banská Bystrica"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SK-BC",
+    "kind": "flag",
+    "url": "media/flags/regions/SK-BC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Slovak_flags",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/List_of_Slovak_flags"
+   }
+  ],
+  "attributes": {
+   "code": "SK-BC",
+   "country": "country:SK",
+   "admin_level": 1,
+   "collection": "slovakia",
+   "continent": "europe",
+   "map": "media/maps/regions/SK"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Slovak_flags"
+  }
+ },
+ {
+  "id": "region:SK-BL",
+  "type": "region",
+  "names": {
+   "de": "Bratislava"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SK-BL",
+    "kind": "flag",
+    "url": "media/flags/regions/SK-BL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Slovak_flags",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/List_of_Slovak_flags"
+   }
+  ],
+  "attributes": {
+   "code": "SK-BL",
+   "country": "country:SK",
+   "admin_level": 1,
+   "collection": "slovakia",
+   "continent": "europe",
+   "map": "media/maps/regions/SK"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Slovak_flags"
+  }
+ },
+ {
+  "id": "region:SK-KI",
+  "type": "region",
+  "names": {
+   "de": "Košice"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SK-KI",
+    "kind": "flag",
+    "url": "media/flags/regions/SK-KI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Slovak_flags",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/List_of_Slovak_flags"
+   }
+  ],
+  "attributes": {
+   "code": "SK-KI",
+   "country": "country:SK",
+   "admin_level": 1,
+   "collection": "slovakia",
+   "continent": "europe",
+   "map": "media/maps/regions/SK"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Slovak_flags"
+  }
+ },
+ {
+  "id": "region:SK-NI",
+  "type": "region",
+  "names": {
+   "de": "Nitra"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SK-NI",
+    "kind": "flag",
+    "url": "media/flags/regions/SK-NI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Slovak_flags",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/List_of_Slovak_flags"
+   }
+  ],
+  "attributes": {
+   "code": "SK-NI",
+   "country": "country:SK",
+   "admin_level": 1,
+   "collection": "slovakia",
+   "continent": "europe",
+   "map": "media/maps/regions/SK"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Slovak_flags"
+  }
+ },
+ {
+  "id": "region:SK-PV",
+  "type": "region",
+  "names": {
+   "de": "Prešov"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SK-PV",
+    "kind": "flag",
+    "url": "media/flags/regions/SK-PV.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Slovak_flags",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/List_of_Slovak_flags"
+   }
+  ],
+  "attributes": {
+   "code": "SK-PV",
+   "country": "country:SK",
+   "admin_level": 1,
+   "collection": "slovakia",
+   "continent": "europe",
+   "map": "media/maps/regions/SK"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Slovak_flags"
+  }
+ },
+ {
+  "id": "region:SK-TA",
+  "type": "region",
+  "names": {
+   "de": "Trnava"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SK-TA",
+    "kind": "flag",
+    "url": "media/flags/regions/SK-TA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Slovak_flags",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/List_of_Slovak_flags"
+   }
+  ],
+  "attributes": {
+   "code": "SK-TA",
+   "country": "country:SK",
+   "admin_level": 1,
+   "collection": "slovakia",
+   "continent": "europe",
+   "map": "media/maps/regions/SK"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Slovak_flags"
+  }
+ },
+ {
+  "id": "region:SK-TC",
+  "type": "region",
+  "names": {
+   "de": "Trenčín"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SK-TC",
+    "kind": "flag",
+    "url": "media/flags/regions/SK-TC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Slovak_flags",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/List_of_Slovak_flags"
+   }
+  ],
+  "attributes": {
+   "code": "SK-TC",
+   "country": "country:SK",
+   "admin_level": 1,
+   "collection": "slovakia",
+   "continent": "europe",
+   "map": "media/maps/regions/SK"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Slovak_flags"
+  }
+ },
+ {
+  "id": "region:SK-ZI",
+  "type": "region",
+  "names": {
+   "de": "Žilina"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SK-ZI",
+    "kind": "flag",
+    "url": "media/flags/regions/SK-ZI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Slovak_flags",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/List_of_Slovak_flags"
+   }
+  ],
+  "attributes": {
+   "code": "SK-ZI",
+   "country": "country:SK",
+   "admin_level": 1,
+   "collection": "slovakia",
+   "continent": "europe",
+   "map": "media/maps/regions/SK"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Slovak_flags"
+  }
+ }
+]

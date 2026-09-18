@@ -1,0 +1,1314 @@
+[
+ {
+  "id": "region:HU-BA",
+  "type": "region",
+  "names": {
+   "de": "Komitat Baranya"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-BA",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-BA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+   }
+  ],
+  "attributes": {
+   "code": "HU-BA",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+  }
+ },
+ {
+  "id": "region:HU-BC",
+  "type": "region",
+  "names": {
+   "de": "Békéscsaba"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-BC",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-BC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q178878",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q178878"
+   }
+  ],
+  "attributes": {
+   "code": "HU-BC",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q178878"
+  }
+ },
+ {
+  "id": "region:HU-BE",
+  "type": "region",
+  "names": {
+   "de": "Komitat Békés"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-BE",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-BE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+   }
+  ],
+  "attributes": {
+   "code": "HU-BE",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+  }
+ },
+ {
+  "id": "region:HU-BK",
+  "type": "region",
+  "names": {
+   "de": "Komitat Bács-Kiskun"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-BK",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-BK.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+   }
+  ],
+  "attributes": {
+   "code": "HU-BK",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+  }
+ },
+ {
+  "id": "region:HU-BZ",
+  "type": "region",
+  "names": {
+   "de": "Komitat Borsod-Abaúj-Zemplén"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-BZ",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-BZ.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+   }
+  ],
+  "attributes": {
+   "code": "HU-BZ",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+  }
+ },
+ {
+  "id": "region:HU-CS",
+  "type": "region",
+  "names": {
+   "de": "Komitat Csongrád-Csanád"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-CS",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-CS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+   }
+  ],
+  "attributes": {
+   "code": "HU-CS",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+  }
+ },
+ {
+  "id": "region:HU-DE",
+  "type": "region",
+  "names": {
+   "de": "Debrecen"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-DE",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-DE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q79880",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q79880"
+   }
+  ],
+  "attributes": {
+   "code": "HU-DE",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q79880"
+  }
+ },
+ {
+  "id": "region:HU-DU",
+  "type": "region",
+  "names": {
+   "de": "Dunaújváros"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-DU",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-DU.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q187812",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q187812"
+   }
+  ],
+  "attributes": {
+   "code": "HU-DU",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q187812"
+  }
+ },
+ {
+  "id": "region:HU-EG",
+  "type": "region",
+  "names": {
+   "de": "Eger"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-EG",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-EG.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q167109",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q167109"
+   }
+  ],
+  "attributes": {
+   "code": "HU-EG",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q167109"
+  }
+ },
+ {
+  "id": "region:HU-FE",
+  "type": "region",
+  "names": {
+   "de": "Komitat Fejér"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-FE",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-FE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+   }
+  ],
+  "attributes": {
+   "code": "HU-FE",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+  }
+ },
+ {
+  "id": "region:HU-GS",
+  "type": "region",
+  "names": {
+   "de": "Komitat Győr-Moson-Sopron"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-GS",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-GS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://hu.wikipedia.org/wiki/Győr-Moson-Sopron_vármegye",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://hu.wikipedia.org/wiki/Győr-Moson-Sopron_vármegye"
+   }
+  ],
+  "attributes": {
+   "code": "HU-GS",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://hu.wikipedia.org/wiki/Győr-Moson-Sopron_vármegye"
+  }
+ },
+ {
+  "id": "region:HU-GY",
+  "type": "region",
+  "names": {
+   "de": "Győr"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-GY",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-GY.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q134494",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q134494"
+   }
+  ],
+  "attributes": {
+   "code": "HU-GY",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q134494"
+  }
+ },
+ {
+  "id": "region:HU-HB",
+  "type": "region",
+  "names": {
+   "de": "Komitat Hajdú-Bihar"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-HB",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-HB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://hu.wikipedia.org/wiki/Hajdú-Bihar_vármegye",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://hu.wikipedia.org/wiki/Hajdú-Bihar_vármegye"
+   }
+  ],
+  "attributes": {
+   "code": "HU-HB",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://hu.wikipedia.org/wiki/Hajdú-Bihar_vármegye"
+  }
+ },
+ {
+  "id": "region:HU-HE",
+  "type": "region",
+  "names": {
+   "de": "Komitat Heves"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-HE",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-HE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+   }
+  ],
+  "attributes": {
+   "code": "HU-HE",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+  }
+ },
+ {
+  "id": "region:HU-HV",
+  "type": "region",
+  "names": {
+   "de": "Hódmezővásárhely"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-HV",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-HV.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q124375",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q124375"
+   }
+  ],
+  "attributes": {
+   "code": "HU-HV",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q124375"
+  }
+ },
+ {
+  "id": "region:HU-JN",
+  "type": "region",
+  "names": {
+   "de": "Komitat Jász-Nagykun-Szolnok"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-JN",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-JN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+   }
+  ],
+  "attributes": {
+   "code": "HU-JN",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+  }
+ },
+ {
+  "id": "region:HU-KE",
+  "type": "region",
+  "names": {
+   "de": "Komitat Komárom-Esztergom"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-KE",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-KE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+   }
+  ],
+  "attributes": {
+   "code": "HU-KE",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+  }
+ },
+ {
+  "id": "region:HU-KM",
+  "type": "region",
+  "names": {
+   "de": "Kecskemét"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-KM",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-KM.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q171357",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q171357"
+   }
+  ],
+  "attributes": {
+   "code": "HU-KM",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q171357"
+  }
+ },
+ {
+  "id": "region:HU-KV",
+  "type": "region",
+  "names": {
+   "de": "Kaposvár"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-KV",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-KV.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q184998",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q184998"
+   }
+  ],
+  "attributes": {
+   "code": "HU-KV",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q184998"
+  }
+ },
+ {
+  "id": "region:HU-MI",
+  "type": "region",
+  "names": {
+   "de": "Miskolc"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-MI",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-MI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q102397",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q102397"
+   }
+  ],
+  "attributes": {
+   "code": "HU-MI",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q102397"
+  }
+ },
+ {
+  "id": "region:HU-NK",
+  "type": "region",
+  "names": {
+   "de": "Nagykanizsa"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-NK",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-NK.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q14424",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q14424"
+   }
+  ],
+  "attributes": {
+   "code": "HU-NK",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q14424"
+  }
+ },
+ {
+  "id": "region:HU-NO",
+  "type": "region",
+  "names": {
+   "de": "Komitat Nógrád"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-NO",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-NO.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://hu.wikipedia.org/wiki/Nógrád_vármegye",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://hu.wikipedia.org/wiki/Nógrád_vármegye"
+   }
+  ],
+  "attributes": {
+   "code": "HU-NO",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://hu.wikipedia.org/wiki/Nógrád_vármegye"
+  }
+ },
+ {
+  "id": "region:HU-NY",
+  "type": "region",
+  "names": {
+   "de": "Nyíregyháza"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-NY",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-NY.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q171223",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q171223"
+   }
+  ],
+  "attributes": {
+   "code": "HU-NY",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q171223"
+  }
+ },
+ {
+  "id": "region:HU-PE",
+  "type": "region",
+  "names": {
+   "de": "Komitat Pest"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-PE",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-PE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://hu.wikipedia.org/wiki/Pest_vármegye",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://hu.wikipedia.org/wiki/Pest_vármegye"
+   }
+  ],
+  "attributes": {
+   "code": "HU-PE",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://hu.wikipedia.org/wiki/Pest_vármegye"
+  }
+ },
+ {
+  "id": "region:HU-PS",
+  "type": "region",
+  "names": {
+   "de": "Pécs"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-PS",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-PS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q45779",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q45779"
+   }
+  ],
+  "attributes": {
+   "code": "HU-PS",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q45779"
+  }
+ },
+ {
+  "id": "region:HU-SD",
+  "type": "region",
+  "names": {
+   "de": "Szeged"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-SD",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-SD.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q81581",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q81581"
+   }
+  ],
+  "attributes": {
+   "code": "HU-SD",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q81581"
+  }
+ },
+ {
+  "id": "region:HU-SF",
+  "type": "region",
+  "names": {
+   "de": "Székesfehérvár"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-SF",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-SF.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q130212",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q130212"
+   }
+  ],
+  "attributes": {
+   "code": "HU-SF",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q130212"
+  }
+ },
+ {
+  "id": "region:HU-SH",
+  "type": "region",
+  "names": {
+   "de": "Szombathely"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-SH",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-SH.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q42007",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q42007"
+   }
+  ],
+  "attributes": {
+   "code": "HU-SH",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q42007"
+  }
+ },
+ {
+  "id": "region:HU-SK",
+  "type": "region",
+  "names": {
+   "de": "Szolnok"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-SK",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-SK.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q181276",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q181276"
+   }
+  ],
+  "attributes": {
+   "code": "HU-SK",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q181276"
+  }
+ },
+ {
+  "id": "region:HU-SN",
+  "type": "region",
+  "names": {
+   "de": "Sopron"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-SN",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-SN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q168648",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q168648"
+   }
+  ],
+  "attributes": {
+   "code": "HU-SN",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q168648"
+  }
+ },
+ {
+  "id": "region:HU-SO",
+  "type": "region",
+  "names": {
+   "de": "Komitat Somogy"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-SO",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-SO.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+   }
+  ],
+  "attributes": {
+   "code": "HU-SO",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+  }
+ },
+ {
+  "id": "region:HU-SS",
+  "type": "region",
+  "names": {
+   "de": "Szekszárd"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-SS",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-SS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q189761",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q189761"
+   }
+  ],
+  "attributes": {
+   "code": "HU-SS",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q189761"
+  }
+ },
+ {
+  "id": "region:HU-ST",
+  "type": "region",
+  "names": {
+   "de": "Salgótarján"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-ST",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-ST.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q189769",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q189769"
+   }
+  ],
+  "attributes": {
+   "code": "HU-ST",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q189769"
+  }
+ },
+ {
+  "id": "region:HU-SZ",
+  "type": "region",
+  "names": {
+   "de": "Komitat Szabolcs-Szatmár-Bereg"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-SZ",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-SZ.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://hu.wikipedia.org/wiki/Szabolcs-Szatmár-Bereg_vármegye",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://hu.wikipedia.org/wiki/Szabolcs-Szatmár-Bereg_vármegye"
+   }
+  ],
+  "attributes": {
+   "code": "HU-SZ",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://hu.wikipedia.org/wiki/Szabolcs-Szatmár-Bereg_vármegye"
+  }
+ },
+ {
+  "id": "region:HU-TB",
+  "type": "region",
+  "names": {
+   "de": "Tatabánya"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-TB",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-TB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q187821",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q187821"
+   }
+  ],
+  "attributes": {
+   "code": "HU-TB",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q187821"
+  }
+ },
+ {
+  "id": "region:HU-TO",
+  "type": "region",
+  "names": {
+   "de": "Komitat Tolna"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-TO",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-TO.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://hu.wikipedia.org/wiki/Tolna_vármegye",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://hu.wikipedia.org/wiki/Tolna_vármegye"
+   }
+  ],
+  "attributes": {
+   "code": "HU-TO",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://hu.wikipedia.org/wiki/Tolna_vármegye"
+  }
+ },
+ {
+  "id": "region:HU-VA",
+  "type": "region",
+  "names": {
+   "de": "Komitat Vas"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-VA",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-VA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+   }
+  ],
+  "attributes": {
+   "code": "HU-VA",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+  }
+ },
+ {
+  "id": "region:HU-VE",
+  "type": "region",
+  "names": {
+   "de": "Komitat Veszprém"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-VE",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-VE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+   }
+  ],
+  "attributes": {
+   "code": "HU-VE",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+  }
+ },
+ {
+  "id": "region:HU-VM",
+  "type": "region",
+  "names": {
+   "de": "Veszprém"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-VM",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-VM.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q146317",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q146317"
+   }
+  ],
+  "attributes": {
+   "code": "HU-VM",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q146317"
+  }
+ },
+ {
+  "id": "region:HU-ZA",
+  "type": "region",
+  "names": {
+   "de": "Komitat Zala"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-ZA",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-ZA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+   }
+  ],
+  "attributes": {
+   "code": "HU-ZA",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Hungary"
+  }
+ },
+ {
+  "id": "region:HU-ZE",
+  "type": "region",
+  "names": {
+   "de": "Zalaegerszeg"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HU-ZE",
+    "kind": "flag",
+    "url": "media/flags/regions/HU-ZE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q60037",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q60037"
+   }
+  ],
+  "attributes": {
+   "code": "HU-ZE",
+   "country": "country:HU",
+   "admin_level": 1,
+   "collection": "europe-hu",
+   "continent": "europe",
+   "map": "media/maps/regions/HU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q60037"
+  }
+ }
+]

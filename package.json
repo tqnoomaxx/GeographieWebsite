@@ -1,0 +1,49 @@
+{
+  "name": "geokompass",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run data:validate && tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "oxlint src scripts",
+    "format": "prettier --write \"src/**/*.{ts,tsx}\" \"scripts/**/*.mjs\"",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "data:legacy": "node scripts/import-legacy.mjs",
+    "data:countries": "node scripts/import-countries.mjs",
+    "data:wikidata": "node scripts/import-wikidata.mjs",
+    "data:validate": "node scripts/validate-data.mjs",
+    "data:all": "npm run data:countries && npm run data:legacy && npm run data:wikidata && npm run data:validate",
+    "deploy": "npm run build && gh-pages -d dist -t true",
+    "e2e": "playwright test"
+  },
+  "dependencies": {
+    "d3-geo": "^3.1.1",
+    "i18next": "^26.4.2",
+    "idb": "^8.0.3",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-i18next": "^17.0.14",
+    "react-router-dom": "^7.18.4"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/d3-geo": "^3.1.1",
+    "@types/geojson": "^7946.0.16",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "gh-pages": "^6.3.0",
+    "oxlint": "^1.81.0",
+    "prettier": "^3.9.8",
+    "tailwindcss": "^4.3.3",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vite-plugin-pwa": "^1.3.0",
+    "vitest": "^5.0.1"
+  }
+}

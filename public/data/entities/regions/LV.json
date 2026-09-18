@@ -1,0 +1,770 @@
+[
+ {
+  "id": "region:LV-007",
+  "type": "region",
+  "names": {
+   "de": "Alūksnes novads"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-007",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-007.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Alūksnes_novada_karogs.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Alūksnes_novada_karogs.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-007",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Alūksnes_novada_karogs.svg"
+  }
+ },
+ {
+  "id": "region:LV-011",
+  "type": "region",
+  "names": {
+   "de": "Ādažu novads"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-011",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-011.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ādažu_novada_karogs.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Ādažu_novada_karogs.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-011",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ādažu_novada_karogs.svg"
+  }
+ },
+ {
+  "id": "region:LV-015",
+  "type": "region",
+  "names": {
+   "de": "Balvu novads"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-015",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-015.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Balvu_novada_karogs.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Balvu_novada_karogs.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-015",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Balvu_novada_karogs.svg"
+  }
+ },
+ {
+  "id": "region:LV-016",
+  "type": "region",
+  "names": {
+   "de": "Bauskas novads"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-016",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-016.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Bauskas_novads.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Bauskas_novads.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-016",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Bauskas_novads.svg"
+  }
+ },
+ {
+  "id": "region:LV-022",
+  "type": "region",
+  "names": {
+   "de": "Cēsu novads"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-022",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-022.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cēsu_novada_karogs.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Cēsu_novada_karogs.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-022",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Cēsu_novada_karogs.svg"
+  }
+ },
+ {
+  "id": "region:LV-041",
+  "type": "region",
+  "names": {
+   "de": "Jelgavas novads"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-041",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-041.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jelgavas_novada_karogs.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Jelgavas_novada_karogs.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-041",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Jelgavas_novada_karogs.svg"
+  }
+ },
+ {
+  "id": "region:LV-042",
+  "type": "region",
+  "names": {
+   "de": "Jēkabpils novads"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-042",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-042.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jēkabpils_novada_karogs.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Jēkabpils_novada_karogs.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-042",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Jēkabpils_novada_karogs.svg"
+  }
+ },
+ {
+  "id": "region:LV-052",
+  "type": "region",
+  "names": {
+   "de": "Ķekavas novads"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-052",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-052.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ķekavas_novada_karogs.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Ķekavas_novada_karogs.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-052",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ķekavas_novada_karogs.svg"
+  }
+ },
+ {
+  "id": "region:LV-054",
+  "type": "region",
+  "names": {
+   "de": "Limbažu novads"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-054",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-054.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Limbazu_novads_karogs.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Limbazu_novads_karogs.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-054",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Limbazu_novads_karogs.svg"
+  }
+ },
+ {
+  "id": "region:LV-080",
+  "type": "region",
+  "names": {
+   "de": "Ropažu novads"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-080",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-080.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ropažu_novada_karogs.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Ropažu_novada_karogs.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-080",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ropažu_novada_karogs.svg"
+  }
+ },
+ {
+  "id": "region:LV-088",
+  "type": "region",
+  "names": {
+   "de": "Saldus novads"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-088",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-088.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Saldus_novads.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Saldus_novads.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-088",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Saldus_novads.svg"
+  }
+ },
+ {
+  "id": "region:LV-089",
+  "type": "region",
+  "names": {
+   "de": "Saulkrastu novads"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-089",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-089.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Saulkrastu_novada_karogs.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Saulkrastu_novada_karogs.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-089",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Saulkrastu_novada_karogs.svg"
+  }
+ },
+ {
+  "id": "region:LV-094",
+  "type": "region",
+  "names": {
+   "de": "Smiltenes novads"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-094",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-094.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Smiltenes_novada_karogs.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Smiltenes_novada_karogs.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-094",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Smiltenes_novada_karogs.svg"
+  }
+ },
+ {
+  "id": "region:LV-106",
+  "type": "region",
+  "names": {
+   "de": "Ventspils novads"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-106",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-106.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ventspils_novada_karogs.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Ventspils_novada_karogs.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-106",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Ventspils_novada_karogs.svg"
+  }
+ },
+ {
+  "id": "region:LV-111",
+  "type": "region",
+  "names": {
+   "de": "Augšdaugavas novads"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-111",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-111.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Augšdaugava_Municipality.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Augšdaugava_Municipality.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-111",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Augšdaugava_Municipality.svg"
+  }
+ },
+ {
+  "id": "region:LV-112",
+  "type": "region",
+  "names": {
+   "de": "Dienvidkurzemes novads"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-112",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-112.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dienvidkurzemes_novada_karogs.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Dienvidkurzemes_novada_karogs.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-112",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Dienvidkurzemes_novada_karogs.svg"
+  }
+ },
+ {
+  "id": "region:LV-113",
+  "type": "region",
+  "names": {
+   "de": "Valmieras novads"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-113",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-113.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Valmieras_novada_karogs.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Valmieras_novada_karogs.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-113",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Valmieras_novada_karogs.svg"
+  }
+ },
+ {
+  "id": "region:LV-DGV",
+  "type": "region",
+  "names": {
+   "de": "Daugavpils"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-DGV",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-DGV.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Daugavpils.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Daugavpils.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-DGV",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Daugavpils.svg"
+  }
+ },
+ {
+  "id": "region:LV-JEL",
+  "type": "region",
+  "names": {
+   "de": "Jelgavas"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-JEL",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-JEL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Jelgava_flag.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Jelgava_flag.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-JEL",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Jelgava_flag.svg"
+  }
+ },
+ {
+  "id": "region:LV-JUR",
+  "type": "region",
+  "names": {
+   "de": "Jūrmalas"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-JUR",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-JUR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Jurmala.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Jurmala.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-JUR",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Jurmala.svg"
+  }
+ },
+ {
+  "id": "region:LV-LPX",
+  "type": "region",
+  "names": {
+   "de": "Liepājas"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-LPX",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-LPX.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Liepāja.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Liepāja.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-LPX",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Liepāja.svg"
+  }
+ },
+ {
+  "id": "region:LV-REZ",
+  "type": "region",
+  "names": {
+   "de": "Rēzeknes"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-REZ",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-REZ.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Rēzekne.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Rēzekne.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-REZ",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Rēzekne.svg"
+  }
+ },
+ {
+  "id": "region:LV-RIX",
+  "type": "region",
+  "names": {
+   "de": "Rīga"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-RIX",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-RIX.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q4487638",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q4487638"
+   }
+  ],
+  "attributes": {
+   "code": "LV-RIX",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q4487638"
+  }
+ },
+ {
+  "id": "region:LV-VEN",
+  "type": "region",
+  "names": {
+   "de": "Ventspils"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LV-VEN",
+    "kind": "flag",
+    "url": "media/flags/regions/LV-VEN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Ventspils.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Ventspils.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LV-VEN",
+   "country": "country:LV",
+   "admin_level": 1,
+   "collection": "europe-lv",
+   "continent": "europe",
+   "map": "media/maps/regions/LV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Ventspils.svg"
+  }
+ }
+]

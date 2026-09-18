@@ -1,0 +1,662 @@
+[
+ {
+  "id": "region:IT-21",
+  "type": "region",
+  "names": {
+   "de": "Piemont"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IT-21",
+    "kind": "flag",
+    "url": "media/flags/regions/IT-21.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Piedmont",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Piedmont"
+   }
+  ],
+  "attributes": {
+   "code": "IT-21",
+   "country": "country:IT",
+   "admin_level": 1,
+   "collection": "italy",
+   "continent": "europe",
+   "capital_name": "Turin",
+   "map": "media/maps/regions/IT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Piedmont"
+  }
+ },
+ {
+  "id": "region:IT-23",
+  "type": "region",
+  "names": {
+   "de": "Aostatal"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IT-23",
+    "kind": "flag",
+    "url": "media/flags/regions/IT-23.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Aosta_Valley",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Aosta_Valley"
+   }
+  ],
+  "attributes": {
+   "code": "IT-23",
+   "country": "country:IT",
+   "admin_level": 1,
+   "collection": "italy",
+   "continent": "europe",
+   "capital_name": "Aosta",
+   "map": "media/maps/regions/IT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Aosta_Valley"
+  }
+ },
+ {
+  "id": "region:IT-25",
+  "type": "region",
+  "names": {
+   "de": "Lombardei"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IT-25",
+    "kind": "flag",
+    "url": "media/flags/regions/IT-25.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Lombardy",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Lombardy"
+   }
+  ],
+  "attributes": {
+   "code": "IT-25",
+   "country": "country:IT",
+   "admin_level": 1,
+   "collection": "italy",
+   "continent": "europe",
+   "capital_name": "Mailand",
+   "map": "media/maps/regions/IT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Lombardy"
+  }
+ },
+ {
+  "id": "region:IT-32",
+  "type": "region",
+  "names": {
+   "de": "Trentino-Südtirol"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IT-32",
+    "kind": "flag",
+    "url": "media/flags/regions/IT-32.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Trentino-Alto_Adige/S%C3%BCdtirol",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Trentino-Alto_Adige/S%C3%BCdtirol"
+   }
+  ],
+  "attributes": {
+   "code": "IT-32",
+   "country": "country:IT",
+   "admin_level": 1,
+   "collection": "italy",
+   "continent": "europe",
+   "capital_name": "Trient",
+   "map": "media/maps/regions/IT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Trentino-Alto_Adige/S%C3%BCdtirol"
+  }
+ },
+ {
+  "id": "region:IT-34",
+  "type": "region",
+  "names": {
+   "de": "Venetien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IT-34",
+    "kind": "flag",
+    "url": "media/flags/regions/IT-34.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Veneto",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Veneto"
+   }
+  ],
+  "attributes": {
+   "code": "IT-34",
+   "country": "country:IT",
+   "admin_level": 1,
+   "collection": "italy",
+   "continent": "europe",
+   "capital_name": "Venedig",
+   "map": "media/maps/regions/IT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Veneto"
+  }
+ },
+ {
+  "id": "region:IT-36",
+  "type": "region",
+  "names": {
+   "de": "Friaul-Julisch Venetien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IT-36",
+    "kind": "flag",
+    "url": "media/flags/regions/IT-36.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Friuli_Venezia_Giulia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Friuli_Venezia_Giulia"
+   }
+  ],
+  "attributes": {
+   "code": "IT-36",
+   "country": "country:IT",
+   "admin_level": 1,
+   "collection": "italy",
+   "continent": "europe",
+   "capital_name": "Triest",
+   "map": "media/maps/regions/IT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Friuli_Venezia_Giulia"
+  }
+ },
+ {
+  "id": "region:IT-42",
+  "type": "region",
+  "names": {
+   "de": "Ligurien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IT-42",
+    "kind": "flag",
+    "url": "media/flags/regions/IT-42.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Liguria",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Liguria"
+   }
+  ],
+  "attributes": {
+   "code": "IT-42",
+   "country": "country:IT",
+   "admin_level": 1,
+   "collection": "italy",
+   "continent": "europe",
+   "capital_name": "Genua",
+   "map": "media/maps/regions/IT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Liguria"
+  }
+ },
+ {
+  "id": "region:IT-45",
+  "type": "region",
+  "names": {
+   "de": "Emilia-Romagna"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IT-45",
+    "kind": "flag",
+    "url": "media/flags/regions/IT-45.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Emilia-Romagna",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Emilia-Romagna"
+   }
+  ],
+  "attributes": {
+   "code": "IT-45",
+   "country": "country:IT",
+   "admin_level": 1,
+   "collection": "italy",
+   "continent": "europe",
+   "capital_name": "Bologna",
+   "map": "media/maps/regions/IT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Emilia-Romagna"
+  }
+ },
+ {
+  "id": "region:IT-52",
+  "type": "region",
+  "names": {
+   "de": "Toskana"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IT-52",
+    "kind": "flag",
+    "url": "media/flags/regions/IT-52.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Tuscany",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Tuscany"
+   }
+  ],
+  "attributes": {
+   "code": "IT-52",
+   "country": "country:IT",
+   "admin_level": 1,
+   "collection": "italy",
+   "continent": "europe",
+   "capital_name": "Florenz",
+   "map": "media/maps/regions/IT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Tuscany"
+  }
+ },
+ {
+  "id": "region:IT-55",
+  "type": "region",
+  "names": {
+   "de": "Umbrien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IT-55",
+    "kind": "flag",
+    "url": "media/flags/regions/IT-55.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Umbria",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Umbria"
+   }
+  ],
+  "attributes": {
+   "code": "IT-55",
+   "country": "country:IT",
+   "admin_level": 1,
+   "collection": "italy",
+   "continent": "europe",
+   "capital_name": "Perugia",
+   "map": "media/maps/regions/IT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Umbria"
+  }
+ },
+ {
+  "id": "region:IT-57",
+  "type": "region",
+  "names": {
+   "de": "Marken"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IT-57",
+    "kind": "flag",
+    "url": "media/flags/regions/IT-57.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Marche",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Marche"
+   }
+  ],
+  "attributes": {
+   "code": "IT-57",
+   "country": "country:IT",
+   "admin_level": 1,
+   "collection": "italy",
+   "continent": "europe",
+   "capital_name": "Ancona",
+   "map": "media/maps/regions/IT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Marche"
+  }
+ },
+ {
+  "id": "region:IT-62",
+  "type": "region",
+  "names": {
+   "de": "Latium"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IT-62",
+    "kind": "flag",
+    "url": "media/flags/regions/IT-62.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Lazio",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Lazio"
+   }
+  ],
+  "attributes": {
+   "code": "IT-62",
+   "country": "country:IT",
+   "admin_level": 1,
+   "collection": "italy",
+   "continent": "europe",
+   "capital_name": "Rom",
+   "map": "media/maps/regions/IT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Lazio"
+  }
+ },
+ {
+  "id": "region:IT-65",
+  "type": "region",
+  "names": {
+   "de": "Abruzzen"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IT-65",
+    "kind": "flag",
+    "url": "media/flags/regions/IT-65.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Abruzzo",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Abruzzo"
+   }
+  ],
+  "attributes": {
+   "code": "IT-65",
+   "country": "country:IT",
+   "admin_level": 1,
+   "collection": "italy",
+   "continent": "europe",
+   "capital_name": "L’Aquila",
+   "map": "media/maps/regions/IT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Abruzzo"
+  }
+ },
+ {
+  "id": "region:IT-67",
+  "type": "region",
+  "names": {
+   "de": "Molise"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IT-67",
+    "kind": "flag",
+    "url": "media/flags/regions/IT-67.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Molise",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Molise"
+   }
+  ],
+  "attributes": {
+   "code": "IT-67",
+   "country": "country:IT",
+   "admin_level": 1,
+   "collection": "italy",
+   "continent": "europe",
+   "capital_name": "Campobasso",
+   "map": "media/maps/regions/IT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Molise"
+  }
+ },
+ {
+  "id": "region:IT-72",
+  "type": "region",
+  "names": {
+   "de": "Kampanien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IT-72",
+    "kind": "flag",
+    "url": "media/flags/regions/IT-72.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Campania",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Campania"
+   }
+  ],
+  "attributes": {
+   "code": "IT-72",
+   "country": "country:IT",
+   "admin_level": 1,
+   "collection": "italy",
+   "continent": "europe",
+   "capital_name": "Neapel",
+   "map": "media/maps/regions/IT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Campania"
+  }
+ },
+ {
+  "id": "region:IT-75",
+  "type": "region",
+  "names": {
+   "de": "Apulien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IT-75",
+    "kind": "flag",
+    "url": "media/flags/regions/IT-75.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Apulia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Apulia"
+   }
+  ],
+  "attributes": {
+   "code": "IT-75",
+   "country": "country:IT",
+   "admin_level": 1,
+   "collection": "italy",
+   "continent": "europe",
+   "capital_name": "Bari",
+   "map": "media/maps/regions/IT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Apulia"
+  }
+ },
+ {
+  "id": "region:IT-77",
+  "type": "region",
+  "names": {
+   "de": "Basilikata"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IT-77",
+    "kind": "flag",
+    "url": "media/flags/regions/IT-77.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Basilicata",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Basilicata"
+   }
+  ],
+  "attributes": {
+   "code": "IT-77",
+   "country": "country:IT",
+   "admin_level": 1,
+   "collection": "italy",
+   "continent": "europe",
+   "capital_name": "Potenza",
+   "map": "media/maps/regions/IT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Basilicata"
+  }
+ },
+ {
+  "id": "region:IT-78",
+  "type": "region",
+  "names": {
+   "de": "Kalabrien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IT-78",
+    "kind": "flag",
+    "url": "media/flags/regions/IT-78.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Calabria",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Calabria"
+   }
+  ],
+  "attributes": {
+   "code": "IT-78",
+   "country": "country:IT",
+   "admin_level": 1,
+   "collection": "italy",
+   "continent": "europe",
+   "capital_name": "Catanzaro",
+   "map": "media/maps/regions/IT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Calabria"
+  }
+ },
+ {
+  "id": "region:IT-82",
+  "type": "region",
+  "names": {
+   "de": "Sizilien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IT-82",
+    "kind": "flag",
+    "url": "media/flags/regions/IT-82.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Sicily",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Sicily"
+   }
+  ],
+  "attributes": {
+   "code": "IT-82",
+   "country": "country:IT",
+   "admin_level": 1,
+   "collection": "italy",
+   "continent": "europe",
+   "capital_name": "Palermo",
+   "map": "media/maps/regions/IT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Sicily"
+  }
+ },
+ {
+  "id": "region:IT-88",
+  "type": "region",
+  "names": {
+   "de": "Sardinien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IT-88",
+    "kind": "flag",
+    "url": "media/flags/regions/IT-88.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Sardinia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Sardinia"
+   }
+  ],
+  "attributes": {
+   "code": "IT-88",
+   "country": "country:IT",
+   "admin_level": 1,
+   "collection": "italy",
+   "continent": "europe",
+   "capital_name": "Cagliari",
+   "map": "media/maps/regions/IT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Sardinia"
+  }
+ }
+]

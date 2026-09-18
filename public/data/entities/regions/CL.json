@@ -1,0 +1,514 @@
+[
+ {
+  "id": "region:CL-AI",
+  "type": "region",
+  "names": {
+   "de": "Aysén"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CL-AI",
+    "kind": "flag",
+    "url": "media/flags/regions/CL-AI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2181",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2181"
+   }
+  ],
+  "attributes": {
+   "code": "CL-AI",
+   "country": "country:CL",
+   "admin_level": 1,
+   "collection": "chile",
+   "continent": "south-america",
+   "map": "media/maps/regions/CL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2181"
+  }
+ },
+ {
+  "id": "region:CL-AN",
+  "type": "region",
+  "names": {
+   "de": "Antofagasta"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CL-AN",
+    "kind": "flag",
+    "url": "media/flags/regions/CL-AN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2118",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2118"
+   }
+  ],
+  "attributes": {
+   "code": "CL-AN",
+   "country": "country:CL",
+   "admin_level": 1,
+   "collection": "chile",
+   "continent": "south-america",
+   "map": "media/maps/regions/CL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2118"
+  }
+ },
+ {
+  "id": "region:CL-AP",
+  "type": "region",
+  "names": {
+   "de": "Arica und Parinacota"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CL-AP",
+    "kind": "flag",
+    "url": "media/flags/regions/CL-AP.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2109",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2109"
+   }
+  ],
+  "attributes": {
+   "code": "CL-AP",
+   "country": "country:CL",
+   "admin_level": 1,
+   "collection": "chile",
+   "continent": "south-america",
+   "map": "media/maps/regions/CL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2109"
+  }
+ },
+ {
+  "id": "region:CL-AR",
+  "type": "region",
+  "names": {
+   "de": "Araucanía"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CL-AR",
+    "kind": "flag",
+    "url": "media/flags/regions/CL-AR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2176",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2176"
+   }
+  ],
+  "attributes": {
+   "code": "CL-AR",
+   "country": "country:CL",
+   "admin_level": 1,
+   "collection": "chile",
+   "continent": "south-america",
+   "map": "media/maps/regions/CL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2176"
+  }
+ },
+ {
+  "id": "region:CL-AT",
+  "type": "region",
+  "names": {
+   "de": "Atacama"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CL-AT",
+    "kind": "flag",
+    "url": "media/flags/regions/CL-AT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2120",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2120"
+   }
+  ],
+  "attributes": {
+   "code": "CL-AT",
+   "country": "country:CL",
+   "admin_level": 1,
+   "collection": "chile",
+   "continent": "south-america",
+   "map": "media/maps/regions/CL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2120"
+  }
+ },
+ {
+  "id": "region:CL-BI",
+  "type": "region",
+  "names": {
+   "de": "Biobío"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CL-BI",
+    "kind": "flag",
+    "url": "media/flags/regions/CL-BI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2170",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2170"
+   }
+  ],
+  "attributes": {
+   "code": "CL-BI",
+   "country": "country:CL",
+   "admin_level": 1,
+   "collection": "chile",
+   "continent": "south-america",
+   "map": "media/maps/regions/CL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2170"
+  }
+ },
+ {
+  "id": "region:CL-CO",
+  "type": "region",
+  "names": {
+   "de": "Coquimbo"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CL-CO",
+    "kind": "flag",
+    "url": "media/flags/regions/CL-CO.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2121",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2121"
+   }
+  ],
+  "attributes": {
+   "code": "CL-CO",
+   "country": "country:CL",
+   "admin_level": 1,
+   "collection": "chile",
+   "continent": "south-america",
+   "map": "media/maps/regions/CL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2121"
+  }
+ },
+ {
+  "id": "region:CL-LI",
+  "type": "region",
+  "names": {
+   "de": "O’Higgins"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CL-LI",
+    "kind": "flag",
+    "url": "media/flags/regions/CL-LI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2133",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2133"
+   }
+  ],
+  "attributes": {
+   "code": "CL-LI",
+   "country": "country:CL",
+   "admin_level": 1,
+   "collection": "chile",
+   "continent": "south-america",
+   "map": "media/maps/regions/CL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2133"
+  }
+ },
+ {
+  "id": "region:CL-LL",
+  "type": "region",
+  "names": {
+   "de": "Los Lagos"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CL-LL",
+    "kind": "flag",
+    "url": "media/flags/regions/CL-LL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2178",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2178"
+   }
+  ],
+  "attributes": {
+   "code": "CL-LL",
+   "country": "country:CL",
+   "admin_level": 1,
+   "collection": "chile",
+   "continent": "south-america",
+   "map": "media/maps/regions/CL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2178"
+  }
+ },
+ {
+  "id": "region:CL-LR",
+  "type": "region",
+  "names": {
+   "de": "Los Ríos"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CL-LR",
+    "kind": "flag",
+    "url": "media/flags/regions/CL-LR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2177",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2177"
+   }
+  ],
+  "attributes": {
+   "code": "CL-LR",
+   "country": "country:CL",
+   "admin_level": 1,
+   "collection": "chile",
+   "continent": "south-america",
+   "map": "media/maps/regions/CL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2177"
+  }
+ },
+ {
+  "id": "region:CL-MA",
+  "type": "region",
+  "names": {
+   "de": "Magallanes und Chilenische Antarktis"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CL-MA",
+    "kind": "flag",
+    "url": "media/flags/regions/CL-MA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2189",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2189"
+   }
+  ],
+  "attributes": {
+   "code": "CL-MA",
+   "country": "country:CL",
+   "admin_level": 1,
+   "collection": "chile",
+   "continent": "south-america",
+   "map": "media/maps/regions/CL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2189"
+  }
+ },
+ {
+  "id": "region:CL-ML",
+  "type": "region",
+  "names": {
+   "de": "Maule"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CL-ML",
+    "kind": "flag",
+    "url": "media/flags/regions/CL-ML.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2166",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2166"
+   }
+  ],
+  "attributes": {
+   "code": "CL-ML",
+   "country": "country:CL",
+   "admin_level": 1,
+   "collection": "chile",
+   "continent": "south-america",
+   "map": "media/maps/regions/CL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2166"
+  }
+ },
+ {
+  "id": "region:CL-NB",
+  "type": "region",
+  "names": {
+   "de": "Ñuble"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CL-NB",
+    "kind": "flag",
+    "url": "media/flags/regions/CL-NB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q24076693",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q24076693"
+   }
+  ],
+  "attributes": {
+   "code": "CL-NB",
+   "country": "country:CL",
+   "admin_level": 1,
+   "collection": "chile",
+   "continent": "south-america",
+   "map": "media/maps/regions/CL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q24076693"
+  }
+ },
+ {
+  "id": "region:CL-RM",
+  "type": "region",
+  "names": {
+   "de": "Metropolregion Santiago"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CL-RM",
+    "kind": "flag",
+    "url": "media/flags/regions/CL-RM.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2131",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2131"
+   }
+  ],
+  "attributes": {
+   "code": "CL-RM",
+   "country": "country:CL",
+   "admin_level": 1,
+   "collection": "chile",
+   "continent": "south-america",
+   "map": "media/maps/regions/CL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2131"
+  }
+ },
+ {
+  "id": "region:CL-TA",
+  "type": "region",
+  "names": {
+   "de": "Tarapacá"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CL-TA",
+    "kind": "flag",
+    "url": "media/flags/regions/CL-TA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2114",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2114"
+   }
+  ],
+  "attributes": {
+   "code": "CL-TA",
+   "country": "country:CL",
+   "admin_level": 1,
+   "collection": "chile",
+   "continent": "south-america",
+   "map": "media/maps/regions/CL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2114"
+  }
+ },
+ {
+  "id": "region:CL-VS",
+  "type": "region",
+  "names": {
+   "de": "Valparaíso"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CL-VS",
+    "kind": "flag",
+    "url": "media/flags/regions/CL-VS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q219458",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q219458"
+   }
+  ],
+  "attributes": {
+   "code": "CL-VS",
+   "country": "country:CL",
+   "admin_level": 1,
+   "collection": "chile",
+   "continent": "south-america",
+   "map": "media/maps/regions/CL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q219458"
+  }
+ }
+]

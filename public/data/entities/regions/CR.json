@@ -1,0 +1,226 @@
+[
+ {
+  "id": "region:CR-A",
+  "type": "region",
+  "names": {
+   "de": "Alajuela"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CR-A",
+    "kind": "flag",
+    "url": "media/flags/regions/CR-A.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q502188",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q502188"
+   }
+  ],
+  "attributes": {
+   "code": "CR-A",
+   "country": "country:CR",
+   "admin_level": 1,
+   "collection": "costa-rica",
+   "continent": "north-america",
+   "map": "media/maps/regions/CR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q502188"
+  }
+ },
+ {
+  "id": "region:CR-C",
+  "type": "region",
+  "names": {
+   "de": "Cartago"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CR-C",
+    "kind": "flag",
+    "url": "media/flags/regions/CR-C.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q502181",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q502181"
+   }
+  ],
+  "attributes": {
+   "code": "CR-C",
+   "country": "country:CR",
+   "admin_level": 1,
+   "collection": "costa-rica",
+   "continent": "north-america",
+   "map": "media/maps/regions/CR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q502181"
+  }
+ },
+ {
+  "id": "region:CR-G",
+  "type": "region",
+  "names": {
+   "de": "Guanacaste"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CR-G",
+    "kind": "flag",
+    "url": "media/flags/regions/CR-G.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q690026",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q690026"
+   }
+  ],
+  "attributes": {
+   "code": "CR-G",
+   "country": "country:CR",
+   "admin_level": 1,
+   "collection": "costa-rica",
+   "continent": "north-america",
+   "map": "media/maps/regions/CR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q690026"
+  }
+ },
+ {
+  "id": "region:CR-H",
+  "type": "region",
+  "names": {
+   "de": "Heredia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CR-H",
+    "kind": "flag",
+    "url": "media/flags/regions/CR-H.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q502192",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q502192"
+   }
+  ],
+  "attributes": {
+   "code": "CR-H",
+   "country": "country:CR",
+   "admin_level": 1,
+   "collection": "costa-rica",
+   "continent": "north-america",
+   "map": "media/maps/regions/CR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q502192"
+  }
+ },
+ {
+  "id": "region:CR-L",
+  "type": "region",
+  "names": {
+   "de": "Limón"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CR-L",
+    "kind": "flag",
+    "url": "media/flags/regions/CR-L.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q642644",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q642644"
+   }
+  ],
+  "attributes": {
+   "code": "CR-L",
+   "country": "country:CR",
+   "admin_level": 1,
+   "collection": "costa-rica",
+   "continent": "north-america",
+   "map": "media/maps/regions/CR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q642644"
+  }
+ },
+ {
+  "id": "region:CR-P",
+  "type": "region",
+  "names": {
+   "de": "Puntarenas"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CR-P",
+    "kind": "flag",
+    "url": "media/flags/regions/CR-P.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q502170",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q502170"
+   }
+  ],
+  "attributes": {
+   "code": "CR-P",
+   "country": "country:CR",
+   "admin_level": 1,
+   "collection": "costa-rica",
+   "continent": "north-america",
+   "map": "media/maps/regions/CR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q502170"
+  }
+ },
+ {
+  "id": "region:CR-SJ",
+  "type": "region",
+  "names": {
+   "de": "San José"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CR-SJ",
+    "kind": "flag",
+    "url": "media/flags/regions/CR-SJ.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q647808",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q647808"
+   }
+  ],
+  "attributes": {
+   "code": "CR-SJ",
+   "country": "country:CR",
+   "admin_level": 1,
+   "collection": "costa-rica",
+   "continent": "north-america",
+   "map": "media/maps/regions/CR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q647808"
+  }
+ }
+]

@@ -1,0 +1,1058 @@
+[
+ {
+  "id": "region:CO-AMA",
+  "type": "region",
+  "names": {
+   "de": "Amazonas"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-AMA",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-AMA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Amazonas_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Amazonas_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-AMA",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Amazonas_Department"
+  }
+ },
+ {
+  "id": "region:CO-ANT",
+  "type": "region",
+  "names": {
+   "de": "Antioquia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-ANT",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-ANT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Antioquia_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Antioquia_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-ANT",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Antioquia_Department"
+  }
+ },
+ {
+  "id": "region:CO-ARA",
+  "type": "region",
+  "names": {
+   "de": "Arauca"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-ARA",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-ARA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Arauca_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Arauca_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-ARA",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Arauca_Department"
+  }
+ },
+ {
+  "id": "region:CO-ATL",
+  "type": "region",
+  "names": {
+   "de": "Atlántico"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-ATL",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-ATL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Atl%C3%A1ntico_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Atl%C3%A1ntico_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-ATL",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Atl%C3%A1ntico_Department"
+  }
+ },
+ {
+  "id": "region:CO-BOL",
+  "type": "region",
+  "names": {
+   "de": "Bolívar"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-BOL",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-BOL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Bol%C3%ADvar_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Bol%C3%ADvar_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-BOL",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Bol%C3%ADvar_Department"
+  }
+ },
+ {
+  "id": "region:CO-BOY",
+  "type": "region",
+  "names": {
+   "de": "Boyacá"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-BOY",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-BOY.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Boyac%C3%A1_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Boyac%C3%A1_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-BOY",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Boyac%C3%A1_Department"
+  }
+ },
+ {
+  "id": "region:CO-CAL",
+  "type": "region",
+  "names": {
+   "de": "Caldas"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-CAL",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-CAL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Caldas_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Caldas_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-CAL",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Caldas_Department"
+  }
+ },
+ {
+  "id": "region:CO-CAQ",
+  "type": "region",
+  "names": {
+   "de": "Caquetá"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-CAQ",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-CAQ.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Caquet%C3%A1_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Caquet%C3%A1_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-CAQ",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Caquet%C3%A1_Department"
+  }
+ },
+ {
+  "id": "region:CO-CAS",
+  "type": "region",
+  "names": {
+   "de": "Casanare"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-CAS",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-CAS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Casanare_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Casanare_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-CAS",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Casanare_Department"
+  }
+ },
+ {
+  "id": "region:CO-CAU",
+  "type": "region",
+  "names": {
+   "de": "Cauca"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-CAU",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-CAU.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Cauca_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Cauca_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-CAU",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Cauca_Department"
+  }
+ },
+ {
+  "id": "region:CO-CES",
+  "type": "region",
+  "names": {
+   "de": "Cesar"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-CES",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-CES.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Cesar_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Cesar_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-CES",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Cesar_Department"
+  }
+ },
+ {
+  "id": "region:CO-CHO",
+  "type": "region",
+  "names": {
+   "de": "Chocó"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-CHO",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-CHO.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Choc%C3%B3_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Choc%C3%B3_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-CHO",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Choc%C3%B3_Department"
+  }
+ },
+ {
+  "id": "region:CO-COR",
+  "type": "region",
+  "names": {
+   "de": "Córdoba"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-COR",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-COR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/C%C3%B3rdoba_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-COR",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/C%C3%B3rdoba_Department"
+  }
+ },
+ {
+  "id": "region:CO-CUN",
+  "type": "region",
+  "names": {
+   "de": "Cundinamarca"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-CUN",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-CUN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Cundinamarca_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Cundinamarca_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-CUN",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Cundinamarca_Department"
+  }
+ },
+ {
+  "id": "region:CO-DC",
+  "type": "region",
+  "names": {
+   "de": "Bogotá"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-DC",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-DC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Bogot%C3%A1",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Bogot%C3%A1"
+   }
+  ],
+  "attributes": {
+   "code": "CO-DC",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Bogot%C3%A1"
+  }
+ },
+ {
+  "id": "region:CO-GUA",
+  "type": "region",
+  "names": {
+   "de": "Guainía"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-GUA",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-GUA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Guain%C3%ADa_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Guain%C3%ADa_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-GUA",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Guain%C3%ADa_Department"
+  }
+ },
+ {
+  "id": "region:CO-GUV",
+  "type": "region",
+  "names": {
+   "de": "Guaviare"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-GUV",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-GUV.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Guaviare_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Guaviare_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-GUV",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Guaviare_Department"
+  }
+ },
+ {
+  "id": "region:CO-HUI",
+  "type": "region",
+  "names": {
+   "de": "Huila"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-HUI",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-HUI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Huila_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Huila_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-HUI",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Huila_Department"
+  }
+ },
+ {
+  "id": "region:CO-LAG",
+  "type": "region",
+  "names": {
+   "de": "La Guajira"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-LAG",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-LAG.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/La_Guajira_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/La_Guajira_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-LAG",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/La_Guajira_Department"
+  }
+ },
+ {
+  "id": "region:CO-MAG",
+  "type": "region",
+  "names": {
+   "de": "Magdalena"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-MAG",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-MAG.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Magdalena_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Magdalena_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-MAG",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Magdalena_Department"
+  }
+ },
+ {
+  "id": "region:CO-MET",
+  "type": "region",
+  "names": {
+   "de": "Meta"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-MET",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-MET.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Meta_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Meta_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-MET",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Meta_Department"
+  }
+ },
+ {
+  "id": "region:CO-NAR",
+  "type": "region",
+  "names": {
+   "de": "Nariño"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-NAR",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-NAR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Nari%C3%B1o_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Nari%C3%B1o_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-NAR",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Nari%C3%B1o_Department"
+  }
+ },
+ {
+  "id": "region:CO-NSA",
+  "type": "region",
+  "names": {
+   "de": "Norte de Santander"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-NSA",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-NSA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Norte_de_Santander_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Norte_de_Santander_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-NSA",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Norte_de_Santander_Department"
+  }
+ },
+ {
+  "id": "region:CO-PUT",
+  "type": "region",
+  "names": {
+   "de": "Putumayo"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-PUT",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-PUT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Putumayo_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Putumayo_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-PUT",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Putumayo_Department"
+  }
+ },
+ {
+  "id": "region:CO-QUI",
+  "type": "region",
+  "names": {
+   "de": "Quindío"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-QUI",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-QUI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Quind%C3%ADo_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Quind%C3%ADo_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-QUI",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Quind%C3%ADo_Department"
+  }
+ },
+ {
+  "id": "region:CO-RIS",
+  "type": "region",
+  "names": {
+   "de": "Risaralda"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-RIS",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-RIS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Risaralda_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Risaralda_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-RIS",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Risaralda_Department"
+  }
+ },
+ {
+  "id": "region:CO-SAN",
+  "type": "region",
+  "names": {
+   "de": "Santander"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-SAN",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-SAN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Santander_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Santander_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-SAN",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Santander_Department"
+  }
+ },
+ {
+  "id": "region:CO-SAP",
+  "type": "region",
+  "names": {
+   "de": "San Andrés und Providencia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-SAP",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-SAP.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Archipelago_of_San_Andr%C3%A9s,_Providencia_and_Santa_Catalina",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Archipelago_of_San_Andr%C3%A9s,_Providencia_and_Santa_Catalina"
+   }
+  ],
+  "attributes": {
+   "code": "CO-SAP",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Archipelago_of_San_Andr%C3%A9s,_Providencia_and_Santa_Catalina"
+  }
+ },
+ {
+  "id": "region:CO-SUC",
+  "type": "region",
+  "names": {
+   "de": "Sucre"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-SUC",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-SUC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Sucre_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Sucre_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-SUC",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Sucre_Department"
+  }
+ },
+ {
+  "id": "region:CO-TOL",
+  "type": "region",
+  "names": {
+   "de": "Tolima"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-TOL",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-TOL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Tolima_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Tolima_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-TOL",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Tolima_Department"
+  }
+ },
+ {
+  "id": "region:CO-VAC",
+  "type": "region",
+  "names": {
+   "de": "Valle del Cauca"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-VAC",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-VAC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Valle_del_Cauca_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Valle_del_Cauca_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-VAC",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Valle_del_Cauca_Department"
+  }
+ },
+ {
+  "id": "region:CO-VAU",
+  "type": "region",
+  "names": {
+   "de": "Vaupés"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-VAU",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-VAU.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Vaup%C3%A9s_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Vaup%C3%A9s_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-VAU",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Vaup%C3%A9s_Department"
+  }
+ },
+ {
+  "id": "region:CO-VID",
+  "type": "region",
+  "names": {
+   "de": "Vichada"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CO-VID",
+    "kind": "flag",
+    "url": "media/flags/regions/CO-VID.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Vichada_Department",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Vichada_Department"
+   }
+  ],
+  "attributes": {
+   "code": "CO-VID",
+   "country": "country:CO",
+   "admin_level": 1,
+   "collection": "colombia",
+   "continent": "south-america",
+   "map": "media/maps/regions/CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Vichada_Department"
+  }
+ }
+]

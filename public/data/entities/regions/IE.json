@@ -1,0 +1,130 @@
+[
+ {
+  "id": "region:IE-C",
+  "type": "region",
+  "names": {
+   "de": "Connacht"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IE-C",
+    "kind": "flag",
+    "url": "media/flags/regions/IE-C.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Connacht",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Connacht"
+   }
+  ],
+  "attributes": {
+   "code": "IE-C",
+   "country": "country:IE",
+   "admin_level": 1,
+   "collection": "europe-ie",
+   "continent": "europe",
+   "map": "media/maps/regions/IE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Connacht"
+  }
+ },
+ {
+  "id": "region:IE-L",
+  "type": "region",
+  "names": {
+   "de": "Leinster"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IE-L",
+    "kind": "flag",
+    "url": "media/flags/regions/IE-L.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Leinster",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Leinster"
+   }
+  ],
+  "attributes": {
+   "code": "IE-L",
+   "country": "country:IE",
+   "admin_level": 1,
+   "collection": "europe-ie",
+   "continent": "europe",
+   "map": "media/maps/regions/IE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Leinster"
+  }
+ },
+ {
+  "id": "region:IE-M",
+  "type": "region",
+  "names": {
+   "de": "Munster"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IE-M",
+    "kind": "flag",
+    "url": "media/flags/regions/IE-M.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Munster",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Munster"
+   }
+  ],
+  "attributes": {
+   "code": "IE-M",
+   "country": "country:IE",
+   "admin_level": 1,
+   "collection": "europe-ie",
+   "continent": "europe",
+   "map": "media/maps/regions/IE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Munster"
+  }
+ },
+ {
+  "id": "region:IE-U",
+  "type": "region",
+  "names": {
+   "de": "Ulster"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:IE-U",
+    "kind": "flag",
+    "url": "media/flags/regions/IE-U.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Ulster",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Ulster"
+   }
+  ],
+  "attributes": {
+   "code": "IE-U",
+   "country": "country:IE",
+   "admin_level": 1,
+   "collection": "europe-ie",
+   "continent": "europe",
+   "map": "media/maps/regions/IE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Ulster"
+  }
+ }
+]

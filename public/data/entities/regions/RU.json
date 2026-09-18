@@ -1,0 +1,1890 @@
+[
+ {
+  "id": "region:RU-AD",
+  "type": "region",
+  "names": {
+   "de": "Adygea"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-AD",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-AD.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Adygea",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Adygea"
+   }
+  ],
+  "attributes": {
+   "code": "RU-AD",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Adygea"
+  }
+ },
+ {
+  "id": "region:RU-ARK",
+  "type": "region",
+  "names": {
+   "de": "Arkhangelsk Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-ARK",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-ARK.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Arkhangelsk_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Arkhangelsk_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-ARK",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Arkhangelsk_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-AST",
+  "type": "region",
+  "names": {
+   "de": "Astrakhan Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-AST",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-AST.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Astrakhan_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Astrakhan_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-AST",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Astrakhan_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-BA",
+  "type": "region",
+  "names": {
+   "de": "Bashkortostan"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-BA",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-BA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Bashkortostan",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Bashkortostan"
+   }
+  ],
+  "attributes": {
+   "code": "RU-BA",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Bashkortostan"
+  }
+ },
+ {
+  "id": "region:RU-BEL",
+  "type": "region",
+  "names": {
+   "de": "Belgorod Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-BEL",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-BEL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Belgorod_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Belgorod_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-BEL",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Belgorod_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-BRY",
+  "type": "region",
+  "names": {
+   "de": "Bryansk Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-BRY",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-BRY.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Bryansk_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Bryansk_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-BRY",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Bryansk_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-CE",
+  "type": "region",
+  "names": {
+   "de": "Chechnya"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-CE",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-CE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Chechen_Republic",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_the_Chechen_Republic"
+   }
+  ],
+  "attributes": {
+   "code": "RU-CE",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Chechen_Republic"
+  }
+ },
+ {
+  "id": "region:RU-CHE",
+  "type": "region",
+  "names": {
+   "de": "Chelyabinsk Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-CHE",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-CHE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Chelyabinsk_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Chelyabinsk_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-CHE",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Chelyabinsk_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-CU",
+  "type": "region",
+  "names": {
+   "de": "Chuvashia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-CU",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-CU.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Chuvashia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Chuvashia"
+   }
+  ],
+  "attributes": {
+   "code": "RU-CU",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Chuvashia"
+  }
+ },
+ {
+  "id": "region:RU-DA",
+  "type": "region",
+  "names": {
+   "de": "Dagestan"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-DA",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-DA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Dagestan",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Dagestan"
+   }
+  ],
+  "attributes": {
+   "code": "RU-DA",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Dagestan"
+  }
+ },
+ {
+  "id": "region:RU-IN",
+  "type": "region",
+  "names": {
+   "de": "Ingushetia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-IN",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-IN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Ingushetia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Ingushetia"
+   }
+  ],
+  "attributes": {
+   "code": "RU-IN",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Ingushetia"
+  }
+ },
+ {
+  "id": "region:RU-IVA",
+  "type": "region",
+  "names": {
+   "de": "Ivanovo Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-IVA",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-IVA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Ivanovo_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Ivanovo_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-IVA",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Ivanovo_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-KB",
+  "type": "region",
+  "names": {
+   "de": "Kabardino-Balkaria"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-KB",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-KB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kabardino-Balkaria",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Kabardino-Balkaria"
+   }
+  ],
+  "attributes": {
+   "code": "RU-KB",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kabardino-Balkaria"
+  }
+ },
+ {
+  "id": "region:RU-KC",
+  "type": "region",
+  "names": {
+   "de": "Karachay-Cherkessia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-KC",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-KC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Karachay-Cherkessia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Karachay-Cherkessia"
+   }
+  ],
+  "attributes": {
+   "code": "RU-KC",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Karachay-Cherkessia"
+  }
+ },
+ {
+  "id": "region:RU-KDA",
+  "type": "region",
+  "names": {
+   "de": "Krasnodar Krai"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-KDA",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-KDA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Krasnodar_Krai",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Krasnodar_Krai"
+   }
+  ],
+  "attributes": {
+   "code": "RU-KDA",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Krasnodar_Krai"
+  }
+ },
+ {
+  "id": "region:RU-KGD",
+  "type": "region",
+  "names": {
+   "de": "Kaliningrad"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-KGD",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-KGD.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kaliningrad_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Kaliningrad_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-KGD",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kaliningrad_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-KHM",
+  "type": "region",
+  "names": {
+   "de": "Khanty-Mansiysk Autonomous Okrug – Ugra"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-KHM",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-KHM.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Khanty-Mansi_Autonomous_Okrug",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Khanty-Mansi_Autonomous_Okrug"
+   }
+  ],
+  "attributes": {
+   "code": "RU-KHM",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Khanty-Mansi_Autonomous_Okrug"
+  }
+ },
+ {
+  "id": "region:RU-KIR",
+  "type": "region",
+  "names": {
+   "de": "Kirov Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-KIR",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-KIR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Kirov_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Kirov_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-KIR",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Kirov_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-KL",
+  "type": "region",
+  "names": {
+   "de": "Kalmykia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-KL",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-KL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kalmykia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Kalmykia"
+   }
+  ],
+  "attributes": {
+   "code": "RU-KL",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kalmykia"
+  }
+ },
+ {
+  "id": "region:RU-KLU",
+  "type": "region",
+  "names": {
+   "de": "Kaluga Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-KLU",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-KLU.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kaluga_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Kaluga_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-KLU",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kaluga_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-KO",
+  "type": "region",
+  "names": {
+   "de": "Komi Republic"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-KO",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-KO.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Komi_Republic",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_the_Komi_Republic"
+   }
+  ],
+  "attributes": {
+   "code": "RU-KO",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Komi_Republic"
+  }
+ },
+ {
+  "id": "region:RU-KOS",
+  "type": "region",
+  "names": {
+   "de": "Kostroma Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-KOS",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-KOS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/ru-44.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/ru-44.html"
+   }
+  ],
+  "attributes": {
+   "code": "RU-KOS",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/ru-44.html"
+  }
+ },
+ {
+  "id": "region:RU-KR",
+  "type": "region",
+  "names": {
+   "de": "Republic of Karelia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-KR",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-KR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Republic_of_Karelia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_the_Republic_of_Karelia"
+   }
+  ],
+  "attributes": {
+   "code": "RU-KR",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Republic_of_Karelia"
+  }
+ },
+ {
+  "id": "region:RU-KRS",
+  "type": "region",
+  "names": {
+   "de": "Kursk Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-KRS",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-KRS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kursk_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Kursk_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-KRS",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kursk_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-LEN",
+  "type": "region",
+  "names": {
+   "de": "Leningrad oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-LEN",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-LEN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/ru-47.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/ru-47.html"
+   }
+  ],
+  "attributes": {
+   "code": "RU-LEN",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/ru-47.html"
+  }
+ },
+ {
+  "id": "region:RU-LIP",
+  "type": "region",
+  "names": {
+   "de": "Lipetsk Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-LIP",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-LIP.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Lipetsk_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Lipetsk_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-LIP",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Lipetsk_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-ME",
+  "type": "region",
+  "names": {
+   "de": "Mari El"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-ME",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-ME.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Mari_El",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Mari_El"
+   }
+  ],
+  "attributes": {
+   "code": "RU-ME",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Mari_El"
+  }
+ },
+ {
+  "id": "region:RU-MO",
+  "type": "region",
+  "names": {
+   "de": "Republic of Mordovia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-MO",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-MO.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Mordovia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Mordovia"
+   }
+  ],
+  "attributes": {
+   "code": "RU-MO",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Mordovia"
+  }
+ },
+ {
+  "id": "region:RU-MOS",
+  "type": "region",
+  "names": {
+   "de": "Moscow Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-MOS",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-MOS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Moscow_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Moscow_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-MOS",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Moscow_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-MOW",
+  "type": "region",
+  "names": {
+   "de": "Moscow"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-MOW",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-MOW.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Moscow",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Moscow"
+   }
+  ],
+  "attributes": {
+   "code": "RU-MOW",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Moscow"
+  }
+ },
+ {
+  "id": "region:RU-MUR",
+  "type": "region",
+  "names": {
+   "de": "Murmansk Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-MUR",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-MUR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Murmansk_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Murmansk_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-MUR",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Murmansk_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-NEN",
+  "type": "region",
+  "names": {
+   "de": "Nenets Autonomous Okrug"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-NEN",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-NEN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Nenets_Autonomous_Okrug",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Nenets_Autonomous_Okrug"
+   }
+  ],
+  "attributes": {
+   "code": "RU-NEN",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Nenets_Autonomous_Okrug"
+  }
+ },
+ {
+  "id": "region:RU-NGR",
+  "type": "region",
+  "names": {
+   "de": "Novgorod Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-NGR",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-NGR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Novgorod_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Novgorod_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-NGR",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Novgorod_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-NIZ",
+  "type": "region",
+  "names": {
+   "de": "Nizhny Novgorod Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-NIZ",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-NIZ.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Nizhny_Novgorod_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Nizhny_Novgorod_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-NIZ",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Nizhny_Novgorod_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-ORE",
+  "type": "region",
+  "names": {
+   "de": "Orenburg Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-ORE",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-ORE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Orenburg_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Orenburg_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-ORE",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Orenburg_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-ORL",
+  "type": "region",
+  "names": {
+   "de": "Oryol Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-ORL",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-ORL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Oryol_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Oryol_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-ORL",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Oryol_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-PER",
+  "type": "region",
+  "names": {
+   "de": "Perm Krai"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-PER",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-PER.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Perm_Krai",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Perm_Krai"
+   }
+  ],
+  "attributes": {
+   "code": "RU-PER",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Perm_Krai"
+  }
+ },
+ {
+  "id": "region:RU-PNZ",
+  "type": "region",
+  "names": {
+   "de": "Penza Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-PNZ",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-PNZ.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Penza_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Penza_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-PNZ",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Penza_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-PSK",
+  "type": "region",
+  "names": {
+   "de": "Pskov Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-PSK",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-PSK.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Pskov_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Pskov_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-PSK",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Pskov_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-ROS",
+  "type": "region",
+  "names": {
+   "de": "Rostov Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-ROS",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-ROS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Rostov_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Rostov_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-ROS",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Rostov_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-RYA",
+  "type": "region",
+  "names": {
+   "de": "Ryazan Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-RYA",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-RYA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Ryazan_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Ryazan_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-RYA",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Ryazan_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-SAM",
+  "type": "region",
+  "names": {
+   "de": "Samara Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-SAM",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-SAM.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Samara_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Samara_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-SAM",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Samara_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-SAR",
+  "type": "region",
+  "names": {
+   "de": "Saratov Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-SAR",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-SAR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Saratov_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Saratov_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-SAR",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Saratov_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-SE",
+  "type": "region",
+  "names": {
+   "de": "North Ossetia–Alania"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-SE",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-SE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_North_Ossetia%E2%80%93Alania",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_North_Ossetia%E2%80%93Alania"
+   }
+  ],
+  "attributes": {
+   "code": "RU-SE",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_North_Ossetia%E2%80%93Alania"
+  }
+ },
+ {
+  "id": "region:RU-SMO",
+  "type": "region",
+  "names": {
+   "de": "Smolensk Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-SMO",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-SMO.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Smolensk_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Smolensk_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-SMO",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Smolensk_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-SPE",
+  "type": "region",
+  "names": {
+   "de": "Saint Petersburg"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-SPE",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-SPE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Saint_Petersburg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Saint_Petersburg"
+   }
+  ],
+  "attributes": {
+   "code": "RU-SPE",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Saint_Petersburg"
+  }
+ },
+ {
+  "id": "region:RU-STA",
+  "type": "region",
+  "names": {
+   "de": "Stavropol Krai"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-STA",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-STA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Stavropol_Krai",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Stavropol_Krai"
+   }
+  ],
+  "attributes": {
+   "code": "RU-STA",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Stavropol_Krai"
+  }
+ },
+ {
+  "id": "region:RU-SVE",
+  "type": "region",
+  "names": {
+   "de": "Sverdlovsk Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-SVE",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-SVE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Sverdlovsk_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Sverdlovsk_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-SVE",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Sverdlovsk_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-TA",
+  "type": "region",
+  "names": {
+   "de": "Tatarstan"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-TA",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-TA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Tatarstan",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Tatarstan"
+   }
+  ],
+  "attributes": {
+   "code": "RU-TA",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Tatarstan"
+  }
+ },
+ {
+  "id": "region:RU-TAM",
+  "type": "region",
+  "names": {
+   "de": "Tambov Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-TAM",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-TAM.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Tambov_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Tambov_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-TAM",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Tambov_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-TUL",
+  "type": "region",
+  "names": {
+   "de": "Tula Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-TUL",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-TUL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Tula_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Tula_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-TUL",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Tula_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-TVE",
+  "type": "region",
+  "names": {
+   "de": "Tver Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-TVE",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-TVE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Tver_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Tver_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-TVE",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Tver_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-UD",
+  "type": "region",
+  "names": {
+   "de": "Udmurtia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-UD",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-UD.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Udmurtia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Udmurtia"
+   }
+  ],
+  "attributes": {
+   "code": "RU-UD",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Udmurtia"
+  }
+ },
+ {
+  "id": "region:RU-ULY",
+  "type": "region",
+  "names": {
+   "de": "Ulyanovsk Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-ULY",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-ULY.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Ulyanovsk_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Ulyanovsk_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-ULY",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Ulyanovsk_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-VGG",
+  "type": "region",
+  "names": {
+   "de": "Volgograd Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-VGG",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-VGG.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Volgograd_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Volgograd_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-VGG",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Volgograd_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-VLA",
+  "type": "region",
+  "names": {
+   "de": "Vladimir Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-VLA",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-VLA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Vladimir_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Vladimir_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-VLA",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Vladimir_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-VLG",
+  "type": "region",
+  "names": {
+   "de": "Vologda Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-VLG",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-VLG.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Vologda_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Vologda_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-VLG",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Vologda_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-VOR",
+  "type": "region",
+  "names": {
+   "de": "Voronezh Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-VOR",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-VOR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Voronezh_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Voronezh_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-VOR",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Voronezh_Oblast"
+  }
+ },
+ {
+  "id": "region:RU-YAR",
+  "type": "region",
+  "names": {
+   "de": "Yaroslavl Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RU-YAR",
+    "kind": "flag",
+    "url": "media/flags/regions/RU-YAR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Yaroslavl_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Yaroslavl_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "RU-YAR",
+   "country": "country:RU",
+   "admin_level": 1,
+   "collection": "europe-ru",
+   "continent": "europe",
+   "map": "media/maps/regions/RU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Yaroslavl_Oblast"
+  }
+ }
+]

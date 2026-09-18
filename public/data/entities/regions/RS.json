@@ -1,0 +1,34 @@
+[
+ {
+  "id": "region:RS-00",
+  "type": "region",
+  "names": {
+   "de": "Belgrade"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:RS-00",
+    "kind": "flag",
+    "url": "media/flags/regions/RS-00.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q3434487",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q3434487"
+   }
+  ],
+  "attributes": {
+   "code": "RS-00",
+   "country": "country:RS",
+   "admin_level": 1,
+   "collection": "europe-rs",
+   "continent": "europe",
+   "map": "media/maps/regions/RS"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q3434487"
+  }
+ }
+]

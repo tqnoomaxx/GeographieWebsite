@@ -1,0 +1,299 @@
+[
+ {
+  "id": "region:AT-1",
+  "type": "region",
+  "names": {
+   "de": "Burgenland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AT-1",
+    "kind": "flag",
+    "url": "media/flags/regions/AT-1.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Burgenland_(state).svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Burgenland_(state).svg"
+   }
+  ],
+  "attributes": {
+   "code": "AT-1",
+   "country": "country:AT",
+   "admin_level": 1,
+   "collection": "austria",
+   "continent": "europe",
+   "capital_name": "Eisenstadt",
+   "map": "media/maps/regions/AT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Burgenland_(state).svg"
+  }
+ },
+ {
+  "id": "region:AT-2",
+  "type": "region",
+  "names": {
+   "de": "Kärnten"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AT-2",
+    "kind": "flag",
+    "url": "media/flags/regions/AT-2.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Carinthia_(state).svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Carinthia_(state).svg"
+   }
+  ],
+  "attributes": {
+   "code": "AT-2",
+   "country": "country:AT",
+   "admin_level": 1,
+   "collection": "austria",
+   "continent": "europe",
+   "capital_name": "Klagenfurt",
+   "map": "media/maps/regions/AT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Carinthia_(state).svg"
+  }
+ },
+ {
+  "id": "region:AT-3",
+  "type": "region",
+  "names": {
+   "de": "Niederösterreich"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AT-3",
+    "kind": "flag",
+    "url": "media/flags/regions/AT-3.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Lower_Austria_(state).svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Lower_Austria_(state).svg"
+   }
+  ],
+  "attributes": {
+   "code": "AT-3",
+   "country": "country:AT",
+   "admin_level": 1,
+   "collection": "austria",
+   "continent": "europe",
+   "capital_name": "St. Pölten",
+   "map": "media/maps/regions/AT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Lower_Austria_(state).svg"
+  }
+ },
+ {
+  "id": "region:AT-4",
+  "type": "region",
+  "names": {
+   "de": "Oberösterreich"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AT-4",
+    "kind": "flag",
+    "url": "media/flags/regions/AT-4.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Upper_Austria_(state).svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Upper_Austria_(state).svg"
+   }
+  ],
+  "attributes": {
+   "code": "AT-4",
+   "country": "country:AT",
+   "admin_level": 1,
+   "collection": "austria",
+   "continent": "europe",
+   "capital_name": "Linz",
+   "map": "media/maps/regions/AT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Upper_Austria_(state).svg"
+  }
+ },
+ {
+  "id": "region:AT-5",
+  "type": "region",
+  "names": {
+   "de": "Salzburg"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AT-5",
+    "kind": "flag",
+    "url": "media/flags/regions/AT-5.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Salzburg_(state).svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Salzburg_(state).svg"
+   }
+  ],
+  "attributes": {
+   "code": "AT-5",
+   "country": "country:AT",
+   "admin_level": 1,
+   "collection": "austria",
+   "continent": "europe",
+   "capital_name": "Salzburg",
+   "map": "media/maps/regions/AT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Salzburg_(state).svg"
+  }
+ },
+ {
+  "id": "region:AT-6",
+  "type": "region",
+  "names": {
+   "de": "Steiermark"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AT-6",
+    "kind": "flag",
+    "url": "media/flags/regions/AT-6.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Styria_(state).svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Styria_(state).svg"
+   }
+  ],
+  "attributes": {
+   "code": "AT-6",
+   "country": "country:AT",
+   "admin_level": 1,
+   "collection": "austria",
+   "continent": "europe",
+   "capital_name": "Graz",
+   "map": "media/maps/regions/AT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Styria_(state).svg"
+  }
+ },
+ {
+  "id": "region:AT-7",
+  "type": "region",
+  "names": {
+   "de": "Tirol"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AT-7",
+    "kind": "flag",
+    "url": "media/flags/regions/AT-7.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Tirol_(state).svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Tirol_(state).svg"
+   }
+  ],
+  "attributes": {
+   "code": "AT-7",
+   "country": "country:AT",
+   "admin_level": 1,
+   "collection": "austria",
+   "continent": "europe",
+   "capital_name": "Innsbruck",
+   "map": "media/maps/regions/AT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Tirol_(state).svg"
+  }
+ },
+ {
+  "id": "region:AT-8",
+  "type": "region",
+  "names": {
+   "de": "Vorarlberg"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AT-8",
+    "kind": "flag",
+    "url": "media/flags/regions/AT-8.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Vorarlberg_(state).svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Vorarlberg_(state).svg"
+   }
+  ],
+  "attributes": {
+   "code": "AT-8",
+   "country": "country:AT",
+   "admin_level": 1,
+   "collection": "austria",
+   "continent": "europe",
+   "capital_name": "Bregenz",
+   "map": "media/maps/regions/AT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Vorarlberg_(state).svg"
+  }
+ },
+ {
+  "id": "region:AT-9",
+  "type": "region",
+  "names": {
+   "de": "Wien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AT-9",
+    "kind": "flag",
+    "url": "media/flags/regions/AT-9.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Vienna_(state).svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Vienna_(state).svg"
+   }
+  ],
+  "attributes": {
+   "code": "AT-9",
+   "country": "country:AT",
+   "admin_level": 1,
+   "collection": "austria",
+   "continent": "europe",
+   "capital_name": "Wien",
+   "map": "media/maps/regions/AT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Vienna_(state).svg"
+  }
+ }
+]

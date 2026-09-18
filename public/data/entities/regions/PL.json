@@ -1,0 +1,530 @@
+[
+ {
+  "id": "region:PL-02",
+  "type": "region",
+  "names": {
+   "de": "Niederschlesien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:PL-02",
+    "kind": "flag",
+    "url": "media/flags/regions/PL-02.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Lower_Silesian_Voivodeship",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Lower_Silesian_Voivodeship"
+   }
+  ],
+  "attributes": {
+   "code": "PL-02",
+   "country": "country:PL",
+   "admin_level": 1,
+   "collection": "poland",
+   "continent": "europe",
+   "capital_name": "Wrocław",
+   "map": "media/maps/regions/PL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Lower_Silesian_Voivodeship"
+  }
+ },
+ {
+  "id": "region:PL-04",
+  "type": "region",
+  "names": {
+   "de": "Kujawien-Pommern"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:PL-04",
+    "kind": "flag",
+    "url": "media/flags/regions/PL-04.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Kuyavian-Pomeranian_Voivodeship",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Kuyavian-Pomeranian_Voivodeship"
+   }
+  ],
+  "attributes": {
+   "code": "PL-04",
+   "country": "country:PL",
+   "admin_level": 1,
+   "collection": "poland",
+   "continent": "europe",
+   "capital_name": "Bydgoszcz / Toruń",
+   "map": "media/maps/regions/PL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Kuyavian-Pomeranian_Voivodeship"
+  }
+ },
+ {
+  "id": "region:PL-06",
+  "type": "region",
+  "names": {
+   "de": "Lublin"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:PL-06",
+    "kind": "flag",
+    "url": "media/flags/regions/PL-06.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Lublin_Voivodeship",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Lublin_Voivodeship"
+   }
+  ],
+  "attributes": {
+   "code": "PL-06",
+   "country": "country:PL",
+   "admin_level": 1,
+   "collection": "poland",
+   "continent": "europe",
+   "capital_name": "Lublin",
+   "map": "media/maps/regions/PL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Lublin_Voivodeship"
+  }
+ },
+ {
+  "id": "region:PL-08",
+  "type": "region",
+  "names": {
+   "de": "Lebus"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:PL-08",
+    "kind": "flag",
+    "url": "media/flags/regions/PL-08.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Lubusz_Voivodeship",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Lubusz_Voivodeship"
+   }
+  ],
+  "attributes": {
+   "code": "PL-08",
+   "country": "country:PL",
+   "admin_level": 1,
+   "collection": "poland",
+   "continent": "europe",
+   "capital_name": "Gorzów / Zielona Góra",
+   "map": "media/maps/regions/PL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Lubusz_Voivodeship"
+  }
+ },
+ {
+  "id": "region:PL-10",
+  "type": "region",
+  "names": {
+   "de": "Łódź"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:PL-10",
+    "kind": "flag",
+    "url": "media/flags/regions/PL-10.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/%C5%81%C3%B3d%C5%BA_Voivodeship",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/%C5%81%C3%B3d%C5%BA_Voivodeship"
+   }
+  ],
+  "attributes": {
+   "code": "PL-10",
+   "country": "country:PL",
+   "admin_level": 1,
+   "collection": "poland",
+   "continent": "europe",
+   "capital_name": "Łódź",
+   "map": "media/maps/regions/PL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/%C5%81%C3%B3d%C5%BA_Voivodeship"
+  }
+ },
+ {
+  "id": "region:PL-12",
+  "type": "region",
+  "names": {
+   "de": "Kleinpolen"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:PL-12",
+    "kind": "flag",
+    "url": "media/flags/regions/PL-12.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Lesser_Poland_Voivodeship",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Lesser_Poland_Voivodeship"
+   }
+  ],
+  "attributes": {
+   "code": "PL-12",
+   "country": "country:PL",
+   "admin_level": 1,
+   "collection": "poland",
+   "continent": "europe",
+   "capital_name": "Krakau",
+   "map": "media/maps/regions/PL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Lesser_Poland_Voivodeship"
+  }
+ },
+ {
+  "id": "region:PL-14",
+  "type": "region",
+  "names": {
+   "de": "Masowien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:PL-14",
+    "kind": "flag",
+    "url": "media/flags/regions/PL-14.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Masovian_Voivodeship",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Masovian_Voivodeship"
+   }
+  ],
+  "attributes": {
+   "code": "PL-14",
+   "country": "country:PL",
+   "admin_level": 1,
+   "collection": "poland",
+   "continent": "europe",
+   "capital_name": "Warschau",
+   "map": "media/maps/regions/PL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Masovian_Voivodeship"
+  }
+ },
+ {
+  "id": "region:PL-16",
+  "type": "region",
+  "names": {
+   "de": "Oppeln"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:PL-16",
+    "kind": "flag",
+    "url": "media/flags/regions/PL-16.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Opole_Voivodeship",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Opole_Voivodeship"
+   }
+  ],
+  "attributes": {
+   "code": "PL-16",
+   "country": "country:PL",
+   "admin_level": 1,
+   "collection": "poland",
+   "continent": "europe",
+   "capital_name": "Opole",
+   "map": "media/maps/regions/PL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Opole_Voivodeship"
+  }
+ },
+ {
+  "id": "region:PL-18",
+  "type": "region",
+  "names": {
+   "de": "Karpatenvorland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:PL-18",
+    "kind": "flag",
+    "url": "media/flags/regions/PL-18.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Subcarpathian_Voivodeship",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Subcarpathian_Voivodeship"
+   }
+  ],
+  "attributes": {
+   "code": "PL-18",
+   "country": "country:PL",
+   "admin_level": 1,
+   "collection": "poland",
+   "continent": "europe",
+   "capital_name": "Rzeszów",
+   "map": "media/maps/regions/PL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Subcarpathian_Voivodeship"
+  }
+ },
+ {
+  "id": "region:PL-20",
+  "type": "region",
+  "names": {
+   "de": "Podlachien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:PL-20",
+    "kind": "flag",
+    "url": "media/flags/regions/PL-20.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Podlaskie_Voivodeship",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Podlaskie_Voivodeship"
+   }
+  ],
+  "attributes": {
+   "code": "PL-20",
+   "country": "country:PL",
+   "admin_level": 1,
+   "collection": "poland",
+   "continent": "europe",
+   "capital_name": "Białystok",
+   "map": "media/maps/regions/PL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Podlaskie_Voivodeship"
+  }
+ },
+ {
+  "id": "region:PL-22",
+  "type": "region",
+  "names": {
+   "de": "Pommern"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:PL-22",
+    "kind": "flag",
+    "url": "media/flags/regions/PL-22.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Pomeranian_Voivodeship",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Pomeranian_Voivodeship"
+   }
+  ],
+  "attributes": {
+   "code": "PL-22",
+   "country": "country:PL",
+   "admin_level": 1,
+   "collection": "poland",
+   "continent": "europe",
+   "capital_name": "Danzig",
+   "map": "media/maps/regions/PL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Pomeranian_Voivodeship"
+  }
+ },
+ {
+  "id": "region:PL-24",
+  "type": "region",
+  "names": {
+   "de": "Schlesien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:PL-24",
+    "kind": "flag",
+    "url": "media/flags/regions/PL-24.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Silesian_Voivodeship",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Silesian_Voivodeship"
+   }
+  ],
+  "attributes": {
+   "code": "PL-24",
+   "country": "country:PL",
+   "admin_level": 1,
+   "collection": "poland",
+   "continent": "europe",
+   "capital_name": "Katowice",
+   "map": "media/maps/regions/PL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Silesian_Voivodeship"
+  }
+ },
+ {
+  "id": "region:PL-26",
+  "type": "region",
+  "names": {
+   "de": "Heiligkreuz"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:PL-26",
+    "kind": "flag",
+    "url": "media/flags/regions/PL-26.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/%C5%9Awi%C4%99tokrzyskie_Voivodeship",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/%C5%9Awi%C4%99tokrzyskie_Voivodeship"
+   }
+  ],
+  "attributes": {
+   "code": "PL-26",
+   "country": "country:PL",
+   "admin_level": 1,
+   "collection": "poland",
+   "continent": "europe",
+   "capital_name": "Kielce",
+   "map": "media/maps/regions/PL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/%C5%9Awi%C4%99tokrzyskie_Voivodeship"
+  }
+ },
+ {
+  "id": "region:PL-28",
+  "type": "region",
+  "names": {
+   "de": "Ermland-Masuren"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:PL-28",
+    "kind": "flag",
+    "url": "media/flags/regions/PL-28.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Warmian-Masurian_Voivodeship",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Warmian-Masurian_Voivodeship"
+   }
+  ],
+  "attributes": {
+   "code": "PL-28",
+   "country": "country:PL",
+   "admin_level": 1,
+   "collection": "poland",
+   "continent": "europe",
+   "capital_name": "Olsztyn",
+   "map": "media/maps/regions/PL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Warmian-Masurian_Voivodeship"
+  }
+ },
+ {
+  "id": "region:PL-30",
+  "type": "region",
+  "names": {
+   "de": "Großpolen"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:PL-30",
+    "kind": "flag",
+    "url": "media/flags/regions/PL-30.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Greater_Poland_Voivodeship",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Greater_Poland_Voivodeship"
+   }
+  ],
+  "attributes": {
+   "code": "PL-30",
+   "country": "country:PL",
+   "admin_level": 1,
+   "collection": "poland",
+   "continent": "europe",
+   "capital_name": "Poznań",
+   "map": "media/maps/regions/PL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Greater_Poland_Voivodeship"
+  }
+ },
+ {
+  "id": "region:PL-32",
+  "type": "region",
+  "names": {
+   "de": "Westpommern"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:PL-32",
+    "kind": "flag",
+    "url": "media/flags/regions/PL-32.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/West_Pomeranian_Voivodeship",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/West_Pomeranian_Voivodeship"
+   }
+  ],
+  "attributes": {
+   "code": "PL-32",
+   "country": "country:PL",
+   "admin_level": 1,
+   "collection": "poland",
+   "continent": "europe",
+   "capital_name": "Szczecin",
+   "map": "media/maps/regions/PL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/West_Pomeranian_Voivodeship"
+  }
+ }
+]

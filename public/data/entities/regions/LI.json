@@ -1,0 +1,354 @@
+[
+ {
+  "id": "region:LI-01",
+  "type": "region",
+  "names": {
+   "de": "Balzers"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LI-01",
+    "kind": "flag",
+    "url": "media/flags/regions/LI-01.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Balzers_Liechtenstein-1.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Balzers_Liechtenstein-1.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LI-01",
+   "country": "country:LI",
+   "admin_level": 1,
+   "collection": "europe-li",
+   "continent": "europe",
+   "map": "media/maps/regions/LI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Balzers_Liechtenstein-1.svg"
+  }
+ },
+ {
+  "id": "region:LI-02",
+  "type": "region",
+  "names": {
+   "de": "Eschen"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LI-02",
+    "kind": "flag",
+    "url": "media/flags/regions/LI-02.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Eschen_Liechtenstein-1.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Eschen_Liechtenstein-1.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LI-02",
+   "country": "country:LI",
+   "admin_level": 1,
+   "collection": "europe-li",
+   "continent": "europe",
+   "map": "media/maps/regions/LI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Eschen_Liechtenstein-1.svg"
+  }
+ },
+ {
+  "id": "region:LI-03",
+  "type": "region",
+  "names": {
+   "de": "Gamprin"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LI-03",
+    "kind": "flag",
+    "url": "media/flags/regions/LI-03.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Gamprin_Liechtenstein-1.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Gamprin_Liechtenstein-1.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LI-03",
+   "country": "country:LI",
+   "admin_level": 1,
+   "collection": "europe-li",
+   "continent": "europe",
+   "map": "media/maps/regions/LI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Gamprin_Liechtenstein-1.svg"
+  }
+ },
+ {
+  "id": "region:LI-04",
+  "type": "region",
+  "names": {
+   "de": "Mauren"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LI-04",
+    "kind": "flag",
+    "url": "media/flags/regions/LI-04.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Mauren_Liechtenstein-1.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Mauren_Liechtenstein-1.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LI-04",
+   "country": "country:LI",
+   "admin_level": 1,
+   "collection": "europe-li",
+   "continent": "europe",
+   "map": "media/maps/regions/LI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Mauren_Liechtenstein-1.svg"
+  }
+ },
+ {
+  "id": "region:LI-05",
+  "type": "region",
+  "names": {
+   "de": "Planken"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LI-05",
+    "kind": "flag",
+    "url": "media/flags/regions/LI-05.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Planken_Liechtenstein-1.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Planken_Liechtenstein-1.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LI-05",
+   "country": "country:LI",
+   "admin_level": 1,
+   "collection": "europe-li",
+   "continent": "europe",
+   "map": "media/maps/regions/LI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Planken_Liechtenstein-1.svg"
+  }
+ },
+ {
+  "id": "region:LI-06",
+  "type": "region",
+  "names": {
+   "de": "Ruggell"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LI-06",
+    "kind": "flag",
+    "url": "media/flags/regions/LI-06.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Ruggell_Liechtenstein-1.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Ruggell_Liechtenstein-1.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LI-06",
+   "country": "country:LI",
+   "admin_level": 1,
+   "collection": "europe-li",
+   "continent": "europe",
+   "map": "media/maps/regions/LI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Ruggell_Liechtenstein-1.svg"
+  }
+ },
+ {
+  "id": "region:LI-07",
+  "type": "region",
+  "names": {
+   "de": "Schaan"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LI-07",
+    "kind": "flag",
+    "url": "media/flags/regions/LI-07.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Schaan_Liechtenstein-1.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Schaan_Liechtenstein-1.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LI-07",
+   "country": "country:LI",
+   "admin_level": 1,
+   "collection": "europe-li",
+   "continent": "europe",
+   "map": "media/maps/regions/LI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Schaan_Liechtenstein-1.svg"
+  }
+ },
+ {
+  "id": "region:LI-08",
+  "type": "region",
+  "names": {
+   "de": "Schellenberg"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LI-08",
+    "kind": "flag",
+    "url": "media/flags/regions/LI-08.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Schellenberg_Liechtenstein-1.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Schellenberg_Liechtenstein-1.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LI-08",
+   "country": "country:LI",
+   "admin_level": 1,
+   "collection": "europe-li",
+   "continent": "europe",
+   "map": "media/maps/regions/LI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Schellenberg_Liechtenstein-1.svg"
+  }
+ },
+ {
+  "id": "region:LI-09",
+  "type": "region",
+  "names": {
+   "de": "Triesen"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LI-09",
+    "kind": "flag",
+    "url": "media/flags/regions/LI-09.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Triesen_Liechtenstein-1.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Triesen_Liechtenstein-1.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LI-09",
+   "country": "country:LI",
+   "admin_level": 1,
+   "collection": "europe-li",
+   "continent": "europe",
+   "map": "media/maps/regions/LI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Triesen_Liechtenstein-1.svg"
+  }
+ },
+ {
+  "id": "region:LI-10",
+  "type": "region",
+  "names": {
+   "de": "Triesenberg"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LI-10",
+    "kind": "flag",
+    "url": "media/flags/regions/LI-10.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Triesenberg_Liechtenstein-1.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Triesenberg_Liechtenstein-1.svg"
+   }
+  ],
+  "attributes": {
+   "code": "LI-10",
+   "country": "country:LI",
+   "admin_level": 1,
+   "collection": "europe-li",
+   "continent": "europe",
+   "map": "media/maps/regions/LI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Triesenberg_Liechtenstein-1.svg"
+  }
+ },
+ {
+  "id": "region:LI-11",
+  "type": "region",
+  "names": {
+   "de": "Vaduz"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LI-11",
+    "kind": "flag",
+    "url": "media/flags/regions/LI-11.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.vaduz.li/vaduz/portrait/wappen-und-flagge",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.vaduz.li/vaduz/portrait/wappen-und-flagge"
+   }
+  ],
+  "attributes": {
+   "code": "LI-11",
+   "country": "country:LI",
+   "admin_level": 1,
+   "collection": "europe-li",
+   "continent": "europe",
+   "map": "media/maps/regions/LI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.vaduz.li/vaduz/portrait/wappen-und-flagge"
+  }
+ }
+]

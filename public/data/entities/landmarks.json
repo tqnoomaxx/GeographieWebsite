@@ -1,0 +1,2753 @@
+[
+ {
+  "id": "landmark:aachen-cathedral",
+  "type": "landmark",
+  "names": {
+   "de": "Aachener Dom",
+   "en": "Aachen Cathedral"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:aachen-cathedral",
+    "kind": "photo",
+    "url": "media/photos/landmarks/aachen-cathedral.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Aachen_Germany_Imperial-Cathedral-01.jpg",
+    "author": "CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "CEphoto, Uwe Aranas · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Aachen_Germany_Imperial-Cathedral-01.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "place_name": "Aachen",
+   "unesco": "Aachener Dom",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Aachen%20Cathedral"
+  }
+ },
+ {
+  "id": "landmark:acropolis",
+  "type": "landmark",
+  "names": {
+   "de": "Akropolis von Athen",
+   "en": "Acropolis of Athens"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:acropolis",
+    "kind": "photo",
+    "url": "media/photos/landmarks/acropolis.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg",
+    "author": "Giles Laurent",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Giles Laurent · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:1029_Acropolis_of_Athens_in_Greece_at_night_Photo_by_Giles_Laurent.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:GR",
+   "continent": "europe",
+   "place_name": "Athen",
+   "unesco": "Akropolis von Athen",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Acropolis%20of%20Athens"
+  }
+ },
+ {
+  "id": "landmark:alhambra",
+  "type": "landmark",
+  "names": {
+   "de": "Alhambra",
+   "en": "Alhambra"
+  },
+  "aliases": [
+   "Alhambra, Generalife und Albayzín"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:alhambra",
+    "kind": "photo",
+    "url": "media/photos/landmarks/alhambra.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg",
+    "author": "Jebulon",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "attribution": "Jebulon · CC0 · https://commons.wikimedia.org/wiki/File:Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "place_name": "Granada",
+   "unesco": "Alhambra, Generalife und Albayzín",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Alhambra"
+  }
+ },
+ {
+  "id": "landmark:angkor",
+  "type": "landmark",
+  "names": {
+   "de": "Angkor Wat",
+   "en": "Angkor Wat"
+  },
+  "aliases": [
+   "Angkor"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:angkor",
+    "kind": "photo",
+    "url": "media/photos/landmarks/angkor.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Angkor_Wat.jpg",
+    "author": "Bjørn Christian Tørrissen",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Bjørn Christian Tørrissen · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Angkor_Wat.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:KH",
+   "continent": "asia",
+   "place_name": "Siem Reap",
+   "unesco": "Angkor",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Angkor%20Wat"
+  }
+ },
+ {
+  "id": "landmark:belem",
+  "type": "landmark",
+  "names": {
+   "de": "Torre de Belém",
+   "en": "Belém Tower"
+  },
+  "aliases": [
+   "Hieronymitenkloster und Turm von Belém"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:belem",
+    "kind": "photo",
+    "url": "media/photos/landmarks/belem.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Torre_Bel%C3%A9m_April_2009-4a.jpg",
+    "author": "Alvesgaspar",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Alvesgaspar · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Torre_Bel%C3%A9m_April_2009-4a.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:PT",
+   "continent": "europe",
+   "place_name": "Lissabon",
+   "unesco": "Hieronymitenkloster und Turm von Belém",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Bel%C3%A9m%20Tower"
+  }
+ },
+ {
+  "id": "landmark:borobudur",
+  "type": "landmark",
+  "names": {
+   "de": "Borobudur",
+   "en": "Borobudur"
+  },
+  "aliases": [
+   "Tempelanlagen von Borobudur"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:borobudur",
+    "kind": "photo",
+    "url": "media/photos/landmarks/borobudur.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pradaksina.jpg",
+    "author": "Heri nugroho",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Heri nugroho · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Pradaksina.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:ID",
+   "continent": "asia",
+   "place_name": "Java",
+   "unesco": "Tempelanlagen von Borobudur",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Borobudur"
+  }
+ },
+ {
+  "id": "landmark:cappadocia",
+  "type": "landmark",
+  "names": {
+   "de": "Kappadokien",
+   "en": "Cappadocia"
+  },
+  "aliases": [
+   "Göreme-Nationalpark und Felsendenkmäler von Kappadokien"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:cappadocia",
+    "kind": "photo",
+    "url": "media/photos/landmarks/cappadocia.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cappadocia_balloon_trip,_Ortahisar_Castle_(11893715185).jpg",
+    "author": "Arian Zwegers from Brussels, Belgium",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "Arian Zwegers from Brussels, Belgium · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Cappadocia_balloon_trip,_Ortahisar_Castle_(11893715185).jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:TR",
+   "continent": "europe",
+   "place_name": "Anatolien",
+   "unesco": "Göreme-Nationalpark und Felsendenkmäler von Kappadokien",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Cappadocia"
+  }
+ },
+ {
+  "id": "landmark:carcassonne",
+  "type": "landmark",
+  "names": {
+   "de": "Festungsstadt Carcassonne",
+   "en": "Cité de Carcassonne"
+  },
+  "aliases": [
+   "Historische Festungsstadt Carcassonne"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:carcassonne",
+    "kind": "photo",
+    "url": "media/photos/landmarks/carcassonne.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:1_carcassonne_aerial_2016.jpg",
+    "author": "Chensiyuan",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Chensiyuan · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:1_carcassonne_aerial_2016.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:FR",
+   "continent": "europe",
+   "place_name": "Carcassonne",
+   "unesco": "Historische Festungsstadt Carcassonne",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Cit%C3%A9%20de%20Carcassonne"
+  }
+ },
+ {
+  "id": "landmark:cartagena",
+  "type": "landmark",
+  "names": {
+   "de": "Altstadt von Cartagena",
+   "en": "Cartagena, Colombia"
+  },
+  "aliases": [
+   "Hafen, Festungen und Baudenkmäler von Cartagena"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:cartagena",
+    "kind": "photo",
+    "url": "media/photos/landmarks/cartagena.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Museo_Naval_del_Caribe.JPG",
+    "author": "Sgonzalezb",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Sgonzalezb · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Museo_Naval_del_Caribe.JPG"
+   }
+  ],
+  "attributes": {
+   "country": "country:CO",
+   "continent": "south-america",
+   "place_name": "Cartagena",
+   "unesco": "Hafen, Festungen und Baudenkmäler von Cartagena",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Cartagena%2C%20Colombia"
+  }
+ },
+ {
+  "id": "landmark:castel-del-monte",
+  "type": "landmark",
+  "names": {
+   "de": "Castel del Monte",
+   "en": "Castel del Monte, Apulia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:castel-del-monte",
+    "kind": "photo",
+    "url": "media/photos/landmarks/castel-del-monte.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Castel_del_Monte_-_Andria.jpg",
+    "author": "ParisTaras",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "ParisTaras · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Castel_del_Monte_-_Andria.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "place_name": "Apulien",
+   "unesco": "Castel del Monte",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Castel%20del%20Monte%2C%20Apulia"
+  }
+ },
+ {
+  "id": "landmark:chartres",
+  "type": "landmark",
+  "names": {
+   "de": "Kathedrale von Chartres",
+   "en": "Chartres Cathedral"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:chartres",
+    "kind": "photo",
+    "url": "media/photos/landmarks/chartres.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Notre_Dame_de_Chartres.jpg",
+    "author": "Olvr",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Olvr · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Notre_Dame_de_Chartres.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:FR",
+   "continent": "europe",
+   "place_name": "Chartres",
+   "unesco": "Kathedrale von Chartres",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Chartres%20Cathedral"
+  }
+ },
+ {
+  "id": "landmark:chichen-itza",
+  "type": "landmark",
+  "names": {
+   "de": "Chichén Itzá",
+   "en": "Chichen Itza"
+  },
+  "aliases": [
+   "Präkolumbische Stadt Chichén Itzá"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:chichen-itza",
+    "kind": "photo",
+    "url": "media/photos/landmarks/chichen-itza.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chichen_Itza_3.jpg",
+    "author": "Daniel Schwen",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Daniel Schwen · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Chichen_Itza_3.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:MX",
+   "continent": "north-america",
+   "place_name": "Yucatán",
+   "unesco": "Präkolumbische Stadt Chichén Itzá",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Chichen%20Itza"
+  }
+ },
+ {
+  "id": "landmark:christ-redeemer",
+  "type": "landmark",
+  "names": {
+   "de": "Cristo Redentor",
+   "en": "Christ the Redeemer (statue)"
+  },
+  "aliases": [
+   "Rio de Janeiro: Carioca-Landschaften"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:christ-redeemer",
+    "kind": "photo",
+    "url": "media/photos/landmarks/christ-redeemer.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Christ_the_Redeemer_-_Cristo_Redentor.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "attribution": "Arne Müseler · CC BY-SA 3.0 de · https://commons.wikimedia.org/wiki/File:Christ_the_Redeemer_-_Cristo_Redentor.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:BR",
+   "continent": "south-america",
+   "place_name": "Rio de Janeiro",
+   "unesco": "Rio de Janeiro: Carioca-Landschaften",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Christ%20the%20Redeemer%20(statue)"
+  }
+ },
+ {
+  "id": "landmark:cinque-terre",
+  "type": "landmark",
+  "names": {
+   "de": "Cinque Terre",
+   "en": "Cinque Terre"
+  },
+  "aliases": [
+   "Portovenere, Cinque Terre und die Inseln"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:cinque-terre",
+    "kind": "photo",
+    "url": "media/photos/landmarks/cinque-terre.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cinque_Terre_(Italy,_October_2020)_-_24_(50543603956).jpg",
+    "author": "Bruno Rijsman",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attribution": "Bruno Rijsman · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Cinque_Terre_(Italy,_October_2020)_-_24_(50543603956).jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "place_name": "Ligurien",
+   "unesco": "Portovenere, Cinque Terre und die Inseln",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Cinque%20Terre"
+  }
+ },
+ {
+  "id": "landmark:coimbra",
+  "type": "landmark",
+  "names": {
+   "de": "Universität Coimbra",
+   "en": "Biblioteca Joanina"
+  },
+  "aliases": [
+   "Universität Coimbra – Alta und Sofia"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:coimbra",
+    "kind": "photo",
+    "url": "media/photos/landmarks/coimbra.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Coimbra_November_2012-7.jpg",
+    "author": "Alvesgaspar",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Alvesgaspar · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Coimbra_November_2012-7.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:PT",
+   "continent": "europe",
+   "place_name": "Coimbra",
+   "unesco": "Universität Coimbra – Alta und Sofia",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Biblioteca%20Joanina"
+  }
+ },
+ {
+  "id": "landmark:cologne",
+  "type": "landmark",
+  "names": {
+   "de": "Kölner Dom",
+   "en": "Cologne Cathedral"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:cologne",
+    "kind": "photo",
+    "url": "media/photos/landmarks/cologne.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:K%C3%B6lner_Dom_-_Westfassade_2022_ohne_Ger%C3%BCst-0968_b.jpg",
+    "author": "Raimond Spekking",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Raimond Spekking · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:K%C3%B6lner_Dom_-_Westfassade_2022_ohne_Ger%C3%BCst-0968_b.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "place_name": "Köln",
+   "unesco": "Kölner Dom",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Cologne%20Cathedral"
+  }
+ },
+ {
+  "id": "landmark:colosseum",
+  "type": "landmark",
+  "names": {
+   "de": "Kolosseum",
+   "en": "Colosseum"
+  },
+  "aliases": [
+   "Historisches Zentrum von Rom"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:colosseum",
+    "kind": "photo",
+    "url": "media/photos/landmarks/colosseum.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg",
+    "author": "FeaturedPics",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "FeaturedPics · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "place_name": "Rom",
+   "unesco": "Historisches Zentrum von Rom",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Colosseum"
+  }
+ },
+ {
+  "id": "landmark:cordoba",
+  "type": "landmark",
+  "names": {
+   "de": "Mezquita-Catedral de Córdoba",
+   "en": "Mosque–Cathedral of Córdoba"
+  },
+  "aliases": [
+   "Historisches Zentrum von Córdoba"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:cordoba",
+    "kind": "photo",
+    "url": "media/photos/landmarks/cordoba.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mezquita_de_C%C3%B3rdoba_desde_el_aire_(C%C3%B3rdoba,_Espa%C3%B1a).jpg",
+    "author": "Toni Castillo Quero",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attribution": "Toni Castillo Quero · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Mezquita_de_C%C3%B3rdoba_desde_el_aire_(C%C3%B3rdoba,_Espa%C3%B1a).jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "place_name": "Córdoba",
+   "unesco": "Historisches Zentrum von Córdoba",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Mosque%E2%80%93Cathedral%20of%20C%C3%B3rdoba"
+  }
+ },
+ {
+  "id": "landmark:delphi",
+  "type": "landmark",
+  "names": {
+   "de": "Orakelstätte Delphi",
+   "en": "Delphi"
+  },
+  "aliases": [
+   "Archäologische Stätte von Delphi"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:delphi",
+    "kind": "photo",
+    "url": "media/photos/landmarks/delphi.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Delphi,_Greece_-_panoramio.jpg",
+    "author": "tamara semina",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "tamara semina · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Delphi,_Greece_-_panoramio.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:GR",
+   "continent": "europe",
+   "place_name": "Delphi",
+   "unesco": "Archäologische Stätte von Delphi",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Delphi"
+  }
+ },
+ {
+  "id": "landmark:edinburgh-castle",
+  "type": "landmark",
+  "names": {
+   "de": "Edinburgh Castle",
+   "en": "Edinburgh Castle"
+  },
+  "aliases": [
+   "Altstadt und Neustadt von Edinburgh"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:edinburgh-castle",
+    "kind": "photo",
+    "url": "media/photos/landmarks/edinburgh-castle.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:City_of_Edinburgh_-_Edinburgh_Castle_-_20140421004403.jpg",
+    "author": "Enric",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Enric · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:City_of_Edinburgh_-_Edinburgh_Castle_-_20140421004403.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:GB",
+   "continent": "europe",
+   "place_name": "Edinburgh",
+   "unesco": "Altstadt und Neustadt von Edinburgh",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Edinburgh%20Castle"
+  }
+ },
+ {
+  "id": "landmark:eiffel-tower",
+  "type": "landmark",
+  "names": {
+   "de": "Eiffelturm",
+   "en": "Eiffel Tower"
+  },
+  "aliases": [
+   "Paris, Ufer der Seine"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:eiffel-tower",
+    "kind": "photo",
+    "url": "media/photos/landmarks/eiffel-tower.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons_(cropped).jpg",
+    "author": "Benh LIEU SONG",
+    "license": "Public domain",
+    "attribution": "Benh LIEU SONG · Public domain · https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons_(cropped).jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:FR",
+   "continent": "europe",
+   "place_name": "Paris",
+   "unesco": "Paris, Ufer der Seine",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Eiffel%20Tower"
+  }
+ },
+ {
+  "id": "landmark:ephesus",
+  "type": "landmark",
+  "names": {
+   "de": "Ephesos",
+   "en": "Ephesus"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:ephesus",
+    "kind": "photo",
+    "url": "media/photos/landmarks/ephesus.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ephesus_Celsus_Library_Fa%C3%A7ade.jpg",
+    "author": "Benh LIEU SONG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Benh LIEU SONG · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Ephesus_Celsus_Library_Fa%C3%A7ade.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:TR",
+   "continent": "asia",
+   "place_name": "İzmir",
+   "unesco": "Ephesos",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Ephesus"
+  }
+ },
+ {
+  "id": "landmark:evora",
+  "type": "landmark",
+  "names": {
+   "de": "Historisches Zentrum von Évora",
+   "en": "Évora"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:evora",
+    "kind": "photo",
+    "url": "media/photos/landmarks/evora.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pra%C3%A7a_de_Giraldo,_Evora_(10250693386)_(cropped).jpg",
+    "author": "François Philipp from Darmstadt, Germany",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "François Philipp from Darmstadt, Germany · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Pra%C3%A7a_de_Giraldo,_Evora_(10250693386)_(cropped).jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:PT",
+   "continent": "europe",
+   "place_name": "Évora",
+   "unesco": "Historisches Zentrum von Évora",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/%C3%89vora"
+  }
+ },
+ {
+  "id": "landmark:florence-cathedral",
+  "type": "landmark",
+  "names": {
+   "de": "Kathedrale von Florenz",
+   "en": "Florence Cathedral"
+  },
+  "aliases": [
+   "Historisches Zentrum von Florenz"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:florence-cathedral",
+    "kind": "photo",
+    "url": "media/photos/landmarks/florence-cathedral.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg",
+    "author": "Gary Campbell-Hall",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "Gary Campbell-Hall · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Cattedrale_di_Santa_Maria_del_Fiore_%E2%80%93_Il_Duomo_di_Firenze.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "place_name": "Florenz",
+   "unesco": "Historisches Zentrum von Florenz",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Florence%20Cathedral"
+  }
+ },
+ {
+  "id": "landmark:forth-bridge",
+  "type": "landmark",
+  "names": {
+   "de": "Forth Bridge",
+   "en": "Forth Bridge"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:forth-bridge",
+    "kind": "photo",
+    "url": "media/photos/landmarks/forth-bridge.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Forth_Bridge_2022.jpg",
+    "author": "MrMasterKeyboard",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "MrMasterKeyboard · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Forth_Bridge_2022.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:GB",
+   "continent": "europe",
+   "place_name": "Schottland",
+   "unesco": "Forth Bridge",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Forth%20Bridge"
+  }
+ },
+ {
+  "id": "landmark:galapagos",
+  "type": "landmark",
+  "names": {
+   "de": "Galápagos-Inseln",
+   "en": "Galápagos Islands"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:galapagos",
+    "kind": "photo",
+    "url": "media/photos/landmarks/galapagos.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lobo_marino_(Zalophus_californianus_wollebaeki),_Punta_Pitt,_isla_de_San_Crist%C3%B3bal,_islas_Gal%C3%A1pagos,_Ecuador,_2015-07-24,_DD_11.JPG",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Diego Delso · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Lobo_marino_(Zalophus_californianus_wollebaeki),_Punta_Pitt,_isla_de_San_Crist%C3%B3bal,_islas_Gal%C3%A1pagos,_Ecuador,_2015-07-24,_DD_11.JPG"
+   }
+  ],
+  "attributes": {
+   "country": "country:EC",
+   "continent": "south-america",
+   "place_name": "Galápagos",
+   "unesco": "Galápagos-Inseln",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos%20Islands"
+  }
+ },
+ {
+  "id": "landmark:goebekli-tepe",
+  "type": "landmark",
+  "names": {
+   "de": "Göbekli Tepe",
+   "en": "Göbekli Tepe"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:goebekli-tepe",
+    "kind": "photo",
+    "url": "media/photos/landmarks/goebekli-tepe.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:G%C3%B6bekli_Tepe,_Urfa.jpg",
+    "author": "Teomancimit",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Teomancimit · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:G%C3%B6bekli_Tepe,_Urfa.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:TR",
+   "continent": "asia",
+   "place_name": "Şanlıurfa",
+   "unesco": "Göbekli Tepe",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/G%C3%B6bekli%20Tepe"
+  }
+ },
+ {
+  "id": "landmark:grand-canyon",
+  "type": "landmark",
+  "names": {
+   "de": "Grand Canyon",
+   "en": "Grand Canyon"
+  },
+  "aliases": [
+   "Grand-Canyon-Nationalpark"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:grand-canyon",
+    "kind": "photo",
+    "url": "media/photos/landmarks/grand-canyon.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Canyon_River_Tree_(165872763).jpeg",
+    "author": "Lennart Sikkema",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "attribution": "Lennart Sikkema · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:Canyon_River_Tree_(165872763).jpeg"
+   }
+  ],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "place_name": "Arizona",
+   "unesco": "Grand-Canyon-Nationalpark",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Grand%20Canyon"
+  }
+ },
+ {
+  "id": "landmark:great-barrier-reef",
+  "type": "landmark",
+  "names": {
+   "de": "Great Barrier Reef",
+   "en": "Great Barrier Reef Marine Park"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:great-barrier-reef",
+    "kind": "photo",
+    "url": "media/photos/landmarks/great-barrier-reef.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Part_of_Great_Barrier_Reef_from_Helicopter.jpg",
+    "author": "Unbekannt",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Unbekannt · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Part_of_Great_Barrier_Reef_from_Helicopter.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:AU",
+   "continent": "oceania",
+   "place_name": "Queensland",
+   "unesco": "Great Barrier Reef",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Great%20Barrier%20Reef%20Marine%20Park"
+  }
+ },
+ {
+  "id": "landmark:great-wall",
+  "type": "landmark",
+  "names": {
+   "de": "Chinesische Mauer",
+   "en": "Great Wall of China"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:great-wall",
+    "kind": "photo",
+    "url": "media/photos/landmarks/great-wall.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling-edit.jpg",
+    "author": "Severin.stalder",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Severin.stalder · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:The_Great_Wall_of_China_at_Jinshanling-edit.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:CN",
+   "continent": "asia",
+   "place_name": "Nordchina",
+   "unesco": "Chinesische Mauer",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Great%20Wall%20of%20China"
+  }
+ },
+ {
+  "id": "landmark:ha-long",
+  "type": "landmark",
+  "names": {
+   "de": "Hạ-Long-Bucht",
+   "en": "Hạ Long Bay"
+  },
+  "aliases": [
+   "Hạ-Long-Bucht–Cát-Bà-Archipel"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:ha-long",
+    "kind": "photo",
+    "url": "media/photos/landmarks/ha-long.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ha_Long_Bay_in_2019.jpg",
+    "author": "Taewangkorea",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Taewangkorea · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Ha_Long_Bay_in_2019.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:VN",
+   "continent": "asia",
+   "place_name": "Quảng Ninh",
+   "unesco": "Hạ-Long-Bucht–Cát-Bà-Archipel",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/H%E1%BA%A1%20Long%20Bay"
+  }
+ },
+ {
+  "id": "landmark:hagia-sophia",
+  "type": "landmark",
+  "names": {
+   "de": "Hagia Sophia",
+   "en": "Hagia Sophia"
+  },
+  "aliases": [
+   "Historische Gebiete von Istanbul"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:hagia-sophia",
+    "kind": "photo",
+    "url": "media/photos/landmarks/hagia-sophia.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hagia_Sophia_(228968325).jpeg",
+    "author": "Adli Wahid",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Adli Wahid · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Hagia_Sophia_(228968325).jpeg"
+   }
+  ],
+  "attributes": {
+   "country": "country:TR",
+   "continent": "europe",
+   "place_name": "Istanbul",
+   "unesco": "Historische Gebiete von Istanbul",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Hagia%20Sophia"
+  }
+ },
+ {
+  "id": "landmark:himeji",
+  "type": "landmark",
+  "names": {
+   "de": "Burg Himeji",
+   "en": "Himeji Castle"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:himeji",
+    "kind": "photo",
+    "url": "media/photos/landmarks/himeji.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Himeji_castle_in_may_2015.jpg",
+    "author": "Nikos Kitsakis",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Nikos Kitsakis · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Himeji_castle_in_may_2015.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:JP",
+   "continent": "asia",
+   "place_name": "Himeji",
+   "unesco": "Burg Himeji",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Himeji%20Castle"
+  }
+ },
+ {
+  "id": "landmark:iguazu",
+  "type": "landmark",
+  "names": {
+   "de": "Iguazú-Wasserfälle",
+   "en": "Iguazu Falls"
+  },
+  "aliases": [
+   "Iguazú-Nationalpark"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:iguazu",
+    "kind": "photo",
+    "url": "media/photos/landmarks/iguazu.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_Foz_de_Igua%C3%A7u_26_Nov_2005.jpg",
+    "author": "Mariordo (Mario Roberto Durán Ortiz)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Mariordo (Mario Roberto Durán Ortiz) · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Aerial_Foz_de_Igua%C3%A7u_26_Nov_2005.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:AR",
+   "continent": "south-america",
+   "place_name": "Misiones",
+   "unesco": "Iguazú-Nationalpark",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Iguazu%20Falls"
+  }
+ },
+ {
+  "id": "landmark:jeronimos",
+  "type": "landmark",
+  "names": {
+   "de": "Hieronymitenkloster",
+   "en": "Jerónimos Monastery"
+  },
+  "aliases": [
+   "Hieronymitenkloster und Turm von Belém"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:jeronimos",
+    "kind": "photo",
+    "url": "media/photos/landmarks/jeronimos.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_Jer%C3%B3nimos_Monastery_or_Hieronymites_Monastery.png",
+    "author": "Heartshade",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "attribution": "Heartshade · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:The_Jer%C3%B3nimos_Monastery_or_Hieronymites_Monastery.png"
+   }
+  ],
+  "attributes": {
+   "country": "country:PT",
+   "continent": "europe",
+   "place_name": "Lissabon",
+   "unesco": "Hieronymitenkloster und Turm von Belém",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Jer%C3%B3nimos%20Monastery"
+  }
+ },
+ {
+  "id": "landmark:kilimanjaro",
+  "type": "landmark",
+  "names": {
+   "de": "Kilimandscharo",
+   "en": "Mount Kilimanjaro"
+  },
+  "aliases": [
+   "Kilimandscharo-Nationalpark"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:kilimanjaro",
+    "kind": "photo",
+    "url": "media/photos/landmarks/kilimanjaro.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kilimanjaro_from_Amboseli.jpg",
+    "author": "Sergey Pesterev",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Sergey Pesterev · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Kilimanjaro_from_Amboseli.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:TZ",
+   "continent": "africa",
+   "place_name": "Kilimandscharo",
+   "unesco": "Kilimandscharo-Nationalpark",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Mount%20Kilimanjaro"
+  }
+ },
+ {
+  "id": "landmark:knossos",
+  "type": "landmark",
+  "names": {
+   "de": "Palast von Knossos",
+   "en": "Knossos"
+  },
+  "aliases": [
+   "Minoische Palastzentren"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:knossos",
+    "kind": "photo",
+    "url": "media/photos/landmarks/knossos.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Knossos_-_North_Portico_02.jpg",
+    "author": "Bernard Gagnon",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Bernard Gagnon · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Knossos_-_North_Portico_02.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:GR",
+   "continent": "europe",
+   "place_name": "Kreta",
+   "unesco": "Minoische Palastzentren",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://de.wikipedia.org/wiki/Knossos"
+  }
+ },
+ {
+  "id": "landmark:lalibela",
+  "type": "landmark",
+  "names": {
+   "de": "Felsenkirchen von Lalibela",
+   "en": "Rock-Hewn Churches, Lalibela"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:lalibela",
+    "kind": "photo",
+    "url": "media/photos/landmarks/lalibela.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lalibela,_san_giorgio,_esterno_24.jpg",
+    "author": "Sailko",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "attribution": "Sailko · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:Lalibela,_san_giorgio,_esterno_24.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:ET",
+   "continent": "africa",
+   "place_name": "Lalibela",
+   "unesco": "Felsenkirchen von Lalibela",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Rock-Hewn%20Churches%2C%20Lalibela"
+  }
+ },
+ {
+  "id": "landmark:liberty",
+  "type": "landmark",
+  "names": {
+   "de": "Freiheitsstatue",
+   "en": "Statue of Liberty"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:liberty",
+    "kind": "photo",
+    "url": "media/photos/landmarks/liberty.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Front_view_of_Statue_of_Liberty_(cropped).jpg",
+    "author": "AskALotl",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "attribution": "AskALotl · CC0 · https://commons.wikimedia.org/wiki/File:Front_view_of_Statue_of_Liberty_(cropped).jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "place_name": "New York City",
+   "unesco": "Freiheitsstatue",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Statue%20of%20Liberty"
+  }
+ },
+ {
+  "id": "landmark:luebeck",
+  "type": "landmark",
+  "names": {
+   "de": "Lübecker Altstadt",
+   "en": "Lübeck"
+  },
+  "aliases": [
+   "Hansestadt Lübeck"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:luebeck",
+    "kind": "photo",
+    "url": "media/photos/landmarks/luebeck.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:L%C3%BCbeck_-_panoramio.jpg",
+    "author": "Oleg Dejan",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "attribution": "Oleg Dejan · CC BY 3.0 · https://commons.wikimedia.org/wiki/File:L%C3%BCbeck_-_panoramio.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "place_name": "Lübeck",
+   "unesco": "Hansestadt Lübeck",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/L%C3%BCbeck"
+  }
+ },
+ {
+  "id": "landmark:machu-picchu",
+  "type": "landmark",
+  "names": {
+   "de": "Machu Picchu",
+   "en": "Machu Picchu"
+  },
+  "aliases": [
+   "Historisches Heiligtum von Machu Picchu"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:machu-picchu",
+    "kind": "photo",
+    "url": "media/photos/landmarks/machu-picchu.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Machu_Picchu,_2023_(012).jpg",
+    "author": "Draceane",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Draceane · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Machu_Picchu,_2023_(012).jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:PE",
+   "continent": "south-america",
+   "place_name": "Cusco",
+   "unesco": "Historisches Heiligtum von Machu Picchu",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Machu%20Picchu"
+  }
+ },
+ {
+  "id": "landmark:marrakesh",
+  "type": "landmark",
+  "names": {
+   "de": "Medina von Marrakesch",
+   "en": "Marrakesh"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:marrakesh",
+    "kind": "photo",
+    "url": "media/photos/landmarks/marrakesh.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pavillon_Menarag%C3%A4rten.jpg",
+    "author": "Acp",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Acp · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Pavillon_Menarag%C3%A4rten.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:MA",
+   "continent": "africa",
+   "place_name": "Marrakesch",
+   "unesco": "Medina von Marrakesch",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Marrakesh"
+  }
+ },
+ {
+  "id": "landmark:meteora",
+  "type": "landmark",
+  "names": {
+   "de": "Meteora-Klöster",
+   "en": "Meteora"
+  },
+  "aliases": [
+   "Meteora"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:meteora",
+    "kind": "photo",
+    "url": "media/photos/landmarks/meteora.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Meteora%27s_monastery_2.jpg",
+    "author": "Stathis floros",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Stathis floros · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Meteora%27s_monastery_2.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:GR",
+   "continent": "europe",
+   "place_name": "Thessalien",
+   "unesco": "Meteora",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Meteora"
+  }
+ },
+ {
+  "id": "landmark:mont-saint-michel",
+  "type": "landmark",
+  "names": {
+   "de": "Mont-Saint-Michel",
+   "en": "Mont-Saint-Michel"
+  },
+  "aliases": [
+   "Mont-Saint-Michel und seine Bucht"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:mont-saint-michel",
+    "kind": "photo",
+    "url": "media/photos/landmarks/mont-saint-michel.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mont-Saint-Michel_vu_du_ciel.jpg",
+    "author": "Amaustan",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Amaustan · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Mont-Saint-Michel_vu_du_ciel.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:FR",
+   "continent": "europe",
+   "place_name": "Normandie",
+   "unesco": "Mont-Saint-Michel und seine Bucht",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Mont-Saint-Michel"
+  }
+ },
+ {
+  "id": "landmark:mount-fuji",
+  "type": "landmark",
+  "names": {
+   "de": "Fuji",
+   "en": "Mount Fuji"
+  },
+  "aliases": [
+   "Fuji-san, heiliger Ort und Quelle künstlerischer Inspiration"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:mount-fuji",
+    "kind": "photo",
+    "url": "media/photos/landmarks/mount-fuji.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:View_of_Mount_Fuji_from_%C5%8Cwakudani_20211202.jpg",
+    "author": "Suicasmo",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Suicasmo · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:View_of_Mount_Fuji_from_%C5%8Cwakudani_20211202.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:JP",
+   "continent": "asia",
+   "place_name": "Honshū",
+   "unesco": "Fuji-san, heiliger Ort und Quelle künstlerischer Inspiration",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Mount%20Fuji"
+  }
+ },
+ {
+  "id": "landmark:museum-island",
+  "type": "landmark",
+  "names": {
+   "de": "Museumsinsel Berlin",
+   "en": "Museum Island"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:museum-island",
+    "kind": "photo",
+    "url": "media/photos/landmarks/museum-island.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Berlin_Museumsinsel_Fernsehturm.jpg",
+    "author": "Thomas Wolf , www.foto-tw.de",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Thomas Wolf , www.foto-tw.de · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Berlin_Museumsinsel_Fernsehturm.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "place_name": "Berlin",
+   "unesco": "Museumsinsel Berlin",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Museum%20Island"
+  }
+ },
+ {
+  "id": "landmark:mycenae",
+  "type": "landmark",
+  "names": {
+   "de": "Mykene",
+   "en": "Mycenae"
+  },
+  "aliases": [
+   "Archäologische Stätten von Mykene und Tiryns"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:mycenae",
+    "kind": "photo",
+    "url": "media/photos/landmarks/mycenae.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Path_upto_the_Lion_Gate,_Mycenae_(28693130016).jpg",
+    "author": "Andy Hay from UK",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "Andy Hay from UK · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Path_upto_the_Lion_Gate,_Mycenae_(28693130016).jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:GR",
+   "continent": "europe",
+   "place_name": "Peloponnes",
+   "unesco": "Archäologische Stätten von Mykene und Tiryns",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Mycenae"
+  }
+ },
+ {
+  "id": "landmark:olympia",
+  "type": "landmark",
+  "names": {
+   "de": "Antikes Olympia",
+   "en": "Olympia, Greece"
+  },
+  "aliases": [
+   "Archäologische Stätte von Olympia"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:olympia",
+    "kind": "photo",
+    "url": "media/photos/landmarks/olympia.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ancient_Olympia,_Greece2.jpg",
+    "author": "John Karakatsanis from Athens, Greece",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attribution": "John Karakatsanis from Athens, Greece · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Ancient_Olympia,_Greece2.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:GR",
+   "continent": "europe",
+   "place_name": "Olympia",
+   "unesco": "Archäologische Stätte von Olympia",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Olympia%2C%20Greece"
+  }
+ },
+ {
+  "id": "landmark:opera-house",
+  "type": "landmark",
+  "names": {
+   "de": "Sydney Opera House",
+   "en": "Sydney Opera House"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:opera-house",
+    "kind": "photo",
+    "url": "media/photos/landmarks/opera-house.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sydney_Australia._(21339175489).jpg",
+    "author": "Bernard Spragg. NZ from Christchurch, New Zealand",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "attribution": "Bernard Spragg. NZ from Christchurch, New Zealand · CC0 · https://commons.wikimedia.org/wiki/File:Sydney_Australia._(21339175489).jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:AU",
+   "continent": "oceania",
+   "place_name": "Sydney",
+   "unesco": "Sydney Opera House",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Sydney%20Opera%20House"
+  }
+ },
+ {
+  "id": "landmark:pamukkale",
+  "type": "landmark",
+  "names": {
+   "de": "Pamukkale",
+   "en": "Pamukkale"
+  },
+  "aliases": [
+   "Hierapolis–Pamukkale"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:pamukkale",
+    "kind": "photo",
+    "url": "media/photos/landmarks/pamukkale.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pamukkale,_Denizli_2026_68.jpg",
+    "author": "Biologg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Biologg · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Pamukkale,_Denizli_2026_68.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:TR",
+   "continent": "asia",
+   "place_name": "Denizli",
+   "unesco": "Hierapolis–Pamukkale",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Pamukkale"
+  }
+ },
+ {
+  "id": "landmark:pena-palace",
+  "type": "landmark",
+  "names": {
+   "de": "Palácio Nacional da Pena",
+   "en": "Pena Palace"
+  },
+  "aliases": [
+   "Kulturlandschaft Sintra"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:pena-palace",
+    "kind": "photo",
+    "url": "media/photos/landmarks/pena-palace.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sintra_Portugal_Pal%C3%A1cio_da_Pena-01.jpg",
+    "author": "CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "CEphoto, Uwe Aranas · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Sintra_Portugal_Pal%C3%A1cio_da_Pena-01.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:PT",
+   "continent": "europe",
+   "place_name": "Sintra",
+   "unesco": "Kulturlandschaft Sintra",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Pena%20Palace"
+  }
+ },
+ {
+  "id": "landmark:petra",
+  "type": "landmark",
+  "names": {
+   "de": "Petra",
+   "en": "Petra"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:petra",
+    "kind": "photo",
+    "url": "media/photos/landmarks/petra.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Al_Deir_Petra.JPG",
+    "author": "Azurfrog",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Azurfrog · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Al_Deir_Petra.JPG"
+   }
+  ],
+  "attributes": {
+   "country": "country:JO",
+   "continent": "asia",
+   "place_name": "Ma’an",
+   "unesco": "Petra",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Petra"
+  }
+ },
+ {
+  "id": "landmark:pisa",
+  "type": "landmark",
+  "names": {
+   "de": "Schiefer Turm von Pisa",
+   "en": "Leaning Tower of Pisa"
+  },
+  "aliases": [
+   "Piazza del Duomo, Pisa"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:pisa",
+    "kind": "photo",
+    "url": "media/photos/landmarks/pisa.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Italy_-_Pisa_-_Leaning_Tower.jpg",
+    "author": "Arne Müseler",
+    "license": "CC BY-SA 3.0 de",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "attribution": "Arne Müseler · CC BY-SA 3.0 de · https://commons.wikimedia.org/wiki/File:Italy_-_Pisa_-_Leaning_Tower.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "place_name": "Pisa",
+   "unesco": "Piazza del Duomo, Pisa",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Leaning%20Tower%20of%20Pisa"
+  }
+ },
+ {
+  "id": "landmark:pompeii",
+  "type": "landmark",
+  "names": {
+   "de": "Pompeji",
+   "en": "Pompeii"
+  },
+  "aliases": [
+   "Archäologische Stätten von Pompeji, Herculaneum und Torre Annunziata"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:pompeii",
+    "kind": "photo",
+    "url": "media/photos/landmarks/pompeii.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Pompeii_and_Mount_Vesuvius_(view_from_the_southeast).jpg",
+    "author": "Carsten Steger",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Carsten Steger · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Aerial_image_of_Pompeii_and_Mount_Vesuvius_(view_from_the_southeast).jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "place_name": "Kampanien",
+   "unesco": "Archäologische Stätten von Pompeji, Herculaneum und Torre Annunziata",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Pompeii"
+  }
+ },
+ {
+  "id": "landmark:pont-du-gard",
+  "type": "landmark",
+  "names": {
+   "de": "Pont du Gard",
+   "en": "Pont du Gard"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:pont-du-gard",
+    "kind": "photo",
+    "url": "media/photos/landmarks/pont-du-gard.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pont_du_Gard_BLS.jpg",
+    "author": "Benh LIEU SONG ( Flickr )",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Benh LIEU SONG ( Flickr ) · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Pont_du_Gard_BLS.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:FR",
+   "continent": "europe",
+   "place_name": "Okzitanien",
+   "unesco": "Pont du Gard",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Pont%20du%20Gard"
+  }
+ },
+ {
+  "id": "landmark:porto",
+  "type": "landmark",
+  "names": {
+   "de": "Historisches Zentrum von Porto",
+   "en": "Porto"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:porto",
+    "kind": "photo",
+    "url": "media/photos/landmarks/porto.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Puente_Don_Luis_I,_Oporto,_Portugal,_2012-05-09,_DD_13.JPG",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Diego Delso · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Puente_Don_Luis_I,_Oporto,_Portugal,_2012-05-09,_DD_13.JPG"
+   }
+  ],
+  "attributes": {
+   "country": "country:PT",
+   "continent": "europe",
+   "place_name": "Porto",
+   "unesco": "Historisches Zentrum von Porto",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Porto"
+  }
+ },
+ {
+  "id": "landmark:pyramids",
+  "type": "landmark",
+  "names": {
+   "de": "Pyramiden von Gizeh",
+   "en": "Giza pyramid complex"
+  },
+  "aliases": [
+   "Memphis und seine Nekropole"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:pyramids",
+    "kind": "photo",
+    "url": "media/photos/landmarks/pyramids.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pyramids_of_the_Giza_Necropolis.jpg",
+    "author": "KennyOMG",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "KennyOMG · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Pyramids_of_the_Giza_Necropolis.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:EG",
+   "continent": "africa",
+   "place_name": "Gizeh",
+   "unesco": "Memphis und seine Nekropole",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Giza%20pyramid%20complex"
+  }
+ },
+ {
+  "id": "landmark:rapa-nui",
+  "type": "landmark",
+  "names": {
+   "de": "Moai von Rapa Nui",
+   "en": "Easter Island"
+  },
+  "aliases": [
+   "Nationalpark Rapa Nui"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:rapa-nui",
+    "kind": "photo",
+    "url": "media/photos/landmarks/rapa-nui.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Easter_Island_5.jpg",
+    "author": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "kallerna · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Easter_Island_5.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:CL",
+   "continent": "south-america",
+   "place_name": "Osterinsel",
+   "unesco": "Nationalpark Rapa Nui",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Easter%20Island"
+  }
+ },
+ {
+  "id": "landmark:robben-island",
+  "type": "landmark",
+  "names": {
+   "de": "Robben Island",
+   "en": "Robben Island"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:robben-island",
+    "kind": "photo",
+    "url": "media/photos/landmarks/robben-island.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Robben_Island_-_Cape_Town,_South_Africa_(3883849594).jpg",
+    "author": "South African Tourism from South Africa",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "South African Tourism from South Africa · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Robben_Island_-_Cape_Town,_South_Africa_(3883849594).jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:ZA",
+   "continent": "africa",
+   "place_name": "Kapstadt",
+   "unesco": "Robben Island",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Robben%20Island"
+  }
+ },
+ {
+  "id": "landmark:roman-baths",
+  "type": "landmark",
+  "names": {
+   "de": "Römische Bäder von Bath",
+   "en": "Roman Baths (Bath)"
+  },
+  "aliases": [
+   "Stadt Bath"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:roman-baths",
+    "kind": "photo",
+    "url": "media/photos/landmarks/roman-baths.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Roman_Baths_in_Bath_Spa,_England_-_July_2006.jpg",
+    "author": "Diliff",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "attribution": "Diliff · CC BY 2.5 · https://commons.wikimedia.org/wiki/File:Roman_Baths_in_Bath_Spa,_England_-_July_2006.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:GB",
+   "continent": "europe",
+   "place_name": "Bath",
+   "unesco": "Stadt Bath",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Roman%20Baths%20(Bath)"
+  }
+ },
+ {
+  "id": "landmark:sagrada-familia",
+  "type": "landmark",
+  "names": {
+   "de": "Sagrada Família",
+   "en": "Sagrada Família"
+  },
+  "aliases": [
+   "Werke von Antoni Gaudí"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:sagrada-familia",
+    "kind": "photo",
+    "url": "media/photos/landmarks/sagrada-familia.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:SF_maig_2_cropped.jpg",
+    "author": "Canaan",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Canaan · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:SF_maig_2_cropped.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "place_name": "Barcelona",
+   "unesco": "Werke von Antoni Gaudí",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Sagrada%20Fam%C3%ADlia"
+  }
+ },
+ {
+  "id": "landmark:sanssouci",
+  "type": "landmark",
+  "names": {
+   "de": "Schloss Sanssouci",
+   "en": "Sanssouci"
+  },
+  "aliases": [
+   "Schlösser und Parks von Potsdam und Berlin"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:sanssouci",
+    "kind": "photo",
+    "url": "media/photos/landmarks/sanssouci.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Schloss_Sanssouci_2014.jpg",
+    "author": "ernstol",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "ernstol · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Schloss_Sanssouci_2014.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "place_name": "Potsdam",
+   "unesco": "Schlösser und Parks von Potsdam und Berlin",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Sanssouci"
+  }
+ },
+ {
+  "id": "landmark:santiago",
+  "type": "landmark",
+  "names": {
+   "de": "Kathedrale von Santiago de Compostela",
+   "en": "Santiago de Compostela Cathedral"
+  },
+  "aliases": [
+   "Altstadt von Santiago de Compostela"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:santiago",
+    "kind": "photo",
+    "url": "media/photos/landmarks/santiago.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Santiago_cathedral_2021.jpg",
+    "author": "Fernando",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Fernando · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Santiago_cathedral_2021.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "place_name": "Santiago de Compostela",
+   "unesco": "Altstadt von Santiago de Compostela",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Santiago%20de%20Compostela%20Cathedral"
+  }
+ },
+ {
+  "id": "landmark:segovia",
+  "type": "landmark",
+  "names": {
+   "de": "Aquädukt von Segovia",
+   "en": "Aqueduct of Segovia"
+  },
+  "aliases": [
+   "Altstadt von Segovia und ihr Aquädukt"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:segovia",
+    "kind": "photo",
+    "url": "media/photos/landmarks/segovia.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Aqueduct_of_Segovia_08.jpg",
+    "author": "Bernard Gagnon",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Bernard Gagnon · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Aqueduct_of_Segovia_08.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "place_name": "Segovia",
+   "unesco": "Altstadt von Segovia und ihr Aquädukt",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Aqueduct%20of%20Segovia"
+  }
+ },
+ {
+  "id": "landmark:serengeti",
+  "type": "landmark",
+  "names": {
+   "de": "Serengeti-Nationalpark",
+   "en": "Serengeti National Park"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:serengeti",
+    "kind": "photo",
+    "url": "media/photos/landmarks/serengeti.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serengeti-Landscape-2012.JPG",
+    "author": "Bjørn Christian Tørrissen",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Bjørn Christian Tørrissen · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Serengeti-Landscape-2012.JPG"
+   }
+  ],
+  "attributes": {
+   "country": "country:TZ",
+   "continent": "africa",
+   "place_name": "Serengeti",
+   "unesco": "Serengeti-Nationalpark",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Serengeti%20National%20Park"
+  }
+ },
+ {
+  "id": "landmark:speicherstadt",
+  "type": "landmark",
+  "names": {
+   "de": "Speicherstadt",
+   "en": "Speicherstadt"
+  },
+  "aliases": [
+   "Speicherstadt und Kontorhausviertel"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:speicherstadt",
+    "kind": "photo",
+    "url": "media/photos/landmarks/speicherstadt.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Speicherstadt_abends.jpg",
+    "author": "Thomas Wolf , www.foto-tw.de",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Thomas Wolf , www.foto-tw.de · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Speicherstadt_abends.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "place_name": "Hamburg",
+   "unesco": "Speicherstadt und Kontorhausviertel",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Speicherstadt"
+  }
+ },
+ {
+  "id": "landmark:stonehenge",
+  "type": "landmark",
+  "names": {
+   "de": "Stonehenge",
+   "en": "Stonehenge"
+  },
+  "aliases": [
+   "Stonehenge, Avebury und zugehörige Stätten"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:stonehenge",
+    "kind": "photo",
+    "url": "media/photos/landmarks/stonehenge.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Stonehenge2007_07_30.jpg",
+    "author": "garethwiscombe",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "garethwiscombe · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Stonehenge2007_07_30.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:GB",
+   "continent": "europe",
+   "place_name": "Wiltshire",
+   "unesco": "Stonehenge, Avebury und zugehörige Stätten",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Stonehenge"
+  }
+ },
+ {
+  "id": "landmark:taj-mahal",
+  "type": "landmark",
+  "names": {
+   "de": "Taj Mahal",
+   "en": "Taj Mahal"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:taj-mahal",
+    "kind": "photo",
+    "url": "media/photos/landmarks/taj-mahal.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Taj_Mahal_(Edited).jpeg",
+    "author": "Yann ; edited by Jim Carter",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Yann ; edited by Jim Carter · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Taj_Mahal_(Edited).jpeg"
+   }
+  ],
+  "attributes": {
+   "country": "country:IN",
+   "continent": "asia",
+   "place_name": "Agra",
+   "unesco": "Taj Mahal",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Taj%20Mahal"
+  }
+ },
+ {
+  "id": "landmark:te-wahipounamu",
+  "type": "landmark",
+  "names": {
+   "de": "Milford Sound",
+   "en": "Milford Sound"
+  },
+  "aliases": [
+   "Te Wāhipounamu"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:te-wahipounamu",
+    "kind": "photo",
+    "url": "media/photos/landmarks/te-wahipounamu.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Milford_Sound_(New_Zealand).JPG",
+    "author": "Maros M r a z ( Maros )",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Maros M r a z ( Maros ) · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Milford_Sound_(New_Zealand).JPG"
+   }
+  ],
+  "attributes": {
+   "country": "country:NZ",
+   "continent": "oceania",
+   "place_name": "Südinsel",
+   "unesco": "Te Wāhipounamu",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Milford%20Sound"
+  }
+ },
+ {
+  "id": "landmark:tongariro",
+  "type": "landmark",
+  "names": {
+   "de": "Tongariro-Nationalpark",
+   "en": "Tongariro National Park"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:tongariro",
+    "kind": "photo",
+    "url": "media/photos/landmarks/tongariro.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tongariro_Mahuia_River_n.jpg",
+    "author": "Unbekannt",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "attribution": "Unbekannt · CC BY 2.5 · https://commons.wikimedia.org/wiki/File:Tongariro_Mahuia_River_n.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:NZ",
+   "continent": "oceania",
+   "place_name": "Nordinsel",
+   "unesco": "Tongariro-Nationalpark",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Tongariro%20National%20Park"
+  }
+ },
+ {
+  "id": "landmark:tower-london",
+  "type": "landmark",
+  "names": {
+   "de": "Tower of London",
+   "en": "Tower of London"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:tower-london",
+    "kind": "photo",
+    "url": "media/photos/landmarks/tower-london.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tower_of_London_from_the_Shard_(8515883950).jpg",
+    "author": "[Duncan] from Nottingham, UK",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "[Duncan] from Nottingham, UK · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Tower_of_London_from_the_Shard_(8515883950).jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:GB",
+   "continent": "europe",
+   "place_name": "London",
+   "unesco": "Tower of London",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Tower%20of%20London"
+  }
+ },
+ {
+  "id": "landmark:troy",
+  "type": "landmark",
+  "names": {
+   "de": "Troja",
+   "en": "Troy"
+  },
+  "aliases": [
+   "Archäologische Stätte von Troja"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:troy",
+    "kind": "photo",
+    "url": "media/photos/landmarks/troy.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Walls_of_Troy_(2).jpg",
+    "author": "CherryX",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "CherryX · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Walls_of_Troy_(2).jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:TR",
+   "continent": "asia",
+   "place_name": "Çanakkale",
+   "unesco": "Archäologische Stätte von Troja",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Troy"
+  }
+ },
+ {
+  "id": "landmark:uluru",
+  "type": "landmark",
+  "names": {
+   "de": "Uluṟu",
+   "en": "Uluṟu"
+  },
+  "aliases": [
+   "Uluṟu-Kata-Tjuṯa-Nationalpark"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:uluru",
+    "kind": "photo",
+    "url": "media/photos/landmarks/uluru.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:ULURU.jpg",
+    "author": "Ek2030372672",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Ek2030372672 · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:ULURU.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:AU",
+   "continent": "oceania",
+   "place_name": "Northern Territory",
+   "unesco": "Uluṟu-Kata-Tjuṯa-Nationalpark",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Ulu%E1%B9%9Fu"
+  }
+ },
+ {
+  "id": "landmark:venice",
+  "type": "landmark",
+  "names": {
+   "de": "Venedig und seine Lagune",
+   "en": "Venice"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:venice",
+    "kind": "photo",
+    "url": "media/photos/landmarks/venice.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Venezia_aerial_view.jpg",
+    "author": "kallerna",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "kallerna · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Venezia_aerial_view.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "place_name": "Venedig",
+   "unesco": "Venedig und seine Lagune",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Venice"
+  }
+ },
+ {
+  "id": "landmark:versailles",
+  "type": "landmark",
+  "names": {
+   "de": "Schloss Versailles",
+   "en": "Palace of Versailles"
+  },
+  "aliases": [
+   "Schloss und Park von Versailles"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:versailles",
+    "kind": "photo",
+    "url": "media/photos/landmarks/versailles.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Vue_a%C3%A9rienne_du_domaine_de_Versailles_par_ToucanWings_-_Creative_Commons_By_Sa_3.0_-_081_(cropped).jpg",
+    "author": "ToucanWings",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "ToucanWings · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Vue_a%C3%A9rienne_du_domaine_de_Versailles_par_ToucanWings_-_Creative_Commons_By_Sa_3.0_-_081_(cropped).jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:FR",
+   "continent": "europe",
+   "place_name": "Versailles",
+   "unesco": "Schloss und Park von Versailles",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Palace%20of%20Versailles"
+  }
+ },
+ {
+  "id": "landmark:victoria-falls",
+  "type": "landmark",
+  "names": {
+   "de": "Victoriafälle",
+   "en": "Victoria Falls"
+  },
+  "aliases": [
+   "Mosi-oa-Tunya / Victoria Falls"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:victoria-falls",
+    "kind": "photo",
+    "url": "media/photos/landmarks/victoria-falls.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_04.jpg",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Diego Delso · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Cataratas_Victoria,_Zambia-Zimbabue,_2018-07-27,_DD_04.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:ZM",
+   "continent": "africa",
+   "place_name": "Sambia / Simbabwe",
+   "unesco": "Mosi-oa-Tunya / Victoria Falls",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Victoria%20Falls"
+  }
+ },
+ {
+  "id": "landmark:wartburg",
+  "type": "landmark",
+  "names": {
+   "de": "Wartburg",
+   "en": "Wartburg"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:wartburg",
+    "kind": "photo",
+    "url": "media/photos/landmarks/wartburg.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Thuringia_Eisenach_asv2020-07_img23_Wartburg_Castle.jpg",
+    "author": "A.Savin",
+    "license": "FAL",
+    "license_url": "http://artlibre.org/licence/lal/en",
+    "attribution": "A.Savin · FAL · https://commons.wikimedia.org/wiki/File:Thuringia_Eisenach_asv2020-07_img23_Wartburg_Castle.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "place_name": "Eisenach",
+   "unesco": "Wartburg",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Wartburg"
+  }
+ },
+ {
+  "id": "landmark:westminster",
+  "type": "landmark",
+  "names": {
+   "de": "Westminster Abbey",
+   "en": "Westminster Abbey"
+  },
+  "aliases": [
+   "Palace of Westminster und Westminster Abbey"
+  ],
+  "media": [
+   {
+    "id": "media:photo:landmark:westminster",
+    "kind": "photo",
+    "url": "media/photos/landmarks/westminster.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Westminster_Abbey,_Westminster.jpg",
+    "author": "Antiquary",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "attribution": "Antiquary · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Westminster_Abbey,_Westminster.jpg"
+   }
+  ],
+  "attributes": {
+   "country": "country:GB",
+   "continent": "europe",
+   "place_name": "London",
+   "unesco": "Palace of Westminster und Westminster Abbey",
+   "landmark_type": "unesco"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Westminster%20Abbey"
+  }
+ }
+]

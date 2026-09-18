@@ -1,0 +1,860 @@
+[
+ {
+  "id": "region:CH-AG",
+  "type": "region",
+  "names": {
+   "de": "Aargau"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-AG",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-AG.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-AG",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Aarau",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-AI",
+  "type": "region",
+  "names": {
+   "de": "Appenzell Innerrhoden"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-AI",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-AI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-AI",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Appenzell",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-AR",
+  "type": "region",
+  "names": {
+   "de": "Appenzell Ausserrhoden"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-AR",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-AR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-AR",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Herisau",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-BE",
+  "type": "region",
+  "names": {
+   "de": "Bern"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-BE",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-BE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-BE",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Bern",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-BL",
+  "type": "region",
+  "names": {
+   "de": "Basel-Landschaft"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-BL",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-BL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-BL",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Liestal",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-BS",
+  "type": "region",
+  "names": {
+   "de": "Basel-Stadt"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-BS",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-BS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-BS",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Basel",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-FR",
+  "type": "region",
+  "names": {
+   "de": "Freiburg"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-FR",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-FR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-FR",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Freiburg",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-GE",
+  "type": "region",
+  "names": {
+   "de": "Genf"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-GE",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-GE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-GE",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Genf",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-GL",
+  "type": "region",
+  "names": {
+   "de": "Glarus"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-GL",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-GL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-GL",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Glarus",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-GR",
+  "type": "region",
+  "names": {
+   "de": "Grisons"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-GR",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-GR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-GR",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Chur",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-JU",
+  "type": "region",
+  "names": {
+   "de": "Jura"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-JU",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-JU.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-JU",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Delsberg",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-LU",
+  "type": "region",
+  "names": {
+   "de": "Lucerne"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-LU",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-LU.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-LU",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Luzern",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-NE",
+  "type": "region",
+  "names": {
+   "de": "Neuenburg"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-NE",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-NE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-NE",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Neuenburg",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-NW",
+  "type": "region",
+  "names": {
+   "de": "Nidwalden"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-NW",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-NW.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-NW",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Stans",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-OW",
+  "type": "region",
+  "names": {
+   "de": "Obwalden"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-OW",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-OW.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-OW",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Sarnen",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-SG",
+  "type": "region",
+  "names": {
+   "de": "St. Gallen"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-SG",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-SG.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-SG",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "St. Gallen",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-SH",
+  "type": "region",
+  "names": {
+   "de": "Schaffhausen"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-SH",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-SH.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-SH",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Schaffhausen",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-SO",
+  "type": "region",
+  "names": {
+   "de": "Solothurn"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-SO",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-SO.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-SO",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Solothurn",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-SZ",
+  "type": "region",
+  "names": {
+   "de": "Schwyz"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-SZ",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-SZ.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-SZ",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Schwyz",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-TG",
+  "type": "region",
+  "names": {
+   "de": "Thurgau"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-TG",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-TG.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-TG",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Frauenfeld",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-TI",
+  "type": "region",
+  "names": {
+   "de": "Tessin"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-TI",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-TI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-TI",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Bellinzona",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-UR",
+  "type": "region",
+  "names": {
+   "de": "Uri"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-UR",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-UR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-UR",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Altdorf",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-VD",
+  "type": "region",
+  "names": {
+   "de": "Waadt"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-VD",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-VD.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-VD",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Lausanne",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-VS",
+  "type": "region",
+  "names": {
+   "de": "Wallis"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-VS",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-VS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-VS",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Sitten",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-ZG",
+  "type": "region",
+  "names": {
+   "de": "Zug"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-ZG",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-ZG.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+   }
+  ],
+  "attributes": {
+   "code": "CH-ZG",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Zug",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flags_and_arms_of_cantons_of_Switzerland"
+  }
+ },
+ {
+  "id": "region:CH-ZH",
+  "type": "region",
+  "names": {
+   "de": "Zürich"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CH-ZH",
+    "kind": "flag",
+    "url": "media/flags/regions/CH-ZH.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_and_coat_of_arms_of_Z%C3%BCrich",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_and_coat_of_arms_of_Z%C3%BCrich"
+   }
+  ],
+  "attributes": {
+   "code": "CH-ZH",
+   "country": "country:CH",
+   "admin_level": 1,
+   "collection": "switzerland",
+   "continent": "europe",
+   "capital_name": "Zürich",
+   "map": "media/maps/regions/CH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_and_coat_of_arms_of_Z%C3%BCrich"
+  }
+ }
+]

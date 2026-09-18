@@ -1,0 +1,450 @@
+[
+ {
+  "id": "region:CZ-20",
+  "type": "region",
+  "names": {
+   "de": "Mittelböhmen"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CZ-20",
+    "kind": "flag",
+    "url": "media/flags/regions/CZ-20.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/cz-re.html"
+   }
+  ],
+  "attributes": {
+   "code": "CZ-20",
+   "country": "country:CZ",
+   "admin_level": 1,
+   "collection": "czechia",
+   "continent": "europe",
+   "map": "media/maps/regions/CZ"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html"
+  }
+ },
+ {
+  "id": "region:CZ-31",
+  "type": "region",
+  "names": {
+   "de": "Südböhmen"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CZ-31",
+    "kind": "flag",
+    "url": "media/flags/regions/CZ-31.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/cz-re.html"
+   }
+  ],
+  "attributes": {
+   "code": "CZ-31",
+   "country": "country:CZ",
+   "admin_level": 1,
+   "collection": "czechia",
+   "continent": "europe",
+   "map": "media/maps/regions/CZ"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html"
+  }
+ },
+ {
+  "id": "region:CZ-32",
+  "type": "region",
+  "names": {
+   "de": "Plzeň"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CZ-32",
+    "kind": "flag",
+    "url": "media/flags/regions/CZ-32.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/cz-re.html"
+   }
+  ],
+  "attributes": {
+   "code": "CZ-32",
+   "country": "country:CZ",
+   "admin_level": 1,
+   "collection": "czechia",
+   "continent": "europe",
+   "map": "media/maps/regions/CZ"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html"
+  }
+ },
+ {
+  "id": "region:CZ-41",
+  "type": "region",
+  "names": {
+   "de": "Karlovy Vary"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CZ-41",
+    "kind": "flag",
+    "url": "media/flags/regions/CZ-41.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/cz-re.html"
+   }
+  ],
+  "attributes": {
+   "code": "CZ-41",
+   "country": "country:CZ",
+   "admin_level": 1,
+   "collection": "czechia",
+   "continent": "europe",
+   "map": "media/maps/regions/CZ"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html"
+  }
+ },
+ {
+  "id": "region:CZ-42",
+  "type": "region",
+  "names": {
+   "de": "Ústí nad Labem"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CZ-42",
+    "kind": "flag",
+    "url": "media/flags/regions/CZ-42.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/cz-re.html"
+   }
+  ],
+  "attributes": {
+   "code": "CZ-42",
+   "country": "country:CZ",
+   "admin_level": 1,
+   "collection": "czechia",
+   "continent": "europe",
+   "map": "media/maps/regions/CZ"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html"
+  }
+ },
+ {
+  "id": "region:CZ-51",
+  "type": "region",
+  "names": {
+   "de": "Liberec"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CZ-51",
+    "kind": "flag",
+    "url": "media/flags/regions/CZ-51.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/cz-re.html"
+   }
+  ],
+  "attributes": {
+   "code": "CZ-51",
+   "country": "country:CZ",
+   "admin_level": 1,
+   "collection": "czechia",
+   "continent": "europe",
+   "map": "media/maps/regions/CZ"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html"
+  }
+ },
+ {
+  "id": "region:CZ-52",
+  "type": "region",
+  "names": {
+   "de": "Hradec Králové"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CZ-52",
+    "kind": "flag",
+    "url": "media/flags/regions/CZ-52.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/cz-re.html"
+   }
+  ],
+  "attributes": {
+   "code": "CZ-52",
+   "country": "country:CZ",
+   "admin_level": 1,
+   "collection": "czechia",
+   "continent": "europe",
+   "map": "media/maps/regions/CZ"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html"
+  }
+ },
+ {
+  "id": "region:CZ-53",
+  "type": "region",
+  "names": {
+   "de": "Pardubice"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CZ-53",
+    "kind": "flag",
+    "url": "media/flags/regions/CZ-53.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/cz-re.html"
+   }
+  ],
+  "attributes": {
+   "code": "CZ-53",
+   "country": "country:CZ",
+   "admin_level": 1,
+   "collection": "czechia",
+   "continent": "europe",
+   "map": "media/maps/regions/CZ"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html"
+  }
+ },
+ {
+  "id": "region:CZ-63",
+  "type": "region",
+  "names": {
+   "de": "Vysočina"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CZ-63",
+    "kind": "flag",
+    "url": "media/flags/regions/CZ-63.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/cz-re.html"
+   }
+  ],
+  "attributes": {
+   "code": "CZ-63",
+   "country": "country:CZ",
+   "admin_level": 1,
+   "collection": "czechia",
+   "continent": "europe",
+   "map": "media/maps/regions/CZ"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html"
+  }
+ },
+ {
+  "id": "region:CZ-64",
+  "type": "region",
+  "names": {
+   "de": "Südmähren"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CZ-64",
+    "kind": "flag",
+    "url": "media/flags/regions/CZ-64.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/cz-re.html"
+   }
+  ],
+  "attributes": {
+   "code": "CZ-64",
+   "country": "country:CZ",
+   "admin_level": 1,
+   "collection": "czechia",
+   "continent": "europe",
+   "map": "media/maps/regions/CZ"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html"
+  }
+ },
+ {
+  "id": "region:CZ-71",
+  "type": "region",
+  "names": {
+   "de": "Olomouc"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CZ-71",
+    "kind": "flag",
+    "url": "media/flags/regions/CZ-71.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/cz-re.html"
+   }
+  ],
+  "attributes": {
+   "code": "CZ-71",
+   "country": "country:CZ",
+   "admin_level": 1,
+   "collection": "czechia",
+   "continent": "europe",
+   "map": "media/maps/regions/CZ"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html"
+  }
+ },
+ {
+  "id": "region:CZ-72",
+  "type": "region",
+  "names": {
+   "de": "Zlín"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CZ-72",
+    "kind": "flag",
+    "url": "media/flags/regions/CZ-72.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/cz-re.html"
+   }
+  ],
+  "attributes": {
+   "code": "CZ-72",
+   "country": "country:CZ",
+   "admin_level": 1,
+   "collection": "czechia",
+   "continent": "europe",
+   "map": "media/maps/regions/CZ"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html"
+  }
+ },
+ {
+  "id": "region:CZ-80",
+  "type": "region",
+  "names": {
+   "de": "Mährisch-Schlesien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CZ-80",
+    "kind": "flag",
+    "url": "media/flags/regions/CZ-80.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/cz-re.html"
+   }
+  ],
+  "attributes": {
+   "code": "CZ-80",
+   "country": "country:CZ",
+   "admin_level": 1,
+   "collection": "czechia",
+   "continent": "europe",
+   "map": "media/maps/regions/CZ"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/cz-re.html"
+  }
+ },
+ {
+  "id": "region:CZ-PR",
+  "type": "region",
+  "names": {
+   "de": "Prag"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CZ-PR",
+    "kind": "flag",
+    "url": "media/flags/regions/CZ-PR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Prague",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Prague"
+   }
+  ],
+  "attributes": {
+   "code": "CZ-PR",
+   "country": "country:CZ",
+   "admin_level": 1,
+   "collection": "czechia",
+   "continent": "europe",
+   "map": "media/maps/regions/CZ"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Prague"
+  }
+ }
+]

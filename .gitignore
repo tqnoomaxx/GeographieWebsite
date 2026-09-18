@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+coverage
+.env
+.env.*
+!.env.example
+/tmp
+/scripts/.cache
+test-results
+playwright-report
+scripts/.cache

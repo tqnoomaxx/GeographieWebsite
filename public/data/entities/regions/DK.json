@@ -1,0 +1,162 @@
+[
+ {
+  "id": "region:DK-81",
+  "type": "region",
+  "names": {
+   "de": "Nordjylland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DK-81",
+    "kind": "flag",
+    "url": "media/flags/regions/DK-81.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Region_Nordjylland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Region_Nordjylland"
+   }
+  ],
+  "attributes": {
+   "code": "DK-81",
+   "country": "country:DK",
+   "admin_level": 1,
+   "collection": "europe-dk",
+   "continent": "europe",
+   "map": "media/maps/regions/DK"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Region_Nordjylland"
+  }
+ },
+ {
+  "id": "region:DK-82",
+  "type": "region",
+  "names": {
+   "de": "Midtjylland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DK-82",
+    "kind": "flag",
+    "url": "media/flags/regions/DK-82.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Central_Denmark_Region",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Central_Denmark_Region"
+   }
+  ],
+  "attributes": {
+   "code": "DK-82",
+   "country": "country:DK",
+   "admin_level": 1,
+   "collection": "europe-dk",
+   "continent": "europe",
+   "map": "media/maps/regions/DK"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Central_Denmark_Region"
+  }
+ },
+ {
+  "id": "region:DK-83",
+  "type": "region",
+  "names": {
+   "de": "Syddanmark"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DK-83",
+    "kind": "flag",
+    "url": "media/flags/regions/DK-83.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Region_of_Southern_Denmark",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Region_of_Southern_Denmark"
+   }
+  ],
+  "attributes": {
+   "code": "DK-83",
+   "country": "country:DK",
+   "admin_level": 1,
+   "collection": "europe-dk",
+   "continent": "europe",
+   "map": "media/maps/regions/DK"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Region_of_Southern_Denmark"
+  }
+ },
+ {
+  "id": "region:DK-84",
+  "type": "region",
+  "names": {
+   "de": "Hovedstaden"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DK-84",
+    "kind": "flag",
+    "url": "media/flags/regions/DK-84.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Capital_Region_of_Denmark",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Capital_Region_of_Denmark"
+   }
+  ],
+  "attributes": {
+   "code": "DK-84",
+   "country": "country:DK",
+   "admin_level": 1,
+   "collection": "europe-dk",
+   "continent": "europe",
+   "map": "media/maps/regions/DK"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Capital_Region_of_Denmark"
+  }
+ },
+ {
+  "id": "region:DK-85",
+  "type": "region",
+  "names": {
+   "de": "Sjælland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DK-85",
+    "kind": "flag",
+    "url": "media/flags/regions/DK-85.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Region_Zealand",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Region_Zealand"
+   }
+  ],
+  "attributes": {
+   "code": "DK-85",
+   "country": "country:DK",
+   "admin_level": 1,
+   "collection": "europe-dk",
+   "continent": "europe",
+   "map": "media/maps/regions/DK"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Region_Zealand"
+  }
+ }
+]

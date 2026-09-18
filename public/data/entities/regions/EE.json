@@ -1,0 +1,130 @@
+[
+ {
+  "id": "region:EE-37",
+  "type": "region",
+  "names": {
+   "de": "Harju maakond"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EE-37",
+    "kind": "flag",
+    "url": "media/flags/regions/EE-37.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q619247",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q619247"
+   }
+  ],
+  "attributes": {
+   "code": "EE-37",
+   "country": "country:EE",
+   "admin_level": 1,
+   "collection": "europe-ee",
+   "continent": "europe",
+   "map": "media/maps/regions/EE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q619247"
+  }
+ },
+ {
+  "id": "region:EE-39",
+  "type": "region",
+  "names": {
+   "de": "Hiiu maakond"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EE-39",
+    "kind": "flag",
+    "url": "media/flags/regions/EE-39.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q619405",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q619405"
+   }
+  ],
+  "attributes": {
+   "code": "EE-39",
+   "country": "country:EE",
+   "admin_level": 1,
+   "collection": "europe-ee",
+   "continent": "europe",
+   "map": "media/maps/regions/EE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q619405"
+  }
+ },
+ {
+  "id": "region:EE-74",
+  "type": "region",
+  "names": {
+   "de": "Saare maakond"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EE-74",
+    "kind": "flag",
+    "url": "media/flags/regions/EE-74.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q619804",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q619804"
+   }
+  ],
+  "attributes": {
+   "code": "EE-74",
+   "country": "country:EE",
+   "admin_level": 1,
+   "collection": "europe-ee",
+   "continent": "europe",
+   "map": "media/maps/regions/EE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q619804"
+  }
+ },
+ {
+  "id": "region:EE-84",
+  "type": "region",
+  "names": {
+   "de": "Viljandi maakond"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EE-84",
+    "kind": "flag",
+    "url": "media/flags/regions/EE-84.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Viljandi_County",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Viljandi_County"
+   }
+  ],
+  "attributes": {
+   "code": "EE-84",
+   "country": "country:EE",
+   "admin_level": 1,
+   "collection": "europe-ee",
+   "continent": "europe",
+   "map": "media/maps/regions/EE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Viljandi_County"
+  }
+ }
+]

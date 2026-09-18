@@ -1,0 +1,194 @@
+[
+ {
+  "id": "region:NO-03",
+  "type": "region",
+  "names": {
+   "de": "Oslo"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:NO-03",
+    "kind": "flag",
+    "url": "media/flags/regions/NO-03.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://snl.no/Oslos_flagg_og_v%C3%A5pen",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://snl.no/Oslos_flagg_og_v%C3%A5pen"
+   }
+  ],
+  "attributes": {
+   "code": "NO-03",
+   "country": "country:NO",
+   "admin_level": 1,
+   "collection": "europe-no",
+   "continent": "europe",
+   "map": "media/maps/regions/NO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://snl.no/Oslos_flagg_og_v%C3%A5pen"
+  }
+ },
+ {
+  "id": "region:NO-11",
+  "type": "region",
+  "names": {
+   "de": "Rogaland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:NO-11",
+    "kind": "flag",
+    "url": "media/flags/regions/NO-11.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Rogaland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Rogaland"
+   }
+  ],
+  "attributes": {
+   "code": "NO-11",
+   "country": "country:NO",
+   "admin_level": 1,
+   "collection": "europe-no",
+   "continent": "europe",
+   "map": "media/maps/regions/NO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Rogaland"
+  }
+ },
+ {
+  "id": "region:NO-15",
+  "type": "region",
+  "names": {
+   "de": "Møre og Romsdal"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:NO-15",
+    "kind": "flag",
+    "url": "media/flags/regions/NO-15.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/M%C3%B8re_og_Romsdal",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/M%C3%B8re_og_Romsdal"
+   }
+  ],
+  "attributes": {
+   "code": "NO-15",
+   "country": "country:NO",
+   "admin_level": 1,
+   "collection": "europe-no",
+   "continent": "europe",
+   "map": "media/maps/regions/NO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/M%C3%B8re_og_Romsdal"
+  }
+ },
+ {
+  "id": "region:NO-18",
+  "type": "region",
+  "names": {
+   "de": "Nordland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:NO-18",
+    "kind": "flag",
+    "url": "media/flags/regions/NO-18.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Nordland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Nordland"
+   }
+  ],
+  "attributes": {
+   "code": "NO-18",
+   "country": "country:NO",
+   "admin_level": 1,
+   "collection": "europe-no",
+   "continent": "europe",
+   "map": "media/maps/regions/NO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Nordland"
+  }
+ },
+ {
+  "id": "region:NO-34",
+  "type": "region",
+  "names": {
+   "de": "Innlandet"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:NO-34",
+    "kind": "flag",
+    "url": "media/flags/regions/NO-34.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Innlandet.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Innlandet.svg"
+   }
+  ],
+  "attributes": {
+   "code": "NO-34",
+   "country": "country:NO",
+   "admin_level": 1,
+   "collection": "europe-no",
+   "continent": "europe",
+   "map": "media/maps/regions/NO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Innlandet.svg"
+  }
+ },
+ {
+  "id": "region:NO-46",
+  "type": "region",
+  "names": {
+   "de": "Vestland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:NO-46",
+    "kind": "flag",
+    "url": "media/flags/regions/NO-46.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Vestland.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Vestland.svg"
+   }
+  ],
+  "attributes": {
+   "code": "NO-46",
+   "country": "country:NO",
+   "admin_level": 1,
+   "collection": "europe-no",
+   "continent": "europe",
+   "map": "media/maps/regions/NO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Vestland.svg"
+  }
+ }
+]

@@ -1,0 +1,226 @@
+[
+ {
+  "id": "region:BY-BR",
+  "type": "region",
+  "names": {
+   "de": "Brest"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BY-BR",
+    "kind": "flag",
+    "url": "media/flags/regions/BY-BR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Brest_Region",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Brest_Region"
+   }
+  ],
+  "attributes": {
+   "code": "BY-BR",
+   "country": "country:BY",
+   "admin_level": 1,
+   "collection": "europe-by",
+   "continent": "europe",
+   "map": "media/maps/regions/BY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Brest_Region"
+  }
+ },
+ {
+  "id": "region:BY-HM",
+  "type": "region",
+  "names": {
+   "de": "Minsk City"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BY-HM",
+    "kind": "flag",
+    "url": "media/flags/regions/BY-HM.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Minsk",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Minsk"
+   }
+  ],
+  "attributes": {
+   "code": "BY-HM",
+   "country": "country:BY",
+   "admin_level": 1,
+   "collection": "europe-by",
+   "continent": "europe",
+   "map": "media/maps/regions/BY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Minsk"
+  }
+ },
+ {
+  "id": "region:BY-HO",
+  "type": "region",
+  "names": {
+   "de": "Gomel"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BY-HO",
+    "kind": "flag",
+    "url": "media/flags/regions/BY-HO.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Gomel_Region",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Gomel_Region"
+   }
+  ],
+  "attributes": {
+   "code": "BY-HO",
+   "country": "country:BY",
+   "admin_level": 1,
+   "collection": "europe-by",
+   "continent": "europe",
+   "map": "media/maps/regions/BY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Gomel_Region"
+  }
+ },
+ {
+  "id": "region:BY-HR",
+  "type": "region",
+  "names": {
+   "de": "Grodno"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BY-HR",
+    "kind": "flag",
+    "url": "media/flags/regions/BY-HR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Grodno_Region",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Grodno_Region"
+   }
+  ],
+  "attributes": {
+   "code": "BY-HR",
+   "country": "country:BY",
+   "admin_level": 1,
+   "collection": "europe-by",
+   "continent": "europe",
+   "map": "media/maps/regions/BY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Grodno_Region"
+  }
+ },
+ {
+  "id": "region:BY-MA",
+  "type": "region",
+  "names": {
+   "de": "Mogilev"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BY-MA",
+    "kind": "flag",
+    "url": "media/flags/regions/BY-MA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Mogilev_Region",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Mogilev_Region"
+   }
+  ],
+  "attributes": {
+   "code": "BY-MA",
+   "country": "country:BY",
+   "admin_level": 1,
+   "collection": "europe-by",
+   "continent": "europe",
+   "map": "media/maps/regions/BY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Mogilev_Region"
+  }
+ },
+ {
+  "id": "region:BY-MI",
+  "type": "region",
+  "names": {
+   "de": "Minsk"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BY-MI",
+    "kind": "flag",
+    "url": "media/flags/regions/BY-MI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Minsk_Region",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Minsk_Region"
+   }
+  ],
+  "attributes": {
+   "code": "BY-MI",
+   "country": "country:BY",
+   "admin_level": 1,
+   "collection": "europe-by",
+   "continent": "europe",
+   "map": "media/maps/regions/BY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Minsk_Region"
+  }
+ },
+ {
+  "id": "region:BY-VI",
+  "type": "region",
+  "names": {
+   "de": "Vitebsk"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BY-VI",
+    "kind": "flag",
+    "url": "media/flags/regions/BY-VI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Vitebsk_Region",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Vitebsk_Region"
+   }
+  ],
+  "attributes": {
+   "code": "BY-VI",
+   "country": "country:BY",
+   "admin_level": 1,
+   "collection": "europe-by",
+   "continent": "europe",
+   "map": "media/maps/regions/BY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Vitebsk_Region"
+  }
+ }
+]

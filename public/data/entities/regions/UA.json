@@ -1,0 +1,866 @@
+[
+ {
+  "id": "region:UA-05",
+  "type": "region",
+  "names": {
+   "de": "Vinnytsia Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-05",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-05.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Vinnytsia_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Vinnytsia_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "UA-05",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Vinnytsia_Oblast"
+  }
+ },
+ {
+  "id": "region:UA-07",
+  "type": "region",
+  "names": {
+   "de": "Volyn Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-07",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-07.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2714629",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2714629"
+   }
+  ],
+  "attributes": {
+   "code": "UA-07",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2714629"
+  }
+ },
+ {
+  "id": "region:UA-09",
+  "type": "region",
+  "names": {
+   "de": "Luhansk Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-09",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-09.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q1853811",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q1853811"
+   }
+  ],
+  "attributes": {
+   "code": "UA-09",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q1853811"
+  }
+ },
+ {
+  "id": "region:UA-12",
+  "type": "region",
+  "names": {
+   "de": "Dnipropetrovsk Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-12",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-12.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2676406",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2676406"
+   }
+  ],
+  "attributes": {
+   "code": "UA-12",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2676406"
+  }
+ },
+ {
+  "id": "region:UA-14",
+  "type": "region",
+  "names": {
+   "de": "Donetsk Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-14",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-14.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Donetsk_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Donetsk_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "UA-14",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Donetsk_Oblast"
+  }
+ },
+ {
+  "id": "region:UA-18",
+  "type": "region",
+  "names": {
+   "de": "Zhytomyr Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-18",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-18.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Zhytomyr_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Zhytomyr_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "UA-18",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Zhytomyr_Oblast"
+  }
+ },
+ {
+  "id": "region:UA-21",
+  "type": "region",
+  "names": {
+   "de": "Zakarpattia Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-21",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-21.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Zakarpattia_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Zakarpattia_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "UA-21",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Zakarpattia_Oblast"
+  }
+ },
+ {
+  "id": "region:UA-23",
+  "type": "region",
+  "names": {
+   "de": "Zaporizhia Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-23",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-23.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2596615",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2596615"
+   }
+  ],
+  "attributes": {
+   "code": "UA-23",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2596615"
+  }
+ },
+ {
+  "id": "region:UA-26",
+  "type": "region",
+  "names": {
+   "de": "Ivano-Frankivsk Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-26",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-26.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2454410",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2454410"
+   }
+  ],
+  "attributes": {
+   "code": "UA-26",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2454410"
+  }
+ },
+ {
+  "id": "region:UA-30",
+  "type": "region",
+  "names": {
+   "de": "Kyiv"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-30",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-30.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2225406",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2225406"
+   }
+  ],
+  "attributes": {
+   "code": "UA-30",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2225406"
+  }
+ },
+ {
+  "id": "region:UA-32",
+  "type": "region",
+  "names": {
+   "de": "Kyiv Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-32",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-32.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kyiv_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Kyiv_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "UA-32",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kyiv_Oblast"
+  }
+ },
+ {
+  "id": "region:UA-35",
+  "type": "region",
+  "names": {
+   "de": "Kirovohrad Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-35",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-35.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kirovohrad_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Kirovohrad_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "UA-35",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kirovohrad_Oblast"
+  }
+ },
+ {
+  "id": "region:UA-40",
+  "type": "region",
+  "names": {
+   "de": "Sevastopol"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-40",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-40.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Sevastopol",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Sevastopol"
+   }
+  ],
+  "attributes": {
+   "code": "UA-40",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Sevastopol"
+  }
+ },
+ {
+  "id": "region:UA-43",
+  "type": "region",
+  "names": {
+   "de": "Autonomous Republic of Crimea"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-43",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-43.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Crimea",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Crimea"
+   }
+  ],
+  "attributes": {
+   "code": "UA-43",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Crimea"
+  }
+ },
+ {
+  "id": "region:UA-46",
+  "type": "region",
+  "names": {
+   "de": "Lviv Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-46",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-46.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2774900",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2774900"
+   }
+  ],
+  "attributes": {
+   "code": "UA-46",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2774900"
+  }
+ },
+ {
+  "id": "region:UA-48",
+  "type": "region",
+  "names": {
+   "de": "Mykolaiv Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-48",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-48.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q4947971",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q4947971"
+   }
+  ],
+  "attributes": {
+   "code": "UA-48",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q4947971"
+  }
+ },
+ {
+  "id": "region:UA-51",
+  "type": "region",
+  "names": {
+   "de": "Odessa Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-51",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-51.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Odesa_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Odesa_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "UA-51",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Odesa_Oblast"
+  }
+ },
+ {
+  "id": "region:UA-53",
+  "type": "region",
+  "names": {
+   "de": "Poltava Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-53",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-53.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q4487511",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q4487511"
+   }
+  ],
+  "attributes": {
+   "code": "UA-53",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q4487511"
+  }
+ },
+ {
+  "id": "region:UA-56",
+  "type": "region",
+  "names": {
+   "de": "Rivne Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-56",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-56.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2501410",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2501410"
+   }
+  ],
+  "attributes": {
+   "code": "UA-56",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2501410"
+  }
+ },
+ {
+  "id": "region:UA-59",
+  "type": "region",
+  "names": {
+   "de": "Sumy Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-59",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-59.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2088121",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2088121"
+   }
+  ],
+  "attributes": {
+   "code": "UA-59",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2088121"
+  }
+ },
+ {
+  "id": "region:UA-61",
+  "type": "region",
+  "names": {
+   "de": "Ternopil Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-61",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-61.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q4488070",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q4488070"
+   }
+  ],
+  "attributes": {
+   "code": "UA-61",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q4488070"
+  }
+ },
+ {
+  "id": "region:UA-63",
+  "type": "region",
+  "names": {
+   "de": "Kharkiv Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-63",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-63.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kharkiv_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Kharkiv_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "UA-63",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kharkiv_Oblast"
+  }
+ },
+ {
+  "id": "region:UA-65",
+  "type": "region",
+  "names": {
+   "de": "Kherson Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-65",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-65.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kherson_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Kherson_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "UA-65",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kherson_Oblast"
+  }
+ },
+ {
+  "id": "region:UA-68",
+  "type": "region",
+  "names": {
+   "de": "Khmelnytskyi Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-68",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-68.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Khmelnytskyi_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Khmelnytskyi_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "UA-68",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Khmelnytskyi_Oblast"
+  }
+ },
+ {
+  "id": "region:UA-71",
+  "type": "region",
+  "names": {
+   "de": "Cherkasy Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-71",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-71.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Cherkasy_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Cherkasy_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "UA-71",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Cherkasy_Oblast"
+  }
+ },
+ {
+  "id": "region:UA-74",
+  "type": "region",
+  "names": {
+   "de": "Chernihiv Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-74",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-74.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Chernihiv_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Chernihiv_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "UA-74",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Chernihiv_Oblast"
+  }
+ },
+ {
+  "id": "region:UA-77",
+  "type": "region",
+  "names": {
+   "de": "Chernivtsi Oblast"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:UA-77",
+    "kind": "flag",
+    "url": "media/flags/regions/UA-77.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Chernivtsi_Oblast",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Chernivtsi_Oblast"
+   }
+  ],
+  "attributes": {
+   "code": "UA-77",
+   "country": "country:UA",
+   "admin_level": 1,
+   "collection": "europe-ua",
+   "continent": "europe",
+   "map": "media/maps/regions/UA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Chernivtsi_Oblast"
+  }
+ }
+]

@@ -1,0 +1,578 @@
+[
+ {
+  "id": "region:FI-02",
+  "type": "region",
+  "names": {
+   "de": "South Karelia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FI-02",
+    "kind": "flag",
+    "url": "media/flags/regions/FI-02.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/South_Karelia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/South_Karelia"
+   }
+  ],
+  "attributes": {
+   "code": "FI-02",
+   "country": "country:FI",
+   "admin_level": 1,
+   "collection": "europe-fi",
+   "continent": "europe",
+   "map": "media/maps/regions/FI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/South_Karelia"
+  }
+ },
+ {
+  "id": "region:FI-03",
+  "type": "region",
+  "names": {
+   "de": "South Ostrobothnia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FI-03",
+    "kind": "flag",
+    "url": "media/flags/regions/FI-03.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/South_Ostrobothnia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/South_Ostrobothnia"
+   }
+  ],
+  "attributes": {
+   "code": "FI-03",
+   "country": "country:FI",
+   "admin_level": 1,
+   "collection": "europe-fi",
+   "continent": "europe",
+   "map": "media/maps/regions/FI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/South_Ostrobothnia"
+  }
+ },
+ {
+  "id": "region:FI-04",
+  "type": "region",
+  "names": {
+   "de": "Southern Savonia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FI-04",
+    "kind": "flag",
+    "url": "media/flags/regions/FI-04.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/South_Savo",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/South_Savo"
+   }
+  ],
+  "attributes": {
+   "code": "FI-04",
+   "country": "country:FI",
+   "admin_level": 1,
+   "collection": "europe-fi",
+   "continent": "europe",
+   "map": "media/maps/regions/FI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/South_Savo"
+  }
+ },
+ {
+  "id": "region:FI-05",
+  "type": "region",
+  "names": {
+   "de": "Kainuu"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FI-05",
+    "kind": "flag",
+    "url": "media/flags/regions/FI-05.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Kainuu",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Kainuu"
+   }
+  ],
+  "attributes": {
+   "code": "FI-05",
+   "country": "country:FI",
+   "admin_level": 1,
+   "collection": "europe-fi",
+   "continent": "europe",
+   "map": "media/maps/regions/FI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Kainuu"
+  }
+ },
+ {
+  "id": "region:FI-06",
+  "type": "region",
+  "names": {
+   "de": "Tavastia Proper"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FI-06",
+    "kind": "flag",
+    "url": "media/flags/regions/FI-06.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Tavastia_Proper",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Tavastia_Proper"
+   }
+  ],
+  "attributes": {
+   "code": "FI-06",
+   "country": "country:FI",
+   "admin_level": 1,
+   "collection": "europe-fi",
+   "continent": "europe",
+   "map": "media/maps/regions/FI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Tavastia_Proper"
+  }
+ },
+ {
+  "id": "region:FI-07",
+  "type": "region",
+  "names": {
+   "de": "Keski-Pohjanmaa"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FI-07",
+    "kind": "flag",
+    "url": "media/flags/regions/FI-07.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Central_Ostrobothnia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Central_Ostrobothnia"
+   }
+  ],
+  "attributes": {
+   "code": "FI-07",
+   "country": "country:FI",
+   "admin_level": 1,
+   "collection": "europe-fi",
+   "continent": "europe",
+   "map": "media/maps/regions/FI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Central_Ostrobothnia"
+  }
+ },
+ {
+  "id": "region:FI-08",
+  "type": "region",
+  "names": {
+   "de": "Central Finland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FI-08",
+    "kind": "flag",
+    "url": "media/flags/regions/FI-08.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Central_Finland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Central_Finland"
+   }
+  ],
+  "attributes": {
+   "code": "FI-08",
+   "country": "country:FI",
+   "admin_level": 1,
+   "collection": "europe-fi",
+   "continent": "europe",
+   "map": "media/maps/regions/FI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Central_Finland"
+  }
+ },
+ {
+  "id": "region:FI-09",
+  "type": "region",
+  "names": {
+   "de": "Kymenlaakso"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FI-09",
+    "kind": "flag",
+    "url": "media/flags/regions/FI-09.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Kymenlaakso",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Kymenlaakso"
+   }
+  ],
+  "attributes": {
+   "code": "FI-09",
+   "country": "country:FI",
+   "admin_level": 1,
+   "collection": "europe-fi",
+   "continent": "europe",
+   "map": "media/maps/regions/FI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Kymenlaakso"
+  }
+ },
+ {
+  "id": "region:FI-10",
+  "type": "region",
+  "names": {
+   "de": "Lapland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FI-10",
+    "kind": "flag",
+    "url": "media/flags/regions/FI-10.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Lapland_(Finland)",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Lapland_(Finland)"
+   }
+  ],
+  "attributes": {
+   "code": "FI-10",
+   "country": "country:FI",
+   "admin_level": 1,
+   "collection": "europe-fi",
+   "continent": "europe",
+   "map": "media/maps/regions/FI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Lapland_(Finland)"
+  }
+ },
+ {
+  "id": "region:FI-11",
+  "type": "region",
+  "names": {
+   "de": "Pirkanmaa"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FI-11",
+    "kind": "flag",
+    "url": "media/flags/regions/FI-11.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Pirkanmaa",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Pirkanmaa"
+   }
+  ],
+  "attributes": {
+   "code": "FI-11",
+   "country": "country:FI",
+   "admin_level": 1,
+   "collection": "europe-fi",
+   "continent": "europe",
+   "map": "media/maps/regions/FI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Pirkanmaa"
+  }
+ },
+ {
+  "id": "region:FI-12",
+  "type": "region",
+  "names": {
+   "de": "Ostrobothnia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FI-12",
+    "kind": "flag",
+    "url": "media/flags/regions/FI-12.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Ostrobothnia_(region)",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Ostrobothnia_(region)"
+   }
+  ],
+  "attributes": {
+   "code": "FI-12",
+   "country": "country:FI",
+   "admin_level": 1,
+   "collection": "europe-fi",
+   "continent": "europe",
+   "map": "media/maps/regions/FI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Ostrobothnia_(region)"
+  }
+ },
+ {
+  "id": "region:FI-13",
+  "type": "region",
+  "names": {
+   "de": "North Karelia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FI-13",
+    "kind": "flag",
+    "url": "media/flags/regions/FI-13.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/North_Karelia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/North_Karelia"
+   }
+  ],
+  "attributes": {
+   "code": "FI-13",
+   "country": "country:FI",
+   "admin_level": 1,
+   "collection": "europe-fi",
+   "continent": "europe",
+   "map": "media/maps/regions/FI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/North_Karelia"
+  }
+ },
+ {
+  "id": "region:FI-14",
+  "type": "region",
+  "names": {
+   "de": "Northern Ostrobothnia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FI-14",
+    "kind": "flag",
+    "url": "media/flags/regions/FI-14.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/North_Ostrobothnia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/North_Ostrobothnia"
+   }
+  ],
+  "attributes": {
+   "code": "FI-14",
+   "country": "country:FI",
+   "admin_level": 1,
+   "collection": "europe-fi",
+   "continent": "europe",
+   "map": "media/maps/regions/FI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/North_Ostrobothnia"
+  }
+ },
+ {
+  "id": "region:FI-15",
+  "type": "region",
+  "names": {
+   "de": "Northern Savonia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FI-15",
+    "kind": "flag",
+    "url": "media/flags/regions/FI-15.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Northern_Savonia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Northern_Savonia"
+   }
+  ],
+  "attributes": {
+   "code": "FI-15",
+   "country": "country:FI",
+   "admin_level": 1,
+   "collection": "europe-fi",
+   "continent": "europe",
+   "map": "media/maps/regions/FI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Northern_Savonia"
+  }
+ },
+ {
+  "id": "region:FI-16",
+  "type": "region",
+  "names": {
+   "de": "Päijät-Häme"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FI-16",
+    "kind": "flag",
+    "url": "media/flags/regions/FI-16.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/P%C3%A4ij%C3%A4nne_Tavastia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/P%C3%A4ij%C3%A4nne_Tavastia"
+   }
+  ],
+  "attributes": {
+   "code": "FI-16",
+   "country": "country:FI",
+   "admin_level": 1,
+   "collection": "europe-fi",
+   "continent": "europe",
+   "map": "media/maps/regions/FI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/P%C3%A4ij%C3%A4nne_Tavastia"
+  }
+ },
+ {
+  "id": "region:FI-17",
+  "type": "region",
+  "names": {
+   "de": "Satakunta"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FI-17",
+    "kind": "flag",
+    "url": "media/flags/regions/FI-17.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Satakunta",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Satakunta"
+   }
+  ],
+  "attributes": {
+   "code": "FI-17",
+   "country": "country:FI",
+   "admin_level": 1,
+   "collection": "europe-fi",
+   "continent": "europe",
+   "map": "media/maps/regions/FI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Satakunta"
+  }
+ },
+ {
+  "id": "region:FI-18",
+  "type": "region",
+  "names": {
+   "de": "Uusimaa"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FI-18",
+    "kind": "flag",
+    "url": "media/flags/regions/FI-18.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Uusimaa",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Uusimaa"
+   }
+  ],
+  "attributes": {
+   "code": "FI-18",
+   "country": "country:FI",
+   "admin_level": 1,
+   "collection": "europe-fi",
+   "continent": "europe",
+   "map": "media/maps/regions/FI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Uusimaa"
+  }
+ },
+ {
+  "id": "region:FI-19",
+  "type": "region",
+  "names": {
+   "de": "Finland Proper"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FI-19",
+    "kind": "flag",
+    "url": "media/flags/regions/FI-19.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Finland_Proper",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Finland_Proper"
+   }
+  ],
+  "attributes": {
+   "code": "FI-19",
+   "country": "country:FI",
+   "admin_level": 1,
+   "collection": "europe-fi",
+   "continent": "europe",
+   "map": "media/maps/regions/FI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Finland_Proper"
+  }
+ }
+]

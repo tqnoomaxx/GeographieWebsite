@@ -1,0 +1,530 @@
+[
+ {
+  "id": "region:DE-BB",
+  "type": "region",
+  "names": {
+   "de": "Brandenburg"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DE-BB",
+    "kind": "flag",
+    "url": "media/flags/regions/DE-BB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Brandenburg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Brandenburg"
+   }
+  ],
+  "attributes": {
+   "code": "DE-BB",
+   "country": "country:DE",
+   "admin_level": 1,
+   "collection": "germany",
+   "continent": "europe",
+   "capital_name": "Potsdam",
+   "map": "media/maps/regions/DE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Brandenburg"
+  }
+ },
+ {
+  "id": "region:DE-BE",
+  "type": "region",
+  "names": {
+   "de": "Berlin"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DE-BE",
+    "kind": "flag",
+    "url": "media/flags/regions/DE-BE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Berlin",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Berlin"
+   }
+  ],
+  "attributes": {
+   "code": "DE-BE",
+   "country": "country:DE",
+   "admin_level": 1,
+   "collection": "germany",
+   "continent": "europe",
+   "capital_name": "Berlin",
+   "map": "media/maps/regions/DE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Berlin"
+  }
+ },
+ {
+  "id": "region:DE-BW",
+  "type": "region",
+  "names": {
+   "de": "Baden-Württemberg"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DE-BW",
+    "kind": "flag",
+    "url": "media/flags/regions/DE-BW.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Baden-W%C3%BCrttemberg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Baden-W%C3%BCrttemberg"
+   }
+  ],
+  "attributes": {
+   "code": "DE-BW",
+   "country": "country:DE",
+   "admin_level": 1,
+   "collection": "germany",
+   "continent": "europe",
+   "capital_name": "Stuttgart",
+   "map": "media/maps/regions/DE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Baden-W%C3%BCrttemberg"
+  }
+ },
+ {
+  "id": "region:DE-BY",
+  "type": "region",
+  "names": {
+   "de": "Bayern"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DE-BY",
+    "kind": "flag",
+    "url": "media/flags/regions/DE-BY.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Bavaria",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Bavaria"
+   }
+  ],
+  "attributes": {
+   "code": "DE-BY",
+   "country": "country:DE",
+   "admin_level": 1,
+   "collection": "germany",
+   "continent": "europe",
+   "capital_name": "München",
+   "map": "media/maps/regions/DE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Bavaria"
+  }
+ },
+ {
+  "id": "region:DE-HB",
+  "type": "region",
+  "names": {
+   "de": "Bremen"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DE-HB",
+    "kind": "flag",
+    "url": "media/flags/regions/DE-HB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Bremen_(state)",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Bremen_(state)"
+   }
+  ],
+  "attributes": {
+   "code": "DE-HB",
+   "country": "country:DE",
+   "admin_level": 1,
+   "collection": "germany",
+   "continent": "europe",
+   "capital_name": "Bremen",
+   "map": "media/maps/regions/DE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Bremen_(state)"
+  }
+ },
+ {
+  "id": "region:DE-HE",
+  "type": "region",
+  "names": {
+   "de": "Hessen"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DE-HE",
+    "kind": "flag",
+    "url": "media/flags/regions/DE-HE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Hesse",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Hesse"
+   }
+  ],
+  "attributes": {
+   "code": "DE-HE",
+   "country": "country:DE",
+   "admin_level": 1,
+   "collection": "germany",
+   "continent": "europe",
+   "capital_name": "Wiesbaden",
+   "map": "media/maps/regions/DE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Hesse"
+  }
+ },
+ {
+  "id": "region:DE-HH",
+  "type": "region",
+  "names": {
+   "de": "Hamburg"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DE-HH",
+    "kind": "flag",
+    "url": "media/flags/regions/DE-HH.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Hamburg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Hamburg"
+   }
+  ],
+  "attributes": {
+   "code": "DE-HH",
+   "country": "country:DE",
+   "admin_level": 1,
+   "collection": "germany",
+   "continent": "europe",
+   "capital_name": "Hamburg",
+   "map": "media/maps/regions/DE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Hamburg"
+  }
+ },
+ {
+  "id": "region:DE-MV",
+  "type": "region",
+  "names": {
+   "de": "Mecklenburg-Vorpommern"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DE-MV",
+    "kind": "flag",
+    "url": "media/flags/regions/DE-MV.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Mecklenburg-Vorpommern",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Mecklenburg-Vorpommern"
+   }
+  ],
+  "attributes": {
+   "code": "DE-MV",
+   "country": "country:DE",
+   "admin_level": 1,
+   "collection": "germany",
+   "continent": "europe",
+   "capital_name": "Schwerin",
+   "map": "media/maps/regions/DE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Mecklenburg-Vorpommern"
+  }
+ },
+ {
+  "id": "region:DE-NI",
+  "type": "region",
+  "names": {
+   "de": "Niedersachsen"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DE-NI",
+    "kind": "flag",
+    "url": "media/flags/regions/DE-NI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Lower_Saxony",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Lower_Saxony"
+   }
+  ],
+  "attributes": {
+   "code": "DE-NI",
+   "country": "country:DE",
+   "admin_level": 1,
+   "collection": "germany",
+   "continent": "europe",
+   "capital_name": "Hannover",
+   "map": "media/maps/regions/DE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Lower_Saxony"
+  }
+ },
+ {
+  "id": "region:DE-NW",
+  "type": "region",
+  "names": {
+   "de": "Nordrhein-Westfalen"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DE-NW",
+    "kind": "flag",
+    "url": "media/flags/regions/DE-NW.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_North_Rhine-Westphalia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_North_Rhine-Westphalia"
+   }
+  ],
+  "attributes": {
+   "code": "DE-NW",
+   "country": "country:DE",
+   "admin_level": 1,
+   "collection": "germany",
+   "continent": "europe",
+   "capital_name": "Düsseldorf",
+   "map": "media/maps/regions/DE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_North_Rhine-Westphalia"
+  }
+ },
+ {
+  "id": "region:DE-RP",
+  "type": "region",
+  "names": {
+   "de": "Rheinland-Pfalz"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DE-RP",
+    "kind": "flag",
+    "url": "media/flags/regions/DE-RP.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Rhineland-Palatinate",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Rhineland-Palatinate"
+   }
+  ],
+  "attributes": {
+   "code": "DE-RP",
+   "country": "country:DE",
+   "admin_level": 1,
+   "collection": "germany",
+   "continent": "europe",
+   "capital_name": "Mainz",
+   "map": "media/maps/regions/DE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Rhineland-Palatinate"
+  }
+ },
+ {
+  "id": "region:DE-SH",
+  "type": "region",
+  "names": {
+   "de": "Schleswig-Holstein"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DE-SH",
+    "kind": "flag",
+    "url": "media/flags/regions/DE-SH.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Schleswig-Holstein",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Schleswig-Holstein"
+   }
+  ],
+  "attributes": {
+   "code": "DE-SH",
+   "country": "country:DE",
+   "admin_level": 1,
+   "collection": "germany",
+   "continent": "europe",
+   "capital_name": "Kiel",
+   "map": "media/maps/regions/DE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Schleswig-Holstein"
+  }
+ },
+ {
+  "id": "region:DE-SL",
+  "type": "region",
+  "names": {
+   "de": "Saarland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DE-SL",
+    "kind": "flag",
+    "url": "media/flags/regions/DE-SL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Saarland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Saarland"
+   }
+  ],
+  "attributes": {
+   "code": "DE-SL",
+   "country": "country:DE",
+   "admin_level": 1,
+   "collection": "germany",
+   "continent": "europe",
+   "capital_name": "Saarbrücken",
+   "map": "media/maps/regions/DE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Saarland"
+  }
+ },
+ {
+  "id": "region:DE-SN",
+  "type": "region",
+  "names": {
+   "de": "Sachsen"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DE-SN",
+    "kind": "flag",
+    "url": "media/flags/regions/DE-SN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Saxony",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Saxony"
+   }
+  ],
+  "attributes": {
+   "code": "DE-SN",
+   "country": "country:DE",
+   "admin_level": 1,
+   "collection": "germany",
+   "continent": "europe",
+   "capital_name": "Dresden",
+   "map": "media/maps/regions/DE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Saxony"
+  }
+ },
+ {
+  "id": "region:DE-ST",
+  "type": "region",
+  "names": {
+   "de": "Sachsen-Anhalt"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DE-ST",
+    "kind": "flag",
+    "url": "media/flags/regions/DE-ST.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Saxony-Anhalt",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Saxony-Anhalt"
+   }
+  ],
+  "attributes": {
+   "code": "DE-ST",
+   "country": "country:DE",
+   "admin_level": 1,
+   "collection": "germany",
+   "continent": "europe",
+   "capital_name": "Magdeburg",
+   "map": "media/maps/regions/DE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Saxony-Anhalt"
+  }
+ },
+ {
+  "id": "region:DE-TH",
+  "type": "region",
+  "names": {
+   "de": "Thüringen"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:DE-TH",
+    "kind": "flag",
+    "url": "media/flags/regions/DE-TH.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Thuringia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Thuringia"
+   }
+  ],
+  "attributes": {
+   "code": "DE-TH",
+   "country": "country:DE",
+   "admin_level": 1,
+   "collection": "germany",
+   "continent": "europe",
+   "capital_name": "Erfurt",
+   "map": "media/maps/regions/DE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Thuringia"
+  }
+ }
+]

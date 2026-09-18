@@ -1,0 +1,1506 @@
+[
+ {
+  "id": "region:JP-01",
+  "type": "region",
+  "names": {
+   "de": "Hokkaido"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-01",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-01.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Hokkaido",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Hokkaido"
+   }
+  ],
+  "attributes": {
+   "code": "JP-01",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Hokkaido"
+  }
+ },
+ {
+  "id": "region:JP-02",
+  "type": "region",
+  "names": {
+   "de": "Aomori"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-02",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-02.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Aomori_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Aomori_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-02",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Aomori_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-03",
+  "type": "region",
+  "names": {
+   "de": "Iwate"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-03",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-03.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Iwate_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Iwate_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-03",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Iwate_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-04",
+  "type": "region",
+  "names": {
+   "de": "Miyagi"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-04",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-04.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Miyagi_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Miyagi_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-04",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Miyagi_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-05",
+  "type": "region",
+  "names": {
+   "de": "Akita"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-05",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-05.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Akita_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Akita_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-05",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Akita_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-06",
+  "type": "region",
+  "names": {
+   "de": "Yamagata"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-06",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-06.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Yamagata_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Yamagata_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-06",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Yamagata_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-07",
+  "type": "region",
+  "names": {
+   "de": "Fukushima"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-07",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-07.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Fukushima_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Fukushima_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-07",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Fukushima_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-08",
+  "type": "region",
+  "names": {
+   "de": "Ibaraki"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-08",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-08.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Ibaraki_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Ibaraki_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-08",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Ibaraki_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-09",
+  "type": "region",
+  "names": {
+   "de": "Tochigi"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-09",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-09.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Tochigi_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Tochigi_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-09",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Tochigi_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-10",
+  "type": "region",
+  "names": {
+   "de": "Gunma"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-10",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-10.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Gunma_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Gunma_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-10",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Gunma_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-11",
+  "type": "region",
+  "names": {
+   "de": "Saitama"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-11",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-11.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Saitama_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Saitama_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-11",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Saitama_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-12",
+  "type": "region",
+  "names": {
+   "de": "Chiba"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-12",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-12.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Chiba_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Chiba_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-12",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Chiba_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-13",
+  "type": "region",
+  "names": {
+   "de": "Tokyo"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-13",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-13.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Tokyo",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Tokyo"
+   }
+  ],
+  "attributes": {
+   "code": "JP-13",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Tokyo"
+  }
+ },
+ {
+  "id": "region:JP-14",
+  "type": "region",
+  "names": {
+   "de": "Kanagawa"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-14",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-14.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Kanagawa_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Kanagawa_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-14",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Kanagawa_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-15",
+  "type": "region",
+  "names": {
+   "de": "Niigata"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-15",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-15.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Niigata_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Niigata_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-15",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Niigata_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-16",
+  "type": "region",
+  "names": {
+   "de": "Toyama"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-16",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-16.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Toyama_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Toyama_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-16",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Toyama_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-17",
+  "type": "region",
+  "names": {
+   "de": "Ishikawa"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-17",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-17.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Ishikawa_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Ishikawa_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-17",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Ishikawa_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-18",
+  "type": "region",
+  "names": {
+   "de": "Fukui"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-18",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-18.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Fukui_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Fukui_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-18",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Fukui_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-19",
+  "type": "region",
+  "names": {
+   "de": "Yamanashi"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-19",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-19.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Yamanashi_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Yamanashi_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-19",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Yamanashi_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-20",
+  "type": "region",
+  "names": {
+   "de": "Nagano"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-20",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-20.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Nagano_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Nagano_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-20",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Nagano_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-21",
+  "type": "region",
+  "names": {
+   "de": "Gifu"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-21",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-21.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Gifu_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Gifu_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-21",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Gifu_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-22",
+  "type": "region",
+  "names": {
+   "de": "Shizuoka"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-22",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-22.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Shizuoka_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Shizuoka_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-22",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Shizuoka_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-23",
+  "type": "region",
+  "names": {
+   "de": "Aichi"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-23",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-23.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Aichi_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Aichi_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-23",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Aichi_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-24",
+  "type": "region",
+  "names": {
+   "de": "Mie"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-24",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-24.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Mie_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Mie_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-24",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Mie_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-25",
+  "type": "region",
+  "names": {
+   "de": "Shiga"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-25",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-25.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Shiga_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Shiga_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-25",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Shiga_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-26",
+  "type": "region",
+  "names": {
+   "de": "Kyoto"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-26",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-26.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Kyoto_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Kyoto_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-26",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Kyoto_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-27",
+  "type": "region",
+  "names": {
+   "de": "Osaka"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-27",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-27.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Osaka_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Osaka_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-27",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Osaka_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-28",
+  "type": "region",
+  "names": {
+   "de": "Hyogo"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-28",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-28.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Hyogo_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Hyogo_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-28",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Hyogo_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-29",
+  "type": "region",
+  "names": {
+   "de": "Nara"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-29",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-29.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Nara_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Nara_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-29",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Nara_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-30",
+  "type": "region",
+  "names": {
+   "de": "Wakayama"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-30",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-30.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Wakayama_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Wakayama_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-30",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Wakayama_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-31",
+  "type": "region",
+  "names": {
+   "de": "Tottori"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-31",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-31.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Tottori_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Tottori_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-31",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Tottori_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-32",
+  "type": "region",
+  "names": {
+   "de": "Shimane"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-32",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-32.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Shimane_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Shimane_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-32",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Shimane_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-33",
+  "type": "region",
+  "names": {
+   "de": "Okayama"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-33",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-33.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Okayama_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Okayama_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-33",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Okayama_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-34",
+  "type": "region",
+  "names": {
+   "de": "Hiroshima"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-34",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-34.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Hiroshima_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Hiroshima_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-34",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Hiroshima_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-35",
+  "type": "region",
+  "names": {
+   "de": "Yamaguchi"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-35",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-35.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Yamaguchi_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Yamaguchi_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-35",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Yamaguchi_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-36",
+  "type": "region",
+  "names": {
+   "de": "Tokushima"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-36",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-36.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Tokushima_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Tokushima_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-36",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Tokushima_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-37",
+  "type": "region",
+  "names": {
+   "de": "Kagawa"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-37",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-37.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Kagawa_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Kagawa_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-37",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Kagawa_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-38",
+  "type": "region",
+  "names": {
+   "de": "Ehime"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-38",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-38.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Ehime_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Ehime_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-38",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Ehime_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-39",
+  "type": "region",
+  "names": {
+   "de": "Kochi"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-39",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-39.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Kochi_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Kochi_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-39",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Kochi_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-40",
+  "type": "region",
+  "names": {
+   "de": "Fukuoka"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-40",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-40.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Fukuoka_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Fukuoka_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-40",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Fukuoka_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-41",
+  "type": "region",
+  "names": {
+   "de": "Saga"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-41",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-41.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Saga_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Saga_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-41",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Saga_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-42",
+  "type": "region",
+  "names": {
+   "de": "Nagasaki"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-42",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-42.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Nagasaki_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Nagasaki_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-42",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Nagasaki_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-43",
+  "type": "region",
+  "names": {
+   "de": "Kumamoto"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-43",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-43.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Kumamoto_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Kumamoto_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-43",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Kumamoto_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-44",
+  "type": "region",
+  "names": {
+   "de": "Oita"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-44",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-44.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Oita_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Oita_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-44",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Oita_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-45",
+  "type": "region",
+  "names": {
+   "de": "Miyazaki"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-45",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-45.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Miyazaki_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Miyazaki_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-45",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Miyazaki_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-46",
+  "type": "region",
+  "names": {
+   "de": "Kagoshima"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-46",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-46.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Kagoshima_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Kagoshima_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-46",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Kagoshima_Prefecture"
+  }
+ },
+ {
+  "id": "region:JP-47",
+  "type": "region",
+  "names": {
+   "de": "Okinawa"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:JP-47",
+    "kind": "flag",
+    "url": "media/flags/regions/JP-47.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Okinawa_Prefecture",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Okinawa_Prefecture"
+   }
+  ],
+  "attributes": {
+   "code": "JP-47",
+   "country": "country:JP",
+   "admin_level": 1,
+   "collection": "japan",
+   "continent": "asia",
+   "map": "media/maps/regions/JP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Okinawa_Prefecture"
+  }
+ }
+]

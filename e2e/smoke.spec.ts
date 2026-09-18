@@ -1,0 +1,110 @@
+import { test, expect, type Page } from '@playwright/test'
+
+function watchErrors(page: Page) {
+  const errors: string[] = []
+  page.on('pageerror', (e) => errors.push(e.message))
+  page.on('console', (m) => m.type() === 'error' && !/favicon|sw\.js|workbox/.test(m.text()) && errors.push(m.text()))
+  return errors
+}
+
+test('Startseite und Kategorien', async ({ page }) => {
+  const errors = watchErrors(page)
+  await page.goto('')
+  await expect(page.getByRole('heading', { level: 1 })).toContainText(/Welt/)
+  await expect(page.getByRole('link', { name: /Flaggen/ }).first()).toBeVisible()
+  expect(errors).toEqual([])
+})
+
+test('Flaggenrunde spielen bis zum Ergebnis', async ({ page }) => {
+  const errors = watchErrors(page)
+  await page.goto('play/flags/round?scope=europe&len=10')
+  for (let i = 0; i < 10; i++) {
+    await expect(page.getByText(new RegExp(`^${i + 1} / 10$`))).toBeVisible()
+    const heading = page.getByRole('heading', { level: 1 })
+    await expect(heading).toBeVisible()
+    const options = page.getByRole('group').getByRole('button')
+    const input = page.getByPlaceholder('Antwort eingeben …')
+    if (await input.count()) {
+      await input.fill('Deutschland')
+      await page.getByRole('button', { name: 'Prüfen' }).click()
+    } else {
+      await options.first().click()
+    }
+    await expect(page.getByRole('status')).toBeVisible()
+    await page.getByRole('button', { name: 'Weiter' }).click()
+  }
+  await expect(page.getByRole('heading', { name: /Runde beendet/ })).toBeVisible()
+  await expect(page.getByText(/\+\d+ XP/)).toBeVisible()
+  await page.goto('progress')
+  await expect(page.getByText(/^Level [0-9]+$/)).toBeVisible()
+  await expect(page.getByText(/Fragen beantwortet/)).toBeVisible()
+  expect(errors).toEqual([])
+})
+
+test('„Alle“-Runde speichern und fortsetzen', async ({ page }) => {
+  await page.goto('play/regions')
+  await page.getByRole('radio', { name: /Alle/ }).click()
+  await page.getByRole('button', { name: "Los geht's" }).click()
+  await expect(page.getByText(/^1 \/ \d+$/)).toBeVisible()
+  await page.getByRole('group').getByRole('button').first().click()
+  await page.getByRole('button', { name: 'Weiter' }).click()
+  await page.getByRole('button', { name: /Beenden/ }).click()
+  await page.goto('')
+  await expect(page.getByRole('link', { name: 'Weiterspielen' })).toBeVisible()
+  await page.getByRole('link', { name: 'Weiterspielen' }).click()
+  await expect(page.getByText(/^2 \/ \d+$/)).toBeVisible()
+})
+
+test('Kartenfrage', async ({ page }) => {
+  const errors = watchErrors(page)
+  await page.goto('play/maps/round?scope=europe&len=10')
+  const map = page.getByRole('group', { name: 'Weltkarte' })
+  await expect(map).toBeVisible()
+  await map.getByRole('button', { name: 'Germany' }).click({ force: true })
+  await expect(page.getByRole('status')).toBeVisible()
+  expect(errors).toEqual([])
+})
+
+test('Flagle raten', async ({ page }) => {
+  const errors = watchErrors(page)
+  await page.goto('daily/flagle')
+  await expect(page.getByRole('heading', { name: /Flagle/ })).toBeVisible()
+  await page.getByPlaceholder('Land eingeben …').fill('Frankreich')
+  await page.getByRole('button', { name: 'Raten' }).click()
+  await expect(page.getByText('1 / 6 Versuche')).toBeVisible()
+  await page.reload()
+  await expect(page.getByText('1 / 6 Versuche')).toBeVisible()
+  expect(errors).toEqual([])
+})
+
+test('Countryle mit Hinweisen', async ({ page }) => {
+  await page.goto('daily/countryle')
+  await page.getByPlaceholder('Land eingeben …').fill('Brasilien')
+  await page.getByRole('button', { name: 'Raten' }).click()
+  await expect(page.getByText(/km/)).toBeVisible()
+})
+
+test('Entdecken → Land → Region', async ({ page }) => {
+  const errors = watchErrors(page)
+  await page.goto('country/DE')
+  await expect(page.getByRole('heading', { name: 'Deutschland', exact: true })).toBeVisible()
+  await expect(page.getByText('Berlin').first()).toBeVisible()
+  await page.getByRole('link', { name: /Bayern/ }).click()
+  await expect(page.getByRole('heading', { name: 'Bayern', exact: true })).toBeVisible()
+  await expect(page.getByRole('img', { name: /Österreich|Deutschland/ })).toBeVisible()
+  expect(errors).toEqual([])
+})
+
+test('Lernen, Suche, Einstellungen', async ({ page }) => {
+  await page.goto('learn')
+  await page.getByRole('button', { name: /Als gelernt markieren/ }).click()
+  await expect(page.getByText(/Gelernt: 1/)).toBeVisible()
+  await page.goto('search')
+  await page.getByRole('textbox').fill('Berl')
+  await expect(page.getByRole('link', { name: /Berlin/ }).first()).toBeVisible()
+  await page.goto('settings')
+  await page.getByRole('radio', { name: /Dunkel/ }).click()
+  await expect(page.locator('html')).toHaveClass(/dark/)
+  await page.goto('quellen')
+  await expect(page.getByRole('link', { name: 'country-flag-icons' })).toBeVisible()
+})

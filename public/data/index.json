@@ -1,0 +1,230 @@
+{
+ "files": {
+  "countries": "entities/countries.json",
+  "cities": "entities/cities.json",
+  "landmarks": "entities/landmarks.json",
+  "relationships": "relationships/index.json",
+  "world": "geo/world.json",
+  "continents": "meta/continents.json"
+ },
+ "regions": {
+  "country:AL": {
+   "file": "entities/regions/AL.json",
+   "count": 8
+  },
+  "country:AR": {
+   "file": "entities/regions/AR.json",
+   "count": 24
+  },
+  "country:AT": {
+   "file": "entities/regions/AT.json",
+   "count": 9
+  },
+  "country:AU": {
+   "file": "entities/regions/AU.json",
+   "count": 8
+  },
+  "country:BE": {
+   "file": "entities/regions/BE.json",
+   "count": 13
+  },
+  "country:BG": {
+   "file": "entities/regions/BG.json",
+   "count": 1
+  },
+  "country:BO": {
+   "file": "entities/regions/BO.json",
+   "count": 9
+  },
+  "country:BR": {
+   "file": "entities/regions/BR.json",
+   "count": 27
+  },
+  "country:BY": {
+   "file": "entities/regions/BY.json",
+   "count": 7
+  },
+  "country:CA": {
+   "file": "entities/regions/CA.json",
+   "count": 13
+  },
+  "country:CH": {
+   "file": "entities/regions/CH.json",
+   "count": 26
+  },
+  "country:CL": {
+   "file": "entities/regions/CL.json",
+   "count": 16
+  },
+  "country:CO": {
+   "file": "entities/regions/CO.json",
+   "count": 33
+  },
+  "country:CR": {
+   "file": "entities/regions/CR.json",
+   "count": 7
+  },
+  "country:CZ": {
+   "file": "entities/regions/CZ.json",
+   "count": 14
+  },
+  "country:DE": {
+   "file": "entities/regions/DE.json",
+   "count": 16
+  },
+  "country:DK": {
+   "file": "entities/regions/DK.json",
+   "count": 5
+  },
+  "country:EC": {
+   "file": "entities/regions/EC.json",
+   "count": 24
+  },
+  "country:EE": {
+   "file": "entities/regions/EE.json",
+   "count": 4
+  },
+  "country:ES": {
+   "file": "entities/regions/ES.json",
+   "count": 19
+  },
+  "country:FI": {
+   "file": "entities/regions/FI.json",
+   "count": 18
+  },
+  "country:FR": {
+   "file": "entities/regions/FR.json",
+   "count": 13
+  },
+  "country:GB": {
+   "file": "entities/regions/GB.json",
+   "count": 4
+  },
+  "country:HR": {
+   "file": "entities/regions/HR.json",
+   "count": 21
+  },
+  "country:HU": {
+   "file": "entities/regions/HU.json",
+   "count": 41
+  },
+  "country:ID": {
+   "file": "entities/regions/ID.json",
+   "count": 34
+  },
+  "country:IE": {
+   "file": "entities/regions/IE.json",
+   "count": 4
+  },
+  "country:IT": {
+   "file": "entities/regions/IT.json",
+   "count": 20
+  },
+  "country:JP": {
+   "file": "entities/regions/JP.json",
+   "count": 47
+  },
+  "country:LI": {
+   "file": "entities/regions/LI.json",
+   "count": 11
+  },
+  "country:LT": {
+   "file": "entities/regions/LT.json",
+   "count": 9
+  },
+  "country:LV": {
+   "file": "entities/regions/LV.json",
+   "count": 24
+  },
+  "country:MD": {
+   "file": "entities/regions/MD.json",
+   "count": 15
+  },
+  "country:ME": {
+   "file": "entities/regions/ME.json",
+   "count": 8
+  },
+  "country:MT": {
+   "file": "entities/regions/MT.json",
+   "count": 1
+  },
+  "country:MX": {
+   "file": "entities/regions/MX.json",
+   "count": 32
+  },
+  "country:MY": {
+   "file": "entities/regions/MY.json",
+   "count": 16
+  },
+  "country:NL": {
+   "file": "entities/regions/NL.json",
+   "count": 12
+  },
+  "country:NO": {
+   "file": "entities/regions/NO.json",
+   "count": 6
+  },
+  "country:PL": {
+   "file": "entities/regions/PL.json",
+   "count": 16
+  },
+  "country:PT": {
+   "file": "entities/regions/PT.json",
+   "count": 2
+  },
+  "country:RO": {
+   "file": "entities/regions/RO.json",
+   "count": 3
+  },
+  "country:RS": {
+   "file": "entities/regions/RS.json",
+   "count": 1
+  },
+  "country:RU": {
+   "file": "entities/regions/RU.json",
+   "count": 59
+  },
+  "country:SE": {
+   "file": "entities/regions/SE.json",
+   "count": 21
+  },
+  "country:SK": {
+   "file": "entities/regions/SK.json",
+   "count": 8
+  },
+  "country:SM": {
+   "file": "entities/regions/SM.json",
+   "count": 9
+  },
+  "country:TR": {
+   "file": "entities/regions/TR.json",
+   "count": 1
+  },
+  "country:UA": {
+   "file": "entities/regions/UA.json",
+   "count": 27
+  },
+  "country:US": {
+   "file": "entities/regions/US.json",
+   "count": 51
+  }
+ },
+ "counts": {
+  "country": 254,
+  "city": 458,
+  "landmark": 78,
+  "region": 817,
+  "flags": 1071,
+  "photos": 116,
+  "capitals": 245
+ },
+ "continents": {
+  "europe": 54,
+  "asia": 50,
+  "africa": 59,
+  "north-america": 42,
+  "south-america": 14,
+  "oceania": 27,
+  "antarctica": 5
+ }
+}

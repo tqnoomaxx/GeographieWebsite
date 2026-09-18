@@ -1,0 +1,398 @@
+[
+ {
+  "id": "region:NL-DR",
+  "type": "region",
+  "names": {
+   "de": "Drenthe"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:NL-DR",
+    "kind": "flag",
+    "url": "media/flags/regions/NL-DR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Drenthe",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Drenthe"
+   }
+  ],
+  "attributes": {
+   "code": "NL-DR",
+   "country": "country:NL",
+   "admin_level": 1,
+   "collection": "netherlands",
+   "continent": "europe",
+   "capital_name": "Assen",
+   "map": "media/maps/regions/NL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Drenthe"
+  }
+ },
+ {
+  "id": "region:NL-FL",
+  "type": "region",
+  "names": {
+   "de": "Flevoland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:NL-FL",
+    "kind": "flag",
+    "url": "media/flags/regions/NL-FL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Flevoland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Flevoland"
+   }
+  ],
+  "attributes": {
+   "code": "NL-FL",
+   "country": "country:NL",
+   "admin_level": 1,
+   "collection": "netherlands",
+   "continent": "europe",
+   "capital_name": "Lelystad",
+   "map": "media/maps/regions/NL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Flevoland"
+  }
+ },
+ {
+  "id": "region:NL-FR",
+  "type": "region",
+  "names": {
+   "de": "Friesland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:NL-FR",
+    "kind": "flag",
+    "url": "media/flags/regions/NL-FR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Friesland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Friesland"
+   }
+  ],
+  "attributes": {
+   "code": "NL-FR",
+   "country": "country:NL",
+   "admin_level": 1,
+   "collection": "netherlands",
+   "continent": "europe",
+   "capital_name": "Leeuwarden",
+   "map": "media/maps/regions/NL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Friesland"
+  }
+ },
+ {
+  "id": "region:NL-GE",
+  "type": "region",
+  "names": {
+   "de": "Gelderland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:NL-GE",
+    "kind": "flag",
+    "url": "media/flags/regions/NL-GE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Gelderland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Gelderland"
+   }
+  ],
+  "attributes": {
+   "code": "NL-GE",
+   "country": "country:NL",
+   "admin_level": 1,
+   "collection": "netherlands",
+   "continent": "europe",
+   "capital_name": "Arnhem",
+   "map": "media/maps/regions/NL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Gelderland"
+  }
+ },
+ {
+  "id": "region:NL-GR",
+  "type": "region",
+  "names": {
+   "de": "Groningen"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:NL-GR",
+    "kind": "flag",
+    "url": "media/flags/regions/NL-GR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Groningen_(province)",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Groningen_(province)"
+   }
+  ],
+  "attributes": {
+   "code": "NL-GR",
+   "country": "country:NL",
+   "admin_level": 1,
+   "collection": "netherlands",
+   "continent": "europe",
+   "capital_name": "Groningen",
+   "map": "media/maps/regions/NL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Groningen_(province)"
+  }
+ },
+ {
+  "id": "region:NL-LI",
+  "type": "region",
+  "names": {
+   "de": "Limburg"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:NL-LI",
+    "kind": "flag",
+    "url": "media/flags/regions/NL-LI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Limburg_(Netherlands)",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Limburg_(Netherlands)"
+   }
+  ],
+  "attributes": {
+   "code": "NL-LI",
+   "country": "country:NL",
+   "admin_level": 1,
+   "collection": "netherlands",
+   "continent": "europe",
+   "capital_name": "Maastricht",
+   "map": "media/maps/regions/NL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Limburg_(Netherlands)"
+  }
+ },
+ {
+  "id": "region:NL-NB",
+  "type": "region",
+  "names": {
+   "de": "Noord-Brabant"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:NL-NB",
+    "kind": "flag",
+    "url": "media/flags/regions/NL-NB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_North_Brabant",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_North_Brabant"
+   }
+  ],
+  "attributes": {
+   "code": "NL-NB",
+   "country": "country:NL",
+   "admin_level": 1,
+   "collection": "netherlands",
+   "continent": "europe",
+   "capital_name": "'s-Hertogenbosch",
+   "map": "media/maps/regions/NL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_North_Brabant"
+  }
+ },
+ {
+  "id": "region:NL-NH",
+  "type": "region",
+  "names": {
+   "de": "Noord-Holland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:NL-NH",
+    "kind": "flag",
+    "url": "media/flags/regions/NL-NH.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_North_Holland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_North_Holland"
+   }
+  ],
+  "attributes": {
+   "code": "NL-NH",
+   "country": "country:NL",
+   "admin_level": 1,
+   "collection": "netherlands",
+   "continent": "europe",
+   "capital_name": "Haarlem",
+   "map": "media/maps/regions/NL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_North_Holland"
+  }
+ },
+ {
+  "id": "region:NL-OV",
+  "type": "region",
+  "names": {
+   "de": "Overijssel"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:NL-OV",
+    "kind": "flag",
+    "url": "media/flags/regions/NL-OV.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Overijssel",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Overijssel"
+   }
+  ],
+  "attributes": {
+   "code": "NL-OV",
+   "country": "country:NL",
+   "admin_level": 1,
+   "collection": "netherlands",
+   "continent": "europe",
+   "capital_name": "Zwolle",
+   "map": "media/maps/regions/NL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Overijssel"
+  }
+ },
+ {
+  "id": "region:NL-UT",
+  "type": "region",
+  "names": {
+   "de": "Utrecht"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:NL-UT",
+    "kind": "flag",
+    "url": "media/flags/regions/NL-UT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Utrecht_(province)",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Utrecht_(province)"
+   }
+  ],
+  "attributes": {
+   "code": "NL-UT",
+   "country": "country:NL",
+   "admin_level": 1,
+   "collection": "netherlands",
+   "continent": "europe",
+   "capital_name": "Utrecht",
+   "map": "media/maps/regions/NL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Utrecht_(province)"
+  }
+ },
+ {
+  "id": "region:NL-ZE",
+  "type": "region",
+  "names": {
+   "de": "Zeeland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:NL-ZE",
+    "kind": "flag",
+    "url": "media/flags/regions/NL-ZE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Zeeland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Zeeland"
+   }
+  ],
+  "attributes": {
+   "code": "NL-ZE",
+   "country": "country:NL",
+   "admin_level": 1,
+   "collection": "netherlands",
+   "continent": "europe",
+   "capital_name": "Middelburg",
+   "map": "media/maps/regions/NL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Zeeland"
+  }
+ },
+ {
+  "id": "region:NL-ZH",
+  "type": "region",
+  "names": {
+   "de": "Zuid-Holland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:NL-ZH",
+    "kind": "flag",
+    "url": "media/flags/regions/NL-ZH.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_South_Holland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_South_Holland"
+   }
+  ],
+  "attributes": {
+   "code": "NL-ZH",
+   "country": "country:NL",
+   "admin_level": 1,
+   "collection": "netherlands",
+   "continent": "europe",
+   "capital_name": "Den Haag",
+   "map": "media/maps/regions/NL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_South_Holland"
+  }
+ }
+]

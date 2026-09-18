@@ -1,0 +1,514 @@
+[
+ {
+  "id": "region:MY-01",
+  "type": "region",
+  "names": {
+   "de": "Johor"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MY-01",
+    "kind": "flag",
+    "url": "media/flags/regions/MY-01.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Johor",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Johor"
+   }
+  ],
+  "attributes": {
+   "code": "MY-01",
+   "country": "country:MY",
+   "admin_level": 1,
+   "collection": "malaysia",
+   "continent": "asia",
+   "map": "media/maps/regions/MY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Johor"
+  }
+ },
+ {
+  "id": "region:MY-02",
+  "type": "region",
+  "names": {
+   "de": "Kedah"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MY-02",
+    "kind": "flag",
+    "url": "media/flags/regions/MY-02.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q17335307",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q17335307"
+   }
+  ],
+  "attributes": {
+   "code": "MY-02",
+   "country": "country:MY",
+   "admin_level": 1,
+   "collection": "malaysia",
+   "continent": "asia",
+   "map": "media/maps/regions/MY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q17335307"
+  }
+ },
+ {
+  "id": "region:MY-03",
+  "type": "region",
+  "names": {
+   "de": "Kelantan"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MY-03",
+    "kind": "flag",
+    "url": "media/flags/regions/MY-03.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kelantan",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Kelantan"
+   }
+  ],
+  "attributes": {
+   "code": "MY-03",
+   "country": "country:MY",
+   "admin_level": 1,
+   "collection": "malaysia",
+   "continent": "asia",
+   "map": "media/maps/regions/MY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kelantan"
+  }
+ },
+ {
+  "id": "region:MY-04",
+  "type": "region",
+  "names": {
+   "de": "Malakka"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MY-04",
+    "kind": "flag",
+    "url": "media/flags/regions/MY-04.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q4486900",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q4486900"
+   }
+  ],
+  "attributes": {
+   "code": "MY-04",
+   "country": "country:MY",
+   "admin_level": 1,
+   "collection": "malaysia",
+   "continent": "asia",
+   "map": "media/maps/regions/MY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q4486900"
+  }
+ },
+ {
+  "id": "region:MY-05",
+  "type": "region",
+  "names": {
+   "de": "Negeri Sembilan"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MY-05",
+    "kind": "flag",
+    "url": "media/flags/regions/MY-05.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Negeri_Sembilan",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Negeri_Sembilan"
+   }
+  ],
+  "attributes": {
+   "code": "MY-05",
+   "country": "country:MY",
+   "admin_level": 1,
+   "collection": "malaysia",
+   "continent": "asia",
+   "map": "media/maps/regions/MY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Negeri_Sembilan"
+  }
+ },
+ {
+  "id": "region:MY-06",
+  "type": "region",
+  "names": {
+   "de": "Pahang"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MY-06",
+    "kind": "flag",
+    "url": "media/flags/regions/MY-06.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Pahang",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Pahang"
+   }
+  ],
+  "attributes": {
+   "code": "MY-06",
+   "country": "country:MY",
+   "admin_level": 1,
+   "collection": "malaysia",
+   "continent": "asia",
+   "map": "media/maps/regions/MY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Pahang"
+  }
+ },
+ {
+  "id": "region:MY-07",
+  "type": "region",
+  "names": {
+   "de": "Penang"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MY-07",
+    "kind": "flag",
+    "url": "media/flags/regions/MY-07.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q4487474",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q4487474"
+   }
+  ],
+  "attributes": {
+   "code": "MY-07",
+   "country": "country:MY",
+   "admin_level": 1,
+   "collection": "malaysia",
+   "continent": "asia",
+   "map": "media/maps/regions/MY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q4487474"
+  }
+ },
+ {
+  "id": "region:MY-08",
+  "type": "region",
+  "names": {
+   "de": "Perak"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MY-08",
+    "kind": "flag",
+    "url": "media/flags/regions/MY-08.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2600445",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2600445"
+   }
+  ],
+  "attributes": {
+   "code": "MY-08",
+   "country": "country:MY",
+   "admin_level": 1,
+   "collection": "malaysia",
+   "continent": "asia",
+   "map": "media/maps/regions/MY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2600445"
+  }
+ },
+ {
+  "id": "region:MY-09",
+  "type": "region",
+  "names": {
+   "de": "Perlis"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MY-09",
+    "kind": "flag",
+    "url": "media/flags/regions/MY-09.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2171778",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2171778"
+   }
+  ],
+  "attributes": {
+   "code": "MY-09",
+   "country": "country:MY",
+   "admin_level": 1,
+   "collection": "malaysia",
+   "continent": "asia",
+   "map": "media/maps/regions/MY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2171778"
+  }
+ },
+ {
+  "id": "region:MY-10",
+  "type": "region",
+  "names": {
+   "de": "Selangor"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MY-10",
+    "kind": "flag",
+    "url": "media/flags/regions/MY-10.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q116211178",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q116211178"
+   }
+  ],
+  "attributes": {
+   "code": "MY-10",
+   "country": "country:MY",
+   "admin_level": 1,
+   "collection": "malaysia",
+   "continent": "asia",
+   "map": "media/maps/regions/MY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q116211178"
+  }
+ },
+ {
+  "id": "region:MY-11",
+  "type": "region",
+  "names": {
+   "de": "Terengganu"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MY-11",
+    "kind": "flag",
+    "url": "media/flags/regions/MY-11.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Terengganu",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Terengganu"
+   }
+  ],
+  "attributes": {
+   "code": "MY-11",
+   "country": "country:MY",
+   "admin_level": 1,
+   "collection": "malaysia",
+   "continent": "asia",
+   "map": "media/maps/regions/MY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Terengganu"
+  }
+ },
+ {
+  "id": "region:MY-12",
+  "type": "region",
+  "names": {
+   "de": "Sabah"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MY-12",
+    "kind": "flag",
+    "url": "media/flags/regions/MY-12.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q11721817",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q11721817"
+   }
+  ],
+  "attributes": {
+   "code": "MY-12",
+   "country": "country:MY",
+   "admin_level": 1,
+   "collection": "malaysia",
+   "continent": "asia",
+   "map": "media/maps/regions/MY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q11721817"
+  }
+ },
+ {
+  "id": "region:MY-13",
+  "type": "region",
+  "names": {
+   "de": "Sarawak"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MY-13",
+    "kind": "flag",
+    "url": "media/flags/regions/MY-13.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2100376",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2100376"
+   }
+  ],
+  "attributes": {
+   "code": "MY-13",
+   "country": "country:MY",
+   "admin_level": 1,
+   "collection": "malaysia",
+   "continent": "asia",
+   "map": "media/maps/regions/MY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2100376"
+  }
+ },
+ {
+  "id": "region:MY-14",
+  "type": "region",
+  "names": {
+   "de": "Kuala Lumpur"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MY-14",
+    "kind": "flag",
+    "url": "media/flags/regions/MY-14.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Kuala_Lumpur"
+   }
+  ],
+  "attributes": {
+   "code": "MY-14",
+   "country": "country:MY",
+   "admin_level": 1,
+   "collection": "malaysia",
+   "continent": "asia",
+   "map": "media/maps/regions/MY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Kuala_Lumpur"
+  }
+ },
+ {
+  "id": "region:MY-15",
+  "type": "region",
+  "names": {
+   "de": "Labuan"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MY-15",
+    "kind": "flag",
+    "url": "media/flags/regions/MY-15.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Labuan",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Labuan"
+   }
+  ],
+  "attributes": {
+   "code": "MY-15",
+   "country": "country:MY",
+   "admin_level": 1,
+   "collection": "malaysia",
+   "continent": "asia",
+   "map": "media/maps/regions/MY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Labuan"
+  }
+ },
+ {
+  "id": "region:MY-16",
+  "type": "region",
+  "names": {
+   "de": "Putrajaya"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MY-16",
+    "kind": "flag",
+    "url": "media/flags/regions/MY-16.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Putrajaya",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Putrajaya"
+   }
+  ],
+  "attributes": {
+   "code": "MY-16",
+   "country": "country:MY",
+   "admin_level": 1,
+   "collection": "malaysia",
+   "continent": "asia",
+   "map": "media/maps/regions/MY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Putrajaya"
+  }
+ }
+]

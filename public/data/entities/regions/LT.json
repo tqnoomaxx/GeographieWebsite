@@ -1,0 +1,290 @@
+[
+ {
+  "id": "region:LT-AL",
+  "type": "region",
+  "names": {
+   "de": "Alytus County"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LT-AL",
+    "kind": "flag",
+    "url": "media/flags/regions/LT-AL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Alytus_County",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Alytus_County"
+   }
+  ],
+  "attributes": {
+   "code": "LT-AL",
+   "country": "country:LT",
+   "admin_level": 1,
+   "collection": "europe-lt",
+   "continent": "europe",
+   "map": "media/maps/regions/LT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Alytus_County"
+  }
+ },
+ {
+  "id": "region:LT-KL",
+  "type": "region",
+  "names": {
+   "de": "Klaipeda County"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LT-KL",
+    "kind": "flag",
+    "url": "media/flags/regions/LT-KL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Klaip%C4%97da_County",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Klaip%C4%97da_County"
+   }
+  ],
+  "attributes": {
+   "code": "LT-KL",
+   "country": "country:LT",
+   "admin_level": 1,
+   "collection": "europe-lt",
+   "continent": "europe",
+   "map": "media/maps/regions/LT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Klaip%C4%97da_County"
+  }
+ },
+ {
+  "id": "region:LT-KU",
+  "type": "region",
+  "names": {
+   "de": "Kaunas County"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LT-KU",
+    "kind": "flag",
+    "url": "media/flags/regions/LT-KU.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Kaunas_County",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Kaunas_County"
+   }
+  ],
+  "attributes": {
+   "code": "LT-KU",
+   "country": "country:LT",
+   "admin_level": 1,
+   "collection": "europe-lt",
+   "continent": "europe",
+   "map": "media/maps/regions/LT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Kaunas_County"
+  }
+ },
+ {
+  "id": "region:LT-MR",
+  "type": "region",
+  "names": {
+   "de": "Marijampole County"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LT-MR",
+    "kind": "flag",
+    "url": "media/flags/regions/LT-MR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Marijampol%C4%97_County",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Marijampol%C4%97_County"
+   }
+  ],
+  "attributes": {
+   "code": "LT-MR",
+   "country": "country:LT",
+   "admin_level": 1,
+   "collection": "europe-lt",
+   "continent": "europe",
+   "map": "media/maps/regions/LT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Marijampol%C4%97_County"
+  }
+ },
+ {
+  "id": "region:LT-PN",
+  "type": "region",
+  "names": {
+   "de": "Panevezys County"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LT-PN",
+    "kind": "flag",
+    "url": "media/flags/regions/LT-PN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Panev%C4%97%C5%BEys_County",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Panev%C4%97%C5%BEys_County"
+   }
+  ],
+  "attributes": {
+   "code": "LT-PN",
+   "country": "country:LT",
+   "admin_level": 1,
+   "collection": "europe-lt",
+   "continent": "europe",
+   "map": "media/maps/regions/LT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Panev%C4%97%C5%BEys_County"
+  }
+ },
+ {
+  "id": "region:LT-SA",
+  "type": "region",
+  "names": {
+   "de": "Siauliai County"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LT-SA",
+    "kind": "flag",
+    "url": "media/flags/regions/LT-SA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/%C5%A0iauliai_County",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/%C5%A0iauliai_County"
+   }
+  ],
+  "attributes": {
+   "code": "LT-SA",
+   "country": "country:LT",
+   "admin_level": 1,
+   "collection": "europe-lt",
+   "continent": "europe",
+   "map": "media/maps/regions/LT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/%C5%A0iauliai_County"
+  }
+ },
+ {
+  "id": "region:LT-TA",
+  "type": "region",
+  "names": {
+   "de": "Taurage County"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LT-TA",
+    "kind": "flag",
+    "url": "media/flags/regions/LT-TA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Taurag%C4%97_County",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Taurag%C4%97_County"
+   }
+  ],
+  "attributes": {
+   "code": "LT-TA",
+   "country": "country:LT",
+   "admin_level": 1,
+   "collection": "europe-lt",
+   "continent": "europe",
+   "map": "media/maps/regions/LT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Taurag%C4%97_County"
+  }
+ },
+ {
+  "id": "region:LT-UT",
+  "type": "region",
+  "names": {
+   "de": "Utena County"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LT-UT",
+    "kind": "flag",
+    "url": "media/flags/regions/LT-UT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Utena_County",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Utena_County"
+   }
+  ],
+  "attributes": {
+   "code": "LT-UT",
+   "country": "country:LT",
+   "admin_level": 1,
+   "collection": "europe-lt",
+   "continent": "europe",
+   "map": "media/maps/regions/LT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Utena_County"
+  }
+ },
+ {
+  "id": "region:LT-VL",
+  "type": "region",
+  "names": {
+   "de": "Vilnius County"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:LT-VL",
+    "kind": "flag",
+    "url": "media/flags/regions/LT-VL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Vilnius_County",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Vilnius_County"
+   }
+  ],
+  "attributes": {
+   "code": "LT-VL",
+   "country": "country:LT",
+   "admin_level": 1,
+   "collection": "europe-lt",
+   "continent": "europe",
+   "map": "media/maps/regions/LT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Vilnius_County"
+  }
+ }
+]

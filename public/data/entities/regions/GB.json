@@ -1,0 +1,122 @@
+[
+ {
+  "id": "region:GB-ENG",
+  "type": "region",
+  "names": {
+   "de": "England"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:GB-ENG",
+    "kind": "flag",
+    "url": "media/flags/regions/GB-ENG.svg",
+    "source": "niemela/flags via ugbzspiele",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: undefined"
+   }
+  ],
+  "attributes": {
+   "code": "GB-ENG",
+   "country": "country:GB",
+   "admin_level": 1,
+   "collection": "united-kingdom",
+   "continent": "europe",
+   "map": "media/maps/regions/GB"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "region:GB-NIR",
+  "type": "region",
+  "names": {
+   "de": "Nordirland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:GB-NIR",
+    "kind": "flag",
+    "url": "media/flags/regions/GB-NIR.svg",
+    "source": "niemela/flags via ugbzspiele",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: undefined"
+   }
+  ],
+  "attributes": {
+   "code": "GB-NIR",
+   "country": "country:GB",
+   "admin_level": 1,
+   "collection": "united-kingdom",
+   "continent": "europe",
+   "map": "media/maps/regions/GB"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "region:GB-SCT",
+  "type": "region",
+  "names": {
+   "de": "Schottland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:GB-SCT",
+    "kind": "flag",
+    "url": "media/flags/regions/GB-SCT.svg",
+    "source": "niemela/flags via ugbzspiele",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: undefined"
+   }
+  ],
+  "attributes": {
+   "code": "GB-SCT",
+   "country": "country:GB",
+   "admin_level": 1,
+   "collection": "united-kingdom",
+   "continent": "europe",
+   "map": "media/maps/regions/GB"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "region:GB-WLS",
+  "type": "region",
+  "names": {
+   "de": "Wales"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:GB-WLS",
+    "kind": "flag",
+    "url": "media/flags/regions/GB-WLS.svg",
+    "source": "niemela/flags via ugbzspiele",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: undefined"
+   }
+  ],
+  "attributes": {
+   "code": "GB-WLS",
+   "country": "country:GB",
+   "admin_level": 1,
+   "collection": "united-kingdom",
+   "continent": "europe",
+   "map": "media/maps/regions/GB"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ }
+]

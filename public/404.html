@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><title>GeoKompass</title>
+<script>
+// GitHub Pages SPA-Fallback: Pfad in Query kodieren und zur Startseite umleiten (wird in main.tsx zurückübersetzt).
+(function () {
+  var segments = location.pathname.split('/').filter(Boolean);
+  var repoBase = document.querySelector('meta[name="gk-base"]');
+  var base = repoBase ? repoBase.content : '/' + (segments.length && location.hostname.endsWith('github.io') ? segments[0] + '/' : '');
+  var rest = location.pathname.slice(base.length);
+  location.replace(base + '?p=/' + rest.replace(/&/g, '~and~') + location.search.replace(/^\?/, '&') + location.hash);
+})();
+</script></head><body></body></html>

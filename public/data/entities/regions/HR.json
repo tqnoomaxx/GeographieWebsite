@@ -1,0 +1,674 @@
+[
+ {
+  "id": "region:HR-01",
+  "type": "region",
+  "names": {
+   "de": "Gespanschaft Zagreb"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-01",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-01.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://hr.wikipedia.org/wiki/Zagrebačka_županija",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://hr.wikipedia.org/wiki/Zagrebačka_županija"
+   }
+  ],
+  "attributes": {
+   "code": "HR-01",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://hr.wikipedia.org/wiki/Zagrebačka_županija"
+  }
+ },
+ {
+  "id": "region:HR-02",
+  "type": "region",
+  "names": {
+   "de": "Krapina-Zagorje"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-02",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-02.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+   }
+  ],
+  "attributes": {
+   "code": "HR-02",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+  }
+ },
+ {
+  "id": "region:HR-03",
+  "type": "region",
+  "names": {
+   "de": "Sisak-Moslavina"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-03",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-03.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Sisak-Moslavina_County.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Sisak-Moslavina_County.svg"
+   }
+  ],
+  "attributes": {
+   "code": "HR-03",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Sisak-Moslavina_County.svg"
+  }
+ },
+ {
+  "id": "region:HR-04",
+  "type": "region",
+  "names": {
+   "de": "Karlovac"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-04",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-04.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+   }
+  ],
+  "attributes": {
+   "code": "HR-04",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+  }
+ },
+ {
+  "id": "region:HR-05",
+  "type": "region",
+  "names": {
+   "de": "Varaždin"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-05",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-05.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+   }
+  ],
+  "attributes": {
+   "code": "HR-05",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+  }
+ },
+ {
+  "id": "region:HR-06",
+  "type": "region",
+  "names": {
+   "de": "Koprivnica-Križevci"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-06",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-06.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Koprivnica-Križevci_County.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Koprivnica-Križevci_County.svg"
+   }
+  ],
+  "attributes": {
+   "code": "HR-06",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Koprivnica-Križevci_County.svg"
+  }
+ },
+ {
+  "id": "region:HR-07",
+  "type": "region",
+  "names": {
+   "de": "Bjelovar-Bilogora"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-07",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-07.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+   }
+  ],
+  "attributes": {
+   "code": "HR-07",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+  }
+ },
+ {
+  "id": "region:HR-08",
+  "type": "region",
+  "names": {
+   "de": "Primorje-Gorski kotar"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-08",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-08.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Primorje-Gorski_Kotar_County.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Primorje-Gorski_Kotar_County.svg"
+   }
+  ],
+  "attributes": {
+   "code": "HR-08",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Primorje-Gorski_Kotar_County.svg"
+  }
+ },
+ {
+  "id": "region:HR-09",
+  "type": "region",
+  "names": {
+   "de": "Lika-Senj"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-09",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-09.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.fotw.info/flags/hr-gs.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.fotw.info/flags/hr-gs.html"
+   }
+  ],
+  "attributes": {
+   "code": "HR-09",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.fotw.info/flags/hr-gs.html"
+  }
+ },
+ {
+  "id": "region:HR-10",
+  "type": "region",
+  "names": {
+   "de": "Virovitica-Podravina"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-10",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-10.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+   }
+  ],
+  "attributes": {
+   "code": "HR-10",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+  }
+ },
+ {
+  "id": "region:HR-11",
+  "type": "region",
+  "names": {
+   "de": "Požega-Slawonien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-11",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-11.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Po%C5%BEega-Slavonia_County.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Po%C5%BEega-Slavonia_County.svg"
+   }
+  ],
+  "attributes": {
+   "code": "HR-11",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Po%C5%BEega-Slavonia_County.svg"
+  }
+ },
+ {
+  "id": "region:HR-12",
+  "type": "region",
+  "names": {
+   "de": "Brod-Posavina"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-12",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-12.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+   }
+  ],
+  "attributes": {
+   "code": "HR-12",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+  }
+ },
+ {
+  "id": "region:HR-13",
+  "type": "region",
+  "names": {
+   "de": "Zadar"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-13",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-13.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Zadar_County.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Zadar_County.svg"
+   }
+  ],
+  "attributes": {
+   "code": "HR-13",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Zadar_County.svg"
+  }
+ },
+ {
+  "id": "region:HR-14",
+  "type": "region",
+  "names": {
+   "de": "Osijek-Baranja"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-14",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-14.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+   }
+  ],
+  "attributes": {
+   "code": "HR-14",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+  }
+ },
+ {
+  "id": "region:HR-15",
+  "type": "region",
+  "names": {
+   "de": "Šibenik-Knin"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-15",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-15.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://hr.wikipedia.org/wiki/Šibensko-kninska_županija",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://hr.wikipedia.org/wiki/Šibensko-kninska_županija"
+   }
+  ],
+  "attributes": {
+   "code": "HR-15",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://hr.wikipedia.org/wiki/Šibensko-kninska_županija"
+  }
+ },
+ {
+  "id": "region:HR-16",
+  "type": "region",
+  "names": {
+   "de": "Vukovar-Syrmien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-16",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-16.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+   }
+  ],
+  "attributes": {
+   "code": "HR-16",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+  }
+ },
+ {
+  "id": "region:HR-17",
+  "type": "region",
+  "names": {
+   "de": "Split-Dalmatien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-17",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-17.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+   }
+  ],
+  "attributes": {
+   "code": "HR-17",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+  }
+ },
+ {
+  "id": "region:HR-18",
+  "type": "region",
+  "names": {
+   "de": "Istrien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-18",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-18.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+   }
+  ],
+  "attributes": {
+   "code": "HR-18",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+  }
+ },
+ {
+  "id": "region:HR-19",
+  "type": "region",
+  "names": {
+   "de": "Dubrovnik-Neretva"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-19",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-19.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+   }
+  ],
+  "attributes": {
+   "code": "HR-19",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+  }
+ },
+ {
+  "id": "region:HR-20",
+  "type": "region",
+  "names": {
+   "de": "Međimurje"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-20",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-20.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+   }
+  ],
+  "attributes": {
+   "code": "HR-20",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_counties_of_Croatia"
+  }
+ },
+ {
+  "id": "region:HR-21",
+  "type": "region",
+  "names": {
+   "de": "Stadt Zagreb"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:HR-21",
+    "kind": "flag",
+    "url": "media/flags/regions/HR-21.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2106586",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2106586"
+   }
+  ],
+  "attributes": {
+   "code": "HR-21",
+   "country": "country:HR",
+   "admin_level": 1,
+   "collection": "croatia",
+   "continent": "europe",
+   "map": "media/maps/regions/HR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2106586"
+  }
+ }
+]

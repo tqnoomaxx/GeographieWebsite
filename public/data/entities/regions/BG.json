@@ -1,0 +1,34 @@
+[
+ {
+  "id": "region:BG-22",
+  "type": "region",
+  "names": {
+   "de": "Sofia City"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BG-22",
+    "kind": "flag",
+    "url": "media/flags/regions/BG-22.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Sofia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Sofia"
+   }
+  ],
+  "attributes": {
+   "code": "BG-22",
+   "country": "country:BG",
+   "admin_level": 1,
+   "collection": "europe-bg",
+   "continent": "europe",
+   "map": "media/maps/regions/BG"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Sofia"
+  }
+ }
+]

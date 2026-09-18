@@ -1,0 +1,418 @@
+[
+ {
+  "id": "region:BE-BRU",
+  "type": "region",
+  "names": {
+   "de": "Brüssel-Hauptstadt"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BE-BRU",
+    "kind": "flag",
+    "url": "media/flags/regions/BE-BRU.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Brussels-Capital_Region",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_the_Brussels-Capital_Region"
+   }
+  ],
+  "attributes": {
+   "code": "BE-BRU",
+   "country": "country:BE",
+   "admin_level": 1,
+   "collection": "belgium",
+   "continent": "europe",
+   "map": "media/maps/regions/BE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Brussels-Capital_Region"
+  }
+ },
+ {
+  "id": "region:BE-VAN",
+  "type": "region",
+  "names": {
+   "de": "Antwerpen"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BE-VAN",
+    "kind": "flag",
+    "url": "media/flags/regions/BE-VAN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Antwerp_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Antwerp_Province"
+   }
+  ],
+  "attributes": {
+   "code": "BE-VAN",
+   "country": "country:BE",
+   "admin_level": 1,
+   "collection": "belgium",
+   "continent": "europe",
+   "map": "media/maps/regions/BE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Antwerp_Province"
+  }
+ },
+ {
+  "id": "region:BE-VBR",
+  "type": "region",
+  "names": {
+   "de": "Flämisch-Brabant"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BE-VBR",
+    "kind": "flag",
+    "url": "media/flags/regions/BE-VBR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Flemish_Brabant",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Flemish_Brabant"
+   }
+  ],
+  "attributes": {
+   "code": "BE-VBR",
+   "country": "country:BE",
+   "admin_level": 1,
+   "collection": "belgium",
+   "continent": "europe",
+   "map": "media/maps/regions/BE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Flemish_Brabant"
+  }
+ },
+ {
+  "id": "region:BE-VLG",
+  "type": "region",
+  "names": {
+   "de": "Flandern"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BE-VLG",
+    "kind": "flag",
+    "url": "media/flags/regions/BE-VLG.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Flanders",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Flanders"
+   }
+  ],
+  "attributes": {
+   "code": "BE-VLG",
+   "country": "country:BE",
+   "admin_level": 1,
+   "collection": "belgium",
+   "continent": "europe",
+   "map": "media/maps/regions/BE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Flanders"
+  }
+ },
+ {
+  "id": "region:BE-VLI",
+  "type": "region",
+  "names": {
+   "de": "Limburg"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BE-VLI",
+    "kind": "flag",
+    "url": "media/flags/regions/BE-VLI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Limburg_(Belgium)",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Limburg_(Belgium)"
+   }
+  ],
+  "attributes": {
+   "code": "BE-VLI",
+   "country": "country:BE",
+   "admin_level": 1,
+   "collection": "belgium",
+   "continent": "europe",
+   "map": "media/maps/regions/BE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Limburg_(Belgium)"
+  }
+ },
+ {
+  "id": "region:BE-VOV",
+  "type": "region",
+  "names": {
+   "de": "Ostflandern"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BE-VOV",
+    "kind": "flag",
+    "url": "media/flags/regions/BE-VOV.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Flanders",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Flanders"
+   }
+  ],
+  "attributes": {
+   "code": "BE-VOV",
+   "country": "country:BE",
+   "admin_level": 1,
+   "collection": "belgium",
+   "continent": "europe",
+   "map": "media/maps/regions/BE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Flanders"
+  }
+ },
+ {
+  "id": "region:BE-VWV",
+  "type": "region",
+  "names": {
+   "de": "Westflandern"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BE-VWV",
+    "kind": "flag",
+    "url": "media/flags/regions/BE-VWV.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_West_Flanders",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_West_Flanders"
+   }
+  ],
+  "attributes": {
+   "code": "BE-VWV",
+   "country": "country:BE",
+   "admin_level": 1,
+   "collection": "belgium",
+   "continent": "europe",
+   "map": "media/maps/regions/BE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_West_Flanders"
+  }
+ },
+ {
+  "id": "region:BE-WAL",
+  "type": "region",
+  "names": {
+   "de": "Wallonien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BE-WAL",
+    "kind": "flag",
+    "url": "media/flags/regions/BE-WAL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Wallonia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Wallonia"
+   }
+  ],
+  "attributes": {
+   "code": "BE-WAL",
+   "country": "country:BE",
+   "admin_level": 1,
+   "collection": "belgium",
+   "continent": "europe",
+   "map": "media/maps/regions/BE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Wallonia"
+  }
+ },
+ {
+  "id": "region:BE-WBR",
+  "type": "region",
+  "names": {
+   "de": "Wallonisch-Brabant"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BE-WBR",
+    "kind": "flag",
+    "url": "media/flags/regions/BE-WBR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_and_coat_of_arms_of_Walloon_Brabant",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_and_coat_of_arms_of_Walloon_Brabant"
+   }
+  ],
+  "attributes": {
+   "code": "BE-WBR",
+   "country": "country:BE",
+   "admin_level": 1,
+   "collection": "belgium",
+   "continent": "europe",
+   "map": "media/maps/regions/BE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_and_coat_of_arms_of_Walloon_Brabant"
+  }
+ },
+ {
+  "id": "region:BE-WHT",
+  "type": "region",
+  "names": {
+   "de": "Hennegau"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BE-WHT",
+    "kind": "flag",
+    "url": "media/flags/regions/BE-WHT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Belgian_flags",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/List_of_Belgian_flags"
+   }
+  ],
+  "attributes": {
+   "code": "BE-WHT",
+   "country": "country:BE",
+   "admin_level": 1,
+   "collection": "belgium",
+   "continent": "europe",
+   "map": "media/maps/regions/BE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Belgian_flags"
+  }
+ },
+ {
+  "id": "region:BE-WLG",
+  "type": "region",
+  "names": {
+   "de": "Lüttich"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BE-WLG",
+    "kind": "flag",
+    "url": "media/flags/regions/BE-WLG.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Li%C3%A8ge_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Li%C3%A8ge_Province"
+   }
+  ],
+  "attributes": {
+   "code": "BE-WLG",
+   "country": "country:BE",
+   "admin_level": 1,
+   "collection": "belgium",
+   "continent": "europe",
+   "map": "media/maps/regions/BE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Li%C3%A8ge_Province"
+  }
+ },
+ {
+  "id": "region:BE-WLX",
+  "type": "region",
+  "names": {
+   "de": "Luxemburg"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BE-WLX",
+    "kind": "flag",
+    "url": "media/flags/regions/BE-WLX.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Belgian_flags",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/List_of_Belgian_flags"
+   }
+  ],
+  "attributes": {
+   "code": "BE-WLX",
+   "country": "country:BE",
+   "admin_level": 1,
+   "collection": "belgium",
+   "continent": "europe",
+   "map": "media/maps/regions/BE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Belgian_flags"
+  }
+ },
+ {
+  "id": "region:BE-WNA",
+  "type": "region",
+  "names": {
+   "de": "Namur"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BE-WNA",
+    "kind": "flag",
+    "url": "media/flags/regions/BE-WNA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/List_of_Belgian_flags",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/List_of_Belgian_flags"
+   }
+  ],
+  "attributes": {
+   "code": "BE-WNA",
+   "country": "country:BE",
+   "admin_level": 1,
+   "collection": "belgium",
+   "continent": "europe",
+   "map": "media/maps/regions/BE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/List_of_Belgian_flags"
+  }
+ }
+]

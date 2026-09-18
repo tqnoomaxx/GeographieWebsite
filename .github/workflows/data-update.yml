@@ -1,0 +1,28 @@
+name: Daten aktualisieren
+
+on:
+  schedule:
+    - cron: '0 4 1 * *' # monatlich
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: rm -rf scripts/.cache && npm run data:all -- --refresh
+      - uses: peter-evans/create-pull-request@v6
+        with:
+          title: 'data: Aktualisierung aus externen Quellen'
+          commit-message: 'data: Aktualisierung aus externen Quellen'
+          branch: data/update
+          body: 'Automatischer Import (Wikidata, mledoze/countries, Natural Earth). Bitte Diff prüfen.'

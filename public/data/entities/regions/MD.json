@@ -1,0 +1,482 @@
+[
+ {
+  "id": "region:MD-AN",
+  "type": "region",
+  "names": {
+   "de": "Anenii Noi"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MD-AN",
+    "kind": "flag",
+    "url": "media/flags/regions/MD-AN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Anenii_Noi_District,_Moldova.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Anenii_Noi_District,_Moldova.svg"
+   }
+  ],
+  "attributes": {
+   "code": "MD-AN",
+   "country": "country:MD",
+   "admin_level": 1,
+   "collection": "europe-md",
+   "continent": "europe",
+   "map": "media/maps/regions/MD"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Anenii_Noi_District,_Moldova.svg"
+  }
+ },
+ {
+  "id": "region:MD-BS",
+  "type": "region",
+  "names": {
+   "de": "Basarabeasca"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MD-BS",
+    "kind": "flag",
+    "url": "media/flags/regions/MD-BS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Basarabeasca_District.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Basarabeasca_District.svg"
+   }
+  ],
+  "attributes": {
+   "code": "MD-BS",
+   "country": "country:MD",
+   "admin_level": 1,
+   "collection": "europe-md",
+   "continent": "europe",
+   "map": "media/maps/regions/MD"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Basarabeasca_District.svg"
+  }
+ },
+ {
+  "id": "region:MD-CA",
+  "type": "region",
+  "names": {
+   "de": "Cahul"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MD-CA",
+    "kind": "flag",
+    "url": "media/flags/regions/MD-CA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_District_Cahul.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_District_Cahul.svg"
+   }
+  ],
+  "attributes": {
+   "code": "MD-CA",
+   "country": "country:MD",
+   "admin_level": 1,
+   "collection": "europe-md",
+   "continent": "europe",
+   "map": "media/maps/regions/MD"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_District_Cahul.svg"
+  }
+ },
+ {
+  "id": "region:MD-CR",
+  "type": "region",
+  "names": {
+   "de": "Criuleni"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MD-CR",
+    "kind": "flag",
+    "url": "media/flags/regions/MD-CR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Drapel_Raionul_Criuleni.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Drapel_Raionul_Criuleni.svg"
+   }
+  ],
+  "attributes": {
+   "code": "MD-CR",
+   "country": "country:MD",
+   "admin_level": 1,
+   "collection": "europe-md",
+   "continent": "europe",
+   "map": "media/maps/regions/MD"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Drapel_Raionul_Criuleni.svg"
+  }
+ },
+ {
+  "id": "region:MD-CT",
+  "type": "region",
+  "names": {
+   "de": "Cantemir"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MD-CT",
+    "kind": "flag",
+    "url": "media/flags/regions/MD-CT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Cantemir_District.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Cantemir_District.svg"
+   }
+  ],
+  "attributes": {
+   "code": "MD-CT",
+   "country": "country:MD",
+   "admin_level": 1,
+   "collection": "europe-md",
+   "continent": "europe",
+   "map": "media/maps/regions/MD"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Cantemir_District.svg"
+  }
+ },
+ {
+  "id": "region:MD-CU",
+  "type": "region",
+  "names": {
+   "de": "Chisinau"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MD-CU",
+    "kind": "flag",
+    "url": "media/flags/regions/MD-CU.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Chi%C8%99in%C4%83u",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Chi%C8%99in%C4%83u"
+   }
+  ],
+  "attributes": {
+   "code": "MD-CU",
+   "country": "country:MD",
+   "admin_level": 1,
+   "collection": "europe-md",
+   "continent": "europe",
+   "map": "media/maps/regions/MD"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Chi%C8%99in%C4%83u"
+  }
+ },
+ {
+  "id": "region:MD-DU",
+  "type": "region",
+  "names": {
+   "de": "Dubasari"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MD-DU",
+    "kind": "flag",
+    "url": "media/flags/regions/MD-DU.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dubăsari_District_flag.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Dubăsari_District_flag.svg"
+   }
+  ],
+  "attributes": {
+   "code": "MD-DU",
+   "country": "country:MD",
+   "admin_level": 1,
+   "collection": "europe-md",
+   "continent": "europe",
+   "map": "media/maps/regions/MD"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Dubăsari_District_flag.svg"
+  }
+ },
+ {
+  "id": "region:MD-ED",
+  "type": "region",
+  "names": {
+   "de": "Edinet"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MD-ED",
+    "kind": "flag",
+    "url": "media/flags/regions/MD-ED.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Steag_raionul_edinet.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Steag_raionul_edinet.svg"
+   }
+  ],
+  "attributes": {
+   "code": "MD-ED",
+   "country": "country:MD",
+   "admin_level": 1,
+   "collection": "europe-md",
+   "continent": "europe",
+   "map": "media/maps/regions/MD"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Steag_raionul_edinet.svg"
+  }
+ },
+ {
+  "id": "region:MD-FL",
+  "type": "region",
+  "names": {
+   "de": "Floresti"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MD-FL",
+    "kind": "flag",
+    "url": "media/flags/regions/MD-FL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Florești_District,_Moldova.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Florești_District,_Moldova.svg"
+   }
+  ],
+  "attributes": {
+   "code": "MD-FL",
+   "country": "country:MD",
+   "admin_level": 1,
+   "collection": "europe-md",
+   "continent": "europe",
+   "map": "media/maps/regions/MD"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Florești_District,_Moldova.svg"
+  }
+ },
+ {
+  "id": "region:MD-GA",
+  "type": "region",
+  "names": {
+   "de": "Gagauzia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MD-GA",
+    "kind": "flag",
+    "url": "media/flags/regions/MD-GA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Gagauzia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Gagauzia"
+   }
+  ],
+  "attributes": {
+   "code": "MD-GA",
+   "country": "country:MD",
+   "admin_level": 1,
+   "collection": "europe-md",
+   "continent": "europe",
+   "map": "media/maps/regions/MD"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Gagauzia"
+  }
+ },
+ {
+  "id": "region:MD-GL",
+  "type": "region",
+  "names": {
+   "de": "Glodeni"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MD-GL",
+    "kind": "flag",
+    "url": "media/flags/regions/MD-GL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Glodeni_District.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Glodeni_District.svg"
+   }
+  ],
+  "attributes": {
+   "code": "MD-GL",
+   "country": "country:MD",
+   "admin_level": 1,
+   "collection": "europe-md",
+   "continent": "europe",
+   "map": "media/maps/regions/MD"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Glodeni_District.svg"
+  }
+ },
+ {
+  "id": "region:MD-HI",
+  "type": "region",
+  "names": {
+   "de": "Hincesti"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MD-HI",
+    "kind": "flag",
+    "url": "media/flags/regions/MD-HI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hincesti_rajon_flag.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Hincesti_rajon_flag.svg"
+   }
+  ],
+  "attributes": {
+   "code": "MD-HI",
+   "country": "country:MD",
+   "admin_level": 1,
+   "collection": "europe-md",
+   "continent": "europe",
+   "map": "media/maps/regions/MD"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Hincesti_rajon_flag.svg"
+  }
+ },
+ {
+  "id": "region:MD-RE",
+  "type": "region",
+  "names": {
+   "de": "Rezina"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MD-RE",
+    "kind": "flag",
+    "url": "media/flags/regions/MD-RE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_District_Rezina.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_District_Rezina.svg"
+   }
+  ],
+  "attributes": {
+   "code": "MD-RE",
+   "country": "country:MD",
+   "admin_level": 1,
+   "collection": "europe-md",
+   "continent": "europe",
+   "map": "media/maps/regions/MD"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_District_Rezina.svg"
+  }
+ },
+ {
+  "id": "region:MD-SO",
+  "type": "region",
+  "names": {
+   "de": "Soroca"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MD-SO",
+    "kind": "flag",
+    "url": "media/flags/regions/MD-SO.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_District_Soroca.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_District_Soroca.svg"
+   }
+  ],
+  "attributes": {
+   "code": "MD-SO",
+   "country": "country:MD",
+   "admin_level": 1,
+   "collection": "europe-md",
+   "continent": "europe",
+   "map": "media/maps/regions/MD"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_District_Soroca.svg"
+  }
+ },
+ {
+  "id": "region:MD-UN",
+  "type": "region",
+  "names": {
+   "de": "Ungheni"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:MD-UN",
+    "kind": "flag",
+    "url": "media/flags/regions/MD-UN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_District_Ungheni.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_District_Ungheni.svg"
+   }
+  ],
+  "attributes": {
+   "code": "MD-UN",
+   "country": "country:MD",
+   "admin_level": 1,
+   "collection": "europe-md",
+   "continent": "europe",
+   "map": "media/maps/regions/MD"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_District_Ungheni.svg"
+  }
+ }
+]

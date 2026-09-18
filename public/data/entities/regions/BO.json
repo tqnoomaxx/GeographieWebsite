@@ -1,0 +1,290 @@
+[
+ {
+  "id": "region:BO-B",
+  "type": "region",
+  "names": {
+   "de": "Beni"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BO-B",
+    "kind": "flag",
+    "url": "media/flags/regions/BO-B.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/bo-.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/bo-.html"
+   }
+  ],
+  "attributes": {
+   "code": "BO-B",
+   "country": "country:BO",
+   "admin_level": 1,
+   "collection": "bolivia",
+   "continent": "south-america",
+   "map": "media/maps/regions/BO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/bo-.html"
+  }
+ },
+ {
+  "id": "region:BO-C",
+  "type": "region",
+  "names": {
+   "de": "Cochabamba"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BO-C",
+    "kind": "flag",
+    "url": "media/flags/regions/BO-C.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/bo-.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/bo-.html"
+   }
+  ],
+  "attributes": {
+   "code": "BO-C",
+   "country": "country:BO",
+   "admin_level": 1,
+   "collection": "bolivia",
+   "continent": "south-america",
+   "map": "media/maps/regions/BO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/bo-.html"
+  }
+ },
+ {
+  "id": "region:BO-H",
+  "type": "region",
+  "names": {
+   "de": "Chuquisaca"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BO-H",
+    "kind": "flag",
+    "url": "media/flags/regions/BO-H.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/bo-.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/bo-.html"
+   }
+  ],
+  "attributes": {
+   "code": "BO-H",
+   "country": "country:BO",
+   "admin_level": 1,
+   "collection": "bolivia",
+   "continent": "south-america",
+   "map": "media/maps/regions/BO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/bo-.html"
+  }
+ },
+ {
+  "id": "region:BO-L",
+  "type": "region",
+  "names": {
+   "de": "La Paz"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BO-L",
+    "kind": "flag",
+    "url": "media/flags/regions/BO-L.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/La_Paz",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/La_Paz"
+   }
+  ],
+  "attributes": {
+   "code": "BO-L",
+   "country": "country:BO",
+   "admin_level": 1,
+   "collection": "bolivia",
+   "continent": "south-america",
+   "map": "media/maps/regions/BO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/La_Paz"
+  }
+ },
+ {
+  "id": "region:BO-N",
+  "type": "region",
+  "names": {
+   "de": "Pando"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BO-N",
+    "kind": "flag",
+    "url": "media/flags/regions/BO-N.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/bo-.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/bo-.html"
+   }
+  ],
+  "attributes": {
+   "code": "BO-N",
+   "country": "country:BO",
+   "admin_level": 1,
+   "collection": "bolivia",
+   "continent": "south-america",
+   "map": "media/maps/regions/BO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/bo-.html"
+  }
+ },
+ {
+  "id": "region:BO-O",
+  "type": "region",
+  "names": {
+   "de": "Oruro"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BO-O",
+    "kind": "flag",
+    "url": "media/flags/regions/BO-O.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/bo-.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/bo-.html"
+   }
+  ],
+  "attributes": {
+   "code": "BO-O",
+   "country": "country:BO",
+   "admin_level": 1,
+   "collection": "bolivia",
+   "continent": "south-america",
+   "map": "media/maps/regions/BO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/bo-.html"
+  }
+ },
+ {
+  "id": "region:BO-P",
+  "type": "region",
+  "names": {
+   "de": "Potosí"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BO-P",
+    "kind": "flag",
+    "url": "media/flags/regions/BO-P.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/bo-.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/bo-.html"
+   }
+  ],
+  "attributes": {
+   "code": "BO-P",
+   "country": "country:BO",
+   "admin_level": 1,
+   "collection": "bolivia",
+   "continent": "south-america",
+   "map": "media/maps/regions/BO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/bo-.html"
+  }
+ },
+ {
+  "id": "region:BO-S",
+  "type": "region",
+  "names": {
+   "de": "Santa Cruz"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BO-S",
+    "kind": "flag",
+    "url": "media/flags/regions/BO-S.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/bo-.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/bo-.html"
+   }
+  ],
+  "attributes": {
+   "code": "BO-S",
+   "country": "country:BO",
+   "admin_level": 1,
+   "collection": "bolivia",
+   "continent": "south-america",
+   "map": "media/maps/regions/BO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/bo-.html"
+  }
+ },
+ {
+  "id": "region:BO-T",
+  "type": "region",
+  "names": {
+   "de": "Tarija"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:BO-T",
+    "kind": "flag",
+    "url": "media/flags/regions/BO-T.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/bo-.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/bo-.html"
+   }
+  ],
+  "attributes": {
+   "code": "BO-T",
+   "country": "country:BO",
+   "admin_level": 1,
+   "collection": "bolivia",
+   "continent": "south-america",
+   "map": "media/maps/regions/BO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/bo-.html"
+  }
+ }
+]

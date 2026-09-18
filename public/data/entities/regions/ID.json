@@ -1,0 +1,1090 @@
+[
+ {
+  "id": "region:ID-AC",
+  "type": "region",
+  "names": {
+   "de": "Aceh"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-AC",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-AC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Aceh",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Aceh"
+   }
+  ],
+  "attributes": {
+   "code": "ID-AC",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Aceh"
+  }
+ },
+ {
+  "id": "region:ID-BA",
+  "type": "region",
+  "names": {
+   "de": "Bali"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-BA",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-BA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Bali",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Bali"
+   }
+  ],
+  "attributes": {
+   "code": "ID-BA",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Bali"
+  }
+ },
+ {
+  "id": "region:ID-BB",
+  "type": "region",
+  "names": {
+   "de": "Bangka-Belitung"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-BB",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-BB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-BB",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-BE",
+  "type": "region",
+  "names": {
+   "de": "Bengkulu"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-BE",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-BE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-BE",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-BT",
+  "type": "region",
+  "names": {
+   "de": "Banten"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-BT",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-BT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-BT",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-GO",
+  "type": "region",
+  "names": {
+   "de": "Gorontalo"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-GO",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-GO.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-GO",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-JA",
+  "type": "region",
+  "names": {
+   "de": "Jambi"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-JA",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-JA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-JA",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-JB",
+  "type": "region",
+  "names": {
+   "de": "Westjava"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-JB",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-JB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/West_Java",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/West_Java"
+   }
+  ],
+  "attributes": {
+   "code": "ID-JB",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/West_Java"
+  }
+ },
+ {
+  "id": "region:ID-JI",
+  "type": "region",
+  "names": {
+   "de": "Ostjava"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-JI",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-JI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/East_Java",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/East_Java"
+   }
+  ],
+  "attributes": {
+   "code": "ID-JI",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/East_Java"
+  }
+ },
+ {
+  "id": "region:ID-JK",
+  "type": "region",
+  "names": {
+   "de": "Jakarta"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-JK",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-JK.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Jakarta",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Jakarta"
+   }
+  ],
+  "attributes": {
+   "code": "ID-JK",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Jakarta"
+  }
+ },
+ {
+  "id": "region:ID-JT",
+  "type": "region",
+  "names": {
+   "de": "Zentraljava"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-JT",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-JT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Central_Java",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Central_Java"
+   }
+  ],
+  "attributes": {
+   "code": "ID-JT",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Central_Java"
+  }
+ },
+ {
+  "id": "region:ID-KB",
+  "type": "region",
+  "names": {
+   "de": "Westkalimantan"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-KB",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-KB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-KB",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-KI",
+  "type": "region",
+  "names": {
+   "de": "Ostkalimantan"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-KI",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-KI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-KI",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-KR",
+  "type": "region",
+  "names": {
+   "de": "Riau-Inseln"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-KR",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-KR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-KR",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-KS",
+  "type": "region",
+  "names": {
+   "de": "Südkalimantan"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-KS",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-KS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-KS",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-KT",
+  "type": "region",
+  "names": {
+   "de": "Zentralkalimantan"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-KT",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-KT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-KT",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-KU",
+  "type": "region",
+  "names": {
+   "de": "Nordkalimantan"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-KU",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-KU.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-KU",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-LA",
+  "type": "region",
+  "names": {
+   "de": "Lampung"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-LA",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-LA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-LA",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-MA",
+  "type": "region",
+  "names": {
+   "de": "Maluku"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-MA",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-MA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-MA",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-MU",
+  "type": "region",
+  "names": {
+   "de": "Nordmolukken"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-MU",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-MU.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-MU",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-NB",
+  "type": "region",
+  "names": {
+   "de": "West-Nusa-Tenggara"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-NB",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-NB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/West_Nusa_Tenggara",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/West_Nusa_Tenggara"
+   }
+  ],
+  "attributes": {
+   "code": "ID-NB",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/West_Nusa_Tenggara"
+  }
+ },
+ {
+  "id": "region:ID-NT",
+  "type": "region",
+  "names": {
+   "de": "Ost-Nusa-Tenggara"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-NT",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-NT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/East_Nusa_Tenggara",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/East_Nusa_Tenggara"
+   }
+  ],
+  "attributes": {
+   "code": "ID-NT",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/East_Nusa_Tenggara"
+  }
+ },
+ {
+  "id": "region:ID-PA",
+  "type": "region",
+  "names": {
+   "de": "Papua"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-PA",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-PA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Papua_(province)",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Papua_(province)"
+   }
+  ],
+  "attributes": {
+   "code": "ID-PA",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Papua_(province)"
+  }
+ },
+ {
+  "id": "region:ID-PB",
+  "type": "region",
+  "names": {
+   "de": "Westpapua"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-PB",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-PB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-PB",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-RI",
+  "type": "region",
+  "names": {
+   "de": "Riau"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-RI",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-RI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-RI",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-SA",
+  "type": "region",
+  "names": {
+   "de": "Nordsulawesi"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-SA",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-SA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-SA",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-SB",
+  "type": "region",
+  "names": {
+   "de": "Westsumatra"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-SB",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-SB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/West_Sumatra",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/West_Sumatra"
+   }
+  ],
+  "attributes": {
+   "code": "ID-SB",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/West_Sumatra"
+  }
+ },
+ {
+  "id": "region:ID-SG",
+  "type": "region",
+  "names": {
+   "de": "Südostsulawesi"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-SG",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-SG.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-SG",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-SN",
+  "type": "region",
+  "names": {
+   "de": "Südsulawesi"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-SN",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-SN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-SN",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-SR",
+  "type": "region",
+  "names": {
+   "de": "Westsulawesi"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-SR",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-SR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_West_Sulawesi.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_West_Sulawesi.svg"
+   }
+  ],
+  "attributes": {
+   "code": "ID-SR",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_West_Sulawesi.svg"
+  }
+ },
+ {
+  "id": "region:ID-SS",
+  "type": "region",
+  "names": {
+   "de": "Südsumatra"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-SS",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-SS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-SS",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-ST",
+  "type": "region",
+  "names": {
+   "de": "Zentralsulawesi"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-ST",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-ST.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-ST",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-SU",
+  "type": "region",
+  "names": {
+   "de": "Nordsumatra"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-SU",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-SU.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+   }
+  ],
+  "attributes": {
+   "code": "ID-SU",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/Category:Flags_of_provinces_of_Indonesia"
+  }
+ },
+ {
+  "id": "region:ID-YO",
+  "type": "region",
+  "names": {
+   "de": "Yogyakarta"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ID-YO",
+    "kind": "flag",
+    "url": "media/flags/regions/ID-YO.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Yogyakarta",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Yogyakarta"
+   }
+  ],
+  "attributes": {
+   "code": "ID-YO",
+   "country": "country:ID",
+   "admin_level": 1,
+   "collection": "indonesia",
+   "continent": "asia",
+   "map": "media/maps/regions/ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Yogyakarta"
+  }
+ }
+]

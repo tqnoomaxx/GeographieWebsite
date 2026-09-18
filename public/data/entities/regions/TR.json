@@ -1,0 +1,34 @@
+[
+ {
+  "id": "region:TR-34",
+  "type": "region",
+  "names": {
+   "de": "İstanbul"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:TR-34",
+    "kind": "flag",
+    "url": "media/flags/regions/TR-34.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Istanbul",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Istanbul"
+   }
+  ],
+  "attributes": {
+   "code": "TR-34",
+   "country": "country:TR",
+   "admin_level": 1,
+   "collection": "europe-tr",
+   "continent": "europe",
+   "map": "media/maps/regions/TR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Istanbul"
+  }
+ }
+]

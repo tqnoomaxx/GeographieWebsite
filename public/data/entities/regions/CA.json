@@ -1,0 +1,431 @@
+[
+ {
+  "id": "region:CA-AB",
+  "type": "region",
+  "names": {
+   "de": "Alberta"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CA-AB",
+    "kind": "flag",
+    "url": "media/flags/regions/CA-AB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Alberta",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Alberta"
+   }
+  ],
+  "attributes": {
+   "code": "CA-AB",
+   "country": "country:CA",
+   "admin_level": 1,
+   "collection": "canada",
+   "continent": "north-america",
+   "capital_name": "Edmonton",
+   "map": "media/maps/regions/CA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Alberta"
+  }
+ },
+ {
+  "id": "region:CA-BC",
+  "type": "region",
+  "names": {
+   "de": "Britisch-Kolumbien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CA-BC",
+    "kind": "flag",
+    "url": "media/flags/regions/CA-BC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_British_Columbia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_British_Columbia"
+   }
+  ],
+  "attributes": {
+   "code": "CA-BC",
+   "country": "country:CA",
+   "admin_level": 1,
+   "collection": "canada",
+   "continent": "north-america",
+   "capital_name": "Victoria",
+   "map": "media/maps/regions/CA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_British_Columbia"
+  }
+ },
+ {
+  "id": "region:CA-MB",
+  "type": "region",
+  "names": {
+   "de": "Manitoba"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CA-MB",
+    "kind": "flag",
+    "url": "media/flags/regions/CA-MB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Manitoba",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Manitoba"
+   }
+  ],
+  "attributes": {
+   "code": "CA-MB",
+   "country": "country:CA",
+   "admin_level": 1,
+   "collection": "canada",
+   "continent": "north-america",
+   "capital_name": "Winnipeg",
+   "map": "media/maps/regions/CA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Manitoba"
+  }
+ },
+ {
+  "id": "region:CA-NB",
+  "type": "region",
+  "names": {
+   "de": "New Brunswick"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CA-NB",
+    "kind": "flag",
+    "url": "media/flags/regions/CA-NB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_New_Brunswick",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_New_Brunswick"
+   }
+  ],
+  "attributes": {
+   "code": "CA-NB",
+   "country": "country:CA",
+   "admin_level": 1,
+   "collection": "canada",
+   "continent": "north-america",
+   "capital_name": "Fredericton",
+   "map": "media/maps/regions/CA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_New_Brunswick"
+  }
+ },
+ {
+  "id": "region:CA-NL",
+  "type": "region",
+  "names": {
+   "de": "Neufundland und Labrador"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CA-NL",
+    "kind": "flag",
+    "url": "media/flags/regions/CA-NL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Newfoundland_and_Labrador",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Newfoundland_and_Labrador"
+   }
+  ],
+  "attributes": {
+   "code": "CA-NL",
+   "country": "country:CA",
+   "admin_level": 1,
+   "collection": "canada",
+   "continent": "north-america",
+   "capital_name": "St. John’s",
+   "map": "media/maps/regions/CA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Newfoundland_and_Labrador"
+  }
+ },
+ {
+  "id": "region:CA-NS",
+  "type": "region",
+  "names": {
+   "de": "Nova Scotia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CA-NS",
+    "kind": "flag",
+    "url": "media/flags/regions/CA-NS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Nova_Scotia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Nova_Scotia"
+   }
+  ],
+  "attributes": {
+   "code": "CA-NS",
+   "country": "country:CA",
+   "admin_level": 1,
+   "collection": "canada",
+   "continent": "north-america",
+   "capital_name": "Halifax",
+   "map": "media/maps/regions/CA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Nova_Scotia"
+  }
+ },
+ {
+  "id": "region:CA-NT",
+  "type": "region",
+  "names": {
+   "de": "Nordwest-Territorien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CA-NT",
+    "kind": "flag",
+    "url": "media/flags/regions/CA-NT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Northwest_Territories",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_the_Northwest_Territories"
+   }
+  ],
+  "attributes": {
+   "code": "CA-NT",
+   "country": "country:CA",
+   "admin_level": 1,
+   "collection": "canada",
+   "continent": "north-america",
+   "capital_name": "Yellowknife",
+   "map": "media/maps/regions/CA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Northwest_Territories"
+  }
+ },
+ {
+  "id": "region:CA-NU",
+  "type": "region",
+  "names": {
+   "de": "Nunavut"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CA-NU",
+    "kind": "flag",
+    "url": "media/flags/regions/CA-NU.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Nunavut",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Nunavut"
+   }
+  ],
+  "attributes": {
+   "code": "CA-NU",
+   "country": "country:CA",
+   "admin_level": 1,
+   "collection": "canada",
+   "continent": "north-america",
+   "capital_name": "Iqaluit",
+   "map": "media/maps/regions/CA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Nunavut"
+  }
+ },
+ {
+  "id": "region:CA-ON",
+  "type": "region",
+  "names": {
+   "de": "Ontario"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CA-ON",
+    "kind": "flag",
+    "url": "media/flags/regions/CA-ON.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Ontario",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Ontario"
+   }
+  ],
+  "attributes": {
+   "code": "CA-ON",
+   "country": "country:CA",
+   "admin_level": 1,
+   "collection": "canada",
+   "continent": "north-america",
+   "capital_name": "Toronto",
+   "map": "media/maps/regions/CA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Ontario"
+  }
+ },
+ {
+  "id": "region:CA-PE",
+  "type": "region",
+  "names": {
+   "de": "Prince Edward Island"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CA-PE",
+    "kind": "flag",
+    "url": "media/flags/regions/CA-PE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Prince_Edward_Island",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Prince_Edward_Island"
+   }
+  ],
+  "attributes": {
+   "code": "CA-PE",
+   "country": "country:CA",
+   "admin_level": 1,
+   "collection": "canada",
+   "continent": "north-america",
+   "capital_name": "Charlottetown",
+   "map": "media/maps/regions/CA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Prince_Edward_Island"
+  }
+ },
+ {
+  "id": "region:CA-QC",
+  "type": "region",
+  "names": {
+   "de": "Quebec"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CA-QC",
+    "kind": "flag",
+    "url": "media/flags/regions/CA-QC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Quebec",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Quebec"
+   }
+  ],
+  "attributes": {
+   "code": "CA-QC",
+   "country": "country:CA",
+   "admin_level": 1,
+   "collection": "canada",
+   "continent": "north-america",
+   "capital_name": "Québec",
+   "map": "media/maps/regions/CA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Quebec"
+  }
+ },
+ {
+  "id": "region:CA-SK",
+  "type": "region",
+  "names": {
+   "de": "Saskatchewan"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CA-SK",
+    "kind": "flag",
+    "url": "media/flags/regions/CA-SK.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Saskatchewan",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Saskatchewan"
+   }
+  ],
+  "attributes": {
+   "code": "CA-SK",
+   "country": "country:CA",
+   "admin_level": 1,
+   "collection": "canada",
+   "continent": "north-america",
+   "capital_name": "Regina",
+   "map": "media/maps/regions/CA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Saskatchewan"
+  }
+ },
+ {
+  "id": "region:CA-YT",
+  "type": "region",
+  "names": {
+   "de": "Yukon"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:CA-YT",
+    "kind": "flag",
+    "url": "media/flags/regions/CA-YT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Yukon",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Yukon"
+   }
+  ],
+  "attributes": {
+   "code": "CA-YT",
+   "country": "country:CA",
+   "admin_level": 1,
+   "collection": "canada",
+   "continent": "north-america",
+   "capital_name": "Whitehorse",
+   "map": "media/maps/regions/CA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Yukon"
+  }
+ }
+]

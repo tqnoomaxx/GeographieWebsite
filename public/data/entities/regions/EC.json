@@ -1,0 +1,770 @@
+[
+ {
+  "id": "region:EC-A",
+  "type": "region",
+  "names": {
+   "de": "Azuay"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-A",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-A.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Azuay_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Azuay_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-A",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Azuay_Province"
+  }
+ },
+ {
+  "id": "region:EC-B",
+  "type": "region",
+  "names": {
+   "de": "Bolívar"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-B",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-B.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Bol%C3%ADvar_Province_(Ecuador)",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Bol%C3%ADvar_Province_(Ecuador)"
+   }
+  ],
+  "attributes": {
+   "code": "EC-B",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Bol%C3%ADvar_Province_(Ecuador)"
+  }
+ },
+ {
+  "id": "region:EC-C",
+  "type": "region",
+  "names": {
+   "de": "Carchi"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-C",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-C.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Carchi_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Carchi_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-C",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Carchi_Province"
+  }
+ },
+ {
+  "id": "region:EC-D",
+  "type": "region",
+  "names": {
+   "de": "Orellana"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-D",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-D.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Orellana_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Orellana_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-D",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Orellana_Province"
+  }
+ },
+ {
+  "id": "region:EC-E",
+  "type": "region",
+  "names": {
+   "de": "Esmeraldas"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-E",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-E.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Esmeraldas_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Esmeraldas_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-E",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Esmeraldas_Province"
+  }
+ },
+ {
+  "id": "region:EC-F",
+  "type": "region",
+  "names": {
+   "de": "Cañar"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-F",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-F.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Ca%C3%B1ar_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Ca%C3%B1ar_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-F",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Ca%C3%B1ar_Province"
+  }
+ },
+ {
+  "id": "region:EC-G",
+  "type": "region",
+  "names": {
+   "de": "Guayas"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-G",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-G.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Guayas_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Guayas_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-G",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Guayas_Province"
+  }
+ },
+ {
+  "id": "region:EC-H",
+  "type": "region",
+  "names": {
+   "de": "Chimborazo"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-H",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-H.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Chimborazo_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Chimborazo_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-H",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Chimborazo_Province"
+  }
+ },
+ {
+  "id": "region:EC-I",
+  "type": "region",
+  "names": {
+   "de": "Imbabura"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-I",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-I.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Imbabura_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Imbabura_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-I",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Imbabura_Province"
+  }
+ },
+ {
+  "id": "region:EC-L",
+  "type": "region",
+  "names": {
+   "de": "Loja"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-L",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-L.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Loja_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Loja_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-L",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Loja_Province"
+  }
+ },
+ {
+  "id": "region:EC-M",
+  "type": "region",
+  "names": {
+   "de": "Manabí"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-M",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-M.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Manab%C3%AD_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Manab%C3%AD_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-M",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Manab%C3%AD_Province"
+  }
+ },
+ {
+  "id": "region:EC-N",
+  "type": "region",
+  "names": {
+   "de": "Napo"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-N",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-N.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Napo_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Napo_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-N",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Napo_Province"
+  }
+ },
+ {
+  "id": "region:EC-O",
+  "type": "region",
+  "names": {
+   "de": "El Oro"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-O",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-O.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/El_Oro_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/El_Oro_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-O",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/El_Oro_Province"
+  }
+ },
+ {
+  "id": "region:EC-P",
+  "type": "region",
+  "names": {
+   "de": "Pichincha"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-P",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-P.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Pichincha_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Pichincha_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-P",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Pichincha_Province"
+  }
+ },
+ {
+  "id": "region:EC-R",
+  "type": "region",
+  "names": {
+   "de": "Los Ríos"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-R",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-R.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Los_R%C3%ADos_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Los_R%C3%ADos_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-R",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Los_R%C3%ADos_Province"
+  }
+ },
+ {
+  "id": "region:EC-S",
+  "type": "region",
+  "names": {
+   "de": "Morona Santiago"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-S",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-S.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Morona-Santiago_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Morona-Santiago_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-S",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Morona-Santiago_Province"
+  }
+ },
+ {
+  "id": "region:EC-SD",
+  "type": "region",
+  "names": {
+   "de": "Santo Domingo de los Tsáchilas"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-SD",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-SD.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Santo_Domingo_de_los_Ts%C3%A1chilas_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Santo_Domingo_de_los_Ts%C3%A1chilas_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-SD",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Santo_Domingo_de_los_Ts%C3%A1chilas_Province"
+  }
+ },
+ {
+  "id": "region:EC-SE",
+  "type": "region",
+  "names": {
+   "de": "Santa Elena"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-SE",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-SE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Santa_Elena_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Santa_Elena_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-SE",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Santa_Elena_Province"
+  }
+ },
+ {
+  "id": "region:EC-T",
+  "type": "region",
+  "names": {
+   "de": "Tungurahua"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-T",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-T.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Tungurahua_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Tungurahua_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-T",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Tungurahua_Province"
+  }
+ },
+ {
+  "id": "region:EC-U",
+  "type": "region",
+  "names": {
+   "de": "Sucumbíos"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-U",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-U.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Sucumb%C3%ADos_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Sucumb%C3%ADos_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-U",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Sucumb%C3%ADos_Province"
+  }
+ },
+ {
+  "id": "region:EC-W",
+  "type": "region",
+  "names": {
+   "de": "Galápagos"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-W",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-W.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-W",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Gal%C3%A1pagos_Province"
+  }
+ },
+ {
+  "id": "region:EC-X",
+  "type": "region",
+  "names": {
+   "de": "Cotopaxi"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-X",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-X.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Cotopaxi_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Cotopaxi_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-X",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Cotopaxi_Province"
+  }
+ },
+ {
+  "id": "region:EC-Y",
+  "type": "region",
+  "names": {
+   "de": "Pastaza"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-Y",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-Y.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Pastaza_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Pastaza_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-Y",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Pastaza_Province"
+  }
+ },
+ {
+  "id": "region:EC-Z",
+  "type": "region",
+  "names": {
+   "de": "Zamora Chinchipe"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:EC-Z",
+    "kind": "flag",
+    "url": "media/flags/regions/EC-Z.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Zamora-Chinchipe_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Zamora-Chinchipe_Province"
+   }
+  ],
+  "attributes": {
+   "code": "EC-Z",
+   "country": "country:EC",
+   "admin_level": 1,
+   "collection": "ecuador",
+   "continent": "south-america",
+   "map": "media/maps/regions/EC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Zamora-Chinchipe_Province"
+  }
+ }
+]

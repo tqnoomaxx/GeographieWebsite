@@ -1,0 +1,674 @@
+[
+ {
+  "id": "region:SE-AB",
+  "type": "region",
+  "names": {
+   "de": "Stockholm County"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-AB",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-AB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Stockholm_County",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Stockholm_County"
+   }
+  ],
+  "attributes": {
+   "code": "SE-AB",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Stockholm_County"
+  }
+ },
+ {
+  "id": "region:SE-AC",
+  "type": "region",
+  "names": {
+   "de": "Västerbotten"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-AC",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-AC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/V%C3%A4sterbotten_County",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/V%C3%A4sterbotten_County"
+   }
+  ],
+  "attributes": {
+   "code": "SE-AC",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/V%C3%A4sterbotten_County"
+  }
+ },
+ {
+  "id": "region:SE-BD",
+  "type": "region",
+  "names": {
+   "de": "Norrbotten"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-BD",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-BD.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Norrbotten_County",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Norrbotten_County"
+   }
+  ],
+  "attributes": {
+   "code": "SE-BD",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Norrbotten_County"
+  }
+ },
+ {
+  "id": "region:SE-C",
+  "type": "region",
+  "names": {
+   "de": "Uppsala County"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-C",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-C.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://sv.wikipedia.org/wiki/Uppsala_län",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://sv.wikipedia.org/wiki/Uppsala_län"
+   }
+  ],
+  "attributes": {
+   "code": "SE-C",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://sv.wikipedia.org/wiki/Uppsala_län"
+  }
+ },
+ {
+  "id": "region:SE-D",
+  "type": "region",
+  "names": {
+   "de": "Södermanland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-D",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-D.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/S%C3%B6dermanland_County",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/S%C3%B6dermanland_County"
+   }
+  ],
+  "attributes": {
+   "code": "SE-D",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/S%C3%B6dermanland_County"
+  }
+ },
+ {
+  "id": "region:SE-E",
+  "type": "region",
+  "names": {
+   "de": "Östergötland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-E",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-E.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://sv.wikipedia.org/wiki/Östergötlands_län",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://sv.wikipedia.org/wiki/Östergötlands_län"
+   }
+  ],
+  "attributes": {
+   "code": "SE-E",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://sv.wikipedia.org/wiki/Östergötlands_län"
+  }
+ },
+ {
+  "id": "region:SE-F",
+  "type": "region",
+  "names": {
+   "de": "Jönköping"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-F",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-F.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/J%C3%B6nk%C3%B6ping_County",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/J%C3%B6nk%C3%B6ping_County"
+   }
+  ],
+  "attributes": {
+   "code": "SE-F",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/J%C3%B6nk%C3%B6ping_County"
+  }
+ },
+ {
+  "id": "region:SE-G",
+  "type": "region",
+  "names": {
+   "de": "Kronoberg County"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-G",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-G.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://sv.wikipedia.org/wiki/Kronobergs_län",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://sv.wikipedia.org/wiki/Kronobergs_län"
+   }
+  ],
+  "attributes": {
+   "code": "SE-G",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://sv.wikipedia.org/wiki/Kronobergs_län"
+  }
+ },
+ {
+  "id": "region:SE-H",
+  "type": "region",
+  "names": {
+   "de": "Kalmar County"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-H",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-H.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://sv.wikipedia.org/wiki/Kalmar_län",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://sv.wikipedia.org/wiki/Kalmar_län"
+   }
+  ],
+  "attributes": {
+   "code": "SE-H",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://sv.wikipedia.org/wiki/Kalmar_län"
+  }
+ },
+ {
+  "id": "region:SE-I",
+  "type": "region",
+  "names": {
+   "de": "Gotland County"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-I",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-I.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://sv.wikipedia.org/wiki/Gotlands_läns_vapen",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://sv.wikipedia.org/wiki/Gotlands_läns_vapen"
+   }
+  ],
+  "attributes": {
+   "code": "SE-I",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://sv.wikipedia.org/wiki/Gotlands_läns_vapen"
+  }
+ },
+ {
+  "id": "region:SE-K",
+  "type": "region",
+  "names": {
+   "de": "Blekinge County"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-K",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-K.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://sv.wikipedia.org/wiki/Blekinge_län",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://sv.wikipedia.org/wiki/Blekinge_län"
+   }
+  ],
+  "attributes": {
+   "code": "SE-K",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://sv.wikipedia.org/wiki/Blekinge_län"
+  }
+ },
+ {
+  "id": "region:SE-M",
+  "type": "region",
+  "names": {
+   "de": "Skåne"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-M",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-M.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Sk%C3%A5ne_County",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Sk%C3%A5ne_County"
+   }
+  ],
+  "attributes": {
+   "code": "SE-M",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Sk%C3%A5ne_County"
+  }
+ },
+ {
+  "id": "region:SE-N",
+  "type": "region",
+  "names": {
+   "de": "Halland County"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-N",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-N.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://sv.wikipedia.org/wiki/Hallands_läns_vapen",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://sv.wikipedia.org/wiki/Hallands_läns_vapen"
+   }
+  ],
+  "attributes": {
+   "code": "SE-N",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://sv.wikipedia.org/wiki/Hallands_läns_vapen"
+  }
+ },
+ {
+  "id": "region:SE-O",
+  "type": "region",
+  "names": {
+   "de": "Västra Götaland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-O",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-O.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/V%C3%A4stra_G%C3%B6taland_County",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/V%C3%A4stra_G%C3%B6taland_County"
+   }
+  ],
+  "attributes": {
+   "code": "SE-O",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/V%C3%A4stra_G%C3%B6taland_County"
+  }
+ },
+ {
+  "id": "region:SE-S",
+  "type": "region",
+  "names": {
+   "de": "Värmland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-S",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-S.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://sv.wikipedia.org/wiki/Värmlands_läns_vapen",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://sv.wikipedia.org/wiki/Värmlands_läns_vapen"
+   }
+  ],
+  "attributes": {
+   "code": "SE-S",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://sv.wikipedia.org/wiki/Värmlands_läns_vapen"
+  }
+ },
+ {
+  "id": "region:SE-T",
+  "type": "region",
+  "names": {
+   "de": "Örebro"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-T",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-T.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://sv.wikipedia.org/wiki/Örebro_län",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://sv.wikipedia.org/wiki/Örebro_län"
+   }
+  ],
+  "attributes": {
+   "code": "SE-T",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://sv.wikipedia.org/wiki/Örebro_län"
+  }
+ },
+ {
+  "id": "region:SE-U",
+  "type": "region",
+  "names": {
+   "de": "Västmanland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-U",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-U.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://sv.wikipedia.org/wiki/Västmanlands_län",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://sv.wikipedia.org/wiki/Västmanlands_län"
+   }
+  ],
+  "attributes": {
+   "code": "SE-U",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://sv.wikipedia.org/wiki/Västmanlands_län"
+  }
+ },
+ {
+  "id": "region:SE-W",
+  "type": "region",
+  "names": {
+   "de": "Dalarna County"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-W",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-W.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://sv.wikipedia.org/wiki/Dalarnas_läns_vapen",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://sv.wikipedia.org/wiki/Dalarnas_läns_vapen"
+   }
+  ],
+  "attributes": {
+   "code": "SE-W",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://sv.wikipedia.org/wiki/Dalarnas_läns_vapen"
+  }
+ },
+ {
+  "id": "region:SE-X",
+  "type": "region",
+  "names": {
+   "de": "Gävleborg"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-X",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-X.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/G%C3%A4vleborg_County",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/G%C3%A4vleborg_County"
+   }
+  ],
+  "attributes": {
+   "code": "SE-X",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/G%C3%A4vleborg_County"
+  }
+ },
+ {
+  "id": "region:SE-Y",
+  "type": "region",
+  "names": {
+   "de": "Västernorrland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-Y",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-Y.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/V%C3%A4sternorrland_County",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/V%C3%A4sternorrland_County"
+   }
+  ],
+  "attributes": {
+   "code": "SE-Y",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/V%C3%A4sternorrland_County"
+  }
+ },
+ {
+  "id": "region:SE-Z",
+  "type": "region",
+  "names": {
+   "de": "Jämtland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SE-Z",
+    "kind": "flag",
+    "url": "media/flags/regions/SE-Z.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://sv.wikipedia.org/wiki/Jämtlands_läns_vapen",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://sv.wikipedia.org/wiki/Jämtlands_läns_vapen"
+   }
+  ],
+  "attributes": {
+   "code": "SE-Z",
+   "country": "country:SE",
+   "admin_level": 1,
+   "collection": "sweden",
+   "continent": "europe",
+   "map": "media/maps/regions/SE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://sv.wikipedia.org/wiki/Jämtlands_läns_vapen"
+  }
+ }
+]

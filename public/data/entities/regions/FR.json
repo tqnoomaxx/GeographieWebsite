@@ -1,0 +1,418 @@
+[
+ {
+  "id": "region:FR-20R",
+  "type": "region",
+  "names": {
+   "de": "Corse"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FR-20R",
+    "kind": "flag",
+    "url": "media/flags/regions/FR-20R.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Corsica",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Corsica"
+   }
+  ],
+  "attributes": {
+   "code": "FR-20R",
+   "country": "country:FR",
+   "admin_level": 1,
+   "collection": "europe-fr",
+   "continent": "europe",
+   "map": "media/maps/regions/FR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Corsica"
+  }
+ },
+ {
+  "id": "region:FR-ARA",
+  "type": "region",
+  "names": {
+   "de": "Auvergne-Rhône-Alpes"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FR-ARA",
+    "kind": "flag",
+    "url": "media/flags/regions/FR-ARA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Auvergne-Rh%C3%B4ne-Alpes",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Auvergne-Rh%C3%B4ne-Alpes"
+   }
+  ],
+  "attributes": {
+   "code": "FR-ARA",
+   "country": "country:FR",
+   "admin_level": 1,
+   "collection": "europe-fr",
+   "continent": "europe",
+   "map": "media/maps/regions/FR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Auvergne-Rh%C3%B4ne-Alpes"
+  }
+ },
+ {
+  "id": "region:FR-BFC",
+  "type": "region",
+  "names": {
+   "de": "Bourgogne-Franche-Comté"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FR-BFC",
+    "kind": "flag",
+    "url": "media/flags/regions/FR-BFC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Bourgogne-Franche-Comt%C3%A9",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Bourgogne-Franche-Comt%C3%A9"
+   }
+  ],
+  "attributes": {
+   "code": "FR-BFC",
+   "country": "country:FR",
+   "admin_level": 1,
+   "collection": "europe-fr",
+   "continent": "europe",
+   "map": "media/maps/regions/FR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Bourgogne-Franche-Comt%C3%A9"
+  }
+ },
+ {
+  "id": "region:FR-BRE",
+  "type": "region",
+  "names": {
+   "de": "Bretagne"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FR-BRE",
+    "kind": "flag",
+    "url": "media/flags/regions/FR-BRE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Brittany",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Brittany"
+   }
+  ],
+  "attributes": {
+   "code": "FR-BRE",
+   "country": "country:FR",
+   "admin_level": 1,
+   "collection": "europe-fr",
+   "continent": "europe",
+   "map": "media/maps/regions/FR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Brittany"
+  }
+ },
+ {
+  "id": "region:FR-CVL",
+  "type": "region",
+  "names": {
+   "de": "Centre-Val de Loire"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FR-CVL",
+    "kind": "flag",
+    "url": "media/flags/regions/FR-CVL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Centre-Val_de_Loire",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Centre-Val_de_Loire"
+   }
+  ],
+  "attributes": {
+   "code": "FR-CVL",
+   "country": "country:FR",
+   "admin_level": 1,
+   "collection": "europe-fr",
+   "continent": "europe",
+   "map": "media/maps/regions/FR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Centre-Val_de_Loire"
+  }
+ },
+ {
+  "id": "region:FR-GES",
+  "type": "region",
+  "names": {
+   "de": "Grand Est"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FR-GES",
+    "kind": "flag",
+    "url": "media/flags/regions/FR-GES.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Grand_Est",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Grand_Est"
+   }
+  ],
+  "attributes": {
+   "code": "FR-GES",
+   "country": "country:FR",
+   "admin_level": 1,
+   "collection": "europe-fr",
+   "continent": "europe",
+   "map": "media/maps/regions/FR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Grand_Est"
+  }
+ },
+ {
+  "id": "region:FR-HDF",
+  "type": "region",
+  "names": {
+   "de": "Hauts-de-France"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FR-HDF",
+    "kind": "flag",
+    "url": "media/flags/regions/FR-HDF.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Hauts-de-France",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Hauts-de-France"
+   }
+  ],
+  "attributes": {
+   "code": "FR-HDF",
+   "country": "country:FR",
+   "admin_level": 1,
+   "collection": "europe-fr",
+   "continent": "europe",
+   "map": "media/maps/regions/FR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Hauts-de-France"
+  }
+ },
+ {
+  "id": "region:FR-IDF",
+  "type": "region",
+  "names": {
+   "de": "Île-de-France"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FR-IDF",
+    "kind": "flag",
+    "url": "media/flags/regions/FR-IDF.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://fr.wikipedia.org/wiki/Drapeau_de_l'Île-de-France",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://fr.wikipedia.org/wiki/Drapeau_de_l'Île-de-France"
+   }
+  ],
+  "attributes": {
+   "code": "FR-IDF",
+   "country": "country:FR",
+   "admin_level": 1,
+   "collection": "europe-fr",
+   "continent": "europe",
+   "map": "media/maps/regions/FR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://fr.wikipedia.org/wiki/Drapeau_de_l'Île-de-France"
+  }
+ },
+ {
+  "id": "region:FR-NAQ",
+  "type": "region",
+  "names": {
+   "de": "Nouvelle-Aquitaine"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FR-NAQ",
+    "kind": "flag",
+    "url": "media/flags/regions/FR-NAQ.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q66424359",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q66424359"
+   }
+  ],
+  "attributes": {
+   "code": "FR-NAQ",
+   "country": "country:FR",
+   "admin_level": 1,
+   "collection": "europe-fr",
+   "continent": "europe",
+   "map": "media/maps/regions/FR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q66424359"
+  }
+ },
+ {
+  "id": "region:FR-NOR",
+  "type": "region",
+  "names": {
+   "de": "Normandie"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FR-NOR",
+    "kind": "flag",
+    "url": "media/flags/regions/FR-NOR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Normandy",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Normandy"
+   }
+  ],
+  "attributes": {
+   "code": "FR-NOR",
+   "country": "country:FR",
+   "admin_level": 1,
+   "collection": "europe-fr",
+   "continent": "europe",
+   "map": "media/maps/regions/FR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Normandy"
+  }
+ },
+ {
+  "id": "region:FR-OCC",
+  "type": "region",
+  "names": {
+   "de": "Occitanie"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FR-OCC",
+    "kind": "flag",
+    "url": "media/flags/regions/FR-OCC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Occitania",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Occitania"
+   }
+  ],
+  "attributes": {
+   "code": "FR-OCC",
+   "country": "country:FR",
+   "admin_level": 1,
+   "collection": "europe-fr",
+   "continent": "europe",
+   "map": "media/maps/regions/FR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Occitania"
+  }
+ },
+ {
+  "id": "region:FR-PAC",
+  "type": "region",
+  "names": {
+   "de": "Provence-Alpes-Côte d'Azur"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FR-PAC",
+    "kind": "flag",
+    "url": "media/flags/regions/FR-PAC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q12143656",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q12143656"
+   }
+  ],
+  "attributes": {
+   "code": "FR-PAC",
+   "country": "country:FR",
+   "admin_level": 1,
+   "collection": "europe-fr",
+   "continent": "europe",
+   "map": "media/maps/regions/FR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q12143656"
+  }
+ },
+ {
+  "id": "region:FR-PDL",
+  "type": "region",
+  "names": {
+   "de": "Pays de la Loire"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:FR-PDL",
+    "kind": "flag",
+    "url": "media/flags/regions/FR-PDL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Pays_de_la_Loire",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Pays_de_la_Loire"
+   }
+  ],
+  "attributes": {
+   "code": "FR-PDL",
+   "country": "country:FR",
+   "admin_level": 1,
+   "collection": "europe-fr",
+   "continent": "europe",
+   "map": "media/maps/regions/FR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Pays_de_la_Loire"
+  }
+ }
+]

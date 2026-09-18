@@ -1,0 +1,134 @@
+{
+ "generated_at": "2026-09-18T14:26:25.563Z",
+ "counts": {
+  "country": 254,
+  "city": 458,
+  "landmark": 78,
+  "region": 817
+ },
+ "media": 1187,
+ "relationships": 2648,
+ "countries_without_population": [
+  "country:AC",
+  "country:EU",
+  "country:IC",
+  "country:TA"
+ ],
+ "countries_without_capital": [
+  "country:AC",
+  "country:AQ",
+  "country:BV",
+  "country:EU",
+  "country:HM",
+  "country:IC",
+  "country:MO",
+  "country:TA",
+  "country:UM"
+ ],
+ "countries_without_area": [
+  "country:AC",
+  "country:EU",
+  "country:IC",
+  "country:SJ",
+  "country:TA"
+ ],
+ "countries_without_outline": [
+  "country:AC",
+  "country:BQ",
+  "country:BV",
+  "country:CC",
+  "country:CX",
+  "country:EU",
+  "country:GF",
+  "country:GI",
+  "country:GP",
+  "country:IC",
+  "country:MQ",
+  "country:RE",
+  "country:SJ",
+  "country:TA",
+  "country:TK",
+  "country:UM",
+  "country:YT"
+ ],
+ "entities_without_media": [],
+ "conflicts": [
+  {
+   "id": "country:AQ",
+   "conflicts": [
+    {
+     "field": "population",
+     "values": [
+      {
+       "source": "wikidata",
+       "value": 5000
+      },
+      {
+       "source": "wikidata",
+       "value": 4400
+      },
+      {
+       "source": "wikidata",
+       "value": 1100
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "country:CY",
+   "conflicts": [
+    {
+     "field": "population",
+     "values": [
+      {
+       "source": "wikidata",
+       "value": 1344976
+      },
+      {
+       "source": "wikidata",
+       "value": 1120489
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "country:NL",
+   "conflicts": [
+    {
+     "field": "population",
+     "values": [
+      {
+       "source": "wikidata",
+       "value": 17942942
+      },
+      {
+       "source": "wikidata",
+       "value": 17100715
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "country:TW",
+   "conflicts": [
+    {
+     "field": "population",
+     "values": [
+      {
+       "source": "wikidata",
+       "value": 23317031
+      },
+      {
+       "source": "wikidata",
+       "value": 23262544
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "warnings": []
+}

@@ -1,0 +1,266 @@
+[
+ {
+  "id": "region:AU-ACT",
+  "type": "region",
+  "names": {
+   "de": "Australian Capital Territory"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AU-ACT",
+    "kind": "flag",
+    "url": "media/flags/regions/AU-ACT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Australian_Capital_Territory",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_the_Australian_Capital_Territory"
+   }
+  ],
+  "attributes": {
+   "code": "AU-ACT",
+   "country": "country:AU",
+   "admin_level": 1,
+   "collection": "australia",
+   "continent": "oceania",
+   "capital_name": "Canberra",
+   "map": "media/maps/regions/AU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Australian_Capital_Territory"
+  }
+ },
+ {
+  "id": "region:AU-NSW",
+  "type": "region",
+  "names": {
+   "de": "New South Wales"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AU-NSW",
+    "kind": "flag",
+    "url": "media/flags/regions/AU-NSW.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_New_South_Wales",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_New_South_Wales"
+   }
+  ],
+  "attributes": {
+   "code": "AU-NSW",
+   "country": "country:AU",
+   "admin_level": 1,
+   "collection": "australia",
+   "continent": "oceania",
+   "capital_name": "Sydney",
+   "map": "media/maps/regions/AU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_New_South_Wales"
+  }
+ },
+ {
+  "id": "region:AU-NT",
+  "type": "region",
+  "names": {
+   "de": "Northern Territory"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AU-NT",
+    "kind": "flag",
+    "url": "media/flags/regions/AU-NT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Northern_Territory",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_the_Northern_Territory"
+   }
+  ],
+  "attributes": {
+   "code": "AU-NT",
+   "country": "country:AU",
+   "admin_level": 1,
+   "collection": "australia",
+   "continent": "oceania",
+   "capital_name": "Darwin",
+   "map": "media/maps/regions/AU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Northern_Territory"
+  }
+ },
+ {
+  "id": "region:AU-QLD",
+  "type": "region",
+  "names": {
+   "de": "Queensland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AU-QLD",
+    "kind": "flag",
+    "url": "media/flags/regions/AU-QLD.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Queensland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Queensland"
+   }
+  ],
+  "attributes": {
+   "code": "AU-QLD",
+   "country": "country:AU",
+   "admin_level": 1,
+   "collection": "australia",
+   "continent": "oceania",
+   "capital_name": "Brisbane",
+   "map": "media/maps/regions/AU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Queensland"
+  }
+ },
+ {
+  "id": "region:AU-SA",
+  "type": "region",
+  "names": {
+   "de": "South Australia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AU-SA",
+    "kind": "flag",
+    "url": "media/flags/regions/AU-SA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_South_Australia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_South_Australia"
+   }
+  ],
+  "attributes": {
+   "code": "AU-SA",
+   "country": "country:AU",
+   "admin_level": 1,
+   "collection": "australia",
+   "continent": "oceania",
+   "capital_name": "Adelaide",
+   "map": "media/maps/regions/AU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_South_Australia"
+  }
+ },
+ {
+  "id": "region:AU-TAS",
+  "type": "region",
+  "names": {
+   "de": "Tasmanien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AU-TAS",
+    "kind": "flag",
+    "url": "media/flags/regions/AU-TAS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Tasmania",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Tasmania"
+   }
+  ],
+  "attributes": {
+   "code": "AU-TAS",
+   "country": "country:AU",
+   "admin_level": 1,
+   "collection": "australia",
+   "continent": "oceania",
+   "capital_name": "Hobart",
+   "map": "media/maps/regions/AU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Tasmania"
+  }
+ },
+ {
+  "id": "region:AU-VIC",
+  "type": "region",
+  "names": {
+   "de": "Victoria"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AU-VIC",
+    "kind": "flag",
+    "url": "media/flags/regions/AU-VIC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Victoria_(Australia)",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Victoria_(Australia)"
+   }
+  ],
+  "attributes": {
+   "code": "AU-VIC",
+   "country": "country:AU",
+   "admin_level": 1,
+   "collection": "australia",
+   "continent": "oceania",
+   "capital_name": "Melbourne",
+   "map": "media/maps/regions/AU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Victoria_(Australia)"
+  }
+ },
+ {
+  "id": "region:AU-WA",
+  "type": "region",
+  "names": {
+   "de": "Western Australia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AU-WA",
+    "kind": "flag",
+    "url": "media/flags/regions/AU-WA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Western_Australia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Western_Australia"
+   }
+  ],
+  "attributes": {
+   "code": "AU-WA",
+   "country": "country:AU",
+   "admin_level": 1,
+   "collection": "australia",
+   "continent": "oceania",
+   "capital_name": "Perth",
+   "map": "media/maps/regions/AU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Western_Australia"
+  }
+ }
+]

@@ -1,0 +1,1684 @@
+[
+ {
+  "id": "region:US-AK",
+  "type": "region",
+  "names": {
+   "de": "Alaska"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-AK",
+    "kind": "flag",
+    "url": "media/flags/regions/US-AK.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Alaska",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Alaska"
+   }
+  ],
+  "attributes": {
+   "code": "US-AK",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Juneau",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Alaska"
+  }
+ },
+ {
+  "id": "region:US-AL",
+  "type": "region",
+  "names": {
+   "de": "Alabama"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-AL",
+    "kind": "flag",
+    "url": "media/flags/regions/US-AL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Alabama",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Alabama"
+   }
+  ],
+  "attributes": {
+   "code": "US-AL",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Montgomery",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Alabama"
+  }
+ },
+ {
+  "id": "region:US-AR",
+  "type": "region",
+  "names": {
+   "de": "Arkansas"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-AR",
+    "kind": "flag",
+    "url": "media/flags/regions/US-AR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Arkansas",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Arkansas"
+   }
+  ],
+  "attributes": {
+   "code": "US-AR",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Little Rock",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Arkansas"
+  }
+ },
+ {
+  "id": "region:US-AZ",
+  "type": "region",
+  "names": {
+   "de": "Arizona"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-AZ",
+    "kind": "flag",
+    "url": "media/flags/regions/US-AZ.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Arizona",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Arizona"
+   }
+  ],
+  "attributes": {
+   "code": "US-AZ",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Phoenix",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Arizona"
+  }
+ },
+ {
+  "id": "region:US-CA",
+  "type": "region",
+  "names": {
+   "de": "California"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-CA",
+    "kind": "flag",
+    "url": "media/flags/regions/US-CA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_California",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_California"
+   }
+  ],
+  "attributes": {
+   "code": "US-CA",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Sacramento",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_California"
+  }
+ },
+ {
+  "id": "region:US-CO",
+  "type": "region",
+  "names": {
+   "de": "Colorado"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-CO",
+    "kind": "flag",
+    "url": "media/flags/regions/US-CO.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Colorado",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Colorado"
+   }
+  ],
+  "attributes": {
+   "code": "US-CO",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Denver",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Colorado"
+  }
+ },
+ {
+  "id": "region:US-CT",
+  "type": "region",
+  "names": {
+   "de": "Connecticut"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-CT",
+    "kind": "flag",
+    "url": "media/flags/regions/US-CT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Connecticut",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Connecticut"
+   }
+  ],
+  "attributes": {
+   "code": "US-CT",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Hartford",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Connecticut"
+  }
+ },
+ {
+  "id": "region:US-DC",
+  "type": "region",
+  "names": {
+   "de": "District of Columbia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-DC",
+    "kind": "flag",
+    "url": "media/flags/regions/US-DC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Washington,_D.C.",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Washington,_D.C."
+   }
+  ],
+  "attributes": {
+   "code": "US-DC",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Washington,_D.C."
+  }
+ },
+ {
+  "id": "region:US-DE",
+  "type": "region",
+  "names": {
+   "de": "Delaware"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-DE",
+    "kind": "flag",
+    "url": "media/flags/regions/US-DE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Delaware",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Delaware"
+   }
+  ],
+  "attributes": {
+   "code": "US-DE",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Dover",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Delaware"
+  }
+ },
+ {
+  "id": "region:US-FL",
+  "type": "region",
+  "names": {
+   "de": "Florida"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-FL",
+    "kind": "flag",
+    "url": "media/flags/regions/US-FL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Florida",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Florida"
+   }
+  ],
+  "attributes": {
+   "code": "US-FL",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Tallahassee",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Florida"
+  }
+ },
+ {
+  "id": "region:US-GA",
+  "type": "region",
+  "names": {
+   "de": "Georgia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-GA",
+    "kind": "flag",
+    "url": "media/flags/regions/US-GA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Georgia_(U.S._state)",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Georgia_(U.S._state)"
+   }
+  ],
+  "attributes": {
+   "code": "US-GA",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Atlanta",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Georgia_(U.S._state)"
+  }
+ },
+ {
+  "id": "region:US-HI",
+  "type": "region",
+  "names": {
+   "de": "Hawaii"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-HI",
+    "kind": "flag",
+    "url": "media/flags/regions/US-HI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Hawaii",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Hawaii"
+   }
+  ],
+  "attributes": {
+   "code": "US-HI",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Honolulu",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Hawaii"
+  }
+ },
+ {
+  "id": "region:US-IA",
+  "type": "region",
+  "names": {
+   "de": "Iowa"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-IA",
+    "kind": "flag",
+    "url": "media/flags/regions/US-IA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Iowa",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Iowa"
+   }
+  ],
+  "attributes": {
+   "code": "US-IA",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Des Moines",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Iowa"
+  }
+ },
+ {
+  "id": "region:US-ID",
+  "type": "region",
+  "names": {
+   "de": "Idaho"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-ID",
+    "kind": "flag",
+    "url": "media/flags/regions/US-ID.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Idaho",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Idaho"
+   }
+  ],
+  "attributes": {
+   "code": "US-ID",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Boise",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Idaho"
+  }
+ },
+ {
+  "id": "region:US-IL",
+  "type": "region",
+  "names": {
+   "de": "Illinois"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-IL",
+    "kind": "flag",
+    "url": "media/flags/regions/US-IL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Illinois",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Illinois"
+   }
+  ],
+  "attributes": {
+   "code": "US-IL",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Springfield",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Illinois"
+  }
+ },
+ {
+  "id": "region:US-IN",
+  "type": "region",
+  "names": {
+   "de": "Indiana"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-IN",
+    "kind": "flag",
+    "url": "media/flags/regions/US-IN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Indiana",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Indiana"
+   }
+  ],
+  "attributes": {
+   "code": "US-IN",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Indianapolis",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Indiana"
+  }
+ },
+ {
+  "id": "region:US-KS",
+  "type": "region",
+  "names": {
+   "de": "Kansas"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-KS",
+    "kind": "flag",
+    "url": "media/flags/regions/US-KS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kansas",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Kansas"
+   }
+  ],
+  "attributes": {
+   "code": "US-KS",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Topeka",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kansas"
+  }
+ },
+ {
+  "id": "region:US-KY",
+  "type": "region",
+  "names": {
+   "de": "Kentucky"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-KY",
+    "kind": "flag",
+    "url": "media/flags/regions/US-KY.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kentucky",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Kentucky"
+   }
+  ],
+  "attributes": {
+   "code": "US-KY",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Frankfort",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Kentucky"
+  }
+ },
+ {
+  "id": "region:US-LA",
+  "type": "region",
+  "names": {
+   "de": "Louisiana"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-LA",
+    "kind": "flag",
+    "url": "media/flags/regions/US-LA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Louisiana",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Louisiana"
+   }
+  ],
+  "attributes": {
+   "code": "US-LA",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Baton Rouge",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Louisiana"
+  }
+ },
+ {
+  "id": "region:US-MA",
+  "type": "region",
+  "names": {
+   "de": "Massachusetts"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-MA",
+    "kind": "flag",
+    "url": "media/flags/regions/US-MA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Massachusetts",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Massachusetts"
+   }
+  ],
+  "attributes": {
+   "code": "US-MA",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Boston",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Massachusetts"
+  }
+ },
+ {
+  "id": "region:US-MD",
+  "type": "region",
+  "names": {
+   "de": "Maryland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-MD",
+    "kind": "flag",
+    "url": "media/flags/regions/US-MD.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Maryland",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Maryland"
+   }
+  ],
+  "attributes": {
+   "code": "US-MD",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Annapolis",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Maryland"
+  }
+ },
+ {
+  "id": "region:US-ME",
+  "type": "region",
+  "names": {
+   "de": "Maine"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-ME",
+    "kind": "flag",
+    "url": "media/flags/regions/US-ME.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_State_of_Maine.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_the_State_of_Maine.svg"
+   }
+  ],
+  "attributes": {
+   "code": "US-ME",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Augusta",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_the_State_of_Maine.svg"
+  }
+ },
+ {
+  "id": "region:US-MI",
+  "type": "region",
+  "names": {
+   "de": "Michigan"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-MI",
+    "kind": "flag",
+    "url": "media/flags/regions/US-MI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Michigan",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Michigan"
+   }
+  ],
+  "attributes": {
+   "code": "US-MI",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Lansing",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Michigan"
+  }
+ },
+ {
+  "id": "region:US-MN",
+  "type": "region",
+  "names": {
+   "de": "Minnesota"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-MN",
+    "kind": "flag",
+    "url": "media/flags/regions/US-MN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Minnesota",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Minnesota"
+   }
+  ],
+  "attributes": {
+   "code": "US-MN",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Saint Paul",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Minnesota"
+  }
+ },
+ {
+  "id": "region:US-MO",
+  "type": "region",
+  "names": {
+   "de": "Missouri"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-MO",
+    "kind": "flag",
+    "url": "media/flags/regions/US-MO.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Missouri",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Missouri"
+   }
+  ],
+  "attributes": {
+   "code": "US-MO",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Jefferson City",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Missouri"
+  }
+ },
+ {
+  "id": "region:US-MS",
+  "type": "region",
+  "names": {
+   "de": "Mississippi"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-MS",
+    "kind": "flag",
+    "url": "media/flags/regions/US-MS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Mississippi",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Mississippi"
+   }
+  ],
+  "attributes": {
+   "code": "US-MS",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Jackson",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Mississippi"
+  }
+ },
+ {
+  "id": "region:US-MT",
+  "type": "region",
+  "names": {
+   "de": "Montana"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-MT",
+    "kind": "flag",
+    "url": "media/flags/regions/US-MT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Montana",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Montana"
+   }
+  ],
+  "attributes": {
+   "code": "US-MT",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Helena",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Montana"
+  }
+ },
+ {
+  "id": "region:US-NC",
+  "type": "region",
+  "names": {
+   "de": "North Carolina"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-NC",
+    "kind": "flag",
+    "url": "media/flags/regions/US-NC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_North_Carolina",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_North_Carolina"
+   }
+  ],
+  "attributes": {
+   "code": "US-NC",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Raleigh",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_North_Carolina"
+  }
+ },
+ {
+  "id": "region:US-ND",
+  "type": "region",
+  "names": {
+   "de": "North Dakota"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-ND",
+    "kind": "flag",
+    "url": "media/flags/regions/US-ND.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_North_Dakota",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_North_Dakota"
+   }
+  ],
+  "attributes": {
+   "code": "US-ND",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Bismarck",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_North_Dakota"
+  }
+ },
+ {
+  "id": "region:US-NE",
+  "type": "region",
+  "names": {
+   "de": "Nebraska"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-NE",
+    "kind": "flag",
+    "url": "media/flags/regions/US-NE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Nebraska",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Nebraska"
+   }
+  ],
+  "attributes": {
+   "code": "US-NE",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Lincoln",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Nebraska"
+  }
+ },
+ {
+  "id": "region:US-NH",
+  "type": "region",
+  "names": {
+   "de": "New Hampshire"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-NH",
+    "kind": "flag",
+    "url": "media/flags/regions/US-NH.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_New_Hampshire",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_New_Hampshire"
+   }
+  ],
+  "attributes": {
+   "code": "US-NH",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Concord",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_New_Hampshire"
+  }
+ },
+ {
+  "id": "region:US-NJ",
+  "type": "region",
+  "names": {
+   "de": "New Jersey"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-NJ",
+    "kind": "flag",
+    "url": "media/flags/regions/US-NJ.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_New_Jersey",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_New_Jersey"
+   }
+  ],
+  "attributes": {
+   "code": "US-NJ",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Trenton",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_New_Jersey"
+  }
+ },
+ {
+  "id": "region:US-NM",
+  "type": "region",
+  "names": {
+   "de": "New Mexico"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-NM",
+    "kind": "flag",
+    "url": "media/flags/regions/US-NM.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_New_Mexico",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_New_Mexico"
+   }
+  ],
+  "attributes": {
+   "code": "US-NM",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Santa Fe",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_New_Mexico"
+  }
+ },
+ {
+  "id": "region:US-NV",
+  "type": "region",
+  "names": {
+   "de": "Nevada"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-NV",
+    "kind": "flag",
+    "url": "media/flags/regions/US-NV.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Nevada",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Nevada"
+   }
+  ],
+  "attributes": {
+   "code": "US-NV",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Carson City",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Nevada"
+  }
+ },
+ {
+  "id": "region:US-NY",
+  "type": "region",
+  "names": {
+   "de": "New York"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-NY",
+    "kind": "flag",
+    "url": "media/flags/regions/US-NY.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_New_York_(state)",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_New_York_(state)"
+   }
+  ],
+  "attributes": {
+   "code": "US-NY",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Albany",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_New_York_(state)"
+  }
+ },
+ {
+  "id": "region:US-OH",
+  "type": "region",
+  "names": {
+   "de": "Ohio"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-OH",
+    "kind": "flag",
+    "url": "media/flags/regions/US-OH.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Ohio",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Ohio"
+   }
+  ],
+  "attributes": {
+   "code": "US-OH",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Columbus",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Ohio"
+  }
+ },
+ {
+  "id": "region:US-OK",
+  "type": "region",
+  "names": {
+   "de": "Oklahoma"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-OK",
+    "kind": "flag",
+    "url": "media/flags/regions/US-OK.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Oklahoma",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Oklahoma"
+   }
+  ],
+  "attributes": {
+   "code": "US-OK",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Oklahoma City",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Oklahoma"
+  }
+ },
+ {
+  "id": "region:US-OR",
+  "type": "region",
+  "names": {
+   "de": "Oregon"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-OR",
+    "kind": "flag",
+    "url": "media/flags/regions/US-OR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Oregon",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Oregon"
+   }
+  ],
+  "attributes": {
+   "code": "US-OR",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Salem",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Oregon"
+  }
+ },
+ {
+  "id": "region:US-PA",
+  "type": "region",
+  "names": {
+   "de": "Pennsylvania"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-PA",
+    "kind": "flag",
+    "url": "media/flags/regions/US-PA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Pennsylvania.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Pennsylvania.svg"
+   }
+  ],
+  "attributes": {
+   "code": "US-PA",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Harrisburg",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Pennsylvania.svg"
+  }
+ },
+ {
+  "id": "region:US-RI",
+  "type": "region",
+  "names": {
+   "de": "Rhode Island"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-RI",
+    "kind": "flag",
+    "url": "media/flags/regions/US-RI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Rhode_Island.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Rhode_Island.svg"
+   }
+  ],
+  "attributes": {
+   "code": "US-RI",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Providence",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Rhode_Island.svg"
+  }
+ },
+ {
+  "id": "region:US-SC",
+  "type": "region",
+  "names": {
+   "de": "South Carolina"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-SC",
+    "kind": "flag",
+    "url": "media/flags/regions/US-SC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_South_Carolina",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_South_Carolina"
+   }
+  ],
+  "attributes": {
+   "code": "US-SC",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Columbia",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_South_Carolina"
+  }
+ },
+ {
+  "id": "region:US-SD",
+  "type": "region",
+  "names": {
+   "de": "South Dakota"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-SD",
+    "kind": "flag",
+    "url": "media/flags/regions/US-SD.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_South_Dakota",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_South_Dakota"
+   }
+  ],
+  "attributes": {
+   "code": "US-SD",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Pierre",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_South_Dakota"
+  }
+ },
+ {
+  "id": "region:US-TN",
+  "type": "region",
+  "names": {
+   "de": "Tennessee"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-TN",
+    "kind": "flag",
+    "url": "media/flags/regions/US-TN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Tennessee",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Tennessee"
+   }
+  ],
+  "attributes": {
+   "code": "US-TN",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Nashville",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Tennessee"
+  }
+ },
+ {
+  "id": "region:US-TX",
+  "type": "region",
+  "names": {
+   "de": "Texas"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-TX",
+    "kind": "flag",
+    "url": "media/flags/regions/US-TX.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Texas",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Texas"
+   }
+  ],
+  "attributes": {
+   "code": "US-TX",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Austin",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Texas"
+  }
+ },
+ {
+  "id": "region:US-UT",
+  "type": "region",
+  "names": {
+   "de": "Utah"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-UT",
+    "kind": "flag",
+    "url": "media/flags/regions/US-UT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Utah",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Utah"
+   }
+  ],
+  "attributes": {
+   "code": "US-UT",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Salt Lake City",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Utah"
+  }
+ },
+ {
+  "id": "region:US-VA",
+  "type": "region",
+  "names": {
+   "de": "Virginia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-VA",
+    "kind": "flag",
+    "url": "media/flags/regions/US-VA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Virginia.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Virginia.svg"
+   }
+  ],
+  "attributes": {
+   "code": "US-VA",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Richmond",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Virginia.svg"
+  }
+ },
+ {
+  "id": "region:US-VT",
+  "type": "region",
+  "names": {
+   "de": "Vermont"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-VT",
+    "kind": "flag",
+    "url": "media/flags/regions/US-VT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Vermont",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Vermont"
+   }
+  ],
+  "attributes": {
+   "code": "US-VT",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Montpelier",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Vermont"
+  }
+ },
+ {
+  "id": "region:US-WA",
+  "type": "region",
+  "names": {
+   "de": "Washington"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-WA",
+    "kind": "flag",
+    "url": "media/flags/regions/US-WA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Washington_(state)",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Washington_(state)"
+   }
+  ],
+  "attributes": {
+   "code": "US-WA",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Olympia",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Washington_(state)"
+  }
+ },
+ {
+  "id": "region:US-WI",
+  "type": "region",
+  "names": {
+   "de": "Wisconsin"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-WI",
+    "kind": "flag",
+    "url": "media/flags/regions/US-WI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Wisconsin",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Wisconsin"
+   }
+  ],
+  "attributes": {
+   "code": "US-WI",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Madison",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Wisconsin"
+  }
+ },
+ {
+  "id": "region:US-WV",
+  "type": "region",
+  "names": {
+   "de": "West Virginia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-WV",
+    "kind": "flag",
+    "url": "media/flags/regions/US-WV.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_West_Virginia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_West_Virginia"
+   }
+  ],
+  "attributes": {
+   "code": "US-WV",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Charleston",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_West_Virginia"
+  }
+ },
+ {
+  "id": "region:US-WY",
+  "type": "region",
+  "names": {
+   "de": "Wyoming"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:US-WY",
+    "kind": "flag",
+    "url": "media/flags/regions/US-WY.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Wyoming",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Wyoming"
+   }
+  ],
+  "attributes": {
+   "code": "US-WY",
+   "country": "country:US",
+   "admin_level": 1,
+   "collection": "us-states",
+   "continent": "north-america",
+   "capital_name": "Cheyenne",
+   "map": "media/maps/regions/US"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Wyoming"
+  }
+ }
+]

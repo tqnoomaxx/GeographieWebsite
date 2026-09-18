@@ -1,0 +1,770 @@
+[
+ {
+  "id": "region:AR-A",
+  "type": "region",
+  "names": {
+   "de": "Salta"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-A",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-A.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Salta_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Salta_Province"
+   }
+  ],
+  "attributes": {
+   "code": "AR-A",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Salta_Province"
+  }
+ },
+ {
+  "id": "region:AR-B",
+  "type": "region",
+  "names": {
+   "de": "Buenos Aires"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-B",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-B.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Buenos_Aires_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Buenos_Aires_Province"
+   }
+  ],
+  "attributes": {
+   "code": "AR-B",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Buenos_Aires_Province"
+  }
+ },
+ {
+  "id": "region:AR-C",
+  "type": "region",
+  "names": {
+   "de": "Buenos Aires (Stadt)"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-C",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-C.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Buenos_Aires",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Buenos_Aires"
+   }
+  ],
+  "attributes": {
+   "code": "AR-C",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Buenos_Aires"
+  }
+ },
+ {
+  "id": "region:AR-D",
+  "type": "region",
+  "names": {
+   "de": "San Luis"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-D",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-D.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_San_Luis_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_San_Luis_Province"
+   }
+  ],
+  "attributes": {
+   "code": "AR-D",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_San_Luis_Province"
+  }
+ },
+ {
+  "id": "region:AR-E",
+  "type": "region",
+  "names": {
+   "de": "Entre Ríos"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-E",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-E.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Entre_R%C3%ADos_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Entre_R%C3%ADos_Province"
+   }
+  ],
+  "attributes": {
+   "code": "AR-E",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Entre_R%C3%ADos_Province"
+  }
+ },
+ {
+  "id": "region:AR-F",
+  "type": "region",
+  "names": {
+   "de": "La Rioja"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-F",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-F.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_La_Rioja_Province,_Argentina",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_La_Rioja_Province,_Argentina"
+   }
+  ],
+  "attributes": {
+   "code": "AR-F",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_La_Rioja_Province,_Argentina"
+  }
+ },
+ {
+  "id": "region:AR-G",
+  "type": "region",
+  "names": {
+   "de": "Santiago del Estero"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-G",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-G.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Santiago_del_Estero_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Santiago_del_Estero_Province"
+   }
+  ],
+  "attributes": {
+   "code": "AR-G",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Santiago_del_Estero_Province"
+  }
+ },
+ {
+  "id": "region:AR-H",
+  "type": "region",
+  "names": {
+   "de": "Chaco"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-H",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-H.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Chaco_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Chaco_Province"
+   }
+  ],
+  "attributes": {
+   "code": "AR-H",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Chaco_Province"
+  }
+ },
+ {
+  "id": "region:AR-J",
+  "type": "region",
+  "names": {
+   "de": "San Juan"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-J",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-J.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_San_Juan_Province,_Argentina",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_San_Juan_Province,_Argentina"
+   }
+  ],
+  "attributes": {
+   "code": "AR-J",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_San_Juan_Province,_Argentina"
+  }
+ },
+ {
+  "id": "region:AR-K",
+  "type": "region",
+  "names": {
+   "de": "Catamarca"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-K",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-K.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bandera_de_la_Provincia_de_Catamarca.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Bandera_de_la_Provincia_de_Catamarca.svg"
+   }
+  ],
+  "attributes": {
+   "code": "AR-K",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bandera_de_la_Provincia_de_Catamarca.svg"
+  }
+ },
+ {
+  "id": "region:AR-L",
+  "type": "region",
+  "names": {
+   "de": "La Pampa"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-L",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-L.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_La_Pampa_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_La_Pampa_Province"
+   }
+  ],
+  "attributes": {
+   "code": "AR-L",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_La_Pampa_Province"
+  }
+ },
+ {
+  "id": "region:AR-M",
+  "type": "region",
+  "names": {
+   "de": "Mendoza"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-M",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-M.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Mendoza_Province,_Argentina.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Mendoza_Province,_Argentina.svg"
+   }
+  ],
+  "attributes": {
+   "code": "AR-M",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Mendoza_Province,_Argentina.svg"
+  }
+ },
+ {
+  "id": "region:AR-N",
+  "type": "region",
+  "names": {
+   "de": "Misiones"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-N",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-N.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Misiones_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Misiones_Province"
+   }
+  ],
+  "attributes": {
+   "code": "AR-N",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Misiones_Province"
+  }
+ },
+ {
+  "id": "region:AR-P",
+  "type": "region",
+  "names": {
+   "de": "Formosa"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-P",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-P.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Formosa_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Formosa_Province"
+   }
+  ],
+  "attributes": {
+   "code": "AR-P",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Formosa_Province"
+  }
+ },
+ {
+  "id": "region:AR-Q",
+  "type": "region",
+  "names": {
+   "de": "Neuquén"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-Q",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-Q.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bandera_de_la_Provincia_del_Neuquen.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Bandera_de_la_Provincia_del_Neuquen.svg"
+   }
+  ],
+  "attributes": {
+   "code": "AR-Q",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Bandera_de_la_Provincia_del_Neuquen.svg"
+  }
+ },
+ {
+  "id": "region:AR-R",
+  "type": "region",
+  "names": {
+   "de": "Río Negro"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-R",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-R.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_R%C3%ADo_Negro_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_R%C3%ADo_Negro_Province"
+   }
+  ],
+  "attributes": {
+   "code": "AR-R",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_R%C3%ADo_Negro_Province"
+  }
+ },
+ {
+  "id": "region:AR-S",
+  "type": "region",
+  "names": {
+   "de": "Santa Fe"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-S",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-S.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Santa_Fe_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Santa_Fe_Province"
+   }
+  ],
+  "attributes": {
+   "code": "AR-S",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Santa_Fe_Province"
+  }
+ },
+ {
+  "id": "region:AR-T",
+  "type": "region",
+  "names": {
+   "de": "Tucumán"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-T",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-T.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Tucum%C3%A1n_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Tucum%C3%A1n_Province"
+   }
+  ],
+  "attributes": {
+   "code": "AR-T",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Tucum%C3%A1n_Province"
+  }
+ },
+ {
+  "id": "region:AR-U",
+  "type": "region",
+  "names": {
+   "de": "Chubut"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-U",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-U.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Chubut_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Chubut_Province"
+   }
+  ],
+  "attributes": {
+   "code": "AR-U",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Chubut_Province"
+  }
+ },
+ {
+  "id": "region:AR-V",
+  "type": "region",
+  "names": {
+   "de": "Tierra del Fuego"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-V",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-V.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Tierra_del_Fuego_Province,_Argentina",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Tierra_del_Fuego_Province,_Argentina"
+   }
+  ],
+  "attributes": {
+   "code": "AR-V",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Tierra_del_Fuego_Province,_Argentina"
+  }
+ },
+ {
+  "id": "region:AR-W",
+  "type": "region",
+  "names": {
+   "de": "Corrientes"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-W",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-W.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.wikidata.org/wiki/Q2314559",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.wikidata.org/wiki/Q2314559"
+   }
+  ],
+  "attributes": {
+   "code": "AR-W",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.wikidata.org/wiki/Q2314559"
+  }
+ },
+ {
+  "id": "region:AR-X",
+  "type": "region",
+  "names": {
+   "de": "Córdoba"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-X",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-X.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_C%C3%B3rdoba_Province,_Argentina",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_C%C3%B3rdoba_Province,_Argentina"
+   }
+  ],
+  "attributes": {
+   "code": "AR-X",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_C%C3%B3rdoba_Province,_Argentina"
+  }
+ },
+ {
+  "id": "region:AR-Y",
+  "type": "region",
+  "names": {
+   "de": "Jujuy"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-Y",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-Y.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Jujuy_Province",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Jujuy_Province"
+   }
+  ],
+  "attributes": {
+   "code": "AR-Y",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Jujuy_Province"
+  }
+ },
+ {
+  "id": "region:AR-Z",
+  "type": "region",
+  "names": {
+   "de": "Santa Cruz"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AR-Z",
+    "kind": "flag",
+    "url": "media/flags/regions/AR-Z.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Santa_Cruz_Province,_Argentina",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Santa_Cruz_Province,_Argentina"
+   }
+  ],
+  "attributes": {
+   "code": "AR-Z",
+   "country": "country:AR",
+   "admin_level": 1,
+   "collection": "argentina",
+   "continent": "south-america",
+   "map": "media/maps/regions/AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Santa_Cruz_Province,_Argentina"
+  }
+ }
+]

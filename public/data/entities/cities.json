@@ -1,0 +1,9091 @@
+[
+ {
+  "id": "city:AD-andorra-la-vella",
+  "type": "city",
+  "names": {
+   "de": "Andorra la Vella"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AD",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AE-abu-dhabi",
+  "type": "city",
+  "names": {
+   "de": "Abu Dhabi"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AE",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AE-dubai",
+  "type": "city",
+  "names": {
+   "de": "Dubai"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AE",
+   "continent": "asia",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AF-kabul",
+  "type": "city",
+  "names": {
+   "de": "Kabul"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AF",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:AG-saint-john-s",
+  "type": "city",
+  "names": {
+   "de": "Saint John's"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AG",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:AI-the-valley",
+  "type": "city",
+  "names": {
+   "de": "The Valley"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AI",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:AL-tirana",
+  "type": "city",
+  "names": {
+   "de": "Tirana"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AL",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AM-yerevan",
+  "type": "city",
+  "names": {
+   "de": "Yerevan"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AM",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:AO-luanda",
+  "type": "city",
+  "names": {
+   "de": "Luanda"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AO",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:AR-buenos-aires",
+  "type": "city",
+  "names": {
+   "de": "Buenos Aires"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AR",
+   "continent": "south-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AS-pago-pago",
+  "type": "city",
+  "names": {
+   "de": "Pago Pago"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AS",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:AT-bregenz",
+  "type": "city",
+  "names": {
+   "de": "Bregenz"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:AT-8"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AT-eisenstadt",
+  "type": "city",
+  "names": {
+   "de": "Eisenstadt"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:AT-1"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AT-graz",
+  "type": "city",
+  "names": {
+   "de": "Graz"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:AT-6"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AT-innsbruck",
+  "type": "city",
+  "names": {
+   "de": "Innsbruck"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:AT-7"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AT-klagenfurt",
+  "type": "city",
+  "names": {
+   "de": "Klagenfurt"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:AT-2"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AT-linz",
+  "type": "city",
+  "names": {
+   "de": "Linz"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:AT-4"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AT-salzburg",
+  "type": "city",
+  "names": {
+   "de": "Salzburg"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:AT-5"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AT-st-polten",
+  "type": "city",
+  "names": {
+   "de": "St. Pölten"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:AT-3"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AT-wien",
+  "type": "city",
+  "names": {
+   "de": "Wien"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AT",
+   "continent": "europe",
+   "is_capital": true,
+   "region": "region:AT-9"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AU-adelaide",
+  "type": "city",
+  "names": {
+   "de": "Adelaide"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AU",
+   "continent": "oceania",
+   "is_capital": false,
+   "region": "region:AU-SA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AU-brisbane",
+  "type": "city",
+  "names": {
+   "de": "Brisbane"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AU",
+   "continent": "oceania",
+   "is_capital": false,
+   "region": "region:AU-QLD"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AU-canberra",
+  "type": "city",
+  "names": {
+   "de": "Canberra"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:AU-canberra",
+    "kind": "photo",
+    "url": "media/photos/cities/canberra.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Parliament_House_at_dusk,_Canberra_ACT.jpg",
+    "author": "Thennicke",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Thennicke · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Parliament_House_at_dusk,_Canberra_ACT.jpg",
+    "caption": "Parliament House, Canberra"
+   }
+  ],
+  "attributes": {
+   "country": "country:AU",
+   "continent": "oceania",
+   "is_capital": true,
+   "region": "region:AU-ACT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AU-darwin",
+  "type": "city",
+  "names": {
+   "de": "Darwin"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AU",
+   "continent": "oceania",
+   "is_capital": false,
+   "region": "region:AU-NT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AU-hobart",
+  "type": "city",
+  "names": {
+   "de": "Hobart"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AU",
+   "continent": "oceania",
+   "is_capital": false,
+   "region": "region:AU-TAS"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AU-melbourne",
+  "type": "city",
+  "names": {
+   "de": "Melbourne"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:AU-melbourne",
+    "kind": "photo",
+    "url": "media/photos/cities/melbourne.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flinders_Station_and_trams.jpg",
+    "author": "Created by Philip Mallis in 2021; cropped by HappyWaldo",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Created by Philip Mallis in 2021; cropped by HappyWaldo · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Flinders_Station_and_trams.jpg",
+    "caption": "Flinders Street railway station"
+   }
+  ],
+  "attributes": {
+   "country": "country:AU",
+   "continent": "oceania",
+   "is_capital": false,
+   "region": "region:AU-VIC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AU-perth",
+  "type": "city",
+  "names": {
+   "de": "Perth"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AU",
+   "continent": "oceania",
+   "is_capital": false,
+   "region": "region:AU-WA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AU-sydney",
+  "type": "city",
+  "names": {
+   "de": "Sydney"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:AU-sydney",
+    "kind": "photo",
+    "url": "media/photos/cities/sydney.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sydney_Australia._(21339175489).jpg",
+    "author": "Bernard Spragg. NZ from Christchurch, New Zealand",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "attribution": "Bernard Spragg. NZ from Christchurch, New Zealand · CC0 · https://commons.wikimedia.org/wiki/File:Sydney_Australia._(21339175489).jpg",
+    "caption": "Sydney Opera House"
+   }
+  ],
+  "attributes": {
+   "country": "country:AU",
+   "continent": "oceania",
+   "is_capital": false,
+   "region": "region:AU-NSW"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:AW-oranjestad",
+  "type": "city",
+  "names": {
+   "de": "Oranjestad"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AW",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:AX-mariehamn",
+  "type": "city",
+  "names": {
+   "de": "Mariehamn"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AX",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:AZ-baku",
+  "type": "city",
+  "names": {
+   "de": "Baku"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AZ",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:BA-sarajevo",
+  "type": "city",
+  "names": {
+   "de": "Sarajevo"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BA",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:BB-bridgetown",
+  "type": "city",
+  "names": {
+   "de": "Bridgetown"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BB",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:BD-dhaka",
+  "type": "city",
+  "names": {
+   "de": "Dhaka"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BD",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:BE-brussel",
+  "type": "city",
+  "names": {
+   "de": "Brüssel"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BE",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:BF-ouagadougou",
+  "type": "city",
+  "names": {
+   "de": "Ouagadougou"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BF",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:BG-sofia",
+  "type": "city",
+  "names": {
+   "de": "Sofia"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BG",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:BH-manama",
+  "type": "city",
+  "names": {
+   "de": "Manama"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BH",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:BI-gitega",
+  "type": "city",
+  "names": {
+   "de": "Gitega"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BI",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:BJ-porto-novo",
+  "type": "city",
+  "names": {
+   "de": "Porto-Novo"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BJ",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:BL-gustavia",
+  "type": "city",
+  "names": {
+   "de": "Gustavia"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BL",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:BM-hamilton",
+  "type": "city",
+  "names": {
+   "de": "Hamilton"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BM",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:BN-bandar-seri-begawan",
+  "type": "city",
+  "names": {
+   "de": "Bandar Seri Begawan"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BN",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:BO-sucre",
+  "type": "city",
+  "names": {
+   "de": "Sucre"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BO",
+   "continent": "south-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:BQ-kralendijk",
+  "type": "city",
+  "names": {
+   "de": "Kralendijk"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BQ",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:BR-brasilia",
+  "type": "city",
+  "names": {
+   "de": "Brasília"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BR",
+   "continent": "south-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:BR-rio-de-janeiro",
+  "type": "city",
+  "names": {
+   "de": "Rio de Janeiro"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BR",
+   "continent": "south-america",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:BR-sao-paulo",
+  "type": "city",
+  "names": {
+   "de": "São Paulo"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BR",
+   "continent": "south-america",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:BS-nassau",
+  "type": "city",
+  "names": {
+   "de": "Nassau"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BS",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:BT-thimphu",
+  "type": "city",
+  "names": {
+   "de": "Thimphu"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BT",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:BW-gaborone",
+  "type": "city",
+  "names": {
+   "de": "Gaborone"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BW",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:BY-minsk",
+  "type": "city",
+  "names": {
+   "de": "Minsk"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BY",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:BZ-belmopan",
+  "type": "city",
+  "names": {
+   "de": "Belmopan"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BZ",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:CA-charlottetown",
+  "type": "city",
+  "names": {
+   "de": "Charlottetown"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CA",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:CA-PE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CA-edmonton",
+  "type": "city",
+  "names": {
+   "de": "Edmonton"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CA",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:CA-AB"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CA-fredericton",
+  "type": "city",
+  "names": {
+   "de": "Fredericton"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CA",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:CA-NB"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CA-halifax",
+  "type": "city",
+  "names": {
+   "de": "Halifax"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CA",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:CA-NS"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CA-iqaluit",
+  "type": "city",
+  "names": {
+   "de": "Iqaluit"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CA",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:CA-NU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CA-ottawa",
+  "type": "city",
+  "names": {
+   "de": "Ottawa"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CA",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CA-quebec",
+  "type": "city",
+  "names": {
+   "de": "Québec"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CA",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:CA-QC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CA-regina",
+  "type": "city",
+  "names": {
+   "de": "Regina"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CA",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:CA-SK"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CA-st-john-s",
+  "type": "city",
+  "names": {
+   "de": "St. John’s"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CA",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:CA-NL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CA-toronto",
+  "type": "city",
+  "names": {
+   "de": "Toronto"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CA",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:CA-ON"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CA-vancouver",
+  "type": "city",
+  "names": {
+   "de": "Vancouver"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CA",
+   "continent": "north-america",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CA-victoria",
+  "type": "city",
+  "names": {
+   "de": "Victoria"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CA",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:CA-BC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CA-whitehorse",
+  "type": "city",
+  "names": {
+   "de": "Whitehorse"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CA",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:CA-YT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CA-winnipeg",
+  "type": "city",
+  "names": {
+   "de": "Winnipeg"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CA",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:CA-MB"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CA-yellowknife",
+  "type": "city",
+  "names": {
+   "de": "Yellowknife"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CA",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:CA-NT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CC-west-island",
+  "type": "city",
+  "names": {
+   "de": "West Island"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CC",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:CD-kinshasa",
+  "type": "city",
+  "names": {
+   "de": "Kinshasa"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CD",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:CF-bangui",
+  "type": "city",
+  "names": {
+   "de": "Bangui"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CF",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:CG-brazzaville",
+  "type": "city",
+  "names": {
+   "de": "Brazzaville"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CG",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:CH-aarau",
+  "type": "city",
+  "names": {
+   "de": "Aarau"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-AG"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-altdorf",
+  "type": "city",
+  "names": {
+   "de": "Altdorf"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-UR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-appenzell",
+  "type": "city",
+  "names": {
+   "de": "Appenzell"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-AI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-basel",
+  "type": "city",
+  "names": {
+   "de": "Basel"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-BS"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-bellinzona",
+  "type": "city",
+  "names": {
+   "de": "Bellinzona"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-TI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-bern",
+  "type": "city",
+  "names": {
+   "de": "Bern"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": true,
+   "region": "region:CH-BE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-chur",
+  "type": "city",
+  "names": {
+   "de": "Chur"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-GR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-delsberg",
+  "type": "city",
+  "names": {
+   "de": "Delsberg"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-JU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-frauenfeld",
+  "type": "city",
+  "names": {
+   "de": "Frauenfeld"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-TG"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-freiburg",
+  "type": "city",
+  "names": {
+   "de": "Freiburg"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-FR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-genf",
+  "type": "city",
+  "names": {
+   "de": "Genf"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-GE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-glarus",
+  "type": "city",
+  "names": {
+   "de": "Glarus"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-GL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-herisau",
+  "type": "city",
+  "names": {
+   "de": "Herisau"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-lausanne",
+  "type": "city",
+  "names": {
+   "de": "Lausanne"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-VD"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-liestal",
+  "type": "city",
+  "names": {
+   "de": "Liestal"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-BL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-luzern",
+  "type": "city",
+  "names": {
+   "de": "Luzern"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-LU"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-neuenburg",
+  "type": "city",
+  "names": {
+   "de": "Neuenburg"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-NE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-sarnen",
+  "type": "city",
+  "names": {
+   "de": "Sarnen"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-OW"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-schaffhausen",
+  "type": "city",
+  "names": {
+   "de": "Schaffhausen"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-SH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-schwyz",
+  "type": "city",
+  "names": {
+   "de": "Schwyz"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-SZ"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-sitten",
+  "type": "city",
+  "names": {
+   "de": "Sitten"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-VS"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-solothurn",
+  "type": "city",
+  "names": {
+   "de": "Solothurn"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-SO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-st-gallen",
+  "type": "city",
+  "names": {
+   "de": "St. Gallen"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-SG"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-stans",
+  "type": "city",
+  "names": {
+   "de": "Stans"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-NW"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-zug",
+  "type": "city",
+  "names": {
+   "de": "Zug"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-ZG"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CH-zurich",
+  "type": "city",
+  "names": {
+   "de": "Zürich"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CH",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:CH-ZH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CI-yamoussoukro",
+  "type": "city",
+  "names": {
+   "de": "Yamoussoukro"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CI",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:CK-avarua",
+  "type": "city",
+  "names": {
+   "de": "Avarua"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CK",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:CL-santiago-de-chile",
+  "type": "city",
+  "names": {
+   "de": "Santiago de Chile"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CL",
+   "continent": "south-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CM-yaounde",
+  "type": "city",
+  "names": {
+   "de": "Yaoundé"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CM",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:CN-hongkong",
+  "type": "city",
+  "names": {
+   "de": "Hongkong"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CN",
+   "continent": "asia",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CN-peking",
+  "type": "city",
+  "names": {
+   "de": "Peking"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CN",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CN-shanghai",
+  "type": "city",
+  "names": {
+   "de": "Shanghai"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CN",
+   "continent": "asia",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CO-bogota",
+  "type": "city",
+  "names": {
+   "de": "Bogotá"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CO",
+   "continent": "south-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CR-san-jose",
+  "type": "city",
+  "names": {
+   "de": "San José"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CR",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CU-havanna",
+  "type": "city",
+  "names": {
+   "de": "Havanna"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CU",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CV-praia",
+  "type": "city",
+  "names": {
+   "de": "Praia"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CV",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:CW-willemstad",
+  "type": "city",
+  "names": {
+   "de": "Willemstad"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CW",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:CX-flying-fish-cove",
+  "type": "city",
+  "names": {
+   "de": "Flying Fish Cove"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CX",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:CY-nikosia",
+  "type": "city",
+  "names": {
+   "de": "Nikosia"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CY",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:CZ-prag",
+  "type": "city",
+  "names": {
+   "de": "Prag"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CZ",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:DE-berlin",
+  "type": "city",
+  "names": {
+   "de": "Berlin"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:DE-berlin",
+    "kind": "photo",
+    "url": "media/photos/cities/berlin.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:BerlinBrandenburgerTor1985.jpg",
+    "author": "Joergsam",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Joergsam · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:BerlinBrandenburgerTor1985.jpg",
+    "caption": "Brandenburger Tor"
+   }
+  ],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "is_capital": true,
+   "region": "region:DE-BE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:DE-bremen",
+  "type": "city",
+  "names": {
+   "de": "Bremen"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:DE-HB"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:DE-dresden",
+  "type": "city",
+  "names": {
+   "de": "Dresden"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:DE-dresden",
+    "kind": "photo",
+    "url": "media/photos/cities/dresden.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dresden_Germany_Exterior-of-Frauenkirche-04.jpg",
+    "author": "CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "CEphoto, Uwe Aranas · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Dresden_Germany_Exterior-of-Frauenkirche-04.jpg",
+    "caption": "Frauenkirche (Dresden)"
+   }
+  ],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:DE-SN"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:DE-dusseldorf",
+  "type": "city",
+  "names": {
+   "de": "Düsseldorf"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:DE-NW"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:DE-erfurt",
+  "type": "city",
+  "names": {
+   "de": "Erfurt"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:DE-TH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:DE-frankfurt-am-main",
+  "type": "city",
+  "names": {
+   "de": "Frankfurt am Main"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:DE-frankfurt-am-main",
+    "kind": "photo",
+    "url": "media/photos/cities/frankfurt-am-main.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Maintower_Frankfurt.jpg",
+    "author": "Thomas Wolf , www.foto-tw.de",
+    "license": "CC BY-SA 3.0 de",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "attribution": "Thomas Wolf , www.foto-tw.de · CC BY-SA 3.0 de · https://commons.wikimedia.org/wiki/File:Maintower_Frankfurt.jpg",
+    "caption": "Main Tower"
+   }
+  ],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:DE-hamburg",
+  "type": "city",
+  "names": {
+   "de": "Hamburg"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:DE-hamburg",
+    "kind": "photo",
+    "url": "media/photos/cities/hamburg.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Schiffsverkehr_Elbe_Hamburg.JPG",
+    "author": "Frank Liebig",
+    "license": "CC BY-SA 3.0 de",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "attribution": "Frank Liebig · CC BY-SA 3.0 de · https://commons.wikimedia.org/wiki/File:Schiffsverkehr_Elbe_Hamburg.JPG",
+    "caption": "Hamburger Hafen"
+   }
+  ],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:DE-HH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:DE-hannover",
+  "type": "city",
+  "names": {
+   "de": "Hannover"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:DE-NI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:DE-kiel",
+  "type": "city",
+  "names": {
+   "de": "Kiel"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:DE-SH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:DE-koln",
+  "type": "city",
+  "names": {
+   "de": "Köln"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:DE-koln",
+    "kind": "photo",
+    "url": "media/photos/cities/koln.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:K%C3%B6lner_Dom_nachts_2013.jpg",
+    "author": "Thomas Wolf , www.foto-tw.de",
+    "license": "CC BY-SA 3.0 de",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "attribution": "Thomas Wolf , www.foto-tw.de · CC BY-SA 3.0 de · https://commons.wikimedia.org/wiki/File:K%C3%B6lner_Dom_nachts_2013.jpg",
+    "caption": "Kölner Dom"
+   }
+  ],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:DE-magdeburg",
+  "type": "city",
+  "names": {
+   "de": "Magdeburg"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:DE-ST"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:DE-mainz",
+  "type": "city",
+  "names": {
+   "de": "Mainz"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:DE-RP"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:DE-munchen",
+  "type": "city",
+  "names": {
+   "de": "München"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:DE-munchen",
+    "kind": "photo",
+    "url": "media/photos/cities/munchen.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Frauenkirche_Munich_-_View_from_Peterskirche_Tower.jpg",
+    "author": "Diliff",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "attribution": "Diliff · CC BY 2.5 · https://commons.wikimedia.org/wiki/File:Frauenkirche_Munich_-_View_from_Peterskirche_Tower.jpg",
+    "caption": "Frauenkirche (München)"
+   }
+  ],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:DE-BY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:DE-potsdam",
+  "type": "city",
+  "names": {
+   "de": "Potsdam"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:DE-BB"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:DE-saarbrucken",
+  "type": "city",
+  "names": {
+   "de": "Saarbrücken"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:DE-SL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:DE-schwerin",
+  "type": "city",
+  "names": {
+   "de": "Schwerin"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:DE-MV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:DE-stuttgart",
+  "type": "city",
+  "names": {
+   "de": "Stuttgart"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:DE-BW"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:DE-wiesbaden",
+  "type": "city",
+  "names": {
+   "de": "Wiesbaden"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:DE-HE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:DJ-djibouti",
+  "type": "city",
+  "names": {
+   "de": "Djibouti"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:DJ",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:DK-kopenhagen",
+  "type": "city",
+  "names": {
+   "de": "Kopenhagen"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:DK",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:DM-roseau",
+  "type": "city",
+  "names": {
+   "de": "Roseau"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:DM",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:DO-santo-domingo",
+  "type": "city",
+  "names": {
+   "de": "Santo Domingo"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:DO",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:DZ-algiers",
+  "type": "city",
+  "names": {
+   "de": "Algiers"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:DZ",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:EC-quito",
+  "type": "city",
+  "names": {
+   "de": "Quito"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:EC",
+   "continent": "south-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:EE-tallinn",
+  "type": "city",
+  "names": {
+   "de": "Tallinn"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:EE",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:EG-alexandria",
+  "type": "city",
+  "names": {
+   "de": "Alexandria"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:EG",
+   "continent": "africa",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:EG-kairo",
+  "type": "city",
+  "names": {
+   "de": "Kairo"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:EG",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:EH-el-aaiun",
+  "type": "city",
+  "names": {
+   "de": "El Aaiún"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:EH",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:ER-asmara",
+  "type": "city",
+  "names": {
+   "de": "Asmara"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ER",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:ES-barcelona",
+  "type": "city",
+  "names": {
+   "de": "Barcelona"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:ES-barcelona",
+    "kind": "photo",
+    "url": "media/photos/cities/barcelona.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Am_Hauptportal_des_Parc_G%C3%BCell_2008.jpg",
+    "author": "JøMa",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "JøMa · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Am_Hauptportal_des_Parc_G%C3%BCell_2008.jpg",
+    "caption": "Park Güell"
+   }
+  ],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:ES-CT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ES-bilbao",
+  "type": "city",
+  "names": {
+   "de": "Bilbao"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:ES-bilbao",
+    "kind": "photo",
+    "url": "media/photos/cities/bilbao.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Guggenheim-bilbao-jan05.jpg",
+    "author": "Photograph taken by User:MykReeve .",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Photograph taken by User:MykReeve . · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Guggenheim-bilbao-jan05.jpg",
+    "caption": "Guggenheim-Museum Bilbao"
+   }
+  ],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ES-ceuta",
+  "type": "city",
+  "names": {
+   "de": "Ceuta"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:ES-CE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ES-granada",
+  "type": "city",
+  "names": {
+   "de": "Granada"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:ES-granada",
+    "kind": "photo",
+    "url": "media/photos/cities/granada.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg",
+    "author": "Jebulon",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "attribution": "Jebulon · CC0 · https://commons.wikimedia.org/wiki/File:Dawn_Charles_V_Palace_Alhambra_Granada_Andalusia_Spain.jpg",
+    "caption": "Alhambra"
+   }
+  ],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ES-las-palmas-santa-cruz-de-tenerife",
+  "type": "city",
+  "names": {
+   "de": "Las Palmas / Santa Cruz de Tenerife"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:ES-CN"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ES-logrono",
+  "type": "city",
+  "names": {
+   "de": "Logroño"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:ES-RI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ES-madrid",
+  "type": "city",
+  "names": {
+   "de": "Madrid"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:ES-madrid",
+    "kind": "photo",
+    "url": "media/photos/cities/madrid.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Plaza_Mayor_de_Madrid_06.jpg",
+    "author": "Sebastian Dubiel",
+    "license": "CC BY-SA 3.0 de",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "attribution": "Sebastian Dubiel · CC BY-SA 3.0 de · https://commons.wikimedia.org/wiki/File:Plaza_Mayor_de_Madrid_06.jpg",
+    "caption": "Plaza Mayor (Madrid)"
+   }
+  ],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": true,
+   "region": "region:ES-MD"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ES-melilla",
+  "type": "city",
+  "names": {
+   "de": "Melilla"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:ES-ML"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ES-merida",
+  "type": "city",
+  "names": {
+   "de": "Mérida"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:ES-EX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ES-murcia",
+  "type": "city",
+  "names": {
+   "de": "Murcia"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:ES-MC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ES-oviedo",
+  "type": "city",
+  "names": {
+   "de": "Oviedo"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:ES-AS"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ES-palma",
+  "type": "city",
+  "names": {
+   "de": "Palma"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:ES-IB"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ES-pamplona",
+  "type": "city",
+  "names": {
+   "de": "Pamplona"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:ES-NC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ES-santander",
+  "type": "city",
+  "names": {
+   "de": "Santander"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:ES-CB"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ES-santiago-de-compostela",
+  "type": "city",
+  "names": {
+   "de": "Santiago de Compostela"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:ES-GA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ES-sevilla",
+  "type": "city",
+  "names": {
+   "de": "Sevilla"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:ES-sevilla",
+    "kind": "photo",
+    "url": "media/photos/cities/sevilla.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:9._Mai_1929,_an_diesem_Tag_wurde_die_Iberoamerikanische_Ausstellung_in_Sevilla_er%C3%B6ffnet._09.jpg",
+    "author": "Holger Uwe Schmitt",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Holger Uwe Schmitt · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:9._Mai_1929,_an_diesem_Tag_wurde_die_Iberoamerikanische_Ausstellung_in_Sevilla_er%C3%B6ffnet._09.jpg",
+    "caption": "Plaza de España (Sevilla)"
+   }
+  ],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:ES-AN"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ES-toledo",
+  "type": "city",
+  "names": {
+   "de": "Toledo"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:ES-CM"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ES-valencia",
+  "type": "city",
+  "names": {
+   "de": "Valencia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:ES-valencia",
+    "kind": "photo",
+    "url": "media/photos/cities/valencia.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:El_Palau_de_les_Arts_Reina_Sof%C3%ADa,_Valencia_-_Jan_2007.jpg",
+    "author": "Diliff",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Diliff · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:El_Palau_de_les_Arts_Reina_Sof%C3%ADa,_Valencia_-_Jan_2007.jpg",
+    "caption": "Palau de les Arts Reina Sofía"
+   }
+  ],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:ES-VC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ES-valladolid",
+  "type": "city",
+  "names": {
+   "de": "Valladolid"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:ES-CL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ES-vitoria-gasteiz",
+  "type": "city",
+  "names": {
+   "de": "Vitoria-Gasteiz"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:ES-PV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ES-zaragoza",
+  "type": "city",
+  "names": {
+   "de": "Zaragoza"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ES",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:ES-AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ET-addis-abeba",
+  "type": "city",
+  "names": {
+   "de": "Addis Abeba"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ET",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:FI-helsinki",
+  "type": "city",
+  "names": {
+   "de": "Helsinki"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:FI",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:FJ-suva",
+  "type": "city",
+  "names": {
+   "de": "Suva"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:FJ",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:FK-stanley",
+  "type": "city",
+  "names": {
+   "de": "Stanley"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:FK",
+   "continent": "south-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:FM-palikir",
+  "type": "city",
+  "names": {
+   "de": "Palikir"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:FM",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:FO-torshavn",
+  "type": "city",
+  "names": {
+   "de": "Tórshavn"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:FO",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:FR-bordeaux",
+  "type": "city",
+  "names": {
+   "de": "Bordeaux"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:FR-bordeaux",
+    "kind": "photo",
+    "url": "media/photos/cities/bordeaux.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bordeaux_place_de_la_bourse_with_tram.JPG",
+    "author": "Phillip Maiwald ( Nikopol )",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Phillip Maiwald ( Nikopol ) · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Bordeaux_place_de_la_bourse_with_tram.JPG",
+    "caption": "Place de la Bourse, Bordeaux"
+   }
+  ],
+  "attributes": {
+   "country": "country:FR",
+   "continent": "europe",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:FR-lyon",
+  "type": "city",
+  "names": {
+   "de": "Lyon"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:FR-lyon",
+    "kind": "photo",
+    "url": "media/photos/cities/lyon.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Basilique_de_Fourvi%C3%A8re_from_Saone_(Lyon).jpg",
+    "author": "MickaëlG",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "MickaëlG · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Basilique_de_Fourvi%C3%A8re_from_Saone_(Lyon).jpg",
+    "caption": "Notre-Dame de Fourvière"
+   }
+  ],
+  "attributes": {
+   "country": "country:FR",
+   "continent": "europe",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:FR-marseille",
+  "type": "city",
+  "names": {
+   "de": "Marseille"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:FR-marseille",
+    "kind": "photo",
+    "url": "media/photos/cities/marseille.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Marseille_Old_Port.jpg",
+    "author": "Ingo Mehling",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Ingo Mehling · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Marseille_Old_Port.jpg",
+    "caption": "Alter Hafen (Marseille)"
+   }
+  ],
+  "attributes": {
+   "country": "country:FR",
+   "continent": "europe",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:FR-nizza",
+  "type": "city",
+  "names": {
+   "de": "Nizza"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:FR-nizza",
+    "kind": "photo",
+    "url": "media/photos/cities/nizza.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Quai_des_%C3%89tats-Unis,_Nice-001.jpg",
+    "author": "Синявский Борис",
+    "license": "Public domain",
+    "attribution": "Синявский Борис · Public domain · https://commons.wikimedia.org/wiki/File:Quai_des_%C3%89tats-Unis,_Nice-001.jpg",
+    "caption": "Promenade des Anglais"
+   }
+  ],
+  "attributes": {
+   "country": "country:FR",
+   "continent": "europe",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:FR-paris",
+  "type": "city",
+  "names": {
+   "de": "Paris"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:FR-paris",
+    "kind": "photo",
+    "url": "media/photos/cities/paris.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg",
+    "author": "Benh LIEU SONG",
+    "license": "Public domain",
+    "attribution": "Benh LIEU SONG · Public domain · https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg",
+    "caption": "Eiffelturm"
+   }
+  ],
+  "attributes": {
+   "country": "country:FR",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:GA-libreville",
+  "type": "city",
+  "names": {
+   "de": "Libreville"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:GA",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:GB-birmingham",
+  "type": "city",
+  "names": {
+   "de": "Birmingham"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:GB-birmingham",
+    "kind": "photo",
+    "url": "media/photos/cities/birmingham.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Library_of_Birmingham_(32958941706).jpg",
+    "author": "Alex Liivet from Chester, United Kingdom",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "attribution": "Alex Liivet from Chester, United Kingdom · CC0 · https://commons.wikimedia.org/wiki/File:Library_of_Birmingham_(32958941706).jpg",
+    "caption": "Library of Birmingham"
+   }
+  ],
+  "attributes": {
+   "country": "country:GB",
+   "continent": "europe",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:GB-edinburgh",
+  "type": "city",
+  "names": {
+   "de": "Edinburgh"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:GB-edinburgh",
+    "kind": "photo",
+    "url": "media/photos/cities/edinburgh.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Edinburgh_Castle_A255786_037.jpg",
+    "author": "oskar karlin",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attribution": "oskar karlin · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Edinburgh_Castle_A255786_037.jpg",
+    "caption": "Edinburgh Castle"
+   }
+  ],
+  "attributes": {
+   "country": "country:GB",
+   "continent": "europe",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:GB-liverpool",
+  "type": "city",
+  "names": {
+   "de": "Liverpool"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:GB-liverpool",
+    "kind": "photo",
+    "url": "media/photos/cities/liverpool.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Royal_Liver_Building.jpg",
+    "author": "Unbekannt",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Unbekannt · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Royal_Liver_Building.jpg",
+    "caption": "Royal Liver Building"
+   }
+  ],
+  "attributes": {
+   "country": "country:GB",
+   "continent": "europe",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:GB-london",
+  "type": "city",
+  "names": {
+   "de": "London"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:GB-london",
+    "kind": "photo",
+    "url": "media/photos/cities/london.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tower_Bridge_dawn.jpg",
+    "author": "UlyssesThirtyOne",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "UlyssesThirtyOne · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Tower_Bridge_dawn.jpg",
+    "caption": "Tower Bridge"
+   }
+  ],
+  "attributes": {
+   "country": "country:GB",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:GB-manchester",
+  "type": "city",
+  "names": {
+   "de": "Manchester"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:GB-manchester",
+    "kind": "photo",
+    "url": "media/photos/cities/manchester.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Manchester_Town_Hall_from_Lloyd_St.jpg",
+    "author": "Mark Andrew .",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "Mark Andrew . · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Manchester_Town_Hall_from_Lloyd_St.jpg",
+    "caption": "Manchester Town Hall"
+   }
+  ],
+  "attributes": {
+   "country": "country:GB",
+   "continent": "europe",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:GD-st-george-s",
+  "type": "city",
+  "names": {
+   "de": "St. George's"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:GD",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:GE-tbilisi",
+  "type": "city",
+  "names": {
+   "de": "Tbilisi"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:GE",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:GF-cayenne",
+  "type": "city",
+  "names": {
+   "de": "Cayenne"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:GF",
+   "continent": "south-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:GG-st-peter-port",
+  "type": "city",
+  "names": {
+   "de": "St. Peter Port"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:GG",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:GH-accra",
+  "type": "city",
+  "names": {
+   "de": "Accra"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:GH",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:GI-gibraltar",
+  "type": "city",
+  "names": {
+   "de": "Gibraltar"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:GI",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:GL-nuuk",
+  "type": "city",
+  "names": {
+   "de": "Nuuk"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:GL",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:GM-banjul",
+  "type": "city",
+  "names": {
+   "de": "Banjul"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:GM",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:GN-conakry",
+  "type": "city",
+  "names": {
+   "de": "Conakry"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:GN",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:GP-basse-terre",
+  "type": "city",
+  "names": {
+   "de": "Basse-Terre"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:GP",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:GQ-malabo",
+  "type": "city",
+  "names": {
+   "de": "Malabo"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:GQ",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:GR-athen",
+  "type": "city",
+  "names": {
+   "de": "Athen"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:GR",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:GS-king-edward-point",
+  "type": "city",
+  "names": {
+   "de": "King Edward Point"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:GS",
+   "continent": "antarctica",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:GT-guatemala-city",
+  "type": "city",
+  "names": {
+   "de": "Guatemala City"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:GT",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:GU-hagatna",
+  "type": "city",
+  "names": {
+   "de": "Hagåtña"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:GU",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:GW-bissau",
+  "type": "city",
+  "names": {
+   "de": "Bissau"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:GW",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:GY-georgetown",
+  "type": "city",
+  "names": {
+   "de": "Georgetown"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:GY",
+   "continent": "south-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:HK-city-of-victoria",
+  "type": "city",
+  "names": {
+   "de": "City of Victoria"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:HK",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:HN-tegucigalpa",
+  "type": "city",
+  "names": {
+   "de": "Tegucigalpa"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:HN",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:HR-zagreb",
+  "type": "city",
+  "names": {
+   "de": "Zagreb"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:HR",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:HT-port-au-prince",
+  "type": "city",
+  "names": {
+   "de": "Port-au-Prince"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:HT",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:HU-budapest",
+  "type": "city",
+  "names": {
+   "de": "Budapest"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:HU",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ID-jakarta",
+  "type": "city",
+  "names": {
+   "de": "Jakarta"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ID",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IE-dublin",
+  "type": "city",
+  "names": {
+   "de": "Dublin"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IE",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IL-jerusalem",
+  "type": "city",
+  "names": {
+   "de": "Jerusalem"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IL",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:IM-douglas",
+  "type": "city",
+  "names": {
+   "de": "Douglas"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IM",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:IN-mumbai",
+  "type": "city",
+  "names": {
+   "de": "Mumbai"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IN",
+   "continent": "asia",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IN-neu-delhi",
+  "type": "city",
+  "names": {
+   "de": "Neu-Delhi"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IN",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IO-diego-garcia",
+  "type": "city",
+  "names": {
+   "de": "Diego Garcia"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IO",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:IQ-baghdad",
+  "type": "city",
+  "names": {
+   "de": "Baghdad"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IQ",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:IR-tehran",
+  "type": "city",
+  "names": {
+   "de": "Tehran"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IR",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:IS-reykjavik",
+  "type": "city",
+  "names": {
+   "de": "Reykjavík"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IS",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IT-ancona",
+  "type": "city",
+  "names": {
+   "de": "Ancona"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:IT-57"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IT-aosta",
+  "type": "city",
+  "names": {
+   "de": "Aosta"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:IT-23"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IT-bari",
+  "type": "city",
+  "names": {
+   "de": "Bari"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:IT-75"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IT-bologna",
+  "type": "city",
+  "names": {
+   "de": "Bologna"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:IT-45"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IT-cagliari",
+  "type": "city",
+  "names": {
+   "de": "Cagliari"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:IT-88"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IT-campobasso",
+  "type": "city",
+  "names": {
+   "de": "Campobasso"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:IT-67"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IT-catanzaro",
+  "type": "city",
+  "names": {
+   "de": "Catanzaro"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:IT-78"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IT-florenz",
+  "type": "city",
+  "names": {
+   "de": "Florenz"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:IT-florenz",
+    "kind": "photo",
+    "url": "media/photos/cities/florenz.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:View_of_Santa_Maria_del_Fiore_in_Florence.jpg",
+    "author": "Bruce Stokes on Flickr",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attribution": "Bruce Stokes on Flickr · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:View_of_Santa_Maria_del_Fiore_in_Florence.jpg",
+    "caption": "Kathedrale von Florenz"
+   }
+  ],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:IT-52"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IT-genua",
+  "type": "city",
+  "names": {
+   "de": "Genua"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:IT-42"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IT-l-aquila",
+  "type": "city",
+  "names": {
+   "de": "L’Aquila"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:IT-65"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IT-mailand",
+  "type": "city",
+  "names": {
+   "de": "Mailand"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:IT-mailand",
+    "kind": "photo",
+    "url": "media/photos/cities/mailand.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Milano_Italy_Duomo-Milan-01.jpg",
+    "author": "CEphoto, Uwe Aranas",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "CEphoto, Uwe Aranas · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Milano_Italy_Duomo-Milan-01.jpg",
+    "caption": "Mailänder Dom"
+   }
+  ],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:IT-25"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IT-neapel",
+  "type": "city",
+  "names": {
+   "de": "Neapel"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:IT-neapel",
+    "kind": "photo",
+    "url": "media/photos/cities/neapel.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Napoli-casteldell%27ovo02.jpg",
+    "author": "currybet",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attribution": "currybet · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Napoli-casteldell%27ovo02.jpg",
+    "caption": "Castel dell'Ovo"
+   }
+  ],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:IT-72"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IT-palermo",
+  "type": "city",
+  "names": {
+   "de": "Palermo"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:IT-82"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IT-perugia",
+  "type": "city",
+  "names": {
+   "de": "Perugia"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:IT-55"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IT-potenza",
+  "type": "city",
+  "names": {
+   "de": "Potenza"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:IT-77"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IT-rom",
+  "type": "city",
+  "names": {
+   "de": "Rom"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:IT-rom",
+    "kind": "photo",
+    "url": "media/photos/cities/rom.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg",
+    "author": "FeaturedPics",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "FeaturedPics · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg",
+    "caption": "Kolosseum"
+   }
+  ],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "is_capital": true,
+   "region": "region:IT-62"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IT-trient",
+  "type": "city",
+  "names": {
+   "de": "Trient"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:IT-32"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IT-triest",
+  "type": "city",
+  "names": {
+   "de": "Triest"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:IT-36"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IT-turin",
+  "type": "city",
+  "names": {
+   "de": "Turin"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:IT-21"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:IT-venedig",
+  "type": "city",
+  "names": {
+   "de": "Venedig"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:IT-venedig",
+    "kind": "photo",
+    "url": "media/photos/cities/venedig.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Markusplatz_Aug_2020_2.jpg",
+    "author": "Kasa Fue",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Kasa Fue · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Markusplatz_Aug_2020_2.jpg",
+    "caption": "Markusplatz"
+   }
+  ],
+  "attributes": {
+   "country": "country:IT",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:IT-34"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:JE-saint-helier",
+  "type": "city",
+  "names": {
+   "de": "Saint Helier"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:JE",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:JM-kingston",
+  "type": "city",
+  "names": {
+   "de": "Kingston"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:JM",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:JO-amman",
+  "type": "city",
+  "names": {
+   "de": "Amman"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:JO",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:JP-kyoto",
+  "type": "city",
+  "names": {
+   "de": "Kyoto"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:JP-kyoto",
+    "kind": "photo",
+    "url": "media/photos/cities/kyoto.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Kiyomizu-dera,_Kyoto,_November_2016_-01.jpg",
+    "author": "Martin Falbisoner",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Martin Falbisoner · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Kiyomizu-dera,_Kyoto,_November_2016_-01.jpg",
+    "caption": "Kiyomizu-dera"
+   }
+  ],
+  "attributes": {
+   "country": "country:JP",
+   "continent": "asia",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:JP-osaka",
+  "type": "city",
+  "names": {
+   "de": "Osaka"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:JP-osaka",
+    "kind": "photo",
+    "url": "media/photos/cities/osaka.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Osaka_Castle_02bs3200.jpg",
+    "author": "663highland",
+    "license": "CC BY 2.5",
+    "license_url": "https://creativecommons.org/licenses/by/2.5",
+    "attribution": "663highland · CC BY 2.5 · https://commons.wikimedia.org/wiki/File:Osaka_Castle_02bs3200.jpg",
+    "caption": "Burg Ōsaka"
+   }
+  ],
+  "attributes": {
+   "country": "country:JP",
+   "continent": "asia",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:JP-tokio",
+  "type": "city",
+  "names": {
+   "de": "Tokio"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:JP-tokio",
+    "kind": "photo",
+    "url": "media/photos/cities/tokio.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tokyo_Tower_2023.jpg",
+    "author": "Akonnchiroll",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Akonnchiroll · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Tokyo_Tower_2023.jpg",
+    "caption": "Tokyo Tower"
+   }
+  ],
+  "attributes": {
+   "country": "country:JP",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:KE-nairobi",
+  "type": "city",
+  "names": {
+   "de": "Nairobi"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:KE",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:KG-bishkek",
+  "type": "city",
+  "names": {
+   "de": "Bishkek"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:KG",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:KH-phnom-penh",
+  "type": "city",
+  "names": {
+   "de": "Phnom Penh"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:KH",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:KI-south-tarawa",
+  "type": "city",
+  "names": {
+   "de": "South Tarawa"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:KI",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:KM-moroni",
+  "type": "city",
+  "names": {
+   "de": "Moroni"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:KM",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:KN-basseterre",
+  "type": "city",
+  "names": {
+   "de": "Basseterre"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:KN",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:KP-pyongyang",
+  "type": "city",
+  "names": {
+   "de": "Pyongyang"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:KP",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:KR-seoul",
+  "type": "city",
+  "names": {
+   "de": "Seoul"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:KR",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:KW-kuwait-city",
+  "type": "city",
+  "names": {
+   "de": "Kuwait City"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:KW",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:KY-george-town",
+  "type": "city",
+  "names": {
+   "de": "George Town"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:KY",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:KZ-astana",
+  "type": "city",
+  "names": {
+   "de": "Astana"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:KZ",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:LA-vientiane",
+  "type": "city",
+  "names": {
+   "de": "Vientiane"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:LA",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:LB-beirut",
+  "type": "city",
+  "names": {
+   "de": "Beirut"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:LB",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:LC-castries",
+  "type": "city",
+  "names": {
+   "de": "Castries"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:LC",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:LI-vaduz",
+  "type": "city",
+  "names": {
+   "de": "Vaduz"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:LI",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:LK-colombo",
+  "type": "city",
+  "names": {
+   "de": "Colombo"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:LK",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:LR-monrovia",
+  "type": "city",
+  "names": {
+   "de": "Monrovia"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:LR",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:LS-maseru",
+  "type": "city",
+  "names": {
+   "de": "Maseru"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:LS",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:LT-vilnius",
+  "type": "city",
+  "names": {
+   "de": "Vilnius"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:LT",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:LU-luxemburg",
+  "type": "city",
+  "names": {
+   "de": "Luxemburg"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:LU",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:LV-riga",
+  "type": "city",
+  "names": {
+   "de": "Riga"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:LV",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:LY-tripoli",
+  "type": "city",
+  "names": {
+   "de": "Tripoli"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:LY",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:MA-marrakesch",
+  "type": "city",
+  "names": {
+   "de": "Marrakesch"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MA",
+   "continent": "africa",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:MA-rabat",
+  "type": "city",
+  "names": {
+   "de": "Rabat"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MA",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:MC-monaco",
+  "type": "city",
+  "names": {
+   "de": "Monaco"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MC",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:MD-chisinau",
+  "type": "city",
+  "names": {
+   "de": "Chișinău"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MD",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ME-podgorica",
+  "type": "city",
+  "names": {
+   "de": "Podgorica"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ME",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:MF-marigot",
+  "type": "city",
+  "names": {
+   "de": "Marigot"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MF",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:MG-antananarivo",
+  "type": "city",
+  "names": {
+   "de": "Antananarivo"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MG",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:MH-majuro",
+  "type": "city",
+  "names": {
+   "de": "Majuro"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MH",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:MK-skopje",
+  "type": "city",
+  "names": {
+   "de": "Skopje"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MK",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ML-bamako",
+  "type": "city",
+  "names": {
+   "de": "Bamako"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ML",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:MM-naypyidaw",
+  "type": "city",
+  "names": {
+   "de": "Naypyidaw"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MM",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:MN-ulan-bator",
+  "type": "city",
+  "names": {
+   "de": "Ulan Bator"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MN",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:MP-saipan",
+  "type": "city",
+  "names": {
+   "de": "Saipan"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MP",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:MQ-fort-de-france",
+  "type": "city",
+  "names": {
+   "de": "Fort-de-France"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MQ",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:MR-nouakchott",
+  "type": "city",
+  "names": {
+   "de": "Nouakchott"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MR",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:MS-plymouth",
+  "type": "city",
+  "names": {
+   "de": "Plymouth"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MS",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:MT-valletta",
+  "type": "city",
+  "names": {
+   "de": "Valletta"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MT",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:MU-port-louis",
+  "type": "city",
+  "names": {
+   "de": "Port Louis"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MU",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:MV-male",
+  "type": "city",
+  "names": {
+   "de": "Malé"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MV",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:MW-lilongwe",
+  "type": "city",
+  "names": {
+   "de": "Lilongwe"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MW",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:MX-guadalajara",
+  "type": "city",
+  "names": {
+   "de": "Guadalajara"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MX",
+   "continent": "north-america",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:MX-mexiko-stadt",
+  "type": "city",
+  "names": {
+   "de": "Mexiko-Stadt"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MX",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:MY-kuala-lumpur",
+  "type": "city",
+  "names": {
+   "de": "Kuala Lumpur"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MY",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:MZ-maputo",
+  "type": "city",
+  "names": {
+   "de": "Maputo"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MZ",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:NA-windhoek",
+  "type": "city",
+  "names": {
+   "de": "Windhoek"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NA",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:NC-noumea",
+  "type": "city",
+  "names": {
+   "de": "Nouméa"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NC",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:NE-niamey",
+  "type": "city",
+  "names": {
+   "de": "Niamey"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NE",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:NF-kingston",
+  "type": "city",
+  "names": {
+   "de": "Kingston"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NF",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:NG-abuja",
+  "type": "city",
+  "names": {
+   "de": "Abuja"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NG",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:NI-managua",
+  "type": "city",
+  "names": {
+   "de": "Managua"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NI",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:NL-amsterdam",
+  "type": "city",
+  "names": {
+   "de": "Amsterdam"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NL",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:NL-arnhem",
+  "type": "city",
+  "names": {
+   "de": "Arnhem"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:NL-GE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:NL-assen",
+  "type": "city",
+  "names": {
+   "de": "Assen"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:NL-DR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:NL-den-haag",
+  "type": "city",
+  "names": {
+   "de": "Den Haag"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:NL-ZH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:NL-groningen",
+  "type": "city",
+  "names": {
+   "de": "Groningen"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:NL-GR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:NL-haarlem",
+  "type": "city",
+  "names": {
+   "de": "Haarlem"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:NL-NH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:NL-leeuwarden",
+  "type": "city",
+  "names": {
+   "de": "Leeuwarden"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:NL-FR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:NL-lelystad",
+  "type": "city",
+  "names": {
+   "de": "Lelystad"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:NL-FL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:NL-maastricht",
+  "type": "city",
+  "names": {
+   "de": "Maastricht"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:NL-LI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:NL-middelburg",
+  "type": "city",
+  "names": {
+   "de": "Middelburg"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:NL-ZE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:NL-s-hertogenbosch",
+  "type": "city",
+  "names": {
+   "de": "'s-Hertogenbosch"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:NL-NB"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:NL-utrecht",
+  "type": "city",
+  "names": {
+   "de": "Utrecht"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:NL-UT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:NL-zwolle",
+  "type": "city",
+  "names": {
+   "de": "Zwolle"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:NL-OV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:NO-oslo",
+  "type": "city",
+  "names": {
+   "de": "Oslo"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NO",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:NP-kathmandu",
+  "type": "city",
+  "names": {
+   "de": "Kathmandu"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NP",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:NR-yaren",
+  "type": "city",
+  "names": {
+   "de": "Yaren"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NR",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:NU-alofi",
+  "type": "city",
+  "names": {
+   "de": "Alofi"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NU",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:NZ-auckland",
+  "type": "city",
+  "names": {
+   "de": "Auckland"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NZ",
+   "continent": "oceania",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:NZ-wellington",
+  "type": "city",
+  "names": {
+   "de": "Wellington"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NZ",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:OM-muscat",
+  "type": "city",
+  "names": {
+   "de": "Muscat"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:OM",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:PA-panama-stadt",
+  "type": "city",
+  "names": {
+   "de": "Panama-Stadt"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PA",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:PE-cusco",
+  "type": "city",
+  "names": {
+   "de": "Cusco"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PE",
+   "continent": "south-america",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:PE-lima",
+  "type": "city",
+  "names": {
+   "de": "Lima"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PE",
+   "continent": "south-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:PF-papeete",
+  "type": "city",
+  "names": {
+   "de": "Papeetē"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PF",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:PG-port-moresby",
+  "type": "city",
+  "names": {
+   "de": "Port Moresby"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PG",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:PH-manila",
+  "type": "city",
+  "names": {
+   "de": "Manila"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PH",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:PK-islamabad",
+  "type": "city",
+  "names": {
+   "de": "Islamabad"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PK",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:PL-bia-ystok",
+  "type": "city",
+  "names": {
+   "de": "Białystok"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:PL-20"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:PL-bydgoszcz-torun",
+  "type": "city",
+  "names": {
+   "de": "Bydgoszcz / Toruń"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:PL-04"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:PL-danzig",
+  "type": "city",
+  "names": {
+   "de": "Danzig"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:PL-22"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:PL-gorzow-zielona-gora",
+  "type": "city",
+  "names": {
+   "de": "Gorzów / Zielona Góra"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:PL-08"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:PL-katowice",
+  "type": "city",
+  "names": {
+   "de": "Katowice"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:PL-24"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:PL-kielce",
+  "type": "city",
+  "names": {
+   "de": "Kielce"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:PL-26"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:PL-krakau",
+  "type": "city",
+  "names": {
+   "de": "Krakau"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:PL-12"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:PL-lublin",
+  "type": "city",
+  "names": {
+   "de": "Lublin"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:PL-06"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:PL-odz",
+  "type": "city",
+  "names": {
+   "de": "Łódź"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:PL-10"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:PL-olsztyn",
+  "type": "city",
+  "names": {
+   "de": "Olsztyn"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:PL-28"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:PL-opole",
+  "type": "city",
+  "names": {
+   "de": "Opole"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:PL-16"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:PL-poznan",
+  "type": "city",
+  "names": {
+   "de": "Poznań"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:PL-30"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:PL-rzeszow",
+  "type": "city",
+  "names": {
+   "de": "Rzeszów"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:PL-18"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:PL-szczecin",
+  "type": "city",
+  "names": {
+   "de": "Szczecin"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:PL-32"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:PL-warschau",
+  "type": "city",
+  "names": {
+   "de": "Warschau"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PL",
+   "continent": "europe",
+   "is_capital": true,
+   "region": "region:PL-14"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:PL-wroc-aw",
+  "type": "city",
+  "names": {
+   "de": "Wrocław"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PL",
+   "continent": "europe",
+   "is_capital": false,
+   "region": "region:PL-02"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:PM-saint-pierre",
+  "type": "city",
+  "names": {
+   "de": "Saint-Pierre"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PM",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:PN-adamstown",
+  "type": "city",
+  "names": {
+   "de": "Adamstown"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PN",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:PR-san-juan",
+  "type": "city",
+  "names": {
+   "de": "San Juan"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PR",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:PS-ramallah",
+  "type": "city",
+  "names": {
+   "de": "Ramallah"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PS",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:PT-lissabon",
+  "type": "city",
+  "names": {
+   "de": "Lissabon"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PT",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:PW-ngerulmud",
+  "type": "city",
+  "names": {
+   "de": "Ngerulmud"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PW",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:PY-asuncion",
+  "type": "city",
+  "names": {
+   "de": "Asunción"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PY",
+   "continent": "south-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:QA-doha",
+  "type": "city",
+  "names": {
+   "de": "Doha"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:QA",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:RE-saint-denis",
+  "type": "city",
+  "names": {
+   "de": "Saint-Denis"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:RE",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:RO-bukarest",
+  "type": "city",
+  "names": {
+   "de": "Bukarest"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:RO",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:RS-belgrad",
+  "type": "city",
+  "names": {
+   "de": "Belgrad"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:RS",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:RU-moskau",
+  "type": "city",
+  "names": {
+   "de": "Moskau"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:RU",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:RW-kigali",
+  "type": "city",
+  "names": {
+   "de": "Kigali"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:RW",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:SA-riyadh",
+  "type": "city",
+  "names": {
+   "de": "Riyadh"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SA",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:SB-honiara",
+  "type": "city",
+  "names": {
+   "de": "Honiara"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SB",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:SC-victoria",
+  "type": "city",
+  "names": {
+   "de": "Victoria"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SC",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:SD-khartoum",
+  "type": "city",
+  "names": {
+   "de": "Khartoum"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SD",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:SE-stockholm",
+  "type": "city",
+  "names": {
+   "de": "Stockholm"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SE",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:SG-singapur",
+  "type": "city",
+  "names": {
+   "de": "Singapur"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SG",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:SH-jamestown",
+  "type": "city",
+  "names": {
+   "de": "Jamestown"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SH",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:SI-ljubljana",
+  "type": "city",
+  "names": {
+   "de": "Ljubljana"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SI",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:SJ-longyearbyen",
+  "type": "city",
+  "names": {
+   "de": "Longyearbyen"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SJ",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:SK-bratislava",
+  "type": "city",
+  "names": {
+   "de": "Bratislava"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SK",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:SL-freetown",
+  "type": "city",
+  "names": {
+   "de": "Freetown"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SL",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:SM-san-marino",
+  "type": "city",
+  "names": {
+   "de": "San Marino"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SM",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:SN-dakar",
+  "type": "city",
+  "names": {
+   "de": "Dakar"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SN",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:SO-mogadishu",
+  "type": "city",
+  "names": {
+   "de": "Mogadishu"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SO",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:SR-paramaribo",
+  "type": "city",
+  "names": {
+   "de": "Paramaribo"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SR",
+   "continent": "south-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:SS-juba",
+  "type": "city",
+  "names": {
+   "de": "Juba"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SS",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:ST-sao-tome",
+  "type": "city",
+  "names": {
+   "de": "São Tomé"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ST",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:SV-san-salvador",
+  "type": "city",
+  "names": {
+   "de": "San Salvador"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SV",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:SX-philipsburg",
+  "type": "city",
+  "names": {
+   "de": "Philipsburg"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SX",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:SY-damascus",
+  "type": "city",
+  "names": {
+   "de": "Damascus"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SY",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:SZ-lobamba",
+  "type": "city",
+  "names": {
+   "de": "Lobamba"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SZ",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:TC-cockburn-town",
+  "type": "city",
+  "names": {
+   "de": "Cockburn Town"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:TC",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:TD-n-djamena",
+  "type": "city",
+  "names": {
+   "de": "N'Djamena"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:TD",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:TF-port-aux-francais",
+  "type": "city",
+  "names": {
+   "de": "Port-aux-Français"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:TF",
+   "continent": "antarctica",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:TG-lome",
+  "type": "city",
+  "names": {
+   "de": "Lomé"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:TG",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:TH-bangkok",
+  "type": "city",
+  "names": {
+   "de": "Bangkok"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:TH",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:TJ-dushanbe",
+  "type": "city",
+  "names": {
+   "de": "Dushanbe"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:TJ",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:TK-fakaofo",
+  "type": "city",
+  "names": {
+   "de": "Fakaofo"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:TK",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:TL-dili",
+  "type": "city",
+  "names": {
+   "de": "Dili"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:TL",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:TM-ashgabat",
+  "type": "city",
+  "names": {
+   "de": "Ashgabat"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:TM",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:TN-tunis",
+  "type": "city",
+  "names": {
+   "de": "Tunis"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:TN",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:TO-nuku-alofa",
+  "type": "city",
+  "names": {
+   "de": "Nuku'alofa"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:TO",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:TR-ankara",
+  "type": "city",
+  "names": {
+   "de": "Ankara"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:TR",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:TT-port-of-spain",
+  "type": "city",
+  "names": {
+   "de": "Port of Spain"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:TT",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:TV-funafuti",
+  "type": "city",
+  "names": {
+   "de": "Funafuti"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:TV",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:TW-taipei",
+  "type": "city",
+  "names": {
+   "de": "Taipei"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:TW",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:TZ-dodoma",
+  "type": "city",
+  "names": {
+   "de": "Dodoma"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:TZ",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:UA-kyjiw",
+  "type": "city",
+  "names": {
+   "de": "Kyjiw"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:UA",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:UG-kampala",
+  "type": "city",
+  "names": {
+   "de": "Kampala"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:UG",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:US-albany",
+  "type": "city",
+  "names": {
+   "de": "Albany"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-NY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-annapolis",
+  "type": "city",
+  "names": {
+   "de": "Annapolis"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-MD"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-atlanta",
+  "type": "city",
+  "names": {
+   "de": "Atlanta"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-GA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-augusta",
+  "type": "city",
+  "names": {
+   "de": "Augusta"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-ME"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-austin",
+  "type": "city",
+  "names": {
+   "de": "Austin"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-TX"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-baton-rouge",
+  "type": "city",
+  "names": {
+   "de": "Baton Rouge"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-LA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-bismarck",
+  "type": "city",
+  "names": {
+   "de": "Bismarck"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-ND"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-boise",
+  "type": "city",
+  "names": {
+   "de": "Boise"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-ID"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-boston",
+  "type": "city",
+  "names": {
+   "de": "Boston"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-MA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-carson-city",
+  "type": "city",
+  "names": {
+   "de": "Carson City"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-NV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-charleston",
+  "type": "city",
+  "names": {
+   "de": "Charleston"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-WV"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-cheyenne",
+  "type": "city",
+  "names": {
+   "de": "Cheyenne"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-WY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-chicago",
+  "type": "city",
+  "names": {
+   "de": "Chicago"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:US-chicago",
+    "kind": "photo",
+    "url": "media/photos/cities/chicago.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chicago_Riverwalk_(51556708640).jpg",
+    "author": "ajay_suresh",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "ajay_suresh · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Chicago_Riverwalk_(51556708640).jpg",
+    "caption": "Chicago River"
+   }
+  ],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-columbia",
+  "type": "city",
+  "names": {
+   "de": "Columbia"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-SC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-columbus",
+  "type": "city",
+  "names": {
+   "de": "Columbus"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-OH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-concord",
+  "type": "city",
+  "names": {
+   "de": "Concord"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-NH"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-denver",
+  "type": "city",
+  "names": {
+   "de": "Denver"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-CO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-des-moines",
+  "type": "city",
+  "names": {
+   "de": "Des Moines"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-IA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-dover",
+  "type": "city",
+  "names": {
+   "de": "Dover"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-DE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-frankfort",
+  "type": "city",
+  "names": {
+   "de": "Frankfort"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-KY"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-harrisburg",
+  "type": "city",
+  "names": {
+   "de": "Harrisburg"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-PA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-hartford",
+  "type": "city",
+  "names": {
+   "de": "Hartford"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-CT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-helena",
+  "type": "city",
+  "names": {
+   "de": "Helena"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-MT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-honolulu",
+  "type": "city",
+  "names": {
+   "de": "Honolulu"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-HI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-indianapolis",
+  "type": "city",
+  "names": {
+   "de": "Indianapolis"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-IN"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-jackson",
+  "type": "city",
+  "names": {
+   "de": "Jackson"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-MS"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-jefferson-city",
+  "type": "city",
+  "names": {
+   "de": "Jefferson City"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-MO"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-juneau",
+  "type": "city",
+  "names": {
+   "de": "Juneau"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-AK"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-lansing",
+  "type": "city",
+  "names": {
+   "de": "Lansing"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-MI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-lincoln",
+  "type": "city",
+  "names": {
+   "de": "Lincoln"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-NE"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-little-rock",
+  "type": "city",
+  "names": {
+   "de": "Little Rock"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-AR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-los-angeles",
+  "type": "city",
+  "names": {
+   "de": "Los Angeles"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:US-los-angeles",
+    "kind": "photo",
+    "url": "media/photos/cities/los-angeles.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Skyline_of_Los_Angeles,_Downtown_Los_Angeles,_California_13.jpg",
+    "author": "Levi Clancy",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Levi Clancy · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Skyline_of_Los_Angeles,_Downtown_Los_Angeles,_California_13.jpg",
+    "caption": "Downtown Los Angeles"
+   }
+  ],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-madison",
+  "type": "city",
+  "names": {
+   "de": "Madison"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-WI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-montgomery",
+  "type": "city",
+  "names": {
+   "de": "Montgomery"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-AL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-montpelier",
+  "type": "city",
+  "names": {
+   "de": "Montpelier"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-VT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-nashville",
+  "type": "city",
+  "names": {
+   "de": "Nashville"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-TN"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-new-york-city",
+  "type": "city",
+  "names": {
+   "de": "New York City"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:US-new-york-city",
+    "kind": "photo",
+    "url": "media/photos/cities/new-york-city.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_(vertical_crop).jpg",
+    "author": "Dllu",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Dllu · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu_(vertical_crop).jpg",
+    "caption": "Empire State Building"
+   }
+  ],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-oklahoma-city",
+  "type": "city",
+  "names": {
+   "de": "Oklahoma City"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-OK"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-olympia",
+  "type": "city",
+  "names": {
+   "de": "Olympia"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-WA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-phoenix",
+  "type": "city",
+  "names": {
+   "de": "Phoenix"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-AZ"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-pierre",
+  "type": "city",
+  "names": {
+   "de": "Pierre"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-SD"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-providence",
+  "type": "city",
+  "names": {
+   "de": "Providence"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-RI"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-raleigh",
+  "type": "city",
+  "names": {
+   "de": "Raleigh"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-NC"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-richmond",
+  "type": "city",
+  "names": {
+   "de": "Richmond"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-VA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-sacramento",
+  "type": "city",
+  "names": {
+   "de": "Sacramento"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-CA"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-saint-paul",
+  "type": "city",
+  "names": {
+   "de": "Saint Paul"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-MN"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-salem",
+  "type": "city",
+  "names": {
+   "de": "Salem"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-OR"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-salt-lake-city",
+  "type": "city",
+  "names": {
+   "de": "Salt Lake City"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-UT"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-san-francisco",
+  "type": "city",
+  "names": {
+   "de": "San Francisco"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:US-san-francisco",
+    "kind": "photo",
+    "url": "media/photos/cities/san-francisco.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_as_seen_from_Battery_East.jpg",
+    "author": "Frank Schulenburg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Frank Schulenburg · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_as_seen_from_Battery_East.jpg",
+    "caption": "Golden Gate Bridge"
+   }
+  ],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-santa-fe",
+  "type": "city",
+  "names": {
+   "de": "Santa Fe"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-NM"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-springfield",
+  "type": "city",
+  "names": {
+   "de": "Springfield"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-IL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-tallahassee",
+  "type": "city",
+  "names": {
+   "de": "Tallahassee"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-FL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-topeka",
+  "type": "city",
+  "names": {
+   "de": "Topeka"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-KS"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-trenton",
+  "type": "city",
+  "names": {
+   "de": "Trenton"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": false,
+   "region": "region:US-NJ"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:US-washington-d-c",
+  "type": "city",
+  "names": {
+   "de": "Washington, D.C."
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:city:US-washington-d-c",
+    "kind": "photo",
+    "url": "media/photos/cities/washington-d-c.webp",
+    "source": "wikimedia-commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:US_Capitol_east_side.JPG",
+    "author": "Martin Falbisoner",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Martin Falbisoner · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:US_Capitol_east_side.JPG",
+    "caption": "United States Capitol"
+   }
+  ],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:UY-montevideo",
+  "type": "city",
+  "names": {
+   "de": "Montevideo"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:UY",
+   "continent": "south-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:UZ-tashkent",
+  "type": "city",
+  "names": {
+   "de": "Tashkent"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:UZ",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:VA-vatikanstadt",
+  "type": "city",
+  "names": {
+   "de": "Vatikanstadt"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:VA",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:VC-kingstown",
+  "type": "city",
+  "names": {
+   "de": "Kingstown"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:VC",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:VE-caracas",
+  "type": "city",
+  "names": {
+   "de": "Caracas"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:VE",
+   "continent": "south-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:VG-road-town",
+  "type": "city",
+  "names": {
+   "de": "Road Town"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:VG",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:VI-charlotte-amalie",
+  "type": "city",
+  "names": {
+   "de": "Charlotte Amalie"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:VI",
+   "continent": "north-america",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:VN-hanoi",
+  "type": "city",
+  "names": {
+   "de": "Hanoi"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:VN",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:VU-port-vila",
+  "type": "city",
+  "names": {
+   "de": "Port Vila"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:VU",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:WF-mata-utu",
+  "type": "city",
+  "names": {
+   "de": "Mata-Utu"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:WF",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:WS-apia",
+  "type": "city",
+  "names": {
+   "de": "Apia"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:WS",
+   "continent": "oceania",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:XK-pristina",
+  "type": "city",
+  "names": {
+   "de": "Pristina"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:XK",
+   "continent": "europe",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:YE-sana-a",
+  "type": "city",
+  "names": {
+   "de": "Sana'a"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:YE",
+   "continent": "asia",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:YT-mamoudzou",
+  "type": "city",
+  "names": {
+   "de": "Mamoudzou"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:YT",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:ZA-kapstadt",
+  "type": "city",
+  "names": {
+   "de": "Kapstadt"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ZA",
+   "continent": "africa",
+   "is_capital": false
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ZA-pretoria",
+  "type": "city",
+  "names": {
+   "de": "Pretoria"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ZA",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18"
+  }
+ },
+ {
+  "id": "city:ZM-lusaka",
+  "type": "city",
+  "names": {
+   "de": "Lusaka"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ZM",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ },
+ {
+  "id": "city:ZW-harare",
+  "type": "city",
+  "names": {
+   "de": "Harare"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ZW",
+   "continent": "africa",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "mledoze/countries",
+   "imported_at": "2026-09-18",
+   "license": "ODbL-1.0"
+  }
+ }
+]

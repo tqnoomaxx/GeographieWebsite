@@ -1,0 +1,258 @@
+[
+ {
+  "id": "region:AL-01",
+  "type": "region",
+  "names": {
+   "de": "Berat"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AL-01",
+    "kind": "flag",
+    "url": "media/flags/regions/AL-01.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Berat.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Berat.svg"
+   }
+  ],
+  "attributes": {
+   "code": "AL-01",
+   "country": "country:AL",
+   "admin_level": 1,
+   "collection": "europe-al",
+   "continent": "europe",
+   "map": "media/maps/regions/AL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Berat.svg"
+  }
+ },
+ {
+  "id": "region:AL-02",
+  "type": "region",
+  "names": {
+   "de": "Durrës"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AL-02",
+    "kind": "flag",
+    "url": "media/flags/regions/AL-02.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Durrës.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Durrës.svg"
+   }
+  ],
+  "attributes": {
+   "code": "AL-02",
+   "country": "country:AL",
+   "admin_level": 1,
+   "collection": "europe-al",
+   "continent": "europe",
+   "map": "media/maps/regions/AL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Durrës.svg"
+  }
+ },
+ {
+  "id": "region:AL-03",
+  "type": "region",
+  "names": {
+   "de": "Elbasan"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AL-03",
+    "kind": "flag",
+    "url": "media/flags/regions/AL-03.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Elbasan.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Elbasan.svg"
+   }
+  ],
+  "attributes": {
+   "code": "AL-03",
+   "country": "country:AL",
+   "admin_level": 1,
+   "collection": "europe-al",
+   "continent": "europe",
+   "map": "media/maps/regions/AL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Elbasan.svg"
+  }
+ },
+ {
+  "id": "region:AL-06",
+  "type": "region",
+  "names": {
+   "de": "Korçë"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AL-06",
+    "kind": "flag",
+    "url": "media/flags/regions/AL-06.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Korçë.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Korçë.svg"
+   }
+  ],
+  "attributes": {
+   "code": "AL-06",
+   "country": "country:AL",
+   "admin_level": 1,
+   "collection": "europe-al",
+   "continent": "europe",
+   "map": "media/maps/regions/AL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Korçë.svg"
+  }
+ },
+ {
+  "id": "region:AL-07",
+  "type": "region",
+  "names": {
+   "de": "Kukës"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AL-07",
+    "kind": "flag",
+    "url": "media/flags/regions/AL-07.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Kukës.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Kukës.svg"
+   }
+  ],
+  "attributes": {
+   "code": "AL-07",
+   "country": "country:AL",
+   "admin_level": 1,
+   "collection": "europe-al",
+   "continent": "europe",
+   "map": "media/maps/regions/AL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Kukës.svg"
+  }
+ },
+ {
+  "id": "region:AL-09",
+  "type": "region",
+  "names": {
+   "de": "Dibër"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AL-09",
+    "kind": "flag",
+    "url": "media/flags/regions/AL-09.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:ALB_Qarku_i_Dibrës_flag.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:ALB_Qarku_i_Dibrës_flag.svg"
+   }
+  ],
+  "attributes": {
+   "code": "AL-09",
+   "country": "country:AL",
+   "admin_level": 1,
+   "collection": "europe-al",
+   "continent": "europe",
+   "map": "media/maps/regions/AL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:ALB_Qarku_i_Dibrës_flag.svg"
+  }
+ },
+ {
+  "id": "region:AL-11",
+  "type": "region",
+  "names": {
+   "de": "Tiranë"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AL-11",
+    "kind": "flag",
+    "url": "media/flags/regions/AL-11.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Tiranë.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Tiranë.svg"
+   }
+  ],
+  "attributes": {
+   "code": "AL-11",
+   "country": "country:AL",
+   "admin_level": 1,
+   "collection": "europe-al",
+   "continent": "europe",
+   "map": "media/maps/regions/AL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Tiranë.svg"
+  }
+ },
+ {
+  "id": "region:AL-12",
+  "type": "region",
+  "names": {
+   "de": "Vlorë"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:AL-12",
+    "kind": "flag",
+    "url": "media/flags/regions/AL-12.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Vlorë.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Flag_of_Vlorë.svg"
+   }
+  ],
+  "attributes": {
+   "code": "AL-12",
+   "country": "country:AL",
+   "admin_level": 1,
+   "collection": "europe-al",
+   "continent": "europe",
+   "map": "media/maps/regions/AL"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Vlorë.svg"
+  }
+ }
+]

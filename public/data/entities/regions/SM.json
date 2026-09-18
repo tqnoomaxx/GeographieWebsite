@@ -1,0 +1,290 @@
+[
+ {
+  "id": "region:SM-01",
+  "type": "region",
+  "names": {
+   "de": "Acquaviva"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SM-01",
+    "kind": "flag",
+    "url": "media/flags/regions/SM-01.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Acquaviva_(RSM)-Bandiera.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Acquaviva_(RSM)-Bandiera.svg"
+   }
+  ],
+  "attributes": {
+   "code": "SM-01",
+   "country": "country:SM",
+   "admin_level": 1,
+   "collection": "europe-sm",
+   "continent": "europe",
+   "map": "media/maps/regions/SM"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Acquaviva_(RSM)-Bandiera.svg"
+  }
+ },
+ {
+  "id": "region:SM-02",
+  "type": "region",
+  "names": {
+   "de": "Chiesanuova"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SM-02",
+    "kind": "flag",
+    "url": "media/flags/regions/SM-02.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Chiesanuova_(RSM)-Bandiera.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Chiesanuova_(RSM)-Bandiera.svg"
+   }
+  ],
+  "attributes": {
+   "code": "SM-02",
+   "country": "country:SM",
+   "admin_level": 1,
+   "collection": "europe-sm",
+   "continent": "europe",
+   "map": "media/maps/regions/SM"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Chiesanuova_(RSM)-Bandiera.svg"
+  }
+ },
+ {
+  "id": "region:SM-03",
+  "type": "region",
+  "names": {
+   "de": "Domagnano"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SM-03",
+    "kind": "flag",
+    "url": "media/flags/regions/SM-03.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Domagnano_(RSM)-Bandiera.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Domagnano_(RSM)-Bandiera.svg"
+   }
+  ],
+  "attributes": {
+   "code": "SM-03",
+   "country": "country:SM",
+   "admin_level": 1,
+   "collection": "europe-sm",
+   "continent": "europe",
+   "map": "media/maps/regions/SM"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Domagnano_(RSM)-Bandiera.svg"
+  }
+ },
+ {
+  "id": "region:SM-04",
+  "type": "region",
+  "names": {
+   "de": "Faetano"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SM-04",
+    "kind": "flag",
+    "url": "media/flags/regions/SM-04.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Faetano_(RSM)-Bandiera.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Faetano_(RSM)-Bandiera.svg"
+   }
+  ],
+  "attributes": {
+   "code": "SM-04",
+   "country": "country:SM",
+   "admin_level": 1,
+   "collection": "europe-sm",
+   "continent": "europe",
+   "map": "media/maps/regions/SM"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Faetano_(RSM)-Bandiera.svg"
+  }
+ },
+ {
+  "id": "region:SM-05",
+  "type": "region",
+  "names": {
+   "de": "Fiorentino"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SM-05",
+    "kind": "flag",
+    "url": "media/flags/regions/SM-05.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Fiorentino_(RSM)-Bandiera.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Fiorentino_(RSM)-Bandiera.svg"
+   }
+  ],
+  "attributes": {
+   "code": "SM-05",
+   "country": "country:SM",
+   "admin_level": 1,
+   "collection": "europe-sm",
+   "continent": "europe",
+   "map": "media/maps/regions/SM"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Fiorentino_(RSM)-Bandiera.svg"
+  }
+ },
+ {
+  "id": "region:SM-06",
+  "type": "region",
+  "names": {
+   "de": "Borgo Maggiore"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SM-06",
+    "kind": "flag",
+    "url": "media/flags/regions/SM-06.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Borgo_Maggiore_(RSM)-Bandiera.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Borgo_Maggiore_(RSM)-Bandiera.svg"
+   }
+  ],
+  "attributes": {
+   "code": "SM-06",
+   "country": "country:SM",
+   "admin_level": 1,
+   "collection": "europe-sm",
+   "continent": "europe",
+   "map": "media/maps/regions/SM"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Borgo_Maggiore_(RSM)-Bandiera.svg"
+  }
+ },
+ {
+  "id": "region:SM-07",
+  "type": "region",
+  "names": {
+   "de": "Città di San Marino"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SM-07",
+    "kind": "flag",
+    "url": "media/flags/regions/SM-07.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://www.crwflags.com/fotw/flags/sm-sm.html",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://www.crwflags.com/fotw/flags/sm-sm.html"
+   }
+  ],
+  "attributes": {
+   "code": "SM-07",
+   "country": "country:SM",
+   "admin_level": 1,
+   "collection": "europe-sm",
+   "continent": "europe",
+   "map": "media/maps/regions/SM"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://www.crwflags.com/fotw/flags/sm-sm.html"
+  }
+ },
+ {
+  "id": "region:SM-08",
+  "type": "region",
+  "names": {
+   "de": "Montegiardino"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SM-08",
+    "kind": "flag",
+    "url": "media/flags/regions/SM-08.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Montegiardino_(RSM)-Bandiera.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Montegiardino_(RSM)-Bandiera.svg"
+   }
+  ],
+  "attributes": {
+   "code": "SM-08",
+   "country": "country:SM",
+   "admin_level": 1,
+   "collection": "europe-sm",
+   "continent": "europe",
+   "map": "media/maps/regions/SM"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Montegiardino_(RSM)-Bandiera.svg"
+  }
+ },
+ {
+  "id": "region:SM-09",
+  "type": "region",
+  "names": {
+   "de": "Serravalle"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:SM-09",
+    "kind": "flag",
+    "url": "media/flags/regions/SM-09.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Serravalle_(RSM)-Bandiera.svg",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://commons.wikimedia.org/wiki/File:Serravalle_(RSM)-Bandiera.svg"
+   }
+  ],
+  "attributes": {
+   "code": "SM-09",
+   "country": "country:SM",
+   "admin_level": 1,
+   "collection": "europe-sm",
+   "continent": "europe",
+   "map": "media/maps/regions/SM"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://commons.wikimedia.org/wiki/File:Serravalle_(RSM)-Bandiera.svg"
+  }
+ }
+]

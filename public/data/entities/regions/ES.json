@@ -1,0 +1,629 @@
+[
+ {
+  "id": "region:ES-AN",
+  "type": "region",
+  "names": {
+   "de": "Andalusien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ES-AN",
+    "kind": "flag",
+    "url": "media/flags/regions/ES-AN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Andalusia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Andalusia"
+   }
+  ],
+  "attributes": {
+   "code": "ES-AN",
+   "country": "country:ES",
+   "admin_level": 1,
+   "collection": "spain",
+   "continent": "europe",
+   "capital_name": "Sevilla",
+   "map": "media/maps/regions/ES"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Andalusia"
+  }
+ },
+ {
+  "id": "region:ES-AR",
+  "type": "region",
+  "names": {
+   "de": "Aragón"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ES-AR",
+    "kind": "flag",
+    "url": "media/flags/regions/ES-AR.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Aragon",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Aragon"
+   }
+  ],
+  "attributes": {
+   "code": "ES-AR",
+   "country": "country:ES",
+   "admin_level": 1,
+   "collection": "spain",
+   "continent": "europe",
+   "capital_name": "Zaragoza",
+   "map": "media/maps/regions/ES"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Aragon"
+  }
+ },
+ {
+  "id": "region:ES-AS",
+  "type": "region",
+  "names": {
+   "de": "Asturien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ES-AS",
+    "kind": "flag",
+    "url": "media/flags/regions/ES-AS.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Asturias",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Asturias"
+   }
+  ],
+  "attributes": {
+   "code": "ES-AS",
+   "country": "country:ES",
+   "admin_level": 1,
+   "collection": "spain",
+   "continent": "europe",
+   "capital_name": "Oviedo",
+   "map": "media/maps/regions/ES"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Asturias"
+  }
+ },
+ {
+  "id": "region:ES-CB",
+  "type": "region",
+  "names": {
+   "de": "Kantabrien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ES-CB",
+    "kind": "flag",
+    "url": "media/flags/regions/ES-CB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Cantabria",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Cantabria"
+   }
+  ],
+  "attributes": {
+   "code": "ES-CB",
+   "country": "country:ES",
+   "admin_level": 1,
+   "collection": "spain",
+   "continent": "europe",
+   "capital_name": "Santander",
+   "map": "media/maps/regions/ES"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Cantabria"
+  }
+ },
+ {
+  "id": "region:ES-CE",
+  "type": "region",
+  "names": {
+   "de": "Ceuta"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ES-CE",
+    "kind": "flag",
+    "url": "media/flags/regions/ES-CE.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Ceuta",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Ceuta"
+   }
+  ],
+  "attributes": {
+   "code": "ES-CE",
+   "country": "country:ES",
+   "admin_level": 1,
+   "collection": "spain",
+   "continent": "europe",
+   "capital_name": "Ceuta",
+   "map": "media/maps/regions/ES"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Ceuta"
+  }
+ },
+ {
+  "id": "region:ES-CL",
+  "type": "region",
+  "names": {
+   "de": "Kastilien und León"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ES-CL",
+    "kind": "flag",
+    "url": "media/flags/regions/ES-CL.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Castile_and_Leon",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Castile_and_Leon"
+   }
+  ],
+  "attributes": {
+   "code": "ES-CL",
+   "country": "country:ES",
+   "admin_level": 1,
+   "collection": "spain",
+   "continent": "europe",
+   "capital_name": "Valladolid",
+   "map": "media/maps/regions/ES"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Castile_and_Leon"
+  }
+ },
+ {
+  "id": "region:ES-CM",
+  "type": "region",
+  "names": {
+   "de": "Kastilien-La Mancha"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ES-CM",
+    "kind": "flag",
+    "url": "media/flags/regions/ES-CM.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Castilla-La_Mancha",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Castilla-La_Mancha"
+   }
+  ],
+  "attributes": {
+   "code": "ES-CM",
+   "country": "country:ES",
+   "admin_level": 1,
+   "collection": "spain",
+   "continent": "europe",
+   "capital_name": "Toledo",
+   "map": "media/maps/regions/ES"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Castilla-La_Mancha"
+  }
+ },
+ {
+  "id": "region:ES-CN",
+  "type": "region",
+  "names": {
+   "de": "Kanarische Inseln"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ES-CN",
+    "kind": "flag",
+    "url": "media/flags/regions/ES-CN.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Canary_Islands",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_the_Canary_Islands"
+   }
+  ],
+  "attributes": {
+   "code": "ES-CN",
+   "country": "country:ES",
+   "admin_level": 1,
+   "collection": "spain",
+   "continent": "europe",
+   "capital_name": "Las Palmas / Santa Cruz de Tenerife",
+   "map": "media/maps/regions/ES"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Canary_Islands"
+  }
+ },
+ {
+  "id": "region:ES-CT",
+  "type": "region",
+  "names": {
+   "de": "Katalonien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ES-CT",
+    "kind": "flag",
+    "url": "media/flags/regions/ES-CT.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Catalonia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Catalonia"
+   }
+  ],
+  "attributes": {
+   "code": "ES-CT",
+   "country": "country:ES",
+   "admin_level": 1,
+   "collection": "spain",
+   "continent": "europe",
+   "capital_name": "Barcelona",
+   "map": "media/maps/regions/ES"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Catalonia"
+  }
+ },
+ {
+  "id": "region:ES-EX",
+  "type": "region",
+  "names": {
+   "de": "Extremadura"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ES-EX",
+    "kind": "flag",
+    "url": "media/flags/regions/ES-EX.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Extremadura",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Extremadura"
+   }
+  ],
+  "attributes": {
+   "code": "ES-EX",
+   "country": "country:ES",
+   "admin_level": 1,
+   "collection": "spain",
+   "continent": "europe",
+   "capital_name": "Mérida",
+   "map": "media/maps/regions/ES"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Extremadura"
+  }
+ },
+ {
+  "id": "region:ES-GA",
+  "type": "region",
+  "names": {
+   "de": "Galicien"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ES-GA",
+    "kind": "flag",
+    "url": "media/flags/regions/ES-GA.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Galicia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Galicia"
+   }
+  ],
+  "attributes": {
+   "code": "ES-GA",
+   "country": "country:ES",
+   "admin_level": 1,
+   "collection": "spain",
+   "continent": "europe",
+   "capital_name": "Santiago de Compostela",
+   "map": "media/maps/regions/ES"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Galicia"
+  }
+ },
+ {
+  "id": "region:ES-IB",
+  "type": "region",
+  "names": {
+   "de": "Balearische Inseln"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ES-IB",
+    "kind": "flag",
+    "url": "media/flags/regions/ES-IB.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Balearic_Islands",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_the_Balearic_Islands"
+   }
+  ],
+  "attributes": {
+   "code": "ES-IB",
+   "country": "country:ES",
+   "admin_level": 1,
+   "collection": "spain",
+   "continent": "europe",
+   "capital_name": "Palma",
+   "map": "media/maps/regions/ES"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Balearic_Islands"
+  }
+ },
+ {
+  "id": "region:ES-MC",
+  "type": "region",
+  "names": {
+   "de": "Murcia"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ES-MC",
+    "kind": "flag",
+    "url": "media/flags/regions/ES-MC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Region_of_Murcia",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_the_Region_of_Murcia"
+   }
+  ],
+  "attributes": {
+   "code": "ES-MC",
+   "country": "country:ES",
+   "admin_level": 1,
+   "collection": "spain",
+   "continent": "europe",
+   "capital_name": "Murcia",
+   "map": "media/maps/regions/ES"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Region_of_Murcia"
+  }
+ },
+ {
+  "id": "region:ES-MD",
+  "type": "region",
+  "names": {
+   "de": "Madrid"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ES-MD",
+    "kind": "flag",
+    "url": "media/flags/regions/ES-MD.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Community_of_Madrid",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_the_Community_of_Madrid"
+   }
+  ],
+  "attributes": {
+   "code": "ES-MD",
+   "country": "country:ES",
+   "admin_level": 1,
+   "collection": "spain",
+   "continent": "europe",
+   "capital_name": "Madrid",
+   "map": "media/maps/regions/ES"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Community_of_Madrid"
+  }
+ },
+ {
+  "id": "region:ES-ML",
+  "type": "region",
+  "names": {
+   "de": "Melilla"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ES-ML",
+    "kind": "flag",
+    "url": "media/flags/regions/ES-ML.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Melilla",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Melilla"
+   }
+  ],
+  "attributes": {
+   "code": "ES-ML",
+   "country": "country:ES",
+   "admin_level": 1,
+   "collection": "spain",
+   "continent": "europe",
+   "capital_name": "Melilla",
+   "map": "media/maps/regions/ES"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Melilla"
+  }
+ },
+ {
+  "id": "region:ES-NC",
+  "type": "region",
+  "names": {
+   "de": "Navarra"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ES-NC",
+    "kind": "flag",
+    "url": "media/flags/regions/ES-NC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_Navarre",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_Navarre"
+   }
+  ],
+  "attributes": {
+   "code": "ES-NC",
+   "country": "country:ES",
+   "admin_level": 1,
+   "collection": "spain",
+   "continent": "europe",
+   "capital_name": "Pamplona",
+   "map": "media/maps/regions/ES"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_Navarre"
+  }
+ },
+ {
+  "id": "region:ES-PV",
+  "type": "region",
+  "names": {
+   "de": "Baskenland"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ES-PV",
+    "kind": "flag",
+    "url": "media/flags/regions/ES-PV.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Ikurri%C3%B1a",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Ikurri%C3%B1a"
+   }
+  ],
+  "attributes": {
+   "code": "ES-PV",
+   "country": "country:ES",
+   "admin_level": 1,
+   "collection": "spain",
+   "continent": "europe",
+   "capital_name": "Vitoria-Gasteiz",
+   "map": "media/maps/regions/ES"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Ikurri%C3%B1a"
+  }
+ },
+ {
+  "id": "region:ES-RI",
+  "type": "region",
+  "names": {
+   "de": "La Rioja"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ES-RI",
+    "kind": "flag",
+    "url": "media/flags/regions/ES-RI.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_La_Rioja_(Spain)",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_La_Rioja_(Spain)"
+   }
+  ],
+  "attributes": {
+   "code": "ES-RI",
+   "country": "country:ES",
+   "admin_level": 1,
+   "collection": "spain",
+   "continent": "europe",
+   "capital_name": "Logroño",
+   "map": "media/maps/regions/ES"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_La_Rioja_(Spain)"
+  }
+ },
+ {
+  "id": "region:ES-VC",
+  "type": "region",
+  "names": {
+   "de": "Valencianische Gemeinschaft"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:flag:ES-VC",
+    "kind": "flag",
+    "url": "media/flags/regions/ES-VC.webp",
+    "source": "niemela/flags via ugbzspiele",
+    "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Valencian_Community",
+    "license": "mixed (siehe Quellseite; Metadaten CC BY-SA 4.0)",
+    "attribution": "Quelle: https://en.wikipedia.org/wiki/Flag_of_the_Valencian_Community"
+   }
+  ],
+  "attributes": {
+   "code": "ES-VC",
+   "country": "country:ES",
+   "admin_level": 1,
+   "collection": "spain",
+   "continent": "europe",
+   "capital_name": "Valencia",
+   "map": "media/maps/regions/ES"
+  },
+  "provenance": {
+   "source": "ugbzspiele",
+   "imported_at": "2026-09-18",
+   "source_url": "https://en.wikipedia.org/wiki/Flag_of_the_Valencian_Community"
+  }
+ }
+]
