@@ -18,6 +18,8 @@ export const CATEGORIES: CategoryDef[] = [
   { id: 'regions', icon: '🧭', phase: 'C', primary: false, countKey: 'region', generators: ['region_flag_to_region', 'region_to_country', 'region_capital'] },
   { id: 'cities', icon: '🏙️', phase: 'C', primary: false, countKey: 'city', generators: ['city_to_country', 'city_to_region', 'city_input'] },
   { id: 'landmarks', icon: '🏛️', phase: 'D', primary: false, countKey: 'landmark', generators: ['landmark_to_country', 'landmark_to_city'] },
+  { id: 'water', icon: '🌊', phase: 'D', primary: false, countKey: 'water', generators: ['river_to_country', 'lake_to_country', 'river_longer', 'lake_larger', 'water_on_map'] },
+  { id: 'nature', icon: '🏔️', phase: 'D', primary: false, countKey: 'mountain', generators: ['mountain_to_country', 'mountain_higher', 'mountain_on_map'] },
   { id: 'license_plates', icon: '🚗', phase: 'E', primary: false, countKey: 'license_plate', generators: ['plate_to_city', 'city_to_plate', 'plate_input'] },
   { id: 'mixed', icon: '🎲', phase: 'A', primary: true, generators: [] },
 ]

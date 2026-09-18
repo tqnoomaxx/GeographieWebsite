@@ -19,6 +19,8 @@ export type CategoryId =
   | 'landmarks'
   | 'images'
   | 'license_plates'
+  | 'water'
+  | 'nature'
   | 'mixed'
 
 export interface QuestionOption {
@@ -50,6 +52,9 @@ export interface GeneratorContext {
   landmarks: Entity[]
   regions: Entity[]
   plates: Entity[]
+  rivers: Entity[]
+  lakes: Entity[]
+  mountains: Entity[]
   byId: Map<string, Entity>
   rel: {
     capitalOf: Map<string, string> // city → country/region

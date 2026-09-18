@@ -15,6 +15,9 @@ export default function ExplorePage() {
     { id: 'largest', icon: '📐', label: t('explore.largest_countries') },
     { id: 'populous', icon: '👥', label: t('explore.most_populous') },
     { id: 'landmarks', icon: '🏛️', label: t('explore.landmarks') },
+    { id: 'rivers', icon: '🌊', label: t('explore.longest_rivers') },
+    { id: 'lakes', icon: '💧', label: t('explore.largest_lakes') },
+    { id: 'mountains', icon: '🏔️', label: t('explore.highest_mountains') },
   ]
   return (
     <Page title={`🧭 ${t('explore.title')}`} action={<Link to="/search" className="btn-ghost px-3" aria-label={t('nav.search')}>🔎</Link>}>

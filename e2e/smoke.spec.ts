@@ -7,6 +7,13 @@ function watchErrors(page: Page) {
   return errors
 }
 
+/** Wählt die erste Antwort (Option oder Kartenfläche) per DOM-Event, unabhängig von SVG-Geometrie. */
+async function pickAnswer(page: Page) {
+  const group = page.getByRole('group').first()
+  await expect(group).toBeVisible()
+  await group.getByRole('button').first().dispatchEvent('click')
+}
+
 test('Startseite und Kategorien', async ({ page }) => {
   const errors = watchErrors(page)
   await page.goto('')
@@ -58,11 +65,7 @@ test('„Alle“-Runde speichern und fortsetzen', async ({ page }) => {
 test('Kartenfrage', async ({ page }) => {
   const errors = watchErrors(page)
   await page.goto('play/maps/round?scope=europe&len=10')
-  const map = page.getByRole('group').first()
-  await expect(map).toBeVisible()
-  const brazil = map.getByRole('button', { name: 'Brazil' })
-  if (await brazil.count()) await brazil.click({ force: true })
-  else await map.getByRole('button').nth(2).click({ force: true })
+  await pickAnswer(page)
   await expect(page.getByRole('status')).toBeVisible()
   expect(errors).toEqual([])
 })
@@ -122,4 +125,37 @@ test('Kennzeichen-Runde Deutschland', async ({ page }) => {
   } else await page.getByRole('group').getByRole('button').first().click()
   await expect(page.getByRole('status')).toBeVisible()
   expect(errors).toEqual([])
+})
+
+test('Gewässer- und Naturrunde', async ({ page }) => {
+  const errors = watchErrors(page)
+  for (const cat of ['water', 'nature']) {
+    await page.goto(`play/${cat}/round?scope=europe&len=5`)
+    await expect(page.getByRole('heading', { level: 1 })).toBeVisible()
+    await pickAnswer(page)
+    await expect(page.getByRole('status')).toBeVisible()
+  }
+  expect(errors).toEqual([])
+})
+
+test('Bildle und Kennzeichle', async ({ page }) => {
+  const errors = watchErrors(page)
+  await page.goto('daily/bildle')
+  await expect(page.getByRole('img', { name: /Sehenswürdigkeit/ })).toBeVisible()
+  await page.getByPlaceholder('Antwort eingeben …').fill('Kolosseum')
+  await page.getByRole('button', { name: 'Raten' }).click()
+  await expect(page.getByText('1 / 6 Versuche')).toBeVisible()
+  await page.goto('daily/kennzeichle')
+  await expect(page.getByText(/Buchstaben/)).toBeVisible()
+  await page.getByPlaceholder('Antwort eingeben …').fill('Berlin')
+  await page.getByRole('button', { name: 'Raten' }).click()
+  await expect(page.getByText('1 / 6 Versuche')).toBeVisible()
+  expect(errors).toEqual([])
+})
+
+test('Flussseite und Liste', async ({ page }) => {
+  await page.goto('explore/rivers')
+  await page.getByRole('link', { name: /Donau/ }).click()
+  await expect(page.getByRole('heading', { name: /Donau/ })).toBeVisible()
+  await expect(page.getByText(/2.850 km/)).toBeVisible()
 })

@@ -1,0 +1,7183 @@
+[
+ {
+  "id": "river:Q3392",
+  "type": "river",
+  "names": {
+   "de": "Nil",
+   "en": "Nile"
+  },
+  "aliases": [
+   "Nile"
+  ],
+  "location": {
+   "lat": 31.4653,
+   "lon": 30.3667
+  },
+  "attributes": {
+   "countries": [
+    "country:SD",
+    "country:ET",
+    "country:SS",
+    "country:EG",
+    "country:RW",
+    "country:BI",
+    "country:UG"
+   ],
+   "continent": "africa",
+   "length_km": 6650,
+   "sitelinks": 247,
+   "kind": "river",
+   "wikidata": "Q3392"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q3392",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q3783",
+  "type": "river",
+  "names": {
+   "de": "Amazonas",
+   "en": "Amazon"
+  },
+  "aliases": [
+   "Amazon"
+  ],
+  "location": {
+   "lat": 0.70777777777778,
+   "lon": -50.089444444444
+  },
+  "attributes": {
+   "countries": [
+    "country:BR",
+    "country:PE",
+    "country:CO"
+   ],
+   "continent": "south-america",
+   "length_km": 6992.2,
+   "sitelinks": 216,
+   "kind": "river",
+   "wikidata": "Q3783"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q3783",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q1653",
+  "type": "river",
+  "names": {
+   "de": "Donau",
+   "en": "Danube"
+  },
+  "aliases": [
+   "Danube"
+  ],
+  "location": {
+   "lat": 48.095111111111,
+   "lon": 8.1548888888889
+  },
+  "attributes": {
+   "countries": [
+    "country:RS",
+    "country:AT",
+    "country:BG",
+    "country:DE",
+    "country:SK",
+    "country:RO",
+    "country:HU",
+    "country:MD",
+    "country:HR"
+   ],
+   "continent": "europe",
+   "length_km": 2850,
+   "sitelinks": 199,
+   "kind": "river",
+   "wikidata": "Q1653"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1653",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q584",
+  "type": "river",
+  "names": {
+   "de": "Rhein",
+   "en": "Rhine"
+  },
+  "aliases": [
+   "Rhine"
+  ],
+  "location": {
+   "lat": 46.632513,
+   "lon": 8.67481
+  },
+  "attributes": {
+   "countries": [
+    "country:FR",
+    "country:CH",
+    "country:AT",
+    "country:NL",
+    "country:LI",
+    "country:DE"
+   ],
+   "continent": "europe",
+   "length_km": 1232.7,
+   "sitelinks": 190,
+   "kind": "river",
+   "wikidata": "Q584"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q584",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q626",
+  "type": "river",
+  "names": {
+   "de": "Wolga",
+   "en": "Volga"
+  },
+  "aliases": [
+   "Volga"
+  ],
+  "location": {
+   "lat": 57.251331194444,
+   "lon": 32.467965694444
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 3530,
+   "sitelinks": 188,
+   "kind": "river",
+   "wikidata": "Q626"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q626",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q1497",
+  "type": "river",
+  "names": {
+   "de": "Mississippi",
+   "en": "Mississippi River"
+  },
+  "aliases": [
+   "Mississippi River"
+  ],
+  "location": {
+   "lat": 47.2397,
+   "lon": -95.2075
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "length_km": 3766,
+   "sitelinks": 180,
+   "kind": "river",
+   "wikidata": "Q1497"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1497",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q5089",
+  "type": "river",
+  "names": {
+   "de": "Ganges",
+   "en": "Ganges"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 22,
+   "lon": 90.9
+  },
+  "attributes": {
+   "country": "country:IN",
+   "countries": [
+    "country:IN"
+   ],
+   "continent": "asia",
+   "length_km": 2525,
+   "sitelinks": 179,
+   "kind": "river",
+   "wikidata": "Q5089"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q5089",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q3503",
+  "type": "river",
+  "names": {
+   "de": "Kongo",
+   "en": "River Congo"
+  },
+  "aliases": [
+   "River Congo"
+  ],
+  "location": {
+   "lat": -6.075,
+   "lon": 12.45
+  },
+  "attributes": {
+   "countries": [
+    "country:CG",
+    "country:AO",
+    "country:CD",
+    "country:ZM"
+   ],
+   "continent": "africa",
+   "length_km": 4700,
+   "sitelinks": 167,
+   "kind": "river",
+   "wikidata": "Q3503"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q3503",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q5413",
+  "type": "river",
+  "names": {
+   "de": "Jangtsekiang",
+   "en": "Yangtze River"
+  },
+  "aliases": [
+   "Yangtze River"
+  ],
+  "location": {
+   "lat": 31.393611111111,
+   "lon": 121.98305555556
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "length_km": 6300,
+   "sitelinks": 166,
+   "kind": "river",
+   "wikidata": "Q5413"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q5413",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q7348",
+  "type": "river",
+  "names": {
+   "de": "Indus",
+   "en": "Indus River"
+  },
+  "aliases": [
+   "Indus River"
+  ],
+  "location": {
+   "lat": 23.9944,
+   "lon": 67.4308
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:PK",
+    "country:IN"
+   ],
+   "continent": "asia",
+   "length_km": 3180,
+   "sitelinks": 158,
+   "kind": "river",
+   "wikidata": "Q7348"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q7348",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q3542",
+  "type": "river",
+  "names": {
+   "de": "Niger",
+   "en": "Niger River"
+  },
+  "aliases": [
+   "Niger River"
+  ],
+  "location": {
+   "lat": 5.3222222222222,
+   "lon": 6.4691666666667
+  },
+  "attributes": {
+   "countries": [
+    "country:ML",
+    "country:BJ",
+    "country:GN",
+    "country:NE",
+    "country:NG"
+   ],
+   "continent": "africa",
+   "length_km": 4180,
+   "sitelinks": 155,
+   "kind": "river",
+   "wikidata": "Q3542"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q3542",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q7355",
+  "type": "river",
+  "names": {
+   "de": "Gelber Fluss",
+   "en": "Yellow River"
+  },
+  "aliases": [
+   "Yellow River"
+  ],
+  "location": {
+   "lat": 36.124194444444,
+   "lon": 116.09766666667
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "length_km": 5464,
+   "sitelinks": 155,
+   "kind": "river",
+   "wikidata": "Q7355"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q7355",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q34589",
+  "type": "river",
+  "names": {
+   "de": "Euphrat",
+   "en": "Euphrates"
+  },
+  "aliases": [
+   "Euphrates"
+  ],
+  "location": {
+   "lat": 39.7283,
+   "lon": 40.2569
+  },
+  "attributes": {
+   "countries": [
+    "country:TR",
+    "country:IQ",
+    "country:SY"
+   ],
+   "continent": "asia",
+   "length_km": 2800,
+   "sitelinks": 142,
+   "kind": "river",
+   "wikidata": "Q34589"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q34589",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q1471",
+  "type": "river",
+  "names": {
+   "de": "Seine",
+   "en": "Seine"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 49.434722222222,
+   "lon": 0.1175
+  },
+  "attributes": {
+   "country": "country:FR",
+   "countries": [
+    "country:FR"
+   ],
+   "continent": "europe",
+   "length_km": 776.7,
+   "sitelinks": 131,
+   "kind": "river",
+   "wikidata": "Q1471"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1471",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q35591",
+  "type": "river",
+  "names": {
+   "de": "Tigris",
+   "en": "Tigris"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 31.0043,
+   "lon": 47.4421
+  },
+  "attributes": {
+   "countries": [
+    "country:TR",
+    "country:IQ",
+    "country:SY"
+   ],
+   "continent": "asia",
+   "length_km": 1850,
+   "sitelinks": 130,
+   "kind": "river",
+   "wikidata": "Q35591"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q35591",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q19686",
+  "type": "river",
+  "names": {
+   "de": "Themse",
+   "en": "River Thames"
+  },
+  "aliases": [
+   "River Thames"
+  ],
+  "location": {
+   "lat": 51.694444444444,
+   "lon": -2.0297222222222
+  },
+  "attributes": {
+   "country": "country:GB",
+   "countries": [
+    "country:GB"
+   ],
+   "continent": "europe",
+   "length_km": 334,
+   "sitelinks": 129,
+   "kind": "river",
+   "wikidata": "Q19686"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q19686",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q40855",
+  "type": "river",
+  "names": {
+   "de": "Dnipro",
+   "en": "Dnieper"
+  },
+  "aliases": [
+   "Dnieper"
+  ],
+  "location": {
+   "lat": 46.4964,
+   "lon": 32.2872
+  },
+  "attributes": {
+   "countries": [
+    "country:RU",
+    "country:BY",
+    "country:UA"
+   ],
+   "continent": "europe",
+   "length_km": 2285,
+   "sitelinks": 126,
+   "kind": "river",
+   "wikidata": "Q40855"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q40855",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q40059",
+  "type": "river",
+  "names": {
+   "de": "Jordan",
+   "en": "Jordan River"
+  },
+  "aliases": [
+   "Jordan River"
+  ],
+  "location": {
+   "lat": 31.761388888889,
+   "lon": 35.558333333333
+  },
+  "attributes": {
+   "countries": [
+    "country:PS",
+    "country:LB",
+    "country:SY",
+    "country:JO",
+    "country:IL"
+   ],
+   "continent": "asia",
+   "length_km": 252,
+   "sitelinks": 124,
+   "kind": "river",
+   "wikidata": "Q40059"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q40059",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q1644",
+  "type": "river",
+  "names": {
+   "de": "Elbe",
+   "en": "Elbe"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 53.922222222222,
+   "lon": 8.7222222222222
+  },
+  "attributes": {
+   "countries": [
+    "country:CZ",
+    "country:DE"
+   ],
+   "continent": "europe",
+   "length_km": 1094.3,
+   "sitelinks": 122,
+   "kind": "river",
+   "wikidata": "Q1644"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1644",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q41179",
+  "type": "river",
+  "names": {
+   "de": "Mekong",
+   "en": "Mekong River"
+  },
+  "aliases": [
+   "Mekong River"
+  ],
+  "location": {
+   "lat": 33.708611111111,
+   "lon": 94.695555555556
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:LA",
+    "country:MM",
+    "country:TH",
+    "country:VN",
+    "country:KH"
+   ],
+   "continent": "asia",
+   "length_km": 4350,
+   "sitelinks": 118,
+   "kind": "river",
+   "wikidata": "Q41179"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q41179",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q548",
+  "type": "river",
+  "names": {
+   "de": "Weichsel",
+   "en": "Vistula"
+  },
+  "aliases": [
+   "Vistula"
+  ],
+  "location": {
+   "lat": 54.361666666667,
+   "lon": 18.951944444444
+  },
+  "attributes": {
+   "country": "country:PL",
+   "countries": [
+    "country:PL"
+   ],
+   "continent": "europe",
+   "length_km": 1047,
+   "sitelinks": 118,
+   "kind": "river",
+   "wikidata": "Q548"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q548",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q6862",
+  "type": "river",
+  "names": {
+   "de": "Amur",
+   "en": "Amur River"
+  },
+  "aliases": [
+   "Amur River"
+  ],
+  "location": {
+   "lat": 53.3333,
+   "lon": 121.4814
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:RU"
+   ],
+   "continent": "asia",
+   "length_km": 2824,
+   "sitelinks": 114,
+   "kind": "river",
+   "wikidata": "Q6862"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q6862",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q45403",
+  "type": "river",
+  "names": {
+   "de": "Brahmaputra",
+   "en": "Brahmaputra River"
+  },
+  "aliases": [
+   "Brahmaputra River"
+  ],
+  "location": {
+   "lat": 26.200722222222,
+   "lon": 91.746833333333
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:IN",
+    "country:BD",
+    "country:NP"
+   ],
+   "continent": "asia",
+   "length_km": 2900,
+   "sitelinks": 113,
+   "kind": "river",
+   "wikidata": "Q45403"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q45403",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q46841",
+  "type": "river",
+  "names": {
+   "de": "Lena",
+   "en": "Lena River"
+  },
+  "aliases": [
+   "Lena River"
+  ],
+  "location": {
+   "lat": 53.935555555556,
+   "lon": 108.09194444444
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 4294,
+   "sitelinks": 112,
+   "kind": "river",
+   "wikidata": "Q46841"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q46841",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q973",
+  "type": "river",
+  "names": {
+   "de": "Ob",
+   "en": "Ob"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 66.3802,
+   "lon": 71.7787
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 3650,
+   "sitelinks": 112,
+   "kind": "river",
+   "wikidata": "Q973"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q973",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q80240",
+  "type": "river",
+  "names": {
+   "de": "Ural",
+   "en": "Ural River"
+  },
+  "aliases": [
+   "Ural River"
+  ],
+  "location": {
+   "lat": 54.7008,
+   "lon": 59.4173
+  },
+  "attributes": {
+   "countries": [
+    "country:KZ",
+    "country:RU"
+   ],
+   "continent": "asia",
+   "length_km": 2428,
+   "sitelinks": 111,
+   "kind": "river",
+   "wikidata": "Q80240"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q80240",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q1229",
+  "type": "river",
+  "names": {
+   "de": "Don",
+   "en": "Don"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 47.0864,
+   "lon": 39.2386
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 1870,
+   "sitelinks": 109,
+   "kind": "river",
+   "wikidata": "Q1229"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1229",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q5419",
+  "type": "river",
+  "names": {
+   "de": "Missouri",
+   "en": "Missouri River"
+  },
+  "aliases": [
+   "Missouri River"
+  ],
+  "location": {
+   "lat": 45.9275,
+   "lon": -111.5081
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "length_km": 3726,
+   "sitelinks": 109,
+   "kind": "river",
+   "wikidata": "Q5419"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q5419",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q1469",
+  "type": "river",
+  "names": {
+   "de": "Loire",
+   "en": "Loire"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 44.841666666667,
+   "lon": 4.2186111111111
+  },
+  "attributes": {
+   "country": "country:FR",
+   "countries": [
+    "country:FR"
+   ],
+   "continent": "europe",
+   "length_km": 1006,
+   "sitelinks": 108,
+   "kind": "river",
+   "wikidata": "Q1469"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1469",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q643",
+  "type": "river",
+  "names": {
+   "de": "Po",
+   "en": "Po"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 44.701444444444,
+   "lon": 7.0930555555556
+  },
+  "attributes": {
+   "country": "country:IT",
+   "countries": [
+    "country:IT"
+   ],
+   "continent": "europe",
+   "length_km": 652,
+   "sitelinks": 108,
+   "kind": "river",
+   "wikidata": "Q643"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q643",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q552",
+  "type": "river",
+  "names": {
+   "de": "Oder",
+   "en": "Oder"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 53.6017,
+   "lon": 14.5897
+  },
+  "attributes": {
+   "countries": [
+    "country:CZ",
+    "country:DE",
+    "country:PL"
+   ],
+   "continent": "europe",
+   "length_km": 854,
+   "sitelinks": 107,
+   "kind": "river",
+   "wikidata": "Q552"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q552",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q602",
+  "type": "river",
+  "names": {
+   "de": "Rhone",
+   "en": "Rhône"
+  },
+  "aliases": [
+   "Rhône"
+  ],
+  "location": {
+   "lat": 46.5742,
+   "lon": 8.3804
+  },
+  "attributes": {
+   "countries": [
+    "country:FR",
+    "country:CH"
+   ],
+   "continent": "europe",
+   "length_km": 812,
+   "sitelinks": 107,
+   "kind": "river",
+   "wikidata": "Q602"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q602",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q131210",
+  "type": "river",
+  "names": {
+   "de": "Dnister",
+   "en": "Dniester"
+  },
+  "aliases": [
+   "Dniester"
+  ],
+  "location": {
+   "lat": 49.1755,
+   "lon": 22.8883
+  },
+  "attributes": {
+   "countries": [
+    "country:UA",
+    "country:MD"
+   ],
+   "continent": "europe",
+   "length_km": 1352,
+   "sitelinks": 105,
+   "kind": "river",
+   "wikidata": "Q131210"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q131210",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q78707",
+  "type": "river",
+  "names": {
+   "de": "Jenissei",
+   "en": "Yenisei"
+  },
+  "aliases": [
+   "Yenisei"
+  ],
+  "location": {
+   "lat": 51.7279,
+   "lon": 94.4518
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 3487,
+   "sitelinks": 104,
+   "kind": "river",
+   "wikidata": "Q78707"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q78707",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q134750",
+  "type": "river",
+  "names": {
+   "de": "Sankt-Lorenz-Strom",
+   "en": "St. Lawrence River"
+  },
+  "aliases": [
+   "St. Lawrence River"
+  ],
+  "location": {
+   "lat": 44.349711111111,
+   "lon": -76.014394444444
+  },
+  "attributes": {
+   "countries": [
+    "country:US",
+    "country:CA"
+   ],
+   "continent": "north-america",
+   "length_km": 3058,
+   "sitelinks": 104,
+   "kind": "river",
+   "wikidata": "Q134750"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q134750",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q13712",
+  "type": "river",
+  "names": {
+   "de": "Tiber",
+   "en": "Tiber"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 41.740555555556,
+   "lon": 12.233333333333
+  },
+  "attributes": {
+   "country": "country:IT",
+   "countries": [
+    "country:IT"
+   ],
+   "continent": "europe",
+   "length_km": 405,
+   "sitelinks": 104,
+   "kind": "river",
+   "wikidata": "Q13712"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q13712",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q8493",
+  "type": "river",
+  "names": {
+   "de": "Amudarja",
+   "en": "Amu Darya"
+  },
+  "aliases": [
+   "Amu Darya"
+  ],
+  "location": {
+   "lat": 44.1083,
+   "lon": 59.6811
+  },
+  "attributes": {
+   "countries": [
+    "country:AF",
+    "country:TJ",
+    "country:TM",
+    "country:UZ"
+   ],
+   "continent": "asia",
+   "length_km": 2620,
+   "sitelinks": 103,
+   "kind": "river",
+   "wikidata": "Q8493"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q8493",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q131792",
+  "type": "river",
+  "names": {
+   "de": "Orinoco",
+   "en": "Orinoco River"
+  },
+  "aliases": [
+   "Orinoco River"
+  ],
+  "location": {
+   "lat": 2.318,
+   "lon": -63.3617
+  },
+  "attributes": {
+   "countries": [
+    "country:VE",
+    "country:CO"
+   ],
+   "continent": "south-america",
+   "length_km": 2140,
+   "sitelinks": 101,
+   "kind": "river",
+   "wikidata": "Q131792"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q131792",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q14294",
+  "type": "river",
+  "names": {
+   "de": "Tajo",
+   "en": "Tagus River"
+  },
+  "aliases": [
+   "Tagus River"
+  ],
+  "location": {
+   "lat": 40.3197,
+   "lon": -1.6975
+  },
+  "attributes": {
+   "countries": [
+    "country:PT",
+    "country:ES"
+   ],
+   "continent": "europe",
+   "length_km": 1007,
+   "sitelinks": 101,
+   "kind": "river",
+   "wikidata": "Q14294"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q14294",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q1265",
+  "type": "river",
+  "names": {
+   "de": "Colorado River",
+   "en": "Colorado River"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 31.815,
+   "lon": -114.8
+  },
+  "attributes": {
+   "countries": [
+    "country:US",
+    "country:MX"
+   ],
+   "continent": "north-america",
+   "length_km": 2334,
+   "sitelinks": 100,
+   "kind": "river",
+   "wikidata": "Q1265"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1265",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q132726",
+  "type": "river",
+  "names": {
+   "de": "Yamuna",
+   "en": "Yamuna"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 25.4225,
+   "lon": 81.8875
+  },
+  "attributes": {
+   "country": "country:IN",
+   "countries": [
+    "country:IN"
+   ],
+   "continent": "asia",
+   "length_km": 1376,
+   "sitelinks": 100,
+   "kind": "river",
+   "wikidata": "Q132726"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q132726",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q645",
+  "type": "river",
+  "names": {
+   "de": "Newa",
+   "en": "Neva"
+  },
+  "aliases": [
+   "Neva"
+  ],
+  "location": {
+   "lat": 59.9447,
+   "lon": 30.3094
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 74,
+   "sitelinks": 97,
+   "kind": "river",
+   "wikidata": "Q645"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q645",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q128102",
+  "type": "river",
+  "names": {
+   "de": "Irtysch",
+   "en": "Irtysh"
+  },
+  "aliases": [
+   "Irtysh"
+  ],
+  "location": {
+   "lat": 47.414527777778,
+   "lon": 90.215544444444
+  },
+  "attributes": {
+   "countries": [
+    "country:KZ",
+    "country:CN",
+    "country:RU"
+   ],
+   "continent": "asia",
+   "length_km": 4248,
+   "sitelinks": 96,
+   "kind": "river",
+   "wikidata": "Q128102"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q128102",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q882739",
+  "type": "river",
+  "names": {
+   "de": "Blauer Nil",
+   "en": "Blue Nile"
+  },
+  "aliases": [
+   "Blue Nile"
+  ],
+  "location": {
+   "lat": 15.623611111111,
+   "lon": 32.501944444444
+  },
+  "attributes": {
+   "countries": [
+    "country:SD",
+    "country:ET"
+   ],
+   "continent": "africa",
+   "length_km": 1783,
+   "sitelinks": 95,
+   "kind": "river",
+   "wikidata": "Q882739"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q882739",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q41986",
+  "type": "river",
+  "names": {
+   "de": "Maas",
+   "en": "Meuse"
+  },
+  "aliases": [
+   "Meuse"
+  ],
+  "location": {
+   "lat": 47.97435,
+   "lon": 5.6335388888889
+  },
+  "attributes": {
+   "countries": [
+    "country:FR",
+    "country:BE",
+    "country:NL"
+   ],
+   "continent": "europe",
+   "length_km": 950,
+   "sitelinks": 94,
+   "kind": "river",
+   "wikidata": "Q41986"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q41986",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q8197",
+  "type": "river",
+  "names": {
+   "de": "Düna",
+   "en": "Daugava"
+  },
+  "aliases": [
+   "Daugava"
+  ],
+  "location": {
+   "lat": 56.855540805556,
+   "lon": 32.541687694444
+  },
+  "attributes": {
+   "countries": [
+    "country:LV",
+    "country:RU",
+    "country:BY"
+   ],
+   "continent": "europe",
+   "length_km": 1020,
+   "sitelinks": 94,
+   "kind": "river",
+   "wikidata": "Q8197"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q8197",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q483159",
+  "type": "river",
+  "names": {
+   "de": "Syrdarja",
+   "en": "Syr Darya"
+  },
+  "aliases": [
+   "Syr Darya"
+  ],
+  "location": {
+   "lat": 46.1542,
+   "lon": 60.8736
+  },
+  "attributes": {
+   "countries": [
+    "country:KZ",
+    "country:KG",
+    "country:TJ",
+    "country:UZ"
+   ],
+   "continent": "asia",
+   "length_km": 2212,
+   "sitelinks": 94,
+   "kind": "river",
+   "wikidata": "Q483159"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q483159",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q104437",
+  "type": "river",
+  "names": {
+   "de": "Yukon River",
+   "en": "Yukon River"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 62.5986,
+   "lon": -164.8
+  },
+  "attributes": {
+   "countries": [
+    "country:US",
+    "country:CA"
+   ],
+   "continent": "north-america",
+   "length_km": 3190,
+   "sitelinks": 93,
+   "kind": "river",
+   "wikidata": "Q104437"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q104437",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q3140",
+  "type": "river",
+  "names": {
+   "de": "Hudson River",
+   "en": "Hudson River"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 40.6001,
+   "lon": -74.042
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "length_km": 492,
+   "sitelinks": 91,
+   "kind": "river",
+   "wikidata": "Q3140"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q3140",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q160636",
+  "type": "river",
+  "names": {
+   "de": "Rio Grande",
+   "en": "Rio Grande"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 37.7978,
+   "lon": -107.5384
+  },
+  "attributes": {
+   "countries": [
+    "country:US",
+    "country:MX"
+   ],
+   "continent": "north-america",
+   "length_km": 3051,
+   "sitelinks": 91,
+   "kind": "river",
+   "wikidata": "Q160636"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q160636",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q1670",
+  "type": "river",
+  "names": {
+   "de": "Main",
+   "en": "Main"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 49.994444444444,
+   "lon": 8.2933333333333
+  },
+  "attributes": {
+   "country": "country:DE",
+   "countries": [
+    "country:DE"
+   ],
+   "continent": "europe",
+   "length_km": 524,
+   "sitelinks": 90,
+   "kind": "river",
+   "wikidata": "Q1670"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1670",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q2251",
+  "type": "river",
+  "names": {
+   "de": "Columbia River",
+   "en": "Columbia River"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 50.2167,
+   "lon": -115.85
+  },
+  "attributes": {
+   "countries": [
+    "country:US",
+    "country:CA"
+   ],
+   "continent": "north-america",
+   "length_km": 2000,
+   "sitelinks": 90,
+   "kind": "river",
+   "wikidata": "Q2251"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q2251",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q173017",
+  "type": "river",
+  "names": {
+   "de": "Limpopo",
+   "en": "Limpopo River"
+  },
+  "aliases": [
+   "Limpopo River"
+  ],
+  "location": {
+   "lat": -25.2025,
+   "lon": 33.5147
+  },
+  "attributes": {
+   "countries": [
+    "country:ZA",
+    "country:MZ",
+    "country:BW",
+    "country:ZW"
+   ],
+   "continent": "africa",
+   "length_km": 1750,
+   "sitelinks": 90,
+   "kind": "river",
+   "wikidata": "Q173017"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q173017",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q10965",
+  "type": "river",
+  "names": {
+   "de": "Ebro",
+   "en": "Ebro"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 40.728527,
+   "lon": 0.869293
+  },
+  "attributes": {
+   "country": "country:ES",
+   "countries": [
+    "country:ES"
+   ],
+   "continent": "europe",
+   "length_km": 910,
+   "sitelinks": 90,
+   "kind": "river",
+   "wikidata": "Q10965"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q10965",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q127892",
+  "type": "river",
+  "names": {
+   "de": "Rio Paraná",
+   "en": "Paraná River"
+  },
+  "aliases": [
+   "Paraná River"
+  ],
+  "location": {
+   "lat": -33.946,
+   "lon": -58.409
+  },
+  "attributes": {
+   "countries": [
+    "country:BR",
+    "country:AR",
+    "country:PY"
+   ],
+   "continent": "south-america",
+   "length_km": 4880,
+   "sitelinks": 89,
+   "kind": "river",
+   "wikidata": "Q127892"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q127892",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q4915",
+  "type": "river",
+  "names": {
+   "de": "Ohio River",
+   "en": "Ohio River"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 40.4430066,
+   "lon": -80.0171244
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "length_km": 1579,
+   "sitelinks": 89,
+   "kind": "river",
+   "wikidata": "Q4915"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q4915",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q4814791",
+  "type": "river",
+  "names": {
+   "de": "Weißer Nil",
+   "en": "White Nile"
+  },
+  "aliases": [
+   "White Nile"
+  ],
+  "location": {
+   "lat": 0.41522222222222,
+   "lon": 33.195583333333
+  },
+  "attributes": {
+   "countries": [
+    "country:SD",
+    "country:SS",
+    "country:RW",
+    "country:CD",
+    "country:TZ",
+    "country:UG"
+   ],
+   "continent": "africa",
+   "length_km": 2620,
+   "sitelinks": 89,
+   "kind": "river",
+   "wikidata": "Q4814791"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q4814791",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q1667",
+  "type": "river",
+  "names": {
+   "de": "Mosel",
+   "en": "Moselle"
+  },
+  "aliases": [
+   "Moselle"
+  ],
+  "location": {
+   "lat": 47.8894,
+   "lon": 6.8928
+  },
+  "attributes": {
+   "countries": [
+    "country:FR",
+    "country:DE",
+    "country:LU"
+   ],
+   "continent": "europe",
+   "length_km": 544,
+   "sitelinks": 88,
+   "kind": "river",
+   "wikidata": "Q1667"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1667",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q14299",
+  "type": "river",
+  "names": {
+   "de": "Douro",
+   "en": "Douro River"
+  },
+  "aliases": [
+   "Douro River"
+  ],
+  "location": {
+   "lat": 41.983333333333,
+   "lon": -2.9
+  },
+  "attributes": {
+   "countries": [
+    "country:PT",
+    "country:ES"
+   ],
+   "continent": "europe",
+   "length_km": 897,
+   "sitelinks": 88,
+   "kind": "river",
+   "wikidata": "Q14299"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q14299",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q181475",
+  "type": "river",
+  "names": {
+   "de": "Oranje",
+   "en": "Orange River"
+  },
+  "aliases": [
+   "Orange River"
+  ],
+  "location": {
+   "lat": -28.896611111111,
+   "lon": 29.017944444444
+  },
+  "attributes": {
+   "countries": [
+    "country:NA",
+    "country:LS",
+    "country:ZA"
+   ],
+   "continent": "africa",
+   "length_km": 2200,
+   "sitelinks": 88,
+   "kind": "river",
+   "wikidata": "Q181475"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q181475",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q183078",
+  "type": "river",
+  "names": {
+   "de": "Murray River",
+   "en": "Murray River"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -35.366666666667,
+   "lon": 139.36666666667
+  },
+  "attributes": {
+   "country": "country:AU",
+   "countries": [
+    "country:AU"
+   ],
+   "continent": "oceania",
+   "length_km": 2530,
+   "sitelinks": 88,
+   "kind": "river",
+   "wikidata": "Q183078"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q183078",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q131574",
+  "type": "river",
+  "names": {
+   "de": "Moldau",
+   "en": "Vltava"
+  },
+  "aliases": [
+   "Vltava"
+  ],
+  "location": {
+   "lat": 48.858945,
+   "lon": 13.893092
+  },
+  "attributes": {
+   "country": "country:CZ",
+   "countries": [
+    "country:CZ"
+   ],
+   "continent": "europe",
+   "length_km": 430,
+   "sitelinks": 87,
+   "kind": "river",
+   "wikidata": "Q131574"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q131574",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q134350",
+  "type": "river",
+  "names": {
+   "de": "Theiß",
+   "en": "Tisza"
+  },
+  "aliases": [
+   "Tisza"
+  ],
+  "location": {
+   "lat": 45.1358,
+   "lon": 20.2722
+  },
+  "attributes": {
+   "countries": [
+    "country:RS",
+    "country:SK",
+    "country:RO",
+    "country:HU",
+    "country:UA"
+   ],
+   "continent": "europe",
+   "length_km": 966,
+   "sitelinks": 87,
+   "kind": "river",
+   "wikidata": "Q134350"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q134350",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q35827",
+  "type": "river",
+  "names": {
+   "de": "Río de la Plata",
+   "en": "Río de la Plata"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -34.883055555556,
+   "lon": -56.713611111111
+  },
+  "attributes": {
+   "countries": [
+    "country:AR",
+    "country:UY"
+   ],
+   "continent": "south-america",
+   "length_km": 290,
+   "sitelinks": 87,
+   "kind": "river",
+   "wikidata": "Q35827"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q35827",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q191314",
+  "type": "river",
+  "names": {
+   "de": "Godavari",
+   "en": "Godavari River"
+  },
+  "aliases": [
+   "Godavari River"
+  ],
+  "location": {
+   "lat": 19.93,
+   "lon": 73.5275
+  },
+  "attributes": {
+   "country": "country:IN",
+   "countries": [
+    "country:IN"
+   ],
+   "continent": "asia",
+   "length_km": 1465,
+   "sitelinks": 87,
+   "kind": "river",
+   "wikidata": "Q191314"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q191314",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q175117",
+  "type": "river",
+  "names": {
+   "de": "Moskwa",
+   "en": "Moskva River"
+  },
+  "aliases": [
+   "Moskva River"
+  ],
+  "location": {
+   "lat": 55.083333333333,
+   "lon": 38.833333333333
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 502,
+   "sitelinks": 86,
+   "kind": "river",
+   "wikidata": "Q175117"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q175117",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q3569",
+  "type": "river",
+  "names": {
+   "de": "Senegal-Strom",
+   "en": "Senegal River"
+  },
+  "aliases": [
+   "Senegal River"
+  ],
+  "location": {
+   "lat": 15.966666666667,
+   "lon": -16.508611111111
+  },
+  "attributes": {
+   "countries": [
+    "country:SN",
+    "country:ML",
+    "country:MR"
+   ],
+   "continent": "africa",
+   "length_km": 1050,
+   "sitelinks": 85,
+   "kind": "river",
+   "wikidata": "Q3569"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q3569",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q26076",
+  "type": "river",
+  "names": {
+   "de": "Irrawaddy",
+   "en": "Irrawaddy River"
+  },
+  "aliases": [
+   "Irrawaddy River"
+  ],
+  "location": {
+   "lat": 15.777608,
+   "lon": 95.063546
+  },
+  "attributes": {
+   "country": "country:MM",
+   "countries": [
+    "country:MM"
+   ],
+   "continent": "asia",
+   "length_km": 2170,
+   "sitelinks": 85,
+   "kind": "river",
+   "wikidata": "Q26076"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q26076",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q162737",
+  "type": "river",
+  "names": {
+   "de": "Angara",
+   "en": "Angara"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 58.1,
+   "lon": 93
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 1779,
+   "sitelinks": 84,
+   "kind": "river",
+   "wikidata": "Q162737"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q162737",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q18278",
+  "type": "river",
+  "names": {
+   "de": "Río Uruguay",
+   "en": "Uruguay River"
+  },
+  "aliases": [
+   "Uruguay River"
+  ],
+  "location": {
+   "lat": -27.608333333333,
+   "lon": -51.455833333333
+  },
+  "attributes": {
+   "countries": [
+    "country:UY",
+    "country:BR",
+    "country:AR"
+   ],
+   "continent": "south-america",
+   "length_km": 1790,
+   "sitelinks": 84,
+   "kind": "river",
+   "wikidata": "Q18278"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q18278",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q79082",
+  "type": "river",
+  "names": {
+   "de": "Kama",
+   "en": "Kama"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 55.363888888889,
+   "lon": 49.997777777778
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 1805,
+   "sitelinks": 83,
+   "kind": "river",
+   "wikidata": "Q79082"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q79082",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q160819",
+  "type": "river",
+  "names": {
+   "de": "Gambia",
+   "en": "Gambia River"
+  },
+  "aliases": [
+   "Gambia River"
+  ],
+  "location": {
+   "lat": 11.404888888889,
+   "lon": -12.251472222222
+  },
+  "attributes": {
+   "countries": [
+    "country:SN",
+    "country:GN",
+    "country:GM"
+   ],
+   "continent": "africa",
+   "length_km": 1130,
+   "sitelinks": 83,
+   "kind": "river",
+   "wikidata": "Q160819"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q160819",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q5077",
+  "type": "river",
+  "names": {
+   "de": "Garonne",
+   "en": "Garonne"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 42.6178,
+   "lon": 0.9689
+  },
+  "attributes": {
+   "countries": [
+    "country:FR",
+    "country:ES"
+   ],
+   "continent": "europe",
+   "length_km": 647,
+   "sitelinks": 83,
+   "kind": "river",
+   "wikidata": "Q5077"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q5077",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q14383",
+  "type": "river",
+  "names": {
+   "de": "Save",
+   "en": "Sava"
+  },
+  "aliases": [
+   "Sava"
+  ],
+  "location": {
+   "lat": 44.831666666667,
+   "lon": 20.449722222222
+  },
+  "attributes": {
+   "countries": [
+    "country:RS",
+    "country:SI",
+    "country:BA",
+    "country:HR"
+   ],
+   "continent": "europe",
+   "length_km": 945,
+   "sitelinks": 83,
+   "kind": "river",
+   "wikidata": "Q14383"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q14383",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q118771",
+  "type": "river",
+  "names": {
+   "de": "Rio Negro",
+   "en": "Rio Negro"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 2.0013888888889,
+   "lon": -67.116388888889
+  },
+  "attributes": {
+   "countries": [
+    "country:BR",
+    "country:VE",
+    "country:CO"
+   ],
+   "continent": "south-america",
+   "length_km": 2250,
+   "sitelinks": 82,
+   "kind": "river",
+   "wikidata": "Q118771"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q118771",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q172089",
+  "type": "river",
+  "names": {
+   "de": "Oka",
+   "en": "Oka"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 52.3624,
+   "lon": 36.2223
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 1500,
+   "sitelinks": 82,
+   "kind": "river",
+   "wikidata": "Q172089"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q172089",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q179396",
+  "type": "river",
+  "names": {
+   "de": "Río Paraguay",
+   "en": "Paraguay River"
+  },
+  "aliases": [
+   "Paraguay River"
+  ],
+  "location": {
+   "lat": -27.290027966206,
+   "lon": -58.60725402832
+  },
+  "attributes": {
+   "countries": [
+    "country:BR",
+    "country:AR",
+    "country:PY"
+   ],
+   "continent": "south-america",
+   "length_km": 2621,
+   "sitelinks": 82,
+   "kind": "river",
+   "wikidata": "Q179396"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q179396",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q193499",
+  "type": "river",
+  "names": {
+   "de": "Krishna",
+   "en": "Krishna River"
+  },
+  "aliases": [
+   "Krishna River"
+  ],
+  "location": {
+   "lat": 17.924444444444,
+   "lon": 73.66
+  },
+  "attributes": {
+   "country": "country:IN",
+   "countries": [
+    "country:IN"
+   ],
+   "continent": "asia",
+   "length_km": 1400,
+   "sitelinks": 82,
+   "kind": "river",
+   "wikidata": "Q193499"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q193499",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q8168",
+  "type": "river",
+  "names": {
+   "de": "Petschora",
+   "en": "Pechora"
+  },
+  "aliases": [
+   "Pechora"
+  ],
+  "location": {
+   "lat": 62.2017,
+   "lon": 59.4319
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 1809,
+   "sitelinks": 81,
+   "kind": "river",
+   "wikidata": "Q8168"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q8168",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q179751",
+  "type": "river",
+  "names": {
+   "de": "Aras",
+   "en": "Aras River"
+  },
+  "aliases": [
+   "Aras River"
+  ],
+  "location": {
+   "lat": 39.33792,
+   "lon": 41.32823
+  },
+  "attributes": {
+   "countries": [
+    "country:IR",
+    "country:AM",
+    "country:TR",
+    "country:AZ"
+   ],
+   "continent": "asia",
+   "length_km": 1072,
+   "sitelinks": 81,
+   "kind": "river",
+   "wikidata": "Q179751"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q179751",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q156557",
+  "type": "river",
+  "names": {
+   "de": "Kura",
+   "en": "Kura River"
+  },
+  "aliases": [
+   "Kura River"
+  ],
+  "location": {
+   "lat": 39.38367,
+   "lon": 49.29909
+  },
+  "attributes": {
+   "countries": [
+    "country:TR",
+    "country:AZ",
+    "country:GE"
+   ],
+   "continent": "asia",
+   "length_km": 1360,
+   "sitelinks": 81,
+   "kind": "river",
+   "wikidata": "Q156557"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q156557",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q3411",
+  "type": "river",
+  "names": {
+   "de": "Mackenzie River",
+   "en": "Mackenzie River"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 61.1936,
+   "lon": -117.3477
+  },
+  "attributes": {
+   "country": "country:CA",
+   "countries": [
+    "country:CA"
+   ],
+   "continent": "north-america",
+   "length_km": 1738,
+   "sitelinks": 80,
+   "kind": "river",
+   "wikidata": "Q3411"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q3411",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q5622",
+  "type": "river",
+  "names": {
+   "de": "Memel",
+   "en": "Neman"
+  },
+  "aliases": [
+   "Neman"
+  ],
+  "location": {
+   "lat": 55.3369,
+   "lon": 21.2492
+  },
+  "attributes": {
+   "countries": [
+    "country:LT",
+    "country:RU",
+    "country:BY"
+   ],
+   "continent": "europe",
+   "length_km": 937,
+   "sitelinks": 80,
+   "kind": "river",
+   "wikidata": "Q5622"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q5622",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q14309",
+  "type": "river",
+  "names": {
+   "de": "Guadalquivir",
+   "en": "Guadalquivir"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 37.8392,
+   "lon": -2.9736
+  },
+  "attributes": {
+   "country": "country:ES",
+   "countries": [
+    "country:ES"
+   ],
+   "continent": "europe",
+   "length_km": 657,
+   "sitelinks": 80,
+   "kind": "river",
+   "wikidata": "Q14309"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q14309",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q14369",
+  "type": "river",
+  "names": {
+   "de": "Inn",
+   "en": "Inn"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 48.573611111111,
+   "lon": 13.478055555556
+  },
+  "attributes": {
+   "countries": [
+    "country:CH",
+    "country:AT",
+    "country:DE"
+   ],
+   "continent": "europe",
+   "length_km": 517,
+   "sitelinks": 79,
+   "kind": "river",
+   "wikidata": "Q14369"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q14369",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q37620",
+  "type": "river",
+  "names": {
+   "de": "Schelde",
+   "en": "Scheldt"
+  },
+  "aliases": [
+   "Scheldt"
+  ],
+  "location": {
+   "lat": 51.4228,
+   "lon": 3.545
+  },
+  "attributes": {
+   "countries": [
+    "country:BE",
+    "country:NL",
+    "country:FR"
+   ],
+   "continent": "europe",
+   "length_km": 355,
+   "sitelinks": 79,
+   "kind": "river",
+   "wikidata": "Q37620"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q37620",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q78879",
+  "type": "river",
+  "names": {
+   "de": "Kolyma",
+   "en": "Kolyma"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 62.2919,
+   "lon": 147.7325
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 2129,
+   "sitelinks": 79,
+   "kind": "river",
+   "wikidata": "Q78879"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q78879",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q118251",
+  "type": "river",
+  "names": {
+   "de": "Rio Madeira",
+   "en": "Madeira River"
+  },
+  "aliases": [
+   "Madeira River"
+  ],
+  "location": {
+   "lat": -3.3685194444444,
+   "lon": -58.750880555556
+  },
+  "attributes": {
+   "countries": [
+    "country:BR",
+    "country:BO"
+   ],
+   "continent": "south-america",
+   "length_km": 1450,
+   "sitelinks": 79,
+   "kind": "river",
+   "wikidata": "Q118251"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q118251",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q188773",
+  "type": "river",
+  "names": {
+   "de": "Okavango",
+   "en": "Okavango River"
+  },
+  "aliases": [
+   "Okavango River"
+  ],
+  "location": {
+   "lat": -12.653801,
+   "lon": 16.127178
+  },
+  "attributes": {
+   "countries": [
+    "country:AO",
+    "country:BW",
+    "country:NA"
+   ],
+   "continent": "africa",
+   "length_km": 1600,
+   "sitelinks": 79,
+   "kind": "river",
+   "wikidata": "Q188773"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q188773",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q191829",
+  "type": "river",
+  "names": {
+   "de": "Río Magdalena",
+   "en": "Magdalena River"
+  },
+  "aliases": [
+   "Magdalena River"
+  ],
+  "location": {
+   "lat": 11.102609889983,
+   "lon": -74.851398468018
+  },
+  "attributes": {
+   "country": "country:CO",
+   "countries": [
+    "country:CO"
+   ],
+   "continent": "south-america",
+   "length_km": 1528,
+   "sitelinks": 79,
+   "kind": "river",
+   "wikidata": "Q191829"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q191829",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q1673",
+  "type": "river",
+  "names": {
+   "de": "Neckar",
+   "en": "Neckar"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 49.511944,
+   "lon": 8.437222
+  },
+  "attributes": {
+   "country": "country:DE",
+   "countries": [
+    "country:DE"
+   ],
+   "continent": "europe",
+   "length_km": 362,
+   "sitelinks": 78,
+   "kind": "river",
+   "wikidata": "Q1673"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1673",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q13696",
+  "type": "river",
+  "names": {
+   "de": "Etsch",
+   "en": "Adige"
+  },
+  "aliases": [
+   "Adige"
+  ],
+  "location": {
+   "lat": 45.1596,
+   "lon": 12.3311
+  },
+  "attributes": {
+   "country": "country:IT",
+   "countries": [
+    "country:IT"
+   ],
+   "continent": "europe",
+   "length_km": 410,
+   "sitelinks": 78,
+   "kind": "river",
+   "wikidata": "Q13696"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q13696",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q166966",
+  "type": "river",
+  "names": {
+   "de": "Schatt al-Arab",
+   "en": "Shatt al-Arab"
+  },
+  "aliases": [
+   "Shatt al-Arab"
+  ],
+  "location": {
+   "lat": 31.0043,
+   "lon": 47.4421
+  },
+  "attributes": {
+   "countries": [
+    "country:IR",
+    "country:IQ"
+   ],
+   "continent": "asia",
+   "length_km": 200,
+   "sitelinks": 78,
+   "kind": "river",
+   "wikidata": "Q166966"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q166966",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q192415",
+  "type": "river",
+  "names": {
+   "de": "Volta",
+   "en": "Volta River"
+  },
+  "aliases": [
+   "Volta River"
+  ],
+  "location": {
+   "lat": 8.648741,
+   "lon": -0.982618
+  },
+  "attributes": {
+   "countries": [
+    "country:GH",
+    "country:BF"
+   ],
+   "continent": "africa",
+   "length_km": 1500,
+   "sitelinks": 78,
+   "kind": "river",
+   "wikidata": "Q192415"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q192415",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q8187",
+  "type": "river",
+  "names": {
+   "de": "Nördliche Dwina",
+   "en": "Northern Dvina"
+  },
+  "aliases": [
+   "Northern Dvina"
+  ],
+  "location": {
+   "lat": 64.533333333333,
+   "lon": 40.483333333333
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 744,
+   "sitelinks": 77,
+   "kind": "river",
+   "wikidata": "Q8187"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q8187",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q171649",
+  "type": "river",
+  "names": {
+   "de": "Ubangi",
+   "en": "Ubangi River"
+  },
+  "aliases": [
+   "Ubangi River"
+  ],
+  "location": {
+   "lat": -0.51083333333333,
+   "lon": 17.708333333333
+  },
+  "attributes": {
+   "countries": [
+    "country:CF",
+    "country:CG",
+    "country:CD"
+   ],
+   "continent": "africa",
+   "length_km": 1060,
+   "sitelinks": 77,
+   "kind": "river",
+   "wikidata": "Q171649"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q171649",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q216875",
+  "type": "river",
+  "names": {
+   "de": "Chanab",
+   "en": "Chenab River"
+  },
+  "aliases": [
+   "Chenab River"
+  ],
+  "location": {
+   "lat": 33.250555555556,
+   "lon": 75.132777777778
+  },
+  "attributes": {
+   "countries": [
+    "country:IN",
+    "country:PK"
+   ],
+   "continent": "asia",
+   "length_km": 1974,
+   "sitelinks": 76,
+   "kind": "river",
+   "wikidata": "Q216875"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q216875",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q118850",
+  "type": "river",
+  "names": {
+   "de": "Mae Nam Chao Phraya",
+   "en": "Chao Phraya River"
+  },
+  "aliases": [
+   "Chao Phraya River"
+  ],
+  "location": {
+   "lat": 15.7006,
+   "lon": 100.1408
+  },
+  "attributes": {
+   "country": "country:TH",
+   "countries": [
+    "country:TH"
+   ],
+   "continent": "asia",
+   "length_km": 372,
+   "sitelinks": 76,
+   "kind": "river",
+   "wikidata": "Q118850"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q118850",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q179444",
+  "type": "river",
+  "names": {
+   "de": "Potomac River",
+   "en": "Potomac River"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 38,
+   "lon": -76.335
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "length_km": 665,
+   "sitelinks": 76,
+   "kind": "river",
+   "wikidata": "Q179444"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q179444",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q1675",
+  "type": "river",
+  "names": {
+   "de": "Aare",
+   "en": "Aare"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 47.605,
+   "lon": 8.2233333333333
+  },
+  "attributes": {
+   "country": "country:CH",
+   "countries": [
+    "country:CH"
+   ],
+   "continent": "europe",
+   "length_km": 295,
+   "sitelinks": 75,
+   "kind": "river",
+   "wikidata": "Q1675"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1675",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q1684",
+  "type": "river",
+  "names": {
+   "de": "Spree",
+   "en": "Spree"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 51.009611111111,
+   "lon": 14.649305555556
+  },
+  "attributes": {
+   "country": "country:DE",
+   "countries": [
+    "country:DE"
+   ],
+   "continent": "europe",
+   "length_km": 382,
+   "sitelinks": 75,
+   "kind": "river",
+   "wikidata": "Q1684"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1684",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q26422",
+  "type": "river",
+  "names": {
+   "de": "Saluen",
+   "en": "Salween River"
+  },
+  "aliases": [
+   "Salween River"
+  ],
+  "location": {
+   "lat": 16.150638888889,
+   "lon": 97.557194444444
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:MM",
+    "country:TH"
+   ],
+   "continent": "asia",
+   "length_km": 2815,
+   "sitelinks": 75,
+   "kind": "river",
+   "wikidata": "Q26422"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q26422",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q93360",
+  "type": "river",
+  "names": {
+   "de": "Río Bío Bío",
+   "en": "Bío Bío River"
+  },
+  "aliases": [
+   "Bío Bío River"
+  ],
+  "location": {
+   "lat": -38.688888888889,
+   "lon": -71.2575
+  },
+  "attributes": {
+   "country": "country:CL",
+   "countries": [
+    "country:CL"
+   ],
+   "continent": "south-america",
+   "length_km": 380,
+   "sitelinks": 75,
+   "kind": "river",
+   "wikidata": "Q93360"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q93360",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q142148",
+  "type": "river",
+  "names": {
+   "de": "Rio São Francisco",
+   "en": "São Francisco River"
+  },
+  "aliases": [
+   "São Francisco River"
+  ],
+  "location": {
+   "lat": -10.504166666667,
+   "lon": -36.394444444444
+  },
+  "attributes": {
+   "country": "country:BR",
+   "countries": [
+    "country:BR"
+   ],
+   "continent": "south-america",
+   "length_km": 2814,
+   "sitelinks": 75,
+   "kind": "river",
+   "wikidata": "Q142148"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q142148",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q171009",
+  "type": "river",
+  "names": {
+   "de": "Drau",
+   "en": "Drava"
+  },
+  "aliases": [
+   "Drava"
+  ],
+  "location": {
+   "lat": 46.722469444444,
+   "lon": 12.252988888889
+  },
+  "attributes": {
+   "countries": [
+    "country:HU",
+    "country:IT",
+    "country:AT",
+    "country:SI",
+    "country:HR"
+   ],
+   "continent": "europe",
+   "length_km": 720,
+   "sitelinks": 75,
+   "kind": "river",
+   "wikidata": "Q171009"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q171009",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q201463",
+  "type": "river",
+  "names": {
+   "de": "Perlfluss",
+   "en": "Pearl River"
+  },
+  "aliases": [
+   "Pearl River"
+  ],
+  "location": {
+   "lat": 23.240935,
+   "lon": 113.173838
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "length_km": 2400,
+   "sitelinks": 75,
+   "kind": "river",
+   "wikidata": "Q201463"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q201463",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q8319",
+  "type": "river",
+  "names": {
+   "de": "Arkansas River",
+   "en": "Arkansas River"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 39.2583,
+   "lon": -106.3439
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "length_km": 2364,
+   "sitelinks": 74,
+   "kind": "river",
+   "wikidata": "Q8319"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q8319",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q82776",
+  "type": "river",
+  "names": {
+   "de": "Terek",
+   "en": "Terek"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 43.5953,
+   "lon": 47.5597
+  },
+  "attributes": {
+   "countries": [
+    "country:RU",
+    "country:GE"
+   ],
+   "continent": "europe",
+   "length_km": 623,
+   "sitelinks": 74,
+   "kind": "river",
+   "wikidata": "Q82776"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q82776",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q181482",
+  "type": "river",
+  "names": {
+   "de": "Darling River",
+   "en": "Darling River"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -29.9581,
+   "lon": 146.3078
+  },
+  "attributes": {
+   "country": "country:AU",
+   "countries": [
+    "country:AU"
+   ],
+   "continent": "oceania",
+   "length_km": 1472,
+   "sitelinks": 74,
+   "kind": "river",
+   "wikidata": "Q181482"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q181482",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q182445",
+  "type": "river",
+  "names": {
+   "de": "Pruth",
+   "en": "Prut"
+  },
+  "aliases": [
+   "Prut"
+  ],
+  "location": {
+   "lat": 45.4688,
+   "lon": 28.2072
+  },
+  "attributes": {
+   "countries": [
+    "country:UA",
+    "country:MD",
+    "country:RO"
+   ],
+   "continent": "europe",
+   "length_km": 953,
+   "sitelinks": 73,
+   "kind": "river",
+   "wikidata": "Q182445"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q182445",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q186541",
+  "type": "river",
+  "names": {
+   "de": "Kasai",
+   "en": "Kasai River"
+  },
+  "aliases": [
+   "Kasai River"
+  ],
+  "location": {
+   "lat": -3.1765,
+   "lon": 16.1967
+  },
+  "attributes": {
+   "countries": [
+    "country:AO",
+    "country:CD"
+   ],
+   "continent": "africa",
+   "length_km": 2272,
+   "sitelinks": 73,
+   "kind": "river",
+   "wikidata": "Q186541"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q186541",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q1650",
+  "type": "river",
+  "names": {
+   "de": "Weser",
+   "en": "Weser"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 53.561111,
+   "lon": 8.522222
+  },
+  "attributes": {
+   "country": "country:DE",
+   "countries": [
+    "country:DE"
+   ],
+   "continent": "europe",
+   "length_km": 451,
+   "sitelinks": 72,
+   "kind": "river",
+   "wikidata": "Q1650"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1650",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q19682",
+  "type": "river",
+  "names": {
+   "de": "River Severn",
+   "en": "River Severn"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 52.494444444444,
+   "lon": -3.7375
+  },
+  "attributes": {
+   "country": "country:GB",
+   "countries": [
+    "country:GB"
+   ],
+   "continent": "europe",
+   "length_km": 354,
+   "sitelinks": 72,
+   "kind": "river",
+   "wikidata": "Q19682"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q19682",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q106588",
+  "type": "river",
+  "names": {
+   "de": "Isar",
+   "en": "Isar"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 47.375555555556,
+   "lon": 11.408055555556
+  },
+  "attributes": {
+   "countries": [
+    "country:AT",
+    "country:DE"
+   ],
+   "continent": "europe",
+   "length_km": 291.5,
+   "sitelinks": 72,
+   "kind": "river",
+   "wikidata": "Q106588"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q106588",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q156054",
+  "type": "river",
+  "names": {
+   "de": "Rio Tocantins",
+   "en": "Tocantins River"
+  },
+  "aliases": [
+   "Tocantins River"
+  ],
+  "location": {
+   "lat": -1.7287,
+   "lon": -49.1762
+  },
+  "attributes": {
+   "country": "country:BR",
+   "countries": [
+    "country:BR"
+   ],
+   "continent": "south-america",
+   "length_km": 2450,
+   "sitelinks": 72,
+   "kind": "river",
+   "wikidata": "Q156054"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q156054",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q171675",
+  "type": "river",
+  "names": {
+   "de": "Satluj",
+   "en": "Sutlej"
+  },
+  "aliases": [
+   "Sutlej"
+  ],
+  "location": {
+   "lat": 30.8442,
+   "lon": 81.2046
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:IN",
+    "country:PK"
+   ],
+   "continent": "asia",
+   "length_km": 1500,
+   "sitelinks": 72,
+   "kind": "river",
+   "wikidata": "Q171675"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q171675",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q201823",
+  "type": "river",
+  "names": {
+   "de": "Warthe",
+   "en": "Warta"
+  },
+  "aliases": [
+   "Warta"
+  ],
+  "location": {
+   "lat": 50.4907,
+   "lon": 19.4899
+  },
+  "attributes": {
+   "country": "country:PL",
+   "countries": [
+    "country:PL"
+   ],
+   "continent": "europe",
+   "length_km": 808,
+   "sitelinks": 72,
+   "kind": "river",
+   "wikidata": "Q201823"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q201823",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q204806",
+  "type": "river",
+  "names": {
+   "de": "Benue",
+   "en": "Benue River"
+  },
+  "aliases": [
+   "Benue River"
+  ],
+  "location": {
+   "lat": 7.783333,
+   "lon": 6.766667
+  },
+  "attributes": {
+   "countries": [
+    "country:CM",
+    "country:NG"
+   ],
+   "continent": "africa",
+   "length_km": 1370,
+   "sitelinks": 72,
+   "kind": "river",
+   "wikidata": "Q204806"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q204806",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q82207",
+  "type": "river",
+  "names": {
+   "de": "Indigirka",
+   "en": "Indigirka"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 63.111388888889,
+   "lon": 144.18527777778
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 1726,
+   "sitelinks": 71,
+   "kind": "river",
+   "wikidata": "Q82207"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q82207",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q82308",
+  "type": "river",
+  "names": {
+   "de": "Kuban",
+   "en": "Kuban"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 43.4611,
+   "lon": 42.0961
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 870,
+   "sitelinks": 71,
+   "kind": "river",
+   "wikidata": "Q82308"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q82308",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q191238",
+  "type": "river",
+  "names": {
+   "de": "Siwerskyj Donez",
+   "en": "Donets"
+  },
+  "aliases": [
+   "Donets"
+  ],
+  "location": {
+   "lat": 47.6006,
+   "lon": 40.8972
+  },
+  "attributes": {
+   "countries": [
+    "country:RU",
+    "country:UA"
+   ],
+   "continent": "europe",
+   "length_km": 1053,
+   "sitelinks": 71,
+   "kind": "river",
+   "wikidata": "Q191238"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q191238",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q55498",
+  "type": "river",
+  "names": {
+   "de": "Yalu",
+   "en": "Yalu River"
+  },
+  "aliases": [
+   "Yalu River"
+  ],
+  "location": {
+   "lat": 39.834193,
+   "lon": 124.316082
+  },
+  "attributes": {
+   "countries": [
+    "country:KP",
+    "country:CN"
+   ],
+   "continent": "asia",
+   "length_km": 813,
+   "sitelinks": 70,
+   "kind": "river",
+   "wikidata": "Q55498"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q55498",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q257785",
+  "type": "river",
+  "names": {
+   "de": "Kızılırmak",
+   "en": "Kızılırmak River"
+  },
+  "aliases": [
+   "Kızılırmak River"
+  ],
+  "location": {
+   "lat": 39.853277777778,
+   "lon": 38.407388888889
+  },
+  "attributes": {
+   "country": "country:TR",
+   "countries": [
+    "country:TR"
+   ],
+   "continent": "asia",
+   "length_km": 1355,
+   "sitelinks": 70,
+   "kind": "river",
+   "wikidata": "Q257785"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q257785",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q172572",
+  "type": "river",
+  "names": {
+   "de": "Rubikon",
+   "en": "Rubicon"
+  },
+  "aliases": [
+   "Rubicon"
+  ],
+  "location": {
+   "lat": 44.168045,
+   "lon": 12.44327
+  },
+  "attributes": {
+   "country": "country:IT",
+   "countries": [
+    "country:IT"
+   ],
+   "continent": "europe",
+   "length_km": 35,
+   "sitelinks": 70,
+   "kind": "river",
+   "wikidata": "Q172572"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q172572",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q103148",
+  "type": "river",
+  "names": {
+   "de": "Lahn",
+   "en": "Lahn"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 50.892252777778,
+   "lon": 8.2415833333333
+  },
+  "attributes": {
+   "country": "country:DE",
+   "countries": [
+    "country:DE"
+   ],
+   "continent": "europe",
+   "length_km": 242,
+   "sitelinks": 69,
+   "kind": "river",
+   "wikidata": "Q103148"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q103148",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q143762",
+  "type": "river",
+  "names": {
+   "de": "Delaware River",
+   "en": "Delaware River"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 39.4326,
+   "lon": -75.5288
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "length_km": 579,
+   "sitelinks": 69,
+   "kind": "river",
+   "wikidata": "Q143762"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q143762",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q156237",
+  "type": "river",
+  "names": {
+   "de": "Bug",
+   "en": "Western Bug"
+  },
+  "aliases": [
+   "Western Bug"
+  ],
+  "location": {
+   "lat": 49.8927,
+   "lon": 25.0166
+  },
+  "attributes": {
+   "countries": [
+    "country:PL",
+    "country:BY",
+    "country:UA"
+   ],
+   "continent": "europe",
+   "length_km": 772,
+   "sitelinks": 69,
+   "kind": "river",
+   "wikidata": "Q156237"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q156237",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q193737",
+  "type": "river",
+  "names": {
+   "de": "Tennessee River",
+   "en": "Tennessee River"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 35.9592508,
+   "lon": -83.8501808
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "length_km": 1049,
+   "sitelinks": 68,
+   "kind": "river",
+   "wikidata": "Q193737"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q193737",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q214874",
+  "type": "river",
+  "names": {
+   "de": "Jhelam",
+   "en": "Jhelum River"
+  },
+  "aliases": [
+   "Jhelum River"
+  ],
+  "location": {
+   "lat": 33.534722222222,
+   "lon": 75.249722222222
+  },
+  "attributes": {
+   "countries": [
+    "country:IN",
+    "country:PK"
+   ],
+   "continent": "asia",
+   "length_km": 774,
+   "sitelinks": 67,
+   "kind": "river",
+   "wikidata": "Q214874"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q214874",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q1664",
+  "type": "river",
+  "names": {
+   "de": "Ruhr",
+   "en": "Ruhr"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 51.450833333333,
+   "lon": 6.7230555555556
+  },
+  "attributes": {
+   "country": "country:DE",
+   "countries": [
+    "country:DE"
+   ],
+   "continent": "europe",
+   "length_km": 217,
+   "sitelinks": 67,
+   "kind": "river",
+   "wikidata": "Q1664"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1664",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q1682",
+  "type": "river",
+  "names": {
+   "de": "Havel",
+   "en": "Havel"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 53.4678,
+   "lon": 12.9356
+  },
+  "attributes": {
+   "country": "country:DE",
+   "countries": [
+    "country:DE"
+   ],
+   "continent": "europe",
+   "length_km": 325,
+   "sitelinks": 67,
+   "kind": "river",
+   "wikidata": "Q1682"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1682",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q14305",
+  "type": "river",
+  "names": {
+   "de": "Guadiana",
+   "en": "Guadiana"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 37.1685,
+   "lon": -7.3959
+  },
+  "attributes": {
+   "countries": [
+    "country:ES",
+    "country:PT"
+   ],
+   "continent": "europe",
+   "length_km": 778,
+   "sitelinks": 67,
+   "kind": "river",
+   "wikidata": "Q14305"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q14305",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q157042",
+  "type": "river",
+  "names": {
+   "de": "Prypjat",
+   "en": "Pripyat River"
+  },
+  "aliases": [
+   "Pripyat River"
+  ],
+  "location": {
+   "lat": 51.191666666667,
+   "lon": 30.481944444444
+  },
+  "attributes": {
+   "countries": [
+    "country:BY",
+    "country:UA"
+   ],
+   "continent": "europe",
+   "length_km": 775,
+   "sitelinks": 67,
+   "kind": "river",
+   "wikidata": "Q157042"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q157042",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q182343",
+  "type": "river",
+  "names": {
+   "de": "Niagara River",
+   "en": "Niagara River"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 43.2625,
+   "lon": -79.07
+  },
+  "attributes": {
+   "countries": [
+    "country:CA",
+    "country:US"
+   ],
+   "continent": "north-america",
+   "length_km": 53,
+   "sitelinks": 67,
+   "kind": "river",
+   "wikidata": "Q182343"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q182343",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q187834",
+  "type": "river",
+  "names": {
+   "de": "Saône",
+   "en": "Saône"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 45.72833333,
+   "lon": 4.81861111
+  },
+  "attributes": {
+   "country": "country:FR",
+   "countries": [
+    "country:FR"
+   ],
+   "continent": "europe",
+   "length_km": 480,
+   "sitelinks": 67,
+   "kind": "river",
+   "wikidata": "Q187834"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q187834",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q188940",
+  "type": "river",
+  "names": {
+   "de": "Südlicher Bug",
+   "en": "Southern Bug"
+  },
+  "aliases": [
+   "Southern Bug"
+  ],
+  "location": {
+   "lat": 46.9866,
+   "lon": 31.9796
+  },
+  "attributes": {
+   "country": "country:UA",
+   "countries": [
+    "country:UA"
+   ],
+   "continent": "europe",
+   "length_km": 806,
+   "sitelinks": 67,
+   "kind": "river",
+   "wikidata": "Q188940"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q188940",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q191524",
+  "type": "river",
+  "names": {
+   "de": "Ischim",
+   "en": "Ishim"
+  },
+  "aliases": [
+   "Ishim"
+  ],
+  "location": {
+   "lat": 50.6346,
+   "lon": 73.1946
+  },
+  "attributes": {
+   "countries": [
+    "country:RU",
+    "country:KZ"
+   ],
+   "continent": "europe",
+   "length_km": 2450,
+   "sitelinks": 67,
+   "kind": "river",
+   "wikidata": "Q191524"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q191524",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q192567",
+  "type": "river",
+  "names": {
+   "de": "Ili",
+   "en": "Ili River"
+  },
+  "aliases": [
+   "Ili River"
+  ],
+  "location": {
+   "lat": 45.4,
+   "lon": 74.133333333333
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:KZ"
+   ],
+   "continent": "asia",
+   "length_km": 1439,
+   "sitelinks": 67,
+   "kind": "river",
+   "wikidata": "Q192567"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q192567",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q192820",
+  "type": "river",
+  "names": {
+   "de": "Shannon",
+   "en": "River Shannon"
+  },
+  "aliases": [
+   "River Shannon"
+  ],
+  "location": {
+   "lat": 52.6767,
+   "lon": -8.7545
+  },
+  "attributes": {
+   "country": "country:IE",
+   "countries": [
+    "country:IE"
+   ],
+   "continent": "europe",
+   "length_km": 368,
+   "sitelinks": 67,
+   "kind": "river",
+   "wikidata": "Q192820"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q192820",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q203409",
+  "type": "river",
+  "names": {
+   "de": "Rioni",
+   "en": "Rioni"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 42.8682,
+   "lon": 43.36448
+  },
+  "attributes": {
+   "country": "country:GE",
+   "countries": [
+    "country:GE"
+   ],
+   "continent": "asia",
+   "length_km": 327,
+   "sitelinks": 67,
+   "kind": "river",
+   "wikidata": "Q203409"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q203409",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q55500",
+  "type": "river",
+  "names": {
+   "de": "Hangang",
+   "en": "Han River"
+  },
+  "aliases": [
+   "Han River"
+  ],
+  "location": {
+   "lat": 37.75,
+   "lon": 126.1833
+  },
+  "attributes": {
+   "countries": [
+    "country:KP",
+    "country:KR"
+   ],
+   "continent": "asia",
+   "length_km": 514,
+   "sitelinks": 66,
+   "kind": "river",
+   "wikidata": "Q55500"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q55500",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q234004",
+  "type": "river",
+  "names": {
+   "de": "Narmada",
+   "en": "Narmada"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 22.08,
+   "lon": 74.9
+  },
+  "attributes": {
+   "country": "country:IN",
+   "countries": [
+    "country:IN"
+   ],
+   "continent": "asia",
+   "length_km": 1315,
+   "sitelinks": 66,
+   "kind": "river",
+   "wikidata": "Q234004"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q234004",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q8510",
+  "type": "river",
+  "names": {
+   "de": "Hilmend",
+   "en": "Helmand River"
+  },
+  "aliases": [
+   "Helmand River"
+  ],
+  "location": {
+   "lat": 31.081077777778,
+   "lon": 61.367986111111
+  },
+  "attributes": {
+   "countries": [
+    "country:IR",
+    "country:AF"
+   ],
+   "continent": "asia",
+   "length_km": 1150,
+   "sitelinks": 66,
+   "kind": "river",
+   "wikidata": "Q8510"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q8510",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q26439",
+  "type": "river",
+  "names": {
+   "de": "Argun",
+   "en": "Argun River"
+  },
+  "aliases": [
+   "Argun River"
+  ],
+  "location": {
+   "lat": 53.331666666667,
+   "lon": 121.4775
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:RU"
+   ],
+   "continent": "asia",
+   "length_km": 1620,
+   "sitelinks": 66,
+   "kind": "river",
+   "wikidata": "Q26439"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q26439",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q75745",
+  "type": "river",
+  "names": {
+   "de": "Selenga",
+   "en": "Selenga"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 49.2619,
+   "lon": 100.6797
+  },
+  "attributes": {
+   "countries": [
+    "country:RU",
+    "country:MN"
+   ],
+   "continent": "europe",
+   "length_km": 1024,
+   "sitelinks": 66,
+   "kind": "river",
+   "wikidata": "Q75745"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q75745",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q179251",
+  "type": "river",
+  "names": {
+   "de": "March",
+   "en": "Morava"
+  },
+  "aliases": [
+   "Morava"
+  ],
+  "location": {
+   "lat": 50.205189,
+   "lon": 16.849248
+  },
+  "attributes": {
+   "countries": [
+    "country:AT",
+    "country:CZ",
+    "country:SK"
+   ],
+   "continent": "europe",
+   "length_km": 388,
+   "sitelinks": 66,
+   "kind": "river",
+   "wikidata": "Q179251"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q179251",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q186901",
+  "type": "river",
+  "names": {
+   "de": "Drina",
+   "en": "Drina"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 44.891111111111,
+   "lon": 19.356388888889
+  },
+  "attributes": {
+   "countries": [
+    "country:BA",
+    "country:RS"
+   ],
+   "continent": "europe",
+   "length_km": 346,
+   "sitelinks": 66,
+   "kind": "river",
+   "wikidata": "Q186901"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q186901",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q2750140",
+  "type": "river",
+  "names": {
+   "de": "Kagera-Nil",
+   "en": "Kagera River"
+  },
+  "aliases": [
+   "Kagera River"
+  ],
+  "location": {
+   "lat": -2.39,
+   "lon": 30.780555555556
+  },
+  "attributes": {
+   "countries": [
+    "country:TZ",
+    "country:BI",
+    "country:UG",
+    "country:RW"
+   ],
+   "continent": "africa",
+   "length_km": 400,
+   "sitelinks": 65,
+   "kind": "river",
+   "wikidata": "Q2750140"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q2750140",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q189596",
+  "type": "river",
+  "names": {
+   "de": "Vardar",
+   "en": "Vardar"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 41.76405,
+   "lon": 20.836961111111
+  },
+  "attributes": {
+   "countries": [
+    "country:GR",
+    "country:MK"
+   ],
+   "continent": "europe",
+   "length_km": 388,
+   "sitelinks": 65,
+   "kind": "river",
+   "wikidata": "Q189596"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q189596",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q202796",
+  "type": "river",
+  "names": {
+   "de": "Desna",
+   "en": "Desna"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 54.5939,
+   "lon": 33.2986
+  },
+  "attributes": {
+   "countries": [
+    "country:RU",
+    "country:UA"
+   ],
+   "continent": "europe",
+   "length_km": 1130,
+   "sitelinks": 65,
+   "kind": "river",
+   "wikidata": "Q202796"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q202796",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q41983",
+  "type": "river",
+  "names": {
+   "de": "Marne",
+   "en": "Marne"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 47.818333333333,
+   "lon": 5.35
+  },
+  "attributes": {
+   "country": "country:FR",
+   "countries": [
+    "country:FR"
+   ],
+   "continent": "europe",
+   "length_km": 514,
+   "sitelinks": 64,
+   "kind": "river",
+   "wikidata": "Q41983"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q41983",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q135477",
+  "type": "river",
+  "names": {
+   "de": "Schari",
+   "en": "Chari River"
+  },
+  "aliases": [
+   "Chari River"
+  ],
+  "location": {
+   "lat": 12.9094,
+   "lon": 14.565
+  },
+  "attributes": {
+   "countries": [
+    "country:TD",
+    "country:CF",
+    "country:CM"
+   ],
+   "continent": "africa",
+   "length_km": 1400,
+   "sitelinks": 64,
+   "kind": "river",
+   "wikidata": "Q135477"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q135477",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q8515",
+  "type": "river",
+  "names": {
+   "de": "Kabul",
+   "en": "Kabul River"
+  },
+  "aliases": [
+   "Kabul River"
+  ],
+  "location": {
+   "lat": 33.918648,
+   "lon": 72.230423
+  },
+  "attributes": {
+   "countries": [
+    "country:PK",
+    "country:AF"
+   ],
+   "continent": "asia",
+   "length_km": 460,
+   "sitelinks": 63,
+   "kind": "river",
+   "wikidata": "Q8515"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q8515",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q14366",
+  "type": "river",
+  "names": {
+   "de": "Tessin",
+   "en": "Ticino"
+  },
+  "aliases": [
+   "Ticino"
+  ],
+  "location": {
+   "lat": 45.141388888889,
+   "lon": 9.2347222222222
+  },
+  "attributes": {
+   "countries": [
+    "country:IT",
+    "country:CH"
+   ],
+   "continent": "europe",
+   "length_km": 248,
+   "sitelinks": 63,
+   "kind": "river",
+   "wikidata": "Q14366"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q14366",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q192157",
+  "type": "river",
+  "names": {
+   "de": "Belaja",
+   "en": "Belaya"
+  },
+  "aliases": [
+   "Belaya"
+  ],
+  "location": {
+   "lat": 54.539,
+   "lon": 59.049638888889
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 1430,
+   "sitelinks": 63,
+   "kind": "river",
+   "wikidata": "Q192157"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q192157",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q204347",
+  "type": "river",
+  "names": {
+   "de": "Mariza",
+   "en": "Maritsa"
+  },
+  "aliases": [
+   "Maritsa"
+  ],
+  "location": {
+   "lat": 42.164805555556,
+   "lon": 23.595888888889
+  },
+  "attributes": {
+   "countries": [
+    "country:GR",
+    "country:TR",
+    "country:BG"
+   ],
+   "continent": "europe",
+   "length_km": 490,
+   "sitelinks": 63,
+   "kind": "river",
+   "wikidata": "Q204347"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q204347",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q209031",
+  "type": "river",
+  "names": {
+   "de": "Narva",
+   "en": "Narva"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 58.9873,
+   "lon": 27.7303
+  },
+  "attributes": {
+   "countries": [
+    "country:RU",
+    "country:EE"
+   ],
+   "continent": "europe",
+   "length_km": 74,
+   "sitelinks": 63,
+   "kind": "river",
+   "wikidata": "Q209031"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q209031",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q209891",
+  "type": "river",
+  "names": {
+   "de": "Sura",
+   "en": "Sura"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 56.1225,
+   "lon": 45.971388888889
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 841,
+   "sitelinks": 63,
+   "kind": "river",
+   "wikidata": "Q209891"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q209891",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q210326",
+  "type": "river",
+  "names": {
+   "de": "Songhua Jiang",
+   "en": "Songhua River"
+  },
+  "aliases": [
+   "Songhua River"
+  ],
+  "location": {
+   "lat": 47.706063888889,
+   "lon": 132.51766111111
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "length_km": 1434,
+   "sitelinks": 63,
+   "kind": "river",
+   "wikidata": "Q210326"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q210326",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q317899",
+  "type": "river",
+  "names": {
+   "de": "Ravi",
+   "en": "Ravi River"
+  },
+  "aliases": [
+   "Ravi River"
+  ],
+  "location": {
+   "lat": 30.621111111111,
+   "lon": 71.827777777778
+  },
+  "attributes": {
+   "countries": [
+    "country:IN",
+    "country:PK"
+   ],
+   "continent": "asia",
+   "length_km": 720,
+   "sitelinks": 63,
+   "kind": "river",
+   "wikidata": "Q317899"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q317899",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q559661",
+  "type": "river",
+  "names": {
+   "de": "Liao He",
+   "en": "Liao River"
+  },
+  "aliases": [
+   "Liao River"
+  ],
+  "location": {
+   "lat": 40.9117,
+   "lon": 121.8117
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "length_km": 1345,
+   "sitelinks": 63,
+   "kind": "river",
+   "wikidata": "Q559661"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q559661",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q190777",
+  "type": "river",
+  "names": {
+   "de": "Neretva",
+   "en": "Neretva"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 43.019722222222,
+   "lon": 17.445
+  },
+  "attributes": {
+   "countries": [
+    "country:HR",
+    "country:BA"
+   ],
+   "continent": "europe",
+   "length_km": 225,
+   "sitelinks": 62,
+   "kind": "river",
+   "wikidata": "Q190777"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q190777",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q192495",
+  "type": "river",
+  "names": {
+   "de": "Wjatka",
+   "en": "Vyatka"
+  },
+  "aliases": [
+   "Vyatka"
+  ],
+  "location": {
+   "lat": 58.452111111111,
+   "lon": 52.1675
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 1314,
+   "sitelinks": 62,
+   "kind": "river",
+   "wikidata": "Q192495"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q192495",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q200174",
+  "type": "river",
+  "names": {
+   "de": "Marañón",
+   "en": "Marañón River"
+  },
+  "aliases": [
+   "Marañón River"
+  ],
+  "location": {
+   "lat": -9.988631,
+   "lon": -76.682364
+  },
+  "attributes": {
+   "country": "country:PE",
+   "countries": [
+    "country:PE"
+   ],
+   "continent": "south-america",
+   "length_km": 1737,
+   "sitelinks": 62,
+   "kind": "river",
+   "wikidata": "Q200174"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q200174",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q206850",
+  "type": "river",
+  "names": {
+   "de": "Roter Fluss",
+   "en": "Red River"
+  },
+  "aliases": [
+   "Red River"
+  ],
+  "location": {
+   "lat": 20.2708,
+   "lon": 106.5628
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:VN"
+   ],
+   "continent": "asia",
+   "length_km": 1149,
+   "sitelinks": 62,
+   "kind": "river",
+   "wikidata": "Q206850"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q206850",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q208174",
+  "type": "river",
+  "names": {
+   "de": "Dordogne",
+   "en": "Dordogne"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 45.5383,
+   "lon": 2.8192
+  },
+  "attributes": {
+   "country": "country:FR",
+   "countries": [
+    "country:FR"
+   ],
+   "continent": "europe",
+   "length_km": 483,
+   "sitelinks": 62,
+   "kind": "river",
+   "wikidata": "Q208174"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q208174",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q1678",
+  "type": "river",
+  "names": {
+   "de": "Saale",
+   "en": "Saale"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 50.1206,
+   "lon": 11.8306
+  },
+  "attributes": {
+   "country": "country:DE",
+   "countries": [
+    "country:DE"
+   ],
+   "continent": "europe",
+   "length_km": 413,
+   "sitelinks": 62,
+   "kind": "river",
+   "wikidata": "Q1678"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1678",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q19721",
+  "type": "river",
+  "names": {
+   "de": "Clyde",
+   "en": "River Clyde"
+  },
+  "aliases": [
+   "River Clyde"
+  ],
+  "location": {
+   "lat": 55.937857,
+   "lon": -4.672852
+  },
+  "attributes": {
+   "country": "country:GB",
+   "countries": [
+    "country:GB"
+   ],
+   "continent": "europe",
+   "length_km": 176,
+   "sitelinks": 62,
+   "kind": "river",
+   "wikidata": "Q19721"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q19721",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q200952",
+  "type": "river",
+  "names": {
+   "de": "Ucayali",
+   "en": "Ucayali River"
+  },
+  "aliases": [
+   "Ucayali River"
+  ],
+  "location": {
+   "lat": -10.700833333333,
+   "lon": -73.756111111111
+  },
+  "attributes": {
+   "country": "country:PE",
+   "countries": [
+    "country:PE"
+   ],
+   "continent": "south-america",
+   "length_km": 1460,
+   "sitelinks": 61,
+   "kind": "river",
+   "wikidata": "Q200952"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q200952",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q124653",
+  "type": "river",
+  "names": {
+   "de": "Tobol",
+   "en": "Tobol"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 51.4667,
+   "lon": 61.0085
+  },
+  "attributes": {
+   "countries": [
+    "country:RU",
+    "country:KZ"
+   ],
+   "continent": "europe",
+   "length_km": 1591,
+   "sitelinks": 60,
+   "kind": "river",
+   "wikidata": "Q124653"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q124653",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q185405",
+  "type": "river",
+  "names": {
+   "de": "Amstel",
+   "en": "Amstel"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 52.2875,
+   "lon": 4.8875
+  },
+  "attributes": {
+   "country": "country:NL",
+   "countries": [
+    "country:NL"
+   ],
+   "continent": "europe",
+   "length_km": 31,
+   "sitelinks": 60,
+   "kind": "river",
+   "wikidata": "Q185405"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q185405",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q188871",
+  "type": "river",
+  "names": {
+   "de": "Orontes",
+   "en": "Orontes River"
+  },
+  "aliases": [
+   "Orontes River"
+  ],
+  "location": {
+   "lat": 36.045277777778,
+   "lon": 35.963611111111
+  },
+  "attributes": {
+   "countries": [
+    "country:TR",
+    "country:LB",
+    "country:SY"
+   ],
+   "continent": "asia",
+   "length_km": 571,
+   "sitelinks": 60,
+   "kind": "river",
+   "wikidata": "Q188871"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q188871",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q63109",
+  "type": "river",
+  "names": {
+   "de": "Adda",
+   "en": "Adda"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 45.134444444444,
+   "lon": 9.8816666666667
+  },
+  "attributes": {
+   "country": "country:IT",
+   "countries": [
+    "country:IT"
+   ],
+   "continent": "europe",
+   "length_km": 313,
+   "sitelinks": 60,
+   "kind": "river",
+   "wikidata": "Q63109"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q63109",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q272074",
+  "type": "river",
+  "names": {
+   "de": "Snake River",
+   "en": "Snake River"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 44.1303,
+   "lon": -110.2194
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "length_km": 1735,
+   "sitelinks": 60,
+   "kind": "river",
+   "wikidata": "Q272074"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q272074",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q273456",
+  "type": "river",
+  "names": {
+   "de": "rivière Omo",
+   "en": "Omo River"
+  },
+  "aliases": [
+   "Omo River"
+  ],
+  "location": {
+   "lat": 8.2563,
+   "lon": 37.4899
+  },
+  "attributes": {
+   "country": "country:ET",
+   "countries": [
+    "country:ET"
+   ],
+   "continent": "africa",
+   "length_km": 760,
+   "sitelinks": 60,
+   "kind": "river",
+   "wikidata": "Q273456"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q273456",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q1648",
+  "type": "river",
+  "names": {
+   "de": "Ems",
+   "en": "Ems"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 53.32555556,
+   "lon": 7.24472222
+  },
+  "attributes": {
+   "countries": [
+    "country:NL",
+    "country:DE"
+   ],
+   "continent": "europe",
+   "length_km": 371,
+   "sitelinks": 60,
+   "kind": "river",
+   "wikidata": "Q1648"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1648",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q209530",
+  "type": "river",
+  "names": {
+   "de": "Vaal",
+   "en": "Vaal River"
+  },
+  "aliases": [
+   "Vaal River"
+  ],
+  "location": {
+   "lat": -26.31729,
+   "lon": 30.006795
+  },
+  "attributes": {
+   "country": "country:ZA",
+   "countries": [
+    "country:ZA"
+   ],
+   "continent": "africa",
+   "length_km": 1120,
+   "sitelinks": 59,
+   "kind": "river",
+   "wikidata": "Q209530"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q209530",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q461557",
+  "type": "river",
+  "names": {
+   "de": "Karun",
+   "en": "Karun River"
+  },
+  "aliases": [
+   "Karun River"
+  ],
+  "location": {
+   "lat": 30.4275,
+   "lon": 48.1653
+  },
+  "attributes": {
+   "country": "country:IR",
+   "countries": [
+    "country:IR"
+   ],
+   "continent": "asia",
+   "length_km": 950,
+   "sitelinks": 59,
+   "kind": "river",
+   "wikidata": "Q461557"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q461557",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q8505",
+  "type": "river",
+  "names": {
+   "de": "Hari Rud",
+   "en": "Hari River"
+  },
+  "aliases": [
+   "Hari River"
+  ],
+  "location": {
+   "lat": 34.613087,
+   "lon": 66.570355
+  },
+  "attributes": {
+   "countries": [
+    "country:IR",
+    "country:TM",
+    "country:AF"
+   ],
+   "continent": "asia",
+   "length_km": 1150,
+   "sitelinks": 59,
+   "kind": "river",
+   "wikidata": "Q8505"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q8505",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q19714",
+  "type": "river",
+  "names": {
+   "de": "Trent",
+   "en": "River Trent"
+  },
+  "aliases": [
+   "River Trent"
+  ],
+  "location": {
+   "lat": 53.7,
+   "lon": -0.7
+  },
+  "attributes": {
+   "country": "country:GB",
+   "countries": [
+    "country:GB"
+   ],
+   "continent": "europe",
+   "length_km": 298,
+   "sitelinks": 59,
+   "kind": "river",
+   "wikidata": "Q19714"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q19714",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q191832",
+  "type": "river",
+  "names": {
+   "de": "Aldan",
+   "en": "Aldan"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 56.424444444444,
+   "lon": 123.79555555556
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 2273,
+   "sitelinks": 58,
+   "kind": "river",
+   "wikidata": "Q191832"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q191832",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q206694",
+  "type": "river",
+  "names": {
+   "de": "Onon",
+   "en": "Onon River"
+  },
+  "aliases": [
+   "Onon River"
+  ],
+  "location": {
+   "lat": 48.8422,
+   "lon": 108.7883
+  },
+  "attributes": {
+   "countries": [
+    "country:RU",
+    "country:MN"
+   ],
+   "continent": "europe",
+   "length_km": 1032,
+   "sitelinks": 58,
+   "kind": "river",
+   "wikidata": "Q206694"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q206694",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q26390",
+  "type": "river",
+  "names": {
+   "de": "Anadyr",
+   "en": "Anadyr"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 64.8778,
+   "lon": 176.2333
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 1150,
+   "sitelinks": 58,
+   "kind": "river",
+   "wikidata": "Q26390"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q26390",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q26428",
+  "type": "river",
+  "names": {
+   "de": "Untere Tunguska",
+   "en": "Nizhnyaya Tunguska"
+  },
+  "aliases": [
+   "Nizhnyaya Tunguska"
+  ],
+  "location": {
+   "lat": 65.7833,
+   "lon": 87.9556
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 2989,
+   "sitelinks": 58,
+   "kind": "river",
+   "wikidata": "Q26428"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q26428",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q26433",
+  "type": "river",
+  "names": {
+   "de": "Wiljui",
+   "en": "Vilyuy"
+  },
+  "aliases": [
+   "Vilyuy"
+  ],
+  "location": {
+   "lat": 64.377222222222,
+   "lon": 126.415
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 2650,
+   "sitelinks": 58,
+   "kind": "river",
+   "wikidata": "Q26433"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q26433",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q320649",
+  "type": "river",
+  "names": {
+   "de": "Kunene",
+   "en": "Cunene River"
+  },
+  "aliases": [
+   "Cunene River"
+  ],
+  "location": {
+   "lat": -17.249444444444,
+   "lon": 11.753333333333
+  },
+  "attributes": {
+   "countries": [
+    "country:AO",
+    "country:NA"
+   ],
+   "continent": "africa",
+   "length_km": 1207,
+   "sitelinks": 58,
+   "kind": "river",
+   "wikidata": "Q320649"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q320649",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q5602",
+  "type": "river",
+  "names": {
+   "de": "Lausitzer Neiße",
+   "en": "Lusatian Nysa"
+  },
+  "aliases": [
+   "Lusatian Nysa"
+  ],
+  "location": {
+   "lat": 50.726312,
+   "lon": 15.226706
+  },
+  "attributes": {
+   "countries": [
+    "country:PL",
+    "country:DE",
+    "country:CZ"
+   ],
+   "continent": "europe",
+   "length_km": 254,
+   "sitelinks": 58,
+   "kind": "river",
+   "wikidata": "Q5602"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q5602",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q200231",
+  "type": "river",
+  "names": {
+   "de": "Oise",
+   "en": "Oise"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 49.99658,
+   "lon": 4.3449
+  },
+  "attributes": {
+   "countries": [
+    "country:BE",
+    "country:FR"
+   ],
+   "continent": "europe",
+   "length_km": 341.1,
+   "sitelinks": 57,
+   "kind": "river",
+   "wikidata": "Q200231"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q200231",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q204040",
+  "type": "river",
+  "names": {
+   "de": "Mur",
+   "en": "Mur"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 46.2983,
+   "lon": 16.8858
+  },
+  "attributes": {
+   "countries": [
+    "country:HU",
+    "country:AT",
+    "country:SI",
+    "country:HR"
+   ],
+   "continent": "europe",
+   "length_km": 434,
+   "sitelinks": 57,
+   "kind": "river",
+   "wikidata": "Q204040"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q204040",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q207777",
+  "type": "river",
+  "names": {
+   "de": "Ussuri",
+   "en": "Ussuri"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 48.273833333333,
+   "lon": 134.72052777778
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:RU"
+   ],
+   "continent": "asia",
+   "length_km": 897,
+   "sitelinks": 57,
+   "kind": "river",
+   "wikidata": "Q207777"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q207777",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q207903",
+  "type": "river",
+  "names": {
+   "de": "Neris",
+   "en": "Neris"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 54.68962,
+   "lon": 27.867488
+  },
+  "attributes": {
+   "countries": [
+    "country:LT",
+    "country:BY"
+   ],
+   "continent": "europe",
+   "length_km": 510,
+   "sitelinks": 57,
+   "kind": "river",
+   "wikidata": "Q207903"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q207903",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q213840",
+  "type": "river",
+  "names": {
+   "de": "Cuanza",
+   "en": "Cuanza River"
+  },
+  "aliases": [
+   "Cuanza River"
+  ],
+  "location": {
+   "lat": -13.680927777778,
+   "lon": 17.430102777778
+  },
+  "attributes": {
+   "country": "country:AO",
+   "countries": [
+    "country:AO"
+   ],
+   "continent": "africa",
+   "length_km": 965,
+   "sitelinks": 57,
+   "kind": "river",
+   "wikidata": "Q213840"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q213840",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q319590",
+  "type": "river",
+  "names": {
+   "de": "Beas",
+   "en": "Beas River"
+  },
+  "aliases": [
+   "Beas River"
+  ],
+  "location": {
+   "lat": 32.353446,
+   "lon": 77.090881
+  },
+  "attributes": {
+   "country": "country:IN",
+   "countries": [
+    "country:IN"
+   ],
+   "continent": "asia",
+   "length_km": 470,
+   "sitelinks": 57,
+   "kind": "river",
+   "wikidata": "Q319590"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q319590",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q841359",
+  "type": "river",
+  "names": {
+   "de": "Kapuas",
+   "en": "Kapuas River"
+  },
+  "aliases": [
+   "Kapuas River"
+  ],
+  "location": {
+   "lat": -0.266,
+   "lon": 109.8754
+  },
+  "attributes": {
+   "country": "country:ID",
+   "countries": [
+    "country:ID"
+   ],
+   "continent": "asia",
+   "length_km": 1143,
+   "sitelinks": 57,
+   "kind": "river",
+   "wikidata": "Q841359"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q841359",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q8542",
+  "type": "river",
+  "names": {
+   "de": "Pandsch",
+   "en": "Panj River"
+  },
+  "aliases": [
+   "Panj River"
+  ],
+  "location": {
+   "lat": 37.0176,
+   "lon": 72.6615
+  },
+  "attributes": {
+   "countries": [
+    "country:TJ",
+    "country:AF"
+   ],
+   "continent": "asia",
+   "length_km": 921,
+   "sitelinks": 57,
+   "kind": "river",
+   "wikidata": "Q8542"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q8542",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q210870",
+  "type": "river",
+  "names": {
+   "de": "Ufa",
+   "en": "Ufa"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 54.6772,
+   "lon": 55.9894
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 918,
+   "sitelinks": 56,
+   "kind": "river",
+   "wikidata": "Q210870"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q210870",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q212795",
+  "type": "river",
+  "names": {
+   "de": "Alasani",
+   "en": "Alazani"
+  },
+  "aliases": [
+   "Alazani"
+  ],
+  "location": {
+   "lat": 42.4216,
+   "lon": 45.2343
+  },
+  "attributes": {
+   "countries": [
+    "country:AZ",
+    "country:GE"
+   ],
+   "continent": "asia",
+   "length_km": 351,
+   "sitelinks": 56,
+   "kind": "river",
+   "wikidata": "Q212795"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q212795",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q782845",
+  "type": "river",
+  "names": {
+   "de": "Awash",
+   "en": "Awash River"
+  },
+  "aliases": [
+   "Awash River"
+  ],
+  "location": {
+   "lat": 11.1861,
+   "lon": 41.7077
+  },
+  "attributes": {
+   "country": "country:ET",
+   "countries": [
+    "country:ET"
+   ],
+   "continent": "africa",
+   "length_km": 1200,
+   "sitelinks": 56,
+   "kind": "river",
+   "wikidata": "Q782845"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q782845",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q849494",
+  "type": "river",
+  "names": {
+   "de": "Kali Gandaki",
+   "en": "Gandaki River"
+  },
+  "aliases": [
+   "Gandaki River"
+  ],
+  "location": {
+   "lat": 25.653473,
+   "lon": 85.183067
+  },
+  "attributes": {
+   "countries": [
+    "country:IN",
+    "country:NP"
+   ],
+   "continent": "asia",
+   "length_km": 630,
+   "sitelinks": 56,
+   "kind": "river",
+   "wikidata": "Q849494"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q849494",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q934455",
+  "type": "river",
+  "names": {
+   "de": "Ebola",
+   "en": "Ebola River"
+  },
+  "aliases": [
+   "Ebola River"
+  ],
+  "location": {
+   "lat": 3.6118,
+   "lon": 22.8292
+  },
+  "attributes": {
+   "country": "country:CD",
+   "countries": [
+    "country:CD"
+   ],
+   "continent": "africa",
+   "length_km": 250,
+   "sitelinks": 56,
+   "kind": "river",
+   "wikidata": "Q934455"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q934455",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q4534",
+  "type": "river",
+  "names": {
+   "de": "Río Andalién",
+   "en": "Andalien River"
+  },
+  "aliases": [
+   "Andalien River"
+  ],
+  "location": {
+   "lat": -36.7917,
+   "lon": -72.8242
+  },
+  "attributes": {
+   "country": "country:CL",
+   "countries": [
+    "country:CL"
+   ],
+   "continent": "south-america",
+   "length_km": 130,
+   "sitelinks": 56,
+   "kind": "river",
+   "wikidata": "Q4534"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q4534",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q14554",
+  "type": "river",
+  "names": {
+   "de": "Rio Miño",
+   "en": "Minho River"
+  },
+  "aliases": [
+   "Minho River"
+  ],
+  "location": {
+   "lat": 41.865277777778,
+   "lon": -8.8697222222222
+  },
+  "attributes": {
+   "countries": [
+    "country:ES",
+    "country:PT"
+   ],
+   "continent": "europe",
+   "length_km": 315,
+   "sitelinks": 56,
+   "kind": "river",
+   "wikidata": "Q14554"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q14554",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q26271",
+  "type": "river",
+  "names": {
+   "de": "Rio Purus",
+   "en": "Purus River"
+  },
+  "aliases": [
+   "Purus River"
+  ],
+  "location": {
+   "lat": -3.6820028879205,
+   "lon": -61.475372314453
+  },
+  "attributes": {
+   "country": "country:BR",
+   "countries": [
+    "country:BR"
+   ],
+   "continent": "south-america",
+   "length_km": 2960,
+   "sitelinks": 56,
+   "kind": "river",
+   "wikidata": "Q26271"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q26271",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q126822",
+  "type": "river",
+  "names": {
+   "de": "Olt",
+   "en": "Olt River"
+  },
+  "aliases": [
+   "Olt River"
+  ],
+  "location": {
+   "lat": 43.712803,
+   "lon": 24.795761
+  },
+  "attributes": {
+   "country": "country:RO",
+   "countries": [
+    "country:RO"
+   ],
+   "continent": "europe",
+   "length_km": 615,
+   "sitelinks": 55,
+   "kind": "river",
+   "wikidata": "Q126822"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q126822",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q171840",
+  "type": "river",
+  "names": {
+   "de": "Rio Japurá",
+   "en": "Japurá River"
+  },
+  "aliases": [
+   "Japurá River"
+  ],
+  "location": {
+   "lat": -3.1655555555556,
+   "lon": -64.780833333333
+  },
+  "attributes": {
+   "countries": [
+    "country:BR",
+    "country:CO"
+   ],
+   "continent": "south-america",
+   "length_km": 2820,
+   "sitelinks": 55,
+   "kind": "river",
+   "wikidata": "Q171840"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q171840",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q191087",
+  "type": "river",
+  "names": {
+   "de": "Acheron",
+   "en": "Acheron"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 39.2363,
+   "lon": 20.4757
+  },
+  "attributes": {
+   "country": "country:GR",
+   "countries": [
+    "country:GR"
+   ],
+   "continent": "europe",
+   "length_km": 58,
+   "sitelinks": 55,
+   "kind": "river",
+   "wikidata": "Q191087"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q191087",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q207366",
+  "type": "river",
+  "names": {
+   "de": "Adour",
+   "en": "Adour"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 43.529444444444,
+   "lon": -1.5236111111111
+  },
+  "attributes": {
+   "country": "country:FR",
+   "countries": [
+    "country:FR"
+   ],
+   "continent": "europe",
+   "length_km": 308,
+   "sitelinks": 55,
+   "kind": "river",
+   "wikidata": "Q207366"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q207366",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q208009",
+  "type": "river",
+  "names": {
+   "de": "Liffey",
+   "en": "Liffey"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 53.15625,
+   "lon": -6.2880555555556
+  },
+  "attributes": {
+   "country": "country:IE",
+   "countries": [
+    "country:IE"
+   ],
+   "continent": "europe",
+   "length_km": 125,
+   "sitelinks": 55,
+   "kind": "river",
+   "wikidata": "Q208009"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q208009",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q208367",
+  "type": "river",
+  "names": {
+   "de": "Bosna",
+   "en": "Bosna"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 43.8185,
+   "lon": 18.269972222222
+  },
+  "attributes": {
+   "country": "country:BA",
+   "countries": [
+    "country:BA"
+   ],
+   "continent": "europe",
+   "length_km": 281.6,
+   "sitelinks": 55,
+   "kind": "river",
+   "wikidata": "Q208367"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q208367",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q216171",
+  "type": "river",
+  "names": {
+   "de": "Waal",
+   "en": "Waal"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 51.889855420046,
+   "lon": 5.5136050598927
+  },
+  "attributes": {
+   "country": "country:NL",
+   "countries": [
+    "country:NL"
+   ],
+   "continent": "europe",
+   "length_km": 82,
+   "sitelinks": 55,
+   "kind": "river",
+   "wikidata": "Q216171"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q216171",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q237901",
+  "type": "river",
+  "names": {
+   "de": "Tarim",
+   "en": "Tarim River"
+  },
+  "aliases": [
+   "Tarim River"
+  ],
+  "location": {
+   "lat": 41.083333333333,
+   "lon": 86.666666666667
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "length_km": 2030,
+   "sitelinks": 55,
+   "kind": "river",
+   "wikidata": "Q237901"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q237901",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q318435",
+  "type": "river",
+  "names": {
+   "de": "Detroit River",
+   "en": "Detroit River"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 42.041155,
+   "lon": -83.1496467
+  },
+  "attributes": {
+   "countries": [
+    "country:CA",
+    "country:US"
+   ],
+   "continent": "north-america",
+   "length_km": 45,
+   "sitelinks": 55,
+   "kind": "river",
+   "wikidata": "Q318435"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q318435",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q503262",
+  "type": "river",
+  "names": {
+   "de": "River Tweed",
+   "en": "River Tweed"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 55.764164,
+   "lon": -1.986574
+  },
+  "attributes": {
+   "country": "country:GB",
+   "countries": [
+    "country:GB"
+   ],
+   "continent": "europe",
+   "length_km": 156,
+   "sitelinks": 55,
+   "kind": "river",
+   "wikidata": "Q503262"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q503262",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q1125242",
+  "type": "river",
+  "names": {
+   "de": "Meghna",
+   "en": "Meghna River"
+  },
+  "aliases": [
+   "Meghna River"
+  ],
+  "location": {
+   "lat": 22.8333,
+   "lon": 90.8333
+  },
+  "attributes": {
+   "country": "country:BD",
+   "countries": [
+    "country:BD"
+   ],
+   "continent": "asia",
+   "length_km": 240,
+   "sitelinks": 55,
+   "kind": "river",
+   "wikidata": "Q1125242"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1125242",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q78861",
+  "type": "river",
+  "names": {
+   "de": "Jana",
+   "en": "Yana"
+  },
+  "aliases": [
+   "Yana"
+  ],
+  "location": {
+   "lat": 71.5469,
+   "lon": 136.7175
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 872,
+   "sitelinks": 54,
+   "kind": "river",
+   "wikidata": "Q78861"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q78861",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q115456",
+  "type": "river",
+  "names": {
+   "de": "Schilka",
+   "en": "Shilka"
+  },
+  "aliases": [
+   "Shilka"
+  ],
+  "location": {
+   "lat": 53.334166666667,
+   "lon": 121.47527777778
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "length_km": 560,
+   "sitelinks": 54,
+   "kind": "river",
+   "wikidata": "Q115456"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q115456",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q201341",
+  "type": "river",
+  "names": {
+   "de": "Isère",
+   "en": "Isère"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 44.9833,
+   "lon": 4.8533
+  },
+  "attributes": {
+   "country": "country:FR",
+   "countries": [
+    "country:FR"
+   ],
+   "continent": "europe",
+   "length_km": 286.1,
+   "sitelinks": 54,
+   "kind": "river",
+   "wikidata": "Q201341"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q201341",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q202598",
+  "type": "river",
+  "names": {
+   "de": "Waag",
+   "en": "Váh"
+  },
+  "aliases": [
+   "Váh"
+  ],
+  "location": {
+   "lat": 49.0188,
+   "lon": 19.8091
+  },
+  "attributes": {
+   "country": "country:SK",
+   "countries": [
+    "country:SK"
+   ],
+   "continent": "europe",
+   "length_km": 433,
+   "sitelinks": 54,
+   "kind": "river",
+   "wikidata": "Q202598"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q202598",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q208302",
+  "type": "river",
+  "names": {
+   "de": "Sereth",
+   "en": "Siret River"
+  },
+  "aliases": [
+   "Siret River"
+  ],
+  "location": {
+   "lat": 48.006,
+   "lon": 25.286
+  },
+  "attributes": {
+   "country": "country:RO",
+   "countries": [
+    "country:RO"
+   ],
+   "continent": "europe",
+   "length_km": 740,
+   "sitelinks": 54,
+   "kind": "river",
+   "wikidata": "Q208302"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q208302",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "river:Q27538",
+  "type": "river",
+  "names": {
+   "de": "Susquehanna River",
+   "en": "Susquehanna River"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 42.700555555556,
+   "lon": -74.919444444444
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "length_km": 715,
+   "sitelinks": 54,
+   "kind": "river",
+   "wikidata": "Q27538"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q27538",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ }
+]

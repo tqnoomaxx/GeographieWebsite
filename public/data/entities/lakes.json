@@ -1,0 +1,3686 @@
+[
+ {
+  "id": "lake:Q5484",
+  "type": "lake",
+  "names": {
+   "de": "Kaspisches Meer",
+   "en": "Caspian Sea"
+  },
+  "aliases": [
+   "Caspian Sea"
+  ],
+  "location": {
+   "lat": 42,
+   "lon": 50.5
+  },
+  "attributes": {
+   "countries": [
+    "country:IR",
+    "country:KZ",
+    "country:RU",
+    "country:AZ",
+    "country:TM"
+   ],
+   "continent": "asia",
+   "area_km2": 386400,
+   "sitelinks": 207,
+   "kind": "lake",
+   "wikidata": "Q5484"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q5484",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q5513",
+  "type": "lake",
+  "names": {
+   "de": "Baikalsee",
+   "en": "Lake Baikal"
+  },
+  "aliases": [
+   "Lake Baikal"
+  ],
+  "location": {
+   "lat": 53.30277778,
+   "lon": 108.00472222
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "area_km2": 31722,
+   "sitelinks": 182,
+   "kind": "lake",
+   "wikidata": "Q5513"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q5513",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q5505",
+  "type": "lake",
+  "names": {
+   "de": "Victoriasee",
+   "en": "Lake Victoria"
+  },
+  "aliases": [
+   "Lake Victoria"
+  ],
+  "location": {
+   "lat": -1,
+   "lon": 33
+  },
+  "attributes": {
+   "countries": [
+    "country:UG",
+    "country:TZ",
+    "country:KE"
+   ],
+   "continent": "africa",
+   "area_km2": 68100,
+   "sitelinks": 161,
+   "kind": "lake",
+   "wikidata": "Q5505"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q5505",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q5511",
+  "type": "lake",
+  "names": {
+   "de": "Tanganjikasee",
+   "en": "Lake Tanganyika"
+  },
+  "aliases": [
+   "Lake Tanganyika"
+  ],
+  "location": {
+   "lat": -6.1,
+   "lon": 29.5
+  },
+  "attributes": {
+   "countries": [
+    "country:ZM",
+    "country:TZ",
+    "country:CD",
+    "country:BI"
+   ],
+   "continent": "africa",
+   "area_km2": 32900,
+   "sitelinks": 150,
+   "kind": "lake",
+   "wikidata": "Q5511"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q5511",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q35342",
+  "type": "lake",
+  "names": {
+   "de": "Titicacasee",
+   "en": "Titicaca"
+  },
+  "aliases": [
+   "Titicaca"
+  ],
+  "location": {
+   "lat": -15.825,
+   "lon": -69.325
+  },
+  "attributes": {
+   "countries": [
+    "country:BO",
+    "country:PE"
+   ],
+   "continent": "south-america",
+   "area_km2": 8562,
+   "sitelinks": 132,
+   "kind": "lake",
+   "wikidata": "Q35342"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q35342",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q1066",
+  "type": "lake",
+  "names": {
+   "de": "Oberer See",
+   "en": "Lake Superior"
+  },
+  "aliases": [
+   "Lake Superior"
+  ],
+  "location": {
+   "lat": 47.528816111111,
+   "lon": -87.760021944444
+  },
+  "attributes": {
+   "countries": [
+    "country:US",
+    "country:CA"
+   ],
+   "continent": "north-america",
+   "area_km2": 82350,
+   "sitelinks": 112,
+   "kind": "lake",
+   "wikidata": "Q1066"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1066",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q1062",
+  "type": "lake",
+  "names": {
+   "de": "Ontariosee",
+   "en": "Lake Ontario"
+  },
+  "aliases": [
+   "Lake Ontario"
+  ],
+  "location": {
+   "lat": 43.728888888889,
+   "lon": -78.106388888889
+  },
+  "attributes": {
+   "countries": [
+    "country:US",
+    "country:CA"
+   ],
+   "continent": "north-america",
+   "area_km2": 18529,
+   "sitelinks": 108,
+   "kind": "lake",
+   "wikidata": "Q1062"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1062",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q1169",
+  "type": "lake",
+  "names": {
+   "de": "Michigansee",
+   "en": "Lake Michigan"
+  },
+  "aliases": [
+   "Lake Michigan"
+  ],
+  "location": {
+   "lat": 44.007874,
+   "lon": -86.756451
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "area_km2": 57750,
+   "sitelinks": 107,
+   "kind": "lake",
+   "wikidata": "Q1169"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1169",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q5532",
+  "type": "lake",
+  "names": {
+   "de": "Malawisee",
+   "en": "Lake Malawi"
+  },
+  "aliases": [
+   "Lake Malawi"
+  ],
+  "location": {
+   "lat": -12.183333333333,
+   "lon": 34.366666666667
+  },
+  "attributes": {
+   "countries": [
+    "country:MW",
+    "country:MZ",
+    "country:TZ"
+   ],
+   "continent": "africa",
+   "area_km2": 29600,
+   "sitelinks": 106,
+   "kind": "lake",
+   "wikidata": "Q5532"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q5532",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q125309",
+  "type": "lake",
+  "names": {
+   "de": "Tschadsee",
+   "en": "Lake Chad"
+  },
+  "aliases": [
+   "Lake Chad"
+  ],
+  "location": {
+   "lat": 13.097886246756,
+   "lon": 14.533807443844
+  },
+  "attributes": {
+   "countries": [
+    "country:CM",
+    "country:NE",
+    "country:TD",
+    "country:NG"
+   ],
+   "continent": "africa",
+   "area_km2": 1540,
+   "sitelinks": 105,
+   "kind": "lake",
+   "wikidata": "Q125309"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q125309",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q5492",
+  "type": "lake",
+  "names": {
+   "de": "Eriesee",
+   "en": "Lake Erie"
+  },
+  "aliases": [
+   "Lake Erie"
+  ],
+  "location": {
+   "lat": 42.25,
+   "lon": -80.999722222222
+  },
+  "attributes": {
+   "countries": [
+    "country:US",
+    "country:CA"
+   ],
+   "continent": "north-america",
+   "area_km2": 25744,
+   "sitelinks": 102,
+   "kind": "lake",
+   "wikidata": "Q5492"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q5492",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q1383",
+  "type": "lake",
+  "names": {
+   "de": "Huronsee",
+   "en": "Lake Huron"
+  },
+  "aliases": [
+   "Lake Huron"
+  ],
+  "location": {
+   "lat": 44.592584,
+   "lon": -82.756293
+  },
+  "attributes": {
+   "countries": [
+    "country:US",
+    "country:CA"
+   ],
+   "continent": "north-america",
+   "area_km2": 59600,
+   "sitelinks": 100,
+   "kind": "lake",
+   "wikidata": "Q1383"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1383",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q15288",
+  "type": "lake",
+  "names": {
+   "de": "Ladogasee",
+   "en": "Lake Ladoga"
+  },
+  "aliases": [
+   "Lake Ladoga"
+  ],
+  "location": {
+   "lat": 60.842777777778,
+   "lon": 31.459722222222
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "area_km2": 17700,
+   "sitelinks": 98,
+   "kind": "lake",
+   "wikidata": "Q15288"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q15288",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q6383",
+  "type": "lake",
+  "names": {
+   "de": "Balaton",
+   "en": "Lake Balaton"
+  },
+  "aliases": [
+   "Lake Balaton"
+  ],
+  "location": {
+   "lat": 46.85,
+   "lon": 17.72
+  },
+  "attributes": {
+   "country": "country:HU",
+   "countries": [
+    "country:HU"
+   ],
+   "continent": "europe",
+   "area_km2": 592,
+   "sitelinks": 97,
+   "kind": "lake",
+   "wikidata": "Q6383"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q6383",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q134485",
+  "type": "lake",
+  "names": {
+   "de": "Balchaschsee",
+   "en": "Lake Balkhash"
+  },
+  "aliases": [
+   "Lake Balkhash"
+  ],
+  "location": {
+   "lat": 46.540833333333,
+   "lon": 74.878888888889
+  },
+  "attributes": {
+   "country": "country:KZ",
+   "countries": [
+    "country:KZ"
+   ],
+   "continent": "asia",
+   "area_km2": 18740,
+   "sitelinks": 89,
+   "kind": "lake",
+   "wikidata": "Q134485"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q134485",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q42191",
+  "type": "lake",
+  "names": {
+   "de": "Yssykköl",
+   "en": "Issyk-Kul"
+  },
+  "aliases": [
+   "Issyk-Kul"
+  ],
+  "location": {
+   "lat": 42.416666666667,
+   "lon": 77.25
+  },
+  "attributes": {
+   "country": "country:KG",
+   "countries": [
+    "country:KG"
+   ],
+   "continent": "asia",
+   "area_km2": 6236,
+   "sitelinks": 88,
+   "kind": "lake",
+   "wikidata": "Q42191"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q42191",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q125888",
+  "type": "lake",
+  "names": {
+   "de": "Albertsee",
+   "en": "Lake Albert"
+  },
+  "aliases": [
+   "Lake Albert"
+  ],
+  "location": {
+   "lat": 1.6833333333333,
+   "lon": 30.916666666667
+  },
+  "attributes": {
+   "countries": [
+    "country:CD",
+    "country:UG"
+   ],
+   "continent": "africa",
+   "area_km2": 5270,
+   "sitelinks": 88,
+   "kind": "lake",
+   "wikidata": "Q125888"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q125888",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q6414",
+  "type": "lake",
+  "names": {
+   "de": "Gardasee",
+   "en": "Lake Garda"
+  },
+  "aliases": [
+   "Lake Garda"
+  ],
+  "location": {
+   "lat": 45.633333333333,
+   "lon": 10.666666666667
+  },
+  "attributes": {
+   "country": "country:IT",
+   "countries": [
+    "country:IT"
+   ],
+   "continent": "europe",
+   "area_km2": 370,
+   "sitelinks": 87,
+   "kind": "lake",
+   "wikidata": "Q6414"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q6414",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q166162",
+  "type": "lake",
+  "names": {
+   "de": "Onegasee",
+   "en": "Lake Onega"
+  },
+  "aliases": [
+   "Lake Onega"
+  ],
+  "location": {
+   "lat": 61.690555555556,
+   "lon": 35.655555555556
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "area_km2": 9800,
+   "sitelinks": 84,
+   "kind": "lake",
+   "wikidata": "Q166162"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q166162",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q125912",
+  "type": "lake",
+  "names": {
+   "de": "Kiwusee",
+   "en": "Lake Kivu"
+  },
+  "aliases": [
+   "Lake Kivu"
+  ],
+  "location": {
+   "lat": -1.8530555555556,
+   "lon": 29.135277777778
+  },
+  "attributes": {
+   "countries": [
+    "country:RW",
+    "country:CD"
+   ],
+   "continent": "africa",
+   "area_km2": 2700,
+   "sitelinks": 82,
+   "kind": "lake",
+   "wikidata": "Q125912"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q125912",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q14379",
+  "type": "lake",
+  "names": {
+   "de": "Lago Maggiore",
+   "en": "Lake Maggiore"
+  },
+  "aliases": [
+   "Lake Maggiore"
+  ],
+  "location": {
+   "lat": 46.098055555556,
+   "lon": 8.7147222222222
+  },
+  "attributes": {
+   "countries": [
+    "country:CH",
+    "country:IT"
+   ],
+   "continent": "europe",
+   "area_km2": 212.5,
+   "sitelinks": 81,
+   "kind": "lake",
+   "wikidata": "Q14379"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q14379",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q173596",
+  "type": "lake",
+  "names": {
+   "de": "Vänern",
+   "en": "Vänern"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 58.916666666667,
+   "lon": 13.5
+  },
+  "attributes": {
+   "country": "country:SE",
+   "countries": [
+    "country:SE"
+   ],
+   "continent": "europe",
+   "area_km2": 5650,
+   "sitelinks": 79,
+   "kind": "lake",
+   "wikidata": "Q173596"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q173596",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q49650",
+  "type": "lake",
+  "names": {
+   "de": "Loch Ness",
+   "en": "Loch Ness"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 57.3,
+   "lon": -4.45
+  },
+  "attributes": {
+   "country": "country:GB",
+   "countries": [
+    "country:GB"
+   ],
+   "continent": "europe",
+   "area_km2": 56.4,
+   "sitelinks": 78,
+   "kind": "lake",
+   "wikidata": "Q49650"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q49650",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q173862",
+  "type": "lake",
+  "names": {
+   "de": "Nicaraguasee",
+   "en": "Lake Nicaragua"
+  },
+  "aliases": [
+   "Lake Nicaragua"
+  ],
+  "location": {
+   "lat": 11.5742,
+   "lon": -85.3563
+  },
+  "attributes": {
+   "country": "country:NI",
+   "countries": [
+    "country:NI"
+   ],
+   "continent": "north-america",
+   "area_km2": 8264,
+   "sitelinks": 78,
+   "kind": "lake",
+   "wikidata": "Q173862"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q173862",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q116685",
+  "type": "lake",
+  "names": {
+   "de": "Tanasee",
+   "en": "Lake Tana"
+  },
+  "aliases": [
+   "Lake Tana"
+  ],
+  "location": {
+   "lat": 12,
+   "lon": 37.25
+  },
+  "attributes": {
+   "country": "country:ET",
+   "countries": [
+    "country:ET"
+   ],
+   "continent": "africa",
+   "area_km2": 3600,
+   "sitelinks": 77,
+   "kind": "lake",
+   "wikidata": "Q116685"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q116685",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q192770",
+  "type": "lake",
+  "names": {
+   "de": "Saimaa",
+   "en": "Saimaa"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 61.25,
+   "lon": 28.25
+  },
+  "attributes": {
+   "country": "country:FI",
+   "countries": [
+    "country:FI"
+   ],
+   "continent": "europe",
+   "area_km2": 4400,
+   "sitelinks": 77,
+   "kind": "lake",
+   "wikidata": "Q192770"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q192770",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q181932",
+  "type": "lake",
+  "names": {
+   "de": "Sewansee",
+   "en": "Lake Sevan"
+  },
+  "aliases": [
+   "Lake Sevan"
+  ],
+  "location": {
+   "lat": 40.310555555556,
+   "lon": 45.349166666667
+  },
+  "attributes": {
+   "country": "country:AM",
+   "countries": [
+    "country:AM"
+   ],
+   "continent": "asia",
+   "area_km2": 1270.7,
+   "sitelinks": 76,
+   "kind": "lake",
+   "wikidata": "Q181932"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q181932",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q125211",
+  "type": "lake",
+  "names": {
+   "de": "Eduardsee",
+   "en": "Lake Edward"
+  },
+  "aliases": [
+   "Lake Edward"
+  ],
+  "location": {
+   "lat": -0.33333333333333,
+   "lon": 29.6
+  },
+  "attributes": {
+   "countries": [
+    "country:CD",
+    "country:UG"
+   ],
+   "continent": "africa",
+   "area_km2": 2150,
+   "sitelinks": 75,
+   "kind": "lake",
+   "wikidata": "Q125211"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q125211",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q3272",
+  "type": "lake",
+  "names": {
+   "de": "Winnipegsee",
+   "en": "Lake Winnipeg"
+  },
+  "aliases": [
+   "Lake Winnipeg"
+  ],
+  "location": {
+   "lat": 52.116666666667,
+   "lon": -97.25
+  },
+  "attributes": {
+   "country": "country:CA",
+   "countries": [
+    "country:CA"
+   ],
+   "continent": "north-america",
+   "area_km2": 24400,
+   "sitelinks": 75,
+   "kind": "lake",
+   "wikidata": "Q3272"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q3272",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q5525",
+  "type": "lake",
+  "names": {
+   "de": "Großer Bärensee",
+   "en": "Great Bear Lake"
+  },
+  "aliases": [
+   "Great Bear Lake"
+  ],
+  "location": {
+   "lat": 66,
+   "lon": -121
+  },
+  "attributes": {
+   "country": "country:CA",
+   "countries": [
+    "country:CA"
+   ],
+   "continent": "north-america",
+   "area_km2": 31153,
+   "sitelinks": 74,
+   "kind": "lake",
+   "wikidata": "Q5525"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q5525",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q182137",
+  "type": "lake",
+  "names": {
+   "de": "Maracaibo-See",
+   "en": "Lake Maracaibo"
+  },
+  "aliases": [
+   "Lake Maracaibo"
+  ],
+  "location": {
+   "lat": 9.8158333333333,
+   "lon": -71.556666666667
+  },
+  "attributes": {
+   "country": "country:VE",
+   "countries": [
+    "country:VE"
+   ],
+   "continent": "south-america",
+   "area_km2": 13210,
+   "sitelinks": 72,
+   "kind": "lake",
+   "wikidata": "Q182137"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q182137",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q201294",
+  "type": "lake",
+  "names": {
+   "de": "Qinghai-See",
+   "en": "Qinghai Lake"
+  },
+  "aliases": [
+   "Qinghai Lake"
+  ],
+  "location": {
+   "lat": 37,
+   "lon": 100
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "area_km2": 4400,
+   "sitelinks": 72,
+   "kind": "lake",
+   "wikidata": "Q201294"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q201294",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q179970",
+  "type": "lake",
+  "names": {
+   "de": "Kati Thanda–Lake Eyre",
+   "en": "Kati Thanda–Lake Eyre"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -28.666666666667,
+   "lon": 137.16666666667
+  },
+  "attributes": {
+   "country": "country:AU",
+   "countries": [
+    "country:AU"
+   ],
+   "continent": "oceania",
+   "area_km2": 9300,
+   "sitelinks": 71,
+   "kind": "lake",
+   "wikidata": "Q179970"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q179970",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q504433",
+  "type": "lake",
+  "names": {
+   "de": "Mwerusee",
+   "en": "Lake Mweru"
+  },
+  "aliases": [
+   "Lake Mweru"
+  ],
+  "location": {
+   "lat": -9.1666666666667,
+   "lon": 28.5
+  },
+  "attributes": {
+   "countries": [
+    "country:CD",
+    "country:ZM"
+   ],
+   "continent": "africa",
+   "area_km2": 4650,
+   "sitelinks": 68,
+   "kind": "lake",
+   "wikidata": "Q504433"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q504433",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q19253",
+  "type": "lake",
+  "names": {
+   "de": "Peipussee",
+   "en": "Lake Peipus"
+  },
+  "aliases": [
+   "Lake Peipus"
+  ],
+  "location": {
+   "lat": 58.676666666667,
+   "lon": 27.491666666667
+  },
+  "attributes": {
+   "countries": [
+    "country:RU",
+    "country:EE"
+   ],
+   "continent": "europe",
+   "area_km2": 3543,
+   "sitelinks": 67,
+   "kind": "lake",
+   "wikidata": "Q19253"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q19253",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q207690",
+  "type": "lake",
+  "names": {
+   "de": "Poyang-See",
+   "en": "Poyang Lake"
+  },
+  "aliases": [
+   "Poyang Lake"
+  ],
+  "location": {
+   "lat": 29.066666666667,
+   "lon": 116.38333333333
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "area_km2": 5100,
+   "sitelinks": 66,
+   "kind": "lake",
+   "wikidata": "Q207690"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q207690",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q188195",
+  "type": "lake",
+  "names": {
+   "de": "Vättern",
+   "en": "Vättern"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 58.4,
+   "lon": 14.6
+  },
+  "attributes": {
+   "country": "country:SE",
+   "countries": [
+    "country:SE"
+   ],
+   "continent": "europe",
+   "area_km2": 1893,
+   "sitelinks": 65,
+   "kind": "lake",
+   "wikidata": "Q188195"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q188195",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q14418",
+  "type": "lake",
+  "names": {
+   "de": "Luganersee",
+   "en": "Lake Lugano"
+  },
+  "aliases": [
+   "Lake Lugano"
+  ],
+  "location": {
+   "lat": 46,
+   "lon": 9
+  },
+  "attributes": {
+   "countries": [
+    "country:CH",
+    "country:IT"
+   ],
+   "continent": "europe",
+   "area_km2": 48.7,
+   "sitelinks": 64,
+   "kind": "lake",
+   "wikidata": "Q14418"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q14418",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q184492",
+  "type": "lake",
+  "names": {
+   "de": "Mälaren",
+   "en": "Mälaren"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 59.5,
+   "lon": 17.2
+  },
+  "attributes": {
+   "country": "country:SE",
+   "countries": [
+    "country:SE"
+   ],
+   "continent": "europe",
+   "area_km2": 1072,
+   "sitelinks": 64,
+   "kind": "lake",
+   "wikidata": "Q184492"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q184492",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q14407",
+  "type": "lake",
+  "names": {
+   "de": "Zürichsee",
+   "en": "Lake Zurich"
+  },
+  "aliases": [
+   "Lake Zurich"
+  ],
+  "location": {
+   "lat": 47.2475,
+   "lon": 8.6775
+  },
+  "attributes": {
+   "country": "country:CH",
+   "countries": [
+    "country:CH"
+   ],
+   "continent": "europe",
+   "area_km2": 88.7,
+   "sitelinks": 63,
+   "kind": "lake",
+   "wikidata": "Q14407"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q14407",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q156258",
+  "type": "lake",
+  "names": {
+   "de": "Ohridsee",
+   "en": "Lake Ohrid"
+  },
+  "aliases": [
+   "Lake Ohrid"
+  ],
+  "location": {
+   "lat": 41.033333333333,
+   "lon": 20.716666666667
+  },
+  "attributes": {
+   "countries": [
+    "country:AL",
+    "country:MK"
+   ],
+   "continent": "europe",
+   "area_km2": 349,
+   "sitelinks": 63,
+   "kind": "lake",
+   "wikidata": "Q156258"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q156258",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q199938",
+  "type": "lake",
+  "names": {
+   "de": "Tonle Sap",
+   "en": "Tonle Sap"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 12.883333333333,
+   "lon": 104.06666666667
+  },
+  "attributes": {
+   "country": "country:KH",
+   "countries": [
+    "country:KH"
+   ],
+   "continent": "asia",
+   "area_km2": 2700,
+   "sitelinks": 63,
+   "kind": "lake",
+   "wikidata": "Q199938"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q199938",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q233627",
+  "type": "lake",
+  "names": {
+   "de": "Manasarovar",
+   "en": "Lake Manasarovar"
+  },
+  "aliases": [
+   "Lake Manasarovar"
+  ],
+  "location": {
+   "lat": 30.666666666667,
+   "lon": 81.5
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "area_km2": 395,
+   "sitelinks": 62,
+   "kind": "lake",
+   "wikidata": "Q233627"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q233627",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q203137",
+  "type": "lake",
+  "names": {
+   "de": "Inarijärvi",
+   "en": "Lake Inari"
+  },
+  "aliases": [
+   "Lake Inari"
+  ],
+  "location": {
+   "lat": 68.9596511,
+   "lon": 27.6017069
+  },
+  "attributes": {
+   "country": "country:FI",
+   "countries": [
+    "country:FI"
+   ],
+   "continent": "europe",
+   "area_km2": 1081.9,
+   "sitelinks": 61,
+   "kind": "lake",
+   "wikidata": "Q203137"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q203137",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q14381",
+  "type": "lake",
+  "names": {
+   "de": "Vierwaldstättersee",
+   "en": "Lake Lucerne"
+  },
+  "aliases": [
+   "Lake Lucerne"
+  ],
+  "location": {
+   "lat": 47.0194,
+   "lon": 8.4011
+  },
+  "attributes": {
+   "country": "country:CH",
+   "countries": [
+    "country:CH"
+   ],
+   "continent": "europe",
+   "area_km2": 113.6,
+   "sitelinks": 60,
+   "kind": "lake",
+   "wikidata": "Q14381"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q14381",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q188487",
+  "type": "lake",
+  "names": {
+   "de": "Lago Trasimeno",
+   "en": "Lake Trasimeno"
+  },
+  "aliases": [
+   "Lake Trasimeno"
+  ],
+  "location": {
+   "lat": 43.14,
+   "lon": 12.1
+  },
+  "attributes": {
+   "country": "country:IT",
+   "countries": [
+    "country:IT"
+   ],
+   "continent": "europe",
+   "area_km2": 128,
+   "sitelinks": 59,
+   "kind": "lake",
+   "wikidata": "Q188487"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q188487",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q204392",
+  "type": "lake",
+  "names": {
+   "de": "Prespasee",
+   "en": "Lake Prespa"
+  },
+  "aliases": [
+   "Lake Prespa"
+  ],
+  "location": {
+   "lat": 40.9,
+   "lon": 21.05
+  },
+  "attributes": {
+   "countries": [
+    "country:AL",
+    "country:GR",
+    "country:MK"
+   ],
+   "continent": "europe",
+   "area_km2": 273,
+   "sitelinks": 59,
+   "kind": "lake",
+   "wikidata": "Q204392"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q204392",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q502371",
+  "type": "lake",
+  "names": {
+   "de": "Westsee",
+   "en": "West Lake"
+  },
+  "aliases": [
+   "West Lake"
+  ],
+  "location": {
+   "lat": 30.2375,
+   "lon": 120.14083333333
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "area_km2": 6.5,
+   "sitelinks": 59,
+   "kind": "lake",
+   "wikidata": "Q502371"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q502371",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q201843",
+  "type": "lake",
+  "names": {
+   "de": "Chankasee",
+   "en": "Khanka"
+  },
+  "aliases": [
+   "Khanka"
+  ],
+  "location": {
+   "lat": 45.016666666667,
+   "lon": 132.41666666667
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:RU"
+   ],
+   "continent": "asia",
+   "area_km2": 4190,
+   "sitelinks": 58,
+   "kind": "lake",
+   "wikidata": "Q201843"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q201843",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q272463",
+  "type": "lake",
+  "names": {
+   "de": "Athabascasee",
+   "en": "Lake Athabasca"
+  },
+  "aliases": [
+   "Lake Athabasca"
+  ],
+  "location": {
+   "lat": 59.266666666667,
+   "lon": -109.45
+  },
+  "attributes": {
+   "country": "country:CA",
+   "countries": [
+    "country:CA"
+   ],
+   "continent": "north-america",
+   "area_km2": 7850,
+   "sitelinks": 57,
+   "kind": "lake",
+   "wikidata": "Q272463"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q272463",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q4138",
+  "type": "lake",
+  "names": {
+   "de": "Chiemsee",
+   "en": "Chiemsee"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 47.89,
+   "lon": 12.47
+  },
+  "attributes": {
+   "country": "country:DE",
+   "countries": [
+    "country:DE"
+   ],
+   "continent": "europe",
+   "area_km2": 79.9,
+   "sitelinks": 57,
+   "kind": "lake",
+   "wikidata": "Q4138"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q4138",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q14375",
+  "type": "lake",
+  "names": {
+   "de": "Neuenburgersee",
+   "en": "Lake Neuchâtel"
+  },
+  "aliases": [
+   "Lake Neuchâtel"
+  ],
+  "location": {
+   "lat": 46.9,
+   "lon": 6.85
+  },
+  "attributes": {
+   "country": "country:CH",
+   "countries": [
+    "country:CH"
+   ],
+   "continent": "europe",
+   "area_km2": 217.9,
+   "sitelinks": 56,
+   "kind": "lake",
+   "wikidata": "Q14375"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q14375",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q203811",
+  "type": "lake",
+  "names": {
+   "de": "Skutarisee",
+   "en": "Lake Skadar"
+  },
+  "aliases": [
+   "Lake Skadar"
+  ],
+  "location": {
+   "lat": 42.1814,
+   "lon": 19.309
+  },
+  "attributes": {
+   "countries": [
+    "country:AL",
+    "country:ME"
+   ],
+   "continent": "europe",
+   "area_km2": 530,
+   "sitelinks": 55,
+   "kind": "lake",
+   "wikidata": "Q203811"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q203811",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q648902",
+  "type": "lake",
+  "names": {
+   "de": "Bleder See",
+   "en": "Lake Bled"
+  },
+  "aliases": [
+   "Lake Bled"
+  ],
+  "location": {
+   "lat": 46.364444444444,
+   "lon": 14.094722222222
+  },
+  "attributes": {
+   "country": "country:SI",
+   "countries": [
+    "country:SI"
+   ],
+   "continent": "europe",
+   "area_km2": 1.5,
+   "sitelinks": 55,
+   "kind": "lake",
+   "wikidata": "Q648902"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q648902",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q208926",
+  "type": "lake",
+  "names": {
+   "de": "Loch Lomond",
+   "en": "Loch Lomond"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 56.1482,
+   "lon": -4.6515
+  },
+  "attributes": {
+   "country": "country:GB",
+   "countries": [
+    "country:GB"
+   ],
+   "continent": "europe",
+   "area_km2": 71,
+   "sitelinks": 54,
+   "kind": "lake",
+   "wikidata": "Q208926"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q208926",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q216083",
+  "type": "lake",
+  "names": {
+   "de": "Dongting-See",
+   "en": "Dongting Lake"
+  },
+  "aliases": [
+   "Dongting Lake"
+  ],
+  "location": {
+   "lat": 29.316666666667,
+   "lon": 112.95
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "area_km2": 4350,
+   "sitelinks": 53,
+   "kind": "lake",
+   "wikidata": "Q216083"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q216083",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q464945",
+  "type": "lake",
+  "names": {
+   "de": "Poopó-See",
+   "en": "Poopó Lake"
+  },
+  "aliases": [
+   "Poopó Lake"
+  ],
+  "location": {
+   "lat": -18.781944444444,
+   "lon": -67.024722222222
+  },
+  "attributes": {
+   "country": "country:BO",
+   "countries": [
+    "country:BO"
+   ],
+   "continent": "south-america",
+   "area_km2": 1340,
+   "sitelinks": 53,
+   "kind": "lake",
+   "wikidata": "Q464945"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q464945",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q203462",
+  "type": "lake",
+  "names": {
+   "de": "Ilmensee",
+   "en": "Ilmen"
+  },
+  "aliases": [
+   "Ilmen"
+  ],
+  "location": {
+   "lat": 58.266666666667,
+   "lon": 31.283333333333
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "area_km2": 982,
+   "sitelinks": 52,
+   "kind": "lake",
+   "wikidata": "Q203462"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q203462",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q206942",
+  "type": "lake",
+  "names": {
+   "de": "Lough Neagh",
+   "en": "Lough Neagh"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 54.618333333333,
+   "lon": -6.3952777777778
+  },
+  "attributes": {
+   "country": "country:GB",
+   "countries": [
+    "country:GB"
+   ],
+   "continent": "europe",
+   "area_km2": 392,
+   "sitelinks": 52,
+   "kind": "lake",
+   "wikidata": "Q206942"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q206942",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q329266",
+  "type": "lake",
+  "names": {
+   "de": "Crater Lake",
+   "en": "Crater Lake"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 42.943611111111,
+   "lon": -122.10666666667
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "area_km2": 53.2,
+   "sitelinks": 52,
+   "kind": "lake",
+   "wikidata": "Q329266"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q329266",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q15648",
+  "type": "lake",
+  "names": {
+   "de": "Iseosee",
+   "en": "Lake Iseo"
+  },
+  "aliases": [
+   "Lake Iseo"
+  ],
+  "location": {
+   "lat": 45.711666666667,
+   "lon": 10.071944444444
+  },
+  "attributes": {
+   "country": "country:IT",
+   "countries": [
+    "country:IT"
+   ],
+   "continent": "europe",
+   "area_km2": 65.3,
+   "sitelinks": 51,
+   "kind": "lake",
+   "wikidata": "Q15648"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q15648",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q140712",
+  "type": "lake",
+  "names": {
+   "de": "Tai Hu",
+   "en": "Lake Tai"
+  },
+  "aliases": [
+   "Lake Tai"
+  ],
+  "location": {
+   "lat": 31.166666666667,
+   "lon": 120.15
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "area_km2": 2250,
+   "sitelinks": 51,
+   "kind": "lake",
+   "wikidata": "Q140712"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q140712",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q211516",
+  "type": "lake",
+  "names": {
+   "de": "Võrtsjärv",
+   "en": "Võrtsjärv"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 58.266666666667,
+   "lon": 26.033333333333
+  },
+  "attributes": {
+   "country": "country:EE",
+   "countries": [
+    "country:EE"
+   ],
+   "continent": "europe",
+   "area_km2": 269.2,
+   "sitelinks": 50,
+   "kind": "lake",
+   "wikidata": "Q211516"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q211516",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q272380",
+  "type": "lake",
+  "names": {
+   "de": "Managuasee",
+   "en": "Lake Managua"
+  },
+  "aliases": [
+   "Lake Managua"
+  ],
+  "location": {
+   "lat": 12.333333333333,
+   "lon": -86.416666666667
+  },
+  "attributes": {
+   "country": "country:NI",
+   "countries": [
+    "country:NI"
+   ],
+   "continent": "north-america",
+   "area_km2": 1042,
+   "sitelinks": 50,
+   "kind": "lake",
+   "wikidata": "Q272380"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q272380",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q332628",
+  "type": "lake",
+  "names": {
+   "de": "Nyos-See",
+   "en": "Lake Nyos"
+  },
+  "aliases": [
+   "Lake Nyos"
+  ],
+  "location": {
+   "lat": 6.4380555555556,
+   "lon": 10.298888888889
+  },
+  "attributes": {
+   "country": "country:CM",
+   "countries": [
+    "country:CM"
+   ],
+   "continent": "africa",
+   "area_km2": 1.6,
+   "sitelinks": 49,
+   "kind": "lake",
+   "wikidata": "Q332628"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q332628",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q651294",
+  "type": "lake",
+  "names": {
+   "de": "Nam Co",
+   "en": "Namtso"
+  },
+  "aliases": [
+   "Namtso"
+  ],
+  "location": {
+   "lat": 30.720833333333,
+   "lon": 90.468055555556
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "area_km2": 1920,
+   "sitelinks": 49,
+   "kind": "lake",
+   "wikidata": "Q651294"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q651294",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q131615",
+  "type": "lake",
+  "names": {
+   "de": "Starnberger See",
+   "en": "Lake Starnberg"
+  },
+  "aliases": [
+   "Lake Starnberg"
+  ],
+  "location": {
+   "lat": 47.903888888889,
+   "lon": 11.307222222222
+  },
+  "attributes": {
+   "country": "country:DE",
+   "countries": [
+    "country:DE"
+   ],
+   "continent": "europe",
+   "area_km2": 56.4,
+   "sitelinks": 48,
+   "kind": "lake",
+   "wikidata": "Q131615"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q131615",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q156715",
+  "type": "lake",
+  "names": {
+   "de": "Königssee",
+   "en": "Königssee"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 47.55,
+   "lon": 12.975
+  },
+  "attributes": {
+   "country": "country:DE",
+   "countries": [
+    "country:DE"
+   ],
+   "continent": "europe",
+   "area_km2": 5.2,
+   "sitelinks": 48,
+   "kind": "lake",
+   "wikidata": "Q156715"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q156715",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q68467",
+  "type": "lake",
+  "names": {
+   "de": "Lake Champlain",
+   "en": "Lake Champlain"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 44.53,
+   "lon": -73.33
+  },
+  "attributes": {
+   "countries": [
+    "country:US",
+    "country:CA"
+   ],
+   "continent": "north-america",
+   "area_km2": 1269,
+   "sitelinks": 47,
+   "kind": "lake",
+   "wikidata": "Q68467"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q68467",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q216621",
+  "type": "lake",
+  "names": {
+   "de": "Saissansee",
+   "en": "Lake Zaysan"
+  },
+  "aliases": [
+   "Lake Zaysan"
+  ],
+  "location": {
+   "lat": 48,
+   "lon": 84
+  },
+  "attributes": {
+   "country": "country:KZ",
+   "countries": [
+    "country:KZ"
+   ],
+   "continent": "asia",
+   "area_km2": 1860,
+   "sitelinks": 47,
+   "kind": "lake",
+   "wikidata": "Q216621"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q216621",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q334761",
+  "type": "lake",
+  "names": {
+   "de": "Ülemiste-See",
+   "en": "Lake Ülemiste"
+  },
+  "aliases": [
+   "Lake Ülemiste"
+  ],
+  "location": {
+   "lat": 59.3993,
+   "lon": 24.7689
+  },
+  "attributes": {
+   "country": "country:EE",
+   "countries": [
+    "country:EE"
+   ],
+   "continent": "europe",
+   "area_km2": 9.4,
+   "sitelinks": 47,
+   "kind": "lake",
+   "wikidata": "Q334761"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q334761",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q845868",
+  "type": "lake",
+  "names": {
+   "de": "Taimyrsee",
+   "en": "Taymyr"
+  },
+  "aliases": [
+   "Taymyr"
+  ],
+  "location": {
+   "lat": 74.533333333333,
+   "lon": 101.63333333333
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "area_km2": 4560,
+   "sitelinks": 47,
+   "kind": "lake",
+   "wikidata": "Q845868"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q845868",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q946194",
+  "type": "lake",
+  "names": {
+   "de": "Riza-See",
+   "en": "Lake Ritsa"
+  },
+  "aliases": [
+   "Lake Ritsa"
+  ],
+  "location": {
+   "lat": 43.4811,
+   "lon": 40.5415
+  },
+  "attributes": {
+   "country": "country:GE",
+   "countries": [
+    "country:GE"
+   ],
+   "continent": "asia",
+   "area_km2": 1.5,
+   "sitelinks": 47,
+   "kind": "lake",
+   "wikidata": "Q946194"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q946194",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q1032254",
+  "type": "lake",
+  "names": {
+   "de": "Pangong Tso",
+   "en": "Pangong Tso"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 33.704722222222,
+   "lon": 78.75
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:IN"
+   ],
+   "continent": "asia",
+   "area_km2": 690,
+   "sitelinks": 47,
+   "kind": "lake",
+   "wikidata": "Q1032254"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1032254",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q212051",
+  "type": "lake",
+  "names": {
+   "de": "Mývatn",
+   "en": "Mývatn"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 65.6,
+   "lon": -17
+  },
+  "attributes": {
+   "country": "country:IS",
+   "countries": [
+    "country:IS"
+   ],
+   "continent": "europe",
+   "area_km2": 37,
+   "sitelinks": 46,
+   "kind": "lake",
+   "wikidata": "Q212051"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q212051",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q217109",
+  "type": "lake",
+  "names": {
+   "de": "Telezker See",
+   "en": "Teletskoe"
+  },
+  "aliases": [
+   "Teletskoe"
+  ],
+  "location": {
+   "lat": 51.529166666667,
+   "lon": 87.714722222222
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "area_km2": 233,
+   "sitelinks": 46,
+   "kind": "lake",
+   "wikidata": "Q217109"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q217109",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q257416",
+  "type": "lake",
+  "names": {
+   "de": "Sarykamyschsee",
+   "en": "Sarygamysh Lake"
+  },
+  "aliases": [
+   "Sarygamysh Lake"
+  ],
+  "location": {
+   "lat": 42,
+   "lon": 57.333333333333
+  },
+  "attributes": {
+   "countries": [
+    "country:UZ",
+    "country:TM"
+   ],
+   "continent": "asia",
+   "area_km2": 3955,
+   "sitelinks": 46,
+   "kind": "lake",
+   "wikidata": "Q257416"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q257416",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q14429",
+  "type": "lake",
+  "names": {
+   "de": "Bielersee",
+   "en": "Lake Biel"
+  },
+  "aliases": [
+   "Lake Biel"
+  ],
+  "location": {
+   "lat": 47.085555555556,
+   "lon": 7.1741666666667
+  },
+  "attributes": {
+   "country": "country:CH",
+   "countries": [
+    "country:CH"
+   ],
+   "continent": "europe",
+   "area_km2": 39.3,
+   "sitelinks": 45,
+   "kind": "lake",
+   "wikidata": "Q14429"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q14429",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q212209",
+  "type": "lake",
+  "names": {
+   "de": "Mjøsa",
+   "en": "Mjøsa"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 60.666666666667,
+   "lon": 11
+  },
+  "attributes": {
+   "country": "country:NO",
+   "countries": [
+    "country:NO"
+   ],
+   "continent": "europe",
+   "area_km2": 369.5,
+   "sitelinks": 45,
+   "kind": "lake",
+   "wikidata": "Q212209"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q212209",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q337",
+  "type": "lake",
+  "names": {
+   "de": "Lake Chaubunagungamaug",
+   "en": "Lake Chaubunagungamaug"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 42.0425,
+   "lon": -71.843333333333
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "area_km2": 5.8,
+   "sitelinks": 45,
+   "kind": "lake",
+   "wikidata": "Q337"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q337",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q387256",
+  "type": "lake",
+  "names": {
+   "de": "Śniardwy",
+   "en": "Śniardwy"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 53.75,
+   "lon": 21.716666666667
+  },
+  "attributes": {
+   "country": "country:PL",
+   "countries": [
+    "country:PL"
+   ],
+   "continent": "europe",
+   "area_km2": 113.8,
+   "sitelinks": 45,
+   "kind": "lake",
+   "wikidata": "Q387256"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q387256",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q158077",
+  "type": "lake",
+  "names": {
+   "de": "Dojransee",
+   "en": "Dojran Lake"
+  },
+  "aliases": [
+   "Dojran Lake"
+  ],
+  "location": {
+   "lat": 41.216666666667,
+   "lon": 22.75
+  },
+  "attributes": {
+   "countries": [
+    "country:GR",
+    "country:MK"
+   ],
+   "continent": "europe",
+   "area_km2": 43.1,
+   "sitelinks": 44,
+   "kind": "lake",
+   "wikidata": "Q158077"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q158077",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q213769",
+  "type": "lake",
+  "names": {
+   "de": "Päijänne",
+   "en": "Päijänne"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 61.5081187,
+   "lon": 25.3791056
+  },
+  "attributes": {
+   "country": "country:FI",
+   "countries": [
+    "country:FI"
+   ],
+   "continent": "europe",
+   "area_km2": 1082.9,
+   "sitelinks": 44,
+   "kind": "lake",
+   "wikidata": "Q213769"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q213769",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q325391",
+  "type": "lake",
+  "names": {
+   "de": "Dal-See",
+   "en": "Dal Lake"
+  },
+  "aliases": [
+   "Dal Lake"
+  ],
+  "location": {
+   "lat": 34.12,
+   "lon": 74.87
+  },
+  "attributes": {
+   "country": "country:IN",
+   "countries": [
+    "country:IN"
+   ],
+   "continent": "asia",
+   "area_km2": 20,
+   "sitelinks": 44,
+   "kind": "lake",
+   "wikidata": "Q325391"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q325391",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q673169",
+  "type": "lake",
+  "names": {
+   "de": "Bangweulusee",
+   "en": "Lake Bangweulu"
+  },
+  "aliases": [
+   "Lake Bangweulu"
+  ],
+  "location": {
+   "lat": -11.083333333333,
+   "lon": 29.75
+  },
+  "attributes": {
+   "country": "country:ZM",
+   "countries": [
+    "country:ZM"
+   ],
+   "continent": "africa",
+   "area_km2": 9840,
+   "sitelinks": 44,
+   "kind": "lake",
+   "wikidata": "Q673169"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q673169",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q750025",
+  "type": "lake",
+  "names": {
+   "de": "Pool Malebo",
+   "en": "Pool Malebo"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -4.2819444444444,
+   "lon": 15.488611111111
+  },
+  "attributes": {
+   "countries": [
+    "country:CG",
+    "country:CD"
+   ],
+   "continent": "africa",
+   "area_km2": 400,
+   "sitelinks": 44,
+   "kind": "lake",
+   "wikidata": "Q750025"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q750025",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q753898",
+  "type": "lake",
+  "names": {
+   "de": "Lago Argentino",
+   "en": "Argentino Lake"
+  },
+  "aliases": [
+   "Argentino Lake"
+  ],
+  "location": {
+   "lat": -50.233333333333,
+   "lon": -72.766666666667
+  },
+  "attributes": {
+   "country": "country:AR",
+   "countries": [
+    "country:AR"
+   ],
+   "continent": "south-america",
+   "area_km2": 1415,
+   "sitelinks": 44,
+   "kind": "lake",
+   "wikidata": "Q753898"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q753898",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q14426",
+  "type": "lake",
+  "names": {
+   "de": "Thunersee",
+   "en": "Lake Thun"
+  },
+  "aliases": [
+   "Lake Thun"
+  ],
+  "location": {
+   "lat": 46.683333333333,
+   "lon": 7.7166666666667
+  },
+  "attributes": {
+   "country": "country:CH",
+   "countries": [
+    "country:CH"
+   ],
+   "continent": "europe",
+   "area_km2": 43.8,
+   "sitelinks": 44,
+   "kind": "lake",
+   "wikidata": "Q14426"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q14426",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q211425",
+  "type": "lake",
+  "names": {
+   "de": "Hjälmaren",
+   "en": "Hjälmaren"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 59.25,
+   "lon": 15.75
+  },
+  "attributes": {
+   "country": "country:SE",
+   "countries": [
+    "country:SE"
+   ],
+   "continent": "europe",
+   "area_km2": 483,
+   "sitelinks": 43,
+   "kind": "lake",
+   "wikidata": "Q211425"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q211425",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q714023",
+  "type": "lake",
+  "names": {
+   "de": "Himmelssee",
+   "en": "Heaven Lake"
+  },
+  "aliases": [
+   "Heaven Lake"
+  ],
+  "location": {
+   "lat": 42.006,
+   "lon": 128.057
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:KP"
+   ],
+   "continent": "asia",
+   "area_km2": 9.8,
+   "sitelinks": 43,
+   "kind": "lake",
+   "wikidata": "Q714023"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q714023",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q736707",
+  "type": "lake",
+  "names": {
+   "de": "Lake St. Clair",
+   "en": "Lake Saint Clair"
+  },
+  "aliases": [
+   "Lake Saint Clair"
+  ],
+  "location": {
+   "lat": 42.450265,
+   "lon": -82.67572
+  },
+  "attributes": {
+   "countries": [
+    "country:CA",
+    "country:US"
+   ],
+   "continent": "north-america",
+   "area_km2": 1114,
+   "sitelinks": 43,
+   "kind": "lake",
+   "wikidata": "Q736707"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q736707",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q746975",
+  "type": "lake",
+  "names": {
+   "de": "Chilwa See",
+   "en": "Lake Chilwa"
+  },
+  "aliases": [
+   "Lake Chilwa"
+  ],
+  "location": {
+   "lat": -15.3,
+   "lon": 35.7
+  },
+  "attributes": {
+   "country": "country:MW",
+   "countries": [
+    "country:MW"
+   ],
+   "continent": "africa",
+   "area_km2": 1200,
+   "sitelinks": 43,
+   "kind": "lake",
+   "wikidata": "Q746975"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q746975",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q3369",
+  "type": "lake",
+  "names": {
+   "de": "Müritz",
+   "en": "Müritz"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 53.416666666667,
+   "lon": 12.683333333333
+  },
+  "attributes": {
+   "country": "country:DE",
+   "countries": [
+    "country:DE"
+   ],
+   "continent": "europe",
+   "area_km2": 112.6,
+   "sitelinks": 43,
+   "kind": "lake",
+   "wikidata": "Q3369"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q3369",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q14442",
+  "type": "lake",
+  "names": {
+   "de": "Brienzersee",
+   "en": "Lake Brienz"
+  },
+  "aliases": [
+   "Lake Brienz"
+  ],
+  "location": {
+   "lat": 46.716667,
+   "lon": 7.95
+  },
+  "attributes": {
+   "country": "country:CH",
+   "countries": [
+    "country:CH"
+   ],
+   "continent": "europe",
+   "area_km2": 29.8,
+   "sitelinks": 43,
+   "kind": "lake",
+   "wikidata": "Q14442"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q14442",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q537374",
+  "type": "lake",
+  "names": {
+   "de": "Hulun-See",
+   "en": "Hulun Lake"
+  },
+  "aliases": [
+   "Hulun Lake"
+  ],
+  "location": {
+   "lat": 48.973055555556,
+   "lon": 117.43555555556
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "area_km2": 2399,
+   "sitelinks": 42,
+   "kind": "lake",
+   "wikidata": "Q537374"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q537374",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q720015",
+  "type": "lake",
+  "names": {
+   "de": "Karakul",
+   "en": "Karakul"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 39.04,
+   "lon": 73.42
+  },
+  "attributes": {
+   "country": "country:TJ",
+   "countries": [
+    "country:TJ"
+   ],
+   "continent": "asia",
+   "area_km2": 380,
+   "sitelinks": 42,
+   "kind": "lake",
+   "wikidata": "Q720015"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q720015",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q886946",
+  "type": "lake",
+  "names": {
+   "de": "Bláa Lónið",
+   "en": "Blue Lagoon"
+  },
+  "aliases": [
+   "Blue Lagoon"
+  ],
+  "location": {
+   "lat": 63.8791993353,
+   "lon": -22.4455229603
+  },
+  "attributes": {
+   "country": "country:IS",
+   "countries": [
+    "country:IS"
+   ],
+   "continent": "europe",
+   "sitelinks": 41,
+   "kind": "lake",
+   "wikidata": "Q886946"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q886946",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q335432",
+  "type": "lake",
+  "names": {
+   "de": "Þingvallavatn",
+   "en": "Þingvallavatn"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 64.1875,
+   "lon": -21.135
+  },
+  "attributes": {
+   "country": "country:IS",
+   "countries": [
+    "country:IS"
+   ],
+   "continent": "europe",
+   "area_km2": 83,
+   "sitelinks": 41,
+   "kind": "lake",
+   "wikidata": "Q335432"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q335432",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q503842",
+  "type": "lake",
+  "names": {
+   "de": "Lago Buenos Aires / Lago General Carrera",
+   "en": "Lake General Carrera/Buenos Aires"
+  },
+  "aliases": [
+   "Lake General Carrera/Buenos Aires"
+  ],
+  "location": {
+   "lat": -46.4375,
+   "lon": -71.715
+  },
+  "attributes": {
+   "countries": [
+    "country:CL",
+    "country:AR"
+   ],
+   "continent": "south-america",
+   "area_km2": 1850,
+   "sitelinks": 41,
+   "kind": "lake",
+   "wikidata": "Q503842"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q503842",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q575679",
+  "type": "lake",
+  "names": {
+   "de": "Lac Alaotra",
+   "en": "Lake Alaotra"
+  },
+  "aliases": [
+   "Lake Alaotra"
+  ],
+  "location": {
+   "lat": -17.5,
+   "lon": 48.5
+  },
+  "attributes": {
+   "country": "country:MG",
+   "countries": [
+    "country:MG"
+   ],
+   "continent": "africa",
+   "area_km2": 900,
+   "sitelinks": 41,
+   "kind": "lake",
+   "wikidata": "Q575679"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q575679",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q611206",
+  "type": "lake",
+  "names": {
+   "de": "Bosten-See",
+   "en": "Bosten Lake"
+  },
+  "aliases": [
+   "Bosten Lake"
+  ],
+  "location": {
+   "lat": 42,
+   "lon": 87
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "area_km2": 1010,
+   "sitelinks": 41,
+   "kind": "lake",
+   "wikidata": "Q611206"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q611206",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q645901",
+  "type": "lake",
+  "names": {
+   "de": "Manitobasee",
+   "en": "Lake Manitoba"
+  },
+  "aliases": [
+   "Lake Manitoba"
+  ],
+  "location": {
+   "lat": 50.996111111111,
+   "lon": -98.761888888889
+  },
+  "attributes": {
+   "country": "country:CA",
+   "countries": [
+    "country:CA"
+   ],
+   "continent": "north-america",
+   "area_km2": 4624,
+   "sitelinks": 41,
+   "kind": "lake",
+   "wikidata": "Q645901"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q645901",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q790453",
+  "type": "lake",
+  "names": {
+   "de": "Baringosee",
+   "en": "Lake Baringo"
+  },
+  "aliases": [
+   "Lake Baringo"
+  ],
+  "location": {
+   "lat": 0.63333333333333,
+   "lon": 36.083333333333
+  },
+  "attributes": {
+   "country": "country:KE",
+   "countries": [
+    "country:KE"
+   ],
+   "continent": "africa",
+   "area_km2": 168,
+   "sitelinks": 41,
+   "kind": "lake",
+   "wikidata": "Q790453"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q790453",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q831903",
+  "type": "lake",
+  "names": {
+   "de": "Wocheiner See",
+   "en": "Lake Bohinj"
+  },
+  "aliases": [
+   "Lake Bohinj"
+  ],
+  "location": {
+   "lat": 46.283377,
+   "lon": 13.858881
+  },
+  "attributes": {
+   "country": "country:SI",
+   "countries": [
+    "country:SI"
+   ],
+   "continent": "europe",
+   "area_km2": 3.2,
+   "sitelinks": 41,
+   "kind": "lake",
+   "wikidata": "Q831903"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q831903",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q1365115",
+  "type": "lake",
+  "names": {
+   "de": "Naivashasee",
+   "en": "Lake Naivasha"
+  },
+  "aliases": [
+   "Lake Naivasha"
+  ],
+  "location": {
+   "lat": -0.76852777777778,
+   "lon": 36.350644444444
+  },
+  "attributes": {
+   "country": "country:KE",
+   "countries": [
+    "country:KE"
+   ],
+   "continent": "africa",
+   "area_km2": 139,
+   "sitelinks": 41,
+   "kind": "lake",
+   "wikidata": "Q1365115"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1365115",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q13700",
+  "type": "lake",
+  "names": {
+   "de": "Texcoco-See",
+   "en": "Lake Texcoco"
+  },
+  "aliases": [
+   "Lake Texcoco"
+  ],
+  "location": {
+   "lat": 19.5,
+   "lon": -98.99
+  },
+  "attributes": {
+   "country": "country:MX",
+   "countries": [
+    "country:MX"
+   ],
+   "continent": "north-america",
+   "area_km2": 2000,
+   "sitelinks": 41,
+   "kind": "lake",
+   "wikidata": "Q13700"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q13700",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q14448",
+  "type": "lake",
+  "names": {
+   "de": "Murtensee",
+   "en": "Lake Murten"
+  },
+  "aliases": [
+   "Lake Murten"
+  ],
+  "location": {
+   "lat": 46.933333333333,
+   "lon": 7.075
+  },
+  "attributes": {
+   "country": "country:CH",
+   "countries": [
+    "country:CH"
+   ],
+   "continent": "europe",
+   "area_km2": 22.8,
+   "sitelinks": 41,
+   "kind": "lake",
+   "wikidata": "Q14448"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q14448",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q202905",
+  "type": "lake",
+  "names": {
+   "de": "Okeechobeesee",
+   "en": "Lake Okeechobee"
+  },
+  "aliases": [
+   "Lake Okeechobee"
+  ],
+  "location": {
+   "lat": 26.95,
+   "lon": -80.8
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "area_km2": 1890,
+   "sitelinks": 40,
+   "kind": "lake",
+   "wikidata": "Q202905"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q202905",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q265336",
+  "type": "lake",
+  "names": {
+   "de": "Ammersee",
+   "en": "Ammersee"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 48,
+   "lon": 11.116666666667
+  },
+  "attributes": {
+   "country": "country:DE",
+   "countries": [
+    "country:DE"
+   ],
+   "continent": "europe",
+   "area_km2": 46.6,
+   "sitelinks": 40,
+   "kind": "lake",
+   "wikidata": "Q265336"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q265336",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q498671",
+  "type": "lake",
+  "names": {
+   "de": "Lake Hillier",
+   "en": "Lake Hillier"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -34.095833333333,
+   "lon": 123.20277777778
+  },
+  "attributes": {
+   "country": "country:AU",
+   "countries": [
+    "country:AU"
+   ],
+   "continent": "oceania",
+   "area_km2": 0,
+   "sitelinks": 40,
+   "kind": "lake",
+   "wikidata": "Q498671"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q498671",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q683100",
+  "type": "lake",
+  "names": {
+   "de": "Mai-Ndombe-See",
+   "en": "Lake Mai-Ndombe"
+  },
+  "aliases": [
+   "Lake Mai-Ndombe"
+  ],
+  "location": {
+   "lat": -2,
+   "lon": 18.33
+  },
+  "attributes": {
+   "country": "country:CD",
+   "countries": [
+    "country:CD"
+   ],
+   "continent": "africa",
+   "area_km2": 2300,
+   "sitelinks": 40,
+   "kind": "lake",
+   "wikidata": "Q683100"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q683100",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q14436",
+  "type": "lake",
+  "names": {
+   "de": "Zugersee",
+   "en": "Lake Zug"
+  },
+  "aliases": [
+   "Lake Zug"
+  ],
+  "location": {
+   "lat": 47.116666666667,
+   "lon": 8.4833333333333
+  },
+  "attributes": {
+   "country": "country:CH",
+   "countries": [
+    "country:CH"
+   ],
+   "continent": "europe",
+   "area_km2": 38.3,
+   "sitelinks": 40,
+   "kind": "lake",
+   "wikidata": "Q14436"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q14436",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "lake:Q63141",
+  "type": "lake",
+  "names": {
+   "de": "Ortasee",
+   "en": "Lake Orta"
+  },
+  "aliases": [
+   "Lake Orta"
+  ],
+  "location": {
+   "lat": 45.8098,
+   "lon": 8.3963
+  },
+  "attributes": {
+   "country": "country:IT",
+   "countries": [
+    "country:IT"
+   ],
+   "continent": "europe",
+   "area_km2": 18.2,
+   "sitelinks": 40,
+   "kind": "lake",
+   "wikidata": "Q63141"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q63141",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ }
+]

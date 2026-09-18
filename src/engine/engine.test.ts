@@ -17,7 +17,10 @@ const landmarks = read<Entity[]>('entities/landmarks.json')
 const regions = readdirSync(join(DATA, 'entities/regions')).flatMap((f) => read<Entity[]>(`entities/regions/${f}`))
 const relationships = read<Relationship[]>('relationships/index.json')
 const plates = read<Entity[]>('entities/license-plates/DE.json')
-const ctx = (scope = 'world') => buildContext({ countries, cities, landmarks, regions, plates, relationships, scope })
+const rivers = read<Entity[]>('entities/rivers.json')
+const lakes = read<Entity[]>('entities/lakes.json')
+const mountains = read<Entity[]>('entities/mountains.json')
+const ctx = (scope = 'world') => buildContext({ countries, cities, landmarks, regions, plates, rivers, lakes, mountains, relationships, scope })
 
 describe('normalize', () => {
   it('toleriert Umlaute, Diakritika und kleine Tippfehler', () => {
@@ -71,7 +74,7 @@ describe('session', () => {
     expect(s.questions.length).toBe(16)
   })
   it('jede Kategorie hat Fragen im Welt-Bereich', () => {
-    for (const cat of ['flags', 'countries', 'capitals', 'regions', 'cities', 'maps', 'images', 'landmarks', 'license_plates', 'mixed'] as const) {
+    for (const cat of ['flags', 'countries', 'capitals', 'regions', 'cities', 'maps', 'images', 'landmarks', 'license_plates', 'water', 'nature', 'mixed'] as const) {
       const s = buildSession(ctx(), { category: cat, scope: 'world', length: 5, seed: cat })
       expect(s.questions.length, cat).toBe(5)
     }
@@ -92,6 +95,14 @@ describe('plates', () => {
     expect(s.questions).toHaveLength(10)
     const q = s.questions[0].question
     if (q.options) expect(q.options.some((o) => o.id === q.answer)).toBe(true)
+  })
+})
+
+describe('nature', () => {
+  it('Flussfragen im Bereich Deutschland nutzen Mehrländer-Zuordnung', () => {
+    const s = buildSession(ctx('country:DE'), { category: 'water', scope: 'country:DE', length: 10, seed: 'w' })
+    expect(s.questions.length).toBeGreaterThan(3)
+    for (const { question: q } of s.questions) if (q.options && q.question_type === 'multiple_choice') expect(q.options.some((o) => o.id === q.answer)).toBe(true)
   })
 })
 

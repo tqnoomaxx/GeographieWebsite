@@ -101,7 +101,8 @@ Der User hat Rundenlänge, Wordle-Modi und Namensfindung vorgegeben und die übr
 - **Karten:** statt MapLibre GL wird `d3-geo` mit SVG verwendet (Weltkarte aus Natural Earth 110m, Umrisse 50m, Regionskarten aus den Legacy-Geometrien). Grund: keine Tile-Infrastruktur nötig, vollständig offline, deutlich kleineres Bundle. MapLibre bleibt Option für Zoom-Karten.
 - **Datenablage:** `public/data/` statt `/data`, damit Vite die Dateien ohne Kopierschritt ausliefert. Skripte schreiben direkt dorthin.
 - **Regionskarten-Manifest:** `data/index.json` enthält `region_maps` und `plates`, weil GitHub Pages/`vite preview` für fehlende Dateien `index.html` mit Status 200 liefern und ein Durchprobieren von Dateinamen deshalb nicht funktioniert.
-- **Tests:** Vitest (Engine, 10 Tests) und Playwright (9 Smoke-Tests × mobil/desktop) sind eingerichtet; die CI führt beide aus.
+- **Wikidata-Importe:** große Klassen (Flüsse, Berge) werden zweistufig geladen: erst Kandidaten nach Sitelinks, dann Details in Batches von 80 QIDs mit Retry. Eine einzelne große Abfrage läuft in Timeouts.
+- **Tests:** Vitest (Engine, 11 Tests) und Playwright (12 Smoke-Tests × mobil/desktop) sind eingerichtet; die CI führt beide aus.
 
 ## Namensfindung
 

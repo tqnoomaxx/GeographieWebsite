@@ -1,0 +1,2795 @@
+[
+ {
+  "id": "license_plate:AT-AM",
+  "type": "license_plate",
+  "names": {
+   "de": "Amstetten"
+  },
+  "aliases": [
+   "Bezirk Amstetten"
+  ],
+  "location": {
+   "lat": 48.1167,
+   "lon": 14.8667
+  },
+  "attributes": {
+   "code": "AM",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Bezirk Amstetten"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q694449",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-B",
+  "type": "license_plate",
+  "names": {
+   "de": "Bregenz"
+  },
+  "aliases": [
+   "Bezirk Bregenz"
+  ],
+  "location": {
+   "lat": 47.4,
+   "lon": 10
+  },
+  "attributes": {
+   "code": "B",
+   "country": "country:AT",
+   "region": "region:AT-8",
+   "districts": [
+    "Bezirk Bregenz"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q698621",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-BM",
+  "type": "license_plate",
+  "names": {
+   "de": "Bruck an der Mur"
+  },
+  "aliases": [
+   "Bezirk Bruck an der Mur",
+   "Bezirk Bruck-Mürzzuschlag",
+   "Bruck-Mürzzuschlag"
+  ],
+  "location": {
+   "lat": 47.5,
+   "lon": 15.289
+  },
+  "attributes": {
+   "code": "BM",
+   "country": "country:AT",
+   "region": "region:AT-6",
+   "districts": [
+    "Bezirk Bruck an der Mur",
+    "Bezirk Bruck-Mürzzuschlag"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q660351",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-BN",
+  "type": "license_plate",
+  "names": {
+   "de": "Baden"
+  },
+  "aliases": [
+   "Bezirk Baden"
+  ],
+  "location": {
+   "lat": 48.003333333333,
+   "lon": 16.231111111111
+  },
+  "attributes": {
+   "code": "BN",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Bezirk Baden"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q279874",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-BR",
+  "type": "license_plate",
+  "names": {
+   "de": "Braunau"
+  },
+  "aliases": [
+   "Bezirk Braunau"
+  ],
+  "location": {
+   "lat": 48.131,
+   "lon": 13.109
+  },
+  "attributes": {
+   "code": "BR",
+   "country": "country:AT",
+   "region": "region:AT-4",
+   "districts": [
+    "Bezirk Braunau"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q255626",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-BZ",
+  "type": "license_plate",
+  "names": {
+   "de": "Bludenz"
+  },
+  "aliases": [
+   "Bezirk Bludenz"
+  ],
+  "location": {
+   "lat": 47.1,
+   "lon": 9.9
+  },
+  "attributes": {
+   "code": "BZ",
+   "country": "country:AT",
+   "region": "region:AT-8",
+   "districts": [
+    "Bezirk Bludenz"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q698606",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-DL",
+  "type": "license_plate",
+  "names": {
+   "de": "Deutschlandsberg"
+  },
+  "aliases": [
+   "Bezirk Deutschlandsberg"
+  ],
+  "location": {
+   "lat": 46.823,
+   "lon": 15.25
+  },
+  "attributes": {
+   "code": "DL",
+   "country": "country:AT",
+   "region": "region:AT-6",
+   "districts": [
+    "Bezirk Deutschlandsberg"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q660219",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-DO",
+  "type": "license_plate",
+  "names": {
+   "de": "Dornbirn"
+  },
+  "aliases": [
+   "Bezirk Dornbirn"
+  ],
+  "location": {
+   "lat": 47.416666666667,
+   "lon": 9.75
+  },
+  "attributes": {
+   "code": "DO",
+   "country": "country:AT",
+   "region": "region:AT-8",
+   "districts": [
+    "Bezirk Dornbirn"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q698581",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-E",
+  "type": "license_plate",
+  "names": {
+   "de": "Eisenstadt"
+  },
+  "aliases": [
+   "Rust"
+  ],
+  "location": {
+   "lat": 47.845649,
+   "lon": 16.52327
+  },
+  "attributes": {
+   "code": "E",
+   "country": "country:AT",
+   "region": "region:AT-1",
+   "districts": [
+    "Eisenstadt",
+    "Rust"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q126321",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-EF",
+  "type": "license_plate",
+  "names": {
+   "de": "Eferding"
+  },
+  "aliases": [
+   "Bezirk Eferding"
+  ],
+  "location": {
+   "lat": 48.317,
+   "lon": 14.006
+  },
+  "attributes": {
+   "code": "EF",
+   "country": "country:AT",
+   "region": "region:AT-4",
+   "districts": [
+    "Bezirk Eferding"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q47289",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-EU",
+  "type": "license_plate",
+  "names": {
+   "de": "Eisenstadt-Umgebung"
+  },
+  "aliases": [
+   "Bezirk Eisenstadt-Umgebung"
+  ],
+  "location": {
+   "lat": 47.838,
+   "lon": 16.54
+  },
+  "attributes": {
+   "code": "EU",
+   "country": "country:AT",
+   "region": "region:AT-1",
+   "districts": [
+    "Bezirk Eisenstadt-Umgebung"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q261432",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-FB",
+  "type": "license_plate",
+  "names": {
+   "de": "Feldbach"
+  },
+  "aliases": [
+   "Bezirk Feldbach",
+   "Bezirk Südoststeiermark",
+   "Südoststeiermark"
+  ],
+  "location": {
+   "lat": 46.933,
+   "lon": 15.85
+  },
+  "attributes": {
+   "code": "FB",
+   "country": "country:AT",
+   "region": "region:AT-6",
+   "districts": [
+    "Bezirk Feldbach",
+    "Bezirk Südoststeiermark"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q660338",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-FE",
+  "type": "license_plate",
+  "names": {
+   "de": "Feldkirchen"
+  },
+  "aliases": [
+   "Bezirk Feldkirchen"
+  ],
+  "location": {
+   "lat": 46.75,
+   "lon": 14.037
+  },
+  "attributes": {
+   "code": "FE",
+   "country": "country:AT",
+   "region": "region:AT-2",
+   "districts": [
+    "Bezirk Feldkirchen"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q665735",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-FF",
+  "type": "license_plate",
+  "names": {
+   "de": "Fürstenfeld"
+  },
+  "aliases": [
+   "Bezirk Fürstenfeld"
+  ],
+  "location": {
+   "lat": 47.083,
+   "lon": 16.05
+  },
+  "attributes": {
+   "code": "FF",
+   "country": "country:AT",
+   "region": "region:AT-6",
+   "districts": [
+    "Bezirk Fürstenfeld"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q617779",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-FK",
+  "type": "license_plate",
+  "names": {
+   "de": "Feldkirch"
+  },
+  "aliases": [
+   "Bezirk Feldkirch"
+  ],
+  "location": {
+   "lat": 47.279,
+   "lon": 9.664
+  },
+  "attributes": {
+   "code": "FK",
+   "country": "country:AT",
+   "region": "region:AT-8",
+   "districts": [
+    "Bezirk Feldkirch"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q384914",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-FR",
+  "type": "license_plate",
+  "names": {
+   "de": "Freistadt"
+  },
+  "aliases": [
+   "Bezirk Freistadt"
+  ],
+  "location": {
+   "lat": 48.444,
+   "lon": 14.564
+  },
+  "attributes": {
+   "code": "FR",
+   "country": "country:AT",
+   "region": "region:AT-4",
+   "districts": [
+    "Bezirk Freistadt"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q257347",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-G",
+  "type": "license_plate",
+  "names": {
+   "de": "Graz"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 47.070833333333,
+   "lon": 15.438611111111
+  },
+  "attributes": {
+   "code": "G",
+   "country": "country:AT",
+   "region": "region:AT-6",
+   "districts": [
+    "Graz"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q13298",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-GD",
+  "type": "license_plate",
+  "names": {
+   "de": "Gmünd"
+  },
+  "aliases": [
+   "Bezirk Gmünd"
+  ],
+  "location": {
+   "lat": 48.7667,
+   "lon": 14.9833
+  },
+  "attributes": {
+   "code": "GD",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Bezirk Gmünd"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q694421",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-GF",
+  "type": "license_plate",
+  "names": {
+   "de": "Gänserndorf"
+  },
+  "aliases": [
+   "Bezirk Gänserndorf"
+  ],
+  "location": {
+   "lat": 48.341,
+   "lon": 16.718
+  },
+  "attributes": {
+   "code": "GF",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Bezirk Gänserndorf"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q694442",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-GM",
+  "type": "license_plate",
+  "names": {
+   "de": "Gmunden"
+  },
+  "aliases": [
+   "Bezirk Gmunden"
+  ],
+  "location": {
+   "lat": 47.901,
+   "lon": 13.794
+  },
+  "attributes": {
+   "code": "GM",
+   "country": "country:AT",
+   "region": "region:AT-4",
+   "districts": [
+    "Bezirk Gmunden"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q253221",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-GR",
+  "type": "license_plate",
+  "names": {
+   "de": "Grieskirchen"
+  },
+  "aliases": [
+   "Bezirk Grieskirchen"
+  ],
+  "location": {
+   "lat": 48.246,
+   "lon": 13.78
+  },
+  "attributes": {
+   "code": "GR",
+   "country": "country:AT",
+   "region": "region:AT-4",
+   "districts": [
+    "Bezirk Grieskirchen"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q655262",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-GS",
+  "type": "license_plate",
+  "names": {
+   "de": "Güssing"
+  },
+  "aliases": [
+   "Bezirk Güssing"
+  ],
+  "location": {
+   "lat": 47.118,
+   "lon": 16.261
+  },
+  "attributes": {
+   "code": "GS",
+   "country": "country:AT",
+   "region": "region:AT-1",
+   "districts": [
+    "Bezirk Güssing"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q660312",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-GU",
+  "type": "license_plate",
+  "names": {
+   "de": "Graz-Umgebung"
+  },
+  "aliases": [
+   "Bezirk Graz-Umgebung"
+  ],
+  "location": {
+   "lat": 47.062,
+   "lon": 15.415
+  },
+  "attributes": {
+   "code": "GU",
+   "country": "country:AT",
+   "region": "region:AT-6",
+   "districts": [
+    "Bezirk Graz-Umgebung"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q672475",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-HA",
+  "type": "license_plate",
+  "names": {
+   "de": "Hallein"
+  },
+  "aliases": [
+   "Bezirk Hallein"
+  ],
+  "location": {
+   "lat": 47.65,
+   "lon": 13.167
+  },
+  "attributes": {
+   "code": "HA",
+   "country": "country:AT",
+   "region": "region:AT-5",
+   "districts": [
+    "Bezirk Hallein"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q254533",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-HB",
+  "type": "license_plate",
+  "names": {
+   "de": "Hartberg"
+  },
+  "aliases": [
+   "Bezirk Hartberg"
+  ],
+  "location": {
+   "lat": 47.3,
+   "lon": 15.949
+  },
+  "attributes": {
+   "code": "HB",
+   "country": "country:AT",
+   "region": "region:AT-6",
+   "districts": [
+    "Bezirk Hartberg"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q660240",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-HE",
+  "type": "license_plate",
+  "names": {
+   "de": "Hermagor"
+  },
+  "aliases": [
+   "Bezirk Hermagor"
+  ],
+  "location": {
+   "lat": 46.662,
+   "lon": 13.183
+  },
+  "attributes": {
+   "code": "HE",
+   "country": "country:AT",
+   "region": "region:AT-2",
+   "districts": [
+    "Bezirk Hermagor"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q613991",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-HF",
+  "type": "license_plate",
+  "names": {
+   "de": "Hartberg-Fürstenfeld"
+  },
+  "aliases": [
+   "Bezirk Hartberg-Fürstenfeld"
+  ],
+  "location": {
+   "lat": 47.2667,
+   "lon": 15.9667
+  },
+  "attributes": {
+   "code": "HF",
+   "country": "country:AT",
+   "region": "region:AT-6",
+   "districts": [
+    "Bezirk Hartberg-Fürstenfeld"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q853765",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-HL",
+  "type": "license_plate",
+  "names": {
+   "de": "Hollabrunn"
+  },
+  "aliases": [
+   "Bezirk Hollabrunn"
+  ],
+  "location": {
+   "lat": 48.649,
+   "lon": 16.017
+  },
+  "attributes": {
+   "code": "HL",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Bezirk Hollabrunn"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q694349",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-HO",
+  "type": "license_plate",
+  "names": {
+   "de": "Horn"
+  },
+  "aliases": [
+   "Bezirk Horn"
+  ],
+  "location": {
+   "lat": 48.6639,
+   "lon": 15.6572
+  },
+  "attributes": {
+   "code": "HO",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Bezirk Horn"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q143167",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-I",
+  "type": "license_plate",
+  "names": {
+   "de": "Innsbruck"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 47.268333333333,
+   "lon": 11.393333333333
+  },
+  "attributes": {
+   "code": "I",
+   "country": "country:AT",
+   "region": "region:AT-7",
+   "districts": [
+    "Innsbruck"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1735",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-IL",
+  "type": "license_plate",
+  "names": {
+   "de": "Innsbruck-Land"
+  },
+  "aliases": [
+   "Bezirk Innsbruck-Land"
+  ],
+  "location": {
+   "lat": 47.2,
+   "lon": 11.4
+  },
+  "attributes": {
+   "code": "IL",
+   "country": "country:AT",
+   "region": "region:AT-7",
+   "districts": [
+    "Bezirk Innsbruck-Land"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q699582",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-IM",
+  "type": "license_plate",
+  "names": {
+   "de": "Imst"
+  },
+  "aliases": [
+   "Bezirk Imst"
+  ],
+  "location": {
+   "lat": 47.1,
+   "lon": 10.9
+  },
+  "attributes": {
+   "code": "IM",
+   "country": "country:AT",
+   "region": "region:AT-7",
+   "districts": [
+    "Bezirk Imst"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q665668",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-JE",
+  "type": "license_plate",
+  "names": {
+   "de": "Jennersdorf"
+  },
+  "aliases": [
+   "Bezirk Jennersdorf"
+  ],
+  "location": {
+   "lat": 46.936666666667,
+   "lon": 16.141666666667
+  },
+  "attributes": {
+   "code": "JE",
+   "country": "country:AT",
+   "region": "region:AT-1",
+   "districts": [
+    "Bezirk Jennersdorf"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q756277",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-JO",
+  "type": "license_plate",
+  "names": {
+   "de": "St. Johann im Pongau"
+  },
+  "aliases": [
+   "Bezirk St. Johann im Pongau"
+  ],
+  "location": {
+   "lat": 47.35,
+   "lon": 13.233
+  },
+  "attributes": {
+   "code": "JO",
+   "country": "country:AT",
+   "region": "region:AT-5",
+   "districts": [
+    "Bezirk St. Johann im Pongau"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q256828",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-JU",
+  "type": "license_plate",
+  "names": {
+   "de": "Murtal"
+  },
+  "aliases": [
+   "Bezirk Murtal"
+  ],
+  "location": {
+   "lat": 47.1725,
+   "lon": 14.66027778
+  },
+  "attributes": {
+   "code": "JU",
+   "country": "country:AT",
+   "region": "region:AT-6",
+   "districts": [
+    "Bezirk Murtal"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q526517",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-K",
+  "type": "license_plate",
+  "names": {
+   "de": "Klagenfurt am Wörthersee"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 46.616666666667,
+   "lon": 14.3
+  },
+  "attributes": {
+   "code": "K",
+   "country": "country:AT",
+   "region": "region:AT-2",
+   "districts": [
+    "Klagenfurt am Wörthersee"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q41753",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-KB",
+  "type": "license_plate",
+  "names": {
+   "de": "Kitzbühel"
+  },
+  "aliases": [
+   "Bezirk Kitzbühel"
+  ],
+  "location": {
+   "lat": 47.5,
+   "lon": 12.4
+  },
+  "attributes": {
+   "code": "KB",
+   "country": "country:AT",
+   "region": "region:AT-7",
+   "districts": [
+    "Bezirk Kitzbühel"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q265649",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-KF",
+  "type": "license_plate",
+  "names": {
+   "de": "Knittelfeld"
+  },
+  "aliases": [
+   "Bezirk Knittelfeld"
+  ],
+  "location": {
+   "lat": 47.227,
+   "lon": 14.846
+  },
+  "attributes": {
+   "code": "KF",
+   "country": "country:AT",
+   "districts": [
+    "Bezirk Knittelfeld"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q672614",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-KI",
+  "type": "license_plate",
+  "names": {
+   "de": "Kirchdorf"
+  },
+  "aliases": [
+   "Bezirk Kirchdorf"
+  ],
+  "location": {
+   "lat": 47.884,
+   "lon": 14.158
+  },
+  "attributes": {
+   "code": "KI",
+   "country": "country:AT",
+   "region": "region:AT-4",
+   "districts": [
+    "Bezirk Kirchdorf"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q660512",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-KL",
+  "type": "license_plate",
+  "names": {
+   "de": "Klagenfurt-Land"
+  },
+  "aliases": [
+   "Bezirk Klagenfurt-Land"
+  ],
+  "location": {
+   "lat": 46.609,
+   "lon": 14.234
+  },
+  "attributes": {
+   "code": "KL",
+   "country": "country:AT",
+   "region": "region:AT-2",
+   "districts": [
+    "Bezirk Klagenfurt-Land"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q660701",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-KO",
+  "type": "license_plate",
+  "names": {
+   "de": "Korneuburg"
+  },
+  "aliases": [
+   "Bezirk Korneuburg"
+  ],
+  "location": {
+   "lat": 48.392,
+   "lon": 16.258
+  },
+  "attributes": {
+   "code": "KO",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Bezirk Korneuburg"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q694372",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-KR",
+  "type": "license_plate",
+  "names": {
+   "de": "Krems"
+  },
+  "aliases": [
+   "Bezirk Krems"
+  ],
+  "location": {
+   "lat": 48.45,
+   "lon": 15.567
+  },
+  "attributes": {
+   "code": "KR",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Bezirk Krems"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q694399",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-KS",
+  "type": "license_plate",
+  "names": {
+   "de": "Krems"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 48.416666666667,
+   "lon": 15.616666666667
+  },
+  "attributes": {
+   "code": "KS",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Krems"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q131266",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-KU",
+  "type": "license_plate",
+  "names": {
+   "de": "Kufstein"
+  },
+  "aliases": [
+   "Bezirk Kufstein"
+  ],
+  "location": {
+   "lat": 47.5,
+   "lon": 12.1
+  },
+  "attributes": {
+   "code": "KU",
+   "country": "country:AT",
+   "region": "region:AT-7",
+   "districts": [
+    "Bezirk Kufstein"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q255141",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-L",
+  "type": "license_plate",
+  "names": {
+   "de": "Linz"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 48.305833333333,
+   "lon": 14.286388888889
+  },
+  "attributes": {
+   "code": "L",
+   "country": "country:AT",
+   "region": "region:AT-4",
+   "districts": [
+    "Linz"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q41329",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-LA",
+  "type": "license_plate",
+  "names": {
+   "de": "Landeck"
+  },
+  "aliases": [
+   "Bezirk Landeck"
+  ],
+  "location": {
+   "lat": 47.1,
+   "lon": 10.5
+  },
+  "attributes": {
+   "code": "LA",
+   "country": "country:AT",
+   "region": "region:AT-7",
+   "districts": [
+    "Bezirk Landeck"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q665605",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-LB",
+  "type": "license_plate",
+  "names": {
+   "de": "Leibnitz"
+  },
+  "aliases": [
+   "Bezirk Leibnitz"
+  ],
+  "location": {
+   "lat": 46.782,
+   "lon": 15.533
+  },
+  "attributes": {
+   "code": "LB",
+   "country": "country:AT",
+   "region": "region:AT-6",
+   "districts": [
+    "Bezirk Leibnitz"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q660400",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-LF",
+  "type": "license_plate",
+  "names": {
+   "de": "Lilienfeld"
+  },
+  "aliases": [
+   "Bezirk Lilienfeld"
+  ],
+  "location": {
+   "lat": 48.013,
+   "lon": 15.609
+  },
+  "attributes": {
+   "code": "LF",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Bezirk Lilienfeld"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q694463",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-LI",
+  "type": "license_plate",
+  "names": {
+   "de": "Liezen"
+  },
+  "aliases": [
+   "Bezirk Liezen"
+  ],
+  "location": {
+   "lat": 47.527,
+   "lon": 14.116
+  },
+  "attributes": {
+   "code": "LI",
+   "country": "country:AT",
+   "region": "region:AT-6",
+   "districts": [
+    "Bezirk Liezen"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q255834",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-LL",
+  "type": "license_plate",
+  "names": {
+   "de": "Linz-Land"
+  },
+  "aliases": [
+   "Bezirk Linz-Land"
+  ],
+  "location": {
+   "lat": 48.208,
+   "lon": 14.24
+  },
+  "attributes": {
+   "code": "LL",
+   "country": "country:AT",
+   "region": "region:AT-4",
+   "districts": [
+    "Bezirk Linz-Land"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q265632",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-LZ",
+  "type": "license_plate",
+  "names": {
+   "de": "Lienz"
+  },
+  "aliases": [
+   "Bezirk Lienz"
+  ],
+  "location": {
+   "lat": 46.885277777778,
+   "lon": 12.551388888889
+  },
+  "attributes": {
+   "code": "LZ",
+   "country": "country:AT",
+   "region": "region:AT-7",
+   "districts": [
+    "Bezirk Lienz"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q251931",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-MA",
+  "type": "license_plate",
+  "names": {
+   "de": "Mattersburg"
+  },
+  "aliases": [
+   "Bezirk Mattersburg"
+  ],
+  "location": {
+   "lat": 47.746,
+   "lon": 16.417
+  },
+  "attributes": {
+   "code": "MA",
+   "country": "country:AT",
+   "region": "region:AT-1",
+   "districts": [
+    "Bezirk Mattersburg"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q748570",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-MD",
+  "type": "license_plate",
+  "names": {
+   "de": "Mödling"
+  },
+  "aliases": [
+   "Bezirk Mödling"
+  ],
+  "location": {
+   "lat": 48.095,
+   "lon": 16.239
+  },
+  "attributes": {
+   "code": "MD",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Bezirk Mödling"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q254176",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-ME",
+  "type": "license_plate",
+  "names": {
+   "de": "Melk"
+  },
+  "aliases": [
+   "Bezirk Melk"
+  ],
+  "location": {
+   "lat": 48.2,
+   "lon": 15.204
+  },
+  "attributes": {
+   "code": "ME",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Bezirk Melk"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q261942",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-MI",
+  "type": "license_plate",
+  "names": {
+   "de": "Mistelbach"
+  },
+  "aliases": [
+   "Bezirk Mistelbach"
+  ],
+  "location": {
+   "lat": 48.644,
+   "lon": 16.502
+  },
+  "attributes": {
+   "code": "MI",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Bezirk Mistelbach"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q257454",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-MU",
+  "type": "license_plate",
+  "names": {
+   "de": "Murau"
+  },
+  "aliases": [
+   "Bezirk Murau"
+  ],
+  "location": {
+   "lat": 47.117,
+   "lon": 14.283
+  },
+  "attributes": {
+   "code": "MU",
+   "country": "country:AT",
+   "region": "region:AT-6",
+   "districts": [
+    "Bezirk Murau"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q388913",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-MZ",
+  "type": "license_plate",
+  "names": {
+   "de": "Mürzzuschlag"
+  },
+  "aliases": [
+   "Bezirk Mürzzuschlag"
+  ],
+  "location": {
+   "lat": 47.579,
+   "lon": 15.559
+  },
+  "attributes": {
+   "code": "MZ",
+   "country": "country:AT",
+   "region": "region:AT-6",
+   "districts": [
+    "Bezirk Mürzzuschlag"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q257024",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-ND",
+  "type": "license_plate",
+  "names": {
+   "de": "Neusiedl am See"
+  },
+  "aliases": [
+   "Bezirk Neusiedl am See"
+  ],
+  "location": {
+   "lat": 47.928,
+   "lon": 16.934
+  },
+  "attributes": {
+   "code": "ND",
+   "country": "country:AT",
+   "region": "region:AT-1",
+   "districts": [
+    "Bezirk Neusiedl am See"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q660325",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-NK",
+  "type": "license_plate",
+  "names": {
+   "de": "Neunkirchen"
+  },
+  "aliases": [
+   "Bezirk Neunkirchen"
+  ],
+  "location": {
+   "lat": 47.7269,
+   "lon": 16.0817
+  },
+  "attributes": {
+   "code": "NK",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Bezirk Neunkirchen"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q694386",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-OP",
+  "type": "license_plate",
+  "names": {
+   "de": "Oberpullendorf"
+  },
+  "aliases": [
+   "Bezirk Oberpullendorf"
+  ],
+  "location": {
+   "lat": 47.534,
+   "lon": 16.496
+  },
+  "attributes": {
+   "code": "OP",
+   "country": "country:AT",
+   "region": "region:AT-1",
+   "districts": [
+    "Bezirk Oberpullendorf"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q748891",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-OW",
+  "type": "license_plate",
+  "names": {
+   "de": "Oberwart"
+  },
+  "aliases": [
+   "Bezirk Oberwart"
+  ],
+  "location": {
+   "lat": 47.294,
+   "lon": 16.243
+  },
+  "attributes": {
+   "code": "OW",
+   "country": "country:AT",
+   "region": "region:AT-1",
+   "districts": [
+    "Bezirk Oberwart"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q660230",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-P",
+  "type": "license_plate",
+  "names": {
+   "de": "St. Pölten"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 48.2,
+   "lon": 15.616666666667
+  },
+  "attributes": {
+   "code": "P",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "St. Pölten"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q82500",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-PE",
+  "type": "license_plate",
+  "names": {
+   "de": "Perg"
+  },
+  "aliases": [
+   "Bezirk Perg"
+  ],
+  "location": {
+   "lat": 48.272,
+   "lon": 14.683
+  },
+  "attributes": {
+   "code": "PE",
+   "country": "country:AT",
+   "region": "region:AT-4",
+   "districts": [
+    "Bezirk Perg"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q660530",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-PL",
+  "type": "license_plate",
+  "names": {
+   "de": "St. Pölten"
+  },
+  "aliases": [
+   "Bezirk St. Pölten"
+  ],
+  "location": {
+   "lat": 48.183,
+   "lon": 15.667
+  },
+  "attributes": {
+   "code": "PL",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Bezirk St. Pölten"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q694393",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-RA",
+  "type": "license_plate",
+  "names": {
+   "de": "Radkersburg"
+  },
+  "aliases": [
+   "Bezirk Radkersburg"
+  ],
+  "location": {
+   "lat": 46.754,
+   "lon": 15.817
+  },
+  "attributes": {
+   "code": "RA",
+   "country": "country:AT",
+   "region": "region:AT-6",
+   "districts": [
+    "Bezirk Radkersburg"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q665652",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-RE",
+  "type": "license_plate",
+  "names": {
+   "de": "Reutte"
+  },
+  "aliases": [
+   "Bezirk Reutte"
+  ],
+  "location": {
+   "lat": 47.4,
+   "lon": 10.5
+  },
+  "attributes": {
+   "code": "RE",
+   "country": "country:AT",
+   "region": "region:AT-7",
+   "districts": [
+    "Bezirk Reutte"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q854005",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-RI",
+  "type": "license_plate",
+  "names": {
+   "de": "Ried"
+  },
+  "aliases": [
+   "Bezirk Ried"
+  ],
+  "location": {
+   "lat": 48.241,
+   "lon": 13.435
+  },
+  "attributes": {
+   "code": "RI",
+   "country": "country:AT",
+   "region": "region:AT-4",
+   "districts": [
+    "Bezirk Ried"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q264704",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-RO",
+  "type": "license_plate",
+  "names": {
+   "de": "Rohrbach"
+  },
+  "aliases": [
+   "Bezirk Rohrbach"
+  ],
+  "location": {
+   "lat": 48.544,
+   "lon": 13.973
+  },
+  "attributes": {
+   "code": "RO",
+   "country": "country:AT",
+   "region": "region:AT-4",
+   "districts": [
+    "Bezirk Rohrbach"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q252828",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-S",
+  "type": "license_plate",
+  "names": {
+   "de": "Salzburg"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 47.8,
+   "lon": 13.045
+  },
+  "attributes": {
+   "code": "S",
+   "country": "country:AT",
+   "region": "region:AT-5",
+   "districts": [
+    "Salzburg"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q34713",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-SB",
+  "type": "license_plate",
+  "names": {
+   "de": "Scheibbs"
+  },
+  "aliases": [
+   "Bezirk Scheibbs"
+  ],
+  "location": {
+   "lat": 48.011,
+   "lon": 15.089
+  },
+  "attributes": {
+   "code": "SB",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Bezirk Scheibbs"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q253068",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-SD",
+  "type": "license_plate",
+  "names": {
+   "de": "Schärding"
+  },
+  "aliases": [
+   "Bezirk Schärding"
+  ],
+  "location": {
+   "lat": 48.44,
+   "lon": 13.578
+  },
+  "attributes": {
+   "code": "SD",
+   "country": "country:AT",
+   "region": "region:AT-4",
+   "districts": [
+    "Bezirk Schärding"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q47482",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-SE",
+  "type": "license_plate",
+  "names": {
+   "de": "Steyr-Land"
+  },
+  "aliases": [
+   "Bezirk Steyr-Land"
+  ],
+  "location": {
+   "lat": 48.014,
+   "lon": 14.409
+  },
+  "attributes": {
+   "code": "SE",
+   "country": "country:AT",
+   "region": "region:AT-4",
+   "districts": [
+    "Bezirk Steyr-Land"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q854074",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-SL",
+  "type": "license_plate",
+  "names": {
+   "de": "Salzburg-Umgebung"
+  },
+  "aliases": [
+   "Bezirk Salzburg-Umgebung"
+  ],
+  "location": {
+   "lat": 47.867,
+   "lon": 13.083
+  },
+  "attributes": {
+   "code": "SL",
+   "country": "country:AT",
+   "region": "region:AT-5",
+   "districts": [
+    "Bezirk Salzburg-Umgebung"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q255469",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-SP",
+  "type": "license_plate",
+  "names": {
+   "de": "Spittal an der Drau"
+  },
+  "aliases": [
+   "Bezirk Spittal an der Drau"
+  ],
+  "location": {
+   "lat": 46.833,
+   "lon": 13.306
+  },
+  "attributes": {
+   "code": "SP",
+   "country": "country:AT",
+   "region": "region:AT-2",
+   "districts": [
+    "Bezirk Spittal an der Drau"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q660293",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-SR",
+  "type": "license_plate",
+  "names": {
+   "de": "Steyr"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 48.05,
+   "lon": 14.416666666667
+  },
+  "attributes": {
+   "code": "SR",
+   "country": "country:AT",
+   "region": "region:AT-4",
+   "districts": [
+    "Steyr"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q260320",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-SV",
+  "type": "license_plate",
+  "names": {
+   "de": "St. Veit an der Glan"
+  },
+  "aliases": [
+   "Bezirk St. Veit an der Glan"
+  ],
+  "location": {
+   "lat": 46.862,
+   "lon": 14.428
+  },
+  "attributes": {
+   "code": "SV",
+   "country": "country:AT",
+   "region": "region:AT-2",
+   "districts": [
+    "Bezirk St. Veit an der Glan"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q660255",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-SZ",
+  "type": "license_plate",
+  "names": {
+   "de": "Schwaz"
+  },
+  "aliases": [
+   "Bezirk Schwaz"
+  ],
+  "location": {
+   "lat": 47.4,
+   "lon": 11.8
+  },
+  "attributes": {
+   "code": "SZ",
+   "country": "country:AT",
+   "region": "region:AT-7",
+   "districts": [
+    "Bezirk Schwaz"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q266685",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-TA",
+  "type": "license_plate",
+  "names": {
+   "de": "Tamsweg"
+  },
+  "aliases": [
+   "Bezirk Tamsweg"
+  ],
+  "location": {
+   "lat": 47.116666666667,
+   "lon": 13.816666666667
+  },
+  "attributes": {
+   "code": "TA",
+   "country": "country:AT",
+   "region": "region:AT-5",
+   "districts": [
+    "Bezirk Tamsweg"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q268090",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-TU",
+  "type": "license_plate",
+  "names": {
+   "de": "Tulln"
+  },
+  "aliases": [
+   "Bezirk Tulln"
+  ],
+  "location": {
+   "lat": 48.33,
+   "lon": 15.98
+  },
+  "attributes": {
+   "code": "TU",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Bezirk Tulln"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q694428",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-UU",
+  "type": "license_plate",
+  "names": {
+   "de": "Urfahr-Umgebung"
+  },
+  "aliases": [
+   "Bezirk Urfahr-Umgebung"
+  ],
+  "location": {
+   "lat": 48.406944444444,
+   "lon": 14.278055555556
+  },
+  "attributes": {
+   "code": "UU",
+   "country": "country:AT",
+   "region": "region:AT-4",
+   "districts": [
+    "Bezirk Urfahr-Umgebung"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q253585",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-VB",
+  "type": "license_plate",
+  "names": {
+   "de": "Vöcklabruck"
+  },
+  "aliases": [
+   "Bezirk Vöcklabruck"
+  ],
+  "location": {
+   "lat": 48.009,
+   "lon": 13.575
+  },
+  "attributes": {
+   "code": "VB",
+   "country": "country:AT",
+   "region": "region:AT-4",
+   "districts": [
+    "Bezirk Vöcklabruck"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q267479",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-VI",
+  "type": "license_plate",
+  "names": {
+   "de": "Villach"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 46.616666666667,
+   "lon": 13.833333333333
+  },
+  "attributes": {
+   "code": "VI",
+   "country": "country:AT",
+   "region": "region:AT-2",
+   "districts": [
+    "Villach"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q483522",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-VK",
+  "type": "license_plate",
+  "names": {
+   "de": "Völkermarkt"
+  },
+  "aliases": [
+   "Bezirk Völkermarkt"
+  ],
+  "location": {
+   "lat": 46.591,
+   "lon": 14.644
+  },
+  "attributes": {
+   "code": "VK",
+   "country": "country:AT",
+   "region": "region:AT-2",
+   "districts": [
+    "Bezirk Völkermarkt"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q660279",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-VL",
+  "type": "license_plate",
+  "names": {
+   "de": "Villach-Land"
+  },
+  "aliases": [
+   "Bezirk Villach-Land"
+  ],
+  "location": {
+   "lat": 46.624,
+   "lon": 13.724
+  },
+  "attributes": {
+   "code": "VL",
+   "country": "country:AT",
+   "region": "region:AT-2",
+   "districts": [
+    "Bezirk Villach-Land"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q660264",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-VO",
+  "type": "license_plate",
+  "names": {
+   "de": "Voitsberg"
+  },
+  "aliases": [
+   "Bezirk Voitsberg"
+  ],
+  "location": {
+   "lat": 47.05,
+   "lon": 15.114
+  },
+  "attributes": {
+   "code": "VO",
+   "country": "country:AT",
+   "region": "region:AT-6",
+   "districts": [
+    "Bezirk Voitsberg"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q672537",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-W",
+  "type": "license_plate",
+  "names": {
+   "de": "Wien"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 48.208333333333,
+   "lon": 16.3725
+  },
+  "attributes": {
+   "code": "W",
+   "country": "country:AT",
+   "region": "region:AT-9",
+   "districts": [
+    "Wien"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1741",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-WB",
+  "type": "license_plate",
+  "names": {
+   "de": "Wiener Neustadt"
+  },
+  "aliases": [
+   "Bezirk Wiener Neustadt"
+  ],
+  "location": {
+   "lat": 47.6225,
+   "lon": 16.340833333333
+  },
+  "attributes": {
+   "code": "WB",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Bezirk Wiener Neustadt"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q694413",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-WE",
+  "type": "license_plate",
+  "names": {
+   "de": "Wels"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 48.15,
+   "lon": 14.016666666667
+  },
+  "attributes": {
+   "code": "WE",
+   "country": "country:AT",
+   "region": "region:AT-4",
+   "districts": [
+    "Wels"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q178582",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-WL",
+  "type": "license_plate",
+  "names": {
+   "de": "Wels-Land"
+  },
+  "aliases": [
+   "Bezirk Wels-Land"
+  ],
+  "location": {
+   "lat": 48.129,
+   "lon": 13.957
+  },
+  "attributes": {
+   "code": "WL",
+   "country": "country:AT",
+   "region": "region:AT-4",
+   "districts": [
+    "Bezirk Wels-Land"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q660544",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-WN",
+  "type": "license_plate",
+  "names": {
+   "de": "Wiener Neustadt"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 47.816666666667,
+   "lon": 16.25
+  },
+  "attributes": {
+   "code": "WN",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Wiener Neustadt"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q131612",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-WO",
+  "type": "license_plate",
+  "names": {
+   "de": "Wolfsberg"
+  },
+  "aliases": [
+   "Bezirk Wolfsberg"
+  ],
+  "location": {
+   "lat": 46.842,
+   "lon": 14.86
+  },
+  "attributes": {
+   "code": "WO",
+   "country": "country:AT",
+   "region": "region:AT-2",
+   "districts": [
+    "Bezirk Wolfsberg"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q665641",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-WT",
+  "type": "license_plate",
+  "names": {
+   "de": "Waidhofen an der Thaya"
+  },
+  "aliases": [
+   "Bezirk Waidhofen an der Thaya"
+  ],
+  "location": {
+   "lat": 48.844,
+   "lon": 15.299
+  },
+  "attributes": {
+   "code": "WT",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Bezirk Waidhofen an der Thaya"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q594032",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-WU",
+  "type": "license_plate",
+  "names": {
+   "de": "Wien-Umgebung"
+  },
+  "aliases": [
+   "Bezirk Wien-Umgebung"
+  ],
+  "location": {
+   "lat": 48.3,
+   "lon": 16.316666666667
+  },
+  "attributes": {
+   "code": "WU",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Bezirk Wien-Umgebung"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q521869",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-WY",
+  "type": "license_plate",
+  "names": {
+   "de": "Waidhofen an der Ybbs"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 47.95964,
+   "lon": 14.77453
+  },
+  "attributes": {
+   "code": "WY",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Waidhofen an der Ybbs"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q427385",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-WZ",
+  "type": "license_plate",
+  "names": {
+   "de": "Weiz"
+  },
+  "aliases": [
+   "Bezirk Weiz"
+  ],
+  "location": {
+   "lat": 47.219,
+   "lon": 15.69
+  },
+  "attributes": {
+   "code": "WZ",
+   "country": "country:AT",
+   "region": "region:AT-6",
+   "districts": [
+    "Bezirk Weiz"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q665571",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-ZE",
+  "type": "license_plate",
+  "names": {
+   "de": "Zell am See"
+  },
+  "aliases": [
+   "Bezirk Zell am See"
+  ],
+  "location": {
+   "lat": 47.35,
+   "lon": 12.7
+  },
+  "attributes": {
+   "code": "ZE",
+   "country": "country:AT",
+   "region": "region:AT-5",
+   "districts": [
+    "Bezirk Zell am See"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q257897",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:AT-ZT",
+  "type": "license_plate",
+  "names": {
+   "de": "Zwettl"
+  },
+  "aliases": [
+   "Bezirk Zwettl"
+  ],
+  "location": {
+   "lat": 48.581,
+   "lon": 15.152
+  },
+  "attributes": {
+   "code": "ZT",
+   "country": "country:AT",
+   "region": "region:AT-3",
+   "districts": [
+    "Bezirk Zwettl"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q694452",
+   "license": "CC0"
+  }
+ }
+]

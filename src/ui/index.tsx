@@ -165,6 +165,6 @@ export function typeIcon(type: string) {
 
 export function entityPath(e: Pick<Entity, 'id' | 'type'>) {
   const [, rest] = e.id.split(':')
-  const seg: Record<string, string> = { country: 'country', region: 'region', city: 'city', landmark: 'landmark', license_plate: 'plate' }
+  const seg: Record<string, string> = { country: 'country', region: 'region', city: 'city', landmark: 'landmark', license_plate: 'plate', river: 'water', lake: 'water', mountain: 'nature' }
   return `/${seg[e.type] ?? e.type}/${encodeURIComponent(rest)}`
 }

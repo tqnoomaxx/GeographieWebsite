@@ -1,0 +1,756 @@
+[
+ {
+  "id": "license_plate:CH-AG",
+  "type": "license_plate",
+  "names": {
+   "de": "Aargau"
+  },
+  "aliases": [
+   "Kanton Aargau"
+  ],
+  "location": {
+   "lat": 47.418,
+   "lon": 8.11
+  },
+  "attributes": {
+   "code": "AG",
+   "country": "country:CH",
+   "region": "region:CH-AG",
+   "districts": [
+    "Kanton Aargau"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q11972",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-AI",
+  "type": "license_plate",
+  "names": {
+   "de": "Appenzell Innerrhoden"
+  },
+  "aliases": [
+   "Kanton Appenzell Innerrhoden"
+  ],
+  "location": {
+   "lat": 47.3,
+   "lon": 9.4
+  },
+  "attributes": {
+   "code": "AI",
+   "country": "country:CH",
+   "region": "region:CH-AI",
+   "districts": [
+    "Kanton Appenzell Innerrhoden"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q12094",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-AR",
+  "type": "license_plate",
+  "names": {
+   "de": "Appenzell Ausserrhoden"
+  },
+  "aliases": [
+   "Kanton Appenzell Ausserrhoden"
+  ],
+  "location": {
+   "lat": 47.3784,
+   "lon": 9.3128
+  },
+  "attributes": {
+   "code": "AR",
+   "country": "country:CH",
+   "region": "region:CH-AR",
+   "districts": [
+    "Kanton Appenzell Ausserrhoden"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q12079",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-BE",
+  "type": "license_plate",
+  "names": {
+   "de": "Bern"
+  },
+  "aliases": [
+   "Kanton Bern"
+  ],
+  "location": {
+   "lat": 46.84,
+   "lon": 7.6
+  },
+  "attributes": {
+   "code": "BE",
+   "country": "country:CH",
+   "region": "region:CH-BE",
+   "districts": [
+    "Kanton Bern"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q11911",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-BL",
+  "type": "license_plate",
+  "names": {
+   "de": "Basel-Landschaft"
+  },
+  "aliases": [
+   "Kanton Basel-Landschaft"
+  ],
+  "location": {
+   "lat": 47.463055555556,
+   "lon": 7.7558333333333
+  },
+  "attributes": {
+   "code": "BL",
+   "country": "country:CH",
+   "region": "region:CH-BL",
+   "districts": [
+    "Kanton Basel-Landschaft"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q12146",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-BS",
+  "type": "license_plate",
+  "names": {
+   "de": "Basel-Stadt"
+  },
+  "aliases": [
+   "Kanton Basel-Stadt"
+  ],
+  "location": {
+   "lat": 47.566666666667,
+   "lon": 7.6
+  },
+  "attributes": {
+   "code": "BS",
+   "country": "country:CH",
+   "region": "region:CH-BS",
+   "districts": [
+    "Kanton Basel-Stadt"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q12172",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-FR",
+  "type": "license_plate",
+  "names": {
+   "de": "Freiburg"
+  },
+  "aliases": [
+   "Kanton Freiburg"
+  ],
+  "location": {
+   "lat": 46.716666666667,
+   "lon": 7.0833333333333
+  },
+  "attributes": {
+   "code": "FR",
+   "country": "country:CH",
+   "region": "region:CH-FR",
+   "districts": [
+    "Kanton Freiburg"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q12640",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-GE",
+  "type": "license_plate",
+  "names": {
+   "de": "Genf"
+  },
+  "aliases": [
+   "Kanton Genf"
+  ],
+  "location": {
+   "lat": 46.218,
+   "lon": 6.166
+  },
+  "attributes": {
+   "code": "GE",
+   "country": "country:CH",
+   "region": "region:CH-GE",
+   "districts": [
+    "Kanton Genf"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q11917",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-GL",
+  "type": "license_plate",
+  "names": {
+   "de": "Glarus"
+  },
+  "aliases": [
+   "Kanton Glarus"
+  ],
+  "location": {
+   "lat": 46.983333333333,
+   "lon": 9.0666666666667
+  },
+  "attributes": {
+   "code": "GL",
+   "country": "country:CH",
+   "region": "region:CH-GL",
+   "districts": [
+    "Kanton Glarus"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q11922",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-GR",
+  "type": "license_plate",
+  "names": {
+   "de": "Graubünden"
+  },
+  "aliases": [
+   "Kanton Graubünden"
+  ],
+  "location": {
+   "lat": 46.7,
+   "lon": 9.6
+  },
+  "attributes": {
+   "code": "GR",
+   "country": "country:CH",
+   "region": "region:CH-GR",
+   "districts": [
+    "Kanton Graubünden"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q11925",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-JU",
+  "type": "license_plate",
+  "names": {
+   "de": "Jura"
+  },
+  "aliases": [
+   "Kanton Jura"
+  ],
+  "location": {
+   "lat": 47.366666666667,
+   "lon": 7.15
+  },
+  "attributes": {
+   "code": "JU",
+   "country": "country:CH",
+   "region": "region:CH-JU",
+   "districts": [
+    "Kanton Jura"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q12755",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-LU",
+  "type": "license_plate",
+  "names": {
+   "de": "Luzern"
+  },
+  "aliases": [
+   "Kanton Luzern"
+  ],
+  "location": {
+   "lat": 47.083333333333,
+   "lon": 8.1166666666667
+  },
+  "attributes": {
+   "code": "LU",
+   "country": "country:CH",
+   "region": "region:CH-LU",
+   "districts": [
+    "Kanton Luzern"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q12121",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-NE",
+  "type": "license_plate",
+  "names": {
+   "de": "Neuenburg"
+  },
+  "aliases": [
+   "Kanton Neuenburg"
+  ],
+  "location": {
+   "lat": 46.983333333333,
+   "lon": 6.7833333333333
+  },
+  "attributes": {
+   "code": "NE",
+   "country": "country:CH",
+   "region": "region:CH-NE",
+   "districts": [
+    "Kanton Neuenburg"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q12738",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-NW",
+  "type": "license_plate",
+  "names": {
+   "de": "Nidwalden"
+  },
+  "aliases": [
+   "Kanton Nidwalden"
+  ],
+  "location": {
+   "lat": 46.95,
+   "lon": 8.4
+  },
+  "attributes": {
+   "code": "NW",
+   "country": "country:CH",
+   "region": "region:CH-NW",
+   "districts": [
+    "Kanton Nidwalden"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q12592",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-OW",
+  "type": "license_plate",
+  "names": {
+   "de": "Obwalden"
+  },
+  "aliases": [
+   "Kanton Obwalden"
+  ],
+  "location": {
+   "lat": 46.866666666667,
+   "lon": 8.0333333333333
+  },
+  "attributes": {
+   "code": "OW",
+   "country": "country:CH",
+   "region": "region:CH-OW",
+   "districts": [
+    "Kanton Obwalden"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q12573",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-SG",
+  "type": "license_plate",
+  "names": {
+   "de": "St. Gallen"
+  },
+  "aliases": [
+   "Kanton St. Gallen"
+  ],
+  "location": {
+   "lat": 47.333333333333,
+   "lon": 9.1666666666667
+  },
+  "attributes": {
+   "code": "SG",
+   "country": "country:CH",
+   "region": "region:CH-SG",
+   "districts": [
+    "Kanton St. Gallen"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q12746",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-SH",
+  "type": "license_plate",
+  "names": {
+   "de": "Schaffhausen"
+  },
+  "aliases": [
+   "Kanton Schaffhausen"
+  ],
+  "location": {
+   "lat": 47.716666666667,
+   "lon": 8.5666666666667
+  },
+  "attributes": {
+   "code": "SH",
+   "country": "country:CH",
+   "region": "region:CH-SH",
+   "districts": [
+    "Kanton Schaffhausen"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q12697",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-SO",
+  "type": "license_plate",
+  "names": {
+   "de": "Solothurn"
+  },
+  "aliases": [
+   "Kanton Solothurn"
+  ],
+  "location": {
+   "lat": 47.15,
+   "lon": 7.6333333333333
+  },
+  "attributes": {
+   "code": "SO",
+   "country": "country:CH",
+   "region": "region:CH-SO",
+   "districts": [
+    "Kanton Solothurn"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q11929",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-SZ",
+  "type": "license_plate",
+  "names": {
+   "de": "Schwyz"
+  },
+  "aliases": [
+   "Kanton Schwyz"
+  ],
+  "location": {
+   "lat": 47.066666666667,
+   "lon": 8.75
+  },
+  "attributes": {
+   "code": "SZ",
+   "country": "country:CH",
+   "region": "region:CH-SZ",
+   "districts": [
+    "Kanton Schwyz"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q12433",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-TG",
+  "type": "license_plate",
+  "names": {
+   "de": "Thurgau"
+  },
+  "aliases": [
+   "Kanton Thurgau"
+  ],
+  "location": {
+   "lat": 47.583333333333,
+   "lon": 9.0666666666667
+  },
+  "attributes": {
+   "code": "TG",
+   "country": "country:CH",
+   "region": "region:CH-TG",
+   "districts": [
+    "Kanton Thurgau"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q12713",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-TI",
+  "type": "license_plate",
+  "names": {
+   "de": "Tessin"
+  },
+  "aliases": [
+   "Kanton Tessin"
+  ],
+  "location": {
+   "lat": 46.316666666667,
+   "lon": 8.8166666666667
+  },
+  "attributes": {
+   "code": "TI",
+   "country": "country:CH",
+   "region": "region:CH-TI",
+   "districts": [
+    "Kanton Tessin"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q12724",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-UR",
+  "type": "license_plate",
+  "names": {
+   "de": "Uri"
+  },
+  "aliases": [
+   "Kanton Uri"
+  ],
+  "location": {
+   "lat": 46.783333333333,
+   "lon": 8.6166666666667
+  },
+  "attributes": {
+   "code": "UR",
+   "country": "country:CH",
+   "region": "region:CH-UR",
+   "districts": [
+    "Kanton Uri"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q12404",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-VD",
+  "type": "license_plate",
+  "names": {
+   "de": "Waadt"
+  },
+  "aliases": [
+   "Kanton Waadt"
+  ],
+  "location": {
+   "lat": 46.6,
+   "lon": 6.55
+  },
+  "attributes": {
+   "code": "VD",
+   "country": "country:CH",
+   "region": "region:CH-VD",
+   "districts": [
+    "Kanton Waadt"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q12771",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-VS",
+  "type": "license_plate",
+  "names": {
+   "de": "Wallis"
+  },
+  "aliases": [
+   "Kanton Wallis"
+  ],
+  "location": {
+   "lat": 46.275,
+   "lon": 7.5
+  },
+  "attributes": {
+   "code": "VS",
+   "country": "country:CH",
+   "region": "region:CH-VS",
+   "districts": [
+    "Kanton Wallis"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q834",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-ZG",
+  "type": "license_plate",
+  "names": {
+   "de": "Zug"
+  },
+  "aliases": [
+   "Kanton Zug"
+  ],
+  "location": {
+   "lat": 47.1648,
+   "lon": 8.548
+  },
+  "attributes": {
+   "code": "ZG",
+   "country": "country:CH",
+   "region": "region:CH-ZG",
+   "districts": [
+    "Kanton Zug"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q11933",
+   "license": "CC0"
+  }
+ },
+ {
+  "id": "license_plate:CH-ZH",
+  "type": "license_plate",
+  "names": {
+   "de": "Zürich"
+  },
+  "aliases": [
+   "Kanton Zürich"
+  ],
+  "location": {
+   "lat": 47.413055611111,
+   "lon": 8.6563888888889
+  },
+  "attributes": {
+   "code": "ZH",
+   "country": "country:CH",
+   "region": "region:CH-ZH",
+   "districts": [
+    "Kanton Zürich"
+   ],
+   "historical": false
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q11943",
+   "license": "CC0"
+  }
+ }
+]

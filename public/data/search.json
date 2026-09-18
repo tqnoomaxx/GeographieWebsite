@@ -7018,6 +7018,4966 @@
   "c": "country:GB"
  },
  {
+  "id": "river:Q3392",
+  "t": "river",
+  "n": "Nil",
+  "a": [
+   "Nile",
+   "Nile"
+  ]
+ },
+ {
+  "id": "river:Q3783",
+  "t": "river",
+  "n": "Amazonas",
+  "a": [
+   "Amazon",
+   "Amazon"
+  ]
+ },
+ {
+  "id": "river:Q1653",
+  "t": "river",
+  "n": "Donau",
+  "a": [
+   "Danube",
+   "Danube"
+  ]
+ },
+ {
+  "id": "river:Q584",
+  "t": "river",
+  "n": "Rhein",
+  "a": [
+   "Rhine",
+   "Rhine"
+  ]
+ },
+ {
+  "id": "river:Q626",
+  "t": "river",
+  "n": "Wolga",
+  "a": [
+   "Volga",
+   "Volga"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q1497",
+  "t": "river",
+  "n": "Mississippi",
+  "a": [
+   "Mississippi River",
+   "Mississippi River"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "river:Q5089",
+  "t": "river",
+  "n": "Ganges",
+  "a": [
+   "Ganges"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "river:Q3503",
+  "t": "river",
+  "n": "Kongo",
+  "a": [
+   "River Congo",
+   "River Congo"
+  ]
+ },
+ {
+  "id": "river:Q5413",
+  "t": "river",
+  "n": "Jangtsekiang",
+  "a": [
+   "Yangtze River",
+   "Yangtze River"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "river:Q7348",
+  "t": "river",
+  "n": "Indus",
+  "a": [
+   "Indus River",
+   "Indus River"
+  ]
+ },
+ {
+  "id": "river:Q3542",
+  "t": "river",
+  "n": "Niger",
+  "a": [
+   "Niger River",
+   "Niger River"
+  ]
+ },
+ {
+  "id": "river:Q7355",
+  "t": "river",
+  "n": "Gelber Fluss",
+  "a": [
+   "Yellow River",
+   "Yellow River"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "river:Q34589",
+  "t": "river",
+  "n": "Euphrat",
+  "a": [
+   "Euphrates",
+   "Euphrates"
+  ]
+ },
+ {
+  "id": "river:Q1471",
+  "t": "river",
+  "n": "Seine",
+  "a": [
+   "Seine"
+  ],
+  "c": "country:FR"
+ },
+ {
+  "id": "river:Q35591",
+  "t": "river",
+  "n": "Tigris",
+  "a": [
+   "Tigris"
+  ]
+ },
+ {
+  "id": "river:Q19686",
+  "t": "river",
+  "n": "Themse",
+  "a": [
+   "River Thames",
+   "River Thames"
+  ],
+  "c": "country:GB"
+ },
+ {
+  "id": "river:Q40855",
+  "t": "river",
+  "n": "Dnipro",
+  "a": [
+   "Dnieper",
+   "Dnieper"
+  ]
+ },
+ {
+  "id": "river:Q40059",
+  "t": "river",
+  "n": "Jordan",
+  "a": [
+   "Jordan River",
+   "Jordan River"
+  ]
+ },
+ {
+  "id": "river:Q1644",
+  "t": "river",
+  "n": "Elbe",
+  "a": [
+   "Elbe"
+  ]
+ },
+ {
+  "id": "river:Q41179",
+  "t": "river",
+  "n": "Mekong",
+  "a": [
+   "Mekong River",
+   "Mekong River"
+  ]
+ },
+ {
+  "id": "river:Q548",
+  "t": "river",
+  "n": "Weichsel",
+  "a": [
+   "Vistula",
+   "Vistula"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "river:Q6862",
+  "t": "river",
+  "n": "Amur",
+  "a": [
+   "Amur River",
+   "Amur River"
+  ]
+ },
+ {
+  "id": "river:Q45403",
+  "t": "river",
+  "n": "Brahmaputra",
+  "a": [
+   "Brahmaputra River",
+   "Brahmaputra River"
+  ]
+ },
+ {
+  "id": "river:Q46841",
+  "t": "river",
+  "n": "Lena",
+  "a": [
+   "Lena River",
+   "Lena River"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q973",
+  "t": "river",
+  "n": "Ob",
+  "a": [
+   "Ob"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q80240",
+  "t": "river",
+  "n": "Ural",
+  "a": [
+   "Ural River",
+   "Ural River"
+  ]
+ },
+ {
+  "id": "river:Q1229",
+  "t": "river",
+  "n": "Don",
+  "a": [
+   "Don"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q5419",
+  "t": "river",
+  "n": "Missouri",
+  "a": [
+   "Missouri River",
+   "Missouri River"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "river:Q1469",
+  "t": "river",
+  "n": "Loire",
+  "a": [
+   "Loire"
+  ],
+  "c": "country:FR"
+ },
+ {
+  "id": "river:Q643",
+  "t": "river",
+  "n": "Po",
+  "a": [
+   "Po"
+  ],
+  "c": "country:IT"
+ },
+ {
+  "id": "river:Q552",
+  "t": "river",
+  "n": "Oder",
+  "a": [
+   "Oder"
+  ]
+ },
+ {
+  "id": "river:Q602",
+  "t": "river",
+  "n": "Rhone",
+  "a": [
+   "Rhône",
+   "Rhône"
+  ]
+ },
+ {
+  "id": "river:Q131210",
+  "t": "river",
+  "n": "Dnister",
+  "a": [
+   "Dniester",
+   "Dniester"
+  ]
+ },
+ {
+  "id": "river:Q78707",
+  "t": "river",
+  "n": "Jenissei",
+  "a": [
+   "Yenisei",
+   "Yenisei"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q134750",
+  "t": "river",
+  "n": "Sankt-Lorenz-Strom",
+  "a": [
+   "St. Lawrence River",
+   "St. Lawrence River"
+  ]
+ },
+ {
+  "id": "river:Q13712",
+  "t": "river",
+  "n": "Tiber",
+  "a": [
+   "Tiber"
+  ],
+  "c": "country:IT"
+ },
+ {
+  "id": "river:Q8493",
+  "t": "river",
+  "n": "Amudarja",
+  "a": [
+   "Amu Darya",
+   "Amu Darya"
+  ]
+ },
+ {
+  "id": "river:Q131792",
+  "t": "river",
+  "n": "Orinoco",
+  "a": [
+   "Orinoco River",
+   "Orinoco River"
+  ]
+ },
+ {
+  "id": "river:Q14294",
+  "t": "river",
+  "n": "Tajo",
+  "a": [
+   "Tagus River",
+   "Tagus River"
+  ]
+ },
+ {
+  "id": "river:Q1265",
+  "t": "river",
+  "n": "Colorado River",
+  "a": [
+   "Colorado River"
+  ]
+ },
+ {
+  "id": "river:Q132726",
+  "t": "river",
+  "n": "Yamuna",
+  "a": [
+   "Yamuna"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "river:Q645",
+  "t": "river",
+  "n": "Newa",
+  "a": [
+   "Neva",
+   "Neva"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q128102",
+  "t": "river",
+  "n": "Irtysch",
+  "a": [
+   "Irtysh",
+   "Irtysh"
+  ]
+ },
+ {
+  "id": "river:Q882739",
+  "t": "river",
+  "n": "Blauer Nil",
+  "a": [
+   "Blue Nile",
+   "Blue Nile"
+  ]
+ },
+ {
+  "id": "river:Q41986",
+  "t": "river",
+  "n": "Maas",
+  "a": [
+   "Meuse",
+   "Meuse"
+  ]
+ },
+ {
+  "id": "river:Q8197",
+  "t": "river",
+  "n": "Düna",
+  "a": [
+   "Daugava",
+   "Daugava"
+  ]
+ },
+ {
+  "id": "river:Q483159",
+  "t": "river",
+  "n": "Syrdarja",
+  "a": [
+   "Syr Darya",
+   "Syr Darya"
+  ]
+ },
+ {
+  "id": "river:Q104437",
+  "t": "river",
+  "n": "Yukon River",
+  "a": [
+   "Yukon River"
+  ]
+ },
+ {
+  "id": "river:Q3140",
+  "t": "river",
+  "n": "Hudson River",
+  "a": [
+   "Hudson River"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "river:Q160636",
+  "t": "river",
+  "n": "Rio Grande",
+  "a": [
+   "Rio Grande"
+  ]
+ },
+ {
+  "id": "river:Q1670",
+  "t": "river",
+  "n": "Main",
+  "a": [
+   "Main"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "river:Q2251",
+  "t": "river",
+  "n": "Columbia River",
+  "a": [
+   "Columbia River"
+  ]
+ },
+ {
+  "id": "river:Q173017",
+  "t": "river",
+  "n": "Limpopo",
+  "a": [
+   "Limpopo River",
+   "Limpopo River"
+  ]
+ },
+ {
+  "id": "river:Q10965",
+  "t": "river",
+  "n": "Ebro",
+  "a": [
+   "Ebro"
+  ],
+  "c": "country:ES"
+ },
+ {
+  "id": "river:Q127892",
+  "t": "river",
+  "n": "Rio Paraná",
+  "a": [
+   "Paraná River",
+   "Paraná River"
+  ]
+ },
+ {
+  "id": "river:Q4915",
+  "t": "river",
+  "n": "Ohio River",
+  "a": [
+   "Ohio River"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "river:Q4814791",
+  "t": "river",
+  "n": "Weißer Nil",
+  "a": [
+   "White Nile",
+   "White Nile"
+  ]
+ },
+ {
+  "id": "river:Q1667",
+  "t": "river",
+  "n": "Mosel",
+  "a": [
+   "Moselle",
+   "Moselle"
+  ]
+ },
+ {
+  "id": "river:Q14299",
+  "t": "river",
+  "n": "Douro",
+  "a": [
+   "Douro River",
+   "Douro River"
+  ]
+ },
+ {
+  "id": "river:Q181475",
+  "t": "river",
+  "n": "Oranje",
+  "a": [
+   "Orange River",
+   "Orange River"
+  ]
+ },
+ {
+  "id": "river:Q183078",
+  "t": "river",
+  "n": "Murray River",
+  "a": [
+   "Murray River"
+  ],
+  "c": "country:AU"
+ },
+ {
+  "id": "river:Q131574",
+  "t": "river",
+  "n": "Moldau",
+  "a": [
+   "Vltava",
+   "Vltava"
+  ],
+  "c": "country:CZ"
+ },
+ {
+  "id": "river:Q134350",
+  "t": "river",
+  "n": "Theiß",
+  "a": [
+   "Tisza",
+   "Tisza"
+  ]
+ },
+ {
+  "id": "river:Q35827",
+  "t": "river",
+  "n": "Río de la Plata",
+  "a": [
+   "Río de la Plata"
+  ]
+ },
+ {
+  "id": "river:Q191314",
+  "t": "river",
+  "n": "Godavari",
+  "a": [
+   "Godavari River",
+   "Godavari River"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "river:Q175117",
+  "t": "river",
+  "n": "Moskwa",
+  "a": [
+   "Moskva River",
+   "Moskva River"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q3569",
+  "t": "river",
+  "n": "Senegal-Strom",
+  "a": [
+   "Senegal River",
+   "Senegal River"
+  ]
+ },
+ {
+  "id": "river:Q26076",
+  "t": "river",
+  "n": "Irrawaddy",
+  "a": [
+   "Irrawaddy River",
+   "Irrawaddy River"
+  ],
+  "c": "country:MM"
+ },
+ {
+  "id": "river:Q162737",
+  "t": "river",
+  "n": "Angara",
+  "a": [
+   "Angara"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q18278",
+  "t": "river",
+  "n": "Río Uruguay",
+  "a": [
+   "Uruguay River",
+   "Uruguay River"
+  ]
+ },
+ {
+  "id": "river:Q79082",
+  "t": "river",
+  "n": "Kama",
+  "a": [
+   "Kama"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q160819",
+  "t": "river",
+  "n": "Gambia",
+  "a": [
+   "Gambia River",
+   "Gambia River"
+  ]
+ },
+ {
+  "id": "river:Q5077",
+  "t": "river",
+  "n": "Garonne",
+  "a": [
+   "Garonne"
+  ]
+ },
+ {
+  "id": "river:Q14383",
+  "t": "river",
+  "n": "Save",
+  "a": [
+   "Sava",
+   "Sava"
+  ]
+ },
+ {
+  "id": "river:Q118771",
+  "t": "river",
+  "n": "Rio Negro",
+  "a": [
+   "Rio Negro"
+  ]
+ },
+ {
+  "id": "river:Q172089",
+  "t": "river",
+  "n": "Oka",
+  "a": [
+   "Oka"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q179396",
+  "t": "river",
+  "n": "Río Paraguay",
+  "a": [
+   "Paraguay River",
+   "Paraguay River"
+  ]
+ },
+ {
+  "id": "river:Q193499",
+  "t": "river",
+  "n": "Krishna",
+  "a": [
+   "Krishna River",
+   "Krishna River"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "river:Q8168",
+  "t": "river",
+  "n": "Petschora",
+  "a": [
+   "Pechora",
+   "Pechora"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q179751",
+  "t": "river",
+  "n": "Aras",
+  "a": [
+   "Aras River",
+   "Aras River"
+  ]
+ },
+ {
+  "id": "river:Q156557",
+  "t": "river",
+  "n": "Kura",
+  "a": [
+   "Kura River",
+   "Kura River"
+  ]
+ },
+ {
+  "id": "river:Q3411",
+  "t": "river",
+  "n": "Mackenzie River",
+  "a": [
+   "Mackenzie River"
+  ],
+  "c": "country:CA"
+ },
+ {
+  "id": "river:Q5622",
+  "t": "river",
+  "n": "Memel",
+  "a": [
+   "Neman",
+   "Neman"
+  ]
+ },
+ {
+  "id": "river:Q14309",
+  "t": "river",
+  "n": "Guadalquivir",
+  "a": [
+   "Guadalquivir"
+  ],
+  "c": "country:ES"
+ },
+ {
+  "id": "river:Q14369",
+  "t": "river",
+  "n": "Inn",
+  "a": [
+   "Inn"
+  ]
+ },
+ {
+  "id": "river:Q37620",
+  "t": "river",
+  "n": "Schelde",
+  "a": [
+   "Scheldt",
+   "Scheldt"
+  ]
+ },
+ {
+  "id": "river:Q78879",
+  "t": "river",
+  "n": "Kolyma",
+  "a": [
+   "Kolyma"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q118251",
+  "t": "river",
+  "n": "Rio Madeira",
+  "a": [
+   "Madeira River",
+   "Madeira River"
+  ]
+ },
+ {
+  "id": "river:Q188773",
+  "t": "river",
+  "n": "Okavango",
+  "a": [
+   "Okavango River",
+   "Okavango River"
+  ]
+ },
+ {
+  "id": "river:Q191829",
+  "t": "river",
+  "n": "Río Magdalena",
+  "a": [
+   "Magdalena River",
+   "Magdalena River"
+  ],
+  "c": "country:CO"
+ },
+ {
+  "id": "river:Q1673",
+  "t": "river",
+  "n": "Neckar",
+  "a": [
+   "Neckar"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "river:Q13696",
+  "t": "river",
+  "n": "Etsch",
+  "a": [
+   "Adige",
+   "Adige"
+  ],
+  "c": "country:IT"
+ },
+ {
+  "id": "river:Q166966",
+  "t": "river",
+  "n": "Schatt al-Arab",
+  "a": [
+   "Shatt al-Arab",
+   "Shatt al-Arab"
+  ]
+ },
+ {
+  "id": "river:Q192415",
+  "t": "river",
+  "n": "Volta",
+  "a": [
+   "Volta River",
+   "Volta River"
+  ]
+ },
+ {
+  "id": "river:Q8187",
+  "t": "river",
+  "n": "Nördliche Dwina",
+  "a": [
+   "Northern Dvina",
+   "Northern Dvina"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q171649",
+  "t": "river",
+  "n": "Ubangi",
+  "a": [
+   "Ubangi River",
+   "Ubangi River"
+  ]
+ },
+ {
+  "id": "river:Q216875",
+  "t": "river",
+  "n": "Chanab",
+  "a": [
+   "Chenab River",
+   "Chenab River"
+  ]
+ },
+ {
+  "id": "river:Q118850",
+  "t": "river",
+  "n": "Mae Nam Chao Phraya",
+  "a": [
+   "Chao Phraya River",
+   "Chao Phraya River"
+  ],
+  "c": "country:TH"
+ },
+ {
+  "id": "river:Q179444",
+  "t": "river",
+  "n": "Potomac River",
+  "a": [
+   "Potomac River"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "river:Q1675",
+  "t": "river",
+  "n": "Aare",
+  "a": [
+   "Aare"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "river:Q1684",
+  "t": "river",
+  "n": "Spree",
+  "a": [
+   "Spree"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "river:Q26422",
+  "t": "river",
+  "n": "Saluen",
+  "a": [
+   "Salween River",
+   "Salween River"
+  ]
+ },
+ {
+  "id": "river:Q93360",
+  "t": "river",
+  "n": "Río Bío Bío",
+  "a": [
+   "Bío Bío River",
+   "Bío Bío River"
+  ],
+  "c": "country:CL"
+ },
+ {
+  "id": "river:Q142148",
+  "t": "river",
+  "n": "Rio São Francisco",
+  "a": [
+   "São Francisco River",
+   "São Francisco River"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "river:Q171009",
+  "t": "river",
+  "n": "Drau",
+  "a": [
+   "Drava",
+   "Drava"
+  ]
+ },
+ {
+  "id": "river:Q201463",
+  "t": "river",
+  "n": "Perlfluss",
+  "a": [
+   "Pearl River",
+   "Pearl River"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "river:Q8319",
+  "t": "river",
+  "n": "Arkansas River",
+  "a": [
+   "Arkansas River"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "river:Q82776",
+  "t": "river",
+  "n": "Terek",
+  "a": [
+   "Terek"
+  ]
+ },
+ {
+  "id": "river:Q181482",
+  "t": "river",
+  "n": "Darling River",
+  "a": [
+   "Darling River"
+  ],
+  "c": "country:AU"
+ },
+ {
+  "id": "river:Q182445",
+  "t": "river",
+  "n": "Pruth",
+  "a": [
+   "Prut",
+   "Prut"
+  ]
+ },
+ {
+  "id": "river:Q186541",
+  "t": "river",
+  "n": "Kasai",
+  "a": [
+   "Kasai River",
+   "Kasai River"
+  ]
+ },
+ {
+  "id": "river:Q1650",
+  "t": "river",
+  "n": "Weser",
+  "a": [
+   "Weser"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "river:Q19682",
+  "t": "river",
+  "n": "River Severn",
+  "a": [
+   "River Severn"
+  ],
+  "c": "country:GB"
+ },
+ {
+  "id": "river:Q106588",
+  "t": "river",
+  "n": "Isar",
+  "a": [
+   "Isar"
+  ]
+ },
+ {
+  "id": "river:Q156054",
+  "t": "river",
+  "n": "Rio Tocantins",
+  "a": [
+   "Tocantins River",
+   "Tocantins River"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "river:Q171675",
+  "t": "river",
+  "n": "Satluj",
+  "a": [
+   "Sutlej",
+   "Sutlej"
+  ]
+ },
+ {
+  "id": "river:Q201823",
+  "t": "river",
+  "n": "Warthe",
+  "a": [
+   "Warta",
+   "Warta"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "river:Q204806",
+  "t": "river",
+  "n": "Benue",
+  "a": [
+   "Benue River",
+   "Benue River"
+  ]
+ },
+ {
+  "id": "river:Q82207",
+  "t": "river",
+  "n": "Indigirka",
+  "a": [
+   "Indigirka"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q82308",
+  "t": "river",
+  "n": "Kuban",
+  "a": [
+   "Kuban"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q191238",
+  "t": "river",
+  "n": "Siwerskyj Donez",
+  "a": [
+   "Donets",
+   "Donets"
+  ]
+ },
+ {
+  "id": "river:Q55498",
+  "t": "river",
+  "n": "Yalu",
+  "a": [
+   "Yalu River",
+   "Yalu River"
+  ]
+ },
+ {
+  "id": "river:Q257785",
+  "t": "river",
+  "n": "Kızılırmak",
+  "a": [
+   "Kızılırmak River",
+   "Kızılırmak River"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "river:Q172572",
+  "t": "river",
+  "n": "Rubikon",
+  "a": [
+   "Rubicon",
+   "Rubicon"
+  ],
+  "c": "country:IT"
+ },
+ {
+  "id": "river:Q103148",
+  "t": "river",
+  "n": "Lahn",
+  "a": [
+   "Lahn"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "river:Q143762",
+  "t": "river",
+  "n": "Delaware River",
+  "a": [
+   "Delaware River"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "river:Q156237",
+  "t": "river",
+  "n": "Bug",
+  "a": [
+   "Western Bug",
+   "Western Bug"
+  ]
+ },
+ {
+  "id": "river:Q193737",
+  "t": "river",
+  "n": "Tennessee River",
+  "a": [
+   "Tennessee River"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "river:Q214874",
+  "t": "river",
+  "n": "Jhelam",
+  "a": [
+   "Jhelum River",
+   "Jhelum River"
+  ]
+ },
+ {
+  "id": "river:Q1664",
+  "t": "river",
+  "n": "Ruhr",
+  "a": [
+   "Ruhr"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "river:Q1682",
+  "t": "river",
+  "n": "Havel",
+  "a": [
+   "Havel"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "river:Q14305",
+  "t": "river",
+  "n": "Guadiana",
+  "a": [
+   "Guadiana"
+  ]
+ },
+ {
+  "id": "river:Q157042",
+  "t": "river",
+  "n": "Prypjat",
+  "a": [
+   "Pripyat River",
+   "Pripyat River"
+  ]
+ },
+ {
+  "id": "river:Q182343",
+  "t": "river",
+  "n": "Niagara River",
+  "a": [
+   "Niagara River"
+  ]
+ },
+ {
+  "id": "river:Q187834",
+  "t": "river",
+  "n": "Saône",
+  "a": [
+   "Saône"
+  ],
+  "c": "country:FR"
+ },
+ {
+  "id": "river:Q188940",
+  "t": "river",
+  "n": "Südlicher Bug",
+  "a": [
+   "Southern Bug",
+   "Southern Bug"
+  ],
+  "c": "country:UA"
+ },
+ {
+  "id": "river:Q191524",
+  "t": "river",
+  "n": "Ischim",
+  "a": [
+   "Ishim",
+   "Ishim"
+  ]
+ },
+ {
+  "id": "river:Q192567",
+  "t": "river",
+  "n": "Ili",
+  "a": [
+   "Ili River",
+   "Ili River"
+  ]
+ },
+ {
+  "id": "river:Q192820",
+  "t": "river",
+  "n": "Shannon",
+  "a": [
+   "River Shannon",
+   "River Shannon"
+  ],
+  "c": "country:IE"
+ },
+ {
+  "id": "river:Q203409",
+  "t": "river",
+  "n": "Rioni",
+  "a": [
+   "Rioni"
+  ],
+  "c": "country:GE"
+ },
+ {
+  "id": "river:Q55500",
+  "t": "river",
+  "n": "Hangang",
+  "a": [
+   "Han River",
+   "Han River"
+  ]
+ },
+ {
+  "id": "river:Q234004",
+  "t": "river",
+  "n": "Narmada",
+  "a": [
+   "Narmada"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "river:Q8510",
+  "t": "river",
+  "n": "Hilmend",
+  "a": [
+   "Helmand River",
+   "Helmand River"
+  ]
+ },
+ {
+  "id": "river:Q26439",
+  "t": "river",
+  "n": "Argun",
+  "a": [
+   "Argun River",
+   "Argun River"
+  ]
+ },
+ {
+  "id": "river:Q75745",
+  "t": "river",
+  "n": "Selenga",
+  "a": [
+   "Selenga"
+  ]
+ },
+ {
+  "id": "river:Q179251",
+  "t": "river",
+  "n": "March",
+  "a": [
+   "Morava",
+   "Morava"
+  ]
+ },
+ {
+  "id": "river:Q186901",
+  "t": "river",
+  "n": "Drina",
+  "a": [
+   "Drina"
+  ]
+ },
+ {
+  "id": "river:Q2750140",
+  "t": "river",
+  "n": "Kagera-Nil",
+  "a": [
+   "Kagera River",
+   "Kagera River"
+  ]
+ },
+ {
+  "id": "river:Q189596",
+  "t": "river",
+  "n": "Vardar",
+  "a": [
+   "Vardar"
+  ]
+ },
+ {
+  "id": "river:Q202796",
+  "t": "river",
+  "n": "Desna",
+  "a": [
+   "Desna"
+  ]
+ },
+ {
+  "id": "river:Q41983",
+  "t": "river",
+  "n": "Marne",
+  "a": [
+   "Marne"
+  ],
+  "c": "country:FR"
+ },
+ {
+  "id": "river:Q135477",
+  "t": "river",
+  "n": "Schari",
+  "a": [
+   "Chari River",
+   "Chari River"
+  ]
+ },
+ {
+  "id": "river:Q8515",
+  "t": "river",
+  "n": "Kabul",
+  "a": [
+   "Kabul River",
+   "Kabul River"
+  ]
+ },
+ {
+  "id": "river:Q14366",
+  "t": "river",
+  "n": "Tessin",
+  "a": [
+   "Ticino",
+   "Ticino"
+  ]
+ },
+ {
+  "id": "river:Q192157",
+  "t": "river",
+  "n": "Belaja",
+  "a": [
+   "Belaya",
+   "Belaya"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q204347",
+  "t": "river",
+  "n": "Mariza",
+  "a": [
+   "Maritsa",
+   "Maritsa"
+  ]
+ },
+ {
+  "id": "river:Q209031",
+  "t": "river",
+  "n": "Narva",
+  "a": [
+   "Narva"
+  ]
+ },
+ {
+  "id": "river:Q209891",
+  "t": "river",
+  "n": "Sura",
+  "a": [
+   "Sura"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q210326",
+  "t": "river",
+  "n": "Songhua Jiang",
+  "a": [
+   "Songhua River",
+   "Songhua River"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "river:Q317899",
+  "t": "river",
+  "n": "Ravi",
+  "a": [
+   "Ravi River",
+   "Ravi River"
+  ]
+ },
+ {
+  "id": "river:Q559661",
+  "t": "river",
+  "n": "Liao He",
+  "a": [
+   "Liao River",
+   "Liao River"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "river:Q190777",
+  "t": "river",
+  "n": "Neretva",
+  "a": [
+   "Neretva"
+  ]
+ },
+ {
+  "id": "river:Q192495",
+  "t": "river",
+  "n": "Wjatka",
+  "a": [
+   "Vyatka",
+   "Vyatka"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q200174",
+  "t": "river",
+  "n": "Marañón",
+  "a": [
+   "Marañón River",
+   "Marañón River"
+  ],
+  "c": "country:PE"
+ },
+ {
+  "id": "river:Q206850",
+  "t": "river",
+  "n": "Roter Fluss",
+  "a": [
+   "Red River",
+   "Red River"
+  ]
+ },
+ {
+  "id": "river:Q208174",
+  "t": "river",
+  "n": "Dordogne",
+  "a": [
+   "Dordogne"
+  ],
+  "c": "country:FR"
+ },
+ {
+  "id": "river:Q1678",
+  "t": "river",
+  "n": "Saale",
+  "a": [
+   "Saale"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "river:Q19721",
+  "t": "river",
+  "n": "Clyde",
+  "a": [
+   "River Clyde",
+   "River Clyde"
+  ],
+  "c": "country:GB"
+ },
+ {
+  "id": "river:Q200952",
+  "t": "river",
+  "n": "Ucayali",
+  "a": [
+   "Ucayali River",
+   "Ucayali River"
+  ],
+  "c": "country:PE"
+ },
+ {
+  "id": "river:Q124653",
+  "t": "river",
+  "n": "Tobol",
+  "a": [
+   "Tobol"
+  ]
+ },
+ {
+  "id": "river:Q185405",
+  "t": "river",
+  "n": "Amstel",
+  "a": [
+   "Amstel"
+  ],
+  "c": "country:NL"
+ },
+ {
+  "id": "river:Q188871",
+  "t": "river",
+  "n": "Orontes",
+  "a": [
+   "Orontes River",
+   "Orontes River"
+  ]
+ },
+ {
+  "id": "river:Q63109",
+  "t": "river",
+  "n": "Adda",
+  "a": [
+   "Adda"
+  ],
+  "c": "country:IT"
+ },
+ {
+  "id": "river:Q272074",
+  "t": "river",
+  "n": "Snake River",
+  "a": [
+   "Snake River"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "river:Q273456",
+  "t": "river",
+  "n": "rivière Omo",
+  "a": [
+   "Omo River",
+   "Omo River"
+  ],
+  "c": "country:ET"
+ },
+ {
+  "id": "river:Q1648",
+  "t": "river",
+  "n": "Ems",
+  "a": [
+   "Ems"
+  ]
+ },
+ {
+  "id": "river:Q209530",
+  "t": "river",
+  "n": "Vaal",
+  "a": [
+   "Vaal River",
+   "Vaal River"
+  ],
+  "c": "country:ZA"
+ },
+ {
+  "id": "river:Q461557",
+  "t": "river",
+  "n": "Karun",
+  "a": [
+   "Karun River",
+   "Karun River"
+  ],
+  "c": "country:IR"
+ },
+ {
+  "id": "river:Q8505",
+  "t": "river",
+  "n": "Hari Rud",
+  "a": [
+   "Hari River",
+   "Hari River"
+  ]
+ },
+ {
+  "id": "river:Q19714",
+  "t": "river",
+  "n": "Trent",
+  "a": [
+   "River Trent",
+   "River Trent"
+  ],
+  "c": "country:GB"
+ },
+ {
+  "id": "river:Q191832",
+  "t": "river",
+  "n": "Aldan",
+  "a": [
+   "Aldan"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q206694",
+  "t": "river",
+  "n": "Onon",
+  "a": [
+   "Onon River",
+   "Onon River"
+  ]
+ },
+ {
+  "id": "river:Q26390",
+  "t": "river",
+  "n": "Anadyr",
+  "a": [
+   "Anadyr"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q26428",
+  "t": "river",
+  "n": "Untere Tunguska",
+  "a": [
+   "Nizhnyaya Tunguska",
+   "Nizhnyaya Tunguska"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q26433",
+  "t": "river",
+  "n": "Wiljui",
+  "a": [
+   "Vilyuy",
+   "Vilyuy"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q320649",
+  "t": "river",
+  "n": "Kunene",
+  "a": [
+   "Cunene River",
+   "Cunene River"
+  ]
+ },
+ {
+  "id": "river:Q5602",
+  "t": "river",
+  "n": "Lausitzer Neiße",
+  "a": [
+   "Lusatian Nysa",
+   "Lusatian Nysa"
+  ]
+ },
+ {
+  "id": "river:Q200231",
+  "t": "river",
+  "n": "Oise",
+  "a": [
+   "Oise"
+  ]
+ },
+ {
+  "id": "river:Q204040",
+  "t": "river",
+  "n": "Mur",
+  "a": [
+   "Mur"
+  ]
+ },
+ {
+  "id": "river:Q207777",
+  "t": "river",
+  "n": "Ussuri",
+  "a": [
+   "Ussuri"
+  ]
+ },
+ {
+  "id": "river:Q207903",
+  "t": "river",
+  "n": "Neris",
+  "a": [
+   "Neris"
+  ]
+ },
+ {
+  "id": "river:Q213840",
+  "t": "river",
+  "n": "Cuanza",
+  "a": [
+   "Cuanza River",
+   "Cuanza River"
+  ],
+  "c": "country:AO"
+ },
+ {
+  "id": "river:Q319590",
+  "t": "river",
+  "n": "Beas",
+  "a": [
+   "Beas River",
+   "Beas River"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "river:Q841359",
+  "t": "river",
+  "n": "Kapuas",
+  "a": [
+   "Kapuas River",
+   "Kapuas River"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "river:Q8542",
+  "t": "river",
+  "n": "Pandsch",
+  "a": [
+   "Panj River",
+   "Panj River"
+  ]
+ },
+ {
+  "id": "river:Q210870",
+  "t": "river",
+  "n": "Ufa",
+  "a": [
+   "Ufa"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q212795",
+  "t": "river",
+  "n": "Alasani",
+  "a": [
+   "Alazani",
+   "Alazani"
+  ]
+ },
+ {
+  "id": "river:Q782845",
+  "t": "river",
+  "n": "Awash",
+  "a": [
+   "Awash River",
+   "Awash River"
+  ],
+  "c": "country:ET"
+ },
+ {
+  "id": "river:Q849494",
+  "t": "river",
+  "n": "Kali Gandaki",
+  "a": [
+   "Gandaki River",
+   "Gandaki River"
+  ]
+ },
+ {
+  "id": "river:Q934455",
+  "t": "river",
+  "n": "Ebola",
+  "a": [
+   "Ebola River",
+   "Ebola River"
+  ],
+  "c": "country:CD"
+ },
+ {
+  "id": "river:Q4534",
+  "t": "river",
+  "n": "Río Andalién",
+  "a": [
+   "Andalien River",
+   "Andalien River"
+  ],
+  "c": "country:CL"
+ },
+ {
+  "id": "river:Q14554",
+  "t": "river",
+  "n": "Rio Miño",
+  "a": [
+   "Minho River",
+   "Minho River"
+  ]
+ },
+ {
+  "id": "river:Q26271",
+  "t": "river",
+  "n": "Rio Purus",
+  "a": [
+   "Purus River",
+   "Purus River"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "river:Q126822",
+  "t": "river",
+  "n": "Olt",
+  "a": [
+   "Olt River",
+   "Olt River"
+  ],
+  "c": "country:RO"
+ },
+ {
+  "id": "river:Q171840",
+  "t": "river",
+  "n": "Rio Japurá",
+  "a": [
+   "Japurá River",
+   "Japurá River"
+  ]
+ },
+ {
+  "id": "river:Q191087",
+  "t": "river",
+  "n": "Acheron",
+  "a": [
+   "Acheron"
+  ],
+  "c": "country:GR"
+ },
+ {
+  "id": "river:Q207366",
+  "t": "river",
+  "n": "Adour",
+  "a": [
+   "Adour"
+  ],
+  "c": "country:FR"
+ },
+ {
+  "id": "river:Q208009",
+  "t": "river",
+  "n": "Liffey",
+  "a": [
+   "Liffey"
+  ],
+  "c": "country:IE"
+ },
+ {
+  "id": "river:Q208367",
+  "t": "river",
+  "n": "Bosna",
+  "a": [
+   "Bosna"
+  ],
+  "c": "country:BA"
+ },
+ {
+  "id": "river:Q216171",
+  "t": "river",
+  "n": "Waal",
+  "a": [
+   "Waal"
+  ],
+  "c": "country:NL"
+ },
+ {
+  "id": "river:Q237901",
+  "t": "river",
+  "n": "Tarim",
+  "a": [
+   "Tarim River",
+   "Tarim River"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "river:Q318435",
+  "t": "river",
+  "n": "Detroit River",
+  "a": [
+   "Detroit River"
+  ]
+ },
+ {
+  "id": "river:Q503262",
+  "t": "river",
+  "n": "River Tweed",
+  "a": [
+   "River Tweed"
+  ],
+  "c": "country:GB"
+ },
+ {
+  "id": "river:Q1125242",
+  "t": "river",
+  "n": "Meghna",
+  "a": [
+   "Meghna River",
+   "Meghna River"
+  ],
+  "c": "country:BD"
+ },
+ {
+  "id": "river:Q78861",
+  "t": "river",
+  "n": "Jana",
+  "a": [
+   "Yana",
+   "Yana"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q115456",
+  "t": "river",
+  "n": "Schilka",
+  "a": [
+   "Shilka",
+   "Shilka"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "river:Q201341",
+  "t": "river",
+  "n": "Isère",
+  "a": [
+   "Isère"
+  ],
+  "c": "country:FR"
+ },
+ {
+  "id": "river:Q202598",
+  "t": "river",
+  "n": "Waag",
+  "a": [
+   "Váh",
+   "Váh"
+  ],
+  "c": "country:SK"
+ },
+ {
+  "id": "river:Q208302",
+  "t": "river",
+  "n": "Sereth",
+  "a": [
+   "Siret River",
+   "Siret River"
+  ],
+  "c": "country:RO"
+ },
+ {
+  "id": "river:Q27538",
+  "t": "river",
+  "n": "Susquehanna River",
+  "a": [
+   "Susquehanna River"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "lake:Q5484",
+  "t": "lake",
+  "n": "Kaspisches Meer",
+  "a": [
+   "Caspian Sea",
+   "Caspian Sea"
+  ]
+ },
+ {
+  "id": "lake:Q5513",
+  "t": "lake",
+  "n": "Baikalsee",
+  "a": [
+   "Lake Baikal",
+   "Lake Baikal"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "lake:Q5505",
+  "t": "lake",
+  "n": "Victoriasee",
+  "a": [
+   "Lake Victoria",
+   "Lake Victoria"
+  ]
+ },
+ {
+  "id": "lake:Q5511",
+  "t": "lake",
+  "n": "Tanganjikasee",
+  "a": [
+   "Lake Tanganyika",
+   "Lake Tanganyika"
+  ]
+ },
+ {
+  "id": "lake:Q35342",
+  "t": "lake",
+  "n": "Titicacasee",
+  "a": [
+   "Titicaca",
+   "Titicaca"
+  ]
+ },
+ {
+  "id": "lake:Q1066",
+  "t": "lake",
+  "n": "Oberer See",
+  "a": [
+   "Lake Superior",
+   "Lake Superior"
+  ]
+ },
+ {
+  "id": "lake:Q1062",
+  "t": "lake",
+  "n": "Ontariosee",
+  "a": [
+   "Lake Ontario",
+   "Lake Ontario"
+  ]
+ },
+ {
+  "id": "lake:Q1169",
+  "t": "lake",
+  "n": "Michigansee",
+  "a": [
+   "Lake Michigan",
+   "Lake Michigan"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "lake:Q5532",
+  "t": "lake",
+  "n": "Malawisee",
+  "a": [
+   "Lake Malawi",
+   "Lake Malawi"
+  ]
+ },
+ {
+  "id": "lake:Q125309",
+  "t": "lake",
+  "n": "Tschadsee",
+  "a": [
+   "Lake Chad",
+   "Lake Chad"
+  ]
+ },
+ {
+  "id": "lake:Q5492",
+  "t": "lake",
+  "n": "Eriesee",
+  "a": [
+   "Lake Erie",
+   "Lake Erie"
+  ]
+ },
+ {
+  "id": "lake:Q1383",
+  "t": "lake",
+  "n": "Huronsee",
+  "a": [
+   "Lake Huron",
+   "Lake Huron"
+  ]
+ },
+ {
+  "id": "lake:Q15288",
+  "t": "lake",
+  "n": "Ladogasee",
+  "a": [
+   "Lake Ladoga",
+   "Lake Ladoga"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "lake:Q6383",
+  "t": "lake",
+  "n": "Balaton",
+  "a": [
+   "Lake Balaton",
+   "Lake Balaton"
+  ],
+  "c": "country:HU"
+ },
+ {
+  "id": "lake:Q134485",
+  "t": "lake",
+  "n": "Balchaschsee",
+  "a": [
+   "Lake Balkhash",
+   "Lake Balkhash"
+  ],
+  "c": "country:KZ"
+ },
+ {
+  "id": "lake:Q42191",
+  "t": "lake",
+  "n": "Yssykköl",
+  "a": [
+   "Issyk-Kul",
+   "Issyk-Kul"
+  ],
+  "c": "country:KG"
+ },
+ {
+  "id": "lake:Q125888",
+  "t": "lake",
+  "n": "Albertsee",
+  "a": [
+   "Lake Albert",
+   "Lake Albert"
+  ]
+ },
+ {
+  "id": "lake:Q6414",
+  "t": "lake",
+  "n": "Gardasee",
+  "a": [
+   "Lake Garda",
+   "Lake Garda"
+  ],
+  "c": "country:IT"
+ },
+ {
+  "id": "lake:Q166162",
+  "t": "lake",
+  "n": "Onegasee",
+  "a": [
+   "Lake Onega",
+   "Lake Onega"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "lake:Q125912",
+  "t": "lake",
+  "n": "Kiwusee",
+  "a": [
+   "Lake Kivu",
+   "Lake Kivu"
+  ]
+ },
+ {
+  "id": "lake:Q14379",
+  "t": "lake",
+  "n": "Lago Maggiore",
+  "a": [
+   "Lake Maggiore",
+   "Lake Maggiore"
+  ]
+ },
+ {
+  "id": "lake:Q173596",
+  "t": "lake",
+  "n": "Vänern",
+  "a": [
+   "Vänern"
+  ],
+  "c": "country:SE"
+ },
+ {
+  "id": "lake:Q49650",
+  "t": "lake",
+  "n": "Loch Ness",
+  "a": [
+   "Loch Ness"
+  ],
+  "c": "country:GB"
+ },
+ {
+  "id": "lake:Q173862",
+  "t": "lake",
+  "n": "Nicaraguasee",
+  "a": [
+   "Lake Nicaragua",
+   "Lake Nicaragua"
+  ],
+  "c": "country:NI"
+ },
+ {
+  "id": "lake:Q116685",
+  "t": "lake",
+  "n": "Tanasee",
+  "a": [
+   "Lake Tana",
+   "Lake Tana"
+  ],
+  "c": "country:ET"
+ },
+ {
+  "id": "lake:Q192770",
+  "t": "lake",
+  "n": "Saimaa",
+  "a": [
+   "Saimaa"
+  ],
+  "c": "country:FI"
+ },
+ {
+  "id": "lake:Q181932",
+  "t": "lake",
+  "n": "Sewansee",
+  "a": [
+   "Lake Sevan",
+   "Lake Sevan"
+  ],
+  "c": "country:AM"
+ },
+ {
+  "id": "lake:Q125211",
+  "t": "lake",
+  "n": "Eduardsee",
+  "a": [
+   "Lake Edward",
+   "Lake Edward"
+  ]
+ },
+ {
+  "id": "lake:Q3272",
+  "t": "lake",
+  "n": "Winnipegsee",
+  "a": [
+   "Lake Winnipeg",
+   "Lake Winnipeg"
+  ],
+  "c": "country:CA"
+ },
+ {
+  "id": "lake:Q5525",
+  "t": "lake",
+  "n": "Großer Bärensee",
+  "a": [
+   "Great Bear Lake",
+   "Great Bear Lake"
+  ],
+  "c": "country:CA"
+ },
+ {
+  "id": "lake:Q182137",
+  "t": "lake",
+  "n": "Maracaibo-See",
+  "a": [
+   "Lake Maracaibo",
+   "Lake Maracaibo"
+  ],
+  "c": "country:VE"
+ },
+ {
+  "id": "lake:Q201294",
+  "t": "lake",
+  "n": "Qinghai-See",
+  "a": [
+   "Qinghai Lake",
+   "Qinghai Lake"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "lake:Q179970",
+  "t": "lake",
+  "n": "Kati Thanda–Lake Eyre",
+  "a": [
+   "Kati Thanda–Lake Eyre"
+  ],
+  "c": "country:AU"
+ },
+ {
+  "id": "lake:Q504433",
+  "t": "lake",
+  "n": "Mwerusee",
+  "a": [
+   "Lake Mweru",
+   "Lake Mweru"
+  ]
+ },
+ {
+  "id": "lake:Q19253",
+  "t": "lake",
+  "n": "Peipussee",
+  "a": [
+   "Lake Peipus",
+   "Lake Peipus"
+  ]
+ },
+ {
+  "id": "lake:Q207690",
+  "t": "lake",
+  "n": "Poyang-See",
+  "a": [
+   "Poyang Lake",
+   "Poyang Lake"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "lake:Q188195",
+  "t": "lake",
+  "n": "Vättern",
+  "a": [
+   "Vättern"
+  ],
+  "c": "country:SE"
+ },
+ {
+  "id": "lake:Q14418",
+  "t": "lake",
+  "n": "Luganersee",
+  "a": [
+   "Lake Lugano",
+   "Lake Lugano"
+  ]
+ },
+ {
+  "id": "lake:Q184492",
+  "t": "lake",
+  "n": "Mälaren",
+  "a": [
+   "Mälaren"
+  ],
+  "c": "country:SE"
+ },
+ {
+  "id": "lake:Q14407",
+  "t": "lake",
+  "n": "Zürichsee",
+  "a": [
+   "Lake Zurich",
+   "Lake Zurich"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "lake:Q156258",
+  "t": "lake",
+  "n": "Ohridsee",
+  "a": [
+   "Lake Ohrid",
+   "Lake Ohrid"
+  ]
+ },
+ {
+  "id": "lake:Q199938",
+  "t": "lake",
+  "n": "Tonle Sap",
+  "a": [
+   "Tonle Sap"
+  ],
+  "c": "country:KH"
+ },
+ {
+  "id": "lake:Q233627",
+  "t": "lake",
+  "n": "Manasarovar",
+  "a": [
+   "Lake Manasarovar",
+   "Lake Manasarovar"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "lake:Q203137",
+  "t": "lake",
+  "n": "Inarijärvi",
+  "a": [
+   "Lake Inari",
+   "Lake Inari"
+  ],
+  "c": "country:FI"
+ },
+ {
+  "id": "lake:Q14381",
+  "t": "lake",
+  "n": "Vierwaldstättersee",
+  "a": [
+   "Lake Lucerne",
+   "Lake Lucerne"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "lake:Q188487",
+  "t": "lake",
+  "n": "Lago Trasimeno",
+  "a": [
+   "Lake Trasimeno",
+   "Lake Trasimeno"
+  ],
+  "c": "country:IT"
+ },
+ {
+  "id": "lake:Q204392",
+  "t": "lake",
+  "n": "Prespasee",
+  "a": [
+   "Lake Prespa",
+   "Lake Prespa"
+  ]
+ },
+ {
+  "id": "lake:Q502371",
+  "t": "lake",
+  "n": "Westsee",
+  "a": [
+   "West Lake",
+   "West Lake"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "lake:Q201843",
+  "t": "lake",
+  "n": "Chankasee",
+  "a": [
+   "Khanka",
+   "Khanka"
+  ]
+ },
+ {
+  "id": "lake:Q272463",
+  "t": "lake",
+  "n": "Athabascasee",
+  "a": [
+   "Lake Athabasca",
+   "Lake Athabasca"
+  ],
+  "c": "country:CA"
+ },
+ {
+  "id": "lake:Q4138",
+  "t": "lake",
+  "n": "Chiemsee",
+  "a": [
+   "Chiemsee"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "lake:Q14375",
+  "t": "lake",
+  "n": "Neuenburgersee",
+  "a": [
+   "Lake Neuchâtel",
+   "Lake Neuchâtel"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "lake:Q203811",
+  "t": "lake",
+  "n": "Skutarisee",
+  "a": [
+   "Lake Skadar",
+   "Lake Skadar"
+  ]
+ },
+ {
+  "id": "lake:Q648902",
+  "t": "lake",
+  "n": "Bleder See",
+  "a": [
+   "Lake Bled",
+   "Lake Bled"
+  ],
+  "c": "country:SI"
+ },
+ {
+  "id": "lake:Q208926",
+  "t": "lake",
+  "n": "Loch Lomond",
+  "a": [
+   "Loch Lomond"
+  ],
+  "c": "country:GB"
+ },
+ {
+  "id": "lake:Q216083",
+  "t": "lake",
+  "n": "Dongting-See",
+  "a": [
+   "Dongting Lake",
+   "Dongting Lake"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "lake:Q464945",
+  "t": "lake",
+  "n": "Poopó-See",
+  "a": [
+   "Poopó Lake",
+   "Poopó Lake"
+  ],
+  "c": "country:BO"
+ },
+ {
+  "id": "lake:Q203462",
+  "t": "lake",
+  "n": "Ilmensee",
+  "a": [
+   "Ilmen",
+   "Ilmen"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "lake:Q206942",
+  "t": "lake",
+  "n": "Lough Neagh",
+  "a": [
+   "Lough Neagh"
+  ],
+  "c": "country:GB"
+ },
+ {
+  "id": "lake:Q329266",
+  "t": "lake",
+  "n": "Crater Lake",
+  "a": [
+   "Crater Lake"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "lake:Q15648",
+  "t": "lake",
+  "n": "Iseosee",
+  "a": [
+   "Lake Iseo",
+   "Lake Iseo"
+  ],
+  "c": "country:IT"
+ },
+ {
+  "id": "lake:Q140712",
+  "t": "lake",
+  "n": "Tai Hu",
+  "a": [
+   "Lake Tai",
+   "Lake Tai"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "lake:Q211516",
+  "t": "lake",
+  "n": "Võrtsjärv",
+  "a": [
+   "Võrtsjärv"
+  ],
+  "c": "country:EE"
+ },
+ {
+  "id": "lake:Q272380",
+  "t": "lake",
+  "n": "Managuasee",
+  "a": [
+   "Lake Managua",
+   "Lake Managua"
+  ],
+  "c": "country:NI"
+ },
+ {
+  "id": "lake:Q332628",
+  "t": "lake",
+  "n": "Nyos-See",
+  "a": [
+   "Lake Nyos",
+   "Lake Nyos"
+  ],
+  "c": "country:CM"
+ },
+ {
+  "id": "lake:Q651294",
+  "t": "lake",
+  "n": "Nam Co",
+  "a": [
+   "Namtso",
+   "Namtso"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "lake:Q131615",
+  "t": "lake",
+  "n": "Starnberger See",
+  "a": [
+   "Lake Starnberg",
+   "Lake Starnberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "lake:Q156715",
+  "t": "lake",
+  "n": "Königssee",
+  "a": [
+   "Königssee"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "lake:Q68467",
+  "t": "lake",
+  "n": "Lake Champlain",
+  "a": [
+   "Lake Champlain"
+  ]
+ },
+ {
+  "id": "lake:Q216621",
+  "t": "lake",
+  "n": "Saissansee",
+  "a": [
+   "Lake Zaysan",
+   "Lake Zaysan"
+  ],
+  "c": "country:KZ"
+ },
+ {
+  "id": "lake:Q334761",
+  "t": "lake",
+  "n": "Ülemiste-See",
+  "a": [
+   "Lake Ülemiste",
+   "Lake Ülemiste"
+  ],
+  "c": "country:EE"
+ },
+ {
+  "id": "lake:Q845868",
+  "t": "lake",
+  "n": "Taimyrsee",
+  "a": [
+   "Taymyr",
+   "Taymyr"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "lake:Q946194",
+  "t": "lake",
+  "n": "Riza-See",
+  "a": [
+   "Lake Ritsa",
+   "Lake Ritsa"
+  ],
+  "c": "country:GE"
+ },
+ {
+  "id": "lake:Q1032254",
+  "t": "lake",
+  "n": "Pangong Tso",
+  "a": [
+   "Pangong Tso"
+  ]
+ },
+ {
+  "id": "lake:Q212051",
+  "t": "lake",
+  "n": "Mývatn",
+  "a": [
+   "Mývatn"
+  ],
+  "c": "country:IS"
+ },
+ {
+  "id": "lake:Q217109",
+  "t": "lake",
+  "n": "Telezker See",
+  "a": [
+   "Teletskoe",
+   "Teletskoe"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "lake:Q257416",
+  "t": "lake",
+  "n": "Sarykamyschsee",
+  "a": [
+   "Sarygamysh Lake",
+   "Sarygamysh Lake"
+  ]
+ },
+ {
+  "id": "lake:Q14429",
+  "t": "lake",
+  "n": "Bielersee",
+  "a": [
+   "Lake Biel",
+   "Lake Biel"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "lake:Q212209",
+  "t": "lake",
+  "n": "Mjøsa",
+  "a": [
+   "Mjøsa"
+  ],
+  "c": "country:NO"
+ },
+ {
+  "id": "lake:Q337",
+  "t": "lake",
+  "n": "Lake Chaubunagungamaug",
+  "a": [
+   "Lake Chaubunagungamaug"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "lake:Q387256",
+  "t": "lake",
+  "n": "Śniardwy",
+  "a": [
+   "Śniardwy"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "lake:Q158077",
+  "t": "lake",
+  "n": "Dojransee",
+  "a": [
+   "Dojran Lake",
+   "Dojran Lake"
+  ]
+ },
+ {
+  "id": "lake:Q213769",
+  "t": "lake",
+  "n": "Päijänne",
+  "a": [
+   "Päijänne"
+  ],
+  "c": "country:FI"
+ },
+ {
+  "id": "lake:Q325391",
+  "t": "lake",
+  "n": "Dal-See",
+  "a": [
+   "Dal Lake",
+   "Dal Lake"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "lake:Q673169",
+  "t": "lake",
+  "n": "Bangweulusee",
+  "a": [
+   "Lake Bangweulu",
+   "Lake Bangweulu"
+  ],
+  "c": "country:ZM"
+ },
+ {
+  "id": "lake:Q750025",
+  "t": "lake",
+  "n": "Pool Malebo",
+  "a": [
+   "Pool Malebo"
+  ]
+ },
+ {
+  "id": "lake:Q753898",
+  "t": "lake",
+  "n": "Lago Argentino",
+  "a": [
+   "Argentino Lake",
+   "Argentino Lake"
+  ],
+  "c": "country:AR"
+ },
+ {
+  "id": "lake:Q14426",
+  "t": "lake",
+  "n": "Thunersee",
+  "a": [
+   "Lake Thun",
+   "Lake Thun"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "lake:Q211425",
+  "t": "lake",
+  "n": "Hjälmaren",
+  "a": [
+   "Hjälmaren"
+  ],
+  "c": "country:SE"
+ },
+ {
+  "id": "lake:Q714023",
+  "t": "lake",
+  "n": "Himmelssee",
+  "a": [
+   "Heaven Lake",
+   "Heaven Lake"
+  ]
+ },
+ {
+  "id": "lake:Q736707",
+  "t": "lake",
+  "n": "Lake St. Clair",
+  "a": [
+   "Lake Saint Clair",
+   "Lake Saint Clair"
+  ]
+ },
+ {
+  "id": "lake:Q746975",
+  "t": "lake",
+  "n": "Chilwa See",
+  "a": [
+   "Lake Chilwa",
+   "Lake Chilwa"
+  ],
+  "c": "country:MW"
+ },
+ {
+  "id": "lake:Q3369",
+  "t": "lake",
+  "n": "Müritz",
+  "a": [
+   "Müritz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "lake:Q14442",
+  "t": "lake",
+  "n": "Brienzersee",
+  "a": [
+   "Lake Brienz",
+   "Lake Brienz"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "lake:Q537374",
+  "t": "lake",
+  "n": "Hulun-See",
+  "a": [
+   "Hulun Lake",
+   "Hulun Lake"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "lake:Q720015",
+  "t": "lake",
+  "n": "Karakul",
+  "a": [
+   "Karakul"
+  ],
+  "c": "country:TJ"
+ },
+ {
+  "id": "lake:Q886946",
+  "t": "lake",
+  "n": "Bláa Lónið",
+  "a": [
+   "Blue Lagoon",
+   "Blue Lagoon"
+  ],
+  "c": "country:IS"
+ },
+ {
+  "id": "lake:Q335432",
+  "t": "lake",
+  "n": "Þingvallavatn",
+  "a": [
+   "Þingvallavatn"
+  ],
+  "c": "country:IS"
+ },
+ {
+  "id": "lake:Q503842",
+  "t": "lake",
+  "n": "Lago Buenos Aires / Lago General Carrera",
+  "a": [
+   "Lake General Carrera/Buenos Aires",
+   "Lake General Carrera/Buenos Aires"
+  ]
+ },
+ {
+  "id": "lake:Q575679",
+  "t": "lake",
+  "n": "Lac Alaotra",
+  "a": [
+   "Lake Alaotra",
+   "Lake Alaotra"
+  ],
+  "c": "country:MG"
+ },
+ {
+  "id": "lake:Q611206",
+  "t": "lake",
+  "n": "Bosten-See",
+  "a": [
+   "Bosten Lake",
+   "Bosten Lake"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "lake:Q645901",
+  "t": "lake",
+  "n": "Manitobasee",
+  "a": [
+   "Lake Manitoba",
+   "Lake Manitoba"
+  ],
+  "c": "country:CA"
+ },
+ {
+  "id": "lake:Q790453",
+  "t": "lake",
+  "n": "Baringosee",
+  "a": [
+   "Lake Baringo",
+   "Lake Baringo"
+  ],
+  "c": "country:KE"
+ },
+ {
+  "id": "lake:Q831903",
+  "t": "lake",
+  "n": "Wocheiner See",
+  "a": [
+   "Lake Bohinj",
+   "Lake Bohinj"
+  ],
+  "c": "country:SI"
+ },
+ {
+  "id": "lake:Q1365115",
+  "t": "lake",
+  "n": "Naivashasee",
+  "a": [
+   "Lake Naivasha",
+   "Lake Naivasha"
+  ],
+  "c": "country:KE"
+ },
+ {
+  "id": "lake:Q13700",
+  "t": "lake",
+  "n": "Texcoco-See",
+  "a": [
+   "Lake Texcoco",
+   "Lake Texcoco"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "lake:Q14448",
+  "t": "lake",
+  "n": "Murtensee",
+  "a": [
+   "Lake Murten",
+   "Lake Murten"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "lake:Q202905",
+  "t": "lake",
+  "n": "Okeechobeesee",
+  "a": [
+   "Lake Okeechobee",
+   "Lake Okeechobee"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "lake:Q265336",
+  "t": "lake",
+  "n": "Ammersee",
+  "a": [
+   "Ammersee"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "lake:Q498671",
+  "t": "lake",
+  "n": "Lake Hillier",
+  "a": [
+   "Lake Hillier"
+  ],
+  "c": "country:AU"
+ },
+ {
+  "id": "lake:Q683100",
+  "t": "lake",
+  "n": "Mai-Ndombe-See",
+  "a": [
+   "Lake Mai-Ndombe",
+   "Lake Mai-Ndombe"
+  ],
+  "c": "country:CD"
+ },
+ {
+  "id": "lake:Q14436",
+  "t": "lake",
+  "n": "Zugersee",
+  "a": [
+   "Lake Zug",
+   "Lake Zug"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "lake:Q63141",
+  "t": "lake",
+  "n": "Ortasee",
+  "a": [
+   "Lake Orta",
+   "Lake Orta"
+  ],
+  "c": "country:IT"
+ },
+ {
+  "id": "mountain:Q513",
+  "t": "mountain",
+  "n": "Mount Everest",
+  "a": [
+   "Mount Everest"
+  ]
+ },
+ {
+  "id": "mountain:Q39231",
+  "t": "mountain",
+  "n": "Fuji",
+  "a": [
+   "Mount Fuji",
+   "Mount Fuji"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "mountain:Q524",
+  "t": "mountain",
+  "n": "Vesuv",
+  "a": [
+   "Mount Vesuvius",
+   "Mount Vesuvius"
+  ],
+  "c": "country:IT"
+ },
+ {
+  "id": "mountain:Q583",
+  "t": "mountain",
+  "n": "Mont Blanc",
+  "a": [
+   "Mont Blanc"
+  ]
+ },
+ {
+  "id": "mountain:Q39739",
+  "t": "mountain",
+  "n": "Aconcagua",
+  "a": [
+   "Aconcagua"
+  ],
+  "c": "country:AR"
+ },
+ {
+  "id": "mountain:Q43105",
+  "t": "mountain",
+  "n": "Elbrus",
+  "a": [
+   "Mount Elbrus",
+   "Mount Elbrus"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "mountain:Q43512",
+  "t": "mountain",
+  "n": "K2",
+  "a": [
+   "K2"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "mountain:Q72303",
+  "t": "mountain",
+  "n": "Ararat",
+  "a": [
+   "Mount Ararat",
+   "Mount Ararat"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "mountain:Q80344",
+  "t": "mountain",
+  "n": "Berg Olymp",
+  "a": [
+   "Mount Olympus",
+   "Mount Olympus"
+  ],
+  "c": "country:GR"
+ },
+ {
+  "id": "mountain:Q725591",
+  "t": "mountain",
+  "n": "Bazardüzü",
+  "a": [
+   "Mount Bazardüzü",
+   "Mount Bazardüzü"
+  ]
+ },
+ {
+  "id": "mountain:Q38954",
+  "t": "mountain",
+  "n": "Teide",
+  "a": [
+   "Teide"
+  ],
+  "c": "country:ES"
+ },
+ {
+  "id": "mountain:Q82019",
+  "t": "mountain",
+  "n": "Kangchendzönga",
+  "a": [
+   "Kanchenjunga",
+   "Kanchenjunga"
+  ]
+ },
+ {
+  "id": "mountain:Q130018",
+  "t": "mountain",
+  "n": "Denali",
+  "a": [],
+  "c": "country:US"
+ },
+ {
+  "id": "mountain:Q83497",
+  "t": "mountain",
+  "n": "Mount Rushmore",
+  "a": [
+   "Mount Rushmore"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "mountain:Q1374",
+  "t": "mountain",
+  "n": "Matterhorn",
+  "a": [
+   "Matterhorn"
+  ]
+ },
+ {
+  "id": "mountain:Q229107",
+  "t": "mountain",
+  "n": "Kailash",
+  "a": [
+   "Mount Kailash",
+   "Mount Kailash"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "mountain:Q130736",
+  "t": "mountain",
+  "n": "Nanga Parbat",
+  "a": [
+   "Nanga Parbat"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "mountain:Q165440",
+  "t": "mountain",
+  "n": "Dhaulagiri",
+  "a": [
+   "Dhaulagiri"
+  ],
+  "c": "country:NP"
+ },
+ {
+  "id": "mountain:Q169986",
+  "t": "mountain",
+  "n": "Makalu",
+  "a": [
+   "Makalu"
+  ]
+ },
+ {
+  "id": "mountain:Q172070",
+  "t": "mountain",
+  "n": "Mount-Kenya-Massiv",
+  "a": [
+   "Mount Kenya",
+   "Mount Kenya"
+  ],
+  "c": "country:KE"
+ },
+ {
+  "id": "mountain:Q130321",
+  "t": "mountain",
+  "n": "Athos",
+  "a": [
+   "Mount Athos",
+   "Mount Athos"
+  ],
+  "c": "country:GR"
+ },
+ {
+  "id": "mountain:Q131230",
+  "t": "mountain",
+  "n": "Mauna Kea",
+  "a": [
+   "Mauna Kea"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "mountain:Q377485",
+  "t": "mountain",
+  "n": "Sinai",
+  "a": [
+   "Mount Sinai",
+   "Mount Sinai"
+  ],
+  "c": "country:EG"
+ },
+ {
+  "id": "mountain:Q168702",
+  "t": "mountain",
+  "n": "Lhotse",
+  "a": [
+   "Lhotse"
+  ]
+ },
+ {
+  "id": "mountain:Q178167",
+  "t": "mountain",
+  "n": "Mount Kosciuszko",
+  "a": [
+   "Mount Kosciuszko"
+  ],
+  "c": "country:AU"
+ },
+ {
+  "id": "mountain:Q170089",
+  "t": "mountain",
+  "n": "Cho Oyu",
+  "a": [
+   "Cho Oyu"
+  ]
+ },
+ {
+  "id": "mountain:Q14081",
+  "t": "mountain",
+  "n": "Chimborazo",
+  "a": [
+   "Chimborazo"
+  ],
+  "c": "country:EC"
+ },
+ {
+  "id": "mountain:Q170070",
+  "t": "mountain",
+  "n": "Manaslu",
+  "a": [
+   "Manaslu"
+  ],
+  "c": "country:NP"
+ },
+ {
+  "id": "mountain:Q40758",
+  "t": "mountain",
+  "n": "Damavand",
+  "a": [
+   "Damavand"
+  ],
+  "c": "country:IR"
+ },
+ {
+  "id": "mountain:Q104674",
+  "t": "mountain",
+  "n": "Ben Nevis",
+  "a": [
+   "Ben Nevis"
+  ],
+  "c": "country:GB"
+ },
+ {
+  "id": "mountain:Q105124",
+  "t": "mountain",
+  "n": "Shishapangma",
+  "a": [
+   "Shishapangma"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "mountain:Q107635",
+  "t": "mountain",
+  "n": "Paektusan",
+  "a": [
+   "Baekdu Mountain",
+   "Baekdu Mountain"
+  ]
+ },
+ {
+  "id": "mountain:Q180996",
+  "t": "mountain",
+  "n": "Broad Peak",
+  "a": [
+   "Broad Peak"
+  ]
+ },
+ {
+  "id": "mountain:Q1045888",
+  "t": "mountain",
+  "n": "Carstensz-Pyramide",
+  "a": [
+   "Puncak Jaya",
+   "Puncak Jaya"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "mountain:Q120306",
+  "t": "mountain",
+  "n": "Mount Logan",
+  "a": [
+   "Mount Logan"
+  ],
+  "c": "country:CA"
+ },
+ {
+  "id": "mountain:Q3375",
+  "t": "mountain",
+  "n": "Zugspitze",
+  "a": [
+   "Zugspitze"
+  ]
+ },
+ {
+  "id": "mountain:Q168714",
+  "t": "mountain",
+  "n": "Tambora",
+  "a": [
+   "Tambora"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "mountain:Q213360",
+  "t": "mountain",
+  "n": "Tafelberg",
+  "a": [
+   "Table Mountain",
+   "Table Mountain"
+  ],
+  "c": "country:ZA"
+ },
+ {
+  "id": "mountain:Q233836",
+  "t": "mountain",
+  "n": "Nevado Ojos del Salado",
+  "a": [
+   "Ojos del Salado",
+   "Ojos del Salado"
+  ]
+ },
+ {
+  "id": "mountain:Q187138",
+  "t": "mountain",
+  "n": "Hidden Peak",
+  "a": [
+   "Gasherbrum",
+   "Gasherbrum"
+  ]
+ },
+ {
+  "id": "mountain:Q186853",
+  "t": "mountain",
+  "n": "Gasherbrum II",
+  "a": [
+   "Gasherbrum II"
+  ]
+ },
+ {
+  "id": "mountain:Q216059",
+  "t": "mountain",
+  "n": "Tai Shan",
+  "a": [
+   "Mount Tai",
+   "Mount Tai"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "mountain:Q60967",
+  "t": "mountain",
+  "n": "Kinabalu",
+  "a": [
+   "Mount Kinabalu",
+   "Mount Kinabalu"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "mountain:Q194057",
+  "t": "mountain",
+  "n": "Mount Rainier",
+  "a": [
+   "Mount Rainier"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "mountain:Q1451",
+  "t": "mountain",
+  "n": "Pinatubo",
+  "a": [
+   "Pinatubo"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "mountain:Q5059",
+  "t": "mountain",
+  "n": "Mount Cook",
+  "a": [
+   "Aoraki / Mount Cook",
+   "Aoraki / Mount Cook"
+  ],
+  "c": "country:NZ"
+ },
+ {
+  "id": "mountain:Q203568",
+  "t": "mountain",
+  "n": "Aragaz",
+  "a": [
+   "Mount Aragats",
+   "Mount Aragats"
+  ],
+  "c": "country:AM"
+ },
+ {
+  "id": "mountain:Q1484",
+  "t": "mountain",
+  "n": "Mayon",
+  "a": [
+   "Mayon Volcano",
+   "Mayon Volcano"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "mountain:Q205976",
+  "t": "mountain",
+  "n": "Ölberg",
+  "a": [
+   "Mount of Olives",
+   "Mount of Olives"
+  ],
+  "c": "country:IL"
+ },
+ {
+  "id": "mountain:Q105261",
+  "t": "mountain",
+  "n": "Parnass",
+  "a": [
+   "Mount Parnassus",
+   "Mount Parnassus"
+  ],
+  "c": "country:GR"
+ },
+ {
+  "id": "mountain:Q181476",
+  "t": "mountain",
+  "n": "Cotopaxi",
+  "a": [
+   "Cotopaxi volcano",
+   "Cotopaxi volcano"
+  ],
+  "c": "country:EC"
+ },
+ {
+  "id": "mountain:Q238147",
+  "t": "mountain",
+  "n": "Citlaltépetl",
+  "a": [
+   "Citlaltepetl",
+   "Citlaltepetl"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "mountain:Q1024",
+  "t": "mountain",
+  "n": "Triglav",
+  "a": [
+   "Triglav"
+  ],
+  "c": "country:SI"
+ },
+ {
+  "id": "mountain:Q211529",
+  "t": "mountain",
+  "n": "Khan Tengri",
+  "a": [
+   "Khan Tengri"
+  ]
+ },
+ {
+  "id": "mountain:Q219986",
+  "t": "mountain",
+  "n": "Gangkhar Puensum",
+  "a": [
+   "Gangkhar Puensum"
+  ],
+  "c": "country:BT"
+ },
+ {
+  "id": "mountain:Q194215",
+  "t": "mountain",
+  "n": "Amsterdam-Insel",
+  "a": [
+   "Île Amsterdam",
+   "Île Amsterdam"
+  ],
+  "c": "country:FR"
+ },
+ {
+  "id": "mountain:Q207680",
+  "t": "mountain",
+  "n": "Kasbek",
+  "a": [
+   "Mount Kazbek",
+   "Mount Kazbek"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "mountain:Q3388",
+  "t": "mountain",
+  "n": "Großglockner",
+  "a": [
+   "Grossglockner",
+   "Grossglockner"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "mountain:Q76309",
+  "t": "mountain",
+  "n": "Montagne Pelée",
+  "a": [
+   "Mount Pelée",
+   "Mount Pelée"
+  ],
+  "c": "country:FR"
+ },
+ {
+  "id": "mountain:Q184975",
+  "t": "mountain",
+  "n": "Hekla",
+  "a": [
+   "Hekla"
+  ],
+  "c": "country:IS"
+ },
+ {
+  "id": "mountain:Q210252",
+  "t": "mountain",
+  "n": "Kljutschewskaja Sopka",
+  "a": [
+   "Klyuchevskaya Sopka",
+   "Klyuchevskaya Sopka"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "mountain:Q207917",
+  "t": "mountain",
+  "n": "Nemrut Dağı",
+  "a": [
+   "Mount Nemrut",
+   "Mount Nemrut"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "mountain:Q216894",
+  "t": "mountain",
+  "n": "Arafat",
+  "a": [
+   "Mount Arafat",
+   "Mount Arafat"
+  ],
+  "c": "country:SA"
+ },
+ {
+  "id": "mountain:Q235539",
+  "t": "mountain",
+  "n": "Mount Whitney",
+  "a": [
+   "Mount Whitney"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "mountain:Q190562",
+  "t": "mountain",
+  "n": "Kamerunberg",
+  "a": [
+   "Mount Cameroon",
+   "Mount Cameroon"
+  ],
+  "c": "country:CM"
+ },
+ {
+  "id": "mountain:Q213262",
+  "t": "mountain",
+  "n": "Nanda Devi",
+  "a": [
+   "Nanda Devi"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "mountain:Q207132",
+  "t": "mountain",
+  "n": "Tirich Mir",
+  "a": [
+   "Terich Mir",
+   "Terich Mir"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "mountain:Q207323",
+  "t": "mountain",
+  "n": "Vulcano",
+  "a": [
+   "Vulcano"
+  ],
+  "c": "country:IT"
+ },
+ {
+  "id": "mountain:Q627508",
+  "t": "mountain",
+  "n": "Howerla",
+  "a": [
+   "Hoverla",
+   "Hoverla"
+  ],
+  "c": "country:UA"
+ },
+ {
+  "id": "mountain:Q4777",
+  "t": "mountain",
+  "n": "Roraima-Tepui",
+  "a": [
+   "Mount Roraima",
+   "Mount Roraima"
+  ]
+ },
+ {
+  "id": "mountain:Q158470",
+  "t": "mountain",
+  "n": "Agung",
+  "a": [
+   "Mount Agung",
+   "Mount Agung"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "mountain:Q4425",
+  "t": "mountain",
+  "n": "Eiger",
+  "a": [
+   "Eiger"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "mountain:Q193785",
+  "t": "mountain",
+  "n": "Berg Tabor",
+  "a": [
+   "Mount Tabor",
+   "Mount Tabor"
+  ],
+  "c": "country:IL"
+ },
+ {
+  "id": "mountain:Q617511",
+  "t": "mountain",
+  "n": "Schneekoppe",
+  "a": [
+   "Sněžka",
+   "Sněžka"
+  ]
+ },
+ {
+  "id": "mountain:Q210722",
+  "t": "mountain",
+  "n": "Zuckerhut",
+  "a": [
+   "Sugarloaf Mountain",
+   "Sugarloaf Mountain"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "mountain:Q214696",
+  "t": "mountain",
+  "n": "Nyiragongo",
+  "a": [
+   "Mount Nyiragongo",
+   "Mount Nyiragongo"
+  ],
+  "c": "country:CD"
+ },
+ {
+  "id": "mountain:Q231620",
+  "t": "mountain",
+  "n": "Paricutín",
+  "a": [
+   "Parícutin",
+   "Parícutin"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "mountain:Q271700",
+  "t": "mountain",
+  "n": "Noshak",
+  "a": [
+   "Noshaq",
+   "Noshaq"
+  ]
+ },
+ {
+  "id": "mountain:Q672936",
+  "t": "mountain",
+  "n": "Rysy",
+  "a": [
+   "Rysy"
+  ]
+ },
+ {
+  "id": "mountain:Q81213",
+  "t": "mountain",
+  "n": "Gerlsdorfer Spitze",
+  "a": [
+   "Gerlachovský štít",
+   "Gerlachovský štít"
+  ],
+  "c": "country:SK"
+ },
+ {
+  "id": "mountain:Q214011",
+  "t": "mountain",
+  "n": "Kebnekaise",
+  "a": [
+   "Kebnekaise"
+  ],
+  "c": "country:SE"
+ },
+ {
+  "id": "mountain:Q214916",
+  "t": "mountain",
+  "n": "Llullaillaco",
+  "a": [
+   "Llullaillaco"
+  ]
+ },
+ {
+  "id": "mountain:Q15312",
+  "t": "mountain",
+  "n": "Jungfrau",
+  "a": [
+   "Jungfrau"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "mountain:Q204821",
+  "t": "mountain",
+  "n": "Sankt-Paul-Insel",
+  "a": [
+   "Île Saint-Paul",
+   "Île Saint-Paul"
+  ],
+  "c": "country:FR"
+ },
+ {
+  "id": "mountain:Q209341",
+  "t": "mountain",
+  "n": "Musala",
+  "a": [
+   "Musala"
+  ],
+  "c": "country:BG"
+ },
+ {
+  "id": "mountain:Q332762",
+  "t": "mountain",
+  "n": "Pik Pobedy",
+  "a": [
+   "Jengish Chokusu",
+   "Jengish Chokusu"
+  ]
+ },
+ {
+  "id": "mountain:Q455963",
+  "t": "mountain",
+  "n": "Apo",
+  "a": [
+   "Mount Apo",
+   "Mount Apo"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "mountain:Q41413",
+  "t": "mountain",
+  "n": "Pik Kommunisma",
+  "a": [
+   "Ismoil Somoni Peak",
+   "Ismoil Somoni Peak"
+  ],
+  "c": "country:TJ"
+ },
+ {
+  "id": "mountain:Q60789",
+  "t": "mountain",
+  "n": "Sri Pada",
+  "a": [
+   "Adam's Peak",
+   "Adam's Peak"
+  ],
+  "c": "country:LK"
+ },
+ {
+  "id": "mountain:Q134927",
+  "t": "mountain",
+  "n": "Emei Shan",
+  "a": [
+   "Mount Emei",
+   "Mount Emei"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "mountain:Q217457",
+  "t": "mountain",
+  "n": "Schchara",
+  "a": [
+   "Shkhara",
+   "Shkhara"
+  ]
+ },
+ {
+  "id": "mountain:Q695221",
+  "t": "mountain",
+  "n": "Mount Abu",
+  "a": [
+   "Aburaj",
+   "Aburaj"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "mountain:Q158526",
+  "t": "mountain",
+  "n": "Titano",
+  "a": [
+   "Monte Titano",
+   "Monte Titano"
+  ],
+  "c": "country:SM"
+ },
+ {
+  "id": "mountain:Q233351",
+  "t": "mountain",
+  "n": "Nevado del Ruiz",
+  "a": [
+   "Nevado del Ruiz"
+  ],
+  "c": "country:CO"
+ },
+ {
+  "id": "mountain:Q503433",
+  "t": "mountain",
+  "n": "Tubqal",
+  "a": [
+   "Jbel Toubkal",
+   "Jbel Toubkal"
+  ],
+  "c": "country:MA"
+ },
+ {
+  "id": "mountain:Q203942",
+  "t": "mountain",
+  "n": "Galdhøpiggen",
+  "a": [
+   "Galdhøpiggen"
+  ],
+  "c": "country:NO"
+ },
+ {
+  "id": "mountain:Q207284",
+  "t": "mountain",
+  "n": "Ruapehu",
+  "a": [
+   "Mount Ruapehu",
+   "Mount Ruapehu"
+  ],
+  "c": "country:NZ"
+ },
+ {
+  "id": "mountain:Q208081",
+  "t": "mountain",
+  "n": "Aneto",
+  "a": [
+   "Aneto"
+  ],
+  "c": "country:ES"
+ },
+ {
+  "id": "mountain:Q209528",
+  "t": "mountain",
+  "n": "Mulhacén",
+  "a": [
+   "Mulhacén"
+  ],
+  "c": "country:ES"
+ },
+ {
+  "id": "mountain:Q500275",
+  "t": "mountain",
+  "n": "Yu Shan",
+  "a": [
+   "Yushan Main Peak",
+   "Yushan Main Peak"
+  ],
+  "c": "country:TW"
+ },
+ {
+  "id": "mountain:Q724367",
+  "t": "mountain",
+  "n": "Belucha",
+  "a": [
+   "Belukha Mountain",
+   "Belukha Mountain"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "mountain:Q818475",
+  "t": "mountain",
+  "n": "Taal",
+  "a": [
+   "Taal Volcano",
+   "Taal Volcano"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "mountain:Q306201",
+  "t": "mountain",
+  "n": "Devils Tower",
+  "a": [
+   "Devils Tower"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "mountain:Q182913",
+  "t": "mountain",
+  "n": "Grímsvötn",
+  "a": [
+   "Grímsvötn"
+  ],
+  "c": "country:IS"
+ },
+ {
+  "id": "mountain:Q209064",
+  "t": "mountain",
+  "n": "Mont Ventoux",
+  "a": [
+   "Mont Ventoux"
+  ],
+  "c": "country:FR"
+ },
+ {
+  "id": "mountain:Q217142",
+  "t": "mountain",
+  "n": "Snowdon",
+  "a": [
+   "Snowdon"
+  ],
+  "c": "country:GB"
+ },
+ {
+  "id": "mountain:Q3403",
+  "t": "mountain",
+  "n": "Dufourspitze",
+  "a": [
+   "Dufourspitze"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "mountain:Q120314",
+  "t": "mountain",
+  "n": "Wutai Shan",
+  "a": [
+   "Mount Wutai",
+   "Mount Wutai"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "mountain:Q126804",
+  "t": "mountain",
+  "n": "Berg Erciyes",
+  "a": [
+   "Mount Erciyes",
+   "Mount Erciyes"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "mountain:Q200935",
+  "t": "mountain",
+  "n": "Huascarán",
+  "a": [
+   "Huascarán"
+  ],
+  "c": "country:PE"
+ },
+ {
+  "id": "mountain:Q206161",
+  "t": "mountain",
+  "n": "Herzlberg",
+  "a": [
+   "Mount Herzl",
+   "Mount Herzl"
+  ],
+  "c": "country:IL"
+ },
+ {
+  "id": "mountain:Q272593",
+  "t": "mountain",
+  "n": "Sajama",
+  "a": [
+   "Nevado Sajama",
+   "Nevado Sajama"
+  ],
+  "c": "country:BO"
+ },
+ {
+  "id": "mountain:Q312818",
+  "t": "mountain",
+  "n": "Skopus",
+  "a": [
+   "Mount Scopus",
+   "Mount Scopus"
+  ]
+ },
+ {
+  "id": "mountain:Q476313",
+  "t": "mountain",
+  "n": "Dychtau",
+  "a": [
+   "Dykh-Tau",
+   "Dykh-Tau"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "mountain:Q859376",
+  "t": "mountain",
+  "n": "Volcán de Fuego",
+  "a": [
+   "Volcán de Fuego"
+  ],
+  "c": "country:GT"
+ },
+ {
+  "id": "mountain:Q201914",
+  "t": "mountain",
+  "n": "Katla",
+  "a": [
+   "Katla"
+  ],
+  "c": "country:IS"
+ },
+ {
+  "id": "mountain:Q746524",
+  "t": "mountain",
+  "n": "Moldoveanu",
+  "a": [
+   "Moldoveanu Peak",
+   "Moldoveanu Peak"
+  ],
+  "c": "country:RO"
+ },
+ {
+  "id": "mountain:Q912579",
+  "t": "mountain",
+  "n": "Korab",
+  "a": [
+   "Korab"
+  ]
+ },
+ {
+  "id": "mountain:Q16525",
+  "t": "mountain",
+  "n": "Mönch",
+  "a": [
+   "Mönch"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "mountain:Q207421",
+  "t": "mountain",
+  "n": "Tungurahua",
+  "a": [
+   "Tungurahua volcano",
+   "Tungurahua volcano"
+  ],
+  "c": "country:EC"
+ },
+ {
+  "id": "mountain:Q275435",
+  "t": "mountain",
+  "n": "Ras Daschän",
+  "a": [
+   "Ras Dashen",
+   "Ras Dashen"
+  ],
+  "c": "country:ET"
+ },
+ {
+  "id": "mountain:Q499019",
+  "t": "mountain",
+  "n": "Barkal",
+  "a": [
+   "Jebel Barkal",
+   "Jebel Barkal"
+  ],
+  "c": "country:SD"
+ },
+ {
+  "id": "mountain:Q503368",
+  "t": "mountain",
+  "n": "Carrantuohill",
+  "a": [
+   "Carrauntoohil",
+   "Carrauntoohil"
+  ],
+  "c": "country:IE"
+ },
+ {
+  "id": "mountain:Q506938",
+  "t": "mountain",
+  "n": "Corcovado",
+  "a": [
+   "Corcovado"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "mountain:Q622616",
+  "t": "mountain",
+  "n": "Lu Shan",
+  "a": [
+   "Mount Lu",
+   "Mount Lu"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "mountain:Q746787",
+  "t": "mountain",
+  "n": "Ol Doinyo Lengai",
+  "a": [
+   "Ol Doinyo Lengai"
+  ],
+  "c": "country:TZ"
+ },
+ {
+  "id": "mountain:Q1315012",
+  "t": "mountain",
+  "n": "Snæfellsjökull",
+  "a": [
+   "Snæfellsjökull"
+  ],
+  "c": "country:IS"
+ },
+ {
+  "id": "mountain:Q1514176",
+  "t": "mountain",
+  "n": "Jamantau",
+  "a": [
+   "Mount Yamantau",
+   "Mount Yamantau"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "mountain:Q4168",
+  "t": "mountain",
+  "n": "Loreley",
+  "a": [
+   "Loreley"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "mountain:Q16648",
+  "t": "mountain",
+  "n": "Monte San Giorgio",
+  "a": [
+   "Monte San Giorgio"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "mountain:Q213704",
+  "t": "mountain",
+  "n": "Pico Bolívar",
+  "a": [
+   "Pico Bolívar"
+  ],
+  "c": "country:VE"
+ },
+ {
+  "id": "mountain:Q679590",
+  "t": "mountain",
+  "n": "Bromo",
+  "a": [
+   "Mount Bromo",
+   "Mount Bromo"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "mountain:Q732115",
+  "t": "mountain",
+  "n": "Montserrat",
+  "a": [
+   "Montserrat"
+  ],
+  "c": "country:ES"
+ },
+ {
+  "id": "mountain:Q838587",
+  "t": "mountain",
+  "n": "Pik Lenin",
+  "a": [
+   "Lenin Peak",
+   "Lenin Peak"
+  ]
+ },
+ {
+  "id": "mountain:Q847323",
+  "t": "mountain",
+  "n": "Rinjani",
+  "a": [
+   "Rinjani"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "mountain:Q873358",
+  "t": "mountain",
+  "n": "Sanqing Shan",
+  "a": [
+   "Mount Sanqing",
+   "Mount Sanqing"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "mountain:Q235062",
+  "t": "mountain",
+  "n": "Galeras",
+  "a": [
+   "Galeras"
+  ],
+  "c": "country:CO"
+ },
+ {
+  "id": "mountain:Q750190",
+  "t": "mountain",
+  "n": "Suleiman-Too",
+  "a": [
+   "Sulaiman-Too",
+   "Sulaiman-Too"
+  ],
+  "c": "country:KG"
+ },
+ {
+  "id": "mountain:Q791652",
+  "t": "mountain",
+  "n": "Awatschinskaja Sopka",
+  "a": [
+   "Avachinsky",
+   "Avachinsky"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "mountain:Q814113",
+  "t": "mountain",
+  "n": "Beerenberg",
+  "a": [
+   "Beerenberg"
+  ],
+  "c": "country:NO"
+ },
+ {
+  "id": "mountain:Q825347",
+  "t": "mountain",
+  "n": "Colima",
+  "a": [
+   "Colima"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "mountain:Q1010335",
+  "t": "mountain",
+  "n": "Burchan Chaldun",
+  "a": [
+   "Burkhan Khaldun",
+   "Burkhan Khaldun"
+  ],
+  "c": "country:MN"
+ },
+ {
+  "id": "mountain:Q15265",
+  "t": "mountain",
+  "n": "Pilatus",
+  "a": [
+   "Mount Pilatus",
+   "Mount Pilatus"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "mountain:Q695846",
+  "t": "mountain",
+  "n": "Nyamuragira",
+  "a": [
+   "Nyamuragira"
+  ],
+  "c": "country:CD"
+ },
+ {
+  "id": "mountain:Q123782",
+  "t": "mountain",
+  "n": "Fansipan",
+  "a": [
+   "Fansipan"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "mountain:Q215138",
+  "t": "mountain",
+  "n": "Fitz Roy",
+  "a": [
+   "Mount Fitz Roy",
+   "Mount Fitz Roy"
+  ]
+ },
+ {
+  "id": "mountain:Q309098",
+  "t": "mountain",
+  "n": "Mount Meru",
+  "a": [
+   "Mount Meru"
+  ],
+  "c": "country:TZ"
+ },
+ {
+  "id": "mountain:Q378943",
+  "t": "mountain",
+  "n": "Witoscha",
+  "a": [
+   "Vitosha",
+   "Vitosha"
+  ],
+  "c": "country:BG"
+ },
+ {
+  "id": "mountain:Q686841",
+  "t": "mountain",
+  "n": "Dachstein",
+  "a": [
+   "Hoher Dachstein",
+   "Hoher Dachstein"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "mountain:Q732838",
+  "t": "mountain",
+  "n": "Mount Elgon",
+  "a": [
+   "Mount Elgon"
+  ]
+ },
+ {
+  "id": "mountain:Q15117",
+  "t": "mountain",
+  "n": "Dom",
+  "a": [
+   "Dom"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "mountain:Q154372",
+  "t": "mountain",
+  "n": "Montecassino (Berg)",
+  "a": [
+   "Monte Cassino",
+   "Monte Cassino"
+  ],
+  "c": "country:IT"
+ },
+ {
+  "id": "mountain:Q215662",
+  "t": "mountain",
+  "n": "Monte Perdido",
+  "a": [
+   "Monte Perdido"
+  ],
+  "c": "country:ES"
+ },
+ {
+  "id": "mountain:Q239485",
+  "t": "mountain",
+  "n": "Phu Bia",
+  "a": [
+   "Phou Bia",
+   "Phou Bia"
+  ],
+  "c": "country:LA"
+ },
+ {
+  "id": "mountain:Q275662",
+  "t": "mountain",
+  "n": "Mount Hood",
+  "a": [
+   "Mount Hood"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "mountain:Q312930",
+  "t": "mountain",
+  "n": "Copahue",
+  "a": [
+   "Copahue"
+  ]
+ },
+ {
+  "id": "mountain:Q680161",
+  "t": "mountain",
+  "n": "Nebo",
+  "a": [
+   "Mount Nebo",
+   "Mount Nebo"
+  ],
+  "c": "country:JO"
+ },
+ {
+  "id": "mountain:Q739484",
+  "t": "mountain",
+  "n": "Pico da Neblina",
+  "a": [
+   "Pico da Neblina"
+  ]
+ },
+ {
+  "id": "mountain:Q748355",
+  "t": "mountain",
+  "n": "Mount Shasta",
+  "a": [
+   "Mount Shasta"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "mountain:Q770496",
+  "t": "mountain",
+  "n": "Mount Saint Elias",
+  "a": [
+   "Mount Saint Elias"
+  ]
+ },
+ {
+  "id": "mountain:Q819979",
+  "t": "mountain",
+  "n": "Olympos",
+  "a": [
+   "Mount Olympus",
+   "Mount Olympus"
+  ],
+  "c": "country:CY"
+ },
+ {
+  "id": "mountain:Q1137644",
+  "t": "mountain",
+  "n": "Pumori",
+  "a": [
+   "Pumori"
+  ]
+ },
+ {
+  "id": "mountain:Q1142817",
+  "t": "mountain",
+  "n": "Narodnaja",
+  "a": [
+   "Mount Narodnaya",
+   "Mount Narodnaya"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "mountain:Q1288751",
+  "t": "mountain",
+  "n": "Garizim",
+  "a": [
+   "Mount Gerizim",
+   "Mount Gerizim"
+  ],
+  "c": "country:PS"
+ },
+ {
+  "id": "mountain:Q1372",
+  "t": "mountain",
+  "n": "Gran Paradiso",
+  "a": [
+   "Gran Paradiso"
+  ],
+  "c": "country:IT"
+ },
+ {
+  "id": "mountain:Q215516",
+  "t": "mountain",
+  "n": "Helikon",
+  "a": [
+   "Mount Helicon",
+   "Mount Helicon"
+  ],
+  "c": "country:GR"
+ },
+ {
+  "id": "mountain:Q255010",
+  "t": "mountain",
+  "n": "Parinacota",
+  "a": [
+   "Parinacota"
+  ]
+ },
+ {
+  "id": "mountain:Q404728",
+  "t": "mountain",
+  "n": "Aiguille du Midi",
+  "a": [
+   "Aiguille du Midi"
+  ],
+  "c": "country:FR"
+ },
+ {
+  "id": "mountain:Q582128",
+  "t": "mountain",
+  "n": "Gyachung Kang",
+  "a": [
+   "Gyachung Kang"
+  ]
+ },
+ {
+  "id": "mountain:Q630579",
+  "t": "mountain",
+  "n": "Muztagata",
+  "a": [
+   "Muztagh Ata",
+   "Muztagh Ata"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "mountain:Q641588",
+  "t": "mountain",
+  "n": "Arenal",
+  "a": [
+   "Arenal Volcano",
+   "Arenal Volcano"
+  ],
+  "c": "country:CR"
+ },
+ {
+  "id": "mountain:Q737859",
+  "t": "mountain",
+  "n": "Karisimbi",
+  "a": [
+   "Mount Karisimbi",
+   "Mount Karisimbi"
+  ]
+ },
+ {
+  "id": "mountain:Q839630",
+  "t": "mountain",
+  "n": "Korjakskaja Sopka",
+  "a": [
+   "Koryaksky",
+   "Koryaksky"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "mountain:Q928681",
+  "t": "mountain",
+  "n": "Ponta do Pico",
+  "a": [
+   "Mount Pico",
+   "Mount Pico"
+  ],
+  "c": "country:PT"
+ },
+ {
+  "id": "mountain:Q1032440",
+  "t": "mountain",
+  "n": "Jezerca",
+  "a": [
+   "Jezercë",
+   "Jezercë"
+  ],
+  "c": "country:AL"
+ },
+ {
+  "id": "mountain:Q1754806",
+  "t": "mountain",
+  "n": "Ontake-san",
+  "a": [
+   "Mount Ontake",
+   "Mount Ontake"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "mountain:Q15127",
+  "t": "mountain",
+  "n": "Finsteraarhorn",
+  "a": [
+   "Finsteraarhorn"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "mountain:Q15132",
+  "t": "mountain",
+  "n": "Piz Bernina",
+  "a": [
+   "Piz Bernina"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "mountain:Q83659",
+  "t": "mountain",
+  "n": "Psiloritis",
+  "a": [
+   "Mount Ida",
+   "Mount Ida"
+  ],
+  "c": "country:GR"
+ },
+ {
+  "id": "mountain:Q148521",
+  "t": "mountain",
+  "n": "Illimani",
+  "a": [
+   "Illimani"
+  ],
+  "c": "country:BO"
+ },
+ {
+  "id": "mountain:Q155721",
+  "t": "mountain",
+  "n": "Brocken",
+  "a": [
+   "Brocken"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "mountain:Q277441",
+  "t": "mountain",
+  "n": "Mount Wilhelm",
+  "a": [
+   "Mount Wilhelm"
+  ],
+  "c": "country:PG"
+ },
+ {
+  "id": "mountain:Q451697",
+  "t": "mountain",
+  "n": "Ama Dablam",
+  "a": [
+   "Ama Dablam"
+  ],
+  "c": "country:NP"
+ },
+ {
+  "id": "mountain:Q495501",
+  "t": "mountain",
+  "n": "Kŭmgangsan",
+  "a": [
+   "Mount Kumgang",
+   "Mount Kumgang"
+  ],
+  "c": "country:KP"
+ },
+ {
+  "id": "mountain:Q540520",
+  "t": "mountain",
+  "n": "Har Meron",
+  "a": [
+   "Meron",
+   "Meron"
+  ],
+  "c": "country:IL"
+ },
+ {
+  "id": "mountain:Q578862",
+  "t": "mountain",
+  "n": "Pico Cristóbal Colón",
+  "a": [
+   "Pico Cristóbal Colón"
+  ],
+  "c": "country:CO"
+ },
+ {
+  "id": "mountain:Q646398",
+  "t": "mountain",
+  "n": "Kongur",
+  "a": [
+   "Kongur Tagh",
+   "Kongur Tagh"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "mountain:Q822326",
+  "t": "mountain",
+  "n": "Tahat",
+  "a": [
+   "Mount Tahat",
+   "Mount Tahat"
+  ],
+  "c": "country:DZ"
+ },
+ {
+  "id": "mountain:Q870063",
+  "t": "mountain",
+  "n": "Hkakabo Razi",
+  "a": [
+   "Hkakabo Razi"
+  ],
+  "c": "country:MM"
+ },
+ {
+  "id": "mountain:Q48877",
+  "t": "mountain",
+  "n": "Schiwelutsch",
+  "a": [
+   "Shiveluch",
+   "Shiveluch"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "mountain:Q62467",
+  "t": "mountain",
+  "n": "Comapedrosa",
+  "a": [
+   "Coma Pedrosa",
+   "Coma Pedrosa"
+  ],
+  "c": "country:AD"
+ },
+ {
+  "id": "mountain:Q211665",
+  "t": "mountain",
+  "n": "Askja",
+  "a": [
+   "Askja"
+  ],
+  "c": "country:IS"
+ },
+ {
+  "id": "mountain:Q322824",
+  "t": "mountain",
+  "n": "Botrange",
+  "a": [
+   "Signal de Botrange",
+   "Signal de Botrange"
+  ],
+  "c": "country:BE"
+ },
+ {
+  "id": "mountain:Q586212",
+  "t": "mountain",
+  "n": "Monte Pissis",
+  "a": [
+   "Monte Pissis"
+  ],
+  "c": "country:AR"
+ },
+ {
+  "id": "mountain:Q594387",
+  "t": "mountain",
+  "n": "Mount Baker",
+  "a": [
+   "Mount Baker"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "mountain:Q692922",
+  "t": "mountain",
+  "n": "Novarupta",
+  "a": [
+   "Novarupta"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "mountain:Q825709",
+  "t": "mountain",
+  "n": "Gunnbjørns Fjeld",
+  "a": [
+   "Gunnbjørn Fjeld",
+   "Gunnbjørn Fjeld"
+  ],
+  "c": "country:GL"
+ },
+ {
+  "id": "mountain:Q933778",
+  "t": "mountain",
+  "n": "Rakaposhi",
+  "a": [
+   "Rakaposhi"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "mountain:Q1018862",
+  "t": "mountain",
+  "n": "Bárðarbunga",
+  "a": [
+   "Bárðarbunga"
+  ],
+  "c": "country:IS"
+ },
+ {
+  "id": "mountain:Q14052",
+  "t": "mountain",
+  "n": "Sangay",
+  "a": [
+   "Sangay volcano",
+   "Sangay volcano"
+  ],
+  "c": "country:EC"
+ },
+ {
+  "id": "mountain:Q15122",
+  "t": "mountain",
+  "n": "Weisshorn",
+  "a": [
+   "Weisshorn"
+  ],
+  "c": "country:CH"
+ },
+ {
   "id": "region:AL-01",
   "t": "region",
   "n": "Berat",
@@ -12735,6 +17695,1091 @@
   "n": "Wyoming",
   "a": [],
   "c": "country:US"
+ },
+ {
+  "id": "license_plate:AT-AM",
+  "t": "license_plate",
+  "n": "Amstetten",
+  "a": [
+   "Bezirk Amstetten"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-B",
+  "t": "license_plate",
+  "n": "Bregenz",
+  "a": [
+   "Bezirk Bregenz"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-BM",
+  "t": "license_plate",
+  "n": "Bruck an der Mur",
+  "a": [
+   "Bezirk Bruck an der Mur",
+   "Bezirk Bruck-Mürzzuschlag",
+   "Bruck-Mürzzuschlag"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-BN",
+  "t": "license_plate",
+  "n": "Baden",
+  "a": [
+   "Bezirk Baden"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-BR",
+  "t": "license_plate",
+  "n": "Braunau",
+  "a": [
+   "Bezirk Braunau"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-BZ",
+  "t": "license_plate",
+  "n": "Bludenz",
+  "a": [
+   "Bezirk Bludenz"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-DL",
+  "t": "license_plate",
+  "n": "Deutschlandsberg",
+  "a": [
+   "Bezirk Deutschlandsberg"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-DO",
+  "t": "license_plate",
+  "n": "Dornbirn",
+  "a": [
+   "Bezirk Dornbirn"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-E",
+  "t": "license_plate",
+  "n": "Eisenstadt",
+  "a": [
+   "Rust"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-EF",
+  "t": "license_plate",
+  "n": "Eferding",
+  "a": [
+   "Bezirk Eferding"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-EU",
+  "t": "license_plate",
+  "n": "Eisenstadt-Umgebung",
+  "a": [
+   "Bezirk Eisenstadt-Umgebung"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-FB",
+  "t": "license_plate",
+  "n": "Feldbach",
+  "a": [
+   "Bezirk Feldbach",
+   "Bezirk Südoststeiermark",
+   "Südoststeiermark"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-FE",
+  "t": "license_plate",
+  "n": "Feldkirchen",
+  "a": [
+   "Bezirk Feldkirchen"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-FF",
+  "t": "license_plate",
+  "n": "Fürstenfeld",
+  "a": [
+   "Bezirk Fürstenfeld"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-FK",
+  "t": "license_plate",
+  "n": "Feldkirch",
+  "a": [
+   "Bezirk Feldkirch"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-FR",
+  "t": "license_plate",
+  "n": "Freistadt",
+  "a": [
+   "Bezirk Freistadt"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-G",
+  "t": "license_plate",
+  "n": "Graz",
+  "a": [],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-GD",
+  "t": "license_plate",
+  "n": "Gmünd",
+  "a": [
+   "Bezirk Gmünd"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-GF",
+  "t": "license_plate",
+  "n": "Gänserndorf",
+  "a": [
+   "Bezirk Gänserndorf"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-GM",
+  "t": "license_plate",
+  "n": "Gmunden",
+  "a": [
+   "Bezirk Gmunden"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-GR",
+  "t": "license_plate",
+  "n": "Grieskirchen",
+  "a": [
+   "Bezirk Grieskirchen"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-GS",
+  "t": "license_plate",
+  "n": "Güssing",
+  "a": [
+   "Bezirk Güssing"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-GU",
+  "t": "license_plate",
+  "n": "Graz-Umgebung",
+  "a": [
+   "Bezirk Graz-Umgebung"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-HA",
+  "t": "license_plate",
+  "n": "Hallein",
+  "a": [
+   "Bezirk Hallein"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-HB",
+  "t": "license_plate",
+  "n": "Hartberg",
+  "a": [
+   "Bezirk Hartberg"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-HE",
+  "t": "license_plate",
+  "n": "Hermagor",
+  "a": [
+   "Bezirk Hermagor"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-HF",
+  "t": "license_plate",
+  "n": "Hartberg-Fürstenfeld",
+  "a": [
+   "Bezirk Hartberg-Fürstenfeld"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-HL",
+  "t": "license_plate",
+  "n": "Hollabrunn",
+  "a": [
+   "Bezirk Hollabrunn"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-HO",
+  "t": "license_plate",
+  "n": "Horn",
+  "a": [
+   "Bezirk Horn"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-I",
+  "t": "license_plate",
+  "n": "Innsbruck",
+  "a": [],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-IL",
+  "t": "license_plate",
+  "n": "Innsbruck-Land",
+  "a": [
+   "Bezirk Innsbruck-Land"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-IM",
+  "t": "license_plate",
+  "n": "Imst",
+  "a": [
+   "Bezirk Imst"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-JE",
+  "t": "license_plate",
+  "n": "Jennersdorf",
+  "a": [
+   "Bezirk Jennersdorf"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-JO",
+  "t": "license_plate",
+  "n": "St. Johann im Pongau",
+  "a": [
+   "Bezirk St. Johann im Pongau"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-JU",
+  "t": "license_plate",
+  "n": "Murtal",
+  "a": [
+   "Bezirk Murtal"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-K",
+  "t": "license_plate",
+  "n": "Klagenfurt am Wörthersee",
+  "a": [],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-KB",
+  "t": "license_plate",
+  "n": "Kitzbühel",
+  "a": [
+   "Bezirk Kitzbühel"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-KF",
+  "t": "license_plate",
+  "n": "Knittelfeld",
+  "a": [
+   "Bezirk Knittelfeld"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-KI",
+  "t": "license_plate",
+  "n": "Kirchdorf",
+  "a": [
+   "Bezirk Kirchdorf"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-KL",
+  "t": "license_plate",
+  "n": "Klagenfurt-Land",
+  "a": [
+   "Bezirk Klagenfurt-Land"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-KO",
+  "t": "license_plate",
+  "n": "Korneuburg",
+  "a": [
+   "Bezirk Korneuburg"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-KR",
+  "t": "license_plate",
+  "n": "Krems",
+  "a": [
+   "Bezirk Krems"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-KS",
+  "t": "license_plate",
+  "n": "Krems",
+  "a": [],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-KU",
+  "t": "license_plate",
+  "n": "Kufstein",
+  "a": [
+   "Bezirk Kufstein"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-L",
+  "t": "license_plate",
+  "n": "Linz",
+  "a": [],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-LA",
+  "t": "license_plate",
+  "n": "Landeck",
+  "a": [
+   "Bezirk Landeck"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-LB",
+  "t": "license_plate",
+  "n": "Leibnitz",
+  "a": [
+   "Bezirk Leibnitz"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-LF",
+  "t": "license_plate",
+  "n": "Lilienfeld",
+  "a": [
+   "Bezirk Lilienfeld"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-LI",
+  "t": "license_plate",
+  "n": "Liezen",
+  "a": [
+   "Bezirk Liezen"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-LL",
+  "t": "license_plate",
+  "n": "Linz-Land",
+  "a": [
+   "Bezirk Linz-Land"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-LZ",
+  "t": "license_plate",
+  "n": "Lienz",
+  "a": [
+   "Bezirk Lienz"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-MA",
+  "t": "license_plate",
+  "n": "Mattersburg",
+  "a": [
+   "Bezirk Mattersburg"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-MD",
+  "t": "license_plate",
+  "n": "Mödling",
+  "a": [
+   "Bezirk Mödling"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-ME",
+  "t": "license_plate",
+  "n": "Melk",
+  "a": [
+   "Bezirk Melk"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-MI",
+  "t": "license_plate",
+  "n": "Mistelbach",
+  "a": [
+   "Bezirk Mistelbach"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-MU",
+  "t": "license_plate",
+  "n": "Murau",
+  "a": [
+   "Bezirk Murau"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-MZ",
+  "t": "license_plate",
+  "n": "Mürzzuschlag",
+  "a": [
+   "Bezirk Mürzzuschlag"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-ND",
+  "t": "license_plate",
+  "n": "Neusiedl am See",
+  "a": [
+   "Bezirk Neusiedl am See"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-NK",
+  "t": "license_plate",
+  "n": "Neunkirchen",
+  "a": [
+   "Bezirk Neunkirchen"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-OP",
+  "t": "license_plate",
+  "n": "Oberpullendorf",
+  "a": [
+   "Bezirk Oberpullendorf"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-OW",
+  "t": "license_plate",
+  "n": "Oberwart",
+  "a": [
+   "Bezirk Oberwart"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-P",
+  "t": "license_plate",
+  "n": "St. Pölten",
+  "a": [],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-PE",
+  "t": "license_plate",
+  "n": "Perg",
+  "a": [
+   "Bezirk Perg"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-PL",
+  "t": "license_plate",
+  "n": "St. Pölten",
+  "a": [
+   "Bezirk St. Pölten"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-RA",
+  "t": "license_plate",
+  "n": "Radkersburg",
+  "a": [
+   "Bezirk Radkersburg"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-RE",
+  "t": "license_plate",
+  "n": "Reutte",
+  "a": [
+   "Bezirk Reutte"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-RI",
+  "t": "license_plate",
+  "n": "Ried",
+  "a": [
+   "Bezirk Ried"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-RO",
+  "t": "license_plate",
+  "n": "Rohrbach",
+  "a": [
+   "Bezirk Rohrbach"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-S",
+  "t": "license_plate",
+  "n": "Salzburg",
+  "a": [],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-SB",
+  "t": "license_plate",
+  "n": "Scheibbs",
+  "a": [
+   "Bezirk Scheibbs"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-SD",
+  "t": "license_plate",
+  "n": "Schärding",
+  "a": [
+   "Bezirk Schärding"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-SE",
+  "t": "license_plate",
+  "n": "Steyr-Land",
+  "a": [
+   "Bezirk Steyr-Land"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-SL",
+  "t": "license_plate",
+  "n": "Salzburg-Umgebung",
+  "a": [
+   "Bezirk Salzburg-Umgebung"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-SP",
+  "t": "license_plate",
+  "n": "Spittal an der Drau",
+  "a": [
+   "Bezirk Spittal an der Drau"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-SR",
+  "t": "license_plate",
+  "n": "Steyr",
+  "a": [],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-SV",
+  "t": "license_plate",
+  "n": "St. Veit an der Glan",
+  "a": [
+   "Bezirk St. Veit an der Glan"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-SZ",
+  "t": "license_plate",
+  "n": "Schwaz",
+  "a": [
+   "Bezirk Schwaz"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-TA",
+  "t": "license_plate",
+  "n": "Tamsweg",
+  "a": [
+   "Bezirk Tamsweg"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-TU",
+  "t": "license_plate",
+  "n": "Tulln",
+  "a": [
+   "Bezirk Tulln"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-UU",
+  "t": "license_plate",
+  "n": "Urfahr-Umgebung",
+  "a": [
+   "Bezirk Urfahr-Umgebung"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-VB",
+  "t": "license_plate",
+  "n": "Vöcklabruck",
+  "a": [
+   "Bezirk Vöcklabruck"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-VI",
+  "t": "license_plate",
+  "n": "Villach",
+  "a": [],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-VK",
+  "t": "license_plate",
+  "n": "Völkermarkt",
+  "a": [
+   "Bezirk Völkermarkt"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-VL",
+  "t": "license_plate",
+  "n": "Villach-Land",
+  "a": [
+   "Bezirk Villach-Land"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-VO",
+  "t": "license_plate",
+  "n": "Voitsberg",
+  "a": [
+   "Bezirk Voitsberg"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-W",
+  "t": "license_plate",
+  "n": "Wien",
+  "a": [],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-WB",
+  "t": "license_plate",
+  "n": "Wiener Neustadt",
+  "a": [
+   "Bezirk Wiener Neustadt"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-WE",
+  "t": "license_plate",
+  "n": "Wels",
+  "a": [],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-WL",
+  "t": "license_plate",
+  "n": "Wels-Land",
+  "a": [
+   "Bezirk Wels-Land"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-WN",
+  "t": "license_plate",
+  "n": "Wiener Neustadt",
+  "a": [],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-WO",
+  "t": "license_plate",
+  "n": "Wolfsberg",
+  "a": [
+   "Bezirk Wolfsberg"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-WT",
+  "t": "license_plate",
+  "n": "Waidhofen an der Thaya",
+  "a": [
+   "Bezirk Waidhofen an der Thaya"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-WU",
+  "t": "license_plate",
+  "n": "Wien-Umgebung",
+  "a": [
+   "Bezirk Wien-Umgebung"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-WY",
+  "t": "license_plate",
+  "n": "Waidhofen an der Ybbs",
+  "a": [],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-WZ",
+  "t": "license_plate",
+  "n": "Weiz",
+  "a": [
+   "Bezirk Weiz"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-ZE",
+  "t": "license_plate",
+  "n": "Zell am See",
+  "a": [
+   "Bezirk Zell am See"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:AT-ZT",
+  "t": "license_plate",
+  "n": "Zwettl",
+  "a": [
+   "Bezirk Zwettl"
+  ],
+  "c": "country:AT"
+ },
+ {
+  "id": "license_plate:CH-AG",
+  "t": "license_plate",
+  "n": "Aargau",
+  "a": [
+   "Kanton Aargau"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-AI",
+  "t": "license_plate",
+  "n": "Appenzell Innerrhoden",
+  "a": [
+   "Kanton Appenzell Innerrhoden"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-AR",
+  "t": "license_plate",
+  "n": "Appenzell Ausserrhoden",
+  "a": [
+   "Kanton Appenzell Ausserrhoden"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-BE",
+  "t": "license_plate",
+  "n": "Bern",
+  "a": [
+   "Kanton Bern"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-BL",
+  "t": "license_plate",
+  "n": "Basel-Landschaft",
+  "a": [
+   "Kanton Basel-Landschaft"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-BS",
+  "t": "license_plate",
+  "n": "Basel-Stadt",
+  "a": [
+   "Kanton Basel-Stadt"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-FR",
+  "t": "license_plate",
+  "n": "Freiburg",
+  "a": [
+   "Kanton Freiburg"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-GE",
+  "t": "license_plate",
+  "n": "Genf",
+  "a": [
+   "Kanton Genf"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-GL",
+  "t": "license_plate",
+  "n": "Glarus",
+  "a": [
+   "Kanton Glarus"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-GR",
+  "t": "license_plate",
+  "n": "Graubünden",
+  "a": [
+   "Kanton Graubünden"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-JU",
+  "t": "license_plate",
+  "n": "Jura",
+  "a": [
+   "Kanton Jura"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-LU",
+  "t": "license_plate",
+  "n": "Luzern",
+  "a": [
+   "Kanton Luzern"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-NE",
+  "t": "license_plate",
+  "n": "Neuenburg",
+  "a": [
+   "Kanton Neuenburg"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-NW",
+  "t": "license_plate",
+  "n": "Nidwalden",
+  "a": [
+   "Kanton Nidwalden"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-OW",
+  "t": "license_plate",
+  "n": "Obwalden",
+  "a": [
+   "Kanton Obwalden"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-SG",
+  "t": "license_plate",
+  "n": "St. Gallen",
+  "a": [
+   "Kanton St. Gallen"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-SH",
+  "t": "license_plate",
+  "n": "Schaffhausen",
+  "a": [
+   "Kanton Schaffhausen"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-SO",
+  "t": "license_plate",
+  "n": "Solothurn",
+  "a": [
+   "Kanton Solothurn"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-SZ",
+  "t": "license_plate",
+  "n": "Schwyz",
+  "a": [
+   "Kanton Schwyz"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-TG",
+  "t": "license_plate",
+  "n": "Thurgau",
+  "a": [
+   "Kanton Thurgau"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-TI",
+  "t": "license_plate",
+  "n": "Tessin",
+  "a": [
+   "Kanton Tessin"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-UR",
+  "t": "license_plate",
+  "n": "Uri",
+  "a": [
+   "Kanton Uri"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-VD",
+  "t": "license_plate",
+  "n": "Waadt",
+  "a": [
+   "Kanton Waadt"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-VS",
+  "t": "license_plate",
+  "n": "Wallis",
+  "a": [
+   "Kanton Wallis"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-ZG",
+  "t": "license_plate",
+  "n": "Zug",
+  "a": [
+   "Kanton Zug"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "license_plate:CH-ZH",
+  "t": "license_plate",
+  "n": "Zürich",
+  "a": [
+   "Kanton Zürich"
+  ],
+  "c": "country:CH"
  },
  {
   "id": "license_plate:DE-A",

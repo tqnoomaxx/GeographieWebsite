@@ -3,7 +3,7 @@
   "nav": { "home": "Start", "play": "Spielen", "learn": "Lernen", "explore": "Entdecken", "progress": "Fortschritt", "profile": "Profil", "daily": "Tägliche Rätsel", "settings": "Einstellungen", "search": "Suche", "more": "Mehr", "back": "Zurück", "quit": "Beenden" },
   "category": {
     "flags": "Flaggen", "countries": "Länder", "capitals": "Hauptstädte", "regions": "Regionen", "cities": "Städte", "maps": "Karten",
-    "images": "Bilder", "landmarks": "Sehenswürdigkeiten", "license_plates": "Kennzeichen", "mixed": "Gemischt"
+    "images": "Bilder", "landmarks": "Sehenswürdigkeiten", "license_plates": "Kennzeichen", "water": "Gewässer", "nature": "Natur", "mixed": "Gemischt"
   },
   "scope": { "world": "Welt", "europe": "Europa", "asia": "Asien", "africa": "Afrika", "north-america": "Nordamerika", "south-america": "Südamerika", "oceania": "Ozeanien", "antarctica": "Antarktis" },
   "play": {
@@ -26,19 +26,21 @@
     "image_to_landmark": "Welche Sehenswürdigkeit ist das?", "image_to_country": "In welchem Land ist das?", "image_to_city": "Welche Stadt ist das?",
     "landmark_to_country": "In welchem Land steht {{name}}?", "landmark_to_city": "Wo befindet sich {{name}}?",
     "country_on_map": "Wo liegt {{name}}?", "region_on_map": "Wo liegt {{name}} ({{country}})?",
-    "plate_to_city": "Woher kommt das Kennzeichen {{code}}?", "city_to_plate": "Welches Kennzeichen gehört zu {{name}}?", "plate_input": "Welcher Ort gehört zum Kennzeichen {{code}}?"
+    "plate_to_city": "Woher kommt das Kennzeichen {{code}}?", "city_to_plate": "Welches Kennzeichen gehört zu {{name}}?", "plate_input": "Welcher Ort gehört zum Kennzeichen {{code}}?",
+    "river_to_country": "Durch welches Land fließt {{name}}?", "lake_to_country": "In welchem Land liegt der See {{name}}?", "mountain_to_country": "In welchem Land liegt {{name}}?",
+    "river_longer": "Welcher Fluss ist länger?", "lake_larger": "Welcher See ist größer?", "mountain_higher": "Welcher Berg ist höher?", "water_on_map": "In welchem Land liegt {{name}}?", "mountain_on_map": "In welchem Land liegt {{name}}?"
   },
   "daily": {
     "title": "Tägliche Rätsel", "today": "Heute", "solved": "Gelöst", "failed": "Nicht gelöst", "attempts": "{{n}} / {{max}} Versuche", "guess": "Raten", "placeholder": "Land eingeben …",
     "practice": "Übungsrätsel", "share": "Ergebnis kopieren", "copied": "Kopiert!", "come_back": "Morgen gibt es ein neues Rätsel.", "answer_was": "Die Lösung war {{name}}.",
     "flagle": "Flagle", "flagle_desc": "Flagge Kachel für Kachel aufdecken", "countryle": "Countryle", "countryle_desc": "Land mit Entfernung und Richtung finden",
-    "outline": "Umrissle", "outline_desc": "Land am Umriss erkennen", "capitale": "Hauptstädtle", "capitale_desc": "Hauptstadt mit Hinweisen erraten",
+    "outline": "Umrissle", "outline_desc": "Land am Umriss erkennen", "capitale": "Hauptstädtle", "capitale_desc": "Hauptstadt mit Hinweisen erraten", "bildle": "Bildle", "bildle_desc": "Sehenswürdigkeit wird Stück für Stück scharf", "kennzeichle": "Kennzeichle", "kennzeichle_desc": "Deutsches Kennzeichen anhand Karte und Hinweisen",
     "hint_continent": "Kontinent", "hint_hemisphere": "Hemisphäre", "hint_distance": "Entfernung", "hint_direction": "Richtung", "hint_population": "Einwohner", "hint_area": "Fläche",
     "north": "Nord", "south": "Süd", "hint_letter": "Anfangsbuchstabe", "hint_length": "Buchstaben"
   },
   "learn": { "title": "Lernen", "mark_learned": "Als gelernt markieren", "next": "Weiter", "quiz_me": "Frage dazu", "pick": "Was möchtest du lernen?", "done_today": "Gelernt", "all_done": "Alles in diesem Bereich gelernt. Wähle einen anderen Bereich oder wiederhole." },
-  "explore": { "title": "Entdecken", "continents": "Kontinente", "lists": "Listen", "largest_countries": "Größte Länder", "most_populous": "Bevölkerungsreichste Länder", "landmarks": "Berühmte Sehenswürdigkeiten", "regions_of": "Regionen von {{name}}", "cities_of": "Städte in {{name}}", "landmarks_of": "Sehenswürdigkeiten in {{name}}", "neighbors": "Nachbarländer", "play_this": "{{name}} spielen", "show_on_map": "Auf Karte zeigen", "no_data": "Keine Angabe" },
-  "facts": { "capital": "Hauptstadt", "population": "Einwohner", "area": "Fläche", "currency": "Währung", "language": "Amtssprache", "languages": "Amtssprachen", "continent": "Kontinent", "subregion": "Region", "tld": "Internetdomain", "calling_code": "Vorwahl", "iso": "ISO", "highest_point": "Höchster Punkt", "borders": "Nachbarländer", "landlocked": "Binnenstaat", "yes": "Ja", "no": "Nein", "source": "Quelle", "as_of": "Stand", "unesco": "UNESCO-Welterbe", "place": "Ort", "country": "Land", "region": "Region", "flag": "Flagge", "image_source": "Bildquelle" },
+  "explore": { "title": "Entdecken", "continents": "Kontinente", "lists": "Listen", "largest_countries": "Größte Länder", "most_populous": "Bevölkerungsreichste Länder", "landmarks": "Berühmte Sehenswürdigkeiten", "longest_rivers": "Längste Flüsse", "largest_lakes": "Größte Seen", "highest_mountains": "Höchste Berge", "water_of": "Gewässer in {{name}}", "nature_of": "Berge in {{name}}", "regions_of": "Regionen von {{name}}", "cities_of": "Städte in {{name}}", "landmarks_of": "Sehenswürdigkeiten in {{name}}", "neighbors": "Nachbarländer", "play_this": "{{name}} spielen", "show_on_map": "Auf Karte zeigen", "no_data": "Keine Angabe" },
+  "facts": { "capital": "Hauptstadt", "population": "Einwohner", "area": "Fläche", "currency": "Währung", "language": "Amtssprache", "languages": "Amtssprachen", "continent": "Kontinent", "subregion": "Region", "tld": "Internetdomain", "calling_code": "Vorwahl", "iso": "ISO", "highest_point": "Höchster Punkt", "borders": "Nachbarländer", "landlocked": "Binnenstaat", "yes": "Ja", "no": "Nein", "source": "Quelle", "as_of": "Stand", "unesco": "UNESCO-Welterbe", "length": "Länge", "elevation": "Höhe", "countries": "Länder", "volcano": "Vulkan", "place": "Ort", "country": "Land", "region": "Region", "flag": "Flagge", "image_source": "Bildquelle" },
   "progress": {
     "title": "Mein Fortschritt", "my_world": "Meine Welt", "level": "Level {{level}}", "xp_of": "{{xp}} / {{next}} XP", "streak": "{{days}} Tage", "streak_hint": "Du hast an {{days}} Tagen hintereinander Geografie gelernt.",
     "stats": "Deine Statistik", "answered": "Fragen beantwortet", "correct": "richtig", "accuracy": "Trefferquote", "achievements": "Achievements", "quests": "Quests", "favorites": "Favoriten", "no_favorites": "Noch keine Favoriten.", "no_favorites_hint": "Entdecke ein Land oder eine Sehenswürdigkeit und speichere sie hier.",
@@ -49,7 +51,7 @@
     "flag_novice_25": { "title": "Flaggenkenner", "desc": "Erkenne 25 Flaggen." }, "flag_expert_150": { "title": "Flaggenexperte", "desc": "Erkenne 150 Flaggen." }, "flag_master_500": { "title": "Flaggenmeister", "desc": "Erkenne 500 Flaggen." },
     "capital_keeper_50": { "title": "Hauptstadtkenner", "desc": "Erkenne 50 Hauptstädte." }, "capital_keeper_200": { "title": "Hauptstadtmeister", "desc": "Erkenne 200 Hauptstädte." },
     "country_scholar_100": { "title": "Länderkundler", "desc": "Beantworte 100 Länderfragen richtig." }, "city_expert_25": { "title": "Großstadtkenner", "desc": "Erkenne 25 Städte." },
-    "picture_pro_100": { "title": "Bilderprofi", "desc": "Erkenne 100 Bilder." }, "cartographer_50": { "title": "Kartograph", "desc": "Löse 50 Kartenfragen." }, "plate_expert_100": { "title": "Kennzeichenexperte", "desc": "Erkenne 100 Kennzeichen." }, "region_ranger_50": { "title": "Regionenkenner", "desc": "Erkenne 50 Regionen." },
+    "picture_pro_100": { "title": "Bilderprofi", "desc": "Erkenne 100 Bilder." }, "cartographer_50": { "title": "Kartograph", "desc": "Löse 50 Kartenfragen." }, "plate_expert_100": { "title": "Kennzeichenexperte", "desc": "Erkenne 100 Kennzeichen." }, "region_ranger_50": { "title": "Regionenkenner", "desc": "Erkenne 50 Regionen." }, "water_wise_50": { "title": "Gewässerkundler", "desc": "Beantworte 50 Gewässerfragen richtig." }, "summit_50": { "title": "Gipfelstürmer", "desc": "Beantworte 50 Naturfragen richtig." },
     "world_traveler": { "title": "Weltreisender", "desc": "Spiele Fragen aus allen sechs Kontinenten." }, "marathon_1": { "title": "Marathon", "desc": "Spiele eine „Alle“-Runde fehlerfrei durch." }, "marathon_5": { "title": "Ultramarathon", "desc": "Spiele fünf „Alle“-Runden fehlerfrei durch." },
     "mastered_50": { "title": "Gedächtniskünstler", "desc": "Meistere 50 Inhalte." }, "mastered_250": { "title": "Weltgedächtnis", "desc": "Meistere 250 Inhalte." },
     "puzzle_fox_10": { "title": "Rätselfuchs", "desc": "Löse 10 Tagesrätsel." }, "puzzle_fox_30": { "title": "Rätselmeister", "desc": "Löse 30 Tagesrätsel." },
@@ -57,7 +59,7 @@
     "level_10": { "title": "Level 10", "desc": "Erreiche Level 10." }, "level_25": { "title": "Level 25", "desc": "Erreiche Level 25." }
   },
   "quests": {
-    "flags_10": "10 Flaggen richtig erkennen", "capitals_5": "5 Hauptstädte erkennen", "countries_5": "5 Länderfragen richtig beantworten", "maps_3": "3 Länder auf der Karte finden", "images_5": "5 Bilder erkennen", "plates_10": "10 Kennzeichen erkennen", "learn_10": "10 Inhalte im Lernmodus abschließen", "sessions_3": "3 Runden abschließen",
+    "flags_10": "10 Flaggen richtig erkennen", "capitals_5": "5 Hauptstädte erkennen", "countries_5": "5 Länderfragen richtig beantworten", "maps_3": "3 Länder auf der Karte finden", "images_5": "5 Bilder erkennen", "plates_10": "10 Kennzeichen erkennen", "water_5": "5 Gewässerfragen richtig beantworten", "nature_5": "5 Naturfragen richtig beantworten", "learn_10": "10 Inhalte im Lernmodus abschließen", "sessions_3": "3 Runden abschließen",
     "europe_expedition": "Europa-Expedition", "africa_expedition": "Afrika-Expedition", "asia_expedition": "Asien-Expedition", "americas_expedition": "Amerika-Expedition", "germany_expert": "Deutschland-Kenner",
     "learn_scope_desc": "{{target}} Länder kennen"
   },

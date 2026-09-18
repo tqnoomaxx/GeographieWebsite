@@ -12,7 +12,9 @@ import { matchesAnswer, normalizeAnswer } from '@/engine/normalize'
 import { mediaUrl } from '@/services/data/dataService'
 import { Card, Flag, Skeleton, useToast, formatNumber, entityPath } from '@/ui'
 import { Outline } from '@/ui/maps'
-import { MAX_ATTEMPTS, PUZZLES, arrowFor, bearing, compare, distanceKm, pickDaily, proximityEmoji, shareText, type PuzzleDef } from './puzzles'
+import { MAX_ATTEMPTS, PUZZLES, arrowFor, bearing, compare, distanceKm, pickDaily, pickDailyFrom, proximityEmoji, shareText, type PuzzleDef } from './puzzles'
+import type { Entity } from '@/domain/types'
+import { RegionMapView } from '@/ui/maps'
 
 export default function PuzzlePage() {
   const { t } = useTranslation()
@@ -31,10 +33,31 @@ export default function PuzzlePage() {
   const { show, toast } = useToast()
   const inputRef = useRef<HTMLInputElement>(null)
 
-  const target = useMemo(() => (geo.ready && def ? pickDaily(geo.countries, def.id, date, practice ?? undefined) : null), [geo.ready, geo.countries, def, date, practice])
+  const isCountryPuzzle = def && ['flagle', 'countryle', 'outline', 'capitale'].includes(def.id)
+  useEffect(() => {
+    if (def?.id === 'kennzeichle' && !geo.platesLoaded) void geo.ensurePlates()
+  }, [def, geo])
+  const landmarksWithPhoto = useMemo(() => geo.landmarks.filter((l) => l.media?.some((m) => m.kind === 'photo')), [geo.landmarks])
+  const dePlates = useMemo(() => geo.plates.filter((p) => p.attributes.country === 'country:DE'), [geo.plates])
+  const target = useMemo(() => {
+    if (!geo.ready || !def) return null
+    if (isCountryPuzzle) return pickDaily(geo.countries, def.id as 'flagle', date, practice ?? undefined)
+    return null
+  }, [geo.ready, geo.countries, def, date, practice, isCountryPuzzle])
+  const special = useMemo<Entity | undefined>(() => {
+    if (!def || isCountryPuzzle) return undefined
+    if (def.id === 'bildle') return pickDailyFrom(landmarksWithPhoto, def.id, date, practice ?? undefined)
+    if (def.id === 'kennzeichle') return pickDailyFrom(dePlates, def.id, date, practice ?? undefined)
+    return undefined
+  }, [def, isCountryPuzzle, landmarksWithPhoto, dePlates, date, practice])
   const capital = target?.attributes.capital ? geo.byId.get(target.attributes.capital) : undefined
-  const solutionEntity = def?.id === 'capitale' ? capital : target
-  const pool = useMemo(() => (def?.id === 'capitale' ? geo.cities.filter((c) => c.attributes.is_capital) : geo.countries.filter((c) => (c as Country).attributes.independent !== false)), [def, geo.cities, geo.countries])
+  const solutionEntity: Entity | undefined = def?.id === 'capitale' ? capital : isCountryPuzzle ? target ?? undefined : special
+  const pool = useMemo<Entity[]>(() => {
+    if (def?.id === 'capitale') return geo.cities.filter((c) => c.attributes.is_capital)
+    if (def?.id === 'bildle') return landmarksWithPhoto
+    if (def?.id === 'kennzeichle') return dePlates
+    return geo.countries.filter((c) => (c as Country).attributes.independent !== false)
+  }, [def, geo.cities, geo.countries, landmarksWithPhoto, dePlates])
 
   useEffect(() => {
     setXp(null)
@@ -68,11 +91,12 @@ export default function PuzzlePage() {
     [result, solutionEntity, pool, repo, show, t, practice],
   )
 
-  if (!def || !target || !result || !solutionEntity) return <div className="mx-auto max-w-xl p-4"><Skeleton className="h-64" /></div>
+  if (!def || !result || !solutionEntity || (isCountryPuzzle && !target)) return <div className="mx-auto max-w-xl p-4"><Skeleton className="h-64" /></div>
+  const tgt = (target ?? solutionEntity) as Country
   const attempts = result.guesses.length
   const finished = !!result.finishedAt
   const guessedEntities = result.guesses.map((id) => geo.byId.get(id)!).filter(Boolean)
-  const rows = guessedEntities.map((g) => rowEmoji(def.id, g as Country, target, solutionEntity.id))
+  const rows = guessedEntities.map((g) => rowEmoji(def.id, g as Country, tgt, solutionEntity.id))
   const share = shareText(t(`daily.${def.id}`), practice ? t('daily.practice') : date, rows, result.solved, attempts)
 
   return (
@@ -88,10 +112,12 @@ export default function PuzzlePage() {
       </h1>
 
       <Card className="mb-4 flex flex-col items-center">
-        {def.id === 'flagle' && <FlagleBoard country={target} revealed={finished ? 6 : attempts} />}
-        {def.id === 'outline' && <Outline iso2={target.attributes.iso2} className="max-h-72" />}
+        {def.id === 'flagle' && <FlagleBoard country={tgt} revealed={finished ? 6 : attempts} />}
+        {def.id === 'outline' && <Outline iso2={tgt.attributes.iso2} className="max-h-72" />}
         {def.id === 'countryle' && <p className="py-6 text-center text-ink-2">{t('daily.countryle_desc')}</p>}
-        {def.id === 'capitale' && <CapitaleHints country={target} capitalName={solutionEntity.names.de} revealed={attempts} />}
+        {def.id === 'capitale' && <CapitaleHints country={tgt} capitalName={solutionEntity.names.de} revealed={attempts} />}
+        {def.id === 'bildle' && <BildleBoard landmark={solutionEntity} revealed={finished ? 6 : attempts} />}
+        {def.id === 'kennzeichle' && <KennzeichleBoard plate={solutionEntity} revealed={finished ? 6 : attempts} />}
       </Card>
 
       {!finished && (
@@ -107,7 +133,7 @@ export default function PuzzlePage() {
               ref={inputRef}
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder={def.id === 'capitale' ? t('play.type_answer') : t('daily.placeholder')}
+              placeholder={isCountryPuzzle && def.id !== 'capitale' ? t('daily.placeholder') : t('play.type_answer')}
               className="min-h-12 flex-1 rounded-xl border border-line bg-card px-4"
               autoComplete="off"
               aria-label={t('daily.guess')}
@@ -136,7 +162,7 @@ export default function PuzzlePage() {
           <li key={g.id} className={`card flex items-center gap-2 px-3 py-2 text-sm ${g.id === solutionEntity.id ? 'border-ok bg-ok-soft' : ''}`}>
             <span className="w-4 text-ink-2">{i + 1}</span>
             <span className="flex-1 font-medium">{g.names.de}</span>
-            <HintRow puzzle={def.id} guess={g as Country} target={target} solutionId={solutionEntity.id} />
+            <HintRow puzzle={def.id} guess={g as Country} target={tgt} solutionId={solutionEntity.id} />
           </li>
         ))}
       </ol>
@@ -147,9 +173,9 @@ export default function PuzzlePage() {
           {!result.solved && <p>{t('daily.answer_was', { name: solutionEntity.names.de })}</p>}
           {xp !== null && <p className="mt-1 font-medium text-accent">+{xp} XP</p>}
           <div className="mt-3 flex items-center justify-center gap-2">
-            <Flag entity={target} size="sm" />
-            <Link to={entityPath(target)} className="underline">
-              {target.names.de} →
+            {isCountryPuzzle && <Flag entity={tgt} size="sm" />}
+            <Link to={entityPath(solutionEntity)} className="underline">
+              {solutionEntity.names.de} →
             </Link>
           </div>
           <div className="mt-4 grid gap-2">
@@ -213,7 +239,8 @@ function CapitaleHints({ country, capitalName, revealed }: { country: Country; c
 
 function HintRow({ puzzle, guess, target, solutionId }: { puzzle: PuzzleDef['id']; guess: Country; target: Country; solutionId: string }) {
   if (guess.id === solutionId) return <span className="text-ok">✓</span>
-  if (puzzle === 'capitale') return <span className="text-bad">✕</span>
+  if (puzzle === 'capitale' || puzzle === 'bildle') return <span className="text-bad">✕</span>
+  if (puzzle === 'kennzeichle') return <span title="Bundesland">{guess.attributes.region === target.attributes.region ? '🟩 gleiches Bundesland' : '⬜'} · {guess.attributes.code as string}</span>
   if (puzzle === 'flagle') {
     const same = guess.attributes.continent === target.attributes.continent
     return <span title="Kontinent">{same ? '🟩' : '⬜'} {guess.attributes.continent ? guess.attributes.continent : ''}</span>
@@ -238,8 +265,56 @@ function HintRow({ puzzle, guess, target, solutionId }: { puzzle: PuzzleDef['id'
 
 function rowEmoji(puzzle: PuzzleDef['id'], guess: Country, target: Country, solutionId: string): string {
   if (guess.id === solutionId) return '🟩🟩🟩🟩🟩 ✓'
-  if (puzzle === 'capitale') return '⬜'
+  if (puzzle === 'capitale' || puzzle === 'bildle') return '⬜'
+  if (puzzle === 'kennzeichle') return guess.attributes.region === target.attributes.region ? '🟩' : '⬜'
   if (puzzle === 'flagle') return guess.attributes.continent === target.attributes.continent ? '🟩' : '⬜'
   if (!guess.location || !target.location) return '⬜'
   return `${proximityEmoji(distanceKm(guess.location, target.location))} ${arrowFor(bearing(guess.location, target.location))}`
+}
+
+function BildleBoard({ landmark, revealed }: { landmark: Entity; revealed: number }) {
+  const photo = landmark.media?.find((m) => m.kind === 'photo')
+  // Stufenweise: stark gezoomt und unscharf → klar. Gleiche Stufen für alle Nutzer.
+  const scale = [3, 2.4, 1.9, 1.5, 1.2, 1, 1][Math.min(revealed, 6)]
+  const blur = [10, 7, 5, 3, 1.5, 0, 0][Math.min(revealed, 6)]
+  return (
+    <div className="aspect-[4/3] w-full max-w-md overflow-hidden rounded-xl border border-line bg-card-2">
+      {photo && (
+        <img
+          src={mediaUrl(photo.url)}
+          alt="Sehenswürdigkeit, teilweise verdeckt"
+          className="h-full w-full object-cover transition-all duration-500"
+          style={{ transform: `scale(${scale})`, filter: `blur(${blur}px)`, transformOrigin: '40% 45%' }}
+        />
+      )}
+    </div>
+  )
+}
+
+function KennzeichleBoard({ plate, revealed }: { plate: Entity; revealed: number }) {
+  const geo = useGeoData()
+  const { t } = useTranslation()
+  const code = plate.attributes.code as string
+  const region = plate.attributes.region ? geo.byId.get(plate.attributes.region as string) : undefined
+  const hints = [
+    `${t('daily.hint_length')}: ${code.length}`,
+    `${t('daily.hint_letter')}: ${code[0]}`,
+    region ? `Bundesland: ${region.names.de}` : '',
+    `${t('facts.population')}-Klasse: ${code.length === 1 ? 'Großstadt' : code.length === 2 ? 'Stadt / Kreis' : 'Landkreis'}`,
+    `Ort beginnt mit: ${plate.names.de[0]}`,
+  ].filter(Boolean)
+  return (
+    <div className="w-full">
+      <div className="mx-auto mb-3 flex w-fit items-center gap-2 rounded-lg border-2 border-ink bg-white px-4 py-2 font-mono text-3xl font-bold tracking-widest text-black">
+        <span className="rounded bg-blue-700 px-1 text-xs text-white">D</span>
+        {revealed >= 6 ? code : code.split('').map((ch, i) => (i < Math.max(0, revealed - 1) ? ch : '?')).join('')}
+      </div>
+      {region && revealed >= 1 && <div className="mx-auto mb-2 max-w-xs"><RegionMapView iso2="DE" highlight={region.id} /></div>}
+      <ul className="grid w-full gap-1 text-sm">
+        {hints.slice(0, Math.max(1, Math.min(revealed + 1, hints.length))).map((h, i) => (
+          <li key={i} className="rounded-lg bg-card-2 px-3 py-2">{h}</li>
+        ))}
+      </ul>
+    </div>
+  )
 }

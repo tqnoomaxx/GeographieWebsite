@@ -1,5 +1,13 @@
 {
  "plates": {
+  "AT": {
+   "file": "entities/license-plates/AT.json",
+   "count": 97
+  },
+  "CH": {
+   "file": "entities/license-plates/CH.json",
+   "count": 26
+  },
   "DE": {
    "file": "entities/license-plates/DE.json",
    "count": 588
@@ -61,6 +69,9 @@
   "countries": "entities/countries.json",
   "cities": "entities/cities.json",
   "landmarks": "entities/landmarks.json",
+  "rivers": "entities/rivers.json",
+  "lakes": "entities/lakes.json",
+  "mountains": "entities/mountains.json",
   "relationships": "relationships/index.json",
   "world": "geo/world.json",
   "continents": "meta/continents.json"
@@ -271,11 +282,15 @@
   "country": 254,
   "city": 458,
   "landmark": 78,
+  "river": 220,
+  "lake": 113,
+  "mountain": 201,
   "region": 817,
-  "license_plate": 588,
+  "license_plate": 711,
   "flags": 1071,
   "photos": 116,
-  "capitals": 245
+  "capitals": 245,
+  "water": 333
  },
  "continents": {
   "europe": 54,

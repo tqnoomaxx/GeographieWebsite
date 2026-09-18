@@ -31,6 +31,8 @@ export const ACHIEVEMENTS: AchievementDef[] = [
   { id: 'picture_pro_100', type: 'correct_answers', category: 'images', threshold: 100, icon: '📸' },
   { id: 'cartographer_50', type: 'correct_answers', category: 'maps', threshold: 50, icon: '🗺️' },
   { id: 'plate_expert_100', type: 'correct_answers', category: 'license_plates', threshold: 100, icon: '🚗' },
+  { id: 'water_wise_50', type: 'correct_answers', category: 'water', threshold: 50, icon: '🌊' },
+  { id: 'summit_50', type: 'correct_answers', category: 'nature', threshold: 50, icon: '🏔️' },
   { id: 'region_ranger_50', type: 'correct_answers', category: 'regions', threshold: 50, icon: '🧭' },
   { id: 'world_traveler', type: 'continents_played', threshold: 6, icon: '🌐' },
   { id: 'marathon_1', type: 'full_runs', threshold: 1, icon: '🏁' },

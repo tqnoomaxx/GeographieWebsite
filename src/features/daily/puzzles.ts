@@ -5,7 +5,7 @@ import { baseDifficulty } from '@/engine/difficulty'
 export const MAX_ATTEMPTS = 6
 
 export interface PuzzleDef {
-  id: 'flagle' | 'countryle' | 'outline' | 'capitale'
+  id: 'flagle' | 'countryle' | 'outline' | 'capitale' | 'bildle' | 'kennzeichle'
   icon: string
   available: boolean
 }
@@ -15,6 +15,8 @@ export const PUZZLES: PuzzleDef[] = [
   { id: 'countryle', icon: '🌍', available: true },
   { id: 'outline', icon: '🗺️', available: true },
   { id: 'capitale', icon: '🏛️', available: true },
+  { id: 'bildle', icon: '📸', available: true },
+  { id: 'kennzeichle', icon: '🚗', available: true },
 ]
 
 /** Wochentag steuert Schwierigkeit: Mo leicht … So schwer. */
@@ -81,6 +83,15 @@ export function compare(a: number | undefined, b: number | undefined): '▲' | '
 
 export function shareText(puzzle: string, date: string, rows: string[], solved: boolean, attempts: number): string {
   return `GeoKompass ${puzzle} ${date} · ${solved ? `${attempts}/${MAX_ATTEMPTS}` : `X/${MAX_ATTEMPTS}`}\n${rows.join('\n')}`
+}
+
+/** Tages-Entity aus einer beliebigen Liste (Bildle: Sehenswürdigkeiten, Kennzeichle: Kennzeichen). */
+export function pickDailyFrom(pool: Entity[], puzzle: string, date = todayKey(), practiceSeed?: string): Entity | undefined {
+  if (!pool.length) return undefined
+  const wanted = difficultyForDate(date)
+  const tier = pool.filter((e) => baseDifficulty(e) === wanted)
+  const rng = createRng(practiceSeed ? `${puzzle}:practice:${practiceSeed}` : `${puzzle}:${date}`)
+  return rng.pick(tier.length >= 10 ? tier : pool)
 }
 
 export function entityLabel(e: Entity) {

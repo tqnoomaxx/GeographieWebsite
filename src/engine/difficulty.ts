@@ -15,6 +15,10 @@ export function baseDifficulty(e: Entity): 1 | 2 | 3 {
   }
   if (e.type === 'city') return e.attributes.is_capital ? 2 : 3
   if (e.type === 'landmark') return 2
+  if (e.type === 'river' || e.type === 'lake' || e.type === 'mountain') {
+    const sl = (e.attributes.sitelinks as number) ?? 0
+    return sl > 120 ? 1 : sl > 70 ? 2 : 3
+  }
   if (e.type === 'license_plate') return (e.attributes.code as string).length === 1 ? 1 : (e.attributes.code as string).length === 2 ? 2 : 3
   return 2
 }

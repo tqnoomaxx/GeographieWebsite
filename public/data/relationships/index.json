@@ -13238,5 +13238,4030 @@
   "from": "country:ZW",
   "to": "country:ZM",
   "type": "neighbor_of"
+ },
+ {
+  "from": "river:Q3392",
+  "to": "country:SD",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3392",
+  "to": "country:ET",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3392",
+  "to": "country:SS",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3392",
+  "to": "country:EG",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3392",
+  "to": "country:RW",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3392",
+  "to": "country:BI",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3392",
+  "to": "country:UG",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3783",
+  "to": "country:BR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3783",
+  "to": "country:PE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3783",
+  "to": "country:CO",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1653",
+  "to": "country:RS",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1653",
+  "to": "country:AT",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1653",
+  "to": "country:BG",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1653",
+  "to": "country:DE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1653",
+  "to": "country:SK",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1653",
+  "to": "country:RO",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1653",
+  "to": "country:HU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1653",
+  "to": "country:MD",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1653",
+  "to": "country:HR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q584",
+  "to": "country:FR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q584",
+  "to": "country:CH",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q584",
+  "to": "country:AT",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q584",
+  "to": "country:NL",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q584",
+  "to": "country:LI",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q584",
+  "to": "country:DE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q626",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1497",
+  "to": "country:US",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q5089",
+  "to": "country:IN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3503",
+  "to": "country:CG",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3503",
+  "to": "country:AO",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3503",
+  "to": "country:CD",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3503",
+  "to": "country:ZM",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q5413",
+  "to": "country:CN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q7348",
+  "to": "country:CN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q7348",
+  "to": "country:PK",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q7348",
+  "to": "country:IN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3542",
+  "to": "country:ML",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3542",
+  "to": "country:BJ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3542",
+  "to": "country:GN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3542",
+  "to": "country:NE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3542",
+  "to": "country:NG",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q7355",
+  "to": "country:CN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q34589",
+  "to": "country:TR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q34589",
+  "to": "country:IQ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q34589",
+  "to": "country:SY",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1471",
+  "to": "country:FR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q35591",
+  "to": "country:TR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q35591",
+  "to": "country:IQ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q35591",
+  "to": "country:SY",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q19686",
+  "to": "country:GB",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q40855",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q40855",
+  "to": "country:BY",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q40855",
+  "to": "country:UA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q40059",
+  "to": "country:PS",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q40059",
+  "to": "country:LB",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q40059",
+  "to": "country:SY",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q40059",
+  "to": "country:JO",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q40059",
+  "to": "country:IL",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1644",
+  "to": "country:CZ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1644",
+  "to": "country:DE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q41179",
+  "to": "country:CN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q41179",
+  "to": "country:LA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q41179",
+  "to": "country:MM",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q41179",
+  "to": "country:TH",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q41179",
+  "to": "country:VN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q41179",
+  "to": "country:KH",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q548",
+  "to": "country:PL",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q6862",
+  "to": "country:CN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q6862",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q45403",
+  "to": "country:CN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q45403",
+  "to": "country:IN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q45403",
+  "to": "country:BD",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q45403",
+  "to": "country:NP",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q46841",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q973",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q80240",
+  "to": "country:KZ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q80240",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1229",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q5419",
+  "to": "country:US",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1469",
+  "to": "country:FR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q643",
+  "to": "country:IT",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q552",
+  "to": "country:CZ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q552",
+  "to": "country:DE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q552",
+  "to": "country:PL",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q602",
+  "to": "country:FR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q602",
+  "to": "country:CH",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q131210",
+  "to": "country:UA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q131210",
+  "to": "country:MD",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q78707",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q134750",
+  "to": "country:US",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q134750",
+  "to": "country:CA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q13712",
+  "to": "country:IT",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q8493",
+  "to": "country:AF",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q8493",
+  "to": "country:TJ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q8493",
+  "to": "country:TM",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q8493",
+  "to": "country:UZ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q131792",
+  "to": "country:VE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q131792",
+  "to": "country:CO",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q14294",
+  "to": "country:PT",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q14294",
+  "to": "country:ES",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1265",
+  "to": "country:US",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1265",
+  "to": "country:MX",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q132726",
+  "to": "country:IN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q645",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q128102",
+  "to": "country:KZ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q128102",
+  "to": "country:CN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q128102",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q882739",
+  "to": "country:SD",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q882739",
+  "to": "country:ET",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q41986",
+  "to": "country:FR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q41986",
+  "to": "country:BE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q41986",
+  "to": "country:NL",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q8197",
+  "to": "country:LV",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q8197",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q8197",
+  "to": "country:BY",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q483159",
+  "to": "country:KZ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q483159",
+  "to": "country:KG",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q483159",
+  "to": "country:TJ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q483159",
+  "to": "country:UZ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q104437",
+  "to": "country:US",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q104437",
+  "to": "country:CA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3140",
+  "to": "country:US",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q160636",
+  "to": "country:US",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q160636",
+  "to": "country:MX",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1670",
+  "to": "country:DE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q2251",
+  "to": "country:US",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q2251",
+  "to": "country:CA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q173017",
+  "to": "country:ZA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q173017",
+  "to": "country:MZ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q173017",
+  "to": "country:BW",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q173017",
+  "to": "country:ZW",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q10965",
+  "to": "country:ES",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q127892",
+  "to": "country:BR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q127892",
+  "to": "country:AR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q127892",
+  "to": "country:PY",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q4915",
+  "to": "country:US",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q4814791",
+  "to": "country:SD",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q4814791",
+  "to": "country:SS",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q4814791",
+  "to": "country:RW",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q4814791",
+  "to": "country:CD",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q4814791",
+  "to": "country:TZ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q4814791",
+  "to": "country:UG",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1667",
+  "to": "country:FR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1667",
+  "to": "country:DE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1667",
+  "to": "country:LU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q14299",
+  "to": "country:PT",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q14299",
+  "to": "country:ES",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q181475",
+  "to": "country:NA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q181475",
+  "to": "country:LS",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q181475",
+  "to": "country:ZA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q183078",
+  "to": "country:AU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q131574",
+  "to": "country:CZ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q134350",
+  "to": "country:RS",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q134350",
+  "to": "country:SK",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q134350",
+  "to": "country:RO",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q134350",
+  "to": "country:HU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q134350",
+  "to": "country:UA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q35827",
+  "to": "country:AR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q35827",
+  "to": "country:UY",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q191314",
+  "to": "country:IN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q175117",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3569",
+  "to": "country:SN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3569",
+  "to": "country:ML",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3569",
+  "to": "country:MR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q26076",
+  "to": "country:MM",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q162737",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q18278",
+  "to": "country:UY",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q18278",
+  "to": "country:BR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q18278",
+  "to": "country:AR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q79082",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q160819",
+  "to": "country:SN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q160819",
+  "to": "country:GN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q160819",
+  "to": "country:GM",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q5077",
+  "to": "country:FR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q5077",
+  "to": "country:ES",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q14383",
+  "to": "country:RS",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q14383",
+  "to": "country:SI",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q14383",
+  "to": "country:BA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q14383",
+  "to": "country:HR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q118771",
+  "to": "country:BR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q118771",
+  "to": "country:VE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q118771",
+  "to": "country:CO",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q172089",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q179396",
+  "to": "country:BR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q179396",
+  "to": "country:AR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q179396",
+  "to": "country:PY",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q193499",
+  "to": "country:IN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q8168",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q179751",
+  "to": "country:IR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q179751",
+  "to": "country:AM",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q179751",
+  "to": "country:TR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q179751",
+  "to": "country:AZ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q156557",
+  "to": "country:TR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q156557",
+  "to": "country:AZ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q156557",
+  "to": "country:GE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q3411",
+  "to": "country:CA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q5622",
+  "to": "country:LT",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q5622",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q5622",
+  "to": "country:BY",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q14309",
+  "to": "country:ES",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q14369",
+  "to": "country:CH",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q14369",
+  "to": "country:AT",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q14369",
+  "to": "country:DE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q37620",
+  "to": "country:BE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q37620",
+  "to": "country:NL",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q37620",
+  "to": "country:FR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q78879",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q118251",
+  "to": "country:BR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q118251",
+  "to": "country:BO",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q188773",
+  "to": "country:AO",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q188773",
+  "to": "country:BW",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q188773",
+  "to": "country:NA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q191829",
+  "to": "country:CO",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1673",
+  "to": "country:DE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q13696",
+  "to": "country:IT",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q166966",
+  "to": "country:IR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q166966",
+  "to": "country:IQ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q192415",
+  "to": "country:GH",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q192415",
+  "to": "country:BF",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q8187",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q171649",
+  "to": "country:CF",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q171649",
+  "to": "country:CG",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q171649",
+  "to": "country:CD",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q216875",
+  "to": "country:IN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q216875",
+  "to": "country:PK",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q118850",
+  "to": "country:TH",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q179444",
+  "to": "country:US",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1675",
+  "to": "country:CH",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1684",
+  "to": "country:DE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q26422",
+  "to": "country:CN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q26422",
+  "to": "country:MM",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q26422",
+  "to": "country:TH",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q93360",
+  "to": "country:CL",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q142148",
+  "to": "country:BR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q171009",
+  "to": "country:HU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q171009",
+  "to": "country:IT",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q171009",
+  "to": "country:AT",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q171009",
+  "to": "country:SI",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q171009",
+  "to": "country:HR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q201463",
+  "to": "country:CN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q8319",
+  "to": "country:US",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q82776",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q82776",
+  "to": "country:GE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q181482",
+  "to": "country:AU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q182445",
+  "to": "country:UA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q182445",
+  "to": "country:MD",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q182445",
+  "to": "country:RO",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q186541",
+  "to": "country:AO",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q186541",
+  "to": "country:CD",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1650",
+  "to": "country:DE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q19682",
+  "to": "country:GB",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q106588",
+  "to": "country:AT",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q106588",
+  "to": "country:DE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q156054",
+  "to": "country:BR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q171675",
+  "to": "country:CN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q171675",
+  "to": "country:IN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q171675",
+  "to": "country:PK",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q201823",
+  "to": "country:PL",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q204806",
+  "to": "country:CM",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q204806",
+  "to": "country:NG",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q82207",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q82308",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q191238",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q191238",
+  "to": "country:UA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q55498",
+  "to": "country:KP",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q55498",
+  "to": "country:CN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q257785",
+  "to": "country:TR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q172572",
+  "to": "country:IT",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q103148",
+  "to": "country:DE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q143762",
+  "to": "country:US",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q156237",
+  "to": "country:PL",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q156237",
+  "to": "country:BY",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q156237",
+  "to": "country:UA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q193737",
+  "to": "country:US",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q214874",
+  "to": "country:IN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q214874",
+  "to": "country:PK",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1664",
+  "to": "country:DE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1682",
+  "to": "country:DE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q14305",
+  "to": "country:ES",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q14305",
+  "to": "country:PT",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q157042",
+  "to": "country:BY",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q157042",
+  "to": "country:UA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q182343",
+  "to": "country:CA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q182343",
+  "to": "country:US",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q187834",
+  "to": "country:FR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q188940",
+  "to": "country:UA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q191524",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q191524",
+  "to": "country:KZ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q192567",
+  "to": "country:CN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q192567",
+  "to": "country:KZ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q192820",
+  "to": "country:IE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q203409",
+  "to": "country:GE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q55500",
+  "to": "country:KP",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q55500",
+  "to": "country:KR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q234004",
+  "to": "country:IN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q8510",
+  "to": "country:IR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q8510",
+  "to": "country:AF",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q26439",
+  "to": "country:CN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q26439",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q75745",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q75745",
+  "to": "country:MN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q179251",
+  "to": "country:AT",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q179251",
+  "to": "country:CZ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q179251",
+  "to": "country:SK",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q186901",
+  "to": "country:BA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q186901",
+  "to": "country:RS",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q2750140",
+  "to": "country:TZ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q2750140",
+  "to": "country:BI",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q2750140",
+  "to": "country:UG",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q2750140",
+  "to": "country:RW",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q189596",
+  "to": "country:GR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q189596",
+  "to": "country:MK",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q202796",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q202796",
+  "to": "country:UA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q41983",
+  "to": "country:FR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q135477",
+  "to": "country:TD",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q135477",
+  "to": "country:CF",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q135477",
+  "to": "country:CM",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q8515",
+  "to": "country:PK",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q8515",
+  "to": "country:AF",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q14366",
+  "to": "country:IT",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q14366",
+  "to": "country:CH",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q192157",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q204347",
+  "to": "country:GR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q204347",
+  "to": "country:TR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q204347",
+  "to": "country:BG",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q209031",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q209031",
+  "to": "country:EE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q209891",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q210326",
+  "to": "country:CN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q317899",
+  "to": "country:IN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q317899",
+  "to": "country:PK",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q559661",
+  "to": "country:CN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q190777",
+  "to": "country:HR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q190777",
+  "to": "country:BA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q192495",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q200174",
+  "to": "country:PE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q206850",
+  "to": "country:CN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q206850",
+  "to": "country:VN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q208174",
+  "to": "country:FR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1678",
+  "to": "country:DE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q19721",
+  "to": "country:GB",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q200952",
+  "to": "country:PE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q124653",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q124653",
+  "to": "country:KZ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q185405",
+  "to": "country:NL",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q188871",
+  "to": "country:TR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q188871",
+  "to": "country:LB",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q188871",
+  "to": "country:SY",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q63109",
+  "to": "country:IT",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q272074",
+  "to": "country:US",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q273456",
+  "to": "country:ET",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1648",
+  "to": "country:NL",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1648",
+  "to": "country:DE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q209530",
+  "to": "country:ZA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q461557",
+  "to": "country:IR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q8505",
+  "to": "country:IR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q8505",
+  "to": "country:TM",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q8505",
+  "to": "country:AF",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q19714",
+  "to": "country:GB",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q191832",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q206694",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q206694",
+  "to": "country:MN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q26390",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q26428",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q26433",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q320649",
+  "to": "country:AO",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q320649",
+  "to": "country:NA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q5602",
+  "to": "country:PL",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q5602",
+  "to": "country:DE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q5602",
+  "to": "country:CZ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q200231",
+  "to": "country:BE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q200231",
+  "to": "country:FR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q204040",
+  "to": "country:HU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q204040",
+  "to": "country:AT",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q204040",
+  "to": "country:SI",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q204040",
+  "to": "country:HR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q207777",
+  "to": "country:CN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q207777",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q207903",
+  "to": "country:LT",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q207903",
+  "to": "country:BY",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q213840",
+  "to": "country:AO",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q319590",
+  "to": "country:IN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q841359",
+  "to": "country:ID",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q8542",
+  "to": "country:TJ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q8542",
+  "to": "country:AF",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q210870",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q212795",
+  "to": "country:AZ",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q212795",
+  "to": "country:GE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q782845",
+  "to": "country:ET",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q849494",
+  "to": "country:IN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q849494",
+  "to": "country:NP",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q934455",
+  "to": "country:CD",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q4534",
+  "to": "country:CL",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q14554",
+  "to": "country:ES",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q14554",
+  "to": "country:PT",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q26271",
+  "to": "country:BR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q126822",
+  "to": "country:RO",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q171840",
+  "to": "country:BR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q171840",
+  "to": "country:CO",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q191087",
+  "to": "country:GR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q207366",
+  "to": "country:FR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q208009",
+  "to": "country:IE",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q208367",
+  "to": "country:BA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q216171",
+  "to": "country:NL",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q237901",
+  "to": "country:CN",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q318435",
+  "to": "country:CA",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q318435",
+  "to": "country:US",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q503262",
+  "to": "country:GB",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q1125242",
+  "to": "country:BD",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q78861",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q115456",
+  "to": "country:RU",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q201341",
+  "to": "country:FR",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q202598",
+  "to": "country:SK",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q208302",
+  "to": "country:RO",
+  "type": "flows_through"
+ },
+ {
+  "from": "river:Q27538",
+  "to": "country:US",
+  "type": "flows_through"
+ },
+ {
+  "from": "lake:Q5484",
+  "to": "country:IR",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q5484",
+  "to": "country:KZ",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q5484",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q5484",
+  "to": "country:AZ",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q5484",
+  "to": "country:TM",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q5513",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q5505",
+  "to": "country:UG",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q5505",
+  "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q5505",
+  "to": "country:KE",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q5511",
+  "to": "country:ZM",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q5511",
+  "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q5511",
+  "to": "country:CD",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q5511",
+  "to": "country:BI",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q35342",
+  "to": "country:BO",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q35342",
+  "to": "country:PE",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q1066",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q1066",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q1062",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q1062",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q1169",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q5532",
+  "to": "country:MW",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q5532",
+  "to": "country:MZ",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q5532",
+  "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q125309",
+  "to": "country:CM",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q125309",
+  "to": "country:NE",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q125309",
+  "to": "country:TD",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q125309",
+  "to": "country:NG",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q5492",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q5492",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q1383",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q1383",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q15288",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q6383",
+  "to": "country:HU",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q134485",
+  "to": "country:KZ",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q42191",
+  "to": "country:KG",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q125888",
+  "to": "country:CD",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q125888",
+  "to": "country:UG",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q6414",
+  "to": "country:IT",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q166162",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q125912",
+  "to": "country:RW",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q125912",
+  "to": "country:CD",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q14379",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q14379",
+  "to": "country:IT",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q173596",
+  "to": "country:SE",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q49650",
+  "to": "country:GB",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q173862",
+  "to": "country:NI",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q116685",
+  "to": "country:ET",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q192770",
+  "to": "country:FI",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q181932",
+  "to": "country:AM",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q125211",
+  "to": "country:CD",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q125211",
+  "to": "country:UG",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q3272",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q5525",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q182137",
+  "to": "country:VE",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q201294",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q179970",
+  "to": "country:AU",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q504433",
+  "to": "country:CD",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q504433",
+  "to": "country:ZM",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q19253",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q19253",
+  "to": "country:EE",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q207690",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q188195",
+  "to": "country:SE",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q14418",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q14418",
+  "to": "country:IT",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q184492",
+  "to": "country:SE",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q14407",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q156258",
+  "to": "country:AL",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q156258",
+  "to": "country:MK",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q199938",
+  "to": "country:KH",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q233627",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q203137",
+  "to": "country:FI",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q14381",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q188487",
+  "to": "country:IT",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q204392",
+  "to": "country:AL",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q204392",
+  "to": "country:GR",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q204392",
+  "to": "country:MK",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q502371",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q201843",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q201843",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q272463",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q4138",
+  "to": "country:DE",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q14375",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q203811",
+  "to": "country:AL",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q203811",
+  "to": "country:ME",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q648902",
+  "to": "country:SI",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q208926",
+  "to": "country:GB",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q216083",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q464945",
+  "to": "country:BO",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q203462",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q206942",
+  "to": "country:GB",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q329266",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q15648",
+  "to": "country:IT",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q140712",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q211516",
+  "to": "country:EE",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q272380",
+  "to": "country:NI",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q332628",
+  "to": "country:CM",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q651294",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q131615",
+  "to": "country:DE",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q156715",
+  "to": "country:DE",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q68467",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q68467",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q216621",
+  "to": "country:KZ",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q334761",
+  "to": "country:EE",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q845868",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q946194",
+  "to": "country:GE",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q1032254",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q1032254",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q212051",
+  "to": "country:IS",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q217109",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q257416",
+  "to": "country:UZ",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q257416",
+  "to": "country:TM",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q14429",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q212209",
+  "to": "country:NO",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q337",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q387256",
+  "to": "country:PL",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q158077",
+  "to": "country:GR",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q158077",
+  "to": "country:MK",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q213769",
+  "to": "country:FI",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q325391",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q673169",
+  "to": "country:ZM",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q750025",
+  "to": "country:CG",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q750025",
+  "to": "country:CD",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q753898",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q14426",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q211425",
+  "to": "country:SE",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q714023",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q714023",
+  "to": "country:KP",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q736707",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q736707",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q746975",
+  "to": "country:MW",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q3369",
+  "to": "country:DE",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q14442",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q537374",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q720015",
+  "to": "country:TJ",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q886946",
+  "to": "country:IS",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q335432",
+  "to": "country:IS",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q503842",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q503842",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q575679",
+  "to": "country:MG",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q611206",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q645901",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q790453",
+  "to": "country:KE",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q831903",
+  "to": "country:SI",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q1365115",
+  "to": "country:KE",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q13700",
+  "to": "country:MX",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q14448",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q202905",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q265336",
+  "to": "country:DE",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q498671",
+  "to": "country:AU",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q683100",
+  "to": "country:CD",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q14436",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "lake:Q63141",
+  "to": "country:IT",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q513",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q513",
+  "to": "country:NP",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q39231",
+  "to": "country:JP",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q524",
+  "to": "country:IT",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q583",
+  "to": "country:IT",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q583",
+  "to": "country:FR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q39739",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q43105",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q43512",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q72303",
+  "to": "country:TR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q80344",
+  "to": "country:GR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q725591",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q725591",
+  "to": "country:AZ",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q38954",
+  "to": "country:ES",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q82019",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q82019",
+  "to": "country:NP",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q130018",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q83497",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q1374",
+  "to": "country:IT",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q1374",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q229107",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q130736",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q165440",
+  "to": "country:NP",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q169986",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q169986",
+  "to": "country:NP",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q172070",
+  "to": "country:KE",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q130321",
+  "to": "country:GR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q131230",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q377485",
+  "to": "country:EG",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q168702",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q168702",
+  "to": "country:NP",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q178167",
+  "to": "country:AU",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q170089",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q170089",
+  "to": "country:NP",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q14081",
+  "to": "country:EC",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q170070",
+  "to": "country:NP",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q40758",
+  "to": "country:IR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q104674",
+  "to": "country:GB",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q105124",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q107635",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q107635",
+  "to": "country:KP",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q180996",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q180996",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q1045888",
+  "to": "country:ID",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q120306",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q3375",
+  "to": "country:AT",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q3375",
+  "to": "country:DE",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q168714",
+  "to": "country:ID",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q213360",
+  "to": "country:ZA",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q233836",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q233836",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q187138",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q187138",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q186853",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q186853",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q216059",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q60967",
+  "to": "country:MY",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q194057",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q1451",
+  "to": "country:PH",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q5059",
+  "to": "country:NZ",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q203568",
+  "to": "country:AM",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q1484",
+  "to": "country:PH",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q205976",
+  "to": "country:IL",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q105261",
+  "to": "country:GR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q181476",
+  "to": "country:EC",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q238147",
+  "to": "country:MX",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q1024",
+  "to": "country:SI",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q211529",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q211529",
+  "to": "country:KZ",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q211529",
+  "to": "country:KG",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q219986",
+  "to": "country:BT",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q194215",
+  "to": "country:FR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q207680",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q3388",
+  "to": "country:AT",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q76309",
+  "to": "country:FR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q184975",
+  "to": "country:IS",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q210252",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q207917",
+  "to": "country:TR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q216894",
+  "to": "country:SA",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q235539",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q190562",
+  "to": "country:CM",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q213262",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q207132",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q207323",
+  "to": "country:IT",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q627508",
+  "to": "country:UA",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q4777",
+  "to": "country:BR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q4777",
+  "to": "country:VE",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q4777",
+  "to": "country:GY",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q158470",
+  "to": "country:ID",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q4425",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q193785",
+  "to": "country:IL",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q617511",
+  "to": "country:PL",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q617511",
+  "to": "country:CZ",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q210722",
+  "to": "country:BR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q214696",
+  "to": "country:CD",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q231620",
+  "to": "country:MX",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q271700",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q271700",
+  "to": "country:AF",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q672936",
+  "to": "country:PL",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q672936",
+  "to": "country:SK",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q81213",
+  "to": "country:SK",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q214011",
+  "to": "country:SE",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q214916",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q214916",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q15312",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q204821",
+  "to": "country:FR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q209341",
+  "to": "country:BG",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q332762",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q332762",
+  "to": "country:KG",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q455963",
+  "to": "country:PH",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q41413",
+  "to": "country:TJ",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q60789",
+  "to": "country:LK",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q134927",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q217457",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q217457",
+  "to": "country:GE",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q695221",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q158526",
+  "to": "country:SM",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q233351",
+  "to": "country:CO",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q503433",
+  "to": "country:MA",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q203942",
+  "to": "country:NO",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q207284",
+  "to": "country:NZ",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q208081",
+  "to": "country:ES",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q209528",
+  "to": "country:ES",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q500275",
+  "to": "country:TW",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q724367",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q818475",
+  "to": "country:PH",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q306201",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q182913",
+  "to": "country:IS",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q209064",
+  "to": "country:FR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q217142",
+  "to": "country:GB",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q3403",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q120314",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q126804",
+  "to": "country:TR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q200935",
+  "to": "country:PE",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q206161",
+  "to": "country:IL",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q272593",
+  "to": "country:BO",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q312818",
+  "to": "country:IL",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q312818",
+  "to": "country:PS",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q476313",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q859376",
+  "to": "country:GT",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q201914",
+  "to": "country:IS",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q746524",
+  "to": "country:RO",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q912579",
+  "to": "country:MK",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q912579",
+  "to": "country:AL",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q16525",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q207421",
+  "to": "country:EC",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q275435",
+  "to": "country:ET",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q499019",
+  "to": "country:SD",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q503368",
+  "to": "country:IE",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q506938",
+  "to": "country:BR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q622616",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q746787",
+  "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q1315012",
+  "to": "country:IS",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q1514176",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q4168",
+  "to": "country:DE",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q16648",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q213704",
+  "to": "country:VE",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q679590",
+  "to": "country:ID",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q732115",
+  "to": "country:ES",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q838587",
+  "to": "country:KG",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q838587",
+  "to": "country:TJ",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q847323",
+  "to": "country:ID",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q873358",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q235062",
+  "to": "country:CO",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q750190",
+  "to": "country:KG",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q791652",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q814113",
+  "to": "country:NO",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q825347",
+  "to": "country:MX",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q1010335",
+  "to": "country:MN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q15265",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q695846",
+  "to": "country:CD",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q123782",
+  "to": "country:VN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q215138",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q215138",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q309098",
+  "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q378943",
+  "to": "country:BG",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q686841",
+  "to": "country:AT",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q732838",
+  "to": "country:KE",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q732838",
+  "to": "country:UG",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q15117",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q154372",
+  "to": "country:IT",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q215662",
+  "to": "country:ES",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q239485",
+  "to": "country:LA",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q275662",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q312930",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q312930",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q680161",
+  "to": "country:JO",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q739484",
+  "to": "country:BR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q739484",
+  "to": "country:VE",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q748355",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q770496",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q770496",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q819979",
+  "to": "country:CY",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q1137644",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q1137644",
+  "to": "country:NP",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q1142817",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q1288751",
+  "to": "country:PS",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q1372",
+  "to": "country:IT",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q215516",
+  "to": "country:GR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q255010",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q255010",
+  "to": "country:BO",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q404728",
+  "to": "country:FR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q582128",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q582128",
+  "to": "country:NP",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q630579",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q641588",
+  "to": "country:CR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q737859",
+  "to": "country:CD",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q737859",
+  "to": "country:RW",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q839630",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q928681",
+  "to": "country:PT",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q1032440",
+  "to": "country:AL",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q1754806",
+  "to": "country:JP",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q15127",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q15132",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q83659",
+  "to": "country:GR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q148521",
+  "to": "country:BO",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q155721",
+  "to": "country:DE",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q277441",
+  "to": "country:PG",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q451697",
+  "to": "country:NP",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q495501",
+  "to": "country:KP",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q540520",
+  "to": "country:IL",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q578862",
+  "to": "country:CO",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q646398",
+  "to": "country:CN",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q822326",
+  "to": "country:DZ",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q870063",
+  "to": "country:MM",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q48877",
+  "to": "country:RU",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q62467",
+  "to": "country:AD",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q211665",
+  "to": "country:IS",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q322824",
+  "to": "country:BE",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q586212",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q594387",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q692922",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q825709",
+  "to": "country:GL",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q933778",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q1018862",
+  "to": "country:IS",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q14052",
+  "to": "country:EC",
+  "type": "located_in"
+ },
+ {
+  "from": "mountain:Q15122",
+  "to": "country:CH",
+  "type": "located_in"
  }
 ]

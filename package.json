@@ -15,10 +15,11 @@
     "data:countries": "node scripts/import-countries.mjs",
     "data:wikidata": "node scripts/import-wikidata.mjs",
     "data:validate": "node scripts/validate-data.mjs",
-    "data:all": "npm run data:countries && npm run data:legacy && npm run data:wikidata && npm run data:plates && npm run data:validate",
+    "data:all": "npm run data:countries && npm run data:legacy && npm run data:wikidata && npm run data:plates && npm run data:nature && npm run data:validate",
     "deploy": "npm run build && gh-pages -d dist -t true",
     "e2e": "playwright test",
-    "data:plates": "node scripts/import-plates.mjs"
+    "data:plates": "node scripts/import-plates.mjs DE && node scripts/import-plates.mjs AT && node scripts/import-plates.mjs CH",
+    "data:nature": "node scripts/import-nature.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.116.0",

@@ -28,6 +28,8 @@ export default function ProgressPage() {
     { key: 'regions', icon: '🧭', total: geo.index?.counts.region ?? 0, known: known((id) => id.startsWith('region:')) },
     { key: 'cities', icon: '🏙️', total: geo.index?.counts.city ?? 0, known: known((id) => id.startsWith('city:')) },
     { key: 'landmarks', icon: '🏛️', total: geo.index?.counts.landmark ?? 0, known: known((id) => id.startsWith('landmark:')) },
+    { key: 'water', icon: '🌊', total: geo.index?.counts.water ?? 0, known: known((id) => id.startsWith('river:') || id.startsWith('lake:')) },
+    { key: 'nature', icon: '🏔️', total: geo.index?.counts.mountain ?? 0, known: known((id) => id.startsWith('mountain:')) },
     { key: 'license_plates', icon: '🚗', total: geo.index?.counts.license_plate ?? 0, known: known((id) => id.startsWith('license_plate:')) },
   ].filter((w) => w.total > 0)
   const unlockedSet = new Map((unlocked ?? []).map((a) => [a.id, a.unlockedAt]))

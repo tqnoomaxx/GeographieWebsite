@@ -25,7 +25,8 @@ Weitere Skripte:
 | `npm run data:countries` | Länderstammdaten (mledoze/countries) + Umrisse (Natural Earth) |
 | `npm run data:legacy` | Flaggen, Regionen, Städte, Sehenswürdigkeiten aus dem Altbestand `ugbzspiele` |
 | `npm run data:wikidata` | Einwohnerzahlen, höchste Punkte (Wikidata) |
-| `npm run data:plates` | Deutsche Kfz-Kennzeichen (Wikidata P395) |
+| `npm run data:plates` | Kfz-Kennzeichen DE/AT/CH (Wikidata P395) |
+| `npm run data:nature` | Flüsse, Seen, Berge (Wikidata, nach Bekanntheit) |
 | `npm run data:validate` | Validierung, Index, Suchindex, Attribution; bricht bei Fehlern ab |
 | `npm test` | Engine-Tests |
 | `npm run e2e` | Playwright-Smoke-Tests gegen den Build |

@@ -19,6 +19,8 @@ export const QUESTS: QuestDef[] = [
   { id: 'maps_3', type: 'answer_questions', category: 'maps', target: 3, reward_xp: 40, kind: 'short' },
   { id: 'images_5', type: 'answer_questions', category: 'images', target: 5, reward_xp: 40, kind: 'short' },
   { id: 'plates_10', type: 'answer_questions', category: 'license_plates', target: 10, reward_xp: 50, kind: 'short' },
+  { id: 'water_5', type: 'answer_questions', category: 'water', target: 5, reward_xp: 40, kind: 'short' },
+  { id: 'nature_5', type: 'answer_questions', category: 'nature', target: 5, reward_xp: 40, kind: 'short' },
   { id: 'learn_10', type: 'learn_entities', target: 10, reward_xp: 40, kind: 'short' },
   { id: 'sessions_3', type: 'complete_sessions', target: 3, reward_xp: 60, kind: 'short' },
   { id: 'europe_expedition', type: 'learn_entities', scope: 'europe', target: 50, reward_xp: 300, kind: 'long' },

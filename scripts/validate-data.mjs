@@ -14,6 +14,9 @@ const files = {
   countries: 'entities/countries.json',
   cities: 'entities/cities.json',
   landmarks: 'entities/landmarks.json',
+  rivers: 'entities/rivers.json',
+  lakes: 'entities/lakes.json',
+  mountains: 'entities/mountains.json',
 }
 const regionFiles = listDir(join(DATA, 'entities', 'regions')).filter((f) => f.endsWith('.json'))
 const plateFiles = listDir(join(DATA, 'entities', 'license-plates')).filter((f) => f.endsWith('.json'))
@@ -21,13 +24,16 @@ const entities = new Map()
 const byType = {}
 function load(rel) {
   const p = join(DATA, rel)
-  if (!existsSync(p)) return err(`fehlt: ${rel}`), []
+  if (!existsSync(p)) return /rivers|lakes|mountains/.test(rel) ? [] : (err(`fehlt: ${rel}`), [])
   return readJson(p)
 }
 const all = [
   ...load(files.countries),
   ...load(files.cities),
   ...load(files.landmarks),
+  ...load(files.rivers),
+  ...load(files.lakes),
+  ...load(files.mountains),
   ...regionFiles.flatMap((f) => load(`entities/regions/${f}`)),
   ...plateFiles.flatMap((f) => load(`entities/license-plates/${f}`)),
 ]
@@ -55,6 +61,7 @@ for (const e of all) {
   byType[e.type] = (byType[e.type] ?? 0) + 1
 }
 for (const e of all) {
+  for (const c of e.attributes?.countries ?? []) if (!entities.has(c)) err(`${e.id}: countries → ${c} existiert nicht`)
   for (const key of ['country', 'region', 'capital']) {
     const ref = e.attributes?.[key]
     if (ref && !entities.has(ref)) err(`${e.id}: attributes.${key} → ${ref} existiert nicht`)
@@ -81,7 +88,7 @@ const quality = {
   countries_without_capital: missing('capital'),
   countries_without_area: missing('area_km2'),
   countries_without_outline: countries.filter((c) => !c.geometry).map((c) => c.id),
-  entities_without_media: all.filter((e) => !(e.media?.length) && e.type !== 'city').map((e) => e.id),
+  entities_without_media: all.filter((e) => !(e.media?.length) && ['country', 'region', 'landmark'].includes(e.type)).map((e) => e.id),
   conflicts: all.filter((e) => e.provenance?.conflicts?.length).map((e) => ({ id: e.id, conflicts: e.provenance.conflicts })),
   warnings,
 }
@@ -122,6 +129,7 @@ const index = {
     flags: flagsCount,
     photos: photosCount,
     capitals: countries.filter((c) => c.attributes.capital).length,
+    water: (byType.river ?? 0) + (byType.lake ?? 0),
   },
   continents: Object.fromEntries(
     Object.keys(readJson(join(DATA, 'meta', 'continents.json'))).map((k) => [k, countries.filter((c) => c.attributes.continent === k).length]),
@@ -135,7 +143,7 @@ writeJson(join(DATA, 'search.json'), search)
 
 // Version aus Inhalt
 const hash = createHash('sha1')
-for (const f of ['entities/countries.json', 'entities/cities.json', 'entities/landmarks.json', 'relationships/index.json', ...regionFiles.map((f) => `entities/regions/${f}`), ...plateFiles.map((f) => `entities/license-plates/${f}`)])
+for (const f of ['entities/countries.json', 'entities/cities.json', 'entities/landmarks.json', 'entities/rivers.json', 'entities/lakes.json', 'entities/mountains.json', 'relationships/index.json', ...regionFiles.map((f) => `entities/regions/${f}`), ...plateFiles.map((f) => `entities/license-plates/${f}`)])
   if (existsSync(join(DATA, f))) hash.update(readFileSync(join(DATA, f)))
 const version = { schema_version: 1, data_version: hash.digest('hex').slice(0, 12), generated_at: new Date().toISOString() }
 const prev = existsSync(join(DATA, 'version.json')) ? readJson(join(DATA, 'version.json')) : null

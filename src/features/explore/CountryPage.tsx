@@ -28,6 +28,9 @@ export default function CountryPage() {
   const a = country.attributes
   const cities = geo.cities.filter((c) => c.attributes.country === country.id)
   const landmarks = geo.landmarks.filter((l) => l.attributes.country === country.id)
+  const inCountry = (e: Entity) => ((e.attributes.countries as string[]) ?? []).includes(country.id)
+  const waters = [...geo.rivers, ...geo.lakes].filter(inCountry)
+  const mountains = geo.mountains.filter(inCountry)
   const neighbors = (a.borders ?? []).map((b) => geo.byId.get(b)).filter((x): x is Entity => !!x)
   const flag = country.media?.find((m) => m.kind === 'flag')
   return (
@@ -104,6 +107,24 @@ export default function CountryPage() {
                   {c.attributes.is_capital ? '★ ' : ''}{c.names.de}
                 </Link>
               </li>
+            ))}
+          </ul>
+        </Section>
+      )}
+      {waters.length > 0 && (
+        <Section title={t('explore.water_of', { name: country.names.de })} action={<Link to={`/play/water/round?scope=${country.id}&len=10`} className="btn-secondary py-2 text-sm">🎯 {t('category.water')}</Link>}>
+          <ul className="flex flex-wrap gap-2">
+            {waters.map((w) => (
+              <li key={w.id}><Link to={entityPath(w)} className="chip">{w.type === 'river' ? '🌊' : '💧'} {w.names.de}</Link></li>
+            ))}
+          </ul>
+        </Section>
+      )}
+      {mountains.length > 0 && (
+        <Section title={t('explore.nature_of', { name: country.names.de })} action={<Link to={`/play/nature/round?scope=${country.id}&len=10`} className="btn-secondary py-2 text-sm">🎯 {t('category.nature')}</Link>}>
+          <ul className="flex flex-wrap gap-2">
+            {mountains.map((m) => (
+              <li key={m.id}><Link to={entityPath(m)} className="chip">{m.attributes.kind === 'volcano' ? '🌋' : '🏔️'} {m.names.de}{typeof m.attributes.elevation_m === 'number' && <span className="ml-1 text-xs text-ink-2">{m.attributes.elevation_m.toLocaleString('de-DE')} m</span>}</Link></li>
             ))}
           </ul>
         </Section>

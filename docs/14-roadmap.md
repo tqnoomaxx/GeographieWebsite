@@ -59,8 +59,8 @@ Eigene Domain, Supabase produktiv, Accounts, öffentliche Profile, Admin-Bereich
 | A | ✅ | Flaggen, Länder, Hauptstädte, Gemischt, Rundenlänge 10/20/50/Alle mit Fortsetzen, Lernen, XP/Level, Dark Mode, PWA, i18n (de), Flagle + Countryle |
 | B | ✅ (lokal) | Profil, Meine Welt, Achievements, Quests, Favoriten, Statistiken, Fehlerwiederholung, SRS, Streaks, Hauptstädtle, Datenexport/-import. Account-Anbindung vorbereitet (`supabase/`, `SupabaseRepository`), nicht produktiv |
 | C | ✅ | Regionen (817 in 50 Ländern), Städte (458), Kartenfragen (Welt via d3-geo, Regionen via Legacy-Geometrien), Umrissle, Regions-/Stadtseiten, Suche |
-| D | ✅ (Startbestand) | Sehenswürdigkeiten (78) und Bilderquiz aus dem Altbestand, Lizenz-Gate im Build, generierte Quellen-Seite. Gewässer/Berge: Datenmodell vorbereitet, noch keine Daten (Wikidata-Importer folgt) |
-| E | ✅ (DE) | 588 deutsche Kennzeichen aus Wikidata (P395/P440), drei Fragetypen, Bereichsfilter Deutschland. International: Schema fertig, Daten folgen. Bildle/Kennzeichle noch offen |
+| D | ✅ | Sehenswürdigkeiten (78) und Bilderquiz aus dem Altbestand, Lizenz-Gate im Build, generierte Quellen-Seite. Gewässer: 220 Flüsse, 113 Seen; Natur: 201 Berge/Vulkane aus Wikidata (Auswahl nach Bekanntheit), Mehrländer-Zuordnung, Vergleichs- und Kartenfragen, Listen und Detailseiten. Bildle als Tagesrätsel |
+| E | ✅ | 588 deutsche, 97 österreichische, 26 Schweizer Kennzeichen aus Wikidata (P395), drei Fragetypen, Bereichsfilter pro Land, Kennzeichle als Tagesrätsel |
 | F | 🟡 vorbereitet | Supabase-Schema + RLS + Edge Functions (submit-session, delete-account, feedback) im Repo; Datenqualitäts-Dashboard unter `/admin` (lokal); GitHub-Pages-Deploy und monatliches Daten-Update als Actions. Offen: Domain, Supabase-Projekt anlegen, Auth-UI, Rechtstexte final |
 
 ## Abhängigkeiten

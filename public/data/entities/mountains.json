@@ -1,0 +1,6444 @@
+[
+ {
+  "id": "mountain:Q513",
+  "type": "mountain",
+  "names": {
+   "de": "Mount Everest",
+   "en": "Mount Everest"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 27.988055555556,
+   "lon": 86.925
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:NP"
+   ],
+   "continent": "asia",
+   "elevation_m": 8850,
+   "sitelinks": 237,
+   "kind": "mountain",
+   "wikidata": "Q513"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q513",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q39231",
+  "type": "mountain",
+  "names": {
+   "de": "Fuji",
+   "en": "Mount Fuji"
+  },
+  "aliases": [
+   "Mount Fuji"
+  ],
+  "location": {
+   "lat": 35.360555555556,
+   "lon": 138.7275
+  },
+  "attributes": {
+   "country": "country:JP",
+   "countries": [
+    "country:JP"
+   ],
+   "continent": "asia",
+   "elevation_m": 3777.2,
+   "sitelinks": 146,
+   "kind": "mountain",
+   "wikidata": "Q39231"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q39231",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q524",
+  "type": "mountain",
+  "names": {
+   "de": "Vesuv",
+   "en": "Mount Vesuvius"
+  },
+  "aliases": [
+   "Mount Vesuvius"
+  ],
+  "location": {
+   "lat": 40.82261,
+   "lon": 14.42919
+  },
+  "attributes": {
+   "country": "country:IT",
+   "countries": [
+    "country:IT"
+   ],
+   "continent": "europe",
+   "elevation_m": 1297,
+   "sitelinks": 135,
+   "kind": "mountain",
+   "wikidata": "Q524"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q524",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q583",
+  "type": "mountain",
+  "names": {
+   "de": "Mont Blanc",
+   "en": "Mont Blanc"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 45.832777777778,
+   "lon": 6.865
+  },
+  "attributes": {
+   "countries": [
+    "country:IT",
+    "country:FR"
+   ],
+   "continent": "europe",
+   "elevation_m": 4810,
+   "sitelinks": 127,
+   "kind": "mountain",
+   "wikidata": "Q583"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q583",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q39739",
+  "type": "mountain",
+  "names": {
+   "de": "Aconcagua",
+   "en": "Aconcagua"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -32.653055555556,
+   "lon": -70.011666666667
+  },
+  "attributes": {
+   "country": "country:AR",
+   "countries": [
+    "country:AR"
+   ],
+   "continent": "south-america",
+   "elevation_m": 6962,
+   "sitelinks": 113,
+   "kind": "mountain",
+   "wikidata": "Q39739"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q39739",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q43105",
+  "type": "mountain",
+  "names": {
+   "de": "Elbrus",
+   "en": "Mount Elbrus"
+  },
+  "aliases": [
+   "Mount Elbrus"
+  ],
+  "location": {
+   "lat": 43.35254,
+   "lon": 42.437875
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "elevation_m": 5642,
+   "sitelinks": 113,
+   "kind": "mountain",
+   "wikidata": "Q43105"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q43105",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q43512",
+  "type": "mountain",
+  "names": {
+   "de": "K2",
+   "en": "K2"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 35.881111111111,
+   "lon": 76.513333333333
+  },
+  "attributes": {
+   "country": "country:PK",
+   "countries": [
+    "country:PK"
+   ],
+   "continent": "asia",
+   "elevation_m": 8611,
+   "sitelinks": 112,
+   "kind": "mountain",
+   "wikidata": "Q43512"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q43512",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q72303",
+  "type": "mountain",
+  "names": {
+   "de": "Ararat",
+   "en": "Mount Ararat"
+  },
+  "aliases": [
+   "Mount Ararat"
+  ],
+  "location": {
+   "lat": 39.701944444444,
+   "lon": 44.298333333333
+  },
+  "attributes": {
+   "country": "country:TR",
+   "countries": [
+    "country:TR"
+   ],
+   "continent": "asia",
+   "elevation_m": 5137,
+   "sitelinks": 111,
+   "kind": "mountain",
+   "wikidata": "Q72303"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q72303",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q80344",
+  "type": "mountain",
+  "names": {
+   "de": "Berg Olymp",
+   "en": "Mount Olympus"
+  },
+  "aliases": [
+   "Mount Olympus"
+  ],
+  "location": {
+   "lat": 40.083333333333,
+   "lon": 22.35
+  },
+  "attributes": {
+   "country": "country:GR",
+   "countries": [
+    "country:GR"
+   ],
+   "continent": "europe",
+   "elevation_m": 2917.7,
+   "sitelinks": 109,
+   "kind": "mountain",
+   "wikidata": "Q80344"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q80344",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q725591",
+  "type": "mountain",
+  "names": {
+   "de": "Bazardüzü",
+   "en": "Mount Bazardüzü"
+  },
+  "aliases": [
+   "Mount Bazardüzü"
+  ],
+  "location": {
+   "lat": 41.2204928,
+   "lon": 47.8583417
+  },
+  "attributes": {
+   "countries": [
+    "country:RU",
+    "country:AZ"
+   ],
+   "continent": "europe",
+   "elevation_m": 4466,
+   "sitelinks": 107,
+   "kind": "mountain",
+   "wikidata": "Q725591"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q725591",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q38954",
+  "type": "mountain",
+  "names": {
+   "de": "Teide",
+   "en": "Teide"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 28.272638888889,
+   "lon": -16.643611111111
+  },
+  "attributes": {
+   "country": "country:ES",
+   "countries": [
+    "country:ES"
+   ],
+   "continent": "europe",
+   "elevation_m": 3715,
+   "sitelinks": 105,
+   "kind": "volcano",
+   "wikidata": "Q38954"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q38954",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q82019",
+  "type": "mountain",
+  "names": {
+   "de": "Kangchendzönga",
+   "en": "Kanchenjunga"
+  },
+  "aliases": [
+   "Kanchenjunga"
+  ],
+  "location": {
+   "lat": 27.703003055556,
+   "lon": 88.147353055556
+  },
+  "attributes": {
+   "countries": [
+    "country:IN",
+    "country:NP"
+   ],
+   "continent": "asia",
+   "elevation_m": 8586,
+   "sitelinks": 102,
+   "kind": "mountain",
+   "wikidata": "Q82019"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q82019",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q130018",
+  "type": "mountain",
+  "names": {
+   "de": "Denali"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 63.069166666667,
+   "lon": -151.00638888889
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "elevation_m": 6190,
+   "sitelinks": 100,
+   "kind": "mountain",
+   "wikidata": "Q130018"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q130018",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q83497",
+  "type": "mountain",
+  "names": {
+   "de": "Mount Rushmore",
+   "en": "Mount Rushmore"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 43.878888888889,
+   "lon": -103.45916666667
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "elevation_m": 1745,
+   "sitelinks": 96,
+   "kind": "mountain",
+   "wikidata": "Q83497"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q83497",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q1374",
+  "type": "mountain",
+  "names": {
+   "de": "Matterhorn",
+   "en": "Matterhorn"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 45.976388888889,
+   "lon": 7.6586111111111
+  },
+  "attributes": {
+   "countries": [
+    "country:IT",
+    "country:CH"
+   ],
+   "continent": "europe",
+   "elevation_m": 4477.5,
+   "sitelinks": 92,
+   "kind": "mountain",
+   "wikidata": "Q1374"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1374",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q229107",
+  "type": "mountain",
+  "names": {
+   "de": "Kailash",
+   "en": "Mount Kailash"
+  },
+  "aliases": [
+   "Mount Kailash"
+  ],
+  "location": {
+   "lat": 31.066944444444,
+   "lon": 81.312777777778
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "elevation_m": 6638,
+   "sitelinks": 91,
+   "kind": "mountain",
+   "wikidata": "Q229107"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q229107",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q130736",
+  "type": "mountain",
+  "names": {
+   "de": "Nanga Parbat",
+   "en": "Nanga Parbat"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 35.239166666667,
+   "lon": 74.59
+  },
+  "attributes": {
+   "country": "country:PK",
+   "countries": [
+    "country:PK"
+   ],
+   "continent": "asia",
+   "elevation_m": 8126,
+   "sitelinks": 90,
+   "kind": "mountain",
+   "wikidata": "Q130736"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q130736",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q165440",
+  "type": "mountain",
+  "names": {
+   "de": "Dhaulagiri",
+   "en": "Dhaulagiri"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 28.696666666667,
+   "lon": 83.49
+  },
+  "attributes": {
+   "country": "country:NP",
+   "countries": [
+    "country:NP"
+   ],
+   "continent": "asia",
+   "elevation_m": 8167,
+   "sitelinks": 90,
+   "kind": "mountain",
+   "wikidata": "Q165440"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q165440",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q169986",
+  "type": "mountain",
+  "names": {
+   "de": "Makalu",
+   "en": "Makalu"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 27.889166666667,
+   "lon": 87.088611111111
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:NP"
+   ],
+   "continent": "asia",
+   "elevation_m": 8485,
+   "sitelinks": 89,
+   "kind": "mountain",
+   "wikidata": "Q169986"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q169986",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q172070",
+  "type": "mountain",
+  "names": {
+   "de": "Mount-Kenya-Massiv",
+   "en": "Mount Kenya"
+  },
+  "aliases": [
+   "Mount Kenya"
+  ],
+  "location": {
+   "lat": -0.1,
+   "lon": 37.2
+  },
+  "attributes": {
+   "country": "country:KE",
+   "countries": [
+    "country:KE"
+   ],
+   "continent": "africa",
+   "elevation_m": 5199,
+   "sitelinks": 89,
+   "kind": "mountain",
+   "wikidata": "Q172070"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q172070",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q130321",
+  "type": "mountain",
+  "names": {
+   "de": "Athos",
+   "en": "Mount Athos"
+  },
+  "aliases": [
+   "Mount Athos"
+  ],
+  "location": {
+   "lat": 40.158333333333,
+   "lon": 24.327222222222
+  },
+  "attributes": {
+   "country": "country:GR",
+   "countries": [
+    "country:GR"
+   ],
+   "continent": "europe",
+   "elevation_m": 2033,
+   "sitelinks": 87,
+   "kind": "mountain",
+   "wikidata": "Q130321"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q130321",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q131230",
+  "type": "mountain",
+  "names": {
+   "de": "Mauna Kea",
+   "en": "Mauna Kea"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 19.820555555556,
+   "lon": -155.46805555556
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "elevation_m": 4207.3,
+   "sitelinks": 87,
+   "kind": "mountain",
+   "wikidata": "Q131230"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q131230",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q377485",
+  "type": "mountain",
+  "names": {
+   "de": "Sinai",
+   "en": "Mount Sinai"
+  },
+  "aliases": [
+   "Mount Sinai"
+  ],
+  "location": {
+   "lat": 28.5384,
+   "lon": 33.9752
+  },
+  "attributes": {
+   "country": "country:EG",
+   "countries": [
+    "country:EG"
+   ],
+   "continent": "africa",
+   "elevation_m": 2287,
+   "sitelinks": 87,
+   "kind": "mountain",
+   "wikidata": "Q377485"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q377485",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q168702",
+  "type": "mountain",
+  "names": {
+   "de": "Lhotse",
+   "en": "Lhotse"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 27.961666666667,
+   "lon": 86.933333333333
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:NP"
+   ],
+   "continent": "asia",
+   "elevation_m": 8516,
+   "sitelinks": 86,
+   "kind": "mountain",
+   "wikidata": "Q168702"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q168702",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q178167",
+  "type": "mountain",
+  "names": {
+   "de": "Mount Kosciuszko",
+   "en": "Mount Kosciuszko"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -36.4558303,
+   "lon": 148.2635105
+  },
+  "attributes": {
+   "country": "country:AU",
+   "countries": [
+    "country:AU"
+   ],
+   "continent": "oceania",
+   "elevation_m": 2228,
+   "sitelinks": 86,
+   "kind": "mountain",
+   "wikidata": "Q178167"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q178167",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q170089",
+  "type": "mountain",
+  "names": {
+   "de": "Cho Oyu",
+   "en": "Cho Oyu"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 28.094166666667,
+   "lon": 86.660833333333
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:NP"
+   ],
+   "continent": "asia",
+   "elevation_m": 8188,
+   "sitelinks": 84,
+   "kind": "mountain",
+   "wikidata": "Q170089"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q170089",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q14081",
+  "type": "mountain",
+  "names": {
+   "de": "Chimborazo",
+   "en": "Chimborazo"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -1.4691666666667,
+   "lon": -78.8175
+  },
+  "attributes": {
+   "country": "country:EC",
+   "countries": [
+    "country:EC"
+   ],
+   "continent": "south-america",
+   "elevation_m": 6263.5,
+   "sitelinks": 84,
+   "kind": "mountain",
+   "wikidata": "Q14081"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q14081",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q170070",
+  "type": "mountain",
+  "names": {
+   "de": "Manaslu",
+   "en": "Manaslu"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 28.55,
+   "lon": 84.559722222222
+  },
+  "attributes": {
+   "country": "country:NP",
+   "countries": [
+    "country:NP"
+   ],
+   "continent": "asia",
+   "elevation_m": 8163,
+   "sitelinks": 82,
+   "kind": "mountain",
+   "wikidata": "Q170070"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q170070",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q40758",
+  "type": "mountain",
+  "names": {
+   "de": "Damavand",
+   "en": "Damavand"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 35.955277777778,
+   "lon": 52.109166666667
+  },
+  "attributes": {
+   "country": "country:IR",
+   "countries": [
+    "country:IR"
+   ],
+   "continent": "asia",
+   "elevation_m": 5628,
+   "sitelinks": 79,
+   "kind": "mountain",
+   "wikidata": "Q40758"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q40758",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q104674",
+  "type": "mountain",
+  "names": {
+   "de": "Ben Nevis",
+   "en": "Ben Nevis"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 56.796891,
+   "lon": -5.003675
+  },
+  "attributes": {
+   "country": "country:GB",
+   "countries": [
+    "country:GB"
+   ],
+   "continent": "europe",
+   "elevation_m": 1344.5,
+   "sitelinks": 78,
+   "kind": "mountain",
+   "wikidata": "Q104674"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q104674",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q105124",
+  "type": "mountain",
+  "names": {
+   "de": "Shishapangma",
+   "en": "Shishapangma"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 28.352222222222,
+   "lon": 85.779722222222
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "elevation_m": 8027,
+   "sitelinks": 78,
+   "kind": "mountain",
+   "wikidata": "Q105124"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q105124",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q107635",
+  "type": "mountain",
+  "names": {
+   "de": "Paektusan",
+   "en": "Baekdu Mountain"
+  },
+  "aliases": [
+   "Baekdu Mountain"
+  ],
+  "location": {
+   "lat": 40.94,
+   "lon": 126.83
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:KP"
+   ],
+   "continent": "asia",
+   "elevation_m": 2744,
+   "sitelinks": 77,
+   "kind": "mountain",
+   "wikidata": "Q107635"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q107635",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q180996",
+  "type": "mountain",
+  "names": {
+   "de": "Broad Peak",
+   "en": "Broad Peak"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 35.810555555556,
+   "lon": 76.568055555556
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:PK"
+   ],
+   "continent": "asia",
+   "elevation_m": 8051,
+   "sitelinks": 77,
+   "kind": "mountain",
+   "wikidata": "Q180996"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q180996",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q1045888",
+  "type": "mountain",
+  "names": {
+   "de": "Carstensz-Pyramide",
+   "en": "Puncak Jaya"
+  },
+  "aliases": [
+   "Puncak Jaya"
+  ],
+  "location": {
+   "lat": -4.0833333333333,
+   "lon": 137.18333333333
+  },
+  "attributes": {
+   "country": "country:ID",
+   "countries": [
+    "country:ID"
+   ],
+   "continent": "asia",
+   "elevation_m": 4884,
+   "sitelinks": 77,
+   "kind": "mountain",
+   "wikidata": "Q1045888"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1045888",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q120306",
+  "type": "mountain",
+  "names": {
+   "de": "Mount Logan",
+   "en": "Mount Logan"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 60.567222222222,
+   "lon": -140.40527777778
+  },
+  "attributes": {
+   "country": "country:CA",
+   "countries": [
+    "country:CA"
+   ],
+   "continent": "north-america",
+   "elevation_m": 5959,
+   "sitelinks": 75,
+   "kind": "mountain",
+   "wikidata": "Q120306"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q120306",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q3375",
+  "type": "mountain",
+  "names": {
+   "de": "Zugspitze",
+   "en": "Zugspitze"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 47.421217,
+   "lon": 10.986314
+  },
+  "attributes": {
+   "countries": [
+    "country:AT",
+    "country:DE"
+   ],
+   "continent": "europe",
+   "elevation_m": 2962.1,
+   "sitelinks": 75,
+   "kind": "mountain",
+   "wikidata": "Q3375"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q3375",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q168714",
+  "type": "mountain",
+  "names": {
+   "de": "Tambora",
+   "en": "Tambora"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -8.2452777777778,
+   "lon": 117.99277777778
+  },
+  "attributes": {
+   "country": "country:ID",
+   "countries": [
+    "country:ID"
+   ],
+   "continent": "asia",
+   "elevation_m": 2850,
+   "sitelinks": 73,
+   "kind": "mountain",
+   "wikidata": "Q168714"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q168714",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q213360",
+  "type": "mountain",
+  "names": {
+   "de": "Tafelberg",
+   "en": "Table Mountain"
+  },
+  "aliases": [
+   "Table Mountain"
+  ],
+  "location": {
+   "lat": -33.96216,
+   "lon": 18.41352
+  },
+  "attributes": {
+   "country": "country:ZA",
+   "countries": [
+    "country:ZA"
+   ],
+   "continent": "africa",
+   "elevation_m": 1085,
+   "sitelinks": 72,
+   "kind": "mountain",
+   "wikidata": "Q213360"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q213360",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q233836",
+  "type": "mountain",
+  "names": {
+   "de": "Nevado Ojos del Salado",
+   "en": "Ojos del Salado"
+  },
+  "aliases": [
+   "Ojos del Salado"
+  ],
+  "location": {
+   "lat": -27.109722222222,
+   "lon": -68.541388888889
+  },
+  "attributes": {
+   "countries": [
+    "country:CL",
+    "country:AR"
+   ],
+   "continent": "south-america",
+   "elevation_m": 6893,
+   "sitelinks": 72,
+   "kind": "mountain",
+   "wikidata": "Q233836"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q233836",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q187138",
+  "type": "mountain",
+  "names": {
+   "de": "Hidden Peak",
+   "en": "Gasherbrum"
+  },
+  "aliases": [
+   "Gasherbrum"
+  ],
+  "location": {
+   "lat": 35.724444444444,
+   "lon": 76.696388888889
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:PK"
+   ],
+   "continent": "asia",
+   "elevation_m": 8080,
+   "sitelinks": 71,
+   "kind": "mountain",
+   "wikidata": "Q187138"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q187138",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q186853",
+  "type": "mountain",
+  "names": {
+   "de": "Gasherbrum II",
+   "en": "Gasherbrum II"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 35.7575,
+   "lon": 76.652777777778
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:PK"
+   ],
+   "continent": "asia",
+   "elevation_m": 8034,
+   "sitelinks": 70,
+   "kind": "mountain",
+   "wikidata": "Q186853"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q186853",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q216059",
+  "type": "mountain",
+  "names": {
+   "de": "Tai Shan",
+   "en": "Mount Tai"
+  },
+  "aliases": [
+   "Mount Tai"
+  ],
+  "location": {
+   "lat": 36.266666666667,
+   "lon": 117.1
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "elevation_m": 1545,
+   "sitelinks": 70,
+   "kind": "mountain",
+   "wikidata": "Q216059"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q216059",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q60967",
+  "type": "mountain",
+  "names": {
+   "de": "Kinabalu",
+   "en": "Mount Kinabalu"
+  },
+  "aliases": [
+   "Mount Kinabalu"
+  ],
+  "location": {
+   "lat": 6.075,
+   "lon": 116.55861111111
+  },
+  "attributes": {
+   "country": "country:MY",
+   "countries": [
+    "country:MY"
+   ],
+   "continent": "asia",
+   "elevation_m": 4095,
+   "sitelinks": 70,
+   "kind": "mountain",
+   "wikidata": "Q60967"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q60967",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q194057",
+  "type": "mountain",
+  "names": {
+   "de": "Mount Rainier",
+   "en": "Mount Rainier"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 46.851666666667,
+   "lon": -121.76027777778
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "elevation_m": 4389,
+   "sitelinks": 69,
+   "kind": "mountain",
+   "wikidata": "Q194057"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q194057",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q1451",
+  "type": "mountain",
+  "names": {
+   "de": "Pinatubo",
+   "en": "Pinatubo"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 15.13,
+   "lon": 120.35
+  },
+  "attributes": {
+   "country": "country:PH",
+   "countries": [
+    "country:PH"
+   ],
+   "continent": "asia",
+   "elevation_m": 1486,
+   "sitelinks": 69,
+   "kind": "mountain",
+   "wikidata": "Q1451"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1451",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q5059",
+  "type": "mountain",
+  "names": {
+   "de": "Mount Cook",
+   "en": "Aoraki / Mount Cook"
+  },
+  "aliases": [
+   "Aoraki / Mount Cook"
+  ],
+  "location": {
+   "lat": -43.595,
+   "lon": 170.14194444444
+  },
+  "attributes": {
+   "country": "country:NZ",
+   "countries": [
+    "country:NZ"
+   ],
+   "continent": "oceania",
+   "elevation_m": 3724,
+   "sitelinks": 69,
+   "kind": "mountain",
+   "wikidata": "Q5059"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q5059",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q203568",
+  "type": "mountain",
+  "names": {
+   "de": "Aragaz",
+   "en": "Mount Aragats"
+  },
+  "aliases": [
+   "Mount Aragats"
+  ],
+  "location": {
+   "lat": 40.523055555556,
+   "lon": 44.195277777778
+  },
+  "attributes": {
+   "country": "country:AM",
+   "countries": [
+    "country:AM"
+   ],
+   "continent": "asia",
+   "elevation_m": 4090,
+   "sitelinks": 68,
+   "kind": "mountain",
+   "wikidata": "Q203568"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q203568",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q1484",
+  "type": "mountain",
+  "names": {
+   "de": "Mayon",
+   "en": "Mayon Volcano"
+  },
+  "aliases": [
+   "Mayon Volcano"
+  ],
+  "location": {
+   "lat": 13.256666666667,
+   "lon": 123.685
+  },
+  "attributes": {
+   "country": "country:PH",
+   "countries": [
+    "country:PH"
+   ],
+   "continent": "asia",
+   "elevation_m": 2462,
+   "sitelinks": 68,
+   "kind": "mountain",
+   "wikidata": "Q1484"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1484",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q205976",
+  "type": "mountain",
+  "names": {
+   "de": "Ölberg",
+   "en": "Mount of Olives"
+  },
+  "aliases": [
+   "Mount of Olives"
+  ],
+  "location": {
+   "lat": 31.777946,
+   "lon": 35.245686
+  },
+  "attributes": {
+   "country": "country:IL",
+   "countries": [
+    "country:IL"
+   ],
+   "continent": "asia",
+   "elevation_m": 826,
+   "sitelinks": 67,
+   "kind": "mountain",
+   "wikidata": "Q205976"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q205976",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q105261",
+  "type": "mountain",
+  "names": {
+   "de": "Parnass",
+   "en": "Mount Parnassus"
+  },
+  "aliases": [
+   "Mount Parnassus"
+  ],
+  "location": {
+   "lat": 38.533,
+   "lon": 22.6167
+  },
+  "attributes": {
+   "country": "country:GR",
+   "countries": [
+    "country:GR"
+   ],
+   "continent": "europe",
+   "elevation_m": 2455,
+   "sitelinks": 66,
+   "kind": "mountain",
+   "wikidata": "Q105261"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q105261",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q181476",
+  "type": "mountain",
+  "names": {
+   "de": "Cotopaxi",
+   "en": "Cotopaxi volcano"
+  },
+  "aliases": [
+   "Cotopaxi volcano"
+  ],
+  "location": {
+   "lat": -0.68055555555556,
+   "lon": -78.437777777778
+  },
+  "attributes": {
+   "country": "country:EC",
+   "countries": [
+    "country:EC"
+   ],
+   "continent": "south-america",
+   "elevation_m": 5897,
+   "sitelinks": 65,
+   "kind": "mountain",
+   "wikidata": "Q181476"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q181476",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q238147",
+  "type": "mountain",
+  "names": {
+   "de": "Citlaltépetl",
+   "en": "Citlaltepetl"
+  },
+  "aliases": [
+   "Citlaltepetl"
+  ],
+  "location": {
+   "lat": 19.03,
+   "lon": -97.27
+  },
+  "attributes": {
+   "country": "country:MX",
+   "countries": [
+    "country:MX"
+   ],
+   "continent": "north-america",
+   "elevation_m": 5636,
+   "sitelinks": 65,
+   "kind": "mountain",
+   "wikidata": "Q238147"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q238147",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q1024",
+  "type": "mountain",
+  "names": {
+   "de": "Triglav",
+   "en": "Triglav"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 46.378333,
+   "lon": 13.836667
+  },
+  "attributes": {
+   "country": "country:SI",
+   "countries": [
+    "country:SI"
+   ],
+   "continent": "europe",
+   "elevation_m": 2864,
+   "sitelinks": 65,
+   "kind": "mountain",
+   "wikidata": "Q1024"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1024",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q211529",
+  "type": "mountain",
+  "names": {
+   "de": "Khan Tengri",
+   "en": "Khan Tengri"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 42.210833333333,
+   "lon": 80.175
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:KZ",
+    "country:KG"
+   ],
+   "continent": "asia",
+   "elevation_m": 7010,
+   "sitelinks": 64,
+   "kind": "mountain",
+   "wikidata": "Q211529"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q211529",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q219986",
+  "type": "mountain",
+  "names": {
+   "de": "Gangkhar Puensum",
+   "en": "Gangkhar Puensum"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 28.046944444444,
+   "lon": 90.455
+  },
+  "attributes": {
+   "country": "country:BT",
+   "countries": [
+    "country:BT"
+   ],
+   "continent": "asia",
+   "elevation_m": 7570,
+   "sitelinks": 64,
+   "kind": "mountain",
+   "wikidata": "Q219986"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q219986",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q194215",
+  "type": "mountain",
+  "names": {
+   "de": "Amsterdam-Insel",
+   "en": "Île Amsterdam"
+  },
+  "aliases": [
+   "Île Amsterdam"
+  ],
+  "location": {
+   "lat": -37.825833333333,
+   "lon": 77.554722222222
+  },
+  "attributes": {
+   "country": "country:FR",
+   "countries": [
+    "country:FR"
+   ],
+   "continent": "europe",
+   "elevation_m": 867,
+   "sitelinks": 63,
+   "kind": "volcano",
+   "wikidata": "Q194215"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q194215",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q207680",
+  "type": "mountain",
+  "names": {
+   "de": "Kasbek",
+   "en": "Mount Kazbek"
+  },
+  "aliases": [
+   "Mount Kazbek"
+  ],
+  "location": {
+   "lat": 42.696944444444,
+   "lon": 44.518888888889
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "elevation_m": 5033,
+   "sitelinks": 63,
+   "kind": "mountain",
+   "wikidata": "Q207680"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q207680",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q3388",
+  "type": "mountain",
+  "names": {
+   "de": "Großglockner",
+   "en": "Grossglockner"
+  },
+  "aliases": [
+   "Grossglockner"
+  ],
+  "location": {
+   "lat": 47.074528,
+   "lon": 12.69385
+  },
+  "attributes": {
+   "country": "country:AT",
+   "countries": [
+    "country:AT"
+   ],
+   "continent": "europe",
+   "elevation_m": 3798,
+   "sitelinks": 63,
+   "kind": "mountain",
+   "wikidata": "Q3388"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q3388",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q76309",
+  "type": "mountain",
+  "names": {
+   "de": "Montagne Pelée",
+   "en": "Mount Pelée"
+  },
+  "aliases": [
+   "Mount Pelée"
+  ],
+  "location": {
+   "lat": 14.813055555556,
+   "lon": -61.165555555556
+  },
+  "attributes": {
+   "country": "country:FR",
+   "countries": [
+    "country:FR"
+   ],
+   "continent": "europe",
+   "elevation_m": 1397,
+   "sitelinks": 62,
+   "kind": "mountain",
+   "wikidata": "Q76309"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q76309",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q184975",
+  "type": "mountain",
+  "names": {
+   "de": "Hekla",
+   "en": "Hekla"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 63.992222222222,
+   "lon": -19.665833333333
+  },
+  "attributes": {
+   "country": "country:IS",
+   "countries": [
+    "country:IS"
+   ],
+   "continent": "europe",
+   "elevation_m": 1491,
+   "sitelinks": 62,
+   "kind": "volcano",
+   "wikidata": "Q184975"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q184975",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q210252",
+  "type": "mountain",
+  "names": {
+   "de": "Kljutschewskaja Sopka",
+   "en": "Klyuchevskaya Sopka"
+  },
+  "aliases": [
+   "Klyuchevskaya Sopka"
+  ],
+  "location": {
+   "lat": 56.066666666667,
+   "lon": 160.63333333333
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "elevation_m": 4800,
+   "sitelinks": 62,
+   "kind": "mountain",
+   "wikidata": "Q210252"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q210252",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q207917",
+  "type": "mountain",
+  "names": {
+   "de": "Nemrut Dağı",
+   "en": "Mount Nemrut"
+  },
+  "aliases": [
+   "Mount Nemrut"
+  ],
+  "location": {
+   "lat": 37.980738888889,
+   "lon": 38.740830555556
+  },
+  "attributes": {
+   "country": "country:TR",
+   "countries": [
+    "country:TR"
+   ],
+   "continent": "asia",
+   "elevation_m": 2150,
+   "sitelinks": 61,
+   "kind": "mountain",
+   "wikidata": "Q207917"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q207917",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q216894",
+  "type": "mountain",
+  "names": {
+   "de": "Arafat",
+   "en": "Mount Arafat"
+  },
+  "aliases": [
+   "Mount Arafat"
+  ],
+  "location": {
+   "lat": 21.354831,
+   "lon": 39.983886
+  },
+  "attributes": {
+   "country": "country:SA",
+   "countries": [
+    "country:SA"
+   ],
+   "continent": "asia",
+   "elevation_m": 454,
+   "sitelinks": 61,
+   "kind": "mountain",
+   "wikidata": "Q216894"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q216894",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q235539",
+  "type": "mountain",
+  "names": {
+   "de": "Mount Whitney",
+   "en": "Mount Whitney"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 36.578611111111,
+   "lon": -118.29194444444
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "elevation_m": 4421,
+   "sitelinks": 61,
+   "kind": "mountain",
+   "wikidata": "Q235539"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q235539",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q190562",
+  "type": "mountain",
+  "names": {
+   "de": "Kamerunberg",
+   "en": "Mount Cameroon"
+  },
+  "aliases": [
+   "Mount Cameroon"
+  ],
+  "location": {
+   "lat": 4.2166666666667,
+   "lon": 9.1725
+  },
+  "attributes": {
+   "country": "country:CM",
+   "countries": [
+    "country:CM"
+   ],
+   "continent": "africa",
+   "elevation_m": 4095,
+   "sitelinks": 60,
+   "kind": "mountain",
+   "wikidata": "Q190562"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q190562",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q213262",
+  "type": "mountain",
+  "names": {
+   "de": "Nanda Devi",
+   "en": "Nanda Devi"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 30.373888888889,
+   "lon": 79.970833333333
+  },
+  "attributes": {
+   "country": "country:IN",
+   "countries": [
+    "country:IN"
+   ],
+   "continent": "asia",
+   "elevation_m": 7816,
+   "sitelinks": 60,
+   "kind": "mountain",
+   "wikidata": "Q213262"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q213262",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q207132",
+  "type": "mountain",
+  "names": {
+   "de": "Tirich Mir",
+   "en": "Terich Mir"
+  },
+  "aliases": [
+   "Terich Mir"
+  ],
+  "location": {
+   "lat": 36.245833333333,
+   "lon": 71.843888888889
+  },
+  "attributes": {
+   "country": "country:PK",
+   "countries": [
+    "country:PK"
+   ],
+   "continent": "asia",
+   "elevation_m": 7708,
+   "sitelinks": 59,
+   "kind": "mountain",
+   "wikidata": "Q207132"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q207132",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q207323",
+  "type": "mountain",
+  "names": {
+   "de": "Vulcano",
+   "en": "Vulcano"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 38.4042,
+   "lon": 14.9658
+  },
+  "attributes": {
+   "country": "country:IT",
+   "countries": [
+    "country:IT"
+   ],
+   "continent": "europe",
+   "elevation_m": 500,
+   "sitelinks": 59,
+   "kind": "mountain",
+   "wikidata": "Q207323"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q207323",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q627508",
+  "type": "mountain",
+  "names": {
+   "de": "Howerla",
+   "en": "Hoverla"
+  },
+  "aliases": [
+   "Hoverla"
+  ],
+  "location": {
+   "lat": 48.160277777778,
+   "lon": 24.5
+  },
+  "attributes": {
+   "country": "country:UA",
+   "countries": [
+    "country:UA"
+   ],
+   "continent": "europe",
+   "elevation_m": 2061,
+   "sitelinks": 59,
+   "kind": "mountain",
+   "wikidata": "Q627508"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q627508",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q4777",
+  "type": "mountain",
+  "names": {
+   "de": "Roraima-Tepui",
+   "en": "Mount Roraima"
+  },
+  "aliases": [
+   "Mount Roraima"
+  ],
+  "location": {
+   "lat": 5.1419444444444,
+   "lon": -60.764166666667
+  },
+  "attributes": {
+   "countries": [
+    "country:BR",
+    "country:VE",
+    "country:GY"
+   ],
+   "continent": "south-america",
+   "elevation_m": 2810,
+   "sitelinks": 59,
+   "kind": "mountain",
+   "wikidata": "Q4777"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q4777",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q158470",
+  "type": "mountain",
+  "names": {
+   "de": "Agung",
+   "en": "Mount Agung"
+  },
+  "aliases": [
+   "Mount Agung"
+  ],
+  "location": {
+   "lat": -8.3419444444444,
+   "lon": 115.50777777778
+  },
+  "attributes": {
+   "country": "country:ID",
+   "countries": [
+    "country:ID"
+   ],
+   "continent": "asia",
+   "elevation_m": 3142,
+   "sitelinks": 58,
+   "kind": "mountain",
+   "wikidata": "Q158470"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q158470",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q4425",
+  "type": "mountain",
+  "names": {
+   "de": "Eiger",
+   "en": "Eiger"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 46.577607529,
+   "lon": 8.005286822
+  },
+  "attributes": {
+   "country": "country:CH",
+   "countries": [
+    "country:CH"
+   ],
+   "continent": "europe",
+   "elevation_m": 3967,
+   "sitelinks": 58,
+   "kind": "mountain",
+   "wikidata": "Q4425"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q4425",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q193785",
+  "type": "mountain",
+  "names": {
+   "de": "Berg Tabor",
+   "en": "Mount Tabor"
+  },
+  "aliases": [
+   "Mount Tabor"
+  ],
+  "location": {
+   "lat": 32.68625,
+   "lon": 35.392916666667
+  },
+  "attributes": {
+   "country": "country:IL",
+   "countries": [
+    "country:IL"
+   ],
+   "continent": "asia",
+   "elevation_m": 530,
+   "sitelinks": 58,
+   "kind": "mountain",
+   "wikidata": "Q193785"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q193785",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q617511",
+  "type": "mountain",
+  "names": {
+   "de": "Schneekoppe",
+   "en": "Sněžka"
+  },
+  "aliases": [
+   "Sněžka"
+  ],
+  "location": {
+   "lat": 50.736111111111,
+   "lon": 15.740277777778
+  },
+  "attributes": {
+   "countries": [
+    "country:PL",
+    "country:CZ"
+   ],
+   "continent": "europe",
+   "elevation_m": 1603.3,
+   "sitelinks": 58,
+   "kind": "mountain",
+   "wikidata": "Q617511"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q617511",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q210722",
+  "type": "mountain",
+  "names": {
+   "de": "Zuckerhut",
+   "en": "Sugarloaf Mountain"
+  },
+  "aliases": [
+   "Sugarloaf Mountain"
+  ],
+  "location": {
+   "lat": -22.949444444444,
+   "lon": -43.156666666667
+  },
+  "attributes": {
+   "country": "country:BR",
+   "countries": [
+    "country:BR"
+   ],
+   "continent": "south-america",
+   "elevation_m": 395,
+   "sitelinks": 57,
+   "kind": "mountain",
+   "wikidata": "Q210722"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q210722",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q214696",
+  "type": "mountain",
+  "names": {
+   "de": "Nyiragongo",
+   "en": "Mount Nyiragongo"
+  },
+  "aliases": [
+   "Mount Nyiragongo"
+  ],
+  "location": {
+   "lat": -1.5166666666667,
+   "lon": 29.25
+  },
+  "attributes": {
+   "country": "country:CD",
+   "countries": [
+    "country:CD"
+   ],
+   "continent": "africa",
+   "elevation_m": 3470,
+   "sitelinks": 57,
+   "kind": "volcano",
+   "wikidata": "Q214696"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q214696",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q231620",
+  "type": "mountain",
+  "names": {
+   "de": "Paricutín",
+   "en": "Parícutin"
+  },
+  "aliases": [
+   "Parícutin"
+  ],
+  "location": {
+   "lat": 19.493,
+   "lon": -102.251
+  },
+  "attributes": {
+   "country": "country:MX",
+   "countries": [
+    "country:MX"
+   ],
+   "continent": "north-america",
+   "elevation_m": 2800,
+   "sitelinks": 57,
+   "kind": "mountain",
+   "wikidata": "Q231620"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q231620",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q271700",
+  "type": "mountain",
+  "names": {
+   "de": "Noshak",
+   "en": "Noshaq"
+  },
+  "aliases": [
+   "Noshaq"
+  ],
+  "location": {
+   "lat": 36.431666666667,
+   "lon": 71.828333333333
+  },
+  "attributes": {
+   "countries": [
+    "country:PK",
+    "country:AF"
+   ],
+   "continent": "asia",
+   "elevation_m": 7492,
+   "sitelinks": 57,
+   "kind": "mountain",
+   "wikidata": "Q271700"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q271700",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q672936",
+  "type": "mountain",
+  "names": {
+   "de": "Rysy",
+   "en": "Rysy"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 49.179444444444,
+   "lon": 20.088055555556
+  },
+  "attributes": {
+   "countries": [
+    "country:PL",
+    "country:SK"
+   ],
+   "continent": "europe",
+   "elevation_m": 2501,
+   "sitelinks": 57,
+   "kind": "mountain",
+   "wikidata": "Q672936"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q672936",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q81213",
+  "type": "mountain",
+  "names": {
+   "de": "Gerlsdorfer Spitze",
+   "en": "Gerlachovský štít"
+  },
+  "aliases": [
+   "Gerlachovský štít"
+  ],
+  "location": {
+   "lat": 49.164166666667,
+   "lon": 20.133888888889
+  },
+  "attributes": {
+   "country": "country:SK",
+   "countries": [
+    "country:SK"
+   ],
+   "continent": "europe",
+   "elevation_m": 2655,
+   "sitelinks": 56,
+   "kind": "mountain",
+   "wikidata": "Q81213"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q81213",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q214011",
+  "type": "mountain",
+  "names": {
+   "de": "Kebnekaise",
+   "en": "Kebnekaise"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 67.883333333333,
+   "lon": 18.55
+  },
+  "attributes": {
+   "country": "country:SE",
+   "countries": [
+    "country:SE"
+   ],
+   "continent": "europe",
+   "elevation_m": 2135,
+   "sitelinks": 56,
+   "kind": "mountain",
+   "wikidata": "Q214011"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q214011",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q214916",
+  "type": "mountain",
+  "names": {
+   "de": "Llullaillaco",
+   "en": "Llullaillaco"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -24.719722222222,
+   "lon": -68.536666666667
+  },
+  "attributes": {
+   "countries": [
+    "country:CL",
+    "country:AR"
+   ],
+   "continent": "south-america",
+   "elevation_m": 6723,
+   "sitelinks": 56,
+   "kind": "mountain",
+   "wikidata": "Q214916"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q214916",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q15312",
+  "type": "mountain",
+  "names": {
+   "de": "Jungfrau",
+   "en": "Jungfrau"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 46.536944444444,
+   "lon": 7.9625
+  },
+  "attributes": {
+   "country": "country:CH",
+   "countries": [
+    "country:CH"
+   ],
+   "continent": "europe",
+   "elevation_m": 4167,
+   "sitelinks": 56,
+   "kind": "mountain",
+   "wikidata": "Q15312"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q15312",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q204821",
+  "type": "mountain",
+  "names": {
+   "de": "Sankt-Paul-Insel",
+   "en": "Île Saint-Paul"
+  },
+  "aliases": [
+   "Île Saint-Paul"
+  ],
+  "location": {
+   "lat": -38.73,
+   "lon": 77.522222222222
+  },
+  "attributes": {
+   "country": "country:FR",
+   "countries": [
+    "country:FR"
+   ],
+   "continent": "europe",
+   "elevation_m": 270,
+   "sitelinks": 55,
+   "kind": "volcano",
+   "wikidata": "Q204821"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q204821",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q209341",
+  "type": "mountain",
+  "names": {
+   "de": "Musala",
+   "en": "Musala"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 42.179167,
+   "lon": 23.585278
+  },
+  "attributes": {
+   "country": "country:BG",
+   "countries": [
+    "country:BG"
+   ],
+   "continent": "europe",
+   "elevation_m": 2925.4,
+   "sitelinks": 55,
+   "kind": "mountain",
+   "wikidata": "Q209341"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q209341",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q332762",
+  "type": "mountain",
+  "names": {
+   "de": "Pik Pobedy",
+   "en": "Jengish Chokusu"
+  },
+  "aliases": [
+   "Jengish Chokusu"
+  ],
+  "location": {
+   "lat": 42.034662,
+   "lon": 80.128713
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:KG"
+   ],
+   "continent": "asia",
+   "elevation_m": 7439,
+   "sitelinks": 55,
+   "kind": "mountain",
+   "wikidata": "Q332762"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q332762",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q455963",
+  "type": "mountain",
+  "names": {
+   "de": "Apo",
+   "en": "Mount Apo"
+  },
+  "aliases": [
+   "Mount Apo"
+  ],
+  "location": {
+   "lat": 6.9875,
+   "lon": 125.27083333333
+  },
+  "attributes": {
+   "country": "country:PH",
+   "countries": [
+    "country:PH"
+   ],
+   "continent": "asia",
+   "elevation_m": 2954,
+   "sitelinks": 55,
+   "kind": "mountain",
+   "wikidata": "Q455963"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q455963",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q41413",
+  "type": "mountain",
+  "names": {
+   "de": "Pik Kommunisma",
+   "en": "Ismoil Somoni Peak"
+  },
+  "aliases": [
+   "Ismoil Somoni Peak"
+  ],
+  "location": {
+   "lat": 38.942732,
+   "lon": 72.015347
+  },
+  "attributes": {
+   "country": "country:TJ",
+   "countries": [
+    "country:TJ"
+   ],
+   "continent": "asia",
+   "elevation_m": 7495,
+   "sitelinks": 55,
+   "kind": "mountain",
+   "wikidata": "Q41413"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q41413",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q60789",
+  "type": "mountain",
+  "names": {
+   "de": "Sri Pada",
+   "en": "Adam's Peak"
+  },
+  "aliases": [
+   "Adam's Peak"
+  ],
+  "location": {
+   "lat": 6.8094444444444,
+   "lon": 80.499722222222
+  },
+  "attributes": {
+   "country": "country:LK",
+   "countries": [
+    "country:LK"
+   ],
+   "continent": "asia",
+   "elevation_m": 2243,
+   "sitelinks": 54,
+   "kind": "mountain",
+   "wikidata": "Q60789"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q60789",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q134927",
+  "type": "mountain",
+  "names": {
+   "de": "Emei Shan",
+   "en": "Mount Emei"
+  },
+  "aliases": [
+   "Mount Emei"
+  ],
+  "location": {
+   "lat": 29.519722222222,
+   "lon": 103.3325
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "elevation_m": 3099,
+   "sitelinks": 54,
+   "kind": "mountain",
+   "wikidata": "Q134927"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q134927",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q217457",
+  "type": "mountain",
+  "names": {
+   "de": "Schchara",
+   "en": "Shkhara"
+  },
+  "aliases": [
+   "Shkhara"
+  ],
+  "location": {
+   "lat": 42.999444444444,
+   "lon": 43.111666666667
+  },
+  "attributes": {
+   "countries": [
+    "country:RU",
+    "country:GE"
+   ],
+   "continent": "europe",
+   "elevation_m": 5193.2,
+   "sitelinks": 54,
+   "kind": "mountain",
+   "wikidata": "Q217457"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q217457",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q695221",
+  "type": "mountain",
+  "names": {
+   "de": "Mount Abu",
+   "en": "Aburaj"
+  },
+  "aliases": [
+   "Aburaj"
+  ],
+  "location": {
+   "lat": 24.5925,
+   "lon": 72.708333333333
+  },
+  "attributes": {
+   "country": "country:IN",
+   "countries": [
+    "country:IN"
+   ],
+   "continent": "asia",
+   "elevation_m": 1220,
+   "sitelinks": 54,
+   "kind": "mountain",
+   "wikidata": "Q695221"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q695221",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q158526",
+  "type": "mountain",
+  "names": {
+   "de": "Titano",
+   "en": "Monte Titano"
+  },
+  "aliases": [
+   "Monte Titano"
+  ],
+  "location": {
+   "lat": 43.928333333333,
+   "lon": 12.452222222222
+  },
+  "attributes": {
+   "country": "country:SM",
+   "countries": [
+    "country:SM"
+   ],
+   "continent": "europe",
+   "elevation_m": 756,
+   "sitelinks": 53,
+   "kind": "mountain",
+   "wikidata": "Q158526"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q158526",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q233351",
+  "type": "mountain",
+  "names": {
+   "de": "Nevado del Ruiz",
+   "en": "Nevado del Ruiz"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 4.8952777777778,
+   "lon": -75.3225
+  },
+  "attributes": {
+   "country": "country:CO",
+   "countries": [
+    "country:CO"
+   ],
+   "continent": "south-america",
+   "elevation_m": 5389,
+   "sitelinks": 53,
+   "kind": "volcano",
+   "wikidata": "Q233351"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q233351",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q503433",
+  "type": "mountain",
+  "names": {
+   "de": "Tubqal",
+   "en": "Jbel Toubkal"
+  },
+  "aliases": [
+   "Jbel Toubkal"
+  ],
+  "location": {
+   "lat": 31.061944444444,
+   "lon": -7.9161111111111
+  },
+  "attributes": {
+   "country": "country:MA",
+   "countries": [
+    "country:MA"
+   ],
+   "continent": "africa",
+   "elevation_m": 4167,
+   "sitelinks": 53,
+   "kind": "mountain",
+   "wikidata": "Q503433"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q503433",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q203942",
+  "type": "mountain",
+  "names": {
+   "de": "Galdhøpiggen",
+   "en": "Galdhøpiggen"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 61.633333333333,
+   "lon": 8.3
+  },
+  "attributes": {
+   "country": "country:NO",
+   "countries": [
+    "country:NO"
+   ],
+   "continent": "europe",
+   "elevation_m": 2468.9,
+   "sitelinks": 52,
+   "kind": "mountain",
+   "wikidata": "Q203942"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q203942",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q207284",
+  "type": "mountain",
+  "names": {
+   "de": "Ruapehu",
+   "en": "Mount Ruapehu"
+  },
+  "aliases": [
+   "Mount Ruapehu"
+  ],
+  "location": {
+   "lat": -39.281666666667,
+   "lon": 175.56861111111
+  },
+  "attributes": {
+   "country": "country:NZ",
+   "countries": [
+    "country:NZ"
+   ],
+   "continent": "oceania",
+   "elevation_m": 2797,
+   "sitelinks": 52,
+   "kind": "volcano",
+   "wikidata": "Q207284"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q207284",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q208081",
+  "type": "mountain",
+  "names": {
+   "de": "Aneto",
+   "en": "Aneto"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 42.630991666667,
+   "lon": 0.65668611111111
+  },
+  "attributes": {
+   "country": "country:ES",
+   "countries": [
+    "country:ES"
+   ],
+   "continent": "europe",
+   "elevation_m": 3404,
+   "sitelinks": 52,
+   "kind": "mountain",
+   "wikidata": "Q208081"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q208081",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q209528",
+  "type": "mountain",
+  "names": {
+   "de": "Mulhacén",
+   "en": "Mulhacén"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 37.053333333333,
+   "lon": -3.3113888888889
+  },
+  "attributes": {
+   "country": "country:ES",
+   "countries": [
+    "country:ES"
+   ],
+   "continent": "europe",
+   "elevation_m": 3479,
+   "sitelinks": 52,
+   "kind": "mountain",
+   "wikidata": "Q209528"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q209528",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q500275",
+  "type": "mountain",
+  "names": {
+   "de": "Yu Shan",
+   "en": "Yushan Main Peak"
+  },
+  "aliases": [
+   "Yushan Main Peak"
+  ],
+  "location": {
+   "lat": 23.47,
+   "lon": 120.95726666667
+  },
+  "attributes": {
+   "country": "country:TW",
+   "countries": [
+    "country:TW"
+   ],
+   "continent": "asia",
+   "elevation_m": 3952,
+   "sitelinks": 52,
+   "kind": "mountain",
+   "wikidata": "Q500275"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q500275",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q724367",
+  "type": "mountain",
+  "names": {
+   "de": "Belucha",
+   "en": "Belukha Mountain"
+  },
+  "aliases": [
+   "Belukha Mountain"
+  ],
+  "location": {
+   "lat": 49.806944444444,
+   "lon": 86.589722222222
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "elevation_m": 4506,
+   "sitelinks": 52,
+   "kind": "mountain",
+   "wikidata": "Q724367"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q724367",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q818475",
+  "type": "mountain",
+  "names": {
+   "de": "Taal",
+   "en": "Taal Volcano"
+  },
+  "aliases": [
+   "Taal Volcano"
+  ],
+  "location": {
+   "lat": 14.01,
+   "lon": 120.9975
+  },
+  "attributes": {
+   "country": "country:PH",
+   "countries": [
+    "country:PH"
+   ],
+   "continent": "asia",
+   "elevation_m": 311,
+   "sitelinks": 52,
+   "kind": "volcano",
+   "wikidata": "Q818475"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q818475",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q306201",
+  "type": "mountain",
+  "names": {
+   "de": "Devils Tower",
+   "en": "Devils Tower"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 44.590277777778,
+   "lon": -104.71527777778
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "elevation_m": 1558,
+   "sitelinks": 51,
+   "kind": "mountain",
+   "wikidata": "Q306201"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q306201",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q182913",
+  "type": "mountain",
+  "names": {
+   "de": "Grímsvötn",
+   "en": "Grímsvötn"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 64.42,
+   "lon": -17.33
+  },
+  "attributes": {
+   "country": "country:IS",
+   "countries": [
+    "country:IS"
+   ],
+   "continent": "europe",
+   "elevation_m": 1725,
+   "sitelinks": 50,
+   "kind": "mountain",
+   "wikidata": "Q182913"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q182913",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q209064",
+  "type": "mountain",
+  "names": {
+   "de": "Mont Ventoux",
+   "en": "Mont Ventoux"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 44.166666666667,
+   "lon": 5.2833333333333
+  },
+  "attributes": {
+   "country": "country:FR",
+   "countries": [
+    "country:FR"
+   ],
+   "continent": "europe",
+   "elevation_m": 1910,
+   "sitelinks": 50,
+   "kind": "mountain",
+   "wikidata": "Q209064"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q209064",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q217142",
+  "type": "mountain",
+  "names": {
+   "de": "Snowdon",
+   "en": "Snowdon"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 53.068863888889,
+   "lon": -4.0755888888889
+  },
+  "attributes": {
+   "country": "country:GB",
+   "countries": [
+    "country:GB"
+   ],
+   "continent": "europe",
+   "elevation_m": 1085,
+   "sitelinks": 50,
+   "kind": "mountain",
+   "wikidata": "Q217142"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q217142",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q3403",
+  "type": "mountain",
+  "names": {
+   "de": "Dufourspitze",
+   "en": "Dufourspitze"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 45.9369238,
+   "lon": 7.866757
+  },
+  "attributes": {
+   "country": "country:CH",
+   "countries": [
+    "country:CH"
+   ],
+   "continent": "europe",
+   "elevation_m": 4634,
+   "sitelinks": 50,
+   "kind": "mountain",
+   "wikidata": "Q3403"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q3403",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q120314",
+  "type": "mountain",
+  "names": {
+   "de": "Wutai Shan",
+   "en": "Mount Wutai"
+  },
+  "aliases": [
+   "Mount Wutai"
+  ],
+  "location": {
+   "lat": 39.081388888889,
+   "lon": 113.56694444444
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "elevation_m": 3061,
+   "sitelinks": 49,
+   "kind": "mountain",
+   "wikidata": "Q120314"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q120314",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q126804",
+  "type": "mountain",
+  "names": {
+   "de": "Berg Erciyes",
+   "en": "Mount Erciyes"
+  },
+  "aliases": [
+   "Mount Erciyes"
+  ],
+  "location": {
+   "lat": 38.531666666667,
+   "lon": 35.45
+  },
+  "attributes": {
+   "country": "country:TR",
+   "countries": [
+    "country:TR"
+   ],
+   "continent": "asia",
+   "elevation_m": 3916,
+   "sitelinks": 49,
+   "kind": "mountain",
+   "wikidata": "Q126804"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q126804",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q200935",
+  "type": "mountain",
+  "names": {
+   "de": "Huascarán",
+   "en": "Huascarán"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -9.1166666666667,
+   "lon": -77.6
+  },
+  "attributes": {
+   "country": "country:PE",
+   "countries": [
+    "country:PE"
+   ],
+   "continent": "south-america",
+   "elevation_m": 6768,
+   "sitelinks": 49,
+   "kind": "mountain",
+   "wikidata": "Q200935"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q200935",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q206161",
+  "type": "mountain",
+  "names": {
+   "de": "Herzlberg",
+   "en": "Mount Herzl"
+  },
+  "aliases": [
+   "Mount Herzl"
+  ],
+  "location": {
+   "lat": 31.774117,
+   "lon": 35.180567
+  },
+  "attributes": {
+   "country": "country:IL",
+   "countries": [
+    "country:IL"
+   ],
+   "continent": "asia",
+   "elevation_m": 834,
+   "sitelinks": 49,
+   "kind": "mountain",
+   "wikidata": "Q206161"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q206161",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q272593",
+  "type": "mountain",
+  "names": {
+   "de": "Sajama",
+   "en": "Nevado Sajama"
+  },
+  "aliases": [
+   "Nevado Sajama"
+  ],
+  "location": {
+   "lat": -18.108055555556,
+   "lon": -68.883055555556
+  },
+  "attributes": {
+   "country": "country:BO",
+   "countries": [
+    "country:BO"
+   ],
+   "continent": "south-america",
+   "elevation_m": 6542,
+   "sitelinks": 49,
+   "kind": "mountain",
+   "wikidata": "Q272593"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q272593",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q312818",
+  "type": "mountain",
+  "names": {
+   "de": "Skopus",
+   "en": "Mount Scopus"
+  },
+  "aliases": [
+   "Mount Scopus"
+  ],
+  "location": {
+   "lat": 31.7925,
+   "lon": 35.244166666667
+  },
+  "attributes": {
+   "countries": [
+    "country:IL",
+    "country:PS"
+   ],
+   "continent": "asia",
+   "elevation_m": 826,
+   "sitelinks": 49,
+   "kind": "mountain",
+   "wikidata": "Q312818"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q312818",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q476313",
+  "type": "mountain",
+  "names": {
+   "de": "Dychtau",
+   "en": "Dykh-Tau"
+  },
+  "aliases": [
+   "Dykh-Tau"
+  ],
+  "location": {
+   "lat": 43.0525,
+   "lon": 43.131666666667
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "elevation_m": 5204,
+   "sitelinks": 49,
+   "kind": "mountain",
+   "wikidata": "Q476313"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q476313",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q859376",
+  "type": "mountain",
+  "names": {
+   "de": "Volcán de Fuego",
+   "en": "Volcán de Fuego"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 14.474722222222,
+   "lon": -90.880833333333
+  },
+  "attributes": {
+   "country": "country:GT",
+   "countries": [
+    "country:GT"
+   ],
+   "continent": "north-america",
+   "elevation_m": 3765,
+   "sitelinks": 49,
+   "kind": "mountain",
+   "wikidata": "Q859376"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q859376",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q201914",
+  "type": "mountain",
+  "names": {
+   "de": "Katla",
+   "en": "Katla"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 63.633333333333,
+   "lon": -19.05
+  },
+  "attributes": {
+   "country": "country:IS",
+   "countries": [
+    "country:IS"
+   ],
+   "continent": "europe",
+   "elevation_m": 1450,
+   "sitelinks": 48,
+   "kind": "volcano",
+   "wikidata": "Q201914"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q201914",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q746524",
+  "type": "mountain",
+  "names": {
+   "de": "Moldoveanu",
+   "en": "Moldoveanu Peak"
+  },
+  "aliases": [
+   "Moldoveanu Peak"
+  ],
+  "location": {
+   "lat": 45.599438888889,
+   "lon": 24.736211111111
+  },
+  "attributes": {
+   "country": "country:RO",
+   "countries": [
+    "country:RO"
+   ],
+   "continent": "europe",
+   "elevation_m": 2544,
+   "sitelinks": 48,
+   "kind": "mountain",
+   "wikidata": "Q746524"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q746524",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q912579",
+  "type": "mountain",
+  "names": {
+   "de": "Korab",
+   "en": "Korab"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 41.7903,
+   "lon": 20.5467
+  },
+  "attributes": {
+   "countries": [
+    "country:MK",
+    "country:AL"
+   ],
+   "continent": "europe",
+   "elevation_m": 2764,
+   "sitelinks": 48,
+   "kind": "mountain",
+   "wikidata": "Q912579"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q912579",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q16525",
+  "type": "mountain",
+  "names": {
+   "de": "Mönch",
+   "en": "Mönch"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 46.558333333333,
+   "lon": 7.9972222222222
+  },
+  "attributes": {
+   "country": "country:CH",
+   "countries": [
+    "country:CH"
+   ],
+   "continent": "europe",
+   "elevation_m": 4110,
+   "sitelinks": 48,
+   "kind": "mountain",
+   "wikidata": "Q16525"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q16525",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q207421",
+  "type": "mountain",
+  "names": {
+   "de": "Tungurahua",
+   "en": "Tungurahua volcano"
+  },
+  "aliases": [
+   "Tungurahua volcano"
+  ],
+  "location": {
+   "lat": -1.4669444444444,
+   "lon": -78.441666666667
+  },
+  "attributes": {
+   "country": "country:EC",
+   "countries": [
+    "country:EC"
+   ],
+   "continent": "south-america",
+   "elevation_m": 5016,
+   "sitelinks": 47,
+   "kind": "mountain",
+   "wikidata": "Q207421"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q207421",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q275435",
+  "type": "mountain",
+  "names": {
+   "de": "Ras Daschän",
+   "en": "Ras Dashen"
+  },
+  "aliases": [
+   "Ras Dashen"
+  ],
+  "location": {
+   "lat": 13.236666666667,
+   "lon": 38.3725
+  },
+  "attributes": {
+   "country": "country:ET",
+   "countries": [
+    "country:ET"
+   ],
+   "continent": "africa",
+   "elevation_m": 4533,
+   "sitelinks": 47,
+   "kind": "mountain",
+   "wikidata": "Q275435"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q275435",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q499019",
+  "type": "mountain",
+  "names": {
+   "de": "Barkal",
+   "en": "Jebel Barkal"
+  },
+  "aliases": [
+   "Jebel Barkal"
+  ],
+  "location": {
+   "lat": 18.5368,
+   "lon": 31.8276
+  },
+  "attributes": {
+   "country": "country:SD",
+   "countries": [
+    "country:SD"
+   ],
+   "continent": "africa",
+   "elevation_m": 287,
+   "sitelinks": 47,
+   "kind": "mountain",
+   "wikidata": "Q499019"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q499019",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q503368",
+  "type": "mountain",
+  "names": {
+   "de": "Carrantuohill",
+   "en": "Carrauntoohil"
+  },
+  "aliases": [
+   "Carrauntoohil"
+  ],
+  "location": {
+   "lat": 51.998888888889,
+   "lon": -9.7427777777778
+  },
+  "attributes": {
+   "country": "country:IE",
+   "countries": [
+    "country:IE"
+   ],
+   "continent": "europe",
+   "elevation_m": 1038.6,
+   "sitelinks": 47,
+   "kind": "mountain",
+   "wikidata": "Q503368"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q503368",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q506938",
+  "type": "mountain",
+  "names": {
+   "de": "Corcovado",
+   "en": "Corcovado"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -22.9525,
+   "lon": -43.211666666667
+  },
+  "attributes": {
+   "country": "country:BR",
+   "countries": [
+    "country:BR"
+   ],
+   "continent": "south-america",
+   "elevation_m": 710,
+   "sitelinks": 47,
+   "kind": "mountain",
+   "wikidata": "Q506938"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q506938",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q622616",
+  "type": "mountain",
+  "names": {
+   "de": "Lu Shan",
+   "en": "Mount Lu"
+  },
+  "aliases": [
+   "Mount Lu"
+  ],
+  "location": {
+   "lat": 29.5725,
+   "lon": 115.97333333333
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "elevation_m": 1474,
+   "sitelinks": 47,
+   "kind": "mountain",
+   "wikidata": "Q622616"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q622616",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q746787",
+  "type": "mountain",
+  "names": {
+   "de": "Ol Doinyo Lengai",
+   "en": "Ol Doinyo Lengai"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -2.7616666666667,
+   "lon": 35.913333333333
+  },
+  "attributes": {
+   "country": "country:TZ",
+   "countries": [
+    "country:TZ"
+   ],
+   "continent": "africa",
+   "elevation_m": 2960,
+   "sitelinks": 47,
+   "kind": "mountain",
+   "wikidata": "Q746787"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q746787",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q1315012",
+  "type": "mountain",
+  "names": {
+   "de": "Snæfellsjökull",
+   "en": "Snæfellsjökull"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 64.8071204861,
+   "lon": -23.7762279203
+  },
+  "attributes": {
+   "country": "country:IS",
+   "countries": [
+    "country:IS"
+   ],
+   "continent": "europe",
+   "elevation_m": 1446,
+   "sitelinks": 47,
+   "kind": "mountain",
+   "wikidata": "Q1315012"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1315012",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q1514176",
+  "type": "mountain",
+  "names": {
+   "de": "Jamantau",
+   "en": "Mount Yamantau"
+  },
+  "aliases": [
+   "Mount Yamantau"
+  ],
+  "location": {
+   "lat": 54.255,
+   "lon": 58.102
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "elevation_m": 1640,
+   "sitelinks": 47,
+   "kind": "mountain",
+   "wikidata": "Q1514176"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1514176",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q4168",
+  "type": "mountain",
+  "names": {
+   "de": "Loreley",
+   "en": "Loreley"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 50.139444444444,
+   "lon": 7.7288888888889
+  },
+  "attributes": {
+   "country": "country:DE",
+   "countries": [
+    "country:DE"
+   ],
+   "continent": "europe",
+   "elevation_m": 109,
+   "sitelinks": 47,
+   "kind": "mountain",
+   "wikidata": "Q4168"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q4168",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q16648",
+  "type": "mountain",
+  "names": {
+   "de": "Monte San Giorgio",
+   "en": "Monte San Giorgio"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 45.916666666667,
+   "lon": 8.95
+  },
+  "attributes": {
+   "country": "country:CH",
+   "countries": [
+    "country:CH"
+   ],
+   "continent": "europe",
+   "elevation_m": 1097,
+   "sitelinks": 47,
+   "kind": "mountain",
+   "wikidata": "Q16648"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q16648",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q213704",
+  "type": "mountain",
+  "names": {
+   "de": "Pico Bolívar",
+   "en": "Pico Bolívar"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 8.5408611111111,
+   "lon": -71.0465
+  },
+  "attributes": {
+   "country": "country:VE",
+   "countries": [
+    "country:VE"
+   ],
+   "continent": "south-america",
+   "elevation_m": 4978,
+   "sitelinks": 46,
+   "kind": "mountain",
+   "wikidata": "Q213704"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q213704",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q679590",
+  "type": "mountain",
+  "names": {
+   "de": "Bromo",
+   "en": "Mount Bromo"
+  },
+  "aliases": [
+   "Mount Bromo"
+  ],
+  "location": {
+   "lat": -7.943055555,
+   "lon": 112.953888888
+  },
+  "attributes": {
+   "country": "country:ID",
+   "countries": [
+    "country:ID"
+   ],
+   "continent": "asia",
+   "elevation_m": 2329,
+   "sitelinks": 46,
+   "kind": "mountain",
+   "wikidata": "Q679590"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q679590",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q732115",
+  "type": "mountain",
+  "names": {
+   "de": "Montserrat",
+   "en": "Montserrat"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 41.605376,
+   "lon": 1.811495
+  },
+  "attributes": {
+   "country": "country:ES",
+   "countries": [
+    "country:ES"
+   ],
+   "continent": "europe",
+   "elevation_m": 1236,
+   "sitelinks": 46,
+   "kind": "mountain",
+   "wikidata": "Q732115"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q732115",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q838587",
+  "type": "mountain",
+  "names": {
+   "de": "Pik Lenin",
+   "en": "Lenin Peak"
+  },
+  "aliases": [
+   "Lenin Peak"
+  ],
+  "location": {
+   "lat": 39.343677,
+   "lon": 72.877897
+  },
+  "attributes": {
+   "countries": [
+    "country:KG",
+    "country:TJ"
+   ],
+   "continent": "asia",
+   "elevation_m": 7134,
+   "sitelinks": 46,
+   "kind": "mountain",
+   "wikidata": "Q838587"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q838587",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q847323",
+  "type": "mountain",
+  "names": {
+   "de": "Rinjani",
+   "en": "Rinjani"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -8.4166666666667,
+   "lon": 116.46666666667
+  },
+  "attributes": {
+   "country": "country:ID",
+   "countries": [
+    "country:ID"
+   ],
+   "continent": "asia",
+   "elevation_m": 3726,
+   "sitelinks": 46,
+   "kind": "mountain",
+   "wikidata": "Q847323"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q847323",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q873358",
+  "type": "mountain",
+  "names": {
+   "de": "Sanqing Shan",
+   "en": "Mount Sanqing"
+  },
+  "aliases": [
+   "Mount Sanqing"
+  ],
+  "location": {
+   "lat": 28.951944444444,
+   "lon": 118.05194444444
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "elevation_m": 1817,
+   "sitelinks": 46,
+   "kind": "mountain",
+   "wikidata": "Q873358"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q873358",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q235062",
+  "type": "mountain",
+  "names": {
+   "de": "Galeras",
+   "en": "Galeras"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 1.2166666666667,
+   "lon": -77.366666666667
+  },
+  "attributes": {
+   "country": "country:CO",
+   "countries": [
+    "country:CO"
+   ],
+   "continent": "south-america",
+   "elevation_m": 4276,
+   "sitelinks": 45,
+   "kind": "mountain",
+   "wikidata": "Q235062"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q235062",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q750190",
+  "type": "mountain",
+  "names": {
+   "de": "Suleiman-Too",
+   "en": "Sulaiman-Too"
+  },
+  "aliases": [
+   "Sulaiman-Too"
+  ],
+  "location": {
+   "lat": 40.529444444444,
+   "lon": 72.783333333333
+  },
+  "attributes": {
+   "country": "country:KG",
+   "countries": [
+    "country:KG"
+   ],
+   "continent": "asia",
+   "elevation_m": 1110,
+   "sitelinks": 45,
+   "kind": "mountain",
+   "wikidata": "Q750190"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q750190",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q791652",
+  "type": "mountain",
+  "names": {
+   "de": "Awatschinskaja Sopka",
+   "en": "Avachinsky"
+  },
+  "aliases": [
+   "Avachinsky"
+  ],
+  "location": {
+   "lat": 53.255555555556,
+   "lon": 158.83333333333
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "elevation_m": 2741,
+   "sitelinks": 45,
+   "kind": "mountain",
+   "wikidata": "Q791652"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q791652",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q814113",
+  "type": "mountain",
+  "names": {
+   "de": "Beerenberg",
+   "en": "Beerenberg"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 71.079666666667,
+   "lon": -8.1558805555556
+  },
+  "attributes": {
+   "country": "country:NO",
+   "countries": [
+    "country:NO"
+   ],
+   "continent": "europe",
+   "elevation_m": 2277,
+   "sitelinks": 45,
+   "kind": "volcano",
+   "wikidata": "Q814113"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q814113",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q825347",
+  "type": "mountain",
+  "names": {
+   "de": "Colima",
+   "en": "Colima"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 19.511388888889,
+   "lon": -103.61805555556
+  },
+  "attributes": {
+   "country": "country:MX",
+   "countries": [
+    "country:MX"
+   ],
+   "continent": "north-america",
+   "elevation_m": 3850,
+   "sitelinks": 45,
+   "kind": "mountain",
+   "wikidata": "Q825347"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q825347",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q1010335",
+  "type": "mountain",
+  "names": {
+   "de": "Burchan Chaldun",
+   "en": "Burkhan Khaldun"
+  },
+  "aliases": [
+   "Burkhan Khaldun"
+  ],
+  "location": {
+   "lat": 48.783333333333,
+   "lon": 109.16666666667
+  },
+  "attributes": {
+   "country": "country:MN",
+   "countries": [
+    "country:MN"
+   ],
+   "continent": "asia",
+   "elevation_m": 2450,
+   "sitelinks": 45,
+   "kind": "mountain",
+   "wikidata": "Q1010335"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1010335",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q15265",
+  "type": "mountain",
+  "names": {
+   "de": "Pilatus",
+   "en": "Mount Pilatus"
+  },
+  "aliases": [
+   "Mount Pilatus"
+  ],
+  "location": {
+   "lat": 46.973889,
+   "lon": 8.241111
+  },
+  "attributes": {
+   "country": "country:CH",
+   "countries": [
+    "country:CH"
+   ],
+   "continent": "europe",
+   "elevation_m": 2128,
+   "sitelinks": 45,
+   "kind": "mountain",
+   "wikidata": "Q15265"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q15265",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q695846",
+  "type": "mountain",
+  "names": {
+   "de": "Nyamuragira",
+   "en": "Nyamuragira"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -1.4083333333333,
+   "lon": 29.2
+  },
+  "attributes": {
+   "country": "country:CD",
+   "countries": [
+    "country:CD"
+   ],
+   "continent": "africa",
+   "elevation_m": 3058,
+   "sitelinks": 44,
+   "kind": "volcano",
+   "wikidata": "Q695846"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q695846",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q123782",
+  "type": "mountain",
+  "names": {
+   "de": "Fansipan",
+   "en": "Fansipan"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 22.3033319,
+   "lon": 103.7753148
+  },
+  "attributes": {
+   "country": "country:VN",
+   "countries": [
+    "country:VN"
+   ],
+   "continent": "asia",
+   "elevation_m": 3147.3,
+   "sitelinks": 44,
+   "kind": "mountain",
+   "wikidata": "Q123782"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q123782",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q215138",
+  "type": "mountain",
+  "names": {
+   "de": "Fitz Roy",
+   "en": "Mount Fitz Roy"
+  },
+  "aliases": [
+   "Mount Fitz Roy"
+  ],
+  "location": {
+   "lat": -49.271388888889,
+   "lon": -73.043333333333
+  },
+  "attributes": {
+   "countries": [
+    "country:CL",
+    "country:AR"
+   ],
+   "continent": "south-america",
+   "elevation_m": 3406,
+   "sitelinks": 44,
+   "kind": "mountain",
+   "wikidata": "Q215138"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q215138",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q309098",
+  "type": "mountain",
+  "names": {
+   "de": "Mount Meru",
+   "en": "Mount Meru"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -3.2467805555556,
+   "lon": 36.76025
+  },
+  "attributes": {
+   "country": "country:TZ",
+   "countries": [
+    "country:TZ"
+   ],
+   "continent": "africa",
+   "elevation_m": 4562.1,
+   "sitelinks": 44,
+   "kind": "mountain",
+   "wikidata": "Q309098"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q309098",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q378943",
+  "type": "mountain",
+  "names": {
+   "de": "Witoscha",
+   "en": "Vitosha"
+  },
+  "aliases": [
+   "Vitosha"
+  ],
+  "location": {
+   "lat": 42.566666666667,
+   "lon": 23.283333333333
+  },
+  "attributes": {
+   "country": "country:BG",
+   "countries": [
+    "country:BG"
+   ],
+   "continent": "europe",
+   "elevation_m": 2292,
+   "sitelinks": 44,
+   "kind": "mountain",
+   "wikidata": "Q378943"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q378943",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q686841",
+  "type": "mountain",
+  "names": {
+   "de": "Dachstein",
+   "en": "Hoher Dachstein"
+  },
+  "aliases": [
+   "Hoher Dachstein"
+  ],
+  "location": {
+   "lat": 47.475168,
+   "lon": 13.605735
+  },
+  "attributes": {
+   "country": "country:AT",
+   "countries": [
+    "country:AT"
+   ],
+   "continent": "europe",
+   "elevation_m": 2995,
+   "sitelinks": 44,
+   "kind": "mountain",
+   "wikidata": "Q686841"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q686841",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q732838",
+  "type": "mountain",
+  "names": {
+   "de": "Mount Elgon",
+   "en": "Mount Elgon"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 1.1185,
+   "lon": 34.5265
+  },
+  "attributes": {
+   "countries": [
+    "country:KE",
+    "country:UG"
+   ],
+   "continent": "africa",
+   "elevation_m": 4321,
+   "sitelinks": 44,
+   "kind": "mountain",
+   "wikidata": "Q732838"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q732838",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q15117",
+  "type": "mountain",
+  "names": {
+   "de": "Dom",
+   "en": "Dom"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 46.094444444444,
+   "lon": 7.8566666666667
+  },
+  "attributes": {
+   "country": "country:CH",
+   "countries": [
+    "country:CH"
+   ],
+   "continent": "europe",
+   "elevation_m": 4546,
+   "sitelinks": 44,
+   "kind": "mountain",
+   "wikidata": "Q15117"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q15117",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q154372",
+  "type": "mountain",
+  "names": {
+   "de": "Montecassino (Berg)",
+   "en": "Monte Cassino"
+  },
+  "aliases": [
+   "Monte Cassino"
+  ],
+  "location": {
+   "lat": 41.49,
+   "lon": 13.813888888889
+  },
+  "attributes": {
+   "country": "country:IT",
+   "countries": [
+    "country:IT"
+   ],
+   "continent": "europe",
+   "elevation_m": 520,
+   "sitelinks": 43,
+   "kind": "mountain",
+   "wikidata": "Q154372"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q154372",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q215662",
+  "type": "mountain",
+  "names": {
+   "de": "Monte Perdido",
+   "en": "Monte Perdido"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 42.673888888889,
+   "lon": 0.033333333333333
+  },
+  "attributes": {
+   "country": "country:ES",
+   "countries": [
+    "country:ES"
+   ],
+   "continent": "europe",
+   "elevation_m": 3355,
+   "sitelinks": 43,
+   "kind": "mountain",
+   "wikidata": "Q215662"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q215662",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q239485",
+  "type": "mountain",
+  "names": {
+   "de": "Phu Bia",
+   "en": "Phou Bia"
+  },
+  "aliases": [
+   "Phou Bia"
+  ],
+  "location": {
+   "lat": 18.983333333333,
+   "lon": 103.13333333333
+  },
+  "attributes": {
+   "country": "country:LA",
+   "countries": [
+    "country:LA"
+   ],
+   "continent": "asia",
+   "elevation_m": 2819,
+   "sitelinks": 43,
+   "kind": "mountain",
+   "wikidata": "Q239485"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q239485",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q275662",
+  "type": "mountain",
+  "names": {
+   "de": "Mount Hood",
+   "en": "Mount Hood"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 45.373611111111,
+   "lon": -121.69583333333
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "elevation_m": 3425,
+   "sitelinks": 43,
+   "kind": "mountain",
+   "wikidata": "Q275662"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q275662",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q312930",
+  "type": "mountain",
+  "names": {
+   "de": "Copahue",
+   "en": "Copahue"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -37.852222222222,
+   "lon": -71.1675
+  },
+  "attributes": {
+   "countries": [
+    "country:CL",
+    "country:AR"
+   ],
+   "continent": "south-america",
+   "elevation_m": 2997,
+   "sitelinks": 43,
+   "kind": "volcano",
+   "wikidata": "Q312930"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q312930",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q680161",
+  "type": "mountain",
+  "names": {
+   "de": "Nebo",
+   "en": "Mount Nebo"
+  },
+  "aliases": [
+   "Mount Nebo"
+  ],
+  "location": {
+   "lat": 31.767777777778,
+   "lon": 35.725555555556
+  },
+  "attributes": {
+   "country": "country:JO",
+   "countries": [
+    "country:JO"
+   ],
+   "continent": "asia",
+   "elevation_m": 808,
+   "sitelinks": 43,
+   "kind": "mountain",
+   "wikidata": "Q680161"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q680161",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q739484",
+  "type": "mountain",
+  "names": {
+   "de": "Pico da Neblina",
+   "en": "Pico da Neblina"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 0.80549444444444,
+   "lon": -66.005358333333
+  },
+  "attributes": {
+   "countries": [
+    "country:BR",
+    "country:VE"
+   ],
+   "continent": "south-america",
+   "elevation_m": 2994,
+   "sitelinks": 43,
+   "kind": "mountain",
+   "wikidata": "Q739484"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q739484",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q748355",
+  "type": "mountain",
+  "names": {
+   "de": "Mount Shasta",
+   "en": "Mount Shasta"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 41.409197222222,
+   "lon": -122.19488888889
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "elevation_m": 4322,
+   "sitelinks": 43,
+   "kind": "mountain",
+   "wikidata": "Q748355"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q748355",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q770496",
+  "type": "mountain",
+  "names": {
+   "de": "Mount Saint Elias",
+   "en": "Mount Saint Elias"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 60.292222222222,
+   "lon": -140.93138888889
+  },
+  "attributes": {
+   "countries": [
+    "country:CA",
+    "country:US"
+   ],
+   "continent": "north-america",
+   "elevation_m": 5500,
+   "sitelinks": 43,
+   "kind": "mountain",
+   "wikidata": "Q770496"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q770496",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q819979",
+  "type": "mountain",
+  "names": {
+   "de": "Olympos",
+   "en": "Mount Olympus"
+  },
+  "aliases": [
+   "Mount Olympus"
+  ],
+  "location": {
+   "lat": 34.936666666667,
+   "lon": 32.863888888889
+  },
+  "attributes": {
+   "country": "country:CY",
+   "countries": [
+    "country:CY"
+   ],
+   "continent": "europe",
+   "elevation_m": 1952,
+   "sitelinks": 43,
+   "kind": "mountain",
+   "wikidata": "Q819979"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q819979",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q1137644",
+  "type": "mountain",
+  "names": {
+   "de": "Pumori",
+   "en": "Pumori"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 28.015555555556,
+   "lon": 86.828055555556
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:NP"
+   ],
+   "continent": "asia",
+   "elevation_m": 7161,
+   "sitelinks": 43,
+   "kind": "mountain",
+   "wikidata": "Q1137644"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1137644",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q1142817",
+  "type": "mountain",
+  "names": {
+   "de": "Narodnaja",
+   "en": "Mount Narodnaya"
+  },
+  "aliases": [
+   "Mount Narodnaya"
+  ],
+  "location": {
+   "lat": 65.033333333333,
+   "lon": 60.116666666667
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "elevation_m": 1895,
+   "sitelinks": 43,
+   "kind": "mountain",
+   "wikidata": "Q1142817"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1142817",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q1288751",
+  "type": "mountain",
+  "names": {
+   "de": "Garizim",
+   "en": "Mount Gerizim"
+  },
+  "aliases": [
+   "Mount Gerizim"
+  ],
+  "location": {
+   "lat": 32.199444444444,
+   "lon": 35.272777777778
+  },
+  "attributes": {
+   "country": "country:PS",
+   "countries": [
+    "country:PS"
+   ],
+   "continent": "asia",
+   "elevation_m": 881,
+   "sitelinks": 43,
+   "kind": "mountain",
+   "wikidata": "Q1288751"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1288751",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q1372",
+  "type": "mountain",
+  "names": {
+   "de": "Gran Paradiso",
+   "en": "Gran Paradiso"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 45.533333333333,
+   "lon": 7.2666666666667
+  },
+  "attributes": {
+   "country": "country:IT",
+   "countries": [
+    "country:IT"
+   ],
+   "continent": "europe",
+   "elevation_m": 4061,
+   "sitelinks": 43,
+   "kind": "mountain",
+   "wikidata": "Q1372"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1372",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q215516",
+  "type": "mountain",
+  "names": {
+   "de": "Helikon",
+   "en": "Mount Helicon"
+  },
+  "aliases": [
+   "Mount Helicon"
+  ],
+  "location": {
+   "lat": 38.352222222222,
+   "lon": 22.825
+  },
+  "attributes": {
+   "country": "country:GR",
+   "countries": [
+    "country:GR"
+   ],
+   "continent": "europe",
+   "elevation_m": 1748,
+   "sitelinks": 42,
+   "kind": "mountain",
+   "wikidata": "Q215516"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q215516",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q255010",
+  "type": "mountain",
+  "names": {
+   "de": "Parinacota",
+   "en": "Parinacota"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -18.165752777778,
+   "lon": -69.141611111111
+  },
+  "attributes": {
+   "countries": [
+    "country:CL",
+    "country:BO"
+   ],
+   "continent": "south-america",
+   "elevation_m": 6348,
+   "sitelinks": 42,
+   "kind": "mountain",
+   "wikidata": "Q255010"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q255010",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q404728",
+  "type": "mountain",
+  "names": {
+   "de": "Aiguille du Midi",
+   "en": "Aiguille du Midi"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 45.878888888889,
+   "lon": 6.8875
+  },
+  "attributes": {
+   "country": "country:FR",
+   "countries": [
+    "country:FR"
+   ],
+   "continent": "europe",
+   "elevation_m": 3842,
+   "sitelinks": 42,
+   "kind": "mountain",
+   "wikidata": "Q404728"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q404728",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q582128",
+  "type": "mountain",
+  "names": {
+   "de": "Gyachung Kang",
+   "en": "Gyachung Kang"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 28.098055555556,
+   "lon": 86.742222222222
+  },
+  "attributes": {
+   "countries": [
+    "country:CN",
+    "country:NP"
+   ],
+   "continent": "asia",
+   "elevation_m": 7952,
+   "sitelinks": 42,
+   "kind": "mountain",
+   "wikidata": "Q582128"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q582128",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q630579",
+  "type": "mountain",
+  "names": {
+   "de": "Muztagata",
+   "en": "Muztagh Ata"
+  },
+  "aliases": [
+   "Muztagh Ata"
+  ],
+  "location": {
+   "lat": 38.278333333333,
+   "lon": 75.115833333333
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "elevation_m": 7546,
+   "sitelinks": 42,
+   "kind": "mountain",
+   "wikidata": "Q630579"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q630579",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q641588",
+  "type": "mountain",
+  "names": {
+   "de": "Arenal",
+   "en": "Arenal Volcano"
+  },
+  "aliases": [
+   "Arenal Volcano"
+  ],
+  "location": {
+   "lat": 10.4625,
+   "lon": -84.703333333333
+  },
+  "attributes": {
+   "country": "country:CR",
+   "countries": [
+    "country:CR"
+   ],
+   "continent": "north-america",
+   "elevation_m": 1670,
+   "sitelinks": 42,
+   "kind": "mountain",
+   "wikidata": "Q641588"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q641588",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q737859",
+  "type": "mountain",
+  "names": {
+   "de": "Karisimbi",
+   "en": "Mount Karisimbi"
+  },
+  "aliases": [
+   "Mount Karisimbi"
+  ],
+  "location": {
+   "lat": -1.5,
+   "lon": 29.45
+  },
+  "attributes": {
+   "countries": [
+    "country:CD",
+    "country:RW"
+   ],
+   "continent": "africa",
+   "elevation_m": 4507,
+   "sitelinks": 42,
+   "kind": "mountain",
+   "wikidata": "Q737859"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q737859",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q839630",
+  "type": "mountain",
+  "names": {
+   "de": "Korjakskaja Sopka",
+   "en": "Koryaksky"
+  },
+  "aliases": [
+   "Koryaksky"
+  ],
+  "location": {
+   "lat": 53.316666666667,
+   "lon": 158.68333333333
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "elevation_m": 3456,
+   "sitelinks": 42,
+   "kind": "volcano",
+   "wikidata": "Q839630"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q839630",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q928681",
+  "type": "mountain",
+  "names": {
+   "de": "Ponta do Pico",
+   "en": "Mount Pico"
+  },
+  "aliases": [
+   "Mount Pico"
+  ],
+  "location": {
+   "lat": 38.467271,
+   "lon": -28.40095
+  },
+  "attributes": {
+   "country": "country:PT",
+   "countries": [
+    "country:PT"
+   ],
+   "continent": "europe",
+   "elevation_m": 2351,
+   "sitelinks": 42,
+   "kind": "mountain",
+   "wikidata": "Q928681"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q928681",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q1032440",
+  "type": "mountain",
+  "names": {
+   "de": "Jezerca",
+   "en": "Jezercë"
+  },
+  "aliases": [
+   "Jezercë"
+  ],
+  "location": {
+   "lat": 42.442222222222,
+   "lon": 19.812777777778
+  },
+  "attributes": {
+   "country": "country:AL",
+   "countries": [
+    "country:AL"
+   ],
+   "continent": "europe",
+   "elevation_m": 2694,
+   "sitelinks": 42,
+   "kind": "mountain",
+   "wikidata": "Q1032440"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1032440",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q1754806",
+  "type": "mountain",
+  "names": {
+   "de": "Ontake-san",
+   "en": "Mount Ontake"
+  },
+  "aliases": [
+   "Mount Ontake"
+  ],
+  "location": {
+   "lat": 35.892777777778,
+   "lon": 137.48027777778
+  },
+  "attributes": {
+   "country": "country:JP",
+   "countries": [
+    "country:JP"
+   ],
+   "continent": "asia",
+   "elevation_m": 3067,
+   "sitelinks": 42,
+   "kind": "volcano",
+   "wikidata": "Q1754806"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1754806",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q15127",
+  "type": "mountain",
+  "names": {
+   "de": "Finsteraarhorn",
+   "en": "Finsteraarhorn"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 46.5373553,
+   "lon": 8.1260907
+  },
+  "attributes": {
+   "country": "country:CH",
+   "countries": [
+    "country:CH"
+   ],
+   "continent": "europe",
+   "elevation_m": 4274,
+   "sitelinks": 42,
+   "kind": "mountain",
+   "wikidata": "Q15127"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q15127",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q15132",
+  "type": "mountain",
+  "names": {
+   "de": "Piz Bernina",
+   "en": "Piz Bernina"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 46.382388888889,
+   "lon": 9.9081111111111
+  },
+  "attributes": {
+   "country": "country:CH",
+   "countries": [
+    "country:CH"
+   ],
+   "continent": "europe",
+   "elevation_m": 4048,
+   "sitelinks": 42,
+   "kind": "mountain",
+   "wikidata": "Q15132"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q15132",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q83659",
+  "type": "mountain",
+  "names": {
+   "de": "Psiloritis",
+   "en": "Mount Ida"
+  },
+  "aliases": [
+   "Mount Ida"
+  ],
+  "location": {
+   "lat": 35.226388888889,
+   "lon": 24.770713888889
+  },
+  "attributes": {
+   "country": "country:GR",
+   "countries": [
+    "country:GR"
+   ],
+   "continent": "europe",
+   "elevation_m": 2456,
+   "sitelinks": 41,
+   "kind": "mountain",
+   "wikidata": "Q83659"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q83659",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q148521",
+  "type": "mountain",
+  "names": {
+   "de": "Illimani",
+   "en": "Illimani"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -16.633333333333,
+   "lon": -67.790833333333
+  },
+  "attributes": {
+   "country": "country:BO",
+   "countries": [
+    "country:BO"
+   ],
+   "continent": "south-america",
+   "elevation_m": 6438,
+   "sitelinks": 41,
+   "kind": "mountain",
+   "wikidata": "Q148521"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q148521",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q155721",
+  "type": "mountain",
+  "names": {
+   "de": "Brocken",
+   "en": "Brocken"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 51.7991251,
+   "lon": 10.6156365
+  },
+  "attributes": {
+   "country": "country:DE",
+   "countries": [
+    "country:DE"
+   ],
+   "continent": "europe",
+   "elevation_m": 1142.1,
+   "sitelinks": 41,
+   "kind": "mountain",
+   "wikidata": "Q155721"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q155721",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q277441",
+  "type": "mountain",
+  "names": {
+   "de": "Mount Wilhelm",
+   "en": "Mount Wilhelm"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -5.7799986,
+   "lon": 145.0295844
+  },
+  "attributes": {
+   "country": "country:PG",
+   "countries": [
+    "country:PG"
+   ],
+   "continent": "oceania",
+   "elevation_m": 4509,
+   "sitelinks": 41,
+   "kind": "mountain",
+   "wikidata": "Q277441"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q277441",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q451697",
+  "type": "mountain",
+  "names": {
+   "de": "Ama Dablam",
+   "en": "Ama Dablam"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 27.861111111111,
+   "lon": 86.861388888889
+  },
+  "attributes": {
+   "country": "country:NP",
+   "countries": [
+    "country:NP"
+   ],
+   "continent": "asia",
+   "elevation_m": 6814,
+   "sitelinks": 41,
+   "kind": "mountain",
+   "wikidata": "Q451697"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q451697",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q495501",
+  "type": "mountain",
+  "names": {
+   "de": "Kŭmgangsan",
+   "en": "Mount Kumgang"
+  },
+  "aliases": [
+   "Mount Kumgang"
+  ],
+  "location": {
+   "lat": 38.656763888889,
+   "lon": 128.10490277778
+  },
+  "attributes": {
+   "country": "country:KP",
+   "countries": [
+    "country:KP"
+   ],
+   "continent": "asia",
+   "elevation_m": 1638,
+   "sitelinks": 41,
+   "kind": "mountain",
+   "wikidata": "Q495501"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q495501",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q540520",
+  "type": "mountain",
+  "names": {
+   "de": "Har Meron",
+   "en": "Meron"
+  },
+  "aliases": [
+   "Meron"
+  ],
+  "location": {
+   "lat": 32.997777777778,
+   "lon": 35.413611111111
+  },
+  "attributes": {
+   "country": "country:IL",
+   "countries": [
+    "country:IL"
+   ],
+   "continent": "asia",
+   "elevation_m": 1208,
+   "sitelinks": 41,
+   "kind": "mountain",
+   "wikidata": "Q540520"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q540520",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q578862",
+  "type": "mountain",
+  "names": {
+   "de": "Pico Cristóbal Colón",
+   "en": "Pico Cristóbal Colón"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 10.838333333333,
+   "lon": -73.686666666667
+  },
+  "attributes": {
+   "country": "country:CO",
+   "countries": [
+    "country:CO"
+   ],
+   "continent": "south-america",
+   "elevation_m": 5775,
+   "sitelinks": 41,
+   "kind": "mountain",
+   "wikidata": "Q578862"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q578862",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q646398",
+  "type": "mountain",
+  "names": {
+   "de": "Kongur",
+   "en": "Kongur Tagh"
+  },
+  "aliases": [
+   "Kongur Tagh"
+  ],
+  "location": {
+   "lat": 38.593888888889,
+   "lon": 75.313333333333
+  },
+  "attributes": {
+   "country": "country:CN",
+   "countries": [
+    "country:CN"
+   ],
+   "continent": "asia",
+   "elevation_m": 7649,
+   "sitelinks": 41,
+   "kind": "mountain",
+   "wikidata": "Q646398"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q646398",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q822326",
+  "type": "mountain",
+  "names": {
+   "de": "Tahat",
+   "en": "Mount Tahat"
+  },
+  "aliases": [
+   "Mount Tahat"
+  ],
+  "location": {
+   "lat": 23.288888888889,
+   "lon": 5.5336111111111
+  },
+  "attributes": {
+   "country": "country:DZ",
+   "countries": [
+    "country:DZ"
+   ],
+   "continent": "africa",
+   "elevation_m": 2908,
+   "sitelinks": 41,
+   "kind": "mountain",
+   "wikidata": "Q822326"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q822326",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q870063",
+  "type": "mountain",
+  "names": {
+   "de": "Hkakabo Razi",
+   "en": "Hkakabo Razi"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 28.333055555556,
+   "lon": 97.466666666667
+  },
+  "attributes": {
+   "country": "country:MM",
+   "countries": [
+    "country:MM"
+   ],
+   "continent": "asia",
+   "elevation_m": 5881,
+   "sitelinks": 41,
+   "kind": "mountain",
+   "wikidata": "Q870063"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q870063",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q48877",
+  "type": "mountain",
+  "names": {
+   "de": "Schiwelutsch",
+   "en": "Shiveluch"
+  },
+  "aliases": [
+   "Shiveluch"
+  ],
+  "location": {
+   "lat": 56.653633333333,
+   "lon": 161.36296666667
+  },
+  "attributes": {
+   "country": "country:RU",
+   "countries": [
+    "country:RU"
+   ],
+   "continent": "europe",
+   "elevation_m": 3283,
+   "sitelinks": 41,
+   "kind": "mountain",
+   "wikidata": "Q48877"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q48877",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q62467",
+  "type": "mountain",
+  "names": {
+   "de": "Comapedrosa",
+   "en": "Coma Pedrosa"
+  },
+  "aliases": [
+   "Coma Pedrosa"
+  ],
+  "location": {
+   "lat": 42.5918057015,
+   "lon": 1.44365450486
+  },
+  "attributes": {
+   "country": "country:AD",
+   "countries": [
+    "country:AD"
+   ],
+   "continent": "europe",
+   "elevation_m": 2942,
+   "sitelinks": 41,
+   "kind": "mountain",
+   "wikidata": "Q62467"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q62467",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q211665",
+  "type": "mountain",
+  "names": {
+   "de": "Askja",
+   "en": "Askja"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 65.03,
+   "lon": -16.75
+  },
+  "attributes": {
+   "country": "country:IS",
+   "countries": [
+    "country:IS"
+   ],
+   "continent": "europe",
+   "elevation_m": 1516,
+   "sitelinks": 40,
+   "kind": "volcano",
+   "wikidata": "Q211665"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q211665",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q322824",
+  "type": "mountain",
+  "names": {
+   "de": "Botrange",
+   "en": "Signal de Botrange"
+  },
+  "aliases": [
+   "Signal de Botrange"
+  ],
+  "location": {
+   "lat": 50.501667,
+   "lon": 6.093056
+  },
+  "attributes": {
+   "country": "country:BE",
+   "countries": [
+    "country:BE"
+   ],
+   "continent": "europe",
+   "elevation_m": 694.2,
+   "sitelinks": 40,
+   "kind": "mountain",
+   "wikidata": "Q322824"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q322824",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q586212",
+  "type": "mountain",
+  "names": {
+   "de": "Monte Pissis",
+   "en": "Monte Pissis"
+  },
+  "aliases": [],
+  "location": {
+   "lat": -27.755277777778,
+   "lon": -68.799166666667
+  },
+  "attributes": {
+   "country": "country:AR",
+   "countries": [
+    "country:AR"
+   ],
+   "continent": "south-america",
+   "elevation_m": 6795,
+   "sitelinks": 40,
+   "kind": "mountain",
+   "wikidata": "Q586212"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q586212",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q594387",
+  "type": "mountain",
+  "names": {
+   "de": "Mount Baker",
+   "en": "Mount Baker"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 48.7773426,
+   "lon": -121.8132008
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "elevation_m": 3286,
+   "sitelinks": 40,
+   "kind": "mountain",
+   "wikidata": "Q594387"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q594387",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q692922",
+  "type": "mountain",
+  "names": {
+   "de": "Novarupta",
+   "en": "Novarupta"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 58.266666666667,
+   "lon": -155.15666666667
+  },
+  "attributes": {
+   "country": "country:US",
+   "countries": [
+    "country:US"
+   ],
+   "continent": "north-america",
+   "elevation_m": 841,
+   "sitelinks": 40,
+   "kind": "mountain",
+   "wikidata": "Q692922"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q692922",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q825709",
+  "type": "mountain",
+  "names": {
+   "de": "Gunnbjørns Fjeld",
+   "en": "Gunnbjørn Fjeld"
+  },
+  "aliases": [
+   "Gunnbjørn Fjeld"
+  ],
+  "location": {
+   "lat": 68.9195,
+   "lon": -29.898533333333
+  },
+  "attributes": {
+   "country": "country:GL",
+   "countries": [
+    "country:GL"
+   ],
+   "continent": "north-america",
+   "elevation_m": 3694,
+   "sitelinks": 40,
+   "kind": "mountain",
+   "wikidata": "Q825709"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q825709",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q933778",
+  "type": "mountain",
+  "names": {
+   "de": "Rakaposhi",
+   "en": "Rakaposhi"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 36.1425,
+   "lon": 74.489166666667
+  },
+  "attributes": {
+   "country": "country:PK",
+   "countries": [
+    "country:PK"
+   ],
+   "continent": "asia",
+   "elevation_m": 7788,
+   "sitelinks": 40,
+   "kind": "mountain",
+   "wikidata": "Q933778"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q933778",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q1018862",
+  "type": "mountain",
+  "names": {
+   "de": "Bárðarbunga",
+   "en": "Bárðarbunga"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 64.640833333333,
+   "lon": -17.527777777778
+  },
+  "attributes": {
+   "country": "country:IS",
+   "countries": [
+    "country:IS"
+   ],
+   "continent": "europe",
+   "elevation_m": 2010,
+   "sitelinks": 40,
+   "kind": "mountain",
+   "wikidata": "Q1018862"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q1018862",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q14052",
+  "type": "mountain",
+  "names": {
+   "de": "Sangay",
+   "en": "Sangay volcano"
+  },
+  "aliases": [
+   "Sangay volcano"
+  ],
+  "location": {
+   "lat": -2.0025,
+   "lon": -78.340833333333
+  },
+  "attributes": {
+   "country": "country:EC",
+   "countries": [
+    "country:EC"
+   ],
+   "continent": "south-america",
+   "elevation_m": 5230,
+   "sitelinks": 40,
+   "kind": "mountain",
+   "wikidata": "Q14052"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q14052",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ },
+ {
+  "id": "mountain:Q15122",
+  "type": "mountain",
+  "names": {
+   "de": "Weisshorn",
+   "en": "Weisshorn"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 46.101666666667,
+   "lon": 7.7161111111111
+  },
+  "attributes": {
+   "country": "country:CH",
+   "countries": [
+    "country:CH"
+   ],
+   "continent": "europe",
+   "elevation_m": 4512,
+   "sitelinks": 40,
+   "kind": "mountain",
+   "wikidata": "Q15122"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-09-18",
+   "source_id": "Q15122",
+   "license": "CC0",
+   "last_updated": "2026-09-18"
+  }
+ }
+]

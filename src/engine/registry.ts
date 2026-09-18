@@ -5,6 +5,7 @@ import * as countries from './generators/countries'
 import * as rc from './generators/regionsCities'
 import * as im from './generators/imagesMaps'
 import * as pl from './generators/plates'
+import * as na from './generators/nature'
 import type { CategoryId } from './types'
 
 const all: Generator[] = [
@@ -14,6 +15,7 @@ const all: Generator[] = [
   rc.regionFlagToRegion, rc.regionToCountry, rc.regionCapital, rc.cityToCountry, rc.cityToRegion, rc.cityInput,
   im.imageToLandmark, im.imageToCountry, im.imageToCity, im.landmarkToCountry, im.landmarkToCity, im.countryOnMap, im.regionOnMap,
   pl.plateToCity, pl.cityToPlate, pl.plateInput,
+  na.riverToCountry, na.lakeToCountry, na.mountainToCountry, na.riverLonger, na.lakeLarger, na.mountainHigher, na.waterOnMap, na.mountainOnMap,
 ]
 
 export const registry = new Map<string, Generator>(all.map((g) => [g.id, g]))
