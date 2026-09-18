@@ -9,7 +9,7 @@ import * as na from './generators/nature'
 import type { CategoryId } from './types'
 
 const all: Generator[] = [
-  flags.flagToCountry, flags.countryToFlag, flags.flagToCountryInput, flags.flagToRegion, flags.regionToFlag, flags.flagToRegionMap, flags.flagToCountryMap, flags.regionFlagToCountry,
+  flags.flagToCountry, flags.countryToFlag, flags.flagToCountryInput, flags.flagToRegion, flags.regionToFlag, flags.flagToRegionMap, flags.flagToCountryMap, flags.regionFlagToCountry, flags.flagToEuropeMap,
   capitals.countryToCapital, capitals.capitalToCountry, capitals.capitalInput,
   countries.countryAttribute, countries.neighborOfCountry, countries.countryTrueFalse,
   rc.regionFlagToRegion, rc.regionToCountry, rc.regionCapital, rc.cityToCountry, rc.cityToRegion, rc.cityInput,
@@ -25,6 +25,6 @@ export function register(g: Generator) {
 }
 
 export function generatorsFor(category: CategoryId): Generator[] {
-  if (category === 'mixed') return [...registry.values()].filter((g) => !['flag_to_country_input', 'capital_input', 'city_input', 'plate_input', 'flag_to_region_map', 'region_to_flag'].includes(g.id))
+  if (category === 'mixed') return [...registry.values()].filter((g) => !['flag_to_country_input', 'capital_input', 'city_input', 'plate_input', 'flag_to_region_map', 'region_to_flag', 'flag_to_europe_map'].includes(g.id))
   return [...registry.values()].filter((g) => g.category === category)
 }

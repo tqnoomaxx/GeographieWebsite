@@ -2,12 +2,14 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
-import { buildSession, checkAnswer, extendSession, labelFor, type QuizSession } from '@/engine/session'
+import { buildSession, extendSession, labelFor, recordAnswer, type QuizSession } from '@/engine/session'
+import { entityFilterFor, fromQuery, toQuery } from './setup'
 import type { CategoryId, Question } from '@/engine/types'
 import { getRepository } from '@/services/progress'
 import { applySession, recomputeLongQuests, type RoundOutcome } from '@/services/gamification'
 import { XP } from '@/config/xp'
 import { Card, ErrorState, Skeleton, ProgressBar, entityPath } from '@/ui'
+import { Icons } from '@/ui/icons'
 import { WorldMap, RegionMapView } from '@/ui/maps'
 import { ReportDialog } from '@/features/legal/ReportDialog'
 
@@ -26,11 +28,8 @@ export default function RoundPage() {
   const [outcome, setOutcome] = useState<RoundOutcome | null>(null)
   const startedRef = useRef(false)
 
-  const scope = params.get('scope') ?? 'world'
-  const lenParam = params.get('len') ?? '10'
-  const length: number | 'all' = lenParam === 'all' ? 'all' : Number(lenParam)
-  const only = params.get('only')?.split(',').filter(Boolean)
-  const gens = params.get('gens')?.split(',').filter(Boolean)
+  const cfg = fromQuery(category ?? 'flags', params)
+  const { scope, length, only, gens } = cfg
 
   const [stored, setStored] = useState<QuizSession | null | undefined>(sessionId ? undefined : null)
   useEffect(() => {
@@ -56,7 +55,7 @@ export default function RoundPage() {
         }
         const progress = await repo.getAllEntityProgress()
         const ctx = geo.contextFor(sc)
-        const s = buildSession(ctx, { category: cat, scope: sc, length, progress, onlyEntities: only, generatorIds: gens, mode: only ? 'repeat_errors' : undefined })
+        const s = buildSession(ctx, { category: cat, scope: sc, length, progress, onlyEntities: only, generatorIds: gens, mode: only ? 'repeat_errors' : undefined, entityFilter: entityFilterFor(cfg.kinds), repeatMistakes: cfg.repeat, collection: cfg.collection })
         if (!s.questions.length) throw new Error(t('play.no_questions'))
         setSession(s)
         if (s.mode === 'full') await repo.saveSession(s)
@@ -85,11 +84,8 @@ export default function RoundPage() {
   const answer = useCallback(
     async (given: string) => {
       if (!session) return
-      const q = session.questions[session.position]
-      if (!q || q.given !== undefined) return
-      const correct = checkAnswer(q.question, given)
-      const questions = session.questions.map((x, i) => (i === session.position ? { ...x, given, correct, answeredAt: new Date().toISOString() } : x))
-      const next = { ...session, questions, score: session.score + (correct ? 1 : 0) }
+      const next = recordAnswer(session, given)
+      if (next === session) return
       setSession(next)
       if (next.mode === 'full') await repo.saveSession(next)
     },
@@ -131,15 +127,19 @@ export default function RoundPage() {
         <button className="btn-ghost -ml-2 px-2 text-ink-2" onClick={quit}>
           ← {t('nav.quit')}
         </button>
-        <div className="ml-auto text-sm tabular-nums text-ink-2">{t('play.question_of', { n: session.position + 1, total })}</div>
+        <div className="ml-auto flex items-center gap-3 text-sm tabular-nums text-ink-2">
+          {session.streak > 1 && <span className="inline-flex items-center gap-1 text-warn"><Icons.flame className="h-4 w-4" /> {session.streak}</span>}
+          <span>{session.points.toLocaleString('de-DE')} {t('play.points')}</span>
+          <span>{t('play.question_of', { n: session.position + 1, total })}</span>
+        </div>
       </div>
       <ProgressBar value={session.position / total} className="mb-4" />
-      <QuestionView key={current.question.id} q={current.question} given={current.given} correct={current.correct} onAnswer={answer} onNext={advance} />
+      <QuestionView key={current.question.id} q={current.question} given={current.given} correct={current.correct} repeated={current.repeated} attempts={current.attempts ?? 0} lastWrong={(session as QuizSession & { lastWrongMapGuess?: string }).lastWrongMapGuess} onAnswer={answer} onNext={advance} />
     </div>
   )
 }
 
-function QuestionView({ q, given, correct, onAnswer, onNext }: { q: Question; given?: string; correct?: boolean; onAnswer: (v: string) => void; onNext: () => void }) {
+function QuestionView({ q, given, correct, repeated, attempts, lastWrong, onAnswer, onNext }: { q: Question; given?: string; correct?: boolean; repeated?: boolean; attempts: number; lastWrong?: string; onAnswer: (v: string) => void; onNext: () => void }) {
   const { t } = useTranslation()
   const geo = useGeoData()
   const [text, setText] = useState('')
@@ -170,7 +170,7 @@ function QuestionView({ q, given, correct, onAnswer, onNext }: { q: Question; gi
   const xp = correct ? XP.correct_answer + (XP.difficulty_bonus[q.difficulty] ?? 0) : XP.wrong_answer
 
   return (
-    <div className="flex flex-1 flex-col">
+    <div className="flex flex-1 flex-col" data-question-type={q.question_type} data-answer={q.answer}>
       {q.media && (
         <figure className="mb-4 flex flex-col items-center">
           <img
@@ -186,16 +186,17 @@ function QuestionView({ q, given, correct, onAnswer, onNext }: { q: Question; gi
           )}
         </figure>
       )}
+      {repeated && <p className="mb-1 text-center text-xs font-semibold uppercase tracking-wider text-accent">↻ {t('play.repeated')}</p>}
       <h1 className={`${q.map ? 'mb-2 text-lg md:text-xl' : 'mb-4 text-xl md:text-2xl'} text-center font-semibold`}>{t(q.prompt.key, q.prompt.params)}</h1>
 
       {q.map && (
         <div className="mb-4">
           {q.map.kind === 'world' ? (
-            <WorldMap onPick={onAnswer} disabled={answered} correct={answered ? q.answer : undefined} wrong={answered && !correct ? given : undefined} />
+            <WorldMap onPick={onAnswer} disabled={answered} correct={answered ? q.answer : undefined} wrong={!answered ? lastWrong : undefined} />
           ) : (
-            <RegionMapView iso2={q.map.iso2!} onPick={onAnswer} disabled={answered} correct={answered ? q.answer : undefined} wrong={answered && !correct ? given : undefined} />
+            <RegionMapView iso2={q.map.kind === 'europe' ? 'europe' : q.map.iso2!} onPick={onAnswer} disabled={answered} correct={answered ? q.answer : undefined} wrong={!answered ? lastWrong : undefined} />
           )}
-          {!answered && <p className="mt-2 text-center text-sm text-ink-2">{t('play.map_hint')}</p>}
+          {!answered && <p className="mt-2 text-center text-sm text-ink-2">{attempts > 0 ? `${t('play.try_again')} (${attempts})` : t('play.map_hint')}</p>}
         </div>
       )}
 
@@ -254,8 +255,9 @@ function QuestionView({ q, given, correct, onAnswer, onNext }: { q: Question; gi
 
       {answered && (
         <div className={`mt-4 rounded-2xl p-4 ${correct ? 'bg-ok-soft' : 'bg-bad-soft'}`} role="status" aria-live="polite">
-          <p className="text-lg font-semibold">{correct ? `✓ ${t('play.correct')}` : `✕ ${t('play.wrong')}`}</p>
-          {!correct && <p>{t('play.would_be', { answer: correctLabel })}</p>}
+          <p className="text-lg font-semibold">{correct ? `✓ ${t('play.correct')}` : q.question_type === 'map_click' ? `✓ ${t('play.found_after', { n: attempts })}` : `✕ ${t('play.wrong')}`}</p>
+          {!correct && q.question_type !== 'map_click' && <p>{t('play.would_be', { answer: correctLabel })}</p>}
+          {q.question_type === 'map_click' && <p>{correctLabel}</p>}
           {q.explanation && <p className="mt-1 text-sm text-ink-2">{q.explanation}</p>}
           <div className="mt-2 flex items-center gap-3 text-sm">
             <span className="font-medium">{correct ? t('play.xp', { xp }) : t('play.xp_try', { xp })}</span>
@@ -285,14 +287,22 @@ function ResultView({ session, outcome }: { session: QuizSession; outcome: Round
   const correct = answered.filter((q) => q.correct).length
   const wrong = [...new Set(answered.filter((q) => !q.correct).map((q) => q.question.entities[0]))]
   const pct = answered.length ? Math.round((correct / answered.length) * 100) : 0
-  const gensQ = session.generatorIds ? `&gens=${session.generatorIds.join(',')}` : ''
-  const again = `/play/${session.category}/round?scope=${encodeURIComponent(session.scope)}&len=${session.length}${gensQ}`
-  const repeat = `/play/${session.category}/round?scope=${encodeURIComponent(session.scope)}&len=${wrong.length}&only=${wrong.join(',')}${gensQ}`
+  const base = { category: session.category, scope: session.scope, gens: session.generatorIds, collection: session.collection, repeat: session.repeatMistakes ?? true }
+  const kinds = session.entityIds ? (['country', 'region'] as const).filter((k) => session.entityIds!.some((id) => id.startsWith(k + ':'))) : undefined
+  const again = `/play/${session.category}/round?${toQuery({ ...base, length: session.length, kinds: kinds ? [...kinds] : undefined })}`
+  const repeat = `/play/${session.category}/round?${toQuery({ ...base, length: wrong.length, only: wrong, repeat: false })}`
+  const firstTry = answered.filter((q) => q.correct && !q.repeated).length
+  const baseTotal = session.questions.filter((q) => !q.repeated).length
   return (
     <div className="mx-auto w-full max-w-xl px-4 pb-24 pt-8 text-center md:pb-10">
       <h1 className="text-2xl font-semibold">{session.mode === 'full' ? t('play.full_done') : t('play.round_done')}</h1>
       <p className="mt-4 text-4xl font-semibold tabular-nums">{t('play.result', { correct, total: answered.length })}</p>
       <p className="text-ink-2">{pct} %</p>
+      <div className="mx-auto mt-4 grid max-w-sm grid-cols-3 gap-2 text-sm">
+        <Card className="p-2"><div className="font-semibold tabular-nums">{session.points.toLocaleString('de-DE')}</div><div className="text-xs text-ink-2">{t('play.points')}</div></Card>
+        <Card className="p-2"><div className="font-semibold tabular-nums">{session.bestStreak}</div><div className="text-xs text-ink-2">{t('play.best_streak')}</div></Card>
+        <Card className="p-2"><div className="font-semibold tabular-nums">{firstTry}/{baseTotal}</div><div className="text-xs text-ink-2">{t('play.first_try')}</div></Card>
+      </div>
       {outcome ? <p className="mt-2 text-lg font-medium text-accent">+{outcome.xp} XP</p> : <Skeleton className="mx-auto mt-2 h-6 w-24" />}
       {outcome?.levelUp && <p className="mt-2 font-medium">⭐ {t('play.level_up', { level: outcome.levelUp })}</p>}
       {outcome?.newAchievements.map((a) => (

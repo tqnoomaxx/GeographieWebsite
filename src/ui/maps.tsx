@@ -51,6 +51,7 @@ export function WorldMap({
           <path
             key={id ?? i}
             d={path(f as GeoPermissibleObjects) ?? undefined}
+            data-id={id}
             className={`stroke-card stroke-[0.6] transition-colors ${
               isCorrect ? 'fill-ok' : isWrong ? 'fill-bad' : isHi ? 'fill-accent' : 'fill-accent-soft hover:fill-accent/60'
             } ${onPick && !disabled ? 'cursor-pointer' : ''}`}
@@ -111,7 +112,7 @@ export function RegionMapView({
   }, [iso2])
   if (map === undefined) return <div className="skeleton aspect-[3/2] w-full" />
   if (!map) return <div className="card p-6 text-center text-ink-2">Keine Karte verfügbar.</div>
-  const toId = (flagId: string) => flagId.replace('region-', 'region:')
+  const toId = (flagId: string) => flagId.replace('region-', 'region:').replace('country-', 'country:')
   return (
     <svg viewBox={map.viewBox} className="w-full touch-manipulation select-none" role={onPick ? 'group' : 'img'} aria-label={map.label}>
       {map.shapes.map((s) => {
@@ -123,6 +124,7 @@ export function RegionMapView({
           <path
             key={s.flagId}
             d={s.d}
+            data-id={id}
             className={`stroke-card stroke-[0.8] transition-colors ${
               isCorrect ? 'fill-ok' : isWrong ? 'fill-bad' : isHi ? 'fill-accent' : 'fill-accent-soft hover:fill-accent/60'
             } ${onPick && !disabled ? 'cursor-pointer' : ''}`}

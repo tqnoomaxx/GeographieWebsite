@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest'
 import { readFileSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 import { buildContext } from './context'
-import { buildSession, checkAnswer, extendSession, poolFor } from './session'
+import { buildSession, checkAnswer, extendSession, poolFor, recordAnswer } from './session'
 import { matchesAnswer, normalizeAnswer } from './normalize'
 import { createRng } from './rng'
 import { review, initialProgress } from './srs'
@@ -119,5 +119,43 @@ describe('srs + level', () => {
     expect([1, 2, 3, 4].map(xpForLevel)).toEqual([0, 100, 250, 450])
     expect(levelForXp(300).level).toBe(3)
     expect(levelForXp(0).level).toBe(1)
+  })
+})
+
+describe('recordAnswer', () => {
+  it('reiht falsche Antworten vier Positionen später erneut ein und zählt Streak-Punkte', () => {
+    let s = buildSession(ctx('europe'), { category: 'flags', scope: 'europe', length: 10, seed: 'rep', generatorIds: ['flag_to_country'], repeatMistakes: true })
+    const q0 = s.questions[0].question
+    const wrong = q0.options!.find((o) => o.id !== q0.answer)!.id
+    s = recordAnswer(s, wrong)
+    expect(s.questions).toHaveLength(11)
+    expect(s.questions[4].repeated).toBe(true)
+    expect(s.questions[4].question.answer).toBe(q0.answer)
+    s = { ...s, position: 1 }
+    s = recordAnswer(s, s.questions[1].question.answer)
+    s = { ...s, position: 2 }
+    s = recordAnswer(s, s.questions[2].question.answer)
+    expect(s.points).toBe(100 + 115)
+    expect(s.streak).toBe(2)
+  })
+  it('Kartenfragen bleiben bei Fehlklick offen und zählen Versuche', () => {
+    let s = buildSession(ctx('europe'), { category: 'maps', scope: 'europe', length: 3, seed: 'map', generatorIds: ['country_on_map'] })
+    const q = s.questions[0].question
+    s = recordAnswer(s, 'country:XX')
+    expect(s.questions[0].given).toBeUndefined()
+    expect(s.questions[0].attempts).toBe(1)
+    s = recordAnswer(s, q.answer)
+    expect(s.questions[0].given).toBe(q.answer)
+    expect(s.questions[0].correct).toBe(false) // nicht beim ersten Versuch
+    expect(s.questions).toHaveLength(3) // keine Wiederholung bei Karten
+  })
+  it('Distraktoren schließen optisch identische Flaggen aus', () => {
+    const c = ctx('world')
+    const s = buildSession(c, { category: 'flags', scope: 'world', length: 'all', seed: 'vk', generatorIds: ['flag_to_country'] })
+    for (const { question: q } of s.questions) {
+      const vk = c.byId.get(q.answer)?.attributes.visual_key
+      if (!vk) continue
+      for (const o of q.options!) if (o.id !== q.answer) expect(c.byId.get(o.id)?.attributes.visual_key).not.toBe(vk)
+    }
   })
 })

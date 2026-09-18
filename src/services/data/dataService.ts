@@ -67,7 +67,7 @@ export async function loadRegionMap(iso2: string): Promise<RegionMap | null> {
       iso2,
       (async () => {
         const index = await loadIndex()
-        const file = index.region_maps?.[iso2]
+        const file = iso2 === 'europe' ? 'media/maps/regions/europe.json' : index.region_maps?.[iso2]
         if (!file) return null
         const r = await fetch(mediaUrl(file))
         if (!r.ok || !r.headers.get('content-type')?.includes('json')) return null

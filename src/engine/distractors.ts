@@ -14,15 +14,15 @@ export function pickDistractors(
   rng: Rng,
   difficulty: number,
 ): Entity[] {
-  const candidates = pool.filter((e) => e.id !== correct.id && e.names.de !== correct.names.de)
+  const vk = correct.attributes.visual_key as string | undefined
+  const candidates = pool.filter((e) => e.id !== correct.id && e.names.de !== correct.names.de && !(vk && e.attributes.visual_key === vk))
   const neighbors = new Set(ctx.rel.neighbors.get(correct.id) ?? [])
-  const sameContainer = (e: Entity) =>
-    (correct.attributes.country && e.attributes.country === correct.attributes.country) ||
-    (correct.attributes.continent && e.attributes.continent === correct.attributes.continent)
+  const sameCountry = (e: Entity) => !!correct.attributes.country && e.attributes.country === correct.attributes.country
+  const sameContinent = (e: Entity) => !!correct.attributes.continent && e.attributes.continent === correct.attributes.continent
   const tiers: Entity[][] = [
-    candidates.filter((e) => neighbors.has(e.id)),
-    candidates.filter((e) => !neighbors.has(e.id) && sameContainer(e)),
-    candidates.filter((e) => !neighbors.has(e.id) && !sameContainer(e)),
+    candidates.filter((e) => neighbors.has(e.id) || sameCountry(e)),
+    candidates.filter((e) => !neighbors.has(e.id) && !sameCountry(e) && sameContinent(e)),
+    candidates.filter((e) => !neighbors.has(e.id) && !sameCountry(e) && !sameContinent(e)),
   ]
   const result: Entity[] = []
   const seen = new Set<string>()

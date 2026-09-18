@@ -44,7 +44,7 @@ export default function LearnPage() {
   }
 
   return (
-    <Page title={t('learn.title')}>
+    <Page title={t('learn.title')} action={<Link to="/learn/cards?category=flags&collection=countries" className="btn-secondary py-2 text-sm">{t('setup.cards')}</Link>}>
       <div className="mb-4">
         <Chips
           label={t('play.scope')}

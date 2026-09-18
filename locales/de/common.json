@@ -9,15 +9,33 @@
   "play": {
     "title": "Was möchtest du spielen?", "mode": "Spielart", "scope": "Bereich", "length": "Rundenlänge", "all": "Alle {{count}}", "start": "Los geht's",
     "open_runs": "Offene Runden", "resume": "Fortsetzen: {{category}} {{scope}} · {{done}} / {{total}}", "no_questions": "Für diese Auswahl gibt es noch keine Fragen.",
-    "question_of": "{{n}} / {{total}}", "check": "Prüfen", "next": "Weiter", "skip": "Überspringen", "type_answer": "Antwort eingeben …",
+    "question_of": "{{n}} / {{total}}", "repeated": "Wiederholung", "streak": "Serie", "points": "Punkte", "try_again": "Nicht ganz – versuch es weiter.", "found_after": "Gefunden nach {{n}} Versuchen", "first_try": "beim ersten Versuch", "best_streak": "Beste Serie", "check": "Prüfen", "next": "Weiter", "skip": "Überspringen", "type_answer": "Antwort eingeben …",
     "correct": "Richtig!", "wrong": "Nicht ganz", "would_be": "Richtig wäre: {{answer}}", "xp": "+{{xp}} XP", "xp_try": "+{{xp}} XP für den Versuch",
     "round_done": "Runde beendet 🎉", "full_done": "Alles geschafft! 🏁", "result": "{{correct}} / {{total}} richtig", "again": "Noch einmal", "repeat_errors": "Fehler wiederholen ({{count}})", "continue": "Weiter",
     "new_achievement": "Neues Achievement", "quest_done": "Quest erledigt", "level_up": "Level {{level}} erreicht!",
     "guest_hint": "Dein Ergebnis wurde lokal gespeichert. Mit einem kostenlosen Account kannst du deinen Fortschritt später auf mehreren Geräten synchronisieren.", "later": "Später",
     "errors_title": "{{count}} Fehler", "map_hint": "Tippe auf die Karte", "report": "Frage melden", "source": "Quelle", "paused": "Runde gespeichert. Du kannst sie jederzeit fortsetzen."
   },
+  "setup": {
+    "collection": "Sammlung", "collection_hint": "Was kommt in die Runde?", "mode": "Fragetyp", "mode_hint": "So sieht deine Aufgabe aus", "training": "Lernmodus", "training_hint": "Was passiert bei einem Fehler?",
+    "repeat": "Fehler wiederholen", "repeat_desc": "Falsche Aufgaben kommen in dieser Runde später erneut.", "classic": "Klassische Runde", "classic_desc": "Jede Aufgabe erscheint genau einmal.",
+    "complete": "komplette Europareise", "europe_note": "{{count}} Gebiete in zufälliger Reihenfolge auf einer Karte. Falsche Klicks zählen als Versuch, die Aufgabe bleibt offen, bis du das Gebiet gefunden hast.",
+    "mastered": "{{mastered}} von {{total}} gemeistert", "cards": "Lernkarten"
+  },
+  "modes_desc": {
+    "flag_to_name": "Du siehst die Flagge und wählst ihren Namen.", "name_to_flag": "Du siehst den Namen und wählst das Motiv.", "flag_to_map": "Du suchst Land oder Region auf der Karte.", "flag_input": "Du erkennst die Flagge ohne Antwortvorgaben.",
+    "region_flags": "Bundesländer, Provinzen, Kantone und Regionen.", "country_flags": "Nur Staaten und Gebiete.",
+    "attributes": "Währung, Sprache, Kontinent.", "neighbors": "Welches Land grenzt an …?", "true_false": "Einwohner vergleichen.",
+    "country_to_capital": "Zum Land die richtige Hauptstadt finden.", "capital_to_country": "Die Hauptstadt ihrem Land zuordnen.", "capital_input": "Hauptstadt ohne Vorgaben eintippen.",
+    "region_to_country": "Zu welchem Land gehört die Region?", "region_capital": "Zur Region die Hauptstadt finden.", "city_to_country": "Eine bekannte Stadt dem Land zuordnen.", "city_to_region": "Stadt der Region zuordnen.",
+    "countries_on_map": "Land auf der Weltkarte antippen.", "regions_on_map": "Region auf der Landeskarte antippen.",
+    "image_to_landmark": "Welcher berühmte Ort ist auf dem Bild?", "image_to_city": "Du siehst die Stadt und wählst ihren Namen.", "image_to_country": "In welchem Land liegt dieser Ort?",
+    "landmark_to_country": "In welchem Land steht das Bauwerk?", "landmark_to_city": "In welcher Stadt steht es?",
+    "to_country": "Fluss, See oder Berg dem Land zuordnen.", "compare": "Länger, größer, höher?", "on_map": "Das Land auf der Weltkarte finden.",
+    "plate_to_city": "Woher kommt das Kennzeichen?", "city_to_plate": "Welches Kürzel gehört zum Ort?", "plate_input": "Ort zum Kennzeichen eintippen."
+  },
   "modes": {
-    "auto": "Automatisch", "flag_to_name": "Flagge → Name", "name_to_flag": "Name → Flagge", "flag_to_map": "Flagge → Karte", "flag_input": "Eintippen", "region_flags": "Nur Regionalflaggen", "country_flags": "Nur Länderflaggen",
+    "auto": "Automatisch", "europe_map": "Europa-Karte", "flag_to_name": "Flagge → Name", "name_to_flag": "Name → Flagge", "flag_to_map": "Flagge → Karte", "flag_input": "Eintippen", "region_flags": "Nur Regionalflaggen", "country_flags": "Nur Länderflaggen",
     "attributes": "Länderwissen", "neighbors": "Nachbarländer", "true_false": "Wahr / Falsch",
     "country_to_capital": "Land → Hauptstadt", "capital_to_country": "Hauptstadt → Land", "capital_input": "Eintippen",
     "region_to_country": "Region → Land", "region_capital": "Regionshauptstadt", "city_to_country": "Stadt → Land", "city_to_region": "Stadt → Region",
@@ -36,7 +54,7 @@
     "city_to_country": "In welchem Land liegt {{name}}?", "city_to_region": "In welcher Region liegt {{name}}?",
     "image_to_landmark": "Welche Sehenswürdigkeit ist das?", "image_to_country": "In welchem Land ist das?", "image_to_city": "Welche Stadt ist das?",
     "landmark_to_country": "In welchem Land steht {{name}}?", "landmark_to_city": "Wo befindet sich {{name}}?",
-    "country_on_map": "Wo liegt {{name}}?", "flag_to_country_map": "Wo liegt das Land mit dieser Flagge?", "flag_to_region_map": "Wo liegt die Region mit dieser Flagge ({{country}})?", "region_flag_to_country": "Zu welchem Land gehört diese Regionalflagge?", "region_on_map": "Wo liegt {{name}} ({{country}})?",
+    "country_on_map": "Wo liegt {{name}}?", "flag_to_country_map": "Wo liegt das Land mit dieser Flagge?", "flag_to_region_map": "Wo liegt die Region mit dieser Flagge ({{country}})?", "region_flag_to_country": "Zu welchem Land gehört diese Regionalflagge?", "flag_to_europe_map": "Finde die Region mit dieser Flagge auf der Europakarte ({{country}}).", "region_on_map": "Wo liegt {{name}} ({{country}})?",
     "plate_to_city": "Woher kommt das Kennzeichen {{code}}?", "city_to_plate": "Welches Kennzeichen gehört zu {{name}}?", "plate_input": "Welcher Ort gehört zum Kennzeichen {{code}}?",
     "river_to_country": "Durch welches Land fließt {{name}}?", "lake_to_country": "In welchem Land liegt der See {{name}}?", "mountain_to_country": "In welchem Land liegt {{name}}?",
     "river_longer": "Welcher Fluss ist länger?", "lake_larger": "Welcher See ist größer?", "mountain_higher": "Welcher Berg ist höher?", "water_on_map": "In welchem Land liegt {{name}}?", "mountain_on_map": "In welchem Land liegt {{name}}?"
@@ -87,6 +105,7 @@
     "delete": "Account löschen", "delete_confirm": "Account und alle Daten im Konto endgültig löschen?", "delete_hint": "Löscht Konto, Fortschritt und Profil auf dem Server. Lokale Daten auf diesem Gerät bleiben, bis du sie in den Einstellungen löschst.",
     "profile_not_found": "Dieses Profil ist nicht öffentlich oder existiert nicht.", "synced": "Fortschritt wird mit deinem Konto synchronisiert.", "login_hint": "Mit einem kostenlosen Konto spielst du auf mehreren Geräten weiter."
   },
+  "cards": { "hide_names": "Namen verdecken", "items": "Karten", "known": "gekonnt" },
   "search": { "placeholder": "Land, Stadt, Region, Sehenswürdigkeit …", "no_results": "Keine Treffer.", "hint": "Tippe mindestens zwei Zeichen." },
   "type": { "country": "Land", "region": "Region", "city": "Stadt", "landmark": "Sehenswürdigkeit", "license_plate": "Kennzeichen", "river": "Fluss", "lake": "See", "mountain": "Berg" },
   "common": { "loading": "Wird geladen …", "error": "Etwas ist schiefgelaufen.", "retry": "Erneut versuchen", "close": "Schließen", "save": "Speichern", "cancel": "Abbrechen", "yes": "Ja", "no": "Nein", "offline": "Du bist offline. Bereits geladene Inhalte funktionieren weiter.", "favorite": "Favorit", "unfavorite": "Favorit entfernen", "more": "Mehr", "less": "Weniger", "of": "von", "true": "Wahr", "false": "Falsch" },

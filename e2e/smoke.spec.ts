@@ -9,9 +9,12 @@ function watchErrors(page: Page) {
 
 /** Wählt die erste Antwort (Option oder Kartenfläche) per DOM-Event, unabhängig von SVG-Geometrie. */
 async function pickAnswer(page: Page) {
-  const group = page.getByRole('group').first()
-  await expect(group).toBeVisible()
-  await group.getByRole('button').first().dispatchEvent('click')
+  const root = page.locator('[data-question-type]')
+  await expect(root).toBeVisible()
+  const type = await root.getAttribute('data-question-type')
+  const answer = await root.getAttribute('data-answer')
+  if (type === 'map_click') await page.locator(`[data-id="${answer}"]`).first().dispatchEvent('click')
+  else await page.getByRole('group').first().getByRole('button').first().dispatchEvent('click')
 }
 
 test('Startseite und Kategorien', async ({ page }) => {
@@ -24,7 +27,7 @@ test('Startseite und Kategorien', async ({ page }) => {
 
 test('Flaggenrunde spielen bis zum Ergebnis', async ({ page }) => {
   const errors = watchErrors(page)
-  await page.goto('play/flags/round?scope=europe&len=10')
+  await page.goto('play/flags/round?scope=europe&len=10&repeat=0&kinds=country')
   for (let i = 0; i < 10; i++) {
     await expect(page.getByText(new RegExp(`^${i + 1} / 10$`))).toBeVisible()
     const heading = page.getByRole('heading', { level: 1 })
@@ -63,7 +66,7 @@ test('„Alle“-Runde speichern und fortsetzen', async ({ page }) => {
 
 test('Kartenfrage', async ({ page }) => {
   const errors = watchErrors(page)
-  await page.goto('play/maps/round?scope=europe&len=10')
+  await page.goto('play/maps/round?scope=europe&len=10&repeat=0')
   await pickAnswer(page)
   await expect(page.getByRole('status')).toBeVisible()
   expect(errors).toEqual([])
@@ -115,7 +118,7 @@ test('Lernen, Suche, Einstellungen', async ({ page }) => {
 
 test('Kennzeichen-Runde Deutschland', async ({ page }) => {
   const errors = watchErrors(page)
-  await page.goto('play/license_plates/round?scope=country:DE&len=10')
+  await page.goto('play/license_plates/round?scope=country:DE&len=10&repeat=0')
   await expect(page.getByRole('heading', { level: 1 })).toContainText(/Kennzeichen/)
   const input = page.getByPlaceholder('Antwort eingeben …')
   if (await input.count()) {
@@ -129,7 +132,7 @@ test('Kennzeichen-Runde Deutschland', async ({ page }) => {
 test('Gewässer- und Naturrunde', async ({ page }) => {
   const errors = watchErrors(page)
   for (const cat of ['water', 'nature']) {
-    await page.goto(`play/${cat}/round?scope=europe&len=5`)
+    await page.goto(`play/${cat}/round?scope=europe&len=5&repeat=0`)
     await expect(page.getByRole('heading', { level: 1 })).toBeVisible()
     await pickAnswer(page)
     await expect(page.getByRole('status')).toBeVisible()
@@ -157,4 +160,24 @@ test('Flussseite und Liste', async ({ page }) => {
   await page.getByRole('link', { name: /Donau/ }).click()
   await expect(page.getByRole('heading', { name: /Donau/ })).toBeVisible()
   await expect(page.getByText(/2.850 km/)).toBeVisible()
+})
+
+test('Setup mit Sammlung und Fehlerwiederholung', async ({ page }) => {
+  await page.goto('play/flags')
+  await page.getByRole('button', { name: /Deutschland/ }).first().click()
+  await page.getByRole('button', { name: /Flagge → Karte/ }).click()
+  await page.getByRole('button', { name: "Los geht's" }).click()
+  await expect(page.locator('[data-question-type="map_click"]')).toBeVisible()
+  await page.locator('[data-id="region:DE-BY"]').first().dispatchEvent('click')
+  const answer = await page.locator('[data-question-type]').getAttribute('data-answer')
+  if (answer !== 'region:DE-BY') await expect(page.getByText(/versuch es weiter/)).toBeVisible()
+  await pickAnswer(page)
+  await expect(page.getByRole('status')).toBeVisible()
+})
+
+test('Lernkarten-Explorer', async ({ page }) => {
+  await page.goto('learn/cards?category=flags&collection=regions-DE')
+  await expect(page.getByText(/16 Karten/)).toBeVisible()
+  await page.getByRole('button', { name: /Namen verdecken/ }).click()
+  await expect(page.getByText('?').first()).toBeVisible()
 })

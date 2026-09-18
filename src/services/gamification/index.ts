@@ -32,7 +32,7 @@ export async function applySession(repo: ProgressRepository, session: QuizSessio
     const ok = !!q.correct
     if (ok) {
       correct++
-      xp += XP.correct_answer + (XP.difficulty_bonus[q.question.difficulty] ?? 0)
+      xp += q.repeated ? XP.wrong_answer : XP.correct_answer + (XP.difficulty_bonus[q.question.difficulty] ?? 0)
     } else {
       xp += XP.wrong_answer
       wrongEntities.push(q.question.entities[0])

@@ -39,7 +39,7 @@ export interface Question {
   accepted?: string[] // für text_input
   options?: QuestionOption[]
   media?: { kind: 'flag' | 'photo' | 'outline'; url?: string; alt: string; attribution?: string; source_url?: string; entityId?: string }
-  map?: { kind: 'world' | 'region'; iso2?: string; targetId: string }
+  map?: { kind: 'world' | 'region' | 'europe'; iso2?: string; targetId: string }
   difficulty: number // 1..3
   entities: string[] // beteiligte Entities für Progress
   explanation?: string

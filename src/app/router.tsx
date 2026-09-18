@@ -11,6 +11,7 @@ const Round = lazy(() => import('@/features/play/RoundPage'))
 const Daily = lazy(() => import('@/features/daily/DailyHubPage'))
 const Puzzle = lazy(() => import('@/features/daily/PuzzlePage'))
 const Learn = lazy(() => import('@/features/learn/LearnPage'))
+const Cards = lazy(() => import('@/features/learn/CardsPage'))
 const Explore = lazy(() => import('@/features/explore/ExplorePage'))
 const CountryPage = lazy(() => import('@/features/explore/CountryPage'))
 const RegionPage = lazy(() => import('@/features/explore/RegionPage'))
@@ -61,6 +62,7 @@ export const router = createBrowserRouter(
         { path: '/daily', element: <Daily /> },
         { path: '/daily/:puzzle', element: <Puzzle /> },
         { path: '/learn', element: <Learn /> },
+        { path: '/learn/cards', element: <Cards /> },
         { path: '/explore', element: <Explore /> },
         { path: '/explore/:list', element: <ListPage /> },
         { path: '/country/:id', element: <CountryPage /> },

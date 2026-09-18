@@ -10,6 +10,8 @@ export type SessionMode = 'standard' | 'full' | 'repeat_errors' | 'daily' | 'lea
 
 export interface SessionQuestion {
   question: Question
+  repeated?: boolean
+  attempts?: number
   given?: string
   correct?: boolean
   answeredAt?: string
@@ -29,8 +31,14 @@ export interface QuizSession {
   /** Nur bei mode=full: noch nicht gestellte Entities zum Fortsetzen. */
   remaining?: string[]
   generatorIds?: string[]
+  entityIds?: string[]
+  collection?: string
+  repeatMistakes?: boolean
   position: number
   score: number
+  points: number
+  streak: number
+  bestStreak: number
   xpEarned: number
 }
 
@@ -44,6 +52,9 @@ export interface BuildOptions {
   onlyEntities?: string[]
   generatorIds?: string[]
   difficulty?: number
+  entityFilter?: (e: Entity) => boolean
+  repeatMistakes?: boolean
+  collection?: string
 }
 
 /** Vereinigt die Pools aller Generatoren einer Kategorie und merkt sich, welche Generatoren eine Entity bedienen. */
@@ -69,6 +80,7 @@ export function buildSession(ctx: GeneratorContext, opts: BuildOptions): QuizSes
     const set = new Set(opts.onlyEntities)
     entities = entities.filter((e) => set.has(e.entity.id))
   }
+  if (opts.entityFilter) entities = entities.filter((e) => opts.entityFilter!(e.entity))
   const mode: SessionMode = opts.mode ?? (opts.length === 'all' ? 'full' : 'standard')
   const ordered =
     opts.length === 'all'
@@ -98,8 +110,14 @@ export function buildSession(ctx: GeneratorContext, opts: BuildOptions): QuizSes
     questions,
     remaining: opts.length === 'all' ? remaining : undefined,
     generatorIds: opts.generatorIds,
+    entityIds: opts.entityFilter ? entities.map((e) => e.entity.id) : undefined,
+    collection: opts.collection,
+    repeatMistakes: opts.repeatMistakes ?? true,
     position: 0,
     score: 0,
+    points: 0,
+    streak: 0,
+    bestStreak: 0,
     xpEarned: 0,
   }
 }
@@ -109,6 +127,7 @@ export function extendSession(session: QuizSession, ctx: GeneratorContext, count
   if (!session.remaining?.length) return session
   const rng = createRng(`${session.seed}-${session.questions.length}`)
   const pool = poolFor(session.category, ctx, session.generatorIds)
+  if (session.entityIds) for (const id of [...pool.keys()]) if (!session.entityIds.includes(id)) pool.delete(id)
   const next = session.remaining.slice(0, count)
   const rest = session.remaining.slice(count)
   const added: SessionQuestion[] = []
@@ -168,4 +187,45 @@ export function labelFor(q: Question, id: string, byId: Map<string, Entity>): st
   const opt = q.options?.find((o) => o.id === id)
   if (opt?.label) return opt.label
   return byId.get(id)?.names.de ?? id
+}
+
+/** Punkte wie in der Vorgängerversion: 100 + Streak-Bonus (max. 10 × 15). */
+export function pointsFor(streakBefore: number): number {
+  return 100 + Math.min(streakBefore, 10) * 15
+}
+
+/**
+ * Antwort verbuchen. Bei Fehlern mit repeatMistakes wird die Frage (neu gemischt) vier Positionen später erneut eingereiht.
+ * Kartenfragen: falsche Klicks zählen als Versuch, die Frage bleibt offen (multiGuess).
+ */
+export function recordAnswer(session: QuizSession, given: string, rng: Rng = createRng(`${session.seed}-${session.position}`)): QuizSession {
+  const idx = session.position
+  const current = session.questions[idx]
+  if (!current || current.given !== undefined) return session
+  const correct = checkAnswer(current.question, given)
+  const isMap = current.question.question_type === 'map_click'
+  if (isMap && !correct) {
+    // Frage bleibt offen, Versuch zählen, Streak zurücksetzen
+    const questions = session.questions.map((q, i) => (i === idx ? { ...q, attempts: (q.attempts ?? 0) + 1 } : q))
+    return { ...session, questions, streak: 0, lastWrongMapGuess: given } as QuizSession & { lastWrongMapGuess?: string }
+  }
+  const firstTry = !(current.attempts ?? 0)
+  const countsCorrect = correct && firstTry
+  const questions = session.questions.map((q, i) => (i === idx ? { ...q, given, correct: countsCorrect, answeredAt: new Date().toISOString(), attempts: (q.attempts ?? 0) + 1 } : q))
+  if (!countsCorrect && session.repeatMistakes && !isMap && !current.repeated) {
+    const q = current.question
+    const options = q.options ? rng.shuffle(q.options) : undefined
+    const repeated: SessionQuestion = { question: { ...q, id: `${q.id}#r`, options }, repeated: true }
+    const insertAt = Math.min(questions.length, idx + 4)
+    questions.splice(insertAt, 0, repeated)
+  }
+  const streak = countsCorrect ? session.streak + 1 : 0
+  return {
+    ...session,
+    questions,
+    score: session.score + (countsCorrect ? 1 : 0),
+    points: session.points + (countsCorrect ? pointsFor(session.streak) : 0),
+    streak,
+    bestStreak: Math.max(session.bestStreak, streak),
+  }
 }

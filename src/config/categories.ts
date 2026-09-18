@@ -10,7 +10,7 @@ export interface CategoryDef {
 }
 
 export const CATEGORIES: CategoryDef[] = [
-  { id: 'flags', icon: '🏳️', phase: 'A', primary: true, countKey: 'flags', generators: ['flag_to_country', 'country_to_flag', 'flag_to_country_input', 'flag_to_country_map', 'flag_to_region', 'region_to_flag', 'flag_to_region_map', 'region_flag_to_country'] },
+  { id: 'flags', icon: '🏳️', phase: 'A', primary: true, countKey: 'flags', generators: ['flag_to_country', 'country_to_flag', 'flag_to_country_input', 'flag_to_country_map', 'flag_to_region', 'region_to_flag', 'flag_to_region_map', 'region_flag_to_country', 'flag_to_europe_map'] },
   { id: 'countries', icon: '🌍', phase: 'A', primary: true, countKey: 'country', generators: ['country_attribute', 'neighbor_of_country', 'country_true_false'] },
   { id: 'capitals', icon: '🏛️', phase: 'A', primary: true, countKey: 'capitals', generators: ['country_to_capital', 'capital_to_country', 'capital_input'] },
   { id: 'maps', icon: '🗺️', phase: 'C', primary: true, generators: ['country_on_map', 'region_on_map'] },

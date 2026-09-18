@@ -167,3 +167,20 @@ export const regionFlagToCountry: Generator = {
   },
 }
 void allFlagged
+
+/** Europa-Karte: Region mit Flagge auf der gemeinsamen Europakarte finden (883 Gebiete im Altbestand, 474 mit Flagge). */
+export const flagToEuropeMap: Generator = {
+  id: 'flag_to_europe_map',
+  category: 'flags',
+  pool: (ctx) => ctx.regions.filter((r) => r.attributes.europe_map && flagOfEntity(r)),
+  make(target, ctx, _rng, difficulty) {
+    const d = effectiveDifficulty(target, difficulty)
+    const country = countryOf(target, ctx)
+    return {
+      id: qid(this.id, target), category: 'flags', type: this.id, question_type: 'map_click',
+      prompt: { key: 'q.flag_to_europe_map', params: { country: country ? nameOf(country) : '' } },
+      answer: target.id, media: flagMedia(target), map: { kind: 'europe', targetId: target.id },
+      difficulty: d, entities: [target.id], metadata: { generator: this.id, scope: ctx.scope },
+    }
+  },
+}
