@@ -52,8 +52,8 @@ export function WorldMap({
             key={id ?? i}
             d={path(f as GeoPermissibleObjects) ?? undefined}
             data-id={id}
-            className={`stroke-card stroke-[0.6] transition-colors ${
-              isCorrect ? 'fill-ok' : isWrong ? 'fill-bad' : isHi ? 'fill-accent' : 'fill-accent-soft hover:fill-accent/60'
+            className={`stroke-bg stroke-[0.5] transition-colors ${
+              isCorrect ? 'fill-ok' : isWrong ? 'fill-bad' : isHi ? 'fill-accent' : 'fill-accent/25 hover:fill-accent/60'
             } ${onPick && !disabled ? 'cursor-pointer' : ''}`}
             onClick={() => onPick && !disabled && onPick(id)}
             role={onPick ? 'button' : undefined}
@@ -125,8 +125,8 @@ export function RegionMapView({
             key={s.flagId}
             d={s.d}
             data-id={id}
-            className={`stroke-card stroke-[0.8] transition-colors ${
-              isCorrect ? 'fill-ok' : isWrong ? 'fill-bad' : isHi ? 'fill-accent' : 'fill-accent-soft hover:fill-accent/60'
+            className={`stroke-bg stroke-[0.6] transition-colors ${
+              isCorrect ? 'fill-ok' : isWrong ? 'fill-bad' : isHi ? 'fill-accent' : 'fill-accent/25 hover:fill-accent/60'
             } ${onPick && !disabled ? 'cursor-pointer' : ''}`}
             onClick={() => onPick && !disabled && onPick(id)}
             role={onPick ? 'button' : undefined}
