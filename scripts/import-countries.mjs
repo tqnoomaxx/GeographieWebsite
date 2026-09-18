@@ -88,6 +88,7 @@ for (const c of raw) {
       landlocked: c.landlocked,
       borders: (c.borders ?? []).map((b) => `country:${byCca3.get(b)?.cca2 ?? b}`),
       emoji: c.flag,
+      visual_key: legacy?.visualKey,
     },
     provenance: provenance('mledoze/countries', {
       source_url: SOURCES.countries,
