@@ -49,6 +49,7 @@ export interface GeneratorContext {
   cities: Entity[]
   landmarks: Entity[]
   regions: Entity[]
+  plates: Entity[]
   byId: Map<string, Entity>
   rel: {
     capitalOf: Map<string, string> // city → country/region

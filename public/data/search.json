@@ -12735,5 +12735,5053 @@
   "n": "Wyoming",
   "a": [],
   "c": "country:US"
+ },
+ {
+  "id": "license_plate:DE-A",
+  "t": "license_plate",
+  "n": "Augsburg",
+  "a": [
+   "Landkreis Augsburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-AA",
+  "t": "license_plate",
+  "n": "Ostalbkreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-AB",
+  "t": "license_plate",
+  "n": "Aschaffenburg",
+  "a": [
+   "Landkreis Aschaffenburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ABG",
+  "t": "license_plate",
+  "n": "Altenburger Land",
+  "a": [
+   "Landkreis Altenburger Land"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ABI",
+  "t": "license_plate",
+  "n": "Anhalt-Bitterfeld",
+  "a": [
+   "Landkreis Anhalt-Bitterfeld"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-AC",
+  "t": "license_plate",
+  "n": "Aachen",
+  "a": [
+   "Städteregion Aachen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-AE",
+  "t": "license_plate",
+  "n": "Vogtlandkreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-AIB",
+  "t": "license_plate",
+  "n": "Rosenheim",
+  "a": [
+   "Landkreis Rosenheim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-AIC",
+  "t": "license_plate",
+  "n": "Aichach-Friedberg",
+  "a": [
+   "Landkreis Aichach-Friedberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-AK",
+  "t": "license_plate",
+  "n": "Altenkirchen",
+  "a": [
+   "Landkreis Altenkirchen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ALZ",
+  "t": "license_plate",
+  "n": "Aschaffenburg",
+  "a": [
+   "Landkreis Aschaffenburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-AM",
+  "t": "license_plate",
+  "n": "Amberg",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-AN",
+  "t": "license_plate",
+  "n": "Ansbach",
+  "a": [
+   "Landkreis Ansbach"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ANG",
+  "t": "license_plate",
+  "n": "Uckermark",
+  "a": [
+   "Landkreis Uckermark"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ANK",
+  "t": "license_plate",
+  "n": "Vorpommern-Greifswald",
+  "a": [
+   "Landkreis Vorpommern-Greifswald"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-AOE",
+  "t": "license_plate",
+  "n": "Altötting",
+  "a": [
+   "Landkreis Altötting"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-AP",
+  "t": "license_plate",
+  "n": "Weimarer Land",
+  "a": [
+   "Landkreis Weimarer Land"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-APD",
+  "t": "license_plate",
+  "n": "Weimarer Land",
+  "a": [
+   "Landkreis Weimarer Land"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ART",
+  "t": "license_plate",
+  "n": "Kyffhäuserkreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-AS",
+  "t": "license_plate",
+  "n": "Amberg-Sulzbach",
+  "a": [
+   "Landkreis Amberg-Sulzbach"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-AT",
+  "t": "license_plate",
+  "n": "Mecklenburgische Seenplatte",
+  "a": [
+   "Landkreis Mecklenburgische Seenplatte"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-AUR",
+  "t": "license_plate",
+  "n": "Aurich",
+  "a": [
+   "Landkreis Aurich"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-AW",
+  "t": "license_plate",
+  "n": "Ahrweiler",
+  "a": [
+   "Landkreis Ahrweiler"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-AZ",
+  "t": "license_plate",
+  "n": "Alzey-Worms",
+  "a": [
+   "Landkreis Alzey-Worms"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-AZE",
+  "t": "license_plate",
+  "n": "Anhalt-Bitterfeld",
+  "a": [
+   "Landkreis Anhalt-Bitterfeld"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-B",
+  "t": "license_plate",
+  "n": "Berlin",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BA",
+  "t": "license_plate",
+  "n": "Bamberg",
+  "a": [
+   "Landkreis Bamberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BAD",
+  "t": "license_plate",
+  "n": "Baden-Baden",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BAR",
+  "t": "license_plate",
+  "n": "Barnim",
+  "a": [
+   "Landkreis Barnim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BB",
+  "t": "license_plate",
+  "n": "Böblingen",
+  "a": [
+   "Landkreis Böblingen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BC",
+  "t": "license_plate",
+  "n": "Biberach",
+  "a": [
+   "Landkreis Biberach"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BCH",
+  "t": "license_plate",
+  "n": "Neckar-Odenwald-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BED",
+  "t": "license_plate",
+  "n": "Mittelsachsen",
+  "a": [
+   "Landkreis Mittelsachsen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BER",
+  "t": "license_plate",
+  "n": "Barnim",
+  "a": [
+   "Landkreis Barnim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BGD",
+  "t": "license_plate",
+  "n": "Berchtesgadener Land",
+  "a": [
+   "Landkreis Berchtesgadener Land"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BGL",
+  "t": "license_plate",
+  "n": "Berchtesgadener Land",
+  "a": [
+   "Landkreis Berchtesgadener Land"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BH",
+  "t": "license_plate",
+  "n": "Ortenaukreis",
+  "a": [
+   "Landkreis Rastatt",
+   "Rastatt"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BI",
+  "t": "license_plate",
+  "n": "Bielefeld",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BID",
+  "t": "license_plate",
+  "n": "Marburg-Biedenkopf",
+  "a": [
+   "Landkreis Marburg-Biedenkopf"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BIN",
+  "t": "license_plate",
+  "n": "Mainz-Bingen",
+  "a": [
+   "Landkreis Mainz-Bingen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BIR",
+  "t": "license_plate",
+  "n": "Birkenfeld",
+  "a": [
+   "Landkreis Birkenfeld"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BIT",
+  "t": "license_plate",
+  "n": "Eifelkreis Bitburg-Prüm",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BIW",
+  "t": "license_plate",
+  "n": "Bautzen",
+  "a": [
+   "Landkreis Bautzen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BK",
+  "t": "license_plate",
+  "n": "Schwäbisch Hall",
+  "a": [
+   "Landkreis Schwäbisch Hall",
+   "Landkreis Börde",
+   "Börde"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BKS",
+  "t": "license_plate",
+  "n": "Bernkastel-Wittlich",
+  "a": [
+   "Landkreis Bernkastel-Wittlich"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BL",
+  "t": "license_plate",
+  "n": "Zollernalbkreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BLB",
+  "t": "license_plate",
+  "n": "Siegen-Wittgenstein",
+  "a": [
+   "Kreis Siegen-Wittgenstein"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BLK",
+  "t": "license_plate",
+  "n": "Burgenlandkreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BM",
+  "t": "license_plate",
+  "n": "Rhein-Erft-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BN",
+  "t": "license_plate",
+  "n": "Bonn",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BNA",
+  "t": "license_plate",
+  "n": "Leipzig",
+  "a": [
+   "Landkreis Leipzig"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BO",
+  "t": "license_plate",
+  "n": "Bochum",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BOE",
+  "t": "license_plate",
+  "n": "Börde",
+  "a": [
+   "Landkreis Börde"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BOG",
+  "t": "license_plate",
+  "n": "Straubing-Bogen",
+  "a": [
+   "Landkreis Straubing-Bogen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BOR",
+  "t": "license_plate",
+  "n": "Borken",
+  "a": [
+   "Kreis Borken"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BOT",
+  "t": "license_plate",
+  "n": "Bottrop",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BRA",
+  "t": "license_plate",
+  "n": "Wesermarsch",
+  "a": [
+   "Landkreis Wesermarsch"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BRB",
+  "t": "license_plate",
+  "n": "Brandenburg an der Havel",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BRG",
+  "t": "license_plate",
+  "n": "Jerichower Land",
+  "a": [
+   "Landkreis Jerichower Land"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BRK",
+  "t": "license_plate",
+  "n": "Bad Kissingen",
+  "a": [
+   "Landkreis Bad Kissingen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BS",
+  "t": "license_plate",
+  "n": "Braunschweig",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BT",
+  "t": "license_plate",
+  "n": "Bayreuth",
+  "a": [
+   "Landkreis Bayreuth"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BTF",
+  "t": "license_plate",
+  "n": "Anhalt-Bitterfeld",
+  "a": [
+   "Landkreis Anhalt-Bitterfeld"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BUED",
+  "t": "license_plate",
+  "n": "Wetteraukreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BUL",
+  "t": "license_plate",
+  "n": "Schwandorf",
+  "a": [
+   "Landkreis Schwandorf",
+   "Landkreis Amberg-Sulzbach",
+   "Amberg-Sulzbach"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BUEZ",
+  "t": "license_plate",
+  "n": "Rostock",
+  "a": [
+   "Landkreis Rostock"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-BZ",
+  "t": "license_plate",
+  "n": "Bautzen",
+  "a": [
+   "Landkreis Bautzen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-C",
+  "t": "license_plate",
+  "n": "Chemnitz",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-CA",
+  "t": "license_plate",
+  "n": "Oberspreewald-Lausitz",
+  "a": [
+   "Landkreis Oberspreewald-Lausitz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-CB",
+  "t": "license_plate",
+  "n": "Cottbus",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-CE",
+  "t": "license_plate",
+  "n": "Celle",
+  "a": [
+   "Landkreis Celle"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-CHA",
+  "t": "license_plate",
+  "n": "Cham",
+  "a": [
+   "Landkreis Cham"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-CLP",
+  "t": "license_plate",
+  "n": "Cloppenburg",
+  "a": [
+   "Landkreis Cloppenburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-CO",
+  "t": "license_plate",
+  "n": "Coburg",
+  "a": [
+   "Landkreis Coburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-COC",
+  "t": "license_plate",
+  "n": "Cochem-Zell",
+  "a": [
+   "Landkreis Cochem-Zell"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-COE",
+  "t": "license_plate",
+  "n": "Coesfeld",
+  "a": [
+   "Kreis Coesfeld"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-CR",
+  "t": "license_plate",
+  "n": "Schwäbisch Hall",
+  "a": [
+   "Landkreis Schwäbisch Hall"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-CUX",
+  "t": "license_plate",
+  "n": "Cuxhaven",
+  "a": [
+   "Landkreis Cuxhaven"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-CW",
+  "t": "license_plate",
+  "n": "Calw",
+  "a": [
+   "Landkreis Calw"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-D",
+  "t": "license_plate",
+  "n": "Düsseldorf",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DA",
+  "t": "license_plate",
+  "n": "Darmstadt",
+  "a": [
+   "Landkreis Darmstadt-Dieburg",
+   "Darmstadt-Dieburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DAH",
+  "t": "license_plate",
+  "n": "Dachau",
+  "a": [
+   "Landkreis Dachau"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DAN",
+  "t": "license_plate",
+  "n": "Lüchow-Dannenberg",
+  "a": [
+   "Landkreis Lüchow-Dannenberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DAU",
+  "t": "license_plate",
+  "n": "Vulkaneifel",
+  "a": [
+   "Landkreis Vulkaneifel"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DBR",
+  "t": "license_plate",
+  "n": "Rostock",
+  "a": [
+   "Landkreis Rostock"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DD",
+  "t": "license_plate",
+  "n": "Dresden",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DE",
+  "t": "license_plate",
+  "n": "Dessau-Roßlau",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DEG",
+  "t": "license_plate",
+  "n": "Deggendorf",
+  "a": [
+   "Landkreis Deggendorf"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DEL",
+  "t": "license_plate",
+  "n": "Delmenhorst",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DGF",
+  "t": "license_plate",
+  "n": "Dingolfing-Landau",
+  "a": [
+   "Landkreis Dingolfing-Landau"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DH",
+  "t": "license_plate",
+  "n": "Diepholz",
+  "a": [
+   "Landkreis Diepholz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DI",
+  "t": "license_plate",
+  "n": "Darmstadt-Dieburg",
+  "a": [
+   "Landkreis Darmstadt-Dieburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DIL",
+  "t": "license_plate",
+  "n": "Lahn-Dill-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DKB",
+  "t": "license_plate",
+  "n": "Ansbach",
+  "a": [
+   "Landkreis Ansbach"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DL",
+  "t": "license_plate",
+  "n": "Mittelsachsen",
+  "a": [
+   "Landkreis Mittelsachsen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DLG",
+  "t": "license_plate",
+  "n": "Dillingen an der Donau",
+  "a": [
+   "Landkreis Dillingen an der Donau"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DM",
+  "t": "license_plate",
+  "n": "Mecklenburgische Seenplatte",
+  "a": [
+   "Landkreis Mecklenburgische Seenplatte"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DN",
+  "t": "license_plate",
+  "n": "Düren",
+  "a": [
+   "Kreis Düren"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DO",
+  "t": "license_plate",
+  "n": "Dortmund",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DON",
+  "t": "license_plate",
+  "n": "Donau-Ries",
+  "a": [
+   "Landkreis Donau-Ries"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DU",
+  "t": "license_plate",
+  "n": "Duisburg",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DUEW",
+  "t": "license_plate",
+  "n": "Bad Dürkheim",
+  "a": [
+   "Landkreis Bad Dürkheim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-DW",
+  "t": "license_plate",
+  "n": "Sächsische Schweiz-Osterzgebirge",
+  "a": [
+   "Landkreis Sächsische Schweiz-Osterzgebirge"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-E",
+  "t": "license_plate",
+  "n": "Essen",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-EBE",
+  "t": "license_plate",
+  "n": "Ebersberg",
+  "a": [
+   "Landkreis Ebersberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-EBS",
+  "t": "license_plate",
+  "n": "Bayreuth",
+  "a": [
+   "Landkreis Bayreuth",
+   "Landkreis Kulmbach",
+   "Kulmbach",
+   "Landkreis Forchheim",
+   "Forchheim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ED",
+  "t": "license_plate",
+  "n": "Erding",
+  "a": [
+   "Landkreis Erding"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-EE",
+  "t": "license_plate",
+  "n": "Elbe-Elster",
+  "a": [
+   "Landkreis Elbe-Elster"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-EF",
+  "t": "license_plate",
+  "n": "Erfurt",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-EG",
+  "t": "license_plate",
+  "n": "Rottal-Inn",
+  "a": [
+   "Landkreis Rottal-Inn"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-EI",
+  "t": "license_plate",
+  "n": "Eichstätt",
+  "a": [
+   "Landkreis Eichstätt"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-EIC",
+  "t": "license_plate",
+  "n": "Eichsfeld",
+  "a": [
+   "Landkreis Eichsfeld"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-EL",
+  "t": "license_plate",
+  "n": "Emsland",
+  "a": [
+   "Landkreis Emsland"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-EM",
+  "t": "license_plate",
+  "n": "Emmendingen",
+  "a": [
+   "Landkreis Emmendingen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-EMD",
+  "t": "license_plate",
+  "n": "Emden",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-EMS",
+  "t": "license_plate",
+  "n": "Rhein-Lahn-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-EN",
+  "t": "license_plate",
+  "n": "Ennepe-Ruhr-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ER",
+  "t": "license_plate",
+  "n": "Erlangen",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ERB",
+  "t": "license_plate",
+  "n": "Odenwaldkreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ERH",
+  "t": "license_plate",
+  "n": "Erlangen-Höchstadt",
+  "a": [
+   "Landkreis Erlangen-Höchstadt"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ERZ",
+  "t": "license_plate",
+  "n": "Erzgebirgskreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ES",
+  "t": "license_plate",
+  "n": "Esslingen",
+  "a": [
+   "Landkreis Esslingen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ESB",
+  "t": "license_plate",
+  "n": "Neustadt an der Waldnaab",
+  "a": [
+   "Landkreis Neustadt an der Waldnaab",
+   "Landkreis Amberg-Sulzbach",
+   "Amberg-Sulzbach",
+   "Landkreis Bayreuth",
+   "Bayreuth",
+   "Landkreis Nürnberger Land"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ESW",
+  "t": "license_plate",
+  "n": "Werra-Meißner-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-EU",
+  "t": "license_plate",
+  "n": "Euskirchen",
+  "a": [
+   "Kreis Euskirchen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-EW",
+  "t": "license_plate",
+  "n": "Barnim",
+  "a": [
+   "Landkreis Barnim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-F",
+  "t": "license_plate",
+  "n": "Frankfurt am Main",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FB",
+  "t": "license_plate",
+  "n": "Wetteraukreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FD",
+  "t": "license_plate",
+  "n": "Fulda",
+  "a": [
+   "Landkreis Fulda"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FDB",
+  "t": "license_plate",
+  "n": "Aichach-Friedberg",
+  "a": [
+   "Landkreis Aichach-Friedberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FDS",
+  "t": "license_plate",
+  "n": "Freudenstadt",
+  "a": [
+   "Landkreis Freudenstadt"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FEU",
+  "t": "license_plate",
+  "n": "Ansbach",
+  "a": [
+   "Landkreis Ansbach"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FF",
+  "t": "license_plate",
+  "n": "Frankfurt (Oder)",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FFB",
+  "t": "license_plate",
+  "n": "Fürstenfeldbruck",
+  "a": [
+   "Landkreis Fürstenfeldbruck"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FG",
+  "t": "license_plate",
+  "n": "Mittelsachsen",
+  "a": [
+   "Landkreis Mittelsachsen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FI",
+  "t": "license_plate",
+  "n": "Elbe-Elster",
+  "a": [
+   "Landkreis Elbe-Elster"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FKB",
+  "t": "license_plate",
+  "n": "Waldeck-Frankenberg",
+  "a": [
+   "Landkreis Waldeck-Frankenberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FL",
+  "t": "license_plate",
+  "n": "Flensburg",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FLOE",
+  "t": "license_plate",
+  "n": "Mittelsachsen",
+  "a": [
+   "Landkreis Mittelsachsen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FN",
+  "t": "license_plate",
+  "n": "Bodenseekreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FO",
+  "t": "license_plate",
+  "n": "Forchheim",
+  "a": [
+   "Landkreis Forchheim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FOR",
+  "t": "license_plate",
+  "n": "Spree-Neiße",
+  "a": [
+   "Landkreis Spree-Neiße"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FR",
+  "t": "license_plate",
+  "n": "Freiburg im Breisgau",
+  "a": [
+   "Landkreis Breisgau-Hochschwarzwald",
+   "Breisgau-Hochschwarzwald"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FRG",
+  "t": "license_plate",
+  "n": "Freyung-Grafenau",
+  "a": [
+   "Landkreis Freyung-Grafenau"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FRI",
+  "t": "license_plate",
+  "n": "Friesland",
+  "a": [
+   "Landkreis Friesland"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FRW",
+  "t": "license_plate",
+  "n": "Märkisch-Oderland",
+  "a": [
+   "Landkreis Märkisch-Oderland"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FS",
+  "t": "license_plate",
+  "n": "Freising",
+  "a": [
+   "Landkreis Freising"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FT",
+  "t": "license_plate",
+  "n": "Frankenthal",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FTL",
+  "t": "license_plate",
+  "n": "Sächsische Schweiz-Osterzgebirge",
+  "a": [
+   "Landkreis Sächsische Schweiz-Osterzgebirge"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FUE",
+  "t": "license_plate",
+  "n": "Fürth",
+  "a": [
+   "Landkreis Fürth"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FUES",
+  "t": "license_plate",
+  "n": "Ostallgäu",
+  "a": [
+   "Landkreis Ostallgäu"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-FZ",
+  "t": "license_plate",
+  "n": "Schwalm-Eder-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-G",
+  "t": "license_plate",
+  "n": "Gera",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GAP",
+  "t": "license_plate",
+  "n": "Garmisch-Partenkirchen",
+  "a": [
+   "Landkreis Garmisch-Partenkirchen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GC",
+  "t": "license_plate",
+  "n": "Zwickau",
+  "a": [
+   "Landkreis Zwickau"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GD",
+  "t": "license_plate",
+  "n": "Ostalbkreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GDB",
+  "t": "license_plate",
+  "n": "Nordwestmecklenburg",
+  "a": [
+   "Landkreis Nordwestmecklenburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GE",
+  "t": "license_plate",
+  "n": "Gelsenkirchen",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GEL",
+  "t": "license_plate",
+  "n": "Kleve",
+  "a": [
+   "Kreis Kleve"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GEO",
+  "t": "license_plate",
+  "n": "Schweinfurt",
+  "a": [
+   "Landkreis Schweinfurt"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GER",
+  "t": "license_plate",
+  "n": "Germersheim",
+  "a": [
+   "Landkreis Germersheim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GF",
+  "t": "license_plate",
+  "n": "Gifhorn",
+  "a": [
+   "Landkreis Gifhorn"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GG",
+  "t": "license_plate",
+  "n": "Groß-Gerau",
+  "a": [
+   "Landkreis Groß-Gerau"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GHA",
+  "t": "license_plate",
+  "n": "Leipzig",
+  "a": [
+   "Landkreis Leipzig"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GHC",
+  "t": "license_plate",
+  "n": "Wittenberg",
+  "a": [
+   "Landkreis Wittenberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GI",
+  "t": "license_plate",
+  "n": "Gießen",
+  "a": [
+   "Landkreis Gießen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GL",
+  "t": "license_plate",
+  "n": "Rheinisch-Bergischer Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GM",
+  "t": "license_plate",
+  "n": "Oberbergischer Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GMN",
+  "t": "license_plate",
+  "n": "Vorpommern-Rügen",
+  "a": [
+   "Landkreis Vorpommern-Rügen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GN",
+  "t": "license_plate",
+  "n": "Main-Kinzig-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GNT",
+  "t": "license_plate",
+  "n": "Jerichower Land",
+  "a": [
+   "Landkreis Jerichower Land"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GOE",
+  "t": "license_plate",
+  "n": "Göttingen",
+  "a": [
+   "Landkreis Göttingen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GP",
+  "t": "license_plate",
+  "n": "Göppingen",
+  "a": [
+   "Landkreis Göppingen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GR",
+  "t": "license_plate",
+  "n": "Görlitz",
+  "a": [
+   "Landkreis Görlitz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GRA",
+  "t": "license_plate",
+  "n": "Freyung-Grafenau",
+  "a": [
+   "Landkreis Freyung-Grafenau"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GRH",
+  "t": "license_plate",
+  "n": "Meißen",
+  "a": [
+   "Landkreis Meißen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GRI",
+  "t": "license_plate",
+  "n": "Rottal-Inn",
+  "a": [
+   "Landkreis Rottal-Inn"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GRM",
+  "t": "license_plate",
+  "n": "Leipzig",
+  "a": [
+   "Landkreis Leipzig"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GRZ",
+  "t": "license_plate",
+  "n": "Greiz",
+  "a": [
+   "Landkreis Greiz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GS",
+  "t": "license_plate",
+  "n": "Goslar",
+  "a": [
+   "Landkreis Goslar"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GT",
+  "t": "license_plate",
+  "n": "Gütersloh",
+  "a": [
+   "Kreis Gütersloh"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GTH",
+  "t": "license_plate",
+  "n": "Gotha",
+  "a": [
+   "Landkreis Gotha"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GUE",
+  "t": "license_plate",
+  "n": "Rostock",
+  "a": [
+   "Landkreis Rostock"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GUB",
+  "t": "license_plate",
+  "n": "Spree-Neiße",
+  "a": [
+   "Landkreis Spree-Neiße"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GUN",
+  "t": "license_plate",
+  "n": "Weißenburg-Gunzenhausen",
+  "a": [
+   "Landkreis Weißenburg-Gunzenhausen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GVM",
+  "t": "license_plate",
+  "n": "Nordwestmecklenburg",
+  "a": [
+   "Landkreis Nordwestmecklenburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GW",
+  "t": "license_plate",
+  "n": "Vorpommern-Greifswald",
+  "a": [
+   "Landkreis Vorpommern-Greifswald"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-GZ",
+  "t": "license_plate",
+  "n": "Günzburg",
+  "a": [
+   "Landkreis Günzburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-H",
+  "t": "license_plate",
+  "n": "Hannover",
+  "a": [
+   "Region Hannover"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HA",
+  "t": "license_plate",
+  "n": "Hagen",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HAB",
+  "t": "license_plate",
+  "n": "Bad Kissingen",
+  "a": [
+   "Landkreis Bad Kissingen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HAL",
+  "t": "license_plate",
+  "n": "Halle (Saale)",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HAM",
+  "t": "license_plate",
+  "n": "Hamm",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HAS",
+  "t": "license_plate",
+  "n": "Haßberge",
+  "a": [
+   "Landkreis Haßberge"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HB",
+  "t": "license_plate",
+  "n": "Bremen",
+  "a": [
+   "Bremerhaven"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HBN",
+  "t": "license_plate",
+  "n": "Hildburghausen",
+  "a": [
+   "Landkreis Hildburghausen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HBS",
+  "t": "license_plate",
+  "n": "Harz",
+  "a": [
+   "Landkreis Harz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HC",
+  "t": "license_plate",
+  "n": "Mittelsachsen",
+  "a": [
+   "Landkreis Mittelsachsen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HD",
+  "t": "license_plate",
+  "n": "Rhein-Neckar-Kreis",
+  "a": [
+   "Heidelberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HDH",
+  "t": "license_plate",
+  "n": "Heidenheim",
+  "a": [
+   "Landkreis Heidenheim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HDL",
+  "t": "license_plate",
+  "n": "Börde",
+  "a": [
+   "Landkreis Börde"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HE",
+  "t": "license_plate",
+  "n": "Helmstedt",
+  "a": [
+   "Landkreis Helmstedt"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HEB",
+  "t": "license_plate",
+  "n": "Nürnberger Land",
+  "a": [
+   "Landkreis Nürnberger Land"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HEF",
+  "t": "license_plate",
+  "n": "Hersfeld-Rotenburg",
+  "a": [
+   "Landkreis Hersfeld-Rotenburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HEI",
+  "t": "license_plate",
+  "n": "Dithmarschen",
+  "a": [
+   "Kreis Dithmarschen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HER",
+  "t": "license_plate",
+  "n": "Herne",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HF",
+  "t": "license_plate",
+  "n": "Herford",
+  "a": [
+   "Kreis Herford"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HG",
+  "t": "license_plate",
+  "n": "Hochtaunuskreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HGN",
+  "t": "license_plate",
+  "n": "Ludwigslust-Parchim",
+  "a": [
+   "Landkreis Ludwigslust-Parchim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HH",
+  "t": "license_plate",
+  "n": "Hamburg",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HI",
+  "t": "license_plate",
+  "n": "Hildesheim",
+  "a": [
+   "Landkreis Hildesheim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HIG",
+  "t": "license_plate",
+  "n": "Eichsfeld",
+  "a": [
+   "Landkreis Eichsfeld"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HIP",
+  "t": "license_plate",
+  "n": "Roth",
+  "a": [
+   "Landkreis Roth"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HK",
+  "t": "license_plate",
+  "n": "Heidekreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HL",
+  "t": "license_plate",
+  "n": "Lübeck",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HM",
+  "t": "license_plate",
+  "n": "Hameln-Pyrmont",
+  "a": [
+   "Landkreis Hameln-Pyrmont"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HN",
+  "t": "license_plate",
+  "n": "Heilbronn",
+  "a": [
+   "Landkreis Heilbronn"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HO",
+  "t": "license_plate",
+  "n": "Hof",
+  "a": [
+   "Landkreis Hof"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HOG",
+  "t": "license_plate",
+  "n": "Kassel",
+  "a": [
+   "Landkreis Kassel"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HOL",
+  "t": "license_plate",
+  "n": "Holzminden",
+  "a": [
+   "Landkreis Holzminden"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HOES",
+  "t": "license_plate",
+  "n": "Erlangen-Höchstadt",
+  "a": [
+   "Landkreis Erlangen-Höchstadt"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HOT",
+  "t": "license_plate",
+  "n": "Zwickau",
+  "a": [
+   "Landkreis Zwickau"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HP",
+  "t": "license_plate",
+  "n": "Bergstraße",
+  "a": [
+   "Landkreis Bergstraße"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HR",
+  "t": "license_plate",
+  "n": "Schwalm-Eder-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HRO",
+  "t": "license_plate",
+  "n": "Rostock",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HS",
+  "t": "license_plate",
+  "n": "Heinsberg",
+  "a": [
+   "Kreis Heinsberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HSK",
+  "t": "license_plate",
+  "n": "Hochsauerlandkreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HU",
+  "t": "license_plate",
+  "n": "Main-Kinzig-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HV",
+  "t": "license_plate",
+  "n": "Stendal",
+  "a": [
+   "Landkreis Stendal"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HVL",
+  "t": "license_plate",
+  "n": "Havelland",
+  "a": [
+   "Landkreis Havelland"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HX",
+  "t": "license_plate",
+  "n": "Höxter",
+  "a": [
+   "Kreis Höxter"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HY",
+  "t": "license_plate",
+  "n": "Bautzen",
+  "a": [
+   "Landkreis Bautzen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-HZ",
+  "t": "license_plate",
+  "n": "Harz",
+  "a": [
+   "Landkreis Harz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ILL",
+  "t": "license_plate",
+  "n": "Neu-Ulm",
+  "a": [
+   "Landkreis Neu-Ulm"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-IN",
+  "t": "license_plate",
+  "n": "Ingolstadt",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-IZ",
+  "t": "license_plate",
+  "n": "Steinburg",
+  "a": [
+   "Kreis Steinburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-J",
+  "t": "license_plate",
+  "n": "Jena",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-JE",
+  "t": "license_plate",
+  "n": "Wittenberg",
+  "a": [
+   "Landkreis Wittenberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-JL",
+  "t": "license_plate",
+  "n": "Jerichower Land",
+  "a": [
+   "Landkreis Jerichower Land"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-K",
+  "t": "license_plate",
+  "n": "Köln",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KA",
+  "t": "license_plate",
+  "n": "Karlsruhe",
+  "a": [
+   "Landkreis Karlsruhe"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KB",
+  "t": "license_plate",
+  "n": "Waldeck-Frankenberg",
+  "a": [
+   "Landkreis Waldeck-Frankenberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KC",
+  "t": "license_plate",
+  "n": "Kronach",
+  "a": [
+   "Landkreis Kronach"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KE",
+  "t": "license_plate",
+  "n": "Kempten",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KEH",
+  "t": "license_plate",
+  "n": "Kelheim",
+  "a": [
+   "Landkreis Kelheim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KEL",
+  "t": "license_plate",
+  "n": "Ortenaukreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KEM",
+  "t": "license_plate",
+  "n": "Tirschenreuth",
+  "a": [
+   "Landkreis Tirschenreuth",
+   "Landkreis Bayreuth",
+   "Bayreuth"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KF",
+  "t": "license_plate",
+  "n": "Kaufbeuren",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KG",
+  "t": "license_plate",
+  "n": "Bad Kissingen",
+  "a": [
+   "Landkreis Bad Kissingen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KH",
+  "t": "license_plate",
+  "n": "Bad Kreuznach",
+  "a": [
+   "Landkreis Bad Kreuznach"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KI",
+  "t": "license_plate",
+  "n": "Kiel",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KIB",
+  "t": "license_plate",
+  "n": "Donnersbergkreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KL",
+  "t": "license_plate",
+  "n": "Kaiserslautern",
+  "a": [
+   "Landkreis Kaiserslautern"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KLE",
+  "t": "license_plate",
+  "n": "Kleve",
+  "a": [
+   "Kreis Kleve"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KM",
+  "t": "license_plate",
+  "n": "Bautzen",
+  "a": [
+   "Landkreis Bautzen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KN",
+  "t": "license_plate",
+  "n": "Konstanz",
+  "a": [
+   "Landkreis Konstanz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KO",
+  "t": "license_plate",
+  "n": "Koblenz",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KOEN",
+  "t": "license_plate",
+  "n": "Rhön-Grabfeld",
+  "a": [
+   "Landkreis Rhön-Grabfeld"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KOET",
+  "t": "license_plate",
+  "n": "Anhalt-Bitterfeld",
+  "a": [
+   "Landkreis Anhalt-Bitterfeld"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KOEZ",
+  "t": "license_plate",
+  "n": "Cham",
+  "a": [
+   "Landkreis Cham"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KR",
+  "t": "license_plate",
+  "n": "Krefeld",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KRU",
+  "t": "license_plate",
+  "n": "Günzburg",
+  "a": [
+   "Landkreis Günzburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KS",
+  "t": "license_plate",
+  "n": "Kassel",
+  "a": [
+   "Landkreis Kassel"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KT",
+  "t": "license_plate",
+  "n": "Kitzingen",
+  "a": [
+   "Landkreis Kitzingen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KU",
+  "t": "license_plate",
+  "n": "Kulmbach",
+  "a": [
+   "Landkreis Kulmbach"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KUEN",
+  "t": "license_plate",
+  "n": "Hohenlohekreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KUS",
+  "t": "license_plate",
+  "n": "Kusel",
+  "a": [
+   "Landkreis Kusel"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KY",
+  "t": "license_plate",
+  "n": "Ostprignitz-Ruppin",
+  "a": [
+   "Landkreis Ostprignitz-Ruppin"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-KYF",
+  "t": "license_plate",
+  "n": "Kyffhäuserkreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-L",
+  "t": "license_plate",
+  "n": "Erfurt",
+  "a": [
+   "Leipzig",
+   "Landkreis Leipzig"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LA",
+  "t": "license_plate",
+  "n": "Landshut",
+  "a": [
+   "Landkreis Landshut"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LAU",
+  "t": "license_plate",
+  "n": "Nürnberger Land",
+  "a": [
+   "Landkreis Nürnberger Land"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LB",
+  "t": "license_plate",
+  "n": "Ludwigsburg",
+  "a": [
+   "Landkreis Ludwigsburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LBZ",
+  "t": "license_plate",
+  "n": "Ludwigslust-Parchim",
+  "a": [
+   "Landkreis Ludwigslust-Parchim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LD",
+  "t": "license_plate",
+  "n": "Landau in der Pfalz",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LDK",
+  "t": "license_plate",
+  "n": "Lahn-Dill-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LDS",
+  "t": "license_plate",
+  "n": "Dahme-Spreewald",
+  "a": [
+   "Landkreis Dahme-Spreewald"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LER",
+  "t": "license_plate",
+  "n": "Leer",
+  "a": [
+   "Landkreis Leer"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LEV",
+  "t": "license_plate",
+  "n": "Leverkusen",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LF",
+  "t": "license_plate",
+  "n": "Erfurt",
+  "a": [
+   "Landkreis Berchtesgadener Land",
+   "Berchtesgadener Land",
+   "Landkreis Traunstein",
+   "Traunstein"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LG",
+  "t": "license_plate",
+  "n": "Lüneburg",
+  "a": [
+   "Landkreis Lüneburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LI",
+  "t": "license_plate",
+  "n": "Lindau",
+  "a": [
+   "Landkreis Lindau"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LIB",
+  "t": "license_plate",
+  "n": "Elbe-Elster",
+  "a": [
+   "Landkreis Elbe-Elster"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LIF",
+  "t": "license_plate",
+  "n": "Lichtenfels",
+  "a": [
+   "Landkreis Lichtenfels"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LIP",
+  "t": "license_plate",
+  "n": "Lippe",
+  "a": [
+   "Kreis Lippe"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LL",
+  "t": "license_plate",
+  "n": "Landsberg am Lech",
+  "a": [
+   "Landkreis Landsberg am Lech"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LM",
+  "t": "license_plate",
+  "n": "Limburg-Weilburg",
+  "a": [
+   "Landkreis Limburg-Weilburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LOE",
+  "t": "license_plate",
+  "n": "Lörrach",
+  "a": [
+   "Landkreis Lörrach"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LOEB",
+  "t": "license_plate",
+  "n": "Görlitz",
+  "a": [
+   "Landkreis Görlitz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LOS",
+  "t": "license_plate",
+  "n": "Oder-Spree",
+  "a": [
+   "Landkreis Oder-Spree"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LR",
+  "t": "license_plate",
+  "n": "Ortenaukreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LRO",
+  "t": "license_plate",
+  "n": "Rostock",
+  "a": [
+   "Landkreis Rostock"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LU",
+  "t": "license_plate",
+  "n": "Ludwigshafen am Rhein",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LUP",
+  "t": "license_plate",
+  "n": "Ludwigslust-Parchim",
+  "a": [
+   "Landkreis Ludwigslust-Parchim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-LWL",
+  "t": "license_plate",
+  "n": "Ludwigslust-Parchim",
+  "a": [
+   "Landkreis Ludwigslust-Parchim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-M",
+  "t": "license_plate",
+  "n": "München",
+  "a": [
+   "Landkreis München"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MA",
+  "t": "license_plate",
+  "n": "Mannheim",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MAI",
+  "t": "license_plate",
+  "n": "Kelheim",
+  "a": [
+   "Landkreis Kelheim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MAK",
+  "t": "license_plate",
+  "n": "Wunsiedel i. Fichtelgebirge",
+  "a": [
+   "Landkreis Wunsiedel i. Fichtelgebirge"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MAL",
+  "t": "license_plate",
+  "n": "Straubing-Bogen",
+  "a": [
+   "Landkreis Straubing-Bogen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MB",
+  "t": "license_plate",
+  "n": "Miesbach",
+  "a": [
+   "Landkreis Miesbach"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MC",
+  "t": "license_plate",
+  "n": "Mecklenburgische Seenplatte",
+  "a": [
+   "Landkreis Mecklenburgische Seenplatte"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MD",
+  "t": "license_plate",
+  "n": "Magdeburg",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ME",
+  "t": "license_plate",
+  "n": "Mettmann",
+  "a": [
+   "Kreis Mettmann"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MEG",
+  "t": "license_plate",
+  "n": "Schwalm-Eder-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MEI",
+  "t": "license_plate",
+  "n": "Meißen",
+  "a": [
+   "Landkreis Meißen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MER",
+  "t": "license_plate",
+  "n": "Saalekreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MET",
+  "t": "license_plate",
+  "n": "Rhön-Grabfeld",
+  "a": [
+   "Landkreis Rhön-Grabfeld"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MG",
+  "t": "license_plate",
+  "n": "Mönchengladbach",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MH",
+  "t": "license_plate",
+  "n": "Mülheim an der Ruhr",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MI",
+  "t": "license_plate",
+  "n": "Minden-Lübbecke",
+  "a": [
+   "Kreis Minden-Lübbecke"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MIL",
+  "t": "license_plate",
+  "n": "Miltenberg",
+  "a": [
+   "Landkreis Miltenberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MK",
+  "t": "license_plate",
+  "n": "Märkischer Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MKK",
+  "t": "license_plate",
+  "n": "Main-Kinzig-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MM",
+  "t": "license_plate",
+  "n": "Memmingen",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MN",
+  "t": "license_plate",
+  "n": "Unterallgäu",
+  "a": [
+   "Landkreis Unterallgäu"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MOD",
+  "t": "license_plate",
+  "n": "Ostallgäu",
+  "a": [
+   "Landkreis Ostallgäu"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MOL",
+  "t": "license_plate",
+  "n": "Märkisch-Oderland",
+  "a": [
+   "Landkreis Märkisch-Oderland"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MON",
+  "t": "license_plate",
+  "n": "Aachen",
+  "a": [
+   "Städteregion Aachen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MOS",
+  "t": "license_plate",
+  "n": "Neckar-Odenwald-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MQ",
+  "t": "license_plate",
+  "n": "Saalekreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MR",
+  "t": "license_plate",
+  "n": "Marburg-Biedenkopf",
+  "a": [
+   "Landkreis Marburg-Biedenkopf"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MS",
+  "t": "license_plate",
+  "n": "Münster",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MSE",
+  "t": "license_plate",
+  "n": "Mecklenburgische Seenplatte",
+  "a": [
+   "Landkreis Mecklenburgische Seenplatte"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MSH",
+  "t": "license_plate",
+  "n": "Mansfeld-Südharz",
+  "a": [
+   "Landkreis Mansfeld-Südharz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MSP",
+  "t": "license_plate",
+  "n": "Main-Spessart",
+  "a": [
+   "Landkreis Main-Spessart"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MST",
+  "t": "license_plate",
+  "n": "Mecklenburgische Seenplatte",
+  "a": [
+   "Landkreis Mecklenburgische Seenplatte"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MTK",
+  "t": "license_plate",
+  "n": "Main-Taunus-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MTL",
+  "t": "license_plate",
+  "n": "Leipzig",
+  "a": [
+   "Landkreis Leipzig"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MU",
+  "t": "license_plate",
+  "n": "München",
+  "a": [
+   "Landkreis München"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MUE",
+  "t": "license_plate",
+  "n": "Mühldorf am Inn",
+  "a": [
+   "Landkreis Mühldorf am Inn"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MUEB",
+  "t": "license_plate",
+  "n": "Hof",
+  "a": [
+   "Landkreis Hof",
+   "Landkreis Bayreuth",
+   "Bayreuth"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MUC",
+  "t": "license_plate",
+  "n": "München",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MUER",
+  "t": "license_plate",
+  "n": "Mecklenburgische Seenplatte",
+  "a": [
+   "Landkreis Mecklenburgische Seenplatte"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MW",
+  "t": "license_plate",
+  "n": "Mittelsachsen",
+  "a": [
+   "Landkreis Mittelsachsen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MY",
+  "t": "license_plate",
+  "n": "Mayen-Koblenz",
+  "a": [
+   "Landkreis Mayen-Koblenz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MYK",
+  "t": "license_plate",
+  "n": "Mayen-Koblenz",
+  "a": [
+   "Landkreis Mayen-Koblenz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MZ",
+  "t": "license_plate",
+  "n": "Mainz",
+  "a": [
+   "Landkreis Mainz-Bingen",
+   "Mainz-Bingen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-MZG",
+  "t": "license_plate",
+  "n": "Merzig-Wadern",
+  "a": [
+   "Landkreis Merzig-Wadern"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-N",
+  "t": "license_plate",
+  "n": "Nürnberg",
+  "a": [
+   "Landkreis Nürnberger Land",
+   "Nürnberger Land"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NAB",
+  "t": "license_plate",
+  "n": "Schwandorf",
+  "a": [
+   "Landkreis Schwandorf",
+   "Landkreis Amberg-Sulzbach",
+   "Amberg-Sulzbach"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NAI",
+  "t": "license_plate",
+  "n": "Hof",
+  "a": [
+   "Landkreis Hof"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ND",
+  "t": "license_plate",
+  "n": "Neuburg-Schrobenhausen",
+  "a": [
+   "Landkreis Neuburg-Schrobenhausen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NDH",
+  "t": "license_plate",
+  "n": "Nordhausen",
+  "a": [
+   "Landkreis Nordhausen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NE",
+  "t": "license_plate",
+  "n": "Rhein-Kreis Neuss",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NEA",
+  "t": "license_plate",
+  "n": "Neustadt an der Aisch-Bad Windsheim",
+  "a": [
+   "Landkreis Neustadt an der Aisch-Bad Windsheim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NEC",
+  "t": "license_plate",
+  "n": "Coburg",
+  "a": [
+   "Landkreis Coburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NEN",
+  "t": "license_plate",
+  "n": "Schwandorf",
+  "a": [
+   "Landkreis Schwandorf"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NES",
+  "t": "license_plate",
+  "n": "Rhön-Grabfeld",
+  "a": [
+   "Landkreis Rhön-Grabfeld"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NEW",
+  "t": "license_plate",
+  "n": "Neustadt an der Waldnaab",
+  "a": [
+   "Landkreis Neustadt an der Waldnaab"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NF",
+  "t": "license_plate",
+  "n": "Nordfriesland",
+  "a": [
+   "Kreis Nordfriesland"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NH",
+  "t": "license_plate",
+  "n": "Sonneberg",
+  "a": [
+   "Landkreis Sonneberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NI",
+  "t": "license_plate",
+  "n": "Nienburg/Weser",
+  "a": [
+   "Landkreis Nienburg/Weser"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NK",
+  "t": "license_plate",
+  "n": "Neunkirchen",
+  "a": [
+   "Landkreis Neunkirchen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NM",
+  "t": "license_plate",
+  "n": "Neumarkt in der Oberpfalz",
+  "a": [
+   "Landkreis Neumarkt in der Oberpfalz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NMS",
+  "t": "license_plate",
+  "n": "Neumünster",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NOE",
+  "t": "license_plate",
+  "n": "Donau-Ries",
+  "a": [
+   "Landkreis Donau-Ries"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NOH",
+  "t": "license_plate",
+  "n": "Grafschaft Bentheim",
+  "a": [
+   "Landkreis Grafschaft Bentheim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NOL",
+  "t": "license_plate",
+  "n": "Görlitz",
+  "a": [
+   "Landkreis Görlitz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NOM",
+  "t": "license_plate",
+  "n": "Northeim",
+  "a": [
+   "Landkreis Northeim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NP",
+  "t": "license_plate",
+  "n": "Ostprignitz-Ruppin",
+  "a": [
+   "Landkreis Ostprignitz-Ruppin"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NR",
+  "t": "license_plate",
+  "n": "Neuwied",
+  "a": [
+   "Landkreis Neuwied"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NU",
+  "t": "license_plate",
+  "n": "Neu-Ulm",
+  "a": [
+   "Landkreis Neu-Ulm"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NVP",
+  "t": "license_plate",
+  "n": "Vorpommern-Rügen",
+  "a": [
+   "Landkreis Vorpommern-Rügen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NW",
+  "t": "license_plate",
+  "n": "Neustadt an der Weinstraße",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NWM",
+  "t": "license_plate",
+  "n": "Nordwestmecklenburg",
+  "a": [
+   "Landkreis Nordwestmecklenburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NY",
+  "t": "license_plate",
+  "n": "Görlitz",
+  "a": [
+   "Landkreis Görlitz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-NZ",
+  "t": "license_plate",
+  "n": "Mecklenburgische Seenplatte",
+  "a": [
+   "Landkreis Mecklenburgische Seenplatte"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OA",
+  "t": "license_plate",
+  "n": "Oberallgäu",
+  "a": [
+   "Landkreis Oberallgäu"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OAL",
+  "t": "license_plate",
+  "n": "Ostallgäu",
+  "a": [
+   "Landkreis Ostallgäu"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OB",
+  "t": "license_plate",
+  "n": "Oberhausen",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OBB",
+  "t": "license_plate",
+  "n": "Miltenberg",
+  "a": [
+   "Landkreis Miltenberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OBG",
+  "t": "license_plate",
+  "n": "Stendal",
+  "a": [
+   "Landkreis Stendal"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OC",
+  "t": "license_plate",
+  "n": "Börde",
+  "a": [
+   "Landkreis Börde"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OCH",
+  "t": "license_plate",
+  "n": "Würzburg",
+  "a": [
+   "Landkreis Würzburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OD",
+  "t": "license_plate",
+  "n": "Stormarn",
+  "a": [
+   "Kreis Stormarn"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OE",
+  "t": "license_plate",
+  "n": "Olpe",
+  "a": [
+   "Kreis Olpe"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OF",
+  "t": "license_plate",
+  "n": "Offenbach am Main",
+  "a": [
+   "Landkreis Offenbach",
+   "Offenbach"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OG",
+  "t": "license_plate",
+  "n": "Ortenaukreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OH",
+  "t": "license_plate",
+  "n": "Ostholstein",
+  "a": [
+   "Kreis Ostholstein"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OEHR",
+  "t": "license_plate",
+  "n": "Hohenlohekreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OHV",
+  "t": "license_plate",
+  "n": "Oberhavel",
+  "a": [
+   "Landkreis Oberhavel"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OHZ",
+  "t": "license_plate",
+  "n": "Osterholz",
+  "a": [
+   "Landkreis Osterholz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OK",
+  "t": "license_plate",
+  "n": "Börde",
+  "a": [
+   "Landkreis Börde"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OL",
+  "t": "license_plate",
+  "n": "Oldenburg",
+  "a": [
+   "Landkreis Oldenburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OPR",
+  "t": "license_plate",
+  "n": "Ostprignitz-Ruppin",
+  "a": [
+   "Landkreis Ostprignitz-Ruppin"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OS",
+  "t": "license_plate",
+  "n": "Osnabrück",
+  "a": [
+   "Landkreis Osnabrück"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OSL",
+  "t": "license_plate",
+  "n": "Oberspreewald-Lausitz",
+  "a": [
+   "Landkreis Oberspreewald-Lausitz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OTW",
+  "t": "license_plate",
+  "n": "Neunkirchen",
+  "a": [
+   "Landkreis Neunkirchen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OVI",
+  "t": "license_plate",
+  "n": "Schwandorf",
+  "a": [
+   "Landkreis Schwandorf"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-OVL",
+  "t": "license_plate",
+  "n": "Vogtlandkreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-P",
+  "t": "license_plate",
+  "n": "Potsdam",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-PA",
+  "t": "license_plate",
+  "n": "Passau",
+  "a": [
+   "Landkreis Passau"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-PAF",
+  "t": "license_plate",
+  "n": "Pfaffenhofen an der Ilm",
+  "a": [
+   "Landkreis Pfaffenhofen an der Ilm"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-PAN",
+  "t": "license_plate",
+  "n": "Rottal-Inn",
+  "a": [
+   "Landkreis Rottal-Inn"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-PAR",
+  "t": "license_plate",
+  "n": "Neumarkt in der Oberpfalz",
+  "a": [
+   "Landkreis Neumarkt in der Oberpfalz",
+   "Landkreis Kelheim",
+   "Kelheim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-PB",
+  "t": "license_plate",
+  "n": "Paderborn",
+  "a": [
+   "Kreis Paderborn"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-PCH",
+  "t": "license_plate",
+  "n": "Ludwigslust-Parchim",
+  "a": [
+   "Landkreis Ludwigslust-Parchim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-PE",
+  "t": "license_plate",
+  "n": "Peine",
+  "a": [
+   "Landkreis Peine"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-PEG",
+  "t": "license_plate",
+  "n": "Bayreuth",
+  "a": [
+   "Landkreis Bayreuth",
+   "Landkreis Forchheim",
+   "Forchheim",
+   "Landkreis Nürnberger Land",
+   "Nürnberger Land"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-PF",
+  "t": "license_plate",
+  "n": "Enzkreis",
+  "a": [
+   "Pforzheim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-PI",
+  "t": "license_plate",
+  "n": "Pinneberg",
+  "a": [
+   "Kreis Pinneberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-PIR",
+  "t": "license_plate",
+  "n": "Sächsische Schweiz-Osterzgebirge",
+  "a": [
+   "Landkreis Sächsische Schweiz-Osterzgebirge"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-PL",
+  "t": "license_plate",
+  "n": "Vogtlandkreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-PM",
+  "t": "license_plate",
+  "n": "Potsdam-Mittelmark",
+  "a": [
+   "Landkreis Potsdam-Mittelmark"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-PR",
+  "t": "license_plate",
+  "n": "Prignitz",
+  "a": [
+   "Landkreis Prignitz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-PS",
+  "t": "license_plate",
+  "n": "Pirmasens",
+  "a": [
+   "Landkreis Südwestpfalz",
+   "Südwestpfalz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-PW",
+  "t": "license_plate",
+  "n": "Vorpommern-Greifswald",
+  "a": [
+   "Landkreis Vorpommern-Greifswald"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-PZ",
+  "t": "license_plate",
+  "n": "Uckermark",
+  "a": [
+   "Landkreis Uckermark"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-QFT",
+  "t": "license_plate",
+  "n": "Saalekreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-QLB",
+  "t": "license_plate",
+  "n": "Harz",
+  "a": [
+   "Landkreis Harz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-R",
+  "t": "license_plate",
+  "n": "Regensburg",
+  "a": [
+   "Landkreis Regensburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RA",
+  "t": "license_plate",
+  "n": "Rastatt",
+  "a": [
+   "Landkreis Rastatt"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RC",
+  "t": "license_plate",
+  "n": "Vogtlandkreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RD",
+  "t": "license_plate",
+  "n": "Rendsburg-Eckernförde",
+  "a": [
+   "Kreis Rendsburg-Eckernförde"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RDG",
+  "t": "license_plate",
+  "n": "Vorpommern-Rügen",
+  "a": [
+   "Landkreis Vorpommern-Rügen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RE",
+  "t": "license_plate",
+  "n": "Recklinghausen",
+  "a": [
+   "Kreis Recklinghausen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-REG",
+  "t": "license_plate",
+  "n": "Regen",
+  "a": [
+   "Landkreis Regen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-REH",
+  "t": "license_plate",
+  "n": "Hof",
+  "a": [
+   "Landkreis Hof",
+   "Landkreis Wunsiedel i. Fichtelgebirge",
+   "Wunsiedel i. Fichtelgebirge"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-REI",
+  "t": "license_plate",
+  "n": "Berchtesgadener Land",
+  "a": [
+   "Landkreis Berchtesgadener Land"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RG",
+  "t": "license_plate",
+  "n": "Meißen",
+  "a": [
+   "Landkreis Meißen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RH",
+  "t": "license_plate",
+  "n": "Roth",
+  "a": [
+   "Landkreis Roth"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RID",
+  "t": "license_plate",
+  "n": "Kelheim",
+  "a": [
+   "Landkreis Kelheim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RIE",
+  "t": "license_plate",
+  "n": "Meißen",
+  "a": [
+   "Landkreis Meißen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RL",
+  "t": "license_plate",
+  "n": "Mittelsachsen",
+  "a": [
+   "Landkreis Mittelsachsen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RM",
+  "t": "license_plate",
+  "n": "Mecklenburgische Seenplatte",
+  "a": [
+   "Landkreis Mecklenburgische Seenplatte"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RO",
+  "t": "license_plate",
+  "n": "Rosenheim",
+  "a": [
+   "Landkreis Rosenheim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ROD",
+  "t": "license_plate",
+  "n": "Schwandorf",
+  "a": [
+   "Landkreis Schwandorf",
+   "Landkreis Cham",
+   "Cham"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ROF",
+  "t": "license_plate",
+  "n": "Hersfeld-Rotenburg",
+  "a": [
+   "Landkreis Hersfeld-Rotenburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ROL",
+  "t": "license_plate",
+  "n": "Kelheim",
+  "a": [
+   "Landkreis Kelheim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ROS",
+  "t": "license_plate",
+  "n": "Rostock",
+  "a": [
+   "Landkreis Rostock"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ROT",
+  "t": "license_plate",
+  "n": "Ansbach",
+  "a": [
+   "Landkreis Ansbach"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ROW",
+  "t": "license_plate",
+  "n": "Rotenburg (Wümme)",
+  "a": [
+   "Landkreis Rotenburg (Wümme)"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RP",
+  "t": "license_plate",
+  "n": "Rhein-Pfalz-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RS",
+  "t": "license_plate",
+  "n": "Remscheid",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RSL",
+  "t": "license_plate",
+  "n": "Dessau-Roßlau",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RT",
+  "t": "license_plate",
+  "n": "Reutlingen",
+  "a": [
+   "Landkreis Reutlingen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RU",
+  "t": "license_plate",
+  "n": "Saalfeld-Rudolstadt",
+  "a": [
+   "Landkreis Saalfeld-Rudolstadt"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RUED",
+  "t": "license_plate",
+  "n": "Rheingau-Taunus-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RUEG",
+  "t": "license_plate",
+  "n": "Vorpommern-Rügen",
+  "a": [
+   "Landkreis Vorpommern-Rügen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RV",
+  "t": "license_plate",
+  "n": "Ravensburg",
+  "a": [
+   "Landkreis Ravensburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RW",
+  "t": "license_plate",
+  "n": "Rottweil",
+  "a": [
+   "Landkreis Rottweil"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-RZ",
+  "t": "license_plate",
+  "n": "Herzogtum Lauenburg",
+  "a": [
+   "Kreis Herzogtum Lauenburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-S",
+  "t": "license_plate",
+  "n": "Stuttgart",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SAB",
+  "t": "license_plate",
+  "n": "Trier-Saarburg",
+  "a": [
+   "Landkreis Trier-Saarburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SAD",
+  "t": "license_plate",
+  "n": "Schwandorf",
+  "a": [
+   "Landkreis Schwandorf"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SAN",
+  "t": "license_plate",
+  "n": "Hof",
+  "a": [
+   "Landkreis Hof",
+   "Landkreis Kronach",
+   "Kronach",
+   "Landkreis Kulmbach",
+   "Kulmbach"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SAW",
+  "t": "license_plate",
+  "n": "Altmarkkreis Salzwedel",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SB",
+  "t": "license_plate",
+  "n": "Saarbrücken",
+  "a": [
+   "Regionalverband Saarbrücken"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SBG",
+  "t": "license_plate",
+  "n": "Vorpommern-Greifswald",
+  "a": [
+   "Landkreis Vorpommern-Greifswald"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SC",
+  "t": "license_plate",
+  "n": "Schwabach",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SDH",
+  "t": "license_plate",
+  "n": "Kyffhäuserkreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SDL",
+  "t": "license_plate",
+  "n": "Stendal",
+  "a": [
+   "Landkreis Stendal"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SDT",
+  "t": "license_plate",
+  "n": "Uckermark",
+  "a": [
+   "Landkreis Uckermark"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SE",
+  "t": "license_plate",
+  "n": "Segeberg",
+  "a": [
+   "Kreis Segeberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SEB",
+  "t": "license_plate",
+  "n": "Sächsische Schweiz-Osterzgebirge",
+  "a": [
+   "Landkreis Sächsische Schweiz-Osterzgebirge"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SEE",
+  "t": "license_plate",
+  "n": "Märkisch-Oderland",
+  "a": [
+   "Landkreis Märkisch-Oderland"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SEF",
+  "t": "license_plate",
+  "n": "Neustadt an der Aisch-Bad Windsheim",
+  "a": [
+   "Landkreis Neustadt an der Aisch-Bad Windsheim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SEL",
+  "t": "license_plate",
+  "n": "Wunsiedel i. Fichtelgebirge",
+  "a": [
+   "Landkreis Wunsiedel i. Fichtelgebirge"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SF",
+  "t": "license_plate",
+  "n": "Oberallgäu",
+  "a": [
+   "Landkreis Oberallgäu"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SFB",
+  "t": "license_plate",
+  "n": "Oberspreewald-Lausitz",
+  "a": [
+   "Landkreis Oberspreewald-Lausitz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SG",
+  "t": "license_plate",
+  "n": "Solingen",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SHA",
+  "t": "license_plate",
+  "n": "Schwäbisch Hall",
+  "a": [
+   "Landkreis Schwäbisch Hall"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SHG",
+  "t": "license_plate",
+  "n": "Schaumburg",
+  "a": [
+   "Landkreis Schaumburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SHK",
+  "t": "license_plate",
+  "n": "Saale-Holzland-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SHL",
+  "t": "license_plate",
+  "n": "Suhl",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SI",
+  "t": "license_plate",
+  "n": "Siegen-Wittgenstein",
+  "a": [
+   "Kreis Siegen-Wittgenstein"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SIG",
+  "t": "license_plate",
+  "n": "Sigmaringen",
+  "a": [
+   "Landkreis Sigmaringen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SIM",
+  "t": "license_plate",
+  "n": "Rhein-Hunsrück-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SK",
+  "t": "license_plate",
+  "n": "Saalekreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SL",
+  "t": "license_plate",
+  "n": "Schleswig-Flensburg",
+  "a": [
+   "Kreis Schleswig-Flensburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SLF",
+  "t": "license_plate",
+  "n": "Saalfeld-Rudolstadt",
+  "a": [
+   "Landkreis Saalfeld-Rudolstadt"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SLG",
+  "t": "license_plate",
+  "n": "Ravensburg",
+  "a": [
+   "Landkreis Ravensburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SLK",
+  "t": "license_plate",
+  "n": "Salzlandkreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SLN",
+  "t": "license_plate",
+  "n": "Altenburger Land",
+  "a": [
+   "Landkreis Altenburger Land"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SLS",
+  "t": "license_plate",
+  "n": "Saarlouis",
+  "a": [
+   "Landkreis Saarlouis"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SLUE",
+  "t": "license_plate",
+  "n": "Main-Kinzig-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SM",
+  "t": "license_plate",
+  "n": "Schmalkalden-Meiningen",
+  "a": [
+   "Landkreis Schmalkalden-Meiningen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SN",
+  "t": "license_plate",
+  "n": "Schwerin",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SO",
+  "t": "license_plate",
+  "n": "Soest",
+  "a": [
+   "Kreis Soest"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SOB",
+  "t": "license_plate",
+  "n": "Neuburg-Schrobenhausen",
+  "a": [
+   "Landkreis Neuburg-Schrobenhausen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SOG",
+  "t": "license_plate",
+  "n": "Weilheim-Schongau",
+  "a": [
+   "Landkreis Weilheim-Schongau"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SOK",
+  "t": "license_plate",
+  "n": "Saale-Orla-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SOEM",
+  "t": "license_plate",
+  "n": "Sömmerda",
+  "a": [
+   "Landkreis Sömmerda"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SON",
+  "t": "license_plate",
+  "n": "Sonneberg",
+  "a": [
+   "Landkreis Sonneberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SP",
+  "t": "license_plate",
+  "n": "Speyer",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SPB",
+  "t": "license_plate",
+  "n": "Spree-Neiße",
+  "a": [
+   "Landkreis Spree-Neiße"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SPN",
+  "t": "license_plate",
+  "n": "Spree-Neiße",
+  "a": [
+   "Landkreis Spree-Neiße"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SR",
+  "t": "license_plate",
+  "n": "Straubing",
+  "a": [
+   "Landkreis Straubing-Bogen",
+   "Straubing-Bogen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SRB",
+  "t": "license_plate",
+  "n": "Märkisch-Oderland",
+  "a": [
+   "Landkreis Märkisch-Oderland"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ST",
+  "t": "license_plate",
+  "n": "Steinfurt",
+  "a": [
+   "Kreis Steinfurt"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-STA",
+  "t": "license_plate",
+  "n": "Starnberg",
+  "a": [
+   "Landkreis Starnberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-STB",
+  "t": "license_plate",
+  "n": "Ludwigslust-Parchim",
+  "a": [
+   "Landkreis Ludwigslust-Parchim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-STD",
+  "t": "license_plate",
+  "n": "Stade",
+  "a": [
+   "Landkreis Stade"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-STE",
+  "t": "license_plate",
+  "n": "Lichtenfels",
+  "a": [
+   "Landkreis Lichtenfels"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SU",
+  "t": "license_plate",
+  "n": "Rhein-Sieg-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SUL",
+  "t": "license_plate",
+  "n": "Amberg-Sulzbach",
+  "a": [
+   "Landkreis Amberg-Sulzbach"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SUEW",
+  "t": "license_plate",
+  "n": "Südliche Weinstraße",
+  "a": [
+   "Landkreis Südliche Weinstraße"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SW",
+  "t": "license_plate",
+  "n": "Schweinfurt",
+  "a": [
+   "Landkreis Schweinfurt"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SWA",
+  "t": "license_plate",
+  "n": "Rheingau-Taunus-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SY",
+  "t": "license_plate",
+  "n": "Diepholz",
+  "a": [
+   "Landkreis Diepholz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-SZ",
+  "t": "license_plate",
+  "n": "Salzgitter",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-TBB",
+  "t": "license_plate",
+  "n": "Main-Tauber-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-TDO",
+  "t": "license_plate",
+  "n": "Nordsachsen",
+  "a": [
+   "Landkreis Nordsachsen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-TET",
+  "t": "license_plate",
+  "n": "Rostock",
+  "a": [
+   "Landkreis Rostock"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-TF",
+  "t": "license_plate",
+  "n": "Teltow-Fläming",
+  "a": [
+   "Landkreis Teltow-Fläming"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-TIR",
+  "t": "license_plate",
+  "n": "Tirschenreuth",
+  "a": [
+   "Landkreis Tirschenreuth"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-TOEL",
+  "t": "license_plate",
+  "n": "Bad Tölz-Wolfratshausen",
+  "a": [
+   "Landkreis Bad Tölz-Wolfratshausen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-TP",
+  "t": "license_plate",
+  "n": "Uckermark",
+  "a": [
+   "Landkreis Uckermark"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-TR",
+  "t": "license_plate",
+  "n": "Trier",
+  "a": [
+   "Landkreis Trier-Saarburg",
+   "Trier-Saarburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-TS",
+  "t": "license_plate",
+  "n": "Traunstein",
+  "a": [
+   "Landkreis Traunstein"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-TUE",
+  "t": "license_plate",
+  "n": "Tübingen",
+  "a": [
+   "Landkreis Tübingen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-TUT",
+  "t": "license_plate",
+  "n": "Tuttlingen",
+  "a": [
+   "Landkreis Tuttlingen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-UEB",
+  "t": "license_plate",
+  "n": "Ravensburg",
+  "a": [
+   "Landkreis Ravensburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-UE",
+  "t": "license_plate",
+  "n": "Uelzen",
+  "a": [
+   "Landkreis Uelzen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-UEM",
+  "t": "license_plate",
+  "n": "Vorpommern-Greifswald",
+  "a": [
+   "Landkreis Vorpommern-Greifswald"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-UFF",
+  "t": "license_plate",
+  "n": "Neustadt an der Aisch-Bad Windsheim",
+  "a": [
+   "Landkreis Neustadt an der Aisch-Bad Windsheim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-UH",
+  "t": "license_plate",
+  "n": "Unstrut-Hainich-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-UL",
+  "t": "license_plate",
+  "n": "Alb-Donau-Kreis",
+  "a": [
+   "Ulm"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-UM",
+  "t": "license_plate",
+  "n": "Uckermark",
+  "a": [
+   "Landkreis Uckermark"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-UN",
+  "t": "license_plate",
+  "n": "Unna",
+  "a": [
+   "Kreis Unna"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-USI",
+  "t": "license_plate",
+  "n": "Hochtaunuskreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-V",
+  "t": "license_plate",
+  "n": "Vogtlandkreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-VB",
+  "t": "license_plate",
+  "n": "Vogelsbergkreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-VEC",
+  "t": "license_plate",
+  "n": "Vechta",
+  "a": [
+   "Landkreis Vechta"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-VER",
+  "t": "license_plate",
+  "n": "Verden",
+  "a": [
+   "Landkreis Verden"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-VG",
+  "t": "license_plate",
+  "n": "Vorpommern-Greifswald",
+  "a": [
+   "Landkreis Vorpommern-Greifswald"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-VIB",
+  "t": "license_plate",
+  "n": "Rottal-Inn",
+  "a": [
+   "Landkreis Rottal-Inn"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-VIE",
+  "t": "license_plate",
+  "n": "Viersen",
+  "a": [
+   "Kreis Viersen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-VK",
+  "t": "license_plate",
+  "n": "Saarbrücken",
+  "a": [
+   "Regionalverband Saarbrücken"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-VOH",
+  "t": "license_plate",
+  "n": "Neustadt an der Waldnaab",
+  "a": [
+   "Landkreis Neustadt an der Waldnaab"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-VR",
+  "t": "license_plate",
+  "n": "Vorpommern-Rügen",
+  "a": [
+   "Landkreis Vorpommern-Rügen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-VS",
+  "t": "license_plate",
+  "n": "Schwarzwald-Baar-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-W",
+  "t": "license_plate",
+  "n": "Wuppertal",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WA",
+  "t": "license_plate",
+  "n": "Waldeck-Frankenberg",
+  "a": [
+   "Landkreis Waldeck-Frankenberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WAF",
+  "t": "license_plate",
+  "n": "Warendorf",
+  "a": [
+   "Kreis Warendorf"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WAN",
+  "t": "license_plate",
+  "n": "Herne",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WB",
+  "t": "license_plate",
+  "n": "Wittenberg",
+  "a": [
+   "Landkreis Wittenberg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WBS",
+  "t": "license_plate",
+  "n": "Eichsfeld",
+  "a": [
+   "Landkreis Eichsfeld"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WDA",
+  "t": "license_plate",
+  "n": "Zwickau",
+  "a": [
+   "Landkreis Zwickau"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WE",
+  "t": "license_plate",
+  "n": "Weimar",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WEL",
+  "t": "license_plate",
+  "n": "Limburg-Weilburg",
+  "a": [
+   "Landkreis Limburg-Weilburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WEN",
+  "t": "license_plate",
+  "n": "Weiden in der Oberpfalz",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WER",
+  "t": "license_plate",
+  "n": "Dillingen an der Donau",
+  "a": [
+   "Landkreis Dillingen an der Donau"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WES",
+  "t": "license_plate",
+  "n": "Wesel",
+  "a": [
+   "Kreis Wesel"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WF",
+  "t": "license_plate",
+  "n": "Wolfenbüttel",
+  "a": [
+   "Landkreis Wolfenbüttel"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WG",
+  "t": "license_plate",
+  "n": "Ravensburg",
+  "a": [
+   "Landkreis Ravensburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WHV",
+  "t": "license_plate",
+  "n": "Wilhelmshaven",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WI",
+  "t": "license_plate",
+  "n": "Wiesbaden",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WIL",
+  "t": "license_plate",
+  "n": "Bernkastel-Wittlich",
+  "a": [
+   "Landkreis Bernkastel-Wittlich"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WIS",
+  "t": "license_plate",
+  "n": "Nordwestmecklenburg",
+  "a": [
+   "Landkreis Nordwestmecklenburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WIT",
+  "t": "license_plate",
+  "n": "Ennepe-Ruhr-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WIZ",
+  "t": "license_plate",
+  "n": "Werra-Meißner-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WK",
+  "t": "license_plate",
+  "n": "Ostprignitz-Ruppin",
+  "a": [
+   "Landkreis Ostprignitz-Ruppin"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WL",
+  "t": "license_plate",
+  "n": "Harburg",
+  "a": [
+   "Landkreis Harburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WLG",
+  "t": "license_plate",
+  "n": "Vorpommern-Greifswald",
+  "a": [
+   "Landkreis Vorpommern-Greifswald"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WM",
+  "t": "license_plate",
+  "n": "Weilheim-Schongau",
+  "a": [
+   "Landkreis Weilheim-Schongau"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WMS",
+  "t": "license_plate",
+  "n": "Börde",
+  "a": [
+   "Landkreis Börde"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WN",
+  "t": "license_plate",
+  "n": "Rems-Murr-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WND",
+  "t": "license_plate",
+  "n": "St. Wendel",
+  "a": [
+   "Landkreis St. Wendel"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WO",
+  "t": "license_plate",
+  "n": "Worms",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WOB",
+  "t": "license_plate",
+  "n": "Wolfsburg",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WOH",
+  "t": "license_plate",
+  "n": "Kassel",
+  "a": [
+   "Landkreis Kassel"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WOL",
+  "t": "license_plate",
+  "n": "Ortenaukreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WOR",
+  "t": "license_plate",
+  "n": "Starnberg",
+  "a": [
+   "Landkreis Starnberg",
+   "Landkreis Bad Tölz-Wolfratshausen",
+   "Bad Tölz-Wolfratshausen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WOS",
+  "t": "license_plate",
+  "n": "Freyung-Grafenau",
+  "a": [
+   "Landkreis Freyung-Grafenau"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WR",
+  "t": "license_plate",
+  "n": "Harz",
+  "a": [
+   "Landkreis Harz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WRN",
+  "t": "license_plate",
+  "n": "Mecklenburgische Seenplatte",
+  "a": [
+   "Landkreis Mecklenburgische Seenplatte"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WS",
+  "t": "license_plate",
+  "n": "Rosenheim",
+  "a": [
+   "Landkreis Rosenheim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WST",
+  "t": "license_plate",
+  "n": "Ammerland",
+  "a": [
+   "Landkreis Ammerland"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WSW",
+  "t": "license_plate",
+  "n": "Görlitz",
+  "a": [
+   "Landkreis Görlitz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WT",
+  "t": "license_plate",
+  "n": "Waldshut",
+  "a": [
+   "Landkreis Waldshut"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WTM",
+  "t": "license_plate",
+  "n": "Wittmund",
+  "a": [
+   "Landkreis Wittmund"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WUE",
+  "t": "license_plate",
+  "n": "Würzburg",
+  "a": [
+   "Landkreis Würzburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WUG",
+  "t": "license_plate",
+  "n": "Weißenburg-Gunzenhausen",
+  "a": [
+   "Landkreis Weißenburg-Gunzenhausen"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WUEM",
+  "t": "license_plate",
+  "n": "Cham",
+  "a": [
+   "Landkreis Cham"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WUN",
+  "t": "license_plate",
+  "n": "Wunsiedel i. Fichtelgebirge",
+  "a": [
+   "Landkreis Wunsiedel i. Fichtelgebirge"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WUR",
+  "t": "license_plate",
+  "n": "Leipzig",
+  "a": [
+   "Landkreis Leipzig"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WW",
+  "t": "license_plate",
+  "n": "Westerwaldkreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WZ",
+  "t": "license_plate",
+  "n": "Lahn-Dill-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-WZL",
+  "t": "license_plate",
+  "n": "Börde",
+  "a": [
+   "Landkreis Börde"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-Z",
+  "t": "license_plate",
+  "n": "Zwickau",
+  "a": [
+   "Landkreis Zwickau"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ZE",
+  "t": "license_plate",
+  "n": "Anhalt-Bitterfeld",
+  "a": [
+   "Landkreis Anhalt-Bitterfeld"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ZEL",
+  "t": "license_plate",
+  "n": "Cochem-Zell",
+  "a": [
+   "Landkreis Cochem-Zell"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ZI",
+  "t": "license_plate",
+  "n": "Görlitz",
+  "a": [
+   "Landkreis Görlitz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ZIG",
+  "t": "license_plate",
+  "n": "Schwalm-Eder-Kreis",
+  "a": [],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ZR",
+  "t": "license_plate",
+  "n": "Greiz",
+  "a": [
+   "Landkreis Greiz"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "license_plate:DE-ZW",
+  "t": "license_plate",
+  "n": "Zweibrücken",
+  "a": [],
+  "c": "country:DE"
  }
 ]

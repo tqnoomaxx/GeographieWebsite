@@ -7,10 +7,11 @@ import { CATEGORIES, ROUND_LENGTHS } from '@/config/categories'
 import { SCOPES } from '@/engine/scope'
 import { poolFor } from '@/engine/session'
 import type { CategoryId } from '@/engine/types'
-import { getRepository } from '@/services/progress/localRepository'
+import { getRepository } from '@/services/progress'
 import { Page, Card, Chips, ProgressBar } from '@/ui'
 
 const REGION_CATEGORIES: CategoryId[] = ['regions', 'cities', 'maps', 'mixed']
+const PLATE_CATEGORIES: CategoryId[] = ['license_plates', 'mixed']
 
 export default function PlayStartPage() {
   const { t } = useTranslation()
@@ -27,6 +28,7 @@ export default function PlayStartPage() {
 
   useEffect(() => {
     if (category && REGION_CATEGORIES.includes(category) && !geo.regionsLoaded) void geo.ensureRegions()
+    if (category && PLATE_CATEGORIES.includes(category) && !geo.platesLoaded) void geo.ensurePlates()
   }, [category, geo])
 
   const poolSize = useMemo(() => {
@@ -36,7 +38,7 @@ export default function PlayStartPage() {
 
   const countryScopes = useMemo(() => {
     // Länder mit Regionen als zusätzliche Bereiche (nur für Regionen/Karten/Gemischt)
-    if (!category || !['regions', 'maps', 'mixed', 'cities'].includes(category) || !geo.index) return []
+    if (!category || !['regions', 'maps', 'mixed', 'cities', 'license_plates'].includes(category) || !geo.index) return []
     return Object.keys(geo.index.regions)
       .map((id) => geo.byId.get(id))
       .filter((c): c is NonNullable<typeof c> => !!c)

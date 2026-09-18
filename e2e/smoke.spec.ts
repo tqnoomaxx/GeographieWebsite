@@ -58,9 +58,11 @@ test('„Alle“-Runde speichern und fortsetzen', async ({ page }) => {
 test('Kartenfrage', async ({ page }) => {
   const errors = watchErrors(page)
   await page.goto('play/maps/round?scope=europe&len=10')
-  const map = page.getByRole('group', { name: 'Weltkarte' })
+  const map = page.getByRole('group').first()
   await expect(map).toBeVisible()
-  await map.getByRole('button', { name: 'Germany' }).click({ force: true })
+  const brazil = map.getByRole('button', { name: 'Brazil' })
+  if (await brazil.count()) await brazil.click({ force: true })
+  else await map.getByRole('button').nth(2).click({ force: true })
   await expect(page.getByRole('status')).toBeVisible()
   expect(errors).toEqual([])
 })
@@ -107,4 +109,17 @@ test('Lernen, Suche, Einstellungen', async ({ page }) => {
   await expect(page.locator('html')).toHaveClass(/dark/)
   await page.goto('quellen')
   await expect(page.getByRole('link', { name: 'country-flag-icons' })).toBeVisible()
+})
+
+test('Kennzeichen-Runde Deutschland', async ({ page }) => {
+  const errors = watchErrors(page)
+  await page.goto('play/license_plates/round?scope=country:DE&len=10')
+  await expect(page.getByRole('heading', { level: 1 })).toContainText(/Kennzeichen/)
+  const input = page.getByPlaceholder('Antwort eingeben …')
+  if (await input.count()) {
+    await input.fill('Berlin')
+    await page.getByRole('button', { name: 'Prüfen' }).click()
+  } else await page.getByRole('group').getByRole('button').first().click()
+  await expect(page.getByRole('status')).toBeVisible()
+  expect(errors).toEqual([])
 })

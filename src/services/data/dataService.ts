@@ -63,11 +63,12 @@ export async function loadRegionMap(iso2: string): Promise<RegionMap | null> {
     mapCache.set(
       iso2,
       (async () => {
-        for (const suffix of ['ADM1', 'ADM2', 'NE', 'EUROPE']) {
-          const r = await fetch(mediaUrl(`media/maps/regions/${iso2}-${suffix}.json`))
-          if (r.ok) return (await r.json()) as RegionMap
-        }
-        return null
+        const index = await loadIndex()
+        const file = index.region_maps?.[iso2]
+        if (!file) return null
+        const r = await fetch(mediaUrl(file))
+        if (!r.ok || !r.headers.get('content-type')?.includes('json')) return null
+        return (await r.json()) as RegionMap
       })(),
     )
   }
@@ -87,6 +88,11 @@ export async function loadEntity(id: string): Promise<Entity | undefined> {
     case 'region': {
       const iso2 = rest.split('-')[0]
       return (await loadRegions(`country:${iso2}`)).find((r) => r.id === id)
+    }
+    case 'license_plate': {
+      const iso2 = rest.split('-')[0]
+      const { loadPlates } = await import('./plates')
+      return (await loadPlates(iso2)).find((p) => p.id === id)
     }
     default:
       return undefined

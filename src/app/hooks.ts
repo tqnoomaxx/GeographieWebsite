@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
-import { getRepository } from '@/services/progress/localRepository'
+import { getRepository } from '@/services/progress'
 import type { UserStats } from '@/services/progress/types'
 import { levelForXp } from '@/config/levels'
 

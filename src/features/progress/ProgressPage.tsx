@@ -5,7 +5,7 @@ import { useAsync, useDocumentTitle, useStats } from '@/app/hooks'
 import { ACHIEVEMENTS } from '@/config/achievements'
 import { QUESTS } from '@/config/quests'
 import { CATEGORIES } from '@/config/categories'
-import { getRepository } from '@/services/progress/localRepository'
+import { getRepository } from '@/services/progress'
 import { metric } from '@/services/gamification'
 import { Page, Card, ProgressBar, Stat, EmptyState, entityPath, typeIcon } from '@/ui'
 

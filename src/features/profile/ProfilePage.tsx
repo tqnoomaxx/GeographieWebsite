@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useAsync, useDocumentTitle, useStats } from '@/app/hooks'
 import { ACHIEVEMENTS } from '@/config/achievements'
-import { getRepository } from '@/services/progress/localRepository'
+import { getRepository } from '@/services/progress'
 import type { Profile } from '@/services/progress/types'
 import { Page, Card, useToast } from '@/ui'
 

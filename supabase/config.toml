@@ -1,0 +1,17 @@
+# Supabase-Projektkonfiguration (Phase 2). `supabase start` lokal, `supabase db push` remote.
+project_id = "geokompass"
+
+[api]
+port = 54321
+schemas = ["public"]
+
+[db]
+port = 54322
+
+[auth]
+site_url = "http://localhost:5173"
+additional_redirect_urls = ["https://tqnoomaxx.github.io/geokompass", "https://geokompass.app"]
+enable_signup = true
+
+[auth.email]
+enable_confirmations = true

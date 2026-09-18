@@ -24,6 +24,7 @@ const Search = lazy(() => import('@/features/search/SearchPage'))
 const Legal = lazy(() => import('@/features/legal/LegalPage'))
 const Forms = lazy(() => import('@/features/legal/FormsPage'))
 const Sources = lazy(() => import('@/features/legal/SourcesPage'))
+const Admin = lazy(() => import('@/features/admin/AdminPage'))
 
 // GitHub-Pages-Fallback: 404.html kodiert den Pfad als ?p=
 const params = new URLSearchParams(location.search)
@@ -69,6 +70,7 @@ export const router = createBrowserRouter(
         { path: '/kontakt', element: <Forms kind="contact" /> },
         { path: '/vorschlagen', element: <Forms kind="suggest" /> },
         { path: '/quellen', element: <Sources /> },
+        { path: '/admin', element: <Admin /> },
         { path: '*', element: <Navigate to="/" replace /> },
       ],
     },

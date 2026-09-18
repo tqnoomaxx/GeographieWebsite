@@ -15,5 +15,6 @@ export function baseDifficulty(e: Entity): 1 | 2 | 3 {
   }
   if (e.type === 'city') return e.attributes.is_capital ? 2 : 3
   if (e.type === 'landmark') return 2
+  if (e.type === 'license_plate') return (e.attributes.code as string).length === 1 ? 1 : (e.attributes.code as string).length === 2 ? 2 : 3
   return 2
 }

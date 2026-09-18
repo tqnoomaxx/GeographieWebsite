@@ -16,7 +16,8 @@ const cities = read<Entity[]>('entities/cities.json')
 const landmarks = read<Entity[]>('entities/landmarks.json')
 const regions = readdirSync(join(DATA, 'entities/regions')).flatMap((f) => read<Entity[]>(`entities/regions/${f}`))
 const relationships = read<Relationship[]>('relationships/index.json')
-const ctx = (scope = 'world') => buildContext({ countries, cities, landmarks, regions, relationships, scope })
+const plates = read<Entity[]>('entities/license-plates/DE.json')
+const ctx = (scope = 'world') => buildContext({ countries, cities, landmarks, regions, plates, relationships, scope })
 
 describe('normalize', () => {
   it('toleriert Umlaute, Diakritika und kleine Tippfehler', () => {
@@ -70,7 +71,7 @@ describe('session', () => {
     expect(s.questions.length).toBe(16)
   })
   it('jede Kategorie hat Fragen im Welt-Bereich', () => {
-    for (const cat of ['flags', 'countries', 'capitals', 'regions', 'cities', 'maps', 'images', 'landmarks', 'mixed'] as const) {
+    for (const cat of ['flags', 'countries', 'capitals', 'regions', 'cities', 'maps', 'images', 'landmarks', 'license_plates', 'mixed'] as const) {
       const s = buildSession(ctx(), { category: cat, scope: 'world', length: 5, seed: cat })
       expect(s.questions.length, cat).toBe(5)
     }
@@ -82,6 +83,15 @@ describe('session', () => {
       expect(checkAnswer(q, target.names.de)).toBe(true)
       if (target.names.en) expect(checkAnswer(q, target.names.en)).toBe(true)
     }
+  })
+})
+
+describe('plates', () => {
+  it('Kennzeichen-Runde für Deutschland', () => {
+    const s = buildSession(ctx('country:DE'), { category: 'license_plates', scope: 'country:DE', length: 10, seed: 'pl' })
+    expect(s.questions).toHaveLength(10)
+    const q = s.questions[0].question
+    if (q.options) expect(q.options.some((o) => o.id === q.answer)).toBe(true)
   })
 })
 

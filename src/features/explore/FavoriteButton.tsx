@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { getRepository } from '@/services/progress/localRepository'
+import { getRepository } from '@/services/progress'
 
 export function FavoriteButton({ id }: { id: string }) {
   const { t } = useTranslation()

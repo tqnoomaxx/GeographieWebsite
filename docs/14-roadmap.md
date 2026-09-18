@@ -51,6 +51,18 @@ Eigene Domain, Supabase produktiv, Accounts, öffentliche Profile, Admin-Bereich
 
 **DoD:** Rechtstexte geprüft, RLS-Tests grün, Lighthouse ≥ 90 in allen Kategorien.
 
+## Umsetzungsstand (18.09.2026)
+
+| Phase | Stand | Hinweise |
+|---|---|---|
+| 0 | ✅ | Repo, Vite/React/Tailwind, Datenmodell, Validator mit Lizenz-Gate, Legacy-Import (254 Länder, 1.071 Flaggen, 78 Sehenswürdigkeiten), Natural Earth, mledoze, Wikidata |
+| A | ✅ | Flaggen, Länder, Hauptstädte, Gemischt, Rundenlänge 10/20/50/Alle mit Fortsetzen, Lernen, XP/Level, Dark Mode, PWA, i18n (de), Flagle + Countryle |
+| B | ✅ (lokal) | Profil, Meine Welt, Achievements, Quests, Favoriten, Statistiken, Fehlerwiederholung, SRS, Streaks, Hauptstädtle, Datenexport/-import. Account-Anbindung vorbereitet (`supabase/`, `SupabaseRepository`), nicht produktiv |
+| C | ✅ | Regionen (817 in 50 Ländern), Städte (458), Kartenfragen (Welt via d3-geo, Regionen via Legacy-Geometrien), Umrissle, Regions-/Stadtseiten, Suche |
+| D | ✅ (Startbestand) | Sehenswürdigkeiten (78) und Bilderquiz aus dem Altbestand, Lizenz-Gate im Build, generierte Quellen-Seite. Gewässer/Berge: Datenmodell vorbereitet, noch keine Daten (Wikidata-Importer folgt) |
+| E | ✅ (DE) | 588 deutsche Kennzeichen aus Wikidata (P395/P440), drei Fragetypen, Bereichsfilter Deutschland. International: Schema fertig, Daten folgen. Bildle/Kennzeichle noch offen |
+| F | 🟡 vorbereitet | Supabase-Schema + RLS + Edge Functions (submit-session, delete-account, feedback) im Repo; Datenqualitäts-Dashboard unter `/admin` (lokal); GitHub-Pages-Deploy und monatliches Daten-Update als Actions. Offen: Domain, Supabase-Projekt anlegen, Auth-UI, Rechtstexte final |
+
 ## Abhängigkeiten
 
 ```

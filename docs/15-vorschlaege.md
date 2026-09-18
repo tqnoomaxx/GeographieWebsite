@@ -96,6 +96,13 @@ Der User hat Rundenlänge, Wordle-Modi und Namensfindung vorgegeben und die übr
 | PWA | ab Phase A | Offline und tägliche Rätsel funktionieren serverlos |
 | Rechtstexte | Platzhalterseiten mit sichtbarem Hinweis „Entwurf“, bis reales Hosting steht | TASK.md §93 |
 
+## Abweichungen in der Umsetzung
+
+- **Karten:** statt MapLibre GL wird `d3-geo` mit SVG verwendet (Weltkarte aus Natural Earth 110m, Umrisse 50m, Regionskarten aus den Legacy-Geometrien). Grund: keine Tile-Infrastruktur nötig, vollständig offline, deutlich kleineres Bundle. MapLibre bleibt Option für Zoom-Karten.
+- **Datenablage:** `public/data/` statt `/data`, damit Vite die Dateien ohne Kopierschritt ausliefert. Skripte schreiben direkt dorthin.
+- **Regionskarten-Manifest:** `data/index.json` enthält `region_maps` und `plates`, weil GitHub Pages/`vite preview` für fehlende Dateien `index.html` mit Status 200 liefern und ein Durchprobieren von Dateinamen deshalb nicht funktioniert.
+- **Tests:** Vitest (Engine, 10 Tests) und Playwright (9 Smoke-Tests × mobil/desktop) sind eingerichtet; die CI führt beide aus.
+
 ## Namensfindung
 
 Anforderungen an den Namen: geografisch, spielerisch, nicht kindisch, passend zu „Atlas + Lernplattform + Quiz + Sammelbuch“, auf Deutsch aussprechbar, international lesbar, Domain realistisch.

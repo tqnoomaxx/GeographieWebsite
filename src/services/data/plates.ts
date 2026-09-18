@@ -7,7 +7,9 @@ export function loadPlates(iso2: string): Promise<Entity[]> {
   if (!cache.has(iso2)) {
     cache.set(
       iso2,
-      fetch(dataUrl(`entities/license-plates/${iso2}.json`)).then((r) => (r.ok ? (r.json() as Promise<Entity[]>) : [])),
+      fetch(dataUrl(`entities/license-plates/${iso2}.json`)).then((r) =>
+        r.ok && r.headers.get('content-type')?.includes('json') ? (r.json() as Promise<Entity[]>) : [],
+      ),
     )
   }
   return cache.get(iso2)!

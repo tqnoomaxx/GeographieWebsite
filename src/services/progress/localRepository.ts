@@ -144,8 +144,3 @@ export class LocalRepository implements ProgressRepository {
   }
 }
 
-let instance: ProgressRepository | undefined
-export function getRepository(): ProgressRepository {
-  if (!instance) instance = new LocalRepository()
-  return instance
-}

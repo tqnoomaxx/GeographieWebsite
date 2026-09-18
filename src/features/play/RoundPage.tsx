@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
 import { buildSession, checkAnswer, extendSession, labelFor, type QuizSession } from '@/engine/session'
 import type { CategoryId, Question } from '@/engine/types'
-import { getRepository } from '@/services/progress/localRepository'
+import { getRepository } from '@/services/progress'
 import { applySession, recomputeLongQuests, type RoundOutcome } from '@/services/gamification'
 import { XP } from '@/config/xp'
 import { Card, ErrorState, Skeleton, ProgressBar, entityPath } from '@/ui'
@@ -12,6 +12,7 @@ import { WorldMap, RegionMapView } from '@/ui/maps'
 import { ReportDialog } from '@/features/legal/ReportDialog'
 
 const REGION_CATEGORIES: CategoryId[] = ['regions', 'cities', 'maps', 'mixed']
+const PLATE_CATEGORIES: CategoryId[] = ['license_plates', 'mixed']
 
 export default function RoundPage() {
   const { t } = useTranslation()
@@ -30,23 +31,31 @@ export default function RoundPage() {
   const length: number | 'all' = lenParam === 'all' ? 'all' : Number(lenParam)
   const only = params.get('only')?.split(',').filter(Boolean)
 
+  const [stored, setStored] = useState<QuizSession | null | undefined>(sessionId ? undefined : null)
   useEffect(() => {
-    if (!geo.ready || startedRef.current) return
+    if (!sessionId) return
+    repo.getSession(sessionId).then((s) => (s ? setStored(s) : setError(new Error('Session nicht gefunden'))))
+  }, [sessionId, repo])
+
+  useEffect(() => {
+    if (!geo.ready || startedRef.current || stored === undefined) return
+    const cat = stored?.category ?? category
+    const sc = stored?.scope ?? scope
+    if (!cat) return setError(new Error('Kategorie fehlt'))
+    const needRegions = REGION_CATEGORIES.includes(cat) || sc.startsWith('country:')
+    const needPlates = PLATE_CATEGORIES.includes(cat)
+    if (needRegions && !geo.regionsLoaded) return void geo.ensureRegions()
+    if (needPlates && !geo.platesLoaded) return void geo.ensurePlates()
     startedRef.current = true
     ;(async () => {
       try {
-        if (sessionId) {
-          const s = await repo.getSession(sessionId)
-          if (!s) throw new Error('Session nicht gefunden')
-          if (REGION_CATEGORIES.includes(s.category) || s.scope.startsWith('country:')) await geo.ensureRegions()
-          setSession(s)
+        if (stored) {
+          setSession(stored)
           return
         }
-        if (!category) throw new Error('Kategorie fehlt')
-        if (REGION_CATEGORIES.includes(category) || scope.startsWith('country:')) await geo.ensureRegions()
         const progress = await repo.getAllEntityProgress()
-        const ctx = geo.contextFor(scope)
-        const s = buildSession(ctx, { category, scope, length, progress, onlyEntities: only, mode: only ? 'repeat_errors' : undefined })
+        const ctx = geo.contextFor(sc)
+        const s = buildSession(ctx, { category: cat, scope: sc, length, progress, onlyEntities: only, mode: only ? 'repeat_errors' : undefined })
         if (!s.questions.length) throw new Error(t('play.no_questions'))
         setSession(s)
         if (s.mode === 'full') await repo.saveSession(s)
@@ -55,10 +64,10 @@ export default function RoundPage() {
       }
     })()
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [geo.ready, geo.regionsLoaded])
+  }, [geo.ready, geo.regionsLoaded, geo.platesLoaded, stored])
 
   // Kontext nach Regionen-Nachladen aktualisieren (für extendSession)
-  const ctx = useMemo(() => (session && geo.ready ? geo.contextFor(session.scope) : null), [session?.scope, geo.ready, geo.regionsLoaded, geo, session])
+  const ctx = useMemo(() => (session && geo.ready ? geo.contextFor(session.scope) : null), [session?.scope, geo.ready, geo.regionsLoaded, geo.platesLoaded, geo, session])
 
   const finish = useCallback(
     async (s: QuizSession) => {

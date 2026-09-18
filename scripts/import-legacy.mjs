@@ -17,6 +17,8 @@ function countryFor(nameOrIso) {
 }
 
 const photoAttribution = parseAttribution(readFileSync(join(PUBLIC, 'media/photos/ATTRIBUTION-legacy.md'), 'utf8'))
+const mapIsos = new Set((await import('node:fs')).readdirSync(join(PUBLIC, 'media/maps/regions')).filter((f) => f.endsWith('.json')).map((f) => f.split('-')[0]))
+const hasMap = (iso2) => mapIsos.has(iso2)
 const relationships = []
 const rel = (from, to, type) => relationships.push({ from, to, type })
 
@@ -56,7 +58,7 @@ for (const f of flagCatalog.filter((x) => x.kind === 'region')) {
       collection: f.collection,
       continent: f.continent,
       capital_name: cap?.name,
-      map: `media/maps/regions/${iso2}`,
+      map: hasMap(iso2) ? `media/maps/regions/${iso2}` : undefined,
     },
     provenance: provenance('ugbzspiele', { source_url: f.source }),
   }

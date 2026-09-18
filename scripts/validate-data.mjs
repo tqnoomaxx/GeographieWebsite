@@ -16,6 +16,7 @@ const files = {
   landmarks: 'entities/landmarks.json',
 }
 const regionFiles = listDir(join(DATA, 'entities', 'regions')).filter((f) => f.endsWith('.json'))
+const plateFiles = listDir(join(DATA, 'entities', 'license-plates')).filter((f) => f.endsWith('.json'))
 const entities = new Map()
 const byType = {}
 function load(rel) {
@@ -28,6 +29,7 @@ const all = [
   ...load(files.cities),
   ...load(files.landmarks),
   ...regionFiles.flatMap((f) => load(`entities/regions/${f}`)),
+  ...plateFiles.flatMap((f) => load(`entities/license-plates/${f}`)),
 ]
 const ENTITY_TYPES = new Set(['country', 'region', 'city', 'river', 'lake', 'mountain', 'landmark', 'license_plate'])
 const mediaAll = []
@@ -85,6 +87,16 @@ const quality = {
 }
 writeJson(join(DATA, 'quality.json'), quality)
 
+// Manifest der Regionskarten (Dateiname pro Land)
+const mapFiles = listDir(join(PUBLIC, 'media', 'maps', 'regions')).filter((f) => /^[A-Z]{2}-[A-Z0-9]+\.json$/.test(f))
+const regionMaps = {}
+for (const f of mapFiles) {
+  const iso = f.split('-')[0]
+  const rank = { ADM1: 0, ADM2: 1, NE: 2, EUROPE: 3 }[f.replace('.json', '').split('-')[1]] ?? 9
+  if (!regionMaps[iso] || rank < regionMaps[iso].rank) regionMaps[iso] = { file: `media/maps/regions/${f}`, rank }
+}
+for (const k of Object.keys(regionMaps)) regionMaps[k] = regionMaps[k].file
+
 // Index für Lazy Loading
 const regionsByCountry = Object.fromEntries(
   regionFiles.map((f) => {
@@ -94,7 +106,15 @@ const regionsByCountry = Object.fromEntries(
 )
 const flagsCount = mediaAll.filter((m) => m.kind === 'flag').length
 const photosCount = mediaAll.filter((m) => m.kind === 'photo').length
+const platesByCountry = Object.fromEntries(
+  plateFiles.map((f) => {
+    const iso = f.replace('.json', '')
+    return [iso, { file: `entities/license-plates/${f}`, count: all.filter((e) => e.type === 'license_plate' && e.attributes.country === `country:${iso}`).length }]
+  }),
+)
 const index = {
+  plates: platesByCountry,
+  region_maps: regionMaps,
   files: { ...files, relationships: 'relationships/index.json', world: 'geo/world.json', continents: 'meta/continents.json' },
   regions: regionsByCountry,
   counts: {
@@ -115,7 +135,7 @@ writeJson(join(DATA, 'search.json'), search)
 
 // Version aus Inhalt
 const hash = createHash('sha1')
-for (const f of ['entities/countries.json', 'entities/cities.json', 'entities/landmarks.json', 'relationships/index.json', ...regionFiles.map((f) => `entities/regions/${f}`)])
+for (const f of ['entities/countries.json', 'entities/cities.json', 'entities/landmarks.json', 'relationships/index.json', ...regionFiles.map((f) => `entities/regions/${f}`), ...plateFiles.map((f) => `entities/license-plates/${f}`)])
   if (existsSync(join(DATA, f))) hash.update(readFileSync(join(DATA, f)))
 const version = { schema_version: 1, data_version: hash.digest('hex').slice(0, 12), generated_at: new Date().toISOString() }
 const prev = existsSync(join(DATA, 'version.json')) ? readJson(join(DATA, 'version.json')) : null

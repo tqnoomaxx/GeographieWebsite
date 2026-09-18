@@ -2,7 +2,7 @@ import { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useAsync, useDocumentTitle } from '@/app/hooks'
-import { getRepository } from '@/services/progress/localRepository'
+import { getRepository } from '@/services/progress'
 import type { ProgressSnapshot } from '@/services/progress/types'
 import { getThemeMode, setThemeMode, type ThemeMode } from '@/services/settings/theme'
 import { loadVersion } from '@/services/data/dataService'
@@ -75,6 +75,7 @@ export default function SettingsPage() {
       <Card className="grid gap-2 text-sm">
         <h2 className="font-medium">{t('settings.about')}</h2>
         <Link to="/quellen" className="underline">{t('settings.sources')}</Link>
+        <Link to="/admin" className="underline">🛠 Datenqualität</Link>
         <Link to="/impressum" className="underline">{t('legal.imprint')}</Link>
         <Link to="/datenschutz" className="underline">{t('legal.privacy')}</Link>
         <Link to="/nutzungsbedingungen" className="underline">{t('legal.terms')}</Link>

@@ -20,7 +20,9 @@ Diese Dokumentation ist die strukturierte Fassung von `../TASK.md`. Der ursprün
 | 12 | [Sicherheit & Datenschutz](12-sicherheit-datenschutz.md) | Zusammengeführte Sicherheits- und Datenschutzanforderungen, Formulare |
 | 13 | [Admin](13-admin.md) | Admin-Bereich, Quiz-Vorschläge, Fehlerreports, Datenqualität |
 | 14 | [Roadmap](14-roadmap.md) | Phasen A–F mit Definition of Done und Abhängigkeiten |
-| 15 | [Vorschläge](15-vorschlaege.md) | Ergänzungen, die über TASK.md hinausgehen, und offene Entscheidungen |
+| 15 | [Vorschläge](15-vorschlaege.md) | Ergänzungen, getroffene Entscheidungen, Abweichungen in der Umsetzung |
+
+Umsetzungsstand je Phase: siehe [14-roadmap.md](14-roadmap.md#umsetzungsstand-18092026).
 
 ## Konventionen
 

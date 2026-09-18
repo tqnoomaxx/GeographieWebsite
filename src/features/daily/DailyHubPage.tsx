@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useAsync, useDocumentTitle, useStats } from '@/app/hooks'
-import { getRepository } from '@/services/progress/localRepository'
+import { getRepository } from '@/services/progress'
 import { Page, Card } from '@/ui'
 import { PUZZLES } from './puzzles'
 import { todayKey } from '@/engine/rng'

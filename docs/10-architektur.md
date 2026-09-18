@@ -3,7 +3,7 @@
 ## Stack (Phase 1)
 
 ```
-React · TypeScript · Vite · Tailwind CSS
+React 19 · TypeScript · Vite · Tailwind CSS 4 · react-router · i18next · idb · d3-geo · vite-plugin-pwa
 Hosting: GitHub Pages (statisch)
 Daten: lokale, optimierte JSON-Dateien (lazy geladen)
 Speicher: IndexedDB (Fortschritt), LocalStorage (Einstellungen)

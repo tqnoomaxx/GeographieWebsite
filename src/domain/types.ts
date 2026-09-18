@@ -87,6 +87,8 @@ export interface Relationship {
 export interface DataIndex {
   files: Record<string, string>
   regions: Record<string, { file: string; count: number }>
+  plates?: Record<string, { file: string; count: number }>
+  region_maps?: Record<string, string>
   counts: Record<string, number>
   continents: Record<string, number>
 }
