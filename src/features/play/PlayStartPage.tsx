@@ -11,7 +11,8 @@ import { poolFor, setupOf } from '@/engine/session'
 import type { CategoryId, GeneratorContext } from '@/engine/types'
 import type { Entity } from '@/domain/types'
 import { getRepository } from '@/services/progress'
-import { Page, Card, Chips, ProgressBar } from '@/ui'
+import { Page, Card, Chips, Flag, ProgressBar } from '@/ui'
+import { normalizeAnswer } from '@/engine/normalize'
 import { CATEGORY_ICONS, CATEGORY_TONES, Icons, IconTile } from '@/ui/icons'
 import { RoundTitle } from './RoundLabel'
 
@@ -91,6 +92,8 @@ function Setup({ category }: { category: CategoryId }) {
   }, [countries])
   const scopeValid = loading || setup.scope === 'world' || continents.includes(setup.scope as (typeof SCOPES)[number]) || countries.some((c) => c.country.id === setup.scope)
   const scope = scopeValid ? setup.scope : 'world'
+  /** Kontinent-Chip, der zum Bereich gehört; bei einem einzelnen Land dessen Kontinent. */
+  const activeContinent = isCountryScope(scope) ? ((geo.byId.get(scope)?.attributes.continent as string | undefined) ?? 'world') : scope
 
   // ---- Inhalt: Länder / Regionen / Alles (nur Kategorien mit `content`; in einem Land immer dessen Regionen)
   const contentOptions = useMemo(() => {
@@ -124,21 +127,8 @@ function Setup({ category }: { category: CategoryId }) {
   return (
     <Page title={t(`category.${category}`)} back="/play" action={<IconTile icon={CATEGORY_ICONS[category]} tone={CATEGORY_TONES[category]} size="sm" />}>
       <Section step={1} title={t('play.scope')}>
-        <Chips label={t('play.scope')} value={isCountryScope(scope) ? '' : scope} onChange={(v) => patch({ scope: v })} items={['world', ...continents].map((s) => ({ value: s as string, label: t(`scope.${s}`) }))} />
-        {countries.length > 0 && (
-          <select className="mt-2 w-full rounded-xl border border-line bg-card px-3 py-3 text-sm" value={isCountryScope(scope) ? scope : ''} onChange={(e) => e.target.value && patch({ scope: e.target.value })} aria-label={t('setup.country_pick')}>
-            <option value="">{t('setup.country_pick')}</option>
-            {countryGroups.map(([cont, list]) => (
-              <optgroup key={cont} label={t(`scope.${cont}`)}>
-                {list.map(({ country, n }) => (
-                  <option key={country.id} value={country.id}>
-                    {country.names.de} ({n})
-                  </option>
-                ))}
-              </optgroup>
-            ))}
-          </select>
-        )}
+        <Chips label={t('play.scope')} value={activeContinent} onChange={(v) => patch({ scope: v })} items={['world', ...continents].map((s) => ({ value: s as string, label: t(`scope.${s}`) }))} />
+        {countries.length > 0 && <CountryPicker groups={countryGroups} continent={activeContinent === 'world' ? undefined : activeContinent} value={isCountryScope(scope) ? scope : ''} onChange={(id) => patch({ scope: id || activeContinent })} />}
         {contentOptions.length > 1 && content && (
           <div className="mt-3 flex flex-wrap items-center gap-2">
             <span className="text-xs text-ink-2">{t('setup.content_label')}:</span>
@@ -185,6 +175,43 @@ function Setup({ category }: { category: CategoryId }) {
       </div>
       {poolSize < MIN_POOL && !loading && <p className="mt-3 text-sm text-ink-2">{t('play.no_questions')}</p>}
     </Page>
+  )
+}
+
+type CountryGroup = readonly [string, Array<{ country: Entity; n: number }>]
+
+/** Einzelnes Land als Bereich: Flaggen-Chips nach Kontinent, auf den gewählten Kontinent eingeschränkt, Suchfeld bei langen Listen. */
+function CountryPicker({ groups, continent, value, onChange }: { groups: readonly CountryGroup[]; continent?: string; value: string; onChange: (id: string) => void }) {
+  const { t } = useTranslation()
+  const [q, setQ] = useState('')
+  const shown = groups.filter(([c]) => !continent || c === continent)
+  const total = shown.reduce((n, [, list]) => n + list.length, 0)
+  const nq = normalizeAnswer(q)
+  // Lange Listen (Welt, kein Kontinent gewählt) bleiben eingeklappt, bis gesucht oder ein Kontinent gewählt wird.
+  const collapsed = total > 12 && !continent && !nq
+  const filtered = collapsed ? [] : shown.map(([c, list]) => [c, nq ? list.filter((x) => normalizeAnswer(x.country.names.de).includes(nq)) : list] as const).filter(([, list]) => list.length)
+  if (!total) return null
+  return (
+    <div className="mt-3" role="radiogroup" aria-label={t('setup.country_pick')}>
+      <div className="mb-2 flex flex-wrap items-center gap-2">
+        <span className="text-xs text-ink-2">{t('setup.country_pick')}:</span>
+        {total > 12 && <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={continent ? t('setup.country_filter') : t('setup.country_filter_world', { count: total })} aria-label={t('setup.country_filter')} className="min-h-9 flex-1 rounded-xl border border-line bg-card px-3 text-sm" />}
+      </div>
+      {filtered.map(([c, list]) => (
+        <div key={c} className="mb-2">
+          {shown.length > 1 && <p className="mb-1 text-[11px] font-medium uppercase tracking-wider text-ink-2">{t(`scope.${c}`)}</p>}
+          <div className="flex flex-wrap gap-2">
+            {list.map(({ country, n }) => (
+              <button key={country.id} type="button" role="radio" aria-checked={country.id === value} aria-label={country.names.de} className={`chip inline-flex items-center gap-2 ${country.id === value ? 'chip-active' : ''}`} onClick={() => onChange(country.id === value ? '' : country.id)}>
+                <Flag entity={country} size="xs" />
+                {country.names.de} <span className="text-ink-2">{n}</span>
+              </button>
+            ))}
+          </div>
+        </div>
+      ))}
+      {!filtered.length && !collapsed && <p className="text-sm text-ink-2">{t('setup.country_none')}</p>}
+    </div>
   )
 }
 

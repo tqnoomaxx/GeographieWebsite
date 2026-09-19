@@ -74,9 +74,9 @@ export function ErrorState({ onRetry, message }: { onRetry?: () => void; message
   )
 }
 
-export function Flag({ entity, className = '', size = 'md' }: { entity: Entity; className?: string; size?: 'sm' | 'md' | 'lg' | 'xl' }) {
+export function Flag({ entity, className = '', size = 'md' }: { entity: Entity; className?: string; size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl' }) {
   const flag = entity.media?.find((m) => m.kind === 'flag')
-  const sizes = { sm: 'h-6', md: 'h-10', lg: 'h-24 md:h-32', xl: 'h-40 md:h-56' }
+  const sizes = { xs: 'h-4', sm: 'h-6', md: 'h-10', lg: 'h-24 md:h-32', xl: 'h-40 md:h-56' }
   if (!flag) return <div className={`${sizes[size]} aspect-[3/2] rounded-md bg-card-2 ${className}`} aria-hidden />
   return (
     <img

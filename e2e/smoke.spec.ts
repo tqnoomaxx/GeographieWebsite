@@ -166,7 +166,8 @@ test('Flussseite und Liste', async ({ page }) => {
 
 test('Setup: Land als Bereich, Kartenfrage mit Versuchen', async ({ page }) => {
   await page.goto('play/flags')
-  await page.getByLabel('… oder ein einzelnes Land wählen').selectOption('country:DE')
+  await page.getByRole('radio', { name: 'Europa' }).click()
+  await page.getByRole('radio', { name: 'Deutschland' }).click()
   await page.getByRole('radio', { name: /Flagge → Karte/ }).click()
   await page.getByRole('button', { name: "Los geht's" }).click()
   await expect(page.locator('[data-question-type="map_click"]')).toBeVisible()
@@ -200,7 +201,8 @@ test('Setup jeder Kategorie startet eine Runde', async ({ page }) => {
 
 test('Flaggen: Land als Bereich und Fragetyp wählen', async ({ page }) => {
   await page.goto('play/flags')
-  await page.getByLabel('… oder ein einzelnes Land wählen').selectOption('country:DE')
+  await page.getByRole('radio', { name: 'Europa' }).click()
+  await page.getByRole('radio', { name: 'Deutschland' }).click()
   await expect(page.getByText(/^Flaggen · Automatisch$/)).toBeVisible()
   await expect(page.getByText(/^Deutschland · /)).toBeVisible()
   await page.getByRole('radio', { name: 'Flagge → Name' }).click()

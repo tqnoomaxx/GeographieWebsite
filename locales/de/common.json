@@ -94,7 +94,7 @@
   "setup": {
     "mode": "Fragetyp",
     "auto_desc": "Mischt die Multiple-Choice-Fragetypen dieser Kategorie. Eintippen und Karte wählst du ausdrücklich.",
-    "country_pick": "… oder ein einzelnes Land wählen",
+    "country_pick": "Oder ein einzelnes Land",
     "repeat": "Fehler in der Runde wiederholen",
     "repeat_desc": "Falsch beantwortete Aufgaben kommen einige Fragen später noch einmal.",
     "europe_note": "{{count}} Gebiete in zufälliger Reihenfolge auf einer Karte – immer die komplette Europareise. Falsche Klicks zählen als Versuch, die Aufgabe bleibt offen, bis du das Gebiet gefunden hast.",
@@ -112,7 +112,10 @@
         "region": "Regionen"
       }
     },
-    "auto_desc_all": "Mischt alle Fragetypen dieser Kategorie."
+    "auto_desc_all": "Mischt alle Fragetypen dieser Kategorie.",
+    "country_filter": "Land suchen …",
+    "country_none": "Kein Land gefunden.",
+    "country_filter_world": "{{count}} Länder suchen …"
   },
   "modes_desc": {
     "flag_to_name": "Du siehst die Flagge und wählst ihren Namen.",
