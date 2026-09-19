@@ -15,7 +15,7 @@ export function Page({ title, children, back, action }: { title?: string; childr
               <ChevronLeft className="h-6 w-6" />
             </Link>
           )}
-          {title && <h1 className="text-2xl font-semibold tracking-tight md:text-3xl">{title}</h1>}
+          {title && <h1 className="text-3xl font-medium md:text-4xl">{title}</h1>}
           <div className="ml-auto">{action}</div>
         </header>
       )}

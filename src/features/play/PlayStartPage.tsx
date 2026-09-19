@@ -200,7 +200,7 @@ function CategoryHub({ open }: { open: Awaited<ReturnType<ReturnType<typeof getR
         <section className="mb-6">
           <h2 className="mb-2 text-sm font-medium uppercase tracking-wider text-ink-2">{t('play.open_runs')}</h2>
           <div className="grid gap-2">
-            {open.map((s) => {
+            {open.slice(0, 2).map((s) => {
               const total = s.questions.length + (s.remaining?.length ?? 0)
               return (
                 <Link key={s.id} to={`/play/session/${encodeURIComponent(s.id)}`} className="card flex items-center gap-3 p-3 hover:bg-card-2">
@@ -212,6 +212,7 @@ function CategoryHub({ open }: { open: Awaited<ReturnType<ReturnType<typeof getR
                 </Link>
               )
             })}
+            {open.length > 2 && <p className="text-xs text-ink-2">{t('play.more_open', { count: open.length - 2 })}</p>}
           </div>
         </section>
       )}

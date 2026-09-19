@@ -17,7 +17,7 @@ export interface Generator {
 export const flagOf = (e: Entity) => e.media?.find((m) => m.kind === 'flag')
 export const photoOf = (e: Entity) => e.media?.find((m) => m.kind === 'photo')
 export const nameOf = (e: Entity) => e.names.de
-export const accepted = (e: Entity) => [e.names.de, e.names.en ?? '', ...(e.aliases ?? [])].filter((s) => s && s.length > 1)
+export const accepted = (e: Entity) => [e.names.de, e.names.en ?? '', ...(e.aliases ?? []), (e.attributes.iso2 as string) ?? '', (e.attributes.iso3 as string) ?? ''].filter((s) => s && s.length > 1)
 /** Souveräne Staaten (plus allgemein anerkannte Sonderfälle). Abhängige Gebiete bleiben Detailseiten/Entdecken vorbehalten. */
 const SPECIAL = new Set(['TW', 'XK', 'PS', 'VA'])
 export const isSovereign = (e: Entity) => e.type === 'country' && (e.attributes.independent !== false || SPECIAL.has(e.attributes.iso2 as string))

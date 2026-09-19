@@ -24,7 +24,10 @@ export function register(g: Generator) {
   registry.set(g.id, g)
 }
 
+/** Spielarten, die nur ausdrücklich gewählt werden (R10): Eintippen und Karten. */
+export const EXPLICIT_ONLY = new Set(['flag_to_country_input', 'capital_input', 'city_input', 'plate_input', 'flag_to_region_map', 'flag_to_country_map', 'flag_to_europe_map', 'country_on_map', 'region_on_map', 'water_on_map', 'mountain_on_map'])
+
 export function generatorsFor(category: CategoryId): Generator[] {
-  if (category === 'mixed') return [...registry.values()].filter((g) => !['flag_to_country_input', 'capital_input', 'city_input', 'plate_input', 'flag_to_region_map', 'region_to_flag', 'flag_to_europe_map'].includes(g.id))
+  if (category === 'mixed') return [...registry.values()].filter((g) => !EXPLICIT_ONLY.has(g.id) && g.id !== 'region_to_flag')
   return [...registry.values()].filter((g) => g.category === category)
 }

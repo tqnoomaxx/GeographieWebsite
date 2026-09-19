@@ -1,7 +1,7 @@
 import type { Entity } from '@/domain/types'
 import type { CategoryId, GeneratorContext, Question } from './types'
 import type { Generator } from './generators/base'
-import { generatorsFor } from './registry'
+import { generatorsFor, EXPLICIT_ONLY } from './registry'
 import { createRng, type Rng } from './rng'
 import { selectionWeight, type EntityProgress } from './srs'
 import { matchesAnswer } from './normalize'
@@ -59,7 +59,11 @@ export interface BuildOptions {
 
 /** Vereinigt die Pools aller Generatoren einer Kategorie und merkt sich, welche Generatoren eine Entity bedienen. */
 export function poolFor(category: CategoryId, ctx: GeneratorContext, generatorIds?: string[]) {
-  const gens = generatorsFor(category).filter((g) => !generatorIds || generatorIds.includes(g.id))
+  let gens = generatorsFor(category).filter((g) => !generatorIds || generatorIds.includes(g.id))
+  if (!generatorIds) {
+    const auto = gens.filter((g) => !EXPLICIT_ONLY.has(g.id))
+    if (auto.length) gens = auto // R10: Automatisch = nur Multiple Choice
+  }
   const map = new Map<string, { entity: Entity; generators: Generator[] }>()
   for (const g of gens) {
     for (const e of g.pool(ctx)) {
@@ -228,4 +232,13 @@ export function recordAnswer(session: QuizSession, given: string, rng: Rng = cre
     streak,
     bestStreak: Math.max(session.bestStreak, streak),
   }
+}
+
+/** Aufgabe überspringen (Europa-Karte): zählt als Fehler, keine Wiederholung. */
+export function skipQuestion(session: QuizSession): QuizSession {
+  const idx = session.position
+  const current = session.questions[idx]
+  if (!current || current.given !== undefined) return session
+  const questions = session.questions.map((q, i) => (i === idx ? { ...q, given: '__skip__', correct: false, answeredAt: new Date().toISOString(), attempts: (q.attempts ?? 0) + 1 } : q))
+  return { ...session, questions, streak: 0 }
 }

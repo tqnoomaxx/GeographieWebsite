@@ -11,7 +11,9 @@ export function WorldMap({
   wrong,
   disabled,
   focus,
+  decorative,
 }: {
+  decorative?: boolean
   onPick?: (id: string) => void
   highlight?: string[]
   correct?: string
@@ -41,7 +43,7 @@ export function WorldMap({
   if (!world || !path) return <div className="skeleton aspect-[1.92] w-full" />
   return (
     <svg viewBox={`0 0 ${width} ${height}`} className="w-full touch-manipulation select-none" role={onPick ? 'group' : 'img'} aria-label="Weltkarte">
-      <rect width={width} height={height} className="fill-card-2/60" rx={16} />
+      {!decorative && <rect width={width} height={height} className="fill-card-2/60" rx={16} />}
       {features.map((f, i) => {
         const id = f.properties?.id as string
         const isCorrect = id === correct
@@ -53,7 +55,7 @@ export function WorldMap({
             d={path(f as GeoPermissibleObjects) ?? undefined}
             data-id={id}
             className={`stroke-bg stroke-[0.5] transition-colors ${
-              isCorrect ? 'fill-ok' : isWrong ? 'fill-bad' : isHi ? 'fill-accent' : 'fill-accent/25 hover:fill-accent/60'
+              isCorrect ? 'fill-ok' : isWrong ? 'fill-bad' : isHi ? 'fill-coral' : decorative ? 'fill-[#f4efe3]' : 'fill-accent/25 hover:fill-accent/60'
             } ${onPick && !disabled ? 'cursor-pointer' : ''}`}
             onClick={() => onPick && !disabled && onPick(id)}
             role={onPick ? 'button' : undefined}

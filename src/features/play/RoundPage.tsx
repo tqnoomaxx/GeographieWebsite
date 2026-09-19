@@ -2,7 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
-import { buildSession, extendSession, labelFor, recordAnswer, type QuizSession } from '@/engine/session'
+import { buildSession, extendSession, labelFor, recordAnswer, skipQuestion, type QuizSession } from '@/engine/session'
 import { entityFilterFor, fromQuery, toQuery } from './setup'
 import type { CategoryId, Question } from '@/engine/types'
 import { getRepository } from '@/services/progress'
@@ -58,7 +58,10 @@ export default function RoundPage() {
         const s = buildSession(ctx, { category: cat, scope: sc, length, progress, onlyEntities: only, generatorIds: gens, mode: only ? 'repeat_errors' : undefined, entityFilter: entityFilterFor(cfg.kinds), repeatMistakes: cfg.repeat, collection: cfg.collection })
         if (!s.questions.length) throw new Error(t('play.no_questions'))
         setSession(s)
-        if (s.mode === 'full') await repo.saveSession(s)
+        if (s.mode === 'full') {
+          await repo.saveSession(s)
+          for (const old of (await repo.getOpenSessions()).slice(5)) await repo.deleteSession(old.id) // höchstens 5 offene Runden
+        }
       } catch (e) {
         setError(e as Error)
       }
@@ -91,6 +94,13 @@ export default function RoundPage() {
     },
     [session, repo],
   )
+
+  const skip = useCallback(async () => {
+    if (!session) return
+    const next = skipQuestion(session)
+    setSession(next)
+    if (next.mode === 'full') await repo.saveSession(next)
+  }, [session, repo])
 
   const advance = useCallback(async () => {
     if (!session || !ctx) return
@@ -134,12 +144,12 @@ export default function RoundPage() {
         </div>
       </div>
       <ProgressBar value={session.position / total} className="mb-4" />
-      <QuestionView key={current.question.id} q={current.question} given={current.given} correct={current.correct} repeated={current.repeated} attempts={current.attempts ?? 0} lastWrong={(session as QuizSession & { lastWrongMapGuess?: string }).lastWrongMapGuess} onAnswer={answer} onNext={advance} />
+      <QuestionView key={current.question.id} q={current.question} given={current.given} correct={current.correct} repeated={current.repeated} attempts={current.attempts ?? 0} lastWrong={(session as QuizSession & { lastWrongMapGuess?: string }).lastWrongMapGuess} onAnswer={answer} onNext={advance} onSkip={current.question.map?.kind === 'europe' ? skip : undefined} />
     </div>
   )
 }
 
-function QuestionView({ q, given, correct, repeated, attempts, lastWrong, onAnswer, onNext }: { q: Question; given?: string; correct?: boolean; repeated?: boolean; attempts: number; lastWrong?: string; onAnswer: (v: string) => void; onNext: () => void }) {
+function QuestionView({ q, given, correct, repeated, attempts, lastWrong, onAnswer, onNext, onSkip }: { q: Question; given?: string; correct?: boolean; repeated?: boolean; attempts: number; lastWrong?: string; onAnswer: (v: string) => void; onNext: () => void; onSkip?: () => void }) {
   const { t } = useTranslation()
   const geo = useGeoData()
   const [text, setText] = useState('')
@@ -165,6 +175,12 @@ function QuestionView({ q, given, correct, repeated, attempts, lastWrong, onAnsw
     return () => window.removeEventListener('keydown', onKey)
   }, [answered, q, onAnswer, onNext])
 
+  // Europa-Karte: Feedback nach 650 ms automatisch weiter (wie Vorgängerversion)
+  useEffect(() => {
+    if (!answered || q.map?.kind !== 'europe') return
+    const t = setTimeout(onNext, 650)
+    return () => clearTimeout(t)
+  }, [answered, q.map?.kind, onNext])
   const correctLabel = labelFor(q, q.answer, geo.byId)
   const answerEntity = geo.byId.get(q.answer)
   const xp = correct ? XP.correct_answer + (XP.difficulty_bonus[q.difficulty] ?? 0) : XP.wrong_answer
@@ -197,6 +213,7 @@ function QuestionView({ q, given, correct, repeated, attempts, lastWrong, onAnsw
             <RegionMapView iso2={q.map.kind === 'europe' ? 'europe' : q.map.iso2!} onPick={onAnswer} disabled={answered} correct={answered ? q.answer : undefined} wrong={!answered ? lastWrong : undefined} />
           )}
           {!answered && <p className="mt-2 text-center text-sm text-ink-2">{attempts > 0 ? `${t('play.try_again')} (${attempts})` : t('play.map_hint')}</p>}
+          {!answered && onSkip && <button type="button" className="btn-ghost mx-auto mt-1 block text-sm" onClick={onSkip}>{t('play.skip')} →</button>}
         </div>
       )}
 
@@ -239,11 +256,11 @@ function QuestionView({ q, given, correct, repeated, attempts, lastWrong, onAnsw
                 type="button"
                 disabled={answered}
                 onClick={() => onAnswer(o.id)}
-                className={`card flex min-h-14 items-center gap-3 px-4 py-3 text-left transition ${cls}`}
+                className={`card flex min-h-14 items-center gap-3 text-left transition ${o.image ? 'justify-center p-3' : 'px-4 py-3'} ${cls}`}
                 aria-label={o.label || geo.byId.get(o.id)?.names.de}
               >
-                <span className="hidden text-xs text-ink-2 md:inline">{i + 1}</span>
-                {o.image && <img src={o.image} alt="" className="h-16 w-auto rounded-md border border-line bg-white object-contain md:h-24" />}
+                {!o.image && <span className="hidden text-xs text-ink-2 md:inline">{i + 1}</span>}
+                {o.image && <img src={o.image} alt="" className="max-h-28 w-full rounded-md border border-line bg-white object-contain md:max-h-36" />}
                 <span className="font-medium">{o.label}</span>
                 {answered && isAnswer && <span className="ml-auto text-ok" aria-hidden>✓</span>}
                 {answered && isGiven && !isAnswer && <span className="ml-auto text-bad" aria-hidden>✕</span>}
@@ -255,9 +272,9 @@ function QuestionView({ q, given, correct, repeated, attempts, lastWrong, onAnsw
 
       {answered && (
         <div className={`mt-4 rounded-2xl p-4 ${correct ? 'bg-ok-soft' : 'bg-bad-soft'}`} role="status" aria-live="polite">
-          <p className="text-lg font-semibold">{correct ? `✓ ${t('play.correct')}` : q.question_type === 'map_click' ? `✓ ${t('play.found_after', { n: attempts })}` : `✕ ${t('play.wrong')}`}</p>
+          <p className="text-lg font-semibold">{correct ? `✓ ${t('play.correct')}` : q.question_type === 'map_click' && given !== '__skip__' ? `✓ ${t('play.found_after', { n: attempts })}` : `✕ ${t('play.wrong')}`}</p>
           {!correct && q.question_type !== 'map_click' && <p>{t('play.would_be', { answer: correctLabel })}</p>}
-          {q.question_type === 'map_click' && <p>{correctLabel}</p>}
+          {q.question_type === 'map_click' && <p>{given === '__skip__' ? t('play.would_be', { answer: correctLabel }) : correctLabel}</p>}
           {q.explanation && <p className="mt-1 text-sm text-ink-2">{q.explanation}</p>}
           <div className="mt-2 flex items-center gap-3 text-sm">
             <span className="font-medium">{correct ? t('play.xp', { xp }) : t('play.xp_try', { xp })}</span>

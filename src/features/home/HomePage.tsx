@@ -23,19 +23,20 @@ export default function HomePage() {
 
   return (
     <Page>
-      <section className="relative mb-8 overflow-hidden rounded-3xl bg-accent px-6 py-10 text-accent-ink md:px-10 md:py-14">
-        <div className="hero-map pointer-events-none absolute inset-0 opacity-25" aria-hidden>
+      <section className="relative mb-8 overflow-hidden rounded-3xl bg-navy px-6 py-10 text-[#f4efe3] md:px-10 md:py-16">
+        <div className="hero-map pointer-events-none absolute inset-0 opacity-30" aria-hidden>
           <div className="absolute -right-10 -top-6 w-[130%] md:w-[80%] md:-right-20">
-            <WorldMap />
+            <WorldMap decorative />
           </div>
         </div>
         <div className="relative max-w-xl">
-          <p className="mb-2 flex items-center gap-2 text-sm font-medium uppercase tracking-widest opacity-80">
+          <p className="mb-3 flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.2em] text-gold">
             <Icons.explore className="h-4 w-4" /> {t('app.name')}
           </p>
-          <h1 className="text-3xl font-semibold tracking-tight md:text-5xl">{isNew ? t('app.guest_hook') : t('app.tagline')}</h1>
+          <h1 className="text-4xl font-medium leading-[1.05] md:text-6xl">{isNew ? t('app.guest_hook') : t('app.tagline')}</h1>
+          <p className="mt-3 max-w-md text-sm text-[#f4efe3]/75 md:text-base">{t('app.hero_sub')}</p>
           {isNew ? (
-            <Link to="/play/flags/round?len=10&scope=world" className="btn mt-6 bg-bg px-7 text-lg text-ink hover:opacity-90">
+            <Link to="/play/flags/round?len=10&scope=world&kinds=country" className="btn-primary mt-6 px-7 text-lg">
               <Icons.start className="h-5 w-5" /> {t('app.play_now')}
             </Link>
           ) : (
@@ -68,7 +69,7 @@ export default function HomePage() {
         </Card>
       )}
 
-      <h2 className="mb-3 text-sm font-medium uppercase tracking-wider text-ink-2">{t('play.title')}</h2>
+      <h2 className="eyebrow mb-3">{t('play.title')}</h2>
       <section className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">
         {primary.map((c) => (
           <Link key={c.id} to={`/play/${c.id}`} className="card group flex flex-col gap-3 p-4 transition hover:-translate-y-0.5">

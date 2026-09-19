@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest'
 import { readFileSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 import { buildContext } from './context'
-import { buildSession, checkAnswer, extendSession, poolFor, recordAnswer } from './session'
+import { buildSession, checkAnswer, extendSession, poolFor, recordAnswer, skipQuestion } from './session'
 import { matchesAnswer, normalizeAnswer } from './normalize'
 import { createRng } from './rng'
 import { review, initialProgress } from './srs'
@@ -113,6 +113,26 @@ describe('maps', () => {
       const s = buildSession(c, { category: gid.startsWith('country') || gid.startsWith('flag') ? (gid.startsWith('flag') ? 'flags' : 'maps') : gid.startsWith('water') ? 'water' : 'nature', scope: 'world', length: 'all', seed: gid, generatorIds: [gid] })
       for (const q of s.questions) expect(c.byId.get(q.question.answer)?.attributes.on_world_map, q.question.answer).toBe(true)
     }
+  })
+})
+
+describe('regeln', () => {
+  it('R10: Automatisch enthält keine Eintipp- oder Kartenfragen', () => {
+    for (const cat of ['flags', 'capitals', 'cities', 'water'] as const) {
+      const s = buildSession(ctx(), { category: cat, scope: 'world', length: 30, seed: 'auto' })
+      for (const q of s.questions) expect(['multiple_choice', 'image_choice', 'true_false']).toContain(q.question.question_type)
+    }
+  })
+  it('R3: ISO-Code wird beim Eintippen akzeptiert', () => {
+    const s = buildSession(ctx(), { category: 'flags', scope: 'world', length: 3, seed: 'iso', generatorIds: ['flag_to_country_input'] })
+    const q = s.questions[0].question
+    expect(checkAnswer(q, countries.find((c) => c.id === q.answer)!.attributes.iso2 as string)).toBe(true)
+  })
+  it('R7: Überspringen zählt als Fehler ohne Wiederholung', () => {
+    let s = buildSession(ctx('europe'), { category: 'flags', scope: 'europe', length: 2, seed: 'skip', generatorIds: ['flag_to_europe_map'] })
+    s = skipQuestion(s)
+    expect(s.questions[0].correct).toBe(false)
+    expect(s.questions).toHaveLength(2)
   })
 })
 

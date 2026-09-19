@@ -1,5 +1,5 @@
 {
-  "app": { "name": "GeoKompass", "tagline": "Entdecke die Welt. Teste dein Wissen.", "guest_hook": "Wie gut kennst du die Welt?", "play_now": "Jetzt spielen", "continue": "Weiterspielen" },
+  "app": { "name": "GeoKompass", "tagline": "Entdecke die Welt. Teste dein Wissen.", "guest_hook": "Wie gut kennst du die Welt?", "play_now": "Jetzt spielen", "hero_sub": "Flaggen, Hauptstädte, Regionen, Karten und Sehenswürdigkeiten – ein interaktiver Atlas zum Spielen und Lernen.", "continue": "Weiterspielen" },
   "nav": { "home": "Start", "play": "Spielen", "learn": "Lernen", "explore": "Entdecken", "progress": "Fortschritt", "profile": "Profil", "daily": "Tägliche Rätsel", "settings": "Einstellungen", "search": "Suche", "more": "Mehr", "back": "Zurück", "quit": "Beenden" },
   "category": {
     "flags": "Flaggen", "countries": "Länder", "capitals": "Hauptstädte", "regions": "Regionen", "cities": "Städte", "maps": "Karten",
@@ -8,7 +8,7 @@
   "scope": { "world": "Welt", "europe": "Europa", "asia": "Asien", "africa": "Afrika", "north-america": "Nordamerika", "south-america": "Südamerika", "oceania": "Ozeanien", "antarctica": "Antarktis" },
   "play": {
     "title": "Was möchtest du spielen?", "mode": "Spielart", "scope": "Bereich", "length": "Rundenlänge", "all": "Alle {{count}}", "start": "Los geht's",
-    "open_runs": "Offene Runden", "resume": "Fortsetzen: {{category}} {{scope}} · {{done}} / {{total}}", "no_questions": "Für diese Auswahl gibt es noch keine Fragen.",
+    "open_runs": "Offene Runden", "more_open": "+ {{count}} weitere gespeicherte Runden", "resume": "Fortsetzen: {{category}} {{scope}} · {{done}} / {{total}}", "no_questions": "Für diese Auswahl gibt es noch keine Fragen.",
     "question_of": "{{n}} / {{total}}", "repeated": "Wiederholung", "streak": "Serie", "points": "Punkte", "try_again": "Nicht ganz – versuch es weiter.", "found_after": "Gefunden nach {{n}} Versuchen", "first_try": "beim ersten Versuch", "best_streak": "Beste Serie", "check": "Prüfen", "next": "Weiter", "skip": "Überspringen", "type_answer": "Antwort eingeben …",
     "correct": "Richtig!", "wrong": "Nicht ganz", "would_be": "Richtig wäre: {{answer}}", "xp": "+{{xp}} XP", "xp_try": "+{{xp}} XP für den Versuch",
     "round_done": "Runde beendet 🎉", "full_done": "Alles geschafft! 🏁", "result": "{{correct}} / {{total}} richtig", "again": "Noch einmal", "repeat_errors": "Fehler wiederholen ({{count}})", "continue": "Weiter",
