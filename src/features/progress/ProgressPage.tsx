@@ -4,7 +4,9 @@ import { useGeoData } from '@/app/DataProvider'
 import { useAsync, useDocumentTitle, useStats } from '@/app/hooks'
 import { ACHIEVEMENTS } from '@/config/achievements'
 import { QUESTS } from '@/config/quests'
-import { CATEGORIES } from '@/config/categories'
+import { QUIZZES } from '@/config/quizzes'
+import { setupOf } from '@/engine/session'
+import { RoundTitle } from '@/features/play/RoundLabel'
 import { getRepository } from '@/services/progress'
 import { metric } from '@/services/gamification'
 import { Page, Card, ProgressBar, Stat, EmptyState, entityPath } from '@/ui'
@@ -69,7 +71,7 @@ export default function ProgressPage() {
         <Stat value={`${acc} %`} label={t('progress.accuracy')} />
       </div>
       <Card className="mb-5 grid grid-cols-2 gap-2 text-sm md:grid-cols-3">
-        {CATEGORIES.filter((c) => stats.byCategory[c.id]).map((c) => {
+        {QUIZZES.filter((c) => stats.byCategory[c.id]).map((c) => {
           const s = stats.byCategory[c.id]!
           return (
             <div key={c.id} className="flex justify-between rounded-lg bg-card-2 px-3 py-2">
@@ -153,7 +155,7 @@ export default function ProgressPage() {
             const correct = answered.filter((q) => q.correct).length
             return (
               <li key={s.id} className="flex items-center justify-between px-4 py-2">
-                <span>{t(`category.${s.category}`)} · {s.scope.startsWith('country:') ? geo.byId.get(s.scope)?.names.de : t(`scope.${s.scope}`)}</span>
+                <RoundTitle setup={setupOf(s)} icon={false} />
                 <span className="tabular-nums text-ink-2">{correct}/{answered.length} · {new Date(s.startedAt).toLocaleDateString('de-DE')}</span>
               </li>
             )

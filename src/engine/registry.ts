@@ -7,6 +7,7 @@ import * as im from './generators/imagesMaps'
 import * as pl from './generators/plates'
 import * as na from './generators/nature'
 import type { CategoryId } from './types'
+import { AUTO, MIXED_EXCLUDE, QUIZZES, autoModes, quizFor, type QuizMode } from '@/config/quizzes'
 
 const all: Generator[] = [
   flags.flagToCountry, flags.countryToFlag, flags.flagToCountryInput, flags.flagToRegion, flags.regionToFlag, flags.flagToRegionMap, flags.flagToCountryMap, flags.regionFlagToCountry, flags.flagToEuropeMap,
@@ -24,10 +25,23 @@ export function register(g: Generator) {
   registry.set(g.id, g)
 }
 
-/** Spielarten, die nur ausdrücklich gewählt werden (R10): Eintippen und Karten. */
-export const EXPLICIT_ONLY = new Set(['flag_to_country_input', 'capital_input', 'city_input', 'plate_input', 'flag_to_region_map', 'flag_to_country_map', 'flag_to_europe_map', 'country_on_map', 'region_on_map', 'water_on_map', 'mountain_on_map'])
+function fromModes(modes: QuizMode[]): Generator[] {
+  const ids = [...new Set(modes.flatMap((m) => m.generators))]
+  return ids.map((id) => {
+    const g = registry.get(id)
+    if (!g) throw new Error(`Generator ${id} ist in config/quizzes.ts eingetragen, aber nicht registriert`)
+    return g
+  })
+}
 
-export function generatorsFor(category: CategoryId): Generator[] {
-  if (category === 'mixed') return [...registry.values()].filter((g) => !EXPLICIT_ONLY.has(g.id) && g.id !== 'region_to_flag')
-  return [...registry.values()].filter((g) => g.category === category)
+/**
+ * Generatoren für Kategorie + Fragetyp gemäß config/quizzes.ts.
+ * 'auto' mischt die Multiple-Choice-Fragetypen (R10); „Gemischt“ nimmt die von allen Kategorien.
+ */
+export function generatorsFor(category: CategoryId, mode: string = AUTO): Generator[] {
+  if (category === 'mixed') return fromModes(QUIZZES.flatMap(autoModes)).filter((g) => !MIXED_EXCLUDE.has(g.id))
+  const quiz = quizFor(category)
+  if (mode === AUTO) return fromModes(autoModes(quiz))
+  const m = quiz.modes.find((x) => x.id === mode)
+  return m ? fromModes([m]) : []
 }

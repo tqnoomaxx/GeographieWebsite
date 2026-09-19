@@ -2,7 +2,9 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
 import { useAsync, useStats, useDocumentTitle } from '@/app/hooks'
-import { CATEGORIES } from '@/config/categories'
+import { QUIZZES } from '@/config/quizzes'
+import { setupOf } from '@/engine/session'
+import { RoundTitle } from '@/features/play/RoundLabel'
 import { getRepository } from '@/services/progress'
 import { Page, Card, ProgressBar } from '@/ui'
 import { CATEGORY_ICONS, CATEGORY_TONES, Icons, IconTile, PUZZLE_ICONS } from '@/ui/icons'
@@ -19,7 +21,7 @@ export default function HomePage() {
   const { data: puzzles } = useAsync(() => getRepository().getPuzzles(), [])
   const isNew = !stats || stats.answered === 0
   const today = todayKey()
-  const primary = CATEGORIES.filter((c) => c.primary)
+  const primary = QUIZZES.filter((c) => c.primary)
 
   return (
     <Page>
@@ -36,7 +38,7 @@ export default function HomePage() {
           <h1 className="text-4xl font-medium leading-[1.05] md:text-6xl">{isNew ? t('app.guest_hook') : t('app.tagline')}</h1>
           <p className="mt-3 max-w-md text-sm text-[#f4efe3]/75 md:text-base">{t('app.hero_sub')}</p>
           {isNew ? (
-            <Link to="/play/flags/round?len=10&scope=world&kinds=country" className="btn-primary mt-6 px-7 text-lg">
+            <Link to="/play/flags/round?mode=auto&scope=world&len=10&content=country" className="btn-primary mt-6 px-7 text-lg">
               <Icons.start className="h-5 w-5" /> {t('app.play_now')}
             </Link>
           ) : (
@@ -53,17 +55,9 @@ export default function HomePage() {
 
       {open && open.length > 0 && (
         <Card className="mb-6 flex items-center gap-3">
-          <IconTile icon={Icons.start} tone="tone-green" size="sm" />
           <div className="min-w-0 flex-1">
-            <p className="truncate font-medium">
-              {t('play.resume', {
-                category: t(`category.${open[0].category}`),
-                scope: open[0].scope.startsWith('country:') ? open[0].scope.slice(8) : t(`scope.${open[0].scope}`),
-                done: open[0].position,
-                total: open[0].questions.length + (open[0].remaining?.length ?? 0),
-              })}
-            </p>
-            <ProgressBar className="mt-1" value={open[0].position / (open[0].questions.length + (open[0].remaining?.length ?? 0))} />
+            <RoundTitle setup={setupOf(open[0])} progress={{ done: open[0].position, total: open[0].questions.length + (open[0].remaining?.length ?? 0) }} />
+            <ProgressBar className="mt-2" value={open[0].position / (open[0].questions.length + (open[0].remaining?.length ?? 0))} />
           </div>
           <Link to={`/play/session/${encodeURIComponent(open[0].id)}`} className="btn-primary">{t('app.continue')}</Link>
         </Card>

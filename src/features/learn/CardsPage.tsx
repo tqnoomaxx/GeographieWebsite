@@ -7,7 +7,6 @@ import { buildCollections } from '@/config/collections'
 import { inScope } from '@/engine/scope'
 import { normalizeAnswer } from '@/engine/normalize'
 import { getRepository } from '@/services/progress'
-import type { CategoryId } from '@/engine/types'
 import { Page, Card, Flag, entityPath } from '@/ui'
 import { Icons } from '@/ui/icons'
 
@@ -16,8 +15,7 @@ export default function CardsPage() {
   const { t } = useTranslation()
   const [params, setParams] = useSearchParams()
   const geo = useGeoData()
-  const category = (params.get('category') as CategoryId) ?? 'flags'
-  const collections = useMemo(() => (geo.index ? buildCollections(geo.index, geo.byId, 'flags') : []), [geo.index, geo.byId])
+  const collections = useMemo(() => (geo.index ? buildCollections(geo.index, geo.byId) : []), [geo.index, geo.byId])
   const colId = params.get('collection') ?? 'countries'
   const col = collections.find((c) => c.id === colId) ?? collections[0]
   useDocumentTitle(col ? `${t('setup.cards')} · ${col.title}` : t('setup.cards'))
@@ -30,7 +28,7 @@ export default function CardsPage() {
   }, [geo])
   const items = useMemo(() => {
     if (!col) return []
-    const list = [...(col.kinds.includes('country') ? geo.countries : []), ...(col.kinds.includes('region') ? geo.regions : [])]
+    const list = [...(col.content.includes('country') ? geo.countries : []), ...(col.content.includes('region') ? geo.regions : [])]
       .filter((e) => e.media?.some((m) => m.kind === 'flag') && inScope(e, col.scope, geo.byId))
     const n = normalizeAnswer(q)
     return (n ? list.filter((e) => normalizeAnswer(e.names.de).includes(n) || (e.aliases ?? []).some((a) => normalizeAnswer(a).includes(n)) || (e.attributes.code as string | undefined)?.toLowerCase().includes(n)) : list).sort((a, b) => a.names.de.localeCompare(b.names.de))
@@ -38,10 +36,10 @@ export default function CardsPage() {
   const state = (id: string) => progress?.get(id)?.state ?? 'new'
   const dot: Record<string, string> = { new: 'bg-line', learning: 'bg-warn', familiar: 'bg-accent', mastered: 'bg-ok' }
   return (
-    <Page title={t('setup.cards')} back={`/play/${category}`}>
+    <Page title={t('setup.cards')} back="/play/flags">
       <div className="mb-3 flex flex-wrap gap-2">
-        <select className="min-h-11 flex-1 rounded-xl border border-line bg-card px-3" value={col?.id} onChange={(e) => setParams({ category, collection: e.target.value })} aria-label={t('setup.cards')}>
-          {collections.filter((c) => c.id !== 'random' && c.id !== 'europe-map').map((c) => (
+        <select className="min-h-11 flex-1 rounded-xl border border-line bg-card px-3" value={col?.id} onChange={(e) => setParams({ collection: e.target.value })} aria-label={t('setup.cards')}>
+          {collections.map((c) => (
             <option key={c.id} value={c.id}>{c.title}</option>
           ))}
         </select>
@@ -72,7 +70,7 @@ export default function CardsPage() {
         <div className="sticky bottom-16 mt-4 md:bottom-4">
           <Card className="flex items-center gap-3 bg-card/95 backdrop-blur">
             <span className="flex-1 text-sm font-medium">{col.title}</span>
-            <Link to={`/play/${category}`} className="btn-primary py-2">{t('nav.play')} <Icons.arrow className="h-4 w-4" /></Link>
+            <Link to="/play/flags" className="btn-primary py-2">{t('nav.play')} <Icons.arrow className="h-4 w-4" /></Link>
           </Card>
         </div>
       )}

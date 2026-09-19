@@ -2,8 +2,10 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
-import { buildSession, extendSession, labelFor, recordAnswer, skipQuestion, type QuizSession } from '@/engine/session'
-import { entityFilterFor, fromQuery, toQuery } from './setup'
+import { useDocumentTitle } from '@/app/hooks'
+import { advanceSession, buildSession, labelFor, recordAnswer, setupOf, skipQuestion, type QuizSession } from '@/engine/session'
+import { fromQuery, roundPath, type RoundConfig } from '@/engine/round'
+import { isCategory, quizFor } from '@/config/quizzes'
 import type { CategoryId, Question } from '@/engine/types'
 import { getRepository } from '@/services/progress'
 import { applySession, recomputeLongQuests, type RoundOutcome } from '@/services/gamification'
@@ -12,13 +14,12 @@ import { Card, ErrorState, Skeleton, ProgressBar, entityPath } from '@/ui'
 import { Icons } from '@/ui/icons'
 import { WorldMap, RegionMapView } from '@/ui/maps'
 import { ReportDialog } from '@/features/legal/ReportDialog'
-
-const REGION_CATEGORIES: CategoryId[] = ['regions', 'cities', 'maps', 'mixed', 'flags']
-const PLATE_CATEGORIES: CategoryId[] = ['license_plates', 'mixed']
+import { RoundTitle, useRoundLabel } from './RoundLabel'
 
 export default function RoundPage() {
   const { t } = useTranslation()
-  const { category, sessionId } = useParams<{ category?: CategoryId; sessionId?: string }>()
+  const { category: categoryParam, sessionId } = useParams<{ category?: string; sessionId?: string }>()
+  const category: CategoryId | undefined = isCategory(categoryParam) ? categoryParam : undefined
   const [params] = useSearchParams()
   const geo = useGeoData()
   const navigate = useNavigate()
@@ -28,34 +29,30 @@ export default function RoundPage() {
   const [outcome, setOutcome] = useState<RoundOutcome | null>(null)
   const startedRef = useRef(false)
 
-  const cfg = fromQuery(category ?? 'flags', params)
-  const { scope, length, only, gens } = cfg
-
+  // Gespeicherte Runde (Fortsetzen) oder neues Setup aus der URL
   const [stored, setStored] = useState<QuizSession | null | undefined>(sessionId ? undefined : null)
   useEffect(() => {
     if (!sessionId) return
-    repo.getSession(sessionId).then((s) => (s ? setStored(s) : setError(new Error('Session nicht gefunden'))))
+    repo.getSession(sessionId).then((s) => (s ? setStored({ ...s, setup: setupOf(s) }) : setError(new Error('Runde nicht gefunden'))))
   }, [sessionId, repo])
+  const setup: RoundConfig | null = stored ? stored.setup : stored === null && category ? fromQuery(category, params) : null
+  useEffect(() => {
+    if (!sessionId && !category) setError(new Error(t('play.no_questions')))
+  }, [sessionId, category, t])
+  const label = useRoundLabel()
+  useDocumentTitle(setup ? label(setup).title : undefined)
 
   useEffect(() => {
-    if (!geo.ready || startedRef.current || stored === undefined) return
-    const cat = stored?.category ?? category
-    const sc = stored?.scope ?? scope
-    if (!cat) return setError(new Error('Kategorie fehlt'))
-    const needRegions = REGION_CATEGORIES.includes(cat) || sc.startsWith('country:')
-    const needPlates = PLATE_CATEGORIES.includes(cat)
-    if (needRegions && !geo.regionsLoaded) return void geo.ensureRegions()
-    if (needPlates && !geo.platesLoaded) return void geo.ensurePlates()
+    if (!geo.ready || startedRef.current || !setup) return
+    const needs = quizFor(setup.category).needs ?? []
+    if (needs.includes('regions') && !geo.regionsLoaded) return void geo.ensureRegions()
+    if (needs.includes('plates') && !geo.platesLoaded) return void geo.ensurePlates()
     startedRef.current = true
     ;(async () => {
       try {
-        if (stored) {
-          setSession(stored)
-          return
-        }
+        if (stored) return setSession(stored)
         const progress = await repo.getAllEntityProgress()
-        const ctx = geo.contextFor(sc)
-        const s = buildSession(ctx, { category: cat, scope: sc, length, progress, onlyEntities: only, generatorIds: gens, mode: only ? 'repeat_errors' : undefined, entityFilter: entityFilterFor(cfg.kinds), repeatMistakes: cfg.repeat, collection: cfg.collection })
+        const s = buildSession(geo.contextFor(setup.scope), setup, { progress })
         if (!s.questions.length) throw new Error(t('play.no_questions'))
         setSession(s)
         if (s.mode === 'full') {
@@ -67,10 +64,13 @@ export default function RoundPage() {
       }
     })()
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [geo.ready, geo.regionsLoaded, geo.platesLoaded, stored])
+  }, [geo.ready, geo.regionsLoaded, geo.platesLoaded, stored, category])
 
-  // Kontext nach Regionen-Nachladen aktualisieren (für extendSession)
+  // Kontext nach Nachladen aktualisieren (für das Nachladen weiterer Fragen bei „Alle“)
   const ctx = useMemo(() => (session && geo.ready ? geo.contextFor(session.scope) : null), [session?.scope, geo.ready, geo.regionsLoaded, geo.platesLoaded, geo, session])
+
+  /** Zwischenstand nur bei „Alle“-Runden speichern (R11). */
+  const persist = useCallback(async (s: QuizSession) => s.mode === 'full' && repo.saveSession(s), [repo])
 
   const finish = useCallback(
     async (s: QuizSession) => {
@@ -90,36 +90,31 @@ export default function RoundPage() {
       const next = recordAnswer(session, given)
       if (next === session) return
       setSession(next)
-      if (next.mode === 'full') await repo.saveSession(next)
+      await persist(next)
     },
-    [session, repo],
+    [session, persist],
   )
 
   const skip = useCallback(async () => {
     if (!session) return
     const next = skipQuestion(session)
     setSession(next)
-    if (next.mode === 'full') await repo.saveSession(next)
-  }, [session, repo])
+    await persist(next)
+  }, [session, persist])
 
   const advance = useCallback(async () => {
     if (!session || !ctx) return
-    let s = { ...session, position: session.position + 1 }
-    if (s.position >= s.questions.length && s.remaining?.length) s = extendSession(s, ctx)
-    if (s.position >= s.questions.length) {
-      await finish(s)
-      return
-    }
-    setSession(s)
-    if (s.mode === 'full') await repo.saveSession(s)
-  }, [session, ctx, finish, repo])
+    const next = advanceSession(session, ctx)
+    if (!next) return finish({ ...session, position: session.position + 1 })
+    setSession(next)
+    await persist(next)
+  }, [session, ctx, finish, persist])
 
   const quit = useCallback(async () => {
     if (!session) return navigate('/play')
     if (session.mode === 'full') {
       await repo.saveSession(session)
-      navigate('/play')
-      return
+      return navigate('/play')
     }
     if (session.questions.some((q) => q.given !== undefined)) await finish(session)
     else navigate('/play')
@@ -133,7 +128,7 @@ export default function RoundPage() {
   const total = session.questions.length + (session.remaining?.length ?? 0)
   return (
     <div className="mx-auto flex min-h-dvh w-full max-w-2xl flex-col px-4 pb-6 pt-3">
-      <div className="mb-3 flex items-center gap-3">
+      <div className="mb-2 flex items-center gap-3">
         <button className="btn-ghost -ml-2 px-2 text-ink-2" onClick={quit}>
           ← {t('nav.quit')}
         </button>
@@ -143,8 +138,9 @@ export default function RoundPage() {
           <span>{t('play.question_of', { n: session.position + 1, total })}</span>
         </div>
       </div>
+      <RoundTitle setup={session.setup} className="mb-3 text-sm" />
       <ProgressBar value={session.position / total} className="mb-4" />
-      <QuestionView key={current.question.id} q={current.question} given={current.given} correct={current.correct} repeated={current.repeated} attempts={current.attempts ?? 0} lastWrong={(session as QuizSession & { lastWrongMapGuess?: string }).lastWrongMapGuess} onAnswer={answer} onNext={advance} onSkip={current.question.map?.kind === 'europe' ? skip : undefined} />
+      <QuestionView key={current.question.id} q={current.question} given={current.given} correct={current.correct} repeated={current.repeated} attempts={current.attempts ?? 0} lastWrong={session.lastWrongMapGuess} onAnswer={answer} onNext={advance} onSkip={current.question.map?.kind === 'europe' ? skip : undefined} />
     </div>
   )
 }
@@ -304,16 +300,15 @@ function ResultView({ session, outcome }: { session: QuizSession; outcome: Round
   const correct = answered.filter((q) => q.correct).length
   const wrong = [...new Set(answered.filter((q) => !q.correct).map((q) => q.question.entities[0]))]
   const pct = answered.length ? Math.round((correct / answered.length) * 100) : 0
-  const base = { category: session.category, scope: session.scope, gens: session.generatorIds, collection: session.collection, repeat: session.repeatMistakes ?? true }
-  const kinds = session.entityIds ? (['country', 'region'] as const).filter((k) => session.entityIds!.some((id) => id.startsWith(k + ':'))) : undefined
-  const again = `/play/${session.category}/round?${toQuery({ ...base, length: session.length, kinds: kinds ? [...kinds] : undefined })}`
-  const repeat = `/play/${session.category}/round?${toQuery({ ...base, length: wrong.length, only: wrong, repeat: false })}`
+  const again = roundPath({ ...session.setup, only: undefined })
+  const repeat = roundPath({ ...session.setup, length: wrong.length, only: wrong, repeat: false })
   const firstTry = answered.filter((q) => q.correct && !q.repeated).length
   const baseTotal = session.questions.filter((q) => !q.repeated).length
   return (
     <div className="mx-auto w-full max-w-xl px-4 pb-24 pt-8 text-center md:pb-10">
       <h1 className="text-2xl font-semibold">{session.mode === 'full' ? t('play.full_done') : t('play.round_done')}</h1>
-      <p className="mt-4 text-4xl font-semibold tabular-nums">{t('play.result', { correct, total: answered.length })}</p>
+      <RoundTitle setup={session.setup} className="mx-auto mt-3 w-fit text-left" />
+      <p className="mt-5 text-4xl font-semibold tabular-nums">{t('play.result', { correct, total: answered.length })}</p>
       <p className="text-ink-2">{pct} %</p>
       <div className="mx-auto mt-4 grid max-w-sm grid-cols-3 gap-2 text-sm">
         <Card className="p-2"><div className="font-semibold tabular-nums">{session.points.toLocaleString('de-DE')}</div><div className="text-xs text-ink-2">{t('play.points')}</div></Card>
@@ -361,7 +356,7 @@ function ResultView({ session, outcome }: { session: QuizSession; outcome: Round
             {t('play.repeat_errors', { count: wrong.length })}
           </Link>
         )}
-        <Link to="/play" className="btn-ghost">
+        <Link to={`/play/${session.category}`} className="btn-ghost">
           {t('play.continue')}
         </Link>
       </div>

@@ -1,12 +1,15 @@
 import type { Entity } from '@/domain/types'
 import type { CategoryId, GeneratorContext, Question } from './types'
 import type { Generator } from './generators/base'
-import { generatorsFor, EXPLICIT_ONLY } from './registry'
+import { generatorsFor } from './registry'
+import { contentFilter, type RoundConfig } from './round'
 import { createRng, type Rng } from './rng'
 import { selectionWeight, type EntityProgress } from './srs'
 import { matchesAnswer } from './normalize'
+import { modeFor } from '@/config/quizzes'
 
-export type SessionMode = 'standard' | 'full' | 'repeat_errors' | 'daily' | 'learn'
+/** standard = feste Länge · full = „Alle“ (gespeichert, fortsetzbar) · repeat_errors = nur die Fehler einer Runde */
+export type SessionMode = 'standard' | 'full' | 'repeat_errors'
 
 export interface SessionQuestion {
   question: Question
@@ -20,6 +23,8 @@ export interface SessionQuestion {
 
 export interface QuizSession {
   id: string
+  /** Was gespielt wird – identisch zu URL und Anzeige. */
+  setup: RoundConfig
   category: CategoryId
   scope: string
   mode: SessionMode
@@ -30,10 +35,8 @@ export interface QuizSession {
   questions: SessionQuestion[]
   /** Nur bei mode=full: noch nicht gestellte Entities zum Fortsetzen. */
   remaining?: string[]
-  generatorIds?: string[]
-  entityIds?: string[]
-  collection?: string
-  repeatMistakes?: boolean
+  /** Kartenfrage: letzter Fehlklick (rot markieren, R7). */
+  lastWrongMapGuess?: string
   position: number
   score: number
   points: number
@@ -43,30 +46,24 @@ export interface QuizSession {
 }
 
 export interface BuildOptions {
-  category: CategoryId
-  scope: string
-  length: number | 'all'
-  mode?: SessionMode
   seed?: string
   progress?: Map<string, EntityProgress>
-  onlyEntities?: string[]
-  generatorIds?: string[]
   difficulty?: number
-  entityFilter?: (e: Entity) => boolean
-  repeatMistakes?: boolean
-  collection?: string
 }
 
-/** Vereinigt die Pools aller Generatoren einer Kategorie und merkt sich, welche Generatoren eine Entity bedienen. */
-export function poolFor(category: CategoryId, ctx: GeneratorContext, generatorIds?: string[]) {
-  let gens = generatorsFor(category).filter((g) => !generatorIds || generatorIds.includes(g.id))
-  if (!generatorIds) {
-    const auto = gens.filter((g) => !EXPLICIT_ONLY.has(g.id))
-    if (auto.length) gens = auto // R10: Automatisch = nur Multiple Choice
-  }
-  const map = new Map<string, { entity: Entity; generators: Generator[] }>()
-  for (const g of gens) {
+interface PoolItem {
+  entity: Entity
+  generators: Generator[]
+}
+
+/** Alle Lernkarten eines Setups (Kategorie, Fragetyp, Bereich, Inhalt) und die Generatoren, die sie bedienen. */
+export function poolFor(ctx: GeneratorContext, setup: Pick<RoundConfig, 'category' | 'mode' | 'content'>): Map<string, PoolItem> {
+  const content = modeFor(setup.category, setup.mode)?.content ?? setup.content
+  const keep = contentFilter(content)
+  const map = new Map<string, PoolItem>()
+  for (const g of generatorsFor(setup.category, setup.mode)) {
     for (const e of g.pool(ctx)) {
+      if (keep && !keep(e)) continue
       const cur = map.get(e.id) ?? { entity: e, generators: [] }
       cur.generators.push(g)
       map.set(e.id, cur)
@@ -75,26 +72,21 @@ export function poolFor(category: CategoryId, ctx: GeneratorContext, generatorId
   return map
 }
 
-export function buildSession(ctx: GeneratorContext, opts: BuildOptions): QuizSession {
+export function buildSession(ctx: GeneratorContext, setup: RoundConfig, opts: BuildOptions = {}): QuizSession {
   const seed = opts.seed ?? `${Date.now()}-${Math.random()}`
   const rng = createRng(seed)
-  const pool = poolFor(opts.category, ctx, opts.generatorIds)
-  let entities = [...pool.values()]
-  if (opts.onlyEntities) {
-    const set = new Set(opts.onlyEntities)
+  let entities = [...poolFor(ctx, setup).values()]
+  if (setup.only) {
+    const set = new Set(setup.only)
     entities = entities.filter((e) => set.has(e.entity.id))
   }
-  if (opts.entityFilter) entities = entities.filter((e) => opts.entityFilter!(e.entity))
-  const mode: SessionMode = opts.mode ?? (opts.length === 'all' ? 'full' : 'standard')
-  const ordered =
-    opts.length === 'all'
-      ? weightedOrder(entities, opts.progress, rng)
-      : weightedSample(entities, Math.min(opts.length, entities.length), opts.progress, rng)
+  const mode: SessionMode = setup.only ? 'repeat_errors' : setup.length === 'all' ? 'full' : 'standard'
+  const ordered = setup.length === 'all' ? weightedOrder(entities, opts.progress, rng) : weightedSample(entities, Math.min(setup.length, entities.length), opts.progress, rng)
 
   const difficulty = opts.difficulty ?? 2
   const questions: SessionQuestion[] = []
   const remaining: string[] = []
-  const batch = opts.length === 'all' ? Math.min(ordered.length, 25) : ordered.length
+  const batch = setup.length === 'all' ? Math.min(ordered.length, 25) : ordered.length
   ordered.forEach((item, i) => {
     if (i >= batch) {
       remaining.push(item.entity.id)
@@ -104,28 +96,25 @@ export function buildSession(ctx: GeneratorContext, opts: BuildOptions): QuizSes
     if (q) questions.push({ question: q })
   })
   // Konnte zu einer Karte keine Frage gebaut werden, mit weiteren Karten der Sammlung auffüllen (R1: gewählte Länge).
-  if (opts.length !== 'all' && questions.length < opts.length) {
+  if (setup.length !== 'all' && questions.length < setup.length) {
     const used = new Set(ordered.map((o) => o.entity.id))
     for (const item of weightedOrder(entities.filter((e) => !used.has(e.entity.id)), opts.progress, rng)) {
-      if (questions.length >= opts.length) break
+      if (questions.length >= setup.length) break
       const q = makeQuestion(item, ctx, rng, difficulty)
       if (q) questions.push({ question: q })
     }
   }
   return {
     id: `${seed}`,
-    category: opts.category,
-    scope: opts.scope,
+    setup,
+    category: setup.category,
+    scope: setup.scope,
     mode,
-    length: opts.length,
+    length: setup.length,
     seed,
     startedAt: new Date().toISOString(),
     questions,
-    remaining: opts.length === 'all' ? remaining : undefined,
-    generatorIds: opts.generatorIds,
-    entityIds: opts.entityFilter ? entities.map((e) => e.entity.id) : undefined,
-    collection: opts.collection,
-    repeatMistakes: opts.repeatMistakes ?? true,
+    remaining: setup.length === 'all' ? remaining : undefined,
     position: 0,
     score: 0,
     points: 0,
@@ -139,8 +128,7 @@ export function buildSession(ctx: GeneratorContext, opts: BuildOptions): QuizSes
 export function extendSession(session: QuizSession, ctx: GeneratorContext, count = 25, difficulty = 2): QuizSession {
   if (!session.remaining?.length) return session
   const rng = createRng(`${session.seed}-${session.questions.length}`)
-  const pool = poolFor(session.category, ctx, session.generatorIds)
-  if (session.entityIds) for (const id of [...pool.keys()]) if (!session.entityIds.includes(id)) pool.delete(id)
+  const pool = poolFor(ctx, session.setup)
   const next = session.remaining.slice(0, count)
   const rest = session.remaining.slice(count)
   const added: SessionQuestion[] = []
@@ -153,7 +141,7 @@ export function extendSession(session: QuizSession, ctx: GeneratorContext, count
   return { ...session, questions: [...session.questions, ...added], remaining: rest }
 }
 
-function makeQuestion(item: { entity: Entity; generators: Generator[] }, ctx: GeneratorContext, rng: Rng, difficulty: number): Question | null {
+function makeQuestion(item: PoolItem, ctx: GeneratorContext, rng: Rng, difficulty: number): Question | null {
   for (const g of rng.shuffle(item.generators)) {
     const q = g.make(item.entity, ctx, rng, difficulty)
     if (q) return q
@@ -202,14 +190,14 @@ export function labelFor(q: Question, id: string, byId: Map<string, Entity>): st
   return byId.get(id)?.names.de ?? id
 }
 
-/** Punkte wie in der Vorgängerversion: 100 + Streak-Bonus (max. 10 × 15). */
+/** Punkte wie in der Vorgängerversion: 100 + Streak-Bonus (max. 10 × 15), R6. */
 export function pointsFor(streakBefore: number): number {
   return 100 + Math.min(streakBefore, 10) * 15
 }
 
 /**
- * Antwort verbuchen. Bei Fehlern mit repeatMistakes wird die Frage (neu gemischt) vier Positionen später erneut eingereiht.
- * Kartenfragen: falsche Klicks zählen als Versuch, die Frage bleibt offen (multiGuess).
+ * Antwort verbuchen (R5–R7). Bei Fehlern mit setup.repeat wird die Frage (neu gemischt) vier Positionen später erneut eingereiht.
+ * Kartenfragen: falsche Klicks zählen als Versuch, die Frage bleibt offen.
  */
 export function recordAnswer(session: QuizSession, given: string, rng: Rng = createRng(`${session.seed}-${session.position}`)): QuizSession {
   const idx = session.position
@@ -218,24 +206,23 @@ export function recordAnswer(session: QuizSession, given: string, rng: Rng = cre
   const correct = checkAnswer(current.question, given)
   const isMap = current.question.question_type === 'map_click'
   if (isMap && !correct) {
-    // Frage bleibt offen, Versuch zählen, Streak zurücksetzen
     const questions = session.questions.map((q, i) => (i === idx ? { ...q, attempts: (q.attempts ?? 0) + 1 } : q))
-    return { ...session, questions, streak: 0, lastWrongMapGuess: given } as QuizSession & { lastWrongMapGuess?: string }
+    return { ...session, questions, streak: 0, lastWrongMapGuess: given }
   }
   const firstTry = !(current.attempts ?? 0)
   const countsCorrect = correct && firstTry
   const questions = session.questions.map((q, i) => (i === idx ? { ...q, given, correct: countsCorrect, answeredAt: new Date().toISOString(), attempts: (q.attempts ?? 0) + 1 } : q))
-  if (!countsCorrect && session.repeatMistakes && !isMap && !current.repeated) {
+  if (!countsCorrect && session.setup.repeat && !isMap && !current.repeated) {
     const q = current.question
     const options = q.options ? rng.shuffle(q.options) : undefined
     const repeated: SessionQuestion = { question: { ...q, id: `${q.id}#r`, options }, repeated: true }
-    const insertAt = Math.min(questions.length, idx + 4)
-    questions.splice(insertAt, 0, repeated)
+    questions.splice(Math.min(questions.length, idx + 4), 0, repeated)
   }
   const streak = countsCorrect ? session.streak + 1 : 0
   return {
     ...session,
     questions,
+    lastWrongMapGuess: undefined,
     score: session.score + (countsCorrect ? 1 : 0),
     points: session.points + (countsCorrect ? pointsFor(session.streak) : 0),
     streak,
@@ -243,11 +230,23 @@ export function recordAnswer(session: QuizSession, given: string, rng: Rng = cre
   }
 }
 
-/** Aufgabe überspringen (Europa-Karte): zählt als Fehler, keine Wiederholung. */
+/** Aufgabe überspringen (Europa-Karte): zählt als Fehler, keine Wiederholung (R7). */
 export function skipQuestion(session: QuizSession): QuizSession {
   const idx = session.position
   const current = session.questions[idx]
   if (!current || current.given !== undefined) return session
   const questions = session.questions.map((q, i) => (i === idx ? { ...q, given: '__skip__', correct: false, answeredAt: new Date().toISOString(), attempts: (q.attempts ?? 0) + 1 } : q))
-  return { ...session, questions, streak: 0 }
+  return { ...session, questions, streak: 0, lastWrongMapGuess: undefined }
+}
+
+/** Nächste Frage; bei „Alle“ werden weitere Fragen nachgeladen. Liefert null, wenn die Runde zu Ende ist. */
+export function advanceSession(session: QuizSession, ctx: GeneratorContext): QuizSession | null {
+  let s: QuizSession = { ...session, position: session.position + 1, lastWrongMapGuess: undefined }
+  if (s.position >= s.questions.length && s.remaining?.length) s = extendSession(s, ctx)
+  return s.position >= s.questions.length ? null : s
+}
+
+/** Setup einer Session; ältere gespeicherte Runden ohne `setup` werden aus den Grundfeldern rekonstruiert. */
+export function setupOf(s: Pick<QuizSession, 'category' | 'scope' | 'length'> & { setup?: RoundConfig }): RoundConfig {
+  return s.setup ?? { category: s.category, mode: 'auto', scope: s.scope, length: s.length, repeat: true }
 }

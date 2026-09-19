@@ -27,7 +27,7 @@ test('Startseite und Kategorien', async ({ page }) => {
 
 test('Flaggenrunde spielen bis zum Ergebnis', async ({ page }) => {
   const errors = watchErrors(page)
-  await page.goto('play/flags/round?scope=europe&len=10&repeat=0&kinds=country')
+  await page.goto('play/flags/round?mode=auto&scope=europe&len=10&repeat=0&content=country')
   for (let i = 0; i < 10; i++) {
     await expect(page.getByText(new RegExp(`^${i + 1} / 10$`))).toBeVisible()
     const heading = page.getByRole('heading', { level: 1 })
@@ -120,6 +120,8 @@ test('Kennzeichen-Runde Deutschland', async ({ page }) => {
   const errors = watchErrors(page)
   await page.goto('play/license_plates/round?scope=country:DE&len=10&repeat=0')
   await expect(page.getByRole('heading', { level: 1 })).toContainText(/Kennzeichen/)
+  await expect(page.getByText(/^Kennzeichen · Automatisch$/)).toBeVisible()
+  await expect(page.getByText(/^Deutschland · 10 Fragen$/)).toBeVisible()
   const input = page.getByPlaceholder('Antwort eingeben …')
   if (await input.count()) {
     await input.fill('Berlin')
@@ -176,7 +178,7 @@ test('Setup: Land als Bereich, Kartenfrage mit Versuchen', async ({ page }) => {
 })
 
 test('Lernkarten-Explorer', async ({ page }) => {
-  await page.goto('learn/cards?category=flags&collection=regions-DE')
+  await page.goto('learn/cards?collection=regions-DE')
   await expect(page.getByText(/16 Karten/)).toBeVisible()
   await page.getByRole('button', { name: /Namen verdecken/ }).click()
   await expect(page.getByText('?').first()).toBeVisible()
@@ -199,8 +201,10 @@ test('Setup jeder Kategorie startet eine Runde', async ({ page }) => {
 test('Flaggen: Land als Bereich und Fragetyp wählen', async ({ page }) => {
   await page.goto('play/flags')
   await page.getByLabel('… oder ein einzelnes Land wählen').selectOption('country:DE')
-  await expect(page.getByText(/^Deutschland$/)).toBeVisible()
+  await expect(page.getByText(/^Flaggen · Automatisch$/)).toBeVisible()
+  await expect(page.getByText(/^Deutschland · /)).toBeVisible()
   await page.getByRole('radio', { name: 'Flagge → Name' }).click()
+  await expect(page.getByText(/^Flaggen · Flagge → Name$/)).toBeVisible()
   await page.getByRole('button', { name: "Los geht's" }).click()
   await expect(page.getByRole('heading', { level: 1 })).toBeVisible()
   await expect(page.getByRole('group').getByRole('button')).toHaveCount(4)

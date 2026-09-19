@@ -44,7 +44,7 @@ export default function LearnPage() {
   }
 
   return (
-    <Page title={t('learn.title')} action={<Link to="/learn/cards?category=flags&collection=countries" className="btn-secondary py-2 text-sm">{t('setup.cards')}</Link>}>
+    <Page title={t('learn.title')} action={<Link to="/learn/cards?collection=countries" className="btn-secondary py-2 text-sm">{t('setup.cards')}</Link>}>
       <div className="mb-4">
         <Chips
           label={t('play.scope')}
@@ -86,7 +86,7 @@ export default function LearnPage() {
               <button className="btn-secondary" onClick={() => setIdx((i) => i + 1)}>
                 {t('learn.next')} →
               </button>
-              <Link to={`/play/countries/round?scope=${encodeURIComponent(scope)}&len=5&only=${current.id}`} className="btn-secondary">
+              <Link to={`/play/countries/round?mode=auto&scope=${encodeURIComponent(scope)}&len=5&only=${current.id}`} className="btn-secondary">
                 🎯 {t('learn.quiz_me')}
               </Link>
             </div>

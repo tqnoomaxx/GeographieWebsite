@@ -28,7 +28,7 @@ Quelle: TASK.md Einleitung, §34
 │   ├── domain/             Entity, Relationship, Category-Typen
 │   ├── services/           auth, progress, quiz, profile, achievements, quests, favorites, data, sync
 │   │   └── adapters/       local/ (IndexedDB), supabase/ (Phase 2)
-│   ├── config/             xp.ts, levels.ts, achievements.ts, quests.ts, categories.ts, env.ts
+│   ├── config/             quizzes.ts (Kategorien + Fragetypen), xp.ts, levels.ts, achievements.ts, quests.ts, collections.ts
 │   ├── ui/                 Design-System-Komponenten, Tokens
 │   └── i18n/
 └── .github/workflows/      build, validate-data, deploy

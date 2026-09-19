@@ -44,7 +44,7 @@ Jeder Generator ist an einen Relationship- oder Attribut-Typ gebunden und liefer
 | `attribute_true_false` | beliebiges Attribut | Wahr/Falsch |
 | `flashcard` | beliebige Entity | Lernen |
 
-Die Registry der Generatoren ist datengetrieben. Eine neue Kategorie registriert Generatoren, ohne bestehenden Code zu ändern.
+Die Registry der Generatoren ist datengetrieben. Welche Generatoren eine Kategorie als Fragetyp anbietet, steht ausschließlich in `src/config/quizzes.ts` (siehe [16-spielregeln.md](16-spielregeln.md#konfiguration-an-einer-stelle)). Eine neue Kategorie ist ein Eintrag dort plus ihre Generatoren.
 
 Quelle: TASK.md §14, §100, §101, §102
 

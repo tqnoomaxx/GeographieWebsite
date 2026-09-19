@@ -2,12 +2,33 @@
 
 Dieses Schema definiert exakt, wie jede Spielart funktioniert. Vorlage ist die Engine der Vorgängerversion (`ugbzspiele`, `gameEngine.js`) plus TASK.md §14–§17, §42–§44, §71–§73. Die Engine (`src/engine`) und die Rundenansicht müssen sich daran halten; `src/engine/engine.test.ts` prüft die markierten Regeln.
 
-## Gemeinsamer Rundenablauf
+## Ein Quiz ist immer: Kategorie · Fragetyp · Bereich · Rundenlänge
 
 ```
-Setup (Bereich [+ Inhalt Länder/Regionen] → Fragetyp → Rundenlänge, Fehlerwiederholung als Schalter)
+Setup:  ① Bereich [+ Inhalt Länder/Regionen]  →  ② Fragetyp  →  ③ Rundenlänge (+ Schalter „Fehler wiederholen“)
   → Runde: [Frage → Antwort → Feedback] × n → Ergebnis
 ```
+
+Diese vier Angaben (`RoundConfig` in `src/engine/round.ts`) sind die einzige Beschreibung einer Runde. Sie stehen identisch in der URL (`/play/flags/round?mode=flag_to_name&scope=europe&len=10&content=country`), in der gespeicherten Session (`setup`) und in der Anzeige. Setup, Runde, Ergebnis, offene Runden und Verlauf zeigen immer dieselbe Zeile, z. B. **„Flaggen · Flagge → Name“** mit „Europa · Länderflaggen · 10 Fragen“ (`RoundTitle` in `src/features/play/RoundLabel.tsx`).
+
+### Konfiguration an einer Stelle
+
+Alles Spielbare steht in **`src/config/quizzes.ts`**. Pro Kategorie (`QuizDef`):
+
+| Feld | Bedeutung |
+|---|---|
+| `modes` | Fragetypen mit `form` (`choice` = Multiple Choice, `input` = Eintippen, `map` = Karte) und den Generatoren, die sie stellen |
+| `needs` | nachzuladende Daten (`regions`, `plates`) |
+| `perCountry` | ein einzelnes Land ist als Bereich wählbar |
+| `content` | Inhaltsfilter Länder / Regionen anbieten (Flaggen, Karten) |
+| `defaultScope` | Startbereich (z. B. Deutschland bei Regionen und Kennzeichen) |
+| `primary`, `icon`, `countKey` | Darstellung auf Startseite und Hub |
+
+Ein Fragetyp kann zusätzlich `length: 'all'` (immer komplett, Europa-Karte), `content` (erzwungener Inhalt) und `scopes` (nur in bestimmten Bereichen) setzen. „Automatisch“ mischt alle Fragetypen mit `form: 'choice'` (R10); hat eine Kategorie keine (Karten), alle. „Gemischt“ nimmt die Multiple-Choice-Fragetypen aller Kategorien (Ausnahmen in `MIXED_EXCLUDE`). Labels: `category.<id>`, `modes.<id>`, `modes_desc.<id>` in `locales/de/common.json`.
+
+Neuer Fragetyp in drei Schritten: Generator in `src/engine/generators/` schreiben → in `src/engine/registry.ts` eintragen → in `quizzes.ts` einem Fragetyp zuordnen und Label ergänzen. Setup-Seite, Rundenanzeige, Pools und Tests folgen automatisch (`engine.test.ts` prüft, dass jeder eingetragene Generator existiert und zur Kategorie passt).
+
+## Gemeinsamer Rundenablauf
 
 | Regel | Definition |
 |---|---|

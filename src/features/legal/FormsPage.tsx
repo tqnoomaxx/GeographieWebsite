@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useDocumentTitle } from '@/app/hooks'
-import { CATEGORIES } from '@/config/categories'
+import { QUIZZES } from '@/config/quizzes'
 import { localFeedbackAdapter } from '@/services/feedback'
 import { Page, Card } from '@/ui'
 
@@ -34,7 +34,7 @@ export default function FormsPage({ kind }: { kind: 'suggest' | 'contact' }) {
                 <label className="grid gap-1 text-sm">{t('forms.category')}
                   <select className={field} onChange={set('Kategorie')} defaultValue="">
                     <option value="">–</option>
-                    {CATEGORIES.map((c) => <option key={c.id} value={t(`category.${c.id}`)}>{c.icon} {t(`category.${c.id}`)}</option>)}
+                    {QUIZZES.map((c) => <option key={c.id} value={t(`category.${c.id}`)}>{c.icon} {t(`category.${c.id}`)}</option>)}
                   </select>
                 </label>
                 <label className="grid gap-1 text-sm">{t('forms.description')}<textarea required rows={3} className={field} maxLength={2000} onChange={set('Beschreibung')} /></label>
