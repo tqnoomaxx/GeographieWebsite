@@ -5,7 +5,7 @@ Dieses Schema definiert exakt, wie jede Spielart funktioniert. Vorlage ist die E
 ## Gemeinsamer Rundenablauf
 
 ```
-Setup (Sammlung → Fragetyp → Lernmodus → Rundenlänge)
+Setup (Bereich [+ Inhalt Länder/Regionen] → Fragetyp → Rundenlänge, Fehlerwiederholung als Schalter)
   → Runde: [Frage → Antwort → Feedback] × n → Ergebnis
 ```
 
@@ -21,6 +21,7 @@ Setup (Sammlung → Fragetyp → Lernmodus → Rundenlänge)
 | R8 Ergebnis | Zeigt: richtig / gestellt, Prozent, Punkte, beste Serie, Erstversuche / Grundaufgaben, Liste der Fehler-Lernkarten. Buttons: Noch einmal (gleiche Einstellungen), Fehler wiederholen (nur die Fehler, klassisch), Weiter. |
 | R9 Lernstand | Jede Antwort aktualisiert den Lernstand der Lernkarte (new → learning → familiar → mastered) per vereinfachtem SM-2; Wiederholungen zählen mit. Anzeige „x von y gemeistert“ zählt familiar + mastered. |
 | R10 Automatisch | „Automatisch“ mischt nur Multiple-Choice-Varianten der Kategorie. Eintippen und Karte werden immer ausdrücklich gewählt. |
+| R12 Bereich | Für jede Kategorie gilt derselbe Bereichsfilter: Welt, Kontinente und (wo sinnvoll) ein einzelnes Land. Angeboten werden nur Bereiche und Fragetypen mit mindestens vier spielbaren Lernkarten; reicht der Bereich nicht für vier Antwortoptionen, werden Falschantworten aus dem Gesamtbestand ergänzt. |
 | R11 Unterbrechen | „Alle“-Runden werden gespeichert und sind fortsetzbar. Kurze Runden werden beim Beenden gewertet, wenn mindestens eine Antwort vorliegt. |
 
 ## Spielarten je Kategorie
@@ -35,7 +36,7 @@ Notation: **Gegeben → Gesucht** · Antwortform · Pool.
 | Eintippen | Flaggenbild → Name | Text (R3) | Länder |
 | Flagge → Karte | Flaggenbild → Land auf der Weltkarte bzw. Region auf der Landeskarte | Karte (R7) | nur Ziele, die auf der jeweiligen Karte existieren |
 | Europa-Karte | Flaggenbild → Region auf der Europakarte | Karte (R7), Überspringen erlaubt, Rundenlänge immer „Alle“ | Regionen mit Flagge auf der Europakarte |
-| Nur Regionalflaggen / Nur Länderflaggen | Filter auf die obigen | | |
+| Inhalt: Länderflaggen / Regionalflaggen / Alles | Filter auf die obigen; bei einem einzelnen Land als Bereich immer dessen Regionen | | |
 
 ### Hauptstädte
 | Spielart | Gegeben → Gesucht | Form |

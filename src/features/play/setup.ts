@@ -1,6 +1,7 @@
 import type { CategoryId } from '@/engine/types'
-import type { CollectionDef } from '@/config/collections'
 import type { Entity } from '@/domain/types'
+
+export type Kind = 'country' | 'region'
 
 /** Query-Parameter einer Runde: eindeutig, damit „Noch einmal“ und Fortsetzen identisch konfiguriert werden. */
 export interface RoundConfig {
@@ -9,7 +10,7 @@ export interface RoundConfig {
   length: number | 'all'
   gens?: string[]
   collection?: string
-  kinds?: Array<'country' | 'region'>
+  kinds?: Kind[]
   repeat: boolean
   only?: string[]
 }
@@ -34,17 +35,13 @@ export function fromQuery(category: CategoryId, params: URLSearchParams): RoundC
     length: len === 'all' ? 'all' : Number(len),
     gens: params.get('gens')?.split(',').filter(Boolean),
     collection: params.get('collection') ?? undefined,
-    kinds: (params.get('kinds')?.split(',').filter(Boolean) as Array<'country' | 'region'> | undefined),
+    kinds: params.get('kinds')?.split(',').filter(Boolean) as Kind[] | undefined,
     repeat: params.get('repeat') !== '0',
     only: params.get('only')?.split(',').filter(Boolean),
   }
 }
 
-export function entityFilterFor(kinds?: Array<'country' | 'region'>): ((e: Entity) => boolean) | undefined {
+export function entityFilterFor(kinds?: Kind[]): ((e: Entity) => boolean) | undefined {
   if (!kinds || kinds.length === 2) return undefined
-  return (e) => kinds.includes(e.type as 'country' | 'region')
-}
-
-export function collectionConfig(col: CollectionDef): Pick<RoundConfig, 'scope' | 'kinds' | 'collection'> {
-  return { scope: col.scope, kinds: col.kinds, collection: col.id }
+  return (e) => kinds.includes(e.type as Kind)
 }

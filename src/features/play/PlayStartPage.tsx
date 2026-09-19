@@ -4,196 +4,233 @@ import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
 import { useAsync, useDocumentTitle } from '@/app/hooks'
 import { CATEGORIES, ROUND_LENGTHS } from '@/config/categories'
-import { MODES } from '@/config/modes'
-import { COLLECTION_CATEGORIES, GROUP_ORDER, buildCollections, type CollectionDef } from '@/config/collections'
+import { MODES, type ModeDef } from '@/config/modes'
 import { SCOPES } from '@/engine/scope'
 import { poolFor } from '@/engine/session'
-import type { CategoryId } from '@/engine/types'
+import type { CategoryId, GeneratorContext } from '@/engine/types'
+import type { Entity } from '@/domain/types'
 import { getRepository } from '@/services/progress'
-import { Page, Card, Chips, ProgressBar, Flag } from '@/ui'
+import { Page, Card, Chips, ProgressBar } from '@/ui'
 import { CATEGORY_ICONS, CATEGORY_TONES, Icons, IconTile } from '@/ui/icons'
-import { entityFilterFor, toQuery } from './setup'
+import { entityFilterFor, toQuery, type Kind } from './setup'
 
 const REGION_CATEGORIES: CategoryId[] = ['regions', 'cities', 'maps', 'mixed', 'flags']
 const PLATE_CATEGORIES: CategoryId[] = ['license_plates', 'mixed']
+/** Kategorien, in denen ein einzelnes Land als Bereich wählbar ist (Bundesländer, Kennzeichen, Städte eines Landes …). */
+const PER_COUNTRY: CategoryId[] = ['flags', 'regions', 'maps', 'cities', 'license_plates', 'water', 'nature', 'images', 'landmarks', 'mixed']
+/** Kategorien mit Inhaltsfilter Länder / Regionen / Alles. */
+const KIND_CATEGORIES: CategoryId[] = ['flags', 'maps']
+/** Weniger Lernkarten ergeben keine sinnvolle Runde (vier Antwortoptionen). */
+const MIN_POOL = 4
+
+interface Setup {
+  scope: string
+  kinds: Kind[]
+  mode: string
+  length: number | 'all'
+  repeat: boolean
+}
+
+function defaultSetup(category: CategoryId): Setup {
+  return { scope: category === 'regions' || category === 'license_plates' ? 'country:DE' : 'world', kinds: ['country'], mode: 'auto', length: 10, repeat: true }
+}
+
+function loadSetup(category: CategoryId): Setup {
+  try {
+    const raw = localStorage.getItem(`gk.setup.${category}`)
+    return raw ? { ...defaultSetup(category), ...(JSON.parse(raw) as Partial<Setup>) } : defaultSetup(category)
+  } catch {
+    return defaultSetup(category)
+  }
+}
+
+const isCountryScope = (scope: string) => scope.startsWith('country:')
 
 export default function PlayStartPage() {
-  const { t } = useTranslation()
   const { category } = useParams<{ category?: CategoryId }>()
+  const { data: open } = useAsync(() => getRepository().getOpenSessions(), [])
+  if (!category) return <CategoryHub open={open ?? []} />
+  return <Setup key={category} category={category} />
+}
+
+function Setup({ category }: { category: CategoryId }) {
+  const { t } = useTranslation()
   const navigate = useNavigate()
   const geo = useGeoData()
-  useDocumentTitle(category ? t(`category.${category}`) : t('nav.play'))
-  const useCollections = !!category && COLLECTION_CATEGORIES.includes(category)
-  const collections = useMemo(() => (useCollections && geo.index ? buildCollections(geo.index, geo.byId, category!) : []), [useCollections, geo.index, geo.byId, category])
-  const [collectionId, setCollectionId] = useState<string>(() => localStorage.getItem(`gk.col.${category}`) ?? (category === 'regions' ? 'regions-DE' : 'countries'))
-  const collection: CollectionDef | undefined = collections.find((c) => c.id === collectionId) ?? collections[0]
-  const [scope, setScope] = useState<string>(() => localStorage.getItem('gk.scope') ?? 'world')
-  const effectiveScope = useCollections ? (collection?.scope ?? 'world') : scope
-  const [length, setLength] = useState<number | 'all'>(() => {
-    const v = localStorage.getItem(`gk.len.${category}`)
-    return v === 'all' ? 'all' : v ? Number(v) : 10
-  })
-  const [repeat, setRepeat] = useState(() => localStorage.getItem('gk.repeat') !== '0')
-  const modes = category ? MODES[category] ?? [] : []
-  const [mode, setMode] = useState<string>(() => localStorage.getItem(`gk.mode.${category}`) ?? 'auto')
-  const forcedMode = collection?.mode
-  const activeMode = forcedMode ?? mode
-  const generatorIds = activeMode === 'auto' ? undefined : activeMode === 'europe_map' ? ['flag_to_europe_map'] : modes.find((m) => m.id === activeMode)?.generators
-  const { data: open } = useAsync(() => getRepository().getOpenSessions(), [])
+  useDocumentTitle(t(`category.${category}`))
+  const def = CATEGORIES.find((c) => c.id === category)
+  const [setup, setSetup] = useState<Setup>(() => loadSetup(category))
+  const patch = (p: Partial<Setup>) => setSetup((s) => ({ ...s, ...p }))
   const { data: progress } = useAsync(() => getRepository().getAllEntityProgress(), [])
 
   useEffect(() => {
-    if (category && REGION_CATEGORIES.includes(category) && !geo.regionsLoaded) void geo.ensureRegions()
-    if (category && PLATE_CATEGORIES.includes(category) && !geo.platesLoaded) void geo.ensurePlates()
+    if (REGION_CATEGORIES.includes(category) && !geo.regionsLoaded) void geo.ensureRegions()
+    if (PLATE_CATEGORIES.includes(category) && !geo.platesLoaded) void geo.ensurePlates()
   }, [category, geo])
 
-  const pool = useMemo(() => {
-    if (!category || !geo.ready) return new Map()
-    const p = poolFor(category, geo.contextFor(effectiveScope), generatorIds)
-    const f = entityFilterFor(collection?.kinds)
-    if (useCollections && f) for (const id of [...p.keys()]) if (!f(p.get(id)!.entity)) p.delete(id)
-    return p
-  }, [category, effectiveScope, geo, generatorIds, collection, useCollections])
+  // Kontexte je Bereich einmal pro Datenstand bauen
+  const ctxCache = useMemo(() => new Map<string, GeneratorContext>(), [geo])
+  const ctxFor = (scope: string) => {
+    let c = ctxCache.get(scope)
+    if (!c) ctxCache.set(scope, (c = geo.contextFor(scope)))
+    return c
+  }
+  const withKinds = <T extends { entity: Entity }>(pool: Map<string, T>, kinds?: Kind[]) => {
+    const f = entityFilterFor(kinds)
+    if (f) for (const id of [...pool.keys()]) if (!f(pool.get(id)!.entity)) pool.delete(id)
+    return pool
+  }
+  const countFor = (scope: string, gens?: string[], kinds?: Kind[]) => (geo.ready ? withKinds(poolFor(category, ctxFor(scope), gens), kinds).size : 0)
+
+  const usesKinds = KIND_CATEGORIES.includes(category)
+  const worldPool = useMemo(() => (geo.ready ? poolFor(category, ctxFor('world')) : new Map<string, { entity: Entity }>()), [geo.ready, category, ctxCache]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  /** Kontinente mit genug Lernkarten */
+  const continents = useMemo(() => SCOPES.filter((s) => s !== 'world' && countFor(s) >= MIN_POOL), [geo.ready, category, ctxCache]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  /** Länder mit genug Lernkarten (aus dem Welt-Pool abgeleitet, ohne je einen Kontext zu bauen) */
+  const countries = useMemo(() => {
+    if (!PER_COUNTRY.includes(category)) return []
+    const counts = new Map<string, number>()
+    for (const { entity: e } of worldPool.values()) {
+      if (usesKinds && e.type === 'country') continue // in einem Land zählen nur seine Regionen
+      const ids = (e.attributes.countries as string[] | undefined) ?? (e.attributes.country ? [e.attributes.country] : [])
+      for (const id of ids) counts.set(id, (counts.get(id) ?? 0) + 1)
+    }
+    return [...counts.entries()]
+      .filter(([, n]) => n >= MIN_POOL)
+      .map(([id, n]) => ({ country: geo.byId.get(id), n }))
+      .filter((x): x is { country: Entity; n: number } => !!x.country)
+      .sort((a, b) => a.country.names.de.localeCompare(b.country.names.de))
+  }, [worldPool, category, usesKinds, geo.byId])
+  const countryGroups = useMemo(() => {
+    const groups = new Map<string, typeof countries>()
+    for (const c of countries) {
+      const cont = (c.country.attributes.continent as string) ?? 'world'
+      groups.set(cont, [...(groups.get(cont) ?? []), c])
+    }
+    return [...SCOPES.filter((s) => groups.has(s)), ...[...groups.keys()].filter((k) => !SCOPES.includes(k as (typeof SCOPES)[number]))].map((k) => [k, groups.get(k)!] as const)
+  }, [countries])
+
+  const loading = !geo.ready || (REGION_CATEGORIES.includes(category) && !geo.regionsLoaded) || (PLATE_CATEGORIES.includes(category) && !geo.platesLoaded)
+  // Ungültig gewordene Auswahl (z. B. Bereich ohne Karten) still auf „Welt“ zurücksetzen
+  const scopeValid = loading || setup.scope === 'world' || continents.includes(setup.scope as (typeof SCOPES)[number]) || countries.some((c) => c.country.id === setup.scope)
+  const scope = scopeValid ? setup.scope : 'world'
+
+  const kindOptions = useMemo(() => {
+    if (!usesKinds || isCountryScope(scope)) return []
+    return ([['country'], ['region'], ['country', 'region']] as Kind[][]).filter((k) => countFor(scope, undefined, k) >= MIN_POOL)
+  }, [usesKinds, scope, geo.ready, ctxCache]) // eslint-disable-line react-hooks/exhaustive-deps
+  const kindKey = (k: Kind[]) => k.join('+')
+  const kinds: Kind[] | undefined = !usesKinds ? undefined : isCountryScope(scope) ? ['region'] : kindOptions.find((k) => kindKey(k) === kindKey(setup.kinds)) ?? kindOptions[0] ?? ['country']
+
+  const modes = useMemo(
+    () => (MODES[category] ?? []).filter((m) => (!m.scopes || m.scopes.includes(scope)) && countFor(scope, m.generators, m.kinds ?? kinds) >= MIN_POOL),
+    [category, scope, kinds, geo.ready, ctxCache], // eslint-disable-line react-hooks/exhaustive-deps
+  )
+  const mode: ModeDef | undefined = modes.find((m) => m.id === setup.mode)
+  const effectiveKinds = mode?.kinds ?? kinds
+  const generatorIds = mode?.generators
+
+  const pool = useMemo(() => (geo.ready ? withKinds(poolFor(category, ctxFor(scope), generatorIds), effectiveKinds) : new Map<string, { entity: Entity }>()), [category, scope, generatorIds, effectiveKinds, geo.ready, ctxCache]) // eslint-disable-line react-hooks/exhaustive-deps
   const poolSize = pool.size
   const mastered = useMemo(() => (progress ? [...pool.keys()].filter((id) => ['familiar', 'mastered'].includes(progress.get(id)?.state ?? '')).length : 0), [pool, progress])
 
-  const countryScopes = useMemo(() => {
-    if (!category || useCollections || !['mixed', 'cities', 'license_plates'].includes(category) || !geo.index) return []
-    const ids = category === 'license_plates' ? Object.keys(geo.index.plates ?? {}).map((iso) => `country:${iso}`) : Object.keys(geo.index.regions)
-    return ids.map((id) => geo.byId.get(id)).filter((c): c is NonNullable<typeof c> => !!c).sort((a, b) => a.names.de.localeCompare(b.names.de))
-  }, [category, geo, useCollections])
-
-  if (!category) return <CategoryHub open={open ?? []} />
-
-  const def = CATEGORIES.find((c) => c.id === category)
-  const start = () => {
-    localStorage.setItem('gk.scope', scope)
-    localStorage.setItem(`gk.len.${category}`, String(length))
-    localStorage.setItem(`gk.mode.${category}`, mode)
-    localStorage.setItem('gk.repeat', repeat ? '1' : '0')
-    if (collection) localStorage.setItem(`gk.col.${category}`, collection.id)
-    navigate(`/play/${category}/round?${toQuery({ category, scope: effectiveScope, length, gens: generatorIds, collection: useCollections ? collection?.id : undefined, kinds: useCollections ? collection?.kinds : undefined, repeat })}`)
-  }
   const lengths = [...ROUND_LENGTHS.filter((l) => l < poolSize).map((l) => ({ value: l as number | 'all', label: String(l) })), { value: 'all' as const, label: t('play.all', { count: poolSize }) }]
-  const grouped = GROUP_ORDER.map((g) => [g, collections.filter((c) => c.group === g)] as const).filter(([, list]) => list.length)
-  const sample = pool.size ? [...pool.values()][0].entity : undefined
-  let step = 0
-  const Step = ({ title, hint, children }: { title: string; hint?: string; children: React.ReactNode }) => (
-    <section className="mb-6">
-      <div className="mb-2 flex items-baseline gap-3">
-        <span className="text-xs font-semibold tracking-wider text-accent">0{++step}</span>
-        <h2 className="font-semibold">{title}</h2>
-        {hint && <span className="text-xs text-ink-2">{hint}</span>}
-      </div>
-      {children}
-    </section>
-  )
+  const length: number | 'all' = mode?.length ?? (lengths.some((l) => l.value === setup.length) ? setup.length : 'all')
+
+  const start = () => {
+    localStorage.setItem(`gk.setup.${category}`, JSON.stringify({ ...setup, scope, kinds: kinds ?? setup.kinds, mode: mode?.id ?? 'auto', length }))
+    navigate(`/play/${category}/round?${toQuery({ category, scope, length, gens: generatorIds, kinds: effectiveKinds, repeat: setup.repeat })}`)
+  }
+
+  const scopeLabel = isCountryScope(scope) ? geo.byId.get(scope)?.names.de ?? scope : t(`scope.${scope}`)
+  const kindsLabel = effectiveKinds && effectiveKinds.length === 1 && !isCountryScope(scope) ? ` · ${t(`setup.kinds.${category}.${effectiveKinds[0]}`)}` : ''
+  const cardsCollection = category === 'flags' ? (isCountryScope(scope) ? `regions-${geo.byId.get(scope)?.attributes.iso2 as string}` : effectiveKinds?.length === 1 && effectiveKinds[0] === 'country' ? (scope === 'world' ? 'countries' : scope) : 'all') : undefined
 
   return (
     <Page title={t(`category.${category}`)} back="/play" action={def && <IconTile icon={CATEGORY_ICONS[def.id]} tone={CATEGORY_TONES[def.id]} size="sm" />}>
-      {useCollections ? (
-        <Step title={t('setup.collection')} hint={t('setup.collection_hint')}>
-          {grouped.map(([group, list]) => (
-            <div key={group} className="mb-3">
-              <h3 className="mb-1.5 text-xs font-medium uppercase tracking-wider text-ink-2">{group}</h3>
-              <div className="grid grid-cols-2 gap-2 md:grid-cols-3">
-                {list.map((c) => {
-                  const active = collection?.id === c.id
-                  const country = c.countryIso ? geo.countries.find((x) => x.attributes.iso2 === c.countryIso) : undefined
-                  const count = c.countryIso ? geo.index?.regions[`country:${c.countryIso}`]?.count : undefined
-                  return (
-                    <button key={c.id} type="button" aria-pressed={active} onClick={() => setCollectionId(c.id)} className={`card flex items-start gap-2.5 p-3 text-left transition ${active ? 'border-accent ring-2 ring-accent/30' : 'hover:bg-card-2'}`}>
-                      {country ? <Flag entity={country} size="sm" className="mt-0.5 shrink-0" /> : <span className="mt-0.5 inline-flex h-6 w-9 shrink-0 items-center justify-center rounded-md tone-indigo"><Icons.globe className="h-4 w-4" /></span>}
-                      <span className="min-w-0">
-                        <span className="block truncate text-sm font-medium">{c.shortTitle ?? c.title}</span>
-                        <span className="block text-xs text-ink-2 line-clamp-2">{c.description}</span>
-                        {count !== undefined && <span className="text-xs text-ink-2">{count} Flaggen</span>}
-                      </span>
-                    </button>
-                  )
-                })}
-              </div>
-            </div>
-          ))}
-        </Step>
-      ) : (
-        <Step title={t('play.scope')}>
-          <Chips label={t('play.scope')} value={scope} onChange={setScope} items={SCOPES.map((s) => ({ value: s as string, label: t(`scope.${s}`) }))} />
-          {countryScopes.length > 0 && (
-            <select className="mt-2 w-full rounded-xl border border-line bg-card px-3 py-3" value={scope.startsWith('country:') ? scope : ''} onChange={(e) => e.target.value && setScope(e.target.value)} aria-label={t('facts.country')}>
-              <option value="">{t('facts.country')} …</option>
-              {countryScopes.map((c) => (
-                <option key={c.id} value={c.id}>{c.names.de}</option>
-              ))}
-            </select>
-          )}
-        </Step>
-      )}
-
-      {modes.length > 0 && !forcedMode && (
-        <Step title={t('setup.mode')} hint={t('setup.mode_hint')}>
-          <div className="grid gap-2 md:grid-cols-2">
-            {[{ id: 'auto', generators: [] as string[] }, ...modes].map((m) => {
-              const active = mode === m.id
-              const size = m.id === 'auto' ? poolSize : geo.ready ? poolFor(category, geo.contextFor(effectiveScope), m.generators).size : 0
-              const disabled = m.id !== 'auto' && size === 0
-              return (
-                <button key={m.id} type="button" disabled={disabled} aria-pressed={active} onClick={() => setMode(m.id)} className={`card flex items-center gap-3 p-3 text-left transition disabled:opacity-40 ${active ? 'border-accent ring-2 ring-accent/30' : 'hover:bg-card-2'}`}>
-                  <span className="min-w-0 flex-1">
-                    <span className="block text-sm font-medium">{t(`modes.${m.id}`)}</span>
-                    <span className="block text-xs text-ink-2">{t(`modes_desc.${m.id}`, { defaultValue: '' })}</span>
-                  </span>
-                  {m.id !== 'auto' && <span className="text-xs tabular-nums text-ink-2">{size}</span>}
-                </button>
-              )
-            })}
+      <Section title={t('play.scope')}>
+        <Chips label={t('play.scope')} value={isCountryScope(scope) ? '' : scope} onChange={(v) => patch({ scope: v })} items={['world', ...continents].map((s) => ({ value: s as string, label: t(`scope.${s}`) }))} />
+        {countries.length > 0 && (
+          <select className="mt-2 w-full rounded-xl border border-line bg-card px-3 py-3 text-sm" value={isCountryScope(scope) ? scope : ''} onChange={(e) => e.target.value && patch({ scope: e.target.value })} aria-label={t('setup.country_pick')}>
+            <option value="">{t('setup.country_pick')}</option>
+            {countryGroups.map(([cont, list]) => (
+              <optgroup key={cont} label={t(`scope.${cont}`)}>
+                {list.map(({ country, n }) => (
+                  <option key={country.id} value={country.id}>
+                    {country.names.de} ({n})
+                  </option>
+                ))}
+              </optgroup>
+            ))}
+          </select>
+        )}
+        {kindOptions.length > 1 && kinds && (
+          <div className="mt-3 flex flex-wrap items-center gap-2">
+            <span className="text-xs text-ink-2">{t('setup.kinds_label')}:</span>
+            <Chips label={t('setup.kinds_label')} value={kindKey(kinds)} onChange={(v) => patch({ kinds: v.split('+') as Kind[] })} items={kindOptions.map((k) => ({ value: kindKey(k), label: k.length === 2 ? t('setup.kinds.all') : t(`setup.kinds.${category}.${k[0]}`) }))} />
           </div>
-        </Step>
-      )}
-      {forcedMode === 'europe_map' && (
-        <Card className="mb-6 flex items-center gap-3 text-sm">
-          <IconTile icon={Icons.pin} tone="tone-green" size="sm" />
-          <span>{t('setup.europe_note', { count: poolSize })}</span>
-        </Card>
+        )}
+      </Section>
+
+      {modes.length > 0 && (
+        <Section title={t('setup.mode')}>
+          <Chips label={t('setup.mode')} value={mode?.id ?? 'auto'} onChange={(v) => patch({ mode: v })} items={[{ value: 'auto', label: t('modes.auto') }, ...modes.map((m) => ({ value: m.id, label: t(`modes.${m.id}`) }))]} />
+          <p className="mt-2 text-xs text-ink-2">{mode ? t(`modes_desc.${mode.id}`, { defaultValue: '' }) : t('setup.auto_desc')}</p>
+        </Section>
       )}
 
-      {!forcedMode && (
-        <Step title={t('setup.training')} hint={t('setup.training_hint')}>
-          <div className="grid grid-cols-2 gap-2">
-            <button type="button" aria-pressed={repeat} onClick={() => setRepeat(true)} className={`card p-3 text-left ${repeat ? 'border-accent ring-2 ring-accent/30' : 'hover:bg-card-2'}`}>
-              <span className="block text-sm font-medium">{t('setup.repeat')}</span>
+      <Section title={t('play.length')}>
+        {mode?.length === 'all' ? <p className="text-sm text-ink-2">{t('setup.europe_note', { count: poolSize })}</p> : <Chips label={t('play.length')} value={length} onChange={(v) => patch({ length: v })} items={lengths} />}
+        {mode?.length !== 'all' && (
+          <label className="mt-3 flex cursor-pointer items-center gap-3 text-sm">
+            <input type="checkbox" className="h-5 w-5 accent-[var(--color-accent)]" checked={setup.repeat} onChange={(e) => patch({ repeat: e.target.checked })} />
+            <span>
+              <span className="block font-medium">{t('setup.repeat')}</span>
               <span className="block text-xs text-ink-2">{t('setup.repeat_desc')}</span>
-            </button>
-            <button type="button" aria-pressed={!repeat} onClick={() => setRepeat(false)} className={`card p-3 text-left ${!repeat ? 'border-accent ring-2 ring-accent/30' : 'hover:bg-card-2'}`}>
-              <span className="block text-sm font-medium">{t('setup.classic')}</span>
-              <span className="block text-xs text-ink-2">{t('setup.classic_desc')}</span>
-            </button>
-          </div>
-        </Step>
-      )}
-
-      <Step title={t('play.length')}>
-        {forcedMode === 'europe_map' ? <p className="text-sm text-ink-2">{poolSize} · {t('setup.complete')}</p> : <Chips label={t('play.length')} value={length} onChange={setLength} items={lengths} />}
-      </Step>
+            </span>
+          </label>
+        )}
+      </Section>
 
       <div className="sticky bottom-16 z-30 md:bottom-4">
         <Card className="flex items-center gap-3 bg-card/95 backdrop-blur">
           <div className="min-w-0 flex-1 text-sm">
-            <p className="truncate font-medium">{useCollections ? collection?.title : t(`scope.${scope}`, { defaultValue: geo.byId.get(scope)?.names.de })}</p>
-            <p className="text-xs text-ink-2">{t('setup.mastered', { mastered, total: poolSize })}{sample && activeMode !== 'auto' ? ` · ${t(`modes.${activeMode}`)}` : ''}</p>
+            <p className="truncate font-medium">
+              {scopeLabel}
+              {kindsLabel}
+            </p>
+            <p className="text-xs text-ink-2">{loading ? t('common.loading') : t('setup.mastered', { mastered, total: poolSize })}</p>
           </div>
-          {useCollections && collection && <Link to={`/learn/cards?category=${category}&collection=${collection.id}`} className="btn-secondary hidden py-2 md:inline-flex"><Icons.learn className="h-4 w-4" /> {t('setup.cards')}</Link>}
-          <button className="btn-primary" onClick={start} disabled={poolSize === 0}>{t('play.start')} <Icons.arrow className="h-4 w-4" /></button>
+          {cardsCollection && (
+            <Link to={`/learn/cards?category=${category}&collection=${cardsCollection}`} className="btn-secondary hidden py-2 md:inline-flex">
+              <Icons.learn className="h-4 w-4" /> {t('setup.cards')}
+            </Link>
+          )}
+          <button className="btn-primary" onClick={start} disabled={poolSize < MIN_POOL}>
+            {t('play.start')} <Icons.arrow className="h-4 w-4" />
+          </button>
         </Card>
       </div>
-      {poolSize === 0 && geo.ready && <p className="mt-3 text-sm text-ink-2">{t('play.no_questions')}</p>}
+      {poolSize < MIN_POOL && !loading && <p className="mt-3 text-sm text-ink-2">{t('play.no_questions')}</p>}
     </Page>
+  )
+}
+
+function Section({ title, children }: { title: string; children: React.ReactNode }) {
+  return (
+    <section className="mb-6">
+      <h2 className="mb-2 text-sm font-semibold">{title}</h2>
+      {children}
+    </section>
   )
 }
 
 function CategoryHub({ open }: { open: Awaited<ReturnType<ReturnType<typeof getRepository>['getOpenSessions']>> }) {
   const { t } = useTranslation()
   const geo = useGeoData()
+  useDocumentTitle(t('nav.play'))
   return (
     <Page title={t('play.title')}>
       {open.length > 0 && (
@@ -205,7 +242,9 @@ function CategoryHub({ open }: { open: Awaited<ReturnType<ReturnType<typeof getR
               return (
                 <Link key={s.id} to={`/play/session/${encodeURIComponent(s.id)}`} className="card flex items-center gap-3 p-3 hover:bg-card-2">
                   <div className="min-w-0 flex-1">
-                    <p className="truncate text-sm font-medium">{t(`category.${s.category}`)} · {s.scope.startsWith('country:') ? geo.byId.get(s.scope)?.names.de : t(`scope.${s.scope}`)} · {s.position} / {total}</p>
+                    <p className="truncate text-sm font-medium">
+                      {t(`category.${s.category}`)} · {s.scope.startsWith('country:') ? geo.byId.get(s.scope)?.names.de : t(`scope.${s.scope}`)} · {s.position} / {total}
+                    </p>
                     <ProgressBar className="mt-1" value={s.position / total} />
                   </div>
                   <span className="btn-secondary py-2">{t('app.continue')}</span>

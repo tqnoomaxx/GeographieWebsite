@@ -103,6 +103,15 @@ export function buildSession(ctx: GeneratorContext, opts: BuildOptions): QuizSes
     const q = makeQuestion(item, ctx, rng, difficulty)
     if (q) questions.push({ question: q })
   })
+  // Konnte zu einer Karte keine Frage gebaut werden, mit weiteren Karten der Sammlung auffüllen (R1: gewählte Länge).
+  if (opts.length !== 'all' && questions.length < opts.length) {
+    const used = new Set(ordered.map((o) => o.entity.id))
+    for (const item of weightedOrder(entities.filter((e) => !used.has(e.entity.id)), opts.progress, rng)) {
+      if (questions.length >= opts.length) break
+      const q = makeQuestion(item, ctx, rng, difficulty)
+      if (q) questions.push({ question: q })
+    }
+  }
   return {
     id: `${seed}`,
     category: opts.category,

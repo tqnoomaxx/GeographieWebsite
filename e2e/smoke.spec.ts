@@ -162,10 +162,10 @@ test('Flussseite und Liste', async ({ page }) => {
   await expect(page.getByText(/2.850 km/)).toBeVisible()
 })
 
-test('Setup mit Sammlung und Fehlerwiederholung', async ({ page }) => {
+test('Setup: Land als Bereich, Kartenfrage mit Versuchen', async ({ page }) => {
   await page.goto('play/flags')
-  await page.getByRole('button', { name: /Deutschland/ }).first().click()
-  await page.getByRole('button', { name: /Flagge → Karte/ }).click()
+  await page.getByLabel('… oder ein einzelnes Land wählen').selectOption('country:DE')
+  await page.getByRole('radio', { name: /Flagge → Karte/ }).click()
   await page.getByRole('button', { name: "Los geht's" }).click()
   await expect(page.locator('[data-question-type="map_click"]')).toBeVisible()
   await page.locator('[data-id="region:DE-BY"]').first().dispatchEvent('click')
@@ -180,4 +180,28 @@ test('Lernkarten-Explorer', async ({ page }) => {
   await expect(page.getByText(/16 Karten/)).toBeVisible()
   await page.getByRole('button', { name: /Namen verdecken/ }).click()
   await expect(page.getByText('?').first()).toBeVisible()
+})
+
+test('Setup jeder Kategorie startet eine Runde', async ({ page }) => {
+  const errors = watchErrors(page)
+  for (const cat of ['flags', 'countries', 'capitals', 'maps', 'images', 'regions', 'cities', 'landmarks', 'water', 'nature', 'license_plates', 'mixed']) {
+    await page.goto(`play/${cat}`)
+    await expect(page.getByRole('radiogroup', { name: 'Bereich' })).toBeVisible()
+    const start = page.getByRole('button', { name: "Los geht's" })
+    await expect(start).toBeEnabled({ timeout: 15000 })
+    await start.click()
+    await expect(page.getByText(/^1 \/ \d+$/)).toBeVisible()
+    await expect(page.locator('[data-question-type]')).toBeVisible()
+  }
+  expect(errors).toEqual([])
+})
+
+test('Flaggen: Land als Bereich und Fragetyp wählen', async ({ page }) => {
+  await page.goto('play/flags')
+  await page.getByLabel('… oder ein einzelnes Land wählen').selectOption('country:DE')
+  await expect(page.getByText(/^Deutschland$/)).toBeVisible()
+  await page.getByRole('radio', { name: 'Flagge → Name' }).click()
+  await page.getByRole('button', { name: "Los geht's" }).click()
+  await expect(page.getByRole('heading', { level: 1 })).toBeVisible()
+  await expect(page.getByRole('group').getByRole('button')).toHaveCount(4)
 })

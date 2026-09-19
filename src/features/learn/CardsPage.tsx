@@ -40,7 +40,7 @@ export default function CardsPage() {
   return (
     <Page title={t('setup.cards')} back={`/play/${category}`}>
       <div className="mb-3 flex flex-wrap gap-2">
-        <select className="min-h-11 flex-1 rounded-xl border border-line bg-card px-3" value={col?.id} onChange={(e) => setParams({ category, collection: e.target.value })} aria-label={t('setup.collection')}>
+        <select className="min-h-11 flex-1 rounded-xl border border-line bg-card px-3" value={col?.id} onChange={(e) => setParams({ category, collection: e.target.value })} aria-label={t('setup.cards')}>
           {collections.filter((c) => c.id !== 'random' && c.id !== 'europe-map').map((c) => (
             <option key={c.id} value={c.id}>{c.title}</option>
           ))}

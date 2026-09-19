@@ -17,14 +17,16 @@
     "errors_title": "{{count}} Fehler", "map_hint": "Tippe auf die Karte", "report": "Frage melden", "source": "Quelle", "paused": "Runde gespeichert. Du kannst sie jederzeit fortsetzen."
   },
   "setup": {
-    "collection": "Sammlung", "collection_hint": "Was kommt in die Runde?", "mode": "Fragetyp", "mode_hint": "So sieht deine Aufgabe aus", "training": "Lernmodus", "training_hint": "Was passiert bei einem Fehler?",
-    "repeat": "Fehler wiederholen", "repeat_desc": "Falsche Aufgaben kommen in dieser Runde später erneut.", "classic": "Klassische Runde", "classic_desc": "Jede Aufgabe erscheint genau einmal.",
-    "complete": "komplette Europareise", "europe_note": "{{count}} Gebiete in zufälliger Reihenfolge auf einer Karte. Falsche Klicks zählen als Versuch, die Aufgabe bleibt offen, bis du das Gebiet gefunden hast.",
+    "mode": "Fragetyp", "auto_desc": "Die App mischt passende Multiple-Choice-Fragen. Eintippen und Karte wählst du hier ausdrücklich.",
+    "country_pick": "… oder ein einzelnes Land wählen", "kinds_label": "Inhalt",
+    "kinds": { "all": "Alles", "flags": { "country": "Länderflaggen", "region": "Regionalflaggen" }, "maps": { "country": "Länder", "region": "Regionen" } },
+    "repeat": "Fehler in der Runde wiederholen", "repeat_desc": "Falsch beantwortete Aufgaben kommen einige Fragen später noch einmal.",
+    "europe_note": "{{count}} Gebiete in zufälliger Reihenfolge auf einer Karte – immer die komplette Europareise. Falsche Klicks zählen als Versuch, die Aufgabe bleibt offen, bis du das Gebiet gefunden hast.",
     "mastered": "{{mastered}} von {{total}} gemeistert", "cards": "Lernkarten"
   },
   "modes_desc": {
     "flag_to_name": "Du siehst die Flagge und wählst ihren Namen.", "name_to_flag": "Du siehst den Namen und wählst das Motiv.", "flag_to_map": "Du suchst Land oder Region auf der Karte.", "flag_input": "Du erkennst die Flagge ohne Antwortvorgaben.",
-    "region_flags": "Bundesländer, Provinzen, Kantone und Regionen.", "country_flags": "Nur Staaten und Gebiete.",
+    "europe_map": "Flagge sehen, Gebiet auf der Europakarte antippen.",
     "attributes": "Währung, Sprache, Kontinent.", "neighbors": "Welches Land grenzt an …?", "true_false": "Einwohner vergleichen.",
     "country_to_capital": "Zum Land die richtige Hauptstadt finden.", "capital_to_country": "Die Hauptstadt ihrem Land zuordnen.", "capital_input": "Hauptstadt ohne Vorgaben eintippen.",
     "region_to_country": "Zu welchem Land gehört die Region?", "region_capital": "Zur Region die Hauptstadt finden.", "city_to_country": "Eine bekannte Stadt dem Land zuordnen.", "city_to_region": "Stadt der Region zuordnen.",
@@ -35,7 +37,7 @@
     "plate_to_city": "Woher kommt das Kennzeichen?", "city_to_plate": "Welches Kürzel gehört zum Ort?", "plate_input": "Ort zum Kennzeichen eintippen."
   },
   "modes": {
-    "auto": "Automatisch", "europe_map": "Europa-Karte", "flag_to_name": "Flagge → Name", "name_to_flag": "Name → Flagge", "flag_to_map": "Flagge → Karte", "flag_input": "Eintippen", "region_flags": "Nur Regionalflaggen", "country_flags": "Nur Länderflaggen",
+    "auto": "Automatisch", "europe_map": "Europa-Karte", "flag_to_name": "Flagge → Name", "name_to_flag": "Name → Flagge", "flag_to_map": "Flagge → Karte", "flag_input": "Eintippen",
     "attributes": "Länderwissen", "neighbors": "Nachbarländer", "true_false": "Wahr / Falsch",
     "country_to_capital": "Land → Hauptstadt", "capital_to_country": "Hauptstadt → Land", "capital_input": "Eintippen",
     "region_to_country": "Region → Land", "region_capital": "Regionshauptstadt", "city_to_country": "Stadt → Land", "city_to_region": "Stadt → Region",

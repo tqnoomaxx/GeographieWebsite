@@ -1,9 +1,18 @@
 import type { CategoryId } from '@/engine/types'
 
-/** Wählbare Spielarten pro Kategorie. `auto` = Engine wählt passend. Labels in locales unter modes.<id>. */
+/**
+ * Wählbare Fragetypen pro Kategorie. „Automatisch“ (kein Eintrag) mischt die Multiple-Choice-Varianten (R10).
+ * Labels in locales unter modes.<id> und modes_desc.<id>.
+ */
 export interface ModeDef {
   id: string
   generators: string[]
+  /** erzwungene Rundenlänge, z. B. Europa-Karte immer „Alle“ */
+  length?: 'all'
+  /** nur in diesen Bereichen anbieten */
+  scopes?: string[]
+  /** erzwungener Inhalt (Länder/Regionen) */
+  kinds?: Array<'country' | 'region'>
 }
 
 export const MODES: Partial<Record<CategoryId, ModeDef[]>> = {
@@ -12,8 +21,7 @@ export const MODES: Partial<Record<CategoryId, ModeDef[]>> = {
     { id: 'name_to_flag', generators: ['country_to_flag', 'region_to_flag'] },
     { id: 'flag_to_map', generators: ['flag_to_country_map', 'flag_to_region_map'] },
     { id: 'flag_input', generators: ['flag_to_country_input'] },
-    { id: 'region_flags', generators: ['flag_to_region', 'region_to_flag', 'flag_to_region_map', 'region_flag_to_country'] },
-    { id: 'country_flags', generators: ['flag_to_country', 'country_to_flag', 'flag_to_country_input', 'flag_to_country_map'] },
+    { id: 'europe_map', generators: ['flag_to_europe_map'], length: 'all', scopes: ['world', 'europe'], kinds: ['region'] },
   ],
   countries: [
     { id: 'attributes', generators: ['country_attribute'] },

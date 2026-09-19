@@ -74,7 +74,9 @@ export const neighborOfCountry: Generator = {
     const correct = rng.pick(neighbors)!
     const neighborSet = new Set([target.id, ...neighbors.map((n) => n!.id)])
     const sameContinent = independent(ctx).filter((c) => !neighborSet.has(c.id) && c.attributes.continent === target.attributes.continent)
-    const others = independent(ctx).filter((c) => !neighborSet.has(c.id) && c.attributes.continent !== target.attributes.continent)
+    // Außerhalb des Bereichs auffüllen, wenn z. B. Brasilien fast ganz Südamerika als Nachbarn hat
+    const all = [...ctx.byId.values()].filter((c) => c.type === 'country' && isSovereign(c) && !neighborSet.has(c.id))
+    const others = all.filter((c) => c.attributes.continent !== target.attributes.continent || !ctx.countries.includes(c))
     const wrong = [...rng.shuffle(sameContinent), ...rng.shuffle(others)].slice(0, 3)
     if (wrong.length < 3) return null
     const d = effectiveDifficulty(target, difficulty)

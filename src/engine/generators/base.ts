@@ -32,8 +32,18 @@ export const countryPool = (ctx: GeneratorContext) => {
 export const countryOf = (e: Entity, ctx: GeneratorContext) =>
   e.attributes.country ? ctx.byId.get(e.attributes.country) : undefined
 
+/**
+ * Vier Antwortoptionen (R2). Reicht der bevorzugte Pool (z. B. Regionen desselben Landes oder der gewählte Bereich)
+ * nicht für drei Falschantworten, wird mit gleichartigen Entities aus dem Gesamtbestand aufgefüllt – so bleibt jede
+ * Lernkarte auch in kleinen Bereichen spielbar.
+ */
 export function options(correct: Entity, pool: Entity[], ctx: GeneratorContext, rng: Rng, difficulty: number, withImage = false): QuestionOption[] | null {
-  const distractors = pickDistractors(correct, pool, 3, ctx, rng, difficulty)
+  let distractors = pickDistractors(correct, pool, 3, ctx, rng, difficulty)
+  if (distractors.length < 3) {
+    const fallback = [...ctx.byId.values()].filter((e) => e.type === correct.type && (correct.type !== 'country' || isSovereign(e)) && (!withImage || flagOf(e)) && !pool.includes(e))
+    const more = pickDistractors(correct, fallback, 3 - distractors.length, ctx, rng, difficulty).filter((e) => !distractors.some((d) => d.names.de === e.names.de))
+    distractors = [...distractors, ...more]
+  }
   if (distractors.length < 3) return null
   return rng.shuffle([correct, ...distractors]).map((e) => ({
     id: e.id,
