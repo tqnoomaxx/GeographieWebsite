@@ -2,9 +2,9 @@ import { describe, it, expect } from 'vitest'
 import { readFileSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 import { buildContext } from './context'
-import { buildSession, checkAnswer, extendSession, poolFor, recordAnswer, skipQuestion } from './session'
+import { baseQuestionPosition, baseQuestionTotal, buildSession, checkAnswer, extendSession, pendingRepeatCount, poolFor, recordAnswer, skipQuestion } from './session'
 import { generatorsFor } from './registry'
-import type { RoundConfig } from './round'
+import { fromQuery, type RoundConfig } from './round'
 import { QUIZZES } from '@/config/quizzes'
 import { matchesAnswer, normalizeAnswer } from './normalize'
 import { createRng } from './rng'
@@ -122,6 +122,10 @@ describe('maps', () => {
 })
 
 describe('konfiguration', () => {
+  it('fängt ungültige URL-Parameter ab', () => {
+    const parsed = fromQuery('flags', new URLSearchParams('mode=kaputt&scope=moon&len=NaN'))
+    expect(parsed).toMatchObject({ mode: 'auto', scope: 'world', length: 10 })
+  })
   it('jeder Fragetyp in config/quizzes.ts verweist auf registrierte Generatoren der richtigen Kategorie', () => {
     for (const quiz of QUIZZES) for (const m of quiz.modes) for (const g of generatorsFor(quiz.id, m.id)) expect(g.category, `${quiz.id}/${m.id}/${g.id}`).toBe(quiz.id)
   })
@@ -178,6 +182,9 @@ describe('recordAnswer', () => {
     const wrong = q0.options!.find((o) => o.id !== q0.answer)!.id
     s = recordAnswer(s, wrong)
     expect(s.questions).toHaveLength(11)
+    expect(baseQuestionTotal(s)).toBe(10)
+    expect(baseQuestionPosition(s)).toBe(1)
+    expect(pendingRepeatCount(s)).toBe(1)
     expect(s.questions[4].repeated).toBe(true)
     expect(s.questions[4].question.answer).toBe(q0.answer)
     s = { ...s, position: 1 }

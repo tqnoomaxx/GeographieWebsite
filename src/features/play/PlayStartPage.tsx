@@ -7,7 +7,7 @@ import { AUTO, MIN_POOL, QUIZZES, ROUND_LENGTHS, autoModes, isCategory, quizFor,
 import { collectionFor } from '@/config/collections'
 import { SCOPES } from '@/engine/scope'
 import { defaultRound, isCountryScope, roundPath, type RoundConfig } from '@/engine/round'
-import { poolFor, setupOf } from '@/engine/session'
+import { baseQuestionPosition, baseQuestionTotal, poolFor, setupOf } from '@/engine/session'
 import type { CategoryId, GeneratorContext } from '@/engine/types'
 import type { Entity } from '@/domain/types'
 import { getRepository } from '@/services/progress'
@@ -125,7 +125,10 @@ function Setup({ category }: { category: CategoryId }) {
   }
 
   return (
-    <Page title={t(`category.${category}`)} back="/play" action={<IconTile icon={CATEGORY_ICONS[category]} tone={CATEGORY_TONES[category]} size="sm" />}>
+    <Page wide title={t(`category.${category}`)} back="/play" action={<IconTile icon={CATEGORY_ICONS[category]} tone={CATEGORY_TONES[category]} size="sm" />}>
+      <div className="atlas-rule mb-8 h-px" />
+      <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_22rem] lg:items-start lg:gap-12">
+      <div>
       <Section step={1} title={t('play.scope')}>
         <Chips label={t('play.scope')} value={activeContinent} onChange={(v) => patch({ scope: v })} items={['world', ...continents].map((s) => ({ value: s as string, label: t(`scope.${s}`) }))} />
         {countries.length > 0 && <CountryPicker groups={countryGroups} continent={activeContinent === 'world' ? undefined : activeContinent} value={isCountryScope(scope) ? scope : ''} onChange={(id) => patch({ scope: id || activeContinent })} />}
@@ -156,24 +159,38 @@ function Setup({ category }: { category: CategoryId }) {
           </label>
         )}
       </Section>
-
-      <div className="sticky bottom-16 z-30 md:bottom-4">
-        <Card className="flex items-center gap-3 bg-card/95 backdrop-blur">
-          <div className="min-w-0 flex-1 text-sm">
-            <RoundTitle setup={round} icon={false} />
-            <p className="mt-0.5 text-xs text-ink-2">{loading ? t('common.loading') : t('setup.mastered', { mastered, total: poolSize })}</p>
-          </div>
-          {category === 'flags' && (
-            <Link to={`/learn/cards?collection=${collectionFor(scope, effectiveContent, geo.byId)}`} className="btn-secondary hidden py-2 md:inline-flex">
-              <Icons.learn className="h-4 w-4" /> {t('setup.cards')}
-            </Link>
-          )}
-          <button className="btn-primary" onClick={start} disabled={loading || poolSize < MIN_POOL}>
-            {t('play.start')} <Icons.arrow className="h-4 w-4" />
-          </button>
-        </Card>
       </div>
-      {poolSize < MIN_POOL && !loading && <p className="mt-3 text-sm text-ink-2">{t('play.no_questions')}</p>}
+
+      <aside className="lg:sticky lg:top-20">
+        <Card className="overflow-hidden bg-card/95 p-0 backdrop-blur">
+          <div className="border-b border-line bg-accent-soft/60 p-5">
+            <p className="eyebrow mb-2">Deine Expedition</p>
+            <RoundTitle setup={round} icon={false} />
+          </div>
+          <div className="p-5">
+            <dl className="space-y-3 text-sm">
+              <div className="flex justify-between gap-4"><dt className="text-ink-2">{t('play.scope')}</dt><dd className="text-right font-medium">{isCountryScope(scope) ? geo.byId.get(scope)?.names.de : t(`scope.${scope}`)}</dd></div>
+              <div className="flex justify-between gap-4"><dt className="text-ink-2">{t('setup.mode')}</dt><dd className="text-right font-medium">{mode ? t(`modes.${mode.id}`) : t('modes.auto')}</dd></div>
+              <div className="flex justify-between gap-4"><dt className="text-ink-2">{t('play.length')}</dt><dd className="text-right font-medium">{length === 'all' ? poolSize : length}</dd></div>
+              <div className="flex justify-between gap-4"><dt className="text-ink-2">Wiederholen</dt><dd className="text-right font-medium">{setup.repeat ? 'An' : 'Aus'}</dd></div>
+            </dl>
+            <div className="mt-5 border-t border-line pt-4">
+              <div className="mb-2 flex justify-between text-xs text-ink-2"><span>{loading ? t('common.loading') : t('setup.mastered', { mastered, total: poolSize })}</span><span>{poolSize ? Math.round(mastered / poolSize * 100) : 0}%</span></div>
+              <ProgressBar value={poolSize ? mastered / poolSize : 0} />
+            </div>
+            <button className="btn-primary mt-5 w-full" onClick={start} disabled={loading || poolSize < MIN_POOL}>
+              {t('play.start')} <Icons.arrow className="h-4 w-4" />
+            </button>
+            {category === 'flags' && (
+              <Link to={`/learn/cards?collection=${collectionFor(scope, effectiveContent, geo.byId)}`} className="btn-ghost mt-2 w-full py-2">
+                <Icons.learn className="h-4 w-4" /> {t('setup.cards')}
+              </Link>
+            )}
+          </div>
+        </Card>
+        {poolSize < MIN_POOL && !loading && <p className="mt-3 text-sm text-ink-2">{t('play.no_questions')}</p>}
+      </aside>
+      </div>
     </Page>
   )
 }
@@ -217,9 +234,9 @@ function CountryPicker({ groups, continent, value, onChange }: { groups: readonl
 
 function Section({ step, title, children }: { step: number; title: string; children: React.ReactNode }) {
   return (
-    <section className="mb-6">
-      <h2 className="mb-2 flex items-center gap-2 text-sm font-semibold">
-        <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-accent-soft text-[11px] text-accent">{step}</span>
+    <section className="mb-8 border-b border-line pb-8 last:border-b-0">
+      <h2 className="mb-4 flex items-center gap-3 text-lg font-semibold">
+        <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-navy text-xs text-white shadow-sm">{step}</span>
         {title}
       </h2>
       {children}
@@ -239,12 +256,13 @@ function CategoryHub() {
           <h2 className="mb-2 text-sm font-medium uppercase tracking-wider text-ink-2">{t('play.open_runs')}</h2>
           <div className="grid gap-2">
             {open.slice(0, 2).map((s) => {
-              const total = s.questions.length + (s.remaining?.length ?? 0)
+              const total = baseQuestionTotal(s)
+              const position = baseQuestionPosition(s)
               return (
                 <Link key={s.id} to={`/play/session/${encodeURIComponent(s.id)}`} className="card flex items-center gap-3 p-3 hover:bg-card-2">
                   <div className="min-w-0 flex-1">
-                    <RoundTitle setup={setupOf(s)} progress={{ done: s.position, total }} />
-                    <ProgressBar className="mt-2" value={s.position / total} />
+                    <RoundTitle setup={setupOf(s)} progress={{ done: position, total }} />
+                    <ProgressBar className="mt-2" value={position / total} />
                   </div>
                   <span className="btn-secondary py-2">{t('app.continue')}</span>
                 </Link>

@@ -1,6 +1,7 @@
 import type { CategoryId } from './types'
 import type { Entity } from '@/domain/types'
-import { AUTO, quizFor, type Content } from '@/config/quizzes'
+import { AUTO, ROUND_LENGTHS, quizFor, type Content } from '@/config/quizzes'
+import { SCOPES } from './scope'
 
 /**
  * Das Setup einer Runde – die eine Beschreibung dessen, was gespielt wird.
@@ -37,16 +38,24 @@ export function toQuery(c: RoundConfig): string {
 }
 
 export function fromQuery(category: CategoryId, params: URLSearchParams): RoundConfig {
-  const len = params.get('len') ?? '10'
+  const fallback = defaultRound(category)
+  const rawLength = params.get('len') ?? '10'
+  const numericLength = Number(rawLength)
+  const only = params.get('only')?.split(',').filter(Boolean)
+  const length = rawLength === 'all' ? 'all' : Number.isInteger(numericLength) && numericLength > 0 && (only?.length || ROUND_LENGTHS.includes(numericLength as (typeof ROUND_LENGTHS)[number])) ? numericLength : fallback.length
   const content = params.get('content')
+  const requestedMode = params.get('mode') ?? AUTO
+  const mode = requestedMode === AUTO || quizFor(category).modes.some((item) => item.id === requestedMode) ? requestedMode : AUTO
+  const requestedScope = params.get('scope') ?? fallback.scope
+  const scope = SCOPES.includes(requestedScope as (typeof SCOPES)[number]) || /^country:[A-Z]{2}$/.test(requestedScope) ? requestedScope : fallback.scope
   return {
     category,
-    mode: params.get('mode') ?? AUTO,
-    scope: params.get('scope') ?? 'world',
-    length: len === 'all' ? 'all' : Number(len),
+    mode,
+    scope,
+    length,
     repeat: params.get('repeat') !== '0',
     content: content === 'country' || content === 'region' ? [content] : undefined,
-    only: params.get('only')?.split(',').filter(Boolean),
+    only,
   }
 }
 

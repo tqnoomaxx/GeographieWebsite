@@ -5,9 +5,9 @@ import { mediaUrl } from '@/services/data/dataService'
 import type { Entity } from '@/domain/types'
 import { ChevronLeft } from 'lucide-react'
 
-export function Page({ title, children, back, action }: { title?: string; children: ReactNode; back?: string; action?: ReactNode }) {
+export function Page({ title, children, back, action, wide = false }: { title?: string; children: ReactNode; back?: string; action?: ReactNode; wide?: boolean }) {
   return (
-    <div className="mx-auto w-full max-w-5xl px-4 pb-24 pt-4 md:pb-10 md:pt-8">
+    <div className={`mx-auto w-full px-4 pb-24 pt-4 md:pb-10 md:pt-8 ${wide ? 'max-w-7xl' : 'max-w-5xl'}`}>
       {(title || back) && (
         <header className="mb-5 flex items-center gap-3">
           {back && (

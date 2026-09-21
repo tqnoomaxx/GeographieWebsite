@@ -12,6 +12,7 @@ export function WorldMap({
   disabled,
   focus,
   decorative,
+  marker,
 }: {
   decorative?: boolean
   onPick?: (id: string) => void
@@ -20,6 +21,7 @@ export function WorldMap({
   wrong?: string
   disabled?: boolean
   focus?: string
+  marker?: { lat: number; lon: number; label?: string }
 }) {
   const [world, setWorld] = useState<GeoJSON.FeatureCollection | null>(null)
   useEffect(() => {
@@ -27,8 +29,8 @@ export function WorldMap({
   }, [])
   const width = 960
   const height = 500
-  const { path, features } = useMemo(() => {
-    if (!world) return { path: null, features: [] }
+  const { path, features, markerPoint } = useMemo(() => {
+    if (!world) return { path: null, features: [], markerPoint: null }
     const projection = geoNaturalEarth1().fitSize([width, height], world as GeoPermissibleObjects)
     if (focus) {
       const f = world.features.find((x) => x.properties?.id === focus)
@@ -38,8 +40,8 @@ export function WorldMap({
         void cy
       }
     }
-    return { path: geoPath(projection), features: world.features }
-  }, [world, focus])
+    return { path: geoPath(projection), features: world.features, markerPoint: marker ? projection([marker.lon, marker.lat]) : null }
+  }, [world, focus, marker])
   if (!world || !path) return <div className="skeleton aspect-[1.92] w-full" />
   return (
     <svg viewBox={`0 0 ${width} ${height}`} className="w-full touch-manipulation select-none" role={onPick ? 'group' : 'img'} aria-label="Weltkarte">
@@ -67,6 +69,12 @@ export function WorldMap({
           />
         )
       })}
+      {markerPoint && (
+        <g aria-label={marker?.label ?? 'Position'}>
+          <circle cx={markerPoint[0]} cy={markerPoint[1]} r="18" className="fill-coral/20" />
+          <circle cx={markerPoint[0]} cy={markerPoint[1]} r="8" className="fill-coral stroke-white stroke-[4]" />
+        </g>
+      )}
     </svg>
   )
 }

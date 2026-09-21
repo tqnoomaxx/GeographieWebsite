@@ -17,10 +17,10 @@ export function Layout() {
   const { t } = useTranslation()
   const online = useOnline()
   const { pathname } = useLocation()
-  const immersive = /^\/play\/[^/]+\/round/.test(pathname) || /^\/play\/session\//.test(pathname) || /^\/daily\/[^/]+$/.test(pathname)
+  const immersive = /^\/play\/[^/]+\/round/.test(pathname) || pathname.startsWith('/play/session/') || /^\/daily\/[^/]+$/.test(pathname)
   return (
     <div className="flex min-h-dvh flex-col">
-      <header className="sticky top-0 z-40 hidden border-b border-line bg-bg/85 backdrop-blur md:block">
+      {!immersive && <header className="sticky top-0 z-40 hidden border-b border-line bg-bg/85 backdrop-blur md:block">
         <div className="mx-auto flex h-14 max-w-5xl items-center gap-6 px-4">
           <NavLink to="/" className="flex items-center gap-2 font-semibold tracking-tight">
             <span className="inline-flex h-7 w-7 items-center justify-center rounded-lg bg-accent text-accent-ink"><Icons.explore className="h-4 w-4" strokeWidth={2} /></span>
@@ -39,7 +39,7 @@ export function Layout() {
             <NavLink to="/profile" className="btn-ghost px-3 py-2" aria-label={t('nav.profile')}><Icons.profile className="h-5 w-5" strokeWidth={1.75} /></NavLink>
           </div>
         </div>
-      </header>
+      </header>}
       {!online && <div role="status" className="bg-warn-soft px-4 py-1.5 text-center text-xs text-ink">{t('common.offline')}</div>}
       <main className="flex-1">
         <Suspense fallback={<div className="mx-auto max-w-5xl p-4"><Skeleton className="h-40" /></div>}>

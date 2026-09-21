@@ -28,11 +28,15 @@ export async function applySession(repo: ProgressRepository, session: QuizSessio
   const touched = new Map<string, EntityProgress>()
   const wrongEntities: string[] = []
   const answered = session.questions.filter((q) => q.given !== undefined)
-  for (const q of answered) {
+  const baseAnswered = answered.filter((q) => !q.repeated)
+  // Wiederholungen sind Lernfeedback, keine zusätzlichen Statistikfragen. Für eine gelöste
+  // Wiederholung gibt es weiterhin die kleine Versuchs-XP, aber keinen zweiten SRS-Eintrag.
+  xp += answered.filter((q) => q.repeated && q.correct).length * XP.wrong_answer
+  for (const q of baseAnswered) {
     const ok = !!q.correct
     if (ok) {
       correct++
-      xp += q.repeated ? XP.wrong_answer : XP.correct_answer + (XP.difficulty_bonus[q.question.difficulty] ?? 0)
+      xp += XP.correct_answer + (XP.difficulty_bonus[q.question.difficulty] ?? 0)
     } else {
       xp += XP.wrong_answer
       wrongEntities.push(q.question.entities[0])
@@ -55,7 +59,7 @@ export async function applySession(repo: ProgressRepository, session: QuizSessio
       if (wrongEntities.length === 0) stats.fullRuns++
     }
   }
-  stats.answered += answered.length
+  stats.answered += baseAnswered.length
   stats.correct += correct
   stats.xp += xp
   touchStreak(stats)
@@ -64,11 +68,11 @@ export async function applySession(repo: ProgressRepository, session: QuizSessio
   const mastered = [...progressMap.values()].filter((p) => p.state === 'mastered').length
   const newAchievements = await evaluateAchievements(repo, stats, mastered)
   stats.xp += newAchievements.length * XP.achievement
-  const completedQuests = await advanceQuests(repo, stats, session, answered.length)
+  const completedQuests = await advanceQuests(repo, stats, session, baseAnswered.length)
   stats.xp += completedQuests.reduce((s, q) => s + q.reward_xp, 0)
   await repo.saveStats(stats)
   const after = levelForXp(stats.xp).level
-  return { xp, correct, total: answered.length, newAchievements, completedQuests, levelUp: after > before ? after : undefined, wrongEntities }
+  return { xp, correct, total: baseAnswered.length, newAchievements, completedQuests, levelUp: after > before ? after : undefined, wrongEntities }
 }
 
 export function touchStreak(stats: UserStats, today = todayKey()) {
@@ -122,7 +126,7 @@ async function advanceQuests(repo: ProgressRepository, stats: UserStats, session
     const cur = state.get(def.id) ?? { id: def.id, progress: 0, startedAt: new Date().toISOString() }
     if (cur.completedAt) continue
     let inc = 0
-    if (def.type === 'answer_questions' && (!def.category || def.category === session.category)) inc = session.questions.filter((q) => q.correct).length
+    if (def.type === 'answer_questions' && (!def.category || def.category === session.category)) inc = session.questions.filter((q) => !q.repeated && q.correct).length
     if (def.type === 'complete_sessions' && session.completedAt) inc = 1
     if (def.type === 'learn_entities' && def.scope) {
       // Fortschritt = Anzahl gelernter (familiar/mastered) Entities im Bereich; wird in recomputeLongQuests gesetzt

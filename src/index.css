@@ -176,3 +176,28 @@ h1, .display {
 .dark .paper-grid {
   background-image: radial-gradient(rgb(244 239 227 / 0.08) 1px, transparent 1px);
 }
+
+.atlas-surface {
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(ellipse at 12% 10%, rgb(46 120 133 / 0.08), transparent 28rem),
+    radial-gradient(ellipse at 88% 75%, rgb(227 107 77 / 0.07), transparent 24rem),
+    repeating-radial-gradient(ellipse at 110% -10%, transparent 0 22px, rgb(16 37 54 / 0.035) 23px 24px);
+}
+
+.atlas-rule {
+  background-image: linear-gradient(90deg, var(--coral) 0 3rem, var(--line) 3rem 100%);
+}
+
+.quiz-answer {
+  @apply border-line bg-card hover:-translate-y-0.5 hover:border-accent/50 hover:bg-card-2;
+  box-shadow: 0 8px 24px -22px rgb(16 37 54 / 0.75);
+}
+
+.quiz-answer-correct {
+  @apply border-ok bg-ok-soft;
+}
+
+.quiz-answer-wrong {
+  @apply border-bad bg-bad-soft;
+}

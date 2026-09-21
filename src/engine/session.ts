@@ -45,6 +45,23 @@ export interface QuizSession {
   xpEarned: number
 }
 
+/** Anzahl der ursprünglich gewählten Lernkarten. Eingereihte Wiederholungen verändern die Rundengröße nicht. */
+export function baseQuestionTotal(session: Pick<QuizSession, 'questions' | 'remaining'>): number {
+  return session.questions.filter((q) => !q.repeated).length + (session.remaining?.length ?? 0)
+}
+
+/** Position innerhalb der ursprünglichen Runde. Bei einer Wiederholung bleibt der Zähler stabil. */
+export function baseQuestionPosition(session: Pick<QuizSession, 'questions' | 'remaining' | 'position'>): number {
+  const total = baseQuestionTotal(session)
+  const position = session.questions.slice(0, session.position + 1).filter((q) => !q.repeated).length
+  return Math.max(1, Math.min(total, position))
+}
+
+/** Noch offene Wiederholungen, inklusive einer gerade angezeigten Wiederholungsfrage. */
+export function pendingRepeatCount(session: Pick<QuizSession, 'questions' | 'position'>): number {
+  return session.questions.slice(session.position).filter((q) => q.repeated && q.given === undefined).length
+}
+
 export interface BuildOptions {
   seed?: string
   progress?: Map<string, EntityProgress>

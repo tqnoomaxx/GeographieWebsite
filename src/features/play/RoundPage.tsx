@@ -3,8 +3,8 @@ import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
 import { useDocumentTitle } from '@/app/hooks'
-import { advanceSession, buildSession, labelFor, recordAnswer, setupOf, skipQuestion, type QuizSession } from '@/engine/session'
-import { fromQuery, roundPath, type RoundConfig } from '@/engine/round'
+import { advanceSession, baseQuestionPosition, baseQuestionTotal, buildSession, labelFor, pendingRepeatCount, recordAnswer, setupOf, skipQuestion, type QuizSession } from '@/engine/session'
+import { defaultRound, fromQuery, roundPath, type RoundConfig } from '@/engine/round'
 import { isCategory, quizFor } from '@/config/quizzes'
 import type { CategoryId, Question } from '@/engine/types'
 import { getRepository } from '@/services/progress'
@@ -15,6 +15,7 @@ import { Icons } from '@/ui/icons'
 import { WorldMap, RegionMapView } from '@/ui/maps'
 import { ReportDialog } from '@/features/legal/ReportDialog'
 import { RoundTitle, useRoundLabel } from './RoundLabel'
+import { LicensePlate, QuestionVisualization } from './QuizVisuals'
 
 export default function RoundPage() {
   const { t } = useTranslation()
@@ -52,7 +53,11 @@ export default function RoundPage() {
       try {
         if (stored) return setSession(stored)
         const progress = await repo.getAllEntityProgress()
-        const s = buildSession(geo.contextFor(setup.scope), setup, { progress })
+        let s = buildSession(geo.contextFor(setup.scope), setup, { progress })
+        if (!s.questions.length && category && !setup.only?.length) {
+          const fallback = defaultRound(category)
+          s = buildSession(geo.contextFor(fallback.scope), fallback, { progress })
+        }
         if (!s.questions.length) throw new Error(t('play.no_questions'))
         setSession(s)
         if (s.mode === 'full') {
@@ -125,22 +130,29 @@ export default function RoundPage() {
   if (session.completedAt) return <ResultView session={session} outcome={outcome} />
 
   const current = session.questions[session.position]
-  const total = session.questions.length + (session.remaining?.length ?? 0)
+  const total = baseQuestionTotal(session)
+  const position = baseQuestionPosition(session)
+  const repeats = pendingRepeatCount(session)
   return (
-    <div className="mx-auto flex min-h-dvh w-full max-w-2xl flex-col px-4 pb-6 pt-3">
-      <div className="mb-2 flex items-center gap-3">
-        <button className="btn-ghost -ml-2 px-2 text-ink-2" onClick={quit}>
-          ← {t('nav.quit')}
-        </button>
-        <div className="ml-auto flex items-center gap-3 text-sm tabular-nums text-ink-2">
-          {session.streak > 1 && <span className="inline-flex items-center gap-1 text-warn"><Icons.flame className="h-4 w-4" /> {session.streak}</span>}
-          <span>{session.points.toLocaleString('de-DE')} {t('play.points')}</span>
-          <span>{t('play.question_of', { n: session.position + 1, total })}</span>
+    <div className="atlas-surface min-h-dvh">
+      <header className="sticky top-0 z-30 border-b border-line bg-bg/90 backdrop-blur-xl">
+        <div className="mx-auto flex max-w-7xl items-center gap-3 px-4 py-3">
+          <button className="btn-ghost -ml-2 min-h-10 px-2 text-ink-2" onClick={quit} aria-label={t('nav.quit')}>
+            ← <span className="hidden sm:inline">{t('nav.quit')}</span>
+          </button>
+          <RoundTitle setup={session.setup} className="min-w-0 flex-1 text-xs sm:text-sm" />
+          <div className="flex items-center gap-3 text-xs tabular-nums text-ink-2 sm:text-sm">
+            {repeats > 0 && <span className="rounded-full bg-accent-soft px-2 py-1 font-semibold text-accent">↻ {repeats}</span>}
+            {session.streak > 1 && <span className="inline-flex items-center gap-1 text-warn"><Icons.flame className="h-4 w-4" /> {session.streak}</span>}
+            <span className="hidden sm:inline">{session.points.toLocaleString('de-DE')} {t('play.points')}</span>
+            <strong className="text-ink">{position} / {total}</strong>
+          </div>
         </div>
-      </div>
-      <RoundTitle setup={session.setup} className="mb-3 text-sm" />
-      <ProgressBar value={session.position / total} className="mb-4" />
-      <QuestionView key={current.question.id} q={current.question} given={current.given} correct={current.correct} repeated={current.repeated} attempts={current.attempts ?? 0} lastWrong={session.lastWrongMapGuess} onAnswer={answer} onNext={advance} onSkip={current.question.map?.kind === 'europe' ? skip : undefined} />
+        <ProgressBar value={position / total} className="[&>div]:h-1 [&>div]:rounded-none" />
+      </header>
+      <main className="mx-auto flex w-full max-w-6xl flex-col px-4 py-6 md:py-10">
+        <QuestionView key={current.question.id} q={current.question} given={current.given} correct={current.correct} repeated={current.repeated} attempts={current.attempts ?? 0} lastWrong={session.lastWrongMapGuess} onAnswer={answer} onNext={advance} onSkip={current.question.map?.kind === 'europe' ? skip : undefined} />
+      </main>
     </div>
   )
 }
@@ -178,8 +190,13 @@ function QuestionView({ q, given, correct, repeated, attempts, lastWrong, onAnsw
     return () => clearTimeout(t)
   }, [answered, q.map?.kind, onNext])
   const correctLabel = labelFor(q, q.answer, geo.byId)
+  const givenLabel = given && given !== '__skip__' ? labelFor(q, given, geo.byId) : undefined
   const answerEntity = geo.byId.get(q.answer)
-  const xp = correct ? XP.correct_answer + (XP.difficulty_bonus[q.difficulty] ?? 0) : XP.wrong_answer
+  const entities = q.entities.map((id) => geo.byId.get(id)).filter((entity): entity is NonNullable<typeof entity> => !!entity)
+  const visualEntities = q.type === 'mountain_higher' || q.type === 'river_longer' || q.type === 'lake_larger'
+    ? (q.options ?? []).map((option) => geo.byId.get(option.id)).filter((entity): entity is NonNullable<typeof entity> => !!entity)
+    : entities
+  const xp = correct ? (repeated ? XP.wrong_answer : XP.correct_answer + (XP.difficulty_bonus[q.difficulty] ?? 0)) : XP.wrong_answer
 
   return (
     <div className="flex flex-1 flex-col" data-question-type={q.question_type} data-answer={q.answer}>
@@ -188,7 +205,7 @@ function QuestionView({ q, given, correct, repeated, attempts, lastWrong, onAnsw
           <img
             src={q.media.url}
             alt={q.media.alt}
-            className={`${q.map ? 'max-h-24 md:max-h-32' : 'max-h-56 md:max-h-72'} w-auto max-w-full rounded-xl border border-line object-contain ${q.media.kind === 'flag' ? 'bg-white' : ''}`}
+            className={`${q.map ? 'max-h-24 md:max-h-32' : 'max-h-52 md:max-h-64'} w-auto max-w-full rounded-2xl border border-line object-contain shadow-sm ${q.media.kind === 'flag' ? 'bg-white' : ''}`}
             decoding="async"
           />
           {answered && q.media.attribution && (
@@ -198,11 +215,15 @@ function QuestionView({ q, given, correct, repeated, attempts, lastWrong, onAnsw
           )}
         </figure>
       )}
-      {repeated && <p className="mb-1 text-center text-xs font-semibold uppercase tracking-wider text-accent">↻ {t('play.repeated')}</p>}
-      <h1 className={`${q.map ? 'mb-2 text-lg md:text-xl' : 'mb-4 text-xl md:text-2xl'} text-center font-semibold`}>{t(q.prompt.key, q.prompt.params)}</h1>
+      {repeated && <p className="eyebrow mb-2 text-center !text-accent">↻ {t('play.repeated')}</p>}
+      <h1 className={`${q.map ? 'mb-4 text-2xl md:text-3xl' : 'mb-6 text-3xl md:text-5xl'} mx-auto max-w-3xl text-center font-medium leading-tight`}>{t(q.prompt.key, q.prompt.params)}</h1>
+
+      <div className={`${answered && !q.map ? 'lg:grid lg:grid-cols-[minmax(0,1fr)_20rem] lg:items-start lg:gap-6' : ''}`}>
+        <div>
+          <QuestionVisualization question={q} entities={visualEntities} />
 
       {q.map && (
-        <div className="mb-4">
+        <div className="mx-auto mb-4 max-w-4xl overflow-hidden rounded-3xl border border-line bg-card p-2 shadow-sm md:p-4">
           {q.map.kind === 'world' ? (
             <WorldMap onPick={onAnswer} disabled={answered} correct={answered ? q.answer : undefined} wrong={!answered ? lastWrong : undefined} />
           ) : (
@@ -215,7 +236,7 @@ function QuestionView({ q, given, correct, repeated, attempts, lastWrong, onAnsw
 
       {q.question_type === 'text_input' && (
         <form
-          className="mb-4 flex gap-2"
+          className="mx-auto mb-4 flex w-full max-w-2xl gap-2"
           onSubmit={(e) => {
             e.preventDefault()
             if (!answered && text.trim()) onAnswer(text)
@@ -229,7 +250,7 @@ function QuestionView({ q, given, correct, repeated, attempts, lastWrong, onAnsw
             placeholder={t('play.type_answer')}
             autoComplete="off"
             autoCapitalize="words"
-            className="min-h-12 flex-1 rounded-xl border border-line bg-card px-4"
+            className="min-h-14 min-w-0 flex-1 rounded-2xl border border-line bg-card px-4 text-lg shadow-sm"
             aria-label={t('play.type_answer')}
           />
           {!answered && (
@@ -241,23 +262,26 @@ function QuestionView({ q, given, correct, repeated, attempts, lastWrong, onAnsw
       )}
 
       {q.options && (
-        <div className={`grid gap-2 ${q.question_type === 'image_choice' ? 'grid-cols-2' : 'grid-cols-1 md:grid-cols-2'}`} role="group">
+        <div className={`mx-auto grid w-full max-w-4xl gap-3 ${q.question_type === 'image_choice' ? 'grid-cols-2' : 'grid-cols-1 md:grid-cols-2'}`} role="group">
           {q.options.map((o, i) => {
             const isAnswer = o.id === q.answer
             const isGiven = o.id === given
-            const cls = answered ? (isAnswer ? 'border-ok bg-ok-soft' : isGiven ? 'border-bad bg-bad-soft' : 'opacity-60') : 'hover:bg-card-2'
+            const cls = answered ? (isAnswer ? 'quiz-answer-correct' : isGiven ? 'quiz-answer-wrong' : 'opacity-45') : 'quiz-answer'
+            const optionLabel = o.label || geo.byId.get(o.id)?.names.de || o.id
+            const plateCode = q.type === 'city_to_plate' ? String(geo.byId.get(o.id)?.attributes.code ?? o.label) : undefined
             return (
               <button
                 key={o.id}
                 type="button"
                 disabled={answered}
                 onClick={() => onAnswer(o.id)}
-                className={`card flex min-h-14 items-center gap-3 text-left transition ${o.image ? 'justify-center p-3' : 'px-4 py-3'} ${cls}`}
-                aria-label={o.label || geo.byId.get(o.id)?.names.de}
+                className={`card flex min-h-16 items-center gap-3 text-left transition duration-200 ${o.image ? 'flex-col justify-center p-3' : 'px-4 py-3'} ${cls}`}
+                aria-label={optionLabel}
               >
                 {!o.image && <span className="hidden text-xs text-ink-2 md:inline">{i + 1}</span>}
                 {o.image && <img src={o.image} alt="" className="max-h-28 w-full rounded-md border border-line bg-white object-contain md:max-h-36" />}
-                <span className="font-medium">{o.label}</span>
+                {plateCode ? <LicensePlate code={plateCode} compact /> : !o.image && <span className="font-medium">{o.label}</span>}
+                {o.image && answered && <span className="text-sm font-semibold">{optionLabel}</span>}
                 {answered && isAnswer && <span className="ml-auto text-ok" aria-hidden>✓</span>}
                 {answered && isGiven && !isAnswer && <span className="ml-auto text-bad" aria-hidden>✕</span>}
               </button>
@@ -265,14 +289,17 @@ function QuestionView({ q, given, correct, repeated, attempts, lastWrong, onAnsw
           })}
         </div>
       )}
+        </div>
 
       {answered && (
-        <div className={`mt-4 rounded-2xl p-4 ${correct ? 'bg-ok-soft' : 'bg-bad-soft'}`} role="status" aria-live="polite">
-          <p className="text-lg font-semibold">{correct ? `✓ ${t('play.correct')}` : q.question_type === 'map_click' && given !== '__skip__' ? `✓ ${t('play.found_after', { n: attempts })}` : `✕ ${t('play.wrong')}`}</p>
-          {!correct && q.question_type !== 'map_click' && <p>{t('play.would_be', { answer: correctLabel })}</p>}
+        <aside className={`mt-5 rounded-3xl border p-5 shadow-sm lg:mt-0 ${correct ? 'border-ok/30 bg-ok-soft' : 'border-bad/30 bg-bad-soft'}`} role="status" aria-live="polite">
+          <p className="text-xl font-semibold">{correct ? `✓ ${t('play.correct')}` : q.question_type === 'map_click' && given !== '__skip__' ? `✓ ${t('play.found_after', { n: attempts })}` : `✕ ${t('play.wrong')}`}</p>
+          {givenLabel && <p className="mt-3 text-xs font-semibold uppercase tracking-wider text-ink-2">Deine Antwort</p>}
+          {givenLabel && <p className="font-medium">{givenLabel}</p>}
+          {!correct && q.question_type !== 'map_click' && <><p className="mt-3 text-xs font-semibold uppercase tracking-wider text-ink-2">Richtig</p><p className="font-medium">{correctLabel}</p></>}
           {q.question_type === 'map_click' && <p>{given === '__skip__' ? t('play.would_be', { answer: correctLabel }) : correctLabel}</p>}
-          {q.explanation && <p className="mt-1 text-sm text-ink-2">{q.explanation}</p>}
-          <div className="mt-2 flex items-center gap-3 text-sm">
+          {q.explanation && <p className="mt-3 border-t border-ink/10 pt-3 text-sm text-ink-2">{q.explanation}</p>}
+          <div className="mt-3 flex flex-wrap items-center gap-3 text-sm">
             <span className="font-medium">{correct ? t('play.xp', { xp }) : t('play.xp_try', { xp })}</span>
             {answerEntity && (
               <Link to={entityPath(answerEntity)} className="text-ink-2 underline">
@@ -283,11 +310,12 @@ function QuestionView({ q, given, correct, repeated, attempts, lastWrong, onAnsw
               ⚠ {t('play.report')}
             </button>
           </div>
-          <button className="btn-primary mt-3 w-full" onClick={onNext} autoFocus>
+          <button className="btn-navy mt-4 w-full" onClick={onNext} autoFocus>
             {t('play.next')}
           </button>
-        </div>
+        </aside>
       )}
+      </div>
       {report && <ReportDialog question={q} onClose={() => setReport(false)} />}
     </div>
   )
@@ -297,23 +325,30 @@ function ResultView({ session, outcome }: { session: QuizSession; outcome: Round
   const { t } = useTranslation()
   const geo = useGeoData()
   const answered = session.questions.filter((q) => q.given !== undefined)
-  const correct = answered.filter((q) => q.correct).length
-  const wrong = [...new Set(answered.filter((q) => !q.correct).map((q) => q.question.entities[0]))]
-  const pct = answered.length ? Math.round((correct / answered.length) * 100) : 0
+  const baseAnswered = answered.filter((q) => !q.repeated)
+  const correct = baseAnswered.filter((q) => q.correct).length
+  const wrong = [...new Set(baseAnswered.filter((q) => !q.correct).map((q) => q.question.entities[0]))]
+  const recovered = new Set(answered.filter((q) => q.repeated && q.correct).map((q) => q.question.entities[0])).size
+  const pct = baseAnswered.length ? Math.round((correct / baseAnswered.length) * 100) : 0
   const again = roundPath({ ...session.setup, only: undefined })
   const repeat = roundPath({ ...session.setup, length: wrong.length, only: wrong, repeat: false })
-  const firstTry = answered.filter((q) => q.correct && !q.repeated).length
-  const baseTotal = session.questions.filter((q) => !q.repeated).length
+  const firstTry = correct
+  const baseTotal = baseAnswered.length
   return (
-    <div className="mx-auto w-full max-w-xl px-4 pb-24 pt-8 text-center md:pb-10">
-      <h1 className="text-2xl font-semibold">{session.mode === 'full' ? t('play.full_done') : t('play.round_done')}</h1>
+    <div className="atlas-surface min-h-dvh px-4 pb-24 pt-10 md:pb-12 md:pt-16">
+      <div className="mx-auto w-full max-w-3xl text-center">
+      <p className="eyebrow mb-3">Expeditionsbericht</p>
+      <h1 className="text-4xl font-medium md:text-6xl">{session.mode === 'full' ? t('play.full_done') : t('play.round_done')}</h1>
       <RoundTitle setup={session.setup} className="mx-auto mt-3 w-fit text-left" />
-      <p className="mt-5 text-4xl font-semibold tabular-nums">{t('play.result', { correct, total: answered.length })}</p>
-      <p className="text-ink-2">{pct} %</p>
-      <div className="mx-auto mt-4 grid max-w-sm grid-cols-3 gap-2 text-sm">
-        <Card className="p-2"><div className="font-semibold tabular-nums">{session.points.toLocaleString('de-DE')}</div><div className="text-xs text-ink-2">{t('play.points')}</div></Card>
-        <Card className="p-2"><div className="font-semibold tabular-nums">{session.bestStreak}</div><div className="text-xs text-ink-2">{t('play.best_streak')}</div></Card>
-        <Card className="p-2"><div className="font-semibold tabular-nums">{firstTry}/{baseTotal}</div><div className="text-xs text-ink-2">{t('play.first_try')}</div></Card>
+      <div className="mx-auto mt-7 flex h-44 w-44 flex-col items-center justify-center rounded-full border-[10px] border-accent-soft bg-card shadow-sm">
+        <p className="text-5xl font-semibold tabular-nums">{pct}<span className="text-2xl">%</span></p>
+        <p className="text-sm text-ink-2">{t('play.result', { correct, total: baseTotal })}</p>
+      </div>
+      <div className="mx-auto mt-6 grid max-w-xl grid-cols-2 gap-3 text-sm sm:grid-cols-4">
+        <Card className="p-3"><div className="text-xl font-semibold tabular-nums">{session.points.toLocaleString('de-DE')}</div><div className="text-xs text-ink-2">{t('play.points')}</div></Card>
+        <Card className="p-3"><div className="text-xl font-semibold tabular-nums">{session.bestStreak}</div><div className="text-xs text-ink-2">{t('play.best_streak')}</div></Card>
+        <Card className="p-3"><div className="text-xl font-semibold tabular-nums">{firstTry}/{baseTotal}</div><div className="text-xs text-ink-2">{t('play.first_try')}</div></Card>
+        <Card className="p-3"><div className="text-xl font-semibold tabular-nums">{recovered}</div><div className="text-xs text-ink-2">nach Wiederholung</div></Card>
       </div>
       {outcome ? <p className="mt-2 text-lg font-medium text-accent">+{outcome.xp} XP</p> : <Skeleton className="mx-auto mt-2 h-6 w-24" />}
       {outcome?.levelUp && <p className="mt-2 font-medium">⭐ {t('play.level_up', { level: outcome.levelUp })}</p>}
@@ -347,8 +382,8 @@ function ResultView({ session, outcome }: { session: QuizSession; outcome: Round
           </ul>
         </Card>
       )}
-      <div className="mt-6 grid gap-2">
-        <Link to={again} className="btn-primary">
+      <div className="mx-auto mt-7 grid max-w-xl gap-2 sm:grid-cols-2">
+        <Link to={again} className="btn-primary sm:col-span-2">
           {t('play.again')}
         </Link>
         {wrong.length > 0 && (
@@ -361,6 +396,7 @@ function ResultView({ session, outcome }: { session: QuizSession; outcome: Round
         </Link>
       </div>
       <p className="mt-8 text-xs text-ink-2">{t('play.guest_hint')}</p>
+      </div>
     </div>
   )
 }

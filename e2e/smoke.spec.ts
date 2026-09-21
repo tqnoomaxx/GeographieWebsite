@@ -166,7 +166,7 @@ test('Flussseite und Liste', async ({ page }) => {
 
 test('Setup: Land als Bereich, Kartenfrage mit Versuchen', async ({ page }) => {
   await page.goto('play/flags')
-  await page.getByRole('radio', { name: 'Europa' }).click()
+  await page.getByRole('radio', { name: 'Europa', exact: true }).click()
   await page.getByRole('radio', { name: 'Deutschland' }).click()
   await page.getByRole('radio', { name: /Flagge → Karte/ }).click()
   await page.getByRole('button', { name: "Los geht's" }).click()
