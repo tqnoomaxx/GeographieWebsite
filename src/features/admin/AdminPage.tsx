@@ -21,14 +21,13 @@ interface Quality {
 
 /**
  * Datenqualitäts-Dashboard (Phase F, Vorstufe). Zeigt den Report des Validators (public/data/quality.json)
- * und die lokal vorgemerkten Vorschläge/Reports. Mit Supabase wird hieraus der geschützte Admin-Bereich.
+ * Der geschützte Admin-Bereich mit Serverdaten folgt erst bei aktivierter Backend-Konfiguration.
  */
 export default function AdminPage() {
   const { t } = useTranslation()
   useDocumentTitle('Admin · Datenqualität')
   const geo = useGeoData()
   const { data: q } = useAsync(() => fetch(dataUrl('quality.json')).then((r) => r.json() as Promise<Quality>), [])
-  const queue = JSON.parse(localStorage.getItem('gk.feedback.queue') ?? '[]') as Array<{ kind: string; payload: Record<string, string>; at: string }>
   if (!q) return <Page title="Admin"><Skeleton className="h-40" /></Page>
   const total = Object.values(q.counts).reduce((a, b) => a + b, 0)
   const issues = q.countries_without_population.length + q.countries_without_capital.length + q.countries_without_area.length + q.countries_without_outline.length + q.conflicts.length
@@ -79,16 +78,6 @@ export default function AdminPage() {
           </ul>
         </Card>
       )}
-      <Card className="mb-3">
-        <h3 className="mb-1 font-medium">📥 Lokal vorgemerkte Vorschläge und Meldungen ({queue.length})</h3>
-        {queue.length === 0 ? <p className="text-sm text-ink-2">Keine.</p> : (
-          <ul className="grid gap-1 text-sm">
-            {queue.map((f, i) => (
-              <li key={i} className="rounded-lg bg-card-2 px-3 py-2"><span className="text-ink-2">{new Date(f.at).toLocaleString('de-DE')} · {f.kind}</span> · {f.payload.title ?? f.payload.subject ?? ''}</li>
-            ))}
-          </ul>
-        )}
-      </Card>
     </Page>
   )
 }

@@ -2,6 +2,7 @@ import { useCallback, useEffect, useState } from 'react'
 import { getRepository, onRepositoryChange } from '@/services/progress'
 import type { UserStats } from '@/services/progress/types'
 import { levelForXp } from '@/config/levels'
+import { BRAND_NAME } from '@/config/brand'
 
 export function useAsync<T>(fn: () => Promise<T>, deps: unknown[]) {
   const [state, setState] = useState<{ data?: T; error?: Error; loading: boolean }>({ loading: true })
@@ -49,6 +50,6 @@ export function useOnline() {
 
 export function useDocumentTitle(title?: string) {
   useEffect(() => {
-    document.title = title ? `${title} · GeoKompass` : 'GeoKompass'
+    document.title = title ? `${title} · ${BRAND_NAME}` : BRAND_NAME
   }, [title])
 }

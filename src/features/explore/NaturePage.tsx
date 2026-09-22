@@ -7,6 +7,7 @@ import { Page, Card, EmptyState, entityPath, Flag } from '@/ui'
 import { WorldMap } from '@/ui/maps'
 import { FavoriteButton } from './FavoriteButton'
 import { Section } from './CountryPage'
+import { CategoryIcon } from '@/ui/icons'
 
 export default function NaturePage() {
   const { t } = useTranslation()
@@ -19,7 +20,6 @@ export default function NaturePage() {
   if (!geo.ready) return null
   if (!e) return <Page back="/explore"><EmptyState title={t('common.error')} /></Page>
   const countries = ((e.attributes.countries as string[]) ?? []).map((c) => geo.byId.get(c)).filter((x): x is Entity => !!x)
-  const icon = e.type === 'river' ? '🌊' : e.type === 'lake' ? '💧' : e.attributes.kind === 'volcano' ? '🌋' : '🏔️'
   const facts: Array<[string, string]> = []
   if (typeof e.attributes.length_km === 'number') facts.push([t('facts.length'), `${e.attributes.length_km.toLocaleString('de-DE')} km`])
   if (typeof e.attributes.area_km2 === 'number') facts.push([t('facts.area'), `${e.attributes.area_km2.toLocaleString('de-DE')} km²`])
@@ -30,7 +30,7 @@ export default function NaturePage() {
   return (
     <Page back="/explore" action={<FavoriteButton id={e.id} />}>
       <header className="mb-4">
-        <h1 className="text-3xl font-semibold">{icon} {e.names.de}</h1>
+        <h1 className="flex items-center gap-3 text-3xl font-semibold"><CategoryIcon id={category} className="h-10 w-10 object-contain" /> {e.names.de}</h1>
         <p className="flex flex-wrap items-center gap-2 text-ink-2">
           {countries.map((c) => (
             <Link key={c.id} to={entityPath(c)} className="flex items-center gap-1 underline">
@@ -52,7 +52,7 @@ export default function NaturePage() {
       </Card>
       <Section title={t('nav.play')}>
         <div className="grid gap-2 md:grid-cols-2">
-          <Link to={`/play/${category}/round?scope=${encodeURIComponent(e.attributes.continent ?? 'world')}&len=10`} className="btn-primary">{icon} {t(`category.${category}`)} · {t(`scope.${e.attributes.continent ?? 'world'}`)}</Link>
+          <Link to={`/play/${category}/round?scope=${encodeURIComponent(e.attributes.continent ?? 'world')}&len=10`} className="btn-primary"><CategoryIcon id={category} className="h-6 w-6 object-contain" /> {t(`category.${category}`)} · {t(`scope.${e.attributes.continent ?? 'world'}`)}</Link>
           {countries[0] && <Link to={`/play/mixed/round?scope=${countries[0].id}&len=10`} className="btn-secondary">🎯 {t('explore.play_this', { name: countries[0].names.de })}</Link>}
         </div>
       </Section>

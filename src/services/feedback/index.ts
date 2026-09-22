@@ -1,9 +1,9 @@
 /**
  * Feedback-Service (Vorschläge, Kontakt, Fehlerreports).
- * Phase 1: kein Backend → vorausgefüllter GitHub-Issue-Link, ohne Secrets im Client.
+ * Statische Variante: vorausgefüllter GitHub-Issue-Link, ohne lokale Speicherung und ohne Secrets im Client.
  * Phase 2: Adapter auf Supabase Edge Function (serverseitige Validierung, Rate Limiting, Mailversand).
  */
-export const REPO_URL = import.meta.env.VITE_REPO_URL ?? 'https://github.com/tqnoomaxx/geokompass'
+export const REPO_URL = import.meta.env.VITE_REPO_URL ?? 'https://github.com/tqnoomaxx/GeographieWebsite'
 
 export function buildIssueUrl(kind: 'suggest' | 'contact' | 'report', title: string, body: string) {
   const labels = { suggest: 'quiz-vorschlag', contact: 'kontakt', report: 'fehlerreport' }[kind]
@@ -12,6 +12,11 @@ export function buildIssueUrl(kind: 'suggest' | 'contact' | 'report', title: str
   u.searchParams.set('body', body.slice(0, 6000))
   u.searchParams.set('labels', labels)
   return u.toString()
+}
+
+export function buildMailtoUrl(email: string, subject: string, body: string) {
+  const p = new URLSearchParams({ subject: subject.slice(0, 200), body: body.slice(0, 6000) })
+  return `mailto:${email}?${p.toString()}`
 }
 
 export interface FeedbackAdapter {
@@ -25,9 +30,6 @@ export const localFeedbackAdapter: FeedbackAdapter = {
       .filter(([k]) => k !== 'title' && k !== 'subject')
       .map(([k, v]) => `**${k}**\n${v}`)
       .join('\n\n')
-    const queue = JSON.parse(localStorage.getItem('gk.feedback.queue') ?? '[]') as unknown[]
-    queue.push({ kind, payload, at: new Date().toISOString() })
-    localStorage.setItem('gk.feedback.queue', JSON.stringify(queue.slice(-50)))
     return { ok: true, url: buildIssueUrl(kind, title, body) }
   },
 }

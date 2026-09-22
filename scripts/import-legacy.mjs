@@ -8,13 +8,7 @@ const { flagCatalog } = await import('./legacy/catalog.generated.js')
 const geo = await import('./legacy/geographyCatalog.js')
 
 const countries = readJson(join(DATA, 'entities', 'countries.json'))
-const countryByName = new Map(countries.map((c) => [c.names.de, c]))
 const countryByIso = new Map(countries.map((c) => [c.attributes.iso2, c]))
-// Legacy-Namen, die vom mledoze-Deutsch abweichen
-const NAME_FIX = { Tschechien: 'Tschechien', Belarus: 'Weißrussland', 'Vereinigtes Königreich': 'Vereinigtes Königreich' }
-function countryFor(nameOrIso) {
-  return countryByIso.get(nameOrIso) ?? countryByName.get(nameOrIso) ?? countryByName.get(NAME_FIX[nameOrIso])
-}
 
 const photoAttribution = parseAttribution(readFileSync(join(PUBLIC, 'media/photos/ATTRIBUTION-legacy.md'), 'utf8'))
 const mapIsos = new Set((await import('node:fs')).readdirSync(join(PUBLIC, 'media/maps/regions')).filter((f) => f.endsWith('.json')).map((f) => f.split('-')[0]))

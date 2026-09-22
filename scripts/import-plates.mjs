@@ -26,7 +26,7 @@ let rows
 if (!process.argv.includes('--refresh') && existsSync(cachePath)) rows = readJson(cachePath)
 else {
   const res = await fetch(`https://query.wikidata.org/sparql?query=${encodeURIComponent(QUERY)}`, {
-    headers: { Accept: 'application/sparql-results+json', 'User-Agent': 'GeoKompassImporter/0.1 (data import)' },
+    headers: { Accept: 'application/sparql-results+json', 'User-Agent': 'AtlasfunkeImporter/0.1 (data import)' },
   })
   if (!res.ok) {
     console.warn(`Wikidata nicht erreichbar (${res.status}); überspringe Kennzeichen.`)

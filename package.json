@@ -1,11 +1,12 @@
 {
-  "name": "geokompass",
+  "name": "atlasfunke",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "npm run data:validate && tsc -b && vite build",
+    "release:check": "node scripts/check-release.mjs",
     "preview": "vite preview",
     "lint": "oxlint src scripts",
     "format": "prettier --write \"src/**/*.{ts,tsx}\" \"scripts/**/*.mjs\"",

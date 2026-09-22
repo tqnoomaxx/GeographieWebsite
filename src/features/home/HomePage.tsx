@@ -2,15 +2,16 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
 import { useAsync, useStats, useDocumentTitle } from '@/app/hooks'
-import { QUIZZES } from '@/config/quizzes'
-import { setupOf } from '@/engine/session'
+import { PLAY_QUIZZES } from '@/config/quizzes'
+import { baseQuestionPosition, baseQuestionTotal, setupOf } from '@/engine/session'
 import { RoundTitle } from '@/features/play/RoundLabel'
 import { getRepository } from '@/services/progress'
 import { Page, Card, ProgressBar } from '@/ui'
-import { CATEGORY_ICONS, CATEGORY_TONES, Icons, IconTile, PUZZLE_ICONS } from '@/ui/icons'
+import { CategoryIconTile, Icons, IconTile, PUZZLE_ICONS } from '@/ui/icons'
 import { WorldMap } from '@/ui/maps'
 import { PUZZLES } from '@/features/daily/puzzles'
 import { todayKey } from '@/engine/rng'
+import { BrandMark } from '@/ui/BrandMark'
 
 export default function HomePage() {
   const { t } = useTranslation()
@@ -21,7 +22,7 @@ export default function HomePage() {
   const { data: puzzles } = useAsync(() => getRepository().getPuzzles(), [])
   const isNew = !stats || stats.answered === 0
   const today = todayKey()
-  const primary = QUIZZES.filter((c) => c.primary)
+  const primary = PLAY_QUIZZES.filter((c) => c.primary)
 
   return (
     <Page>
@@ -33,7 +34,7 @@ export default function HomePage() {
         </div>
         <div className="relative max-w-xl">
           <p className="mb-3 flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.2em] text-gold">
-            <Icons.explore className="h-4 w-4" /> {t('app.name')}
+            <BrandMark className="h-7 w-7" /> {t('app.name')}
           </p>
           <h1 className="text-4xl font-medium leading-[1.05] md:text-6xl">{isNew ? t('app.guest_hook') : t('app.tagline')}</h1>
           <p className="mt-3 max-w-md text-sm text-[#f4efe3]/75 md:text-base">{t('app.hero_sub')}</p>
@@ -50,14 +51,15 @@ export default function HomePage() {
               </div>
             )
           )}
+          <p className="mt-5 text-xs text-[#f4efe3]/65">Ohne Werbung · ohne Tracking · Fortschritt bleibt standardmäßig auf deinem Gerät</p>
         </div>
       </section>
 
       {open && open.length > 0 && (
         <Card className="mb-6 flex items-center gap-3">
           <div className="min-w-0 flex-1">
-            <RoundTitle setup={setupOf(open[0])} progress={{ done: open[0].position, total: open[0].questions.length + (open[0].remaining?.length ?? 0) }} />
-            <ProgressBar className="mt-2" value={open[0].position / (open[0].questions.length + (open[0].remaining?.length ?? 0))} />
+            <RoundTitle setup={setupOf(open[0])} progress={{ done: baseQuestionPosition(open[0]), total: baseQuestionTotal(open[0]) }} />
+            <ProgressBar className="mt-2" value={baseQuestionPosition(open[0]) / baseQuestionTotal(open[0])} />
           </div>
           <Link to={`/play/session/${encodeURIComponent(open[0].id)}`} className="btn-primary">{t('app.continue')}</Link>
         </Card>
@@ -67,7 +69,7 @@ export default function HomePage() {
       <section className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-4">
         {primary.map((c) => (
           <Link key={c.id} to={`/play/${c.id}`} className="card group flex flex-col gap-3 p-4 transition hover:-translate-y-0.5">
-            <IconTile icon={CATEGORY_ICONS[c.id]} tone={CATEGORY_TONES[c.id]} />
+            <CategoryIconTile id={c.id} />
             <div>
               <span className="block font-semibold">{t(`category.${c.id}`)}</span>
               {c.countKey && index?.counts[c.countKey] !== undefined && <span className="text-xs text-ink-2">{index.counts[c.countKey].toLocaleString('de-DE')}</span>}

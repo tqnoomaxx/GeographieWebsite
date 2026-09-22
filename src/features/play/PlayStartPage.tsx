@@ -3,7 +3,7 @@ import { Link, Navigate, useNavigate, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
 import { useAsync, useDocumentTitle } from '@/app/hooks'
-import { AUTO, MIN_POOL, QUIZZES, ROUND_LENGTHS, autoModes, isCategory, quizFor, type Content, type QuizMode } from '@/config/quizzes'
+import { AUTO, MIN_POOL, PLAY_QUIZZES, ROUND_LENGTHS, autoModes, isCategory, quizFor, type Content, type QuizMode } from '@/config/quizzes'
 import { collectionFor } from '@/config/collections'
 import { SCOPES } from '@/engine/scope'
 import { defaultRound, isCountryScope, roundPath, type RoundConfig } from '@/engine/round'
@@ -13,10 +13,21 @@ import type { Entity } from '@/domain/types'
 import { getRepository } from '@/services/progress'
 import { Page, Card, Chips, Flag, ProgressBar } from '@/ui'
 import { normalizeAnswer } from '@/engine/normalize'
-import { CATEGORY_ICONS, CATEGORY_TONES, Icons, IconTile } from '@/ui/icons'
+import { CategoryIconTile, Icons, IconTile } from '@/ui/icons'
 import { RoundTitle } from './RoundLabel'
 
 const KEY = (category: CategoryId) => `gk.setup.${category}`
+
+function useDesktopSetup() {
+  const [desktop, setDesktop] = useState(() => window.matchMedia('(min-width: 1024px)').matches)
+  useEffect(() => {
+    const media = window.matchMedia('(min-width: 1024px)')
+    const update = () => setDesktop(media.matches)
+    media.addEventListener('change', update)
+    return () => media.removeEventListener('change', update)
+  }, [])
+  return desktop
+}
 
 function loadSetup(category: CategoryId): RoundConfig {
   try {
@@ -31,6 +42,8 @@ export default function PlayStartPage() {
   const { category } = useParams<{ category?: string }>()
   if (!category) return <CategoryHub />
   if (!isCategory(category)) return <Navigate to="/play" replace />
+  if (category === 'maps') return <Navigate to="/play/countries" replace />
+  if (category === 'regions') return <Navigate to="/play/flags" replace />
   return <Setup key={category} category={category} />
 }
 
@@ -43,6 +56,7 @@ function Setup({ category }: { category: CategoryId }) {
   const navigate = useNavigate()
   const geo = useGeoData()
   const quiz = quizFor(category)
+  const desktop = useDesktopSetup()
   useDocumentTitle(t(`category.${category}`))
   const [setup, setSetup] = useState<RoundConfig>(() => loadSetup(category))
   const patch = (p: Partial<RoundConfig>) => setSetup((s) => ({ ...s, ...p }))
@@ -105,7 +119,7 @@ function Setup({ category }: { category: CategoryId }) {
 
   // ---- Fragetyp: nur mit genug Lernkarten im gewählten Bereich
   const modes = useMemo(
-    () => quiz.modes.filter((m) => (!m.scopes || m.scopes.includes(scope)) && count(scope, m.id, m.content ?? content) >= MIN_POOL),
+    () => quiz.modes.filter((m) => (!isCountryScope(scope) || m.allowCountryScope !== false) && (!m.scopes || m.scopes.includes(scope)) && count(scope, m.id, m.content ?? content) >= MIN_POOL),
     [quiz, scope, content, geo.ready, ctxCache], // eslint-disable-line react-hooks/exhaustive-deps
   )
   const mode: QuizMode | undefined = modes.find((m) => m.id === setup.mode)
@@ -125,9 +139,9 @@ function Setup({ category }: { category: CategoryId }) {
   }
 
   return (
-    <Page wide title={t(`category.${category}`)} back="/play" action={<IconTile icon={CATEGORY_ICONS[category]} tone={CATEGORY_TONES[category]} size="sm" />}>
+    <Page wide title={t(`category.${category}`)} back="/play" action={<CategoryIconTile id={category} size="sm" />}>
       <div className="atlas-rule mb-8 h-px" />
-      <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_22rem] lg:items-start lg:gap-12">
+      <div className="grid gap-8 pb-24 lg:grid-cols-[minmax(0,1fr)_25rem] lg:items-start lg:gap-12 lg:pb-0">
       <div>
       <Section step={1} title={t('play.scope')}>
         <Chips label={t('play.scope')} value={activeContinent} onChange={(v) => patch({ scope: v })} items={['world', ...continents].map((s) => ({ value: s as string, label: t(`scope.${s}`) }))} />
@@ -161,10 +175,10 @@ function Setup({ category }: { category: CategoryId }) {
       </Section>
       </div>
 
-      <aside className="lg:sticky lg:top-20">
+      {desktop && <aside className="sticky top-20">
         <Card className="overflow-hidden bg-card/95 p-0 backdrop-blur">
           <div className="border-b border-line bg-accent-soft/60 p-5">
-            <p className="eyebrow mb-2">Deine Expedition</p>
+            <p className="eyebrow mb-2">{t('setup.expedition')}</p>
             <RoundTitle setup={round} icon={false} />
           </div>
           <div className="p-5">
@@ -172,25 +186,33 @@ function Setup({ category }: { category: CategoryId }) {
               <div className="flex justify-between gap-4"><dt className="text-ink-2">{t('play.scope')}</dt><dd className="text-right font-medium">{isCountryScope(scope) ? geo.byId.get(scope)?.names.de : t(`scope.${scope}`)}</dd></div>
               <div className="flex justify-between gap-4"><dt className="text-ink-2">{t('setup.mode')}</dt><dd className="text-right font-medium">{mode ? t(`modes.${mode.id}`) : t('modes.auto')}</dd></div>
               <div className="flex justify-between gap-4"><dt className="text-ink-2">{t('play.length')}</dt><dd className="text-right font-medium">{length === 'all' ? poolSize : length}</dd></div>
-              <div className="flex justify-between gap-4"><dt className="text-ink-2">Wiederholen</dt><dd className="text-right font-medium">{setup.repeat ? 'An' : 'Aus'}</dd></div>
+              <div className="flex justify-between gap-4"><dt className="text-ink-2">{t('setup.repeat_short')}</dt><dd className="text-right font-medium">{setup.repeat ? t('setup.on') : t('setup.off')}</dd></div>
             </dl>
             <div className="mt-5 border-t border-line pt-4">
               <div className="mb-2 flex justify-between text-xs text-ink-2"><span>{loading ? t('common.loading') : t('setup.mastered', { mastered, total: poolSize })}</span><span>{poolSize ? Math.round(mastered / poolSize * 100) : 0}%</span></div>
               <ProgressBar value={poolSize ? mastered / poolSize : 0} />
             </div>
-            <button className="btn-primary mt-5 w-full" onClick={start} disabled={loading || poolSize < MIN_POOL}>
-              {t('play.start')} <Icons.arrow className="h-4 w-4" />
-            </button>
-            {category === 'flags' && (
-              <Link to={`/learn/cards?collection=${collectionFor(scope, effectiveContent, geo.byId)}`} className="btn-ghost mt-2 w-full py-2">
-                <Icons.learn className="h-4 w-4" /> {t('setup.cards')}
-              </Link>
-            )}
+            <div className={`mt-5 grid gap-2 ${category === 'flags' ? 'sm:grid-cols-2' : ''}`}>
+              {category === 'flags' && (
+                <Link to={`/learn/cards?collection=${collectionFor(scope, effectiveContent, geo.byId)}`} className="btn-secondary w-full py-2">
+                  <Icons.learn className="h-4 w-4" /> {t('setup.cards')}
+                </Link>
+              )}
+              <button className="btn-primary w-full whitespace-nowrap" onClick={start} disabled={loading || poolSize < MIN_POOL}>
+                {t('play.start')} <Icons.arrow className="h-4 w-4" />
+              </button>
+            </div>
           </div>
         </Card>
         {poolSize < MIN_POOL && !loading && <p className="mt-3 text-sm text-ink-2">{t('play.no_questions')}</p>}
-      </aside>
+      </aside>}
       </div>
+      {!desktop && <div className="setup-mobile-cta">
+        <RoundTitle setup={round} icon={false} className="min-w-0 flex-1" />
+        <button className="btn-primary min-w-32" onClick={start} disabled={loading || poolSize < MIN_POOL}>
+          {t('play.start')} <Icons.arrow className="h-4 w-4" />
+        </button>
+      </div>}
     </Page>
   )
 }
@@ -273,11 +295,11 @@ function CategoryHub() {
         </section>
       )}
       <div className="grid grid-cols-2 gap-3 md:grid-cols-3">
-        {QUIZZES.map((c) => (
-          <Link key={c.id} to={`/play/${c.id}`} className="card flex items-center gap-3 p-3 hover:bg-card-2">
-            <IconTile icon={CATEGORY_ICONS[c.id]} tone={CATEGORY_TONES[c.id]} size="sm" />
-            <span className="font-medium">{t(`category.${c.id}`)}</span>
-            {c.countKey && geo.index?.counts[c.countKey] !== undefined && <span className="ml-auto text-xs text-ink-2">{geo.index.counts[c.countKey]}</span>}
+        {PLAY_QUIZZES.map((c) => (
+          <Link key={c.id} to={`/play/${c.id}`} className="card flex min-w-0 items-center gap-3 overflow-hidden p-3 hover:bg-card-2">
+            <CategoryIconTile id={c.id} size="sm" />
+            <span className="min-w-0 flex-1 break-words hyphens-auto text-sm font-medium leading-tight sm:text-base">{t(`category.${c.id}`)}</span>
+            {c.countKey && geo.index?.counts[c.countKey] !== undefined && <span className="ml-auto hidden shrink-0 text-xs text-ink-2 sm:inline">{geo.index.counts[c.countKey]}</span>}
           </Link>
         ))}
         <Link to="/daily" className="card flex items-center gap-3 p-3 hover:bg-card-2">

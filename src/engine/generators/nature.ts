@@ -38,12 +38,14 @@ function compareGen(id: string, category: 'water' | 'nature', key: string, promp
     category,
     pool: (ctx) => pool(ctx).filter((e) => typeof e.attributes[key] === 'number'),
     make(target, ctx, rng, difficulty) {
-      const cands = pool(ctx).filter((e) => e.id !== target.id && typeof e.attributes[key] === 'number')
+      const a = target.attributes[key] as number
+      const cands = pool(ctx).filter((e) => {
+        const value = e.attributes[key] as number | undefined
+        return e.id !== target.id && typeof value === 'number' && value !== a && Math.abs(a - value) / Math.max(a, value) >= 0.02
+      })
       const other = rng.pick(cands)
       if (!other) return null
-      const a = target.attributes[key] as number
       const b = other.attributes[key] as number
-      if (a === b) return null
       const d = effectiveDifficulty(target, difficulty)
       return {
         id: qid(id, target), category, type: id, question_type: 'multiple_choice',

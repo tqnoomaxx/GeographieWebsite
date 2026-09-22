@@ -20,7 +20,7 @@ export const nameOf = (e: Entity) => e.names.de
 export const accepted = (e: Entity) => [e.names.de, e.names.en ?? '', ...(e.aliases ?? []), (e.attributes.iso2 as string) ?? '', (e.attributes.iso3 as string) ?? ''].filter((s) => s && s.length > 1)
 /** Souveräne Staaten (plus allgemein anerkannte Sonderfälle). Abhängige Gebiete bleiben Detailseiten/Entdecken vorbehalten. */
 const SPECIAL = new Set(['TW', 'XK', 'PS', 'VA'])
-export const isSovereign = (e: Entity) => e.type === 'country' && (e.attributes.independent !== false || SPECIAL.has(e.attributes.iso2 as string))
+export const isSovereign = (e: Entity) => e.type === 'country' && (e.attributes.independent === true || SPECIAL.has(e.attributes.iso2 as string))
 export const sovereign = (ctx: GeneratorContext) => ctx.countries.filter(isSovereign)
 /** Länder-Pool für Distraktoren: souveräne Staaten; Fallback auf alle, wenn der Bereich zu klein ist. */
 export const countryPool = (ctx: GeneratorContext) => {
@@ -31,6 +31,29 @@ export const countryPool = (ctx: GeneratorContext) => {
 }
 export const countryOf = (e: Entity, ctx: GeneratorContext) =>
   e.attributes.country ? ctx.byId.get(e.attributes.country) : undefined
+
+/** Entfernt Ziele, deren sichtbarer Name innerhalb des aktuellen Bereichs nicht eindeutig ist. */
+export function uniqueNames<T extends Entity>(entities: T[]): T[] {
+  const counts = new Map<string, number>()
+  for (const entity of entities) {
+    const key = entity.names.de.trim().toLocaleLowerCase('de-DE')
+    counts.set(key, (counts.get(key) ?? 0) + 1)
+  }
+  return entities.filter((entity) => counts.get(entity.names.de.trim().toLocaleLowerCase('de-DE')) === 1)
+}
+
+/** Entfernt bildgleiche Flaggen, weil eine reine Flaggenfrage sonst mehrere richtige Lösungen hätte. */
+export function uniqueFlags<T extends Entity>(entities: T[]): T[] {
+  const counts = new Map<string, number>()
+  for (const entity of entities) {
+    const key = (entity.attributes.visual_key as string | undefined) ?? flagOf(entity)?.url
+    if (key) counts.set(key, (counts.get(key) ?? 0) + 1)
+  }
+  return entities.filter((entity) => {
+    const key = (entity.attributes.visual_key as string | undefined) ?? flagOf(entity)?.url
+    return !!key && counts.get(key) === 1
+  })
+}
 
 /**
  * Vier Antwortoptionen (R2). Reicht der bevorzugte Pool (z. B. Regionen desselben Landes oder der gewählte Bereich)

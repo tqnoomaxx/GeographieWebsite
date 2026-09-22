@@ -20,7 +20,7 @@ if (!force && existsSync(cachePath)) rows = readJson(cachePath)
 else {
   try {
     const res = await fetch(`${ENDPOINT}?query=${encodeURIComponent(QUERY)}`, {
-      headers: { Accept: 'application/sparql-results+json', 'User-Agent': 'GeoKompassImporter/0.1 (data import; contact via repository)' },
+      headers: { Accept: 'application/sparql-results+json', 'User-Agent': 'AtlasfunkeImporter/0.1 (data import; contact via repository)' },
     })
     if (!res.ok) throw new Error(`Wikidata ${res.status}`)
     rows = (await res.json()).results.bindings
@@ -51,7 +51,7 @@ for (const c of countries) {
   const pops = [...new Set(w.pops)]
   if (pops.length) {
     c.attributes.population = Math.max(...pops)
-    c.provenance.fields = { ...(c.provenance.fields ?? {}), population: { source: 'wikidata', source_id: w.qid, imported_at: today } }
+    c.provenance.fields = { ...c.provenance.fields, population: { source: 'wikidata', source_id: w.qid, imported_at: today } }
     if (pops.length > 1) {
       c.provenance.conflicts = [
         ...(c.provenance.conflicts ?? []).filter((x) => x.field !== 'population'),
@@ -63,7 +63,7 @@ for (const c of countries) {
   const peak = w.peaks.find((p) => p.name)
   if (peak) {
     c.attributes.highest_point = { name: peak.name, elevation_m: peak.elevation_m, wikidata: peak.qid }
-    c.provenance.fields = { ...(c.provenance.fields ?? {}), highest_point: { source: 'wikidata', source_id: peak.qid, imported_at: today } }
+    c.provenance.fields = { ...c.provenance.fields, highest_point: { source: 'wikidata', source_id: peak.qid, imported_at: today } }
   }
 }
 writeJson(path, countries)

@@ -1,5 +1,5 @@
 import type { Generator } from './base'
-import { options, qid, effectiveDifficulty, nameOf, flagMedia, flagOf, countryOf, accepted, countryPool, isSovereign } from './base'
+import { options, qid, effectiveDifficulty, nameOf, flagMedia, flagOf, countryOf, accepted, countryPool, isSovereign, uniqueNames } from './base'
 import type { GeneratorContext } from '../types'
 
 const regionsWithFlag = (ctx: GeneratorContext) => ctx.regions.filter((r) => flagOf(r))
@@ -26,7 +26,7 @@ export const regionFlagToRegion: Generator = {
 export const regionToCountry: Generator = {
   id: 'region_to_country',
   category: 'regions',
-  pool: (ctx) => ctx.regions.filter((r) => countryOf(r, ctx)),
+  pool: (ctx) => uniqueNames(ctx.regions.filter((r) => countryOf(r, ctx))),
   make(target, ctx, rng, difficulty) {
     const country = countryOf(target, ctx)!
     const d = effectiveDifficulty(target, difficulty)
@@ -65,7 +65,7 @@ export const regionCapital: Generator = {
 export const cityToCountry: Generator = {
   id: 'city_to_country',
   category: 'cities',
-  pool: (ctx) => ctx.cities.filter((c) => countryOf(c, ctx) && isSovereign(countryOf(c, ctx)!)),
+  pool: (ctx) => uniqueNames(ctx.cities.filter((c) => countryOf(c, ctx) && isSovereign(countryOf(c, ctx)!))),
   make(target, ctx, rng, difficulty) {
     const country = countryOf(target, ctx)!
     const d = effectiveDifficulty(target, difficulty)
@@ -86,13 +86,41 @@ export const cityToRegion: Generator = {
   pool: (ctx) => ctx.cities.filter((c) => c.attributes.region && ctx.byId.has(c.attributes.region)),
   make(target, ctx, rng, difficulty) {
     const region = ctx.byId.get(target.attributes.region!)!
+    const country = countryOf(target, ctx)
     const d = effectiveDifficulty(target, difficulty)
     const opts = options(region, siblings(region, ctx), ctx, rng, d)
     if (!opts) return null
     return {
       id: qid(this.id, target), category: 'cities', type: this.id, question_type: 'multiple_choice',
-      prompt: { key: 'q.city_to_region', params: { name: nameOf(target) } },
+      prompt: { key: 'q.city_to_region', params: { name: nameOf(target), country: country ? nameOf(country) : '' } },
       answer: region.id, options: opts, difficulty: d, entities: [target.id, region.id],
+      metadata: { generator: this.id, scope: ctx.scope },
+    }
+  },
+}
+
+/** Vergleicht die Einwohnerzahlen hinreichend unterschiedlich großer Städte. */
+export const cityPopulation: Generator = {
+  id: 'city_population',
+  category: 'cities',
+  pool: (ctx) => uniqueNames(ctx.cities.filter((city) => typeof city.attributes.population === 'number')),
+  make(target, ctx, rng, difficulty) {
+    const value = target.attributes.population as number
+    const candidates = uniqueNames(ctx.cities.filter((city) => {
+      const other = city.attributes.population as number | undefined
+      return city.id !== target.id && !!other && city.names.de !== target.names.de && Math.abs(value - other) / Math.max(value, other) >= 0.05
+    }))
+    const other = rng.pick(candidates)
+    if (!other) return null
+    const otherValue = other.attributes.population as number
+    const answer = value > otherValue ? target : other
+    const d = effectiveDifficulty(target, difficulty)
+    return {
+      id: qid(this.id, target), category: 'cities', type: this.id, question_type: 'multiple_choice',
+      prompt: { key: 'q.city_population_compare' }, answer: answer.id,
+      options: rng.shuffle([target, other]).map((city) => ({ id: city.id, label: nameOf(city) })), difficulty: d,
+      entities: [target.id, other.id],
+      explanation: `${nameOf(target)}: ${value.toLocaleString('de-DE')} · ${nameOf(other)}: ${otherValue.toLocaleString('de-DE')} Einwohner`,
       metadata: { generator: this.id, scope: ctx.scope },
     }
   },

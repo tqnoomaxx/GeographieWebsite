@@ -545,9 +545,11 @@
   "id": "city:AM-yerevan",
   "type": "city",
   "names": {
-   "de": "Yerevan"
+   "de": "Jerewan"
   },
-  "aliases": [],
+  "aliases": [
+   "Yerevan"
+  ],
   "media": [],
   "attributes": {
    "country": "country:AM",
@@ -8719,9 +8721,11 @@
   "id": "city:DJ-djibouti",
   "type": "city",
   "names": {
-   "de": "Djibouti"
+   "de": "Dschibuti"
   },
-  "aliases": [],
+  "aliases": [
+   "Djibouti"
+  ],
   "media": [],
   "attributes": {
    "country": "country:DJ",
@@ -9041,9 +9045,11 @@
   "id": "city:DZ-algiers",
   "type": "city",
   "names": {
-   "de": "Algiers"
+   "de": "Algier"
   },
-  "aliases": [],
+  "aliases": [
+   "Algiers"
+  ],
   "media": [],
   "attributes": {
    "country": "country:DZ",
@@ -12893,9 +12899,11 @@
   "id": "city:GE-tbilisi",
   "type": "city",
   "names": {
-   "de": "Tbilisi"
+   "de": "Tiflis"
   },
-  "aliases": [],
+  "aliases": [
+   "Tbilisi"
+  ],
   "media": [],
   "attributes": {
    "country": "country:GE",
@@ -13573,9 +13581,11 @@
   "id": "city:GT-guatemala-city",
   "type": "city",
   "names": {
-   "de": "Guatemala City"
+   "de": "Guatemala-Stadt"
   },
-  "aliases": [],
+  "aliases": [
+   "Guatemala City"
+  ],
   "media": [],
   "attributes": {
    "country": "country:GT",
@@ -15165,9 +15175,11 @@
   "id": "city:IQ-baghdad",
   "type": "city",
   "names": {
-   "de": "Baghdad"
+   "de": "Bagdad"
   },
-  "aliases": [],
+  "aliases": [
+   "Baghdad"
+  ],
   "media": [],
   "attributes": {
    "country": "country:IQ",
@@ -15878,9 +15890,11 @@
   "id": "city:IR-tehran",
   "type": "city",
   "names": {
-   "de": "Tehran"
+   "de": "Teheran"
   },
-  "aliases": [],
+  "aliases": [
+   "Tehran"
+  ],
   "media": [],
   "attributes": {
    "country": "country:IR",
@@ -17580,9 +17594,11 @@
   "id": "city:KG-bishkek",
   "type": "city",
   "names": {
-   "de": "Bishkek"
+   "de": "Bischkek"
   },
-  "aliases": [],
+  "aliases": [
+   "Bishkek"
+  ],
   "media": [],
   "attributes": {
    "country": "country:KG",
@@ -17975,9 +17991,11 @@
   "id": "city:KP-pyongyang",
   "type": "city",
   "names": {
-   "de": "Pyongyang"
+   "de": "Pjöngjang"
   },
-  "aliases": [],
+  "aliases": [
+   "Pyongyang"
+  ],
   "media": [],
   "attributes": {
    "country": "country:KP",
@@ -18593,9 +18611,11 @@
   "id": "city:KW-kuwait-city",
   "type": "city",
   "names": {
-   "de": "Kuwait City"
+   "de": "Kuwait-Stadt"
   },
-  "aliases": [],
+  "aliases": [
+   "Kuwait City"
+  ],
   "media": [],
   "attributes": {
    "country": "country:KW",
@@ -19589,9 +19609,11 @@
   "id": "city:LY-tripoli",
   "type": "city",
   "names": {
-   "de": "Tripoli"
+   "de": "Tripolis"
   },
-  "aliases": [],
+  "aliases": [
+   "Tripoli"
+  ],
   "media": [],
   "attributes": {
    "country": "country:LY",
@@ -23722,9 +23744,11 @@
   "id": "city:OM-muscat",
   "type": "city",
   "names": {
-   "de": "Muscat"
+   "de": "Maskat"
   },
-  "aliases": [],
+  "aliases": [
+   "Muscat"
+  ],
   "media": [],
   "attributes": {
    "country": "country:OM",
@@ -27147,9 +27171,11 @@
   "id": "city:SA-riyadh",
   "type": "city",
   "names": {
-   "de": "Riyadh"
+   "de": "Riad"
   },
-  "aliases": [],
+  "aliases": [
+   "Riyadh"
+  ],
   "media": [],
   "attributes": {
    "country": "country:SA",
@@ -27526,9 +27552,11 @@
   "id": "city:SD-khartoum",
   "type": "city",
   "names": {
-   "de": "Khartoum"
+   "de": "Khartum"
   },
-  "aliases": [],
+  "aliases": [
+   "Khartoum"
+  ],
   "media": [],
   "attributes": {
    "country": "country:SD",
@@ -28442,9 +28470,11 @@
   "id": "city:SO-mogadishu",
   "type": "city",
   "names": {
-   "de": "Mogadishu"
+   "de": "Mogadischu"
   },
-  "aliases": [],
+  "aliases": [
+   "Mogadishu"
+  ],
   "media": [],
   "attributes": {
    "country": "country:SO",
@@ -28747,9 +28777,11 @@
   "id": "city:SY-damascus",
   "type": "city",
   "names": {
-   "de": "Damascus"
+   "de": "Damaskus"
   },
-  "aliases": [],
+  "aliases": [
+   "Damascus"
+  ],
   "media": [],
   "attributes": {
    "country": "country:SY",
@@ -29379,9 +29411,11 @@
   "id": "city:TJ-dushanbe",
   "type": "city",
   "names": {
-   "de": "Dushanbe"
+   "de": "Duschanbe"
   },
-  "aliases": [],
+  "aliases": [
+   "Dushanbe"
+  ],
   "media": [],
   "attributes": {
    "country": "country:TJ",
@@ -29473,9 +29507,11 @@
   "id": "city:TM-ashgabat",
   "type": "city",
   "names": {
-   "de": "Ashgabat"
+   "de": "Aşgabat"
   },
-  "aliases": [],
+  "aliases": [
+   "Ashgabat"
+  ],
   "media": [],
   "attributes": {
    "country": "country:TM",
@@ -32947,9 +32983,11 @@
   "id": "city:UZ-tashkent",
   "type": "city",
   "names": {
-   "de": "Tashkent"
+   "de": "Taschkent"
   },
-  "aliases": [],
+  "aliases": [
+   "Tashkent"
+  ],
   "media": [],
   "attributes": {
    "country": "country:UZ",
@@ -34103,9 +34141,11 @@
   "id": "city:YE-sana-a",
   "type": "city",
   "names": {
-   "de": "Sana'a"
+   "de": "Sanaa"
   },
-  "aliases": [],
+  "aliases": [
+   "Sana'a"
+  ],
   "media": [],
   "attributes": {
    "country": "country:YE",

@@ -29,11 +29,17 @@ export interface QuizMode {
   content?: Content[]
   /** nur in diesen Bereichen anbieten */
   scopes?: string[]
+  /** false blendet triviale Modi aus, wenn bereits ein einzelnes Land als Bereich gewählt ist. */
+  allowCountryScope?: boolean
 }
 
 export interface QuizDef {
   id: CategoryId
   icon: string
+  /** In der Spielauswahl sichtbar; false hält alte URLs/Sessions kompatibel. */
+  visible?: boolean
+  /** Kategorien, deren Generatoren in dieser Hauptkategorie zusammengeführt sind. */
+  mergedFrom?: CategoryId[]
   /** direkt auf der Startseite sichtbar, sonst unter „Mehr“ */
   primary: boolean
   /** Schlüssel in data/index.json counts (Anzeige der Kartenzahl) */
@@ -60,18 +66,24 @@ export const QUIZZES: QuizDef[] = [
     modes: [
       { id: 'flag_to_name', form: 'choice', generators: ['flag_to_country', 'flag_to_region'] },
       { id: 'name_to_flag', form: 'choice', generators: ['country_to_flag', 'region_to_flag'] },
-      { id: 'region_flag_to_country', form: 'choice', generators: ['region_flag_to_country'], content: ['region'] },
-      { id: 'flag_input', form: 'input', generators: ['flag_to_country_input'] },
+      { id: 'region_flag_to_country', form: 'choice', generators: ['region_flag_to_country'], content: ['region'], allowCountryScope: false },
+      { id: 'flag_input', form: 'input', generators: ['flag_to_country_input', 'region_flag_input'] },
       { id: 'flag_to_map', form: 'map', generators: ['flag_to_country_map', 'flag_to_region_map'] },
       { id: 'europe_map', form: 'map', generators: ['flag_to_europe_map'], length: 'all', scopes: ['world', 'europe'], content: ['region'] },
     ],
   },
   {
-    id: 'countries', icon: '🌍', primary: true, countKey: 'country',
+    id: 'countries', icon: '🌍', primary: true, countKey: 'country', needs: ['regions'], perCountry: true, mergedFrom: ['regions', 'maps'],
     modes: [
       { id: 'attributes', form: 'choice', generators: ['country_attribute'] },
       { id: 'neighbors', form: 'choice', generators: ['neighbor_of_country'] },
       { id: 'true_false', form: 'choice', generators: ['country_true_false'] },
+      { id: 'country_codes', form: 'choice', generators: ['country_code'] },
+      { id: 'country_compare', form: 'choice', generators: ['country_comparison'] },
+      { id: 'region_to_country', form: 'choice', generators: ['region_to_country'], content: ['region'], allowCountryScope: false },
+      { id: 'region_capital', form: 'choice', generators: ['region_capital'], content: ['region'] },
+      { id: 'countries_on_map', form: 'map', generators: ['country_on_map'], content: ['country'], allowCountryScope: false },
+      { id: 'regions_on_map', form: 'map', generators: ['region_on_map'], content: ['region'] },
     ],
   },
   {
@@ -79,11 +91,12 @@ export const QUIZZES: QuizDef[] = [
     modes: [
       { id: 'country_to_capital', form: 'choice', generators: ['country_to_capital'] },
       { id: 'capital_to_country', form: 'choice', generators: ['capital_to_country'] },
+      { id: 'capital_to_flag', form: 'choice', generators: ['capital_to_flag'] },
       { id: 'capital_input', form: 'input', generators: ['capital_input'] },
     ],
   },
   {
-    id: 'maps', icon: '🗺️', primary: true, needs: ['regions'], perCountry: true, content: true,
+    id: 'maps', icon: '🗺️', primary: false, visible: false, needs: ['regions'], perCountry: true, content: true,
     modes: [
       { id: 'countries_on_map', form: 'map', generators: ['country_on_map'] },
       { id: 'regions_on_map', form: 'map', generators: ['region_on_map'] },
@@ -94,11 +107,11 @@ export const QUIZZES: QuizDef[] = [
     modes: [
       { id: 'image_to_landmark', form: 'choice', generators: ['image_to_landmark'] },
       { id: 'image_to_city', form: 'choice', generators: ['image_to_city'] },
-      { id: 'image_to_country', form: 'choice', generators: ['image_to_country'] },
+      { id: 'image_to_country', form: 'choice', generators: ['image_to_country'], allowCountryScope: false },
     ],
   },
   {
-    id: 'regions', icon: '🧭', primary: false, countKey: 'region', needs: ['regions'], perCountry: true, defaultScope: 'country:DE',
+    id: 'regions', icon: '🧭', primary: false, visible: false, countKey: 'region', needs: ['regions'], perCountry: true, defaultScope: 'country:DE',
     modes: [
       { id: 'flag_to_name', form: 'choice', generators: ['region_flag_to_region'] },
       { id: 'region_to_country', form: 'choice', generators: ['region_to_country'] },
@@ -108,22 +121,23 @@ export const QUIZZES: QuizDef[] = [
   {
     id: 'cities', icon: '🏙️', primary: false, countKey: 'city', needs: ['regions'], perCountry: true,
     modes: [
-      { id: 'city_to_country', form: 'choice', generators: ['city_to_country'] },
+      { id: 'city_to_country', form: 'choice', generators: ['city_to_country'], allowCountryScope: false },
       { id: 'city_to_region', form: 'choice', generators: ['city_to_region'] },
+      { id: 'city_compare', form: 'choice', generators: ['city_population'] },
       { id: 'capital_input', form: 'input', generators: ['city_input'] },
     ],
   },
   {
     id: 'landmarks', icon: '🏛️', primary: false, countKey: 'landmark', perCountry: true,
     modes: [
-      { id: 'landmark_to_country', form: 'choice', generators: ['landmark_to_country'] },
+      { id: 'landmark_to_country', form: 'choice', generators: ['landmark_to_country'], allowCountryScope: false },
       { id: 'landmark_to_city', form: 'choice', generators: ['landmark_to_city'] },
     ],
   },
   {
     id: 'water', icon: '🌊', primary: false, countKey: 'water', perCountry: true,
     modes: [
-      { id: 'to_country', form: 'choice', generators: ['river_to_country', 'lake_to_country'] },
+      { id: 'to_country', form: 'choice', generators: ['river_to_country', 'lake_to_country'], allowCountryScope: false },
       { id: 'compare', form: 'choice', generators: ['river_longer', 'lake_larger'] },
       { id: 'on_map', form: 'map', generators: ['water_on_map'] },
     ],
@@ -131,7 +145,7 @@ export const QUIZZES: QuizDef[] = [
   {
     id: 'nature', icon: '🏔️', primary: false, countKey: 'mountain', perCountry: true,
     modes: [
-      { id: 'to_country', form: 'choice', generators: ['mountain_to_country'] },
+      { id: 'to_country', form: 'choice', generators: ['mountain_to_country'], allowCountryScope: false },
       { id: 'compare', form: 'choice', generators: ['mountain_higher'] },
       { id: 'on_map', form: 'map', generators: ['mountain_on_map'] },
     ],
@@ -150,6 +164,9 @@ export const QUIZZES: QuizDef[] = [
 
 /** Generatoren, die im gemischten Modus ohne Kategorie-Kontext verwirren (z. B. Regionsname → Flagge). */
 export const MIXED_EXCLUDE = new Set(['region_to_flag'])
+
+/** Die konsolidierten Hauptkategorien, die Nutzer in der Spielauswahl sehen. */
+export const PLAY_QUIZZES = QUIZZES.filter((quiz) => quiz.visible !== false)
 
 export function isCategory(id: string | undefined): id is CategoryId {
   return QUIZZES.some((q) => q.id === id)

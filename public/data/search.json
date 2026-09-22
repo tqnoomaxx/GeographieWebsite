@@ -3246,8 +3246,10 @@
  {
   "id": "city:AM-yerevan",
   "t": "city",
-  "n": "Yerevan",
-  "a": [],
+  "n": "Jerewan",
+  "a": [
+   "Yerevan"
+  ],
   "c": "country:AM"
  },
  {
@@ -5916,8 +5918,10 @@
  {
   "id": "city:DJ-djibouti",
   "t": "city",
-  "n": "Djibouti",
-  "a": [],
+  "n": "Dschibuti",
+  "a": [
+   "Djibouti"
+  ],
   "c": "country:DJ"
  },
  {
@@ -6023,8 +6027,10 @@
  {
   "id": "city:DZ-algiers",
   "t": "city",
-  "n": "Algiers",
-  "a": [],
+  "n": "Algier",
+  "a": [
+   "Algiers"
+  ],
   "c": "country:DZ"
  },
  {
@@ -7237,8 +7243,10 @@
  {
   "id": "city:GE-tbilisi",
   "t": "city",
-  "n": "Tbilisi",
-  "a": [],
+  "n": "Tiflis",
+  "a": [
+   "Tbilisi"
+  ],
   "c": "country:GE"
  },
  {
@@ -7467,8 +7475,10 @@
  {
   "id": "city:GT-guatemala-city",
   "t": "city",
-  "n": "Guatemala City",
-  "a": [],
+  "n": "Guatemala-Stadt",
+  "a": [
+   "Guatemala City"
+  ],
   "c": "country:GT"
  },
  {
@@ -7996,8 +8006,10 @@
  {
   "id": "city:IQ-baghdad",
   "t": "city",
-  "n": "Baghdad",
-  "a": [],
+  "n": "Bagdad",
+  "a": [
+   "Baghdad"
+  ],
   "c": "country:IQ"
  },
  {
@@ -8230,8 +8242,10 @@
  {
   "id": "city:IR-tehran",
   "t": "city",
-  "n": "Tehran",
-  "a": [],
+  "n": "Teheran",
+  "a": [
+   "Tehran"
+  ],
   "c": "country:IR"
  },
  {
@@ -8765,8 +8779,10 @@
  {
   "id": "city:KG-bishkek",
   "t": "city",
-  "n": "Bishkek",
-  "a": [],
+  "n": "Bischkek",
+  "a": [
+   "Bishkek"
+  ],
   "c": "country:KG"
  },
  {
@@ -8899,8 +8915,10 @@
  {
   "id": "city:KP-pyongyang",
   "t": "city",
-  "n": "Pyongyang",
-  "a": [],
+  "n": "Pjöngjang",
+  "a": [
+   "Pyongyang"
+  ],
   "c": "country:KP"
  },
  {
@@ -9102,8 +9120,10 @@
  {
   "id": "city:KW-kuwait-city",
   "t": "city",
-  "n": "Kuwait City",
-  "a": [],
+  "n": "Kuwait-Stadt",
+  "a": [
+   "Kuwait City"
+  ],
   "c": "country:KW"
  },
  {
@@ -9439,8 +9459,10 @@
  {
   "id": "city:LY-tripoli",
   "t": "city",
-  "n": "Tripoli",
-  "a": [],
+  "n": "Tripolis",
+  "a": [
+   "Tripoli"
+  ],
   "c": "country:LY"
  },
  {
@@ -10804,8 +10826,10 @@
  {
   "id": "city:OM-muscat",
   "t": "city",
-  "n": "Muscat",
-  "a": [],
+  "n": "Maskat",
+  "a": [
+   "Muscat"
+  ],
   "c": "country:OM"
  },
  {
@@ -11940,8 +11964,10 @@
  {
   "id": "city:SA-riyadh",
   "t": "city",
-  "n": "Riyadh",
-  "a": [],
+  "n": "Riad",
+  "a": [
+   "Riyadh"
+  ],
   "c": "country:SA"
  },
  {
@@ -12067,8 +12093,10 @@
  {
   "id": "city:SD-khartoum",
   "t": "city",
-  "n": "Khartoum",
-  "a": [],
+  "n": "Khartum",
+  "a": [
+   "Khartoum"
+  ],
   "c": "country:SD"
  },
  {
@@ -12371,8 +12399,10 @@
  {
   "id": "city:SO-mogadishu",
   "t": "city",
-  "n": "Mogadishu",
-  "a": [],
+  "n": "Mogadischu",
+  "a": [
+   "Mogadishu"
+  ],
   "c": "country:SO"
  },
  {
@@ -12474,8 +12504,10 @@
  {
   "id": "city:SY-damascus",
   "t": "city",
-  "n": "Damascus",
-  "a": [],
+  "n": "Damaskus",
+  "a": [
+   "Damascus"
+  ],
   "c": "country:SY"
  },
  {
@@ -12685,8 +12717,10 @@
  {
   "id": "city:TJ-dushanbe",
   "t": "city",
-  "n": "Dushanbe",
-  "a": [],
+  "n": "Duschanbe",
+  "a": [
+   "Dushanbe"
+  ],
   "c": "country:TJ"
  },
  {
@@ -12718,8 +12752,10 @@
  {
   "id": "city:TM-ashgabat",
   "t": "city",
-  "n": "Ashgabat",
-  "a": [],
+  "n": "Aşgabat",
+  "a": [
+   "Ashgabat"
+  ],
   "c": "country:TM"
  },
  {
@@ -13875,8 +13911,10 @@
  {
   "id": "city:UZ-tashkent",
   "t": "city",
-  "n": "Tashkent",
-  "a": [],
+  "n": "Taschkent",
+  "a": [
+   "Tashkent"
+  ],
   "c": "country:UZ"
  },
  {
@@ -14259,8 +14297,10 @@
  {
   "id": "city:YE-sana-a",
   "t": "city",
-  "n": "Sana'a",
-  "a": [],
+  "n": "Sanaa",
+  "a": [
+   "Sana'a"
+  ],
   "c": "country:YE"
  },
  {

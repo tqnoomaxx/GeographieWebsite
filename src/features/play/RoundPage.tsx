@@ -15,7 +15,7 @@ import { Icons } from '@/ui/icons'
 import { WorldMap, RegionMapView } from '@/ui/maps'
 import { ReportDialog } from '@/features/legal/ReportDialog'
 import { RoundTitle, useRoundLabel } from './RoundLabel'
-import { LicensePlate, QuestionVisualization } from './QuizVisuals'
+import { ChoiceVisualization, hasSideVisualization, QuestionVisualization, usesVisualOptions } from './QuizVisuals'
 
 export default function RoundPage() {
   const { t } = useTranslation()
@@ -135,22 +135,27 @@ export default function RoundPage() {
   const repeats = pendingRepeatCount(session)
   return (
     <div className="atlas-surface min-h-dvh">
-      <header className="sticky top-0 z-30 border-b border-line bg-bg/90 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-7xl items-center gap-3 px-4 py-3">
-          <button className="btn-ghost -ml-2 min-h-10 px-2 text-ink-2" onClick={quit} aria-label={t('nav.quit')}>
-            ← <span className="hidden sm:inline">{t('nav.quit')}</span>
-          </button>
-          <RoundTitle setup={session.setup} className="min-w-0 flex-1 text-xs sm:text-sm" />
-          <div className="flex items-center gap-3 text-xs tabular-nums text-ink-2 sm:text-sm">
-            {repeats > 0 && <span className="rounded-full bg-accent-soft px-2 py-1 font-semibold text-accent">↻ {repeats}</span>}
+      <header className="quiz-topbar">
+        <div className="quiz-topbar-inner">
+          <div className="quiz-topbar-identity">
+            <button className="quiz-quit" onClick={quit} aria-label={t('nav.quit')}>
+              <span aria-hidden>←</span> <span className="hidden sm:inline">{t('nav.quit')}</span>
+            </button>
+            <span className="quiz-topbar-divider" aria-hidden />
+            <RoundTitle setup={session.setup} className="min-w-0 text-xs sm:text-sm" />
+          </div>
+          <div className="quiz-topbar-progress">
+            <ProgressBar value={position / total} />
+            <strong>{position} / {total}</strong>
+          </div>
+          <div className="quiz-topbar-score">
+            {repeats > 0 && <span className="quiz-repeat-count">↻ {repeats}</span>}
             {session.streak > 1 && <span className="inline-flex items-center gap-1 text-warn"><Icons.flame className="h-4 w-4" /> {session.streak}</span>}
-            <span className="hidden sm:inline">{session.points.toLocaleString('de-DE')} {t('play.points')}</span>
-            <strong className="text-ink">{position} / {total}</strong>
+            <strong>{session.points.toLocaleString('de-DE')} <span className="hidden sm:inline">{t('play.points')}</span></strong>
           </div>
         </div>
-        <ProgressBar value={position / total} className="[&>div]:h-1 [&>div]:rounded-none" />
       </header>
-      <main className="mx-auto flex w-full max-w-6xl flex-col px-4 py-6 md:py-10">
+      <main className="relative z-10 mx-auto flex w-full max-w-[1440px] flex-col px-4 py-7 sm:px-8 md:py-10 lg:px-12">
         <QuestionView key={current.question.id} q={current.question} given={current.given} correct={current.correct} repeated={current.repeated} attempts={current.attempts ?? 0} lastWrong={session.lastWrongMapGuess} onAnswer={answer} onNext={advance} onSkip={current.question.map?.kind === 'europe' ? skip : undefined} />
       </main>
     </div>
@@ -191,39 +196,40 @@ function QuestionView({ q, given, correct, repeated, attempts, lastWrong, onAnsw
   }, [answered, q.map?.kind, onNext])
   const correctLabel = labelFor(q, q.answer, geo.byId)
   const givenLabel = given && given !== '__skip__' ? labelFor(q, given, geo.byId) : undefined
+  const givenImage = given ? q.options?.find((option) => option.id === given)?.image : undefined
+  const correctImage = q.options?.find((option) => option.id === q.answer)?.image
   const answerEntity = geo.byId.get(q.answer)
   const entities = q.entities.map((id) => geo.byId.get(id)).filter((entity): entity is NonNullable<typeof entity> => !!entity)
-  const visualEntities = q.type === 'mountain_higher' || q.type === 'river_longer' || q.type === 'lake_larger'
-    ? (q.options ?? []).map((option) => geo.byId.get(option.id)).filter((entity): entity is NonNullable<typeof entity> => !!entity)
-    : entities
+  const sideVisual = hasSideVisualization(q) && !answered
+  const visualOptions = usesVisualOptions(q)
   const xp = correct ? (repeated ? XP.wrong_answer : XP.correct_answer + (XP.difficulty_bonus[q.difficulty] ?? 0)) : XP.wrong_answer
 
   return (
-    <div className="flex flex-1 flex-col" data-question-type={q.question_type} data-answer={q.answer}>
-      {q.media && (
-        <figure className="mb-4 flex flex-col items-center">
-          <img
-            src={q.media.url}
-            alt={q.media.alt}
-            className={`${q.map ? 'max-h-24 md:max-h-32' : 'max-h-52 md:max-h-64'} w-auto max-w-full rounded-2xl border border-line object-contain shadow-sm ${q.media.kind === 'flag' ? 'bg-white' : ''}`}
-            decoding="async"
-          />
-          {answered && q.media.attribution && (
-            <figcaption className="mt-1 text-[11px] text-ink-2">
-              {q.media.source_url ? <a href={q.media.source_url} target="_blank" rel="noreferrer" className="underline">{q.media.attribution}</a> : q.media.attribution}
-            </figcaption>
+    <div className="flex flex-1 flex-col" data-question-type={q.question_type} data-quiz-kind={q.type} data-generator={q.metadata.generator} data-answer={q.answer}>
+      {repeated && <p className="eyebrow mb-3 text-center !text-accent">↻ {t('play.repeated')}</p>}
+      <div className={answered && !q.map ? 'quiz-feedback-layout' : sideVisual ? 'quiz-water-layout' : ''}>
+        {sideVisual && <QuestionVisualization question={q} entities={entities} side />}
+        <section className="quiz-question-main">
+          {q.media && (
+            <figure className="quiz-prompt-media">
+              <img
+                src={q.media.url}
+                alt={q.media.alt}
+                className={`${q.map ? 'max-h-24 md:max-h-32' : 'max-h-48 md:max-h-56'} w-auto max-w-full rounded-xl border border-line object-contain ${q.media.kind === 'flag' ? 'bg-white' : ''}`}
+                decoding="async"
+              />
+              {answered && q.media.attribution && (
+                <figcaption className="mt-1 text-[11px] text-ink-2">
+                  {q.media.source_url ? <a href={q.media.source_url} target="_blank" rel="noreferrer" className="underline">{q.media.attribution}</a> : q.media.attribution}
+                </figcaption>
+              )}
+            </figure>
           )}
-        </figure>
-      )}
-      {repeated && <p className="eyebrow mb-2 text-center !text-accent">↻ {t('play.repeated')}</p>}
-      <h1 className={`${q.map ? 'mb-4 text-2xl md:text-3xl' : 'mb-6 text-3xl md:text-5xl'} mx-auto max-w-3xl text-center font-medium leading-tight`}>{t(q.prompt.key, q.prompt.params)}</h1>
-
-      <div className={`${answered && !q.map ? 'lg:grid lg:grid-cols-[minmax(0,1fr)_20rem] lg:items-start lg:gap-6' : ''}`}>
-        <div>
-          <QuestionVisualization question={q} entities={visualEntities} />
+          <h1 className={`quiz-question-heading ${q.map ? 'quiz-question-heading-map' : ''} ${sideVisual ? 'quiz-question-heading-side' : ''}`}>{t(q.prompt.key, q.prompt.params)}</h1>
+          {!sideVisual && <QuestionVisualization question={q} entities={entities} />}
 
       {q.map && (
-        <div className="mx-auto mb-4 max-w-4xl overflow-hidden rounded-3xl border border-line bg-card p-2 shadow-sm md:p-4">
+        <div className="quiz-map-stage">
           {q.map.kind === 'world' ? (
             <WorldMap onPick={onAnswer} disabled={answered} correct={answered ? q.answer : undefined} wrong={!answered ? lastWrong : undefined} />
           ) : (
@@ -236,7 +242,7 @@ function QuestionView({ q, given, correct, repeated, attempts, lastWrong, onAnsw
 
       {q.question_type === 'text_input' && (
         <form
-          className="mx-auto mb-4 flex w-full max-w-2xl gap-2"
+          className="quiz-text-answer"
           onSubmit={(e) => {
             e.preventDefault()
             if (!answered && text.trim()) onAnswer(text)
@@ -250,7 +256,7 @@ function QuestionView({ q, given, correct, repeated, attempts, lastWrong, onAnsw
             placeholder={t('play.type_answer')}
             autoComplete="off"
             autoCapitalize="words"
-            className="min-h-14 min-w-0 flex-1 rounded-2xl border border-line bg-card px-4 text-lg shadow-sm"
+            className="min-h-14 min-w-0 flex-1 rounded-xl border border-line bg-card px-5 text-lg shadow-sm"
             aria-label={t('play.type_answer')}
           />
           {!answered && (
@@ -262,41 +268,43 @@ function QuestionView({ q, given, correct, repeated, attempts, lastWrong, onAnsw
       )}
 
       {q.options && (
-        <div className={`mx-auto grid w-full max-w-4xl gap-3 ${q.question_type === 'image_choice' ? 'grid-cols-2' : 'grid-cols-1 md:grid-cols-2'}`} role="group">
+        <div className={`quiz-options ${visualOptions ? 'quiz-options-visual' : ''} ${sideVisual ? 'quiz-options-side' : ''}`} role="group">
           {q.options.map((o, i) => {
             const isAnswer = o.id === q.answer
             const isGiven = o.id === given
             const cls = answered ? (isAnswer ? 'quiz-answer-correct' : isGiven ? 'quiz-answer-wrong' : 'opacity-45') : 'quiz-answer'
             const optionLabel = o.label || geo.byId.get(o.id)?.names.de || o.id
-            const plateCode = q.type === 'city_to_plate' ? String(geo.byId.get(o.id)?.attributes.code ?? o.label) : undefined
+            const optionEntity = geo.byId.get(o.id)
+            const choiceVisual = visualOptions && q.question_type !== 'image_choice'
             return (
               <button
                 key={o.id}
                 type="button"
                 disabled={answered}
                 onClick={() => onAnswer(o.id)}
-                className={`card flex min-h-16 items-center gap-3 text-left transition duration-200 ${o.image ? 'flex-col justify-center p-3' : 'px-4 py-3'} ${cls}`}
+                className={`quiz-option ${o.image || choiceVisual ? 'quiz-option-media' : ''} ${cls}`}
                 aria-label={optionLabel}
+                data-option-id={o.id}
               >
-                {!o.image && <span className="hidden text-xs text-ink-2 md:inline">{i + 1}</span>}
-                {o.image && <img src={o.image} alt="" className="max-h-28 w-full rounded-md border border-line bg-white object-contain md:max-h-36" />}
-                {plateCode ? <LicensePlate code={plateCode} compact /> : !o.image && <span className="font-medium">{o.label}</span>}
-                {o.image && answered && <span className="text-sm font-semibold">{optionLabel}</span>}
-                {answered && isAnswer && <span className="ml-auto text-ok" aria-hidden>✓</span>}
-                {answered && isGiven && !isAnswer && <span className="ml-auto text-bad" aria-hidden>✕</span>}
+                <span className="quiz-option-number">{i + 1}</span>
+                {o.image && <img src={o.image} alt="" className="quiz-option-image" />}
+                {choiceVisual && <ChoiceVisualization question={q} entity={optionEntity} />}
+                {(!o.image || answered) && <span className="quiz-option-label">{optionLabel}</span>}
+                {answered && isAnswer && <span className="quiz-option-mark quiz-option-mark-correct" aria-hidden>✓</span>}
+                {answered && isGiven && !isAnswer && <span className="quiz-option-mark quiz-option-mark-wrong" aria-hidden>✕</span>}
               </button>
             )
           })}
         </div>
       )}
-        </div>
+        </section>
 
       {answered && (
-        <aside className={`mt-5 rounded-3xl border p-5 shadow-sm lg:mt-0 ${correct ? 'border-ok/30 bg-ok-soft' : 'border-bad/30 bg-bad-soft'}`} role="status" aria-live="polite">
-          <p className="text-xl font-semibold">{correct ? `✓ ${t('play.correct')}` : q.question_type === 'map_click' && given !== '__skip__' ? `✓ ${t('play.found_after', { n: attempts })}` : `✕ ${t('play.wrong')}`}</p>
-          {givenLabel && <p className="mt-3 text-xs font-semibold uppercase tracking-wider text-ink-2">Deine Antwort</p>}
-          {givenLabel && <p className="font-medium">{givenLabel}</p>}
-          {!correct && q.question_type !== 'map_click' && <><p className="mt-3 text-xs font-semibold uppercase tracking-wider text-ink-2">Richtig</p><p className="font-medium">{correctLabel}</p></>}
+        <aside className={`quiz-feedback ${correct ? 'quiz-feedback-correct' : 'quiz-feedback-wrong'}`} role="status" aria-live="polite">
+          <p className="quiz-feedback-title">{correct ? `✓ ${t('play.correct')}` : q.question_type === 'map_click' && given !== '__skip__' ? `✓ ${t('play.found_after', { n: attempts })}` : `✕ ${t('play.wrong')}`}</p>
+          {givenLabel && <p className="quiz-feedback-label">{t('play.your_answer')}</p>}
+          {givenLabel && <div className="quiz-feedback-answer">{givenImage && <img src={givenImage} alt="" />}<p className="font-medium">{givenLabel}</p></div>}
+          {!correct && q.question_type !== 'map_click' && <><p className="quiz-feedback-label">{t('play.correct_answer')}</p><div className="quiz-feedback-answer">{correctImage && <img src={correctImage} alt="" />}<p className="font-medium">{correctLabel}</p></div></>}
           {q.question_type === 'map_click' && <p>{given === '__skip__' ? t('play.would_be', { answer: correctLabel }) : correctLabel}</p>}
           {q.explanation && <p className="mt-3 border-t border-ink/10 pt-3 text-sm text-ink-2">{q.explanation}</p>}
           <div className="mt-3 flex flex-wrap items-center gap-3 text-sm">
@@ -337,7 +345,7 @@ function ResultView({ session, outcome }: { session: QuizSession; outcome: Round
   return (
     <div className="atlas-surface min-h-dvh px-4 pb-24 pt-10 md:pb-12 md:pt-16">
       <div className="mx-auto w-full max-w-3xl text-center">
-      <p className="eyebrow mb-3">Expeditionsbericht</p>
+      <p className="eyebrow mb-3">{t('play.expedition_report')}</p>
       <h1 className="text-4xl font-medium md:text-6xl">{session.mode === 'full' ? t('play.full_done') : t('play.round_done')}</h1>
       <RoundTitle setup={session.setup} className="mx-auto mt-3 w-fit text-left" />
       <div className="mx-auto mt-7 flex h-44 w-44 flex-col items-center justify-center rounded-full border-[10px] border-accent-soft bg-card shadow-sm">
@@ -348,7 +356,7 @@ function ResultView({ session, outcome }: { session: QuizSession; outcome: Round
         <Card className="p-3"><div className="text-xl font-semibold tabular-nums">{session.points.toLocaleString('de-DE')}</div><div className="text-xs text-ink-2">{t('play.points')}</div></Card>
         <Card className="p-3"><div className="text-xl font-semibold tabular-nums">{session.bestStreak}</div><div className="text-xs text-ink-2">{t('play.best_streak')}</div></Card>
         <Card className="p-3"><div className="text-xl font-semibold tabular-nums">{firstTry}/{baseTotal}</div><div className="text-xs text-ink-2">{t('play.first_try')}</div></Card>
-        <Card className="p-3"><div className="text-xl font-semibold tabular-nums">{recovered}</div><div className="text-xs text-ink-2">nach Wiederholung</div></Card>
+        <Card className="p-3"><div className="text-xl font-semibold tabular-nums">{recovered}</div><div className="text-xs text-ink-2">{t('play.recovered')}</div></Card>
       </div>
       {outcome ? <p className="mt-2 text-lg font-medium text-accent">+{outcome.xp} XP</p> : <Skeleton className="mx-auto mt-2 h-6 w-24" />}
       {outcome?.levelUp && <p className="mt-2 font-medium">⭐ {t('play.level_up', { level: outcome.levelUp })}</p>}

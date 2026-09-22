@@ -1,4 +1,4 @@
-const UA = { Accept: 'application/sparql-results+json', 'User-Agent': 'GeoKompassImporter/0.1 (data import)' }
+const UA = { Accept: 'application/sparql-results+json', 'User-Agent': 'AtlasfunkeImporter/0.1 (data import)' }
 
 export async function sparql(q, attempt = 1) {
   const res = await fetch('https://query.wikidata.org/sparql', {

@@ -1,9 +1,10 @@
-import { Suspense } from 'react'
+import { Suspense, useEffect } from 'react'
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useOnline } from './hooks'
 import { Skeleton } from '@/ui'
 import { Icons } from '@/ui/icons'
+import { BrandMark } from '@/ui/BrandMark'
 
 const NAV = [
   { to: '/', key: 'nav.home', icon: Icons.home, end: true },
@@ -17,13 +18,18 @@ export function Layout() {
   const { t } = useTranslation()
   const online = useOnline()
   const { pathname } = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
+
   const immersive = /^\/play\/[^/]+\/round/.test(pathname) || pathname.startsWith('/play/session/') || /^\/daily\/[^/]+$/.test(pathname)
   return (
-    <div className="flex min-h-dvh flex-col">
+    <div className={`flex min-h-dvh flex-col ${immersive ? '' : 'site-shell'}`}>
       {!immersive && <header className="sticky top-0 z-40 hidden border-b border-line bg-bg/85 backdrop-blur md:block">
         <div className="mx-auto flex h-14 max-w-5xl items-center gap-6 px-4">
           <NavLink to="/" className="flex items-center gap-2 font-semibold tracking-tight">
-            <span className="inline-flex h-7 w-7 items-center justify-center rounded-lg bg-accent text-accent-ink"><Icons.explore className="h-4 w-4" strokeWidth={2} /></span>
+            <BrandMark className="h-8 w-8" />
             {t('app.name')}
           </NavLink>
           <nav className="flex gap-1" aria-label="Hauptnavigation">
@@ -46,6 +52,16 @@ export function Layout() {
           <Outlet />
         </Suspense>
       </main>
+      {!immersive && (
+        <footer className="border-t border-line px-4 pb-24 pt-6 text-sm text-ink-2 md:pb-6">
+          <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-center gap-x-5 gap-y-2">
+            <NavLink to="/impressum" className="hover:text-ink">{t('legal.imprint')}</NavLink>
+            <NavLink to="/datenschutz" className="hover:text-ink">{t('legal.privacy')}</NavLink>
+            <NavLink to="/quellen" className="hover:text-ink">{t('settings.sources')}</NavLink>
+            <span>© {new Date().getFullYear()} {t('app.name')}</span>
+          </div>
+        </footer>
+      )}
       {!immersive && (
         <nav className="fixed inset-x-0 bottom-0 z-40 border-t border-line bg-bg/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden" aria-label="Hauptnavigation">
           <div className="grid grid-cols-5">

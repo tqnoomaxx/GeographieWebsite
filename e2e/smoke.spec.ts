@@ -51,8 +51,8 @@ test('Flaggenrunde spielen bis zum Ergebnis', async ({ page }) => {
 })
 
 test('„Alle“-Runde speichern und fortsetzen', async ({ page }) => {
-  await page.goto('play/regions')
-  await page.getByRole('radio', { name: /Alle/ }).click()
+  await page.goto('play/flags')
+  await page.getByRole('radio', { name: /^Alle \d+$/ }).click()
   await page.getByRole('button', { name: "Los geht's" }).click()
   await expect(page.getByText(/^1 \/ \d+$/)).toBeVisible()
   await page.getByRole('group').getByRole('button').first().click()
@@ -187,7 +187,7 @@ test('Lernkarten-Explorer', async ({ page }) => {
 
 test('Setup jeder Kategorie startet eine Runde', async ({ page }) => {
   const errors = watchErrors(page)
-  for (const cat of ['flags', 'countries', 'capitals', 'maps', 'images', 'regions', 'cities', 'landmarks', 'water', 'nature', 'license_plates', 'mixed']) {
+  for (const cat of ['flags', 'countries', 'capitals', 'images', 'cities', 'landmarks', 'water', 'nature', 'license_plates', 'mixed']) {
     await page.goto(`play/${cat}`)
     await expect(page.getByRole('radiogroup', { name: 'Bereich' })).toBeVisible()
     const start = page.getByRole('button', { name: "Los geht's" })
@@ -199,9 +199,59 @@ test('Setup jeder Kategorie startet eine Runde', async ({ page }) => {
   expect(errors).toEqual([])
 })
 
+test('Karten und Regionen sind in Flaggen und Länder zusammengeführt', async ({ page }) => {
+  await page.goto('play')
+  await expect(page.getByRole('link', { name: /^Karten/ })).toHaveCount(0)
+  await expect(page.getByRole('link', { name: /^Regionen/ })).toHaveCount(0)
+  await page.getByRole('link', { name: /^Länder/ }).click()
+  await expect(page.getByRole('radio', { name: 'Region → Land' })).toBeVisible()
+  await expect(page.getByRole('radio', { name: 'Länder auf der Karte' })).toBeVisible()
+  await expect(page.getByRole('radio', { name: 'Regionen auf der Karte' })).toBeVisible()
+  await page.goto('play/maps')
+  await expect(page).toHaveURL(/\/play\/countries$/)
+  await page.goto('play/regions')
+  await expect(page).toHaveURL(/\/play\/flags$/)
+})
+
+test('Erweiterte Quizmodi erzeugen die passenden Fragen', async ({ page }) => {
+  const cases = [
+    { category: 'countries', mode: 'Ländercodes', generator: 'country_code' },
+    { category: 'countries', mode: 'Ländervergleich', generator: 'country_comparison' },
+    { category: 'capitals', mode: 'Hauptstadt → Flagge', generator: 'capital_to_flag' },
+    { category: 'cities', mode: 'Städtevergleich', generator: 'city_population' },
+  ]
+  for (const item of cases) {
+    await page.goto(`play/${item.category}`)
+    await page.getByRole('radio', { name: item.mode, exact: true }).click()
+    await page.getByRole('button', { name: "Los geht's" }).click()
+    await expect(page.locator(`[data-generator="${item.generator}"]`)).toBeVisible()
+  }
+})
+
+test('Mehrdeutige und triviale Varianten werden vermieden', async ({ page }) => {
+  await page.goto('play/countries')
+  await page.getByRole('radio', { name: 'Europa', exact: true }).click()
+  await page.getByRole('radio', { name: 'Deutschland', exact: true }).click()
+  await expect(page.getByRole('radio', { name: 'Region → Land' })).toHaveCount(0)
+  await expect(page.getByRole('radio', { name: 'Länder auf der Karte' })).toHaveCount(0)
+  await expect(page.getByRole('radio', { name: 'Regionen auf der Karte' })).toBeVisible()
+
+  await page.goto('play/flags/round?mode=flag_input&scope=country:DE&len=5&content=region')
+  await expect(page.locator('[data-generator="region_flag_input"]')).toBeVisible()
+})
+
+test('Kennzeichenvisualisierung übernimmt das ausgewählte Land', async ({ page }) => {
+  await page.goto('play/license_plates/round?mode=plate_to_city&scope=country:AT&len=5')
+  await expect(page.locator('.license-plate-country-AT')).toBeVisible()
+  await expect(page.locator('.license-plate-country-AT .license-plate-eu')).toContainText('A')
+  await page.goto('play/license_plates/round?mode=plate_to_city&scope=country:CH&len=5')
+  await expect(page.locator('.license-plate-country-CH')).toBeVisible()
+  await expect(page.locator('.license-plate-country-CH .license-plate-ch-badge')).toContainText('+')
+})
+
 test('Flaggen: Land als Bereich und Fragetyp wählen', async ({ page }) => {
   await page.goto('play/flags')
-  await page.getByRole('radio', { name: 'Europa' }).click()
+  await page.getByRole('radio', { name: 'Europa', exact: true }).click()
   await page.getByRole('radio', { name: 'Deutschland' }).click()
   await expect(page.getByText(/^Flaggen · Automatisch$/)).toBeVisible()
   await expect(page.getByText(/^Deutschland · /)).toBeVisible()

@@ -1,16 +1,17 @@
 import { describe, it, expect } from 'vitest'
-import { readFileSync, readdirSync } from 'node:fs'
+import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 import { buildContext } from './context'
 import { baseQuestionPosition, baseQuestionTotal, buildSession, checkAnswer, extendSession, pendingRepeatCount, poolFor, recordAnswer, skipQuestion } from './session'
-import { generatorsFor } from './registry'
+import { generatorsFor, registry } from './registry'
 import { fromQuery, type RoundConfig } from './round'
-import { QUIZZES } from '@/config/quizzes'
+import { PLAY_QUIZZES, QUIZZES } from '@/config/quizzes'
 import { matchesAnswer, normalizeAnswer } from './normalize'
 import { createRng } from './rng'
 import { review, initialProgress } from './srs'
 import { levelForXp, xpForLevel } from '@/config/levels'
 import type { Entity, Relationship } from '@/domain/types'
+import { isSovereign } from './generators/base'
 
 const DATA = join(process.cwd(), 'public', 'data')
 const read = <T,>(p: string): T => JSON.parse(readFileSync(join(DATA, p), 'utf8'))
@@ -85,7 +86,7 @@ describe('session', () => {
     }
   })
   it('Eingabefragen akzeptieren Namen und Aliasse', () => {
-    const s = buildSession(ctx(), setup({ category: 'flags', scope: 'world', length: 5, mode: 'flag_input' }), { seed: 'inp' })
+    const s = buildSession(ctx(), setup({ category: 'flags', scope: 'world', length: 5, mode: 'flag_input', content: ['country'] }), { seed: 'inp' })
     for (const { question: q } of s.questions) {
       const target = countries.find((c) => c.id === q.answer)!
       expect(checkAnswer(q, target.names.de)).toBe(true)
@@ -127,15 +128,72 @@ describe('konfiguration', () => {
     expect(parsed).toMatchObject({ mode: 'auto', scope: 'world', length: 10 })
   })
   it('jeder Fragetyp in config/quizzes.ts verweist auf registrierte Generatoren der richtigen Kategorie', () => {
-    for (const quiz of QUIZZES) for (const m of quiz.modes) for (const g of generatorsFor(quiz.id, m.id)) expect(g.category, `${quiz.id}/${m.id}/${g.id}`).toBe(quiz.id)
+    for (const quiz of QUIZZES) {
+      const allowed = new Set([quiz.id, ...(quiz.mergedFrom ?? [])])
+      for (const m of quiz.modes) for (const g of generatorsFor(quiz.id, m.id)) expect(allowed.has(g.category), `${quiz.id}/${m.id}/${g.id}`).toBe(true)
+    }
   })
   it('„Automatisch“ mischt nur Multiple Choice, wo es welches gibt (R10)', () => {
     expect(generatorsFor('flags').map((g) => g.id)).not.toContain('flag_to_country_input')
     expect(generatorsFor('maps').length).toBe(2) // nur Kartenfragen → alle
+    expect(generatorsFor('countries', 'countries_on_map').map((g) => g.id)).toEqual(['country_on_map'])
+    expect(generatorsFor('countries').map((g) => g.id)).toContain('region_to_country')
     expect(generatorsFor('mixed').map((g) => g.id)).not.toContain('region_to_flag')
   })
   it('Fragetyp ohne Eintrag liefert keine Generatoren', () => {
     expect(generatorsFor('flags', 'gibt_es_nicht')).toEqual([])
+  })
+})
+
+describe('vollständiges Quiz-Inhaltsaudit', () => {
+  const translations = JSON.parse(readFileSync(join(process.cwd(), 'locales/de/common.json'), 'utf8')) as Record<string, unknown>
+  const translation = (key: string) => key.split('.').reduce<unknown>((value, part) => (value && typeof value === 'object' ? (value as Record<string, unknown>)[part] : undefined), translations)
+
+  it('verwendet ausschließlich den kuratierten Pool aus Staaten und anerkannten Sonderfällen', () => {
+    const sovereign = countries.filter(isSovereign)
+    expect(sovereign).toHaveLength(197)
+    expect(sovereign.map((country) => country.attributes.iso2)).not.toEqual(expect.arrayContaining(['AC', 'EU', 'IC', 'TA']))
+  })
+
+  it('erzeugt für jedes Ziel jedes Generators eine vollständige, auflösbare Frage', () => {
+    const c = ctx('world')
+    for (const generator of registry.values()) {
+      const targets = generator.pool(c)
+      expect(targets.length, `${generator.id}: leerer Pool`).toBeGreaterThan(0)
+      for (const target of targets) {
+        const q = generator.make(target, c, createRng(`audit:${generator.id}:${target.id}`), 2)
+        expect(q, `${generator.id}/${target.id}: keine Frage`).not.toBeNull()
+        if (!q) continue
+        expect(translation(q.prompt.key), `${q.id}: Übersetzung ${q.prompt.key}`).toBeTypeOf('string')
+        expect(Object.values(q.prompt.params ?? {}), `${q.id}: leere Prompt-Parameter`).not.toContain('')
+        expect(q.difficulty, `${q.id}: Schwierigkeit`).toBeGreaterThanOrEqual(1)
+        expect(q.difficulty, `${q.id}: Schwierigkeit`).toBeLessThanOrEqual(3)
+        expect(q.metadata.generator, q.id).toBe(generator.id)
+        for (const entityId of q.entities) expect(c.byId.has(entityId), `${q.id}: unbekannte Entity ${entityId}`).toBe(true)
+        if (q.options) {
+          expect(q.options.some((option) => option.id === q.answer), `${q.id}: Lösung fehlt`).toBe(true)
+          expect(new Set(q.options.map((option) => option.id)).size, `${q.id}: doppelte Options-ID`).toBe(q.options.length)
+          if (q.question_type !== 'image_choice') expect(new Set(q.options.map((option) => option.label)).size, `${q.id}: doppelte Beschriftung`).toBe(q.options.length)
+          for (const option of q.options) if (option.image) expect(existsSync(join(process.cwd(), 'public', option.image.replace(/^\//, ''))), `${q.id}: ${option.image}`).toBe(true)
+        }
+        if (q.question_type === 'text_input') expect(q.accepted?.length, `${q.id}: keine Texteingaben`).toBeGreaterThan(0)
+        if (q.media?.url) expect(existsSync(join(process.cwd(), 'public', q.media.url.replace(/^\//, ''))), `${q.id}: ${q.media.url}`).toBe(true)
+        if (q.map) {
+          expect(q.map.targetId, q.id).toBe(q.answer)
+          expect(c.byId.has(q.answer), `${q.id}: unbekanntes Kartenziel`).toBe(true)
+        }
+      }
+    }
+  })
+
+  it('bietet alle sichtbaren Modi mit mindestens vier belastbaren Fragen an', () => {
+    const c = ctx('world')
+    for (const quiz of PLAY_QUIZZES) {
+      for (const mode of quiz.modes) {
+        if (mode.scopes && !mode.scopes.includes('world')) continue
+        expect(poolFor(c, setup({ category: quiz.id, mode: mode.id, content: mode.content })).size, `${quiz.id}/${mode.id}`).toBeGreaterThanOrEqual(4)
+      }
+    }
   })
 })
 
@@ -147,7 +205,7 @@ describe('regeln', () => {
     }
   })
   it('R3: ISO-Code wird beim Eintippen akzeptiert', () => {
-    const s = buildSession(ctx(), setup({ category: 'flags', scope: 'world', length: 3, mode: 'flag_input' }), { seed: 'iso' })
+    const s = buildSession(ctx(), setup({ category: 'flags', scope: 'world', length: 3, mode: 'flag_input', content: ['country'] }), { seed: 'iso' })
     const q = s.questions[0].question
     expect(checkAnswer(q, countries.find((c) => c.id === q.answer)!.attributes.iso2 as string)).toBe(true)
   })

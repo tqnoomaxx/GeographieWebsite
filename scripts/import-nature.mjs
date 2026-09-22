@@ -4,7 +4,7 @@ import { join } from 'node:path'
 import { existsSync } from 'node:fs'
 import { CACHE, DATA, readJson, writeJson, provenance } from './lib/common.mjs'
 
-const UA = { Accept: 'application/sparql-results+json', 'User-Agent': 'GeoKompassImporter/0.1 (data import)' }
+const UA = { Accept: 'application/sparql-results+json', 'User-Agent': 'AtlasfunkeImporter/0.1 (data import)' }
 const TYPES = [
   { file: 'rivers', type: 'river', classes: ['Q4022', 'Q47521'], minLinks: 45, limit: 220, measure: 'P2043', measureKey: 'length_km', unitDiv: { Q11573: 1000, Q828224: 1 } },
   { file: 'lakes', type: 'lake', classes: ['Q23397'], minLinks: 40, limit: 140, measure: 'P2046', measureKey: 'area_km2', unitDiv: { Q712226: 1, Q35852: 100, Q25343: 1e6 } },

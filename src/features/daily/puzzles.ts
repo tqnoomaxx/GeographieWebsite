@@ -82,7 +82,7 @@ export function compare(a: number | undefined, b: number | undefined): '▲' | '
 }
 
 export function shareText(puzzle: string, date: string, rows: string[], solved: boolean, attempts: number): string {
-  return `GeoKompass ${puzzle} ${date} · ${solved ? `${attempts}/${MAX_ATTEMPTS}` : `X/${MAX_ATTEMPTS}`}\n${rows.join('\n')}`
+  return `Atlasfunke ${puzzle} ${date} · ${solved ? `${attempts}/${MAX_ATTEMPTS}` : `X/${MAX_ATTEMPTS}`}\n${rows.join('\n')}`
 }
 
 /** Tages-Entity aus einer beliebigen Liste (Bildle: Sehenswürdigkeiten, Kennzeichle: Kennzeichen). */

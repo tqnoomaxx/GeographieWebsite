@@ -8,6 +8,10 @@ import type { Entity } from '@/domain/types'
 import { review, initialProgress, type EntityProgress } from '@/engine/srs'
 import { todayKey } from '@/engine/rng'
 
+/** Alte Karten-/Regionenfragen werden in der konsolidierten Länderstatistik weitergeführt. */
+const statsCategory = (category: QuizSession['category']): QuizSession['category'] =>
+  category === 'maps' || category === 'regions' ? 'countries' : category
+
 export interface RoundOutcome {
   xp: number
   correct: number
@@ -45,7 +49,8 @@ export async function applySession(repo: ProgressRepository, session: QuizSessio
     const cur = touched.get(primary) ?? progressMap.get(primary) ?? initialProgress(primary)
     if (cur.correct + cur.wrong === 0) xp += XP.new_entity_seen
     touched.set(primary, review(cur, ok))
-    const cat = (stats.byCategory[q.question.category] ??= { answered: 0, correct: 0 })
+    const category = statsCategory(q.question.category)
+    const cat = (stats.byCategory[category] ??= { answered: 0, correct: 0 })
     cat.answered++
     if (ok) cat.correct++
     const continent = byId.get(primary)?.attributes.continent ?? byId.get(byId.get(primary)?.attributes.country ?? '')?.attributes.continent

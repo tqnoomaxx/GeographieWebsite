@@ -9,6 +9,7 @@ import { Page, Card, Flag, EmptyState, entityPath, SourceInfo } from '@/ui'
 import { RegionMapView } from '@/ui/maps'
 import { FavoriteButton } from './FavoriteButton'
 import { Section } from './CountryPage'
+import { CategoryIcon } from '@/ui/icons'
 
 export default function RegionPage() {
   const { t } = useTranslation()
@@ -58,8 +59,8 @@ export default function RegionPage() {
       )}
       <Section title={t('nav.play')}>
         <div className="grid gap-2 md:grid-cols-2">
-          <Link to={`/play/regions/round?scope=country:${iso2}&len=all`} className="btn-primary">🏳️ {t('category.regions')} · {country?.names.de}</Link>
-          <Link to={`/play/maps/round?scope=country:${iso2}&len=all`} className="btn-secondary">🗺️ {t('category.maps')} · {country?.names.de}</Link>
+          <Link to={`/play/flags/round?mode=flag_to_name&scope=country:${iso2}&len=all&content=region`} className="btn-primary"><CategoryIcon id="flags" className="h-6 w-6" /> {t('category.flags')} · {country?.names.de}</Link>
+          <Link to={`/play/countries/round?mode=regions_on_map&scope=country:${iso2}&len=all&content=region`} className="btn-secondary"><CategoryIcon id="countries" className="h-6 w-6" /> {t('modes.regions_on_map')} · {country?.names.de}</Link>
         </div>
       </Section>
     </Page>

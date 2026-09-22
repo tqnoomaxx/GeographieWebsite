@@ -4,7 +4,7 @@ import { useGeoData } from '@/app/DataProvider'
 import { useAsync, useDocumentTitle, useStats } from '@/app/hooks'
 import { ACHIEVEMENTS } from '@/config/achievements'
 import { QUESTS } from '@/config/quests'
-import { QUIZZES } from '@/config/quizzes'
+import { PLAY_QUIZZES } from '@/config/quizzes'
 import { setupOf } from '@/engine/session'
 import { RoundTitle } from '@/features/play/RoundLabel'
 import { getRepository } from '@/services/progress'
@@ -39,6 +39,12 @@ export default function ProgressPage() {
   const unlockedSet = new Map((unlocked ?? []).map((a) => [a.id, a.unlockedAt]))
   const questState = new Map((quests ?? []).map((q) => [q.id, q]))
   const acc = stats.answered ? Math.round((stats.correct / stats.answered) * 100) : 0
+  const categoryStats = (id: CategoryId) => {
+    const ids: CategoryId[] = id === 'countries' ? ['countries', 'maps', 'regions'] : [id]
+    const values = ids.map((key) => stats.byCategory[key]).filter((value): value is NonNullable<typeof value> => !!value)
+    if (!values.length) return undefined
+    return values.reduce((sum, value) => ({ answered: sum.answered + value.answered, correct: sum.correct + value.correct }), { answered: 0, correct: 0 })
+  }
 
   return (
     <Page title={t('progress.title')} action={<Link to="/profile" className="btn-ghost px-3" aria-label={t('nav.profile')}><Icons.profile className="h-5 w-5" /></Link>}>
@@ -71,8 +77,8 @@ export default function ProgressPage() {
         <Stat value={`${acc} %`} label={t('progress.accuracy')} />
       </div>
       <Card className="mb-5 grid grid-cols-2 gap-2 text-sm md:grid-cols-3">
-        {QUIZZES.filter((c) => stats.byCategory[c.id]).map((c) => {
-          const s = stats.byCategory[c.id]!
+        {PLAY_QUIZZES.filter((c) => categoryStats(c.id)).map((c) => {
+          const s = categoryStats(c.id)!
           return (
             <div key={c.id} className="flex justify-between rounded-lg bg-card-2 px-3 py-2">
               <span className="inline-flex items-center gap-2"><CategoryIcon id={c.id} className="h-4 w-4 text-ink-2" /> {t(`category.${c.id}`)}</span>

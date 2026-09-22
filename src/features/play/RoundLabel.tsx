@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
 import { quizFor } from '@/config/quizzes'
 import { isCountryScope, type RoundConfig } from '@/engine/round'
-import { CATEGORY_ICONS, CATEGORY_TONES, IconTile } from '@/ui/icons'
+import { CategoryIconTile } from '@/ui/icons'
 
 /**
  * Einheitliche Bezeichnung einer Runde: „Flaggen · Flagge → Name“ plus „Europa · Länderflaggen · 10 Fragen“.
@@ -27,7 +27,7 @@ export function RoundTitle({ setup, progress, icon = true, className = '' }: { s
   const label = useRoundLabel()(setup, progress)
   return (
     <div className={`flex min-w-0 items-center gap-3 ${className}`}>
-      {icon && <IconTile icon={CATEGORY_ICONS[setup.category]} tone={CATEGORY_TONES[setup.category]} size="sm" />}
+      {icon && <CategoryIconTile id={setup.category} size="sm" />}
       <div className="min-w-0">
         <p className="truncate font-medium">{label.title}</p>
         <p className="truncate text-xs text-ink-2">{label.details}</p>

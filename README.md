@@ -1,6 +1,6 @@
-# 🧭 GeoKompass
+# ✦ Atlasfunke
 
-Entdecke die Welt. Teste dein Wissen. Eine interaktive Geografie-Plattform: Quiz, Lernen, Entdecken, Fortschritt und tägliche Rätsel (Flagle, Countryle, Umrissle, Hauptstädtle).
+Die Welt im Kopf. Den Funken im Blick. Eine interaktive Geografie-Plattform: Quiz, Lernen, Entdecken, Fortschritt und tägliche Rätsel (Flagle, Countryle, Umrissle, Hauptstädtle).
 
 Spezifikation und Roadmap: [`docs/`](docs/README.md). Ursprünglicher Master-Prompt: [`TASK.md`](TASK.md).
 
@@ -34,7 +34,15 @@ Weitere Skripte:
 
 ## Deployment
 
-`git push` auf `main` → GitHub Actions → Validierung, Tests, Build → GitHub Pages. Für die Projektseite wird `VITE_BASE_URL=/<repo>/` gesetzt; für eine eigene Domain `VITE_BASE_URL=/` und eine `CNAME`-Datei in `public/`.
+`git push` auf `main` → GitHub Actions → Release-Prüfung, Validierung, Tests, Build → GitHub Pages. Für die Projektseite wird `VITE_BASE_URL=/<repo>/` gesetzt; für eine eigene Domain `VITE_BASE_URL=/` und eine `CNAME`-Datei in `public/`.
+
+Vor dem ersten öffentlichen Deployment müssen in den GitHub-Actions-Variablen mindestens `VITE_LEGAL_NAME`, `VITE_LEGAL_ADDRESS` und `VITE_CONTACT_EMAIL` gesetzt werden. Die vollständige Liste steht in `.env.example`. Fehlen Pflichtangaben, blockiert `npm run release:check` das Deployment absichtlich.
+
+Die App enthält eine CSP und Referrer-Regel direkt im HTML. `public/_headers` ergänzt auf unterstützten Hosts (z. B. Cloudflare Pages oder Netlify) HSTS, Clickjacking-, MIME- und Permissions-Schutz. GitHub Pages wertet diese Datei nicht aus; für die vollständige Header-Konfiguration ist daher ein Host mit benutzerdefinierten Response-Headern vorzuziehen.
+
+Supabase bleibt standardmäßig deaktiviert. Vor der Aktivierung müssen Projektregion, Auftragsverarbeitung, Unterauftragsverarbeiter, Löschfristen und E-Mail-Versand anhand des realen Projekts geprüft und in den Release-Variablen dokumentiert werden.
+
+Der Name „Atlasfunke“ hatte bei einer ersten exakten Web-/DPMA-/EUIPO-Suche am 22.09.2026 keine Treffer. Das ist nur eine Vorprüfung und keine rechtliche Markenfreigabe; vor Domainkauf oder größerer Vermarktung sollte eine professionelle Ähnlichkeitsrecherche in den relevanten Waren- und Dienstleistungsklassen erfolgen.
 
 ## Daten und Lizenzen
 

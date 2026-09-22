@@ -1,5 +1,5 @@
 import type { Generator } from './base'
-import { qid, effectiveDifficulty, nameOf, flagMedia, isSovereign } from './base'
+import { qid, effectiveDifficulty, nameOf, flagMedia, isSovereign, options } from './base'
 
 const CONTINENT_DE: Record<string, string> = { europe: 'Europa', asia: 'Asien', africa: 'Afrika', 'north-america': 'Nordamerika', 'south-america': 'Südamerika', oceania: 'Ozeanien', antarctica: 'Antarktis' }
 import type { Country } from '@/domain/types'
@@ -7,40 +7,26 @@ import type { GeneratorContext } from '../types'
 
 const independent = (ctx: GeneratorContext) => ctx.countries.filter(isSovereign)
 
-/** Fragt eine Eigenschaft ab: Kontinent, Währung, Amtssprache, Nachbar, Einwohnervergleich. */
+/** Fragt eine belastbare Eigenschaft ab: Kontinent oder Währung. */
 export const countryAttribute: Generator = {
   id: 'country_attribute',
   category: 'countries',
   pool: independent,
-  make(target, ctx, rng, difficulty) {
+  make(target, ctx, rng, difficulty): ReturnType<Generator['make']> {
     const c = target as Country
     const d = effectiveDifficulty(target, difficulty)
     const variants: Array<() => ReturnType<Generator['make']>> = []
     if (c.attributes.currencies?.length) {
       variants.push(() => {
         const cur = c.attributes.currencies![0]
-        const pool = independent(ctx).filter((x) => (x as Country).attributes.currencies?.[0]?.name && (x as Country).attributes.currencies![0].name !== cur.name)
-        const wrong = rng.shuffle(pool).slice(0, 3).map((x) => (x as Country).attributes.currencies![0].name)
-        if (new Set(wrong).size < 3) return null
+        const pool = [...new Set(independent(ctx).flatMap((x) => (x as Country).attributes.currencies?.map((currency) => currency.name) ?? []).filter((name) => name !== cur.name))]
+        const wrong = rng.shuffle(pool).slice(0, 3)
+        if (wrong.length < 3) return null
         const opts = rng.shuffle([cur.name, ...wrong]).map((l) => ({ id: l, label: l }))
         return {
           id: qid('currency', target), category: 'countries' as const, type: 'country_currency', question_type: 'multiple_choice' as const,
           prompt: { key: 'q.country_currency', params: { name: nameOf(c) } }, answer: cur.name, options: opts, difficulty: d,
           entities: [c.id], explanation: `Die Währung von ${nameOf(c)} ist ${cur.name}.`, metadata: { generator: this.id, scope: ctx.scope },
-        }
-      })
-    }
-    if (c.attributes.languages?.length === 1) {
-      variants.push(() => {
-        const lang = c.attributes.languages![0]
-        const pool = [...new Set(independent(ctx).flatMap((x) => (x as Country).attributes.languages ?? []).filter((l) => l !== lang))]
-        const wrong = rng.shuffle(pool).slice(0, 3)
-        if (wrong.length < 3) return null
-        const opts = rng.shuffle([lang, ...wrong]).map((l) => ({ id: l, label: l }))
-        return {
-          id: qid('language', target), category: 'countries' as const, type: 'country_language', question_type: 'multiple_choice' as const,
-          prompt: { key: 'q.country_language', params: { name: nameOf(c) } }, answer: lang, options: opts, difficulty: d,
-          entities: [c.id], metadata: { generator: this.id, scope: ctx.scope },
         }
       })
     }
@@ -59,6 +45,92 @@ export const countryAttribute: Generator = {
     for (const v of rng.shuffle(variants)) {
       const q = v()
       if (q) return q
+    }
+    return null
+  },
+}
+
+/** ISO-Kürzel und internationale Telefonvorwahlen in beide Richtungen. */
+export const countryCode: Generator = {
+  id: 'country_code',
+  category: 'countries',
+  pool: (ctx) => independent(ctx).filter((country) => country.attributes.iso2),
+  make(target, ctx, rng, difficulty) {
+    const countries = independent(ctx)
+    const d = effectiveDifficulty(target, difficulty)
+    const variants: Array<() => ReturnType<Generator['make']>> = []
+    const iso = target.attributes.iso2 as string
+    variants.push(() => {
+      const opts = options(target, countries, ctx, rng, d)
+      if (!opts) return null
+      return {
+        id: qid('iso_to_country', target), category: 'countries' as const, type: 'iso_to_country', question_type: 'multiple_choice' as const,
+        prompt: { key: 'q.iso_to_country', params: { code: iso } }, answer: target.id, options: opts, difficulty: d,
+        entities: [target.id], metadata: { generator: this.id, scope: ctx.scope },
+      }
+    })
+    variants.push(() => {
+      const codes = rng.shuffle(countries.filter((country) => country.id !== target.id).map((country) => country.attributes.iso2 as string)).slice(0, 3)
+      if (codes.length < 3) return null
+      return {
+        id: qid('country_to_iso', target), category: 'countries' as const, type: 'country_to_iso', question_type: 'multiple_choice' as const,
+        prompt: { key: 'q.country_to_iso', params: { name: nameOf(target) } }, answer: iso,
+        options: rng.shuffle([iso, ...codes]).map((code) => ({ id: code, label: code })), difficulty: d,
+        entities: [target.id], metadata: { generator: this.id, scope: ctx.scope },
+      }
+    })
+    const callingCode = target.attributes.calling_code as string | undefined
+    if (callingCode) {
+      variants.push(() => {
+        const codes = [...new Set(countries.map((country) => country.attributes.calling_code as string | undefined).filter((code): code is string => !!code && code !== callingCode))]
+        const wrong = rng.shuffle(codes).slice(0, 3)
+        if (wrong.length < 3) return null
+        return {
+          id: qid('calling_code', target), category: 'countries' as const, type: 'country_calling_code', question_type: 'multiple_choice' as const,
+          prompt: { key: 'q.country_calling_code', params: { name: nameOf(target) } }, answer: callingCode,
+          options: rng.shuffle([callingCode, ...wrong]).map((code) => ({ id: code, label: code })), difficulty: d,
+          entities: [target.id], metadata: { generator: this.id, scope: ctx.scope },
+        }
+      })
+    }
+    for (const variant of rng.shuffle(variants)) {
+      const question = variant()
+      if (question) return question
+    }
+    return null
+  },
+}
+
+/** Vergleicht Länder anhand robuster numerischer Fakten. */
+export const countryComparison: Generator = {
+  id: 'country_comparison',
+  category: 'countries',
+  pool: (ctx) => independent(ctx).filter((country) => country.attributes.population || country.attributes.area_km2),
+  make(target, ctx, rng, difficulty) {
+    const variants = [
+      { key: 'population', prompt: 'q.country_population_compare', unit: 'Einwohner' },
+      { key: 'area_km2', prompt: 'q.country_area_compare', unit: 'km²' },
+    ] as const
+    for (const variant of rng.shuffle(variants)) {
+      const value = target.attributes[variant.key] as number | undefined
+      if (!value) continue
+      const candidates = independent(ctx).filter((country) => {
+        const other = country.attributes[variant.key] as number | undefined
+        return country.id !== target.id && !!other && Math.abs(value - other) / Math.max(value, other) >= 0.03
+      })
+      const other = rng.pick(candidates)
+      if (!other) continue
+      const otherValue = other.attributes[variant.key] as number
+      const answer = value > otherValue ? target : other
+      const d = effectiveDifficulty(target, difficulty)
+      return {
+        id: qid(`compare-${variant.key}`, target), category: 'countries', type: `country_${variant.key}_compare`, question_type: 'multiple_choice',
+        prompt: { key: variant.prompt }, answer: answer.id,
+        options: rng.shuffle([target, other]).map((country) => ({ id: country.id, label: nameOf(country) })), difficulty: d,
+        entities: [target.id, other.id],
+        explanation: `${nameOf(target)}: ${formatMetric(value, variant.key)} · ${nameOf(other)}: ${formatMetric(otherValue, variant.key)}`,
+        metadata: { generator: this.id, scope: ctx.scope },
+      }
     }
     return null
   },
@@ -99,14 +171,23 @@ export const neighborOfCountry: Generator = {
 export const countryTrueFalse: Generator = {
   id: 'country_true_false',
   category: 'countries',
-  pool: (ctx) => independent(ctx).filter((c) => (c as Country).attributes.population),
-  make(target, ctx, rng, difficulty) {
+  pool: (ctx) => independent(ctx).filter((c) => (c as Country).attributes.population || typeof c.attributes.landlocked === 'boolean'),
+  make(target, ctx, rng, difficulty): ReturnType<Generator['make']> {
     const c = target as Country
+    const d = effectiveDifficulty(target, difficulty)
+    if (typeof c.attributes.landlocked === 'boolean' && rng.next() < 0.4) {
+      return {
+        id: qid('landlocked', target), category: 'countries', type: 'country_landlocked', question_type: 'true_false',
+        prompt: { key: 'q.country_landlocked', params: { name: nameOf(c) } }, answer: c.attributes.landlocked ? 'true' : 'false',
+        options: [{ id: 'true', label: 'Wahr' }, { id: 'false', label: 'Falsch' }], difficulty: d,
+        entities: [c.id], explanation: c.attributes.landlocked ? `${nameOf(c)} hat keinen Zugang zum offenen Meer.` : `${nameOf(c)} hat Zugang zum Meer.`,
+        metadata: { generator: this.id, scope: ctx.scope },
+      }
+    }
     const pool = independent(ctx).filter((x) => x.id !== c.id && (x as Country).attributes.population)
     const other = rng.pick(pool) as Country
-    if (!other) return null
-    const truth = c.attributes.population! > other.attributes.population!
-    const d = effectiveDifficulty(target, difficulty)
+    if (!other || !c.attributes.population) return null
+    const truth = c.attributes.population > other.attributes.population!
     return {
       id: qid(this.id, target),
       category: 'countries',
@@ -124,6 +205,10 @@ export const countryTrueFalse: Generator = {
       metadata: { generator: this.id, scope: ctx.scope },
     }
   },
+}
+
+function formatMetric(value: number, key: 'population' | 'area_km2') {
+  return key === 'population' ? `${formatPop(value)} Einwohner` : `${value.toLocaleString('de-DE')} km²`
 }
 
 export function formatPop(n: number) {

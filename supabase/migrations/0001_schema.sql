@@ -1,4 +1,4 @@
--- GeoKompass · Nutzerdaten (Phase 2). Geodaten bleiben statisch im Frontend; Referenzen über entity_id (Text).
+-- Atlasfunke · Nutzerdaten (Phase 2). Geodaten bleiben statisch im Frontend; Referenzen über entity_id (Text).
 create extension if not exists "pgcrypto";
 
 create table public.profiles (

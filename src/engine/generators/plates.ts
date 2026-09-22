@@ -1,5 +1,5 @@
 import type { Generator } from './base'
-import { qid, effectiveDifficulty, nameOf, accepted } from './base'
+import { qid, effectiveDifficulty, nameOf, accepted, uniqueNames } from './base'
 import type { GeneratorContext } from '../types'
 import type { Entity } from '@/domain/types'
 
@@ -43,7 +43,7 @@ export const plateToCity: Generator = {
 export const cityToPlate: Generator = {
   id: 'city_to_plate',
   category: 'license_plates',
-  pool: (ctx) => ctx.plates,
+  pool: (ctx) => uniqueNames(ctx.plates),
   make(target, ctx, rng, difficulty) {
     const d = effectiveDifficulty(target, difficulty)
     const wrong = pick(target, ctx, rng, d)

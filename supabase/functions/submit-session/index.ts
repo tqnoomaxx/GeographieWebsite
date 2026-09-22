@@ -1,24 +1,27 @@
 // Edge Function: nimmt eine Quiz-Session entgegen, prüft Plausibilität und berechnet XP/Fortschritt serverseitig.
 // Der Client darf XP, Achievements und Quests niemals selbst setzen (Anti-Cheat, TASK.md §99).
 import { createClient } from 'npm:@supabase/supabase-js@2'
-import { corsHeaders, json } from '../_shared/cors.ts'
+import { corsHeaders, json, originAllowed } from '../_shared/cors.ts'
 
 const XP = { correct: 10, wrong: 2, bonus: { 1: 0, 2: 5, 3: 10 } as Record<number, number>, completed: 25, full: 100, achievement: 100 }
 const MAX_QUESTIONS_PER_SESSION = 2000
 const MIN_MS_PER_ANSWER = 250
 
 Deno.serve(async (req) => {
-  if (req.method === 'OPTIONS') return new Response('ok', { headers: corsHeaders })
+  if (!originAllowed(req)) return json(req, { error: 'origin_not_allowed' }, 403)
+  if (req.method === 'OPTIONS') return new Response('ok', { headers: corsHeaders(req) })
+  if (req.method !== 'POST') return json(req, { error: 'method_not_allowed' }, 405)
+  if (Number(req.headers.get('content-length') ?? 0) > 1_048_576) return json(req, { error: 'payload_too_large' }, 413)
   const auth = req.headers.get('Authorization') ?? ''
   const user = createClient(Deno.env.get('SUPABASE_URL')!, Deno.env.get('SUPABASE_ANON_KEY')!, { global: { headers: { Authorization: auth } } })
   const { data: me } = await user.auth.getUser()
-  if (!me?.user) return json({ error: 'unauthorized' }, 401)
+  if (!me?.user) return json(req, { error: 'unauthorized' }, 401)
   const admin = createClient(Deno.env.get('SUPABASE_URL')!, Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!)
 
   const session = await req.json()
-  if (!session?.id || !Array.isArray(session.questions) || session.questions.length > MAX_QUESTIONS_PER_SESSION) return json({ error: 'invalid' }, 400)
+  if (!session?.id || !Array.isArray(session.questions) || session.questions.length > MAX_QUESTIONS_PER_SESSION) return json(req, { error: 'invalid' }, 400)
   const { data: existing } = await admin.from('quiz_sessions').select('id, validated').eq('id', session.id).maybeSingle()
-  if (existing?.validated) return json({ error: 'already_processed' }, 409)
+  if (existing?.validated) return json(req, { error: 'already_processed' }, 409)
 
   // Plausibilität: Antwortzeiten, Reihenfolge, keine doppelten Fragen
   const seen = new Set<string>()
@@ -26,12 +29,16 @@ Deno.serve(async (req) => {
   let correct = 0
   let xp = 0
   for (const q of session.questions) {
-    if (!q.question?.id || seen.has(q.question.id)) return json({ error: 'duplicate_question' }, 400)
+    if (!q.question?.id || seen.has(q.question.id)) return json(req, { error: 'duplicate_question' }, 400)
     seen.add(q.question.id)
     if (q.given === undefined) continue
     const t = new Date(q.answeredAt).getTime()
-    if (!(t >= prev + MIN_MS_PER_ANSWER)) return json({ error: 'implausible_timing' }, 400)
+    if (!(t >= prev + MIN_MS_PER_ANSWER)) return json(req, { error: 'implausible_timing' }, 400)
     prev = t
+    if (q.repeated) {
+      if (q.correct) xp += XP.wrong
+      continue
+    }
     if (q.correct) {
       correct++
       xp += XP.correct + (XP.bonus[q.question.difficulty] ?? 0)
@@ -44,7 +51,7 @@ Deno.serve(async (req) => {
   const progress = new Map((progressRows ?? []).map((p) => [p.entity_id, p]))
   const now = new Date()
   for (const q of session.questions) {
-    if (q.given === undefined) continue
+    if (q.given === undefined || q.repeated) continue
     const id = q.question.entities?.[0]
     if (!id) continue
     const p = progress.get(id) ?? { user_id: me.user.id, entity_id: id, state: 'new', correct: 0, wrong: 0, streak: 0, ease: 2.5, interval_days: 0 }
@@ -67,7 +74,7 @@ Deno.serve(async (req) => {
   await admin.from('user_progress').upsert([...progress.values()])
 
   const { data: stats } = await admin.from('user_stats').select('*').eq('user_id', me.user.id).single()
-  const answered = session.questions.filter((q: { given?: string }) => q.given !== undefined).length
+  const answered = session.questions.filter((q: { given?: string; repeated?: boolean }) => q.given !== undefined && !q.repeated).length
   const byCat = stats?.by_category ?? {}
   const cat = (byCat[session.category] ??= { answered: 0, correct: 0 })
   cat.answered += answered
@@ -96,5 +103,5 @@ Deno.serve(async (req) => {
     id: session.id, user_id: me.user.id, category: session.category, scope: session.scope, mode: session.mode, length: String(session.length), seed: session.seed,
     started_at: session.startedAt ?? session.started_at, completed_at: session.completedAt ?? session.completed_at ?? null, questions: session.questions, score: correct, xp_earned: xp, validated: true,
   })
-  return json({ xp, correct, answered, newAchievements: fresh.map((a) => a.id) })
+  return json(req, { xp, correct, answered, newAchievements: fresh.map((a) => a.id) })
 })

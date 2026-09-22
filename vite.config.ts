@@ -15,11 +15,11 @@ export default defineConfig(({ mode }) => {
         registerType: 'autoUpdate',
         includeAssets: ['icons/*.svg'],
         manifest: {
-          name: 'GeoKompass',
-          short_name: 'GeoKompass',
-          description: 'Entdecke die Welt. Teste dein Wissen.',
-          theme_color: '#1e2a5a',
-          background_color: '#f7f5f0',
+          name: 'Atlasfunke',
+          short_name: 'Atlasfunke',
+          description: 'Die Welt im Kopf. Den Funken im Blick.',
+          theme_color: '#1f5b73',
+          background_color: '#f4efe3',
           display: 'standalone',
           start_url: base,
           scope: base,
@@ -29,7 +29,7 @@ export default defineConfig(({ mode }) => {
           ],
         },
         workbox: {
-          globPatterns: ['**/*.{js,css,html,svg,woff2}', 'data/index.json', 'data/version.json'],
+          globPatterns: ['**/*.{js,css,html,svg,png,woff2}', 'data/index.json', 'data/version.json'],
           maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
           runtimeCaching: [
             {

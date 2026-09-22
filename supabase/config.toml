@@ -10,7 +10,7 @@ port = 54322
 
 [auth]
 site_url = "http://localhost:5173"
-additional_redirect_urls = ["https://tqnoomaxx.github.io/geokompass", "https://geokompass.app"]
+additional_redirect_urls = ["https://tqnoomaxx.github.io/GeographieWebsite/", "http://localhost:5173/"]
 enable_signup = true
 
 [auth.email]

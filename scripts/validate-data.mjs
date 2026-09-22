@@ -39,6 +39,8 @@ const all = [
 ]
 const ENTITY_TYPES = new Set(['country', 'region', 'city', 'river', 'lake', 'mountain', 'landmark', 'license_plate'])
 const mediaAll = []
+const flagRatios = {}
+const expectedFlagRatios = { CH: 1, VA: 1, NP: 282 / 342, QA: 28 / 11 }
 for (const e of all) {
   if (!e.id || !/^[a-z_]+:[A-Za-z0-9._-]+$/.test(e.id)) err(`ungültige ID: ${JSON.stringify(e.id)}`)
   if (entities.has(e.id)) err(`doppelte ID: ${e.id}`)
@@ -57,6 +59,17 @@ for (const e of all) {
     if (!m.attribution) err(`${e.id}: Medium ${m.id} ohne attribution`)
     if (!m.source) err(`${e.id}: Medium ${m.id} ohne source`)
     if (!existsSync(join(PUBLIC, m.url))) err(`${e.id}: Datei fehlt ${m.url}`)
+    if (e.type === 'country' && m.kind === 'flag' && m.url.endsWith('.svg') && existsSync(join(PUBLIC, m.url))) {
+      const svg = readFileSync(join(PUBLIC, m.url), 'utf8')
+      const viewBox = svg.match(/viewBox="[-.\d]+\s+[-.\d]+\s+([.\d]+)\s+([.\d]+)"/)
+      if (!viewBox) err(`${e.id}: Flagge ohne gültige viewBox`)
+      else {
+        const ratio = Number(viewBox[1]) / Number(viewBox[2])
+        flagRatios[e.attributes.iso2] = Number(ratio.toFixed(4))
+        const expected = expectedFlagRatios[e.attributes.iso2]
+        if (expected && Math.abs(ratio - expected) > 0.03) err(`${e.id}: ungenaues Flaggenformat ${ratio.toFixed(3)} statt ${expected.toFixed(3)}`)
+      }
+    }
   }
   byType[e.type] = (byType[e.type] ?? 0) + 1
 }
@@ -90,6 +103,7 @@ const quality = {
   countries_without_outline: countries.filter((c) => !c.geometry).map((c) => c.id),
   entities_without_media: all.filter((e) => !(e.media?.length) && ['country', 'region', 'landmark'].includes(e.type)).map((e) => e.id),
   conflicts: all.filter((e) => e.provenance?.conflicts?.length).map((e) => ({ id: e.id, conflicts: e.provenance.conflicts })),
+  flag_aspect_ratios: flagRatios,
   warnings,
 }
 writeJson(join(DATA, 'quality.json'), quality)

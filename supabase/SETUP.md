@@ -22,8 +22,8 @@ Alternativ die drei SQL-Dateien nacheinander im **SQL Editor** ausführen.
 supabase functions deploy submit-session
 supabase functions deploy delete-account
 supabase functions deploy feedback
-supabase secrets set ADMIN_EMAIL=deine@mail.de ALLOWED_ORIGIN=https://tqnoomaxx.github.io
-# optional für Mailversand: supabase secrets set RESEND_API_KEY=re_...
+supabase secrets set ADMIN_EMAIL=deine@mail.de ALLOWED_ORIGINS=https://deine-domain.example
+# optional für Mailversand: supabase secrets set RESEND_API_KEY=re_... SENDER_EMAIL=mail@deine-domain.example
 ```
 `SUPABASE_URL`, `SUPABASE_ANON_KEY` und `SUPABASE_SERVICE_ROLE_KEY` stehen den Functions automatisch zur Verfügung.
 
@@ -47,6 +47,8 @@ VITE_SUPABASE_URL=https://<ref>.supabase.co
 VITE_SUPABASE_ANON_KEY=<anon key>
 ```
 GitHub Pages: **Settings → Secrets and variables → Actions → Variables** `VITE_SUPABASE_URL` und `VITE_SUPABASE_ANON_KEY` anlegen. Der Workflow liest sie beim Build. Der anon key ist für den Client bestimmt; Sicherheit kommt aus RLS und den Edge Functions.
+
+Für ein öffentliches Deployment zusätzlich `VITE_SUPABASE_REGION` und `VITE_SUPABASE_DPA_URL` dokumentieren. Mit Supabase einen Auftragsverarbeitungsvertrag abschließen, die ausgewählte EU-Region prüfen und `ALLOWED_ORIGINS` exakt auf die veröffentlichte Domain begrenzen. Mehrere erlaubte Ursprünge werden kommasepariert angegeben.
 
 ## Was dann passiert
 - Ohne Variablen: App läuft als Gast, Login-Seite zeigt einen Hinweis.

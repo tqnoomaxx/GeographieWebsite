@@ -7,7 +7,16 @@ import { batched } from './lib/wikidata.mjs'
 const cachePath = join(CACHE, 'wikidata-labels.json')
 const countriesPath = join(DATA, 'entities', 'countries.json')
 const countries = readJson(countriesPath)
+const citiesPath = join(DATA, 'entities', 'cities.json')
+const cities = readJson(citiesPath)
 const regionFiles = listDir(join(DATA, 'entities', 'regions')).filter((f) => f.endsWith('.json'))
+
+// Gebräuchliche deutsche Exonyme, die in den Rohdaten häufig nur englisch vorliegen.
+const CAPITAL_DE = {
+  AM: 'Jerewan', DJ: 'Dschibuti', DZ: 'Algier', GE: 'Tiflis', GT: 'Guatemala-Stadt', IQ: 'Bagdad', IR: 'Teheran',
+  KG: 'Bischkek', KP: 'Pjöngjang', KW: 'Kuwait-Stadt', LY: 'Tripolis', OM: 'Maskat', SA: 'Riad', SD: 'Khartum',
+  SO: 'Mogadischu', SY: 'Damaskus', TJ: 'Duschanbe', TM: 'Aşgabat', UZ: 'Taschkent', YE: 'Sanaa',
+}
 
 let cache = existsSync(cachePath) && !process.argv.includes('--refresh') ? readJson(cachePath) : { languages: {}, currencies: {}, regions: {} }
 
@@ -49,6 +58,21 @@ for (const c of countries) {
 }
 writeJson(countriesPath, countries)
 
+// Hauptstadtnamen konsistent deutsch halten und den bisherigen Namen als erlaubte Antwort bewahren.
+let capitalHits = 0
+const cityById = new Map(cities.map((city) => [city.id, city]))
+for (const country of countries) {
+  const de = CAPITAL_DE[country.attributes.iso2]
+  const capital = cityById.get(country.attributes.capital)
+  if (!de || !capital || capital.names.de === de) continue
+  capital.aliases = [...new Set([...(capital.aliases ?? []), capital.names.de, capital.names.en].filter((name) => name && name !== de))]
+  capital.names.de = de
+  if (country.attributes.capital_names?.length === 1) country.attributes.capital_names = [de]
+  capitalHits++
+}
+writeJson(citiesPath, cities)
+writeJson(countriesPath, countries)
+
 // Regionen: deutsche Namen, englischer Name als Alias
 let regHits = 0
 const strip = (s) => s?.replace(/^(Oblast|Präfektur|Provinz|Region|Kanton|Bundesland|Komitat|Bezirk|Landkreis|Kreis|Gemeinde|Bundesstaat) /, '')
@@ -68,4 +92,4 @@ for (const f of regionFiles) {
   }
   writeJson(p, list)
 }
-console.log(`Labels: ${Object.keys(cache.languages).length} Sprachen, ${Object.keys(cache.currencies).length} Währungen, ${langHits} Länder angepasst, ${regHits} Regionsnamen eingedeutscht`)
+console.log(`Labels: ${Object.keys(cache.languages).length} Sprachen, ${Object.keys(cache.currencies).length} Währungen, ${langHits} Länder angepasst, ${capitalHits} Hauptstädte, ${regHits} Regionsnamen eingedeutscht`)
