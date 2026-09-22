@@ -6,17 +6,21 @@ interface AuthState {
   configured: boolean
   loading: boolean
   user: AuthUser | null
+  mfaRequired: boolean
   refresh: () => Promise<void>
 }
-const Ctx = createContext<AuthState>({ configured: false, loading: false, user: null, refresh: async () => undefined })
+const Ctx = createContext<AuthState>({ configured: false, loading: false, user: null, mfaRequired: false, refresh: async () => undefined })
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<AuthUser | null>(null)
+  const [mfaRequired, setMfaRequired] = useState(false)
   const [loading, setLoading] = useState(authConfigured)
   const refresh = async () => {
     const u = await auth.getUser().catch(() => null)
+    const needsMfa = u ? await auth.mfaStatus().then((status) => status.required).catch(() => true) : false
     setUser(u)
-    setActiveUser(u?.id ?? null)
+    setMfaRequired(needsMfa)
+    setActiveUser(u && !needsMfa ? u.id : null)
     setLoading(false)
   }
   useEffect(() => {
@@ -24,10 +28,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     void refresh()
     return auth.onChange((u) => {
       setUser(u)
-      setActiveUser(u?.id ?? null)
+      setMfaRequired(!!u)
+      setActiveUser(null)
+      setTimeout(() => void refresh(), 0)
     })
   }, [])
-  return <Ctx.Provider value={{ configured: authConfigured, loading, user, refresh }}>{children}</Ctx.Provider>
+  return <Ctx.Provider value={{ configured: authConfigured, loading, user, mfaRequired, refresh }}>{children}</Ctx.Provider>
 }
 
 export const useAuth = () => useContext(Ctx)

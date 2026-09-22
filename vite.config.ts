@@ -6,11 +6,23 @@ import { VitePWA } from 'vite-plugin-pwa'
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
   const base = env.VITE_BASE_URL ?? '/'
+  let supabaseConnectSource = ''
+  if (env.VITE_SUPABASE_URL) {
+    const origin = new URL(env.VITE_SUPABASE_URL).origin
+    const socketOrigin = origin.replace(/^http/, 'ws')
+    supabaseConnectSource = ` ${origin} ${socketOrigin}`
+  }
   return {
     base,
     plugins: [
       react(),
       tailwindcss(),
+      {
+        name: 'exact-supabase-csp',
+        transformIndexHtml(html) {
+          return html.replace('__SUPABASE_CONNECT_SRC__', supabaseConnectSource)
+        },
+      },
       VitePWA({
         registerType: 'autoUpdate',
         includeAssets: ['icons/*.svg'],

@@ -5,6 +5,7 @@ import { useOnline } from './hooks'
 import { Skeleton } from '@/ui'
 import { Icons } from '@/ui/icons'
 import { BrandMark } from '@/ui/BrandMark'
+import { useAuth } from './AuthProvider'
 
 const NAV = [
   { to: '/', key: 'nav.home', icon: Icons.home, end: true },
@@ -18,6 +19,7 @@ export function Layout() {
   const { t } = useTranslation()
   const online = useOnline()
   const { pathname } = useLocation()
+  const { mfaRequired } = useAuth()
 
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -47,6 +49,7 @@ export function Layout() {
         </div>
       </header>}
       {!online && <div role="status" className="bg-warn-soft px-4 py-1.5 text-center text-xs text-ink">{t('common.offline')}</div>}
+      {mfaRequired && pathname !== '/mfa' && <NavLink to="/mfa" role="alert" className="bg-warn-soft px-4 py-2 text-center text-sm font-medium text-ink underline">{t('account.mfa_required_banner')}</NavLink>}
       <main className="flex-1">
         <Suspense fallback={<div className="mx-auto max-w-5xl p-4"><Skeleton className="h-40" /></div>}>
           <Outlet />

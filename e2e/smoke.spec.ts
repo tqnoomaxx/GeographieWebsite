@@ -261,3 +261,25 @@ test('Flaggen: Land als Bereich und Fragetyp wählen', async ({ page }) => {
   await expect(page.getByRole('heading', { level: 1 })).toBeVisible()
   await expect(page.getByRole('group').getByRole('button')).toHaveCount(4)
 })
+
+test('Account-Sicherheit ist auch ohne Backend verständlich und geschützt', async ({ page }) => {
+  const errors = watchErrors(page)
+  await page.goto('account')
+  await expect(page).toHaveURL(/\/login$/)
+  await expect(page.getByText('Konten sind in dieser Installation noch nicht aktiviert.')).toBeVisible()
+  await page.getByRole('radio', { name: 'Registrieren' }).click()
+  await page.getByLabel('E-Mail').fill('test@example.org')
+  await page.getByLabel('Passwort', { exact: true }).fill('Eine-Lange9!Passphrase')
+  await page.getByLabel('Passwort wiederholen').fill('Eine-Lange9!Passphrase')
+  await expect(page.getByText('✓ mindestens 12 Zeichen')).toBeVisible()
+  await expect(page.getByText('✓ Sonderzeichen')).toBeVisible()
+  await expect(page.getByRole('button', { name: /Registrieren/ })).toBeDisabled()
+  expect(errors).toEqual([])
+})
+
+test('Datenschutz erklärt Gastmodus, Kontofreiwilligkeit und lokale Löschung', async ({ page }) => {
+  await page.goto('datenschutz')
+  await expect(page.getByText('Ein Konto ist freiwillig.')).toBeVisible()
+  await expect(page.getByRole('heading', { name: '4. Lokaler Spielfortschritt und Einstellungen' })).toBeVisible()
+  await expect(page.getByText(/Konten und Cloud-Synchronisierung sind .* nicht aktiviert/)).toBeVisible()
+})

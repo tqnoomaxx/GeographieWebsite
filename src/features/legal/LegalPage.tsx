@@ -49,6 +49,7 @@ function Privacy() {
       <Section title="2. Datenschutz auf einen Blick">
         <p>{BRAND_NAME} verwendet keine Werbung, keine Reichweitenmessung, keine Tracking-Pixel und keine Social-Media-Plugins. Schriftarten, Karten, Flaggen und Anwendungsdateien werden vom selben Ursprung geladen.</p>
         <p>Der Spielfortschritt bleibt im normalen Gastbetrieb auf Ihrem Gerät. Eine Übertragung an uns findet dabei nicht statt.</p>
+        <p>Ein Konto ist freiwillig. Die Quiz- und Lernfunktionen können auch ohne Registrierung genutzt werden.</p>
       </Section>
       <Section title="3. Aufruf und Hosting">
         <p>Beim Aufruf übermittelt Ihr Browser technisch erforderliche Verbindungsdaten an den Hosting-Anbieter {LEGAL.hostingProvider}. Dazu können IP-Adresse, Zeitpunkt, angeforderte Datei, Referrer sowie Browser- und Betriebssystemangaben gehören. Die Verarbeitung dient der sicheren und fehlerfreien Bereitstellung der Website auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO.</p>
@@ -59,13 +60,16 @@ function Privacy() {
         <p>Die lokale Speicherung ist für diese vom Nutzer angeforderten Funktionen erforderlich (§ 25 Abs. 2 Nr. 2 TDDDG). Sie können die Daten unter Einstellungen → Meine Daten exportieren oder vollständig löschen. Ohne gespeicherten Fortschritt kann die Website nach dem Löschen neu begonnen werden.</p>
       </Section>
       <Section title="5. Offline-Funktion">
-        <p>Ein Service Worker hält Programmdateien, Geodaten und Medien im Browser-Cache vor. Dadurch funktionieren bereits geladene Inhalte auch offline und müssen nicht bei jedem Besuch erneut übertragen werden. Die Caches lassen sich über die Browser-Einstellungen oder durch Löschen der Website-Daten entfernen.</p>
+        <p>Ein Service Worker hält Programmdateien, Geodaten und Medien im Browser-Cache vor. Dadurch funktionieren bereits geladene Inhalte auch offline und müssen nicht bei jedem Besuch erneut übertragen werden. Die App-Caches werden über Einstellungen → Meine Daten → Lokale Daten löschen entfernt; alternativ können Sie sämtliche Website-Daten in den Browser-Einstellungen löschen.</p>
       </Section>
       <Section title="6. Optionale Konten">
         {authConfigured ? (
           <>
-            <p>Wenn Sie freiwillig ein Konto anlegen, werden E-Mail-Adresse, Authentifizierungsdaten, Profilangaben und synchronisierter Spielfortschritt bei unserem Auftragsverarbeiter Supabase verarbeitet. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO zur Bereitstellung der gewünschten Konto- und Synchronisationsfunktion.</p>
-            <p>Ein öffentliches Profil wird nur nach Ihrer ausdrücklichen Aktivierung sichtbar. Kontodaten werden bis zur Löschung des Kontos gespeichert; die Löschfunktion befindet sich direkt im Kontobereich. Projektregion: {LEGAL.supabaseRegion || '[vor Aktivierung ergänzen]'}. {LEGAL.supabaseDpaUrl ? <a className={external} href={LEGAL.supabaseDpaUrl} target="_blank" rel="noreferrer">Auftragsverarbeitung und Unterauftragsverarbeiter</a> : 'Angaben zu Auftragsverarbeitung, Unterauftragsverarbeitern und möglichen Drittlandübermittlungen müssen vor Aktivierung ergänzt werden.'}</p>
+            <p>Wenn Sie freiwillig ein Konto anlegen, verarbeiten wir E-Mail-Adresse, technische Authentifizierungs- und Sitzungsdaten, optionale Profilangaben sowie den von Ihnen synchronisierten Quiz-, Lern-, Favoriten- und Rätselstand. Passwörter werden nicht von dieser Anwendung gelesen oder gespeichert, sondern vom Authentifizierungsdienst gehasht verarbeitet. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO zur Bereitstellung der gewünschten Konto- und Synchronisationsfunktion.</p>
+            <p>Empfänger und Auftragsverarbeiter ist Supabase einschließlich der dort dokumentierten Unterauftragsverarbeiter. Projektregion: {LEGAL.supabaseRegion || '[vor Aktivierung ergänzen]'}. {LEGAL.supabaseDpaUrl ? <a className={external} href={LEGAL.supabaseDpaUrl} target="_blank" rel="noreferrer">Auftragsverarbeitung und Unterauftragsverarbeiter</a> : 'Angaben zu Auftragsverarbeitung, Unterauftragsverarbeitern und möglichen Drittlandübermittlungen müssen vor Aktivierung ergänzt werden.'}</p>
+            <p>Ein öffentliches Profil wird ausschließlich nach Ihrer ausdrücklichen Aktivierung sichtbar. Es zeigt nur den gewählten Nutzernamen, Avatar, Farbe, Titel, Level und ausgewählte Erfolge; E-Mail-Adresse und interner Konto-Identifier werden nicht veröffentlicht.</p>
+            <p>Kontodaten werden grundsätzlich bis zur Löschung des Kontos gespeichert, soweit keine gesetzlichen Pflichten oder die Abwehr von Missbrauch im Einzelfall eine begrenzte weitere Verarbeitung erfordern. Im Kontobereich können Sie die beim Konto gespeicherten Daten in einem maschinenlesbaren JSON-Format exportieren und das Konto selbst löschen. Die Löschung entfernt das Auth-Konto und die zugeordneten Cloud-Daten; lokal gespeicherte Browserdaten werden getrennt in den Einstellungen gelöscht.</p>
+            <p>Zum Schutz der Konten verwenden wir E-Mail-Bestätigung, kurzlebige Zugriffstoken, rotierende Sitzungstoken, serverseitige Zugriffskontrollen, mengenbegrenzte Schnittstellen und optional einen Authenticator als zweiten Faktor. Übertragungen erfolgen verschlüsselt per HTTPS.</p>
           </>
         ) : <p>Konten und Cloud-Synchronisierung sind in dieser veröffentlichten Konfiguration nicht aktiviert. Es werden daher keine Konto- oder Fortschrittsdaten an Supabase übertragen.</p>}
       </Section>
@@ -77,6 +81,7 @@ function Privacy() {
       </Section>
       <Section title="9. Ihre Rechte">
         <p>Soweit personenbezogene Daten verarbeitet werden, bestehen insbesondere Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit und Widerspruch nach Art. 15 bis 21 DSGVO. Außerdem können Sie sich bei einer Datenschutz-Aufsichtsbehörde beschweren.</p>
+        <p>Zur Ausübung Ihrer Rechte können Sie die oben genannte Kontaktadresse verwenden. Kontoexport und Kontolöschung stehen zusätzlich direkt im Kontobereich zur Verfügung.</p>
         <p><a className={external} href="https://www.bfdi.bund.de/DE/Service/Anschriften/anschriften_table.html" target="_blank" rel="noreferrer">Anschriften der deutschen Datenschutz-Aufsichtsbehörden</a></p>
       </Section>
       <p className="text-xs text-ink-2">Stand: 22. September 2026</p>

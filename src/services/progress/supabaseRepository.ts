@@ -2,9 +2,10 @@ import type { EntityProgress } from '@/engine/srs'
 import type { QuizSession } from '@/engine/session'
 import { LocalRepository } from './localRepository'
 import type { Profile, ProgressRepository, ProgressSnapshot, PuzzleResult, UserStats } from './types'
+import { getSupabase } from '@/services/auth'
 
 /**
- * Phase-2-Adapter (Supabase). Implementiert dasselbe Interface wie LocalRepository.
+ * Supabase-Adapter. Implementiert dasselbe Interface wie LocalRepository.
  * Strategie: lokal bleibt der schnelle Cache (offline-fähig); Schreibvorgänge mit XP-Relevanz gehen an Edge Functions,
  * Lesevorgänge kommen vom Server, wenn online. Aktiv nur, wenn VITE_SUPABASE_URL gesetzt und der Nutzer eingeloggt ist.
  *
@@ -14,14 +15,27 @@ export class SupabaseRepository implements ProgressRepository {
   private local = new LocalRepository('geokompass-cache')
   private client: Promise<SupabaseLike>
 
-  constructor(url: string, anonKey: string) {
-    this.client = import('@supabase/supabase-js').then((m) => m.createClient(url, anonKey) as unknown as SupabaseLike)
+  constructor() {
+    this.client = getSupabase() as unknown as Promise<SupabaseLike>
   }
 
   private async userId(): Promise<string | null> {
     const c = await this.client
     const { data } = await c.auth.getUser()
     return data.user?.id ?? null
+  }
+
+  private async ownRows(table: string, columns: string): Promise<Array<Record<string, never>> | null> {
+    const c = await this.client
+    const uid = await this.userId()
+    if (!uid || !navigator.onLine) return null
+    const rows: Array<Record<string, never>> = []
+    for (let start = 0; ; start += 1000) {
+      const { data, error } = await c.from(table).select(columns).eq('user_id', uid).range(start, start + 999)
+      if (error) throw error
+      rows.push(...(data ?? []))
+      if (!data || data.length < 1000) return rows
+    }
   }
 
   async getStats(): Promise<UserStats> {
@@ -53,10 +67,8 @@ export class SupabaseRepository implements ProgressRepository {
     return (await this.getAllEntityProgress()).get(id)
   }
   async getAllEntityProgress() {
-    const c = await this.client
-    const uid = await this.userId()
-    if (!uid || !navigator.onLine) return this.local.getAllEntityProgress()
-    const { data } = await c.from('user_progress').select('*').eq('user_id', uid)
+    const data = await this.ownRows('user_progress', '*')
+    if (!data) return this.local.getAllEntityProgress()
     const list: EntityProgress[] = (data ?? []).map((p) => ({
       entityId: p.entity_id, state: p.state, correct: p.correct, wrong: p.wrong, streak: p.streak, ease: p.ease, intervalDays: p.interval_days, dueAt: p.due_at, lastSeenAt: p.last_seen_at,
     }))
@@ -94,31 +106,25 @@ export class SupabaseRepository implements ProgressRepository {
     return this.local.deleteSession(id)
   }
   async getAchievements() {
-    const c = await this.client
-    const uid = await this.userId()
-    if (!uid || !navigator.onLine) return this.local.getAchievements()
-    const { data } = await c.from('user_achievements').select('achievement_id, unlocked_at').eq('user_id', uid)
-    return (data ?? []).map((a) => ({ id: a.achievement_id, unlockedAt: a.unlocked_at }))
+    const data = await this.ownRows('user_achievements', 'achievement_id, unlocked_at')
+    if (!data) return this.local.getAchievements()
+    return data.map((a) => ({ id: a.achievement_id, unlockedAt: a.unlocked_at }))
   }
   async unlockAchievement(id: string) {
     await this.local.unlockAchievement(id) // serverseitig via submit-session
   }
   async getQuests() {
-    const c = await this.client
-    const uid = await this.userId()
-    if (!uid || !navigator.onLine) return this.local.getQuests()
-    const { data } = await c.from('user_quests').select('*').eq('user_id', uid)
-    return (data ?? []).map((q) => ({ id: q.quest_id, progress: q.progress, startedAt: q.started_at, completedAt: q.completed_at ?? undefined }))
+    const data = await this.ownRows('user_quests', '*')
+    if (!data) return this.local.getQuests()
+    return data.map((q) => ({ id: q.quest_id, progress: q.progress, startedAt: q.started_at, completedAt: q.completed_at ?? undefined }))
   }
   async saveQuest(q: { id: string; progress: number; completedAt?: string; startedAt: string }) {
     await this.local.saveQuest(q)
   }
   async getFavorites() {
-    const c = await this.client
-    const uid = await this.userId()
-    if (!uid || !navigator.onLine) return this.local.getFavorites()
-    const { data } = await c.from('favorites').select('entity_id').eq('user_id', uid)
-    return (data ?? []).map((f) => f.entity_id)
+    const data = await this.ownRows('favorites', 'entity_id')
+    if (!data) return this.local.getFavorites()
+    return data.map((f) => f.entity_id)
   }
   async toggleFavorite(id: string) {
     const on = await this.local.toggleFavorite(id)
@@ -170,7 +176,7 @@ export class SupabaseRepository implements ProgressRepository {
   }
 }
 
-/** Minimale Typen, damit kein Build-Zwang auf @supabase/supabase-js besteht, bevor Phase 2 startet. */
+/** Minimale Typen für den lazy geladenen Supabase-Client. */
 interface SupabaseLike {
   auth: { getUser(): Promise<{ data: { user: { id: string } | null } }> }
   from(table: string): QueryLike
@@ -179,9 +185,10 @@ interface SupabaseLike {
 interface QueryLike {
   select(cols: string): QueryLike
   eq(col: string, v: unknown): QueryLike
+  range(from: number, to: number): QueryLike
   maybeSingle(): Promise<{ data: Record<string, never> | null }>
   upsert(v: unknown): Promise<unknown>
   update(v: unknown): QueryLike
   delete(): QueryLike
-  then<T>(cb: (r: { data: Array<Record<string, never>> | null }) => T): Promise<T>
+  then<T>(cb: (r: { data: Array<Record<string, never>> | null; error: unknown }) => T): Promise<T>
 }

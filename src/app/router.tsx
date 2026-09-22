@@ -31,6 +31,7 @@ const NaturePage = lazy(() => import('@/features/explore/NaturePage'))
 const Login = lazy(() => import('@/features/account/LoginPage'))
 const Account = lazy(() => import('@/features/account/AccountPage'))
 const ResetPw = lazy(() => import('@/features/account/ResetPasswordPage'))
+const MfaChallenge = lazy(() => import('@/features/account/MfaChallengePage'))
 const PublicProfile = lazy(() => import('@/features/account/PublicProfilePage'))
 
 // GitHub-Pages-Fallback: 404.html kodiert den Pfad als ?p=
@@ -86,6 +87,7 @@ export const router = createBrowserRouter(
         { path: '/login', element: <Login /> },
         { path: '/account', element: <Account /> },
         { path: '/passwort', element: <ResetPw /> },
+        { path: '/mfa', element: <MfaChallenge /> },
         { path: '/u/:username', element: <PublicProfile /> },
         { path: '*', element: <Navigate to="/" replace /> },
       ],

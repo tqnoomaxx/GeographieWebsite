@@ -12,7 +12,7 @@ interface Schema extends DBSchema {
   puzzles: { key: string; value: PuzzleResult }
 }
 
-/** IndexedDB-Adapter für Gäste. Wird in Phase 2 durch einen Supabase-Adapter mit gleichem Interface ergänzt. */
+/** IndexedDB-Adapter für Gäste und als Offline-Cache für Konten. */
 export class LocalRepository implements ProgressRepository {
   private db: Promise<IDBPDatabase<Schema>>
   constructor(name = 'geokompass') {
@@ -143,4 +143,3 @@ export class LocalRepository implements ProgressRepository {
     for (const store of ['kv', 'entities', 'sessions', 'achievements', 'quests', 'puzzles'] as const) await db.clear(store)
   }
 }
-

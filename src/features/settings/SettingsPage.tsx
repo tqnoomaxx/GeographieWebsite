@@ -2,7 +2,7 @@ import { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useAsync, useDocumentTitle } from '@/app/hooks'
-import { getRepository } from '@/services/progress'
+import { getLocalRepository, getRepository } from '@/services/progress'
 import type { ProgressSnapshot } from '@/services/progress/types'
 import { getThemeMode, setThemeMode, type ThemeMode } from '@/services/settings/theme'
 import { loadVersion } from '@/services/data/dataService'
@@ -28,8 +28,12 @@ export default function SettingsPage() {
   }
   const importData = async (file: File) => {
     try {
+      if (file.size > 10 * 1024 * 1024) throw new Error('size')
       const snap = JSON.parse(await file.text()) as ProgressSnapshot
-      if (snap.version !== 1) throw new Error('version')
+      if (
+        snap.version !== 1 || !snap.stats || !Array.isArray(snap.entities) || !Array.isArray(snap.achievements) ||
+        !Array.isArray(snap.quests) || !Array.isArray(snap.favorites) || !Array.isArray(snap.sessions) || !Array.isArray(snap.puzzles)
+      ) throw new Error('format')
       const before = await repo.getStats()
       const beforeAch = (await repo.getAchievements()).length
       const beforeEnt = (await repo.getAllEntityProgress()).size
@@ -43,7 +47,9 @@ export default function SettingsPage() {
   const clear = async () => {
     if (!confirm(t('settings.delete_confirm'))) return
     await repo.clearAll()
+    await getLocalRepository().clearAll()
     for (const k of Object.keys(localStorage)) if (k.startsWith('gk.')) localStorage.removeItem(k)
+    if ('caches' in window) await Promise.all((await caches.keys()).map((name) => caches.delete(name)))
     show(t('settings.deleted'))
   }
 

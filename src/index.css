@@ -167,6 +167,13 @@ body {
   @apply bg-accent text-accent-ink border-accent;
 }
 
+/* Keep selected chips visually selected regardless of generated utility order. */
+.chip.chip-active {
+  background-color: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-ink);
+}
+
 /* Kategoriefarben: Hintergrund und Icon-Farbe, dunkelmodusfähig */
 .tone-red { background: #fbe3dc; color: #b94c35; }
 .tone-indigo { background: #dbe8ec; color: #1f5b73; }
