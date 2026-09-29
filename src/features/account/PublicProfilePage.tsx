@@ -22,8 +22,8 @@ export default function PublicProfilePage() {
   const level = levelForXp(data.xp)
   return (
     <Page back="/">
-      <Card className="mx-auto max-w-md flex flex-col items-center py-10 text-center" style={{ background: `linear-gradient(180deg, ${data.color}22, transparent)` }}>
-        <div className="flex h-24 w-24 items-center justify-center rounded-full text-5xl" style={{ background: data.color + '33' }} aria-hidden>{data.avatar}</div>
+      <Card className="profile-hero mx-auto max-w-md flex flex-col items-center py-10 text-center" style={{ borderTopColor: data.color }}>
+        <div className="profile-avatar flex h-24 w-24 items-center justify-center text-5xl" style={{ background: data.color + '33' }} aria-hidden>{data.avatar}</div>
         <p className="mt-3 text-2xl font-semibold">{data.username}</p>
         <p className="text-ink-2">{t('progress.level', { level: level.level })}{data.title && ` · ${data.title}`}</p>
         <ul className="mt-4 flex flex-wrap justify-center gap-2">

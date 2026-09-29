@@ -33,8 +33,8 @@ export default function ProfilePage() {
     setP((x) => ({ ...x, featuredAchievements: x.featuredAchievements.includes(id) ? x.featuredAchievements.filter((a) => a !== id) : [...x.featuredAchievements, id].slice(-5) }))
   return (
     <Page title={t('profile.title')} action={<Link to="/settings" className="btn-ghost px-3" aria-label={t('nav.settings')}><Settings className="h-5 w-5" /></Link>}>
-      <Card className="mb-5 flex flex-col items-center py-8 text-center" style={{ background: `linear-gradient(180deg, ${p.color}22, transparent)` }}>
-        <div className="flex h-24 w-24 items-center justify-center rounded-full text-5xl" style={{ background: p.color + '33' }} aria-hidden>
+      <Card className="profile-hero mb-5 flex flex-col items-center py-8 text-center" style={{ borderTopColor: p.color }}>
+        <div className="profile-avatar flex h-24 w-24 items-center justify-center text-5xl" style={{ background: p.color + '33' }} aria-hidden>
           {p.avatar}
         </div>
         <p className="mt-3 text-2xl font-semibold">{p.username || t('profile.guest')}</p>
@@ -70,7 +70,7 @@ export default function ProfilePage() {
           <legend className="mb-1 text-sm">{t('profile.color')}</legend>
           <div className="flex gap-2">
             {COLORS.map((c) => (
-              <button key={c} type="button" aria-label={c} aria-pressed={p.color === c} className={`h-10 w-10 rounded-full border-2 ${p.color === c ? 'border-ink' : 'border-transparent'}`} style={{ background: c }} onClick={() => setP({ ...p, color: c })} />
+              <button key={c} type="button" aria-label={c} aria-pressed={p.color === c} className={`profile-color-choice h-10 w-10 border-2 ${p.color === c ? 'border-ink' : 'border-transparent'}`} style={{ background: c }} onClick={() => setP({ ...p, color: c })} />
             ))}
           </div>
         </fieldset>

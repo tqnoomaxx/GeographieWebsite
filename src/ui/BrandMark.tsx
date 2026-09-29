@@ -3,10 +3,12 @@ import { BRAND_NAME } from '@/config/brand'
 export function BrandMark({ className = 'h-8 w-8' }: { className?: string }) {
   return (
     <svg viewBox="0 0 48 48" className={className} role="img" aria-label={`${BRAND_NAME} Zeichen`}>
-      <rect width="48" height="48" rx="15" className="fill-accent" />
-      <path d="M24 8 27.7 20.3 40 24l-12.3 3.7L24 40l-3.7-12.3L8 24l12.3-3.7L24 8Z" className="fill-bg" />
-      <path d="m24 13 2.2 8.8L35 24l-8.8 2.2L24 35l-2.2-8.8L13 24l8.8-2.2L24 13Z" className="fill-coral" />
-      <circle cx="24" cy="24" r="3.5" className="fill-gold" />
+      <circle cx="24" cy="24" r="16.5" fill="none" className="stroke-current" strokeWidth="1.5" />
+      <circle cx="24" cy="24" r="11" fill="none" className="stroke-current" strokeWidth="0.8" />
+      <path d="M24 2v44M2 24h44" className="stroke-current" strokeWidth="1.3" />
+      <path d="m24 5 4.1 14.9L43 24l-14.9 4.1L24 43l-4.1-14.9L5 24l14.9-4.1L24 5Z" className="fill-current" />
+      <path d="m24 11 1.9 11.1L37 24l-11.1 1.9L24 37l-1.9-11.1L11 24l11.1-1.9L24 11Z" className="fill-bg" />
+      <circle cx="24" cy="24" r="3.4" className="fill-coral" />
     </svg>
   )
 }

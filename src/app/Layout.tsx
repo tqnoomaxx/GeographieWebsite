@@ -28,23 +28,24 @@ export function Layout() {
   const immersive = /^\/play\/[^/]+\/round/.test(pathname) || pathname.startsWith('/play/session/') || /^\/daily\/[^/]+$/.test(pathname)
   return (
     <div className={`flex min-h-dvh flex-col ${immersive ? '' : 'site-shell'}`}>
-      {!immersive && <header className="sticky top-0 z-40 hidden border-b border-line bg-bg/85 backdrop-blur md:block">
-        <div className="mx-auto flex h-14 max-w-5xl items-center gap-6 px-4">
-          <NavLink to="/" className="flex items-center gap-2 font-semibold tracking-tight">
-            <BrandMark className="h-8 w-8" />
-            {t('app.name')}
+      {!immersive && <header className="site-header sticky top-0 z-40 hidden md:block">
+        <div className="site-header-inner mx-auto flex max-w-[90rem] items-stretch px-4">
+          <NavLink to="/" className="site-brand flex items-center gap-3">
+            <BrandMark className="h-10 w-10" />
+            <span>{t('app.name')}</span>
+            <small>52.5200° N<br />13.4050° E</small>
           </NavLink>
-          <nav className="flex gap-1" aria-label="Hauptnavigation">
+          <nav className="site-nav flex" aria-label="Hauptnavigation">
             {NAV.slice(1).map((n) => (
-              <NavLink key={n.to} to={n.to} className={({ isActive }) => `flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-medium ${isActive ? 'bg-accent-soft text-accent' : 'text-ink-2 hover:bg-card-2 hover:text-ink'}`}>
-                <n.icon className="h-4 w-4" strokeWidth={1.75} aria-hidden /> {t(n.key)}
+              <NavLink key={n.to} to={n.to} className={({ isActive }) => `site-nav-link flex items-center gap-2 px-4 text-sm font-bold ${isActive ? 'is-active' : ''}`}>
+                <n.icon className="h-4 w-4" strokeWidth={2} aria-hidden /> {t(n.key)}
               </NavLink>
             ))}
           </nav>
-          <div className="ml-auto flex items-center gap-1">
-            <NavLink to="/daily" className="btn-ghost px-3 py-2" aria-label={t('nav.daily')}><Icons.daily className="h-5 w-5" strokeWidth={1.75} /></NavLink>
-            <NavLink to="/search" className="btn-ghost px-3 py-2" aria-label={t('nav.search')}><Icons.search className="h-5 w-5" strokeWidth={1.75} /></NavLink>
-            <NavLink to="/profile" className="btn-ghost px-3 py-2" aria-label={t('nav.profile')}><Icons.profile className="h-5 w-5" strokeWidth={1.75} /></NavLink>
+          <div className="site-tools ml-auto flex items-stretch">
+            <NavLink to="/daily" className="site-tool" aria-label={t('nav.daily')}><Icons.daily className="h-5 w-5" strokeWidth={2} /></NavLink>
+            <NavLink to="/search" className="site-tool" aria-label={t('nav.search')}><Icons.search className="h-5 w-5" strokeWidth={2} /></NavLink>
+            <NavLink to="/profile" className="site-tool" aria-label={t('nav.profile')}><Icons.profile className="h-5 w-5" strokeWidth={2} /></NavLink>
           </div>
         </div>
       </header>}
@@ -56,20 +57,22 @@ export function Layout() {
         </Suspense>
       </main>
       {!immersive && (
-        <footer className="border-t border-line px-4 pb-24 pt-6 text-sm text-ink-2 md:pb-6">
-          <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-center gap-x-5 gap-y-2">
+        <footer className="site-footer px-4 pb-24 pt-10 text-sm md:pb-10">
+          <div className="mx-auto flex max-w-[90rem] flex-wrap items-center gap-x-6 gap-y-3">
+            <BrandMark className="h-9 w-9" />
+            <strong>{t('app.name')}</strong>
             <NavLink to="/impressum" className="hover:text-ink">{t('legal.imprint')}</NavLink>
             <NavLink to="/datenschutz" className="hover:text-ink">{t('legal.privacy')}</NavLink>
             <NavLink to="/quellen" className="hover:text-ink">{t('settings.sources')}</NavLink>
-            <span>© {new Date().getFullYear()} {t('app.name')}</span>
+            <span className="ml-auto">© {new Date().getFullYear()} · Wissen macht Wege</span>
           </div>
         </footer>
       )}
       {!immersive && (
-        <nav className="fixed inset-x-0 bottom-0 z-40 border-t border-line bg-bg/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden" aria-label="Hauptnavigation">
+        <nav className="mobile-nav fixed inset-x-0 bottom-0 z-40 pb-[env(safe-area-inset-bottom)] md:hidden" aria-label="Hauptnavigation">
           <div className="grid grid-cols-5">
             {NAV.map((n) => (
-              <NavLink key={n.to} to={n.to} end={n.end} className={({ isActive }) => `flex min-h-14 flex-col items-center justify-center gap-0.5 text-[11px] font-medium ${isActive ? 'text-accent' : 'text-ink-2'}`}>
+              <NavLink key={n.to} to={n.to} end={n.end} className={({ isActive }) => `mobile-nav-link flex min-h-16 flex-col items-center justify-center gap-0.5 text-[10px] font-bold uppercase tracking-wide ${isActive ? 'is-active' : ''}`}>
                 {({ isActive }) => (
                   <>
                     <n.icon className="h-5 w-5" strokeWidth={isActive ? 2.25 : 1.75} aria-hidden />

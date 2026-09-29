@@ -7,15 +7,15 @@ import { ChevronLeft } from 'lucide-react'
 
 export function Page({ title, children, back, action, wide = false }: { title?: string; children: ReactNode; back?: string; action?: ReactNode; wide?: boolean }) {
   return (
-    <div className={`mx-auto w-full px-4 pb-24 pt-4 md:pb-10 md:pt-8 ${wide ? 'max-w-7xl' : 'max-w-5xl'}`}>
+    <div className={`page-shell mx-auto w-full px-4 pb-24 pt-5 md:pb-12 md:pt-10 ${wide ? 'max-w-[90rem]' : 'max-w-6xl'}`}>
       {(title || back) && (
-        <header className="mb-5 flex items-center gap-3">
+        <header className="page-heading mb-7 flex items-end gap-3">
           {back && (
-            <Link to={back} className="btn-ghost -ml-2 px-2" aria-label="Zurück">
+            <Link to={back} className="page-back btn-ghost -ml-2 px-2" aria-label="Zurück">
               <ChevronLeft className="h-6 w-6" />
             </Link>
           )}
-          {title && <h1 className="min-w-0 flex-1 break-words text-[clamp(2rem,9vw,2.5rem)] font-medium leading-tight md:text-5xl">{title}</h1>}
+          {title && <h1 className="min-w-0 flex-1 break-words text-[clamp(2.5rem,9vw,5.5rem)] font-black leading-[.86] md:tracking-[-.055em]">{title}</h1>}
           {action && <div className="ml-auto shrink-0">{action}</div>}
         </header>
       )}
@@ -36,8 +36,8 @@ export function ProgressBar({ value, label, className = '' }: { value: number; l
   const pct = Math.max(0, Math.min(100, Math.round(value * 100)))
   return (
     <div className={className} role="progressbar" aria-valuenow={pct} aria-valuemin={0} aria-valuemax={100} aria-label={label}>
-      <div className="h-2.5 w-full overflow-hidden rounded-full bg-card-2">
-        <div className="h-full rounded-full bg-accent transition-[width]" style={{ width: `${pct}%` }} />
+      <div className="h-2.5 w-full overflow-hidden border border-ink bg-card">
+        <div className="h-full bg-accent transition-[width]" style={{ width: `${pct}%` }} />
       </div>
     </div>
   )

@@ -338,16 +338,20 @@ function CategoryHub() {
   const { data: open } = useAsync(() => getRepository().getOpenSessions(), [])
   useDocumentTitle(t('nav.play'))
   return (
-    <Page title={t('play.title')}>
+    <Page wide>
+      <header className="play-masthead">
+        <div><span>SPIELREGISTER · 02</span><h1>{t('play.title')}</h1></div>
+        <p>Ein Thema. Ein Modus.<br /><strong>Deine nächste Route.</strong></p>
+      </header>
       {open && open.length > 0 && (
-        <section className="mb-6">
-          <h2 className="mb-2 text-sm font-medium uppercase tracking-wider text-ink-2">{t('play.open_runs')}</h2>
+        <section className="play-open-runs">
+          <h2>{t('play.open_runs')}</h2>
           <div className="grid gap-2">
             {open.slice(0, 2).map((s) => {
               const total = baseQuestionTotal(s)
               const position = baseQuestionPosition(s)
               return (
-                <Link key={s.id} to={`/play/session/${encodeURIComponent(s.id)}`} className="card flex items-center gap-3 p-3 hover:bg-card-2">
+                <Link key={s.id} to={`/play/session/${encodeURIComponent(s.id)}`} className="play-open-row">
                   <div className="min-w-0 flex-1">
                     <RoundTitle setup={setupOf(s)} progress={{ done: position, total }} />
                     <ProgressBar className="mt-2" value={position / total} />
@@ -360,17 +364,22 @@ function CategoryHub() {
           </div>
         </section>
       )}
-      <div className="grid grid-cols-2 gap-3 md:grid-cols-3">
+      <div className="play-category-register">
         {PLAY_QUIZZES.map((c) => (
-          <Link key={c.id} to={`/play/${c.id}`} className="card flex min-w-0 items-center gap-3 overflow-hidden p-3 hover:bg-card-2">
-            <CategoryIconTile id={c.id} size="sm" />
-            <span className="min-w-0 flex-1 break-words hyphens-auto text-sm font-medium leading-tight sm:text-base">{t(`category.${c.id}`)}</span>
-            {c.countKey && geo.index?.counts[c.countKey] !== undefined && <span className="ml-auto hidden shrink-0 text-xs text-ink-2 sm:inline">{geo.index.counts[c.countKey]}</span>}
+          <Link key={c.id} to={`/play/${c.id}`} className="play-category-row" aria-label={t(`category.${c.id}`)}>
+            <span className="play-category-index">{String(PLAY_QUIZZES.indexOf(c) + 1).padStart(2, '0')}</span>
+            <CategoryIconTile id={c.id} />
+            <span className="play-category-name">{t(`category.${c.id}`)}</span>
+            {c.countKey && geo.index?.counts[c.countKey] !== undefined && <span className="play-category-count">{geo.index.counts[c.countKey].toLocaleString('de-DE')} Einträge</span>}
+            <Icons.arrow className="play-category-arrow" aria-hidden />
           </Link>
         ))}
-        <Link to="/daily" className="card flex items-center gap-3 p-3 hover:bg-card-2">
+        <Link to="/daily" className="play-category-row play-daily-row">
+          <span className="play-category-index">+</span>
           <IconTile icon={Icons.daily} tone="tone-violet" size="sm" />
-          <span className="font-medium">{t('daily.title')}</span>
+          <span className="play-category-name">{t('daily.title')}</span>
+          <span className="play-category-count">Sechs neue Rätsel pro Tag</span>
+          <Icons.arrow className="play-category-arrow" aria-hidden />
         </Link>
       </div>
     </Page>

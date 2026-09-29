@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
 import { useDocumentTitle } from '@/app/hooks'
-import { Page, Card, Flag } from '@/ui'
+import { Page, Flag } from '@/ui'
 import { Icons, IconTile } from '@/ui/icons'
 import { Ruler, Users, Landmark, Waves, Droplets, Mountain } from 'lucide-react'
 import type { Country } from '@/domain/types'
@@ -22,40 +22,51 @@ export default function ExplorePage() {
     { id: 'mountains', icon: Mountain, tone: 'tone-green', label: t('explore.highest_mountains') },
   ]
   return (
-    <Page title={t('explore.title')} action={<Link to="/search" className="btn-ghost px-3" aria-label={t('nav.search')}><Icons.search className="h-5 w-5" /></Link>}>
-      <h2 className="mb-2 text-sm font-medium uppercase tracking-wider text-ink-2">{t('explore.lists')}</h2>
-      <div className="mb-6 grid gap-2 md:grid-cols-3">
+    <Page wide>
+      <header className="explore-masthead">
+        <div><span>WELTREGISTER · 04</span><h1>{t('explore.title')}</h1></div>
+        <p>Orte, Zahlen und Extreme.<br />Systematisch, aber nie trocken.</p>
+        <Link to="/search" className="explore-search" aria-label={t('nav.search')}><Icons.search /> Suchen</Link>
+      </header>
+      <section className="explore-layout">
+        <div className="explore-lists">
+          <header><span>01</span><h2>{t('explore.lists')}</h2></header>
         {lists.map((l) => (
-          <Link key={l.id} to={`/explore/${l.id}`} className="card flex items-center gap-3 p-3 hover:bg-card-2">
+          <Link key={l.id} to={`/explore/${l.id}`} className="explore-list-row">
+            <span className="explore-row-index">{String(lists.indexOf(l) + 1).padStart(2, '0')}</span>
             <IconTile icon={l.icon} tone={l.tone} size="sm" />
-            <span className="font-medium">{l.label}</span>
+            <strong>{l.label}</strong>
+            <Icons.arrow aria-hidden />
           </Link>
         ))}
-      </div>
-      <h2 className="mb-2 text-sm font-medium uppercase tracking-wider text-ink-2">{t('explore.continents')}</h2>
-      <div className="grid gap-4 md:grid-cols-2">
+        </div>
+        <div className="explore-continents">
+          <header><span>02</span><h2>{t('explore.continents')}</h2></header>
+          <div className="explore-continent-grid">
         {CONTINENTS.map((c) => {
           const countries = geo.countries.filter((x) => x.attributes.continent === c && (x as Country).attributes.independent !== false).sort((a, b) => a.names.de.localeCompare(b.names.de))
           return (
-            <Card key={c} as="section">
-              <h3 className="mb-2 flex items-center justify-between font-semibold">
+            <section key={c} className="explore-continent-sheet">
+              <h3>
                 <span>{t(`scope.${c}`)}</span>
-                <span className="text-xs font-normal text-ink-2">{countries.length}</span>
+                <span>{countries.length}</span>
               </h3>
-              <ul className="grid grid-cols-2 gap-1 text-sm">
+              <ul>
                 {countries.map((x) => (
                   <li key={x.id}>
-                    <Link to={`/country/${x.attributes.iso2}`} className="flex items-center gap-2 rounded-lg px-2 py-1.5 hover:bg-card-2">
+                    <Link to={`/country/${x.attributes.iso2}`}>
                       <Flag entity={x} size="sm" />
                       <span className="truncate">{x.names.de}</span>
                     </Link>
                   </li>
                 ))}
               </ul>
-            </Card>
+            </section>
           )
         })}
-      </div>
+          </div>
+        </div>
+      </section>
     </Page>
   )
 }
