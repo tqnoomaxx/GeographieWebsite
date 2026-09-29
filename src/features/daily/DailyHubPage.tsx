@@ -2,10 +2,11 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useAsync, useDocumentTitle, useStats } from '@/app/hooks'
 import { getRepository } from '@/services/progress'
-import { Page, Card } from '@/ui'
+import { Page } from '@/ui'
 import { PUZZLES } from './puzzles'
-import { Icons, IconTile, PUZZLE_ICONS } from '@/ui/icons'
+import { Icons } from '@/ui/icons'
 import { todayKey } from '@/engine/rng'
+import { PuzzleArt } from './PuzzleArt'
 
 export default function DailyHubPage() {
   const { t } = useTranslation()
@@ -13,30 +14,63 @@ export default function DailyHubPage() {
   const { data: results } = useAsync(() => getRepository().getPuzzles(), [])
   const { stats } = useStats()
   const today = todayKey()
+  const puzzles = PUZZLES.filter((p) => p.available)
+  const todayResults = puzzles.map((p) => results?.find((result) => result.key === `${p.id}:${today}`))
+  const solved = todayResults.filter((result) => result?.solved).length
+  const nextOpen = todayResults.findIndex((result) => !result?.finishedAt)
+  const current = nextOpen < 0 ? puzzles.length - 1 : nextOpen
+  const dateLabel = new Date().toLocaleDateString('de-DE', { weekday: 'long', day: 'numeric', month: 'long' })
+
   return (
-    <Page title={t('daily.title')} action={<IconTile icon={Icons.daily} tone="tone-violet" size="sm" />}>
-      <p className="mb-4 text-sm text-ink-2">
-        {t('daily.today')}: {new Date().toLocaleDateString('de-DE', { weekday: 'long', day: 'numeric', month: 'long' })}
-        {stats && stats.streak.current > 0 && <span className="ml-2 inline-flex items-center gap-1"><Icons.flame className="h-3.5 w-3.5" /> {t('progress.streak', { days: stats.streak.current })}</span>}
-      </p>
-      <div className="grid gap-3 md:grid-cols-2">
-        {PUZZLES.filter((p) => p.available).map((p) => {
-          const r = results?.find((x) => x.key === `${p.id}:${today}`)
+    <Page wide>
+      <header className="daily-page-head">
+        <div>
+          <h1>{t('daily.title')}</h1>
+          <p>{dateLabel}</p>
+        </div>
+        <p className="daily-page-note">{t('daily.page_note')}</p>
+      </header>
+
+      <section className="daily-overview" aria-label={t('daily.progress_label')}>
+        <div className="daily-overview-stats">
+          <div><Icons.flame aria-hidden /><strong>{stats?.streak.current ?? 0}</strong><span>{t('daily.streak_days')}</span></div>
+          <div><Icons.daily aria-hidden /><strong>{solved}</strong><span>{t('daily.of_six_solved')}</span></div>
+        </div>
+        <ol className="daily-route" aria-label={t('daily.route_label')}>
+          {puzzles.map((puzzle, index) => {
+            const result = todayResults[index]
+            const state = result?.solved ? 'is-solved' : result?.finishedAt ? 'is-failed' : index === current ? 'is-current' : ''
+            return <li key={puzzle.id} className={state}><span>{String(index + 1).padStart(2, '0')}</span><small className="sr-only">{t(`daily.${puzzle.id}`)}</small></li>
+          })}
+        </ol>
+        <span className="daily-compass" aria-hidden><Icons.explore /></span>
+      </section>
+
+      <div className="daily-itinerary">
+        {puzzles.map((puzzle, index) => {
+          const result = todayResults[index]
+          const status = result?.finishedAt
+            ? result.solved ? `✓ ${result.guesses.length}/6` : `✕ ${t('daily.failed')}`
+            : result?.guesses.length ? `${result.guesses.length}/6` : index === 0 ? t('daily.play_puzzle') : t('daily.open_puzzle')
           return (
-            <Link key={p.id} to={`/daily/${p.id}`} className="card flex items-center gap-4 p-4 hover:bg-card-2">
-              <IconTile icon={PUZZLE_ICONS[p.id]} tone="tone-violet" />
-              <div className="flex-1">
-                <p className="font-semibold">{t(`daily.${p.id}`)}</p>
-                <p className="text-sm text-ink-2">{t(`daily.${p.id}_desc`)}</p>
-              </div>
-              <span className={`text-sm font-medium ${r?.finishedAt ? (r.solved ? 'text-ok' : 'text-bad') : 'text-ink-2'}`}>
-                {r?.finishedAt ? (r.solved ? `✓ ${r.guesses.length}/6` : '✕') : r?.guesses.length ? `${r.guesses.length}/6` : '→'}
+            <Link key={puzzle.id} to={`/daily/${puzzle.id}`} className={`daily-stop ${index === 0 ? 'daily-stop-featured' : ''} ${result?.solved ? 'is-solved' : result?.finishedAt ? 'is-failed' : ''}`}>
+              <span className="daily-stop-number">{String(index + 1).padStart(2, '0')}</span>
+              <PuzzleArt puzzle={puzzle.id} featured={index === 0} />
+              <span className="daily-stop-copy">
+                <strong>{t(`daily.${puzzle.id}`)}</strong>
+                <small>{t(`daily.${puzzle.id}_desc`)}</small>
               </span>
+              <span className="daily-stop-status">{status}<Icons.arrow aria-hidden /></span>
             </Link>
           )
         })}
       </div>
-      <Card className="mt-6 text-sm text-ink-2">{t('daily.come_back')}</Card>
+
+      <div className="daily-return">
+        <span aria-hidden />
+        <p>{t('daily.come_back')}</p>
+        <span aria-hidden />
+      </div>
     </Page>
   )
 }

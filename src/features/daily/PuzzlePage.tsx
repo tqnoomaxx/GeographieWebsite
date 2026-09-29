@@ -15,6 +15,8 @@ import { Outline } from '@/ui/maps'
 import { MAX_ATTEMPTS, PUZZLES, arrowFor, bearing, compare, distanceKm, pickDaily, pickDailyFrom, proximityEmoji, shareText, type PuzzleDef } from './puzzles'
 import type { Entity } from '@/domain/types'
 import { RegionMapView } from '@/ui/maps'
+import { Icons } from '@/ui/icons'
+import { PuzzleArt } from './PuzzleArt'
 
 export default function PuzzlePage() {
   const { t } = useTranslation()
@@ -100,18 +102,28 @@ export default function PuzzlePage() {
   const share = shareText(t(`daily.${def.id}`), practice ? t('daily.practice') : date, rows, result.solved, attempts)
 
   return (
-    <div className="mx-auto w-full max-w-xl px-4 pb-8 pt-3">
-      <div className="mb-3 flex items-center gap-3">
-        <Link to="/daily" className="btn-ghost -ml-2 px-2 text-ink-2">
-          ← {t('daily.title')}
+    <div className="daily-game-shell atlas-surface">
+    <div className="daily-game-container">
+      <header className="daily-game-topbar">
+        <Link to="/daily" className="daily-game-back">
+          <Icons.back aria-hidden /> {t('daily.title')}
         </Link>
-        <span className="ml-auto text-sm tabular-nums text-ink-2">{t('daily.attempts', { n: attempts, max: MAX_ATTEMPTS })}</span>
-      </div>
-      <h1 className="mb-3 text-center text-2xl font-semibold">
-        {def.icon} {t(`daily.${def.id}`)} {practice && <span className="text-sm font-normal text-ink-2">· {t('daily.practice')}</span>}
-      </h1>
+        <div className="daily-attempt-progress" aria-label={t('daily.attempts', { n: attempts, max: MAX_ATTEMPTS })}>
+          <div aria-hidden>{Array.from({ length: MAX_ATTEMPTS }, (_, index) => <span key={index} className={index < attempts ? 'is-used' : ''} />)}</div>
+          <strong>{t('daily.attempts', { n: attempts, max: MAX_ATTEMPTS })}</strong>
+        </div>
+      </header>
 
-      <Card className="mb-4 flex flex-col items-center">
+      <section className="daily-game-heading">
+        <PuzzleArt puzzle={def.id} featured />
+        <div>
+          <p className="eyebrow">{practice ? t('daily.practice') : t('daily.today')}</p>
+          <h1>{t(`daily.${def.id}`)}</h1>
+          <p>{t(`daily.${def.id}_desc`)}</p>
+        </div>
+      </section>
+
+      <Card className="daily-game-board">
         {def.id === 'flagle' && <FlagleBoard country={tgt} revealed={finished ? 6 : attempts} />}
         {def.id === 'outline' && <Outline iso2={tgt.attributes.iso2} className="max-h-72" />}
         {def.id === 'countryle' && <p className="py-6 text-center text-ink-2">{t('daily.countryle_desc')}</p>}
@@ -122,14 +134,16 @@ export default function PuzzlePage() {
 
       {!finished && (
         <form
-          className="relative mb-3"
+          className="daily-guess-form"
           onSubmit={(e) => {
             e.preventDefault()
             void guess(suggestions[0]?.names.de ?? input)
           }}
         >
-          <div className="flex gap-2">
+          <label htmlFor="daily-guess">{t('daily.your_guess')}</label>
+          <div className="daily-guess-row">
             <input
+              id="daily-guess"
               ref={inputRef}
               value={input}
               onChange={(e) => setInput(e.target.value)}
@@ -144,7 +158,7 @@ export default function PuzzlePage() {
             </button>
           </div>
           {suggestions.length > 0 && (
-            <ul className="absolute z-10 mt-1 w-full overflow-hidden rounded-xl border border-line bg-card shadow-lg" role="listbox">
+            <ul className="daily-suggestions" role="listbox">
               {suggestions.map((s) => (
                 <li key={s.id}>
                   <button type="button" className="w-full px-4 py-2.5 text-left hover:bg-card-2" onClick={() => void guess(s.names.de)}>
@@ -157,10 +171,10 @@ export default function PuzzlePage() {
         </form>
       )}
 
-      <ol className="grid gap-2">
+      <ol className="daily-guess-history">
         {guessedEntities.map((g, i) => (
-          <li key={g.id} className={`card flex items-center gap-2 px-3 py-2 text-sm ${g.id === solutionEntity.id ? 'border-ok bg-ok-soft' : ''}`}>
-            <span className="w-4 text-ink-2">{i + 1}</span>
+          <li key={g.id} className={`${g.id === solutionEntity.id ? 'is-correct' : ''}`}>
+            <span className="daily-guess-number">{String(i + 1).padStart(2, '0')}</span>
             <span className="flex-1 font-medium">{g.names.de}</span>
             <HintRow puzzle={def.id} guess={g as Country} target={tgt} solutionId={solutionEntity.id} />
           </li>
@@ -168,7 +182,7 @@ export default function PuzzlePage() {
       </ol>
 
       {finished && (
-        <Card className="mt-4 text-center">
+        <Card className={`daily-result ${result.solved ? 'is-solved' : 'is-failed'}`}>
           <p className="text-lg font-semibold">{result.solved ? `✓ ${t('daily.solved')}` : `✕ ${t('daily.failed')}`}</p>
           {!result.solved && <p>{t('daily.answer_was', { name: solutionEntity.names.de })}</p>}
           {xp !== null && <p className="mt-1 font-medium text-accent">+{xp} XP</p>}
@@ -197,6 +211,7 @@ export default function PuzzlePage() {
       )}
       {toast}
     </div>
+    </div>
   )
 }
 
@@ -204,7 +219,8 @@ function FlagleBoard({ country, revealed }: { country: Country; revealed: number
   const flag = country.media?.find((m) => m.kind === 'flag')
   // Kachelreihenfolge fest, damit jeder Nutzer dieselben Kacheln sieht.
   const order = [4, 1, 3, 0, 5, 2]
-  const shown = new Set(order.slice(0, revealed))
+  // Eine Kachel ist von Beginn an sichtbar; nach jedem Fehlversuch kommt eine weitere dazu.
+  const shown = new Set(order.slice(0, Math.min(6, revealed + 1)))
   return (
     <div className="relative aspect-[3/2] w-full max-w-md overflow-hidden rounded-xl border border-line bg-white">
       {flag && <img src={mediaUrl(flag.url)} alt="Flagge, teilweise verdeckt" className="h-full w-full object-fill" />}

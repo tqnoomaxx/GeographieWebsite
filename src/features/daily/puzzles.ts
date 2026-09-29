@@ -6,17 +6,16 @@ export const MAX_ATTEMPTS = 6
 
 export interface PuzzleDef {
   id: 'flagle' | 'countryle' | 'outline' | 'capitale' | 'bildle' | 'kennzeichle'
-  icon: string
   available: boolean
 }
 
 export const PUZZLES: PuzzleDef[] = [
-  { id: 'flagle', icon: '🏳️', available: true },
-  { id: 'countryle', icon: '🌍', available: true },
-  { id: 'outline', icon: '🗺️', available: true },
-  { id: 'capitale', icon: '🏛️', available: true },
-  { id: 'bildle', icon: '📸', available: true },
-  { id: 'kennzeichle', icon: '🚗', available: true },
+  { id: 'flagle', available: true },
+  { id: 'countryle', available: true },
+  { id: 'outline', available: true },
+  { id: 'capitale', available: true },
+  { id: 'bildle', available: true },
+  { id: 'kennzeichle', available: true },
 ]
 
 /** Wochentag steuert Schwierigkeit: Mo leicht … So schwer. */

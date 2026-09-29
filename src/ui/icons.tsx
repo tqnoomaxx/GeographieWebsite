@@ -2,6 +2,7 @@ import {
   Flag, Globe2, Landmark, Map, Camera, Building2, Compass, Car, Waves, Mountain, BookOpen, Trophy, Home, Target,
   Search, User, Puzzle, Settings, Heart, Star, Flame, Award, ScrollText, ChevronLeft, Check, X, Info, Share2, RotateCcw, Play,
   MapPin, Image as ImageIcon, Droplets, Layers, Sparkles, Wrench, Mail, Lightbulb, AlertTriangle, ArrowRight, type LucideIcon,
+  Keyboard, ListChecks,
 } from 'lucide-react'
 import type { CategoryId } from '@/engine/types'
 
@@ -10,6 +11,7 @@ export const Icons = {
   heart: Heart, star: Star, flame: Flame, award: Award, quest: ScrollText, back: ChevronLeft, check: Check, x: X, info: Info, share: Share2,
   retry: RotateCcw, start: Play, pin: MapPin, image: ImageIcon, layers: Layers, sparkles: Sparkles, admin: Wrench, mail: Mail, idea: Lightbulb,
   warn: AlertTriangle, arrow: ArrowRight, globe: Globe2,
+  keyboard: Keyboard, choices: ListChecks, map: Map,
 }
 
 const CATEGORY_ICON_FILES: Record<CategoryId, string> = {

@@ -11,13 +11,14 @@ import { baseQuestionPosition, baseQuestionTotal, poolFor, setupOf } from '@/eng
 import type { CategoryId, GeneratorContext } from '@/engine/types'
 import type { Entity } from '@/domain/types'
 import { getRepository } from '@/services/progress'
-import { Page, Card, Chips, Flag, ProgressBar } from '@/ui'
+import { Page, Card, Flag, ProgressBar } from '@/ui'
 import { normalizeAnswer } from '@/engine/normalize'
 import { CategoryIconTile, Icons, IconTile } from '@/ui/icons'
 import { RoundTitle } from './RoundLabel'
 
 const KEY = (category: CategoryId) => `gk.setup.${category}`
 
+/** Hält die Zusammenfassung pro Breakpoint nur einmal im DOM – wichtig für eindeutige Screenreader-Ausgaben. */
 function useDesktopSetup() {
   const [desktop, setDesktop] = useState(() => window.matchMedia('(min-width: 1024px)').matches)
   useEffect(() => {
@@ -140,55 +141,91 @@ function Setup({ category }: { category: CategoryId }) {
 
   return (
     <Page wide title={t(`category.${category}`)} back="/play" action={<CategoryIconTile id={category} size="sm" />}>
-      <div className="atlas-rule mb-8 h-px" />
-      <div className="grid gap-8 pb-24 lg:grid-cols-[minmax(0,1fr)_25rem] lg:items-start lg:gap-12 lg:pb-0">
-      <div>
-      <Section step={1} title={t('play.scope')}>
-        <Chips label={t('play.scope')} value={activeContinent} onChange={(v) => patch({ scope: v })} items={['world', ...continents].map((s) => ({ value: s as string, label: t(`scope.${s}`) }))} />
+      <p className="setup-intro">{t('setup.intro')}</p>
+      <div className="atlas-rule mb-7 mt-6 h-px" />
+      <div className="setup-config-grid">
+      <div className="min-w-0">
+      <Section step={1} title={t('setup.scope_title')} description={t('setup.scope_desc')}>
+        <div className="setup-scope-grid" role="radiogroup" aria-label={t('play.scope')}>
+          {['world', ...continents].map((s, index) => {
+            const selected = s === activeContinent
+            return (
+              <button key={s} type="button" role="radio" aria-checked={selected} aria-label={t(`scope.${s}`)} className={`setup-scope-choice ${selected ? 'is-selected' : ''}`} onClick={() => patch({ scope: s })}>
+                <span className="setup-radio" aria-hidden />
+                <span className="setup-scope-index" aria-hidden>{String(index + 1).padStart(2, '0')}</span>
+                <span className="setup-scope-copy">
+                  <strong>{t(`scope.${s}`)}</strong>
+                  <small>{s === 'world' ? t('setup.scope_world_desc') : t('setup.scope_available', { count: count(s) })}</small>
+                </span>
+              </button>
+            )
+          })}
+        </div>
         {countries.length > 0 && <CountryPicker groups={countryGroups} continent={activeContinent === 'world' ? undefined : activeContinent} value={isCountryScope(scope) ? scope : ''} onChange={(id) => patch({ scope: id || activeContinent })} />}
         {contentOptions.length > 1 && content && (
-          <div className="mt-3 flex flex-wrap items-center gap-2">
-            <span className="text-xs text-ink-2">{t('setup.content_label')}:</span>
-            <Chips label={t('setup.content_label')} value={key(content)} onChange={(v) => patch({ content: v.split('+') as Content[] })} items={contentOptions.map((c) => ({ value: key(c), label: c.length === 2 ? t('setup.content.all') : t(`setup.content.${category}.${c[0]}`) }))} />
+          <div className="setup-inline-setting">
+            <span className="setup-inline-label">{t('setup.content_label')}</span>
+            <SegmentedChoices label={t('setup.content_label')} value={key(content)} onChange={(v) => patch({ content: v.split('+') as Content[] })} items={contentOptions.map((c) => ({ value: key(c), label: c.length === 2 ? t('setup.content.all') : t(`setup.content.${category}.${c[0]}`) }))} />
           </div>
         )}
       </Section>
 
       {modes.length > 0 && (
-        <Section step={2} title={t('setup.mode')}>
-          <Chips label={t('setup.mode')} value={mode?.id ?? AUTO} onChange={(v) => patch({ mode: v })} items={[{ value: AUTO, label: t('modes.auto') }, ...modes.map((m) => ({ value: m.id, label: t(`modes.${m.id}`) }))]} />
-          <p className="mt-2 text-xs text-ink-2">{mode ? t(`modes_desc.${mode.id}`, { defaultValue: '' }) : autoModes(quiz).some((m) => m.form === 'choice') ? t('setup.auto_desc') : t('setup.auto_desc_all')}</p>
+        <Section step={2} title={t('setup.mode_title')} description={t('setup.mode_section_desc')}>
+          <div className="setup-mode-grid" role="radiogroup" aria-label={t('setup.mode')}>
+            <ModeChoice
+              value={AUTO}
+              label={t('modes.auto')}
+              description={autoModes(quiz).some((m) => m.form === 'choice') ? t('setup.auto_desc') : t('setup.auto_desc_all')}
+              selected={!mode}
+              recommended
+              icon={Icons.sparkles}
+              onSelect={(value) => patch({ mode: value })}
+            />
+            {modes.map((item) => (
+              <ModeChoice
+                key={item.id}
+                value={item.id}
+                label={t(`modes.${item.id}`)}
+                description={t(`modes_desc.${item.id}`, { defaultValue: '' })}
+                selected={mode?.id === item.id}
+                icon={item.form === 'map' ? Icons.map : item.form === 'input' ? Icons.keyboard : Icons.choices}
+                onSelect={(value) => patch({ mode: value })}
+              />
+            ))}
+          </div>
         </Section>
       )}
 
-      <Section step={modes.length > 0 ? 3 : 2} title={t('play.length')}>
-        {mode?.length === 'all' ? <p className="text-sm text-ink-2">{t('setup.europe_note', { count: poolSize })}</p> : <Chips label={t('play.length')} value={length} onChange={(v) => patch({ length: v })} items={lengths} />}
+      <Section step={modes.length > 0 ? 3 : 2} title={t('setup.length_title')} description={t('setup.length_desc')}>
+        {mode?.length === 'all' ? <p className="setup-note">{t('setup.europe_note', { count: poolSize })}</p> : <SegmentedChoices label={t('play.length')} value={length} onChange={(v) => patch({ length: v })} items={lengths} />}
         {mode?.length !== 'all' && (
-          <label className="mt-3 flex cursor-pointer items-center gap-3 text-sm">
-            <input type="checkbox" className="h-5 w-5 accent-[var(--color-accent)]" checked={setup.repeat} onChange={(e) => patch({ repeat: e.target.checked })} />
+          <label className="setup-repeat">
             <span>
-              <span className="block font-medium">{t('setup.repeat')}</span>
-              <span className="block text-xs text-ink-2">{t('setup.repeat_desc')}</span>
+              <strong>{t('setup.repeat')}</strong>
+              <small>{t('setup.repeat_desc')}</small>
             </span>
+            <input type="checkbox" checked={setup.repeat} onChange={(e) => patch({ repeat: e.target.checked })} />
+            <span className="setup-switch" aria-hidden />
           </label>
         )}
       </Section>
       </div>
 
-      {desktop && <aside className="sticky top-20">
-        <Card className="overflow-hidden bg-card/95 p-0 backdrop-blur">
-          <div className="border-b border-line bg-accent-soft/60 p-5">
-            <p className="eyebrow mb-2">{t('setup.expedition')}</p>
+      {desktop && <aside className="setup-summary" aria-label={t('setup.expedition')}>
+        <Card className="overflow-hidden p-0">
+          <div className="setup-summary-head">
+            <p className="setup-summary-title">{t('setup.expedition')}</p>
             <RoundTitle setup={round} icon={false} />
           </div>
-          <div className="p-5">
-            <dl className="space-y-3 text-sm">
+          <div className="setup-summary-body">
+            <dl className="setup-summary-list">
               <div className="flex justify-between gap-4"><dt className="text-ink-2">{t('play.scope')}</dt><dd className="text-right font-medium">{isCountryScope(scope) ? geo.byId.get(scope)?.names.de : t(`scope.${scope}`)}</dd></div>
               <div className="flex justify-between gap-4"><dt className="text-ink-2">{t('setup.mode')}</dt><dd className="text-right font-medium">{mode ? t(`modes.${mode.id}`) : t('modes.auto')}</dd></div>
               <div className="flex justify-between gap-4"><dt className="text-ink-2">{t('play.length')}</dt><dd className="text-right font-medium">{length === 'all' ? poolSize : length}</dd></div>
               <div className="flex justify-between gap-4"><dt className="text-ink-2">{t('setup.repeat_short')}</dt><dd className="text-right font-medium">{setup.repeat ? t('setup.on') : t('setup.off')}</dd></div>
             </dl>
-            <div className="mt-5 border-t border-line pt-4">
+            <div className="setup-mastery">
               <div className="mb-2 flex justify-between text-xs text-ink-2"><span>{loading ? t('common.loading') : t('setup.mastered', { mastered, total: poolSize })}</span><span>{poolSize ? Math.round(mastered / poolSize * 100) : 0}%</span></div>
               <ProgressBar value={poolSize ? mastered / poolSize : 0} />
             </div>
@@ -217,6 +254,32 @@ function Setup({ category }: { category: CategoryId }) {
   )
 }
 
+function ModeChoice({ value, label, description, selected, recommended = false, icon: Icon, onSelect }: { value: string; label: string; description: string; selected: boolean; recommended?: boolean; icon: typeof Icons.globe; onSelect: (value: string) => void }) {
+  const { t } = useTranslation()
+  return (
+    <button type="button" role="radio" aria-checked={selected} aria-label={label} className={`setup-mode-choice ${selected ? 'is-selected' : ''} ${recommended ? 'is-featured' : ''}`} onClick={() => onSelect(value)}>
+      <span className="setup-radio" aria-hidden />
+      <Icon className="setup-mode-icon" strokeWidth={1.6} aria-hidden />
+      <span className="min-w-0">
+        <span className="flex flex-wrap items-center gap-2"><strong>{label}</strong>{recommended && <span className="setup-recommended">{t('setup.recommended')}</span>}</span>
+        <small>{description}</small>
+      </span>
+    </button>
+  )
+}
+
+function SegmentedChoices<T extends string | number>({ items, value, onChange, label }: { items: Array<{ value: T; label: string }>; value: T; onChange: (value: T) => void; label: string }) {
+  return (
+    <div className="setup-segments" role="radiogroup" aria-label={label}>
+      {items.map((item) => (
+        <button key={String(item.value)} type="button" role="radio" aria-checked={item.value === value} aria-label={item.label} className={item.value === value ? 'is-selected' : ''} onClick={() => onChange(item.value)}>
+          {item.label}
+        </button>
+      ))}
+    </div>
+  )
+}
+
 type CountryGroup = readonly [string, Array<{ country: Entity; n: number }>]
 
 /** Einzelnes Land als Bereich: Flaggen-Chips nach Kontinent, auf den gewählten Kontinent eingeschränkt, Suchfeld bei langen Listen. */
@@ -231,10 +294,10 @@ function CountryPicker({ groups, continent, value, onChange }: { groups: readonl
   const filtered = collapsed ? [] : shown.map(([c, list]) => [c, nq ? list.filter((x) => normalizeAnswer(x.country.names.de).includes(nq)) : list] as const).filter(([, list]) => list.length)
   if (!total) return null
   return (
-    <div className="mt-3" role="radiogroup" aria-label={t('setup.country_pick')}>
-      <div className="mb-2 flex flex-wrap items-center gap-2">
-        <span className="text-xs text-ink-2">{t('setup.country_pick')}:</span>
-        {total > 12 && <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={continent ? t('setup.country_filter') : t('setup.country_filter_world', { count: total })} aria-label={t('setup.country_filter')} className="min-h-9 flex-1 rounded-xl border border-line bg-card px-3 text-sm" />}
+    <div className="setup-country-picker" role="radiogroup" aria-label={t('setup.country_pick')}>
+      <div className="setup-country-head">
+        <span>{t('setup.country_pick')}</span>
+        {total > 12 && <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={continent ? t('setup.country_filter') : t('setup.country_filter_world', { count: total })} aria-label={t('setup.country_filter')} />}
       </div>
       {filtered.map(([c, list]) => (
         <div key={c} className="mb-2">
@@ -254,14 +317,17 @@ function CountryPicker({ groups, continent, value, onChange }: { groups: readonl
   )
 }
 
-function Section({ step, title, children }: { step: number; title: string; children: React.ReactNode }) {
+function Section({ step, title, description, children }: { step: number; title: string; description: string; children: React.ReactNode }) {
   return (
-    <section className="mb-8 border-b border-line pb-8 last:border-b-0">
-      <h2 className="mb-4 flex items-center gap-3 text-lg font-semibold">
-        <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-navy text-xs text-white shadow-sm">{step}</span>
-        {title}
-      </h2>
-      {children}
+    <section className="setup-section">
+      <header className="setup-section-head">
+        <span className="setup-step">{step}</span>
+        <span>
+          <h2>{title}</h2>
+          <p>{description}</p>
+        </span>
+      </header>
+      <div className="setup-section-body">{children}</div>
     </section>
   )
 }
