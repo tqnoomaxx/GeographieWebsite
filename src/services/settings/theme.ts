@@ -8,7 +8,7 @@ export function getThemeMode(): ThemeMode {
 export function applyTheme(mode: ThemeMode) {
   const dark = mode === 'dark' || (mode === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)
   document.documentElement.classList.toggle('dark', dark)
-  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', dark ? '#0f1526' : '#1e2a5a')
+  document.querySelector('meta[name="theme-color"]')?.setAttribute('content', dark ? '#172321' : '#446f69')
 }
 
 export function setThemeMode(mode: ThemeMode) {

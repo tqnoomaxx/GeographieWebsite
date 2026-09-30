@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-30T22:56:20.700Z",
+ "generated_at": "2026-09-30T23:31:06.539Z",
  "counts": {
   "country": 254,
   "city": 1308,
-  "landmark": 78,
+  "landmark": 128,
   "river": 220,
   "lake": 113,
   "mountain": 201,
   "region": 817,
-  "license_plate": 711
+  "license_plate": 1388
  },
- "media": 1187,
- "relationships": 4520,
+ "media": 1214,
+ "relationships": 4603,
  "countries_without_population": [
   "country:AC",
   "country:EU",
@@ -55,7 +55,31 @@
   "country:UM",
   "country:YT"
  ],
- "entities_without_media": [],
+ "entities_without_media": [
+  "landmark:auckland-sky-tower",
+  "landmark:bagan",
+  "landmark:bikini-atoll",
+  "landmark:buenos-aires-obelisk",
+  "landmark:cn-tower",
+  "landmark:empire-state",
+  "landmark:gardens-by-the-bay",
+  "landmark:golden-gate",
+  "landmark:hassan-ii-mosque",
+  "landmark:havana-capitol",
+  "landmark:nan-madol",
+  "landmark:panama-canal",
+  "landmark:parliament-hill",
+  "landmark:parliament-house-canberra",
+  "landmark:persepolis",
+  "landmark:petronas-towers",
+  "landmark:registan",
+  "landmark:salar-de-uyuni",
+  "landmark:sheikh-zayed-mosque",
+  "landmark:shwedagon",
+  "landmark:sigiriya",
+  "landmark:sydney-harbour-bridge",
+  "landmark:teotihuacan"
+ ],
  "conflicts": [
   {
    "id": "country:AQ",

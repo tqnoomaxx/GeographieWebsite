@@ -10,7 +10,7 @@ import { Settings, LogIn, UserCircle2 } from 'lucide-react'
 import { useAuth } from '@/app/AuthProvider'
 
 const AVATARS = ['🧭', '🌍', '🗺️', '🏔️', '🌊', '🏛️', '🦊', '🦉', '🐢', '🦜', '🚀', '⛵']
-const COLORS = ['#1e2a5a', '#2f7d4f', '#c98a12', '#b83232', '#6b3fa0', '#0e7490']
+const COLORS = ['#446f69', '#56745f', '#8d7440', '#94584e', '#75627f', '#507783']
 
 export default function ProfilePage() {
   const { t } = useTranslation()

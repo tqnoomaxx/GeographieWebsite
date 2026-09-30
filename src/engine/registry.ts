@@ -12,7 +12,7 @@ import { AUTO, MIXED_EXCLUDE, PLAY_QUIZZES, autoModes, quizFor, type QuizMode } 
 const all: Generator[] = [
   flags.flagToCountry, flags.countryToFlag, flags.flagToCountryInput, flags.flagToRegion, flags.regionToFlag, flags.regionFlagInput, flags.flagToRegionMap, flags.flagToCountryMap, flags.regionFlagToCountry, flags.flagToEuropeMap,
   capitals.countryToCapital, capitals.capitalToCountry, capitals.capitalToFlag, capitals.capitalInput,
-  countries.countryAttribute, countries.neighborOfCountry, countries.countryTrueFalse, countries.countryCode, countries.countryComparison,
+  countries.countryAttribute, countries.neighborOfCountry, countries.countryTrueFalse, countries.countryCode, countries.countryComparison, countries.nationalAnimal, countries.nationalFlower,
   rc.regionFlagToRegion, rc.regionToCountry, rc.regionCapital, rc.cityToCountry, rc.cityToRegion, rc.cityPopulation, rc.cityInput,
   im.imageToLandmark, im.imageToCountry, im.imageToCity, im.landmarkToCountry, im.landmarkToCity, im.countryOnMap, im.regionOnMap,
   pl.plateToCity, pl.cityToPlate, pl.plateToRegion, pl.plateInput,

@@ -80,6 +80,7 @@ export const QUIZZES: QuizDef[] = [
       { id: 'true_false', form: 'choice', generators: ['country_true_false'] },
       { id: 'country_codes', form: 'choice', generators: ['country_code'] },
       { id: 'country_compare', form: 'choice', generators: ['country_comparison'] },
+      { id: 'national_symbols', form: 'choice', generators: ['national_animal', 'national_flower'] },
       { id: 'region_to_country', form: 'choice', generators: ['region_to_country'], content: ['region'], allowCountryScope: false },
       { id: 'region_capital', form: 'choice', generators: ['region_capital'], content: ['region'] },
       { id: 'countries_on_map', form: 'map', generators: ['country_on_map'], content: ['country'], allowCountryScope: false },

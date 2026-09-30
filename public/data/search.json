@@ -14593,6 +14593,24 @@
   "c": "country:KH"
  },
  {
+  "id": "landmark:auckland-sky-tower",
+  "t": "landmark",
+  "n": "Sky Tower Auckland",
+  "a": [
+   "Sky Tower (Auckland)"
+  ],
+  "c": "country:NZ"
+ },
+ {
+  "id": "landmark:bagan",
+  "t": "landmark",
+  "n": "Tempelstadt Bagan",
+  "a": [
+   "Bagan"
+  ],
+  "c": "country:MM"
+ },
+ {
   "id": "landmark:belem",
   "t": "landmark",
   "n": "Torre de Belém",
@@ -14603,6 +14621,15 @@
   "c": "country:PT"
  },
  {
+  "id": "landmark:bikini-atoll",
+  "t": "landmark",
+  "n": "Bikini-Atoll",
+  "a": [
+   "Bikini Atoll"
+  ],
+  "c": "country:MH"
+ },
+ {
   "id": "landmark:borobudur",
   "t": "landmark",
   "n": "Borobudur",
@@ -14611,6 +14638,33 @@
    "Tempelanlagen von Borobudur"
   ],
   "c": "country:ID"
+ },
+ {
+  "id": "landmark:brandenburg-gate",
+  "t": "landmark",
+  "n": "Brandenburger Tor",
+  "a": [
+   "Brandenburg Gate"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "landmark:buenos-aires-obelisk",
+  "t": "landmark",
+  "n": "Obelisk von Buenos Aires",
+  "a": [
+   "Obelisco de Buenos Aires"
+  ],
+  "c": "country:AR"
+ },
+ {
+  "id": "landmark:burj-khalifa",
+  "t": "landmark",
+  "n": "Burj Khalifa",
+  "a": [
+   "Burj Khalifa"
+  ],
+  "c": "country:AE"
  },
  {
   "id": "landmark:cappadocia",
@@ -14643,6 +14697,15 @@
   "c": "country:CO"
  },
  {
+  "id": "landmark:casbah-algiers",
+  "t": "landmark",
+  "n": "Kasbah von Algier",
+  "a": [
+   "Casbah of Algiers"
+  ],
+  "c": "country:DZ"
+ },
+ {
   "id": "landmark:castel-del-monte",
   "t": "landmark",
   "n": "Castel del Monte",
@@ -14650,6 +14713,15 @@
    "Castel del Monte, Apulia"
   ],
   "c": "country:IT"
+ },
+ {
+  "id": "landmark:charles-bridge",
+  "t": "landmark",
+  "n": "Karlsbrücke",
+  "a": [
+   "Charles Bridge"
+  ],
+  "c": "country:CZ"
  },
  {
   "id": "landmark:chartres",
@@ -14689,6 +14761,15 @@
    "Portovenere, Cinque Terre und die Inseln"
   ],
   "c": "country:IT"
+ },
+ {
+  "id": "landmark:cn-tower",
+  "t": "landmark",
+  "n": "CN Tower",
+  "a": [
+   "CN Tower"
+  ],
+  "c": "country:CA"
  },
  {
   "id": "landmark:coimbra",
@@ -14740,6 +14821,24 @@
   "c": "country:GR"
  },
  {
+  "id": "landmark:djenne-mosque",
+  "t": "landmark",
+  "n": "Große Moschee von Djenné",
+  "a": [
+   "Great Mosque of Djenné"
+  ],
+  "c": "country:ML"
+ },
+ {
+  "id": "landmark:dubrovnik-walls",
+  "t": "landmark",
+  "n": "Stadtmauer von Dubrovnik",
+  "a": [
+   "Walls of Dubrovnik"
+  ],
+  "c": "country:HR"
+ },
+ {
   "id": "landmark:edinburgh-castle",
   "t": "landmark",
   "n": "Edinburgh Castle",
@@ -14758,6 +14857,24 @@
    "Paris, Ufer der Seine"
   ],
   "c": "country:FR"
+ },
+ {
+  "id": "landmark:el-jem",
+  "t": "landmark",
+  "n": "Amphitheater von El Djem",
+  "a": [
+   "Amphitheatre of El Jem"
+  ],
+  "c": "country:TN"
+ },
+ {
+  "id": "landmark:empire-state",
+  "t": "landmark",
+  "n": "Empire State Building",
+  "a": [
+   "Empire State Building"
+  ],
+  "c": "country:US"
  },
  {
   "id": "landmark:ephesus",
@@ -14788,6 +14905,15 @@
   "c": "country:IT"
  },
  {
+  "id": "landmark:forbidden-city",
+  "t": "landmark",
+  "n": "Verbotene Stadt",
+  "a": [
+   "Forbidden City"
+  ],
+  "c": "country:CN"
+ },
+ {
   "id": "landmark:forth-bridge",
   "t": "landmark",
   "n": "Forth Bridge",
@@ -14806,6 +14932,15 @@
   "c": "country:EC"
  },
  {
+  "id": "landmark:gardens-by-the-bay",
+  "t": "landmark",
+  "n": "Gardens by the Bay",
+  "a": [
+   "Gardens by the Bay"
+  ],
+  "c": "country:SG"
+ },
+ {
   "id": "landmark:goebekli-tepe",
   "t": "landmark",
   "n": "Göbekli Tepe",
@@ -14813,6 +14948,15 @@
    "Göbekli Tepe"
   ],
   "c": "country:TR"
+ },
+ {
+  "id": "landmark:golden-gate",
+  "t": "landmark",
+  "n": "Golden Gate Bridge",
+  "a": [
+   "Golden Gate Bridge"
+  ],
+  "c": "country:US"
  },
  {
   "id": "landmark:grand-canyon",
@@ -14823,6 +14967,15 @@
    "Grand-Canyon-Nationalpark"
   ],
   "c": "country:US"
+ },
+ {
+  "id": "landmark:grand-palace-bangkok",
+  "t": "landmark",
+  "n": "Großer Palast von Bangkok",
+  "a": [
+   "Grand Palace"
+  ],
+  "c": "country:TH"
  },
  {
   "id": "landmark:great-barrier-reef",
@@ -14841,6 +14994,24 @@
    "Great Wall of China"
   ],
   "c": "country:CN"
+ },
+ {
+  "id": "landmark:great-zimbabwe",
+  "t": "landmark",
+  "n": "Groß-Simbabwe",
+  "a": [
+   "Great Zimbabwe"
+  ],
+  "c": "country:ZW"
+ },
+ {
+  "id": "landmark:gyeongbokgung",
+  "t": "landmark",
+  "n": "Gyeongbokgung-Palast",
+  "a": [
+   "Gyeongbokgung"
+  ],
+  "c": "country:KR"
  },
  {
   "id": "landmark:ha-long",
@@ -14863,6 +15034,24 @@
   "c": "country:TR"
  },
  {
+  "id": "landmark:hassan-ii-mosque",
+  "t": "landmark",
+  "n": "Hassan-II.-Moschee",
+  "a": [
+   "Hassan II Mosque"
+  ],
+  "c": "country:MA"
+ },
+ {
+  "id": "landmark:havana-capitol",
+  "t": "landmark",
+  "n": "Kapitol von Havanna",
+  "a": [
+   "El Capitolio"
+  ],
+  "c": "country:CU"
+ },
+ {
   "id": "landmark:himeji",
   "t": "landmark",
   "n": "Burg Himeji",
@@ -14870,6 +15059,15 @@
    "Himeji Castle"
   ],
   "c": "country:JP"
+ },
+ {
+  "id": "landmark:hungarian-parliament",
+  "t": "landmark",
+  "n": "Ungarisches Parlamentsgebäude",
+  "a": [
+   "Hungarian Parliament Building"
+  ],
+  "c": "country:HU"
  },
  {
   "id": "landmark:iguazu",
@@ -14912,6 +15110,15 @@
   "c": "country:GR"
  },
  {
+  "id": "landmark:lake-bled",
+  "t": "landmark",
+  "n": "Bleder See",
+  "a": [
+   "Lake Bled"
+  ],
+  "c": "country:SI"
+ },
+ {
   "id": "landmark:lalibela",
   "t": "landmark",
   "n": "Felsenkirchen von Lalibela",
@@ -14919,6 +15126,15 @@
    "Rock-Hewn Churches, Lalibela"
   ],
   "c": "country:ET"
+ },
+ {
+  "id": "landmark:le-morne",
+  "t": "landmark",
+  "n": "Le Morne Brabant",
+  "a": [
+   "Le Morne Brabant"
+  ],
+  "c": "country:MU"
  },
  {
   "id": "landmark:liberty",
@@ -14957,6 +15173,15 @@
    "Marrakesh"
   ],
   "c": "country:MA"
+ },
+ {
+  "id": "landmark:merlion",
+  "t": "landmark",
+  "n": "Merlion",
+  "a": [
+   "Merlion"
+  ],
+  "c": "country:SG"
  },
  {
   "id": "landmark:meteora",
@@ -15008,6 +15233,24 @@
   "c": "country:GR"
  },
  {
+  "id": "landmark:nan-madol",
+  "t": "landmark",
+  "n": "Nan Madol",
+  "a": [
+   "Nan Madol"
+  ],
+  "c": "country:FM"
+ },
+ {
+  "id": "landmark:neuschwanstein",
+  "t": "landmark",
+  "n": "Schloss Neuschwanstein",
+  "a": [
+   "Neuschwanstein Castle"
+  ],
+  "c": "country:DE"
+ },
+ {
   "id": "landmark:olympia",
   "t": "landmark",
   "n": "Antikes Olympia",
@@ -15037,6 +15280,33 @@
   "c": "country:TR"
  },
  {
+  "id": "landmark:panama-canal",
+  "t": "landmark",
+  "n": "Panamakanal",
+  "a": [
+   "Panama Canal"
+  ],
+  "c": "country:PA"
+ },
+ {
+  "id": "landmark:parliament-hill",
+  "t": "landmark",
+  "n": "Parliament Hill",
+  "a": [
+   "Parliament Hill"
+  ],
+  "c": "country:CA"
+ },
+ {
+  "id": "landmark:parliament-house-canberra",
+  "t": "landmark",
+  "n": "Parliament House",
+  "a": [
+   "Parliament House, Canberra"
+  ],
+  "c": "country:AU"
+ },
+ {
   "id": "landmark:pena-palace",
   "t": "landmark",
   "n": "Palácio Nacional da Pena",
@@ -15047,6 +15317,15 @@
   "c": "country:PT"
  },
  {
+  "id": "landmark:persepolis",
+  "t": "landmark",
+  "n": "Persepolis",
+  "a": [
+   "Persepolis"
+  ],
+  "c": "country:IR"
+ },
+ {
   "id": "landmark:petra",
   "t": "landmark",
   "n": "Petra",
@@ -15054,6 +15333,15 @@
    "Petra"
   ],
   "c": "country:JO"
+ },
+ {
+  "id": "landmark:petronas-towers",
+  "t": "landmark",
+  "n": "Petronas Towers",
+  "a": [
+   "Petronas Towers"
+  ],
+  "c": "country:MY"
  },
  {
   "id": "landmark:pisa",
@@ -15094,6 +15382,24 @@
   "c": "country:PT"
  },
  {
+  "id": "landmark:potala-palace",
+  "t": "landmark",
+  "n": "Potala-Palast",
+  "a": [
+   "Potala Palace"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "landmark:prague-castle",
+  "t": "landmark",
+  "n": "Prager Burg",
+  "a": [
+   "Prague Castle"
+  ],
+  "c": "country:CZ"
+ },
+ {
   "id": "landmark:pyramids",
   "t": "landmark",
   "n": "Pyramiden von Gizeh",
@@ -15114,6 +15420,24 @@
   "c": "country:CL"
  },
  {
+  "id": "landmark:registan",
+  "t": "landmark",
+  "n": "Registan",
+  "a": [
+   "Registan"
+  ],
+  "c": "country:UZ"
+ },
+ {
+  "id": "landmark:rila-monastery",
+  "t": "landmark",
+  "n": "Kloster Rila",
+  "a": [
+   "Rila Monastery"
+  ],
+  "c": "country:BG"
+ },
+ {
   "id": "landmark:robben-island",
   "t": "landmark",
   "n": "Robben Island",
@@ -15121,6 +15445,15 @@
    "Robben Island"
   ],
   "c": "country:ZA"
+ },
+ {
+  "id": "landmark:rock-islands",
+  "t": "landmark",
+  "n": "Rock Islands",
+  "a": [
+   "Rock Islands"
+  ],
+  "c": "country:PW"
  },
  {
   "id": "landmark:roman-baths",
@@ -15143,6 +15476,24 @@
   "c": "country:ES"
  },
  {
+  "id": "landmark:saint-basils",
+  "t": "landmark",
+  "n": "Basilius-Kathedrale",
+  "a": [
+   "Saint Basil's Cathedral"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "landmark:salar-de-uyuni",
+  "t": "landmark",
+  "n": "Salar de Uyuni",
+  "a": [
+   "Salar de Uyuni"
+  ],
+  "c": "country:BO"
+ },
+ {
   "id": "landmark:sanssouci",
   "t": "landmark",
   "n": "Schloss Sanssouci",
@@ -15161,6 +15512,15 @@
    "Altstadt von Santiago de Compostela"
   ],
   "c": "country:ES"
+ },
+ {
+  "id": "landmark:schonbrunn",
+  "t": "landmark",
+  "n": "Schloss Schönbrunn",
+  "a": [
+   "Schönbrunn Palace"
+  ],
+  "c": "country:AT"
  },
  {
   "id": "landmark:segovia",
@@ -15182,6 +15542,33 @@
   "c": "country:TZ"
  },
  {
+  "id": "landmark:sheikh-zayed-mosque",
+  "t": "landmark",
+  "n": "Scheich-Zayid-Moschee",
+  "a": [
+   "Sheikh Zayed Grand Mosque"
+  ],
+  "c": "country:AE"
+ },
+ {
+  "id": "landmark:shwedagon",
+  "t": "landmark",
+  "n": "Shwedagon-Pagode",
+  "a": [
+   "Shwedagon Pagoda"
+  ],
+  "c": "country:MM"
+ },
+ {
+  "id": "landmark:sigiriya",
+  "t": "landmark",
+  "n": "Felsenfestung Sigiriya",
+  "a": [
+   "Sigiriya"
+  ],
+  "c": "country:LK"
+ },
+ {
   "id": "landmark:speicherstadt",
   "t": "landmark",
   "n": "Speicherstadt",
@@ -15190,6 +15577,15 @@
    "Speicherstadt und Kontorhausviertel"
   ],
   "c": "country:DE"
+ },
+ {
+  "id": "landmark:stone-town",
+  "t": "landmark",
+  "n": "Stone Town",
+  "a": [
+   "Stone Town"
+  ],
+  "c": "country:TZ"
  },
  {
   "id": "landmark:stonehenge",
@@ -15202,6 +15598,15 @@
   "c": "country:GB"
  },
  {
+  "id": "landmark:sydney-harbour-bridge",
+  "t": "landmark",
+  "n": "Sydney Harbour Bridge",
+  "a": [
+   "Sydney Harbour Bridge"
+  ],
+  "c": "country:AU"
+ },
+ {
   "id": "landmark:taj-mahal",
   "t": "landmark",
   "n": "Taj Mahal",
@@ -15209,6 +15614,15 @@
    "Taj Mahal"
   ],
   "c": "country:IN"
+ },
+ {
+  "id": "landmark:tallinn-town-hall",
+  "t": "landmark",
+  "n": "Rathaus von Tallinn",
+  "a": [
+   "Tallinn Town Hall"
+  ],
+  "c": "country:EE"
  },
  {
   "id": "landmark:te-wahipounamu",
@@ -15219,6 +15633,24 @@
    "Te Wāhipounamu"
   ],
   "c": "country:NZ"
+ },
+ {
+  "id": "landmark:teotihuacan",
+  "t": "landmark",
+  "n": "Teotihuacán",
+  "a": [
+   "Teotihuacan"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "landmark:terracotta-army",
+  "t": "landmark",
+  "n": "Terrakotta-Armee",
+  "a": [
+   "Terracotta Army"
+  ],
+  "c": "country:CN"
  },
  {
   "id": "landmark:tongariro",
@@ -15259,6 +15691,15 @@
   "c": "country:AU"
  },
  {
+  "id": "landmark:union-buildings",
+  "t": "landmark",
+  "n": "Union Buildings",
+  "a": [
+   "Union Buildings"
+  ],
+  "c": "country:ZA"
+ },
+ {
   "id": "landmark:venice",
   "t": "landmark",
   "n": "Venedig und seine Lagune",
@@ -15295,6 +15736,15 @@
    "Wartburg"
   ],
   "c": "country:DE"
+ },
+ {
+  "id": "landmark:wawel-castle",
+  "t": "landmark",
+  "n": "Wawel-Schloss",
+  "a": [
+   "Wawel Castle"
+  ],
+  "c": "country:PL"
  },
  {
   "id": "landmark:westminster",
@@ -34628,5 +35078,5888 @@
   "n": "Zweibrücken",
   "a": [],
   "c": "country:DE"
+ },
+ {
+  "id": "license_plate:PL-AA",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AB",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ABR",
+  "t": "license_plate",
+  "n": "Powiat Białobrzeski",
+  "a": [
+   "białobrzeski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ACI",
+  "t": "license_plate",
+  "n": "Powiat Ciechanowski",
+  "a": [
+   "ciechanowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AD",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AE",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AF",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AG",
+  "t": "license_plate",
+  "n": "Powiat Garwoliński",
+  "a": [
+   "garwoliński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AGM",
+  "t": "license_plate",
+  "n": "Powiat Grodziski",
+  "a": [
+   "grodziski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AGR",
+  "t": "license_plate",
+  "n": "Powiat Grójecki",
+  "a": [
+   "grójecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AGS",
+  "t": "license_plate",
+  "n": "Powiat Gostyniński",
+  "a": [
+   "gostyniński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AH",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AI",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AJ",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AK",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AKZ",
+  "t": "license_plate",
+  "n": "Powiat Kozienicki",
+  "a": [
+   "kozienicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AL",
+  "t": "license_plate",
+  "n": "Powiat Legionowski",
+  "a": [
+   "legionowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ALI",
+  "t": "license_plate",
+  "n": "Powiat Lipski",
+  "a": [
+   "lipski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ALS",
+  "t": "license_plate",
+  "n": "Powiat Łosicki",
+  "a": [
+   "łosicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AM",
+  "t": "license_plate",
+  "n": "Powiat Miński",
+  "a": [
+   "miński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AMA",
+  "t": "license_plate",
+  "n": "Powiat Makowski",
+  "a": [
+   "makowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AML",
+  "t": "license_plate",
+  "n": "Powiat Mławski",
+  "a": [
+   "mławski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AN",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AND",
+  "t": "license_plate",
+  "n": "Powiat Nowodworski",
+  "a": [
+   "nowodworski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AO",
+  "t": "license_plate",
+  "n": "Ostrołęka",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AOR",
+  "t": "license_plate",
+  "n": "Powiat Ostrowski",
+  "a": [
+   "ostrowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AOS",
+  "t": "license_plate",
+  "n": "Powiat Ostrołęcki",
+  "a": [
+   "ostrołęcki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AOT",
+  "t": "license_plate",
+  "n": "Powiat Otwocki",
+  "a": [
+   "otwocki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AP",
+  "t": "license_plate",
+  "n": "Płock",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-APA",
+  "t": "license_plate",
+  "n": "Powiat Piaseczyński",
+  "a": [
+   "piaseczyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-API",
+  "t": "license_plate",
+  "n": "Powiat Piaseczyński",
+  "a": [
+   "piaseczyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-APL",
+  "t": "license_plate",
+  "n": "Powiat Płocki",
+  "a": [
+   "płocki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-APN",
+  "t": "license_plate",
+  "n": "Powiat Płoński",
+  "a": [
+   "płoński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-APP",
+  "t": "license_plate",
+  "n": "Powiat Pruszkowski",
+  "a": [
+   "pruszkowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-APR",
+  "t": "license_plate",
+  "n": "Powiat Pruszkowski",
+  "a": [
+   "pruszkowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-APS",
+  "t": "license_plate",
+  "n": "Powiat Pruszkowski",
+  "a": [
+   "pruszkowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-APU",
+  "t": "license_plate",
+  "n": "Powiat Pułtuski",
+  "a": [
+   "pułtuski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-APW",
+  "t": "license_plate",
+  "n": "Powiat Piaseczyński",
+  "a": [
+   "piaseczyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-APX",
+  "t": "license_plate",
+  "n": "Powiat Piaseczyński",
+  "a": [
+   "piaseczyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-APY",
+  "t": "license_plate",
+  "n": "Powiat Przysuski",
+  "a": [
+   "przysuski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-APZ",
+  "t": "license_plate",
+  "n": "Powiat Przasnyski",
+  "a": [
+   "przasnyski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AR",
+  "t": "license_plate",
+  "n": "Radom",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ARA",
+  "t": "license_plate",
+  "n": "Powiat Radomski",
+  "a": [
+   "radomski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AS",
+  "t": "license_plate",
+  "n": "Siedlce",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ASC",
+  "t": "license_plate",
+  "n": "Powiat Sochaczewski",
+  "a": [
+   "sochaczewski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ASE",
+  "t": "license_plate",
+  "n": "Powiat Sierpecki",
+  "a": [
+   "sierpecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ASI",
+  "t": "license_plate",
+  "n": "Powiat Siedlecki",
+  "a": [
+   "siedlecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ASK",
+  "t": "license_plate",
+  "n": "Powiat Sokołowski",
+  "a": [
+   "sokołowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ASZ",
+  "t": "license_plate",
+  "n": "Powiat Szydłowiecki",
+  "a": [
+   "szydłowiecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AT",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AU",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AV",
+  "t": "license_plate",
+  "n": "Powiat Wołomiński",
+  "a": [
+   "wołomiński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AW",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AWE",
+  "t": "license_plate",
+  "n": "Powiat Węgrowski",
+  "a": [
+   "węgrowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AWL",
+  "t": "license_plate",
+  "n": "Powiat Wołomiński",
+  "a": [
+   "wołomiński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AWY",
+  "t": "license_plate",
+  "n": "Powiat Wyszkowski",
+  "a": [
+   "wyszkowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AX",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AY",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AZ",
+  "t": "license_plate",
+  "n": "Powiat Warszawski zachodni",
+  "a": [
+   "warszawski zachodni"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AZU",
+  "t": "license_plate",
+  "n": "Powiat Żuromiński",
+  "a": [
+   "żuromiński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AZW",
+  "t": "license_plate",
+  "n": "Powiat Zwoleński",
+  "a": [
+   "zwoleński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-AZY",
+  "t": "license_plate",
+  "n": "Powiat Żyrardowski",
+  "a": [
+   "żyrardowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-BAU",
+  "t": "license_plate",
+  "n": "Powiat Augustowski",
+  "a": [
+   "augustowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-BBI",
+  "t": "license_plate",
+  "n": "Powiat Bielski",
+  "a": [
+   "bielski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-BGR",
+  "t": "license_plate",
+  "n": "Powiat Grajewski",
+  "a": [
+   "grajewski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-BHA",
+  "t": "license_plate",
+  "n": "Powiat Hajnowski",
+  "a": [
+   "hajnowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-BI",
+  "t": "license_plate",
+  "n": "Białystok",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-BIA",
+  "t": "license_plate",
+  "n": "Powiat Białostocki",
+  "a": [
+   "białostocki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-BIB",
+  "t": "license_plate",
+  "n": "Powiat Białostocki",
+  "a": [
+   "białostocki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-BKL",
+  "t": "license_plate",
+  "n": "Powiat Kolneński",
+  "a": [
+   "kolneński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-BL",
+  "t": "license_plate",
+  "n": "Łomża",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-BLM",
+  "t": "license_plate",
+  "n": "Powiat Łomżyński",
+  "a": [
+   "łomżyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-BMN",
+  "t": "license_plate",
+  "n": "Powiat Moniecki",
+  "a": [
+   "moniecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-BS",
+  "t": "license_plate",
+  "n": "Suwałki",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-BSE",
+  "t": "license_plate",
+  "n": "Powiat Sejneński",
+  "a": [
+   "sejneński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-BSI",
+  "t": "license_plate",
+  "n": "Powiat Siemiatycki",
+  "a": [
+   "siemiatycki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-BSK",
+  "t": "license_plate",
+  "n": "Powiat Sokólski",
+  "a": [
+   "sokólski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-BSU",
+  "t": "license_plate",
+  "n": "Powiat Suwalski",
+  "a": [
+   "suwalski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-BWM",
+  "t": "license_plate",
+  "n": "Powiat Wysokomazowiecki",
+  "a": [
+   "wysokomazowiecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-BZA",
+  "t": "license_plate",
+  "n": "Powiat Zambrowski",
+  "a": [
+   "zambrowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CAL",
+  "t": "license_plate",
+  "n": "Powiat Aleksandrowski",
+  "a": [
+   "aleksandrowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CB",
+  "t": "license_plate",
+  "n": "Bydgoszcz",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CBC",
+  "t": "license_plate",
+  "n": "Powiat Bydgoski",
+  "a": [
+   "bydgoski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CBR",
+  "t": "license_plate",
+  "n": "Powiat Brodnicki",
+  "a": [
+   "brodnicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CBY",
+  "t": "license_plate",
+  "n": "Powiat Bydgoski",
+  "a": [
+   "bydgoski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CCH",
+  "t": "license_plate",
+  "n": "Powiat Chełmiński",
+  "a": [
+   "chełmiński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CG",
+  "t": "license_plate",
+  "n": "Grudziądz",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CGD",
+  "t": "license_plate",
+  "n": "Powiat Golubsko-dobrzyński",
+  "a": [
+   "golubsko-dobrzyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CGR",
+  "t": "license_plate",
+  "n": "Powiat Grudziądzki",
+  "a": [
+   "grudziądzki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CIN",
+  "t": "license_plate",
+  "n": "Powiat Inowrocławski",
+  "a": [
+   "inowrocławski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CLI",
+  "t": "license_plate",
+  "n": "Powiat Lipnowski",
+  "a": [
+   "lipnowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CMG",
+  "t": "license_plate",
+  "n": "Powiat Mogileński",
+  "a": [
+   "mogileński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CNA",
+  "t": "license_plate",
+  "n": "Powiat Nakielski",
+  "a": [
+   "nakielski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CRA",
+  "t": "license_plate",
+  "n": "Powiat Radziejowski",
+  "a": [
+   "radziejowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CRY",
+  "t": "license_plate",
+  "n": "Powiat Rypiński",
+  "a": [
+   "rypiński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CSE",
+  "t": "license_plate",
+  "n": "Powiat Sępoleński",
+  "a": [
+   "sępoleński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CSW",
+  "t": "license_plate",
+  "n": "Powiat Świecki",
+  "a": [
+   "świecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CT",
+  "t": "license_plate",
+  "n": "Toruń",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CTR",
+  "t": "license_plate",
+  "n": "Powiat Toruński",
+  "a": [
+   "toruński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CTU",
+  "t": "license_plate",
+  "n": "Powiat Tucholski",
+  "a": [
+   "tucholski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CW",
+  "t": "license_plate",
+  "n": "Włocławek",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CWA",
+  "t": "license_plate",
+  "n": "Powiat Wąbrzeski",
+  "a": [
+   "wąbrzeski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CWL",
+  "t": "license_plate",
+  "n": "Powiat Włocławski",
+  "a": [
+   "włocławski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-CZN",
+  "t": "license_plate",
+  "n": "Powiat Żniński",
+  "a": [
+   "żniński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DB",
+  "t": "license_plate",
+  "n": "Wałbrzych",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DBA",
+  "t": "license_plate",
+  "n": "Powiat Wałbrzyski",
+  "a": [
+   "wałbrzyski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DBL",
+  "t": "license_plate",
+  "n": "Powiat Bolesławiecki",
+  "a": [
+   "bolesławiecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DDZ",
+  "t": "license_plate",
+  "n": "Powiat Dzierżoniowski",
+  "a": [
+   "dzierżoniowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DGL",
+  "t": "license_plate",
+  "n": "Powiat Głogowski",
+  "a": [
+   "głogowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DGR",
+  "t": "license_plate",
+  "n": "Powiat Górowski",
+  "a": [
+   "górowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DJ",
+  "t": "license_plate",
+  "n": "Jelenia Góra",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DJA",
+  "t": "license_plate",
+  "n": "Powiat Jaworski",
+  "a": [
+   "jaworski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DJE",
+  "t": "license_plate",
+  "n": "Powiat Karkonoski",
+  "a": [
+   "karkonoski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DKA",
+  "t": "license_plate",
+  "n": "Powiat Kamiennogórski",
+  "a": [
+   "kamiennogórski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DKL",
+  "t": "license_plate",
+  "n": "Powiat Kłodzki",
+  "a": [
+   "kłodzki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DL",
+  "t": "license_plate",
+  "n": "Legnica",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DLB",
+  "t": "license_plate",
+  "n": "Powiat Lubański",
+  "a": [
+   "lubański"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DLE",
+  "t": "license_plate",
+  "n": "Powiat Legnicki",
+  "a": [
+   "legnicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DLU",
+  "t": "license_plate",
+  "n": "Powiat Lubiński",
+  "a": [
+   "lubiński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DLW",
+  "t": "license_plate",
+  "n": "Powiat Lwówecki",
+  "a": [
+   "lwówecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DMI",
+  "t": "license_plate",
+  "n": "Powiat Milicki",
+  "a": [
+   "milicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DOA",
+  "t": "license_plate",
+  "n": "Powiat Oławski",
+  "a": [
+   "oławski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DOL",
+  "t": "license_plate",
+  "n": "Powiat Oleśnicki",
+  "a": [
+   "oleśnicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DPL",
+  "t": "license_plate",
+  "n": "Powiat Polkowicki",
+  "a": [
+   "polkowicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DSR",
+  "t": "license_plate",
+  "n": "Powiat Średzki",
+  "a": [
+   "średzki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DST",
+  "t": "license_plate",
+  "n": "Powiat Strzeliński",
+  "a": [
+   "strzeliński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DSW",
+  "t": "license_plate",
+  "n": "Powiat Świdnicki",
+  "a": [
+   "świdnicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DTR",
+  "t": "license_plate",
+  "n": "Powiat Trzebnicki",
+  "a": [
+   "trzebnicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DW",
+  "t": "license_plate",
+  "n": "Breslau",
+  "a": [
+   "Wrocław"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DWL",
+  "t": "license_plate",
+  "n": "Powiat Wołowski",
+  "a": [
+   "wołowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DWR",
+  "t": "license_plate",
+  "n": "Powiat Wrocławski",
+  "a": [
+   "wrocławski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DX",
+  "t": "license_plate",
+  "n": "Breslau",
+  "a": [
+   "Wrocław"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DZA",
+  "t": "license_plate",
+  "n": "Powiat Ząbkowicki",
+  "a": [
+   "ząbkowicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DZG",
+  "t": "license_plate",
+  "n": "Powiat Zgorzelecki",
+  "a": [
+   "zgorzelecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-DZL",
+  "t": "license_plate",
+  "n": "Powiat Złotoryjski",
+  "a": [
+   "złotoryjski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-EBE",
+  "t": "license_plate",
+  "n": "Powiat Bełchatowski",
+  "a": [
+   "bełchatowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-EBR",
+  "t": "license_plate",
+  "n": "Powiat Brzeziński",
+  "a": [
+   "brzeziński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ED",
+  "t": "license_plate",
+  "n": "Łódź",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-EKU",
+  "t": "license_plate",
+  "n": "Powiat Kutnowski",
+  "a": [
+   "kutnowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-EL",
+  "t": "license_plate",
+  "n": "Łódź",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ELA",
+  "t": "license_plate",
+  "n": "Powiat Łaski",
+  "a": [
+   "łaski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ELC",
+  "t": "license_plate",
+  "n": "Powiat Łowicki",
+  "a": [
+   "łowicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ELE",
+  "t": "license_plate",
+  "n": "Powiat Łęczycki",
+  "a": [
+   "łęczycki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ELW",
+  "t": "license_plate",
+  "n": "Powiat Łódzki wschodni",
+  "a": [
+   "łódzki wschodni"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-EOP",
+  "t": "license_plate",
+  "n": "Powiat Opoczyński",
+  "a": [
+   "opoczyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-EP",
+  "t": "license_plate",
+  "n": "Piotrków Trybunalski",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-EPA",
+  "t": "license_plate",
+  "n": "Powiat Pabianicki",
+  "a": [
+   "pabianicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-EPD",
+  "t": "license_plate",
+  "n": "Powiat Poddębicki",
+  "a": [
+   "poddębicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-EPI",
+  "t": "license_plate",
+  "n": "Powiat Piotrkowski",
+  "a": [
+   "piotrkowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-EPJ",
+  "t": "license_plate",
+  "n": "Powiat Pajęczański",
+  "a": [
+   "pajęczański"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ERA",
+  "t": "license_plate",
+  "n": "Powiat Radomszczański",
+  "a": [
+   "radomszczański"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ERW",
+  "t": "license_plate",
+  "n": "Powiat Rawski",
+  "a": [
+   "rawski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ES",
+  "t": "license_plate",
+  "n": "Skierniewice",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ESI",
+  "t": "license_plate",
+  "n": "Powiat Sieradzki",
+  "a": [
+   "sieradzki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ESK",
+  "t": "license_plate",
+  "n": "Powiat Skierniewicki",
+  "a": [
+   "skierniewicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ETM",
+  "t": "license_plate",
+  "n": "Powiat Tomaszowski",
+  "a": [
+   "tomaszowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-EWE",
+  "t": "license_plate",
+  "n": "Powiat Wieruszowski",
+  "a": [
+   "wieruszowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-EWI",
+  "t": "license_plate",
+  "n": "Powiat Wieluński",
+  "a": [
+   "wieluński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-EZD",
+  "t": "license_plate",
+  "n": "Powiat Zduńskowolski",
+  "a": [
+   "zduńskowolski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-EZG",
+  "t": "license_plate",
+  "n": "Powiat Zgierski",
+  "a": [
+   "zgierski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-FG",
+  "t": "license_plate",
+  "n": "Gorzów Wielkopolski",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-FGW",
+  "t": "license_plate",
+  "n": "Powiat Gorzowski",
+  "a": [
+   "gorzowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-FKR",
+  "t": "license_plate",
+  "n": "Powiat Krośnieński",
+  "a": [
+   "krośnieński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-FMI",
+  "t": "license_plate",
+  "n": "Powiat Międzyrzecki",
+  "a": [
+   "międzyrzecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-FNW",
+  "t": "license_plate",
+  "n": "Powiat Nowosolski",
+  "a": [
+   "nowosolski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-FSD",
+  "t": "license_plate",
+  "n": "Powiat Strzelecko-drezdenecki",
+  "a": [
+   "strzelecko-drezdenecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-FSL",
+  "t": "license_plate",
+  "n": "Powiat Słubicki",
+  "a": [
+   "słubicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-FSU",
+  "t": "license_plate",
+  "n": "Powiat Sulęciński",
+  "a": [
+   "sulęciński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-FSW",
+  "t": "license_plate",
+  "n": "Powiat Świebodziński",
+  "a": [
+   "świebodziński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-FWS",
+  "t": "license_plate",
+  "n": "Powiat Wschowski",
+  "a": [
+   "wschowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-FZ",
+  "t": "license_plate",
+  "n": "Zielona Góra",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-FZA",
+  "t": "license_plate",
+  "n": "Powiat Żarski",
+  "a": [
+   "żarski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-FZG",
+  "t": "license_plate",
+  "n": "Powiat Żagański",
+  "a": [
+   "żagański"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-FZI",
+  "t": "license_plate",
+  "n": "Powiat Zielonogórski",
+  "a": [
+   "zielonogórski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GA",
+  "t": "license_plate",
+  "n": "Gdynia",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GBY",
+  "t": "license_plate",
+  "n": "Powiat Bytowski",
+  "a": [
+   "bytowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GCH",
+  "t": "license_plate",
+  "n": "Powiat Chojnicki",
+  "a": [
+   "chojnicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GCZ",
+  "t": "license_plate",
+  "n": "Powiat Człuchowski",
+  "a": [
+   "człuchowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GD",
+  "t": "license_plate",
+  "n": "Danzig",
+  "a": [
+   "Gdańsk"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GDA",
+  "t": "license_plate",
+  "n": "Powiat Gdański",
+  "a": [
+   "gdański"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GKA",
+  "t": "license_plate",
+  "n": "Powiat Kartuski",
+  "a": [
+   "kartuski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GKS",
+  "t": "license_plate",
+  "n": "Powiat Kościerski",
+  "a": [
+   "kościerski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GKW",
+  "t": "license_plate",
+  "n": "Powiat Kwidzyński",
+  "a": [
+   "kwidzyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GKY",
+  "t": "license_plate",
+  "n": "Powiat Kartuski",
+  "a": [
+   "kartuski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GKZ",
+  "t": "license_plate",
+  "n": "Powiat Kartuski",
+  "a": [
+   "kartuski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GLE",
+  "t": "license_plate",
+  "n": "Powiat Lęborski",
+  "a": [
+   "lęborski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GMB",
+  "t": "license_plate",
+  "n": "Powiat Malborski",
+  "a": [
+   "malborski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GND",
+  "t": "license_plate",
+  "n": "Powiat Nowodworski",
+  "a": [
+   "nowodworski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GPU",
+  "t": "license_plate",
+  "n": "Powiat Pucki",
+  "a": [
+   "pucki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GS",
+  "t": "license_plate",
+  "n": "Słupsk",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GSL",
+  "t": "license_plate",
+  "n": "Powiat Słupski",
+  "a": [
+   "słupski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GSP",
+  "t": "license_plate",
+  "n": "Sopot",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GST",
+  "t": "license_plate",
+  "n": "Powiat Starogardzki",
+  "a": [
+   "starogardzki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GSZ",
+  "t": "license_plate",
+  "n": "Powiat Sztumski",
+  "a": [
+   "sztumski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GTC",
+  "t": "license_plate",
+  "n": "Powiat Tczewski",
+  "a": [
+   "tczewski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GWE",
+  "t": "license_plate",
+  "n": "Powiat Wejherowski",
+  "a": [
+   "wejherowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-GWO",
+  "t": "license_plate",
+  "n": "Powiat Wejherowski",
+  "a": [
+   "wejherowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IB",
+  "t": "license_plate",
+  "n": "Bielsko-Biała",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IBE",
+  "t": "license_plate",
+  "n": "Powiat Będziński",
+  "a": [
+   "będziński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IBI",
+  "t": "license_plate",
+  "n": "Powiat Bielski",
+  "a": [
+   "bielski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IBL",
+  "t": "license_plate",
+  "n": "Powiat Bieruńsko-lędziński",
+  "a": [
+   "bieruńsko-lędziński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IBN",
+  "t": "license_plate",
+  "n": "Powiat Będziński",
+  "a": [
+   "będziński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IC",
+  "t": "license_plate",
+  "n": "Częstochowa",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ICI",
+  "t": "license_plate",
+  "n": "Powiat Cieszyński",
+  "a": [
+   "cieszyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ICN",
+  "t": "license_plate",
+  "n": "Powiat Cieszyński",
+  "a": [
+   "cieszyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ICZ",
+  "t": "license_plate",
+  "n": "Powiat Częstochowski",
+  "a": [
+   "częstochowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ID",
+  "t": "license_plate",
+  "n": "Dąbrowa Górnicza",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IE",
+  "t": "license_plate",
+  "n": "Powiat Będziński",
+  "a": [
+   "będziński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IG",
+  "t": "license_plate",
+  "n": "Gliwice",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IGL",
+  "t": "license_plate",
+  "n": "Powiat Gliwicki",
+  "a": [
+   "gliwicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IH",
+  "t": "license_plate",
+  "n": "Chorzów",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-II",
+  "t": "license_plate",
+  "n": "Siemianowice Śląskie",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IJ",
+  "t": "license_plate",
+  "n": "Jaworzno",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IJZ",
+  "t": "license_plate",
+  "n": "Jastrzębie-Zdrój",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IK",
+  "t": "license_plate",
+  "n": "Katowice",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IKL",
+  "t": "license_plate",
+  "n": "Powiat Kłobucki",
+  "a": [
+   "kłobucki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IL",
+  "t": "license_plate",
+  "n": "Ruda Śląska",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ILU",
+  "t": "license_plate",
+  "n": "Powiat Lubliniecki",
+  "a": [
+   "lubliniecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IM",
+  "t": "license_plate",
+  "n": "Mysłowice",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IMI",
+  "t": "license_plate",
+  "n": "Powiat Mikołowski",
+  "a": [
+   "mikołowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IMY",
+  "t": "license_plate",
+  "n": "Powiat Myszkowski",
+  "a": [
+   "myszkowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IO",
+  "t": "license_plate",
+  "n": "Sosnowiec",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IPI",
+  "t": "license_plate",
+  "n": "Piekary Śląskie",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IPS",
+  "t": "license_plate",
+  "n": "Powiat Pszczyński",
+  "a": [
+   "pszczyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IR",
+  "t": "license_plate",
+  "n": "Rybnik",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IRB",
+  "t": "license_plate",
+  "n": "Powiat Rybnicki",
+  "a": [
+   "rybnicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IRC",
+  "t": "license_plate",
+  "n": "Powiat Raciborski",
+  "a": [
+   "raciborski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IRS",
+  "t": "license_plate",
+  "n": "Ruda Śląska",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IT",
+  "t": "license_plate",
+  "n": "Tychy",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ITA",
+  "t": "license_plate",
+  "n": "Powiat Tarnogórski",
+  "a": [
+   "tarnogórski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IW",
+  "t": "license_plate",
+  "n": "Świętochłowice",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IWD",
+  "t": "license_plate",
+  "n": "Powiat Wodzisławski",
+  "a": [
+   "wodzisławski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IWZ",
+  "t": "license_plate",
+  "n": "Powiat Wodzisławski",
+  "a": [
+   "wodzisławski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IY",
+  "t": "license_plate",
+  "n": "Bytom",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IZ",
+  "t": "license_plate",
+  "n": "Zabrze",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IZA",
+  "t": "license_plate",
+  "n": "Powiat Zawierciański",
+  "a": [
+   "zawierciański"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IZO",
+  "t": "license_plate",
+  "n": "Żory",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-IZY",
+  "t": "license_plate",
+  "n": "Powiat Żywiecki",
+  "a": [
+   "żywiecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JBA",
+  "t": "license_plate",
+  "n": "Powiat Bocheński",
+  "a": [
+   "bocheński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JBC",
+  "t": "license_plate",
+  "n": "Powiat Bocheński",
+  "a": [
+   "bocheński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JBR",
+  "t": "license_plate",
+  "n": "Powiat Brzeski",
+  "a": [
+   "brzeski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JCH",
+  "t": "license_plate",
+  "n": "Powiat Chrzanowski",
+  "a": [
+   "chrzanowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JDA",
+  "t": "license_plate",
+  "n": "Powiat Dąbrowski",
+  "a": [
+   "dąbrowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JGR",
+  "t": "license_plate",
+  "n": "Powiat Gorlicki",
+  "a": [
+   "gorlicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JK",
+  "t": "license_plate",
+  "n": "Krakau",
+  "a": [
+   "Kraków"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JLI",
+  "t": "license_plate",
+  "n": "Powiat Limanowski",
+  "a": [
+   "limanowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JMI",
+  "t": "license_plate",
+  "n": "Powiat Miechowski",
+  "a": [
+   "miechowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JMY",
+  "t": "license_plate",
+  "n": "Powiat Myślenicki",
+  "a": [
+   "myślenicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JN",
+  "t": "license_plate",
+  "n": "Nowy Sącz",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JNS",
+  "t": "license_plate",
+  "n": "Powiat Nowosądecki",
+  "a": [
+   "nowosądecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JNT",
+  "t": "license_plate",
+  "n": "Powiat Nowotarski",
+  "a": [
+   "nowotarski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JOL",
+  "t": "license_plate",
+  "n": "Powiat Olkuski",
+  "a": [
+   "olkuski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JOS",
+  "t": "license_plate",
+  "n": "Powiat Oświęcimski",
+  "a": [
+   "oświęcimski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JPR",
+  "t": "license_plate",
+  "n": "Powiat Proszowicki",
+  "a": [
+   "proszowicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JR",
+  "t": "license_plate",
+  "n": "Krakau",
+  "a": [
+   "Kraków"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JRA",
+  "t": "license_plate",
+  "n": "Powiat Krakowski",
+  "a": [
+   "krakowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JRK",
+  "t": "license_plate",
+  "n": "Powiat Krakowski",
+  "a": [
+   "krakowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JSU",
+  "t": "license_plate",
+  "n": "Powiat Suski",
+  "a": [
+   "suski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JT",
+  "t": "license_plate",
+  "n": "Tarnów",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JTA",
+  "t": "license_plate",
+  "n": "Powiat Tarnowski",
+  "a": [
+   "tarnowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JTT",
+  "t": "license_plate",
+  "n": "Powiat Tatrzański",
+  "a": [
+   "tatrzański"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JWA",
+  "t": "license_plate",
+  "n": "Powiat Wadowicki",
+  "a": [
+   "wadowicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-JWI",
+  "t": "license_plate",
+  "n": "Powiat Wielicki",
+  "a": [
+   "wielicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KBA",
+  "t": "license_plate",
+  "n": "Powiat Bocheński",
+  "a": [
+   "bocheński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KBC",
+  "t": "license_plate",
+  "n": "Powiat Bocheński",
+  "a": [
+   "bocheński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KBR",
+  "t": "license_plate",
+  "n": "Powiat Brzeski",
+  "a": [
+   "brzeski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KCH",
+  "t": "license_plate",
+  "n": "Powiat Chrzanowski",
+  "a": [
+   "chrzanowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KDA",
+  "t": "license_plate",
+  "n": "Powiat Dąbrowski",
+  "a": [
+   "dąbrowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KGR",
+  "t": "license_plate",
+  "n": "Powiat Gorlicki",
+  "a": [
+   "gorlicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KK",
+  "t": "license_plate",
+  "n": "Krakau",
+  "a": [
+   "Kraków"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KLI",
+  "t": "license_plate",
+  "n": "Powiat Limanowski",
+  "a": [
+   "limanowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KMI",
+  "t": "license_plate",
+  "n": "Powiat Miechowski",
+  "a": [
+   "miechowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KMY",
+  "t": "license_plate",
+  "n": "Powiat Myślenicki",
+  "a": [
+   "myślenicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KN",
+  "t": "license_plate",
+  "n": "Nowy Sącz",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KNS",
+  "t": "license_plate",
+  "n": "Powiat Nowosądecki",
+  "a": [
+   "nowosądecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KNT",
+  "t": "license_plate",
+  "n": "Powiat Nowotarski",
+  "a": [
+   "nowotarski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KOL",
+  "t": "license_plate",
+  "n": "Powiat Olkuski",
+  "a": [
+   "olkuski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KOS",
+  "t": "license_plate",
+  "n": "Powiat Oświęcimski",
+  "a": [
+   "oświęcimski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KPR",
+  "t": "license_plate",
+  "n": "Powiat Proszowicki",
+  "a": [
+   "proszowicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KR",
+  "t": "license_plate",
+  "n": "Krakau",
+  "a": [
+   "Kraków"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KRA",
+  "t": "license_plate",
+  "n": "Powiat Krakowski",
+  "a": [
+   "krakowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KRK",
+  "t": "license_plate",
+  "n": "Powiat Krakowski",
+  "a": [
+   "krakowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KSU",
+  "t": "license_plate",
+  "n": "Powiat Suski",
+  "a": [
+   "suski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KT",
+  "t": "license_plate",
+  "n": "Tarnów",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KTA",
+  "t": "license_plate",
+  "n": "Powiat Tarnowski",
+  "a": [
+   "tarnowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KTT",
+  "t": "license_plate",
+  "n": "Powiat Tatrzański",
+  "a": [
+   "tatrzański"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KWA",
+  "t": "license_plate",
+  "n": "Powiat Wadowicki",
+  "a": [
+   "wadowicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-KWI",
+  "t": "license_plate",
+  "n": "Powiat Wielicki",
+  "a": [
+   "wielicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LB",
+  "t": "license_plate",
+  "n": "Biała Podlaska",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LBI",
+  "t": "license_plate",
+  "n": "Powiat Bialski",
+  "a": [
+   "bialski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LBL",
+  "t": "license_plate",
+  "n": "Powiat Biłgorajski",
+  "a": [
+   "biłgorajski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LC",
+  "t": "license_plate",
+  "n": "Chełm",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LCH",
+  "t": "license_plate",
+  "n": "Powiat Chełmski",
+  "a": [
+   "chełmski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LHR",
+  "t": "license_plate",
+  "n": "Powiat Hrubieszowski",
+  "a": [
+   "hrubieszowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LJA",
+  "t": "license_plate",
+  "n": "Powiat Janowski",
+  "a": [
+   "janowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LKR",
+  "t": "license_plate",
+  "n": "Powiat Kraśnicki",
+  "a": [
+   "kraśnicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LKS",
+  "t": "license_plate",
+  "n": "Powiat Krasnostawski",
+  "a": [
+   "krasnostawski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LLB",
+  "t": "license_plate",
+  "n": "Powiat Lubartowski",
+  "a": [
+   "lubartowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LLE",
+  "t": "license_plate",
+  "n": "Powiat Łęczyński",
+  "a": [
+   "łęczyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LLU",
+  "t": "license_plate",
+  "n": "Powiat Łukowski",
+  "a": [
+   "łukowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LOP",
+  "t": "license_plate",
+  "n": "Powiat Opolski",
+  "a": [
+   "opolski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LPA",
+  "t": "license_plate",
+  "n": "Powiat Parczewski",
+  "a": [
+   "parczewski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LPU",
+  "t": "license_plate",
+  "n": "Powiat Puławski",
+  "a": [
+   "puławski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LRA",
+  "t": "license_plate",
+  "n": "Powiat Radzyński",
+  "a": [
+   "radzyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LRY",
+  "t": "license_plate",
+  "n": "Powiat Rycki",
+  "a": [
+   "rycki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LSW",
+  "t": "license_plate",
+  "n": "Powiat Świdnicki",
+  "a": [
+   "świdnicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LTM",
+  "t": "license_plate",
+  "n": "Powiat Tomaszowski",
+  "a": [
+   "tomaszowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LU",
+  "t": "license_plate",
+  "n": "Lublin",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LUB",
+  "t": "license_plate",
+  "n": "Powiat Lubelski",
+  "a": [
+   "lubelski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LWL",
+  "t": "license_plate",
+  "n": "Powiat Włodawski",
+  "a": [
+   "włodawski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LZ",
+  "t": "license_plate",
+  "n": "Zamość",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-LZA",
+  "t": "license_plate",
+  "n": "Powiat Zamojski",
+  "a": [
+   "zamojski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MA",
+  "t": "license_plate",
+  "n": "Kalisz",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MCH",
+  "t": "license_plate",
+  "n": "Powiat Chodzieski",
+  "a": [
+   "chodzieski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MCT",
+  "t": "license_plate",
+  "n": "Powiat Czarnkowsko-trzcianecki",
+  "a": [
+   "czarnkowsko-trzcianecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MGN",
+  "t": "license_plate",
+  "n": "Powiat Gnieźnieński",
+  "a": [
+   "gnieźnieński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MGO",
+  "t": "license_plate",
+  "n": "Powiat Grodziski",
+  "a": [
+   "grodziski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MGS",
+  "t": "license_plate",
+  "n": "Powiat Gostyński",
+  "a": [
+   "gostyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MJA",
+  "t": "license_plate",
+  "n": "Powiat Jarociński",
+  "a": [
+   "jarociński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MK",
+  "t": "license_plate",
+  "n": "Kalisz",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MKA",
+  "t": "license_plate",
+  "n": "Powiat Kaliski",
+  "a": [
+   "kaliski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MKE",
+  "t": "license_plate",
+  "n": "Powiat Kępiński",
+  "a": [
+   "kępiński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MKL",
+  "t": "license_plate",
+  "n": "Powiat Kolski",
+  "a": [
+   "kolski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MKN",
+  "t": "license_plate",
+  "n": "Powiat Koniński",
+  "a": [
+   "koniński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MKO",
+  "t": "license_plate",
+  "n": "Konin",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MKR",
+  "t": "license_plate",
+  "n": "Powiat Krotoszyński",
+  "a": [
+   "krotoszyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MKS",
+  "t": "license_plate",
+  "n": "Powiat Kościański",
+  "a": [
+   "kościański"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ML",
+  "t": "license_plate",
+  "n": "Leszno",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MLE",
+  "t": "license_plate",
+  "n": "Powiat Leszczyński",
+  "a": [
+   "leszczyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MMI",
+  "t": "license_plate",
+  "n": "Powiat Międzychodzki",
+  "a": [
+   "międzychodzki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MN",
+  "t": "license_plate",
+  "n": "Konin",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MNT",
+  "t": "license_plate",
+  "n": "Powiat Nowotomyski",
+  "a": [
+   "nowotomyski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MO",
+  "t": "license_plate",
+  "n": "Posen",
+  "a": [
+   "Poznań"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MOB",
+  "t": "license_plate",
+  "n": "Powiat Obornicki",
+  "a": [
+   "obornicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MOS",
+  "t": "license_plate",
+  "n": "Powiat Ostrowski",
+  "a": [
+   "ostrowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MOT",
+  "t": "license_plate",
+  "n": "Powiat Ostrzeszowski",
+  "a": [
+   "ostrzeszowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MOZ",
+  "t": "license_plate",
+  "n": "Powiat Poznański",
+  "a": [
+   "poznański"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MP",
+  "t": "license_plate",
+  "n": "Powiat Pilski",
+  "a": [
+   "pilski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MPL",
+  "t": "license_plate",
+  "n": "Powiat Pleszewski",
+  "a": [
+   "pleszewski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MRA",
+  "t": "license_plate",
+  "n": "Powiat Rawicki",
+  "a": [
+   "rawicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MSE",
+  "t": "license_plate",
+  "n": "Powiat Śremski",
+  "a": [
+   "śremski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MSL",
+  "t": "license_plate",
+  "n": "Powiat Słupecki",
+  "a": [
+   "słupecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MSR",
+  "t": "license_plate",
+  "n": "Powiat Średzki",
+  "a": [
+   "średzki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MSZ",
+  "t": "license_plate",
+  "n": "Powiat Szamotulski",
+  "a": [
+   "szamotulski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MTU",
+  "t": "license_plate",
+  "n": "Powiat Turecki",
+  "a": [
+   "turecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MWA",
+  "t": "license_plate",
+  "n": "Powiat Wągrowiecki",
+  "a": [
+   "wągrowiecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MWL",
+  "t": "license_plate",
+  "n": "Powiat Wolsztyński",
+  "a": [
+   "wolsztyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MWR",
+  "t": "license_plate",
+  "n": "Powiat Wrzesiński",
+  "a": [
+   "wrzesiński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MX",
+  "t": "license_plate",
+  "n": "Posen",
+  "a": [
+   "Poznań"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MY",
+  "t": "license_plate",
+  "n": "Posen",
+  "a": [
+   "Poznań"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MZ",
+  "t": "license_plate",
+  "n": "Powiat Poznański",
+  "a": [
+   "poznański"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-MZL",
+  "t": "license_plate",
+  "n": "Powiat Złotowski",
+  "a": [
+   "złotowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NBA",
+  "t": "license_plate",
+  "n": "Powiat Bartoszycki",
+  "a": [
+   "bartoszycki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NBR",
+  "t": "license_plate",
+  "n": "Powiat Braniewski",
+  "a": [
+   "braniewski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NDZ",
+  "t": "license_plate",
+  "n": "Powiat Działdowski",
+  "a": [
+   "działdowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NE",
+  "t": "license_plate",
+  "n": "Elbląg",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NEB",
+  "t": "license_plate",
+  "n": "Powiat Elbląski",
+  "a": [
+   "elbląski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NEL",
+  "t": "license_plate",
+  "n": "Powiat Ełcki",
+  "a": [
+   "ełcki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NGI",
+  "t": "license_plate",
+  "n": "Powiat Giżycki",
+  "a": [
+   "giżycki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NGO",
+  "t": "license_plate",
+  "n": "Powiat Gołdapski",
+  "a": [
+   "gołdapski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NIL",
+  "t": "license_plate",
+  "n": "Powiat Iławski",
+  "a": [
+   "iławski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NKE",
+  "t": "license_plate",
+  "n": "Powiat Kętrzyński",
+  "a": [
+   "kętrzyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NLI",
+  "t": "license_plate",
+  "n": "Powiat Lidzbarski",
+  "a": [
+   "lidzbarski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NMR",
+  "t": "license_plate",
+  "n": "Powiat Mrągowski",
+  "a": [
+   "mrągowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NNI",
+  "t": "license_plate",
+  "n": "Powiat Nidzicki",
+  "a": [
+   "nidzicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NNM",
+  "t": "license_plate",
+  "n": "Powiat Nowomiejski",
+  "a": [
+   "nowomiejski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NO",
+  "t": "license_plate",
+  "n": "Olsztyn",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NOE",
+  "t": "license_plate",
+  "n": "Powiat Olecki",
+  "a": [
+   "olecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NOL",
+  "t": "license_plate",
+  "n": "Powiat Olsztyński",
+  "a": [
+   "olsztyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NOS",
+  "t": "license_plate",
+  "n": "Powiat Ostródzki",
+  "a": [
+   "ostródzki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NOT",
+  "t": "license_plate",
+  "n": "Powiat Ostródzki",
+  "a": [
+   "ostródzki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NOX",
+  "t": "license_plate",
+  "n": "Powiat Ostródzki",
+  "a": [
+   "ostródzki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NPI",
+  "t": "license_plate",
+  "n": "Powiat Piski",
+  "a": [
+   "piski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NSZ",
+  "t": "license_plate",
+  "n": "Powiat Szczycieński",
+  "a": [
+   "szczycieński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-NWE",
+  "t": "license_plate",
+  "n": "Powiat Węgorzewski",
+  "a": [
+   "węgorzewski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-OB",
+  "t": "license_plate",
+  "n": "Powiat Brzeski",
+  "a": [
+   "brzeski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-OGL",
+  "t": "license_plate",
+  "n": "Powiat Głubczycki",
+  "a": [
+   "głubczycki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-OK",
+  "t": "license_plate",
+  "n": "Powiat Kędzierzyńsko-kozielski",
+  "a": [
+   "kędzierzyńsko-kozielski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-OKL",
+  "t": "license_plate",
+  "n": "Powiat Kluczborski",
+  "a": [
+   "kluczborski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-OKR",
+  "t": "license_plate",
+  "n": "Powiat Krapkowicki",
+  "a": [
+   "krapkowicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ONA",
+  "t": "license_plate",
+  "n": "Powiat Namysłowski",
+  "a": [
+   "namysłowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ONY",
+  "t": "license_plate",
+  "n": "Powiat Nyski",
+  "a": [
+   "nyski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-OOL",
+  "t": "license_plate",
+  "n": "Powiat Oleski",
+  "a": [
+   "oleski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-OP",
+  "t": "license_plate",
+  "n": "Opole",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-OPO",
+  "t": "license_plate",
+  "n": "Powiat Opolski",
+  "a": [
+   "opolski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-OPR",
+  "t": "license_plate",
+  "n": "Powiat Prudnicki",
+  "a": [
+   "prudnicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-OST",
+  "t": "license_plate",
+  "n": "Powiat Strzelecki",
+  "a": [
+   "strzelecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PA",
+  "t": "license_plate",
+  "n": "Kalisz",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PCH",
+  "t": "license_plate",
+  "n": "Powiat Chodzieski",
+  "a": [
+   "chodzieski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PCT",
+  "t": "license_plate",
+  "n": "Powiat Czarnkowsko-trzcianecki",
+  "a": [
+   "czarnkowsko-trzcianecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PGN",
+  "t": "license_plate",
+  "n": "Powiat Gnieźnieński",
+  "a": [
+   "gnieźnieński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PGO",
+  "t": "license_plate",
+  "n": "Powiat Grodziski",
+  "a": [
+   "grodziski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PGS",
+  "t": "license_plate",
+  "n": "Powiat Gostyński",
+  "a": [
+   "gostyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PJA",
+  "t": "license_plate",
+  "n": "Powiat Jarociński",
+  "a": [
+   "jarociński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PK",
+  "t": "license_plate",
+  "n": "Kalisz",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PKA",
+  "t": "license_plate",
+  "n": "Powiat Kaliski",
+  "a": [
+   "kaliski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PKE",
+  "t": "license_plate",
+  "n": "Powiat Kępiński",
+  "a": [
+   "kępiński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PKL",
+  "t": "license_plate",
+  "n": "Powiat Kolski",
+  "a": [
+   "kolski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PKN",
+  "t": "license_plate",
+  "n": "Powiat Koniński",
+  "a": [
+   "koniński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PKO",
+  "t": "license_plate",
+  "n": "Konin",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PKR",
+  "t": "license_plate",
+  "n": "Powiat Krotoszyński",
+  "a": [
+   "krotoszyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PKS",
+  "t": "license_plate",
+  "n": "Powiat Kościański",
+  "a": [
+   "kościański"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PL",
+  "t": "license_plate",
+  "n": "Leszno",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PLE",
+  "t": "license_plate",
+  "n": "Powiat Leszczyński",
+  "a": [
+   "leszczyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PMI",
+  "t": "license_plate",
+  "n": "Powiat Międzychodzki",
+  "a": [
+   "międzychodzki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PN",
+  "t": "license_plate",
+  "n": "Konin",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PNT",
+  "t": "license_plate",
+  "n": "Powiat Nowotomyski",
+  "a": [
+   "nowotomyski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PO",
+  "t": "license_plate",
+  "n": "Posen",
+  "a": [
+   "Poznań"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-POB",
+  "t": "license_plate",
+  "n": "Powiat Obornicki",
+  "a": [
+   "obornicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-POS",
+  "t": "license_plate",
+  "n": "Powiat Ostrowski",
+  "a": [
+   "ostrowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-POT",
+  "t": "license_plate",
+  "n": "Powiat Ostrzeszowski",
+  "a": [
+   "ostrzeszowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-POZ",
+  "t": "license_plate",
+  "n": "Powiat Poznański",
+  "a": [
+   "poznański"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PP",
+  "t": "license_plate",
+  "n": "Powiat Pilski",
+  "a": [
+   "pilski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PPL",
+  "t": "license_plate",
+  "n": "Powiat Pleszewski",
+  "a": [
+   "pleszewski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PRA",
+  "t": "license_plate",
+  "n": "Powiat Rawicki",
+  "a": [
+   "rawicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PSE",
+  "t": "license_plate",
+  "n": "Powiat Śremski",
+  "a": [
+   "śremski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PSL",
+  "t": "license_plate",
+  "n": "Powiat Słupecki",
+  "a": [
+   "słupecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PSR",
+  "t": "license_plate",
+  "n": "Powiat Średzki",
+  "a": [
+   "średzki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PSZ",
+  "t": "license_plate",
+  "n": "Powiat Szamotulski",
+  "a": [
+   "szamotulski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PTU",
+  "t": "license_plate",
+  "n": "Powiat Turecki",
+  "a": [
+   "turecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PWA",
+  "t": "license_plate",
+  "n": "Powiat Wągrowiecki",
+  "a": [
+   "wągrowiecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PWL",
+  "t": "license_plate",
+  "n": "Powiat Wolsztyński",
+  "a": [
+   "wolsztyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PWR",
+  "t": "license_plate",
+  "n": "Powiat Wrzesiński",
+  "a": [
+   "wrzesiński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PX",
+  "t": "license_plate",
+  "n": "Posen",
+  "a": [
+   "Poznań"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PY",
+  "t": "license_plate",
+  "n": "Posen",
+  "a": [
+   "Poznań"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PZ",
+  "t": "license_plate",
+  "n": "Powiat Poznański",
+  "a": [
+   "poznański"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-PZL",
+  "t": "license_plate",
+  "n": "Powiat Złotowski",
+  "a": [
+   "złotowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RBI",
+  "t": "license_plate",
+  "n": "Powiat Bieszczadzki",
+  "a": [
+   "bieszczadzki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RBR",
+  "t": "license_plate",
+  "n": "Powiat Brzozowski",
+  "a": [
+   "brzozowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RDE",
+  "t": "license_plate",
+  "n": "Powiat Dębicki",
+  "a": [
+   "dębicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RJA",
+  "t": "license_plate",
+  "n": "Powiat Jarosławski",
+  "a": [
+   "jarosławski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RJS",
+  "t": "license_plate",
+  "n": "Powiat Jasielski",
+  "a": [
+   "jasielski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RK",
+  "t": "license_plate",
+  "n": "Krosno",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RKL",
+  "t": "license_plate",
+  "n": "Powiat Kolbuszowski",
+  "a": [
+   "kolbuszowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RKR",
+  "t": "license_plate",
+  "n": "Powiat Krośnieński",
+  "a": [
+   "krośnieński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RLA",
+  "t": "license_plate",
+  "n": "Powiat Łańcucki",
+  "a": [
+   "łańcucki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RLE",
+  "t": "license_plate",
+  "n": "Powiat Leżajski",
+  "a": [
+   "leżajski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RLS",
+  "t": "license_plate",
+  "n": "Powiat Leski",
+  "a": [
+   "leski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RLU",
+  "t": "license_plate",
+  "n": "Powiat Lubaczowski",
+  "a": [
+   "lubaczowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RMI",
+  "t": "license_plate",
+  "n": "Powiat Mielecki",
+  "a": [
+   "mielecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RNI",
+  "t": "license_plate",
+  "n": "Powiat Niżański",
+  "a": [
+   "niżański"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RP",
+  "t": "license_plate",
+  "n": "Przemyśl",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RPR",
+  "t": "license_plate",
+  "n": "Powiat Przemyski",
+  "a": [
+   "przemyski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RPZ",
+  "t": "license_plate",
+  "n": "Powiat Przeworski",
+  "a": [
+   "przeworski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RRS",
+  "t": "license_plate",
+  "n": "Powiat Ropczycko-sędziszowski",
+  "a": [
+   "ropczycko-sędziszowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RSA",
+  "t": "license_plate",
+  "n": "Powiat Sanocki",
+  "a": [
+   "sanocki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RSR",
+  "t": "license_plate",
+  "n": "Powiat Strzyżowski",
+  "a": [
+   "strzyżowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RST",
+  "t": "license_plate",
+  "n": "Powiat Stalowowolski",
+  "a": [
+   "stalowowolski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RT",
+  "t": "license_plate",
+  "n": "Tarnobrzeg",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RTA",
+  "t": "license_plate",
+  "n": "Powiat Tarnobrzeski",
+  "a": [
+   "tarnobrzeski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RZ",
+  "t": "license_plate",
+  "n": "Rzeszów",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RZE",
+  "t": "license_plate",
+  "n": "Powiat Rzeszowski",
+  "a": [
+   "rzeszowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RZR",
+  "t": "license_plate",
+  "n": "Powiat Rzeszowski",
+  "a": [
+   "rzeszowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-RZZ",
+  "t": "license_plate",
+  "n": "Powiat Rzeszowski",
+  "a": [
+   "rzeszowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SB",
+  "t": "license_plate",
+  "n": "Bielsko-Biała",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SBE",
+  "t": "license_plate",
+  "n": "Powiat Będziński",
+  "a": [
+   "będziński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SBI",
+  "t": "license_plate",
+  "n": "Powiat Bielski",
+  "a": [
+   "bielski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SBL",
+  "t": "license_plate",
+  "n": "Powiat Bieruńsko-lędziński",
+  "a": [
+   "bieruńsko-lędziński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SBN",
+  "t": "license_plate",
+  "n": "Powiat Będziński",
+  "a": [
+   "będziński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SC",
+  "t": "license_plate",
+  "n": "Częstochowa",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SCI",
+  "t": "license_plate",
+  "n": "Powiat Cieszyński",
+  "a": [
+   "cieszyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SCN",
+  "t": "license_plate",
+  "n": "Powiat Cieszyński",
+  "a": [
+   "cieszyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SCZ",
+  "t": "license_plate",
+  "n": "Powiat Częstochowski",
+  "a": [
+   "częstochowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SD",
+  "t": "license_plate",
+  "n": "Dąbrowa Górnicza",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SE",
+  "t": "license_plate",
+  "n": "Powiat Będziński",
+  "a": [
+   "będziński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SG",
+  "t": "license_plate",
+  "n": "Gliwice",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SGL",
+  "t": "license_plate",
+  "n": "Powiat Gliwicki",
+  "a": [
+   "gliwicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SH",
+  "t": "license_plate",
+  "n": "Chorzów",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SI",
+  "t": "license_plate",
+  "n": "Siemianowice Śląskie",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SJ",
+  "t": "license_plate",
+  "n": "Jaworzno",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SJZ",
+  "t": "license_plate",
+  "n": "Jastrzębie-Zdrój",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SK",
+  "t": "license_plate",
+  "n": "Katowice",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SKL",
+  "t": "license_plate",
+  "n": "Powiat Kłobucki",
+  "a": [
+   "kłobucki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SL",
+  "t": "license_plate",
+  "n": "Ruda Śląska",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SLU",
+  "t": "license_plate",
+  "n": "Powiat Lubliniecki",
+  "a": [
+   "lubliniecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SM",
+  "t": "license_plate",
+  "n": "Mysłowice",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SMI",
+  "t": "license_plate",
+  "n": "Powiat Mikołowski",
+  "a": [
+   "mikołowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SMY",
+  "t": "license_plate",
+  "n": "Powiat Myszkowski",
+  "a": [
+   "myszkowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SO",
+  "t": "license_plate",
+  "n": "Sosnowiec",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SPI",
+  "t": "license_plate",
+  "n": "Piekary Śląskie",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SPS",
+  "t": "license_plate",
+  "n": "Powiat Pszczyński",
+  "a": [
+   "pszczyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SR",
+  "t": "license_plate",
+  "n": "Rybnik",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SRB",
+  "t": "license_plate",
+  "n": "Powiat Rybnicki",
+  "a": [
+   "rybnicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SRC",
+  "t": "license_plate",
+  "n": "Powiat Raciborski",
+  "a": [
+   "raciborski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SRS",
+  "t": "license_plate",
+  "n": "Ruda Śląska",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ST",
+  "t": "license_plate",
+  "n": "Tychy",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-STA",
+  "t": "license_plate",
+  "n": "Powiat Tarnogórski",
+  "a": [
+   "tarnogórski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SW",
+  "t": "license_plate",
+  "n": "Świętochłowice",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SWD",
+  "t": "license_plate",
+  "n": "Powiat Wodzisławski",
+  "a": [
+   "wodzisławski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SWZ",
+  "t": "license_plate",
+  "n": "Powiat Wodzisławski",
+  "a": [
+   "wodzisławski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SY",
+  "t": "license_plate",
+  "n": "Bytom",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SZ",
+  "t": "license_plate",
+  "n": "Zabrze",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SZA",
+  "t": "license_plate",
+  "n": "Powiat Zawierciański",
+  "a": [
+   "zawierciański"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SZO",
+  "t": "license_plate",
+  "n": "Żory",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-SZY",
+  "t": "license_plate",
+  "n": "Powiat Żywiecki",
+  "a": [
+   "żywiecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-TBU",
+  "t": "license_plate",
+  "n": "Powiat Buski",
+  "a": [
+   "buski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-TJE",
+  "t": "license_plate",
+  "n": "Powiat Jędrzejowski",
+  "a": [
+   "jędrzejowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-TK",
+  "t": "license_plate",
+  "n": "Kielce",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-TKA",
+  "t": "license_plate",
+  "n": "Powiat Kazimierski",
+  "a": [
+   "kazimierski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-TKC",
+  "t": "license_plate",
+  "n": "Powiat Kielecki",
+  "a": [
+   "kielecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-TKI",
+  "t": "license_plate",
+  "n": "Powiat Kielecki",
+  "a": [
+   "kielecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-TKM",
+  "t": "license_plate",
+  "n": "Powiat Kielecki",
+  "a": [
+   "kielecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-TKN",
+  "t": "license_plate",
+  "n": "Powiat Konecki",
+  "a": [
+   "konecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-TKP",
+  "t": "license_plate",
+  "n": "Powiat Kielecki",
+  "a": [
+   "kielecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-TLW",
+  "t": "license_plate",
+  "n": "Powiat Włoszczowski",
+  "a": [
+   "włoszczowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-TOP",
+  "t": "license_plate",
+  "n": "Powiat Opatowski",
+  "a": [
+   "opatowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-TOS",
+  "t": "license_plate",
+  "n": "Powiat Ostrowiecki",
+  "a": [
+   "ostrowiecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-TPI",
+  "t": "license_plate",
+  "n": "Powiat Pińczowski",
+  "a": [
+   "pińczowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-TSA",
+  "t": "license_plate",
+  "n": "Powiat Sandomierski",
+  "a": [
+   "sandomierski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-TSK",
+  "t": "license_plate",
+  "n": "Powiat Skarżyski",
+  "a": [
+   "skarżyski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-TST",
+  "t": "license_plate",
+  "n": "Powiat Starachowicki",
+  "a": [
+   "starachowicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-TSZ",
+  "t": "license_plate",
+  "n": "Powiat Staszowski",
+  "a": [
+   "staszowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VB",
+  "t": "license_plate",
+  "n": "Wałbrzych",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VBA",
+  "t": "license_plate",
+  "n": "Powiat Wałbrzyski",
+  "a": [
+   "wałbrzyski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VBL",
+  "t": "license_plate",
+  "n": "Powiat Bolesławiecki",
+  "a": [
+   "bolesławiecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VDZ",
+  "t": "license_plate",
+  "n": "Powiat Dzierżoniowski",
+  "a": [
+   "dzierżoniowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VGL",
+  "t": "license_plate",
+  "n": "Powiat Głogowski",
+  "a": [
+   "głogowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VGR",
+  "t": "license_plate",
+  "n": "Powiat Górowski",
+  "a": [
+   "górowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VJ",
+  "t": "license_plate",
+  "n": "Jelenia Góra",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VJA",
+  "t": "license_plate",
+  "n": "Powiat Jaworski",
+  "a": [
+   "jaworski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VJE",
+  "t": "license_plate",
+  "n": "Powiat Karkonoski",
+  "a": [
+   "karkonoski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VKA",
+  "t": "license_plate",
+  "n": "Powiat Kamiennogórski",
+  "a": [
+   "kamiennogórski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VKL",
+  "t": "license_plate",
+  "n": "Powiat Kłodzki",
+  "a": [
+   "kłodzki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VL",
+  "t": "license_plate",
+  "n": "Legnica",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VLB",
+  "t": "license_plate",
+  "n": "Powiat Lubański",
+  "a": [
+   "lubański"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VLE",
+  "t": "license_plate",
+  "n": "Powiat Legnicki",
+  "a": [
+   "legnicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VLU",
+  "t": "license_plate",
+  "n": "Powiat Lubiński",
+  "a": [
+   "lubiński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VLW",
+  "t": "license_plate",
+  "n": "Powiat Lwówecki",
+  "a": [
+   "lwówecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VMI",
+  "t": "license_plate",
+  "n": "Powiat Milicki",
+  "a": [
+   "milicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VOA",
+  "t": "license_plate",
+  "n": "Powiat Oławski",
+  "a": [
+   "oławski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VOL",
+  "t": "license_plate",
+  "n": "Powiat Oleśnicki",
+  "a": [
+   "oleśnicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VPL",
+  "t": "license_plate",
+  "n": "Powiat Polkowicki",
+  "a": [
+   "polkowicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VSR",
+  "t": "license_plate",
+  "n": "Powiat Średzki",
+  "a": [
+   "średzki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VST",
+  "t": "license_plate",
+  "n": "Powiat Strzeliński",
+  "a": [
+   "strzeliński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VSW",
+  "t": "license_plate",
+  "n": "Powiat Świdnicki",
+  "a": [
+   "świdnicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VTR",
+  "t": "license_plate",
+  "n": "Powiat Trzebnicki",
+  "a": [
+   "trzebnicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VW",
+  "t": "license_plate",
+  "n": "Breslau",
+  "a": [
+   "Wrocław"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VWL",
+  "t": "license_plate",
+  "n": "Powiat Wołowski",
+  "a": [
+   "wołowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VWR",
+  "t": "license_plate",
+  "n": "Powiat Wrocławski",
+  "a": [
+   "wrocławski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VX",
+  "t": "license_plate",
+  "n": "Breslau",
+  "a": [
+   "Wrocław"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VZA",
+  "t": "license_plate",
+  "n": "Powiat Ząbkowicki",
+  "a": [
+   "ząbkowicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VZG",
+  "t": "license_plate",
+  "n": "Powiat Zgorzelecki",
+  "a": [
+   "zgorzelecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-VZL",
+  "t": "license_plate",
+  "n": "Powiat Złotoryjski",
+  "a": [
+   "złotoryjski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WA",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WB",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WBR",
+  "t": "license_plate",
+  "n": "Powiat Białobrzeski",
+  "a": [
+   "białobrzeski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WCI",
+  "t": "license_plate",
+  "n": "Powiat Ciechanowski",
+  "a": [
+   "ciechanowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WD",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WE",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WF",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WG",
+  "t": "license_plate",
+  "n": "Powiat Garwoliński",
+  "a": [
+   "garwoliński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WGM",
+  "t": "license_plate",
+  "n": "Powiat Grodziski",
+  "a": [
+   "grodziski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WGR",
+  "t": "license_plate",
+  "n": "Powiat Grójecki",
+  "a": [
+   "grójecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WGS",
+  "t": "license_plate",
+  "n": "Powiat Gostyniński",
+  "a": [
+   "gostyniński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WH",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WI",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WJ",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WK",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WKZ",
+  "t": "license_plate",
+  "n": "Powiat Kozienicki",
+  "a": [
+   "kozienicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WL",
+  "t": "license_plate",
+  "n": "Powiat Legionowski",
+  "a": [
+   "legionowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WLI",
+  "t": "license_plate",
+  "n": "Powiat Lipski",
+  "a": [
+   "lipski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WLS",
+  "t": "license_plate",
+  "n": "Powiat Łosicki",
+  "a": [
+   "łosicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WM",
+  "t": "license_plate",
+  "n": "Powiat Miński",
+  "a": [
+   "miński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WMA",
+  "t": "license_plate",
+  "n": "Powiat Makowski",
+  "a": [
+   "makowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WML",
+  "t": "license_plate",
+  "n": "Powiat Mławski",
+  "a": [
+   "mławski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WN",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WND",
+  "t": "license_plate",
+  "n": "Powiat Nowodworski",
+  "a": [
+   "nowodworski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WO",
+  "t": "license_plate",
+  "n": "Ostrołęka",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WOR",
+  "t": "license_plate",
+  "n": "Powiat Ostrowski",
+  "a": [
+   "ostrowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WOS",
+  "t": "license_plate",
+  "n": "Powiat Ostrołęcki",
+  "a": [
+   "ostrołęcki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WOT",
+  "t": "license_plate",
+  "n": "Powiat Otwocki",
+  "a": [
+   "otwocki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WP",
+  "t": "license_plate",
+  "n": "Płock",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WPA",
+  "t": "license_plate",
+  "n": "Powiat Piaseczyński",
+  "a": [
+   "piaseczyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WPI",
+  "t": "license_plate",
+  "n": "Powiat Piaseczyński",
+  "a": [
+   "piaseczyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WPL",
+  "t": "license_plate",
+  "n": "Powiat Płocki",
+  "a": [
+   "płocki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WPN",
+  "t": "license_plate",
+  "n": "Powiat Płoński",
+  "a": [
+   "płoński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WPP",
+  "t": "license_plate",
+  "n": "Powiat Pruszkowski",
+  "a": [
+   "pruszkowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WPR",
+  "t": "license_plate",
+  "n": "Powiat Pruszkowski",
+  "a": [
+   "pruszkowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WPS",
+  "t": "license_plate",
+  "n": "Powiat Pruszkowski",
+  "a": [
+   "pruszkowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WPU",
+  "t": "license_plate",
+  "n": "Powiat Pułtuski",
+  "a": [
+   "pułtuski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WPW",
+  "t": "license_plate",
+  "n": "Powiat Piaseczyński",
+  "a": [
+   "piaseczyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WPX",
+  "t": "license_plate",
+  "n": "Powiat Piaseczyński",
+  "a": [
+   "piaseczyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WPY",
+  "t": "license_plate",
+  "n": "Powiat Przysuski",
+  "a": [
+   "przysuski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WPZ",
+  "t": "license_plate",
+  "n": "Powiat Przasnyski",
+  "a": [
+   "przasnyski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WR",
+  "t": "license_plate",
+  "n": "Radom",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WRA",
+  "t": "license_plate",
+  "n": "Powiat Radomski",
+  "a": [
+   "radomski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WS",
+  "t": "license_plate",
+  "n": "Siedlce",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WSC",
+  "t": "license_plate",
+  "n": "Powiat Sochaczewski",
+  "a": [
+   "sochaczewski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WSE",
+  "t": "license_plate",
+  "n": "Powiat Sierpecki",
+  "a": [
+   "sierpecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WSI",
+  "t": "license_plate",
+  "n": "Powiat Siedlecki",
+  "a": [
+   "siedlecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WSK",
+  "t": "license_plate",
+  "n": "Powiat Sokołowski",
+  "a": [
+   "sokołowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WSZ",
+  "t": "license_plate",
+  "n": "Powiat Szydłowiecki",
+  "a": [
+   "szydłowiecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WT",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WU",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WV",
+  "t": "license_plate",
+  "n": "Powiat Wołomiński",
+  "a": [
+   "wołomiński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WW",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WWE",
+  "t": "license_plate",
+  "n": "Powiat Węgrowski",
+  "a": [
+   "węgrowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WWL",
+  "t": "license_plate",
+  "n": "Powiat Wołomiński",
+  "a": [
+   "wołomiński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WWY",
+  "t": "license_plate",
+  "n": "Powiat Wyszkowski",
+  "a": [
+   "wyszkowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WX",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WY",
+  "t": "license_plate",
+  "n": "Warschau",
+  "a": [
+   "m.st. Warszawa"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WZ",
+  "t": "license_plate",
+  "n": "Powiat Warszawski zachodni",
+  "a": [
+   "warszawski zachodni"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WZU",
+  "t": "license_plate",
+  "n": "Powiat Żuromiński",
+  "a": [
+   "żuromiński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WZW",
+  "t": "license_plate",
+  "n": "Powiat Zwoleński",
+  "a": [
+   "zwoleński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-WZY",
+  "t": "license_plate",
+  "n": "Powiat Żyrardowski",
+  "a": [
+   "żyrardowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XA",
+  "t": "license_plate",
+  "n": "Gdynia",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XBY",
+  "t": "license_plate",
+  "n": "Powiat Bytowski",
+  "a": [
+   "bytowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XCH",
+  "t": "license_plate",
+  "n": "Powiat Chojnicki",
+  "a": [
+   "chojnicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XCZ",
+  "t": "license_plate",
+  "n": "Powiat Człuchowski",
+  "a": [
+   "człuchowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XD",
+  "t": "license_plate",
+  "n": "Danzig",
+  "a": [
+   "Gdańsk"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XDA",
+  "t": "license_plate",
+  "n": "Powiat Gdański",
+  "a": [
+   "gdański"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XKA",
+  "t": "license_plate",
+  "n": "Powiat Kartuski",
+  "a": [
+   "kartuski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XKS",
+  "t": "license_plate",
+  "n": "Powiat Kościerski",
+  "a": [
+   "kościerski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XKW",
+  "t": "license_plate",
+  "n": "Powiat Kwidzyński",
+  "a": [
+   "kwidzyński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XKY",
+  "t": "license_plate",
+  "n": "Powiat Kartuski",
+  "a": [
+   "kartuski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XKZ",
+  "t": "license_plate",
+  "n": "Powiat Kartuski",
+  "a": [
+   "kartuski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XLE",
+  "t": "license_plate",
+  "n": "Powiat Lęborski",
+  "a": [
+   "lęborski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XMB",
+  "t": "license_plate",
+  "n": "Powiat Malborski",
+  "a": [
+   "malborski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XND",
+  "t": "license_plate",
+  "n": "Powiat Nowodworski",
+  "a": [
+   "nowodworski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XPU",
+  "t": "license_plate",
+  "n": "Powiat Pucki",
+  "a": [
+   "pucki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XS",
+  "t": "license_plate",
+  "n": "Słupsk",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XSL",
+  "t": "license_plate",
+  "n": "Powiat Słupski",
+  "a": [
+   "słupski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XSP",
+  "t": "license_plate",
+  "n": "Sopot",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XST",
+  "t": "license_plate",
+  "n": "Powiat Starogardzki",
+  "a": [
+   "starogardzki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XSZ",
+  "t": "license_plate",
+  "n": "Powiat Sztumski",
+  "a": [
+   "sztumski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XTC",
+  "t": "license_plate",
+  "n": "Powiat Tczewski",
+  "a": [
+   "tczewski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XWE",
+  "t": "license_plate",
+  "n": "Powiat Wejherowski",
+  "a": [
+   "wejherowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-XWO",
+  "t": "license_plate",
+  "n": "Powiat Wejherowski",
+  "a": [
+   "wejherowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YBI",
+  "t": "license_plate",
+  "n": "Powiat Bieszczadzki",
+  "a": [
+   "bieszczadzki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YBR",
+  "t": "license_plate",
+  "n": "Powiat Brzozowski",
+  "a": [
+   "brzozowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YDE",
+  "t": "license_plate",
+  "n": "Powiat Dębicki",
+  "a": [
+   "dębicki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YJA",
+  "t": "license_plate",
+  "n": "Powiat Jarosławski",
+  "a": [
+   "jarosławski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YJS",
+  "t": "license_plate",
+  "n": "Powiat Jasielski",
+  "a": [
+   "jasielski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YK",
+  "t": "license_plate",
+  "n": "Krosno",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YKL",
+  "t": "license_plate",
+  "n": "Powiat Kolbuszowski",
+  "a": [
+   "kolbuszowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YKR",
+  "t": "license_plate",
+  "n": "Powiat Krośnieński",
+  "a": [
+   "krośnieński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YLA",
+  "t": "license_plate",
+  "n": "Powiat Łańcucki",
+  "a": [
+   "łańcucki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YLE",
+  "t": "license_plate",
+  "n": "Powiat Leżajski",
+  "a": [
+   "leżajski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YLS",
+  "t": "license_plate",
+  "n": "Powiat Leski",
+  "a": [
+   "leski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YLU",
+  "t": "license_plate",
+  "n": "Powiat Lubaczowski",
+  "a": [
+   "lubaczowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YMI",
+  "t": "license_plate",
+  "n": "Powiat Mielecki",
+  "a": [
+   "mielecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YNI",
+  "t": "license_plate",
+  "n": "Powiat Niżański",
+  "a": [
+   "niżański"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YP",
+  "t": "license_plate",
+  "n": "Przemyśl",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YPR",
+  "t": "license_plate",
+  "n": "Powiat Przemyski",
+  "a": [
+   "przemyski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YPZ",
+  "t": "license_plate",
+  "n": "Powiat Przeworski",
+  "a": [
+   "przeworski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YRS",
+  "t": "license_plate",
+  "n": "Powiat Ropczycko-sędziszowski",
+  "a": [
+   "ropczycko-sędziszowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YSA",
+  "t": "license_plate",
+  "n": "Powiat Sanocki",
+  "a": [
+   "sanocki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YSR",
+  "t": "license_plate",
+  "n": "Powiat Strzyżowski",
+  "a": [
+   "strzyżowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YST",
+  "t": "license_plate",
+  "n": "Powiat Stalowowolski",
+  "a": [
+   "stalowowolski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YT",
+  "t": "license_plate",
+  "n": "Tarnobrzeg",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YTA",
+  "t": "license_plate",
+  "n": "Powiat Tarnobrzeski",
+  "a": [
+   "tarnobrzeski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YZ",
+  "t": "license_plate",
+  "n": "Rzeszów",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YZE",
+  "t": "license_plate",
+  "n": "Powiat Rzeszowski",
+  "a": [
+   "rzeszowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YZR",
+  "t": "license_plate",
+  "n": "Powiat Rzeszowski",
+  "a": [
+   "rzeszowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-YZZ",
+  "t": "license_plate",
+  "n": "Powiat Rzeszowski",
+  "a": [
+   "rzeszowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZBI",
+  "t": "license_plate",
+  "n": "Powiat Białogardzki",
+  "a": [
+   "białogardzki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZCH",
+  "t": "license_plate",
+  "n": "Powiat Choszczeński",
+  "a": [
+   "choszczeński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZDR",
+  "t": "license_plate",
+  "n": "Powiat Drawski",
+  "a": [
+   "drawski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZGL",
+  "t": "license_plate",
+  "n": "Powiat Goleniowski",
+  "a": [
+   "goleniowski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZGR",
+  "t": "license_plate",
+  "n": "Powiat Gryfiński",
+  "a": [
+   "gryfiński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZGY",
+  "t": "license_plate",
+  "n": "Powiat Gryficki",
+  "a": [
+   "gryficki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZK",
+  "t": "license_plate",
+  "n": "Koszalin",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZKA",
+  "t": "license_plate",
+  "n": "Powiat Kamieński",
+  "a": [
+   "kamieński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZKL",
+  "t": "license_plate",
+  "n": "Powiat Kołobrzeski",
+  "a": [
+   "kołobrzeski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZKO",
+  "t": "license_plate",
+  "n": "Powiat Koszaliński",
+  "a": [
+   "koszaliński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZLO",
+  "t": "license_plate",
+  "n": "Powiat Łobeski",
+  "a": [
+   "łobeski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZMY",
+  "t": "license_plate",
+  "n": "Powiat Myśliborski",
+  "a": [
+   "myśliborski"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZPL",
+  "t": "license_plate",
+  "n": "Powiat Policki",
+  "a": [
+   "policki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZPY",
+  "t": "license_plate",
+  "n": "Powiat Pyrzycki",
+  "a": [
+   "pyrzycki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZS",
+  "t": "license_plate",
+  "n": "Stettin",
+  "a": [
+   "Szczecin"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZSD",
+  "t": "license_plate",
+  "n": "Powiat Świdwiński",
+  "a": [
+   "świdwiński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZSL",
+  "t": "license_plate",
+  "n": "Powiat Sławieński",
+  "a": [
+   "sławieński"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZST",
+  "t": "license_plate",
+  "n": "Powiat Stargardzki",
+  "a": [
+   "stargardzki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZSW",
+  "t": "license_plate",
+  "n": "Świnoujście",
+  "a": [],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZSZ",
+  "t": "license_plate",
+  "n": "Powiat Szczecinecki",
+  "a": [
+   "szczecinecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZWA",
+  "t": "license_plate",
+  "n": "Powiat Wałecki",
+  "a": [
+   "wałecki"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "license_plate:PL-ZZ",
+  "t": "license_plate",
+  "n": "Stettin",
+  "a": [
+   "Szczecin"
+  ],
+  "c": "country:PL"
  }
 ]

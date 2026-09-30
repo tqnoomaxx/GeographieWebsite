@@ -10,6 +10,8 @@ export function FactGrid({ country, compact = false }: { country: Country; compa
   const a = country.attributes
   const capital = a.capital ? geo.byId.get(a.capital) : undefined
   const popSrc = country.provenance.fields?.population
+  const nationalAnimal = a.national_animal
+  const nationalFlower = a.national_flower
   const facts: Array<{ label: string; value: React.ReactNode; src?: React.ReactNode }> = [
     { label: t('facts.capital'), value: capital ? <Link className="underline" to={entityPath(capital)}>{capital.names.de}</Link> : a.capital_names?.join(', ') ?? '–' },
     { label: t('facts.population'), value: formatNumber(a.population), src: popSrc && <SourceInfo source="Wikidata" url={`https://www.wikidata.org/wiki/${popSrc.source_id}`} asOf={popSrc.imported_at} /> },
@@ -18,6 +20,18 @@ export function FactGrid({ country, compact = false }: { country: Country; compa
     { label: (a.languages?.length ?? 0) > 1 ? t('facts.languages') : t('facts.language'), value: a.languages?.join(', ') || '–' },
     { label: t('facts.continent'), value: a.continent ? t(`scope.${a.continent}`) : '–' },
   ]
+  if (nationalAnimal)
+    facts.push({
+      label: t('facts.national_animal'),
+      value: nationalAnimal.name,
+      src: <SourceInfo source={nationalAnimal.source} url={nationalAnimal.source_url} />,
+    })
+  if (nationalFlower)
+    facts.push({
+      label: t('facts.national_flower'),
+      value: nationalFlower.name,
+      src: <SourceInfo source={nationalFlower.source} url={nationalFlower.source_url} />,
+    })
   if (!compact) {
     facts.push(
       { label: t('facts.subregion'), value: a.subregion ?? '–' },

@@ -2,7 +2,7 @@ import type { Generator } from './base'
 import { qid, effectiveDifficulty, nameOf, flagMedia, isSovereign, options } from './base'
 
 const CONTINENT_DE: Record<string, string> = { europe: 'Europa', asia: 'Asien', africa: 'Afrika', 'north-america': 'Nordamerika', 'south-america': 'Südamerika', oceania: 'Ozeanien', antarctica: 'Antarktis' }
-import type { Country } from '@/domain/types'
+import type { Country, NationalSymbol } from '@/domain/types'
 import type { GeneratorContext } from '../types'
 
 const independent = (ctx: GeneratorContext) => ctx.countries.filter(isSovereign)
@@ -135,6 +135,47 @@ export const countryComparison: Generator = {
     return null
   },
 }
+
+function nationalSymbolGenerator(
+  id: 'national_animal' | 'national_flower',
+  attribute: 'national_animal' | 'national_flower',
+  prompt: 'q.national_animal' | 'q.national_flower',
+): Generator {
+  return {
+    id,
+    category: 'countries',
+    pool: (ctx) => independent(ctx).filter((country) => !!(country as Country).attributes[attribute]),
+    make(target, ctx, rng, difficulty) {
+      const country = target as Country
+      const symbol = country.attributes[attribute]
+      if (!symbol) return null
+      const candidates = independent(ctx)
+        .map((item) => (item as Country).attributes[attribute])
+        .filter((item): item is NationalSymbol => !!item && item.name !== symbol.name)
+      const names = [...new Set(candidates.map((item) => item.name))]
+      const wrong = rng.shuffle(names).slice(0, 3)
+      if (wrong.length < 3) return null
+      const status = symbol.status === 'official' ? 'offiziell bestimmt' : 'als nationales Symbol etabliert'
+      const scientific = symbol.scientific_name ? ` (${symbol.scientific_name})` : ''
+      return {
+        id: qid(id, target),
+        category: 'countries',
+        type: id,
+        question_type: 'multiple_choice',
+        prompt: { key: prompt, params: { name: nameOf(country) } },
+        answer: symbol.name,
+        options: rng.shuffle([symbol.name, ...wrong]).map((name) => ({ id: name, label: name })),
+        difficulty: effectiveDifficulty(target, difficulty),
+        entities: [country.id],
+        explanation: `${symbol.name}${scientific} ist für ${nameOf(country)} ${status}.`,
+        metadata: { generator: id, scope: ctx.scope },
+      }
+    },
+  }
+}
+
+export const nationalAnimal = nationalSymbolGenerator('national_animal', 'national_animal', 'q.national_animal')
+export const nationalFlower = nationalSymbolGenerator('national_flower', 'national_flower', 'q.national_flower')
 
 export const neighborOfCountry: Generator = {
   id: 'neighbor_of_country',

@@ -997,7 +997,21 @@
      "de": "Spanisch",
      "en": "Spanish"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Rosttöpfer",
+    "scientific_name": "Furnarius rufus",
+    "status": "official",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q414"
+   },
+   "national_flower": {
+    "name": "Ceibo",
+    "scientific_name": "Erythrina crista-galli",
+    "status": "official",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q414"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -1299,7 +1313,14 @@
      "de": "Englisch",
      "en": "English"
     }
-   ]
+   ],
+   "national_flower": {
+    "name": "Gold-Akazie",
+    "scientific_name": "Acacia pycnantha",
+    "status": "official",
+    "source": "Australian Government",
+    "source_url": "https://www.pmc.gov.au/government/australian-national-symbols/australian-floral-emblem"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -1901,7 +1922,21 @@
      "de": "Bengalisch",
      "en": "Bengali"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Bengaltiger",
+    "scientific_name": "Panthera tigris tigris",
+    "status": "official",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q902"
+   },
+   "national_flower": {
+    "name": "Stern-Seerose",
+    "scientific_name": "Nymphaea nouchali",
+    "status": "official",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q902"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -3147,7 +3182,21 @@
      "de": "Portugiesisch",
      "en": "Portuguese"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Jaguar",
+    "scientific_name": "Panthera onca",
+    "status": "established",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q155"
+   },
+   "national_flower": {
+    "name": "Gelber Trompetenbaum",
+    "scientific_name": "Handroanthus albus",
+    "status": "official",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q155"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -3350,7 +3399,21 @@
      "de": "Dzongkha",
      "en": "Dzongkha"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Takin",
+    "scientific_name": "Budorcas taxicolor",
+    "status": "official",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q917"
+   },
+   "national_flower": {
+    "name": "Himalaja-Scheinmohn",
+    "scientific_name": "Meconopsis gakyidiana",
+    "status": "official",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q917"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -3854,7 +3917,14 @@
      "de": "Französisch",
      "en": "French"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Kanadischer Biber",
+    "scientific_name": "Castor canadensis",
+    "status": "official",
+    "source": "Government of Canada",
+    "source_url": "https://www.canada.ca/en/canadian-heritage/services/official-symbols-canada.html"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -4722,7 +4792,21 @@
      "de": "Spanisch",
      "en": "Spanish"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Huemul",
+    "scientific_name": "Hippocamelus bisulcus",
+    "status": "established",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q298"
+   },
+   "national_flower": {
+    "name": "Chilenische Wachsglocke",
+    "scientific_name": "Lapageria rosea",
+    "status": "official",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q298"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -5053,7 +5137,21 @@
      "de": "Spanisch",
      "en": "Spanish"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Andenkondor",
+    "scientific_name": "Vultur gryphus",
+    "status": "established",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q739"
+   },
+   "national_flower": {
+    "name": "Cattleya trianae",
+    "scientific_name": "Cattleya trianae",
+    "status": "official",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q739"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -5151,7 +5249,21 @@
      "de": "Spanisch",
      "en": "Spanish"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Weißwedelhirsch",
+    "scientific_name": "Odocoileus virginianus",
+    "status": "official",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q800"
+   },
+   "national_flower": {
+    "name": "Guaria morada",
+    "scientific_name": "Guarianthe skinneri",
+    "status": "official",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q800"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -6575,7 +6687,21 @@
      "de": "Estnisch",
      "en": "Estonian"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Wolf",
+    "scientific_name": "Canis lupus",
+    "status": "official",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q191"
+   },
+   "national_flower": {
+    "name": "Kornblume",
+    "scientific_name": "Centaurea cyanus",
+    "status": "established",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q191"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -7247,7 +7373,21 @@
      "de": "Schwedisch",
      "en": "Swedish"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Braunbär",
+    "scientific_name": "Ursus arctos",
+    "status": "established",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q33"
+   },
+   "national_flower": {
+    "name": "Maiglöckchen",
+    "scientific_name": "Convallaria majalis",
+    "status": "established",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q33"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -10335,7 +10475,21 @@
      "de": "Indonesisch",
      "en": "Indonesian"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Komodowaran",
+    "scientific_name": "Varanus komodoensis",
+    "status": "official",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q252"
+   },
+   "national_flower": {
+    "name": "Arabischer Jasmin",
+    "scientific_name": "Jasminum sambac",
+    "status": "official",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q252"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -10771,7 +10925,21 @@
      "de": "Tamil",
      "en": "Tamil"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Bengaltiger",
+    "scientific_name": "Panthera tigris tigris",
+    "status": "official",
+    "source": "National Portal of India",
+    "source_url": "https://knowindia.india.gov.in/national-identity-elements/national-animal.php"
+   },
+   "national_flower": {
+    "name": "Indische Lotosblume",
+    "scientific_name": "Nelumbo nucifera",
+    "status": "official",
+    "source": "National Portal of India",
+    "source_url": "https://knowindia.india.gov.in/national-identity-elements/national-flower.php"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -11671,7 +11839,21 @@
      "de": "Japanisch",
      "en": "Japanese"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Buntfasan",
+    "scientific_name": "Phasianus versicolor",
+    "status": "established",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q17"
+   },
+   "national_flower": {
+    "name": "Kirschblüte",
+    "scientific_name": "Prunus serrulata",
+    "status": "established",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q17"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -15725,7 +15907,21 @@
      "de": "Morisyen",
      "en": "Mauritian Creole"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Mauritiusfalke",
+    "scientific_name": "Falco punctatus",
+    "status": "official",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q1027"
+   },
+   "national_flower": {
+    "name": "Boucle d’Oreille",
+    "scientific_name": "Trochetia boutoniana",
+    "status": "official",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q1027"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -16026,7 +16222,21 @@
      "de": "Spanisch",
      "en": "Spanish"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Steinadler",
+    "scientific_name": "Aquila chrysaetos",
+    "status": "established",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q96"
+   },
+   "national_flower": {
+    "name": "Dahlie",
+    "scientific_name": "Dahlia",
+    "status": "official",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q96"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -16763,7 +16973,21 @@
      "de": "Englisch",
      "en": "English"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Adler",
+    "scientific_name": "Accipitridae",
+    "status": "established",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q1033"
+   },
+   "national_flower": {
+    "name": "Gelbe Trompetenblume",
+    "scientific_name": "Costus spectabilis",
+    "status": "established",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q1033"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -17189,7 +17413,21 @@
      "de": "Nepali",
      "en": "Nepali"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Hausrind",
+    "scientific_name": "Bos taurus",
+    "status": "official",
+    "source": "Verfassung Nepals",
+    "source_url": "https://lawcommission.gov.np/content/13437/nepal-s-constitution/"
+   },
+   "national_flower": {
+    "name": "Baum-Rhododendron",
+    "scientific_name": "Rhododendron arboreum",
+    "status": "official",
+    "source": "Verfassung Nepals",
+    "source_url": "https://lawcommission.gov.np/content/13437/nepal-s-constitution/"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -17810,7 +18048,21 @@
      "de": "Spanisch",
      "en": "Spanish"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Vikunja",
+    "scientific_name": "Vicugna vicugna",
+    "status": "established",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q419"
+   },
+   "national_flower": {
+    "name": "Kantuta",
+    "scientific_name": "Cantua buxifolia",
+    "status": "established",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q419"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -22325,7 +22577,21 @@
      "de": "Thailändisch",
      "en": "Thai"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Asiatischer Elefant",
+    "scientific_name": "Elephas maximus",
+    "status": "official",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q869"
+   },
+   "national_flower": {
+    "name": "Röhren-Kassie",
+    "scientific_name": "Cassia fistula",
+    "status": "official",
+    "source": "Wikidata (CC0)",
+    "source_url": "https://www.wikidata.org/wiki/Q869"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -23866,7 +24132,21 @@
      "de": "Englisch",
      "en": "English"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Amerikanischer Bison",
+    "scientific_name": "Bison bison",
+    "status": "official",
+    "source": "National Park Service",
+    "source_url": "https://www.nps.gov/subjects/bison/national-mammal.htm"
+   },
+   "national_flower": {
+    "name": "Rose",
+    "scientific_name": "Rosa",
+    "status": "official",
+    "source": "Proclamation 5574",
+    "source_url": "https://www.reaganlibrary.gov/archives/speech/proclamation-5574-national-floral-emblem-united-states-america"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -25416,7 +25696,21 @@
      "de": "isiZulu",
      "en": "Zulu"
     }
-   ]
+   ],
+   "national_animal": {
+    "name": "Springbock",
+    "scientific_name": "Antidorcas marsupialis",
+    "status": "official",
+    "source": "South African Government",
+    "source_url": "https://www.gov.za/about-sa/national-symbols"
+   },
+   "national_flower": {
+    "name": "Königsprotea",
+    "scientific_name": "Protea cynaroides",
+    "status": "official",
+    "source": "South African Government",
+    "source_url": "https://www.gov.za/about-sa/national-symbols"
+   }
   },
   "provenance": {
    "source": "mledoze/countries",

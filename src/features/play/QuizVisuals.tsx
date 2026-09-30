@@ -12,16 +12,17 @@ function plateSerial(code: string, country: string) {
   const number = 10 + (Math.floor(hash / 529) % 9889)
   if (country === 'CH') return number.toLocaleString('de-CH')
   if (country === 'AT') return `${number} ${letters[0]}`
+  if (country === 'PL') return code.length === 2 ? String(10000 + (number % 89999)) : `${letters[0]} ${String(number).padStart(3, '0')}`
   return `${letters} ${number}`
 }
 
 /** Deterministisches Musterkennzeichen: Ortskürzel bleiben korrekt, Serienzeichen sind bewusst fiktiv. */
 export function LicensePlate({ code, country = 'DE', compact = false }: { code: string; country?: string; compact?: boolean }) {
-  const normalizedCountry = ['DE', 'AT', 'CH'].includes(country) ? country : 'DE'
-  const euMark = normalizedCountry === 'AT' ? 'A' : 'D'
+  const normalizedCountry = ['DE', 'AT', 'CH', 'PL'].includes(country) ? country : 'DE'
+  const euMark = normalizedCountry === 'AT' ? 'A' : normalizedCountry === 'PL' ? 'PL' : 'D'
   const serial = plateSerial(code, normalizedCountry)
   const variant = plateHash(`${code}:format`) % 3
-  const countryLabel = normalizedCountry === 'AT' ? 'REPUBLIK ÖSTERREICH' : normalizedCountry === 'CH' ? 'SCHWEIZERISCHE EIDGENOSSENSCHAFT' : 'BUNDESREPUBLIK DEUTSCHLAND'
+  const countryLabel = normalizedCountry === 'AT' ? 'REPUBLIK ÖSTERREICH' : normalizedCountry === 'CH' ? 'SCHWEIZERISCHE EIDGENOSSENSCHAFT' : normalizedCountry === 'PL' ? 'RZECZPOSPOLITA POLSKA' : 'BUNDESREPUBLIK DEUTSCHLAND'
   return (
     <div className={`license-plate license-plate-country-${normalizedCountry} license-plate-variant-${variant} ${compact ? 'license-plate-compact' : ''}`} role="img" aria-label={`Musterkennzeichen mit Ortskürzel ${code} aus ${normalizedCountry}`}>
       {normalizedCountry === 'CH' ? <span className="license-plate-ch-badge" aria-hidden>+</span> : (

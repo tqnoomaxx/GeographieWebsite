@@ -32,7 +32,9 @@ const regions = readdirSync(join(DATA, 'entities/regions')).flatMap((f) =>
   read<Entity[]>(`entities/regions/${f}`),
 )
 const relationships = read<Relationship[]>('relationships/index.json')
-const plates = read<Entity[]>('entities/license-plates/DE.json')
+const plates = readdirSync(join(DATA, 'entities/license-plates')).flatMap((file) =>
+  read<Entity[]>(`entities/license-plates/${file}`),
+)
 const rivers = read<Entity[]>('entities/rivers.json')
 const lakes = read<Entity[]>('entities/lakes.json')
 const mountains = read<Entity[]>('entities/mountains.json')
@@ -156,6 +158,17 @@ describe('plates', () => {
     expect(s.questions).toHaveLength(10)
     const q = s.questions[0].question
     if (q.options) expect(q.options.some((o) => o.id === q.answer)).toBe(true)
+  })
+  it('Kennzeichen-Runde für Polen nutzt amtliche geografische Kürzel', () => {
+    const polish = plates.filter((plate) => plate.attributes.country === 'country:PL')
+    expect(polish.length).toBeGreaterThan(300)
+    const s = buildSession(
+      ctx('country:PL'),
+      setup({ category: 'license_plates', scope: 'country:PL', length: 10 }),
+      { seed: 'poland' },
+    )
+    expect(s.questions).toHaveLength(10)
+    expect(s.questions.every(({ question }) => question.entities.some((id) => id.startsWith('license_plate:PL-')))).toBe(true)
   })
 })
 

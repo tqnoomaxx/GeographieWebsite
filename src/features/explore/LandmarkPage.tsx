@@ -16,6 +16,7 @@ export default function LandmarkPage() {
   if (!lm) return <Page back="/explore/landmarks"><EmptyState title={t('common.error')} /></Page>
   const country = geo.byId.get(lm.attributes.country!)
   const photo = lm.media?.find((m) => m.kind === 'photo')
+  const landmarkType = lm.attributes.landmark_type as string | undefined
   return (
     <Page back="/explore/landmarks" action={<FavoriteButton id={lm.id} />}>
       <header className="mb-4">
@@ -39,10 +40,10 @@ export default function LandmarkPage() {
       )}
       <Card className="mb-5">
         <dl className="grid grid-cols-2 gap-2">
-          <div className="rounded-xl bg-card-2 px-3 py-2"><dd className="font-medium">{lm.attributes.unesco as string}</dd><dt className="text-xs text-ink-2">{t('facts.unesco')}</dt></div>
+          <div className="rounded-xl bg-card-2 px-3 py-2"><dd className="font-medium">{(lm.attributes.unesco as string | undefined) ?? (landmarkType ? t(`landmark_types.${landmarkType}`, { defaultValue: landmarkType }) : '–')}</dd><dt className="text-xs text-ink-2">{lm.attributes.unesco ? t('facts.unesco') : t('facts.type')}</dt></div>
           <div className="rounded-xl bg-card-2 px-3 py-2"><dd className="font-medium">{lm.names.en}</dd><dt className="text-xs text-ink-2">English</dt></div>
         </dl>
-        {lm.provenance.source_url && <p className="mt-2 text-xs text-ink-2">{t('facts.source')}: <a className="underline" href={lm.provenance.source_url} target="_blank" rel="noreferrer">Wikipedia</a></p>}
+        {lm.provenance.source_url && <p className="mt-2 text-xs text-ink-2">{t('facts.source')}: <a className="underline" href={lm.provenance.source_url} target="_blank" rel="noreferrer">{lm.provenance.source}</a></p>}
       </Card>
       <div className="grid gap-2 md:grid-cols-2">
         <Link to={`/play/images/round?scope=${encodeURIComponent(lm.attributes.continent ?? 'world')}&len=10`} className="btn-primary">📸 {t('category.images')}</Link>

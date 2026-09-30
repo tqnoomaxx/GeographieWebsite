@@ -11,6 +11,10 @@
   "DE": {
    "file": "entities/license-plates/DE.json",
    "count": 588
+  },
+  "PL": {
+   "file": "entities/license-plates/PL.json",
+   "count": 677
   }
  },
  "region_maps": {
@@ -281,14 +285,14 @@
  "counts": {
   "country": 254,
   "city": 1308,
-  "landmark": 78,
+  "landmark": 128,
   "river": 220,
   "lake": 113,
   "mountain": 201,
   "region": 817,
-  "license_plate": 711,
+  "license_plate": 1388,
   "flags": 1071,
-  "photos": 116,
+  "photos": 143,
   "capitals": 245,
   "water": 333
  },

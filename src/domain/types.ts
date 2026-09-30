@@ -71,6 +71,17 @@ export interface CountryAttributes {
   emoji?: string
   wikidata?: string
   highest_point?: { name: string; elevation_m?: number; wikidata?: string }
+  national_animal?: NationalSymbol
+  national_flower?: NationalSymbol
+}
+
+export interface NationalSymbol {
+  name: string
+  scientific_name?: string
+  /** official = gesetzlich/amtlich bestimmt, established = allgemein anerkanntes nationales Symbol. */
+  status: 'official' | 'established'
+  source: string
+  source_url: string
 }
 
 export interface Country extends Entity {

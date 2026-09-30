@@ -140,6 +140,48 @@
   }
  },
  {
+  "id": "landmark:auckland-sky-tower",
+  "type": "landmark",
+  "names": {
+   "de": "Sky Tower Auckland",
+   "en": "Sky Tower (Auckland)"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:NZ",
+   "continent": "oceania",
+   "place_name": "Auckland",
+   "landmark_type": "tower"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Sky_Tower_(Auckland)",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
+  "id": "landmark:bagan",
+  "type": "landmark",
+  "names": {
+   "de": "Tempelstadt Bagan",
+   "en": "Bagan"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MM",
+   "continent": "asia",
+   "place_name": "Bagan",
+   "landmark_type": "archaeological"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Bagan",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
   "id": "landmark:belem",
   "type": "landmark",
   "names": {
@@ -176,6 +218,27 @@
   }
  },
  {
+  "id": "landmark:bikini-atoll",
+  "type": "landmark",
+  "names": {
+   "de": "Bikini-Atoll",
+   "en": "Bikini Atoll"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MH",
+   "continent": "oceania",
+   "place_name": "Bikini-Atoll",
+   "landmark_type": "cultural-landscape"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Bikini_Atoll",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
   "id": "landmark:borobudur",
   "type": "landmark",
   "names": {
@@ -209,6 +272,97 @@
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Borobudur"
+  }
+ },
+ {
+  "id": "landmark:brandenburg-gate",
+  "type": "landmark",
+  "names": {
+   "de": "Brandenburger Tor",
+   "en": "Brandenburg Gate"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:brandenburg-gate",
+    "kind": "photo",
+    "url": "media/photos/landmarks/brandenburg-gate.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_abends.jpg",
+    "author": "Thomas Wolf, www.foto-tw.de",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Thomas Wolf, www.foto-tw.de · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Brandenburger_Tor_abends.jpg",
+    "caption": "Brandenburg Gate"
+   }
+  ],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "place_name": "Berlin",
+   "landmark_type": "monument"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Brandenburg_Gate",
+   "source_id": "Q82425",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
+  "id": "landmark:buenos-aires-obelisk",
+  "type": "landmark",
+  "names": {
+   "de": "Obelisk von Buenos Aires",
+   "en": "Obelisco de Buenos Aires"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AR",
+   "continent": "south-america",
+   "place_name": "Buenos Aires",
+   "landmark_type": "monument"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Obelisco_de_Buenos_Aires",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
+  "id": "landmark:burj-khalifa",
+  "type": "landmark",
+  "names": {
+   "de": "Burj Khalifa",
+   "en": "Burj Khalifa"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:burj-khalifa",
+    "kind": "photo",
+    "url": "media/photos/landmarks/burj-khalifa.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Burj_Khalifa_(worlds_tallest_building)_and_the_Dubai_skyline_(25781049892).jpg",
+    "author": "imran shahabuddin",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "imran shahabuddin · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Burj_Khalifa_(worlds_tallest_building)_and_the_Dubai_skyline_(25781049892).jpg",
+    "caption": "Burj Khalifa"
+   }
+  ],
+  "attributes": {
+   "country": "country:AE",
+   "continent": "asia",
+   "place_name": "Dubai",
+   "landmark_type": "building"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Burj_Khalifa",
+   "source_id": "Q12495",
+   "imported_at": "2026-09-30"
   }
  },
  {
@@ -320,6 +474,41 @@
   }
  },
  {
+  "id": "landmark:casbah-algiers",
+  "type": "landmark",
+  "names": {
+   "de": "Kasbah von Algier",
+   "en": "Casbah of Algiers"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:casbah-algiers",
+    "kind": "photo",
+    "url": "media/photos/landmarks/casbah-algiers.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:AlgerCasbah.jpg",
+    "author": "toufik Lerari",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attribution": "toufik Lerari · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:AlgerCasbah.jpg",
+    "caption": "Casbah of Algiers"
+   }
+  ],
+  "attributes": {
+   "country": "country:DZ",
+   "continent": "africa",
+   "place_name": "Algier",
+   "landmark_type": "historic-quarter"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Casbah_of_Algiers",
+   "source_id": "Q662102",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
   "id": "landmark:castel-del-monte",
   "type": "landmark",
   "names": {
@@ -351,6 +540,41 @@
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Castel%20del%20Monte%2C%20Apulia"
+  }
+ },
+ {
+  "id": "landmark:charles-bridge",
+  "type": "landmark",
+  "names": {
+   "de": "Karlsbrücke",
+   "en": "Charles Bridge"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:charles-bridge",
+    "kind": "photo",
+    "url": "media/photos/landmarks/charles-bridge.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Prague_07-2016_view_from_Lesser_Town_Tower_of_Charles_Bridge_img3.jpg",
+    "author": "A.Savin",
+    "license": "FAL",
+    "license_url": "http://artlibre.org/licence/lal/en",
+    "attribution": "A.Savin · FAL · https://commons.wikimedia.org/wiki/File:Prague_07-2016_view_from_Lesser_Town_Tower_of_Charles_Bridge_img3.jpg",
+    "caption": "Charles Bridge"
+   }
+  ],
+  "attributes": {
+   "country": "country:CZ",
+   "continent": "europe",
+   "place_name": "Prag",
+   "landmark_type": "bridge"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Charles_Bridge",
+   "source_id": "Q204871",
+   "imported_at": "2026-09-30"
   }
  },
  {
@@ -493,6 +717,27 @@
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Cinque%20Terre"
+  }
+ },
+ {
+  "id": "landmark:cn-tower",
+  "type": "landmark",
+  "names": {
+   "de": "CN Tower",
+   "en": "CN Tower"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CA",
+   "continent": "north-america",
+   "place_name": "Toronto",
+   "landmark_type": "tower"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/CN_Tower",
+   "imported_at": "2026-09-30"
   }
  },
  {
@@ -674,6 +919,76 @@
   }
  },
  {
+  "id": "landmark:djenne-mosque",
+  "type": "landmark",
+  "names": {
+   "de": "Große Moschee von Djenné",
+   "en": "Great Mosque of Djenné"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:djenne-mosque",
+    "kind": "photo",
+    "url": "media/photos/landmarks/djenne-mosque.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Djenne_great_mud_mosque.jpg",
+    "author": "Ruud Zwart",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Ruud Zwart · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Djenne_great_mud_mosque.jpg",
+    "caption": "Great Mosque of Djenné"
+   }
+  ],
+  "attributes": {
+   "country": "country:ML",
+   "continent": "africa",
+   "place_name": "Djenné",
+   "landmark_type": "religious"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Great_Mosque_of_Djenn%C3%A9",
+   "source_id": "Q683632",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
+  "id": "landmark:dubrovnik-walls",
+  "type": "landmark",
+  "names": {
+   "de": "Stadtmauer von Dubrovnik",
+   "en": "Walls of Dubrovnik"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:dubrovnik-walls",
+    "kind": "photo",
+    "url": "media/photos/landmarks/dubrovnik-walls.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dubrovnik_s_24.jpg",
+    "author": "Miroslav.vajdic",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Miroslav.vajdic · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Dubrovnik_s_24.jpg",
+    "caption": "Walls of Dubrovnik"
+   }
+  ],
+  "attributes": {
+   "country": "country:HR",
+   "continent": "europe",
+   "place_name": "Dubrovnik",
+   "landmark_type": "fortification"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Walls_of_Dubrovnik",
+   "source_id": "Q931733",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
   "id": "landmark:edinburgh-castle",
   "type": "landmark",
   "names": {
@@ -742,6 +1057,62 @@
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Eiffel%20Tower"
+  }
+ },
+ {
+  "id": "landmark:el-jem",
+  "type": "landmark",
+  "names": {
+   "de": "Amphitheater von El Djem",
+   "en": "Amphitheatre of El Jem"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:el-jem",
+    "kind": "photo",
+    "url": "media/photos/landmarks/el-jem.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_Amphitheatre_of_El_Jem,_built_around_AD_238_in_Thysdrus_in_Africa_Proconsularis,_the_estimated_capacity_is_35,000,_Tunisia_-_52717762494.jpg",
+    "author": "Carole Raddato",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attribution": "Carole Raddato · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:The_Amphitheatre_of_El_Jem,_built_around_AD_238_in_Thysdrus_in_Africa_Proconsularis,_the_estimated_capacity_is_35,000,_Tunisia_-_52717762494.jpg",
+    "caption": "Amphitheatre of El Jem"
+   }
+  ],
+  "attributes": {
+   "country": "country:TN",
+   "continent": "africa",
+   "place_name": "El Djem",
+   "landmark_type": "archaeological"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Amphitheatre_of_El_Jem",
+   "source_id": "Q2914326",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
+  "id": "landmark:empire-state",
+  "type": "landmark",
+  "names": {
+   "de": "Empire State Building",
+   "en": "Empire State Building"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "place_name": "New York City",
+   "landmark_type": "building"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Empire_State_Building",
+   "imported_at": "2026-09-30"
   }
  },
  {
@@ -849,6 +1220,41 @@
   }
  },
  {
+  "id": "landmark:forbidden-city",
+  "type": "landmark",
+  "names": {
+   "de": "Verbotene Stadt",
+   "en": "Forbidden City"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:forbidden-city",
+    "kind": "photo",
+    "url": "media/photos/landmarks/forbidden-city.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_Forbidden_City_-_View_from_Coal_Hill.jpg",
+    "author": "Pixelflake",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Pixelflake · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:The_Forbidden_City_-_View_from_Coal_Hill.jpg",
+    "caption": "Forbidden City"
+   }
+  ],
+  "attributes": {
+   "country": "country:CN",
+   "continent": "asia",
+   "place_name": "Peking",
+   "landmark_type": "palace"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Forbidden_City",
+   "source_id": "Q80290",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
   "id": "landmark:forth-bridge",
   "type": "landmark",
   "names": {
@@ -917,6 +1323,27 @@
   }
  },
  {
+  "id": "landmark:gardens-by-the-bay",
+  "type": "landmark",
+  "names": {
+   "de": "Gardens by the Bay",
+   "en": "Gardens by the Bay"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SG",
+   "continent": "asia",
+   "place_name": "Singapur",
+   "landmark_type": "garden"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Gardens_by_the_Bay",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
   "id": "landmark:goebekli-tepe",
   "type": "landmark",
   "names": {
@@ -948,6 +1375,27 @@
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/G%C3%B6bekli%20Tepe"
+  }
+ },
+ {
+  "id": "landmark:golden-gate",
+  "type": "landmark",
+  "names": {
+   "de": "Golden Gate Bridge",
+   "en": "Golden Gate Bridge"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "place_name": "San Francisco",
+   "landmark_type": "bridge"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge",
+   "imported_at": "2026-09-30"
   }
  },
  {
@@ -984,6 +1432,41 @@
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Grand%20Canyon"
+  }
+ },
+ {
+  "id": "landmark:grand-palace-bangkok",
+  "type": "landmark",
+  "names": {
+   "de": "Großer Palast von Bangkok",
+   "en": "Grand Palace"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:grand-palace-bangkok",
+    "kind": "photo",
+    "url": "media/photos/landmarks/grand-palace-bangkok.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:0005574_-_Wat_Phra_Kaew_006.jpg",
+    "author": "Preecha.MJ",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Preecha.MJ · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:0005574_-_Wat_Phra_Kaew_006.jpg",
+    "caption": "Grand Palace"
+   }
+  ],
+  "attributes": {
+   "country": "country:TH",
+   "continent": "asia",
+   "place_name": "Bangkok",
+   "landmark_type": "palace"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Grand_Palace",
+   "source_id": "Q873769",
+   "imported_at": "2026-09-30"
   }
  },
  {
@@ -1052,6 +1535,76 @@
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Great%20Wall%20of%20China"
+  }
+ },
+ {
+  "id": "landmark:great-zimbabwe",
+  "type": "landmark",
+  "names": {
+   "de": "Groß-Simbabwe",
+   "en": "Great Zimbabwe"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:great-zimbabwe",
+    "kind": "photo",
+    "url": "media/photos/landmarks/great-zimbabwe.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Conical_Tower_-_Great_Enclosure_III_(33736918448).jpg",
+    "author": "Andrew Moore from Johannesburg, South Africa",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attribution": "Andrew Moore from Johannesburg, South Africa · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Conical_Tower_-_Great_Enclosure_III_(33736918448).jpg",
+    "caption": "Great Zimbabwe"
+   }
+  ],
+  "attributes": {
+   "country": "country:ZW",
+   "continent": "africa",
+   "place_name": "Masvingo",
+   "landmark_type": "archaeological"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Great_Zimbabwe",
+   "source_id": "Q209217",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
+  "id": "landmark:gyeongbokgung",
+  "type": "landmark",
+  "names": {
+   "de": "Gyeongbokgung-Palast",
+   "en": "Gyeongbokgung"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:gyeongbokgung",
+    "kind": "photo",
+    "url": "media/photos/landmarks/gyeongbokgung.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%EA%B4%91%ED%99%94%EB%AC%B8_%EC%9B%94%EB%8C%80.jpg",
+    "author": "서울관광 아카이브",
+    "license": "KOGL Type 1",
+    "license_url": "http://www.kogl.or.kr/info/licenseType1.do",
+    "attribution": "서울관광 아카이브 · KOGL Type 1 · https://commons.wikimedia.org/wiki/File:%EA%B4%91%ED%99%94%EB%AC%B8_%EC%9B%94%EB%8C%80.jpg",
+    "caption": "Gyeongbokgung"
+   }
+  ],
+  "attributes": {
+   "country": "country:KR",
+   "continent": "asia",
+   "place_name": "Seoul",
+   "landmark_type": "palace"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Gyeongbokgung",
+   "source_id": "Q482485",
+   "imported_at": "2026-09-30"
   }
  },
  {
@@ -1127,6 +1680,48 @@
   }
  },
  {
+  "id": "landmark:hassan-ii-mosque",
+  "type": "landmark",
+  "names": {
+   "de": "Hassan-II.-Moschee",
+   "en": "Hassan II Mosque"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MA",
+   "continent": "africa",
+   "place_name": "Casablanca",
+   "landmark_type": "religious"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Hassan_II_Mosque",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
+  "id": "landmark:havana-capitol",
+  "type": "landmark",
+  "names": {
+   "de": "Kapitol von Havanna",
+   "en": "El Capitolio"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CU",
+   "continent": "north-america",
+   "place_name": "Havanna",
+   "landmark_type": "building"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/El_Capitolio",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
   "id": "landmark:himeji",
   "type": "landmark",
   "names": {
@@ -1158,6 +1753,41 @@
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Himeji%20Castle"
+  }
+ },
+ {
+  "id": "landmark:hungarian-parliament",
+  "type": "landmark",
+  "names": {
+   "de": "Ungarisches Parlamentsgebäude",
+   "en": "Hungarian Parliament Building"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:hungarian-parliament",
+    "kind": "photo",
+    "url": "media/photos/landmarks/hungarian-parliament.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_from_across_the_Danube,_2025-01-11.jpg",
+    "author": "Kilyann Le Hen",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "attribution": "Kilyann Le Hen · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Hungarian_Parliament_Building_from_across_the_Danube,_2025-01-11.jpg",
+    "caption": "Hungarian Parliament Building"
+   }
+  ],
+  "attributes": {
+   "country": "country:HU",
+   "continent": "europe",
+   "place_name": "Budapest",
+   "landmark_type": "building"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Hungarian_Parliament_Building",
+   "source_id": "Q11819",
+   "imported_at": "2026-09-30"
   }
  },
  {
@@ -1305,6 +1935,41 @@
   }
  },
  {
+  "id": "landmark:lake-bled",
+  "type": "landmark",
+  "names": {
+   "de": "Bleder See",
+   "en": "Lake Bled"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:lake-bled",
+    "kind": "photo",
+    "url": "media/photos/landmarks/lake-bled.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Lake_Bled_from_the_Mountain.jpg",
+    "author": "Canadianhockey91",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Canadianhockey91 · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Lake_Bled_from_the_Mountain.jpg",
+    "caption": "Lake Bled"
+   }
+  ],
+  "attributes": {
+   "country": "country:SI",
+   "continent": "europe",
+   "place_name": "Bled",
+   "landmark_type": "landscape"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Lake_Bled",
+   "source_id": "Q648902",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
   "id": "landmark:lalibela",
   "type": "landmark",
   "names": {
@@ -1336,6 +2001,41 @@
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Rock-Hewn%20Churches%2C%20Lalibela"
+  }
+ },
+ {
+  "id": "landmark:le-morne",
+  "type": "landmark",
+  "names": {
+   "de": "Le Morne Brabant",
+   "en": "Le Morne Brabant"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:le-morne",
+    "kind": "photo",
+    "url": "media/photos/landmarks/le-morne.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Le_Morne_Peninsula_in_Mauritius_(53697779236).jpg",
+    "author": "\"dronepicr\"",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "\"dronepicr\" · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Le_Morne_Peninsula_in_Mauritius_(53697779236).jpg",
+    "caption": "Le Morne Brabant"
+   }
+  ],
+  "attributes": {
+   "country": "country:MU",
+   "continent": "africa",
+   "place_name": "Le Morne",
+   "landmark_type": "cultural-landscape"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Le_Morne_Brabant",
+   "source_id": "Q1129992",
+   "imported_at": "2026-09-30"
   }
  },
  {
@@ -1476,6 +2176,41 @@
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Marrakesh"
+  }
+ },
+ {
+  "id": "landmark:merlion",
+  "type": "landmark",
+  "names": {
+   "de": "Merlion",
+   "en": "Merlion"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:merlion",
+    "kind": "photo",
+    "url": "media/photos/landmarks/merlion.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Singapore_Skyline_2019-10.jpg",
+    "author": "Unwicked",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Unwicked · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Singapore_Skyline_2019-10.jpg",
+    "caption": "Merlion"
+   }
+  ],
+  "attributes": {
+   "country": "country:SG",
+   "continent": "asia",
+   "place_name": "Singapur",
+   "landmark_type": "monument"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Merlion",
+   "source_id": "Q208760",
+   "imported_at": "2026-09-30"
   }
  },
  {
@@ -1657,6 +2392,62 @@
   }
  },
  {
+  "id": "landmark:nan-madol",
+  "type": "landmark",
+  "names": {
+   "de": "Nan Madol",
+   "en": "Nan Madol"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:FM",
+   "continent": "oceania",
+   "place_name": "Pohnpei",
+   "landmark_type": "archaeological"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Nan_Madol",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
+  "id": "landmark:neuschwanstein",
+  "type": "landmark",
+  "names": {
+   "de": "Schloss Neuschwanstein",
+   "en": "Neuschwanstein Castle"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:neuschwanstein",
+    "kind": "photo",
+    "url": "media/photos/landmarks/neuschwanstein.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Schloss_Neuschwanstein_2013.jpg",
+    "author": "Thomas Wolf, www.foto-tw.de",
+    "license": "CC BY-SA 3.0 de",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "attribution": "Thomas Wolf, www.foto-tw.de · CC BY-SA 3.0 de · https://commons.wikimedia.org/wiki/File:Schloss_Neuschwanstein_2013.jpg",
+    "caption": "Neuschwanstein Castle"
+   }
+  ],
+  "attributes": {
+   "country": "country:DE",
+   "continent": "europe",
+   "place_name": "Schwangau",
+   "landmark_type": "castle"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",
+   "source_id": "Q4152",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
   "id": "landmark:olympia",
   "type": "landmark",
   "names": {
@@ -1763,6 +2554,69 @@
   }
  },
  {
+  "id": "landmark:panama-canal",
+  "type": "landmark",
+  "names": {
+   "de": "Panamakanal",
+   "en": "Panama Canal"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:PA",
+   "continent": "north-america",
+   "place_name": "Panama-Stadt",
+   "landmark_type": "engineering"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Panama_Canal",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
+  "id": "landmark:parliament-hill",
+  "type": "landmark",
+  "names": {
+   "de": "Parliament Hill",
+   "en": "Parliament Hill"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:CA",
+   "continent": "north-america",
+   "place_name": "Ottawa",
+   "landmark_type": "building"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Parliament_Hill",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
+  "id": "landmark:parliament-house-canberra",
+  "type": "landmark",
+  "names": {
+   "de": "Parliament House",
+   "en": "Parliament House, Canberra"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AU",
+   "continent": "oceania",
+   "place_name": "Canberra",
+   "landmark_type": "building"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Parliament_House%2C_Canberra",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
   "id": "landmark:pena-palace",
   "type": "landmark",
   "names": {
@@ -1799,6 +2653,27 @@
   }
  },
  {
+  "id": "landmark:persepolis",
+  "type": "landmark",
+  "names": {
+   "de": "Persepolis",
+   "en": "Persepolis"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:IR",
+   "continent": "asia",
+   "place_name": "Persepolis",
+   "landmark_type": "archaeological"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Persepolis",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
   "id": "landmark:petra",
   "type": "landmark",
   "names": {
@@ -1830,6 +2705,27 @@
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Petra"
+  }
+ },
+ {
+  "id": "landmark:petronas-towers",
+  "type": "landmark",
+  "names": {
+   "de": "Petronas Towers",
+   "en": "Petronas Towers"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MY",
+   "continent": "asia",
+   "place_name": "Kuala Lumpur",
+   "landmark_type": "building"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Petronas_Towers",
+   "imported_at": "2026-09-30"
   }
  },
  {
@@ -1973,6 +2869,76 @@
   }
  },
  {
+  "id": "landmark:potala-palace",
+  "type": "landmark",
+  "names": {
+   "de": "Potala-Palast",
+   "en": "Potala Palace"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:potala-palace",
+    "kind": "photo",
+    "url": "media/photos/landmarks/potala-palace.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Potala_Palace_HQ.jpg",
+    "author": "Lhasa Government",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Lhasa Government · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Potala_Palace_HQ.jpg",
+    "caption": "Potala Palace"
+   }
+  ],
+  "attributes": {
+   "country": "country:CN",
+   "continent": "asia",
+   "place_name": "Lhasa",
+   "landmark_type": "palace"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Potala_Palace",
+   "source_id": "Q71229",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
+  "id": "landmark:prague-castle",
+  "type": "landmark",
+  "names": {
+   "de": "Prager Burg",
+   "en": "Prague Castle"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:prague-castle",
+    "kind": "photo",
+    "url": "media/photos/landmarks/prague-castle.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Karl%C5%AFv_most_Praha,_Star%C3%A9_M%C4%9Bsto_20170810_007.jpg",
+    "author": "Tilman2007",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Tilman2007 · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Karl%C5%AFv_most_Praha,_Star%C3%A9_M%C4%9Bsto_20170810_007.jpg",
+    "caption": "Prague Castle"
+   }
+  ],
+  "attributes": {
+   "country": "country:CZ",
+   "continent": "europe",
+   "place_name": "Prag",
+   "landmark_type": "castle"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Prague_Castle",
+   "source_id": "Q193369",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
   "id": "landmark:pyramids",
   "type": "landmark",
   "names": {
@@ -2045,6 +3011,62 @@
   }
  },
  {
+  "id": "landmark:registan",
+  "type": "landmark",
+  "names": {
+   "de": "Registan",
+   "en": "Registan"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:UZ",
+   "continent": "asia",
+   "place_name": "Samarkand",
+   "landmark_type": "square"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Registan",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
+  "id": "landmark:rila-monastery",
+  "type": "landmark",
+  "names": {
+   "de": "Kloster Rila",
+   "en": "Rila Monastery"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:rila-monastery",
+    "kind": "photo",
+    "url": "media/photos/landmarks/rila-monastery.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Rila_Monastery,_August_2013.jpg",
+    "author": "Raggatt2000",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Raggatt2000 · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Rila_Monastery,_August_2013.jpg",
+    "caption": "Rila Monastery"
+   }
+  ],
+  "attributes": {
+   "country": "country:BG",
+   "continent": "europe",
+   "place_name": "Rila",
+   "landmark_type": "monastery"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Rila_Monastery",
+   "source_id": "Q207945",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
   "id": "landmark:robben-island",
   "type": "landmark",
   "names": {
@@ -2076,6 +3098,41 @@
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Robben%20Island"
+  }
+ },
+ {
+  "id": "landmark:rock-islands",
+  "type": "landmark",
+  "names": {
+   "de": "Rock Islands",
+   "en": "Rock Islands"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:rock-islands",
+    "kind": "photo",
+    "url": "media/photos/landmarks/rock-islands.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ngerukewid-2016-aerial-view-Luka-Peternel.jpg",
+    "author": "Luka Peternel",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Luka Peternel · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Ngerukewid-2016-aerial-view-Luka-Peternel.jpg",
+    "caption": "Rock Islands"
+   }
+  ],
+  "attributes": {
+   "country": "country:PW",
+   "continent": "oceania",
+   "place_name": "Koror",
+   "landmark_type": "cultural-landscape"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Rock_Islands",
+   "source_id": "Q1068224",
+   "imported_at": "2026-09-30"
   }
  },
  {
@@ -2151,6 +3208,62 @@
   }
  },
  {
+  "id": "landmark:saint-basils",
+  "type": "landmark",
+  "names": {
+   "de": "Basilius-Kathedrale",
+   "en": "Saint Basil's Cathedral"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:saint-basils",
+    "kind": "photo",
+    "url": "media/photos/landmarks/saint-basils.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Saint_Basil%27s_Cathedral_in_Moscow.jpg",
+    "author": "Tsy1980",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Tsy1980 · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Saint_Basil%27s_Cathedral_in_Moscow.jpg",
+    "caption": "Saint Basil's Cathedral"
+   }
+  ],
+  "attributes": {
+   "country": "country:RU",
+   "continent": "europe",
+   "place_name": "Moskau",
+   "landmark_type": "religious"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Saint_Basil's_Cathedral",
+   "source_id": "Q129846",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
+  "id": "landmark:salar-de-uyuni",
+  "type": "landmark",
+  "names": {
+   "de": "Salar de Uyuni",
+   "en": "Salar de Uyuni"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BO",
+   "continent": "south-america",
+   "place_name": "Uyuni",
+   "landmark_type": "landscape"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Salar_de_Uyuni",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
   "id": "landmark:sanssouci",
   "type": "landmark",
   "names": {
@@ -2220,6 +3333,41 @@
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Santiago%20de%20Compostela%20Cathedral"
+  }
+ },
+ {
+  "id": "landmark:schonbrunn",
+  "type": "landmark",
+  "names": {
+   "de": "Schloss Schönbrunn",
+   "en": "Schönbrunn Palace"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:schonbrunn",
+    "kind": "photo",
+    "url": "media/photos/landmarks/schonbrunn.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Wien_-_Schloss_Sch%C3%B6nbrunn.JPG",
+    "author": "C.Stadler/Bwag",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "C.Stadler/Bwag · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Wien_-_Schloss_Sch%C3%B6nbrunn.JPG",
+    "caption": "Schönbrunn Palace"
+   }
+  ],
+  "attributes": {
+   "country": "country:AT",
+   "continent": "europe",
+   "place_name": "Wien",
+   "landmark_type": "palace"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Sch%C3%B6nbrunn_Palace",
+   "source_id": "Q131330",
+   "imported_at": "2026-09-30"
   }
  },
  {
@@ -2293,6 +3441,69 @@
   }
  },
  {
+  "id": "landmark:sheikh-zayed-mosque",
+  "type": "landmark",
+  "names": {
+   "de": "Scheich-Zayid-Moschee",
+   "en": "Sheikh Zayed Grand Mosque"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AE",
+   "continent": "asia",
+   "place_name": "Abu Dhabi",
+   "landmark_type": "religious"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Sheikh_Zayed_Grand_Mosque",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
+  "id": "landmark:shwedagon",
+  "type": "landmark",
+  "names": {
+   "de": "Shwedagon-Pagode",
+   "en": "Shwedagon Pagoda"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MM",
+   "continent": "asia",
+   "place_name": "Yangon",
+   "landmark_type": "religious"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Shwedagon_Pagoda",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
+  "id": "landmark:sigiriya",
+  "type": "landmark",
+  "names": {
+   "de": "Felsenfestung Sigiriya",
+   "en": "Sigiriya"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:LK",
+   "continent": "asia",
+   "place_name": "Sigiriya",
+   "landmark_type": "archaeological"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Sigiriya",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
   "id": "landmark:speicherstadt",
   "type": "landmark",
   "names": {
@@ -2326,6 +3537,41 @@
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Speicherstadt"
+  }
+ },
+ {
+  "id": "landmark:stone-town",
+  "type": "landmark",
+  "names": {
+   "de": "Stone Town",
+   "en": "Stone Town"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:stone-town",
+    "kind": "photo",
+    "url": "media/photos/landmarks/stone-town.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Zanzibar_sultan_palace.jpg",
+    "author": "No machine-readable author provided. Mbz1 assumed (based on copyright claims).",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "No machine-readable author provided. Mbz1 assumed (based on copyright claims). · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Zanzibar_sultan_palace.jpg",
+    "caption": "Stone Town"
+   }
+  ],
+  "attributes": {
+   "country": "country:TZ",
+   "continent": "africa",
+   "place_name": "Sansibar-Stadt",
+   "landmark_type": "historic-quarter"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Stone_Town",
+   "source_id": "Q844417",
+   "imported_at": "2026-09-30"
   }
  },
  {
@@ -2365,6 +3611,27 @@
   }
  },
  {
+  "id": "landmark:sydney-harbour-bridge",
+  "type": "landmark",
+  "names": {
+   "de": "Sydney Harbour Bridge",
+   "en": "Sydney Harbour Bridge"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:AU",
+   "continent": "oceania",
+   "place_name": "Sydney",
+   "landmark_type": "bridge"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
   "id": "landmark:taj-mahal",
   "type": "landmark",
   "names": {
@@ -2396,6 +3663,41 @@
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Taj%20Mahal"
+  }
+ },
+ {
+  "id": "landmark:tallinn-town-hall",
+  "type": "landmark",
+  "names": {
+   "de": "Rathaus von Tallinn",
+   "en": "Tallinn Town Hall"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:tallinn-town-hall",
+    "kind": "photo",
+    "url": "media/photos/landmarks/tallinn-town-hall.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tallinna_Raekoda_11-06-2013.jpg",
+    "author": "Ivar Leidus",
+    "license": "CC BY-SA 3.0 ee",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/ee/deed.en",
+    "attribution": "Ivar Leidus · CC BY-SA 3.0 ee · https://commons.wikimedia.org/wiki/File:Tallinna_Raekoda_11-06-2013.jpg",
+    "caption": "Tallinn Town Hall"
+   }
+  ],
+  "attributes": {
+   "country": "country:EE",
+   "continent": "europe",
+   "place_name": "Tallinn",
+   "landmark_type": "building"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Tallinn_Town_Hall",
+   "source_id": "Q904057",
+   "imported_at": "2026-09-30"
   }
  },
  {
@@ -2432,6 +3734,62 @@
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Milford%20Sound"
+  }
+ },
+ {
+  "id": "landmark:teotihuacan",
+  "type": "landmark",
+  "names": {
+   "de": "Teotihuacán",
+   "en": "Teotihuacan"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MX",
+   "continent": "north-america",
+   "place_name": "Teotihuacán",
+   "landmark_type": "archaeological"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Teotihuacan",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
+  "id": "landmark:terracotta-army",
+  "type": "landmark",
+  "names": {
+   "de": "Terrakotta-Armee",
+   "en": "Terracotta Army"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:terracotta-army",
+    "kind": "photo",
+    "url": "media/photos/landmarks/terracotta-army.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:51714-Terracota-Army.jpg",
+    "author": "xiquinhosilva",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "xiquinhosilva · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:51714-Terracota-Army.jpg",
+    "caption": "Terracotta Army"
+   }
+  ],
+  "attributes": {
+   "country": "country:CN",
+   "continent": "asia",
+   "place_name": "Xi’an",
+   "landmark_type": "archaeological"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Terracotta_Army",
+   "source_id": "Q47672",
+   "imported_at": "2026-09-30"
   }
  },
  {
@@ -2575,6 +3933,41 @@
   }
  },
  {
+  "id": "landmark:union-buildings",
+  "type": "landmark",
+  "names": {
+   "de": "Union Buildings",
+   "en": "Union Buildings"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:union-buildings",
+    "kind": "photo",
+    "url": "media/photos/landmarks/union-buildings.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Uniegebou.jpg",
+    "author": "Davinci77",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Davinci77 · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Uniegebou.jpg",
+    "caption": "Union Buildings"
+   }
+  ],
+  "attributes": {
+   "country": "country:ZA",
+   "continent": "africa",
+   "place_name": "Pretoria",
+   "landmark_type": "building"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Union_Buildings",
+   "source_id": "Q2264091",
+   "imported_at": "2026-09-30"
+  }
+ },
+ {
   "id": "landmark:venice",
   "type": "landmark",
   "names": {
@@ -2712,6 +4105,41 @@
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Wartburg"
+  }
+ },
+ {
+  "id": "landmark:wawel-castle",
+  "type": "landmark",
+  "names": {
+   "de": "Wawel-Schloss",
+   "en": "Wawel Castle"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:wawel-castle",
+    "kind": "photo",
+    "url": "media/photos/landmarks/wawel-castle.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Wawel_(4).jpg",
+    "author": "Monika Towiańska",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Monika Towiańska · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Wawel_(4).jpg",
+    "caption": "Wawel Castle"
+   }
+  ],
+  "attributes": {
+   "country": "country:PL",
+   "continent": "europe",
+   "place_name": "Krakau",
+   "landmark_type": "castle"
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Wawel_Castle",
+   "source_id": "Q18820",
+   "imported_at": "2026-09-30"
   }
  },
  {

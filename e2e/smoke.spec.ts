@@ -299,6 +299,10 @@ test('Erweiterte Quizmodi erzeugen die passenden Fragen', async ({ page }) => {
     await page.getByRole('button', { name: "Los geht's" }).click()
     await expect(page.locator(`[data-generator="${item.generator}"]`)).toBeVisible()
   }
+  await page.goto('play/countries')
+  await page.getByRole('radio', { name: 'Nationale Symbole', exact: true }).click()
+  await page.getByRole('button', { name: "Los geht's" }).click()
+  await expect(page.locator('[data-generator="national_animal"], [data-generator="national_flower"]')).toBeVisible()
 })
 
 test('Mehrdeutige und triviale Varianten werden vermieden', async ({ page }) => {
@@ -325,6 +329,10 @@ test('Kennzeichenvisualisierung übernimmt das ausgewählte Land', async ({ page
   await expect(page.locator('.license-plate-country-CH')).toBeVisible()
   await expect(page.locator('.license-plate-country-CH .license-plate-ch-badge')).toContainText('+')
   await expect(page.locator('.license-plate-country-CH .license-plate-canton-badge')).toBeVisible()
+  await page.goto('play/license_plates/round?mode=plate_to_city&scope=country:PL&len=5')
+  await expect(page.locator('.license-plate-country-PL')).toBeVisible()
+  await expect(page.locator('.license-plate-country-PL .license-plate-eu')).toContainText('PL')
+  await expect(page.locator('.license-plate-country-PL .license-plate-country-label')).toContainText('POLSKA')
 })
 
 test('Flaggen: Land als Bereich und Fragetyp wählen', async ({ page }) => {
