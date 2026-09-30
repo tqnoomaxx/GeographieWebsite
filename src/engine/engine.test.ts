@@ -2,9 +2,19 @@ import { describe, it, expect } from 'vitest'
 import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 import { buildContext } from './context'
-import { baseQuestionPosition, baseQuestionTotal, buildSession, checkAnswer, extendSession, pendingRepeatCount, poolFor, recordAnswer, skipQuestion } from './session'
+import {
+  baseQuestionPosition,
+  baseQuestionTotal,
+  buildSession,
+  checkAnswer,
+  extendSession,
+  pendingRepeatCount,
+  poolFor,
+  recordAnswer,
+  skipQuestion,
+} from './session'
 import { generatorsFor, registry } from './registry'
-import { fromQuery, type RoundConfig } from './round'
+import { fromQuery, toQuery, type RoundConfig } from './round'
 import { PLAY_QUIZZES, QUIZZES } from '@/config/quizzes'
 import { matchesAnswer, normalizeAnswer } from './normalize'
 import { createRng } from './rng'
@@ -14,19 +24,39 @@ import type { Entity, Relationship } from '@/domain/types'
 import { isSovereign } from './generators/base'
 
 const DATA = join(process.cwd(), 'public', 'data')
-const read = <T,>(p: string): T => JSON.parse(readFileSync(join(DATA, p), 'utf8'))
+const read = <T>(p: string): T => JSON.parse(readFileSync(join(DATA, p), 'utf8'))
 const countries = read<Entity[]>('entities/countries.json')
 const cities = read<Entity[]>('entities/cities.json')
 const landmarks = read<Entity[]>('entities/landmarks.json')
-const regions = readdirSync(join(DATA, 'entities/regions')).flatMap((f) => read<Entity[]>(`entities/regions/${f}`))
+const regions = readdirSync(join(DATA, 'entities/regions')).flatMap((f) =>
+  read<Entity[]>(`entities/regions/${f}`),
+)
 const relationships = read<Relationship[]>('relationships/index.json')
 const plates = read<Entity[]>('entities/license-plates/DE.json')
 const rivers = read<Entity[]>('entities/rivers.json')
 const lakes = read<Entity[]>('entities/lakes.json')
 const mountains = read<Entity[]>('entities/mountains.json')
 /** Runden-Setup mit Standardwerten (Automatisch, Welt, 10, Wiederholung an). */
-const setup = (o: Partial<RoundConfig> & { category: RoundConfig['category'] }): RoundConfig => ({ mode: 'auto', scope: 'world', length: 10, repeat: true, ...o })
-const ctx = (scope = 'world') => buildContext({ countries, cities, landmarks, regions, plates, rivers, lakes, mountains, relationships, scope })
+const setup = (o: Partial<RoundConfig> & { category: RoundConfig['category'] }): RoundConfig => ({
+  mode: 'auto',
+  scope: 'world',
+  length: 10,
+  repeat: true,
+  ...o,
+})
+const ctx = (scope = 'world') =>
+  buildContext({
+    countries,
+    cities,
+    landmarks,
+    regions,
+    plates,
+    rivers,
+    lakes,
+    mountains,
+    relationships,
+    scope,
+  })
 
 describe('normalize', () => {
   it('toleriert Umlaute, Diakritika und kleine Tippfehler', () => {
@@ -76,17 +106,38 @@ describe('session', () => {
     expect(s.questions.length).toBe(pool.size)
   })
   it('Bereich country:DE liefert Regionen-Fragen', () => {
-    const s = buildSession(ctx('country:DE'), setup({ category: 'regions', scope: 'country:DE', length: 'all' }), { seed: 'de' })
+    const s = buildSession(
+      ctx('country:DE'),
+      setup({ category: 'regions', scope: 'country:DE', length: 'all' }),
+      { seed: 'de' },
+    )
     expect(s.questions.length).toBe(16)
   })
   it('jede Kategorie hat Fragen im Welt-Bereich', () => {
-    for (const cat of ['flags', 'countries', 'capitals', 'regions', 'cities', 'maps', 'images', 'landmarks', 'license_plates', 'water', 'nature', 'mixed'] as const) {
+    for (const cat of [
+      'flags',
+      'countries',
+      'capitals',
+      'regions',
+      'cities',
+      'maps',
+      'images',
+      'landmarks',
+      'license_plates',
+      'water',
+      'nature',
+      'mixed',
+    ] as const) {
       const s = buildSession(ctx(), setup({ category: cat, scope: 'world', length: 5 }), { seed: cat })
       expect(s.questions.length, cat).toBe(5)
     }
   })
   it('Eingabefragen akzeptieren Namen und Aliasse', () => {
-    const s = buildSession(ctx(), setup({ category: 'flags', scope: 'world', length: 5, mode: 'flag_input', content: ['country'] }), { seed: 'inp' })
+    const s = buildSession(
+      ctx(),
+      setup({ category: 'flags', scope: 'world', length: 5, mode: 'flag_input', content: ['country'] }),
+      { seed: 'inp' },
+    )
     for (const { question: q } of s.questions) {
       const target = countries.find((c) => c.id === q.answer)!
       expect(checkAnswer(q, target.names.de)).toBe(true)
@@ -97,7 +148,11 @@ describe('session', () => {
 
 describe('plates', () => {
   it('Kennzeichen-Runde für Deutschland', () => {
-    const s = buildSession(ctx('country:DE'), setup({ category: 'license_plates', scope: 'country:DE', length: 10 }), { seed: 'pl' })
+    const s = buildSession(
+      ctx('country:DE'),
+      setup({ category: 'license_plates', scope: 'country:DE', length: 10 }),
+      { seed: 'pl' },
+    )
     expect(s.questions).toHaveLength(10)
     const q = s.questions[0].question
     if (q.options) expect(q.options.some((o) => o.id === q.answer)).toBe(true)
@@ -106,18 +161,39 @@ describe('plates', () => {
 
 describe('nature', () => {
   it('Flussfragen im Bereich Deutschland nutzen Mehrländer-Zuordnung', () => {
-    const s = buildSession(ctx('country:DE'), setup({ category: 'water', scope: 'country:DE', length: 10 }), { seed: 'w' })
+    const s = buildSession(ctx('country:DE'), setup({ category: 'water', scope: 'country:DE', length: 10 }), {
+      seed: 'w',
+    })
     expect(s.questions.length).toBeGreaterThan(3)
-    for (const { question: q } of s.questions) if (q.options && q.question_type === 'multiple_choice') expect(q.options.some((o) => o.id === q.answer)).toBe(true)
+    for (const { question: q } of s.questions)
+      if (q.options && q.question_type === 'multiple_choice')
+        expect(q.options.some((o) => o.id === q.answer)).toBe(true)
   })
 })
 
 describe('maps', () => {
   it('Weltkarten-Fragen zielen nur auf anklickbare Länder', () => {
     const c = ctx('world')
-    for (const [category, mode] of [['maps', 'countries_on_map'], ['flags', 'flag_to_map'], ['water', 'on_map'], ['nature', 'on_map']] as const) {
-      const s = buildSession(c, setup({ category, mode, scope: 'world', length: 'all', content: category === 'flags' ? ['country'] : undefined }), { seed: mode })
-      for (const q of s.questions) if (q.question.map?.kind === 'world') expect(c.byId.get(q.question.answer)?.attributes.on_world_map, q.question.answer).toBe(true)
+    for (const [category, mode] of [
+      ['maps', 'countries_on_map'],
+      ['flags', 'flag_to_map'],
+      ['water', 'on_map'],
+      ['nature', 'on_map'],
+    ] as const) {
+      const s = buildSession(
+        c,
+        setup({
+          category,
+          mode,
+          scope: 'world',
+          length: 'all',
+          content: category === 'flags' ? ['country'] : undefined,
+        }),
+        { seed: mode },
+      )
+      for (const q of s.questions)
+        if (q.question.map?.kind === 'world')
+          expect(c.byId.get(q.question.answer)?.attributes.on_world_map, q.question.answer).toBe(true)
     }
   })
 })
@@ -127,10 +203,17 @@ describe('konfiguration', () => {
     const parsed = fromQuery('flags', new URLSearchParams('mode=kaputt&scope=moon&len=NaN'))
     expect(parsed).toMatchObject({ mode: 'auto', scope: 'world', length: 10 })
   })
+  it('behält den optionalen Flaggen-Hinweisschutz in der URL', () => {
+    const query = toQuery(setup({ category: 'flags', hideFlagHints: true }))
+    expect(query).toContain('hide_hints=1')
+    expect(fromQuery('flags', new URLSearchParams(query)).hideFlagHints).toBe(true)
+  })
   it('jeder Fragetyp in config/quizzes.ts verweist auf registrierte Generatoren der richtigen Kategorie', () => {
     for (const quiz of QUIZZES) {
       const allowed = new Set([quiz.id, ...(quiz.mergedFrom ?? [])])
-      for (const m of quiz.modes) for (const g of generatorsFor(quiz.id, m.id)) expect(allowed.has(g.category), `${quiz.id}/${m.id}/${g.id}`).toBe(true)
+      for (const m of quiz.modes)
+        for (const g of generatorsFor(quiz.id, m.id))
+          expect(allowed.has(g.category), `${quiz.id}/${m.id}/${g.id}`).toBe(true)
     }
   })
   it('„Automatisch“ mischt nur Multiple Choice, wo es welches gibt (R10)', () => {
@@ -146,13 +229,24 @@ describe('konfiguration', () => {
 })
 
 describe('vollständiges Quiz-Inhaltsaudit', () => {
-  const translations = JSON.parse(readFileSync(join(process.cwd(), 'locales/de/common.json'), 'utf8')) as Record<string, unknown>
-  const translation = (key: string) => key.split('.').reduce<unknown>((value, part) => (value && typeof value === 'object' ? (value as Record<string, unknown>)[part] : undefined), translations)
+  const translations = JSON.parse(
+    readFileSync(join(process.cwd(), 'locales/de/common.json'), 'utf8'),
+  ) as Record<string, unknown>
+  const translation = (key: string) =>
+    key
+      .split('.')
+      .reduce<unknown>(
+        (value, part) =>
+          value && typeof value === 'object' ? (value as Record<string, unknown>)[part] : undefined,
+        translations,
+      )
 
   it('verwendet ausschließlich den kuratierten Pool aus Staaten und anerkannten Sonderfällen', () => {
     const sovereign = countries.filter(isSovereign)
     expect(sovereign).toHaveLength(197)
-    expect(sovereign.map((country) => country.attributes.iso2)).not.toEqual(expect.arrayContaining(['AC', 'EU', 'IC', 'TA']))
+    expect(sovereign.map((country) => country.attributes.iso2)).not.toEqual(
+      expect.arrayContaining(['AC', 'EU', 'IC', 'TA']),
+    )
   })
 
   it('erzeugt für jedes Ziel jedes Generators eine vollständige, auflösbare Frage', () => {
@@ -169,15 +263,35 @@ describe('vollständiges Quiz-Inhaltsaudit', () => {
         expect(q.difficulty, `${q.id}: Schwierigkeit`).toBeGreaterThanOrEqual(1)
         expect(q.difficulty, `${q.id}: Schwierigkeit`).toBeLessThanOrEqual(3)
         expect(q.metadata.generator, q.id).toBe(generator.id)
-        for (const entityId of q.entities) expect(c.byId.has(entityId), `${q.id}: unbekannte Entity ${entityId}`).toBe(true)
+        for (const entityId of q.entities)
+          expect(c.byId.has(entityId), `${q.id}: unbekannte Entity ${entityId}`).toBe(true)
         if (q.options) {
-          expect(q.options.some((option) => option.id === q.answer), `${q.id}: Lösung fehlt`).toBe(true)
-          expect(new Set(q.options.map((option) => option.id)).size, `${q.id}: doppelte Options-ID`).toBe(q.options.length)
-          if (q.question_type !== 'image_choice') expect(new Set(q.options.map((option) => option.label)).size, `${q.id}: doppelte Beschriftung`).toBe(q.options.length)
-          for (const option of q.options) if (option.image) expect(existsSync(join(process.cwd(), 'public', option.image.replace(/^\//, ''))), `${q.id}: ${option.image}`).toBe(true)
+          expect(
+            q.options.some((option) => option.id === q.answer),
+            `${q.id}: Lösung fehlt`,
+          ).toBe(true)
+          expect(new Set(q.options.map((option) => option.id)).size, `${q.id}: doppelte Options-ID`).toBe(
+            q.options.length,
+          )
+          if (q.question_type !== 'image_choice')
+            expect(
+              new Set(q.options.map((option) => option.label)).size,
+              `${q.id}: doppelte Beschriftung`,
+            ).toBe(q.options.length)
+          for (const option of q.options)
+            if (option.image)
+              expect(
+                existsSync(join(process.cwd(), 'public', option.image.replace(/^\//, ''))),
+                `${q.id}: ${option.image}`,
+              ).toBe(true)
         }
-        if (q.question_type === 'text_input') expect(q.accepted?.length, `${q.id}: keine Texteingaben`).toBeGreaterThan(0)
-        if (q.media?.url) expect(existsSync(join(process.cwd(), 'public', q.media.url.replace(/^\//, ''))), `${q.id}: ${q.media.url}`).toBe(true)
+        if (q.question_type === 'text_input')
+          expect(q.accepted?.length, `${q.id}: keine Texteingaben`).toBeGreaterThan(0)
+        if (q.media?.url)
+          expect(
+            existsSync(join(process.cwd(), 'public', q.media.url.replace(/^\//, ''))),
+            `${q.id}: ${q.media.url}`,
+          ).toBe(true)
         if (q.map) {
           expect(q.map.targetId, q.id).toBe(q.answer)
           expect(c.byId.has(q.answer), `${q.id}: unbekanntes Kartenziel`).toBe(true)
@@ -191,7 +305,10 @@ describe('vollständiges Quiz-Inhaltsaudit', () => {
     for (const quiz of PLAY_QUIZZES) {
       for (const mode of quiz.modes) {
         if (mode.scopes && !mode.scopes.includes('world')) continue
-        expect(poolFor(c, setup({ category: quiz.id, mode: mode.id, content: mode.content })).size, `${quiz.id}/${mode.id}`).toBeGreaterThanOrEqual(4)
+        expect(
+          poolFor(c, setup({ category: quiz.id, mode: mode.id, content: mode.content })).size,
+          `${quiz.id}/${mode.id}`,
+        ).toBeGreaterThanOrEqual(4)
       }
     }
   })
@@ -201,16 +318,25 @@ describe('regeln', () => {
   it('R10: Automatisch enthält keine Eintipp- oder Kartenfragen', () => {
     for (const cat of ['flags', 'capitals', 'cities', 'water'] as const) {
       const s = buildSession(ctx(), setup({ category: cat, scope: 'world', length: 30 }), { seed: 'auto' })
-      for (const q of s.questions) expect(['multiple_choice', 'image_choice', 'true_false']).toContain(q.question.question_type)
+      for (const q of s.questions)
+        expect(['multiple_choice', 'image_choice', 'true_false']).toContain(q.question.question_type)
     }
   })
   it('R3: ISO-Code wird beim Eintippen akzeptiert', () => {
-    const s = buildSession(ctx(), setup({ category: 'flags', scope: 'world', length: 3, mode: 'flag_input', content: ['country'] }), { seed: 'iso' })
+    const s = buildSession(
+      ctx(),
+      setup({ category: 'flags', scope: 'world', length: 3, mode: 'flag_input', content: ['country'] }),
+      { seed: 'iso' },
+    )
     const q = s.questions[0].question
     expect(checkAnswer(q, countries.find((c) => c.id === q.answer)!.attributes.iso2 as string)).toBe(true)
   })
   it('R7: Überspringen zählt als Fehler ohne Wiederholung', () => {
-    let s = buildSession(ctx('europe'), setup({ category: 'flags', scope: 'europe', length: 2, mode: 'europe_map' }), { seed: 'skip' })
+    let s = buildSession(
+      ctx('europe'),
+      setup({ category: 'flags', scope: 'europe', length: 2, mode: 'europe_map' }),
+      { seed: 'skip' },
+    )
     s = skipQuestion(s)
     expect(s.questions[0].correct).toBe(false)
     expect(s.questions).toHaveLength(2)
@@ -235,7 +361,18 @@ describe('srs + level', () => {
 
 describe('recordAnswer', () => {
   it('reiht falsche Antworten vier Positionen später erneut ein und zählt Streak-Punkte', () => {
-    let s = buildSession(ctx('europe'), setup({ category: 'flags', scope: 'europe', length: 10, mode: 'flag_to_name', content: ['country'], repeat: true }), { seed: 'rep' })
+    let s = buildSession(
+      ctx('europe'),
+      setup({
+        category: 'flags',
+        scope: 'europe',
+        length: 10,
+        mode: 'flag_to_name',
+        content: ['country'],
+        repeat: true,
+      }),
+      { seed: 'rep' },
+    )
     const q0 = s.questions[0].question
     const wrong = q0.options!.find((o) => o.id !== q0.answer)!.id
     s = recordAnswer(s, wrong)
@@ -253,7 +390,11 @@ describe('recordAnswer', () => {
     expect(s.streak).toBe(2)
   })
   it('Kartenfragen bleiben bei Fehlklick offen und zählen Versuche', () => {
-    let s = buildSession(ctx('europe'), setup({ category: 'maps', scope: 'europe', length: 3, mode: 'countries_on_map' }), { seed: 'map' })
+    let s = buildSession(
+      ctx('europe'),
+      setup({ category: 'maps', scope: 'europe', length: 3, mode: 'countries_on_map' }),
+      { seed: 'map' },
+    )
     const q = s.questions[0].question
     s = recordAnswer(s, 'country:XX')
     expect(s.questions[0].given).toBeUndefined()
@@ -265,11 +406,16 @@ describe('recordAnswer', () => {
   })
   it('Distraktoren schließen optisch identische Flaggen aus', () => {
     const c = ctx('world')
-    const s = buildSession(c, setup({ category: 'flags', scope: 'world', length: 'all', mode: 'flag_to_name', content: ['country'] }), { seed: 'vk' })
+    const s = buildSession(
+      c,
+      setup({ category: 'flags', scope: 'world', length: 'all', mode: 'flag_to_name', content: ['country'] }),
+      { seed: 'vk' },
+    )
     for (const { question: q } of s.questions) {
       const vk = c.byId.get(q.answer)?.attributes.visual_key
       if (!vk) continue
-      for (const o of q.options!) if (o.id !== q.answer) expect(c.byId.get(o.id)?.attributes.visual_key).not.toBe(vk)
+      for (const o of q.options!)
+        if (o.id !== q.answer) expect(c.byId.get(o.id)?.attributes.visual_key).not.toBe(vk)
     }
   })
 })

@@ -1,1 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.5 15"><path fill="#fff" d="M0 0h22.5v15H0z"/><path fill="#eb000e" d="M9.8 6H0v3h9.8v6h3V9h9.8V6h-9.8V0h-3v6z"/><path fill="#eb000e" d="m17.3 2.7-.2-1.2h1l-.2 1.2 1.2-.2v1l-1.2-.2.2 1.2h-1l.2-1.2-1.2.2v-1l1.2.2zm-12.7 0-.2-1.2h1l-.2 1.2 1.2-.2v1l-1.2-.2.2 1.2h-1l.2-1.2-1.2.2v-1l1.2.2zm0 9-.2-1.2h1l-.2 1.2 1.2-.2v1l-1.2-.2.2 1.2h-1l.2-1.2-1.2.2v-1l1.2.2zm12.7 0-.2-1.2h1l-.2 1.2 1.2-.2v1l-1.2-.2.2 1.2h-1l.2-1.2-1.2.2v-1l1.2.2z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 200">
+<defs>
+<g id="smallcross">
+<clipPath id="vclip">
+<path d="M-109,104 a104,104 0 0,0 0,-208 H109 a104,104 0 0,0 0,208 z"/>
+</clipPath>
+<path id="varm" d="M-55,74 a55,55 0 0,1 110,0 V-74 a55,55 0 0,1 -110,0 z" clip-path="url(#vclip)"/>
+<use xlink:href="#varm" transform="rotate(90)"/>
+</g>
+</defs>
+<rect width="300" height="200" style="fill:#fff"/>
+<path d="m 130,0 0,80 -130,0 L 0,120 l 130,0 0,80 40,0 0,-80 130,0 0,-40 -130,0 L 170,0 130,0 z" style="fill:#ff0000"/>
+<use xlink:href="#smallcross" transform="translate(64.45,39.45)" fill="#f00"/>
+<use xlink:href="#smallcross" transform="translate(235.55,160.55)" fill="#f00"/>
+<use xlink:href="#smallcross" transform="translate(235.55,39.45)" fill="#f00"/>
+<use xlink:href="#smallcross" transform="translate(64.45,160.55)" fill="#f00"/>
+</svg>

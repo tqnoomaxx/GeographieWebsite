@@ -1,1 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.5 15"><path fill="#FFF" d="M0 0h21v15H0V0z"/><path fill="#0A388A" d="M0 0h22.5v15H0V0z"/><path fill="#FFF" d="M0 0h11.3v7.5H0V0z"/><path fill="#D80027" d="M7.1 0h3.6v7H7.1V0z"/><path fill="#0A388A" d="M0 0h3.6v7H0V0z"/><path fill="#FFF" d="M3.6 0h3.6v7H3.6V0zM14.5 6h5L19 7h-1.5v.5h1l-.5 1h-.5V10h-1V7H15l-.5-1zm4 2.5 1 1.5h-2l1-1.5zm-3 0 1 1.5h-2l1-1.5zm1.5 3L16 10h2l-1 1.5zM20 8c-.3 0-.5-.2-.5-.5s.2-.5.5-.5.5.2.5.5-.2.5-.5.5zm-6 0c-.3 0-.5-.2-.5-.5s.2-.5.5-.5.5.2.5.5-.2.5-.5.5zm1 4c-.3 0-.5-.2-.5-.5s.2-.5.5-.5.5.2.5.5-.2.5-.5.5zm4 0c-.3 0-.5-.2-.5-.5s.2-.5.5-.5.5.2.5.5-.2.5-.5.5zm-2 1c-.3 0-.5-.2-.5-.5s.2-.5.5-.5.5.2.5.5-.2.5-.5.5z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 400">
+<defs>
+<path id="s" transform="scale(21)" fill="#fff" d="M0,-1 L0.58779,0.80902 L-0.95106,-0.30902 L0.95106,-0.30902 L-0.58779,0.80902z"/>
+</defs>
+<rect fill="#002395" height="400" width="600"/>
+<rect fill="#fff" height="164" width="244"/>
+<rect fill="#002395" height="160" width="80"/>
+<rect fill="#ED2939" height="160" width="80" x="160"/>
+<path fill="#fff" d="M355,183 l12.875,20.5 h36.625 v71.5 l-27.5,-43 -37,59 h18 l19,-34 39,70 39,-70 19,34 h18 l-37,-59 -27.5,43 v-39.5 h16.5 l12.25,-19.5 h-28.75 v-12.5 h36.625 l12.875,-20.5 h-122z M398,270.5h-40v14h40z M474,270.5h-40v14h40z"/>
+<use xlink:href="#s" x="416" y="362"/>
+<use xlink:href="#s" x="371" y="328"/>
+<use xlink:href="#s" x="461" y="328"/>
+<use xlink:href="#s" x="333" y="227"/>
+<use xlink:href="#s" x="499" y="227"/>
+</svg>

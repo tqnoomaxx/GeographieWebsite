@@ -3,7 +3,10 @@ import { test, expect, type Page } from '@playwright/test'
 function watchErrors(page: Page) {
   const errors: string[] = []
   page.on('pageerror', (e) => errors.push(e.message))
-  page.on('console', (m) => m.type() === 'error' && !/favicon|sw\.js|workbox/.test(m.text()) && errors.push(m.text()))
+  page.on(
+    'console',
+    (m) => m.type() === 'error' && !/favicon|sw\.js|workbox/.test(m.text()) && errors.push(m.text()),
+  )
   return errors
 }
 
@@ -72,6 +75,51 @@ test('Kartenfrage', async ({ page }) => {
   expect(errors).toEqual([])
 })
 
+test('Karte lässt sich zoomen, zurücksetzen und real anklicken', async ({ page }, testInfo) => {
+  const errors = watchErrors(page)
+  await page.goto(
+    'play/flags/round?mode=flag_to_map&scope=country:DE&len=1&repeat=0&content=region&only=region:DE-BY',
+  )
+  const viewport = page.locator('.map-viewport.is-interactive')
+  await expect(viewport).toBeVisible()
+  await page.getByRole('button', { name: 'Hineinzoomen' }).click()
+  await expect(viewport).toHaveAttribute('data-map-zoom', '1.50')
+  await page.getByRole('button', { name: 'Karte zurücksetzen' }).click()
+  await expect(viewport).toHaveAttribute('data-map-zoom', '1.00')
+
+  const target = page.locator('[data-id="region:DE-BY"]').first()
+  await viewport.scrollIntoViewIfNeeded()
+  await expect(target).toBeVisible()
+  const point = await target.evaluate((node) => {
+    const path = node as SVGGeometryElement
+    const bounds = path.getBBox()
+    const matrix = path.getScreenCTM()
+    if (!matrix) throw new Error('Kartenpfad hat keine Bildschirmmatrix')
+    for (let row = 1; row < 10; row++) {
+      for (let column = 1; column < 10; column++) {
+        const local = new DOMPoint(
+          bounds.x + (bounds.width * column) / 10,
+          bounds.y + (bounds.height * row) / 10,
+        )
+        if (path.isPointInFill(local)) {
+          const screen = local.matrixTransform(matrix)
+          return { x: screen.x, y: screen.y }
+        }
+      }
+    }
+    throw new Error('Kein anklickbarer Punkt im Kartenpfad gefunden')
+  })
+  const hitTarget = await page.evaluate(
+    ({ x, y }) => document.elementFromPoint(x, y)?.getAttribute('data-id'),
+    point,
+  )
+  expect(hitTarget).toBe('region:DE-BY')
+  if (testInfo.project.name === 'mobile') await page.touchscreen.tap(point.x, point.y)
+  else await page.mouse.click(point.x, point.y)
+  await expect(page.getByRole('status')).toBeVisible()
+  expect(errors).toEqual([])
+})
+
 test('Flagle raten', async ({ page }) => {
   const errors = watchErrors(page)
   await page.goto('daily/flagle')
@@ -113,13 +161,27 @@ test('Lernen, Suche, Einstellungen', async ({ page }) => {
   await page.getByRole('radio', { name: /Dunkel/ }).click()
   await expect(page.locator('html')).toHaveClass(/dark/)
   await page.goto('quellen')
-  await expect(page.getByRole('link', { name: 'country-flag-icons' })).toBeVisible()
+  await expect(page.getByRole('link', { name: 'country-flags' })).toBeVisible()
+})
+
+test('Flaggenhinweis bleibt bis zur Antwort verdeckt', async ({ page }) => {
+  await page.goto(
+    'play/flags/round?mode=flag_to_name&scope=world&len=1&repeat=0&content=country&hide_hints=1&only=country:BR',
+  )
+  const concealed = page.locator('[data-flag-hint-hidden="true"]')
+  await expect(concealed).toBeVisible()
+  await expect(concealed.getByRole('img')).toHaveAttribute('src', /BR\.svg/)
+  const answer = await page.locator('[data-question-type]').getAttribute('data-answer')
+  await page.locator(`[data-option-id="${answer}"]`).click()
+  await expect(page.getByRole('status')).toBeVisible()
+  await expect(concealed).toHaveCount(0)
+  await expect(page.getByRole('img', { name: 'Flagge' })).toHaveAttribute('src', /BR\.svg/)
 })
 
 test('Kennzeichen-Runde Deutschland', async ({ page }) => {
   const errors = watchErrors(page)
   await page.goto('play/license_plates/round?scope=country:DE&len=10&repeat=0')
-  await expect(page.getByRole('heading', { level: 1 })).toContainText(/Kennzeichen/)
+  await expect(page.getByRole('heading', { level: 1 })).toBeVisible()
   await expect(page.getByText(/^Kennzeichen · Automatisch$/)).toBeVisible()
   await expect(page.getByText(/^Deutschland · 10 Fragen$/)).toBeVisible()
   const input = page.getByPlaceholder('Antwort eingeben …')
@@ -187,7 +249,18 @@ test('Lernkarten-Explorer', async ({ page }) => {
 
 test('Setup jeder Kategorie startet eine Runde', async ({ page }) => {
   const errors = watchErrors(page)
-  for (const cat of ['flags', 'countries', 'capitals', 'images', 'cities', 'landmarks', 'water', 'nature', 'license_plates', 'mixed']) {
+  for (const cat of [
+    'flags',
+    'countries',
+    'capitals',
+    'images',
+    'cities',
+    'landmarks',
+    'water',
+    'nature',
+    'license_plates',
+    'mixed',
+  ]) {
     await page.goto(`play/${cat}`)
     await expect(page.getByRole('radiogroup', { name: 'Bereich' })).toBeVisible()
     const start = page.getByRole('button', { name: "Los geht's" })
@@ -241,12 +314,17 @@ test('Mehrdeutige und triviale Varianten werden vermieden', async ({ page }) => 
 })
 
 test('Kennzeichenvisualisierung übernimmt das ausgewählte Land', async ({ page }) => {
+  await page.goto('play/license_plates/round?mode=plate_to_city&scope=country:DE&len=5')
+  await expect(page.locator('.license-plate-country-DE .license-plate-badges')).toBeVisible()
+  await expect(page.locator('.license-plate-country-DE .license-plate-code > span').last()).not.toBeEmpty()
   await page.goto('play/license_plates/round?mode=plate_to_city&scope=country:AT&len=5')
   await expect(page.locator('.license-plate-country-AT')).toBeVisible()
   await expect(page.locator('.license-plate-country-AT .license-plate-eu')).toContainText('A')
+  await expect(page.locator('.license-plate-country-AT .license-plate-at-crest')).toBeVisible()
   await page.goto('play/license_plates/round?mode=plate_to_city&scope=country:CH&len=5')
   await expect(page.locator('.license-plate-country-CH')).toBeVisible()
   await expect(page.locator('.license-plate-country-CH .license-plate-ch-badge')).toContainText('+')
+  await expect(page.locator('.license-plate-country-CH .license-plate-canton-badge')).toBeVisible()
 })
 
 test('Flaggen: Land als Bereich und Fragetyp wählen', async ({ page }) => {
@@ -280,6 +358,8 @@ test('Account-Sicherheit ist auch ohne Backend verständlich und geschützt', as
 test('Datenschutz erklärt Gastmodus, Kontofreiwilligkeit und lokale Löschung', async ({ page }) => {
   await page.goto('datenschutz')
   await expect(page.getByText('Ein Konto ist freiwillig.')).toBeVisible()
-  await expect(page.getByRole('heading', { name: '4. Lokaler Spielfortschritt und Einstellungen' })).toBeVisible()
+  await expect(
+    page.getByRole('heading', { name: '4. Lokaler Spielfortschritt und Einstellungen' }),
+  ).toBeVisible()
   await expect(page.getByText(/Konten und Cloud-Synchronisierung sind .* nicht aktiviert/)).toBeVisible()
 })

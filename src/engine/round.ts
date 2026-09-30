@@ -20,6 +20,8 @@ export interface RoundConfig {
   content?: Content[]
   /** nur diese Lernkarten („Fehler wiederholen“) */
   only?: string[]
+  /** verräterische Schrift oder Landesumrisse auf ausgewählten Länderflaggen vor der Antwort verdecken */
+  hideFlagHints?: boolean
 }
 
 export function defaultRound(category: CategoryId): RoundConfig {
@@ -33,6 +35,7 @@ export function toQuery(c: RoundConfig): string {
   p.set('len', String(c.length))
   if (c.content?.length === 1) p.set('content', c.content[0])
   if (!c.repeat) p.set('repeat', '0')
+  if (c.hideFlagHints) p.set('hide_hints', '1')
   if (c.only?.length) p.set('only', c.only.join(','))
   return p.toString()
 }
@@ -42,12 +45,25 @@ export function fromQuery(category: CategoryId, params: URLSearchParams): RoundC
   const rawLength = params.get('len') ?? '10'
   const numericLength = Number(rawLength)
   const only = params.get('only')?.split(',').filter(Boolean)
-  const length = rawLength === 'all' ? 'all' : Number.isInteger(numericLength) && numericLength > 0 && (only?.length || ROUND_LENGTHS.includes(numericLength as (typeof ROUND_LENGTHS)[number])) ? numericLength : fallback.length
+  const length =
+    rawLength === 'all'
+      ? 'all'
+      : Number.isInteger(numericLength) &&
+          numericLength > 0 &&
+          (only?.length || ROUND_LENGTHS.includes(numericLength as (typeof ROUND_LENGTHS)[number]))
+        ? numericLength
+        : fallback.length
   const content = params.get('content')
   const requestedMode = params.get('mode') ?? AUTO
-  const mode = requestedMode === AUTO || quizFor(category).modes.some((item) => item.id === requestedMode) ? requestedMode : AUTO
+  const mode =
+    requestedMode === AUTO || quizFor(category).modes.some((item) => item.id === requestedMode)
+      ? requestedMode
+      : AUTO
   const requestedScope = params.get('scope') ?? fallback.scope
-  const scope = SCOPES.includes(requestedScope as (typeof SCOPES)[number]) || /^country:[A-Z]{2}$/.test(requestedScope) ? requestedScope : fallback.scope
+  const scope =
+    SCOPES.includes(requestedScope as (typeof SCOPES)[number]) || /^country:[A-Z]{2}$/.test(requestedScope)
+      ? requestedScope
+      : fallback.scope
   return {
     category,
     mode,
@@ -56,6 +72,7 @@ export function fromQuery(category: CategoryId, params: URLSearchParams): RoundC
     repeat: params.get('repeat') !== '0',
     content: content === 'country' || content === 'region' ? [content] : undefined,
     only,
+    hideFlagHints: params.get('hide_hints') === '1',
   }
 }
 

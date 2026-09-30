@@ -15,7 +15,7 @@ const all: Generator[] = [
   countries.countryAttribute, countries.neighborOfCountry, countries.countryTrueFalse, countries.countryCode, countries.countryComparison,
   rc.regionFlagToRegion, rc.regionToCountry, rc.regionCapital, rc.cityToCountry, rc.cityToRegion, rc.cityPopulation, rc.cityInput,
   im.imageToLandmark, im.imageToCountry, im.imageToCity, im.landmarkToCountry, im.landmarkToCity, im.countryOnMap, im.regionOnMap,
-  pl.plateToCity, pl.cityToPlate, pl.plateInput,
+  pl.plateToCity, pl.cityToPlate, pl.plateToRegion, pl.plateInput,
   na.riverToCountry, na.lakeToCountry, na.mountainToCountry, na.riverLonger, na.lakeLarger, na.mountainHigher, na.waterOnMap, na.mountainOnMap,
 ]
 

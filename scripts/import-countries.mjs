@@ -1,12 +1,23 @@
 // Import der Länderstammdaten aus mledoze/countries (ODbL 1.0) und der Umrisse aus Natural Earth (Public Domain).
 // Idempotent: erzeugt data/entities/countries.json, data/geo/world.json, data/geo/outlines/<CC>.json neu.
-import { existsSync } from 'node:fs'
+import { createHash } from 'node:crypto'
+import { existsSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
-import { CACHE, DATA, PUBLIC, readJson, writeJson, provenance, roundCoords, CONTINENTS } from './lib/common.mjs'
+import {
+  CACHE,
+  DATA,
+  PUBLIC,
+  readJson,
+  writeJson,
+  provenance,
+  roundCoords,
+  CONTINENTS,
+} from './lib/common.mjs'
 
 const SOURCES = {
   countries: 'https://raw.githubusercontent.com/mledoze/countries/master/countries.json',
-  ne110: 'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson',
+  ne110:
+    'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson',
   ne50: 'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson',
 }
 
@@ -32,6 +43,27 @@ function continentOf(c) {
 }
 
 const LEGACY_CONTINENT = { 'north-america': 'north-america', 'south-america': 'south-america' }
+const FLAG_SOURCE = {
+  source: 'svg-country-flags 1.2.10',
+  source_url: 'https://github.com/hampusborgos/country-flags',
+  license: 'Public domain',
+  attribution: 'country-flags (Public domain)',
+}
+const FALLBACK_FLAG_SOURCE = {
+  source: 'flag-icons 7.5.0',
+  source_url: 'https://github.com/lipis/flag-icons',
+  license: 'MIT',
+  attribution: 'flag-icons (MIT)',
+}
+const FALLBACK_FLAG_IDS = new Set(['AC', 'IC', 'TA'])
+const flagSource = (iso2) => (FALLBACK_FLAG_IDS.has(iso2) ? FALLBACK_FLAG_SOURCE : FLAG_SOURCE)
+
+function flagVisualKey(flagFile, fallback) {
+  const file = join(PUBLIC, flagFile)
+  return existsSync(file)
+    ? createHash('sha256').update(readFileSync(file)).digest('hex').slice(0, 16)
+    : fallback
+}
 
 const raw = await cached('countries.json', SOURCES.countries)
 const ne110 = await cached('ne110.geojson', SOURCES.ne110)
@@ -50,7 +82,12 @@ for (const c of raw) {
   const hasFlag = existsSync(join(PUBLIC, flagFile))
   const legacy = legacyCountries.get(iso2)
   const nameDe = c.translations?.deu?.common ?? legacy?.name ?? c.name.common
-  const aliases = new Set([c.name.common, c.name.official, c.translations?.deu?.official, ...(c.altSpellings ?? [])])
+  const aliases = new Set([
+    c.name.common,
+    c.name.official,
+    c.translations?.deu?.official,
+    ...(c.altSpellings ?? []),
+  ])
   aliases.delete(nameDe)
   const entity = {
     id: `country:${iso2}`,
@@ -65,10 +102,7 @@ for (const c of raw) {
             id: `media:flag:${iso2}`,
             kind: 'flag',
             url: flagFile,
-            source: 'country-flag-icons 1.6.20',
-            source_url: 'https://github.com/catamphetamine/country-flag-icons',
-            license: 'MIT',
-            attribution: 'country-flag-icons (MIT)',
+            ...flagSource(iso2),
           },
         ]
       : [],
@@ -79,16 +113,22 @@ for (const c of raw) {
       subregion: c.subregion || undefined,
       capital_names: c.capital?.length ? c.capital : undefined,
       area_km2: c.area > 0 ? c.area : undefined,
-      currencies: Object.entries(c.currencies ?? {}).map(([code, v]) => ({ code, name: v.name, symbol: v.symbol })),
+      currencies: Object.entries(c.currencies ?? {}).map(([code, v]) => ({
+        code,
+        name: v.name,
+        symbol: v.symbol,
+      })),
       languages: Object.values(c.languages ?? {}),
       tld: c.tld?.length ? c.tld : undefined,
-      calling_code: c.idd?.root ? `${c.idd.root}${c.idd.suffixes?.length === 1 ? c.idd.suffixes[0] : ''}` : undefined,
+      calling_code: c.idd?.root
+        ? `${c.idd.root}${c.idd.suffixes?.length === 1 ? c.idd.suffixes[0] : ''}`
+        : undefined,
       independent: c.independent,
       un_member: c.unMember,
       landlocked: c.landlocked,
       borders: (c.borders ?? []).map((b) => `country:${byCca3.get(b)?.cca2 ?? b}`),
       emoji: c.flag,
-      visual_key: legacy?.visualKey,
+      visual_key: flagVisualKey(flagFile, legacy?.visualKey),
     },
     provenance: provenance('mledoze/countries', {
       source_url: SOURCES.countries,
@@ -112,13 +152,15 @@ for (const [iso2, legacy] of legacyCountries) {
         id: `media:flag:${iso2}`,
         kind: 'flag',
         url: `media/flags/countries/${iso2}.svg`,
-        source: 'country-flag-icons 1.6.20',
-        source_url: 'https://github.com/catamphetamine/country-flag-icons',
-        license: 'MIT',
-        attribution: 'country-flag-icons (MIT)',
+        ...flagSource(iso2),
       },
     ],
-    attributes: { iso2, continent: legacy.continent, borders: [] },
+    attributes: {
+      iso2,
+      continent: legacy.continent,
+      borders: [],
+      visual_key: flagVisualKey(`media/flags/countries/${iso2}.svg`, legacy.visualKey),
+    },
     provenance: provenance('ugbzspiele', { source_url: legacy.source }),
   })
 }
@@ -161,10 +203,16 @@ const onWorld = new Set(world.features.map((f) => f.properties.id))
 for (const c of countries) if (onWorld.has(c.id)) c.attributes.on_world_map = true
 writeJson(join(DATA, 'geo', 'world.json'), world)
 writeJson(join(DATA, 'geo', 'SOURCES.json'), {
-  natural_earth: { url: 'https://www.naturalearthdata.com/', license: 'Public Domain', versions: ['110m', '50m'] },
+  natural_earth: {
+    url: 'https://www.naturalearthdata.com/',
+    license: 'Public Domain',
+    versions: ['110m', '50m'],
+  },
 })
 
 countries.sort((a, b) => a.id.localeCompare(b.id))
 writeJson(join(DATA, 'entities', 'countries.json'), countries)
 writeJson(join(DATA, 'meta', 'continents.json'), CONTINENTS)
-console.log(`Länder: ${countries.length}, Umrisse: ${outlineCount}, Weltkarte: ${world.features.length} Features`)
+console.log(
+  `Länder: ${countries.length}, Umrisse: ${outlineCount}, Weltkarte: ${world.features.length} Features`,
+)

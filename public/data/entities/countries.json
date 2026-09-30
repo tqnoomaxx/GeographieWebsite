@@ -11,17 +11,18 @@
     "id": "media:flag:AC",
     "kind": "flag",
     "url": "media/flags/countries/AC.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
+    "source": "flag-icons 7.5.0",
+    "source_url": "https://github.com/lipis/flag-icons",
     "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "attribution": "flag-icons (MIT)"
    }
   ],
   "attributes": {
    "iso2": "AC",
    "continent": "other",
    "borders": [],
-   "wikidata": "Q31890709"
+   "wikidata": "Q31890709",
+   "visual_key": "6255a02030909938"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -51,10 +52,10 @@
     "id": "media:flag:AD",
     "kind": "flag",
     "url": "media/flags/countries/AD.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -89,7 +90,7 @@
     "country:ES"
    ],
    "emoji": "🇦🇩",
-   "visual_key": "0fef22a2984ddc2d",
+   "visual_key": "4bd80209ab5bf4e4",
    "capital": "city:AD-andorra-la-vella",
    "wikidata": "Q228",
    "population": 89752,
@@ -148,10 +149,10 @@
     "id": "media:flag:AE",
     "kind": "flag",
     "url": "media/flags/countries/AE.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -187,7 +188,7 @@
     "country:SA"
    ],
    "emoji": "🇦🇪",
-   "visual_key": "b6c3a736d4134769",
+   "visual_key": "362b161cffa3374e",
    "on_world_map": true,
    "capital": "city:AE-abu-dhabi",
    "wikidata": "Q878",
@@ -247,10 +248,10 @@
     "id": "media:flag:AF",
     "kind": "flag",
     "url": "media/flags/countries/AF.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -291,7 +292,7 @@
     "country:CN"
    ],
    "emoji": "🇦🇫",
-   "visual_key": "50376858bbbf4aad",
+   "visual_key": "df9e4177d2cab187",
    "on_world_map": true,
    "capital": "city:AF-kabul",
    "wikidata": "Q889",
@@ -359,10 +360,10 @@
     "id": "media:flag:AG",
     "kind": "flag",
     "url": "media/flags/countries/AG.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -394,7 +395,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇦🇬",
-   "visual_key": "2181681b0f221c71",
+   "visual_key": "e795bcd1c8014924",
    "capital": "city:AG-saint-john-s",
    "wikidata": "Q781",
    "population": 101489,
@@ -450,10 +451,10 @@
     "id": "media:flag:AI",
     "kind": "flag",
     "url": "media/flags/countries/AI.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -485,7 +486,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇦🇮",
-   "visual_key": "cb14932566e42133",
+   "visual_key": "6ae8bfad8f90b23f",
    "capital": "city:AI-the-valley",
    "wikidata": "Q25228",
    "population": 19079,
@@ -537,10 +538,10 @@
     "id": "media:flag:AL",
     "kind": "flag",
     "url": "media/flags/countries/AL.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -577,7 +578,7 @@
     "country:XK"
    ],
    "emoji": "🇦🇱",
-   "visual_key": "a1d737c10dcd20d7",
+   "visual_key": "9e00bfa393c4bd5f",
    "on_world_map": true,
    "capital": "city:AL-tirana",
    "wikidata": "Q222",
@@ -639,10 +640,10 @@
     "id": "media:flag:AM",
     "kind": "flag",
     "url": "media/flags/countries/AM.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -679,7 +680,7 @@
     "country:TR"
    ],
    "emoji": "🇦🇲",
-   "visual_key": "1d05939a3b53a388",
+   "visual_key": "72870e839aa6a063",
    "on_world_map": true,
    "capital": "city:AM-yerevan",
    "wikidata": "Q399",
@@ -740,10 +741,10 @@
     "id": "media:flag:AO",
     "kind": "flag",
     "url": "media/flags/countries/AO.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -780,7 +781,7 @@
     "country:NA"
    ],
    "emoji": "🇦🇴",
-   "visual_key": "69203ff49643cf4d",
+   "visual_key": "4c303bdcb88aaafc",
    "on_world_map": true,
    "capital": "city:AO-luanda",
    "wikidata": "Q916",
@@ -839,10 +840,10 @@
     "id": "media:flag:AQ",
     "kind": "flag",
     "url": "media/flags/countries/AQ.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -860,7 +861,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇦🇶",
-   "visual_key": "01946181f97166a3",
+   "visual_key": "403219cdfedc8292",
    "on_world_map": true,
    "wikidata": "Q51",
    "population": 5000,
@@ -933,10 +934,10 @@
     "id": "media:flag:AR",
     "kind": "flag",
     "url": "media/flags/countries/AR.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -975,7 +976,7 @@
     "country:UY"
    ],
    "emoji": "🇦🇷",
-   "visual_key": "978ed9f2be5fdc3f",
+   "visual_key": "2c3a285d320ff9e6",
    "on_world_map": true,
    "capital": "city:AR-buenos-aires",
    "wikidata": "Q414",
@@ -1041,10 +1042,10 @@
     "id": "media:flag:AS",
     "kind": "flag",
     "url": "media/flags/countries/AS.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -1077,7 +1078,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇦🇸",
-   "visual_key": "e206fec1de76c708",
+   "visual_key": "79df6428d565daff",
    "capital": "city:AS-pago-pago",
    "wikidata": "Q16641",
    "population": 49710,
@@ -1143,10 +1144,10 @@
     "id": "media:flag:AT",
     "kind": "flag",
     "url": "media/flags/countries/AT.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -1187,7 +1188,7 @@
     "country:CH"
    ],
    "emoji": "🇦🇹",
-   "visual_key": "ddad7df9fb41ce3c",
+   "visual_key": "7848835e507dd8d7",
    "on_world_map": true,
    "capital": "city:AT-wien",
    "wikidata": "Q40",
@@ -1247,10 +1248,10 @@
     "id": "media:flag:AU",
     "kind": "flag",
     "url": "media/flags/countries/AU.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -1282,7 +1283,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇦🇺",
-   "visual_key": "9c5e500830538dfb",
+   "visual_key": "bd6f1a9373e02ac0",
    "on_world_map": true,
    "capital": "city:AU-canberra",
    "wikidata": "Q408",
@@ -1339,10 +1340,10 @@
     "id": "media:flag:AW",
     "kind": "flag",
     "url": "media/flags/countries/AW.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -1375,7 +1376,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇦🇼",
-   "visual_key": "982719d2c4e290ce",
+   "visual_key": "f598d1d225ce2d61",
    "capital": "city:AW-oranjestad",
    "wikidata": "Q21203",
    "population": 106739,
@@ -1441,10 +1442,10 @@
     "id": "media:flag:AX",
     "kind": "flag",
     "url": "media/flags/countries/AX.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -1476,7 +1477,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇦🇽",
-   "visual_key": "452b3e9c07a802c2",
+   "visual_key": "ffe0b3a2b2465ed6",
    "capital": "city:AX-mariehamn",
    "wikidata": "Q5689",
    "population": 30836,
@@ -1536,10 +1537,10 @@
     "id": "media:flag:AZ",
     "kind": "flag",
     "url": "media/flags/countries/AZ.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -1578,7 +1579,7 @@
     "country:TR"
    ],
    "emoji": "🇦🇿",
-   "visual_key": "c0978a02c3e49588",
+   "visual_key": "be5fa8bee71a1d56",
    "on_world_map": true,
    "capital": "city:AZ-baku",
    "wikidata": "Q227",
@@ -1643,10 +1644,10 @@
     "id": "media:flag:BA",
     "kind": "flag",
     "url": "media/flags/countries/BA.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -1684,7 +1685,7 @@
     "country:RS"
    ],
    "emoji": "🇧🇦",
-   "visual_key": "9df0e0dc06b51598",
+   "visual_key": "cf05aa03c05619c7",
    "on_world_map": true,
    "capital": "city:BA-sarajevo",
    "wikidata": "Q225",
@@ -1751,10 +1752,10 @@
     "id": "media:flag:BB",
     "kind": "flag",
     "url": "media/flags/countries/BB.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -1786,7 +1787,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇧🇧",
-   "visual_key": "5f2a9ec20b8c3644",
+   "visual_key": "d1ff17c3a155f96b",
    "capital": "city:BB-bridgetown",
    "wikidata": "Q244",
    "population": 303431,
@@ -1846,10 +1847,10 @@
     "id": "media:flag:BD",
     "kind": "flag",
     "url": "media/flags/countries/BD.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -1884,7 +1885,7 @@
     "country:IN"
    ],
    "emoji": "🇧🇩",
-   "visual_key": "724ee10149c0b67f",
+   "visual_key": "92a6debc83eaeefe",
    "on_world_map": true,
    "capital": "city:BD-dhaka",
    "wikidata": "Q902",
@@ -1949,10 +1950,10 @@
     "id": "media:flag:BE",
     "kind": "flag",
     "url": "media/flags/countries/BE.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -1991,7 +1992,7 @@
     "country:NL"
    ],
    "emoji": "🇧🇪",
-   "visual_key": "7448dd192fb3ba3b",
+   "visual_key": "38874c4ffcf92901",
    "on_world_map": true,
    "capital": "city:BE-brussel",
    "wikidata": "Q31",
@@ -2058,10 +2059,10 @@
     "id": "media:flag:BF",
     "kind": "flag",
     "url": "media/flags/countries/BF.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -2100,7 +2101,7 @@
     "country:TG"
    ],
    "emoji": "🇧🇫",
-   "visual_key": "758911103ad53514",
+   "visual_key": "5d8c063b509dcdbc",
    "on_world_map": true,
    "capital": "city:BF-ouagadougou",
    "wikidata": "Q965",
@@ -2161,10 +2162,10 @@
     "id": "media:flag:BG",
     "kind": "flag",
     "url": "media/flags/countries/BG.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -2202,7 +2203,7 @@
     "country:TR"
    ],
    "emoji": "🇧🇬",
-   "visual_key": "f17c9928a7fc6e6d",
+   "visual_key": "a76fb477eb88af3e",
    "on_world_map": true,
    "capital": "city:BG-sofia",
    "wikidata": "Q219",
@@ -2262,10 +2263,10 @@
     "id": "media:flag:BH",
     "kind": "flag",
     "url": "media/flags/countries/BH.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -2297,7 +2298,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇧🇭",
-   "visual_key": "97c76fb4472e2eae",
+   "visual_key": "747e9450a3bee045",
    "capital": "city:BH-manama",
    "wikidata": "Q398",
    "population": 1569666,
@@ -2357,10 +2358,10 @@
     "id": "media:flag:BI",
     "kind": "flag",
     "url": "media/flags/countries/BI.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -2397,7 +2398,7 @@
     "country:TZ"
    ],
    "emoji": "🇧🇮",
-   "visual_key": "3da745267dd338f4",
+   "visual_key": "745bfa9ee0bd72ac",
    "on_world_map": true,
    "capital": "city:BI-gitega",
    "wikidata": "Q967",
@@ -2462,10 +2463,10 @@
     "id": "media:flag:BJ",
     "kind": "flag",
     "url": "media/flags/countries/BJ.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -2502,7 +2503,7 @@
     "country:TG"
    ],
    "emoji": "🇧🇯",
-   "visual_key": "23f1400e459fba3c",
+   "visual_key": "57c40ddccd5d83b2",
    "on_world_map": true,
    "capital": "city:BJ-porto-novo",
    "wikidata": "Q962",
@@ -2564,10 +2565,10 @@
     "id": "media:flag:BL",
     "kind": "flag",
     "url": "media/flags/countries/BL.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -2599,7 +2600,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇧🇱",
-   "visual_key": "98e621291fe1ab65",
+   "visual_key": "321ae9a9e500f660",
    "capital": "city:BL-gustavia",
    "wikidata": "Q25362",
    "population": 10124,
@@ -2658,10 +2659,10 @@
     "id": "media:flag:BM",
     "kind": "flag",
     "url": "media/flags/countries/BM.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -2693,7 +2694,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇧🇲",
-   "visual_key": "27d049c67d147602",
+   "visual_key": "69472537453eb555",
    "capital": "city:BM-hamilton",
    "wikidata": "Q23635",
    "population": 65024,
@@ -2744,10 +2745,10 @@
     "id": "media:flag:BN",
     "kind": "flag",
     "url": "media/flags/countries/BN.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -2787,7 +2788,7 @@
     "country:MY"
    ],
    "emoji": "🇧🇳",
-   "visual_key": "fb61579ea4299a19",
+   "visual_key": "dee8a70779d34911",
    "on_world_map": true,
    "capital": "city:BN-bandar-seri-begawan",
    "wikidata": "Q921",
@@ -2854,10 +2855,10 @@
     "id": "media:flag:BO",
     "kind": "flag",
     "url": "media/flags/countries/BO.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -2898,7 +2899,7 @@
     "country:PE"
    ],
    "emoji": "🇧🇴",
-   "visual_key": "44915a611d89c13d",
+   "visual_key": "a6ccf5cc2195fcd4",
    "on_world_map": true,
    "capital": "city:BO-sucre",
    "wikidata": "Q750",
@@ -2973,10 +2974,10 @@
     "id": "media:flag:BQ",
     "kind": "flag",
     "url": "media/flags/countries/BQ.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -3013,7 +3014,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "",
-   "visual_key": "e46eb343071284e4",
+   "visual_key": "6f4e426f29459e61",
    "capital": "city:BQ-kralendijk",
    "wikidata": "Q27561",
    "population": 29418,
@@ -3084,10 +3085,10 @@
     "id": "media:flag:BR",
     "kind": "flag",
     "url": "media/flags/countries/BR.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -3130,7 +3131,7 @@
     "country:VE"
    ],
    "emoji": "🇧🇷",
-   "visual_key": "0275675207e1cbe0",
+   "visual_key": "1c93bc83b61f38b1",
    "on_world_map": true,
    "capital": "city:BR-brasilia",
    "wikidata": "Q155",
@@ -3189,10 +3190,10 @@
     "id": "media:flag:BS",
     "kind": "flag",
     "url": "media/flags/countries/BS.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -3230,7 +3231,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇧🇸",
-   "visual_key": "97504208a96554db",
+   "visual_key": "81026c2d997c33b4",
    "on_world_map": true,
    "capital": "city:BS-nassau",
    "wikidata": "Q778",
@@ -3289,10 +3290,10 @@
     "id": "media:flag:BT",
     "kind": "flag",
     "url": "media/flags/countries/BT.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -3333,7 +3334,7 @@
     "country:IN"
    ],
    "emoji": "🇧🇹",
-   "visual_key": "c93a72d1bf03d0c5",
+   "visual_key": "a5be43aa874d0540",
    "on_world_map": true,
    "capital": "city:BT-thimphu",
    "wikidata": "Q917",
@@ -3392,10 +3393,10 @@
     "id": "media:flag:BV",
     "kind": "flag",
     "url": "media/flags/countries/BV.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -3416,7 +3417,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇧🇻",
-   "visual_key": "4b3b93632257c698",
+   "visual_key": "7c0bbcbb75427a98",
    "wikidata": "Q23408",
    "population": 0,
    "highest_point": {
@@ -3474,10 +3475,10 @@
     "id": "media:flag:BW",
     "kind": "flag",
     "url": "media/flags/countries/BW.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -3515,7 +3516,7 @@
     "country:ZW"
    ],
    "emoji": "🇧🇼",
-   "visual_key": "867e4933d203444a",
+   "visual_key": "740b215331583936",
    "on_world_map": true,
    "capital": "city:BW-gaborone",
    "wikidata": "Q963",
@@ -3582,10 +3583,10 @@
     "id": "media:flag:BY",
     "kind": "flag",
     "url": "media/flags/countries/BY.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -3624,7 +3625,7 @@
     "country:UA"
    ],
    "emoji": "🇧🇾",
-   "visual_key": "1cb065cfbc0167ea",
+   "visual_key": "de9f00f7dead037a",
    "on_world_map": true,
    "capital": "city:BY-minsk",
    "wikidata": "Q184",
@@ -3686,10 +3687,10 @@
     "id": "media:flag:BZ",
     "kind": "flag",
     "url": "media/flags/countries/BZ.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -3726,7 +3727,7 @@
     "country:MX"
    ],
    "emoji": "🇧🇿",
-   "visual_key": "9fb33cea3d3f6068",
+   "visual_key": "f01e4263748a803c",
    "on_world_map": true,
    "capital": "city:BZ-belmopan",
    "wikidata": "Q242",
@@ -3794,10 +3795,10 @@
     "id": "media:flag:CA",
     "kind": "flag",
     "url": "media/flags/countries/CA.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -3832,7 +3833,7 @@
     "country:US"
    ],
    "emoji": "🇨🇦",
-   "visual_key": "25a52bb1c21af651",
+   "visual_key": "5e20d135da10da02",
    "on_world_map": true,
    "capital": "city:CA-ottawa",
    "wikidata": "Q16",
@@ -3898,10 +3899,10 @@
     "id": "media:flag:CC",
     "kind": "flag",
     "url": "media/flags/countries/CC.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -3933,7 +3934,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇨🇨",
-   "visual_key": "99397b76d7e899b7",
+   "visual_key": "f1b9acc14f97bed3",
    "capital": "city:CC-west-island",
    "wikidata": "Q36004",
    "population": 602,
@@ -3986,10 +3987,10 @@
     "id": "media:flag:CD",
     "kind": "flag",
     "url": "media/flags/countries/CD.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -4035,7 +4036,7 @@
     "country:ZM"
    ],
    "emoji": "🇨🇩",
-   "visual_key": "0f6d673a49398522",
+   "visual_key": "b777d47e691879b3",
    "on_world_map": true,
    "capital": "city:CD-kinshasa",
    "wikidata": "Q974",
@@ -4114,10 +4115,10 @@
     "id": "media:flag:CF",
     "kind": "flag",
     "url": "media/flags/countries/CF.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -4157,7 +4158,7 @@
     "country:SD"
    ],
    "emoji": "🇨🇫",
-   "visual_key": "825cab4a60fedafe",
+   "visual_key": "24d9785416d2a40e",
    "on_world_map": true,
    "capital": "city:CF-bangui",
    "wikidata": "Q929",
@@ -4223,10 +4224,10 @@
     "id": "media:flag:CG",
     "kind": "flag",
     "url": "media/flags/countries/CG.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -4266,7 +4267,7 @@
     "country:GA"
    ],
    "emoji": "🇨🇬",
-   "visual_key": "343edfaa8967a40b",
+   "visual_key": "ace407160e763c92",
    "on_world_map": true,
    "capital": "city:CG-brazzaville",
    "wikidata": "Q971",
@@ -4339,10 +4340,10 @@
     "id": "media:flag:CH",
     "kind": "flag",
     "url": "media/flags/countries/CH.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -4383,7 +4384,7 @@
     "country:DE"
    ],
    "emoji": "🇨🇭",
-   "visual_key": "05fb7c7ef6e3d230",
+   "visual_key": "0356eb35beb3a3c6",
    "on_world_map": true,
    "capital": "city:CH-bern",
    "wikidata": "Q39",
@@ -4460,10 +4461,10 @@
     "id": "media:flag:CI",
     "kind": "flag",
     "url": "media/flags/countries/CI.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -4501,7 +4502,7 @@
     "country:ML"
    ],
    "emoji": "🇨🇮",
-   "visual_key": "d7acff2d1ad384fb",
+   "visual_key": "07ffd5509560afba",
    "on_world_map": true,
    "capital": "city:CI-yamoussoukro",
    "wikidata": "Q1008",
@@ -4560,10 +4561,10 @@
     "id": "media:flag:CK",
     "kind": "flag",
     "url": "media/flags/countries/CK.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -4602,7 +4603,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇨🇰",
-   "visual_key": "a3cdb8bd94e6edf6",
+   "visual_key": "165ccadcb9f3be28",
    "capital": "city:CK-avarua",
    "wikidata": "Q26988",
    "population": 14222,
@@ -4666,10 +4667,10 @@
     "id": "media:flag:CL",
     "kind": "flag",
     "url": "media/flags/countries/CL.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -4705,7 +4706,7 @@
     "country:PE"
    ],
    "emoji": "🇨🇱",
-   "visual_key": "21bf53165fb32e07",
+   "visual_key": "bac827bc619f6213",
    "on_world_map": true,
    "capital": "city:CL-santiago-de-chile",
    "wikidata": "Q298",
@@ -4766,10 +4767,10 @@
     "id": "media:flag:CM",
     "kind": "flag",
     "url": "media/flags/countries/CM.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -4809,7 +4810,7 @@
     "country:NG"
    ],
    "emoji": "🇨🇲",
-   "visual_key": "8497960a6f01bf6c",
+   "visual_key": "7dededfb0347d1ca",
    "on_world_map": true,
    "capital": "city:CM-yaounde",
    "wikidata": "Q1009",
@@ -4878,10 +4879,10 @@
     "id": "media:flag:CN",
     "kind": "flag",
     "url": "media/flags/countries/CN.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -4934,7 +4935,7 @@
     "country:VN"
    ],
    "emoji": "🇨🇳",
-   "visual_key": "c593f52da3c5354c",
+   "visual_key": "962199fa70e0be48",
    "on_world_map": true,
    "capital": "city:CN-peking",
    "wikidata": "Q148",
@@ -4995,10 +4996,10 @@
     "id": "media:flag:CO",
     "kind": "flag",
     "url": "media/flags/countries/CO.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -5036,7 +5037,7 @@
     "country:VE"
    ],
    "emoji": "🇨🇴",
-   "visual_key": "5a6236b26196c406",
+   "visual_key": "6de08e626dc2dfe2",
    "on_world_map": true,
    "capital": "city:CO-bogota",
    "wikidata": "Q739",
@@ -5096,10 +5097,10 @@
     "id": "media:flag:CR",
     "kind": "flag",
     "url": "media/flags/countries/CR.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -5134,7 +5135,7 @@
     "country:PA"
    ],
    "emoji": "🇨🇷",
-   "visual_key": "f66f9c3fb4c45ddf",
+   "visual_key": "271e538f8cee5b2a",
    "on_world_map": true,
    "capital": "city:CR-san-jose",
    "wikidata": "Q800",
@@ -5195,10 +5196,10 @@
     "id": "media:flag:CU",
     "kind": "flag",
     "url": "media/flags/countries/CU.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -5236,7 +5237,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇨🇺",
-   "visual_key": "3e98570882c152bc",
+   "visual_key": "515d1d55fb5dce06",
    "on_world_map": true,
    "capital": "city:CU-havanna",
    "wikidata": "Q241",
@@ -5297,10 +5298,10 @@
     "id": "media:flag:CV",
     "kind": "flag",
     "url": "media/flags/countries/CV.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -5332,7 +5333,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇨🇻",
-   "visual_key": "8cf857f18a5a5952",
+   "visual_key": "3297bdc9b5d5a394",
    "capital": "city:CV-praia",
    "wikidata": "Q1011",
    "population": 555988,
@@ -5393,10 +5394,10 @@
     "id": "media:flag:CW",
     "kind": "flag",
     "url": "media/flags/countries/CW.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -5430,7 +5431,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇨🇼",
-   "visual_key": "c111591777f6c51b",
+   "visual_key": "c735d8e0c01d35d5",
    "capital": "city:CW-willemstad",
    "wikidata": "Q25279",
    "population": 152849,
@@ -5488,10 +5489,10 @@
     "id": "media:flag:CX",
     "kind": "flag",
     "url": "media/flags/countries/CX.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -5523,7 +5524,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇨🇽",
-   "visual_key": "602e897622560800",
+   "visual_key": "0b28c509ccf6d340",
    "capital": "city:CX-flying-fish-cove",
    "wikidata": "Q31063",
    "population": 1692,
@@ -5586,10 +5587,10 @@
     "id": "media:flag:CY",
     "kind": "flag",
     "url": "media/flags/countries/CY.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -5622,7 +5623,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇨🇾",
-   "visual_key": "723199ea03e712c1",
+   "visual_key": "2dde527a4b52eaa8",
    "on_world_map": true,
    "capital": "city:CY-nikosia",
    "wikidata": "Q229",
@@ -5704,10 +5705,10 @@
     "id": "media:flag:CZ",
     "kind": "flag",
     "url": "media/flags/countries/CZ.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -5745,7 +5746,7 @@
     "country:SK"
    ],
    "emoji": "🇨🇿",
-   "visual_key": "5fb746ddc8ceae35",
+   "visual_key": "a71bcb7e97223bdc",
    "on_world_map": true,
    "capital": "city:CZ-prag",
    "wikidata": "Q213",
@@ -5810,10 +5811,10 @@
     "id": "media:flag:DE",
     "kind": "flag",
     "url": "media/flags/countries/DE.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -5855,7 +5856,7 @@
     "country:CH"
    ],
    "emoji": "🇩🇪",
-   "visual_key": "ba6e2a243cb579de",
+   "visual_key": "534a82c6ccfdc08a",
    "on_world_map": true,
    "capital": "city:DE-berlin",
    "wikidata": "Q183",
@@ -5920,10 +5921,10 @@
     "id": "media:flag:DJ",
     "kind": "flag",
     "url": "media/flags/countries/DJ.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -5960,7 +5961,7 @@
     "country:SO"
    ],
    "emoji": "🇩🇯",
-   "visual_key": "053ead39e5419cd7",
+   "visual_key": "47325504a197be39",
    "on_world_map": true,
    "capital": "city:DJ-djibouti",
    "wikidata": "Q977",
@@ -6027,10 +6028,10 @@
     "id": "media:flag:DK",
     "kind": "flag",
     "url": "media/flags/countries/DK.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -6064,7 +6065,7 @@
     "country:DE"
    ],
    "emoji": "🇩🇰",
-   "visual_key": "af43b421a9f432c5",
+   "visual_key": "dc4827058fb343b6",
    "on_world_map": true,
    "capital": "city:DK-kopenhagen",
    "wikidata": "Q35",
@@ -6125,10 +6126,10 @@
     "id": "media:flag:DM",
     "kind": "flag",
     "url": "media/flags/countries/DM.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -6160,7 +6161,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇩🇲",
-   "visual_key": "9981a6970388602e",
+   "visual_key": "cdcbb6cff78165c7",
    "capital": "city:DM-roseau",
    "wikidata": "Q784",
    "population": 74656,
@@ -6217,10 +6218,10 @@
     "id": "media:flag:DO",
     "kind": "flag",
     "url": "media/flags/countries/DO.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -6254,7 +6255,7 @@
     "country:HT"
    ],
    "emoji": "🇩🇴",
-   "visual_key": "ae008d9d78ec02e4",
+   "visual_key": "a23babc0d52bfbe6",
    "on_world_map": true,
    "capital": "city:DO-santo-domingo",
    "wikidata": "Q786",
@@ -6316,10 +6317,10 @@
     "id": "media:flag:DZ",
     "kind": "flag",
     "url": "media/flags/countries/DZ.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -6360,7 +6361,7 @@
     "country:MA"
    ],
    "emoji": "🇩🇿",
-   "visual_key": "9beabb31b5518401",
+   "visual_key": "de1442010432e1da",
    "on_world_map": true,
    "capital": "city:DZ-algiers",
    "wikidata": "Q262",
@@ -6420,10 +6421,10 @@
     "id": "media:flag:EC",
     "kind": "flag",
     "url": "media/flags/countries/EC.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -6458,7 +6459,7 @@
     "country:PE"
    ],
    "emoji": "🇪🇨",
-   "visual_key": "e6a77cab91bc867b",
+   "visual_key": "f6f0389ea4326989",
    "on_world_map": true,
    "capital": "city:EC-quito",
    "wikidata": "Q736",
@@ -6520,10 +6521,10 @@
     "id": "media:flag:EE",
     "kind": "flag",
     "url": "media/flags/countries/EE.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -6558,7 +6559,7 @@
     "country:RU"
    ],
    "emoji": "🇪🇪",
-   "visual_key": "0d5291e1a37a00e2",
+   "visual_key": "f5aa03595cd342dc",
    "on_world_map": true,
    "capital": "city:EE-tallinn",
    "wikidata": "Q191",
@@ -6618,10 +6619,10 @@
     "id": "media:flag:EG",
     "kind": "flag",
     "url": "media/flags/countries/EG.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -6659,7 +6660,7 @@
     "country:SD"
    ],
    "emoji": "🇪🇬",
-   "visual_key": "1e2ffa617e8ef31f",
+   "visual_key": "f157fdd22af1847c",
    "on_world_map": true,
    "capital": "city:EG-kairo",
    "wikidata": "Q79",
@@ -6720,10 +6721,10 @@
     "id": "media:flag:EH",
     "kind": "flag",
     "url": "media/flags/countries/EH.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -6773,7 +6774,7 @@
     "country:MA"
    ],
    "emoji": "🇪🇭",
-   "visual_key": "8247c2836d742630",
+   "visual_key": "a903023daf0038df",
    "on_world_map": true,
    "capital": "city:EH-el-aaiun",
    "wikidata": "Q6250",
@@ -6836,10 +6837,10 @@
     "id": "media:flag:ER",
     "kind": "flag",
     "url": "media/flags/countries/ER.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -6877,7 +6878,7 @@
     "country:SD"
    ],
    "emoji": "🇪🇷",
-   "visual_key": "4ca0210d2d27c314",
+   "visual_key": "90c48786f01795bd",
    "on_world_map": true,
    "capital": "city:ER-asmara",
    "wikidata": "Q986",
@@ -6948,10 +6949,10 @@
     "id": "media:flag:ES",
     "kind": "flag",
     "url": "media/flags/countries/ES.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -6989,7 +6990,7 @@
     "country:MA"
    ],
    "emoji": "🇪🇸",
-   "visual_key": "4d6752fdfbd1605c",
+   "visual_key": "e6ce1922eba61c4a",
    "on_world_map": true,
    "capital": "city:ES-madrid",
    "wikidata": "Q29",
@@ -7051,10 +7052,10 @@
     "id": "media:flag:ET",
     "kind": "flag",
     "url": "media/flags/countries/ET.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -7093,7 +7094,7 @@
     "country:SD"
    ],
    "emoji": "🇪🇹",
-   "visual_key": "66a243a0c97dc68c",
+   "visual_key": "6811722c8c2f1431",
    "on_world_map": true,
    "capital": "city:ET-addis-abeba",
    "wikidata": "Q115",
@@ -7142,16 +7143,17 @@
     "id": "media:flag:EU",
     "kind": "flag",
     "url": "media/flags/countries/EU.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
    "iso2": "EU",
    "continent": "europe",
-   "borders": []
+   "borders": [],
+   "visual_key": "ca9799dbd2cf5328"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -7184,10 +7186,10 @@
     "id": "media:flag:FI",
     "kind": "flag",
     "url": "media/flags/countries/FI.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -7224,7 +7226,7 @@
     "country:RU"
    ],
    "emoji": "🇫🇮",
-   "visual_key": "dc6946a5e69a7870",
+   "visual_key": "2f57f5b4ec3968d3",
    "on_world_map": true,
    "capital": "city:FI-helsinki",
    "wikidata": "Q33",
@@ -7292,10 +7294,10 @@
     "id": "media:flag:FJ",
     "kind": "flag",
     "url": "media/flags/countries/FJ.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -7329,7 +7331,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇫🇯",
-   "visual_key": "c83bb207c081dac4",
+   "visual_key": "4371c5736a39e2d6",
    "on_world_map": true,
    "capital": "city:FJ-suva",
    "wikidata": "Q712",
@@ -7399,10 +7401,10 @@
     "id": "media:flag:FK",
     "kind": "flag",
     "url": "media/flags/countries/FK.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -7434,7 +7436,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇫🇰",
-   "visual_key": "108284145ae91957",
+   "visual_key": "f665ef780ba161fb",
    "on_world_map": true,
    "capital": "city:FK-stanley",
    "wikidata": "Q9648",
@@ -7495,10 +7497,10 @@
     "id": "media:flag:FM",
     "kind": "flag",
     "url": "media/flags/countries/FM.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -7523,7 +7525,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇫🇲",
-   "visual_key": "4339bc1d8bbcef20",
+   "visual_key": "d084ae191a766ce4",
    "capital": "city:FM-palikir",
    "wikidata": "Q702",
    "population": 75817,
@@ -7584,10 +7586,10 @@
     "id": "media:flag:FO",
     "kind": "flag",
     "url": "media/flags/countries/FO.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -7626,7 +7628,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇫🇴",
-   "visual_key": "c3d3ef7d975f3d9f",
+   "visual_key": "649c6c10a5d4bdb4",
    "capital": "city:FO-torshavn",
    "wikidata": "Q4628",
    "population": 54149,
@@ -7691,10 +7693,10 @@
     "id": "media:flag:FR",
     "kind": "flag",
     "url": "media/flags/countries/FR.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -7735,7 +7737,7 @@
     "country:CH"
    ],
    "emoji": "🇫🇷",
-   "visual_key": "e154b77d6d80d40f",
+   "visual_key": "6019e188992d2b6c",
    "on_world_map": true,
    "capital": "city:FR-paris",
    "wikidata": "Q142",
@@ -7796,10 +7798,10 @@
     "id": "media:flag:GA",
     "kind": "flag",
     "url": "media/flags/countries/GA.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -7835,7 +7837,7 @@
     "country:GQ"
    ],
    "emoji": "🇬🇦",
-   "visual_key": "9ad41066b280d1cb",
+   "visual_key": "3d8b5561eb66aade",
    "on_world_map": true,
    "capital": "city:GA-libreville",
    "wikidata": "Q1000",
@@ -7897,10 +7899,10 @@
     "id": "media:flag:GB",
     "kind": "flag",
     "url": "media/flags/countries/GB.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -7934,7 +7936,7 @@
     "country:IE"
    ],
    "emoji": "🇬🇧",
-   "visual_key": "4a2e2eddd77a6653",
+   "visual_key": "910e4fa63fb7a23d",
    "on_world_map": true,
    "capital": "city:GB-london",
    "wikidata": "Q145",
@@ -7991,10 +7993,10 @@
     "id": "media:flag:GD",
     "kind": "flag",
     "url": "media/flags/countries/GD.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -8026,7 +8028,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇬🇩",
-   "visual_key": "03b44a0e8899992d",
+   "visual_key": "14f874310cd7e338",
    "capital": "city:GD-st-george-s",
    "wikidata": "Q769",
    "population": 114299,
@@ -8084,10 +8086,10 @@
     "id": "media:flag:GE",
     "kind": "flag",
     "url": "media/flags/countries/GE.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -8124,7 +8126,7 @@
     "country:TR"
    ],
    "emoji": "🇬🇪",
-   "visual_key": "12676551b8145a17",
+   "visual_key": "70a6a70b0a376bed",
    "on_world_map": true,
    "capital": "city:GE-tbilisi",
    "wikidata": "Q230",
@@ -8183,10 +8185,10 @@
     "id": "media:flag:GF",
     "kind": "flag",
     "url": "media/flags/countries/GF.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -8221,7 +8223,7 @@
     "country:SR"
    ],
    "emoji": "🇬🇫",
-   "visual_key": "3aadc4ece7a08c01",
+   "visual_key": "95443d5764146dee",
    "capital": "city:GF-cayenne",
    "wikidata": "Q3769",
    "population": 293996,
@@ -8280,10 +8282,10 @@
     "id": "media:flag:GG",
     "kind": "flag",
     "url": "media/flags/countries/GG.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -8323,7 +8325,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇬🇬",
-   "visual_key": "b88ea1672506c448",
+   "visual_key": "f602e67a64bf4ea4",
    "capital": "city:GG-st-peter-port",
    "wikidata": "Q25230",
    "population": 67787,
@@ -8391,10 +8393,10 @@
     "id": "media:flag:GH",
     "kind": "flag",
     "url": "media/flags/countries/GH.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -8430,7 +8432,7 @@
     "country:TG"
    ],
    "emoji": "🇬🇭",
-   "visual_key": "baaebd343c444eba",
+   "visual_key": "a5bd06898354acf1",
    "on_world_map": true,
    "capital": "city:GH-accra",
    "wikidata": "Q117",
@@ -8486,10 +8488,10 @@
     "id": "media:flag:GI",
     "kind": "flag",
     "url": "media/flags/countries/GI.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -8523,7 +8525,7 @@
     "country:ES"
    ],
    "emoji": "🇬🇮",
-   "visual_key": "7a3e3326104018f3",
+   "visual_key": "92fdfc46aedf1a1a",
    "capital": "city:GI-gibraltar",
    "wikidata": "Q1410",
    "population": 34003,
@@ -8571,10 +8573,10 @@
     "id": "media:flag:GL",
     "kind": "flag",
     "url": "media/flags/countries/GL.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -8606,7 +8608,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇬🇱",
-   "visual_key": "f9c5bf5cd02f4028",
+   "visual_key": "ca3e5bea5f4d0bae",
    "on_world_map": true,
    "capital": "city:GL-nuuk",
    "wikidata": "Q223",
@@ -8665,10 +8667,10 @@
     "id": "media:flag:GM",
     "kind": "flag",
     "url": "media/flags/countries/GM.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -8702,7 +8704,7 @@
     "country:SN"
    ],
    "emoji": "🇬🇲",
-   "visual_key": "d8ea8e17c144d120",
+   "visual_key": "786b8fa58a016ccc",
    "on_world_map": true,
    "capital": "city:GM-banjul",
    "wikidata": "Q1005",
@@ -8752,10 +8754,10 @@
     "id": "media:flag:GN",
     "kind": "flag",
     "url": "media/flags/countries/GN.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -8794,7 +8796,7 @@
     "country:SL"
    ],
    "emoji": "🇬🇳",
-   "visual_key": "c88ca4440b31e304",
+   "visual_key": "4a83ca2aed02bb35",
    "on_world_map": true,
    "capital": "city:GN-conakry",
    "wikidata": "Q1006",
@@ -8851,10 +8853,10 @@
     "id": "media:flag:GP",
     "kind": "flag",
     "url": "media/flags/countries/GP.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -8886,7 +8888,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇬🇵",
-   "visual_key": "e154b77d6d80d40f",
+   "visual_key": "499bbe64d0ce5713",
    "capital": "city:GP-basse-terre",
    "wikidata": "Q17012",
    "population": 384160,
@@ -8948,10 +8950,10 @@
     "id": "media:flag:GQ",
     "kind": "flag",
     "url": "media/flags/countries/GQ.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -8988,7 +8990,7 @@
     "country:GA"
    ],
    "emoji": "🇬🇶",
-   "visual_key": "c2defdce8be31bc7",
+   "visual_key": "f7daaac491b0831e",
    "on_world_map": true,
    "capital": "city:GQ-malabo",
    "wikidata": "Q983",
@@ -9060,10 +9062,10 @@
     "id": "media:flag:GR",
     "kind": "flag",
     "url": "media/flags/countries/GR.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -9100,7 +9102,7 @@
     "country:MK"
    ],
    "emoji": "🇬🇷",
-   "visual_key": "dbf7afec68a1dfd6",
+   "visual_key": "0592e16f92cdbcc1",
    "on_world_map": true,
    "capital": "city:GR-athen",
    "wikidata": "Q41",
@@ -9159,10 +9161,10 @@
     "id": "media:flag:GS",
     "kind": "flag",
     "url": "media/flags/countries/GS.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -9193,7 +9195,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇬🇸",
-   "visual_key": "0c8e6055d1f6e478",
+   "visual_key": "c137a17487c0789f",
    "capital": "city:GS-king-edward-point",
    "wikidata": "Q35086",
    "population": 35,
@@ -9251,10 +9253,10 @@
     "id": "media:flag:GT",
     "kind": "flag",
     "url": "media/flags/countries/GT.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -9291,7 +9293,7 @@
     "country:MX"
    ],
    "emoji": "🇬🇹",
-   "visual_key": "5c5cd35b9d7804ba",
+   "visual_key": "7a143a29f70827fe",
    "on_world_map": true,
    "capital": "city:GT-guatemala-city",
    "wikidata": "Q774",
@@ -9349,10 +9351,10 @@
     "id": "media:flag:GU",
     "kind": "flag",
     "url": "media/flags/countries/GU.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -9386,7 +9388,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇬🇺",
-   "visual_key": "d92e5857b34db64f",
+   "visual_key": "c4c1bc901aeaff13",
    "capital": "city:GU-hagatna",
    "wikidata": "Q16635",
    "population": 153836,
@@ -9455,10 +9457,10 @@
     "id": "media:flag:GW",
     "kind": "flag",
     "url": "media/flags/countries/GW.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -9494,7 +9496,7 @@
     "country:SN"
    ],
    "emoji": "🇬🇼",
-   "visual_key": "50e8f1d176c14bc0",
+   "visual_key": "6cba42f1249197e7",
    "on_world_map": true,
    "capital": "city:GW-bissau",
    "wikidata": "Q1007",
@@ -9558,10 +9560,10 @@
     "id": "media:flag:GY",
     "kind": "flag",
     "url": "media/flags/countries/GY.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -9597,7 +9599,7 @@
     "country:VE"
    ],
    "emoji": "🇬🇾",
-   "visual_key": "5d5abae3a47a1e82",
+   "visual_key": "900f15b29ee630f2",
    "on_world_map": true,
    "capital": "city:GY-georgetown",
    "wikidata": "Q734",
@@ -9657,10 +9659,10 @@
     "id": "media:flag:HK",
     "kind": "flag",
     "url": "media/flags/countries/HK.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -9696,7 +9698,7 @@
     "country:CN"
    ],
    "emoji": "🇭🇰",
-   "visual_key": "825a002240e44465",
+   "visual_key": "8c2c494a583b946b",
    "capital": "city:HK-city-of-victoria",
    "wikidata": "Q8646",
    "population": 7413070,
@@ -9759,10 +9761,10 @@
     "id": "media:flag:HM",
     "kind": "flag",
     "url": "media/flags/countries/HM.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -9783,7 +9785,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇭🇲",
-   "visual_key": "603bdc3b2311b2c2",
+   "visual_key": "bd6f1a9373e02ac0",
    "wikidata": "Q131198",
    "population": 0,
    "highest_point": {
@@ -9841,10 +9843,10 @@
     "id": "media:flag:HN",
     "kind": "flag",
     "url": "media/flags/countries/HN.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -9880,7 +9882,7 @@
     "country:NI"
    ],
    "emoji": "🇭🇳",
-   "visual_key": "e3f4f45d1ea2f721",
+   "visual_key": "145518db5da32e7d",
    "on_world_map": true,
    "capital": "city:HN-tegucigalpa",
    "wikidata": "Q783",
@@ -9942,10 +9944,10 @@
     "id": "media:flag:HR",
     "kind": "flag",
     "url": "media/flags/countries/HR.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -9983,7 +9985,7 @@
     "country:SI"
    ],
    "emoji": "🇭🇷",
-   "visual_key": "deb4a8c399a3ef7e",
+   "visual_key": "c2eeaa372ae4e8b4",
    "on_world_map": true,
    "capital": "city:HR-zagreb",
    "wikidata": "Q224",
@@ -10044,10 +10046,10 @@
     "id": "media:flag:HT",
     "kind": "flag",
     "url": "media/flags/countries/HT.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -10082,7 +10084,7 @@
     "country:DO"
    ],
    "emoji": "🇭🇹",
-   "visual_key": "99163028869c4e46",
+   "visual_key": "533844c7e965c0b9",
    "on_world_map": true,
    "capital": "city:HT-port-au-prince",
    "wikidata": "Q790",
@@ -10145,10 +10147,10 @@
     "id": "media:flag:HU",
     "kind": "flag",
     "url": "media/flags/countries/HU.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -10188,7 +10190,7 @@
     "country:UA"
    ],
    "emoji": "🇭🇺",
-   "visual_key": "01e5b9cb192e8d37",
+   "visual_key": "5636ef3533ddfee7",
    "on_world_map": true,
    "capital": "city:HU-budapest",
    "wikidata": "Q28",
@@ -10237,16 +10239,17 @@
     "id": "media:flag:IC",
     "kind": "flag",
     "url": "media/flags/countries/IC.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
+    "source": "flag-icons 7.5.0",
+    "source_url": "https://github.com/lipis/flag-icons",
     "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "attribution": "flag-icons (MIT)"
    }
   ],
   "attributes": {
    "iso2": "IC",
    "continent": "other",
-   "borders": []
+   "borders": [],
+   "visual_key": "9a584e048b173dfd"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -10277,10 +10280,10 @@
     "id": "media:flag:ID",
     "kind": "flag",
     "url": "media/flags/countries/ID.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -10316,7 +10319,7 @@
     "country:PG"
    ],
    "emoji": "🇮🇩",
-   "visual_key": "10044594cd13d728",
+   "visual_key": "133445614e70b426",
    "on_world_map": true,
    "capital": "city:ID-jakarta",
    "wikidata": "Q252",
@@ -10378,10 +10381,10 @@
     "id": "media:flag:IE",
     "kind": "flag",
     "url": "media/flags/countries/IE.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -10416,7 +10419,7 @@
     "country:GB"
    ],
    "emoji": "🇮🇪",
-   "visual_key": "728c0de473a2e1d1",
+   "visual_key": "bd610a5c0ba77297",
    "on_world_map": true,
    "capital": "city:IE-dublin",
    "wikidata": "Q27",
@@ -10481,10 +10484,10 @@
     "id": "media:flag:IL",
     "kind": "flag",
     "url": "media/flags/countries/IL.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -10523,7 +10526,7 @@
     "country:SY"
    ],
    "emoji": "🇮🇱",
-   "visual_key": "e6edd720a2191bb6",
+   "visual_key": "14a4df274e784e76",
    "on_world_map": true,
    "capital": "city:IL-jerusalem",
    "wikidata": "Q801",
@@ -10589,10 +10592,10 @@
     "id": "media:flag:IM",
     "kind": "flag",
     "url": "media/flags/countries/IM.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -10631,7 +10634,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇮🇲",
-   "visual_key": "506b7697a98367a7",
+   "visual_key": "64a1d132e17f670e",
    "capital": "city:IM-douglas",
    "wikidata": "Q9676",
    "population": 84523,
@@ -10698,10 +10701,10 @@
     "id": "media:flag:IN",
     "kind": "flag",
     "url": "media/flags/countries/IN.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -10742,7 +10745,7 @@
     "country:PK"
    ],
    "emoji": "🇮🇳",
-   "visual_key": "684f2173566c4f4d",
+   "visual_key": "bde9fc5fe6bd8365",
    "on_world_map": true,
    "capital": "city:IN-neu-delhi",
    "wikidata": "Q668",
@@ -10810,10 +10813,10 @@
     "id": "media:flag:IO",
     "kind": "flag",
     "url": "media/flags/countries/IO.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -10845,7 +10848,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇮🇴",
-   "visual_key": "fa09befdafeeb005",
+   "visual_key": "149c4b681ed4b33c",
    "capital": "city:IO-diego-garcia",
    "wikidata": "Q43448",
    "population": 3000,
@@ -10895,10 +10898,10 @@
     "id": "media:flag:IQ",
     "kind": "flag",
     "url": "media/flags/countries/IQ.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -10939,7 +10942,7 @@
     "country:TR"
    ],
    "emoji": "🇮🇶",
-   "visual_key": "7ce5b4e74212eca4",
+   "visual_key": "4d41f43f997d2ee8",
    "on_world_map": true,
    "capital": "city:IQ-baghdad",
    "wikidata": "Q796",
@@ -11010,10 +11013,10 @@
     "id": "media:flag:IR",
     "kind": "flag",
     "url": "media/flags/countries/IR.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -11054,7 +11057,7 @@
     "country:TM"
    ],
    "emoji": "🇮🇷",
-   "visual_key": "75602e63f261d371",
+   "visual_key": "0f20ddf15daaccc9",
    "on_world_map": true,
    "capital": "city:IR-tehran",
    "wikidata": "Q794",
@@ -11114,10 +11117,10 @@
     "id": "media:flag:IS",
     "kind": "flag",
     "url": "media/flags/countries/IS.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -11149,7 +11152,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇮🇸",
-   "visual_key": "76a8c0ad667d485e",
+   "visual_key": "21e5c342bfaca257",
    "on_world_map": true,
    "capital": "city:IS-reykjavik",
    "wikidata": "Q189",
@@ -11210,10 +11213,10 @@
     "id": "media:flag:IT",
     "kind": "flag",
     "url": "media/flags/countries/IT.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -11252,7 +11255,7 @@
     "country:VA"
    ],
    "emoji": "🇮🇹",
-   "visual_key": "e88c1cc9c6a8fb9b",
+   "visual_key": "cdcd7895f60f59b0",
    "on_world_map": true,
    "capital": "city:IT-rom",
    "wikidata": "Q38",
@@ -11313,10 +11316,10 @@
     "id": "media:flag:JE",
     "kind": "flag",
     "url": "media/flags/countries/JE.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -11356,7 +11359,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇯🇪",
-   "visual_key": "1600a31d7c70bc4d",
+   "visual_key": "e19d340e736a1b83",
    "capital": "city:JE-saint-helier",
    "wikidata": "Q785",
    "population": 103267,
@@ -11413,10 +11416,10 @@
     "id": "media:flag:JM",
     "kind": "flag",
     "url": "media/flags/countries/JM.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -11449,7 +11452,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇯🇲",
-   "visual_key": "3428da9c85ef274b",
+   "visual_key": "e11834bafa5e8fd9",
    "on_world_map": true,
    "capital": "city:JM-kingston",
    "wikidata": "Q766",
@@ -11515,10 +11518,10 @@
     "id": "media:flag:JO",
     "kind": "flag",
     "url": "media/flags/countries/JO.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -11557,7 +11560,7 @@
     "country:SY"
    ],
    "emoji": "🇯🇴",
-   "visual_key": "14e17cef564c8416",
+   "visual_key": "5fa2461d053598fe",
    "on_world_map": true,
    "capital": "city:JO-amman",
    "wikidata": "Q810",
@@ -11616,10 +11619,10 @@
     "id": "media:flag:JP",
     "kind": "flag",
     "url": "media/flags/countries/JP.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -11652,7 +11655,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇯🇵",
-   "visual_key": "ce3d1e4c28f4fcfc",
+   "visual_key": "3ecfe5fb326152e5",
    "on_world_map": true,
    "capital": "city:JP-tokio",
    "wikidata": "Q17",
@@ -11713,10 +11716,10 @@
     "id": "media:flag:KE",
     "kind": "flag",
     "url": "media/flags/countries/KE.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -11755,7 +11758,7 @@
     "country:UG"
    ],
    "emoji": "🇰🇪",
-   "visual_key": "ed89d2a16162b823",
+   "visual_key": "fa900bbceccac751",
    "on_world_map": true,
    "capital": "city:KE-nairobi",
    "wikidata": "Q114",
@@ -11823,10 +11826,10 @@
     "id": "media:flag:KG",
     "kind": "flag",
     "url": "media/flags/countries/KG.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -11864,7 +11867,7 @@
     "country:UZ"
    ],
    "emoji": "🇰🇬",
-   "visual_key": "eb2452aca7fc7c6c",
+   "visual_key": "18e51b1f59a6564b",
    "on_world_map": true,
    "capital": "city:KG-bishkek",
    "wikidata": "Q813",
@@ -11929,10 +11932,10 @@
     "id": "media:flag:KH",
     "kind": "flag",
     "url": "media/flags/countries/KH.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -11974,7 +11977,7 @@
     "country:VN"
    ],
    "emoji": "🇰🇭",
-   "visual_key": "a4aadd8931a0b242",
+   "visual_key": "245858b7345eb8a9",
    "on_world_map": true,
    "capital": "city:KH-phnom-penh",
    "wikidata": "Q424",
@@ -12035,10 +12038,10 @@
     "id": "media:flag:KI",
     "kind": "flag",
     "url": "media/flags/countries/KI.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -12077,7 +12080,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇰🇮",
-   "visual_key": "e5f9733eb434bc00",
+   "visual_key": "264b8dcc3bc462c0",
    "capital": "city:KI-south-tarawa",
    "wikidata": "Q710",
    "population": 134518,
@@ -12144,10 +12147,10 @@
     "id": "media:flag:KM",
     "kind": "flag",
     "url": "media/flags/countries/KM.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -12181,7 +12184,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇰🇲",
-   "visual_key": "c7dff4b2a1669bf7",
+   "visual_key": "7242420248f1b5c7",
    "capital": "city:KM-moroni",
    "wikidata": "Q970",
    "population": 902348,
@@ -12250,10 +12253,10 @@
     "id": "media:flag:KN",
     "kind": "flag",
     "url": "media/flags/countries/KN.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -12285,7 +12288,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇰🇳",
-   "visual_key": "0b495663f0eaa2d4",
+   "visual_key": "03af4c3390aaa5f2",
    "capital": "city:KN-basseterre",
    "wikidata": "Q763",
    "population": 46922,
@@ -12350,10 +12353,10 @@
     "id": "media:flag:KP",
     "kind": "flag",
     "url": "media/flags/countries/KP.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -12389,7 +12392,7 @@
     "country:RU"
    ],
    "emoji": "🇰🇵",
-   "visual_key": "cb7dcbed9c762878",
+   "visual_key": "e691f1bd56300921",
    "on_world_map": true,
    "capital": "city:KP-pyongyang",
    "wikidata": "Q423",
@@ -12452,10 +12455,10 @@
     "id": "media:flag:KR",
     "kind": "flag",
     "url": "media/flags/countries/KR.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -12490,7 +12493,7 @@
     "country:KP"
    ],
    "emoji": "🇰🇷",
-   "visual_key": "8e7ecfe2a9ac0ee2",
+   "visual_key": "cc39b7490a894db1",
    "on_world_map": true,
    "capital": "city:KR-seoul",
    "wikidata": "Q884",
@@ -12550,10 +12553,10 @@
     "id": "media:flag:KW",
     "kind": "flag",
     "url": "media/flags/countries/KW.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -12588,7 +12591,7 @@
     "country:SA"
    ],
    "emoji": "🇰🇼",
-   "visual_key": "0b78ae3f7c93ca5d",
+   "visual_key": "0e2c8ac36988d400",
    "on_world_map": true,
    "capital": "city:KW-kuwait-city",
    "wikidata": "Q817",
@@ -12647,10 +12650,10 @@
     "id": "media:flag:KY",
     "kind": "flag",
     "url": "media/flags/countries/KY.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -12682,7 +12685,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇰🇾",
-   "visual_key": "7a0c0bd5d1b85afb",
+   "visual_key": "a0e03eeb2470e4fd",
    "capital": "city:KY-george-town",
    "wikidata": "Q5785",
    "population": 88833,
@@ -12737,10 +12740,10 @@
     "id": "media:flag:KZ",
     "kind": "flag",
     "url": "media/flags/countries/KZ.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -12780,7 +12783,7 @@
     "country:UZ"
    ],
    "emoji": "🇰🇿",
-   "visual_key": "96f77d8f4661de2f",
+   "visual_key": "2091001401171cb1",
    "on_world_map": true,
    "capital": "city:KZ-astana",
    "wikidata": "Q232",
@@ -12846,10 +12849,10 @@
     "id": "media:flag:LA",
     "kind": "flag",
     "url": "media/flags/countries/LA.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -12887,7 +12890,7 @@
     "country:VN"
    ],
    "emoji": "🇱🇦",
-   "visual_key": "f7b38ea2fbc03a28",
+   "visual_key": "2849bca5c3dc09b3",
    "on_world_map": true,
    "capital": "city:LA-vientiane",
    "wikidata": "Q819",
@@ -12948,10 +12951,10 @@
     "id": "media:flag:LB",
     "kind": "flag",
     "url": "media/flags/countries/LB.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -12987,7 +12990,7 @@
     "country:SY"
    ],
    "emoji": "🇱🇧",
-   "visual_key": "ec70130d1ea445d7",
+   "visual_key": "2068513eca86222a",
    "on_world_map": true,
    "capital": "city:LB-beirut",
    "wikidata": "Q822",
@@ -13050,10 +13053,10 @@
     "id": "media:flag:LC",
     "kind": "flag",
     "url": "media/flags/countries/LC.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -13085,7 +13088,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇱🇨",
-   "visual_key": "0ca94151c9d49212",
+   "visual_key": "a5a4cc02cd459215",
    "capital": "city:LC-castries",
    "wikidata": "Q760",
    "population": 167591,
@@ -13143,10 +13146,10 @@
     "id": "media:flag:LI",
     "kind": "flag",
     "url": "media/flags/countries/LI.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -13181,7 +13184,7 @@
     "country:CH"
    ],
    "emoji": "🇱🇮",
-   "visual_key": "62823f1dcbd552b4",
+   "visual_key": "88f34e0aa148bb98",
    "capital": "city:LI-vaduz",
    "wikidata": "Q347",
    "population": 37922,
@@ -13240,10 +13243,10 @@
     "id": "media:flag:LK",
     "kind": "flag",
     "url": "media/flags/countries/LK.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -13280,7 +13283,7 @@
     "country:IN"
    ],
    "emoji": "🇱🇰",
-   "visual_key": "374dd0dbc7a67dcc",
+   "visual_key": "1a7475188a7749d5",
    "on_world_map": true,
    "capital": "city:LK-colombo",
    "wikidata": "Q854",
@@ -13344,10 +13347,10 @@
     "id": "media:flag:LR",
     "kind": "flag",
     "url": "media/flags/countries/LR.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -13383,7 +13386,7 @@
     "country:SL"
    ],
    "emoji": "🇱🇷",
-   "visual_key": "3032e42d15a7d81b",
+   "visual_key": "69db91bd9390b9fa",
    "on_world_map": true,
    "capital": "city:LR-monrovia",
    "wikidata": "Q1014",
@@ -13443,10 +13446,10 @@
     "id": "media:flag:LS",
     "kind": "flag",
     "url": "media/flags/countries/LS.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -13487,7 +13490,7 @@
     "country:ZA"
    ],
    "emoji": "🇱🇸",
-   "visual_key": "87e579469d00f49a",
+   "visual_key": "cc5763382f8418db",
    "on_world_map": true,
    "capital": "city:LS-maseru",
    "wikidata": "Q1013",
@@ -13553,10 +13556,10 @@
     "id": "media:flag:LT",
     "kind": "flag",
     "url": "media/flags/countries/LT.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -13593,7 +13596,7 @@
     "country:RU"
    ],
    "emoji": "🇱🇹",
-   "visual_key": "7e90ac74bdf84200",
+   "visual_key": "e0736c7d9f59e3ae",
    "on_world_map": true,
    "capital": "city:LT-vilnius",
    "wikidata": "Q37",
@@ -13656,10 +13659,10 @@
     "id": "media:flag:LU",
     "kind": "flag",
     "url": "media/flags/countries/LU.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -13697,7 +13700,7 @@
     "country:DE"
    ],
    "emoji": "🇱🇺",
-   "visual_key": "261bfeb47b9c8d60",
+   "visual_key": "772176900c83bfa3",
    "on_world_map": true,
    "capital": "city:LU-luxemburg",
    "wikidata": "Q32",
@@ -13768,10 +13771,10 @@
     "id": "media:flag:LV",
     "kind": "flag",
     "url": "media/flags/countries/LV.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -13808,7 +13811,7 @@
     "country:RU"
    ],
    "emoji": "🇱🇻",
-   "visual_key": "37d549c257dc3280",
+   "visual_key": "ff9cf027d3f28e26",
    "on_world_map": true,
    "capital": "city:LV-riga",
    "wikidata": "Q211",
@@ -13869,10 +13872,10 @@
     "id": "media:flag:LY",
     "kind": "flag",
     "url": "media/flags/countries/LY.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -13911,7 +13914,7 @@
     "country:TN"
    ],
    "emoji": "🇱🇾",
-   "visual_key": "86c7644ea186f6a7",
+   "visual_key": "0096c87d6d96929e",
    "on_world_map": true,
    "capital": "city:LY-tripoli",
    "wikidata": "Q1016",
@@ -13972,10 +13975,10 @@
     "id": "media:flag:MA",
     "kind": "flag",
     "url": "media/flags/countries/MA.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -14013,7 +14016,7 @@
     "country:ES"
    ],
    "emoji": "🇲🇦",
-   "visual_key": "7c623907937a1e11",
+   "visual_key": "c49a71778b671680",
    "on_world_map": true,
    "capital": "city:MA-rabat",
    "wikidata": "Q1028",
@@ -14078,10 +14081,10 @@
     "id": "media:flag:MC",
     "kind": "flag",
     "url": "media/flags/countries/MC.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -14115,7 +14118,7 @@
     "country:FR"
    ],
    "emoji": "🇲🇨",
-   "visual_key": "d11195b85f869096",
+   "visual_key": "c532f4311cc2b500",
    "capital": "city:MC-monaco",
    "wikidata": "Q235",
    "population": 38857,
@@ -14176,10 +14179,10 @@
     "id": "media:flag:MD",
     "kind": "flag",
     "url": "media/flags/countries/MD.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -14214,7 +14217,7 @@
     "country:UA"
    ],
    "emoji": "🇲🇩",
-   "visual_key": "3db778f2933c715e",
+   "visual_key": "97ef2b6e3c56643c",
    "on_world_map": true,
    "capital": "city:MD-chisinau",
    "wikidata": "Q217",
@@ -14272,10 +14275,10 @@
     "id": "media:flag:ME",
     "kind": "flag",
     "url": "media/flags/countries/ME.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -14313,7 +14316,7 @@
     "country:RS"
    ],
    "emoji": "🇲🇪",
-   "visual_key": "883c0088196d6b1e",
+   "visual_key": "699a6eeb24d29d41",
    "on_world_map": true,
    "capital": "city:ME-podgorica",
    "wikidata": "Q236",
@@ -14374,10 +14377,10 @@
     "id": "media:flag:MF",
     "kind": "flag",
     "url": "media/flags/countries/MF.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -14412,7 +14415,7 @@
     "country:SX"
    ],
    "emoji": "🇲🇫",
-   "visual_key": "8179c79bb3fca6b2",
+   "visual_key": "499bbe64d0ce5713",
    "capital": "city:MF-marigot",
    "wikidata": "Q126125",
    "population": 32358,
@@ -14473,10 +14476,10 @@
     "id": "media:flag:MG",
     "kind": "flag",
     "url": "media/flags/countries/MG.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -14509,7 +14512,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇲🇬",
-   "visual_key": "22a20cd164d0fa3e",
+   "visual_key": "b5c320cfc4dd2fbb",
    "on_world_map": true,
    "capital": "city:MG-antananarivo",
    "wikidata": "Q1019",
@@ -14575,10 +14578,10 @@
     "id": "media:flag:MH",
     "kind": "flag",
     "url": "media/flags/countries/MH.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -14611,7 +14614,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇲🇭",
-   "visual_key": "d8458f0adfb47daf",
+   "visual_key": "b1195dd3f014196a",
    "capital": "city:MH-majuro",
    "wikidata": "Q709",
    "population": 53127,
@@ -14679,10 +14682,10 @@
     "id": "media:flag:MK",
     "kind": "flag",
     "url": "media/flags/countries/MK.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -14720,7 +14723,7 @@
     "country:RS"
    ],
    "emoji": "🇲🇰",
-   "visual_key": "0beaf058570b60c3",
+   "visual_key": "f17a9af5198c25da",
    "on_world_map": true,
    "capital": "city:MK-skopje",
    "wikidata": "Q221",
@@ -14780,10 +14783,10 @@
     "id": "media:flag:ML",
     "kind": "flag",
     "url": "media/flags/countries/ML.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -14823,7 +14826,7 @@
     "country:SN"
    ],
    "emoji": "🇲🇱",
-   "visual_key": "0133189730db7b45",
+   "visual_key": "8aae6052300f6e46",
    "on_world_map": true,
    "capital": "city:ML-bamako",
    "wikidata": "Q912",
@@ -14884,10 +14887,10 @@
     "id": "media:flag:MM",
     "kind": "flag",
     "url": "media/flags/countries/MM.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -14925,7 +14928,7 @@
     "country:TH"
    ],
    "emoji": "🇲🇲",
-   "visual_key": "806ac4710328d221",
+   "visual_key": "8315285390cf8e8d",
    "on_world_map": true,
    "capital": "city:MM-naypyidaw",
    "wikidata": "Q836",
@@ -14983,10 +14986,10 @@
     "id": "media:flag:MN",
     "kind": "flag",
     "url": "media/flags/countries/MN.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -15021,7 +15024,7 @@
     "country:RU"
    ],
    "emoji": "🇲🇳",
-   "visual_key": "ae6e89aebfb729b8",
+   "visual_key": "e4a87b8f956fffae",
    "on_world_map": true,
    "capital": "city:MN-ulan-bator",
    "wikidata": "Q711",
@@ -15084,10 +15087,10 @@
     "id": "media:flag:MO",
     "kind": "flag",
     "url": "media/flags/countries/MO.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -15119,7 +15122,7 @@
     "country:CN"
    ],
    "emoji": "🇲🇴",
-   "visual_key": "2579650fdd44c1c6",
+   "visual_key": "a20a5e002eead128",
    "wikidata": "Q14773",
    "population": 682100,
    "highest_point": {
@@ -15183,10 +15186,10 @@
     "id": "media:flag:MP",
     "kind": "flag",
     "url": "media/flags/countries/MP.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -15220,7 +15223,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇲🇵",
-   "visual_key": "cc9f8a929094b024",
+   "visual_key": "e1faa242c3a0d07a",
    "capital": "city:MP-saipan",
    "wikidata": "Q16644",
    "population": 47329,
@@ -15284,10 +15287,10 @@
     "id": "media:flag:MQ",
     "kind": "flag",
     "url": "media/flags/countries/MQ.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -15319,7 +15322,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇲🇶",
-   "visual_key": "2ea1e65463be8869",
+   "visual_key": "6019e188992d2b6c",
    "capital": "city:MQ-fort-de-france",
    "wikidata": "Q17054",
    "population": 360630,
@@ -15379,10 +15382,10 @@
     "id": "media:flag:MR",
     "kind": "flag",
     "url": "media/flags/countries/MR.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -15419,7 +15422,7 @@
     "country:EH"
    ],
    "emoji": "🇲🇷",
-   "visual_key": "8ac9caa93cb5663a",
+   "visual_key": "cca6248b03c3ae53",
    "on_world_map": true,
    "capital": "city:MR-nouakchott",
    "wikidata": "Q1025",
@@ -15476,10 +15479,10 @@
     "id": "media:flag:MS",
     "kind": "flag",
     "url": "media/flags/countries/MS.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -15511,7 +15514,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇲🇸",
-   "visual_key": "0f81fb7c3f45dc94",
+   "visual_key": "d4f697f299625fd1",
    "capital": "city:MS-plymouth",
    "wikidata": "Q13353",
    "population": 5440,
@@ -15560,10 +15563,10 @@
     "id": "media:flag:MT",
     "kind": "flag",
     "url": "media/flags/countries/MT.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -15596,7 +15599,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇲🇹",
-   "visual_key": "9849e5e7bf315dfc",
+   "visual_key": "e85b13ca25d950a8",
    "capital": "city:MT-valletta",
    "wikidata": "Q233",
    "population": 553214,
@@ -15660,10 +15663,10 @@
     "id": "media:flag:MU",
     "kind": "flag",
     "url": "media/flags/countries/MU.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -15697,7 +15700,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇲🇺",
-   "visual_key": "3a512473cb289c38",
+   "visual_key": "fe43b74c31b48101",
    "capital": "city:MU-port-louis",
    "wikidata": "Q1027",
    "population": 1264613,
@@ -15768,10 +15771,10 @@
     "id": "media:flag:MV",
     "kind": "flag",
     "url": "media/flags/countries/MV.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -15803,7 +15806,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇲🇻",
-   "visual_key": "83edb9581feff246",
+   "visual_key": "68355c56db69d1f3",
    "capital": "city:MV-male",
    "wikidata": "Q826",
    "population": 436330,
@@ -15861,10 +15864,10 @@
     "id": "media:flag:MW",
     "kind": "flag",
     "url": "media/flags/countries/MW.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -15901,7 +15904,7 @@
     "country:ZM"
    ],
    "emoji": "🇲🇼",
-   "visual_key": "93e2051893525d2a",
+   "visual_key": "95b9a2a516de5d93",
    "on_world_map": true,
    "capital": "city:MW-lilongwe",
    "wikidata": "Q1020",
@@ -15968,10 +15971,10 @@
     "id": "media:flag:MX",
     "kind": "flag",
     "url": "media/flags/countries/MX.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -16007,7 +16010,7 @@
     "country:US"
    ],
    "emoji": "🇲🇽",
-   "visual_key": "6e37c740271e8686",
+   "visual_key": "0c57c70b48c49606",
    "on_world_map": true,
    "capital": "city:MX-mexiko-stadt",
    "wikidata": "Q96",
@@ -16064,10 +16067,10 @@
     "id": "media:flag:MY",
     "kind": "flag",
     "url": "media/flags/countries/MY.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -16104,7 +16107,7 @@
     "country:TH"
    ],
    "emoji": "🇲🇾",
-   "visual_key": "c70db6b4cb05adb6",
+   "visual_key": "96d0f158d219415f",
    "on_world_map": true,
    "capital": "city:MY-kuala-lumpur",
    "wikidata": "Q833",
@@ -16170,10 +16173,10 @@
     "id": "media:flag:MZ",
     "kind": "flag",
     "url": "media/flags/countries/MZ.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -16212,7 +16215,7 @@
     "country:ZW"
    ],
    "emoji": "🇲🇿",
-   "visual_key": "0bd8d7c7f3989bd9",
+   "visual_key": "f0e896e4c587b4ce",
    "on_world_map": true,
    "capital": "city:MZ-maputo",
    "wikidata": "Q1029",
@@ -16272,10 +16275,10 @@
     "id": "media:flag:NA",
     "kind": "flag",
     "url": "media/flags/countries/NA.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -16326,7 +16329,7 @@
     "country:ZM"
    ],
    "emoji": "🇳🇦",
-   "visual_key": "c6980a03db5612c1",
+   "visual_key": "6a26bce548822e92",
    "on_world_map": true,
    "capital": "city:NA-windhoek",
    "wikidata": "Q1030",
@@ -16424,10 +16427,10 @@
     "id": "media:flag:NC",
     "kind": "flag",
     "url": "media/flags/countries/NC.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -16459,7 +16462,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇳🇨",
-   "visual_key": "2066676425f160ff",
+   "visual_key": "a28ab3c76fca9f67",
    "on_world_map": true,
    "capital": "city:NC-noumea",
    "wikidata": "Q33788",
@@ -16509,10 +16512,10 @@
     "id": "media:flag:NE",
     "kind": "flag",
     "url": "media/flags/countries/NE.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -16552,7 +16555,7 @@
     "country:NG"
    ],
    "emoji": "🇳🇪",
-   "visual_key": "8bc649c7737d173e",
+   "visual_key": "b01f27fd487bb603",
    "on_world_map": true,
    "capital": "city:NE-niamey",
    "wikidata": "Q1032",
@@ -16613,10 +16616,10 @@
     "id": "media:flag:NF",
     "kind": "flag",
     "url": "media/flags/countries/NF.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -16649,7 +16652,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇳🇫",
-   "visual_key": "bef9b45a2e02fddb",
+   "visual_key": "78732261cd2a9cd8",
    "capital": "city:NF-kingston",
    "wikidata": "Q31057",
    "population": 2188,
@@ -16704,10 +16707,10 @@
     "id": "media:flag:NG",
     "kind": "flag",
     "url": "media/flags/countries/NG.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -16744,7 +16747,7 @@
     "country:NE"
    ],
    "emoji": "🇳🇬",
-   "visual_key": "aca6bca696649d7e",
+   "visual_key": "e57d72a09cc42bfe",
    "on_world_map": true,
    "capital": "city:NG-abuja",
    "wikidata": "Q1033",
@@ -16804,10 +16807,10 @@
     "id": "media:flag:NI",
     "kind": "flag",
     "url": "media/flags/countries/NI.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -16842,7 +16845,7 @@
     "country:HN"
    ],
    "emoji": "🇳🇮",
-   "visual_key": "4d847b1b7cd36677",
+   "visual_key": "45740c163a6f2a2d",
    "on_world_map": true,
    "capital": "city:NI-managua",
    "wikidata": "Q811",
@@ -16904,10 +16907,10 @@
     "id": "media:flag:NL",
     "kind": "flag",
     "url": "media/flags/countries/NL.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -16942,7 +16945,7 @@
     "country:DE"
    ],
    "emoji": "🇳🇱",
-   "visual_key": "aaed4b6344297ba7",
+   "visual_key": "6f4e426f29459e61",
    "on_world_map": true,
    "capital": "city:NL-amsterdam",
    "wikidata": "Q55",
@@ -17021,10 +17024,10 @@
     "id": "media:flag:NO",
     "kind": "flag",
     "url": "media/flags/countries/NO.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -17062,7 +17065,7 @@
     "country:RU"
    ],
    "emoji": "🇳🇴",
-   "visual_key": "aa9bd3159ae3c81e",
+   "visual_key": "7c0bbcbb75427a98",
    "on_world_map": true,
    "capital": "city:NO-oslo",
    "wikidata": "Q20",
@@ -17132,10 +17135,10 @@
     "id": "media:flag:NP",
     "kind": "flag",
     "url": "media/flags/countries/NP.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -17170,7 +17173,7 @@
     "country:IN"
    ],
    "emoji": "🇳🇵",
-   "visual_key": "105e34e95e206d75",
+   "visual_key": "b3b01a6806439e01",
    "on_world_map": true,
    "capital": "city:NP-kathmandu",
    "wikidata": "Q837",
@@ -17232,10 +17235,10 @@
     "id": "media:flag:NR",
     "kind": "flag",
     "url": "media/flags/countries/NR.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -17268,7 +17271,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇳🇷",
-   "visual_key": "8ea63c3d790fa9ca",
+   "visual_key": "e087ce38b7843dca",
    "capital": "city:NR-yaren",
    "wikidata": "Q697",
    "population": 13650,
@@ -17329,10 +17332,10 @@
     "id": "media:flag:NU",
     "kind": "flag",
     "url": "media/flags/countries/NU.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -17365,7 +17368,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇳🇺",
-   "visual_key": "5827374c86bb34f8",
+   "visual_key": "530265b69a87c331",
    "capital": "city:NU-alofi",
    "wikidata": "Q34020",
    "population": 1821,
@@ -17428,10 +17431,10 @@
     "id": "media:flag:NZ",
     "kind": "flag",
     "url": "media/flags/countries/NZ.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -17465,7 +17468,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇳🇿",
-   "visual_key": "a6276f0257a3c9ce",
+   "visual_key": "521f4614597aa9e5",
    "on_world_map": true,
    "capital": "city:NZ-wellington",
    "wikidata": "Q664",
@@ -17535,10 +17538,10 @@
     "id": "media:flag:OM",
     "kind": "flag",
     "url": "media/flags/countries/OM.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -17574,7 +17577,7 @@
     "country:YE"
    ],
    "emoji": "🇴🇲",
-   "visual_key": "86727a2ef080ee31",
+   "visual_key": "e13fdb817f2426d4",
    "on_world_map": true,
    "capital": "city:OM-muscat",
    "wikidata": "Q842",
@@ -17634,10 +17637,10 @@
     "id": "media:flag:PA",
     "kind": "flag",
     "url": "media/flags/countries/PA.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -17678,7 +17681,7 @@
     "country:CR"
    ],
    "emoji": "🇵🇦",
-   "visual_key": "b619cebe2cf79b86",
+   "visual_key": "28c8403397566bc4",
    "on_world_map": true,
    "capital": "city:PA-panama-stadt",
    "wikidata": "Q804",
@@ -17738,10 +17741,10 @@
     "id": "media:flag:PE",
     "kind": "flag",
     "url": "media/flags/countries/PE.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -17781,7 +17784,7 @@
     "country:EC"
    ],
    "emoji": "🇵🇪",
-   "visual_key": "2ffc78d5fd957fca",
+   "visual_key": "03ea831319ec33cf",
    "on_world_map": true,
    "capital": "city:PE-lima",
    "wikidata": "Q419",
@@ -17851,10 +17854,10 @@
     "id": "media:flag:PF",
     "kind": "flag",
     "url": "media/flags/countries/PF.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -17886,7 +17889,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇵🇫",
-   "visual_key": "28bd8303657796e6",
+   "visual_key": "dede7228840ec22c",
    "capital": "city:PF-papeete",
    "wikidata": "Q30971",
    "population": 278786,
@@ -17946,10 +17949,10 @@
     "id": "media:flag:PG",
     "kind": "flag",
     "url": "media/flags/countries/PG.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -17985,7 +17988,7 @@
     "country:ID"
    ],
    "emoji": "🇵🇬",
-   "visual_key": "1ca737c8d46904b5",
+   "visual_key": "fc734101dfdac482",
    "on_world_map": true,
    "capital": "city:PG-port-moresby",
    "wikidata": "Q691",
@@ -18056,10 +18059,10 @@
     "id": "media:flag:PH",
     "kind": "flag",
     "url": "media/flags/countries/PH.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -18092,7 +18095,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇵🇭",
-   "visual_key": "7557fb900ca8a0dc",
+   "visual_key": "c7a73cb5be635085",
    "on_world_map": true,
    "capital": "city:PH-manila",
    "wikidata": "Q928",
@@ -18158,10 +18161,10 @@
     "id": "media:flag:PK",
     "kind": "flag",
     "url": "media/flags/countries/PK.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -18199,7 +18202,7 @@
     "country:IR"
    ],
    "emoji": "🇵🇰",
-   "visual_key": "15d0db47dbfbd09c",
+   "visual_key": "c9fec6ae87a9ea16",
    "on_world_map": true,
    "capital": "city:PK-islamabad",
    "wikidata": "Q843",
@@ -18265,10 +18268,10 @@
     "id": "media:flag:PL",
     "kind": "flag",
     "url": "media/flags/countries/PL.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -18308,7 +18311,7 @@
     "country:UA"
    ],
    "emoji": "🇵🇱",
-   "visual_key": "ddcd386c022570c8",
+   "visual_key": "c52ad6798d3e4bf0",
    "on_world_map": true,
    "capital": "city:PL-warschau",
    "wikidata": "Q36",
@@ -18367,10 +18370,10 @@
     "id": "media:flag:PM",
     "kind": "flag",
     "url": "media/flags/countries/PM.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -18402,7 +18405,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇵🇲",
-   "visual_key": "e154b77d6d80d40f",
+   "visual_key": "499bbe64d0ce5713",
    "capital": "city:PM-saint-pierre",
    "wikidata": "Q34617",
    "population": 5974,
@@ -18462,10 +18465,10 @@
     "id": "media:flag:PN",
     "kind": "flag",
     "url": "media/flags/countries/PN.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -18497,7 +18500,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇵🇳",
-   "visual_key": "8dba59cea145d4b5",
+   "visual_key": "d88b15fae32bf72a",
    "capital": "city:PN-adamstown",
    "wikidata": "Q35672",
    "population": 50,
@@ -18546,10 +18549,10 @@
     "id": "media:flag:PR",
     "kind": "flag",
     "url": "media/flags/countries/PR.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -18582,7 +18585,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇵🇷",
-   "visual_key": "ffb6f310f1b97e56",
+   "visual_key": "0efe504dbf21224e",
    "on_world_map": true,
    "capital": "city:PR-san-juan",
    "wikidata": "Q1183",
@@ -18649,10 +18652,10 @@
     "id": "media:flag:PS",
     "kind": "flag",
     "url": "media/flags/countries/PS.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -18701,7 +18704,7 @@
     "country:JO"
    ],
    "emoji": "🇵🇸",
-   "visual_key": "72ff11c57b818cf5",
+   "visual_key": "58c49eabf225bd2e",
    "on_world_map": true,
    "capital": "city:PS-ramallah",
    "wikidata": "Q219060",
@@ -18762,10 +18765,10 @@
     "id": "media:flag:PT",
     "kind": "flag",
     "url": "media/flags/countries/PT.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -18799,7 +18802,7 @@
     "country:ES"
    ],
    "emoji": "🇵🇹",
-   "visual_key": "ed872d800177ced6",
+   "visual_key": "1083914c2a91ed85",
    "on_world_map": true,
    "capital": "city:PT-lissabon",
    "wikidata": "Q45",
@@ -18859,10 +18862,10 @@
     "id": "media:flag:PW",
     "kind": "flag",
     "url": "media/flags/countries/PW.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -18895,7 +18898,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇵🇼",
-   "visual_key": "5596950cdc860e72",
+   "visual_key": "6a00477dd5e1e457",
    "capital": "city:PW-ngerulmud",
    "wikidata": "Q695",
    "population": 21729,
@@ -18960,10 +18963,10 @@
     "id": "media:flag:PY",
     "kind": "flag",
     "url": "media/flags/countries/PY.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -19000,7 +19003,7 @@
     "country:BR"
    ],
    "emoji": "🇵🇾",
-   "visual_key": "9c1bda02f2648821",
+   "visual_key": "60e92e8c0be2fac7",
    "on_world_map": true,
    "capital": "city:PY-asuncion",
    "wikidata": "Q733",
@@ -19066,10 +19069,10 @@
     "id": "media:flag:QA",
     "kind": "flag",
     "url": "media/flags/countries/QA.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -19104,7 +19107,7 @@
     "country:SA"
    ],
    "emoji": "🇶🇦",
-   "visual_key": "3c3cbc6278b1a273",
+   "visual_key": "64aa892eda2ab888",
    "on_world_map": true,
    "capital": "city:QA-doha",
    "wikidata": "Q846",
@@ -19162,10 +19165,10 @@
     "id": "media:flag:RE",
     "kind": "flag",
     "url": "media/flags/countries/RE.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -19197,7 +19200,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇷🇪",
-   "visual_key": "e154b77d6d80d40f",
+   "visual_key": "499bbe64d0ce5713",
    "capital": "city:RE-saint-denis",
    "wikidata": "Q17070",
    "population": 889679,
@@ -19257,10 +19260,10 @@
     "id": "media:flag:RO",
     "kind": "flag",
     "url": "media/flags/countries/RO.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -19298,7 +19301,7 @@
     "country:UA"
    ],
    "emoji": "🇷🇴",
-   "visual_key": "8d838fa6efadf04a",
+   "visual_key": "fb712f1c8d20b1a5",
    "on_world_map": true,
    "capital": "city:RO-bukarest",
    "wikidata": "Q218",
@@ -19362,10 +19365,10 @@
     "id": "media:flag:RS",
     "kind": "flag",
     "url": "media/flags/countries/RS.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -19407,7 +19410,7 @@
     "country:RO"
    ],
    "emoji": "🇷🇸",
-   "visual_key": "42dda0c9e6bdc228",
+   "visual_key": "a34c76ccfc46c742",
    "on_world_map": true,
    "capital": "city:RS-belgrad",
    "wikidata": "Q403",
@@ -19468,10 +19471,10 @@
     "id": "media:flag:RU",
     "kind": "flag",
     "url": "media/flags/countries/RU.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -19520,7 +19523,7 @@
     "country:UA"
    ],
    "emoji": "🇷🇺",
-   "visual_key": "956813618b07c240",
+   "visual_key": "f6da7fbb5c0c7920",
    "on_world_map": true,
    "capital": "city:RU-moskau",
    "wikidata": "Q159",
@@ -19582,10 +19585,10 @@
     "id": "media:flag:RW",
     "kind": "flag",
     "url": "media/flags/countries/RW.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -19624,7 +19627,7 @@
     "country:UG"
    ],
    "emoji": "🇷🇼",
-   "visual_key": "3504c12a92ac57b5",
+   "visual_key": "35bee586963c2b7e",
    "on_world_map": true,
    "capital": "city:RW-kigali",
    "wikidata": "Q1037",
@@ -19696,10 +19699,10 @@
     "id": "media:flag:SA",
     "kind": "flag",
     "url": "media/flags/countries/SA.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -19740,7 +19743,7 @@
     "country:YE"
    ],
    "emoji": "🇸🇦",
-   "visual_key": "04f737fc74456758",
+   "visual_key": "83458098bbf84bfd",
    "on_world_map": true,
    "capital": "city:SA-riyadh",
    "wikidata": "Q851",
@@ -19798,10 +19801,10 @@
     "id": "media:flag:SB",
     "kind": "flag",
     "url": "media/flags/countries/SB.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -19833,7 +19836,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇸🇧",
-   "visual_key": "07dd199f9c67b4e9",
+   "visual_key": "964b7021ec81847b",
    "on_world_map": true,
    "capital": "city:SB-honiara",
    "wikidata": "Q685",
@@ -19895,10 +19898,10 @@
     "id": "media:flag:SC",
     "kind": "flag",
     "url": "media/flags/countries/SC.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -19932,7 +19935,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇸🇨",
-   "visual_key": "909e25d2e2f51aab",
+   "visual_key": "3ddf34d076f859e8",
    "capital": "city:SC-victoria",
    "wikidata": "Q1042",
    "population": 119773,
@@ -20001,10 +20004,10 @@
     "id": "media:flag:SD",
     "kind": "flag",
     "url": "media/flags/countries/SD.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -20045,7 +20048,7 @@
     "country:SS"
    ],
    "emoji": "🇸🇩",
-   "visual_key": "319d9a50f35f1df1",
+   "visual_key": "8b93452003c143c4",
    "on_world_map": true,
    "capital": "city:SD-khartoum",
    "wikidata": "Q1049",
@@ -20111,10 +20114,10 @@
     "id": "media:flag:SE",
     "kind": "flag",
     "url": "media/flags/countries/SE.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -20149,7 +20152,7 @@
     "country:NO"
    ],
    "emoji": "🇸🇪",
-   "visual_key": "a0d86110fe9562f0",
+   "visual_key": "1d7c3fc0594c8fb8",
    "on_world_map": true,
    "capital": "city:SE-stockholm",
    "wikidata": "Q34",
@@ -20212,10 +20215,10 @@
     "id": "media:flag:SG",
     "kind": "flag",
     "url": "media/flags/countries/SG.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -20252,7 +20255,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇸🇬",
-   "visual_key": "a8f7196014536b32",
+   "visual_key": "3b8ae566d38d00d1",
    "capital": "city:SG-singapur",
    "wikidata": "Q334",
    "population": 5866139,
@@ -20326,10 +20329,10 @@
     "id": "media:flag:SH",
     "kind": "flag",
     "url": "media/flags/countries/SH.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -20368,7 +20371,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇸🇭",
-   "visual_key": "f21990a69bb6729f",
+   "visual_key": "910e4fa63fb7a23d",
    "capital": "city:SH-jamestown",
    "wikidata": "Q192184",
    "population": 5633,
@@ -20428,10 +20431,10 @@
     "id": "media:flag:SI",
     "kind": "flag",
     "url": "media/flags/countries/SI.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -20468,7 +20471,7 @@
     "country:HU"
    ],
    "emoji": "🇸🇮",
-   "visual_key": "cfed3be19e2a4e9e",
+   "visual_key": "528cb61880eaf29c",
    "on_world_map": true,
    "capital": "city:SI-ljubljana",
    "wikidata": "Q215",
@@ -20527,10 +20530,10 @@
     "id": "media:flag:SJ",
     "kind": "flag",
     "url": "media/flags/countries/SJ.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -20561,7 +20564,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇸🇯",
-   "visual_key": "aa9bd3159ae3c81e",
+   "visual_key": "7c0bbcbb75427a98",
    "capital": "city:SJ-longyearbyen",
    "wikidata": "Q842829",
    "population": 2905,
@@ -20621,10 +20624,10 @@
     "id": "media:flag:SK",
     "kind": "flag",
     "url": "media/flags/countries/SK.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -20662,7 +20665,7 @@
     "country:UA"
    ],
    "emoji": "🇸🇰",
-   "visual_key": "a2792d1460d34533",
+   "visual_key": "812b400c3a4fecce",
    "on_world_map": true,
    "capital": "city:SK-bratislava",
    "wikidata": "Q214",
@@ -20721,10 +20724,10 @@
     "id": "media:flag:SL",
     "kind": "flag",
     "url": "media/flags/countries/SL.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -20759,7 +20762,7 @@
     "country:LR"
    ],
    "emoji": "🇸🇱",
-   "visual_key": "875db1807e20820f",
+   "visual_key": "fbb146141eafcbe2",
    "on_world_map": true,
    "capital": "city:SL-freetown",
    "wikidata": "Q1044",
@@ -20820,10 +20823,10 @@
     "id": "media:flag:SM",
     "kind": "flag",
     "url": "media/flags/countries/SM.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -20857,7 +20860,7 @@
     "country:IT"
    ],
    "emoji": "🇸🇲",
-   "visual_key": "9c4d63faa8034b7f",
+   "visual_key": "a6cb32bed1b81725",
    "capital": "city:SM-san-marino",
    "wikidata": "Q238",
    "population": 33600,
@@ -20916,10 +20919,10 @@
     "id": "media:flag:SN",
     "kind": "flag",
     "url": "media/flags/countries/SN.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -20957,7 +20960,7 @@
     "country:MR"
    ],
    "emoji": "🇸🇳",
-   "visual_key": "4596d56bcbe5fe76",
+   "visual_key": "69b0e1ef3d17fb4c",
    "on_world_map": true,
    "capital": "city:SN-dakar",
    "wikidata": "Q1041",
@@ -21019,10 +21022,10 @@
     "id": "media:flag:SO",
     "kind": "flag",
     "url": "media/flags/countries/SO.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -21059,7 +21062,7 @@
     "country:KE"
    ],
    "emoji": "🇸🇴",
-   "visual_key": "ab2a6596bc1f109e",
+   "visual_key": "3c23a3c4611d11ea",
    "on_world_map": true,
    "capital": "city:SO-mogadishu",
    "wikidata": "Q1045",
@@ -21126,10 +21129,10 @@
     "id": "media:flag:SR",
     "kind": "flag",
     "url": "media/flags/countries/SR.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -21165,7 +21168,7 @@
     "country:GY"
    ],
    "emoji": "🇸🇷",
-   "visual_key": "d82a94f5e61c0253",
+   "visual_key": "eef05d030f7ff019",
    "on_world_map": true,
    "capital": "city:SR-paramaribo",
    "wikidata": "Q730",
@@ -21225,10 +21228,10 @@
     "id": "media:flag:SS",
     "kind": "flag",
     "url": "media/flags/countries/SS.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -21267,7 +21270,7 @@
     "country:UG"
    ],
    "emoji": "🇸🇸",
-   "visual_key": "b9f71332a189a405",
+   "visual_key": "e2766b33708339e7",
    "on_world_map": true,
    "capital": "city:SS-juba",
    "wikidata": "Q958",
@@ -21329,10 +21332,10 @@
     "id": "media:flag:ST",
     "kind": "flag",
     "url": "media/flags/countries/ST.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -21364,7 +21367,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇸🇹",
-   "visual_key": "f495bdd55ee1383e",
+   "visual_key": "7c8b52c0995091a4",
    "capital": "city:ST-sao-tome",
    "wikidata": "Q1039",
    "population": 204327,
@@ -21423,10 +21426,10 @@
     "id": "media:flag:SV",
     "kind": "flag",
     "url": "media/flags/countries/SV.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -21461,7 +21464,7 @@
     "country:HN"
    ],
    "emoji": "🇸🇻",
-   "visual_key": "bdf9ecb0ff511324",
+   "visual_key": "47a7ad5fa6a7607f",
    "on_world_map": true,
    "capital": "city:SV-san-salvador",
    "wikidata": "Q792",
@@ -21519,10 +21522,10 @@
     "id": "media:flag:SX",
     "kind": "flag",
     "url": "media/flags/countries/SX.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -21558,7 +21561,7 @@
     "country:MF"
    ],
    "emoji": "🇸🇽",
-   "visual_key": "d2dab07b34daaa53",
+   "visual_key": "07715012a8e63685",
    "capital": "city:SX-philipsburg",
    "wikidata": "Q26273",
    "population": 43847,
@@ -21618,10 +21621,10 @@
     "id": "media:flag:SY",
     "kind": "flag",
     "url": "media/flags/countries/SY.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -21660,7 +21663,7 @@
     "country:TR"
    ],
    "emoji": "🇸🇾",
-   "visual_key": "f37b4e0e1b4310f7",
+   "visual_key": "2d699446f8f109a8",
    "on_world_map": true,
    "capital": "city:SY-damascus",
    "wikidata": "Q858",
@@ -21724,10 +21727,10 @@
     "id": "media:flag:SZ",
     "kind": "flag",
     "url": "media/flags/countries/SZ.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -21769,7 +21772,7 @@
     "country:ZA"
    ],
    "emoji": "🇸🇿",
-   "visual_key": "80533f4915712398",
+   "visual_key": "db0b60639c73097a",
    "on_world_map": true,
    "capital": "city:SZ-lobamba",
    "wikidata": "Q1050",
@@ -21823,17 +21826,18 @@
     "id": "media:flag:TA",
     "kind": "flag",
     "url": "media/flags/countries/TA.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
+    "source": "flag-icons 7.5.0",
+    "source_url": "https://github.com/lipis/flag-icons",
     "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "attribution": "flag-icons (MIT)"
    }
   ],
   "attributes": {
    "iso2": "TA",
    "continent": "other",
    "borders": [],
-   "wikidata": "Q34625512"
+   "wikidata": "Q34625512",
+   "visual_key": "6dec955640908804"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -21862,10 +21866,10 @@
     "id": "media:flag:TC",
     "kind": "flag",
     "url": "media/flags/countries/TC.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -21897,7 +21901,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇹🇨",
-   "visual_key": "23e39d919b197c8c",
+   "visual_key": "9b7778f9106e45dd",
    "capital": "city:TC-cockburn-town",
    "wikidata": "Q18221",
    "population": 44542,
@@ -21958,10 +21962,10 @@
     "id": "media:flag:TD",
     "kind": "flag",
     "url": "media/flags/countries/TD.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -22001,7 +22005,7 @@
     "country:SD"
    ],
    "emoji": "🇹🇩",
-   "visual_key": "e60b38a835dfca3b",
+   "visual_key": "a5f2bc9696c492dd",
    "on_world_map": true,
    "capital": "city:TD-n-djamena",
    "wikidata": "Q657",
@@ -22067,10 +22071,10 @@
     "id": "media:flag:TF",
     "kind": "flag",
     "url": "media/flags/countries/TF.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -22101,7 +22105,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇹🇫",
-   "visual_key": "a32ecfb5eb5bbd5f",
+   "visual_key": "8381ddc3918dd863",
    "on_world_map": true,
    "capital": "city:TF-port-aux-francais",
    "wikidata": "Q129003",
@@ -22162,10 +22166,10 @@
     "id": "media:flag:TG",
     "kind": "flag",
     "url": "media/flags/countries/TG.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -22201,7 +22205,7 @@
     "country:GH"
    ],
    "emoji": "🇹🇬",
-   "visual_key": "610ff21afc448197",
+   "visual_key": "7cb450d419b7af58",
    "on_world_map": true,
    "capital": "city:TG-lome",
    "wikidata": "Q945",
@@ -22264,10 +22268,10 @@
     "id": "media:flag:TH",
     "kind": "flag",
     "url": "media/flags/countries/TH.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -22305,7 +22309,7 @@
     "country:MY"
    ],
    "emoji": "🇹🇭",
-   "visual_key": "792bb0bed1cdda1d",
+   "visual_key": "af9d199cd71a811b",
    "on_world_map": true,
    "capital": "city:TH-bangkok",
    "wikidata": "Q869",
@@ -22368,10 +22372,10 @@
     "id": "media:flag:TJ",
     "kind": "flag",
     "url": "media/flags/countries/TJ.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -22409,7 +22413,7 @@
     "country:UZ"
    ],
    "emoji": "🇹🇯",
-   "visual_key": "a45648b84624a272",
+   "visual_key": "1ce56785010dbc4a",
    "on_world_map": true,
    "capital": "city:TJ-dushanbe",
    "wikidata": "Q863",
@@ -22470,10 +22474,10 @@
     "id": "media:flag:TK",
     "kind": "flag",
     "url": "media/flags/countries/TK.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -22507,7 +22511,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇹🇰",
-   "visual_key": "1f9dc6471e493eb9",
+   "visual_key": "0c14c08ec1b493e9",
    "capital": "city:TK-fakaofo",
    "wikidata": "Q36823",
    "population": 1499,
@@ -22572,10 +22576,10 @@
     "id": "media:flag:TL",
     "kind": "flag",
     "url": "media/flags/countries/TL.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -22610,7 +22614,7 @@
     "country:ID"
    ],
    "emoji": "🇹🇱",
-   "visual_key": "2754afb6ef2e6e9e",
+   "visual_key": "7da64a9ca06f04e8",
    "on_world_map": true,
    "capital": "city:TL-dili",
    "wikidata": "Q574",
@@ -22672,10 +22676,10 @@
     "id": "media:flag:TM",
     "kind": "flag",
     "url": "media/flags/countries/TM.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -22713,7 +22717,7 @@
     "country:UZ"
    ],
    "emoji": "🇹🇲",
-   "visual_key": "27f9c357787c0449",
+   "visual_key": "5dfa66d9959af951",
    "on_world_map": true,
    "capital": "city:TM-ashgabat",
    "wikidata": "Q874",
@@ -22780,10 +22784,10 @@
     "id": "media:flag:TN",
     "kind": "flag",
     "url": "media/flags/countries/TN.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -22818,7 +22822,7 @@
     "country:LY"
    ],
    "emoji": "🇹🇳",
-   "visual_key": "3232c5720e7a1110",
+   "visual_key": "4dba7cc5500d3333",
    "on_world_map": true,
    "capital": "city:TN-tunis",
    "wikidata": "Q948",
@@ -22877,10 +22881,10 @@
     "id": "media:flag:TO",
     "kind": "flag",
     "url": "media/flags/countries/TO.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -22913,7 +22917,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇹🇴",
-   "visual_key": "414c927ba010f3ec",
+   "visual_key": "8a6b7c9c68e7537c",
    "capital": "city:TO-nuku-alofa",
    "wikidata": "Q678",
    "population": 108020,
@@ -22980,10 +22984,10 @@
     "id": "media:flag:TR",
     "kind": "flag",
     "url": "media/flags/countries/TR.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -23024,7 +23028,7 @@
     "country:SY"
    ],
    "emoji": "🇹🇷",
-   "visual_key": "4b34984f72635bb4",
+   "visual_key": "7bd10c17de04902b",
    "on_world_map": true,
    "capital": "city:TR-ankara",
    "wikidata": "Q43",
@@ -23084,10 +23088,10 @@
     "id": "media:flag:TT",
     "kind": "flag",
     "url": "media/flags/countries/TT.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -23119,7 +23123,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇹🇹",
-   "visual_key": "67a6c00ed5f0f718",
+   "visual_key": "3899dfac3d4383b5",
    "on_world_map": true,
    "capital": "city:TT-port-of-spain",
    "wikidata": "Q754",
@@ -23176,10 +23180,10 @@
     "id": "media:flag:TV",
     "kind": "flag",
     "url": "media/flags/countries/TV.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -23218,7 +23222,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇹🇻",
-   "visual_key": "47c9049f9cb00612",
+   "visual_key": "7eb4dc3f01876c46",
    "capital": "city:TV-funafuti",
    "wikidata": "Q672",
    "population": 10643,
@@ -23286,10 +23290,10 @@
     "id": "media:flag:TW",
     "kind": "flag",
     "url": "media/flags/countries/TW.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -23323,7 +23327,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇹🇼",
-   "visual_key": "5be7a5abc6f6172d",
+   "visual_key": "19af3771c4a05999",
    "on_world_map": true,
    "capital": "city:TW-taipei",
    "wikidata": "Q865",
@@ -23400,10 +23404,10 @@
     "id": "media:flag:TZ",
     "kind": "flag",
     "url": "media/flags/countries/TZ.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -23445,7 +23449,7 @@
     "country:ZM"
    ],
    "emoji": "🇹🇿",
-   "visual_key": "fa300235c3e4f0f3",
+   "visual_key": "5fe5490c8add51c3",
    "on_world_map": true,
    "capital": "city:TZ-dodoma",
    "wikidata": "Q924",
@@ -23508,10 +23512,10 @@
     "id": "media:flag:UA",
     "kind": "flag",
     "url": "media/flags/countries/UA.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -23552,7 +23556,7 @@
     "country:SK"
    ],
    "emoji": "🇺🇦",
-   "visual_key": "160a6d810384794e",
+   "visual_key": "fbfe3adcf00ed251",
    "on_world_map": true,
    "capital": "city:UA-kyjiw",
    "wikidata": "Q212",
@@ -23612,10 +23616,10 @@
     "id": "media:flag:UG",
     "kind": "flag",
     "url": "media/flags/countries/UG.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -23654,7 +23658,7 @@
     "country:TZ"
    ],
    "emoji": "🇺🇬",
-   "visual_key": "8594a50c84145cf8",
+   "visual_key": "de9e55a32f1335f6",
    "on_world_map": true,
    "capital": "city:UG-kampala",
    "wikidata": "Q1036",
@@ -23717,10 +23721,10 @@
     "id": "media:flag:UM",
     "kind": "flag",
     "url": "media/flags/countries/UM.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -23749,7 +23753,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇺🇲",
-   "visual_key": "0368f33db1cc70ef",
+   "visual_key": "0af1cd813dd9bab3",
    "wikidata": "Q16645",
    "population": 190,
    "highest_point": {
@@ -23808,10 +23812,10 @@
     "id": "media:flag:US",
     "kind": "flag",
     "url": "media/flags/countries/US.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -23846,7 +23850,7 @@
     "country:MX"
    ],
    "emoji": "🇺🇸",
-   "visual_key": "0368f33db1cc70ef",
+   "visual_key": "0af1cd813dd9bab3",
    "on_world_map": true,
    "capital": "city:US-washington-d-c",
    "wikidata": "Q30",
@@ -23906,10 +23910,10 @@
     "id": "media:flag:UY",
     "kind": "flag",
     "url": "media/flags/countries/UY.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -23944,7 +23948,7 @@
     "country:BR"
    ],
    "emoji": "🇺🇾",
-   "visual_key": "3f1c8c7e07581dbe",
+   "visual_key": "a3123a23bcc1481b",
    "on_world_map": true,
    "capital": "city:UY-montevideo",
    "wikidata": "Q77",
@@ -24006,10 +24010,10 @@
     "id": "media:flag:UZ",
     "kind": "flag",
     "url": "media/flags/countries/UZ.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -24048,7 +24052,7 @@
     "country:TM"
    ],
    "emoji": "🇺🇿",
-   "visual_key": "91ded97ec0fa8bcc",
+   "visual_key": "580923f43b4cc353",
    "on_world_map": true,
    "capital": "city:UZ-tashkent",
    "wikidata": "Q265",
@@ -24116,10 +24120,10 @@
     "id": "media:flag:VA",
     "kind": "flag",
     "url": "media/flags/countries/VA.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -24154,7 +24158,7 @@
     "country:IT"
    ],
    "emoji": "🇻🇦",
-   "visual_key": "dec73afd3f022e43",
+   "visual_key": "c2fc80282b2d0678",
    "capital": "city:VA-vatikanstadt",
    "wikidata": "Q237",
    "population": 882,
@@ -24216,10 +24220,10 @@
     "id": "media:flag:VC",
     "kind": "flag",
     "url": "media/flags/countries/VC.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -24251,7 +24255,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇻🇨",
-   "visual_key": "1da2abf39eeac29a",
+   "visual_key": "6a1f133bd91f6e93",
    "capital": "city:VC-kingstown",
    "wikidata": "Q757",
    "population": 109897,
@@ -24311,10 +24315,10 @@
     "id": "media:flag:VE",
     "kind": "flag",
     "url": "media/flags/countries/VE.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -24350,7 +24354,7 @@
     "country:GY"
    ],
    "emoji": "🇻🇪",
-   "visual_key": "a7168f026e839882",
+   "visual_key": "c5e497d02d6ea842",
    "on_world_map": true,
    "capital": "city:VE-caracas",
    "wikidata": "Q717",
@@ -24411,10 +24415,10 @@
     "id": "media:flag:VG",
     "kind": "flag",
     "url": "media/flags/countries/VG.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -24446,7 +24450,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇻🇬",
-   "visual_key": "8f19c2160216d99b",
+   "visual_key": "3297c12998909208",
    "capital": "city:VG-road-town",
    "wikidata": "Q25305",
    "population": 39369,
@@ -24495,10 +24499,10 @@
     "id": "media:flag:VI",
     "kind": "flag",
     "url": "media/flags/countries/VI.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -24530,7 +24534,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇻🇮",
-   "visual_key": "b7b08c83dcee3eee",
+   "visual_key": "09dd0ce0fdf3efc3",
    "capital": "city:VI-charlotte-amalie",
    "wikidata": "Q11703",
    "population": 87146,
@@ -24590,10 +24594,10 @@
     "id": "media:flag:VN",
     "kind": "flag",
     "url": "media/flags/countries/VN.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -24629,7 +24633,7 @@
     "country:LA"
    ],
    "emoji": "🇻🇳",
-   "visual_key": "7f722fb6104f69bc",
+   "visual_key": "f1367d85f6cea3a0",
    "on_world_map": true,
    "capital": "city:VN-hanoi",
    "wikidata": "Q881",
@@ -24689,10 +24693,10 @@
     "id": "media:flag:VU",
     "kind": "flag",
     "url": "media/flags/countries/VU.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -24726,7 +24730,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇻🇺",
-   "visual_key": "531c8a4b6a576513",
+   "visual_key": "99db9497fa733a18",
    "on_world_map": true,
    "capital": "city:VU-port-vila",
    "wikidata": "Q686",
@@ -24797,10 +24801,10 @@
     "id": "media:flag:WF",
     "kind": "flag",
     "url": "media/flags/countries/WF.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -24832,7 +24836,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇼🇫",
-   "visual_key": "14aa63c02869e83c",
+   "visual_key": "4478294db4bf4650",
    "capital": "city:WF-mata-utu",
    "wikidata": "Q35555",
    "population": 11558,
@@ -24891,10 +24895,10 @@
     "id": "media:flag:WS",
     "kind": "flag",
     "url": "media/flags/countries/WS.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -24927,7 +24931,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇼🇸",
-   "visual_key": "9010dd614fbac7bd",
+   "visual_key": "a3354a88c504de13",
    "capital": "city:WS-apia",
    "wikidata": "Q683",
    "population": 200010,
@@ -24991,10 +24995,10 @@
     "id": "media:flag:XK",
     "kind": "flag",
     "url": "media/flags/countries/XK.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -25032,7 +25036,7 @@
     "country:RS"
    ],
    "emoji": "🇽🇰",
-   "visual_key": "64cb2059fff629b3",
+   "visual_key": "b99d21fab5c2e9d1",
    "on_world_map": true,
    "capital": "city:XK-pristina",
    "wikidata": "Q1246",
@@ -25099,10 +25103,10 @@
     "id": "media:flag:YE",
     "kind": "flag",
     "url": "media/flags/countries/YE.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -25137,7 +25141,7 @@
     "country:SA"
    ],
    "emoji": "🇾🇪",
-   "visual_key": "76123896d179bdef",
+   "visual_key": "94eb1445cc23fce6",
    "on_world_map": true,
    "capital": "city:YE-sana-a",
    "wikidata": "Q805",
@@ -25196,10 +25200,10 @@
     "id": "media:flag:YT",
     "kind": "flag",
     "url": "media/flags/countries/YT.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -25231,7 +25235,7 @@
    "landlocked": false,
    "borders": [],
    "emoji": "🇾🇹",
-   "visual_key": "966c838a43f5170d",
+   "visual_key": "499bbe64d0ce5713",
    "capital": "city:YT-mamoudzou",
    "wikidata": "Q17063",
    "population": 320901,
@@ -25292,10 +25296,10 @@
     "id": "media:flag:ZA",
     "kind": "flag",
     "url": "media/flags/countries/ZA.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -25346,7 +25350,7 @@
     "country:ZW"
    ],
    "emoji": "🇿🇦",
-   "visual_key": "03a618f7e5c60034",
+   "visual_key": "4d0b6e3bec69cd33",
    "on_world_map": true,
    "capital": "city:ZA-pretoria",
    "wikidata": "Q258",
@@ -25456,10 +25460,10 @@
     "id": "media:flag:ZM",
     "kind": "flag",
     "url": "media/flags/countries/ZM.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -25500,7 +25504,7 @@
     "country:ZW"
    ],
    "emoji": "🇿🇲",
-   "visual_key": "cde15386eb67b979",
+   "visual_key": "552381264806bff8",
    "on_world_map": true,
    "capital": "city:ZM-lusaka",
    "wikidata": "Q953",
@@ -25560,10 +25564,10 @@
     "id": "media:flag:ZW",
     "kind": "flag",
     "url": "media/flags/countries/ZW.svg",
-    "source": "country-flag-icons 1.6.20",
-    "source_url": "https://github.com/catamphetamine/country-flag-icons",
-    "license": "MIT",
-    "attribution": "country-flag-icons (MIT)"
+    "source": "svg-country-flags 1.2.10",
+    "source_url": "https://github.com/hampusborgos/country-flags",
+    "license": "Public domain",
+    "attribution": "country-flags (Public domain)"
    }
   ],
   "attributes": {
@@ -25662,7 +25666,7 @@
     "country:ZM"
    ],
    "emoji": "🇿🇼",
-   "visual_key": "d6b204f0414c7970",
+   "visual_key": "fb29f39217072fac",
    "on_world_map": true,
    "capital": "city:ZW-harare",
    "wikidata": "Q954",

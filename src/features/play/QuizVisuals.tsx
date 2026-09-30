@@ -1,18 +1,43 @@
 import type { Entity } from '@/domain/types'
 import type { Question } from '@/engine/types'
 
+function plateHash(value: string) {
+  return [...value].reduce((sum, char, index) => (sum * 31 + char.charCodeAt(0) + index) >>> 0, 2166136261)
+}
+
+function plateSerial(code: string, country: string) {
+  const hash = plateHash(`${country}:${code}`)
+  const alphabet = 'ABCDEFGHJKLMNPRSTUVWXYZ'
+  const letters = `${alphabet[hash % alphabet.length]}${alphabet[Math.floor(hash / 23) % alphabet.length]}`
+  const number = 10 + (Math.floor(hash / 529) % 9889)
+  if (country === 'CH') return number.toLocaleString('de-CH')
+  if (country === 'AT') return `${number} ${letters[0]}`
+  return `${letters} ${number}`
+}
+
+/** Deterministisches Musterkennzeichen: Ortskürzel bleiben korrekt, Serienzeichen sind bewusst fiktiv. */
 export function LicensePlate({ code, country = 'DE', compact = false }: { code: string; country?: string; compact?: boolean }) {
-  const euMark = country === 'AT' ? 'A' : 'D'
+  const normalizedCountry = ['DE', 'AT', 'CH'].includes(country) ? country : 'DE'
+  const euMark = normalizedCountry === 'AT' ? 'A' : 'D'
+  const serial = plateSerial(code, normalizedCountry)
+  const variant = plateHash(`${code}:format`) % 3
+  const countryLabel = normalizedCountry === 'AT' ? 'REPUBLIK ÖSTERREICH' : normalizedCountry === 'CH' ? 'SCHWEIZERISCHE EIDGENOSSENSCHAFT' : 'BUNDESREPUBLIK DEUTSCHLAND'
   return (
-    <div className={`license-plate license-plate-country-${country} ${compact ? 'license-plate-compact' : ''}`} role="img" aria-label={`Kennzeichen ${code} aus ${country}`}>
-      {country === 'CH' ? <span className="license-plate-ch-badge" aria-hidden>+</span> : (
+    <div className={`license-plate license-plate-country-${normalizedCountry} license-plate-variant-${variant} ${compact ? 'license-plate-compact' : ''}`} role="img" aria-label={`Musterkennzeichen mit Ortskürzel ${code} aus ${normalizedCountry}`}>
+      {normalizedCountry === 'CH' ? <span className="license-plate-ch-badge" aria-hidden>+</span> : (
         <div className="license-plate-eu" aria-hidden>
-          <span className="license-plate-stars">••••••</span>
+          <span className="license-plate-stars">✦✦✦<br />✦✦✦</span>
           <span>{euMark}</span>
         </div>
       )}
-      <span className="license-plate-code">{code}</span>
-      <span className="license-plate-seal" aria-hidden />
+      <span className="license-plate-country-label" aria-hidden>{countryLabel}</span>
+      <span className="license-plate-code">
+        <strong>{code}</strong>
+        {normalizedCountry === 'DE' && <span className="license-plate-badges" aria-hidden><i /><i /></span>}
+        {normalizedCountry === 'AT' && <span className="license-plate-at-crest" aria-hidden />}
+        <span>{serial}</span>
+      </span>
+      {normalizedCountry === 'CH' && <span className="license-plate-canton-badge" aria-hidden>{code}</span>}
       <span className="license-plate-screw" aria-hidden />
     </div>
   )

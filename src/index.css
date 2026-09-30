@@ -672,22 +672,37 @@ h1, .display {
   aspect-ratio: 4.7 / 1;
   align-items: center;
   overflow: hidden;
-  border: 4px double #18242c;
-  border-radius: .85rem;
-  background: #fffef7;
+  border: 4px double #12181b;
+  border-radius: .6rem;
+  background: #f9faf5;
   color: #15191c;
   box-shadow: 0 24px 45px -26px rgb(16 37 54 / .9), inset 0 0 0 2px rgb(255 255 255 / .75);
 }
-.license-plate-eu { display: flex; width: 13%; height: 100%; flex-direction: column; align-items: center; justify-content: space-between; background: #164a9b; padding-block: 5%; color: white; font-size: clamp(.7rem, 1.5vw, 1.55rem); font-weight: 750; }
-.license-plate-stars { color: #ffd62c; font-size: clamp(.5rem, 1vw, .9rem); letter-spacing: -.15em; }
-.license-plate-ch-badge { display: inline-flex; width: 9%; aspect-ratio: .82; flex: 0 0 auto; align-items: center; justify-content: center; margin-left: 2.5%; border-radius: 18% 18% 44% 44%; background: #d71920; color: white; font-size: clamp(1rem, 2.8vw, 2.5rem); font-weight: 850; line-height: 1; }
-.license-plate-code { margin-inline: auto; padding-left: 4%; font-size: clamp(2.2rem, 7.2vw, 6.6rem); font-weight: 650; letter-spacing: .08em; line-height: 1; }
-.license-plate-seal { width: 7.5%; aspect-ratio: 1; border: 2px solid #aab2b4; border-radius: 999px; background: radial-gradient(circle at 40% 35%, #eaf2f3, #cbd6d8 55%, #9aa5a7); }
-.license-plate-country-CH .license-plate-seal { border-radius: 18% 18% 44% 44%; background: linear-gradient(145deg, #f8faf9, #d5dcde); }
-.license-plate-country-CH .license-plate-code { padding-left: 0; }
-.license-plate-screw { width: 1.6%; aspect-ratio: 1; margin-inline: 3%; border-radius: 999px; background: radial-gradient(circle at 35% 32%, white, #879397 65%, #3c474b); }
+.license-plate-eu { display: flex; width: 12.5%; height: 100%; flex-direction: column; align-items: center; justify-content: space-between; background: #164a9b; padding-block: 5%; color: white; font-size: clamp(.7rem, 1.5vw, 1.55rem); font-weight: 800; }
+.license-plate-stars { color: #ffd62c; font-size: clamp(.36rem, .8vw, .72rem); letter-spacing: -.08em; line-height: .68; text-align: center; }
+.license-plate-country-label { position: absolute; top: 5%; left: 50%; color: #687174; font-family: ui-monospace, monospace; font-size: clamp(.34rem, .72vw, .64rem); font-weight: 750; letter-spacing: .18em; transform: translateX(-50%); white-space: nowrap; }
+.license-plate-code { display: flex; min-width: 0; align-items: center; justify-content: center; gap: clamp(.65rem, 2.3vw, 2.2rem); margin-inline: auto; padding: 3.2% 2% 0; font-family: 'Arial Narrow', 'DIN Condensed', sans-serif; font-size: clamp(1.8rem, 5vw, 5.25rem); font-weight: 650; letter-spacing: .08em; line-height: 1; white-space: nowrap; }
+.license-plate-code strong { font-weight: 800; }
+.license-plate-badges { display: inline-flex; gap: .28em; align-items: center; }
+.license-plate-badges i { position: relative; display: block; width: .48em; aspect-ratio: 1; border: .04em solid #596466; border-radius: 50%; background: #b9cfca; }
+.license-plate-badges i:first-child { background: #94b4d2; }
+.license-plate-badges i::after { position: absolute; inset: 24%; border: .03em solid #fff; border-radius: 50%; content: ''; }
+.license-plate-at-crest { display: block; width: .48em; aspect-ratio: .82; border: .035em solid #555; background: #d51920; clip-path: polygon(15% 0,85% 0,100% 22%,83% 100%,17% 100%,0 22%); }
+.license-plate-at-crest::after { display: block; height: 28%; margin-top: 36%; background: #fff; content: ''; }
+.license-plate-ch-badge,
+.license-plate-canton-badge { display: inline-flex; width: 8%; aspect-ratio: .82; flex: 0 0 auto; align-items: center; justify-content: center; border: 1px solid #555; border-radius: 12% 12% 36% 36%; font-size: clamp(.65rem, 1.7vw, 1.45rem); font-weight: 850; line-height: 1; }
+.license-plate-ch-badge { margin-left: 2.5%; background: #d71920; color: white; }
+.license-plate-canton-badge { margin-right: 2.5%; background: #f3f0dd; color: #1b2529; }
+.license-plate-country-CH { aspect-ratio: 4.9 / 1; border-width: 3px; }
+.license-plate-country-CH .license-plate-code { gap: .45em; padding-left: 0; font-size: clamp(1.9rem, 5.4vw, 5.7rem); }
+.license-plate-country-AT { border-top-color: #ce2027; border-bottom-color: #ce2027; }
+.license-plate-country-AT .license-plate-code { gap: clamp(.5rem, 1.7vw, 1.55rem); }
+.license-plate-variant-1 .license-plate-code > span:last-child { letter-spacing: .14em; }
+.license-plate-variant-2 .license-plate-code { transform: scaleX(.94); }
+.license-plate-screw { width: 1.35%; aspect-ratio: 1; margin-inline: 2.2%; border: 1px solid #697477; border-radius: 999px; background: #b8c1c1; box-shadow: inset .08em .08em #fff; }
 .license-plate-compact { width: 100%; aspect-ratio: 4.7 / 1; border-width: 3px; border-radius: .65rem; }
-.license-plate-compact .license-plate-code { font-size: clamp(1.6rem, 4.3vw, 3.7rem); }
+.license-plate-compact .license-plate-code { gap: clamp(.35rem, 1.2vw, .85rem); font-size: clamp(1.25rem, 3.55vw, 3.1rem); }
+.license-plate-compact .license-plate-country-label { display: none; }
 .plate-stage { display: flex; min-height: 12rem; align-items: center; justify-content: center; width: min(100%, 72rem); margin: 0 auto 1.5rem; border: 1px solid var(--line); border-radius: 1.35rem; background: color-mix(in srgb, var(--card) 48%, transparent); padding: 1.5rem 3rem; }
 
 .mountain-visual,
@@ -1169,6 +1184,21 @@ textarea {
 .plate-stage,
 .mountain-visual,
 .water-atlas { border: 2px solid var(--ink); border-radius: 2px; background: var(--card); box-shadow: 7px 7px 0 var(--ink); }
+.map-viewport { position: relative; overflow: hidden; width: 100%; background: var(--card-2); isolation: isolate; }
+.map-canvas { display: block; background: var(--card-2); }
+.map-viewport.is-transparent,
+.map-viewport.is-transparent .map-canvas { background: transparent; }
+.map-viewport.is-interactive .map-canvas { cursor: grab; touch-action: none; }
+.map-viewport.is-interactive .map-canvas:active { cursor: grabbing; }
+.map-canvas path { vector-effect: non-scaling-stroke; }
+.map-controls { position: absolute; top: .65rem; right: .65rem; z-index: 5; display: grid; grid-template-columns: 2.55rem auto 2.55rem 2.55rem; min-height: 2.55rem; border: 1.5px solid var(--ink); background: var(--card); box-shadow: 3px 3px 0 var(--ink); }
+.map-controls button { display: inline-flex; align-items: center; justify-content: center; border-right: 1px solid var(--ink); color: var(--ink); }
+.map-controls button:last-child { border-right: 0; border-left: 1px solid var(--ink); }
+.map-controls button:hover:not(:disabled) { background: var(--gold); }
+.map-controls button:disabled { color: var(--ink-2); opacity: .4; }
+.map-controls svg { width: 1rem; height: 1rem; stroke-width: 2.5; }
+.map-zoom-value { display: flex; min-width: 3.8rem; align-items: center; justify-content: center; border-right: 1px solid var(--ink); font-family: ui-monospace, monospace; font-size: .65rem; font-weight: 800; }
+.map-gesture-hint { position: absolute; bottom: .55rem; left: .55rem; z-index: 5; max-width: calc(100% - 1.1rem); border: 1px solid var(--ink); background: color-mix(in srgb, var(--card) 93%, transparent); padding: .35rem .5rem; color: var(--ink); font-family: ui-monospace, monospace; font-size: .58rem; font-weight: 700; letter-spacing: .03em; pointer-events: none; }
 .mountain-visual-compact,
 .water-atlas-compact { border-radius: 0; box-shadow: none; }
 .visual-caption { border: 1px solid var(--ink); border-radius: 0; background: var(--gold); color: var(--ink); }
@@ -1291,4 +1321,130 @@ textarea {
   .plate-stage,
   .mountain-visual,
   .water-atlas { box-shadow: 4px 4px 0 var(--ink); }
+  .map-controls { top: .4rem; right: .4rem; grid-template-columns: 2.7rem auto 2.7rem 2.7rem; min-height: 2.7rem; }
+  .map-zoom-value { min-width: 3.25rem; }
+  .map-gesture-hint { right: .4rem; bottom: .4rem; left: .4rem; padding-right: .45rem; font-size: .52rem; }
+}
+
+/* ========================================================================== */
+/* Quiz arena · dunkle Expeditionskarte, helle Spielkarten                     */
+/* ========================================================================== */
+
+.quiz-runtime {
+  color: #f7f3e8;
+  background-color: #071a25;
+  background-image:
+    radial-gradient(circle at 78% 18%, rgb(36 65 216 / .28), transparent 28rem),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='280' height='180' viewBox='0 0 280 180'%3E%3Cg fill='none' stroke='%23dce8e5' stroke-opacity='.1' stroke-width='1'%3E%3Cpath d='M-25 42C28 5 78 9 112 43s75 51 127 16 76-24 98 3'/%3E%3Cpath d='M-30 69C25 31 72 36 106 68s83 51 130 19 75-24 101 4'/%3E%3Cpath d='M-35 97C15 64 66 60 102 94s86 48 132 19 74-20 106 8'/%3E%3Cpath d='M-33 126C18 92 67 91 105 121s83 43 130 18 76-16 103 8'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: auto, 560px 360px;
+}
+
+.quiz-runtime::after {
+  position: fixed;
+  z-index: 0;
+  top: 7.5rem;
+  right: clamp(.8rem, 3vw, 3rem);
+  width: 4.3rem;
+  height: 4.3rem;
+  display: block;
+  border: 1px solid rgb(247 243 232 / .42);
+  background:
+    linear-gradient(90deg, transparent 49%, rgb(247 243 232 / .55) 49% 51%, transparent 51%),
+    linear-gradient(transparent 49%, rgb(247 243 232 / .55) 49% 51%, transparent 51%);
+  content: '';
+  opacity: .55;
+  pointer-events: none;
+  transform: rotate(45deg);
+}
+
+.quiz-runtime > main { position: relative; z-index: 1; min-height: calc(100dvh - 4.5rem); }
+.quiz-runtime .quiz-topbar { border-color: rgb(247 243 232 / .55); background: rgb(7 26 37 / .96); color: #f7f3e8; }
+.quiz-runtime .quiz-topbar-divider { background: rgb(247 243 232 / .42); }
+.quiz-runtime .quiz-topbar .text-ink-2,
+.quiz-runtime .quiz-quit,
+.quiz-runtime .quiz-topbar-progress { color: #a8b9b8; }
+.quiz-runtime .quiz-quit:hover { color: var(--gold); }
+.quiz-runtime .quiz-topbar [role='progressbar'] { border: 1px solid rgb(247 243 232 / .58); background: #203744; }
+.quiz-runtime .quiz-topbar [role='progressbar'] > div { background: var(--gold); }
+.quiz-runtime .quiz-question-heading { color: #f7f3e8; text-shadow: 4px 4px 0 rgb(0 0 0 / .22); }
+.quiz-runtime .eyebrow { color: var(--gold); }
+
+.flag-media-shell {
+  position: relative;
+  display: grid;
+  width: min(100%, 39rem);
+  height: clamp(12rem, 28vw, 21rem);
+  place-items: center;
+  border: 2px solid var(--ink);
+  background-color: #f7f3e8;
+  background-image: radial-gradient(rgb(13 29 42 / .1) .6px, transparent .6px);
+  background-size: 5px 5px;
+  padding: 1rem;
+  box-shadow: 8px 8px 0 var(--coral);
+}
+
+.flag-media-shell.is-compact { width: min(100%, 17rem); height: 8rem; padding: .5rem; box-shadow: 4px 4px 0 var(--coral); }
+.flag-media-shell.is-option { width: 100%; height: 100%; min-height: 8.5rem; flex: 1; border-width: 1px; padding: .55rem; box-shadow: none; }
+.flag-media-artboard { position: relative; display: block; width: 100%; max-height: 100%; overflow: hidden; aspect-ratio: 4 / 3; background: #fff; }
+.flag-media-artboard > img { display: block; width: 100%; height: 100%; object-fit: contain; }
+
+.flag-hint-mask {
+  position: absolute;
+  z-index: 2;
+  border: 2px solid var(--ink);
+  background: repeating-linear-gradient(135deg, var(--gold) 0 8px, var(--ink) 8px 10px);
+  box-shadow: 3px 3px 0 rgb(13 29 42 / .28);
+  animation: flag-mask-in 220ms cubic-bezier(.2, .8, .2, 1) both;
+}
+
+.flag-hint-badge {
+  position: absolute;
+  z-index: 3;
+  right: .7rem;
+  bottom: .7rem;
+  border: 1px solid var(--ink);
+  background: var(--gold);
+  padding: .35rem .55rem;
+  color: var(--ink);
+  font-family: ui-monospace, monospace;
+  font-size: .62rem;
+  font-weight: 850;
+  letter-spacing: .06em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+@keyframes flag-mask-in {
+  from { opacity: 0; transform: scale(.86); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.quiz-runtime .quiz-prompt-media { margin-bottom: 1.35rem; }
+.quiz-runtime .quiz-prompt-media > img { border: 2px solid var(--ink); border-radius: 0; background: #f7f3e8; padding: .6rem; box-shadow: 7px 7px 0 var(--coral); }
+.quiz-runtime .quiz-prompt-media figcaption { color: #a8b9b8; }
+.quiz-runtime .quiz-option { border: 2px solid var(--ink); background: #f7f3e8; color: var(--ink); box-shadow: 5px 5px 0 var(--coral); }
+.quiz-runtime .quiz-option:nth-child(2n) { box-shadow: 5px 5px 0 var(--gold); }
+.quiz-runtime .quiz-option:not(:disabled):hover { transform: translate(3px, 3px); background: var(--gold); box-shadow: 2px 2px 0 var(--coral); }
+.quiz-runtime .quiz-option-number { border: 1px solid var(--ink); background: var(--accent); color: #fff; }
+.quiz-runtime .quiz-map-stage,
+.quiz-runtime .plate-stage,
+.quiz-runtime .mountain-visual,
+.quiz-runtime .water-atlas,
+.quiz-runtime .quiz-feedback { color: var(--ink); }
+.quiz-runtime .quiz-text-answer input { border: 2px solid var(--ink); border-radius: 0; background: #f7f3e8; color: var(--ink); box-shadow: 5px 5px 0 var(--coral); }
+.setup-flag-hints { border-left: 7px solid var(--gold); }
+
+@media (max-width: 639px) {
+  .quiz-runtime::after { display: none; }
+  .quiz-runtime > main { padding-top: 1.25rem; }
+  .flag-media-shell { height: clamp(10rem, 58vw, 15rem); padding: .55rem; box-shadow: 5px 5px 0 var(--coral); }
+  .flag-media-shell.is-compact { height: 6.7rem; }
+  .flag-media-shell.is-option { min-height: 7.1rem; padding: .3rem; }
+  .flag-hint-badge { right: .35rem; bottom: .35rem; font-size: .5rem; }
+  .quiz-runtime .quiz-option { box-shadow: 3px 3px 0 var(--coral); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flag-hint-mask { animation: none; }
 }

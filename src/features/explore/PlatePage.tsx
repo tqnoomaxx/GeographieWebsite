@@ -6,6 +6,7 @@ import { loadPlates } from '@/services/data/plates'
 import { Page, Card, EmptyState, entityPath } from '@/ui'
 import { RegionMapView } from '@/ui/maps'
 import { FavoriteButton } from './FavoriteButton'
+import { LicensePlate } from '@/features/play/QuizVisuals'
 
 export default function PlatePage() {
   const { t } = useTranslation()
@@ -22,7 +23,7 @@ export default function PlatePage() {
   return (
     <Page back="/play/license_plates" action={<FavoriteButton id={plate.id} />}>
       <header className="mb-5 flex items-center gap-4">
-        <div className="rounded-lg border-2 border-ink bg-white px-4 py-2 font-mono text-3xl font-bold tracking-widest text-black">{plate.attributes.code as string}</div>
+        <div className="w-full max-w-sm"><LicensePlate code={plate.attributes.code as string} country={iso2} compact /></div>
         <div>
           <h1 className="text-2xl font-semibold">{plate.names.de}</h1>
           <p className="text-ink-2">

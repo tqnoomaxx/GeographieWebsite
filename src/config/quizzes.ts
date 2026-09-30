@@ -151,10 +151,11 @@ export const QUIZZES: QuizDef[] = [
     ],
   },
   {
-    id: 'license_plates', icon: '🚗', primary: false, countKey: 'license_plate', needs: ['plates'], perCountry: true, defaultScope: 'country:DE',
+    id: 'license_plates', icon: '🚗', primary: false, countKey: 'license_plate', needs: ['plates', 'regions'], perCountry: true, defaultScope: 'country:DE',
     modes: [
       { id: 'plate_to_city', form: 'choice', generators: ['plate_to_city'] },
       { id: 'city_to_plate', form: 'choice', generators: ['city_to_plate'] },
+      { id: 'plate_to_region', form: 'choice', generators: ['plate_to_region'] },
       { id: 'plate_input', form: 'input', generators: ['plate_input'] },
     ],
   },

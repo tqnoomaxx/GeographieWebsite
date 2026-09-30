@@ -57,6 +57,35 @@ export const cityToPlate: Generator = {
   },
 }
 
+export const plateToRegion: Generator = {
+  id: 'plate_to_region',
+  category: 'license_plates',
+  pool: (ctx) => ctx.plates.filter((plate) => !!plate.attributes.region && ctx.byId.has(plate.attributes.region as string)),
+  make(target, ctx, rng, difficulty) {
+    const regionId = target.attributes.region as string | undefined
+    const region = regionId ? ctx.byId.get(regionId) : undefined
+    if (!region) return null
+    const seen = new Set([region.id])
+    const distractors: Entity[] = []
+    for (const plate of rng.shuffle(ctx.plates.filter((item) => item.attributes.country === target.attributes.country))) {
+      const candidateId = plate.attributes.region as string | undefined
+      const candidate = candidateId ? ctx.byId.get(candidateId) : undefined
+      if (!candidate || seen.has(candidate.id)) continue
+      seen.add(candidate.id)
+      distractors.push(candidate)
+      if (distractors.length === 3) break
+    }
+    if (distractors.length < 3) return null
+    return {
+      id: qid(this.id, target), category: 'license_plates', type: this.id, question_type: 'multiple_choice',
+      prompt: { key: 'q.plate_to_region', params: { code: code(target) } }, answer: region.id,
+      options: rng.shuffle([region, ...distractors]).map((entity) => ({ id: entity.id, label: nameOf(entity) })),
+      difficulty: effectiveDifficulty(target, difficulty), entities: [target.id, region.id],
+      explanation: `${nameOf(target)} · ${nameOf(region)}`, metadata: { generator: this.id, scope: ctx.scope },
+    }
+  },
+}
+
 export const plateInput: Generator = {
   id: 'plate_input',
   category: 'license_plates',
