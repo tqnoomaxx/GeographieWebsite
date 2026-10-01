@@ -51,7 +51,7 @@ export default function ProgressPage() {
     <Page title={t('progress.title')} action={<Link to="/profile" className="btn-ghost px-3" aria-label={t('nav.profile')}><Icons.profile className="h-5 w-5" /></Link>}>
       <Card className="mb-5">
         <div className="flex items-baseline justify-between">
-          <p className="text-xl font-semibold">{t('progress.level', { level: level.level })}</p>
+          <h2 className="text-xl font-semibold">{t('progress.level', { level: level.level })}</h2>
           <p className="text-sm tabular-nums text-ink-2">{t('progress.xp_of', { xp: stats.xp.toLocaleString('de-DE'), next: level.next.toLocaleString('de-DE') })}</p>
         </div>
         <ProgressBar value={level.progress} className="mt-2" label="XP" />

@@ -93,7 +93,7 @@ test('Flaggenrunde spielen bis zum Ergebnis', async ({ page }) => {
   await expect(page.getByRole('heading', { name: /Runde beendet/ })).toBeVisible()
   await expect(page.getByText(/\+\d+ XP/)).toBeVisible()
   await page.goto('progress')
-  await expect(page.getByText(/^Level [0-9]+$/)).toBeVisible()
+  await expect(page.getByRole('heading', { name: /^Level [0-9]+$/ })).toBeVisible()
   await expect(page.getByText(/Fragen beantwortet/)).toBeVisible()
   expect(errors).toEqual([])
 })
