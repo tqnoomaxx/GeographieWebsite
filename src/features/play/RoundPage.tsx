@@ -388,7 +388,8 @@ function QuestionView({
                 disabled={answered}
                 placeholder={t('play.type_answer')}
                 autoComplete="off"
-                autoCapitalize="words"
+                autoCapitalize={q.category === 'languages' ? 'none' : 'words'}
+                spellCheck={q.category !== 'languages'}
                 className="min-h-14 min-w-0 flex-1 rounded-xl border border-line bg-card px-5 text-lg shadow-sm"
                 aria-label={t('play.type_answer')}
               />

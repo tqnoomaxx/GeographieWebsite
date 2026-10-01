@@ -2,7 +2,7 @@ import {
   Flag, Globe2, Landmark, Map, Camera, Building2, Compass, Car, Waves, Mountain, BookOpen, Trophy, Home, Target,
   Search, User, Puzzle, Settings, Heart, Star, Flame, Award, ScrollText, ChevronLeft, Check, X, Info, Share2, RotateCcw, Play,
   MapPin, Image as ImageIcon, Droplets, Layers, Sparkles, Wrench, Mail, Lightbulb, AlertTriangle, ArrowRight, type LucideIcon,
-  Keyboard, ListChecks,
+  Keyboard, ListChecks, Languages,
 } from 'lucide-react'
 import type { CategoryId } from '@/engine/types'
 
@@ -26,17 +26,18 @@ const CATEGORY_ICON_FILES: Record<CategoryId, string> = {
   water: 'water.png',
   nature: 'nature.png',
   license_plates: 'license-plates.png',
+  languages: 'languages.svg',
   mixed: 'mixed.png',
 }
 
 /** Kategoriefarben (Kachelhintergrund / Icon) für Hell- und Dunkelmodus über CSS-Variablen. */
 export const CATEGORY_TONES: Record<CategoryId, string> = {
   flags: 'tone-red', countries: 'tone-indigo', capitals: 'tone-amber', regions: 'tone-teal', cities: 'tone-slate', maps: 'tone-green',
-  images: 'tone-pink', landmarks: 'tone-amber', water: 'tone-blue', nature: 'tone-green', license_plates: 'tone-slate', mixed: 'tone-violet',
+  images: 'tone-pink', landmarks: 'tone-amber', water: 'tone-blue', nature: 'tone-green', license_plates: 'tone-slate', languages: 'tone-teal', mixed: 'tone-violet',
 }
 
 export const TYPE_ICONS: Record<string, LucideIcon> = {
-  country: Globe2, region: Layers, city: Building2, landmark: Landmark, license_plate: Car, river: Waves, lake: Droplets, mountain: Mountain,
+  country: Globe2, region: Layers, city: Building2, landmark: Landmark, license_plate: Car, river: Waves, lake: Droplets, mountain: Mountain, script_word: Languages,
 }
 
 export const PUZZLE_ICONS: Record<string, LucideIcon> = { flagle: Flag, countryle: Globe2, outline: Map, capitale: Landmark, bildle: Camera, kennzeichle: Car }

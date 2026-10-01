@@ -70,6 +70,7 @@ function Setup({ category }: { category: CategoryId }) {
   const navigate = useNavigate()
   const geo = useGeoData()
   const quiz = quizFor(category)
+  const hasGeographicScope = quiz.geographicScope !== false
   const desktop = useDesktopSetup()
   useDocumentTitle(t(`category.${category}`))
   const [setup, setSetup] = useState<RoundConfig>(() => loadSetup(category))
@@ -227,10 +228,11 @@ function Setup({ category }: { category: CategoryId }) {
       action={<CategoryIconTile id={category} size="sm" />}
     >
       <p className="setup-intro">{t('setup.intro')}</p>
+      {category === 'languages' && <p className="setup-note setup-script-note">{t('setup.script_note')}</p>}
       <div className="atlas-rule mb-7 mt-6 h-px" />
       <div className="setup-config-grid">
         <div className="min-w-0">
-          <Section step={1} title={t('setup.scope_title')} description={t('setup.scope_desc')}>
+          {hasGeographicScope && <Section step={1} title={t('setup.scope_title')} description={t('setup.scope_desc')}>
             <div className="setup-scope-grid" role="radiogroup" aria-label={t('play.scope')}>
               {['world', ...continents].map((s, index) => {
                 const selected = s === activeContinent
@@ -282,10 +284,10 @@ function Setup({ category }: { category: CategoryId }) {
                 />
               </div>
             )}
-          </Section>
+          </Section>}
 
           {modes.length > 0 && (
-            <Section step={2} title={t('setup.mode_title')} description={t('setup.mode_section_desc')}>
+            <Section step={hasGeographicScope ? 2 : 1} title={t('setup.mode_title')} description={t('setup.mode_section_desc')}>
               <div className="setup-mode-grid" role="radiogroup" aria-label={t('setup.mode')}>
                 <ModeChoice
                   value={AUTO}
@@ -318,7 +320,7 @@ function Setup({ category }: { category: CategoryId }) {
           )}
 
           <Section
-            step={modes.length > 0 ? 3 : 2}
+            step={(hasGeographicScope ? 1 : 0) + (modes.length > 0 ? 2 : 1)}
             title={t('setup.length_title')}
             description={t('setup.length_desc')}
           >
@@ -372,12 +374,14 @@ function Setup({ category }: { category: CategoryId }) {
               </div>
               <div className="setup-summary-body">
                 <dl className="setup-summary-list">
-                  <div className="flex justify-between gap-4">
-                    <dt className="text-ink-2">{t('play.scope')}</dt>
-                    <dd className="text-right font-medium">
-                      {isCountryScope(scope) ? geo.byId.get(scope)?.names.de : t(`scope.${scope}`)}
-                    </dd>
-                  </div>
+                  {hasGeographicScope && (
+                    <div className="flex justify-between gap-4">
+                      <dt className="text-ink-2">{t('play.scope')}</dt>
+                      <dd className="text-right font-medium">
+                        {isCountryScope(scope) ? geo.byId.get(scope)?.names.de : t(`scope.${scope}`)}
+                      </dd>
+                    </div>
+                  )}
                   <div className="flex justify-between gap-4">
                     <dt className="text-ink-2">{t('setup.mode')}</dt>
                     <dd className="text-right font-medium">

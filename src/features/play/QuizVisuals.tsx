@@ -130,6 +130,24 @@ function WaterAtlas({ entity, compact = false }: { entity: Entity; compact?: boo
   )
 }
 
+function ScriptStudyCard({ entity }: { entity: Entity }) {
+  const language = String(entity.attributes.language_name ?? '')
+  const script = String(entity.attributes.script_name ?? '')
+  const original = String(entity.attributes.original ?? entity.names.de)
+  return (
+    <div className="script-study-card" role="img" aria-label={`${original}, ${language} in ${script}`}>
+      <div className="script-study-meta">
+        <span>{language}</span>
+        <span>{script}</span>
+      </div>
+      <strong className="script-study-original" lang={entity.attributes.language === 'ru' ? 'ru' : 'el'}>
+        {original}
+      </strong>
+      <span className="script-study-task">lateinische Umschrift gesucht</span>
+    </div>
+  )
+}
+
 export function hasSideVisualization(question: Question) {
   return question.type === 'river_to_country' || question.type === 'lake_to_country'
 }
@@ -148,6 +166,9 @@ export function ChoiceVisualization({ question, entity }: { question: Question; 
 
 export function QuestionVisualization({ question, entities, side = false }: { question: Question; entities: Entity[]; side?: boolean }) {
   const primary = entities[0]
+  if (question.category === 'languages' && primary && ['cyrillic_to_latin', 'greek_to_latin', 'script_to_latin_input'].includes(question.type)) {
+    return <ScriptStudyCard entity={primary} />
+  }
   if (question.category === 'license_plates' && primary && !['city_to_plate', 'city_to_plate_input'].includes(question.type)) {
     return <div className="plate-stage"><LicensePlate code={String(primary.attributes.code ?? question.prompt.params?.code ?? '')} country={String(primary.attributes.country ?? 'country:DE').replace('country:', '')} /></div>
   }

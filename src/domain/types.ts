@@ -1,4 +1,4 @@
-export type EntityType = 'country' | 'region' | 'city' | 'river' | 'lake' | 'mountain' | 'landmark' | 'license_plate'
+export type EntityType = 'country' | 'region' | 'city' | 'river' | 'lake' | 'mountain' | 'landmark' | 'license_plate' | 'script_word'
 export type RelationshipType =
   | 'capital_of'
   | 'located_in'

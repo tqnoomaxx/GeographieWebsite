@@ -35,6 +35,7 @@ export default function ProgressPage() {
     { key: 'water', icon: '🌊', total: geo.index?.counts.water ?? 0, known: known((id) => id.startsWith('river:') || id.startsWith('lake:')) },
     { key: 'nature', icon: '🏔️', total: geo.index?.counts.mountain ?? 0, known: known((id) => id.startsWith('mountain:')) },
     { key: 'license_plates', icon: '🚗', total: geo.index?.counts.license_plate ?? 0, known: known((id) => id.startsWith('license_plate:')) },
+    { key: 'languages', icon: '🔤', total: geo.index?.counts.script_word ?? 0, known: known((id) => id.startsWith('script_word:')) },
   ].filter((w) => w.total > 0)
   const unlockedSet = new Map((unlocked ?? []).map((a) => [a.id, a.unlockedAt]))
   const questState = new Map((quests ?? []).map((q) => [q.id, q]))

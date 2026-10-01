@@ -11,11 +11,12 @@ export function buildContext(input: {
   rivers?: Entity[]
   lakes?: Entity[]
   mountains?: Entity[]
+  scriptWords?: Entity[]
   relationships: Relationship[]
   scope: string
 }): GeneratorContext {
   const byId = new Map<string, Entity>()
-  for (const list of [input.countries, input.cities, input.landmarks, input.regions, input.plates ?? [], input.rivers ?? [], input.lakes ?? [], input.mountains ?? []]) for (const e of list) byId.set(e.id, e)
+  for (const list of [input.countries, input.cities, input.landmarks, input.regions, input.plates ?? [], input.rivers ?? [], input.lakes ?? [], input.mountains ?? [], input.scriptWords ?? []]) for (const e of list) byId.set(e.id, e)
   const capitalOf = new Map<string, string>()
   const capitalCity = new Map<string, string>()
   const locatedIn = new Map<string, string[]>()
@@ -40,6 +41,7 @@ export function buildContext(input: {
     rivers: filter(input.rivers ?? []),
     lakes: filter(input.lakes ?? []),
     mountains: filter(input.mountains ?? []),
+    scriptWords: filter(input.scriptWords ?? []),
     byId,
     rel: { capitalOf, capitalCity, locatedIn, neighbors },
     scope: input.scope,

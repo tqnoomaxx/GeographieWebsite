@@ -14,7 +14,9 @@ export function useRoundLabel() {
   return (setup: RoundConfig, progress?: { done: number; total: number }) => {
     const quiz = quizFor(setup.category)
     const title = quiz.modes.length ? `${t(`category.${setup.category}`)} · ${t(`modes.${setup.mode}`)}` : t(`category.${setup.category}`)
-    const parts: string[] = [isCountryScope(setup.scope) ? geo.byId.get(setup.scope)?.names.de ?? setup.scope : t(`scope.${setup.scope}`)]
+    const parts: string[] = quiz.geographicScope === false
+      ? []
+      : [isCountryScope(setup.scope) ? geo.byId.get(setup.scope)?.names.de ?? setup.scope : t(`scope.${setup.scope}`)]
     if (quiz.content && setup.content?.length === 1 && !isCountryScope(setup.scope)) parts.push(t(`setup.content.${setup.category}.${setup.content[0]}`))
     if (setup.only) parts.push(t('play.only_errors'))
     if (progress) parts.push(`${progress.done} / ${progress.total}`)

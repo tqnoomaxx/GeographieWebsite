@@ -17,6 +17,7 @@ const files = {
   rivers: 'entities/rivers.json',
   lakes: 'entities/lakes.json',
   mountains: 'entities/mountains.json',
+  script_words: 'entities/script-words.json',
 }
 const regionFiles = listDir(join(DATA, 'entities', 'regions')).filter((f) => f.endsWith('.json'))
 const plateFiles = listDir(join(DATA, 'entities', 'license-plates')).filter((f) => f.endsWith('.json'))
@@ -34,6 +35,7 @@ const all = [
   ...load(files.rivers),
   ...load(files.lakes),
   ...load(files.mountains),
+  ...load(files.script_words),
   ...regionFiles.flatMap((f) => load(`entities/regions/${f}`)),
   ...plateFiles.flatMap((f) => load(`entities/license-plates/${f}`)),
 ]
@@ -46,8 +48,10 @@ const ENTITY_TYPES = new Set([
   'mountain',
   'landmark',
   'license_plate',
+  'script_word',
 ])
 const mediaAll = []
+const scriptOriginals = new Set()
 const flagRatios = {}
 const expectedFlagRatios = { CH: 1, VA: 1, NP: 282 / 342, QA: 28 / 11 }
 for (const e of all) {
@@ -59,6 +63,19 @@ for (const e of all) {
   if (!e.provenance?.source) err(`${e.id}: provenance.source fehlt`)
   if (e.type === 'landmark' && (!Array.isArray(e.attributes?.facts) || e.attributes.facts.length < 3))
     err(`${e.id}: mindestens drei Kurzfakten fehlen`)
+  if (e.type === 'script_word') {
+    if (!['ru', 'el'].includes(e.attributes?.language)) err(`${e.id}: ungültige Sprache`)
+    if (!['cyrillic', 'greek'].includes(e.attributes?.script)) err(`${e.id}: ungültige Schrift`)
+    if (!e.attributes?.original || !e.attributes?.transliteration) err(`${e.id}: Original oder Umschrift fehlt`)
+    if (!Array.isArray(e.attributes?.accepted) || !e.attributes.accepted.includes(e.attributes.transliteration))
+      err(`${e.id}: kanonische Umschrift fehlt in accepted`)
+    if (!/^[A-Za-z -]+$/.test(e.attributes?.transliteration ?? '')) err(`${e.id}: Umschrift enthält unerwartete Zeichen`)
+    const scriptPattern = e.attributes?.script === 'cyrillic' ? /\p{Script=Cyrillic}/u : /\p{Script=Greek}/u
+    if (!scriptPattern.test(e.attributes?.original ?? '')) err(`${e.id}: Original passt nicht zur angegebenen Schrift`)
+    const originalKey = `${e.attributes?.language}:${e.attributes?.original}`
+    if (scriptOriginals.has(originalKey)) err(`${e.id}: doppeltes Original ${e.attributes?.original}`)
+    scriptOriginals.add(originalKey)
+  }
   if (e.location) {
     const { lat, lon } = e.location
     if (!(lat >= -90 && lat <= 90 && lon >= -180 && lon <= 180)) err(`${e.id}: ungültige Koordinaten`)
@@ -207,7 +224,7 @@ const index = {
 writeJson(join(DATA, 'index.json'), index)
 
 // Suchindex
-const search = all.map((e) => ({
+const search = all.filter((e) => e.type !== 'script_word').map((e) => ({
   id: e.id,
   t: e.type,
   n: e.names.de,
@@ -225,6 +242,7 @@ for (const f of [
   'entities/rivers.json',
   'entities/lakes.json',
   'entities/mountains.json',
+  'entities/script-words.json',
   'relationships/index.json',
   ...regionFiles.map((f) => `entities/regions/${f}`),
   ...plateFiles.map((f) => `entities/license-plates/${f}`),
@@ -272,6 +290,10 @@ lines.push(
   '## Geodaten',
   '',
   '[Natural Earth](https://www.naturalearthdata.com/) (Public Domain), [geoBoundaries](https://www.geoboundaries.org/) (CC BY 4.0), [mledoze/countries](https://github.com/mledoze/countries) (ODbL 1.0), [Wikidata](https://www.wikidata.org/) (CC0).',
+  '',
+  '## Schriften und Umschrift',
+  '',
+  'Der kuratierte russische und griechische Grundwortschatz verwendet eine didaktische, international lesbare Lernumschrift nach den Grundsätzen der [Unicode-CLDR-Transliterationsrichtlinien](https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines). Gebräuchliche deutsche Varianten werden zusätzlich als richtige Eingaben akzeptiert.',
 )
 writeJson(join(DATA, 'attribution.json'), { markdown: lines.join('\n') })
 

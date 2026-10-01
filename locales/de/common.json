@@ -4,7 +4,7 @@
     "tagline": "Die Welt im Kopf. Den Funken im Blick.",
     "guest_hook": "Wie gut kennst du die Welt?",
     "play_now": "Jetzt spielen",
-    "hero_sub": "Flaggen, Hauptstädte, Regionen, Karten und Sehenswürdigkeiten – ein interaktiver Atlas zum Spielen und Lernen.",
+    "hero_sub": "Flaggen, Hauptstädte, Regionen, Karten, Sehenswürdigkeiten und Schriften – ein interaktiver Atlas zum Spielen und Lernen.",
     "continue": "Weiterspielen"
   },
   "nav": {
@@ -31,6 +31,7 @@
     "images": "Bilder",
     "landmarks": "Sehenswürdigkeiten",
     "license_plates": "Kennzeichen",
+    "languages": "Schriften & Sprachen",
     "water": "Flüsse & Seen",
     "nature": "Berge",
     "mixed": "Gemischt"
@@ -139,7 +140,8 @@
     "hide_flag_hints_desc": "Verbirgt bei {{count}} Länderflaggen Schrift oder Landesumrisse bis zur Antwort. Danach erscheint immer die vollständige Originalflagge.",
     "flag_hints_short": "Flaggenhinweise",
     "hidden": "Verdeckt",
-    "original": "Original"
+    "original": "Original",
+    "script_note": "Hier übst du die Umschrift: Zeichen werden in lateinische Buchstaben übertragen, nicht ins Deutsche übersetzt. Die Bedeutung erscheint nach jeder Antwort."
   },
   "modes_desc": {
     "flag_to_name": "Du siehst die Flagge und wählst ihren Namen.",
@@ -179,7 +181,11 @@
     "plate_to_region": "Bundesland oder Kanton erkennen.",
     "plate_input": "Ort zum Kennzeichen eintippen.",
     "city_to_plate_input": "Kennzeichen zum Ort frei eintippen.",
-    "region_flag_to_country": "Zu welchem Land gehört diese Regionalflagge?"
+    "region_flag_to_country": "Zu welchem Land gehört diese Regionalflagge?",
+    "cyrillic_to_latin": "Russische Wörter und Buchstaben aus Kyrillisch lesen und die lateinische Umschrift wählen.",
+    "greek_to_latin": "Griechische Wörter und Buchstaben lesen und die lateinische Umschrift wählen.",
+    "script_input": "Die lateinische Umschrift selbst eintippen – gebräuchliche Varianten werden akzeptiert.",
+    "latin_to_script": "Von der lateinischen Umschrift zurück zum passenden Originalzeichen oder -wort."
   },
   "modes": {
     "auto": "Automatisch",
@@ -220,7 +226,11 @@
     "plate_to_region": "Kennzeichen → Region",
     "plate_input": "Kennzeichen → Ort eintippen",
     "city_to_plate_input": "Ort → Kennzeichen eintippen",
-    "region_flag_to_country": "Regionalflagge → Land"
+    "region_flag_to_country": "Regionalflagge → Land",
+    "cyrillic_to_latin": "Kyrillisch → Lateinisch",
+    "greek_to_latin": "Griechisch → Lateinisch",
+    "script_input": "Umschrift eintippen",
+    "latin_to_script": "Lateinisch → Original"
   },
   "q": {
     "flag_to_country": "Welche Flagge ist das?",
@@ -275,7 +285,10 @@
     "lake_larger": "Welcher See ist größer?",
     "mountain_higher": "Welcher Berg ist höher?",
     "water_on_map": "In welchem Land liegt {{name}}?",
-    "mountain_on_map": "In welchem Land liegt {{name}}?"
+    "mountain_on_map": "In welchem Land liegt {{name}}?",
+    "script_to_latin": "Welche lateinische Umschrift passt?",
+    "script_to_latin_input": "Schreibe das Wort oder Zeichen mit lateinischen Buchstaben.",
+    "latin_to_script": "Welche Schreibweise auf {{language}} gehört zu „{{text}}“?"
   },
   "daily": {
     "title": "Tägliche Rätsel",
@@ -675,7 +688,8 @@
     "license_plate": "Kennzeichen",
     "river": "Fluss",
     "lake": "See",
-    "mountain": "Berg"
+    "mountain": "Berg",
+    "script_word": "Schrift-Lernkarte"
   },
   "common": {
     "loading": "Wird geladen …",

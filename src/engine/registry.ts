@@ -6,6 +6,7 @@ import * as rc from './generators/regionsCities'
 import * as im from './generators/imagesMaps'
 import * as pl from './generators/plates'
 import * as na from './generators/nature'
+import * as la from './generators/languages'
 import type { CategoryId } from './types'
 import { AUTO, MIXED_EXCLUDE, PLAY_QUIZZES, autoModes, quizFor, type QuizMode } from '@/config/quizzes'
 
@@ -17,6 +18,7 @@ const all: Generator[] = [
   im.imageToLandmark, im.imageToLandmarkInput, im.imageToCountry, im.imageToCity, im.landmarkToCountry, im.landmarkToCountryInput, im.landmarkToCity, im.countryOnMap, im.regionOnMap,
   pl.plateToCity, pl.cityToPlate, pl.plateToRegion, pl.plateInput, pl.cityToPlateInput,
   na.riverToCountry, na.lakeToCountry, na.mountainToCountry, na.riverLonger, na.lakeLarger, na.mountainHigher, na.waterOnMap, na.mountainOnMap,
+  la.cyrillicToLatin, la.greekToLatin, la.scriptToLatinInput, la.latinToScript,
 ]
 
 export const registry = new Map<string, Generator>(all.map((g) => [g.id, g]))

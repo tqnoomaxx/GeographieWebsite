@@ -34,6 +34,7 @@ export const loadLandmarks = () => fetchJson<Entity[]>('entities/landmarks.json'
 export const loadRivers = () => fetchJson<Entity[]>('entities/rivers.json').catch(() => [] as Entity[])
 export const loadLakes = () => fetchJson<Entity[]>('entities/lakes.json').catch(() => [] as Entity[])
 export const loadMountains = () => fetchJson<Entity[]>('entities/mountains.json').catch(() => [] as Entity[])
+export const loadScriptWords = () => fetchJson<Entity[]>('entities/script-words.json')
 export const loadRelationships = () => fetchJson<Relationship[]>('relationships/index.json')
 export const loadWorld = () => fetchJson<GeoJSON.FeatureCollection>('geo/world.json')
 export const loadOutline = (iso2: string) => fetchJson<GeoJSON.Geometry>(`geo/outlines/${iso2}.json`)
@@ -94,6 +95,8 @@ export async function loadEntity(id: string): Promise<Entity | undefined> {
       return (await loadLakes()).find((c) => c.id === id)
     case 'mountain':
       return (await loadMountains()).find((c) => c.id === id)
+    case 'script_word':
+      return (await loadScriptWords()).find((c) => c.id === id)
     case 'region': {
       const iso2 = rest.split('-')[0]
       return (await loadRegions(`country:${iso2}`)).find((r) => r.id === id)
@@ -118,6 +121,8 @@ export async function loadEntitiesByType(type: Entity['type']): Promise<Entity[]
       return loadLandmarks()
     case 'region':
       return loadAllRegions()
+    case 'script_word':
+      return loadScriptWords()
     default:
       return []
   }

@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
 import type { Country, DataIndex, Entity, Relationship } from '@/domain/types'
-import { loadAllRegions, loadCities, loadCountries, loadIndex, loadLakes, loadLandmarks, loadMountains, loadRelationships, loadRivers } from '@/services/data/dataService'
+import { loadAllRegions, loadCities, loadCountries, loadIndex, loadLakes, loadLandmarks, loadMountains, loadRelationships, loadRivers, loadScriptWords } from '@/services/data/dataService'
 import { buildContext } from '@/engine/context'
 import { loadPlates } from '@/services/data/plates'
 import type { GeneratorContext } from '@/engine/types'
@@ -15,6 +15,7 @@ interface GeoData {
   rivers: Entity[]
   lakes: Entity[]
   mountains: Entity[]
+  scriptWords: Entity[]
   regions: Entity[]
   relationships: Relationship[]
   byId: Map<string, Entity>
@@ -30,7 +31,7 @@ interface GeoData {
 const Ctx = createContext<GeoData | null>(null)
 
 export function DataProvider({ children }: { children: ReactNode }) {
-  const [state, setState] = useState<Pick<GeoData, 'index' | 'countries' | 'cities' | 'landmarks' | 'rivers' | 'lakes' | 'mountains' | 'relationships'> & { ready: boolean; error?: Error }>({
+  const [state, setState] = useState<Pick<GeoData, 'index' | 'countries' | 'cities' | 'landmarks' | 'rivers' | 'lakes' | 'mountains' | 'scriptWords' | 'relationships'> & { ready: boolean; error?: Error }>({
     ready: false,
     countries: [],
     cities: [],
@@ -38,6 +39,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
     rivers: [],
     lakes: [],
     mountains: [],
+    scriptWords: [],
     relationships: [],
   })
   const [regions, setRegions] = useState<Entity[]>([])
@@ -48,9 +50,9 @@ export function DataProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     let cancelled = false
-    Promise.all([loadIndex(), loadCountries(), loadCities(), loadLandmarks(), loadRelationships(), loadRivers(), loadLakes(), loadMountains()])
-      .then(([index, countries, cities, landmarks, relationships, rivers, lakes, mountains]) => {
-        if (!cancelled) setState({ ready: true, index, countries, cities, landmarks, relationships, rivers, lakes, mountains })
+    Promise.all([loadIndex(), loadCountries(), loadCities(), loadLandmarks(), loadRelationships(), loadRivers(), loadLakes(), loadMountains(), loadScriptWords()])
+      .then(([index, countries, cities, landmarks, relationships, rivers, lakes, mountains, scriptWords]) => {
+        if (!cancelled) setState({ ready: true, index, countries, cities, landmarks, relationships, rivers, lakes, mountains, scriptWords })
       })
       .catch((error: Error) => !cancelled && setState((s) => ({ ...s, error })))
     return () => {
@@ -60,9 +62,9 @@ export function DataProvider({ children }: { children: ReactNode }) {
 
   const byId = useMemo(() => {
     const m = new Map<string, Entity>()
-    for (const list of [state.countries, state.cities, state.landmarks, state.rivers, state.lakes, state.mountains, regions, plates]) for (const e of list) m.set(e.id, e)
+    for (const list of [state.countries, state.cities, state.landmarks, state.rivers, state.lakes, state.mountains, state.scriptWords, regions, plates]) for (const e of list) m.set(e.id, e)
     return m
-  }, [state.countries, state.cities, state.landmarks, state.rivers, state.lakes, state.mountains, regions, plates])
+  }, [state.countries, state.cities, state.landmarks, state.rivers, state.lakes, state.mountains, state.scriptWords, regions, plates])
 
   const value = useMemo<GeoData>(
     () => ({
@@ -89,7 +91,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
         return list
       },
       contextFor: (scope) =>
-        buildContext({ countries: state.countries, cities: state.cities, landmarks: state.landmarks, rivers: state.rivers, lakes: state.lakes, mountains: state.mountains, regions, plates, relationships: state.relationships, scope }),
+        buildContext({ countries: state.countries, cities: state.cities, landmarks: state.landmarks, rivers: state.rivers, lakes: state.lakes, mountains: state.mountains, scriptWords: state.scriptWords, regions, plates, relationships: state.relationships, scope }),
       retry: () => setAttempt((a) => a + 1),
     }),
     [state, regions, regionsLoaded, plates, platesLoaded, byId],

@@ -1,0 +1,3902 @@
+[
+ {
+  "id": "script_word:ru-a",
+  "type": "script_word",
+  "names": {
+   "de": "а",
+   "en": "a"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "а",
+   "transliteration": "a",
+   "accepted": [
+    "a"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-be",
+  "type": "script_word",
+  "names": {
+   "de": "б",
+   "en": "b"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "б",
+   "transliteration": "b",
+   "accepted": [
+    "b"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-ve",
+  "type": "script_word",
+  "names": {
+   "de": "в",
+   "en": "v"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "в",
+   "transliteration": "v",
+   "accepted": [
+    "v"
+   ],
+   "meaning": [
+    "w"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-ge",
+  "type": "script_word",
+  "names": {
+   "de": "г",
+   "en": "g"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "г",
+   "transliteration": "g",
+   "accepted": [
+    "g"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-de",
+  "type": "script_word",
+  "names": {
+   "de": "д",
+   "en": "d"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "д",
+   "transliteration": "d",
+   "accepted": [
+    "d"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-ye",
+  "type": "script_word",
+  "names": {
+   "de": "е",
+   "en": "ye"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "е",
+   "transliteration": "ye",
+   "accepted": [
+    "ye"
+   ],
+   "meaning": [
+    "je",
+    "e"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-yo",
+  "type": "script_word",
+  "names": {
+   "de": "ё",
+   "en": "yo"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "ё",
+   "transliteration": "yo",
+   "accepted": [
+    "yo"
+   ],
+   "meaning": [
+    "jo",
+    "yë"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-zhe",
+  "type": "script_word",
+  "names": {
+   "de": "ж",
+   "en": "zh"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "ж",
+   "transliteration": "zh",
+   "accepted": [
+    "zh"
+   ],
+   "meaning": [
+    "sch"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-ze",
+  "type": "script_word",
+  "names": {
+   "de": "з",
+   "en": "z"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "з",
+   "transliteration": "z",
+   "accepted": [
+    "z"
+   ],
+   "meaning": [
+    "s"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-i",
+  "type": "script_word",
+  "names": {
+   "de": "и",
+   "en": "i"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "и",
+   "transliteration": "i",
+   "accepted": [
+    "i"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-short-i",
+  "type": "script_word",
+  "names": {
+   "de": "й",
+   "en": "y"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "й",
+   "transliteration": "y",
+   "accepted": [
+    "y"
+   ],
+   "meaning": [
+    "j",
+    "i kratkoje"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-ka",
+  "type": "script_word",
+  "names": {
+   "de": "к",
+   "en": "k"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "к",
+   "transliteration": "k",
+   "accepted": [
+    "k"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-el",
+  "type": "script_word",
+  "names": {
+   "de": "л",
+   "en": "l"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "л",
+   "transliteration": "l",
+   "accepted": [
+    "l"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-em",
+  "type": "script_word",
+  "names": {
+   "de": "м",
+   "en": "m"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "м",
+   "transliteration": "m",
+   "accepted": [
+    "m"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-en",
+  "type": "script_word",
+  "names": {
+   "de": "н",
+   "en": "n"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "н",
+   "transliteration": "n",
+   "accepted": [
+    "n"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-o",
+  "type": "script_word",
+  "names": {
+   "de": "о",
+   "en": "o"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "о",
+   "transliteration": "o",
+   "accepted": [
+    "o"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-pe",
+  "type": "script_word",
+  "names": {
+   "de": "п",
+   "en": "p"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "п",
+   "transliteration": "p",
+   "accepted": [
+    "p"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-er",
+  "type": "script_word",
+  "names": {
+   "de": "р",
+   "en": "r"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "р",
+   "transliteration": "r",
+   "accepted": [
+    "r"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-es",
+  "type": "script_word",
+  "names": {
+   "de": "с",
+   "en": "s"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "с",
+   "transliteration": "s",
+   "accepted": [
+    "s"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-te",
+  "type": "script_word",
+  "names": {
+   "de": "т",
+   "en": "t"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "т",
+   "transliteration": "t",
+   "accepted": [
+    "t"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-u",
+  "type": "script_word",
+  "names": {
+   "de": "у",
+   "en": "u"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "у",
+   "transliteration": "u",
+   "accepted": [
+    "u"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-ef",
+  "type": "script_word",
+  "names": {
+   "de": "ф",
+   "en": "f"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "ф",
+   "transliteration": "f",
+   "accepted": [
+    "f"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-kha",
+  "type": "script_word",
+  "names": {
+   "de": "х",
+   "en": "kh"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "х",
+   "transliteration": "kh",
+   "accepted": [
+    "kh"
+   ],
+   "meaning": [
+    "ch"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-tse",
+  "type": "script_word",
+  "names": {
+   "de": "ц",
+   "en": "ts"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "ц",
+   "transliteration": "ts",
+   "accepted": [
+    "ts"
+   ],
+   "meaning": [
+    "z"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-che",
+  "type": "script_word",
+  "names": {
+   "de": "ч",
+   "en": "ch"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "ч",
+   "transliteration": "ch",
+   "accepted": [
+    "ch"
+   ],
+   "meaning": [
+    "tsch"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-sha",
+  "type": "script_word",
+  "names": {
+   "de": "ш",
+   "en": "sh"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "ш",
+   "transliteration": "sh",
+   "accepted": [
+    "sh"
+   ],
+   "meaning": [
+    "sch"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-shcha",
+  "type": "script_word",
+  "names": {
+   "de": "щ",
+   "en": "shch"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "щ",
+   "transliteration": "shch",
+   "accepted": [
+    "shch"
+   ],
+   "meaning": [
+    "schtsch"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-yery",
+  "type": "script_word",
+  "names": {
+   "de": "ы",
+   "en": "y"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "ы",
+   "transliteration": "y",
+   "accepted": [
+    "y"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-e-reverse",
+  "type": "script_word",
+  "names": {
+   "de": "э",
+   "en": "e"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "э",
+   "transliteration": "e",
+   "accepted": [
+    "e"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-yu",
+  "type": "script_word",
+  "names": {
+   "de": "ю",
+   "en": "yu"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "ю",
+   "transliteration": "yu",
+   "accepted": [
+    "yu"
+   ],
+   "meaning": [
+    "ju"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-ya",
+  "type": "script_word",
+  "names": {
+   "de": "я",
+   "en": "ya"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "letter",
+   "original": "я",
+   "transliteration": "ya",
+   "accepted": [
+    "ya"
+   ],
+   "meaning": [
+    "ja"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-moskva",
+  "type": "script_word",
+  "names": {
+   "de": "Москва",
+   "en": "Moskva"
+  },
+  "aliases": [
+   "Moskwa"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "Москва",
+   "transliteration": "Moskva",
+   "accepted": [
+    "Moskva",
+    "Moskwa"
+   ],
+   "meaning": "Moskau",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-rossiya",
+  "type": "script_word",
+  "names": {
+   "de": "Россия",
+   "en": "Rossiya"
+  },
+  "aliases": [
+   "Rossija"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "Россия",
+   "transliteration": "Rossiya",
+   "accepted": [
+    "Rossiya",
+    "Rossija"
+   ],
+   "meaning": "Russland",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-sankt-peterburg",
+  "type": "script_word",
+  "names": {
+   "de": "Санкт-Петербург",
+   "en": "Sankt-Peterburg"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "Санкт-Петербург",
+   "transliteration": "Sankt-Peterburg",
+   "accepted": [
+    "Sankt-Peterburg"
+   ],
+   "meaning": "Sankt Petersburg",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-volga",
+  "type": "script_word",
+  "names": {
+   "de": "Волга",
+   "en": "Volga"
+  },
+  "aliases": [
+   "Wolga"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "Волга",
+   "transliteration": "Volga",
+   "accepted": [
+    "Volga",
+    "Wolga"
+   ],
+   "meaning": "Wolga",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-baykal",
+  "type": "script_word",
+  "names": {
+   "de": "Байкал",
+   "en": "Baykal"
+  },
+  "aliases": [
+   "Baikal"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "Байкал",
+   "transliteration": "Baykal",
+   "accepted": [
+    "Baykal",
+    "Baikal"
+   ],
+   "meaning": "Baikalsee",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-yevropa",
+  "type": "script_word",
+  "names": {
+   "de": "Европа",
+   "en": "Yevropa"
+  },
+  "aliases": [
+   "Jevropa",
+   "Evropa"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "Европа",
+   "transliteration": "Yevropa",
+   "accepted": [
+    "Yevropa",
+    "Jevropa",
+    "Evropa"
+   ],
+   "meaning": "Europa",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-aziya",
+  "type": "script_word",
+  "names": {
+   "de": "Азия",
+   "en": "Aziya"
+  },
+  "aliases": [
+   "Azija"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "Азия",
+   "transliteration": "Aziya",
+   "accepted": [
+    "Aziya",
+    "Azija"
+   ],
+   "meaning": "Asien",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-germaniya",
+  "type": "script_word",
+  "names": {
+   "de": "Германия",
+   "en": "Germaniya"
+  },
+  "aliases": [
+   "Germanija"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "Германия",
+   "transliteration": "Germaniya",
+   "accepted": [
+    "Germaniya",
+    "Germanija"
+   ],
+   "meaning": "Deutschland",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-karta",
+  "type": "script_word",
+  "names": {
+   "de": "карта",
+   "en": "karta"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "карта",
+   "transliteration": "karta",
+   "accepted": [
+    "karta"
+   ],
+   "meaning": "Karte",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-reka",
+  "type": "script_word",
+  "names": {
+   "de": "река",
+   "en": "reka"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "река",
+   "transliteration": "reka",
+   "accepted": [
+    "reka"
+   ],
+   "meaning": "Fluss",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-gora",
+  "type": "script_word",
+  "names": {
+   "de": "гора",
+   "en": "gora"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "гора",
+   "transliteration": "gora",
+   "accepted": [
+    "gora"
+   ],
+   "meaning": "Berg",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-more",
+  "type": "script_word",
+  "names": {
+   "de": "море",
+   "en": "more"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "море",
+   "transliteration": "more",
+   "accepted": [
+    "more"
+   ],
+   "meaning": "Meer",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-ozero",
+  "type": "script_word",
+  "names": {
+   "de": "озеро",
+   "en": "ozero"
+  },
+  "aliases": [
+   "osero"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "озеро",
+   "transliteration": "ozero",
+   "accepted": [
+    "ozero",
+    "osero"
+   ],
+   "meaning": "See",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-gorod",
+  "type": "script_word",
+  "names": {
+   "de": "город",
+   "en": "gorod"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "город",
+   "transliteration": "gorod",
+   "accepted": [
+    "gorod"
+   ],
+   "meaning": "Stadt",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-strana",
+  "type": "script_word",
+  "names": {
+   "de": "страна",
+   "en": "strana"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "страна",
+   "transliteration": "strana",
+   "accepted": [
+    "strana"
+   ],
+   "meaning": "Land",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-sever",
+  "type": "script_word",
+  "names": {
+   "de": "север",
+   "en": "sever"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "север",
+   "transliteration": "sever",
+   "accepted": [
+    "sever"
+   ],
+   "meaning": "Norden",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-yug",
+  "type": "script_word",
+  "names": {
+   "de": "юг",
+   "en": "yug"
+  },
+  "aliases": [
+   "jug"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "юг",
+   "transliteration": "yug",
+   "accepted": [
+    "yug",
+    "jug"
+   ],
+   "meaning": "Süden",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-vostok",
+  "type": "script_word",
+  "names": {
+   "de": "восток",
+   "en": "vostok"
+  },
+  "aliases": [
+   "wostok"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "восток",
+   "transliteration": "vostok",
+   "accepted": [
+    "vostok",
+    "wostok"
+   ],
+   "meaning": "Osten",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-zapad",
+  "type": "script_word",
+  "names": {
+   "de": "запад",
+   "en": "zapad"
+  },
+  "aliases": [
+   "sapad"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "запад",
+   "transliteration": "zapad",
+   "accepted": [
+    "zapad",
+    "sapad"
+   ],
+   "meaning": "Westen",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-privet",
+  "type": "script_word",
+  "names": {
+   "de": "привет",
+   "en": "privet"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "привет",
+   "transliteration": "privet",
+   "accepted": [
+    "privet"
+   ],
+   "meaning": "Hallo",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-spasibo",
+  "type": "script_word",
+  "names": {
+   "de": "спасибо",
+   "en": "spasibo"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "спасибо",
+   "transliteration": "spasibo",
+   "accepted": [
+    "spasibo"
+   ],
+   "meaning": "Danke",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-da",
+  "type": "script_word",
+  "names": {
+   "de": "да",
+   "en": "da"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "да",
+   "transliteration": "da",
+   "accepted": [
+    "da"
+   ],
+   "meaning": "ja",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-net",
+  "type": "script_word",
+  "names": {
+   "de": "нет",
+   "en": "net"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "нет",
+   "transliteration": "net",
+   "accepted": [
+    "net"
+   ],
+   "meaning": "nein",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-voda",
+  "type": "script_word",
+  "names": {
+   "de": "вода",
+   "en": "voda"
+  },
+  "aliases": [
+   "woda"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "вода",
+   "transliteration": "voda",
+   "accepted": [
+    "voda",
+    "woda"
+   ],
+   "meaning": "Wasser",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-zemlya",
+  "type": "script_word",
+  "names": {
+   "de": "земля",
+   "en": "zemlya"
+  },
+  "aliases": [
+   "semlja",
+   "zemlia"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "земля",
+   "transliteration": "zemlya",
+   "accepted": [
+    "zemlya",
+    "semlja",
+    "zemlia"
+   ],
+   "meaning": "Erde / Land",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-mir",
+  "type": "script_word",
+  "names": {
+   "de": "мир",
+   "en": "mir"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "мир",
+   "transliteration": "mir",
+   "accepted": [
+    "mir"
+   ],
+   "meaning": "Welt / Frieden",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-shkola",
+  "type": "script_word",
+  "names": {
+   "de": "школа",
+   "en": "shkola"
+  },
+  "aliases": [
+   "schkola"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "школа",
+   "transliteration": "shkola",
+   "accepted": [
+    "shkola",
+    "schkola"
+   ],
+   "meaning": "Schule",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-kniga",
+  "type": "script_word",
+  "names": {
+   "de": "книга",
+   "en": "kniga"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "книга",
+   "transliteration": "kniga",
+   "accepted": [
+    "kniga"
+   ],
+   "meaning": "Buch",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-yazyk",
+  "type": "script_word",
+  "names": {
+   "de": "язык",
+   "en": "yazyk"
+  },
+  "aliases": [
+   "jazyk"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "язык",
+   "transliteration": "yazyk",
+   "accepted": [
+    "yazyk",
+    "jazyk"
+   ],
+   "meaning": "Sprache",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-chelovek",
+  "type": "script_word",
+  "names": {
+   "de": "человек",
+   "en": "chelovek"
+  },
+  "aliases": [
+   "tschelowek"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "человек",
+   "transliteration": "chelovek",
+   "accepted": [
+    "chelovek",
+    "tschelowek"
+   ],
+   "meaning": "Mensch",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-khorosho",
+  "type": "script_word",
+  "names": {
+   "de": "хорошо",
+   "en": "khorosho"
+  },
+  "aliases": [
+   "choroscho"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "хорошо",
+   "transliteration": "khorosho",
+   "accepted": [
+    "khorosho",
+    "choroscho"
+   ],
+   "meaning": "gut",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-ostrov",
+  "type": "script_word",
+  "names": {
+   "de": "остров",
+   "en": "ostrov"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "остров",
+   "transliteration": "ostrov",
+   "accepted": [
+    "ostrov"
+   ],
+   "meaning": "Insel",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-solntse",
+  "type": "script_word",
+  "names": {
+   "de": "солнце",
+   "en": "solntse"
+  },
+  "aliases": [
+   "solnze"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "солнце",
+   "transliteration": "solntse",
+   "accepted": [
+    "solntse",
+    "solnze"
+   ],
+   "meaning": "Sonne",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-semya",
+  "type": "script_word",
+  "names": {
+   "de": "семья",
+   "en": "semya"
+  },
+  "aliases": [
+   "semja"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "семья",
+   "transliteration": "semya",
+   "accepted": [
+    "semya",
+    "semja"
+   ],
+   "meaning": "Familie",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-drug",
+  "type": "script_word",
+  "names": {
+   "de": "друг",
+   "en": "drug"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "друг",
+   "transliteration": "drug",
+   "accepted": [
+    "drug"
+   ],
+   "meaning": "Freund",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-muzey",
+  "type": "script_word",
+  "names": {
+   "de": "музей",
+   "en": "muzey"
+  },
+  "aliases": [
+   "musej"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "музей",
+   "transliteration": "muzey",
+   "accepted": [
+    "muzey",
+    "musej"
+   ],
+   "meaning": "Museum",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-aeroport",
+  "type": "script_word",
+  "names": {
+   "de": "аэропорт",
+   "en": "aeroport"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "аэропорт",
+   "transliteration": "aeroport",
+   "accepted": [
+    "aeroport"
+   ],
+   "meaning": "Flughafen",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:ru-puteshestviye",
+  "type": "script_word",
+  "names": {
+   "de": "путешествие",
+   "en": "puteshestviye"
+  },
+  "aliases": [
+   "puteschestwije"
+  ],
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "script": "cyrillic",
+   "script_name": "Kyrillisch",
+   "kind": "word",
+   "original": "путешествие",
+   "transliteration": "puteshestviye",
+   "accepted": [
+    "puteshestviye",
+    "puteschestwije"
+   ],
+   "meaning": "Reise",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-alpha",
+  "type": "script_word",
+  "names": {
+   "de": "α",
+   "en": "a"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "α",
+   "transliteration": "a",
+   "accepted": [
+    "a"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-beta",
+  "type": "script_word",
+  "names": {
+   "de": "β",
+   "en": "v"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "β",
+   "transliteration": "v",
+   "accepted": [
+    "v"
+   ],
+   "meaning": [
+    "b"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-gamma",
+  "type": "script_word",
+  "names": {
+   "de": "γ",
+   "en": "g"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "γ",
+   "transliteration": "g",
+   "accepted": [
+    "g"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-delta",
+  "type": "script_word",
+  "names": {
+   "de": "δ",
+   "en": "d"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "δ",
+   "transliteration": "d",
+   "accepted": [
+    "d"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-epsilon",
+  "type": "script_word",
+  "names": {
+   "de": "ε",
+   "en": "e"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "ε",
+   "transliteration": "e",
+   "accepted": [
+    "e"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-zeta",
+  "type": "script_word",
+  "names": {
+   "de": "ζ",
+   "en": "z"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "ζ",
+   "transliteration": "z",
+   "accepted": [
+    "z"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-eta",
+  "type": "script_word",
+  "names": {
+   "de": "η",
+   "en": "i"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "η",
+   "transliteration": "i",
+   "accepted": [
+    "i"
+   ],
+   "meaning": [
+    "e",
+    "ē"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-theta",
+  "type": "script_word",
+  "names": {
+   "de": "θ",
+   "en": "th"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "θ",
+   "transliteration": "th",
+   "accepted": [
+    "th"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-iota",
+  "type": "script_word",
+  "names": {
+   "de": "ι",
+   "en": "i"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "ι",
+   "transliteration": "i",
+   "accepted": [
+    "i"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-kappa",
+  "type": "script_word",
+  "names": {
+   "de": "κ",
+   "en": "k"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "κ",
+   "transliteration": "k",
+   "accepted": [
+    "k"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-lambda",
+  "type": "script_word",
+  "names": {
+   "de": "λ",
+   "en": "l"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "λ",
+   "transliteration": "l",
+   "accepted": [
+    "l"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-my",
+  "type": "script_word",
+  "names": {
+   "de": "μ",
+   "en": "m"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "μ",
+   "transliteration": "m",
+   "accepted": [
+    "m"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-ny",
+  "type": "script_word",
+  "names": {
+   "de": "ν",
+   "en": "n"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "ν",
+   "transliteration": "n",
+   "accepted": [
+    "n"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-xi",
+  "type": "script_word",
+  "names": {
+   "de": "ξ",
+   "en": "x"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "ξ",
+   "transliteration": "x",
+   "accepted": [
+    "x"
+   ],
+   "meaning": [
+    "ks"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-omikron",
+  "type": "script_word",
+  "names": {
+   "de": "ο",
+   "en": "o"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "ο",
+   "transliteration": "o",
+   "accepted": [
+    "o"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-pi",
+  "type": "script_word",
+  "names": {
+   "de": "π",
+   "en": "p"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "π",
+   "transliteration": "p",
+   "accepted": [
+    "p"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-rho",
+  "type": "script_word",
+  "names": {
+   "de": "ρ",
+   "en": "r"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "ρ",
+   "transliteration": "r",
+   "accepted": [
+    "r"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-sigma",
+  "type": "script_word",
+  "names": {
+   "de": "σ",
+   "en": "s"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "σ",
+   "transliteration": "s",
+   "accepted": [
+    "s"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-tau",
+  "type": "script_word",
+  "names": {
+   "de": "τ",
+   "en": "t"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "τ",
+   "transliteration": "t",
+   "accepted": [
+    "t"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-ypsilon",
+  "type": "script_word",
+  "names": {
+   "de": "υ",
+   "en": "y"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "υ",
+   "transliteration": "y",
+   "accepted": [
+    "y"
+   ],
+   "meaning": [
+    "i",
+    "u"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-phi",
+  "type": "script_word",
+  "names": {
+   "de": "φ",
+   "en": "f"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "φ",
+   "transliteration": "f",
+   "accepted": [
+    "f"
+   ],
+   "meaning": [
+    "ph"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-chi",
+  "type": "script_word",
+  "names": {
+   "de": "χ",
+   "en": "ch"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "χ",
+   "transliteration": "ch",
+   "accepted": [
+    "ch"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-psi",
+  "type": "script_word",
+  "names": {
+   "de": "ψ",
+   "en": "ps"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "ψ",
+   "transliteration": "ps",
+   "accepted": [
+    "ps"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-omega",
+  "type": "script_word",
+  "names": {
+   "de": "ω",
+   "en": "o"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "letter",
+   "original": "ω",
+   "transliteration": "o",
+   "accepted": [
+    "o"
+   ],
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-ellada",
+  "type": "script_word",
+  "names": {
+   "de": "Ελλάδα",
+   "en": "Ellada"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "Ελλάδα",
+   "transliteration": "Ellada",
+   "accepted": [
+    "Ellada"
+   ],
+   "meaning": "Griechenland",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-athina",
+  "type": "script_word",
+  "names": {
+   "de": "Αθήνα",
+   "en": "Athina"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "Αθήνα",
+   "transliteration": "Athina",
+   "accepted": [
+    "Athina"
+   ],
+   "meaning": "Athen",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-thessaloniki",
+  "type": "script_word",
+  "names": {
+   "de": "Θεσσαλονίκη",
+   "en": "Thessaloniki"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "Θεσσαλονίκη",
+   "transliteration": "Thessaloniki",
+   "accepted": [
+    "Thessaloniki"
+   ],
+   "meaning": "Thessaloniki",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-kriti",
+  "type": "script_word",
+  "names": {
+   "de": "Κρήτη",
+   "en": "Kriti"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "Κρήτη",
+   "transliteration": "Kriti",
+   "accepted": [
+    "Kriti"
+   ],
+   "meaning": "Kreta",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-kypros",
+  "type": "script_word",
+  "names": {
+   "de": "Κύπρος",
+   "en": "Kypros"
+  },
+  "aliases": [
+   "Kipros"
+  ],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "Κύπρος",
+   "transliteration": "Kypros",
+   "accepted": [
+    "Kypros",
+    "Kipros"
+   ],
+   "meaning": "Zypern",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-evropi",
+  "type": "script_word",
+  "names": {
+   "de": "Ευρώπη",
+   "en": "Evropi"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "Ευρώπη",
+   "transliteration": "Evropi",
+   "accepted": [
+    "Evropi"
+   ],
+   "meaning": "Europa",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-asia",
+  "type": "script_word",
+  "names": {
+   "de": "Ασία",
+   "en": "Asia"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "Ασία",
+   "transliteration": "Asia",
+   "accepted": [
+    "Asia"
+   ],
+   "meaning": "Asien",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-geografia",
+  "type": "script_word",
+  "names": {
+   "de": "γεωγραφία",
+   "en": "geografia"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "γεωγραφία",
+   "transliteration": "geografia",
+   "accepted": [
+    "geografia"
+   ],
+   "meaning": "Geografie",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-chartis",
+  "type": "script_word",
+  "names": {
+   "de": "χάρτης",
+   "en": "chartis"
+  },
+  "aliases": [
+   "hartis"
+  ],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "χάρτης",
+   "transliteration": "chartis",
+   "accepted": [
+    "chartis",
+    "hartis"
+   ],
+   "meaning": "Karte",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-poli",
+  "type": "script_word",
+  "names": {
+   "de": "πόλη",
+   "en": "poli"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "πόλη",
+   "transliteration": "poli",
+   "accepted": [
+    "poli"
+   ],
+   "meaning": "Stadt",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-chora",
+  "type": "script_word",
+  "names": {
+   "de": "χώρα",
+   "en": "chora"
+  },
+  "aliases": [
+   "hora"
+  ],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "χώρα",
+   "transliteration": "chora",
+   "accepted": [
+    "chora",
+    "hora"
+   ],
+   "meaning": "Land",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-thalassa",
+  "type": "script_word",
+  "names": {
+   "de": "θάλασσα",
+   "en": "thalassa"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "θάλασσα",
+   "transliteration": "thalassa",
+   "accepted": [
+    "thalassa"
+   ],
+   "meaning": "Meer",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-potami",
+  "type": "script_word",
+  "names": {
+   "de": "ποτάμι",
+   "en": "potami"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "ποτάμι",
+   "transliteration": "potami",
+   "accepted": [
+    "potami"
+   ],
+   "meaning": "Fluss",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-vouno",
+  "type": "script_word",
+  "names": {
+   "de": "βουνό",
+   "en": "vouno"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "βουνό",
+   "transliteration": "vouno",
+   "accepted": [
+    "vouno"
+   ],
+   "meaning": "Berg",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-limni",
+  "type": "script_word",
+  "names": {
+   "de": "λίμνη",
+   "en": "limni"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "λίμνη",
+   "transliteration": "limni",
+   "accepted": [
+    "limni"
+   ],
+   "meaning": "See",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-vorras",
+  "type": "script_word",
+  "names": {
+   "de": "βορράς",
+   "en": "vorras"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "βορράς",
+   "transliteration": "vorras",
+   "accepted": [
+    "vorras"
+   ],
+   "meaning": "Norden",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-notos",
+  "type": "script_word",
+  "names": {
+   "de": "νότος",
+   "en": "notos"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "νότος",
+   "transliteration": "notos",
+   "accepted": [
+    "notos"
+   ],
+   "meaning": "Süden",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-anatoli",
+  "type": "script_word",
+  "names": {
+   "de": "ανατολή",
+   "en": "anatoli"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "ανατολή",
+   "transliteration": "anatoli",
+   "accepted": [
+    "anatoli"
+   ],
+   "meaning": "Osten",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-dysi",
+  "type": "script_word",
+  "names": {
+   "de": "δύση",
+   "en": "dysi"
+  },
+  "aliases": [
+   "disi"
+  ],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "δύση",
+   "transliteration": "dysi",
+   "accepted": [
+    "dysi",
+    "disi"
+   ],
+   "meaning": "Westen",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-kalimera",
+  "type": "script_word",
+  "names": {
+   "de": "καλημέρα",
+   "en": "kalimera"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "καλημέρα",
+   "transliteration": "kalimera",
+   "accepted": [
+    "kalimera"
+   ],
+   "meaning": "Guten Morgen / Guten Tag",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-efcharisto",
+  "type": "script_word",
+  "names": {
+   "de": "ευχαριστώ",
+   "en": "efcharisto"
+  },
+  "aliases": [
+   "efharisto"
+  ],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "ευχαριστώ",
+   "transliteration": "efcharisto",
+   "accepted": [
+    "efcharisto",
+    "efharisto"
+   ],
+   "meaning": "Danke",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-nai",
+  "type": "script_word",
+  "names": {
+   "de": "ναι",
+   "en": "nai"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "ναι",
+   "transliteration": "nai",
+   "accepted": [
+    "nai"
+   ],
+   "meaning": "ja",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-ochi",
+  "type": "script_word",
+  "names": {
+   "de": "όχι",
+   "en": "ochi"
+  },
+  "aliases": [
+   "ohi"
+  ],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "όχι",
+   "transliteration": "ochi",
+   "accepted": [
+    "ochi",
+    "ohi"
+   ],
+   "meaning": "nein",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-nero",
+  "type": "script_word",
+  "names": {
+   "de": "νερό",
+   "en": "nero"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "νερό",
+   "transliteration": "nero",
+   "accepted": [
+    "nero"
+   ],
+   "meaning": "Wasser",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-gi",
+  "type": "script_word",
+  "names": {
+   "de": "γη",
+   "en": "gi"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "γη",
+   "transliteration": "gi",
+   "accepted": [
+    "gi"
+   ],
+   "meaning": "Erde / Land",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-kosmos",
+  "type": "script_word",
+  "names": {
+   "de": "κόσμος",
+   "en": "kosmos"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "κόσμος",
+   "transliteration": "kosmos",
+   "accepted": [
+    "kosmos"
+   ],
+   "meaning": "Welt",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-scholeio",
+  "type": "script_word",
+  "names": {
+   "de": "σχολείο",
+   "en": "scholeio"
+  },
+  "aliases": [
+   "scholio"
+  ],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "σχολείο",
+   "transliteration": "scholeio",
+   "accepted": [
+    "scholeio",
+    "scholio"
+   ],
+   "meaning": "Schule",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-vivlio",
+  "type": "script_word",
+  "names": {
+   "de": "βιβλίο",
+   "en": "vivlio"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "βιβλίο",
+   "transliteration": "vivlio",
+   "accepted": [
+    "vivlio"
+   ],
+   "meaning": "Buch",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-glossa",
+  "type": "script_word",
+  "names": {
+   "de": "γλώσσα",
+   "en": "glossa"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "γλώσσα",
+   "transliteration": "glossa",
+   "accepted": [
+    "glossa"
+   ],
+   "meaning": "Sprache",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-anthropos",
+  "type": "script_word",
+  "names": {
+   "de": "άνθρωπος",
+   "en": "anthropos"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "άνθρωπος",
+   "transliteration": "anthropos",
+   "accepted": [
+    "anthropos"
+   ],
+   "meaning": "Mensch",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-nisi",
+  "type": "script_word",
+  "names": {
+   "de": "νησί",
+   "en": "nisi"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "νησί",
+   "transliteration": "nisi",
+   "accepted": [
+    "nisi"
+   ],
+   "meaning": "Insel",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-ilios",
+  "type": "script_word",
+  "names": {
+   "de": "ήλιος",
+   "en": "ilios"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "ήλιος",
+   "transliteration": "ilios",
+   "accepted": [
+    "ilios"
+   ],
+   "meaning": "Sonne",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-agapi",
+  "type": "script_word",
+  "names": {
+   "de": "αγάπη",
+   "en": "agapi"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "αγάπη",
+   "transliteration": "agapi",
+   "accepted": [
+    "agapi"
+   ],
+   "meaning": "Liebe",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-oikogeneia",
+  "type": "script_word",
+  "names": {
+   "de": "οικογένεια",
+   "en": "oikogeneia"
+  },
+  "aliases": [
+   "ikogenia"
+  ],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "οικογένεια",
+   "transliteration": "oikogeneia",
+   "accepted": [
+    "oikogeneia",
+    "ikogenia"
+   ],
+   "meaning": "Familie",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-filos",
+  "type": "script_word",
+  "names": {
+   "de": "φίλος",
+   "en": "filos"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "φίλος",
+   "transliteration": "filos",
+   "accepted": [
+    "filos"
+   ],
+   "meaning": "Freund",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-mouseio",
+  "type": "script_word",
+  "names": {
+   "de": "μουσείο",
+   "en": "mouseio"
+  },
+  "aliases": [
+   "musio"
+  ],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "μουσείο",
+   "transliteration": "mouseio",
+   "accepted": [
+    "mouseio",
+    "musio"
+   ],
+   "meaning": "Museum",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-aerodromio",
+  "type": "script_word",
+  "names": {
+   "de": "αεροδρόμιο",
+   "en": "aerodromio"
+  },
+  "aliases": [],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "αεροδρόμιο",
+   "transliteration": "aerodromio",
+   "accepted": [
+    "aerodromio"
+   ],
+   "meaning": "Flughafen",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ },
+ {
+  "id": "script_word:el-taxidi",
+  "type": "script_word",
+  "names": {
+   "de": "ταξίδι",
+   "en": "taxidi"
+  },
+  "aliases": [
+   "taksidi"
+  ],
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "script": "greek",
+   "script_name": "Griechisch",
+   "kind": "word",
+   "original": "ταξίδι",
+   "transliteration": "taxidi",
+   "accepted": [
+    "taxidi",
+    "taksidi"
+   ],
+   "meaning": "Reise",
+   "system": "internationale Lernumschrift"
+  },
+  "provenance": {
+   "source": "Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift",
+   "imported_at": "2026-10-01",
+   "source_url": "https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines",
+   "license": "Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0"
+  }
+ }
+]

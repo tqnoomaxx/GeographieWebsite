@@ -259,16 +259,33 @@ test('Setup jeder Kategorie startet eine Runde', async ({ page }) => {
     'water',
     'nature',
     'license_plates',
+    'languages',
     'mixed',
   ]) {
     await page.goto(`play/${cat}`)
-    await expect(page.getByRole('radiogroup', { name: 'Bereich' })).toBeVisible()
+    if (cat === 'languages') await expect(page.getByRole('radiogroup', { name: 'Bereich' })).toHaveCount(0)
+    else await expect(page.getByRole('radiogroup', { name: 'Bereich' })).toBeVisible()
     const start = page.getByRole('button', { name: "Los geht's" })
     await expect(start).toBeEnabled({ timeout: 15000 })
     await start.click()
     await expect(page.getByText(/^1 \/ \d+$/)).toBeVisible()
     await expect(page.locator('[data-question-type]')).toBeVisible()
   }
+  expect(errors).toEqual([])
+})
+
+test('Schriftenmodus zeigt Original, Umschrift und Lernfakten', async ({ page }) => {
+  const errors = watchErrors(page)
+  await page.goto('play/languages')
+  await expect(page.getByRole('radiogroup', { name: 'Bereich' })).toHaveCount(0)
+  await page.getByRole('radio', { name: 'Kyrillisch → Lateinisch', exact: true }).click()
+  await page.getByRole('button', { name: "Los geht's" }).click()
+  await expect(page.locator('.script-study-card')).toBeVisible()
+  await expect(page.locator('.script-study-original')).not.toBeEmpty()
+  const answer = await page.locator('[data-question-type]').getAttribute('data-answer')
+  await page.locator(`[data-option-id="${answer}"]`).click()
+  await expect(page.getByRole('status')).toBeVisible()
+  await expect(page.getByRole('region', { name: 'Kurzfakten' })).toBeVisible()
   expect(errors).toEqual([])
 })
 

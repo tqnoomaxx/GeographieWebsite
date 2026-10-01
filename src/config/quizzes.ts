@@ -50,6 +50,8 @@ export interface QuizDef {
   perCountry?: boolean
   /** Inhaltsfilter Länder / Regionen / Alles anbieten */
   content?: boolean
+  /** false bei nicht-geografischen Lernbereichen. */
+  geographicScope?: boolean
   /** Startbereich, wenn noch nichts gespeichert ist */
   defaultScope?: string
   modes: QuizMode[]
@@ -94,6 +96,15 @@ export const QUIZZES: QuizDef[] = [
       { id: 'capital_to_country', form: 'choice', generators: ['capital_to_country'] },
       { id: 'capital_to_flag', form: 'choice', generators: ['capital_to_flag'] },
       { id: 'capital_input', form: 'input', generators: ['capital_input'] },
+    ],
+  },
+  {
+    id: 'languages', icon: '🔤', primary: true, countKey: 'script_word', geographicScope: false,
+    modes: [
+      { id: 'cyrillic_to_latin', form: 'choice', generators: ['cyrillic_to_latin'] },
+      { id: 'greek_to_latin', form: 'choice', generators: ['greek_to_latin'] },
+      { id: 'script_input', form: 'input', generators: ['script_to_latin_input'] },
+      { id: 'latin_to_script', form: 'choice', generators: ['latin_to_script'] },
     ],
   },
   {

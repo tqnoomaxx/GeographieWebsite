@@ -38,6 +38,7 @@ const plates = readdirSync(join(DATA, 'entities/license-plates')).flatMap((file)
 const rivers = read<Entity[]>('entities/rivers.json')
 const lakes = read<Entity[]>('entities/lakes.json')
 const mountains = read<Entity[]>('entities/mountains.json')
+const scriptWords = read<Entity[]>('entities/script-words.json')
 /** Runden-Setup mit Standardwerten (Automatisch, Welt, 10, Wiederholung an). */
 const setup = (o: Partial<RoundConfig> & { category: RoundConfig['category'] }): RoundConfig => ({
   mode: 'auto',
@@ -56,6 +57,7 @@ const ctx = (scope = 'world') =>
     rivers,
     lakes,
     mountains,
+    scriptWords,
     relationships,
     scope,
   })
@@ -126,6 +128,7 @@ describe('session', () => {
       'images',
       'landmarks',
       'license_plates',
+      'languages',
       'water',
       'nature',
       'mixed',
@@ -200,6 +203,51 @@ describe('landmarks', () => {
         seed: mode,
       })
       expect(s.questions.every(({ question }) => (question.facts?.length ?? 0) >= 3), mode).toBe(true)
+    }
+  })
+})
+
+describe('Schriften & Sprachen', () => {
+  it('enthält belastbare russische und griechische Lernkarten', () => {
+    expect(scriptWords).toHaveLength(131)
+    expect(scriptWords.filter((entity) => entity.attributes.language === 'ru').length).toBeGreaterThan(60)
+    expect(scriptWords.filter((entity) => entity.attributes.language === 'el').length).toBeGreaterThan(55)
+    for (const entity of scriptWords) {
+      expect(entity.attributes.original).toBeTruthy()
+      expect(entity.attributes.transliteration).toBeTruthy()
+      expect(entity.attributes.accepted).toContain(entity.attributes.transliteration)
+    }
+  })
+
+  it('akzeptiert beim Eintippen internationale und deutsche Umschriften', () => {
+    const s = buildSession(
+      ctx(),
+      setup({ category: 'languages', scope: 'world', length: 10, mode: 'script_input' }),
+      { seed: 'scripts' },
+    )
+    expect(s.questions).toHaveLength(10)
+    for (const { question } of s.questions) {
+      expect(question.question_type).toBe('text_input')
+      expect(checkAnswer(question, question.accepted![0])).toBe(true)
+      expect(question.facts?.length).toBeGreaterThanOrEqual(1)
+    }
+    const rossiya = scriptWords.find((entity) => entity.id === 'script_word:ru-rossiya')!
+    const question = registry.get('script_to_latin_input')!.make(rossiya, ctx(), createRng('rossiya'), 2)!
+    expect(checkAnswer(question, 'Rossiya')).toBe(true)
+    expect(checkAnswer(question, 'Rossija')).toBe(true)
+  })
+
+  it('hält Rückwärtsfragen eindeutig und verrät das Original nicht im Prompt', () => {
+    const s = buildSession(
+      ctx(),
+      setup({ category: 'languages', scope: 'world', length: 20, mode: 'latin_to_script' }),
+      { seed: 'reverse-scripts' },
+    )
+    expect(s.questions).toHaveLength(20)
+    for (const { question } of s.questions) {
+      expect(question.options).toHaveLength(4)
+      expect(new Set(question.options!.map((option) => option.label)).size).toBe(4)
+      expect(question.prompt.params?.text).toBeTruthy()
     }
   })
 })
@@ -361,7 +409,7 @@ describe('vollständiges Quiz-Inhaltsaudit', () => {
 
 describe('regeln', () => {
   it('R10: Automatisch enthält keine Eintipp- oder Kartenfragen', () => {
-    for (const cat of ['flags', 'capitals', 'cities', 'water'] as const) {
+    for (const cat of ['flags', 'capitals', 'cities', 'water', 'languages'] as const) {
       const s = buildSession(ctx(), setup({ category: cat, scope: 'world', length: 30 }), { seed: 'auto' })
       for (const q of s.questions)
         expect(['multiple_choice', 'image_choice', 'true_false']).toContain(q.question.question_type)
