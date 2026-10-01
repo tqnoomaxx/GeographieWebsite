@@ -14,8 +14,8 @@ const all: Generator[] = [
   capitals.countryToCapital, capitals.capitalToCountry, capitals.capitalToFlag, capitals.capitalInput,
   countries.countryAttribute, countries.neighborOfCountry, countries.countryTrueFalse, countries.countryCode, countries.countryComparison, countries.nationalAnimal, countries.nationalFlower,
   rc.regionFlagToRegion, rc.regionToCountry, rc.regionCapital, rc.cityToCountry, rc.cityToRegion, rc.cityPopulation, rc.cityInput,
-  im.imageToLandmark, im.imageToCountry, im.imageToCity, im.landmarkToCountry, im.landmarkToCity, im.countryOnMap, im.regionOnMap,
-  pl.plateToCity, pl.cityToPlate, pl.plateToRegion, pl.plateInput,
+  im.imageToLandmark, im.imageToLandmarkInput, im.imageToCountry, im.imageToCity, im.landmarkToCountry, im.landmarkToCountryInput, im.landmarkToCity, im.countryOnMap, im.regionOnMap,
+  pl.plateToCity, pl.cityToPlate, pl.plateToRegion, pl.plateInput, pl.cityToPlateInput,
   na.riverToCountry, na.lakeToCountry, na.mountainToCountry, na.riverLonger, na.lakeLarger, na.mountainHigher, na.waterOnMap, na.mountainOnMap,
 ]
 

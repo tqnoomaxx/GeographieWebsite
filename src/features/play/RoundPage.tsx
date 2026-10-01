@@ -498,6 +498,16 @@ function QuestionView({
             {q.explanation && (
               <p className="mt-3 border-t border-ink/10 pt-3 text-sm text-ink-2">{q.explanation}</p>
             )}
+            {!!q.facts?.length && (
+              <section className="quiz-feedback-facts" aria-label={t('facts.quick_facts')}>
+                <p className="quiz-feedback-facts-title">💡 {t('facts.quick_facts')}</p>
+                <ul>
+                  {q.facts.map((fact) => (
+                    <li key={fact}>{fact}</li>
+                  ))}
+                </ul>
+              </section>
+            )}
             <div className="mt-3 flex flex-wrap items-center gap-3 text-sm">
               <span className="font-medium">{correct ? t('play.xp', { xp }) : t('play.xp_try', { xp })}</span>
               {answerEntity && (

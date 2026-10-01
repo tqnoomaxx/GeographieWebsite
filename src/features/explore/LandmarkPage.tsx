@@ -17,6 +17,9 @@ export default function LandmarkPage() {
   const country = geo.byId.get(lm.attributes.country!)
   const photo = lm.media?.find((m) => m.kind === 'photo')
   const landmarkType = lm.attributes.landmark_type as string | undefined
+  const facts = Array.isArray(lm.attributes.facts)
+    ? lm.attributes.facts.filter((fact): fact is string => typeof fact === 'string' && !!fact.trim())
+    : []
   return (
     <Page back="/explore/landmarks" action={<FavoriteButton id={lm.id} />}>
       <header className="mb-4">
@@ -45,6 +48,14 @@ export default function LandmarkPage() {
         </dl>
         {lm.provenance.source_url && <p className="mt-2 text-xs text-ink-2">{t('facts.source')}: <a className="underline" href={lm.provenance.source_url} target="_blank" rel="noreferrer">{lm.provenance.source}</a></p>}
       </Card>
+      {facts.length > 0 && (
+        <Card className="landmark-fact-card mb-5">
+          <p className="eyebrow">💡 {t('facts.quick_facts')}</p>
+          <ul className="landmark-fact-list">
+            {facts.map((fact) => <li key={fact}>{fact}</li>)}
+          </ul>
+        </Card>
+      )}
       <div className="grid gap-2 md:grid-cols-2">
         <Link to={`/play/images/round?scope=${encodeURIComponent(lm.attributes.continent ?? 'world')}&len=10`} className="btn-primary">📸 {t('category.images')}</Link>
         {country && <Link to={`/play/mixed/round?scope=${country.id}&len=10`} className="btn-secondary">🎯 {t('explore.play_this', { name: country.names.de })}</Link>}

@@ -333,6 +333,17 @@ test('Kennzeichenvisualisierung übernimmt das ausgewählte Land', async ({ page
   await expect(page.locator('.license-plate-country-PL')).toBeVisible()
   await expect(page.locator('.license-plate-country-PL .license-plate-eu')).toContainText('PL')
   await expect(page.locator('.license-plate-country-PL .license-plate-country-label')).toContainText('POLSKA')
+  await page.goto('play/license_plates/round?mode=city_to_plate_input&scope=country:DE&len=5')
+  await expect(page.getByPlaceholder('Antwort eingeben …')).toBeVisible()
+  await expect(page.locator('.license-plate')).toHaveCount(0)
+})
+
+test('Sehenswürdigkeiten zeigen nach der Antwort Kurzfakten', async ({ page }) => {
+  await page.goto('play/landmarks/round?mode=landmark_to_country&scope=world&len=5&repeat=0')
+  const answer = await page.locator('[data-question-type]').getAttribute('data-answer')
+  await page.locator(`[data-option-id="${answer}"]`).click()
+  await expect(page.getByRole('region', { name: 'Kurzfakten' })).toBeVisible()
+  await expect(page.locator('.quiz-feedback-facts li')).toHaveCount(3)
 })
 
 test('Flaggen: Land als Bereich und Fragetyp wählen', async ({ page }) => {

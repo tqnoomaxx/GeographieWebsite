@@ -1,8 +1,12 @@
 import type { Generator } from './base'
-import { options, qid, effectiveDifficulty, nameOf, photoOf, photoMedia, countryOf, countryPool, isSovereign } from './base'
+import { accepted, options, qid, effectiveDifficulty, nameOf, photoOf, photoMedia, countryOf, countryPool, isSovereign } from './base'
 import type { GeneratorContext } from '../types'
 
 const withPhoto = (list: GeneratorContext['landmarks']) => list.filter((e) => photoOf(e))
+const landmarkFacts = (landmark: GeneratorContext['landmarks'][0]) =>
+  Array.isArray(landmark.attributes.facts)
+    ? landmark.attributes.facts.filter((fact): fact is string => typeof fact === 'string' && !!fact.trim())
+    : []
 /** Stadt-Entity einer Sehenswürdigkeit über located_in oder Namensgleichheit des Ortes. */
 const cityOfLandmark = (l: GeneratorContext['landmarks'][0], ctx: GeneratorContext) => {
   const viaRel = (ctx.rel.locatedIn.get(l.id) ?? []).map((id) => ctx.byId.get(id)).find((e) => e?.type === 'city')
@@ -21,7 +25,21 @@ export const imageToLandmark: Generator = {
     return {
       id: qid(this.id, target), category: 'images', type: this.id, question_type: 'multiple_choice',
       prompt: { key: 'q.image_to_landmark' }, answer: target.id, options: opts, media: photoMedia(target), difficulty: d,
-      entities: [target.id], metadata: { generator: this.id, scope: ctx.scope },
+      entities: [target.id], facts: landmarkFacts(target), metadata: { generator: this.id, scope: ctx.scope },
+    }
+  },
+}
+
+export const imageToLandmarkInput: Generator = {
+  id: 'image_to_landmark_input',
+  category: 'images',
+  pool: (ctx) => withPhoto(ctx.landmarks),
+  make(target, ctx, _rng, difficulty) {
+    return {
+      id: qid(this.id, target), category: 'images', type: this.id, question_type: 'text_input',
+      prompt: { key: 'q.image_to_landmark_input' }, answer: target.id, accepted: accepted(target), media: photoMedia(target),
+      difficulty: effectiveDifficulty(target, difficulty), entities: [target.id], facts: landmarkFacts(target),
+      metadata: { generator: this.id, scope: ctx.scope },
     }
   },
 }
@@ -39,6 +57,7 @@ export const imageToCountry: Generator = {
       id: qid(this.id, target), category: 'images', type: this.id, question_type: 'multiple_choice',
       prompt: { key: 'q.image_to_country' }, answer: country.id, options: opts, media: photoMedia(target), difficulty: d,
       entities: [target.id, country.id], explanation: `${nameOf(target)} liegt in ${nameOf(country)}.`,
+      facts: target.type === 'landmark' ? landmarkFacts(target) : undefined,
       metadata: { generator: this.id, scope: ctx.scope },
     }
   },
@@ -72,7 +91,23 @@ export const landmarkToCountry: Generator = {
     return {
       id: qid(this.id, target), category: 'landmarks', type: this.id, question_type: 'multiple_choice',
       prompt: { key: 'q.landmark_to_country', params: { name: nameOf(target) } }, answer: country.id, options: opts, difficulty: d,
-      entities: [target.id, country.id], metadata: { generator: this.id, scope: ctx.scope },
+      entities: [target.id, country.id], facts: landmarkFacts(target), metadata: { generator: this.id, scope: ctx.scope },
+    }
+  },
+}
+
+export const landmarkToCountryInput: Generator = {
+  id: 'landmark_to_country_input',
+  category: 'landmarks',
+  pool: (ctx) => ctx.landmarks.filter((e) => countryOf(e, ctx)),
+  make(target, ctx, _rng, difficulty) {
+    const country = countryOf(target, ctx)
+    if (!country) return null
+    return {
+      id: qid(this.id, target), category: 'landmarks', type: this.id, question_type: 'text_input',
+      prompt: { key: 'q.landmark_to_country_input', params: { name: nameOf(target) } }, answer: country.id,
+      accepted: accepted(country), difficulty: effectiveDifficulty(target, difficulty), entities: [target.id, country.id],
+      facts: landmarkFacts(target), metadata: { generator: this.id, scope: ctx.scope },
     }
   },
 }
@@ -91,7 +126,7 @@ export const landmarkToCity: Generator = {
       id: qid(this.id, target), category: 'landmarks', type: this.id, question_type: 'multiple_choice',
       prompt: { key: 'q.landmark_to_city', params: { name: nameOf(target) } }, answer: city.id,
       options: opts, media: photoMedia(target), difficulty: d,
-      entities: [target.id, city.id], metadata: { generator: this.id, scope: ctx.scope },
+      entities: [target.id, city.id], facts: landmarkFacts(target), metadata: { generator: this.id, scope: ctx.scope },
     }
   },
 }

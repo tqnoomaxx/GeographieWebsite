@@ -14573,6 +14573,15 @@
   "c": "country:GR"
  },
  {
+  "id": "landmark:african-renaissance",
+  "t": "landmark",
+  "n": "Monument der afrikanischen Renaissance",
+  "a": [
+   "African Renaissance Monument"
+  ],
+  "c": "country:SN"
+ },
+ {
   "id": "landmark:alhambra",
   "t": "landmark",
   "n": "Alhambra",
@@ -14583,6 +14592,24 @@
   "c": "country:ES"
  },
  {
+  "id": "landmark:angel-falls",
+  "t": "landmark",
+  "n": "Salto Ángel",
+  "a": [
+   "Angel Falls"
+  ],
+  "c": "country:VE"
+ },
+ {
+  "id": "landmark:angel-independence",
+  "t": "landmark",
+  "n": "El Ángel de la Independencia",
+  "a": [
+   "Angel of Independence"
+  ],
+  "c": "country:MX"
+ },
+ {
   "id": "landmark:angkor",
   "t": "landmark",
   "n": "Angkor Wat",
@@ -14591,6 +14618,15 @@
    "Angkor"
   ],
   "c": "country:KH"
+ },
+ {
+  "id": "landmark:atomium",
+  "t": "landmark",
+  "n": "Atomium",
+  "a": [
+   "Atomium"
+  ],
+  "c": "country:BE"
  },
  {
   "id": "landmark:auckland-sky-tower",
@@ -14609,6 +14645,24 @@
    "Bagan"
   ],
   "c": "country:MM"
+ },
+ {
+  "id": "landmark:bahrain-world-trade-center",
+  "t": "landmark",
+  "n": "Bahrain World Trade Center",
+  "a": [
+   "Bahrain World Trade Center"
+  ],
+  "c": "country:BH"
+ },
+ {
+  "id": "landmark:beehive-wellington",
+  "t": "landmark",
+  "n": "Beehive",
+  "a": [
+   "Beehive (New Zealand)"
+  ],
+  "c": "country:NZ"
  },
  {
   "id": "landmark:belem",
@@ -14697,6 +14751,15 @@
   "c": "country:CO"
  },
  {
+  "id": "landmark:casa-rosada",
+  "t": "landmark",
+  "n": "Casa Rosada",
+  "a": [
+   "Casa Rosada"
+  ],
+  "c": "country:AR"
+ },
+ {
   "id": "landmark:casbah-algiers",
   "t": "landmark",
   "n": "Kasbah von Algier",
@@ -14715,6 +14778,15 @@
   "c": "country:IT"
  },
  {
+  "id": "landmark:chain-bridge",
+  "t": "landmark",
+  "n": "Kettenbrücke",
+  "a": [
+   "Széchenyi Chain Bridge"
+  ],
+  "c": "country:HU"
+ },
+ {
   "id": "landmark:charles-bridge",
   "t": "landmark",
   "n": "Karlsbrücke",
@@ -14731,6 +14803,15 @@
    "Chartres Cathedral"
   ],
   "c": "country:FR"
+ },
+ {
+  "id": "landmark:chateau-frontenac",
+  "t": "landmark",
+  "n": "Château Frontenac",
+  "a": [
+   "Château Frontenac"
+  ],
+  "c": "country:CA"
  },
  {
   "id": "landmark:chichen-itza",
@@ -14828,6 +14909,15 @@
    "Great Mosque of Djenné"
   ],
   "c": "country:ML"
+ },
+ {
+  "id": "landmark:dongdaemun-design-plaza",
+  "t": "landmark",
+  "n": "Dongdaemun Design Plaza",
+  "a": [
+   "Dongdaemun Design Plaza"
+  ],
+  "c": "country:KR"
  },
  {
   "id": "landmark:dubrovnik-walls",
@@ -14941,6 +15031,24 @@
   "c": "country:SG"
  },
  {
+  "id": "landmark:gateway-arch",
+  "t": "landmark",
+  "n": "Gateway Arch",
+  "a": [
+   "Gateway Arch"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "landmark:gateway-india",
+  "t": "landmark",
+  "n": "Gateway of India",
+  "a": [
+   "Gateway of India"
+  ],
+  "c": "country:IN"
+ },
+ {
   "id": "landmark:goebekli-tepe",
   "t": "landmark",
   "n": "Göbekli Tepe",
@@ -15034,6 +15142,15 @@
   "c": "country:TR"
  },
  {
+  "id": "landmark:hallgrimskirkja",
+  "t": "landmark",
+  "n": "Hallgrímskirkja",
+  "a": [
+   "Hallgrímskirkja"
+  ],
+  "c": "country:IS"
+ },
+ {
   "id": "landmark:hassan-ii-mosque",
   "t": "landmark",
   "n": "Hassan-II.-Moschee",
@@ -15050,6 +15167,15 @@
    "El Capitolio"
   ],
   "c": "country:CU"
+ },
+ {
+  "id": "landmark:hawa-mahal",
+  "t": "landmark",
+  "n": "Hawa Mahal",
+  "a": [
+   "Hawa Mahal"
+  ],
+  "c": "country:IN"
  },
  {
   "id": "landmark:himeji",
@@ -15080,6 +15206,33 @@
   "c": "country:AR"
  },
  {
+  "id": "landmark:independence-arch",
+  "t": "landmark",
+  "n": "Independence Arch",
+  "a": [
+   "Independence Arch"
+  ],
+  "c": "country:GH"
+ },
+ {
+  "id": "landmark:independence-monument-cambodia",
+  "t": "landmark",
+  "n": "Unabhängigkeitsdenkmal Phnom Penh",
+  "a": [
+   "Independence Monument, Phnom Penh"
+  ],
+  "c": "country:KH"
+ },
+ {
+  "id": "landmark:itsukushima-shrine",
+  "t": "landmark",
+  "n": "Itsukushima-Schrein",
+  "a": [
+   "Itsukushima Shrine"
+  ],
+  "c": "country:JP"
+ },
+ {
   "id": "landmark:jeronimos",
   "t": "landmark",
   "n": "Hieronymitenkloster",
@@ -15088,6 +15241,15 @@
    "Hieronymitenkloster und Turm von Belém"
   ],
   "c": "country:PT"
+ },
+ {
+  "id": "landmark:kigali-memorial",
+  "t": "landmark",
+  "n": "Kigali Genocide Memorial",
+  "a": [
+   "Kigali Genocide Memorial"
+  ],
+  "c": "country:RW"
  },
  {
   "id": "landmark:kilimanjaro",
@@ -15146,6 +15308,24 @@
   "c": "country:US"
  },
  {
+  "id": "landmark:little-mermaid",
+  "t": "landmark",
+  "n": "Die kleine Meerjungfrau",
+  "a": [
+   "The Little Mermaid (statue)"
+  ],
+  "c": "country:DK"
+ },
+ {
+  "id": "landmark:lotus-temple",
+  "t": "landmark",
+  "n": "Lotustempel",
+  "a": [
+   "Lotus Temple"
+  ],
+  "c": "country:IN"
+ },
+ {
   "id": "landmark:luebeck",
   "t": "landmark",
   "n": "Lübecker Altstadt",
@@ -15164,6 +15344,15 @@
    "Historisches Heiligtum von Machu Picchu"
   ],
   "c": "country:PE"
+ },
+ {
+  "id": "landmark:marina-bay-sands",
+  "t": "landmark",
+  "n": "Marina Bay Sands",
+  "a": [
+   "Marina Bay Sands"
+  ],
+  "c": "country:SG"
  },
  {
   "id": "landmark:marrakesh",
@@ -15194,6 +15383,15 @@
   "c": "country:GR"
  },
  {
+  "id": "landmark:monas",
+  "t": "landmark",
+  "n": "Nationalmonument Monas",
+  "a": [
+   "National Monument (Indonesia)"
+  ],
+  "c": "country:ID"
+ },
+ {
   "id": "landmark:mont-saint-michel",
   "t": "landmark",
   "n": "Mont-Saint-Michel",
@@ -15212,6 +15410,15 @@
    "Fuji-san, heiliger Ort und Quelle künstlerischer Inspiration"
   ],
   "c": "country:JP"
+ },
+ {
+  "id": "landmark:mount-rushmore",
+  "t": "landmark",
+  "n": "Mount Rushmore",
+  "a": [
+   "Mount Rushmore"
+  ],
+  "c": "country:US"
  },
  {
   "id": "landmark:museum-island",
@@ -15268,6 +15475,24 @@
    "Sydney Opera House"
   ],
   "c": "country:AU"
+ },
+ {
+  "id": "landmark:palace-culture-warsaw",
+  "t": "landmark",
+  "n": "Kultur- und Wissenschaftspalast",
+  "a": [
+   "Palace of Culture and Science"
+  ],
+  "c": "country:PL"
+ },
+ {
+  "id": "landmark:palacio-salvo",
+  "t": "landmark",
+  "n": "Palacio Salvo",
+  "a": [
+   "Palacio Salvo"
+  ],
+  "c": "country:UY"
  },
  {
   "id": "landmark:pamukkale",
@@ -15569,6 +15794,15 @@
   "c": "country:LK"
  },
  {
+  "id": "landmark:space-needle",
+  "t": "landmark",
+  "n": "Space Needle",
+  "a": [
+   "Space Needle"
+  ],
+  "c": "country:US"
+ },
+ {
   "id": "landmark:speicherstadt",
   "t": "landmark",
   "n": "Speicherstadt",
@@ -15598,6 +15832,15 @@
   "c": "country:GB"
  },
  {
+  "id": "landmark:sultan-qaboos-mosque",
+  "t": "landmark",
+  "n": "Sultan-Qabus-Moschee",
+  "a": [
+   "Sultan Qaboos Grand Mosque"
+  ],
+  "c": "country:OM"
+ },
+ {
   "id": "landmark:sydney-harbour-bridge",
   "t": "landmark",
   "n": "Sydney Harbour Bridge",
@@ -15605,6 +15848,24 @@
    "Sydney Harbour Bridge"
   ],
   "c": "country:AU"
+ },
+ {
+  "id": "landmark:table-mountain",
+  "t": "landmark",
+  "n": "Tafelberg",
+  "a": [
+   "Table Mountain"
+  ],
+  "c": "country:ZA"
+ },
+ {
+  "id": "landmark:taipei-101",
+  "t": "landmark",
+  "n": "Taipei 101",
+  "a": [
+   "Taipei 101"
+  ],
+  "c": "country:TW"
  },
  {
   "id": "landmark:taj-mahal",
@@ -15653,6 +15914,15 @@
   "c": "country:CN"
  },
  {
+  "id": "landmark:tokyo-skytree",
+  "t": "landmark",
+  "n": "Tokyo Skytree",
+  "a": [
+   "Tokyo Skytree"
+  ],
+  "c": "country:JP"
+ },
+ {
   "id": "landmark:tongariro",
   "t": "landmark",
   "n": "Tongariro-Nationalpark",
@@ -15679,6 +15949,15 @@
    "Archäologische Stätte von Troja"
   ],
   "c": "country:TR"
+ },
+ {
+  "id": "landmark:twelve-apostles",
+  "t": "landmark",
+  "n": "Twelve Apostles",
+  "a": [
+   "The Twelve Apostles (Victoria)"
+  ],
+  "c": "country:AU"
  },
  {
   "id": "landmark:uluru",
@@ -15736,6 +16015,15 @@
    "Wartburg"
   ],
   "c": "country:DE"
+ },
+ {
+  "id": "landmark:wat-arun",
+  "t": "landmark",
+  "n": "Wat Arun",
+  "a": [
+   "Wat Arun"
+  ],
+  "c": "country:TH"
  },
  {
   "id": "landmark:wawel-castle",

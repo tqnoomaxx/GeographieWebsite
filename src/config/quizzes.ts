@@ -107,6 +107,7 @@ export const QUIZZES: QuizDef[] = [
     id: 'images', icon: '📸', primary: true, countKey: 'photos', perCountry: true,
     modes: [
       { id: 'image_to_landmark', form: 'choice', generators: ['image_to_landmark'] },
+      { id: 'image_to_landmark_input', form: 'input', generators: ['image_to_landmark_input'] },
       { id: 'image_to_city', form: 'choice', generators: ['image_to_city'] },
       { id: 'image_to_country', form: 'choice', generators: ['image_to_country'], allowCountryScope: false },
     ],
@@ -133,6 +134,7 @@ export const QUIZZES: QuizDef[] = [
     modes: [
       { id: 'landmark_to_country', form: 'choice', generators: ['landmark_to_country'], allowCountryScope: false },
       { id: 'landmark_to_city', form: 'choice', generators: ['landmark_to_city'] },
+      { id: 'landmark_to_country_input', form: 'input', generators: ['landmark_to_country_input'], allowCountryScope: false },
     ],
   },
   {
@@ -158,6 +160,7 @@ export const QUIZZES: QuizDef[] = [
       { id: 'city_to_plate', form: 'choice', generators: ['city_to_plate'] },
       { id: 'plate_to_region', form: 'choice', generators: ['plate_to_region'] },
       { id: 'plate_input', form: 'input', generators: ['plate_input'] },
+      { id: 'city_to_plate_input', form: 'input', generators: ['city_to_plate_input'] },
     ],
   },
   /** Gemischt: alle Multiple-Choice-Fragetypen der anderen Kategorien, kein eigener Fragetyp wählbar. */

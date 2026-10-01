@@ -4,6 +4,12 @@ import type { GeneratorContext } from '../types'
 import type { Entity } from '@/domain/types'
 
 const code = (e: Entity) => e.attributes.code as string
+const nameKey = (e: Entity) => `${e.attributes.country}:${nameOf(e).trim().toLocaleLowerCase('de-DE')}`
+const plateGroups = (plates: Entity[]) => {
+  const groups = new Map<string, Entity[]>()
+  for (const plate of plates) groups.set(nameKey(plate), [...(groups.get(nameKey(plate)) ?? []), plate])
+  return groups
+}
 const sameState = (target: Entity, ctx: GeneratorContext) => ctx.plates.filter((p) => p.id !== target.id && p.attributes.region && p.attributes.region === target.attributes.region)
 const sameCountry = (target: Entity, ctx: GeneratorContext) => ctx.plates.filter((p) => p.id !== target.id && p.attributes.country === target.attributes.country)
 
@@ -96,6 +102,23 @@ export const plateInput: Generator = {
       id: qid(this.id, target), category: 'license_plates', type: this.id, question_type: 'text_input',
       prompt: { key: 'q.plate_input', params: { code: code(target) } }, answer: target.id, accepted: accepted(target),
       difficulty: d, entities: [target.id], metadata: { generator: this.id, scope: ctx.scope },
+    }
+  },
+}
+
+export const cityToPlateInput: Generator = {
+  id: 'city_to_plate_input',
+  category: 'license_plates',
+  pool: (ctx) => [...plateGroups(ctx.plates).values()].map((group) => group[0]),
+  make(target, ctx, _rng, difficulty) {
+    const group = plateGroups(ctx.plates).get(nameKey(target)) ?? [target]
+    const acceptedCodes = [...new Set(group.map(code))]
+    return {
+      id: qid(this.id, target), category: 'license_plates', type: this.id, question_type: 'text_input',
+      prompt: { key: 'q.city_to_plate_input', params: { name: nameOf(target) } }, answer: code(target),
+      accepted: acceptedCodes, difficulty: effectiveDifficulty(target, difficulty), entities: group.map((plate) => plate.id),
+      explanation: acceptedCodes.length > 1 ? `${nameOf(target)}: ${acceptedCodes.join(' · ')}` : undefined,
+      metadata: { generator: this.id, scope: ctx.scope },
     }
   },
 }

@@ -170,6 +170,38 @@ describe('plates', () => {
     expect(s.questions).toHaveLength(10)
     expect(s.questions.every(({ question }) => question.entities.some((id) => id.startsWith('license_plate:PL-')))).toBe(true)
   })
+  it('akzeptiert beim Modus Ort → Kennzeichen alle gültigen Kürzel des Ortes', () => {
+    const s = buildSession(
+      ctx('country:DE'),
+      setup({ category: 'license_plates', scope: 'country:DE', length: 10, mode: 'city_to_plate_input' }),
+      { seed: 'plate-input' },
+    )
+    expect(s.questions).toHaveLength(10)
+    for (const { question } of s.questions) {
+      expect(question.question_type).toBe('text_input')
+      expect(question.accepted).toContain(question.answer)
+      expect(checkAnswer(question, question.answer)).toBe(true)
+      expect(question.media).toBeUndefined()
+    }
+  })
+})
+
+describe('landmarks', () => {
+  it('liefert zu jeder Sehenswürdigkeit mindestens drei Kurzfakten', () => {
+    expect(landmarks.length).toBeGreaterThanOrEqual(150)
+    for (const landmark of landmarks)
+      expect(landmark.attributes.facts, landmark.id).toEqual(expect.arrayContaining([expect.any(String)]))
+    expect(landmarks.every((landmark) => (landmark.attributes.facts as string[]).length >= 3)).toBe(true)
+  })
+
+  it('zeigt Fakten auch in Auswahl- und Eingabefragen', () => {
+    for (const mode of ['landmark_to_country', 'landmark_to_country_input']) {
+      const s = buildSession(ctx(), setup({ category: 'landmarks', scope: 'world', length: 10, mode }), {
+        seed: mode,
+      })
+      expect(s.questions.every(({ question }) => (question.facts?.length ?? 0) >= 3), mode).toBe(true)
+    }
+  })
 })
 
 describe('nature', () => {

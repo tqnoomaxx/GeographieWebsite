@@ -1,17 +1,17 @@
 {
- "generated_at": "2026-09-30T23:31:06.539Z",
+ "generated_at": "2026-10-01T12:29:10.455Z",
  "counts": {
   "country": 254,
   "city": 1308,
-  "landmark": 128,
+  "landmark": 160,
   "river": 220,
   "lake": 113,
   "mountain": 201,
   "region": 817,
   "license_plate": 1388
  },
- "media": 1214,
- "relationships": 4603,
+ "media": 1262,
+ "relationships": 4662,
  "countries_without_population": [
   "country:AC",
   "country:EU",
@@ -56,29 +56,13 @@
   "country:YT"
  ],
  "entities_without_media": [
-  "landmark:auckland-sky-tower",
-  "landmark:bagan",
-  "landmark:bikini-atoll",
-  "landmark:buenos-aires-obelisk",
-  "landmark:cn-tower",
-  "landmark:empire-state",
-  "landmark:gardens-by-the-bay",
-  "landmark:golden-gate",
+  "landmark:bahrain-world-trade-center",
   "landmark:hassan-ii-mosque",
-  "landmark:havana-capitol",
-  "landmark:nan-madol",
-  "landmark:panama-canal",
-  "landmark:parliament-hill",
-  "landmark:parliament-house-canberra",
-  "landmark:persepolis",
-  "landmark:petronas-towers",
-  "landmark:registan",
-  "landmark:salar-de-uyuni",
+  "landmark:independence-monument-cambodia",
+  "landmark:little-mermaid",
+  "landmark:monas",
   "landmark:sheikh-zayed-mosque",
-  "landmark:shwedagon",
-  "landmark:sigiriya",
-  "landmark:sydney-harbour-bridge",
-  "landmark:teotihuacan"
+  "landmark:sultan-qaboos-mosque"
  ],
  "conflicts": [
   {

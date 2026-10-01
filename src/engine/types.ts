@@ -43,6 +43,8 @@ export interface Question {
   difficulty: number // 1..3
   entities: string[] // beteiligte Entities für Progress
   explanation?: string
+  /** Kurze Lernfakten, die nach der Antwort sichtbar werden. */
+  facts?: string[]
   metadata: { generator: string; scope: string }
 }
 

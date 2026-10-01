@@ -57,6 +57,8 @@ for (const e of all) {
   if (!ENTITY_TYPES.has(e.type)) err(`${e.id}: unbekannter Typ ${e.type}`)
   if (!e.names?.de) err(`${e.id}: names.de fehlt`)
   if (!e.provenance?.source) err(`${e.id}: provenance.source fehlt`)
+  if (e.type === 'landmark' && (!Array.isArray(e.attributes?.facts) || e.attributes.facts.length < 3))
+    err(`${e.id}: mindestens drei Kurzfakten fehlen`)
   if (e.location) {
     const { lat, lon } = e.location
     if (!(lat >= -90 && lat <= 90 && lon >= -180 && lon <= 180)) err(`${e.id}: ungültige Koordinaten`)

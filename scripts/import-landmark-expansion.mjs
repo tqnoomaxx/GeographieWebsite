@@ -3,18 +3,42 @@
 import { execFileSync } from 'node:child_process'
 import { existsSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
-import { basename, join } from 'node:path'
+import { extname, join } from 'node:path'
 import { DATA, PUBLIC, ROOT, readJson, writeJson } from './lib/common.mjs'
 
 const ITEMS = [
   ['schonbrunn', 'Schloss Schönbrunn', 'Schönbrunn Palace', 'AT', 'Wien', 'europe', 'palace'],
-  ['neuschwanstein', 'Schloss Neuschwanstein', 'Neuschwanstein Castle', 'DE', 'Schwangau', 'europe', 'castle'],
+  [
+    'neuschwanstein',
+    'Schloss Neuschwanstein',
+    'Neuschwanstein Castle',
+    'DE',
+    'Schwangau',
+    'europe',
+    'castle',
+  ],
   ['brandenburg-gate', 'Brandenburger Tor', 'Brandenburg Gate', 'DE', 'Berlin', 'europe', 'monument'],
   ['charles-bridge', 'Karlsbrücke', 'Charles Bridge', 'CZ', 'Prag', 'europe', 'bridge'],
   ['prague-castle', 'Prager Burg', 'Prague Castle', 'CZ', 'Prag', 'europe', 'castle'],
   ['wawel-castle', 'Wawel-Schloss', 'Wawel Castle', 'PL', 'Krakau', 'europe', 'castle'],
-  ['hungarian-parliament', 'Ungarisches Parlamentsgebäude', 'Hungarian Parliament Building', 'HU', 'Budapest', 'europe', 'building'],
-  ['dubrovnik-walls', 'Stadtmauer von Dubrovnik', 'Walls of Dubrovnik', 'HR', 'Dubrovnik', 'europe', 'fortification'],
+  [
+    'hungarian-parliament',
+    'Ungarisches Parlamentsgebäude',
+    'Hungarian Parliament Building',
+    'HU',
+    'Budapest',
+    'europe',
+    'building',
+  ],
+  [
+    'dubrovnik-walls',
+    'Stadtmauer von Dubrovnik',
+    'Walls of Dubrovnik',
+    'HR',
+    'Dubrovnik',
+    'europe',
+    'fortification',
+  ],
   ['tallinn-town-hall', 'Rathaus von Tallinn', 'Tallinn Town Hall', 'EE', 'Tallinn', 'europe', 'building'],
   ['rila-monastery', 'Kloster Rila', 'Rila Monastery', 'BG', 'Rila', 'europe', 'monastery'],
   ['saint-basils', 'Basilius-Kathedrale', "Saint Basil's Cathedral", 'RU', 'Moskau', 'europe', 'religious'],
@@ -22,18 +46,42 @@ const ITEMS = [
   ['great-zimbabwe', 'Groß-Simbabwe', 'Great Zimbabwe', 'ZW', 'Masvingo', 'africa', 'archaeological'],
   ['hassan-ii-mosque', 'Hassan-II.-Moschee', 'Hassan II Mosque', 'MA', 'Casablanca', 'africa', 'religious'],
   ['casbah-algiers', 'Kasbah von Algier', 'Casbah of Algiers', 'DZ', 'Algier', 'africa', 'historic-quarter'],
-  ['el-jem', 'Amphitheater von El Djem', 'Amphitheatre of El Jem', 'TN', 'El Djem', 'africa', 'archaeological'],
+  [
+    'el-jem',
+    'Amphitheater von El Djem',
+    'Amphitheatre of El Jem',
+    'TN',
+    'El Djem',
+    'africa',
+    'archaeological',
+  ],
   ['stone-town', 'Stone Town', 'Stone Town', 'TZ', 'Sansibar-Stadt', 'africa', 'historic-quarter'],
-  ['djenne-mosque', 'Große Moschee von Djenné', 'Great Mosque of Djenné', 'ML', 'Djenné', 'africa', 'religious'],
+  [
+    'djenne-mosque',
+    'Große Moschee von Djenné',
+    'Great Mosque of Djenné',
+    'ML',
+    'Djenné',
+    'africa',
+    'religious',
+  ],
   ['le-morne', 'Le Morne Brabant', 'Le Morne Brabant', 'MU', 'Le Morne', 'africa', 'cultural-landscape'],
   ['union-buildings', 'Union Buildings', 'Union Buildings', 'ZA', 'Pretoria', 'africa', 'building'],
   ['burj-khalifa', 'Burj Khalifa', 'Burj Khalifa', 'AE', 'Dubai', 'asia', 'building'],
-  ['sheikh-zayed-mosque', 'Scheich-Zayid-Moschee', 'Sheikh Zayed Grand Mosque', 'AE', 'Abu Dhabi', 'asia', 'religious'],
+  [
+    'sheikh-zayed-mosque',
+    'Scheich-Zayid-Moschee',
+    'Sheikh Zayed Grand Mosque',
+    'AE',
+    'Abu Dhabi',
+    'asia',
+    'religious',
+  ],
   ['petronas-towers', 'Petronas Towers', 'Petronas Towers', 'MY', 'Kuala Lumpur', 'asia', 'building'],
   ['gardens-by-the-bay', 'Gardens by the Bay', 'Gardens by the Bay', 'SG', 'Singapur', 'asia', 'garden'],
   ['merlion', 'Merlion', 'Merlion', 'SG', 'Singapur', 'asia', 'monument'],
   ['forbidden-city', 'Verbotene Stadt', 'Forbidden City', 'CN', 'Peking', 'asia', 'palace'],
-  ['terracotta-army', 'Terrakotta-Armee', 'Terracotta Army', 'CN', "Xi’an", 'asia', 'archaeological'],
+  ['terracotta-army', 'Terrakotta-Armee', 'Terracotta Army', 'CN', 'Xi’an', 'asia', 'archaeological'],
   ['potala-palace', 'Potala-Palast', 'Potala Palace', 'CN', 'Lhasa', 'asia', 'palace'],
   ['gyeongbokgung', 'Gyeongbokgung-Palast', 'Gyeongbokgung', 'KR', 'Seoul', 'asia', 'palace'],
   ['grand-palace-bangkok', 'Großer Palast von Bangkok', 'Grand Palace', 'TH', 'Bangkok', 'asia', 'palace'],
@@ -42,21 +90,189 @@ const ITEMS = [
   ['sigiriya', 'Felsenfestung Sigiriya', 'Sigiriya', 'LK', 'Sigiriya', 'asia', 'archaeological'],
   ['registan', 'Registan', 'Registan', 'UZ', 'Samarkand', 'asia', 'square'],
   ['persepolis', 'Persepolis', 'Persepolis', 'IR', 'Persepolis', 'asia', 'archaeological'],
-  ['golden-gate', 'Golden Gate Bridge', 'Golden Gate Bridge', 'US', 'San Francisco', 'north-america', 'bridge'],
-  ['empire-state', 'Empire State Building', 'Empire State Building', 'US', 'New York City', 'north-america', 'building'],
+  [
+    'golden-gate',
+    'Golden Gate Bridge',
+    'Golden Gate Bridge',
+    'US',
+    'San Francisco',
+    'north-america',
+    'bridge',
+  ],
+  [
+    'empire-state',
+    'Empire State Building',
+    'Empire State Building',
+    'US',
+    'New York City',
+    'north-america',
+    'building',
+  ],
   ['cn-tower', 'CN Tower', 'CN Tower', 'CA', 'Toronto', 'north-america', 'tower'],
   ['parliament-hill', 'Parliament Hill', 'Parliament Hill', 'CA', 'Ottawa', 'north-america', 'building'],
   ['teotihuacan', 'Teotihuacán', 'Teotihuacan', 'MX', 'Teotihuacán', 'north-america', 'archaeological'],
   ['havana-capitol', 'Kapitol von Havanna', 'El Capitolio', 'CU', 'Havanna', 'north-america', 'building'],
   ['panama-canal', 'Panamakanal', 'Panama Canal', 'PA', 'Panama-Stadt', 'north-america', 'engineering'],
-  ['buenos-aires-obelisk', 'Obelisk von Buenos Aires', 'Obelisco de Buenos Aires', 'AR', 'Buenos Aires', 'south-america', 'monument'],
+  [
+    'buenos-aires-obelisk',
+    'Obelisk von Buenos Aires',
+    'Obelisco de Buenos Aires',
+    'AR',
+    'Buenos Aires',
+    'south-america',
+    'monument',
+  ],
   ['salar-de-uyuni', 'Salar de Uyuni', 'Salar de Uyuni', 'BO', 'Uyuni', 'south-america', 'landscape'],
-  ['sydney-harbour-bridge', 'Sydney Harbour Bridge', 'Sydney Harbour Bridge', 'AU', 'Sydney', 'oceania', 'bridge'],
-  ['parliament-house-canberra', 'Parliament House', 'Parliament House, Canberra', 'AU', 'Canberra', 'oceania', 'building'],
+  [
+    'sydney-harbour-bridge',
+    'Sydney Harbour Bridge',
+    'Sydney Harbour Bridge',
+    'AU',
+    'Sydney',
+    'oceania',
+    'bridge',
+  ],
+  [
+    'parliament-house-canberra',
+    'Parliament House',
+    'Parliament House, Canberra',
+    'AU',
+    'Canberra',
+    'oceania',
+    'building',
+  ],
   ['auckland-sky-tower', 'Sky Tower Auckland', 'Sky Tower (Auckland)', 'NZ', 'Auckland', 'oceania', 'tower'],
   ['nan-madol', 'Nan Madol', 'Nan Madol', 'FM', 'Pohnpei', 'oceania', 'archaeological'],
   ['bikini-atoll', 'Bikini-Atoll', 'Bikini Atoll', 'MH', 'Bikini-Atoll', 'oceania', 'cultural-landscape'],
   ['rock-islands', 'Rock Islands', 'Rock Islands', 'PW', 'Koror', 'oceania', 'cultural-landscape'],
+  ['atomium', 'Atomium', 'Atomium', 'BE', 'Brüssel', 'europe', 'monument'],
+  ['hallgrimskirkja', 'Hallgrímskirkja', 'Hallgrímskirkja', 'IS', 'Reykjavík', 'europe', 'religious'],
+  [
+    'palace-culture-warsaw',
+    'Kultur- und Wissenschaftspalast',
+    'Palace of Culture and Science',
+    'PL',
+    'Warschau',
+    'europe',
+    'building',
+  ],
+  ['chain-bridge', 'Kettenbrücke', 'Széchenyi Chain Bridge', 'HU', 'Budapest', 'europe', 'bridge'],
+  [
+    'little-mermaid',
+    'Die kleine Meerjungfrau',
+    'The Little Mermaid (statue)',
+    'DK',
+    'Kopenhagen',
+    'europe',
+    'monument',
+  ],
+  ['table-mountain', 'Tafelberg', 'Table Mountain', 'ZA', 'Kapstadt', 'africa', 'landscape'],
+  [
+    'african-renaissance',
+    'Monument der afrikanischen Renaissance',
+    'African Renaissance Monument',
+    'SN',
+    'Dakar',
+    'africa',
+    'monument',
+  ],
+  ['independence-arch', 'Independence Arch', 'Independence Arch', 'GH', 'Accra', 'africa', 'monument'],
+  [
+    'kigali-memorial',
+    'Kigali Genocide Memorial',
+    'Kigali Genocide Memorial',
+    'RW',
+    'Kigali',
+    'africa',
+    'memorial',
+  ],
+  ['taipei-101', 'Taipei 101', 'Taipei 101', 'TW', 'Taipeh', 'asia', 'skyscraper'],
+  ['marina-bay-sands', 'Marina Bay Sands', 'Marina Bay Sands', 'SG', 'Singapur', 'asia', 'building'],
+  ['tokyo-skytree', 'Tokyo Skytree', 'Tokyo Skytree', 'JP', 'Tokio', 'asia', 'tower'],
+  [
+    'itsukushima-shrine',
+    'Itsukushima-Schrein',
+    'Itsukushima Shrine',
+    'JP',
+    'Hatsukaichi',
+    'asia',
+    'religious',
+  ],
+  ['hawa-mahal', 'Hawa Mahal', 'Hawa Mahal', 'IN', 'Jaipur', 'asia', 'palace'],
+  ['gateway-india', 'Gateway of India', 'Gateway of India', 'IN', 'Mumbai', 'asia', 'monument'],
+  ['lotus-temple', 'Lotustempel', 'Lotus Temple', 'IN', 'Neu-Delhi', 'asia', 'religious'],
+  ['wat-arun', 'Wat Arun', 'Wat Arun', 'TH', 'Bangkok', 'asia', 'religious'],
+  ['monas', 'Nationalmonument Monas', 'National Monument (Indonesia)', 'ID', 'Jakarta', 'asia', 'monument'],
+  [
+    'independence-monument-cambodia',
+    'Unabhängigkeitsdenkmal Phnom Penh',
+    'Independence Monument, Phnom Penh',
+    'KH',
+    'Phnom Penh',
+    'asia',
+    'monument',
+  ],
+  [
+    'bahrain-world-trade-center',
+    'Bahrain World Trade Center',
+    'Bahrain World Trade Center',
+    'BH',
+    'Manama',
+    'asia',
+    'skyscraper',
+  ],
+  [
+    'sultan-qaboos-mosque',
+    'Sultan-Qabus-Moschee',
+    'Sultan Qaboos Grand Mosque',
+    'OM',
+    'Maskat',
+    'asia',
+    'religious',
+  ],
+  [
+    'dongdaemun-design-plaza',
+    'Dongdaemun Design Plaza',
+    'Dongdaemun Design Plaza',
+    'KR',
+    'Seoul',
+    'asia',
+    'building',
+  ],
+  ['space-needle', 'Space Needle', 'Space Needle', 'US', 'Seattle', 'north-america', 'tower'],
+  ['mount-rushmore', 'Mount Rushmore', 'Mount Rushmore', 'US', 'Keystone', 'north-america', 'monument'],
+  ['gateway-arch', 'Gateway Arch', 'Gateway Arch', 'US', 'St. Louis', 'north-america', 'monument'],
+  [
+    'angel-independence',
+    'El Ángel de la Independencia',
+    'Angel of Independence',
+    'MX',
+    'Mexiko-Stadt',
+    'north-america',
+    'monument',
+  ],
+  [
+    'chateau-frontenac',
+    'Château Frontenac',
+    'Château Frontenac',
+    'CA',
+    'Québec',
+    'north-america',
+    'building',
+  ],
+  ['casa-rosada', 'Casa Rosada', 'Casa Rosada', 'AR', 'Buenos Aires', 'south-america', 'building'],
+  ['palacio-salvo', 'Palacio Salvo', 'Palacio Salvo', 'UY', 'Montevideo', 'south-america', 'building'],
+  ['angel-falls', 'Salto Ángel', 'Angel Falls', 'VE', 'Canaima-Nationalpark', 'south-america', 'landscape'],
+  [
+    'twelve-apostles',
+    'Twelve Apostles',
+    'The Twelve Apostles (Victoria)',
+    'AU',
+    'Victoria',
+    'oceania',
+    'landscape',
+  ],
+  ['beehive-wellington', 'Beehive', 'Beehive (New Zealand)', 'NZ', 'Wellington', 'oceania', 'building'],
 ]
 
 const cachePath = join(ROOT, 'scripts', 'content', 'landmark-media.json')
@@ -77,7 +293,9 @@ function plain(value = '') {
 const pause = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 async function json(url) {
   for (let attempt = 0; attempt < 5; attempt++) {
-    const response = await fetch(url, { headers: { 'User-Agent': 'AtlasfunkeImporter/0.1 (educational geography data)' } })
+    const response = await fetch(url, {
+      headers: { 'User-Agent': 'AtlasfunkeImporter/0.1 (educational geography data)' },
+    })
     if (response.ok) return response.json()
     if (response.status !== 429) throw new Error(`${response.status} ${url}`)
     await pause(1200 * (attempt + 1))
@@ -85,9 +303,28 @@ async function json(url) {
   throw new Error(`429 ${url}`)
 }
 
+async function download(url) {
+  for (let attempt = 0; attempt < 5; attempt++) {
+    const response = await fetch(url, {
+      headers: { 'User-Agent': 'AtlasfunkeImporter/0.1 (educational geography data)' },
+    })
+    if (response.ok) return response.arrayBuffer()
+    if (response.status !== 429) throw new Error(`Bild ${response.status}`)
+    await pause(1500 * (attempt + 1))
+  }
+  throw new Error('Bild 429')
+}
+
 async function prefetchMissing() {
   const missing = ITEMS.filter(([slug]) => !cache[slug])
   if (!missing.length) return
+  for (let offset = 0; offset < missing.length; offset += 40) {
+    await prefetchBatch(missing.slice(offset, offset + 40))
+  }
+  writeJson(cachePath, cache)
+}
+
+async function prefetchBatch(missing) {
   const pageParams = new URLSearchParams({
     action: 'query',
     format: 'json',
@@ -122,9 +359,12 @@ async function prefetchMissing() {
     titles: wanted.map((item) => `File:${item.page.pageimage}`).join('|'),
   })
   const commonsData = await json(`https://commons.wikimedia.org/w/api.php?${commonsParams}`)
-  const commonsPages = new Map(Object.values(commonsData.query?.pages ?? {}).map((page) => [page.title, page]))
+  const fileKey = (title) => title.replaceAll('_', ' ').normalize('NFC').toLocaleLowerCase('en-US')
+  const commonsPages = new Map(
+    Object.values(commonsData.query?.pages ?? {}).map((page) => [fileKey(page.title), page]),
+  )
   for (const { slug, page } of wanted) {
-    const commonsPage = commonsPages.get(`File:${page.pageimage}`)
+    const commonsPage = commonsPages.get(fileKey(`File:${page.pageimage}`))
     const info = commonsPage?.imageinfo?.[0]
     if (!info?.thumburl && !info?.url) continue
     const ext = info.extmetadata ?? {}
@@ -132,13 +372,14 @@ async function prefetchMissing() {
       wikidata: page.pageprops?.wikibase_item,
       filename: page.pageimage,
       download_url: info.thumburl || info.url,
-      source_url: info.descriptionurl || `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(page.pageimage)}`,
+      source_url:
+        info.descriptionurl ||
+        `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(page.pageimage)}`,
       author: plain(ext.Artist?.value || ext.Credit?.value || 'Wikimedia-Commons-Beitragende'),
       license: plain(ext.LicenseShortName?.value || ext.UsageTerms?.value || 'freie Lizenz'),
       license_url: ext.LicenseUrl?.value,
     }
   }
-  writeJson(cachePath, cache)
 }
 
 const countries = readJson(join(DATA, 'entities', 'countries.json'))
@@ -166,24 +407,25 @@ try {
       const output = join(outDir, `${slug}.webp`)
       if (source) {
         if (!existsSync(output)) {
-          const input = join(temp, basename(new URL(source.download_url).pathname))
-          const response = await fetch(source.download_url)
-          if (!response.ok) throw new Error(`Bild ${response.status}`)
-          writeFileSync(input, Buffer.from(await response.arrayBuffer()))
+          const extension = extname(new URL(source.download_url).pathname).slice(0, 8) || '.img'
+          const input = join(temp, `${slug}${extension}`)
+          writeFileSync(input, Buffer.from(await download(source.download_url)))
           execFileSync('cwebp', ['-quiet', '-q', '82', '-resize', '1600', '0', input, '-o', output])
         }
-        media = [{
-          id: `media:photo:landmark:${slug}`,
-          kind: 'photo',
-          url: `media/photos/landmarks/${slug}.webp`,
-          source: 'Wikimedia Commons',
-          source_url: source.source_url,
-          author: source.author,
-          license: source.license,
-          license_url: source.license_url,
-          attribution: `${source.author} · ${source.license} · ${source.source_url}`,
-          caption: en,
-        }]
+        media = [
+          {
+            id: `media:photo:landmark:${slug}`,
+            kind: 'photo',
+            url: `media/photos/landmarks/${slug}.webp`,
+            source: 'Wikimedia Commons',
+            source_url: source.source_url,
+            author: source.author,
+            license: source.license,
+            license_url: source.license_url,
+            attribution: `${source.author} · ${source.license} · ${source.source_url}`,
+            caption: en,
+          },
+        ]
         withPhoto++
       }
     } catch (error) {
@@ -218,11 +460,14 @@ landmarks.sort((a, b) => a.id.localeCompare(b.id))
 writeJson(join(DATA, 'entities', 'landmarks.json'), landmarks)
 
 const relationshipsPath = join(DATA, 'relationships', 'index.json')
-const relationships = readJson(relationshipsPath).filter((relationship) => !expansionIds.has(relationship.from))
+const relationships = readJson(relationshipsPath).filter(
+  (relationship) => !expansionIds.has(relationship.from),
+)
 for (const landmark of landmarks.filter((item) => expansionIds.has(item.id))) {
   relationships.push({ from: landmark.id, to: landmark.attributes.country, type: 'located_in' })
   const city = cities.find(
-    (item) => item.attributes.country === landmark.attributes.country &&
+    (item) =>
+      item.attributes.country === landmark.attributes.country &&
       [item.names.de, item.names.en, ...(item.aliases ?? [])].includes(landmark.attributes.place_name),
   )
   if (city) relationships.push({ from: landmark.id, to: city.id, type: 'located_in' })

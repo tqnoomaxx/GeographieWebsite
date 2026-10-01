@@ -148,7 +148,7 @@ export function ChoiceVisualization({ question, entity }: { question: Question; 
 
 export function QuestionVisualization({ question, entities, side = false }: { question: Question; entities: Entity[]; side?: boolean }) {
   const primary = entities[0]
-  if (question.category === 'license_plates' && primary && question.type !== 'city_to_plate') {
+  if (question.category === 'license_plates' && primary && !['city_to_plate', 'city_to_plate_input'].includes(question.type)) {
     return <div className="plate-stage"><LicensePlate code={String(primary.attributes.code ?? question.prompt.params?.code ?? '')} country={String(primary.attributes.country ?? 'country:DE').replace('country:', '')} /></div>
   }
   if (question.category === 'nature' && !question.map && primary && question.type !== 'mountain_higher') {

@@ -22600,6 +22600,41 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:african-renaissance",
+  "to": "country:SN",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:african-renaissance",
+  "to": "city:SN-dakar",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:angel-falls",
+  "to": "country:VE",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:angel-independence",
+  "to": "country:MX",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:angel-independence",
+  "to": "city:MX-mexiko-stadt",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:atomium",
+  "to": "country:BE",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:atomium",
+  "to": "city:BE-brussel",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:auckland-sky-tower",
   "to": "country:NZ",
   "type": "located_in"
@@ -22612,6 +22647,26 @@
  {
   "from": "landmark:bagan",
   "to": "country:MM",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:bahrain-world-trade-center",
+  "to": "country:BH",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:bahrain-world-trade-center",
+  "to": "city:BH-manama",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:beehive-wellington",
+  "to": "country:NZ",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:beehive-wellington",
+  "to": "city:NZ-wellington",
   "type": "located_in"
  },
  {
@@ -22650,6 +22705,16 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:casa-rosada",
+  "to": "country:AR",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:casa-rosada",
+  "to": "city:AR-buenos-aires",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:casbah-algiers",
   "to": "country:DZ",
   "type": "located_in"
@@ -22660,6 +22725,16 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:chain-bridge",
+  "to": "country:HU",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:chain-bridge",
+  "to": "city:HU-budapest",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:charles-bridge",
   "to": "country:CZ",
   "type": "located_in"
@@ -22667,6 +22742,16 @@
  {
   "from": "landmark:charles-bridge",
   "to": "city:CZ-prag",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:chateau-frontenac",
+  "to": "country:CA",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:chateau-frontenac",
+  "to": "city:CA-quebec",
   "type": "located_in"
  },
  {
@@ -22682,6 +22767,16 @@
  {
   "from": "landmark:djenne-mosque",
   "to": "country:ML",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:dongdaemun-design-plaza",
+  "to": "country:KR",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:dongdaemun-design-plaza",
+  "to": "city:KR-seoul",
   "type": "located_in"
  },
  {
@@ -22725,6 +22820,21 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:gateway-arch",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:gateway-india",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:gateway-india",
+  "to": "city:IN-mumbai",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:golden-gate",
   "to": "country:US",
   "type": "located_in"
@@ -22765,6 +22875,16 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:hallgrimskirkja",
+  "to": "country:IS",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:hallgrimskirkja",
+  "to": "city:IS-reykjavik",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:hassan-ii-mosque",
   "to": "country:MA",
   "type": "located_in"
@@ -22785,6 +22905,16 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:hawa-mahal",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:hawa-mahal",
+  "to": "city:IN-jaipur",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:hungarian-parliament",
   "to": "country:HU",
   "type": "located_in"
@@ -22792,6 +22922,41 @@
  {
   "from": "landmark:hungarian-parliament",
   "to": "city:HU-budapest",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:independence-arch",
+  "to": "country:GH",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:independence-arch",
+  "to": "city:GH-accra",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:independence-monument-cambodia",
+  "to": "country:KH",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:independence-monument-cambodia",
+  "to": "city:KH-phnom-penh",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:itsukushima-shrine",
+  "to": "country:JP",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:kigali-memorial",
+  "to": "country:RW",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:kigali-memorial",
+  "to": "city:RW-kigali",
   "type": "located_in"
  },
  {
@@ -22805,6 +22970,36 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:little-mermaid",
+  "to": "country:DK",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:little-mermaid",
+  "to": "city:DK-kopenhagen",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:lotus-temple",
+  "to": "country:IN",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:lotus-temple",
+  "to": "city:IN-neu-delhi",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:marina-bay-sands",
+  "to": "country:SG",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:marina-bay-sands",
+  "to": "city:SG-singapur",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:merlion",
   "to": "country:SG",
   "type": "located_in"
@@ -22815,6 +23010,21 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:monas",
+  "to": "country:ID",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:monas",
+  "to": "city:ID-jakarta",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:mount-rushmore",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:nan-madol",
   "to": "country:FM",
   "type": "located_in"
@@ -22822,6 +23032,26 @@
  {
   "from": "landmark:neuschwanstein",
   "to": "country:DE",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:palace-culture-warsaw",
+  "to": "country:PL",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:palace-culture-warsaw",
+  "to": "city:PL-warschau",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:palacio-salvo",
+  "to": "country:UY",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:palacio-salvo",
+  "to": "city:UY-montevideo",
   "type": "located_in"
  },
  {
@@ -22955,8 +23185,28 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:space-needle",
+  "to": "country:US",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:space-needle",
+  "to": "city:US-seattle",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:stone-town",
   "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:sultan-qaboos-mosque",
+  "to": "country:OM",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:sultan-qaboos-mosque",
+  "to": "city:OM-maskat",
   "type": "located_in"
  },
  {
@@ -22967,6 +23217,26 @@
  {
   "from": "landmark:sydney-harbour-bridge",
   "to": "city:AU-sydney",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:table-mountain",
+  "to": "country:ZA",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:table-mountain",
+  "to": "city:ZA-kapstadt",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:taipei-101",
+  "to": "country:TW",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:taipei-101",
+  "to": "city:TW-taipeh",
   "type": "located_in"
  },
  {
@@ -22995,6 +23265,21 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:tokyo-skytree",
+  "to": "country:JP",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:tokyo-skytree",
+  "to": "city:JP-tokio",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:twelve-apostles",
+  "to": "country:AU",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:union-buildings",
   "to": "country:ZA",
   "type": "located_in"
@@ -23002,6 +23287,16 @@
  {
   "from": "landmark:union-buildings",
   "to": "city:ZA-pretoria",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:wat-arun",
+  "to": "country:TH",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:wat-arun",
+  "to": "city:TH-bangkok",
   "type": "located_in"
  },
  {

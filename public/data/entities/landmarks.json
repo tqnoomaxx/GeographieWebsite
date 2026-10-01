@@ -25,7 +25,12 @@
    "continent": "europe",
    "place_name": "Aachen",
    "unesco": "Aachener Dom",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Aachen, Deutschland.",
+    "Der Aachener Dom war 1978 die erste deutsche Stätte auf der UNESCO-Welterbeliste.",
+    "Unter dem Namen „Aachener Dom“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -59,12 +64,57 @@
    "continent": "europe",
    "place_name": "Athen",
    "unesco": "Akropolis von Athen",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Athen, Griechenland.",
+    "Der Parthenon ist der bekannteste Tempel auf dem Athener Burgberg.",
+    "Unter dem Namen „Akropolis von Athen“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Acropolis%20of%20Athens"
+  }
+ },
+ {
+  "id": "landmark:african-renaissance",
+  "type": "landmark",
+  "names": {
+   "de": "Monument der afrikanischen Renaissance",
+   "en": "African Renaissance Monument"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:african-renaissance",
+    "kind": "photo",
+    "url": "media/photos/landmarks/african-renaissance.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Monument_renaissance.jpg",
+    "author": "Tafsir207",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Tafsir207 · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Monument_renaissance.jpg",
+    "caption": "African Renaissance Monument"
+   }
+  ],
+  "attributes": {
+   "country": "country:SN",
+   "continent": "africa",
+   "place_name": "Dakar",
+   "landmark_type": "monument",
+   "facts": [
+    "Standort: Dakar, Senegal.",
+    "Die monumentale Figurengruppe blickt von einem Hügel über Dakar und den Atlantik.",
+    "Der Standort liegt in der Weltregion Afrika."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/African_Renaissance_Monument",
+   "source_id": "Q470763",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -95,12 +145,97 @@
    "continent": "europe",
    "place_name": "Granada",
    "unesco": "Alhambra, Generalife und Albayzín",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Granada, Spanien.",
+    "Die Alhambra verbindet Palast-, Festungs- und Gartenarchitektur.",
+    "Unter dem Namen „Alhambra, Generalife und Albayzín“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Alhambra"
+  }
+ },
+ {
+  "id": "landmark:angel-falls",
+  "type": "landmark",
+  "names": {
+   "de": "Salto Ángel",
+   "en": "Angel Falls"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:angel-falls",
+    "kind": "photo",
+    "url": "media/photos/landmarks/angel-falls.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:SaltoAngel1.jpg",
+    "author": "Rich Childs",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "Rich Childs · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:SaltoAngel1.jpg",
+    "caption": "Angel Falls"
+   }
+  ],
+  "attributes": {
+   "country": "country:VE",
+   "continent": "south-america",
+   "place_name": "Canaima-Nationalpark",
+   "landmark_type": "landscape",
+   "facts": [
+    "Standort: Canaima-Nationalpark, Venezuela.",
+    "Der Salto Ángel gilt als höchster ununterbrochener Wasserfall der Erde.",
+    "Der Standort liegt in der Weltregion Südamerika."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Angel_Falls",
+   "source_id": "Q80299",
+   "imported_at": "2026-10-01"
+  }
+ },
+ {
+  "id": "landmark:angel-independence",
+  "type": "landmark",
+  "names": {
+   "de": "El Ángel de la Independencia",
+   "en": "Angel of Independence"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:angel-independence",
+    "kind": "photo",
+    "url": "media/photos/landmarks/angel-independence.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Angel_de_la_independencia170409.jpg",
+    "author": "Carlos Valenzuela",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Carlos Valenzuela · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Angel_de_la_independencia170409.jpg",
+    "caption": "Angel of Independence"
+   }
+  ],
+  "attributes": {
+   "country": "country:MX",
+   "continent": "north-america",
+   "place_name": "Mexiko-Stadt",
+   "landmark_type": "monument",
+   "facts": [
+    "Standort: Mexiko-Stadt, Mexiko.",
+    "Die vergoldete Siegesfigur steht auf einer hohen Säule am Paseo de la Reforma.",
+    "Der Standort liegt in der Weltregion Nordamerika."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Angel_of_Independence",
+   "source_id": "Q928541",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -131,12 +266,57 @@
    "continent": "asia",
    "place_name": "Siem Reap",
    "unesco": "Angkor",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Siem Reap, Kambodscha.",
+    "Angkor Wat wurde ursprünglich als hinduistischer Tempel errichtet und später buddhistisch genutzt.",
+    "Unter dem Namen „Angkor“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Angkor%20Wat"
+  }
+ },
+ {
+  "id": "landmark:atomium",
+  "type": "landmark",
+  "names": {
+   "de": "Atomium",
+   "en": "Atomium"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:atomium",
+    "kind": "photo",
+    "url": "media/photos/landmarks/atomium.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_Atomium_during_civil_twilight_(DSCF1135).jpg",
+    "author": "Trougnouf (Benoit Brummer)",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "attribution": "Trougnouf (Benoit Brummer) · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:The_Atomium_during_civil_twilight_(DSCF1135).jpg",
+    "caption": "Atomium"
+   }
+  ],
+  "attributes": {
+   "country": "country:BE",
+   "continent": "europe",
+   "place_name": "Brüssel",
+   "landmark_type": "monument",
+   "facts": [
+    "Standort: Brüssel, Belgien.",
+    "Das Bauwerk stellt eine stark vergrößerte Kristallstruktur aus neun Kugeln dar.",
+    "Der Standort liegt in der Weltregion Europa."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Atomium",
+   "source_id": "Q180901",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -147,17 +327,36 @@
    "en": "Sky Tower (Auckland)"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:auckland-sky-tower",
+    "kind": "photo",
+    "url": "media/photos/landmarks/auckland-sky-tower.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:01_Auckland_New_Zealand-1000137.jpg",
+    "author": "QFSE Media",
+    "license": "CC BY-SA 3.0 nz",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/nz/deed.en",
+    "attribution": "QFSE Media · CC BY-SA 3.0 nz · https://commons.wikimedia.org/wiki/File:01_Auckland_New_Zealand-1000137.jpg",
+    "caption": "Sky Tower (Auckland)"
+   }
+  ],
   "attributes": {
    "country": "country:NZ",
    "continent": "oceania",
    "place_name": "Auckland",
-   "landmark_type": "tower"
+   "landmark_type": "tower",
+   "facts": [
+    "Standort: Auckland, Neuseeland.",
+    "Sky Tower Auckland ist im Atlas als Turm eingeordnet.",
+    "Der Standort liegt in der Weltregion Ozeanien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Sky_Tower_(Auckland)",
-   "imported_at": "2026-09-30"
+   "source_id": "Q722125",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -168,17 +367,102 @@
    "en": "Bagan"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:bagan",
+    "kind": "photo",
+    "url": "media/photos/landmarks/bagan.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bagan,_Burma.jpg",
+    "author": "Corto Maltese 1999",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "Corto Maltese 1999 · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Bagan,_Burma.jpg",
+    "caption": "Bagan"
+   }
+  ],
   "attributes": {
    "country": "country:MM",
    "continent": "asia",
    "place_name": "Bagan",
-   "landmark_type": "archaeological"
+   "landmark_type": "archaeological",
+   "facts": [
+    "Standort: Bagan, Myanmar.",
+    "Tempelstadt Bagan ist im Atlas als archäologische Stätte eingeordnet.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Bagan",
-   "imported_at": "2026-09-30"
+   "source_id": "Q29317",
+   "imported_at": "2026-10-01"
+  }
+ },
+ {
+  "id": "landmark:bahrain-world-trade-center",
+  "type": "landmark",
+  "names": {
+   "de": "Bahrain World Trade Center",
+   "en": "Bahrain World Trade Center"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:BH",
+   "continent": "asia",
+   "place_name": "Manama",
+   "landmark_type": "skyscraper",
+   "facts": [
+    "Standort: Manama, Bahrain.",
+    "Zwischen den beiden Türmen sind Windturbinen in Brücken integriert.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Bahrain_World_Trade_Center",
+   "imported_at": "2026-10-01"
+  }
+ },
+ {
+  "id": "landmark:beehive-wellington",
+  "type": "landmark",
+  "names": {
+   "de": "Beehive",
+   "en": "Beehive (New Zealand)"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:beehive-wellington",
+    "kind": "photo",
+    "url": "media/photos/landmarks/beehive-wellington.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Beehive,_Wellington,_New_Zealand.jpg",
+    "author": "Ulrich Lange, Bochum, Germany",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Ulrich Lange, Bochum, Germany · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Beehive,_Wellington,_New_Zealand.jpg",
+    "caption": "Beehive (New Zealand)"
+   }
+  ],
+  "attributes": {
+   "country": "country:NZ",
+   "continent": "oceania",
+   "place_name": "Wellington",
+   "landmark_type": "building",
+   "facts": [
+    "Standort: Wellington, Neuseeland.",
+    "Der runde Parlamentsflügel erhielt seinen Spitznamen wegen der bienenkorbartigen Form.",
+    "Der Standort liegt in der Weltregion Ozeanien."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Beehive_(New_Zealand)",
+   "source_id": "Q1794839",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -209,7 +493,12 @@
    "continent": "europe",
    "place_name": "Lissabon",
    "unesco": "Hieronymitenkloster und Turm von Belém",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Lissabon, Portugal.",
+    "Torre de Belém ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Hieronymitenkloster und Turm von Belém“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -225,17 +514,35 @@
    "en": "Bikini Atoll"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:bikini-atoll",
+    "kind": "photo",
+    "url": "media/photos/landmarks/bikini-atoll.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Bikini_Atoll_2001-01-14,_Landsat_7_ETM%2B,_bands_3-2-1-8.png",
+    "author": "NASA",
+    "license": "Public domain",
+    "attribution": "NASA · Public domain · https://commons.wikimedia.org/wiki/File:Bikini_Atoll_2001-01-14,_Landsat_7_ETM%2B,_bands_3-2-1-8.png",
+    "caption": "Bikini Atoll"
+   }
+  ],
   "attributes": {
    "country": "country:MH",
    "continent": "oceania",
    "place_name": "Bikini-Atoll",
-   "landmark_type": "cultural-landscape"
+   "landmark_type": "cultural-landscape",
+   "facts": [
+    "Standort: Bikini-Atoll, Marshallinseln.",
+    "Bikini-Atoll ist im Atlas als Kulturlandschaft eingeordnet.",
+    "Der Standort liegt in der Weltregion Ozeanien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Bikini_Atoll",
-   "imported_at": "2026-09-30"
+   "source_id": "Q152225",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -266,7 +573,12 @@
    "continent": "asia",
    "place_name": "Java",
    "unesco": "Tempelanlagen von Borobudur",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Java, Indonesien.",
+    "Borobudur ist eine terrassenförmig aufgebaute buddhistische Tempelanlage.",
+    "Unter dem Namen „Tempelanlagen von Borobudur“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -300,13 +612,18 @@
    "country": "country:DE",
    "continent": "europe",
    "place_name": "Berlin",
-   "landmark_type": "monument"
+   "landmark_type": "monument",
+   "facts": [
+    "Standort: Berlin, Deutschland.",
+    "Das Tor wurde zu einem Symbol der deutschen Teilung und Wiedervereinigung.",
+    "Der Standort liegt in der Weltregion Europa."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Brandenburg_Gate",
    "source_id": "Q82425",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -317,17 +634,36 @@
    "en": "Obelisco de Buenos Aires"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:buenos-aires-obelisk",
+    "kind": "photo",
+    "url": "media/photos/landmarks/buenos-aires-obelisk.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Buenos_Aires_(20234294752).jpg",
+    "author": "Rodrigo Paredes from Ciudad Autónoma de Buenos Aires, Argentina",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "Rodrigo Paredes from Ciudad Autónoma de Buenos Aires, Argentina · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Buenos_Aires_(20234294752).jpg",
+    "caption": "Obelisco de Buenos Aires"
+   }
+  ],
   "attributes": {
    "country": "country:AR",
    "continent": "south-america",
    "place_name": "Buenos Aires",
-   "landmark_type": "monument"
+   "landmark_type": "monument",
+   "facts": [
+    "Standort: Buenos Aires, Argentinien.",
+    "Obelisk von Buenos Aires ist im Atlas als Denkmal eingeordnet.",
+    "Der Standort liegt in der Weltregion Südamerika."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Obelisco_de_Buenos_Aires",
-   "imported_at": "2026-09-30"
+   "source_id": "Q831389",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -356,13 +692,18 @@
    "country": "country:AE",
    "continent": "asia",
    "place_name": "Dubai",
-   "landmark_type": "building"
+   "landmark_type": "building",
+   "facts": [
+    "Standort: Dubai, Vereinigte Arabische Emirate.",
+    "Der Burj Khalifa erreicht eine Höhe von 828 Metern.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Burj_Khalifa",
    "source_id": "Q12495",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -393,7 +734,12 @@
    "continent": "europe",
    "place_name": "Anatolien",
    "unesco": "Göreme-Nationalpark und Felsendenkmäler von Kappadokien",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Anatolien, Türkei.",
+    "Kappadokien ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Göreme-Nationalpark und Felsendenkmäler von Kappadokien“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -429,7 +775,12 @@
    "continent": "europe",
    "place_name": "Carcassonne",
    "unesco": "Historische Festungsstadt Carcassonne",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Carcassonne, Frankreich.",
+    "Festungsstadt Carcassonne ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Historische Festungsstadt Carcassonne“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -465,12 +816,57 @@
    "continent": "south-america",
    "place_name": "Cartagena",
    "unesco": "Hafen, Festungen und Baudenkmäler von Cartagena",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Cartagena, Kolumbien.",
+    "Altstadt von Cartagena ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Hafen, Festungen und Baudenkmäler von Cartagena“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Cartagena%2C%20Colombia"
+  }
+ },
+ {
+  "id": "landmark:casa-rosada",
+  "type": "landmark",
+  "names": {
+   "de": "Casa Rosada",
+   "en": "Casa Rosada"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:casa-rosada",
+    "kind": "photo",
+    "url": "media/photos/landmarks/casa-rosada.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG",
+    "author": "Lars Curfs (Grashoofd)",
+    "license": "CC BY-SA 3.0 nl",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/nl/deed.en",
+    "attribution": "Lars Curfs (Grashoofd) · CC BY-SA 3.0 nl · https://commons.wikimedia.org/wiki/File:Casa_Rosada_exterior_from_Plaza_de_Mayo.JPG",
+    "caption": "Casa Rosada"
+   }
+  ],
+  "attributes": {
+   "country": "country:AR",
+   "continent": "south-america",
+   "place_name": "Buenos Aires",
+   "landmark_type": "building",
+   "facts": [
+    "Standort: Buenos Aires, Argentinien.",
+    "Der rosafarbene Palast ist der Amtssitz des argentinischen Präsidenten.",
+    "Der Standort liegt in der Weltregion Südamerika."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Casa_Rosada",
+   "source_id": "Q478926",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -499,13 +895,18 @@
    "country": "country:DZ",
    "continent": "africa",
    "place_name": "Algier",
-   "landmark_type": "historic-quarter"
+   "landmark_type": "historic-quarter",
+   "facts": [
+    "Standort: Algier, Algerien.",
+    "Kasbah von Algier ist im Atlas als historisches Stadtviertel eingeordnet.",
+    "Der Standort liegt in der Weltregion Afrika."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Casbah_of_Algiers",
    "source_id": "Q662102",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -534,12 +935,57 @@
    "continent": "europe",
    "place_name": "Apulien",
    "unesco": "Castel del Monte",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Apulien, Italien.",
+    "Castel del Monte ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Castel del Monte“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Castel%20del%20Monte%2C%20Apulia"
+  }
+ },
+ {
+  "id": "landmark:chain-bridge",
+  "type": "landmark",
+  "names": {
+   "de": "Kettenbrücke",
+   "en": "Széchenyi Chain Bridge"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:chain-bridge",
+    "kind": "photo",
+    "url": "media/photos/landmarks/chain-bridge.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sz%C3%A9chenyi_Chain_Bridge_in_Budapest_at_night.jpg",
+    "author": "Wilfredor",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "attribution": "Wilfredor · CC0 · https://commons.wikimedia.org/wiki/File:Sz%C3%A9chenyi_Chain_Bridge_in_Budapest_at_night.jpg",
+    "caption": "Széchenyi Chain Bridge"
+   }
+  ],
+  "attributes": {
+   "country": "country:HU",
+   "continent": "europe",
+   "place_name": "Budapest",
+   "landmark_type": "bridge",
+   "facts": [
+    "Standort: Budapest, Ungarn.",
+    "Die Kettenbrücke verbindet Buda und Pest über die Donau.",
+    "Der Standort liegt in der Weltregion Europa."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Sz%C3%A9chenyi_Chain_Bridge",
+   "source_id": "Q465534",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -568,13 +1014,18 @@
    "country": "country:CZ",
    "continent": "europe",
    "place_name": "Prag",
-   "landmark_type": "bridge"
+   "landmark_type": "bridge",
+   "facts": [
+    "Standort: Prag, Tschechien.",
+    "Karlsbrücke ist im Atlas als Brücke eingeordnet.",
+    "Der Standort liegt in der Weltregion Europa."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Charles_Bridge",
    "source_id": "Q204871",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -603,12 +1054,57 @@
    "continent": "europe",
    "place_name": "Chartres",
    "unesco": "Kathedrale von Chartres",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Chartres, Frankreich.",
+    "Kathedrale von Chartres ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Kathedrale von Chartres“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Chartres%20Cathedral"
+  }
+ },
+ {
+  "id": "landmark:chateau-frontenac",
+  "type": "landmark",
+  "names": {
+   "de": "Château Frontenac",
+   "en": "Château Frontenac"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:chateau-frontenac",
+    "kind": "photo",
+    "url": "media/photos/landmarks/chateau-frontenac.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_Frontenac_02.jpg",
+    "author": "Bernard Gagnon",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Bernard Gagnon · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_Frontenac_02.jpg",
+    "caption": "Château Frontenac"
+   }
+  ],
+  "attributes": {
+   "country": "country:CA",
+   "continent": "north-america",
+   "place_name": "Québec",
+   "landmark_type": "building",
+   "facts": [
+    "Standort: Québec, Kanada.",
+    "Das schlossartige Hotel dominiert die Silhouette der Altstadt von Québec.",
+    "Der Standort liegt in der Weltregion Nordamerika."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_Frontenac",
+   "source_id": "Q745964",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -639,7 +1135,12 @@
    "continent": "north-america",
    "place_name": "Yucatán",
    "unesco": "Präkolumbische Stadt Chichén Itzá",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Yucatán, Mexiko.",
+    "Die Stufenpyramide El Castillo ist das bekannteste Bauwerk der Maya-Stätte.",
+    "Unter dem Namen „Präkolumbische Stadt Chichén Itzá“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -675,7 +1176,12 @@
    "continent": "south-america",
    "place_name": "Rio de Janeiro",
    "unesco": "Rio de Janeiro: Carioca-Landschaften",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Rio de Janeiro, Brasilien.",
+    "Die Christusstatue steht auf dem Berg Corcovado über Rio de Janeiro.",
+    "Unter dem Namen „Rio de Janeiro: Carioca-Landschaften“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -711,7 +1217,12 @@
    "continent": "europe",
    "place_name": "Ligurien",
    "unesco": "Portovenere, Cinque Terre und die Inseln",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Ligurien, Italien.",
+    "Cinque Terre ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Portovenere, Cinque Terre und die Inseln“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -727,17 +1238,35 @@
    "en": "CN Tower"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:cn-tower",
+    "kind": "photo",
+    "url": "media/photos/landmarks/cn-tower.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:CN_Tower_logo.png",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "attribution": "Unknown authorUnknown author · Public domain · https://commons.wikimedia.org/wiki/File:CN_Tower_logo.png",
+    "caption": "CN Tower"
+   }
+  ],
   "attributes": {
    "country": "country:CA",
    "continent": "north-america",
    "place_name": "Toronto",
-   "landmark_type": "tower"
+   "landmark_type": "tower",
+   "facts": [
+    "Standort: Toronto, Kanada.",
+    "Der CN Tower prägt die Skyline von Toronto als Fernseh- und Aussichtsturm.",
+    "Der Standort liegt in der Weltregion Nordamerika."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/CN_Tower",
-   "imported_at": "2026-09-30"
+   "source_id": "Q134883",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -768,7 +1297,12 @@
    "continent": "europe",
    "place_name": "Coimbra",
    "unesco": "Universität Coimbra – Alta und Sofia",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Coimbra, Portugal.",
+    "Universität Coimbra ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Universität Coimbra – Alta und Sofia“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -802,7 +1336,12 @@
    "continent": "europe",
    "place_name": "Köln",
    "unesco": "Kölner Dom",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Köln, Deutschland.",
+    "Kölner Dom ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Kölner Dom“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -838,7 +1377,12 @@
    "continent": "europe",
    "place_name": "Rom",
    "unesco": "Historisches Zentrum von Rom",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Rom, Italien.",
+    "Das elliptische Amphitheater bot Zehntausenden Zuschauern Platz.",
+    "Unter dem Namen „Historisches Zentrum von Rom“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -874,7 +1418,12 @@
    "continent": "europe",
    "place_name": "Córdoba",
    "unesco": "Historisches Zentrum von Córdoba",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Córdoba, Spanien.",
+    "Mezquita-Catedral de Córdoba ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Historisches Zentrum von Córdoba“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -910,7 +1459,12 @@
    "continent": "europe",
    "place_name": "Delphi",
    "unesco": "Archäologische Stätte von Delphi",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Delphi, Griechenland.",
+    "Orakelstätte Delphi ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Archäologische Stätte von Delphi“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -944,13 +1498,58 @@
    "country": "country:ML",
    "continent": "africa",
    "place_name": "Djenné",
-   "landmark_type": "religious"
+   "landmark_type": "religious",
+   "facts": [
+    "Standort: Djenné, Mali.",
+    "Große Moschee von Djenné ist im Atlas als Sakralbau eingeordnet.",
+    "Der Standort liegt in der Weltregion Afrika."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Great_Mosque_of_Djenn%C3%A9",
    "source_id": "Q683632",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
+  }
+ },
+ {
+  "id": "landmark:dongdaemun-design-plaza",
+  "type": "landmark",
+  "names": {
+   "de": "Dongdaemun Design Plaza",
+   "en": "Dongdaemun Design Plaza"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:dongdaemun-design-plaza",
+    "kind": "photo",
+    "url": "media/photos/landmarks/dongdaemun-design-plaza.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Dongdaemun_Design_Plaza_at_night,_Seoul,_Korea.jpg",
+    "author": "Eugene Lim",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "Eugene Lim · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Dongdaemun_Design_Plaza_at_night,_Seoul,_Korea.jpg",
+    "caption": "Dongdaemun Design Plaza"
+   }
+  ],
+  "attributes": {
+   "country": "country:KR",
+   "continent": "asia",
+   "place_name": "Seoul",
+   "landmark_type": "building",
+   "facts": [
+    "Standort: Seoul, Südkorea.",
+    "Der fließend geformte Kulturkomplex wurde von Zaha Hadid Architects entworfen.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Dongdaemun_Design_Plaza",
+   "source_id": "Q5295847",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -979,13 +1578,18 @@
    "country": "country:HR",
    "continent": "europe",
    "place_name": "Dubrovnik",
-   "landmark_type": "fortification"
+   "landmark_type": "fortification",
+   "facts": [
+    "Standort: Dubrovnik, Kroatien.",
+    "Stadtmauer von Dubrovnik ist im Atlas als Befestigungsanlage eingeordnet.",
+    "Der Standort liegt in der Weltregion Europa."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Walls_of_Dubrovnik",
    "source_id": "Q931733",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -1016,7 +1620,12 @@
    "continent": "europe",
    "place_name": "Edinburgh",
    "unesco": "Altstadt und Neustadt von Edinburgh",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Edinburgh, Vereinigtes Königreich.",
+    "Edinburgh Castle ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Altstadt und Neustadt von Edinburgh“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -1051,7 +1660,12 @@
    "continent": "europe",
    "place_name": "Paris",
    "unesco": "Paris, Ufer der Seine",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Paris, Frankreich.",
+    "Der Eiffelturm entstand als Eingangsbauwerk der Pariser Weltausstellung von 1889.",
+    "Unter dem Namen „Paris, Ufer der Seine“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -1085,13 +1699,18 @@
    "country": "country:TN",
    "continent": "africa",
    "place_name": "El Djem",
-   "landmark_type": "archaeological"
+   "landmark_type": "archaeological",
+   "facts": [
+    "Standort: El Djem, Tunesien.",
+    "Amphitheater von El Djem ist im Atlas als archäologische Stätte eingeordnet.",
+    "Der Standort liegt in der Weltregion Afrika."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Amphitheatre_of_El_Jem",
    "source_id": "Q2914326",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -1102,17 +1721,35 @@
    "en": "Empire State Building"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:empire-state",
+    "kind": "photo",
+    "url": "media/photos/landmarks/empire-state.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Empire_State_Building_(aerial_view).jpg",
+    "author": "Sam Valadi",
+    "license": "Public domain",
+    "attribution": "Sam Valadi · Public domain · https://commons.wikimedia.org/wiki/File:Empire_State_Building_(aerial_view).jpg",
+    "caption": "Empire State Building"
+   }
+  ],
   "attributes": {
    "country": "country:US",
    "continent": "north-america",
    "place_name": "New York City",
-   "landmark_type": "building"
+   "landmark_type": "building",
+   "facts": [
+    "Standort: New York City, Vereinigte Staaten.",
+    "Empire State Building ist im Atlas als Bauwerk eingeordnet.",
+    "Der Standort liegt in der Weltregion Nordamerika."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Empire_State_Building",
-   "imported_at": "2026-09-30"
+   "source_id": "Q9188",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -1141,7 +1778,12 @@
    "continent": "asia",
    "place_name": "İzmir",
    "unesco": "Ephesos",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: İzmir, Türkei.",
+    "Ephesos ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Ephesos“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -1175,7 +1817,12 @@
    "continent": "europe",
    "place_name": "Évora",
    "unesco": "Historisches Zentrum von Évora",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Évora, Portugal.",
+    "Historisches Zentrum von Évora ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Historisches Zentrum von Évora“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -1211,7 +1858,12 @@
    "continent": "europe",
    "place_name": "Florenz",
    "unesco": "Historisches Zentrum von Florenz",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Florenz, Italien.",
+    "Kathedrale von Florenz ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Historisches Zentrum von Florenz“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -1245,13 +1897,18 @@
    "country": "country:CN",
    "continent": "asia",
    "place_name": "Peking",
-   "landmark_type": "palace"
+   "landmark_type": "palace",
+   "facts": [
+    "Standort: Peking, China.",
+    "Die Verbotene Stadt war über Jahrhunderte der chinesische Kaiserpalast.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Forbidden_City",
    "source_id": "Q80290",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -1280,7 +1937,12 @@
    "continent": "europe",
    "place_name": "Schottland",
    "unesco": "Forth Bridge",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Schottland, Vereinigtes Königreich.",
+    "Forth Bridge ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Forth Bridge“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -1314,7 +1976,12 @@
    "continent": "south-america",
    "place_name": "Galápagos",
    "unesco": "Galápagos-Inseln",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Galápagos, Ecuador.",
+    "Die isolierte Tierwelt der Inseln beeinflusste Charles Darwins Evolutionstheorie.",
+    "Unter dem Namen „Galápagos-Inseln“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -1330,17 +1997,116 @@
    "en": "Gardens by the Bay"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:gardens-by-the-bay",
+    "kind": "photo",
+    "url": "media/photos/landmarks/gardens-by-the-bay.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Supertree_Grove,_Gardens_by_the_Bay,_Singapore_-_20120712-02.jpg",
+    "author": "Shiny Things.",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "Shiny Things. · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Supertree_Grove,_Gardens_by_the_Bay,_Singapore_-_20120712-02.jpg",
+    "caption": "Gardens by the Bay"
+   }
+  ],
   "attributes": {
    "country": "country:SG",
    "continent": "asia",
    "place_name": "Singapur",
-   "landmark_type": "garden"
+   "landmark_type": "garden",
+   "facts": [
+    "Standort: Singapur, Singapur.",
+    "Gardens by the Bay ist im Atlas als Gartenanlage eingeordnet.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Gardens_by_the_Bay",
-   "imported_at": "2026-09-30"
+   "source_id": "Q630135",
+   "imported_at": "2026-10-01"
+  }
+ },
+ {
+  "id": "landmark:gateway-arch",
+  "type": "landmark",
+  "names": {
+   "de": "Gateway Arch",
+   "en": "Gateway Arch"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:gateway-arch",
+    "kind": "photo",
+    "url": "media/photos/landmarks/gateway-arch.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:St_Louis_night_expblend_cropped.jpg",
+    "author": "St_Louis_night_expblend.jpg: Daniel Schwen\nderivative work: ←fetchcomms",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "St_Louis_night_expblend.jpg: Daniel Schwen\nderivative work: ←fetchcomms · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:St_Louis_night_expblend_cropped.jpg",
+    "caption": "Gateway Arch"
+   }
+  ],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "place_name": "St. Louis",
+   "landmark_type": "monument",
+   "facts": [
+    "Standort: St. Louis, Vereinigte Staaten.",
+    "Der bogenförmige Bau erinnert an die westwärts gerichtete Expansion der USA.",
+    "Der Standort liegt in der Weltregion Nordamerika."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Gateway_Arch",
+   "source_id": "Q2027162",
+   "imported_at": "2026-10-01"
+  }
+ },
+ {
+  "id": "landmark:gateway-india",
+  "type": "landmark",
+  "names": {
+   "de": "Gateway of India",
+   "en": "Gateway of India"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:gateway-india",
+    "kind": "photo",
+    "url": "media/photos/landmarks/gateway-india.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mumbai_03-2016_30_Gateway_of_India.jpg",
+    "author": "A.Savin",
+    "license": "FAL",
+    "license_url": "http://artlibre.org/licence/lal/en",
+    "attribution": "A.Savin · FAL · https://commons.wikimedia.org/wiki/File:Mumbai_03-2016_30_Gateway_of_India.jpg",
+    "caption": "Gateway of India"
+   }
+  ],
+  "attributes": {
+   "country": "country:IN",
+   "continent": "asia",
+   "place_name": "Mumbai",
+   "landmark_type": "monument",
+   "facts": [
+    "Standort: Mumbai, Indien.",
+    "Der monumentale Torbogen steht direkt an der Hafenfront von Mumbai.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Gateway_of_India",
+   "source_id": "Q864862",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -1369,7 +2135,12 @@
    "continent": "asia",
    "place_name": "Şanlıurfa",
    "unesco": "Göbekli Tepe",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Şanlıurfa, Türkei.",
+    "Göbekli Tepe ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Göbekli Tepe“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -1385,17 +2156,36 @@
    "en": "Golden Gate Bridge"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:golden-gate",
+    "kind": "photo",
+    "url": "media/photos/landmarks/golden-gate.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_as_seen_from_Battery_East.jpg",
+    "author": "Frank Schulenburg",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Frank Schulenburg · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Golden_Gate_Bridge_as_seen_from_Battery_East.jpg",
+    "caption": "Golden Gate Bridge"
+   }
+  ],
   "attributes": {
    "country": "country:US",
    "continent": "north-america",
    "place_name": "San Francisco",
-   "landmark_type": "bridge"
+   "landmark_type": "bridge",
+   "facts": [
+    "Standort: San Francisco, Vereinigte Staaten.",
+    "Die Hängebrücke überspannt die Meerenge zwischen San Francisco und Marin County.",
+    "Der Standort liegt in der Weltregion Nordamerika."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge",
-   "imported_at": "2026-09-30"
+   "source_id": "Q44440",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -1426,7 +2216,12 @@
    "continent": "north-america",
    "place_name": "Arizona",
    "unesco": "Grand-Canyon-Nationalpark",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Arizona, Vereinigte Staaten.",
+    "Der Colorado River hat die vielschichtige Schlucht über sehr lange Zeiträume geformt.",
+    "Unter dem Namen „Grand-Canyon-Nationalpark“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -1460,13 +2255,18 @@
    "country": "country:TH",
    "continent": "asia",
    "place_name": "Bangkok",
-   "landmark_type": "palace"
+   "landmark_type": "palace",
+   "facts": [
+    "Standort: Bangkok, Thailand.",
+    "Großer Palast von Bangkok ist im Atlas als Palast oder Schloss eingeordnet.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Grand_Palace",
    "source_id": "Q873769",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -1495,7 +2295,12 @@
    "continent": "oceania",
    "place_name": "Queensland",
    "unesco": "Great Barrier Reef",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Queensland, Australien.",
+    "Das Great Barrier Reef ist das größte Korallenriffsystem der Erde.",
+    "Unter dem Namen „Great Barrier Reef“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -1529,7 +2334,12 @@
    "continent": "asia",
    "place_name": "Nordchina",
    "unesco": "Chinesische Mauer",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Nordchina, China.",
+    "Die Chinesische Mauer besteht aus vielen Bauabschnitten verschiedener Epochen.",
+    "Unter dem Namen „Chinesische Mauer“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -1563,13 +2373,18 @@
    "country": "country:ZW",
    "continent": "africa",
    "place_name": "Masvingo",
-   "landmark_type": "archaeological"
+   "landmark_type": "archaeological",
+   "facts": [
+    "Standort: Masvingo, Simbabwe.",
+    "Groß-Simbabwe ist im Atlas als archäologische Stätte eingeordnet.",
+    "Der Standort liegt in der Weltregion Afrika."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Great_Zimbabwe",
    "source_id": "Q209217",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -1598,13 +2413,18 @@
    "country": "country:KR",
    "continent": "asia",
    "place_name": "Seoul",
-   "landmark_type": "palace"
+   "landmark_type": "palace",
+   "facts": [
+    "Standort: Seoul, Südkorea.",
+    "Gyeongbokgung-Palast ist im Atlas als Palast oder Schloss eingeordnet.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Gyeongbokgung",
    "source_id": "Q482485",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -1635,7 +2455,12 @@
    "continent": "asia",
    "place_name": "Quảng Ninh",
    "unesco": "Hạ-Long-Bucht–Cát-Bà-Archipel",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Quảng Ninh, Vietnam.",
+    "Hạ-Long-Bucht ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Hạ-Long-Bucht–Cát-Bà-Archipel“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -1671,12 +2496,57 @@
    "continent": "europe",
    "place_name": "Istanbul",
    "unesco": "Historische Gebiete von Istanbul",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Istanbul, Türkei.",
+    "Die Hagia Sophia wurde nacheinander als Kirche, Moschee und Museum genutzt.",
+    "Unter dem Namen „Historische Gebiete von Istanbul“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Hagia%20Sophia"
+  }
+ },
+ {
+  "id": "landmark:hallgrimskirkja",
+  "type": "landmark",
+  "names": {
+   "de": "Hallgrímskirkja",
+   "en": "Hallgrímskirkja"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:hallgrimskirkja",
+    "kind": "photo",
+    "url": "media/photos/landmarks/hallgrimskirkja.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Hallgrimskirkja_mai_2026.jpg",
+    "author": "Steinninn",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "attribution": "Steinninn · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Hallgrimskirkja_mai_2026.jpg",
+    "caption": "Hallgrímskirkja"
+   }
+  ],
+  "attributes": {
+   "country": "country:IS",
+   "continent": "europe",
+   "place_name": "Reykjavík",
+   "landmark_type": "religious",
+   "facts": [
+    "Standort: Reykjavík, Island.",
+    "Die Fassade erinnert an die basaltartigen Lavaformationen Islands.",
+    "Der Standort liegt in der Weltregion Europa."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Hallgr%C3%ADmskirkja",
+   "source_id": "Q271466",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -1692,12 +2562,17 @@
    "country": "country:MA",
    "continent": "africa",
    "place_name": "Casablanca",
-   "landmark_type": "religious"
+   "landmark_type": "religious",
+   "facts": [
+    "Standort: Casablanca, Marokko.",
+    "Hassan-II.-Moschee ist im Atlas als Sakralbau eingeordnet.",
+    "Der Standort liegt in der Weltregion Afrika."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Hassan_II_Mosque",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -1708,17 +2583,76 @@
    "en": "El Capitolio"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:havana-capitol",
+    "kind": "photo",
+    "url": "media/photos/landmarks/havana-capitol.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:El_Capitolio_Havana_Cuba.jpg",
+    "author": "Nigel Pacquette",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Nigel Pacquette · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:El_Capitolio_Havana_Cuba.jpg",
+    "caption": "El Capitolio"
+   }
+  ],
   "attributes": {
    "country": "country:CU",
    "continent": "north-america",
    "place_name": "Havanna",
-   "landmark_type": "building"
+   "landmark_type": "building",
+   "facts": [
+    "Standort: Havanna, Kuba.",
+    "Kapitol von Havanna ist im Atlas als Bauwerk eingeordnet.",
+    "Der Standort liegt in der Weltregion Nordamerika."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/El_Capitolio",
-   "imported_at": "2026-09-30"
+   "source_id": "Q1352908",
+   "imported_at": "2026-10-01"
+  }
+ },
+ {
+  "id": "landmark:hawa-mahal",
+  "type": "landmark",
+  "names": {
+   "de": "Hawa Mahal",
+   "en": "Hawa Mahal"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:hawa-mahal",
+    "kind": "photo",
+    "url": "media/photos/landmarks/hawa-mahal.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:East_facade_Hawa_Mahal_Jaipur_from_ground_level_(July_2022)_-_img_01.jpg",
+    "author": "Chainwit.",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Chainwit. · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:East_facade_Hawa_Mahal_Jaipur_from_ground_level_(July_2022)_-_img_01.jpg",
+    "caption": "Hawa Mahal"
+   }
+  ],
+  "attributes": {
+   "country": "country:IN",
+   "continent": "asia",
+   "place_name": "Jaipur",
+   "landmark_type": "palace",
+   "facts": [
+    "Standort: Jaipur, Indien.",
+    "Die reich gegliederte Fassade besitzt zahlreiche kleine Fenster und Erker.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Hawa_Mahal",
+   "source_id": "Q836531",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -1747,7 +2681,12 @@
    "continent": "asia",
    "place_name": "Himeji",
    "unesco": "Burg Himeji",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Himeji, Japan.",
+    "Burg Himeji ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Burg Himeji“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -1781,13 +2720,18 @@
    "country": "country:HU",
    "continent": "europe",
    "place_name": "Budapest",
-   "landmark_type": "building"
+   "landmark_type": "building",
+   "facts": [
+    "Standort: Budapest, Ungarn.",
+    "Ungarisches Parlamentsgebäude ist im Atlas als Bauwerk eingeordnet.",
+    "Der Standort liegt in der Weltregion Europa."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Hungarian_Parliament_Building",
    "source_id": "Q11819",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -1818,12 +2762,123 @@
    "continent": "south-america",
    "place_name": "Misiones",
    "unesco": "Iguazú-Nationalpark",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Misiones, Argentinien.",
+    "Das Wasserfallsystem verteilt sich über die Grenze zwischen Argentinien und Brasilien.",
+    "Unter dem Namen „Iguazú-Nationalpark“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Iguazu%20Falls"
+  }
+ },
+ {
+  "id": "landmark:independence-arch",
+  "type": "landmark",
+  "names": {
+   "de": "Independence Arch",
+   "en": "Independence Arch"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:independence-arch",
+    "kind": "photo",
+    "url": "media/photos/landmarks/independence-arch.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Independence_Arch_Accra_Ghana.jpg",
+    "author": "Flowizm",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "Flowizm · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Independence_Arch_Accra_Ghana.jpg",
+    "caption": "Independence Arch"
+   }
+  ],
+  "attributes": {
+   "country": "country:GH",
+   "continent": "africa",
+   "place_name": "Accra",
+   "landmark_type": "monument",
+   "facts": [
+    "Standort: Accra, Ghana.",
+    "Der Bogen erinnert an die Unabhängigkeit Ghanas.",
+    "Der Standort liegt in der Weltregion Afrika."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Independence_Arch",
+   "source_id": "Q1661042",
+   "imported_at": "2026-10-01"
+  }
+ },
+ {
+  "id": "landmark:independence-monument-cambodia",
+  "type": "landmark",
+  "names": {
+   "de": "Unabhängigkeitsdenkmal Phnom Penh",
+   "en": "Independence Monument, Phnom Penh"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:KH",
+   "continent": "asia",
+   "place_name": "Phnom Penh",
+   "landmark_type": "monument",
+   "facts": [
+    "Standort: Phnom Penh, Kambodscha.",
+    "Das Denkmal ist in der Form eines Khmer-Lotusturms gestaltet.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Independence_Monument%2C_Phnom_Penh",
+   "imported_at": "2026-10-01"
+  }
+ },
+ {
+  "id": "landmark:itsukushima-shrine",
+  "type": "landmark",
+  "names": {
+   "de": "Itsukushima-Schrein",
+   "en": "Itsukushima Shrine"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:itsukushima-shrine",
+    "kind": "photo",
+    "url": "media/photos/landmarks/itsukushima-shrine.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Itsukushima_Shrine_Torii_Gate_(13890465459).jpg",
+    "author": "redlegsfan21",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attribution": "redlegsfan21 · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Itsukushima_Shrine_Torii_Gate_(13890465459).jpg",
+    "caption": "Itsukushima Shrine"
+   }
+  ],
+  "attributes": {
+   "country": "country:JP",
+   "continent": "asia",
+   "place_name": "Hatsukaichi",
+   "landmark_type": "religious",
+   "facts": [
+    "Standort: Hatsukaichi, Japan.",
+    "Das große Torii scheint bei Flut im Wasser zu stehen.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Itsukushima_Shrine",
+   "source_id": "Q191763",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -1854,12 +2909,57 @@
    "continent": "europe",
    "place_name": "Lissabon",
    "unesco": "Hieronymitenkloster und Turm von Belém",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Lissabon, Portugal.",
+    "Hieronymitenkloster ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Hieronymitenkloster und Turm von Belém“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Jer%C3%B3nimos%20Monastery"
+  }
+ },
+ {
+  "id": "landmark:kigali-memorial",
+  "type": "landmark",
+  "names": {
+   "de": "Kigali Genocide Memorial",
+   "en": "Kigali Genocide Memorial"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:kigali-memorial",
+    "kind": "photo",
+    "url": "media/photos/landmarks/kigali-memorial.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%D7%90%D7%AA%D7%A8_%D7%94%D7%94%D7%A0%D7%A6%D7%97%D7%94_%D7%9C%D7%A8%D7%A6%D7%97_%D7%94%D7%A2%D7%9D_%D7%91%D7%A8%D7%95%D7%90%D7%A0%D7%93%D7%94_%D7%91%D7%A7%D7%99%D7%92%D7%90%D7%9C%D7%99_12.jpg",
+    "author": "Hanay",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Hanay · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:%D7%90%D7%AA%D7%A8_%D7%94%D7%94%D7%A0%D7%A6%D7%97%D7%94_%D7%9C%D7%A8%D7%A6%D7%97_%D7%94%D7%A2%D7%9D_%D7%91%D7%A8%D7%95%D7%90%D7%A0%D7%93%D7%94_%D7%91%D7%A7%D7%99%D7%92%D7%90%D7%9C%D7%99_12.jpg",
+    "caption": "Kigali Genocide Memorial"
+   }
+  ],
+  "attributes": {
+   "country": "country:RW",
+   "continent": "africa",
+   "place_name": "Kigali",
+   "landmark_type": "memorial",
+   "facts": [
+    "Standort: Kigali, Ruanda.",
+    "Die Gedenkstätte erinnert an die Opfer des Völkermords von 1994 in Ruanda.",
+    "Der Standort liegt in der Weltregion Afrika."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Kigali_Genocide_Memorial",
+   "source_id": "Q6405906",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -1890,7 +2990,12 @@
    "continent": "africa",
    "place_name": "Kilimandscharo",
    "unesco": "Kilimandscharo-Nationalpark",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Kilimandscharo, Tansania.",
+    "Kilimandscharo ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Kilimandscharo-Nationalpark“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -1926,7 +3031,12 @@
    "continent": "europe",
    "place_name": "Kreta",
    "unesco": "Minoische Palastzentren",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Kreta, Griechenland.",
+    "Palast von Knossos ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Minoische Palastzentren“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -1960,13 +3070,18 @@
    "country": "country:SI",
    "continent": "europe",
    "place_name": "Bled",
-   "landmark_type": "landscape"
+   "landmark_type": "landscape",
+   "facts": [
+    "Standort: Bled, Slowenien.",
+    "Bleder See ist im Atlas als Natur- oder Kulturlandschaft eingeordnet.",
+    "Der Standort liegt in der Weltregion Europa."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Lake_Bled",
    "source_id": "Q648902",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -1995,7 +3110,12 @@
    "continent": "africa",
    "place_name": "Lalibela",
    "unesco": "Felsenkirchen von Lalibela",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Lalibela, Äthiopien.",
+    "Felsenkirchen von Lalibela ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Felsenkirchen von Lalibela“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -2029,13 +3149,18 @@
    "country": "country:MU",
    "continent": "africa",
    "place_name": "Le Morne",
-   "landmark_type": "cultural-landscape"
+   "landmark_type": "cultural-landscape",
+   "facts": [
+    "Standort: Le Morne, Mauritius.",
+    "Le Morne Brabant ist im Atlas als Kulturlandschaft eingeordnet.",
+    "Der Standort liegt in der Weltregion Afrika."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Le_Morne_Brabant",
    "source_id": "Q1129992",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -2064,12 +3189,83 @@
    "continent": "north-america",
    "place_name": "New York City",
    "unesco": "Freiheitsstatue",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: New York City, Vereinigte Staaten.",
+    "Frankreich schenkte die Freiheitsstatue den Vereinigten Staaten.",
+    "Unter dem Namen „Freiheitsstatue“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Statue%20of%20Liberty"
+  }
+ },
+ {
+  "id": "landmark:little-mermaid",
+  "type": "landmark",
+  "names": {
+   "de": "Die kleine Meerjungfrau",
+   "en": "The Little Mermaid (statue)"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:DK",
+   "continent": "europe",
+   "place_name": "Kopenhagen",
+   "landmark_type": "monument",
+   "facts": [
+    "Standort: Kopenhagen, Dänemark.",
+    "Die Bronzefigur geht auf das gleichnamige Märchen von Hans Christian Andersen zurück.",
+    "Der Standort liegt in der Weltregion Europa."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/The_Little_Mermaid_(statue)",
+   "imported_at": "2026-10-01"
+  }
+ },
+ {
+  "id": "landmark:lotus-temple",
+  "type": "landmark",
+  "names": {
+   "de": "Lotustempel",
+   "en": "Lotus Temple"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:lotus-temple",
+    "kind": "photo",
+    "url": "media/photos/landmarks/lotus-temple.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:LotusDelhi.jpg",
+    "author": "Vandelizer",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "Vandelizer · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:LotusDelhi.jpg",
+    "caption": "Lotus Temple"
+   }
+  ],
+  "attributes": {
+   "country": "country:IN",
+   "continent": "asia",
+   "place_name": "Neu-Delhi",
+   "landmark_type": "religious",
+   "facts": [
+    "Standort: Neu-Delhi, Indien.",
+    "Die Form des Bahá’í-Tempels ist einer geöffneten Lotusblüte nachempfunden.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Lotus_Temple",
+   "source_id": "Q940843",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -2100,7 +3296,12 @@
    "continent": "europe",
    "place_name": "Lübeck",
    "unesco": "Hansestadt Lübeck",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Lübeck, Deutschland.",
+    "Lübecker Altstadt ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Hansestadt Lübeck“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -2136,12 +3337,57 @@
    "continent": "south-america",
    "place_name": "Cusco",
    "unesco": "Historisches Heiligtum von Machu Picchu",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Cusco, Peru.",
+    "Die Inkastätte liegt auf einem Bergrücken in den peruanischen Anden.",
+    "Unter dem Namen „Historisches Heiligtum von Machu Picchu“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Machu%20Picchu"
+  }
+ },
+ {
+  "id": "landmark:marina-bay-sands",
+  "type": "landmark",
+  "names": {
+   "de": "Marina Bay Sands",
+   "en": "Marina Bay Sands"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:marina-bay-sands",
+    "kind": "photo",
+    "url": "media/photos/landmarks/marina-bay-sands.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Marina_Bay_Sands_(I).jpg",
+    "author": "This Photo was taken by Supanut Arunoprayote.\n\nFeel free to use any of my images, but please mention me as the author and may send me a message.  (สามารถใช้ภาพได้อิสระ แต่กรุณาใส่เครดิตผู้ถ่ายและอาจส่งข้อความบอกกล่าวด้วย) \n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract.",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "attribution": "This Photo was taken by Supanut Arunoprayote.\n\nFeel free to use any of my images, but please mention me as the author and may send me a message.  (สามารถใช้ภาพได้อิสระ แต่กรุณาใส่เครดิตผู้ถ่ายและอาจส่งข้อความบอกกล่าวด้วย) \n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract. · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:Marina_Bay_Sands_(I).jpg",
+    "caption": "Marina Bay Sands"
+   }
+  ],
+  "attributes": {
+   "country": "country:SG",
+   "continent": "asia",
+   "place_name": "Singapur",
+   "landmark_type": "building",
+   "facts": [
+    "Standort: Singapur, Singapur.",
+    "Drei Hoteltürme tragen eine gemeinsame, schiffsähnliche Dachterrasse.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Marina_Bay_Sands",
+   "source_id": "Q548679",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -2170,7 +3416,12 @@
    "continent": "africa",
    "place_name": "Marrakesch",
    "unesco": "Medina von Marrakesch",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Marrakesch, Marokko.",
+    "Medina von Marrakesch ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Medina von Marrakesch“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -2204,13 +3455,18 @@
    "country": "country:SG",
    "continent": "asia",
    "place_name": "Singapur",
-   "landmark_type": "monument"
+   "landmark_type": "monument",
+   "facts": [
+    "Standort: Singapur, Singapur.",
+    "Merlion ist im Atlas als Denkmal eingeordnet.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Merlion",
    "source_id": "Q208760",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -2241,12 +3497,43 @@
    "continent": "europe",
    "place_name": "Thessalien",
    "unesco": "Meteora",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Thessalien, Griechenland.",
+    "Meteora-Klöster ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Meteora“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Meteora"
+  }
+ },
+ {
+  "id": "landmark:monas",
+  "type": "landmark",
+  "names": {
+   "de": "Nationalmonument Monas",
+   "en": "National Monument (Indonesia)"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:ID",
+   "continent": "asia",
+   "place_name": "Jakarta",
+   "landmark_type": "monument",
+   "facts": [
+    "Standort: Jakarta, Indonesien.",
+    "Eine vergoldete Flamme krönt das indonesische Nationalmonument.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/National_Monument_(Indonesia)",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -2277,7 +3564,12 @@
    "continent": "europe",
    "place_name": "Normandie",
    "unesco": "Mont-Saint-Michel und seine Bucht",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Normandie, Frankreich.",
+    "Mont-Saint-Michel ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Mont-Saint-Michel und seine Bucht“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -2313,12 +3605,57 @@
    "continent": "asia",
    "place_name": "Honshū",
    "unesco": "Fuji-san, heiliger Ort und Quelle künstlerischer Inspiration",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Honshū, Japan.",
+    "Der nahezu symmetrische Vulkan gilt in Japan als heiliger Berg.",
+    "Unter dem Namen „Fuji-san, heiliger Ort und Quelle künstlerischer Inspiration“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Mount%20Fuji"
+  }
+ },
+ {
+  "id": "landmark:mount-rushmore",
+  "type": "landmark",
+  "names": {
+   "de": "Mount Rushmore",
+   "en": "Mount Rushmore"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:mount-rushmore",
+    "kind": "photo",
+    "url": "media/photos/landmarks/mount-rushmore.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Mount_Rushmore_detail_view_(100MP).jpg",
+    "author": "Thomas Wolf, www.foto-tw.de",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Thomas Wolf, www.foto-tw.de · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Mount_Rushmore_detail_view_(100MP).jpg",
+    "caption": "Mount Rushmore"
+   }
+  ],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "place_name": "Keystone",
+   "landmark_type": "monument",
+   "facts": [
+    "Standort: Keystone, Vereinigte Staaten.",
+    "In den Granitfelsen sind die Köpfe von vier US-Präsidenten gehauen.",
+    "Der Standort liegt in der Weltregion Nordamerika."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Mount_Rushmore",
+   "source_id": "Q83497",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -2347,7 +3684,12 @@
    "continent": "europe",
    "place_name": "Berlin",
    "unesco": "Museumsinsel Berlin",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Berlin, Deutschland.",
+    "Museumsinsel Berlin ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Museumsinsel Berlin“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -2383,7 +3725,12 @@
    "continent": "europe",
    "place_name": "Peloponnes",
    "unesco": "Archäologische Stätten von Mykene und Tiryns",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Peloponnes, Griechenland.",
+    "Mykene ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Archäologische Stätten von Mykene und Tiryns“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -2399,17 +3746,35 @@
    "en": "Nan Madol"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:nan-madol",
+    "kind": "photo",
+    "url": "media/photos/landmarks/nan-madol.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Nan_madol.jpg",
+    "author": "NOAA",
+    "license": "Public domain",
+    "attribution": "NOAA · Public domain · https://commons.wikimedia.org/wiki/File:Nan_madol.jpg",
+    "caption": "Nan Madol"
+   }
+  ],
   "attributes": {
    "country": "country:FM",
    "continent": "oceania",
    "place_name": "Pohnpei",
-   "landmark_type": "archaeological"
+   "landmark_type": "archaeological",
+   "facts": [
+    "Standort: Pohnpei, Mikronesien.",
+    "Nan Madol ist im Atlas als archäologische Stätte eingeordnet.",
+    "Der Standort liegt in der Weltregion Ozeanien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Nan_Madol",
-   "imported_at": "2026-09-30"
+   "source_id": "Q846967",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -2438,13 +3803,18 @@
    "country": "country:DE",
    "continent": "europe",
    "place_name": "Schwangau",
-   "landmark_type": "castle"
+   "landmark_type": "castle",
+   "facts": [
+    "Standort: Schwangau, Deutschland.",
+    "Schloss Neuschwanstein ist im Atlas als Burg oder Schloss eingeordnet.",
+    "Der Standort liegt in der Weltregion Europa."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",
    "source_id": "Q4152",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -2475,7 +3845,12 @@
    "continent": "europe",
    "place_name": "Olympia",
    "unesco": "Archäologische Stätte von Olympia",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Olympia, Griechenland.",
+    "Antikes Olympia ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Archäologische Stätte von Olympia“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -2509,12 +3884,97 @@
    "continent": "oceania",
    "place_name": "Sydney",
    "unesco": "Sydney Opera House",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Sydney, Australien.",
+    "Die markanten Dachschalen des Opernhauses erinnern an Segel.",
+    "Unter dem Namen „Sydney Opera House“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Sydney%20Opera%20House"
+  }
+ },
+ {
+  "id": "landmark:palace-culture-warsaw",
+  "type": "landmark",
+  "names": {
+   "de": "Kultur- und Wissenschaftspalast",
+   "en": "Palace of Culture and Science"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:palace-culture-warsaw",
+    "kind": "photo",
+    "url": "media/photos/landmarks/palace-culture-warsaw.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Pa%C5%82ac_Kultury_i_Nauki_2019.jpg",
+    "author": "Adrian Grycuk",
+    "license": "CC BY-SA 3.0 pl",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/pl/deed.en",
+    "attribution": "Adrian Grycuk · CC BY-SA 3.0 pl · https://commons.wikimedia.org/wiki/File:Pa%C5%82ac_Kultury_i_Nauki_2019.jpg",
+    "caption": "Palace of Culture and Science"
+   }
+  ],
+  "attributes": {
+   "country": "country:PL",
+   "continent": "europe",
+   "place_name": "Warschau",
+   "landmark_type": "building",
+   "facts": [
+    "Standort: Warschau, Polen.",
+    "Das Hochhaus ist eines der auffälligsten Bauwerke der Warschauer Skyline.",
+    "Der Standort liegt in der Weltregion Europa."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Palace_of_Culture_and_Science",
+   "source_id": "Q167566",
+   "imported_at": "2026-10-01"
+  }
+ },
+ {
+  "id": "landmark:palacio-salvo",
+  "type": "landmark",
+  "names": {
+   "de": "Palacio Salvo",
+   "en": "Palacio Salvo"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:palacio-salvo",
+    "kind": "photo",
+    "url": "media/photos/landmarks/palacio-salvo.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Palacio_Salvo_Logo.jpg",
+    "author": "Coquimbo58",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "attribution": "Coquimbo58 · CC0 · https://commons.wikimedia.org/wiki/File:Palacio_Salvo_Logo.jpg",
+    "caption": "Palacio Salvo"
+   }
+  ],
+  "attributes": {
+   "country": "country:UY",
+   "continent": "south-america",
+   "place_name": "Montevideo",
+   "landmark_type": "building",
+   "facts": [
+    "Standort: Montevideo, Uruguay.",
+    "Das Hochhaus markiert die Plaza Independencia im Zentrum Montevideos.",
+    "Der Standort liegt in der Weltregion Südamerika."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Palacio_Salvo",
+   "source_id": "Q1519373",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -2545,7 +4005,12 @@
    "continent": "asia",
    "place_name": "Denizli",
    "unesco": "Hierapolis–Pamukkale",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Denizli, Türkei.",
+    "Pamukkale ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Hierapolis–Pamukkale“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -2561,17 +4026,36 @@
    "en": "Panama Canal"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:panama-canal",
+    "kind": "photo",
+    "url": "media/photos/landmarks/panama-canal.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Panama_Canal_Map_EN.svg",
+    "author": "Thoroe",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "attribution": "Thoroe · CC BY-SA 2.0 · https://commons.wikimedia.org/wiki/File:Panama_Canal_Map_EN.svg",
+    "caption": "Panama Canal"
+   }
+  ],
   "attributes": {
    "country": "country:PA",
    "continent": "north-america",
    "place_name": "Panama-Stadt",
-   "landmark_type": "engineering"
+   "landmark_type": "engineering",
+   "facts": [
+    "Standort: Panama-Stadt, Panama.",
+    "Der Kanal verbindet Atlantik und Pazifik über eine Folge von Schleusen.",
+    "Der Standort liegt in der Weltregion Nordamerika."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Panama_Canal",
-   "imported_at": "2026-09-30"
+   "source_id": "Q7350",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -2582,17 +4066,36 @@
    "en": "Parliament Hill"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:parliament-hill",
+    "kind": "photo",
+    "url": "media/photos/landmarks/parliament-hill.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Ottawa_-_ON_-_Stadtansicht.jpg",
+    "author": "Wladyslaw",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "attribution": "Wladyslaw · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Ottawa_-_ON_-_Stadtansicht.jpg",
+    "caption": "Parliament Hill"
+   }
+  ],
   "attributes": {
    "country": "country:CA",
    "continent": "north-america",
    "place_name": "Ottawa",
-   "landmark_type": "building"
+   "landmark_type": "building",
+   "facts": [
+    "Standort: Ottawa, Kanada.",
+    "Parliament Hill ist im Atlas als Bauwerk eingeordnet.",
+    "Der Standort liegt in der Weltregion Nordamerika."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Parliament_Hill",
-   "imported_at": "2026-09-30"
+   "source_id": "Q1589289",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -2603,17 +4106,36 @@
    "en": "Parliament House, Canberra"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:parliament-house-canberra",
+    "kind": "photo",
+    "url": "media/photos/landmarks/parliament-house-canberra.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Parliament_House_at_dusk,_Canberra_ACT.jpg",
+    "author": "Thennicke",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Thennicke · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Parliament_House_at_dusk,_Canberra_ACT.jpg",
+    "caption": "Parliament House, Canberra"
+   }
+  ],
   "attributes": {
    "country": "country:AU",
    "continent": "oceania",
    "place_name": "Canberra",
-   "landmark_type": "building"
+   "landmark_type": "building",
+   "facts": [
+    "Standort: Canberra, Australien.",
+    "Parliament House ist im Atlas als Bauwerk eingeordnet.",
+    "Der Standort liegt in der Weltregion Ozeanien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Parliament_House%2C_Canberra",
-   "imported_at": "2026-09-30"
+   "source_id": "Q1858105",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -2644,7 +4166,12 @@
    "continent": "europe",
    "place_name": "Sintra",
    "unesco": "Kulturlandschaft Sintra",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Sintra, Portugal.",
+    "Palácio Nacional da Pena ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Kulturlandschaft Sintra“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -2660,17 +4187,36 @@
    "en": "Persepolis"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:persepolis",
+    "kind": "photo",
+    "url": "media/photos/landmarks/persepolis.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:2018-09-21_Iran,_Persepolis,_Tachara_(from_the_southeast).jpg",
+    "author": "Laurens R. Krol",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "attribution": "Laurens R. Krol · CC BY 4.0 · https://commons.wikimedia.org/wiki/File:2018-09-21_Iran,_Persepolis,_Tachara_(from_the_southeast).jpg",
+    "caption": "Persepolis"
+   }
+  ],
   "attributes": {
    "country": "country:IR",
    "continent": "asia",
    "place_name": "Persepolis",
-   "landmark_type": "archaeological"
+   "landmark_type": "archaeological",
+   "facts": [
+    "Standort: Persepolis, Iran.",
+    "Persepolis ist im Atlas als archäologische Stätte eingeordnet.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Persepolis",
-   "imported_at": "2026-09-30"
+   "source_id": "Q129072",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -2699,7 +4245,12 @@
    "continent": "asia",
    "place_name": "Ma’an",
    "unesco": "Petra",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Ma’an, Jordanien.",
+    "Viele Fassaden Petras wurden direkt aus dem rötlichen Sandstein gemeißelt.",
+    "Unter dem Namen „Petra“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -2715,17 +4266,35 @@
    "en": "Petronas Towers"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:petronas-towers",
+    "kind": "photo",
+    "url": "media/photos/landmarks/petronas-towers.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Petronas_Towers_Logo.svg",
+    "author": "Unknown authorUnknown author",
+    "license": "Public domain",
+    "attribution": "Unknown authorUnknown author · Public domain · https://commons.wikimedia.org/wiki/File:Petronas_Towers_Logo.svg",
+    "caption": "Petronas Towers"
+   }
+  ],
   "attributes": {
    "country": "country:MY",
    "continent": "asia",
    "place_name": "Kuala Lumpur",
-   "landmark_type": "building"
+   "landmark_type": "building",
+   "facts": [
+    "Standort: Kuala Lumpur, Malaysia.",
+    "Petronas Towers ist im Atlas als Bauwerk eingeordnet.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Petronas_Towers",
-   "imported_at": "2026-09-30"
+   "source_id": "Q83063",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -2756,7 +4325,12 @@
    "continent": "europe",
    "place_name": "Pisa",
    "unesco": "Piazza del Duomo, Pisa",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Pisa, Italien.",
+    "Der Glockenturm begann sich schon während seiner jahrhundertelangen Bauzeit zu neigen.",
+    "Unter dem Namen „Piazza del Duomo, Pisa“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -2792,7 +4366,12 @@
    "continent": "europe",
    "place_name": "Kampanien",
    "unesco": "Archäologische Stätten von Pompeji, Herculaneum und Torre Annunziata",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Kampanien, Italien.",
+    "Pompeji ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Archäologische Stätten von Pompeji, Herculaneum und Torre Annunziata“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -2826,7 +4405,12 @@
    "continent": "europe",
    "place_name": "Okzitanien",
    "unesco": "Pont du Gard",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Okzitanien, Frankreich.",
+    "Pont du Gard ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Pont du Gard“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -2860,7 +4444,12 @@
    "continent": "europe",
    "place_name": "Porto",
    "unesco": "Historisches Zentrum von Porto",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Porto, Portugal.",
+    "Historisches Zentrum von Porto ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Historisches Zentrum von Porto“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -2894,13 +4483,18 @@
    "country": "country:CN",
    "continent": "asia",
    "place_name": "Lhasa",
-   "landmark_type": "palace"
+   "landmark_type": "palace",
+   "facts": [
+    "Standort: Lhasa, China.",
+    "Potala-Palast ist im Atlas als Palast oder Schloss eingeordnet.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Potala_Palace",
    "source_id": "Q71229",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -2929,13 +4523,18 @@
    "country": "country:CZ",
    "continent": "europe",
    "place_name": "Prag",
-   "landmark_type": "castle"
+   "landmark_type": "castle",
+   "facts": [
+    "Standort: Prag, Tschechien.",
+    "Prager Burg ist im Atlas als Burg oder Schloss eingeordnet.",
+    "Der Standort liegt in der Weltregion Europa."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Prague_Castle",
    "source_id": "Q193369",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -2966,7 +4565,12 @@
    "continent": "africa",
    "place_name": "Gizeh",
    "unesco": "Memphis und seine Nekropole",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Gizeh, Ägypten.",
+    "Die Cheops-Pyramide ist das einzige erhaltene Weltwunder der Antike.",
+    "Unter dem Namen „Memphis und seine Nekropole“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -3002,7 +4606,12 @@
    "continent": "south-america",
    "place_name": "Osterinsel",
    "unesco": "Nationalpark Rapa Nui",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Osterinsel, Chile.",
+    "Die monumentalen Moai wurden von der polynesischen Bevölkerung Rapa Nuis geschaffen.",
+    "Unter dem Namen „Nationalpark Rapa Nui“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -3018,17 +4627,36 @@
    "en": "Registan"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:registan",
+    "kind": "photo",
+    "url": "media/photos/landmarks/registan.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:RegistanSquare_Samarkand.jpg",
+    "author": "Registan_-_Gusjer.jpg: Gustavo Jeronimo from Aranjuez, Spain\nderivative work: MrPanyGoff",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "Registan_-_Gusjer.jpg: Gustavo Jeronimo from Aranjuez, Spain\nderivative work: MrPanyGoff · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:RegistanSquare_Samarkand.jpg",
+    "caption": "Registan"
+   }
+  ],
   "attributes": {
    "country": "country:UZ",
    "continent": "asia",
    "place_name": "Samarkand",
-   "landmark_type": "square"
+   "landmark_type": "square",
+   "facts": [
+    "Standort: Samarkand, Usbekistan.",
+    "Registan ist im Atlas als Platzanlage eingeordnet.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Registan",
-   "imported_at": "2026-09-30"
+   "source_id": "Q1373583",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -3057,13 +4685,18 @@
    "country": "country:BG",
    "continent": "europe",
    "place_name": "Rila",
-   "landmark_type": "monastery"
+   "landmark_type": "monastery",
+   "facts": [
+    "Standort: Rila, Bulgarien.",
+    "Kloster Rila ist im Atlas als Klosteranlage eingeordnet.",
+    "Der Standort liegt in der Weltregion Europa."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Rila_Monastery",
    "source_id": "Q207945",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -3092,7 +4725,12 @@
    "continent": "africa",
    "place_name": "Kapstadt",
    "unesco": "Robben Island",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Kapstadt, Südafrika.",
+    "Robben Island ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Robben Island“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -3126,13 +4764,18 @@
    "country": "country:PW",
    "continent": "oceania",
    "place_name": "Koror",
-   "landmark_type": "cultural-landscape"
+   "landmark_type": "cultural-landscape",
+   "facts": [
+    "Standort: Koror, Palau.",
+    "Rock Islands ist im Atlas als Kulturlandschaft eingeordnet.",
+    "Der Standort liegt in der Weltregion Ozeanien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Rock_Islands",
    "source_id": "Q1068224",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -3163,7 +4806,12 @@
    "continent": "europe",
    "place_name": "Bath",
    "unesco": "Stadt Bath",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Bath, Vereinigtes Königreich.",
+    "Römische Bäder von Bath ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Stadt Bath“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -3199,7 +4847,12 @@
    "continent": "europe",
    "place_name": "Barcelona",
    "unesco": "Werke von Antoni Gaudí",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Barcelona, Spanien.",
+    "Antoni Gaudí prägte den organischen Formenreichtum der Basilika.",
+    "Unter dem Namen „Werke von Antoni Gaudí“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -3233,13 +4886,18 @@
    "country": "country:RU",
    "continent": "europe",
    "place_name": "Moskau",
-   "landmark_type": "religious"
+   "landmark_type": "religious",
+   "facts": [
+    "Standort: Moskau, Russland.",
+    "Basilius-Kathedrale ist im Atlas als Sakralbau eingeordnet.",
+    "Der Standort liegt in der Weltregion Europa."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Saint_Basil's_Cathedral",
    "source_id": "Q129846",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -3250,17 +4908,36 @@
    "en": "Salar de Uyuni"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:salar-de-uyuni",
+    "kind": "photo",
+    "url": "media/photos/landmarks/salar-de-uyuni.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Salar_Uyuni_au01.jpg",
+    "author": "Anouchka Unel",
+    "license": "FAL",
+    "license_url": "http://artlibre.org/licence/lal/en",
+    "attribution": "Anouchka Unel · FAL · https://commons.wikimedia.org/wiki/File:Salar_Uyuni_au01.jpg",
+    "caption": "Salar de Uyuni"
+   }
+  ],
   "attributes": {
    "country": "country:BO",
    "continent": "south-america",
    "place_name": "Uyuni",
-   "landmark_type": "landscape"
+   "landmark_type": "landscape",
+   "facts": [
+    "Standort: Uyuni, Bolivien.",
+    "Salar de Uyuni ist im Atlas als Natur- oder Kulturlandschaft eingeordnet.",
+    "Der Standort liegt in der Weltregion Südamerika."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Salar_de_Uyuni",
-   "imported_at": "2026-09-30"
+   "source_id": "Q76122",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -3291,7 +4968,12 @@
    "continent": "europe",
    "place_name": "Potsdam",
    "unesco": "Schlösser und Parks von Potsdam und Berlin",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Potsdam, Deutschland.",
+    "Schloss Sanssouci ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Schlösser und Parks von Potsdam und Berlin“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -3327,7 +5009,12 @@
    "continent": "europe",
    "place_name": "Santiago de Compostela",
    "unesco": "Altstadt von Santiago de Compostela",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Santiago de Compostela, Spanien.",
+    "Kathedrale von Santiago de Compostela ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Altstadt von Santiago de Compostela“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -3361,13 +5048,18 @@
    "country": "country:AT",
    "continent": "europe",
    "place_name": "Wien",
-   "landmark_type": "palace"
+   "landmark_type": "palace",
+   "facts": [
+    "Standort: Wien, Österreich.",
+    "Schloss Schönbrunn ist im Atlas als Palast oder Schloss eingeordnet.",
+    "Der Standort liegt in der Weltregion Europa."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Sch%C3%B6nbrunn_Palace",
    "source_id": "Q131330",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -3398,7 +5090,12 @@
    "continent": "europe",
    "place_name": "Segovia",
    "unesco": "Altstadt von Segovia und ihr Aquädukt",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Segovia, Spanien.",
+    "Aquädukt von Segovia ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Altstadt von Segovia und ihr Aquädukt“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -3432,7 +5129,12 @@
    "continent": "africa",
    "place_name": "Serengeti",
    "unesco": "Serengeti-Nationalpark",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Serengeti, Tansania.",
+    "Serengeti-Nationalpark ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Serengeti-Nationalpark“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -3453,12 +5155,17 @@
    "country": "country:AE",
    "continent": "asia",
    "place_name": "Abu Dhabi",
-   "landmark_type": "religious"
+   "landmark_type": "religious",
+   "facts": [
+    "Standort: Abu Dhabi, Vereinigte Arabische Emirate.",
+    "Scheich-Zayid-Moschee ist im Atlas als Sakralbau eingeordnet.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Sheikh_Zayed_Grand_Mosque",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -3469,17 +5176,36 @@
    "en": "Shwedagon Pagoda"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:shwedagon",
+    "kind": "photo",
+    "url": "media/photos/landmarks/shwedagon.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Shwedagon_Pagoda_2017.jpg",
+    "author": "Bjørn Christian Tørrissen",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Bjørn Christian Tørrissen · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:Shwedagon_Pagoda_2017.jpg",
+    "caption": "Shwedagon Pagoda"
+   }
+  ],
   "attributes": {
    "country": "country:MM",
    "continent": "asia",
    "place_name": "Yangon",
-   "landmark_type": "religious"
+   "landmark_type": "religious",
+   "facts": [
+    "Standort: Yangon, Myanmar.",
+    "Shwedagon-Pagode ist im Atlas als Sakralbau eingeordnet.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Shwedagon_Pagoda",
-   "imported_at": "2026-09-30"
+   "source_id": "Q464535",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -3490,17 +5216,75 @@
    "en": "Sigiriya"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:sigiriya",
+    "kind": "photo",
+    "url": "media/photos/landmarks/sigiriya.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sigiriya_(141688197).jpeg",
+    "author": "Wrobell",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Wrobell · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Sigiriya_(141688197).jpeg",
+    "caption": "Sigiriya"
+   }
+  ],
   "attributes": {
    "country": "country:LK",
    "continent": "asia",
    "place_name": "Sigiriya",
-   "landmark_type": "archaeological"
+   "landmark_type": "archaeological",
+   "facts": [
+    "Standort: Sigiriya, Sri Lanka.",
+    "Felsenfestung Sigiriya ist im Atlas als archäologische Stätte eingeordnet.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Sigiriya",
-   "imported_at": "2026-09-30"
+   "source_id": "Q272153",
+   "imported_at": "2026-10-01"
+  }
+ },
+ {
+  "id": "landmark:space-needle",
+  "type": "landmark",
+  "names": {
+   "de": "Space Needle",
+   "en": "Space Needle"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:space-needle",
+    "kind": "photo",
+    "url": "media/photos/landmarks/space-needle.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Space_Needle_2011-07-04.jpg",
+    "author": "Jordon Kalilich",
+    "license": "Public domain",
+    "attribution": "Jordon Kalilich · Public domain · https://commons.wikimedia.org/wiki/File:Space_Needle_2011-07-04.jpg",
+    "caption": "Space Needle"
+   }
+  ],
+  "attributes": {
+   "country": "country:US",
+   "continent": "north-america",
+   "place_name": "Seattle",
+   "landmark_type": "tower",
+   "facts": [
+    "Standort: Seattle, Vereinigte Staaten.",
+    "Der Aussichtsturm entstand für die Weltausstellung 1962 in Seattle.",
+    "Der Standort liegt in der Weltregion Nordamerika."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Space_Needle",
+   "source_id": "Q5317",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -3531,7 +5315,12 @@
    "continent": "europe",
    "place_name": "Hamburg",
    "unesco": "Speicherstadt und Kontorhausviertel",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Hamburg, Deutschland.",
+    "Speicherstadt ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Speicherstadt und Kontorhausviertel“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -3565,13 +5354,18 @@
    "country": "country:TZ",
    "continent": "africa",
    "place_name": "Sansibar-Stadt",
-   "landmark_type": "historic-quarter"
+   "landmark_type": "historic-quarter",
+   "facts": [
+    "Standort: Sansibar-Stadt, Tansania.",
+    "Stone Town ist im Atlas als historisches Stadtviertel eingeordnet.",
+    "Der Standort liegt in der Weltregion Afrika."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Stone_Town",
    "source_id": "Q844417",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -3602,12 +5396,43 @@
    "continent": "europe",
    "place_name": "Wiltshire",
    "unesco": "Stonehenge, Avebury und zugehörige Stätten",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Wiltshire, Vereinigtes Königreich.",
+    "Der Steinkreis wurde in mehreren Bauphasen der Jungsteinzeit und Bronzezeit errichtet.",
+    "Unter dem Namen „Stonehenge, Avebury und zugehörige Stätten“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Stonehenge"
+  }
+ },
+ {
+  "id": "landmark:sultan-qaboos-mosque",
+  "type": "landmark",
+  "names": {
+   "de": "Sultan-Qabus-Moschee",
+   "en": "Sultan Qaboos Grand Mosque"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:OM",
+   "continent": "asia",
+   "place_name": "Maskat",
+   "landmark_type": "religious",
+   "facts": [
+    "Standort: Maskat, Oman.",
+    "Die große Moschee ist eines der wichtigsten modernen Wahrzeichen Maskats.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Sultan_Qaboos_Grand_Mosque",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -3618,17 +5443,115 @@
    "en": "Sydney Harbour Bridge"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:sydney-harbour-bridge",
+    "kind": "photo",
+    "url": "media/photos/landmarks/sydney-harbour-bridge.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Sydney_Harbour_Bridge-16_October_2025.jpg",
+    "author": "Servite et contribuere",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "attribution": "Servite et contribuere · CC0 · https://commons.wikimedia.org/wiki/File:Sydney_Harbour_Bridge-16_October_2025.jpg",
+    "caption": "Sydney Harbour Bridge"
+   }
+  ],
   "attributes": {
    "country": "country:AU",
    "continent": "oceania",
    "place_name": "Sydney",
-   "landmark_type": "bridge"
+   "landmark_type": "bridge",
+   "facts": [
+    "Standort: Sydney, Australien.",
+    "Sydney Harbour Bridge ist im Atlas als Brücke eingeordnet.",
+    "Der Standort liegt in der Weltregion Ozeanien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge",
-   "imported_at": "2026-09-30"
+   "source_id": "Q54495",
+   "imported_at": "2026-10-01"
+  }
+ },
+ {
+  "id": "landmark:table-mountain",
+  "type": "landmark",
+  "names": {
+   "de": "Tafelberg",
+   "en": "Table Mountain"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:table-mountain",
+    "kind": "photo",
+    "url": "media/photos/landmarks/table-mountain.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Table_Mountain_DanieVDM.jpg",
+    "author": "Danie van der Merwe from Cape Town, South Africa",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "attribution": "Danie van der Merwe from Cape Town, South Africa · CC BY 2.0 · https://commons.wikimedia.org/wiki/File:Table_Mountain_DanieVDM.jpg",
+    "caption": "Table Mountain"
+   }
+  ],
+  "attributes": {
+   "country": "country:ZA",
+   "continent": "africa",
+   "place_name": "Kapstadt",
+   "landmark_type": "landscape",
+   "facts": [
+    "Standort: Kapstadt, Südafrika.",
+    "Das flache Gipfelplateau ist ein weithin sichtbares Wahrzeichen Kapstadts.",
+    "Der Standort liegt in der Weltregion Afrika."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Table_Mountain",
+   "source_id": "Q213360",
+   "imported_at": "2026-10-01"
+  }
+ },
+ {
+  "id": "landmark:taipei-101",
+  "type": "landmark",
+  "names": {
+   "de": "Taipei 101",
+   "en": "Taipei 101"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:taipei-101",
+    "kind": "photo",
+    "url": "media/photos/landmarks/taipei-101.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Taipei_101_logo.svg",
+    "author": "Taipei Financial Center Corporation",
+    "license": "Public domain",
+    "attribution": "Taipei Financial Center Corporation · Public domain · https://commons.wikimedia.org/wiki/File:Taipei_101_logo.svg",
+    "caption": "Taipei 101"
+   }
+  ],
+  "attributes": {
+   "country": "country:TW",
+   "continent": "asia",
+   "place_name": "Taipeh",
+   "landmark_type": "skyscraper",
+   "facts": [
+    "Standort: Taipeh, Taiwan.",
+    "Die gestufte Form des Hochhauses ist von traditionellen Pagoden inspiriert.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Taipei_101",
+   "source_id": "Q83101",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -3657,7 +5580,12 @@
    "continent": "asia",
    "place_name": "Agra",
    "unesco": "Taj Mahal",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Agra, Indien.",
+    "Das Mausoleum wurde aus weißem Marmor erbaut.",
+    "Unter dem Namen „Taj Mahal“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -3691,13 +5619,18 @@
    "country": "country:EE",
    "continent": "europe",
    "place_name": "Tallinn",
-   "landmark_type": "building"
+   "landmark_type": "building",
+   "facts": [
+    "Standort: Tallinn, Estland.",
+    "Rathaus von Tallinn ist im Atlas als Bauwerk eingeordnet.",
+    "Der Standort liegt in der Weltregion Europa."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Tallinn_Town_Hall",
    "source_id": "Q904057",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -3728,7 +5661,12 @@
    "continent": "oceania",
    "place_name": "Südinsel",
    "unesco": "Te Wāhipounamu",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Südinsel, Neuseeland.",
+    "Milford Sound ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Te Wāhipounamu“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -3744,17 +5682,36 @@
    "en": "Teotihuacan"
   },
   "aliases": [],
-  "media": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:teotihuacan",
+    "kind": "photo",
+    "url": "media/photos/landmarks/teotihuacan.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:ZA77_Teotihuac%C3%A1n_edo_de_mex_Herberto_de_la_rosa.jpg",
+    "author": "Hdlrosa",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Hdlrosa · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:ZA77_Teotihuac%C3%A1n_edo_de_mex_Herberto_de_la_rosa.jpg",
+    "caption": "Teotihuacan"
+   }
+  ],
   "attributes": {
    "country": "country:MX",
    "continent": "north-america",
    "place_name": "Teotihuacán",
-   "landmark_type": "archaeological"
+   "landmark_type": "archaeological",
+   "facts": [
+    "Standort: Teotihuacán, Mexiko.",
+    "Teotihuacán ist im Atlas als archäologische Stätte eingeordnet.",
+    "Der Standort liegt in der Weltregion Nordamerika."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Teotihuacan",
-   "imported_at": "2026-09-30"
+   "source_id": "Q172613",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -3783,13 +5740,58 @@
    "country": "country:CN",
    "continent": "asia",
    "place_name": "Xi’an",
-   "landmark_type": "archaeological"
+   "landmark_type": "archaeological",
+   "facts": [
+    "Standort: Xi’an, China.",
+    "Terrakotta-Armee ist im Atlas als archäologische Stätte eingeordnet.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Terracotta_Army",
    "source_id": "Q47672",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
+  }
+ },
+ {
+  "id": "landmark:tokyo-skytree",
+  "type": "landmark",
+  "names": {
+   "de": "Tokyo Skytree",
+   "en": "Tokyo Skytree"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:tokyo-skytree",
+    "kind": "photo",
+    "url": "media/photos/landmarks/tokyo-skytree.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Tokyo_Skytree_2014_%E2%85%A2.jpg",
+    "author": "Kakidai",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "attribution": "Kakidai · CC BY-SA 3.0 · https://commons.wikimedia.org/wiki/File:Tokyo_Skytree_2014_%E2%85%A2.jpg",
+    "caption": "Tokyo Skytree"
+   }
+  ],
+  "attributes": {
+   "country": "country:JP",
+   "continent": "asia",
+   "place_name": "Tokio",
+   "landmark_type": "tower",
+   "facts": [
+    "Standort: Tokio, Japan.",
+    "Der Turm dient dem Rundfunk und besitzt öffentlich zugängliche Aussichtsplattformen.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Tokyo_Skytree",
+   "source_id": "Q57965",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -3818,7 +5820,12 @@
    "continent": "oceania",
    "place_name": "Nordinsel",
    "unesco": "Tongariro-Nationalpark",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Nordinsel, Neuseeland.",
+    "Tongariro-Nationalpark ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Tongariro-Nationalpark“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -3852,7 +5859,12 @@
    "continent": "europe",
    "place_name": "London",
    "unesco": "Tower of London",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: London, Vereinigtes Königreich.",
+    "Tower of London ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Tower of London“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -3888,12 +5900,57 @@
    "continent": "asia",
    "place_name": "Çanakkale",
    "unesco": "Archäologische Stätte von Troja",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Çanakkale, Türkei.",
+    "Troja ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Archäologische Stätte von Troja“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Troy"
+  }
+ },
+ {
+  "id": "landmark:twelve-apostles",
+  "type": "landmark",
+  "names": {
+   "de": "Twelve Apostles",
+   "en": "The Twelve Apostles (Victoria)"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:twelve-apostles",
+    "kind": "photo",
+    "url": "media/photos/landmarks/twelve-apostles.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:The_Twelve_Apostles_2011.jpg",
+    "author": "Michael J Fromholtz",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Michael J Fromholtz · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:The_Twelve_Apostles_2011.jpg",
+    "caption": "The Twelve Apostles (Victoria)"
+   }
+  ],
+  "attributes": {
+   "country": "country:AU",
+   "continent": "oceania",
+   "place_name": "Victoria",
+   "landmark_type": "landscape",
+   "facts": [
+    "Standort: Victoria, Australien.",
+    "Wind und Brandung formten die freistehenden Kalksteinfelsen an der Great Ocean Road.",
+    "Der Standort liegt in der Weltregion Ozeanien."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/The_Twelve_Apostles_(Victoria)",
+   "source_id": "Q475623",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -3924,7 +5981,12 @@
    "continent": "oceania",
    "place_name": "Northern Territory",
    "unesco": "Uluṟu-Kata-Tjuṯa-Nationalpark",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Northern Territory, Australien.",
+    "Uluṟu ist für die Aṉangu von großer spiritueller Bedeutung.",
+    "Unter dem Namen „Uluṟu-Kata-Tjuṯa-Nationalpark“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -3958,13 +6020,18 @@
    "country": "country:ZA",
    "continent": "africa",
    "place_name": "Pretoria",
-   "landmark_type": "building"
+   "landmark_type": "building",
+   "facts": [
+    "Standort: Pretoria, Südafrika.",
+    "Union Buildings ist im Atlas als Bauwerk eingeordnet.",
+    "Der Standort liegt in der Weltregion Afrika."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Union_Buildings",
    "source_id": "Q2264091",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -3993,7 +6060,12 @@
    "continent": "europe",
    "place_name": "Venedig",
    "unesco": "Venedig und seine Lagune",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Venedig, Italien.",
+    "Venedig erstreckt sich auf zahlreichen Inseln in einer Lagune der Adria.",
+    "Unter dem Namen „Venedig und seine Lagune“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -4029,7 +6101,12 @@
    "continent": "europe",
    "place_name": "Versailles",
    "unesco": "Schloss und Park von Versailles",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Versailles, Frankreich.",
+    "Schloss Versailles ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Schloss und Park von Versailles“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -4065,7 +6142,12 @@
    "continent": "africa",
    "place_name": "Sambia / Simbabwe",
    "unesco": "Mosi-oa-Tunya / Victoria Falls",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Sambia / Simbabwe, Sambia.",
+    "Der Sambesi stürzt hier an der Grenze zwischen Sambia und Simbabwe in eine schmale Schlucht.",
+    "Unter dem Namen „Mosi-oa-Tunya / Victoria Falls“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -4099,12 +6181,57 @@
    "continent": "europe",
    "place_name": "Eisenach",
    "unesco": "Wartburg",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: Eisenach, Deutschland.",
+    "Wartburg ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Wartburg“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18",
    "source_url": "https://en.wikipedia.org/wiki/Wartburg"
+  }
+ },
+ {
+  "id": "landmark:wat-arun",
+  "type": "landmark",
+  "names": {
+   "de": "Wat Arun",
+   "en": "Wat Arun"
+  },
+  "aliases": [],
+  "media": [
+   {
+    "id": "media:photo:landmark:wat-arun",
+    "kind": "photo",
+    "url": "media/photos/landmarks/wat-arun.webp",
+    "source": "Wikimedia Commons",
+    "source_url": "https://commons.wikimedia.org/wiki/File:%E0%B9%80%E0%B8%88%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B8%B8%E0%B8%932.jpg",
+    "author": "Mastertongapollo",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "attribution": "Mastertongapollo · CC BY-SA 4.0 · https://commons.wikimedia.org/wiki/File:%E0%B9%80%E0%B8%88%E0%B8%94%E0%B8%B5%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%98%E0%B8%B2%E0%B8%99%E0%B8%97%E0%B8%A3%E0%B8%87%E0%B8%9B%E0%B8%A3%E0%B8%B2%E0%B8%87%E0%B8%84%E0%B9%8C%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AD%E0%B8%A3%E0%B8%B8%E0%B8%932.jpg",
+    "caption": "Wat Arun"
+   }
+  ],
+  "attributes": {
+   "country": "country:TH",
+   "continent": "asia",
+   "place_name": "Bangkok",
+   "landmark_type": "religious",
+   "facts": [
+    "Standort: Bangkok, Thailand.",
+    "Der zentrale Prang des Tempels prägt das Ufer des Chao Phraya.",
+    "Der Standort liegt in der Weltregion Asien."
+   ]
+  },
+  "provenance": {
+   "source": "Wikipedia/Wikidata",
+   "source_url": "https://en.wikipedia.org/wiki/Wat_Arun",
+   "source_id": "Q724970",
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -4133,13 +6260,18 @@
    "country": "country:PL",
    "continent": "europe",
    "place_name": "Krakau",
-   "landmark_type": "castle"
+   "landmark_type": "castle",
+   "facts": [
+    "Standort: Krakau, Polen.",
+    "Wawel-Schloss ist im Atlas als Burg oder Schloss eingeordnet.",
+    "Der Standort liegt in der Weltregion Europa."
+   ]
   },
   "provenance": {
    "source": "Wikipedia/Wikidata",
    "source_url": "https://en.wikipedia.org/wiki/Wawel_Castle",
    "source_id": "Q18820",
-   "imported_at": "2026-09-30"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -4170,7 +6302,12 @@
    "continent": "europe",
    "place_name": "London",
    "unesco": "Palace of Westminster und Westminster Abbey",
-   "landmark_type": "unesco"
+   "landmark_type": "unesco",
+   "facts": [
+    "Standort: London, Vereinigtes Königreich.",
+    "Westminster Abbey ist im Atlas als UNESCO-Stätte eingeordnet.",
+    "Unter dem Namen „Palace of Westminster und Westminster Abbey“ gehört die Stätte zum UNESCO-Welterbe."
+   ]
   },
   "provenance": {
    "source": "ugbzspiele",
