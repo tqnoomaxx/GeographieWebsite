@@ -21,12 +21,12 @@
    "iso2": "AC",
    "continent": "other",
    "borders": [],
-   "wikidata": "Q31890709",
-   "visual_key": "6255a02030909938"
+   "visual_key": "6255a02030909938",
+   "wikidata": "Q31890709"
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -109,19 +109,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q228",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q62467",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -208,19 +208,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q878",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q3492099",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -322,19 +322,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q889",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q271700",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -414,19 +414,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q781",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1718336",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -500,14 +500,14 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q25228",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -598,19 +598,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q222",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q912579",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -700,19 +700,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q399",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q203568",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -801,19 +801,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q916",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1348116",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -874,19 +874,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q51",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q163758",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    },
    "conflicts": [
@@ -1015,19 +1015,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q414",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q39739",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -1116,19 +1116,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q16641",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1226878",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -1222,19 +1222,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q40",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q3388",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -1324,19 +1324,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q408",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q2114101",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -1421,19 +1421,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q21203",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q594885",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -1517,19 +1517,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q5689",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q2031587",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -1625,19 +1625,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q227",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q725591",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -1736,19 +1736,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q225",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q837723",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -1827,19 +1827,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q244",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1854502",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -1940,19 +1940,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q902",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q2696459",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -2057,19 +2057,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q31",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q322824",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -2156,19 +2156,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q965",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q116675",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -2258,19 +2258,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q219",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q209341",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -2352,19 +2352,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q398",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1032812",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -2458,19 +2458,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q967",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1649074",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -2558,19 +2558,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q962",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q923330",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -2654,19 +2654,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q25362",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q3055081",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -2743,14 +2743,14 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q23635",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -2843,19 +2843,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q921",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1003282",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -2969,19 +2969,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q750",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q272593",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -3078,19 +3078,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q27561",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1301834",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -3200,19 +3200,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q155",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q739484",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -3300,19 +3300,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q778",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q746274",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -3417,19 +3417,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q917",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q219986",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -3498,19 +3498,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q23408",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q618361",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -3604,19 +3604,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q963",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q3491942",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -3713,19 +3713,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q184",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q921447",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -3820,19 +3820,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q242",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q47490",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -3928,19 +3928,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q16",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q120306",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -4018,14 +4018,14 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q36004",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -4146,19 +4146,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q974",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q221666",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -4253,19 +4253,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q929",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q2422162",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -4367,19 +4367,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q971",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q3113296",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -4489,19 +4489,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q39",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q3403",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -4592,19 +4592,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1008",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q849129",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -4697,19 +4697,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q26988",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q498069",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -4810,19 +4810,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q298",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q233836",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -4919,19 +4919,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1009",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q190562",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -5039,19 +5039,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q148",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q513",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -5155,19 +5155,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q739",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q338790",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -5267,19 +5267,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q800",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q252362",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -5369,19 +5369,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q241",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1145743",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -5464,19 +5464,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1011",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q499108",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -5567,14 +5567,14 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q25279",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -5655,19 +5655,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q31063",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q524471",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -5760,19 +5760,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q229",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q819979",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    },
    "conflicts": [
@@ -5883,19 +5883,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q213",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q617511",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -5972,7 +5972,7 @@
    "on_world_map": true,
    "capital": "city:DE-berlin",
    "wikidata": "Q183",
-   "population": 83577140,
+   "population": 83467117,
    "highest_point": {
     "name": "Zugspitze",
     "elevation_m": 2962.06,
@@ -5988,19 +5988,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q183",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q3375",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -6098,19 +6098,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q977",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1951029",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -6197,19 +6197,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q35",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q689106",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -6292,19 +6292,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q784",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1638549",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -6387,19 +6387,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q786",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q783742",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -6493,19 +6493,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q262",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q822326",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -6591,19 +6591,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q736",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q14081",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -6705,19 +6705,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q191",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q504991",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -6806,19 +6806,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q79",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1140642",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -6925,14 +6925,14 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q6250",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -7034,19 +7034,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q986",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1753730",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -7136,19 +7136,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q29",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q38954",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -7240,19 +7240,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q115",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q275435",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -7283,7 +7283,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -7391,19 +7391,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q33",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q216035",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -7501,19 +7501,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q712",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1513944",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -7596,19 +7596,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q9648",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1064229",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -7684,19 +7684,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q702",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1236265",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -7792,19 +7792,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q4628",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q738746",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -7897,19 +7897,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q142",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q583",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -7997,19 +7997,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1000",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q3210770",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -8096,19 +8096,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q145",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q104674",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -8187,19 +8187,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q769",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q525281",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -8286,19 +8286,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q230",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q217457",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -8382,19 +8382,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q3769",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q2550799",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -8494,19 +8494,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q25230",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q3224807",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -8592,19 +8592,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q117",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q635179",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -8679,14 +8679,14 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1410",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -8768,19 +8768,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q223",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q825709",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -8859,14 +8859,14 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1005",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -8956,19 +8956,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1006",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q849129",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -9047,19 +9047,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q17012",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1149310",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -9160,19 +9160,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q983",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1518286",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -9262,19 +9262,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q41",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q80344",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -9354,19 +9354,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q35086",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1573762",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -9453,19 +9453,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q774",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q818467",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -9557,19 +9557,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q16635",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q4380977",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -9661,19 +9661,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1007",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q109837809",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -9759,19 +9759,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q734",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q4777",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -9862,19 +9862,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q8646",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1481864",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -9943,19 +9943,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q131198",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q2114101",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -10042,19 +10042,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q783",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1055875",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -10145,19 +10145,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q224",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q3183447",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -10249,19 +10249,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q790",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1971319",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -10350,19 +10350,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q28",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q747618",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -10393,7 +10393,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -10493,19 +10493,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q252",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1045888",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -10598,19 +10598,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q27",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q503368",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -10705,19 +10705,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q801",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q540520",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -10812,19 +10812,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q9676",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q147557",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -10943,19 +10943,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q668",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q82019",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -11030,14 +11030,14 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q43448",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -11140,19 +11140,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q796",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1068860",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -11245,19 +11245,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q794",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q40758",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -11340,19 +11340,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q189",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q140084",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -11443,19 +11443,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q38",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q583",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -11551,14 +11551,14 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q785",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -11645,19 +11645,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q766",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q885798",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -11748,19 +11748,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q810",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1261902",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -11857,19 +11857,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q17",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q39231",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -11965,19 +11965,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q114",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q172070",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -12074,19 +12074,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q813",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q332762",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -12179,19 +12179,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q424",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q539772",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -12286,19 +12286,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q710",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q271901",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -12395,19 +12395,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q970",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q527548",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -12489,19 +12489,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q763",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1269774",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -12594,19 +12594,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q423",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q107635",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -12695,19 +12695,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q884",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q494645",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -12793,19 +12793,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q817",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q4116111",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -12881,14 +12881,14 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q5785",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -12990,19 +12990,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q232",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q211529",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -13092,19 +13092,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q819",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q239485",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -13197,19 +13197,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q822",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q311330",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -13289,19 +13289,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q760",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1811114",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -13385,19 +13385,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q347",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q665000",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -13490,19 +13490,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q854",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1146327",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -13588,19 +13588,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1014",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1950836",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -13697,19 +13697,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1013",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q733132",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -13798,19 +13798,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q37",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q771431",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -13912,19 +13912,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q32",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q24457",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -14013,19 +14013,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q211",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1122342",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -14116,19 +14116,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1016",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q860146",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -14223,19 +14223,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1028",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q503433",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -14319,19 +14319,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q235",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1069352",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -14419,19 +14419,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q217",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q47940",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -14518,19 +14518,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q236",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q2720697",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -14616,19 +14616,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q126125",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q5919800",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -14719,19 +14719,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1019",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1147144",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -14820,19 +14820,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q709",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q518353",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -14925,19 +14925,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q221",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q912579",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -15028,19 +15028,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q912",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1454300",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -15130,19 +15130,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q836",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q870063",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -15226,19 +15226,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q711",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1091113",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -15327,19 +15327,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q14773",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q5147805",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -15433,19 +15433,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q16644",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q27728822",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -15523,19 +15523,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q17054",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q76309",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -15624,19 +15624,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1025",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q2595789",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -15710,14 +15710,14 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q13353",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -15805,19 +15805,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q233",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1850604",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -15925,19 +15925,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1027",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1760978",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -16021,19 +16021,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q826",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q176749",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -16125,19 +16125,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1020",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1510436",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -16240,19 +16240,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q96",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q238147",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -16342,19 +16342,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q833",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q60967",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -16445,19 +16445,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1029",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1353678",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -16599,19 +16599,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1030",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q897834",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -16687,14 +16687,14 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q33788",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -16785,19 +16785,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1032",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q3042286",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -16881,14 +16881,14 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q31057",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -16991,19 +16991,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1033",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q976055",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -17089,19 +17089,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q811",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q2092378",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -17172,8 +17172,8 @@
    "visual_key": "6f4e426f29459e61",
    "on_world_map": true,
    "capital": "city:NL-amsterdam",
-   "wikidata": "Q55",
-   "population": 17942942,
+   "wikidata": "Q29999",
+   "population": 17100715,
    "highest_point": {
     "name": "Mount Scenery",
     "elevation_m": 870,
@@ -17189,36 +17189,21 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
-     "source_id": "Q55",
-     "imported_at": "2026-09-18"
+     "source_id": "Q29999",
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1301834",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
-   },
-   "conflicts": [
-    {
-     "field": "population",
-     "values": [
-      {
-       "source": "wikidata",
-       "value": 17942942
-      },
-      {
-       "source": "wikidata",
-       "value": 17100715
-      }
-     ]
-    }
-   ]
+   }
   }
  },
  {
@@ -17319,19 +17304,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q20",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q203942",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -17431,19 +17416,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q837",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q513",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -17533,19 +17518,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q697",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q2667931",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -17630,19 +17615,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q34020",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q28745318",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -17736,19 +17721,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q664",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q5059",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -17835,19 +17820,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q842",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1261915",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -17939,19 +17924,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q804",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q594726",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -18066,19 +18051,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q419",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q200935",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -18160,19 +18145,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q30971",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q512465",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -18270,19 +18255,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q691",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q277441",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -18372,19 +18357,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q928",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q455963",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -18479,19 +18464,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q843",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q43512",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -18583,19 +18568,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q36",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q672936",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -18676,19 +18661,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q34617",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q3051597",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -18766,14 +18751,14 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q35672",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -18862,19 +18847,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1183",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q2714342",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -18976,19 +18961,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q219060",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q6922335",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -19074,19 +19059,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q45",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q928681",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -19174,19 +19159,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q695",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1191219",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -19280,19 +19265,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q733",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1055965",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -19379,19 +19364,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q846",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1633034",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -19471,19 +19456,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q17070",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1545452",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -19573,19 +19558,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q218",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q746524",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -19682,19 +19667,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q403",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q20568528",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -19795,19 +19780,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q159",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q43105",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -19909,19 +19894,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1037",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q737859",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -20015,19 +20000,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q851",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1261892",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -20108,19 +20093,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q685",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q760819",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -20216,19 +20201,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1042",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1579060",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -20325,19 +20310,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1049",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q2520348",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -20424,19 +20409,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q34",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q214011",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -20541,19 +20526,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q334",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q720209",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -20642,19 +20627,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q192184",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q2062890",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -20743,19 +20728,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q215",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1024",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -20835,19 +20820,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q842829",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1419222",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -20937,19 +20922,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q214",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q81213",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -21034,19 +21019,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1044",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q769525",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -21115,7 +21100,7 @@
    "visual_key": "a6cb32bed1b81725",
    "capital": "city:SM-san-marino",
    "wikidata": "Q238",
-   "population": 33600,
+   "population": 34167,
    "highest_point": {
     "name": "Titano",
     "elevation_m": 739,
@@ -21131,19 +21116,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q238",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q158526",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -21232,19 +21217,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1041",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q98596662",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -21339,19 +21324,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1045",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q649162",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -21440,19 +21425,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q730",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1549215",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -21542,19 +21527,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q958",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q948298",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -21638,19 +21623,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1039",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1471391",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -21736,19 +21721,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q792",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q74214",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -21837,14 +21822,14 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q26273",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -21935,19 +21920,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q858",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q215471",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -22049,19 +22034,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1050",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1337951",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -22088,12 +22073,12 @@
    "iso2": "TA",
    "continent": "other",
    "borders": [],
-   "wikidata": "Q34625512",
-   "visual_key": "6dec955640908804"
+   "visual_key": "6dec955640908804",
+   "wikidata": "Q34625512"
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18"
+   "imported_at": "2026-10-01"
   }
  },
  {
@@ -22172,19 +22157,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q18221",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q3492008",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -22282,19 +22267,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q657",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q257441",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -22377,19 +22362,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q129003",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1945447",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -22477,19 +22462,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q945",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1753509",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -22595,19 +22580,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q869",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1140075",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -22704,19 +22689,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q863",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q41413",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -22801,14 +22786,14 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q36823",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -22905,19 +22890,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q574",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1539961",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -23008,19 +22993,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q874",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q794684",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -23108,19 +23093,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q948",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1232136",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -23207,19 +23192,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q678",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1520405",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -23314,19 +23299,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q43",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q72303",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -23409,19 +23394,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q754",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1056103",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -23512,19 +23497,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q672",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q632489",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -23613,19 +23598,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q865",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q500275",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    },
    "conflicts": [
@@ -23740,19 +23725,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q924",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1394606",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -23842,19 +23827,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q212",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q627508",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -23949,19 +23934,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1036",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q221666",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -24037,19 +24022,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q16645",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q11695306",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -24150,19 +24135,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q30",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q130018",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -24248,19 +24233,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q77",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1055837",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -24357,19 +24342,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q265",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q519822",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -24462,19 +24447,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q237",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1053000",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -24554,19 +24539,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q757",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q26544",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -24654,19 +24639,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q717",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q213704",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -24744,14 +24729,14 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q25305",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -24833,19 +24818,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q11703",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q3005470",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -24933,19 +24918,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q881",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q123782",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -25040,19 +25025,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q686",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1542459",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -25135,19 +25120,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q35555",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1549756",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -25235,19 +25220,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q683",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1147814",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -25341,19 +25326,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q1246",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q341983",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -25441,19 +25426,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q805",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1261935",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -25534,19 +25519,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q17063",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q210180",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -25714,19 +25699,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q258",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q1883683",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -25818,19 +25803,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q953",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q18351462",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }
@@ -26050,19 +26035,19 @@
   },
   "provenance": {
    "source": "mledoze/countries",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://raw.githubusercontent.com/mledoze/countries/master/countries.json",
    "license": "ODbL-1.0",
    "fields": {
     "population": {
      "source": "wikidata",
      "source_id": "Q954",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     },
     "highest_point": {
      "source": "wikidata",
      "source_id": "Q152294",
-     "imported_at": "2026-09-18"
+     "imported_at": "2026-10-01"
     }
    }
   }

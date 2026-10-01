@@ -33,7 +33,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Alūksnes_novada_karogs.svg"
   }
  },
@@ -71,7 +71,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Ādažu_novada_karogs.svg"
   }
  },
@@ -79,13 +79,12 @@
   "id": "region:LV-015",
   "type": "region",
   "names": {
-   "de": "Bezirk Balvi",
+   "de": "Bezirksgemeinde Balvi",
    "en": "Balvi Municipality"
   },
   "aliases": [
    "Balvu novads",
-   "Balvi Municipality",
-   "Balvi"
+   "Balvi Municipality"
   ],
   "media": [
    {
@@ -110,7 +109,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Balvu_novada_karogs.svg"
   }
  },
@@ -118,12 +117,13 @@
   "id": "region:LV-016",
   "type": "region",
   "names": {
-   "de": "Bezirksgemeinde Bauska",
+   "de": "Bezirk Bauska",
    "en": "Bauska Municipality"
   },
   "aliases": [
    "Bauskas novads",
-   "Bauska Municipality"
+   "Bauska Municipality",
+   "Bauska"
   ],
   "media": [
    {
@@ -148,7 +148,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Bauskas_novads.svg"
   }
  },
@@ -156,13 +156,12 @@
   "id": "region:LV-022",
   "type": "region",
   "names": {
-   "de": "Bezirk Cēsis",
+   "de": "Bezirksgemeinde Cēsis",
    "en": "Cēsis Municipality"
   },
   "aliases": [
    "Cēsu novads",
-   "Cēsis Municipality",
-   "Cēsis"
+   "Cēsis Municipality"
   ],
   "media": [
    {
@@ -187,7 +186,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Cēsu_novada_karogs.svg"
   }
  },
@@ -225,7 +224,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Jelgavas_novada_karogs.svg"
   }
  },
@@ -263,7 +262,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Jēkabpils_novada_karogs.svg"
   }
  },
@@ -301,7 +300,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Ķekavas_novada_karogs.svg"
   }
  },
@@ -339,7 +338,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Limbazu_novads_karogs.svg"
   }
  },
@@ -377,7 +376,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Ropažu_novada_karogs.svg"
   }
  },
@@ -385,12 +384,13 @@
   "id": "region:LV-088",
   "type": "region",
   "names": {
-   "de": "Bezirksgemeinde Saldus",
+   "de": "Bezirk Saldus",
    "en": "Saldus Municipality"
   },
   "aliases": [
    "Saldus novads",
-   "Saldus Municipality"
+   "Saldus Municipality",
+   "Saldus"
   ],
   "media": [
    {
@@ -415,7 +415,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Saldus_novads.svg"
   }
  },
@@ -453,7 +453,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Saulkrastu_novada_karogs.svg"
   }
  },
@@ -491,7 +491,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Smiltenes_novada_karogs.svg"
   }
  },
@@ -529,7 +529,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Ventspils_novada_karogs.svg"
   }
  },
@@ -567,7 +567,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Augšdaugava_Municipality.svg"
   }
  },
@@ -605,7 +605,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Dienvidkurzemes_novada_karogs.svg"
   }
  },
@@ -643,7 +643,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Valmieras_novada_karogs.svg"
   }
  },
@@ -678,7 +678,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Daugavpils.svg"
   }
  },
@@ -715,7 +715,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Jelgava_flag.svg"
   }
  },
@@ -752,7 +752,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Jurmala.svg"
   }
  },
@@ -790,7 +790,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Liepāja.svg"
   }
  },
@@ -827,7 +827,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Rēzekne.svg"
   }
  },
@@ -864,7 +864,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://www.wikidata.org/wiki/Q4487638"
   }
  },
@@ -899,7 +899,7 @@
   },
   "provenance": {
    "source": "ugbzspiele",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_url": "https://commons.wikimedia.org/wiki/File:Flag_of_Ventspils.svg"
   }
  }

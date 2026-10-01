@@ -1,8 +1,8 @@
 {
- "generated_at": "2026-09-30T23:31:06.539Z",
+ "generated_at": "2026-10-01T10:48:00.453Z",
  "counts": {
   "country": 254,
-  "city": 1308,
+  "city": 1285,
   "landmark": 128,
   "river": 220,
   "lake": 113,
@@ -11,7 +11,7 @@
   "license_plate": 1388
  },
  "media": 1214,
- "relationships": 4603,
+ "relationships": 4568,
  "countries_without_population": [
   "country:AC",
   "country:EU",
@@ -116,24 +116,6 @@
       {
        "source": "wikidata",
        "value": 1120489
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "country:NL",
-   "conflicts": [
-    {
-     "field": "population",
-     "values": [
-      {
-       "source": "wikidata",
-       "value": 17942942
-      },
-      {
-       "source": "wikidata",
-       "value": 17100715
       }
      ]
     }

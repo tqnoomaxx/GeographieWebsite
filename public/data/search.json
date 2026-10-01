@@ -3234,20 +3234,11 @@
   "c": "country:AL"
  },
  {
-  "id": "city:AM-jerewan",
-  "t": "city",
-  "n": "Jerewan",
-  "a": [
-   "Yerevan",
-   "Yerevan"
-  ],
-  "c": "country:AM"
- },
- {
   "id": "city:AM-yerevan",
   "t": "city",
   "n": "Jerewan",
   "a": [
+   "Yerevan",
    "Yerevan"
   ],
   "c": "country:AM"
@@ -3413,20 +3404,20 @@
   "c": "country:AR"
  },
  {
+  "id": "city:AR-corrientes",
+  "t": "city",
+  "n": "Corrientes",
+  "a": [
+   "Corrientes"
+  ],
+  "c": "country:AR"
+ },
+ {
   "id": "city:AR-formosa",
   "t": "city",
   "n": "Formosa",
   "a": [
    "Formosa"
-  ],
-  "c": "country:AR"
- },
- {
-  "id": "city:AR-gonzalez-catan",
-  "t": "city",
-  "n": "González Catán",
-  "a": [
-   "González Catán"
   ],
   "c": "country:AR"
  },
@@ -5394,6 +5385,15 @@
   "c": "country:CN"
  },
  {
+  "id": "city:CO-armenia",
+  "t": "city",
+  "n": "Armenia",
+  "a": [
+   "Armenia"
+  ],
+  "c": "country:CO"
+ },
+ {
   "id": "city:CO-barranquilla",
   "t": "city",
   "n": "Barranquilla",
@@ -5435,15 +5435,6 @@
   "n": "Cartagena",
   "a": [
    "Cartagena"
-  ],
-  "c": "country:CO"
- },
- {
-  "id": "city:CO-cucuta",
-  "t": "city",
-  "n": "Cúcuta",
-  "a": [
-   "Cúcuta"
   ],
   "c": "country:CO"
  },
@@ -5920,15 +5911,6 @@
   "t": "city",
   "n": "Dschibuti",
   "a": [
-   "Djibouti"
-  ],
-  "c": "country:DJ"
- },
- {
-  "id": "city:DJ-dschibuti",
-  "t": "city",
-  "n": "Dschibuti",
-  "a": [
    "Djibouti",
    "Djibouti"
   ],
@@ -6015,20 +5997,11 @@
   "c": "country:DO"
  },
  {
-  "id": "city:DZ-algier",
-  "t": "city",
-  "n": "Algier",
-  "a": [
-   "Algiers",
-   "Algiers"
-  ],
-  "c": "country:DZ"
- },
- {
   "id": "city:DZ-algiers",
   "t": "city",
   "n": "Algier",
   "a": [
+   "Algiers",
    "Algiers"
   ],
   "c": "country:DZ"
@@ -7245,15 +7218,6 @@
   "t": "city",
   "n": "Tiflis",
   "a": [
-   "Tbilisi"
-  ],
-  "c": "country:GE"
- },
- {
-  "id": "city:GE-tiflis",
-  "t": "city",
-  "n": "Tiflis",
-  "a": [
    "Tbilisi",
    "Tbilisi"
   ],
@@ -7474,15 +7438,6 @@
  },
  {
   "id": "city:GT-guatemala-city",
-  "t": "city",
-  "n": "Guatemala-Stadt",
-  "a": [
-   "Guatemala City"
-  ],
-  "c": "country:GT"
- },
- {
-  "id": "city:GT-guatemala-stadt",
   "t": "city",
   "n": "Guatemala-Stadt",
   "a": [
@@ -7994,20 +7949,11 @@
   "c": "country:IQ"
  },
  {
-  "id": "city:IQ-bagdad",
-  "t": "city",
-  "n": "Bagdad",
-  "a": [
-   "Baghdad",
-   "Baghdad"
-  ],
-  "c": "country:IQ"
- },
- {
   "id": "city:IQ-baghdad",
   "t": "city",
   "n": "Bagdad",
   "a": [
+   "Baghdad",
    "Baghdad"
   ],
   "c": "country:IQ"
@@ -8310,9 +8256,7 @@
   "id": "city:IT-bari",
   "t": "city",
   "n": "Bari",
-  "a": [
-   "Bari"
-  ],
+  "a": [],
   "c": "country:IT"
  },
  {
@@ -8443,6 +8387,15 @@
   "t": "city",
   "n": "Potenza",
   "a": [],
+  "c": "country:IT"
+ },
+ {
+  "id": "city:IT-prato",
+  "t": "city",
+  "n": "Prato",
+  "a": [
+   "Prato"
+  ],
   "c": "country:IT"
  },
  {
@@ -8767,20 +8720,11 @@
   "c": "country:KE"
  },
  {
-  "id": "city:KG-bischkek",
-  "t": "city",
-  "n": "Bischkek",
-  "a": [
-   "Bishkek",
-   "Bishkek"
-  ],
-  "c": "country:KG"
- },
- {
   "id": "city:KG-bishkek",
   "t": "city",
   "n": "Bischkek",
   "a": [
+   "Bishkek",
    "Bishkek"
   ],
   "c": "country:KG"
@@ -8903,20 +8847,11 @@
   "c": "country:KP"
  },
  {
-  "id": "city:KP-pjongjang",
-  "t": "city",
-  "n": "Pjöngjang",
-  "a": [
-   "Pyongyang",
-   "Pyongyang"
-  ],
-  "c": "country:KP"
- },
- {
   "id": "city:KP-pyongyang",
   "t": "city",
   "n": "Pjöngjang",
   "a": [
+   "Pyongyang",
    "Pyongyang"
   ],
   "c": "country:KP"
@@ -9458,15 +9393,6 @@
  },
  {
   "id": "city:LY-tripoli",
-  "t": "city",
-  "n": "Tripolis",
-  "a": [
-   "Tripoli"
-  ],
-  "c": "country:LY"
- },
- {
-  "id": "city:LY-tripolis",
   "t": "city",
   "n": "Tripolis",
   "a": [
@@ -10492,31 +10418,10 @@
   "c": "country:NI"
  },
  {
-  "id": "city:NL-almere",
-  "t": "city",
-  "n": "Almere",
-  "a": [
-   "Almere"
-  ],
-  "c": "country:NL"
- },
- {
   "id": "city:NL-amsterdam",
   "t": "city",
   "n": "Amsterdam",
-  "a": [
-   "Amsterdam"
-  ],
-  "c": "country:NL"
- },
- {
-  "id": "city:NL-arnheim",
-  "t": "city",
-  "n": "Arnheim",
-  "a": [
-   "Arnhem",
-   "Arnhem"
-  ],
+  "a": [],
   "c": "country:NL"
  },
  {
@@ -10534,63 +10439,23 @@
   "c": "country:NL"
  },
  {
-  "id": "city:NL-breda",
-  "t": "city",
-  "n": "Breda",
-  "a": [
-   "Breda"
-  ],
-  "c": "country:NL"
- },
- {
   "id": "city:NL-den-haag",
   "t": "city",
   "n": "Den Haag",
-  "a": [
-   "The Hague"
-  ],
-  "c": "country:NL"
- },
- {
-  "id": "city:NL-eindhoven",
-  "t": "city",
-  "n": "Eindhoven",
-  "a": [
-   "Eindhoven"
-  ],
-  "c": "country:NL"
- },
- {
-  "id": "city:NL-enschede",
-  "t": "city",
-  "n": "Enschede",
-  "a": [
-   "Enschede"
-  ],
+  "a": [],
   "c": "country:NL"
  },
  {
   "id": "city:NL-groningen",
   "t": "city",
   "n": "Groningen",
-  "a": [
-   "Groningen"
-  ],
+  "a": [],
   "c": "country:NL"
  },
  {
   "id": "city:NL-haarlem",
   "t": "city",
   "n": "Haarlem",
-  "a": [
-   "Haarlem"
-  ],
-  "c": "country:NL"
- },
- {
-  "id": "city:NL-herzogenbusch",
-  "t": "city",
-  "n": "Herzogenbusch",
   "a": [],
   "c": "country:NL"
  },
@@ -10623,15 +10488,6 @@
   "c": "country:NL"
  },
  {
-  "id": "city:NL-rotterdam",
-  "t": "city",
-  "n": "Rotterdam",
-  "a": [
-   "Rotterdam"
-  ],
-  "c": "country:NL"
- },
- {
   "id": "city:NL-s-hertogenbosch",
   "t": "city",
   "n": "'s-Hertogenbosch",
@@ -10639,21 +10495,10 @@
   "c": "country:NL"
  },
  {
-  "id": "city:NL-tilburg",
-  "t": "city",
-  "n": "Tilburg",
-  "a": [
-   "Tilburg"
-  ],
-  "c": "country:NL"
- },
- {
   "id": "city:NL-utrecht",
   "t": "city",
   "n": "Utrecht",
-  "a": [
-   "Utrecht"
-  ],
+  "a": [],
   "c": "country:NL"
  },
  {
@@ -10676,9 +10521,7 @@
   "id": "city:NO-oslo",
   "t": "city",
   "n": "Oslo",
-  "a": [
-   "Oslo"
-  ],
+  "a": [],
   "c": "country:NO"
  },
  {
@@ -10804,16 +10647,6 @@
   "c": "country:NZ"
  },
  {
-  "id": "city:OM-maskat",
-  "t": "city",
-  "n": "Maskat",
-  "a": [
-   "Muscat",
-   "Muscat"
-  ],
-  "c": "country:OM"
- },
- {
   "id": "city:OM-matrah",
   "t": "city",
   "n": "Matrah",
@@ -10828,6 +10661,7 @@
   "t": "city",
   "n": "Maskat",
   "a": [
+   "Muscat",
    "Muscat"
   ],
   "c": "country:OM"
@@ -11308,10 +11142,7 @@
   "id": "city:PL-posen",
   "t": "city",
   "n": "Posen",
-  "a": [
-   "Poznań",
-   "Poznań"
-  ],
+  "a": [],
   "c": "country:PL"
  },
  {
@@ -11566,6 +11397,15 @@
   "c": "country:RO"
  },
  {
+  "id": "city:RO-craiova",
+  "t": "city",
+  "n": "Craiova",
+  "a": [
+   "Craiova"
+  ],
+  "c": "country:RO"
+ },
+ {
   "id": "city:RO-galati",
   "t": "city",
   "n": "Galați",
@@ -11580,16 +11420,6 @@
   "n": "Iași",
   "a": [
    "Iași"
-  ],
-  "c": "country:RO"
- },
- {
-  "id": "city:RO-krajowa",
-  "t": "city",
-  "n": "Krajowa",
-  "a": [
-   "Craiova",
-   "Craiova"
   ],
   "c": "country:RO"
  },
@@ -12387,20 +12217,11 @@
   "c": "country:SO"
  },
  {
-  "id": "city:SO-mogadischu",
-  "t": "city",
-  "n": "Mogadischu",
-  "a": [
-   "Mogadishu",
-   "Mogadishu"
-  ],
-  "c": "country:SO"
- },
- {
   "id": "city:SO-mogadishu",
   "t": "city",
   "n": "Mogadischu",
   "a": [
+   "Mogadishu",
    "Mogadishu"
   ],
   "c": "country:SO"
@@ -12503,15 +12324,6 @@
  },
  {
   "id": "city:SY-damascus",
-  "t": "city",
-  "n": "Damaskus",
-  "a": [
-   "Damascus"
-  ],
-  "c": "country:SY"
- },
- {
-  "id": "city:SY-damaskus",
   "t": "city",
   "n": "Damaskus",
   "a": [
@@ -12705,20 +12517,11 @@
   "c": "country:TJ"
  },
  {
-  "id": "city:TJ-duschanbe",
-  "t": "city",
-  "n": "Duschanbe",
-  "a": [
-   "Dushanbe",
-   "Dushanbe"
-  ],
-  "c": "country:TJ"
- },
- {
   "id": "city:TJ-dushanbe",
   "t": "city",
   "n": "Duschanbe",
   "a": [
+   "Dushanbe",
    "Dushanbe"
   ],
   "c": "country:TJ"
@@ -12740,20 +12543,11 @@
   "c": "country:TL"
  },
  {
-  "id": "city:TM-asgabat",
-  "t": "city",
-  "n": "Aşgabat",
-  "a": [
-   "Ashgabat",
-   "Ashgabat"
-  ],
-  "c": "country:TM"
- },
- {
   "id": "city:TM-ashgabat",
   "t": "city",
   "n": "Aşgabat",
   "a": [
+   "Ashgabat",
    "Ashgabat"
   ],
   "c": "country:TM"
@@ -13899,20 +13693,11 @@
   "c": "country:UZ"
  },
  {
-  "id": "city:UZ-taschkent",
-  "t": "city",
-  "n": "Taschkent",
-  "a": [
-   "Tashkent",
-   "Tashkent"
-  ],
-  "c": "country:UZ"
- },
- {
   "id": "city:UZ-tashkent",
   "t": "city",
   "n": "Taschkent",
   "a": [
+   "Tashkent",
    "Tashkent"
   ],
   "c": "country:UZ"
@@ -14280,8 +14065,7 @@
   "t": "city",
   "n": "Dhamar",
   "a": [
-   "MHwit",
-   "MHwit"
+   "Dhamar"
   ],
   "c": "country:YE"
  },
@@ -14299,16 +14083,8 @@
   "t": "city",
   "n": "Sanaa",
   "a": [
+   "Sanaa",
    "Sana'a"
-  ],
-  "c": "country:YE"
- },
- {
-  "id": "city:YE-sanaa",
-  "t": "city",
-  "n": "Sanaa",
-  "a": [
-   "Sanaa"
   ],
   "c": "country:YE"
  },
@@ -15770,8 +15546,8 @@
   "t": "river",
   "n": "Amazonas",
   "a": [
-   "Amazon",
-   "Amazon"
+   "Amazon River",
+   "Amazon River"
   ]
  },
  {
@@ -15931,15 +15707,6 @@
   ]
  },
  {
-  "id": "river:Q41179",
-  "t": "river",
-  "n": "Mekong",
-  "a": [
-   "Mekong River",
-   "Mekong River"
-  ]
- },
- {
   "id": "river:Q548",
   "t": "river",
   "n": "Weichsel",
@@ -15948,6 +15715,15 @@
    "Vistula"
   ],
   "c": "country:PL"
+ },
+ {
+  "id": "river:Q41179",
+  "t": "river",
+  "n": "Mekong",
+  "a": [
+   "Mekong River",
+   "Mekong River"
+  ]
  },
  {
   "id": "river:Q6862",
@@ -15968,21 +15744,21 @@
   ]
  },
  {
+  "id": "river:Q973",
+  "t": "river",
+  "n": "Ob",
+  "a": [
+   "Ob"
+  ],
+  "c": "country:RU"
+ },
+ {
   "id": "river:Q46841",
   "t": "river",
   "n": "Lena",
   "a": [
    "Lena River",
    "Lena River"
-  ],
-  "c": "country:RU"
- },
- {
-  "id": "river:Q973",
-  "t": "river",
-  "n": "Ob",
-  "a": [
-   "Ob"
   ],
   "c": "country:RU"
  },
@@ -16015,15 +15791,6 @@
   "c": "country:US"
  },
  {
-  "id": "river:Q1469",
-  "t": "river",
-  "n": "Loire",
-  "a": [
-   "Loire"
-  ],
-  "c": "country:FR"
- },
- {
   "id": "river:Q643",
   "t": "river",
   "n": "Po",
@@ -16031,6 +15798,15 @@
    "Po"
   ],
   "c": "country:IT"
+ },
+ {
+  "id": "river:Q1469",
+  "t": "river",
+  "n": "Loire",
+  "a": [
+   "Loire"
+  ],
+  "c": "country:FR"
  },
  {
   "id": "river:Q552",
@@ -16114,14 +15890,6 @@
   ]
  },
  {
-  "id": "river:Q1265",
-  "t": "river",
-  "n": "Colorado River",
-  "a": [
-   "Colorado River"
-  ]
- },
- {
   "id": "river:Q132726",
   "t": "river",
   "n": "Yamuna",
@@ -16129,6 +15897,14 @@
    "Yamuna"
   ],
   "c": "country:IN"
+ },
+ {
+  "id": "river:Q1265",
+  "t": "river",
+  "n": "Colorado River",
+  "a": [
+   "Colorado River"
+  ]
  },
  {
   "id": "river:Q645",
@@ -16159,12 +15935,12 @@
   ]
  },
  {
-  "id": "river:Q41986",
+  "id": "river:Q483159",
   "t": "river",
-  "n": "Maas",
+  "n": "Syrdarja",
   "a": [
-   "Meuse",
-   "Meuse"
+   "Syr Darya",
+   "Syr Darya"
   ]
  },
  {
@@ -16177,12 +15953,12 @@
   ]
  },
  {
-  "id": "river:Q483159",
+  "id": "river:Q41986",
   "t": "river",
-  "n": "Syrdarja",
+  "n": "Maas",
   "a": [
-   "Syr Darya",
-   "Syr Darya"
+   "Meuse",
+   "Meuse"
   ]
  },
  {
@@ -16191,6 +15967,22 @@
   "n": "Yukon River",
   "a": [
    "Yukon River"
+  ]
+ },
+ {
+  "id": "river:Q160636",
+  "t": "river",
+  "n": "Rio Grande",
+  "a": [
+   "Rio Grande"
+  ]
+ },
+ {
+  "id": "river:Q2251",
+  "t": "river",
+  "n": "Columbia River",
+  "a": [
+   "Columbia River"
   ]
  },
  {
@@ -16203,11 +15995,12 @@
   "c": "country:US"
  },
  {
-  "id": "river:Q160636",
+  "id": "river:Q173017",
   "t": "river",
-  "n": "Rio Grande",
+  "n": "Limpopo",
   "a": [
-   "Rio Grande"
+   "Limpopo River",
+   "Limpopo River"
   ]
  },
  {
@@ -16218,23 +16011,6 @@
    "Main"
   ],
   "c": "country:DE"
- },
- {
-  "id": "river:Q2251",
-  "t": "river",
-  "n": "Columbia River",
-  "a": [
-   "Columbia River"
-  ]
- },
- {
-  "id": "river:Q173017",
-  "t": "river",
-  "n": "Limpopo",
-  "a": [
-   "Limpopo River",
-   "Limpopo River"
-  ]
  },
  {
   "id": "river:Q10965",
@@ -16255,15 +16031,6 @@
   ]
  },
  {
-  "id": "river:Q4915",
-  "t": "river",
-  "n": "Ohio River",
-  "a": [
-   "Ohio River"
-  ],
-  "c": "country:US"
- },
- {
   "id": "river:Q4814791",
   "t": "river",
   "n": "Weißer Nil",
@@ -16273,22 +16040,13 @@
   ]
  },
  {
-  "id": "river:Q1667",
+  "id": "river:Q4915",
   "t": "river",
-  "n": "Mosel",
+  "n": "Ohio River",
   "a": [
-   "Moselle",
-   "Moselle"
-  ]
- },
- {
-  "id": "river:Q14299",
-  "t": "river",
-  "n": "Douro",
-  "a": [
-   "Douro River",
-   "Douro River"
-  ]
+   "Ohio River"
+  ],
+  "c": "country:US"
  },
  {
   "id": "river:Q181475",
@@ -16307,6 +16065,24 @@
    "Murray River"
   ],
   "c": "country:AU"
+ },
+ {
+  "id": "river:Q1667",
+  "t": "river",
+  "n": "Mosel",
+  "a": [
+   "Moselle",
+   "Moselle"
+  ]
+ },
+ {
+  "id": "river:Q14299",
+  "t": "river",
+  "n": "Douro",
+  "a": [
+   "Douro River",
+   "Douro River"
+  ]
  },
  {
   "id": "river:Q131574",
@@ -16328,14 +16104,6 @@
   ]
  },
  {
-  "id": "river:Q35827",
-  "t": "river",
-  "n": "Río de la Plata",
-  "a": [
-   "Río de la Plata"
-  ]
- },
- {
   "id": "river:Q191314",
   "t": "river",
   "n": "Godavari",
@@ -16344,6 +16112,14 @@
    "Godavari River"
   ],
   "c": "country:IN"
+ },
+ {
+  "id": "river:Q35827",
+  "t": "river",
+  "n": "Río de la Plata",
+  "a": [
+   "Río de la Plata"
+  ]
  },
  {
   "id": "river:Q175117",
@@ -16356,15 +16132,6 @@
   "c": "country:RU"
  },
  {
-  "id": "river:Q3569",
-  "t": "river",
-  "n": "Senegal-Strom",
-  "a": [
-   "Senegal River",
-   "Senegal River"
-  ]
- },
- {
   "id": "river:Q26076",
   "t": "river",
   "n": "Irrawaddy",
@@ -16373,6 +16140,15 @@
    "Irrawaddy River"
   ],
   "c": "country:MM"
+ },
+ {
+  "id": "river:Q3569",
+  "t": "river",
+  "n": "Senegal-Strom",
+  "a": [
+   "Senegal River",
+   "Senegal River"
+  ]
  },
  {
   "id": "river:Q162737",
@@ -16464,6 +16240,15 @@
   "c": "country:IN"
  },
  {
+  "id": "river:Q3411",
+  "t": "river",
+  "n": "Mackenzie River",
+  "a": [
+   "Mackenzie River"
+  ],
+  "c": "country:CA"
+ },
+ {
   "id": "river:Q8168",
   "t": "river",
   "n": "Petschora",
@@ -16472,15 +16257,6 @@
    "Pechora"
   ],
   "c": "country:RU"
- },
- {
-  "id": "river:Q179751",
-  "t": "river",
-  "n": "Aras",
-  "a": [
-   "Aras River",
-   "Aras River"
-  ]
  },
  {
   "id": "river:Q156557",
@@ -16492,13 +16268,22 @@
   ]
  },
  {
-  "id": "river:Q3411",
+  "id": "river:Q179751",
   "t": "river",
-  "n": "Mackenzie River",
+  "n": "Aras",
   "a": [
-   "Mackenzie River"
-  ],
-  "c": "country:CA"
+   "Aras River",
+   "Aras River"
+  ]
+ },
+ {
+  "id": "river:Q118251",
+  "t": "river",
+  "n": "Rio Madeira",
+  "a": [
+   "Madeira River",
+   "Madeira River"
+  ]
  },
  {
   "id": "river:Q5622",
@@ -16519,23 +16304,6 @@
   "c": "country:ES"
  },
  {
-  "id": "river:Q14369",
-  "t": "river",
-  "n": "Inn",
-  "a": [
-   "Inn"
-  ]
- },
- {
-  "id": "river:Q37620",
-  "t": "river",
-  "n": "Schelde",
-  "a": [
-   "Scheldt",
-   "Scheldt"
-  ]
- },
- {
   "id": "river:Q78879",
   "t": "river",
   "n": "Kolyma",
@@ -16545,12 +16313,12 @@
   "c": "country:RU"
  },
  {
-  "id": "river:Q118251",
+  "id": "river:Q37620",
   "t": "river",
-  "n": "Rio Madeira",
+  "n": "Schelde",
   "a": [
-   "Madeira River",
-   "Madeira River"
+   "Scheldt",
+   "Scheldt"
   ]
  },
  {
@@ -16573,23 +16341,12 @@
   "c": "country:CO"
  },
  {
-  "id": "river:Q1673",
+  "id": "river:Q14369",
   "t": "river",
-  "n": "Neckar",
+  "n": "Inn",
   "a": [
-   "Neckar"
-  ],
-  "c": "country:DE"
- },
- {
-  "id": "river:Q13696",
-  "t": "river",
-  "n": "Etsch",
-  "a": [
-   "Adige",
-   "Adige"
-  ],
-  "c": "country:IT"
+   "Inn"
+  ]
  },
  {
   "id": "river:Q166966",
@@ -16610,14 +16367,23 @@
   ]
  },
  {
-  "id": "river:Q8187",
+  "id": "river:Q1673",
   "t": "river",
-  "n": "Nördliche Dwina",
+  "n": "Neckar",
   "a": [
-   "Northern Dvina",
-   "Northern Dvina"
+   "Neckar"
   ],
-  "c": "country:RU"
+  "c": "country:DE"
+ },
+ {
+  "id": "river:Q13696",
+  "t": "river",
+  "n": "Etsch",
+  "a": [
+   "Adige",
+   "Adige"
+  ],
+  "c": "country:IT"
  },
  {
   "id": "river:Q171649",
@@ -16629,13 +16395,14 @@
   ]
  },
  {
-  "id": "river:Q216875",
+  "id": "river:Q8187",
   "t": "river",
-  "n": "Chanab",
+  "n": "Nördliche Dwina",
   "a": [
-   "Chenab River",
-   "Chenab River"
-  ]
+   "Northern Dvina",
+   "Northern Dvina"
+  ],
+  "c": "country:RU"
  },
  {
   "id": "river:Q118850",
@@ -16657,30 +16424,12 @@
   "c": "country:US"
  },
  {
-  "id": "river:Q1675",
+  "id": "river:Q216875",
   "t": "river",
-  "n": "Aare",
+  "n": "Chanab",
   "a": [
-   "Aare"
-  ],
-  "c": "country:CH"
- },
- {
-  "id": "river:Q1684",
-  "t": "river",
-  "n": "Spree",
-  "a": [
-   "Spree"
-  ],
-  "c": "country:DE"
- },
- {
-  "id": "river:Q26422",
-  "t": "river",
-  "n": "Saluen",
-  "a": [
-   "Salween River",
-   "Salween River"
+   "Chenab River",
+   "Chenab River"
   ]
  },
  {
@@ -16723,13 +16472,31 @@
   "c": "country:CN"
  },
  {
-  "id": "river:Q8319",
+  "id": "river:Q1675",
   "t": "river",
-  "n": "Arkansas River",
+  "n": "Aare",
   "a": [
-   "Arkansas River"
+   "Aare"
   ],
-  "c": "country:US"
+  "c": "country:CH"
+ },
+ {
+  "id": "river:Q1684",
+  "t": "river",
+  "n": "Spree",
+  "a": [
+   "Spree"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "river:Q26422",
+  "t": "river",
+  "n": "Saluen",
+  "a": [
+   "Salween River",
+   "Salween River"
+  ]
  },
  {
   "id": "river:Q82776",
@@ -16749,6 +16516,15 @@
   "c": "country:AU"
  },
  {
+  "id": "river:Q8319",
+  "t": "river",
+  "n": "Arkansas River",
+  "a": [
+   "Arkansas River"
+  ],
+  "c": "country:US"
+ },
+ {
   "id": "river:Q182445",
   "t": "river",
   "n": "Pruth",
@@ -16765,24 +16541,6 @@
    "Kasai River",
    "Kasai River"
   ]
- },
- {
-  "id": "river:Q1650",
-  "t": "river",
-  "n": "Weser",
-  "a": [
-   "Weser"
-  ],
-  "c": "country:DE"
- },
- {
-  "id": "river:Q19682",
-  "t": "river",
-  "n": "River Severn",
-  "a": [
-   "River Severn"
-  ],
-  "c": "country:GB"
  },
  {
   "id": "river:Q106588",
@@ -16831,6 +16589,24 @@
   ]
  },
  {
+  "id": "river:Q1650",
+  "t": "river",
+  "n": "Weser",
+  "a": [
+   "Weser"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "river:Q19682",
+  "t": "river",
+  "n": "River Severn",
+  "a": [
+   "River Severn"
+  ],
+  "c": "country:GB"
+ },
+ {
   "id": "river:Q82207",
   "t": "river",
   "n": "Indigirka",
@@ -16858,6 +16634,16 @@
   ]
  },
  {
+  "id": "river:Q172572",
+  "t": "river",
+  "n": "Rubikon",
+  "a": [
+   "Rubicon",
+   "Rubicon"
+  ],
+  "c": "country:IT"
+ },
+ {
   "id": "river:Q55498",
   "t": "river",
   "n": "Yalu",
@@ -16875,16 +16661,6 @@
    "Kızılırmak River"
   ],
   "c": "country:TR"
- },
- {
-  "id": "river:Q172572",
-  "t": "river",
-  "n": "Rubikon",
-  "a": [
-   "Rubicon",
-   "Rubicon"
-  ],
-  "c": "country:IT"
  },
  {
   "id": "river:Q103148",
@@ -16921,41 +16697,6 @@
    "Tennessee River"
   ],
   "c": "country:US"
- },
- {
-  "id": "river:Q214874",
-  "t": "river",
-  "n": "Jhelam",
-  "a": [
-   "Jhelum River",
-   "Jhelum River"
-  ]
- },
- {
-  "id": "river:Q1664",
-  "t": "river",
-  "n": "Ruhr",
-  "a": [
-   "Ruhr"
-  ],
-  "c": "country:DE"
- },
- {
-  "id": "river:Q1682",
-  "t": "river",
-  "n": "Havel",
-  "a": [
-   "Havel"
-  ],
-  "c": "country:DE"
- },
- {
-  "id": "river:Q14305",
-  "t": "river",
-  "n": "Guadiana",
-  "a": [
-   "Guadiana"
-  ]
  },
  {
   "id": "river:Q157042",
@@ -17031,12 +16772,72 @@
   "c": "country:GE"
  },
  {
+  "id": "river:Q214874",
+  "t": "river",
+  "n": "Jhelam",
+  "a": [
+   "Jhelum River",
+   "Jhelum River"
+  ]
+ },
+ {
+  "id": "river:Q1664",
+  "t": "river",
+  "n": "Ruhr",
+  "a": [
+   "Ruhr"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "river:Q1682",
+  "t": "river",
+  "n": "Havel",
+  "a": [
+   "Havel"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "river:Q14305",
+  "t": "river",
+  "n": "Guadiana",
+  "a": [
+   "Guadiana"
+  ]
+ },
+ {
+  "id": "river:Q75745",
+  "t": "river",
+  "n": "Selenga",
+  "a": [
+   "Selenga"
+  ]
+ },
+ {
+  "id": "river:Q179251",
+  "t": "river",
+  "n": "March",
+  "a": [
+   "Morava",
+   "Morava"
+  ]
+ },
+ {
   "id": "river:Q55500",
   "t": "river",
   "n": "Hangang",
   "a": [
    "Han River",
    "Han River"
+  ]
+ },
+ {
+  "id": "river:Q186901",
+  "t": "river",
+  "n": "Drina",
+  "a": [
+   "Drina"
   ]
  },
  {
@@ -17067,40 +16868,6 @@
   ]
  },
  {
-  "id": "river:Q75745",
-  "t": "river",
-  "n": "Selenga",
-  "a": [
-   "Selenga"
-  ]
- },
- {
-  "id": "river:Q179251",
-  "t": "river",
-  "n": "March",
-  "a": [
-   "Morava",
-   "Morava"
-  ]
- },
- {
-  "id": "river:Q186901",
-  "t": "river",
-  "n": "Drina",
-  "a": [
-   "Drina"
-  ]
- },
- {
-  "id": "river:Q2750140",
-  "t": "river",
-  "n": "Kagera-Nil",
-  "a": [
-   "Kagera River",
-   "Kagera River"
-  ]
- },
- {
   "id": "river:Q189596",
   "t": "river",
   "n": "Vardar",
@@ -17117,13 +16884,13 @@
   ]
  },
  {
-  "id": "river:Q41983",
+  "id": "river:Q2750140",
   "t": "river",
-  "n": "Marne",
+  "n": "Kagera-Nil",
   "a": [
-   "Marne"
-  ],
-  "c": "country:FR"
+   "Kagera River",
+   "Kagera River"
+  ]
  },
  {
   "id": "river:Q135477",
@@ -17135,22 +16902,13 @@
   ]
  },
  {
-  "id": "river:Q8515",
+  "id": "river:Q41983",
   "t": "river",
-  "n": "Kabul",
+  "n": "Marne",
   "a": [
-   "Kabul River",
-   "Kabul River"
-  ]
- },
- {
-  "id": "river:Q14366",
-  "t": "river",
-  "n": "Tessin",
-  "a": [
-   "Ticino",
-   "Ticino"
-  ]
+   "Marne"
+  ],
+  "c": "country:FR"
  },
  {
   "id": "river:Q192157",
@@ -17197,6 +16955,24 @@
    "Songhua River"
   ],
   "c": "country:CN"
+ },
+ {
+  "id": "river:Q8515",
+  "t": "river",
+  "n": "Kabul",
+  "a": [
+   "Kabul River",
+   "Kabul River"
+  ]
+ },
+ {
+  "id": "river:Q14366",
+  "t": "river",
+  "n": "Tessin",
+  "a": [
+   "Ticino",
+   "Ticino"
+  ]
  },
  {
   "id": "river:Q317899",
@@ -17301,15 +17077,6 @@
   ]
  },
  {
-  "id": "river:Q185405",
-  "t": "river",
-  "n": "Amstel",
-  "a": [
-   "Amstel"
-  ],
-  "c": "country:NL"
- },
- {
   "id": "river:Q188871",
   "t": "river",
   "n": "Orontes",
@@ -17352,7 +17119,8 @@
   "n": "Ems",
   "a": [
    "Ems"
-  ]
+  ],
+  "c": "country:DE"
  },
  {
   "id": "river:Q209530",
@@ -17412,6 +17180,24 @@
   ]
  },
  {
+  "id": "river:Q320649",
+  "t": "river",
+  "n": "Kunene",
+  "a": [
+   "Cunene River",
+   "Cunene River"
+  ]
+ },
+ {
+  "id": "river:Q5602",
+  "t": "river",
+  "n": "Lausitzer Neiße",
+  "a": [
+   "Lusatian Nysa",
+   "Lusatian Nysa"
+  ]
+ },
+ {
   "id": "river:Q26390",
   "t": "river",
   "n": "Anadyr",
@@ -17439,24 +17225,6 @@
    "Vilyuy"
   ],
   "c": "country:RU"
- },
- {
-  "id": "river:Q320649",
-  "t": "river",
-  "n": "Kunene",
-  "a": [
-   "Cunene River",
-   "Cunene River"
-  ]
- },
- {
-  "id": "river:Q5602",
-  "t": "river",
-  "n": "Lausitzer Neiße",
-  "a": [
-   "Lusatian Nysa",
-   "Lusatian Nysa"
-  ]
  },
  {
   "id": "river:Q200231",
@@ -17661,15 +17429,6 @@
   "c": "country:BA"
  },
  {
-  "id": "river:Q216171",
-  "t": "river",
-  "n": "Waal",
-  "a": [
-   "Waal"
-  ],
-  "c": "country:NL"
- },
- {
   "id": "river:Q237901",
   "t": "river",
   "n": "Tarim",
@@ -17756,13 +17515,31 @@
   "c": "country:RO"
  },
  {
-  "id": "river:Q27538",
+  "id": "river:Q41962",
   "t": "river",
-  "n": "Susquehanna River",
+  "n": "Aisne",
   "a": [
-   "Susquehanna River"
+   "Aisne"
   ],
-  "c": "country:US"
+  "c": "country:FR"
+ },
+ {
+  "id": "river:Q60055",
+  "t": "river",
+  "n": "Narew",
+  "a": [
+   "Narew"
+  ]
+ },
+ {
+  "id": "river:Q60974",
+  "t": "river",
+  "n": "Ottawa",
+  "a": [
+   "Ottawa River",
+   "Ottawa River"
+  ],
+  "c": "country:CA"
  },
  {
   "id": "lake:Q5484",
@@ -17962,15 +17739,6 @@
   ]
  },
  {
-  "id": "lake:Q173596",
-  "t": "lake",
-  "n": "Vänern",
-  "a": [
-   "Vänern"
-  ],
-  "c": "country:SE"
- },
- {
   "id": "lake:Q49650",
   "t": "lake",
   "n": "Loch Ness",
@@ -17978,6 +17746,15 @@
    "Loch Ness"
   ],
   "c": "country:GB"
+ },
+ {
+  "id": "lake:Q173596",
+  "t": "lake",
+  "n": "Vänern",
+  "a": [
+   "Vänern"
+  ],
+  "c": "country:SE"
  },
  {
   "id": "lake:Q173862",
@@ -18453,8 +18230,8 @@
   "t": "lake",
   "n": "Riza-See",
   "a": [
-   "Lake Ritsa",
-   "Lake Ritsa"
+   "Ritsa",
+   "Ritsa"
   ],
   "c": "country:GE"
  },
@@ -18664,6 +18441,16 @@
   "c": "country:CN"
  },
  {
+  "id": "lake:Q645901",
+  "t": "lake",
+  "n": "Manitobasee",
+  "a": [
+   "Lake Manitoba",
+   "Lake Manitoba"
+  ],
+  "c": "country:CA"
+ },
+ {
   "id": "lake:Q720015",
   "t": "lake",
   "n": "Karakul",
@@ -18719,16 +18506,6 @@
    "Bosten Lake"
   ],
   "c": "country:CN"
- },
- {
-  "id": "lake:Q645901",
-  "t": "lake",
-  "n": "Manitobasee",
-  "a": [
-   "Lake Manitoba",
-   "Lake Manitoba"
-  ],
-  "c": "country:CA"
  },
  {
   "id": "lake:Q790453",
@@ -19066,14 +18843,6 @@
   "c": "country:AU"
  },
  {
-  "id": "mountain:Q170089",
-  "t": "mountain",
-  "n": "Cho Oyu",
-  "a": [
-   "Cho Oyu"
-  ]
- },
- {
   "id": "mountain:Q14081",
   "t": "mountain",
   "n": "Chimborazo",
@@ -19081,6 +18850,14 @@
    "Chimborazo"
   ],
   "c": "country:EC"
+ },
+ {
+  "id": "mountain:Q170089",
+  "t": "mountain",
+  "n": "Cho Oyu",
+  "a": [
+   "Cho Oyu"
+  ]
  },
  {
   "id": "mountain:Q170070",
@@ -19146,6 +18923,14 @@
   "c": "country:ID"
  },
  {
+  "id": "mountain:Q3375",
+  "t": "mountain",
+  "n": "Zugspitze",
+  "a": [
+   "Zugspitze"
+  ]
+ },
+ {
   "id": "mountain:Q120306",
   "t": "mountain",
   "n": "Mount Logan",
@@ -19153,14 +18938,6 @@
    "Mount Logan"
   ],
   "c": "country:CA"
- },
- {
-  "id": "mountain:Q3375",
-  "t": "mountain",
-  "n": "Zugspitze",
-  "a": [
-   "Zugspitze"
-  ]
  },
  {
   "id": "mountain:Q168714",
@@ -19200,6 +18977,25 @@
   ]
  },
  {
+  "id": "mountain:Q1451",
+  "t": "mountain",
+  "n": "Pinatubo",
+  "a": [
+   "Pinatubo"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "mountain:Q60967",
+  "t": "mountain",
+  "n": "Kinabalu",
+  "a": [
+   "Mount Kinabalu",
+   "Mount Kinabalu"
+  ],
+  "c": "country:MY"
+ },
+ {
   "id": "mountain:Q186853",
   "t": "mountain",
   "n": "Gasherbrum II",
@@ -19218,30 +19014,12 @@
   "c": "country:CN"
  },
  {
-  "id": "mountain:Q60967",
+  "id": "mountain:Q1484",
   "t": "mountain",
-  "n": "Kinabalu",
+  "n": "Mayon",
   "a": [
-   "Mount Kinabalu",
-   "Mount Kinabalu"
-  ],
-  "c": "country:MY"
- },
- {
-  "id": "mountain:Q194057",
-  "t": "mountain",
-  "n": "Mount Rainier",
-  "a": [
-   "Mount Rainier"
-  ],
-  "c": "country:US"
- },
- {
-  "id": "mountain:Q1451",
-  "t": "mountain",
-  "n": "Pinatubo",
-  "a": [
-   "Pinatubo"
+   "Mayon Volcano",
+   "Mayon Volcano"
   ],
   "c": "country:PH"
  },
@@ -19256,6 +19034,15 @@
   "c": "country:NZ"
  },
  {
+  "id": "mountain:Q194057",
+  "t": "mountain",
+  "n": "Mount Rainier",
+  "a": [
+   "Mount Rainier"
+  ],
+  "c": "country:US"
+ },
+ {
   "id": "mountain:Q203568",
   "t": "mountain",
   "n": "Aragaz",
@@ -19264,16 +19051,6 @@
    "Mount Aragats"
   ],
   "c": "country:AM"
- },
- {
-  "id": "mountain:Q1484",
-  "t": "mountain",
-  "n": "Mayon",
-  "a": [
-   "Mayon Volcano",
-   "Mayon Volcano"
-  ],
-  "c": "country:PH"
  },
  {
   "id": "mountain:Q205976",
@@ -19296,6 +19073,15 @@
   "c": "country:GR"
  },
  {
+  "id": "mountain:Q1024",
+  "t": "mountain",
+  "n": "Triglav",
+  "a": [
+   "Triglav"
+  ],
+  "c": "country:SI"
+ },
+ {
   "id": "mountain:Q181476",
   "t": "mountain",
   "n": "Cotopaxi",
@@ -19316,15 +19102,6 @@
   "c": "country:MX"
  },
  {
-  "id": "mountain:Q1024",
-  "t": "mountain",
-  "n": "Triglav",
-  "a": [
-   "Triglav"
-  ],
-  "c": "country:SI"
- },
- {
   "id": "mountain:Q211529",
   "t": "mountain",
   "n": "Khan Tengri",
@@ -19340,6 +19117,16 @@
    "Gangkhar Puensum"
   ],
   "c": "country:BT"
+ },
+ {
+  "id": "mountain:Q3388",
+  "t": "mountain",
+  "n": "Großglockner",
+  "a": [
+   "Grossglockner",
+   "Grossglockner"
+  ],
+  "c": "country:AT"
  },
  {
   "id": "mountain:Q194215",
@@ -19360,16 +19147,6 @@
    "Mount Kazbek"
   ],
   "c": "country:RU"
- },
- {
-  "id": "mountain:Q3388",
-  "t": "mountain",
-  "n": "Großglockner",
-  "a": [
-   "Grossglockner",
-   "Grossglockner"
-  ],
-  "c": "country:AT"
  },
  {
   "id": "mountain:Q76309",
@@ -19449,6 +19226,15 @@
   "c": "country:IN"
  },
  {
+  "id": "mountain:Q4777",
+  "t": "mountain",
+  "n": "Roraima-Tepui",
+  "a": [
+   "Mount Roraima",
+   "Mount Roraima"
+  ]
+ },
+ {
   "id": "mountain:Q207132",
   "t": "mountain",
   "n": "Tirich Mir",
@@ -19478,13 +19264,13 @@
   "c": "country:UA"
  },
  {
-  "id": "mountain:Q4777",
+  "id": "mountain:Q4425",
   "t": "mountain",
-  "n": "Roraima-Tepui",
+  "n": "Eiger",
   "a": [
-   "Mount Roraima",
-   "Mount Roraima"
-  ]
+   "Eiger"
+  ],
+  "c": "country:CH"
  },
  {
   "id": "mountain:Q158470",
@@ -19495,15 +19281,6 @@
    "Mount Agung"
   ],
   "c": "country:ID"
- },
- {
-  "id": "mountain:Q4425",
-  "t": "mountain",
-  "n": "Eiger",
-  "a": [
-   "Eiger"
-  ],
-  "c": "country:CH"
  },
  {
   "id": "mountain:Q193785",
@@ -19599,6 +19376,16 @@
   ]
  },
  {
+  "id": "mountain:Q455963",
+  "t": "mountain",
+  "n": "Apo",
+  "a": [
+   "Mount Apo",
+   "Mount Apo"
+  ],
+  "c": "country:PH"
+ },
+ {
   "id": "mountain:Q15312",
   "t": "mountain",
   "n": "Jungfrau",
@@ -19606,6 +19393,16 @@
    "Jungfrau"
   ],
   "c": "country:CH"
+ },
+ {
+  "id": "mountain:Q41413",
+  "t": "mountain",
+  "n": "Pik Kommunisma",
+  "a": [
+   "Ismoil Somoni Peak",
+   "Ismoil Somoni Peak"
+  ],
+  "c": "country:TJ"
  },
  {
   "id": "mountain:Q204821",
@@ -19634,26 +19431,6 @@
    "Jengish Chokusu",
    "Jengish Chokusu"
   ]
- },
- {
-  "id": "mountain:Q455963",
-  "t": "mountain",
-  "n": "Apo",
-  "a": [
-   "Mount Apo",
-   "Mount Apo"
-  ],
-  "c": "country:PH"
- },
- {
-  "id": "mountain:Q41413",
-  "t": "mountain",
-  "n": "Pik Kommunisma",
-  "a": [
-   "Ismoil Somoni Peak",
-   "Ismoil Somoni Peak"
-  ],
-  "c": "country:TJ"
  },
  {
   "id": "mountain:Q60789",
@@ -19922,6 +19699,16 @@
   "c": "country:IS"
  },
  {
+  "id": "mountain:Q622616",
+  "t": "mountain",
+  "n": "Lu Shan",
+  "a": [
+   "Mount Lu",
+   "Mount Lu"
+  ],
+  "c": "country:CN"
+ },
+ {
   "id": "mountain:Q746524",
   "t": "mountain",
   "n": "Moldoveanu",
@@ -19998,16 +19785,6 @@
   "c": "country:BR"
  },
  {
-  "id": "mountain:Q622616",
-  "t": "mountain",
-  "n": "Lu Shan",
-  "a": [
-   "Mount Lu",
-   "Mount Lu"
-  ],
-  "c": "country:CN"
- },
- {
   "id": "mountain:Q746787",
   "t": "mountain",
   "n": "Ol Doinyo Lengai",
@@ -20082,6 +19859,16 @@
   "c": "country:ES"
  },
  {
+  "id": "mountain:Q791652",
+  "t": "mountain",
+  "n": "Awatschinskaja Sopka",
+  "a": [
+   "Avachinsky",
+   "Avachinsky"
+  ],
+  "c": "country:RU"
+ },
+ {
   "id": "mountain:Q838587",
   "t": "mountain",
   "n": "Pik Lenin",
@@ -20110,6 +19897,15 @@
   "c": "country:CN"
  },
  {
+  "id": "mountain:Q123782",
+  "t": "mountain",
+  "n": "Fansipan",
+  "a": [
+   "Fansipan"
+  ],
+  "c": "country:VN"
+ },
+ {
   "id": "mountain:Q235062",
   "t": "mountain",
   "n": "Galeras",
@@ -20127,16 +19923,6 @@
    "Sulaiman-Too"
   ],
   "c": "country:KG"
- },
- {
-  "id": "mountain:Q791652",
-  "t": "mountain",
-  "n": "Awatschinskaja Sopka",
-  "a": [
-   "Avachinsky",
-   "Avachinsky"
-  ],
-  "c": "country:RU"
  },
  {
   "id": "mountain:Q814113",
@@ -20177,24 +19963,6 @@
   "c": "country:CH"
  },
  {
-  "id": "mountain:Q695846",
-  "t": "mountain",
-  "n": "Nyamuragira",
-  "a": [
-   "Nyamuragira"
-  ],
-  "c": "country:CD"
- },
- {
-  "id": "mountain:Q123782",
-  "t": "mountain",
-  "n": "Fansipan",
-  "a": [
-   "Fansipan"
-  ],
-  "c": "country:VN"
- },
- {
   "id": "mountain:Q215138",
   "t": "mountain",
   "n": "Fitz Roy",
@@ -20233,11 +20001,28 @@
   "c": "country:AT"
  },
  {
+  "id": "mountain:Q695846",
+  "t": "mountain",
+  "n": "Nyamuragira",
+  "a": [
+   "Nyamuragira"
+  ],
+  "c": "country:CD"
+ },
+ {
   "id": "mountain:Q732838",
   "t": "mountain",
   "n": "Mount Elgon",
   "a": [
    "Mount Elgon"
+  ]
+ },
+ {
+  "id": "mountain:Q770496",
+  "t": "mountain",
+  "n": "Mount Saint Elias",
+  "a": [
+   "Mount Saint Elias"
   ]
  },
  {
@@ -20321,14 +20106,6 @@
    "Mount Shasta"
   ],
   "c": "country:US"
- },
- {
-  "id": "mountain:Q770496",
-  "t": "mountain",
-  "n": "Mount Saint Elias",
-  "a": [
-   "Mount Saint Elias"
-  ]
  },
  {
   "id": "mountain:Q819979",
@@ -21257,9 +21034,9 @@
   "t": "region",
   "n": "Wallonische Region",
   "a": [
-   "Walloon Region",
+   "Wallonia",
    "Wallonien",
-   "Walloon Region"
+   "Wallonia"
   ],
   "c": "country:BE"
  },
@@ -21669,9 +21446,9 @@
   "t": "region",
   "n": "Breszkaja Woblasz",
   "a": [
-   "Byerastsye Region",
+   "Brest Region",
    "Brest",
-   "Byerastsye Region"
+   "Brest Region"
   ],
   "c": "country:BY"
  },
@@ -21701,9 +21478,9 @@
   "t": "region",
   "n": "Woblast Hrodna",
   "a": [
-   "Horadnia Region",
+   "Hrodna Region",
    "Grodno",
-   "Horadnia Region"
+   "Hrodna Region"
   ],
   "c": "country:BY"
  },
@@ -25822,35 +25599,34 @@
  {
   "id": "region:LV-015",
   "t": "region",
-  "n": "Bezirk Balvi",
+  "n": "Bezirksgemeinde Balvi",
   "a": [
    "Balvi Municipality",
    "Balvu novads",
-   "Balvi Municipality",
-   "Balvi"
+   "Balvi Municipality"
   ],
   "c": "country:LV"
  },
  {
   "id": "region:LV-016",
   "t": "region",
-  "n": "Bezirksgemeinde Bauska",
+  "n": "Bezirk Bauska",
   "a": [
    "Bauska Municipality",
    "Bauskas novads",
-   "Bauska Municipality"
+   "Bauska Municipality",
+   "Bauska"
   ],
   "c": "country:LV"
  },
  {
   "id": "region:LV-022",
   "t": "region",
-  "n": "Bezirk Cēsis",
+  "n": "Bezirksgemeinde Cēsis",
   "a": [
    "Cēsis Municipality",
    "Cēsu novads",
-   "Cēsis Municipality",
-   "Cēsis"
+   "Cēsis Municipality"
   ],
   "c": "country:LV"
  },
@@ -25912,11 +25688,12 @@
  {
   "id": "region:LV-088",
   "t": "region",
-  "n": "Bezirksgemeinde Saldus",
+  "n": "Bezirk Saldus",
   "a": [
    "Saldus Municipality",
    "Saldus novads",
-   "Saldus Municipality"
+   "Saldus Municipality",
+   "Saldus"
   ],
   "c": "country:LV"
  },
@@ -26865,9 +26642,7 @@
   "id": "region:NO-03",
   "t": "region",
   "n": "Oslo",
-  "a": [
-   "Oslo"
-  ],
+  "a": [],
   "c": "country:NO"
  },
  {
@@ -30404,11 +30179,11 @@
  {
   "id": "license_plate:DE-BK",
   "t": "license_plate",
-  "n": "Schwäbisch Hall",
+  "n": "Börde",
   "a": [
-   "Landkreis Schwäbisch Hall",
    "Landkreis Börde",
-   "Börde"
+   "Landkreis Schwäbisch Hall",
+   "Schwäbisch Hall"
   ],
   "c": "country:DE"
  },
@@ -31692,9 +31467,9 @@
  {
   "id": "license_plate:DE-HB",
   "t": "license_plate",
-  "n": "Bremen",
+  "n": "Bremerhaven",
   "a": [
-   "Bremerhaven"
+   "Bremen"
   ],
   "c": "country:DE"
  },

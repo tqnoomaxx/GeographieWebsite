@@ -18,8 +18,8 @@
     "country:IR",
     "country:KZ",
     "country:RU",
-    "country:AZ",
-    "country:TM"
+    "country:TM",
+    "country:AZ"
    ],
    "continent": "asia",
    "area_km2": 386400,
@@ -29,10 +29,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q5484",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -56,16 +56,16 @@
    ],
    "continent": "europe",
    "area_km2": 31722,
-   "sitelinks": 182,
+   "sitelinks": 183,
    "kind": "lake",
    "wikidata": "Q5513"
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q5513",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -90,16 +90,16 @@
    ],
    "continent": "africa",
    "area_km2": 68100,
-   "sitelinks": 161,
+   "sitelinks": 162,
    "kind": "lake",
    "wikidata": "Q5505"
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q5505",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -125,16 +125,16 @@
    ],
    "continent": "africa",
    "area_km2": 32900,
-   "sitelinks": 150,
+   "sitelinks": 151,
    "kind": "lake",
    "wikidata": "Q5511"
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q5511",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -164,10 +164,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q35342",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -197,10 +197,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q1066",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -230,10 +230,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q1062",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -263,10 +263,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q1169",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -297,10 +297,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q5532",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -320,9 +320,9 @@
   "attributes": {
    "countries": [
     "country:CM",
+    "country:NG",
     "country:NE",
-    "country:TD",
-    "country:NG"
+    "country:TD"
    ],
    "continent": "africa",
    "area_km2": 1540,
@@ -332,10 +332,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q125309",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -365,10 +365,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q5492",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -398,10 +398,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q1383",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -431,10 +431,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q15288",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -464,10 +464,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q6383",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -497,10 +497,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q134485",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -530,10 +530,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q42191",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -563,10 +563,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q125888",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -596,10 +596,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q6414",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -629,10 +629,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q166162",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -662,10 +662,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q125912",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -695,10 +695,41 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q14379",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
+  }
+ },
+ {
+  "id": "lake:Q49650",
+  "type": "lake",
+  "names": {
+   "de": "Loch Ness",
+   "en": "Loch Ness"
+  },
+  "aliases": [],
+  "location": {
+   "lat": 57.3,
+   "lon": -4.45
+  },
+  "attributes": {
+   "country": "country:GB",
+   "countries": [
+    "country:GB"
+   ],
+   "continent": "europe",
+   "area_km2": 56.4,
+   "sitelinks": 79,
+   "kind": "lake",
+   "wikidata": "Q49650"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-10-01",
+   "source_id": "Q49650",
+   "license": "CC0",
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -726,41 +757,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q173596",
    "license": "CC0",
-   "last_updated": "2026-09-18"
-  }
- },
- {
-  "id": "lake:Q49650",
-  "type": "lake",
-  "names": {
-   "de": "Loch Ness",
-   "en": "Loch Ness"
-  },
-  "aliases": [],
-  "location": {
-   "lat": 57.3,
-   "lon": -4.45
-  },
-  "attributes": {
-   "country": "country:GB",
-   "countries": [
-    "country:GB"
-   ],
-   "continent": "europe",
-   "area_km2": 56.4,
-   "sitelinks": 78,
-   "kind": "lake",
-   "wikidata": "Q49650"
-  },
-  "provenance": {
-   "source": "wikidata",
-   "imported_at": "2026-09-18",
-   "source_id": "Q49650",
-   "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -790,10 +790,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q173862",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -823,10 +823,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q116685",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -854,10 +854,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q192770",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -887,10 +887,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q181932",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -920,10 +920,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q125211",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -953,10 +953,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q3272",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -986,10 +986,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q5525",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1019,10 +1019,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q182137",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1052,10 +1052,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q201294",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1083,10 +1083,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q179970",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1116,10 +1116,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q504433",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1149,10 +1149,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q19253",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1182,10 +1182,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q207690",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1213,10 +1213,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q188195",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1246,10 +1246,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q14418",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1277,10 +1277,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q184492",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1310,10 +1310,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q14407",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1343,10 +1343,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q156258",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1374,10 +1374,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q199938",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1407,10 +1407,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q233627",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1440,10 +1440,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q203137",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1473,10 +1473,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q14381",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1506,10 +1506,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q188487",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1540,10 +1540,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q204392",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1573,10 +1573,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q502371",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1606,10 +1606,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q201843",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1639,10 +1639,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q272463",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1670,10 +1670,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q4138",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1703,10 +1703,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q14375",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1736,10 +1736,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q203811",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1769,10 +1769,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q648902",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1800,10 +1800,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q208926",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1833,10 +1833,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q216083",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1866,10 +1866,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q464945",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1899,10 +1899,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q203462",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1930,10 +1930,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q206942",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1961,10 +1961,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q329266",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -1994,10 +1994,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q15648",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2027,10 +2027,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q140712",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2058,10 +2058,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q211516",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2091,10 +2091,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q272380",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2124,10 +2124,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q332628",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2157,10 +2157,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q651294",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2190,10 +2190,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q131615",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2221,10 +2221,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q156715",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2252,10 +2252,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q68467",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2285,10 +2285,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q216621",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2318,10 +2318,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q334761",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2351,10 +2351,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q845868",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2362,10 +2362,10 @@
   "type": "lake",
   "names": {
    "de": "Riza-See",
-   "en": "Lake Ritsa"
+   "en": "Ritsa"
   },
   "aliases": [
-   "Lake Ritsa"
+   "Ritsa"
   ],
   "location": {
    "lat": 43.4811,
@@ -2384,10 +2384,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q946194",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2415,10 +2415,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q1032254",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2446,10 +2446,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q212051",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2479,10 +2479,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q217109",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2512,10 +2512,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q257416",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2545,10 +2545,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q14429",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2576,10 +2576,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q212209",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2607,10 +2607,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q337",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2638,10 +2638,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q387256",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2671,10 +2671,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q158077",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2702,10 +2702,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q213769",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2735,10 +2735,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q325391",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2768,10 +2768,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q673169",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2799,10 +2799,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q750025",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2832,10 +2832,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q753898",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2865,10 +2865,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q14426",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2896,10 +2896,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q211425",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2929,10 +2929,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q714023",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2962,10 +2962,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q736707",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -2995,10 +2995,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q746975",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -3026,10 +3026,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q3369",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -3059,10 +3059,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q14442",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -3092,10 +3092,43 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q537374",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
+  }
+ },
+ {
+  "id": "lake:Q645901",
+  "type": "lake",
+  "names": {
+   "de": "Manitobasee",
+   "en": "Lake Manitoba"
+  },
+  "aliases": [
+   "Lake Manitoba"
+  ],
+  "location": {
+   "lat": 50.996111111111,
+   "lon": -98.761888888889
+  },
+  "attributes": {
+   "country": "country:CA",
+   "countries": [
+    "country:CA"
+   ],
+   "continent": "north-america",
+   "area_km2": 4624,
+   "sitelinks": 42,
+   "kind": "lake",
+   "wikidata": "Q645901"
+  },
+  "provenance": {
+   "source": "wikidata",
+   "imported_at": "2026-10-01",
+   "source_id": "Q645901",
+   "license": "CC0",
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -3123,10 +3156,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q720015",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -3155,10 +3188,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q886946",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -3186,10 +3219,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q335432",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -3219,10 +3252,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q503842",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -3252,10 +3285,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q575679",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -3285,43 +3318,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q611206",
    "license": "CC0",
-   "last_updated": "2026-09-18"
-  }
- },
- {
-  "id": "lake:Q645901",
-  "type": "lake",
-  "names": {
-   "de": "Manitobasee",
-   "en": "Lake Manitoba"
-  },
-  "aliases": [
-   "Lake Manitoba"
-  ],
-  "location": {
-   "lat": 50.996111111111,
-   "lon": -98.761888888889
-  },
-  "attributes": {
-   "country": "country:CA",
-   "countries": [
-    "country:CA"
-   ],
-   "continent": "north-america",
-   "area_km2": 4624,
-   "sitelinks": 41,
-   "kind": "lake",
-   "wikidata": "Q645901"
-  },
-  "provenance": {
-   "source": "wikidata",
-   "imported_at": "2026-09-18",
-   "source_id": "Q645901",
-   "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -3351,10 +3351,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q790453",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -3384,10 +3384,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q831903",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -3417,10 +3417,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q1365115",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -3450,10 +3450,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q13700",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -3483,10 +3483,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q14448",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -3516,10 +3516,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q202905",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -3547,10 +3547,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q265336",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -3578,10 +3578,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q498671",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -3611,10 +3611,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q683100",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -3644,10 +3644,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q14436",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  },
  {
@@ -3677,10 +3677,10 @@
   },
   "provenance": {
    "source": "wikidata",
-   "imported_at": "2026-09-18",
+   "imported_at": "2026-10-01",
    "source_id": "Q63141",
    "license": "CC0",
-   "last_updated": "2026-09-18"
+   "last_updated": "2026-10-01"
   }
  }
 ]
