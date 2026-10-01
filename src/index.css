@@ -1439,14 +1439,61 @@ textarea {
 }
 
 .cosmic-shell .site-header {
-  background: color-mix(in srgb, var(--card) 88%, transparent);
+  position: relative;
+  top: auto;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
 }
+
+.cosmic-shell .site-nav,
+.cosmic-shell .site-tools {
+  border: 0;
+}
+
+.cosmic-shell .site-nav-link,
+.cosmic-shell .site-tool {
+  border: 0;
+  background: transparent;
+}
+
+.cosmic-shell .site-brand small {
+  border: 0;
+}
+
+.cosmic-shell .site-brand > span::after,
+.cosmic-shell .site-nav-link::after { display: none; }
+
+.cosmic-shell .site-nav-link:hover,
+.cosmic-shell .site-nav-link.is-active,
+.cosmic-shell .site-tool:hover {
+  background: transparent;
+  color: var(--ink);
+}
+
+.cosmic-shell .mobile-nav {
+  border: 0;
+  background: var(--sky-base);
+  box-shadow: none;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+.cosmic-shell .mobile-nav-link { border: 0; background: transparent; }
+.cosmic-shell .mobile-nav-link.is-active { background: transparent; color: var(--accent); }
+.cosmic-shell .mobile-nav-link.is-active::after { display: none; }
 
 /* Hero */
 .home-hero {
+  display: block;
+  grid-template-columns: none;
   min-height: 42rem;
   margin-bottom: 5.5rem;
-  background: color-mix(in srgb, var(--card) 94%, transparent);
+  border: 0;
+  background: transparent;
+  box-shadow: none;
 }
 
 .home-hero-map {
@@ -1455,6 +1502,7 @@ textarea {
   flex-direction: column;
   justify-content: center;
   overflow: hidden;
+  border: 0;
   background:
     radial-gradient(circle at 50% 47%, rgb(98 205 217 / .2), transparent 38%),
     radial-gradient(circle at 50% 50%, #142e43, #071521 67%, #030a10 100%);
@@ -1669,12 +1717,14 @@ textarea {
 .country-quiz-empty { min-height: 4rem; border-left: 3px solid var(--gold); padding: 1rem; color: var(--ink-2); font-size: .82rem; }
 
 @media (max-width: 1023px) {
-  .home-hero-map { order: -1; min-height: 34rem; border-top: 0; border-bottom: 2px solid var(--ink); }
+  .home-hero { min-height: 0; }
+  .home-hero-map { order: -1; min-height: 34rem; border: 0; }
   .country-quiz-panel { grid-template-columns: 1fr; }
   .country-quiz-identity { min-height: 11rem; border-right: 0; border-bottom: 1.5px solid var(--ink); }
 }
 
 @media (max-width: 767px) {
+  .home-hero { min-height: 0; margin-bottom: 3.5rem; }
   .home-hero-map { min-height: 27rem; }
   .home-globe-heading { align-items: flex-start; flex-direction: column; gap: .25rem; }
   .interactive-globe { padding: 2.4rem .5rem 1rem; }

@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
-import { useAsync, useStats, useDocumentTitle } from '@/app/hooks'
+import { useAsync, useDocumentTitle } from '@/app/hooks'
 import { AUTO, MIN_POOL, PLAY_QUIZZES } from '@/config/quizzes'
 import { baseQuestionPosition, baseQuestionTotal, poolFor, setupOf } from '@/engine/session'
 import { RoundTitle } from '@/features/play/RoundLabel'
@@ -11,7 +11,6 @@ import { Flag, Page, ProgressBar } from '@/ui'
 import { CategoryIconTile, Icons, PUZZLE_ICONS } from '@/ui/icons'
 import { PUZZLES } from '@/features/daily/puzzles'
 import { todayKey } from '@/engine/rng'
-import { BrandMark } from '@/ui/BrandMark'
 import type { Country } from '@/domain/types'
 import { InteractiveGlobe } from './InteractiveGlobe'
 
@@ -93,10 +92,8 @@ export default function HomePage() {
   useDocumentTitle()
   const geo = useGeoData()
   const { index } = geo
-  const { stats, level } = useStats()
   const { data: open } = useAsync(() => getRepository().getOpenSessions(), [])
   const { data: puzzles } = useAsync(() => getRepository().getPuzzles(), [])
-  const isNew = !stats || stats.answered === 0
   const today = todayKey()
   const primary = PLAY_QUIZZES.filter((c) => c.primary)
   const [selectedCountryId, setSelectedCountryId] = useState<string>()
@@ -146,24 +143,7 @@ export default function HomePage() {
   return (
     <Page wide>
       <section className="home-hero">
-        <div className="home-hero-copy">
-          <p className="atlas-label"><BrandMark className="h-7 w-7" /> Atlas 01 · Wissen, das weiterführt</p>
-          <h1>{isNew ? t('app.guest_hook') : t('app.tagline')}</h1>
-          <p className="home-hero-sub">{t('app.hero_sub')}</p>
-          <div className="home-hero-actions">
-            <Link to="/play/flags/round?mode=auto&scope=world&len=10&content=country" className="btn-primary home-primary-cta">
-              {t('app.play_now')} <Icons.arrow className="h-5 w-5" />
-            </Link>
-            <Link to="/learn" className="home-text-link">Erst die Welt kennenlernen <span>↗</span></Link>
-          </div>
-          {!isNew && stats && level && (
-            <dl className="home-vitals">
-              <div><dt>Serie</dt><dd>{stats.streak.current} Tage</dd></div>
-              <div><dt>Niveau</dt><dd>Level {level.level}</dd></div>
-              <div><dt>Modus</dt><dd>Lokal & privat</dd></div>
-            </dl>
-          )}
-        </div>
+        <h1 className="sr-only">Interaktiver Weltatlas</h1>
         <div className="home-hero-map">
           <div className="home-globe-heading">
             <span>INTERAKTIVER ATLAS</span>
