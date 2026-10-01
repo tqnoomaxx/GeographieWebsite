@@ -2217,3 +2217,201 @@ textarea {
   .cosmic-shell .country-quiz-links { gap: .55rem; }
   .cosmic-shell .country-quiz-panel { box-shadow: 0 14px 34px rgb(3 18 28 / .08); }
 }
+
+/* ========================================================================== */
+/* Transparente Oberflächen + einheitliches Druckleuchten                     */
+/* ========================================================================== */
+
+.cosmic-shell {
+  --press-fill: color-mix(in srgb, var(--atmosphere) 15%, transparent);
+  --press-line: color-mix(in srgb, var(--atmosphere) 84%, white 16%);
+  --press-glow: color-mix(in srgb, var(--atmosphere) 52%, transparent);
+}
+
+/* Inhalts- und Auswahlblöcke behalten nur Kontur, Inhalt und Hintergrund-Blur. */
+.cosmic-shell .card,
+.cosmic-shell .home-continue,
+.cosmic-shell .play-open-runs,
+.cosmic-shell .play-open-row,
+.cosmic-shell .home-category-row,
+.cosmic-shell .play-category-row,
+.cosmic-shell .country-quiz-panel,
+.cosmic-shell .country-quiz-identity,
+.cosmic-shell .country-quiz-links a,
+.cosmic-shell .home-daily-band,
+.cosmic-shell .daily-overview,
+.cosmic-shell .daily-game-board,
+.cosmic-shell .daily-stop,
+.cosmic-shell .daily-stop-featured,
+.cosmic-shell .setup-section,
+.cosmic-shell .setup-scope-choice,
+.cosmic-shell .setup-mode-choice,
+.cosmic-shell .setup-repeat,
+.cosmic-shell .setup-segments,
+.cosmic-shell .setup-note,
+.cosmic-shell .setup-summary > .card,
+.cosmic-shell .explore-list-row,
+.cosmic-shell .explore-continent-sheet,
+.cosmic-shell .page-shell .card [class*='bg-card-2'],
+.cosmic-shell [class*='rounded-lg'][class*='bg-card-2'] {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+.cosmic-shell .home-continue,
+.cosmic-shell .play-open-runs,
+.cosmic-shell .card,
+.cosmic-shell .explore-list-row,
+.cosmic-shell .explore-continent-sheet {
+  border-color: color-mix(in srgb, var(--ink) 28%, transparent);
+  box-shadow: none;
+  backdrop-filter: blur(10px) saturate(.9);
+  -webkit-backdrop-filter: blur(10px) saturate(.9);
+}
+
+.cosmic-shell input:not([type='checkbox']):not([type='radio']),
+.cosmic-shell select,
+.cosmic-shell textarea,
+.cosmic-shell .btn,
+.cosmic-shell .btn-primary,
+.cosmic-shell .btn-secondary,
+.cosmic-shell .btn-navy,
+.cosmic-shell .btn-ghost,
+.cosmic-shell .chip {
+  background: transparent !important;
+  box-shadow: none;
+}
+
+.cosmic-shell .btn,
+.cosmic-shell .btn-primary,
+.cosmic-shell .btn-secondary,
+.cosmic-shell .btn-navy,
+.cosmic-shell .btn-ghost,
+.cosmic-shell .chip {
+  border-color: color-mix(in srgb, var(--ink) 38%, transparent);
+  color: var(--ink);
+}
+
+/* Hover bleibt sehr leicht; das eigentliche Feedback erscheint beim Drücken. */
+.cosmic-shell .home-category-row:hover,
+.cosmic-shell .play-category-row:hover,
+.cosmic-shell .play-open-row:hover,
+.cosmic-shell .country-quiz-links a:hover,
+.cosmic-shell .daily-stop:hover,
+.cosmic-shell .explore-list-row:hover,
+.cosmic-shell a.card:hover,
+.cosmic-shell button.card:hover,
+.cosmic-shell .btn:hover,
+.cosmic-shell .btn-primary:hover,
+.cosmic-shell .btn-secondary:hover,
+.cosmic-shell .btn-navy:hover,
+.cosmic-shell .btn-ghost:hover,
+.cosmic-shell .chip:hover {
+  border-color: color-mix(in srgb, var(--atmosphere) 58%, var(--ink));
+  background: color-mix(in srgb, var(--atmosphere) 6%, transparent) !important;
+  color: var(--ink);
+  box-shadow: 0 0 12px color-mix(in srgb, var(--atmosphere) 18%, transparent);
+}
+
+/* Maus, Touch und Tastatur erhalten dasselbe kurze atmosphärische Leuchten. */
+.cosmic-shell .home-category-row:active,
+.cosmic-shell .play-category-row:active,
+.cosmic-shell .play-open-row:active,
+.cosmic-shell .setup-scope-choice:active,
+.cosmic-shell .setup-mode-choice:active,
+.cosmic-shell .setup-segments button:active,
+.cosmic-shell .setup-repeat:active,
+.cosmic-shell .country-quiz-links a:active,
+.cosmic-shell .daily-stop:active,
+.cosmic-shell .explore-list-row:active,
+.cosmic-shell a.card:active,
+.cosmic-shell button.card:active,
+.cosmic-shell .btn:active,
+.cosmic-shell .btn-primary:active,
+.cosmic-shell .btn-secondary:active,
+.cosmic-shell .btn-navy:active,
+.cosmic-shell .btn-ghost:active,
+.cosmic-shell .chip:active,
+.cosmic-shell .profile-avatar-choice:active,
+.quiz-runtime .quiz-option:not(:disabled):active {
+  border-color: var(--press-line) !important;
+  background: var(--press-fill) !important;
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--atmosphere) 44%, transparent),
+    0 0 24px 5px var(--press-glow),
+    inset 0 0 22px color-mix(in srgb, var(--atmosphere) 18%, transparent) !important;
+  filter: brightness(1.08);
+  transform: translateY(0) scale(.992);
+}
+
+.cosmic-shell .home-category-row:focus-visible,
+.cosmic-shell .play-category-row:focus-visible,
+.cosmic-shell .play-open-row:focus-visible,
+.cosmic-shell .setup-scope-choice:focus-visible,
+.cosmic-shell .setup-mode-choice:focus-visible,
+.cosmic-shell .country-quiz-links a:focus-visible,
+.cosmic-shell .daily-stop:focus-visible,
+.cosmic-shell .explore-list-row:focus-visible,
+.quiz-runtime .quiz-option:focus-visible {
+  outline: 0;
+  border-color: var(--press-line) !important;
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--atmosphere) 38%, transparent), 0 0 20px var(--press-glow) !important;
+}
+
+/* Quizantworten sind im Ruhezustand vollständig durchsichtig. */
+.quiz-runtime .quiz-option,
+.quiz-runtime .quiz-option:nth-child(2n) {
+  background: transparent;
+  box-shadow: none;
+}
+.quiz-runtime .quiz-option:not(:disabled):hover {
+  background: color-mix(in srgb, var(--atmosphere) 7%, transparent);
+  box-shadow: 0 0 14px color-mix(in srgb, var(--atmosphere) 18%, transparent);
+}
+.quiz-runtime .quiz-option-number,
+.quiz-runtime .quiz-option-media > .quiz-option-number { background: transparent; }
+
+/* Nach der Antwort bleibt nur ein transparenter Bedeutungs-Glow sichtbar. */
+.quiz-runtime .quiz-option.quiz-answer-correct {
+  border-color: color-mix(in srgb, var(--ok) 82%, white) !important;
+  background: color-mix(in srgb, var(--ok) 18%, transparent) !important;
+  color: #fffdf5;
+  box-shadow: 0 0 22px color-mix(in srgb, var(--ok) 42%, transparent) !important;
+}
+.quiz-runtime .quiz-option.quiz-answer-wrong {
+  border-color: color-mix(in srgb, var(--bad) 82%, white) !important;
+  background: color-mix(in srgb, var(--bad) 18%, transparent) !important;
+  color: #fffdf5;
+  box-shadow: 0 0 22px color-mix(in srgb, var(--bad) 40%, transparent) !important;
+}
+.quiz-runtime .quiz-option.quiz-answer-correct .quiz-option-label,
+.quiz-runtime .quiz-option.quiz-answer-wrong .quiz-option-label { color: #fffdf5; }
+
+.quiz-runtime .quiz-feedback,
+.quiz-runtime .quiz-feedback-correct,
+.quiz-runtime .quiz-feedback-wrong {
+  background: transparent;
+  background-image: none;
+  color: #fffdf5;
+  box-shadow: none;
+}
+.quiz-runtime .quiz-feedback-correct {
+  border-color: color-mix(in srgb, var(--ok) 74%, white);
+  box-shadow: 0 0 22px color-mix(in srgb, var(--ok) 26%, transparent);
+}
+.quiz-runtime .quiz-feedback-wrong {
+  border-color: color-mix(in srgb, var(--bad) 74%, white);
+  box-shadow: 0 0 22px color-mix(in srgb, var(--bad) 25%, transparent);
+}
+.quiz-runtime .quiz-feedback-label,
+.quiz-runtime .quiz-feedback .text-ink-2 { color: #b7c8c3; }
+.quiz-runtime .quiz-feedback-correct .quiz-feedback-title { color: #bff2d1; }
+.quiz-runtime .quiz-feedback-wrong .quiz-feedback-title { color: #ffc7bf; }
+.quiz-runtime .quiz-feedback a { color: color-mix(in srgb, var(--atmosphere) 75%, white); }
+
+@media (prefers-reduced-motion: reduce) {
+  .cosmic-shell .home-category-row:active,
+  .cosmic-shell .play-category-row:active,
+  .cosmic-shell .play-open-row:active,
+  .quiz-runtime .quiz-option:not(:disabled):active { transform: none; }
+}
