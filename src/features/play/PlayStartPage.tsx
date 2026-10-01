@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Link, Navigate, useNavigate, useParams } from 'react-router-dom'
+import { Link, Navigate, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
 import { useAsync, useDocumentTitle } from '@/app/hooks'
@@ -41,31 +41,36 @@ function useDesktopSetup() {
   return desktop
 }
 
-function loadSetup(category: CategoryId): RoundConfig {
+function loadSetup(category: CategoryId, requestedScope: string | null): RoundConfig {
+  let setup = defaultRound(category)
   try {
     const raw = localStorage.getItem(KEY(category))
-    return raw
+    setup = raw
       ? { ...defaultRound(category), ...(JSON.parse(raw) as Partial<RoundConfig>) }
       : defaultRound(category)
   } catch {
-    return defaultRound(category)
+    setup = defaultRound(category)
   }
+  const acceptsCountry = !!(quizFor(category).perCountry && requestedScope && /^country:[A-Z]{2}$/.test(requestedScope))
+  return acceptsCountry && requestedScope ? { ...setup, scope: requestedScope } : setup
 }
 
 export default function PlayStartPage() {
   const { category } = useParams<{ category?: string }>()
+  const [searchParams] = useSearchParams()
   if (!category) return <CategoryHub />
   if (!isCategory(category)) return <Navigate to="/play" replace />
   if (category === 'maps') return <Navigate to="/play/countries" replace />
   if (category === 'regions') return <Navigate to="/play/flags" replace />
-  return <Setup key={category} category={category} />
+  const requestedScope = searchParams.get('scope')
+  return <Setup key={`${category}:${requestedScope ?? ''}`} category={category} requestedScope={requestedScope} />
 }
 
 /**
  * Rundeneinstellung in drei Schritten – Bereich, Fragetyp, Rundenlänge – vollständig aus config/quizzes.ts abgeleitet.
  * Angeboten wird nur, was mindestens MIN_POOL Lernkarten hat (R12); ungültige gespeicherte Auswahl fällt still zurück.
  */
-function Setup({ category }: { category: CategoryId }) {
+function Setup({ category, requestedScope }: { category: CategoryId; requestedScope: string | null }) {
   const { t } = useTranslation()
   const navigate = useNavigate()
   const geo = useGeoData()
@@ -73,7 +78,7 @@ function Setup({ category }: { category: CategoryId }) {
   const hasGeographicScope = quiz.geographicScope !== false
   const desktop = useDesktopSetup()
   useDocumentTitle(t(`category.${category}`))
-  const [setup, setSetup] = useState<RoundConfig>(() => loadSetup(category))
+  const [setup, setSetup] = useState<RoundConfig>(() => loadSetup(category, requestedScope))
   const patch = (p: Partial<RoundConfig>) => setSetup((s) => ({ ...s, ...p }))
   const { data: progress } = useAsync(() => getRepository().getAllEntityProgress(), [])
 

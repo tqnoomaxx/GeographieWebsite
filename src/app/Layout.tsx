@@ -27,7 +27,7 @@ export function Layout() {
 
   const immersive = /^\/play\/[^/]+\/round/.test(pathname) || pathname.startsWith('/play/session/') || /^\/daily\/[^/]+$/.test(pathname)
   return (
-    <div className={`flex min-h-dvh flex-col ${immersive ? '' : 'site-shell'}`}>
+    <div className={`cosmic-shell flex min-h-dvh flex-col ${immersive ? 'is-immersive' : 'site-shell'}`}>
       {!immersive && <header className="site-header sticky top-0 z-40 hidden md:block">
         <div className="site-header-inner mx-auto flex max-w-[90rem] items-stretch px-4">
           <NavLink to="/" className="site-brand flex items-center gap-3">

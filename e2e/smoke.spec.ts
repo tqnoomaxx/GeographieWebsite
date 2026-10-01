@@ -24,8 +24,53 @@ test('Startseite und Kategorien', async ({ page }) => {
   const errors = watchErrors(page)
   await page.goto('')
   await expect(page.getByRole('heading', { level: 1 })).toContainText(/Welt/)
+  await expect(page.getByRole('application', { name: /Interaktive Weltkugel/ })).toBeVisible()
   await expect(page.getByRole('link', { name: /Flaggen/ }).first()).toBeVisible()
   expect(errors).toEqual([])
+})
+
+test('Weltkugel wählt ein Land und öffnet dessen Quizkonfiguration', async ({ page }) => {
+  const errors = watchErrors(page)
+  await page.goto('')
+  await page.locator('[data-country-id="country:DE"]').click()
+  await expect(page.getByLabel('Land suchen oder auswählen')).toHaveValue('country:DE')
+  const panel = page.locator('.country-quiz-panel')
+  await expect(panel.getByRole('heading', { name: 'Deutschland' })).toBeVisible()
+  await expect(panel.getByText('In diesem Land')).toBeVisible()
+  await panel.getByRole('link', { name: /Flaggen/ }).click()
+  await expect(page).toHaveURL(/play\/flags\?scope=country%3ADE$/)
+  await expect(page.getByRole('radio', { name: 'Deutschland' })).toBeChecked()
+  expect(errors).toEqual([])
+})
+
+test('Quiz-Deep-Link validiert unterstützte und ungültige Länderbereiche', async ({ page }) => {
+  await page.goto('play/flags?scope=country:DE')
+  await expect(page.getByRole('radio', { name: 'Deutschland' })).toBeChecked()
+
+  await page.goto('play/flags?scope=country:ZZ')
+  await expect(page.getByRole('radio', { name: /Welt/ }).first()).toBeChecked()
+
+  await page.goto('play/capitals?scope=country:DE')
+  await expect(page.getByRole('radio', { name: /Welt/ }).first()).toBeChecked()
+})
+
+test('Weltkugel respektiert reduzierte Bewegung und Drag wählt kein Land', async ({ page }) => {
+  await page.emulateMedia({ reducedMotion: 'reduce' })
+  await page.goto('')
+  const globe = page.getByRole('application', { name: /Interaktive Weltkugel/ })
+  await expect(globe).toBeVisible()
+  const germany = page.locator('[data-country-id="country:DE"]')
+  const initialPath = await germany.getAttribute('d')
+  await page.waitForTimeout(180)
+  await expect(germany).toHaveAttribute('d', initialPath!)
+
+  const bounds = await globe.boundingBox()
+  expect(bounds).not.toBeNull()
+  await page.mouse.move(bounds!.x + bounds!.width / 2, bounds!.y + bounds!.height / 2)
+  await page.mouse.down()
+  await page.mouse.move(bounds!.x + bounds!.width / 2 + 80, bounds!.y + bounds!.height / 2 + 15)
+  await page.mouse.up()
+  await expect(page.locator('.country-quiz-panel')).toHaveCount(0)
 })
 
 test('Flaggenrunde spielen bis zum Ergebnis', async ({ page }) => {

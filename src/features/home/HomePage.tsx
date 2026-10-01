@@ -1,28 +1,147 @@
+import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
 import { useAsync, useStats, useDocumentTitle } from '@/app/hooks'
-import { PLAY_QUIZZES } from '@/config/quizzes'
-import { baseQuestionPosition, baseQuestionTotal, setupOf } from '@/engine/session'
+import { AUTO, MIN_POOL, PLAY_QUIZZES } from '@/config/quizzes'
+import { baseQuestionPosition, baseQuestionTotal, poolFor, setupOf } from '@/engine/session'
 import { RoundTitle } from '@/features/play/RoundLabel'
 import { getRepository } from '@/services/progress'
-import { Page, ProgressBar } from '@/ui'
+import { Flag, Page, ProgressBar } from '@/ui'
 import { CategoryIconTile, Icons, PUZZLE_ICONS } from '@/ui/icons'
-import { WorldMap } from '@/ui/maps'
 import { PUZZLES } from '@/features/daily/puzzles'
 import { todayKey } from '@/engine/rng'
 import { BrandMark } from '@/ui/BrandMark'
+import type { Country } from '@/domain/types'
+import { InteractiveGlobe } from './InteractiveGlobe'
+
+function CountryQuizPanel({
+  country,
+  availableCountryQuizIds,
+  loading,
+  onClose,
+}: {
+  country: Country
+  availableCountryQuizIds: Set<string>
+  loading: boolean
+  onClose: () => void
+}) {
+  const { t } = useTranslation()
+  const countryQuizzes = PLAY_QUIZZES.filter(
+    (quiz) => quiz.perCountry && availableCountryQuizIds.has(quiz.id),
+  )
+  const globalQuizzes = PLAY_QUIZZES.filter((quiz) => !quiz.perCountry)
+  const iso2 = country.attributes.iso2
+
+  return (
+    <section className="country-quiz-panel" aria-labelledby="country-quiz-title">
+      <div className="country-quiz-identity">
+        <Flag entity={country} size="md" />
+        <div>
+          <span className="atlas-label">Land ausgewählt</span>
+          <h2 id="country-quiz-title">{country.names.de}</h2>
+        </div>
+        <button type="button" className="country-quiz-close" onClick={onClose} aria-label="Länderauswahl schließen">
+          <Icons.x aria-hidden />
+        </button>
+        <Link to={`/country/${encodeURIComponent(iso2)}`} className="country-detail-link">
+          Land entdecken <span aria-hidden>↗</span>
+        </Link>
+      </div>
+
+      <div className="country-quiz-groups">
+        <div>
+          <h3>In diesem Land</h3>
+          <p>Das Land ist in der Konfiguration bereits vorausgewählt.</p>
+          {loading ? (
+            <div className="country-quiz-loading" role="status">Passende Quizze werden geladen …</div>
+          ) : countryQuizzes.length ? (
+            <div className="country-quiz-links">
+              {countryQuizzes.map((quiz) => (
+                <Link key={quiz.id} to={`/play/${quiz.id}?scope=${encodeURIComponent(country.id)}`}>
+                  <CategoryIconTile id={quiz.id} size="sm" />
+                  <span>{t(`category.${quiz.id}`)}</span>
+                  <Icons.arrow aria-hidden />
+                </Link>
+              ))}
+            </div>
+          ) : (
+            <p className="country-quiz-empty">Für dieses Land sind noch nicht genug Detailfragen vorhanden.</p>
+          )}
+        </div>
+
+        <div className="country-quiz-global">
+          <h3>Weltweite Quizze</h3>
+          <p>Diese Kategorien werden unabhängig vom ausgewählten Land gespielt.</p>
+          <div className="country-quiz-links">
+            {globalQuizzes.map((quiz) => (
+              <Link key={quiz.id} to={`/play/${quiz.id}`}>
+                <CategoryIconTile id={quiz.id} size="sm" />
+                <span>{t(`category.${quiz.id}`)}</span>
+                <Icons.arrow aria-hidden />
+              </Link>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
 
 export default function HomePage() {
   const { t } = useTranslation()
   useDocumentTitle()
-  const { index } = useGeoData()
+  const geo = useGeoData()
+  const { index } = geo
   const { stats, level } = useStats()
   const { data: open } = useAsync(() => getRepository().getOpenSessions(), [])
   const { data: puzzles } = useAsync(() => getRepository().getPuzzles(), [])
   const isNew = !stats || stats.answered === 0
   const today = todayKey()
   const primary = PLAY_QUIZZES.filter((c) => c.primary)
+  const [selectedCountryId, setSelectedCountryId] = useState<string>()
+  const [quizAvailabilityLoading, setQuizAvailabilityLoading] = useState(false)
+  const selectedCountry = selectedCountryId
+    ? (geo.byId.get(selectedCountryId) as Country | undefined)
+    : undefined
+
+  useEffect(() => {
+    if (!selectedCountryId) {
+      setQuizAvailabilityLoading(false)
+      return
+    }
+    let active = true
+    const pending: Promise<unknown>[] = []
+    if (!geo.regionsLoaded) pending.push(geo.ensureRegions())
+    if (!geo.platesLoaded) pending.push(geo.ensurePlates())
+    if (!pending.length) {
+      setQuizAvailabilityLoading(false)
+      return
+    }
+    setQuizAvailabilityLoading(true)
+    void Promise.allSettled(pending).then(() => {
+      if (active) setQuizAvailabilityLoading(false)
+    })
+    return () => {
+      active = false
+    }
+  }, [selectedCountryId]) // Die Ladefunktionen ändern ihre Identität mit dem Datenstand.
+
+  const availableCountryQuizIds = useMemo(() => {
+    const available = new Set<string>()
+    if (!selectedCountryId || !geo.ready) return available
+    const context = geo.contextFor(selectedCountryId)
+    for (const quiz of PLAY_QUIZZES) {
+      if (!quiz.perCountry) continue
+      if (quiz.needs?.includes('regions') && !geo.regionsLoaded) continue
+      if (quiz.needs?.includes('plates') && !geo.platesLoaded) continue
+      const content = quiz.content ? ['region' as const] : undefined
+      if (poolFor(context, { category: quiz.id, mode: AUTO, content }).size >= MIN_POOL) {
+        available.add(quiz.id)
+      }
+    }
+    return available
+  }, [geo, selectedCountryId])
 
   return (
     <Page wide>
@@ -45,17 +164,27 @@ export default function HomePage() {
             </dl>
           )}
         </div>
-        <div className="home-hero-map" aria-hidden>
-          <div className="home-map-coordinates">52.5200° N<br />13.4050° E</div>
-          <div className="home-map-visual">
-            <WorldMap decorative />
+        <div className="home-hero-map">
+          <div className="home-globe-heading">
+            <span>INTERAKTIVER ATLAS</span>
+            <strong>Land anklicken · Quiz auswählen</strong>
           </div>
-          <span className="home-map-marker home-map-marker-a">01</span>
-          <span className="home-map-marker home-map-marker-b">02</span>
-          <span className="home-map-marker home-map-marker-c">03</span>
-          <div className="home-map-legend">DEINE ROUTE<br /><strong>STARTET HIER</strong></div>
+          <InteractiveGlobe
+            countries={geo.countries}
+            selectedId={selectedCountryId}
+            onSelect={setSelectedCountryId}
+          />
         </div>
       </section>
+
+      {selectedCountry && (
+        <CountryQuizPanel
+          country={selectedCountry}
+          availableCountryQuizIds={availableCountryQuizIds}
+          loading={quizAvailabilityLoading}
+          onClose={() => setSelectedCountryId(undefined)}
+        />
+      )}
 
       {open && open.length > 0 && (
         <section className="home-continue">
