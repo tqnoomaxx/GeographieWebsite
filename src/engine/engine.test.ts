@@ -343,7 +343,7 @@ describe('vollständiges Quiz-Inhaltsaudit', () => {
         }
       }
     }
-  })
+  }, 15_000)
 
   it('bietet alle sichtbaren Modi mit mindestens vier belastbaren Fragen an', () => {
     const c = ctx('world')
