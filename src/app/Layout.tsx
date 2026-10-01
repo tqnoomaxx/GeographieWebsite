@@ -29,7 +29,7 @@ export function Layout() {
   return (
     <div className={`cosmic-shell flex min-h-dvh flex-col ${immersive ? 'is-immersive' : 'site-shell'}`}>
       {!immersive && <header className="site-header sticky top-0 z-40 hidden md:block">
-        <div className="site-header-inner mx-auto flex max-w-[90rem] items-stretch px-4">
+        <div className="site-header-inner flex w-full items-stretch px-4 md:px-6">
           <NavLink to="/" className="site-brand flex items-center gap-3">
             <BrandMark className="h-10 w-10" />
             <span>{t('app.name')}</span>

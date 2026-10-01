@@ -1893,3 +1893,262 @@ textarea {
 @media (prefers-reduced-motion: reduce) {
   .flag-hint-mask { animation: none; }
 }
+
+/* ========================================================================== */
+/* Kosmisches Glas · einheitliche Navigation und Quiz-Auswahl                 */
+/* ========================================================================== */
+
+.cosmic-shell .site-header-inner {
+  max-width: none;
+  width: 100%;
+}
+
+/* Die Kugel schwebt direkt in derselben Himmelsebene wie der Seitenhintergrund. */
+.cosmic-shell .home-hero-map {
+  overflow: visible;
+  background: transparent;
+  color: var(--ink);
+}
+
+.cosmic-shell .interactive-globe::before {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  z-index: -1;
+  width: min(78vw, 52rem);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(circle, color-mix(in srgb, var(--atmosphere) 18%, transparent), transparent 68%);
+  content: '';
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.cosmic-shell .home-globe-heading span,
+.cosmic-shell .home-globe-heading strong,
+.cosmic-shell .globe-country-picker label { color: var(--ink-2); }
+
+.cosmic-shell .globe-drag-hint {
+  border-color: color-mix(in srgb, var(--ink) 28%, transparent);
+  background: color-mix(in srgb, var(--card) 46%, transparent);
+  color: var(--ink);
+  backdrop-filter: blur(10px);
+}
+
+.cosmic-shell .globe-country-picker select {
+  border: 1px solid color-mix(in srgb, var(--ink) 28%, transparent) !important;
+  border-radius: .75rem !important;
+  background: color-mix(in srgb, var(--card) 58%, transparent) !important;
+  color: var(--ink);
+  box-shadow: 0 12px 30px rgb(4 18 28 / .08);
+  backdrop-filter: blur(14px);
+}
+
+/* Einheitliche, halbtransparente Auswahlflächen. */
+.cosmic-shell .home-category-register,
+.cosmic-shell .play-category-register,
+.cosmic-shell .setup-scope-grid,
+.cosmic-shell .setup-mode-grid,
+.cosmic-shell .country-quiz-links,
+.cosmic-shell .daily-itinerary {
+  border: 0;
+  gap: .7rem;
+}
+
+.cosmic-shell .home-category-row,
+.cosmic-shell .play-category-row,
+.cosmic-shell .setup-scope-choice,
+.cosmic-shell .setup-mode-choice,
+.cosmic-shell .country-quiz-links a,
+.cosmic-shell .daily-stop,
+.cosmic-shell .daily-stop-featured {
+  border: 1px solid color-mix(in srgb, var(--ink) 24%, transparent);
+  border-radius: .85rem;
+  background: color-mix(in srgb, var(--card) 52%, transparent);
+  color: var(--ink);
+  box-shadow: 0 14px 34px rgb(3 18 28 / .07);
+  backdrop-filter: blur(12px) saturate(.9);
+  -webkit-backdrop-filter: blur(12px) saturate(.9);
+}
+
+.cosmic-shell .home-category-row:hover,
+.cosmic-shell .home-category-all:hover,
+.cosmic-shell .play-category-row:hover,
+.cosmic-shell .setup-scope-choice:hover,
+.cosmic-shell .setup-mode-choice:hover,
+.cosmic-shell .country-quiz-links a:hover,
+.cosmic-shell .daily-stop:hover {
+  border-color: color-mix(in srgb, var(--atmosphere) 62%, var(--ink));
+  background: color-mix(in srgb, var(--card) 68%, transparent);
+  color: var(--ink);
+  box-shadow: 0 16px 38px rgb(3 18 28 / .1);
+  transform: translateY(-1px);
+}
+
+.cosmic-shell .home-category-row:hover .home-category-meta,
+.cosmic-shell .play-category-row:hover .play-category-count { color: var(--ink-2); }
+
+.cosmic-shell .home-category-number,
+.cosmic-shell .home-category-row:nth-child(even) .home-category-number,
+.cosmic-shell .play-category-index,
+.cosmic-shell .play-category-row:nth-child(4n+2) .play-category-index,
+.cosmic-shell .play-category-row:nth-child(4n+3) .play-category-index {
+  border-color: color-mix(in srgb, var(--ink) 20%, transparent);
+  background: color-mix(in srgb, var(--card) 24%, transparent);
+  color: var(--ink-2);
+}
+
+.cosmic-shell .home-category-all,
+.cosmic-shell .play-daily-row { background: color-mix(in srgb, var(--card) 52%, transparent); }
+
+.cosmic-shell .home-category-all-icon,
+.cosmic-shell .home-category-row .quiz-category-tile,
+.cosmic-shell .play-category-row .quiz-category-tile,
+.cosmic-shell .country-quiz-links .quiz-category-tile {
+  border-color: color-mix(in srgb, var(--ink) 25%, transparent);
+  background: color-mix(in srgb, var(--card) 48%, transparent);
+}
+
+/* Quiz-Konfiguration folgt demselben Glasraster. */
+.cosmic-shell .setup-section {
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--ink) 24%, transparent);
+  border-radius: 1rem;
+  background: color-mix(in srgb, var(--card) 38%, transparent);
+  backdrop-filter: blur(12px);
+}
+
+.cosmic-shell .setup-section:last-child { border-bottom: 1px solid color-mix(in srgb, var(--ink) 24%, transparent); }
+.cosmic-shell .setup-section-head { border-bottom-color: color-mix(in srgb, var(--ink) 20%, transparent); }
+.cosmic-shell .setup-step {
+  border-right-color: color-mix(in srgb, var(--ink) 20%, transparent);
+  background: color-mix(in srgb, var(--card) 24%, transparent);
+  color: var(--ink-2);
+}
+.cosmic-shell .setup-scope-choice.is-selected,
+.cosmic-shell .setup-mode-choice.is-selected {
+  border-color: color-mix(in srgb, var(--atmosphere) 70%, var(--ink));
+  background: color-mix(in srgb, var(--atmosphere) 22%, var(--card) 32%);
+  color: var(--ink);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--atmosphere) 38%, transparent);
+}
+.cosmic-shell .setup-scope-choice.is-selected small,
+.cosmic-shell .setup-mode-choice.is-selected small { color: var(--ink-2); }
+.cosmic-shell .is-selected > .setup-radio {
+  border-color: var(--ink);
+  background: var(--atmosphere);
+  box-shadow: inset 0 0 0 3px color-mix(in srgb, var(--card) 78%, transparent);
+}
+.cosmic-shell .setup-scope-index,
+.cosmic-shell .is-selected .setup-scope-index { color: var(--ink-2); }
+.cosmic-shell .setup-segments,
+.cosmic-shell .setup-repeat,
+.cosmic-shell .setup-note {
+  border-color: color-mix(in srgb, var(--ink) 24%, transparent);
+  border-radius: .75rem;
+  background: color-mix(in srgb, var(--card) 44%, transparent);
+}
+.cosmic-shell .setup-segments button { border-color: color-mix(in srgb, var(--ink) 20%, transparent); }
+.cosmic-shell .setup-segments button.is-selected {
+  background: color-mix(in srgb, var(--atmosphere) 24%, var(--card) 35%);
+  color: var(--ink);
+  box-shadow: none;
+}
+.cosmic-shell .setup-summary > .card {
+  border-color: color-mix(in srgb, var(--ink) 24%, transparent);
+  background: color-mix(in srgb, var(--card) 48%, transparent);
+  box-shadow: 0 16px 38px rgb(3 18 28 / .09);
+  backdrop-filter: blur(14px);
+}
+.cosmic-shell .setup-summary-head,
+.cosmic-shell .setup-summary-body {
+  border-color: color-mix(in srgb, var(--ink) 20%, transparent);
+  background: transparent;
+  color: var(--ink);
+}
+.cosmic-shell .setup-summary-title { color: var(--ink-2); }
+.cosmic-shell .setup-mobile-cta {
+  border-color: color-mix(in srgb, var(--ink) 22%, transparent);
+  background: color-mix(in srgb, var(--card) 76%, transparent);
+  backdrop-filter: blur(14px);
+}
+.cosmic-shell .setup-summary .btn-primary,
+.cosmic-shell .setup-mobile-cta .btn-primary {
+  border-color: color-mix(in srgb, var(--atmosphere) 60%, var(--ink));
+  background: color-mix(in srgb, var(--atmosphere) 22%, var(--card) 38%);
+  color: var(--ink);
+  box-shadow: none;
+}
+
+/* Länder- und Tagesauswahl ohne eigene Beige-, Rot- oder Grünflächen. */
+.cosmic-shell .country-quiz-panel,
+.cosmic-shell .home-daily-band,
+.cosmic-shell .daily-overview,
+.cosmic-shell .play-open-runs {
+  border: 1px solid color-mix(in srgb, var(--ink) 24%, transparent);
+  border-radius: 1rem;
+  background: color-mix(in srgb, var(--card) 46%, transparent);
+  color: var(--ink);
+  box-shadow: 0 18px 42px rgb(3 18 28 / .09);
+  backdrop-filter: blur(14px) saturate(.9);
+  -webkit-backdrop-filter: blur(14px) saturate(.9);
+}
+.cosmic-shell .country-quiz-identity {
+  border-color: color-mix(in srgb, var(--ink) 20%, transparent);
+  background: color-mix(in srgb, var(--card) 24%, transparent);
+}
+.cosmic-shell .country-quiz-global,
+.cosmic-shell .home-daily-route { border-color: color-mix(in srgb, var(--ink) 20%, transparent); }
+.cosmic-shell .country-quiz-close,
+.cosmic-shell .home-daily-route li > span,
+.cosmic-shell .daily-route li {
+  border-color: color-mix(in srgb, var(--ink) 28%, transparent);
+  background: color-mix(in srgb, var(--card) 40%, transparent);
+  color: var(--ink);
+  box-shadow: none;
+}
+.cosmic-shell .country-quiz-close:hover,
+.cosmic-shell .home-daily-cta:hover { background: color-mix(in srgb, var(--card) 68%, transparent); }
+.cosmic-shell .home-daily-copy p,
+.cosmic-shell .daily-overview-stats span { color: var(--ink-2); }
+.cosmic-shell .home-daily-cta {
+  border-color: color-mix(in srgb, var(--ink) 28%, transparent);
+  background: color-mix(in srgb, var(--card) 50%, transparent);
+  color: var(--ink);
+  box-shadow: none;
+}
+
+.cosmic-shell .atlas-section-head > p,
+.cosmic-shell .play-masthead > p,
+.cosmic-shell .daily-page-note {
+  border-left-color: color-mix(in srgb, var(--atmosphere) 65%, var(--ink));
+}
+
+/* Neutrale Antwortauswahl; richtig/falsch bleibt bewusst farbcodiert. */
+.quiz-runtime .quiz-option {
+  border-color: rgb(233 247 244 / .32);
+  background: rgb(255 255 255 / .075);
+  box-shadow: none;
+  backdrop-filter: blur(10px);
+}
+.quiz-runtime .quiz-option:nth-child(2n) { box-shadow: none; }
+.quiz-runtime .quiz-option:not(:disabled):hover {
+  border-color: rgb(233 247 244 / .62);
+  background: rgb(255 255 255 / .14);
+  box-shadow: none;
+  transform: translateY(-1px);
+}
+.quiz-runtime .quiz-option:not(:disabled):hover .quiz-option-label { color: #fffdf5; }
+.quiz-runtime .quiz-option-number {
+  border-color: rgb(233 247 244 / .36);
+  background: rgb(255 255 255 / .08);
+  color: #fffdf5;
+}
+.quiz-runtime .quiz-option.quiz-answer-correct { border-color: #0f563b; background: #c5ead2; }
+.quiz-runtime .quiz-option.quiz-answer-wrong { border-color: #842b27; background: #f2c6be; }
+
+@media (max-width: 767px) {
+  .cosmic-shell .home-category-register,
+  .cosmic-shell .country-quiz-links { gap: .55rem; }
+  .cosmic-shell .country-quiz-panel { box-shadow: 0 14px 34px rgb(3 18 28 / .08); }
+}
