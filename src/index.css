@@ -1938,7 +1938,7 @@ textarea {
 .cosmic-shell .globe-country-picker select {
   border: 1px solid color-mix(in srgb, var(--ink) 28%, transparent) !important;
   border-radius: .75rem !important;
-  background: color-mix(in srgb, var(--card) 30%, transparent) !important;
+  background: transparent !important;
   color: var(--ink);
   box-shadow: 0 12px 30px rgb(4 18 28 / .045);
   backdrop-filter: blur(14px);
@@ -1955,7 +1955,7 @@ textarea {
   filter: drop-shadow(0 0 7px color-mix(in srgb, var(--atmosphere) 56%, transparent));
 }
 
-/* Einheitliche, halbtransparente Auswahlflächen. */
+/* Einheitliche Auswahlflächen: Kontur und Blur, aber kein eigener Farbblock. */
 .cosmic-shell .home-category-register,
 .cosmic-shell .play-category-register,
 .cosmic-shell .setup-scope-grid,
@@ -1975,7 +1975,7 @@ textarea {
 .cosmic-shell .daily-stop-featured {
   border: 1px solid color-mix(in srgb, var(--ink) 24%, transparent);
   border-radius: .85rem;
-  background: color-mix(in srgb, var(--card) 28%, transparent);
+  background: transparent;
   color: var(--ink);
   box-shadow: 0 14px 34px rgb(3 18 28 / .045);
   backdrop-filter: blur(12px) saturate(.9);
@@ -1990,7 +1990,7 @@ textarea {
 .cosmic-shell .country-quiz-links a:hover,
 .cosmic-shell .daily-stop:hover {
   border-color: color-mix(in srgb, var(--atmosphere) 62%, var(--ink));
-  background: color-mix(in srgb, var(--card) 42%, transparent);
+  background: color-mix(in srgb, var(--atmosphere) 9%, transparent);
   color: var(--ink);
   box-shadow: 0 16px 38px rgb(3 18 28 / .1);
   transform: translateY(-1px);
@@ -2005,19 +2005,19 @@ textarea {
 .cosmic-shell .play-category-row:nth-child(4n+2) .play-category-index,
 .cosmic-shell .play-category-row:nth-child(4n+3) .play-category-index {
   border-color: color-mix(in srgb, var(--ink) 20%, transparent);
-  background: color-mix(in srgb, var(--card) 12%, transparent);
+  background: transparent;
   color: var(--ink-2);
 }
 
 .cosmic-shell .home-category-all,
-.cosmic-shell .play-daily-row { background: color-mix(in srgb, var(--card) 28%, transparent); }
+.cosmic-shell .play-daily-row { background: transparent; }
 
 .cosmic-shell .home-category-all-icon,
 .cosmic-shell .home-category-row .quiz-category-tile,
 .cosmic-shell .play-category-row .quiz-category-tile,
 .cosmic-shell .country-quiz-links .quiz-category-tile {
   border-color: color-mix(in srgb, var(--ink) 25%, transparent);
-  background: color-mix(in srgb, var(--card) 24%, transparent);
+  background: transparent;
 }
 
 /* Quiz-Konfiguration folgt demselben Glasraster. */
@@ -2025,7 +2025,7 @@ textarea {
   overflow: hidden;
   border: 1px solid color-mix(in srgb, var(--ink) 24%, transparent);
   border-radius: 1rem;
-  background: color-mix(in srgb, var(--card) 20%, transparent);
+  background: transparent;
   backdrop-filter: blur(12px);
 }
 
@@ -2033,13 +2033,13 @@ textarea {
 .cosmic-shell .setup-section-head { border-bottom-color: color-mix(in srgb, var(--ink) 20%, transparent); }
 .cosmic-shell .setup-step {
   border-right-color: color-mix(in srgb, var(--ink) 20%, transparent);
-  background: color-mix(in srgb, var(--card) 12%, transparent);
+  background: transparent;
   color: var(--ink-2);
 }
 .cosmic-shell .setup-scope-choice.is-selected,
 .cosmic-shell .setup-mode-choice.is-selected {
   border-color: color-mix(in srgb, var(--atmosphere) 70%, var(--ink));
-  background: color-mix(in srgb, var(--atmosphere) 22%, var(--card) 32%);
+  background: color-mix(in srgb, var(--atmosphere) 12%, transparent);
   color: var(--ink);
   box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--atmosphere) 38%, transparent);
 }
@@ -2057,17 +2057,17 @@ textarea {
 .cosmic-shell .setup-note {
   border-color: color-mix(in srgb, var(--ink) 24%, transparent);
   border-radius: .75rem;
-  background: color-mix(in srgb, var(--card) 24%, transparent);
+  background: transparent;
 }
 .cosmic-shell .setup-segments button { border-color: color-mix(in srgb, var(--ink) 20%, transparent); }
 .cosmic-shell .setup-segments button.is-selected {
-  background: color-mix(in srgb, var(--atmosphere) 24%, var(--card) 35%);
+  background: color-mix(in srgb, var(--atmosphere) 12%, transparent);
   color: var(--ink);
   box-shadow: none;
 }
 .cosmic-shell .setup-summary > .card {
   border-color: color-mix(in srgb, var(--ink) 24%, transparent);
-  background: color-mix(in srgb, var(--card) 26%, transparent);
+  background: transparent;
   box-shadow: 0 16px 38px rgb(3 18 28 / .09);
   backdrop-filter: blur(14px);
 }
@@ -2080,13 +2080,13 @@ textarea {
 .cosmic-shell .setup-summary-title { color: var(--ink-2); }
 .cosmic-shell .setup-mobile-cta {
   border-color: color-mix(in srgb, var(--ink) 22%, transparent);
-  background: color-mix(in srgb, var(--card) 76%, transparent);
+  background: color-mix(in srgb, var(--sky-base) 72%, transparent);
   backdrop-filter: blur(14px);
 }
 .cosmic-shell .setup-summary .btn-primary,
 .cosmic-shell .setup-mobile-cta .btn-primary {
   border-color: color-mix(in srgb, var(--atmosphere) 60%, var(--ink));
-  background: color-mix(in srgb, var(--atmosphere) 22%, var(--card) 38%);
+  background: color-mix(in srgb, var(--atmosphere) 13%, transparent);
   color: var(--ink);
   box-shadow: none;
 }
@@ -2098,7 +2098,7 @@ textarea {
 .cosmic-shell .play-open-runs {
   border: 1px solid color-mix(in srgb, var(--ink) 24%, transparent);
   border-radius: 1rem;
-  background: color-mix(in srgb, var(--card) 24%, transparent);
+  background: transparent;
   color: var(--ink);
   box-shadow: 0 18px 42px rgb(3 18 28 / .09);
   backdrop-filter: blur(14px) saturate(.9);
@@ -2106,7 +2106,7 @@ textarea {
 }
 .cosmic-shell .country-quiz-identity {
   border-color: color-mix(in srgb, var(--ink) 20%, transparent);
-  background: color-mix(in srgb, var(--card) 12%, transparent);
+  background: transparent;
 }
 .cosmic-shell .country-quiz-global,
 .cosmic-shell .home-daily-route { border-color: color-mix(in srgb, var(--ink) 20%, transparent); }
@@ -2114,7 +2114,7 @@ textarea {
 .cosmic-shell .home-daily-route li > span,
 .cosmic-shell .daily-route li {
   border-color: color-mix(in srgb, var(--ink) 28%, transparent);
-  background: color-mix(in srgb, var(--card) 20%, transparent);
+  background: transparent;
   color: var(--ink);
   box-shadow: none;
 }
@@ -2124,10 +2124,64 @@ textarea {
 .cosmic-shell .daily-overview-stats span { color: var(--ink-2); }
 .cosmic-shell .home-daily-cta {
   border-color: color-mix(in srgb, var(--ink) 28%, transparent);
-  background: color-mix(in srgb, var(--card) 24%, transparent);
+  background: transparent;
   color: var(--ink);
   box-shadow: none;
 }
+
+/* KI-illustrierte Atlas-Sprites für Navigation, Profile und Erfolge. */
+.atlas-generated-icon {
+  display: inline-block;
+  flex: 0 0 auto;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  image-rendering: auto;
+  vertical-align: middle;
+}
+
+.site-nav-link .atlas-nav-icon,
+.site-tool .atlas-nav-icon,
+.mobile-nav-link .atlas-nav-icon {
+  filter: drop-shadow(0 1px 0 rgb(255 255 255 / .24));
+  transition: filter 160ms ease, transform 160ms ease;
+}
+
+.site-nav-link:hover .atlas-nav-icon,
+.site-nav-link.is-active .atlas-nav-icon,
+.site-tool:hover .atlas-nav-icon,
+.mobile-nav-link.is-active .atlas-nav-icon {
+  filter: drop-shadow(0 0 6px color-mix(in srgb, var(--atmosphere) 60%, transparent));
+  transform: translateY(-1px) scale(1.06);
+}
+
+.profile-avatar { overflow: hidden; }
+.profile-avatar-choice {
+  display: inline-flex;
+  min-width: 3.5rem;
+  min-height: 3.5rem;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border: 1px solid color-mix(in srgb, var(--ink) 22%, transparent);
+  border-radius: 50%;
+  background: transparent;
+  transition: border-color 150ms ease, box-shadow 150ms ease, transform 150ms ease;
+}
+.profile-avatar-choice:hover {
+  border-color: color-mix(in srgb, var(--atmosphere) 70%, var(--ink));
+  transform: translateY(-1px);
+}
+.profile-avatar-choice.is-selected {
+  border-color: var(--atmosphere);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--atmosphere) 32%, transparent);
+}
+.profile-avatar-choice:focus-visible {
+  outline: 2px solid var(--atmosphere);
+  outline-offset: 3px;
+}
+
+.atlas-achievement-icon,
+.atlas-profile-icon { filter: drop-shadow(0 2px 4px rgb(2 16 24 / .15)); }
 
 .cosmic-shell .atlas-section-head > p,
 .cosmic-shell .play-masthead > p,

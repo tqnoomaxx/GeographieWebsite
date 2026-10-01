@@ -10,7 +10,7 @@ import { RoundTitle } from '@/features/play/RoundLabel'
 import { getRepository } from '@/services/progress'
 import { metric } from '@/services/gamification'
 import { Page, Card, ProgressBar, Stat, EmptyState, entityPath } from '@/ui'
-import { CategoryIcon, Icons, TypeIcon } from '@/ui/icons'
+import { AchievementIcon, CategoryIcon, Icons, TypeIcon } from '@/ui/icons'
 import type { CategoryId } from '@/engine/types'
 
 export default function ProgressPage() {
@@ -130,8 +130,10 @@ export default function ProgressPage() {
           const value = metric(a, stats, mastered)
           return (
             <li key={a.id} className={`card p-3 ${at ? '' : 'opacity-60'}`} title={at ? new Date(at).toLocaleDateString('de-DE') : t('progress.locked')}>
-              <p className="font-medium">{a.icon} {t(`achievements.${a.id}.title`)}</p>
-              <p className="text-xs text-ink-2">{t(`achievements.${a.id}.desc`)}</p>
+              <div className="flex items-start gap-2.5">
+                <AchievementIcon id={a.id} className="h-10 w-10 shrink-0" />
+                <div><p className="font-medium">{t(`achievements.${a.id}.title`)}</p><p className="text-xs text-ink-2">{t(`achievements.${a.id}.desc`)}</p></div>
+              </div>
               {!at && <ProgressBar value={Math.min(1, value / a.threshold)} className="mt-2" />}
             </li>
           )

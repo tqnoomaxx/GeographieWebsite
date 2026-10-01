@@ -3,17 +3,17 @@ import { NavLink, Outlet, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useOnline } from './hooks'
 import { Skeleton } from '@/ui'
-import { Icons } from '@/ui/icons'
+import { NavAtlasIcon, type NavAtlasIconId } from '@/ui/icons'
 import { BrandMark } from '@/ui/BrandMark'
 import { useAuth } from './AuthProvider'
 
 const NAV = [
-  { to: '/', key: 'nav.home', icon: Icons.home, end: true },
-  { to: '/play', key: 'nav.play', icon: Icons.play },
-  { to: '/learn', key: 'nav.learn', icon: Icons.learn },
-  { to: '/explore', key: 'nav.explore', icon: Icons.explore },
-  { to: '/progress', key: 'nav.progress', icon: Icons.progress },
-]
+  { to: '/', key: 'nav.home', icon: 'home', end: true },
+  { to: '/play', key: 'nav.play', icon: 'play' },
+  { to: '/learn', key: 'nav.learn', icon: 'learn' },
+  { to: '/explore', key: 'nav.explore', icon: 'explore' },
+  { to: '/progress', key: 'nav.progress', icon: 'progress' },
+] satisfies Array<{ to: string; key: string; icon: NavAtlasIconId; end?: boolean }>
 
 export function Layout() {
   const { t } = useTranslation()
@@ -38,14 +38,14 @@ export function Layout() {
           <nav className="site-nav flex" aria-label="Hauptnavigation">
             {NAV.slice(1).map((n) => (
               <NavLink key={n.to} to={n.to} className={({ isActive }) => `site-nav-link flex items-center gap-2 px-4 text-sm font-bold ${isActive ? 'is-active' : ''}`}>
-                <n.icon className="h-4 w-4" strokeWidth={2} aria-hidden /> {t(n.key)}
+                <NavAtlasIcon id={n.icon} className="h-6 w-6" /> {t(n.key)}
               </NavLink>
             ))}
           </nav>
           <div className="site-tools ml-auto flex items-stretch">
-            <NavLink to="/daily" className="site-tool" aria-label={t('nav.daily')}><Icons.daily className="h-5 w-5" strokeWidth={2} /></NavLink>
-            <NavLink to="/search" className="site-tool" aria-label={t('nav.search')}><Icons.search className="h-5 w-5" strokeWidth={2} /></NavLink>
-            <NavLink to="/profile" className="site-tool" aria-label={t('nav.profile')}><Icons.profile className="h-5 w-5" strokeWidth={2} /></NavLink>
+            <NavLink to="/daily" className="site-tool" aria-label={t('nav.daily')}><NavAtlasIcon id="daily" className="h-7 w-7" /></NavLink>
+            <NavLink to="/search" className="site-tool" aria-label={t('nav.search')}><NavAtlasIcon id="search" className="h-7 w-7" /></NavLink>
+            <NavLink to="/profile" className="site-tool" aria-label={t('nav.profile')}><NavAtlasIcon id="profile" className="h-7 w-7" /></NavLink>
           </div>
         </div>
       </header>}
@@ -75,7 +75,7 @@ export function Layout() {
               <NavLink key={n.to} to={n.to} end={n.end} className={({ isActive }) => `mobile-nav-link flex min-h-16 flex-col items-center justify-center gap-0.5 text-[10px] font-bold uppercase tracking-wide ${isActive ? 'is-active' : ''}`}>
                 {({ isActive }) => (
                   <>
-                    <n.icon className="h-5 w-5" strokeWidth={isActive ? 2.25 : 1.75} aria-hidden />
+                    <NavAtlasIcon id={n.icon} className={`h-7 w-7 ${isActive ? 'is-active' : ''}`} />
                     {t(n.key)}
                   </>
                 )}

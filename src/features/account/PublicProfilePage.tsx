@@ -5,6 +5,7 @@ import { authConfigured, getSupabase } from '@/services/auth'
 import { levelForXp } from '@/config/levels'
 import { ACHIEVEMENTS } from '@/config/achievements'
 import { Page, Card, EmptyState, Skeleton } from '@/ui'
+import { AchievementIcon, ProfileAvatarIcon } from '@/ui/icons'
 
 /** Öffentliches Profil über die View public_profiles (nur freigegebene Spalten, nur wenn is_public). */
 export default function PublicProfilePage() {
@@ -23,13 +24,13 @@ export default function PublicProfilePage() {
   return (
     <Page back="/">
       <Card className="profile-hero mx-auto max-w-md flex flex-col items-center py-10 text-center" style={{ borderTopColor: data.color }}>
-        <div className="profile-avatar flex h-24 w-24 items-center justify-center text-5xl" style={{ background: data.color + '33' }} aria-hidden>{data.avatar}</div>
+        <div className="profile-avatar flex h-24 w-24 items-center justify-center" style={{ background: data.color + '18' }} aria-hidden><ProfileAvatarIcon id={data.avatar} className="h-[88%] w-[88%]" /></div>
         <p className="mt-3 text-2xl font-semibold">{data.username}</p>
         <p className="text-ink-2">{t('progress.level', { level: level.level })}{data.title && ` · ${data.title}`}</p>
         <ul className="mt-4 flex flex-wrap justify-center gap-2">
           {data.featured_achievements.map((id) => {
             const a = ACHIEVEMENTS.find((x) => x.id === id)
-            return a ? <li key={id} className="chip">{a.icon} {t(`achievements.${id}.title`)}</li> : null
+            return a ? <li key={id} className="chip"><AchievementIcon id={id} className="h-7 w-7" /> {t(`achievements.${id}.title`)}</li> : null
           })}
         </ul>
       </Card>

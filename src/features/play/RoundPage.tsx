@@ -22,7 +22,7 @@ import { getRepository } from '@/services/progress'
 import { applySession, recomputeLongQuests, type RoundOutcome } from '@/services/gamification'
 import { XP } from '@/config/xp'
 import { Card, ErrorState, Skeleton, ProgressBar, entityPath } from '@/ui'
-import { Icons } from '@/ui/icons'
+import { AchievementIcon, Icons } from '@/ui/icons'
 import { WorldMap, RegionMapView } from '@/ui/maps'
 import { ReportDialog } from '@/features/legal/ReportDialog'
 import { RoundTitle, useRoundLabel } from './RoundLabel'
@@ -592,8 +592,8 @@ function ResultView({ session, outcome }: { session: QuizSession; outcome: Round
         {outcome?.newAchievements.map((a) => (
           <Card key={a.id} className="mt-3 text-left">
             <p className="text-xs uppercase tracking-wider text-ink-2">🏆 {t('play.new_achievement')}</p>
-            <p className="font-semibold">
-              {a.icon} {t(`achievements.${a.id}.title`)}
+            <p className="flex items-center gap-2 font-semibold">
+              <AchievementIcon id={a.id} className="h-9 w-9" /> {t(`achievements.${a.id}.title`)}
             </p>
             <p className="text-sm text-ink-2">{t(`achievements.${a.id}.desc`)}</p>
           </Card>
