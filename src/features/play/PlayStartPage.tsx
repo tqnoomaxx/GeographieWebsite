@@ -637,7 +637,6 @@ function CategoryHub() {
     <Page wide>
       <header className="play-masthead">
         <div>
-          <span>SPIELREGISTER · 02</span>
           <h1>{t('play.title')}</h1>
         </div>
         <p>

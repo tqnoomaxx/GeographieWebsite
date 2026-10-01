@@ -24,7 +24,7 @@ export default function ExplorePage() {
   return (
     <Page wide>
       <header className="explore-masthead">
-        <div><span>WELTREGISTER · 04</span><h1>{t('explore.title')}</h1></div>
+        <div><h1>{t('explore.title')}</h1></div>
         <p>Orte, Zahlen und Extreme.<br />Systematisch, aber nie trocken.</p>
         <Link to="/search" className="explore-search" aria-label={t('nav.search')}><Icons.search /> Suchen</Link>
       </header>

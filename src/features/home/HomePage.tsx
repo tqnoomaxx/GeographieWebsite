@@ -178,7 +178,7 @@ export default function HomePage() {
       )}
 
       <header className="atlas-section-head">
-        <div><span>REGISTER 02</span><h2>{t('play.title')}</h2></div>
+        <div><h2>{t('play.title')}</h2></div>
         <p>Wähle dein Thema.<br />Die Welt wartet nicht.</p>
       </header>
       <section className="home-category-register">
@@ -202,7 +202,6 @@ export default function HomePage() {
 
       <section className="home-daily-band">
         <div className="home-daily-copy">
-          <span>HEUTE · REGISTER 03</span>
           <h2>{t('daily.title')}</h2>
           <p>Sechs kurze Etappen. Jeden Tag eine neue Route durch die Welt.</p>
           <Link to="/daily" className="home-daily-cta">Tagesroute öffnen <Icons.arrow /></Link>

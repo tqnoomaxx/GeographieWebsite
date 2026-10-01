@@ -64,7 +64,7 @@ export function Layout() {
             <NavLink to="/impressum" className="hover:text-ink">{t('legal.imprint')}</NavLink>
             <NavLink to="/datenschutz" className="hover:text-ink">{t('legal.privacy')}</NavLink>
             <NavLink to="/quellen" className="hover:text-ink">{t('settings.sources')}</NavLink>
-            <span className="ml-auto">© {new Date().getFullYear()} · Wissen macht Wege</span>
+            <span className="ml-auto">© {new Date().getFullYear()}</span>
           </div>
         </footer>
       )}

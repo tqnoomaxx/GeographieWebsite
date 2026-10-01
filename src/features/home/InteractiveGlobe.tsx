@@ -63,6 +63,7 @@ export function InteractiveGlobe({
   const dragRef = useRef<DragState | null>(null)
   const movedRef = useRef(false)
   const pauseUntilRef = useRef(0)
+  const rootRef = useRef<HTMLDivElement>(null)
   const svgRef = useRef<SVGSVGElement>(null)
   const selectId = useId()
   const statusId = useId()
@@ -90,10 +91,31 @@ export function InteractiveGlobe({
     return () => observer.disconnect()
   }, [world])
 
+  const syncSpaceOrientation = useCallback((next: Rotation) => {
+    const root = rootRef.current
+    if (!root) return
+    const longitude = (next[0] * Math.PI) / 180
+    const latitude = (next[1] * Math.PI) / 180
+    const x = Math.sin(longitude) * 42
+    const y = Math.sin(latitude) * 28
+    root.style.setProperty('--space-x', `${x.toFixed(2)}px`)
+    root.style.setProperty('--space-y', `${y.toFixed(2)}px`)
+    root.style.setProperty('--space-x-reverse', `${(-x * 0.58).toFixed(2)}px`)
+    root.style.setProperty('--space-y-reverse', `${(-y * 0.58).toFixed(2)}px`)
+    root.style.setProperty('--space-x-soft', `${(x * 0.24).toFixed(2)}px`)
+    root.style.setProperty('--space-y-soft', `${(y * 0.24).toFixed(2)}px`)
+    const shell = root.closest<HTMLElement>('.cosmic-shell')
+    shell?.style.setProperty('--cosmic-parallax-x', `${(-x * 0.16).toFixed(2)}px`)
+    shell?.style.setProperty('--cosmic-parallax-y', `${(-y * 0.16).toFixed(2)}px`)
+  }, [])
+
   const updateRotation = useCallback((next: Rotation) => {
     rotationRef.current = next
+    syncSpaceOrientation(next)
     setRotation(next)
-  }, [])
+  }, [syncSpaceOrientation])
+
+  useEffect(() => syncSpaceOrientation(rotationRef.current), [syncSpaceOrientation])
 
   useEffect(() => {
     if (reducedMotion) return
@@ -213,7 +235,20 @@ export function InteractiveGlobe({
   }
 
   return (
-    <div className="interactive-globe">
+    <div ref={rootRef} className="interactive-globe">
+      <div className="globe-space-scene" aria-hidden="true">
+        <span className="space-nebula space-nebula-one" />
+        <span className="space-nebula space-nebula-two" />
+        <span className="space-star-layer space-star-layer-far" />
+        <span className="space-star-layer space-star-layer-near" />
+        <span className="space-planet space-planet-ringed" />
+        <span className="space-planet space-planet-rust" />
+        <span className="space-planet space-planet-ice" />
+        <span className="space-moon" />
+        <span className="space-shooting-star space-shooting-star-one" />
+        <span className="space-shooting-star space-shooting-star-two" />
+        <span className="space-shooting-star space-shooting-star-three" />
+      </div>
       <div className={`globe-stage ${dragging ? 'is-dragging' : ''}`}>
         {!world ? (
           <div className="globe-loading skeleton" aria-label="Weltkugel wird geladen" />
@@ -246,6 +281,16 @@ export function InteractiveGlobe({
                 <stop offset="48%" stopColor="transparent" />
                 <stop offset="100%" className="globe-shadow-stop" />
               </radialGradient>
+              <radialGradient id="globe-specular" cx="27%" cy="19%" r="68%">
+                <stop offset="0" stopColor="#f3ffff" stopOpacity=".38" />
+                <stop offset="24%" stopColor="#baf9ff" stopOpacity=".11" />
+                <stop offset="58%" stopColor="#69d9e5" stopOpacity="0" />
+              </radialGradient>
+              <linearGradient id="globe-terminator" x1="8%" y1="2%" x2="92%" y2="98%">
+                <stop offset="0" stopColor="#efffff" stopOpacity=".08" />
+                <stop offset="52%" stopColor="#071d35" stopOpacity="0" />
+                <stop offset="100%" stopColor="#01050d" stopOpacity=".43" />
+              </linearGradient>
               <filter id="globe-shadow" x="-35%" y="-35%" width="170%" height="180%">
                 <feDropShadow dx="10" dy="20" stdDeviation="22" floodColor="#020912" floodOpacity=".48" />
               </filter>
@@ -274,6 +319,8 @@ export function InteractiveGlobe({
                 )
               })}
               <path d={spherePath} fill="url(#globe-shade)" className="globe-shading" />
+              <path d={spherePath} fill="url(#globe-terminator)" className="globe-terminator" />
+              <path d={spherePath} fill="url(#globe-specular)" className="globe-specular" />
             </g>
             <path d={spherePath} className="globe-rim" />
           </svg>

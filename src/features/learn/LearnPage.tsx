@@ -46,7 +46,7 @@ export default function LearnPage() {
   return (
     <Page wide>
       <header className="learn-masthead">
-        <div><span>STUDIENBLATT · 01</span><h1>{t('learn.title')}</h1></div>
+        <div><h1>{t('learn.title')}</h1></div>
         <p>Land für Land.<br /><strong>Die Welt bleibt hängen.</strong></p>
         <Link to="/learn/cards?collection=countries" className="btn-secondary">{t('setup.cards')} ↗</Link>
       </header>
