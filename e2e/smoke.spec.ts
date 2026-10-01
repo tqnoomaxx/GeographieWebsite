@@ -32,6 +32,11 @@ test('Startseite und Kategorien', async ({ page }) => {
 test('Weltkugel wählt ein Land und öffnet dessen Quizkonfiguration', async ({ page }) => {
   const errors = watchErrors(page)
   await page.goto('')
+  // Die automatische Rotation verändert fortlaufend die SVG-Pfade. Fokus pausiert sie
+  // wie bei Tastaturbedienung, damit Playwright einen echten stabilen Klick ausführt.
+  const globe = page.getByRole('application', { name: /Interaktive Weltkugel/ })
+  await globe.focus()
+  await expect(globe).toBeFocused()
   await page.locator('[data-country-id="country:DE"]').click()
   await expect(page.getByLabel('Land suchen oder auswählen')).toHaveValue('country:DE')
   const panel = page.locator('.country-quiz-panel')
