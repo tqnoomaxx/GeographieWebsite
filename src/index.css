@@ -2596,71 +2596,136 @@ textarea {
 }
 
 .solar-storm {
-  --solar-storm-opacity: .48;
+  --solar-storm-opacity: .58;
   position: absolute;
   z-index: 0;
-  top: -28%;
-  left: -82vw;
+  top: -34%;
+  left: -108vw;
   display: block;
-  width: min(76vw, 72rem);
-  height: 156%;
-  border-radius: 48%;
-  background:
-    radial-gradient(ellipse at 54% 18%, rgb(255 222 139 / .68), transparent 34%),
-    radial-gradient(ellipse at 44% 46%, rgb(255 117 99 / .52), transparent 43%),
-    radial-gradient(ellipse at 62% 72%, rgb(80 226 218 / .44), transparent 41%),
-    linear-gradient(112deg, transparent 5%, rgb(255 183 125 / .2) 33%, rgb(107 221 218 / .18) 61%, transparent 91%);
+  width: min(108vw, 104rem);
+  height: 172%;
+  overflow: visible;
+  border-radius: 44% 56% 48% 52% / 57% 43% 59% 41%;
+  background: none;
   opacity: 0;
   animation: solar-storm-pass 180s ease-in-out 32s infinite;
   backface-visibility: hidden;
-  -webkit-mask-image: radial-gradient(ellipse at center, #000 0 38%, rgb(0 0 0 / .78) 56%, transparent 80%);
-  mask-image: radial-gradient(ellipse at center, #000 0 38%, rgb(0 0 0 / .78) 56%, transparent 80%);
-  mix-blend-mode: normal;
-  transform: translate3d(0, 0, 0) rotate(-13deg) skewX(-8deg);
+  filter: blur(11px) saturate(1.12);
+  -webkit-mask-image: none;
+  mask-image: none;
+  transform: translate3d(0, 0, 0) rotate(-11deg);
   will-change: transform, opacity;
 }
 
+.solar-storm-cloud,
 .solar-storm::before,
 .solar-storm::after {
   position: absolute;
+  display: block;
   content: '';
   pointer-events: none;
+  will-change: transform, opacity;
 }
 
 .solar-storm::before {
-  inset: 9% -7%;
-  border-radius: 50%;
+  inset: 12% -3% 9%;
+  border-radius: 43% 57% 54% 46% / 48% 45% 55% 52%;
   background:
-    repeating-linear-gradient(102deg, transparent 0 7%, rgb(255 238 190 / .1) 8% 8.6%, transparent 9.5% 15%),
-    radial-gradient(ellipse at center, rgb(255 184 139 / .13), transparent 67%);
-  opacity: .82;
+    radial-gradient(ellipse 13% 33% at 8% 58%, rgb(255 247 216 / .34), rgb(255 219 181 / .13) 48%, transparent 100%),
+    radial-gradient(ellipse 18% 43% at 28% 39%, rgb(255 199 158 / .3), rgb(255 143 132 / .1) 52%, transparent 100%),
+    radial-gradient(ellipse 16% 37% at 49% 61%, rgb(255 137 133 / .25), rgb(218 103 168 / .09) 55%, transparent 100%),
+    radial-gradient(ellipse 19% 45% at 70% 38%, rgb(100 237 222 / .28), rgb(85 178 218 / .09) 52%, transparent 100%),
+    radial-gradient(ellipse 14% 34% at 91% 57%, rgb(135 220 247 / .24), rgb(116 143 237 / .07) 52%, transparent 100%);
+  opacity: .9;
+  animation: solar-fog-billow-a 180s ease-in-out 32s infinite;
 }
 
 .solar-storm::after {
-  top: 20%;
-  right: 4%;
-  bottom: 18%;
-  left: 6%;
-  border-top: 1px solid rgb(255 224 172 / .24);
-  border-bottom: 1px solid rgb(119 235 226 / .18);
-  border-radius: 46%;
-  background: radial-gradient(ellipse, transparent 42%, rgb(255 216 170 / .08) 58%, transparent 72%);
+  inset: 26% -8% 23%;
+  border-radius: 50%;
+  background:
+    radial-gradient(ellipse 18% 76% at 17% 55%, transparent 0 24%, rgb(255 229 190 / .22) 48%, transparent 100%),
+    radial-gradient(ellipse 23% 81% at 49% 42%, transparent 0 22%, rgb(255 158 138 / .19) 47%, transparent 100%),
+    radial-gradient(ellipse 19% 74% at 82% 54%, transparent 0 24%, rgb(99 236 226 / .2) 48%, transparent 100%);
+  opacity: .78;
+  animation: solar-fog-billow-b 180s ease-in-out 32s infinite;
+}
+
+.solar-storm-cloud {
+  border-radius: 50%;
+}
+
+.solar-storm-cloud-one {
+  inset: 4% -9% 16% -4%;
+  background:
+    radial-gradient(ellipse 12% 27% at 6% 65%, rgb(255 245 211 / .52), rgb(255 213 171 / .16) 48%, transparent 100%),
+    radial-gradient(ellipse 18% 42% at 23% 38%, rgb(255 202 161 / .45), rgb(247 119 129 / .14) 54%, transparent 100%),
+    radial-gradient(ellipse 13% 32% at 41% 68%, rgb(255 165 143 / .42), rgb(222 105 166 / .12) 55%, transparent 100%),
+    radial-gradient(ellipse 19% 45% at 58% 34%, rgb(245 127 151 / .34), rgb(150 113 201 / .11) 55%, transparent 100%),
+    radial-gradient(ellipse 17% 39% at 76% 66%, rgb(92 232 218 / .39), rgb(75 166 215 / .11) 54%, transparent 100%),
+    radial-gradient(ellipse 13% 31% at 94% 38%, rgb(128 226 247 / .31), rgb(116 145 234 / .08) 52%, transparent 100%);
+  opacity: .94;
+  animation: solar-fog-billow-a 180s ease-in-out 32s infinite reverse;
+}
+
+.solar-storm-cloud-two {
+  inset: 17% -3% 4% -8%;
+  background:
+    radial-gradient(ellipse 15% 35% at 5% 35%, rgb(255 224 183 / .31), rgb(255 173 146 / .09) 52%, transparent 100%),
+    radial-gradient(ellipse 19% 44% at 24% 69%, rgb(255 160 143 / .39), rgb(223 102 159 / .12) 54%, transparent 100%),
+    radial-gradient(ellipse 16% 38% at 45% 34%, rgb(235 119 167 / .35), rgb(154 113 201 / .1) 55%, transparent 100%),
+    radial-gradient(ellipse 20% 45% at 65% 68%, rgb(100 223 214 / .37), rgb(74 163 207 / .1) 55%, transparent 100%),
+    radial-gradient(ellipse 16% 36% at 84% 34%, rgb(109 207 238 / .32), rgb(105 130 224 / .09) 53%, transparent 100%),
+    radial-gradient(ellipse 11% 29% at 98% 61%, rgb(159 192 248 / .23), transparent 100%);
+  opacity: .84;
+  animation: solar-fog-billow-b 180s ease-in-out 32s infinite reverse;
+}
+
+.solar-storm-cloud-three {
+  inset: 30% -12% 27%;
+  background:
+    radial-gradient(ellipse 13% 62% at 9% 50%, rgb(255 250 227 / .33), rgb(255 212 173 / .08) 42%, transparent 100%),
+    radial-gradient(ellipse 16% 76% at 29% 43%, rgb(255 204 171 / .3), rgb(255 145 141 / .08) 43%, transparent 100%),
+    radial-gradient(ellipse 14% 68% at 49% 57%, rgb(255 141 149 / .28), rgb(207 106 181 / .07) 42%, transparent 100%),
+    radial-gradient(ellipse 16% 74% at 69% 42%, rgb(127 235 222 / .29), rgb(79 173 220 / .07) 43%, transparent 100%),
+    radial-gradient(ellipse 13% 64% at 89% 55%, rgb(144 217 247 / .26), rgb(123 143 235 / .06) 42%, transparent 100%);
+  opacity: .88;
+  transform: skewX(-14deg);
+  animation: solar-fog-wisps 180s ease-in-out 32s infinite;
 }
 
 @keyframes solar-storm-pass {
   0% {
     opacity: 0;
-    transform: translate3d(0, 0, 0) rotate(-13deg) skewX(-8deg) scale(.9);
+    transform: translate3d(0, 0, 0) rotate(-11deg) scale(.92);
   }
   .55% { opacity: var(--solar-storm-opacity); }
   8% {
     opacity: var(--solar-storm-opacity);
-    transform: translate3d(222vw, 9vh, 0) rotate(-13deg) skewX(-8deg) scale(1.08);
+    transform: translate3d(236vw, 11vh, 0) rotate(-11deg) scale(1.06);
   }
   8.7%, 100% {
     opacity: 0;
-    transform: translate3d(222vw, 9vh, 0) rotate(-13deg) skewX(-8deg) scale(1.08);
+    transform: translate3d(236vw, 11vh, 0) rotate(-11deg) scale(1.06);
   }
+}
+
+@keyframes solar-fog-billow-a {
+  0%, 100% { transform: translate3d(-3%, 2%, 0) scale(.94, 1.05) rotate(-2deg); }
+  3.5% { transform: translate3d(2%, -3%, 0) scale(1.04, .96) rotate(2deg); }
+  8.7% { transform: translate3d(5%, 2%, 0) scale(.98, 1.08) rotate(-1deg); }
+}
+
+@keyframes solar-fog-billow-b {
+  0%, 100% { transform: translate3d(4%, -2%, 0) scale(1.05, .95) rotate(2deg); }
+  4.5% { transform: translate3d(-2%, 3%, 0) scale(.96, 1.08) rotate(-3deg); }
+  8.7% { transform: translate3d(-5%, -1%, 0) scale(1.07, .97) rotate(1deg); }
+}
+
+@keyframes solar-fog-wisps {
+  0%, 100% { transform: translate3d(-4%, 1%, 0) skewX(-14deg) scaleX(.94); }
+  4% { transform: translate3d(3%, -4%, 0) skewX(-8deg) scaleX(1.08); }
+  8.7% { transform: translate3d(7%, 2%, 0) skewX(-17deg) scaleX(1.02); }
 }
 
 .space-planet,
@@ -2838,23 +2903,24 @@ textarea {
 }
 
 .space-shooting-star {
-  --shoot-x: 126vw;
-  --shoot-y: 48vh;
-  --shoot-angle: 29deg;
-  --shoot-scale-start: .25;
-  --shoot-scale-end: 1;
+  --shoot-x: 132vw;
+  --shoot-y: 48vw;
+  --shoot-angle: 20deg;
+  --shoot-length: clamp(8rem, 15vw, 14rem);
+  --shoot-thickness: 2px;
+  --shoot-head: .28rem;
   position: absolute;
   z-index: 1;
   display: block;
-  width: clamp(7rem, 14vw, 13rem);
-  height: 2px;
+  width: var(--shoot-length);
+  height: var(--shoot-thickness);
   border-radius: 999px;
-  background: linear-gradient(90deg, transparent 0, rgb(134 220 239 / .08) 25%, rgb(191 244 255 / .5) 78%, #fff 100%);
-  box-shadow: 0 0 .45rem rgb(113 221 244 / .3);
+  background: linear-gradient(90deg, transparent 0, rgb(134 220 239 / .05) 20%, rgb(191 244 255 / .45) 76%, #fff 100%);
+  box-shadow: 0 0 .45rem rgb(113 221 244 / .26);
   opacity: 0;
   animation: cosmic-shoot 9s linear infinite;
   backface-visibility: hidden;
-  transform-origin: right center;
+  transform-origin: center;
   will-change: transform, opacity;
 }
 
@@ -2874,8 +2940,8 @@ textarea {
   position: absolute;
   top: 50%;
   right: -.12rem;
-  width: .26rem;
-  height: .26rem;
+  width: var(--shoot-head);
+  height: var(--shoot-head);
   border-radius: 50%;
   background: #fff;
   box-shadow:
@@ -2885,38 +2951,46 @@ textarea {
   transform: translateY(-50%);
 }
 
-.space-shooting-star-one { top: 5%; left: -18%; animation-delay: -1.4s; }
+.space-shooting-star-one {
+  top: 4%;
+  left: -20%;
+  animation-delay: -1.4s;
+}
 .space-shooting-star-two {
-  --shoot-x: -132vw;
-  --shoot-y: 44vh;
-  --shoot-angle: -27deg;
-  --shoot-scale-start: -.25;
-  --shoot-scale-end: -1;
+  --shoot-x: -138vw;
+  --shoot-y: 42vw;
+  --shoot-angle: 163deg;
+  --shoot-length: clamp(3.2rem, 5.5vw, 5.2rem);
+  --shoot-thickness: 1px;
+  --shoot-head: .17rem;
   top: 9%;
   left: 112%;
   animation-delay: -6.2s;
-  animation-duration: 11s;
+  animation-duration: 10.8s;
 }
 .space-shooting-star-three {
-  --shoot-x: 118vw;
-  --shoot-y: -48vh;
-  --shoot-angle: -24deg;
-  top: 69%;
-  left: -19%;
+  --shoot-x: 126vw;
+  --shoot-y: -51vw;
+  --shoot-angle: -22deg;
+  --shoot-length: clamp(5.2rem, 9vw, 8.5rem);
+  --shoot-thickness: 1.5px;
+  --shoot-head: .22rem;
+  top: 74%;
+  left: -17%;
   animation-delay: -9.4s;
-  animation-duration: 13s;
+  animation-duration: 13.6s;
 }
 
 @keyframes cosmic-shoot {
   0%, 72% {
     opacity: 0;
-    transform: translate3d(0, 0, 0) rotate(var(--shoot-angle)) scaleX(var(--shoot-scale-start));
+    transform: translate3d(0, 0, 0) rotate(var(--shoot-angle));
   }
   75% { opacity: .94; }
   87% { opacity: .72; }
   91%, 100% {
     opacity: 0;
-    transform: translate3d(var(--shoot-x), var(--shoot-y), 0) rotate(var(--shoot-angle)) scaleX(var(--shoot-scale-end));
+    transform: translate3d(var(--shoot-x), var(--shoot-y), 0) rotate(var(--shoot-angle));
   }
 }
 
@@ -2932,7 +3006,9 @@ textarea {
 
 .interactive-globe.is-dragging .solar-storm {
   animation-play-state: paused;
+  filter: none;
   opacity: 0 !important;
+  visibility: hidden;
 }
 
 .globe-stage::before,
