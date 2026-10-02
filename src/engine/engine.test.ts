@@ -117,6 +117,27 @@ describe('session', () => {
     )
     expect(s.questions.length).toBe(16)
   })
+  it('verteilt weltweite Regionen am Rundenanfang über verschiedene Länder', () => {
+    for (const seed of ['region-mix-a', 'region-mix-b', 'region-mix-c']) {
+      const c = ctx('world')
+      const s = buildSession(
+        c,
+        setup({
+          category: 'countries',
+          mode: 'region_to_country',
+          scope: 'world',
+          content: ['region'],
+          length: 10,
+        }),
+        { seed },
+      )
+      const parentCountries = s.questions.map(({ question }) =>
+        c.byId.get(question.entities[0])?.attributes.country,
+      )
+      expect(parentCountries).toHaveLength(10)
+      expect(new Set(parentCountries).size, seed).toBe(10)
+    }
+  })
   it('jede Kategorie hat Fragen im Welt-Bereich', () => {
     for (const cat of [
       'flags',

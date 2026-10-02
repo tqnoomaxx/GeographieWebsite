@@ -98,7 +98,12 @@ export function buildSession(ctx: GeneratorContext, setup: RoundConfig, opts: Bu
     entities = entities.filter((e) => set.has(e.entity.id))
   }
   const mode: SessionMode = setup.only ? 'repeat_errors' : setup.length === 'all' ? 'full' : 'standard'
-  const ordered = setup.length === 'all' ? weightedOrder(entities, opts.progress, rng) : weightedSample(entities, Math.min(setup.length, entities.length), opts.progress, rng)
+  const prioritized =
+    setup.length === 'all'
+      ? weightedOrder(entities, opts.progress, rng)
+      : weightedSample(entities, entities.length, opts.progress, rng)
+  const mixed = spreadAcrossCountries(prioritized, rng)
+  const ordered = setup.length === 'all' ? mixed : mixed.slice(0, Math.min(setup.length, mixed.length))
 
   const difficulty = opts.difficulty ?? 2
   const questions: SessionQuestion[] = []
@@ -167,21 +172,54 @@ function makeQuestion(item: PoolItem, ctx: GeneratorContext, rng: Rng, difficult
 }
 
 function weightedSample<T extends { entity: Entity }>(items: T[], n: number, progress: Map<string, EntityProgress> | undefined, rng: Rng): T[] {
-  const weighted = items.map((it) => ({ it, w: selectionWeight(progress?.get(it.entity.id)) }))
+  return items
+    .map((it, index) => ({
+      it,
+      index,
+      // Gewichtete Zufallsreihenfolge ohne quadratische Ziehschleife.
+      key: -Math.log(Math.max(Number.EPSILON, rng.next())) / selectionWeight(progress?.get(it.entity.id)),
+    }))
+    .sort((a, b) => a.key - b.key || a.index - b.index)
+    .slice(0, n)
+    .map(({ it }) => it)
+}
+
+/**
+ * Verteilt Lernkarten mit Länderbezug über die Runde. Die gewichtete Reihenfolge
+ * innerhalb eines Landes bleibt erhalten, aber ein Land erhält erst dann die
+ * nächste Karte, wenn die anderen verfügbaren Länder einmal an der Reihe waren.
+ */
+function spreadAcrossCountries<T extends { entity: Entity }>(items: T[], rng: Rng): T[] {
+  const buckets = new Map<string, T[]>()
+  for (const item of items) {
+    const entity = item.entity
+    const countries = entity.attributes.countries as string[] | undefined
+    const key =
+      entity.type === 'country'
+        ? entity.id
+        : (entity.attributes.country as string | undefined) ??
+          (countries?.length ? [...countries].sort().join('|') : entity.id)
+    const bucket = buckets.get(key)
+    if (bucket) bucket.push(item)
+    else buckets.set(key, [item])
+  }
+  if (buckets.size < 2) return items
+
   const out: T[] = []
-  const used = new Set<number>()
-  while (out.length < n && used.size < weighted.length) {
-    let total = 0
-    for (let i = 0; i < weighted.length; i++) if (!used.has(i)) total += weighted[i].w
-    let r = rng.next() * total
-    for (let i = 0; i < weighted.length; i++) {
-      if (used.has(i)) continue
-      r -= weighted[i].w
-      if (r <= 0) {
-        used.add(i)
-        out.push(weighted[i].it)
-        break
-      }
+  let active = [...buckets.values()]
+  while (active.length) {
+    const next: T[][] = []
+    for (const bucket of active) {
+      const item = bucket.shift()
+      if (item) out.push(item)
+      if (bucket.length) next.push(bucket)
+    }
+    const previousLast = active.at(-1)
+    active = rng.shuffle(next)
+    if (active.length > 1 && active[0] === previousLast) {
+      const first = active[0]
+      active[0] = active[1]
+      active[1] = first
     }
   }
   return out

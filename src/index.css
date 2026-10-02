@@ -2684,10 +2684,104 @@ textarea {
   transform: translate3d(var(--space-x-reverse), var(--space-y-reverse), 0);
 }
 
+.spacecraft-flight {
+  --spacecraft-opacity: .62;
+  position: absolute;
+  z-index: 0;
+  top: 60%;
+  left: -22vw;
+  display: block;
+  width: clamp(7.5rem, 10vw, 10.5rem);
+  opacity: 0;
+  animation: spacecraft-flyby 150s linear 14s infinite;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0) rotate(-7deg);
+  will-change: transform, opacity;
+}
+
+.spacecraft {
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.spacecraft-hull {
+  fill: url('#spacecraft-hull');
+  stroke: rgb(230 254 255 / .72);
+  stroke-width: 1.2;
+}
+
+.spacecraft-cockpit {
+  fill: url('#spacecraft-glass');
+  stroke: rgb(214 252 255 / .78);
+  stroke-width: 1;
+}
+
+.spacecraft-wing {
+  fill: #496d8a;
+  stroke: rgb(190 235 241 / .46);
+  stroke-width: 1;
+}
+
+.spacecraft-wing-back { fill: #293e67; }
+.spacecraft-keel { fill: none; stroke: rgb(224 252 255 / .34); stroke-width: 1.2; }
+.spacecraft-light { fill: #ffeab2; }
+.spacecraft-engine {
+  fill: #d9ffff;
+  stroke: rgb(108 226 255 / .8);
+  stroke-width: 1.5;
+}
+
+.spacecraft-trail {
+  position: absolute;
+  z-index: 1;
+  top: 51%;
+  right: 83%;
+  width: clamp(6rem, 13vw, 12rem);
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent, rgb(104 220 248 / .12) 38%, rgb(195 251 255 / .66));
+  box-shadow: 0 0 .55rem rgb(104 222 249 / .24);
+  transform: translateY(-50%);
+}
+
+.spacecraft-trail::after {
+  position: absolute;
+  top: 50%;
+  right: -.1rem;
+  width: 1.1rem;
+  height: .48rem;
+  border-radius: 50%;
+  background: radial-gradient(ellipse, #fff, rgb(104 226 255 / .55) 42%, transparent 74%);
+  content: '';
+  transform: translateY(-50%);
+}
+
+@keyframes spacecraft-flyby {
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 0, 0) rotate(-7deg) scale(.88);
+  }
+  .4% { opacity: var(--spacecraft-opacity); }
+  5.8% {
+    opacity: var(--spacecraft-opacity);
+    transform: translate3d(142vw, -25vh, 0) rotate(-7deg) scale(1.02);
+  }
+  6.3%, 100% {
+    opacity: 0;
+    transform: translate3d(142vw, -25vh, 0) rotate(-7deg) scale(1.02);
+  }
+}
+
 .space-shooting-star {
-  --shoot-x: 74vw;
-  --shoot-y: 42vh;
+  --shoot-x: 126vw;
+  --shoot-y: 48vh;
   --shoot-angle: 29deg;
+  --shoot-scale-start: .25;
+  --shoot-scale-end: 1;
   position: absolute;
   z-index: 1;
   display: block;
@@ -2730,20 +2824,24 @@ textarea {
   transform: translateY(-50%);
 }
 
-.space-shooting-star-one { top: 7%; left: -17%; animation-delay: -1.4s; }
+.space-shooting-star-one { top: 5%; left: -18%; animation-delay: -1.4s; }
 .space-shooting-star-two {
-  --shoot-x: 66vw;
-  --shoot-y: 38vh;
-  top: 27%;
-  left: -24%;
+  --shoot-x: -132vw;
+  --shoot-y: 44vh;
+  --shoot-angle: -27deg;
+  --shoot-scale-start: -.25;
+  --shoot-scale-end: -1;
+  top: 9%;
+  left: 112%;
   animation-delay: -6.2s;
   animation-duration: 11s;
 }
 .space-shooting-star-three {
-  --shoot-x: 58vw;
-  --shoot-y: 34vh;
-  top: -6%;
-  left: 31%;
+  --shoot-x: 118vw;
+  --shoot-y: -48vh;
+  --shoot-angle: -24deg;
+  top: 69%;
+  left: -19%;
   animation-delay: -9.4s;
   animation-duration: 13s;
 }
@@ -2751,17 +2849,22 @@ textarea {
 @keyframes cosmic-shoot {
   0%, 72% {
     opacity: 0;
-    transform: translate3d(0, 0, 0) rotate(var(--shoot-angle)) scaleX(.25);
+    transform: translate3d(0, 0, 0) rotate(var(--shoot-angle)) scaleX(var(--shoot-scale-start));
   }
   75% { opacity: .94; }
   87% { opacity: .72; }
   91%, 100% {
     opacity: 0;
-    transform: translate3d(var(--shoot-x), var(--shoot-y), 0) rotate(var(--shoot-angle)) scaleX(1);
+    transform: translate3d(var(--shoot-x), var(--shoot-y), 0) rotate(var(--shoot-angle)) scaleX(var(--shoot-scale-end));
   }
 }
 
 .interactive-globe.is-dragging .space-shooting-star {
+  animation-play-state: paused;
+  opacity: 0 !important;
+}
+
+.interactive-globe.is-dragging .spacecraft-flight {
   animation-play-state: paused;
   opacity: 0 !important;
 }
@@ -2837,6 +2940,7 @@ textarea {
 .dark .space-nebula { opacity: .38; }
 .dark .space-planet,
 .dark .space-moon { opacity: .74; }
+.dark .spacecraft-flight { --spacecraft-opacity: .84; }
 
 @media (max-width: 767px) {
   .globe-space-scene { top: -4rem; bottom: -3rem; }
@@ -2844,6 +2948,7 @@ textarea {
   .space-planet-rust { top: 18%; right: 1rem; width: 3rem; }
   .space-planet-ice { right: 1.8rem; bottom: 9%; width: 2.5rem; }
   .space-moon { bottom: 12%; left: 1.5rem; }
+  .spacecraft-flight { top: 64%; width: 6.4rem; }
   .space-nebula-one { width: 75vw; height: 48vw; }
   .space-nebula-two { width: 62vw; height: 42vw; }
 }
@@ -2856,7 +2961,8 @@ textarea {
     transition: none;
     transform: none;
   }
-  .space-shooting-star { display: none; }
+  .space-shooting-star,
+  .spacecraft-flight { display: none; }
   .globe-stage::before,
   .globe-stage::after,
   .globe-country.is-selected { animation: none; }

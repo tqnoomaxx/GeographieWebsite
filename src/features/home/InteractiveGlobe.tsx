@@ -257,6 +257,32 @@ export function InteractiveGlobe({
         <span className="space-planet space-planet-rust" />
         <span className="space-planet space-planet-ice" />
         <span className="space-moon" />
+        <span className="spacecraft-flight">
+          <span className="spacecraft-trail" />
+          <svg className="spacecraft" viewBox="0 0 190 82" focusable="false">
+            <defs>
+              <linearGradient id="spacecraft-hull" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stopColor="#efffff" />
+                <stop offset=".42" stopColor="#7eb8cb" />
+                <stop offset="1" stopColor="#273d65" />
+              </linearGradient>
+              <linearGradient id="spacecraft-glass" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stopColor="#dfffff" />
+                <stop offset=".48" stopColor="#55bad6" />
+                <stop offset="1" stopColor="#182a61" />
+              </linearGradient>
+            </defs>
+            <path className="spacecraft-wing spacecraft-wing-back" d="M76 47 118 76 57 58Z" />
+            <path className="spacecraft-wing" d="M79 31 122 7 63 26Z" />
+            <path className="spacecraft-hull" d="M21 42C49 20 112 15 158 31L181 41 158 51C111 67 50 62 21 42Z" />
+            <path className="spacecraft-cockpit" d="M75 27C88 14 113 15 128 28L132 34 71 35Z" />
+            <path className="spacecraft-keel" d="M58 50C88 56 127 54 159 43" />
+            <circle className="spacecraft-light" cx="144" cy="34" r="2.5" />
+            <circle className="spacecraft-engine" cx="24" cy="36" r="3.5" />
+            <circle className="spacecraft-engine" cx="20" cy="43" r="4.2" />
+            <circle className="spacecraft-engine" cx="25" cy="50" r="3.2" />
+          </svg>
+        </span>
         <span className="space-shooting-star space-shooting-star-one" />
         <span className="space-shooting-star space-shooting-star-two" />
         <span className="space-shooting-star space-shooting-star-three" />
