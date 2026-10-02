@@ -78,7 +78,7 @@ test('Quizlandschaft verlinkt alle Spielarten und bleibt mobil bedienbar', async
 test('Quizlandschaft respektiert reduzierte Bewegung', async ({ page }) => {
   await page.emulateMedia({ reducedMotion: 'reduce' })
   await page.goto('play')
-  const animationName = await page.locator('.quiz-scene-river-flow').evaluate(
+  const animationName = await page.locator('.quiz-landscape-photo').evaluate(
     (node) => getComputedStyle(node).animationName,
   )
   expect(animationName).toBe('none')
