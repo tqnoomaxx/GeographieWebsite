@@ -3507,9 +3507,9 @@ textarea {
   position: absolute;
   display: flex;
   min-width: max-content;
-  min-height: 2.75rem;
+  min-height: 3rem;
   align-items: center;
-  gap: .32rem;
+  gap: .42rem;
   color: var(--ink);
   scroll-margin-inline: 8rem;
   transform: translate(-50%, -50%);
@@ -3525,17 +3525,17 @@ textarea {
 .quiz-landscape-station-marker {
   position: relative;
   display: flex;
-  width: 2.7rem;
-  height: 2.7rem;
+  width: 3rem;
+  height: 3rem;
   flex: 0 0 auto;
   align-items: center;
   justify-content: center;
-  border: 1px solid color-mix(in srgb, var(--ink) 42%, transparent);
+  border: 1px solid color-mix(in srgb, var(--ink) 38%, transparent);
   border-radius: 50%;
-  background: color-mix(in srgb, var(--sky-base) 38%, transparent);
-  box-shadow: 0 5px 18px rgb(0 10 20 / .18), 0 0 0 4px color-mix(in srgb, var(--atmosphere) 7%, transparent);
-  backdrop-filter: blur(13px) saturate(.8);
-  -webkit-backdrop-filter: blur(13px) saturate(.8);
+  background: color-mix(in srgb, var(--sky-base) 58%, transparent);
+  box-shadow: 0 0 0 5px color-mix(in srgb, var(--atmosphere) 8%, transparent);
+  backdrop-filter: blur(10px) saturate(.9);
+  -webkit-backdrop-filter: blur(10px) saturate(.9);
 }
 .quiz-landscape-station-marker::after {
   position: absolute;
@@ -3546,22 +3546,22 @@ textarea {
   opacity: .6;
   animation: quiz-station-ring 3.6s ease-in-out infinite;
 }
-.quiz-landscape-station-marker > svg { width: 1.2rem; height: 1.2rem; }
+.quiz-landscape-station-marker > svg { width: 1.35rem; height: 1.35rem; }
 .quiz-landscape-station-label {
   display: grid;
-  min-height: 2.45rem;
+  min-height: 2.75rem;
   align-content: center;
-  border: 1px solid color-mix(in srgb, var(--ink) 38%, transparent);
-  border-radius: .65rem;
-  background: color-mix(in srgb, var(--sky-base) 42%, transparent);
-  padding: .34rem .58rem;
-  box-shadow: 0 7px 20px rgb(2 15 25 / .15);
-  backdrop-filter: blur(14px) saturate(.78);
-  -webkit-backdrop-filter: blur(14px) saturate(.78);
+  border: 1px solid color-mix(in srgb, var(--ink) 31%, transparent);
+  border-radius: .72rem;
+  background: color-mix(in srgb, var(--sky-base) 63%, transparent);
+  padding: .4rem .68rem;
+  box-shadow: 0 9px 24px rgb(2 15 25 / .12);
+  backdrop-filter: blur(11px) saturate(.9);
+  -webkit-backdrop-filter: blur(11px) saturate(.9);
 }
 .quiz-landscape-station-label strong {
   font-family: var(--font-display);
-  font-size: .72rem;
+  font-size: .8rem;
   font-weight: 850;
   letter-spacing: -.015em;
   line-height: 1.05;
@@ -3570,7 +3570,7 @@ textarea {
   margin-top: .16rem;
   color: var(--ink-2);
   font-family: ui-monospace, monospace;
-  font-size: .44rem;
+  font-size: .48rem;
   letter-spacing: .055em;
   text-transform: uppercase;
 }
