@@ -48,6 +48,13 @@
   },
   "play": {
     "title": "Was möchtest du spielen?",
+    "landscape_eyebrow": "Deine Atlasroute",
+    "landscape_hint": "Wähle eine Station in der Landschaft und stelle anschließend deine Quizrunde zusammen.",
+    "landscape_nav": "Quizstationen in der Atlaslandschaft",
+    "landscape_swipe": "Wischen, um die Landschaft zu erkunden",
+    "overview": "Quizübersicht",
+    "route_dock": "Route fortsetzen",
+    "daily_count": "Sechs neue Rätsel pro Tag",
     "scope": "Bereich",
     "length": "Rundenlänge",
     "all": "Alle {{count}}",

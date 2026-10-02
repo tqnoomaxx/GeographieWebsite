@@ -29,6 +29,61 @@ test('Startseite und Kategorien', async ({ page }) => {
   expect(errors).toEqual([])
 })
 
+test('Quizlandschaft verlinkt alle Spielarten und bleibt mobil bedienbar', async ({ page }, testInfo) => {
+  const errors = watchErrors(page)
+  const categories = [
+    'flags', 'countries', 'capitals', 'languages', 'images', 'cities',
+    'landmarks', 'water', 'nature', 'license_plates', 'mixed',
+  ]
+
+  await page.goto('play')
+  const landscape = page.getByRole('navigation', { name: 'Quizstationen in der Atlaslandschaft' })
+  await expect(landscape).toBeVisible()
+  for (const category of categories) {
+    await expect(page.locator(`[data-quiz-station="${category}"]`)).toHaveAttribute(
+      'href',
+      new RegExp(`/play/${category}$`),
+    )
+  }
+  await expect(page.locator('[data-quiz-station="daily"]')).toHaveAttribute('href', /\/daily$/)
+
+  if (testInfo.project.name === 'mobile') {
+    const viewport = page.locator('.quiz-landscape-viewport')
+    await viewport.evaluate((node) => node.scrollTo({ left: 420 }))
+    await expect.poll(() => viewport.evaluate((node) => node.scrollLeft)).toBeGreaterThan(300)
+
+    const pathAfterDrag = await viewport.evaluate((node) => {
+      const target = node.querySelector<HTMLAnchorElement>('[data-quiz-station="cities"]')
+      node.dispatchEvent(new PointerEvent('pointerdown', { bubbles: true, pointerId: 7, pointerType: 'touch', clientX: 280, clientY: 300 }))
+      node.dispatchEvent(new PointerEvent('pointermove', { bubbles: true, pointerId: 7, pointerType: 'touch', clientX: 190, clientY: 305 }))
+      node.dispatchEvent(new PointerEvent('pointerup', { bubbles: true, pointerId: 7, pointerType: 'touch', clientX: 190, clientY: 305 }))
+      target?.click()
+      return location.pathname
+    })
+    expect(pathAfterDrag).toMatch(/\/play$/)
+
+    await page.getByRole('button', { name: 'Quizübersicht' }).click()
+    const dialog = page.getByRole('dialog', { name: 'Quizübersicht' })
+    await expect(dialog).toBeVisible()
+    await expect(dialog.getByRole('link')).toHaveCount(12)
+    await dialog.getByRole('button', { name: 'Schließen' }).click()
+    await expect(dialog).not.toBeVisible()
+  }
+
+  await page.locator('[data-quiz-station="countries"]').click()
+  await expect(page).toHaveURL(/\/play\/countries$/)
+  expect(errors).toEqual([])
+})
+
+test('Quizlandschaft respektiert reduzierte Bewegung', async ({ page }) => {
+  await page.emulateMedia({ reducedMotion: 'reduce' })
+  await page.goto('play')
+  const animationName = await page.locator('.quiz-scene-river-flow').evaluate(
+    (node) => getComputedStyle(node).animationName,
+  )
+  expect(animationName).toBe('none')
+})
+
 test('Weltkugel wählt ein Land und öffnet dessen Quizkonfiguration', async ({ page }) => {
   const errors = watchErrors(page)
   await page.goto('')

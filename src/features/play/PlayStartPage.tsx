@@ -6,7 +6,6 @@ import { useAsync, useDocumentTitle } from '@/app/hooks'
 import {
   AUTO,
   MIN_POOL,
-  PLAY_QUIZZES,
   ROUND_LENGTHS,
   autoModes,
   isCategory,
@@ -23,9 +22,10 @@ import type { Entity } from '@/domain/types'
 import { getRepository } from '@/services/progress'
 import { Page, Card, Flag, ProgressBar } from '@/ui'
 import { normalizeAnswer } from '@/engine/normalize'
-import { CategoryIconTile, Icons, IconTile } from '@/ui/icons'
+import { CategoryIconTile, Icons } from '@/ui/icons'
 import { RoundTitle } from './RoundLabel'
 import { FLAG_HINT_COUNTRY_COUNT } from './FlagImage'
+import { QuizLandscape } from './QuizLandscape'
 
 const KEY = (category: CategoryId) => `gk.setup.${category}`
 
@@ -635,19 +635,12 @@ function CategoryHub() {
   useDocumentTitle(t('nav.play'))
   return (
     <Page wide>
-      <header className="play-masthead">
-        <div>
-          <h1>{t('play.title')}</h1>
-        </div>
-        <p>
-          Ein Thema. Ein Modus.
-          <br />
-          <strong>Deine nächste Route.</strong>
-        </p>
-      </header>
       {open && open.length > 0 && (
-        <section className="play-open-runs">
-          <h2>{t('play.open_runs')}</h2>
+        <section className="play-open-runs play-route-dock">
+          <header>
+            <span>{t('play.route_dock')}</span>
+            <h2>{t('play.open_runs')}</h2>
+          </header>
           <div className="grid gap-2">
             {open.slice(0, 2).map((s) => {
               const total = baseQuestionTotal(s)
@@ -668,35 +661,7 @@ function CategoryHub() {
           </div>
         </section>
       )}
-      <div className="play-category-register">
-        {PLAY_QUIZZES.map((c) => (
-          <Link
-            key={c.id}
-            to={`/play/${c.id}`}
-            className="play-category-row"
-            aria-label={t(`category.${c.id}`)}
-          >
-            <span className="play-category-index">
-              {String(PLAY_QUIZZES.indexOf(c) + 1).padStart(2, '0')}
-            </span>
-            <CategoryIconTile id={c.id} />
-            <span className="play-category-name">{t(`category.${c.id}`)}</span>
-            {c.countKey && geo.index?.counts[c.countKey] !== undefined && (
-              <span className="play-category-count">
-                {geo.index.counts[c.countKey].toLocaleString('de-DE')} Einträge
-              </span>
-            )}
-            <Icons.arrow className="play-category-arrow" aria-hidden />
-          </Link>
-        ))}
-        <Link to="/daily" className="play-category-row play-daily-row">
-          <span className="play-category-index">+</span>
-          <IconTile icon={Icons.daily} tone="tone-violet" size="sm" />
-          <span className="play-category-name">{t('daily.title')}</span>
-          <span className="play-category-count">Sechs neue Rätsel pro Tag</span>
-          <Icons.arrow className="play-category-arrow" aria-hidden />
-        </Link>
-      </div>
+      <QuizLandscape counts={geo.index?.counts} />
     </Page>
   )
 }
