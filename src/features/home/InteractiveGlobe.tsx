@@ -65,6 +65,8 @@ export function InteractiveGlobe({
   const pauseUntilRef = useRef(0)
   const rootRef = useRef<HTMLDivElement>(null)
   const svgRef = useRef<SVGSVGElement>(null)
+  const renderFrameRef = useRef<number | null>(null)
+  const pendingRotationRef = useRef<Rotation | null>(null)
   const selectId = useId()
   const statusId = useId()
   const reducedMotion = useReducedMotion()
@@ -96,26 +98,36 @@ export function InteractiveGlobe({
     if (!root) return
     const longitude = (next[0] * Math.PI) / 180
     const latitude = (next[1] * Math.PI) / 180
-    const x = Math.sin(longitude) * 42
-    const y = Math.sin(latitude) * 28
+    const x = Math.sin(longitude) * 26
+    const y = Math.sin(latitude) * 18
     root.style.setProperty('--space-x', `${x.toFixed(2)}px`)
     root.style.setProperty('--space-y', `${y.toFixed(2)}px`)
     root.style.setProperty('--space-x-reverse', `${(-x * 0.58).toFixed(2)}px`)
     root.style.setProperty('--space-y-reverse', `${(-y * 0.58).toFixed(2)}px`)
     root.style.setProperty('--space-x-soft', `${(x * 0.24).toFixed(2)}px`)
     root.style.setProperty('--space-y-soft', `${(y * 0.24).toFixed(2)}px`)
-    const shell = root.closest<HTMLElement>('.cosmic-shell')
-    shell?.style.setProperty('--cosmic-parallax-x', `${(-x * 0.16).toFixed(2)}px`)
-    shell?.style.setProperty('--cosmic-parallax-y', `${(-y * 0.16).toFixed(2)}px`)
   }, [])
 
   const updateRotation = useCallback((next: Rotation) => {
     rotationRef.current = next
-    syncSpaceOrientation(next)
-    setRotation(next)
+    pendingRotationRef.current = next
+    if (renderFrameRef.current !== null) return
+    renderFrameRef.current = requestAnimationFrame(() => {
+      renderFrameRef.current = null
+      const pending = pendingRotationRef.current
+      pendingRotationRef.current = null
+      if (!pending) return
+      syncSpaceOrientation(pending)
+      setRotation(pending)
+    })
   }, [syncSpaceOrientation])
 
-  useEffect(() => syncSpaceOrientation(rotationRef.current), [syncSpaceOrientation])
+  useEffect(() => {
+    syncSpaceOrientation(rotationRef.current)
+    return () => {
+      if (renderFrameRef.current !== null) cancelAnimationFrame(renderFrameRef.current)
+    }
+  }, [syncSpaceOrientation])
 
   useEffect(() => {
     if (reducedMotion) return
@@ -235,7 +247,7 @@ export function InteractiveGlobe({
   }
 
   return (
-    <div ref={rootRef} className="interactive-globe">
+    <div ref={rootRef} className={`interactive-globe ${dragging ? 'is-dragging' : ''}`}>
       <div className="globe-space-scene" aria-hidden="true">
         <span className="space-nebula space-nebula-one" />
         <span className="space-nebula space-nebula-two" />

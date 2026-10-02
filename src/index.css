@@ -2542,6 +2542,7 @@ textarea {
   left: 50%;
   width: 100vw;
   overflow: hidden;
+  contain: paint;
   transform: translateX(-50%);
   pointer-events: none;
 }
@@ -2552,7 +2553,7 @@ textarea {
 .space-moon {
   position: absolute;
   display: block;
-  transition: transform 140ms linear;
+  backface-visibility: hidden;
   will-change: transform;
 }
 
@@ -2580,8 +2581,7 @@ textarea {
 
 .space-nebula {
   border-radius: 50%;
-  filter: blur(34px);
-  opacity: .34;
+  opacity: .24;
 }
 
 .space-nebula-one {
@@ -2589,7 +2589,7 @@ textarea {
   left: 8%;
   width: min(42vw, 34rem);
   height: min(28vw, 22rem);
-  background: radial-gradient(ellipse, rgb(91 94 220 / .34), rgb(51 186 206 / .14) 46%, transparent 72%);
+  background: radial-gradient(ellipse, rgb(91 94 220 / .26), rgb(51 186 206 / .11) 42%, transparent 73%);
   transform: translate3d(var(--space-x-soft), var(--space-y-soft), 0) rotate(-16deg);
 }
 
@@ -2598,7 +2598,7 @@ textarea {
   bottom: 5%;
   width: min(34vw, 28rem);
   height: min(24vw, 19rem);
-  background: radial-gradient(ellipse, rgb(193 93 222 / .22), rgb(67 165 210 / .1) 48%, transparent 72%);
+  background: radial-gradient(ellipse, rgb(193 93 222 / .18), rgb(67 165 210 / .08) 45%, transparent 74%);
   transform: translate3d(var(--space-x-reverse), var(--space-y-reverse), 0) rotate(18deg);
 }
 
@@ -2607,10 +2607,11 @@ textarea {
   aspect-ratio: 1;
   border-radius: 50%;
   box-shadow:
-    inset -1rem -1.1rem 1.7rem rgb(1 7 20 / .68),
-    inset .35rem .3rem .7rem rgb(255 255 255 / .2),
-    0 0 2.2rem rgb(104 214 235 / .17);
-  opacity: .62;
+    inset -1.15rem -1rem 1.4rem rgb(1 7 20 / .76),
+    inset .24rem .2rem .45rem rgb(255 255 255 / .2),
+    0 0 0 1px rgb(205 248 255 / .12),
+    0 0 1.3rem rgb(104 214 235 / .12);
+  opacity: .54;
 }
 
 .space-planet::after,
@@ -2627,8 +2628,8 @@ textarea {
   left: clamp(2rem, 8vw, 9rem);
   width: clamp(4.7rem, 7.5vw, 8.4rem);
   background:
-    repeating-linear-gradient(8deg, transparent 0 8%, rgb(255 255 255 / .08) 9% 11%),
-    radial-gradient(circle at 30% 25%, #f0d9a2, #a87874 46%, #35315e 74%);
+    repeating-linear-gradient(5deg, transparent 0 9%, rgb(255 255 255 / .09) 10% 12%),
+    radial-gradient(circle at 29% 23%, #d9eff0 0 7%, #bba58f 25%, #766b86 52%, #252844 82%);
   transform: translate3d(var(--space-x), var(--space-y), 0);
 }
 
@@ -2639,9 +2640,11 @@ textarea {
   right: -47%;
   bottom: 28%;
   left: -47%;
-  border: .42rem solid rgb(226 218 193 / .54);
-  border-right-color: rgb(132 176 203 / .38);
-  border-left-color: rgb(255 238 196 / .74);
+  border: .34rem solid rgb(204 218 216 / .38);
+  border-top-color: rgb(151 184 204 / .24);
+  border-right-color: rgb(104 143 177 / .26);
+  border-bottom-color: rgb(238 228 202 / .68);
+  border-left-color: rgb(221 238 229 / .58);
   border-radius: 50%;
   box-shadow: 0 0 1.1rem rgb(169 222 241 / .16);
   content: '';
@@ -2653,9 +2656,10 @@ textarea {
   right: clamp(2.5rem, 9vw, 10rem);
   width: clamp(3.5rem, 5.2vw, 5.8rem);
   background:
-    radial-gradient(circle at 63% 31%, rgb(85 37 48 / .32) 0 7%, transparent 8%),
-    radial-gradient(circle at 34% 62%, rgb(80 30 37 / .4) 0 11%, transparent 12%),
-    radial-gradient(circle at 30% 25%, #f3a47d, #a94e68 52%, #3a284e 84%);
+    radial-gradient(circle at 64% 33%, rgb(52 31 51 / .34) 0 5%, transparent 6%),
+    radial-gradient(circle at 36% 63%, rgb(55 27 44 / .3) 0 8%, transparent 9%),
+    repeating-linear-gradient(8deg, transparent 0 14%, rgb(255 208 181 / .04) 15% 18%),
+    radial-gradient(circle at 29% 23%, #e0a38e, #92586d 48%, #302944 82%);
   transform: translate3d(var(--space-x-reverse), var(--space-y-reverse), 0);
 }
 
@@ -2664,8 +2668,8 @@ textarea {
   bottom: 8%;
   width: clamp(2.8rem, 4.4vw, 4.8rem);
   background:
-    repeating-linear-gradient(0deg, transparent 0 19%, rgb(225 253 255 / .12) 20% 23%),
-    radial-gradient(circle at 31% 26%, #d5ffff, #56b7da 47%, #303a8c 84%);
+    repeating-linear-gradient(0deg, transparent 0 18%, rgb(225 253 255 / .09) 19% 22%),
+    radial-gradient(circle at 30% 24%, #d7ffff, #61afca 45%, #313d78 82%);
   transform: translate3d(var(--space-x), var(--space-y), 0);
 }
 
@@ -2681,41 +2685,85 @@ textarea {
 }
 
 .space-shooting-star {
+  --shoot-x: 74vw;
+  --shoot-y: 42vh;
+  --shoot-angle: 29deg;
   position: absolute;
   z-index: 1;
   display: block;
-  width: clamp(5rem, 11vw, 10rem);
-  height: 1px;
-  border-radius: 50%;
-  background: linear-gradient(90deg, transparent, rgb(197 248 255 / .2) 35%, #fff);
-  filter: drop-shadow(0 0 5px rgb(128 237 255 / .95));
+  width: clamp(7rem, 14vw, 13rem);
+  height: 2px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent 0, rgb(134 220 239 / .08) 25%, rgb(191 244 255 / .5) 78%, #fff 100%);
+  box-shadow: 0 0 .45rem rgb(113 221 244 / .3);
   opacity: 0;
-  animation: cosmic-shoot 9s cubic-bezier(.2, .5, .38, .96) infinite;
+  animation: cosmic-shoot 9s linear infinite;
+  backface-visibility: hidden;
   transform-origin: right center;
+  will-change: transform, opacity;
+}
+
+.space-shooting-star::before {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 58%;
+  height: 1px;
+  border-radius: inherit;
+  background: linear-gradient(90deg, transparent, rgb(226 253 255 / .78));
+  content: '';
+  transform: translateY(-50%);
 }
 
 .space-shooting-star::after {
   position: absolute;
   top: 50%;
-  right: -.16rem;
-  width: .32rem;
-  height: .32rem;
+  right: -.12rem;
+  width: .26rem;
+  height: .26rem;
   border-radius: 50%;
   background: #fff;
-  box-shadow: 0 0 .8rem .18rem rgb(153 239 255 / .66);
+  box-shadow:
+    0 0 .25rem .08rem #fff,
+    0 0 .8rem .18rem rgb(153 239 255 / .52);
   content: '';
   transform: translateY(-50%);
 }
 
-.space-shooting-star-one { top: 12%; left: 82%; animation-delay: 1.3s; }
-.space-shooting-star-two { top: 4%; left: 57%; animation-delay: 5.8s; animation-duration: 11s; }
-.space-shooting-star-three { top: 35%; left: 101%; animation-delay: 8.2s; animation-duration: 13s; }
+.space-shooting-star-one { top: 7%; left: -17%; animation-delay: -1.4s; }
+.space-shooting-star-two {
+  --shoot-x: 66vw;
+  --shoot-y: 38vh;
+  top: 27%;
+  left: -24%;
+  animation-delay: -6.2s;
+  animation-duration: 11s;
+}
+.space-shooting-star-three {
+  --shoot-x: 58vw;
+  --shoot-y: 34vh;
+  top: -6%;
+  left: 31%;
+  animation-delay: -9.4s;
+  animation-duration: 13s;
+}
 
 @keyframes cosmic-shoot {
-  0%, 73% { opacity: 0; transform: translate3d(0, 0, 0) rotate(-27deg) scaleX(.3); }
-  76% { opacity: .95; }
-  88% { opacity: .7; }
-  92%, 100% { opacity: 0; transform: translate3d(-52vw, 34vh, 0) rotate(-27deg) scaleX(1); }
+  0%, 72% {
+    opacity: 0;
+    transform: translate3d(0, 0, 0) rotate(var(--shoot-angle)) scaleX(.25);
+  }
+  75% { opacity: .94; }
+  87% { opacity: .72; }
+  91%, 100% {
+    opacity: 0;
+    transform: translate3d(var(--shoot-x), var(--shoot-y), 0) rotate(var(--shoot-angle)) scaleX(1);
+  }
+}
+
+.interactive-globe.is-dragging .space-shooting-star {
+  animation-play-state: paused;
+  opacity: 0 !important;
 }
 
 .globe-stage::before,
@@ -2786,9 +2834,9 @@ textarea {
 
 .dark .space-star-layer-far { opacity: .76; }
 .dark .space-star-layer-near { opacity: .7; }
-.dark .space-nebula { opacity: .52; }
+.dark .space-nebula { opacity: .38; }
 .dark .space-planet,
-.dark .space-moon { opacity: .88; }
+.dark .space-moon { opacity: .74; }
 
 @media (max-width: 767px) {
   .globe-space-scene { top: -4rem; bottom: -3rem; }
