@@ -3319,6 +3319,15 @@ textarea {
 .quiz-scene-observatory > path:nth-child(2) { fill: rgb(174 206 210 / .8); stroke: var(--landscape-structure-line); stroke-width: 3; }
 .quiz-scene-observatory > path:last-child,
 .quiz-scene-library > path:nth-child(2) { fill: var(--landscape-roof); stroke: var(--landscape-structure-line); stroke-width: 3; }
+.quiz-scene-lookout > path:first-child,
+.quiz-scene-compass-plaza ellipse { fill: rgb(39 61 55 / .82); stroke: rgb(167 181 165 / .48); stroke-width: 3; }
+.quiz-scene-lookout > path:nth-child(2),
+.quiz-scene-lookout > path:nth-child(3) { fill: rgb(49 58 58 / .92); stroke: rgb(198 208 202 / .68); stroke-width: 3; }
+.quiz-scene-lookout circle { fill: rgb(109 166 177 / .72); stroke: rgb(225 239 234 / .8); stroke-width: 3; }
+.quiz-scene-lookout > path:last-child { fill: none; stroke: rgb(42 48 47 / .92); stroke-width: 5; }
+.quiz-scene-compass-plaza circle:first-of-type { fill: rgb(124 160 147 / .42); stroke: rgb(219 228 211 / .76); stroke-width: 4; }
+.quiz-scene-compass-plaza > path { fill: rgb(218 194 125 / .78); stroke: rgb(65 72 61 / .82); stroke-width: 2; }
+.quiz-scene-compass-plaza circle:last-child { fill: rgb(234 219 168 / .92); }
 .quiz-scene-forest-back { opacity: .82; }
 .quiz-scene-forest-front { opacity: .98; }
 .quiz-scene-foreground-rocks {
@@ -3343,9 +3352,12 @@ textarea {
   stroke-dasharray: 30 32;
   stroke-width: 3;
 }
-.quiz-scene-bridge { fill: none; stroke: rgb(94 87 75 / .9); stroke-linecap: round; stroke-width: 9; }
-.quiz-scene-bridge path:nth-child(2) { stroke: rgb(176 170 148 / .84); stroke-width: 5; }
-.quiz-scene-bridge path:nth-child(n+3) { stroke-width: 6; }
+.quiz-scene-bridge { fill: none; stroke-linecap: round; }
+.quiz-scene-bridge-piers { stroke: rgb(84 78 68 / .94); stroke-width: 16; }
+.quiz-scene-bridge-foundations { stroke: rgb(75 73 66 / .98); stroke-width: 10; }
+.quiz-scene-bridge-rail { stroke: rgb(185 179 157 / .9); stroke-width: 7; }
+.quiz-scene-bridge-rail-back { opacity: .76; }
+.quiz-scene-bridge-posts { stroke: rgb(139 133 116 / .88); stroke-width: 6; }
 .quiz-landscape-mist {
   z-index: 2;
   pointer-events: none;
@@ -3467,7 +3479,7 @@ textarea {
 .quiz-landscape-grass-a { animation: quiz-grass-sway 4.8s ease-in-out infinite alternate; }
 .quiz-landscape-grass-b { animation: quiz-grass-sway 5.7s ease-in-out -2s infinite alternate-reverse; }
 .quiz-landscape-car {
-  animation: quiz-car-journey 26s linear -4s infinite;
+  animation: quiz-car-journey 32s linear -5s infinite;
   transform-box: view-box;
 }
 .quiz-landscape-car-shadow { fill: rgb(0 0 0 / .36); }
@@ -3475,6 +3487,11 @@ textarea {
 .quiz-landscape-car-window { fill: rgb(59 81 88 / .92); stroke: rgb(20 31 35 / .72); stroke-width: 2; }
 .quiz-landscape-car-light { fill: #ffeab0; opacity: .82; }
 .quiz-landscape-car-wheel { fill: #11181b; stroke: #8d9699; stroke-width: 2; }
+.quiz-landscape-car-wheel {
+  animation: quiz-car-wheel .72s linear infinite;
+  transform-box: fill-box;
+  transform-origin: center;
+}
 
 .quiz-landscape[data-active-station="water"] .quiz-landscape-water-motion,
 .quiz-landscape[data-active-station="cities"] .quiz-landscape-town-lights,
@@ -3484,15 +3501,15 @@ textarea {
 .quiz-landscape[data-active-station="images"] .quiz-landscape-birds {
   opacity: 1;
 }
-.quiz-landscape[data-active-station="license_plates"] .quiz-landscape-car { animation-duration: 9s; }
+.quiz-landscape[data-active-station="license_plates"] .quiz-landscape-car { animation-duration: 12s; }
 
 .quiz-landscape-station {
   position: absolute;
   display: flex;
   min-width: max-content;
-  min-height: 3rem;
+  min-height: 2.75rem;
   align-items: center;
-  gap: .42rem;
+  gap: .32rem;
   color: var(--ink);
   scroll-margin-inline: 8rem;
   transform: translate(-50%, -50%);
@@ -3508,17 +3525,17 @@ textarea {
 .quiz-landscape-station-marker {
   position: relative;
   display: flex;
-  width: 3rem;
-  height: 3rem;
+  width: 2.7rem;
+  height: 2.7rem;
   flex: 0 0 auto;
   align-items: center;
   justify-content: center;
-  border: 1px solid color-mix(in srgb, var(--ink) 38%, transparent);
+  border: 1px solid color-mix(in srgb, var(--ink) 42%, transparent);
   border-radius: 50%;
-  background: color-mix(in srgb, var(--sky-base) 58%, transparent);
-  box-shadow: 0 0 0 5px color-mix(in srgb, var(--atmosphere) 8%, transparent);
-  backdrop-filter: blur(10px) saturate(.9);
-  -webkit-backdrop-filter: blur(10px) saturate(.9);
+  background: color-mix(in srgb, var(--sky-base) 38%, transparent);
+  box-shadow: 0 5px 18px rgb(0 10 20 / .18), 0 0 0 4px color-mix(in srgb, var(--atmosphere) 7%, transparent);
+  backdrop-filter: blur(13px) saturate(.8);
+  -webkit-backdrop-filter: blur(13px) saturate(.8);
 }
 .quiz-landscape-station-marker::after {
   position: absolute;
@@ -3529,22 +3546,22 @@ textarea {
   opacity: .6;
   animation: quiz-station-ring 3.6s ease-in-out infinite;
 }
-.quiz-landscape-station-marker > svg { width: 1.35rem; height: 1.35rem; }
+.quiz-landscape-station-marker > svg { width: 1.2rem; height: 1.2rem; }
 .quiz-landscape-station-label {
   display: grid;
-  min-height: 2.75rem;
+  min-height: 2.45rem;
   align-content: center;
-  border: 1px solid color-mix(in srgb, var(--ink) 31%, transparent);
-  border-radius: .72rem;
-  background: color-mix(in srgb, var(--sky-base) 63%, transparent);
-  padding: .4rem .68rem;
-  box-shadow: 0 9px 24px rgb(2 15 25 / .12);
-  backdrop-filter: blur(11px) saturate(.9);
-  -webkit-backdrop-filter: blur(11px) saturate(.9);
+  border: 1px solid color-mix(in srgb, var(--ink) 38%, transparent);
+  border-radius: .65rem;
+  background: color-mix(in srgb, var(--sky-base) 42%, transparent);
+  padding: .34rem .58rem;
+  box-shadow: 0 7px 20px rgb(2 15 25 / .15);
+  backdrop-filter: blur(14px) saturate(.78);
+  -webkit-backdrop-filter: blur(14px) saturate(.78);
 }
 .quiz-landscape-station-label strong {
   font-family: var(--font-display);
-  font-size: .8rem;
+  font-size: .72rem;
   font-weight: 850;
   letter-spacing: -.015em;
   line-height: 1.05;
@@ -3553,7 +3570,7 @@ textarea {
   margin-top: .16rem;
   color: var(--ink-2);
   font-family: ui-monospace, monospace;
-  font-size: .48rem;
+  font-size: .44rem;
   letter-spacing: .055em;
   text-transform: uppercase;
 }
@@ -3737,11 +3754,17 @@ textarea {
   to { transform: rotate(2.2deg); }
 }
 @keyframes quiz-car-journey {
-  0%, 6% { opacity: 0; transform: translate3d(55px, 665px, 0) rotate(-4deg) scale(.68); }
-  9% { opacity: 1; }
-  48% { opacity: 1; transform: translate3d(750px, 578px, 0) rotate(-7deg) scale(.42); }
-  52%, 100% { opacity: 0; transform: translate3d(800px, 569px, 0) rotate(-7deg) scale(.4); }
+  0% { opacity: 0; transform: translate3d(-90px, 700px, 0) rotate(-10deg) scale(.72); }
+  5% { opacity: 1; transform: translate3d(55px, 672px, 0) rotate(-10deg) scale(.68); }
+  22% { opacity: 1; transform: translate3d(360px, 632px, 0) rotate(-5deg) scale(.58); }
+  39% { opacity: 1; transform: translate3d(650px, 628px, 0) rotate(2deg) scale(.5); }
+  56% { opacity: 1; transform: translate3d(930px, 592px, 0) rotate(-9deg) scale(.42); }
+  68% { opacity: 1; transform: translate3d(1210px, 550px, 0) rotate(-8deg) scale(.39); }
+  79% { opacity: 1; transform: translate3d(1500px, 536px, 0) rotate(3deg) scale(.42); }
+  90% { opacity: 1; transform: translate3d(1810px, 582px, 0) rotate(10deg) scale(.53); }
+  96%, 100% { opacity: 0; transform: translate3d(2110px, 594px, 0) rotate(-2deg) scale(.58); }
 }
+@keyframes quiz-car-wheel { to { transform: rotate(1turn); } }
 @keyframes quiz-station-ring {
   0%, 100% { opacity: .25; transform: scale(.92); }
   50% { opacity: .7; transform: scale(1.08); }

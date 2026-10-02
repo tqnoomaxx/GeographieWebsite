@@ -15,20 +15,20 @@ type SceneId = CategoryId | 'daily'
 type StationLayout = { x: number; y: number; side?: 'left' | 'right' }
 
 const STATION_LAYOUT: Partial<Record<CategoryId, StationLayout>> = {
-  flags: { x: 93, y: 42, side: 'right' },
-  countries: { x: 34, y: 62 },
-  capitals: { x: 58, y: 48 },
-  languages: { x: 87, y: 65, side: 'right' },
-  cities: { x: 62, y: 63 },
-  mixed: { x: 45, y: 47 },
-  landmarks: { x: 72, y: 55 },
-  images: { x: 8.5, y: 29 },
-  water: { x: 67.5, y: 78 },
-  nature: { x: 78, y: 22, side: 'right' },
-  license_plates: { x: 15, y: 75 },
+  flags: { x: 93, y: 44, side: 'right' },
+  countries: { x: 34, y: 66 },
+  capitals: { x: 58, y: 54 },
+  languages: { x: 87, y: 70, side: 'right' },
+  cities: { x: 63, y: 66 },
+  mixed: { x: 46, y: 59 },
+  landmarks: { x: 73, y: 61 },
+  images: { x: 11, y: 39 },
+  water: { x: 68, y: 82 },
+  nature: { x: 80, y: 29, side: 'right' },
+  license_plates: { x: 16, y: 84 },
 }
 
-const DAILY_LAYOUT: StationLayout = { x: 20.5, y: 35 }
+const DAILY_LAYOUT: StationLayout = { x: 21, y: 44 }
 
 function stationLayout(quiz: QuizDef) {
   const layout = STATION_LAYOUT[quiz.id]
@@ -284,6 +284,21 @@ function LandscapeArtwork() {
           <path d="M1770 548v57m40-57v57m41-57v57m-119 16h158" />
         </g>
 
+        <g className="quiz-scene-lookout">
+          <path d="M164 333h108l18 15-20 13H164l-22-13Z" />
+          <path d="M193 299h55v37h-55Z" />
+          <path d="m204 299 8-13h20l9 13" />
+          <circle cx="221" cy="317" r="11" />
+          <path d="m221 336-15 31m15-31 16 31m-16-31v34" />
+        </g>
+
+        <g className="quiz-scene-compass-plaza">
+          <ellipse cx="932" cy="497" rx="67" ry="24" />
+          <circle cx="932" cy="473" r="38" />
+          <path d="m932 440 11 24 24 9-24 9-11 25-11-25-24-9 24-9Z" />
+          <circle cx="932" cy="473" r="5" />
+        </g>
+
         <g className="quiz-scene-forest-back">
           <use href="#scene-pine" x="32" y="440" width="57" height="122" />
           <use href="#scene-pine" x="82" y="416" width="66" height="140" />
@@ -301,24 +316,40 @@ function LandscapeArtwork() {
           <use href="#scene-pine" x="1940" y="408" width="76" height="161" />
         </g>
 
-        <path className="quiz-scene-road-bank" d="M-70 716c302-69 465-91 714-78 211 11 397-28 572-89" />
+        <path
+          className="quiz-scene-road-bank"
+          d="M-90 700C180 650 410 613 646 628c224 15 388-38 558-76 178-39 338-31 500 11 139 36 239 65 424 32"
+        />
         <path
           fill="none"
           stroke="url(#scene-road)"
           strokeWidth="58"
-          d="M-70 706c302-69 465-91 714-78 211 11 397-28 572-89"
+          d="M-90 700C180 650 410 613 646 628c224 15 388-38 558-76 178-39 338-31 500 11 139 36 239 65 424 32"
         />
         <path
           className="quiz-scene-road-edge"
-          d="M-70 676c302-69 465-91 714-78 211 11 397-28 572-89M-70 736c302-69 465-91 714-78 211 11 397-28 572-89"
+          d="M-94 670C176 620 408 583 648 598c222 14 382-38 550-76 187-42 350-33 514 10 137 36 228 61 410 33M-86 730c270-50 498-87 730-72 226 15 397-38 566-76 169-37 320-29 486 12 141 35 251 69 438 31"
         />
-        <path className="quiz-scene-road-marking" d="M-70 706c302-69 465-91 714-78 211 11 397-28 572-89" />
+        <path
+          className="quiz-scene-road-marking"
+          d="M-90 700C180 650 410 613 646 628c224 15 388-38 558-76 178-39 338-31 500 11 139 36 239 65 424 32"
+        />
 
         <g className="quiz-scene-bridge">
-          <path d="M1462 579c144-27 265-19 373 28" />
-          <path d="M1470 594c138-26 252-18 358 26" />
-          <path d="M1501 585v61m85-72v57m87-54v56m83-36v61" />
-          <path d="M1487 646h295" />
+          <path className="quiz-scene-bridge-piers" d="M1325 565v116m173-139v119m176-104v122m177-80v111" />
+          <path className="quiz-scene-bridge-foundations" d="M1302 681h47m126-20h47m128 18h49m128 31h49" />
+          <path
+            className="quiz-scene-bridge-rail quiz-scene-bridge-rail-back"
+            d="M1201 522c181-43 344-34 511 10 140 37 237 65 414 33"
+          />
+          <path
+            className="quiz-scene-bridge-rail quiz-scene-bridge-rail-front"
+            d="M1210 582c174-38 329-31 486 12 143 39 251 68 438 31"
+          />
+          <path
+            className="quiz-scene-bridge-posts"
+            d="M1245 514v60m81-76v59m86-70v56m88-45v56m89-32v54m89-24v56m91-30v57m90-31v59m91-37v60m91-48v60"
+          />
         </g>
 
         <g className="quiz-scene-forest-front quiz-landscape-animated">
@@ -641,7 +672,7 @@ export function QuizLandscape({ counts }: { counts?: Record<string, number> }) {
             })}
             <Link
               to="/daily"
-              className="quiz-landscape-station is-right is-daily"
+              className="quiz-landscape-station is-daily"
               style={{ left: `${DAILY_LAYOUT.x}%`, top: `${DAILY_LAYOUT.y}%` }}
               aria-label={`${t('daily.title')}, ${t('play.daily_count')}`}
               data-quiz-station="daily"
