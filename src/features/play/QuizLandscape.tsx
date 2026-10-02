@@ -51,17 +51,299 @@ function useReducedMotion() {
 function LandscapeArtwork() {
   return (
     <div className="quiz-landscape-art" aria-hidden="true">
-      <img
-        className="quiz-landscape-photo quiz-landscape-animated"
-        src={`${import.meta.env.BASE_URL}media/illustrations/quiz-landscape-realistic.webp`}
-        alt=""
-        draggable={false}
-      />
-      <span className="quiz-landscape-photo-shade" />
+      <svg
+        className="quiz-landscape-scene"
+        viewBox="0 0 2048 768"
+        preserveAspectRatio="xMidYMid slice"
+        focusable="false"
+      >
+        <defs>
+          <linearGradient id="scene-sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stopColor="var(--landscape-sky-top)" />
+            <stop offset=".56" stopColor="var(--landscape-sky-mid)" />
+            <stop offset="1" stopColor="var(--landscape-sky-horizon)" />
+          </linearGradient>
+          <radialGradient id="scene-sunset" cx=".15" cy=".55" r=".58">
+            <stop offset="0" stopColor="var(--landscape-sun-core)" stopOpacity=".72" />
+            <stop offset=".32" stopColor="var(--landscape-sun-glow)" stopOpacity=".3" />
+            <stop offset="1" stopColor="var(--landscape-sun-glow)" stopOpacity="0" />
+          </radialGradient>
+          <linearGradient id="scene-mountain-far" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stopColor="var(--landscape-mountain-far-top)" />
+            <stop offset="1" stopColor="var(--landscape-mountain-far-bottom)" />
+          </linearGradient>
+          <linearGradient id="scene-mountain-mid" x1="0" y1="0" x2=".8" y2="1">
+            <stop offset="0" stopColor="var(--landscape-mountain-mid-top)" />
+            <stop offset="1" stopColor="var(--landscape-mountain-mid-bottom)" />
+          </linearGradient>
+          <linearGradient id="scene-mountain-near" x1="0" y1="0" x2=".7" y2="1">
+            <stop offset="0" stopColor="var(--landscape-mountain-near-top)" />
+            <stop offset="1" stopColor="var(--landscape-mountain-near-bottom)" />
+          </linearGradient>
+          <linearGradient id="scene-valley" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stopColor="var(--landscape-valley-top)" />
+            <stop offset="1" stopColor="var(--landscape-valley-bottom)" />
+          </linearGradient>
+          <linearGradient id="scene-lake" x1=".15" y1="0" x2=".85" y2="1">
+            <stop offset="0" stopColor="var(--landscape-water-light)" />
+            <stop offset=".58" stopColor="var(--landscape-water-mid)" />
+            <stop offset="1" stopColor="var(--landscape-water-dark)" />
+          </linearGradient>
+          <linearGradient id="scene-road" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stopColor="var(--landscape-road-light)" />
+            <stop offset="1" stopColor="var(--landscape-road-dark)" />
+          </linearGradient>
+          <linearGradient id="scene-building" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stopColor="var(--landscape-building-light)" />
+            <stop offset="1" stopColor="var(--landscape-building-dark)" />
+          </linearGradient>
+          <pattern id="scene-grain" width="43" height="37" patternUnits="userSpaceOnUse">
+            <circle cx="7" cy="9" r="1" fill="var(--landscape-grain)" />
+            <circle cx="31" cy="19" r=".8" fill="var(--landscape-grain)" />
+            <path d="m15 30 6-2" stroke="var(--landscape-grain)" strokeWidth=".8" />
+          </pattern>
+          <pattern id="scene-terrain-detail" width="132" height="88" patternUnits="userSpaceOnUse">
+            <path
+              d="M-18 31q39-26 78-5t88-3M5 69q31-17 63-3t74-2"
+              fill="none"
+              stroke="var(--landscape-grain)"
+              strokeWidth="1.6"
+            />
+            <circle cx="23" cy="45" r="1.4" fill="var(--landscape-grain)" />
+            <circle cx="104" cy="53" r="1" fill="var(--landscape-grain)" />
+          </pattern>
+          <pattern id="scene-water-detail" width="170" height="48" patternUnits="userSpaceOnUse">
+            <path
+              d="M-30 13q38-8 77 0t79 0 82 0M4 36q41-7 78 0t82 0"
+              fill="none"
+              stroke="rgb(220 248 249 / .24)"
+              strokeWidth="2"
+            />
+          </pattern>
+          <symbol id="scene-pine" viewBox="-22 -94 44 94">
+            <path d="M-3 0 0-82 4 0Z" fill="var(--landscape-tree-trunk)" />
+            <path d="m0-94-18 39h12l-19 31h17L-29 0h58L8-24h17L6-55h12Z" fill="var(--landscape-tree)" />
+            <path d="M0-88-8-55h8v31h-8L0-4Z" fill="var(--landscape-tree-light)" opacity=".5" />
+          </symbol>
+          <symbol id="scene-house" viewBox="0 0 64 58">
+            <path
+              d="M7 23 32 5l26 18v31H7Z"
+              fill="url(#scene-building)"
+              stroke="var(--landscape-structure-line)"
+              strokeWidth="2"
+            />
+            <path
+              d="m2 25 30-22 31 22"
+              fill="none"
+              stroke="var(--landscape-roof)"
+              strokeWidth="8"
+              strokeLinejoin="round"
+            />
+            <path d="M27 37h11v17H27ZM13 31h8v9h-8Zm31 0h8v9h-8Z" fill="var(--landscape-window)" />
+          </symbol>
+        </defs>
+
+        <rect width="2048" height="768" fill="url(#scene-sky)" />
+        <rect width="2048" height="768" fill="url(#scene-sunset)" />
+        <circle className="quiz-scene-sun" cx="287" cy="254" r="50" />
+
+        <g className="quiz-scene-distant-mountains">
+          <path
+            fill="url(#scene-mountain-far)"
+            d="M0 412 102 340l72 38 118-116 83 85 111-148 90 116 84-79 77 92 117-149 92 110 82-65 92 87 80-116 96 116 89-85 115 126 124-168 108 147 91-101 142 189v229H0Z"
+          />
+          <path
+            className="quiz-scene-terrain-detail"
+            d="M0 412 102 340l72 38 118-116 83 85 111-148 90 116 84-79 77 92 117-149 92 110 82-65 92 87 80-116 96 116 89-85 115 126 124-168 108 147 91-101 142 189v229H0Z"
+          />
+          <path
+            className="quiz-scene-snow-far"
+            d="m280 275 12-13 24 25 21-12 38 72-48-43-18 19Zm182-45 24-31 31 40 18-20 39 96-54-65-28 31Zm375-30 17-21 32 38 21-17 45 89-59-52-24 27Zm552-39 24-23 42 55 20-26 45 96-61-65-26 31Zm340-14 34-47 51 69 21-29 69 112-79-71-35 36Z"
+          />
+          <path
+            className="quiz-scene-mountain-strata"
+            d="M42 390 286 287m103 82 97-139m101 132 251-162m176 171 175-166m79 170 121-214m111 195 229-209m10 242 167-148"
+          />
+          <g className="quiz-scene-rock-facets">
+            <path d="m486 199-93 170 93-102 88 48Z" />
+            <path d="m854 179-73 174 73-113 99 49Z" />
+            <path d="m1200 205-82 166 82-104 86 61Z" />
+            <path d="m1413 138-91 221 91-153 108 61Z" />
+            <path d="m1763 100-118 259 118-181 142 74Z" />
+          </g>
+        </g>
+
+        <path
+          className="quiz-scene-haze"
+          d="M0 388c236-48 437-31 637 7 232 44 450 10 658-26 264-46 480-22 753 45v105H0Z"
+        />
+
+        <g className="quiz-scene-middle-mountains">
+          <path
+            fill="url(#scene-mountain-mid)"
+            d="M0 542V377l152-93 99 101 103-65 151 169 102-93 125 122 137-155 126 103 99-59 116 121 133-91 111 88 112-154 91 96 134-88 137 119 110-63 130 106v127Z"
+          />
+          <path
+            className="quiz-scene-ridge-light"
+            d="m0 377 152-93 99 101 103-65 151 169 102-93 125 122 137-155 126 103 99-59 116 121 133-91 111 88 112-154 91 96 134-88 137 119 110-63 130 106"
+          />
+          <g className="quiz-scene-slope-shadows">
+            <path d="m152 284 99 101-68 68-83-95Z" />
+            <path d="m505 489 102-93 125 122-105-52Z" />
+            <path d="m869 363 126 103-77 70-84-92Z" />
+            <path d="m1327 437 111 88-75 53-76-91Z" />
+            <path d="m1650 371 91 96-64 69-71-107Z" />
+          </g>
+        </g>
+
+        <path
+          className="quiz-scene-valley"
+          fill="url(#scene-valley)"
+          d="M0 485c223-57 410-36 587 38 193-97 422-114 627-44 211-78 498-39 834 83v206H0Z"
+        />
+        <path
+          className="quiz-scene-terrain-detail"
+          d="M0 485c223-57 410-36 587 38 193-97 422-114 627-44 211-78 498-39 834 83v206H0Z"
+        />
+        <path
+          className="quiz-scene-field quiz-scene-field-a"
+          d="M0 560c219-76 383-55 550 11-170 58-348 90-550 97Z"
+        />
+        <path
+          className="quiz-scene-field quiz-scene-field-b"
+          d="M1280 510c267-78 505-38 768 60v98c-283-101-512-113-768-56Z"
+        />
+        <path
+          className="quiz-scene-field-lines"
+          d="M25 610c197-54 346-43 503 1M1345 550c232-45 433-10 681 65M1376 588c218-34 400-2 635 65"
+        />
+
+        <path
+          className="quiz-scene-lake"
+          fill="url(#scene-lake)"
+          d="M507 500c213-68 460-61 672-11 193 46 333 25 463 81-121 78-337 123-591 117-269-7-478-73-544-187Z"
+        />
+        <path
+          className="quiz-scene-water-detail"
+          d="M507 500c213-68 460-61 672-11 193 46 333 25 463 81-121 78-337 123-591 117-269-7-478-73-544-187Z"
+        />
+        <path
+          className="quiz-scene-lake-shore"
+          d="M507 500c213-68 460-61 672-11 193 46 333 25 463 81M513 516c207 61 427 82 666 54 153-18 295-14 443 9"
+        />
+        <path
+          className="quiz-scene-lake"
+          fill="url(#scene-lake)"
+          d="M1327 567c138 3 238 51 365 45 128-5 209-58 356-25v181h-653c64-58 70-112-68-201Z"
+        />
+
+        <g className="quiz-scene-town">
+          <use href="#scene-house" x="746" y="451" width="58" height="53" />
+          <use href="#scene-house" x="808" y="431" width="66" height="60" />
+          <use href="#scene-house" x="882" y="458" width="53" height="49" />
+          <use href="#scene-house" x="945" y="420" width="72" height="65" />
+          <use href="#scene-house" x="1021" y="449" width="57" height="52" />
+          <use href="#scene-house" x="1090" y="413" width="68" height="62" />
+          <use href="#scene-house" x="1165" y="447" width="60" height="55" />
+          <use href="#scene-house" x="1230" y="424" width="72" height="65" />
+          <use href="#scene-house" x="1312" y="460" width="55" height="50" />
+          <use href="#scene-house" x="1371" y="434" width="66" height="60" />
+          <use href="#scene-house" x="1448" y="466" width="57" height="52" />
+          <path
+            className="quiz-scene-capitol"
+            d="M1128 454v-64h108v64m-124 0h141v18h-141Zm35-66c7-48 64-48 71 0Zm22-50h27v21h-27Z"
+          />
+          <path className="quiz-scene-capitol-lines" d="M1147 411v43m24-43v43m25-43v43m24-43v43" />
+          <path
+            className="quiz-scene-arch"
+            d="M1446 487v-57h92v57h-27v-28c0-32-38-32-38 0v28Zm-13 0h118v13h-118Z"
+          />
+          <path
+            className="quiz-scene-church"
+            d="m994 447 22-46 22 46v50h-44Zm13-59 9-18 9 18m-9-18v-22m-9 22h18"
+          />
+        </g>
+
+        <g className="quiz-scene-globe-pavilion">
+          <ellipse cx="696" cy="505" rx="55" ry="17" />
+          <path d="M659 505v-54m74 54v-54m-86 0h98" />
+          <circle cx="696" cy="425" r="41" />
+          <path d="M655 425h82m-41-41c-24 22-24 60 0 82m0-82c24 22 24 60 0 82" />
+        </g>
+
+        <g className="quiz-scene-observatory">
+          <path d="M372 365v-58c4-47 72-47 76 0v58Z" />
+          <path d="M372 307c4-47 72-47 76 0Z" />
+          <path d="M410 278v-42l43-20" />
+          <path d="M354 365h112v16H354Z" />
+        </g>
+
+        <g className="quiz-scene-library">
+          <path d="M1748 535h126v86h-126Z" />
+          <path d="m1733 535 78-47 78 47Z" />
+          <path d="M1770 548v57m40-57v57m41-57v57m-119 16h158" />
+        </g>
+
+        <g className="quiz-scene-forest-back">
+          <use href="#scene-pine" x="32" y="440" width="57" height="122" />
+          <use href="#scene-pine" x="82" y="416" width="66" height="140" />
+          <use href="#scene-pine" x="139" y="446" width="54" height="116" />
+          <use href="#scene-pine" x="192" y="421" width="64" height="136" />
+          <use href="#scene-pine" x="252" y="459" width="50" height="108" />
+          <use href="#scene-pine" x="304" y="438" width="59" height="126" />
+          <use href="#scene-pine" x="455" y="471" width="52" height="111" />
+          <use href="#scene-pine" x="520" y="460" width="57" height="122" />
+          <use href="#scene-pine" x="1560" y="455" width="58" height="124" />
+          <use href="#scene-pine" x="1623" y="428" width="69" height="146" />
+          <use href="#scene-pine" x="1690" y="453" width="57" height="122" />
+          <use href="#scene-pine" x="1790" y="420" width="71" height="151" />
+          <use href="#scene-pine" x="1870" y="448" width="60" height="128" />
+          <use href="#scene-pine" x="1940" y="408" width="76" height="161" />
+        </g>
+
+        <path className="quiz-scene-road-bank" d="M-70 716c302-69 465-91 714-78 211 11 397-28 572-89" />
+        <path
+          fill="none"
+          stroke="url(#scene-road)"
+          strokeWidth="58"
+          d="M-70 706c302-69 465-91 714-78 211 11 397-28 572-89"
+        />
+        <path
+          className="quiz-scene-road-edge"
+          d="M-70 676c302-69 465-91 714-78 211 11 397-28 572-89M-70 736c302-69 465-91 714-78 211 11 397-28 572-89"
+        />
+        <path className="quiz-scene-road-marking" d="M-70 706c302-69 465-91 714-78 211 11 397-28 572-89" />
+
+        <g className="quiz-scene-bridge">
+          <path d="M1462 579c144-27 265-19 373 28" />
+          <path d="M1470 594c138-26 252-18 358 26" />
+          <path d="M1501 585v61m85-72v57m87-54v56m83-36v61" />
+          <path d="M1487 646h295" />
+        </g>
+
+        <g className="quiz-scene-forest-front quiz-landscape-animated">
+          <use href="#scene-pine" x="-18" y="555" width="103" height="219" />
+          <use href="#scene-pine" x="62" y="591" width="83" height="177" />
+          <use href="#scene-pine" x="119" y="535" width="108" height="230" />
+          <use href="#scene-pine" x="219" y="584" width="86" height="184" />
+          <use href="#scene-pine" x="306" y="553" width="98" height="209" />
+          <use href="#scene-pine" x="1166" y="618" width="74" height="158" />
+          <use href="#scene-pine" x="1244" y="603" width="82" height="175" />
+          <use href="#scene-pine" x="1810" y="558" width="99" height="211" />
+          <use href="#scene-pine" x="1890" y="518" width="119" height="253" />
+          <use href="#scene-pine" x="1992" y="574" width="92" height="196" />
+        </g>
+        <path
+          className="quiz-scene-foreground-rocks"
+          d="M0 745 88 701l55 27 91-47 70 45 106-29 80 71H0Zm1606 23 82-70 69 29 63-45 102 40 65-54 61 44v76Z"
+        />
+        <rect width="2048" height="768" fill="url(#scene-grain)" opacity=".2" />
+      </svg>
+      <span className="quiz-landscape-scene-shade" />
       <span className="quiz-landscape-mist quiz-landscape-mist-near quiz-landscape-animated" />
       <span className="quiz-landscape-mist quiz-landscape-mist-far quiz-landscape-animated" />
       <svg
-        className="quiz-landscape-photo-effects"
+        className="quiz-landscape-effects"
         viewBox="0 0 2048 768"
         preserveAspectRatio="xMidYMid slice"
         focusable="false"
