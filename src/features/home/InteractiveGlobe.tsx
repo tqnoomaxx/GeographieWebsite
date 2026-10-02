@@ -253,6 +253,7 @@ export function InteractiveGlobe({
         <span className="space-nebula space-nebula-two" />
         <span className="space-star-layer space-star-layer-far" />
         <span className="space-star-layer space-star-layer-near" />
+        <span className="solar-storm" />
         <span className="space-planet space-planet-ringed" />
         <span className="space-planet space-planet-rust" />
         <span className="space-planet space-planet-ice" />

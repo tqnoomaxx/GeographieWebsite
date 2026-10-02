@@ -33,7 +33,6 @@ export function Layout() {
           <NavLink to="/" className="site-brand flex items-center gap-3">
             <BrandMark className="h-10 w-10" />
             <span>{t('app.name')}</span>
-            <small>52.5200° N<br />13.4050° E</small>
           </NavLink>
           <nav className="site-nav flex" aria-label="Hauptnavigation">
             {NAV.slice(1).map((n) => (
