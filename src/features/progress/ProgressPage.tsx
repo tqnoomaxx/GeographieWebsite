@@ -4,7 +4,7 @@ import { useGeoData } from '@/app/DataProvider'
 import { useAsync, useDocumentTitle, useStats } from '@/app/hooks'
 import { ACHIEVEMENTS } from '@/config/achievements'
 import { QUESTS } from '@/config/quests'
-import { PLAY_QUIZZES } from '@/config/quizzes'
+import { PLAY_QUIZZES, quizFor } from '@/config/quizzes'
 import { setupOf } from '@/engine/session'
 import { RoundTitle } from '@/features/play/RoundLabel'
 import { getRepository } from '@/services/progress'
@@ -41,7 +41,7 @@ export default function ProgressPage() {
   const questState = new Map((quests ?? []).map((q) => [q.id, q]))
   const acc = stats.answered ? Math.round((stats.correct / stats.answered) * 100) : 0
   const categoryStats = (id: CategoryId) => {
-    const ids: CategoryId[] = id === 'countries' ? ['countries', 'maps', 'regions'] : [id]
+    const ids: CategoryId[] = [id, ...(quizFor(id).mergedFrom ?? [])]
     const values = ids.map((key) => stats.byCategory[key]).filter((value): value is NonNullable<typeof value> => !!value)
     if (!values.length) return undefined
     return values.reduce((sum, value) => ({ answered: sum.answered + value.answered, correct: sum.correct + value.correct }), { answered: 0, correct: 0 })

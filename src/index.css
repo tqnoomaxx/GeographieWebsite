@@ -5640,3 +5640,147 @@ textarea {
     transition: none !important;
   }
 }
+
+/* Ruhigere Lesereihenfolge: Landschaft zuerst, genau eine Station im Fokus. */
+.atlas-diorama .atlas-scene-distant-ridge {
+  opacity: 0.58;
+}
+
+.atlas-diorama .atlas-scene-island-far,
+.atlas-diorama .atlas-scene-island-mid {
+  stroke: none;
+}
+
+.atlas-diorama .atlas-scene-contours {
+  opacity: 0.2;
+}
+
+.atlas-diorama .atlas-scene-small-route,
+.atlas-diorama .atlas-scene-foreground {
+  display: none;
+}
+
+.atlas-diorama .atlas-scene-route-shadow {
+  stroke-width: 70;
+}
+
+.atlas-diorama .atlas-scene-route {
+  stroke-width: 48;
+}
+
+.atlas-diorama .atlas-scene-route-line {
+  opacity: 0.58;
+  stroke-width: 3;
+}
+
+.atlas-diorama .atlas-scene-forest {
+  opacity: 0.38;
+}
+
+.atlas-diorama .atlas-scene-forest use:nth-child(2n),
+.atlas-diorama .atlas-scene-forest use:nth-child(5),
+.atlas-diorama .atlas-scene-forest use:nth-child(9),
+.atlas-diorama .atlas-scene-forest use:nth-child(13) {
+  display: none;
+}
+
+.atlas-diorama .atlas-scene-target {
+  --scene-rest-scale: 0.8;
+  --scene-active-scale: 0.86;
+  opacity: 0.7;
+  filter: saturate(0.7) contrast(0.92);
+  transform: scale(var(--scene-rest-scale));
+}
+
+.atlas-diorama .atlas-scene-target-images {
+  --scene-rest-scale: 0.76;
+  --scene-active-scale: 0.84;
+}
+
+.atlas-diorama .atlas-scene-target-daily {
+  --scene-rest-scale: 0.78;
+  --scene-active-scale: 0.86;
+}
+
+.atlas-diorama .atlas-scene-target-countries {
+  --scene-rest-scale: 0.74;
+  --scene-active-scale: 0.82;
+}
+
+.atlas-diorama .atlas-scene-target-mixed,
+.atlas-diorama .atlas-scene-target-capitals,
+.atlas-diorama .atlas-scene-target-landmarks {
+  --scene-rest-scale: 0.72;
+  --scene-active-scale: 0.8;
+}
+
+.atlas-diorama .atlas-scene-target-cities {
+  --scene-rest-scale: 0.66;
+  --scene-active-scale: 0.75;
+}
+
+.atlas-diorama .atlas-scene-target-languages {
+  --scene-rest-scale: 0.62;
+  --scene-active-scale: 0.72;
+}
+
+.atlas-diorama .atlas-scene-target-flags,
+.atlas-diorama .atlas-scene-target-license_plates {
+  --scene-rest-scale: 0.74;
+  --scene-active-scale: 0.82;
+}
+
+.atlas-diorama .atlas-scene-target-nature,
+.atlas-diorama .atlas-scene-target-water {
+  --scene-rest-scale: 1;
+  --scene-active-scale: 1.018;
+}
+
+.atlas-diorama[data-active-station] .atlas-scene-target {
+  opacity: 0.26;
+  filter: saturate(0.45) contrast(0.88);
+}
+
+.atlas-diorama[data-active-station='images'] .atlas-scene-target-images,
+.atlas-diorama[data-active-station='daily'] .atlas-scene-target-daily,
+.atlas-diorama[data-active-station='countries'] .atlas-scene-target-countries,
+.atlas-diorama[data-active-station='mixed'] .atlas-scene-target-mixed,
+.atlas-diorama[data-active-station='capitals'] .atlas-scene-target-capitals,
+.atlas-diorama[data-active-station='cities'] .atlas-scene-target-cities,
+.atlas-diorama[data-active-station='landmarks'] .atlas-scene-target-landmarks,
+.atlas-diorama[data-active-station='languages'] .atlas-scene-target-languages,
+.atlas-diorama[data-active-station='flags'] .atlas-scene-target-flags,
+.atlas-diorama[data-active-station='nature'] .atlas-scene-target-nature,
+.atlas-diorama[data-active-station='water'] .atlas-scene-target-water,
+.atlas-diorama[data-active-station='license_plates'] .atlas-scene-target-license_plates {
+  opacity: 1;
+  filter: drop-shadow(0 0 10px rgb(159 248 237 / 0.62)) drop-shadow(0 8px 9px rgb(5 27 26 / 0.24));
+  transform: translateY(-3px) scale(var(--scene-active-scale));
+}
+
+.atlas-diorama .atlas-scene-svg > rect:last-child {
+  opacity: 0.18;
+}
+
+.atlas-diorama .atlas-scene-hotspot-dot {
+  width: 0.58rem;
+  height: 0.58rem;
+  border-width: 1.5px;
+  opacity: 0.68;
+  box-shadow: 0 0 0 2px rgb(11 34 37 / 0.18);
+}
+
+.atlas-diorama .atlas-scene-hotspot:is(:hover, :focus-visible, .is-active) .atlas-scene-hotspot-dot {
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .atlas-diorama .quiz-landscape-heading h1 {
+    font-size: clamp(2.55rem, 11.5vw, 3.55rem);
+  }
+
+  .atlas-diorama .atlas-scene-hotspot-dot {
+    width: 0.72rem;
+    height: 0.72rem;
+  }
+}

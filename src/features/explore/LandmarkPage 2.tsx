@@ -13,7 +13,12 @@ export default function LandmarkPage() {
   const lm = geo.landmarks.find((l) => l.id === `landmark:${id}`)
   useDocumentTitle(lm?.names.de)
   if (!geo.ready) return null
-  if (!lm) return <Page back="/explore/landmarks"><EmptyState title={t('common.error')} /></Page>
+  if (!lm)
+    return (
+      <Page back="/explore/landmarks">
+        <EmptyState title={t('common.error')} />
+      </Page>
+    )
   const country = geo.byId.get(lm.attributes.country!)
   const photo = lm.media?.find((m) => m.kind === 'photo')
   const landmarkType = lm.attributes.landmark_type as string | undefined
@@ -37,28 +42,60 @@ export default function LandmarkPage() {
         <Card className="mb-5 overflow-hidden p-0">
           <img src={mediaUrl(photo.url)} alt={lm.names.de} className="max-h-[60vh] w-full object-cover" />
           <p className="p-3 text-xs text-ink-2">
-            {t('facts.image_source')}: <a className="underline" href={photo.source_url} target="_blank" rel="noreferrer">{photo.author} · {photo.license}</a>
+            {t('facts.image_source')}:{' '}
+            <a className="underline" href={photo.source_url} target="_blank" rel="noreferrer">
+              {photo.author} · {photo.license}
+            </a>
           </p>
         </Card>
       )}
       <Card className="mb-5">
         <dl className="grid grid-cols-2 gap-2">
-          <div className="rounded-xl bg-card-2 px-3 py-2"><dd className="font-medium">{(lm.attributes.unesco as string | undefined) ?? (landmarkType ? t(`landmark_types.${landmarkType}`, { defaultValue: landmarkType }) : '–')}</dd><dt className="text-xs text-ink-2">{lm.attributes.unesco ? t('facts.unesco') : t('facts.type')}</dt></div>
-          <div className="rounded-xl bg-card-2 px-3 py-2"><dd className="font-medium">{lm.names.en}</dd><dt className="text-xs text-ink-2">English</dt></div>
+          <div className="rounded-xl bg-card-2 px-3 py-2">
+            <dd className="font-medium">
+              {(lm.attributes.unesco as string | undefined) ??
+                (landmarkType ? t(`landmark_types.${landmarkType}`, { defaultValue: landmarkType }) : '–')}
+            </dd>
+            <dt className="text-xs text-ink-2">
+              {lm.attributes.unesco ? t('facts.unesco') : t('facts.type')}
+            </dt>
+          </div>
+          <div className="rounded-xl bg-card-2 px-3 py-2">
+            <dd className="font-medium">{lm.names.en}</dd>
+            <dt className="text-xs text-ink-2">English</dt>
+          </div>
         </dl>
-        {lm.provenance.source_url && <p className="mt-2 text-xs text-ink-2">{t('facts.source')}: <a className="underline" href={lm.provenance.source_url} target="_blank" rel="noreferrer">{lm.provenance.source}</a></p>}
+        {lm.provenance.source_url && (
+          <p className="mt-2 text-xs text-ink-2">
+            {t('facts.source')}:{' '}
+            <a className="underline" href={lm.provenance.source_url} target="_blank" rel="noreferrer">
+              {lm.provenance.source}
+            </a>
+          </p>
+        )}
       </Card>
       {facts.length > 0 && (
         <Card className="landmark-fact-card mb-5">
           <p className="eyebrow">💡 {t('facts.quick_facts')}</p>
           <ul className="landmark-fact-list">
-            {facts.map((fact) => <li key={fact}>{fact}</li>)}
+            {facts.map((fact) => (
+              <li key={fact}>{fact}</li>
+            ))}
           </ul>
         </Card>
       )}
       <div className="grid gap-2 md:grid-cols-2">
-        <Link to={`/play/landmarks/round?mode=image_to_landmark&scope=${encodeURIComponent(lm.attributes.continent ?? 'world')}&len=10`} className="btn-primary">📸 {t('modes.image_to_landmark')}</Link>
-        {country && <Link to={`/play/mixed/round?scope=${country.id}&len=10`} className="btn-secondary">🎯 {t('explore.play_this', { name: country.names.de })}</Link>}
+        <Link
+          to={`/play/landmarks/round?mode=image_to_landmark&scope=${encodeURIComponent(lm.attributes.continent ?? 'world')}&len=10`}
+          className="btn-primary"
+        >
+          📸 {t('modes.image_to_landmark')}
+        </Link>
+        {country && (
+          <Link to={`/play/mixed/round?scope=${country.id}&len=10`} className="btn-secondary">
+            🎯 {t('explore.play_this', { name: country.names.de })}
+          </Link>
+        )}
       </div>
     </Page>
   )

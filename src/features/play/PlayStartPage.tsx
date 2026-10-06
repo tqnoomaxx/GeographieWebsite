@@ -41,7 +41,11 @@ function useDesktopSetup() {
   return desktop
 }
 
-function loadSetup(category: CategoryId, requestedScope: string | null): RoundConfig {
+function loadSetup(
+  category: CategoryId,
+  requestedScope: string | null,
+  requestedMode: string | null,
+): RoundConfig {
   let setup = defaultRound(category)
   try {
     const raw = localStorage.getItem(KEY(category))
@@ -56,7 +60,11 @@ function loadSetup(category: CategoryId, requestedScope: string | null): RoundCo
     requestedScope &&
     /^country:[A-Z]{2}$/.test(requestedScope)
   )
-  return acceptsCountry && requestedScope ? { ...setup, scope: requestedScope } : setup
+  if (acceptsCountry && requestedScope) setup = { ...setup, scope: requestedScope }
+  if (requestedMode && quizFor(category).modes.some((mode) => mode.id === requestedMode)) {
+    setup = { ...setup, mode: requestedMode }
+  }
+  return setup
 }
 
 export default function PlayStartPage() {
@@ -66,9 +74,16 @@ export default function PlayStartPage() {
   if (!isCategory(category)) return <Navigate to="/play" replace />
   if (category === 'maps') return <Navigate to="/play/countries" replace />
   if (category === 'regions') return <Navigate to="/play/flags" replace />
+  if (category === 'images') return <Navigate to="/play/landmarks?mode=image_to_landmark" replace />
   const requestedScope = searchParams.get('scope')
+  const requestedMode = searchParams.get('mode')
   return (
-    <Setup key={`${category}:${requestedScope ?? ''}`} category={category} requestedScope={requestedScope} />
+    <Setup
+      key={`${category}:${requestedScope ?? ''}:${requestedMode ?? ''}`}
+      category={category}
+      requestedScope={requestedScope}
+      requestedMode={requestedMode}
+    />
   )
 }
 
@@ -76,7 +91,15 @@ export default function PlayStartPage() {
  * Rundeneinstellung in drei Schritten – Bereich, Fragetyp, Rundenlänge – vollständig aus config/quizzes.ts abgeleitet.
  * Angeboten wird nur, was mindestens MIN_POOL Lernkarten hat (R12); ungültige gespeicherte Auswahl fällt still zurück.
  */
-function Setup({ category, requestedScope }: { category: CategoryId; requestedScope: string | null }) {
+function Setup({
+  category,
+  requestedScope,
+  requestedMode,
+}: {
+  category: CategoryId
+  requestedScope: string | null
+  requestedMode: string | null
+}) {
   const { t } = useTranslation()
   const navigate = useNavigate()
   const geo = useGeoData()
@@ -84,7 +107,7 @@ function Setup({ category, requestedScope }: { category: CategoryId; requestedSc
   const hasGeographicScope = quiz.geographicScope !== false
   const desktop = useDesktopSetup()
   useDocumentTitle(t(`category.${category}`))
-  const [setup, setSetup] = useState<RoundConfig>(() => loadSetup(category, requestedScope))
+  const [setup, setSetup] = useState<RoundConfig>(() => loadSetup(category, requestedScope, requestedMode))
   const patch = (p: Partial<RoundConfig>) => setSetup((s) => ({ ...s, ...p }))
   const { data: progress } = useAsync(() => getRepository().getAllEntityProgress(), [])
 

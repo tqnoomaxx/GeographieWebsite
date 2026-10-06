@@ -38,7 +38,6 @@ test('Quizlandschaft verlinkt alle sichtbaren Stationen und öffnet die Konfigur
     'countries',
     'capitals',
     'languages',
-    'images',
     'cities',
     'landmarks',
     'water',
@@ -100,7 +99,7 @@ test('Quizlandschaft verlinkt alle sichtbaren Stationen und öffnet die Konfigur
     await page.getByRole('button', { name: 'Quizübersicht' }).click()
     const dialog = page.getByRole('dialog', { name: 'Quizübersicht' })
     await expect(dialog).toBeVisible()
-    await expect(dialog.getByRole('link')).toHaveCount(12)
+    await expect(dialog.getByRole('link')).toHaveCount(11)
     await dialog.getByRole('button', { name: 'Schließen' }).click()
     await expect(dialog).not.toBeVisible()
 
@@ -140,6 +139,19 @@ test('Quizlandschaft respektiert reduzierte Bewegung', async ({ page }) => {
     .locator('.atlas-scene-target-license_plates')
     .evaluate((node) => getComputedStyle(node).animationName)
   expect(carAnimation).toBe('none')
+})
+
+test('Fotos sind als Modus in Sehenswürdigkeiten zusammengeführt', async ({ page }) => {
+  await page.goto('play')
+  await expect(page.locator('[data-quiz-station="images"]')).toHaveCount(0)
+  await expect(page.locator('[data-quiz-station="landmarks"]')).toHaveAttribute('href', /\/play\/landmarks$/)
+  await page.goto('play/landmarks')
+  await expect(page).toHaveURL(/\/play\/landmarks$/)
+  await expect(page.getByRole('radio', { name: 'Sehenswürdigkeit am Foto erkennen' })).toBeVisible()
+
+  await page.goto('play/images')
+  await expect(page).toHaveURL(/\/play\/landmarks\?mode=image_to_landmark$/)
+  await expect(page.getByRole('radio', { name: 'Sehenswürdigkeit am Foto erkennen' })).toBeChecked()
 })
 
 test('Weltkugel wählt ein Land und öffnet dessen Quizkonfiguration', async ({ page }) => {
@@ -419,7 +431,6 @@ test('Setup jeder Kategorie startet eine Runde', async ({ page }) => {
     'flags',
     'countries',
     'capitals',
-    'images',
     'cities',
     'landmarks',
     'water',

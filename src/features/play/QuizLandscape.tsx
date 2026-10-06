@@ -21,20 +21,19 @@ type StationLayout = {
 }
 
 const STATION_LAYOUT: Partial<Record<CategoryId, StationLayout>> = {
-  images: { x: 9, y: 47, width: 11, height: 24 },
-  license_plates: { x: 15, y: 84, width: 14, height: 22 },
-  countries: { x: 34, y: 65, width: 13, height: 24 },
-  mixed: { x: 48, y: 73, width: 12, height: 21 },
-  capitals: { x: 57, y: 53, width: 12, height: 25 },
-  cities: { x: 66, y: 64, width: 14, height: 25 },
-  water: { x: 64, y: 83, width: 17, height: 20 },
-  landmarks: { x: 76, y: 65, width: 12, height: 24 },
-  nature: { x: 79, y: 27, width: 19, height: 31, tooltip: 'left' },
-  languages: { x: 88, y: 72, width: 13, height: 25, tooltip: 'left' },
-  flags: { x: 93, y: 43, width: 10, height: 27, tooltip: 'left' },
+  license_plates: { x: 17, y: 87, width: 15, height: 20 },
+  countries: { x: 35, y: 70, width: 13, height: 25 },
+  mixed: { x: 49, y: 76, width: 12, height: 21 },
+  capitals: { x: 59, y: 68, width: 12, height: 25 },
+  cities: { x: 68, y: 71, width: 14, height: 24 },
+  water: { x: 64, y: 84, width: 17, height: 18 },
+  landmarks: { x: 79, y: 78, width: 15, height: 25, tooltip: 'left' },
+  nature: { x: 83, y: 51, width: 20, height: 34, tooltip: 'left' },
+  languages: { x: 89, y: 75, width: 13, height: 25, tooltip: 'left' },
+  flags: { x: 95, y: 69, width: 10, height: 28, tooltip: 'left' },
 }
 
-const DAILY_LAYOUT: StationLayout = { x: 20, y: 43, width: 11, height: 25 }
+const DAILY_LAYOUT: StationLayout = { x: 22, y: 55, width: 12, height: 27 }
 
 function stationLayout(quiz: QuizDef) {
   const layout = STATION_LAYOUT[quiz.id]
@@ -229,15 +228,6 @@ function AtlasDioramaArtwork() {
           <use href="#atlas-pine" x="1945" y="493" width="59" height="115" />
         </g>
 
-        <g className="atlas-scene-target atlas-scene-target-images">
-          <path className="atlas-scene-platform" d="M95 406h174l27 17-29 18H98l-31-18Z" />
-          <path className="atlas-scene-camera" d="M126 345h86l17 22v55H111v-55h25Zm30 0 10-17h31l12 17Z" />
-          <circle className="atlas-scene-lens" cx="170" cy="385" r="27" />
-          <circle className="atlas-scene-lens-glint" cx="178" cy="376" r="7" />
-          <path className="atlas-scene-tripod" d="m170 422-27 64m27-64 29 64m-29-64v66" />
-          <circle className="atlas-scene-highlight" cx="170" cy="385" r="47" />
-        </g>
-
         <g className="atlas-scene-target atlas-scene-target-daily">
           <path className="atlas-scene-observatory" d="M347 411v-75c5-59 91-59 96 0v75Zm-22 0h140v21H325Z" />
           <path className="atlas-scene-observatory-dome" d="M347 336c5-59 91-59 96 0Z" />
@@ -291,7 +281,13 @@ function AtlasDioramaArtwork() {
             d="M1518 576v-96h136v96h-39v-43c0-49-58-49-58 0v43Zm-18 0h172v21h-172Z"
           />
           <path className="atlas-scene-arch-detail" d="M1538 500h96m-80-18 32-28 32 28m-95 66h30m66 0h30" />
-          <path className="atlas-scene-highlight" d="M1518 576v-96h136v96m-79-43c0-49 58-49 58 0" />
+          <path className="atlas-scene-camera" d="M1640 538h51l11 14v35h-73v-35h15Zm17 0 7-12h19l8 12Z" />
+          <circle className="atlas-scene-lens" cx="1666" cy="563" r="15" />
+          <circle className="atlas-scene-lens-glint" cx="1671" cy="558" r="4" />
+          <path
+            className="atlas-scene-highlight"
+            d="M1518 576v-96h136v96m-79-43c0-49 58-49 58 0m65 5h51l11 14v35"
+          />
         </g>
 
         <g className="atlas-scene-target atlas-scene-target-languages">

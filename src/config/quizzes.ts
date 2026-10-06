@@ -115,7 +115,7 @@ export const QUIZZES: QuizDef[] = [
     ],
   },
   {
-    id: 'images', icon: '📸', primary: true, countKey: 'photos', perCountry: true,
+    id: 'images', icon: '📸', primary: false, visible: false, countKey: 'photos', perCountry: true,
     modes: [
       { id: 'image_to_landmark', form: 'choice', generators: ['image_to_landmark'] },
       { id: 'image_to_landmark_input', form: 'input', generators: ['image_to_landmark_input'] },
@@ -141,8 +141,9 @@ export const QUIZZES: QuizDef[] = [
     ],
   },
   {
-    id: 'landmarks', icon: '🏛️', primary: false, countKey: 'landmark', perCountry: true,
+    id: 'landmarks', icon: '🏛️', primary: true, countKey: 'landmark', perCountry: true, mergedFrom: ['images'],
     modes: [
+      { id: 'image_to_landmark', form: 'choice', generators: ['image_to_landmark'] },
       { id: 'landmark_to_country', form: 'choice', generators: ['landmark_to_country'], allowCountryScope: false },
       { id: 'landmark_to_city', form: 'choice', generators: ['landmark_to_city'] },
       { id: 'landmark_to_country_input', form: 'input', generators: ['landmark_to_country_input'], allowCountryScope: false },
