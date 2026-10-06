@@ -29,6 +29,119 @@ test('Startseite und Kategorien', async ({ page }) => {
   expect(errors).toEqual([])
 })
 
+test('Quizlandschaft verlinkt alle sichtbaren Stationen und öffnet die Konfiguration', async ({
+  page,
+}, testInfo) => {
+  const errors = watchErrors(page)
+  const categories = [
+    'flags',
+    'countries',
+    'capitals',
+    'languages',
+    'images',
+    'cities',
+    'landmarks',
+    'water',
+    'nature',
+    'license_plates',
+    'mixed',
+  ]
+
+  await page.goto('play')
+  const landscape = page.getByRole('navigation', { name: 'Quizstationen in der Atlaslandschaft' })
+  await expect(landscape).toBeVisible()
+  for (const category of categories) {
+    const station = page.locator(`[data-quiz-station="${category}"]`)
+    await expect(station).toHaveAttribute('href', new RegExp(`/play/${category}$`))
+    await expect(station).toHaveAccessibleName(/\S+/)
+  }
+  await expect(page.locator('[data-quiz-station="daily"]')).toHaveAttribute('href', /\/daily$/)
+  await expect(page.locator('.atlas-scene-tooltip:visible')).toHaveCount(0)
+
+  if (testInfo.project.name === 'mobile') {
+    const viewport = page.locator('.quiz-landscape-viewport')
+    await viewport.evaluate((node) => node.scrollTo({ left: 420 }))
+    await expect.poll(() => viewport.evaluate((node) => node.scrollLeft)).toBeGreaterThan(300)
+
+    const pathAfterDrag = await viewport.evaluate((node) => {
+      const target = node.querySelector<HTMLAnchorElement>('[data-quiz-station="cities"]')
+      node.dispatchEvent(
+        new PointerEvent('pointerdown', {
+          bubbles: true,
+          pointerId: 7,
+          pointerType: 'touch',
+          clientX: 280,
+          clientY: 300,
+        }),
+      )
+      node.dispatchEvent(
+        new PointerEvent('pointermove', {
+          bubbles: true,
+          pointerId: 7,
+          pointerType: 'touch',
+          clientX: 190,
+          clientY: 305,
+        }),
+      )
+      node.dispatchEvent(
+        new PointerEvent('pointerup', {
+          bubbles: true,
+          pointerId: 7,
+          pointerType: 'touch',
+          clientX: 190,
+          clientY: 305,
+        }),
+      )
+      target?.click()
+      return location.pathname
+    })
+    expect(pathAfterDrag).toMatch(/\/play$/)
+
+    await page.getByRole('button', { name: 'Quizübersicht' }).click()
+    const dialog = page.getByRole('dialog', { name: 'Quizübersicht' })
+    await expect(dialog).toBeVisible()
+    await expect(dialog.getByRole('link')).toHaveCount(12)
+    await dialog.getByRole('button', { name: 'Schließen' }).click()
+    await expect(dialog).not.toBeVisible()
+
+    const countries = page.locator('[data-quiz-station="countries"]')
+    await countries.tap()
+    await expect(page).toHaveURL(/\/play$/)
+    await expect(page.locator('.atlas-diorama')).toHaveAttribute('data-active-station', 'countries')
+    await expect(countries.locator('.atlas-scene-tooltip')).toBeVisible()
+    await countries.tap()
+  } else {
+    const nature = page.locator('[data-quiz-station="nature"]')
+    await nature.hover()
+    await expect(page.locator('.atlas-diorama')).toHaveAttribute('data-active-station', 'nature')
+    await expect(nature.locator('.atlas-scene-tooltip')).toBeVisible()
+
+    const countries = page.locator('[data-quiz-station="countries"]')
+    await countries.focus()
+    await expect(countries).toBeFocused()
+    await expect(page.locator('.atlas-diorama')).toHaveAttribute('data-active-station', 'countries')
+    await countries.press('Enter')
+  }
+
+  await expect(page).toHaveURL(/\/play\/countries$/)
+  await expect(page.getByRole('heading', { name: 'Länder' })).toBeVisible()
+  await expect(page.getByRole('button', { name: "Los geht's" })).toBeEnabled()
+  expect(errors).toEqual([])
+})
+
+test('Quizlandschaft respektiert reduzierte Bewegung', async ({ page }) => {
+  await page.emulateMedia({ reducedMotion: 'reduce' })
+  await page.goto('play')
+  const animationName = await page
+    .locator('.atlas-scene-clouds')
+    .evaluate((node) => getComputedStyle(node).animationName)
+  expect(animationName).toBe('none')
+  const carAnimation = await page
+    .locator('.atlas-scene-target-license_plates')
+    .evaluate((node) => getComputedStyle(node).animationName)
+  expect(carAnimation).toBe('none')
+})
+
 test('Weltkugel wählt ein Land und öffnet dessen Quizkonfiguration', async ({ page }) => {
   const errors = watchErrors(page)
   await page.goto('')
@@ -111,6 +224,9 @@ test('„Alle“-Runde speichern und fortsetzen', async ({ page }) => {
   await page.getByRole('group').getByRole('button').first().click()
   await page.getByRole('button', { name: 'Weiter' }).click()
   await page.getByRole('button', { name: /Beenden/ }).click()
+  await page.goto('play')
+  await expect(page.getByRole('heading', { name: 'Offene Runden' })).toBeVisible()
+  await expect(page.getByRole('link', { name: /Weiterspielen/ })).toBeVisible()
   await page.goto('')
   await expect(page.getByRole('link', { name: 'Weiterspielen' })).toBeVisible()
   await page.getByRole('link', { name: 'Weiterspielen' }).click()
@@ -339,11 +455,16 @@ test('Schriftenmodus zeigt Original, Umschrift und Lernfakten', async ({ page })
   expect(errors).toEqual([])
 })
 
-test('Karten und Regionen sind in Flaggen und Länder zusammengeführt', async ({ page }) => {
+test('Karten und Regionen sind in Flaggen und Länder zusammengeführt', async ({ page }, testInfo) => {
   await page.goto('play')
   await expect(page.getByRole('link', { name: /^Karten/ })).toHaveCount(0)
   await expect(page.getByRole('link', { name: /^Regionen/ })).toHaveCount(0)
-  await page.getByRole('link', { name: /^Länder/ }).click()
+  const countriesStation = page.getByRole('link', { name: /^Länder/ })
+  await countriesStation.click()
+  if (testInfo.project.name === 'mobile') {
+    await expect(page.locator('[data-active-station]')).toHaveAttribute('data-active-station', 'countries')
+    await countriesStation.click()
+  }
   await expect(page.getByRole('radio', { name: 'Region → Land' })).toBeVisible()
   await expect(page.getByRole('radio', { name: 'Länder auf der Karte' })).toBeVisible()
   await expect(page.getByRole('radio', { name: 'Regionen auf der Karte' })).toBeVisible()
@@ -369,7 +490,9 @@ test('Erweiterte Quizmodi erzeugen die passenden Fragen', async ({ page }) => {
   await page.goto('play/countries')
   await page.getByRole('radio', { name: 'Nationale Symbole', exact: true }).click()
   await page.getByRole('button', { name: "Los geht's" }).click()
-  await expect(page.locator('[data-generator="national_animal"], [data-generator="national_flower"]')).toBeVisible()
+  await expect(
+    page.locator('[data-generator="national_animal"], [data-generator="national_flower"]'),
+  ).toBeVisible()
 })
 
 test('Mehrdeutige und triviale Varianten werden vermieden', async ({ page }) => {

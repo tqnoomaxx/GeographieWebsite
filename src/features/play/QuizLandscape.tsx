@@ -12,29 +12,37 @@ import type { CategoryId } from '@/engine/types'
 import { CategoryIcon, Icons } from '@/ui/icons'
 
 type SceneId = CategoryId | 'daily'
-type StationLayout = { x: number; y: number; side?: 'left' | 'right' }
-
-const STATION_LAYOUT: Partial<Record<CategoryId, StationLayout>> = {
-  flags: { x: 93, y: 44, side: 'right' },
-  countries: { x: 34, y: 66 },
-  capitals: { x: 58, y: 54 },
-  languages: { x: 87, y: 70, side: 'right' },
-  cities: { x: 63, y: 66 },
-  mixed: { x: 46, y: 59 },
-  landmarks: { x: 73, y: 61 },
-  images: { x: 11, y: 39 },
-  water: { x: 68, y: 82 },
-  nature: { x: 80, y: 29, side: 'right' },
-  license_plates: { x: 16, y: 84 },
+type StationLayout = {
+  x: number
+  y: number
+  width: number
+  height: number
+  tooltip?: 'center' | 'left' | 'right'
 }
 
-const DAILY_LAYOUT: StationLayout = { x: 21, y: 44 }
+const STATION_LAYOUT: Partial<Record<CategoryId, StationLayout>> = {
+  images: { x: 9, y: 47, width: 11, height: 24 },
+  license_plates: { x: 15, y: 84, width: 14, height: 22 },
+  countries: { x: 34, y: 65, width: 13, height: 24 },
+  mixed: { x: 48, y: 73, width: 12, height: 21 },
+  capitals: { x: 57, y: 53, width: 12, height: 25 },
+  cities: { x: 66, y: 64, width: 14, height: 25 },
+  water: { x: 64, y: 83, width: 17, height: 20 },
+  landmarks: { x: 76, y: 65, width: 12, height: 24 },
+  nature: { x: 79, y: 27, width: 19, height: 31, tooltip: 'left' },
+  languages: { x: 88, y: 72, width: 13, height: 25, tooltip: 'left' },
+  flags: { x: 93, y: 43, width: 10, height: 27, tooltip: 'left' },
+}
+
+const DAILY_LAYOUT: StationLayout = { x: 20, y: 43, width: 11, height: 25 }
 
 function stationLayout(quiz: QuizDef) {
   const layout = STATION_LAYOUT[quiz.id]
   if (!layout) throw new Error(`Keine Landschaftsposition für sichtbares Quiz: ${quiz.id}`)
   return layout
 }
+
+const QUIZ_STATIONS = PLAY_QUIZZES.map((quiz) => ({ quiz, layout: stationLayout(quiz) }))
 
 function useReducedMotion() {
   const [reduced, setReduced] = useState(false)
@@ -48,472 +56,302 @@ function useReducedMotion() {
   return reduced
 }
 
-function LandscapeArtwork() {
+function AtlasDioramaArtwork() {
   return (
-    <div className="quiz-landscape-art" aria-hidden="true">
+    <div className="atlas-scene-art" aria-hidden="true">
       <svg
-        className="quiz-landscape-scene"
+        className="atlas-scene-svg"
         viewBox="0 0 2048 768"
         preserveAspectRatio="xMidYMid slice"
         focusable="false"
       >
         <defs>
-          <linearGradient id="scene-sky" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stopColor="var(--landscape-sky-top)" />
-            <stop offset=".56" stopColor="var(--landscape-sky-mid)" />
-            <stop offset="1" stopColor="var(--landscape-sky-horizon)" />
+          <linearGradient id="atlas-sky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stopColor="var(--scene-sky-top)" />
+            <stop offset=".58" stopColor="var(--scene-sky-mid)" />
+            <stop offset="1" stopColor="var(--scene-sky-low)" />
           </linearGradient>
-          <radialGradient id="scene-sunset" cx=".15" cy=".55" r=".58">
-            <stop offset="0" stopColor="var(--landscape-sun-core)" stopOpacity=".72" />
-            <stop offset=".32" stopColor="var(--landscape-sun-glow)" stopOpacity=".3" />
-            <stop offset="1" stopColor="var(--landscape-sun-glow)" stopOpacity="0" />
+          <radialGradient id="atlas-sun-haze" cx=".12" cy=".42" r=".43">
+            <stop offset="0" stopColor="var(--scene-sun)" stopOpacity=".72" />
+            <stop offset=".35" stopColor="var(--scene-sun)" stopOpacity=".2" />
+            <stop offset="1" stopColor="var(--scene-sun)" stopOpacity="0" />
           </radialGradient>
-          <linearGradient id="scene-mountain-far" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stopColor="var(--landscape-mountain-far-top)" />
-            <stop offset="1" stopColor="var(--landscape-mountain-far-bottom)" />
+          <linearGradient id="atlas-water" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stopColor="var(--scene-water-light)" />
+            <stop offset=".52" stopColor="var(--scene-water-mid)" />
+            <stop offset="1" stopColor="var(--scene-water-dark)" />
           </linearGradient>
-          <linearGradient id="scene-mountain-mid" x1="0" y1="0" x2=".8" y2="1">
-            <stop offset="0" stopColor="var(--landscape-mountain-mid-top)" />
-            <stop offset="1" stopColor="var(--landscape-mountain-mid-bottom)" />
+          <linearGradient id="atlas-land-far" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stopColor="var(--scene-land-far-top)" />
+            <stop offset="1" stopColor="var(--scene-land-far-bottom)" />
           </linearGradient>
-          <linearGradient id="scene-mountain-near" x1="0" y1="0" x2=".7" y2="1">
-            <stop offset="0" stopColor="var(--landscape-mountain-near-top)" />
-            <stop offset="1" stopColor="var(--landscape-mountain-near-bottom)" />
+          <linearGradient id="atlas-land-mid" x1=".2" y1="0" x2=".8" y2="1">
+            <stop offset="0" stopColor="var(--scene-land-mid-top)" />
+            <stop offset="1" stopColor="var(--scene-land-mid-bottom)" />
           </linearGradient>
-          <linearGradient id="scene-valley" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stopColor="var(--landscape-valley-top)" />
-            <stop offset="1" stopColor="var(--landscape-valley-bottom)" />
+          <linearGradient id="atlas-land-near" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stopColor="var(--scene-land-near-top)" />
+            <stop offset="1" stopColor="var(--scene-land-near-bottom)" />
           </linearGradient>
-          <linearGradient id="scene-lake" x1=".15" y1="0" x2=".85" y2="1">
-            <stop offset="0" stopColor="var(--landscape-water-light)" />
-            <stop offset=".58" stopColor="var(--landscape-water-mid)" />
-            <stop offset="1" stopColor="var(--landscape-water-dark)" />
+          <linearGradient id="atlas-road" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stopColor="var(--scene-road-light)" />
+            <stop offset="1" stopColor="var(--scene-road-dark)" />
           </linearGradient>
-          <linearGradient id="scene-road" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stopColor="var(--landscape-road-light)" />
-            <stop offset="1" stopColor="var(--landscape-road-dark)" />
+          <linearGradient id="atlas-stone" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stopColor="var(--scene-stone-light)" />
+            <stop offset="1" stopColor="var(--scene-stone-dark)" />
           </linearGradient>
-          <linearGradient id="scene-building" x1="0" y1="0" x2="1" y2="1">
-            <stop offset="0" stopColor="var(--landscape-building-light)" />
-            <stop offset="1" stopColor="var(--landscape-building-dark)" />
-          </linearGradient>
-          <pattern id="scene-grain" width="43" height="37" patternUnits="userSpaceOnUse">
-            <circle cx="7" cy="9" r="1" fill="var(--landscape-grain)" />
-            <circle cx="31" cy="19" r=".8" fill="var(--landscape-grain)" />
-            <path d="m15 30 6-2" stroke="var(--landscape-grain)" strokeWidth=".8" />
+          <pattern id="atlas-grain" width="29" height="31" patternUnits="userSpaceOnUse">
+            <circle cx="4" cy="8" r="1" fill="var(--scene-grain)" />
+            <circle cx="22" cy="19" r=".8" fill="var(--scene-grain)" />
+            <path d="m9 25 7-2" stroke="var(--scene-grain)" strokeWidth=".8" />
           </pattern>
-          <pattern id="scene-terrain-detail" width="132" height="88" patternUnits="userSpaceOnUse">
+          <pattern id="atlas-contours" width="160" height="72" patternUnits="userSpaceOnUse">
             <path
-              d="M-18 31q39-26 78-5t88-3M5 69q31-17 63-3t74-2"
+              d="M-15 28q44-23 87-4t104-2M5 61q38-16 75-2t91-1"
               fill="none"
-              stroke="var(--landscape-grain)"
-              strokeWidth="1.6"
-            />
-            <circle cx="23" cy="45" r="1.4" fill="var(--landscape-grain)" />
-            <circle cx="104" cy="53" r="1" fill="var(--landscape-grain)" />
-          </pattern>
-          <pattern id="scene-water-detail" width="170" height="48" patternUnits="userSpaceOnUse">
-            <path
-              d="M-30 13q38-8 77 0t79 0 82 0M4 36q41-7 78 0t82 0"
-              fill="none"
-              stroke="rgb(220 248 249 / .24)"
-              strokeWidth="2"
+              stroke="var(--scene-contour)"
+              strokeWidth="1.8"
             />
           </pattern>
-          <symbol id="scene-pine" viewBox="-22 -94 44 94">
-            <path d="M-3 0 0-82 4 0Z" fill="var(--landscape-tree-trunk)" />
-            <path d="m0-94-18 39h12l-19 31h17L-29 0h58L8-24h17L6-55h12Z" fill="var(--landscape-tree)" />
-            <path d="M0-88-8-55h8v31h-8L0-4Z" fill="var(--landscape-tree-light)" opacity=".5" />
+          <symbol id="atlas-pine" viewBox="-20 -78 40 78">
+            <path d="M-2 0V-51h4V0Z" fill="var(--scene-trunk)" />
+            <path d="m0-75-14 28h9l-14 23h12L-20 0h40L7-24h12L5-47h9Z" fill="var(--scene-tree)" />
+            <path d="M0-69-5-46h5v22h-5L0-5Z" fill="var(--scene-tree-light)" opacity=".55" />
           </symbol>
-          <symbol id="scene-house" viewBox="0 0 64 58">
+          <symbol id="atlas-house" viewBox="0 0 60 58">
             <path
-              d="M7 23 32 5l26 18v31H7Z"
-              fill="url(#scene-building)"
-              stroke="var(--landscape-structure-line)"
-              strokeWidth="2"
+              d="M7 25 30 7l23 18v28H7Z"
+              fill="var(--scene-building)"
+              stroke="var(--scene-line)"
+              strokeWidth="2.5"
             />
             <path
-              d="m2 25 30-22 31 22"
+              d="m3 27 27-22 27 22"
               fill="none"
-              stroke="var(--landscape-roof)"
-              strokeWidth="8"
+              stroke="var(--scene-roof)"
+              strokeWidth="7"
               strokeLinejoin="round"
             />
-            <path d="M27 37h11v17H27ZM13 31h8v9h-8Zm31 0h8v9h-8Z" fill="var(--landscape-window)" />
+            <path d="M26 36h9v17h-9Zm-12-3h7v8h-7Zm25 0h7v8h-7Z" fill="var(--scene-window)" />
           </symbol>
         </defs>
 
-        <rect width="2048" height="768" fill="url(#scene-sky)" />
-        <rect width="2048" height="768" fill="url(#scene-sunset)" />
-        <circle className="quiz-scene-sun" cx="287" cy="254" r="50" />
+        <rect width="2048" height="768" fill="url(#atlas-sky)" />
+        <rect width="2048" height="768" fill="url(#atlas-sun-haze)" />
+        <circle className="atlas-scene-sun" cx="228" cy="276" r="45" />
 
-        <g className="quiz-scene-distant-mountains">
+        <g className="atlas-scene-motion atlas-scene-clouds">
+          <path d="M-80 178c91-44 187-39 257 7 96-50 213-26 270 34-182 27-358 18-527-41Z" />
+          <path d="M690 115c111-48 223-34 298 22 105-45 240-20 306 50-204 17-405-7-604-72Z" />
+          <path d="M1450 136c101-43 207-34 277 16 83-33 183-13 247 40-183 23-358 5-524-56Z" />
+        </g>
+
+        <g className="atlas-scene-distant-ridge">
+          <path d="M0 430 121 349l83 47 108-117 88 78 125-150 102 126 88-72 86 75 124-141 103 108 87-66 91 81 106-121 98 109 102-91 110 112 137-164 106 139 92-88 111 125v201H0Z" />
           <path
-            fill="url(#scene-mountain-far)"
-            d="M0 412 102 340l72 38 118-116 83 85 111-148 90 116 84-79 77 92 117-149 92 110 82-65 92 87 80-116 96 116 89-85 115 126 124-168 108 147 91-101 142 189v229H0Z"
+            className="atlas-scene-ridge-ink"
+            d="M0 430 121 349l83 47 108-117 88 78 125-150 102 126 88-72 86 75 124-141 103 108 87-66 91 81 106-121 98 109 102-91 110 112 137-164 106 139 92-88 111 125"
+          />
+        </g>
+
+        <g className="atlas-scene-target atlas-scene-target-nature">
+          <path className="atlas-scene-nature-halo" d="m1372 339 166-255 83 116 83-151 196 292Z" />
+          <path
+            className="atlas-scene-mountain-back"
+            d="m1252 391 139-201 78 104 122-221 80 124 76-110 181 304Z"
           />
           <path
-            className="quiz-scene-terrain-detail"
-            d="M0 412 102 340l72 38 118-116 83 85 111-148 90 116 84-79 77 92 117-149 92 110 82-65 92 87 80-116 96 116 89-85 115 126 124-168 108 147 91-101 142 189v229H0Z"
+            className="atlas-scene-mountain-face"
+            d="m1391 190 78 104 122-221 80 124 76-110 181 304-212-153-77 92-63-99-86 116Z"
           />
           <path
-            className="quiz-scene-snow-far"
-            d="m280 275 12-13 24 25 21-12 38 72-48-43-18 19Zm182-45 24-31 31 40 18-20 39 96-54-65-28 31Zm375-30 17-21 32 38 21-17 45 89-59-52-24 27Zm552-39 24-23 42 55 20-26 45 96-61-65-26 31Zm340-14 34-47 51 69 21-29 69 112-79-71-35 36Z"
+            className="atlas-scene-snow"
+            d="m1372 217 19-27 25 34 20-19 33 89-49-50-21 26Zm181-77 38-67 41 63 24-35 53 92-64-52-29 37Zm162 0 32-53 44 74-49-35-21 28Z"
+          />
+          <path className="atlas-scene-highlight" d="m1327 357 64-167 78 104 122-221 80 124 76-110 125 215" />
+        </g>
+
+        <path
+          className="atlas-scene-water"
+          d="M0 461c235-63 451-46 648 40 227-100 465-102 687-11 209-83 441-58 713 40v238H0Z"
+        />
+        <path
+          className="atlas-scene-island-far"
+          d="M0 515c211-73 411-65 595 20 213-89 432-92 650-9 230-75 497-38 803 78v164H0Z"
+        />
+        <path
+          className="atlas-scene-island-mid"
+          d="M0 570c205-77 394-67 570 4 175-56 349-45 510 15 244-92 559-48 968 99v80H0Z"
+        />
+        <path
+          className="atlas-scene-island-near"
+          d="M0 650c215-66 408-62 593-7 179-43 348-31 510 27 251-72 566-48 945 47v51H0Z"
+        />
+        <path
+          className="atlas-scene-contours"
+          d="M0 515c211-73 411-65 595 20 213-89 432-92 650-9 230-75 497-38 803 78v164H0Z"
+        />
+
+        <g className="atlas-scene-routes">
+          <path
+            className="atlas-scene-route-shadow"
+            d="M-72 690c249-78 480-72 683-11 181 54 345 5 503-52 186-66 363-54 540 2 151 48 266 62 464 17"
           />
           <path
-            className="quiz-scene-mountain-strata"
-            d="M42 390 286 287m103 82 97-139m101 132 251-162m176 171 175-166m79 170 121-214m111 195 229-209m10 242 167-148"
+            className="atlas-scene-route"
+            d="M-72 690c249-78 480-72 683-11 181 54 345 5 503-52 186-66 363-54 540 2 151 48 266 62 464 17"
           />
-          <g className="quiz-scene-rock-facets">
-            <path d="m486 199-93 170 93-102 88 48Z" />
-            <path d="m854 179-73 174 73-113 99 49Z" />
-            <path d="m1200 205-82 166 82-104 86 61Z" />
-            <path d="m1413 138-91 221 91-153 108 61Z" />
-            <path d="m1763 100-118 259 118-181 142 74Z" />
+          <path
+            className="atlas-scene-route-line"
+            d="M-72 690c249-78 480-72 683-11 181 54 345 5 503-52 186-66 363-54 540 2 151 48 266 62 464 17"
+          />
+          <path
+            className="atlas-scene-small-route"
+            d="M420 605c92-39 171-82 239-140 61-51 113-72 179-78M1042 613c-25-82 7-143 95-184m240 150c52-56 111-89 190-105m85 150c62-79 121-141 210-183"
+          />
+        </g>
+
+        <g className="atlas-scene-forest atlas-scene-motion">
+          <use href="#atlas-pine" x="35" y="490" width="55" height="107" />
+          <use href="#atlas-pine" x="85" y="468" width="67" height="130" />
+          <use href="#atlas-pine" x="151" y="498" width="53" height="104" />
+          <use href="#atlas-pine" x="207" y="470" width="64" height="125" />
+          <use href="#atlas-pine" x="281" y="520" width="52" height="102" />
+          <use href="#atlas-pine" x="425" y="504" width="58" height="113" />
+          <use href="#atlas-pine" x="505" y="517" width="51" height="100" />
+          <use href="#atlas-pine" x="1160" y="509" width="54" height="106" />
+          <use href="#atlas-pine" x="1232" y="526" width="48" height="94" />
+          <use href="#atlas-pine" x="1590" y="485" width="63" height="123" />
+          <use href="#atlas-pine" x="1660" y="456" width="72" height="140" />
+          <use href="#atlas-pine" x="1730" y="496" width="56" height="109" />
+          <use href="#atlas-pine" x="1871" y="454" width="76" height="148" />
+          <use href="#atlas-pine" x="1945" y="493" width="59" height="115" />
+        </g>
+
+        <g className="atlas-scene-target atlas-scene-target-images">
+          <path className="atlas-scene-platform" d="M95 406h174l27 17-29 18H98l-31-18Z" />
+          <path className="atlas-scene-camera" d="M126 345h86l17 22v55H111v-55h25Zm30 0 10-17h31l12 17Z" />
+          <circle className="atlas-scene-lens" cx="170" cy="385" r="27" />
+          <circle className="atlas-scene-lens-glint" cx="178" cy="376" r="7" />
+          <path className="atlas-scene-tripod" d="m170 422-27 64m27-64 29 64m-29-64v66" />
+          <circle className="atlas-scene-highlight" cx="170" cy="385" r="47" />
+        </g>
+
+        <g className="atlas-scene-target atlas-scene-target-daily">
+          <path className="atlas-scene-observatory" d="M347 411v-75c5-59 91-59 96 0v75Zm-22 0h140v21H325Z" />
+          <path className="atlas-scene-observatory-dome" d="M347 336c5-59 91-59 96 0Z" />
+          <path className="atlas-scene-telescope" d="M394 298v-54l57-27m-59 27 38 8" />
+          <path className="atlas-scene-highlight" d="M347 336c5-59 91-59 96 0" />
+        </g>
+
+        <g className="atlas-scene-target atlas-scene-target-countries">
+          <ellipse className="atlas-scene-plaza" cx="692" cy="552" rx="89" ry="28" />
+          <path className="atlas-scene-globe-stand" d="M647 551v-69m90 69v-69m-108 0h127" />
+          <circle className="atlas-scene-globe" cx="692" cy="437" r="61" />
+          <path
+            className="atlas-scene-globe-lines"
+            d="M632 437h120m-60-60c-34 31-34 89 0 120m0-120c34 31 34 89 0 120m-49-96c25 17 73 17 98 0m-98 72c25-17 73-17 98 0"
+          />
+          <circle className="atlas-scene-highlight" cx="692" cy="437" r="75" />
+        </g>
+
+        <g className="atlas-scene-target atlas-scene-target-mixed">
+          <ellipse className="atlas-scene-plaza" cx="982" cy="574" rx="98" ry="34" />
+          <circle className="atlas-scene-compass" cx="982" cy="540" r="58" />
+          <path
+            className="atlas-scene-compass-star"
+            d="m982 492 15 34 35 14-35 14-15 36-15-36-35-14 35-14Z"
+          />
+          <circle className="atlas-scene-compass-core" cx="982" cy="540" r="8" />
+          <circle className="atlas-scene-highlight" cx="982" cy="540" r="74" />
+        </g>
+
+        <g className="atlas-scene-target atlas-scene-target-capitals">
+          <path
+            className="atlas-scene-capitol"
+            d="M1091 505v-89h152v89m-174 0h196v25h-196Zm45-94c10-69 91-69 102 0Zm30-71h43v28h-43Z"
+          />
+          <path className="atlas-scene-capitol-lines" d="M1118 442v63m34-63v63m35-63v63m34-63v63" />
+          <path className="atlas-scene-highlight" d="M1091 505v-89h152v89m-129-94c10-69 91-69 102 0" />
+        </g>
+
+        <g className="atlas-scene-target atlas-scene-target-cities">
+          <use href="#atlas-house" x="1260" y="469" width="74" height="71" />
+          <use href="#atlas-house" x="1327" y="436" width="90" height="86" />
+          <use href="#atlas-house" x="1413" y="477" width="71" height="68" />
+          <use href="#atlas-house" x="1470" y="445" width="82" height="79" />
+          <path className="atlas-scene-city-tower" d="M1382 495v-111h47v111m-58 0h69m-46-111 12-28 12 28" />
+          <path className="atlas-scene-highlight" d="M1251 536c82-72 207-105 311-20" />
+        </g>
+
+        <g className="atlas-scene-target atlas-scene-target-landmarks">
+          <path
+            className="atlas-scene-arch"
+            d="M1518 576v-96h136v96h-39v-43c0-49-58-49-58 0v43Zm-18 0h172v21h-172Z"
+          />
+          <path className="atlas-scene-arch-detail" d="M1538 500h96m-80-18 32-28 32 28m-95 66h30m66 0h30" />
+          <path className="atlas-scene-highlight" d="M1518 576v-96h136v96m-79-43c0-49 58-49 58 0" />
+        </g>
+
+        <g className="atlas-scene-target atlas-scene-target-languages">
+          <path className="atlas-scene-library" d="M1736 555h172v126h-172Z" />
+          <path className="atlas-scene-library-roof" d="m1717 555 105-63 105 63Z" />
+          <path className="atlas-scene-library-lines" d="M1765 574v83m56-83v83m57-83v83m-161 24h210" />
+          <path
+            className="atlas-scene-book"
+            d="M1780 519q35-18 70 5v50q-35-23-70-5Zm70 5q35-23 70-5v50q-35-18-70 5Z"
+          />
+          <path className="atlas-scene-highlight" d="m1717 555 105-63 105 63m-147-36q35-18 70 5 35-23 70-5" />
+        </g>
+
+        <g className="atlas-scene-target atlas-scene-target-flags">
+          <path className="atlas-scene-flag-tower" d="M1870 420h104v90h-104Zm-15 90h134v20h-134Z" />
+          <path className="atlas-scene-flagpole" d="M1922 420V259" />
+          <g className="atlas-scene-motion atlas-scene-flag-cloth">
+            <path d="M1930 277c32-16 59 12 94-2v55c-35 16-62-13-94 2Z" />
+            <path d="M1932 294c30-12 58 12 90-1m-90 19c30-12 58 12 90-1" />
           </g>
+          <path className="atlas-scene-highlight" d="M1922 420V259m8 18c32-16 59 12 94-2" />
         </g>
 
-        <path
-          className="quiz-scene-haze"
-          d="M0 388c236-48 437-31 637 7 232 44 450 10 658-26 264-46 480-22 753 45v105H0Z"
-        />
-
-        <g className="quiz-scene-middle-mountains">
+        <g className="atlas-scene-target atlas-scene-target-water">
           <path
-            fill="url(#scene-mountain-mid)"
-            d="M0 542V377l152-93 99 101 103-65 151 169 102-93 125 122 137-155 126 103 99-59 116 121 133-91 111 88 112-154 91 96 134-88 137 119 110-63 130 106v127Z"
+            className="atlas-scene-river"
+            d="M779 571c126-8 211 32 306 72 108 46 206 31 298-7 84-34 154-26 226 16 85 49 161 65 281 30"
           />
           <path
-            className="quiz-scene-ridge-light"
-            d="m0 377 152-93 99 101 103-65 151 169 102-93 125 122 137-155 126 103 99-59 116 121 133-91 111 88 112-154 91 96 134-88 137 119 110-63 130 106"
+            className="atlas-scene-river-bank"
+            d="M770 555c134-9 221 31 322 74 101 42 192 28 282-9 91-37 169-28 244 15 79 46 148 61 268 28M789 589c117-6 199 34 289 72 115 49 221 34 315-5 77-32 140-23 207 17 91 53 174 69 295 29"
           />
-          <g className="quiz-scene-slope-shadows">
-            <path d="m152 284 99 101-68 68-83-95Z" />
-            <path d="m505 489 102-93 125 122-105-52Z" />
-            <path d="m869 363 126 103-77 70-84-92Z" />
-            <path d="m1327 437 111 88-75 53-76-91Z" />
-            <path d="m1650 371 91 96-64 69-71-107Z" />
+          <g className="atlas-scene-motion atlas-scene-water-glints">
+            <path d="M915 607c79 4 125 47 202 55m131-4c74-4 116-39 187-31m133 28c58 38 112 49 188 40" />
           </g>
+          <path className="atlas-scene-highlight" d="M779 571c126-8 211 32 306 72 108 46 206 31 298-7" />
         </g>
 
-        <path
-          className="quiz-scene-valley"
-          fill="url(#scene-valley)"
-          d="M0 485c223-57 410-36 587 38 193-97 422-114 627-44 211-78 498-39 834 83v206H0Z"
-        />
-        <path
-          className="quiz-scene-terrain-detail"
-          d="M0 485c223-57 410-36 587 38 193-97 422-114 627-44 211-78 498-39 834 83v206H0Z"
-        />
-        <path
-          className="quiz-scene-field quiz-scene-field-a"
-          d="M0 560c219-76 383-55 550 11-170 58-348 90-550 97Z"
-        />
-        <path
-          className="quiz-scene-field quiz-scene-field-b"
-          d="M1280 510c267-78 505-38 768 60v98c-283-101-512-113-768-56Z"
-        />
-        <path
-          className="quiz-scene-field-lines"
-          d="M25 610c197-54 346-43 503 1M1345 550c232-45 433-10 681 65M1376 588c218-34 400-2 635 65"
-        />
-
-        <path
-          className="quiz-scene-lake"
-          fill="url(#scene-lake)"
-          d="M507 500c213-68 460-61 672-11 193 46 333 25 463 81-121 78-337 123-591 117-269-7-478-73-544-187Z"
-        />
-        <path
-          className="quiz-scene-water-detail"
-          d="M507 500c213-68 460-61 672-11 193 46 333 25 463 81-121 78-337 123-591 117-269-7-478-73-544-187Z"
-        />
-        <path
-          className="quiz-scene-lake-shore"
-          d="M507 500c213-68 460-61 672-11 193 46 333 25 463 81M513 516c207 61 427 82 666 54 153-18 295-14 443 9"
-        />
-        <path
-          className="quiz-scene-lake"
-          fill="url(#scene-lake)"
-          d="M1327 567c138 3 238 51 365 45 128-5 209-58 356-25v181h-653c64-58 70-112-68-201Z"
-        />
-
-        <g className="quiz-scene-town">
-          <use href="#scene-house" x="746" y="451" width="58" height="53" />
-          <use href="#scene-house" x="808" y="431" width="66" height="60" />
-          <use href="#scene-house" x="882" y="458" width="53" height="49" />
-          <use href="#scene-house" x="945" y="420" width="72" height="65" />
-          <use href="#scene-house" x="1021" y="449" width="57" height="52" />
-          <use href="#scene-house" x="1090" y="413" width="68" height="62" />
-          <use href="#scene-house" x="1165" y="447" width="60" height="55" />
-          <use href="#scene-house" x="1230" y="424" width="72" height="65" />
-          <use href="#scene-house" x="1312" y="460" width="55" height="50" />
-          <use href="#scene-house" x="1371" y="434" width="66" height="60" />
-          <use href="#scene-house" x="1448" y="466" width="57" height="52" />
-          <path
-            className="quiz-scene-capitol"
-            d="M1128 454v-64h108v64m-124 0h141v18h-141Zm35-66c7-48 64-48 71 0Zm22-50h27v21h-27Z"
-          />
-          <path className="quiz-scene-capitol-lines" d="M1147 411v43m24-43v43m25-43v43m24-43v43" />
-          <path
-            className="quiz-scene-arch"
-            d="M1446 487v-57h92v57h-27v-28c0-32-38-32-38 0v28Zm-13 0h118v13h-118Z"
-          />
-          <path
-            className="quiz-scene-church"
-            d="m994 447 22-46 22 46v50h-44Zm13-59 9-18 9 18m-9-18v-22m-9 22h18"
-          />
+        <g className="atlas-scene-target atlas-scene-target-license_plates">
+          <ellipse className="atlas-scene-car-shadow" cx="306" cy="678" rx="78" ry="17" />
+          <path className="atlas-scene-car-body" d="M224 642h27l28-37h61l37 37h25l17 19-9 31H217l-12-31Z" />
+          <path className="atlas-scene-car-window" d="m263 638 23-28h48l29 28Z" />
+          <path className="atlas-scene-car-bumper" d="M217 671h193" />
+          <circle className="atlas-scene-car-wheel" cx="258" cy="690" r="18" />
+          <circle className="atlas-scene-car-wheel" cx="369" cy="690" r="18" />
+          <rect className="atlas-scene-plate" x="286" y="654" width="53" height="18" rx="2" />
+          <path className="atlas-scene-highlight" d="M224 642h27l28-37h61l37 37h25" />
         </g>
 
-        <g className="quiz-scene-globe-pavilion">
-          <ellipse cx="696" cy="505" rx="55" ry="17" />
-          <path d="M659 505v-54m74 54v-54m-86 0h98" />
-          <circle cx="696" cy="425" r="41" />
-          <path d="M655 425h82m-41-41c-24 22-24 60 0 82m0-82c24 22 24 60 0 82" />
+        <g className="atlas-scene-foreground atlas-scene-motion">
+          <use href="#atlas-pine" x="-15" y="611" width="105" height="204" />
+          <use href="#atlas-pine" x="77" y="637" width="89" height="174" />
+          <use href="#atlas-pine" x="181" y="610" width="102" height="199" />
+          <use href="#atlas-pine" x="417" y="643" width="83" height="162" />
+          <use href="#atlas-pine" x="1117" y="646" width="81" height="158" />
+          <use href="#atlas-pine" x="1641" y="632" width="92" height="179" />
+          <use href="#atlas-pine" x="1931" y="608" width="109" height="212" />
         </g>
 
-        <g className="quiz-scene-observatory">
-          <path d="M372 365v-58c4-47 72-47 76 0v58Z" />
-          <path d="M372 307c4-47 72-47 76 0Z" />
-          <path d="M410 278v-42l43-20" />
-          <path d="M354 365h112v16H354Z" />
-        </g>
-
-        <g className="quiz-scene-library">
-          <path d="M1748 535h126v86h-126Z" />
-          <path d="m1733 535 78-47 78 47Z" />
-          <path d="M1770 548v57m40-57v57m41-57v57m-119 16h158" />
-        </g>
-
-        <g className="quiz-scene-lookout">
-          <path d="M164 333h108l18 15-20 13H164l-22-13Z" />
-          <path d="M193 299h55v37h-55Z" />
-          <path d="m204 299 8-13h20l9 13" />
-          <circle cx="221" cy="317" r="11" />
-          <path d="m221 336-15 31m15-31 16 31m-16-31v34" />
-        </g>
-
-        <g className="quiz-scene-compass-plaza">
-          <ellipse cx="932" cy="497" rx="67" ry="24" />
-          <circle cx="932" cy="473" r="38" />
-          <path d="m932 440 11 24 24 9-24 9-11 25-11-25-24-9 24-9Z" />
-          <circle cx="932" cy="473" r="5" />
-        </g>
-
-        <g className="quiz-scene-forest-back">
-          <use href="#scene-pine" x="32" y="440" width="57" height="122" />
-          <use href="#scene-pine" x="82" y="416" width="66" height="140" />
-          <use href="#scene-pine" x="139" y="446" width="54" height="116" />
-          <use href="#scene-pine" x="192" y="421" width="64" height="136" />
-          <use href="#scene-pine" x="252" y="459" width="50" height="108" />
-          <use href="#scene-pine" x="304" y="438" width="59" height="126" />
-          <use href="#scene-pine" x="455" y="471" width="52" height="111" />
-          <use href="#scene-pine" x="520" y="460" width="57" height="122" />
-          <use href="#scene-pine" x="1560" y="455" width="58" height="124" />
-          <use href="#scene-pine" x="1623" y="428" width="69" height="146" />
-          <use href="#scene-pine" x="1690" y="453" width="57" height="122" />
-          <use href="#scene-pine" x="1790" y="420" width="71" height="151" />
-          <use href="#scene-pine" x="1870" y="448" width="60" height="128" />
-          <use href="#scene-pine" x="1940" y="408" width="76" height="161" />
-        </g>
-
-        <path
-          className="quiz-scene-road-bank"
-          d="M-90 700C180 650 410 613 646 628c224 15 388-38 558-76 178-39 338-31 500 11 139 36 239 65 424 32"
-        />
-        <path
-          fill="none"
-          stroke="url(#scene-road)"
-          strokeWidth="58"
-          d="M-90 700C180 650 410 613 646 628c224 15 388-38 558-76 178-39 338-31 500 11 139 36 239 65 424 32"
-        />
-        <path
-          className="quiz-scene-road-edge"
-          d="M-94 670C176 620 408 583 648 598c222 14 382-38 550-76 187-42 350-33 514 10 137 36 228 61 410 33M-86 730c270-50 498-87 730-72 226 15 397-38 566-76 169-37 320-29 486 12 141 35 251 69 438 31"
-        />
-        <path
-          className="quiz-scene-road-marking"
-          d="M-90 700C180 650 410 613 646 628c224 15 388-38 558-76 178-39 338-31 500 11 139 36 239 65 424 32"
-        />
-
-        <g className="quiz-scene-bridge">
-          <path className="quiz-scene-bridge-piers" d="M1325 565v116m173-139v119m176-104v122m177-80v111" />
-          <path className="quiz-scene-bridge-foundations" d="M1302 681h47m126-20h47m128 18h49m128 31h49" />
-          <path
-            className="quiz-scene-bridge-rail quiz-scene-bridge-rail-back"
-            d="M1201 522c181-43 344-34 511 10 140 37 237 65 414 33"
-          />
-          <path
-            className="quiz-scene-bridge-rail quiz-scene-bridge-rail-front"
-            d="M1210 582c174-38 329-31 486 12 143 39 251 68 438 31"
-          />
-          <path
-            className="quiz-scene-bridge-posts"
-            d="M1245 514v60m81-76v59m86-70v56m88-45v56m89-32v54m89-24v56m91-30v57m90-31v59m91-37v60m91-48v60"
-          />
-        </g>
-
-        <g className="quiz-scene-forest-front quiz-landscape-animated">
-          <use href="#scene-pine" x="-18" y="555" width="103" height="219" />
-          <use href="#scene-pine" x="62" y="591" width="83" height="177" />
-          <use href="#scene-pine" x="119" y="535" width="108" height="230" />
-          <use href="#scene-pine" x="219" y="584" width="86" height="184" />
-          <use href="#scene-pine" x="306" y="553" width="98" height="209" />
-          <use href="#scene-pine" x="1166" y="618" width="74" height="158" />
-          <use href="#scene-pine" x="1244" y="603" width="82" height="175" />
-          <use href="#scene-pine" x="1810" y="558" width="99" height="211" />
-          <use href="#scene-pine" x="1890" y="518" width="119" height="253" />
-          <use href="#scene-pine" x="1992" y="574" width="92" height="196" />
-        </g>
-        <path
-          className="quiz-scene-foreground-rocks"
-          d="M0 745 88 701l55 27 91-47 70 45 106-29 80 71H0Zm1606 23 82-70 69 29 63-45 102 40 65-54 61 44v76Z"
-        />
-        <rect width="2048" height="768" fill="url(#scene-grain)" opacity=".2" />
-      </svg>
-      <span className="quiz-landscape-scene-shade" />
-      <span className="quiz-landscape-mist quiz-landscape-mist-near quiz-landscape-animated" />
-      <span className="quiz-landscape-mist quiz-landscape-mist-far quiz-landscape-animated" />
-      <svg
-        className="quiz-landscape-effects"
-        viewBox="0 0 2048 768"
-        preserveAspectRatio="xMidYMid slice"
-        focusable="false"
-      >
-        <defs>
-          <linearGradient id="landscape-cloud" x1="0" y1="0" x2="1" y2=".2">
-            <stop offset="0" stopColor="#f6efe9" stopOpacity="0" />
-            <stop offset=".36" stopColor="#dce6ef" stopOpacity=".34" />
-            <stop offset=".68" stopColor="#f9d5c5" stopOpacity=".22" />
-            <stop offset="1" stopColor="#cad7e6" stopOpacity="0" />
-          </linearGradient>
-          <linearGradient id="landscape-water-light" x1="0" y1="0" x2="1" y2="0">
-            <stop offset="0" stopColor="#bdf6ff" stopOpacity="0" />
-            <stop offset=".48" stopColor="#e8ffff" stopOpacity=".68" />
-            <stop offset="1" stopColor="#86ddea" stopOpacity="0" />
-          </linearGradient>
-          <linearGradient id="landscape-flag" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stopColor="#efc85c" />
-            <stop offset=".5" stopColor="#d9584d" />
-            <stop offset="1" stopColor="#294c86" />
-          </linearGradient>
-          <radialGradient id="landscape-window-light">
-            <stop offset="0" stopColor="#fff6c5" />
-            <stop offset=".38" stopColor="#ffd46d" />
-            <stop offset="1" stopColor="#ffb347" stopOpacity="0" />
-          </radialGradient>
-          <linearGradient id="landscape-car-paint" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stopColor="#ec6658" />
-            <stop offset="1" stopColor="#8f211f" />
-          </linearGradient>
-        </defs>
-
-        <g className="quiz-landscape-clouds quiz-landscape-animated">
-          <path
-            className="quiz-landscape-cloud quiz-landscape-cloud-a"
-            fill="url(#landscape-cloud)"
-            d="M-170 164c92-38 181-42 258-13 81-48 183-42 249-4 94-31 208-12 269 34-132 24-273 31-420 24-128-6-243-19-356-41Z"
-          />
-          <path
-            className="quiz-landscape-cloud quiz-landscape-cloud-b"
-            fill="url(#landscape-cloud)"
-            d="M1160 112c86-34 168-34 235-5 67-42 172-32 229 6 71-18 157-4 213 35-107 24-219 30-337 23-125-8-235-28-340-59Z"
-          />
-          <path
-            className="quiz-landscape-cloud quiz-landscape-cloud-c"
-            fill="url(#landscape-cloud)"
-            d="M523 223c79-31 161-29 224 3 72-34 162-24 223 15-118 22-261 23-447-18Z"
-          />
-        </g>
-
-        <g className="quiz-landscape-birds quiz-landscape-animated">
-          <g className="quiz-landscape-bird quiz-landscape-bird-a">
-            <path d="M0 8q10-11 20 0q10-11 20 0" />
-            <path d="M12 18q8-8 16 0" />
-          </g>
-          <g className="quiz-landscape-bird quiz-landscape-bird-b">
-            <path d="M0 7q8-9 16 0q8-9 16 0" />
-            <path d="M37 15q6-7 13 0" />
-          </g>
-        </g>
-
-        <g className="quiz-landscape-mountain-light quiz-landscape-animated">
-          <path d="m1477 110 79 114 53-75 88 139-112-99-31 66-74-73-97 98Z" />
-          <path d="m1085 211 53 57 39-37 61 74-91-44-39 42-82 37Z" />
-        </g>
-
-        <g className="quiz-landscape-observatory-beam quiz-landscape-animated">
-          <path d="M405 322 738 111l42 75-362 151Z" />
-          <circle cx="410" cy="327" r="7" />
-        </g>
-
-        <g className="quiz-landscape-water-motion quiz-landscape-animated">
-          <path
-            className="quiz-landscape-lake-ripple quiz-landscape-lake-ripple-a"
-            d="M719 479c183-32 420-29 604 13"
-          />
-          <path
-            className="quiz-landscape-lake-ripple quiz-landscape-lake-ripple-b"
-            d="M650 516c213-34 468-26 640 20"
-          />
-          <path
-            className="quiz-landscape-lake-ripple quiz-landscape-lake-ripple-c"
-            d="M796 554c144-18 301-3 397 31"
-          />
-          <path
-            className="quiz-landscape-river-glint"
-            d="M1112 483c113 5 186 65 288 45 95-19 160-76 258-53 85 20 119 83 247 79"
-          />
-          <path
-            className="quiz-landscape-river-glint quiz-landscape-river-glint-b"
-            d="M1200 518c92 25 134 66 232 37 89-27 144-58 244-35 71 17 127 69 239 73"
-          />
-        </g>
-
-        <g className="quiz-landscape-town-lights quiz-landscape-animated">
-          <circle cx="877" cy="449" r="7" />
-          <circle cx="926" cy="435" r="5" />
-          <circle cx="974" cy="457" r="6" />
-          <circle cx="1026" cy="429" r="5" />
-          <circle cx="1072" cy="422" r="7" />
-          <circle cx="1112" cy="414" r="5" />
-          <circle cx="1161" cy="430" r="7" />
-          <circle cx="1208" cy="411" r="5" />
-          <circle cx="1260" cy="430" r="7" />
-          <circle cx="1322" cy="439" r="5" />
-          <circle cx="1415" cy="445" r="7" />
-          <circle cx="1493" cy="430" r="5" />
-          <circle cx="1550" cy="451" r="6" />
-          <circle cx="1625" cy="438" r="5" />
-        </g>
-
-        <g className="quiz-landscape-flag-scene quiz-landscape-animated">
-          <path className="quiz-landscape-flagpole" d="M1835 304v142" />
-          <circle className="quiz-landscape-flagpole" cx="1835" cy="299" r="5" />
-          <g className="quiz-landscape-flag-cloth">
-            <path fill="url(#landscape-flag)" d="M1841 317c23-10 40 10 65-1v39c-25 12-42-10-65 1Z" />
-            <path d="M1842 330c23-9 40 10 63-1M1842 343c23-9 40 10 63-1" />
-          </g>
-        </g>
-
-        <g className="quiz-landscape-foreground quiz-landscape-animated">
-          <path
-            className="quiz-landscape-grass quiz-landscape-grass-a"
-            d="M79 768q-11-62 4-108m-4 50-32-37m34 18 36-51m-4 128q-2-78 21-127m-19 70-39-31m51 5 38-54"
-          />
-          <path
-            className="quiz-landscape-grass quiz-landscape-grass-b"
-            d="M1882 768q8-70-18-126m20 63 38-43m-41 14-24-51m80 143q-2-62 17-111m-15 61-30-27m39-2 28-43"
-          />
-        </g>
-
-        <g className="quiz-landscape-car quiz-landscape-animated">
-          <ellipse className="quiz-landscape-car-shadow" cx="0" cy="18" rx="39" ry="8" />
-          <path className="quiz-landscape-car-body" d="M-44-2h14l15-20h31L36-2h12l8 10-4 14h-98L-53 8Z" />
-          <path className="quiz-landscape-car-window" d="m-23-4 13-15h23L28-4Z" />
-          <path className="quiz-landscape-car-light" d="M43 1h9l4 7H44Z" />
-          <circle className="quiz-landscape-car-wheel" cx="-29" cy="21" r="9" />
-          <circle className="quiz-landscape-car-wheel" cx="31" cy="21" r="9" />
-        </g>
+        <rect width="2048" height="768" fill="url(#atlas-grain)" opacity=".5" />
       </svg>
     </div>
   )
@@ -524,16 +362,20 @@ function countLabel(quiz: QuizDef, counts?: Record<string, number>) {
   return value === undefined ? undefined : `${value.toLocaleString('de-DE')} Einträge`
 }
 
+function isCoarsePointer() {
+  return window.matchMedia('(hover: none), (pointer: coarse)').matches
+}
+
 export function QuizLandscape({ counts }: { counts?: Record<string, number> }) {
   const { t } = useTranslation()
   const rootRef = useRef<HTMLElement>(null)
-  const viewportRef = useRef<HTMLDivElement>(null)
   const overviewRef = useRef<HTMLDialogElement>(null)
   const pointerStartRef = useRef<{ x: number; y: number } | null>(null)
   const draggedRef = useRef(false)
   const scrollTimerRef = useRef<number | null>(null)
   const reducedMotion = useReducedMotion()
   const [activeStation, setActiveStation] = useState<SceneId>()
+  const [touchStation, setTouchStation] = useState<SceneId>()
   const [inView, setInView] = useState(true)
   const [pageVisible, setPageVisible] = useState(!document.hidden)
   const [scrolling, setScrolling] = useState(false)
@@ -562,7 +404,6 @@ export function QuizLandscape({ counts }: { counts?: Record<string, number> }) {
     [],
   )
 
-  const quizzes = PLAY_QUIZZES.map((quiz) => ({ quiz, layout: stationLayout(quiz) }))
   const motionPaused = reducedMotion || !inView || !pageVisible || scrolling || panning
 
   const onScroll = () => {
@@ -591,10 +432,16 @@ export function QuizLandscape({ counts }: { counts?: Record<string, number> }) {
     }, 0)
   }
 
-  const preventDraggedClick = (event: ReactMouseEvent<HTMLDivElement>) => {
-    if (!draggedRef.current) return
-    event.preventDefault()
-    event.stopPropagation()
+  const onViewportClickCapture = (event: ReactMouseEvent<HTMLDivElement>) => {
+    if (draggedRef.current) {
+      event.preventDefault()
+      event.stopPropagation()
+      return
+    }
+    if (!(event.target as Element).closest('[data-quiz-station]')) {
+      setActiveStation(undefined)
+      setTouchStation(undefined)
+    }
   }
 
   const focusStation = (event: React.FocusEvent<HTMLAnchorElement>, id: SceneId) => {
@@ -608,15 +455,65 @@ export function QuizLandscape({ counts }: { counts?: Record<string, number> }) {
     }
   }
 
+  const selectStationOnTouch = (event: ReactMouseEvent<HTMLAnchorElement>, id: SceneId) => {
+    if (!isCoarsePointer() || touchStation === id) return
+    event.preventDefault()
+    setActiveStation(id)
+    setTouchStation(id)
+    event.currentTarget.scrollIntoView({
+      behavior: reducedMotion ? 'auto' : 'smooth',
+      block: 'nearest',
+      inline: 'center',
+    })
+  }
+
   const openOverview = () => {
     const dialog = overviewRef.current
-    if (dialog && !dialog.open) dialog.showModal()
+    if (dialog && !dialog.open) {
+      setTouchStation(undefined)
+      dialog.showModal()
+    }
   }
+
+  const stationLink = (id: SceneId, layout: StationLayout, href: string, label: string, detail?: string) => (
+    <Link
+      key={id}
+      to={href}
+      className={`atlas-scene-hotspot tooltip-${layout.tooltip ?? 'center'} ${activeStation === id ? 'is-active' : ''}`}
+      style={{
+        left: `${layout.x}%`,
+        top: `${layout.y}%`,
+        width: `${layout.width}%`,
+        height: `${layout.height}%`,
+      }}
+      aria-label={[label, detail, t('play.configure')].filter(Boolean).join(', ')}
+      data-quiz-station={id}
+      onPointerEnter={(event) => {
+        if (event.pointerType !== 'touch') setActiveStation(id)
+      }}
+      onPointerLeave={(event) => {
+        if (event.pointerType !== 'touch' && !event.currentTarget.matches(':focus'))
+          setActiveStation(undefined)
+      }}
+      onFocus={(event) => focusStation(event, id)}
+      onBlur={() => setActiveStation(undefined)}
+      onClick={(event) => selectStationOnTouch(event, id)}
+    >
+      <span className="atlas-scene-hotspot-dot" aria-hidden />
+      <span className="atlas-scene-tooltip" aria-hidden="true">
+        <strong>{label}</strong>
+        {detail ? <small>{detail}</small> : null}
+        <em>
+          {t('play.configure')} <Icons.arrow />
+        </em>
+      </span>
+    </Link>
+  )
 
   return (
     <section
       ref={rootRef}
-      className={`quiz-landscape ${motionPaused ? 'is-motion-paused' : ''}`}
+      className={`quiz-landscape atlas-diorama ${motionPaused ? 'is-motion-paused' : ''}`}
       data-active-station={activeStation}
       aria-labelledby="quiz-landscape-title"
     >
@@ -629,68 +526,28 @@ export function QuizLandscape({ counts }: { counts?: Record<string, number> }) {
       </header>
 
       <div
-        ref={viewportRef}
-        className="quiz-landscape-viewport"
+        className="quiz-landscape-viewport atlas-scene-viewport"
         onScroll={onScroll}
         onPointerDownCapture={onPointerDown}
         onPointerMoveCapture={onPointerMove}
         onPointerUpCapture={finishPointer}
         onPointerCancelCapture={finishPointer}
         onPointerLeave={finishPointer}
-        onClickCapture={preventDraggedClick}
+        onClickCapture={onViewportClickCapture}
       >
-        <div className="quiz-landscape-stage">
-          <LandscapeArtwork />
-          <nav className="quiz-landscape-stations" aria-label={t('play.landscape_nav')}>
-            {quizzes.map(({ quiz, layout }) => {
-              const label = t(`category.${quiz.id}`)
-              const count = countLabel(quiz, counts)
-              return (
-                <Link
-                  key={quiz.id}
-                  to={`/play/${quiz.id}`}
-                  className={`quiz-landscape-station ${layout.side ? `is-${layout.side}` : ''}`}
-                  style={{ left: `${layout.x}%`, top: `${layout.y}%` }}
-                  aria-label={count ? `${label}, ${count}` : label}
-                  data-quiz-station={quiz.id}
-                  onPointerEnter={() => setActiveStation(quiz.id)}
-                  onPointerLeave={(event) => {
-                    if (!event.currentTarget.matches(':focus')) setActiveStation(undefined)
-                  }}
-                  onFocus={(event) => focusStation(event, quiz.id)}
-                  onBlur={() => setActiveStation(undefined)}
-                >
-                  <span className="quiz-landscape-station-marker">
-                    <CategoryIcon id={quiz.id} className="h-9 w-9" />
-                  </span>
-                  <span className="quiz-landscape-station-label">
-                    <strong>{label}</strong>
-                    {count && <small>{count}</small>}
-                  </span>
-                </Link>
-              )
-            })}
-            <Link
-              to="/daily"
-              className="quiz-landscape-station is-daily"
-              style={{ left: `${DAILY_LAYOUT.x}%`, top: `${DAILY_LAYOUT.y}%` }}
-              aria-label={`${t('daily.title')}, ${t('play.daily_count')}`}
-              data-quiz-station="daily"
-              onPointerEnter={() => setActiveStation('daily')}
-              onPointerLeave={(event) => {
-                if (!event.currentTarget.matches(':focus')) setActiveStation(undefined)
-              }}
-              onFocus={(event) => focusStation(event, 'daily')}
-              onBlur={() => setActiveStation(undefined)}
-            >
-              <span className="quiz-landscape-station-marker">
-                <Icons.daily aria-hidden />
-              </span>
-              <span className="quiz-landscape-station-label">
-                <strong>{t('daily.title')}</strong>
-                <small>{t('play.daily_count')}</small>
-              </span>
-            </Link>
+        <div className="quiz-landscape-stage atlas-scene-stage">
+          <AtlasDioramaArtwork />
+          <nav className="atlas-scene-hotspots" aria-label={t('play.landscape_nav')}>
+            {QUIZ_STATIONS.map(({ quiz, layout }) =>
+              stationLink(
+                quiz.id,
+                layout,
+                `/play/${quiz.id}`,
+                t(`category.${quiz.id}`),
+                countLabel(quiz, counts),
+              ),
+            )}
+            {stationLink('daily', DAILY_LAYOUT, '/daily', t('daily.title'), t('play.daily_count'))}
           </nav>
         </div>
       </div>
@@ -726,14 +583,14 @@ export function QuizLandscape({ counts }: { counts?: Record<string, number> }) {
             </button>
           </header>
           <nav aria-label={t('play.overview')}>
-            {quizzes.map(({ quiz }) => {
+            {QUIZ_STATIONS.map(({ quiz }) => {
               const count = countLabel(quiz, counts)
               return (
                 <Link key={quiz.id} to={`/play/${quiz.id}`}>
                   <CategoryIcon id={quiz.id} className="h-10 w-10" />
                   <span>
                     <strong>{t(`category.${quiz.id}`)}</strong>
-                    {count && <small>{count}</small>}
+                    {count ? <small>{count}</small> : null}
                   </span>
                   <Icons.arrow aria-hidden />
                 </Link>

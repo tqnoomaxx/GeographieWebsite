@@ -6,7 +6,6 @@ import { useAsync, useDocumentTitle } from '@/app/hooks'
 import {
   AUTO,
   MIN_POOL,
-  PLAY_QUIZZES,
   ROUND_LENGTHS,
   autoModes,
   isCategory,
@@ -23,9 +22,10 @@ import type { Entity } from '@/domain/types'
 import { getRepository } from '@/services/progress'
 import { Page, Card, Flag, ProgressBar } from '@/ui'
 import { normalizeAnswer } from '@/engine/normalize'
-import { CategoryIconTile, Icons, IconTile } from '@/ui/icons'
+import { CategoryIconTile, Icons } from '@/ui/icons'
 import { RoundTitle } from './RoundLabel'
 import { FLAG_HINT_COUNTRY_COUNT } from './FlagImage'
+import { QuizLandscape } from './QuizLandscape'
 
 const KEY = (category: CategoryId) => `gk.setup.${category}`
 
@@ -51,7 +51,11 @@ function loadSetup(category: CategoryId, requestedScope: string | null): RoundCo
   } catch {
     setup = defaultRound(category)
   }
-  const acceptsCountry = !!(quizFor(category).perCountry && requestedScope && /^country:[A-Z]{2}$/.test(requestedScope))
+  const acceptsCountry = !!(
+    quizFor(category).perCountry &&
+    requestedScope &&
+    /^country:[A-Z]{2}$/.test(requestedScope)
+  )
   return acceptsCountry && requestedScope ? { ...setup, scope: requestedScope } : setup
 }
 
@@ -63,7 +67,9 @@ export default function PlayStartPage() {
   if (category === 'maps') return <Navigate to="/play/countries" replace />
   if (category === 'regions') return <Navigate to="/play/flags" replace />
   const requestedScope = searchParams.get('scope')
-  return <Setup key={`${category}:${requestedScope ?? ''}`} category={category} requestedScope={requestedScope} />
+  return (
+    <Setup key={`${category}:${requestedScope ?? ''}`} category={category} requestedScope={requestedScope} />
+  )
 }
 
 /**
@@ -237,62 +243,68 @@ function Setup({ category, requestedScope }: { category: CategoryId; requestedSc
       <div className="atlas-rule mb-7 mt-6 h-px" />
       <div className="setup-config-grid">
         <div className="min-w-0">
-          {hasGeographicScope && <Section step={1} title={t('setup.scope_title')} description={t('setup.scope_desc')}>
-            <div className="setup-scope-grid" role="radiogroup" aria-label={t('play.scope')}>
-              {['world', ...continents].map((s, index) => {
-                const selected = s === activeContinent
-                return (
-                  <button
-                    key={s}
-                    type="button"
-                    role="radio"
-                    aria-checked={selected}
-                    aria-label={t(`scope.${s}`)}
-                    className={`setup-scope-choice ${selected ? 'is-selected' : ''}`}
-                    onClick={() => patch({ scope: s })}
-                  >
-                    <span className="setup-radio" aria-hidden />
-                    <span className="setup-scope-index" aria-hidden>
-                      {String(index + 1).padStart(2, '0')}
-                    </span>
-                    <span className="setup-scope-copy">
-                      <strong>{t(`scope.${s}`)}</strong>
-                      <small>
-                        {s === 'world'
-                          ? t('setup.scope_world_desc')
-                          : t('setup.scope_available', { count: count(s) })}
-                      </small>
-                    </span>
-                  </button>
-                )
-              })}
-            </div>
-            {countries.length > 0 && (
-              <CountryPicker
-                groups={countryGroups}
-                continent={activeContinent === 'world' ? undefined : activeContinent}
-                value={isCountryScope(scope) ? scope : ''}
-                onChange={(id) => patch({ scope: id || activeContinent })}
-              />
-            )}
-            {contentOptions.length > 1 && content && (
-              <div className="setup-inline-setting">
-                <span className="setup-inline-label">{t('setup.content_label')}</span>
-                <SegmentedChoices
-                  label={t('setup.content_label')}
-                  value={key(content)}
-                  onChange={(v) => patch({ content: v.split('+') as Content[] })}
-                  items={contentOptions.map((c) => ({
-                    value: key(c),
-                    label: c.length === 2 ? t('setup.content.all') : t(`setup.content.${category}.${c[0]}`),
-                  }))}
-                />
+          {hasGeographicScope && (
+            <Section step={1} title={t('setup.scope_title')} description={t('setup.scope_desc')}>
+              <div className="setup-scope-grid" role="radiogroup" aria-label={t('play.scope')}>
+                {['world', ...continents].map((s, index) => {
+                  const selected = s === activeContinent
+                  return (
+                    <button
+                      key={s}
+                      type="button"
+                      role="radio"
+                      aria-checked={selected}
+                      aria-label={t(`scope.${s}`)}
+                      className={`setup-scope-choice ${selected ? 'is-selected' : ''}`}
+                      onClick={() => patch({ scope: s })}
+                    >
+                      <span className="setup-radio" aria-hidden />
+                      <span className="setup-scope-index" aria-hidden>
+                        {String(index + 1).padStart(2, '0')}
+                      </span>
+                      <span className="setup-scope-copy">
+                        <strong>{t(`scope.${s}`)}</strong>
+                        <small>
+                          {s === 'world'
+                            ? t('setup.scope_world_desc')
+                            : t('setup.scope_available', { count: count(s) })}
+                        </small>
+                      </span>
+                    </button>
+                  )
+                })}
               </div>
-            )}
-          </Section>}
+              {countries.length > 0 && (
+                <CountryPicker
+                  groups={countryGroups}
+                  continent={activeContinent === 'world' ? undefined : activeContinent}
+                  value={isCountryScope(scope) ? scope : ''}
+                  onChange={(id) => patch({ scope: id || activeContinent })}
+                />
+              )}
+              {contentOptions.length > 1 && content && (
+                <div className="setup-inline-setting">
+                  <span className="setup-inline-label">{t('setup.content_label')}</span>
+                  <SegmentedChoices
+                    label={t('setup.content_label')}
+                    value={key(content)}
+                    onChange={(v) => patch({ content: v.split('+') as Content[] })}
+                    items={contentOptions.map((c) => ({
+                      value: key(c),
+                      label: c.length === 2 ? t('setup.content.all') : t(`setup.content.${category}.${c[0]}`),
+                    }))}
+                  />
+                </div>
+              )}
+            </Section>
+          )}
 
           {modes.length > 0 && (
-            <Section step={hasGeographicScope ? 2 : 1} title={t('setup.mode_title')} description={t('setup.mode_section_desc')}>
+            <Section
+              step={hasGeographicScope ? 2 : 1}
+              title={t('setup.mode_title')}
+              description={t('setup.mode_section_desc')}
+            >
               <div className="setup-mode-grid" role="radiogroup" aria-label={t('setup.mode')}>
                 <ModeChoice
                   value={AUTO}
@@ -635,19 +647,12 @@ function CategoryHub() {
   useDocumentTitle(t('nav.play'))
   return (
     <Page wide>
-      <header className="play-masthead">
-        <div>
-          <h1>{t('play.title')}</h1>
-        </div>
-        <p>
-          Ein Thema. Ein Modus.
-          <br />
-          <strong>Deine nächste Route.</strong>
-        </p>
-      </header>
       {open && open.length > 0 && (
-        <section className="play-open-runs">
-          <h2>{t('play.open_runs')}</h2>
+        <section className="play-open-runs play-route-dock">
+          <header>
+            <span>{t('play.route_dock')}</span>
+            <h2>{t('play.open_runs')}</h2>
+          </header>
           <div className="grid gap-2">
             {open.slice(0, 2).map((s) => {
               const total = baseQuestionTotal(s)
@@ -668,35 +673,7 @@ function CategoryHub() {
           </div>
         </section>
       )}
-      <div className="play-category-register">
-        {PLAY_QUIZZES.map((c) => (
-          <Link
-            key={c.id}
-            to={`/play/${c.id}`}
-            className="play-category-row"
-            aria-label={t(`category.${c.id}`)}
-          >
-            <span className="play-category-index">
-              {String(PLAY_QUIZZES.indexOf(c) + 1).padStart(2, '0')}
-            </span>
-            <CategoryIconTile id={c.id} />
-            <span className="play-category-name">{t(`category.${c.id}`)}</span>
-            {c.countKey && geo.index?.counts[c.countKey] !== undefined && (
-              <span className="play-category-count">
-                {geo.index.counts[c.countKey].toLocaleString('de-DE')} Einträge
-              </span>
-            )}
-            <Icons.arrow className="play-category-arrow" aria-hidden />
-          </Link>
-        ))}
-        <Link to="/daily" className="play-category-row play-daily-row">
-          <span className="play-category-index">+</span>
-          <IconTile icon={Icons.daily} tone="tone-violet" size="sm" />
-          <span className="play-category-name">{t('daily.title')}</span>
-          <span className="play-category-count">Sechs neue Rätsel pro Tag</span>
-          <Icons.arrow className="play-category-arrow" aria-hidden />
-        </Link>
-      </div>
+      <QuizLandscape counts={geo.index?.counts} />
     </Page>
   )
 }
