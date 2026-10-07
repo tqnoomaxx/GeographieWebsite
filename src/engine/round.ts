@@ -1,6 +1,6 @@
 import type { CategoryId } from './types'
 import type { Entity } from '@/domain/types'
-import { AUTO, ROUND_LENGTHS, quizFor, type Content } from '@/config/quizzes'
+import { AUTO, ROUND_LENGTHS, modeFor, quizFor, type Content } from '@/config/quizzes'
 import { SCOPES } from './scope'
 
 /**
@@ -54,16 +54,18 @@ export function fromQuery(category: CategoryId, params: URLSearchParams): RoundC
         ? numericLength
         : fallback.length
   const content = params.get('content')
-  const requestedMode = params.get('mode') ?? AUTO
-  const mode =
-    requestedMode === AUTO || quizFor(category).modes.some((item) => item.id === requestedMode)
-      ? requestedMode
-      : AUTO
   const requestedScope = params.get('scope') ?? fallback.scope
   const scope =
     SCOPES.includes(requestedScope as (typeof SCOPES)[number]) || /^country:[A-Z]{2}$/.test(requestedScope)
       ? requestedScope
       : fallback.scope
+  const requestedMode = params.get('mode') ?? AUTO
+  const requestedModeDef = modeFor(category, requestedMode)
+  const modeAllowedInScope =
+    requestedModeDef &&
+    (!scope.startsWith('country:') || requestedModeDef.allowCountryScope !== false) &&
+    (!requestedModeDef.scopes || requestedModeDef.scopes.includes(scope))
+  const mode = requestedMode === AUTO || modeAllowedInScope ? requestedMode : AUTO
   return {
     category,
     mode,

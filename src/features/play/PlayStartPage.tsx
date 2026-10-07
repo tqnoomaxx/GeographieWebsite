@@ -25,7 +25,7 @@ import { normalizeAnswer } from '@/engine/normalize'
 import { CategoryIconTile, Icons } from '@/ui/icons'
 import { RoundTitle } from './RoundLabel'
 import { FLAG_HINT_COUNTRY_COUNT } from './FlagImage'
-import { QuizLandscape } from './QuizLandscape'
+import { PlayMapSwitcher } from './PlayMapSwitcher'
 
 const KEY = (category: CategoryId) => `gk.setup.${category}`
 
@@ -696,7 +696,7 @@ function CategoryHub() {
           </div>
         </section>
       )}
-      <QuizLandscape counts={geo.index?.counts} />
+      <PlayMapSwitcher counts={geo.index?.counts} />
     </Page>
   )
 }

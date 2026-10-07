@@ -11,14 +11,60 @@ import type { CategoryId } from './types'
 import { AUTO, MIXED_EXCLUDE, PLAY_QUIZZES, autoModes, quizFor, type QuizMode } from '@/config/quizzes'
 
 const all: Generator[] = [
-  flags.flagToCountry, flags.countryToFlag, flags.flagToCountryInput, flags.flagToRegion, flags.regionToFlag, flags.regionFlagInput, flags.flagToRegionMap, flags.flagToCountryMap, flags.regionFlagToCountry, flags.flagToEuropeMap,
-  capitals.countryToCapital, capitals.capitalToCountry, capitals.capitalToFlag, capitals.capitalInput,
-  countries.countryAttribute, countries.neighborOfCountry, countries.countryTrueFalse, countries.countryCode, countries.countryComparison, countries.nationalAnimal, countries.nationalFlower,
-  rc.regionFlagToRegion, rc.regionToCountry, rc.regionCapital, rc.cityToCountry, rc.cityToRegion, rc.cityPopulation, rc.cityInput,
-  im.imageToLandmark, im.imageToLandmarkInput, im.imageToCountry, im.imageToCity, im.landmarkToCountry, im.landmarkToCountryInput, im.landmarkToCity, im.countryOnMap, im.regionOnMap,
-  pl.plateToCity, pl.cityToPlate, pl.plateToRegion, pl.plateInput, pl.cityToPlateInput,
-  na.riverToCountry, na.lakeToCountry, na.mountainToCountry, na.riverLonger, na.lakeLarger, na.mountainHigher, na.waterOnMap, na.mountainOnMap,
-  la.cyrillicToLatin, la.greekToLatin, la.scriptToLatinInput, la.latinToScript,
+  flags.flagToCountry,
+  flags.countryToFlag,
+  flags.flagToCountryInput,
+  flags.flagToRegion,
+  flags.regionToFlag,
+  flags.regionFlagInput,
+  flags.flagToRegionMap,
+  flags.flagToCountryMap,
+  flags.regionFlagToCountry,
+  flags.flagToEuropeMap,
+  capitals.countryToCapital,
+  capitals.capitalToCountry,
+  capitals.capitalToFlag,
+  capitals.capitalInput,
+  countries.countryAttribute,
+  countries.neighborOfCountry,
+  countries.countryTrueFalse,
+  countries.countryCode,
+  countries.countryComparison,
+  countries.nationalAnimal,
+  countries.nationalFlower,
+  rc.regionFlagToRegion,
+  rc.regionToCountry,
+  rc.regionCapital,
+  rc.cityToCountry,
+  rc.cityToRegion,
+  rc.cityPopulation,
+  rc.cityInput,
+  im.imageToLandmark,
+  im.imageToLandmarkInput,
+  im.imageToCountry,
+  im.imageToCity,
+  im.landmarkToCountry,
+  im.landmarkToCountryInput,
+  im.landmarkToCity,
+  im.countryOnMap,
+  im.regionOnMap,
+  pl.plateToCity,
+  pl.cityToPlate,
+  pl.plateToRegion,
+  pl.plateInput,
+  pl.cityToPlateInput,
+  na.riverToCountry,
+  na.lakeToCountry,
+  na.mountainToCountry,
+  na.riverLonger,
+  na.lakeLarger,
+  na.mountainHigher,
+  na.waterOnMap,
+  na.mountainOnMap,
+  la.cyrillicToLatin,
+  la.greekToLatin,
+  la.scriptToLatinInput,
+  la.latinToScript,
 ]
 
 export const registry = new Map<string, Generator>(all.map((g) => [g.id, g]))
@@ -40,10 +86,18 @@ function fromModes(modes: QuizMode[]): Generator[] {
  * Generatoren für Kategorie + Fragetyp gemäß config/quizzes.ts.
  * 'auto' mischt die Multiple-Choice-Fragetypen (R10); „Gemischt“ nimmt die von allen Kategorien.
  */
-export function generatorsFor(category: CategoryId, mode: string = AUTO): Generator[] {
-  if (category === 'mixed') return fromModes(PLAY_QUIZZES.flatMap(autoModes)).filter((g) => !MIXED_EXCLUDE.has(g.id))
+export function generatorsFor(category: CategoryId, mode: string = AUTO, scope?: string): Generator[] {
+  const available = (item: QuizMode) =>
+    (!scope?.startsWith('country:') || item.allowCountryScope !== false) &&
+    (!scope || !item.scopes || item.scopes.includes(scope))
+
+  if (category === 'mixed') {
+    return fromModes(PLAY_QUIZZES.flatMap((quiz) => autoModes(quiz).filter(available))).filter(
+      (generator) => !MIXED_EXCLUDE.has(generator.id),
+    )
+  }
   const quiz = quizFor(category)
-  if (mode === AUTO) return fromModes(autoModes(quiz))
+  if (mode === AUTO) return fromModes(autoModes(quiz).filter(available))
   const m = quiz.modes.find((x) => x.id === mode)
-  return m ? fromModes([m]) : []
+  return m && available(m) ? fromModes([m]) : []
 }

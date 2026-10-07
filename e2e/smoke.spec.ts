@@ -29,9 +29,7 @@ test('Startseite und Kategorien', async ({ page }) => {
   expect(errors).toEqual([])
 })
 
-test('Quizlandschaft verlinkt alle sichtbaren Stationen und öffnet die Konfiguration', async ({
-  page,
-}, testInfo) => {
+test('Quizlandschaft verlinkt alle sichtbaren Stationen und öffnet die Konfiguration', async ({ page }) => {
   const errors = watchErrors(page)
   const categories = [
     'flags',
@@ -47,6 +45,11 @@ test('Quizlandschaft verlinkt alle sichtbaren Stationen und öffnet die Konfigur
   ]
 
   await page.goto('play')
+  await expect(page.getByRole('button', { name: 'Quiz-Menü' })).toBeVisible()
+  await expect(page.getByRole('button', { name: '3D-Diorama' })).toHaveAttribute('aria-pressed', 'true')
+  await expect(
+    page.getByRole('application', { name: 'Interaktives 3D-Diorama der Quizstationen' }),
+  ).toBeVisible()
   const landscape = page.getByRole('navigation', { name: 'Quizstationen in der Atlaslandschaft' })
   await expect(landscape).toBeVisible()
   for (const category of categories) {
@@ -55,72 +58,23 @@ test('Quizlandschaft verlinkt alle sichtbaren Stationen und öffnet die Konfigur
     await expect(station).toHaveAccessibleName(/\S+/)
   }
   await expect(page.locator('[data-quiz-station="daily"]')).toHaveAttribute('href', /\/daily$/)
-  await expect(page.locator('.atlas-scene-tooltip:visible')).toHaveCount(0)
 
-  if (testInfo.project.name === 'mobile') {
-    const viewport = page.locator('.quiz-landscape-viewport')
-    await viewport.evaluate((node) => node.scrollTo({ left: 420 }))
-    await expect.poll(() => viewport.evaluate((node) => node.scrollLeft)).toBeGreaterThan(300)
+  const nature = page.locator('[data-quiz-station="nature"]')
+  await nature.focus()
+  await expect(page.locator('.atlas-diorama')).toHaveAttribute('data-active-station', 'nature')
+  await expect(page.locator('.quiz-diorama-context')).toContainText('Berge')
 
-    const pathAfterDrag = await viewport.evaluate((node) => {
-      const target = node.querySelector<HTMLAnchorElement>('[data-quiz-station="cities"]')
-      node.dispatchEvent(
-        new PointerEvent('pointerdown', {
-          bubbles: true,
-          pointerId: 7,
-          pointerType: 'touch',
-          clientX: 280,
-          clientY: 300,
-        }),
-      )
-      node.dispatchEvent(
-        new PointerEvent('pointermove', {
-          bubbles: true,
-          pointerId: 7,
-          pointerType: 'touch',
-          clientX: 190,
-          clientY: 305,
-        }),
-      )
-      node.dispatchEvent(
-        new PointerEvent('pointerup', {
-          bubbles: true,
-          pointerId: 7,
-          pointerType: 'touch',
-          clientX: 190,
-          clientY: 305,
-        }),
-      )
-      target?.click()
-      return location.pathname
-    })
-    expect(pathAfterDrag).toMatch(/\/play$/)
+  await page.getByRole('button', { name: 'Quiz-Menü' }).click()
+  await expect(page.locator('.play-map-switcher')).toHaveAttribute('data-map-view', 'menu')
+  await expect(page.locator('.play-quiz-menu [data-quiz-station]')).toHaveCount(11)
+  await page.getByRole('button', { name: '3D-Diorama' }).click()
+  await expect(page.locator('.play-map-switcher')).toHaveAttribute('data-map-view', 'diorama')
 
-    await page.getByRole('button', { name: 'Quizübersicht' }).click()
-    const dialog = page.getByRole('dialog', { name: 'Quizübersicht' })
-    await expect(dialog).toBeVisible()
-    await expect(dialog.getByRole('link')).toHaveCount(11)
-    await dialog.getByRole('button', { name: 'Schließen' }).click()
-    await expect(dialog).not.toBeVisible()
-
-    const countries = page.locator('[data-quiz-station="countries"]')
-    await countries.tap()
-    await expect(page).toHaveURL(/\/play$/)
-    await expect(page.locator('.atlas-diorama')).toHaveAttribute('data-active-station', 'countries')
-    await expect(countries.locator('.atlas-scene-tooltip')).toBeVisible()
-    await countries.tap()
-  } else {
-    const nature = page.locator('[data-quiz-station="nature"]')
-    await nature.hover()
-    await expect(page.locator('.atlas-diorama')).toHaveAttribute('data-active-station', 'nature')
-    await expect(nature.locator('.atlas-scene-tooltip')).toBeVisible()
-
-    const countries = page.locator('[data-quiz-station="countries"]')
-    await countries.focus()
-    await expect(countries).toBeFocused()
-    await expect(page.locator('.atlas-diorama')).toHaveAttribute('data-active-station', 'countries')
-    await countries.press('Enter')
-  }
+  const countries = page.locator('[data-quiz-station="countries"]')
+  await countries.focus()
+  await expect(countries).toBeFocused()
+  await expect(page.locator('.atlas-diorama')).toHaveAttribute('data-active-station', 'countries')
+  await countries.press('Enter')
 
   await expect(page).toHaveURL(/\/play\/countries$/)
   await expect(page.getByRole('heading', { name: 'Länder' })).toBeVisible()
@@ -131,14 +85,7 @@ test('Quizlandschaft verlinkt alle sichtbaren Stationen und öffnet die Konfigur
 test('Quizlandschaft respektiert reduzierte Bewegung', async ({ page }) => {
   await page.emulateMedia({ reducedMotion: 'reduce' })
   await page.goto('play')
-  const animationName = await page
-    .locator('.atlas-scene-clouds')
-    .evaluate((node) => getComputedStyle(node).animationName)
-  expect(animationName).toBe('none')
-  const carAnimation = await page
-    .locator('.atlas-scene-target-license_plates')
-    .evaluate((node) => getComputedStyle(node).animationName)
-  expect(carAnimation).toBe('none')
+  await expect(page.locator('.quiz-diorama-3d')).toHaveAttribute('data-motion', 'paused')
 })
 
 test('Fotos sind als Modus in Sehenswürdigkeiten zusammengeführt', async ({ page }) => {
@@ -466,16 +413,12 @@ test('Schriftenmodus zeigt Original, Umschrift und Lernfakten', async ({ page })
   expect(errors).toEqual([])
 })
 
-test('Karten und Regionen sind in Flaggen und Länder zusammengeführt', async ({ page }, testInfo) => {
+test('Karten und Regionen sind in Flaggen und Länder zusammengeführt', async ({ page }) => {
   await page.goto('play')
   await expect(page.getByRole('link', { name: /^Karten/ })).toHaveCount(0)
   await expect(page.getByRole('link', { name: /^Regionen/ })).toHaveCount(0)
   const countriesStation = page.getByRole('link', { name: /^Länder/ })
   await countriesStation.click()
-  if (testInfo.project.name === 'mobile') {
-    await expect(page.locator('[data-active-station]')).toHaveAttribute('data-active-station', 'countries')
-    await countriesStation.click()
-  }
   await expect(page.getByRole('radio', { name: 'Region → Land' })).toBeVisible()
   await expect(page.getByRole('radio', { name: 'Länder auf der Karte' })).toBeVisible()
   await expect(page.getByRole('radio', { name: 'Regionen auf der Karte' })).toBeVisible()
@@ -516,6 +459,29 @@ test('Mehrdeutige und triviale Varianten werden vermieden', async ({ page }) => 
 
   await page.goto('play/flags/round?mode=flag_input&scope=country:DE&len=5&content=region')
   await expect(page.locator('[data-generator="region_flag_input"]')).toBeVisible()
+})
+
+test('Eintippantwort bleibt auf der Quizfläche kontrastreich lesbar', async ({ page }) => {
+  await page.goto('play/flags/round?mode=flag_input&scope=world&len=10&content=country')
+  const input = page.getByRole('textbox', { name: 'Antwort eingeben …' })
+  await expect(input).toBeVisible()
+  await input.fill('Deutschland')
+  await expect(input).toHaveValue('Deutschland')
+  const contrast = await input.evaluate((node) => {
+    const styles = getComputedStyle(node)
+    const channels = (value: string) => (value.match(/[\d.]+/g) ?? []).slice(0, 3).map(Number)
+    const luminance = (value: string) => {
+      const [red = 0, green = 0, blue = 0] = channels(value).map((channel) => {
+        const normalized = channel / 255
+        return normalized <= 0.04045 ? normalized / 12.92 : ((normalized + 0.055) / 1.055) ** 2.4
+      })
+      return 0.2126 * red + 0.7152 * green + 0.0722 * blue
+    }
+    const foreground = luminance(styles.color)
+    const background = luminance(styles.backgroundColor)
+    return (Math.max(foreground, background) + 0.05) / (Math.min(foreground, background) + 0.05)
+  })
+  expect(contrast).toBeGreaterThanOrEqual(7)
 })
 
 test('Kennzeichenvisualisierung übernimmt das ausgewählte Land', async ({ page }) => {

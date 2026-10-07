@@ -117,6 +117,22 @@ describe('session', () => {
     )
     expect(s.questions.length).toBe(16)
   })
+  it('stellt in einem einzelnen Land keine triviale Region-zu-Land-Frage', () => {
+    for (const category of ['countries', 'flags'] as const) {
+      const s = buildSession(
+        ctx('country:DE'),
+        setup({ category, scope: 'country:DE', content: ['region'], length: 10 }),
+        { seed: `no-trivial-country-${category}` },
+      )
+      expect(s.questions.length).toBe(10)
+      expect(s.questions.map(({ question }) => question.metadata?.generator)).not.toContain(
+        'region_to_country',
+      )
+      expect(s.questions.map(({ question }) => question.metadata?.generator)).not.toContain(
+        'region_flag_to_country',
+      )
+    }
+  })
   it('verteilt weltweite Regionen am Rundenanfang über verschiedene Länder', () => {
     for (const seed of ['region-mix-a', 'region-mix-b', 'region-mix-c']) {
       const c = ctx('world')
@@ -131,8 +147,8 @@ describe('session', () => {
         }),
         { seed },
       )
-      const parentCountries = s.questions.map(({ question }) =>
-        c.byId.get(question.entities[0])?.attributes.country,
+      const parentCountries = s.questions.map(
+        ({ question }) => c.byId.get(question.entities[0])?.attributes.country,
       )
       expect(parentCountries).toHaveLength(10)
       expect(new Set(parentCountries).size, seed).toBe(10)
@@ -192,7 +208,9 @@ describe('plates', () => {
       { seed: 'poland' },
     )
     expect(s.questions).toHaveLength(10)
-    expect(s.questions.every(({ question }) => question.entities.some((id) => id.startsWith('license_plate:PL-')))).toBe(true)
+    expect(
+      s.questions.every(({ question }) => question.entities.some((id) => id.startsWith('license_plate:PL-'))),
+    ).toBe(true)
   })
   it('akzeptiert beim Modus Ort → Kennzeichen alle gültigen Kürzel des Ortes', () => {
     const s = buildSession(
@@ -223,7 +241,10 @@ describe('landmarks', () => {
       const s = buildSession(ctx(), setup({ category: 'landmarks', scope: 'world', length: 10, mode }), {
         seed: mode,
       })
-      expect(s.questions.every(({ question }) => (question.facts?.length ?? 0) >= 3), mode).toBe(true)
+      expect(
+        s.questions.every(({ question }) => (question.facts?.length ?? 0) >= 3),
+        mode,
+      ).toBe(true)
     }
   })
 })
@@ -316,6 +337,13 @@ describe('konfiguration', () => {
   it('fängt ungültige URL-Parameter ab', () => {
     const parsed = fromQuery('flags', new URLSearchParams('mode=kaputt&scope=moon&len=NaN'))
     expect(parsed).toMatchObject({ mode: 'auto', scope: 'world', length: 10 })
+  })
+  it('setzt einen im einzelnen Land trivialen Modus auf Automatisch zurück', () => {
+    const parsed = fromQuery(
+      'countries',
+      new URLSearchParams('mode=region_to_country&scope=country:DE&len=10'),
+    )
+    expect(parsed).toMatchObject({ mode: 'auto', scope: 'country:DE' })
   })
   it('behält den optionalen Flaggen-Hinweisschutz in der URL', () => {
     const query = toQuery(setup({ category: 'flags', hideFlagHints: true }))
