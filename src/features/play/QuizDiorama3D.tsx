@@ -36,7 +36,7 @@ type Station = {
 }
 
 const PLACEMENTS: Partial<Record<CategoryId, { position: Vec3; hitbox: Vec3 }>> = {
-  license_plates: { position: [-6.05, 0.14, 3.05], hitbox: [2.9, 1.9, 2.1] },
+  license_plates: { position: [-6.05, 0.18, 3.05], hitbox: [2.9, 2, 2.1] },
   countries: { position: [-4.55, 0, 0.1], hitbox: [2.3, 3.1, 2.3] },
   mixed: { position: [-3.2, 0, 3.75], hitbox: [2.1, 1.2, 2.1] },
   capitals: { position: [1.1, 0, 0.05], hitbox: [2.8, 2.7, 2.3] },
@@ -195,6 +195,7 @@ function Clouds({ moving }: { moving: boolean }) {
 }
 
 function RiverCourse({ points }: { points: Vector3[] }) {
+  const source = points[0]
   return (
     <group>
       {points.slice(0, -1).map((from, index) => {
@@ -240,6 +241,28 @@ function RiverCourse({ points }: { points: Vector3[] }) {
           </mesh>
         </group>
       ))}
+      {source ? (
+        <group position={[source.x, 0.58, source.z]}>
+          <mesh receiveShadow>
+            <cylinderGeometry args={[0.46, 0.5, 0.42, 12]} />
+            <meshStandardMaterial color="#456b61" roughness={0.96} flatShading />
+          </mesh>
+          <mesh position={[0, 0.24, 0]} receiveShadow>
+            <cylinderGeometry args={[0.33, 0.35, 0.1, 12]} />
+            <meshStandardMaterial color="#338ca4" roughness={0.24} metalness={0.12} flatShading />
+          </mesh>
+          {[
+            [-0.38, 0.34, -0.2, 0.28],
+            [0.34, 0.31, -0.12, 0.24],
+            [0.02, 0.38, -0.38, 0.32],
+          ].map(([x, y, z, scale], index) => (
+            <mesh key={index} position={[x, y, z]} scale={scale} castShadow>
+              <dodecahedronGeometry args={[1, 0]} />
+              <meshStandardMaterial color="#68746e" roughness={0.98} flatShading />
+            </mesh>
+          ))}
+        </group>
+      ) : null}
     </group>
   )
 }
@@ -553,18 +576,6 @@ function WaterStation({ active }: { active: boolean }) {
         {material('#3f91a5', active, 0.14)}
         <cylinderGeometry args={[1.04, 1.08, 0.1, 20]} />
       </mesh>
-      <mesh position={[-0.55, 1.04, -0.25]} rotation={[0, -0.35, 0]} castShadow>
-        {material('#f0dfb3', active)}
-        <boxGeometry args={[1.25, 0.2, 0.44]} />
-      </mesh>
-      <mesh position={[-0.55, 1.5, -0.25]} rotation={[0, -0.35, 0]} castShadow>
-        {material('#d95e4f', active)}
-        <coneGeometry args={[0.5, 0.9, 3]} />
-      </mesh>
-      <mesh position={[-0.55, 1.46, -0.25]} rotation={[0, -0.35, Math.PI / 2]}>
-        {material('#4b514a', active)}
-        <cylinderGeometry args={[0.04, 0.04, 1.12, 7]} />
-      </mesh>
       {[
         [-1.5, 0.65],
         [1.45, 0.52],
@@ -586,67 +597,86 @@ function WaterStation({ active }: { active: boolean }) {
 function CarStation({ active }: { active: boolean }) {
   return (
     <group rotation={[0, -0.3, 0]} scale={0.94}>
-      <mesh position={[0, 0.03, 0]} receiveShadow>
-        {material('#a99f89', active)}
-        <boxGeometry args={[2.9, 0.08, 1.72]} />
+      <mesh position={[0, 0.04, 0]} receiveShadow castShadow>
+        {material('#d1c19a', active)}
+        <boxGeometry args={[3.35, 0.18, 2.02]} />
       </mesh>
+      <RoundedBox args={[3.08, 0.1, 1.78]} radius={0.06} smoothness={2} position={[0, 0.14, 0]} receiveShadow>
+        {material('#4f5d59', active)}
+      </RoundedBox>
       {[-0.72, 0.72].map((z) => (
-        <mesh key={z} position={[0, 0.085, z]} receiveShadow>
-          {material('#eee6ce', active)}
+        <mesh key={z} position={[0, 0.205, z]} receiveShadow>
+          {material('#fff5d6', active)}
           <boxGeometry args={[2.45, 0.025, 0.06]} />
         </mesh>
       ))}
-      <RoundedBox args={[2.25, 0.5, 1]} radius={0.13} smoothness={2} position={[0, 0.52, 0]} castShadow>
-        {material('#bd5144', active, 0.12)}
-      </RoundedBox>
-      <RoundedBox args={[1.08, 0.5, 0.9]} radius={0.1} smoothness={2} position={[-0.18, 0.92, 0]} castShadow>
-        {material('#a9413a', active, 0.08)}
-      </RoundedBox>
-      <RoundedBox
-        args={[0.68, 0.035, 0.58]}
-        radius={0.02}
-        smoothness={2}
-        position={[-0.18, 1.185, 0]}
-        castShadow
-      >
-        {material('#9bc8cd', active, 0.16)}
-      </RoundedBox>
-      <mesh position={[-0.16, 0.96, 0.465]} castShadow>
-        {material('#83b6bf', active, 0.16)}
-        <boxGeometry args={[0.76, 0.28, 0.035]} />
-      </mesh>
-      <mesh position={[0.39, 0.93, 0]} rotation={[0, Math.PI / 2, -0.08]} castShadow>
-        {material('#9bc8cd', active, 0.16)}
-        <boxGeometry args={[0.82, 0.31, 0.035]} />
-      </mesh>
-      {[-0.72, 0.72].flatMap((x) =>
-        [-0.6, 0.6].map((z) => (
-          <group key={`${x}-${z}`} position={[x, 0.44, z]} rotation={[Math.PI / 2, 0, 0]}>
-            <mesh castShadow>
-              <cylinderGeometry args={[0.3, 0.3, 0.22, 12]} />
-              <meshStandardMaterial color="#202625" roughness={0.9} flatShading />
-            </mesh>
-            <mesh position={[0, 0.095, 0]}>
-              <cylinderGeometry args={[0.1, 0.1, 0.02, 10]} />
-              <meshStandardMaterial color="#c4b786" roughness={0.65} metalness={0.18} />
-            </mesh>
-          </group>
-        )),
-      )}
-      {[-0.3, 0.3].map((z) => (
-        <mesh key={z} position={[1.13, 0.57, z]} rotation={[0, Math.PI / 2, 0]}>
-          {material('#ffe4a0', active, 0.2)}
-          <boxGeometry args={[0.05, 0.16, 0.18]} />
+      <group position={[0, 0.11, 0]}>
+        <RoundedBox args={[2.25, 0.5, 1]} radius={0.13} smoothness={2} position={[0, 0.52, 0]} castShadow>
+          {material('#bd5144', active, 0.12)}
+        </RoundedBox>
+        <RoundedBox
+          args={[1.08, 0.5, 0.9]}
+          radius={0.1}
+          smoothness={2}
+          position={[-0.18, 0.92, 0]}
+          castShadow
+        >
+          {material('#a9413a', active, 0.08)}
+        </RoundedBox>
+        <RoundedBox
+          args={[0.68, 0.035, 0.58]}
+          radius={0.02}
+          smoothness={2}
+          position={[-0.18, 1.185, 0]}
+          castShadow
+        >
+          {material('#9bc8cd', active, 0.16)}
+        </RoundedBox>
+        <mesh position={[-0.16, 0.96, 0.465]} castShadow>
+          {material('#83b6bf', active, 0.16)}
+          <boxGeometry args={[0.76, 0.28, 0.035]} />
         </mesh>
-      ))}
-      <mesh position={[1.16, 0.43, 0]} rotation={[0, Math.PI / 2, 0]}>
-        <meshStandardMaterial color="#f5edd6" roughness={0.65} />
-        <boxGeometry args={[0.045, 0.18, 0.48]} />
-      </mesh>
-      <mesh position={[1.185, 0.43, 0]} rotation={[0, Math.PI / 2, 0]}>
-        <meshStandardMaterial color="#26302e" roughness={0.65} />
-        <boxGeometry args={[0.02, 0.07, 0.28]} />
-      </mesh>
+        <mesh position={[0.39, 0.93, 0]} rotation={[0, Math.PI / 2, -0.08]} castShadow>
+          {material('#9bc8cd', active, 0.16)}
+          <boxGeometry args={[0.82, 0.31, 0.035]} />
+        </mesh>
+        {[-0.72, 0.72].flatMap((x) =>
+          [-0.52, 0.52].map((z) => (
+            <group key={`${x}-${z}`} position={[x, 0.38, z]} rotation={[Math.PI / 2, 0, 0]}>
+              <mesh castShadow>
+                <cylinderGeometry args={[0.3, 0.3, 0.24, 12]} />
+                <meshStandardMaterial color="#202625" roughness={0.9} flatShading />
+              </mesh>
+              <mesh position={[0, 0.095, 0]}>
+                <cylinderGeometry args={[0.1, 0.1, 0.02, 10]} />
+                <meshStandardMaterial color="#c4b786" roughness={0.65} metalness={0.18} />
+              </mesh>
+            </group>
+          )),
+        )}
+        {[-0.72, 0.72].flatMap((x) =>
+          [-0.6, 0.6].map((z) => (
+            <mesh key={`ring-${x}-${z}`} position={[x, 0.46, z]} castShadow>
+              <torusGeometry args={[0.23, 0.1, 8, 16]} />
+              <meshStandardMaterial color="#151a19" roughness={0.92} flatShading />
+            </mesh>
+          )),
+        )}
+        {[-0.3, 0.3].map((z) => (
+          <mesh key={z} position={[1.13, 0.57, z]} rotation={[0, Math.PI / 2, 0]}>
+            {material('#ffe4a0', active, 0.2)}
+            <boxGeometry args={[0.05, 0.16, 0.18]} />
+          </mesh>
+        ))}
+        <mesh position={[1.16, 0.43, 0]} rotation={[0, Math.PI / 2, 0]}>
+          <meshStandardMaterial color="#f5edd6" roughness={0.65} />
+          <boxGeometry args={[0.045, 0.18, 0.48]} />
+        </mesh>
+        <mesh position={[1.185, 0.43, 0]} rotation={[0, Math.PI / 2, 0]}>
+          <meshStandardMaterial color="#26302e" roughness={0.65} />
+          <boxGeometry args={[0.02, 0.07, 0.28]} />
+        </mesh>
+      </group>
     </group>
   )
 }
