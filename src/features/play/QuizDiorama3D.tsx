@@ -36,16 +36,16 @@ type Station = {
 }
 
 const PLACEMENTS: Partial<Record<CategoryId, { position: Vec3; hitbox: Vec3 }>> = {
-  license_plates: { position: [-5, 0.35, 1.85], hitbox: [3.1, 2.2, 2.4] },
-  countries: { position: [-4.3, 0, 0.5], hitbox: [2.3, 3.1, 2.3] },
-  mixed: { position: [-2.6, 0, 3.1], hitbox: [2.1, 1.2, 2.1] },
-  capitals: { position: [-0.7, 0, 0.2], hitbox: [2.8, 2.7, 2.3] },
-  cities: { position: [2.1, 0, 1.25], hitbox: [3.2, 2.8, 2.7] },
-  water: { position: [-0.7, 0.55, 2.7], hitbox: [4.2, 2.2, 2.8] },
-  landmarks: { position: [4.75, 0, 1.7], hitbox: [2.4, 3, 2.1] },
-  languages: { position: [5.8, 0, -0.75], hitbox: [2.6, 2.7, 2.2] },
-  flags: { position: [6.65, 0, -3.25], hitbox: [2, 3.8, 2] },
-  nature: { position: [2.25, 0, -3.6], hitbox: [4.4, 3.6, 2.8] },
+  license_plates: { position: [-6.05, 0.14, 3.05], hitbox: [2.9, 1.9, 2.1] },
+  countries: { position: [-4.55, 0, 0.1], hitbox: [2.3, 3.1, 2.3] },
+  mixed: { position: [-3.2, 0, 3.75], hitbox: [2.1, 1.2, 2.1] },
+  capitals: { position: [1.1, 0, 0.05], hitbox: [2.8, 2.7, 2.3] },
+  cities: { position: [3.15, 0, 1.15], hitbox: [3.2, 2.8, 2.7] },
+  water: { position: [0.15, 0.05, 3.7], hitbox: [4.2, 2.2, 2.8] },
+  landmarks: { position: [5.35, 0, 1.75], hitbox: [2.4, 3, 2.1] },
+  languages: { position: [5.9, 0, -1], hitbox: [2.6, 2.7, 2.2] },
+  flags: { position: [6.8, 0, -3.5], hitbox: [2, 3.8, 2] },
+  nature: { position: [2.7, 0, -3.95], hitbox: [4.4, 3.6, 2.8] },
 }
 
 const MENU_ICONS: Partial<Record<SceneId, LucideIcon>> = {
@@ -77,8 +77,8 @@ const TREE_POSITIONS: Array<[number, number, number, number]> = [
   [7.5, 2.1, 0.72, 1.05],
   [5.9, 3.55, 0.56, 0.82],
   [5.25, 3.75, 0.64, 0.94],
-  [-0.1, -4.4, 0.58, 0.82],
-  [-1.05, -4.25, 0.66, 0.98],
+  [-2.25, -4.65, 0.58, 0.82],
+  [-3.15, -4.35, 0.66, 0.98],
 ]
 
 function countLabel(quiz: QuizDef, counts?: Record<string, number>) {
@@ -136,7 +136,7 @@ function CameraSetup({ compact }: { compact: boolean }) {
     camera.position.set(12, 13.5, 16)
     camera.lookAt(0, 0, 0)
     if ('zoom' in camera) {
-      camera.zoom = compact ? 31 : 47
+      camera.zoom = compact ? 25 : 47
       camera.updateProjectionMatrix()
     }
   }, [camera, compact])
@@ -209,11 +209,11 @@ function RiverCourse({ points }: { points: Vector3[] }) {
             position={[(from.x + to.x) / 2, 0.58, (from.z + to.z) / 2]}
             rotation={[0, angle, 0]}
           >
-            <RoundedBox args={[length + 0.38, 0.42, 1.02]} radius={0.08} smoothness={2} receiveShadow>
+            <RoundedBox args={[length + 0.32, 0.42, 0.88]} radius={0.08} smoothness={2} receiveShadow>
               <meshStandardMaterial color="#456b61" roughness={0.96} flatShading />
             </RoundedBox>
             <RoundedBox
-              args={[length + 0.42, 0.1, 0.72]}
+              args={[length + 0.36, 0.1, 0.62]}
               radius={0.06}
               smoothness={2}
               position={[0, 0.24, 0]}
@@ -231,11 +231,11 @@ function RiverCourse({ points }: { points: Vector3[] }) {
       {points.slice(1, -1).map((point, index) => (
         <group key={`bend-${index}`} position={[point.x, 0.58, point.z]}>
           <mesh receiveShadow>
-            <cylinderGeometry args={[0.52, 0.55, 0.42, 12]} />
+            <cylinderGeometry args={[0.45, 0.48, 0.42, 12]} />
             <meshStandardMaterial color="#456b61" roughness={0.96} flatShading />
           </mesh>
           <mesh position={[0, 0.24, 0]} receiveShadow>
-            <cylinderGeometry args={[0.37, 0.39, 0.1, 12]} />
+            <cylinderGeometry args={[0.32, 0.34, 0.1, 12]} />
             <meshStandardMaterial color="#338ca4" roughness={0.24} metalness={0.12} flatShading />
           </mesh>
         </group>
@@ -259,12 +259,15 @@ function Ground() {
   )
   const riverPoints = useMemo(
     () => [
-      new Vector3(1.3, 0, -4.9),
-      new Vector3(0.4, 0, -2.6),
-      new Vector3(0.9, 0, -1),
-      new Vector3(0.4, 0, 0.6),
-      new Vector3(-0.3, 0, 1.7),
-      new Vector3(-0.7, 0, 2.7),
+      new Vector3(-0.5, 0, -5.25),
+      new Vector3(-1.15, 0, -4.35),
+      new Vector3(-1.35, 0, -3.2),
+      new Vector3(-1.08, 0, -2.1),
+      new Vector3(-1.45, 0, -1),
+      new Vector3(-1.32, 0, 0.15),
+      new Vector3(-0.92, 0, 1.3),
+      new Vector3(-0.18, 0, 2.55),
+      new Vector3(0.15, 0, 4.2),
     ],
     [],
   )
@@ -542,23 +545,23 @@ function MountainStation({ active }: { active: boolean }) {
 function WaterStation({ active }: { active: boolean }) {
   return (
     <group>
-      <mesh position={[0, 0.08, 0]} scale={[2.05, 1, 1.3]} receiveShadow>
+      <mesh position={[0, 0.5, 0]} scale={[2.05, 1, 1.3]} receiveShadow>
         {material('#456f69', active)}
-        <cylinderGeometry args={[1.08, 1.16, 0.16, 20]} />
+        <cylinderGeometry args={[1.08, 1.16, 0.8, 20]} />
       </mesh>
-      <mesh position={[0, 0.18, 0]} scale={[1.88, 1, 1.18]} receiveShadow>
+      <mesh position={[0, 0.9, 0]} scale={[1.88, 1, 1.18]} receiveShadow>
         {material('#3f91a5', active, 0.14)}
-        <cylinderGeometry args={[1.04, 1.08, 0.16, 20]} />
+        <cylinderGeometry args={[1.04, 1.08, 0.1, 20]} />
       </mesh>
-      <mesh position={[-0.55, 0.3, -0.25]} rotation={[0, -0.35, 0]} castShadow>
+      <mesh position={[-0.55, 1.04, -0.25]} rotation={[0, -0.35, 0]} castShadow>
         {material('#f0dfb3', active)}
         <boxGeometry args={[1.25, 0.2, 0.44]} />
       </mesh>
-      <mesh position={[-0.55, 0.76, -0.25]} rotation={[0, -0.35, 0]} castShadow>
+      <mesh position={[-0.55, 1.5, -0.25]} rotation={[0, -0.35, 0]} castShadow>
         {material('#d95e4f', active)}
         <coneGeometry args={[0.5, 0.9, 3]} />
       </mesh>
-      <mesh position={[-0.55, 0.72, -0.25]} rotation={[0, -0.35, Math.PI / 2]}>
+      <mesh position={[-0.55, 1.46, -0.25]} rotation={[0, -0.35, Math.PI / 2]}>
         {material('#4b514a', active)}
         <cylinderGeometry args={[0.04, 0.04, 1.12, 7]} />
       </mesh>
@@ -567,7 +570,7 @@ function WaterStation({ active }: { active: boolean }) {
         [1.45, 0.52],
         [1.65, -0.35],
       ].map(([x, z], index) => (
-        <group key={index} position={[x, 0.28, z]}>
+        <group key={index} position={[x, 0.98, z]}>
           {[-0.1, 0.1].map((offset) => (
             <mesh key={offset} position={[offset, 0.18, 0]} rotation={[0, 0, offset * 1.5]}>
               {material('#4e7655', active)}
@@ -582,7 +585,7 @@ function WaterStation({ active }: { active: boolean }) {
 
 function CarStation({ active }: { active: boolean }) {
   return (
-    <group rotation={[0, -0.62, 0]} scale={1.18}>
+    <group rotation={[0, -0.3, 0]} scale={0.94}>
       <mesh position={[0, 0.03, 0]} receiveShadow>
         {material('#a99f89', active)}
         <boxGeometry args={[2.9, 0.08, 1.72]} />
@@ -599,6 +602,15 @@ function CarStation({ active }: { active: boolean }) {
       <RoundedBox args={[1.08, 0.5, 0.9]} radius={0.1} smoothness={2} position={[-0.18, 0.92, 0]} castShadow>
         {material('#a9413a', active, 0.08)}
       </RoundedBox>
+      <RoundedBox
+        args={[0.68, 0.035, 0.58]}
+        radius={0.02}
+        smoothness={2}
+        position={[-0.18, 1.185, 0]}
+        castShadow
+      >
+        {material('#9bc8cd', active, 0.16)}
+      </RoundedBox>
       <mesh position={[-0.16, 0.96, 0.465]} castShadow>
         {material('#83b6bf', active, 0.16)}
         <boxGeometry args={[0.76, 0.28, 0.035]} />
@@ -608,10 +620,10 @@ function CarStation({ active }: { active: boolean }) {
         <boxGeometry args={[0.82, 0.31, 0.035]} />
       </mesh>
       {[-0.72, 0.72].flatMap((x) =>
-        [-0.53, 0.53].map((z) => (
-          <group key={`${x}-${z}`} position={[x, 0.27, z]} rotation={[Math.PI / 2, 0, 0]}>
+        [-0.6, 0.6].map((z) => (
+          <group key={`${x}-${z}`} position={[x, 0.44, z]} rotation={[Math.PI / 2, 0, 0]}>
             <mesh castShadow>
-              <cylinderGeometry args={[0.27, 0.27, 0.18, 12]} />
+              <cylinderGeometry args={[0.3, 0.3, 0.22, 12]} />
               <meshStandardMaterial color="#202625" roughness={0.9} flatShading />
             </mesh>
             <mesh position={[0, 0.095, 0]}>
@@ -1012,13 +1024,13 @@ function StationUpgrades({
       return (
         <group>
           {level >= 1 ? (
-            <mesh position={[-0.9, 0.34, 0.5]} rotation={[0, 0.25, 0]} castShadow>
+            <mesh position={[-0.9, 1.02, 0.5]} rotation={[0, 0.25, 0]} castShadow>
               {material('#826849', active)}
               <boxGeometry args={[1.15, 0.12, 0.28]} />
             </mesh>
           ) : null}
           {level >= 2 ? (
-            <group position={[1.15, 0.25, -0.3]}>
+            <group position={[1.15, 0.82, -0.3]}>
               <mesh position={[0, 0.58, 0]} castShadow>
                 {material('#e6dfc9', active)}
                 <cylinderGeometry args={[0.17, 0.25, 1.15, 8]} />
@@ -1030,7 +1042,7 @@ function StationUpgrades({
             </group>
           ) : null}
           {level >= 3 ? (
-            <mesh position={[0.8, 0.32, 0.82]} rotation={[0, -0.2, 0]} castShadow>
+            <mesh position={[0.8, 1.02, 0.82]} rotation={[0, -0.2, 0]} castShadow>
               {material('#d9c48f', active)}
               <boxGeometry args={[1.4, 0.1, 0.2]} />
             </mesh>
@@ -1310,7 +1322,7 @@ export default function QuizDiorama3D({
         label: t('daily.title'),
         detail: t('play.daily_count'),
         progress: progress?.daily,
-        position: [-6.15, 0, -2.15] as Vec3,
+        position: [-6.45, 0, -2.45] as Vec3,
         hitbox: [2.4, 3.1, 2.2] as Vec3,
       },
     ]
@@ -1351,7 +1363,7 @@ export default function QuizDiorama3D({
           shadows
           dpr={[1, 1.5]}
           frameloop={motionEnabled ? 'always' : 'demand'}
-          camera={{ position: [12, 13.5, 16], zoom: compact ? 31 : 47, near: 0.1, far: 80 }}
+          camera={{ position: [12, 13.5, 16], zoom: compact ? 25 : 47, near: 0.1, far: 80 }}
           gl={{ antialias: true, alpha: false, powerPreference: 'high-performance' }}
           fallback={<SceneFallback>{t('play.diorama_unavailable')}</SceneFallback>}
           onPointerMissed={() => setActive(undefined)}

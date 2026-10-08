@@ -5840,28 +5840,34 @@ textarea {
   display: flex;
   flex: 0 0 auto;
   gap: 0.25rem;
-  border: 1px solid color-mix(in srgb, var(--ink) 30%, transparent);
+  border: 1px solid color-mix(in srgb, var(--ink) 52%, transparent);
   border-radius: 999px;
-  background: color-mix(in srgb, var(--bg) 68%, transparent);
+  background: var(--card-2);
   padding: 0.25rem;
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--card) 45%, transparent);
 }
 .play-map-toggle button {
   min-height: 2.65rem;
+  border: 1px solid transparent;
   border-radius: 999px;
   padding: 0.55rem 0.9rem;
-  color: var(--ink-2);
+  color: var(--ink);
   font-size: 0.75rem;
-  font-weight: 820;
-  transition: background-color 160ms ease, color 160ms ease, transform 160ms ease;
+  font-weight: 850;
+  opacity: 0.78;
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease, opacity 160ms ease, transform 160ms ease;
 }
-.play-map-toggle button:hover:not(:disabled) { color: var(--ink); }
+.play-map-toggle button:hover:not(:disabled) { opacity: 1; }
 .play-map-toggle button.is-active {
-  background: var(--ink);
-  color: var(--bg);
+  border-color: color-mix(in srgb, var(--navy) 82%, white);
+  background: var(--navy);
+  color: #fffaf0;
+  box-shadow: 0 2px 9px rgb(8 24 24 / 0.28);
+  opacity: 1;
 }
 .cosmic-shell .play-map-toggle button.is-active {
-  background: var(--ink);
-  color: #f7f4e9;
+  background: var(--navy);
+  color: #fffaf0;
 }
 .play-map-toggle button:active:not(:disabled) { transform: scale(0.97); }
 .play-map-toggle button:disabled { cursor: not-allowed; opacity: 0.42; }
