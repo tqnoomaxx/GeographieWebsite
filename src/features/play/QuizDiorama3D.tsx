@@ -36,12 +36,12 @@ type Station = {
 }
 
 const PLACEMENTS: Partial<Record<CategoryId, { position: Vec3; hitbox: Vec3 }>> = {
-  license_plates: { position: [-6.5, 0, 2.9], hitbox: [2.6, 1.8, 2.1] },
+  license_plates: { position: [-5, 0.35, 1.85], hitbox: [3.1, 2.2, 2.4] },
   countries: { position: [-4.3, 0, 0.5], hitbox: [2.3, 3.1, 2.3] },
   mixed: { position: [-2.6, 0, 3.1], hitbox: [2.1, 1.2, 2.1] },
   capitals: { position: [-0.7, 0, 0.2], hitbox: [2.8, 2.7, 2.3] },
   cities: { position: [2.1, 0, 1.25], hitbox: [3.2, 2.8, 2.7] },
-  water: { position: [2.3, 0, 3.75], hitbox: [3.4, 1.2, 2.2] },
+  water: { position: [-0.7, 0.55, 2.7], hitbox: [4.2, 2.2, 2.8] },
   landmarks: { position: [4.75, 0, 1.7], hitbox: [2.4, 3, 2.1] },
   languages: { position: [5.8, 0, -0.75], hitbox: [2.6, 2.7, 2.2] },
   flags: { position: [6.65, 0, -3.25], hitbox: [2, 3.8, 2] },
@@ -194,6 +194,56 @@ function Clouds({ moving }: { moving: boolean }) {
   )
 }
 
+function RiverCourse({ points }: { points: Vector3[] }) {
+  return (
+    <group>
+      {points.slice(0, -1).map((from, index) => {
+        const to = points[index + 1]
+        const dx = to.x - from.x
+        const dz = to.z - from.z
+        const length = Math.hypot(dx, dz)
+        const angle = -Math.atan2(dz, dx)
+        return (
+          <group
+            key={index}
+            position={[(from.x + to.x) / 2, 0.58, (from.z + to.z) / 2]}
+            rotation={[0, angle, 0]}
+          >
+            <RoundedBox args={[length + 0.38, 0.42, 1.02]} radius={0.08} smoothness={2} receiveShadow>
+              <meshStandardMaterial color="#456b61" roughness={0.96} flatShading />
+            </RoundedBox>
+            <RoundedBox
+              args={[length + 0.42, 0.1, 0.72]}
+              radius={0.06}
+              smoothness={2}
+              position={[0, 0.24, 0]}
+              receiveShadow
+            >
+              <meshStandardMaterial color="#338ca4" roughness={0.24} metalness={0.12} flatShading />
+            </RoundedBox>
+            <mesh position={[-length * 0.08, 0.31, -0.08]}>
+              <boxGeometry args={[Math.max(0.35, length * 0.42), 0.018, 0.055]} />
+              <meshStandardMaterial color="#b7e4df" transparent opacity={0.76} roughness={0.15} />
+            </mesh>
+          </group>
+        )
+      })}
+      {points.slice(1, -1).map((point, index) => (
+        <group key={`bend-${index}`} position={[point.x, 0.58, point.z]}>
+          <mesh receiveShadow>
+            <cylinderGeometry args={[0.52, 0.55, 0.42, 12]} />
+            <meshStandardMaterial color="#456b61" roughness={0.96} flatShading />
+          </mesh>
+          <mesh position={[0, 0.24, 0]} receiveShadow>
+            <cylinderGeometry args={[0.37, 0.39, 0.1, 12]} />
+            <meshStandardMaterial color="#338ca4" roughness={0.24} metalness={0.12} flatShading />
+          </mesh>
+        </group>
+      ))}
+    </group>
+  )
+}
+
 function Ground() {
   const road = useMemo(
     () =>
@@ -207,16 +257,15 @@ function Ground() {
       ]),
     [],
   )
-  const river = useMemo(
-    () =>
-      new CatmullRomCurve3([
-        new Vector3(-2.4, 0.12, -5.3),
-        new Vector3(-1.35, 0.13, -2.8),
-        new Vector3(0.3, 0.13, -0.75),
-        new Vector3(1.2, 0.13, 1.45),
-        new Vector3(2.3, 0.13, 3.8),
-        new Vector3(3.25, 0.13, 5.2),
-      ]),
+  const riverPoints = useMemo(
+    () => [
+      new Vector3(1.3, 0, -4.9),
+      new Vector3(0.4, 0, -2.6),
+      new Vector3(0.9, 0, -1),
+      new Vector3(0.4, 0, 0.6),
+      new Vector3(-0.3, 0, 1.7),
+      new Vector3(-0.7, 0, 2.7),
+    ],
     [],
   )
   return (
@@ -251,10 +300,7 @@ function Ground() {
         <tubeGeometry args={[road, 80, 0.25, 8, false]} />
         <meshStandardMaterial color="#d5c7a5" roughness={0.9} />
       </mesh>
-      <mesh receiveShadow>
-        <tubeGeometry args={[river, 70, 0.32, 9, false]} />
-        <meshStandardMaterial color="#4d91a0" roughness={0.3} metalness={0.12} />
-      </mesh>
+      <RiverCourse points={riverPoints} />
       {TREE_POSITIONS.map(([x, z, scale, height], index) => (
         <Tree key={index} x={x} z={z} scale={scale} height={height} />
       ))}
@@ -496,48 +542,98 @@ function MountainStation({ active }: { active: boolean }) {
 function WaterStation({ active }: { active: boolean }) {
   return (
     <group>
-      <mesh position={[0, 0.11, 0]} scale={[1.7, 1, 1]} receiveShadow>
-        {material('#4e99a8', active, 0.12)}
-        <cylinderGeometry args={[1.05, 1.12, 0.18, 18]} />
+      <mesh position={[0, 0.08, 0]} scale={[2.05, 1, 1.3]} receiveShadow>
+        {material('#456f69', active)}
+        <cylinderGeometry args={[1.08, 1.16, 0.16, 20]} />
       </mesh>
-      <mesh position={[0.18, 0.38, 0]} rotation={[0, -0.35, 0]} castShadow>
+      <mesh position={[0, 0.18, 0]} scale={[1.88, 1, 1.18]} receiveShadow>
+        {material('#3f91a5', active, 0.14)}
+        <cylinderGeometry args={[1.04, 1.08, 0.16, 20]} />
+      </mesh>
+      <mesh position={[-0.55, 0.3, -0.25]} rotation={[0, -0.35, 0]} castShadow>
         {material('#f0dfb3', active)}
-        <boxGeometry args={[1.1, 0.18, 0.38]} />
+        <boxGeometry args={[1.25, 0.2, 0.44]} />
       </mesh>
-      <mesh position={[0.18, 0.78, 0]} rotation={[0, -0.35, 0]} castShadow>
-        {material('#c65d4c', active)}
-        <coneGeometry args={[0.42, 0.8, 3]} />
+      <mesh position={[-0.55, 0.76, -0.25]} rotation={[0, -0.35, 0]} castShadow>
+        {material('#d95e4f', active)}
+        <coneGeometry args={[0.5, 0.9, 3]} />
       </mesh>
-      <mesh position={[0.18, 0.75, 0]} rotation={[0, -0.35, Math.PI / 2]}>
-        {material('#5a5146', active)}
-        <cylinderGeometry args={[0.035, 0.035, 1, 6]} />
+      <mesh position={[-0.55, 0.72, -0.25]} rotation={[0, -0.35, Math.PI / 2]}>
+        {material('#4b514a', active)}
+        <cylinderGeometry args={[0.04, 0.04, 1.12, 7]} />
       </mesh>
+      {[
+        [-1.5, 0.65],
+        [1.45, 0.52],
+        [1.65, -0.35],
+      ].map(([x, z], index) => (
+        <group key={index} position={[x, 0.28, z]}>
+          {[-0.1, 0.1].map((offset) => (
+            <mesh key={offset} position={[offset, 0.18, 0]} rotation={[0, 0, offset * 1.5]}>
+              {material('#4e7655', active)}
+              <boxGeometry args={[0.045, 0.42, 0.045]} />
+            </mesh>
+          ))}
+        </group>
+      ))}
     </group>
   )
 }
 
 function CarStation({ active }: { active: boolean }) {
   return (
-    <group rotation={[0, 0.18, 0]}>
-      <mesh position={[0, 0.46, 0]} castShadow>
-        {material('#b55347', active, 0.12)}
-        <boxGeometry args={[2.05, 0.55, 1]} />
+    <group rotation={[0, -0.62, 0]} scale={1.18}>
+      <mesh position={[0, 0.03, 0]} receiveShadow>
+        {material('#a99f89', active)}
+        <boxGeometry args={[2.9, 0.08, 1.72]} />
       </mesh>
-      <mesh position={[-0.2, 0.88, 0]} castShadow>
-        {material('#a9ced0', active, 0.08)}
-        <boxGeometry args={[1.05, 0.45, 0.88]} />
+      {[-0.72, 0.72].map((z) => (
+        <mesh key={z} position={[0, 0.085, z]} receiveShadow>
+          {material('#eee6ce', active)}
+          <boxGeometry args={[2.45, 0.025, 0.06]} />
+        </mesh>
+      ))}
+      <RoundedBox args={[2.25, 0.5, 1]} radius={0.13} smoothness={2} position={[0, 0.52, 0]} castShadow>
+        {material('#bd5144', active, 0.12)}
+      </RoundedBox>
+      <RoundedBox args={[1.08, 0.5, 0.9]} radius={0.1} smoothness={2} position={[-0.18, 0.92, 0]} castShadow>
+        {material('#a9413a', active, 0.08)}
+      </RoundedBox>
+      <mesh position={[-0.16, 0.96, 0.465]} castShadow>
+        {material('#83b6bf', active, 0.16)}
+        <boxGeometry args={[0.76, 0.28, 0.035]} />
       </mesh>
-      {[-0.67, 0.67].flatMap((x) =>
-        [-0.55, 0.55].map((z) => (
-          <mesh key={`${x}-${z}`} position={[x, 0.22, z]} rotation={[Math.PI / 2, 0, 0]} castShadow>
-            <cylinderGeometry args={[0.24, 0.24, 0.16, 12]} />
-            <meshStandardMaterial color="#222826" roughness={0.9} />
-          </mesh>
+      <mesh position={[0.39, 0.93, 0]} rotation={[0, Math.PI / 2, -0.08]} castShadow>
+        {material('#9bc8cd', active, 0.16)}
+        <boxGeometry args={[0.82, 0.31, 0.035]} />
+      </mesh>
+      {[-0.72, 0.72].flatMap((x) =>
+        [-0.53, 0.53].map((z) => (
+          <group key={`${x}-${z}`} position={[x, 0.27, z]} rotation={[Math.PI / 2, 0, 0]}>
+            <mesh castShadow>
+              <cylinderGeometry args={[0.27, 0.27, 0.18, 12]} />
+              <meshStandardMaterial color="#202625" roughness={0.9} flatShading />
+            </mesh>
+            <mesh position={[0, 0.095, 0]}>
+              <cylinderGeometry args={[0.1, 0.1, 0.02, 10]} />
+              <meshStandardMaterial color="#c4b786" roughness={0.65} metalness={0.18} />
+            </mesh>
+          </group>
         )),
       )}
-      <mesh position={[1.035, 0.43, 0]} rotation={[0, Math.PI / 2, 0]}>
-        {material('#f4e8c6', active, 0.18)}
-        <boxGeometry args={[0.04, 0.22, 0.55]} />
+      {[-0.3, 0.3].map((z) => (
+        <mesh key={z} position={[1.13, 0.57, z]} rotation={[0, Math.PI / 2, 0]}>
+          {material('#ffe4a0', active, 0.2)}
+          <boxGeometry args={[0.05, 0.16, 0.18]} />
+        </mesh>
+      ))}
+      <mesh position={[1.16, 0.43, 0]} rotation={[0, Math.PI / 2, 0]}>
+        <meshStandardMaterial color="#f5edd6" roughness={0.65} />
+        <boxGeometry args={[0.045, 0.18, 0.48]} />
+      </mesh>
+      <mesh position={[1.185, 0.43, 0]} rotation={[0, Math.PI / 2, 0]}>
+        <meshStandardMaterial color="#26302e" roughness={0.65} />
+        <boxGeometry args={[0.02, 0.07, 0.28]} />
       </mesh>
     </group>
   )
@@ -916,13 +1012,13 @@ function StationUpgrades({
       return (
         <group>
           {level >= 1 ? (
-            <mesh position={[-0.9, 0.19, 0.5]} rotation={[0, 0.25, 0]} castShadow>
+            <mesh position={[-0.9, 0.34, 0.5]} rotation={[0, 0.25, 0]} castShadow>
               {material('#826849', active)}
               <boxGeometry args={[1.15, 0.12, 0.28]} />
             </mesh>
           ) : null}
           {level >= 2 ? (
-            <group position={[1.15, 0, -0.3]}>
+            <group position={[1.15, 0.25, -0.3]}>
               <mesh position={[0, 0.58, 0]} castShadow>
                 {material('#e6dfc9', active)}
                 <cylinderGeometry args={[0.17, 0.25, 1.15, 8]} />
@@ -934,14 +1030,14 @@ function StationUpgrades({
             </group>
           ) : null}
           {level >= 3 ? (
-            <mesh position={[0.8, 0.16, 0.82]} rotation={[0, -0.2, 0]} castShadow>
+            <mesh position={[0.8, 0.32, 0.82]} rotation={[0, -0.2, 0]} castShadow>
               {material('#d9c48f', active)}
               <boxGeometry args={[1.4, 0.1, 0.2]} />
             </mesh>
           ) : null}
           {level >= 4 ? (
             <pointLight
-              position={[1.15, 1.45, -0.3]}
+              position={[1.15, 1.7, -0.3]}
               color="#ffd66f"
               intensity={active ? 2.2 : 1.2}
               distance={3.2}
@@ -954,10 +1050,16 @@ function StationUpgrades({
       return (
         <group>
           {level >= 1 ? (
-            <mesh position={[0, 0.04, 0]} rotation={[-Math.PI / 2, 0, 0.18]} receiveShadow>
-              {material('#b9ad93', active)}
-              <planeGeometry args={[2.75, 1.7]} />
-            </mesh>
+            <group position={[-1.28, 0, -0.72]}>
+              <mesh position={[0, 0.55, 0]} castShadow>
+                {material('#58635f', active, 0.2)}
+                <cylinderGeometry args={[0.035, 0.05, 1.1, 7]} />
+              </mesh>
+              <mesh position={[0, 1, 0]} castShadow>
+                {material('#3f7d8a', active, 0.12)}
+                <boxGeometry args={[0.48, 0.38, 0.07]} />
+              </mesh>
+            </group>
           ) : null}
           {level >= 2 ? (
             <group position={[-0.65, 0, -0.95]}>
