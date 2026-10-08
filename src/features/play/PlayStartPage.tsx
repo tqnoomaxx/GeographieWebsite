@@ -26,6 +26,7 @@ import { CategoryIconTile, Icons } from '@/ui/icons'
 import { RoundTitle } from './RoundLabel'
 import { FLAG_HINT_COUNTRY_COUNT } from './FlagImage'
 import { PlayMapSwitcher } from './PlayMapSwitcher'
+import { buildStationProgress } from './stationProgress'
 
 const KEY = (category: CategoryId) => `gk.setup.${category}`
 
@@ -667,6 +668,11 @@ function CategoryHub() {
   const { t } = useTranslation()
   const geo = useGeoData()
   const { data: open } = useAsync(() => getRepository().getOpenSessions(), [])
+  const { data: stationProgress } = useAsync(async () => {
+    const repo = getRepository()
+    const [stats, puzzles] = await Promise.all([repo.getStats(), repo.getPuzzles()])
+    return buildStationProgress(stats, puzzles)
+  }, [])
   useDocumentTitle(t('nav.play'))
   return (
     <Page wide>
@@ -696,7 +702,7 @@ function CategoryHub() {
           </div>
         </section>
       )}
-      <PlayMapSwitcher counts={geo.index?.counts} />
+      <PlayMapSwitcher counts={geo.index?.counts} progress={stationProgress} />
     </Page>
   )
 }

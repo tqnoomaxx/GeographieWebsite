@@ -4,6 +4,11 @@ import { LocalRepository } from './localRepository'
 import type { Profile, ProgressRepository, ProgressSnapshot, PuzzleResult, UserStats } from './types'
 import { getSupabase } from '@/services/auth'
 
+function puzzleResultRank(result: PuzzleResult) {
+  const state = result.solved ? 3 : result.finishedAt ? 2 : 1
+  return state * 1_000 + result.guesses.length
+}
+
 /**
  * Supabase-Adapter. Implementiert dasselbe Interface wie LocalRepository.
  * Strategie: lokal bleibt der schnelle Cache (offline-fähig); Schreibvorgänge mit XP-Relevanz gehen an Edge Functions,
@@ -31,7 +36,11 @@ export class SupabaseRepository implements ProgressRepository {
     if (!uid || !navigator.onLine) return null
     const rows: Array<Record<string, never>> = []
     for (let start = 0; ; start += 1000) {
-      const { data, error } = await c.from(table).select(columns).eq('user_id', uid).range(start, start + 999)
+      const { data, error } = await c
+        .from(table)
+        .select(columns)
+        .eq('user_id', uid)
+        .range(start, start + 999)
       if (error) throw error
       rows.push(...(data ?? []))
       if (!data || data.length < 1000) return rows
@@ -53,7 +62,11 @@ export class SupabaseRepository implements ProgressRepository {
       puzzlesSolved: data.puzzles_solved,
       byCategory: data.by_category,
       continentsPlayed: data.continents_played,
-      streak: { current: data.streak_current, best: data.streak_best, lastActive: data.streak_last_active ?? undefined },
+      streak: {
+        current: data.streak_current,
+        best: data.streak_best,
+        lastActive: data.streak_last_active ?? undefined,
+      },
       learned: data.learned,
     }
     await this.local.saveStats(stats)
@@ -70,7 +83,15 @@ export class SupabaseRepository implements ProgressRepository {
     const data = await this.ownRows('user_progress', '*')
     if (!data) return this.local.getAllEntityProgress()
     const list: EntityProgress[] = (data ?? []).map((p) => ({
-      entityId: p.entity_id, state: p.state, correct: p.correct, wrong: p.wrong, streak: p.streak, ease: p.ease, intervalDays: p.interval_days, dueAt: p.due_at, lastSeenAt: p.last_seen_at,
+      entityId: p.entity_id,
+      state: p.state,
+      correct: p.correct,
+      wrong: p.wrong,
+      streak: p.streak,
+      ease: p.ease,
+      intervalDays: p.interval_days,
+      dueAt: p.due_at,
+      lastSeenAt: p.last_seen_at,
     }))
     await this.local.saveEntityProgress(list)
     return new Map(list.map((p) => [p.entityId, p]))
@@ -87,7 +108,9 @@ export class SupabaseRepository implements ProgressRepository {
   async flush() {
     const c = await this.client
     if (!navigator.onLine || !(await this.userId())) return
-    const pending = (await this.local.getRecentSessions(100)).filter((s) => !(s as QuizSession & { synced?: boolean }).synced)
+    const pending = (await this.local.getRecentSessions(100)).filter(
+      (s) => !(s as QuizSession & { synced?: boolean }).synced,
+    )
     for (const s of pending) {
       const { error } = await c.functions.invoke('submit-session', { body: s })
       if (!error) await this.local.saveSession({ ...s, synced: true } as QuizSession)
@@ -116,7 +139,12 @@ export class SupabaseRepository implements ProgressRepository {
   async getQuests() {
     const data = await this.ownRows('user_quests', '*')
     if (!data) return this.local.getQuests()
-    return data.map((q) => ({ id: q.quest_id, progress: q.progress, startedAt: q.started_at, completedAt: q.completed_at ?? undefined }))
+    return data.map((q) => ({
+      id: q.quest_id,
+      progress: q.progress,
+      startedAt: q.started_at,
+      completedAt: q.completed_at ?? undefined,
+    }))
   }
   async saveQuest(q: { id: string; progress: number; completedAt?: string; startedAt: string }) {
     await this.local.saveQuest(q)
@@ -136,17 +164,49 @@ export class SupabaseRepository implements ProgressRepository {
     }
     return on
   }
-  getPuzzle(key: string) {
-    return this.local.getPuzzle(key)
+  async getPuzzle(key: string) {
+    const puzzles = await this.getPuzzles()
+    return puzzles.find((puzzle) => puzzle.key === key)
   }
   async savePuzzle(p: PuzzleResult) {
     await this.local.savePuzzle(p)
     const c = await this.client
     const uid = await this.userId()
-    if (uid && navigator.onLine) await c.from('puzzle_results').upsert({ user_id: uid, key: p.key, puzzle: p.puzzle, date: p.date, guesses: p.guesses, solved: p.solved, finished_at: p.finishedAt ?? null })
+    if (uid && navigator.onLine)
+      await c
+        .from('puzzle_results')
+        .upsert({
+          user_id: uid,
+          key: p.key,
+          puzzle: p.puzzle,
+          date: p.date,
+          guesses: p.guesses,
+          solved: p.solved,
+          finished_at: p.finishedAt ?? null,
+        })
   }
-  getPuzzles() {
-    return this.local.getPuzzles()
+  async getPuzzles() {
+    const data = await this.ownRows('puzzle_results', 'key, puzzle, date, guesses, solved, finished_at')
+    if (!data) return this.local.getPuzzles()
+
+    const merged = new Map((await this.local.getPuzzles()).map((puzzle) => [puzzle.key, puzzle]))
+    const cache: PuzzleResult[] = []
+    for (const row of data) {
+      const remote: PuzzleResult = {
+        key: row.key,
+        puzzle: row.puzzle,
+        date: row.date,
+        guesses: row.guesses,
+        solved: row.solved,
+        finishedAt: row.finished_at ?? undefined,
+      }
+      const local = merged.get(remote.key)
+      const preferred = !local || puzzleResultRank(remote) >= puzzleResultRank(local) ? remote : local
+      merged.set(remote.key, preferred)
+      if (preferred !== local) cache.push(preferred)
+    }
+    await Promise.all(cache.map((puzzle) => this.local.savePuzzle(puzzle)))
+    return [...merged.values()]
   }
   async getProfile() {
     const c = await this.client
@@ -154,14 +214,32 @@ export class SupabaseRepository implements ProgressRepository {
     if (!uid || !navigator.onLine) return this.local.getProfile()
     const { data } = await c.from('profiles').select('*').eq('id', uid).maybeSingle()
     if (!data) return undefined
-    return { username: data.username ?? '', avatar: data.avatar, color: data.color, title: data.title ?? undefined, featuredAchievements: data.featured_achievements, favoriteCategory: data.favorite_category ?? undefined, createdAt: data.created_at }
+    return {
+      username: data.username ?? '',
+      avatar: data.avatar,
+      color: data.color,
+      title: data.title ?? undefined,
+      featuredAchievements: data.featured_achievements,
+      favoriteCategory: data.favorite_category ?? undefined,
+      createdAt: data.created_at,
+    }
   }
   async saveProfile(p: Profile) {
     await this.local.saveProfile(p)
     const c = await this.client
     const uid = await this.userId()
     if (uid && navigator.onLine)
-      await c.from('profiles').update({ username: p.username || null, avatar: p.avatar, color: p.color, title: p.title ?? null, featured_achievements: p.featuredAchievements, favorite_category: p.favoriteCategory ?? null }).eq('id', uid)
+      await c
+        .from('profiles')
+        .update({
+          username: p.username || null,
+          avatar: p.avatar,
+          color: p.color,
+          title: p.title ?? null,
+          featured_achievements: p.featuredAchievements,
+          favorite_category: p.favoriteCategory ?? null,
+        })
+        .eq('id', uid)
   }
   exportAll() {
     return this.local.exportAll()

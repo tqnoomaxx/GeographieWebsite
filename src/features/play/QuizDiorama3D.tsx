@@ -3,6 +3,7 @@ import { Canvas, useFrame, useThree, type ThreeEvent } from '@react-three/fiber'
 import { ContactShadows, RoundedBox } from '@react-three/drei'
 import { Link, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import type { TFunction } from 'i18next'
 import {
   Building2,
   Car,
@@ -19,8 +20,9 @@ import {
 import { CatmullRomCurve3, DoubleSide, MathUtils, Vector3, type Group } from 'three'
 import { PLAY_QUIZZES, type QuizDef } from '@/config/quizzes'
 import type { CategoryId } from '@/engine/types'
+import type { PlayStationId, StationProgress, StationProgressMap } from './stationProgress'
 
-type SceneId = CategoryId | 'daily'
+type SceneId = PlayStationId
 type Vec3 = [number, number, number]
 
 type Station = {
@@ -30,6 +32,7 @@ type Station = {
   detail?: string
   position: Vec3
   hitbox: Vec3
+  progress?: StationProgress
 }
 
 const PLACEMENTS: Partial<Record<CategoryId, { position: Vec3; hitbox: Vec3 }>> = {
@@ -81,6 +84,27 @@ const TREE_POSITIONS: Array<[number, number, number, number]> = [
 function countLabel(quiz: QuizDef, counts?: Record<string, number>) {
   const value = quiz.countKey ? counts?.[quiz.countKey] : undefined
   return value === undefined ? undefined : `${value.toLocaleString('de-DE')} Einträge`
+}
+
+function stationLevelLabel(progress: StationProgress | undefined, t: TFunction) {
+  if (!progress) return undefined
+  return t('play.station_level', {
+    level: progress.level,
+    name: t(`play.station_levels.${progress.level}`),
+  })
+}
+
+function stationProgressLabel(progress: StationProgress | undefined, t: TFunction) {
+  if (!progress) return undefined
+  const unit = t(`play.station_unit_${progress.unit}`)
+  if (!progress.nextThreshold) {
+    return t('play.station_masterpiece', { value: progress.value.toLocaleString('de-DE'), unit })
+  }
+  return t('play.station_progress', {
+    value: progress.value.toLocaleString('de-DE'),
+    next: progress.nextThreshold.toLocaleString('de-DE'),
+    unit,
+  })
 }
 
 function useReducedMotion() {
@@ -519,7 +543,7 @@ function CarStation({ active }: { active: boolean }) {
   )
 }
 
-function StationModel({ id, active }: { id: SceneId; active: boolean }) {
+function BaseStationModel({ id, active }: { id: SceneId; active: boolean }) {
   switch (id) {
     case 'daily':
       return <Observatory active={active} />
@@ -548,9 +572,442 @@ function StationModel({ id, active }: { id: SceneId; active: boolean }) {
   }
 }
 
+function SmallBuilding({
+  position,
+  height,
+  color,
+  active,
+}: {
+  position: Vec3
+  height: number
+  color: string
+  active: boolean
+}) {
+  return (
+    <group position={position}>
+      <mesh position={[0, height / 2, 0]} castShadow>
+        {material(color, active)}
+        <boxGeometry args={[0.48, height, 0.52]} />
+      </mesh>
+      <mesh position={[0, height + 0.12, 0]} rotation={[0, Math.PI / 4, 0]} castShadow>
+        {material('#485d57', active)}
+        <coneGeometry args={[0.4, 0.28, 4]} />
+      </mesh>
+    </group>
+  )
+}
+
+/** Additive Ausbauten: Jede Stufe ergänzt das vollständige Grundmotiv, statt es zu ersetzen. */
+function StationUpgrades({
+  id,
+  level,
+  active,
+}: {
+  id: SceneId
+  level: StationProgress['level']
+  active: boolean
+}) {
+  switch (id) {
+    case 'daily':
+      return (
+        <group>
+          {level >= 1 ? (
+            <SmallBuilding position={[-0.95, 0, 0.35]} height={0.72} color="#d8cfb8" active={active} />
+          ) : null}
+          {level >= 2 ? (
+            <group position={[0.92, 0.18, 0.35]} rotation={[0, -0.35, -0.18]}>
+              <mesh castShadow>
+                {material('#477c86', active, 0.28)}
+                <boxGeometry args={[1.05, 0.07, 0.72]} />
+              </mesh>
+              <mesh position={[0, -0.22, 0]}>
+                {material('#64645b', active)}
+                <cylinderGeometry args={[0.05, 0.05, 0.4, 6]} />
+              </mesh>
+            </group>
+          ) : null}
+          {level >= 3 ? (
+            <group position={[-0.15, 0, -0.85]}>
+              <mesh position={[0, 0.8, 0]} castShadow>
+                {material('#5a625f', active, 0.25)}
+                <cylinderGeometry args={[0.05, 0.09, 1.6, 7]} />
+              </mesh>
+              <mesh position={[0, 1.48, 0]}>
+                {material('#d8a65b', active, 0.18)}
+                <sphereGeometry args={[0.18, 8, 6]} />
+              </mesh>
+            </group>
+          ) : null}
+          {level >= 4 ? (
+            <mesh position={[0, 0.12, 0]} rotation={[Math.PI / 2, 0, 0]}>
+              {material('#e0bd65', active, 0.35)}
+              <torusGeometry args={[1.45, 0.08, 7, 28]} />
+            </mesh>
+          ) : null}
+        </group>
+      )
+    case 'countries':
+      return (
+        <group>
+          {level >= 1
+            ? [-1.05, 1.05].map((x) => (
+                <SmallBuilding
+                  key={x}
+                  position={[x, 0, 0.25]}
+                  height={0.58}
+                  color="#d8c7a3"
+                  active={active}
+                />
+              ))
+            : null}
+          {level >= 2 ? (
+            <mesh position={[0, 1.35, 0]} rotation={[0.25, 0, Math.PI / 2]}>
+              {material('#e8d69b', active, 0.25)}
+              <torusGeometry args={[1.12, 0.035, 6, 30]} />
+            </mesh>
+          ) : null}
+          {level >= 3 ? (
+            <group>
+              {[-1.2, 1.2].flatMap((x) =>
+                [-0.75, 0.75].map((z) => (
+                  <mesh key={`${x}-${z}`} position={[x, 0.35, z]} castShadow>
+                    {material('#c4ad7f', active)}
+                    <cylinderGeometry args={[0.1, 0.13, 0.7, 7]} />
+                  </mesh>
+                )),
+              )}
+            </group>
+          ) : null}
+          {level >= 4 ? (
+            <mesh position={[0, 2.48, 0]} castShadow>
+              {material('#e5bf5e', active, 0.3)}
+              <octahedronGeometry args={[0.25, 0]} />
+            </mesh>
+          ) : null}
+        </group>
+      )
+    case 'mixed':
+      return (
+        <group>
+          {level >= 1 ? (
+            <mesh position={[0, 0.1, 0]} rotation={[Math.PI / 2, 0, 0]}>
+              {material('#c9aa62', active, 0.16)}
+              <torusGeometry args={[1.25, 0.08, 7, 24]} />
+            </mesh>
+          ) : null}
+          {level >= 2
+            ? [
+                [-1.15, 0],
+                [1.15, 0],
+                [0, -1.15],
+                [0, 1.15],
+              ].map(([x, z], index) => (
+                <mesh key={index} position={[x, 0.32, z]} castShadow>
+                  {material('#d8c49c', active)}
+                  <cylinderGeometry args={[0.11, 0.18, 0.64, 5]} />
+                </mesh>
+              ))
+            : null}
+          {level >= 3 ? (
+            <mesh position={[0, 0.92, 0]} castShadow>
+              {material('#4c625d', active, 0.18)}
+              <cylinderGeometry args={[0.055, 0.08, 1.5, 7]} />
+            </mesh>
+          ) : null}
+          {level >= 4 ? (
+            <mesh position={[0, 1.72, 0]} rotation={[0, 0, Math.PI / 4]} castShadow>
+              {material('#efca67', active, 0.3)}
+              <octahedronGeometry args={[0.3, 0]} />
+            </mesh>
+          ) : null}
+        </group>
+      )
+    case 'capitals':
+      return (
+        <group>
+          {level >= 1 ? (
+            <mesh position={[0, 0.08, 0.9]} castShadow>
+              {material('#c8b58c', active)}
+              <boxGeometry args={[2.55, 0.16, 0.48]} />
+            </mesh>
+          ) : null}
+          {level >= 2
+            ? [-1.35, 1.35].map((x) => (
+                <mesh key={x} position={[x, 0.55, -0.1]} castShadow>
+                  {material('#d9cfb9', active)}
+                  <boxGeometry args={[0.62, 1.1, 1.15]} />
+                </mesh>
+              ))
+            : null}
+          {level >= 3
+            ? [-1.35, 1.35].map((x) => (
+                <mesh key={x} position={[x, 1.28, -0.1]} castShadow>
+                  {material('#7c9b91', active, 0.12)}
+                  <coneGeometry args={[0.43, 0.55, 6]} />
+                </mesh>
+              ))
+            : null}
+          {level >= 4 ? (
+            <mesh position={[0, 2.52, 0]} castShadow>
+              {material('#d7af55', active, 0.3)}
+              <coneGeometry args={[0.14, 0.85, 8]} />
+            </mesh>
+          ) : null}
+        </group>
+      )
+    case 'cities': {
+      const additions: Array<[number, Vec3, number, string]> = [
+        [1, [-1.35, 0, -0.55], 0.9, '#d2a06f'],
+        [1, [1.42, 0, 0.5], 1.15, '#678d86'],
+        [2, [-0.75, 0, -0.85], 1.45, '#b95f50'],
+        [2, [0.65, 0, -0.92], 1.75, '#d5bd7d'],
+        [3, [1.5, 0, -0.6], 2.15, '#8e6257'],
+        [3, [-1.48, 0, 0.65], 1.8, '#568078'],
+        [4, [0.05, 0, -1.2], 2.65, '#c86c51'],
+      ]
+      return (
+        <group>
+          {additions
+            .filter(([from]) => level >= from)
+            .map(([from, position, height, color], index) => (
+              <SmallBuilding
+                key={`${from}-${index}`}
+                position={position}
+                height={height}
+                color={color}
+                active={active}
+              />
+            ))}
+        </group>
+      )
+    }
+    case 'landmarks':
+      return (
+        <group>
+          {level >= 1
+            ? [-1.35, 1.35].map((x) => (
+                <SmallBuilding
+                  key={x}
+                  position={[x, 0, -0.15]}
+                  height={0.72}
+                  color="#d3bd93"
+                  active={active}
+                />
+              ))
+            : null}
+          {level >= 2 ? (
+            <mesh position={[0, 0.08, 0.85]} castShadow>
+              {material('#bfa56f', active)}
+              <boxGeometry args={[2.9, 0.16, 0.55]} />
+            </mesh>
+          ) : null}
+          {level >= 3
+            ? [-1.05, 1.05].map((x) => (
+                <mesh key={x} position={[x, 1.38, -0.25]} castShadow>
+                  {material('#b16b4f', active)}
+                  <coneGeometry args={[0.34, 0.72, 4]} />
+                </mesh>
+              ))
+            : null}
+          {level >= 4 ? (
+            <mesh position={[0, 2.42, 0]} castShadow>
+              {material('#e0b858', active, 0.25)}
+              <boxGeometry args={[0.22, 0.82, 0.22]} />
+            </mesh>
+          ) : null}
+        </group>
+      )
+    case 'languages':
+      return (
+        <group>
+          {level >= 1
+            ? [-1.25, 1.25].map((x) => (
+                <mesh key={x} position={[x, 0.45, 0]} castShadow>
+                  {material('#b96950', active)}
+                  <boxGeometry args={[0.55, 0.9, 1.15]} />
+                </mesh>
+              ))
+            : null}
+          {level >= 2
+            ? [-1.25, 1.25].map((x) => (
+                <mesh key={x} position={[x, 1.12, 0]} rotation={[0, Math.PI / 4, 0]} castShadow>
+                  {material('#475e59', active)}
+                  <coneGeometry args={[0.48, 0.46, 4]} />
+                </mesh>
+              ))
+            : null}
+          {level >= 3 ? (
+            <mesh position={[0, 2.02, -0.25]} castShadow>
+              {material('#d6c28f', active)}
+              <cylinderGeometry args={[0.28, 0.38, 1.15, 8]} />
+            </mesh>
+          ) : null}
+          {level >= 4 ? (
+            <mesh position={[0, 2.75, -0.25]} scale={[1, 0.62, 1]} castShadow>
+              {material('#70a39a', active, 0.18)}
+              <sphereGeometry args={[0.42, 10, 7]} />
+            </mesh>
+          ) : null}
+        </group>
+      )
+    case 'flags':
+      return (
+        <group>
+          {level >= 1 ? (
+            <mesh position={[0, 0.04, 0]} castShadow>
+              {material('#c6b38d', active)}
+              <cylinderGeometry args={[1.28, 1.38, 0.1, 8]} />
+            </mesh>
+          ) : null}
+          {level >= 2
+            ? [-0.75, 0.75].map((x) => (
+                <mesh key={x} position={[x, 1.05, 0.25]} castShadow>
+                  {material('#58635d', active, 0.28)}
+                  <cylinderGeometry args={[0.035, 0.05, 1.8, 7]} />
+                </mesh>
+              ))
+            : null}
+          {level >= 3 ? (
+            <mesh position={[0, 1.05, 0]} castShadow>
+              {material('#a99b82', active)}
+              <cylinderGeometry args={[0.48, 0.62, 0.45, 6]} />
+            </mesh>
+          ) : null}
+          {level >= 4 ? (
+            <mesh position={[0, 3.12, 0]} castShadow>
+              {material('#e6bf57', active, 0.32)}
+              <octahedronGeometry args={[0.24, 0]} />
+            </mesh>
+          ) : null}
+        </group>
+      )
+    case 'nature':
+      return (
+        <group>
+          {level >= 1 ? <Tree x={-2.05} z={0.68} scale={0.48} height={0.8} /> : null}
+          {level >= 2 ? <Tree x={2.05} z={0.72} scale={0.55} height={0.92} /> : null}
+          {level >= 2 ? (
+            <mesh position={[-1.95, 0.55, -0.25]} castShadow>
+              {material('#73887b', active)}
+              <coneGeometry args={[0.72, 1.1, 6]} />
+            </mesh>
+          ) : null}
+          {level >= 3 ? (
+            <mesh position={[1.92, 0.72, -0.4]} castShadow>
+              {material('#60746d', active)}
+              <coneGeometry args={[0.9, 1.45, 6]} />
+            </mesh>
+          ) : null}
+          {level >= 4 ? (
+            <group position={[0, 2.92, -0.1]}>
+              <mesh position={[0, 0.35, 0]} castShadow>
+                {material('#70533d', active)}
+                <cylinderGeometry args={[0.04, 0.06, 0.7, 6]} />
+              </mesh>
+              <mesh position={[0.32, 0.62, 0]}>
+                {material('#e2b957', active, 0.2)}
+                <boxGeometry args={[0.64, 0.28, 0.04]} />
+              </mesh>
+            </group>
+          ) : null}
+        </group>
+      )
+    case 'water':
+      return (
+        <group>
+          {level >= 1 ? (
+            <mesh position={[-0.9, 0.19, 0.5]} rotation={[0, 0.25, 0]} castShadow>
+              {material('#826849', active)}
+              <boxGeometry args={[1.15, 0.12, 0.28]} />
+            </mesh>
+          ) : null}
+          {level >= 2 ? (
+            <group position={[1.15, 0, -0.3]}>
+              <mesh position={[0, 0.58, 0]} castShadow>
+                {material('#e6dfc9', active)}
+                <cylinderGeometry args={[0.17, 0.25, 1.15, 8]} />
+              </mesh>
+              <mesh position={[0, 1.22, 0]} castShadow>
+                {material('#b85449', active)}
+                <coneGeometry args={[0.3, 0.38, 8]} />
+              </mesh>
+            </group>
+          ) : null}
+          {level >= 3 ? (
+            <mesh position={[0.8, 0.16, 0.82]} rotation={[0, -0.2, 0]} castShadow>
+              {material('#d9c48f', active)}
+              <boxGeometry args={[1.4, 0.1, 0.2]} />
+            </mesh>
+          ) : null}
+          {level >= 4 ? (
+            <pointLight
+              position={[1.15, 1.45, -0.3]}
+              color="#ffd66f"
+              intensity={active ? 2.2 : 1.2}
+              distance={3.2}
+              decay={2}
+            />
+          ) : null}
+        </group>
+      )
+    case 'license_plates':
+      return (
+        <group>
+          {level >= 1 ? (
+            <mesh position={[0, 0.04, 0]} rotation={[-Math.PI / 2, 0, 0.18]} receiveShadow>
+              {material('#b9ad93', active)}
+              <planeGeometry args={[2.75, 1.7]} />
+            </mesh>
+          ) : null}
+          {level >= 2 ? (
+            <group position={[-0.65, 0, -0.95]}>
+              <mesh position={[0, 0.72, 0]} castShadow>
+                {material('#d0b890', active)}
+                <boxGeometry args={[2.45, 1.42, 0.58]} />
+              </mesh>
+              <mesh position={[0.2, 0.72, 0.31]}>
+                {material('#53635f', active)}
+                <boxGeometry args={[1.25, 0.92, 0.04]} />
+              </mesh>
+            </group>
+          ) : null}
+          {level >= 3 ? (
+            <SmallBuilding position={[1.45, 0, -0.82]} height={1.35} color="#b5654f" active={active} />
+          ) : null}
+          {level >= 4 ? (
+            <mesh position={[-0.65, 1.62, -0.95]} castShadow>
+              {material('#ddb854', active, 0.25)}
+              <boxGeometry args={[2.7, 0.16, 0.75]} />
+            </mesh>
+          ) : null}
+        </group>
+      )
+    default:
+      return null
+  }
+}
+
+function StationModel({
+  id,
+  active,
+  level,
+}: {
+  id: SceneId
+  active: boolean
+  level: StationProgress['level']
+}) {
+  return (
+    <group>
+      <BaseStationModel id={id} active={active} />
+      <StationUpgrades id={id} level={level} active={active} />
+    </group>
+  )
+}
+
 function InteractiveStation({
   station,
   active,
+  celebrating,
   reducedMotion,
   onActivate,
   onDeactivate,
@@ -558,6 +1015,7 @@ function InteractiveStation({
 }: {
   station: Station
   active: boolean
+  celebrating: boolean
   reducedMotion: boolean
   onActivate: () => void
   onDeactivate: () => void
@@ -567,7 +1025,7 @@ function InteractiveStation({
   useFrame((_state, delta) => {
     const group = model.current
     if (!group) return
-    const target = active ? 1.09 : 1
+    const target = active ? 1.09 : celebrating ? 1.06 : 1
     if (reducedMotion) group.scale.setScalar(target)
     else group.scale.setScalar(MathUtils.damp(group.scale.x, target, 8, delta))
   })
@@ -595,7 +1053,7 @@ function InteractiveStation({
   return (
     <group position={station.position}>
       <group ref={model}>
-        <StationModel id={station.id} active={active} />
+        <StationModel id={station.id} active={active || celebrating} level={station.progress?.level ?? 0} />
       </group>
       <mesh
         position={[0, station.hitbox[1] / 2, 0]}
@@ -606,8 +1064,20 @@ function InteractiveStation({
         <boxGeometry args={station.hitbox} />
         <meshBasicMaterial transparent opacity={0} depthWrite={false} />
       </mesh>
-      {active ? (
-        <pointLight position={[0, 2.3, 0]} color="#9ee8dc" intensity={1.5} distance={4.5} decay={2} />
+      {active || celebrating ? (
+        <pointLight
+          position={[0, 2.3, 0]}
+          color={celebrating ? '#ffd36b' : '#9ee8dc'}
+          intensity={celebrating ? 3.8 : 1.5}
+          distance={celebrating ? 6 : 4.5}
+          decay={2}
+        />
+      ) : null}
+      {celebrating ? (
+        <mesh position={[0, 0.12, 0]} rotation={[Math.PI / 2, 0, 0]}>
+          <torusGeometry args={[1.38, 0.075, 8, 32]} />
+          <meshStandardMaterial color="#ffd66f" emissive="#f2a93b" emissiveIntensity={1.4} roughness={0.42} />
+        </mesh>
       ) : null}
     </group>
   )
@@ -616,6 +1086,7 @@ function InteractiveStation({
 function DioramaScene({
   stations,
   active,
+  celebrating,
   reducedMotion,
   compact,
   moving,
@@ -624,12 +1095,14 @@ function DioramaScene({
 }: {
   stations: Station[]
   active?: SceneId
+  celebrating?: SceneId
   reducedMotion: boolean
   compact: boolean
   moving: boolean
   onActive: (id?: SceneId) => void
   onOpen: (href: string) => void
 }) {
+  const daily = stations.find((station) => station.id === 'daily')
   return (
     <>
       <CameraSetup compact={compact} />
@@ -650,20 +1123,17 @@ function DioramaScene({
       />
       <Ground />
       <Clouds moving={moving} />
-      <InteractiveStation
-        station={{
-          id: 'daily',
-          href: '/daily',
-          label: '',
-          position: [-6.15, 0, -2.15],
-          hitbox: [2.4, 3.1, 2.2],
-        }}
-        active={active === 'daily'}
-        reducedMotion={reducedMotion}
-        onActivate={() => onActive('daily')}
-        onDeactivate={() => onActive(undefined)}
-        onOpen={() => onOpen('/daily')}
-      />
+      {daily ? (
+        <InteractiveStation
+          station={daily}
+          active={active === 'daily'}
+          celebrating={celebrating === 'daily'}
+          reducedMotion={reducedMotion}
+          onActivate={() => onActive('daily')}
+          onDeactivate={() => onActive(undefined)}
+          onOpen={() => onOpen('/daily')}
+        />
+      ) : null}
       {stations
         .filter((station) => station.id !== 'daily')
         .map((station) => (
@@ -671,10 +1141,11 @@ function DioramaScene({
             key={station.id}
             station={station}
             active={active === station.id}
-          reducedMotion={reducedMotion}
-          onActivate={() => onActive(station.id)}
-          onDeactivate={() => onActive(undefined)}
-          onOpen={() => onOpen(station.href)}
+            celebrating={celebrating === station.id}
+            reducedMotion={reducedMotion}
+            onActivate={() => onActive(station.id)}
+            onDeactivate={() => onActive(undefined)}
+            onOpen={() => onOpen(station.href)}
           />
         ))}
       <ContactShadows
@@ -698,7 +1169,15 @@ function SceneFallback({ children }: { children: ReactNode }) {
   return <div className="play-diorama-loading">{children}</div>
 }
 
-export default function QuizDiorama3D({ counts }: { counts?: Record<string, number> }) {
+export default function QuizDiorama3D({
+  counts,
+  progress,
+  celebrating,
+}: {
+  counts?: Record<string, number>
+  progress?: StationProgressMap
+  celebrating?: PlayStationId
+}) {
   const { t } = useTranslation()
   const navigate = useNavigate()
   const rootRef = useRef<HTMLDivElement>(null)
@@ -717,6 +1196,7 @@ export default function QuizDiorama3D({ counts }: { counts?: Record<string, numb
         href: `/play/${quiz.id}`,
         label: t(`category.${quiz.id}`),
         detail: countLabel(quiz, counts),
+        progress: progress?.[quiz.id],
         ...placement,
       }
     })
@@ -727,11 +1207,12 @@ export default function QuizDiorama3D({ counts }: { counts?: Record<string, numb
         href: '/daily',
         label: t('daily.title'),
         detail: t('play.daily_count'),
+        progress: progress?.daily,
         position: [-6.15, 0, -2.15] as Vec3,
         hitbox: [2.4, 3.1, 2.2] as Vec3,
       },
     ]
-  }, [counts, t])
+  }, [counts, progress, t])
 
   useEffect(() => {
     const node = rootRef.current
@@ -757,6 +1238,7 @@ export default function QuizDiorama3D({ counts }: { counts?: Record<string, numb
       ref={rootRef}
       className={`quiz-diorama-3d atlas-diorama ${motionEnabled ? '' : 'is-motion-paused'}`}
       data-active-station={active}
+      data-upgrade-station={celebrating}
       data-motion={motionEnabled ? 'running' : 'paused'}
       role="application"
       aria-label={t('play.diorama_label')}
@@ -775,6 +1257,7 @@ export default function QuizDiorama3D({ counts }: { counts?: Record<string, numb
           <DioramaScene
             stations={stations}
             active={active}
+            celebrating={celebrating}
             reducedMotion={reducedMotion}
             compact={compact}
             moving={motionEnabled}
@@ -790,6 +1273,15 @@ export default function QuizDiorama3D({ counts }: { counts?: Record<string, numb
             <span>{selected.id === 'daily' ? 'Bonusroute' : 'Quizstation'}</span>
             <strong>{selected.label}</strong>
             {selected.detail ? <small>{selected.detail}</small> : null}
+            {selected.progress ? (
+              <div className="quiz-diorama-progress" data-station-level={selected.progress.level}>
+                <b>{stationLevelLabel(selected.progress, t)}</b>
+                <span className="play-station-progress-track" aria-hidden>
+                  <span style={{ width: `${selected.progress.progress * 100}%` }} />
+                </span>
+                <small>{stationProgressLabel(selected.progress, t)}</small>
+              </div>
+            ) : null}
             <Link to={selected.href}>{t('play.configure')} →</Link>
           </>
         ) : (
@@ -809,7 +1301,16 @@ export default function QuizDiorama3D({ counts }: { counts?: Record<string, numb
               to={station.href}
               className={active === station.id ? 'is-active' : ''}
               data-quiz-station={station.id}
-              aria-label={[station.label, station.detail, t('play.configure')].filter(Boolean).join(', ')}
+              data-station-level={station.progress?.level}
+              aria-label={[
+                station.label,
+                stationLevelLabel(station.progress, t),
+                stationProgressLabel(station.progress, t),
+                station.detail,
+                t('play.configure'),
+              ]
+                .filter(Boolean)
+                .join(', ')}
               title={station.label}
               onPointerEnter={() => setActive(station.id)}
               onPointerLeave={() => setActive(undefined)}
@@ -817,6 +1318,9 @@ export default function QuizDiorama3D({ counts }: { counts?: Record<string, numb
               onBlur={() => setActive(undefined)}
             >
               <Icon strokeWidth={1.7} aria-hidden />
+              {celebrating === station.id ? (
+                <span className="quiz-diorama-new">{t('play.upgrade_new')}</span>
+              ) : null}
             </Link>
           )
         })}

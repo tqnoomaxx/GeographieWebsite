@@ -20,6 +20,45 @@ async function pickAnswer(page: Page) {
   else await page.getByRole('group').first().getByRole('button').first().dispatchEvent('click')
 }
 
+async function seedStats(
+  page: Page,
+  byCategory: Record<string, { answered: number; correct: number }>,
+  answered = Object.values(byCategory).reduce((sum, category) => sum + category.answered, 0),
+) {
+  await page.evaluate(
+    ({ categories, total }) =>
+      new Promise<void>((resolve, reject) => {
+        const request = indexedDB.open('geokompass')
+        request.onerror = () => reject(request.error)
+        request.onsuccess = () => {
+          const db = request.result
+          const transaction = db.transaction('kv', 'readwrite')
+          transaction.onerror = () => reject(transaction.error)
+          transaction.oncomplete = () => {
+            db.close()
+            resolve()
+          }
+          transaction.objectStore('kv').put(
+            {
+              xp: 0,
+              answered: total,
+              correct: 0,
+              sessions: 0,
+              fullRuns: 0,
+              puzzlesSolved: 0,
+              byCategory: categories,
+              continentsPlayed: [],
+              streak: { current: 0, best: 0 },
+              learned: 0,
+            },
+            'stats',
+          )
+        }
+      }),
+    { categories: byCategory, total: answered },
+  )
+}
+
 test('Startseite und Kategorien', async ({ page }) => {
   const errors = watchErrors(page)
   await page.goto('')
@@ -86,6 +125,89 @@ test('Quizlandschaft respektiert reduzierte Bewegung', async ({ page }) => {
   await page.emulateMedia({ reducedMotion: 'reduce' })
   await page.goto('play')
   await expect(page.locator('.quiz-diorama-3d')).toHaveAttribute('data-motion', 'paused')
+})
+
+test('Ausbaustufen erscheinen im Diorama und im Quiz-Menü', async ({ page }) => {
+  await page.goto('play')
+  await seedStats(
+    page,
+    {
+      flags: { answered: 0, correct: 0 },
+      countries: { answered: 250, correct: 0 },
+      cities: { answered: 1_500, correct: 0 },
+    },
+    1_750,
+  )
+  await page.evaluate(() => localStorage.removeItem('atlasfunke.station-upgrades.v1'))
+  await page.reload()
+
+  await expect(page.locator('.quiz-diorama-dock [data-quiz-station="flags"]')).toHaveAttribute(
+    'data-station-level',
+    '0',
+  )
+  await expect(page.locator('.quiz-diorama-dock [data-quiz-station="countries"]')).toHaveAttribute(
+    'data-station-level',
+    '2',
+  )
+  await expect(page.locator('.quiz-diorama-dock [data-quiz-station="cities"]')).toHaveAttribute(
+    'data-station-level',
+    '4',
+  )
+
+  await page.getByRole('button', { name: 'Quiz-Menü' }).click()
+  await expect(page.locator('.play-quiz-menu [data-quiz-station="flags"]')).toContainText(
+    'Stufe 0 · Grundbau',
+  )
+  await expect(page.locator('.play-quiz-menu [data-quiz-station="countries"]')).toContainText(
+    'Stufe 2 · Etabliert',
+  )
+  await expect(page.locator('.play-quiz-menu [data-quiz-station="cities"]')).toContainText(
+    'Stufe 4 · Meisterwerk',
+  )
+  await expect(page.locator('.play-quiz-menu [data-quiz-station="cities"]')).toContainText(
+    'vollständig ausgebaut',
+  )
+})
+
+test('Ein neuer Ausbau wird genau einmal gefeiert und bleibt bei Reduced Motion statisch', async ({
+  page,
+}) => {
+  await page.goto('play')
+  await expect
+    .poll(() => page.evaluate(() => localStorage.getItem('atlasfunke.station-upgrades.v1')))
+    .not.toBeNull()
+  await seedStats(page, { flags: { answered: 50, correct: 0 } }, 50)
+  await page.emulateMedia({ reducedMotion: 'reduce' })
+  await page.reload()
+
+  const celebration = page.getByRole('status')
+  await expect(celebration).toContainText('Ausbau abgeschlossen')
+  await expect(celebration).toContainText('Flaggen ist jetzt Stufe 1 · Erweitert')
+  await expect(page.locator('.play-map-switcher')).toHaveAttribute('data-upgrade-station', 'flags')
+  await expect(page.locator('[data-quiz-station="flags"] .quiz-diorama-new')).toContainText('Neu')
+  await expect(celebration).toHaveCSS('animation-name', 'none')
+  await expect
+    .poll(() =>
+      page.evaluate(() => JSON.parse(localStorage.getItem('atlasfunke.station-upgrades.v1')!).levels.flags),
+    )
+    .toBe(1)
+
+  await page.reload()
+  await expect(page.locator('.play-station-upgrade')).toHaveCount(0)
+})
+
+test('Ohne WebGL bleibt das vollständige Quiz-Menü verfügbar', async ({ page }) => {
+  await page.addInitScript(() => {
+    const original = HTMLCanvasElement.prototype.getContext
+    HTMLCanvasElement.prototype.getContext = function (type: string, ...args: unknown[]) {
+      if (type === 'webgl' || type === 'webgl2' || type === 'experimental-webgl') return null
+      return original.call(this, type as '2d', ...(args as []))
+    } as typeof HTMLCanvasElement.prototype.getContext
+  })
+  await page.goto('play')
+  await expect(page.locator('.play-map-switcher')).toHaveAttribute('data-map-view', 'menu')
+  await expect(page.getByRole('button', { name: '3D-Diorama' })).toBeDisabled()
+  await expect(page.locator('.play-quiz-menu [data-quiz-station]')).toHaveCount(11)
 })
 
 test('Fotos sind als Modus in Sehenswürdigkeiten zusammengeführt', async ({ page }) => {

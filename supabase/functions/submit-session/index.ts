@@ -6,7 +6,7 @@ import { authenticate, rateLimit } from '../_shared/auth.ts'
 const XP = { correct: 10, wrong: 2, bonus: { 1: 0, 2: 5, 3: 10 } as Record<number, number>, completed: 25, full: 100, achievement: 100 }
 const MAX_QUESTIONS_PER_SESSION = 500
 const MIN_MS_PER_ANSWER = 250
-const CATEGORIES = new Set(['flags', 'countries', 'capitals', 'regions', 'cities', 'maps', 'landmarks', 'images', 'license_plates', 'water', 'nature', 'mixed'])
+const CATEGORIES = new Set(['flags', 'countries', 'capitals', 'regions', 'cities', 'maps', 'landmarks', 'images', 'license_plates', 'languages', 'water', 'nature', 'mixed'])
 
 Deno.serve(async (req) => {
   if (!originAllowed(req)) return json(req, { error: 'origin_not_allowed' }, 403)
