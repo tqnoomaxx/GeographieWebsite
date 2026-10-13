@@ -34,7 +34,8 @@
     "languages": "Schriften & Sprachen",
     "water": "Flüsse & Seen",
     "nature": "Berge",
-    "mixed": "Gemischt"
+    "mixed": "Gemischt",
+    "trivia": "Geographie-Trivia"
   },
   "scope": {
     "world": "Welt",
@@ -127,7 +128,9 @@
     "all_short": "Alle",
     "only_errors": "Fehlerwiederholung",
     "expedition_report": "Expeditionsbericht",
-    "recovered": "nach Wiederholung"
+    "recovered": "nach Wiederholung",
+    "fact_source": "Quelle:",
+    "trivia_note": "60 Wissensfragen rund um die Erde. Wähle vier Antworten, entdecke die Erklärung und lerne mit jeder Runde etwas Neues."
   },
   "setup": {
     "intro": "Stelle deine Runde zusammen. Du kannst alles später wieder ändern.",
@@ -186,7 +189,7 @@
     "true_false": "Aussagen zu Einwohnerzahl und Binnenlage prüfen.",
     "country_codes": "ISO-Kürzel und internationale Vorwahlen.",
     "country_compare": "Fläche und Einwohnerzahl vergleichen.",
-    "national_symbols": "Nationaltiere und Nationalblumen sicher zuordnen.",
+    "national_symbols": "Nationaltiere, Nationalvögel, Nationalblumen und Nationalbäume zuordnen.",
     "country_to_capital": "Zum Land die richtige Hauptstadt finden.",
     "capital_to_country": "Die Hauptstadt ihrem Land zuordnen.",
     "capital_to_flag": "Von der Hauptstadt zur passenden Landesflagge.",
@@ -217,7 +220,8 @@
     "cyrillic_to_latin": "Russische Wörter und Buchstaben aus Kyrillisch lesen und die lateinische Umschrift wählen.",
     "greek_to_latin": "Griechische Wörter und Buchstaben lesen und die lateinische Umschrift wählen.",
     "script_input": "Die lateinische Umschrift selbst eintippen – gebräuchliche Varianten werden akzeptiert.",
-    "latin_to_script": "Von der lateinischen Umschrift zurück zum passenden Originalzeichen oder -wort."
+    "latin_to_script": "Von der lateinischen Umschrift zurück zum passenden Originalzeichen oder -wort.",
+    "trivia_questions": "Teste dein Weltwissen: Landschaften, Rekorde, Länder und Karten – mit Erklärung und Quelle nach jeder Antwort."
   },
   "modes": {
     "auto": "Automatisch",
@@ -262,7 +266,8 @@
     "cyrillic_to_latin": "Kyrillisch → Lateinisch",
     "greek_to_latin": "Griechisch → Lateinisch",
     "script_input": "Umschrift eintippen",
-    "latin_to_script": "Lateinisch → Original"
+    "latin_to_script": "Lateinisch → Original",
+    "trivia_questions": "Wissensfragen"
   },
   "q": {
     "flag_to_country": "Welche Flagge ist das?",
@@ -270,9 +275,9 @@
     "region_flag_input": "Welche Region in {{country}} zeigt diese Flagge?",
     "country_to_flag": "Welche Flagge gehört zu {{name}}?",
     "country_to_capital": "Welche dieser Städte ist eine Hauptstadt von {{name}}?",
-    "capital_to_country": "{{name}} ist die Hauptstadt von …",
+    "capital_to_country": "{{name}} ist eine Hauptstadt von …",
     "capital_to_flag": "Welche Flagge gehört zum Land mit der Hauptstadt {{name}}?",
-    "capital_input": "Wie heißt die Hauptstadt von {{name}}?",
+    "capital_input": "Wie heißt eine aktuelle Hauptstadt von {{name}}?",
     "country_currency": "Welche Währung hat {{name}}?",
     "national_animal": "Welches Nationaltier gehört zu {{name}}?",
     "national_flower": "Welche Nationalblume gehört zu {{name}}?",
@@ -320,7 +325,22 @@
     "mountain_on_map": "In welchem Land liegt {{name}}?",
     "script_to_latin": "Welche lateinische Umschrift passt?",
     "script_to_latin_input": "Schreibe das Wort oder Zeichen mit lateinischen Buchstaben.",
-    "latin_to_script": "Welche Schreibweise auf {{language}} gehört zu „{{text}}“?"
+    "latin_to_script": "Welche Schreibweise auf {{language}} gehört zu „{{text}}“?",
+    "country_to_federal_city": "Welche dieser Städte ist die Bundesstadt von {{name}}?",
+    "federal_city_input": "Wie heißt die Bundesstadt von {{name}}?",
+    "federal_city_to_country": "{{name}} ist die Bundesstadt von …",
+    "federal_city_to_flag": "Welche Flagge gehört zum Land mit der Bundesstadt {{name}}?",
+    "national_bird": "Welcher Nationalvogel gehört zu {{name}}?",
+    "national_tree": "Welcher Nationalbaum gehört zu {{name}}?",
+    "national_animal_established": "Welches Tier gilt als nationales Symbol von {{name}}?",
+    "national_bird_established": "Welcher Vogel gilt als nationales Symbol von {{name}}?",
+    "national_flower_established": "Welche Blume gilt als nationales Symbol von {{name}}?",
+    "national_tree_established": "Welcher Baum gilt als nationales Symbol von {{name}}?",
+    "country_to_claimed_capital": "Welche Stadt wird von {{name}} als Hauptstadt beansprucht?",
+    "claimed_capital_input": "Welche Stadt wird von {{name}} als Hauptstadt beansprucht?",
+    "claimed_capital_to_country": "{{name}} wird als Hauptstadt beansprucht von …",
+    "claimed_capital_to_flag": "Welche Flagge gehört zum Land, das {{name}} als Hauptstadt beansprucht?",
+    "trivia": "{{question}}"
   },
   "daily": {
     "title": "Tägliche Rätsel",
@@ -393,7 +413,12 @@
     "neighbors": "Nachbarländer",
     "play_this": "{{name}} spielen",
     "show_on_map": "Auf Karte zeigen",
-    "no_data": "Keine Angabe"
+    "no_data": "Keine Angabe",
+    "landmark_search": "Sehenswürdigkeit oder Land suchen …",
+    "landmark_region": "Weltregion",
+    "landmark_count": "{{shown}} von {{total}} Sehenswürdigkeiten",
+    "landmark_no_results": "Keine passenden Sehenswürdigkeiten gefunden.",
+    "open_photo": "Foto in voller Größe öffnen"
   },
   "facts": {
     "capital": "Hauptstadt",
@@ -427,7 +452,18 @@
     "type": "Art",
     "flag": "Flagge",
     "image_source": "Bildquelle",
-    "quick_facts": "Kurzfakten"
+    "quick_facts": "Kurzfakten",
+    "capitals": "Hauptstädte",
+    "no_official_capital": "Keine offiziell bestimmte Hauptstadt",
+    "national_bird": "Nationalvogel",
+    "national_tree": "Nationalbaum",
+    "national_fish": "Nationalfisch",
+    "official_name": "Amtlicher Landesname",
+    "national_anthem": "Nationalhymne",
+    "symbol_not_documented": "Noch kein belegter Eintrag",
+    "symbol_status_official": "Amtlich bestimmt",
+    "symbol_status_established": "Etabliertes Symbol",
+    "symbol_explanation": "Amtlich bestimmte Symbole und etablierte Kultur- oder Wappensymbole sind gekennzeichnet. „Noch kein belegter Eintrag“ bedeutet, dass hier eine Quelle fehlt; nicht, dass das Land kein solches Symbol hat."
   },
   "landmark_types": {
     "archaeological": "Archäologische Stätte",
@@ -448,7 +484,8 @@
     "skyscraper": "Wolkenkratzer",
     "square": "Historischer Platz",
     "tower": "Turm",
-    "unesco": "UNESCO-Welterbe"
+    "unesco": "UNESCO-Welterbe",
+    "museum": "Museum"
   },
   "progress": {
     "title": "Mein Fortschritt",
@@ -740,7 +777,8 @@
     "remove": "Entfernen",
     "of": "von",
     "true": "Wahr",
-    "false": "Falsch"
+    "false": "Falsch",
+    "photo_unavailable": "Foto momentan nicht verfügbar."
   },
   "legal": {
     "imprint": "Impressum",

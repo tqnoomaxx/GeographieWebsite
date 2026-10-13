@@ -1,0 +1,1330 @@
+{
+ "checked_at": "2026-10-13",
+ "symbols": {
+  "AG": {
+   "animal": [
+    {
+     "name": "Damhirsch",
+     "scientific_name": "Dama dama",
+     "status": "official",
+     "source": "Government Information Service Antigua and Barbuda",
+     "source_url": "https://gis.gov.ag/?page_id=122"
+    }
+   ],
+   "bird": [
+    {
+     "name": "Prachtfregattvogel",
+     "scientific_name": "Fregata magnificens",
+     "status": "official",
+     "source": "Government Information Service Antigua and Barbuda",
+     "source_url": "https://gis.gov.ag/?page_id=122"
+    }
+   ],
+   "flower": [
+    {
+     "name": "Agave karatto",
+     "scientific_name": "Agave karatto",
+     "status": "official",
+     "source": "Government Information Service Antigua and Barbuda",
+     "source_url": "https://gis.gov.ag/?page_id=122"
+    }
+   ],
+   "tree": [
+    {
+     "name": "Bucida buceras",
+     "scientific_name": "Bucida buceras",
+     "status": "official",
+     "source": "Government Information Service Antigua and Barbuda",
+     "source_url": "https://gis.gov.ag/?page_id=122"
+    }
+   ]
+  },
+  "BZ": {
+   "animal": [
+    {
+     "name": "Baird-Tapir",
+     "scientific_name": "Tapirus bairdii",
+     "status": "official",
+     "source": "National Symbols Act 2025, Belize",
+     "source_url": "https://www.nationalassembly.gov.bz/wp-content/uploads/2025/02/Act-No.-9-of-2025-National-Symbols-Act-2025.pdf"
+    }
+   ],
+   "bird": [
+    {
+     "name": "Fischertukan",
+     "scientific_name": "Ramphastos sulfuratus",
+     "status": "official",
+     "source": "National Symbols Act 2025, Belize",
+     "source_url": "https://www.nationalassembly.gov.bz/wp-content/uploads/2025/02/Act-No.-9-of-2025-National-Symbols-Act-2025.pdf"
+    }
+   ],
+   "flower": [
+    {
+     "name": "Schwarze Orchidee",
+     "scientific_name": "Prosthechea cochleata",
+     "status": "official",
+     "source": "National Symbols Act 2025, Belize",
+     "source_url": "https://www.nationalassembly.gov.bz/wp-content/uploads/2025/02/Act-No.-9-of-2025-National-Symbols-Act-2025.pdf"
+    }
+   ],
+   "tree": [
+    {
+     "name": "Amerikanischer Mahagonibaum",
+     "scientific_name": "Swietenia macrophylla",
+     "status": "official",
+     "source": "National Symbols Act 2025, Belize",
+     "source_url": "https://www.nationalassembly.gov.bz/wp-content/uploads/2025/02/Act-No.-9-of-2025-National-Symbols-Act-2025.pdf"
+    }
+   ]
+  },
+  "JM": {
+   "bird": [
+    {
+     "name": "Wimpelschwanz",
+     "scientific_name": "Trochilus polytmus",
+     "status": "official",
+     "source": "Ministry of Foreign Affairs and Foreign Trade Jamaica",
+     "source_url": "https://mfaft.gov.jm/site/national-symbols/"
+    }
+   ],
+   "flower": [
+    {
+     "name": "Pockholz",
+     "scientific_name": "Guaiacum officinale",
+     "status": "official",
+     "source": "Ministry of Foreign Affairs and Foreign Trade Jamaica",
+     "source_url": "https://mfaft.gov.jm/site/national-symbols/"
+    }
+   ],
+   "tree": [
+    {
+     "name": "Blaue Mahoe",
+     "scientific_name": "Talipariti elatum",
+     "status": "official",
+     "source": "Ministry of Foreign Affairs and Foreign Trade Jamaica",
+     "source_url": "https://mfaft.gov.jm/site/national-symbols/"
+    }
+   ]
+  },
+  "PK": {
+   "animal": [
+    {
+     "name": "Schraubenziege (Markhor)",
+     "scientific_name": "Capra falconeri",
+     "status": "official",
+     "source": "Ministry of Foreign Affairs Pakistan",
+     "source_url": "https://mofa.gov.pk/ankara-national-symbols-of-pakistan"
+    }
+   ],
+   "bird": [
+    {
+     "name": "Chukarhuhn",
+     "scientific_name": "Alectoris chukar",
+     "status": "official",
+     "source": "Ministry of Foreign Affairs Pakistan",
+     "source_url": "https://mofa.gov.pk/ankara-national-symbols-of-pakistan"
+    }
+   ],
+   "flower": [
+    {
+     "name": "Jasmin",
+     "scientific_name": "Jasminum officinale",
+     "status": "official",
+     "source": "Ministry of Foreign Affairs Pakistan",
+     "source_url": "https://mofa.gov.pk/ankara-national-symbols-of-pakistan"
+    }
+   ],
+   "tree": [
+    {
+     "name": "Himalaya-Zeder",
+     "scientific_name": "Cedrus deodara",
+     "status": "official",
+     "source": "Ministry of Foreign Affairs Pakistan",
+     "source_url": "https://mofa.gov.pk/ankara-national-symbols-of-pakistan"
+    }
+   ]
+  },
+  "BW": {
+   "animal": [
+    {
+     "name": "Zebra",
+     "status": "official",
+     "source": "Embassy of Botswana, Geneva",
+     "source_url": "https://botswanamission.ch/national-symbols/"
+    }
+   ]
+  },
+  "KG": {
+   "animal": [
+    {
+     "name": "Schneeleopard",
+     "scientific_name": "Panthera uncia",
+     "status": "official",
+     "source": "Ministry of Natural Resources Kyrgyzstan",
+     "source_url": "https://mnr.gov.kg/en/posts/news/sneznyi-bars-oficialno-priznan-nacionalnym-simvolom-kyrgyzskoi-respubliki"
+    }
+   ]
+  },
+  "TZ": {
+   "animal": [
+    {
+     "name": "Massai-Giraffe",
+     "scientific_name": "Giraffa tippelskirchi",
+     "status": "established",
+     "source": "Tanzania National Parks",
+     "source_url": "https://www.tanzaniaparks.go.tz/uploads/publications/en-1759757684-TourismSplash.pdf"
+    }
+   ]
+  },
+  "AU": {
+   "animal": [
+    {
+     "name": "Känguru",
+     "status": "established",
+     "source": "Australian Government",
+     "source_url": "https://www.pmc.gov.au/honours-and-symbols/commonwealth-coat-arms",
+     "note": "Kängurus sind Wappenträger im australischen Staatswappen."
+    }
+   ],
+   "bird": [
+    {
+     "name": "Emu",
+     "scientific_name": "Dromaius novaehollandiae",
+     "status": "established",
+     "source": "Australian Government",
+     "source_url": "https://www.pmc.gov.au/honours-and-symbols/commonwealth-coat-arms",
+     "note": "Wappenträger im australischen Staatswappen."
+    }
+   ]
+  },
+  "NZ": {
+   "animal": [
+    {
+     "name": "Kiwi",
+     "scientific_name": "Apteryx",
+     "status": "established",
+     "source": "Department of Conservation New Zealand",
+     "source_url": "https://www.doc.govt.nz/kiwi",
+     "note": "Inoffizielles nationales Emblem; die Bezeichnung umfasst mehrere Kiwi-Arten."
+    }
+   ],
+   "bird": [
+    {
+     "name": "Kiwi",
+     "scientific_name": "Apteryx",
+     "status": "established",
+     "source": "Department of Conservation New Zealand",
+     "source_url": "https://www.doc.govt.nz/kiwi",
+     "note": "Inoffizielles nationales Emblem."
+    }
+   ],
+   "flower": [
+    {
+     "name": "Kōwhai",
+     "status": "established",
+     "source": "Department of Conservation New Zealand",
+     "source_url": "https://www.doc.govt.nz/plants",
+     "scientific_name": "Sophora",
+     "note": "Inoffizielle Nationalblume; Kōwhai bezeichnet mehrere Sophora-Arten."
+    }
+   ]
+  },
+  "FR": {
+   "animal": [
+    {
+     "name": "Gallischer Hahn",
+     "scientific_name": "Gallus gallus domesticus",
+     "status": "established",
+     "source": "Présidence de la République française",
+     "source_url": "https://www.elysee.fr/de/franzoesisches-praesidialamt/der-hahn",
+     "note": "Kulturelles und sportliches Symbol Frankreichs."
+    }
+   ],
+   "bird": [
+    {
+     "name": "Gallischer Hahn",
+     "scientific_name": "Gallus gallus domesticus",
+     "status": "established",
+     "source": "Présidence de la République française",
+     "source_url": "https://www.elysee.fr/de/franzoesisches-praesidialamt/der-hahn"
+    }
+   ]
+  },
+  "PH": {
+   "bird": [
+    {
+     "name": "Philippinenadler",
+     "scientific_name": "Pithecophaga jefferyi",
+     "status": "official",
+     "source": "National Commission for Culture and the Arts Philippines",
+     "source_url": "https://ncca.gov.ph/about-culture-and-arts/in-focus/official-national-symbols-of-the-philippines/"
+    }
+   ],
+   "flower": [
+    {
+     "name": "Arabischer Jasmin (Sampaguita)",
+     "scientific_name": "Jasminum sambac",
+     "status": "official",
+     "source": "National Commission for Culture and the Arts Philippines",
+     "source_url": "https://ncca.gov.ph/about-culture-and-arts/in-focus/official-national-symbols-of-the-philippines/"
+    }
+   ],
+   "tree": [
+    {
+     "name": "Narra",
+     "scientific_name": "Pterocarpus indicus",
+     "status": "official",
+     "source": "National Commission for Culture and the Arts Philippines",
+     "source_url": "https://ncca.gov.ph/about-culture-and-arts/in-focus/official-national-symbols-of-the-philippines/"
+    }
+   ],
+   "animal": [
+    {
+     "name": "Carabao",
+     "scientific_name": "Bubalus bubalis",
+     "status": "established",
+     "source": "National Commission for Culture and the Arts Philippines",
+     "source_url": "https://ncca.gov.ph/about-culture-and-arts/in-focus/official-national-symbols-of-the-philippines/",
+     "note": "Weit verbreitetes kulturelles Symbol; ausdrücklich kein gesetzlich festgelegtes Nationaltier."
+    }
+   ]
+  },
+  "GT": {
+   "bird": [
+    {
+     "name": "Quetzal",
+     "scientific_name": "Pharomachrus mocinno",
+     "status": "official",
+     "source": "Congreso de la República Guatemala",
+     "source_url": "https://www.congreso.gob.gt/noticias_congreso/10257/2023/"
+    }
+   ],
+   "flower": [
+    {
+     "name": "Monja Blanca",
+     "scientific_name": "Lycaste virginalis",
+     "status": "official",
+     "source": "Congreso de la República Guatemala",
+     "source_url": "https://www.congreso.gob.gt/noticias_congreso/10257/2023/"
+    }
+   ],
+   "tree": [
+    {
+     "name": "Kapokbaum (Ceiba)",
+     "scientific_name": "Ceiba pentandra",
+     "status": "official",
+     "source": "Congreso de la República Guatemala",
+     "source_url": "https://www.congreso.gob.gt/noticias_congreso/10257/2023/"
+    }
+   ]
+  },
+  "HN": {
+   "animal": [
+    {
+     "name": "Weißwedelhirsch",
+     "scientific_name": "Odocoileus virginianus",
+     "status": "official",
+     "source": "Secretaría de Educación Honduras",
+     "source_url": "https://www.se.gob.hn/media/files/prebasica/MODULO_1_FORMATIVO_PARA_EDUCADORES.pdf"
+    }
+   ],
+   "bird": [
+    {
+     "name": "Scharlachara",
+     "scientific_name": "Ara macao",
+     "status": "official",
+     "source": "Secretaría de Educación Honduras",
+     "source_url": "https://www.se.gob.hn/media/files/prebasica/MODULO_1_FORMATIVO_PARA_EDUCADORES.pdf"
+    }
+   ],
+   "flower": [
+    {
+     "name": "Rhyncholaelia digbyana",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Rhyncholaelia digbyana"
+    }
+   ]
+  },
+  "SV": {
+   "bird": [
+    {
+     "name": "Brauenmotmot (Torogoz)",
+     "scientific_name": "Eumomota superciliosa",
+     "status": "official",
+     "source": "Ministerio de Cultura El Salvador",
+     "source_url": "https://www.cultura.gob.sv/los-simbolos-patrios-son-la-pieza-del-mes-del-museo-regional-de-occidente/"
+    }
+   ],
+   "flower": [
+    {
+     "name": "Izote",
+     "scientific_name": "Yucca gigantea",
+     "status": "official",
+     "source": "Ministerio de Cultura El Salvador",
+     "source_url": "https://www.cultura.gob.sv/los-simbolos-patrios-son-la-pieza-del-mes-del-museo-regional-de-occidente/"
+    }
+   ],
+   "tree": [
+    {
+     "name": "Maquilishuat",
+     "scientific_name": "Tabebuia rosea",
+     "status": "official",
+     "source": "Ministerio de Cultura El Salvador",
+     "source_url": "https://www.cultura.gob.sv/los-simbolos-patrios-son-la-pieza-del-mes-del-museo-regional-de-occidente/"
+    },
+    {
+     "name": "Balsambaum",
+     "scientific_name": "Myroxylon balsamum",
+     "status": "official",
+     "source": "Ministerio de Cultura El Salvador",
+     "source_url": "https://www.cultura.gob.sv/los-simbolos-patrios-son-la-pieza-del-mes-del-museo-regional-de-occidente/"
+    }
+   ]
+  },
+  "PA": {
+   "bird": [
+    {
+     "name": "Harpyie",
+     "scientific_name": "Harpia harpyja",
+     "status": "official",
+     "source": "Embajada de Panamá",
+     "source_url": "https://embajadadepanamaenespana.gob.pa/simbolos-patrios/"
+    }
+   ],
+   "flower": [
+    {
+     "name": "Heiliggeist-Orchidee",
+     "scientific_name": "Peristeria elata",
+     "status": "official",
+     "source": "Embajada de Panamá",
+     "source_url": "https://embajadadepanamaenespana.gob.pa/simbolos-patrios/"
+    }
+   ],
+   "tree": [
+    {
+     "name": "Panamabaum",
+     "scientific_name": "Sterculia apetala",
+     "status": "official",
+     "source": "Embajada de Panamá",
+     "source_url": "https://embajadadepanamaenespana.gob.pa/simbolos-patrios/"
+    }
+   ]
+  },
+  "BR": {
+   "flower": [
+    {
+     "name": "Gelber Ipê",
+     "status": "established",
+     "source": "Universidade de Brasília",
+     "source_url": "https://sema.unb.br/coordenacao-de-areas-verdes-cav/%C3%A1rvores-tombadas-pelo-decreto-38849-2018",
+     "note": "Sammelbezeichnung für mehrere gelb blühende Ipê-Arten; die amtliche Rechtsgrundlage wird unterschiedlich angegeben."
+    }
+   ]
+  },
+  "CA": {
+   "tree": [
+    {
+     "name": "Ahorn",
+     "scientific_name": "Acer",
+     "status": "official",
+     "source": "Government of Canada",
+     "source_url": "https://www.canada.ca/en/canadian-heritage/services/official-symbols-canada.html"
+    }
+   ]
+  },
+  "US": {
+   "bird": [
+    {
+     "name": "Weißkopfseeadler",
+     "scientific_name": "Haliaeetus leucocephalus",
+     "status": "official",
+     "source": "U.S. Public Law 118–206",
+     "source_url": "https://www.govinfo.gov/content/pkg/PLAW-118publ206/html/PLAW-118publ206.htm"
+    }
+   ]
+  },
+  "ZA": {
+   "bird": [
+    {
+     "name": "Paradieskranich",
+     "scientific_name": "Anthropoides paradiseus",
+     "status": "official",
+     "source": "South African Government",
+     "source_url": "https://www.gov.za/about-sa/national-symbols"
+    }
+   ],
+   "tree": [
+    {
+     "name": "Breitblättrige Steineibe",
+     "scientific_name": "Podocarpus latifolius",
+     "status": "official",
+     "source": "South African Government",
+     "source_url": "https://www.gov.za/about-sa/national-symbols"
+    }
+   ],
+   "fish": [
+    {
+     "name": "Galjoen",
+     "scientific_name": "Dichistius capensis",
+     "status": "official",
+     "source": "South African Government",
+     "source_url": "https://www.gov.za/about-sa/national-symbols"
+    }
+   ]
+  },
+  "MY": {
+   "animal": [
+    {
+     "name": "Malaiischer Tiger",
+     "status": "established",
+     "source": "Department of Wildlife and National Parks Malaysia",
+     "source_url": "https://files.wildlife.gov.my/wildlife-wp-media/2025/09/13082931/NTCAP.pdf",
+     "scientific_name": "Panthera tigris jacksoni"
+    }
+   ],
+   "flower": [
+    {
+     "name": "Chinesischer Roseneibisch",
+     "status": "official",
+     "source": "Government of Malaysia",
+     "source_url": "https://www.malaysia.gov.my/en/government/kenali-malaysia/national-flower",
+     "scientific_name": "Hibiscus rosa-sinensis"
+    }
+   ]
+  },
+  "GY": {
+   "animal": [
+    {
+     "name": "Jaguar",
+     "status": "established",
+     "source": "Ministry of Education Guyana",
+     "source_url": "https://moe.gov.gy/web2/index.php/sec/grade7/grade-7-consolidated-curriculum-guides/5810-grade-7-social-studies-consolidated-curriculum-2021/file",
+     "scientific_name": "Panthera onca",
+     "note": "Der Jaguar im Staatswappen gilt als nationales Tiersymbol."
+    }
+   ],
+   "bird": [
+    {
+     "name": "Hoatzin (Canje Pheasant)",
+     "status": "official",
+     "source": "Office of the President Guyana",
+     "source_url": "https://op.gov.gy/address-of-his-excellency-brigadier-david-granger-president-of-the-cooperative-republic-of-guyana-and-chancellor-of-the-orders-of-guyana-at-the-national-investiture-ceremony-at-the-arthur-chung-confer/",
+     "scientific_name": "Opisthocomus hoazin"
+    }
+   ],
+   "flower": [
+    {
+     "name": "Amazonas-Riesenseerose",
+     "status": "official",
+     "source": "Office of the President Guyana",
+     "source_url": "https://op.gov.gy/address-of-his-excellency-brigadier-david-granger-president-of-the-cooperative-republic-of-guyana-and-chancellor-of-the-orders-of-guyana-at-the-national-investiture-ceremony-at-the-arthur-chung-confer/",
+     "scientific_name": "Victoria amazonica"
+    }
+   ]
+  },
+  "AE": {
+   "animal": [
+    {
+     "name": "Arabische Oryx",
+     "status": "established",
+     "source": "Department of Culture and Tourism Abu Dhabi",
+     "source_url": "https://adtt.dct.gov.ae/wp-content/uploads/2022/08/Section-8-Traditional-Industries.pdf",
+     "scientific_name": "Oryx leucoryx"
+    }
+   ]
+  },
+  "QA": {
+   "animal": [
+    {
+     "name": "Arabische Oryx",
+     "status": "established",
+     "source": "Qatar Tourism",
+     "source_url": "https://visitqatar.com/intl-en/about-qatar/wildlife/arabian-oryx",
+     "scientific_name": "Oryx leucoryx"
+    }
+   ]
+  },
+  "DE": {
+   "animal": [
+    {
+     "name": "Adler (Bundesadler)",
+     "status": "established",
+     "source": "Deutscher Bundestag",
+     "source_url": "https://www.bundestag.de/resource/blob/503720/Staatssymbole-Der-Bundesadler.pdf",
+     "note": "Der Bundesadler ist ein heraldisches Staatssymbol und Wappentier."
+    }
+   ]
+  },
+  "PL": {
+   "animal": [
+    {
+     "name": "Adler (Weißer Adler)",
+     "status": "established",
+     "source": "Ministry of Foreign Affairs Poland",
+     "source_url": "https://www.gov.pl/web/ukraina/polskie-symbole-narodowe",
+     "note": "Der Weiße Adler ist ein heraldisches Symbol des polnischen Staatswappens."
+    }
+   ]
+  },
+  "NL": {
+   "animal": [
+    {
+     "name": "Löwe",
+     "status": "established",
+     "source": "Royal House of the Netherlands",
+     "source_url": "https://www.royal-house.nl/topics/monarchy/coats-of-arms",
+     "note": "Der Löwe ist ein heraldisches Symbol des niederländischen Staatswappens."
+    }
+   ]
+  },
+  "IN": {
+   "flower": [
+    {
+     "name": "Indische Lotosblume",
+     "scientific_name": "Nelumbo nucifera",
+     "status": "established",
+     "source": "Madhya Pradesh State Biodiversity Board",
+     "source_url": "https://mpforest.gov.in/mpsbb/LatestNews/Biodiversity%20English%20Book.pdf",
+     "note": "Traditionell als nationales Blumensymbol genannt; eine amtliche Festlegung ist mit dieser Quelle nicht belegt."
+    }
+   ],
+   "bird": [
+    {
+     "name": "Blauer Pfau",
+     "status": "official",
+     "source": "Ministry of External Affairs India",
+     "source_url": "https://www.mea.gov.in/Uploads/PublicationDocs/213_mar-2003.pdf",
+     "scientific_name": "Pavo cristatus"
+    }
+   ],
+   "tree": [
+    {
+     "name": "Banyanbaum",
+     "status": "established",
+     "source": "Ministry of External Affairs India",
+     "source_url": "https://www.mea.gov.in/Uploads/PublicationDocs/184_india-dynamic-democracy.pdf",
+     "scientific_name": "Ficus benghalensis"
+    }
+   ]
+  },
+  "BS": {
+   "flower": [
+    {
+     "name": "Gelbe Trompetenblume",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Tecoma stans"
+    }
+   ],
+   "bird": [
+    {
+     "name": "Kubaflamingo",
+     "status": "official",
+     "source": "Embassy of the Bahamas",
+     "source_url": "https://www.bahamasembdc.org/about/national-symbols/",
+     "scientific_name": "Phoenicopterus ruber"
+    }
+   ],
+   "fish": [
+    {
+     "name": "Blauer Marlin",
+     "status": "official",
+     "source": "Embassy of the Bahamas",
+     "source_url": "https://www.bahamasembdc.org/about/national-symbols/",
+     "scientific_name": "Makaira nigricans"
+    }
+   ]
+  },
+  "BO": {
+   "flower": [
+    {
+     "name": "Kantuta",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Cantua buxifolia"
+    },
+    {
+     "name": "Patujú",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Heliconia rostrata"
+    }
+   ]
+  },
+  "KM": {
+   "flower": [
+    {
+     "name": "Ylang-Ylang",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Cananga odorata"
+    }
+   ]
+  },
+  "HR": {
+   "flower": [
+    {
+     "name": "Kroatische Schwertlilie",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Iris croatica"
+    }
+   ]
+  },
+  "CU": {
+   "flower": [
+    {
+     "name": "Schmetterlingsingwer",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Hedychium coronarium"
+    }
+   ]
+  },
+  "KP": {
+   "flower": [
+    {
+     "name": "Siebold-Magnolie",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Magnolia sieboldii"
+    }
+   ]
+  },
+  "DM": {
+   "flower": [
+    {
+     "name": "Bwa Kwaib",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Poitea carinalis"
+    }
+   ],
+   "bird": [
+    {
+     "name": "Kaiseramazone (Sisserou)",
+     "status": "established",
+     "source": "Office of the President, Dominica",
+     "source_url": "https://presidentoffice.gov.dm/component/content/article/our-national-emblems-and-national-sybmols-16th-june-1986?Itemid=101&catid=10",
+     "scientific_name": "Amazona imperialis"
+    }
+   ]
+  },
+  "DO": {
+   "flower": [
+    {
+     "name": "Bayahibe-Rose",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Pereskia quisqueyana"
+    }
+   ]
+  },
+  "EC": {
+   "flower": [
+    {
+     "name": "Chuquiragua",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Chuquiraga jussieui"
+    }
+   ]
+  },
+  "FJ": {
+   "flower": [
+    {
+     "name": "Tagimaucia",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Medinilla waterhousei"
+    }
+   ]
+  },
+  "GR": {
+   "flower": [
+    {
+     "name": "Lorbeer",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Laurus nobilis"
+    }
+   ]
+  },
+  "GD": {
+   "flower": [
+    {
+     "name": "Bougainvillea",
+     "status": "official",
+     "source": "Government of Grenada",
+     "source_url": "https://www.gov.gd/national-symbols",
+     "scientific_name": "Bougainvillea"
+    }
+   ],
+   "bird": [
+    {
+     "name": "Grenadataube",
+     "status": "official",
+     "source": "Government of Grenada",
+     "source_url": "https://www.gov.gd/national-symbols",
+     "scientific_name": "Leptotila wellsi"
+    }
+   ]
+  },
+  "IS": {
+   "flower": [
+    {
+     "name": "Silberwurz",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Dryas octopetala"
+    }
+   ]
+  },
+  "JO": {
+   "flower": [
+    {
+     "name": "Schwarze Schwertlilie",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Iris nigricans"
+    }
+   ]
+  },
+  "KW": {
+   "flower": [
+    {
+     "name": "Arfaj",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Rhanterium epapposum"
+    }
+   ]
+  },
+  "LA": {
+   "flower": [
+    {
+     "name": "Frangipani",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Plumeria"
+    }
+   ]
+  },
+  "LV": {
+   "flower": [
+    {
+     "name": "Wiesen-Margerite",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Leucanthemum vulgare"
+    }
+   ],
+   "bird": [
+    {
+     "name": "Bachstelze",
+     "status": "established",
+     "source": "Lettisches Nationales Naturkundemuseum",
+     "source_url": "https://www.dabasmuzejs.gov.lv/en/exhibitions/birds-latvia",
+     "scientific_name": "Motacilla alba"
+    }
+   ]
+  },
+  "MV": {
+   "flower": [
+    {
+     "name": "Rosa Polyantha-Rose",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Rosa (Polyantha-Gruppe)"
+    }
+   ]
+  },
+  "MM": {
+   "flower": [
+    {
+     "name": "Padauk",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Pterocarpus macrocarpus"
+    },
+    {
+     "name": "Thazin-Orchidee",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Bulbophyllum auricomum"
+    },
+    {
+     "name": "Ingyin",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Shorea siamensis"
+    }
+   ]
+  },
+  "NI": {
+   "flower": [
+    {
+     "name": "Sacuanjoche",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Plumeria rubra"
+    }
+   ]
+  },
+  "KR": {
+   "flower": [
+    {
+     "name": "Mugunghwa (Straucheibisch)",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Hibiscus syriacus"
+    }
+   ]
+  },
+  "KN": {
+   "flower": [
+    {
+     "name": "Flammenbaum",
+     "status": "official",
+     "source": "Government of St. Kitts and Nevis",
+     "source_url": "https://www.gov.kn/skn-national-symbols/",
+     "scientific_name": "Delonix regia"
+    }
+   ],
+   "bird": [
+    {
+     "name": "Braunpelikan",
+     "status": "official",
+     "source": "Government of St. Kitts and Nevis",
+     "source_url": "https://www.gov.kn/skn-national-symbols/",
+     "scientific_name": "Pelecanus occidentalis"
+    }
+   ]
+  },
+  "LC": {
+   "flower": [
+    {
+     "name": "Rose",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Rosa"
+    },
+    {
+     "name": "Marguerite",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html"
+    }
+   ],
+   "bird": [
+    {
+     "name": "Blaumaskenamazone (Jacquot)",
+     "status": "official",
+     "source": "Government of Saint Lucia",
+     "source_url": "https://archive.stlucia.gov.lc/saint_lucia/national_symbols.htm",
+     "scientific_name": "Amazona versicolor"
+    }
+   ]
+  },
+  "VC": {
+   "flower": [
+    {
+     "name": "Soufrière-Baum",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Spachea elegans"
+    }
+   ],
+   "bird": [
+    {
+     "name": "Königsamazone",
+     "status": "official",
+     "source": "National Parks Authority St. Vincent and the Grenadines",
+     "source_url": "https://nationalparks.gov.vc/nationalparks/index.php/biodiversity",
+     "scientific_name": "Amazona guildingii"
+    }
+   ]
+  },
+  "WS": {
+   "flower": [
+    {
+     "name": "Teuila (Roter Ingwer)",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Alpinia purpurata"
+    }
+   ]
+  },
+  "SC": {
+   "flower": [
+    {
+     "name": "Angraecum eburneum",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Angraecum eburneum"
+    }
+   ]
+  },
+  "SR": {
+   "flower": [
+    {
+     "name": "Faya Lobi",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Ixora coccinea"
+    }
+   ]
+  },
+  "TW": {
+   "flower": [
+    {
+     "name": "Pflaumenblüte",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Prunus mume"
+    }
+   ]
+  },
+  "TT": {
+   "flower": [
+    {
+     "name": "Chaconia",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Warszewiczia coccinea"
+    }
+   ],
+   "bird": [
+    {
+     "name": "Scharlachsichler",
+     "status": "official",
+     "source": "Ministry of Foreign and CARICOM Affairs Trinidad and Tobago",
+     "source_url": "https://foreign.gov.tt/about/trinidad-tobago/national-symbols/national-bird/",
+     "scientific_name": "Eudocimus ruber"
+    },
+    {
+     "name": "Rotschwanzguan (Cocrico)",
+     "status": "official",
+     "source": "Ministry of Foreign and CARICOM Affairs Trinidad and Tobago",
+     "source_url": "https://foreign.gov.tt/about/trinidad-tobago/national-symbols/national-bird/",
+     "scientific_name": "Ortalis ruficauda"
+    }
+   ]
+  },
+  "VE": {
+   "flower": [
+    {
+     "name": "Cattleya mossiae",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Cattleya mossiae"
+    }
+   ]
+  },
+  "YE": {
+   "flower": [
+    {
+     "name": "Aloe irafensis",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Aloe irafensis"
+    }
+   ]
+  },
+  "ZW": {
+   "flower": [
+    {
+     "name": "Ruhmeskrone",
+     "status": "established",
+     "source": "Australian National Botanic Gardens / National University of Singapore (Verzeichnis 2013)",
+     "source_url": "https://anbg.gov.au/emblems/world-emblems.html",
+     "scientific_name": "Gloriosa superba"
+    }
+   ]
+  },
+  "FI": {
+   "animal": [
+    {
+     "name": "Braunbär",
+     "status": "established",
+     "source": "thisisFINLAND / Finnisches Außenministerium",
+     "source_url": "https://finland.fi/life-society/iconic-finnish-nature-symbols-stand-out/",
+     "scientific_name": "Ursus arctos"
+    }
+   ],
+   "bird": [
+    {
+     "name": "Singschwan",
+     "status": "established",
+     "source": "thisisFINLAND / Finnisches Außenministerium",
+     "source_url": "https://finland.fi/life-society/iconic-finnish-nature-symbols-stand-out/",
+     "scientific_name": "Cygnus cygnus"
+    }
+   ],
+   "flower": [
+    {
+     "name": "Maiglöckchen",
+     "status": "established",
+     "source": "thisisFINLAND / Finnisches Außenministerium",
+     "source_url": "https://finland.fi/life-society/iconic-finnish-nature-symbols-stand-out/",
+     "scientific_name": "Convallaria majalis"
+    }
+   ],
+   "tree": [
+    {
+     "name": "Sandbirke",
+     "status": "established",
+     "source": "thisisFINLAND / Finnisches Außenministerium",
+     "source_url": "https://finland.fi/life-society/iconic-finnish-nature-symbols-stand-out/",
+     "scientific_name": "Betula pendula"
+    }
+   ],
+   "fish": [
+    {
+     "name": "Flussbarsch",
+     "status": "established",
+     "source": "thisisFINLAND / Finnisches Außenministerium",
+     "source_url": "https://finland.fi/life-society/iconic-finnish-nature-symbols-stand-out/",
+     "scientific_name": "Perca fluviatilis"
+    }
+   ]
+  },
+  "EE": {
+   "animal": [
+    {
+     "name": "Wolf",
+     "status": "established",
+     "source": "Estnische Umweltagentur",
+     "source_url": "https://keskkonnaportaal.ee/en/node/10203",
+     "scientific_name": "Canis lupus"
+    }
+   ],
+   "bird": [
+    {
+     "name": "Rauchschwalbe",
+     "status": "established",
+     "source": "Estnische Umweltagentur",
+     "source_url": "https://keskkonnaportaal.ee/en/node/10203",
+     "scientific_name": "Hirundo rustica"
+    }
+   ],
+   "flower": [
+    {
+     "name": "Kornblume",
+     "status": "established",
+     "source": "Estnische Umweltagentur",
+     "source_url": "https://keskkonnaportaal.ee/en/node/10203",
+     "scientific_name": "Centaurea cyanus"
+    }
+   ],
+   "fish": [
+    {
+     "name": "Ostseehering",
+     "status": "established",
+     "source": "Estnische Umweltagentur",
+     "source_url": "https://keskkonnaportaal.ee/en/node/10203",
+     "scientific_name": "Clupea harengus membras"
+    }
+   ]
+  },
+  "BB": {
+   "flower": [
+    {
+     "name": "Pfauenstrauch",
+     "status": "official",
+     "source": "Government of Barbados",
+     "source_url": "https://www.gov.bb/Visit-Barbados/coat-of-arms",
+     "scientific_name": "Caesalpinia pulcherrima"
+    }
+   ]
+  },
+  "BT": {
+   "bird": [
+    {
+     "name": "Kolkrabe",
+     "status": "official",
+     "source": "Ministry of Foreign Affairs Bhutan",
+     "source_url": "https://www.mfa.gov.bt/wp-content/uploads/2022/12/window-on-Bhutan-2022.pdf",
+     "scientific_name": "Corvus corax"
+    }
+   ],
+   "tree": [
+    {
+     "name": "Bhutan-Zypresse",
+     "status": "official",
+     "source": "Ministry of Foreign Affairs Bhutan",
+     "source_url": "https://www.mfa.gov.bt/wp-content/uploads/2022/12/window-on-Bhutan-2022.pdf",
+     "scientific_name": "Cupressus cashmeriana"
+    }
+   ]
+  },
+  "LK": {
+   "flower": [
+    {
+     "name": "Stern-Seerose (Nil Mahanel)",
+     "status": "official",
+     "source": "Government of Sri Lanka",
+     "source_url": "https://www.gov.lk/index.php/sri-lanka/country-overview",
+     "scientific_name": "Nymphaea nouchali"
+    }
+   ],
+   "bird": [
+    {
+     "name": "Ceylonhuhn",
+     "status": "official",
+     "source": "Government of Sri Lanka",
+     "source_url": "https://www.gov.lk/index.php/sri-lanka/country-overview",
+     "scientific_name": "Gallus lafayetti"
+    }
+   ],
+   "tree": [
+    {
+     "name": "Na-Baum (Ceylon-Eisenholz)",
+     "status": "official",
+     "source": "Government of Sri Lanka",
+     "source_url": "https://govlkstaging.lgcc.gov.lk/sri-lanka/country-overview",
+     "scientific_name": "Mesua nagassarium"
+    }
+   ]
+  },
+  "SG": {
+   "flower": [
+    {
+     "name": "Vanda 'Miss Joaquim'",
+     "status": "official",
+     "source": "National Heritage Board Singapore",
+     "source_url": "https://www.nhb.gov.sg/what-we-do/our-work/community-engagement/education/resources/national-symbols/national-flower",
+     "scientific_name": "Papilionanthe Miss Joaquim"
+    }
+   ]
+  },
+  "UG": {
+   "bird": [
+    {
+     "name": "Südafrika-Kronenkranich",
+     "status": "official",
+     "source": "High Commission of the Republic of Uganda",
+     "source_url": "https://newdelhi.mofa.go.ug/service/national-symbols",
+     "scientific_name": "Balearica regulorum"
+    }
+   ]
+  },
+  "KH": {
+   "animal": [
+    {
+     "name": "Kouprey",
+     "status": "official",
+     "source": "Königlicher Erlass Kambodscha NS/RKT/0305/149 (2005)",
+     "source_url": "https://daravireak.wordpress.com/wp-content/uploads/2012/01/royal-decree-eng1.pdf",
+     "scientific_name": "Bos sauveli"
+    }
+   ],
+   "bird": [
+    {
+     "name": "Riesenibis",
+     "status": "official",
+     "source": "Königlicher Erlass Kambodscha NS/RKT/0305/149 (2005)",
+     "source_url": "https://daravireak.wordpress.com/wp-content/uploads/2012/01/royal-decree-eng1.pdf",
+     "scientific_name": "Thaumatibis gigantea"
+    }
+   ],
+   "flower": [
+    {
+     "name": "Rumduol",
+     "status": "official",
+     "source": "Königlicher Erlass Kambodscha NS/RKT/0305/149 (2005)",
+     "source_url": "https://daravireak.wordpress.com/wp-content/uploads/2012/01/royal-decree-eng1.pdf",
+     "scientific_name": "Sphaerocoryne affinis"
+    }
+   ],
+   "tree": [
+    {
+     "name": "Palmyrapalme",
+     "status": "official",
+     "source": "Königlicher Erlass Kambodscha NS/RKT/0305/149 (2005)",
+     "source_url": "https://daravireak.wordpress.com/wp-content/uploads/2012/01/royal-decree-eng1.pdf",
+     "scientific_name": "Borassus flabellifer"
+    }
+   ],
+   "fish": [
+    {
+     "name": "Siamesische Riesenbarbe",
+     "status": "official",
+     "source": "Königlicher Erlass Kambodscha NS/RKT/0305/149 (2005)",
+     "source_url": "https://daravireak.wordpress.com/wp-content/uploads/2012/01/royal-decree-eng1.pdf",
+     "scientific_name": "Catlocarpio siamensis"
+    }
+   ]
+  },
+  "BE": {
+   "animal": [
+    {
+     "name": "Belgischer Löwe",
+     "status": "established",
+     "source": "Government of Belgium",
+     "source_url": "https://www.belgium.be/en/about_belgium/country/belgium_in_nutshell/symbols/coats_of_arms",
+     "note": "Heraldischer Löwe des belgischen Wappens."
+    }
+   ]
+  },
+  "CN": {
+   "animal": [
+    {
+     "name": "Großer Panda",
+     "status": "established",
+     "source": "China Internet Information Center",
+     "source_url": "https://www.china.org.cn/english/environment/35232.htm",
+     "scientific_name": "Ailuropoda melanoleuca",
+     "note": "Kulturelles Symbol und als nationaler Schatz bezeichnet."
+    }
+   ]
+  }
+ },
+ "country_facts": {
+  "ZA": {
+   "additional_languages": [
+    {
+     "code": "sfs",
+     "de": "Südafrikanische Gebärdensprache",
+     "en": "South African Sign Language"
+    }
+   ],
+   "source": "South African Government",
+   "source_url": "https://www.gov.za/about-sa/south-africa-glance"
+  }
+ }
+}

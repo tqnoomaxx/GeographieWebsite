@@ -1,7 +1,7 @@
 // Kuratierte Nationaltiere und Nationalblumen. Nur klar belegte amtliche oder fest etablierte
 // Nationalsymbole werden aufgenommen; der Status bleibt in den Daten sichtbar.
 import { join } from 'node:path'
-import { DATA, readJson, writeJson } from './lib/common.mjs'
+import { DATA, ROOT, readJson, writeJson } from './lib/common.mjs'
 
 const WD = (qid) => `https://www.wikidata.org/wiki/${qid}`
 const wikidata = (name, scientific_name, status = 'established', qid) => ({
@@ -158,23 +158,53 @@ const symbols = {
   },
 }
 
+const extra = readJson(join(ROOT, 'scripts/data/country-symbols-extra.json'))
+const anthems = readJson(join(ROOT, 'scripts/data/country-anthems.json'))
+const officialNames = readJson(join(ROOT, 'scripts/data/country-official-names.json'))
 const path = join(DATA, 'entities', 'countries.json')
 const countries = readJson(path)
-let animals = 0
-let flowers = 0
+const kinds = ['animal', 'bird', 'flower', 'tree', 'fish']
+const legacyBirds = new Set(['AR', 'CO', 'JP', 'MU', 'MX', 'NG'])
+const counts = Object.fromEntries(kinds.map((kind) => [kind, 0]))
 for (const country of countries) {
-  const entry = symbols[country.attributes.iso2]
-  delete country.attributes.national_animal
-  delete country.attributes.national_flower
-  if (!entry) continue
-  if (entry.national_animal) {
-    country.attributes.national_animal = entry.national_animal
-    animals++
+  const iso = country.attributes.iso2
+  const entry = symbols[iso]
+  const catalog = Object.fromEntries(kinds.map((kind) => [kind, []]))
+  const addLegacy = (kind, symbol) => {
+    if (!symbol) return
+    // A Wikidata link alone does not establish a legal/official designation.
+    catalog[kind].push({
+      ...symbol,
+      status: symbol.source.startsWith('Wikidata') ? 'established' : symbol.status,
+    })
   }
-  if (entry.national_flower) {
-    country.attributes.national_flower = entry.national_flower
-    flowers++
+  addLegacy(legacyBirds.has(iso) ? 'bird' : 'animal', entry?.national_animal)
+  addLegacy('flower', entry?.national_flower)
+  for (const kind of kinds) {
+    if (extra.symbols[iso]?.[kind]) catalog[kind] = extra.symbols[iso][kind]
+    counts[kind] += catalog[kind].length
+    const primary = catalog[kind][0]
+    if (primary) country.attributes[`national_${kind}`] = primary
+    else delete country.attributes[`national_${kind}`]
+  }
+  country.attributes.national_symbols = catalog
+  country.attributes.national_symbols_checked_at = extra.checked_at
+  country.attributes.national_anthems = anthems.countries[iso] ?? []
+  if (officialNames[iso]) country.attributes.official_name = officialNames[iso]
+  const facts = extra.country_facts?.[iso]
+  for (const language of facts?.additional_languages ?? []) {
+    country.attributes.languages ??= []
+    country.attributes.languages_detail ??= []
+    if (!country.attributes.languages.includes(language.de)) country.attributes.languages.push(language.de)
+    if (!country.attributes.languages_detail.some((item) => item.code === language.code))
+      country.attributes.languages_detail.push(language)
+    country.provenance.fields = {
+      ...country.provenance.fields,
+      languages: { source: facts.source, source_url: facts.source_url, imported_at: extra.checked_at },
+    }
   }
 }
 writeJson(path, countries)
-console.log(`Nationale Symbole: ${animals} Tiere, ${flowers} Blumen`)
+console.log(
+  `Nationale Symbole: ${JSON.stringify(counts)} · ${countries.length} strukturierte Symbolkataloge · ${countries.filter((country) => country.attributes.national_anthems.length).length} Hymnenprofile`,
+)

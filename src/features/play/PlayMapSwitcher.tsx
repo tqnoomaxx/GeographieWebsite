@@ -20,6 +20,7 @@ import {
   Globe2,
   Landmark,
   Languages,
+  Lightbulb,
   Mountain,
   Puzzle,
   Waves,
@@ -48,11 +49,12 @@ const MENU_ICONS: Partial<Record<CategoryId, LucideIcon>> = {
   nature: Mountain,
   license_plates: Car,
   mixed: Dices,
+  trivia: Lightbulb,
 }
 
 function countLabel(quiz: QuizDef, counts?: Record<string, number>) {
   const value = quiz.countKey ? counts?.[quiz.countKey] : undefined
-  return value === undefined ? undefined : `${value.toLocaleString('de-DE')} Einträge`
+  return value === undefined ? undefined : `${value.toLocaleString('de-DE')} ${quiz.id === 'trivia' ? 'Fragen' : 'Einträge'}`
 }
 
 function supportsWebGL() {

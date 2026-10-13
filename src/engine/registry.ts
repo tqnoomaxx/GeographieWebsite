@@ -7,10 +7,12 @@ import * as im from './generators/imagesMaps'
 import * as pl from './generators/plates'
 import * as na from './generators/nature'
 import * as la from './generators/languages'
+import { geographyTrivia } from './generators/trivia'
 import type { CategoryId } from './types'
 import { AUTO, MIXED_EXCLUDE, PLAY_QUIZZES, autoModes, quizFor, type QuizMode } from '@/config/quizzes'
 
 const all: Generator[] = [
+  geographyTrivia,
   flags.flagToCountry,
   flags.countryToFlag,
   flags.flagToCountryInput,
@@ -32,6 +34,8 @@ const all: Generator[] = [
   countries.countryComparison,
   countries.nationalAnimal,
   countries.nationalFlower,
+  countries.nationalBird,
+  countries.nationalTree,
   rc.regionFlagToRegion,
   rc.regionToCountry,
   rc.regionCapital,

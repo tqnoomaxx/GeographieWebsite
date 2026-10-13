@@ -46,13 +46,21 @@ export default defineConfig(({ mode }) => {
           runtimeCaching: [
             {
               urlPattern: ({ url }) => url.pathname.includes('/data/'),
-              handler: 'StaleWhileRevalidate',
-              options: { cacheName: 'geo-data', expiration: { maxEntries: 400 } },
+              handler: 'NetworkFirst',
+              options: {
+                cacheName: 'geo-data',
+                networkTimeoutSeconds: 3,
+                fetchOptions: { cache: 'no-cache' },
+                expiration: { maxEntries: 400 },
+              },
             },
             {
               urlPattern: ({ url }) => url.pathname.includes('/media/'),
               handler: 'CacheFirst',
-              options: { cacheName: 'geo-media', expiration: { maxEntries: 1500, maxAgeSeconds: 60 * 60 * 24 * 90 } },
+              options: {
+                cacheName: 'geo-media',
+                expiration: { maxEntries: 1500, maxAgeSeconds: 60 * 60 * 24 * 90 },
+              },
             },
           ],
         },

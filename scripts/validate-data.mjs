@@ -18,6 +18,7 @@ const files = {
   lakes: 'entities/lakes.json',
   mountains: 'entities/mountains.json',
   script_words: 'entities/script-words.json',
+  trivia: 'entities/trivia.json',
 }
 const regionFiles = listDir(join(DATA, 'entities', 'regions')).filter((f) => f.endsWith('.json'))
 const plateFiles = listDir(join(DATA, 'entities', 'license-plates')).filter((f) => f.endsWith('.json'))
@@ -36,6 +37,7 @@ const all = [
   ...load(files.lakes),
   ...load(files.mountains),
   ...load(files.script_words),
+  ...load(files.trivia),
   ...regionFiles.flatMap((f) => load(`entities/regions/${f}`)),
   ...plateFiles.flatMap((f) => load(`entities/license-plates/${f}`)),
 ]
@@ -49,6 +51,7 @@ const ENTITY_TYPES = new Set([
   'landmark',
   'license_plate',
   'script_word',
+  'trivia',
 ])
 const mediaAll = []
 const scriptOriginals = new Set()
@@ -63,15 +66,37 @@ for (const e of all) {
   if (!e.provenance?.source) err(`${e.id}: provenance.source fehlt`)
   if (e.type === 'landmark' && (!Array.isArray(e.attributes?.facts) || e.attributes.facts.length < 3))
     err(`${e.id}: mindestens drei Kurzfakten fehlen`)
+  if (e.type === 'landmark' && !e.media?.some((media) => media.kind === 'photo'))
+    err(`${e.id}: Foto für Sehenswürdigkeiten und Bildquiz fehlt`)
+  if (e.type === 'trivia') {
+    const a = e.attributes ?? {}
+    if (!Array.isArray(a.choices) || a.choices.length !== 4 ||
+        a.choices.some((choice) => !choice.id || !choice.label) ||
+        new Set(a.choices.map((choice) => choice.id)).size !== 4 ||
+        new Set(a.choices.map((choice) => choice.label.trim().toLocaleLowerCase('de-DE'))).size !== 4)
+      err(`${e.id}: vier eindeutige Antworten erforderlich`)
+    if (!a.choices?.some((choice) => choice.id === a.answer)) err(`${e.id}: richtige Antwort fehlt`)
+    if (!a.explanation || ![1, 2, 3].includes(a.difficulty)) err(`${e.id}: Erklärung oder Schwierigkeit fehlt`)
+    if (!/^https:\/\//.test(e.provenance?.source_url ?? '') || !e.provenance?.last_updated)
+      err(`${e.id}: geprüfte Quelle fehlt`)
+    if (a.continent && !['europe', 'asia', 'africa', 'north-america', 'south-america', 'oceania'].includes(a.continent))
+      err(`${e.id}: ungültiger Trivia-Bereich`)
+  }
   if (e.type === 'script_word') {
     if (!['ru', 'el'].includes(e.attributes?.language)) err(`${e.id}: ungültige Sprache`)
     if (!['cyrillic', 'greek'].includes(e.attributes?.script)) err(`${e.id}: ungültige Schrift`)
-    if (!e.attributes?.original || !e.attributes?.transliteration) err(`${e.id}: Original oder Umschrift fehlt`)
-    if (!Array.isArray(e.attributes?.accepted) || !e.attributes.accepted.includes(e.attributes.transliteration))
+    if (!e.attributes?.original || !e.attributes?.transliteration)
+      err(`${e.id}: Original oder Umschrift fehlt`)
+    if (
+      !Array.isArray(e.attributes?.accepted) ||
+      !e.attributes.accepted.includes(e.attributes.transliteration)
+    )
       err(`${e.id}: kanonische Umschrift fehlt in accepted`)
-    if (!/^[A-Za-z -]+$/.test(e.attributes?.transliteration ?? '')) err(`${e.id}: Umschrift enthält unerwartete Zeichen`)
+    if (!/^[A-Za-z -]+$/.test(e.attributes?.transliteration ?? ''))
+      err(`${e.id}: Umschrift enthält unerwartete Zeichen`)
     const scriptPattern = e.attributes?.script === 'cyrillic' ? /\p{Script=Cyrillic}/u : /\p{Script=Greek}/u
-    if (!scriptPattern.test(e.attributes?.original ?? '')) err(`${e.id}: Original passt nicht zur angegebenen Schrift`)
+    if (!scriptPattern.test(e.attributes?.original ?? ''))
+      err(`${e.id}: Original passt nicht zur angegebenen Schrift`)
     const originalKey = `${e.attributes?.language}:${e.attributes?.original}`
     if (scriptOriginals.has(originalKey)) err(`${e.id}: doppeltes Original ${e.attributes?.original}`)
     scriptOriginals.add(originalKey)
@@ -87,6 +112,18 @@ for (const e of all) {
     if (!m.attribution) err(`${e.id}: Medium ${m.id} ohne attribution`)
     if (!m.source) err(`${e.id}: Medium ${m.id} ohne source`)
     if (!existsSync(join(PUBLIC, m.url))) err(`${e.id}: Datei fehlt ${m.url}`)
+    if (e.type === 'landmark' && m.kind === 'photo') {
+      if (!m.author || !m.source_url) err(`${e.id}: Bildautor oder Quellseite fehlt`)
+      if (
+        /\.(?:svg|pdf)(?:[?#]|$)|(?:[ _/-])(logo|locator|map|diagram)(?:[ _.-]|$)/i.test(m.source_url ?? '')
+      )
+        err(`${e.id}: Grafik statt Foto als Bildquiz-Motiv`)
+      if (m.url.endsWith('.webp') && existsSync(join(PUBLIC, m.url))) {
+        const bytes = readFileSync(join(PUBLIC, m.url))
+        if (bytes.toString('ascii', 0, 4) !== 'RIFF' || bytes.toString('ascii', 8, 12) !== 'WEBP')
+          err(`${e.id}: ungültige WebP-Bilddatei ${m.url}`)
+      }
+    }
     if (
       e.type === 'country' &&
       m.kind === 'flag' &&
@@ -116,6 +153,36 @@ for (const e of all) {
   }
   for (const b of e.attributes?.borders ?? [])
     if (!entities.has(b)) warn(`${e.id}: Nachbar ${b} existiert nicht`)
+  if (e.type === 'country' && e.attributes.capitals) {
+    const capitals = e.attributes.capitals
+    if (new Set(capitals).size !== capitals.length) err(`${e.id}: doppelte Hauptstädte`)
+    if ((capitals[0] ?? undefined) !== e.attributes.capital)
+      err(`${e.id}: primäre Hauptstadt widerspricht capitals`)
+    for (const id of capitals) {
+      const city = entities.get(id)
+      if (!city || city.type !== 'city' || city.attributes.country !== e.id)
+        err(`${e.id}: ungültige Hauptstadt ${id}`)
+      if (!e.attributes.capital_details?.some((place) => place.city === id && place.quiz))
+        err(`${e.id}: fehlende aktuelle Hauptstadtdetails für ${id}`)
+    }
+    for (const place of e.attributes.capital_details ?? [])
+      if (!entities.has(place.city) || !place.source || !/^https?:\/\//.test(place.source_url))
+        err(`${e.id}: ungültige Hauptstadtdetails`)
+  }
+  if (e.type === 'country' && e.attributes.national_symbols) {
+    for (const [kind, symbols] of Object.entries(e.attributes.national_symbols)) {
+      if (!['animal', 'bird', 'flower', 'tree', 'fish'].includes(kind))
+        err(`${e.id}: unbekannte Symbolart ${kind}`)
+      for (const symbol of symbols)
+        if (
+          !symbol.name ||
+          !['official', 'established'].includes(symbol.status) ||
+          !symbol.source ||
+          !/^https?:\/\//.test(symbol.source_url)
+        )
+          err(`${e.id}: unbelegtes Nationalsymbol ${kind}`)
+    }
+  }
 }
 const rels = load('relationships/index.json')
 const REL_TYPES = new Set([
@@ -142,7 +209,33 @@ const quality = {
   media: mediaAll.length,
   relationships: rels.length,
   countries_without_population: missing('population'),
-  countries_without_capital: missing('capital'),
+  countries_without_capital: countries
+    .filter(
+      (country) =>
+        !country.attributes.capital &&
+        !(country.attributes.capital_note && country.attributes.capital_details?.length),
+    )
+    .map((country) => country.id),
+  countries_with_documented_capital_exceptions: countries
+    .filter(
+      (country) =>
+        !country.attributes.capital &&
+        country.attributes.capital_note &&
+        country.attributes.capital_details?.length,
+    )
+    .map((country) => country.id),
+  national_symbol_coverage: Object.fromEntries(
+    ['animal', 'bird', 'flower', 'tree', 'fish'].map((kind) => [
+      kind,
+      countries.filter((country) => country.attributes.national_symbols?.[kind]?.length).length,
+    ]),
+  ),
+  countries_without_documented_national_symbols: countries
+    .filter(
+      (country) =>
+        !Object.values(country.attributes.national_symbols ?? {}).some((symbols) => symbols.length),
+    )
+    .map((country) => country.id),
   countries_without_area: missing('area_km2'),
   countries_without_outline: countries.filter((c) => !c.geometry).map((c) => c.id),
   entities_without_media: all
@@ -224,13 +317,15 @@ const index = {
 writeJson(join(DATA, 'index.json'), index)
 
 // Suchindex
-const search = all.filter((e) => e.type !== 'script_word').map((e) => ({
-  id: e.id,
-  t: e.type,
-  n: e.names.de,
-  a: [e.names.en, ...(e.aliases ?? [])].filter(Boolean).slice(0, 6),
-  c: e.attributes.country,
-}))
+const search = all
+  .filter((e) => !['script_word', 'trivia'].includes(e.type))
+  .map((e) => ({
+    id: e.id,
+    t: e.type,
+    n: e.names.de,
+    a: [e.names.en, ...(e.aliases ?? [])].filter(Boolean).slice(0, 6),
+    c: e.attributes.country,
+  }))
 writeJson(join(DATA, 'search.json'), search)
 
 // Version aus Inhalt
@@ -243,6 +338,7 @@ for (const f of [
   'entities/lakes.json',
   'entities/mountains.json',
   'entities/script-words.json',
+  'entities/trivia.json',
   'relationships/index.json',
   ...regionFiles.map((f) => `entities/regions/${f}`),
   ...plateFiles.map((f) => `entities/license-plates/${f}`),

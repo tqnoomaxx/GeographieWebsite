@@ -10,11 +10,16 @@
   "attributes": {
    "country": "country:AD",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18"
+  },
+  "location": {
+   "lon": 1.522222222,
+   "lat": 42.507222222
   }
  },
  {
@@ -31,7 +36,8 @@
    "continent": "asia",
    "is_capital": true,
    "population": 1570000,
-   "wikidata": "Q1519"
+   "wikidata": "Q1519",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -259,7 +265,8 @@
    "continent": "asia",
    "is_capital": true,
    "population": 5333284,
-   "wikidata": "Q5838"
+   "wikidata": "Q5838",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -458,7 +465,8 @@
   "attributes": {
    "country": "country:AG",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -477,12 +485,17 @@
   "attributes": {
    "country": "country:AI",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -63.051666666,
+   "lat": 18.220833333
   }
  },
  {
@@ -500,7 +513,8 @@
    "is_capital": true,
    "population": 389323,
    "wikidata": "Q19689",
-   "region": "region:AL-11"
+   "region": "region:AL-11",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -554,12 +568,17 @@
   "attributes": {
    "country": "country:AM",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 44.514444444,
+   "lat": 40.181388888
   }
  },
  {
@@ -772,7 +791,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 2487444,
-   "wikidata": "Q3897"
+   "wikidata": "Q3897",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -1049,11 +1069,16 @@
   "attributes": {
    "country": "country:AR",
    "continent": "south-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18"
+  },
+  "location": {
+   "lon": -58.381944444,
+   "lat": -34.599722222
   }
  },
  {
@@ -1444,12 +1469,17 @@
   "attributes": {
    "country": "country:AS",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -170.700555555,
+   "lat": -14.279444444
   }
  },
  {
@@ -1632,7 +1662,9 @@
    "de": "Wien",
    "en": "Vienna"
   },
-  "aliases": [],
+  "aliases": [
+   "Vienna"
+  ],
   "media": [],
   "attributes": {
    "country": "country:AT",
@@ -1640,7 +1672,8 @@
    "is_capital": true,
    "region": "region:AT-9",
    "population": 2028289,
-   "wikidata": "Q1741"
+   "wikidata": "Q1741",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -1731,7 +1764,8 @@
    "is_capital": true,
    "region": "region:AU-ACT",
    "population": 381488,
-   "wikidata": "Q3114"
+   "wikidata": "Q3114",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -2076,12 +2110,17 @@
   "attributes": {
    "country": "country:AW",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -70.035833333,
+   "lat": 12.518611111
   }
  },
  {
@@ -2095,12 +2134,17 @@
   "attributes": {
    "country": "country:AX",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 19.94444444,
+   "lat": 60.09861111
   }
  },
  {
@@ -2114,12 +2158,17 @@
   "attributes": {
    "country": "country:AZ",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 49.835183333,
+   "lat": 40.366655555
   }
  },
  {
@@ -2224,7 +2273,8 @@
    "continent": "europe",
    "is_capital": true,
    "population": 275524,
-   "wikidata": "Q11194"
+   "wikidata": "Q11194",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -2246,12 +2296,17 @@
   "attributes": {
    "country": "country:BB",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -59.616666666,
+   "lat": 13.0975
   }
  },
  {
@@ -2382,7 +2437,8 @@
    "continent": "asia",
    "is_capital": true,
    "population": 16800000,
-   "wikidata": "Q1354"
+   "wikidata": "Q1354",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -2683,7 +2739,9 @@
    "de": "Brüssel",
    "en": "Brussels"
   },
-  "aliases": [],
+  "aliases": [
+   "Brussels"
+  ],
   "media": [],
   "attributes": {
    "country": "country:BE",
@@ -2691,7 +2749,8 @@
    "is_capital": true,
    "population": 195546,
    "wikidata": "Q239",
-   "region": "region:BE-BRU"
+   "region": "region:BE-BRU",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -2834,7 +2893,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 2453496,
-   "wikidata": "Q3777"
+   "wikidata": "Q3777",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -2889,7 +2949,8 @@
    "is_capital": true,
    "population": 1213134,
    "wikidata": "Q472",
-   "region": "region:BG-22"
+   "region": "region:BG-22",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -2942,7 +3003,8 @@
    "continent": "asia",
    "is_capital": true,
    "population": 297502,
-   "wikidata": "Q3882"
+   "wikidata": "Q3882",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -2993,12 +3055,17 @@
   "attributes": {
    "country": "country:BI",
    "continent": "africa",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 29.925,
+   "lat": -3.428333333
   }
  },
  {
@@ -3071,7 +3138,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 234168,
-   "wikidata": "Q3799"
+   "wikidata": "Q3799",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -3094,12 +3162,17 @@
   "attributes": {
    "country": "country:BL",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -62.849166666,
+   "lat": 17.898611111
   }
  },
  {
@@ -3113,12 +3186,17 @@
   "attributes": {
    "country": "country:BM",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -64.783055555,
+   "lat": 32.295
   }
  },
  {
@@ -3132,12 +3210,17 @@
   "attributes": {
    "country": "country:BN",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 114.916666666,
+   "lat": 4.916666666
   }
  },
  {
@@ -3355,7 +3438,8 @@
    "is_capital": true,
    "population": 360544,
    "wikidata": "Q2907",
-   "region": "region:BO-H"
+   "region": "region:BO-H",
+   "capital_role": "constitutional"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -3436,7 +3520,8 @@
   "attributes": {
    "country": "country:BQ",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -3517,7 +3602,8 @@
    "is_capital": true,
    "population": 2996899,
    "wikidata": "Q2844",
-   "region": "region:BR-DF"
+   "region": "region:BR-DF",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -3884,7 +3970,8 @@
    "continent": "north-america",
    "is_capital": true,
    "population": 227940,
-   "wikidata": "Q2467"
+   "wikidata": "Q2467",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -3907,12 +3994,17 @@
   "attributes": {
    "country": "country:BT",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 89.63367,
+   "lat": 27.47135
   }
  },
  {
@@ -3929,7 +4021,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 235884,
-   "wikidata": "Q3919"
+   "wikidata": "Q3919",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -4137,7 +4230,8 @@
    "continent": "europe",
    "is_capital": true,
    "population": 1995091,
-   "wikidata": "Q2280"
+   "wikidata": "Q2280",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -4190,12 +4284,17 @@
   "attributes": {
    "country": "country:BZ",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -88.7675,
+   "lat": 17.25
   }
  },
  {
@@ -4547,7 +4646,8 @@
    "is_capital": true,
    "population": 1017449,
    "wikidata": "Q1930",
-   "region": "region:CA-ON"
+   "region": "region:CA-ON",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -4797,12 +4897,17 @@
   "attributes": {
    "country": "country:CC",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 96.828333333,
+   "lat": -12.186944444
   }
  },
  {
@@ -4872,12 +4977,17 @@
   "attributes": {
    "country": "country:CD",
    "continent": "africa",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 15.311944444,
+   "lat": -4.321944444
   }
  },
  {
@@ -4978,7 +5088,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 889231,
-   "wikidata": "Q3832"
+   "wikidata": "Q3832",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -5004,7 +5115,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 2145783,
-   "wikidata": "Q3844"
+   "wikidata": "Q3844",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -5158,11 +5270,16 @@
    "country": "country:CH",
    "continent": "europe",
    "is_capital": true,
-   "region": "region:CH-BE"
+   "region": "region:CH-BE",
+   "capital_role": "federal_city"
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18"
+  },
+  "location": {
+   "lon": 7.44743,
+   "lat": 46.94798
   }
  },
  {
@@ -5958,7 +6075,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 340234,
-   "wikidata": "Q3768"
+   "wikidata": "Q3768",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -5981,12 +6099,17 @@
   "attributes": {
    "country": "country:CK",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -159.771,
+   "lat": -21.207
   }
  },
  {
@@ -6277,7 +6400,9 @@
    "de": "Santiago de Chile",
    "en": "Santiago"
   },
-  "aliases": [],
+  "aliases": [
+   "Santiago"
+  ],
   "media": [],
   "attributes": {
    "country": "country:CL",
@@ -6285,7 +6410,8 @@
    "is_capital": true,
    "population": 6257516,
    "wikidata": "Q2887",
-   "region": "region:CL-RM"
+   "region": "region:CL-RM",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -6618,7 +6744,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 2440462,
-   "wikidata": "Q3808"
+   "wikidata": "Q3808",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -6795,14 +6922,17 @@
    "de": "Peking",
    "en": "Beijing"
   },
-  "aliases": [],
+  "aliases": [
+   "Beijing"
+  ],
   "media": [],
   "attributes": {
    "country": "country:CN",
    "continent": "asia",
    "is_capital": true,
    "population": 21893095,
-   "wikidata": "Q956"
+   "wikidata": "Q956",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -7108,7 +7238,8 @@
    "is_capital": true,
    "population": 8034649,
    "wikidata": "Q2841",
-   "region": "region:CO-CUN"
+   "region": "region:CO-CUN",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -7511,7 +7642,8 @@
    "is_capital": true,
    "population": 335007,
    "wikidata": "Q3070",
-   "region": "region:CR-SJ"
+   "region": "region:CR-SJ",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -7669,14 +7801,17 @@
    "de": "Havanna",
    "en": "Havana"
   },
-  "aliases": [],
+  "aliases": [
+   "Havana"
+  ],
   "media": [],
   "attributes": {
    "country": "country:CU",
    "continent": "north-america",
    "is_capital": true,
    "population": 2492618,
-   "wikidata": "Q1563"
+   "wikidata": "Q1563",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -7899,7 +8034,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 159050,
-   "wikidata": "Q3751"
+   "wikidata": "Q3751",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -7922,12 +8058,17 @@
   "attributes": {
    "country": "country:CW",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -68.935,
+   "lat": 12.108
   }
  },
  {
@@ -7941,12 +8082,17 @@
   "attributes": {
    "country": "country:CX",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 105.678055555,
+   "lat": -10.421666666
   }
  },
  {
@@ -7955,16 +8101,23 @@
   "names": {
    "de": "Nikosia"
   },
-  "aliases": [],
+  "aliases": [
+   "Nicosia"
+  ],
   "media": [],
   "attributes": {
    "country": "country:CY",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18"
+  },
+  "location": {
+   "lon": 33.365,
+   "lat": 35.1725
   }
  },
  {
@@ -8062,14 +8215,17 @@
    "de": "Prag",
    "en": "Prague"
   },
-  "aliases": [],
+  "aliases": [
+   "Prague"
+  ],
   "media": [],
   "attributes": {
    "country": "country:CZ",
    "continent": "europe",
    "is_capital": true,
    "population": 1397880,
-   "wikidata": "Q1085"
+   "wikidata": "Q1085",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -8108,7 +8264,8 @@
    "is_capital": true,
    "region": "region:DE-BE",
    "population": 3782202,
-   "wikidata": "Q64"
+   "wikidata": "Q64",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -8730,12 +8887,17 @@
   "attributes": {
    "country": "country:DJ",
    "continent": "africa",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 43.148055555,
+   "lat": 11.595
   }
  },
  {
@@ -8804,7 +8966,9 @@
    "de": "Kopenhagen",
    "en": "Copenhagen"
   },
-  "aliases": [],
+  "aliases": [
+   "Copenhagen"
+  ],
   "media": [],
   "attributes": {
    "country": "country:DK",
@@ -8812,7 +8976,8 @@
    "is_capital": true,
    "population": 667099,
    "wikidata": "Q1748",
-   "region": "region:DK-84"
+   "region": "region:DK-84",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -8863,12 +9028,17 @@
   "attributes": {
    "country": "country:DM",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -61.383333333,
+   "lat": 15.3
   }
  },
  {
@@ -8999,7 +9169,8 @@
    "continent": "north-america",
    "is_capital": true,
    "population": 2201941,
-   "wikidata": "Q34820"
+   "wikidata": "Q34820",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -9054,12 +9225,17 @@
   "attributes": {
    "country": "country:DZ",
    "continent": "africa",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 3.058611111,
+   "lat": 36.776388888
   }
  },
  {
@@ -9825,7 +10001,8 @@
    "is_capital": true,
    "population": 1763275,
    "wikidata": "Q2900",
-   "region": "region:EC-P"
+   "region": "region:EC-P",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -9880,7 +10057,8 @@
    "is_capital": true,
    "population": 457572,
    "wikidata": "Q1770",
-   "region": "region:EE-37"
+   "region": "region:EE-37",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -10099,14 +10277,17 @@
    "de": "Kairo",
    "en": "Cairo"
   },
-  "aliases": [],
+  "aliases": [
+   "Cairo"
+  ],
   "media": [],
   "attributes": {
    "country": "country:EG",
    "continent": "africa",
    "is_capital": true,
    "population": 9801536,
-   "wikidata": "Q85"
+   "wikidata": "Q85",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -10332,7 +10513,8 @@
   "attributes": {
    "country": "country:EH",
    "continent": "africa",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -10354,7 +10536,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 963000,
-   "wikidata": "Q3642"
+   "wikidata": "Q3642",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -10663,11 +10846,16 @@
    "country": "country:ES",
    "continent": "europe",
    "is_capital": true,
-   "region": "region:ES-MD"
+   "region": "region:ES-MD",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18"
+  },
+  "location": {
+   "lon": -3.703333333,
+   "lat": 40.416944444
   }
  },
  {
@@ -11222,14 +11410,17 @@
    "de": "Addis Abeba",
    "en": "Addis Ababa"
   },
-  "aliases": [],
+  "aliases": [
+   "Addis Ababa"
+  ],
   "media": [],
   "attributes": {
    "country": "country:ET",
    "continent": "africa",
    "is_capital": true,
    "population": 5704000,
-   "wikidata": "Q3624"
+   "wikidata": "Q3624",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -11572,7 +11763,8 @@
    "is_capital": true,
    "population": 694392,
    "wikidata": "Q1757",
-   "region": "region:FI-18"
+   "region": "region:FI-18",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -11710,12 +11902,17 @@
   "attributes": {
    "country": "country:FJ",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 178.433333333,
+   "lat": -18.133333333
   }
  },
  {
@@ -11729,12 +11926,17 @@
   "attributes": {
    "country": "country:FK",
    "continent": "south-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -57.849556,
+   "lat": -51.693861
   }
  },
  {
@@ -11748,12 +11950,17 @@
   "attributes": {
    "country": "country:FM",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 158.185,
+   "lat": 6.917777777
   }
  },
  {
@@ -11767,12 +11974,17 @@
   "attributes": {
    "country": "country:FO",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -6.77135,
+   "lat": 62.00981
   }
  },
  {
@@ -12120,7 +12332,8 @@
    "is_capital": true,
    "population": 2103778,
    "wikidata": "Q90",
-   "region": "region:FR-IDF"
+   "region": "region:FR-IDF",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -12287,7 +12500,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 899000,
-   "wikidata": "Q3825"
+   "wikidata": "Q3825",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -12692,7 +12906,8 @@
    "continent": "europe",
    "is_capital": true,
    "population": 8799728,
-   "wikidata": "Q84"
+   "wikidata": "Q84",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -12829,12 +13044,17 @@
   "attributes": {
    "country": "country:GD",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -61.753055555,
+   "lat": 12.0525
   }
  },
  {
@@ -12908,12 +13128,17 @@
   "attributes": {
    "country": "country:GE",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 44.7925,
+   "lat": 41.7225
   }
  },
  {
@@ -12957,12 +13182,17 @@
   "attributes": {
    "country": "country:GF",
    "continent": "south-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -52.335,
+   "lat": 4.938611111
   }
  },
  {
@@ -12976,7 +13206,8 @@
   "attributes": {
    "country": "country:GG",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -12998,7 +13229,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 1782150,
-   "wikidata": "Q3761"
+   "wikidata": "Q3761",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -13188,12 +13420,17 @@
   "attributes": {
    "country": "country:GI",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -5.35,
+   "lat": 36.14
   }
  },
  {
@@ -13207,12 +13444,17 @@
   "attributes": {
    "country": "country:GL",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -51.733333333,
+   "lat": 64.175
   }
  },
  {
@@ -13226,12 +13468,17 @@
   "attributes": {
    "country": "country:GM",
    "continent": "africa",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -16.5775,
+   "lat": 13.453055555
   }
  },
  {
@@ -13248,7 +13495,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 1667864,
-   "wikidata": "Q3733"
+   "wikidata": "Q3733",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -13357,12 +13605,17 @@
   "attributes": {
    "country": "country:GP",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -61.732777777,
+   "lat": 15.996944444
   }
  },
  {
@@ -13394,6 +13647,34 @@
   }
  },
  {
+  "id": "city:GQ-ciudad-de-la-paz",
+  "type": "city",
+  "names": {
+   "de": "Ciudad de la Paz"
+  },
+  "aliases": [
+   "Oyala",
+   "Djibloho"
+  ],
+  "media": [],
+  "attributes": {
+   "country": "country:GQ",
+   "continent": "africa",
+   "wikidata": "Q1140136",
+   "capital_role": "capital",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "Regierung Äquatorialguineas",
+   "source_url": "https://www.guineaecuatorialpress.com/index.php/noticias/el_presidente_de_la_republica_proclama_la_ciudad_de_la_paz_como_capital_de_la_republica_de_guinea_ecuatorial_con_la_firma_de_un_decreto_ley",
+   "imported_at": "2026-10-13"
+  },
+  "location": {
+   "lon": 10.822222222,
+   "lat": 1.591666666
+  }
+ },
+ {
   "id": "city:GQ-malabo",
   "type": "city",
   "names": {
@@ -13405,7 +13686,7 @@
   "attributes": {
    "country": "country:GQ",
    "continent": "africa",
-   "is_capital": true,
+   "is_capital": false,
    "population": 297000,
    "wikidata": "Q3818"
   },
@@ -13426,14 +13707,17 @@
    "de": "Athen",
    "en": "Athens"
   },
-  "aliases": [],
+  "aliases": [
+   "Athens"
+  ],
   "media": [],
   "attributes": {
    "country": "country:GR",
    "continent": "europe",
    "is_capital": true,
    "population": 643452,
-   "wikidata": "Q1524"
+   "wikidata": "Q1524",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -13541,12 +13825,17 @@
   "attributes": {
    "country": "country:GS",
    "continent": "antarctica",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -36.48714,
+   "lat": -54.282264
   }
  },
  {
@@ -13590,12 +13879,17 @@
   "attributes": {
    "country": "country:GT",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -90.513333333,
+   "lat": 14.641666666
   }
  },
  {
@@ -13779,12 +14073,17 @@
   "attributes": {
    "country": "country:GU",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 144.75,
+   "lat": 13.483333333
   }
  },
  {
@@ -13801,7 +14100,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 492004,
-   "wikidata": "Q3739"
+   "wikidata": "Q3739",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -13827,7 +14127,8 @@
    "continent": "south-america",
    "is_capital": true,
    "population": 235017,
-   "wikidata": "Q10717"
+   "wikidata": "Q10717",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -13850,7 +14151,7 @@
   "attributes": {
    "country": "country:HK",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": false
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -13900,7 +14201,8 @@
    "continent": "north-america",
    "is_capital": true,
    "population": 1055729,
-   "wikidata": "Q3238"
+   "wikidata": "Q3238",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -13955,7 +14257,8 @@
    "continent": "europe",
    "is_capital": true,
    "population": 767131,
-   "wikidata": "Q1435"
+   "wikidata": "Q1435",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -14150,7 +14453,8 @@
    "continent": "north-america",
    "is_capital": true,
    "population": 987310,
-   "wikidata": "Q34261"
+   "wikidata": "Q34261",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -14201,11 +14505,16 @@
   "attributes": {
    "country": "country:HU",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18"
+  },
+  "location": {
+   "lon": 19.040833333,
+   "lat": 47.498333333
   }
  },
  {
@@ -14251,7 +14560,8 @@
    "continent": "asia",
    "is_capital": true,
    "population": 11135191,
-   "wikidata": "Q3630"
+   "wikidata": "Q3630",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -14305,7 +14615,8 @@
    "is_capital": true,
    "population": 592713,
    "wikidata": "Q1761",
-   "region": "region:IE-L"
+   "region": "region:IE-L",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -14478,7 +14789,8 @@
    "continent": "asia",
    "is_capital": true,
    "population": 1050151,
-   "wikidata": "Q1218"
+   "wikidata": "Q1218",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -14649,12 +14961,17 @@
   "attributes": {
    "country": "country:IM",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -4.4775,
+   "lat": 54.15
   }
  },
  {
@@ -14940,16 +15257,23 @@
   "names": {
    "de": "Neu-Delhi"
   },
-  "aliases": [],
+  "aliases": [
+   "New Delhi"
+  ],
   "media": [],
   "attributes": {
    "country": "country:IN",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18"
+  },
+  "location": {
+   "lon": 77.208888888,
+   "lat": 28.613888888
   }
  },
  {
@@ -15103,12 +15427,17 @@
   "attributes": {
    "country": "country:IO",
    "continent": "africa",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 72.411111111,
+   "lat": -7.313333333
   }
  },
  {
@@ -15184,12 +15513,17 @@
   "attributes": {
    "country": "country:IQ",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 44.366111111,
+   "lat": 33.315277777
   }
  },
  {
@@ -15899,12 +16233,17 @@
   "attributes": {
    "country": "country:IR",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 51.389722222,
+   "lat": 35.688888888
   }
  },
  {
@@ -16027,16 +16366,23 @@
   "names": {
    "de": "Reykjavík"
   },
-  "aliases": [],
+  "aliases": [
+   "Reykjavik"
+  ],
   "media": [],
   "attributes": {
    "country": "country:IS",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18"
+  },
+  "location": {
+   "lon": -21.935,
+   "lat": 64.1475
   }
  },
  {
@@ -16524,7 +16870,9 @@
    "de": "Rom",
    "en": "Rome"
   },
-  "aliases": [],
+  "aliases": [
+   "Rome"
+  ],
   "media": [
    {
     "id": "media:photo:city:IT-rom",
@@ -16545,7 +16893,8 @@
    "is_capital": true,
    "region": "region:IT-62",
    "population": 2748109,
-   "wikidata": "Q220"
+   "wikidata": "Q220",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -16705,12 +17054,17 @@
   "attributes": {
    "country": "country:JE",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -2.11,
+   "lat": 49.185833333
   }
  },
  {
@@ -16727,7 +17081,8 @@
    "continent": "north-america",
    "is_capital": true,
    "population": 937700,
-   "wikidata": "Q34692"
+   "wikidata": "Q34692",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -16809,7 +17164,8 @@
    "continent": "asia",
    "is_capital": true,
    "population": 4007526,
-   "wikidata": "Q3805"
+   "wikidata": "Q3805",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -17392,7 +17748,9 @@
    "de": "Tokio",
    "en": "Tokyo"
   },
-  "aliases": [],
+  "aliases": [
+   "Tokyo"
+  ],
   "media": [
    {
     "id": "media:photo:city:JP-tokio",
@@ -17412,7 +17770,8 @@
    "continent": "asia",
    "is_capital": true,
    "population": 14264798,
-   "wikidata": "Q1490"
+   "wikidata": "Q1490",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -17549,7 +17908,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 5545000,
-   "wikidata": "Q3870"
+   "wikidata": "Q3870",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -17603,12 +17963,17 @@
   "attributes": {
    "country": "country:KG",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 74.566666666,
+   "lat": 42.866666666
   }
  },
  {
@@ -17655,7 +18020,8 @@
    "continent": "asia",
    "is_capital": true,
    "population": 2129371,
-   "wikidata": "Q1850"
+   "wikidata": "Q1850",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -17677,12 +18043,17 @@
   "attributes": {
    "country": "country:KI",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 172.966666666,
+   "lat": 1.333333333
   }
  },
  {
@@ -17696,12 +18067,17 @@
   "attributes": {
    "country": "country:KM",
    "continent": "africa",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 43.253611111,
+   "lat": -11.703611111
   }
  },
  {
@@ -17715,12 +18091,17 @@
   "attributes": {
    "country": "country:KN",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -62.734166666,
+   "lat": 17.298333333
   }
  },
  {
@@ -18000,12 +18381,17 @@
   "attributes": {
    "country": "country:KP",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 125.7475,
+   "lat": 39.016666666
   }
  },
  {
@@ -18540,7 +18926,8 @@
    "continent": "asia",
    "is_capital": true,
    "population": 9668465,
-   "wikidata": "Q8684"
+   "wikidata": "Q8684",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -18620,7 +19007,8 @@
   "attributes": {
    "country": "country:KW",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -18669,12 +19057,17 @@
   "attributes": {
    "country": "country:KY",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -81.381666666,
+   "lat": 19.296388888
   }
  },
  {
@@ -18749,7 +19142,8 @@
    "continent": "asia",
    "is_capital": true,
    "population": 1078362,
-   "wikidata": "Q1520"
+   "wikidata": "Q1520",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -19128,12 +19522,17 @@
   "attributes": {
    "country": "country:LA",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 102.63,
+   "lat": 17.98
   }
  },
  {
@@ -19150,7 +19549,8 @@
    "continent": "asia",
    "is_capital": true,
    "population": 2421354,
-   "wikidata": "Q3820"
+   "wikidata": "Q3820",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -19259,12 +19659,17 @@
   "attributes": {
    "country": "country:LC",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -60.989444444,
+   "lat": 14.010833333
   }
  },
  {
@@ -19278,11 +19683,16 @@
   "attributes": {
    "country": "country:LI",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18"
+  },
+  "location": {
+   "lon": 9.522222222,
+   "lat": 47.140555555
   }
  },
  {
@@ -19297,7 +19707,7 @@
   "attributes": {
    "country": "country:LK",
    "continent": "asia",
-   "is_capital": true,
+   "is_capital": false,
    "population": 647557,
    "wikidata": "Q35381"
   },
@@ -19340,6 +19750,36 @@
   }
  },
  {
+  "id": "city:LK-sri-jayewardenepura-kotte",
+  "type": "city",
+  "names": {
+   "de": "Sri Jayewardenepura Kotte"
+  },
+  "aliases": [
+   "Sri Jayawardenepura Kotte",
+   "Sri Jayawardanapura Kotte",
+   "Sri Jayewardhanepura Kotte",
+   "Kotte"
+  ],
+  "media": [],
+  "attributes": {
+   "country": "country:LK",
+   "continent": "asia",
+   "wikidata": "Q41963",
+   "capital_role": "capital",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "Sri Jayawardenepura Kotte Municipal Council",
+   "source_url": "https://www.kotte.mc.gov.lk/index.php?Itemid=175&id=25&lang=en&option=com_content&view=article",
+   "imported_at": "2026-10-13"
+  },
+  "location": {
+   "lon": 79.916388888,
+   "lat": 6.9
+  }
+ },
+ {
   "id": "city:LR-monrovia",
   "type": "city",
   "names": {
@@ -19353,7 +19793,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 1761032,
-   "wikidata": "Q3748"
+   "wikidata": "Q3748",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -19379,7 +19820,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 343541,
-   "wikidata": "Q3909"
+   "wikidata": "Q3909",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -19461,7 +19903,8 @@
    "continent": "europe",
    "is_capital": true,
    "population": 581475,
-   "wikidata": "Q216"
+   "wikidata": "Q216",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -19478,16 +19921,23 @@
   "names": {
    "de": "Luxemburg"
   },
-  "aliases": [],
+  "aliases": [
+   "Luxembourg"
+  ],
   "media": [],
   "attributes": {
    "country": "country:LU",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18"
+  },
+  "location": {
+   "lon": 6.13,
+   "lat": 49.611388888
   }
  },
  {
@@ -19504,7 +19954,8 @@
    "continent": "europe",
    "is_capital": true,
    "population": 588911,
-   "wikidata": "Q1773"
+   "wikidata": "Q1773",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -19618,12 +20069,17 @@
   "attributes": {
    "country": "country:LY",
    "continent": "africa",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 13.1875,
+   "lat": 32.8875
   }
  },
  {
@@ -19957,7 +20413,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 515619,
-   "wikidata": "Q3551"
+   "wikidata": "Q3551",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -20095,11 +20552,16 @@
   "attributes": {
    "country": "country:MC",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18"
+  },
+  "location": {
+   "lon": 7.42,
+   "lat": 43.731111111
   }
  },
  {
@@ -20113,7 +20575,8 @@
   "attributes": {
    "country": "country:MD",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -20166,7 +20629,8 @@
    "is_capital": true,
    "population": 150977,
    "wikidata": "Q23564",
-   "region": "region:ME-16"
+   "region": "region:ME-16",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -20188,12 +20652,17 @@
   "attributes": {
    "country": "country:MF",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -63.084722222,
+   "lat": 18.066666666
   }
  },
  {
@@ -20210,7 +20679,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 1275207,
-   "wikidata": "Q3915"
+   "wikidata": "Q3915",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -20289,12 +20759,17 @@
   "attributes": {
    "country": "country:MH",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 171.3802,
+   "lat": 7.0918
   }
  },
  {
@@ -20311,7 +20786,8 @@
    "continent": "europe",
    "is_capital": true,
    "population": 422540,
-   "wikidata": "Q384"
+   "wikidata": "Q384",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -20336,7 +20812,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 4227569,
-   "wikidata": "Q3703"
+   "wikidata": "Q3703",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -20592,7 +21069,8 @@
    "continent": "asia",
    "is_capital": true,
    "population": 1160242,
-   "wikidata": "Q37400"
+   "wikidata": "Q37400",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -20729,7 +21207,8 @@
   "attributes": {
    "country": "country:MN",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -20748,12 +21227,17 @@
   "attributes": {
    "country": "country:MP",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 145.7545,
+   "lat": 15.21233
   }
  },
  {
@@ -20767,12 +21251,17 @@
   "attributes": {
    "country": "country:MQ",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -61.066666666,
+   "lat": 14.6
   }
  },
  {
@@ -20817,7 +21306,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 1446761,
-   "wikidata": "Q3688"
+   "wikidata": "Q3688",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -20840,12 +21330,17 @@
   "attributes": {
    "country": "country:MS",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -62.215838888,
+   "lat": 16.706416666
   }
  },
  {
@@ -20859,11 +21354,16 @@
   "attributes": {
    "country": "country:MT",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18"
+  },
+  "location": {
+   "lon": 14.5125,
+   "lat": 35.897777777
   }
  },
  {
@@ -20877,12 +21377,17 @@
   "attributes": {
    "country": "country:MU",
    "continent": "africa",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 57.498888888,
+   "lat": -20.161944444
   }
  },
  {
@@ -20896,12 +21401,17 @@
   "attributes": {
    "country": "country:MV",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 73.508333333,
+   "lat": 4.175
   }
  },
  {
@@ -20946,7 +21456,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 989318,
-   "wikidata": "Q3876"
+   "wikidata": "Q3876",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -21230,14 +21741,17 @@
    "de": "Mexiko-Stadt",
    "en": "Mexico City"
   },
-  "aliases": [],
+  "aliases": [
+   "Mexico City"
+  ],
   "media": [],
   "attributes": {
    "country": "country:MX",
    "continent": "north-america",
    "is_capital": true,
    "population": 9209944,
-   "wikidata": "Q1489"
+   "wikidata": "Q1489",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -21552,7 +22066,8 @@
    "continent": "asia",
    "is_capital": true,
    "population": 9000280,
-   "wikidata": "Q1865"
+   "wikidata": "Q1865",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -21708,6 +22223,30 @@
    "imported_at": "2026-09-18",
    "source_id": "Q864965",
    "license": "CC0"
+  }
+ },
+ {
+  "id": "city:MY-putrajaya",
+  "type": "city",
+  "names": {
+   "de": "Putrajaya"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:MY",
+   "continent": "asia",
+   "capital_role": "administrative",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "Ministry of Foreign Affairs Malaysia",
+   "source_url": "https://www.kln.gov.my/web/gha_accra/history",
+   "imported_at": "2026-10-13"
+  },
+  "location": {
+   "lon": 101.69,
+   "lat": 2.93
   }
  },
  {
@@ -21925,7 +22464,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 1133200,
-   "wikidata": "Q3889"
+   "wikidata": "Q3889",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -22119,7 +22659,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 486169,
-   "wikidata": "Q3935"
+   "wikidata": "Q3935",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -22142,12 +22683,17 @@
   "attributes": {
    "country": "country:NC",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 166.45,
+   "lat": -22.266666666
   }
  },
  {
@@ -22192,7 +22738,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 1496260,
-   "wikidata": "Q3674"
+   "wikidata": "Q3674",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -22243,12 +22790,17 @@
   "attributes": {
    "country": "country:NF",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 167.966666666,
+   "lat": -29.05
   }
  },
  {
@@ -22318,11 +22870,16 @@
   "attributes": {
    "country": "country:NG",
    "continent": "africa",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18"
+  },
+  "location": {
+   "lon": 7.491388888,
+   "lat": 9.055555555
   }
  },
  {
@@ -22733,7 +23290,8 @@
    "continent": "north-america",
    "is_capital": true,
    "population": 937489,
-   "wikidata": "Q3274"
+   "wikidata": "Q3274",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -22789,7 +23347,8 @@
    "is_capital": true,
    "population": 921468,
    "wikidata": "Q727",
-   "region": "region:NL-NH"
+   "region": "region:NL-NH",
+   "capital_role": "constitutional"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -22905,7 +23464,10 @@
    "de": "Den Haag",
    "en": "The Hague"
   },
-  "aliases": [],
+  "aliases": [
+   "The Hague",
+   "'s-Gravenhage"
+  ],
   "media": [],
   "attributes": {
    "country": "country:NL",
@@ -23303,7 +23865,8 @@
    "continent": "europe",
    "is_capital": true,
    "population": 717710,
-   "wikidata": "Q585"
+   "wikidata": "Q585",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -23440,7 +24003,8 @@
    "continent": "asia",
    "is_capital": true,
    "population": 845767,
-   "wikidata": "Q3037"
+   "wikidata": "Q3037",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -23519,12 +24083,16 @@
   "attributes": {
    "country": "country:NR",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": false
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 166.920867,
+   "lat": -0.5477
   }
  },
  {
@@ -23538,12 +24106,17 @@
   "attributes": {
    "country": "country:NU",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -169.921,
+   "lat": -19.056
   }
  },
  {
@@ -23669,7 +24242,8 @@
    "continent": "oceania",
    "is_capital": true,
    "population": 216200,
-   "wikidata": "Q23661"
+   "wikidata": "Q23661",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -23753,12 +24327,17 @@
   "attributes": {
    "country": "country:OM",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 58.592222222,
+   "lat": 23.613888888
   }
  },
  {
@@ -23888,14 +24467,17 @@
    "de": "Panama-Stadt",
    "en": "Panama City"
   },
-  "aliases": [],
+  "aliases": [
+   "Panama City"
+  ],
   "media": [],
   "attributes": {
    "country": "country:PA",
    "continent": "north-america",
    "is_capital": true,
    "population": 1540000,
-   "wikidata": "Q3306"
+   "wikidata": "Q3306",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -24199,7 +24781,8 @@
    "continent": "south-america",
    "is_capital": true,
    "population": 9943800,
-   "wikidata": "Q2868"
+   "wikidata": "Q2868",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -24361,12 +24944,17 @@
   "attributes": {
    "country": "country:PF",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -149.568888888,
+   "lat": -17.539722222
   }
  },
  {
@@ -24383,7 +24971,8 @@
    "continent": "oceania",
    "is_capital": true,
    "population": 317374,
-   "wikidata": "Q36526"
+   "wikidata": "Q36526",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -24409,7 +24998,8 @@
    "continent": "asia",
    "is_capital": true,
    "population": 1902590,
-   "wikidata": "Q1461"
+   "wikidata": "Q1461",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -24547,7 +25137,8 @@
    "continent": "asia",
    "is_capital": true,
    "population": 1014825,
-   "wikidata": "Q1362"
+   "wikidata": "Q1362",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -25372,7 +25963,9 @@
    "de": "Warschau",
    "en": "Warsaw"
   },
-  "aliases": [],
+  "aliases": [
+   "Warsaw"
+  ],
   "media": [],
   "attributes": {
    "country": "country:PL",
@@ -25380,7 +25973,8 @@
    "is_capital": true,
    "region": "region:PL-14",
    "population": 1862402,
-   "wikidata": "Q270"
+   "wikidata": "Q270",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -25421,12 +26015,17 @@
   "attributes": {
    "country": "country:PM",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -56.177777777,
+   "lat": 46.777777777
   }
  },
  {
@@ -25440,12 +26039,17 @@
   "attributes": {
    "country": "country:PN",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -130.1,
+   "lat": -25.066666666
   }
  },
  {
@@ -25459,12 +26063,17 @@
   "attributes": {
    "country": "country:PR",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -66.116666666,
+   "lat": 18.465277777
   }
  },
  {
@@ -25584,6 +26193,29 @@
   }
  },
  {
+  "id": "city:PS-ostjerusalem",
+  "type": "city",
+  "names": {
+   "de": "Ostjerusalem"
+  },
+  "aliases": [
+   "East Jerusalem"
+  ],
+  "media": [],
+  "attributes": {
+   "country": "country:PS",
+   "continent": "asia",
+   "wikidata": "Q154477",
+   "capital_role": "claimed",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "Ministry of Foreign Affairs Palestine",
+   "source_url": "https://www.mofa.pna.ps/en-us/fundamentalissues/jerusalem",
+   "imported_at": "2026-10-13"
+  }
+ },
+ {
   "id": "city:PS-rafah",
   "type": "city",
   "names": {
@@ -25622,12 +26254,16 @@
   "attributes": {
    "country": "country:PS",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": false
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 35.201666666,
+   "lat": 31.896944444
   }
  },
  {
@@ -25636,16 +26272,23 @@
   "names": {
    "de": "Lissabon"
   },
-  "aliases": [],
+  "aliases": [
+   "Lisbon"
+  ],
   "media": [],
   "attributes": {
    "country": "country:PT",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18"
+  },
+  "location": {
+   "lon": -9.139016,
+   "lat": 38.708042
   }
  },
  {
@@ -25687,12 +26330,17 @@
   "attributes": {
    "country": "country:PW",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 134.624167,
+   "lat": 7.500556
   }
  },
  {
@@ -25709,7 +26357,8 @@
    "continent": "south-america",
    "is_capital": true,
    "population": 462241,
-   "wikidata": "Q2933"
+   "wikidata": "Q2933",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -25788,12 +26437,17 @@
   "attributes": {
    "country": "country:QA",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 51.529444444,
+   "lat": 25.286111111
   }
  },
  {
@@ -25807,12 +26461,17 @@
   "attributes": {
    "country": "country:RE",
    "continent": "africa",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 55.448055555,
+   "lat": -20.878888888
   }
  },
  {
@@ -25878,14 +26537,17 @@
    "de": "Bukarest",
    "en": "Bucharest"
   },
-  "aliases": [],
+  "aliases": [
+   "Bucharest"
+  ],
   "media": [],
   "attributes": {
    "country": "country:RO",
    "continent": "europe",
    "is_capital": true,
    "population": 1716961,
-   "wikidata": "Q19660"
+   "wikidata": "Q19660",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -26129,7 +26791,9 @@
    "de": "Belgrad",
    "en": "Belgrade"
   },
-  "aliases": [],
+  "aliases": [
+   "Belgrade"
+  ],
   "media": [],
   "attributes": {
    "country": "country:RS",
@@ -26137,7 +26801,8 @@
    "is_capital": true,
    "population": 1197714,
    "wikidata": "Q3711",
-   "region": "region:RS-00"
+   "region": "region:RS-00",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -26444,14 +27109,17 @@
    "de": "Moskau",
    "en": "Moscow"
   },
-  "aliases": [],
+  "aliases": [
+   "Moscow"
+  ],
   "media": [],
   "attributes": {
    "country": "country:RU",
    "continent": "europe",
    "is_capital": true,
    "population": 13274285,
-   "wikidata": "Q649"
+   "wikidata": "Q649",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -26807,7 +27475,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 1745555,
-   "wikidata": "Q3859"
+   "wikidata": "Q3859",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -27180,12 +27849,17 @@
   "attributes": {
    "country": "country:SA",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 46.715,
+   "lat": 24.638333333
   }
  },
  {
@@ -27313,12 +27987,17 @@
   "attributes": {
    "country": "country:SB",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 159.95,
+   "lat": -9.433333
   }
  },
  {
@@ -27332,12 +28011,17 @@
   "attributes": {
    "country": "country:SC",
    "continent": "africa",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 55.454444444,
+   "lat": -4.623611111
   }
  },
  {
@@ -27561,7 +28245,8 @@
   "attributes": {
    "country": "country:SD",
    "continent": "africa",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -27730,7 +28415,8 @@
    "is_capital": true,
    "population": 984748,
    "wikidata": "Q1754",
-   "region": "region:SE-AB"
+   "region": "region:SE-AB",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -27777,14 +28463,17 @@
    "de": "Singapur",
    "en": "Singapore"
   },
-  "aliases": [],
+  "aliases": [
+   "Singapore"
+  ],
   "media": [],
   "attributes": {
    "country": "country:SG",
    "continent": "asia",
    "is_capital": true,
    "population": 5866139,
-   "wikidata": "Q334"
+   "wikidata": "Q334",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -27806,12 +28495,17 @@
   "attributes": {
    "country": "country:SH",
    "continent": "africa",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -5.717916666,
+   "lat": -15.925138888
   }
  },
  {
@@ -27828,7 +28522,8 @@
    "continent": "europe",
    "is_capital": true,
    "population": 284293,
-   "wikidata": "Q437"
+   "wikidata": "Q437",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -27850,7 +28545,8 @@
   "attributes": {
    "country": "country:SJ",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -27873,7 +28569,8 @@
    "is_capital": true,
    "population": 480902,
    "wikidata": "Q1780",
-   "region": "region:SK-BL"
+   "region": "region:SK-BL",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -27955,7 +28652,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 951000,
-   "wikidata": "Q3780"
+   "wikidata": "Q3780",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -28001,16 +28699,23 @@
   "names": {
    "de": "San Marino"
   },
-  "aliases": [],
+  "aliases": [
+   "City of San Marino"
+  ],
   "media": [],
   "attributes": {
    "country": "country:SM",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18"
+  },
+  "location": {
+   "lon": 12.44845,
+   "lat": 43.932011111
   }
  },
  {
@@ -28027,7 +28732,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 1438725,
-   "wikidata": "Q3718"
+   "wikidata": "Q3718",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -28479,12 +29185,17 @@
   "attributes": {
    "country": "country:SO",
    "continent": "africa",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 45.341944444,
+   "lat": 2.039166666
   }
  },
  {
@@ -28501,7 +29212,8 @@
    "continent": "south-america",
    "is_capital": true,
    "population": 223757,
-   "wikidata": "Q3001"
+   "wikidata": "Q3001",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -28555,7 +29267,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 500088,
-   "wikidata": "Q1947"
+   "wikidata": "Q1947",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -28606,12 +29319,17 @@
   "attributes": {
    "country": "country:ST",
    "continent": "africa",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 6.728333333,
+   "lat": 0.3375
   }
  },
  {
@@ -28656,7 +29374,8 @@
    "continent": "north-america",
    "is_capital": true,
    "population": 330543,
-   "wikidata": "Q3110"
+   "wikidata": "Q3110",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -28707,12 +29426,17 @@
   "attributes": {
    "country": "country:SX",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -63.043333333,
+   "lat": 18.024166666
   }
  },
  {
@@ -28786,12 +29510,17 @@
   "attributes": {
    "country": "country:SY",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 36.292,
+   "lat": 33.513
   }
  },
  {
@@ -29091,12 +29820,43 @@
   "attributes": {
    "country": "country:SZ",
    "continent": "africa",
-   "is_capital": true
+   "is_capital": true,
+   "wikidata": "Q101418",
+   "capital_role": "royal_legislative"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 31.206411,
+   "lat": -26.44648
+  }
+ },
+ {
+  "id": "city:SZ-mbabane",
+  "type": "city",
+  "names": {
+   "de": "Mbabane"
+  },
+  "aliases": [],
+  "media": [],
+  "attributes": {
+   "country": "country:SZ",
+   "continent": "africa",
+   "wikidata": "Q3904",
+   "capital_role": "executive",
+   "is_capital": true
+  },
+  "provenance": {
+   "source": "African Union",
+   "source_url": "https://au.int/en/cities/lobambaroyal-and-legislative-mbabane-administrative",
+   "imported_at": "2026-10-13"
+  },
+  "location": {
+   "lon": 31.133333333,
+   "lat": -26.316666666
   }
  },
  {
@@ -29110,12 +29870,17 @@
   "attributes": {
    "country": "country:TC",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -71.141388888,
+   "lat": 21.460277777
   }
  },
  {
@@ -29129,12 +29894,17 @@
   "attributes": {
    "country": "country:TD",
    "continent": "africa",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 15.05,
+   "lat": 12.11
   }
  },
  {
@@ -29148,12 +29918,17 @@
   "attributes": {
    "country": "country:TF",
    "continent": "antarctica",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 70.216666666,
+   "lat": -49.35
   }
  },
  {
@@ -29170,7 +29945,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 2188376,
-   "wikidata": "Q3792"
+   "wikidata": "Q3792",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -29196,7 +29972,8 @@
    "continent": "asia",
    "is_capital": true,
    "population": 5676648,
-   "wikidata": "Q1861"
+   "wikidata": "Q1861",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -29420,12 +30197,17 @@
   "attributes": {
    "country": "country:TJ",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 68.786388888,
+   "lat": 38.573055555
   }
  },
  {
@@ -29439,7 +30221,7 @@
   "attributes": {
    "country": "country:TK",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": false
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -29461,7 +30243,8 @@
    "continent": "asia",
    "is_capital": true,
    "population": 222323,
-   "wikidata": "Q9310"
+   "wikidata": "Q9310",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -29516,12 +30299,17 @@
   "attributes": {
    "country": "country:TM",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 58.383333333,
+   "lat": 37.95
   }
  },
  {
@@ -29622,7 +30410,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 602560,
-   "wikidata": "Q3572"
+   "wikidata": "Q3572",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -29645,12 +30434,17 @@
   "attributes": {
    "country": "country:TO",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -175.201808,
+   "lat": -21.1343401
   }
  },
  {
@@ -29695,7 +30489,8 @@
    "continent": "europe",
    "is_capital": true,
    "population": 5803482,
-   "wikidata": "Q3640"
+   "wikidata": "Q3640",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -30082,12 +30877,17 @@
   "attributes": {
    "country": "country:TT",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -61.516666666,
+   "lat": 10.666666666
   }
  },
  {
@@ -30101,12 +30901,17 @@
   "attributes": {
    "country": "country:TV",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 179.117361111,
+   "lat": -8.504777777
   }
  },
  {
@@ -30266,7 +31071,8 @@
   "attributes": {
    "country": "country:TW",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -30402,7 +31208,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 213636,
-   "wikidata": "Q3866"
+   "wikidata": "Q3866",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -30879,12 +31686,15 @@
   "names": {
    "de": "Kyjiw"
   },
-  "aliases": [],
+  "aliases": [
+   "Kyiv"
+  ],
   "media": [],
   "attributes": {
    "country": "country:UA",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -31084,7 +31894,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 1680600,
-   "wikidata": "Q3894"
+   "wikidata": "Q3894",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -32578,7 +33389,9 @@
   "names": {
    "de": "Washington, D.C."
   },
-  "aliases": [],
+  "aliases": [
+   "Washington D.C."
+  ],
   "media": [
    {
     "id": "media:photo:city:US-washington-d-c",
@@ -32596,11 +33409,16 @@
   "attributes": {
    "country": "country:US",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18"
+  },
+  "location": {
+   "lon": -77.036666666,
+   "lat": 38.895
   }
  },
  {
@@ -32617,7 +33435,8 @@
    "continent": "south-america",
    "is_capital": true,
    "population": 1302954,
-   "wikidata": "Q1335"
+   "wikidata": "Q1335",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -32992,12 +33811,17 @@
   "attributes": {
    "country": "country:UZ",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 69.279722222,
+   "lat": 41.311111111
   }
  },
  {
@@ -33036,16 +33860,23 @@
   "names": {
    "de": "Vatikanstadt"
   },
-  "aliases": [],
+  "aliases": [
+   "Vatican City"
+  ],
   "media": [],
   "attributes": {
    "country": "country:VA",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18"
+  },
+  "location": {
+   "lon": 12.453,
+   "lat": 41.904
   }
  },
  {
@@ -33059,12 +33890,17 @@
   "attributes": {
    "country": "country:VC",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -61.22742,
+   "lat": 13.15527
   }
  },
  {
@@ -33165,7 +34001,8 @@
    "continent": "south-america",
    "is_capital": true,
    "population": 2245744,
-   "wikidata": "Q1533"
+   "wikidata": "Q1533",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -33496,12 +34333,17 @@
   "attributes": {
    "country": "country:VG",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -64.616666666,
+   "lat": 18.433333333
   }
  },
  {
@@ -33515,12 +34357,17 @@
   "attributes": {
    "country": "country:VI",
    "continent": "north-america",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -64.95,
+   "lat": 18.35
   }
  },
  {
@@ -33737,7 +34584,8 @@
    "continent": "asia",
    "is_capital": true,
    "population": 8717600,
-   "wikidata": "Q1858"
+   "wikidata": "Q1858",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -33957,12 +34805,17 @@
   "attributes": {
    "country": "country:VU",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 168.316667,
+   "lat": -17.73333
   }
  },
  {
@@ -33976,12 +34829,17 @@
   "attributes": {
    "country": "country:WF",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -176.1737,
+   "lat": -13.2827
   }
  },
  {
@@ -33995,12 +34853,17 @@
   "attributes": {
    "country": "country:WS",
    "continent": "oceania",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": -171.833333333,
+   "lat": -13.833333333
   }
  },
  {
@@ -34014,11 +34877,16 @@
   "attributes": {
    "country": "country:XK",
    "continent": "europe",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "ugbzspiele",
    "imported_at": "2026-09-18"
+  },
+  "location": {
+   "lon": 21.166666666,
+   "lat": 42.666666666
   }
  },
  {
@@ -34150,12 +35018,17 @@
   "attributes": {
    "country": "country:YE",
    "continent": "asia",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 44.2,
+   "lat": 15.35
   }
  },
  {
@@ -34227,12 +35100,17 @@
   "attributes": {
    "country": "country:YT",
    "continent": "africa",
-   "is_capital": true
+   "is_capital": true,
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
    "imported_at": "2026-09-18",
    "license": "ODbL-1.0"
+  },
+  "location": {
+   "lon": 45.231666666,
+   "lat": -12.781388888
   }
  },
  {
@@ -34279,10 +35157,11 @@
   "attributes": {
    "country": "country:ZA",
    "continent": "africa",
-   "is_capital": false,
+   "is_capital": true,
    "population": 256185,
    "sitelinks": 143,
-   "wikidata": "Q37701"
+   "wikidata": "Q37701",
+   "capital_role": "judicial"
   },
   "provenance": {
    "source": "wikidata-cities",
@@ -34466,14 +35345,17 @@
    "de": "Kapstadt",
    "en": "Cape Town"
   },
-  "aliases": [],
+  "aliases": [
+   "Cape Town"
+  ],
   "media": [],
   "attributes": {
    "country": "country:ZA",
    "continent": "africa",
-   "is_capital": false,
+   "is_capital": true,
    "population": 3776313,
-   "wikidata": "Q5465"
+   "wikidata": "Q5465",
+   "capital_role": "legislative"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -34498,7 +35380,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 741651,
-   "wikidata": "Q3926"
+   "wikidata": "Q3926",
+   "capital_role": "executive"
   },
   "provenance": {
    "source": "ugbzspiele",
@@ -34747,7 +35630,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 2467563,
-   "wikidata": "Q3881"
+   "wikidata": "Q3881",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -34857,7 +35741,8 @@
    "continent": "africa",
    "is_capital": true,
    "population": 2150000,
-   "wikidata": "Q3921"
+   "wikidata": "Q3921",
+   "capital_role": "capital"
   },
   "provenance": {
    "source": "mledoze/countries",

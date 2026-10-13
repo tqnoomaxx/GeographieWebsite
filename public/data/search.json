@@ -3603,6 +3603,7 @@
   "t": "city",
   "n": "Wien",
   "a": [
+   "Vienna",
    "Vienna"
   ],
   "c": "country:AT"
@@ -3939,6 +3940,7 @@
   "t": "city",
   "n": "Brüssel",
   "a": [
+   "Brussels",
    "Brussels"
   ],
   "c": "country:BE"
@@ -5138,6 +5140,7 @@
   "t": "city",
   "n": "Santiago de Chile",
   "a": [
+   "Santiago",
    "Santiago"
   ],
   "c": "country:CL"
@@ -5307,6 +5310,7 @@
   "t": "city",
   "n": "Peking",
   "a": [
+   "Beijing",
    "Beijing"
   ],
   "c": "country:CN"
@@ -5587,6 +5591,7 @@
   "t": "city",
   "n": "Havanna",
   "a": [
+   "Havana",
    "Havana"
   ],
   "c": "country:CU"
@@ -5682,7 +5687,9 @@
   "id": "city:CY-nikosia",
   "t": "city",
   "n": "Nikosia",
-  "a": [],
+  "a": [
+   "Nicosia"
+  ],
   "c": "country:CY"
  },
  {
@@ -5719,6 +5726,7 @@
   "t": "city",
   "n": "Prag",
   "a": [
+   "Prague",
    "Prague"
   ],
   "c": "country:CZ"
@@ -5948,6 +5956,7 @@
   "t": "city",
   "n": "Kopenhagen",
   "a": [
+   "Copenhagen",
    "Copenhagen"
   ],
   "c": "country:DK"
@@ -6370,6 +6379,7 @@
   "t": "city",
   "n": "Kairo",
   "a": [
+   "Cairo",
    "Cairo"
   ],
   "c": "country:EG"
@@ -6729,6 +6739,7 @@
   "t": "city",
   "n": "Addis Abeba",
   "a": [
+   "Addis Ababa",
    "Addis Ababa"
   ],
   "c": "country:ET"
@@ -7411,6 +7422,16 @@
   "c": "country:GQ"
  },
  {
+  "id": "city:GQ-ciudad-de-la-paz",
+  "t": "city",
+  "n": "Ciudad de la Paz",
+  "a": [
+   "Oyala",
+   "Djibloho"
+  ],
+  "c": "country:GQ"
+ },
+ {
   "id": "city:GQ-malabo",
   "t": "city",
   "n": "Malabo",
@@ -7424,6 +7445,7 @@
   "t": "city",
   "n": "Athen",
   "a": [
+   "Athens",
    "Athens"
   ],
   "c": "country:GR"
@@ -7928,7 +7950,9 @@
   "id": "city:IN-neu-delhi",
   "t": "city",
   "n": "Neu-Delhi",
-  "a": [],
+  "a": [
+   "New Delhi"
+  ],
   "c": "country:IN"
  },
  {
@@ -8289,7 +8313,9 @@
   "id": "city:IS-reykjavik",
   "t": "city",
   "n": "Reykjavík",
-  "a": [],
+  "a": [
+   "Reykjavik"
+  ],
   "c": "country:IS"
  },
  {
@@ -8450,6 +8476,7 @@
   "t": "city",
   "n": "Rom",
   "a": [
+   "Rome",
    "Rome"
   ],
   "c": "country:IT"
@@ -8717,6 +8744,7 @@
   "t": "city",
   "n": "Tokio",
   "a": [
+   "Tokyo",
    "Tokyo"
   ],
   "c": "country:JP"
@@ -9366,6 +9394,18 @@
   "c": "country:LK"
  },
  {
+  "id": "city:LK-sri-jayewardenepura-kotte",
+  "t": "city",
+  "n": "Sri Jayewardenepura Kotte",
+  "a": [
+   "Sri Jayawardenepura Kotte",
+   "Sri Jayawardanapura Kotte",
+   "Sri Jayewardhanepura Kotte",
+   "Kotte"
+  ],
+  "c": "country:LK"
+ },
+ {
   "id": "city:LR-monrovia",
   "t": "city",
   "n": "Monrovia",
@@ -9414,7 +9454,9 @@
   "id": "city:LU-luxemburg",
   "t": "city",
   "n": "Luxemburg",
-  "a": [],
+  "a": [
+   "Luxembourg"
+  ],
   "c": "country:LU"
  },
  {
@@ -10005,6 +10047,7 @@
   "t": "city",
   "n": "Mexiko-Stadt",
   "a": [
+   "Mexico City",
    "Mexico City"
   ],
   "c": "country:MX"
@@ -10152,6 +10195,13 @@
   "a": [
    "Petaling Jaya"
   ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:MY-putrajaya",
+  "t": "city",
+  "n": "Putrajaya",
+  "a": [],
   "c": "country:MY"
  },
  {
@@ -10547,7 +10597,9 @@
   "t": "city",
   "n": "Den Haag",
   "a": [
-   "The Hague"
+   "The Hague",
+   "The Hague",
+   "'s-Gravenhage"
   ],
   "c": "country:NL"
  },
@@ -10877,6 +10929,7 @@
   "t": "city",
   "n": "Panama-Stadt",
   "a": [
+   "Panama City",
    "Panama City"
   ],
   "c": "country:PA"
@@ -11370,6 +11423,7 @@
   "t": "city",
   "n": "Warschau",
   "a": [
+   "Warsaw",
    "Warsaw"
   ],
   "c": "country:PL"
@@ -11441,6 +11495,15 @@
   "c": "country:PS"
  },
  {
+  "id": "city:PS-ostjerusalem",
+  "t": "city",
+  "n": "Ostjerusalem",
+  "a": [
+   "East Jerusalem"
+  ],
+  "c": "country:PS"
+ },
+ {
   "id": "city:PS-rafah",
   "t": "city",
   "n": "Rafah",
@@ -11460,7 +11523,9 @@
   "id": "city:PT-lissabon",
   "t": "city",
   "n": "Lissabon",
-  "a": [],
+  "a": [
+   "Lisbon"
+  ],
   "c": "country:PT"
  },
  {
@@ -11543,6 +11608,7 @@
   "t": "city",
   "n": "Bukarest",
   "a": [
+   "Bucharest",
    "Bucharest"
   ],
   "c": "country:RO"
@@ -11625,6 +11691,7 @@
   "t": "city",
   "n": "Belgrad",
   "a": [
+   "Belgrade",
    "Belgrade"
   ],
   "c": "country:RS"
@@ -11727,6 +11794,7 @@
   "t": "city",
   "n": "Moskau",
   "a": [
+   "Moscow",
    "Moscow"
   ],
   "c": "country:RU"
@@ -12169,6 +12237,7 @@
   "t": "city",
   "n": "Singapur",
   "a": [
+   "Singapore",
    "Singapore"
   ],
   "c": "country:SG"
@@ -12245,7 +12314,9 @@
   "id": "city:SM-san-marino",
   "t": "city",
   "n": "San Marino",
-  "a": [],
+  "a": [
+   "City of San Marino"
+  ],
   "c": "country:SM"
  },
  {
@@ -12607,6 +12678,13 @@
   "id": "city:SZ-lobamba",
   "t": "city",
   "n": "Lobamba",
+  "a": [],
+  "c": "country:SZ"
+ },
+ {
+  "id": "city:SZ-mbabane",
+  "t": "city",
+  "n": "Mbabane",
   "a": [],
   "c": "country:SZ"
  },
@@ -13204,7 +13282,9 @@
   "id": "city:UA-kyjiw",
   "t": "city",
   "n": "Kyjiw",
-  "a": [],
+  "a": [
+   "Kyiv"
+  ],
   "c": "country:UA"
  },
  {
@@ -13781,7 +13861,9 @@
   "id": "city:US-washington-d-c",
   "t": "city",
   "n": "Washington, D.C.",
-  "a": [],
+  "a": [
+   "Washington D.C."
+  ],
   "c": "country:US"
  },
  {
@@ -13931,7 +14013,9 @@
   "id": "city:VA-vatikanstadt",
   "t": "city",
   "n": "Vatikanstadt",
-  "a": [],
+  "a": [
+   "Vatican City"
+  ],
   "c": "country:VA"
  },
  {
@@ -14406,6 +14490,7 @@
   "t": "city",
   "n": "Kapstadt",
   "a": [
+   "Cape Town",
    "Cape Town"
   ],
   "c": "country:ZA"
@@ -14564,6 +14649,24 @@
   "c": "country:DE"
  },
  {
+  "id": "landmark:abomey-palaces",
+  "t": "landmark",
+  "n": "Königspaläste von Abomey",
+  "a": [
+   "Royal Palaces of Abomey"
+  ],
+  "c": "country:BJ"
+ },
+ {
+  "id": "landmark:abu-simbel",
+  "t": "landmark",
+  "n": "Tempel von Abu Simbel",
+  "a": [
+   "Abu Simbel"
+  ],
+  "c": "country:EG"
+ },
+ {
   "id": "landmark:acropolis",
   "t": "landmark",
   "n": "Akropolis von Athen",
@@ -14582,6 +14685,15 @@
   "c": "country:SN"
  },
  {
+  "id": "landmark:alcazar-colon",
+  "t": "landmark",
+  "n": "Alcázar de Colón",
+  "a": [
+   "Alcázar de Colón"
+  ],
+  "c": "country:DO"
+ },
+ {
   "id": "landmark:alhambra",
   "t": "landmark",
   "n": "Alhambra",
@@ -14590,6 +14702,15 @@
    "Alhambra, Generalife und Albayzín"
   ],
   "c": "country:ES"
+ },
+ {
+  "id": "landmark:ancient-merv",
+  "t": "landmark",
+  "n": "Antikes Merw",
+  "a": [
+   "Merv"
+  ],
+  "c": "country:TM"
  },
  {
   "id": "landmark:angel-falls",
@@ -14620,6 +14741,15 @@
   "c": "country:KH"
  },
  {
+  "id": "landmark:arenal-volcano",
+  "t": "landmark",
+  "n": "Vulkan Arenal",
+  "a": [
+   "Arenal Volcano"
+  ],
+  "c": "country:CR"
+ },
+ {
   "id": "landmark:atomium",
   "t": "landmark",
   "n": "Atomium",
@@ -14638,6 +14768,42 @@
   "c": "country:NZ"
  },
  {
+  "id": "landmark:avenue-baobabs",
+  "t": "landmark",
+  "n": "Baobab-Allee",
+  "a": [
+   "Avenue of the Baobabs"
+  ],
+  "c": "country:MG"
+ },
+ {
+  "id": "landmark:baalbek",
+  "t": "landmark",
+  "n": "Baalbek",
+  "a": [
+   "Baalbek"
+  ],
+  "c": "country:LB"
+ },
+ {
+  "id": "landmark:badrulchau",
+  "t": "landmark",
+  "n": "Badrulchau-Monolithen",
+  "a": [
+   "Badrulchau"
+  ],
+  "c": "country:PW"
+ },
+ {
+  "id": "landmark:badshahi-mosque",
+  "t": "landmark",
+  "n": "Badshahi-Moschee",
+  "a": [
+   "Badshahi Mosque"
+  ],
+  "c": "country:PK"
+ },
+ {
   "id": "landmark:bagan",
   "t": "landmark",
   "n": "Tempelstadt Bagan",
@@ -14647,6 +14813,15 @@
   "c": "country:MM"
  },
  {
+  "id": "landmark:bahai-gardens-haifa",
+  "t": "landmark",
+  "n": "Bahai-Gärten Haifa",
+  "a": [
+   "Terraces (Baháʼí)"
+  ],
+  "c": "country:IL"
+ },
+ {
   "id": "landmark:bahrain-world-trade-center",
   "t": "landmark",
   "n": "Bahrain World Trade Center",
@@ -14654,6 +14829,15 @@
    "Bahrain World Trade Center"
   ],
   "c": "country:BH"
+ },
+ {
+  "id": "landmark:bayterek",
+  "t": "landmark",
+  "n": "Bajterek-Turm",
+  "a": [
+   "Bayterek"
+  ],
+  "c": "country:KZ"
  },
  {
   "id": "landmark:beehive-wellington",
@@ -14684,6 +14868,24 @@
   "c": "country:MH"
  },
  {
+  "id": "landmark:boiling-lake",
+  "t": "landmark",
+  "n": "Boiling Lake",
+  "a": [
+   "Boiling Lake"
+  ],
+  "c": "country:DM"
+ },
+ {
+  "id": "landmark:borgund-stave-church",
+  "t": "landmark",
+  "n": "Stabkirche Borgund",
+  "a": [
+   "Borgund Stave Church"
+  ],
+  "c": "country:NO"
+ },
+ {
   "id": "landmark:borobudur",
   "t": "landmark",
   "n": "Borobudur",
@@ -14692,6 +14894,24 @@
    "Tempelanlagen von Borobudur"
   ],
   "c": "country:ID"
+ },
+ {
+  "id": "landmark:boudhanath",
+  "t": "landmark",
+  "n": "Boudhanath",
+  "a": [
+   "Boudhanath"
+  ],
+  "c": "country:NP"
+ },
+ {
+  "id": "landmark:bran-castle",
+  "t": "landmark",
+  "n": "Schloss Bran",
+  "a": [
+   "Bran Castle"
+  ],
+  "c": "country:RO"
  },
  {
   "id": "landmark:brandenburg-gate",
@@ -14712,6 +14932,15 @@
   "c": "country:AR"
  },
  {
+  "id": "landmark:burana-tower",
+  "t": "landmark",
+  "n": "Burana-Turm",
+  "a": [
+   "Burana Tower"
+  ],
+  "c": "country:KG"
+ },
+ {
   "id": "landmark:burj-khalifa",
   "t": "landmark",
   "n": "Burj Khalifa",
@@ -14719,6 +14948,24 @@
    "Burj Khalifa"
   ],
   "c": "country:AE"
+ },
+ {
+  "id": "landmark:butrint",
+  "t": "landmark",
+  "n": "Butrint",
+  "a": [
+   "Butrint"
+  ],
+  "c": "country:AL"
+ },
+ {
+  "id": "landmark:cape-maclear",
+  "t": "landmark",
+  "n": "Cape Maclear",
+  "a": [
+   "Cape Maclear"
+  ],
+  "c": "country:MW"
  },
  {
   "id": "landmark:cappadocia",
@@ -14824,6 +15071,24 @@
   "c": "country:MX"
  },
  {
+  "id": "landmark:chillon-castle",
+  "t": "landmark",
+  "n": "Schloss Chillon",
+  "a": [
+   "Chillon Castle"
+  ],
+  "c": "country:CH"
+ },
+ {
+  "id": "landmark:chocolate-hills",
+  "t": "landmark",
+  "n": "Chocolate Hills",
+  "a": [
+   "Chocolate Hills"
+  ],
+  "c": "country:PH"
+ },
+ {
   "id": "landmark:christ-redeemer",
   "t": "landmark",
   "n": "Cristo Redentor",
@@ -14834,6 +15099,24 @@
   "c": "country:BR"
  },
  {
+  "id": "landmark:church-nativity",
+  "t": "landmark",
+  "n": "Geburtskirche Bethlehem",
+  "a": [
+   "Church of the Nativity"
+  ],
+  "c": "country:PS"
+ },
+ {
+  "id": "landmark:cidade-velha",
+  "t": "landmark",
+  "n": "Cidade Velha",
+  "a": [
+   "Cidade Velha"
+  ],
+  "c": "country:CV"
+ },
+ {
   "id": "landmark:cinque-terre",
   "t": "landmark",
   "n": "Cinque Terre",
@@ -14842,6 +15125,15 @@
    "Portovenere, Cinque Terre und die Inseln"
   ],
   "c": "country:IT"
+ },
+ {
+  "id": "landmark:citadelle-laferriere",
+  "t": "landmark",
+  "n": "Citadelle Laferrière",
+  "a": [
+   "Citadelle Laferrière"
+  ],
+  "c": "country:HT"
  },
  {
   "id": "landmark:cn-tower",
@@ -14882,6 +15174,15 @@
   "c": "country:IT"
  },
  {
+  "id": "landmark:copan",
+  "t": "landmark",
+  "n": "Copán",
+  "a": [
+   "Copán"
+  ],
+  "c": "country:HN"
+ },
+ {
   "id": "landmark:cordoba",
   "t": "landmark",
   "n": "Mezquita-Catedral de Córdoba",
@@ -14890,6 +15191,24 @@
    "Historisches Zentrum von Córdoba"
   ],
   "c": "country:ES"
+ },
+ {
+  "id": "landmark:cristo-rei-dili",
+  "t": "landmark",
+  "n": "Cristo Rei von Dili",
+  "a": [
+   "Cristo Rei of Dili"
+  ],
+  "c": "country:TL"
+ },
+ {
+  "id": "landmark:deans-blue-hole",
+  "t": "landmark",
+  "n": "Dean's Blue Hole",
+  "a": [
+   "Dean's Blue Hole"
+  ],
+  "c": "country:BS"
  },
  {
   "id": "landmark:delphi",
@@ -14927,6 +15246,15 @@
    "Walls of Dubrovnik"
   ],
   "c": "country:HR"
+ },
+ {
+  "id": "landmark:dunns-river-falls",
+  "t": "landmark",
+  "n": "Dunn's River Falls",
+  "a": [
+   "Dunn's River Falls"
+  ],
+  "c": "country:JM"
  },
  {
   "id": "landmark:edinburgh-castle",
@@ -14967,6 +15295,15 @@
   "c": "country:US"
  },
  {
+  "id": "landmark:ennedi-massif",
+  "t": "landmark",
+  "n": "Ennedi-Massiv",
+  "a": [
+   "Ennedi Plateau"
+  ],
+  "c": "country:TD"
+ },
+ {
   "id": "landmark:ephesus",
   "t": "landmark",
   "n": "Ephesos",
@@ -14976,6 +15313,15 @@
   "c": "country:TR"
  },
  {
+  "id": "landmark:erdene-zuu",
+  "t": "landmark",
+  "n": "Kloster Erdene Dsuu",
+  "a": [
+   "Erdene Zuu Monastery"
+  ],
+  "c": "country:MN"
+ },
+ {
   "id": "landmark:evora",
   "t": "landmark",
   "n": "Historisches Zentrum von Évora",
@@ -14983,6 +15329,15 @@
    "Évora"
   ],
   "c": "country:PT"
+ },
+ {
+  "id": "landmark:fasil-ghebbi",
+  "t": "landmark",
+  "n": "Fasil Ghebbi",
+  "a": [
+   "Fasil Ghebbi"
+  ],
+  "c": "country:ET"
  },
  {
   "id": "landmark:florence-cathedral",
@@ -15002,6 +15357,24 @@
    "Forbidden City"
   ],
   "c": "country:CN"
+ },
+ {
+  "id": "landmark:fort-jesus",
+  "t": "landmark",
+  "n": "Fort Jesus",
+  "a": [
+   "Fort Jesus"
+  ],
+  "c": "country:KE"
+ },
+ {
+  "id": "landmark:fort-sao-sebastiao",
+  "t": "landmark",
+  "n": "Fort São Sebastião",
+  "a": [
+   "Fort São Sebastião (Mozambique)"
+  ],
+  "c": "country:MZ"
  },
  {
   "id": "landmark:forth-bridge",
@@ -15031,6 +15404,15 @@
   "c": "country:SG"
  },
  {
+  "id": "landmark:garni-temple",
+  "t": "landmark",
+  "n": "Tempel von Garni",
+  "a": [
+   "Temple of Garni"
+  ],
+  "c": "country:AM"
+ },
+ {
   "id": "landmark:gateway-arch",
   "t": "landmark",
   "n": "Gateway Arch",
@@ -15049,6 +15431,15 @@
   "c": "country:IN"
  },
  {
+  "id": "landmark:gergeti-church",
+  "t": "landmark",
+  "n": "Gergetier Dreifaltigkeitskirche",
+  "a": [
+   "Gergeti Trinity Church"
+  ],
+  "c": "country:GE"
+ },
+ {
   "id": "landmark:goebekli-tepe",
   "t": "landmark",
   "n": "Göbekli Tepe",
@@ -15065,6 +15456,15 @@
    "Golden Gate Bridge"
   ],
   "c": "country:US"
+ },
+ {
+  "id": "landmark:granada-cathedral",
+  "t": "landmark",
+  "n": "Kathedrale von Granada",
+  "a": [
+   "Our Lady of the Assumption Cathedral, Granada"
+  ],
+  "c": "country:NI"
  },
  {
   "id": "landmark:grand-canyon",
@@ -15113,6 +15513,15 @@
   "c": "country:ZW"
  },
  {
+  "id": "landmark:guggenheim-bilbao",
+  "t": "landmark",
+  "n": "Guggenheim-Museum Bilbao",
+  "a": [
+   "Guggenheim Museum Bilbao"
+  ],
+  "c": "country:ES"
+ },
+ {
   "id": "landmark:gyeongbokgung",
   "t": "landmark",
   "n": "Gyeongbokgung-Palast",
@@ -15132,6 +15541,15 @@
   "c": "country:VN"
  },
  {
+  "id": "landmark:haamonga-maui",
+  "t": "landmark",
+  "n": "Haʻamonga ʻa Maui",
+  "a": [
+   "Haʻamonga ʻa Maui"
+  ],
+  "c": "country:TO"
+ },
+ {
   "id": "landmark:hagia-sophia",
   "t": "landmark",
   "n": "Hagia Sophia",
@@ -15149,6 +15567,15 @@
    "Hallgrímskirkja"
   ],
   "c": "country:IS"
+ },
+ {
+  "id": "landmark:harrisons-cave",
+  "t": "landmark",
+  "n": "Harrison's Cave",
+  "a": [
+   "Harrison's Cave"
+  ],
+  "c": "country:BB"
  },
  {
   "id": "landmark:hassan-ii-mosque",
@@ -15178,6 +15605,15 @@
   "c": "country:IN"
  },
  {
+  "id": "landmark:hegra",
+  "t": "landmark",
+  "n": "Hegra",
+  "a": [
+   "Mada'in Salih"
+  ],
+  "c": "country:SA"
+ },
+ {
   "id": "landmark:himeji",
   "t": "landmark",
   "n": "Burg Himeji",
@@ -15185,6 +15621,33 @@
    "Himeji Castle"
   ],
   "c": "country:JP"
+ },
+ {
+  "id": "landmark:hissar-fortress",
+  "t": "landmark",
+  "n": "Festung Hissar",
+  "a": [
+   "Hisor Fortress"
+  ],
+  "c": "country:TJ"
+ },
+ {
+  "id": "landmark:house-blackheads-riga",
+  "t": "landmark",
+  "n": "Schwarzhäupterhaus Riga",
+  "a": [
+   "House of the Blackheads (Riga)"
+  ],
+  "c": "country:LV"
+ },
+ {
+  "id": "landmark:hue-imperial-city",
+  "t": "landmark",
+  "n": "Kaiserstadt Huế",
+  "a": [
+   "Imperial City of Huế"
+  ],
+  "c": "country:VN"
  },
  {
   "id": "landmark:hungarian-parliament",
@@ -15224,6 +15687,15 @@
   "c": "country:KH"
  },
  {
+  "id": "landmark:islamic-art-doha",
+  "t": "landmark",
+  "n": "Museum für Islamische Kunst Doha",
+  "a": [
+   "Museum of Islamic Art, Doha"
+  ],
+  "c": "country:QA"
+ },
+ {
   "id": "landmark:itsukushima-shrine",
   "t": "landmark",
   "n": "Itsukushima-Schrein",
@@ -15241,6 +15713,42 @@
    "Hieronymitenkloster und Turm von Belém"
   ],
   "c": "country:PT"
+ },
+ {
+  "id": "landmark:joya-de-ceren",
+  "t": "landmark",
+  "n": "Joya de Cerén",
+  "a": [
+   "Joya de Cerén"
+  ],
+  "c": "country:SV"
+ },
+ {
+  "id": "landmark:kaieteur-falls",
+  "t": "landmark",
+  "n": "Kaieteur-Fälle",
+  "a": [
+   "Kaieteur Falls"
+  ],
+  "c": "country:GY"
+ },
+ {
+  "id": "landmark:karnak",
+  "t": "landmark",
+  "n": "Tempelanlage Karnak",
+  "a": [
+   "Karnak"
+  ],
+  "c": "country:EG"
+ },
+ {
+  "id": "landmark:kasubi-tombs",
+  "t": "landmark",
+  "n": "Kasubi-Gräber",
+  "a": [
+   "Kasubi Tombs"
+  ],
+  "c": "country:UG"
  },
  {
   "id": "landmark:kigali-memorial",
@@ -15262,6 +15770,24 @@
   "c": "country:TZ"
  },
  {
+  "id": "landmark:kinderdijk",
+  "t": "landmark",
+  "n": "Windmühlen von Kinderdijk",
+  "a": [
+   "Kinderdijk"
+  ],
+  "c": "country:NL"
+ },
+ {
+  "id": "landmark:kings-palace-nyanza",
+  "t": "landmark",
+  "n": "Königspalast von Nyanza",
+  "a": [
+   "King's Palace Museum Rukari"
+  ],
+  "c": "country:RW"
+ },
+ {
   "id": "landmark:knossos",
   "t": "landmark",
   "n": "Palast von Knossos",
@@ -15270,6 +15796,24 @@
    "Minoische Palastzentren"
   ],
   "c": "country:GR"
+ },
+ {
+  "id": "landmark:kotor-old-town",
+  "t": "landmark",
+  "n": "Altstadt von Kotor",
+  "a": [
+   "Kotor"
+  ],
+  "c": "country:ME"
+ },
+ {
+  "id": "landmark:kunta-kinteh-island",
+  "t": "landmark",
+  "n": "Kunta Kinteh Island",
+  "a": [
+   "Kunta Kinteh Island"
+  ],
+  "c": "country:GM"
  },
  {
   "id": "landmark:lake-bled",
@@ -15281,6 +15825,15 @@
   "c": "country:SI"
  },
  {
+  "id": "landmark:lalbagh-fort",
+  "t": "landmark",
+  "n": "Lalbagh-Fort",
+  "a": [
+   "Lalbagh Fort"
+  ],
+  "c": "country:BD"
+ },
+ {
   "id": "landmark:lalibela",
   "t": "landmark",
   "n": "Felsenkirchen von Lalibela",
@@ -15288,6 +15841,15 @@
    "Rock-Hewn Churches, Lalibela"
   ],
   "c": "country:ET"
+ },
+ {
+  "id": "landmark:las-lajas",
+  "t": "landmark",
+  "n": "Wallfahrtskirche Las Lajas",
+  "a": [
+   "Las Lajas Sanctuary"
+  ],
+  "c": "country:CO"
  },
  {
   "id": "landmark:le-morne",
@@ -15315,6 +15877,15 @@
    "The Little Mermaid (statue)"
   ],
   "c": "country:DK"
+ },
+ {
+  "id": "landmark:loropeni",
+  "t": "landmark",
+  "n": "Ruinen von Loropéni",
+  "a": [
+   "Ruins of Loropéni"
+  ],
+  "c": "country:BF"
  },
  {
   "id": "landmark:lotus-temple",
@@ -15346,6 +15917,15 @@
   "c": "country:PE"
  },
  {
+  "id": "landmark:maiden-tower-baku",
+  "t": "landmark",
+  "n": "Jungfrauenturm Baku",
+  "a": [
+   "Maiden Tower (Baku)"
+  ],
+  "c": "country:AZ"
+ },
+ {
   "id": "landmark:marina-bay-sands",
   "t": "landmark",
   "n": "Marina Bay Sands",
@@ -15353,6 +15933,15 @@
    "Marina Bay Sands"
   ],
   "c": "country:SG"
+ },
+ {
+  "id": "landmark:marovo-lagoon",
+  "t": "landmark",
+  "n": "Marovo-Lagune",
+  "a": [
+   "Marovo Lagoon"
+  ],
+  "c": "country:SB"
  },
  {
   "id": "landmark:marrakesh",
@@ -15364,6 +15953,15 @@
   "c": "country:MA"
  },
  {
+  "id": "landmark:matobo-hills",
+  "t": "landmark",
+  "n": "Matobo-Berge",
+  "a": [
+   "Matobo National Park"
+  ],
+  "c": "country:ZW"
+ },
+ {
   "id": "landmark:merlion",
   "t": "landmark",
   "n": "Merlion",
@@ -15371,6 +15969,15 @@
    "Merlion"
   ],
   "c": "country:SG"
+ },
+ {
+  "id": "landmark:meroe-pyramids",
+  "t": "landmark",
+  "n": "Pyramiden von Meroë",
+  "a": [
+   "Meroë"
+  ],
+  "c": "country:SD"
  },
  {
   "id": "landmark:meteora",
@@ -15381,6 +15988,24 @@
    "Meteora"
   ],
   "c": "country:GR"
+ },
+ {
+  "id": "landmark:minaret-jam",
+  "t": "landmark",
+  "n": "Minarett von Dschām",
+  "a": [
+   "Minaret of Jam"
+  ],
+  "c": "country:AF"
+ },
+ {
+  "id": "landmark:mitad-mundo",
+  "t": "landmark",
+  "n": "Mitad del Mundo",
+  "a": [
+   "Ciudad Mitad del Mundo"
+  ],
+  "c": "country:EC"
  },
  {
   "id": "landmark:monas",
@@ -15421,6 +16046,15 @@
   "c": "country:US"
  },
  {
+  "id": "landmark:mount-yasur",
+  "t": "landmark",
+  "n": "Vulkan Yasur",
+  "a": [
+   "Mount Yasur"
+  ],
+  "c": "country:VU"
+ },
+ {
   "id": "landmark:museum-island",
   "t": "landmark",
   "n": "Museumsinsel Berlin",
@@ -15449,6 +16083,24 @@
   "c": "country:FM"
  },
  {
+  "id": "landmark:nasir-al-mulk",
+  "t": "landmark",
+  "n": "Nasir-al-Mulk-Moschee",
+  "a": [
+   "Nasir al-Mulk Mosque"
+  ],
+  "c": "country:IR"
+ },
+ {
+  "id": "landmark:nazca-lines",
+  "t": "landmark",
+  "n": "Nazca-Linien",
+  "a": [
+   "Nazca Lines"
+  ],
+  "c": "country:PE"
+ },
+ {
   "id": "landmark:neuschwanstein",
   "t": "landmark",
   "n": "Schloss Neuschwanstein",
@@ -15456,6 +16108,24 @@
    "Neuschwanstein Castle"
   ],
   "c": "country:DE"
+ },
+ {
+  "id": "landmark:nizwa-fort",
+  "t": "landmark",
+  "n": "Festung Nizwa",
+  "a": [
+   "Nizwa Fort"
+  ],
+  "c": "country:OM"
+ },
+ {
+  "id": "landmark:old-sanaa",
+  "t": "landmark",
+  "n": "Altstadt von Sanaa",
+  "a": [
+   "Sanaa"
+  ],
+  "c": "country:YE"
  },
  {
   "id": "landmark:olympia",
@@ -15512,6 +16182,24 @@
    "Panama Canal"
   ],
   "c": "country:PA"
+ },
+ {
+  "id": "landmark:papua-parliament",
+  "t": "landmark",
+  "n": "Parlamentsgebäude Papua-Neuguinea",
+  "a": [
+   "National Parliament of Papua New Guinea"
+  ],
+  "c": "country:PG"
+ },
+ {
+  "id": "landmark:paramaribo-cathedral",
+  "t": "landmark",
+  "n": "Kathedrale St. Peter und Paul Paramaribo",
+  "a": [
+   "Saint Peter and Paul Cathedral, Paramaribo"
+  ],
+  "c": "country:SR"
  },
  {
   "id": "landmark:parliament-hill",
@@ -15579,6 +16267,15 @@
   "c": "country:IT"
  },
  {
+  "id": "landmark:pitch-lake",
+  "t": "landmark",
+  "n": "Pitch Lake",
+  "a": [
+   "Pitch Lake"
+  ],
+  "c": "country:TT"
+ },
+ {
   "id": "landmark:pompeii",
   "t": "landmark",
   "n": "Pompeji",
@@ -15625,6 +16322,15 @@
   "c": "country:CZ"
  },
  {
+  "id": "landmark:prambanan",
+  "t": "landmark",
+  "n": "Prambanan",
+  "a": [
+   "Prambanan"
+  ],
+  "c": "country:ID"
+ },
+ {
   "id": "landmark:pyramids",
   "t": "landmark",
   "n": "Pyramiden von Gizeh",
@@ -15654,6 +16360,15 @@
   "c": "country:UZ"
  },
  {
+  "id": "landmark:rijksmuseum",
+  "t": "landmark",
+  "n": "Rijksmuseum",
+  "a": [
+   "Rijksmuseum"
+  ],
+  "c": "country:NL"
+ },
+ {
   "id": "landmark:rila-monastery",
   "t": "landmark",
   "n": "Kloster Rila",
@@ -15670,6 +16385,15 @@
    "Robben Island"
   ],
   "c": "country:ZA"
+ },
+ {
+  "id": "landmark:rock-cashel",
+  "t": "landmark",
+  "n": "Rock of Cashel",
+  "a": [
+   "Rock of Cashel"
+  ],
+  "c": "country:IE"
  },
  {
   "id": "landmark:rock-islands",
@@ -15708,6 +16432,24 @@
    "Saint Basil's Cathedral"
   ],
   "c": "country:RU"
+ },
+ {
+  "id": "landmark:saint-sava-belgrade",
+  "t": "landmark",
+  "n": "Dom des Heiligen Sava",
+  "a": [
+   "Church of Saint Sava"
+  ],
+  "c": "country:RS"
+ },
+ {
+  "id": "landmark:saint-sophia-kyiv",
+  "t": "landmark",
+  "n": "Sophienkathedrale Kiew",
+  "a": [
+   "Saint Sophia Cathedral, Kyiv"
+  ],
+  "c": "country:UA"
  },
  {
   "id": "landmark:salar-de-uyuni",
@@ -15767,6 +16509,15 @@
   "c": "country:TZ"
  },
  {
+  "id": "landmark:shah-i-zinda",
+  "t": "landmark",
+  "n": "Shah-i-Zinda",
+  "a": [
+   "Shah-i-Zinda"
+  ],
+  "c": "country:UZ"
+ },
+ {
   "id": "landmark:sheikh-zayed-mosque",
   "t": "landmark",
   "n": "Scheich-Zayid-Moschee",
@@ -15794,6 +16545,15 @@
   "c": "country:LK"
  },
  {
+  "id": "landmark:sossusvlei",
+  "t": "landmark",
+  "n": "Sossusvlei",
+  "a": [
+   "Sossusvlei"
+  ],
+  "c": "country:NA"
+ },
+ {
   "id": "landmark:space-needle",
   "t": "landmark",
   "n": "Space Needle",
@@ -15811,6 +16571,33 @@
    "Speicherstadt und Kontorhausviertel"
   ],
   "c": "country:DE"
+ },
+ {
+  "id": "landmark:sri-siva-subramaniya",
+  "t": "landmark",
+  "n": "Sri-Siva-Subramaniya-Tempel",
+  "a": [
+   "Sri Siva Subramaniya temple"
+  ],
+  "c": "country:FJ"
+ },
+ {
+  "id": "landmark:st-john-valletta",
+  "t": "landmark",
+  "n": "St. John's Co-Kathedrale",
+  "a": [
+   "Saint John's Co-Cathedral"
+  ],
+  "c": "country:MT"
+ },
+ {
+  "id": "landmark:stari-most",
+  "t": "landmark",
+  "n": "Stari Most",
+  "a": [
+   "Stari Most"
+  ],
+  "c": "country:BA"
  },
  {
   "id": "landmark:stone-town",
@@ -15832,6 +16619,15 @@
   "c": "country:GB"
  },
  {
+  "id": "landmark:sugarloaf-mountain",
+  "t": "landmark",
+  "n": "Zuckerhut",
+  "a": [
+   "Sugarloaf Mountain"
+  ],
+  "c": "country:BR"
+ },
+ {
   "id": "landmark:sultan-qaboos-mosque",
   "t": "landmark",
   "n": "Sultan-Qabus-Moschee",
@@ -15839,6 +16635,15 @@
    "Sultan Qaboos Grand Mosque"
   ],
   "c": "country:OM"
+ },
+ {
+  "id": "landmark:suomenlinna",
+  "t": "landmark",
+  "n": "Festung Suomenlinna",
+  "a": [
+   "Suomenlinna"
+  ],
+  "c": "country:FI"
  },
  {
   "id": "landmark:sydney-harbour-bridge",
@@ -15914,6 +16719,42 @@
   "c": "country:CN"
  },
  {
+  "id": "landmark:tigers-nest",
+  "t": "landmark",
+  "n": "Tigernest-Kloster",
+  "a": [
+   "Paro Taktsang"
+  ],
+  "c": "country:BT"
+ },
+ {
+  "id": "landmark:tikal",
+  "t": "landmark",
+  "n": "Tikal",
+  "a": [
+   "Tikal"
+  ],
+  "c": "country:GT"
+ },
+ {
+  "id": "landmark:tiwanaku",
+  "t": "landmark",
+  "n": "Tiwanaku",
+  "a": [
+   "Tiwanaku"
+  ],
+  "c": "country:BO"
+ },
+ {
+  "id": "landmark:to-sua",
+  "t": "landmark",
+  "n": "To-Sua-Ozeangraben",
+  "a": [
+   "To Sua Ocean Trench"
+  ],
+  "c": "country:WS"
+ },
+ {
   "id": "landmark:tokyo-skytree",
   "t": "landmark",
   "n": "Tokyo Skytree",
@@ -15921,6 +16762,15 @@
    "Tokyo Skytree"
   ],
   "c": "country:JP"
+ },
+ {
+  "id": "landmark:tombs-kings-paphos",
+  "t": "landmark",
+  "n": "Königsgräber von Paphos",
+  "a": [
+   "Tombs of the Kings (Paphos)"
+  ],
+  "c": "country:CY"
  },
  {
   "id": "landmark:tongariro",
@@ -15932,6 +16782,15 @@
   "c": "country:NZ"
  },
  {
+  "id": "landmark:torres-del-paine",
+  "t": "landmark",
+  "n": "Torres del Paine",
+  "a": [
+   "Torres del Paine National Park"
+  ],
+  "c": "country:CL"
+ },
+ {
   "id": "landmark:tower-london",
   "t": "landmark",
   "n": "Tower of London",
@@ -15939,6 +16798,24 @@
    "Tower of London"
   ],
   "c": "country:GB"
+ },
+ {
+  "id": "landmark:trakai-castle",
+  "t": "landmark",
+  "n": "Inselburg Trakai",
+  "a": [
+   "Trakai Island Castle"
+  ],
+  "c": "country:LT"
+ },
+ {
+  "id": "landmark:trevi-fountain",
+  "t": "landmark",
+  "n": "Trevi-Brunnen",
+  "a": [
+   "Trevi Fountain"
+  ],
+  "c": "country:IT"
  },
  {
   "id": "landmark:troy",
@@ -15949,6 +16826,15 @@
    "Archäologische Stätte von Troja"
   ],
   "c": "country:TR"
+ },
+ {
+  "id": "landmark:tsodilo",
+  "t": "landmark",
+  "n": "Tsodilo",
+  "a": [
+   "Tsodilo"
+  ],
+  "c": "country:BW"
  },
  {
   "id": "landmark:twelve-apostles",
@@ -15979,6 +16865,24 @@
   "c": "country:ZA"
  },
  {
+  "id": "landmark:vallee-de-mai",
+  "t": "landmark",
+  "n": "Vallée de Mai",
+  "a": [
+   "Vallée de Mai"
+  ],
+  "c": "country:SC"
+ },
+ {
+  "id": "landmark:vasa-museum",
+  "t": "landmark",
+  "n": "Vasa-Museum",
+  "a": [
+   "Vasa Museum"
+  ],
+  "c": "country:SE"
+ },
+ {
   "id": "landmark:venice",
   "t": "landmark",
   "n": "Venedig und seine Lagune",
@@ -15998,6 +16902,15 @@
   "c": "country:FR"
  },
  {
+  "id": "landmark:vianden-castle",
+  "t": "landmark",
+  "n": "Burg Vianden",
+  "a": [
+   "Vianden Castle"
+  ],
+  "c": "country:LU"
+ },
+ {
   "id": "landmark:victoria-falls",
   "t": "landmark",
   "n": "Victoriafälle",
@@ -16006,6 +16919,15 @@
    "Mosi-oa-Tunya / Victoria Falls"
   ],
   "c": "country:ZM"
+ },
+ {
+  "id": "landmark:wadi-rum",
+  "t": "landmark",
+  "n": "Wadi Rum",
+  "a": [
+   "Wadi Rum"
+  ],
+  "c": "country:JO"
  },
  {
   "id": "landmark:wartburg",
@@ -16043,6 +16965,24 @@
    "Palace of Westminster und Westminster Abbey"
   ],
   "c": "country:GB"
+ },
+ {
+  "id": "landmark:xunantunich",
+  "t": "landmark",
+  "n": "Xunantunich",
+  "a": [
+   "Xunantunich"
+  ],
+  "c": "country:BZ"
+ },
+ {
+  "id": "landmark:zuma-rock",
+  "t": "landmark",
+  "n": "Zuma Rock",
+  "a": [
+   "Zuma Rock"
+  ],
+  "c": "country:NG"
  },
  {
   "id": "river:Q3392",

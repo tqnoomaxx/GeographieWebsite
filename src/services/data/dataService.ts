@@ -1,4 +1,4 @@
-import type { Country, DataIndex, Entity, Relationship } from '@/domain/types'
+import type { Country, DataIndex, Entity, Relationship, TriviaQuestion } from '@/domain/types'
 
 /**
  * Zentraler Zugriff auf die statischen Geodaten. Lädt lazy und cached im Speicher.
@@ -35,6 +35,7 @@ export const loadRivers = () => fetchJson<Entity[]>('entities/rivers.json').catc
 export const loadLakes = () => fetchJson<Entity[]>('entities/lakes.json').catch(() => [] as Entity[])
 export const loadMountains = () => fetchJson<Entity[]>('entities/mountains.json').catch(() => [] as Entity[])
 export const loadScriptWords = () => fetchJson<Entity[]>('entities/script-words.json')
+export const loadTrivia = () => fetchJson<TriviaQuestion[]>('entities/trivia.json')
 export const loadRelationships = () => fetchJson<Relationship[]>('relationships/index.json')
 export const loadWorld = () => fetchJson<GeoJSON.FeatureCollection>('geo/world.json')
 export const loadOutline = (iso2: string) => fetchJson<GeoJSON.Geometry>(`geo/outlines/${iso2}.json`)
@@ -83,6 +84,8 @@ export async function loadRegionMap(iso2: string): Promise<RegionMap | null> {
 export async function loadEntity(id: string): Promise<Entity | undefined> {
   const [type, rest] = id.split(':')
   switch (type) {
+    case 'trivia':
+      return (await loadTrivia()).find((question) => question.id === id)
     case 'country':
       return (await loadCountries()).find((c) => c.id === id)
     case 'city':
@@ -113,6 +116,8 @@ export async function loadEntity(id: string): Promise<Entity | undefined> {
 
 export async function loadEntitiesByType(type: Entity['type']): Promise<Entity[]> {
   switch (type) {
+    case 'trivia':
+      return loadTrivia()
     case 'country':
       return loadCountries()
     case 'city':

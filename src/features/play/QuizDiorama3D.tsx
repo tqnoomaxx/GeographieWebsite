@@ -1,6 +1,6 @@
-import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
+import { Suspense, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Canvas, useFrame, useThree, type ThreeEvent } from '@react-three/fiber'
-import { ContactShadows, RoundedBox } from '@react-three/drei'
+import { RoundedBox, useTexture } from '@react-three/drei'
 import { Link, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import type { TFunction } from 'i18next'
@@ -12,18 +12,31 @@ import {
   Globe2,
   Landmark,
   Languages,
+  Lightbulb,
   Mountain,
   Puzzle,
   Waves,
   type LucideIcon,
 } from 'lucide-react'
-import { CatmullRomCurve3, DoubleSide, MathUtils, Vector3, type Group } from 'three'
+import {
+  CatmullRomCurve3,
+  DoubleSide,
+  MathUtils,
+  OrthographicCamera,
+  SRGBColorSpace,
+  Vector3,
+  type Group,
+} from 'three'
 import { PLAY_QUIZZES, type QuizDef } from '@/config/quizzes'
 import type { CategoryId } from '@/engine/types'
 import type { PlayStationId, StationProgress, StationProgressMap } from './stationProgress'
+import { createRibbonGeometry, fitDioramaCamera } from './dioramaGeometry'
 
 type SceneId = PlayStationId
 type Vec3 = [number, number, number]
+
+const GROUND_SURFACE_Y = 0
+const WATER_SURFACE_Y = GROUND_SURFACE_Y + 0.15
 
 type Station = {
   id: SceneId
@@ -36,19 +49,21 @@ type Station = {
 }
 
 const PLACEMENTS: Partial<Record<CategoryId, { position: Vec3; hitbox: Vec3 }>> = {
-  license_plates: { position: [-6.05, 0.18, 3.05], hitbox: [2.9, 2, 2.1] },
-  countries: { position: [-4.55, 0, 0.1], hitbox: [2.3, 3.1, 2.3] },
-  mixed: { position: [-3.2, 0, 3.75], hitbox: [2.1, 1.2, 2.1] },
-  capitals: { position: [1.1, 0, 0.05], hitbox: [2.8, 2.7, 2.3] },
-  cities: { position: [3.15, 0, 1.15], hitbox: [3.2, 2.8, 2.7] },
-  water: { position: [0.15, 0.05, 3.7], hitbox: [4.2, 2.2, 2.8] },
-  landmarks: { position: [5.35, 0, 1.75], hitbox: [2.4, 3, 2.1] },
-  languages: { position: [5.9, 0, -1], hitbox: [2.6, 2.7, 2.2] },
-  flags: { position: [6.8, 0, -3.5], hitbox: [2, 3.8, 2] },
-  nature: { position: [2.7, 0, -3.95], hitbox: [4.4, 3.6, 2.8] },
+  trivia: { position: [-1.8, GROUND_SURFACE_Y, -2.65], hitbox: [2.5, 3.1, 2.3] },
+  license_plates: { position: [-6.05, GROUND_SURFACE_Y, 3.05], hitbox: [3.5, 2, 2.5] },
+  countries: { position: [-4.55, GROUND_SURFACE_Y, 0.1], hitbox: [2.3, 3.1, 2.3] },
+  mixed: { position: [-3.2, GROUND_SURFACE_Y, 3.75], hitbox: [2.1, 1.2, 2.1] },
+  capitals: { position: [1.1, GROUND_SURFACE_Y, 0.05], hitbox: [2.8, 2.7, 2.3] },
+  cities: { position: [3.15, GROUND_SURFACE_Y, 1.15], hitbox: [3.2, 2.8, 2.7] },
+  water: { position: [0.15, GROUND_SURFACE_Y, 3.7], hitbox: [4.2, 2.2, 2.8] },
+  landmarks: { position: [5.35, GROUND_SURFACE_Y, 1.75], hitbox: [2.4, 3, 2.1] },
+  languages: { position: [5.9, GROUND_SURFACE_Y, -1], hitbox: [2.6, 2.7, 2.2] },
+  flags: { position: [6.8, GROUND_SURFACE_Y, -3.5], hitbox: [2, 3.8, 2] },
+  nature: { position: [2.7, GROUND_SURFACE_Y, -3.95], hitbox: [4.4, 3.6, 2.8] },
 }
 
 const MENU_ICONS: Partial<Record<SceneId, LucideIcon>> = {
+  trivia: Lightbulb,
   flags: Flag,
   countries: Globe2,
   capitals: Landmark,
@@ -119,33 +134,20 @@ function useReducedMotion() {
   return reduced
 }
 
-function useCompactScene() {
-  const [compact, setCompact] = useState(() => window.matchMedia('(max-width: 700px)').matches)
-  useEffect(() => {
-    const media = window.matchMedia('(max-width: 700px)')
-    const update = () => setCompact(media.matches)
-    media.addEventListener('change', update)
-    return () => media.removeEventListener('change', update)
-  }, [])
-  return compact
-}
-
-function CameraSetup({ compact }: { compact: boolean }) {
+function CameraSetup() {
   const camera = useThree((state) => state.camera)
+  const size = useThree((state) => state.size)
+  const invalidate = useThree((state) => state.invalidate)
   useEffect(() => {
-    camera.position.set(12, 13.5, 16)
-    camera.lookAt(0, 0, 0)
-    if ('zoom' in camera) {
-      camera.zoom = compact ? 25 : 47
-      camera.updateProjectionMatrix()
-    }
-  }, [camera, compact])
+    if (camera instanceof OrthographicCamera) fitDioramaCamera(camera, size.width, size.height)
+    invalidate()
+  }, [camera, size.width, size.height, invalidate])
   return null
 }
 
 function Tree({ x, z, scale, height }: { x: number; z: number; scale: number; height: number }) {
   return (
-    <group position={[x, 0, z]} scale={scale}>
+    <group position={[x, GROUND_SURFACE_Y, z]} scale={scale}>
       <mesh position={[0, height * 0.36, 0]} castShadow>
         <cylinderGeometry args={[0.09, 0.12, height * 0.72, 7]} />
         <meshStandardMaterial color="#795c43" roughness={1} flatShading />
@@ -180,89 +182,134 @@ function Clouds({ moving }: { moving: boolean }) {
         [0.05, -0.03, 0.35],
       ].map(([cx, cy, cz], index) => (
         <mesh key={index} position={[cx, cy, cz]}>
-          <sphereGeometry args={[0.52, 10, 7]} />
-          <meshStandardMaterial color="#f5f1dd" transparent opacity={0.8} roughness={1} flatShading />
+          <sphereGeometry args={[0.52, 16, 12]} />
+          <meshStandardMaterial color="#fff9e9" roughness={1} />
         </mesh>
       ))}
     </group>
   )
   return (
     <group aria-hidden>
-      {cloud(-5.8, 5.1, -4.4, 0.9, first)}
-      {cloud(4.9, 4.4, -5.1, 0.72, second)}
+      {cloud(-5.8, 3.7, -4.4, 0.9, first)}
+      {cloud(4.9, 3.2, -5.1, 0.72, second)}
     </group>
   )
 }
 
+function Ribbon({
+  curve,
+  width,
+  y,
+  color,
+  water = false,
+}: {
+  curve: CatmullRomCurve3
+  width: number
+  y: number
+  color: string
+  water?: boolean
+}) {
+  const geometry = useMemo(() => createRibbonGeometry(curve, width, y), [curve, width, y])
+  useEffect(() => () => geometry.dispose(), [geometry])
+  return (
+    <mesh geometry={geometry} receiveShadow>
+      <meshStandardMaterial color={color} roughness={water ? 0.28 : 0.96} metalness={water ? 0.18 : 0} />
+    </mesh>
+  )
+}
+
 function RiverCourse({ points }: { points: Vector3[] }) {
-  const source = points[0]
+  const curve = useMemo(() => new CatmullRomCurve3(points), [points])
   return (
     <group>
-      {points.slice(0, -1).map((from, index) => {
-        const to = points[index + 1]
-        const dx = to.x - from.x
-        const dz = to.z - from.z
-        const length = Math.hypot(dx, dz)
-        const angle = -Math.atan2(dz, dx)
+      <Ribbon curve={curve} width={0.96} y={0.035} color="#b3ae83" />
+      <Ribbon curve={curve} width={0.67} y={WATER_SURFACE_Y} color="#4da6ae" water />
+      {[0.12, 0.3, 0.46, 0.66, 0.85].map((t) => {
+        const point = curve.getPoint(t)
+        const tangent = curve.getTangent(t)
         return (
-          <group
-            key={index}
-            position={[(from.x + to.x) / 2, 0.58, (from.z + to.z) / 2]}
-            rotation={[0, angle, 0]}
+          <mesh
+            key={t}
+            position={[point.x, WATER_SURFACE_Y + 0.006, point.z]}
+            rotation={[-Math.PI / 2, 0, -Math.atan2(tangent.z, tangent.x)]}
           >
-            <RoundedBox args={[length + 0.32, 0.42, 0.88]} radius={0.08} smoothness={2} receiveShadow>
-              <meshStandardMaterial color="#456b61" roughness={0.96} flatShading />
-            </RoundedBox>
-            <RoundedBox
-              args={[length + 0.36, 0.1, 0.62]}
-              radius={0.06}
-              smoothness={2}
-              position={[0, 0.24, 0]}
-              receiveShadow
-            >
-              <meshStandardMaterial color="#338ca4" roughness={0.24} metalness={0.12} flatShading />
-            </RoundedBox>
-            <mesh position={[-length * 0.08, 0.31, -0.08]}>
-              <boxGeometry args={[Math.max(0.35, length * 0.42), 0.018, 0.055]} />
-              <meshStandardMaterial color="#b7e4df" transparent opacity={0.76} roughness={0.15} />
-            </mesh>
-          </group>
+            <planeGeometry args={[0.28, 0.025]} />
+            <meshBasicMaterial color="#c6eae2" transparent opacity={0.7} depthWrite={false} />
+          </mesh>
         )
       })}
-      {points.slice(1, -1).map((point, index) => (
-        <group key={`bend-${index}`} position={[point.x, 0.58, point.z]}>
-          <mesh receiveShadow>
-            <cylinderGeometry args={[0.45, 0.48, 0.42, 12]} />
-            <meshStandardMaterial color="#456b61" roughness={0.96} flatShading />
-          </mesh>
-          <mesh position={[0, 0.24, 0]} receiveShadow>
-            <cylinderGeometry args={[0.32, 0.34, 0.1, 12]} />
-            <meshStandardMaterial color="#338ca4" roughness={0.24} metalness={0.12} flatShading />
+      {[-0.36, 0.36].map((x, index) => (
+        <mesh key={x} position={[points[0].x + x, 0.14, points[0].z]} scale={[0.32, 0.22, 0.3]} castShadow>
+          <dodecahedronGeometry args={[1, 0]} />
+          <meshStandardMaterial color={index ? '#8b9480' : '#9da08b'} roughness={1} flatShading />
+        </mesh>
+      ))}
+    </group>
+  )
+}
+
+function Bridge() {
+  return (
+    <group position={[-0.65, 0.24, 1.85]} rotation={[0, 0.38, 0]}>
+      {Array.from({ length: 9 }, (_, i) => (
+        <mesh key={i} position={[(i - 4) * 0.17, 0, 0]} castShadow receiveShadow>
+          <boxGeometry args={[0.16, 0.09, 0.72]} />
+          <meshStandardMaterial color={i % 2 ? '#c09b69' : '#caa876'} roughness={0.9} />
+        </mesh>
+      ))}
+      {[-0.39, 0.39].map((z) => (
+        <group key={z}>
+          {[-0.66, 0, 0.66].map((x) => (
+            <mesh key={x} position={[x, 0.18, z]} castShadow>
+              <boxGeometry args={[0.055, 0.43, 0.055]} />
+              <meshStandardMaterial color="#846b4d" roughness={0.9} />
+            </mesh>
+          ))}
+          <mesh position={[0, 0.35, z]} castShadow>
+            <boxGeometry args={[1.6, 0.055, 0.055]} />
+            <meshStandardMaterial color="#ad8a5c" roughness={0.9} />
           </mesh>
         </group>
       ))}
-      {source ? (
-        <group position={[source.x, 0.58, source.z]}>
-          <mesh receiveShadow>
-            <cylinderGeometry args={[0.46, 0.5, 0.42, 12]} />
-            <meshStandardMaterial color="#456b61" roughness={0.96} flatShading />
+    </group>
+  )
+}
+
+function LandscapeDetails() {
+  return (
+    <group>
+      {[
+        [-6.4, 1.25],
+        [-2.9, -2.25],
+        [0.5, -2.3],
+        [4.3, 3.25],
+        [6.8, -2],
+        [-5, -4.2],
+      ].map(([x, z], index) => (
+        <group key={index} position={[x, 0, z]}>
+          <mesh position={[0, 0.15, 0]} scale={[0.35, 0.22, 0.28]} castShadow>
+            <dodecahedronGeometry args={[1, 0]} />
+            <meshStandardMaterial color={index % 2 ? '#537a4e' : '#699453'} roughness={1} flatShading />
           </mesh>
-          <mesh position={[0, 0.24, 0]} receiveShadow>
-            <cylinderGeometry args={[0.33, 0.35, 0.1, 12]} />
-            <meshStandardMaterial color="#338ca4" roughness={0.24} metalness={0.12} flatShading />
-          </mesh>
-          {[
-            [-0.38, 0.34, -0.2, 0.28],
-            [0.34, 0.31, -0.12, 0.24],
-            [0.02, 0.38, -0.38, 0.32],
-          ].map(([x, y, z, scale], index) => (
-            <mesh key={index} position={[x, y, z]} scale={scale} castShadow>
-              <dodecahedronGeometry args={[1, 0]} />
-              <meshStandardMaterial color="#68746e" roughness={0.98} flatShading />
+          {[0, 1, 2].map((flower) => (
+            <mesh key={flower} position={[0.26 + flower * 0.09, 0.055, 0.08 + (flower % 2) * 0.13]}>
+              <sphereGeometry args={[0.045, 6, 4]} />
+              <meshStandardMaterial color={index % 2 ? '#f0d47a' : '#f1e7ce'} roughness={0.9} />
             </mesh>
           ))}
         </group>
-      ) : null}
+      ))}
+      {[
+        [1.8, -2.5],
+        [4.5, -2.4],
+        [-2.1, -4.6],
+        [1.6, 4.85],
+      ].map(([x, z], i) => (
+        <mesh key={i} position={[x, 0.12, z]} scale={[0.28, 0.18, 0.24]} castShadow>
+          <dodecahedronGeometry args={[1, 0]} />
+          <meshStandardMaterial color="#b8b49b" roughness={1} flatShading />
+        </mesh>
+      ))}
     </group>
   )
 }
@@ -271,12 +318,12 @@ function Ground() {
   const road = useMemo(
     () =>
       new CatmullRomCurve3([
-        new Vector3(-8.7, 0.07, 3.2),
+        new Vector3(-8.55, 0, 2.3),
         new Vector3(-5.1, 0.08, 2.15),
         new Vector3(-1.9, 0.08, 2.45),
         new Vector3(1.05, 0.08, 1.2),
         new Vector3(4.15, 0.08, 2.15),
-        new Vector3(8.5, 0.08, 0.9),
+        new Vector3(8.45, 0, 0.9),
       ]),
     [],
   )
@@ -298,35 +345,36 @@ function Ground() {
     <group>
       <RoundedBox
         args={[18.4, 0.75, 11.2]}
-        radius={0.65}
+        radius={0.32}
         smoothness={3}
         position={[0, -0.5, 0]}
         receiveShadow
+        castShadow
       >
-        <meshStandardMaterial color="#856f52" roughness={1} flatShading />
+        <meshStandardMaterial color="#9b8160" roughness={1} flatShading />
       </RoundedBox>
       <RoundedBox
         args={[17.9, 0.42, 10.7]}
-        radius={0.58}
+        radius={0.18}
         smoothness={3}
-        position={[0, -0.08, 0]}
+        position={[0, GROUND_SURFACE_Y - 0.21, 0]}
         receiveShadow
       >
-        <meshStandardMaterial color="#6f9767" roughness={0.98} flatShading />
+        <meshStandardMaterial color="#80a66d" roughness={0.98} flatShading />
       </RoundedBox>
-      <mesh position={[-5.35, 0.11, -1.75]} rotation={[0, 0.28, 0]} receiveShadow>
-        <cylinderGeometry args={[3.7, 4.05, 0.34, 9]} />
-        <meshStandardMaterial color="#7ca66f" roughness={1} flatShading />
+      <mesh position={[-5.35, GROUND_SURFACE_Y + 0.006, -1.75]} rotation={[0, 0.28, 0]} receiveShadow>
+        <cylinderGeometry args={[3.35, 3.35, 0.012, 9]} />
+        <meshStandardMaterial color="#8eb878" roughness={1} flatShading />
       </mesh>
-      <mesh position={[3.75, 0.13, -1.2]} rotation={[0, -0.18, 0]} receiveShadow>
-        <cylinderGeometry args={[4.1, 4.45, 0.38, 10]} />
-        <meshStandardMaterial color="#759d68" roughness={1} flatShading />
+      <mesh position={[3.75, GROUND_SURFACE_Y + 0.007, -1.2]} rotation={[0, -0.18, 0]} receiveShadow>
+        <cylinderGeometry args={[4, 4, 0.014, 10]} />
+        <meshStandardMaterial color="#86ae72" roughness={1} flatShading />
       </mesh>
-      <mesh receiveShadow>
-        <tubeGeometry args={[road, 80, 0.25, 8, false]} />
-        <meshStandardMaterial color="#d5c7a5" roughness={0.9} />
-      </mesh>
+      <Ribbon curve={road} width={0.6} y={0.025} color="#bfad85" />
+      <Ribbon curve={road} width={0.45} y={0.03} color="#eee1bb" />
       <RiverCourse points={riverPoints} />
+      <Bridge />
+      <LandscapeDetails />
       {TREE_POSITIONS.map(([x, z, scale, height], index) => (
         <Tree key={index} x={x} z={z} scale={scale} height={height} />
       ))}
@@ -337,9 +385,9 @@ function Ground() {
 function material(color: string, active: boolean, metalness = 0) {
   return (
     <meshStandardMaterial
-      color={active ? '#f0cc78' : color}
-      emissive={active ? '#8ccfc4' : '#000000'}
-      emissiveIntensity={active ? 0.3 : 0}
+      color={color}
+      emissive={active ? '#d3aa59' : '#000000'}
+      emissiveIntensity={active ? 0.17 : 0}
       roughness={0.72}
       metalness={metalness}
       flatShading
@@ -371,15 +419,24 @@ function Observatory({ active }: { active: boolean }) {
 }
 
 function GlobeStation({ active }: { active: boolean }) {
+  const texture = useTexture(`${import.meta.env.BASE_URL}media/illustrations/diorama-globe.svg`, (loaded) => {
+    loaded.colorSpace = SRGBColorSpace
+  })
   return (
     <group>
-      <mesh position={[0, 0.35, 0]} castShadow>
+      <mesh position={[0, 0.12, 0]} castShadow>
         {material('#d5c4a0', active)}
         <cylinderGeometry args={[0.55, 0.8, 0.24, 10]} />
       </mesh>
       <mesh position={[0, 1.35, 0]} castShadow>
-        {material('#438a8e', active, 0.08)}
-        <sphereGeometry args={[0.92, 14, 10]} />
+        <meshStandardMaterial
+          map={texture}
+          roughness={0.65}
+          metalness={0.06}
+          emissive="#d3aa59"
+          emissiveIntensity={active ? 0.15 : 0}
+        />
+        <sphereGeometry args={[0.92, 40, 28]} />
       </mesh>
       <mesh position={[0, 1.35, 0]} rotation={[Math.PI / 2, 0.2, 0]}>
         {material('#e8d69b', active, 0.25)}
@@ -460,6 +517,20 @@ function CityStation({ active }: { active: boolean }) {
             {material('#4f625b', active)}
             <coneGeometry args={[0.48, 0.32, 4]} />
           </mesh>
+          {Array.from({ length: Math.floor(height / 0.34) }, (_, row) => (
+            <group key={row} position={[0, 0.26 + row * 0.32, 0]}>
+              {[-0.14, 0.14].map((wx) => (
+                <mesh key={wx} position={[wx, 0, 0.332]}>
+                  <boxGeometry args={[0.095, 0.13, 0.018]} />
+                  <meshStandardMaterial color="#f4dfaa" roughness={0.7} />
+                </mesh>
+              ))}
+              <mesh position={[0.284, 0, 0.05]}>
+                <boxGeometry args={[0.018, 0.13, 0.14]} />
+                <meshStandardMaterial color="#f4dfaa" roughness={0.7} />
+              </mesh>
+            </group>
+          ))}
         </group>
       ))}
     </group>
@@ -568,20 +639,28 @@ function MountainStation({ active }: { active: boolean }) {
 function WaterStation({ active }: { active: boolean }) {
   return (
     <group>
-      <mesh position={[0, 0.5, 0]} scale={[2.05, 1, 1.3]} receiveShadow>
+      <mesh position={[0, 0.065, 0]} scale={[2.05, 1, 1.3]} receiveShadow>
         {material('#456f69', active)}
-        <cylinderGeometry args={[1.08, 1.16, 0.8, 20]} />
+        <cylinderGeometry args={[1.08, 1.16, 0.13, 32]} />
       </mesh>
-      <mesh position={[0, 0.9, 0]} scale={[1.88, 1, 1.18]} receiveShadow>
-        {material('#3f91a5', active, 0.14)}
-        <cylinderGeometry args={[1.04, 1.08, 0.1, 20]} />
+      <mesh position={[0, WATER_SURFACE_Y - 0.015, 0]} scale={[1.88, 1, 1.18]} receiveShadow>
+        {material('#4da6ae', active, 0.18)}
+        <cylinderGeometry args={[1.04, 1.08, 0.03, 32]} />
+      </mesh>
+      <mesh
+        position={[0.25, WATER_SURFACE_Y + 0.008, 0.1]}
+        rotation={[-Math.PI / 2, 0, 0]}
+        scale={[1.45, 0.8, 1]}
+      >
+        <ringGeometry args={[0.46, 0.48, 48]} />
+        <meshBasicMaterial color="#c6eae2" transparent opacity={0.55} depthWrite={false} />
       </mesh>
       {[
         [-1.5, 0.65],
         [1.45, 0.52],
         [1.65, -0.35],
       ].map(([x, z], index) => (
-        <group key={index} position={[x, 0.98, z]}>
+        <group key={index} position={[x, WATER_SURFACE_Y, z]}>
           {[-0.1, 0.1].map((offset) => (
             <mesh key={offset} position={[offset, 0.18, 0]} rotation={[0, 0, offset * 1.5]}>
               {material('#4e7655', active)}
@@ -597,20 +676,25 @@ function WaterStation({ active }: { active: boolean }) {
 function CarStation({ active }: { active: boolean }) {
   return (
     <group rotation={[0, -0.3, 0]} scale={0.94}>
-      <mesh position={[0, 0.04, 0]} receiveShadow castShadow>
+      <mesh position={[0, 0.06, 0]} receiveShadow castShadow>
         {material('#d1c19a', active)}
-        <boxGeometry args={[3.35, 0.18, 2.02]} />
+        <boxGeometry args={[4.5, 0.12, 3.3]} />
       </mesh>
-      <RoundedBox args={[3.08, 0.1, 1.78]} radius={0.06} smoothness={2} position={[0, 0.14, 0]} receiveShadow>
+      <mesh position={[0, 0.14, 0]} receiveShadow>
         {material('#4f5d59', active)}
-      </RoundedBox>
-      {[-0.72, 0.72].map((z) => (
-        <mesh key={z} position={[0, 0.205, z]} receiveShadow>
+        <boxGeometry args={[4.22, 0.08, 3.02]} />
+      </mesh>
+      {[-1.25, 0, 1.25].map((z) => (
+        <mesh key={z} position={[0, 0.188, z]} receiveShadow>
           {material('#fff5d6', active)}
-          <boxGeometry args={[2.45, 0.025, 0.06]} />
+          <boxGeometry args={[3.76, 0.018, 0.065]} />
         </mesh>
       ))}
-      <group position={[0, 0.11, 0]}>
+      <mesh position={[-1.88, 0.188, 0]} receiveShadow>
+        {material('#fff5d6', active)}
+        <boxGeometry args={[0.065, 0.018, 2.56]} />
+      </mesh>
+      <group position={[0, 0.11, -0.62]}>
         <RoundedBox args={[2.25, 0.5, 1]} radius={0.13} smoothness={2} position={[0, 0.52, 0]} castShadow>
           {material('#bd5144', active, 0.12)}
         </RoundedBox>
@@ -654,25 +738,17 @@ function CarStation({ active }: { active: boolean }) {
             </group>
           )),
         )}
-        {[-0.72, 0.72].flatMap((x) =>
-          [-0.6, 0.6].map((z) => (
-            <mesh key={`ring-${x}-${z}`} position={[x, 0.46, z]} castShadow>
-              <torusGeometry args={[0.23, 0.1, 8, 16]} />
-              <meshStandardMaterial color="#151a19" roughness={0.92} flatShading />
-            </mesh>
-          )),
-        )}
         {[-0.3, 0.3].map((z) => (
-          <mesh key={z} position={[1.13, 0.57, z]} rotation={[0, Math.PI / 2, 0]}>
+          <mesh key={z} position={[1.13, 0.57, z]}>
             {material('#ffe4a0', active, 0.2)}
             <boxGeometry args={[0.05, 0.16, 0.18]} />
           </mesh>
         ))}
-        <mesh position={[1.16, 0.43, 0]} rotation={[0, Math.PI / 2, 0]}>
+        <mesh position={[1.16, 0.43, 0]}>
           <meshStandardMaterial color="#f5edd6" roughness={0.65} />
           <boxGeometry args={[0.045, 0.18, 0.48]} />
         </mesh>
-        <mesh position={[1.185, 0.43, 0]} rotation={[0, Math.PI / 2, 0]}>
+        <mesh position={[1.185, 0.43, 0]}>
           <meshStandardMaterial color="#26302e" roughness={0.65} />
           <boxGeometry args={[0.02, 0.07, 0.28]} />
         </mesh>
@@ -683,6 +759,8 @@ function CarStation({ active }: { active: boolean }) {
 
 function BaseStationModel({ id, active }: { id: SceneId; active: boolean }) {
   switch (id) {
+    case 'trivia':
+      return <TriviaStation active={active} />
     case 'daily':
       return <Observatory active={active} />
     case 'countries':
@@ -746,6 +824,25 @@ function StationUpgrades({
   active: boolean
 }) {
   switch (id) {
+    case 'trivia':
+      return (
+        <group>
+          {level >= 1 ? <SmallBuilding position={[-0.82, 0, 0.35]} height={0.65} color="#74959b" active={active} /> : null}
+          {level >= 2 ? <SmallBuilding position={[0.82, 0, 0.35]} height={0.85} color="#d1aa70" active={active} /> : null}
+          {level >= 3 ? (
+            <mesh position={[0, 2.15, 0]} rotation={[Math.PI / 2, 0.3, 0]} castShadow>
+              {material('#b58b45', active, 0.35)}
+              <torusGeometry args={[0.67, 0.045, 8, 32]} />
+            </mesh>
+          ) : null}
+          {level >= 4 ? (
+            <mesh position={[0, 0.15, 0]} rotation={[-Math.PI / 2, 0, 0]}>
+              {material('#e0bd65', active, 0.35)}
+              <torusGeometry args={[1.06, 0.07, 8, 32]} />
+            </mesh>
+          ) : null}
+        </group>
+      )
     case 'daily':
       return (
         <group>
@@ -1052,7 +1149,7 @@ function StationUpgrades({
       )
     case 'water':
       return (
-        <group>
+        <group position={[0, -0.8, 0]}>
           {level >= 1 ? (
             <mesh position={[-0.9, 1.02, 0.5]} rotation={[0, 0.25, 0]} castShadow>
               {material('#826849', active)}
@@ -1154,7 +1251,6 @@ function InteractiveStation({
   celebrating,
   reducedMotion,
   onActivate,
-  onDeactivate,
   onOpen,
 }: {
   station: Station
@@ -1162,10 +1258,10 @@ function InteractiveStation({
   celebrating: boolean
   reducedMotion: boolean
   onActivate: () => void
-  onDeactivate: () => void
   onOpen: () => void
 }) {
   const model = useRef<Group>(null)
+  const canvas = useThree((state) => state.gl.domElement)
   useFrame((_state, delta) => {
     const group = model.current
     if (!group) return
@@ -1176,38 +1272,56 @@ function InteractiveStation({
 
   const hover = (event: ThreeEvent<PointerEvent>) => {
     event.stopPropagation()
-    if (event.nativeEvent.pointerType !== 'touch') onActivate()
+    if (event.nativeEvent.pointerType !== 'touch') {
+      canvas.style.cursor = 'pointer'
+      onActivate()
+    }
   }
 
   const click = (event: ThreeEvent<MouseEvent>) => {
     event.stopPropagation()
-    const touchLike = window.matchMedia('(hover: none), (pointer: coarse)').matches
+    const touchLike =
+      'pointerType' in event.nativeEvent
+        ? event.nativeEvent.pointerType === 'touch'
+        : window.matchMedia('(hover: none), (pointer: coarse)').matches
     if (touchLike && !active) {
       onActivate()
       return
     }
+    canvas.style.cursor = ''
     onOpen()
   }
 
   const leave = (event: ThreeEvent<PointerEvent>) => {
     event.stopPropagation()
-    if (event.nativeEvent.pointerType !== 'touch') onDeactivate()
+    canvas.style.cursor = ''
   }
 
   return (
-    <group position={station.position}>
+    <group
+      name={`station-${station.id}`}
+      position={station.position}
+      onPointerOver={hover}
+      onPointerOut={leave}
+      onClick={click}
+    >
       <group ref={model}>
         <StationModel id={station.id} active={active || celebrating} level={station.progress?.level ?? 0} />
       </group>
-      <mesh
-        position={[0, station.hitbox[1] / 2, 0]}
-        onPointerOver={hover}
-        onPointerOut={leave}
-        onClick={click}
-      >
-        <boxGeometry args={station.hitbox} />
+      <mesh position={[0, 0.06, 0]}>
+        <boxGeometry args={[station.hitbox[0], 0.12, station.hitbox[2]]} />
         <meshBasicMaterial transparent opacity={0} depthWrite={false} />
       </mesh>
+      {active ? (
+        <mesh
+          position={[0, 0.025, 0]}
+          rotation={[-Math.PI / 2, 0, 0]}
+          scale={[station.hitbox[0] / 2, station.hitbox[2] / 2, 1]}
+        >
+          <ringGeometry args={[0.94, 1, 48]} />
+          <meshBasicMaterial color="#f5d87a" transparent opacity={0.9} depthWrite={false} />
+        </mesh>
+      ) : null}
       {active || celebrating ? (
         <pointLight
           position={[0, 2.3, 0]}
@@ -1232,34 +1346,40 @@ function DioramaScene({
   active,
   celebrating,
   reducedMotion,
-  compact,
   moving,
   onActive,
   onOpen,
+  onReady,
 }: {
   stations: Station[]
   active?: SceneId
   celebrating?: SceneId
   reducedMotion: boolean
-  compact: boolean
   moving: boolean
   onActive: (id?: SceneId) => void
   onOpen: (href: string) => void
+  onReady: (ready: boolean) => void
 }) {
+  useEffect(() => onReady(true), [onReady])
   const daily = stations.find((station) => station.id === 'daily')
   return (
     <>
-      <CameraSetup compact={compact} />
-      <color attach="background" args={['#b9d3d0']} />
-      <fog attach="fog" args={['#b9d3d0', 18, 34]} />
-      <hemisphereLight args={['#eef6e8', '#4a5545', 2.1]} />
+      <CameraSetup />
+      <color attach="background" args={['#dce7df']} />
+      <fog attach="fog" args={['#dce7df', 50, 90]} />
+      <hemisphereLight args={['#fff8e5', '#63806d', 1.5]} />
+      <directionalLight position={[8, 7, -8]} intensity={0.65} color="#d6eaf4" />
       <directionalLight
         position={[-6, 13, 8]}
-        intensity={3.1}
+        intensity={2.6}
         color="#fff0c8"
         castShadow
-        shadow-mapSize-width={1024}
-        shadow-mapSize-height={1024}
+        shadow-mapSize-width={2048}
+        shadow-mapSize-height={2048}
+        shadow-bias={-0.0002}
+        shadow-normalBias={0.025}
+        shadow-camera-near={1}
+        shadow-camera-far={45}
         shadow-camera-left={-12}
         shadow-camera-right={12}
         shadow-camera-top={10}
@@ -1274,7 +1394,6 @@ function DioramaScene({
           celebrating={celebrating === 'daily'}
           reducedMotion={reducedMotion}
           onActivate={() => onActive('daily')}
-          onDeactivate={() => onActive(undefined)}
           onOpen={() => onOpen('/daily')}
         />
       ) : null}
@@ -1288,19 +1407,13 @@ function DioramaScene({
             celebrating={celebrating === station.id}
             reducedMotion={reducedMotion}
             onActivate={() => onActive(station.id)}
-            onDeactivate={() => onActive(undefined)}
             onOpen={() => onOpen(station.href)}
           />
         ))}
-      <ContactShadows
-        position={[0, -0.01, 0]}
-        opacity={0.34}
-        scale={20}
-        blur={2.8}
-        far={9}
-        resolution={512}
-        frames={1}
-      />
+      <mesh position={[0, -1.02, 0]} rotation={[-Math.PI / 2, 0, 0]} receiveShadow>
+        <planeGeometry args={[200, 200]} />
+        <meshStandardMaterial color="#dce7df" roughness={1} />
+      </mesh>
       <mesh position={[0, -0.9, 0]} rotation={[-Math.PI / 2, 0, 0]} onClick={() => onActive(undefined)}>
         <planeGeometry args={[26, 19]} />
         <meshBasicMaterial transparent opacity={0} side={DoubleSide} depthWrite={false} />
@@ -1326,8 +1439,8 @@ export default function QuizDiorama3D({
   const navigate = useNavigate()
   const rootRef = useRef<HTMLDivElement>(null)
   const reducedMotion = useReducedMotion()
-  const compact = useCompactScene()
   const [active, setActive] = useState<SceneId>()
+  const [sceneReady, setSceneReady] = useState(false)
   const [inView, setInView] = useState(true)
   const [pageVisible, setPageVisible] = useState(!document.hidden)
 
@@ -1352,7 +1465,7 @@ export default function QuizDiorama3D({
         label: t('daily.title'),
         detail: t('play.daily_count'),
         progress: progress?.daily,
-        position: [-6.45, 0, -2.45] as Vec3,
+        position: [-6.45, GROUND_SURFACE_Y, -2.45] as Vec3,
         hitbox: [2.4, 3.1, 2.2] as Vec3,
       },
     ]
@@ -1384,8 +1497,12 @@ export default function QuizDiorama3D({
       data-active-station={active}
       data-upgrade-station={celebrating}
       data-motion={motionEnabled ? 'running' : 'paused'}
+      onKeyDown={(event) => {
+        if (event.key === 'Escape') setActive(undefined)
+      }}
       role="application"
       aria-label={t('play.diorama_label')}
+      aria-busy={!sceneReady}
     >
       <div className="quiz-diorama-canvas" aria-hidden="true">
         <Canvas
@@ -1393,21 +1510,23 @@ export default function QuizDiorama3D({
           shadows
           dpr={[1, 1.5]}
           frameloop={motionEnabled ? 'always' : 'demand'}
-          camera={{ position: [12, 13.5, 16], zoom: compact ? 25 : 47, near: 0.1, far: 80 }}
+          camera={{ position: [12, 13.5, 16], zoom: 1, near: 0.1, far: 80 }}
           gl={{ antialias: true, alpha: false, powerPreference: 'high-performance' }}
           fallback={<SceneFallback>{t('play.diorama_unavailable')}</SceneFallback>}
           onPointerMissed={() => setActive(undefined)}
         >
-          <DioramaScene
-            stations={stations}
-            active={active}
-            celebrating={celebrating}
-            reducedMotion={reducedMotion}
-            compact={compact}
-            moving={motionEnabled}
-            onActive={setActive}
-            onOpen={navigate}
-          />
+          <Suspense fallback={null}>
+            <DioramaScene
+              stations={stations}
+              active={active}
+              celebrating={celebrating}
+              reducedMotion={reducedMotion}
+              moving={motionEnabled}
+              onActive={setActive}
+              onOpen={navigate}
+              onReady={setSceneReady}
+            />
+          </Suspense>
         </Canvas>
       </div>
 
@@ -1457,9 +1576,7 @@ export default function QuizDiorama3D({
                 .join(', ')}
               title={station.label}
               onPointerEnter={() => setActive(station.id)}
-              onPointerLeave={() => setActive(undefined)}
               onFocus={() => setActive(station.id)}
-              onBlur={() => setActive(undefined)}
             >
               <Icon strokeWidth={1.7} aria-hidden />
               {celebrating === station.id ? (

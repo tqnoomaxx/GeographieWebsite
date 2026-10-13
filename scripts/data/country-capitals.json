@@ -1,0 +1,4375 @@
+{
+ "checked_at": "2026-10-13",
+ "countries": {
+  "AD": {
+   "entries": [
+    {
+     "name": "Andorra la Vella",
+     "aliases": [],
+     "city": "city:AD-andorra-la-vella",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q228",
+     "location": {
+      "lon": 1.522222222,
+      "lat": 42.507222222
+     }
+    }
+   ]
+  },
+  "AE": {
+   "entries": [
+    {
+     "name": "Abu Dhabi",
+     "aliases": [],
+     "city": "city:AE-abu-dhabi",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q878",
+     "location": {
+      "lon": 54.396944444,
+      "lat": 24.451111111
+     }
+    }
+   ]
+  },
+  "AF": {
+   "entries": [
+    {
+     "name": "Kabul",
+     "aliases": [],
+     "city": "city:AF-kabul",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q889",
+     "location": {
+      "lon": 69.165833333,
+      "lat": 34.532777777
+     }
+    }
+   ]
+  },
+  "AG": {
+   "entries": [
+    {
+     "name": "Saint John's",
+     "aliases": [],
+     "city": "city:AG-saint-john-s",
+     "role": "capital",
+     "quiz": true,
+     "source": "mledoze/countries",
+     "source_url": "https://github.com/mledoze/countries"
+    }
+   ]
+  },
+  "AI": {
+   "entries": [
+    {
+     "name": "The Valley",
+     "aliases": [],
+     "city": "city:AI-the-valley",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q25228",
+     "location": {
+      "lon": -63.051666666,
+      "lat": 18.220833333
+     }
+    }
+   ]
+  },
+  "AL": {
+   "entries": [
+    {
+     "name": "Tirana",
+     "aliases": [],
+     "city": "city:AL-tirana",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q222",
+     "location": {
+      "lon": 19.818055555,
+      "lat": 41.328333333
+     }
+    }
+   ]
+  },
+  "AM": {
+   "entries": [
+    {
+     "name": "Jerewan",
+     "aliases": [
+      "Yerevan"
+     ],
+     "city": "city:AM-yerevan",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q399",
+     "location": {
+      "lon": 44.514444444,
+      "lat": 40.181388888
+     }
+    }
+   ]
+  },
+  "AO": {
+   "entries": [
+    {
+     "name": "Luanda",
+     "aliases": [],
+     "city": "city:AO-luanda",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q916",
+     "location": {
+      "lon": 13.234444444,
+      "lat": -8.838333333
+     }
+    }
+   ]
+  },
+  "AR": {
+   "entries": [
+    {
+     "name": "Buenos Aires",
+     "aliases": [],
+     "city": "city:AR-buenos-aires",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q414",
+     "location": {
+      "lon": -58.381944444,
+      "lat": -34.599722222
+     }
+    }
+   ]
+  },
+  "AS": {
+   "entries": [
+    {
+     "name": "Pago Pago",
+     "aliases": [],
+     "city": "city:AS-pago-pago",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q16641",
+     "location": {
+      "lon": -170.700555555,
+      "lat": -14.279444444
+     }
+    }
+   ]
+  },
+  "AT": {
+   "entries": [
+    {
+     "name": "Wien",
+     "aliases": [
+      "Vienna"
+     ],
+     "city": "city:AT-wien",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q40",
+     "location": {
+      "lon": 16.3725,
+      "lat": 48.208333333
+     }
+    }
+   ]
+  },
+  "AU": {
+   "entries": [
+    {
+     "name": "Canberra",
+     "aliases": [],
+     "city": "city:AU-canberra",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q408",
+     "location": {
+      "lon": 149.126944444,
+      "lat": -35.293055555
+     }
+    }
+   ]
+  },
+  "AW": {
+   "entries": [
+    {
+     "name": "Oranjestad",
+     "aliases": [],
+     "city": "city:AW-oranjestad",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q21203",
+     "location": {
+      "lon": -70.035833333,
+      "lat": 12.518611111
+     }
+    }
+   ]
+  },
+  "AX": {
+   "entries": [
+    {
+     "name": "Mariehamn",
+     "aliases": [],
+     "city": "city:AX-mariehamn",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q5689",
+     "location": {
+      "lon": 19.94444444,
+      "lat": 60.09861111
+     }
+    }
+   ]
+  },
+  "AZ": {
+   "entries": [
+    {
+     "name": "Baku",
+     "aliases": [],
+     "city": "city:AZ-baku",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q227",
+     "location": {
+      "lon": 49.835183333,
+      "lat": 40.366655555
+     }
+    }
+   ]
+  },
+  "BA": {
+   "entries": [
+    {
+     "name": "Sarajevo",
+     "aliases": [],
+     "city": "city:BA-sarajevo",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q225",
+     "location": {
+      "lon": 18.413055555,
+      "lat": 43.856388888
+     }
+    }
+   ]
+  },
+  "BB": {
+   "entries": [
+    {
+     "name": "Bridgetown",
+     "aliases": [],
+     "city": "city:BB-bridgetown",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q244",
+     "location": {
+      "lon": -59.616666666,
+      "lat": 13.0975
+     }
+    }
+   ]
+  },
+  "BD": {
+   "entries": [
+    {
+     "name": "Dhaka",
+     "aliases": [],
+     "city": "city:BD-dhaka",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q902",
+     "location": {
+      "lon": 90.394444444,
+      "lat": 23.728888888
+     }
+    }
+   ]
+  },
+  "BE": {
+   "entries": [
+    {
+     "name": "Brüssel",
+     "aliases": [
+      "Brussels"
+     ],
+     "city": "city:BE-brussel",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q31",
+     "location": {
+      "lon": 4.351666666,
+      "lat": 50.846666666
+     }
+    }
+   ]
+  },
+  "BF": {
+   "entries": [
+    {
+     "name": "Ouagadougou",
+     "aliases": [],
+     "city": "city:BF-ouagadougou",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q965",
+     "location": {
+      "lon": -1.5275,
+      "lat": 12.368611111
+     }
+    }
+   ]
+  },
+  "BG": {
+   "entries": [
+    {
+     "name": "Sofia",
+     "aliases": [],
+     "city": "city:BG-sofia",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q219",
+     "location": {
+      "lon": 23.321726,
+      "lat": 42.697886
+     }
+    }
+   ]
+  },
+  "BH": {
+   "entries": [
+    {
+     "name": "Manama",
+     "aliases": [],
+     "city": "city:BH-manama",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q398",
+     "location": {
+      "lon": 50.583333333,
+      "lat": 26.216666666
+     }
+    }
+   ]
+  },
+  "BI": {
+   "entries": [
+    {
+     "name": "Gitega",
+     "aliases": [],
+     "city": "city:BI-gitega",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q967",
+     "location": {
+      "lon": 29.925,
+      "lat": -3.428333333
+     }
+    }
+   ],
+   "note": "Gitega ist seit 2019 die politische Hauptstadt. Bujumbura ist die frühere Hauptstadt und weiterhin ein wirtschaftliches Zentrum."
+  },
+  "BJ": {
+   "entries": [
+    {
+     "name": "Porto-Novo",
+     "aliases": [],
+     "city": "city:BJ-porto-novo",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q962",
+     "location": {
+      "lon": 2.616666666,
+      "lat": 6.483333333
+     }
+    },
+    {
+     "name": "Cotonou",
+     "role": "government_seat",
+     "quiz": false,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q962",
+     "aliases": [],
+     "location": {
+      "lon": 2.416666666,
+      "lat": 6.366666666
+     },
+     "city": "city:BJ-cotonou"
+    }
+   ]
+  },
+  "BL": {
+   "entries": [
+    {
+     "name": "Gustavia",
+     "aliases": [],
+     "city": "city:BL-gustavia",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q25362",
+     "location": {
+      "lon": -62.849166666,
+      "lat": 17.898611111
+     }
+    }
+   ]
+  },
+  "BM": {
+   "entries": [
+    {
+     "name": "Hamilton",
+     "aliases": [],
+     "city": "city:BM-hamilton",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q23635",
+     "location": {
+      "lon": -64.783055555,
+      "lat": 32.295
+     }
+    }
+   ]
+  },
+  "BN": {
+   "entries": [
+    {
+     "name": "Bandar Seri Begawan",
+     "aliases": [],
+     "city": "city:BN-bandar-seri-begawan",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q921",
+     "location": {
+      "lon": 114.916666666,
+      "lat": 4.916666666
+     }
+    }
+   ]
+  },
+  "BO": {
+   "entries": [
+    {
+     "name": "Sucre",
+     "role": "constitutional",
+     "quiz": true,
+     "source": "Cámara de Diputados de Bolivia",
+     "source_url": "https://diputados.gob.bo/noticias/historica-sesion-de-la-asamblea-legislativa-en-la-capital-constitucional-de-bolivia/",
+     "aliases": [],
+     "location": {
+      "lon": -65.26,
+      "lat": -19.0475
+     },
+     "city": "city:BO-sucre"
+    },
+    {
+     "name": "La Paz",
+     "role": "government_seat",
+     "quiz": false,
+     "source": "Cámara de Diputados de Bolivia",
+     "source_url": "https://diputados.gob.bo/noticias/historica-sesion-de-la-asamblea-legislativa-en-la-capital-constitucional-de-bolivia/",
+     "aliases": [],
+     "location": {
+      "lon": -68.133333333,
+      "lat": -16.495833333
+     },
+     "city": "city:BO-la-paz"
+    }
+   ],
+   "note": "Sucre ist die in der Verfassung festgelegte Hauptstadt; La Paz ist der Regierungssitz und nicht eine zweite verfassungsmäßige Hauptstadt."
+  },
+  "BQ": {
+   "entries": [
+    {
+     "name": "Kralendijk",
+     "aliases": [],
+     "city": "city:BQ-kralendijk",
+     "role": "capital",
+     "quiz": true,
+     "source": "mledoze/countries",
+     "source_url": "https://github.com/mledoze/countries"
+    }
+   ]
+  },
+  "BR": {
+   "entries": [
+    {
+     "name": "Brasília",
+     "aliases": [],
+     "city": "city:BR-brasilia",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q155",
+     "location": {
+      "lon": -47.882777777,
+      "lat": -15.793888888
+     }
+    }
+   ]
+  },
+  "BS": {
+   "entries": [
+    {
+     "name": "Nassau",
+     "aliases": [],
+     "city": "city:BS-nassau",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q778",
+     "location": {
+      "lon": -77.338611111,
+      "lat": 25.078055555
+     }
+    }
+   ]
+  },
+  "BT": {
+   "entries": [
+    {
+     "name": "Thimphu",
+     "aliases": [],
+     "city": "city:BT-thimphu",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q917",
+     "location": {
+      "lon": 89.63367,
+      "lat": 27.47135
+     }
+    }
+   ]
+  },
+  "BW": {
+   "entries": [
+    {
+     "name": "Gaborone",
+     "aliases": [],
+     "city": "city:BW-gaborone",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q963",
+     "location": {
+      "lon": 25.908611111,
+      "lat": -24.656944444
+     }
+    }
+   ]
+  },
+  "BY": {
+   "entries": [
+    {
+     "name": "Minsk",
+     "aliases": [],
+     "city": "city:BY-minsk",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q184",
+     "location": {
+      "lon": 27.561837,
+      "lat": 53.902246
+     }
+    }
+   ]
+  },
+  "BZ": {
+   "entries": [
+    {
+     "name": "Belmopan",
+     "aliases": [],
+     "city": "city:BZ-belmopan",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q242",
+     "location": {
+      "lon": -88.7675,
+      "lat": 17.25
+     }
+    }
+   ]
+  },
+  "CA": {
+   "entries": [
+    {
+     "name": "Ottawa",
+     "aliases": [],
+     "city": "city:CA-ottawa",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q16",
+     "location": {
+      "lon": -75.695,
+      "lat": 45.424722222
+     }
+    }
+   ]
+  },
+  "CC": {
+   "entries": [
+    {
+     "name": "West Island",
+     "aliases": [],
+     "city": "city:CC-west-island",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q36004",
+     "location": {
+      "lon": 96.828333333,
+      "lat": -12.186944444
+     }
+    }
+   ]
+  },
+  "CD": {
+   "entries": [
+    {
+     "name": "Kinshasa",
+     "aliases": [],
+     "city": "city:CD-kinshasa",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q974",
+     "location": {
+      "lon": 15.311944444,
+      "lat": -4.321944444
+     }
+    }
+   ]
+  },
+  "CF": {
+   "entries": [
+    {
+     "name": "Bangui",
+     "aliases": [],
+     "city": "city:CF-bangui",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q929",
+     "location": {
+      "lon": 18.562833333,
+      "lat": 4.37325
+     }
+    }
+   ]
+  },
+  "CG": {
+   "entries": [
+    {
+     "name": "Brazzaville",
+     "aliases": [],
+     "city": "city:CG-brazzaville",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q971",
+     "location": {
+      "lon": 15.271111111,
+      "lat": -4.269444444
+     }
+    }
+   ]
+  },
+  "CH": {
+   "entries": [
+    {
+     "name": "Bern",
+     "aliases": [],
+     "city": "city:CH-bern",
+     "role": "federal_city",
+     "quiz": true,
+     "source": "Swiss Federal Department of Foreign Affairs",
+     "source_url": "https://www.aboutswitzerland.eda.admin.ch/en/political-system",
+     "location": {
+      "lon": 7.44743,
+      "lat": 46.94798
+     }
+    }
+   ],
+   "note": "Bern ist die Bundesstadt und Sitz von Regierung und Parlament. Die Schweiz hat keine gesetzlich bestimmte Hauptstadt."
+  },
+  "CI": {
+   "entries": [
+    {
+     "name": "Yamoussoukro",
+     "aliases": [],
+     "city": "city:CI-yamoussoukro",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1008",
+     "location": {
+      "lon": -5.274166666,
+      "lat": 6.816111111
+     }
+    }
+   ],
+   "note": "Yamoussoukro ist die offizielle Hauptstadt; viele Regierungsstellen befinden sich weiterhin in Abidjan."
+  },
+  "CK": {
+   "entries": [
+    {
+     "name": "Avarua",
+     "aliases": [],
+     "city": "city:CK-avarua",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q26988",
+     "location": {
+      "lon": -159.771,
+      "lat": -21.207
+     }
+    }
+   ]
+  },
+  "CL": {
+   "entries": [
+    {
+     "name": "Santiago de Chile",
+     "aliases": [
+      "Santiago"
+     ],
+     "city": "city:CL-santiago-de-chile",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q298",
+     "location": {
+      "lon": -70.65,
+      "lat": -33.4375
+     }
+    }
+   ]
+  },
+  "CM": {
+   "entries": [
+    {
+     "name": "Yaoundé",
+     "aliases": [],
+     "city": "city:CM-yaounde",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1009",
+     "location": {
+      "lon": 11.518055555,
+      "lat": 3.857777777
+     }
+    }
+   ]
+  },
+  "CN": {
+   "entries": [
+    {
+     "name": "Peking",
+     "aliases": [
+      "Beijing"
+     ],
+     "city": "city:CN-peking",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q148",
+     "location": {
+      "lon": 116.407526,
+      "lat": 39.90403
+     }
+    }
+   ]
+  },
+  "CO": {
+   "entries": [
+    {
+     "name": "Bogotá",
+     "aliases": [],
+     "city": "city:CO-bogota",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q739",
+     "location": {
+      "lon": -74.08175,
+      "lat": 4.60971
+     }
+    }
+   ]
+  },
+  "CR": {
+   "entries": [
+    {
+     "name": "San José",
+     "aliases": [],
+     "city": "city:CR-san-jose",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q800",
+     "location": {
+      "lon": -84.079613888,
+      "lat": 9.932738888
+     }
+    }
+   ]
+  },
+  "CU": {
+   "entries": [
+    {
+     "name": "Havanna",
+     "aliases": [
+      "Havana"
+     ],
+     "city": "city:CU-havanna",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q241",
+     "location": {
+      "lon": -82.358888888,
+      "lat": 23.136666666
+     }
+    }
+   ]
+  },
+  "CV": {
+   "entries": [
+    {
+     "name": "Praia",
+     "aliases": [],
+     "city": "city:CV-praia",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1011",
+     "location": {
+      "lon": -23.509155555,
+      "lat": 14.917719444
+     }
+    }
+   ]
+  },
+  "CW": {
+   "entries": [
+    {
+     "name": "Willemstad",
+     "aliases": [],
+     "city": "city:CW-willemstad",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q25279",
+     "location": {
+      "lon": -68.935,
+      "lat": 12.108
+     }
+    }
+   ]
+  },
+  "CX": {
+   "entries": [
+    {
+     "name": "Flying Fish Cove",
+     "aliases": [],
+     "city": "city:CX-flying-fish-cove",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q31063",
+     "location": {
+      "lon": 105.678055555,
+      "lat": -10.421666666
+     }
+    }
+   ]
+  },
+  "CY": {
+   "entries": [
+    {
+     "name": "Nikosia",
+     "aliases": [
+      "Nicosia"
+     ],
+     "city": "city:CY-nikosia",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q644636",
+     "location": {
+      "lon": 33.365,
+      "lat": 35.1725
+     }
+    }
+   ]
+  },
+  "CZ": {
+   "entries": [
+    {
+     "name": "Prag",
+     "aliases": [
+      "Prague"
+     ],
+     "city": "city:CZ-prag",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q213",
+     "location": {
+      "lon": 14.421388888,
+      "lat": 50.0875
+     }
+    }
+   ]
+  },
+  "DE": {
+   "entries": [
+    {
+     "name": "Berlin",
+     "aliases": [],
+     "city": "city:DE-berlin",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q183",
+     "location": {
+      "lon": 13.383333333,
+      "lat": 52.516666666
+     }
+    }
+   ]
+  },
+  "DJ": {
+   "entries": [
+    {
+     "name": "Dschibuti",
+     "aliases": [
+      "Djibouti"
+     ],
+     "city": "city:DJ-djibouti",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q977",
+     "location": {
+      "lon": 43.148055555,
+      "lat": 11.595
+     }
+    }
+   ]
+  },
+  "DK": {
+   "entries": [
+    {
+     "name": "Kopenhagen",
+     "aliases": [
+      "Copenhagen"
+     ],
+     "city": "city:DK-kopenhagen",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q35",
+     "location": {
+      "lon": 12.568888888,
+      "lat": 55.676111111
+     }
+    }
+   ]
+  },
+  "DM": {
+   "entries": [
+    {
+     "name": "Roseau",
+     "aliases": [],
+     "city": "city:DM-roseau",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q784",
+     "location": {
+      "lon": -61.383333333,
+      "lat": 15.3
+     }
+    }
+   ]
+  },
+  "DO": {
+   "entries": [
+    {
+     "name": "Santo Domingo",
+     "aliases": [],
+     "city": "city:DO-santo-domingo",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q786",
+     "location": {
+      "lon": -69.936111111,
+      "lat": 18.4625
+     }
+    }
+   ]
+  },
+  "DZ": {
+   "entries": [
+    {
+     "name": "Algier",
+     "aliases": [
+      "Algiers"
+     ],
+     "city": "city:DZ-algiers",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q262",
+     "location": {
+      "lon": 3.058611111,
+      "lat": 36.776388888
+     }
+    }
+   ]
+  },
+  "EC": {
+   "entries": [
+    {
+     "name": "Quito",
+     "aliases": [],
+     "city": "city:EC-quito",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q736",
+     "location": {
+      "lon": -78.5125,
+      "lat": -0.22
+     }
+    }
+   ]
+  },
+  "EE": {
+   "entries": [
+    {
+     "name": "Tallinn",
+     "aliases": [],
+     "city": "city:EE-tallinn",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q191",
+     "location": {
+      "lon": 24.745,
+      "lat": 59.437222222
+     }
+    }
+   ]
+  },
+  "EG": {
+   "entries": [
+    {
+     "name": "Kairo",
+     "aliases": [
+      "Cairo"
+     ],
+     "city": "city:EG-kairo",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q79",
+     "location": {
+      "lon": 31.235833333,
+      "lat": 30.044444444
+     }
+    }
+   ],
+   "note": "Kairo ist die Hauptstadt. Die Neue Hauptstadt (New Capital) übernimmt Verwaltungsfunktionen und ist Sitz zahlreicher Behörden."
+  },
+  "EH": {
+   "entries": [
+    {
+     "name": "El Aaiún",
+     "aliases": [],
+     "city": "city:EH-el-aaiun",
+     "role": "capital",
+     "quiz": true,
+     "source": "mledoze/countries",
+     "source_url": "https://github.com/mledoze/countries"
+    }
+   ]
+  },
+  "ER": {
+   "entries": [
+    {
+     "name": "Asmara",
+     "aliases": [],
+     "city": "city:ER-asmara",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q986",
+     "location": {
+      "lon": 38.916666666,
+      "lat": 15.333333333
+     }
+    }
+   ]
+  },
+  "ES": {
+   "entries": [
+    {
+     "name": "Madrid",
+     "aliases": [],
+     "city": "city:ES-madrid",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q29",
+     "location": {
+      "lon": -3.703333333,
+      "lat": 40.416944444
+     }
+    }
+   ]
+  },
+  "ET": {
+   "entries": [
+    {
+     "name": "Addis Abeba",
+     "aliases": [
+      "Addis Ababa"
+     ],
+     "city": "city:ET-addis-abeba",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q115",
+     "location": {
+      "lon": 38.7525,
+      "lat": 9.035833333
+     }
+    }
+   ]
+  },
+  "FI": {
+   "entries": [
+    {
+     "name": "Helsinki",
+     "aliases": [],
+     "city": "city:FI-helsinki",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q33",
+     "location": {
+      "lon": 24.9375,
+      "lat": 60.170833333
+     }
+    }
+   ]
+  },
+  "FJ": {
+   "entries": [
+    {
+     "name": "Suva",
+     "aliases": [],
+     "city": "city:FJ-suva",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q712",
+     "location": {
+      "lon": 178.433333333,
+      "lat": -18.133333333
+     }
+    }
+   ]
+  },
+  "FK": {
+   "entries": [
+    {
+     "name": "Stanley",
+     "aliases": [],
+     "city": "city:FK-stanley",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q9648",
+     "location": {
+      "lon": -57.849556,
+      "lat": -51.693861
+     }
+    }
+   ]
+  },
+  "FM": {
+   "entries": [
+    {
+     "name": "Palikir",
+     "aliases": [],
+     "city": "city:FM-palikir",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q702",
+     "location": {
+      "lon": 158.185,
+      "lat": 6.917777777
+     }
+    }
+   ]
+  },
+  "FO": {
+   "entries": [
+    {
+     "name": "Tórshavn",
+     "aliases": [],
+     "city": "city:FO-torshavn",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q4628",
+     "location": {
+      "lon": -6.77135,
+      "lat": 62.00981
+     }
+    }
+   ]
+  },
+  "FR": {
+   "entries": [
+    {
+     "name": "Paris",
+     "aliases": [],
+     "city": "city:FR-paris",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q142",
+     "location": {
+      "lon": 2.352222222,
+      "lat": 48.856666666
+     }
+    }
+   ]
+  },
+  "GA": {
+   "entries": [
+    {
+     "name": "Libreville",
+     "aliases": [],
+     "city": "city:GA-libreville",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1000",
+     "location": {
+      "lon": 9.440277777,
+      "lat": 0.407777777
+     }
+    }
+   ]
+  },
+  "GB": {
+   "entries": [
+    {
+     "name": "London",
+     "aliases": [],
+     "city": "city:GB-london",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q145",
+     "location": {
+      "lon": -0.1275,
+      "lat": 51.507222222
+     }
+    }
+   ]
+  },
+  "GD": {
+   "entries": [
+    {
+     "name": "St. George's",
+     "aliases": [],
+     "city": "city:GD-st-george-s",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q769",
+     "location": {
+      "lon": -61.753055555,
+      "lat": 12.0525
+     }
+    }
+   ]
+  },
+  "GE": {
+   "entries": [
+    {
+     "name": "Tiflis",
+     "aliases": [
+      "Tbilisi"
+     ],
+     "city": "city:GE-tbilisi",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q230",
+     "location": {
+      "lon": 44.7925,
+      "lat": 41.7225
+     }
+    }
+   ]
+  },
+  "GF": {
+   "entries": [
+    {
+     "name": "Cayenne",
+     "aliases": [],
+     "city": "city:GF-cayenne",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q3769",
+     "location": {
+      "lon": -52.335,
+      "lat": 4.938611111
+     }
+    }
+   ]
+  },
+  "GG": {
+   "entries": [
+    {
+     "name": "St. Peter Port",
+     "aliases": [],
+     "city": "city:GG-st-peter-port",
+     "role": "capital",
+     "quiz": true,
+     "source": "mledoze/countries",
+     "source_url": "https://github.com/mledoze/countries"
+    }
+   ]
+  },
+  "GH": {
+   "entries": [
+    {
+     "name": "Accra",
+     "aliases": [],
+     "city": "city:GH-accra",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q117",
+     "location": {
+      "lon": -0.1969,
+      "lat": 5.55602
+     }
+    }
+   ]
+  },
+  "GI": {
+   "entries": [
+    {
+     "name": "Gibraltar",
+     "aliases": [],
+     "city": "city:GI-gibraltar",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1410",
+     "location": {
+      "lon": -5.35,
+      "lat": 36.14
+     }
+    }
+   ]
+  },
+  "GL": {
+   "entries": [
+    {
+     "name": "Nuuk",
+     "aliases": [],
+     "city": "city:GL-nuuk",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q223",
+     "location": {
+      "lon": -51.733333333,
+      "lat": 64.175
+     }
+    }
+   ]
+  },
+  "GM": {
+   "entries": [
+    {
+     "name": "Banjul",
+     "aliases": [],
+     "city": "city:GM-banjul",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1005",
+     "location": {
+      "lon": -16.5775,
+      "lat": 13.453055555
+     }
+    }
+   ]
+  },
+  "GN": {
+   "entries": [
+    {
+     "name": "Conakry",
+     "aliases": [],
+     "city": "city:GN-conakry",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1006",
+     "location": {
+      "lon": -13.712222222,
+      "lat": 9.509166666
+     }
+    }
+   ]
+  },
+  "GP": {
+   "entries": [
+    {
+     "name": "Basse-Terre",
+     "aliases": [],
+     "city": "city:GP-basse-terre",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q17012",
+     "location": {
+      "lon": -61.732777777,
+      "lat": 15.996944444
+     }
+    }
+   ]
+  },
+  "GQ": {
+   "entries": [
+    {
+     "name": "Ciudad de la Paz",
+     "role": "capital",
+     "quiz": true,
+     "source": "Regierung Äquatorialguineas",
+     "source_url": "https://www.guineaecuatorialpress.com/index.php/noticias/el_presidente_de_la_republica_proclama_la_ciudad_de_la_paz_como_capital_de_la_republica_de_guinea_ecuatorial_con_la_firma_de_un_decreto_ley",
+     "aliases": [
+      "Oyala",
+      "Djibloho"
+     ],
+     "wikidata": "Q1140136",
+     "location": {
+      "lon": 10.822222222,
+      "lat": 1.591666666
+     }
+    },
+    {
+     "name": "Malabo",
+     "role": "former",
+     "quiz": false,
+     "source": "Regierung Äquatorialguineas",
+     "source_url": "https://www.guineaecuatorialpress.com/index.php/noticias/el_presidente_de_la_republica_proclama_la_ciudad_de_la_paz_como_capital_de_la_republica_de_guinea_ecuatorial_con_la_firma_de_un_decreto_ley",
+     "aliases": [],
+     "city": "city:GQ-malabo"
+    }
+   ],
+   "note": "Ciudad de la Paz wurde am 2. Januar 2026 zur offiziellen Hauptstadt erklärt. Malabo ist die frühere Hauptstadt; der Behördenumzug erfolgt schrittweise."
+  },
+  "GR": {
+   "entries": [
+    {
+     "name": "Athen",
+     "aliases": [
+      "Athens"
+     ],
+     "city": "city:GR-athen",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q41",
+     "location": {
+      "lon": 23.728055555,
+      "lat": 37.984166666
+     }
+    }
+   ]
+  },
+  "GS": {
+   "entries": [
+    {
+     "name": "King Edward Point",
+     "aliases": [],
+     "city": "city:GS-king-edward-point",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q35086",
+     "location": {
+      "lon": -36.48714,
+      "lat": -54.282264
+     }
+    }
+   ]
+  },
+  "GT": {
+   "entries": [
+    {
+     "name": "Guatemala-Stadt",
+     "aliases": [
+      "Guatemala City"
+     ],
+     "city": "city:GT-guatemala-city",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q774",
+     "location": {
+      "lon": -90.513333333,
+      "lat": 14.641666666
+     }
+    }
+   ]
+  },
+  "GU": {
+   "entries": [
+    {
+     "name": "Hagåtña",
+     "aliases": [],
+     "city": "city:GU-hagatna",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q16635",
+     "location": {
+      "lon": 144.75,
+      "lat": 13.483333333
+     }
+    }
+   ]
+  },
+  "GW": {
+   "entries": [
+    {
+     "name": "Bissau",
+     "aliases": [],
+     "city": "city:GW-bissau",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1007",
+     "location": {
+      "lon": -15.583333333,
+      "lat": 11.86
+     }
+    }
+   ]
+  },
+  "GY": {
+   "entries": [
+    {
+     "name": "Georgetown",
+     "aliases": [],
+     "city": "city:GY-georgetown",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q734",
+     "location": {
+      "lon": -58.150833333,
+      "lat": 6.805833333
+     }
+    }
+   ]
+  },
+  "HK": {
+   "entries": [
+    {
+     "name": "City of Victoria",
+     "aliases": [],
+     "city": "city:HK-city-of-victoria",
+     "role": "former",
+     "quiz": false,
+     "source": "Development Bureau Hong Kong",
+     "source_url": "https://www.devb.gov.hk/en/issues_in_focus/conserving_central/our_central/index.html"
+    }
+   ],
+   "note": "Hongkong ist eine Sonderverwaltungsregion. Victoria City ist eine historische Bezeichnung des Stadtgebiets Central und keine heutige nationale Hauptstadt."
+  },
+  "HN": {
+   "entries": [
+    {
+     "name": "Tegucigalpa",
+     "aliases": [],
+     "city": "city:HN-tegucigalpa",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q783",
+     "location": {
+      "lon": -87.204705555,
+      "lat": 14.105783333
+     }
+    }
+   ]
+  },
+  "HR": {
+   "entries": [
+    {
+     "name": "Zagreb",
+     "aliases": [],
+     "city": "city:HR-zagreb",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q224",
+     "location": {
+      "lon": 15.977222222,
+      "lat": 45.813055555
+     }
+    }
+   ]
+  },
+  "HT": {
+   "entries": [
+    {
+     "name": "Port-au-Prince",
+     "aliases": [],
+     "city": "city:HT-port-au-prince",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q790",
+     "location": {
+      "lon": -72.340277777,
+      "lat": 18.546944444
+     }
+    }
+   ]
+  },
+  "HU": {
+   "entries": [
+    {
+     "name": "Budapest",
+     "aliases": [],
+     "city": "city:HU-budapest",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q28",
+     "location": {
+      "lon": 19.040833333,
+      "lat": 47.498333333
+     }
+    }
+   ]
+  },
+  "ID": {
+   "entries": [
+    {
+     "name": "Jakarta",
+     "aliases": [],
+     "city": "city:ID-jakarta",
+     "role": "capital",
+     "quiz": true,
+     "source": "Otorita Ibu Kota Nusantara",
+     "source_url": "https://ikn.go.id/en/posts/pembangunan-ikn-maju-tanpa-ragu-otorita-ikn-tegaskan-progres-terus-berjalan",
+     "location": {
+      "lon": 106.826944444,
+      "lat": -6.175277777
+     }
+    }
+   ],
+   "note": "Jakarta bleibt bis zum wirksamen Präsidialbeschluss zum Hauptstadtumzug die Hauptstadt. Nusantara ist als neue Hauptstadt vorgesehen; die Verlegung erfolgt schrittweise."
+  },
+  "IE": {
+   "entries": [
+    {
+     "name": "Dublin",
+     "aliases": [],
+     "city": "city:IE-dublin",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q27",
+     "location": {
+      "lon": -6.260277777,
+      "lat": 53.349722222
+     }
+    }
+   ]
+  },
+  "IL": {
+   "entries": [
+    {
+     "name": "Jerusalem",
+     "aliases": [],
+     "city": "city:IL-jerusalem",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q801",
+     "location": {
+      "lon": 35.234156,
+      "lat": 31.776679
+     }
+    }
+   ]
+  },
+  "IM": {
+   "entries": [
+    {
+     "name": "Douglas",
+     "aliases": [],
+     "city": "city:IM-douglas",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q9676",
+     "location": {
+      "lon": -4.4775,
+      "lat": 54.15
+     }
+    }
+   ]
+  },
+  "IN": {
+   "entries": [
+    {
+     "name": "Neu-Delhi",
+     "aliases": [
+      "New Delhi"
+     ],
+     "city": "city:IN-neu-delhi",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q668",
+     "location": {
+      "lon": 77.208888888,
+      "lat": 28.613888888
+     }
+    }
+   ]
+  },
+  "IO": {
+   "entries": [
+    {
+     "name": "Diego Garcia",
+     "aliases": [],
+     "city": "city:IO-diego-garcia",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q43448",
+     "location": {
+      "lon": 72.411111111,
+      "lat": -7.313333333
+     }
+    }
+   ]
+  },
+  "IQ": {
+   "entries": [
+    {
+     "name": "Bagdad",
+     "aliases": [
+      "Baghdad"
+     ],
+     "city": "city:IQ-baghdad",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q796",
+     "location": {
+      "lon": 44.366111111,
+      "lat": 33.315277777
+     }
+    }
+   ]
+  },
+  "IR": {
+   "entries": [
+    {
+     "name": "Teheran",
+     "aliases": [
+      "Tehran"
+     ],
+     "city": "city:IR-tehran",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q794",
+     "location": {
+      "lon": 51.389722222,
+      "lat": 35.688888888
+     }
+    }
+   ]
+  },
+  "IS": {
+   "entries": [
+    {
+     "name": "Reykjavík",
+     "aliases": [
+      "Reykjavik"
+     ],
+     "city": "city:IS-reykjavik",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q189",
+     "location": {
+      "lon": -21.935,
+      "lat": 64.1475
+     }
+    }
+   ]
+  },
+  "IT": {
+   "entries": [
+    {
+     "name": "Rom",
+     "aliases": [
+      "Rome"
+     ],
+     "city": "city:IT-rom",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q38",
+     "location": {
+      "lon": 12.482777777,
+      "lat": 41.893055555
+     }
+    }
+   ]
+  },
+  "JE": {
+   "entries": [
+    {
+     "name": "Saint Helier",
+     "aliases": [],
+     "city": "city:JE-saint-helier",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q785",
+     "location": {
+      "lon": -2.11,
+      "lat": 49.185833333
+     }
+    }
+   ]
+  },
+  "JM": {
+   "entries": [
+    {
+     "name": "Kingston",
+     "aliases": [],
+     "city": "city:JM-kingston",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q766",
+     "location": {
+      "lon": -76.793055555,
+      "lat": 17.971388888
+     }
+    }
+   ]
+  },
+  "JO": {
+   "entries": [
+    {
+     "name": "Amman",
+     "aliases": [],
+     "city": "city:JO-amman",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q810",
+     "location": {
+      "lon": 35.933333333,
+      "lat": 31.95
+     }
+    }
+   ]
+  },
+  "JP": {
+   "entries": [
+    {
+     "name": "Tokio",
+     "aliases": [
+      "Tokyo"
+     ],
+     "city": "city:JP-tokio",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q17",
+     "location": {
+      "lon": 139.691666666,
+      "lat": 35.689444444
+     }
+    }
+   ]
+  },
+  "KE": {
+   "entries": [
+    {
+     "name": "Nairobi",
+     "aliases": [],
+     "city": "city:KE-nairobi",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q114",
+     "location": {
+      "lon": 36.817222222,
+      "lat": -1.286388888
+     }
+    }
+   ]
+  },
+  "KG": {
+   "entries": [
+    {
+     "name": "Bischkek",
+     "aliases": [
+      "Bishkek"
+     ],
+     "city": "city:KG-bishkek",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q813",
+     "location": {
+      "lon": 74.566666666,
+      "lat": 42.866666666
+     }
+    }
+   ]
+  },
+  "KH": {
+   "entries": [
+    {
+     "name": "Phnom Penh",
+     "aliases": [],
+     "city": "city:KH-phnom-penh",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q424",
+     "location": {
+      "lon": 104.921027777,
+      "lat": 11.569583333
+     }
+    }
+   ]
+  },
+  "KI": {
+   "entries": [
+    {
+     "name": "South Tarawa",
+     "aliases": [],
+     "city": "city:KI-south-tarawa",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q710",
+     "location": {
+      "lon": 172.966666666,
+      "lat": 1.333333333
+     }
+    }
+   ]
+  },
+  "KM": {
+   "entries": [
+    {
+     "name": "Moroni",
+     "aliases": [],
+     "city": "city:KM-moroni",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q970",
+     "location": {
+      "lon": 43.253611111,
+      "lat": -11.703611111
+     }
+    }
+   ]
+  },
+  "KN": {
+   "entries": [
+    {
+     "name": "Basseterre",
+     "aliases": [],
+     "city": "city:KN-basseterre",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q763",
+     "location": {
+      "lon": -62.734166666,
+      "lat": 17.298333333
+     }
+    }
+   ]
+  },
+  "KP": {
+   "entries": [
+    {
+     "name": "Pjöngjang",
+     "aliases": [
+      "Pyongyang"
+     ],
+     "city": "city:KP-pyongyang",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q423",
+     "location": {
+      "lon": 125.7475,
+      "lat": 39.016666666
+     }
+    }
+   ]
+  },
+  "KR": {
+   "entries": [
+    {
+     "name": "Seoul",
+     "aliases": [],
+     "city": "city:KR-seoul",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q884",
+     "location": {
+      "lon": 126.99,
+      "lat": 37.56
+     }
+    }
+   ]
+  },
+  "KW": {
+   "entries": [
+    {
+     "name": "Kuwait-Stadt",
+     "aliases": [
+      "Kuwait City"
+     ],
+     "city": "city:KW-kuwait-city",
+     "role": "capital",
+     "quiz": true,
+     "source": "mledoze/countries",
+     "source_url": "https://github.com/mledoze/countries"
+    }
+   ]
+  },
+  "KY": {
+   "entries": [
+    {
+     "name": "George Town",
+     "aliases": [],
+     "city": "city:KY-george-town",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q5785",
+     "location": {
+      "lon": -81.381666666,
+      "lat": 19.296388888
+     }
+    }
+   ]
+  },
+  "KZ": {
+   "entries": [
+    {
+     "name": "Astana",
+     "aliases": [],
+     "city": "city:KZ-astana",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q232",
+     "location": {
+      "lon": 71.433333333,
+      "lat": 51.133333333
+     }
+    }
+   ]
+  },
+  "LA": {
+   "entries": [
+    {
+     "name": "Vientiane",
+     "aliases": [],
+     "city": "city:LA-vientiane",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q819",
+     "location": {
+      "lon": 102.63,
+      "lat": 17.98
+     }
+    }
+   ]
+  },
+  "LB": {
+   "entries": [
+    {
+     "name": "Beirut",
+     "aliases": [],
+     "city": "city:LB-beirut",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q822",
+     "location": {
+      "lon": 35.513055555,
+      "lat": 33.886944444
+     }
+    }
+   ]
+  },
+  "LC": {
+   "entries": [
+    {
+     "name": "Castries",
+     "aliases": [],
+     "city": "city:LC-castries",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q760",
+     "location": {
+      "lon": -60.989444444,
+      "lat": 14.010833333
+     }
+    }
+   ]
+  },
+  "LI": {
+   "entries": [
+    {
+     "name": "Vaduz",
+     "aliases": [],
+     "city": "city:LI-vaduz",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q347",
+     "location": {
+      "lon": 9.522222222,
+      "lat": 47.140555555
+     }
+    }
+   ]
+  },
+  "LK": {
+   "entries": [
+    {
+     "name": "Sri Jayewardenepura Kotte",
+     "role": "capital",
+     "quiz": true,
+     "source": "Sri Jayawardenepura Kotte Municipal Council",
+     "source_url": "https://www.kotte.mc.gov.lk/index.php?Itemid=175&id=25&lang=en&option=com_content&view=article",
+     "aliases": [
+      "Sri Jayawardenepura Kotte",
+      "Sri Jayawardanapura Kotte",
+      "Sri Jayewardhanepura Kotte",
+      "Kotte"
+     ],
+     "wikidata": "Q41963",
+     "location": {
+      "lon": 79.916388888,
+      "lat": 6.9
+     }
+    },
+    {
+     "name": "Colombo",
+     "role": "commercial",
+     "quiz": false,
+     "source": "Sri Jayawardenepura Kotte Municipal Council",
+     "source_url": "https://www.kotte.mc.gov.lk/index.php?Itemid=175&id=25&lang=en&option=com_content&view=article",
+     "aliases": [],
+     "wikidata": "Q35381",
+     "location": {
+      "lon": 79.860555555,
+      "lat": 6.926666666
+     },
+     "city": "city:LK-colombo"
+    }
+   ],
+   "note": "Sri Jayewardenepura Kotte ist die offizielle Hauptstadt und Sitz des Parlaments. Colombo ist die frühere Hauptstadt und heutige Handelsmetropole; dort befinden sich weiterhin staatliche Institutionen."
+  },
+  "LR": {
+   "entries": [
+    {
+     "name": "Monrovia",
+     "aliases": [],
+     "city": "city:LR-monrovia",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1014",
+     "location": {
+      "lon": -10.804722222,
+      "lat": 6.310555555
+     }
+    }
+   ]
+  },
+  "LS": {
+   "entries": [
+    {
+     "name": "Maseru",
+     "aliases": [],
+     "city": "city:LS-maseru",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1013",
+     "location": {
+      "lon": 27.48,
+      "lat": -29.31
+     }
+    }
+   ]
+  },
+  "LT": {
+   "entries": [
+    {
+     "name": "Vilnius",
+     "aliases": [],
+     "city": "city:LT-vilnius",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q37",
+     "location": {
+      "lon": 25.28,
+      "lat": 54.687222222
+     }
+    }
+   ]
+  },
+  "LU": {
+   "entries": [
+    {
+     "name": "Luxemburg",
+     "aliases": [
+      "Luxembourg"
+     ],
+     "city": "city:LU-luxemburg",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q32",
+     "location": {
+      "lon": 6.13,
+      "lat": 49.611388888
+     }
+    }
+   ]
+  },
+  "LV": {
+   "entries": [
+    {
+     "name": "Riga",
+     "aliases": [],
+     "city": "city:LV-riga",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q211",
+     "location": {
+      "lon": 24.106944444,
+      "lat": 56.9475
+     }
+    }
+   ]
+  },
+  "LY": {
+   "entries": [
+    {
+     "name": "Tripolis",
+     "aliases": [
+      "Tripoli"
+     ],
+     "city": "city:LY-tripoli",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1016",
+     "location": {
+      "lon": 13.1875,
+      "lat": 32.8875
+     }
+    }
+   ]
+  },
+  "MA": {
+   "entries": [
+    {
+     "name": "Rabat",
+     "aliases": [],
+     "city": "city:MA-rabat",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1028",
+     "location": {
+      "lon": -6.841388888,
+      "lat": 34.021111111
+     }
+    }
+   ]
+  },
+  "MC": {
+   "entries": [
+    {
+     "name": "Monaco",
+     "aliases": [],
+     "city": "city:MC-monaco",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q235",
+     "location": {
+      "lon": 7.42,
+      "lat": 43.731111111
+     }
+    }
+   ]
+  },
+  "MD": {
+   "entries": [
+    {
+     "name": "Chișinău",
+     "aliases": [],
+     "city": "city:MD-chisinau",
+     "role": "capital",
+     "quiz": true,
+     "source": "mledoze/countries",
+     "source_url": "https://github.com/mledoze/countries"
+    }
+   ]
+  },
+  "ME": {
+   "entries": [
+    {
+     "name": "Podgorica",
+     "aliases": [],
+     "city": "city:ME-podgorica",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q236",
+     "location": {
+      "lon": 19.262777777,
+      "lat": 42.441388888
+     }
+    }
+   ]
+  },
+  "MF": {
+   "entries": [
+    {
+     "name": "Marigot",
+     "aliases": [],
+     "city": "city:MF-marigot",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q126125",
+     "location": {
+      "lon": -63.084722222,
+      "lat": 18.066666666
+     }
+    }
+   ]
+  },
+  "MG": {
+   "entries": [
+    {
+     "name": "Antananarivo",
+     "aliases": [],
+     "city": "city:MG-antananarivo",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1019",
+     "location": {
+      "lon": 47.525,
+      "lat": -18.91
+     }
+    }
+   ]
+  },
+  "MH": {
+   "entries": [
+    {
+     "name": "Majuro",
+     "aliases": [],
+     "city": "city:MH-majuro",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q709",
+     "location": {
+      "lon": 171.3802,
+      "lat": 7.0918
+     }
+    }
+   ]
+  },
+  "MK": {
+   "entries": [
+    {
+     "name": "Skopje",
+     "aliases": [],
+     "city": "city:MK-skopje",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q221",
+     "location": {
+      "lon": 21.431666666,
+      "lat": 41.996111111
+     }
+    }
+   ]
+  },
+  "ML": {
+   "entries": [
+    {
+     "name": "Bamako",
+     "aliases": [],
+     "city": "city:ML-bamako",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q912",
+     "location": {
+      "lon": -7.992222222,
+      "lat": 12.645833333
+     }
+    }
+   ]
+  },
+  "MM": {
+   "entries": [
+    {
+     "name": "Naypyidaw",
+     "aliases": [],
+     "city": "city:MM-naypyidaw",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q836",
+     "location": {
+      "lon": 96.115,
+      "lat": 19.7475
+     }
+    }
+   ]
+  },
+  "MN": {
+   "entries": [
+    {
+     "name": "Ulan Bator",
+     "aliases": [],
+     "city": "city:MN-ulan-bator",
+     "role": "capital",
+     "quiz": true,
+     "source": "mledoze/countries",
+     "source_url": "https://github.com/mledoze/countries"
+    }
+   ]
+  },
+  "MP": {
+   "entries": [
+    {
+     "name": "Saipan",
+     "aliases": [],
+     "city": "city:MP-saipan",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q16644",
+     "location": {
+      "lon": 145.7545,
+      "lat": 15.21233
+     }
+    }
+   ]
+  },
+  "MQ": {
+   "entries": [
+    {
+     "name": "Fort-de-France",
+     "aliases": [],
+     "city": "city:MQ-fort-de-france",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q17054",
+     "location": {
+      "lon": -61.066666666,
+      "lat": 14.6
+     }
+    }
+   ]
+  },
+  "MR": {
+   "entries": [
+    {
+     "name": "Nouakchott",
+     "aliases": [],
+     "city": "city:MR-nouakchott",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1025",
+     "location": {
+      "lon": -15.9785,
+      "lat": 18.08581
+     }
+    }
+   ]
+  },
+  "MS": {
+   "entries": [
+    {
+     "name": "Plymouth",
+     "aliases": [],
+     "city": "city:MS-plymouth",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q13353",
+     "location": {
+      "lon": -62.215838888,
+      "lat": 16.706416666
+     }
+    }
+   ]
+  },
+  "MT": {
+   "entries": [
+    {
+     "name": "Valletta",
+     "aliases": [],
+     "city": "city:MT-valletta",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q233",
+     "location": {
+      "lon": 14.5125,
+      "lat": 35.897777777
+     }
+    }
+   ]
+  },
+  "MU": {
+   "entries": [
+    {
+     "name": "Port Louis",
+     "aliases": [],
+     "city": "city:MU-port-louis",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1027",
+     "location": {
+      "lon": 57.498888888,
+      "lat": -20.161944444
+     }
+    }
+   ]
+  },
+  "MV": {
+   "entries": [
+    {
+     "name": "Malé",
+     "aliases": [],
+     "city": "city:MV-male",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q826",
+     "location": {
+      "lon": 73.508333333,
+      "lat": 4.175
+     }
+    }
+   ]
+  },
+  "MW": {
+   "entries": [
+    {
+     "name": "Lilongwe",
+     "aliases": [],
+     "city": "city:MW-lilongwe",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1020",
+     "location": {
+      "lon": 33.768055555,
+      "lat": -13.986388888
+     }
+    }
+   ]
+  },
+  "MX": {
+   "entries": [
+    {
+     "name": "Mexiko-Stadt",
+     "aliases": [
+      "Mexico City"
+     ],
+     "city": "city:MX-mexiko-stadt",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q96",
+     "location": {
+      "lon": -99.13589,
+      "lat": 19.353773
+     }
+    }
+   ]
+  },
+  "MY": {
+   "entries": [
+    {
+     "name": "Kuala Lumpur",
+     "role": "capital",
+     "quiz": true,
+     "source": "Ministry of Foreign Affairs Malaysia",
+     "source_url": "https://www.kln.gov.my/web/gha_accra/history",
+     "aliases": [],
+     "location": {
+      "lon": 101.695277777,
+      "lat": 3.147777777
+     },
+     "city": "city:MY-kuala-lumpur"
+    },
+    {
+     "name": "Putrajaya",
+     "role": "administrative",
+     "quiz": true,
+     "source": "Ministry of Foreign Affairs Malaysia",
+     "source_url": "https://www.kln.gov.my/web/gha_accra/history",
+     "aliases": [],
+     "location": {
+      "lon": 101.69,
+      "lat": 2.93
+     }
+    }
+   ],
+   "note": "Kuala Lumpur ist die nationale Hauptstadt, Putrajaya die Verwaltungshauptstadt und Sitz der Bundesregierung."
+  },
+  "MZ": {
+   "entries": [
+    {
+     "name": "Maputo",
+     "aliases": [],
+     "city": "city:MZ-maputo",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1029",
+     "location": {
+      "lon": 32.573333333,
+      "lat": -25.968888888
+     }
+    }
+   ]
+  },
+  "NA": {
+   "entries": [
+    {
+     "name": "Windhoek",
+     "aliases": [],
+     "city": "city:NA-windhoek",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1030",
+     "location": {
+      "lon": 17.083611111,
+      "lat": -22.57
+     }
+    }
+   ]
+  },
+  "NC": {
+   "entries": [
+    {
+     "name": "Nouméa",
+     "aliases": [],
+     "city": "city:NC-noumea",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q33788",
+     "location": {
+      "lon": 166.45,
+      "lat": -22.266666666
+     }
+    }
+   ]
+  },
+  "NE": {
+   "entries": [
+    {
+     "name": "Niamey",
+     "aliases": [],
+     "city": "city:NE-niamey",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1032",
+     "location": {
+      "lon": 2.1175,
+      "lat": 13.515
+     }
+    }
+   ]
+  },
+  "NF": {
+   "entries": [
+    {
+     "name": "Kingston",
+     "aliases": [],
+     "city": "city:NF-kingston",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q31057",
+     "location": {
+      "lon": 167.966666666,
+      "lat": -29.05
+     }
+    }
+   ]
+  },
+  "NG": {
+   "entries": [
+    {
+     "name": "Abuja",
+     "aliases": [],
+     "city": "city:NG-abuja",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1033",
+     "location": {
+      "lon": 7.491388888,
+      "lat": 9.055555555
+     }
+    }
+   ]
+  },
+  "NI": {
+   "entries": [
+    {
+     "name": "Managua",
+     "aliases": [],
+     "city": "city:NI-managua",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q811",
+     "location": {
+      "lon": -86.273725,
+      "lat": 12.154680555
+     }
+    }
+   ]
+  },
+  "NL": {
+   "entries": [
+    {
+     "name": "Amsterdam",
+     "role": "constitutional",
+     "quiz": true,
+     "source": "Tweede Kamer",
+     "source_url": "https://www.tweedekamer.nl/downloads/document?id=2021D49919",
+     "aliases": [],
+     "location": {
+      "lon": 4.883333333,
+      "lat": 52.366666666
+     },
+     "city": "city:NL-amsterdam"
+    },
+    {
+     "name": "Den Haag",
+     "role": "government_seat",
+     "quiz": false,
+     "source": "Tweede Kamer",
+     "source_url": "https://www.tweedekamer.nl/downloads/document?id=2021D49919",
+     "aliases": [
+      "The Hague",
+      "'s-Gravenhage"
+     ],
+     "city": "city:NL-den-haag"
+    }
+   ],
+   "note": "Amsterdam ist die verfassungsmäßige Hauptstadt; Regierung und Parlament sitzen in Den Haag."
+  },
+  "NO": {
+   "entries": [
+    {
+     "name": "Oslo",
+     "aliases": [],
+     "city": "city:NO-oslo",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q20",
+     "location": {
+      "lon": 10.738888888,
+      "lat": 59.913333333
+     }
+    }
+   ]
+  },
+  "NP": {
+   "entries": [
+    {
+     "name": "Kathmandu",
+     "aliases": [],
+     "city": "city:NP-kathmandu",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q837",
+     "location": {
+      "lon": 85.32,
+      "lat": 27.71
+     }
+    }
+   ]
+  },
+  "NR": {
+   "entries": [
+    {
+     "name": "Yaren",
+     "role": "government_seat",
+     "quiz": false,
+     "source": "UNCTAD",
+     "source_url": "https://dgff2021.unctad.org/nauru/index.html",
+     "aliases": [],
+     "location": {
+      "lon": 166.920867,
+      "lat": -0.5477
+     },
+     "city": "city:NR-yaren"
+    }
+   ],
+   "note": "Nauru hat keine offiziell bestimmte Hauptstadt. Die Regierung und das Parlament befinden sich im Distrikt Yaren."
+  },
+  "NU": {
+   "entries": [
+    {
+     "name": "Alofi",
+     "aliases": [],
+     "city": "city:NU-alofi",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q34020",
+     "location": {
+      "lon": -169.921,
+      "lat": -19.056
+     }
+    }
+   ]
+  },
+  "NZ": {
+   "entries": [
+    {
+     "name": "Wellington",
+     "aliases": [],
+     "city": "city:NZ-wellington",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q664",
+     "location": {
+      "lon": 174.777222222,
+      "lat": -41.288888888
+     }
+    }
+   ]
+  },
+  "OM": {
+   "entries": [
+    {
+     "name": "Maskat",
+     "aliases": [
+      "Muscat"
+     ],
+     "city": "city:OM-muscat",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q842",
+     "location": {
+      "lon": 58.592222222,
+      "lat": 23.613888888
+     }
+    }
+   ]
+  },
+  "PA": {
+   "entries": [
+    {
+     "name": "Panama-Stadt",
+     "aliases": [
+      "Panama City"
+     ],
+     "city": "city:PA-panama-stadt",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q804",
+     "location": {
+      "lon": -79.534722222,
+      "lat": 8.971111111
+     }
+    }
+   ]
+  },
+  "PE": {
+   "entries": [
+    {
+     "name": "Lima",
+     "aliases": [],
+     "city": "city:PE-lima",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q419",
+     "location": {
+      "lon": -77.0375,
+      "lat": -12.06
+     }
+    }
+   ]
+  },
+  "PF": {
+   "entries": [
+    {
+     "name": "Papeetē",
+     "aliases": [],
+     "city": "city:PF-papeete",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q30971",
+     "location": {
+      "lon": -149.568888888,
+      "lat": -17.539722222
+     }
+    }
+   ]
+  },
+  "PG": {
+   "entries": [
+    {
+     "name": "Port Moresby",
+     "aliases": [],
+     "city": "city:PG-port-moresby",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q691",
+     "location": {
+      "lon": 147.149444444,
+      "lat": -9.478888888
+     }
+    }
+   ]
+  },
+  "PH": {
+   "entries": [
+    {
+     "name": "Manila",
+     "aliases": [],
+     "city": "city:PH-manila",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q928",
+     "location": {
+      "lon": 120.977222222,
+      "lat": 14.595833333
+     }
+    }
+   ]
+  },
+  "PK": {
+   "entries": [
+    {
+     "name": "Islamabad",
+     "aliases": [],
+     "city": "city:PK-islamabad",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q843",
+     "location": {
+      "lon": 73.036944444,
+      "lat": 33.698888888
+     }
+    }
+   ]
+  },
+  "PL": {
+   "entries": [
+    {
+     "name": "Warschau",
+     "aliases": [
+      "Warsaw"
+     ],
+     "city": "city:PL-warschau",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q36",
+     "location": {
+      "lon": 21.011111111,
+      "lat": 52.23
+     }
+    }
+   ]
+  },
+  "PM": {
+   "entries": [
+    {
+     "name": "Saint-Pierre",
+     "aliases": [],
+     "city": "city:PM-saint-pierre",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q34617",
+     "location": {
+      "lon": -56.177777777,
+      "lat": 46.777777777
+     }
+    }
+   ]
+  },
+  "PN": {
+   "entries": [
+    {
+     "name": "Adamstown",
+     "aliases": [],
+     "city": "city:PN-adamstown",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q35672",
+     "location": {
+      "lon": -130.1,
+      "lat": -25.066666666
+     }
+    }
+   ]
+  },
+  "PR": {
+   "entries": [
+    {
+     "name": "San Juan",
+     "aliases": [],
+     "city": "city:PR-san-juan",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1183",
+     "location": {
+      "lon": -66.116666666,
+      "lat": 18.465277777
+     }
+    }
+   ]
+  },
+  "PS": {
+   "entries": [
+    {
+     "name": "Ostjerusalem",
+     "aliases": [
+      "East Jerusalem"
+     ],
+     "role": "claimed",
+     "quiz": true,
+     "source": "Ministry of Foreign Affairs Palestine",
+     "source_url": "https://www.mofa.pna.ps/en-us/fundamentalissues/jerusalem",
+     "wikidata": "Q154477"
+    },
+    {
+     "name": "Ramallah",
+     "aliases": [],
+     "role": "government_seat",
+     "quiz": false,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q219060"
+    }
+   ],
+   "note": "Ostjerusalem wird von Palästina als Hauptstadt beansprucht; Ramallah ist der Regierungssitz. Der Status Jerusalems ist international umstritten."
+  },
+  "PT": {
+   "entries": [
+    {
+     "name": "Lissabon",
+     "aliases": [
+      "Lisbon"
+     ],
+     "city": "city:PT-lissabon",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q45",
+     "location": {
+      "lon": -9.139016,
+      "lat": 38.708042
+     }
+    }
+   ]
+  },
+  "PW": {
+   "entries": [
+    {
+     "name": "Ngerulmud",
+     "aliases": [],
+     "city": "city:PW-ngerulmud",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q695",
+     "location": {
+      "lon": 134.624167,
+      "lat": 7.500556
+     }
+    }
+   ]
+  },
+  "PY": {
+   "entries": [
+    {
+     "name": "Asunción",
+     "aliases": [],
+     "city": "city:PY-asuncion",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q733",
+     "location": {
+      "lon": -57.634444444,
+      "lat": -25.28
+     }
+    }
+   ]
+  },
+  "QA": {
+   "entries": [
+    {
+     "name": "Doha",
+     "aliases": [],
+     "city": "city:QA-doha",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q846",
+     "location": {
+      "lon": 51.529444444,
+      "lat": 25.286111111
+     }
+    }
+   ]
+  },
+  "RE": {
+   "entries": [
+    {
+     "name": "Saint-Denis",
+     "aliases": [],
+     "city": "city:RE-saint-denis",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q17070",
+     "location": {
+      "lon": 55.448055555,
+      "lat": -20.878888888
+     }
+    }
+   ]
+  },
+  "RO": {
+   "entries": [
+    {
+     "name": "Bukarest",
+     "aliases": [
+      "Bucharest"
+     ],
+     "city": "city:RO-bukarest",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q218",
+     "location": {
+      "lon": 26.097777777,
+      "lat": 44.413361111
+     }
+    }
+   ]
+  },
+  "RS": {
+   "entries": [
+    {
+     "name": "Belgrad",
+     "aliases": [
+      "Belgrade"
+     ],
+     "city": "city:RS-belgrad",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q403",
+     "location": {
+      "lon": 20.456944444,
+      "lat": 44.817777777
+     }
+    }
+   ]
+  },
+  "RU": {
+   "entries": [
+    {
+     "name": "Moskau",
+     "aliases": [
+      "Moscow"
+     ],
+     "city": "city:RU-moskau",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q159",
+     "location": {
+      "lon": 37.6175,
+      "lat": 55.750555555
+     }
+    }
+   ]
+  },
+  "RW": {
+   "entries": [
+    {
+     "name": "Kigali",
+     "aliases": [],
+     "city": "city:RW-kigali",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1037",
+     "location": {
+      "lon": 30.115,
+      "lat": -1.9525
+     }
+    }
+   ]
+  },
+  "SA": {
+   "entries": [
+    {
+     "name": "Riad",
+     "aliases": [
+      "Riyadh"
+     ],
+     "city": "city:SA-riyadh",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q851",
+     "location": {
+      "lon": 46.715,
+      "lat": 24.638333333
+     }
+    }
+   ]
+  },
+  "SB": {
+   "entries": [
+    {
+     "name": "Honiara",
+     "aliases": [],
+     "city": "city:SB-honiara",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q685",
+     "location": {
+      "lon": 159.95,
+      "lat": -9.433333
+     }
+    }
+   ]
+  },
+  "SC": {
+   "entries": [
+    {
+     "name": "Victoria",
+     "aliases": [],
+     "city": "city:SC-victoria",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1042",
+     "location": {
+      "lon": 55.454444444,
+      "lat": -4.623611111
+     }
+    }
+   ]
+  },
+  "SD": {
+   "entries": [
+    {
+     "name": "Khartum",
+     "aliases": [
+      "Khartoum"
+     ],
+     "city": "city:SD-khartoum",
+     "role": "capital",
+     "quiz": true,
+     "source": "mledoze/countries",
+     "source_url": "https://github.com/mledoze/countries"
+    }
+   ]
+  },
+  "SE": {
+   "entries": [
+    {
+     "name": "Stockholm",
+     "aliases": [],
+     "city": "city:SE-stockholm",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q34",
+     "location": {
+      "lon": 18.068611111,
+      "lat": 59.329444444
+     }
+    }
+   ]
+  },
+  "SG": {
+   "entries": [
+    {
+     "name": "Singapur",
+     "aliases": [
+      "Singapore"
+     ],
+     "city": "city:SG-singapur",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q334",
+     "location": {
+      "lon": 103.8,
+      "lat": 1.3
+     }
+    }
+   ]
+  },
+  "SH": {
+   "entries": [
+    {
+     "name": "Jamestown",
+     "aliases": [],
+     "city": "city:SH-jamestown",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q192184",
+     "location": {
+      "lon": -5.717916666,
+      "lat": -15.925138888
+     }
+    }
+   ]
+  },
+  "SI": {
+   "entries": [
+    {
+     "name": "Ljubljana",
+     "aliases": [],
+     "city": "city:SI-ljubljana",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q215",
+     "location": {
+      "lon": 14.506111111,
+      "lat": 46.051388888
+     }
+    }
+   ]
+  },
+  "SJ": {
+   "entries": [
+    {
+     "name": "Longyearbyen",
+     "aliases": [],
+     "city": "city:SJ-longyearbyen",
+     "role": "capital",
+     "quiz": true,
+     "source": "mledoze/countries",
+     "source_url": "https://github.com/mledoze/countries"
+    }
+   ]
+  },
+  "SK": {
+   "entries": [
+    {
+     "name": "Bratislava",
+     "aliases": [],
+     "city": "city:SK-bratislava",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q214",
+     "location": {
+      "lon": 17.1093063,
+      "lat": 48.1516988
+     }
+    }
+   ]
+  },
+  "SL": {
+   "entries": [
+    {
+     "name": "Freetown",
+     "aliases": [],
+     "city": "city:SL-freetown",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1044",
+     "location": {
+      "lon": -13.235555555,
+      "lat": 8.487222222
+     }
+    }
+   ]
+  },
+  "SM": {
+   "entries": [
+    {
+     "name": "San Marino",
+     "aliases": [
+      "City of San Marino"
+     ],
+     "city": "city:SM-san-marino",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q238",
+     "location": {
+      "lon": 12.44845,
+      "lat": 43.932011111
+     }
+    }
+   ]
+  },
+  "SN": {
+   "entries": [
+    {
+     "name": "Dakar",
+     "aliases": [],
+     "city": "city:SN-dakar",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1041",
+     "location": {
+      "lon": -17.432,
+      "lat": 14.672555555
+     }
+    }
+   ]
+  },
+  "SO": {
+   "entries": [
+    {
+     "name": "Mogadischu",
+     "aliases": [
+      "Mogadishu"
+     ],
+     "city": "city:SO-mogadishu",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1045",
+     "location": {
+      "lon": 45.341944444,
+      "lat": 2.039166666
+     }
+    }
+   ]
+  },
+  "SR": {
+   "entries": [
+    {
+     "name": "Paramaribo",
+     "aliases": [],
+     "city": "city:SR-paramaribo",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q730",
+     "location": {
+      "lon": -55.166666666,
+      "lat": 5.866666666
+     }
+    }
+   ]
+  },
+  "SS": {
+   "entries": [
+    {
+     "name": "Juba",
+     "aliases": [],
+     "city": "city:SS-juba",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q958",
+     "location": {
+      "lon": 31.5825,
+      "lat": 4.853888888
+     }
+    }
+   ]
+  },
+  "ST": {
+   "entries": [
+    {
+     "name": "São Tomé",
+     "aliases": [],
+     "city": "city:ST-sao-tome",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1039",
+     "location": {
+      "lon": 6.728333333,
+      "lat": 0.3375
+     }
+    }
+   ]
+  },
+  "SV": {
+   "entries": [
+    {
+     "name": "San Salvador",
+     "aliases": [],
+     "city": "city:SV-san-salvador",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q792",
+     "location": {
+      "lon": -89.191155555,
+      "lat": 13.697597222
+     }
+    }
+   ]
+  },
+  "SX": {
+   "entries": [
+    {
+     "name": "Philipsburg",
+     "aliases": [],
+     "city": "city:SX-philipsburg",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q26273",
+     "location": {
+      "lon": -63.043333333,
+      "lat": 18.024166666
+     }
+    }
+   ]
+  },
+  "SY": {
+   "entries": [
+    {
+     "name": "Damaskus",
+     "aliases": [
+      "Damascus"
+     ],
+     "city": "city:SY-damascus",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q858",
+     "location": {
+      "lon": 36.292,
+      "lat": 33.513
+     }
+    }
+   ]
+  },
+  "SZ": {
+   "entries": [
+    {
+     "name": "Mbabane",
+     "role": "executive",
+     "quiz": true,
+     "source": "African Union",
+     "source_url": "https://au.int/en/cities/lobambaroyal-and-legislative-mbabane-administrative",
+     "aliases": [],
+     "wikidata": "Q3904",
+     "location": {
+      "lon": 31.133333333,
+      "lat": -26.316666666
+     }
+    },
+    {
+     "name": "Lobamba",
+     "role": "royal_legislative",
+     "quiz": true,
+     "source": "African Union",
+     "source_url": "https://au.int/en/cities/lobambaroyal-and-legislative-mbabane-administrative",
+     "aliases": [],
+     "wikidata": "Q101418",
+     "location": {
+      "lon": 31.206411,
+      "lat": -26.44648
+     },
+     "city": "city:SZ-lobamba"
+    }
+   ]
+  },
+  "TC": {
+   "entries": [
+    {
+     "name": "Cockburn Town",
+     "aliases": [],
+     "city": "city:TC-cockburn-town",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q18221",
+     "location": {
+      "lon": -71.141388888,
+      "lat": 21.460277777
+     }
+    }
+   ]
+  },
+  "TD": {
+   "entries": [
+    {
+     "name": "N'Djamena",
+     "aliases": [],
+     "city": "city:TD-n-djamena",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q657",
+     "location": {
+      "lon": 15.05,
+      "lat": 12.11
+     }
+    }
+   ]
+  },
+  "TF": {
+   "entries": [
+    {
+     "name": "Port-aux-Français",
+     "aliases": [],
+     "city": "city:TF-port-aux-francais",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q129003",
+     "location": {
+      "lon": 70.216666666,
+      "lat": -49.35
+     }
+    }
+   ]
+  },
+  "TG": {
+   "entries": [
+    {
+     "name": "Lomé",
+     "aliases": [],
+     "city": "city:TG-lome",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q945",
+     "location": {
+      "lon": 1.215833333,
+      "lat": 6.13
+     }
+    }
+   ]
+  },
+  "TH": {
+   "entries": [
+    {
+     "name": "Bangkok",
+     "aliases": [],
+     "city": "city:TH-bangkok",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q869",
+     "location": {
+      "lon": 100.516666666,
+      "lat": 13.75
+     }
+    }
+   ]
+  },
+  "TJ": {
+   "entries": [
+    {
+     "name": "Duschanbe",
+     "aliases": [
+      "Dushanbe"
+     ],
+     "city": "city:TJ-dushanbe",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q863",
+     "location": {
+      "lon": 68.786388888,
+      "lat": 38.573055555
+     }
+    }
+   ]
+  },
+  "TK": {
+   "entries": [
+    {
+     "name": "Fakaofo",
+     "aliases": [],
+     "city": "city:TK-fakaofo",
+     "role": "rotating_seat",
+     "quiz": false,
+     "source": "Australian Government, DFAT",
+     "source_url": "https://www.dfat.gov.au/geo/tokelau/Pages/tokelau-country-brief"
+    }
+   ],
+   "note": "Tokelau hat keine dauerhaft festgelegte Hauptstadt. Regierungsführung und Regierungssitz wechseln jährlich zwischen Atafu, Nukunonu und Fakaofo."
+  },
+  "TL": {
+   "entries": [
+    {
+     "name": "Dili",
+     "aliases": [],
+     "city": "city:TL-dili",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q574",
+     "location": {
+      "lon": 125.578333333,
+      "lat": -8.553611111
+     }
+    }
+   ]
+  },
+  "TM": {
+   "entries": [
+    {
+     "name": "Aşgabat",
+     "aliases": [
+      "Ashgabat"
+     ],
+     "city": "city:TM-ashgabat",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q874",
+     "location": {
+      "lon": 58.383333333,
+      "lat": 37.95
+     }
+    }
+   ]
+  },
+  "TN": {
+   "entries": [
+    {
+     "name": "Tunis",
+     "aliases": [],
+     "city": "city:TN-tunis",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q948",
+     "location": {
+      "lon": 10.18,
+      "lat": 36.800833333
+     }
+    }
+   ]
+  },
+  "TO": {
+   "entries": [
+    {
+     "name": "Nuku'alofa",
+     "aliases": [],
+     "city": "city:TO-nuku-alofa",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q678",
+     "location": {
+      "lon": -175.201808,
+      "lat": -21.1343401
+     }
+    }
+   ]
+  },
+  "TR": {
+   "entries": [
+    {
+     "name": "Ankara",
+     "aliases": [],
+     "city": "city:TR-ankara",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q43",
+     "location": {
+      "lon": 32.83869,
+      "lat": 39.93576
+     }
+    }
+   ]
+  },
+  "TT": {
+   "entries": [
+    {
+     "name": "Port of Spain",
+     "aliases": [],
+     "city": "city:TT-port-of-spain",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q754",
+     "location": {
+      "lon": -61.516666666,
+      "lat": 10.666666666
+     }
+    }
+   ]
+  },
+  "TV": {
+   "entries": [
+    {
+     "name": "Funafuti",
+     "aliases": [],
+     "city": "city:TV-funafuti",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q672",
+     "location": {
+      "lon": 179.117361111,
+      "lat": -8.504777777
+     }
+    }
+   ]
+  },
+  "TW": {
+   "entries": [
+    {
+     "name": "Taipei",
+     "aliases": [],
+     "city": "city:TW-taipei",
+     "role": "capital",
+     "quiz": true,
+     "source": "mledoze/countries",
+     "source_url": "https://github.com/mledoze/countries"
+    }
+   ]
+  },
+  "TZ": {
+   "entries": [
+    {
+     "name": "Dodoma",
+     "aliases": [],
+     "city": "city:TZ-dodoma",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q924",
+     "location": {
+      "lon": 35.746,
+      "lat": -6.1835
+     }
+    }
+   ],
+   "note": "Dodoma ist die offizielle Hauptstadt. Dar es Salaam ist die frühere Hauptstadt und weiterhin ein bedeutendes Wirtschaftszentrum."
+  },
+  "UA": {
+   "entries": [
+    {
+     "name": "Kyjiw",
+     "aliases": [
+      "Kyiv"
+     ],
+     "city": "city:UA-kyjiw",
+     "role": "capital",
+     "quiz": true,
+     "source": "mledoze/countries",
+     "source_url": "https://github.com/mledoze/countries"
+    }
+   ]
+  },
+  "UG": {
+   "entries": [
+    {
+     "name": "Kampala",
+     "aliases": [],
+     "city": "city:UG-kampala",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1036",
+     "location": {
+      "lon": 32.581111111,
+      "lat": 0.313611111
+     }
+    }
+   ]
+  },
+  "US": {
+   "entries": [
+    {
+     "name": "Washington, D.C.",
+     "aliases": [
+      "Washington D.C."
+     ],
+     "city": "city:US-washington-d-c",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q30",
+     "location": {
+      "lon": -77.036666666,
+      "lat": 38.895
+     }
+    }
+   ]
+  },
+  "UY": {
+   "entries": [
+    {
+     "name": "Montevideo",
+     "aliases": [],
+     "city": "city:UY-montevideo",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q77",
+     "location": {
+      "lon": -56.191311111,
+      "lat": -34.905916666
+     }
+    }
+   ]
+  },
+  "UZ": {
+   "entries": [
+    {
+     "name": "Taschkent",
+     "aliases": [
+      "Tashkent"
+     ],
+     "city": "city:UZ-tashkent",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q265",
+     "location": {
+      "lon": 69.279722222,
+      "lat": 41.311111111
+     }
+    }
+   ]
+  },
+  "VA": {
+   "entries": [
+    {
+     "name": "Vatikanstadt",
+     "aliases": [
+      "Vatican City"
+     ],
+     "city": "city:VA-vatikanstadt",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q237",
+     "location": {
+      "lon": 12.453,
+      "lat": 41.904
+     }
+    }
+   ]
+  },
+  "VC": {
+   "entries": [
+    {
+     "name": "Kingstown",
+     "aliases": [],
+     "city": "city:VC-kingstown",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q757",
+     "location": {
+      "lon": -61.22742,
+      "lat": 13.15527
+     }
+    }
+   ]
+  },
+  "VE": {
+   "entries": [
+    {
+     "name": "Caracas",
+     "aliases": [],
+     "city": "city:VE-caracas",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q717",
+     "location": {
+      "lon": -66.914444444,
+      "lat": 10.506111111
+     }
+    }
+   ]
+  },
+  "VG": {
+   "entries": [
+    {
+     "name": "Road Town",
+     "aliases": [],
+     "city": "city:VG-road-town",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q25305",
+     "location": {
+      "lon": -64.616666666,
+      "lat": 18.433333333
+     }
+    }
+   ]
+  },
+  "VI": {
+   "entries": [
+    {
+     "name": "Charlotte Amalie",
+     "aliases": [],
+     "city": "city:VI-charlotte-amalie",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q11703",
+     "location": {
+      "lon": -64.95,
+      "lat": 18.35
+     }
+    }
+   ]
+  },
+  "VN": {
+   "entries": [
+    {
+     "name": "Hanoi",
+     "aliases": [],
+     "city": "city:VN-hanoi",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q881",
+     "location": {
+      "lon": 105.84117,
+      "lat": 21.0245
+     }
+    }
+   ]
+  },
+  "VU": {
+   "entries": [
+    {
+     "name": "Port Vila",
+     "aliases": [],
+     "city": "city:VU-port-vila",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q686",
+     "location": {
+      "lon": 168.316667,
+      "lat": -17.73333
+     }
+    }
+   ]
+  },
+  "WF": {
+   "entries": [
+    {
+     "name": "Mata-Utu",
+     "aliases": [],
+     "city": "city:WF-mata-utu",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q35555",
+     "location": {
+      "lon": -176.1737,
+      "lat": -13.2827
+     }
+    }
+   ]
+  },
+  "WS": {
+   "entries": [
+    {
+     "name": "Apia",
+     "aliases": [],
+     "city": "city:WS-apia",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q683",
+     "location": {
+      "lon": -171.833333333,
+      "lat": -13.833333333
+     }
+    }
+   ]
+  },
+  "XK": {
+   "entries": [
+    {
+     "name": "Pristina",
+     "aliases": [],
+     "city": "city:XK-pristina",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q1246",
+     "location": {
+      "lon": 21.166666666,
+      "lat": 42.666666666
+     }
+    }
+   ]
+  },
+  "YE": {
+   "entries": [
+    {
+     "name": "Sanaa",
+     "aliases": [
+      "Sana'a"
+     ],
+     "city": "city:YE-sana-a",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q805",
+     "location": {
+      "lon": 44.2,
+      "lat": 15.35
+     }
+    },
+    {
+     "name": "Aden",
+     "role": "temporary_seat",
+     "quiz": false,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q805",
+     "aliases": [],
+     "location": {
+      "lon": 45.033333333,
+      "lat": 12.8
+     },
+     "city": "city:YE-aden"
+    }
+   ]
+  },
+  "YT": {
+   "entries": [
+    {
+     "name": "Mamoudzou",
+     "aliases": [],
+     "city": "city:YT-mamoudzou",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q17063",
+     "location": {
+      "lon": 45.231666666,
+      "lat": -12.781388888
+     }
+    }
+   ]
+  },
+  "ZA": {
+   "entries": [
+    {
+     "name": "Pretoria",
+     "role": "executive",
+     "quiz": true,
+     "source": "South African Government",
+     "source_url": "https://www.gov.za/about-sa/south-africa-glance",
+     "aliases": [],
+     "wikidata": "Q3926",
+     "location": {
+      "lon": 28.188055555,
+      "lat": -25.746388888
+     },
+     "city": "city:ZA-pretoria"
+    },
+    {
+     "name": "Kapstadt",
+     "role": "legislative",
+     "quiz": true,
+     "source": "South African Government",
+     "source_url": "https://www.gov.za/about-sa/south-africa-glance",
+     "aliases": [
+      "Cape Town"
+     ],
+     "wikidata": "Q5465",
+     "location": {
+      "lon": 18.423888888,
+      "lat": -33.925277777
+     },
+     "city": "city:ZA-kapstadt"
+    },
+    {
+     "name": "Bloemfontein",
+     "role": "judicial",
+     "quiz": true,
+     "source": "South African Government",
+     "source_url": "https://www.gov.za/about-sa/south-africa-glance",
+     "aliases": [],
+     "wikidata": "Q37701",
+     "location": {
+      "lon": 26.216666666,
+      "lat": -29.1
+     },
+     "city": "city:ZA-bloemfontein"
+    }
+   ],
+   "note": "Pretoria ist die Verwaltungs-, Kapstadt die Parlaments- und Bloemfontein die Justizhauptstadt. Das Verfassungsgericht hat seinen Sitz in Johannesburg."
+  },
+  "ZM": {
+   "entries": [
+    {
+     "name": "Lusaka",
+     "aliases": [],
+     "city": "city:ZM-lusaka",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q953",
+     "location": {
+      "lon": 28.283333333,
+      "lat": -15.416666666
+     }
+    }
+   ]
+  },
+  "ZW": {
+   "entries": [
+    {
+     "name": "Harare",
+     "aliases": [],
+     "city": "city:ZW-harare",
+     "role": "capital",
+     "quiz": true,
+     "source": "Wikidata (CC0)",
+     "source_url": "https://www.wikidata.org/wiki/Q954",
+     "location": {
+      "lon": 31.052222222,
+      "lat": -17.829166666
+     }
+    }
+   ]
+  }
+ }
+}

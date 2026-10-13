@@ -24,6 +24,10 @@ Weitere Skripte:
 |---|---|
 | `npm run data:countries` | Länderstammdaten (mledoze/countries) + Umrisse (Natural Earth) |
 | `npm run data:legacy` | Flaggen, Regionen, Städte, Sehenswürdigkeiten aus dem Altbestand `ugbzspiele` |
+| `npm run data:capitals` | Geprüfte aktuelle Hauptstädte, Mehrfachhauptstädte und Regierungssitze nach den Rohimporten anwenden |
+| `npm run data:symbols` | Belegte Tiere, Vögel, Blumen, Bäume, Hymnentitel und amtliche Landesnamen ergänzen |
+| `npm run data:landmarks` | Sehenswürdigkeiten und geprüfte, versionierte Fotomotive importieren |
+| `npm run data:landmark-facts` | Standortangaben und Kurzfakten für Sehenswürdigkeiten ergänzen |
 | `npm run data:wikidata` | Einwohnerzahlen, höchste Punkte (Wikidata) |
 | `npm run data:plates` | Kfz-Kennzeichen DE/AT/CH (Wikidata P395) |
 | `npm run data:nature` | Flüsse, Seen, Berge (Wikidata, nach Bekanntheit) |

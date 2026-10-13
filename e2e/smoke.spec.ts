@@ -567,7 +567,9 @@ test('Erweiterte Quizmodi erzeugen die passenden Fragen', async ({ page }) => {
   await page.getByRole('radio', { name: 'Nationale Symbole', exact: true }).click()
   await page.getByRole('button', { name: "Los geht's" }).click()
   await expect(
-    page.locator('[data-generator="national_animal"], [data-generator="national_flower"]'),
+    page.locator(
+      '[data-generator="national_animal"], [data-generator="national_flower"], [data-generator="national_bird"], [data-generator="national_tree"]',
+    ),
   ).toBeVisible()
 })
 

@@ -66,6 +66,8 @@ Notation: **Gegeben → Gesucht** · Antwortform · Pool.
 | Hauptstadt → Land | Hauptstadtname → Land | MC 4 |
 | Eintippen | Landname → Hauptstadt | Text |
 
+Bei mehreren aktuellen Hauptstädten akzeptiert Eintippen jede Stadt und ihre Namensvarianten. Auch der Hauptstädtemodus unter Städte und Capitale verwenden diese Liste. Multiple Choice zeigt genau eine gültige Hauptstadt; weitere Hauptstädte desselben Landes dürfen keine Falschantworten sein. Rückwärtsfragen können jede aktuelle Hauptstadt verwenden. Die Schweiz wird nach ihrer Bundesstadt gefragt; Regierungssitze und frühere Hauptstädte werden nicht als offizielle Hauptstädte behandelt.
+
 ### Länder (Länderwissen)
 | Spielart | Gegeben → Gesucht | Form |
 |---|---|---|

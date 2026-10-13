@@ -16,6 +16,7 @@ const TYPE_LABELS = {
   landscape: 'Natur- oder Kulturlandschaft',
   memorial: 'Gedenkstätte',
   monastery: 'Klosteranlage',
+  museum: 'Museum',
   monument: 'Denkmal',
   palace: 'Palast oder Schloss',
   religious: 'Sakralbau',
@@ -135,7 +136,10 @@ for (const landmark of landmarks) {
   const continent = CONTINENT_LABELS[attributes.continent] ?? 'der zugeordneten Weltregion'
   const facts = [
     `Standort: ${place}, ${country}.`,
-    HIGHLIGHTS[landmark.id] ?? `${landmark.names.de} ist im Atlas als ${type} eingeordnet.`,
+    HIGHLIGHTS[landmark.id] ??
+      (attributes.description_de
+        ? `${String(attributes.description_de).charAt(0).toLocaleUpperCase('de')}${String(attributes.description_de).slice(1)}.`
+        : `${landmark.names.de} ist im Atlas als ${type} eingeordnet.`),
     attributes.unesco
       ? `Unter dem Namen „${attributes.unesco}“ gehört die Stätte zum UNESCO-Welterbe.`
       : `Der Standort liegt in der Weltregion ${continent}.`,

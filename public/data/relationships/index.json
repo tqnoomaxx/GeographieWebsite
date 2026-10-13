@@ -4090,19 +4090,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:AL-tirana",
-  "to": "country:AL",
-  "type": "capital_of"
- },
- {
   "from": "city:AD-andorra-la-vella",
   "to": "country:AD",
   "type": "located_in"
- },
- {
-  "from": "city:AD-andorra-la-vella",
-  "to": "country:AD",
-  "type": "capital_of"
  },
  {
   "from": "city:AT-wien",
@@ -4110,19 +4100,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:AT-wien",
-  "to": "country:AT",
-  "type": "capital_of"
- },
- {
   "from": "city:BY-minsk",
   "to": "country:BY",
   "type": "located_in"
- },
- {
-  "from": "city:BY-minsk",
-  "to": "country:BY",
-  "type": "capital_of"
  },
  {
   "from": "city:BE-brussel",
@@ -4130,19 +4110,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:BE-brussel",
-  "to": "country:BE",
-  "type": "capital_of"
- },
- {
   "from": "city:BA-sarajevo",
   "to": "country:BA",
   "type": "located_in"
- },
- {
-  "from": "city:BA-sarajevo",
-  "to": "country:BA",
-  "type": "capital_of"
  },
  {
   "from": "city:BG-sofia",
@@ -4150,19 +4120,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:BG-sofia",
-  "to": "country:BG",
-  "type": "capital_of"
- },
- {
   "from": "city:HR-zagreb",
   "to": "country:HR",
   "type": "located_in"
- },
- {
-  "from": "city:HR-zagreb",
-  "to": "country:HR",
-  "type": "capital_of"
  },
  {
   "from": "city:CY-nikosia",
@@ -4170,19 +4130,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:CY-nikosia",
-  "to": "country:CY",
-  "type": "capital_of"
- },
- {
   "from": "city:CZ-prag",
   "to": "country:CZ",
   "type": "located_in"
- },
- {
-  "from": "city:CZ-prag",
-  "to": "country:CZ",
-  "type": "capital_of"
  },
  {
   "from": "city:DK-kopenhagen",
@@ -4190,19 +4140,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:DK-kopenhagen",
-  "to": "country:DK",
-  "type": "capital_of"
- },
- {
   "from": "city:EE-tallinn",
   "to": "country:EE",
   "type": "located_in"
- },
- {
-  "from": "city:EE-tallinn",
-  "to": "country:EE",
-  "type": "capital_of"
  },
  {
   "from": "city:FI-helsinki",
@@ -4210,19 +4150,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:FI-helsinki",
-  "to": "country:FI",
-  "type": "capital_of"
- },
- {
   "from": "city:FR-paris",
   "to": "country:FR",
   "type": "located_in"
- },
- {
-  "from": "city:FR-paris",
-  "to": "country:FR",
-  "type": "capital_of"
  },
  {
   "from": "city:DE-berlin",
@@ -4230,19 +4160,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:DE-berlin",
-  "to": "country:DE",
-  "type": "capital_of"
- },
- {
   "from": "city:GR-athen",
   "to": "country:GR",
   "type": "located_in"
- },
- {
-  "from": "city:GR-athen",
-  "to": "country:GR",
-  "type": "capital_of"
  },
  {
   "from": "city:HU-budapest",
@@ -4250,19 +4170,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:HU-budapest",
-  "to": "country:HU",
-  "type": "capital_of"
- },
- {
   "from": "city:IS-reykjavik",
   "to": "country:IS",
   "type": "located_in"
- },
- {
-  "from": "city:IS-reykjavik",
-  "to": "country:IS",
-  "type": "capital_of"
  },
  {
   "from": "city:IE-dublin",
@@ -4270,19 +4180,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:IE-dublin",
-  "to": "country:IE",
-  "type": "capital_of"
- },
- {
   "from": "city:IT-rom",
   "to": "country:IT",
   "type": "located_in"
- },
- {
-  "from": "city:IT-rom",
-  "to": "country:IT",
-  "type": "capital_of"
  },
  {
   "from": "city:XK-pristina",
@@ -4290,19 +4190,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:XK-pristina",
-  "to": "country:XK",
-  "type": "capital_of"
- },
- {
   "from": "city:LV-riga",
   "to": "country:LV",
   "type": "located_in"
- },
- {
-  "from": "city:LV-riga",
-  "to": "country:LV",
-  "type": "capital_of"
  },
  {
   "from": "city:LI-vaduz",
@@ -4310,19 +4200,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:LI-vaduz",
-  "to": "country:LI",
-  "type": "capital_of"
- },
- {
   "from": "city:LT-vilnius",
   "to": "country:LT",
   "type": "located_in"
- },
- {
-  "from": "city:LT-vilnius",
-  "to": "country:LT",
-  "type": "capital_of"
  },
  {
   "from": "city:LU-luxemburg",
@@ -4330,19 +4210,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:LU-luxemburg",
-  "to": "country:LU",
-  "type": "capital_of"
- },
- {
   "from": "city:MT-valletta",
   "to": "country:MT",
   "type": "located_in"
- },
- {
-  "from": "city:MT-valletta",
-  "to": "country:MT",
-  "type": "capital_of"
  },
  {
   "from": "city:MD-chisinau",
@@ -4350,19 +4220,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:MD-chisinau",
-  "to": "country:MD",
-  "type": "capital_of"
- },
- {
   "from": "city:MC-monaco",
   "to": "country:MC",
   "type": "located_in"
- },
- {
-  "from": "city:MC-monaco",
-  "to": "country:MC",
-  "type": "capital_of"
  },
  {
   "from": "city:ME-podgorica",
@@ -4370,19 +4230,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:ME-podgorica",
-  "to": "country:ME",
-  "type": "capital_of"
- },
- {
   "from": "city:NL-amsterdam",
   "to": "country:NL",
   "type": "located_in"
- },
- {
-  "from": "city:NL-amsterdam",
-  "to": "country:NL",
-  "type": "capital_of"
  },
  {
   "from": "city:MK-skopje",
@@ -4390,19 +4240,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:MK-skopje",
-  "to": "country:MK",
-  "type": "capital_of"
- },
- {
   "from": "city:NO-oslo",
   "to": "country:NO",
   "type": "located_in"
- },
- {
-  "from": "city:NO-oslo",
-  "to": "country:NO",
-  "type": "capital_of"
  },
  {
   "from": "city:PL-warschau",
@@ -4410,19 +4250,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:PL-warschau",
-  "to": "country:PL",
-  "type": "capital_of"
- },
- {
   "from": "city:PT-lissabon",
   "to": "country:PT",
   "type": "located_in"
- },
- {
-  "from": "city:PT-lissabon",
-  "to": "country:PT",
-  "type": "capital_of"
  },
  {
   "from": "city:RO-bukarest",
@@ -4430,19 +4260,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:RO-bukarest",
-  "to": "country:RO",
-  "type": "capital_of"
- },
- {
   "from": "city:RU-moskau",
   "to": "country:RU",
   "type": "located_in"
- },
- {
-  "from": "city:RU-moskau",
-  "to": "country:RU",
-  "type": "capital_of"
  },
  {
   "from": "city:SM-san-marino",
@@ -4450,19 +4270,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:SM-san-marino",
-  "to": "country:SM",
-  "type": "capital_of"
- },
- {
   "from": "city:RS-belgrad",
   "to": "country:RS",
   "type": "located_in"
- },
- {
-  "from": "city:RS-belgrad",
-  "to": "country:RS",
-  "type": "capital_of"
  },
  {
   "from": "city:SK-bratislava",
@@ -4470,19 +4280,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:SK-bratislava",
-  "to": "country:SK",
-  "type": "capital_of"
- },
- {
   "from": "city:SI-ljubljana",
   "to": "country:SI",
   "type": "located_in"
- },
- {
-  "from": "city:SI-ljubljana",
-  "to": "country:SI",
-  "type": "capital_of"
  },
  {
   "from": "city:ES-madrid",
@@ -4490,19 +4290,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:ES-madrid",
-  "to": "country:ES",
-  "type": "capital_of"
- },
- {
   "from": "city:SE-stockholm",
   "to": "country:SE",
   "type": "located_in"
- },
- {
-  "from": "city:SE-stockholm",
-  "to": "country:SE",
-  "type": "capital_of"
  },
  {
   "from": "city:CH-bern",
@@ -4510,19 +4300,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:CH-bern",
-  "to": "country:CH",
-  "type": "capital_of"
- },
- {
   "from": "city:TR-ankara",
   "to": "country:TR",
   "type": "located_in"
- },
- {
-  "from": "city:TR-ankara",
-  "to": "country:TR",
-  "type": "capital_of"
  },
  {
   "from": "city:UA-kyjiw",
@@ -4530,19 +4310,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:UA-kyjiw",
-  "to": "country:UA",
-  "type": "capital_of"
- },
- {
   "from": "city:GB-london",
   "to": "country:GB",
   "type": "located_in"
- },
- {
-  "from": "city:GB-london",
-  "to": "country:GB",
-  "type": "capital_of"
  },
  {
   "from": "city:VA-vatikanstadt",
@@ -4550,19 +4320,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:VA-vatikanstadt",
-  "to": "country:VA",
-  "type": "capital_of"
- },
- {
   "from": "city:EG-kairo",
   "to": "country:EG",
   "type": "located_in"
- },
- {
-  "from": "city:EG-kairo",
-  "to": "country:EG",
-  "type": "capital_of"
  },
  {
   "from": "city:KE-nairobi",
@@ -4570,19 +4330,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:KE-nairobi",
-  "to": "country:KE",
-  "type": "capital_of"
- },
- {
   "from": "city:MA-rabat",
   "to": "country:MA",
   "type": "located_in"
- },
- {
-  "from": "city:MA-rabat",
-  "to": "country:MA",
-  "type": "capital_of"
  },
  {
   "from": "city:ZA-pretoria",
@@ -4590,19 +4340,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:ZA-pretoria",
-  "to": "country:ZA",
-  "type": "capital_of"
- },
- {
   "from": "city:TZ-dodoma",
   "to": "country:TZ",
   "type": "located_in"
- },
- {
-  "from": "city:TZ-dodoma",
-  "to": "country:TZ",
-  "type": "capital_of"
  },
  {
   "from": "city:NG-abuja",
@@ -4610,19 +4350,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:NG-abuja",
-  "to": "country:NG",
-  "type": "capital_of"
- },
- {
   "from": "city:ET-addis-abeba",
   "to": "country:ET",
   "type": "located_in"
- },
- {
-  "from": "city:ET-addis-abeba",
-  "to": "country:ET",
-  "type": "capital_of"
  },
  {
   "from": "city:GH-accra",
@@ -4630,19 +4360,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:GH-accra",
-  "to": "country:GH",
-  "type": "capital_of"
- },
- {
   "from": "city:SN-dakar",
   "to": "country:SN",
   "type": "located_in"
- },
- {
-  "from": "city:SN-dakar",
-  "to": "country:SN",
-  "type": "capital_of"
  },
  {
   "from": "city:JP-tokio",
@@ -4650,19 +4370,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:JP-tokio",
-  "to": "country:JP",
-  "type": "capital_of"
- },
- {
   "from": "city:CN-peking",
   "to": "country:CN",
   "type": "located_in"
- },
- {
-  "from": "city:CN-peking",
-  "to": "country:CN",
-  "type": "capital_of"
  },
  {
   "from": "city:IN-neu-delhi",
@@ -4670,19 +4380,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:IN-neu-delhi",
-  "to": "country:IN",
-  "type": "capital_of"
- },
- {
   "from": "city:TH-bangkok",
   "to": "country:TH",
   "type": "located_in"
- },
- {
-  "from": "city:TH-bangkok",
-  "to": "country:TH",
-  "type": "capital_of"
  },
  {
   "from": "city:KR-seoul",
@@ -4690,19 +4390,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:KR-seoul",
-  "to": "country:KR",
-  "type": "capital_of"
- },
- {
   "from": "city:VN-hanoi",
   "to": "country:VN",
   "type": "located_in"
- },
- {
-  "from": "city:VN-hanoi",
-  "to": "country:VN",
-  "type": "capital_of"
  },
  {
   "from": "city:KH-phnom-penh",
@@ -4710,19 +4400,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:KH-phnom-penh",
-  "to": "country:KH",
-  "type": "capital_of"
- },
- {
   "from": "city:ID-jakarta",
   "to": "country:ID",
   "type": "located_in"
- },
- {
-  "from": "city:ID-jakarta",
-  "to": "country:ID",
-  "type": "capital_of"
  },
  {
   "from": "city:MY-kuala-lumpur",
@@ -4730,19 +4410,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:MY-kuala-lumpur",
-  "to": "country:MY",
-  "type": "capital_of"
- },
- {
   "from": "city:SG-singapur",
   "to": "country:SG",
   "type": "located_in"
- },
- {
-  "from": "city:SG-singapur",
-  "to": "country:SG",
-  "type": "capital_of"
  },
  {
   "from": "city:AE-abu-dhabi",
@@ -4750,19 +4420,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:AE-abu-dhabi",
-  "to": "country:AE",
-  "type": "capital_of"
- },
- {
   "from": "city:CA-ottawa",
   "to": "country:CA",
   "type": "located_in"
- },
- {
-  "from": "city:CA-ottawa",
-  "to": "country:CA",
-  "type": "capital_of"
  },
  {
   "from": "city:US-washington-d-c",
@@ -4770,19 +4430,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:US-washington-d-c",
-  "to": "country:US",
-  "type": "capital_of"
- },
- {
   "from": "city:MX-mexiko-stadt",
   "to": "country:MX",
   "type": "located_in"
- },
- {
-  "from": "city:MX-mexiko-stadt",
-  "to": "country:MX",
-  "type": "capital_of"
  },
  {
   "from": "city:CU-havanna",
@@ -4790,19 +4440,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:CU-havanna",
-  "to": "country:CU",
-  "type": "capital_of"
- },
- {
   "from": "city:CR-san-jose",
   "to": "country:CR",
   "type": "located_in"
- },
- {
-  "from": "city:CR-san-jose",
-  "to": "country:CR",
-  "type": "capital_of"
  },
  {
   "from": "city:PA-panama-stadt",
@@ -4810,19 +4450,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:PA-panama-stadt",
-  "to": "country:PA",
-  "type": "capital_of"
- },
- {
   "from": "city:AR-buenos-aires",
   "to": "country:AR",
   "type": "located_in"
- },
- {
-  "from": "city:AR-buenos-aires",
-  "to": "country:AR",
-  "type": "capital_of"
  },
  {
   "from": "city:BR-brasilia",
@@ -4830,19 +4460,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:BR-brasilia",
-  "to": "country:BR",
-  "type": "capital_of"
- },
- {
   "from": "city:CL-santiago-de-chile",
   "to": "country:CL",
   "type": "located_in"
- },
- {
-  "from": "city:CL-santiago-de-chile",
-  "to": "country:CL",
-  "type": "capital_of"
  },
  {
   "from": "city:CO-bogota",
@@ -4850,19 +4470,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:CO-bogota",
-  "to": "country:CO",
-  "type": "capital_of"
- },
- {
   "from": "city:PE-lima",
   "to": "country:PE",
   "type": "located_in"
- },
- {
-  "from": "city:PE-lima",
-  "to": "country:PE",
-  "type": "capital_of"
  },
  {
   "from": "city:EC-quito",
@@ -4870,29 +4480,14 @@
   "type": "located_in"
  },
  {
-  "from": "city:EC-quito",
-  "to": "country:EC",
-  "type": "capital_of"
- },
- {
   "from": "city:AU-canberra",
   "to": "country:AU",
   "type": "located_in"
  },
  {
-  "from": "city:AU-canberra",
-  "to": "country:AU",
-  "type": "capital_of"
- },
- {
   "from": "city:NZ-wellington",
   "to": "country:NZ",
   "type": "located_in"
- },
- {
-  "from": "city:NZ-wellington",
-  "to": "country:NZ",
-  "type": "capital_of"
  },
  {
   "from": "city:ES-barcelona",
@@ -7855,19 +7450,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:AF-kabul",
-  "to": "country:AF",
-  "type": "capital_of"
- },
- {
   "from": "city:AG-saint-john-s",
   "to": "country:AG",
   "type": "located_in"
- },
- {
-  "from": "city:AG-saint-john-s",
-  "to": "country:AG",
-  "type": "capital_of"
  },
  {
   "from": "city:AI-the-valley",
@@ -7875,19 +7460,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:AI-the-valley",
-  "to": "country:AI",
-  "type": "capital_of"
- },
- {
   "from": "city:AM-yerevan",
   "to": "country:AM",
   "type": "located_in"
- },
- {
-  "from": "city:AM-yerevan",
-  "to": "country:AM",
-  "type": "capital_of"
  },
  {
   "from": "city:AO-luanda",
@@ -7895,19 +7470,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:AO-luanda",
-  "to": "country:AO",
-  "type": "capital_of"
- },
- {
   "from": "city:AS-pago-pago",
   "to": "country:AS",
   "type": "located_in"
- },
- {
-  "from": "city:AS-pago-pago",
-  "to": "country:AS",
-  "type": "capital_of"
  },
  {
   "from": "city:AW-oranjestad",
@@ -7915,19 +7480,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:AW-oranjestad",
-  "to": "country:AW",
-  "type": "capital_of"
- },
- {
   "from": "city:AX-mariehamn",
   "to": "country:AX",
   "type": "located_in"
- },
- {
-  "from": "city:AX-mariehamn",
-  "to": "country:AX",
-  "type": "capital_of"
  },
  {
   "from": "city:AZ-baku",
@@ -7935,19 +7490,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:AZ-baku",
-  "to": "country:AZ",
-  "type": "capital_of"
- },
- {
   "from": "city:BB-bridgetown",
   "to": "country:BB",
   "type": "located_in"
- },
- {
-  "from": "city:BB-bridgetown",
-  "to": "country:BB",
-  "type": "capital_of"
  },
  {
   "from": "city:BD-dhaka",
@@ -7955,19 +7500,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:BD-dhaka",
-  "to": "country:BD",
-  "type": "capital_of"
- },
- {
   "from": "city:BF-ouagadougou",
   "to": "country:BF",
   "type": "located_in"
- },
- {
-  "from": "city:BF-ouagadougou",
-  "to": "country:BF",
-  "type": "capital_of"
  },
  {
   "from": "city:BH-manama",
@@ -7975,19 +7510,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:BH-manama",
-  "to": "country:BH",
-  "type": "capital_of"
- },
- {
   "from": "city:BI-gitega",
   "to": "country:BI",
   "type": "located_in"
- },
- {
-  "from": "city:BI-gitega",
-  "to": "country:BI",
-  "type": "capital_of"
  },
  {
   "from": "city:BJ-porto-novo",
@@ -7995,19 +7520,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:BJ-porto-novo",
-  "to": "country:BJ",
-  "type": "capital_of"
- },
- {
   "from": "city:BL-gustavia",
   "to": "country:BL",
   "type": "located_in"
- },
- {
-  "from": "city:BL-gustavia",
-  "to": "country:BL",
-  "type": "capital_of"
  },
  {
   "from": "city:BM-hamilton",
@@ -8015,19 +7530,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:BM-hamilton",
-  "to": "country:BM",
-  "type": "capital_of"
- },
- {
   "from": "city:BN-bandar-seri-begawan",
   "to": "country:BN",
   "type": "located_in"
- },
- {
-  "from": "city:BN-bandar-seri-begawan",
-  "to": "country:BN",
-  "type": "capital_of"
  },
  {
   "from": "city:BO-sucre",
@@ -8035,19 +7540,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:BO-sucre",
-  "to": "country:BO",
-  "type": "capital_of"
- },
- {
   "from": "city:BQ-kralendijk",
   "to": "country:BQ",
   "type": "located_in"
- },
- {
-  "from": "city:BQ-kralendijk",
-  "to": "country:BQ",
-  "type": "capital_of"
  },
  {
   "from": "city:BS-nassau",
@@ -8055,19 +7550,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:BS-nassau",
-  "to": "country:BS",
-  "type": "capital_of"
- },
- {
   "from": "city:BT-thimphu",
   "to": "country:BT",
   "type": "located_in"
- },
- {
-  "from": "city:BT-thimphu",
-  "to": "country:BT",
-  "type": "capital_of"
  },
  {
   "from": "city:BW-gaborone",
@@ -8075,19 +7560,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:BW-gaborone",
-  "to": "country:BW",
-  "type": "capital_of"
- },
- {
   "from": "city:BZ-belmopan",
   "to": "country:BZ",
   "type": "located_in"
- },
- {
-  "from": "city:BZ-belmopan",
-  "to": "country:BZ",
-  "type": "capital_of"
  },
  {
   "from": "city:CC-west-island",
@@ -8095,19 +7570,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:CC-west-island",
-  "to": "country:CC",
-  "type": "capital_of"
- },
- {
   "from": "city:CD-kinshasa",
   "to": "country:CD",
   "type": "located_in"
- },
- {
-  "from": "city:CD-kinshasa",
-  "to": "country:CD",
-  "type": "capital_of"
  },
  {
   "from": "city:CF-bangui",
@@ -8115,19 +7580,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:CF-bangui",
-  "to": "country:CF",
-  "type": "capital_of"
- },
- {
   "from": "city:CG-brazzaville",
   "to": "country:CG",
   "type": "located_in"
- },
- {
-  "from": "city:CG-brazzaville",
-  "to": "country:CG",
-  "type": "capital_of"
  },
  {
   "from": "city:CI-yamoussoukro",
@@ -8135,19 +7590,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:CI-yamoussoukro",
-  "to": "country:CI",
-  "type": "capital_of"
- },
- {
   "from": "city:CK-avarua",
   "to": "country:CK",
   "type": "located_in"
- },
- {
-  "from": "city:CK-avarua",
-  "to": "country:CK",
-  "type": "capital_of"
  },
  {
   "from": "city:CM-yaounde",
@@ -8155,19 +7600,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:CM-yaounde",
-  "to": "country:CM",
-  "type": "capital_of"
- },
- {
   "from": "city:CV-praia",
   "to": "country:CV",
   "type": "located_in"
- },
- {
-  "from": "city:CV-praia",
-  "to": "country:CV",
-  "type": "capital_of"
  },
  {
   "from": "city:CW-willemstad",
@@ -8175,19 +7610,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:CW-willemstad",
-  "to": "country:CW",
-  "type": "capital_of"
- },
- {
   "from": "city:CX-flying-fish-cove",
   "to": "country:CX",
   "type": "located_in"
- },
- {
-  "from": "city:CX-flying-fish-cove",
-  "to": "country:CX",
-  "type": "capital_of"
  },
  {
   "from": "city:DJ-djibouti",
@@ -8195,19 +7620,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:DJ-djibouti",
-  "to": "country:DJ",
-  "type": "capital_of"
- },
- {
   "from": "city:DM-roseau",
   "to": "country:DM",
   "type": "located_in"
- },
- {
-  "from": "city:DM-roseau",
-  "to": "country:DM",
-  "type": "capital_of"
  },
  {
   "from": "city:DO-santo-domingo",
@@ -8215,19 +7630,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:DO-santo-domingo",
-  "to": "country:DO",
-  "type": "capital_of"
- },
- {
   "from": "city:DZ-algiers",
   "to": "country:DZ",
   "type": "located_in"
- },
- {
-  "from": "city:DZ-algiers",
-  "to": "country:DZ",
-  "type": "capital_of"
  },
  {
   "from": "city:EH-el-aaiun",
@@ -8235,19 +7640,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:EH-el-aaiun",
-  "to": "country:EH",
-  "type": "capital_of"
- },
- {
   "from": "city:ER-asmara",
   "to": "country:ER",
   "type": "located_in"
- },
- {
-  "from": "city:ER-asmara",
-  "to": "country:ER",
-  "type": "capital_of"
  },
  {
   "from": "city:FJ-suva",
@@ -8255,19 +7650,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:FJ-suva",
-  "to": "country:FJ",
-  "type": "capital_of"
- },
- {
   "from": "city:FK-stanley",
   "to": "country:FK",
   "type": "located_in"
- },
- {
-  "from": "city:FK-stanley",
-  "to": "country:FK",
-  "type": "capital_of"
  },
  {
   "from": "city:FM-palikir",
@@ -8275,19 +7660,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:FM-palikir",
-  "to": "country:FM",
-  "type": "capital_of"
- },
- {
   "from": "city:FO-torshavn",
   "to": "country:FO",
   "type": "located_in"
- },
- {
-  "from": "city:FO-torshavn",
-  "to": "country:FO",
-  "type": "capital_of"
  },
  {
   "from": "city:GA-libreville",
@@ -8295,19 +7670,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:GA-libreville",
-  "to": "country:GA",
-  "type": "capital_of"
- },
- {
   "from": "city:GD-st-george-s",
   "to": "country:GD",
   "type": "located_in"
- },
- {
-  "from": "city:GD-st-george-s",
-  "to": "country:GD",
-  "type": "capital_of"
  },
  {
   "from": "city:GE-tbilisi",
@@ -8315,19 +7680,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:GE-tbilisi",
-  "to": "country:GE",
-  "type": "capital_of"
- },
- {
   "from": "city:GF-cayenne",
   "to": "country:GF",
   "type": "located_in"
- },
- {
-  "from": "city:GF-cayenne",
-  "to": "country:GF",
-  "type": "capital_of"
  },
  {
   "from": "city:GG-st-peter-port",
@@ -8335,19 +7690,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:GG-st-peter-port",
-  "to": "country:GG",
-  "type": "capital_of"
- },
- {
   "from": "city:GI-gibraltar",
   "to": "country:GI",
   "type": "located_in"
- },
- {
-  "from": "city:GI-gibraltar",
-  "to": "country:GI",
-  "type": "capital_of"
  },
  {
   "from": "city:GL-nuuk",
@@ -8355,19 +7700,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:GL-nuuk",
-  "to": "country:GL",
-  "type": "capital_of"
- },
- {
   "from": "city:GM-banjul",
   "to": "country:GM",
   "type": "located_in"
- },
- {
-  "from": "city:GM-banjul",
-  "to": "country:GM",
-  "type": "capital_of"
  },
  {
   "from": "city:GN-conakry",
@@ -8375,19 +7710,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:GN-conakry",
-  "to": "country:GN",
-  "type": "capital_of"
- },
- {
   "from": "city:GP-basse-terre",
   "to": "country:GP",
   "type": "located_in"
- },
- {
-  "from": "city:GP-basse-terre",
-  "to": "country:GP",
-  "type": "capital_of"
  },
  {
   "from": "city:GQ-malabo",
@@ -8395,19 +7720,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:GQ-malabo",
-  "to": "country:GQ",
-  "type": "capital_of"
- },
- {
   "from": "city:GS-king-edward-point",
   "to": "country:GS",
   "type": "located_in"
- },
- {
-  "from": "city:GS-king-edward-point",
-  "to": "country:GS",
-  "type": "capital_of"
  },
  {
   "from": "city:GT-guatemala-city",
@@ -8415,19 +7730,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:GT-guatemala-city",
-  "to": "country:GT",
-  "type": "capital_of"
- },
- {
   "from": "city:GU-hagatna",
   "to": "country:GU",
   "type": "located_in"
- },
- {
-  "from": "city:GU-hagatna",
-  "to": "country:GU",
-  "type": "capital_of"
  },
  {
   "from": "city:GW-bissau",
@@ -8435,19 +7740,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:GW-bissau",
-  "to": "country:GW",
-  "type": "capital_of"
- },
- {
   "from": "city:GY-georgetown",
   "to": "country:GY",
   "type": "located_in"
- },
- {
-  "from": "city:GY-georgetown",
-  "to": "country:GY",
-  "type": "capital_of"
  },
  {
   "from": "city:HK-city-of-victoria",
@@ -8455,19 +7750,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:HK-city-of-victoria",
-  "to": "country:HK",
-  "type": "capital_of"
- },
- {
   "from": "city:HN-tegucigalpa",
   "to": "country:HN",
   "type": "located_in"
- },
- {
-  "from": "city:HN-tegucigalpa",
-  "to": "country:HN",
-  "type": "capital_of"
  },
  {
   "from": "city:HT-port-au-prince",
@@ -8475,19 +7760,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:HT-port-au-prince",
-  "to": "country:HT",
-  "type": "capital_of"
- },
- {
   "from": "city:IL-jerusalem",
   "to": "country:IL",
   "type": "located_in"
- },
- {
-  "from": "city:IL-jerusalem",
-  "to": "country:IL",
-  "type": "capital_of"
  },
  {
   "from": "city:IM-douglas",
@@ -8495,19 +7770,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:IM-douglas",
-  "to": "country:IM",
-  "type": "capital_of"
- },
- {
   "from": "city:IO-diego-garcia",
   "to": "country:IO",
   "type": "located_in"
- },
- {
-  "from": "city:IO-diego-garcia",
-  "to": "country:IO",
-  "type": "capital_of"
  },
  {
   "from": "city:IQ-baghdad",
@@ -8515,19 +7780,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:IQ-baghdad",
-  "to": "country:IQ",
-  "type": "capital_of"
- },
- {
   "from": "city:IR-tehran",
   "to": "country:IR",
   "type": "located_in"
- },
- {
-  "from": "city:IR-tehran",
-  "to": "country:IR",
-  "type": "capital_of"
  },
  {
   "from": "city:JE-saint-helier",
@@ -8535,19 +7790,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:JE-saint-helier",
-  "to": "country:JE",
-  "type": "capital_of"
- },
- {
   "from": "city:JM-kingston",
   "to": "country:JM",
   "type": "located_in"
- },
- {
-  "from": "city:JM-kingston",
-  "to": "country:JM",
-  "type": "capital_of"
  },
  {
   "from": "city:JO-amman",
@@ -8555,19 +7800,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:JO-amman",
-  "to": "country:JO",
-  "type": "capital_of"
- },
- {
   "from": "city:KG-bishkek",
   "to": "country:KG",
   "type": "located_in"
- },
- {
-  "from": "city:KG-bishkek",
-  "to": "country:KG",
-  "type": "capital_of"
  },
  {
   "from": "city:KI-south-tarawa",
@@ -8575,19 +7810,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:KI-south-tarawa",
-  "to": "country:KI",
-  "type": "capital_of"
- },
- {
   "from": "city:KM-moroni",
   "to": "country:KM",
   "type": "located_in"
- },
- {
-  "from": "city:KM-moroni",
-  "to": "country:KM",
-  "type": "capital_of"
  },
  {
   "from": "city:KN-basseterre",
@@ -8595,19 +7820,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:KN-basseterre",
-  "to": "country:KN",
-  "type": "capital_of"
- },
- {
   "from": "city:KP-pyongyang",
   "to": "country:KP",
   "type": "located_in"
- },
- {
-  "from": "city:KP-pyongyang",
-  "to": "country:KP",
-  "type": "capital_of"
  },
  {
   "from": "city:KW-kuwait-city",
@@ -8615,19 +7830,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:KW-kuwait-city",
-  "to": "country:KW",
-  "type": "capital_of"
- },
- {
   "from": "city:KY-george-town",
   "to": "country:KY",
   "type": "located_in"
- },
- {
-  "from": "city:KY-george-town",
-  "to": "country:KY",
-  "type": "capital_of"
  },
  {
   "from": "city:KZ-astana",
@@ -8635,19 +7840,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:KZ-astana",
-  "to": "country:KZ",
-  "type": "capital_of"
- },
- {
   "from": "city:LA-vientiane",
   "to": "country:LA",
   "type": "located_in"
- },
- {
-  "from": "city:LA-vientiane",
-  "to": "country:LA",
-  "type": "capital_of"
  },
  {
   "from": "city:LB-beirut",
@@ -8655,19 +7850,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:LB-beirut",
-  "to": "country:LB",
-  "type": "capital_of"
- },
- {
   "from": "city:LC-castries",
   "to": "country:LC",
   "type": "located_in"
- },
- {
-  "from": "city:LC-castries",
-  "to": "country:LC",
-  "type": "capital_of"
  },
  {
   "from": "city:LK-colombo",
@@ -8675,19 +7860,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:LK-colombo",
-  "to": "country:LK",
-  "type": "capital_of"
- },
- {
   "from": "city:LR-monrovia",
   "to": "country:LR",
   "type": "located_in"
- },
- {
-  "from": "city:LR-monrovia",
-  "to": "country:LR",
-  "type": "capital_of"
  },
  {
   "from": "city:LS-maseru",
@@ -8695,19 +7870,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:LS-maseru",
-  "to": "country:LS",
-  "type": "capital_of"
- },
- {
   "from": "city:LY-tripoli",
   "to": "country:LY",
   "type": "located_in"
- },
- {
-  "from": "city:LY-tripoli",
-  "to": "country:LY",
-  "type": "capital_of"
  },
  {
   "from": "city:MF-marigot",
@@ -8715,19 +7880,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:MF-marigot",
-  "to": "country:MF",
-  "type": "capital_of"
- },
- {
   "from": "city:MG-antananarivo",
   "to": "country:MG",
   "type": "located_in"
- },
- {
-  "from": "city:MG-antananarivo",
-  "to": "country:MG",
-  "type": "capital_of"
  },
  {
   "from": "city:MH-majuro",
@@ -8735,19 +7890,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:MH-majuro",
-  "to": "country:MH",
-  "type": "capital_of"
- },
- {
   "from": "city:ML-bamako",
   "to": "country:ML",
   "type": "located_in"
- },
- {
-  "from": "city:ML-bamako",
-  "to": "country:ML",
-  "type": "capital_of"
  },
  {
   "from": "city:MM-naypyidaw",
@@ -8755,19 +7900,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:MM-naypyidaw",
-  "to": "country:MM",
-  "type": "capital_of"
- },
- {
   "from": "city:MN-ulan-bator",
   "to": "country:MN",
   "type": "located_in"
- },
- {
-  "from": "city:MN-ulan-bator",
-  "to": "country:MN",
-  "type": "capital_of"
  },
  {
   "from": "city:MP-saipan",
@@ -8775,19 +7910,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:MP-saipan",
-  "to": "country:MP",
-  "type": "capital_of"
- },
- {
   "from": "city:MQ-fort-de-france",
   "to": "country:MQ",
   "type": "located_in"
- },
- {
-  "from": "city:MQ-fort-de-france",
-  "to": "country:MQ",
-  "type": "capital_of"
  },
  {
   "from": "city:MR-nouakchott",
@@ -8795,19 +7920,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:MR-nouakchott",
-  "to": "country:MR",
-  "type": "capital_of"
- },
- {
   "from": "city:MS-plymouth",
   "to": "country:MS",
   "type": "located_in"
- },
- {
-  "from": "city:MS-plymouth",
-  "to": "country:MS",
-  "type": "capital_of"
  },
  {
   "from": "city:MU-port-louis",
@@ -8815,19 +7930,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:MU-port-louis",
-  "to": "country:MU",
-  "type": "capital_of"
- },
- {
   "from": "city:MV-male",
   "to": "country:MV",
   "type": "located_in"
- },
- {
-  "from": "city:MV-male",
-  "to": "country:MV",
-  "type": "capital_of"
  },
  {
   "from": "city:MW-lilongwe",
@@ -8835,19 +7940,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:MW-lilongwe",
-  "to": "country:MW",
-  "type": "capital_of"
- },
- {
   "from": "city:MZ-maputo",
   "to": "country:MZ",
   "type": "located_in"
- },
- {
-  "from": "city:MZ-maputo",
-  "to": "country:MZ",
-  "type": "capital_of"
  },
  {
   "from": "city:NA-windhoek",
@@ -8855,19 +7950,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:NA-windhoek",
-  "to": "country:NA",
-  "type": "capital_of"
- },
- {
   "from": "city:NC-noumea",
   "to": "country:NC",
   "type": "located_in"
- },
- {
-  "from": "city:NC-noumea",
-  "to": "country:NC",
-  "type": "capital_of"
  },
  {
   "from": "city:NE-niamey",
@@ -8875,19 +7960,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:NE-niamey",
-  "to": "country:NE",
-  "type": "capital_of"
- },
- {
   "from": "city:NF-kingston",
   "to": "country:NF",
   "type": "located_in"
- },
- {
-  "from": "city:NF-kingston",
-  "to": "country:NF",
-  "type": "capital_of"
  },
  {
   "from": "city:NI-managua",
@@ -8895,19 +7970,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:NI-managua",
-  "to": "country:NI",
-  "type": "capital_of"
- },
- {
   "from": "city:NP-kathmandu",
   "to": "country:NP",
   "type": "located_in"
- },
- {
-  "from": "city:NP-kathmandu",
-  "to": "country:NP",
-  "type": "capital_of"
  },
  {
   "from": "city:NR-yaren",
@@ -8915,19 +7980,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:NR-yaren",
-  "to": "country:NR",
-  "type": "capital_of"
- },
- {
   "from": "city:NU-alofi",
   "to": "country:NU",
   "type": "located_in"
- },
- {
-  "from": "city:NU-alofi",
-  "to": "country:NU",
-  "type": "capital_of"
  },
  {
   "from": "city:OM-muscat",
@@ -8935,19 +7990,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:OM-muscat",
-  "to": "country:OM",
-  "type": "capital_of"
- },
- {
   "from": "city:PF-papeete",
   "to": "country:PF",
   "type": "located_in"
- },
- {
-  "from": "city:PF-papeete",
-  "to": "country:PF",
-  "type": "capital_of"
  },
  {
   "from": "city:PG-port-moresby",
@@ -8955,19 +8000,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:PG-port-moresby",
-  "to": "country:PG",
-  "type": "capital_of"
- },
- {
   "from": "city:PH-manila",
   "to": "country:PH",
   "type": "located_in"
- },
- {
-  "from": "city:PH-manila",
-  "to": "country:PH",
-  "type": "capital_of"
  },
  {
   "from": "city:PK-islamabad",
@@ -8975,19 +8010,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:PK-islamabad",
-  "to": "country:PK",
-  "type": "capital_of"
- },
- {
   "from": "city:PM-saint-pierre",
   "to": "country:PM",
   "type": "located_in"
- },
- {
-  "from": "city:PM-saint-pierre",
-  "to": "country:PM",
-  "type": "capital_of"
  },
  {
   "from": "city:PN-adamstown",
@@ -8995,19 +8020,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:PN-adamstown",
-  "to": "country:PN",
-  "type": "capital_of"
- },
- {
   "from": "city:PR-san-juan",
   "to": "country:PR",
   "type": "located_in"
- },
- {
-  "from": "city:PR-san-juan",
-  "to": "country:PR",
-  "type": "capital_of"
  },
  {
   "from": "city:PS-ramallah",
@@ -9015,19 +8030,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:PS-ramallah",
-  "to": "country:PS",
-  "type": "capital_of"
- },
- {
   "from": "city:PW-ngerulmud",
   "to": "country:PW",
   "type": "located_in"
- },
- {
-  "from": "city:PW-ngerulmud",
-  "to": "country:PW",
-  "type": "capital_of"
  },
  {
   "from": "city:PY-asuncion",
@@ -9035,19 +8040,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:PY-asuncion",
-  "to": "country:PY",
-  "type": "capital_of"
- },
- {
   "from": "city:QA-doha",
   "to": "country:QA",
   "type": "located_in"
- },
- {
-  "from": "city:QA-doha",
-  "to": "country:QA",
-  "type": "capital_of"
  },
  {
   "from": "city:RE-saint-denis",
@@ -9055,19 +8050,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:RE-saint-denis",
-  "to": "country:RE",
-  "type": "capital_of"
- },
- {
   "from": "city:RW-kigali",
   "to": "country:RW",
   "type": "located_in"
- },
- {
-  "from": "city:RW-kigali",
-  "to": "country:RW",
-  "type": "capital_of"
  },
  {
   "from": "city:SA-riyadh",
@@ -9075,19 +8060,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:SA-riyadh",
-  "to": "country:SA",
-  "type": "capital_of"
- },
- {
   "from": "city:SB-honiara",
   "to": "country:SB",
   "type": "located_in"
- },
- {
-  "from": "city:SB-honiara",
-  "to": "country:SB",
-  "type": "capital_of"
  },
  {
   "from": "city:SC-victoria",
@@ -9095,19 +8070,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:SC-victoria",
-  "to": "country:SC",
-  "type": "capital_of"
- },
- {
   "from": "city:SD-khartoum",
   "to": "country:SD",
   "type": "located_in"
- },
- {
-  "from": "city:SD-khartoum",
-  "to": "country:SD",
-  "type": "capital_of"
  },
  {
   "from": "city:SH-jamestown",
@@ -9115,19 +8080,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:SH-jamestown",
-  "to": "country:SH",
-  "type": "capital_of"
- },
- {
   "from": "city:SJ-longyearbyen",
   "to": "country:SJ",
   "type": "located_in"
- },
- {
-  "from": "city:SJ-longyearbyen",
-  "to": "country:SJ",
-  "type": "capital_of"
  },
  {
   "from": "city:SL-freetown",
@@ -9135,19 +8090,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:SL-freetown",
-  "to": "country:SL",
-  "type": "capital_of"
- },
- {
   "from": "city:SO-mogadishu",
   "to": "country:SO",
   "type": "located_in"
- },
- {
-  "from": "city:SO-mogadishu",
-  "to": "country:SO",
-  "type": "capital_of"
  },
  {
   "from": "city:SR-paramaribo",
@@ -9155,19 +8100,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:SR-paramaribo",
-  "to": "country:SR",
-  "type": "capital_of"
- },
- {
   "from": "city:SS-juba",
   "to": "country:SS",
   "type": "located_in"
- },
- {
-  "from": "city:SS-juba",
-  "to": "country:SS",
-  "type": "capital_of"
  },
  {
   "from": "city:ST-sao-tome",
@@ -9175,19 +8110,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:ST-sao-tome",
-  "to": "country:ST",
-  "type": "capital_of"
- },
- {
   "from": "city:SV-san-salvador",
   "to": "country:SV",
   "type": "located_in"
- },
- {
-  "from": "city:SV-san-salvador",
-  "to": "country:SV",
-  "type": "capital_of"
  },
  {
   "from": "city:SX-philipsburg",
@@ -9195,19 +8120,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:SX-philipsburg",
-  "to": "country:SX",
-  "type": "capital_of"
- },
- {
   "from": "city:SY-damascus",
   "to": "country:SY",
   "type": "located_in"
- },
- {
-  "from": "city:SY-damascus",
-  "to": "country:SY",
-  "type": "capital_of"
  },
  {
   "from": "city:SZ-lobamba",
@@ -9215,19 +8130,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:SZ-lobamba",
-  "to": "country:SZ",
-  "type": "capital_of"
- },
- {
   "from": "city:TC-cockburn-town",
   "to": "country:TC",
   "type": "located_in"
- },
- {
-  "from": "city:TC-cockburn-town",
-  "to": "country:TC",
-  "type": "capital_of"
  },
  {
   "from": "city:TD-n-djamena",
@@ -9235,19 +8140,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:TD-n-djamena",
-  "to": "country:TD",
-  "type": "capital_of"
- },
- {
   "from": "city:TF-port-aux-francais",
   "to": "country:TF",
   "type": "located_in"
- },
- {
-  "from": "city:TF-port-aux-francais",
-  "to": "country:TF",
-  "type": "capital_of"
  },
  {
   "from": "city:TG-lome",
@@ -9255,19 +8150,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:TG-lome",
-  "to": "country:TG",
-  "type": "capital_of"
- },
- {
   "from": "city:TJ-dushanbe",
   "to": "country:TJ",
   "type": "located_in"
- },
- {
-  "from": "city:TJ-dushanbe",
-  "to": "country:TJ",
-  "type": "capital_of"
  },
  {
   "from": "city:TK-fakaofo",
@@ -9275,19 +8160,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:TK-fakaofo",
-  "to": "country:TK",
-  "type": "capital_of"
- },
- {
   "from": "city:TL-dili",
   "to": "country:TL",
   "type": "located_in"
- },
- {
-  "from": "city:TL-dili",
-  "to": "country:TL",
-  "type": "capital_of"
  },
  {
   "from": "city:TM-ashgabat",
@@ -9295,19 +8170,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:TM-ashgabat",
-  "to": "country:TM",
-  "type": "capital_of"
- },
- {
   "from": "city:TN-tunis",
   "to": "country:TN",
   "type": "located_in"
- },
- {
-  "from": "city:TN-tunis",
-  "to": "country:TN",
-  "type": "capital_of"
  },
  {
   "from": "city:TO-nuku-alofa",
@@ -9315,19 +8180,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:TO-nuku-alofa",
-  "to": "country:TO",
-  "type": "capital_of"
- },
- {
   "from": "city:TT-port-of-spain",
   "to": "country:TT",
   "type": "located_in"
- },
- {
-  "from": "city:TT-port-of-spain",
-  "to": "country:TT",
-  "type": "capital_of"
  },
  {
   "from": "city:TV-funafuti",
@@ -9335,19 +8190,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:TV-funafuti",
-  "to": "country:TV",
-  "type": "capital_of"
- },
- {
   "from": "city:TW-taipei",
   "to": "country:TW",
   "type": "located_in"
- },
- {
-  "from": "city:TW-taipei",
-  "to": "country:TW",
-  "type": "capital_of"
  },
  {
   "from": "city:UG-kampala",
@@ -9355,19 +8200,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:UG-kampala",
-  "to": "country:UG",
-  "type": "capital_of"
- },
- {
   "from": "city:UY-montevideo",
   "to": "country:UY",
   "type": "located_in"
- },
- {
-  "from": "city:UY-montevideo",
-  "to": "country:UY",
-  "type": "capital_of"
  },
  {
   "from": "city:UZ-tashkent",
@@ -9375,19 +8210,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:UZ-tashkent",
-  "to": "country:UZ",
-  "type": "capital_of"
- },
- {
   "from": "city:VC-kingstown",
   "to": "country:VC",
   "type": "located_in"
- },
- {
-  "from": "city:VC-kingstown",
-  "to": "country:VC",
-  "type": "capital_of"
  },
  {
   "from": "city:VE-caracas",
@@ -9395,19 +8220,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:VE-caracas",
-  "to": "country:VE",
-  "type": "capital_of"
- },
- {
   "from": "city:VG-road-town",
   "to": "country:VG",
   "type": "located_in"
- },
- {
-  "from": "city:VG-road-town",
-  "to": "country:VG",
-  "type": "capital_of"
  },
  {
   "from": "city:VI-charlotte-amalie",
@@ -9415,19 +8230,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:VI-charlotte-amalie",
-  "to": "country:VI",
-  "type": "capital_of"
- },
- {
   "from": "city:VU-port-vila",
   "to": "country:VU",
   "type": "located_in"
- },
- {
-  "from": "city:VU-port-vila",
-  "to": "country:VU",
-  "type": "capital_of"
  },
  {
   "from": "city:WF-mata-utu",
@@ -9435,19 +8240,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:WF-mata-utu",
-  "to": "country:WF",
-  "type": "capital_of"
- },
- {
   "from": "city:WS-apia",
   "to": "country:WS",
   "type": "located_in"
- },
- {
-  "from": "city:WS-apia",
-  "to": "country:WS",
-  "type": "capital_of"
  },
  {
   "from": "city:YE-sana-a",
@@ -9455,19 +8250,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:YE-sana-a",
-  "to": "country:YE",
-  "type": "capital_of"
- },
- {
   "from": "city:YT-mamoudzou",
   "to": "country:YT",
   "type": "located_in"
- },
- {
-  "from": "city:YT-mamoudzou",
-  "to": "country:YT",
-  "type": "capital_of"
  },
  {
   "from": "city:ZM-lusaka",
@@ -9475,19 +8260,9 @@
   "type": "located_in"
  },
  {
-  "from": "city:ZM-lusaka",
-  "to": "country:ZM",
-  "type": "capital_of"
- },
- {
   "from": "city:ZW-harare",
   "to": "country:ZW",
   "type": "located_in"
- },
- {
-  "from": "city:ZW-harare",
-  "to": "country:ZW",
-  "type": "capital_of"
  },
  {
   "from": "landmark:alhambra",
@@ -22600,6 +21375,1246 @@
   "type": "located_in"
  },
  {
+  "from": "city:AD-andorra-la-vella",
+  "to": "country:AD",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:AE-abu-dhabi",
+  "to": "country:AE",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:AF-kabul",
+  "to": "country:AF",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:AG-saint-john-s",
+  "to": "country:AG",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:AI-the-valley",
+  "to": "country:AI",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:AL-tirana",
+  "to": "country:AL",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:AM-yerevan",
+  "to": "country:AM",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:AO-luanda",
+  "to": "country:AO",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:AR-buenos-aires",
+  "to": "country:AR",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:AS-pago-pago",
+  "to": "country:AS",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:AT-wien",
+  "to": "country:AT",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:AU-canberra",
+  "to": "country:AU",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:AW-oranjestad",
+  "to": "country:AW",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:AX-mariehamn",
+  "to": "country:AX",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:AZ-baku",
+  "to": "country:AZ",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:BA-sarajevo",
+  "to": "country:BA",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:BB-bridgetown",
+  "to": "country:BB",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:BD-dhaka",
+  "to": "country:BD",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:BE-brussel",
+  "to": "country:BE",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:BF-ouagadougou",
+  "to": "country:BF",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:BG-sofia",
+  "to": "country:BG",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:BH-manama",
+  "to": "country:BH",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:BI-gitega",
+  "to": "country:BI",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:BJ-porto-novo",
+  "to": "country:BJ",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:BL-gustavia",
+  "to": "country:BL",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:BM-hamilton",
+  "to": "country:BM",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:BN-bandar-seri-begawan",
+  "to": "country:BN",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:BO-sucre",
+  "to": "country:BO",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:BQ-kralendijk",
+  "to": "country:BQ",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:BR-brasilia",
+  "to": "country:BR",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:BS-nassau",
+  "to": "country:BS",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:BT-thimphu",
+  "to": "country:BT",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:BW-gaborone",
+  "to": "country:BW",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:BY-minsk",
+  "to": "country:BY",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:BZ-belmopan",
+  "to": "country:BZ",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:CA-ottawa",
+  "to": "country:CA",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:CC-west-island",
+  "to": "country:CC",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:CD-kinshasa",
+  "to": "country:CD",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:CF-bangui",
+  "to": "country:CF",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:CG-brazzaville",
+  "to": "country:CG",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:CH-bern",
+  "to": "country:CH",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:CI-yamoussoukro",
+  "to": "country:CI",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:CK-avarua",
+  "to": "country:CK",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:CL-santiago-de-chile",
+  "to": "country:CL",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:CM-yaounde",
+  "to": "country:CM",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:CN-peking",
+  "to": "country:CN",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:CO-bogota",
+  "to": "country:CO",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:CR-san-jose",
+  "to": "country:CR",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:CU-havanna",
+  "to": "country:CU",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:CV-praia",
+  "to": "country:CV",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:CW-willemstad",
+  "to": "country:CW",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:CX-flying-fish-cove",
+  "to": "country:CX",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:CY-nikosia",
+  "to": "country:CY",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:CZ-prag",
+  "to": "country:CZ",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:DE-berlin",
+  "to": "country:DE",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:DJ-djibouti",
+  "to": "country:DJ",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:DK-kopenhagen",
+  "to": "country:DK",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:DM-roseau",
+  "to": "country:DM",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:DO-santo-domingo",
+  "to": "country:DO",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:DZ-algiers",
+  "to": "country:DZ",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:EC-quito",
+  "to": "country:EC",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:EE-tallinn",
+  "to": "country:EE",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:EG-kairo",
+  "to": "country:EG",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:EH-el-aaiun",
+  "to": "country:EH",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:ER-asmara",
+  "to": "country:ER",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:ES-madrid",
+  "to": "country:ES",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:ET-addis-abeba",
+  "to": "country:ET",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:FI-helsinki",
+  "to": "country:FI",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:FJ-suva",
+  "to": "country:FJ",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:FK-stanley",
+  "to": "country:FK",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:FM-palikir",
+  "to": "country:FM",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:FO-torshavn",
+  "to": "country:FO",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:FR-paris",
+  "to": "country:FR",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:GA-libreville",
+  "to": "country:GA",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:GB-london",
+  "to": "country:GB",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:GD-st-george-s",
+  "to": "country:GD",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:GE-tbilisi",
+  "to": "country:GE",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:GF-cayenne",
+  "to": "country:GF",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:GG-st-peter-port",
+  "to": "country:GG",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:GH-accra",
+  "to": "country:GH",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:GI-gibraltar",
+  "to": "country:GI",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:GL-nuuk",
+  "to": "country:GL",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:GM-banjul",
+  "to": "country:GM",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:GN-conakry",
+  "to": "country:GN",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:GP-basse-terre",
+  "to": "country:GP",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:GQ-ciudad-de-la-paz",
+  "to": "country:GQ",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:GR-athen",
+  "to": "country:GR",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:GS-king-edward-point",
+  "to": "country:GS",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:GT-guatemala-city",
+  "to": "country:GT",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:GU-hagatna",
+  "to": "country:GU",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:GW-bissau",
+  "to": "country:GW",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:GY-georgetown",
+  "to": "country:GY",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:HN-tegucigalpa",
+  "to": "country:HN",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:HR-zagreb",
+  "to": "country:HR",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:HT-port-au-prince",
+  "to": "country:HT",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:HU-budapest",
+  "to": "country:HU",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:ID-jakarta",
+  "to": "country:ID",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:IE-dublin",
+  "to": "country:IE",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:IL-jerusalem",
+  "to": "country:IL",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:IM-douglas",
+  "to": "country:IM",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:IN-neu-delhi",
+  "to": "country:IN",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:IO-diego-garcia",
+  "to": "country:IO",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:IQ-baghdad",
+  "to": "country:IQ",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:IR-tehran",
+  "to": "country:IR",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:IS-reykjavik",
+  "to": "country:IS",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:IT-rom",
+  "to": "country:IT",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:JE-saint-helier",
+  "to": "country:JE",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:JM-kingston",
+  "to": "country:JM",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:JO-amman",
+  "to": "country:JO",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:JP-tokio",
+  "to": "country:JP",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:KE-nairobi",
+  "to": "country:KE",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:KG-bishkek",
+  "to": "country:KG",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:KH-phnom-penh",
+  "to": "country:KH",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:KI-south-tarawa",
+  "to": "country:KI",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:KM-moroni",
+  "to": "country:KM",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:KN-basseterre",
+  "to": "country:KN",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:KP-pyongyang",
+  "to": "country:KP",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:KR-seoul",
+  "to": "country:KR",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:KW-kuwait-city",
+  "to": "country:KW",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:KY-george-town",
+  "to": "country:KY",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:KZ-astana",
+  "to": "country:KZ",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:LA-vientiane",
+  "to": "country:LA",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:LB-beirut",
+  "to": "country:LB",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:LC-castries",
+  "to": "country:LC",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:LI-vaduz",
+  "to": "country:LI",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:LK-sri-jayewardenepura-kotte",
+  "to": "country:LK",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:LR-monrovia",
+  "to": "country:LR",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:LS-maseru",
+  "to": "country:LS",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:LT-vilnius",
+  "to": "country:LT",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:LU-luxemburg",
+  "to": "country:LU",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:LV-riga",
+  "to": "country:LV",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:LY-tripoli",
+  "to": "country:LY",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MA-rabat",
+  "to": "country:MA",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MC-monaco",
+  "to": "country:MC",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MD-chisinau",
+  "to": "country:MD",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:ME-podgorica",
+  "to": "country:ME",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MF-marigot",
+  "to": "country:MF",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MG-antananarivo",
+  "to": "country:MG",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MH-majuro",
+  "to": "country:MH",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MK-skopje",
+  "to": "country:MK",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:ML-bamako",
+  "to": "country:ML",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MM-naypyidaw",
+  "to": "country:MM",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MN-ulan-bator",
+  "to": "country:MN",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MP-saipan",
+  "to": "country:MP",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MQ-fort-de-france",
+  "to": "country:MQ",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MR-nouakchott",
+  "to": "country:MR",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MS-plymouth",
+  "to": "country:MS",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MT-valletta",
+  "to": "country:MT",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MU-port-louis",
+  "to": "country:MU",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MV-male",
+  "to": "country:MV",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MW-lilongwe",
+  "to": "country:MW",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MX-mexiko-stadt",
+  "to": "country:MX",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MY-kuala-lumpur",
+  "to": "country:MY",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MY-putrajaya",
+  "to": "country:MY",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:MZ-maputo",
+  "to": "country:MZ",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:NA-windhoek",
+  "to": "country:NA",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:NC-noumea",
+  "to": "country:NC",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:NE-niamey",
+  "to": "country:NE",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:NF-kingston",
+  "to": "country:NF",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:NG-abuja",
+  "to": "country:NG",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:NI-managua",
+  "to": "country:NI",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:NL-amsterdam",
+  "to": "country:NL",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:NO-oslo",
+  "to": "country:NO",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:NP-kathmandu",
+  "to": "country:NP",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:NU-alofi",
+  "to": "country:NU",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:NZ-wellington",
+  "to": "country:NZ",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:OM-muscat",
+  "to": "country:OM",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:PA-panama-stadt",
+  "to": "country:PA",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:PE-lima",
+  "to": "country:PE",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:PF-papeete",
+  "to": "country:PF",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:PG-port-moresby",
+  "to": "country:PG",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:PH-manila",
+  "to": "country:PH",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:PK-islamabad",
+  "to": "country:PK",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:PL-warschau",
+  "to": "country:PL",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:PM-saint-pierre",
+  "to": "country:PM",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:PN-adamstown",
+  "to": "country:PN",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:PR-san-juan",
+  "to": "country:PR",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:PS-ostjerusalem",
+  "to": "country:PS",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:PT-lissabon",
+  "to": "country:PT",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:PW-ngerulmud",
+  "to": "country:PW",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:PY-asuncion",
+  "to": "country:PY",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:QA-doha",
+  "to": "country:QA",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:RE-saint-denis",
+  "to": "country:RE",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:RO-bukarest",
+  "to": "country:RO",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:RS-belgrad",
+  "to": "country:RS",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:RU-moskau",
+  "to": "country:RU",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:RW-kigali",
+  "to": "country:RW",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SA-riyadh",
+  "to": "country:SA",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SB-honiara",
+  "to": "country:SB",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SC-victoria",
+  "to": "country:SC",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SD-khartoum",
+  "to": "country:SD",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SE-stockholm",
+  "to": "country:SE",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SG-singapur",
+  "to": "country:SG",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SH-jamestown",
+  "to": "country:SH",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SI-ljubljana",
+  "to": "country:SI",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SJ-longyearbyen",
+  "to": "country:SJ",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SK-bratislava",
+  "to": "country:SK",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SL-freetown",
+  "to": "country:SL",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SM-san-marino",
+  "to": "country:SM",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SN-dakar",
+  "to": "country:SN",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SO-mogadishu",
+  "to": "country:SO",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SR-paramaribo",
+  "to": "country:SR",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SS-juba",
+  "to": "country:SS",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:ST-sao-tome",
+  "to": "country:ST",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SV-san-salvador",
+  "to": "country:SV",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SX-philipsburg",
+  "to": "country:SX",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SY-damascus",
+  "to": "country:SY",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SZ-mbabane",
+  "to": "country:SZ",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:SZ-lobamba",
+  "to": "country:SZ",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:TC-cockburn-town",
+  "to": "country:TC",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:TD-n-djamena",
+  "to": "country:TD",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:TF-port-aux-francais",
+  "to": "country:TF",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:TG-lome",
+  "to": "country:TG",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:TH-bangkok",
+  "to": "country:TH",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:TJ-dushanbe",
+  "to": "country:TJ",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:TL-dili",
+  "to": "country:TL",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:TM-ashgabat",
+  "to": "country:TM",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:TN-tunis",
+  "to": "country:TN",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:TO-nuku-alofa",
+  "to": "country:TO",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:TR-ankara",
+  "to": "country:TR",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:TT-port-of-spain",
+  "to": "country:TT",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:TV-funafuti",
+  "to": "country:TV",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:TW-taipei",
+  "to": "country:TW",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:TZ-dodoma",
+  "to": "country:TZ",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:UA-kyjiw",
+  "to": "country:UA",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:UG-kampala",
+  "to": "country:UG",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:US-washington-d-c",
+  "to": "country:US",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:UY-montevideo",
+  "to": "country:UY",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:UZ-tashkent",
+  "to": "country:UZ",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:VA-vatikanstadt",
+  "to": "country:VA",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:VC-kingstown",
+  "to": "country:VC",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:VE-caracas",
+  "to": "country:VE",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:VG-road-town",
+  "to": "country:VG",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:VI-charlotte-amalie",
+  "to": "country:VI",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:VN-hanoi",
+  "to": "country:VN",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:VU-port-vila",
+  "to": "country:VU",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:WF-mata-utu",
+  "to": "country:WF",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:WS-apia",
+  "to": "country:WS",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:XK-pristina",
+  "to": "country:XK",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:YE-sana-a",
+  "to": "country:YE",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:YT-mamoudzou",
+  "to": "country:YT",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:ZA-pretoria",
+  "to": "country:ZA",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:ZA-kapstadt",
+  "to": "country:ZA",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:ZA-bloemfontein",
+  "to": "country:ZA",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:ZM-lusaka",
+  "to": "country:ZM",
+  "type": "capital_of"
+ },
+ {
+  "from": "city:ZW-harare",
+  "to": "country:ZW",
+  "type": "capital_of"
+ },
+ {
+  "from": "landmark:abomey-palaces",
+  "to": "country:BJ",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:abu-simbel",
+  "to": "country:EG",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:african-renaissance",
   "to": "country:SN",
   "type": "located_in"
@@ -22607,6 +22622,21 @@
  {
   "from": "landmark:african-renaissance",
   "to": "city:SN-dakar",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:alcazar-colon",
+  "to": "country:DO",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:alcazar-colon",
+  "to": "city:DO-santo-domingo",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:ancient-merv",
+  "to": "country:TM",
   "type": "located_in"
  },
  {
@@ -22622,6 +22652,11 @@
  {
   "from": "landmark:angel-independence",
   "to": "city:MX-mexiko-stadt",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:arenal-volcano",
+  "to": "country:CR",
   "type": "located_in"
  },
  {
@@ -22645,8 +22680,43 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:avenue-baobabs",
+  "to": "country:MG",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:baalbek",
+  "to": "country:LB",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:badrulchau",
+  "to": "country:PW",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:badshahi-mosque",
+  "to": "country:PK",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:badshahi-mosque",
+  "to": "city:PK-lahore",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:bagan",
   "to": "country:MM",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:bahai-gardens-haifa",
+  "to": "country:IL",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:bahai-gardens-haifa",
+  "to": "city:IL-haifa",
   "type": "located_in"
  },
  {
@@ -22657,6 +22727,16 @@
  {
   "from": "landmark:bahrain-world-trade-center",
   "to": "city:BH-manama",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:bayterek",
+  "to": "country:KZ",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:bayterek",
+  "to": "city:KZ-astana",
   "type": "located_in"
  },
  {
@@ -22672,6 +22752,31 @@
  {
   "from": "landmark:bikini-atoll",
   "to": "country:MH",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:boiling-lake",
+  "to": "country:DM",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:borgund-stave-church",
+  "to": "country:NO",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:boudhanath",
+  "to": "country:NP",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:boudhanath",
+  "to": "city:NP-kathmandu",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:bran-castle",
+  "to": "country:RO",
   "type": "located_in"
  },
  {
@@ -22695,6 +22800,11 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:burana-tower",
+  "to": "country:KG",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:burj-khalifa",
   "to": "country:AE",
   "type": "located_in"
@@ -22702,6 +22812,16 @@
  {
   "from": "landmark:burj-khalifa",
   "to": "city:AE-dubai",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:butrint",
+  "to": "country:AL",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:cape-maclear",
+  "to": "country:MW",
   "type": "located_in"
  },
  {
@@ -22755,6 +22875,31 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:chillon-castle",
+  "to": "country:CH",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:chocolate-hills",
+  "to": "country:PH",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:church-nativity",
+  "to": "country:PS",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:cidade-velha",
+  "to": "country:CV",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:citadelle-laferriere",
+  "to": "country:HT",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:cn-tower",
   "to": "country:CA",
   "type": "located_in"
@@ -22762,6 +22907,26 @@
  {
   "from": "landmark:cn-tower",
   "to": "city:CA-toronto",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:copan",
+  "to": "country:HN",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:cristo-rei-dili",
+  "to": "country:TL",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:cristo-rei-dili",
+  "to": "city:TL-dili",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:deans-blue-hole",
+  "to": "country:BS",
   "type": "located_in"
  },
  {
@@ -22785,6 +22950,11 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:dunns-river-falls",
+  "to": "country:JM",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:el-jem",
   "to": "country:TN",
   "type": "located_in"
@@ -22800,6 +22970,26 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:ennedi-massif",
+  "to": "country:TD",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:erdene-zuu",
+  "to": "country:MN",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:fasil-ghebbi",
+  "to": "country:ET",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:fasil-ghebbi",
+  "to": "city:ET-gonder",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:forbidden-city",
   "to": "country:CN",
   "type": "located_in"
@@ -22810,6 +23000,21 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:fort-jesus",
+  "to": "country:KE",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:fort-jesus",
+  "to": "city:KE-mombasa",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:fort-sao-sebastiao",
+  "to": "country:MZ",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:gardens-by-the-bay",
   "to": "country:SG",
   "type": "located_in"
@@ -22817,6 +23022,11 @@
  {
   "from": "landmark:gardens-by-the-bay",
   "to": "city:SG-singapur",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:garni-temple",
+  "to": "country:AM",
   "type": "located_in"
  },
  {
@@ -22835,6 +23045,11 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:gergeti-church",
+  "to": "country:GE",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:golden-gate",
   "to": "country:US",
   "type": "located_in"
@@ -22842,6 +23057,11 @@
  {
   "from": "landmark:golden-gate",
   "to": "city:US-san-francisco",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:granada-cathedral",
+  "to": "country:NI",
   "type": "located_in"
  },
  {
@@ -22865,6 +23085,16 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:guggenheim-bilbao",
+  "to": "country:ES",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:guggenheim-bilbao",
+  "to": "city:ES-bilbao",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:gyeongbokgung",
   "to": "country:KR",
   "type": "located_in"
@@ -22875,6 +23105,11 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:haamonga-maui",
+  "to": "country:TO",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:hallgrimskirkja",
   "to": "country:IS",
   "type": "located_in"
@@ -22882,6 +23117,11 @@
  {
   "from": "landmark:hallgrimskirkja",
   "to": "city:IS-reykjavik",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:harrisons-cave",
+  "to": "country:BB",
   "type": "located_in"
  },
  {
@@ -22915,6 +23155,36 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:hegra",
+  "to": "country:SA",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:hissar-fortress",
+  "to": "country:TJ",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:house-blackheads-riga",
+  "to": "country:LV",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:house-blackheads-riga",
+  "to": "city:LV-riga",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:hue-imperial-city",
+  "to": "country:VN",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:hue-imperial-city",
+  "to": "city:VN-hue",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:hungarian-parliament",
   "to": "country:HU",
   "type": "located_in"
@@ -22945,8 +23215,43 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:islamic-art-doha",
+  "to": "country:QA",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:islamic-art-doha",
+  "to": "city:QA-doha",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:itsukushima-shrine",
   "to": "country:JP",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:joya-de-ceren",
+  "to": "country:SV",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:kaieteur-falls",
+  "to": "country:GY",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:karnak",
+  "to": "country:EG",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:kasubi-tombs",
+  "to": "country:UG",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:kasubi-tombs",
+  "to": "city:UG-kampala",
   "type": "located_in"
  },
  {
@@ -22960,8 +23265,43 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:kinderdijk",
+  "to": "country:NL",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:kings-palace-nyanza",
+  "to": "country:RW",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:kotor-old-town",
+  "to": "country:ME",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:kunta-kinteh-island",
+  "to": "country:GM",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:lake-bled",
   "to": "country:SI",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:lalbagh-fort",
+  "to": "country:BD",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:lalbagh-fort",
+  "to": "city:BD-dhaka",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:las-lajas",
+  "to": "country:CO",
   "type": "located_in"
  },
  {
@@ -22980,6 +23320,11 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:loropeni",
+  "to": "country:BF",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:lotus-temple",
   "to": "country:IN",
   "type": "located_in"
@@ -22990,6 +23335,16 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:maiden-tower-baku",
+  "to": "country:AZ",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:maiden-tower-baku",
+  "to": "city:AZ-baku",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:marina-bay-sands",
   "to": "country:SG",
   "type": "located_in"
@@ -23000,6 +23355,16 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:marovo-lagoon",
+  "to": "country:SB",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:matobo-hills",
+  "to": "country:ZW",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:merlion",
   "to": "country:SG",
   "type": "located_in"
@@ -23007,6 +23372,21 @@
  {
   "from": "landmark:merlion",
   "to": "city:SG-singapur",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:meroe-pyramids",
+  "to": "country:SD",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:minaret-jam",
+  "to": "country:AF",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:mitad-mundo",
+  "to": "country:EC",
   "type": "located_in"
  },
  {
@@ -23025,13 +23405,43 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:mount-yasur",
+  "to": "country:VU",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:nan-madol",
   "to": "country:FM",
   "type": "located_in"
  },
  {
+  "from": "landmark:nasir-al-mulk",
+  "to": "country:IR",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:nazca-lines",
+  "to": "country:PE",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:neuschwanstein",
   "to": "country:DE",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:nizwa-fort",
+  "to": "country:OM",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:old-sanaa",
+  "to": "country:YE",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:old-sanaa",
+  "to": "city:YE-sana-a",
   "type": "located_in"
  },
  {
@@ -23062,6 +23472,26 @@
  {
   "from": "landmark:panama-canal",
   "to": "city:PA-panama-stadt",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:papua-parliament",
+  "to": "country:PG",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:papua-parliament",
+  "to": "city:PG-port-moresby",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:paramaribo-cathedral",
+  "to": "country:SR",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:paramaribo-cathedral",
+  "to": "city:SR-paramaribo",
   "type": "located_in"
  },
  {
@@ -23100,6 +23530,11 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:pitch-lake",
+  "to": "country:TT",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:potala-palace",
   "to": "country:CN",
   "type": "located_in"
@@ -23115,6 +23550,11 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:prambanan",
+  "to": "country:ID",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:registan",
   "to": "country:UZ",
   "type": "located_in"
@@ -23125,8 +23565,23 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:rijksmuseum",
+  "to": "country:NL",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:rijksmuseum",
+  "to": "city:NL-amsterdam",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:rila-monastery",
   "to": "country:BG",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:rock-cashel",
+  "to": "country:IE",
   "type": "located_in"
  },
  {
@@ -23145,6 +23600,21 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:saint-sava-belgrade",
+  "to": "country:RS",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:saint-sava-belgrade",
+  "to": "city:RS-belgrad",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:saint-sophia-kyiv",
+  "to": "country:UA",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:salar-de-uyuni",
   "to": "country:BO",
   "type": "located_in"
@@ -23157,6 +23627,16 @@
  {
   "from": "landmark:schonbrunn",
   "to": "city:AT-wien",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:shah-i-zinda",
+  "to": "country:UZ",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:shah-i-zinda",
+  "to": "city:UZ-samarqand",
   "type": "located_in"
  },
  {
@@ -23185,6 +23665,11 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:sossusvlei",
+  "to": "country:NA",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:space-needle",
   "to": "country:US",
   "type": "located_in"
@@ -23195,8 +23680,38 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:sri-siva-subramaniya",
+  "to": "country:FJ",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:st-john-valletta",
+  "to": "country:MT",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:st-john-valletta",
+  "to": "city:MT-valletta",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:stari-most",
+  "to": "country:BA",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:stone-town",
   "to": "country:TZ",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:sugarloaf-mountain",
+  "to": "country:BR",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:sugarloaf-mountain",
+  "to": "city:BR-rio-de-janeiro",
   "type": "located_in"
  },
  {
@@ -23207,6 +23722,16 @@
  {
   "from": "landmark:sultan-qaboos-mosque",
   "to": "city:OM-maskat",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:suomenlinna",
+  "to": "country:FI",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:suomenlinna",
+  "to": "city:FI-helsinki",
   "type": "located_in"
  },
  {
@@ -23265,6 +23790,26 @@
   "type": "located_in"
  },
  {
+  "from": "landmark:tigers-nest",
+  "to": "country:BT",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:tikal",
+  "to": "country:GT",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:tiwanaku",
+  "to": "country:BO",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:to-sua",
+  "to": "country:WS",
+  "type": "located_in"
+ },
+ {
   "from": "landmark:tokyo-skytree",
   "to": "country:JP",
   "type": "located_in"
@@ -23272,6 +23817,36 @@
  {
   "from": "landmark:tokyo-skytree",
   "to": "city:JP-tokio",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:tombs-kings-paphos",
+  "to": "country:CY",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:torres-del-paine",
+  "to": "country:CL",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:trakai-castle",
+  "to": "country:LT",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:trevi-fountain",
+  "to": "country:IT",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:trevi-fountain",
+  "to": "city:IT-rom",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:tsodilo",
+  "to": "country:BW",
   "type": "located_in"
  },
  {
@@ -23287,6 +23862,31 @@
  {
   "from": "landmark:union-buildings",
   "to": "city:ZA-pretoria",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:vallee-de-mai",
+  "to": "country:SC",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:vasa-museum",
+  "to": "country:SE",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:vasa-museum",
+  "to": "city:SE-stockholm",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:vianden-castle",
+  "to": "country:LU",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:wadi-rum",
+  "to": "country:JO",
   "type": "located_in"
  },
  {
@@ -23307,6 +23907,16 @@
  {
   "from": "landmark:wawel-castle",
   "to": "city:PL-krakau",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:xunantunich",
+  "to": "country:BZ",
+  "type": "located_in"
+ },
+ {
+  "from": "landmark:zuma-rock",
+  "to": "country:NG",
   "type": "located_in"
  }
 ]

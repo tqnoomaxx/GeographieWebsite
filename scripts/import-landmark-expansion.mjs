@@ -1,12 +1,13 @@
 // Ergänzt den kuratierten Altbestand um international bekannte Sehenswürdigkeiten.
 // Fotos und Lizenzmetadaten kommen über die offiziellen MediaWiki-APIs von Wikipedia/Wikimedia Commons.
 import { execFileSync } from 'node:child_process'
+import { createHash } from 'node:crypto'
 import { existsSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs'
 import { tmpdir } from 'node:os'
 import { extname, join } from 'node:path'
 import { DATA, PUBLIC, ROOT, readJson, writeJson } from './lib/common.mjs'
 
-const ITEMS = [
+const BASE_ITEMS = [
   ['schonbrunn', 'Schloss Schönbrunn', 'Schönbrunn Palace', 'AT', 'Wien', 'europe', 'palace'],
   [
     'neuschwanstein',
@@ -275,6 +276,31 @@ const ITEMS = [
   ['beehive-wellington', 'Beehive', 'Beehive (New Zealand)', 'NZ', 'Wellington', 'oceania', 'building'],
 ]
 
+const extraItems = readJson(join(ROOT, 'scripts/content/landmark-expansion.json'))
+const photoOverrides = readJson(join(ROOT, 'scripts/content/landmark-photo-overrides.json'))
+const initialLandmarks = readJson(join(DATA, 'entities/landmarks.json'))
+const byInitialId = new Map(initialLandmarks.map((item) => [item.id, item]))
+const ITEMS = [
+  ...BASE_ITEMS,
+  ...extraItems.map((item) => [item.id, item.de, item.en, item.iso2, item.place, item.continent, item.type]),
+]
+const photoRequests = [...ITEMS]
+for (const slug of Object.keys(photoOverrides)) {
+  if (photoRequests.some(([id]) => id === slug)) continue
+  const item = byInitialId.get(`landmark:${slug}`)
+  if (item) photoRequests.push([slug, item.names.de, item.names.en])
+}
+
+// PageImages can choose a company logo or a location map. Picture questions need a real motif.
+const unsuitablePhoto = (filename = '') =>
+  /\.(?:svg|pdf)$/i.test(filename) ||
+  /banknote|\d+[ _-]?riels?/i.test(filename) ||
+  /(?:^|[ _-])(logo|icon|locator|map|flag|coat(?:_of_arms)?|seal|plan|diagram)(?:[ _.-]|$)/i.test(filename)
+const approvedLicense = (license = '') =>
+  !/\b(?:NC|ND)\b/i.test(license) &&
+  /^(?:CC[ -]BY(?:[ -]SA)?|CC0|Public domain|PD-|FAL|GFDL|KOGL Type 1$)/i.test(license)
+const tomorrow = (date) => new Date(Date.parse(`${date}T12:00:00Z`) + 86_400_000).toISOString().slice(0, 10)
+
 const cachePath = join(ROOT, 'scripts', 'content', 'landmark-media.json')
 const cache = existsSync(cachePath) ? readJson(cachePath) : {}
 const outDir = join(PUBLIC, 'media', 'photos', 'landmarks')
@@ -304,19 +330,40 @@ async function json(url) {
 }
 
 async function download(url) {
+  const original = new URL(url)
+  const isThumbnail = original.pathname.includes('/thumb/')
+  if (isThumbnail) {
+    original.hostname = 'upload.wikimedia.org'
+    original.pathname = original.pathname.replace('/thumb/', '/')
+    original.pathname = original.pathname.slice(0, original.pathname.lastIndexOf('/'))
+    original.search = ''
+  }
   for (let attempt = 0; attempt < 5; attempt++) {
     const response = await fetch(url, {
       headers: { 'User-Agent': 'AtlasfunkeImporter/0.1 (educational geography data)' },
     })
     if (response.ok) return response.arrayBuffer()
     if (response.status !== 429) throw new Error(`Bild ${response.status}`)
+    if (isThumbnail) {
+      const fallback = await fetch(original, {
+        headers: { 'User-Agent': 'AtlasfunkeImporter/0.1 (educational geography data)' },
+      })
+      if (fallback.ok) return fallback.arrayBuffer()
+    }
     await pause(1500 * (attempt + 1))
   }
   throw new Error('Bild 429')
 }
 
 async function prefetchMissing() {
-  const missing = ITEMS.filter(([slug]) => !cache[slug])
+  const missing = photoRequests.filter(
+    ([slug]) =>
+      !cache[slug] ||
+      unsuitablePhoto(cache[slug].filename) ||
+      (slug in photoOverrides &&
+        (!cache[slug].reviewed_at ||
+          (photoOverrides[slug].filename && photoOverrides[slug].filename !== cache[slug].filename))),
+  )
   if (!missing.length) return
   for (let offset = 0; offset < missing.length; offset += 40) {
     await prefetchBatch(missing.slice(offset, offset + 40))
@@ -330,7 +377,7 @@ async function prefetchBatch(missing) {
     format: 'json',
     origin: '*',
     redirects: '1',
-    prop: 'pageimages|pageprops',
+    prop: 'pageimages|pageprops|coordinates',
     piprop: 'original|name',
     titles: missing.map(([, , title]) => title).join('|'),
   })
@@ -346,38 +393,103 @@ async function prefetchBatch(missing) {
   }
   const pages = new Map(Object.values(pageData.query?.pages ?? {}).map((page) => [page.title, page]))
   const wanted = missing
-    .map(([slug, , title]) => ({ slug, page: pages.get(resolveTitle(title)) }))
-    .filter((item) => item.page?.pageimage)
+    .map(([slug, , title]) => ({
+      slug,
+      page: pages.get(resolveTitle(title)) ?? {
+        title,
+        pageprops: { wikibase_item: photoOverrides[slug]?.wikidata },
+      },
+    }))
+    .filter((item) => item.page?.pageprops?.wikibase_item || photoOverrides[item.slug]?.filename)
   if (!wanted.length) return
+  const wikidataParams = new URLSearchParams({
+    action: 'wbgetentities',
+    format: 'json',
+    props: 'claims|descriptions',
+    languages: 'de',
+    ids: wanted
+      .map(({ page }) => page.pageprops?.wikibase_item)
+      .filter(Boolean)
+      .join('|'),
+  })
+  const wikidata = wikidataParams.get('ids')
+    ? await json(`https://www.wikidata.org/w/api.php?${wikidataParams}`)
+    : {}
+  for (const item of wanted) {
+    const entity = wikidata.entities?.[item.page.pageprops?.wikibase_item]
+    const pictures = (entity?.claims?.P18 ?? []).filter((claim) => claim.rank !== 'deprecated')
+    item.filename =
+      photoOverrides[item.slug]?.filename ||
+      pictures.find(
+        (claim) => claim.rank === 'preferred' && !unsuitablePhoto(claim.mainsnak.datavalue?.value),
+      )?.mainsnak.datavalue?.value ||
+      pictures.find((claim) => !unsuitablePhoto(claim.mainsnak.datavalue?.value))?.mainsnak.datavalue
+        ?.value ||
+      (!unsuitablePhoto(item.page.pageimage) ? item.page.pageimage : undefined)
+    item.description_de = photoOverrides[item.slug]?.description_de ?? entity?.descriptions?.de?.value
+    item.coordinates = item.page.coordinates?.[0]
+  }
+  const photos = wanted.filter((item) => item.filename && !unsuitablePhoto(item.filename))
+  if (!photos.length) return
   const commonsParams = new URLSearchParams({
     action: 'query',
     format: 'json',
     origin: '*',
     prop: 'imageinfo',
-    iiprop: 'url|extmetadata',
+    iiprop: 'url|extmetadata|user',
     iiurlwidth: '1600',
-    titles: wanted.map((item) => `File:${item.page.pageimage}`).join('|'),
+    titles: photos.map((item) => `File:${item.filename}`).join('|'),
   })
   const commonsData = await json(`https://commons.wikimedia.org/w/api.php?${commonsParams}`)
   const fileKey = (title) => title.replaceAll('_', ' ').normalize('NFC').toLocaleLowerCase('en-US')
   const commonsPages = new Map(
     Object.values(commonsData.query?.pages ?? {}).map((page) => [fileKey(page.title), page]),
   )
-  for (const { slug, page } of wanted) {
-    const commonsPage = commonsPages.get(fileKey(`File:${page.pageimage}`))
-    const info = commonsPage?.imageinfo?.[0]
+  // Some CC-licensed photographs are stored locally on English Wikipedia, rather than Commons.
+  const local = photos.filter((item) => !commonsPages.get(fileKey(`File:${item.filename}`))?.imageinfo)
+  let localPages = new Map()
+  if (local.length) {
+    commonsParams.set('titles', local.map((item) => `File:${item.filename}`).join('|'))
+    const localData = await json(`https://en.wikipedia.org/w/api.php?${commonsParams}`)
+    localPages = new Map(
+      Object.values(localData.query?.pages ?? {}).map((page) => [fileKey(page.title), page]),
+    )
+  }
+  for (const { slug, page, filename, description_de, coordinates } of photos) {
+    const commonsPage = commonsPages.get(fileKey(`File:${filename}`))
+    const localPage = localPages.get(fileKey(`File:${filename}`))
+    const info = commonsPage?.imageinfo?.[0] ?? localPage?.imageinfo?.[0]
     if (!info?.thumburl && !info?.url) continue
     const ext = info.extmetadata ?? {}
+    const license = plain(ext.LicenseShortName?.value || ext.UsageTerms?.value)
+    if (!approvedLicense(license)) continue
+    const usage_note = /All free in US media|Wikipedia files not suitable for Commons/i.test(
+      ext.Categories?.value ?? '',
+    )
+      ? 'Die Quelldatei ist auf der englischen Wikipedia als in den USA frei gekennzeichnet; der Status des abgebildeten Werkes kann in anderen Ländern abweichen.'
+      : undefined
     cache[slug] = {
-      wikidata: page.pageprops?.wikibase_item,
-      filename: page.pageimage,
+      wikidata: photoOverrides[slug]?.wikidata ?? page.pageprops?.wikibase_item,
+      filename,
       download_url: info.thumburl || info.url,
       source_url:
-        info.descriptionurl ||
-        `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(page.pageimage)}`,
-      author: plain(ext.Artist?.value || ext.Credit?.value || 'Wikimedia-Commons-Beitragende'),
-      license: plain(ext.LicenseShortName?.value || ext.UsageTerms?.value || 'freie Lizenz'),
+        info.descriptionurl || `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(filename)}`,
+      author: plain(ext.Artist?.value) || 'Autor siehe Quellseite',
+      license,
       license_url: ext.LicenseUrl?.value,
+      source: commonsPage?.imageinfo ? 'Wikimedia Commons' : 'Wikipedia (englisch)',
+      usage_note,
+      width: info.width,
+      height: info.height,
+      description_de,
+      location: coordinates ? { lat: coordinates.lat, lon: coordinates.lon } : undefined,
+      reviewed_at: '2026-10-13',
+      daily_available_from:
+        byInitialId.get(`landmark:${slug}`)?.attributes.daily_available_from ??
+        (!byInitialId.get(`landmark:${slug}`)?.media?.some((item) => item.kind === 'photo')
+          ? tomorrow('2026-10-13')
+          : undefined),
+      asset_version: createHash('sha256').update(filename).digest('hex').slice(0, 10),
     }
   }
 }
@@ -389,6 +501,44 @@ const legacy = readJson(join(DATA, 'entities', 'landmarks.json'))
 const expansionIds = new Set(ITEMS.map(([slug]) => `landmark:${slug}`))
 const landmarks = legacy.filter((item) => !expansionIds.has(item.id))
 let withPhoto = 0
+
+async function photoFor(slug) {
+  const source = cache[slug]
+  if (!source || unsuitablePhoto(source.filename) || !approvedLicense(source.license)) return []
+  const name = `${slug}${source.asset_version ? `-${source.asset_version}` : ''}.webp`
+  const output = join(outDir, name)
+  if (!existsSync(output)) {
+    const extension = extname(new URL(source.download_url).pathname).slice(0, 8) || '.img'
+    const input = join(temp, `${slug}${extension}`)
+    writeFileSync(input, Buffer.from(await download(source.download_url)))
+    const portrait = source.height > source.width
+    execFileSync('cwebp', [
+      '-quiet',
+      '-q',
+      '82',
+      '-resize',
+      portrait ? '0' : '1600',
+      portrait ? '1600' : '0',
+      input,
+      '-o',
+      output,
+    ])
+  }
+  return [
+    {
+      id: `media:photo:landmark:${slug}`,
+      kind: 'photo',
+      url: `media/photos/landmarks/${name}`,
+      source: source.source ?? 'Wikimedia Commons',
+      source_url: source.source_url,
+      author: source.author,
+      license: source.license,
+      license_url: source.license_url,
+      attribution: `${source.author} · ${source.license} · ${source.source_url}${source.usage_note ? ` · ${source.usage_note}` : ''}`,
+      usage_note: source.usage_note,
+    },
+  ]
+}
 
 try {
   if (!process.argv.includes('--offline')) {
@@ -403,54 +553,52 @@ try {
     if (!country) continue
     let media = []
     try {
-      const source = cache[slug] ?? null
-      const output = join(outDir, `${slug}.webp`)
-      if (source) {
-        if (!existsSync(output)) {
-          const extension = extname(new URL(source.download_url).pathname).slice(0, 8) || '.img'
-          const input = join(temp, `${slug}${extension}`)
-          writeFileSync(input, Buffer.from(await download(source.download_url)))
-          execFileSync('cwebp', ['-quiet', '-q', '82', '-resize', '1600', '0', input, '-o', output])
-        }
-        media = [
-          {
-            id: `media:photo:landmark:${slug}`,
-            kind: 'photo',
-            url: `media/photos/landmarks/${slug}.webp`,
-            source: 'Wikimedia Commons',
-            source_url: source.source_url,
-            author: source.author,
-            license: source.license,
-            license_url: source.license_url,
-            attribution: `${source.author} · ${source.license} · ${source.source_url}`,
-            caption: en,
-          },
-        ]
-        withPhoto++
-      }
+      media = await photoFor(slug)
+      if (media.length) withPhoto++
     } catch (error) {
       console.warn(`Foto ${slug} übersprungen: ${error.message}`)
     }
-    const sourceUrl = `https://en.wikipedia.org/wiki/${encodeURIComponent(en.replaceAll(' ', '_'))}`
+    const sourceUrl =
+      photoOverrides[slug]?.source_url ??
+      `https://en.wikipedia.org/wiki/${encodeURIComponent(en.replaceAll(' ', '_'))}`
+    const previous = byInitialId.get(`landmark:${slug}`)
+    const extra = extraItems.find((item) => item.id === slug)
     landmarks.push({
       id: `landmark:${slug}`,
       type: 'landmark',
       names: { de, en },
-      aliases: [],
+      aliases: previous?.aliases ?? extra?.aliases ?? [],
+      location: cache[slug]?.location ?? previous?.location,
       media,
       attributes: {
+        ...previous?.attributes,
         country: country.id,
         continent,
         place_name: place,
         landmark_type: type,
+        description_de: cache[slug]?.description_de,
+        daily_available_from:
+          previous?.attributes.daily_available_from ??
+          cache[slug]?.daily_available_from ??
+          (extra?.introduced_at ? tomorrow(extra.introduced_at) : undefined),
       },
       provenance: {
-        source: 'Wikipedia/Wikidata',
+        source: photoOverrides[slug]?.source ?? 'Wikipedia/Wikidata',
         source_url: sourceUrl,
         source_id: cache[slug]?.wikidata,
         imported_at: new Date().toISOString().slice(0, 10),
       },
     })
+  }
+  for (const landmark of landmarks.filter(
+    (item) => item.id.slice(9) in photoOverrides && !expansionIds.has(item.id),
+  )) {
+    try {
+      const media = await photoFor(landmark.id.slice(9))
+      if (media.length) landmark.media = media
+    } catch (error) {
+      console.warn(`Foto ${landmark.id} nicht ersetzt: ${error.message}`)
+    }
   }
 } finally {
   rmSync(temp, { recursive: true, force: true })
@@ -473,4 +621,6 @@ for (const landmark of landmarks.filter((item) => expansionIds.has(item.id))) {
   if (city) relationships.push({ from: landmark.id, to: city.id, type: 'located_in' })
 }
 writeJson(relationshipsPath, relationships)
-console.log(`Sehenswürdigkeiten: +${ITEMS.length}, davon ${withPhoto} mit frei lizenziertem Foto`)
+console.log(
+  `Sehenswürdigkeiten: ${landmarks.length} insgesamt, ${withPhoto}/${ITEMS.length} Import-Fotos; ${Object.keys(photoOverrides).length} kuratierte Fotokorrekturen`,
+)

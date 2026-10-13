@@ -1,9 +1,22 @@
 import type { Generator } from './base'
-import { options, qid, effectiveDifficulty, nameOf, flagMedia, flagOf, countryOf, accepted, countryPool, isSovereign, uniqueNames } from './base'
+import { capitalAnswers, capitalFacts } from '@/domain/capitals'
+import {
+  options,
+  qid,
+  effectiveDifficulty,
+  nameOf,
+  flagMedia,
+  flagOf,
+  countryOf,
+  countryPool,
+  isSovereign,
+  uniqueNames,
+} from './base'
 import type { GeneratorContext } from '../types'
 
 const regionsWithFlag = (ctx: GeneratorContext) => ctx.regions.filter((r) => flagOf(r))
-const siblings = (r: GeneratorContext['regions'][0], ctx: GeneratorContext) => ctx.regions.filter((x) => x.attributes.country === r.attributes.country)
+const siblings = (r: GeneratorContext['regions'][0], ctx: GeneratorContext) =>
+  ctx.regions.filter((x) => x.attributes.country === r.attributes.country)
 
 export const regionFlagToRegion: Generator = {
   id: 'region_flag_to_region',
@@ -15,9 +28,16 @@ export const regionFlagToRegion: Generator = {
     if (!opts) return null
     const country = countryOf(target, ctx)
     return {
-      id: qid(this.id, target), category: 'regions', type: this.id, question_type: 'multiple_choice',
+      id: qid(this.id, target),
+      category: 'regions',
+      type: this.id,
+      question_type: 'multiple_choice',
       prompt: { key: 'q.region_flag_to_region', params: { country: country ? nameOf(country) : '' } },
-      answer: target.id, options: opts, media: flagMedia(target), difficulty: d, entities: [target.id],
+      answer: target.id,
+      options: opts,
+      media: flagMedia(target),
+      difficulty: d,
+      entities: [target.id],
       metadata: { generator: this.id, scope: ctx.scope },
     }
   },
@@ -33,9 +53,16 @@ export const regionToCountry: Generator = {
     const opts = options(country, countryPool(ctx), ctx, rng, d)
     if (!opts) return null
     return {
-      id: qid(this.id, target), category: 'regions', type: this.id, question_type: 'multiple_choice',
+      id: qid(this.id, target),
+      category: 'regions',
+      type: this.id,
+      question_type: 'multiple_choice',
       prompt: { key: 'q.region_to_country', params: { name: nameOf(target) } },
-      answer: country.id, options: opts, media: flagMedia(target), difficulty: d, entities: [target.id, country.id],
+      answer: country.id,
+      options: opts,
+      media: flagMedia(target),
+      difficulty: d,
+      entities: [target.id, country.id],
       metadata: { generator: this.id, scope: ctx.scope },
     }
   },
@@ -44,18 +71,31 @@ export const regionToCountry: Generator = {
 export const regionCapital: Generator = {
   id: 'region_capital',
   category: 'regions',
-  pool: (ctx) => ctx.regions.filter((r) => ctx.rel.capitalCity.has(r.id) && siblings(r, ctx).filter((s) => ctx.rel.capitalCity.has(s.id)).length >= 4),
+  pool: (ctx) =>
+    ctx.regions.filter(
+      (r) =>
+        ctx.rel.capitalCity.has(r.id) &&
+        siblings(r, ctx).filter((s) => ctx.rel.capitalCity.has(s.id)).length >= 4,
+    ),
   make(target, ctx, rng, difficulty) {
     const capital = ctx.byId.get(ctx.rel.capitalCity.get(target.id)!)
     if (!capital) return null
-    const sibCaps = siblings(target, ctx).map((s) => ctx.byId.get(ctx.rel.capitalCity.get(s.id) ?? '')).filter((x): x is NonNullable<typeof x> => !!x)
+    const sibCaps = siblings(target, ctx)
+      .map((s) => ctx.byId.get(ctx.rel.capitalCity.get(s.id) ?? ''))
+      .filter((x): x is NonNullable<typeof x> => !!x)
     const d = effectiveDifficulty(target, difficulty)
     const opts = options(capital, sibCaps, ctx, rng, d)
     if (!opts) return null
     return {
-      id: qid(this.id, target), category: 'regions', type: this.id, question_type: 'multiple_choice',
+      id: qid(this.id, target),
+      category: 'regions',
+      type: this.id,
+      question_type: 'multiple_choice',
       prompt: { key: 'q.region_capital', params: { name: nameOf(target) } },
-      answer: capital.id, options: opts, difficulty: d, entities: [target.id, capital.id],
+      answer: capital.id,
+      options: opts,
+      difficulty: d,
+      entities: [target.id, capital.id],
       explanation: `${nameOf(capital)} ist die Hauptstadt von ${nameOf(target)}.`,
       metadata: { generator: this.id, scope: ctx.scope },
     }
@@ -72,9 +112,15 @@ export const cityToCountry: Generator = {
     const opts = options(country, countryPool(ctx), ctx, rng, d)
     if (!opts) return null
     return {
-      id: qid(this.id, target), category: 'cities', type: this.id, question_type: 'multiple_choice',
+      id: qid(this.id, target),
+      category: 'cities',
+      type: this.id,
+      question_type: 'multiple_choice',
       prompt: { key: 'q.city_to_country', params: { name: nameOf(target) } },
-      answer: country.id, options: opts, difficulty: d, entities: [target.id, country.id],
+      answer: country.id,
+      options: opts,
+      difficulty: d,
+      entities: [target.id, country.id],
       metadata: { generator: this.id, scope: ctx.scope },
     }
   },
@@ -91,9 +137,18 @@ export const cityToRegion: Generator = {
     const opts = options(region, siblings(region, ctx), ctx, rng, d)
     if (!opts) return null
     return {
-      id: qid(this.id, target), category: 'cities', type: this.id, question_type: 'multiple_choice',
-      prompt: { key: 'q.city_to_region', params: { name: nameOf(target), country: country ? nameOf(country) : '' } },
-      answer: region.id, options: opts, difficulty: d, entities: [target.id, region.id],
+      id: qid(this.id, target),
+      category: 'cities',
+      type: this.id,
+      question_type: 'multiple_choice',
+      prompt: {
+        key: 'q.city_to_region',
+        params: { name: nameOf(target), country: country ? nameOf(country) : '' },
+      },
+      answer: region.id,
+      options: opts,
+      difficulty: d,
+      entities: [target.id, region.id],
       metadata: { generator: this.id, scope: ctx.scope },
     }
   },
@@ -106,19 +161,31 @@ export const cityPopulation: Generator = {
   pool: (ctx) => uniqueNames(ctx.cities.filter((city) => typeof city.attributes.population === 'number')),
   make(target, ctx, rng, difficulty) {
     const value = target.attributes.population as number
-    const candidates = uniqueNames(ctx.cities.filter((city) => {
-      const other = city.attributes.population as number | undefined
-      return city.id !== target.id && !!other && city.names.de !== target.names.de && Math.abs(value - other) / Math.max(value, other) >= 0.05
-    }))
+    const candidates = uniqueNames(
+      ctx.cities.filter((city) => {
+        const other = city.attributes.population as number | undefined
+        return (
+          city.id !== target.id &&
+          !!other &&
+          city.names.de !== target.names.de &&
+          Math.abs(value - other) / Math.max(value, other) >= 0.05
+        )
+      }),
+    )
     const other = rng.pick(candidates)
     if (!other) return null
     const otherValue = other.attributes.population as number
     const answer = value > otherValue ? target : other
     const d = effectiveDifficulty(target, difficulty)
     return {
-      id: qid(this.id, target), category: 'cities', type: this.id, question_type: 'multiple_choice',
-      prompt: { key: 'q.city_population_compare' }, answer: answer.id,
-      options: rng.shuffle([target, other]).map((city) => ({ id: city.id, label: nameOf(city) })), difficulty: d,
+      id: qid(this.id, target),
+      category: 'cities',
+      type: this.id,
+      question_type: 'multiple_choice',
+      prompt: { key: 'q.city_population_compare' },
+      answer: answer.id,
+      options: rng.shuffle([target, other]).map((city) => ({ id: city.id, label: nameOf(city) })),
+      difficulty: d,
       entities: [target.id, other.id],
       explanation: `${nameOf(target)}: ${value.toLocaleString('de-DE')} · ${nameOf(other)}: ${otherValue.toLocaleString('de-DE')} Einwohner`,
       metadata: { generator: this.id, scope: ctx.scope },
@@ -129,14 +196,25 @@ export const cityPopulation: Generator = {
 export const cityInput: Generator = {
   id: 'city_input',
   category: 'cities',
-  pool: (ctx) => ctx.cities.filter((c) => c.attributes.is_capital && countryOf(c, ctx) && isSovereign(countryOf(c, ctx)!)),
+  pool: (ctx) =>
+    ctx.cities.filter((c) => c.attributes.is_capital && countryOf(c, ctx) && isSovereign(countryOf(c, ctx)!)),
   make(target, ctx, _rng, difficulty) {
     const country = countryOf(target, ctx)!
     const d = effectiveDifficulty(target, difficulty)
     return {
-      id: qid(this.id, target), category: 'cities', type: this.id, question_type: 'text_input',
-      prompt: { key: 'q.capital_input', params: { name: nameOf(country) } },
-      answer: target.id, accepted: accepted(target), difficulty: d, entities: [target.id, country.id],
+      id: qid(this.id, target),
+      category: 'cities',
+      type: this.id,
+      question_type: 'text_input',
+      prompt: {
+        key: country.attributes.iso2 === 'CH' ? 'q.federal_city_input' : 'q.capital_input',
+        params: { name: nameOf(country) },
+      },
+      answer: target.id,
+      accepted: capitalAnswers(country, ctx.byId),
+      difficulty: d,
+      entities: [target.id, country.id],
+      explanation: `${nameOf(country)}: ${capitalFacts(country, ctx.byId).join(' · ')}.`,
       metadata: { generator: this.id, scope: ctx.scope },
     }
   },

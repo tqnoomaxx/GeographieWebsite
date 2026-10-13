@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
+import { refreshCountryFacts } from '@/engine/countryFacts'
 import { useDocumentTitle } from '@/app/hooks'
 import {
   advanceSession,
@@ -33,6 +34,7 @@ import {
   usesVisualOptions,
 } from './QuizVisuals'
 import { FlagImage } from './FlagImage'
+import { Photo } from '@/ui/Photo'
 
 export default function RoundPage() {
   const { t } = useTranslation()
@@ -74,7 +76,12 @@ export default function RoundPage() {
     startedRef.current = true
     ;(async () => {
       try {
-        if (stored) return setSession(stored)
+        if (stored) {
+          const refreshed = refreshCountryFacts(stored, geo.contextFor(setup.scope))
+          setSession(refreshed)
+          if (refreshed !== stored && refreshed.mode === 'full') await repo.saveSession(refreshed)
+          return
+        }
         const progress = await repo.getAllEntityProgress()
         let s = buildSession(geo.contextFor(setup.scope), setup, { progress })
         if (!s.questions.length && category && !setup.only?.length) {
@@ -315,8 +322,8 @@ function QuestionView({
                   compact={!!q.map}
                 />
               ) : (
-                <img
-                  src={q.media.url}
+                <Photo
+                  src={q.media.url ?? ''}
                   alt={q.media.alt}
                   className={`${q.map ? 'max-h-24 md:max-h-32' : 'max-h-48 md:max-h-56'} w-auto max-w-full rounded-xl border border-line object-contain`}
                   decoding="async"
@@ -498,6 +505,16 @@ function QuestionView({
             )}
             {q.explanation && (
               <p className="mt-3 border-t border-ink/10 pt-3 text-sm text-ink-2">{q.explanation}</p>
+            )}
+            {!!q.sources?.length && (
+              <p className="mt-2 text-xs text-ink-2">
+                {t('play.fact_source')}{' '}
+                {q.sources.map((source) => (
+                  <a key={source.url} href={source.url} target="_blank" rel="noreferrer" className="underline">
+                    {source.label}
+                  </a>
+                ))}
+              </p>
             )}
             {!!q.facts?.length && (
               <section className="quiz-feedback-facts" aria-label={t('facts.quick_facts')}>

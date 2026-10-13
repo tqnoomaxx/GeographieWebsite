@@ -1,14 +1,10 @@
-export type EntityType = 'country' | 'region' | 'city' | 'river' | 'lake' | 'mountain' | 'landmark' | 'license_plate' | 'script_word'
+export type EntityType =
+  'country' | 'region' | 'city' | 'river' | 'lake' | 'mountain' | 'landmark' | 'license_plate' | 'script_word' | 'trivia'
 export type RelationshipType =
-  | 'capital_of'
-  | 'located_in'
-  | 'neighbor_of'
-  | 'flows_through'
-  | 'part_of'
-  | 'plate_code_of'
-  | 'similar_to'
+  'capital_of' | 'located_in' | 'neighbor_of' | 'flows_through' | 'part_of' | 'plate_code_of' | 'similar_to'
 
-export type ContinentId = 'europe' | 'asia' | 'africa' | 'north-america' | 'south-america' | 'oceania' | 'antarctica'
+export type ContinentId =
+  'europe' | 'asia' | 'africa' | 'north-america' | 'south-america' | 'oceania' | 'antarctica'
 
 export interface Provenance {
   source: string
@@ -17,7 +13,7 @@ export interface Provenance {
   license?: string
   last_updated?: string
   imported_at: string
-  fields?: Record<string, { source: string; source_id?: string; imported_at: string }>
+  fields?: Record<string, { source: string; source_id?: string; source_url?: string; imported_at: string }>
   conflicts?: Array<{ field: string; values: Array<{ source: string; value: unknown }> }>
 }
 
@@ -32,6 +28,7 @@ export interface Media {
   license_url?: string
   attribution: string
   caption?: string
+  usage_note?: string
 }
 
 export interface Entity {
@@ -57,6 +54,9 @@ export interface CountryAttributes {
   continent?: ContinentId
   subregion?: string
   capital?: string
+  capitals?: string[]
+  capital_details?: CapitalPlace[]
+  capital_note?: string
   capital_names?: string[]
   population?: number
   area_km2?: number
@@ -73,7 +73,39 @@ export interface CountryAttributes {
   highest_point?: { name: string; elevation_m?: number; wikidata?: string }
   national_animal?: NationalSymbol
   national_flower?: NationalSymbol
+  national_bird?: NationalSymbol
+  national_tree?: NationalSymbol
+  national_symbols?: Partial<Record<NationalSymbolKind, NationalSymbol[]>>
+  national_anthems?: Array<{ name: string; source: string; source_url: string }>
+  official_name?: string
 }
+
+export type CapitalRole =
+  | 'capital'
+  | 'constitutional'
+  | 'executive'
+  | 'legislative'
+  | 'judicial'
+  | 'administrative'
+  | 'royal_legislative'
+  | 'federal_city'
+  | 'government_seat'
+  | 'temporary_seat'
+  | 'commercial'
+  | 'former'
+  | 'claimed'
+  | 'rotating_seat'
+
+export interface CapitalPlace {
+  city: string
+  role: CapitalRole
+  quiz: boolean
+  source: string
+  source_url: string
+  checked_at: string
+}
+
+export type NationalSymbolKind = 'animal' | 'bird' | 'flower' | 'tree' | 'fish'
 
 export interface NationalSymbol {
   name: string
@@ -82,11 +114,23 @@ export interface NationalSymbol {
   status: 'official' | 'established'
   source: string
   source_url: string
+  note?: string
 }
 
 export interface Country extends Entity {
   type: 'country'
   attributes: Entity['attributes'] & CountryAttributes
+}
+
+/** Redaktionelle Wissensfragen mit festen, eindeutig unterscheidbaren Antworten. */
+export interface TriviaQuestion extends Entity {
+  type: 'trivia'
+  attributes: Entity['attributes'] & {
+    choices: Array<{ id: string; label: string }>
+    answer: string
+    explanation: string
+    difficulty: 1 | 2 | 3
+  }
 }
 
 export interface Relationship {

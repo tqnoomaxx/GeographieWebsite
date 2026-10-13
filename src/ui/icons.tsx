@@ -29,16 +29,17 @@ const CATEGORY_ICON_FILES: Record<CategoryId, string> = {
   license_plates: 'license-plates.png',
   languages: 'languages.svg',
   mixed: 'mixed.png',
+  trivia: 'trivia.svg',
 }
 
 /** Kategoriefarben (Kachelhintergrund / Icon) für Hell- und Dunkelmodus über CSS-Variablen. */
 export const CATEGORY_TONES: Record<CategoryId, string> = {
   flags: 'tone-red', countries: 'tone-indigo', capitals: 'tone-amber', regions: 'tone-teal', cities: 'tone-slate', maps: 'tone-green',
-  images: 'tone-pink', landmarks: 'tone-amber', water: 'tone-blue', nature: 'tone-green', license_plates: 'tone-slate', languages: 'tone-teal', mixed: 'tone-violet',
+  images: 'tone-pink', landmarks: 'tone-amber', water: 'tone-blue', nature: 'tone-green', license_plates: 'tone-slate', languages: 'tone-teal', trivia: 'tone-amber', mixed: 'tone-violet',
 }
 
 export const TYPE_ICONS: Record<string, LucideIcon> = {
-  country: Globe2, region: Layers, city: Building2, landmark: Landmark, license_plate: Car, river: Waves, lake: Droplets, mountain: Mountain, script_word: Languages,
+  country: Globe2, region: Layers, city: Building2, landmark: Landmark, license_plate: Car, river: Waves, lake: Droplets, mountain: Mountain, script_word: Languages, trivia: Lightbulb,
 }
 
 export const PUZZLE_ICONS: Record<string, LucideIcon> = { flagle: Flag, countryle: Globe2, outline: Map, capitale: Landmark, bildle: Camera, kennzeichle: Car }
