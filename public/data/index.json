@@ -77,6 +77,7 @@
   "lakes": "entities/lakes.json",
   "mountains": "entities/mountains.json",
   "script_words": "entities/script-words.json",
+  "trivia": "entities/trivia.json",
   "relationships": "relationships/index.json",
   "world": "geo/world.json",
   "continents": "meta/continents.json"
@@ -291,6 +292,7 @@
   "lake": 113,
   "mountain": 201,
   "script_word": 131,
+  "trivia": 4,
   "region": 817,
   "license_plate": 1388,
   "flags": 1071,

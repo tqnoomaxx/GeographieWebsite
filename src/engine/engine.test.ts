@@ -39,6 +39,7 @@ const rivers = read<Entity[]>('entities/rivers.json')
 const lakes = read<Entity[]>('entities/lakes.json')
 const mountains = read<Entity[]>('entities/mountains.json')
 const scriptWords = read<Entity[]>('entities/script-words.json')
+const trivia = read<Entity[]>('entities/trivia.json')
 /** Runden-Setup mit Standardwerten (Automatisch, Welt, 10, Wiederholung an). */
 const setup = (o: Partial<RoundConfig> & { category: RoundConfig['category'] }): RoundConfig => ({
   mode: 'auto',
@@ -58,6 +59,7 @@ const ctx = (scope = 'world') =>
     lakes,
     mountains,
     scriptWords,
+    trivia,
     relationships,
     scope,
   })

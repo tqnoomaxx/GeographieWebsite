@@ -1,0 +1,102 @@
+[
+  {
+    "id": "trivia:largest-ocean",
+    "type": "trivia",
+    "names": {
+      "de": "Welcher Ozean ist der größte der Erde?"
+    },
+    "attributes": {
+      "choices": [
+        { "id": "pacific", "label": "Pazifischer Ozean" },
+        { "id": "atlantic", "label": "Atlantischer Ozean" },
+        { "id": "indian", "label": "Indischer Ozean" },
+        { "id": "arctic", "label": "Arktischer Ozean" }
+      ],
+      "answer": "pacific",
+      "explanation": "Der Pazifik bedeckt rund ein Drittel der Erdoberfläche und ist damit der größte Ozean.",
+      "difficulty": 1,
+      "continent": "oceania"
+    },
+    "provenance": {
+      "source": "National Geographic",
+      "source_url": "https://www.nationalgeographic.com/environment/article/oceans",
+      "last_updated": "2026-10-13",
+      "imported_at": "2026-10-13"
+    }
+  },
+  {
+    "id": "trivia:longest-river",
+    "type": "trivia",
+    "names": {
+      "de": "Welcher Fluss gilt in den meisten modernen Vermessungen als längster der Welt?"
+    },
+    "attributes": {
+      "choices": [
+        { "id": "nile", "label": "Nil" },
+        { "id": "amazon", "label": "Amazonas" },
+        { "id": "yangtze", "label": "Jangtsekiang" },
+        { "id": "mississippi", "label": "Mississippi" }
+      ],
+      "answer": "nile",
+      "explanation": "Der Nil wird in vielen aktuellen Referenzen als längster Fluss geführt; der Amazonas folgt knapp dahinter.",
+      "difficulty": 2,
+      "continent": "africa"
+    },
+    "provenance": {
+      "source": "Encyclopaedia Britannica",
+      "source_url": "https://www.britannica.com/place/Nile-River",
+      "last_updated": "2026-10-13",
+      "imported_at": "2026-10-13"
+    }
+  },
+  {
+    "id": "trivia:capital-canada",
+    "type": "trivia",
+    "names": {
+      "de": "Wie heißt die Hauptstadt von Kanada?"
+    },
+    "attributes": {
+      "choices": [
+        { "id": "ottawa", "label": "Ottawa" },
+        { "id": "toronto", "label": "Toronto" },
+        { "id": "montreal", "label": "Montreal" },
+        { "id": "vancouver", "label": "Vancouver" }
+      ],
+      "answer": "ottawa",
+      "explanation": "Ottawa ist seit 1857 die Hauptstadt Kanadas.",
+      "difficulty": 1,
+      "continent": "north-america"
+    },
+    "provenance": {
+      "source": "Government of Canada",
+      "source_url": "https://www.canada.ca/en/canadian-heritage/services/capital.html",
+      "last_updated": "2026-10-13",
+      "imported_at": "2026-10-13"
+    }
+  },
+  {
+    "id": "trivia:highest-mountain",
+    "type": "trivia",
+    "names": {
+      "de": "Welcher Berg ist der höchste der Erde über dem Meeresspiegel?"
+    },
+    "attributes": {
+      "choices": [
+        { "id": "everest", "label": "Mount Everest" },
+        { "id": "k2", "label": "K2" },
+        { "id": "kangchenjunga", "label": "Kangchendzönga" },
+        { "id": "lhotse", "label": "Lhotse" }
+      ],
+      "answer": "everest",
+      "explanation": "Der Mount Everest ragt etwa 8.849 Meter über den Meeresspiegel und ist damit der höchste Gipfel der Erde.",
+      "difficulty": 1,
+      "continent": "asia"
+    },
+    "provenance": {
+      "source": "National Geographic Society",
+      "source_url": "https://education.nationalgeographic.org/resource/mount-everest/",
+      "last_updated": "2026-10-13",
+      "imported_at": "2026-10-13"
+    }
+  }
+]
