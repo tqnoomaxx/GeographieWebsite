@@ -760,7 +760,7 @@ function CarStation({ active }: { active: boolean }) {
 function BaseStationModel({ id, active }: { id: SceneId; active: boolean }) {
   switch (id) {
     case 'trivia':
-      return <TriviaStation active={active} />
+      return <Observatory active={active} />
     case 'daily':
       return <Observatory active={active} />
     case 'countries':
