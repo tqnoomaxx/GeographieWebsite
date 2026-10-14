@@ -4,6 +4,7 @@ import { createRng } from './rng'
 import { poolFor, type QuizSession } from './session'
 
 const UPDATED_GENERATORS = new Set([
+  'geography_trivia',
   'country_to_capital',
   'capital_to_country',
   'capital_to_flag',

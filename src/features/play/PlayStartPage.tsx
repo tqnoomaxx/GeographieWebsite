@@ -264,6 +264,7 @@ function Setup({
     >
       <p className="setup-intro">{t('setup.intro')}</p>
       {category === 'languages' && <p className="setup-note setup-script-note">{t('setup.script_note')}</p>}
+      {category === 'trivia' && <p className="setup-note">{t('play.trivia_note')}</p>}
       <div className="atlas-rule mb-7 mt-6 h-px" />
       <div className="setup-config-grid">
         <div className="min-w-0">

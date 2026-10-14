@@ -93,7 +93,7 @@ export function DataProvider({ children }: { children: ReactNode }) {
         return list
       },
       contextFor: (scope) =>
-        buildContext({ countries: state.countries, cities: state.cities, landmarks: state.landmarks, rivers: state.rivers, lakes: state.lakes, mountains: state.mountains, scriptWords: state.scriptWords, state.trivia, regions, plates, relationships: state.relationships, scope }),
+        buildContext({ countries: state.countries, cities: state.cities, landmarks: state.landmarks, rivers: state.rivers, lakes: state.lakes, mountains: state.mountains, scriptWords: state.scriptWords, trivia: state.trivia, regions, plates, relationships: state.relationships, scope }),
       retry: () => setAttempt((a) => a + 1),
     }),
     [state, regions, regionsLoaded, plates, platesLoaded, byId],

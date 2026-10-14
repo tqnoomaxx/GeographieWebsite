@@ -77,7 +77,7 @@ for (const e of all) {
       err(`${e.id}: vier eindeutige Antworten erforderlich`)
     if (!a.choices?.some((choice) => choice.id === a.answer)) err(`${e.id}: richtige Antwort fehlt`)
     if (!a.explanation || ![1, 2, 3].includes(a.difficulty)) err(`${e.id}: Erklärung oder Schwierigkeit fehlt`)
-    if (!/^https:\/\//.test(e.provenance?.source_url ?? '') || !e.provenance?.last_updated)
+    if (!e.provenance?.source_url?.startsWith('https://') || !e.provenance?.last_updated)
       err(`${e.id}: geprüfte Quelle fehlt`)
     if (a.continent && !['europe', 'asia', 'africa', 'north-america', 'south-america', 'oceania'].includes(a.continent))
       err(`${e.id}: ungültiger Trivia-Bereich`)

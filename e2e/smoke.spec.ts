@@ -1,4 +1,8 @@
 import { test, expect, type Page } from '@playwright/test'
+import { PLAY_QUIZZES } from '../src/config/quizzes'
+
+const categories = PLAY_QUIZZES.map((quiz) => quiz.id)
+const stationCount = categories.length + 1 // Quizkategorien plus tägliche Rätsel
 
 function watchErrors(page: Page) {
   const errors: string[] = []
@@ -70,19 +74,6 @@ test('Startseite und Kategorien', async ({ page }) => {
 
 test('Quizlandschaft verlinkt alle sichtbaren Stationen und öffnet die Konfiguration', async ({ page }) => {
   const errors = watchErrors(page)
-  const categories = [
-    'flags',
-    'countries',
-    'capitals',
-    'languages',
-    'cities',
-    'landmarks',
-    'water',
-    'nature',
-    'license_plates',
-    'mixed',
-  ]
-
   await page.goto('play')
   await expect(page.getByRole('button', { name: 'Quiz-Menü' })).toBeVisible()
   await expect(page.getByRole('button', { name: '3D-Diorama' })).toHaveAttribute('aria-pressed', 'true')
@@ -105,7 +96,7 @@ test('Quizlandschaft verlinkt alle sichtbaren Stationen und öffnet die Konfigur
 
   await page.getByRole('button', { name: 'Quiz-Menü' }).click()
   await expect(page.locator('.play-map-switcher')).toHaveAttribute('data-map-view', 'menu')
-  await expect(page.locator('.play-quiz-menu [data-quiz-station]')).toHaveCount(11)
+  await expect(page.locator('.play-quiz-menu [data-quiz-station]')).toHaveCount(stationCount)
   await page.getByRole('button', { name: '3D-Diorama' }).click()
   await expect(page.locator('.play-map-switcher')).toHaveAttribute('data-map-view', 'diorama')
 
@@ -207,7 +198,10 @@ test('Ohne WebGL bleibt das vollständige Quiz-Menü verfügbar', async ({ page 
   await page.goto('play')
   await expect(page.locator('.play-map-switcher')).toHaveAttribute('data-map-view', 'menu')
   await expect(page.getByRole('button', { name: '3D-Diorama' })).toBeDisabled()
-  await expect(page.locator('.play-quiz-menu [data-quiz-station]')).toHaveCount(11)
+  await expect(page.locator('.play-quiz-menu [data-quiz-station]')).toHaveCount(stationCount)
+  for (const category of categories) {
+    await expect(page.locator(`.play-quiz-menu [data-quiz-station="${category}"]`)).toHaveAttribute('href', new RegExp(`/play/${category}$`))
+  }
 })
 
 test('Fotos sind als Modus in Sehenswürdigkeiten zusammengeführt', async ({ page }) => {

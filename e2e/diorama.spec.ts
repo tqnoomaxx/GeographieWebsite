@@ -4,6 +4,7 @@ import { fitDioramaCamera } from '../src/features/play/dioramaGeometry'
 
 // Pick visible model surfaces, rather than bypassing the WebGL hit testing with DOM events.
 const surfaces: Record<string, [number, number, number]> = {
+  trivia: [-1.8, 2.12, -2.65],
   daily: [-6.45, 1, -2.45],
   countries: [-4.55, 1.35, 0.1],
   mixed: [-3.2, 0.28, 3.75],

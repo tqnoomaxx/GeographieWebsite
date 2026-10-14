@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { Link, useNavigate, useParams, useSearchParams } from 'react-router-dom'
+import { Link, useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
 import { refreshCountryFacts } from '@/engine/countryFacts'
@@ -37,6 +37,12 @@ import { FlagImage } from './FlagImage'
 import { Photo } from '@/ui/Photo'
 
 export default function RoundPage() {
+  const location = useLocation()
+  // „Noch einmal“ und „Fehler wiederholen“ benutzen dieselbe Route, brauchen aber eine neue Runde.
+  return <RoundSessionPage key={location.key} />
+}
+
+function RoundSessionPage() {
   const { t } = useTranslation()
   const { category: categoryParam, sessionId } = useParams<{ category?: string; sessionId?: string }>()
   const category: CategoryId | undefined = isCategory(categoryParam) ? categoryParam : undefined
@@ -180,7 +186,7 @@ export default function RoundPage() {
   const position = baseQuestionPosition(session)
   const repeats = pendingRepeatCount(session)
   return (
-    <div className="atlas-surface quiz-runtime min-h-dvh">
+    <div className="atlas-surface quiz-runtime min-h-dvh" data-category={session.category}>
       <header className="quiz-topbar">
         <div className="quiz-topbar-inner">
           <div className="quiz-topbar-identity">
