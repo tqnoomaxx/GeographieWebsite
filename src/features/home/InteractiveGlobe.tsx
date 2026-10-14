@@ -3,6 +3,7 @@ import {
   useEffect,
   useId,
   useMemo,
+  memo,
   useRef,
   useState,
   type KeyboardEvent,
@@ -26,6 +27,26 @@ const HEIGHT = 620
 const CENTER: [number, number] = [WIDTH / 2, HEIGHT / 2]
 const SCALE = 278
 const GRATICULE = geoGraticule10()
+const ORBITS = [
+  { angle: -18, radius: 334, height: 118, variant: 'primary' },
+  { angle: 30, radius: 326, height: 136, variant: 'secondary' },
+]
+
+/** Dieselben Bahnen vor und hinter der Erde ergeben eine saubere räumliche Überdeckung. */
+const GlobeOrbits = memo(function GlobeOrbits({ front, clipId }: { front: boolean; clipId: string }) {
+  return (
+    <g className={`globe-orbits ${front ? 'globe-orbits-front' : 'globe-orbits-back'}`} aria-hidden="true">
+      {ORBITS.map(({ angle, radius, height, variant }) => (
+        <g key={variant} className={`globe-orbit globe-orbit-${variant}`} transform={`rotate(${angle} ${CENTER[0]} ${CENTER[1]})`}>
+          <g clipPath={`url(#${clipId})`}>
+            <ellipse className="globe-orbit-track" cx={CENTER[0]} cy={CENTER[1]} rx={radius} ry={height} />
+            <ellipse className="globe-orbit-highlight" cx={CENTER[0]} cy={CENTER[1]} rx={radius} ry={height} pathLength={360} />
+          </g>
+        </g>
+      ))}
+    </g>
+  )
+})
 
 function clampLatitude(value: number) {
   return Math.max(-72, Math.min(72, value))
@@ -69,6 +90,7 @@ export function InteractiveGlobe({
   const pendingRotationRef = useRef<Rotation | null>(null)
   const selectId = useId()
   const statusId = useId()
+  const orbitId = useId()
   const reducedMotion = useReducedMotion()
 
   useEffect(() => {
@@ -315,6 +337,12 @@ export function InteractiveGlobe({
             onKeyDown={onKeyDown}
           >
             <defs>
+              <clipPath id={`${orbitId}-back`}>
+                <rect x="-60" y="-60" width={WIDTH + 120} height={CENTER[1] + 60} />
+              </clipPath>
+              <clipPath id={`${orbitId}-front`}>
+                <rect x="-60" y={CENTER[1]} width={WIDTH + 120} height={CENTER[1] + 60} />
+              </clipPath>
               <radialGradient id="globe-ocean" cx="32%" cy="25%" r="78%">
                 <stop offset="0" className="globe-ocean-light" />
                 <stop offset=".52" className="globe-ocean-mid" />
@@ -341,6 +369,7 @@ export function InteractiveGlobe({
                 <path d={spherePath} />
               </clipPath>
             </defs>
+            <GlobeOrbits front={false} clipId={`${orbitId}-back`} />
             <path d={spherePath} className="globe-atmosphere" filter="url(#globe-shadow)" />
             <path d={spherePath} fill="url(#globe-ocean)" className="globe-ocean" />
             <g clipPath="url(#globe-clip)" aria-hidden="true">
@@ -366,6 +395,7 @@ export function InteractiveGlobe({
               <path d={spherePath} fill="url(#globe-specular)" className="globe-specular" />
             </g>
             <path d={spherePath} className="globe-rim" />
+            <GlobeOrbits front clipId={`${orbitId}-front`} />
           </svg>
         )}
         <span className="globe-drag-hint" aria-hidden>{dragging ? 'Welt wird gedreht' : 'Ziehen zum Drehen'}</span>

@@ -3010,46 +3010,43 @@ textarea {
   visibility: hidden;
 }
 
-.globe-stage::before,
-.globe-stage::after {
-  position: absolute;
-  border-radius: 50%;
-  content: '';
-  pointer-events: none;
-  transform-origin: center;
+.globe-orbits { fill: none; pointer-events: none; }
+.globe-orbit-track,
+.globe-orbit-highlight { vector-effect: non-scaling-stroke; }
+.globe-orbit-track { stroke: #548b96; stroke-width: 1; opacity: .42; }
+.globe-orbits-front .globe-orbit-track { stroke: #b8dce1; opacity: .25; }
+.globe-orbit-highlight {
+  stroke: #d0eff2;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-dasharray: 3 357;
+  stroke-dashoffset: 0;
+  opacity: .65;
+  animation: globe-orbit-travel 48s linear infinite;
 }
-
-.globe-stage::before {
-  z-index: 1;
-  inset: 10% -2%;
-  border: 1px solid rgb(151 239 249 / .24);
-  box-shadow: 0 0 1rem rgb(98 223 241 / .08);
-  animation: globe-orbit 34s linear infinite;
+.globe-orbit-secondary .globe-orbit-track { opacity: .25; }
+.globe-orbit-secondary .globe-orbit-highlight {
+  stroke: #a9d2db;
+  opacity: .5;
+  animation-duration: 64s;
+  animation-direction: reverse;
+  animation-delay: -24s;
 }
+.dark .globe-orbit-track { stroke: #84bdc8; opacity: .42; }
+.dark .globe-orbits-front .globe-orbit-track { opacity: .25; }
+.dark .globe-orbit-secondary .globe-orbit-track { opacity: .23; }
+.globe-stage:hover .globe-orbit-highlight,
+.globe-stage:focus-within .globe-orbit-highlight,
+.globe-stage.is-dragging .globe-orbit-highlight { animation-play-state: paused; }
 
-.globe-stage::after {
-  z-index: 3;
-  inset: 22% -5%;
-  border-top: 1px solid rgb(218 252 255 / .42);
-  border-right: 1px solid transparent;
-  border-bottom: 1px solid rgb(145 220 240 / .08);
-  border-left: 1px solid transparent;
-  animation: globe-orbit-reverse 25s linear infinite;
-}
-
-@keyframes globe-orbit {
-  from { transform: rotate(-18deg) scaleY(.38); }
-  to { transform: rotate(342deg) scaleY(.38); }
-}
-
-@keyframes globe-orbit-reverse {
-  from { transform: rotate(21deg) scaleY(.42); }
-  to { transform: rotate(-339deg) scaleY(.42); }
+@keyframes globe-orbit-travel {
+  to { stroke-dashoffset: -360; }
 }
 
 .globe-svg {
   position: relative;
   z-index: 2;
+  overflow: visible;
   filter: drop-shadow(0 0 1.8rem rgb(74 213 230 / .15));
 }
 
@@ -3107,8 +3104,7 @@ textarea {
   .space-shooting-star,
   .spacecraft-flight,
   .solar-storm { display: none; }
-  .globe-stage::before,
-  .globe-stage::after,
+  .globe-orbit-highlight,
   .globe-country.is-selected { animation: none; }
 }
 
