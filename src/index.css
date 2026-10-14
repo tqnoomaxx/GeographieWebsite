@@ -6176,6 +6176,33 @@ textarea {
 .play-diorama-unavailable { align-content: center; }
 
 /* Die globale transparente Eingaberegel darf die Quizantwort nicht dunkel auf dunkel setzen. */
+/* Die transparente Quizfläche benutzt die Textfarben des hellen bzw. dunklen Himmels. */
+.cosmic-shell .quiz-runtime,
+.cosmic-shell .quiz-runtime .quiz-question-heading,
+.cosmic-shell .quiz-runtime .quiz-option,
+.cosmic-shell .quiz-runtime .quiz-option-label,
+.cosmic-shell .quiz-runtime .quiz-option-number,
+.cosmic-shell .quiz-runtime .quiz-feedback { color: var(--ink); }
+.cosmic-shell .quiz-runtime .quiz-option.quiz-answer-correct .quiz-option-label,
+.cosmic-shell .quiz-runtime .quiz-option.quiz-answer-wrong .quiz-option-label { color: var(--ink); }
+.cosmic-shell .quiz-runtime .quiz-question-heading { text-shadow: none; }
+.cosmic-shell .quiz-runtime .quiz-option { border-color: var(--line); }
+.cosmic-shell .quiz-runtime .quiz-option-number { border-color: var(--ink-2); }
+.cosmic-shell .quiz-runtime .quiz-feedback-label,
+.cosmic-shell .quiz-runtime .quiz-feedback .text-ink-2 { color: var(--ink-2); }
+.cosmic-shell .quiz-runtime .quiz-feedback-correct .quiz-feedback-title { color: var(--ok); }
+.cosmic-shell .quiz-runtime .quiz-feedback-wrong .quiz-feedback-title { color: var(--bad); }
+.cosmic-shell .quiz-runtime .quiz-feedback a { color: var(--accent); }
+.cosmic-shell .quiz-runtime .quiz-topbar-progress strong,
+.cosmic-shell .quiz-runtime .quiz-topbar-score strong { color: #fffdf5; }
+.quiz-runtime[data-category='trivia'] .quiz-question-heading {
+  max-width: 38ch;
+  margin-inline: auto;
+  font-size: clamp(1.65rem, 3.5vw, 3.4rem);
+  line-height: 1.18;
+  letter-spacing: -.025em;
+}
+
 .cosmic-shell .quiz-runtime .quiz-text-answer input {
   background: var(--quiz-paper) !important;
   color: var(--quiz-ink) !important;

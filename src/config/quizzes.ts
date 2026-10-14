@@ -280,7 +280,6 @@ export const QUIZZES: QuizDef[] = [
       { id: 'city_to_plate_input', form: 'input', generators: ['city_to_plate_input'] },
     ],
   },
-  /** Gemischt: alle Multiple-Choice-Fragetypen der anderen Kategorien, kein eigener Fragetyp wählbar. */
   {
     id: 'trivia',
     icon: '💡',
@@ -288,6 +287,7 @@ export const QUIZZES: QuizDef[] = [
     countKey: 'trivia',
     modes: [{ id: 'trivia_questions', form: 'choice', generators: ['geography_trivia'] }],
   },
+  /** Gemischt: alle Multiple-Choice-Fragetypen der anderen Kategorien, kein eigener Fragetyp wählbar. */
   { id: 'mixed', icon: '🎲', primary: true, needs: ['regions', 'plates'], perCountry: true, modes: [] },
 ]
 

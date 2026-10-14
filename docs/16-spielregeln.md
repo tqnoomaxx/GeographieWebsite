@@ -98,3 +98,6 @@ Pro Lernkarte wird zufällig eine passende MC-Spielart der beteiligten Kategorie
 
 ### Tägliche Rätsel
 Ein Rätsel pro Tag und Variante, für alle gleich (Seed = Datum), maximal 6 Versuche, Hinweise pro Versuch, danach Übungsrätsel. Zählt für Streak und XP; keine Wiederholung, keine Punkte-Serie.
+
+### Geographie-Trivia
+60 redaktionelle Wissensfragen zu Erd- und Kartenwissen, Landschaften, Ländern und Rekorden. Jede Karte hat vier feste Antwortmöglichkeiten und genau eine richtige Antwort. Nach der Antwort erscheinen eine Erklärung und die verlinkte Fachquelle. „Welt“ umfasst alle 60 Karten; jeder der sechs wählbaren Kontinente hat acht eigene Fragen. Allgemeine Erdfragen erscheinen nur unter „Welt“. Trivia ist außerdem Teil von „Gemischt“ und besitzt einen eigenen Wissenspavillon mit vier Ausbaustufen im 3D-Diorama. Rundenlängen, Fehlerwiederholung, XP und Fortsetzen funktionieren wie bei den anderen Quizkategorien.

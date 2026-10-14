@@ -91,3 +91,7 @@ Neue und korrigierte Bilder werden als WebP unter versionierten Dateinamen gespe
 Neue Foto-Einträge haben ein festes `daily_available_from`; sie kommen am Folgetag in Bildle und sind sofort im Übungs- und Quizmodus verfügbar. Dadurch verändert die Erweiterung das laufende Tagesrätsel nicht. Unbeantwortete Bildfragen in gespeicherten Runden erhalten die aktualisierten Fotos; bereits gespielte Antworten und Punkte bleiben erhalten.
 
 Quelle: TASK.md §89
+
+### Trivia-Fragen
+
+`public/data/entities/trivia.json` enthält die redaktionellen Wissensfragen mit stabiler Karten-ID, vier Antwort-IDs und Beschriftungen, Lösung, Erklärung, Schwierigkeit und optionalem Kontinent. Die Provenienz enthält die Fachquelle, ihren Link und das Prüfdatum. Quellen sind unter anderem UNESCO, NOAA, National Park Service und staatliche Einrichtungen. Die deutschen Fragen und Erklärungen sind eigenständig formuliert. `data:validate` prüft eindeutige Antwort-IDs und Beschriftungen, genau vier Optionen, eine vorhandene Lösung und eine datierte Quelle; der Daten-Hash erfasst Änderungen am Katalog. Trivia-Karten werden als Lernfortschritt gespeichert und sind gezielt erneut spielbar. Die Ortsuche enthält weiterhin geografische Orte. Neue Fragen benötigen keinen Generator: Katalog erweitern und validieren.

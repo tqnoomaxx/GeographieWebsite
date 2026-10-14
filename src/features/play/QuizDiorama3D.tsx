@@ -98,7 +98,7 @@ const TREE_POSITIONS: Array<[number, number, number, number]> = [
 
 function countLabel(quiz: QuizDef, counts?: Record<string, number>) {
   const value = quiz.countKey ? counts?.[quiz.countKey] : undefined
-  return value === undefined ? undefined : `${value.toLocaleString('de-DE')} Einträge`
+  return value === undefined ? undefined : `${value.toLocaleString('de-DE')} ${quiz.id === 'trivia' ? 'Fragen' : 'Einträge'}`
 }
 
 function stationLevelLabel(progress: StationProgress | undefined, t: TFunction) {
@@ -757,10 +757,46 @@ function CarStation({ active }: { active: boolean }) {
   )
 }
 
+/** Ein Wissenspavillon mit einer großen Glühbirne als eigener Trivia-Station. */
+function TriviaStation({ active }: { active: boolean }) {
+  return (
+    <group>
+      <RoundedBox args={[1.8, 0.22, 1.6]} radius={0.08} position={[0, 0.11, 0]} receiveShadow>
+        {material('#b7bcab', active)}
+      </RoundedBox>
+      <RoundedBox args={[1.25, 0.8, 1]} radius={0.06} position={[0, 0.62, 0]} castShadow>
+        {material('#496e79', active)}
+      </RoundedBox>
+      <mesh position={[0, 1.12, 0]} rotation={[0, Math.PI / 4, 0]} castShadow>
+        {material('#d6b27a', active)}
+        <coneGeometry args={[1.04, 0.35, 4]} />
+      </mesh>
+      <mesh position={[0, 1.59, 0]} castShadow>
+        {material('#6d7164', active, 0.35)}
+        <cylinderGeometry args={[0.19, 0.24, 0.4, 12]} />
+      </mesh>
+      <mesh position={[0, 2.12, 0]} castShadow>
+        <meshStandardMaterial color="#f4d279" roughness={0.4} emissive="#e9a945" emissiveIntensity={active ? 0.85 : 0.15} />
+        <sphereGeometry args={[0.49, 20, 14]} />
+      </mesh>
+      {[-0.37, 0.37].map((x) => (
+        <mesh key={x} position={[x, 0.68, 0.51]}>
+          {material('#f0d995', active)}
+          <boxGeometry args={[0.24, 0.32, 0.025]} />
+        </mesh>
+      ))}
+      <mesh position={[0, 0.48, 0.515]}>
+        {material('#c4b495', active)}
+        <boxGeometry args={[0.24, 0.5, 0.025]} />
+      </mesh>
+    </group>
+  )
+}
+
 function BaseStationModel({ id, active }: { id: SceneId; active: boolean }) {
   switch (id) {
     case 'trivia':
-      return <Observatory active={active} />
+      return <TriviaStation active={active} />
     case 'daily':
       return <Observatory active={active} />
     case 'countries':
