@@ -9,7 +9,8 @@ import { createRng } from '@/engine/rng'
 import { selectionWeight } from '@/engine/srs'
 import { getRepository } from '@/services/progress'
 import { applyLearned } from '@/services/gamification'
-import { Page, Chips, Flag, formatNumber, entityPath, EmptyState } from '@/ui'
+import { Page, Chips, Flag, formatNumber, entityPath, EmptyState, ErrorState, LoadingState } from '@/ui'
+import { ReviewPanel } from './ReviewPanel'
 import { FactGrid } from '@/features/explore/facts'
 
 export default function LearnPage() {
@@ -18,7 +19,7 @@ export default function LearnPage() {
   const geo = useGeoData()
   const repo = getRepository()
   const [scope, setScope] = useState<string>(() => localStorage.getItem('gk.learn.scope') ?? 'europe')
-  const { data: progress, reload } = useAsync(() => repo.getAllEntityProgress(), [])
+  const { data: progress, loading, error, reload } = useAsync(() => repo.getAllEntityProgress(), [])
   const [seed, setSeed] = useState(0)
   const [learnedNow, setLearnedNow] = useState(0)
 
@@ -36,11 +37,18 @@ export default function LearnPage() {
   useEffect(() => setIdx(0), [scope, seed])
   const current: Entity | undefined = queue[idx]
 
+  const [marking, setMarking] = useState(false)
+  const [markError, setMarkError] = useState(false)
   const mark = async () => {
-    if (!current) return
-    await applyLearned(repo, current.id)
-    setLearnedNow((n) => n + 1)
-    setIdx((i) => i + 1)
+    if (!current || marking) return
+    setMarking(true)
+    setMarkError(false)
+    try {
+      await applyLearned(repo, current.id)
+      setLearnedNow((n) => n + 1)
+      setIdx((i) => i + 1)
+    } catch { setMarkError(true) }
+    finally { setMarking(false) }
   }
 
   return (
@@ -50,7 +58,9 @@ export default function LearnPage() {
         <p>Land für Land.<br /><strong>Die Welt bleibt hängen.</strong></p>
         <Link to="/learn/cards?collection=countries" className="btn-secondary">{t('setup.cards')} ↗</Link>
       </header>
-      {!current ? (
+      <ReviewPanel refresh={learnedNow} />
+      {markError && <p role="alert" className="mb-3 text-bad">Lernstand konnte nicht gespeichert werden. Bitte erneut markieren.</p>}
+      {error ? <ErrorState onRetry={reload} /> : loading || !geo.ready ? <LoadingState message="Lernkarten werden geladen …" /> : !current ? (
         <EmptyState
           icon="✅"
           title={t('learn.all_done')}
@@ -78,7 +88,7 @@ export default function LearnPage() {
           <article className="learn-sheet">
             <header className="learn-sheet-head">
               <span>{String(idx + 1).padStart(2, '0')} / {String(queue.length).padStart(2, '0')}</span>
-              <span>{t(`scope.${current.attributes.continent}`)} · {progressLabel(progress?.get(current.id)?.state, t)}</span>
+              <span>{t(`scope.${current.attributes.continent}`)} · {t(`learn.states.${progress?.get(current.id)?.state ?? 'new'}`)}</span>
             </header>
             <div className="learn-sheet-main">
               <div className="learn-country-identity">
@@ -92,8 +102,8 @@ export default function LearnPage() {
               </div>
             </div>
             <footer className="learn-actions">
-              <button className="btn-primary" onClick={mark}>✓ {t('learn.mark_learned')}</button>
-              <button className="btn-secondary" onClick={() => setIdx((i) => i + 1)}>{t('learn.next')} →</button>
+              <div className="learn-primary-actions"><button className="btn-primary" disabled={marking} onClick={mark}>✓ {t('learn.mark_learned')}</button>
+              <button className="btn-secondary" disabled={marking} onClick={() => setIdx((i) => i + 1)}>{t('learn.next')} →</button></div>
               <Link to={`/play/countries/round?mode=auto&scope=${encodeURIComponent(scope)}&len=5&only=${current.id}`} className="btn-secondary">🎯 {t('learn.quiz_me')}</Link>
               <Link to={entityPath(current)} className="learn-detail-link">Details öffnen ↗</Link>
             </footer>
@@ -109,10 +119,4 @@ export default function LearnPage() {
       </p>
     </Page>
   )
-}
-
-function progressLabel(state: string | undefined, t: (k: string) => string) {
-  const map: Record<string, string> = { new: '🆕 Neu', learning: '📖 Lernen', familiar: '👍 Vertraut', mastered: '⭐ Gemeistert' }
-  void t
-  return map[state ?? 'new']
 }

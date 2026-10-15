@@ -1,11 +1,11 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { Photo } from '@/ui/Photo'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
 import { useAsync, useDocumentTitle } from '@/app/hooks'
 import type { Country, Entity } from '@/domain/types'
-import { loadRegions, mediaUrl } from '@/services/data/dataService'
+import { mediaUrl } from '@/services/data/dataService'
 import { getRepository } from '@/services/progress'
 import { Page, Card, Flag, EmptyState, entityPath, SourceInfo } from '@/ui'
 import { WorldMap, Outline } from '@/ui/maps'
@@ -18,11 +18,8 @@ export default function CountryPage() {
   const geo = useGeoData()
   const country = geo.countries.find((c) => c.attributes.iso2 === id) as Country | undefined
   useDocumentTitle(country?.names.de)
-  const [regions, setRegions] = useState<Entity[]>([])
+  const regions = geo.regions.filter((region) => region.attributes.country === country?.id)
   const [showMap, setShowMap] = useState(false)
-  useEffect(() => {
-    if (country) void loadRegions(country.id).then(setRegions)
-  }, [country])
   const { data: progress } = useAsync(
     () => (country ? getRepository().getEntityProgress(country.id) : Promise.resolve(undefined)),
     [country?.id],
@@ -54,7 +51,7 @@ export default function CountryPage() {
           </p>
           {progress && (
             <p className="mt-1 text-xs text-ink-2">
-              Lernstand: {progress.state} · {progress.correct} richtig / {progress.wrong} falsch
+              Lernstand: {t(`learn.states.${progress.state}`)} · {progress.correct} richtig / {progress.wrong} falsch
             </p>
           )}
         </div>
@@ -79,17 +76,13 @@ export default function CountryPage() {
       </div>
       <Card className="mb-5">
         <FactGrid country={country} />
-        <p className="mt-3 text-xs text-ink-2">
-          {t('facts.source')}: {country.provenance.source}{' '}
-          {country.provenance.license && `(${country.provenance.license})`} · {t('facts.as_of')}{' '}
-          {country.provenance.imported_at}
-          {flag && (
-            <>
-              {' '}
-              · {t('facts.flag')}: <SourceInfo source={flag.source} url={flag.source_url} />
-            </>
-          )}
-        </p>
+        <details className="country-data-note mt-4">
+          <summary>Quellen &amp; Prüfstand</summary>
+          <p>Basisdaten: {country.provenance.source_url ? <a className="underline" href={country.provenance.source_url} target="_blank" rel="noreferrer">{country.provenance.source}</a> : country.provenance.source}{country.provenance.license && ` (${country.provenance.license})`}.</p>
+          <p>Importiert am {country.provenance.imported_at.slice(0, 10)}. Ein Importdatum ist kein fachliches Prüfdatum. Belegte Hauptstädte und Symbole haben eigene Quellen und Prüfstände.</p>
+          <p>„Keine gesicherte Angabe“ kennzeichnet eine Lücke in unseren geprüften Daten.</p>
+          {flag && <p>Flagge: <SourceInfo source={flag.source} url={flag.source_url} /></p>}
+        </details>
       </Card>
 
       {neighbors.length > 0 && (

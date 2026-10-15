@@ -1,108 +1,150 @@
-import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from 'react'
+import {
+  createContext,
+  useCallback,
+  useContext,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type ReactNode,
+} from 'react'
 import type { Country, DataIndex, Entity, Relationship } from '@/domain/types'
-import { loadAllRegions, loadCities, loadCountries, loadIndex, loadLakes, loadLandmarks, loadMountains, loadRelationships, loadRivers, loadScriptWords, loadTrivia } from '@/services/data/dataService'
+import {
+  loadAllRegions,
+  loadCities,
+  loadCountries,
+  loadIndex,
+  loadLakes,
+  loadLandmarks,
+  loadMountains,
+  loadRelationships,
+  loadRivers,
+  loadScriptWords,
+  loadTrivia,
+} from '@/services/data/dataService'
 import { buildContext } from '@/engine/context'
 import { loadPlates } from '@/services/data/plates'
-import type { GeneratorContext } from '@/engine/types'
 
-interface GeoData {
-  ready: boolean
-  error?: Error
-  index?: DataIndex
-  countries: Country[]
-  cities: Entity[]
-  landmarks: Entity[]
-  rivers: Entity[]
-  lakes: Entity[]
-  mountains: Entity[]
-  scriptWords: Entity[]
-  trivia: Entity[]
-  regions: Entity[]
-  relationships: Relationship[]
-  byId: Map<string, Entity>
-  regionsLoaded: boolean
-  ensureRegions: () => Promise<Entity[]>
-  plates: Entity[]
-  platesLoaded: boolean
-  ensurePlates: () => Promise<Entity[]>
-  contextFor: (scope: string) => GeneratorContext
-  retry: () => void
+const loaders = {
+  index: loadIndex,
+  countries: loadCountries,
+  cities: loadCities,
+  landmarks: loadLandmarks,
+  rivers: loadRivers,
+  lakes: loadLakes,
+  mountains: loadMountains,
+  scriptWords: loadScriptWords,
+  trivia: loadTrivia,
+  relationships: loadRelationships,
+  regions: loadAllRegions,
+  plates: async () => {
+    const index = await loadIndex()
+    return (await Promise.all(Object.keys(index.plates ?? {}).map(loadPlates))).flat()
+  },
 }
+export type DataResource = keyof typeof loaders
+export type ResourceState = { status: 'idle' | 'loading' | 'ready' | 'error'; error?: Error }
+type Data = { index?: DataIndex; countries: Country[]; relationships: Relationship[] } & Record<
+  Exclude<DataResource, 'index' | 'countries' | 'relationships'>,
+  Entity[]
+>
+const initialData: Data = {
+  countries: [],
+  cities: [],
+  landmarks: [],
+  rivers: [],
+  lakes: [],
+  mountains: [],
+  scriptWords: [],
+  trivia: [],
+  relationships: [],
+  regions: [],
+  plates: [],
+}
+const CORE: DataResource[] = ['index', 'countries']
 
-const Ctx = createContext<GeoData | null>(null)
-
-export function DataProvider({ children }: { children: ReactNode }) {
-  const [state, setState] = useState<Pick<GeoData, 'index' | 'countries' | 'cities' | 'landmarks' | 'rivers' | 'lakes' | 'mountains' | 'scriptWords' | 'trivia' | 'relationships'> & { ready: boolean; error?: Error }>({
-    ready: false,
-    countries: [],
-    cities: [],
-    landmarks: [],
-    rivers: [],
-    lakes: [],
-    mountains: [],
-    scriptWords: [],
-    trivia: [],
-    relationships: [],
-  })
-  const [regions, setRegions] = useState<Entity[]>([])
-  const [regionsLoaded, setRegionsLoaded] = useState(false)
-  const [plates, setPlates] = useState<Entity[]>([])
-  const [platesLoaded, setPlatesLoaded] = useState(false)
-  const [attempt, setAttempt] = useState(0)
-
-  useEffect(() => {
-    let cancelled = false
-    Promise.all([loadIndex(), loadCountries(), loadCities(), loadLandmarks(), loadRelationships(), loadRivers(), loadLakes(), loadMountains(), loadScriptWords(), loadTrivia()])
-      .then(([index, countries, cities, landmarks, relationships, rivers, lakes, mountains, scriptWords, trivia]) => {
-        if (!cancelled) setState({ ready: true, index, countries, cities, landmarks, relationships, rivers, lakes, mountains, scriptWords, trivia })
+function useProvider() {
+  const [data, setData] = useState<Data>(initialData)
+  const [states, setStates] = useState<Partial<Record<DataResource, ResourceState>>>({})
+  const requests = useRef(new Map<DataResource, Promise<unknown>>())
+  const ensureResource = useCallback((key: DataResource) => {
+    const existing = requests.current.get(key)
+    if (existing) return existing
+    setStates((s) => ({ ...s, [key]: { status: 'loading' } }))
+    const request = loaders[key]()
+      .then((value) => {
+        setData((s) => ({ ...s, [key]: value }))
+        setStates((s) => ({ ...s, [key]: { status: 'ready' } }))
+        return value
       })
-      .catch((error: Error) => !cancelled && setState((s) => ({ ...s, error })))
-    return () => {
-      cancelled = true
-    }
-  }, [attempt])
-
-  const byId = useMemo(() => {
-    const m = new Map<string, Entity>()
-    for (const list of [state.countries, state.cities, state.landmarks, state.rivers, state.lakes, state.mountains, state.scriptWords, state.trivia, regions, plates]) for (const e of list) m.set(e.id, e)
-    return m
-  }, [state.countries, state.cities, state.landmarks, state.rivers, state.lakes, state.mountains, state.scriptWords, state.trivia, regions, plates])
-
-  const value = useMemo<GeoData>(
-    () => ({
-      ...state,
-      regions,
-      regionsLoaded,
-      plates,
-      platesLoaded,
-      byId,
-      ensurePlates: async () => {
-        if (platesLoaded) return plates
-        const index = await loadIndex()
-        const lists = await Promise.all(Object.keys(index.plates ?? {}).map((iso) => loadPlates(iso)))
-        const list = lists.flat()
-        setPlates(list)
-        setPlatesLoaded(true)
-        return list
-      },
-      ensureRegions: async () => {
-        if (regionsLoaded) return regions
-        const list = await loadAllRegions()
-        setRegions(list)
-        setRegionsLoaded(true)
-        return list
-      },
-      contextFor: (scope) =>
-        buildContext({ countries: state.countries, cities: state.cities, landmarks: state.landmarks, rivers: state.rivers, lakes: state.lakes, mountains: state.mountains, scriptWords: state.scriptWords, trivia: state.trivia, regions, plates, relationships: state.relationships, scope }),
-      retry: () => setAttempt((a) => a + 1),
-    }),
-    [state, regions, regionsLoaded, plates, platesLoaded, byId],
+      .catch((cause: unknown) => {
+        requests.current.delete(key)
+        const error = cause instanceof Error ? cause : new Error(String(cause))
+        setStates((s) => ({ ...s, [key]: { status: 'error', error } }))
+        throw error
+      })
+    requests.current.set(key, request)
+    return request
+  }, [])
+  const ensureResources = useCallback(
+    (keys: DataResource[]) => Promise.all(keys.map(ensureResource)),
+    [ensureResource],
   )
-  return <Ctx.Provider value={value}>{children}</Ctx.Provider>
+  useEffect(() => {
+    void ensureResources(CORE).catch(() => {})
+  }, [ensureResources])
+  const byId = useMemo(() => {
+    const map = new Map<string, Entity>()
+    for (const [key, list] of Object.entries(data)) {
+      if (key !== 'index' && key !== 'relationships')
+        for (const entity of list as Entity[]) map.set(entity.id, entity)
+    }
+    return map
+  }, [data])
+  return useMemo(
+    () => ({
+      ...data,
+      states,
+      byId,
+      ensureResources,
+      ready: CORE.every((key) => states[key]?.status === 'ready'),
+      error: CORE.map((key) => states[key]?.error).find(Boolean),
+      regionsLoaded: states.regions?.status === 'ready',
+      platesLoaded: states.plates?.status === 'ready',
+      ensureRegions: () => ensureResource('regions') as Promise<Entity[]>,
+      ensurePlates: () => ensureResource('plates') as Promise<Entity[]>,
+      contextFor: (scope: string) => buildContext({ ...data, scope }),
+      retry: () => {
+        void ensureResources(CORE).catch(() => {})
+      },
+    }),
+    [data, states, byId, ensureResource, ensureResources],
+  )
+}
+const Ctx = createContext<ReturnType<typeof useProvider> | null>(null)
+export function DataProvider({ children }: { children: ReactNode }) {
+  return <Ctx.Provider value={useProvider()}>{children}</Ctx.Provider>
+}
+export function useGeoData() {
+  const value = useContext(Ctx)
+  if (!value) throw new Error('DataProvider fehlt')
+  return value
 }
 
-export function useGeoData() {
-  const v = useContext(Ctx)
-  if (!v) throw new Error('DataProvider fehlt')
-  return v
+/** Jeder Bildschirm wartet nur auf seine Pakete. Fehler werden ausschließlich auf Wunsch erneut geladen. */
+export function useDataResources(resources: DataResource[]) {
+  const { states, ensureResources } = useGeoData()
+  const key = [...new Set(resources)].sort().join(',')
+  useEffect(() => {
+    const keys = key.split(',').filter(Boolean) as DataResource[]
+    void ensureResources(keys).catch(() => {})
+  }, [key, ensureResources])
+  const error = resources.map((resource) => states[resource]?.error).find(Boolean)
+  return {
+    loading: resources.some((resource) => states[resource]?.status !== 'ready'),
+    error,
+    retry: () => {
+      void ensureResources(resources).catch(() => {})
+    },
+  }
 }

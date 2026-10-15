@@ -85,7 +85,7 @@ test('Nationalsymbole zeigen Quellen und unterscheiden amtliche und kulturelle S
   await expect(page.locator('main')).toContainText('Philippinenadler')
   await expect(page.locator('main')).toContainText('Amtlich bestimmt')
   await page.goto('country/DE')
-  await expect(page.locator('main')).toContainText('Noch kein belegter Eintrag')
+  await expect(page.locator('main')).toContainText('Keine gesicherte Angabe')
   await expect(page.locator('main')).toContainText('Deutschlandlied')
   await page.goto('play/countries/round?mode=national_symbols&scope=world&len=10')
   await expect(page.locator('[data-generator]')).toHaveAttribute(

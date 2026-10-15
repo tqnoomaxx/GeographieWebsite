@@ -1,7 +1,9 @@
 import { useCallback, useEffect, useId, useMemo, useRef, useState, type PointerEvent as ReactPointerEvent, type ReactNode, type WheelEvent as ReactWheelEvent } from 'react'
 import { geoNaturalEarth1, geoPath, geoMercator, geoCentroid } from 'd3-geo'
 import type { GeoPermissibleObjects } from 'd3-geo'
-import { loadOutline, loadRegionMap, loadWorld, type RegionMap } from '@/services/data/dataService'
+import { loadOutline, loadRegionMap, loadWorld } from '@/services/data/dataService'
+import { useAsync } from '@/app/hooks'
+import { ErrorState, LoadingState } from '@/ui'
 import { Minus, Plus, RotateCcw } from 'lucide-react'
 
 type ViewState = { zoom: number; x: number; y: number }
@@ -168,10 +170,7 @@ export function WorldMap({
   focus?: string
   marker?: { lat: number; lon: number; label?: string }
 }) {
-  const [world, setWorld] = useState<GeoJSON.FeatureCollection | null>(null)
-  useEffect(() => {
-    void loadWorld().then(setWorld)
-  }, [])
+  const { data: world, error, reload } = useAsync(loadWorld, [])
   const width = 960
   const height = 500
   const { path, features, markerPoint } = useMemo(() => {
@@ -187,6 +186,7 @@ export function WorldMap({
     }
     return { path: geoPath(projection), features: world.features, markerPoint: marker ? projection([marker.lon, marker.lat]) : null }
   }, [world, focus, marker])
+  if (error) return <ErrorState message="Weltkarte konnte nicht geladen werden." onRetry={reload} />
   if (!world || !path) return <div className="skeleton aspect-[1.92] w-full" />
   return (
     <MapViewport viewBox={`0 0 ${width} ${height}`} width={width} height={height} interactive={!!onPick} transparent={decorative} label="Weltkarte">
@@ -228,16 +228,13 @@ export function WorldMap({
 
 /** Länderumriss als Silhouette (Natural Earth 50m). */
 export function Outline({ iso2, className = '' }: { iso2: string; className?: string }) {
-  const [geom, setGeom] = useState<GeoJSON.Geometry | null>(null)
-  useEffect(() => {
-    setGeom(null)
-    loadOutline(iso2).then(setGeom).catch(() => setGeom(null))
-  }, [iso2])
+  const { data: geom, error, reload } = useAsync(() => loadOutline(iso2), [iso2])
   const d = useMemo(() => {
     if (!geom) return null
     const projection = geoMercator().fitExtent([[8, 8], [392, 292]], geom as GeoPermissibleObjects)
     return geoPath(projection)(geom as GeoPermissibleObjects)
   }, [geom])
+  if (error) return <ErrorState message="Umriss konnte nicht geladen werden." onRetry={reload} />
   if (!d) return <div className={`skeleton aspect-[4/3] ${className}`} />
   return (
     <svg viewBox="0 0 400 300" className={`w-full ${className}`} role="img" aria-label="Umriss">
@@ -262,12 +259,9 @@ export function RegionMapView({
   wrong?: string
   disabled?: boolean
 }) {
-  const [map, setMap] = useState<RegionMap | null | undefined>(undefined)
-  useEffect(() => {
-    setMap(undefined)
-    void loadRegionMap(iso2).then(setMap)
-  }, [iso2])
-  if (map === undefined) return <div className="skeleton aspect-[3/2] w-full" />
+  const { data: map, loading, error, reload } = useAsync(() => loadRegionMap(iso2), [iso2])
+  if (error) return <ErrorState message="Regionskarte konnte nicht geladen werden." onRetry={reload} />
+  if (loading) return <LoadingState message="Regionskarte wird geladen …" />
   if (!map) return <div className="card p-6 text-center text-ink-2">Keine Karte verfügbar.</div>
   const toId = (flagId: string) => flagId.replace('region-', 'region:').replace('country-', 'country:')
   const parts = map.viewBox.trim().split(/[ ,]+/).map(Number)

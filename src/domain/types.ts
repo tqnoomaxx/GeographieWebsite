@@ -75,6 +75,7 @@ export interface CountryAttributes {
   national_flower?: NationalSymbol
   national_bird?: NationalSymbol
   national_tree?: NationalSymbol
+  national_symbols_checked_at?: string
   national_symbols?: Partial<Record<NationalSymbolKind, NationalSymbol[]>>
   national_anthems?: Array<{ name: string; source: string; source_url: string }>
   official_name?: string

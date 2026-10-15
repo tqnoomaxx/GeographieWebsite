@@ -18,7 +18,7 @@ export function useRoundLabel() {
       ? []
       : [isCountryScope(setup.scope) ? geo.byId.get(setup.scope)?.names.de ?? setup.scope : t(`scope.${setup.scope}`)]
     if (quiz.content && setup.content?.length === 1 && !isCountryScope(setup.scope)) parts.push(t(`setup.content.${setup.category}.${setup.content[0]}`))
-    if (setup.only) parts.push(t('play.only_errors'))
+    if (setup.only) parts.push(t('play.selected_cards'))
     if (progress) parts.push(`${progress.done} / ${progress.total}`)
     else parts.push(setup.length === 'all' ? t('play.all_short') : t('play.n_questions', { count: setup.length }))
     return { title, details: parts.join(' · ') }

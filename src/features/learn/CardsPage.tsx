@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
@@ -23,9 +23,7 @@ export default function CardsPage() {
   const [revealed, setRevealed] = useState<Set<string>>(new Set())
   const [hide, setHide] = useState(false)
   const { data: progress } = useAsync(() => getRepository().getAllEntityProgress(), [])
-  useEffect(() => {
-    if (!geo.regionsLoaded) void geo.ensureRegions()
-  }, [geo])
+
   const items = useMemo(() => {
     if (!col) return []
     const list = [...(col.content.includes('country') ? geo.countries : []), ...(col.content.includes('region') ? geo.regions : [])]
@@ -57,7 +55,7 @@ export default function CardsPage() {
               <button type="button" onClick={() => hide && setRevealed((s) => new Set(s).add(e.id))} className="card flex w-full flex-col items-center gap-2 p-3 text-center hover:bg-card-2">
                 <Flag entity={e} size="md" className="h-14" />
                 <span className="flex items-center gap-1.5 text-sm font-medium leading-tight">
-                  <span className={`inline-block h-2 w-2 rounded-full ${dot[state(e.id)]}`} aria-label={state(e.id)} />
+                  <span className={`inline-block h-2 w-2 rounded-full ${dot[state(e.id)]}`} role="img" aria-label={t(`learn.states.${state(e.id)}`)} title={t(`learn.states.${state(e.id)}`)} />
                   {shown ? e.names.de : '?'}
                 </span>
               </button>

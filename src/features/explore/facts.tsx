@@ -29,7 +29,7 @@ export function FactGrid({ country, compact = false }: { country: Country; compa
                   <small className="block text-ink-2">{CAPITAL_ROLE_LABELS[detail.role]}</small>
                 )}
                 {!compact && detail && (
-                  <SourceInfo source={detail.source} url={detail.source_url} asOf={detail.checked_at} />
+                  <SourceInfo source={detail.source} url={detail.source_url} asOf={detail.checked_at} dateLabel="Geprüft" />
                 )}
               </li>
             )
@@ -38,7 +38,7 @@ export function FactGrid({ country, compact = false }: { country: Country; compa
       ) : a.iso2 === 'NR' ? (
         t('facts.no_official_capital')
       ) : (
-        '–'
+        'Keine gesicherte Angabe'
       ),
     },
     {
@@ -49,26 +49,28 @@ export function FactGrid({ country, compact = false }: { country: Country; compa
           source="Wikidata"
           url={`https://www.wikidata.org/wiki/${popSrc.source_id}`}
           asOf={popSrc.imported_at}
+          dateLabel="Importiert"
         />
       ),
     },
-    { label: t('facts.area'), value: a.area_km2 ? `${a.area_km2.toLocaleString('de-DE')} km²` : '–' },
+    { label: t('facts.area'), value: a.area_km2 ? `${a.area_km2.toLocaleString('de-DE')} km²` : 'Keine gesicherte Angabe' },
     {
       label: t('facts.currency'),
-      value: a.currencies?.map((c) => `${c.name}${c.symbol ? ` (${c.symbol})` : ''}`).join(', ') || '–',
+      value: a.currencies?.map((c) => `${c.name}${c.symbol ? ` (${c.symbol})` : ''}`).join(', ') || 'Keine gesicherte Angabe',
     },
     {
       label: (a.languages?.length ?? 0) > 1 ? t('facts.languages') : t('facts.language'),
-      value: a.languages?.join(', ') || '–',
+      value: a.languages?.join(', ') || 'Keine gesicherte Angabe',
       src: languageSource && (
         <SourceInfo
           source={languageSource.source}
           url={languageSource.source_url}
           asOf={languageSource.imported_at}
+          dateLabel="Importiert"
         />
       ),
     },
-    { label: t('facts.continent'), value: a.continent ? t(`scope.${a.continent}`) : '–' },
+    { label: t('facts.continent'), value: a.continent ? t(`scope.${a.continent}`) : 'Keine gesicherte Angabe' },
   ]
   for (const kind of ['animal', 'bird', 'flower', 'tree', 'fish'] as NationalSymbolKind[]) {
     const symbols = nationalSymbols(country, kind)
@@ -76,7 +78,7 @@ export function FactGrid({ country, compact = false }: { country: Country; compa
       facts.push({
         label: t(`facts.national_${kind}`),
         value: symbols.length ? (
-          <SymbolList symbols={symbols} />
+          <SymbolList symbols={symbols} checkedAt={a.national_symbols_checked_at} />
         ) : (
           <span className="text-sm text-ink-2">{t('facts.symbol_not_documented')}</span>
         ),
@@ -93,7 +95,7 @@ export function FactGrid({ country, compact = false }: { country: Country; compa
               {city.names.de}
             </Link>
           ),
-          src: <SourceInfo source={place.source} url={place.source_url} asOf={place.checked_at} />,
+          src: <SourceInfo source={place.source} url={place.source_url} asOf={place.checked_at} dateLabel="Geprüft" />,
         })
     }
     facts.push(
@@ -109,22 +111,22 @@ export function FactGrid({ country, compact = false }: { country: Country; compa
             ))}
           </ul>
         ) : (
-          '–'
+          'Keine gesicherte Angabe'
         ),
       },
-      { label: t('facts.subregion'), value: a.subregion ?? '–' },
-      { label: t('facts.tld'), value: a.tld?.join(', ') ?? '–' },
-      { label: t('facts.calling_code'), value: a.calling_code ?? '–' },
+      { label: t('facts.subregion'), value: a.subregion ?? 'Keine gesicherte Angabe' },
+      { label: t('facts.tld'), value: a.tld?.join(', ') ?? 'Keine gesicherte Angabe' },
+      { label: t('facts.calling_code'), value: a.calling_code ?? 'Keine gesicherte Angabe' },
       { label: t('facts.iso'), value: [a.iso2, a.iso3].filter(Boolean).join(' / ') },
       {
         label: t('facts.highest_point'),
         value: a.highest_point
           ? `${a.highest_point.name}${a.highest_point.elevation_m ? ` (${Math.round(a.highest_point.elevation_m)} m)` : ''}`
-          : '–',
+          : 'Keine gesicherte Angabe',
       },
       {
         label: t('facts.landlocked'),
-        value: a.landlocked === undefined ? '–' : a.landlocked ? t('facts.yes') : t('facts.no'),
+        value: a.landlocked === undefined ? 'Keine gesicherte Angabe' : a.landlocked ? t('facts.yes') : t('facts.no'),
       },
     )
   }
@@ -150,13 +152,13 @@ export function FactGrid({ country, compact = false }: { country: Country; compa
   )
 }
 
-function SymbolList({ symbols }: { symbols: NationalSymbol[] }) {
+function SymbolList({ symbols, checkedAt }: { symbols: NationalSymbol[]; checkedAt?: string }) {
   const { t } = useTranslation()
   return (
     <ul className="space-y-2">
       {symbols.map((symbol) => (
         <li key={symbol.name}>
-          {symbol.name} <SourceInfo source={symbol.source} url={symbol.source_url} />
+          {symbol.name} <SourceInfo source={symbol.source} url={symbol.source_url} asOf={checkedAt} dateLabel="Geprüft" />
           <small className="block text-ink-2">{t(`facts.symbol_status_${symbol.status}`)}</small>
           {symbol.note && <small className="block text-ink-2">{symbol.note}</small>}
         </li>

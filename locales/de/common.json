@@ -126,6 +126,7 @@
     "paused": "Runde gespeichert. Du kannst sie jederzeit fortsetzen.",
     "n_questions": "{{count}} Fragen",
     "all_short": "Alle",
+    "selected_cards": "Ausgewählte Lernkarten",
     "only_errors": "Fehlerwiederholung",
     "expedition_report": "Expeditionsbericht",
     "recovered": "nach Wiederholung",
@@ -388,6 +389,7 @@
   },
   "learn": {
     "title": "Lernen",
+    "states": { "new": "Neu", "learning": "In Arbeit", "familiar": "Vertraut", "mastered": "Gemeistert" },
     "mark_learned": "Als gelernt markieren",
     "next": "Weiter",
     "quiz_me": "Frage dazu",
@@ -460,10 +462,10 @@
     "national_fish": "Nationalfisch",
     "official_name": "Amtlicher Landesname",
     "national_anthem": "Nationalhymne",
-    "symbol_not_documented": "Noch kein belegter Eintrag",
+    "symbol_not_documented": "Keine gesicherte Angabe",
     "symbol_status_official": "Amtlich bestimmt",
     "symbol_status_established": "Etabliertes Symbol",
-    "symbol_explanation": "Amtlich bestimmte Symbole und etablierte Kultur- oder Wappensymbole sind gekennzeichnet. „Noch kein belegter Eintrag“ bedeutet, dass hier eine Quelle fehlt; nicht, dass das Land kein solches Symbol hat."
+    "symbol_explanation": "Amtlich bestimmte Symbole und etablierte Kultur- oder Wappensymbole sind gekennzeichnet. „Keine gesicherte Angabe“ bedeutet, dass hier eine Quelle fehlt; nicht, dass das Land kein solches Symbol hat."
   },
   "landmark_types": {
     "archaeological": "Archäologische Stätte",
@@ -742,7 +744,7 @@
   "cards": {
     "hide_names": "Namen verdecken",
     "items": "Karten",
-    "known": "gekonnt"
+    "known": "vertraut oder gemeistert"
   },
   "search": {
     "placeholder": "Land, Stadt, Region, Sehenswürdigkeit …",

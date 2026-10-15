@@ -1,3 +1,4 @@
+import { useReducedMotion } from '@/services/settings/motion'
 import {
   useCallback,
   useEffect,
@@ -12,6 +13,8 @@ import {
 import { geoGraticule10, geoOrthographic, geoPath } from 'd3-geo'
 import type { GeoPermissibleObjects } from 'd3-geo'
 import type { Country } from '@/domain/types'
+import { useAsync } from '@/app/hooks'
+import { ErrorState } from '@/ui'
 import { loadWorld } from '@/services/data/dataService'
 
 type Rotation = [number, number]
@@ -52,17 +55,6 @@ function clampLatitude(value: number) {
   return Math.max(-72, Math.min(72, value))
 }
 
-function useReducedMotion() {
-  const [reduced, setReduced] = useState(false)
-  useEffect(() => {
-    const media = window.matchMedia('(prefers-reduced-motion: reduce)')
-    const update = () => setReduced(media.matches)
-    update()
-    media.addEventListener('change', update)
-    return () => media.removeEventListener('change', update)
-  }, [])
-  return reduced
-}
 
 export function InteractiveGlobe({
   countries,
@@ -73,7 +65,7 @@ export function InteractiveGlobe({
   selectedId?: string
   onSelect: (countryId: string) => void
 }) {
-  const [world, setWorld] = useState<GeoJSON.FeatureCollection | null>(null)
+  const { data: world, error: worldError, reload: retryWorld } = useAsync(loadWorld, [])
   const [rotation, setRotation] = useState<Rotation>([-12, -18])
   const [hovered, setHovered] = useState(false)
   const [focused, setFocused] = useState(false)
@@ -93,15 +85,6 @@ export function InteractiveGlobe({
   const orbitId = useId()
   const reducedMotion = useReducedMotion()
 
-  useEffect(() => {
-    let cancelled = false
-    void loadWorld().then((data) => {
-      if (!cancelled) setWorld(data)
-    })
-    return () => {
-      cancelled = true
-    }
-  }, [])
 
   useEffect(() => setCountryChoice(selectedId ?? ''), [selectedId])
 
@@ -269,7 +252,7 @@ export function InteractiveGlobe({
   }
 
   return (
-    <div ref={rootRef} className={`interactive-globe ${dragging ? 'is-dragging' : ''}`}>
+    <div ref={rootRef} data-motion={reducedMotion ? 'paused' : 'running'} className={`interactive-globe ${dragging ? 'is-dragging' : ''}`}>
       <div className="globe-space-scene" aria-hidden="true">
         <span className="space-nebula space-nebula-one" />
         <span className="space-nebula space-nebula-two" />
@@ -315,7 +298,7 @@ export function InteractiveGlobe({
         <span className="space-shooting-star space-shooting-star-three" />
       </div>
       <div className={`globe-stage ${dragging ? 'is-dragging' : ''}`}>
-        {!world ? (
+        {worldError ? <ErrorState message="Weltkugel konnte nicht geladen werden." onRetry={retryWorld} /> : !world ? (
           <div className="globe-loading skeleton" aria-label="Weltkugel wird geladen" />
         ) : (
           <svg

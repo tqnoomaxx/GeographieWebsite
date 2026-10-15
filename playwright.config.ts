@@ -6,7 +6,11 @@ export default defineConfig({
   timeout: 60_000,
   retries: process.env.CI ? 1 : 0,
   use: { baseURL: `http://localhost:4187${base}`, locale: 'de-DE', trace: 'retain-on-failure' },
-  webServer: { command: 'npx vite build && npx vite preview --port 4187 --strictPort', port: 4187, reuseExistingServer: false },
+  webServer: {
+    command: `${process.env.PLAYWRIGHT_SKIP_BUILD === '1' ? '' : 'npx vite build && '}npx vite preview --port 4187 --strictPort`,
+    port: 4187,
+    reuseExistingServer: false,
+  },
   projects: [
     { name: 'mobile', use: { ...devices['Pixel 7'] } },
     { name: 'desktop', use: { ...devices['Desktop Chrome'] } },

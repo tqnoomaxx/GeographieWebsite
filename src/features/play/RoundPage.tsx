@@ -1,7 +1,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { useGeoData } from '@/app/DataProvider'
+import { useDataResources, useGeoData } from '@/app/DataProvider'
+import { resourcesForQuiz } from '@/app/dataRequirements'
 import { refreshCountryFacts } from '@/engine/countryFacts'
 import { useDocumentTitle } from '@/app/hooks'
 import {
@@ -17,12 +18,12 @@ import {
   type QuizSession,
 } from '@/engine/session'
 import { defaultRound, fromQuery, roundPath, type RoundConfig } from '@/engine/round'
-import { isCategory, quizFor } from '@/config/quizzes'
+import { isCategory } from '@/config/quizzes'
 import type { CategoryId, Question } from '@/engine/types'
 import { getRepository } from '@/services/progress'
 import { applySession, recomputeLongQuests, type RoundOutcome } from '@/services/gamification'
 import { XP } from '@/config/xp'
-import { Card, ErrorState, Skeleton, ProgressBar, entityPath } from '@/ui'
+import { Card, ErrorState, Skeleton, LoadingState, ProgressBar, entityPath } from '@/ui'
 import { AchievementIcon, Icons } from '@/ui/icons'
 import { WorldMap, RegionMapView } from '@/ui/maps'
 import { ReportDialog } from '@/features/legal/ReportDialog'
@@ -54,6 +55,8 @@ function RoundSessionPage() {
   const [error, setError] = useState<Error | null>(null)
   const [outcome, setOutcome] = useState<RoundOutcome | null>(null)
   const startedRef = useRef(false)
+  const finishingRef = useRef(false)
+  const [finishing, setFinishing] = useState(false)
 
   // Gespeicherte Runde (Fortsetzen) oder neues Setup aus der URL
   const [stored, setStored] = useState<QuizSession | null | undefined>(sessionId ? undefined : null)
@@ -61,7 +64,7 @@ function RoundSessionPage() {
     if (!sessionId) return
     repo
       .getSession(sessionId)
-      .then((s) => (s ? setStored({ ...s, setup: setupOf(s) }) : setError(new Error('Runde nicht gefunden'))))
+      .then((s) => (s ? setStored({ ...s, setup: setupOf(s) }) : setError(new Error('Runde nicht gefunden')))).catch(setError)
   }, [sessionId, repo])
   const setup: RoundConfig | null = stored
     ? stored.setup
@@ -71,14 +74,12 @@ function RoundSessionPage() {
   useEffect(() => {
     if (!sessionId && !category) setError(new Error(t('play.no_questions')))
   }, [sessionId, category, t])
+  const resources = useDataResources(setup ? resourcesForQuiz(setup.category, setup) : [])
   const label = useRoundLabel()
   useDocumentTitle(setup ? label(setup).title : undefined)
 
   useEffect(() => {
-    if (!geo.ready || startedRef.current || !setup) return
-    const needs = quizFor(setup.category).needs ?? []
-    if (needs.includes('regions') && !geo.regionsLoaded) return void geo.ensureRegions()
-    if (needs.includes('plates') && !geo.platesLoaded) return void geo.ensurePlates()
+    if (resources.loading || resources.error || !geo.ready || startedRef.current || !setup) return
     startedRef.current = true
     ;(async () => {
       try {
@@ -105,7 +106,7 @@ function RoundSessionPage() {
       }
     })()
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [geo.ready, geo.regionsLoaded, geo.platesLoaded, stored, category])
+  }, [resources.loading, resources.error, geo.ready, stored, category])
 
   // Kontext nach Nachladen aktualisieren (für das Nachladen weiterer Fragen bei „Alle“)
   const ctx = useMemo(
@@ -118,12 +119,19 @@ function RoundSessionPage() {
 
   const finish = useCallback(
     async (s: QuizSession) => {
-      const done = { ...s, completedAt: new Date().toISOString() }
-      setSession(done)
-      await repo.saveSession(done)
-      const out = await applySession(repo, done, geo.byId)
-      await recomputeLongQuests(repo, geo.byId)
-      setOutcome(out)
+      if (finishingRef.current) return
+      finishingRef.current = true
+      setFinishing(true)
+      try {
+        const done = { ...s, completedAt: new Date().toISOString() }
+        await repo.saveSession(done)
+        const out = await applySession(repo, done, geo.byId)
+        await recomputeLongQuests(repo, geo.byId)
+        setOutcome(out)
+        setSession(done)
+      } catch (cause) {
+        setError(cause instanceof Error ? cause : new Error('Lernstand konnte nicht gespeichert werden.'))
+      } finally { finishingRef.current = false; setFinishing(false) }
     },
     [repo, geo.byId],
   )
@@ -164,21 +172,16 @@ function RoundSessionPage() {
     else navigate('/play')
   }, [session, repo, navigate, finish])
 
+  if (resources.error) return <ErrorState onRetry={resources.retry} />
   if (error)
     return (
       <div className="mx-auto max-w-md p-4">
-        <ErrorState message={error.message} onRetry={() => navigate('/play')} />
+        <ErrorState message={error.message} />
+        <Link to="/play" className="btn-secondary mt-3">Zur Spielauswahl</Link>
       </div>
     )
-  if (!session)
-    return (
-      <div className="mx-auto max-w-2xl p-4">
-        <Skeleton className="h-8 w-40" />
-        <Skeleton className="mt-6 h-48" />
-        <Skeleton className="mt-6 h-14" />
-        <Skeleton className="mt-2 h-14" />
-      </div>
-    )
+  if (finishing) return <LoadingState message="Lernstand wird gespeichert …" />
+  if (!session) return <LoadingState message="Runde wird geladen …" />
   if (session.completedAt) return <ResultView session={session} outcome={outcome} />
 
   const current = session.questions[session.position]

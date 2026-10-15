@@ -14,13 +14,16 @@ export function mediaUrl(path: string) {
   return `${base}${path}`
 }
 
-function fetchJson<T>(path: string): Promise<T> {
+export function fetchJson<T>(path: string): Promise<T> {
   if (!cache.has(path)) {
     cache.set(
       path,
       fetch(dataUrl(path)).then((r) => {
         if (!r.ok) throw new Error(`Daten nicht ladbar: ${path} (${r.status})`)
         return r.json()
+      }).catch((error: unknown) => {
+        cache.delete(path)
+        throw error
       }),
     )
   }
@@ -31,9 +34,9 @@ export const loadIndex = () => fetchJson<DataIndex>('index.json')
 export const loadCountries = () => fetchJson<Country[]>('entities/countries.json')
 export const loadCities = () => fetchJson<Entity[]>('entities/cities.json')
 export const loadLandmarks = () => fetchJson<Entity[]>('entities/landmarks.json')
-export const loadRivers = () => fetchJson<Entity[]>('entities/rivers.json').catch(() => [] as Entity[])
-export const loadLakes = () => fetchJson<Entity[]>('entities/lakes.json').catch(() => [] as Entity[])
-export const loadMountains = () => fetchJson<Entity[]>('entities/mountains.json').catch(() => [] as Entity[])
+export const loadRivers = () => fetchJson<Entity[]>('entities/rivers.json')
+export const loadLakes = () => fetchJson<Entity[]>('entities/lakes.json')
+export const loadMountains = () => fetchJson<Entity[]>('entities/mountains.json')
 export const loadScriptWords = () => fetchJson<Entity[]>('entities/script-words.json')
 export const loadTrivia = () => fetchJson<TriviaQuestion[]>('entities/trivia.json')
 export const loadRelationships = () => fetchJson<Relationship[]>('relationships/index.json')
@@ -72,9 +75,9 @@ export async function loadRegionMap(iso2: string): Promise<RegionMap | null> {
         const file = iso2 === 'europe' ? 'media/maps/regions/europe.json' : index.region_maps?.[iso2]
         if (!file) return null
         const r = await fetch(mediaUrl(file))
-        if (!r.ok || !r.headers.get('content-type')?.includes('json')) return null
+        if (!r.ok || !r.headers.get('content-type')?.includes('json')) throw new Error('Karte konnte nicht geladen werden.')
         return (await r.json()) as RegionMap
-      })(),
+      })().catch((error: unknown) => { mapCache.delete(iso2); throw error }),
     )
   }
   return mapCache.get(iso2)!

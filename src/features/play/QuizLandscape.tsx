@@ -1,3 +1,4 @@
+import { useReducedMotion } from '@/services/settings/motion'
 import {
   useEffect,
   useRef,
@@ -43,17 +44,6 @@ function stationLayout(quiz: QuizDef) {
 
 const QUIZ_STATIONS = PLAY_QUIZZES.map((quiz) => ({ quiz, layout: stationLayout(quiz) }))
 
-function useReducedMotion() {
-  const [reduced, setReduced] = useState(false)
-  useEffect(() => {
-    const media = window.matchMedia('(prefers-reduced-motion: reduce)')
-    const update = () => setReduced(media.matches)
-    update()
-    media.addEventListener('change', update)
-    return () => media.removeEventListener('change', update)
-  }, [])
-  return reduced
-}
 
 function AtlasDioramaArtwork() {
   return (

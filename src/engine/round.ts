@@ -18,7 +18,7 @@ export interface RoundConfig {
   repeat: boolean
   /** nur Länder / nur Regionen (Flaggen, Karten) */
   content?: Content[]
-  /** nur diese Lernkarten („Fehler wiederholen“) */
+  /** nur diese Lernkarten (Fehlerwiederholung, fällige Inhalte oder gezielte Übung) */
   only?: string[]
   /** verräterische Schrift oder Landesumrisse auf ausgewählten Länderflaggen vor der Antwort verdecken */
   hideFlagHints?: boolean

@@ -112,13 +112,7 @@ function Setup({
   const patch = (p: Partial<RoundConfig>) => setSetup((s) => ({ ...s, ...p }))
   const { data: progress } = useAsync(() => getRepository().getAllEntityProgress(), [])
 
-  const needsRegions = !!quiz.needs?.includes('regions')
-  const needsPlates = !!quiz.needs?.includes('plates')
-  useEffect(() => {
-    if (needsRegions && !geo.regionsLoaded) void geo.ensureRegions()
-    if (needsPlates && !geo.platesLoaded) void geo.ensurePlates()
-  }, [needsRegions, needsPlates, geo])
-  const loading = !geo.ready || (needsRegions && !geo.regionsLoaded) || (needsPlates && !geo.platesLoaded)
+  const loading = !geo.ready
 
   // Kontexte je Bereich einmal pro Datenstand bauen
   const ctxCache = useMemo(() => new Map<string, GeneratorContext>(), [geo])
@@ -218,7 +212,7 @@ function Setup({
   const mastered = useMemo(
     () =>
       progress
-        ? [...pool.keys()].filter((id) => ['familiar', 'mastered'].includes(progress.get(id)?.state ?? ''))
+        ? [...pool.keys()].filter((id) => progress.get(id)?.state === 'mastered')
             .length
         : 0,
     [pool, progress],

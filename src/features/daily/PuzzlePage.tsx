@@ -51,9 +51,7 @@ export default function PuzzlePage() {
   const guessingRef = useRef(false)
 
   const isCountryPuzzle = def && ['flagle', 'countryle', 'outline', 'capitale'].includes(def.id)
-  useEffect(() => {
-    if (def?.id === 'kennzeichle' && !geo.platesLoaded) void geo.ensurePlates()
-  }, [def, geo])
+
   const landmarksWithPhoto = useMemo(
     () => geo.landmarks.filter((l) => l.media?.some((m) => m.kind === 'photo')),
     [geo.landmarks],

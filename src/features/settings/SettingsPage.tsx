@@ -5,6 +5,7 @@ import { useAsync, useDocumentTitle } from '@/app/hooks'
 import { getLocalRepository, getRepository } from '@/services/progress'
 import type { ProgressSnapshot } from '@/services/progress/types'
 import { getThemeMode, setThemeMode, type ThemeMode } from '@/services/settings/theme'
+import { setMotionMode, useMotionMode } from '@/services/settings/motion'
 import { loadVersion } from '@/services/data/dataService'
 import { Page, Card, Chips, useToast } from '@/ui'
 
@@ -12,6 +13,7 @@ export default function SettingsPage() {
   const { t } = useTranslation()
   useDocumentTitle(t('settings.title'))
   const repo = getRepository()
+  const motion = useMotionMode()
   const [theme, setTheme] = useState<ThemeMode>(getThemeMode())
   const { data: version } = useAsync(() => loadVersion(), [])
   const { show, toast } = useToast()
@@ -50,6 +52,9 @@ export default function SettingsPage() {
     await getLocalRepository().clearAll()
     for (const k of Object.keys(localStorage)) if (k.startsWith('gk.')) localStorage.removeItem(k)
     if ('caches' in window) await Promise.all((await caches.keys()).map((name) => caches.delete(name)))
+    setMotionMode('system')
+    setThemeMode('system')
+    setTheme('system')
     show(t('settings.deleted'))
   }
 
@@ -70,6 +75,11 @@ export default function SettingsPage() {
             { value: 'system', label: `⚙ ${t('settings.system')}` },
           ]}
         />
+      </Card>
+      <Card className="mb-4">
+        <h2 className="mb-2 font-medium">Bewegung</h2>
+        <Chips label="Bewegung" value={motion} onChange={setMotionMode} items={[{ value: 'system', label: 'System' }, { value: 'quiet', label: 'Ruhig' }]} />
+        <p className="mt-3 text-sm text-ink-2">System berücksichtigt die Geräteeinstellung. Ruhig pausiert dekorative Animationen und automatische Rotation. Globus und Diorama bleiben manuell bedienbar.</p>
       </Card>
       <Card className="mb-4 grid gap-2">
         <h2 className="font-medium">{t('settings.data')}</h2>

@@ -60,10 +60,14 @@ export function EmptyState({ icon = '🌍', title, hint, action }: { icon?: stri
   )
 }
 
+export function LoadingState({ message = 'Inhalte werden geladen …' }: { message?: string }) {
+  return <div className="mx-auto w-full max-w-2xl p-4" role="status" aria-live="polite"><p className="mb-4 text-sm text-ink-2">{message}</p><Skeleton className="h-40" /></div>
+}
+
 export function ErrorState({ onRetry, message }: { onRetry?: () => void; message?: string }) {
   const { t } = useTranslation()
   return (
-    <div className="card flex flex-col items-center gap-3 px-6 py-10 text-center">
+    <div role="alert" className="card flex flex-col items-center gap-3 px-6 py-10 text-center">
       <p className="font-medium">{message ?? t('common.error')}</p>
       {onRetry && (
         <button className="btn-primary" onClick={onRetry}>
@@ -135,18 +139,18 @@ export function Stat({ value, label }: { value: ReactNode; label: string }) {
   )
 }
 
-export function SourceInfo({ label, source, url, asOf }: { label?: string; source: string; url?: string; asOf?: string }) {
+export function SourceInfo({ label, source, url, asOf, dateLabel }: { label?: string; source: string; url?: string; asOf?: string; dateLabel?: string }) {
   const { t } = useTranslation()
   const [open, setOpen] = useState(false)
   return (
     <span className="inline-flex items-center gap-1">
-      <button type="button" className="text-ink-2 hover:text-ink" aria-label={`${t('facts.source')}: ${label ?? ''}`} onClick={() => setOpen((o) => !o)}>
+      <button type="button" className="source-toggle text-ink-2 hover:text-ink" aria-expanded={open} aria-label={`${t('facts.source')}: ${label ?? ''}`} onClick={() => setOpen((o) => !o)}>
         ⓘ
       </button>
       {open && (
-        <span className="text-xs text-ink-2">
+        <span className="source-detail text-xs text-ink-2">
           {t('facts.source')}: {url ? <a className="underline" href={url} target="_blank" rel="noreferrer">{source}</a> : source}
-          {asOf && ` · ${t('facts.as_of')}: ${asOf}`}
+          {asOf && ` · ${dateLabel ?? t('facts.as_of')}: ${asOf.slice(0, 10)}`}
         </span>
       )}
     </span>

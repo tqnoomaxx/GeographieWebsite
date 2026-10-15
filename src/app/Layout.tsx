@@ -2,10 +2,12 @@ import { Suspense, useEffect } from 'react'
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useOnline } from './hooks'
-import { Skeleton } from '@/ui'
+import { LoadingState, ErrorState } from '@/ui'
 import { NavAtlasIcon, type NavAtlasIconId } from '@/ui/icons'
 import { BrandMark } from '@/ui/BrandMark'
 import { useAuth } from './AuthProvider'
+import { useDataResources } from './DataProvider'
+import { resourcesForPage } from './dataRequirements'
 
 const NAV = [
   { to: '/', key: 'nav.home', icon: 'home', end: true },
@@ -18,7 +20,8 @@ const NAV = [
 export function Layout() {
   const { t } = useTranslation()
   const online = useOnline()
-  const { pathname } = useLocation()
+  const { pathname, search } = useLocation()
+  const data = useDataResources(resourcesForPage(pathname, new URLSearchParams(search)))
   const { mfaRequired } = useAuth()
 
   useEffect(() => {
@@ -51,9 +54,7 @@ export function Layout() {
       {!online && <div role="status" className="bg-warn-soft px-4 py-1.5 text-center text-xs text-ink">{t('common.offline')}</div>}
       {mfaRequired && pathname !== '/mfa' && <NavLink to="/mfa" role="alert" className="bg-warn-soft px-4 py-2 text-center text-sm font-medium text-ink underline">{t('account.mfa_required_banner')}</NavLink>}
       <main className="flex-1">
-        <Suspense fallback={<div className="mx-auto max-w-5xl p-4"><Skeleton className="h-40" /></div>}>
-          <Outlet />
-        </Suspense>
+        <div className="route-content">{data.error ? <ErrorState onRetry={data.retry} /> : data.loading ? <LoadingState /> : <Suspense fallback={<LoadingState />}><Outlet /></Suspense>}</div>
       </main>
       {!immersive && (
         <footer className="site-footer px-4 pb-24 pt-10 text-sm md:pb-10">

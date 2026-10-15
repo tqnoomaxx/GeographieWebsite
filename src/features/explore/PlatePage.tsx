@@ -1,8 +1,7 @@
 import { Link, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { useAsync, useDocumentTitle } from '@/app/hooks'
+import { useDocumentTitle } from '@/app/hooks'
 import { useGeoData } from '@/app/DataProvider'
-import { loadPlates } from '@/services/data/plates'
 import { Page, Card, EmptyState, entityPath } from '@/ui'
 import { RegionMapView } from '@/ui/maps'
 import { FavoriteButton } from './FavoriteButton'
@@ -13,10 +12,9 @@ export default function PlatePage() {
   const { id } = useParams()
   const geo = useGeoData()
   const iso2 = id?.split('-')[0] ?? 'DE'
-  const { data: plates } = useAsync(() => loadPlates(iso2), [iso2])
+  const plates = geo.plates.filter((plate) => plate.attributes.country === `country:${iso2}`)
   const plate = plates?.find((p) => p.id === `license_plate:${id}`)
   useDocumentTitle(plate ? `${plate.attributes.code}` : undefined)
-  if (!plates) return null
   if (!plate) return <Page back="/play/license_plates"><EmptyState title={t('common.error')} /></Page>
   const region = plate.attributes.region ? geo.byId.get(plate.attributes.region) : undefined
   const country = geo.byId.get(plate.attributes.country!)

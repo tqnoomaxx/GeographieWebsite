@@ -1,3 +1,4 @@
+import { useReducedMotion } from '@/services/settings/motion'
 import { Suspense, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Canvas, useFrame, useThree, type ThreeEvent } from '@react-three/fiber'
 import { RoundedBox, useTexture } from '@react-three/drei'
@@ -122,17 +123,6 @@ function stationProgressLabel(progress: StationProgress | undefined, t: TFunctio
   })
 }
 
-function useReducedMotion() {
-  const [reduced, setReduced] = useState(false)
-  useEffect(() => {
-    const media = window.matchMedia('(prefers-reduced-motion: reduce)')
-    const update = () => setReduced(media.matches)
-    update()
-    media.addEventListener('change', update)
-    return () => media.removeEventListener('change', update)
-  }, [])
-  return reduced
-}
 
 function CameraSetup() {
   const camera = useThree((state) => state.camera)

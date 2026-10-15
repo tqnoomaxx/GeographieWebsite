@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
 import { useAsync, useDocumentTitle } from '@/app/hooks'
+import { resourcesForQuiz } from '@/app/dataRequirements'
+import { defaultRound, roundPath } from '@/engine/round'
 import { AUTO, MIN_POOL, PLAY_QUIZZES } from '@/config/quizzes'
 import { baseQuestionPosition, baseQuestionTotal, poolFor, setupOf } from '@/engine/session'
 import { RoundTitle } from '@/features/play/RoundLabel'
@@ -98,6 +100,8 @@ export default function HomePage() {
   const primary = PLAY_QUIZZES.filter((c) => c.primary)
   const [selectedCountryId, setSelectedCountryId] = useState<string>()
   const [quizAvailabilityLoading, setQuizAvailabilityLoading] = useState(false)
+  const [quizAvailabilityError, setQuizAvailabilityError] = useState(false)
+  const [availabilityAttempt, setAvailabilityAttempt] = useState(0)
   const selectedCountry = selectedCountryId
     ? (geo.byId.get(selectedCountryId) as Country | undefined)
     : undefined
@@ -108,21 +112,18 @@ export default function HomePage() {
       return
     }
     let active = true
-    const pending: Promise<unknown>[] = []
-    if (!geo.regionsLoaded) pending.push(geo.ensureRegions())
-    if (!geo.platesLoaded) pending.push(geo.ensurePlates())
-    if (!pending.length) {
-      setQuizAvailabilityLoading(false)
-      return
-    }
+    setQuizAvailabilityError(false)
     setQuizAvailabilityLoading(true)
-    void Promise.allSettled(pending).then(() => {
+    const resources = [...new Set(PLAY_QUIZZES.filter((quiz) => quiz.perCountry && quiz.id !== 'mixed').flatMap((quiz) => resourcesForQuiz(quiz.id)))]
+    void geo.ensureResources(resources).catch(() => {
+      if (active) setQuizAvailabilityError(true)
+    }).finally(() => {
       if (active) setQuizAvailabilityLoading(false)
     })
     return () => {
       active = false
     }
-  }, [selectedCountryId]) // Die Ladefunktionen ändern ihre Identität mit dem Datenstand.
+  }, [selectedCountryId, availabilityAttempt, geo.ensureResources])
 
   const availableCountryQuizIds = useMemo(() => {
     const available = new Set<string>()
@@ -142,6 +143,21 @@ export default function HomePage() {
 
   return (
     <Page wide>
+      <nav className="home-quick-actions" aria-label="Direkt spielen">
+        <Link className="btn-primary" to={roundPath({ ...defaultRound('flags'), mode: 'flag_to_name', content: ['country'] })}>10 Flaggen <span aria-hidden>→</span></Link>
+        <Link className="btn-secondary" to={roundPath({ ...defaultRound('trivia'), mode: 'trivia_questions' })}>10 Trivia-Fragen <span aria-hidden>→</span></Link>
+        <Link className="btn-secondary" to="/daily">Tagesrätsel <span aria-hidden>↗</span></Link>
+      </nav>
+      {open && open.length > 0 && (
+        <section className="home-continue">
+          <span className="atlas-index">WEITER</span>
+          <div className="min-w-0 flex-1">
+            <RoundTitle setup={setupOf(open[0])} progress={{ done: baseQuestionPosition(open[0]), total: baseQuestionTotal(open[0]) }} />
+            <ProgressBar className="mt-2" value={baseQuestionPosition(open[0]) / baseQuestionTotal(open[0])} />
+          </div>
+          <Link to={`/play/session/${encodeURIComponent(open[0].id)}`} className="btn-primary">{t('app.continue')}</Link>
+        </section>
+      )}
       <section className="home-hero">
         <h1 className="sr-only">Interaktiver Weltatlas</h1>
         <div className="home-hero-map">
@@ -157,24 +173,14 @@ export default function HomePage() {
         </div>
       </section>
 
-      {selectedCountry && (
+      {selectedCountry && quizAvailabilityError && <div role="alert" className="card p-4">Passende Quizze konnten nicht geladen werden. <button className="btn-secondary" onClick={() => setAvailabilityAttempt((n) => n + 1)}>Erneut versuchen</button></div>}
+      {selectedCountry && !quizAvailabilityError && (
         <CountryQuizPanel
           country={selectedCountry}
           availableCountryQuizIds={availableCountryQuizIds}
           loading={quizAvailabilityLoading}
           onClose={() => setSelectedCountryId(undefined)}
         />
-      )}
-
-      {open && open.length > 0 && (
-        <section className="home-continue">
-          <span className="atlas-index">WEITER</span>
-          <div className="min-w-0 flex-1">
-            <RoundTitle setup={setupOf(open[0])} progress={{ done: baseQuestionPosition(open[0]), total: baseQuestionTotal(open[0]) }} />
-            <ProgressBar className="mt-2" value={baseQuestionPosition(open[0]) / baseQuestionTotal(open[0])} />
-          </div>
-          <Link to={`/play/session/${encodeURIComponent(open[0].id)}`} className="btn-primary">{t('app.continue')}</Link>
-        </section>
       )}
 
       <header className="atlas-section-head">

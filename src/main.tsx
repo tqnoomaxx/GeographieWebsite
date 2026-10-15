@@ -5,8 +5,10 @@ import './index.css'
 import './i18n'
 import { router } from './app/router'
 import { applyStoredTheme } from './services/settings/theme'
+import { applyStoredMotion } from './services/settings/motion'
 
 applyStoredTheme()
+applyStoredMotion()
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

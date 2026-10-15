@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { loadEntity } from '@/services/data/dataService'
 import { useGeoData } from '@/app/DataProvider'
 import { useAsync, useDocumentTitle, useStats } from '@/app/hooks'
 import { ACHIEVEMENTS } from '@/config/achievements'
@@ -9,7 +10,7 @@ import { setupOf } from '@/engine/session'
 import { RoundTitle } from '@/features/play/RoundLabel'
 import { getRepository } from '@/services/progress'
 import { metric } from '@/services/gamification'
-import { Page, Card, ProgressBar, Stat, EmptyState, entityPath } from '@/ui'
+import { Page, Card, ProgressBar, Stat, EmptyState, entityPath, LoadingState, ErrorState } from '@/ui'
 import { AchievementIcon, CategoryIcon, Icons, TypeIcon } from '@/ui/icons'
 import type { CategoryId } from '@/engine/types'
 
@@ -19,13 +20,16 @@ export default function ProgressPage() {
   const geo = useGeoData()
   const repo = getRepository()
   const { stats, level } = useStats()
-  const { data: progress } = useAsync(() => repo.getAllEntityProgress(), [])
+  const { data: progress, error, reload } = useAsync(() => repo.getAllEntityProgress(), [])
   const { data: unlocked } = useAsync(() => repo.getAchievements(), [])
   const { data: quests } = useAsync(() => repo.getQuests(), [])
   const { data: favorites } = useAsync(() => repo.getFavorites(), [])
+  const { data: favoriteEntities } = useAsync(async () => new Map((await Promise.all((favorites ?? []).map(loadEntity))).filter((entity) => !!entity).map((entity) => [entity.id, entity])), [favorites])
   const { data: recent } = useAsync(() => repo.getRecentSessions(8), [])
-  if (!stats || !level || !progress) return null
+  if (error) return <Page title={t('progress.title')}><ErrorState onRetry={reload} /></Page>
+  if (!stats || !level || !progress) return <Page title={t('progress.title')}><LoadingState /></Page>
   const known = (pred: (id: string) => boolean) => [...progress.values()].filter((p) => p.state !== 'new' && pred(p.entityId)).length
+  const familiar = [...progress.values()].filter((p) => p.state === 'familiar').length
   const mastered = [...progress.values()].filter((p) => p.state === 'mastered').length
   const world = [
     { key: 'countries', icon: '🌍', total: geo.index?.counts.country ?? 0, known: known((id) => id.startsWith('country:')) },
@@ -35,6 +39,7 @@ export default function ProgressPage() {
     { key: 'water', icon: '🌊', total: geo.index?.counts.water ?? 0, known: known((id) => id.startsWith('river:') || id.startsWith('lake:')) },
     { key: 'nature', icon: '🏔️', total: geo.index?.counts.mountain ?? 0, known: known((id) => id.startsWith('mountain:')) },
     { key: 'license_plates', icon: '🚗', total: geo.index?.counts.license_plate ?? 0, known: known((id) => id.startsWith('license_plate:')) },
+    { key: 'trivia', icon: '💡', total: geo.index?.counts.trivia ?? 0, known: known((id) => id.startsWith('trivia:')) },
     { key: 'languages', icon: '🔤', total: geo.index?.counts.script_word ?? 0, known: known((id) => id.startsWith('script_word:')) },
   ].filter((w) => w.total > 0)
   const unlockedSet = new Map((unlocked ?? []).map((a) => [a.id, a.unlockedAt]))
@@ -59,6 +64,7 @@ export default function ProgressPage() {
       </Card>
 
       <h2 className="mb-2 text-sm font-medium uppercase tracking-wider text-ink-2">{t('progress.my_world')}</h2>
+      <p className="mb-3 text-sm text-ink-2">Die Übersicht zählt alle kennengelernten Inhalte: in Arbeit, vertraut und gemeistert.</p>
       <Card className="mb-5 grid gap-3">
         {world.map((w) => (
           <div key={w.key}>
@@ -71,6 +77,7 @@ export default function ProgressPage() {
         ))}
       </Card>
 
+      <p className="mb-5 text-sm text-ink-2">Vertraut: mindestens zweimal in Folge richtig. Gemeistert: mindestens fünfmal in Folge richtig und ein Wiederholungsintervall von mindestens 14 Tagen.</p>
       <h2 className="mb-2 text-sm font-medium uppercase tracking-wider text-ink-2">{t('progress.stats')}</h2>
       <div className="mb-3 grid grid-cols-3 gap-2">
         <Stat value={stats.answered.toLocaleString('de-DE')} label={t('progress.answered')} />
@@ -87,6 +94,7 @@ export default function ProgressPage() {
             </div>
           )
         })}
+        <div className="flex justify-between rounded-lg bg-card-2 px-3 py-2"><span>👍 Vertraut</span><span className="tabular-nums">{familiar}</span></div>
         <div className="flex justify-between rounded-lg bg-card-2 px-3 py-2"><span>⭐ Gemeistert</span><span className="tabular-nums">{mastered}</span></div>
         <div className="flex justify-between rounded-lg bg-card-2 px-3 py-2"><span>🧩 Rätsel</span><span className="tabular-nums">{stats.puzzlesSolved}</span></div>
       </Card>
@@ -144,10 +152,10 @@ export default function ProgressPage() {
       {favorites && favorites.length > 0 ? (
         <ul className="mb-5 flex flex-wrap gap-2">
           {favorites.map((id) => {
-            const e = geo.byId.get(id)
+            const e = favoriteEntities?.get(id) ?? geo.byId.get(id)
             return (
               <li key={id}>
-                <Link to={e ? entityPath(e) : '#'} className="chip gap-1.5"><TypeIcon type={id.split(':')[0]} /> {e?.names.de ?? id}</Link>
+                <Link to={entityPath(e ?? { id, type: id.split(':')[0] as never })} className="chip gap-1.5"><TypeIcon type={id.split(':')[0]} /> {e?.names.de ?? id}</Link>
               </li>
             )
           })}
