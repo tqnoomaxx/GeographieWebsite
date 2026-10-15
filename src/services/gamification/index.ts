@@ -3,7 +3,7 @@ import { ACHIEVEMENTS, type AchievementDef } from '@/config/achievements'
 import { QUESTS, type QuestDef } from '@/config/quests'
 import { levelForXp } from '@/config/levels'
 import type { ProgressRepository, UserStats } from '@/services/progress/types'
-import type { QuizSession } from '@/engine/session'
+import { isSessionComplete, type QuizSession } from '@/engine/session'
 import type { Entity } from '@/domain/types'
 import { review, initialProgress, type EntityProgress } from '@/engine/srs'
 import { todayKey } from '@/engine/rng'
@@ -56,7 +56,7 @@ export async function applySession(repo: ProgressRepository, session: QuizSessio
     const continent = byId.get(primary)?.attributes.continent ?? byId.get(byId.get(primary)?.attributes.country ?? '')?.attributes.continent
     if (continent && !stats.continentsPlayed.includes(continent)) stats.continentsPlayed.push(continent)
   }
-  if (session.completedAt) {
+  if (isSessionComplete(session)) {
     xp += XP.quiz_completed
     stats.sessions++
     if (session.mode === 'full') {
@@ -132,7 +132,7 @@ async function advanceQuests(repo: ProgressRepository, stats: UserStats, session
     if (cur.completedAt) continue
     let inc = 0
     if (def.type === 'answer_questions' && (!def.category || def.category === session.category)) inc = session.questions.filter((q) => !q.repeated && q.correct).length
-    if (def.type === 'complete_sessions' && session.completedAt) inc = 1
+    if (def.type === 'complete_sessions' && isSessionComplete(session)) inc = 1
     if (def.type === 'learn_entities' && def.scope) {
       // Fortschritt = Anzahl gelernter (familiar/mastered) Entities im Bereich; wird in recomputeLongQuests gesetzt
       continue

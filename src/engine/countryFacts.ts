@@ -4,6 +4,18 @@ import { createRng } from './rng'
 import { poolFor, type QuizSession } from './session'
 
 const UPDATED_GENERATORS = new Set([
+  'country_attribute',
+  'country_code',
+  'river_to_country',
+  'lake_to_country',
+  'mountain_to_country',
+  'plate_to_city',
+  'plate_input',
+  'plate_to_region',
+  'city_to_plate',
+  'city_to_plate_input',
+  'region_on_map',
+  'flag_to_region_map',
   'geography_trivia',
   'country_to_capital',
   'capital_to_country',

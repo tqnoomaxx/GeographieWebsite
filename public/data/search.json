@@ -31636,7 +31636,8 @@
   "a": [
    "Landkreis Schwäbisch Hall",
    "Landkreis Börde",
-   "Börde"
+   "Börde",
+   "Rems-Murr-Kreis"
   ],
   "c": "country:DE"
  },
@@ -33555,9 +33556,8 @@
  {
   "id": "license_plate:DE-L",
   "t": "license_plate",
-  "n": "Erfurt",
+  "n": "Leipzig",
   "a": [
-   "Leipzig",
    "Landkreis Leipzig"
   ],
   "c": "country:DE"
@@ -33640,10 +33640,9 @@
  {
   "id": "license_plate:DE-LF",
   "t": "license_plate",
-  "n": "Erfurt",
+  "n": "Berchtesgadener Land",
   "a": [
    "Landkreis Berchtesgadener Land",
-   "Berchtesgadener Land",
    "Landkreis Traunstein",
    "Traunstein"
   ],

@@ -13,6 +13,7 @@ import {
   uniqueNames,
 } from './base'
 import type { GeneratorContext } from '../types'
+import { capitalPrompt } from './capitals'
 
 const regionsWithFlag = (ctx: GeneratorContext) => ctx.regions.filter((r) => flagOf(r))
 const siblings = (r: GeneratorContext['regions'][0], ctx: GeneratorContext) =>
@@ -207,7 +208,7 @@ export const cityInput: Generator = {
       type: this.id,
       question_type: 'text_input',
       prompt: {
-        key: country.attributes.iso2 === 'CH' ? 'q.federal_city_input' : 'q.capital_input',
+        key: capitalPrompt(country, 'capital_input'),
         params: { name: nameOf(country) },
       },
       answer: target.id,

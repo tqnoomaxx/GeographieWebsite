@@ -8094,7 +8094,8 @@
      "wikidata": "Q176665"
     }
    ],
-   "official_name": "Republik Zypern"
+   "official_name": "Republik Zypern",
+   "statistical_region": "asia"
   },
   "provenance": {
    "source": "mledoze/countries",
@@ -8115,6 +8116,11 @@
     "capitals": {
      "source": "Wikidata (CC0)",
      "imported_at": "2026-10-13"
+    },
+    "statistical_region": {
+     "source": "UN Statistics Division · M49",
+     "source_url": "https://unstats.un.org/unsd/methodology/m49/overview/",
+     "imported_at": "2026-10-15"
     }
    },
    "conflicts": [
@@ -11346,7 +11352,7 @@
    "currencies": [
     {
      "code": "GBP",
-     "name": "Wirtschaft des Vereinigten Königreichs",
+     "name": "Pfund Sterling",
      "name_en": "British pound",
      "symbol": "£"
     }
@@ -11432,6 +11438,11 @@
     "capitals": {
      "source": "Wikidata (CC0)",
      "imported_at": "2026-10-13"
+    },
+    "currencies.GBP.name": {
+     "source": "Bank of England",
+     "source_url": "https://www.bankofengland.co.uk/banknotes/current-banknotes",
+     "imported_at": "2026-10-15"
     }
    }
   }
@@ -11888,7 +11899,7 @@
    "currencies": [
     {
      "code": "GBP",
-     "name": "Wirtschaft des Vereinigten Königreichs",
+     "name": "Pfund Sterling",
      "name_en": "British pound",
      "symbol": "£"
     },
@@ -11989,6 +12000,11 @@
     "capitals": {
      "source": "mledoze/countries",
      "imported_at": "2026-10-13"
+    },
+    "currencies.GBP.name": {
+     "source": "Bank of England",
+     "source_url": "https://www.bankofengland.co.uk/banknotes/current-banknotes",
+     "imported_at": "2026-10-15"
     }
    }
   }
@@ -15171,7 +15187,7 @@
    "currencies": [
     {
      "code": "GBP",
-     "name": "Wirtschaft des Vereinigten Königreichs",
+     "name": "Pfund Sterling",
      "name_en": "British pound",
      "symbol": "£"
     },
@@ -15266,6 +15282,11 @@
     "capitals": {
      "source": "Wikidata (CC0)",
      "imported_at": "2026-10-13"
+    },
+    "currencies.GBP.name": {
+     "source": "Bank of England",
+     "source_url": "https://www.bankofengland.co.uk/banknotes/current-banknotes",
+     "imported_at": "2026-10-15"
     }
    }
   }
@@ -16210,7 +16231,7 @@
    "currencies": [
     {
      "code": "GBP",
-     "name": "Wirtschaft des Vereinigten Königreichs",
+     "name": "Pfund Sterling",
      "name_en": "British pound",
      "symbol": "£"
     },
@@ -16307,6 +16328,11 @@
     "capitals": {
      "source": "Wikidata (CC0)",
      "imported_at": "2026-10-13"
+    },
+    "currencies.GBP.name": {
+     "source": "Bank of England",
+     "source_url": "https://www.bankofengland.co.uk/banknotes/current-banknotes",
+     "imported_at": "2026-10-15"
     }
    }
   }
@@ -29184,7 +29210,7 @@
    "currencies": [
     {
      "code": "GBP",
-     "name": "Wirtschaft des Vereinigten Königreichs",
+     "name": "Pfund Sterling",
      "name_en": "Pound sterling",
      "symbol": "£"
     },
@@ -29274,6 +29300,11 @@
     "capitals": {
      "source": "Wikidata (CC0)",
      "imported_at": "2026-10-13"
+    },
+    "currencies.GBP.name": {
+     "source": "Bank of England",
+     "source_url": "https://www.bankofengland.co.uk/banknotes/current-banknotes",
+     "imported_at": "2026-10-15"
     }
    }
   }
@@ -36553,6 +36584,12 @@
    "area_km2": 390757,
    "currencies": [
     {
+     "code": "ZWG",
+     "name": "Zimbabwe Gold (ZiG)",
+     "name_en": "Zimbabwe Gold",
+     "symbol": "ZiG"
+    },
+    {
      "code": "BWP",
      "name": "botswanischer Pula",
      "name_en": "Botswana pula",
@@ -36572,7 +36609,7 @@
     },
     {
      "code": "GBP",
-     "name": "Wirtschaft des Vereinigten Königreichs",
+     "name": "Pfund Sterling",
      "name_en": "British pound",
      "symbol": "£"
     },
@@ -36599,12 +36636,6 @@
      "name": "südafrikanischer Rand",
      "name_en": "South African rand",
      "symbol": "Rs"
-    },
-    {
-     "code": "ZWB",
-     "name": "Zimbabwean bonds",
-     "name_en": "Zimbabwean bonds",
-     "symbol": "$"
     }
    ],
    "languages": [
@@ -36790,6 +36821,16 @@
     "capitals": {
      "source": "Wikidata (CC0)",
      "imported_at": "2026-10-13"
+    },
+    "currencies.GBP.name": {
+     "source": "Bank of England",
+     "source_url": "https://www.bankofengland.co.uk/banknotes/current-banknotes",
+     "imported_at": "2026-10-15"
+    },
+    "currencies.ZWG": {
+     "source": "Reserve Bank of Zimbabwe",
+     "source_url": "https://www.rbz.co.zw/index.php/publications-notices/notices/press-release/1419-press-statement-introduction-of-zimbabwe-gold-zig-currency-code-zwg",
+     "imported_at": "2026-10-15"
     }
    }
   }

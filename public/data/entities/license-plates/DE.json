@@ -1243,7 +1243,8 @@
   "aliases": [
    "Landkreis Schwäbisch Hall",
    "Landkreis Börde",
-   "Börde"
+   "Börde",
+   "Rems-Murr-Kreis"
   ],
   "location": {
    "lat": 49.15,
@@ -1255,15 +1256,32 @@
    "region": "region:DE-BW",
    "districts": [
     "Landkreis Schwäbisch Hall",
-    "Landkreis Börde"
+    "Landkreis Börde",
+    "Rems-Murr-Kreis"
    ],
-   "historical": false
+   "historical": false,
+   "regions": [
+    "region:DE-BW",
+    "region:DE-ST"
+   ]
   },
   "provenance": {
    "source": "wikidata",
    "imported_at": "2026-09-18",
    "source_id": "Q8520",
-   "license": "CC0"
+   "license": "CC0",
+   "fields": {
+    "regions": {
+     "source": "Landkreis Börde",
+     "source_url": "https://www.landkreis-boerde.de/landkreis/ueber-den-landkreis/staedte-und-gemeinden",
+     "imported_at": "2026-10-15"
+    },
+    "districts.Rems-Murr-Kreis": {
+     "source": "Rems-Murr-Kreis",
+     "source_url": "https://www.rems-murr-kreis.de/bauen-umwelt-und-verkehr/kfz-zulassung/wunschkennzeichen",
+     "imported_at": "2026-10-15"
+    }
+   }
   }
  },
  {
@@ -7702,22 +7720,20 @@
   "id": "license_plate:DE-L",
   "type": "license_plate",
   "names": {
-   "de": "Erfurt"
+   "de": "Leipzig"
   },
   "aliases": [
-   "Leipzig",
    "Landkreis Leipzig"
   ],
   "location": {
-   "lat": 50.978055555556,
-   "lon": 11.028888888889
+   "lat": 51.34,
+   "lon": 12.37
   },
   "attributes": {
    "code": "L",
    "country": "country:DE",
-   "region": "region:DE-TH",
+   "region": "region:DE-SN",
    "districts": [
-    "Erfurt",
     "Leipzig",
     "Landkreis Leipzig"
    ],
@@ -7727,7 +7743,14 @@
    "source": "wikidata",
    "imported_at": "2026-09-18",
    "source_id": "Q1729",
-   "license": "CC0"
+   "license": "CC0",
+   "fields": {
+    "districts": {
+     "source": "Freistaat Sachsen",
+     "source_url": "https://www.medienservice.sachsen.de/medien/medienobjekte/100148/download",
+     "imported_at": "2026-10-15"
+    }
+   }
   }
  },
  {
@@ -7990,17 +8013,16 @@
   "id": "license_plate:DE-LF",
   "type": "license_plate",
   "names": {
-   "de": "Erfurt"
+   "de": "Berchtesgadener Land"
   },
   "aliases": [
    "Landkreis Berchtesgadener Land",
-   "Berchtesgadener Land",
    "Landkreis Traunstein",
    "Traunstein"
   ],
   "location": {
-   "lat": 47.733333333333,
-   "lon": 12.883333333333
+   "lat": 47.73,
+   "lon": 12.88
   },
   "attributes": {
    "code": "LF",
@@ -8008,8 +8030,7 @@
    "region": "region:DE-BY",
    "districts": [
     "Landkreis Berchtesgadener Land",
-    "Landkreis Traunstein",
-    "Erfurt"
+    "Landkreis Traunstein"
    ],
    "historical": false
   },
@@ -8017,7 +8038,14 @@
    "source": "wikidata",
    "imported_at": "2026-09-18",
    "source_id": "Q10530",
-   "license": "CC0"
+   "license": "CC0",
+   "fields": {
+    "districts": {
+     "source": "Landratsamt Berchtesgadener Land",
+     "source_url": "https://www.lra-bgl.de/t/presse/pressemitteilungen/detail/news/wiedereinfuehrung-altkennzeichen-rei-bgd-und-lf/",
+     "imported_at": "2026-10-15"
+    }
+   }
   }
  },
  {

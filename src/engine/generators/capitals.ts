@@ -10,7 +10,7 @@ const countriesWithCapital = (ctx: GeneratorContext) =>
   )
 const capitalCities = (ctx: GeneratorContext) =>
   countriesWithCapital(ctx).flatMap((country) => countryCapitals(country, ctx.byId))
-function capitalPrompt(country: Entity, standard: string) {
+export function capitalPrompt(country: Entity, standard: string) {
   const kind =
     country.attributes.iso2 === 'CH'
       ? 'federal_city'

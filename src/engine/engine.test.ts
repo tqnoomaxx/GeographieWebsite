@@ -1,9 +1,10 @@
-import { describe, it, expect } from 'vitest'
+import { describe, it, expect, vi } from 'vitest'
 import { existsSync, readFileSync, readdirSync } from 'node:fs'
 import { join } from 'node:path'
 import { buildContext } from './context'
 import {
   baseQuestionPosition,
+  advanceSession,
   baseQuestionTotal,
   buildSession,
   checkAnswer,
@@ -20,8 +21,10 @@ import { matchesAnswer, normalizeAnswer } from './normalize'
 import { createRng } from './rng'
 import { review, initialProgress } from './srs'
 import { levelForXp, xpForLevel } from '@/config/levels'
-import type { Entity, Relationship } from '@/domain/types'
-import { isSovereign } from './generators/base'
+import type { Country, Entity, Relationship } from '@/domain/types'
+import { isSovereign, options } from './generators/base'
+import { resolvePuzzleGuess, samePuzzlePlace } from '@/features/daily/puzzles'
+import { platePlaceKeys, sharePlatePlace } from '@/domain/licensePlates'
 
 const DATA = join(process.cwd(), 'public', 'data')
 const read = <T>(p: string): T => JSON.parse(readFileSync(join(DATA, p), 'utf8'))
@@ -72,6 +75,260 @@ describe('normalize', () => {
     expect(matchesAnswer('Deutschlnad', ['Deutschland'])).toBe(true)
     expect(matchesAnswer('Peru', ['Chile'])).toBe(false)
     expect(matchesAnswer('Iran', ['Irak'])).toBe(false)
+  })
+  it('bewahrt nichtlateinische Namen und unterscheidet griechische und kyrillische Antworten', () => {
+    expect(matchesAnswer('Москва', ['Москва'])).toBe(true)
+    expect(matchesAnswer('Москва', ['Сочи'])).toBe(false)
+    expect(normalizeAnswer('Αθήνα')).not.toBe('')
+  })
+})
+
+describe('Quizlogik-Regressionen', () => {
+  it.each([
+    ['AU', 'Austria'],
+    ['AT', 'Australia'],
+    ['KR', 'North Korea'],
+    ['KP', 'South Korea'],
+    ['IE', 'Island'],
+    ['IS', 'Irland'],
+    ['LV', 'Republik Estland'],
+  ])('wertet einen anderen echten Ländernamen für %s als falsch', (iso, input) => {
+    const c = ctx()
+    const target = c.byId.get(`country:${iso}`)!
+    const q = registry.get('flag_to_country_input')!.make(target, c, createRng('names'), 2)!
+    expect(checkAnswer(q, input, c)).toBe(false)
+    const session = buildSession(
+      c,
+      setup({ category: 'flags', mode: 'flag_input', content: ['country'], length: 1, only: [target.id] }),
+    )
+    expect(recordAnswer(session, input, undefined, c).questions[0].correct).toBe(false)
+  })
+
+  it('behält Tippfehlertoleranz, ISO-Codes und mehrere gültige Hauptstädte', () => {
+    const c = ctx()
+    const question = (generator: string, iso: string) =>
+      registry.get(generator)!.make(c.byId.get(`country:${iso}`)!, c, createRng('typos'), 2)!
+    expect(checkAnswer(question('flag_to_country_input', 'DE'), 'Deutschlnad', c)).toBe(true)
+    expect(checkAnswer(question('flag_to_country_input', 'AU'), 'Austrlia', c)).toBe(true)
+    expect(checkAnswer(question('flag_to_country_input', 'AU'), 'AUS', c)).toBe(true)
+    for (const name of ['Pretoria', 'Cape Town', 'Bloemfontein'])
+      expect(checkAnswer(question('capital_input', 'ZA'), name, c)).toBe(true)
+  })
+
+  it('bietet bei Währungsfragen genau eine gültige Währung an', () => {
+    const c = ctx()
+    const generator = registry.get('country_attribute')!
+    let multiCurrencyQuestions = 0
+    for (const country of countries as Country[]) {
+      if (!isSovereign(country)) continue
+      const valid = new Set(country.attributes.currencies?.map((currency) => currency.code))
+      for (let seed = 0; seed < 12; seed++) {
+        const q = generator.make(country, c, createRng(`${country.id}:${seed}`), 2)!
+        if (q.type !== 'country_currency') continue
+        expect(
+          q.options!.filter((option) => valid.has(option.id)),
+          q.id,
+        ).toHaveLength(1)
+        expect(q.options!.find((option) => option.id === q.answer)).toBeDefined()
+        expect(new Set(q.options!.map((option) => normalizeAnswer(option.label))).size).toBe(4)
+        if (valid.size > 1) multiCurrencyQuestions++
+      }
+    }
+    expect(multiCurrencyQuestions).toBeGreaterThan(20)
+  })
+
+  it('schließt weitere gültige Flussländer auch aus dem globalen Ersatzpool aus', () => {
+    const river: Entity = {
+      ...rivers[0],
+      attributes: { continent: 'europe', country: 'country:DE', countries: ['country:DE', 'country:AT'] },
+    }
+    const c = buildContext({
+      countries: countries.filter((country) =>
+        ['DE', 'AT', 'FR', 'IT', 'JP', 'BR'].includes(country.attributes.iso2 as string),
+      ),
+      cities: [],
+      landmarks: [],
+      regions: [],
+      rivers: [river],
+      relationships: [],
+      scope: 'europe',
+    })
+    for (let seed = 0; seed < 30; seed++) {
+      const q = registry.get('river_to_country')!.make(river, c, createRng(seed), 2)!
+      expect(q).not.toBeNull()
+      expect(q.options!.filter((option) => ['country:DE', 'country:AT'].includes(option.id))).toHaveLength(1)
+    }
+  })
+
+  it('füllt Antworten trotz gleichnamiger Kandidaten im globalen Ersatzpool vollständig', () => {
+    const selected = ['DE', 'FR', 'JP', 'BR', 'US'].map((iso) =>
+      structuredClone(countries.find((country) => country.id === `country:${iso}`)!),
+    )
+    selected[2].names.de = selected[1].names.de
+    const c = buildContext({
+      countries: selected,
+      cities: [],
+      landmarks: [],
+      regions: [],
+      relationships: [],
+      scope: 'world',
+    })
+    for (let seed = 0; seed < 20; seed++) {
+      const result = options(selected[0], selected.slice(0, 2), c, createRng(seed), 2)!
+      expect(result).toHaveLength(4)
+      expect(new Set(result.map((option) => option.label)).size).toBe(4)
+    }
+  })
+
+  it.each(['europe', 'south-america', 'oceania', 'country:DE', 'country:AT', 'country:CH'])(
+    'hält Fragen in kleinen Gebieten spielbar: %s',
+    (scope) => {
+      const c = ctx(scope)
+      for (const id of [
+        'national_animal',
+        'national_bird',
+        'national_tree',
+        'country_attribute',
+        'country_code',
+        'country_comparison',
+        'country_true_false',
+      ]) {
+        const generator = registry.get(id)!
+        for (const target of generator.pool(c)) {
+          for (let seed = 0; seed < 3; seed++)
+            expect(
+              generator.make(target, c, createRng(seed), 2),
+              `${scope}/${id}/${target.id}`,
+            ).not.toBeNull()
+        }
+      }
+    },
+  )
+
+  it('überspringt beim Nachladen entfernte Karten und erreicht die nächste gültige Frage', () => {
+    const c = ctx()
+    let session = buildSession(
+      c,
+      setup({ category: 'flags', mode: 'flag_to_name', content: ['country'], length: 'all' }),
+      { seed: 'stale' },
+    )
+    session = recordAnswer(
+      { ...session, position: session.questions.length - 1 },
+      session.questions.at(-1)!.question.answer,
+    )
+    session.remaining = [...Array.from({ length: 26 }, (_, i) => `country:removed-${i}`), 'country:DE']
+    const next = advanceSession(session, c)!
+    expect(next).not.toBeNull()
+    expect(next.questions[next.position].question.entities[0]).toBe('country:DE')
+    expect(next.remaining).toEqual([])
+  })
+
+  it('füllt die erste Alle-Etappe trotz nicht mehr spielbarer Karten', () => {
+    const c = ctx()
+    const generator = registry.get('flag_to_country')!
+    const original = generator.make.bind(generator)
+    let calls = 0
+    const spy = vi
+      .spyOn(generator, 'make')
+      .mockImplementation((...args) => (++calls <= 25 ? null : original(...args)))
+    try {
+      const session = buildSession(
+        c,
+        setup({ category: 'flags', mode: 'flag_to_name', content: ['country'], length: 'all' }),
+        { seed: 'first-batch' },
+      )
+      expect(session.questions).toHaveLength(25)
+      expect(session.remaining!.length).toBeGreaterThan(0)
+    } finally {
+      spy.mockRestore()
+    }
+  })
+
+  it('lässt unbeantwortete Fragen beim Weiterklicken stehen', () => {
+    const c = ctx()
+    const session = buildSession(c, setup({ category: 'flags' }), { seed: 'advance' })
+    expect(advanceSession(session, c)).toBe(session)
+  })
+
+  it('ordnet tägliche Eingaben exakt zu und verwirft mehrdeutige Tippfehler', () => {
+    expect(resolvePuzzleGuess('Austria', countries)?.id).toBe('country:AT')
+    expect(resolvePuzzleGuess('Australia', countries)?.id).toBe('country:AU')
+    expect(resolvePuzzleGuess('South Korea', countries)?.id).toBe('country:KR')
+    expect(resolvePuzzleGuess('Deutschlnad', countries)?.id).toBe('country:DE')
+    const ambiguous = ['country:IE', 'country:IS'].map((id) =>
+      countries.find((country) => country.id === id)!,
+    )
+    expect(resolvePuzzleGuess('Ixland', ambiguous)).toBeUndefined()
+  })
+
+  it('akzeptiert jeden gleichnamigen Kennzeichenbezirk und wiederholt keine Bezirke', () => {
+    const pool = plates.filter((plate) => plate.attributes.country === 'country:DE')
+    const targets = pool.filter(
+      (plate) => pool.find((other) => samePuzzlePlace(plate, other))!.id !== plate.id,
+    )
+    expect(targets.length).toBeGreaterThan(100)
+    for (const target of targets) {
+      const guess = resolvePuzzleGuess(target.names.de, pool)!
+      expect(guess, target.names.de).toBeDefined()
+      expect(samePuzzlePlace(guess, target), target.names.de).toBe(true)
+    }
+  })
+
+  it('akzeptiert LF für beide Landkreise und vermeidet gültige Kennzeichen-Distraktoren', () => {
+    const c = ctx()
+    const lf = c.byId.get('license_plate:DE-LF')!
+    for (const id of ['license_plate:DE-BGL', 'license_plate:DE-TS']) {
+      const place = c.byId.get(id)!
+      expect(sharePlatePlace(place, lf)).toBe(true)
+      const input = registry.get('city_to_plate_input')!.make(place, c, createRng('lf'), 2)!
+      expect(checkAnswer(input, 'LF', c)).toBe(true)
+    }
+    for (const target of c.plates.filter((plate) => plate.attributes.country === 'country:DE')) {
+      const q = registry.get('plate_to_city')!.make(target, c, createRng(target.id), 2)!
+      for (const option of q.options!.filter((option) => option.id !== q.answer))
+        expect(platePlaceKeys(target), q.id).not.toContain(normalizeAnswer(option.label))
+    }
+  })
+
+  it('stellt bei Russland die statistische Weltregion mit Quelle klar', () => {
+    const c = ctx()
+    const ru = c.byId.get('country:RU')!
+    const q = Array.from({ length: 12 }, (_, seed) =>
+      registry.get('country_attribute')!.make(ru, c, createRng(seed), 2)!,
+    ).find((q) => q.type === 'country_continent')!
+    expect(q.answer).toBe('europe')
+    expect(q.explanation).toContain('statistischen UN-Einteilung')
+    expect(q.sources?.[0].url).toBe('https://unstats.un.org/unsd/methodology/m49/')
+  })
+
+  it('unterscheidet bei Zypern die gebräuchliche Europa-Zuordnung von UN-M49', () => {
+    const c = ctx()
+    const cy = c.byId.get('country:CY')!
+    expect(cy.attributes.continent).toBe('europe')
+    const q = Array.from({ length: 12 }, (_, seed) =>
+      registry.get('country_attribute')!.make(cy, c, createRng(seed), 2)!,
+    ).find((q) => q.type === 'country_continent')!
+    expect(q.answer).toBe('asia')
+  })
+
+  it('unterscheidet beanspruchte Hauptstädte auch im Städte-Eintippmodus', () => {
+    const c = ctx()
+    const city = c.byId.get('city:PS-ostjerusalem')!
+    expect(registry.get('city_input')!.make(city, c, createRng('ps'), 2)!.prompt.key).toBe(
+      'q.claimed_capital_input',
+    )
+  })
+
+  it('führt bei BK beide Bundesländer als gültig und bietet keines als Falschantwort an', () => {
+    const c = ctx()
+    const plate = c.byId.get('license_plate:DE-BK')!
+    for (let seed = 0; seed < 20; seed++) {
+      const q = registry.get('plate_to_region')!.make(plate, c, createRng(seed), 2)!
+      expect(
+        q.options!.filter((option) => ['region:DE-BW', 'region:DE-ST'].includes(option.id)),
+      ).toHaveLength(1)
+      expect(q.explanation).toContain('Sachsen-Anhalt')
+    }
   })
 })
 
@@ -373,6 +630,37 @@ describe('konfiguration', () => {
 })
 
 describe('vollständiges Quiz-Inhaltsaudit', () => {
+  it('hat für jedes angebotene Kartenziel eine tatsächlich anklickbare Fläche', () => {
+    const c = ctx()
+    const shapesByFile = new Map<string, Set<string>>()
+    for (const generator of registry.values()) {
+      for (const target of generator.pool(c)) {
+        const q = generator.make(target, c, createRng(`map-audit:${target.id}`), 2)
+        if (!q?.map) continue
+        const file =
+          q.map.kind === 'world'
+            ? 'data/geo/world.json'
+            : q.map.kind === 'europe'
+              ? 'media/maps/regions/europe.json'
+              : (c.byId.get(q.answer)!.attributes.map as string)
+        expect(file, q.id).toBeTypeOf('string')
+        if (!shapesByFile.has(file)) {
+          const map = JSON.parse(readFileSync(join('public', file), 'utf8'))
+          shapesByFile.set(
+            file,
+            new Set(
+              map.features
+                ? map.features.map((feature: { properties: { id: string } }) => feature.properties.id)
+                : map.shapes.map((shape: { flagId: string }) =>
+                    shape.flagId.replace(/^region-/, 'region:').replace(/^country-/, 'country:'),
+                  ),
+            ),
+          )
+        }
+        expect(shapesByFile.get(file)!.has(q.answer), `${q.id}/${file}`).toBe(true)
+      }
+    }
+  }, 15_000)
   const translations = JSON.parse(
     readFileSync(join(process.cwd(), 'locales/de/common.json'), 'utf8'),
   ) as Record<string, unknown>

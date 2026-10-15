@@ -10,7 +10,7 @@ export function normalizeAnswer(text: string): string {
     .normalize('NFKD')
     .replace(/\p{Diacritic}/gu, '')
     .replace(/[’'`´-]/g, ' ')
-    .replace(/[^a-z0-9 ]/g, '')
+    .replace(/[^\p{L}\p{N} ]/gu, '')
     .replace(/\s+/g, ' ')
     .trim()
 }
@@ -44,4 +44,22 @@ export function matchesAnswer(input: string, accepted: string[]): boolean {
     if (tolerance && levenshtein(norm, target) <= tolerance) return true
   }
   return false
+}
+
+export function matchesExactly(input: string, accepted: string[]): boolean {
+  const norm = normalizeAnswer(input)
+  return !!norm && accepted.some((answer) => normalizeAnswer(answer) === norm)
+}
+
+/** Exakte Namen haben Vorrang; eine mehrdeutige Tippfehler-Korrektur wählt kein zufälliges Ziel. */
+export function resolveAnswer<T>(
+  input: string,
+  pool: T[],
+  names: (item: T) => string[],
+  identity: (item: T) => unknown = (item) => item,
+): T[] {
+  const exact = pool.filter((item) => matchesExactly(input, names(item)))
+  if (exact.length) return exact
+  const fuzzy = pool.filter((item) => matchesAnswer(input, names(item)))
+  return new Set(fuzzy.map(identity)).size === 1 ? fuzzy : []
 }

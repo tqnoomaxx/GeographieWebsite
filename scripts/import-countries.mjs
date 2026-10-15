@@ -3,6 +3,7 @@
 import { createHash } from 'node:crypto'
 import { existsSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
+import { applyCountryQuizFacts } from './lib/country-quiz-facts.mjs'
 import {
   CACHE,
   DATA,
@@ -211,6 +212,7 @@ writeJson(join(DATA, 'geo', 'SOURCES.json'), {
 })
 
 countries.sort((a, b) => a.id.localeCompare(b.id))
+applyCountryQuizFacts(countries)
 writeJson(join(DATA, 'entities', 'countries.json'), countries)
 writeJson(join(DATA, 'meta', 'continents.json'), CONTINENTS)
 console.log(

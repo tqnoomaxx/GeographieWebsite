@@ -1,6 +1,26 @@
 import type { Country, Entity } from '@/domain/types'
 import { createRng, todayKey } from '@/engine/rng'
 import { baseDifficulty } from '@/engine/difficulty'
+import { resolveAnswer, normalizeAnswer } from '@/engine/normalize'
+import { accepted } from '@/engine/generators/base'
+import { matchesExactly } from '@/engine/normalize'
+
+const guessKey = (entity: Entity) =>
+  entity.type === 'license_plate'
+    ? `${entity.attributes.country}:${normalizeAnswer(entity.names.de)}`
+    : entity.id
+
+/** Mehrere Kennzeichen desselben Bezirks bezeichnen dieselbe gesuchte Lösung. */
+export function samePuzzlePlace(a: Entity, b: Entity): boolean {
+  return guessKey(a) === guessKey(b)
+}
+
+export function resolvePuzzleGuess(input: string, pool: Entity[]): Entity | undefined {
+  // Ein sichtbarer Ortsname hat Vorrang vor Aliasnamen anderer Bezirke.
+  const canonical = pool.filter((entity) => matchesExactly(input, [entity.names.de, entity.names.en ?? '']))
+  const matches = canonical.length ? canonical : resolveAnswer(input, pool, accepted, guessKey)
+  return new Set(matches.map(guessKey)).size === 1 ? matches[0] : undefined
+}
 
 export const MAX_ATTEMPTS = 6
 
@@ -38,7 +58,12 @@ export function eligibleCountries(countries: Country[], puzzle: PuzzleDef['id'])
 }
 
 /** Wählt die Tages-Entity deterministisch: gleicher Tag = gleiches Rätsel für alle. */
-export function pickDaily(countries: Country[], puzzle: PuzzleDef['id'], date = todayKey(), practiceSeed?: string): Country {
+export function pickDaily(
+  countries: Country[],
+  puzzle: PuzzleDef['id'],
+  date = todayKey(),
+  practiceSeed?: string,
+): Country {
   const pool = eligibleCountries(countries, puzzle)
   const wanted = difficultyForDate(date)
   const tier = pool.filter((c) => baseDifficulty(c) === wanted)
@@ -51,14 +76,17 @@ export function distanceKm(a: { lat: number; lon: number }, b: { lat: number; lo
   const toRad = (d: number) => (d * Math.PI) / 180
   const dLat = toRad(b.lat - a.lat)
   const dLon = toRad(b.lon - a.lon)
-  const h = Math.sin(dLat / 2) ** 2 + Math.cos(toRad(a.lat)) * Math.cos(toRad(b.lat)) * Math.sin(dLon / 2) ** 2
+  const h =
+    Math.sin(dLat / 2) ** 2 + Math.cos(toRad(a.lat)) * Math.cos(toRad(b.lat)) * Math.sin(dLon / 2) ** 2
   return Math.round(2 * R * Math.asin(Math.sqrt(h)))
 }
 
 export function bearing(a: { lat: number; lon: number }, b: { lat: number; lon: number }): number {
   const toRad = (d: number) => (d * Math.PI) / 180
   const y = Math.sin(toRad(b.lon - a.lon)) * Math.cos(toRad(b.lat))
-  const x = Math.cos(toRad(a.lat)) * Math.sin(toRad(b.lat)) - Math.sin(toRad(a.lat)) * Math.cos(toRad(b.lat)) * Math.cos(toRad(b.lon - a.lon))
+  const x =
+    Math.cos(toRad(a.lat)) * Math.sin(toRad(b.lat)) -
+    Math.sin(toRad(a.lat)) * Math.cos(toRad(b.lat)) * Math.cos(toRad(b.lon - a.lon))
   return ((Math.atan2(y, x) * 180) / Math.PI + 360) % 360
 }
 
@@ -80,12 +108,23 @@ export function compare(a: number | undefined, b: number | undefined): '▲' | '
   return b > a ? '▲' : '▼'
 }
 
-export function shareText(puzzle: string, date: string, rows: string[], solved: boolean, attempts: number): string {
+export function shareText(
+  puzzle: string,
+  date: string,
+  rows: string[],
+  solved: boolean,
+  attempts: number,
+): string {
   return `Atlasfunke ${puzzle} ${date} · ${solved ? `${attempts}/${MAX_ATTEMPTS}` : `X/${MAX_ATTEMPTS}`}\n${rows.join('\n')}`
 }
 
 /** Tages-Entity aus einer beliebigen Liste (Bildle: Sehenswürdigkeiten, Kennzeichle: Kennzeichen). */
-export function pickDailyFrom(pool: Entity[], puzzle: string, date = todayKey(), practiceSeed?: string): Entity | undefined {
+export function pickDailyFrom(
+  pool: Entity[],
+  puzzle: string,
+  date = todayKey(),
+  practiceSeed?: string,
+): Entity | undefined {
   if (!pool.length) return undefined
   const wanted = difficultyForDate(date)
   const tier = pool.filter((e) => baseDifficulty(e) === wanted)

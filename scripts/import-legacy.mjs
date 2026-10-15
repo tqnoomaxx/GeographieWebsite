@@ -3,6 +3,7 @@
 import { readFileSync, existsSync } from 'node:fs'
 import { join } from 'node:path'
 import { DATA, PUBLIC, readJson, writeJson, slugify, provenance, parseAttribution, attributionText } from './lib/common.mjs'
+import { regionMapCatalog } from './lib/region-maps.mjs'
 
 const { flagCatalog } = await import('./legacy/catalog.generated.js')
 const geo = await import('./legacy/geographyCatalog.js')
@@ -11,8 +12,7 @@ const countries = readJson(join(DATA, 'entities', 'countries.json'))
 const countryByIso = new Map(countries.map((c) => [c.attributes.iso2, c]))
 
 const photoAttribution = parseAttribution(readFileSync(join(PUBLIC, 'media/photos/ATTRIBUTION-legacy.md'), 'utf8'))
-const mapIsos = new Set((await import('node:fs')).readdirSync(join(PUBLIC, 'media/maps/regions')).filter((f) => f.endsWith('.json')).map((f) => f.split('-')[0]))
-const hasMap = (iso2) => mapIsos.has(iso2)
+const mapTargets = regionMapCatalog().targets
 const europeIds = new Set((existsSync(join(PUBLIC, 'media/maps/regions/europe.json')) ? readJson(join(PUBLIC, 'media/maps/regions/europe.json')).shapes : []).map((s) => s.flagId))
 const relationships = []
 const rel = (from, to, type) => relationships.push({ from, to, type })
@@ -55,7 +55,7 @@ for (const f of flagCatalog.filter((x) => x.kind === 'region')) {
       capital_name: cap?.name,
       visual_key: f.visualKey,
       europe_map: europeIds.has(f.id) || undefined,
-      map: hasMap(iso2) ? `media/maps/regions/${iso2}` : undefined,
+      map: mapTargets[id],
     },
     provenance: provenance('ugbzspiele', { source_url: f.source }),
   }

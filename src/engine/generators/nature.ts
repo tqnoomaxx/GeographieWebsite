@@ -16,7 +16,7 @@ function toCountry(id: string, category: 'water' | 'nature', promptKey: string, 
       const correct = rng.pick(cs)
       const exclude = new Set(cs.map((c) => c.id))
       const d = effectiveDifficulty(target, difficulty)
-      const opts = options(correct, countryPool(ctx).filter((c) => !exclude.has(c.id) || c.id === correct.id), ctx, rng, d)
+      const opts = options(correct, countryPool(ctx), ctx, rng, d, false, (country) => !exclude.has(country.id))
       if (!opts) return null
       return {
         id: qid(id, target), category, type: id, question_type: 'multiple_choice',

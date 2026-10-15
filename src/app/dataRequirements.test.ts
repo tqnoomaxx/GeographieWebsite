@@ -26,6 +26,14 @@ const all = {
 }
 
 describe('bedarfsgerechte Datenpakete', () => {
+  it('lädt Kennzeichen und Bundesländer für die Kennzeichle-Hinweise', () => {
+    expect(resourcesForPage('/daily/kennzeichle', new URLSearchParams())).toEqual([
+      'index',
+      'countries',
+      'plates',
+      'regions',
+    ])
+  })
   it('lädt auf der Startseite keine Quizpakete und im Flaggen-Schnellstart keine Regionen', () => {
     expect(resourcesForPage('/', new URLSearchParams())).toEqual(['index', 'countries'])
     expect(

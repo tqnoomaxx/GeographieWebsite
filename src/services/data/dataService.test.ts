@@ -4,6 +4,22 @@ beforeEach(() => vi.resetModules())
 afterEach(() => vi.unstubAllGlobals())
 
 describe('erneut abrufbare Datenpakete', () => {
+  it('wählt für belgische Provinzen die zweite Verwaltungsebene und teilt identische Kartenabrufe', async () => {
+    const fetch = vi
+      .fn()
+      .mockResolvedValueOnce(
+        Response.json({
+          region_maps: { BE: 'BE-ADM1.json' },
+          region_map_targets: { 'region:BE-WBR': 'BE-ADM2.json', 'region:BE-VAN': 'BE-ADM2.json' },
+        }),
+      )
+      .mockResolvedValueOnce(Response.json({ label: 'Belgische Provinzen', shapes: [] }))
+    vi.stubGlobal('fetch', fetch)
+    const { loadRegionMap } = await import('./dataService')
+    await Promise.all([loadRegionMap('BE', 'region:BE-WBR'), loadRegionMap('BE', 'region:BE-VAN')])
+    expect(fetch).toHaveBeenCalledTimes(2)
+    expect(fetch.mock.calls[1][0]).toContain('BE-ADM2.json')
+  })
   it('teilt laufende und erfolgreiche Abrufe, verwirft aber HTTP-Fehler', async () => {
     const fetch = vi
       .fn()

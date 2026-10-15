@@ -77,24 +77,26 @@ test('Lernen zeigt während eines langsamen Abrufs keinen Abschluss', async ({ p
 test('Ein fehlgeschlagenes Quizpaket lässt sich erneut laden und blockiert die Startseite nicht', async ({
   page,
 }) => {
-  let failures = 1
+  let unavailable = true
   await page.route('**/data/entities/trivia.json', (route) =>
-    failures-- > 0 ? route.fulfill({ status: 503, body: 'unavailable' }) : route.continue(),
+    unavailable ? route.fulfill({ status: 503, body: 'unavailable' }) : route.continue(),
   )
   await page.goto('')
   await page.getByRole('link', { name: /10 Trivia-Fragen/ }).click()
   await expect(page.getByRole('alert')).toBeVisible()
+  unavailable = false
   await page.getByRole('button', { name: 'Erneut versuchen' }).click()
   await expect(page.locator('[data-generator="geography_trivia"]')).toBeVisible()
 })
 
 test('Ein fehlgeschlagenes Basispaket kann ohne Neuladen erneut abgerufen werden', async ({ page }) => {
-  let failures = 1
+  let unavailable = true
   await page.route('**/data/entities/countries.json', (route) =>
-    failures-- > 0 ? route.fulfill({ status: 503, body: 'unavailable' }) : route.continue(),
+    unavailable ? route.fulfill({ status: 503, body: 'unavailable' }) : route.continue(),
   )
   await page.goto('learn')
   await expect(page.getByRole('alert')).toBeVisible()
+  unavailable = false
   await page.getByRole('button', { name: 'Erneut versuchen' }).click()
   await expect(page.locator('.learn-country-identity h2')).toBeVisible()
 })

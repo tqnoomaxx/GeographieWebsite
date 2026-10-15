@@ -1,5 +1,5 @@
 import type { Generator } from './base'
-import { qid, effectiveDifficulty, nameOf, flagMedia, isSovereign, options } from './base'
+import { qid, effectiveDifficulty, nameOf, flagMedia, isSovereign, options, countryPool } from './base'
 
 const CONTINENT_DE: Record<string, string> = {
   europe: 'Europa',
@@ -23,43 +23,53 @@ export const countryAttribute: Generator = {
   pool: independent,
   make(target, ctx, rng, difficulty): ReturnType<Generator['make']> {
     const c = target as Country
+    const statisticalRegion = c.attributes.statistical_region ?? c.attributes.continent
     const d = effectiveDifficulty(target, difficulty)
     const variants: Array<() => ReturnType<Generator['make']>> = []
     if (c.attributes.currencies?.length) {
       variants.push(() => {
-        const cur = c.attributes.currencies![0]
+        const currencies = c.attributes.currencies!
+        const cur = rng.pick(currencies)
+        const valid = new Set(currencies.map((currency) => currency.code))
         const pool = [
-          ...new Set(
-            independent(ctx)
-              .flatMap((x) => (x as Country).attributes.currencies?.map((currency) => currency.name) ?? [])
-              .filter((name) => name !== cur.name),
-          ),
+          ...new Map(
+            [...ctx.byId.values()]
+              .filter(isSovereign)
+              .flatMap((country) => (country as Country).attributes.currencies ?? [])
+              .filter((currency) => !valid.has(currency.code))
+              .map((currency) => [currency.code, currency]),
+          ).values(),
         ]
         const wrong = rng.shuffle(pool).slice(0, 3)
         if (wrong.length < 3) return null
-        const opts = rng.shuffle([cur.name, ...wrong]).map((l) => ({ id: l, label: l }))
+        const opts = rng
+          .shuffle([cur, ...wrong])
+          .map((currency) => ({ id: currency.code, label: `${currency.name} (${currency.code})` }))
         return {
           id: qid('currency', target),
           category: 'countries' as const,
           type: 'country_currency',
           question_type: 'multiple_choice' as const,
           prompt: { key: 'q.country_currency', params: { name: nameOf(c) } },
-          answer: cur.name,
+          answer: cur.code,
           options: opts,
           difficulty: d,
           entities: [c.id],
-          explanation: `Die Währung von ${nameOf(c)} ist ${cur.name}.`,
+          explanation:
+            currencies.length > 1
+              ? `In ${nameOf(c)} gelten mehrere Währungen: ${currencies.map((currency) => `${currency.name} (${currency.code})`).join(' · ')}.`
+              : `Die Währung von ${nameOf(c)} ist ${cur.name} (${cur.code}).`,
           metadata: { generator: this.id, scope: ctx.scope },
         }
       })
     }
-    if (c.attributes.continent) {
+    if (statisticalRegion) {
       variants.push(() => {
         const all = ['europe', 'asia', 'africa', 'north-america', 'south-america', 'oceania']
         const opts = rng
           .shuffle([
-            c.attributes.continent!,
-            ...rng.shuffle(all.filter((x) => x !== c.attributes.continent)).slice(0, 3),
+            statisticalRegion,
+            ...rng.shuffle(all.filter((x) => x !== statisticalRegion)).slice(0, 3),
           ])
           .map((l) => ({ id: l, label: CONTINENT_DE[l] ?? l }))
         return {
@@ -68,11 +78,15 @@ export const countryAttribute: Generator = {
           type: 'country_continent',
           question_type: 'multiple_choice' as const,
           prompt: { key: 'q.country_continent', params: { name: nameOf(c) } },
-          answer: c.attributes.continent!,
+          answer: statisticalRegion,
           options: opts,
           difficulty: 1,
           media: flagMedia(c),
           entities: [c.id],
+          explanation: `${nameOf(c)} wird in der statistischen UN-Einteilung ${CONTINENT_DE[statisticalRegion] ?? statisticalRegion} zugeordnet. Diese Zuordnung sagt nicht aus, dass das gesamte Staatsgebiet auf nur einem Kontinent liegt.`,
+          sources: [
+            { label: 'UN Statistics Division · M49', url: 'https://unstats.un.org/unsd/methodology/m49/' },
+          ],
           metadata: { generator: this.id, scope: ctx.scope },
         }
       })
@@ -92,7 +106,7 @@ export const countryCode: Generator = {
   category: 'countries',
   pool: (ctx) => independent(ctx).filter((country) => country.attributes.iso2),
   make(target, ctx, rng, difficulty) {
-    const countries = independent(ctx)
+    const countries = countryPool(ctx)
     const d = effectiveDifficulty(target, difficulty)
     const variants: Array<() => ReturnType<Generator['make']>> = []
     const iso = target.attributes.iso2 as string
@@ -182,7 +196,7 @@ export const countryComparison: Generator = {
     for (const variant of rng.shuffle(variants)) {
       const value = target.attributes[variant.key] as number | undefined
       if (!value) continue
-      const candidates = independent(ctx).filter((country) => {
+      const candidates = countryPool(ctx).filter((country) => {
         const other = country.attributes[variant.key] as number | undefined
         return country.id !== target.id && !!other && Math.abs(value - other) / Math.max(value, other) >= 0.03
       })
@@ -224,7 +238,8 @@ function nationalSymbolGenerator(kind: NationalSymbolKind): Generator {
       const correctNames = new Set(symbols.map((item) => item.name))
       const names = [
         ...new Set(
-          independent(ctx)
+          [...ctx.byId.values()]
+            .filter(isSovereign)
             .flatMap((item) => nationalSymbols(item as Country, kind))
             .map((item) => item.name)
             .filter((name) => !correctNames.has(name)),
@@ -327,7 +342,7 @@ export const countryTrueFalse: Generator = {
         metadata: { generator: this.id, scope: ctx.scope },
       }
     }
-    const pool = independent(ctx).filter((x) => x.id !== c.id && (x as Country).attributes.population)
+    const pool = countryPool(ctx).filter((x) => x.id !== c.id && (x as Country).attributes.population)
     const other = rng.pick(pool) as Country
     if (!other || !c.attributes.population) return null
     const truth = c.attributes.population > other.attributes.population!

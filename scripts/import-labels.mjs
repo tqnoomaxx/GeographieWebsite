@@ -3,6 +3,7 @@ import { join } from 'node:path'
 import { existsSync } from 'node:fs'
 import { CACHE, DATA, readJson, writeJson, listDir } from './lib/common.mjs'
 import { batched } from './lib/wikidata.mjs'
+import { applyCountryQuizFacts } from './lib/country-quiz-facts.mjs'
 
 const cachePath = join(CACHE, 'wikidata-labels.json')
 const countriesPath = join(DATA, 'entities', 'countries.json')
@@ -56,6 +57,7 @@ for (const c of countries) {
   if (langs.some((l) => l.de !== l.en)) langHits++
   c.attributes.currencies = Object.entries(r.currencies ?? {}).map(([code, v]) => ({ code, name: cache.currencies[code] ?? v.name, name_en: v.name, symbol: v.symbol }))
 }
+applyCountryQuizFacts(countries)
 writeJson(countriesPath, countries)
 
 // Hauptstadtnamen konsistent deutsch halten und den bisherigen Namen als erlaubte Antwort bewahren.

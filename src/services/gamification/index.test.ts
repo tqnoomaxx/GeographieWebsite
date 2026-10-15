@@ -4,6 +4,11 @@ import type { QuizSession } from '@/engine/session'
 import type { ProgressRepository, UserStats } from '@/services/progress/types'
 import { emptyStats } from '@/services/progress/types'
 import { applySession } from './index'
+import { buildSession, recordAnswer } from '@/engine/session'
+import { buildContext } from '@/engine/context'
+import { readFileSync } from 'node:fs'
+import { defaultRound } from '@/engine/round'
+import { XP } from '@/config/xp'
 
 function question(id: string): Question {
   return {
@@ -60,6 +65,18 @@ function repository(stats: UserStats): ProgressRepository {
 }
 
 describe('applySession statistics', () => {
+  it('vergibt nach vorzeitigem Beenden Antwort-XP, aber keinen Abschlussbonus', async () => {
+    const countries = JSON.parse(readFileSync('public/data/entities/countries.json', 'utf8'))
+    const ctx = buildContext({ countries, cities: [], landmarks: [], regions: [], relationships: [], scope: 'world' })
+    let session = buildSession(ctx, { ...defaultRound('flags'), mode: 'flag_to_name', content: ['country'], length: 3, repeat: false }, { seed: 'quit' })
+    session = recordAnswer(session, session.questions[0].question.answer)
+    session.completedAt = new Date().toISOString()
+    const stats = emptyStats()
+    const out = await applySession(repository(stats), session, ctx.byId)
+    expect(stats.sessions).toBe(0)
+    expect(stats.answered).toBe(1)
+    expect(out.xp).toBe(XP.correct_answer + (XP.difficulty_bonus[session.questions[0].question.difficulty] ?? 0) + XP.new_entity_seen)
+  })
   it('counts wrong base answers and excludes repeated questions', async () => {
     const stats = emptyStats()
     const session: QuizSession = {

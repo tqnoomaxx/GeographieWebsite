@@ -86,7 +86,7 @@ export function resourcesForPage(pathname: string, params: URLSearchParams): Dat
         : id === 'bildle'
           ? ['landmarks' as const]
           : id === 'kennzeichle'
-            ? ['plates' as const]
+            ? ['plates' as const, 'regions' as const]
             : []),
     ]
   if (!page || ['play', 'search', 'progress', 'daily', 'admin'].includes(page)) return core

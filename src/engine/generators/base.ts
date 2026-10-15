@@ -85,11 +85,10 @@ export function options(
         acceptsDistractor(e) &&
         (correct.type !== 'country' || isSovereign(e)) &&
         (!withImage || flagOf(e)) &&
+        !distractors.some((picked) => picked.names.de === e.names.de) &&
         !pool.includes(e),
     )
-    const more = pickDistractors(correct, fallback, 3 - distractors.length, ctx, rng, difficulty).filter(
-      (e) => !distractors.some((d) => d.names.de === e.names.de),
-    )
+    const more = pickDistractors(correct, fallback, 3 - distractors.length, ctx, rng, difficulty)
     distractors = [...distractors, ...more]
   }
   if (distractors.length < 3) return null

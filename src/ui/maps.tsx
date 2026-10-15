@@ -210,7 +210,10 @@ export function WorldMap({
             aria-label={f.properties?.name as string}
             tabIndex={onPick && !disabled ? 0 : -1}
             onKeyDown={(e) => {
-              if ((e.key === 'Enter' || e.key === ' ') && onPick && !disabled) onPick(id)
+              if ((e.key === 'Enter' || e.key === ' ') && onPick && !disabled) {
+                e.preventDefault()
+                onPick(id)
+              }
             }}
           />
         )
@@ -246,6 +249,7 @@ export function Outline({ iso2, className = '' }: { iso2: string; className?: st
 /** Regionskarte aus den Legacy-Geometrien (geoBoundaries/Natural Earth), anklickbar. */
 export function RegionMapView({
   iso2,
+  targetId,
   onPick,
   highlight,
   correct,
@@ -253,13 +257,15 @@ export function RegionMapView({
   disabled,
 }: {
   iso2: string
+  targetId?: string
   onPick?: (regionId: string) => void
   highlight?: string
   correct?: string
   wrong?: string
   disabled?: boolean
 }) {
-  const { data: map, loading, error, reload } = useAsync(() => loadRegionMap(iso2), [iso2])
+  const mapTarget = targetId ?? highlight ?? correct
+  const { data: map, loading, error, reload } = useAsync(() => loadRegionMap(iso2, mapTarget), [iso2, mapTarget])
   if (error) return <ErrorState message="Regionskarte konnte nicht geladen werden." onRetry={reload} />
   if (loading) return <LoadingState message="Regionskarte wird geladen …" />
   if (!map) return <div className="card p-6 text-center text-ink-2">Keine Karte verfügbar.</div>
@@ -288,7 +294,10 @@ export function RegionMapView({
             aria-label={s.name}
             tabIndex={onPick && !disabled ? 0 : -1}
             onKeyDown={(e) => {
-              if ((e.key === 'Enter' || e.key === ' ') && onPick && !disabled) onPick(id)
+              if ((e.key === 'Enter' || e.key === ' ') && onPick && !disabled) {
+                e.preventDefault()
+                onPick(id)
+              }
             }}
           />
         )

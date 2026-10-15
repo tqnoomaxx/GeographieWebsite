@@ -18,13 +18,15 @@ export function fetchJson<T>(path: string): Promise<T> {
   if (!cache.has(path)) {
     cache.set(
       path,
-      fetch(dataUrl(path)).then((r) => {
-        if (!r.ok) throw new Error(`Daten nicht ladbar: ${path} (${r.status})`)
-        return r.json()
-      }).catch((error: unknown) => {
-        cache.delete(path)
-        throw error
-      }),
+      fetch(dataUrl(path))
+        .then((r) => {
+          if (!r.ok) throw new Error(`Daten nicht ladbar: ${path} (${r.status})`)
+          return r.json()
+        })
+        .catch((error: unknown) => {
+          cache.delete(path)
+          throw error
+        }),
     )
   }
   return cache.get(path) as Promise<T>
@@ -42,8 +44,10 @@ export const loadTrivia = () => fetchJson<TriviaQuestion[]>('entities/trivia.jso
 export const loadRelationships = () => fetchJson<Relationship[]>('relationships/index.json')
 export const loadWorld = () => fetchJson<GeoJSON.FeatureCollection>('geo/world.json')
 export const loadOutline = (iso2: string) => fetchJson<GeoJSON.Geometry>(`geo/outlines/${iso2}.json`)
-export const loadSearch = () => fetchJson<Array<{ id: string; t: string; n: string; a: string[]; c?: string }>>('search.json')
-export const loadContinents = () => fetchJson<Record<string, { de: string; en: string }>>('meta/continents.json')
+export const loadSearch = () =>
+  fetchJson<Array<{ id: string; t: string; n: string; a: string[]; c?: string }>>('search.json')
+export const loadContinents = () =>
+  fetchJson<Record<string, { de: string; en: string }>>('meta/continents.json')
 export const loadVersion = () => fetchJson<{ schema_version: number; data_version: string }>('version.json')
 export const loadAttribution = () => fetchJson<{ markdown: string }>('attribution.json')
 
@@ -66,21 +70,28 @@ export interface RegionMap {
   shapes: Array<{ flagId: string; name: string; parent?: string; bounds: number[]; d: string }>
 }
 const mapCache = new Map<string, Promise<RegionMap | null>>()
-export async function loadRegionMap(iso2: string): Promise<RegionMap | null> {
-  if (!mapCache.has(iso2)) {
+export async function loadRegionMap(iso2: string, targetId?: string): Promise<RegionMap | null> {
+  const index = await loadIndex()
+  const file =
+    iso2 === 'europe'
+      ? 'media/maps/regions/europe.json'
+      : (targetId && index.region_map_targets?.[targetId]) || index.region_maps?.[iso2]
+  if (!file) return null
+  if (!mapCache.has(file)) {
     mapCache.set(
-      iso2,
+      file,
       (async () => {
-        const index = await loadIndex()
-        const file = iso2 === 'europe' ? 'media/maps/regions/europe.json' : index.region_maps?.[iso2]
-        if (!file) return null
         const r = await fetch(mediaUrl(file))
-        if (!r.ok || !r.headers.get('content-type')?.includes('json')) throw new Error('Karte konnte nicht geladen werden.')
+        if (!r.ok || !r.headers.get('content-type')?.includes('json'))
+          throw new Error('Karte konnte nicht geladen werden.')
         return (await r.json()) as RegionMap
-      })().catch((error: unknown) => { mapCache.delete(iso2); throw error }),
+      })().catch((error: unknown) => {
+        mapCache.delete(file)
+        throw error
+      }),
     )
   }
-  return mapCache.get(iso2)!
+  return mapCache.get(file)!
 }
 
 /** Lädt eine Entity anhand ihrer ID, egal aus welcher Datei sie stammt. */

@@ -4,6 +4,7 @@ import { existsSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { createHash } from 'node:crypto'
 import { DATA, PUBLIC, readJson, writeJson, listDir } from './lib/common.mjs'
+import { regionMapCatalog } from './lib/region-maps.mjs'
 
 const errors = []
 const warnings = []
@@ -250,17 +251,7 @@ const quality = {
 writeJson(join(DATA, 'quality.json'), quality)
 
 // Manifest der Regionskarten (Dateiname pro Land)
-const mapFiles = listDir(join(PUBLIC, 'media', 'maps', 'regions')).filter((f) =>
-  /^[A-Z]{2}-[A-Z0-9]+\.json$/.test(f),
-)
-const regionMaps = {}
-for (const f of mapFiles) {
-  const iso = f.split('-')[0]
-  const rank = { ADM1: 0, ADM2: 1, NE: 2, EUROPE: 3 }[f.replace('.json', '').split('-')[1]] ?? 9
-  if (!regionMaps[iso] || rank < regionMaps[iso].rank)
-    regionMaps[iso] = { file: `media/maps/regions/${f}`, rank }
-}
-for (const k of Object.keys(regionMaps)) regionMaps[k] = regionMaps[k].file
+const { countries: regionMaps, targets: regionMapTargets } = regionMapCatalog()
 
 // Index für Lazy Loading
 const regionsByCountry = Object.fromEntries(
@@ -293,6 +284,7 @@ const platesByCountry = Object.fromEntries(
 const index = {
   plates: platesByCountry,
   region_maps: regionMaps,
+  region_map_targets: regionMapTargets,
   files: {
     ...files,
     relationships: 'relationships/index.json',

@@ -5,7 +5,8 @@ import { generatorsFor } from './registry'
 import { contentFilter, type RoundConfig } from './round'
 import { createRng, type Rng } from './rng'
 import { selectionWeight, type EntityProgress } from './srs'
-import { matchesAnswer } from './normalize'
+import { matchesAnswer, matchesExactly } from './normalize'
+import { accepted } from './generators/base'
 import { modeFor } from '@/config/quizzes'
 
 /** standard = feste Länge · full = „Alle“ (gespeichert, fortsetzbar) · repeat_errors = nur die Fehler einer Runde */
@@ -43,6 +44,16 @@ export interface QuizSession {
   streak: number
   bestStreak: number
   xpEarned: number
+}
+
+/** Vorzeitiges Beenden speichert Antworten, erfüllt aber keinen Rundenabschluss. */
+export function isSessionComplete(session: QuizSession): boolean {
+  return (
+    !!session.completedAt &&
+    !session.remaining?.length &&
+    session.questions.length > 0 &&
+    session.questions.every((item) => item.given !== undefined)
+  )
 }
 
 /** Anzahl der ursprünglich gewählten Lernkarten. Eingereihte Wiederholungen verändern die Rundengröße nicht. */
@@ -117,9 +128,9 @@ export function buildSession(
   const difficulty = opts.difficulty ?? 2
   const questions: SessionQuestion[] = []
   const remaining: string[] = []
-  const batch = setup.length === 'all' ? Math.min(ordered.length, 25) : ordered.length
-  ordered.forEach((item, i) => {
-    if (i >= batch) {
+  const batch = setup.length === 'all' ? 25 : ordered.length
+  ordered.forEach((item) => {
+    if (questions.length >= batch) {
       remaining.push(item.entity.id)
       return
     }
@@ -169,16 +180,21 @@ export function extendSession(
   if (!session.remaining?.length) return session
   const rng = createRng(`${session.seed}-${session.questions.length}`)
   const pool = poolFor(ctx, session.setup)
-  const next = session.remaining.slice(0, count)
-  const rest = session.remaining.slice(count)
   const added: SessionQuestion[] = []
-  for (const id of next) {
+  let consumed = 0
+  for (const id of session.remaining) {
+    if (added.length >= count) break
+    consumed++
     const item = pool.get(id)
     if (!item) continue
     const q = makeQuestion(item, ctx, rng, difficulty)
     if (q) added.push({ question: q })
   }
-  return { ...session, questions: [...session.questions, ...added], remaining: rest }
+  return {
+    ...session,
+    questions: [...session.questions, ...added],
+    remaining: session.remaining.slice(consumed),
+  }
 }
 
 function makeQuestion(item: PoolItem, ctx: GeneratorContext, rng: Rng, difficulty: number): Question | null {
@@ -261,8 +277,20 @@ function weightedOrder<T extends { entity: Entity }>(
     .map((x) => x.it)
 }
 
-export function checkAnswer(q: Question, given: string): boolean {
-  if (q.question_type === 'text_input') return matchesAnswer(given, q.accepted ?? [])
+export function checkAnswer(q: Question, given: string, ctx?: GeneratorContext): boolean {
+  if (q.question_type === 'text_input') {
+    const answers = q.accepted ?? []
+    if (matchesExactly(given, answers)) return true
+    if (!matchesAnswer(given, answers)) return false
+    // Ein anderer echter Orts-/Ländername ist kein Tippfehler der gesuchten Antwort.
+    const target = ctx?.byId.get(q.answer) ?? ctx?.byId.get(q.entities[0])
+    if (ctx && target) {
+      for (const entity of ctx.byId.values()) {
+        if (entity.type === target.type && matchesExactly(given, accepted(entity))) return false
+      }
+    }
+    return true
+  }
   return given === q.answer
 }
 
@@ -285,11 +313,12 @@ export function recordAnswer(
   session: QuizSession,
   given: string,
   rng: Rng = createRng(`${session.seed}-${session.position}`),
+  ctx?: GeneratorContext,
 ): QuizSession {
   const idx = session.position
   const current = session.questions[idx]
   if (!current || current.given !== undefined) return session
-  const correct = checkAnswer(current.question, given)
+  const correct = checkAnswer(current.question, given, ctx)
   const isMap = current.question.question_type === 'map_click'
   if (isMap && !correct) {
     const questions = session.questions.map((q, i) =>
@@ -349,6 +378,7 @@ export function skipQuestion(session: QuizSession): QuizSession {
 
 /** Nächste Frage; bei „Alle“ werden weitere Fragen nachgeladen. Liefert null, wenn die Runde zu Ende ist. */
 export function advanceSession(session: QuizSession, ctx: GeneratorContext): QuizSession | null {
+  if (session.questions[session.position]?.given === undefined) return session
   let s: QuizSession = { ...session, position: session.position + 1, lastWrongMapGuess: undefined }
   if (s.position >= s.questions.length && s.remaining?.length) s = extendSession(s, ctx)
   return s.position >= s.questions.length ? null : s

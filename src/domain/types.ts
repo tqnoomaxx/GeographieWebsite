@@ -52,6 +52,7 @@ export interface CountryAttributes {
   iso2: string
   iso3?: string
   continent?: ContinentId
+  statistical_region?: ContinentId
   subregion?: string
   capital?: string
   capitals?: string[]
@@ -145,6 +146,7 @@ export interface DataIndex {
   regions: Record<string, { file: string; count: number }>
   plates?: Record<string, { file: string; count: number }>
   region_maps?: Record<string, string>
+  region_map_targets?: Record<string, string>
   counts: Record<string, number>
   continents: Record<string, number>
 }

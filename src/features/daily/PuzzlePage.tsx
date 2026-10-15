@@ -5,11 +5,12 @@ import { useGeoData } from '@/app/DataProvider'
 import { useDocumentTitle } from '@/app/hooks'
 import type { Country } from '@/domain/types'
 import { capitalIds, countryCapitals } from '@/domain/capitals'
+import { platePlaceNames, sharePlatePlace } from '@/domain/licensePlates'
 import { getRepository } from '@/services/progress'
 import type { PuzzleResult } from '@/services/progress/types'
 import { applyPuzzleSolved } from '@/services/gamification'
 import { todayKey } from '@/engine/rng'
-import { matchesAnswer, normalizeAnswer } from '@/engine/normalize'
+import { normalizeAnswer } from '@/engine/normalize'
 import { mediaUrl } from '@/services/data/dataService'
 import { Photo } from '@/ui/Photo'
 import { Card, Flag, Skeleton, useToast, formatNumber, entityPath } from '@/ui'
@@ -25,6 +26,8 @@ import {
   pickDailyFrom,
   proximityEmoji,
   shareText,
+  resolvePuzzleGuess,
+  samePuzzlePlace,
   type PuzzleDef,
 } from './puzzles'
 import type { Entity } from '@/domain/types'
@@ -82,9 +85,15 @@ export default function PuzzlePage() {
   }, [def, isCountryPuzzle, landmarksWithPhoto, dePlates, date, practice])
   const capital = target?.attributes.capital ? geo.byId.get(target.attributes.capital) : undefined
   const capitalOptions = target ? countryCapitals(target, geo.byId) : []
-  const solutionIds = def?.id === 'capitale' && target ? capitalIds(target) : []
   const solutionEntity: Entity | undefined =
     def?.id === 'capitale' ? capital : isCountryPuzzle ? (target ?? undefined) : special
+  const solutionIds = useMemo(() => {
+    if (def?.id === 'capitale' && target) return capitalIds(target)
+    if (!solutionEntity) return []
+    return def?.id === 'kennzeichle'
+      ? dePlates.filter((plate) => sharePlatePlace(plate, solutionEntity)).map((plate) => plate.id)
+      : [solutionEntity.id]
+  }, [def?.id, target, solutionEntity, dePlates])
   const pool = useMemo<Entity[]>(() => {
     if (def?.id === 'capitale') return geo.cities.filter((c) => c.attributes.is_capital)
     if (def?.id === 'bildle') return landmarksWithPhoto
@@ -110,28 +119,30 @@ export default function PuzzlePage() {
   const suggestions = useMemo(() => {
     const n = normalizeAnswer(input)
     if (n.length < 2) return []
+    const seen = new Set<string>()
     return pool
       .filter(
         (e) =>
           normalizeAnswer(e.names.de).includes(n) ||
           (e.aliases ?? []).some((a) => normalizeAnswer(a).startsWith(n)),
       )
+      .filter((entity) => {
+        const key = entity.type === 'license_plate' ? `${entity.attributes.country}:${entity.names.de}` : entity.id
+        if (seen.has(key)) return false
+        seen.add(key)
+        return true
+      })
       .slice(0, 6)
   }, [input, pool])
 
   const guess = useCallback(
-    async (name: string) => {
+    async (name: string, selected?: Entity) => {
       if (!result || !solutionEntity || result.finishedAt || guessingRef.current) return
-      const entity = pool.find((e) =>
-        matchesAnswer(name, [e.names.de, e.names.en ?? '', ...(e.aliases ?? [])]),
-      )
+      const entity = selected ?? resolvePuzzleGuess(name, pool)
       if (!entity) return show(t('search.no_results'))
-      if (result.guesses.includes(entity.id)) return
+      if (result.guesses.some((id) => { const previous = geo.byId.get(id); return previous && samePuzzlePlace(previous, entity) })) return
       const guesses = [...result.guesses, entity.id]
-      const solved =
-        def?.id === 'capitale' && target
-          ? capitalIds(target).includes(entity.id)
-          : entity.id === solutionEntity.id
+      const solved = solutionIds.includes(entity.id)
       const finished = solved || guesses.length >= MAX_ATTEMPTS
       const next: PuzzleResult = {
         ...result,
@@ -152,7 +163,7 @@ export default function PuzzlePage() {
         guessingRef.current = false
       }
     },
-    [result, solutionEntity, def?.id, target, pool, repo, show, t, practice],
+    [result, solutionEntity, solutionIds, pool, geo.byId, repo, show, t, practice],
   )
 
   if (!def || !result || !solutionEntity || (isCountryPuzzle && !target))
@@ -232,7 +243,7 @@ export default function PuzzlePage() {
             className="daily-guess-form"
             onSubmit={(e) => {
               e.preventDefault()
-              void guess(suggestions[0]?.names.de ?? input)
+              void guess(input)
             }}
           >
             <label htmlFor="daily-guess">{t('daily.your_guess')}</label>
@@ -261,7 +272,7 @@ export default function PuzzlePage() {
                     <button
                       type="button"
                       className="w-full px-4 py-2.5 text-left hover:bg-card-2"
-                      onClick={() => void guess(s.names.de)}
+                      onClick={() => void guess(s.names.de, s)}
                     >
                       {s.names.de}
                     </button>
@@ -298,6 +309,7 @@ export default function PuzzlePage() {
                   name:
                     def.id === 'capitale'
                       ? capitalOptions.map((city) => city.names.de).join(' / ')
+                      : def.id === 'kennzeichle' ? platePlaceNames(solutionEntity).join(' / ')
                       : solutionEntity.names.de,
                 })}
               </p>
@@ -472,13 +484,15 @@ function KennzeichleBoard({ plate, revealed }: { plate: Entity; revealed: number
   const geo = useGeoData()
   const { t } = useTranslation()
   const code = plate.attributes.code as string
-  const region = plate.attributes.region ? geo.byId.get(plate.attributes.region as string) : undefined
+  const regions = [...new Set([plate.attributes.region, ...((plate.attributes.regions as string[] | undefined) ?? [])])]
+    .map((id) => typeof id === 'string' ? geo.byId.get(id) : undefined).filter((region): region is Entity => !!region)
+  const region = regions.length === 1 ? regions[0] : undefined
   const hints = [
     `${t('daily.hint_length')}: ${code.length}`,
     `${t('daily.hint_letter')}: ${code[0]}`,
-    region ? `Bundesland: ${region.names.de}` : '',
-    `${t('facts.population')}-Klasse: ${code.length === 1 ? 'Großstadt' : code.length === 2 ? 'Stadt / Kreis' : 'Landkreis'}`,
-    `Ort beginnt mit: ${plate.names.de[0]}`,
+    regions.length ? `Bundesland: ${regions.map((region) => region.names.de).join(' / ')}` : '',
+    `Zulassungsbezirke: ${(plate.attributes.districts as string[] | undefined)?.length ?? 1}`,
+    `Ort beginnt mit: ${[...new Set(platePlaceNames(plate).map((name) => name[0]))].join(' / ')}`,
   ].filter(Boolean)
   return (
     <div className="w-full">

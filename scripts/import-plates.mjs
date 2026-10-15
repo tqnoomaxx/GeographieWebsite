@@ -3,6 +3,7 @@
 import { join } from 'node:path'
 import { existsSync } from 'node:fs'
 import { CACHE, DATA, readJson, writeJson, provenance } from './lib/common.mjs'
+import { applyLicensePlateFacts } from './lib/license-plate-facts.mjs'
 
 const COUNTRIES = {
   DE: { qid: 'Q183', extra: '; wdt:P440 ?key', stateClass: 'wd:Q1221156', cityStates: { B: 'DE-BE', HH: 'DE-HH', HB: 'DE-HB' } },
@@ -13,7 +14,11 @@ const iso2 = process.argv.find((a) => /^[A-Z]{2}$/.test(a)) ?? 'DE'
 const C = COUNTRIES[iso2]
 const QUERY = `
 SELECT ?item ?itemLabel ?code ?stateIso ?lat ?lon WHERE {
-  ?item wdt:P395 ?code ; wdt:P17 wd:${C.qid} ${C.extra} .
+  ?item p:P395 ?codeStatement ; wdt:P17 wd:${C.qid} ${C.extra} .
+  ?codeStatement ps:P395 ?code .
+  FILTER NOT EXISTS { ?codeStatement pq:P582 ?end . FILTER(?end < NOW()) }
+  FILTER NOT EXISTS { ?codeStatement pq:P580 ?start . FILTER(?start > NOW()) }
+  FILTER NOT EXISTS { ?codeStatement wikibase:rank wikibase:DeprecatedRank }
   FILTER NOT EXISTS { ?item wdt:P576 ?dissolved }
   OPTIONAL { ?item wdt:P300 ?ownIso . FILTER(STRSTARTS(?ownIso, "${iso2}-")) }
   OPTIONAL { ?item wdt:P131 ?s1 . OPTIONAL { ?s1 wdt:P300 ?i1 . FILTER(STRSTARTS(?i1, "${iso2}-")) } OPTIONAL { ?s1 wdt:P131 ?s2 . ?s2 wdt:P300 ?i2 . FILTER(STRSTARTS(?i2, "${iso2}-")) } }
@@ -21,7 +26,7 @@ SELECT ?item ?itemLabel ?code ?stateIso ?lat ?lon WHERE {
   OPTIONAL { ?item p:P625/psv:P625 ?c . ?c wikibase:geoLatitude ?lat ; wikibase:geoLongitude ?lon . }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "de". }
 }`
-const cachePath = join(CACHE, `wikidata-plates-${iso2}.json`)
+const cachePath = join(CACHE, `wikidata-plates-${iso2}-current-v2.json`)
 let rows
 if (!process.argv.includes('--refresh') && existsSync(cachePath)) rows = readJson(cachePath)
 else {
@@ -81,6 +86,7 @@ for (const p of [...byCode.values()].sort((a, b) => a.code.localeCompare(b.code)
     provenance: provenance('wikidata', { source_id: [...p.qids][0], license: 'CC0' }),
   })
 }
+applyLicensePlateFacts(plates)
 writeJson(join(DATA, 'entities', 'license-plates', `${iso2}.json`), plates)
 const noRegion = plates.filter((p) => !p.attributes.region).length
 console.log(`Kennzeichen ${iso2}: ${plates.length} (${noRegion} ohne Bundesland)`)

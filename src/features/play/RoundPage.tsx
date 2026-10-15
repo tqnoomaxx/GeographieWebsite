@@ -10,6 +10,7 @@ import {
   baseQuestionPosition,
   baseQuestionTotal,
   buildSession,
+  isSessionComplete,
   labelFor,
   pendingRepeatCount,
   recordAnswer,
@@ -23,7 +24,7 @@ import type { CategoryId, Question } from '@/engine/types'
 import { getRepository } from '@/services/progress'
 import { applySession, recomputeLongQuests, type RoundOutcome } from '@/services/gamification'
 import { XP } from '@/config/xp'
-import { Card, ErrorState, Skeleton, LoadingState, ProgressBar, entityPath } from '@/ui'
+import { Card, ErrorState, LoadingState, ProgressBar, entityPath } from '@/ui'
 import { AchievementIcon, Icons } from '@/ui/icons'
 import { WorldMap, RegionMapView } from '@/ui/maps'
 import { ReportDialog } from '@/features/legal/ReportDialog'
@@ -123,9 +124,11 @@ function RoundSessionPage() {
       finishingRef.current = true
       setFinishing(true)
       try {
-        const done = { ...s, completedAt: new Date().toISOString() }
+        const done = { ...s, remaining: s.mode === 'full' ? [] : s.remaining, completedAt: new Date().toISOString() }
         await repo.saveSession(done)
         const out = await applySession(repo, done, geo.byId)
+        done.xpEarned = out.xp
+        await repo.saveSession(done)
         await recomputeLongQuests(repo, geo.byId)
         setOutcome(out)
         setSession(done)
@@ -139,12 +142,12 @@ function RoundSessionPage() {
   const answer = useCallback(
     async (given: string) => {
       if (!session) return
-      const next = recordAnswer(session, given)
+      const next = recordAnswer(session, given, undefined, ctx ?? undefined)
       if (next === session) return
       setSession(next)
       await persist(next)
     },
-    [session, persist],
+    [session, persist, ctx],
   )
 
   const skip = useCallback(async () => {
@@ -272,14 +275,17 @@ function QuestionView({
   }, [q.id, q.question_type])
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if (e.target instanceof HTMLInputElement) {
-        if (answered && e.key === 'Enter') onNext()
-        return
+      if (e.defaultPrevented || e.repeat || e.ctrlKey || e.metaKey || e.altKey) return
+      const target = e.target instanceof Element ? e.target : null
+      if (target?.closest('input, textarea, select, [contenteditable="true"], [role="dialog"]')) return
+      if (answered && (e.key === 'Enter' || e.key === ' ')) {
+        if (target?.closest('button, a, [role="button"]')) return
+        e.preventDefault()
+        return onNext()
       }
-      if (answered && (e.key === 'Enter' || e.key === ' ')) return onNext()
       if (!answered && q.options && /^[1-4]$/.test(e.key)) {
         const opt = q.options[Number(e.key) - 1]
-        if (opt) onAnswer(opt.id)
+        if (opt) { e.preventDefault(); onAnswer(opt.id) }
       }
     }
     window.addEventListener('keydown', onKey)
@@ -370,6 +376,7 @@ function QuestionView({
               ) : (
                 <RegionMapView
                   iso2={q.map.kind === 'europe' ? 'europe' : q.map.iso2!}
+                  targetId={q.map.targetId}
                   onPick={onAnswer}
                   disabled={answered}
                   correct={answered ? q.answer : undefined}
@@ -572,14 +579,16 @@ function ResultView({ session, outcome }: { session: QuizSession; outcome: Round
   const repeat = roundPath({ ...session.setup, length: wrong.length, only: wrong, repeat: false })
   const firstTry = correct
   const baseTotal = baseAnswered.length
+  const completed = isSessionComplete(session)
   return (
     <div className="atlas-surface min-h-dvh px-4 pb-24 pt-10 md:pb-12 md:pt-16">
       <div className="mx-auto w-full max-w-3xl text-center">
         <p className="eyebrow mb-3">{t('play.expedition_report')}</p>
         <h1 className="text-4xl font-medium md:text-6xl">
-          {session.mode === 'full' ? t('play.full_done') : t('play.round_done')}
+          {!completed ? 'Runde vorzeitig beendet' : session.mode === 'full' ? t('play.full_done') : t('play.round_done')}
         </h1>
-        <RoundTitle setup={session.setup} className="mx-auto mt-3 w-fit text-left" />
+        <RoundTitle setup={session.setup} className="mx-auto mt-3 w-fit max-w-full text-left [&_p]:whitespace-normal" />
+        {!completed && <p className="mt-3 text-ink-2">{baseAnswered.length} von {baseQuestionTotal(session)} Fragen bearbeitet</p>}
         <div className="mx-auto mt-7 flex h-44 w-44 flex-col items-center justify-center rounded-full border-[10px] border-accent-soft bg-card shadow-sm">
           <p className="text-5xl font-semibold tabular-nums">
             {pct}
@@ -607,11 +616,7 @@ function ResultView({ session, outcome }: { session: QuizSession; outcome: Round
             <div className="text-xs text-ink-2">{t('play.recovered')}</div>
           </Card>
         </div>
-        {outcome ? (
-          <p className="mt-2 text-lg font-medium text-accent">+{outcome.xp} XP</p>
-        ) : (
-          <Skeleton className="mx-auto mt-2 h-6 w-24" />
-        )}
+        {(outcome || session.xpEarned > 0) && <p className="mt-2 text-lg font-medium text-accent">+{outcome?.xp ?? session.xpEarned} XP</p>}
         {outcome?.levelUp && (
           <p className="mt-2 font-medium">⭐ {t('play.level_up', { level: outcome.levelUp })}</p>
         )}
