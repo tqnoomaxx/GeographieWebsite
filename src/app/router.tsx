@@ -4,6 +4,7 @@ import { Layout } from './Layout'
 import { DataProvider } from './DataProvider'
 import { ErrorBoundary } from './ErrorBoundary'
 import { AuthProvider } from './AuthProvider'
+import { pagesRedirect } from './pagesRedirect'
 
 const Home = lazy(() => import('@/features/home/HomePage'))
 const PlayStart = lazy(() => import('@/features/play/PlayStartPage'))
@@ -34,13 +35,9 @@ const ResetPw = lazy(() => import('@/features/account/ResetPasswordPage'))
 const MfaChallenge = lazy(() => import('@/features/account/MfaChallengePage'))
 const PublicProfile = lazy(() => import('@/features/account/PublicProfilePage'))
 
-// GitHub-Pages-Fallback: 404.html kodiert den Pfad als ?p=
-const params = new URLSearchParams(location.search)
-const redirected = params.get('p')
-if (redirected) {
-  const base = import.meta.env.BASE_URL.replace(/\/$/, '')
-  history.replaceState(null, '', base + redirected.replace(/~and~/g, '&') + location.hash)
-}
+// GitHub-Pages-Fallback: auch Suchzustand und die Konfiguration einer Runde erhalten.
+const redirected = pagesRedirect(location.search, import.meta.env.BASE_URL, location.hash)
+if (redirected) history.replaceState(null, '', redirected)
 
 export const router = createBrowserRouter(
   [

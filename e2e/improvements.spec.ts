@@ -1,4 +1,5 @@
 import { test, expect, type Page } from '@playwright/test'
+import { readFileSync } from 'node:fs'
 
 async function seed(page: Page, store: string, values: unknown[]) {
   await page.evaluate(
@@ -292,4 +293,28 @@ test('Quellen unterscheiden fachliche Prüfung, Import und fehlende gesicherte A
   ).toBeVisible()
   await page.goto('country/AD')
   await expect(page.getByText('Keine gesicherte Angabe', { exact: true }).first()).toBeVisible()
+})
+
+test('GitHub-Pages-404 erhält Suchfilter und kurze Quiz-Deep-Links', async ({ page, baseURL }) => {
+  const base = new URL(baseURL!).pathname
+  const fallback = readFileSync('public/404.html', 'utf8').replace(
+    '<script>',
+    `<meta name="gk-base" content="${base}"><script>`,
+  )
+  await page.route(/\/search\?q=Berlin&type=city$/, (route) =>
+    route.fulfill({ status: 404, contentType: 'text/html', body: fallback }),
+  )
+  await page.goto('search?q=Berlin&type=city')
+  await expect(page.getByRole('textbox', { name: 'Suche' })).toHaveValue('Berlin')
+  await expect(page.getByRole('combobox', { name: 'Typ', exact: true })).toHaveValue('city')
+  await expect(page.getByRole('status')).toContainText('1 Treffer')
+  await page.route(/\/play\/trivia\/round\?/, (route) =>
+    route.fulfill({ status: 404, contentType: 'text/html', body: fallback }),
+  )
+  await page.goto(
+    'play/trivia/round?mode=trivia_questions&scope=world&len=1&only=trivia%3Asouth-africa-capitals&repeat=0',
+  )
+  await expect(page.locator('[data-generator="geography_trivia"]')).toBeVisible()
+  await expect(page.getByRole('heading', { level: 1 })).toContainText('Südafrika')
+  await expect(page).toHaveURL(/len=1&only=trivia%3Asouth-africa-capitals&repeat=0$/)
 })
