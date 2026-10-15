@@ -101,6 +101,8 @@ test('Enter schaltet genau eine Frage weiter und zählt drei beantwortete Fragen
   const errors: string[] = []
   page.on('pageerror', (error) => errors.push(error.message))
   page.on('console', (message) => {
+    // Playwright meldet die für Netzwerkmocks bewusst blockierte Registrierung.
+    if (message.text() === 'Service Worker registration blocked by Playwright') return
     if (['error', 'warning'].includes(message.type())) errors.push(message.text())
   })
   if (testInfo.project.name === 'mobile') await page.setViewportSize({ width: 320, height: 740 })
