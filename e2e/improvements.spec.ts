@@ -35,12 +35,14 @@ test('Schnellstart lädt nur benötigte Pakete und spielt zehn Länderflaggen', 
   await quick.getByRole('link', { name: /10 Flaggen/ }).click()
   await expect(page).toHaveURL(/\/play\/flags\/round\?.*scope=world.*len=10.*content=country/)
   for (let index = 0; index < 10; index++) {
+    await expect(page.getByText(`${index + 1} / 10`, { exact: true })).toBeVisible()
     const question = page.locator('[data-generator="flag_to_country"]')
     await expect(question).toBeVisible()
     await expect(page.locator('[data-option-id]')).toHaveCount(4)
     const answer = await question.getAttribute('data-answer')
     expect(answer).toMatch(/^country:/)
     await page.locator(`[data-option-id="${answer}"]`).click()
+    await expect(page.getByRole('status')).toContainText('Richtig')
     await page.getByRole('button', { name: 'Weiter', exact: true }).click()
   }
   await expect(page.getByRole('heading', { name: 'Runde beendet 🎉' })).toBeVisible()

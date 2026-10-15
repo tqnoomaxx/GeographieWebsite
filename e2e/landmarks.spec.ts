@@ -91,25 +91,29 @@ test('A corrupt photo shows a readable fallback while the landmark facts remain 
   await expect(page.getByRole('heading', { name: /CN Tower/ })).toBeVisible()
 })
 
-test('Online data refresh replaces a stale offline landmark catalog', async ({ page }) => {
-  await page.goto('explore/landmarks')
-  await expect(page.locator('[data-landmark-grid] > li')).toHaveCount(landmarks.length)
-  await page.evaluate(async () => {
-    await navigator.serviceWorker.ready
+test.describe('Offline-Cache mit aktivem Service Worker', () => {
+  test.use({ serviceWorkers: 'allow' })
+
+  test('Online data refresh replaces a stale offline landmark catalog', async ({ page }) => {
+    await page.goto('explore/landmarks')
+    await expect(page.locator('[data-landmark-grid] > li')).toHaveCount(landmarks.length)
+    await page.evaluate(async () => {
+      await navigator.serviceWorker.ready
+    })
+    await page.reload()
+    await page.waitForFunction(() => !!navigator.serviceWorker.controller)
+    await page.evaluate(
+      async (oldCatalog) => {
+        const cache = await caches.open('geo-data')
+        const url = new URL('data/entities/landmarks.json', document.baseURI).href
+        await cache.put(
+          url,
+          new Response(JSON.stringify(oldCatalog), { headers: { 'Content-Type': 'application/json' } }),
+        )
+      },
+      [landmark('cn-tower')],
+    )
+    await page.reload()
+    await expect(page.locator('[data-landmark-grid] > li')).toHaveCount(landmarks.length)
   })
-  await page.reload()
-  await page.waitForFunction(() => !!navigator.serviceWorker.controller)
-  await page.evaluate(
-    async (oldCatalog) => {
-      const cache = await caches.open('geo-data')
-      const url = new URL('data/entities/landmarks.json', document.baseURI).href
-      await cache.put(
-        url,
-        new Response(JSON.stringify(oldCatalog), { headers: { 'Content-Type': 'application/json' } }),
-      )
-    },
-    [landmark('cn-tower')],
-  )
-  await page.reload()
-  await expect(page.locator('[data-landmark-grid] > li')).toHaveCount(landmarks.length)
 })

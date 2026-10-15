@@ -298,6 +298,7 @@ test('„Alle“-Runde speichern und fortsetzen', async ({ page }) => {
   await expect(page.getByText(/^1 \/ \d+$/)).toBeVisible()
   await page.getByRole('group').getByRole('button').first().click()
   await page.getByRole('button', { name: 'Weiter' }).click()
+  await expect(page.getByText(/^2 \/ \d+$/)).toBeVisible()
   await page.getByRole('button', { name: /Beenden/ }).click()
   await page.goto('play')
   await expect(page.getByRole('heading', { name: 'Offene Runden' })).toBeVisible()
