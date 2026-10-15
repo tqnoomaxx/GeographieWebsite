@@ -18,6 +18,18 @@ const context = (scope = 'world') =>
 const country = (iso: string) => countries.find((item) => item.attributes.iso2 === iso)!
 
 describe('current capitals', () => {
+  it('fragt bei Simbabwe ausdrücklich nach der eigenen Landeswährung statt einer unvollständigen Fremdwährungsliste', () => {
+    const ctx = context()
+    const questions = Array.from({ length: 20 }, (_, seed) =>
+      registry.get('country_attribute')!.make(country('ZW'), ctx, createRng(seed), 2)!,
+    ).filter((q) => q.type === 'country_currency')
+    expect(questions.length).toBeGreaterThan(0)
+    for (const q of questions) {
+      expect(q.prompt.key).toBe('q.country_domestic_currency')
+      expect(q.answer).toBe('ZWG')
+      expect(q.sources?.[0].url).toContain('rbz.co.zw')
+    }
+  })
   it.each(['Pretoria', 'Kapstadt', 'Cape Town', 'Bloemfontein'])('accepts %s for South Africa', (name) => {
     const ctx = context()
     const question = registry.get('capital_input')!.make(country('ZA'), ctx, createRng('za'), 2)!

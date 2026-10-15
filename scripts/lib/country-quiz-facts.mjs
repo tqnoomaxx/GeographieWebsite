@@ -28,6 +28,7 @@ export function applyCountryQuizFacts(countries) {
       }
     }
     if (country.attributes.iso2 !== 'ZW') continue
+    country.attributes.domestic_currency = 'ZWG'
     country.attributes.currencies = [
       { code: 'ZWG', name: 'Zimbabwe Gold (ZiG)', name_en: 'Zimbabwe Gold', symbol: 'ZiG' },
       ...currencies.filter((currency) => !['ZWB', 'ZWL', 'ZWG'].includes(currency.code)),

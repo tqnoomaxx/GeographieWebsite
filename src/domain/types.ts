@@ -62,6 +62,7 @@ export interface CountryAttributes {
   population?: number
   area_km2?: number
   currencies?: Array<{ code: string; name: string; symbol?: string }>
+  domestic_currency?: string
   languages?: string[]
   tld?: string[]
   calling_code?: string

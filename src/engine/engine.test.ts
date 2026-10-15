@@ -121,7 +121,11 @@ describe('Quizlogik-Regressionen', () => {
     let multiCurrencyQuestions = 0
     for (const country of countries as Country[]) {
       if (!isSovereign(country)) continue
-      const valid = new Set(country.attributes.currencies?.map((currency) => currency.code))
+      const valid = new Set(
+        country.attributes.domestic_currency
+          ? [country.attributes.domestic_currency]
+          : country.attributes.currencies?.map((currency) => currency.code),
+      )
       for (let seed = 0; seed < 12; seed++) {
         const q = generator.make(country, c, createRng(`${country.id}:${seed}`), 2)!
         if (q.type !== 'country_currency') continue

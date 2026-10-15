@@ -29,8 +29,11 @@ export const countryAttribute: Generator = {
     if (c.attributes.currencies?.length) {
       variants.push(() => {
         const currencies = c.attributes.currencies!
-        const cur = rng.pick(currencies)
-        const valid = new Set(currencies.map((currency) => currency.code))
+        // Bei Simbabwes wechselndem Mehrwährungssystem ist die eigene Landeswährung
+        // gesichert. Die Frage benennt diesen Unterschied ausdrücklich.
+        const domestic = currencies.find((currency) => currency.code === c.attributes.domestic_currency)
+        const cur = domestic ?? rng.pick(currencies)
+        const valid = new Set((domestic ? [domestic] : currencies).map((currency) => currency.code))
         const pool = [
           ...new Map(
             [...ctx.byId.values()]
@@ -50,15 +53,27 @@ export const countryAttribute: Generator = {
           category: 'countries' as const,
           type: 'country_currency',
           question_type: 'multiple_choice' as const,
-          prompt: { key: 'q.country_currency', params: { name: nameOf(c) } },
+          prompt: {
+            key: domestic ? 'q.country_domestic_currency' : 'q.country_currency',
+            params: { name: nameOf(c) },
+          },
           answer: cur.code,
           options: opts,
           difficulty: d,
           entities: [c.id],
-          explanation:
-            currencies.length > 1
+          explanation: domestic
+            ? `Die eigene Landeswährung von ${nameOf(c)} ist ${cur.name} (${cur.code}). Daneben werden im Mehrwährungssystem Fremdwährungen verwendet.`
+            : currencies.length > 1
               ? `In ${nameOf(c)} gelten mehrere Währungen: ${currencies.map((currency) => `${currency.name} (${currency.code})`).join(' · ')}.`
               : `Die Währung von ${nameOf(c)} ist ${cur.name} (${cur.code}).`,
+          sources: domestic
+            ? [
+                {
+                  label: 'Reserve Bank of Zimbabwe',
+                  url: 'https://www.rbz.co.zw/documents/publications/RBZ_Publications/2026/FAQs_ZiG_Campaign_3.pdf',
+                },
+              ]
+            : undefined,
           metadata: { generator: this.id, scope: ctx.scope },
         }
       })
