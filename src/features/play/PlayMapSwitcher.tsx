@@ -269,7 +269,7 @@ export function PlayMapSwitcher({
       <header className="play-map-heading">
         <div>
           <span className="play-map-eyebrow">{t('play.landscape_eyebrow')}</span>
-          <h1 id="play-map-title">{t('play.title')}</h1>
+          <h2 id="play-map-title">{t('play.title')}</h2>
           <p>{view === 'diorama' ? t('play.diorama_hint') : t('play.menu_hint')}</p>
         </div>
         <div className="play-map-toggle" role="group" aria-label={t('play.view_label')}>

@@ -1407,6 +1407,9 @@ textarea {
   z-index: 1;
 }
 
+/* Feste Aktionsleisten im Inhalt bleiben auch über der Fußzeile bedienbar. */
+.cosmic-shell > main { z-index: 2; }
+
 .cosmic-shell > .site-header { position: sticky; z-index: 40; }
 .cosmic-shell > .mobile-nav { position: fixed; z-index: 40; }
 

@@ -1,20 +1,21 @@
-import { useEffect, useMemo, useState } from 'react'
+import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
-import { useAsync, useDocumentTitle } from '@/app/hooks'
+import { useDocumentTitle } from '@/app/hooks'
 import { resourcesForQuiz } from '@/app/dataRequirements'
 import { defaultRound, roundPath } from '@/engine/round'
 import { AUTO, MIN_POOL, PLAY_QUIZZES } from '@/config/quizzes'
-import { baseQuestionPosition, baseQuestionTotal, poolFor, setupOf } from '@/engine/session'
-import { RoundTitle } from '@/features/play/RoundLabel'
-import { getRepository } from '@/services/progress'
-import { Flag, Page, ProgressBar } from '@/ui'
-import { CategoryIconTile, Icons, PUZZLE_ICONS } from '@/ui/icons'
-import { PUZZLES } from '@/features/daily/puzzles'
-import { todayKey } from '@/engine/rng'
+import { poolFor } from '@/engine/session'
+import { QuizCatalog } from '@/features/play/QuizCatalog'
+import { OpenRounds } from '@/features/play/OpenRounds'
+import { ArrowRight, CalendarDays, ChevronDown, Map } from 'lucide-react'
+import { Flag, Page } from '@/ui'
+import { CategoryIconTile, Icons } from '@/ui/icons'
 import type { Country } from '@/domain/types'
-import { InteractiveGlobe } from './InteractiveGlobe'
+const InteractiveGlobe = lazy(() =>
+  import('./InteractiveGlobe').then((m) => ({ default: m.InteractiveGlobe })),
+)
 
 function CountryQuizPanel({
   country,
@@ -42,7 +43,12 @@ function CountryQuizPanel({
           <span className="atlas-label">Land ausgewählt</span>
           <h2 id="country-quiz-title">{country.names.de}</h2>
         </div>
-        <button type="button" className="country-quiz-close" onClick={onClose} aria-label="Länderauswahl schließen">
+        <button
+          type="button"
+          className="country-quiz-close"
+          onClick={onClose}
+          aria-label="Länderauswahl schließen"
+        >
           <Icons.x aria-hidden />
         </button>
         <Link to={`/country/${encodeURIComponent(iso2)}`} className="country-detail-link">
@@ -55,7 +61,9 @@ function CountryQuizPanel({
           <h3>In diesem Land</h3>
           <p>Das Land ist in der Konfiguration bereits vorausgewählt.</p>
           {loading ? (
-            <div className="country-quiz-loading" role="status">Passende Quizze werden geladen …</div>
+            <div className="country-quiz-loading" role="status">
+              Passende Quizze werden geladen …
+            </div>
           ) : countryQuizzes.length ? (
             <div className="country-quiz-links">
               {countryQuizzes.map((quiz) => (
@@ -67,7 +75,9 @@ function CountryQuizPanel({
               ))}
             </div>
           ) : (
-            <p className="country-quiz-empty">Für dieses Land sind noch nicht genug Detailfragen vorhanden.</p>
+            <p className="country-quiz-empty">
+              Für dieses Land sind noch nicht genug Detailfragen vorhanden.
+            </p>
           )}
         </div>
 
@@ -90,14 +100,9 @@ function CountryQuizPanel({
 }
 
 export default function HomePage() {
-  const { t } = useTranslation()
   useDocumentTitle()
   const geo = useGeoData()
-  const { index } = geo
-  const { data: open } = useAsync(() => getRepository().getOpenSessions(), [])
-  const { data: puzzles } = useAsync(() => getRepository().getPuzzles(), [])
-  const today = todayKey()
-  const primary = PLAY_QUIZZES.filter((c) => c.primary)
+  const [atlasOpen, setAtlasOpen] = useState(false)
   const [selectedCountryId, setSelectedCountryId] = useState<string>()
   const [quizAvailabilityLoading, setQuizAvailabilityLoading] = useState(false)
   const [quizAvailabilityError, setQuizAvailabilityError] = useState(false)
@@ -114,12 +119,21 @@ export default function HomePage() {
     let active = true
     setQuizAvailabilityError(false)
     setQuizAvailabilityLoading(true)
-    const resources = [...new Set(PLAY_QUIZZES.filter((quiz) => quiz.perCountry && quiz.id !== 'mixed').flatMap((quiz) => resourcesForQuiz(quiz.id)))]
-    void geo.ensureResources(resources).catch(() => {
-      if (active) setQuizAvailabilityError(true)
-    }).finally(() => {
-      if (active) setQuizAvailabilityLoading(false)
-    })
+    const resources = [
+      ...new Set(
+        PLAY_QUIZZES.filter((quiz) => quiz.perCountry && quiz.id !== 'mixed').flatMap((quiz) =>
+          resourcesForQuiz(quiz.id),
+        ),
+      ),
+    ]
+    void geo
+      .ensureResources(resources)
+      .catch(() => {
+        if (active) setQuizAvailabilityError(true)
+      })
+      .finally(() => {
+        if (active) setQuizAvailabilityLoading(false)
+      })
     return () => {
       active = false
     }
@@ -143,92 +157,94 @@ export default function HomePage() {
 
   return (
     <Page wide>
-      <nav className="home-quick-actions" aria-label="Direkt spielen">
-        <Link className="btn-primary" to={roundPath({ ...defaultRound('flags'), mode: 'flag_to_name', content: ['country'] })}>10 Flaggen <span aria-hidden>→</span></Link>
-        <Link className="btn-secondary" to={roundPath({ ...defaultRound('trivia'), mode: 'trivia_questions' })}>10 Trivia-Fragen <span aria-hidden>→</span></Link>
-        <Link className="btn-secondary" to="/daily">Tagesrätsel <span aria-hidden>↗</span></Link>
-      </nav>
-      {open && open.length > 0 && (
-        <section className="home-continue">
-          <span className="atlas-index">WEITER</span>
-          <div className="min-w-0 flex-1">
-            <RoundTitle setup={setupOf(open[0])} progress={{ done: baseQuestionPosition(open[0]), total: baseQuestionTotal(open[0]) }} />
-            <ProgressBar className="mt-2" value={baseQuestionPosition(open[0]) / baseQuestionTotal(open[0])} />
-          </div>
-          <Link to={`/play/session/${encodeURIComponent(open[0].id)}`} className="btn-primary">{t('app.continue')}</Link>
-        </section>
-      )}
-      <section className="home-hero">
-        <h1 className="sr-only">Interaktiver Weltatlas</h1>
-        <div className="home-hero-map">
-          <div className="home-globe-heading">
-            <span>INTERAKTIVER ATLAS</span>
-            <strong>Land anklicken · Quiz auswählen</strong>
-          </div>
-          <InteractiveGlobe
-            countries={geo.countries}
-            selectedId={selectedCountryId}
-            onSelect={setSelectedCountryId}
-          />
+      <section className="simple-hero">
+        <div className="simple-hero-copy">
+          <h1>Die Welt ist voller Fragen.</h1>
+          <p>Finde heraus, wie viel du schon weißt.</p>
+          <nav className="simple-hero-actions" aria-label="Direkt spielen">
+            <Link className="btn-primary" to="/play">
+              Quiz auswählen <ArrowRight aria-hidden />
+            </Link>
+            <Link
+              className="btn-secondary"
+              to={roundPath({ ...defaultRound('flags'), mode: 'flag_to_name', content: ['country'] })}
+            >
+              10 Flaggen spielen
+            </Link>
+          </nav>
         </div>
-      </section>
-
-      {selectedCountry && quizAvailabilityError && <div role="alert" className="card p-4">Passende Quizze konnten nicht geladen werden. <button className="btn-secondary" onClick={() => setAvailabilityAttempt((n) => n + 1)}>Erneut versuchen</button></div>}
-      {selectedCountry && !quizAvailabilityError && (
-        <CountryQuizPanel
-          country={selectedCountry}
-          availableCountryQuizIds={availableCountryQuizIds}
-          loading={quizAvailabilityLoading}
-          onClose={() => setSelectedCountryId(undefined)}
+        <img
+          className="simple-hero-art"
+          src={`${import.meta.env.BASE_URL}media/atlas-globe.png`}
+          alt=""
+          width="320"
+          height="280"
         />
-      )}
-
-      <header className="atlas-section-head">
-        <div><h2>{t('play.title')}</h2></div>
-        <p>Wähle dein Thema.<br />Die Welt wartet nicht.</p>
-      </header>
-      <section className="home-category-register">
-        {primary.map((c) => (
-          <Link key={c.id} to={`/play/${c.id}`} className="home-category-row group">
-            <span className="home-category-number">{String(primary.indexOf(c) + 1).padStart(2, '0')}</span>
-            <CategoryIconTile id={c.id} />
-            <span className="home-category-name">{t(`category.${c.id}`)}</span>
-            <span className="home-category-meta">{c.countKey && index?.counts[c.countKey] !== undefined ? `${index.counts[c.countKey].toLocaleString('de-DE')} Einträge` : 'Wissen testen'}</span>
-            <Icons.arrow className="home-category-arrow" aria-hidden />
+      </section>
+      <OpenRounds />
+      <section className="simple-topic-section">
+        <header className="simple-section-heading">
+          <h2>Worauf hast du Lust?</h2>
+          <Link to="/play">
+            Alle Themen <ArrowRight aria-hidden />
           </Link>
-        ))}
-        <Link to="/play" className="home-category-row home-category-all">
-          <span className="home-category-number">+</span>
-          <span className="home-category-all-icon"><Icons.layers /></span>
-          <span className="home-category-name">Alle Quizarten</span>
-          <span className="home-category-meta">Städte, Bilder, Gemischt & mehr</span>
-          <Icons.arrow className="home-category-arrow" aria-hidden />
+        </header>
+        <QuizCatalog featured />
+      </section>
+      <section className="simple-daily-banner">
+        <CalendarDays aria-hidden />
+        <div>
+          <h2>Jeden Tag eine neue Herausforderung.</h2>
+          <p>Sechs Rätsel. Ein neuer Start, jeden Tag.</p>
+        </div>
+        <Link to="/daily" className="btn-primary">
+          Zu den Tagesrätseln <ArrowRight aria-hidden />
         </Link>
       </section>
-
-      <section className="home-daily-band">
-        <div className="home-daily-copy">
-          <h2>{t('daily.title')}</h2>
-          <p>Sechs kurze Etappen. Jeden Tag eine neue Route durch die Welt.</p>
-          <Link to="/daily" className="home-daily-cta">Tagesroute öffnen <Icons.arrow /></Link>
-        </div>
-        <div className="home-daily-route">
-          <div className="home-daily-line" aria-hidden />
-          <ol>
-              {PUZZLES.filter((p) => p.available).map((p) => {
-                const r = puzzles?.find((x) => x.key === `${p.id}:${today}`)
-                const I = PUZZLE_ICONS[p.id]
-                return (
-                  <li key={p.id}>
-                    <span><I aria-hidden /></span>
-                    <strong>{t(`daily.${p.id}`)}</strong>
-                    {r?.finishedAt && (r.solved ? <Icons.check className="h-3.5 w-3.5 text-ok" /> : <Icons.x className="h-3.5 w-3.5 text-bad" />)}
-                  </li>
-                )
-              })}
-          </ol>
-        </div>
-      </section>
+      <details
+        className="simple-disclosure atlas-disclosure"
+        onToggle={(e) => setAtlasOpen(e.currentTarget.open)}
+      >
+        <summary>
+          <span>
+            <Map aria-hidden /> Die Welt auf der Karte entdecken
+          </span>
+          <ChevronDown aria-hidden />
+        </summary>
+        {atlasOpen && (
+          <div className="simple-atlas-content">
+            <Suspense fallback={<p role="status">Weltkarte wird geladen …</p>}>
+              <InteractiveGlobe
+                countries={geo.countries}
+                selectedId={selectedCountryId}
+                onSelect={setSelectedCountryId}
+              />
+            </Suspense>
+            {selectedCountry && quizAvailabilityError && (
+              <div role="alert" className="card p-4">
+                Passende Quizze konnten nicht geladen werden.{' '}
+                <button className="btn-secondary" onClick={() => setAvailabilityAttempt((n) => n + 1)}>
+                  Erneut versuchen
+                </button>
+              </div>
+            )}
+            {selectedCountry && !quizAvailabilityError && (
+              <CountryQuizPanel
+                country={selectedCountry}
+                availableCountryQuizIds={availableCountryQuizIds}
+                loading={quizAvailabilityLoading}
+                onClose={() => setSelectedCountryId(undefined)}
+              />
+            )}
+          </div>
+        )}
+      </details>
+      <Link
+        className="simple-trivia-link"
+        to={roundPath({ ...defaultRound('trivia'), mode: 'trivia_questions' })}
+      >
+        Oder direkt 10 Trivia-Fragen spielen <ArrowRight aria-hidden />
+      </Link>
     </Page>
   )
 }

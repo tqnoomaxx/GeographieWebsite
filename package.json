@@ -27,7 +27,8 @@
     "data:plates": "node scripts/import-plates.mjs DE && node scripts/import-plates.mjs AT && node scripts/import-plates.mjs CH && node scripts/import-polish-plates.mjs",
     "data:nature": "node scripts/import-nature.mjs",
     "data:labels": "node scripts/import-labels.mjs",
-    "data:cities": "node scripts/import-cities.mjs",
+    "data:cities": "node scripts/import-cities.mjs && node scripts/import-large-cities.mjs",
+    "data:large-cities": "node scripts/import-large-cities.mjs",
     "supabase:seed": "node --experimental-strip-types scripts/supabase-seed.mts",
     "data:capitals": "node scripts/enrich-country-capitals.mjs"
   },

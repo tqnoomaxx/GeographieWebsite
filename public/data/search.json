@@ -7271,6 +7271,11404 @@
   "c": "country:GE"
  },
  {
+  "id": "city:geonames-100077",
+  "t": "city",
+  "n": "Abū Ghurayb",
+  "a": [
+   "Abu Ghurayb",
+   "Abu Ghurayb"
+  ],
+  "c": "country:IQ"
+ },
+ {
+  "id": "city:geonames-1004866",
+  "t": "city",
+  "n": "Evaton",
+  "a": [
+   "Evaton"
+  ],
+  "c": "country:ZA"
+ },
+ {
+  "id": "city:geonames-10063567",
+  "t": "city",
+  "n": "Iskandar Puteri",
+  "a": [
+   "Iskandar Puteri"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-1016181",
+  "t": "city",
+  "n": "Brakpan",
+  "a": [
+   "Brakpan"
+  ],
+  "c": "country:ZA"
+ },
+ {
+  "id": "city:geonames-1016670",
+  "t": "city",
+  "n": "Botshabelo",
+  "a": [
+   "Botshabelo"
+  ],
+  "c": "country:ZA"
+ },
+ {
+  "id": "city:geonames-101760",
+  "t": "city",
+  "n": "Sulţānah",
+  "a": [
+   "Sultanah",
+   "Sultanah"
+  ],
+  "c": "country:SA"
+ },
+ {
+  "id": "city:geonames-1017780",
+  "t": "city",
+  "n": "Boksburg",
+  "a": [
+   "Boksburg"
+  ],
+  "c": "country:ZA"
+ },
+ {
+  "id": "city:geonames-10276592",
+  "t": "city",
+  "n": "Ogbia",
+  "a": [
+   "Ogbia"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-10346824",
+  "t": "city",
+  "n": "Nilüfer",
+  "a": [
+   "Niluefer",
+   "Niluefer"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-104515",
+  "t": "city",
+  "n": "Makkah",
+  "a": [
+   "Makkah"
+  ],
+  "c": "country:SA"
+ },
+ {
+  "id": "city:geonames-10630003",
+  "t": "city",
+  "n": "Xuzhou",
+  "a": [
+   "Xuzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-10630449",
+  "t": "city",
+  "n": "Sunshine Coast",
+  "a": [
+   "Sunshine Coast"
+  ],
+  "c": "country:AU"
+ },
+ {
+  "id": "city:geonames-10794003",
+  "t": "city",
+  "n": "Panjin",
+  "a": [
+   "Panjin"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-10859300",
+  "t": "city",
+  "n": "Lianyungang",
+  "a": [
+   "Lianyungang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-10942283",
+  "t": "city",
+  "n": "Jinzhong",
+  "a": [
+   "Jinzhong"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-10942359",
+  "t": "city",
+  "n": "Baoji",
+  "a": [
+   "Baoji"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-10943053",
+  "t": "city",
+  "n": "Nansana",
+  "a": [
+   "Nansana"
+  ],
+  "c": "country:UG"
+ },
+ {
+  "id": "city:geonames-1106542",
+  "t": "city",
+  "n": "Chitungwiza",
+  "a": [
+   "Chitungwiza"
+  ],
+  "c": "country:ZW"
+ },
+ {
+  "id": "city:geonames-11209896",
+  "t": "city",
+  "n": "Kotō",
+  "a": [
+   "Koto",
+   "Koto"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-113646",
+  "t": "city",
+  "n": "Tabriz",
+  "a": [
+   "Tabriz"
+  ],
+  "c": "country:IR"
+ },
+ {
+  "id": "city:geonames-115019",
+  "t": "city",
+  "n": "Shiraz",
+  "a": [
+   "Shiraz"
+  ],
+  "c": "country:IR"
+ },
+ {
+  "id": "city:geonames-11523293",
+  "t": "city",
+  "n": "Sejong",
+  "a": [
+   "Sejong"
+  ],
+  "c": "country:KR"
+ },
+ {
+  "id": "city:geonames-11592397",
+  "t": "city",
+  "n": "Nova Vida",
+  "a": [
+   "Nova Vida"
+  ],
+  "c": "country:AO"
+ },
+ {
+  "id": "city:geonames-11611609",
+  "t": "city",
+  "n": "Sagamihara",
+  "a": [
+   "Sagamihara"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1163964",
+  "t": "city",
+  "n": "Tando Bago",
+  "a": [
+   "Tando Bago"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1163965",
+  "t": "city",
+  "n": "Tando Allahyar",
+  "a": [
+   "Tando Allahyar"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1164408",
+  "t": "city",
+  "n": "Sukkur",
+  "a": [
+   "Sukkur"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1164776",
+  "t": "city",
+  "n": "Sinjhoro",
+  "a": [
+   "Sinjhoro"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1165221",
+  "t": "city",
+  "n": "Shekhupura",
+  "a": [
+   "Shekhupura"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1166547",
+  "t": "city",
+  "n": "Sahiwal",
+  "a": [
+   "Sahiwal"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1167460",
+  "t": "city",
+  "n": "Rahim Yar Khan",
+  "a": [
+   "Rahim Yar Khan"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-11679708",
+  "t": "city",
+  "n": "Gundupālaiyam",
+  "a": [
+   "Gundupalaiyam",
+   "Gundupalaiyam"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1168021",
+  "t": "city",
+  "n": "Pindi Bhattian",
+  "a": [
+   "Pindi Bhattian"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1168718",
+  "t": "city",
+  "n": "Okara",
+  "a": [
+   "Okara"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1169116",
+  "t": "city",
+  "n": "Nawabshah",
+  "a": [
+   "Nawabshah"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-11694038",
+  "t": "city",
+  "n": "Huocheng",
+  "a": [
+   "Huocheng"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1169607",
+  "t": "city",
+  "n": "Muzaffarābād",
+  "a": [
+   "Muzaffarabad",
+   "Muzaffarabad"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1170395",
+  "t": "city",
+  "n": "Mingora",
+  "a": [
+   "Mingora"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1170880",
+  "t": "city",
+  "n": "Mardan",
+  "a": [
+   "Mardan"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1172128",
+  "t": "city",
+  "n": "Larkana",
+  "a": [
+   "Larkana"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1174625",
+  "t": "city",
+  "n": "Kasur",
+  "a": [
+   "Kasur"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1175748",
+  "t": "city",
+  "n": "Chak Jhumra",
+  "a": [
+   "Chak Jhumra"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1175892",
+  "t": "city",
+  "n": "Jhang Sadr",
+  "a": [
+   "Jhang Sadr"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1176358",
+  "t": "city",
+  "n": "Jalalpur Pirwala",
+  "a": [
+   "Jalalpur Pirwala"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1177384",
+  "t": "city",
+  "n": "Hafizabad",
+  "a": [
+   "Hafizabad"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1177654",
+  "t": "city",
+  "n": "Gujrat",
+  "a": [
+   "Gujrat"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1180281",
+  "t": "city",
+  "n": "Dera Ismail Khan",
+  "a": [
+   "Dera Ismail Khan"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1180289",
+  "t": "city",
+  "n": "Dera Ghazi Khan",
+  "a": [
+   "Dera Ghazi Khan"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1180942",
+  "t": "city",
+  "n": "Chunian",
+  "a": [
+   "Chunian"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1181096",
+  "t": "city",
+  "n": "Chiniot",
+  "a": [
+   "Chiniot"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1182092",
+  "t": "city",
+  "n": "Burewala",
+  "a": [
+   "Burewala"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1182682",
+  "t": "city",
+  "n": "Bhawana",
+  "a": [
+   "Bhawana"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1183105",
+  "t": "city",
+  "n": "Battagram",
+  "a": [
+   "Battagram"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1183460",
+  "t": "city",
+  "n": "Bannu",
+  "a": [
+   "Bannu"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-11838258",
+  "t": "city",
+  "n": "Bayan Nur",
+  "a": [
+   "Bayan Nur"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1184370",
+  "t": "city",
+  "n": "Arifwala",
+  "a": [
+   "Arifwala"
+  ],
+  "c": "country:PK"
+ },
+ {
+  "id": "city:geonames-1185107",
+  "t": "city",
+  "n": "Shibganj",
+  "a": [
+   "Shibganj"
+  ],
+  "c": "country:BD"
+ },
+ {
+  "id": "city:geonames-119208",
+  "t": "city",
+  "n": "Qom",
+  "a": [
+   "Qom"
+  ],
+  "c": "country:IR"
+ },
+ {
+  "id": "city:geonames-1194041",
+  "t": "city",
+  "n": "Mohammadpur",
+  "a": [
+   "Mohammadpur"
+  ],
+  "c": "country:BD"
+ },
+ {
+  "id": "city:geonames-1199503",
+  "t": "city",
+  "n": "Kafrul",
+  "a": [
+   "Kafrul"
+  ],
+  "c": "country:BD"
+ },
+ {
+  "id": "city:geonames-11995100",
+  "t": "city",
+  "n": "Bazhong",
+  "a": [
+   "Bazhong"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-120292",
+  "t": "city",
+  "n": "Qods",
+  "a": [
+   "Qods"
+  ],
+  "c": "country:IR"
+ },
+ {
+  "id": "city:geonames-1209106",
+  "t": "city",
+  "n": "Bhatara",
+  "a": [
+   "Bhatara"
+  ],
+  "c": "country:BD"
+ },
+ {
+  "id": "city:geonames-1214189",
+  "t": "city",
+  "n": "Percut",
+  "a": [
+   "Percut"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1214520",
+  "t": "city",
+  "n": "Medan",
+  "a": [
+   "Medan"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-12159964",
+  "t": "city",
+  "n": "Chongzuo",
+  "a": [
+   "Chongzuo"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-12165956",
+  "t": "city",
+  "n": "Kallakurichi",
+  "a": [
+   "Kallakurichi"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-12277239",
+  "t": "city",
+  "n": "Yunlong",
+  "a": [
+   "Yunlong"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-12278193",
+  "t": "city",
+  "n": "Marne La Vallée",
+  "a": [
+   "Marne La Vallee",
+   "Marne La Vallee"
+  ],
+  "c": "country:FR"
+ },
+ {
+  "id": "city:geonames-12324556",
+  "t": "city",
+  "n": "Shizuishan",
+  "a": [
+   "Shizuishan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-12358476",
+  "t": "city",
+  "n": "Hechi",
+  "a": [
+   "Hechi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-12358576",
+  "t": "city",
+  "n": "Wanzhou",
+  "a": [
+   "Wanzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-12359313",
+  "t": "city",
+  "n": "Qingyang",
+  "a": [
+   "Qingyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-12382296",
+  "t": "city",
+  "n": "Thuận An",
+  "a": [
+   "Thuan An",
+   "Thuan An"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-12446699",
+  "t": "city",
+  "n": "Daxing’anling",
+  "a": [
+   "Daxing'anling",
+   "Daxing'anling"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-124665",
+  "t": "city",
+  "n": "Mashhad",
+  "a": [
+   "Mashhad"
+  ],
+  "c": "country:IR"
+ },
+ {
+  "id": "city:geonames-12492662",
+  "t": "city",
+  "n": "Mianzhu, Deyang, Sichuan",
+  "a": [
+   "Mianzhu, Deyang, Sichuan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-12501153",
+  "t": "city",
+  "n": "Kanayannur",
+  "a": [
+   "Kanayannur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-12514556",
+  "t": "city",
+  "n": "Kota Damansara",
+  "a": [
+   "Kota Damansara"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-1252948",
+  "t": "city",
+  "n": "Warangal",
+  "a": [
+   "Warangal"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1253102",
+  "t": "city",
+  "n": "Visakhapatnam",
+  "a": [
+   "Visakhapatnam"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1253133",
+  "t": "city",
+  "n": "Virār",
+  "a": [
+   "Virar",
+   "Virar"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1253184",
+  "t": "city",
+  "n": "Vijayawada",
+  "a": [
+   "Vijayawada"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1253286",
+  "t": "city",
+  "n": "Vellore",
+  "a": [
+   "Vellore"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1253405",
+  "t": "city",
+  "n": "Varanasi",
+  "a": [
+   "Varanasi"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1253894",
+  "t": "city",
+  "n": "Ulhasnagar",
+  "a": [
+   "Ulhasnagar"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1253914",
+  "t": "city",
+  "n": "Ujjain",
+  "a": [
+   "Ujjain"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1253986",
+  "t": "city",
+  "n": "Udaipur",
+  "a": [
+   "Udaipur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1254089",
+  "t": "city",
+  "n": "Tumkūr",
+  "a": [
+   "Tumkur",
+   "Tumkur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1254163",
+  "t": "city",
+  "n": "Thiruvananthapuram",
+  "a": [
+   "Thiruvananthapuram"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1254187",
+  "t": "city",
+  "n": "Thrissur",
+  "a": [
+   "Thrissur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1254348",
+  "t": "city",
+  "n": "Tiruppur",
+  "a": [
+   "Tiruppur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1254361",
+  "t": "city",
+  "n": "Tirunelveli",
+  "a": [
+   "Tirunelveli"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1254388",
+  "t": "city",
+  "n": "Tiruchirappalli",
+  "a": [
+   "Tiruchirappalli"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1254661",
+  "t": "city",
+  "n": "Thāne",
+  "a": [
+   "Thane",
+   "Thane"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-12548253",
+  "t": "city",
+  "n": "Hulunbuir",
+  "a": [
+   "Hulunbuir"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1255634",
+  "t": "city",
+  "n": "Srinagar",
+  "a": [
+   "Srinagar"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-12557764",
+  "t": "city",
+  "n": "Taman Petaling",
+  "a": [
+   "Taman Petaling"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-1255783",
+  "t": "city",
+  "n": "Rajpur Sonarpur",
+  "a": [
+   "Rajpur Sonarpur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1256409",
+  "t": "city",
+  "n": "Shyamnagar",
+  "a": [
+   "Shyamnagar"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1256436",
+  "t": "city",
+  "n": "Sholapur",
+  "a": [
+   "Sholapur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1256515",
+  "t": "city",
+  "n": "Shivamogga",
+  "a": [
+   "Shivamogga"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1256525",
+  "t": "city",
+  "n": "Siliguri",
+  "a": [
+   "Siliguri"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1256728",
+  "t": "city",
+  "n": "Shāhjānpur",
+  "a": [
+   "Shahjanpur",
+   "Shahjanpur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1257416",
+  "t": "city",
+  "n": "Sāngli",
+  "a": [
+   "Sangli",
+   "Sangli"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1257629",
+  "t": "city",
+  "n": "Salem",
+  "a": [
+   "Salem"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1257806",
+  "t": "city",
+  "n": "Sahāranpur",
+  "a": [
+   "Saharanpur",
+   "Saharanpur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1258076",
+  "t": "city",
+  "n": "Rohtak",
+  "a": [
+   "Rohtak"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1258393",
+  "t": "city",
+  "n": "Rasapūdipalem",
+  "a": [
+   "Rasapudipalem",
+   "Rasapudipalem"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1258526",
+  "t": "city",
+  "n": "Ranchi",
+  "a": [
+   "Ranchi"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1258662",
+  "t": "city",
+  "n": "Rāmgundam",
+  "a": [
+   "Ramgundam",
+   "Ramgundam"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1258932",
+  "t": "city",
+  "n": "Rajamahendravaram",
+  "a": [
+   "Rajamahendravaram"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1258980",
+  "t": "city",
+  "n": "Raipur",
+  "a": [
+   "Raipur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1259091",
+  "t": "city",
+  "n": "Kollam",
+  "a": [
+   "Kollam"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1259239",
+  "t": "city",
+  "n": "Punāsa",
+  "a": [
+   "Punasa",
+   "Punasa"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1259425",
+  "t": "city",
+  "n": "Puducherry",
+  "a": [
+   "Puducherry"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1259652",
+  "t": "city",
+  "n": "Pimpri",
+  "a": [
+   "Pimpri"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1260086",
+  "t": "city",
+  "n": "Patna",
+  "a": [
+   "Patna"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1260107",
+  "t": "city",
+  "n": "Patiāla",
+  "a": [
+   "Patiala",
+   "Patiala"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1260341",
+  "t": "city",
+  "n": "Parbhani",
+  "a": [
+   "Parbhani"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1260482",
+  "t": "city",
+  "n": "Pānihāti",
+  "a": [
+   "Panihati",
+   "Panihati"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1261162",
+  "t": "city",
+  "n": "Nowrangapur",
+  "a": [
+   "Nowrangapur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1261258",
+  "t": "city",
+  "n": "Nizāmābād",
+  "a": [
+   "Nizamabad",
+   "Nizamabad"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1261529",
+  "t": "city",
+  "n": "Nellore",
+  "a": [
+   "Nellore"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1261731",
+  "t": "city",
+  "n": "Nashik",
+  "a": [
+   "Nashik"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1261809",
+  "t": "city",
+  "n": "Narela",
+  "a": [
+   "Narela"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1261977",
+  "t": "city",
+  "n": "Nanded",
+  "a": [
+   "Nanded"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1262111",
+  "t": "city",
+  "n": "Najafgarh",
+  "a": [
+   "Najafgarh"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1262321",
+  "t": "city",
+  "n": "Mysuru",
+  "a": [
+   "Mysuru"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1262330",
+  "t": "city",
+  "n": "Muzaffarpur",
+  "a": [
+   "Muzaffarpur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1262332",
+  "t": "city",
+  "n": "Muzaffarnagar",
+  "a": [
+   "Muzaffarnagar"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1262801",
+  "t": "city",
+  "n": "Morādābād",
+  "a": [
+   "Moradabad",
+   "Moradabad"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1263214",
+  "t": "city",
+  "n": "Meerut",
+  "a": [
+   "Meerut"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1263364",
+  "t": "city",
+  "n": "Mathura",
+  "a": [
+   "Mathura"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1263780",
+  "t": "city",
+  "n": "Mangaluru",
+  "a": [
+   "Mangaluru"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1264115",
+  "t": "city",
+  "n": "Malegaon",
+  "a": [
+   "Malegaon"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1264521",
+  "t": "city",
+  "n": "Madurai",
+  "a": [
+   "Madurai"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1264527",
+  "t": "city",
+  "n": "Chennai",
+  "a": [
+   "Chennai"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1264728",
+  "t": "city",
+  "n": "Ludhiana",
+  "a": [
+   "Ludhiana"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1264773",
+  "t": "city",
+  "n": "Loni",
+  "a": [
+   "Loni"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1265014",
+  "t": "city",
+  "n": "Latur",
+  "a": [
+   "Latur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1265491",
+  "t": "city",
+  "n": "Kurnool",
+  "a": [
+   "Kurnool"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1265711",
+  "t": "city",
+  "n": "Kulti",
+  "a": [
+   "Kulti"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1265767",
+  "t": "city",
+  "n": "Kukatpally",
+  "a": [
+   "Kukatpally"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1265873",
+  "t": "city",
+  "n": "Kozhikode",
+  "a": [
+   "Kozhikode"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1266049",
+  "t": "city",
+  "n": "Kota",
+  "a": [
+   "Kota"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1266122",
+  "t": "city",
+  "n": "Korba",
+  "a": [
+   "Korba"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1266285",
+  "t": "city",
+  "n": "Kolhāpur",
+  "a": [
+   "Kolhapur",
+   "Kolhapur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1267708",
+  "t": "city",
+  "n": "Karnāl",
+  "a": [
+   "Karnal",
+   "Karnal"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1268257",
+  "t": "city",
+  "n": "Kāmārhāti",
+  "a": [
+   "Kamarhati",
+   "Kamarhati"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1268295",
+  "t": "city",
+  "n": "Kalyān",
+  "a": [
+   "Kalyan",
+   "Kalyan"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1268561",
+  "t": "city",
+  "n": "Kākināda",
+  "a": [
+   "Kakinada",
+   "Kakinada"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1268773",
+  "t": "city",
+  "n": "Jūnāgadh",
+  "a": [
+   "Junagadh",
+   "Junagadh"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1268782",
+  "t": "city",
+  "n": "Jalandhar",
+  "a": [
+   "Jalandhar"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1268865",
+  "t": "city",
+  "n": "Jodhpur",
+  "a": [
+   "Jodhpur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1269006",
+  "t": "city",
+  "n": "Jhānsi",
+  "a": [
+   "Jhansi",
+   "Jhansi"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1269300",
+  "t": "city",
+  "n": "Jamshedpur",
+  "a": [
+   "Jamshedpur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1269317",
+  "t": "city",
+  "n": "Jamnagar",
+  "a": [
+   "Jamnagar"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1269321",
+  "t": "city",
+  "n": "Jammu",
+  "a": [
+   "Jammu"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1269407",
+  "t": "city",
+  "n": "Jalgaon",
+  "a": [
+   "Jalgaon"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1269633",
+  "t": "city",
+  "n": "Jabalpur",
+  "a": [
+   "Jabalpur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1269743",
+  "t": "city",
+  "n": "Indore",
+  "a": [
+   "Indore"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1269843",
+  "t": "city",
+  "n": "Hyderabad",
+  "a": [
+   "Hyderabad"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1269920",
+  "t": "city",
+  "n": "Hubballi",
+  "a": [
+   "Hubballi"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1270022",
+  "t": "city",
+  "n": "Hisar",
+  "a": [
+   "Hisar"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1270396",
+  "t": "city",
+  "n": "Howrah",
+  "a": [
+   "Howrah"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1270583",
+  "t": "city",
+  "n": "Gwalior",
+  "a": [
+   "Gwalior"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1270642",
+  "t": "city",
+  "n": "Gurugram",
+  "a": [
+   "Gurugram"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1270668",
+  "t": "city",
+  "n": "Guntur",
+  "a": [
+   "Guntur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1270752",
+  "t": "city",
+  "n": "Kalaburagi",
+  "a": [
+   "Kalaburagi"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1270927",
+  "t": "city",
+  "n": "Gorakhpur",
+  "a": [
+   "Gorakhpur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1271439",
+  "t": "city",
+  "n": "Gaya",
+  "a": [
+   "Gaya"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1271458",
+  "t": "city",
+  "n": "Gauriganj",
+  "a": [
+   "Gauriganj"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1271476",
+  "t": "city",
+  "n": "Guwahati",
+  "a": [
+   "Guwahati"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1271885",
+  "t": "city",
+  "n": "Fīrozābād",
+  "a": [
+   "Firozabad",
+   "Firozabad"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1271951",
+  "t": "city",
+  "n": "Faridabad",
+  "a": [
+   "Faridabad"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1272013",
+  "t": "city",
+  "n": "Erode",
+  "a": [
+   "Erode"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1272175",
+  "t": "city",
+  "n": "Durgapur",
+  "a": [
+   "Durgapur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1272423",
+  "t": "city",
+  "n": "Dombivali",
+  "a": [
+   "Dombivali"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1272691",
+  "t": "city",
+  "n": "Dhule",
+  "a": [
+   "Dhule"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1272979",
+  "t": "city",
+  "n": "Dhanbad",
+  "a": [
+   "Dhanbad"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-127319",
+  "t": "city",
+  "n": "Khorramshahr",
+  "a": [
+   "Khorramshahr"
+  ],
+  "c": "country:IR"
+ },
+ {
+  "id": "city:geonames-1273313",
+  "t": "city",
+  "n": "Dehradun",
+  "a": [
+   "Dehradun"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1273368",
+  "t": "city",
+  "n": "Davangere",
+  "a": [
+   "Davangere"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-127349",
+  "t": "city",
+  "n": "Khorramabad",
+  "a": [
+   "Khorramabad"
+  ],
+  "c": "country:IR"
+ },
+ {
+  "id": "city:geonames-1273780",
+  "t": "city",
+  "n": "Cuttack",
+  "a": [
+   "Cuttack"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1273800",
+  "t": "city",
+  "n": "Kadapa",
+  "a": [
+   "Kadapa"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1273865",
+  "t": "city",
+  "n": "Coimbatore",
+  "a": [
+   "Coimbatore"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1273874",
+  "t": "city",
+  "n": "Kochi",
+  "a": [
+   "Kochi"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1274693",
+  "t": "city",
+  "n": "Chānda",
+  "a": [
+   "Chanda",
+   "Chanda"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1274746",
+  "t": "city",
+  "n": "Chandigarh",
+  "a": [
+   "Chandigarh"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-12750654",
+  "t": "city",
+  "n": "Mukim Pulai",
+  "a": [
+   "Mukim Pulai"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-1275198",
+  "t": "city",
+  "n": "Brahmapur",
+  "a": [
+   "Brahmapur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1275248",
+  "t": "city",
+  "n": "Borivli",
+  "a": [
+   "Borivli"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1275362",
+  "t": "city",
+  "n": "Bokāro",
+  "a": [
+   "Bokaro",
+   "Bokaro"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1275610",
+  "t": "city",
+  "n": "Bilimora",
+  "a": [
+   "Bilimora"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1275637",
+  "t": "city",
+  "n": "Bilāspur",
+  "a": [
+   "Bilaspur",
+   "Bilaspur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1275665",
+  "t": "city",
+  "n": "Bikaner",
+  "a": [
+   "Bikaner"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1275701",
+  "t": "city",
+  "n": "Vijayapura",
+  "a": [
+   "Vijayapura"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1275817",
+  "t": "city",
+  "n": "Bhubaneswar",
+  "a": [
+   "Bhubaneswar"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1275841",
+  "t": "city",
+  "n": "Bhopal",
+  "a": [
+   "Bhopal"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1275901",
+  "t": "city",
+  "n": "Bhiwandi",
+  "a": [
+   "Bhiwandi"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1275960",
+  "t": "city",
+  "n": "Bhilwara",
+  "a": [
+   "Bhilwara"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1275971",
+  "t": "city",
+  "n": "Bhilai",
+  "a": [
+   "Bhilai"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1276014",
+  "t": "city",
+  "n": "Bhayandar",
+  "a": [
+   "Bhayandar"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1276032",
+  "t": "city",
+  "n": "Bhavnagar",
+  "a": [
+   "Bhavnagar"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1276058",
+  "t": "city",
+  "n": "Bhātpāra",
+  "a": [
+   "Bhatpara",
+   "Bhatpara"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1276300",
+  "t": "city",
+  "n": "Bhāgalpur",
+  "a": [
+   "Bhagalpur",
+   "Bhagalpur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1276509",
+  "t": "city",
+  "n": "Ballari",
+  "a": [
+   "Ballari"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1276533",
+  "t": "city",
+  "n": "Belagavi",
+  "a": [
+   "Belagavi"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1277013",
+  "t": "city",
+  "n": "Bareilly",
+  "a": [
+   "Bareilly"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1277029",
+  "t": "city",
+  "n": "Barddhamān",
+  "a": [
+   "Barddhaman",
+   "Barddhaman"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1278130",
+  "t": "city",
+  "n": "Avadi",
+  "a": [
+   "Avadi"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1278149",
+  "t": "city",
+  "n": "Aurangabad",
+  "a": [
+   "Aurangabad"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1278314",
+  "t": "city",
+  "n": "Āsansol",
+  "a": [
+   "Asansol",
+   "Asansol"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1278710",
+  "t": "city",
+  "n": "Amritsar",
+  "a": [
+   "Amritsar"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1278718",
+  "t": "city",
+  "n": "Amravati",
+  "a": [
+   "Amravati"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1278840",
+  "t": "city",
+  "n": "Ambattur",
+  "a": [
+   "Ambattur"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1278946",
+  "t": "city",
+  "n": "Alwar",
+  "a": [
+   "Alwar"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1279017",
+  "t": "city",
+  "n": "Alīgarh",
+  "a": [
+   "Aligarh",
+   "Aligarh"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1279105",
+  "t": "city",
+  "n": "Akola",
+  "a": [
+   "Akola"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1279159",
+  "t": "city",
+  "n": "Ajmer",
+  "a": [
+   "Ajmer"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1279228",
+  "t": "city",
+  "n": "Ahilyanagar",
+  "a": [
+   "Ahilyanagar"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1279259",
+  "t": "city",
+  "n": "Agra",
+  "a": [
+   "Agra"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1279290",
+  "t": "city",
+  "n": "Agartala",
+  "a": [
+   "Agartala"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1279945",
+  "t": "city",
+  "n": "Jiuquan",
+  "a": [
+   "Jiuquan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1280737",
+  "t": "city",
+  "n": "Lhasa",
+  "a": [
+   "Lhasa"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1280849",
+  "t": "city",
+  "n": "Kashgar",
+  "a": [
+   "Kashgar"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1281019",
+  "t": "city",
+  "n": "Gujangbagh",
+  "a": [
+   "Gujangbagh"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1281673",
+  "t": "city",
+  "n": "Baoshan",
+  "a": [
+   "Baoshan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-128476",
+  "t": "city",
+  "n": "Kashan",
+  "a": [
+   "Kashan"
+  ],
+  "c": "country:IR"
+ },
+ {
+  "id": "city:geonames-128747",
+  "t": "city",
+  "n": "Karaj",
+  "a": [
+   "Karaj"
+  ],
+  "c": "country:IR"
+ },
+ {
+  "id": "city:geonames-12908892",
+  "t": "city",
+  "n": "New Taipei City",
+  "a": [
+   "New Taipei City"
+  ],
+  "c": "country:TW"
+ },
+ {
+  "id": "city:geonames-13118225",
+  "t": "city",
+  "n": "Bukit Rahman Putra",
+  "a": [
+   "Bukit Rahman Putra"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-13118244",
+  "t": "city",
+  "n": "Mandaluyong",
+  "a": [
+   "Mandaluyong"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1321218",
+  "t": "city",
+  "n": "Kalemyo",
+  "a": [
+   "Kalemyo"
+  ],
+  "c": "country:MM"
+ },
+ {
+  "id": "city:geonames-13308620",
+  "t": "city",
+  "n": "Bao'an",
+  "a": [
+   "Bao'an"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-13405933",
+  "t": "city",
+  "n": "Bắc Từ Liêm",
+  "a": [
+   "Bac Tu Liem",
+   "Bac Tu Liem"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-1348843",
+  "t": "city",
+  "n": "Maheshtala",
+  "a": [
+   "Maheshtala"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-1349452",
+  "t": "city",
+  "n": "Savar",
+  "a": [
+   "Savar"
+  ],
+  "c": "country:BD"
+ },
+ {
+  "id": "city:geonames-13512502",
+  "t": "city",
+  "n": "Mengzi",
+  "a": [
+   "Mengzi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-13512505",
+  "t": "city",
+  "n": "Lüliang",
+  "a": [
+   "Lueliang",
+   "Lueliang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-13527052",
+  "t": "city",
+  "n": "Chéngguān Qū",
+  "a": [
+   "Chengguan Qu",
+   "Chengguan Qu"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-13546342",
+  "t": "city",
+  "n": "Samba",
+  "a": [
+   "Samba"
+  ],
+  "c": "country:AO"
+ },
+ {
+  "id": "city:geonames-13608000",
+  "t": "city",
+  "n": "Jinshan",
+  "a": [
+   "Jinshan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-13608002",
+  "t": "city",
+  "n": "Fengxiang",
+  "a": [
+   "Fengxiang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-13608003",
+  "t": "city",
+  "n": "Chongming",
+  "a": [
+   "Chongming"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-13608165",
+  "t": "city",
+  "n": "Kima Kieza",
+  "a": [
+   "Kima Kieza"
+  ],
+  "c": "country:AO"
+ },
+ {
+  "id": "city:geonames-13631350",
+  "t": "city",
+  "n": "Ramiros",
+  "a": [
+   "Ramiros"
+  ],
+  "c": "country:AO"
+ },
+ {
+  "id": "city:geonames-13631351",
+  "t": "city",
+  "n": "Hoji ya Henda",
+  "a": [
+   "Hoji ya Henda"
+  ],
+  "c": "country:AO"
+ },
+ {
+  "id": "city:geonames-13631407",
+  "t": "city",
+  "n": "Abū al-Kahṣīb",
+  "a": [
+   "Abu al-Kahsib",
+   "Abu al-Kahsib"
+  ],
+  "c": "country:IQ"
+ },
+ {
+  "id": "city:geonames-143083",
+  "t": "city",
+  "n": "Ardabīl",
+  "a": [
+   "Ardabil",
+   "Ardabil"
+  ],
+  "c": "country:IR"
+ },
+ {
+  "id": "city:geonames-143860",
+  "t": "city",
+  "n": "Shahrīār",
+  "a": [
+   "Shahriar",
+   "Shahriar"
+  ],
+  "c": "country:IR"
+ },
+ {
+  "id": "city:geonames-145531",
+  "t": "city",
+  "n": "Saurimo",
+  "a": [
+   "Saurimo"
+  ],
+  "c": "country:AO"
+ },
+ {
+  "id": "city:geonames-1462674",
+  "t": "city",
+  "n": "Hāthazāri",
+  "a": [
+   "Hathazari",
+   "Hathazari"
+  ],
+  "c": "country:BD"
+ },
+ {
+  "id": "city:geonames-1488754",
+  "t": "city",
+  "n": "Tyumen",
+  "a": [
+   "Tyumen"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-1489425",
+  "t": "city",
+  "n": "Tomsk",
+  "a": [
+   "Tomsk"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-1490624",
+  "t": "city",
+  "n": "Surgut",
+  "a": [
+   "Surgut"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-1496990",
+  "t": "city",
+  "n": "Novokuznetsk",
+  "a": [
+   "Novokuznetsk"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-149703",
+  "t": "city",
+  "n": "Sumbawanga",
+  "a": [
+   "Sumbawanga"
+  ],
+  "c": "country:TZ"
+ },
+ {
+  "id": "city:geonames-1501321",
+  "t": "city",
+  "n": "Kurgan",
+  "a": [
+   "Kurgan"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-1503901",
+  "t": "city",
+  "n": "Kemerovo",
+  "a": [
+   "Kemerovo"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-1508291",
+  "t": "city",
+  "n": "Chelyabinsk",
+  "a": [
+   "Chelyabinsk"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-1510853",
+  "t": "city",
+  "n": "Barnaul",
+  "a": [
+   "Barnaul"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-1529102",
+  "t": "city",
+  "n": "Ürümqi",
+  "a": [
+   "UEruemqi",
+   "UEruemqi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1529195",
+  "t": "city",
+  "n": "Shihezi",
+  "a": [
+   "Shihezi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1529376",
+  "t": "city",
+  "n": "Korla",
+  "a": [
+   "Korla"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1529660",
+  "t": "city",
+  "n": "Aqsu",
+  "a": [
+   "Aqsu"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1562820",
+  "t": "city",
+  "n": "Việt Trì",
+  "a": [
+   "Viet Tri",
+   "Viet Tri"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-1564064",
+  "t": "city",
+  "n": "Long Bien",
+  "a": [
+   "Long Bien"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-1565019",
+  "t": "city",
+  "n": "Thủ Đức",
+  "a": [
+   "Thu GJuc",
+   "Thu GJuc"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-1565022",
+  "t": "city",
+  "n": "Thủ Dầu Một",
+  "a": [
+   "Thu Dau Mot",
+   "Thu Dau Mot"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-1566166",
+  "t": "city",
+  "n": "Thanh Hóa",
+  "a": [
+   "Thanh Hoa",
+   "Thanh Hoa"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-1566319",
+  "t": "city",
+  "n": "Thái Nguyên",
+  "a": [
+   "Thai Nguyen",
+   "Thai Nguyen"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-1568510",
+  "t": "city",
+  "n": "Rạch Giá",
+  "a": [
+   "Rach Gia",
+   "Rach Gia"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-1568574",
+  "t": "city",
+  "n": "Qui Nhon",
+  "a": [
+   "Qui Nhon"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-1571968",
+  "t": "city",
+  "n": "Hoa Lư",
+  "a": [
+   "Hoa Lu",
+   "Hoa Lu"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-1572532",
+  "t": "city",
+  "n": "Nghi Sơn",
+  "a": [
+   "Nghi Son",
+   "Nghi Son"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-1583518",
+  "t": "city",
+  "n": "Dĩ An",
+  "a": [
+   "Di An",
+   "Di An"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-1588060",
+  "t": "city",
+  "n": "Bến Cát",
+  "a": [
+   "Ben Cat",
+   "Ben Cat"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-1591527",
+  "t": "city",
+  "n": "Bắc Giang",
+  "a": [
+   "Bac Giang",
+   "Bac Giang"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-1594308",
+  "t": "city",
+  "n": "An Nhơn",
+  "a": [
+   "An Nhon",
+   "An Nhon"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-1606590",
+  "t": "city",
+  "n": "Samut Prakan",
+  "a": [
+   "Samut Prakan"
+  ],
+  "c": "country:TH"
+ },
+ {
+  "id": "city:geonames-1621177",
+  "t": "city",
+  "n": "Yogyakarta",
+  "a": [
+   "Yogyakarta"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1622786",
+  "t": "city",
+  "n": "Makassar",
+  "a": [
+   "Makassar"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1624647",
+  "t": "city",
+  "n": "Tasikmalaya",
+  "a": [
+   "Tasikmalaya"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1624917",
+  "t": "city",
+  "n": "Bandar Lampung",
+  "a": [
+   "Bandar Lampung"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1625084",
+  "t": "city",
+  "n": "Tangerang",
+  "a": [
+   "Tangerang"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1625812",
+  "t": "city",
+  "n": "Surakarta",
+  "a": [
+   "Surakarta"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1625822",
+  "t": "city",
+  "n": "Surabaya",
+  "a": [
+   "Surabaya"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1626381",
+  "t": "city",
+  "n": "Sukabumi",
+  "a": [
+   "Sukabumi"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1626801",
+  "t": "city",
+  "n": "Situbondo",
+  "a": [
+   "Situbondo"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1627549",
+  "t": "city",
+  "n": "Serang",
+  "a": [
+   "Serang"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1627896",
+  "t": "city",
+  "n": "Semarang",
+  "a": [
+   "Semarang"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1629001",
+  "t": "city",
+  "n": "Samarinda",
+  "a": [
+   "Samarinda"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1630789",
+  "t": "city",
+  "n": "Pontianak",
+  "a": [
+   "Pontianak"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1631761",
+  "t": "city",
+  "n": "Pekanbaru",
+  "a": [
+   "Pekanbaru"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1631766",
+  "t": "city",
+  "n": "Pekalongan",
+  "a": [
+   "Pekalongan"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1633034",
+  "t": "city",
+  "n": "Palu",
+  "a": [
+   "Palu"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1633070",
+  "t": "city",
+  "n": "Palembang",
+  "a": [
+   "Palembang"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1633118",
+  "t": "city",
+  "n": "Palangkaraya",
+  "a": [
+   "Palangkaraya"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1633419",
+  "t": "city",
+  "n": "Padang",
+  "a": [
+   "Padang"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-163345",
+  "t": "city",
+  "n": "Ţarţūs",
+  "a": [
+   "Tartus",
+   "Tartus"
+  ],
+  "c": "country:SY"
+ },
+ {
+  "id": "city:geonames-1635882",
+  "t": "city",
+  "n": "Mataram",
+  "a": [
+   "Mataram"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1636544",
+  "t": "city",
+  "n": "Manado",
+  "a": [
+   "Manado"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1636722",
+  "t": "city",
+  "n": "Malang",
+  "a": [
+   "Malang"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1640344",
+  "t": "city",
+  "n": "Kendari",
+  "a": [
+   "Kendari"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1640660",
+  "t": "city",
+  "n": "Kediri",
+  "a": [
+   "Kediri"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1641134",
+  "t": "city",
+  "n": "Karawang",
+  "a": [
+   "Karawang"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1642548",
+  "t": "city",
+  "n": "Jepara",
+  "a": [
+   "Jepara"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1642858",
+  "t": "city",
+  "n": "Jambi City",
+  "a": [
+   "Jambi City"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1645133",
+  "t": "city",
+  "n": "Dumai",
+  "a": [
+   "Dumai"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1645524",
+  "t": "city",
+  "n": "Depok",
+  "a": [
+   "Depok"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1645528",
+  "t": "city",
+  "n": "Denpasar",
+  "a": [
+   "Denpasar"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1646170",
+  "t": "city",
+  "n": "Cirebon",
+  "a": [
+   "Cirebon"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1646448",
+  "t": "city",
+  "n": "Cimahi",
+  "a": [
+   "Cimahi"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1646511",
+  "t": "city",
+  "n": "Cilegon",
+  "a": [
+   "Cilegon"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1647003",
+  "t": "city",
+  "n": "Cibinong",
+  "a": [
+   "Cibinong"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1648473",
+  "t": "city",
+  "n": "Bogor",
+  "a": [
+   "Bogor"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1649150",
+  "t": "city",
+  "n": "Bengkulu",
+  "a": [
+   "Bengkulu"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1649378",
+  "t": "city",
+  "n": "Bekasi",
+  "a": [
+   "Bekasi"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1650213",
+  "t": "city",
+  "n": "Banjarmasin",
+  "a": [
+   "Banjarmasin"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1650357",
+  "t": "city",
+  "n": "Bandung",
+  "a": [
+   "Bandung"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1650527",
+  "t": "city",
+  "n": "Balikpapan",
+  "a": [
+   "Balikpapan"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1651531",
+  "t": "city",
+  "n": "Ambon",
+  "a": [
+   "Ambon"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-1673816",
+  "t": "city",
+  "n": "Fengshan",
+  "a": [
+   "Fengshan"
+  ],
+  "c": "country:TW"
+ },
+ {
+  "id": "city:geonames-1673820",
+  "t": "city",
+  "n": "Kaohsiung",
+  "a": [
+   "Kaohsiung"
+  ],
+  "c": "country:TW"
+ },
+ {
+  "id": "city:geonames-1675151",
+  "t": "city",
+  "n": "Hsinchu",
+  "a": [
+   "Hsinchu"
+  ],
+  "c": "country:TW"
+ },
+ {
+  "id": "city:geonames-1678228",
+  "t": "city",
+  "n": "Keelung",
+  "a": [
+   "Keelung"
+  ],
+  "c": "country:TW"
+ },
+ {
+  "id": "city:geonames-1679432",
+  "t": "city",
+  "n": "Zamboanga",
+  "a": [
+   "Zamboanga"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1680102",
+  "t": "city",
+  "n": "Valenzuela",
+  "a": [
+   "Valenzuela"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1682812",
+  "t": "city",
+  "n": "Tarlac City",
+  "a": [
+   "Tarlac City"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1684308",
+  "t": "city",
+  "n": "Taguig",
+  "a": [
+   "Taguig"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1688749",
+  "t": "city",
+  "n": "San Pedro",
+  "a": [
+   "San Pedro"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1688830",
+  "t": "city",
+  "n": "San Pablo",
+  "a": [
+   "San Pablo"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1689395",
+  "t": "city",
+  "n": "San Jose del Monte",
+  "a": [
+   "San Jose del Monte"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1692192",
+  "t": "city",
+  "n": "Quezon City",
+  "a": [
+   "Quezon City"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1694611",
+  "t": "city",
+  "n": "Pasay",
+  "a": [
+   "Pasay"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1694781",
+  "t": "city",
+  "n": "Paranaque City",
+  "a": [
+   "Paranaque City"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1699076",
+  "t": "city",
+  "n": "Muntinlupa",
+  "a": [
+   "Muntinlupa"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1700925",
+  "t": "city",
+  "n": "Marikina City",
+  "a": [
+   "Marikina City"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1701500",
+  "t": "city",
+  "n": "Mansilingan",
+  "a": [
+   "Mansilingan"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1701947",
+  "t": "city",
+  "n": "Mandaue City",
+  "a": [
+   "Mandaue City"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1701966",
+  "t": "city",
+  "n": "Mandaluyong City",
+  "a": [
+   "Mandaluyong City"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1703320",
+  "t": "city",
+  "n": "Malabon",
+  "a": [
+   "Malabon"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1703417",
+  "t": "city",
+  "n": "Makati City",
+  "a": [
+   "Makati City"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1707174",
+  "t": "city",
+  "n": "Las Piñas",
+  "a": [
+   "Las Pinas",
+   "Las Pinas"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1707267",
+  "t": "city",
+  "n": "Lapu-Lapu City",
+  "a": [
+   "Lapu-Lapu City"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1710914",
+  "t": "city",
+  "n": "Imus",
+  "a": [
+   "Imus"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1711005",
+  "t": "city",
+  "n": "Iloilo",
+  "a": [
+   "Iloilo"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1711082",
+  "t": "city",
+  "n": "Iligan City",
+  "a": [
+   "Iligan City"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1711084",
+  "t": "city",
+  "n": "Iligan",
+  "a": [
+   "Iligan"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1713022",
+  "t": "city",
+  "n": "General Santos",
+  "a": [
+   "General Santos"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1715348",
+  "t": "city",
+  "n": "Davao",
+  "a": [
+   "Davao"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1715430",
+  "t": "city",
+  "n": "Dasmariñas",
+  "a": [
+   "Dasmarinas",
+   "Dasmarinas"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1716771",
+  "t": "city",
+  "n": "Cotabato",
+  "a": [
+   "Cotabato"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1717512",
+  "t": "city",
+  "n": "Cebu City",
+  "a": [
+   "Cebu City"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1720151",
+  "t": "city",
+  "n": "Caloocan",
+  "a": [
+   "Caloocan"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1720681",
+  "t": "city",
+  "n": "Calamba",
+  "a": [
+   "Calamba"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1721080",
+  "t": "city",
+  "n": "Cagayan de Oro",
+  "a": [
+   "Cagayan de Oro"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1721281",
+  "t": "city",
+  "n": "Cabuyao",
+  "a": [
+   "Cabuyao"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1721906",
+  "t": "city",
+  "n": "Cabanatuan City",
+  "a": [
+   "Cabanatuan City"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1722186",
+  "t": "city",
+  "n": "Butuan",
+  "a": [
+   "Butuan"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1723510",
+  "t": "city",
+  "n": "Budta",
+  "a": [
+   "Budta"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1729524",
+  "t": "city",
+  "n": "Bacoor",
+  "a": [
+   "Bacoor"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1729564",
+  "t": "city",
+  "n": "Bacolod City",
+  "a": [
+   "Bacolod City"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1730501",
+  "t": "city",
+  "n": "Antipolo",
+  "a": [
+   "Antipolo"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1730737",
+  "t": "city",
+  "n": "Angeles City",
+  "a": [
+   "Angeles City"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-1732722",
+  "t": "city",
+  "n": "Pasir Gudang",
+  "a": [
+   "Pasir Gudang"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-1732724",
+  "t": "city",
+  "n": "Kampung Larkin Lama",
+  "a": [
+   "Kampung Larkin Lama"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-1732747",
+  "t": "city",
+  "n": "Pelentong",
+  "a": [
+   "Pelentong"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-1732752",
+  "t": "city",
+  "n": "Johor Bahru",
+  "a": [
+   "Johor Bahru"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-1732811",
+  "t": "city",
+  "n": "Kluang",
+  "a": [
+   "Kluang"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-1732869",
+  "t": "city",
+  "n": "Muar",
+  "a": [
+   "Muar"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-1733432",
+  "t": "city",
+  "n": "Kota Kinabalu",
+  "a": [
+   "Kota Kinabalu"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-1734199",
+  "t": "city",
+  "n": "Tawau",
+  "a": [
+   "Tawau"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-1735162",
+  "t": "city",
+  "n": "Setapak",
+  "a": [
+   "Setapak"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-1735498",
+  "t": "city",
+  "n": "Sungai Petani",
+  "a": [
+   "Sungai Petani"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-1736309",
+  "t": "city",
+  "n": "Alor Setar",
+  "a": [
+   "Alor Setar"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-1738050",
+  "t": "city",
+  "n": "Miri",
+  "a": [
+   "Miri"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-1749822",
+  "t": "city",
+  "n": "Puchong",
+  "a": [
+   "Puchong"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-1762110",
+  "t": "city",
+  "n": "Kampung Kangkar Teberau",
+  "a": [
+   "Kampung Kangkar Teberau"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-1771023",
+  "t": "city",
+  "n": "Kampung Baru Subang",
+  "a": [
+   "Kampung Baru Subang"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-1783621",
+  "t": "city",
+  "n": "Zunyi",
+  "a": [
+   "Zunyi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1783633",
+  "t": "city",
+  "n": "Zoucheng",
+  "a": [
+   "Zoucheng"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1783683",
+  "t": "city",
+  "n": "Ziyang",
+  "a": [
+   "Ziyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1783745",
+  "t": "city",
+  "n": "Zigong",
+  "a": [
+   "Zigong"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1783763",
+  "t": "city",
+  "n": "Zhuzhou",
+  "a": [
+   "Zhuzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1783873",
+  "t": "city",
+  "n": "Zhumadian",
+  "a": [
+   "Zhumadian"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1783988",
+  "t": "city",
+  "n": "Zhucheng",
+  "a": [
+   "Zhucheng"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1784055",
+  "t": "city",
+  "n": "Zhuanghe",
+  "a": [
+   "Zhuanghe"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1784130",
+  "t": "city",
+  "n": "Zhoukou",
+  "a": [
+   "Zhoukou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1784285",
+  "t": "city",
+  "n": "Zhongwei",
+  "a": [
+   "Zhongwei"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1784642",
+  "t": "city",
+  "n": "Zhenjiang",
+  "a": [
+   "Zhenjiang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1784818",
+  "t": "city",
+  "n": "Yongji",
+  "a": [
+   "Yongji"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1784841",
+  "t": "city",
+  "n": "Zhaotong",
+  "a": [
+   "Zhaotong"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1784853",
+  "t": "city",
+  "n": "Zhaoqing",
+  "a": [
+   "Zhaoqing"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1784990",
+  "t": "city",
+  "n": "Zhanjiang",
+  "a": [
+   "Zhanjiang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1785018",
+  "t": "city",
+  "n": "Zhangzhou",
+  "a": [
+   "Zhangzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1785036",
+  "t": "city",
+  "n": "Zhangye",
+  "a": [
+   "Zhangye"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1785286",
+  "t": "city",
+  "n": "Zibo",
+  "a": [
+   "Zibo"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1785294",
+  "t": "city",
+  "n": "Anyang",
+  "a": [
+   "Anyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1785453",
+  "t": "city",
+  "n": "Zaozhuang",
+  "a": [
+   "Zaozhuang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1785462",
+  "t": "city",
+  "n": "Zaoyang",
+  "a": [
+   "Zaoyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1785623",
+  "t": "city",
+  "n": "Kunshan",
+  "a": [
+   "Kunshan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1785716",
+  "t": "city",
+  "n": "Pizhou",
+  "a": [
+   "Pizhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1785725",
+  "t": "city",
+  "n": "Yunfu",
+  "a": [
+   "Yunfu"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1785738",
+  "t": "city",
+  "n": "Yuncheng",
+  "a": [
+   "Yuncheng"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1785781",
+  "t": "city",
+  "n": "Yulin",
+  "a": [
+   "Yulin"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1786060",
+  "t": "city",
+  "n": "Yuanping",
+  "a": [
+   "Yuanping"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1786112",
+  "t": "city",
+  "n": "Heyuan",
+  "a": [
+   "Heyuan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1786217",
+  "t": "city",
+  "n": "Yongzhou",
+  "a": [
+   "Yongzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1786455",
+  "t": "city",
+  "n": "Yishui",
+  "a": [
+   "Yishui"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1786546",
+  "t": "city",
+  "n": "Zhongxiang",
+  "a": [
+   "Zhongxiang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1786657",
+  "t": "city",
+  "n": "Yinchuan",
+  "a": [
+   "Yinchuan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1786746",
+  "t": "city",
+  "n": "Yichun",
+  "a": [
+   "Yichun"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1786760",
+  "t": "city",
+  "n": "Yixing",
+  "a": [
+   "Yixing"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1786764",
+  "t": "city",
+  "n": "Yichang",
+  "a": [
+   "Yichang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1786770",
+  "t": "city",
+  "n": "Yibin",
+  "a": [
+   "Yibin"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1787031",
+  "t": "city",
+  "n": "Yanzhou",
+  "a": [
+   "Yanzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1787093",
+  "t": "city",
+  "n": "Yantai",
+  "a": [
+   "Yantai"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1787227",
+  "t": "city",
+  "n": "Yangzhou",
+  "a": [
+   "Yangzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1787331",
+  "t": "city",
+  "n": "Zhangjiagang",
+  "a": [
+   "Zhangjiagang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1787351",
+  "t": "city",
+  "n": "Yangquan",
+  "a": [
+   "Yangquan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1787375",
+  "t": "city",
+  "n": "Yangpu",
+  "a": [
+   "Yangpu"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1787746",
+  "t": "city",
+  "n": "Yancheng",
+  "a": [
+   "Yancheng"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1787765",
+  "t": "city",
+  "n": "Yan’an",
+  "a": [
+   "Yan'an",
+   "Yan'an"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1787816",
+  "t": "city",
+  "n": "Ya'an",
+  "a": [
+   "Ya'an"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1787824",
+  "t": "city",
+  "n": "Tongshan",
+  "a": [
+   "Tongshan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1787858",
+  "t": "city",
+  "n": "Shangrao",
+  "a": [
+   "Shangrao"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1787957",
+  "t": "city",
+  "n": "Xuhui",
+  "a": [
+   "Xuhui"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1788046",
+  "t": "city",
+  "n": "Xuchang",
+  "a": [
+   "Xuchang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1788081",
+  "t": "city",
+  "n": "Xuancheng",
+  "a": [
+   "Xuancheng"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1788450",
+  "t": "city",
+  "n": "Xinzhou",
+  "a": [
+   "Xinzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1788508",
+  "t": "city",
+  "n": "Xinyu",
+  "a": [
+   "Xinyu"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1788534",
+  "t": "city",
+  "n": "Xinyang",
+  "a": [
+   "Xinyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1788572",
+  "t": "city",
+  "n": "Xinxiang",
+  "a": [
+   "Xinxiang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1788852",
+  "t": "city",
+  "n": "Xining",
+  "a": [
+   "Xining"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1788927",
+  "t": "city",
+  "n": "Xingtai",
+  "a": [
+   "Xingtai"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1789065",
+  "t": "city",
+  "n": "Ankang",
+  "a": [
+   "Ankang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1789176",
+  "t": "city",
+  "n": "Feicheng",
+  "a": [
+   "Feicheng"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1789262",
+  "t": "city",
+  "n": "Xinyi",
+  "a": [
+   "Xinyi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1789647",
+  "t": "city",
+  "n": "Xichang",
+  "a": [
+   "Xichang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1790254",
+  "t": "city",
+  "n": "Xiaogan",
+  "a": [
+   "Xiaogan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1790353",
+  "t": "city",
+  "n": "Xianyang",
+  "a": [
+   "Xianyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1790396",
+  "t": "city",
+  "n": "Xianning",
+  "a": [
+   "Xianning"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1790437",
+  "t": "city",
+  "n": "Zhuhai",
+  "a": [
+   "Zhuhai"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1790492",
+  "t": "city",
+  "n": "Xiangtan",
+  "a": [
+   "Xiangtan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1790587",
+  "t": "city",
+  "n": "Xiangyang",
+  "a": [
+   "Xiangyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1790645",
+  "t": "city",
+  "n": "Xiamen",
+  "a": [
+   "Xiamen"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1790840",
+  "t": "city",
+  "n": "Wuzhou",
+  "a": [
+   "Wuzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1790842",
+  "t": "city",
+  "n": "Wuzhong",
+  "a": [
+   "Wuzhong"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1790923",
+  "t": "city",
+  "n": "Wuxi",
+  "a": [
+   "Wuxi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1791121",
+  "t": "city",
+  "n": "Changde",
+  "a": [
+   "Changde"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1791236",
+  "t": "city",
+  "n": "Wuhu",
+  "a": [
+   "Wuhu"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1791388",
+  "t": "city",
+  "n": "Wenzhou",
+  "a": [
+   "Wenzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1791544",
+  "t": "city",
+  "n": "Wenchang",
+  "a": [
+   "Wenchang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1791636",
+  "t": "city",
+  "n": "Weinan",
+  "a": [
+   "Weinan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1791673",
+  "t": "city",
+  "n": "Weihai",
+  "a": [
+   "Weihai"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1791681",
+  "t": "city",
+  "n": "Weifang",
+  "a": [
+   "Weifang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1791748",
+  "t": "city",
+  "n": "Wanxian",
+  "a": [
+   "Wanxian"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1791779",
+  "t": "city",
+  "n": "Wanning",
+  "a": [
+   "Wanning"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1792260",
+  "t": "city",
+  "n": "Wafangdian",
+  "a": [
+   "Wafangdian"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1792359",
+  "t": "city",
+  "n": "Huangshan",
+  "a": [
+   "Huangshan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1792621",
+  "t": "city",
+  "n": "Tongling",
+  "a": [
+   "Tongling"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1792892",
+  "t": "city",
+  "n": "Tianshui",
+  "a": [
+   "Tianshui"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1793036",
+  "t": "city",
+  "n": "Chengtangcun",
+  "a": [
+   "Chengtangcun"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1793346",
+  "t": "city",
+  "n": "Tangshan",
+  "a": [
+   "Tangshan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1793424",
+  "t": "city",
+  "n": "Tanggu",
+  "a": [
+   "Tanggu"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1793505",
+  "t": "city",
+  "n": "Taizhou",
+  "a": [
+   "Taizhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1793511",
+  "t": "city",
+  "n": "Taiyuan",
+  "a": [
+   "Taiyuan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1793703",
+  "t": "city",
+  "n": "Taicang",
+  "a": [
+   "Taicang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1793724",
+  "t": "city",
+  "n": "Tai’an",
+  "a": [
+   "Tai'an",
+   "Tai'an"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1793743",
+  "t": "city",
+  "n": "Suzhou",
+  "a": [
+   "Suzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1793771",
+  "t": "city",
+  "n": "Suqian",
+  "a": [
+   "Suqian"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1793879",
+  "t": "city",
+  "n": "Suizhou",
+  "a": [
+   "Suizhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1793900",
+  "t": "city",
+  "n": "Suining",
+  "a": [
+   "Suining"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1794035",
+  "t": "city",
+  "n": "Songjiang",
+  "a": [
+   "Songjiang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1794140",
+  "t": "city",
+  "n": "Sishui",
+  "a": [
+   "Sishui"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1794328",
+  "t": "city",
+  "n": "Shuozhou",
+  "a": [
+   "Shuozhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1794479",
+  "t": "city",
+  "n": "Laixi",
+  "a": [
+   "Laixi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1794794",
+  "t": "city",
+  "n": "Shouguang",
+  "a": [
+   "Shouguang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1794903",
+  "t": "city",
+  "n": "Shiyan",
+  "a": [
+   "Shiyan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1795855",
+  "t": "city",
+  "n": "Shaoxing",
+  "a": [
+   "Shaoxing"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1795874",
+  "t": "city",
+  "n": "Shaoguan",
+  "a": [
+   "Shaoguan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1795928",
+  "t": "city",
+  "n": "Shanwei",
+  "a": [
+   "Shanwei"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1795940",
+  "t": "city",
+  "n": "Shantou",
+  "a": [
+   "Shantou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1796068",
+  "t": "city",
+  "n": "Shangluo",
+  "a": [
+   "Shangluo"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1796134",
+  "t": "city",
+  "n": "Shangqiu",
+  "a": [
+   "Shangqiu"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1796556",
+  "t": "city",
+  "n": "Sanya",
+  "a": [
+   "Sanya"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1796663",
+  "t": "city",
+  "n": "Sanming",
+  "a": [
+   "Sanming"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1796669",
+  "t": "city",
+  "n": "Sanmenxia",
+  "a": [
+   "Sanmenxia"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1796823",
+  "t": "city",
+  "n": "Sanhe",
+  "a": [
+   "Sanhe"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1796989",
+  "t": "city",
+  "n": "Changsha",
+  "a": [
+   "Changsha"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1797063",
+  "t": "city",
+  "n": "Rui’an",
+  "a": [
+   "Rui'an",
+   "Rui'an"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1797121",
+  "t": "city",
+  "n": "Jieyang",
+  "a": [
+   "Jieyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1797264",
+  "t": "city",
+  "n": "Quzhou",
+  "a": [
+   "Quzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1797318",
+  "t": "city",
+  "n": "Qujing",
+  "a": [
+   "Qujing"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1797353",
+  "t": "city",
+  "n": "Quanzhou",
+  "a": [
+   "Quanzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1797551",
+  "t": "city",
+  "n": "Qinzhou",
+  "a": [
+   "Qinzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1797595",
+  "t": "city",
+  "n": "Qinhuangdao",
+  "a": [
+   "Qinhuangdao"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1797658",
+  "t": "city",
+  "n": "Jinjiang",
+  "a": [
+   "Jinjiang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1797798",
+  "t": "city",
+  "n": "Qingpu",
+  "a": [
+   "Qingpu"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1797873",
+  "t": "city",
+  "n": "Huai'an",
+  "a": [
+   "Huai'an"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1797945",
+  "t": "city",
+  "n": "Qingyuan",
+  "a": [
+   "Qingyuan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1798425",
+  "t": "city",
+  "n": "Puyang",
+  "a": [
+   "Puyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1798439",
+  "t": "city",
+  "n": "Putuo",
+  "a": [
+   "Putuo"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1798449",
+  "t": "city",
+  "n": "Putian",
+  "a": [
+   "Putian"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1798524",
+  "t": "city",
+  "n": "Pudong",
+  "a": [
+   "Pudong"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1798632",
+  "t": "city",
+  "n": "Pingyin",
+  "a": [
+   "Pingyin"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1798654",
+  "t": "city",
+  "n": "Pingxiang",
+  "a": [
+   "Pingxiang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1798760",
+  "t": "city",
+  "n": "Pingliang",
+  "a": [
+   "Pingliang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1798821",
+  "t": "city",
+  "n": "Pingdu",
+  "a": [
+   "Pingdu"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1798827",
+  "t": "city",
+  "n": "Pingdingshan",
+  "a": [
+   "Pingdingshan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1798900",
+  "t": "city",
+  "n": "Pengze",
+  "a": [
+   "Pengze"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1799194",
+  "t": "city",
+  "n": "Guang’an",
+  "a": [
+   "Guang'an",
+   "Guang'an"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1799397",
+  "t": "city",
+  "n": "Ningbo",
+  "a": [
+   "Ningbo"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1799491",
+  "t": "city",
+  "n": "Neijiang",
+  "a": [
+   "Neijiang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1799629",
+  "t": "city",
+  "n": "Nanyang",
+  "a": [
+   "Nanyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1799722",
+  "t": "city",
+  "n": "Nantong",
+  "a": [
+   "Nantong"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1799823",
+  "t": "city",
+  "n": "Nanqiao",
+  "a": [
+   "Nanqiao"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1799846",
+  "t": "city",
+  "n": "Nanping",
+  "a": [
+   "Nanping"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1799869",
+  "t": "city",
+  "n": "Nanning",
+  "a": [
+   "Nanning"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1799962",
+  "t": "city",
+  "n": "Nanjing",
+  "a": [
+   "Nanjing"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1800146",
+  "t": "city",
+  "n": "Nanchong",
+  "a": [
+   "Nanchong"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1800163",
+  "t": "city",
+  "n": "Nanchang",
+  "a": [
+   "Nanchang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1800480",
+  "t": "city",
+  "n": "Minhang",
+  "a": [
+   "Minhang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1800519",
+  "t": "city",
+  "n": "Mingguang",
+  "a": [
+   "Mingguang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1800627",
+  "t": "city",
+  "n": "Mianyang",
+  "a": [
+   "Mianyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1800779",
+  "t": "city",
+  "n": "Meizhou",
+  "a": [
+   "Meizhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1800818",
+  "t": "city",
+  "n": "Meishan",
+  "a": [
+   "Meishan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1800829",
+  "t": "city",
+  "n": "Wuchuan",
+  "a": [
+   "Wuchuan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1801180",
+  "t": "city",
+  "n": "Maoming",
+  "a": [
+   "Maoming"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1801455",
+  "t": "city",
+  "n": "Zhijiang",
+  "a": [
+   "Zhijiang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1801582",
+  "t": "city",
+  "n": "Macheng",
+  "a": [
+   "Macheng"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1801620",
+  "t": "city",
+  "n": "Ma’anshan",
+  "a": [
+   "Ma'anshan",
+   "Ma'anshan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1801640",
+  "t": "city",
+  "n": "Luzhou",
+  "a": [
+   "Luzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1801792",
+  "t": "city",
+  "n": "Luoyang",
+  "a": [
+   "Luoyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1801934",
+  "t": "city",
+  "n": "Luohe",
+  "a": [
+   "Luohe"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1802204",
+  "t": "city",
+  "n": "Luancheng",
+  "a": [
+   "Luancheng"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1802206",
+  "t": "city",
+  "n": "Lu’an",
+  "a": [
+   "Lu'an",
+   "Lu'an"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1802238",
+  "t": "city",
+  "n": "Loudi",
+  "a": [
+   "Loudi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1802276",
+  "t": "city",
+  "n": "Longyan",
+  "a": [
+   "Longyan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1802875",
+  "t": "city",
+  "n": "Guankou",
+  "a": [
+   "Guankou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1802940",
+  "t": "city",
+  "n": "Puning",
+  "a": [
+   "Puning"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1803245",
+  "t": "city",
+  "n": "Lishui",
+  "a": [
+   "Lishui"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1803300",
+  "t": "city",
+  "n": "Liuzhou",
+  "a": [
+   "Liuzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1803318",
+  "t": "city",
+  "n": "Linyi",
+  "a": [
+   "Linyi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1803567",
+  "t": "city",
+  "n": "Linfen",
+  "a": [
+   "Linfen"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1803590",
+  "t": "city",
+  "n": "Lincang",
+  "a": [
+   "Lincang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1803834",
+  "t": "city",
+  "n": "Liaocheng",
+  "a": [
+   "Liaocheng"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1803936",
+  "t": "city",
+  "n": "Wuwei",
+  "a": [
+   "Wuwei"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1804120",
+  "t": "city",
+  "n": "Lianjiang",
+  "a": [
+   "Lianjiang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1804153",
+  "t": "city",
+  "n": "Leshan",
+  "a": [
+   "Leshan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1804430",
+  "t": "city",
+  "n": "Lanzhou",
+  "a": [
+   "Lanzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1804540",
+  "t": "city",
+  "n": "Langfang",
+  "a": [
+   "Langfang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1804586",
+  "t": "city",
+  "n": "Laiyang",
+  "a": [
+   "Laiyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1804591",
+  "t": "city",
+  "n": "Laiwu",
+  "a": [
+   "Laiwu"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1804609",
+  "t": "city",
+  "n": "Laibin",
+  "a": [
+   "Laibin"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1804651",
+  "t": "city",
+  "n": "Kunming",
+  "a": [
+   "Kunming"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1804879",
+  "t": "city",
+  "n": "Kaifeng",
+  "a": [
+   "Kaifeng"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1805029",
+  "t": "city",
+  "n": "Jizhou",
+  "a": [
+   "Jizhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1805179",
+  "t": "city",
+  "n": "Jiujiang",
+  "a": [
+   "Jiujiang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1805518",
+  "t": "city",
+  "n": "Jining",
+  "a": [
+   "Jining"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1805528",
+  "t": "city",
+  "n": "Jinhua",
+  "a": [
+   "Jinhua"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1805540",
+  "t": "city",
+  "n": "Jingzhou",
+  "a": [
+   "Jingzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1805611",
+  "t": "city",
+  "n": "Jingmen",
+  "a": [
+   "Jingmen"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1805680",
+  "t": "city",
+  "n": "Jingdezhen",
+  "a": [
+   "Jingdezhen"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1805741",
+  "t": "city",
+  "n": "Jincheng",
+  "a": [
+   "Jincheng"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1805753",
+  "t": "city",
+  "n": "Jinan",
+  "a": [
+   "Jinan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1805953",
+  "t": "city",
+  "n": "Jiaxing",
+  "a": [
+   "Jiaxing"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1805987",
+  "t": "city",
+  "n": "Jiaozuo",
+  "a": [
+   "Jiaozuo"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1806096",
+  "t": "city",
+  "n": "Jiaozhou",
+  "a": [
+   "Jiaozhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1806097",
+  "t": "city",
+  "n": "Ningde",
+  "a": [
+   "Ningde"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1806299",
+  "t": "city",
+  "n": "Jiangmen",
+  "a": [
+   "Jiangmen"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1806408",
+  "t": "city",
+  "n": "Yangjiang",
+  "a": [
+   "Yangjiang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1806445",
+  "t": "city",
+  "n": "Ji’an",
+  "a": [
+   "Ji'an",
+   "Ji'an"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1806466",
+  "t": "city",
+  "n": "Guangyuan",
+  "a": [
+   "Guangyuan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1806488",
+  "t": "city",
+  "n": "Qionghai",
+  "a": [
+   "Qionghai"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1806508",
+  "t": "city",
+  "n": "Jiading",
+  "a": [
+   "Jiading"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1806535",
+  "t": "city",
+  "n": "Huzhou",
+  "a": [
+   "Huzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1806602",
+  "t": "city",
+  "n": "Cixi",
+  "a": [
+   "Cixi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1806776",
+  "t": "city",
+  "n": "Huizhou",
+  "a": [
+   "Huizhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1807234",
+  "t": "city",
+  "n": "Huangshi",
+  "a": [
+   "Huangshi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1807566",
+  "t": "city",
+  "n": "Xingyi",
+  "a": [
+   "Xingyi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1807681",
+  "t": "city",
+  "n": "Huainan",
+  "a": [
+   "Huainan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1807689",
+  "t": "city",
+  "n": "Huaihua",
+  "a": [
+   "Huaihua"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1807700",
+  "t": "city",
+  "n": "Huaibei",
+  "a": [
+   "Huaibei"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1808090",
+  "t": "city",
+  "n": "Hongkou",
+  "a": [
+   "Hongkou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1808106",
+  "t": "city",
+  "n": "Hongjiang",
+  "a": [
+   "Hongjiang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1808198",
+  "t": "city",
+  "n": "Heze",
+  "a": [
+   "Heze"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1808212",
+  "t": "city",
+  "n": "Hechuan",
+  "a": [
+   "Hechuan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1808316",
+  "t": "city",
+  "n": "Heshan",
+  "a": [
+   "Heshan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1808370",
+  "t": "city",
+  "n": "Hengyang",
+  "a": [
+   "Hengyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1808392",
+  "t": "city",
+  "n": "Hengshui",
+  "a": [
+   "Hengshui"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1808722",
+  "t": "city",
+  "n": "Hefei",
+  "a": [
+   "Hefei"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1808747",
+  "t": "city",
+  "n": "Hecun",
+  "a": [
+   "Hecun"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1808770",
+  "t": "city",
+  "n": "Hebi",
+  "a": [
+   "Hebi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1808857",
+  "t": "city",
+  "n": "Hanzhong",
+  "a": [
+   "Hanzhong"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1808956",
+  "t": "city",
+  "n": "Changzhi",
+  "a": [
+   "Changzhi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1808963",
+  "t": "city",
+  "n": "Handan",
+  "a": [
+   "Handan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1808981",
+  "t": "city",
+  "n": "Hancheng",
+  "a": [
+   "Hancheng"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1809078",
+  "t": "city",
+  "n": "Haikou",
+  "a": [
+   "Haikou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1809152",
+  "t": "city",
+  "n": "Guyuan",
+  "a": [
+   "Guyuan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1809412",
+  "t": "city",
+  "n": "Guli",
+  "a": [
+   "Guli"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1809461",
+  "t": "city",
+  "n": "Guiyang",
+  "a": [
+   "Guiyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1809498",
+  "t": "city",
+  "n": "Guilin",
+  "a": [
+   "Guilin"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1809532",
+  "t": "city",
+  "n": "Guigang",
+  "a": [
+   "Guigang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-181032",
+  "t": "city",
+  "n": "Ruiru",
+  "a": [
+   "Ruiru"
+  ],
+  "c": "country:KE"
+ },
+ {
+  "id": "city:geonames-1810458",
+  "t": "city",
+  "n": "Gaomi",
+  "a": [
+   "Gaomi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1810638",
+  "t": "city",
+  "n": "Ganzhou",
+  "a": [
+   "Ganzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1810820",
+  "t": "city",
+  "n": "Fuzhou",
+  "a": [
+   "Fuzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1810821",
+  "t": "city",
+  "n": "Fuzhou",
+  "a": [
+   "Fuzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1810845",
+  "t": "city",
+  "n": "Fuyang",
+  "a": [
+   "Fuyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1811103",
+  "t": "city",
+  "n": "Foshan",
+  "a": [
+   "Foshan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1812057",
+  "t": "city",
+  "n": "Xinyi",
+  "a": [
+   "Xinyi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1812101",
+  "t": "city",
+  "n": "Dongying",
+  "a": [
+   "Dongying"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1812256",
+  "t": "city",
+  "n": "Dongsheng",
+  "a": [
+   "Dongsheng"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1812621",
+  "t": "city",
+  "n": "Dongcun",
+  "a": [
+   "Dongcun"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1812749",
+  "t": "city",
+  "n": "Dingxi",
+  "a": [
+   "Dingxi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1812955",
+  "t": "city",
+  "n": "Dezhou",
+  "a": [
+   "Dezhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1812961",
+  "t": "city",
+  "n": "Deyang",
+  "a": [
+   "Deyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1813171",
+  "t": "city",
+  "n": "Zhangjiajie",
+  "a": [
+   "Zhangjiajie"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1813206",
+  "t": "city",
+  "n": "Daye",
+  "a": [
+   "Daye"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1813325",
+  "t": "city",
+  "n": "Dazhou",
+  "a": [
+   "Dazhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1814087",
+  "t": "city",
+  "n": "Dalian",
+  "a": [
+   "Dalian"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1814544",
+  "t": "city",
+  "n": "Dachang",
+  "a": [
+   "Dachang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1814757",
+  "t": "city",
+  "n": "Chuzhou",
+  "a": [
+   "Chuzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1814760",
+  "t": "city",
+  "n": "Chuxiong",
+  "a": [
+   "Chuxiong"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1814870",
+  "t": "city",
+  "n": "Yiwu",
+  "a": [
+   "Yiwu"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1814906",
+  "t": "city",
+  "n": "Chongqing",
+  "a": [
+   "Chongqing"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1814934",
+  "t": "city",
+  "n": "Chizhou",
+  "a": [
+   "Chizhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1815059",
+  "t": "city",
+  "n": "Chenzhou",
+  "a": [
+   "Chenzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1815251",
+  "t": "city",
+  "n": "Jiangyin",
+  "a": [
+   "Jiangyin"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1815395",
+  "t": "city",
+  "n": "Chaozhou",
+  "a": [
+   "Chaozhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1815456",
+  "t": "city",
+  "n": "Changzhou",
+  "a": [
+   "Changzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1815463",
+  "t": "city",
+  "n": "Changzhi",
+  "a": [
+   "Changzhi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1815482",
+  "t": "city",
+  "n": "Changyi",
+  "a": [
+   "Changyi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1815577",
+  "t": "city",
+  "n": "Changsha",
+  "a": [
+   "Changsha"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1815611",
+  "t": "city",
+  "n": "Changning",
+  "a": [
+   "Changning"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1816080",
+  "t": "city",
+  "n": "Cangzhou",
+  "a": [
+   "Cangzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1816234",
+  "t": "city",
+  "n": "Bozhou",
+  "a": [
+   "Bozhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1816269",
+  "t": "city",
+  "n": "Baise",
+  "a": [
+   "Baise"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1816336",
+  "t": "city",
+  "n": "Binzhou",
+  "a": [
+   "Binzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1816373",
+  "t": "city",
+  "n": "Bijie",
+  "a": [
+   "Bijie"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1816440",
+  "t": "city",
+  "n": "Bengbu",
+  "a": [
+   "Bengbu"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1816705",
+  "t": "city",
+  "n": "Beihai",
+  "a": [
+   "Beihai"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1816858",
+  "t": "city",
+  "n": "Basuo",
+  "a": [
+   "Basuo"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1816917",
+  "t": "city",
+  "n": "Baoshan",
+  "a": [
+   "Baoshan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1816920",
+  "t": "city",
+  "n": "Shaoyang",
+  "a": [
+   "Shaoyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1817720",
+  "t": "city",
+  "n": "Shangyu",
+  "a": [
+   "Shangyu"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1817968",
+  "t": "city",
+  "n": "Anshun",
+  "a": [
+   "Anshun"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1817990",
+  "t": "city",
+  "n": "Anqiu",
+  "a": [
+   "Anqiu"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1817993",
+  "t": "city",
+  "n": "Anqing",
+  "a": [
+   "Anqing"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1818209",
+  "t": "city",
+  "n": "Tsuen Wan",
+  "a": [
+   "Tsuen Wan"
+  ],
+  "c": "country:HK"
+ },
+ {
+  "id": "city:geonames-1818304",
+  "t": "city",
+  "n": "Wong Tai Sin",
+  "a": [
+   "Wong Tai Sin"
+  ],
+  "c": "country:HK"
+ },
+ {
+  "id": "city:geonames-1818446",
+  "t": "city",
+  "n": "Tuen Mun",
+  "a": [
+   "Tuen Mun"
+  ],
+  "c": "country:HK"
+ },
+ {
+  "id": "city:geonames-1818506",
+  "t": "city",
+  "n": "Tseung Kwan O",
+  "a": [
+   "Tseung Kwan O"
+  ],
+  "c": "country:HK"
+ },
+ {
+  "id": "city:geonames-1818920",
+  "t": "city",
+  "n": "Sha Tin",
+  "a": [
+   "Sha Tin"
+  ],
+  "c": "country:HK"
+ },
+ {
+  "id": "city:geonames-1818953",
+  "t": "city",
+  "n": "Sham Shui Po",
+  "a": [
+   "Sham Shui Po"
+  ],
+  "c": "country:HK"
+ },
+ {
+  "id": "city:geonames-1819595",
+  "t": "city",
+  "n": "Kwai Chung",
+  "a": [
+   "Kwai Chung"
+  ],
+  "c": "country:HK"
+ },
+ {
+  "id": "city:geonames-1819607",
+  "t": "city",
+  "n": "Kowloon City",
+  "a": [
+   "Kowloon City"
+  ],
+  "c": "country:HK"
+ },
+ {
+  "id": "city:geonames-1819729",
+  "t": "city",
+  "n": "Hong Kong",
+  "a": [
+   "Hong Kong"
+  ],
+  "c": "country:HK"
+ },
+ {
+  "id": "city:geonames-1821274",
+  "t": "city",
+  "n": "Macau",
+  "a": [
+   "Macau"
+  ],
+  "c": "country:MO"
+ },
+ {
+  "id": "city:geonames-1821940",
+  "t": "city",
+  "n": "Takeo",
+  "a": [
+   "Takeo"
+  ],
+  "c": "country:KH"
+ },
+ {
+  "id": "city:geonames-1832828",
+  "t": "city",
+  "n": "Yangsan",
+  "a": [
+   "Yangsan"
+  ],
+  "c": "country:KR"
+ },
+ {
+  "id": "city:geonames-1833105",
+  "t": "city",
+  "n": "Wŏnju",
+  "a": [
+   "Wonju",
+   "Wonju"
+  ],
+  "c": "country:KR"
+ },
+ {
+  "id": "city:geonames-1833788",
+  "t": "city",
+  "n": "Uijeongbu-si",
+  "a": [
+   "Uijeongbu-si"
+  ],
+  "c": "country:KR"
+ },
+ {
+  "id": "city:geonames-1838716",
+  "t": "city",
+  "n": "Bucheon-si",
+  "a": [
+   "Bucheon-si"
+  ],
+  "c": "country:KR"
+ },
+ {
+  "id": "city:geonames-1839071",
+  "t": "city",
+  "n": "Pohang",
+  "a": [
+   "Pohang"
+  ],
+  "c": "country:KR"
+ },
+ {
+  "id": "city:geonames-1840898",
+  "t": "city",
+  "n": "Paju",
+  "a": [
+   "Paju"
+  ],
+  "c": "country:KR"
+ },
+ {
+  "id": "city:geonames-1841246",
+  "t": "city",
+  "n": "Masan",
+  "a": [
+   "Masan"
+  ],
+  "c": "country:KR"
+ },
+ {
+  "id": "city:geonames-1842225",
+  "t": "city",
+  "n": "Gumi",
+  "a": [
+   "Gumi"
+  ],
+  "c": "country:KR"
+ },
+ {
+  "id": "city:geonames-1842943",
+  "t": "city",
+  "n": "Kimhae",
+  "a": [
+   "Kimhae"
+  ],
+  "c": "country:KR"
+ },
+ {
+  "id": "city:geonames-1843491",
+  "t": "city",
+  "n": "Iksan",
+  "a": [
+   "Iksan"
+  ],
+  "c": "country:KR"
+ },
+ {
+  "id": "city:geonames-1843564",
+  "t": "city",
+  "n": "Incheon",
+  "a": [
+   "Incheon"
+  ],
+  "c": "country:KR"
+ },
+ {
+  "id": "city:geonames-1843847",
+  "t": "city",
+  "n": "Hwaseong-si",
+  "a": [
+   "Hwaseong-si"
+  ],
+  "c": "country:KR"
+ },
+ {
+  "id": "city:geonames-1845759",
+  "t": "city",
+  "n": "Cheonan",
+  "a": [
+   "Cheonan"
+  ],
+  "c": "country:KR"
+ },
+ {
+  "id": "city:geonames-1846052",
+  "t": "city",
+  "n": "Chinju",
+  "a": [
+   "Chinju"
+  ],
+  "c": "country:KR"
+ },
+ {
+  "id": "city:geonames-184622",
+  "t": "city",
+  "n": "Nakuru",
+  "a": [
+   "Nakuru"
+  ],
+  "c": "country:KE"
+ },
+ {
+  "id": "city:geonames-1846326",
+  "t": "city",
+  "n": "Changwon",
+  "a": [
+   "Changwon"
+  ],
+  "c": "country:KR"
+ },
+ {
+  "id": "city:geonames-1846898",
+  "t": "city",
+  "n": "Anyang-si",
+  "a": [
+   "Anyang-si"
+  ],
+  "c": "country:KR"
+ },
+ {
+  "id": "city:geonames-1847966",
+  "t": "city",
+  "n": "Akashi",
+  "a": [
+   "Akashi"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1848313",
+  "t": "city",
+  "n": "Yokosuka",
+  "a": [
+   "Yokosuka"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1848354",
+  "t": "city",
+  "n": "Yokohama",
+  "a": [
+   "Yokohama"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1848373",
+  "t": "city",
+  "n": "Yokkaichi",
+  "a": [
+   "Yokkaichi"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1849053",
+  "t": "city",
+  "n": "Utsunomiya",
+  "a": [
+   "Utsunomiya"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1849814",
+  "t": "city",
+  "n": "Toyota",
+  "a": [
+   "Toyota"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1849837",
+  "t": "city",
+  "n": "Toyonaka",
+  "a": [
+   "Toyonaka"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1849846",
+  "t": "city",
+  "n": "Toyohashi",
+  "a": [
+   "Toyohashi"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1849876",
+  "t": "city",
+  "n": "Toyama",
+  "a": [
+   "Toyama"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1850181",
+  "t": "city",
+  "n": "Tokorozawa",
+  "a": [
+   "Tokorozawa"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1850910",
+  "t": "city",
+  "n": "Takatsuki",
+  "a": [
+   "Takatsuki"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1851002",
+  "t": "city",
+  "n": "Takasaki",
+  "a": [
+   "Takasaki"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1851100",
+  "t": "city",
+  "n": "Takamatsu",
+  "a": [
+   "Takamatsu"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1851483",
+  "t": "city",
+  "n": "Suita",
+  "a": [
+   "Suita"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1851717",
+  "t": "city",
+  "n": "Shizuoka",
+  "a": [
+   "Shizuoka"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1852139",
+  "t": "city",
+  "n": "Shinagawa",
+  "a": [
+   "Shinagawa"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1852383",
+  "t": "city",
+  "n": "Minato",
+  "a": [
+   "Minato"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1853574",
+  "t": "city",
+  "n": "Ōtsu",
+  "a": [
+   "Otsu",
+   "Otsu"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1854376",
+  "t": "city",
+  "n": "Okazaki",
+  "a": [
+   "Okazaki"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1854383",
+  "t": "city",
+  "n": "Okayama",
+  "a": [
+   "Okayama"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1854487",
+  "t": "city",
+  "n": "Ōita",
+  "a": [
+   "Oita",
+   "Oita"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1855207",
+  "t": "city",
+  "n": "Nishinomiya",
+  "a": [
+   "Nishinomiya"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1855612",
+  "t": "city",
+  "n": "Nara-shi",
+  "a": [
+   "Nara-shi"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1856035",
+  "t": "city",
+  "n": "Naha",
+  "a": [
+   "Naha"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1856057",
+  "t": "city",
+  "n": "Nagoya",
+  "a": [
+   "Nagoya"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1856177",
+  "t": "city",
+  "n": "Nagasaki",
+  "a": [
+   "Nagasaki"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1856215",
+  "t": "city",
+  "n": "Nagano",
+  "a": [
+   "Nagano"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1856717",
+  "t": "city",
+  "n": "Miyazaki",
+  "a": [
+   "Miyazaki"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1857553",
+  "t": "city",
+  "n": "Matsudo",
+  "a": [
+   "Matsudo"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1857843",
+  "t": "city",
+  "n": "Maebashi",
+  "a": [
+   "Maebashi"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1857871",
+  "t": "city",
+  "n": "Machida",
+  "a": [
+   "Machida"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1858088",
+  "t": "city",
+  "n": "Kurume",
+  "a": [
+   "Kurume"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1858311",
+  "t": "city",
+  "n": "Kurashiki",
+  "a": [
+   "Kurashiki"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1858729",
+  "t": "city",
+  "n": "Koshigaya",
+  "a": [
+   "Koshigaya"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1859146",
+  "t": "city",
+  "n": "Kochi",
+  "a": [
+   "Kochi"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1859642",
+  "t": "city",
+  "n": "Kawasaki",
+  "a": [
+   "Kawasaki"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1859730",
+  "t": "city",
+  "n": "Kawaguchi",
+  "a": [
+   "Kawaguchi"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1859740",
+  "t": "city",
+  "n": "Kawagoe",
+  "a": [
+   "Kawagoe"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1859891",
+  "t": "city",
+  "n": "Kasugai",
+  "a": [
+   "Kasugai"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1859924",
+  "t": "city",
+  "n": "Kashiwa",
+  "a": [
+   "Kashiwa"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1860243",
+  "t": "city",
+  "n": "Kanazawa",
+  "a": [
+   "Kanazawa"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1860827",
+  "t": "city",
+  "n": "Kagoshima",
+  "a": [
+   "Kagoshima"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1861949",
+  "t": "city",
+  "n": "Ichinomiya",
+  "a": [
+   "Ichinomiya"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1862540",
+  "t": "city",
+  "n": "Hirakata",
+  "a": [
+   "Hirakata"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1862627",
+  "t": "city",
+  "n": "Himeji",
+  "a": [
+   "Himeji"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1862752",
+  "t": "city",
+  "n": "Higashiosaka",
+  "a": [
+   "Higashiosaka"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1863440",
+  "t": "city",
+  "n": "Hachiōji",
+  "a": [
+   "Hachioji",
+   "Hachioji"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1863641",
+  "t": "city",
+  "n": "Gifu",
+  "a": [
+   "Gifu"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1863917",
+  "t": "city",
+  "n": "Fukuyama",
+  "a": [
+   "Fukuyama"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1864092",
+  "t": "city",
+  "n": "Fujisawa",
+  "a": [
+   "Fujisawa"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1865387",
+  "t": "city",
+  "n": "Amagasaki",
+  "a": [
+   "Amagasaki"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1874533",
+  "t": "city",
+  "n": "Man’gyŏngdae-ri",
+  "a": [
+   "Man'gyongdae-ri",
+   "Man'gyongdae-ri"
+  ],
+  "c": "country:KP"
+ },
+ {
+  "id": "city:geonames-1876373",
+  "t": "city",
+  "n": "Kaesŏng",
+  "a": [
+   "Kaesong",
+   "Kaesong"
+  ],
+  "c": "country:KP"
+ },
+ {
+  "id": "city:geonames-1877030",
+  "t": "city",
+  "n": "Hŭngnam",
+  "a": [
+   "Hungnam",
+   "Hungnam"
+  ],
+  "c": "country:KP"
+ },
+ {
+  "id": "city:geonames-1886762",
+  "t": "city",
+  "n": "Zhoushan",
+  "a": [
+   "Zhoushan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1909733",
+  "t": "city",
+  "n": "Banan",
+  "a": [
+   "Banan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1913154",
+  "t": "city",
+  "n": "Tanzhou",
+  "a": [
+   "Tanzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-192126",
+  "t": "city",
+  "n": "Kikuyu",
+  "a": [
+   "Kikuyu"
+  ],
+  "c": "country:KE"
+ },
+ {
+  "id": "city:geonames-1926004",
+  "t": "city",
+  "n": "Wakayama",
+  "a": [
+   "Wakayama"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1926099",
+  "t": "city",
+  "n": "Matsuyama",
+  "a": [
+   "Matsuyama"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-1927639",
+  "t": "city",
+  "n": "Yueyang",
+  "a": [
+   "Yueyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-1931681",
+  "t": "city",
+  "n": "Victoria",
+  "a": [
+   "Victoria"
+  ],
+  "c": "country:HK"
+ },
+ {
+  "id": "city:geonames-1948005",
+  "t": "city",
+  "n": "Gwangmyeong",
+  "a": [
+   "Gwangmyeong"
+  ],
+  "c": "country:KR"
+ },
+ {
+  "id": "city:geonames-195272",
+  "t": "city",
+  "n": "Kakamega",
+  "a": [
+   "Kakamega"
+  ],
+  "c": "country:KE"
+ },
+ {
+  "id": "city:geonames-1978681",
+  "t": "city",
+  "n": "Malingao",
+  "a": [
+   "Malingao"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-2013348",
+  "t": "city",
+  "n": "Vladivostok",
+  "a": [
+   "Vladivostok"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-2014407",
+  "t": "city",
+  "n": "Ulan-Ude",
+  "a": [
+   "Ulan-Ude"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-2022890",
+  "t": "city",
+  "n": "Khabarovsk",
+  "a": [
+   "Khabarovsk"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-2023469",
+  "t": "city",
+  "n": "Irkutsk",
+  "a": [
+   "Irkutsk"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-2025339",
+  "t": "city",
+  "n": "Chita",
+  "a": [
+   "Chita"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-2033196",
+  "t": "city",
+  "n": "Zhangjiakou",
+  "a": [
+   "Zhangjiakou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2033370",
+  "t": "city",
+  "n": "Yingkou",
+  "a": [
+   "Yingkou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2033467",
+  "t": "city",
+  "n": "Yanji",
+  "a": [
+   "Yanji"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2033574",
+  "t": "city",
+  "n": "Xuanhua",
+  "a": [
+   "Xuanhua"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2033675",
+  "t": "city",
+  "n": "Xinmin",
+  "a": [
+   "Xinmin"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2034414",
+  "t": "city",
+  "n": "Tonghua",
+  "a": [
+   "Tonghua"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2034439",
+  "t": "city",
+  "n": "Tieling",
+  "a": [
+   "Tieling"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2034714",
+  "t": "city",
+  "n": "Siping",
+  "a": [
+   "Siping"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2034786",
+  "t": "city",
+  "n": "Shuangyashan",
+  "a": [
+   "Shuangyashan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2034937",
+  "t": "city",
+  "n": "Shenyang",
+  "a": [
+   "Shenyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2035261",
+  "t": "city",
+  "n": "Qitaihe",
+  "a": [
+   "Qitaihe"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2035265",
+  "t": "city",
+  "n": "Qiqihar",
+  "a": [
+   "Qiqihar"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2035513",
+  "t": "city",
+  "n": "Panshan",
+  "a": [
+   "Panshan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2035715",
+  "t": "city",
+  "n": "Mudanjiang",
+  "a": [
+   "Mudanjiang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2036075",
+  "t": "city",
+  "n": "Lingyuan",
+  "a": [
+   "Lingyuan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2036106",
+  "t": "city",
+  "n": "Liaozhong",
+  "a": [
+   "Liaozhong"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2036109",
+  "t": "city",
+  "n": "Longshan",
+  "a": [
+   "Longshan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2036113",
+  "t": "city",
+  "n": "Liaoyang",
+  "a": [
+   "Liaoyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2036389",
+  "t": "city",
+  "n": "Jixi",
+  "a": [
+   "Jixi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2036427",
+  "t": "city",
+  "n": "Jinzhou",
+  "a": [
+   "Jinzhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2036434",
+  "t": "city",
+  "n": "Lianshan",
+  "a": [
+   "Lianshan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2036502",
+  "t": "city",
+  "n": "Jilin",
+  "a": [
+   "Jilin"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2036581",
+  "t": "city",
+  "n": "Jiamusi",
+  "a": [
+   "Jiamusi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2036662",
+  "t": "city",
+  "n": "Huludao",
+  "a": [
+   "Huludao"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2036892",
+  "t": "city",
+  "n": "Hohhot",
+  "a": [
+   "Hohhot"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2036986",
+  "t": "city",
+  "n": "Hegang",
+  "a": [
+   "Hegang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2037013",
+  "t": "city",
+  "n": "Harbin",
+  "a": [
+   "Harbin"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2037346",
+  "t": "city",
+  "n": "Fuxin",
+  "a": [
+   "Fuxin"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2037355",
+  "t": "city",
+  "n": "Fushun",
+  "a": [
+   "Fushun"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2037799",
+  "t": "city",
+  "n": "Datong",
+  "a": [
+   "Datong"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2037860",
+  "t": "city",
+  "n": "Daqing",
+  "a": [
+   "Daqing"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2037886",
+  "t": "city",
+  "n": "Dandong",
+  "a": [
+   "Dandong"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2038067",
+  "t": "city",
+  "n": "Chifeng",
+  "a": [
+   "Chifeng"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2038087",
+  "t": "city",
+  "n": "Chengde",
+  "a": [
+   "Chengde"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2038120",
+  "t": "city",
+  "n": "Chaoyang",
+  "a": [
+   "Chaoyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2038180",
+  "t": "city",
+  "n": "Changchun",
+  "a": [
+   "Changchun"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2038300",
+  "t": "city",
+  "n": "Benxi",
+  "a": [
+   "Benxi"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2038365",
+  "t": "city",
+  "n": "Bei’an",
+  "a": [
+   "Bei'an",
+   "Bei'an"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2038432",
+  "t": "city",
+  "n": "Baotou",
+  "a": [
+   "Baotou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2038569",
+  "t": "city",
+  "n": "Baicheng",
+  "a": [
+   "Baicheng"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-2038632",
+  "t": "city",
+  "n": "Anshan",
+  "a": [
+   "Anshan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-204405",
+  "t": "city",
+  "n": "Uvira",
+  "a": [
+   "Uvira"
+  ],
+  "c": "country:CD"
+ },
+ {
+  "id": "city:geonames-204953",
+  "t": "city",
+  "n": "Tshikapa",
+  "a": [
+   "Tshikapa"
+  ],
+  "c": "country:CD"
+ },
+ {
+  "id": "city:geonames-2057087",
+  "t": "city",
+  "n": "Kupang",
+  "a": [
+   "Kupang"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-2082600",
+  "t": "city",
+  "n": "Jayapura",
+  "a": [
+   "Jayapura"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-209228",
+  "t": "city",
+  "n": "Mbuji-Mayi",
+  "a": [
+   "Mbuji-Mayi"
+  ],
+  "c": "country:CD"
+ },
+ {
+  "id": "city:geonames-2111149",
+  "t": "city",
+  "n": "Sendai",
+  "a": [
+   "Sendai"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-2112141",
+  "t": "city",
+  "n": "Kōriyama",
+  "a": [
+   "Koriyama",
+   "Koriyama"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-2112539",
+  "t": "city",
+  "n": "Iwaki",
+  "a": [
+   "Iwaki"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-2113126",
+  "t": "city",
+  "n": "Akita",
+  "a": [
+   "Akita"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-2130629",
+  "t": "city",
+  "n": "Asahikawa",
+  "a": [
+   "Asahikawa"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-217695",
+  "t": "city",
+  "n": "Bunia",
+  "a": [
+   "Bunia"
+  ],
+  "c": "country:CD"
+ },
+ {
+  "id": "city:geonames-217831",
+  "t": "city",
+  "n": "Bukavu",
+  "a": [
+   "Bukavu"
+  ],
+  "c": "country:CD"
+ },
+ {
+  "id": "city:geonames-2187404",
+  "t": "city",
+  "n": "Manukau City",
+  "a": [
+   "Manukau City"
+  ],
+  "c": "country:NZ"
+ },
+ {
+  "id": "city:geonames-2236568",
+  "t": "city",
+  "n": "Uíge",
+  "a": [
+   "Uige",
+   "Uige"
+  ],
+  "c": "country:AO"
+ },
+ {
+  "id": "city:geonames-2240449",
+  "t": "city",
+  "n": "Luanda",
+  "a": [
+   "Luanda"
+  ],
+  "c": "country:AO"
+ },
+ {
+  "id": "city:geonames-2242906",
+  "t": "city",
+  "n": "Calumbo",
+  "a": [
+   "Calumbo"
+  ],
+  "c": "country:AO"
+ },
+ {
+  "id": "city:geonames-2285853",
+  "t": "city",
+  "n": "Koumassi",
+  "a": [
+   "Koumassi"
+  ],
+  "c": "country:CI"
+ },
+ {
+  "id": "city:geonames-2290486",
+  "t": "city",
+  "n": "Daloa",
+  "a": [
+   "Daloa"
+  ],
+  "c": "country:CI"
+ },
+ {
+  "id": "city:geonames-2293521",
+  "t": "city",
+  "n": "Abobo",
+  "a": [
+   "Abobo"
+  ],
+  "c": "country:CI"
+ },
+ {
+  "id": "city:geonames-2294915",
+  "t": "city",
+  "n": "Takoradi",
+  "a": [
+   "Takoradi"
+  ],
+  "c": "country:GH"
+ },
+ {
+  "id": "city:geonames-2312895",
+  "t": "city",
+  "n": "Mbandaka",
+  "a": [
+   "Mbandaka"
+  ],
+  "c": "country:CD"
+ },
+ {
+  "id": "city:geonames-2313002",
+  "t": "city",
+  "n": "Matadi",
+  "a": [
+   "Matadi"
+  ],
+  "c": "country:CD"
+ },
+ {
+  "id": "city:geonames-2314705",
+  "t": "city",
+  "n": "Kikwit",
+  "a": [
+   "Kikwit"
+  ],
+  "c": "country:CD"
+ },
+ {
+  "id": "city:geonames-2317765",
+  "t": "city",
+  "n": "Zaria",
+  "a": [
+   "Zaria"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2318044",
+  "t": "city",
+  "n": "Yola",
+  "a": [
+   "Yola"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2318123",
+  "t": "city",
+  "n": "Yenagoa",
+  "a": [
+   "Yenagoa"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2319133",
+  "t": "city",
+  "n": "Warri",
+  "a": [
+   "Warri"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2319480",
+  "t": "city",
+  "n": "Uyo",
+  "a": [
+   "Uyo"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2320576",
+  "t": "city",
+  "n": "Umuahia",
+  "a": [
+   "Umuahia"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2322911",
+  "t": "city",
+  "n": "Sokoto",
+  "a": [
+   "Sokoto"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2323675",
+  "t": "city",
+  "n": "Sapele",
+  "a": [
+   "Sapele"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2325200",
+  "t": "city",
+  "n": "Oyo",
+  "a": [
+   "Oyo"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2325590",
+  "t": "city",
+  "n": "Osogbo",
+  "a": [
+   "Osogbo"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2326171",
+  "t": "city",
+  "n": "Ondo",
+  "a": [
+   "Ondo"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2327220",
+  "t": "city",
+  "n": "Okene",
+  "a": [
+   "Okene"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2330100",
+  "t": "city",
+  "n": "Minna",
+  "a": [
+   "Minna"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2331140",
+  "t": "city",
+  "n": "Makurdi",
+  "a": [
+   "Makurdi"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2334802",
+  "t": "city",
+  "n": "Katsina",
+  "a": [
+   "Katsina"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2335727",
+  "t": "city",
+  "n": "Kaduna",
+  "a": [
+   "Kaduna"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2335953",
+  "t": "city",
+  "n": "Jos",
+  "a": [
+   "Jos"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2337181",
+  "t": "city",
+  "n": "Iseyin",
+  "a": [
+   "Iseyin"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2337704",
+  "t": "city",
+  "n": "Ilesa",
+  "a": [
+   "Ilesa"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2338325",
+  "t": "city",
+  "n": "Ikare",
+  "a": [
+   "Ikare"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2338400",
+  "t": "city",
+  "n": "Ijebu Ode",
+  "a": [
+   "Ijebu Ode"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2338900",
+  "t": "city",
+  "n": "Ile-Ife",
+  "a": [
+   "Ile-Ife"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2340451",
+  "t": "city",
+  "n": "Gombe",
+  "a": [
+   "Gombe"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2341374",
+  "t": "city",
+  "n": "Gboko",
+  "a": [
+   "Gboko"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-234179",
+  "t": "city",
+  "n": "Bunamwaya",
+  "a": [
+   "Bunamwaya"
+  ],
+  "c": "country:UG"
+ },
+ {
+  "id": "city:geonames-2344082",
+  "t": "city",
+  "n": "Ebute Ikorodu",
+  "a": [
+   "Ebute Ikorodu"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2346229",
+  "t": "city",
+  "n": "Calabar",
+  "a": [
+   "Calabar"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2347209",
+  "t": "city",
+  "n": "Bida",
+  "a": [
+   "Bida"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2347470",
+  "t": "city",
+  "n": "Bauchi",
+  "a": [
+   "Bauchi"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2351943",
+  "t": "city",
+  "n": "Agege",
+  "a": [
+   "Agege"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2352379",
+  "t": "city",
+  "n": "Ado-Ekiti",
+  "a": [
+   "Ado-Ekiti"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2388873",
+  "t": "city",
+  "n": "Bimbo",
+  "a": [
+   "Bimbo"
+  ],
+  "c": "country:CF"
+ },
+ {
+  "id": "city:geonames-2395914",
+  "t": "city",
+  "n": "Abomey-Calavi",
+  "a": [
+   "Abomey-Calavi"
+  ],
+  "c": "country:BJ"
+ },
+ {
+  "id": "city:geonames-2411989",
+  "t": "city",
+  "n": "Serekunda",
+  "a": [
+   "Serekunda"
+  ],
+  "c": "country:GM"
+ },
+ {
+  "id": "city:geonames-2422488",
+  "t": "city",
+  "n": "Camayenne",
+  "a": [
+   "Camayenne"
+  ],
+  "c": "country:GN"
+ },
+ {
+  "id": "city:geonames-2519240",
+  "t": "city",
+  "n": "Córdoba",
+  "a": [
+   "Cordoba",
+   "Cordoba"
+  ],
+  "c": "country:ES"
+ },
+ {
+  "id": "city:geonames-2537881",
+  "t": "city",
+  "n": "Safi",
+  "a": [
+   "Safi"
+  ],
+  "c": "country:MA"
+ },
+ {
+  "id": "city:geonames-2558545",
+  "t": "city",
+  "n": "Al Hoceïma",
+  "a": [
+   "Al Hoceima",
+   "Al Hoceima"
+  ],
+  "c": "country:MA"
+ },
+ {
+  "id": "city:geonames-2566633",
+  "t": "city",
+  "n": "Obalende",
+  "a": [
+   "Obalende"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2566636",
+  "t": "city",
+  "n": "Ajegunle",
+  "a": [
+   "Ajegunle"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2566676",
+  "t": "city",
+  "n": "Alimosho",
+  "a": [
+   "Alimosho"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2566696",
+  "t": "city",
+  "n": "Akowonjo",
+  "a": [
+   "Akowonjo"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-2591957",
+  "t": "city",
+  "n": "Camama",
+  "a": [
+   "Camama"
+  ],
+  "c": "country:AO"
+ },
+ {
+  "id": "city:geonames-2591976",
+  "t": "city",
+  "n": "Talatona",
+  "a": [
+   "Talatona"
+  ],
+  "c": "country:AO"
+ },
+ {
+  "id": "city:geonames-2593460",
+  "t": "city",
+  "n": "Masina",
+  "a": [
+   "Masina"
+  ],
+  "c": "country:CD"
+ },
+ {
+  "id": "city:geonames-2595778",
+  "t": "city",
+  "n": "Guédiawaye",
+  "a": [
+   "Guediawaye",
+   "Guediawaye"
+  ],
+  "c": "country:SN"
+ },
+ {
+  "id": "city:geonames-2636432",
+  "t": "city",
+  "n": "Swansea",
+  "a": [
+   "Swansea"
+  ],
+  "c": "country:GB"
+ },
+ {
+  "id": "city:geonames-2639577",
+  "t": "city",
+  "n": "Reading",
+  "a": [
+   "Reading"
+  ],
+  "c": "country:GB"
+ },
+ {
+  "id": "city:geonames-2639912",
+  "t": "city",
+  "n": "Preston",
+  "a": [
+   "Preston"
+  ],
+  "c": "country:GB"
+ },
+ {
+  "id": "city:geonames-2645425",
+  "t": "city",
+  "n": "Kingston upon Hull",
+  "a": [
+   "Kingston upon Hull"
+  ],
+  "c": "country:GB"
+ },
+ {
+  "id": "city:geonames-2646003",
+  "t": "city",
+  "n": "Islington",
+  "a": [
+   "Islington"
+  ],
+  "c": "country:GB"
+ },
+ {
+  "id": "city:geonames-2654993",
+  "t": "city",
+  "n": "Bradford",
+  "a": [
+   "Bradford"
+  ],
+  "c": "country:GB"
+ },
+ {
+  "id": "city:geonames-2655613",
+  "t": "city",
+  "n": "Birkenhead",
+  "a": [
+   "Birkenhead"
+  ],
+  "c": "country:GB"
+ },
+ {
+  "id": "city:geonames-2803138",
+  "t": "city",
+  "n": "Antwerp",
+  "a": [
+   "Antwerp"
+  ],
+  "c": "country:BE"
+ },
+ {
+  "id": "city:geonames-2805753",
+  "t": "city",
+  "n": "Wuppertal",
+  "a": [
+   "Wuppertal"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "city:geonames-285839",
+  "t": "city",
+  "n": "Al Aḩmadī",
+  "a": [
+   "Al Ahmadi",
+   "Al Ahmadi"
+  ],
+  "c": "country:KW"
+ },
+ {
+  "id": "city:geonames-2867543",
+  "t": "city",
+  "n": "Münster",
+  "a": [
+   "Muenster",
+   "Muenster"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "city:geonames-2873891",
+  "t": "city",
+  "n": "Mannheim",
+  "a": [
+   "Mannheim"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "city:geonames-288764",
+  "t": "city",
+  "n": "Bawshar",
+  "a": [
+   "Bawshar"
+  ],
+  "c": "country:OM"
+ },
+ {
+  "id": "city:geonames-291074",
+  "t": "city",
+  "n": "Ras Al Khaimah",
+  "a": [
+   "Ras Al Khaimah"
+  ],
+  "c": "country:AE"
+ },
+ {
+  "id": "city:geonames-2946447",
+  "t": "city",
+  "n": "Bonn",
+  "a": [
+   "Bonn"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "city:geonames-2947416",
+  "t": "city",
+  "n": "Bochum",
+  "a": [
+   "Bochum"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "city:geonames-2949186",
+  "t": "city",
+  "n": "Bielefeld",
+  "a": [
+   "Bielefeld"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "city:geonames-2954172",
+  "t": "city",
+  "n": "Augsburg",
+  "a": [
+   "Augsburg"
+  ],
+  "c": "country:DE"
+ },
+ {
+  "id": "city:geonames-298299",
+  "t": "city",
+  "n": "Uşak",
+  "a": [
+   "Usak",
+   "Usak"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-2990969",
+  "t": "city",
+  "n": "Nantes",
+  "a": [
+   "Nantes"
+  ],
+  "c": "country:FR"
+ },
+ {
+  "id": "city:geonames-299817",
+  "t": "city",
+  "n": "Tarsus",
+  "a": [
+   "Tarsus"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-304922",
+  "t": "city",
+  "n": "Malatya",
+  "a": [
+   "Malatya"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-306641",
+  "t": "city",
+  "n": "Konak",
+  "a": [
+   "Konak"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-308988",
+  "t": "city",
+  "n": "Karşıyaka",
+  "a": [
+   "Karsiyaka",
+   "Karsiyaka"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-310859",
+  "t": "city",
+  "n": "Kahramanmaraş",
+  "a": [
+   "Kahramanmaras",
+   "Kahramanmaras"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-311046",
+  "t": "city",
+  "n": "İzmir",
+  "a": [
+   "Izmir",
+   "Izmir"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-315202",
+  "t": "city",
+  "n": "Eskişehir",
+  "a": [
+   "Eskisehir",
+   "Eskisehir"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-315368",
+  "t": "city",
+  "n": "Erzurum",
+  "a": [
+   "Erzurum"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-315808",
+  "t": "city",
+  "n": "Elazığ",
+  "a": [
+   "Elazig",
+   "Elazig"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-320857",
+  "t": "city",
+  "n": "Bornova",
+  "a": [
+   "Bornova"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-321836",
+  "t": "city",
+  "n": "Batman",
+  "a": [
+   "Batman"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-323779",
+  "t": "city",
+  "n": "Antakya",
+  "a": [
+   "Antakya"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-324190",
+  "t": "city",
+  "n": "Alanya",
+  "a": [
+   "Alanya"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-324496",
+  "t": "city",
+  "n": "Aksaray",
+  "a": [
+   "Aksaray"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-326282",
+  "t": "city",
+  "n": "Warder",
+  "a": [
+   "Warder"
+  ],
+  "c": "country:ET"
+ },
+ {
+  "id": "city:geonames-333795",
+  "t": "city",
+  "n": "Jijiga",
+  "a": [
+   "Jijiga"
+  ],
+  "c": "country:ET"
+ },
+ {
+  "id": "city:geonames-3348078",
+  "t": "city",
+  "n": "Cuíto",
+  "a": [
+   "Cuito",
+   "Cuito"
+  ],
+  "c": "country:AO"
+ },
+ {
+  "id": "city:geonames-3386496",
+  "t": "city",
+  "n": "Teresina",
+  "a": [
+   "Teresina"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3389353",
+  "t": "city",
+  "n": "Santarém",
+  "a": [
+   "Santarem",
+   "Santarem"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3392242",
+  "t": "city",
+  "n": "Petrolina",
+  "a": [
+   "Petrolina"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3392740",
+  "t": "city",
+  "n": "Paulista",
+  "a": [
+   "Paulista"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3393536",
+  "t": "city",
+  "n": "Olinda",
+  "a": [
+   "Olinda"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3394023",
+  "t": "city",
+  "n": "Natal",
+  "a": [
+   "Natal"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3395981",
+  "t": "city",
+  "n": "Maceió",
+  "a": [
+   "Maceio",
+   "Maceio"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3396016",
+  "t": "city",
+  "n": "Macapá",
+  "a": [
+   "Macapa",
+   "Macapa"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3397147",
+  "t": "city",
+  "n": "Juazeiro do Norte",
+  "a": [
+   "Juazeiro do Norte"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3397277",
+  "t": "city",
+  "n": "João Pessoa",
+  "a": [
+   "Joao Pessoa",
+   "Joao Pessoa"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3402429",
+  "t": "city",
+  "n": "Caucaia",
+  "a": [
+   "Caucaia"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3402655",
+  "t": "city",
+  "n": "Caruaru",
+  "a": [
+   "Caruaru"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3403642",
+  "t": "city",
+  "n": "Campina Grande",
+  "a": [
+   "Campina Grande"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3407669",
+  "t": "city",
+  "n": "Ananindeua",
+  "a": [
+   "Ananindeua"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3435217",
+  "t": "city",
+  "n": "Corrientes",
+  "a": [
+   "Corrientes"
+  ],
+  "c": "country:AR"
+ },
+ {
+  "id": "city:geonames-3444914",
+  "t": "city",
+  "n": "Vitória da Conquista",
+  "a": [
+   "Vitoria da Conquista",
+   "Vitoria da Conquista"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3444924",
+  "t": "city",
+  "n": "Vitória",
+  "a": [
+   "Vitoria",
+   "Vitoria"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3445026",
+  "t": "city",
+  "n": "Vila Velha",
+  "a": [
+   "Vila Velha"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3445451",
+  "t": "city",
+  "n": "Várzea Grande",
+  "a": [
+   "Varzea Grande",
+   "Varzea Grande"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3445831",
+  "t": "city",
+  "n": "Uberlândia",
+  "a": [
+   "Uberlandia",
+   "Uberlandia"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3445839",
+  "t": "city",
+  "n": "Uberaba",
+  "a": [
+   "Uberaba"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3446682",
+  "t": "city",
+  "n": "Taubaté",
+  "a": [
+   "Taubate",
+   "Taubate"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3447212",
+  "t": "city",
+  "n": "Suzano",
+  "a": [
+   "Suzano"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3447399",
+  "t": "city",
+  "n": "Sorocaba",
+  "a": [
+   "Sorocaba"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3447779",
+  "t": "city",
+  "n": "Serra",
+  "a": [
+   "Serra"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3448136",
+  "t": "city",
+  "n": "São Vicente",
+  "a": [
+   "Sao Vicente",
+   "Sao Vicente"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3448632",
+  "t": "city",
+  "n": "São José dos Pinhais",
+  "a": [
+   "Sao Jose dos Pinhais",
+   "Sao Jose dos Pinhais"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3448636",
+  "t": "city",
+  "n": "São José dos Campos",
+  "a": [
+   "Sao Jose dos Campos",
+   "Sao Jose dos Campos"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3448639",
+  "t": "city",
+  "n": "São José do Rio Preto",
+  "a": [
+   "Sao Jose do Rio Preto",
+   "Sao Jose do Rio Preto"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3448877",
+  "t": "city",
+  "n": "São João de Meriti",
+  "a": [
+   "Sao Joao de Meriti",
+   "Sao Joao de Meriti"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3449344",
+  "t": "city",
+  "n": "São Bernardo do Campo",
+  "a": [
+   "Sao Bernardo do Campo",
+   "Sao Bernardo do Campo"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3449433",
+  "t": "city",
+  "n": "Santos",
+  "a": [
+   "Santos"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3449701",
+  "t": "city",
+  "n": "Santo André",
+  "a": [
+   "Santo Andre",
+   "Santo Andre"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3450554",
+  "t": "city",
+  "n": "Salvador",
+  "a": [
+   "Salvador"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3451328",
+  "t": "city",
+  "n": "Ribeirão Preto",
+  "a": [
+   "Ribeirao Preto",
+   "Ribeirao Preto"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3451353",
+  "t": "city",
+  "n": "Ribeirão das Neves",
+  "a": [
+   "Ribeirao das Neves",
+   "Ribeirao das Neves"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3452465",
+  "t": "city",
+  "n": "Praia Grande",
+  "a": [
+   "Praia Grande"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3453643",
+  "t": "city",
+  "n": "Piracicaba",
+  "a": [
+   "Piracicaba"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3454244",
+  "t": "city",
+  "n": "Pelotas",
+  "a": [
+   "Pelotas"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3455775",
+  "t": "city",
+  "n": "Osasco",
+  "a": [
+   "Osasco"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3456283",
+  "t": "city",
+  "n": "Niterói",
+  "a": [
+   "Niteroi",
+   "Niteroi"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3456814",
+  "t": "city",
+  "n": "Montes Claros",
+  "a": [
+   "Montes Claros"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3457001",
+  "t": "city",
+  "n": "Mogi das Cruzes",
+  "a": [
+   "Mogi das Cruzes"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3457381",
+  "t": "city",
+  "n": "Mauá",
+  "a": [
+   "Maua",
+   "Maua"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3457671",
+  "t": "city",
+  "n": "Maringá",
+  "a": [
+   "Maringa",
+   "Maringa"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3458449",
+  "t": "city",
+  "n": "Londrina",
+  "a": [
+   "Londrina"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3459462",
+  "t": "city",
+  "n": "Jundiaí",
+  "a": [
+   "Jundiai",
+   "Jundiai"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3459505",
+  "t": "city",
+  "n": "Juiz de Fora",
+  "a": [
+   "Juiz de Fora"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3459712",
+  "t": "city",
+  "n": "Joinville",
+  "a": [
+   "Joinville"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3460644",
+  "t": "city",
+  "n": "Itaquaquecetuba",
+  "a": [
+   "Itaquaquecetuba"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3463011",
+  "t": "city",
+  "n": "Franca",
+  "a": [
+   "Franca"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3463237",
+  "t": "city",
+  "n": "Florianópolis",
+  "a": [
+   "Florianopolis",
+   "Florianopolis"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3463478",
+  "t": "city",
+  "n": "Feira de Santana",
+  "a": [
+   "Feira de Santana"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3464374",
+  "t": "city",
+  "n": "Duque de Caxias",
+  "a": [
+   "Duque de Caxias"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3464739",
+  "t": "city",
+  "n": "Diadema",
+  "a": [
+   "Diadema"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3465038",
+  "t": "city",
+  "n": "Cuiabá",
+  "a": [
+   "Cuiaba",
+   "Cuiaba"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3465624",
+  "t": "city",
+  "n": "Contagem",
+  "a": [
+   "Contagem"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3466537",
+  "t": "city",
+  "n": "Caxias do Sul",
+  "a": [
+   "Caxias do Sul"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3466779",
+  "t": "city",
+  "n": "Cascavel",
+  "a": [
+   "Cascavel"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3466954",
+  "t": "city",
+  "n": "Cariacica",
+  "a": [
+   "Cariacica"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3466998",
+  "t": "city",
+  "n": "Carapicuíba",
+  "a": [
+   "Carapicuiba",
+   "Carapicuiba"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3467467",
+  "t": "city",
+  "n": "Canoas",
+  "a": [
+   "Canoas"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3467693",
+  "t": "city",
+  "n": "Campos dos Goytacazes",
+  "a": [
+   "Campos dos Goytacazes"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3467747",
+  "t": "city",
+  "n": "Campo Grande",
+  "a": [
+   "Campo Grande"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3468031",
+  "t": "city",
+  "n": "Camaçari",
+  "a": [
+   "Camacari",
+   "Camacari"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3469968",
+  "t": "city",
+  "n": "Blumenau",
+  "a": [
+   "Blumenau"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3470044",
+  "t": "city",
+  "n": "Betim",
+  "a": [
+   "Betim"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3470142",
+  "t": "city",
+  "n": "Belford Roxo",
+  "a": [
+   "Belford Roxo"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3470279",
+  "t": "city",
+  "n": "Bauru",
+  "a": [
+   "Bauru"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3470353",
+  "t": "city",
+  "n": "Barueri",
+  "a": [
+   "Barueri"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3471872",
+  "t": "city",
+  "n": "Aracaju",
+  "a": [
+   "Aracaju"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3472287",
+  "t": "city",
+  "n": "Anápolis",
+  "a": [
+   "Anapolis",
+   "Anapolis"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3474574",
+  "t": "city",
+  "n": "Palmas",
+  "a": [
+   "Palmas"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-347497",
+  "t": "city",
+  "n": "Tanta",
+  "a": [
+   "Tanta"
+  ],
+  "c": "country:EG"
+ },
+ {
+  "id": "city:geonames-3492914",
+  "t": "city",
+  "n": "Santiago de los Caballeros",
+  "a": [
+   "Santiago de los Caballeros"
+  ],
+  "c": "country:DO"
+ },
+ {
+  "id": "city:geonames-350203",
+  "t": "city",
+  "n": "Rosetta",
+  "a": [
+   "Rosetta"
+  ],
+  "c": "country:EG"
+ },
+ {
+  "id": "city:geonames-3514450",
+  "t": "city",
+  "n": "Xochimilco",
+  "a": [
+   "Xochimilco"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3514519",
+  "t": "city",
+  "n": "Xico",
+  "a": [
+   "Xico"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3514670",
+  "t": "city",
+  "n": "Villahermosa",
+  "a": [
+   "Villahermosa"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3514674",
+  "t": "city",
+  "n": "Gustavo Adolfo Madero",
+  "a": [
+   "Gustavo Adolfo Madero"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3515001",
+  "t": "city",
+  "n": "Tuxtla",
+  "a": [
+   "Tuxtla"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3515302",
+  "t": "city",
+  "n": "Toluca",
+  "a": [
+   "Toluca"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3515428",
+  "t": "city",
+  "n": "Tlalpan",
+  "a": [
+   "Tlalpan"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3515431",
+  "t": "city",
+  "n": "Tlalnepantla",
+  "a": [
+   "Tlalnepantla"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3515463",
+  "t": "city",
+  "n": "Tláhuac",
+  "a": [
+   "Tlahuac",
+   "Tlahuac"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3515807",
+  "t": "city",
+  "n": "Cuautitlán Izcalli",
+  "a": [
+   "Cuautitlan Izcalli",
+   "Cuautitlan Izcalli"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3516266",
+  "t": "city",
+  "n": "Tapachula de Córdova y Ordóñez",
+  "a": [
+   "Tapachula de Cordova y Ordonez",
+   "Tapachula de Cordova y Ordonez"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3516355",
+  "t": "city",
+  "n": "Tampico",
+  "a": [
+   "Tampico"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3520339",
+  "t": "city",
+  "n": "Reynosa",
+  "a": [
+   "Reynosa"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3521081",
+  "t": "city",
+  "n": "Puebla",
+  "a": [
+   "Puebla"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3522551",
+  "t": "city",
+  "n": "Nuevo Laredo",
+  "a": [
+   "Nuevo Laredo"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3522790",
+  "t": "city",
+  "n": "Naucalpan de Juárez",
+  "a": [
+   "Naucalpan de Juarez",
+   "Naucalpan de Juarez"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3523466",
+  "t": "city",
+  "n": "Heroica Matamoros",
+  "a": [
+   "Heroica Matamoros"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3526617",
+  "t": "city",
+  "n": "Xalapa de Enríquez",
+  "a": [
+   "Xalapa de Enriquez",
+   "Xalapa de Enriquez"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3526682",
+  "t": "city",
+  "n": "Ixtapaluca",
+  "a": [
+   "Ixtapaluca"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3526683",
+  "t": "city",
+  "n": "Iztapalapa",
+  "a": [
+   "Iztapalapa"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3526700",
+  "t": "city",
+  "n": "Iztacalco",
+  "a": [
+   "Iztacalco"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3529612",
+  "t": "city",
+  "n": "Ecatepec de Morelos",
+  "a": [
+   "Ecatepec de Morelos"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3529947",
+  "t": "city",
+  "n": "Cuernavaca",
+  "a": [
+   "Cuernavaca"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3530517",
+  "t": "city",
+  "n": "Coatzacoalcos",
+  "a": [
+   "Coatzacoalcos"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3530580",
+  "t": "city",
+  "n": "Ciudad Victoria",
+  "a": [
+   "Ciudad Victoria"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3530589",
+  "t": "city",
+  "n": "Ciudad Nezahualcoyotl",
+  "a": [
+   "Ciudad Nezahualcoyotl"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3530597",
+  "t": "city",
+  "n": "Mexico City",
+  "a": [
+   "Mexico City"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-353219",
+  "t": "city",
+  "n": "6th of October City",
+  "a": [
+   "6th of October City"
+  ],
+  "c": "country:EG"
+ },
+ {
+  "id": "city:geonames-3532497",
+  "t": "city",
+  "n": "Azcapotzalco",
+  "a": [
+   "Azcapotzalco"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3532624",
+  "t": "city",
+  "n": "Ciudad López Mateos",
+  "a": [
+   "Ciudad Lopez Mateos",
+   "Ciudad Lopez Mateos"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3533462",
+  "t": "city",
+  "n": "Acapulco de Juárez",
+  "a": [
+   "Acapulco de Juarez",
+   "Acapulco de Juarez"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-353802",
+  "t": "city",
+  "n": "Kom Ombo",
+  "a": [
+   "Kom Ombo"
+  ],
+  "c": "country:EG"
+ },
+ {
+  "id": "city:geonames-355449",
+  "t": "city",
+  "n": "Esna",
+  "a": [
+   "Esna"
+  ],
+  "c": "country:EG"
+ },
+ {
+  "id": "city:geonames-358048",
+  "t": "city",
+  "n": "Damietta",
+  "a": [
+   "Damietta"
+  ],
+  "c": "country:EG"
+ },
+ {
+  "id": "city:geonames-3583096",
+  "t": "city",
+  "n": "Soyapango",
+  "a": [
+   "Soyapango"
+  ],
+  "c": "country:SV"
+ },
+ {
+  "id": "city:geonames-358448",
+  "t": "city",
+  "n": "Damanhur",
+  "a": [
+   "Damanhur"
+  ],
+  "c": "country:EG"
+ },
+ {
+  "id": "city:geonames-359493",
+  "t": "city",
+  "n": "Zagazig",
+  "a": [
+   "Zagazig"
+  ],
+  "c": "country:EG"
+ },
+ {
+  "id": "city:geonames-359792",
+  "t": "city",
+  "n": "Aswān",
+  "a": [
+   "Aswan",
+   "Aswan"
+  ],
+  "c": "country:EG"
+ },
+ {
+  "id": "city:geonames-360502",
+  "t": "city",
+  "n": "Luxor",
+  "a": [
+   "Luxor"
+  ],
+  "c": "country:EG"
+ },
+ {
+  "id": "city:geonames-360890",
+  "t": "city",
+  "n": "Al Khuşūş",
+  "a": [
+   "Al Khusus",
+   "Al Khusus"
+  ],
+  "c": "country:EG"
+ },
+ {
+  "id": "city:geonames-361055",
+  "t": "city",
+  "n": "Ismailia",
+  "a": [
+   "Ismailia"
+  ],
+  "c": "country:EG"
+ },
+ {
+  "id": "city:geonames-3625829",
+  "t": "city",
+  "n": "Turmero",
+  "a": [
+   "Turmero"
+  ],
+  "c": "country:VE"
+ },
+ {
+  "id": "city:geonames-3630297",
+  "t": "city",
+  "n": "Petare",
+  "a": [
+   "Petare"
+  ],
+  "c": "country:VE"
+ },
+ {
+  "id": "city:geonames-364103",
+  "t": "city",
+  "n": "Wad Medani",
+  "a": [
+   "Wad Medani"
+  ],
+  "c": "country:SD"
+ },
+ {
+  "id": "city:geonames-3648559",
+  "t": "city",
+  "n": "Barcelona",
+  "a": [
+   "Barcelona"
+  ],
+  "c": "country:VE"
+ },
+ {
+  "id": "city:geonames-3651297",
+  "t": "city",
+  "n": "Santo Domingo de los Colorados",
+  "a": [
+   "Santo Domingo de los Colorados"
+  ],
+  "c": "country:EC"
+ },
+ {
+  "id": "city:geonames-3652941",
+  "t": "city",
+  "n": "Portoviejo",
+  "a": [
+   "Portoviejo"
+  ],
+  "c": "country:EC"
+ },
+ {
+  "id": "city:geonames-3662574",
+  "t": "city",
+  "n": "Rio Branco",
+  "a": [
+   "Rio Branco"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3662762",
+  "t": "city",
+  "n": "Porto Velho",
+  "a": [
+   "Porto Velho"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3664980",
+  "t": "city",
+  "n": "Boa Vista",
+  "a": [
+   "Boa Vista"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-3667849",
+  "t": "city",
+  "n": "Soledad",
+  "a": [
+   "Soledad"
+  ],
+  "c": "country:CO"
+ },
+ {
+  "id": "city:geonames-3667905",
+  "t": "city",
+  "n": "Soacha",
+  "a": [
+   "Soacha"
+  ],
+  "c": "country:CO"
+ },
+ {
+  "id": "city:geonames-3671916",
+  "t": "city",
+  "n": "Popayán",
+  "a": [
+   "Popayan",
+   "Popayan"
+  ],
+  "c": "country:CO"
+ },
+ {
+  "id": "city:geonames-3672486",
+  "t": "city",
+  "n": "Pereira",
+  "a": [
+   "Pereira"
+  ],
+  "c": "country:CO"
+ },
+ {
+  "id": "city:geonames-3673164",
+  "t": "city",
+  "n": "Palmira",
+  "a": [
+   "Palmira"
+  ],
+  "c": "country:CO"
+ },
+ {
+  "id": "city:geonames-3688452",
+  "t": "city",
+  "n": "Buenaventura",
+  "a": [
+   "Buenaventura"
+  ],
+  "c": "country:CO"
+ },
+ {
+  "id": "city:geonames-3688928",
+  "t": "city",
+  "n": "Bello",
+  "a": [
+   "Bello"
+  ],
+  "c": "country:CO"
+ },
+ {
+  "id": "city:geonames-3689560",
+  "t": "city",
+  "n": "Armenia",
+  "a": [
+   "Armenia"
+  ],
+  "c": "country:CO"
+ },
+ {
+  "id": "city:geonames-3718420",
+  "t": "city",
+  "n": "Port-de-Paix",
+  "a": [
+   "Port-de-Paix"
+  ],
+  "c": "country:HT"
+ },
+ {
+  "id": "city:geonames-3827406",
+  "t": "city",
+  "n": "Benito Juarez",
+  "a": [
+   "Benito Juarez"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3827408",
+  "t": "city",
+  "n": "Miguel Hidalgo",
+  "a": [
+   "Miguel Hidalgo"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3827409",
+  "t": "city",
+  "n": "Cuauhtémoc",
+  "a": [
+   "Cuauhtemoc",
+   "Cuauhtemoc"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3827598",
+  "t": "city",
+  "n": "Ojo de Agua",
+  "a": [
+   "Ojo de Agua"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3836277",
+  "t": "city",
+  "n": "Santa Fe",
+  "a": [
+   "Santa Fe"
+  ],
+  "c": "country:AR"
+ },
+ {
+  "id": "city:geonames-3836873",
+  "t": "city",
+  "n": "San Miguel de Tucumán",
+  "a": [
+   "San Miguel de Tucuman",
+   "San Miguel de Tucuman"
+  ],
+  "c": "country:AR"
+ },
+ {
+  "id": "city:geonames-3838233",
+  "t": "city",
+  "n": "Salta",
+  "a": [
+   "Salta"
+  ],
+  "c": "country:AR"
+ },
+ {
+  "id": "city:geonames-3838583",
+  "t": "city",
+  "n": "Rosario",
+  "a": [
+   "Rosario"
+  ],
+  "c": "country:AR"
+ },
+ {
+  "id": "city:geonames-3860259",
+  "t": "city",
+  "n": "Córdoba",
+  "a": [
+   "Cordoba",
+   "Cordoba"
+  ],
+  "c": "country:AR"
+ },
+ {
+  "id": "city:geonames-3880980",
+  "t": "city",
+  "n": "Maipú",
+  "a": [
+   "Maipu",
+   "Maipu"
+  ],
+  "c": "country:CL"
+ },
+ {
+  "id": "city:geonames-3981254",
+  "t": "city",
+  "n": "Torreón",
+  "a": [
+   "Torreon",
+   "Torreon"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3981369",
+  "t": "city",
+  "n": "Tonalá",
+  "a": [
+   "Tonala",
+   "Tonala"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3981461",
+  "t": "city",
+  "n": "Tlaquepaque",
+  "a": [
+   "Tlaquepaque"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3981941",
+  "t": "city",
+  "n": "Tepic",
+  "a": [
+   "Tepic"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3982912",
+  "t": "city",
+  "n": "Soledad de Graciano Sánchez",
+  "a": [
+   "Soledad de Graciano Sanchez",
+   "Soledad de Graciano Sanchez"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3984583",
+  "t": "city",
+  "n": "Santa Catarina",
+  "a": [
+   "Santa Catarina"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3985241",
+  "t": "city",
+  "n": "San Nicolás de los Garza",
+  "a": [
+   "San Nicolas de los Garza",
+   "San Nicolas de los Garza"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3991164",
+  "t": "city",
+  "n": "Santiago de Querétaro",
+  "a": [
+   "Santiago de Queretaro",
+   "Santiago de Queretaro"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3995402",
+  "t": "city",
+  "n": "Morelia",
+  "a": [
+   "Morelia"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3996069",
+  "t": "city",
+  "n": "Mexicali",
+  "a": [
+   "Mexicali"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-3996322",
+  "t": "city",
+  "n": "Mazatlán",
+  "a": [
+   "Mazatlan",
+   "Mazatlan"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-4003757",
+  "t": "city",
+  "n": "Ciudad Benito Juárez",
+  "a": [
+   "Ciudad Benito Juarez",
+   "Ciudad Benito Juarez"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-4004330",
+  "t": "city",
+  "n": "Irapuato",
+  "a": [
+   "Irapuato"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-4005492",
+  "t": "city",
+  "n": "Guadalupe",
+  "a": [
+   "Guadalupe"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-4005867",
+  "t": "city",
+  "n": "Ciudad General Escobedo",
+  "a": [
+   "Ciudad General Escobedo"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-4006702",
+  "t": "city",
+  "n": "Ensenada",
+  "a": [
+   "Ensenada"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-4011743",
+  "t": "city",
+  "n": "Victoria de Durango",
+  "a": [
+   "Victoria de Durango"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-4012176",
+  "t": "city",
+  "n": "Culiacán",
+  "a": [
+   "Culiacan",
+   "Culiacan"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-4013704",
+  "t": "city",
+  "n": "Ciudad Obregón",
+  "a": [
+   "Ciudad Obregon",
+   "Ciudad Obregon"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-4014875",
+  "t": "city",
+  "n": "Celaya",
+  "a": [
+   "Celaya"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-4018390",
+  "t": "city",
+  "n": "Ciudad Apodaca",
+  "a": [
+   "Ciudad Apodaca"
+  ],
+  "c": "country:MX"
+ },
+ {
+  "id": "city:geonames-4160021",
+  "t": "city",
+  "n": "Jacksonville",
+  "a": [
+   "Jacksonville"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-4164138",
+  "t": "city",
+  "n": "Miami",
+  "a": [
+   "Miami"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-4167147",
+  "t": "city",
+  "n": "Orlando",
+  "a": [
+   "Orlando"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-4174757",
+  "t": "city",
+  "n": "Tampa",
+  "a": [
+   "Tampa"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-4281730",
+  "t": "city",
+  "n": "Wichita",
+  "a": [
+   "Wichita"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-4297983",
+  "t": "city",
+  "n": "Lexington",
+  "a": [
+   "Lexington"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-4297999",
+  "t": "city",
+  "n": "Lexington-Fayette",
+  "a": [
+   "Lexington-Fayette"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-4299276",
+  "t": "city",
+  "n": "Louisville",
+  "a": [
+   "Louisville"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-4335045",
+  "t": "city",
+  "n": "New Orleans",
+  "a": [
+   "New Orleans"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-4347778",
+  "t": "city",
+  "n": "Baltimore",
+  "a": [
+   "Baltimore"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-4393217",
+  "t": "city",
+  "n": "Kansas City",
+  "a": [
+   "Kansas City"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-4508722",
+  "t": "city",
+  "n": "Cincinnati",
+  "a": [
+   "Cincinnati"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-4553433",
+  "t": "city",
+  "n": "Tulsa",
+  "a": [
+   "Tulsa"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-4560349",
+  "t": "city",
+  "n": "Philadelphia",
+  "a": [
+   "Philadelphia"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-4641239",
+  "t": "city",
+  "n": "Memphis",
+  "a": [
+   "Memphis"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-4671240",
+  "t": "city",
+  "n": "Arlington",
+  "a": [
+   "Arlington"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-4683416",
+  "t": "city",
+  "n": "Corpus Christi",
+  "a": [
+   "Corpus Christi"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-468902",
+  "t": "city",
+  "n": "Yaroslavl",
+  "a": [
+   "Yaroslavl"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-472231",
+  "t": "city",
+  "n": "Volzhsky",
+  "a": [
+   "Volzhsky"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-472459",
+  "t": "city",
+  "n": "Vologda",
+  "a": [
+   "Vologda"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-473247",
+  "t": "city",
+  "n": "Vladimir",
+  "a": [
+   "Vladimir"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-473249",
+  "t": "city",
+  "n": "Vladikavkaz",
+  "a": [
+   "Vladikavkaz"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-479123",
+  "t": "city",
+  "n": "Ulyanovsk",
+  "a": [
+   "Ulyanovsk"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-4791259",
+  "t": "city",
+  "n": "Virginia Beach",
+  "a": [
+   "Virginia Beach"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-479561",
+  "t": "city",
+  "n": "Ufa",
+  "a": [
+   "Ufa"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-480060",
+  "t": "city",
+  "n": "Tver",
+  "a": [
+   "Tver"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-480562",
+  "t": "city",
+  "n": "Tula",
+  "a": [
+   "Tula"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-482283",
+  "t": "city",
+  "n": "Tolyatti",
+  "a": [
+   "Tolyatti"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-487846",
+  "t": "city",
+  "n": "Stavropol",
+  "a": [
+   "Stavropol"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-491422",
+  "t": "city",
+  "n": "Sochi",
+  "a": [
+   "Sochi"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-491687",
+  "t": "city",
+  "n": "Smolensk",
+  "a": [
+   "Smolensk"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-498698",
+  "t": "city",
+  "n": "Saransk",
+  "a": [
+   "Saransk"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-4990729",
+  "t": "city",
+  "n": "Detroit",
+  "a": [
+   "Detroit"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-500096",
+  "t": "city",
+  "n": "Ryazan’",
+  "a": [
+   "Ryazan'",
+   "Ryazan'"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-5037649",
+  "t": "city",
+  "n": "Minneapolis",
+  "a": [
+   "Minneapolis"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-5074472",
+  "t": "city",
+  "n": "Omaha",
+  "a": [
+   "Omaha"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-5110266",
+  "t": "city",
+  "n": "The Bronx",
+  "a": [
+   "The Bronx"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-5110302",
+  "t": "city",
+  "n": "Brooklyn",
+  "a": [
+   "Brooklyn"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-511565",
+  "t": "city",
+  "n": "Penza",
+  "a": [
+   "Penza"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-5125771",
+  "t": "city",
+  "n": "Manhattan",
+  "a": [
+   "Manhattan"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-5133273",
+  "t": "city",
+  "n": "Queens",
+  "a": [
+   "Queens"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-5139568",
+  "t": "city",
+  "n": "Staten Island",
+  "a": [
+   "Staten Island"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-515003",
+  "t": "city",
+  "n": "Orenburg",
+  "a": [
+   "Orenburg"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-515012",
+  "t": "city",
+  "n": "Orël",
+  "a": [
+   "Orel",
+   "Orel"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-5150529",
+  "t": "city",
+  "n": "Cleveland",
+  "a": [
+   "Cleveland"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-520494",
+  "t": "city",
+  "n": "Nizhny Tagil",
+  "a": [
+   "Nizhny Tagil"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-5206379",
+  "t": "city",
+  "n": "Pittsburgh",
+  "a": [
+   "Pittsburgh"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-523750",
+  "t": "city",
+  "n": "Naberezhnyye Chelny",
+  "a": [
+   "Naberezhnyye Chelny"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-5263045",
+  "t": "city",
+  "n": "Milwaukee",
+  "a": [
+   "Milwaukee"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-5304391",
+  "t": "city",
+  "n": "Mesa",
+  "a": [
+   "Mesa"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-5318313",
+  "t": "city",
+  "n": "Tucson",
+  "a": [
+   "Tucson"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-532096",
+  "t": "city",
+  "n": "Makhachkala",
+  "a": [
+   "Makhachkala"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-532288",
+  "t": "city",
+  "n": "Magnitogorsk",
+  "a": [
+   "Magnitogorsk"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-5323810",
+  "t": "city",
+  "n": "Anaheim",
+  "a": [
+   "Anaheim"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-5325738",
+  "t": "city",
+  "n": "Bakersfield",
+  "a": [
+   "Bakersfield"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-5350937",
+  "t": "city",
+  "n": "Fresno",
+  "a": [
+   "Fresno"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-535121",
+  "t": "city",
+  "n": "Lipetsk",
+  "a": [
+   "Lipetsk"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-5367929",
+  "t": "city",
+  "n": "Long Beach",
+  "a": [
+   "Long Beach"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-5378538",
+  "t": "city",
+  "n": "Oakland",
+  "a": [
+   "Oakland"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-538560",
+  "t": "city",
+  "n": "Kursk",
+  "a": [
+   "Kursk"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-5387877",
+  "t": "city",
+  "n": "Riverside",
+  "a": [
+   "Riverside"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-5392900",
+  "t": "city",
+  "n": "Santa Ana",
+  "a": [
+   "Santa Ana"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-5399020",
+  "t": "city",
+  "n": "Stockton",
+  "a": [
+   "Stockton"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-5412347",
+  "t": "city",
+  "n": "Aurora",
+  "a": [
+   "Aurora"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-5417598",
+  "t": "city",
+  "n": "Colorado Springs",
+  "a": [
+   "Colorado Springs"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-5454711",
+  "t": "city",
+  "n": "Albuquerque",
+  "a": [
+   "Albuquerque"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-548408",
+  "t": "city",
+  "n": "Kirov",
+  "a": [
+   "Kirov"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-5506956",
+  "t": "city",
+  "n": "Las Vegas",
+  "a": [
+   "Las Vegas"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-5520993",
+  "t": "city",
+  "n": "El Paso",
+  "a": [
+   "El Paso"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-553915",
+  "t": "city",
+  "n": "Kaluga",
+  "a": [
+   "Kaluga"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-554234",
+  "t": "city",
+  "n": "Kaliningrad",
+  "a": [
+   "Kaliningrad"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-554840",
+  "t": "city",
+  "n": "Izhevsk",
+  "a": [
+   "Izhevsk"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-555312",
+  "t": "city",
+  "n": "Ivanovo",
+  "a": [
+   "Ivanovo"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-569223",
+  "t": "city",
+  "n": "Cherepovets",
+  "a": [
+   "Cherepovets"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-569696",
+  "t": "city",
+  "n": "Cheboksary",
+  "a": [
+   "Cheboksary"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-571476",
+  "t": "city",
+  "n": "Bryansk",
+  "a": [
+   "Bryansk"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-57289",
+  "t": "city",
+  "n": "Hargeysa",
+  "a": [
+   "Hargeysa"
+  ],
+  "c": "country:SO"
+ },
+ {
+  "id": "city:geonames-5746545",
+  "t": "city",
+  "n": "Portland",
+  "a": [
+   "Portland"
+  ],
+  "c": "country:US"
+ },
+ {
+  "id": "city:geonames-578072",
+  "t": "city",
+  "n": "Belgorod",
+  "a": [
+   "Belgorod"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-580497",
+  "t": "city",
+  "n": "Astrakhan",
+  "a": [
+   "Astrakhan"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-581049",
+  "t": "city",
+  "n": "Arkhangel’sk",
+  "a": [
+   "Arkhangel'sk",
+   "Arkhangel'sk"
+  ],
+  "c": "country:RU"
+ },
+ {
+  "id": "city:geonames-5950268",
+  "t": "city",
+  "n": "Etobicoke",
+  "a": [
+   "Etobicoke"
+  ],
+  "c": "country:CA"
+ },
+ {
+  "id": "city:geonames-5959974",
+  "t": "city",
+  "n": "Gatineau",
+  "a": [
+   "Gatineau"
+  ],
+  "c": "country:CA"
+ },
+ {
+  "id": "city:geonames-6173577",
+  "t": "city",
+  "n": "Vaughan",
+  "a": [
+   "Vaughan"
+  ],
+  "c": "country:CA"
+ },
+ {
+  "id": "city:geonames-6295587",
+  "t": "city",
+  "n": "Batam",
+  "a": [
+   "Batam"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-6316406",
+  "t": "city",
+  "n": "Aparecida de Goiânia",
+  "a": [
+   "Aparecida de Goiania",
+   "Aparecida de Goiania"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-6317344",
+  "t": "city",
+  "n": "Jaboatão dos Guararapes",
+  "a": [
+   "Jaboatao dos Guararapes",
+   "Jaboatao dos Guararapes"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-6317370",
+  "t": "city",
+  "n": "Jardim Presidente Dutra",
+  "a": [
+   "Jardim Presidente Dutra"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-6317872",
+  "t": "city",
+  "n": "Parauapebas",
+  "a": [
+   "Parauapebas"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-64021",
+  "t": "city",
+  "n": "Borama",
+  "a": [
+   "Borama"
+  ],
+  "c": "country:SO"
+ },
+ {
+  "id": "city:geonames-6642286",
+  "t": "city",
+  "n": "E’zhou",
+  "a": [
+   "E'zhou",
+   "E'zhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-6847550",
+  "t": "city",
+  "n": "Kota Kuala Muda",
+  "a": [
+   "Kota Kuala Muda"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-6861211",
+  "t": "city",
+  "n": "Kāshān",
+  "a": [
+   "Kashan",
+   "Kashan"
+  ],
+  "c": "country:IR"
+ },
+ {
+  "id": "city:geonames-6929460",
+  "t": "city",
+  "n": "Panzhihua",
+  "a": [
+   "Panzhihua"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-693805",
+  "t": "city",
+  "n": "Simferopol",
+  "a": [
+   "Simferopol"
+  ],
+  "c": "country:UA"
+ },
+ {
+  "id": "city:geonames-694423",
+  "t": "city",
+  "n": "Sevastopol",
+  "a": [
+   "Sevastopol"
+  ],
+  "c": "country:UA"
+ },
+ {
+  "id": "city:geonames-6947637",
+  "t": "city",
+  "n": "Ataşehir",
+  "a": [
+   "Atasehir",
+   "Atasehir"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-6947640",
+  "t": "city",
+  "n": "Beylikdüzü",
+  "a": [
+   "Beylikduezue",
+   "Beylikduezue"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-6955677",
+  "t": "city",
+  "n": "Çankaya",
+  "a": [
+   "Cankaya",
+   "Cankaya"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-6958518",
+  "t": "city",
+  "n": "Tantou",
+  "a": [
+   "Tantou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-6986104",
+  "t": "city",
+  "n": "Zhongshan",
+  "a": [
+   "Zhongshan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-698740",
+  "t": "city",
+  "n": "Odesa",
+  "a": [
+   "Odesa"
+  ],
+  "c": "country:UA"
+ },
+ {
+  "id": "city:geonames-700569",
+  "t": "city",
+  "n": "Mykolayiv",
+  "a": [
+   "Mykolayiv"
+  ],
+  "c": "country:UA"
+ },
+ {
+  "id": "city:geonames-702320",
+  "t": "city",
+  "n": "Makiyivka",
+  "a": [
+   "Makiyivka"
+  ],
+  "c": "country:UA"
+ },
+ {
+  "id": "city:geonames-702550",
+  "t": "city",
+  "n": "Lviv",
+  "a": [
+   "Lviv"
+  ],
+  "c": "country:UA"
+ },
+ {
+  "id": "city:geonames-702658",
+  "t": "city",
+  "n": "Luhansk",
+  "a": [
+   "Luhansk"
+  ],
+  "c": "country:UA"
+ },
+ {
+  "id": "city:geonames-7064006",
+  "t": "city",
+  "n": "Tongchuan",
+  "a": [
+   "Tongchuan"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-706483",
+  "t": "city",
+  "n": "Kharkiv",
+  "a": [
+   "Kharkiv"
+  ],
+  "c": "country:UA"
+ },
+ {
+  "id": "city:geonames-726050",
+  "t": "city",
+  "n": "Varna",
+  "a": [
+   "Varna"
+  ],
+  "c": "country:BG"
+ },
+ {
+  "id": "city:geonames-7281838",
+  "t": "city",
+  "n": "Logan City",
+  "a": [
+   "Logan City"
+  ],
+  "c": "country:AU"
+ },
+ {
+  "id": "city:geonames-728193",
+  "t": "city",
+  "n": "Plovdiv",
+  "a": [
+   "Plovdiv"
+  ],
+  "c": "country:BG"
+ },
+ {
+  "id": "city:geonames-7283386",
+  "t": "city",
+  "n": "Changshu",
+  "a": [
+   "Changshu"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-7290466",
+  "t": "city",
+  "n": "Pasig City",
+  "a": [
+   "Pasig City"
+  ],
+  "c": "country:PH"
+ },
+ {
+  "id": "city:geonames-7290718",
+  "t": "city",
+  "n": "Barra da Tijuca",
+  "a": [
+   "Barra da Tijuca"
+  ],
+  "c": "country:BR"
+ },
+ {
+  "id": "city:geonames-7304020",
+  "t": "city",
+  "n": "Fenghuang",
+  "a": [
+   "Fenghuang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-738329",
+  "t": "city",
+  "n": "Üsküdar",
+  "a": [
+   "UEskuedar",
+   "UEskuedar"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-738377",
+  "t": "city",
+  "n": "Ümraniye",
+  "a": [
+   "UEmraniye",
+   "UEmraniye"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-739549",
+  "t": "city",
+  "n": "Şişli",
+  "a": [
+   "Sisli",
+   "Sisli"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-741763",
+  "t": "city",
+  "n": "Maltepe",
+  "a": [
+   "Maltepe"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-742394",
+  "t": "city",
+  "n": "Küçükçekmece",
+  "a": [
+   "Kuecuekcekmece",
+   "Kuecuekcekmece"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-747158",
+  "t": "city",
+  "n": "Fatih",
+  "a": [
+   "Fatih"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-747323",
+  "t": "city",
+  "n": "Esenyurt",
+  "a": [
+   "Esenyurt"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-747340",
+  "t": "city",
+  "n": "Esenler",
+  "a": [
+   "Esenler"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-7483813",
+  "t": "city",
+  "n": "Natore",
+  "a": [
+   "Natore"
+  ],
+  "c": "country:BD"
+ },
+ {
+  "id": "city:geonames-751324",
+  "t": "city",
+  "n": "Bağcılar",
+  "a": [
+   "Bagcilar",
+   "Bagcilar"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-7576887",
+  "t": "city",
+  "n": "Hezhou",
+  "a": [
+   "Hezhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-7602670",
+  "t": "city",
+  "n": "Zhu Cheng City",
+  "a": [
+   "Zhu Cheng City"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-7626690",
+  "t": "city",
+  "n": "Pimpri-Chinchwad",
+  "a": [
+   "Pimpri-Chinchwad"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-7627067",
+  "t": "city",
+  "n": "Bahçelievler",
+  "a": [
+   "Bahcelievler",
+   "Bahcelievler"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-7628416",
+  "t": "city",
+  "n": "Sultangazi",
+  "a": [
+   "Sultangazi"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-7628419",
+  "t": "city",
+  "n": "Sultanbeyli",
+  "a": [
+   "Sultanbeyli"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-7628420",
+  "t": "city",
+  "n": "Sancaktepe",
+  "a": [
+   "Sancaktepe"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-7648070",
+  "t": "city",
+  "n": "Balbala",
+  "a": [
+   "Balbala"
+  ],
+  "c": "country:DJ"
+ },
+ {
+  "id": "city:geonames-7701384",
+  "t": "city",
+  "n": "Karabağlar",
+  "a": [
+   "Karabaglar",
+   "Karabaglar"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-7732748",
+  "t": "city",
+  "n": "Lekki",
+  "a": [
+   "Lekki"
+  ],
+  "c": "country:NG"
+ },
+ {
+  "id": "city:geonames-7758790",
+  "t": "city",
+  "n": "Kikolo",
+  "a": [
+   "Kikolo"
+  ],
+  "c": "country:AO"
+ },
+ {
+  "id": "city:geonames-7795834",
+  "t": "city",
+  "n": "Selayang Baru Utara",
+  "a": [
+   "Selayang Baru Utara"
+  ],
+  "c": "country:MY"
+ },
+ {
+  "id": "city:geonames-7802746",
+  "t": "city",
+  "n": "Sadr City",
+  "a": [
+   "Sadr City"
+  ],
+  "c": "country:IQ"
+ },
+ {
+  "id": "city:geonames-7874116",
+  "t": "city",
+  "n": "Santo Domingo Oeste",
+  "a": [
+   "Santo Domingo Oeste"
+  ],
+  "c": "country:DO"
+ },
+ {
+  "id": "city:geonames-78754",
+  "t": "city",
+  "n": "Mukalla",
+  "a": [
+   "Mukalla"
+  ],
+  "c": "country:YE"
+ },
+ {
+  "id": "city:geonames-8054802",
+  "t": "city",
+  "n": "Xilinhot",
+  "a": [
+   "Xilinhot"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-8067345",
+  "t": "city",
+  "n": "Lhoka",
+  "a": [
+   "Lhoka"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-8074174",
+  "t": "city",
+  "n": "Muratpaşa",
+  "a": [
+   "Muratpasa",
+   "Muratpasa"
+  ],
+  "c": "country:TR"
+ },
+ {
+  "id": "city:geonames-8307074",
+  "t": "city",
+  "n": "Mulenvos",
+  "a": [
+   "Mulenvos"
+  ],
+  "c": "country:AO"
+ },
+ {
+  "id": "city:geonames-8307452",
+  "t": "city",
+  "n": "Huangpu",
+  "a": [
+   "Huangpu"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-8310663",
+  "t": "city",
+  "n": "Central Coast",
+  "a": [
+   "Central Coast"
+  ],
+  "c": "country:AU"
+ },
+ {
+  "id": "city:geonames-8335361",
+  "t": "city",
+  "n": "Ulanqab",
+  "a": [
+   "Ulanqab"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-8347664",
+  "t": "city",
+  "n": "Ordos",
+  "a": [
+   "Ordos"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-8400694",
+  "t": "city",
+  "n": "Taizhou",
+  "a": [
+   "Taizhou"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-8440756",
+  "t": "city",
+  "n": "Modīnagar",
+  "a": [
+   "Modinagar",
+   "Modinagar"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-8469284",
+  "t": "city",
+  "n": "Katsushika",
+  "a": [
+   "Katsushika"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-8469285",
+  "t": "city",
+  "n": "Kita",
+  "a": [
+   "Kita"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-8469289",
+  "t": "city",
+  "n": "Ōta",
+  "a": [
+   "Ota",
+   "Ota"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-8505006",
+  "t": "city",
+  "n": "Wenshan City",
+  "a": [
+   "Wenshan City"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-8533133",
+  "t": "city",
+  "n": "Liupanshui",
+  "a": [
+   "Liupanshui"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-8537264",
+  "t": "city",
+  "n": "Huanggang",
+  "a": [
+   "Huanggang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-8581443",
+  "t": "city",
+  "n": "South Tangerang",
+  "a": [
+   "South Tangerang"
+  ],
+  "c": "country:ID"
+ },
+ {
+  "id": "city:geonames-8601412",
+  "t": "city",
+  "n": "Santo Domingo Este",
+  "a": [
+   "Santo Domingo Este"
+  ],
+  "c": "country:DO"
+ },
+ {
+  "id": "city:geonames-8616121",
+  "t": "city",
+  "n": "Đống Đa",
+  "a": [
+   "GJong GJa",
+   "GJong GJa"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-8616127",
+  "t": "city",
+  "n": "Hai Bà Trưng",
+  "a": [
+   "Hai Ba Trung",
+   "Hai Ba Trung"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-8629640",
+  "t": "city",
+  "n": "Thoothukudi",
+  "a": [
+   "Thoothukudi"
+  ],
+  "c": "country:IN"
+ },
+ {
+  "id": "city:geonames-8715035",
+  "t": "city",
+  "n": "Nakano",
+  "a": [
+   "Nakano"
+  ],
+  "c": "country:JP"
+ },
+ {
+  "id": "city:geonames-8740157",
+  "t": "city",
+  "n": "Hlaingthaya",
+  "a": [
+   "Hlaingthaya"
+  ],
+  "c": "country:MM"
+ },
+ {
+  "id": "city:geonames-897045",
+  "t": "city",
+  "n": "Solwezi",
+  "a": [
+   "Solwezi"
+  ],
+  "c": "country:ZM"
+ },
+ {
+  "id": "city:geonames-9072919",
+  "t": "city",
+  "n": "Rizhao",
+  "a": [
+   "Rizhao"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-9181182",
+  "t": "city",
+  "n": "Puyang",
+  "a": [
+   "Puyang"
+  ],
+  "c": "country:CN"
+ },
+ {
+  "id": "city:geonames-918702",
+  "t": "city",
+  "n": "Chipata",
+  "a": [
+   "Chipata"
+  ],
+  "c": "country:ZM"
+ },
+ {
+  "id": "city:geonames-922773",
+  "t": "city",
+  "n": "Kolwezi",
+  "a": [
+   "Kolwezi"
+  ],
+  "c": "country:CD"
+ },
+ {
+  "id": "city:geonames-939270",
+  "t": "city",
+  "n": "Emalahleni",
+  "a": [
+   "Emalahleni"
+  ],
+  "c": "country:ZA"
+ },
+ {
+  "id": "city:geonames-940909",
+  "t": "city",
+  "n": "Welkom",
+  "a": [
+   "Welkom"
+  ],
+  "c": "country:ZA"
+ },
+ {
+  "id": "city:geonames-944385",
+  "t": "city",
+  "n": "Vereeniging",
+  "a": [
+   "Vereeniging"
+  ],
+  "c": "country:ZA"
+ },
+ {
+  "id": "city:geonames-949880",
+  "t": "city",
+  "n": "Thembisa",
+  "a": [
+   "Thembisa"
+  ],
+  "c": "country:ZA"
+ },
+ {
+  "id": "city:geonames-954013",
+  "t": "city",
+  "n": "Soshanguve",
+  "a": [
+   "Soshanguve"
+  ],
+  "c": "country:ZA"
+ },
+ {
+  "id": "city:geonames-958724",
+  "t": "city",
+  "n": "Rustenburg",
+  "a": [
+   "Rustenburg"
+  ],
+  "c": "country:ZA"
+ },
+ {
+  "id": "city:geonames-9645084",
+  "t": "city",
+  "n": "Quận Mười Một",
+  "a": [
+   "Quan Muoi Mot",
+   "Quan Muoi Mot"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-9645085",
+  "t": "city",
+  "n": "Quận Mười",
+  "a": [
+   "Quan Muoi",
+   "Quan Muoi"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-965301",
+  "t": "city",
+  "n": "Pietermaritzburg",
+  "a": [
+   "Pietermaritzburg"
+  ],
+  "c": "country:ZA"
+ },
+ {
+  "id": "city:geonames-96994",
+  "t": "city",
+  "n": "Dihok",
+  "a": [
+   "Dihok"
+  ],
+  "c": "country:IQ"
+ },
+ {
+  "id": "city:geonames-971421",
+  "t": "city",
+  "n": "Newcastle",
+  "a": [
+   "Newcastle"
+  ],
+  "c": "country:ZA"
+ },
+ {
+  "id": "city:geonames-986822",
+  "t": "city",
+  "n": "Krugersdorp",
+  "a": [
+   "Krugersdorp"
+  ],
+  "c": "country:ZA"
+ },
+ {
+  "id": "city:geonames-9871722",
+  "t": "city",
+  "n": "Gia Lâm",
+  "a": [
+   "Gia Lam",
+   "Gia Lam"
+  ],
+  "c": "country:VN"
+ },
+ {
+  "id": "city:geonames-99100",
+  "t": "city",
+  "n": "Al Maḩmūdīyah",
+  "a": [
+   "Al Mahmudiyah",
+   "Al Mahmudiyah"
+  ],
+  "c": "country:IQ"
+ },
+ {
+  "id": "city:geonames-9931406",
+  "t": "city",
+  "n": "Jianshui",
+  "a": [
+   "Jianshui"
+  ],
+  "c": "country:CN"
+ },
+ {
   "id": "city:GF-cayenne",
   "t": "city",
   "n": "Cayenne",

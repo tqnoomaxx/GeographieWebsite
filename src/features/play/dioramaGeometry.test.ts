@@ -1,6 +1,13 @@
 import { describe, expect, it } from 'vitest'
 import { CatmullRomCurve3, OrthographicCamera, Vector3 } from 'three'
-import { createRibbonGeometry, DIORAMA_FRAME_POINTS, fitDioramaCamera } from './dioramaGeometry'
+import {
+  createIslandGeometry,
+  createRibbonGeometry,
+  DEFAULT_DIORAMA_VIEW,
+  DIORAMA_FRAME_POINTS,
+  DIORAMA_ZOOM,
+  fitDioramaCamera,
+} from './dioramaGeometry'
 
 describe('Diorama camera framing', () => {
   it.each([
@@ -29,6 +36,46 @@ describe('Diorama camera framing', () => {
     fitDioramaCamera(camera, 364, 512)
     fitDioramaCamera(camera, 1400, 752)
     expect(camera.position.distanceTo(position)).toBeLessThan(0.000001)
+  })
+
+  it.each([-Math.PI, -Math.PI / 2, Math.PI / 2])('frames every station after rotating by %f', (angle) => {
+    const camera = new OrthographicCamera(-182, 182, 300, -300, 0.1, 80)
+    fitDioramaCamera(camera, 364, 600, { angle, zoom: 1 })
+    for (const point of DIORAMA_FRAME_POINTS) {
+      const projected = point.clone().project(camera)
+      expect(Math.abs(projected.x)).toBeLessThan(1)
+      expect(Math.abs(projected.y)).toBeLessThan(1)
+    }
+  })
+
+  it('clamps zoom and returns exactly to the overview after reset', () => {
+    const camera = new OrthographicCamera(-560, 560, 380, -380, 0.1, 80)
+    fitDioramaCamera(camera, 1120, 760)
+    const original = { position: camera.position.clone(), zoom: camera.zoom }
+    fitDioramaCamera(camera, 1120, 760, { angle: 0, zoom: 100 })
+    expect(camera.zoom).toBeCloseTo(original.zoom * DIORAMA_ZOOM.max)
+    fitDioramaCamera(camera, 1120, 760, { angle: Math.PI / 2, zoom: 1.4 })
+    fitDioramaCamera(camera, 1120, 760, DEFAULT_DIORAMA_VIEW)
+    expect(camera.position.distanceTo(original.position)).toBeLessThan(0.000001)
+    expect(camera.zoom).toBeCloseTo(original.zoom)
+  })
+})
+
+describe('Floating island geometry', () => {
+  it.each(['grass', 'cliff'] as const)('creates finite %s facets with a color per vertex', (kind) => {
+    const geometry = createIslandGeometry(kind)
+    const positions = geometry.getAttribute('position')
+    expect(positions.count).toBeGreaterThan(100)
+    expect(geometry.getAttribute('color').count).toBe(positions.count)
+    for (let i = 0; i < positions.count; i++) {
+      expect(Number.isFinite(positions.getX(i))).toBe(true)
+      expect(Number.isFinite(positions.getY(i))).toBe(true)
+      expect(Number.isFinite(positions.getZ(i))).toBe(true)
+      if (kind === 'grass') expect(geometry.getAttribute('normal').getY(i)).toBeCloseTo(1)
+    }
+    expect(geometry.boundingBox!.max.y).toBeCloseTo(0)
+    if (kind === 'cliff') expect(geometry.boundingBox!.min.y).toBeLessThanOrEqual(-2.7)
+    geometry.dispose()
   })
 })
 

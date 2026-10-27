@@ -25,7 +25,14 @@ export interface RoundConfig {
 }
 
 export function defaultRound(category: CategoryId): RoundConfig {
-  return { category, mode: AUTO, scope: quizFor(category).defaultScope ?? 'world', length: 10, repeat: true }
+  const quiz = quizFor(category)
+  return {
+    category,
+    mode: quiz.defaultMode ?? AUTO,
+    scope: quiz.defaultScope ?? 'world',
+    length: 10,
+    repeat: true,
+  }
 }
 
 export function toQuery(c: RoundConfig): string {

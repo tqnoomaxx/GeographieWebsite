@@ -9,7 +9,7 @@ import { createRng } from '@/engine/rng'
 import { selectionWeight } from '@/engine/srs'
 import { getRepository } from '@/services/progress'
 import { applyLearned } from '@/services/gamification'
-import { Page, Chips, Flag, formatNumber, entityPath, EmptyState, ErrorState, LoadingState } from '@/ui'
+import { Page, Flag, formatNumber, entityPath, EmptyState, ErrorState, LoadingState } from '@/ui'
 import { ReviewPanel } from './ReviewPanel'
 import { FactGrid } from '@/features/explore/facts'
 
@@ -25,7 +25,9 @@ export default function LearnPage() {
 
   const queue = useMemo(() => {
     if (!geo.ready || !progress) return []
-    const pool = geo.countries.filter((c) => (c as Country).attributes.independent !== false && inScope(c, scope, geo.byId))
+    const pool = geo.countries.filter(
+      (c) => (c as Country).attributes.independent !== false && inScope(c, scope, geo.byId),
+    )
     const rng = createRng(`learn:${scope}:${seed}`)
     return rng
       .shuffle(pool)
@@ -47,76 +49,105 @@ export default function LearnPage() {
       await applyLearned(repo, current.id)
       setLearnedNow((n) => n + 1)
       setIdx((i) => i + 1)
-    } catch { setMarkError(true) }
-    finally { setMarking(false) }
+    } catch {
+      setMarkError(true)
+    } finally {
+      setMarking(false)
+    }
   }
 
   return (
     <Page wide>
-      <header className="learn-masthead">
-        <div><h1>{t('learn.title')}</h1></div>
-        <p>Land für Land.<br /><strong>Die Welt bleibt hängen.</strong></p>
-        <Link to="/learn/cards?collection=countries" className="btn-secondary">{t('setup.cards')} ↗</Link>
+      <header className="simple-page-heading simple-learning-heading">
+        <div>
+          <h1>Lernen</h1>
+          <p>Länder Schritt für Schritt kennenlernen.</p>
+        </div>
+        <Link to="/learn/cards?collection=countries" className="btn-secondary">
+          Lernkarten
+        </Link>
       </header>
-      <ReviewPanel refresh={learnedNow} />
-      {markError && <p role="alert" className="mb-3 text-bad">Lernstand konnte nicht gespeichert werden. Bitte erneut markieren.</p>}
-      {error ? <ErrorState onRetry={reload} /> : loading || !geo.ready ? <LoadingState message="Lernkarten werden geladen …" /> : !current ? (
+      <label className="simple-learn-scope">
+        Wo möchtest du lernen?
+        <select
+          aria-label="Lernbereich"
+          value={scope}
+          onChange={(event) => {
+            setScope(event.target.value)
+            localStorage.setItem('gk.learn.scope', event.target.value)
+          }}
+        >
+          {SCOPES.map((s) => (
+            <option value={s} key={s}>
+              {t(`scope.${s}`)}
+            </option>
+          ))}
+        </select>
+      </label>
+      {markError && (
+        <p role="alert" className="mb-3 text-bad">
+          Lernstand konnte nicht gespeichert werden. Bitte erneut markieren.
+        </p>
+      )}
+      {error ? (
+        <ErrorState onRetry={reload} />
+      ) : loading || !geo.ready ? (
+        <LoadingState message="Lernkarten werden geladen …" />
+      ) : !current ? (
         <EmptyState
           icon="✅"
           title={t('learn.all_done')}
           action={
-            <button className="btn-primary" onClick={() => { setSeed((s) => s + 1); reload() }}>
+            <button
+              className="btn-primary"
+              onClick={() => {
+                setSeed((s) => s + 1)
+                reload()
+              }}
+            >
               {t('learn.next')}
             </button>
           }
         />
       ) : (
-        <div className="learn-workspace">
-          <aside className="learn-scope-rail">
-            <span className="atlas-label">01 · GEBIET</span>
-            <Chips
-              label={t('play.scope')}
-              value={scope}
-              onChange={(s) => {
-                setScope(s)
-                localStorage.setItem('gk.learn.scope', s)
-              }}
-              items={SCOPES.map((s) => ({ value: s as string, label: t(`scope.${s}`) }))}
-            />
-            <div className="learn-counter"><strong>{formatNumber(queue.length)}</strong><span>Länder<br />in dieser Route</span></div>
-          </aside>
-          <article className="learn-sheet">
-            <header className="learn-sheet-head">
-              <span>{String(idx + 1).padStart(2, '0')} / {String(queue.length).padStart(2, '0')}</span>
-              <span>{t(`scope.${current.attributes.continent}`)} · {t(`learn.states.${progress?.get(current.id)?.state ?? 'new'}`)}</span>
-            </header>
-            <div className="learn-sheet-main">
-              <div className="learn-country-identity">
-                <div className="learn-flag-stage"><Flag entity={current} size="xl" /></div>
-                <span className="atlas-label">LAND · {String(current.attributes.iso2 ?? '')}</span>
-                <h2>{current.names.de}</h2>
-              </div>
-              <div className="learn-facts">
-                <span className="atlas-label">02 · SCHLÜSSELDATEN</span>
-                <FactGrid country={current as Country} compact />
-              </div>
+        <article className="simple-learning-card">
+          <header>
+            <span>
+              {idx + 1} von {queue.length}
+            </span>
+            <span>
+              {t(`scope.${current.attributes.continent}`)} ·{' '}
+              {t(`learn.states.${progress?.get(current.id)?.state ?? 'new'}`)}
+            </span>
+          </header>
+          <div className="simple-learning-body">
+            <div className="simple-learning-country">
+              <Flag entity={current} size="lg" />
+              <h2>{current.names.de}</h2>
+              <Link to={entityPath(current)}>Land entdecken →</Link>
             </div>
-            <footer className="learn-actions">
-              <div className="learn-primary-actions"><button className="btn-primary" disabled={marking} onClick={mark}>✓ {t('learn.mark_learned')}</button>
-              <button className="btn-secondary" disabled={marking} onClick={() => setIdx((i) => i + 1)}>{t('learn.next')} →</button></div>
-              <Link to={`/play/countries/round?mode=auto&scope=${encodeURIComponent(scope)}&len=5&only=${current.id}`} className="btn-secondary">🎯 {t('learn.quiz_me')}</Link>
-              <Link to={entityPath(current)} className="learn-detail-link">Details öffnen ↗</Link>
-            </footer>
-          </article>
-          <aside className="learn-note">
-            <span>MERKSATZ</span>
-            <p>Wissen wächst nicht in Listen, sondern durch Wiedersehen.</p>
-          </aside>
-        </div>
+            <FactGrid country={current as Country} compact />
+          </div>
+          <footer>
+            <button className="btn-primary" disabled={marking} onClick={mark}>
+              ✓ {t('learn.mark_learned')}
+            </button>
+            <button className="btn-secondary" disabled={marking} onClick={() => setIdx((i) => i + 1)}>
+              {t('learn.next')} →
+            </button>
+            <Link
+              to={`/play/countries/round?mode=auto&scope=${encodeURIComponent(scope)}&len=5&only=${current.id}`}
+              className="btn-ghost"
+            >
+              Frage dazu
+            </Link>
+          </footer>
+        </article>
       )}
-      <p className="learn-today">
-        {t('learn.done_today')}: {learnedNow} · {formatNumber(queue.length)} {t('common.of')} {geo.countries.length}
+      <p className="simple-learn-today">
+        {t('learn.done_today')}: {learnedNow} · {formatNumber(queue.length)} Länder in diesem Bereich
       </p>
+      <ReviewPanel refresh={learnedNow} />
     </Page>
   )
 }

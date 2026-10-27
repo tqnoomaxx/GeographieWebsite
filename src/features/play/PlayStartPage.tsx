@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { lazy, Suspense, useMemo, useState } from 'react'
 import { Link, Navigate, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
@@ -13,34 +13,23 @@ import {
   type Content,
   type QuizMode,
 } from '@/config/quizzes'
-import { collectionFor } from '@/config/collections'
 import { SCOPES } from '@/engine/scope'
 import { defaultRound, isCountryScope, roundPath, type RoundConfig } from '@/engine/round'
-import { baseQuestionPosition, baseQuestionTotal, poolFor, setupOf } from '@/engine/session'
+import { poolFor } from '@/engine/session'
 import type { CategoryId, GeneratorContext } from '@/engine/types'
 import type { Entity } from '@/domain/types'
 import { getRepository } from '@/services/progress'
-import { Page, Card, Flag, ProgressBar } from '@/ui'
+import { Page, Flag } from '@/ui'
 import { normalizeAnswer } from '@/engine/normalize'
-import { CategoryIconTile, Icons } from '@/ui/icons'
-import { RoundTitle } from './RoundLabel'
+import { Icons } from '@/ui/icons'
+import { ArrowRight, ChevronDown, ChevronLeft, CheckCircle2, Map as MapIcon } from 'lucide-react'
+import { QuizCatalog, QUIZ_COPY, TopicIcon } from './QuizCatalog'
+import { OpenRounds } from './OpenRounds'
 import { FLAG_HINT_COUNTRY_COUNT } from './FlagImage'
-import { PlayMapSwitcher } from './PlayMapSwitcher'
+const PlayMapSwitcher = lazy(() => import('./PlayMapSwitcher').then((m) => ({ default: m.PlayMapSwitcher })))
 import { buildStationProgress } from './stationProgress'
 
 const KEY = (category: CategoryId) => `gk.setup.${category}`
-
-/** Hält die Zusammenfassung pro Breakpoint nur einmal im DOM – wichtig für eindeutige Screenreader-Ausgaben. */
-function useDesktopSetup() {
-  const [desktop, setDesktop] = useState(() => window.matchMedia('(min-width: 1024px)').matches)
-  useEffect(() => {
-    const media = window.matchMedia('(min-width: 1024px)')
-    const update = () => setDesktop(media.matches)
-    media.addEventListener('change', update)
-    return () => media.removeEventListener('change', update)
-  }, [])
-  return desktop
-}
 
 function loadSetup(
   category: CategoryId,
@@ -61,7 +50,9 @@ function loadSetup(
     requestedScope &&
     /^country:[A-Z]{2}$/.test(requestedScope)
   )
-  if (acceptsCountry && requestedScope) setup = { ...setup, scope: requestedScope }
+  if (requestedScope && (acceptsCountry || SCOPES.includes(requestedScope as (typeof SCOPES)[number]))) {
+    setup = { ...setup, scope: requestedScope }
+  }
   if (requestedMode && quizFor(category).modes.some((mode) => mode.id === requestedMode)) {
     setup = { ...setup, mode: requestedMode }
   }
@@ -106,11 +97,10 @@ function Setup({
   const geo = useGeoData()
   const quiz = quizFor(category)
   const hasGeographicScope = quiz.geographicScope !== false
-  const desktop = useDesktopSetup()
   useDocumentTitle(t(`category.${category}`))
   const [setup, setSetup] = useState<RoundConfig>(() => loadSetup(category, requestedScope, requestedMode))
   const patch = (p: Partial<RoundConfig>) => setSetup((s) => ({ ...s, ...p }))
-  const { data: progress } = useAsync(() => getRepository().getAllEntityProgress(), [])
+  const [advanced, setAdvanced] = useState(() => !!requestedMode || isCountryScope(setup.scope))
 
   const loading = !geo.ready
 
@@ -209,20 +199,12 @@ function Setup({
     [category, scope, mode, effectiveContent, geo.ready, ctxCache],
   ) // eslint-disable-line react-hooks/exhaustive-deps
   const poolSize = pool.size
-  const mastered = useMemo(
-    () =>
-      progress
-        ? [...pool.keys()].filter((id) => progress.get(id)?.state === 'mastered')
-            .length
-        : 0,
-    [pool, progress],
-  )
   const lengths = [
     ...ROUND_LENGTHS.filter((l) => l < poolSize).map((l) => ({
       value: l as number | 'all',
       label: String(l),
     })),
-    { value: 'all' as const, label: t('play.all', { count: poolSize }) },
+    { value: 'all' as const, label: 'Alle' },
   ]
   const length: number | 'all' =
     mode?.length ?? (lengths.some((l) => l.value === setup.length) ? setup.length : 'all')
@@ -250,116 +232,47 @@ function Setup({
   }
 
   return (
-    <Page
-      wide
-      title={t(`category.${category}`)}
-      back="/play"
-      action={<CategoryIconTile id={category} size="sm" />}
-    >
-      <p className="setup-intro">{t('setup.intro')}</p>
-      {category === 'languages' && <p className="setup-note setup-script-note">{t('setup.script_note')}</p>}
-      {category === 'trivia' && <p className="setup-note">{t('play.trivia_note')}</p>}
-      <div className="atlas-rule mb-7 mt-6 h-px" />
-      <div className="setup-config-grid">
-        <div className="min-w-0">
+    <Page wide>
+      <div className="simple-setup">
+        <Link to="/play" className="simple-back">
+          <ChevronLeft aria-hidden /> Alle Themen
+        </Link>
+        <header className="simple-page-heading setup-page-heading">
+          <TopicIcon id={category} />
+          <div>
+            <h1>{t(`category.${category}`)}</h1>
+            <p>{QUIZ_COPY[category] ?? t('setup.intro')}</p>
+          </div>
+        </header>
+        <div className="simple-setup-panel">
           {hasGeographicScope && (
-            <Section step={1} title={t('setup.scope_title')} description={t('setup.scope_desc')}>
-              <div className="setup-scope-grid" role="radiogroup" aria-label={t('play.scope')}>
-                {['world', ...continents].map((s, index) => {
-                  const selected = s === activeContinent
-                  return (
-                    <button
-                      key={s}
-                      type="button"
-                      role="radio"
-                      aria-checked={selected}
-                      aria-label={t(`scope.${s}`)}
-                      className={`setup-scope-choice ${selected ? 'is-selected' : ''}`}
-                      onClick={() => patch({ scope: s })}
-                    >
-                      <span className="setup-radio" aria-hidden />
-                      <span className="setup-scope-index" aria-hidden>
-                        {String(index + 1).padStart(2, '0')}
-                      </span>
-                      <span className="setup-scope-copy">
-                        <strong>{t(`scope.${s}`)}</strong>
-                        <small>
-                          {s === 'world'
-                            ? t('setup.scope_world_desc')
-                            : t('setup.scope_available', { count: count(s) })}
-                        </small>
-                      </span>
-                    </button>
-                  )
-                })}
-              </div>
-              {countries.length > 0 && (
-                <CountryPicker
-                  groups={countryGroups}
-                  continent={activeContinent === 'world' ? undefined : activeContinent}
-                  value={isCountryScope(scope) ? scope : ''}
-                  onChange={(id) => patch({ scope: id || activeContinent })}
-                />
-              )}
-              {contentOptions.length > 1 && content && (
-                <div className="setup-inline-setting">
-                  <span className="setup-inline-label">{t('setup.content_label')}</span>
-                  <SegmentedChoices
-                    label={t('setup.content_label')}
-                    value={key(content)}
-                    onChange={(v) => patch({ content: v.split('+') as Content[] })}
-                    items={contentOptions.map((c) => ({
-                      value: key(c),
-                      label: c.length === 2 ? t('setup.content.all') : t(`setup.content.${category}.${c[0]}`),
-                    }))}
-                  />
-                </div>
-              )}
-            </Section>
-          )}
-
-          {modes.length > 0 && (
-            <Section
-              step={hasGeographicScope ? 2 : 1}
-              title={t('setup.mode_title')}
-              description={t('setup.mode_section_desc')}
-            >
-              <div className="setup-mode-grid" role="radiogroup" aria-label={t('setup.mode')}>
-                <ModeChoice
-                  value={AUTO}
-                  label={t('modes.auto')}
-                  description={
-                    autoModes(quiz).some((m) => m.form === 'choice')
-                      ? t('setup.auto_desc')
-                      : t('setup.auto_desc_all')
-                  }
-                  selected={!mode}
-                  recommended
-                  icon={Icons.sparkles}
-                  onSelect={(value) => patch({ mode: value })}
-                />
-                {modes.map((item) => (
-                  <ModeChoice
-                    key={item.id}
-                    value={item.id}
-                    label={t(`modes.${item.id}`)}
-                    description={t(`modes_desc.${item.id}`, { defaultValue: '' })}
-                    selected={mode?.id === item.id}
-                    icon={
-                      item.form === 'map' ? Icons.map : item.form === 'input' ? Icons.keyboard : Icons.choices
-                    }
-                    onSelect={(value) => patch({ mode: value })}
-                  />
+            <section className="simple-setup-section">
+              <h2>Wo möchtest du üben?</h2>
+              <div className="simple-scope-grid" role="radiogroup" aria-label={t('play.scope')}>
+                {['world', ...continents].map((s) => (
+                  <button
+                    key={s}
+                    type="button"
+                    role="radio"
+                    aria-checked={s === activeContinent}
+                    aria-label={t(`scope.${s}`)}
+                    className={s === activeContinent ? 'is-selected' : ''}
+                    onClick={() => patch({ scope: s })}
+                  >
+                    <span className="simple-radio-dot" aria-hidden />
+                    <span>{t(`scope.${s}`)}</span>
+                  </button>
                 ))}
               </div>
-            </Section>
+              {isCountryScope(scope) && (
+                <p className="simple-selected-country">
+                  Ausgewähltes Land: <strong>{geo.byId.get(scope)?.names.de}</strong>
+                </p>
+              )}
+            </section>
           )}
-
-          <Section
-            step={(hasGeographicScope ? 1 : 0) + (modes.length > 0 ? 2 : 1)}
-            title={t('setup.length_title')}
-            description={t('setup.length_desc')}
-          >
+          <section className="simple-setup-section">
+            <h2>Wie viele Fragen?</h2>
             {mode?.length === 'all' ? (
               <p className="setup-note">{t('setup.europe_note', { count: poolSize })}</p>
             ) : (
@@ -370,8 +283,97 @@ function Setup({
                 items={lengths}
               />
             )}
+            <p className="simple-round-summary">
+              {length === 'all' ? `Alle ${poolSize} Fragen` : `${length} Fragen`}
+              {hasGeographicScope &&
+                ` · ${isCountryScope(scope) ? geo.byId.get(scope)?.names.de : t(`scope.${scope}`)}`}
+            </p>
+            <p className="simple-save-note">
+              <CheckCircle2 aria-hidden /> Dein Fortschritt wird gespeichert.
+            </p>
+          </section>
+        </div>
+        <button
+          type="button"
+          className="btn-primary simple-start-button"
+          onClick={start}
+          disabled={loading || poolSize < MIN_POOL}
+        >
+          Quiz starten <ArrowRight aria-hidden />
+        </button>
+        <details
+          className="simple-disclosure simple-advanced"
+          open={advanced}
+          onToggle={(e) => setAdvanced(e.currentTarget.open)}
+        >
+          <summary>
+            <span>
+              <strong>Weitere Einstellungen</strong>
+              <small>Fragetyp, Länder & Wiederholungen</small>
+            </span>
+            <ChevronDown aria-hidden />
+          </summary>
+          <div className="simple-advanced-body">
+            {countries.length > 0 && (
+              <CountryPicker
+                groups={countryGroups}
+                continent={activeContinent === 'world' ? undefined : activeContinent}
+                value={isCountryScope(scope) ? scope : ''}
+                onChange={(id) => patch({ scope: id || activeContinent })}
+              />
+            )}
+            {contentOptions.length > 1 && content && (
+              <div className="simple-setting">
+                <h2>{t('setup.content_label')}</h2>
+                <SegmentedChoices
+                  label={t('setup.content_label')}
+                  value={key(content)}
+                  onChange={(v) => patch({ content: v.split('+') as Content[] })}
+                  items={contentOptions.map((c) => ({
+                    value: key(c),
+                    label: c.length === 2 ? t('setup.content.all') : t(`setup.content.${category}.${c[0]}`),
+                  }))}
+                />
+              </div>
+            )}
+            {modes.length > 0 && (
+              <div className="simple-setting">
+                <h2>Wie möchtest du üben?</h2>
+                <div className="setup-mode-grid" role="radiogroup" aria-label={t('setup.mode')}>
+                  <ModeChoice
+                    value={AUTO}
+                    label={t('modes.auto')}
+                    description={
+                      autoModes(quiz).some((m) => m.form === 'choice')
+                        ? t('setup.auto_desc')
+                        : t('setup.auto_desc_all')
+                    }
+                    selected={!mode}
+                    icon={Icons.sparkles}
+                    onSelect={(value) => patch({ mode: value })}
+                  />
+                  {modes.map((item) => (
+                    <ModeChoice
+                      key={item.id}
+                      value={item.id}
+                      label={t(`modes.${item.id}`)}
+                      description={t(`modes_desc.${item.id}`, { defaultValue: '' })}
+                      selected={mode?.id === item.id}
+                      icon={
+                        item.form === 'map'
+                          ? Icons.map
+                          : item.form === 'input'
+                            ? Icons.keyboard
+                            : Icons.choices
+                      }
+                      onSelect={(value) => patch({ mode: value })}
+                    />
+                  ))}
+                </div>
+              </div>
+            )}
             {category === 'flags' && (
-              <label className="setup-repeat setup-flag-hints">
+              <label className="setup-repeat">
                 <span>
                   <strong>{t('setup.hide_flag_hints')}</strong>
                   <small>{t('setup.hide_flag_hints_desc', { count: FLAG_HINT_COUNTRY_COUNT })}</small>
@@ -398,93 +400,16 @@ function Setup({
                 <span className="setup-switch" aria-hidden />
               </label>
             )}
-          </Section>
-        </div>
-
-        {desktop && (
-          <aside className="setup-summary" aria-label={t('setup.expedition')}>
-            <Card className="overflow-hidden p-0">
-              <div className="setup-summary-head">
-                <p className="setup-summary-title">{t('setup.expedition')}</p>
-                <RoundTitle setup={round} icon={false} />
-              </div>
-              <div className="setup-summary-body">
-                <dl className="setup-summary-list">
-                  {hasGeographicScope && (
-                    <div className="flex justify-between gap-4">
-                      <dt className="text-ink-2">{t('play.scope')}</dt>
-                      <dd className="text-right font-medium">
-                        {isCountryScope(scope) ? geo.byId.get(scope)?.names.de : t(`scope.${scope}`)}
-                      </dd>
-                    </div>
-                  )}
-                  <div className="flex justify-between gap-4">
-                    <dt className="text-ink-2">{t('setup.mode')}</dt>
-                    <dd className="text-right font-medium">
-                      {mode ? t(`modes.${mode.id}`) : t('modes.auto')}
-                    </dd>
-                  </div>
-                  <div className="flex justify-between gap-4">
-                    <dt className="text-ink-2">{t('play.length')}</dt>
-                    <dd className="text-right font-medium">{length === 'all' ? poolSize : length}</dd>
-                  </div>
-                  <div className="flex justify-between gap-4">
-                    <dt className="text-ink-2">{t('setup.repeat_short')}</dt>
-                    <dd className="text-right font-medium">
-                      {setup.repeat ? t('setup.on') : t('setup.off')}
-                    </dd>
-                  </div>
-                  {category === 'flags' && (
-                    <div className="flex justify-between gap-4">
-                      <dt className="text-ink-2">{t('setup.flag_hints_short')}</dt>
-                      <dd className="text-right font-medium">
-                        {setup.hideFlagHints ? t('setup.hidden') : t('setup.original')}
-                      </dd>
-                    </div>
-                  )}
-                </dl>
-                <div className="setup-mastery">
-                  <div className="mb-2 flex justify-between text-xs text-ink-2">
-                    <span>
-                      {loading ? t('common.loading') : t('setup.mastered', { mastered, total: poolSize })}
-                    </span>
-                    <span>{poolSize ? Math.round((mastered / poolSize) * 100) : 0}%</span>
-                  </div>
-                  <ProgressBar value={poolSize ? mastered / poolSize : 0} />
-                </div>
-                <div className={`mt-5 grid gap-2 ${category === 'flags' ? 'sm:grid-cols-2' : ''}`}>
-                  {category === 'flags' && (
-                    <Link
-                      to={`/learn/cards?collection=${collectionFor(scope, effectiveContent, geo.byId)}`}
-                      className="btn-secondary w-full py-2"
-                    >
-                      <Icons.learn className="h-4 w-4" /> {t('setup.cards')}
-                    </Link>
-                  )}
-                  <button
-                    className="btn-primary w-full whitespace-nowrap"
-                    onClick={start}
-                    disabled={loading || poolSize < MIN_POOL}
-                  >
-                    {t('play.start')} <Icons.arrow className="h-4 w-4" />
-                  </button>
-                </div>
-              </div>
-            </Card>
-            {poolSize < MIN_POOL && !loading && (
-              <p className="mt-3 text-sm text-ink-2">{t('play.no_questions')}</p>
+            {category === 'cities' && mode?.id === 'cities_over_300k' && (
+              <p className="simple-data-note">{t('setup.large_cities_note')}</p>
             )}
-          </aside>
-        )}
+            {category === 'languages' && <p className="simple-data-note">{t('setup.script_note')}</p>}
+            {category === 'trivia' && <p className="simple-data-note">{t('play.trivia_note')}</p>}
+          </div>
+        </details>
+        {poolSize < MIN_POOL && !loading && <p role="status">{t('play.no_questions')}</p>}
+        <p className="simple-current-mode">Fragetyp: {mode ? t(`modes.${mode.id}`) : t('modes.auto')}</p>
       </div>
-      {!desktop && (
-        <div className="setup-mobile-cta">
-          <RoundTitle setup={round} icon={false} className="min-w-0 flex-1" />
-          <button className="btn-primary min-w-32" onClick={start} disabled={loading || poolSize < MIN_POOL}>
-            {t('play.start')} <Icons.arrow className="h-4 w-4" />
-          </button>
-        </div>
-      )}
     </Page>
   )
 }
@@ -634,70 +559,71 @@ function CountryPicker({
   )
 }
 
-function Section({
-  step,
-  title,
-  description,
-  children,
-}: {
-  step: number
-  title: string
-  description: string
-  children: React.ReactNode
-}) {
-  return (
-    <section className="setup-section">
-      <header className="setup-section-head">
-        <span className="setup-step">{step}</span>
-        <span>
-          <h2>{title}</h2>
-          <p>{description}</p>
-        </span>
-      </header>
-      <div className="setup-section-body">{children}</div>
-    </section>
-  )
-}
-
 function CategoryHub() {
-  const { t } = useTranslation()
+  useDocumentTitle('Quiz auswählen')
   const geo = useGeoData()
-  const { data: open } = useAsync(() => getRepository().getOpenSessions(), [])
+  const [params] = useSearchParams()
+  const directMap = params.get('view') === 'diorama'
+  const [showMap, setShowMap] = useState(directMap)
   const { data: stationProgress } = useAsync(async () => {
+    if (!showMap && !directMap) return undefined
     const repo = getRepository()
     const [stats, puzzles] = await Promise.all([repo.getStats(), repo.getPuzzles()])
     return buildStationProgress(stats, puzzles)
-  }, [])
-  useDocumentTitle(t('nav.play'))
+  }, [showMap, directMap])
+  const map = (
+    <details className="simple-disclosure" open={showMap} onToggle={(e) => setShowMap(e.currentTarget.open)}>
+      <summary>
+        <span>
+          <MapIcon aria-hidden /> Quizthemen auf der 3D-Karte ansehen
+        </span>
+        <ChevronDown aria-hidden />
+      </summary>
+      {showMap && (
+        <Suspense fallback={<p role="status">Karte wird geladen …</p>}>
+          <PlayMapSwitcher counts={geo.index?.counts} progress={stationProgress} />
+        </Suspense>
+      )}
+    </details>
+  )
   return (
     <Page wide>
-      {open && open.length > 0 && (
-        <section className="play-open-runs play-route-dock">
-          <header>
-            <span>{t('play.route_dock')}</span>
-            <h2>{t('play.open_runs')}</h2>
-          </header>
-          <div className="grid gap-2">
-            {open.slice(0, 2).map((s) => {
-              const total = baseQuestionTotal(s)
-              const position = baseQuestionPosition(s)
-              return (
-                <Link key={s.id} to={`/play/session/${encodeURIComponent(s.id)}`} className="play-open-row">
-                  <div className="min-w-0 flex-1">
-                    <RoundTitle setup={setupOf(s)} progress={{ done: position, total }} />
-                    <ProgressBar className="mt-2" value={position / total} />
-                  </div>
-                  <span className="btn-secondary py-2">{t('app.continue')}</span>
-                </Link>
-              )
-            })}
-            {open.length > 2 && (
-              <p className="text-xs text-ink-2">{t('play.more_open', { count: open.length - 2 })}</p>
-            )}
-          </div>
-        </section>
+      <header className="simple-page-heading">
+        <h1>{directMap ? 'Deine Wissensinsel' : 'Quiz auswählen'}</h1>
+        <p>
+          {directMap
+            ? 'Erkunde die Welt. Finde dein nächstes Quiz.'
+            : 'Ein Thema, ein Kontinent – und los geht’s.'}
+        </p>
+      </header>
+      <OpenRounds />
+      {directMap && (
+        <div className="diorama-direct-view">
+          <Suspense fallback={<p role="status">Karte wird geladen …</p>}>
+            <PlayMapSwitcher counts={geo.index?.counts} progress={stationProgress} />
+          </Suspense>
+        </div>
       )}
-      <PlayMapSwitcher counts={geo.index?.counts} progress={stationProgress} />
+      <QuizCatalog />
+      <section className="simple-quiz-extras">
+        <Link to="/daily">
+          <Icons.daily aria-hidden />
+          <span>
+            <strong>Lieber ein Tagesrätsel?</strong>
+            <small>Jeden Tag sechs neue Herausforderungen.</small>
+          </span>
+          <ArrowRight aria-hidden />
+        </Link>
+        <Link to="/learn">
+          <Icons.learn aria-hidden />
+          <span>
+            <strong>Erst einmal kennenlernen</strong>
+            <small>Entdecke die Welt mit Lernkarten.</small>
+          </span>
+          <ArrowRight aria-hidden />
+        </Link>
+      </section>
+      {!directMap && map}
     </Page>
   )
 }

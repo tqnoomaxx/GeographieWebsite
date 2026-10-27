@@ -127,6 +127,51 @@ export const cityToCountry: Generator = {
   },
 }
 
+/** Alle GeoNames-Städte oberhalb der Grenze, auch in abhängigen Gebieten. */
+export const largeCityToCountry: Generator = {
+  id: 'large_city_to_country',
+  category: 'cities',
+  pool: (ctx) =>
+    ctx.cities.filter(
+      (city) =>
+        typeof city.attributes.geonames_population === 'number' &&
+        city.attributes.geonames_population > 300_000 &&
+        !!countryOf(city, ctx),
+    ),
+  make(target, ctx, rng, difficulty) {
+    const country = countryOf(target, ctx)
+    if (!country) return null
+    const d = effectiveDifficulty(target, difficulty)
+    const opts = options(country, countryPool(ctx), ctx, rng, d)
+    if (!opts) return null
+    // Gleichnamige Städte bleiben spielbar; Koordinaten unterscheiden die Orte.
+    const ambiguous = this.pool(ctx).some(
+      (city) =>
+        city.id !== target.id &&
+        city.names.de.toLocaleLowerCase('de-DE') === target.names.de.toLocaleLowerCase('de-DE'),
+    )
+    const name =
+      ambiguous && target.location
+        ? `${nameOf(target)} (${target.location.lat.toFixed(2)}°, ${target.location.lon.toFixed(2)}°)`
+        : nameOf(target)
+    const population = target.attributes.geonames_population as number
+    return {
+      id: qid(this.id, target),
+      category: 'cities',
+      type: this.id,
+      question_type: 'multiple_choice',
+      prompt: { key: 'q.large_city_to_country', params: { name } },
+      answer: country.id,
+      options: opts,
+      difficulty: d,
+      entities: [target.id, country.id],
+      explanation: `${nameOf(target)} liegt in ${nameOf(country)} · ${population.toLocaleString('de-DE')} Einwohner (GeoNames).`,
+      sources: [{ label: 'GeoNames', url: `https://www.geonames.org/${target.attributes.geonames}/` }],
+      metadata: { generator: this.id, scope: ctx.scope },
+    }
+  },
+}
+
 export const cityToRegion: Generator = {
   id: 'city_to_region',
   category: 'cities',

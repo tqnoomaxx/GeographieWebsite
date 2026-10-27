@@ -1,10 +1,10 @@
 import { Suspense, useEffect } from 'react'
-import { NavLink, Outlet, useLocation } from 'react-router-dom'
+import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useOnline } from './hooks'
 import { LoadingState, ErrorState } from '@/ui'
-import { NavAtlasIcon, type NavAtlasIconId } from '@/ui/icons'
-import { BrandMark } from '@/ui/BrandMark'
+import { Icons, type NavAtlasIconId } from '@/ui/icons'
+import { Globe } from 'lucide-react'
 import { useAuth } from './AuthProvider'
 import { useDataResources } from './DataProvider'
 import { resourcesForPage } from './dataRequirements'
@@ -20,6 +20,7 @@ const NAV = [
 export function Layout() {
   const { t } = useTranslation()
   const online = useOnline()
+  const navigate = useNavigate()
   const { pathname, search } = useLocation()
   const data = useDataResources(resourcesForPage(pathname, new URLSearchParams(search)))
   const { mfaRequired } = useAuth()
@@ -28,55 +29,134 @@ export function Layout() {
     window.scrollTo(0, 0)
   }, [pathname])
 
-  const immersive = /^\/play\/[^/]+\/round/.test(pathname) || pathname.startsWith('/play/session/') || /^\/daily\/[^/]+$/.test(pathname)
+  const immersive =
+    /^\/play\/[^/]+\/round/.test(pathname) ||
+    pathname.startsWith('/play/session/') ||
+    /^\/daily\/[^/]+$/.test(pathname)
   return (
-    <div className={`cosmic-shell flex min-h-dvh flex-col ${immersive ? 'is-immersive' : 'site-shell'}`}>
-      {!immersive && <header className="site-header sticky top-0 z-40 hidden md:block">
-        <div className="site-header-inner flex w-full items-stretch px-4 md:px-6">
-          <NavLink to="/" className="site-brand flex items-center gap-3">
-            <BrandMark className="h-10 w-10" />
-            <span>{t('app.name')}</span>
-          </NavLink>
-          <nav className="site-nav flex" aria-label="Hauptnavigation">
-            {NAV.slice(1).map((n) => (
-              <NavLink key={n.to} to={n.to} className={({ isActive }) => `site-nav-link flex items-center gap-2 px-4 text-sm font-bold ${isActive ? 'is-active' : ''}`}>
-                <NavAtlasIcon id={n.icon} className="h-6 w-6" /> {t(n.key)}
+    <div className={`simple-shell flex min-h-dvh flex-col ${immersive ? 'is-immersive' : 'site-shell'}`}>
+      {!immersive && (
+        <header className="simple-header">
+          <div className="simple-header-inner">
+            <NavLink to="/" className="simple-brand">
+              <Globe aria-hidden strokeWidth={1.5} />
+              <span>{t('app.name')}</span>
+            </NavLink>
+            <nav className="simple-desktop-nav" aria-label="Hauptnavigation">
+              {NAV.map((n) => (
+                <NavLink
+                  key={n.to}
+                  to={n.to}
+                  end={n.end}
+                  className={({ isActive }) => (isActive ? 'is-active' : '')}
+                >
+                  {n.icon === 'play' ? 'Quiz' : t(n.key)}
+                </NavLink>
+              ))}
+            </nav>
+            <div className="simple-header-tools">
+              <form
+                className="simple-header-search"
+                role="search"
+                onSubmit={(event) => {
+                  event.preventDefault()
+                  const q = String(new FormData(event.currentTarget).get('q') ?? '').trim()
+                  navigate(`/search${q ? `?q=${encodeURIComponent(q)}` : ''}`)
+                }}
+              >
+                <button type="submit" aria-label="Suchen">
+                  <Icons.search aria-hidden />
+                </button>
+                <input
+                  name="q"
+                  placeholder="Themen, Länder oder Städte suchen …"
+                  aria-label="Website durchsuchen"
+                />
+              </form>
+              <NavLink
+                to="/search"
+                className="simple-icon-link mobile-search-link"
+                aria-label={t('nav.search')}
+              >
+                <Icons.search aria-hidden />
               </NavLink>
-            ))}
-          </nav>
-          <div className="site-tools ml-auto flex items-stretch">
-            <NavLink to="/daily" className="site-tool" aria-label={t('nav.daily')}><NavAtlasIcon id="daily" className="h-7 w-7" /></NavLink>
-            <NavLink to="/search" className="site-tool" aria-label={t('nav.search')}><NavAtlasIcon id="search" className="h-7 w-7" /></NavLink>
-            <NavLink to="/profile" className="site-tool" aria-label={t('nav.profile')}><NavAtlasIcon id="profile" className="h-7 w-7" /></NavLink>
+              <NavLink to="/profile" className="simple-icon-link" aria-label={t('nav.profile')}>
+                <Icons.profile aria-hidden />
+              </NavLink>
+            </div>
           </div>
+        </header>
+      )}
+      {!online && (
+        <div role="status" className="bg-warn-soft px-4 py-1.5 text-center text-xs text-ink">
+          {t('common.offline')}
         </div>
-      </header>}
-      {!online && <div role="status" className="bg-warn-soft px-4 py-1.5 text-center text-xs text-ink">{t('common.offline')}</div>}
-      {mfaRequired && pathname !== '/mfa' && <NavLink to="/mfa" role="alert" className="bg-warn-soft px-4 py-2 text-center text-sm font-medium text-ink underline">{t('account.mfa_required_banner')}</NavLink>}
+      )}
+      {mfaRequired && pathname !== '/mfa' && (
+        <NavLink
+          to="/mfa"
+          role="alert"
+          className="bg-warn-soft px-4 py-2 text-center text-sm font-medium text-ink underline"
+        >
+          {t('account.mfa_required_banner')}
+        </NavLink>
+      )}
       <main className="flex-1">
-        <div className="route-content">{data.error ? <ErrorState onRetry={data.retry} /> : data.loading ? <LoadingState /> : <Suspense fallback={<LoadingState />}><Outlet /></Suspense>}</div>
+        <div className="route-content">
+          {data.error ? (
+            <ErrorState onRetry={data.retry} />
+          ) : data.loading ? (
+            <LoadingState />
+          ) : (
+            <Suspense fallback={<LoadingState />}>
+              <Outlet />
+            </Suspense>
+          )}
+        </div>
       </main>
       {!immersive && (
-        <footer className="site-footer px-4 pb-24 pt-10 text-sm md:pb-10">
-          <div className="mx-auto flex max-w-[90rem] flex-wrap items-center gap-x-6 gap-y-3">
-            <BrandMark className="h-9 w-9" />
-            <strong>{t('app.name')}</strong>
-            <NavLink to="/impressum" className="hover:text-ink">{t('legal.imprint')}</NavLink>
-            <NavLink to="/datenschutz" className="hover:text-ink">{t('legal.privacy')}</NavLink>
-            <NavLink to="/quellen" className="hover:text-ink">{t('settings.sources')}</NavLink>
-            <span className="ml-auto">© {new Date().getFullYear()}</span>
-          </div>
+        <footer className="simple-footer">
+          <NavLink to="/" className="simple-footer-brand">
+            <Globe aria-hidden />
+            {t('app.name')}
+          </NavLink>
+          <nav aria-label="Weitere Seiten">
+            <NavLink to="/settings">Einstellungen</NavLink>
+            <NavLink to="/kontakt">Kontakt</NavLink>
+            <NavLink to="/quellen">Quellen</NavLink>
+            <NavLink to="/datenschutz">Datenschutz</NavLink>
+            <NavLink to="/impressum">Impressum</NavLink>
+          </nav>
         </footer>
       )}
       {!immersive && (
-        <nav className="mobile-nav fixed inset-x-0 bottom-0 z-40 pb-[env(safe-area-inset-bottom)] md:hidden" aria-label="Hauptnavigation">
+        <nav
+          className="mobile-nav fixed inset-x-0 bottom-0 z-40 pb-[env(safe-area-inset-bottom)] md:hidden"
+          aria-label="Hauptnavigation"
+        >
           <div className="grid grid-cols-5">
             {NAV.map((n) => (
-              <NavLink key={n.to} to={n.to} end={n.end} className={({ isActive }) => `mobile-nav-link flex min-h-16 flex-col items-center justify-center gap-0.5 text-[10px] font-bold uppercase tracking-wide ${isActive ? 'is-active' : ''}`}>
+              <NavLink
+                key={n.to}
+                to={n.to}
+                end={n.end}
+                className={({ isActive }) =>
+                  `mobile-nav-link flex min-h-16 flex-col items-center justify-center gap-0.5 text-[10px] font-bold uppercase tracking-wide ${isActive ? 'is-active' : ''}`
+                }
+              >
                 {({ isActive }) => (
                   <>
-                    <NavAtlasIcon id={n.icon} className={`h-7 w-7 ${isActive ? 'is-active' : ''}`} />
-                    {t(n.key)}
+                    {(() => {
+                      const Icon = Icons[n.icon]
+                      return (
+                        <Icon
+                          aria-hidden
+                          className={`h-5 w-5 ${isActive ? 'is-active' : ''}`}
+                          strokeWidth={1.7}
+                        />
+                      )
+                    })()}
+                    {n.icon === 'play' ? 'Quiz' : t(n.key)}
                   </>
                 )}
               </NavLink>

@@ -1,3 +1,4 @@
+import { openQuizSettings } from './controls'
 import { test, expect, type Page } from '@playwright/test'
 import { readFileSync } from 'node:fs'
 
@@ -30,7 +31,7 @@ test('Schnellstart lädt nur benötigte Pakete und spielt zehn Länderflaggen', 
   await page.goto('')
   const quick = page.getByRole('navigation', { name: 'Direkt spielen' })
   await expect(quick).toBeVisible()
-  await expect(page.getByRole('application', { name: /Interaktive Weltkugel/ })).toBeVisible()
+  await expect(page.locator('canvas')).toHaveCount(0)
   expect(packets.every((url) => url.endsWith('/countries.json'))).toBe(true)
   await quick.getByRole('link', { name: /10 Flaggen/ }).click()
   await expect(page).toHaveURL(/\/play\/flags\/round\?.*scope=world.*len=10.*content=country/)
@@ -51,10 +52,7 @@ test('Schnellstart lädt nur benötigte Pakete und spielt zehn Länderflaggen', 
 
 test('Trivia-Schnellstart umgeht die Konfiguration', async ({ page }) => {
   await page.goto('')
-  await page
-    .getByRole('navigation', { name: 'Direkt spielen' })
-    .getByRole('link', { name: /10 Trivia-Fragen/ })
-    .click()
+  await page.getByRole('link', { name: /10 Trivia-Fragen/ }).click()
   await expect(page).toHaveURL(/\/play\/trivia\/round\?.*scope=world.*len=10/)
   await expect(page.locator('[data-generator="geography_trivia"]')).toBeVisible()
   await expect(page.locator('[data-option-id]')).toHaveCount(4)
@@ -73,7 +71,7 @@ test('Lernen zeigt während eines langsamen Abrufs keinen Abschluss', async ({ p
   await expect(page.getByRole('status')).toContainText('Inhalte werden geladen')
   await expect(page.getByText(/Alles.*gelernt/)).toHaveCount(0)
   release()
-  await expect(page.locator('.learn-country-identity h2')).toBeVisible()
+  await expect(page.locator('.simple-learning-country h2')).toBeVisible()
 })
 
 test('Ein fehlgeschlagenes Quizpaket lässt sich erneut laden und blockiert die Startseite nicht', async ({
@@ -100,7 +98,7 @@ test('Ein fehlgeschlagenes Basispaket kann ohne Neuladen erneut abgerufen werden
   await expect(page.getByRole('alert')).toBeVisible()
   unavailable = false
   await page.getByRole('button', { name: 'Erneut versuchen' }).click()
-  await expect(page.locator('.learn-country-identity h2')).toBeVisible()
+  await expect(page.locator('.simple-learning-country h2')).toBeVisible()
 })
 
 for (const count of [1, 2, 3])
@@ -141,30 +139,33 @@ for (const count of [1, 2, 3])
 
 test('Suchfilter, Trefferzahl und Suchzustand bleiben beim Zurücknavigieren erhalten', async ({ page }) => {
   await page.goto('search')
-  await page.getByRole('textbox', { name: 'Suche' }).fill('Berlin')
+  await page.getByRole('textbox', { name: 'Suche', exact: true }).fill('Berlin')
   await page.getByRole('combobox', { name: 'Typ', exact: true }).selectOption('city')
   await expect(page.getByRole('status')).toContainText(/\d+ Treffer/)
   await page.getByRole('link', { name: /^Berlin Stadt/ }).click()
   await expect(page.getByRole('heading', { name: /Berlin$/, level: 1 })).toBeVisible()
   await page.goBack()
-  await expect(page.getByRole('textbox', { name: 'Suche' })).toHaveValue('Berlin')
+  await expect(page.getByRole('textbox', { name: 'Suche', exact: true })).toHaveValue('Berlin')
   await expect(page.getByRole('combobox', { name: 'Typ', exact: true })).toHaveValue('city')
   await expect(page).toHaveURL(/q=Berlin.*type=city/)
-  await page.getByRole('textbox', { name: 'Suche' }).fill('all')
-  await expect(page.getByRole('textbox', { name: 'Suche' })).toHaveValue('all')
+  await page.getByRole('textbox', { name: 'Suche', exact: true }).fill('all')
+  await expect(page.getByRole('textbox', { name: 'Suche', exact: true })).toHaveValue('all')
   await expect(page).toHaveURL(/q=all.*type=city/)
 })
 
 test('Ruhig bleibt gespeichert, berücksichtigt System und lässt manuelle Steuerung zu', async ({ page }) => {
   await page.emulateMedia({ reducedMotion: 'no-preference' })
   await page.goto('settings')
+  await openQuizSettings(page)
   await page.getByRole('radio', { name: 'Ruhig', exact: true }).click()
   await page.reload()
+  await openQuizSettings(page)
   await expect(page.getByRole('radio', { name: 'Ruhig', exact: true })).toHaveAttribute(
     'aria-checked',
     'true',
   )
   await page.goto('')
+  await page.locator('.atlas-disclosure > summary').click()
   const globe = page.locator('.interactive-globe')
   await expect(globe).toHaveAttribute('data-motion', 'paused')
   const svg = page.locator('.globe-svg')
@@ -174,7 +175,7 @@ test('Ruhig bleibt gespeichert, berücksichtigt System und lässt manuelle Steue
   await expect
     .poll(() => page.locator('.globe-country[data-country-id="country:DE"]').getAttribute('d'))
     .not.toBe(before)
-  await page.goto('play')
+  await page.goto('play?view=diorama')
   await expect(page.locator('.quiz-diorama-3d')).toHaveAttribute('data-motion', 'paused')
   await page.locator('[data-quiz-station="trivia"]').focus()
   await expect(page.locator('.quiz-diorama-3d')).toHaveAttribute('data-active-station', 'trivia')
@@ -193,25 +194,19 @@ for (const width of [320, 390])
   test(`Lernaktionen bleiben bei ${width} Pixeln erreichbar`, async ({ page }) => {
     await page.setViewportSize({ width, height: 740 })
     await page.goto('learn')
-    const actions = page.locator('.learn-primary-actions')
+    const actions = page.locator('.simple-learning-card > footer')
     await expect(actions).toBeVisible()
-    const initialBox = (await actions.boundingBox())!
-    expect(initialBox.x).toBe(0)
-    const navBox = (await page.getByRole('navigation', { name: 'Hauptnavigation' }).boundingBox())!
-    expect(navBox.y + navBox.height).toBe(740)
-    expect(initialBox.y + initialBox.height).toBeLessThanOrEqual(740 - 64)
-    await page.evaluate(() => window.scrollTo(0, 400))
-    const scrolledBox = (await actions.boundingBox())!
-    expect(scrolledBox.y).toBe(initialBox.y)
-    const before = await page.locator('.learn-country-identity h2').textContent()
+    await actions.scrollIntoViewIfNeeded()
+    const before = await page.locator('.simple-learning-country h2').textContent()
     const next = actions.getByRole('button', { name: 'Weiter', exact: false })
     await next.click()
-    await expect(page.locator('.learn-country-identity h2')).not.toHaveText(before!)
+    await expect(page.locator('.simple-learning-country h2')).not.toHaveText(before!)
+    await actions.scrollIntoViewIfNeeded()
     for (const button of await actions.getByRole('button').all()) {
       const box = (await button.boundingBox())!
       expect(box.x).toBeGreaterThanOrEqual(0)
       expect(box.x + box.width).toBeLessThanOrEqual(width)
-      expect(box.y + box.height).toBeLessThan(740 - 64)
+      await expect(button).toBeInViewport()
     }
     expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(width)
   })
@@ -309,7 +304,7 @@ test('GitHub-Pages-404 erhält Suchfilter und kurze Quiz-Deep-Links', async ({ p
     route.fulfill({ status: 404, contentType: 'text/html', body: fallback }),
   )
   await page.goto('search?q=Berlin&type=city')
-  await expect(page.getByRole('textbox', { name: 'Suche' })).toHaveValue('Berlin')
+  await expect(page.getByRole('textbox', { name: 'Suche', exact: true })).toHaveValue('Berlin')
   await expect(page.getByRole('combobox', { name: 'Typ', exact: true })).toHaveValue('city')
   await expect(page.getByRole('status')).toContainText('1 Treffer')
   await page.route(/\/play\/trivia\/round\?/, (route) =>

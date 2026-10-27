@@ -40,6 +40,7 @@ const all: Generator[] = [
   rc.regionToCountry,
   rc.regionCapital,
   rc.cityToCountry,
+  rc.largeCityToCountry,
   rc.cityToRegion,
   rc.cityPopulation,
   rc.cityInput,

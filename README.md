@@ -4,6 +4,12 @@ Die Welt im Kopf. Den Funken im Blick. Eine interaktive Geografie-Plattform: Qui
 
 Spezifikation und Roadmap: [`docs/`](docs/README.md). Ursprünglicher Master-Prompt: [`TASK.md`](TASK.md).
 
+## Bedienung
+
+Quiz starten: Thema auswählen, Kontinent und Rundenlänge festlegen, **Quiz starten**. Fragetypen, einzelne Länder und Wiederholungen stehen unter **Weitere Einstellungen**. Offene Alle-Runden erscheinen auf Start- und Quizseite zum Fortsetzen.
+
+Die Weltkugel auf der Startseite und die 3D-Quizkarte sind zusätzliche, aufklappbare Ansichten. Unter **Entdecken** filtert die Ländersuche die Kontinente direkt. Das gemeinsame Designsystem liegt in `src/styles/simple.css`; die Start- und Quizseite verwenden denselben `QuizCatalog`.
+
 ## Stack
 
 React 19 · TypeScript · Vite · Tailwind CSS 4 · react-router · i18next · idb (IndexedDB) · d3-geo · vite-plugin-pwa · Vitest · Playwright
@@ -29,6 +35,7 @@ Weitere Skripte:
 | `npm run data:landmarks` | Sehenswürdigkeiten und geprüfte, versionierte Fotomotive importieren |
 | `npm run data:landmark-facts` | Standortangaben und Kurzfakten für Sehenswürdigkeiten ergänzen |
 | `npm run data:wikidata` | Einwohnerzahlen, höchste Punkte (Wikidata) |
+| `npm run data:large-cities` | Alle GeoNames-Städte über 300.000 Einwohner ergänzen (ohne Stadtteile; `-- --refresh` lädt neu) |
 | `npm run data:plates` | Kfz-Kennzeichen DE/AT/CH (Wikidata P395) |
 | `npm run data:nature` | Flüsse, Seen, Berge (Wikidata, nach Bekanntheit) |
 | `npm run data:validate` | Validierung, Index, Suchindex, Attribution; bricht bei Fehlern ab |
@@ -56,6 +63,7 @@ Alle Medien tragen Lizenz und Attribution in den Metadaten; der Build schlägt f
 - Regionalflaggen: [niemela/flags](https://github.com/niemela/flags) (Metadaten CC BY-SA 4.0, Flaggen je Ursprungslizenz)
 - Fotos: Wikimedia Commons (je Bild angegeben)
 - Länderdaten: [mledoze/countries](https://github.com/mledoze/countries) (ODbL 1.0), [Wikidata](https://www.wikidata.org) (CC0)
+- Großstädte über 300.000 Einwohner: [GeoNames](https://download.geonames.org/export/dump/) (CC BY 4.0); ohne Limit je Land, Einwohnerzahlen nach dortiger Gebietsabgrenzung und Datenstand
 - Geometrien: [Natural Earth](https://www.naturalearthdata.com/) (Public Domain), [geoBoundaries](https://www.geoboundaries.org/) (CC BY 4.0)
 
 Code: MIT (siehe `LICENSE`).

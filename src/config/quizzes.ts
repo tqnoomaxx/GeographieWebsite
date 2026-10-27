@@ -54,6 +54,8 @@ export interface QuizDef {
   geographicScope?: boolean
   /** Startbereich, wenn noch nichts gespeichert ist */
   defaultScope?: string
+  /** Vorausgewählter Fragetyp beim ersten Besuch. */
+  defaultMode?: string
   modes: QuizMode[]
 }
 
@@ -204,7 +206,14 @@ export const QUIZZES: QuizDef[] = [
     countKey: 'city',
     needs: ['regions'],
     perCountry: true,
+    defaultMode: 'cities_over_300k',
     modes: [
+      {
+        id: 'cities_over_300k',
+        form: 'choice',
+        generators: ['large_city_to_country'],
+        allowCountryScope: false,
+      },
       { id: 'city_to_country', form: 'choice', generators: ['city_to_country'], allowCountryScope: false },
       { id: 'city_to_region', form: 'choice', generators: ['city_to_region'] },
       { id: 'city_compare', form: 'choice', generators: ['city_population'] },

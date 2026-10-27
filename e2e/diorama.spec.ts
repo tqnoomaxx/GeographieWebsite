@@ -43,7 +43,7 @@ test('Jedes 3D-Modell wählt die richtige Quizstation', async ({ page, isMobile 
   const errors: string[] = []
   page.on('pageerror', (error) => errors.push(error.message))
   await page.emulateMedia({ reducedMotion: 'reduce' })
-  await page.goto('play')
+  await page.goto('play?view=diorama')
   await page.locator('.quiz-diorama-3d').scrollIntoViewIfNeeded()
   await expect.poll(() => page.locator('.quiz-diorama-3d canvas').count()).toBe(1)
   await expect(page.locator('.quiz-diorama-3d canvas')).toHaveAttribute('width', /[1-9]\d+/)
@@ -52,13 +52,13 @@ test('Jedes 3D-Modell wählt die richtige Quizstation', async ({ page, isMobile 
     if (isMobile) await page.touchscreen.tap(point.x, point.y)
     else await page.mouse.move(point.x, point.y)
     await expect(page.locator('.quiz-diorama-3d')).toHaveAttribute('data-active-station', id)
-    await expect(page).toHaveURL(/\/play$/)
+    await expect(page).toHaveURL(/\/play(?:\?view=diorama)?$/)
   }
   expect(errors).toEqual([])
 })
 
 test('Die Auswahl bleibt bis zur Konfiguration erreichbar und lässt sich schließen', async ({ page }) => {
-  await page.goto('play')
+  await page.goto('play?view=diorama')
   const countries = page.locator('[data-quiz-station="countries"]')
   await countries.focus()
   await page.mouse.move(2, 2)
@@ -69,12 +69,12 @@ test('Die Auswahl bleibt bis zur Konfiguration erreichbar und lässt sich schlie
   await countries.focus()
   await page.locator('.quiz-diorama-context a').click()
   await expect(page).toHaveURL(/\/play\/countries$/)
-  await expect(page.getByRole('button', { name: "Los geht's" })).toBeEnabled()
+  await expect(page.getByRole('button', { name: 'Quiz starten' })).toBeEnabled()
 })
 
 test('Direkter 3D-Klick und zweites Antippen öffnen das passende Quiz', async ({ page, isMobile }) => {
   await page.emulateMedia({ reducedMotion: 'reduce' })
-  await page.goto('play')
+  await page.goto('play?view=diorama')
   await page.locator('.quiz-diorama-3d').scrollIntoViewIfNeeded()
   const point = await surfacePoint(page, 'countries')
   if (isMobile) {
@@ -99,7 +99,7 @@ test('Langsam ladende Globustexturen unterbrechen die Tastaturbedienung nicht', 
     await pending
     await route.continue()
   })
-  await page.goto('play', { waitUntil: 'domcontentloaded' })
+  await page.goto('play?view=diorama', { waitUntil: 'domcontentloaded' })
   await request
   try {
     await page.locator('[data-quiz-station="countries"]').focus()
@@ -117,7 +117,7 @@ test('Langsam ladende Globustexturen unterbrechen die Tastaturbedienung nicht', 
 
 test('Alle mobilen Schnellzugriffe sind ohne horizontales Scrollen sichtbar', async ({ page, isMobile }) => {
   test.skip(!isMobile)
-  await page.goto('play')
+  await page.goto('play?view=diorama')
   await page.locator('.quiz-diorama-3d').scrollIntoViewIfNeeded()
   const dock = page.locator('.quiz-diorama-dock')
   const bounds = (await dock.boundingBox())!
@@ -130,4 +130,60 @@ test('Alle mobilen Schnellzugriffe sind ohne horizontales Scrollen sichtbar', as
   }
   await page.locator('[data-quiz-station="daily"]').tap()
   await expect(page).toHaveURL(/\/daily$/)
+})
+
+test('Tag und Nacht sowie Drehen, Zoomen und Zurücksetzen bleiben bedienbar', async ({ page }, info) => {
+  const errors: string[] = []
+  page.on('pageerror', (error) => errors.push(error.message))
+  page.on('console', (message) => {
+    if (message.type() === 'error') errors.push(message.text())
+  })
+  await page.emulateMedia({ reducedMotion: 'reduce' })
+  await page.goto('play?view=diorama')
+  const world = page.locator('.quiz-diorama-3d')
+  await world.scrollIntoViewIfNeeded()
+  await expect(world).toHaveAttribute('aria-busy', 'false')
+  await expect(world).toHaveAttribute('data-time', 'day')
+  await expect(world).toHaveAttribute('data-motion', 'paused')
+  await page.getByRole('button', { name: 'Ansicht nach rechts drehen' }).click()
+  await expect(world).not.toHaveAttribute('data-view-angle', '0.000')
+  await page.getByRole('button', { name: 'Vergrößern', exact: true }).click()
+  await expect(world).toHaveAttribute('data-view-zoom', '1.15')
+  await page.getByRole('button', { name: 'Ansicht zurücksetzen' }).click()
+  await expect(world).toHaveAttribute('data-view-angle', '0.000')
+  await expect(world).toHaveAttribute('data-view-zoom', '1.00')
+  await world.screenshot({ path: `/tmp/atlas-island-${info.project.name}-day.png` })
+  await page.getByRole('button', { name: 'Nachtmodus' }).click()
+  await expect(world).toHaveAttribute('data-time', 'night')
+  await expect(page.getByRole('button', { name: 'Nachtmodus' })).toHaveAttribute('aria-pressed', 'true')
+  await world.screenshot({ path: `/tmp/atlas-island-${info.project.name}-night.png` })
+  await page.reload()
+  await world.scrollIntoViewIfNeeded()
+  await expect(world).toHaveAttribute('data-time', 'night')
+  await page.locator('[data-quiz-station="cities"]').focus()
+  await expect(page.locator('.quiz-diorama-context')).toContainText('Städte')
+  await page.locator('.quiz-diorama-context a').click()
+  await expect(page).toHaveURL(/\/play\/cities$/)
+  await expect(page.getByRole('button', { name: 'Quiz starten' })).toBeVisible()
+  expect(errors).toEqual([])
+})
+
+test('Kamerazoom bleibt begrenzt und die einfache Auswahl lädt ohne WebGL-Szene', async ({ page }) => {
+  await page.goto('play?view=diorama')
+  const world = page.locator('.quiz-diorama-3d')
+  for (let i = 0; i < 8; i++) {
+    const button = page.getByRole('button', { name: 'Vergrößern', exact: true })
+    if (await button.isEnabled()) await button.click()
+  }
+  await expect(page.getByRole('button', { name: 'Vergrößern', exact: true })).toBeDisabled()
+  await expect(world).toHaveAttribute('data-view-zoom', '1.65')
+  for (let i = 0; i < 10; i++) {
+    const button = page.getByRole('button', { name: 'Verkleinern', exact: true })
+    if (await button.isEnabled()) await button.click()
+  }
+  await expect(page.getByRole('button', { name: 'Verkleinern', exact: true })).toBeDisabled()
+  await expect(world).toHaveAttribute('data-view-zoom', '0.75')
+  await page.goto('play')
+  await expect(page.locator('.topic-link')).toHaveCount(11)
+  await expect(page.locator('canvas')).toHaveCount(0)
 })

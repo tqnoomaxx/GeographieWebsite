@@ -1,7 +1,7 @@
 import { useReducedMotion } from '@/services/settings/motion'
 import { Suspense, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Canvas, useFrame, useThree, type ThreeEvent } from '@react-three/fiber'
-import { RoundedBox, useTexture } from '@react-three/drei'
+import { RoundedBox, Sparkles, useTexture } from '@react-three/drei'
 import { Link, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import type { TFunction } from 'i18next'
@@ -17,6 +17,15 @@ import {
   Mountain,
   Puzzle,
   Waves,
+  ArrowRight,
+  Compass,
+  Crosshair,
+  Moon,
+  Sun,
+  Minus,
+  Plus,
+  RotateCcw,
+  RotateCw,
   type LucideIcon,
 } from 'lucide-react'
 import {
@@ -24,14 +33,24 @@ import {
   DoubleSide,
   MathUtils,
   OrthographicCamera,
+  PlaneGeometry,
   SRGBColorSpace,
   Vector3,
   type Group,
+  type Mesh,
 } from 'three'
 import { PLAY_QUIZZES, type QuizDef } from '@/config/quizzes'
 import type { CategoryId } from '@/engine/types'
 import type { PlayStationId, StationProgress, StationProgressMap } from './stationProgress'
-import { createRibbonGeometry, fitDioramaCamera } from './dioramaGeometry'
+import {
+  createRibbonGeometry,
+  DEFAULT_DIORAMA_VIEW,
+  DIORAMA_ZOOM,
+  fitDioramaCamera,
+  type DioramaView,
+} from './dioramaGeometry'
+import { DioramaLandscape, IslandTerrain } from './DioramaLandscape'
+import './diorama.css'
 
 type SceneId = PlayStationId
 type Vec3 = [number, number, number]
@@ -99,7 +118,9 @@ const TREE_POSITIONS: Array<[number, number, number, number]> = [
 
 function countLabel(quiz: QuizDef, counts?: Record<string, number>) {
   const value = quiz.countKey ? counts?.[quiz.countKey] : undefined
-  return value === undefined ? undefined : `${value.toLocaleString('de-DE')} ${quiz.id === 'trivia' ? 'Fragen' : 'Einträge'}`
+  return value === undefined
+    ? undefined
+    : `${value.toLocaleString('de-DE')} ${quiz.id === 'trivia' ? 'Fragen' : 'Einträge'}`
 }
 
 function stationLevelLabel(progress: StationProgress | undefined, t: TFunction) {
@@ -123,15 +144,14 @@ function stationProgressLabel(progress: StationProgress | undefined, t: TFunctio
   })
 }
 
-
-function CameraSetup() {
+function CameraSetup({ view }: { view: DioramaView }) {
   const camera = useThree((state) => state.camera)
   const size = useThree((state) => state.size)
   const invalidate = useThree((state) => state.invalidate)
   useEffect(() => {
-    if (camera instanceof OrthographicCamera) fitDioramaCamera(camera, size.width, size.height)
+    if (camera instanceof OrthographicCamera) fitDioramaCamera(camera, size.width, size.height, view)
     invalidate()
-  }, [camera, size.width, size.height, invalidate])
+  }, [camera, size.width, size.height, invalidate, view])
   return null
 }
 
@@ -144,11 +164,11 @@ function Tree({ x, z, scale, height }: { x: number; z: number; scale: number; he
       </mesh>
       <mesh position={[0, height * 0.92, 0]} castShadow>
         <coneGeometry args={[0.5, height, 7]} />
-        <meshStandardMaterial color="#275d4b" roughness={0.95} flatShading />
+        <meshStandardMaterial color="#285f45" roughness={0.95} flatShading />
       </mesh>
       <mesh position={[0, height * 1.34, 0]} castShadow>
         <coneGeometry args={[0.36, height * 0.78, 7]} />
-        <meshStandardMaterial color="#34745c" roughness={0.95} flatShading />
+        <meshStandardMaterial color="#3c8056" roughness={0.95} flatShading />
       </mesh>
     </group>
   )
@@ -333,32 +353,14 @@ function Ground() {
   )
   return (
     <group>
-      <RoundedBox
-        args={[18.4, 0.75, 11.2]}
-        radius={0.32}
-        smoothness={3}
-        position={[0, -0.5, 0]}
-        receiveShadow
-        castShadow
-      >
-        <meshStandardMaterial color="#9b8160" roughness={1} flatShading />
-      </RoundedBox>
-      <RoundedBox
-        args={[17.9, 0.42, 10.7]}
-        radius={0.18}
-        smoothness={3}
-        position={[0, GROUND_SURFACE_Y - 0.21, 0]}
-        receiveShadow
-      >
-        <meshStandardMaterial color="#80a66d" roughness={0.98} flatShading />
-      </RoundedBox>
+      <IslandTerrain />
       <mesh position={[-5.35, GROUND_SURFACE_Y + 0.006, -1.75]} rotation={[0, 0.28, 0]} receiveShadow>
         <cylinderGeometry args={[3.35, 3.35, 0.012, 9]} />
-        <meshStandardMaterial color="#8eb878" roughness={1} flatShading />
+        <meshStandardMaterial color="#85af65" roughness={1} flatShading />
       </mesh>
       <mesh position={[3.75, GROUND_SURFACE_Y + 0.007, -1.2]} rotation={[0, -0.18, 0]} receiveShadow>
         <cylinderGeometry args={[4, 4, 0.014, 10]} />
-        <meshStandardMaterial color="#86ae72" roughness={1} flatShading />
+        <meshStandardMaterial color="#80aa62" roughness={1} flatShading />
       </mesh>
       <Ribbon curve={road} width={0.6} y={0.025} color="#bfad85" />
       <Ribbon curve={road} width={0.45} y={0.03} color="#eee1bb" />
@@ -512,12 +514,22 @@ function CityStation({ active }: { active: boolean }) {
               {[-0.14, 0.14].map((wx) => (
                 <mesh key={wx} position={[wx, 0, 0.332]}>
                   <boxGeometry args={[0.095, 0.13, 0.018]} />
-                  <meshStandardMaterial color="#f4dfaa" roughness={0.7} />
+                  <meshStandardMaterial
+                    color="#f4dfaa"
+                    emissive="#ffce79"
+                    emissiveIntensity={0.65}
+                    roughness={0.7}
+                  />
                 </mesh>
               ))}
               <mesh position={[0.284, 0, 0.05]}>
                 <boxGeometry args={[0.018, 0.13, 0.14]} />
-                <meshStandardMaterial color="#f4dfaa" roughness={0.7} />
+                <meshStandardMaterial
+                  color="#f4dfaa"
+                  emissive="#ffce79"
+                  emissiveIntensity={0.65}
+                  roughness={0.7}
+                />
               </mesh>
             </group>
           ))}
@@ -579,6 +591,33 @@ function LibraryStation({ active }: { active: boolean }) {
   )
 }
 
+function FlagCloth({ active }: { active: boolean }) {
+  const reducedMotion = useReducedMotion()
+  const geometry = useMemo(() => new PlaneGeometry(1, 0.62, 10, 2), [])
+  useEffect(() => () => geometry.dispose(), [geometry])
+  useFrame((state) => {
+    if (reducedMotion) return
+    const positions = geometry.getAttribute('position')
+    for (let i = 0; i < positions.count; i++) {
+      const x = positions.getX(i)
+      positions.setZ(i, Math.sin(state.clock.elapsedTime * 2.8 + x * 6) * 0.07 * (x + 0.5))
+    }
+    positions.needsUpdate = true
+    geometry.computeVertexNormals()
+  })
+  return (
+    <mesh position={[0.5, 2.35, 0]} geometry={geometry} castShadow>
+      <meshStandardMaterial
+        color="#c65c47"
+        roughness={0.8}
+        side={DoubleSide}
+        emissive="#d3aa59"
+        emissiveIntensity={active ? 0.17 : 0}
+      />
+    </mesh>
+  )
+}
+
 function FlagStation({ active }: { active: boolean }) {
   return (
     <group>
@@ -590,10 +629,7 @@ function FlagStation({ active }: { active: boolean }) {
         {material('#59665f', active, 0.35)}
         <cylinderGeometry args={[0.045, 0.055, 2.8, 8]} />
       </mesh>
-      <mesh position={[0.5, 2.35, 0]} castShadow>
-        {material('#b94f47', active, 0.04)}
-        <boxGeometry args={[1, 0.62, 0.06]} />
-      </mesh>
+      <FlagCloth active={active} />
       <mesh position={[0, 0.07, 0]} castShadow>
         {material('#d4c39e', active)}
         <cylinderGeometry args={[0.95, 1.05, 0.15, 8]} />
@@ -766,7 +802,12 @@ function TriviaStation({ active }: { active: boolean }) {
         <cylinderGeometry args={[0.19, 0.24, 0.4, 12]} />
       </mesh>
       <mesh position={[0, 2.12, 0]} castShadow>
-        <meshStandardMaterial color="#f4d279" roughness={0.4} emissive="#e9a945" emissiveIntensity={active ? 0.85 : 0.15} />
+        <meshStandardMaterial
+          color="#f4d279"
+          roughness={0.4}
+          emissive="#e9a945"
+          emissiveIntensity={active ? 0.85 : 0.15}
+        />
         <sphereGeometry args={[0.49, 20, 14]} />
       </mesh>
       {[-0.37, 0.37].map((x) => (
@@ -790,7 +831,18 @@ function BaseStationModel({ id, active }: { id: SceneId; active: boolean }) {
     case 'daily':
       return <Observatory active={active} />
     case 'countries':
-      return <GlobeStation active={active} />
+      return (
+        <Suspense
+          fallback={
+            <mesh position={[0, 1.35, 0]}>
+              <sphereGeometry args={[0.92, 16, 12]} />
+              <meshStandardMaterial color="#4899a8" roughness={0.7} />
+            </mesh>
+          }
+        >
+          <GlobeStation active={active} />
+        </Suspense>
+      )
     case 'mixed':
       return <CompassStation active={active} />
     case 'capitals':
@@ -853,8 +905,12 @@ function StationUpgrades({
     case 'trivia':
       return (
         <group>
-          {level >= 1 ? <SmallBuilding position={[-0.82, 0, 0.35]} height={0.65} color="#74959b" active={active} /> : null}
-          {level >= 2 ? <SmallBuilding position={[0.82, 0, 0.35]} height={0.85} color="#d1aa70" active={active} /> : null}
+          {level >= 1 ? (
+            <SmallBuilding position={[-0.82, 0, 0.35]} height={0.65} color="#74959b" active={active} />
+          ) : null}
+          {level >= 2 ? (
+            <SmallBuilding position={[0.82, 0, 0.35]} height={0.85} color="#d1aa70" active={active} />
+          ) : null}
           {level >= 3 ? (
             <mesh position={[0, 2.15, 0]} rotation={[Math.PI / 2, 0.3, 0]} castShadow>
               {material('#b58b45', active, 0.35)}
@@ -1287,13 +1343,18 @@ function InteractiveStation({
   onOpen: () => void
 }) {
   const model = useRef<Group>(null)
+  const beacon = useRef<Mesh>(null)
   const canvas = useThree((state) => state.gl.domElement)
-  useFrame((_state, delta) => {
+  useFrame((state, delta) => {
     const group = model.current
     if (!group) return
     const target = active ? 1.09 : celebrating ? 1.06 : 1
     if (reducedMotion) group.scale.setScalar(target)
     else group.scale.setScalar(MathUtils.damp(group.scale.x, target, 8, delta))
+    if (beacon.current && !reducedMotion) {
+      beacon.current.position.y = station.hitbox[1] + 0.2 + Math.sin(state.clock.elapsedTime * 3) * 0.07
+      beacon.current.rotation.y += delta * 0.8
+    }
   })
 
   const hover = (event: ThreeEvent<PointerEvent>) => {
@@ -1339,6 +1400,12 @@ function InteractiveStation({
         <meshBasicMaterial transparent opacity={0} depthWrite={false} />
       </mesh>
       {active ? (
+        <mesh ref={beacon} position={[0, station.hitbox[1] + 0.2, 0]}>
+          <octahedronGeometry args={[0.14, 0]} />
+          <meshBasicMaterial color="#ffdc7f" toneMapped={false} />
+        </mesh>
+      ) : null}
+      {active ? (
         <mesh
           position={[0, 0.025, 0]}
           rotation={[-Math.PI / 2, 0, 0]}
@@ -1376,7 +1443,11 @@ function DioramaScene({
   onActive,
   onOpen,
   onReady,
+  night,
+  view,
 }: {
+  night: boolean
+  view: DioramaView
   stations: Station[]
   active?: SceneId
   celebrating?: SceneId
@@ -1390,15 +1461,21 @@ function DioramaScene({
   const daily = stations.find((station) => station.id === 'daily')
   return (
     <>
-      <CameraSetup />
-      <color attach="background" args={['#dce7df']} />
-      <fog attach="fog" args={['#dce7df', 50, 90]} />
-      <hemisphereLight args={['#fff8e5', '#63806d', 1.5]} />
-      <directionalLight position={[8, 7, -8]} intensity={0.65} color="#d6eaf4" />
+      <CameraSetup view={view} />
+      <color attach="background" args={[night ? '#0e243c' : '#a9d3e0']} />
+      <fog attach="fog" args={[night ? '#102c41' : '#a9d3e0', 48, 100]} />
+      <hemisphereLight
+        args={[night ? '#abc7ec' : '#fff8e5', night ? '#294f56' : '#63806d', night ? 1.05 : 1.5]}
+      />
+      <directionalLight
+        position={[8, 7, -8]}
+        intensity={night ? 1.1 : 0.65}
+        color={night ? '#91b9f4' : '#d6eaf4'}
+      />
       <directionalLight
         position={[-6, 13, 8]}
-        intensity={2.6}
-        color="#fff0c8"
+        intensity={night ? 0.85 : 2.6}
+        color={night ? '#a5c6f2' : '#fff0c8'}
         castShadow
         shadow-mapSize-width={2048}
         shadow-mapSize-height={2048}
@@ -1412,7 +1489,19 @@ function DioramaScene({
         shadow-camera-bottom={-10}
       />
       <Ground />
+      <DioramaLandscape night={night} moving={moving} />
       <Clouds moving={moving} />
+      {night && (
+        <Sparkles
+          count={48}
+          size={2.1}
+          scale={[18, 4, 9]}
+          position={[0, 1.7, 0]}
+          speed={moving ? 0.22 : 0}
+          color="#ffe2a1"
+          opacity={0.65}
+        />
+      )}
       {daily ? (
         <InteractiveStation
           station={daily}
@@ -1436,11 +1525,7 @@ function DioramaScene({
             onOpen={() => onOpen(station.href)}
           />
         ))}
-      <mesh position={[0, -1.02, 0]} rotation={[-Math.PI / 2, 0, 0]} receiveShadow>
-        <planeGeometry args={[200, 200]} />
-        <meshStandardMaterial color="#dce7df" roughness={1} />
-      </mesh>
-      <mesh position={[0, -0.9, 0]} rotation={[-Math.PI / 2, 0, 0]} onClick={() => onActive(undefined)}>
+      <mesh position={[0, -3.6, 0]} rotation={[-Math.PI / 2, 0, 0]} onClick={() => onActive(undefined)}>
         <planeGeometry args={[26, 19]} />
         <meshBasicMaterial transparent opacity={0} side={DoubleSide} depthWrite={false} />
       </mesh>
@@ -1466,6 +1551,8 @@ export default function QuizDiorama3D({
   const rootRef = useRef<HTMLDivElement>(null)
   const reducedMotion = useReducedMotion()
   const [active, setActive] = useState<SceneId>()
+  const [view, setView] = useState<DioramaView>(DEFAULT_DIORAMA_VIEW)
+  const [night, setNight] = useState(() => localStorage.getItem('atlasfunke.diorama.time') === 'night')
   const [sceneReady, setSceneReady] = useState(false)
   const [inView, setInView] = useState(true)
   const [pageVisible, setPageVisible] = useState(!document.hidden)
@@ -1523,6 +1610,9 @@ export default function QuizDiorama3D({
       data-active-station={active}
       data-upgrade-station={celebrating}
       data-motion={motionEnabled ? 'running' : 'paused'}
+      data-time={night ? 'night' : 'day'}
+      data-view-angle={view.angle.toFixed(3)}
+      data-view-zoom={view.zoom.toFixed(2)}
       onKeyDown={(event) => {
         if (event.key === 'Escape') setActive(undefined)
       }}
@@ -1551,18 +1641,88 @@ export default function QuizDiorama3D({
               onActive={setActive}
               onOpen={navigate}
               onReady={setSceneReady}
+              night={night}
+              view={view}
             />
           </Suspense>
         </Canvas>
       </div>
 
+      <div className="diorama-world-caption">
+        <Compass aria-hidden />
+        <div>
+          <strong>Deine Wissensinsel</strong>
+          <span>Wähle einen Ort und starte dein Quiz.</span>
+        </div>
+      </div>
+      <div className="diorama-world-tools" role="group" aria-label="Diorama steuern">
+        <button
+          type="button"
+          aria-label="Ansicht nach links drehen"
+          title="Nach links drehen"
+          onClick={() => setView((v) => ({ ...v, angle: v.angle - Math.PI / 6 }))}
+        >
+          <RotateCcw aria-hidden />
+        </button>
+        <button
+          type="button"
+          aria-label="Ansicht nach rechts drehen"
+          title="Nach rechts drehen"
+          onClick={() => setView((v) => ({ ...v, angle: v.angle + Math.PI / 6 }))}
+        >
+          <RotateCw aria-hidden />
+        </button>
+        <span className="diorama-tool-divider" aria-hidden />
+        <button
+          type="button"
+          aria-label="Verkleinern"
+          title="Verkleinern"
+          disabled={view.zoom <= DIORAMA_ZOOM.min}
+          onClick={() => setView((v) => ({ ...v, zoom: Math.max(DIORAMA_ZOOM.min, v.zoom - 0.15) }))}
+        >
+          <Minus aria-hidden />
+        </button>
+        <button
+          type="button"
+          aria-label="Vergrößern"
+          title="Vergrößern"
+          disabled={view.zoom >= DIORAMA_ZOOM.max}
+          onClick={() => setView((v) => ({ ...v, zoom: Math.min(DIORAMA_ZOOM.max, v.zoom + 0.15) }))}
+        >
+          <Plus aria-hidden />
+        </button>
+        <button
+          type="button"
+          aria-label="Ansicht zurücksetzen"
+          title="Ansicht zurücksetzen"
+          onClick={() => {
+            setView(DEFAULT_DIORAMA_VIEW)
+            setActive(undefined)
+          }}
+        >
+          <Crosshair aria-hidden />
+        </button>
+        <span className="diorama-tool-divider" aria-hidden />
+        <button
+          type="button"
+          className="diorama-time-button"
+          aria-label="Nachtmodus"
+          aria-pressed={night}
+          onClick={() => {
+            setNight(!night)
+            localStorage.setItem('atlasfunke.diorama.time', night ? 'day' : 'night')
+          }}
+        >
+          {night ? <Sun aria-hidden /> : <Moon aria-hidden />}
+          <span>{night ? 'Tag' : 'Nacht'}</span>
+        </button>
+      </div>
       <div className={`quiz-diorama-context ${selected ? 'is-active' : ''}`} aria-live="polite">
-        {selected ? (
+        {selected && (
           <>
-            <span>{selected.id === 'daily' ? 'Bonusroute' : 'Quizstation'}</span>
             <strong>{selected.label}</strong>
-            {selected.detail ? <small>{selected.detail}</small> : null}
-            {selected.progress ? (
+            {selected.detail && <small>{selected.detail}</small>}
+            {selected.progress && (
               <div className="quiz-diorama-progress" data-station-level={selected.progress.level}>
                 <b>{stationLevelLabel(selected.progress, t)}</b>
                 <span className="play-station-progress-track" aria-hidden>
@@ -1570,13 +1730,10 @@ export default function QuizDiorama3D({
                 </span>
                 <small>{stationProgressLabel(selected.progress, t)}</small>
               </div>
-            ) : null}
-            <Link to={selected.href}>{t('play.configure')} →</Link>
-          </>
-        ) : (
-          <>
-            <span>{t('play.view_diorama')}</span>
-            <strong>{t('play.diorama_pick')}</strong>
+            )}
+            <Link to={selected.href}>
+              {t('play.configure')} <ArrowRight aria-hidden />
+            </Link>
           </>
         )}
       </div>
@@ -1601,6 +1758,7 @@ export default function QuizDiorama3D({
                 .filter(Boolean)
                 .join(', ')}
               title={station.label}
+              data-label={station.label}
               onPointerEnter={() => setActive(station.id)}
               onFocus={() => setActive(station.id)}
             >
