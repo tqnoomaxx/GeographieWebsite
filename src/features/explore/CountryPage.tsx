@@ -51,37 +51,50 @@ export default function CountryPage() {
           </p>
           {progress && (
             <p className="mt-1 text-xs text-ink-2">
-              Lernstand: {t(`learn.states.${progress.state}`)} · {progress.correct} richtig / {progress.wrong} falsch
+              Lernstand: {t(`learn.states.${progress.state}`)} · {progress.correct} richtig / {progress.wrong}{' '}
+              falsch
             </p>
           )}
         </div>
       </header>
 
-      <div className="mb-5 grid gap-4 md:grid-cols-[2fr_1fr]">
-        <Card>
-          {showMap ? (
-            <WorldMap highlight={[country.id]} focus={country.id} />
-          ) : country.geometry ? (
-            <Outline iso2={a.iso2} className="max-h-64" />
-          ) : (
-            <div className="skeleton h-40" />
-          )}
-          <button className="btn-ghost mt-2 w-full text-sm" onClick={() => setShowMap((s) => !s)}>
-            {showMap ? t('common.less') : `🗺️ ${t('explore.show_on_map')}`}
-          </button>
-        </Card>
-        <Card>
-          <FactGrid country={country} compact />
-        </Card>
-      </div>
+      <Card className="mb-5">
+        {showMap ? (
+          <WorldMap highlight={[country.id]} focus={country.id} />
+        ) : country.geometry ? (
+          <Outline iso2={a.iso2} className="max-h-64" />
+        ) : (
+          <div className="skeleton h-40" />
+        )}
+        <button className="btn-ghost mt-2 w-full text-sm" onClick={() => setShowMap((s) => !s)}>
+          {showMap ? t('common.less') : `🗺️ ${t('explore.show_on_map')}`}
+        </button>
+      </Card>
       <Card className="mb-5">
         <FactGrid country={country} />
         <details className="country-data-note mt-4">
           <summary>Quellen &amp; Prüfstand</summary>
-          <p>Basisdaten: {country.provenance.source_url ? <a className="underline" href={country.provenance.source_url} target="_blank" rel="noreferrer">{country.provenance.source}</a> : country.provenance.source}{country.provenance.license && ` (${country.provenance.license})`}.</p>
-          <p>Importiert am {country.provenance.imported_at.slice(0, 10)}. Ein Importdatum ist kein fachliches Prüfdatum. Belegte Hauptstädte und Symbole haben eigene Quellen und Prüfstände.</p>
+          <p>
+            Basisdaten:{' '}
+            {country.provenance.source_url ? (
+              <a className="underline" href={country.provenance.source_url} target="_blank" rel="noreferrer">
+                {country.provenance.source}
+              </a>
+            ) : (
+              country.provenance.source
+            )}
+            {country.provenance.license && ` (${country.provenance.license})`}.
+          </p>
+          <p>
+            Importiert am {country.provenance.imported_at.slice(0, 10)}. Ein Importdatum ist kein fachliches
+            Prüfdatum. Belegte Hauptstädte und Symbole haben eigene Quellen und Prüfstände.
+          </p>
           <p>„Keine gesicherte Angabe“ kennzeichnet eine Lücke in unseren geprüften Daten.</p>
-          {flag && <p>Flagge: <SourceInfo source={flag.source} url={flag.source_url} /></p>}
+          {flag && (
+            <p>
+              Flagge: <SourceInfo source={flag.source} url={flag.source_url} />
+            </p>
+          )}
         </details>
       </Card>
 

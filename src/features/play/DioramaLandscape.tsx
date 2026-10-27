@@ -8,7 +8,6 @@ import {
   Group,
   InstancedMesh,
   Object3D,
-  PlaneGeometry,
 } from 'three'
 import { createIslandGeometry, ISLAND_OUTLINE } from './dioramaGeometry'
 
@@ -34,62 +33,16 @@ export function IslandTerrain() {
   )
 }
 
-function Ocean({ night, moving }: { night: boolean; moving: boolean }) {
-  const ripples = useRef<Group>(null)
-  const geometry = useMemo(() => {
-    const mesh = new PlaneGeometry(120, 120, 48, 48)
-    mesh.rotateX(-Math.PI / 2)
-    const positions = mesh.getAttribute('position')
-    const colors: number[] = []
-    const palette = (
-      night ? ['#123d56', '#16475c', '#123f54', '#164459'] : ['#398fa5', '#419bad', '#439daf', '#4098aa']
-    ).map((hex) => new Color(hex))
-    for (let i = 0; i < positions.count; i++) {
-      const x = positions.getX(i),
-        z = positions.getZ(i)
-      positions.setY(i, Math.sin(x * 1.7 + z * 0.6) * 0.045)
-      const color = palette[(i * 7 + Math.floor(i / 5)) % palette.length]
-      colors.push(color.r, color.g, color.b)
-    }
-    mesh.setAttribute('color', new Float32BufferAttribute(colors, 3))
-    mesh.computeVertexNormals()
-    return mesh
-  }, [night])
-  useEffect(() => () => geometry.dispose(), [geometry])
-  useFrame((state) => {
-    if (!moving || !ripples.current) return
-    ripples.current.children.forEach((ripple, index) => {
-      const scale = 1 + Math.sin(state.clock.elapsedTime * 0.7 + index) * 0.09
-      ripple.scale.set(scale, scale * 0.65, 1)
-    })
-  })
+function Ocean({ night }: { night: boolean }) {
   return (
-    <group>
-      <mesh position={[0, -3.45, 0]} geometry={geometry} receiveShadow>
-        <meshStandardMaterial vertexColors roughness={0.6} metalness={0.06} flatShading />
-      </mesh>
-      <group ref={ripples}>
-        {Array.from({ length: 14 }, (_, i) => (
-          <mesh
-            key={i}
-            position={[Math.sin(i * 2.4) * (10 + i * 0.5), -3.36, Math.cos(i * 2.4) * (7 + i * 0.4)]}
-            rotation={[-Math.PI / 2, 0, i * 0.3]}
-            scale={[1, 0.65, 1]}
-          >
-            <ringGeometry args={[0.45 + (i % 3) * 0.25, 0.47 + (i % 3) * 0.25, 24, 1, 0, Math.PI * 1.3]} />
-            <meshBasicMaterial
-              color={night ? '#70b9c7' : '#c4eff0'}
-              transparent
-              opacity={night ? 0.13 : 0.26}
-              depthWrite={false}
-              side={DoubleSide}
-            />
-          </mesh>
-        ))}
-      </group>
-    </group>
+    <mesh position={[0, -3.45, 0]} rotation={[-Math.PI / 2, 0, 0]} receiveShadow>
+      <planeGeometry args={[120, 120]} />
+      <meshStandardMaterial color={night ? '#164459' : '#419bad'} roughness={0.6} metalness={0.06} />
+    </mesh>
   )
 }
+
+const COAST_ROCK_POSITIONS = [0, 5, 8, 11, 14].map((index) => ISLAND_OUTLINE[index])
 
 /** Gleiche Küstenfelsen teilen eine Geometrie und einen Draw Call. */
 function CoastRocks() {
@@ -97,7 +50,7 @@ function CoastRocks() {
   useLayoutEffect(() => {
     if (!ref.current) return
     const object = new Object3D()
-    ISLAND_OUTLINE.forEach(([x, z], i) => {
+    COAST_ROCK_POSITIONS.forEach(([x, z], i) => {
       object.position.set(x * 1.11, -2.9, z * 1.11)
       object.scale.set(0.4 + (i % 3) * 0.13, 0.35 + (i % 4) * 0.15, 0.38 + (i % 2) * 0.16)
       object.rotation.set(i * 0.4, i * 1.7, 0.1)
@@ -110,39 +63,9 @@ function CoastRocks() {
     ref.current.computeBoundingSphere()
   }, [])
   return (
-    <instancedMesh ref={ref} args={[undefined, undefined, ISLAND_OUTLINE.length]} castShadow receiveShadow>
-      <dodecahedronGeometry args={[1, 0]} />
-      <meshStandardMaterial roughness={1} flatShading />
-    </instancedMesh>
-  )
-}
-
-function CliffOutcrops() {
-  const ref = useRef<InstancedMesh>(null)
-  useLayoutEffect(() => {
-    if (!ref.current) return
-    const object = new Object3D()
-    ISLAND_OUTLINE.forEach(([x, z], i) => {
-      const [nx, nz] = ISLAND_OUTLINE[(i + 1) % ISLAND_OUTLINE.length]
-      for (let j = 0; j < 2; j++) {
-        const t = j ? 0.72 : 0.23
-        object.position.set((x + (nx - x) * t) * 0.98, -1.18 - (i % 3) * 0.1, (z + (nz - z) * t) * 0.98)
-        object.scale.set(0.7 + (i % 3) * 0.14, 1.1 + (i % 2) * 0.1, 0.7 + (i % 4) * 0.1)
-        object.rotation.set(0.12, i * 0.8 + j, ((i % 3) - 1) * 0.15)
-        object.updateMatrix()
-        const index = i * 2 + j
-        ref.current!.setMatrixAt(index, object.matrix)
-        ref.current!.setColorAt(index, new Color(['#8b8472', '#777e70', '#a18f70', '#66746c'][i % 4]))
-      }
-    })
-    ref.current.instanceMatrix.needsUpdate = true
-    if (ref.current.instanceColor) ref.current.instanceColor.needsUpdate = true
-    ref.current.computeBoundingSphere()
-  }, [])
-  return (
     <instancedMesh
       ref={ref}
-      args={[undefined, undefined, ISLAND_OUTLINE.length * 2]}
+      args={[undefined, undefined, COAST_ROCK_POSITIONS.length]}
       castShadow
       receiveShadow
     >
@@ -154,21 +77,16 @@ function CliffOutcrops() {
 
 function Lanterns({ night }: { night: boolean }) {
   const positions = [
-    [-7.4, 1.7],
     [-4.5, 2.8],
-    [-2.7, 2.1],
     [1.1, 1.8],
-    [4.2, 2.8],
     [7.2, 1.5],
-    [-5.7, -1.2],
     [-2.4, -3.6],
-    [4.9, -2.4],
   ]
   return (
     <group>
       {positions.map(([x, z], i) => (
         <group key={i} position={[x, 0, z]}>
-          {night && i % 3 === 0 && (
+          {night && i % 2 === 0 && (
             <pointLight position={[0, 0.8, 0]} color="#ffc36c" intensity={1.7} distance={3} decay={2} />
           )}
           <mesh position={[0, 0.29, 0]} castShadow>
@@ -233,40 +151,7 @@ function Balloon({ moving }: { moving: boolean }) {
   )
 }
 
-const SAIL = new Float32Array([0, 0.15, 0, 0, 0.93, 0, 0.4, 0.15, 0])
-function Sailboat({ moving }: { moving: boolean }) {
-  const ref = useRef<Group>(null)
-  useFrame((state) => {
-    if (!moving || !ref.current) return
-    ref.current.rotation.z = Math.sin(state.clock.elapsedTime * 0.8) * 0.035
-    ref.current.position.y = 0.22 + Math.sin(state.clock.elapsedTime * 1.1) * 0.025
-  })
-  return (
-    <group ref={ref} position={[0.35, 0.22, 3.9]} rotation={[0, -0.45, 0]}>
-      <mesh scale={[1, 0.24, 0.5]} castShadow>
-        <sphereGeometry args={[0.48, 10, 6]} />
-        <meshStandardMaterial color="#b47b43" flatShading roughness={0.8} />
-      </mesh>
-      <mesh position={[0, 0.48, 0]} castShadow>
-        <cylinderGeometry args={[0.018, 0.022, 0.96, 6]} />
-        <meshStandardMaterial color="#85613c" />
-      </mesh>
-      <mesh position={[0.01, 0, 0]} castShadow>
-        <bufferGeometry>
-          <bufferAttribute attach="attributes-position" args={[SAIL, 3]} />
-        </bufferGeometry>
-        <meshStandardMaterial color="#fff3d9" side={DoubleSide} roughness={0.85} />
-      </mesh>
-      <mesh position={[-0.22, 0.35, 0.01]} rotation={[0, 0, Math.PI / 2]}>
-        <coneGeometry args={[0.22, 0.36, 3, 1]} />
-        <meshStandardMaterial color="#d2764d" roughness={0.9} flatShading />
-      </mesh>
-    </group>
-  )
-}
-
-function Waterfall({ moving, night }: { moving: boolean; night: boolean }) {
-  const droplets = useRef<Group>(null)
+function Waterfall({ night }: { night: boolean }) {
   const geometry = useMemo(() => {
     const vertices: number[] = [],
       indices: number[] = []
@@ -286,12 +171,6 @@ function Waterfall({ moving, night }: { moving: boolean; night: boolean }) {
     return mesh
   }, [])
   useEffect(() => () => geometry.dispose(), [geometry])
-  useFrame((state) => {
-    if (!moving || !droplets.current) return
-    droplets.current.children.forEach((drop, i) => {
-      drop.position.y = 0.1 - ((state.clock.elapsedTime * 1.5 + i * 0.37) % 3.4)
-    })
-  })
   return (
     <group>
       <mesh position={[0.15, 0.13, 5.02]} receiveShadow>
@@ -309,28 +188,10 @@ function Waterfall({ moving, night }: { moving: boolean; night: boolean }) {
           emissiveIntensity={night ? 0.25 : 0.06}
         />
       </mesh>
-      <group ref={droplets}>
-        {Array.from({ length: 9 }, (_, i) => (
-          <mesh
-            key={i}
-            position={[-0.12 + (i % 4) * 0.15, -i * 0.35, 5.5 + i * 0.03]}
-            scale={[0.035, 0.17 + (i % 2) * 0.11, 0.025]}
-          >
-            <sphereGeometry args={[1, 5, 4]} />
-            <meshBasicMaterial color="#d5f4ed" transparent opacity={0.7} />
-          </mesh>
-        ))}
-      </group>
-      {Array.from({ length: 6 }, (_, i) => (
-        <mesh
-          key={i}
-          position={[0.15 + Math.sin(i * 2) * 0.45, -3.24, 5.8 + Math.cos(i * 2) * 0.32]}
-          scale={[0.25, 0.1, 0.21]}
-        >
-          <dodecahedronGeometry args={[1, 0]} />
-          <meshStandardMaterial color="#dbf1e7" roughness={0.75} flatShading />
-        </mesh>
-      ))}
+      <mesh position={[0.15, -3.36, 5.8]} rotation={[-Math.PI / 2, 0, 0]} scale={[1, 0.65, 1]}>
+        <circleGeometry args={[0.5, 12]} />
+        <meshBasicMaterial color="#dbf1e7" transparent opacity={0.5} depthWrite={false} />
+      </mesh>
     </group>
   )
 }
@@ -338,13 +199,11 @@ function Waterfall({ moving, night }: { moving: boolean; night: boolean }) {
 export function DioramaLandscape({ night, moving }: { night: boolean; moving: boolean }) {
   return (
     <group>
-      <Ocean night={night} moving={moving} />
+      <Ocean night={night} />
       <CoastRocks />
-      <CliffOutcrops />
       <Lanterns night={night} />
       <Balloon moving={moving} />
-      <Sailboat moving={moving} />
-      <Waterfall night={night} moving={moving} />
+      <Waterfall night={night} />
     </group>
   )
 }

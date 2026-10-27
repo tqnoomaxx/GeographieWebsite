@@ -10,7 +10,7 @@ import {
   type KeyboardEvent,
   type PointerEvent as ReactPointerEvent,
 } from 'react'
-import { geoGraticule10, geoOrthographic, geoPath } from 'd3-geo'
+import { geoGraticule, geoOrthographic, geoPath } from 'd3-geo'
 import type { GeoPermissibleObjects } from 'd3-geo'
 import type { Country } from '@/domain/types'
 import { useAsync } from '@/app/hooks'
@@ -29,7 +29,8 @@ const WIDTH = 620
 const HEIGHT = 620
 const CENTER: [number, number] = [WIDTH / 2, HEIGHT / 2]
 const SCALE = 278
-const GRATICULE = geoGraticule10()
+const INITIAL_ROTATION: Rotation = [-12, -18]
+const GRATICULE = geoGraticule().precision(5)()
 const ORBITS = [
   { angle: -18, radius: 334, height: 118, variant: 'primary' },
   { angle: 30, radius: 326, height: 136, variant: 'secondary' },
@@ -40,10 +41,21 @@ const GlobeOrbits = memo(function GlobeOrbits({ front, clipId }: { front: boolea
   return (
     <g className={`globe-orbits ${front ? 'globe-orbits-front' : 'globe-orbits-back'}`} aria-hidden="true">
       {ORBITS.map(({ angle, radius, height, variant }) => (
-        <g key={variant} className={`globe-orbit globe-orbit-${variant}`} transform={`rotate(${angle} ${CENTER[0]} ${CENTER[1]})`}>
+        <g
+          key={variant}
+          className={`globe-orbit globe-orbit-${variant}`}
+          transform={`rotate(${angle} ${CENTER[0]} ${CENTER[1]})`}
+        >
           <g clipPath={`url(#${clipId})`}>
             <ellipse className="globe-orbit-track" cx={CENTER[0]} cy={CENTER[1]} rx={radius} ry={height} />
-            <ellipse className="globe-orbit-highlight" cx={CENTER[0]} cy={CENTER[1]} rx={radius} ry={height} pathLength={360} />
+            <ellipse
+              className="globe-orbit-highlight"
+              cx={CENTER[0]}
+              cy={CENTER[1]}
+              rx={radius}
+              ry={height}
+              pathLength={360}
+            />
           </g>
         </g>
       ))}
@@ -55,7 +67,6 @@ function clampLatitude(value: number) {
   return Math.max(-72, Math.min(72, value))
 }
 
-
 export function InteractiveGlobe({
   countries,
   selectedId,
@@ -66,18 +77,20 @@ export function InteractiveGlobe({
   onSelect: (countryId: string) => void
 }) {
   const { data: world, error: worldError, reload: retryWorld } = useAsync(loadWorld, [])
-  const [rotation, setRotation] = useState<Rotation>([-12, -18])
   const [hovered, setHovered] = useState(false)
   const [focused, setFocused] = useState(false)
   const [dragging, setDragging] = useState(false)
   const [inView, setInView] = useState(true)
+  const [pageVisible, setPageVisible] = useState(() => !document.hidden)
   const [countryChoice, setCountryChoice] = useState(selectedId ?? '')
-  const rotationRef = useRef(rotation)
+  const rotationRef = useRef<Rotation>(INITIAL_ROTATION)
   const dragRef = useRef<DragState | null>(null)
   const movedRef = useRef(false)
   const pauseUntilRef = useRef(0)
-  const rootRef = useRef<HTMLDivElement>(null)
+  const spaceSceneRef = useRef<HTMLDivElement>(null)
   const svgRef = useRef<SVGSVGElement>(null)
+  const countryLayerRef = useRef<SVGGElement>(null)
+  const graticuleRef = useRef<SVGPathElement>(null)
   const renderFrameRef = useRef<number | null>(null)
   const pendingRotationRef = useRef<Rotation | null>(null)
   const selectId = useId()
@@ -85,8 +98,34 @@ export function InteractiveGlobe({
   const orbitId = useId()
   const reducedMotion = useReducedMotion()
 
+  // React owns the static scene and selection. Only the projected paths change while rotating.
+  const geometry = useMemo(() => {
+    const projection = geoOrthographic()
+      .translate(CENTER)
+      .scale(SCALE)
+      .clipAngle(90)
+      .precision(0.55)
+      .rotate(rotationRef.current)
+    const path = geoPath(projection).digits(1)
+    const features = world?.features ?? []
+    return {
+      projection,
+      path,
+      features,
+      spherePath: path({ type: 'Sphere' } as GeoPermissibleObjects) ?? undefined,
+      graticulePath: path(GRATICULE) ?? undefined,
+      countryPaths: features.map((feature) => path(feature as GeoPermissibleObjects) ?? undefined),
+    }
+  }, [world])
+  const { features, spherePath, graticulePath } = geometry
 
   useEffect(() => setCountryChoice(selectedId ?? ''), [selectedId])
+
+  useEffect(() => {
+    const updateVisibility = () => setPageVisible(!document.hidden)
+    document.addEventListener('visibilitychange', updateVisibility)
+    return () => document.removeEventListener('visibilitychange', updateVisibility)
+  }, [])
 
   useEffect(() => {
     const node = svgRef.current
@@ -99,7 +138,7 @@ export function InteractiveGlobe({
   }, [world])
 
   const syncSpaceOrientation = useCallback((next: Rotation) => {
-    const root = rootRef.current
+    const root = spaceSceneRef.current
     if (!root) return
     const longitude = (next[0] * Math.PI) / 180
     const latitude = (next[1] * Math.PI) / 180
@@ -113,65 +152,68 @@ export function InteractiveGlobe({
     root.style.setProperty('--space-y-soft', `${(y * 0.24).toFixed(2)}px`)
   }, [])
 
-  const updateRotation = useCallback((next: Rotation) => {
-    rotationRef.current = next
-    pendingRotationRef.current = next
-    if (renderFrameRef.current !== null) return
-    renderFrameRef.current = requestAnimationFrame(() => {
-      renderFrameRef.current = null
-      const pending = pendingRotationRef.current
-      pendingRotationRef.current = null
-      if (!pending) return
-      syncSpaceOrientation(pending)
-      setRotation(pending)
-    })
-  }, [syncSpaceOrientation])
+  const paintRotation = useCallback(
+    (next: Rotation) => {
+      geometry.projection.rotate(next)
+      const nodes = countryLayerRef.current?.children
+      if (nodes) {
+        for (let index = 0; index < features.length; index++) {
+          const d = geometry.path(features[index] as GeoPermissibleObjects) ?? ''
+          const node = nodes[index]
+          // Countries behind the globe stay empty; avoid invalidating their SVG styles every frame.
+          if (node && node.getAttribute('d') !== d) node.setAttribute('d', d)
+        }
+      }
+      graticuleRef.current?.setAttribute('d', geometry.path(GRATICULE) ?? '')
+      syncSpaceOrientation(next)
+    },
+    [features, geometry, syncSpaceOrientation],
+  )
+
+  const updateRotation = useCallback(
+    (next: Rotation) => {
+      rotationRef.current = next
+      pendingRotationRef.current = next
+      if (renderFrameRef.current !== null) return
+      renderFrameRef.current = requestAnimationFrame(() => {
+        renderFrameRef.current = null
+        const pending = pendingRotationRef.current
+        pendingRotationRef.current = null
+        if (pending) paintRotation(pending)
+      })
+    },
+    [paintRotation],
+  )
 
   useEffect(() => {
-    syncSpaceOrientation(rotationRef.current)
+    paintRotation(rotationRef.current)
     return () => {
       if (renderFrameRef.current !== null) cancelAnimationFrame(renderFrameRef.current)
+      renderFrameRef.current = null
+      pendingRotationRef.current = null
     }
-  }, [syncSpaceOrientation])
+  }, [paintRotation])
 
   useEffect(() => {
-    if (reducedMotion) return
+    if (reducedMotion || !world || !inView || !pageVisible || hovered || focused || dragging) return
     let frame = 0
-    let previous = performance.now()
-    let rendered = previous
+    let rendered = performance.now()
     const tick = (now: number) => {
-      const paused = !inView || hovered || focused || dragging || document.hidden || now < pauseUntilRef.current
-      if (!paused && now - rendered >= 40) {
-        const elapsed = Math.min(80, now - previous)
-        const current = rotationRef.current
-        updateRotation([current[0] + elapsed * 0.0024, current[1]])
+      if (now < pauseUntilRef.current) {
+        rendered = now
+      } else if (now - rendered >= 32) {
+        const elapsed = Math.min(80, now - rendered)
+        const next: Rotation = [rotationRef.current[0] + elapsed * 0.0008, rotationRef.current[1]]
+        rotationRef.current = next
+        paintRotation(next)
         rendered = now
       }
-      previous = now
       frame = requestAnimationFrame(tick)
     }
     frame = requestAnimationFrame(tick)
     return () => cancelAnimationFrame(frame)
-  }, [dragging, focused, hovered, inView, reducedMotion, updateRotation])
-
-  const projection = useMemo(
-    () =>
-      geoOrthographic()
-        .translate(CENTER)
-        .scale(SCALE)
-        .clipAngle(90)
-        .precision(0.55)
-        .rotate(rotation),
-    [rotation],
-  )
-  const path = useMemo(() => geoPath(projection), [projection])
-  const features = world?.features ?? []
-  const spherePath = path({ type: 'Sphere' } as unknown as GeoPermissibleObjects) ?? undefined
-  const graticulePath = path(GRATICULE as GeoPermissibleObjects) ?? undefined
-  const countriesById = useMemo(
-    () => new Map(countries.map((country) => [country.id, country])),
-    [countries],
-  )
+  }, [dragging, focused, hovered, inView, pageVisible, reducedMotion, paintRotation, world])
+  const countriesById = useMemo(() => new Map(countries.map((country) => [country.id, country])), [countries])
   const sortedCountries = useMemo(
     () => [...countries].sort((a, b) => a.names.de.localeCompare(b.names.de, 'de')),
     [countries],
@@ -194,7 +236,7 @@ export function InteractiveGlobe({
   }
 
   const onPointerDown = (event: ReactPointerEvent<SVGSVGElement>) => {
-    if (event.button !== 0) return
+    if (event.button !== 0 || dragRef.current) return
     movedRef.current = false
     dragRef.current = {
       pointerId: event.pointerId,
@@ -218,10 +260,7 @@ export function InteractiveGlobe({
       }
     }
     if (!movedRef.current) return
-    updateRotation([
-      start.rotation[0] + dx * 0.24,
-      clampLatitude(start.rotation[1] - dy * 0.2),
-    ])
+    updateRotation([start.rotation[0] + dx * 0.24, clampLatitude(start.rotation[1] - dy * 0.2)])
   }
 
   const finishPointer = (event: ReactPointerEvent<SVGSVGElement>) => {
@@ -252,8 +291,11 @@ export function InteractiveGlobe({
   }
 
   return (
-    <div ref={rootRef} data-motion={reducedMotion ? 'paused' : 'running'} className={`interactive-globe ${dragging ? 'is-dragging' : ''}`}>
-      <div className="globe-space-scene" aria-hidden="true">
+    <div
+      data-motion={reducedMotion ? 'paused' : 'running'}
+      className={`interactive-globe ${dragging ? 'is-dragging' : ''}`}
+    >
+      <div ref={spaceSceneRef} className="globe-space-scene" aria-hidden="true">
         <span className="space-nebula space-nebula-one" />
         <span className="space-nebula space-nebula-two" />
         <span className="space-star-layer space-star-layer-far" />
@@ -284,7 +326,10 @@ export function InteractiveGlobe({
             </defs>
             <path className="spacecraft-wing spacecraft-wing-back" d="M76 47 118 76 57 58Z" />
             <path className="spacecraft-wing" d="M79 31 122 7 63 26Z" />
-            <path className="spacecraft-hull" d="M21 42C49 20 112 15 158 31L181 41 158 51C111 67 50 62 21 42Z" />
+            <path
+              className="spacecraft-hull"
+              d="M21 42C49 20 112 15 158 31L181 41 158 51C111 67 50 62 21 42Z"
+            />
             <path className="spacecraft-cockpit" d="M75 27C88 14 113 15 128 28L132 34 71 35Z" />
             <path className="spacecraft-keel" d="M58 50C88 56 127 54 159 43" />
             <circle className="spacecraft-light" cx="144" cy="34" r="2.5" />
@@ -298,7 +343,9 @@ export function InteractiveGlobe({
         <span className="space-shooting-star space-shooting-star-three" />
       </div>
       <div className={`globe-stage ${dragging ? 'is-dragging' : ''}`}>
-        {worldError ? <ErrorState message="Weltkugel konnte nicht geladen werden." onRetry={retryWorld} /> : !world ? (
+        {worldError ? (
+          <ErrorState message="Weltkugel konnte nicht geladen werden." onRetry={retryWorld} />
+        ) : !world ? (
           <div className="globe-loading skeleton" aria-label="Weltkugel wird geladen" />
         ) : (
           <svg
@@ -317,6 +364,7 @@ export function InteractiveGlobe({
             onPointerMove={onPointerMove}
             onPointerUp={finishPointer}
             onPointerCancel={finishPointer}
+            onLostPointerCapture={finishPointer}
             onKeyDown={onKeyDown}
           >
             <defs>
@@ -356,23 +404,24 @@ export function InteractiveGlobe({
             <path d={spherePath} className="globe-atmosphere" filter="url(#globe-shadow)" />
             <path d={spherePath} fill="url(#globe-ocean)" className="globe-ocean" />
             <g clipPath="url(#globe-clip)" aria-hidden="true">
-              <path d={graticulePath} className="globe-graticule" />
-              {features.map((feature, index) => {
-                const id = feature.properties?.id as string | undefined
-                const countryPath = path(feature as GeoPermissibleObjects) ?? undefined
-                const selectable = !!id && countriesById.has(id)
-                return (
-                  <path
-                    key={id ?? index}
-                    d={countryPath}
-                    data-country-id={id}
-                    className={`globe-country ${selectedId === id ? 'is-selected' : ''} ${selectable ? 'is-selectable' : ''}`}
-                    onClick={() => {
-                      if (!movedRef.current && id) handleSelect(id)
-                    }}
-                  />
-                )
-              })}
+              <path ref={graticuleRef} d={graticulePath} className="globe-graticule" />
+              <g ref={countryLayerRef}>
+                {features.map((feature, index) => {
+                  const id = feature.properties?.id as string | undefined
+                  const selectable = !!id && countriesById.has(id)
+                  return (
+                    <path
+                      key={id ?? index}
+                      d={geometry.countryPaths[index]}
+                      data-country-id={id}
+                      className={`globe-country ${selectedId === id ? 'is-selected' : ''} ${selectable ? 'is-selectable' : ''}`}
+                      onClick={() => {
+                        if (!movedRef.current && id) handleSelect(id)
+                      }}
+                    />
+                  )
+                })}
+              </g>
               <path d={spherePath} fill="url(#globe-shade)" className="globe-shading" />
               <path d={spherePath} fill="url(#globe-terminator)" className="globe-terminator" />
               <path d={spherePath} fill="url(#globe-specular)" className="globe-specular" />
@@ -381,26 +430,30 @@ export function InteractiveGlobe({
             <GlobeOrbits front clipId={`${orbitId}-front`} />
           </svg>
         )}
-        <span className="globe-drag-hint" aria-hidden>{dragging ? 'Welt wird gedreht' : 'Ziehen zum Drehen'}</span>
+        <span className="globe-drag-hint" aria-hidden>
+          {dragging ? 'Welt wird gedreht' : 'Ziehen zum Drehen'}
+        </span>
       </div>
 
       <div className="globe-country-picker">
         <label htmlFor={selectId}>Land suchen oder auswählen</label>
         <div>
-          <select
-            id={selectId}
-            value={countryChoice}
-            onChange={(event) => handleSelect(event.target.value)}
-          >
-            <option value="" disabled>Land auswählen …</option>
+          <select id={selectId} value={countryChoice} onChange={(event) => handleSelect(event.target.value)}>
+            <option value="" disabled>
+              Land auswählen …
+            </option>
             {sortedCountries.map((country) => (
-              <option key={country.id} value={country.id}>{country.names.de}</option>
+              <option key={country.id} value={country.id}>
+                {country.names.de}
+              </option>
             ))}
           </select>
         </div>
       </div>
       <p id={statusId} className="sr-only" aria-live="polite">
-        {selectedName ? `${selectedName} ausgewählt. Die Quiz-Auswahl ist geöffnet.` : 'Noch kein Land ausgewählt.'}
+        {selectedName
+          ? `${selectedName} ausgewählt. Die Quiz-Auswahl ist geöffnet.`
+          : 'Noch kein Land ausgewählt.'}
       </p>
     </div>
   )

@@ -1,7 +1,7 @@
 import { useReducedMotion } from '@/services/settings/motion'
 import { Suspense, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Canvas, useFrame, useThree, type ThreeEvent } from '@react-three/fiber'
-import { RoundedBox, Sparkles, useTexture } from '@react-three/drei'
+import { RoundedBox, useTexture } from '@react-three/drei'
 import { Link, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import type { TFunction } from 'i18next'
@@ -99,21 +99,13 @@ const MENU_ICONS: Partial<Record<SceneId, LucideIcon>> = {
 
 const TREE_POSITIONS: Array<[number, number, number, number]> = [
   [-7.7, -3.5, 0.75, 1.1],
-  [-7.1, -3.7, 0.6, 0.9],
-  [-6.2, -3.9, 0.7, 1],
   [-5.2, -3.5, 0.62, 0.85],
   [-3.7, -3.8, 0.72, 1.05],
-  [-3.15, -3.4, 0.55, 0.8],
   [-7.7, 0.25, 0.65, 0.95],
-  [-7.3, 0.9, 0.52, 0.8],
-  [-7.8, 1.55, 0.7, 1],
   [7.65, 0.5, 0.68, 1],
-  [7.35, 1.25, 0.55, 0.82],
   [7.5, 2.1, 0.72, 1.05],
-  [5.9, 3.55, 0.56, 0.82],
   [5.25, 3.75, 0.64, 0.94],
   [-2.25, -4.65, 0.58, 0.82],
-  [-3.15, -4.35, 0.66, 0.98],
 ]
 
 function countLabel(quiz: QuizDef, counts?: Record<string, number>) {
@@ -174,34 +166,24 @@ function Tree({ x, z, scale, height }: { x: number; z: number; scale: number; he
   )
 }
 
-function Clouds({ moving }: { moving: boolean }) {
-  const first = useRef<Group>(null)
-  const second = useRef<Group>(null)
+function Cloud({ moving }: { moving: boolean }) {
+  const ref = useRef<Group>(null)
   useFrame((state) => {
-    if (!moving) return
-    const time = state.clock.elapsedTime
-    if (first.current) first.current.position.x = -5.8 + Math.sin(time * 0.07) * 1.1
-    if (second.current) second.current.position.x = 4.9 + Math.sin(time * 0.055 + 2) * 1.25
+    if (!moving || !ref.current) return
+    ref.current.position.x = 4.9 + Math.sin(state.clock.elapsedTime * 0.055 + 2) * 1.25
   })
-  const cloud = (x: number, y: number, z: number, scale: number, ref: React.RefObject<Group | null>) => (
-    <group ref={ref} position={[x, y, z]} scale={scale}>
+  return (
+    <group ref={ref} position={[4.9, 3.2, -5.1]} scale={0.72}>
       {[
         [-0.55, 0, 0],
         [0, 0.15, 0],
         [0.55, 0, 0],
-        [0.05, -0.03, 0.35],
       ].map(([cx, cy, cz], index) => (
         <mesh key={index} position={[cx, cy, cz]}>
           <sphereGeometry args={[0.52, 16, 12]} />
           <meshStandardMaterial color="#fff9e9" roughness={1} />
         </mesh>
       ))}
-    </group>
-  )
-  return (
-    <group aria-hidden>
-      {cloud(-5.8, 3.7, -4.4, 0.9, first)}
-      {cloud(4.9, 3.2, -5.1, 0.72, second)}
     </group>
   )
 }
@@ -234,7 +216,7 @@ function RiverCourse({ points }: { points: Vector3[] }) {
     <group>
       <Ribbon curve={curve} width={0.96} y={0.035} color="#b3ae83" />
       <Ribbon curve={curve} width={0.67} y={WATER_SURFACE_Y} color="#4da6ae" water />
-      {[0.12, 0.3, 0.46, 0.66, 0.85].map((t) => {
+      {[0.3, 0.66].map((t) => {
         const point = curve.getPoint(t)
         const tangent = curve.getTangent(t)
         return (
@@ -285,45 +267,6 @@ function Bridge() {
   )
 }
 
-function LandscapeDetails() {
-  return (
-    <group>
-      {[
-        [-6.4, 1.25],
-        [-2.9, -2.25],
-        [0.5, -2.3],
-        [4.3, 3.25],
-        [6.8, -2],
-        [-5, -4.2],
-      ].map(([x, z], index) => (
-        <group key={index} position={[x, 0, z]}>
-          <mesh position={[0, 0.15, 0]} scale={[0.35, 0.22, 0.28]} castShadow>
-            <dodecahedronGeometry args={[1, 0]} />
-            <meshStandardMaterial color={index % 2 ? '#537a4e' : '#699453'} roughness={1} flatShading />
-          </mesh>
-          {[0, 1, 2].map((flower) => (
-            <mesh key={flower} position={[0.26 + flower * 0.09, 0.055, 0.08 + (flower % 2) * 0.13]}>
-              <sphereGeometry args={[0.045, 6, 4]} />
-              <meshStandardMaterial color={index % 2 ? '#f0d47a' : '#f1e7ce'} roughness={0.9} />
-            </mesh>
-          ))}
-        </group>
-      ))}
-      {[
-        [1.8, -2.5],
-        [4.5, -2.4],
-        [-2.1, -4.6],
-        [1.6, 4.85],
-      ].map(([x, z], i) => (
-        <mesh key={i} position={[x, 0.12, z]} scale={[0.28, 0.18, 0.24]} castShadow>
-          <dodecahedronGeometry args={[1, 0]} />
-          <meshStandardMaterial color="#b8b49b" roughness={1} flatShading />
-        </mesh>
-      ))}
-    </group>
-  )
-}
-
 function Ground() {
   const road = useMemo(
     () =>
@@ -366,7 +309,6 @@ function Ground() {
       <Ribbon curve={road} width={0.45} y={0.03} color="#eee1bb" />
       <RiverCourse points={riverPoints} />
       <Bridge />
-      <LandscapeDetails />
       {TREE_POSITIONS.map(([x, z, scale, height], index) => (
         <Tree key={index} x={x} z={z} scale={scale} height={height} />
       ))}
@@ -1490,18 +1432,7 @@ function DioramaScene({
       />
       <Ground />
       <DioramaLandscape night={night} moving={moving} />
-      <Clouds moving={moving} />
-      {night && (
-        <Sparkles
-          count={48}
-          size={2.1}
-          scale={[18, 4, 9]}
-          position={[0, 1.7, 0]}
-          speed={moving ? 0.22 : 0}
-          color="#ffe2a1"
-          opacity={0.65}
-        />
-      )}
+      <Cloud moving={moving} />
       {daily ? (
         <InteractiveStation
           station={daily}

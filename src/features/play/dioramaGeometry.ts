@@ -25,7 +25,7 @@ export const ISLAND_OUTLINE: Array<[number, number]> = [
   [-8.85, -3.9],
 ]
 
-// Include the island edges, mountain upgrades and the full drift of both clouds.
+// Include the island edges, mountain upgrades and the full drift of the cloud and balloon.
 export const DIORAMA_FRAME_POINTS = [
   ...[-9.5, 9.5].flatMap((x) => [-5.7, 5.7].flatMap((z) => [0, -3].map((y) => new Vector3(x, y, z)))),
   new Vector3(-7.9, 4.4, -4.9),
@@ -75,8 +75,8 @@ function MathUtilsClamp(value: number, min: number, max: number) {
 export function createIslandGeometry(kind: 'grass' | 'cliff') {
   const positions: number[] = []
   const colors: number[] = []
-  const grass = ['#7fad62', '#84b267', '#8ab66b', '#82af65', '#78a55c']
-  const rock = ['#756f62', '#857d68', '#696e64', '#95886e', '#5c6863', '#a18c6b']
+  const grass = ['#82af65', '#85b168', '#80ad63']
+  const rock = ['#7d7b6c', '#85816e', '#75776a']
   let face = 0
   const triangle = (a: number[], b: number[], c: number[], palette: string[]) => {
     const color = new Color(palette[(face++ * 7 + Math.floor(face / 3)) % palette.length])
@@ -100,7 +100,7 @@ export function createIslandGeometry(kind: 'grass' | 'cliff') {
     }
     ISLAND_OUTLINE.forEach(([x, z], i) => {
       const [nx, nz] = ISLAND_OUTLINE[(i + 1) % ISLAND_OUTLINE.length]
-      subdivide([0, 0, 0], [nx, 0, nz], [x, 0, z], 2)
+      subdivide([0, 0, 0], [nx, 0, nz], [x, 0, z], 1)
     })
   } else {
     const ring = (i: number, level: number) => {
