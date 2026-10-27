@@ -10,7 +10,8 @@ permissions:
   contents: read
 
 concurrency:
-  group: pages
+  # Ein PR darf keinen laufenden Release eines anderen Branches abbrechen.
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
 
 jobs:
@@ -46,30 +47,62 @@ jobs:
           VITE_CONTACT_EMAIL: ${{ vars.VITE_CONTACT_EMAIL }}
           VITE_HOSTING_PROVIDER: GitHub, Inc.
           VITE_HOSTING_PRIVACY_URL: https://docs.github.com/de/site-policy/privacy-policies/github-general-privacy-statement
+      - name: Release-Build für Tests und Veröffentlichung sichern
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: release-build
+          path: dist/
+          include-hidden-files: true
+          if-no-files-found: error
+          retention-days: 7
+
+  e2e:
+    name: E2E Smoke (${{ matrix.project }})
+    needs: build
+    runs-on: ubuntu-24.04
+    # Installation und Tests haben eigene Budgets; anschließend bleibt Zeit für Fehlerberichte.
+    timeout-minutes: 40
+    strategy:
+      fail-fast: false
+      matrix:
+        project: [mobile, desktop]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Unveränderten Release-Build laden
+        uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7
+        with:
+          name: release-build
+          path: dist/
       - name: Chromium für Browsertests installieren
-        run: npx playwright install --with-deps chromium
+        timeout-minutes: 15
+        run: npx playwright install --with-deps --only-shell chromium
       - name: E2E Smoke
-        run: npx playwright test
+        # Playwright beendet sich nach 15 Minuten selbst und schreibt dabei noch die Reports.
+        timeout-minutes: 17
+        run: npx playwright test --project=${{ matrix.project }}
         env:
           PLAYWRIGHT_SKIP_BUILD: '1' # Genau den konfigurierten Release-Build testen und veröffentlichen.
           VITE_BASE_URL: /${{ github.event.repository.name }}/
       - name: Browserberichte und Fehler-Traces sichern
         if: ${{ !cancelled() }}
+        timeout-minutes: 3
         uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
         with:
-          name: playwright-results
+          name: playwright-results-${{ matrix.project }}
           path: |
             playwright-report/
             test-results/
           retention-days: 7
           if-no-files-found: ignore
-      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
-        with:
-          path: dist
 
   deploy:
     if: github.ref == 'refs/heads/main'
-    needs: build
+    needs: [build, e2e]
     runs-on: ubuntu-24.04
     permissions:
       contents: read
@@ -79,5 +112,13 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Getesteten Release-Build laden
+        uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7
+        with:
+          name: release-build
+          path: dist/
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: dist
       - id: deployment
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

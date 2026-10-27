@@ -1,0 +1,151 @@
+{
+ "country": "country:FJ",
+ "cities": [
+  {
+   "id": "city:geonames-8740209",
+   "name": "Nasinu",
+   "aliases": [],
+   "lat": -18.07051,
+   "lon": 178.51313,
+   "population": 92043,
+   "geonameId": "8740209"
+  },
+  {
+   "id": "city:FJ-suva",
+   "name": "Suva",
+   "aliases": [
+    "SUV",
+    "Souba",
+    "Souva",
+    "Sufa",
+    "Suv",
+    "Suva City",
+    "Suvae",
+    "Suvo",
+    "Suwa",
+    "cuva",
+    "su wa",
+    "suba",
+    "subha",
+    "suva",
+    "suwa",
+    "swbh",
+    "swfa",
+    "swwa",
+    "Σούβα",
+    "Сувæ",
+    "Сува",
+    "Սուվա",
+    "סובה",
+    "سوفا",
+    "سووا",
+    "सुवा",
+    "সুভা",
+    "ਸੂਵਾ",
+    "சுவா",
+    "ซูวา",
+    "སུ་ཝ།",
+    "სუვა",
+    "ሱቫ",
+    "スバ",
+    "蘇瓦",
+    "수바"
+   ],
+   "lat": -18.13683,
+   "lon": 178.42531,
+   "population": 77366,
+   "geonameId": "2198148"
+  },
+  {
+   "id": "city:geonames-2204506",
+   "name": "Lautoka",
+   "aliases": [
+    "Lautok",
+    "lao tuo ka",
+    "lautoka",
+    "lawtwka",
+    "lutokka",
+    "lwtwqh",
+    "rautoka",
+    "Лаутока",
+    "לוטוקה",
+    "لاوتوكا",
+    "لاوتوکا",
+    "लौतोका",
+    "லூடோக்கா",
+    "ラウトカ",
+    "劳托卡",
+    "라우토카"
+   ],
+   "lat": -17.61686,
+   "lon": 177.45049,
+   "population": 52500,
+   "geonameId": "2204506"
+  },
+  {
+   "id": "city:geonames-2202064",
+   "name": "Nadi",
+   "aliases": [
+    "NAN",
+    "Nadis",
+    "Nandi",
+    "Nanti Fitzi",
+    "nadi",
+    "nady",
+    "nan di",
+    "nandi",
+    "nanti",
+    "Νάντι Φίτζι",
+    "Нанди",
+    "نادي",
+    "நண்டி",
+    "ナンディ",
+    "楠迪",
+    "나디",
+    "난디"
+   ],
+   "lat": -17.80309,
+   "lon": 177.41617,
+   "population": 42284,
+   "geonameId": "2202064"
+  },
+  {
+   "id": "city:geonames-2204582",
+   "name": "Labasa",
+   "aliases": [
+    "LBS",
+    "Lambasa",
+    "Lambasa Mill",
+    "Lambase",
+    "Lambassa"
+   ],
+   "lat": -16.4332,
+   "lon": 179.36451,
+   "population": 27949,
+   "geonameId": "2204582"
+  },
+  {
+   "id": "city:geonames-2204575",
+   "name": "Lami",
+   "aliases": [],
+   "lat": -18.11094,
+   "lon": 178.40943,
+   "population": 24639,
+   "geonameId": "2204575"
+  },
+  {
+   "id": "city:geonames-2198365",
+   "name": "Sigatoka",
+   "aliases": [
+    "Na Singatoka",
+    "Nasigatoka",
+    "Singatoka",
+    "Singatoke"
+   ],
+   "lat": -18.14307,
+   "lon": 177.50691,
+   "population": 17622,
+   "geonameId": "2198365"
+  }
+ ]
+}

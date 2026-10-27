@@ -1,0 +1,1330 @@
+{
+ "country": "country:GT",
+ "cities": [
+  {
+   "id": "city:GT-guatemala-city",
+   "name": "Guatemala-Stadt",
+   "aliases": [
+    "Guatemala City",
+    "Cidade da Guatemala",
+    "Citta del Guatemala",
+    "Città del Guatemala",
+    "Ciudad Guatemala",
+    "Ciudad de Guatemala",
+    "Ciutat de Guatemala",
+    "GUA",
+    "Guate",
+    "Guatemala",
+    "Guatemala Hiria",
+    "Guatemala by",
+    "Guatemala la Nueva",
+    "Guatemala-Urbo",
+    "Guatemala-stad",
+    "Gvatemala",
+    "Gvatemalurbo",
+    "Gwatemala",
+    "New Guatemala",
+    "Nueva Guatemala",
+    "Nueva Guatemala de la Asuncion",
+    "Nueva Guatemala de la Asunción",
+    "Pole tes Gouatemalas",
+    "Santiago de Guatimala",
+    "gua de ma la shi",
+    "guatemarashiti",
+    "gwatemalla si",
+    "gwatemallasiti",
+    "kawtemalasiti",
+    "mdynt ghwatymala",
+    "shhr gwatmala",
+    "Πόλη της Γουατεμάλας",
+    "Гватемала",
+    "גואטמלה סיטי",
+    "גוואטמלה סיטי",
+    "شهر گواتمالا",
+    "مدينة غواتيمالا",
+    "กัวเตมาลาซิตี",
+    "グアテマラシティ",
+    "瓜地馬拉市",
+    "과테말라 시",
+    "과테말라시티"
+   ],
+   "lat": 14.64072,
+   "lon": -90.51327,
+   "population": 994938,
+   "geonameId": "3598132"
+  },
+  {
+   "id": "city:GT-villa-nueva",
+   "name": "Villa Nueva",
+   "aliases": [
+    "Vil'ja-Nuehva",
+    "Vilja Nueva",
+    "Viljanueva",
+    "bi ya nu ai wa",
+    "wya nwywa  gwatymala",
+    "Вилья-Нуэва",
+    "Вилянуева",
+    "ویا نویوا، گواتیمالا",
+    "比亞努埃瓦"
+   ],
+   "lat": 14.52512,
+   "lon": -90.58544,
+   "population": 618397,
+   "geonameId": "3587902"
+  },
+  {
+   "id": "city:GT-mixco",
+   "name": "Mixco",
+   "aliases": [
+    "Mishko",
+    "Мишко"
+   ],
+   "lat": 14.63077,
+   "lon": -90.60711,
+   "population": 465773,
+   "geonameId": "3592519"
+  },
+  {
+   "id": "city:geonames-3598119",
+   "name": "Cobán",
+   "aliases": [
+    "Coban",
+    "CBV",
+    "Koban",
+    "Kobanas",
+    "Santo Domingo de Coban",
+    "Santo Domingo de Cobán",
+    "ke wan",
+    "koban",
+    "Кобан",
+    "קובאן",
+    "科萬",
+    "코반"
+   ],
+   "lat": 15.47025,
+   "lon": -90.37455,
+   "population": 212047,
+   "geonameId": "3598119"
+  },
+  {
+   "id": "city:GT-quetzaltenango",
+   "name": "Quetzaltenango",
+   "aliases": [
+    "AAZ",
+    "Kecaltenangas",
+    "Kecaltenango",
+    "Kesal'tenango",
+    "Ketsaltenan'nko",
+    "Ketzaltenango",
+    "Quetzaltenanco",
+    "Quetzaltenānco",
+    "Quexaltenango",
+    "Quezaltenango",
+    "ke sa er te nan ge",
+    "keteusaltenang-go",
+    "ketsuarutenango",
+    "Κετσαλτενάνγκο",
+    "Кесальтенанго",
+    "Кецалтенанго",
+    "ケツァルテナンゴ",
+    "克薩爾特南戈",
+    "케트살테낭고"
+   ],
+   "lat": 14.84462,
+   "lon": -91.52316,
+   "population": 180706,
+   "geonameId": "3590979"
+  },
+  {
+   "id": "city:GT-jalapa",
+   "name": "Jalapa",
+   "aliases": [
+    "Khalapa",
+    "Халапа"
+   ],
+   "lat": 14.63542,
+   "lon": -89.99112,
+   "population": 159840,
+   "geonameId": "3595237"
+  },
+  {
+   "id": "city:GT-escuintla",
+   "name": "Escuintla",
+   "aliases": [
+    "Ehskuintla",
+    "Esquintla",
+    "esukuintora",
+    "Эскуинтла",
+    "エスクィントラ"
+   ],
+   "lat": 14.30097,
+   "lon": -90.78816,
+   "population": 156313,
+   "geonameId": "3595803"
+  },
+  {
+   "id": "city:GT-villa-canales",
+   "name": "Villa Canales",
+   "aliases": [
+    "Vil'ja Kanales",
+    "Villa Anales",
+    "Вилья Каналес"
+   ],
+   "lat": 14.48285,
+   "lon": -90.53425,
+   "population": 155423,
+   "geonameId": "3587923"
+  },
+  {
+   "id": "city:geonames-3595069",
+   "name": "Jutiapa",
+   "aliases": [
+    "Juliapa",
+    "Khutiapa",
+    "Хутиапа"
+   ],
+   "lat": 14.28491,
+   "lon": -89.88798,
+   "population": 145880,
+   "geonameId": "3595069"
+  },
+  {
+   "id": "city:geonames-3598655",
+   "name": "Chichicastenango",
+   "aliases": [
+    "Chichikastenango",
+    "Santo Tomas Chichicastenango",
+    "Santo Tomás Chichicastenango",
+    "Чичикастенанго"
+   ],
+   "lat": 14.94333,
+   "lon": -91.11116,
+   "population": 141567,
+   "geonameId": "3598655"
+  },
+  {
+   "id": "city:geonames-3589885",
+   "name": "San Juan Sacatepéquez",
+   "aliases": [
+    "San Juan Sacatepequez",
+    "San Khuan Sakatepekez",
+    "Сан Хуан Сакатепекез"
+   ],
+   "lat": 14.71889,
+   "lon": -90.64417,
+   "population": 136886,
+   "geonameId": "3589885"
+  },
+  {
+   "id": "city:geonames-3591415",
+   "name": "Petapa",
+   "aliases": [
+    "San Miguel Petapa",
+    "Петапа"
+   ],
+   "lat": 14.50189,
+   "lon": -90.56196,
+   "population": 135447,
+   "geonameId": "3591415"
+  },
+  {
+   "id": "city:geonames-3589289",
+   "name": "Santa Lucía Cotzumalguapa",
+   "aliases": [
+    "Santa Lucia Cotzumalguapa",
+    "Santa Luchia Kotzumalguapa",
+    "Santa Lucia",
+    "Santa Lucía",
+    "Санта Лучиа Котзумалгуапа"
+   ],
+   "lat": 14.33505,
+   "lon": -91.02339,
+   "population": 112780,
+   "geonameId": "3589289"
+  },
+  {
+   "id": "city:geonames-3598465",
+   "name": "Chiquimula",
+   "aliases": [
+    "CIQ",
+    "Chikimula",
+    "Ciudad Procer",
+    "Ciudad Prócer",
+    "La Perla de Oriente",
+    "Чикимула"
+   ],
+   "lat": 14.8009,
+   "lon": -89.54641,
+   "population": 111505,
+   "geonameId": "3598465"
+  },
+  {
+   "id": "city:geonames-3598122",
+   "name": "Coatepeque",
+   "aliases": [
+    "CTF",
+    "Coatepec",
+    "Koatepeke",
+    "Koatepekė",
+    "ke a te pei ke",
+    "Коатепеке",
+    "کواتیپیکے، کویتسالتینانگو",
+    "科阿特佩克"
+   ],
+   "lat": 14.70413,
+   "lon": -91.86426,
+   "population": 105415,
+   "geonameId": "3598122"
+  },
+  {
+   "id": "city:geonames-3598529",
+   "name": "Chinautla",
+   "aliases": [
+    "Chignautla",
+    "Santa Cruz de Chinautla",
+    "Чинаутла"
+   ],
+   "lat": 14.70289,
+   "lon": -90.49983,
+   "population": 104972,
+   "geonameId": "3598529"
+  },
+  {
+   "id": "city:geonames-3588258",
+   "name": "Totonicapán",
+   "aliases": [
+    "Totonicapan",
+    "Totonikapan",
+    "Тотоникапан"
+   ],
+   "lat": 14.91188,
+   "lon": -91.36054,
+   "population": 103952,
+   "geonameId": "3588258"
+  },
+  {
+   "id": "city:geonames-3591062",
+   "name": "Puerto Barrios",
+   "aliases": [
+    "PBR",
+    "Puehrto-Barrios",
+    "Puerto Barijosas",
+    "Puerto Barios",
+    "ba li ao si gang",
+    "Пуерто Бариос",
+    "Пуэрто-Барриос",
+    "פוארטו באריוס",
+    "巴里奧斯港"
+   ],
+   "lat": 15.72724,
+   "lon": -88.59787,
+   "population": 100593,
+   "geonameId": "3591062"
+  },
+  {
+   "id": "city:geonames-3598572",
+   "name": "Chimaltenango",
+   "aliases": [
+    "Chimal'tenango",
+    "Santa Ana Chimaltenango",
+    "Чимальтенанго"
+   ],
+   "lat": 14.65881,
+   "lon": -90.8216,
+   "population": 96985,
+   "geonameId": "3598572"
+  },
+  {
+   "id": "city:geonames-3592753",
+   "name": "Malacatán",
+   "aliases": [
+    "Malacatan"
+   ],
+   "lat": 14.91132,
+   "lon": -92.05788,
+   "population": 92816,
+   "geonameId": "3592753"
+  },
+  {
+   "id": "city:geonames-3590858",
+   "name": "Retalhuleu",
+   "aliases": [
+    "RER",
+    "Retalhuleo",
+    "Retalhuley",
+    "Retaluleu",
+    "Реталулеу"
+   ],
+   "lat": 14.53575,
+   "lon": -91.67848,
+   "population": 90505,
+   "geonameId": "3590858"
+  },
+  {
+   "id": "city:geonames-3589452",
+   "name": "Santa Catarina Pinula",
+   "aliases": [],
+   "lat": 14.57047,
+   "lon": -90.49925,
+   "population": 80582,
+   "geonameId": "3589452"
+  },
+  {
+   "id": "city:geonames-3589977",
+   "name": "San José Pinula",
+   "aliases": [
+    "San Jose Pinula"
+   ],
+   "lat": 14.546,
+   "lon": -90.41288,
+   "population": 79844,
+   "geonameId": "3589977"
+  },
+  {
+   "id": "city:geonames-3595416",
+   "name": "Huehuetenango",
+   "aliases": [
+    "HUG",
+    "Huehuetenangas",
+    "Uehuehtenango",
+    "Ueuetenango",
+    "ue-uetenang-go",
+    "ueuetenango",
+    "wei wei te nan ge",
+    "Уеуетенанго",
+    "Уэуэтенанго",
+    "ウェウェテナンゴ",
+    "韋韋特南戈",
+    "우에우에테낭고"
+   ],
+   "lat": 15.32097,
+   "lon": -91.47001,
+   "population": 79426,
+   "geonameId": "3595416"
+  },
+  {
+   "id": "city:geonames-3589404",
+   "name": "Santa Cruz del Quiché",
+   "aliases": [
+    "Santa Cruz del Quiche",
+    "AQB",
+    "Santa-Krus-del'-Kiche",
+    "Санта-Крус-дель-Киче"
+   ],
+   "lat": 15.02995,
+   "lon": -91.14876,
+   "population": 78279,
+   "geonameId": "3589404"
+  },
+  {
+   "id": "city:geonames-3592609",
+   "name": "Mazatenango",
+   "aliases": [
+    "Masatenango",
+    "Масатенанго"
+   ],
+   "lat": 14.53412,
+   "lon": -91.50311,
+   "population": 77431,
+   "geonameId": "3592609"
+  },
+  {
+   "id": "city:geonames-3591676",
+   "name": "Panzos",
+   "aliases": [
+    "Panzós"
+   ],
+   "lat": 15.39862,
+   "lon": -89.64147,
+   "population": 71846,
+   "geonameId": "3591676"
+  },
+  {
+   "id": "city:geonames-3599735",
+   "name": "Amatitlán",
+   "aliases": [
+    "Amatitlan",
+    "San Juan Amatitlan",
+    "San Juan Amatitlán"
+   ],
+   "lat": 14.4774,
+   "lon": -90.63489,
+   "population": 71836,
+   "geonameId": "3599735"
+  },
+  {
+   "id": "city:geonames-3591833",
+   "name": "Palín",
+   "aliases": [
+    "Palin"
+   ],
+   "lat": 14.40358,
+   "lon": -90.69659,
+   "population": 65873,
+   "geonameId": "3591833"
+  },
+  {
+   "id": "city:geonames-3590616",
+   "name": "Salamá",
+   "aliases": [
+    "Salama"
+   ],
+   "lat": 15.1021,
+   "lon": -90.31906,
+   "population": 65275,
+   "geonameId": "3590616"
+  },
+  {
+   "id": "city:geonames-3598678",
+   "name": "Chicacao",
+   "aliases": [],
+   "lat": 14.54295,
+   "lon": -91.32636,
+   "population": 60735,
+   "geonameId": "3598678"
+  },
+  {
+   "id": "city:geonames-3587587",
+   "name": "Zacapa",
+   "aliases": [
+    "Sakapa",
+    "Сакапа"
+   ],
+   "lat": 14.96867,
+   "lon": -89.52732,
+   "population": 60424,
+   "geonameId": "3587587"
+  },
+  {
+   "id": "city:geonames-3598025",
+   "name": "Comitancillo",
+   "aliases": [
+    "Comitacillo"
+   ],
+   "lat": 15.08937,
+   "lon": -91.74971,
+   "population": 59489,
+   "geonameId": "3598025"
+  },
+  {
+   "id": "city:geonames-3595714",
+   "name": "Fraijanes",
+   "aliases": [],
+   "lat": 14.46528,
+   "lon": -90.44083,
+   "population": 58922,
+   "geonameId": "3595714"
+  },
+  {
+   "id": "city:geonames-3589646",
+   "name": "San Pedro Ayampuc",
+   "aliases": [],
+   "lat": 14.77943,
+   "lon": -90.45318,
+   "population": 58609,
+   "geonameId": "3589646"
+  },
+  {
+   "id": "city:geonames-3591512",
+   "name": "Patzún",
+   "aliases": [
+    "Patzun"
+   ],
+   "lat": 14.68189,
+   "lon": -91.01397,
+   "population": 58240,
+   "geonameId": "3591512"
+  },
+  {
+   "id": "city:geonames-3590219",
+   "name": "San Francisco El Alto",
+   "aliases": [
+    "San Francisco"
+   ],
+   "lat": 14.9449,
+   "lon": -91.4431,
+   "population": 57894,
+   "geonameId": "3590219"
+  },
+  {
+   "id": "city:geonames-3591997",
+   "name": "Ostuncalco",
+   "aliases": [
+    "San Juan Ostuncalco"
+   ],
+   "lat": 14.86899,
+   "lon": -91.62137,
+   "population": 51828,
+   "geonameId": "3591997"
+  },
+  {
+   "id": "city:geonames-3588694",
+   "name": "Soloma",
+   "aliases": [
+    "San Pedro Soloma",
+    "Солома"
+   ],
+   "lat": 15.65841,
+   "lon": -91.42994,
+   "population": 49030,
+   "geonameId": "3588694"
+  },
+  {
+   "id": "city:geonames-3599639",
+   "name": "Asunción Mita",
+   "aliases": [
+    "Asuncion Mita",
+    "Asuncion",
+    "Mita"
+   ],
+   "lat": 14.33365,
+   "lon": -89.71094,
+   "population": 48297,
+   "geonameId": "3599639"
+  },
+  {
+   "id": "city:geonames-3598073",
+   "name": "Colomba",
+   "aliases": [],
+   "lat": 14.7073,
+   "lon": -91.73167,
+   "population": 47544,
+   "geonameId": "3598073"
+  },
+  {
+   "id": "city:geonames-3599582",
+   "name": "Barberena",
+   "aliases": [
+    "Barbarena",
+    "Барберена"
+   ],
+   "lat": 14.30739,
+   "lon": -90.36156,
+   "population": 47093,
+   "geonameId": "3599582"
+  },
+  {
+   "id": "city:geonames-3589805",
+   "name": "San Marcos",
+   "aliases": [
+    "La Union",
+    "San Marcos La Union",
+    "San Markosas",
+    "San-Markos",
+    "sanmaleukoseu",
+    "sheng ma ke si",
+    "Сан-Маркос",
+    "聖馬科斯",
+    "산마르코스"
+   ],
+   "lat": 14.96437,
+   "lon": -91.79486,
+   "population": 47063,
+   "geonameId": "3589805"
+  },
+  {
+   "id": "city:geonames-3599699",
+   "name": "Antigua Guatemala",
+   "aliases": [
+    "Antigoua Gouatemala",
+    "Antigua",
+    "Antigua-Guatemala",
+    "Antigua-Gvatemala",
+    "Antigva Gvatemala",
+    "Antikva Gvatemalo",
+    "Huehcauh Cuauhtemallan",
+    "Huehcāuh Cuauhtēmallān",
+    "Muy Noble y Muy Leal Ciudad de Santiago de los Caballeros",
+    "Santiago de los Caballeros de Guatemala",
+    "The Most Noble and Most Loyal City of Santiago of the Knights of Goathemala",
+    "an de gua",
+    "antikuva kuvattamala",
+    "Αντίγουα Γουατεμάλα",
+    "Антигва Гватемала",
+    "Антигуа-Гватемала",
+    "Антигуа-Гуатемала",
+    "Антіґуа-Ґватемала",
+    "אנטיגואה גואטמלה",
+    "ஆன்டிகுவா குவாத்தமாலா",
+    "ანტიგუა-გვატემალა",
+    "アンティグア・グアテマラ",
+    "安地瓜"
+   ],
+   "lat": 14.55636,
+   "lon": -90.7332,
+   "population": 46054,
+   "geonameId": "3599699"
+  },
+  {
+   "id": "city:geonames-3588698",
+   "name": "Sololá",
+   "aliases": [
+    "Solola",
+    "Солола"
+   ],
+   "lat": 14.7707,
+   "lon": -91.18344,
+   "population": 45373,
+   "geonameId": "3588698"
+  },
+  {
+   "id": "city:geonames-3592642",
+   "name": "Masagua",
+   "aliases": [],
+   "lat": 14.20306,
+   "lon": -90.84806,
+   "population": 45323,
+   "geonameId": "3592642"
+  },
+  {
+   "id": "city:geonames-3599069",
+   "name": "Cantel",
+   "aliases": [],
+   "lat": 14.81154,
+   "lon": -91.45536,
+   "population": 42142,
+   "geonameId": "3599069"
+  },
+  {
+   "id": "city:geonames-3597804",
+   "name": "Cuilapa",
+   "aliases": [
+    "Cuajiniquilapa"
+   ],
+   "lat": 14.27537,
+   "lon": -90.29865,
+   "population": 41359,
+   "geonameId": "3597804"
+  },
+  {
+   "id": "city:geonames-3591541",
+   "name": "Patulul",
+   "aliases": [
+    "Патулул"
+   ],
+   "lat": 14.42321,
+   "lon": -91.16049,
+   "population": 40683,
+   "geonameId": "3591541"
+  },
+  {
+   "id": "city:geonames-3589626",
+   "name": "San Pedro Sacatepéquez",
+   "aliases": [
+    "San Pedro Sacatepequez",
+    "San Pedra",
+    "San Pedro",
+    "San Pedro Zacatepec",
+    "sheng pei de luo sa ka te pei ke si",
+    "聖佩德羅薩卡特佩克斯"
+   ],
+   "lat": 14.96807,
+   "lon": -91.76172,
+   "population": 40021,
+   "geonameId": "3589626"
+  },
+  {
+   "id": "city:geonames-3592105",
+   "name": "Nuevo San Carlos",
+   "aliases": [],
+   "lat": 14.593,
+   "lon": -91.6939,
+   "population": 39565,
+   "geonameId": "3592105"
+  },
+  {
+   "id": "city:geonames-3595248",
+   "name": "Jacaltenango",
+   "aliases": [
+    "Khakal'tenango",
+    "Хакальтенанго"
+   ],
+   "lat": 15.66662,
+   "lon": -91.71177,
+   "population": 37171,
+   "geonameId": "3595248"
+  },
+  {
+   "id": "city:geonames-3587636",
+   "name": "Yepocapa",
+   "aliases": [
+    "San Pedro Yepocapa"
+   ],
+   "lat": 14.50195,
+   "lon": -90.95396,
+   "population": 34948,
+   "geonameId": "3587636"
+  },
+  {
+   "id": "city:geonames-3588476",
+   "name": "Tecpán Guatemala",
+   "aliases": [
+    "Tecpan Guatemala",
+    "Tecpam",
+    "Tecpan",
+    "Tecpán"
+   ],
+   "lat": 14.76181,
+   "lon": -90.99247,
+   "population": 34519,
+   "geonameId": "3588476"
+  },
+  {
+   "id": "city:geonames-3598128",
+   "name": "Ciudad Vieja",
+   "aliases": [],
+   "lat": 14.52396,
+   "lon": -90.76308,
+   "population": 33405,
+   "geonameId": "3598128"
+  },
+  {
+   "id": "city:geonames-3589105",
+   "name": "Santiago Atitlán",
+   "aliases": [
+    "Santiago Atitlan",
+    "Atitlan",
+    "Atitlán",
+    "Santiago"
+   ],
+   "lat": 14.63823,
+   "lon": -91.22901,
+   "population": 33309,
+   "geonameId": "3589105"
+  },
+  {
+   "id": "city:geonames-3598034",
+   "name": "Comalapa",
+   "aliases": [],
+   "lat": 14.74086,
+   "lon": -90.88761,
+   "population": 32312,
+   "geonameId": "3598034"
+  },
+  {
+   "id": "city:geonames-3592483",
+   "name": "Momostenango",
+   "aliases": [],
+   "lat": 15.04437,
+   "lon": -91.40864,
+   "population": 31739,
+   "geonameId": "3592483"
+  },
+  {
+   "id": "city:geonames-3590389",
+   "name": "San Benito",
+   "aliases": [],
+   "lat": 16.91675,
+   "lon": -89.91898,
+   "population": 30764,
+   "geonameId": "3590389"
+  },
+  {
+   "id": "city:geonames-3589101",
+   "name": "Santiago Sacatepéquez",
+   "aliases": [
+    "Santiago Sacatepequez",
+    "Santiago"
+   ],
+   "lat": 14.6351,
+   "lon": -90.67654,
+   "population": 29238,
+   "geonameId": "3589101"
+  },
+  {
+   "id": "city:geonames-3589548",
+   "name": "San Sebastián",
+   "aliases": [
+    "San Sebastian"
+   ],
+   "lat": 14.56177,
+   "lon": -91.64865,
+   "population": 29167,
+   "geonameId": "3589548"
+  },
+  {
+   "id": "city:geonames-3595232",
+   "name": "Jalpatagua",
+   "aliases": [],
+   "lat": 14.1369,
+   "lon": -90.00908,
+   "population": 28832,
+   "geonameId": "3595232"
+  },
+  {
+   "id": "city:geonames-3588653",
+   "name": "Sumpango",
+   "aliases": [],
+   "lat": 14.64623,
+   "lon": -90.73427,
+   "population": 28488,
+   "geonameId": "3588653"
+  },
+  {
+   "id": "city:geonames-3592286",
+   "name": "Nahualá",
+   "aliases": [
+    "Nahuala"
+   ],
+   "lat": 14.8429,
+   "lon": -91.31799,
+   "population": 27690,
+   "geonameId": "3592286"
+  },
+  {
+   "id": "city:geonames-3590529",
+   "name": "San Andrés Itzapa",
+   "aliases": [
+    "San Andres Itzapa",
+    "Itzapa"
+   ],
+   "lat": 14.62222,
+   "lon": -90.84314,
+   "population": 24992,
+   "geonameId": "3590529"
+  },
+  {
+   "id": "city:geonames-3596421",
+   "name": "Guastatoya",
+   "aliases": [
+    "El Progreso",
+    "Gusfatoya",
+    "Progreso"
+   ],
+   "lat": 14.85442,
+   "lon": -90.06991,
+   "population": 24831,
+   "geonameId": "3596421"
+  },
+  {
+   "id": "city:geonames-3589822",
+   "name": "San Luis Jilotepeque",
+   "aliases": [
+    "Jilotepeque",
+    "San Luis"
+   ],
+   "lat": 14.64724,
+   "lon": -89.72463,
+   "population": 24679,
+   "geonameId": "3589822"
+  },
+  {
+   "id": "city:geonames-3590288",
+   "name": "San Felipe",
+   "aliases": [],
+   "lat": 14.62304,
+   "lon": -91.595,
+   "population": 24446,
+   "geonameId": "3590288"
+  },
+  {
+   "id": "city:geonames-3587543",
+   "name": "Zaragoza",
+   "aliases": [],
+   "lat": 14.64968,
+   "lon": -90.89034,
+   "population": 24022,
+   "geonameId": "3587543"
+  },
+  {
+   "id": "city:geonames-3594575",
+   "name": "La Gomera",
+   "aliases": [],
+   "lat": 14.08213,
+   "lon": -91.05383,
+   "population": 24001,
+   "geonameId": "3594575"
+  },
+  {
+   "id": "city:geonames-3599788",
+   "name": "Alotenango",
+   "aliases": [
+    "San Juan Alotenango"
+   ],
+   "lat": 14.48585,
+   "lon": -90.80437,
+   "population": 23986,
+   "geonameId": "3599788"
+  },
+  {
+   "id": "city:geonames-3591060",
+   "name": "Puerto San José",
+   "aliases": [
+    "Puerto San Jose",
+    "GSJ",
+    "Puerto San Chose",
+    "Puerto San Chosė",
+    "Puerto de San Jose",
+    "Puerto de San José",
+    "San Jose",
+    "San Jose de Guatemala",
+    "San José",
+    "San José de Guatemala",
+    "sheng he sai gang",
+    "پورتو سان ہوزے",
+    "聖何塞港"
+   ],
+   "lat": 13.92216,
+   "lon": -90.81906,
+   "population": 23887,
+   "geonameId": "3591060"
+  },
+  {
+   "id": "city:geonames-3592237",
+   "name": "Nebaj",
+   "aliases": [],
+   "lat": 15.40614,
+   "lon": -91.14682,
+   "population": 23301,
+   "geonameId": "3592237"
+  },
+  {
+   "id": "city:geonames-3599287",
+   "name": "Cabricán",
+   "aliases": [
+    "Cabrican"
+   ],
+   "lat": 15.07485,
+   "lon": -91.648,
+   "population": 23033,
+   "geonameId": "3599287"
+  },
+  {
+   "id": "city:geonames-3590197",
+   "name": "San Francisco Zapotitlán",
+   "aliases": [
+    "San Francisco Zapotitlan"
+   ],
+   "lat": 14.58939,
+   "lon": -91.52144,
+   "population": 22533,
+   "geonameId": "3590197"
+  },
+  {
+   "id": "city:geonames-3589253",
+   "name": "Santa María de Jesús",
+   "aliases": [
+    "Santa Maria de Jesus",
+    "Santa Maria",
+    "Santa María"
+   ],
+   "lat": 14.49452,
+   "lon": -90.71036,
+   "population": 21795,
+   "geonameId": "3589253"
+  },
+  {
+   "id": "city:geonames-3591523",
+   "name": "Patzicía",
+   "aliases": [
+    "Patzicia"
+   ],
+   "lat": 14.63194,
+   "lon": -90.92659,
+   "population": 21249,
+   "geonameId": "3591523"
+  },
+  {
+   "id": "city:geonames-3589852",
+   "name": "San Lucas Sacatepéquez",
+   "aliases": [
+    "San Lucas Sacatepequez",
+    "San Lucas"
+   ],
+   "lat": 14.61075,
+   "lon": -90.65681,
+   "population": 20723,
+   "geonameId": "3589852"
+  },
+  {
+   "id": "city:geonames-3595783",
+   "name": "Esquipulas",
+   "aliases": [
+    "Eskipulasas",
+    "ai si ji pu la si",
+    "埃斯基普拉斯"
+   ],
+   "lat": 14.56571,
+   "lon": -89.35166,
+   "population": 20674,
+   "geonameId": "3595783"
+  },
+  {
+   "id": "city:geonames-3597078",
+   "name": "El Estor",
+   "aliases": [],
+   "lat": 15.53221,
+   "lon": -89.33111,
+   "population": 20489,
+   "geonameId": "3597078"
+  },
+  {
+   "id": "city:geonames-3595725",
+   "name": "Flores",
+   "aliases": [
+    "FRS",
+    "Flores Peten",
+    "Flores Petén",
+    "Floresas",
+    "flwrys  ayl pytyn",
+    "fu luo lei si",
+    "peulloleseu",
+    "phloresa",
+    "plwrs",
+    "Флорес",
+    "פלורס",
+    "فلوریس، ایل پیتین",
+    "ফ্লোরেস",
+    "弗洛雷斯",
+    "플로레스"
+   ],
+   "lat": 16.92258,
+   "lon": -89.89941,
+   "population": 20464,
+   "geonameId": "3595725"
+  },
+  {
+   "id": "city:geonames-3589671",
+   "name": "San Pablo Jocopilas",
+   "aliases": [
+    "San Pablo"
+   ],
+   "lat": 14.58882,
+   "lon": -91.45188,
+   "population": 20433,
+   "geonameId": "3589671"
+  },
+  {
+   "id": "city:geonames-3590316",
+   "name": "San Cristóbal Verapaz",
+   "aliases": [
+    "San Cristobal Verapaz",
+    "San Cristobal",
+    "San Cristóbal"
+   ],
+   "lat": 15.36663,
+   "lon": -90.47825,
+   "population": 19664,
+   "geonameId": "3590316"
+  },
+  {
+   "id": "city:geonames-3590605",
+   "name": "Salcajá",
+   "aliases": [
+    "Salcaja"
+   ],
+   "lat": 14.87964,
+   "lon": -91.45699,
+   "population": 19434,
+   "geonameId": "3590605"
+  },
+  {
+   "id": "city:geonames-3595560",
+   "name": "Gualán",
+   "aliases": [
+    "Gualan",
+    "Guala",
+    "Gualá"
+   ],
+   "lat": 15.11952,
+   "lon": -89.35721,
+   "population": 19354,
+   "geonameId": "3595560"
+  },
+  {
+   "id": "city:geonames-3592362",
+   "name": "Morales",
+   "aliases": [
+    "Моралес"
+   ],
+   "lat": 15.47225,
+   "lon": -88.8407,
+   "population": 18994,
+   "geonameId": "3592362"
+  },
+  {
+   "id": "city:geonames-3595503",
+   "name": "Guazacapán",
+   "aliases": [
+    "Guazacapan"
+   ],
+   "lat": 14.07417,
+   "lon": -90.41667,
+   "population": 18855,
+   "geonameId": "3595503"
+  },
+  {
+   "id": "city:geonames-3591851",
+   "name": "Palencia",
+   "aliases": [],
+   "lat": 14.66715,
+   "lon": -90.35721,
+   "population": 18574,
+   "geonameId": "3591851"
+  },
+  {
+   "id": "city:geonames-3591093",
+   "name": "Tiquisate",
+   "aliases": [
+    "Pueblo Nuevo",
+    "Pueblo Nuevo Tiquisate",
+    "Tiquizate"
+   ],
+   "lat": 14.28356,
+   "lon": -91.36063,
+   "population": 18189,
+   "geonameId": "3591093"
+  },
+  {
+   "id": "city:geonames-3593376",
+   "name": "Lívingston",
+   "aliases": [
+    "Livingston"
+   ],
+   "lat": 15.82826,
+   "lon": -88.75039,
+   "population": 17923,
+   "geonameId": "3593376"
+  },
+  {
+   "id": "city:geonames-3595171",
+   "name": "Jocotenango",
+   "aliases": [],
+   "lat": 14.57814,
+   "lon": -90.73804,
+   "population": 17918,
+   "geonameId": "3595171"
+  },
+  {
+   "id": "city:geonames-3597587",
+   "name": "El Asintal",
+   "aliases": [
+    "Acintal",
+    "Asintal",
+    "El Acintal"
+   ],
+   "lat": 14.59626,
+   "lon": -91.72744,
+   "population": 17388,
+   "geonameId": "3597587"
+  },
+  {
+   "id": "city:geonames-3591181",
+   "name": "Poptún",
+   "aliases": [
+    "Poptun",
+    "PON",
+    "Poctum",
+    "Poctun",
+    "Poctún",
+    "Santa Barbara",
+    "Santa Bárbara"
+   ],
+   "lat": 16.33111,
+   "lon": -89.41694,
+   "population": 17320,
+   "geonameId": "3591181"
+  },
+  {
+   "id": "city:geonames-3589475",
+   "name": "Santa Bárbara",
+   "aliases": [
+    "Santa Barbara"
+   ],
+   "lat": 14.43563,
+   "lon": -91.22685,
+   "population": 17172,
+   "geonameId": "3589475"
+  },
+  {
+   "id": "city:geonames-3598415",
+   "name": "Chisec",
+   "aliases": [],
+   "lat": 15.81311,
+   "lon": -90.28896,
+   "population": 17018,
+   "geonameId": "3598415"
+  },
+  {
+   "id": "city:geonames-3594703",
+   "name": "La Esperanza",
+   "aliases": [
+    "Esperanza"
+   ],
+   "lat": 14.87169,
+   "lon": -91.5614,
+   "population": 16461,
+   "geonameId": "3594703"
+  },
+  {
+   "id": "city:geonames-3589643",
+   "name": "San Pedro Carchá",
+   "aliases": [
+    "San Pedro Carcha",
+    "Carcha",
+    "Carchá"
+   ],
+   "lat": 15.47745,
+   "lon": -90.31105,
+   "population": 16353,
+   "geonameId": "3589643"
+  },
+  {
+   "id": "city:geonames-3590406",
+   "name": "Sanarate",
+   "aliases": [
+    "Санарате"
+   ],
+   "lat": 14.78828,
+   "lon": -90.19876,
+   "population": 15843,
+   "geonameId": "3590406"
+  },
+  {
+   "id": "city:geonames-3596041",
+   "name": "El Tejar",
+   "aliases": [
+    "Tejar"
+   ],
+   "lat": 14.64683,
+   "lon": -90.79122,
+   "population": 15639,
+   "geonameId": "3596041"
+  },
+  {
+   "id": "city:geonames-3596644",
+   "name": "El Palmar",
+   "aliases": [
+    "Palmar"
+   ],
+   "lat": 14.65083,
+   "lon": -91.578,
+   "population": 15167,
+   "geonameId": "3596644"
+  },
+  {
+   "id": "city:geonames-3590924",
+   "name": "Rabinal",
+   "aliases": [
+    "Рабинал"
+   ],
+   "lat": 15.0853,
+   "lon": -90.49255,
+   "population": 15157,
+   "geonameId": "3590924"
+  },
+  {
+   "id": "city:geonames-3590520",
+   "name": "San Andrés Xecul",
+   "aliases": [
+    "San Andres Xecul",
+    "San Andres",
+    "San Andrés"
+   ],
+   "lat": 14.90482,
+   "lon": -91.48307,
+   "population": 15074,
+   "geonameId": "3590520"
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "country": "country:TC",
+ "cities": [
+  {
+   "id": "city:geonames-11703857",
+   "name": "Providenciales",
+   "aliases": [
+    "Provo"
+   ],
+   "lat": 21.78254,
+   "lon": -72.25206,
+   "population": 23769,
+   "geonameId": "11703857"
+  }
+ ]
+}

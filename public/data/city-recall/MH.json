@@ -1,0 +1,34 @@
+{
+ "country": "country:MH",
+ "cities": [
+  {
+   "id": "city:MH-majuro",
+   "name": "Majuro",
+   "aliases": [
+    "MAJ",
+    "Madzhuro",
+    "Majur",
+    "Mazouro",
+    "majulo",
+    "Μαζούρο",
+    "Маджуро",
+    "마주로"
+   ],
+   "lat": 7.08971,
+   "lon": 171.38027,
+   "population": 25400,
+   "geonameId": "2113779"
+  },
+  {
+   "id": "city:geonames-8347657",
+   "name": "Dalap-Uliga-Dorrit",
+   "aliases": [
+    "Delap-Uliga-Djarrit"
+   ],
+   "lat": 7.087,
+   "lon": 171.377,
+   "population": 20301,
+   "geonameId": "8347657"
+  }
+ ]
+}

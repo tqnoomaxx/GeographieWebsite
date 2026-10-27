@@ -1,0 +1,80 @@
+{
+ "country": "country:AW",
+ "cities": [
+  {
+   "id": "city:AW-oranjestad",
+   "name": "Oranjestad",
+   "aliases": [
+    "Aran'estad",
+    "Oran'estad",
+    "Oranestad",
+    "Oraniestat",
+    "Oranjestad pa Aruba",
+    "Oranjestad på Aruba",
+    "Oranjestadas",
+    "Oranjestade",
+    "Oranjestado",
+    "Oranjested",
+    "Oranjestêd",
+    "Playa",
+    "ao la nie si ta de",
+    "awrnjstad",
+    "olanyeseutateu",
+    "oraniesutaddo",
+    "oraniyecuttatu",
+    "oranjestada",
+    "xo ran yes tad",
+    "Οράνιεστατ",
+    "Араньестад",
+    "Оранестад",
+    "Ораньестад",
+    "Ораньєстад",
+    "Орањестад",
+    "אורנייסטאד",
+    "أورنجستاد",
+    "اورنجستاد",
+    "اورنجسٹیڈ، اروبا",
+    "ओरांजेश्टाड",
+    "ஒரானியெசுத்தாடு",
+    "โอรันเยสตัด",
+    "ორანესტადი",
+    "オラニエスタッド",
+    "奥拉涅斯塔德",
+    "오라녜스타트"
+   ],
+   "lat": 12.52398,
+   "lon": -70.02703,
+   "population": 29998,
+   "geonameId": "3577154"
+  },
+  {
+   "id": "city:geonames-3577159",
+   "name": "Noord",
+   "aliases": [],
+   "lat": 12.56596,
+   "lon": -70.03198,
+   "population": 24193,
+   "geonameId": "3577159"
+  },
+  {
+   "id": "city:geonames-3577072",
+   "name": "Tanki Leendert",
+   "aliases": [
+    "Tanki Lender"
+   ],
+   "lat": 12.53914,
+   "lon": -70.02004,
+   "population": 21500,
+   "geonameId": "3577072"
+  },
+  {
+   "id": "city:geonames-3577102",
+   "name": "Santa Cruz",
+   "aliases": [],
+   "lat": 12.50953,
+   "lon": -69.98094,
+   "population": 15236,
+   "geonameId": "3577102"
+  }
+ ]
+}

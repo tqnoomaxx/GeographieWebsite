@@ -1,0 +1,399 @@
+{
+ "country": "country:PA",
+ "cities": [
+  {
+   "id": "city:PA-panama-stadt",
+   "name": "Panama-Stadt",
+   "aliases": [
+    "Panama City",
+    "Ciudad de Panama",
+    "Ciudad de Panamá",
+    "Ciutat de Panama",
+    "Ciutat de Panamà",
+    "PTY",
+    "Panama",
+    "Panama Hiria",
+    "Panama by",
+    "Panama-Urbo",
+    "Panama-stad",
+    "Panamurbo",
+    "Panamá",
+    "Pole tou Panama",
+    "Ziuda de Panama",
+    "Ziudá de Panamá",
+    "ba na ma cheng",
+    "panama si",
+    "panama siti",
+    "panamashiti",
+    "panamasiti",
+    "pnmh syty",
+    "shhr panama",
+    "Πόλη του Παναμά",
+    "Панама",
+    "פנמה סיטי",
+    "شهر پاناما",
+    "पनामा सिटी",
+    "ปานามาซิตี",
+    "ፓናማ ከተማ",
+    "パナマシティ",
+    "巴拿馬城",
+    "파나마 시",
+    "파나마시티"
+   ],
+   "lat": 8.9936,
+   "lon": -79.51973,
+   "population": 408168,
+   "geonameId": "3703443"
+  },
+  {
+   "id": "city:PA-san-miguelito",
+   "name": "San Miguelito",
+   "aliases": [
+    "San Miguel",
+    "San-Migelito",
+    "Сан-Мигелито",
+    "San Miguelito District"
+   ],
+   "lat": 9.05032,
+   "lon": -79.47068,
+   "population": 321501,
+   "geonameId": "3701329"
+  },
+  {
+   "id": "city:geonames-3708306",
+   "name": "Juan Díaz",
+   "aliases": [
+    "Juan Diaz",
+    "Khuan Diaz",
+    "Хуан Диаз"
+   ],
+   "lat": 9.04059,
+   "lon": -79.44083,
+   "population": 100636,
+   "geonameId": "3708306"
+  },
+  {
+   "id": "city:geonames-3711668",
+   "name": "David",
+   "aliases": [
+    "Ciudad de David",
+    "DAV",
+    "Davida",
+    "Davidas",
+    "Dehvid",
+    "San Jose de David",
+    "San José de David",
+    "dabiddo",
+    "dabideu",
+    "dai wei",
+    "davidi",
+    "dawd",
+    "dawiti",
+    "dawyd",
+    "debhida",
+    "devida",
+    "dwyd",
+    "Давид",
+    "Дэвид",
+    "דויד",
+    "داود",
+    "داويد",
+    "ڈیوڈ، چیرکی",
+    "ډywyډ",
+    "ډيويډ",
+    "डेविड",
+    "ডেভিড",
+    "ਡੇਵਿਡ",
+    "დავიდი",
+    "ዳዊት",
+    "ダビッド",
+    "戴维",
+    "다비드"
+   ],
+   "lat": 8.42729,
+   "lon": -82.43085,
+   "population": 82907,
+   "geonameId": "3711668"
+  },
+  {
+   "id": "city:PA-colon",
+   "name": "Colón",
+   "aliases": [
+    "Colon",
+    "Aspinwall",
+    "Ciudad de Colon",
+    "Ciudad de Colón",
+    "Kolon",
+    "Kolona",
+    "Kolonas",
+    "ONX",
+    "gao lang",
+    "ke long",
+    "kolana",
+    "kollon",
+    "koron",
+    "kweloni",
+    "kwlwn",
+    "kwlwn  panama",
+    "qwlwn",
+    "Колон",
+    "Կոլոն",
+    "קולון",
+    "كولون",
+    "کولون",
+    "کولون، پاناما",
+    "कोलन",
+    "কোলন",
+    "ਕੋਲਨ",
+    "კოლონი",
+    "ኮሎን",
+    "コロン",
+    "告郎",
+    "科隆",
+    "콜론",
+    "Colón City"
+   ],
+   "lat": 9.36025,
+   "lon": -79.90019,
+   "population": 78000,
+   "geonameId": "3712076"
+  },
+  {
+   "id": "city:geonames-3714637",
+   "name": "Arraiján",
+   "aliases": [
+    "Arraijan"
+   ],
+   "lat": 8.9398,
+   "lon": -79.64038,
+   "population": 76815,
+   "geonameId": "3714637"
+  },
+  {
+   "id": "city:geonames-3707961",
+   "name": "La Chorrera",
+   "aliases": [
+    "Chorrera",
+    "La-Chorrera",
+    "la chwryra",
+    "la chھwryra",
+    "la corera",
+    "la tshwryra",
+    "ra・chorera",
+    "Ла-Чоррера",
+    "لا تشوريرا",
+    "لا چوریرا",
+    "لا چھوریرا",
+    "ला चोरेरा",
+    "লা চোরেরা",
+    "ਲਾ ਚੋਰੇਰਾ",
+    "ላ ቾሬራ",
+    "ラ・チョレラ"
+   ],
+   "lat": 8.87763,
+   "lon": -79.78007,
+   "population": 61232,
+   "geonameId": "3707961"
+  },
+  {
+   "id": "city:geonames-3700563",
+   "name": "Tocumen",
+   "aliases": [
+    "Tokumen",
+    "Токумен"
+   ],
+   "lat": 9.08939,
+   "lon": -79.3831,
+   "population": 50844,
+   "geonameId": "3700563"
+  },
+  {
+   "id": "city:geonames-3701117",
+   "name": "Santiago de Veraguas",
+   "aliases": [
+    "SYP",
+    "Sant'jago-de-Verragus",
+    "Santiago",
+    "Santiago Veraguas",
+    "Santjago de Veragvasa",
+    "Veragvaso Santjagas",
+    "sainti'ago de veragu'asa",
+    "saintiyago de veragu'asa",
+    "sanitiyago de veragwasi",
+    "santiagodebelagwaseu",
+    "santiago・de・beraguasu",
+    "santiyago de bheraguyasa",
+    "santyaghw dy fyraghws",
+    "santyagw dw wrgas",
+    "santyagw ډې wyraګwas",
+    "sheng de ya ge-de bei la gua si",
+    "Сантьяго-де-Веррагус",
+    "سانتياغو دي فيراغوس",
+    "سانتیاگو دو ورگاس",
+    "سانتیاگو دے ویراگواس",
+    "سانتیاگو ډې ویراګواس",
+    "सैंटियागो डे वेरागुआस",
+    "সান্টিয়াগো ডে ভেরাগুয়াস",
+    "ਸੈਂਟਿਆਗੋ ਡੇ ਵੇਰਾਗੁਆਸ",
+    "სანტიაგო-დე-ვერაგუასი",
+    "ሳንቲያጎ ደ ቬራጓስ",
+    "サンティアゴ・デ・ベラグアス",
+    "圣地亚哥-德贝拉瓜斯",
+    "산티아고데베라과스"
+   ],
+   "lat": 8.1,
+   "lon": -80.98333,
+   "population": 45355,
+   "geonameId": "3701117"
+  },
+  {
+   "id": "city:geonames-3712455",
+   "name": "Chilibre",
+   "aliases": [],
+   "lat": 9.15403,
+   "lon": -79.62019,
+   "population": 33536,
+   "geonameId": "3712455"
+  },
+  {
+   "id": "city:geonames-3712884",
+   "name": "Cativá",
+   "aliases": [
+    "Cativa",
+    "Catival"
+   ],
+   "lat": 9.36218,
+   "lon": -79.83232,
+   "population": 29607,
+   "geonameId": "3712884"
+  },
+  {
+   "id": "city:geonames-3714734",
+   "name": "Ancón",
+   "aliases": [
+    "Ancon"
+   ],
+   "lat": 8.96015,
+   "lon": -79.5514,
+   "population": 20706,
+   "geonameId": "3714734"
+  },
+  {
+   "id": "city:geonames-3714932",
+   "name": "Alcalde Díaz",
+   "aliases": [
+    "Alcalde Diaz",
+    "Alcaldediaz",
+    "Alcaldedíaz",
+    "Penoncito",
+    "Peñoncito"
+   ],
+   "lat": 9.12273,
+   "lon": -79.55667,
+   "population": 20285,
+   "geonameId": "3714932"
+  },
+  {
+   "id": "city:geonames-3712560",
+   "name": "Changuinola",
+   "aliases": [
+    "CHX",
+    "Changinola",
+    "Чангинола"
+   ],
+   "lat": 9.43,
+   "lon": -82.52,
+   "population": 17997,
+   "geonameId": "3712560"
+  },
+  {
+   "id": "city:geonames-3707899",
+   "name": "La Concepción",
+   "aliases": [
+    "La Concepcion",
+    "Concepcion",
+    "Concepción"
+   ],
+   "lat": 8.51667,
+   "lon": -82.62393,
+   "population": 17698,
+   "geonameId": "3707899"
+  },
+  {
+   "id": "city:geonames-3703229",
+   "name": "Pedregal",
+   "aliases": [
+    "Puerto Pedregal"
+   ],
+   "lat": 8.37698,
+   "lon": -82.42947,
+   "population": 17427,
+   "geonameId": "3703229"
+  },
+  {
+   "id": "city:geonames-3700164",
+   "name": "Veracruz",
+   "aliases": [
+    "Camaron",
+    "Camarón",
+    "Cameron",
+    "Camerón"
+   ],
+   "lat": 8.89319,
+   "lon": -79.62338,
+   "population": 17144,
+   "geonameId": "3700164"
+  },
+  {
+   "id": "city:geonames-3711699",
+   "name": "Curundú",
+   "aliases": [
+    "Curundu",
+    "Curundu Army Reservation"
+   ],
+   "lat": 8.97092,
+   "lon": -79.54612,
+   "population": 16361,
+   "geonameId": "3711699"
+  },
+  {
+   "id": "city:geonames-3703068",
+   "name": "Penonomé",
+   "aliases": [
+    "Penonome",
+    "bynwnwmy",
+    "penonome",
+    "pnwnwmh",
+    "pynwnwmy",
+    "pynwnwmے",
+    "Пенономе",
+    "بينونومي",
+    "پنونومه",
+    "پینونومی",
+    "پینونومے",
+    "पेनोनोमे",
+    "পেনোনোমে",
+    "ਪੇਨੋਨੋਮੇ",
+    "ፔnonome",
+    "ፔኖኖሜ",
+    "ペノノメ"
+   ],
+   "lat": 8.51889,
+   "lon": -80.35727,
+   "population": 16250,
+   "geonameId": "3703068"
+  },
+  {
+   "id": "city:geonames-3701682",
+   "name": "Sabanitas",
+   "aliases": [
+    "Sabanita",
+    "Сабанитас"
+   ],
+   "lat": 9.34521,
+   "lon": -79.80543,
+   "population": 15577,
+   "geonameId": "3701682"
+  }
+ ]
+}

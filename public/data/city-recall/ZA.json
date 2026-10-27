@@ -1,0 +1,4251 @@
+{
+ "country": "country:ZA",
+ "cities": [
+  {
+   "id": "city:ZA-johannesburg",
+   "name": "Johannesburg",
+   "aliases": [
+    "EGoli",
+    "Giochanesmpournk",
+    "IGoli",
+    "IJohannesburg",
+    "Ioannesburgum",
+    "JNB",
+    "Jo'anna",
+    "Joanesburgo",
+    "Joburg",
+    "Jog'annesburg",
+    "Joganesburg",
+    "Jogannesburg",
+    "Johanesburgas",
+    "Johanesburgo",
+    "Johannesarborg",
+    "Johannesbourg",
+    "Johannesburga",
+    "Johannesburgo",
+    "Johannesburgu",
+    "Jokhanesburg",
+    "Jokhanezburg",
+    "Jokhannesburg",
+    "J·ohanesbôrg",
+    "Jóhannesarborg",
+    "Xohanesburgo",
+    "Yohannesburg",
+    "Yohannesburq",
+    "Yohannésburg",
+    "Yok-hon-ni-su-pau",
+    "Yok-hon-nì-sṳ̂-páu",
+    "Yoxannesburg",
+    "cohannes beirk",
+    "iohanesburgi",
+    "johanesabarga",
+    "johanisabaraga",
+    "johannesbarga",
+    "johansabarga",
+    "jokanasperk",
+    "jwhansbrgh",
+    "jwhansbrj",
+    "yohaneseubeogeu",
+    "yohanesuburugu",
+    "yue han nei si bao",
+    "yue han ni si bao",
+    "ywhnsbwrg",
+    "zhwhansbwrg",
+    "Γιοχάνεσμπουργκ",
+    "Ёганесбург",
+    "Јоханезбург",
+    "Јоханесбург",
+    "Йоганнесбург",
+    "Йогьаннесбург",
+    "Йоханесбург",
+    "Йоханнесбург",
+    "Յոհաննեսբուրգ",
+    "יאהאנעסבורג",
+    "יוהנסבורג",
+    "جوهانسبرج",
+    "جوهانسبرغ",
+    "جوہانسبرگ",
+    "جۆھانسبێرگ",
+    "ژوهانسبورگ",
+    "یوہانس برگ",
+    "जोहन्नेस्बर्ग",
+    "जोहान्सबर्ग",
+    "জোহানেসবার্গ",
+    "ਜੋਹਾਨਿਸਬਰਗ",
+    "ஜோகானஸ்பேர்க்",
+    "ജൊഹാനസ്‌ബർഗ്",
+    "โจฮันเนสเบิร์ก",
+    "ဂျိုဟန္နက်စဗတ်မြို့",
+    "იოჰანესბურგი",
+    "ጆሃንስበርግ",
+    "ヨハネスブルグ",
+    "約翰尼斯堡",
+    "约翰内斯堡",
+    "요하네스버그"
+   ],
+   "lat": -26.20227,
+   "lon": 28.04363,
+   "population": 9418183,
+   "geonameId": "993800"
+  },
+  {
+   "id": "city:ZA-kapstadt",
+   "name": "Kapstadt",
+   "aliases": [
+    "Cape Town",
+    "Altepetl In Cabo",
+    "Ar Chab",
+    "CPT",
+    "Cape Toun",
+    "Cidade do Cabo",
+    "Cita del Cap",
+    "Citati du Capu",
+    "Citati dû Capu",
+    "Citta del Capo",
+    "Cittae do Cavo",
+    "Città del Capo",
+    "Cità del Cap",
+    "Ciuda del Cabu",
+    "Ciudad del Cabo",
+    "Ciudat do Cabo",
+    "Ciudá del Cabu",
+    "Ciutat del Cap",
+    "Civitas Capitis",
+    "El Cabo",
+    "Fokvaros",
+    "Fokváros",
+    "Hoefdaborg",
+    "Hovdastadur",
+    "Höfðaborg",
+    "Høvdastaður",
+    "IKapa",
+    "Kaapstad",
+    "Kaapsted",
+    "Kaapstêd",
+    "Kab town",
+    "Kabe Urbe",
+    "Kaburbo",
+    "Kaepstad",
+    "Kapetown",
+    "Kapkaupunki",
+    "Kaplinn",
+    "Kapske Mesto",
+    "Kapske Misto",
+    "Kapské Mesto",
+    "Kapské Město",
+    "Kapstad",
+    "Kapstaden",
+    "Kapsztad",
+    "Kapétown",
+    "Keip Taoun",
+    "Keiptaun",
+    "Keiptauna",
+    "Keiptaunas",
+    "Keiptauns",
+    "Kejptaun",
+    "Kep Taun",
+    "Keyptaun",
+    "Keyptawn",
+    "Keýptaun",
+    "Le Cap",
+    "Li Kap",
+    "Lo Cap",
+    "Lurmutur Hiria",
+    "Lé Cap",
+    "Sita del Cao",
+    "Sita del Cap",
+    "Sità del Cao",
+    "Sità dël Cap",
+    "Tref y Penrhyn",
+    "Yvy akua Tava",
+    "Yvy akua Táva",
+    "hao wang jiao zhen",
+    "iKapa",
+    "kai pu dui",
+    "kai pu dun",
+    "keipeutaun",
+    "kep taun",
+    "kep tavun",
+    "kepa ta'una",
+    "kepata'una",
+    "keputaun",
+    "khep thawn",
+    "kyb tawn",
+    "kېp ټawn",
+    "Çittæ do Cavo",
+    "Κέιπ Τάουν",
+    "Капске Місто",
+    "Кейптаун",
+    "Кейптаўн",
+    "Кејптаун",
+    "Քեյփթաուն",
+    "קאפשטאט",
+    "קייפטאון",
+    "كيب تاون",
+    "کیپ ٹاؤن",
+    "کیپ‌تاون",
+    "کېپ ټاون",
+    "کەیپ تاون",
+    "केपटाउन",
+    "केपताउन",
+    "কেপ টাউন",
+    "ਕੇਪਟਾਊਨ",
+    "કેપ ટાઉન",
+    "କେପ ଟାଉନ",
+    "கேப் டவுன்",
+    "కేప్ టౌన్",
+    "ಕೇಪ್ ಟೌನ್",
+    "കേപ് ടൗൺ",
+    "เคปทาวน์",
+    "ကိပ်တောင်းမြို့",
+    "კეიპტაუნი",
+    "ኬፕ ታውን",
+    "ケープタウン",
+    "好望角鎮",
+    "開普敦",
+    "케이프타운"
+   ],
+   "lat": -33.92584,
+   "lon": 18.42322,
+   "population": 4772846,
+   "geonameId": "3369157"
+  },
+  {
+   "id": "city:ZA-durban",
+   "name": "Durban",
+   "aliases": [
+    "DUR",
+    "Durbana",
+    "Durbanas",
+    "Durbano",
+    "Durbanum",
+    "EThekwini",
+    "ITheku",
+    "Ntermpan",
+    "Port Natal",
+    "Thekong",
+    "daban",
+    "darabana",
+    "darban",
+    "darbana",
+    "de ban",
+    "de xr ban",
+    "deoban",
+    "die bin",
+    "drbn",
+    "durbani",
+    "dwrban",
+    "dyrban",
+    "tarpan",
+    "Ντέρμπαν",
+    "Дурбан",
+    "Дърбан",
+    "Դուրբան",
+    "דרבן",
+    "دوربان",
+    "ديربان",
+    "ڈربن",
+    "डरबन",
+    "डर्बन",
+    "ਡਰਬਨ",
+    "டர்பன்",
+    "డర్బన్",
+    "ಡರ್ಬನ್",
+    "ഡർബൻ",
+    "เดอร์บัน",
+    "ဒါဘန်မြို့",
+    "დურბანი",
+    "ደርባን",
+    "ダーバン",
+    "德班",
+    "爹濱",
+    "더반"
+   ],
+   "lat": -29.8579,
+   "lon": 31.0292,
+   "population": 3338026,
+   "geonameId": "1007311"
+  },
+  {
+   "id": "city:ZA-pretoria",
+   "name": "Pretoria",
+   "aliases": [
+    "E-Pitoli",
+    "IPitoli",
+    "PRY",
+    "Piritoria",
+    "Piritōria",
+    "Pitori",
+    "Praetoria",
+    "Prehtoryja",
+    "Pretooriyaa",
+    "Pretori",
+    "Pretoria/Pole tou Akroteriou",
+    "Pretoriae",
+    "Pretorie",
+    "Pretorii",
+    "Pretorija",
+    "Pretorio",
+    "Pretoriya",
+    "Pretoriye",
+    "Pretoriä",
+    "Pretoría",
+    "Pretourii",
+    "Pretòria",
+    "Pretória",
+    "Priturya",
+    "Prétoriye",
+    "Pta",
+    "Tshwane",
+    "Tsindiitłʼííshí",
+    "bi lei tuo li ya",
+    "brytwrya",
+    "peulitolia",
+    "phri thx reiy",
+    "pirittoriya",
+    "pritori'a",
+    "pritoriya",
+    "pritteariya",
+    "prtwrya",
+    "prtwryh",
+    "prytwrya",
+    "pu li tuo li ya",
+    "puretoria",
+    "Πρετόρια",
+    "Πρετόρια/Πόλη του Ακρωτηρίου",
+    "Претори",
+    "Преториа",
+    "Претория",
+    "Преторија",
+    "Преторія",
+    "Прэторыя",
+    "Պրետորիա",
+    "פרטוריה",
+    "פרעטאריע",
+    "بريتوريا",
+    "پرتوریا",
+    "پريطوريا",
+    "پریٹوریا",
+    "پرێتۆریا",
+    "प्रिटोरिया",
+    "प्रिटोरीया",
+    "প্রিটোরিয়া",
+    "ਪ੍ਰਿਟੋਰੀਆ",
+    "પ્રિટોરિયા",
+    "பிரிட்டோரியா",
+    "ప్రిటోరియా",
+    "ಪ್ರಿಟೋರಿಯಾ",
+    "പ്രിട്ടോറിയ",
+    "ප්‍රිටෝරියා",
+    "พริทอเรีย",
+    "ཕི་རི་ཐོ་རི་ཡ།",
+    "პრეტორია",
+    "ፕሪቶሪያ",
+    "プレトリア",
+    "普利托利亞",
+    "普利托里亞",
+    "比勒陀利亚",
+    "比勒陀利亞",
+    "프리토리아"
+   ],
+   "lat": -25.74486,
+   "lon": 28.18783,
+   "population": 2112693,
+   "geonameId": "964137"
+  },
+  {
+   "id": "city:ZA-soweto",
+   "name": "Soweto",
+   "aliases": [
+    "Mpanzaville",
+    "Souehto",
+    "Soueto",
+    "Sovetas",
+    "Soveto",
+    "coyitto",
+    "sau'eto",
+    "so we to",
+    "soueto",
+    "soveto",
+    "sovhito",
+    "soweto",
+    "soyeto",
+    "suo wei tuo",
+    "swwtw",
+    "swwytw",
+    "swytw",
+    "Σοβέτο",
+    "Совето",
+    "Соуэто",
+    "Սոուետո",
+    "סווטו",
+    "سووتو",
+    "سوویتو",
+    "سويتو",
+    "सॉवेटो",
+    "सोव्हिटो",
+    "সোয়েতো",
+    "સોવેટો",
+    "சோயிட்டோ",
+    "సోవెటో",
+    "ಸೌಏತೋ",
+    "සොවෙටෝ",
+    "โซเวโต",
+    "სოვეტო",
+    "ソウェト",
+    "索韋托",
+    "索韦托",
+    "소웨토"
+   ],
+   "lat": -26.26781,
+   "lon": 27.85849,
+   "population": 1695047,
+   "geonameId": "953781"
+  },
+  {
+   "id": "city:ZA-gqeberha",
+   "name": "Gqeberha",
+   "aliases": [
+    "IBhayi",
+    "Ibhayi",
+    "PLZ",
+    "Port Elisabeth",
+    "Port Elizabet",
+    "Port Elizabetas",
+    "Port Elizabeth",
+    "Port Elizampeth",
+    "Port-Ehlizabet",
+    "Port-Elizabet",
+    "Portelizabeta",
+    "Porto Elizabeth",
+    "Portus Elisabethae",
+    "Puerto Elizabeth",
+    "bwrt alyzabyth",
+    "die Baai",
+    "phxrt xe li sabeth",
+    "porta elijhabetha",
+    "porta elizabetha",
+    "poteuellijabeseu",
+    "pwrt alyzabt",
+    "yi li sha bai gang",
+    "Πορτ Ελίζαμπεθ",
+    "Порт Елизабет",
+    "Порт-Елізабет",
+    "Порт-Элизабет",
+    "Порт-Элізабет",
+    "פורט אליזבת",
+    "بورت إليزابيث",
+    "پورت الیزابت",
+    "پورٹ الزبتھ",
+    "पोर्ट एलिज़ाबेथ",
+    "पोर्ट एलिझाबेथ",
+    "พอร์ตเอลิซาเบท",
+    "პორტ-ელიზაბეთი",
+    "ፖርት ኤልሳቤጥ",
+    "ポート・エリザベス",
+    "伊莉莎白港",
+    "포트엘리자베스"
+   ],
+   "lat": -33.96109,
+   "lon": 25.61494,
+   "population": 1050078,
+   "geonameId": "964420"
+  },
+  {
+   "id": "city:geonames-954013",
+   "name": "Soshanguve",
+   "aliases": [
+    "Сошангуве"
+   ],
+   "lat": -25.47288,
+   "lon": 28.09919,
+   "population": 872309,
+   "geonameId": "954013"
+  },
+  {
+   "id": "city:geonames-965301",
+   "name": "Pietermaritzburg",
+   "aliases": [
+    "Maritzburg",
+    "Mokokotlofo",
+    "PZB",
+    "Petromaritzburgum",
+    "Pietermaricburg",
+    "Pietermaritsburg",
+    "Pitehrmarycburg",
+    "Pitermaricburg",
+    "Pitermaricburgas",
+    "Piturmaricburg",
+    "bi de ma li ci bao",
+    "bytrmarytzbrgh",
+    "pi texr ma rits beirk",
+    "pitamarittsubagu",
+    "pitaramairitsabarga",
+    "pitaramaritazabaraga",
+    "pitaramaritjhabarga",
+    "pitarameritajabarga",
+    "piteomalicheubeogeu",
+    "pytrmartsbrg",
+    "pytrmarytsbrg",
+    "Пиетермарицбург",
+    "Питермарицбург",
+    "Питърмарицбург",
+    "Пітермаріцбург",
+    "Пітэрмарыцбург",
+    "بيترماريتزبرغ",
+    "پيترمارتسبرگ",
+    "پیترماریتسبرگ",
+    "پیٹرماریٹزبرگ",
+    "پیٹرومیرٹبرگ",
+    "पीटरमारित्झबर्ग",
+    "पीटरमैरिट्सबर्ग",
+    "পিটারমেরিটজবার্গ",
+    "ਪੀਟਰਮਾਰਿਟਜ਼ਬਰਗ",
+    "ปีเตอร์มาริตซ์เบิร์ก",
+    "ፒterimaritisiberiግ",
+    "ፒተርማሪትስበርግ",
+    "ピーターマリッツバーグ",
+    "彼得马里茨堡",
+    "피터마리츠버그"
+   ],
+   "lat": -29.61679,
+   "lon": 30.39278,
+   "population": 839327,
+   "geonameId": "965301"
+  },
+  {
+   "id": "city:geonames-1004866",
+   "name": "Evaton",
+   "aliases": [
+    "yi wa dun",
+    "Еватон",
+    "伊瓦頓",
+    "伊瓦顿"
+   ],
+   "lat": -26.53333,
+   "lon": 27.85,
+   "population": 725468,
+   "geonameId": "1004866"
+  },
+  {
+   "id": "city:ZA-benoni",
+   "name": "Benoni",
+   "aliases": [
+    "Behnoni",
+    "beneani",
+    "benoni",
+    "bo nuo ni",
+    "bynwny",
+    "Бенони",
+    "Беноні",
+    "Бэноні",
+    "Բենոնի",
+    "באנוני",
+    "بينونى",
+    "بينوني",
+    "بینونی، گاؤٹینگ",
+    "बेनोनी",
+    "ബെനോനി",
+    "ベノーニ",
+    "伯諾尼",
+    "伯诺尼"
+   ],
+   "lat": -26.18848,
+   "lon": 28.32078,
+   "population": 605344,
+   "geonameId": "1020098"
+  },
+  {
+   "id": "city:ZA-bloemfontein",
+   "name": "Bloemfontein",
+   "aliases": [
+    "BFN",
+    "Blumfantehjn",
+    "Blumfonteina",
+    "Blumfonteinas",
+    "Blumfontejn",
+    "Blumfontejno",
+    "Blumfonteyn",
+    "EBloemfontein",
+    "IBloemfontein",
+    "Mangaung",
+    "Mploumphontein",
+    "balumaphontaina",
+    "beullumpontein",
+    "blomaphante'ina",
+    "blum fxn then",
+    "blumafonatena",
+    "blumaphamtena",
+    "blumphanteyiൻ",
+    "blwmfwntn",
+    "blwmfwntyn",
+    "blwmpwntyyn",
+    "blwwmfۆntەyn",
+    "bu long fang dan",
+    "burumufonten",
+    "Μπλουμφοντέιν",
+    "Блумфантэйн",
+    "Блумфонтейн",
+    "Блумфонтејн",
+    "Բլումֆոնթեյն",
+    "בלומפונטיין",
+    "بلوئمفونٹین",
+    "بلومفونتن",
+    "بلومفونتين",
+    "بلومفونٹین",
+    "بلوومفۆنتەین",
+    "ब्लूमफ़ोनटेन",
+    "ब्लूमफाँटेन",
+    "ব্লোমফন্টেইন",
+    "ਬਲੂਮਫੋਂਟੈਨ",
+    "ബ്ലൂംഫൗണ്ടെയിൻ",
+    "บลูมฟอนเทน",
+    "ბლუმფონტეინი",
+    "ብሉምፎንቴይን",
+    "ブルームフォンテーン",
+    "布隆方丹",
+    "블룸폰테인"
+   ],
+   "lat": -29.12107,
+   "lon": 26.214,
+   "population": 556637,
+   "geonameId": "1018725"
+  },
+  {
+   "id": "city:geonames-949880",
+   "name": "Thembisa",
+   "aliases": [
+    "Tembisa",
+    "Тембиса"
+   ],
+   "lat": -25.99636,
+   "lon": 28.2268,
+   "population": 511655,
+   "geonameId": "949880"
+  },
+  {
+   "id": "city:ZA-east-london",
+   "name": "East London",
+   "aliases": [
+    "Buffalo City",
+    "ELS",
+    "EMonti",
+    "Ist-Londan",
+    "Ist-London",
+    "Istochni London",
+    "Iztochen London",
+    "KuGompo City",
+    "Londinium Orientale",
+    "Orient-Londono",
+    "Tung Lun-tun",
+    "Tûng Lùn-tûn",
+    "Yst Londonas",
+    "ayst lndn",
+    "dong lun dui",
+    "iseuteuleondeon",
+    "ista landana",
+    "Іст-Лондан",
+    "Іст-Лондон",
+    "Източен Лондон",
+    "Ист-Лондон",
+    "Источни Лондон",
+    "איסט לונדון",
+    "إيست لندن",
+    "ایسٹ لندن",
+    "ईस्ट लंडन",
+    "イースト・ロンドン",
+    "東倫敦",
+    "이스트런던"
+   ],
+   "lat": -33.01529,
+   "lon": 27.91162,
+   "population": 478676,
+   "geonameId": "1006984"
+  },
+  {
+   "id": "city:geonames-944385",
+   "name": "Vereeniging",
+   "aliases": [
+    "Feriniging",
+    "Ferinikhing",
+    "Vereniging",
+    "Verenigingas",
+    "Verenigingo",
+    "ferinihingu",
+    "fu li ni xin",
+    "fyrynjngh",
+    "fyrynkhn",
+    "peleinihing",
+    "wrynygyng",
+    "Веренигинг",
+    "Феринихинг",
+    "Ферінігінг",
+    "فيرينجنغ",
+    "فيرينخن",
+    "ورینیگینگ",
+    "フェリーニヒング",
+    "弗里尼欣",
+    "페레이니힝"
+   ],
+   "lat": -26.67313,
+   "lon": 27.92615,
+   "population": 474681,
+   "geonameId": "944385"
+  },
+  {
+   "id": "city:geonames-1017780",
+   "name": "Boksburg",
+   "aliases": [
+    "Boksburgas",
+    "Боксбург",
+    "Բոկսբուրգ"
+   ],
+   "lat": -26.21197,
+   "lon": 28.25958,
+   "population": 445168,
+   "geonameId": "1017780"
+  },
+  {
+   "id": "city:geonames-940909",
+   "name": "Welkom",
+   "aliases": [
+    "Velkom",
+    "Velkomas",
+    "WEL",
+    "uerukomu",
+    "wei er ke mu",
+    "Велком",
+    "Վելկոմ",
+    "ウェルコム",
+    "韋爾科姆"
+   ],
+   "lat": -27.97742,
+   "lon": 26.73506,
+   "population": 431944,
+   "geonameId": "940909"
+  },
+  {
+   "id": "city:geonames-971421",
+   "name": "Newcastle",
+   "aliases": [
+    "N'jukasl",
+    "NCS",
+    "Ньюкасл"
+   ],
+   "lat": -27.75796,
+   "lon": 29.9318,
+   "population": 404838,
+   "geonameId": "971421"
+  },
+  {
+   "id": "city:geonames-986822",
+   "name": "Krugersdorp",
+   "aliases": [
+    "Krjugersdorp",
+    "Krjugersdorpa",
+    "Krugersdorpas",
+    "ke lu ge si duo pu",
+    "Крюгерсдорп",
+    "Крюгерсдорпа",
+    "克魯格斯多普"
+   ],
+   "lat": -26.08577,
+   "lon": 27.77515,
+   "population": 378821,
+   "geonameId": "986822"
+  },
+  {
+   "id": "city:geonames-958724",
+   "name": "Rustenburg",
+   "aliases": [
+    "Restenberha",
+    "Rjustenburg",
+    "Rustemburg",
+    "Rustemburgo",
+    "Rustenburgas",
+    "lei si teng bao",
+    "luseutenbeogeu",
+    "rastnbrg",
+    "rstnbwrg",
+    "rus then beirk",
+    "rustenabarga",
+    "rusutenburuku",
+    "rwstnbrgh",
+    "Рустенбург",
+    "Рюстенбург",
+    "רסטנבורג",
+    "راستنبرگ",
+    "رسٹنبرگ",
+    "روستنبرغ",
+    "روسٹنبرگ",
+    "रुस्टेनबर्ग",
+    "รุสเทนเบิร์ก",
+    "ሩስተንበርግ",
+    "ルステンブルク",
+    "勒斯滕堡",
+    "루스텐버그"
+   ],
+   "lat": -25.66756,
+   "lon": 27.24208,
+   "population": 373695,
+   "geonameId": "958724"
+  },
+  {
+   "id": "city:geonames-939270",
+   "name": "Emalahleni",
+   "aliases": [
+    "EMalahleni",
+    "Ehmalakhleni",
+    "Vitbank",
+    "Vitbankas",
+    "Witbank",
+    "wei te ban ke",
+    "Вітбанк",
+    "Эмалахлени",
+    "Эмалахлені",
+    "وٹبینک",
+    "威特班克"
+   ],
+   "lat": -25.87133,
+   "lon": 29.23323,
+   "population": 373403,
+   "geonameId": "939270"
+  },
+  {
+   "id": "city:ZA-randburg",
+   "name": "Randburg",
+   "aliases": [
+    "Randburga",
+    "Randburgas",
+    "Rantmpournk",
+    "Rendburg",
+    "laendeubeogeu",
+    "lan de bao",
+    "ra de bur k",
+    "raindabarga",
+    "ramdaburga",
+    "randbarg",
+    "randbwrgh",
+    "randbwrj",
+    "randobagu",
+    "rendabarga",
+    "rentpark",
+    "Ράντμπουργκ",
+    "Рандбург",
+    "راندبورج",
+    "راندبورغ",
+    "रँडबुर्ग",
+    "रैंडबर्ग",
+    "রেন্ডবার্গ",
+    "રેન્ડબર્ગ",
+    "ரேண்ட்பர்க்",
+    "రాండ్బర్గ్",
+    "ರಾಂಡ್ಬರ್ಗ್",
+    "රැන්ඩ්බර්ග්",
+    "ราเดบูร์ก",
+    "ランドバーグ",
+    "兰德堡",
+    "蘭德堡",
+    "랜드버그"
+   ],
+   "lat": -26.0941,
+   "lon": 28.00123,
+   "population": 337053,
+   "geonameId": "963241"
+  },
+  {
+   "id": "city:ZA-roodepoort",
+   "name": "Roodepoort",
+   "aliases": [
+    "Rodeportas",
+    "Rodipoto",
+    "Roodeport-Maraisburg",
+    "Rounterport",
+    "Rudehpurt",
+    "Rudeporta",
+    "Rudepurt",
+    "Rūdeporta",
+    "lodepoleuteu",
+    "lu de pu te",
+    "ro dex por t",
+    "ro'edapoorta",
+    "rodopoto",
+    "rud port",
+    "rudeport",
+    "rudeporta",
+    "rudepurta",
+    "rutipurt",
+    "rwdpwrt",
+    "rwdybwrt",
+    "rwdypwrt",
+    "Ρούντερπορτ",
+    "Рудепурт",
+    "Рудэпурт",
+    "רודפורט",
+    "روديبورت",
+    "رودیپورت",
+    "रुडेपुर्ट",
+    "रोएडपोोर्ट",
+    "রুডেপোর্ট",
+    "રૂડેપોર્ટ",
+    "ரூடிபூர்ட்",
+    "రూడేపోర్ట్",
+    "ರೂಡ್ ಪೋರ್ಟ್",
+    "රූඩේපූර්ට්",
+    "โรเดอโปร์ต",
+    "ロードポート",
+    "魯德普特",
+    "로데포르트"
+   ],
+   "lat": -26.1625,
+   "lon": 27.8725,
+   "population": 326416,
+   "geonameId": "936374"
+  },
+  {
+   "id": "city:geonames-1016670",
+   "name": "Botshabelo",
+   "aliases": [
+    "Ботшабело"
+   ],
+   "lat": -29.26737,
+   "lon": 26.72595,
+   "population": 309714,
+   "geonameId": "1016670"
+  },
+  {
+   "id": "city:geonames-1016181",
+   "name": "Brakpan",
+   "aliases": [
+    "Бракпан"
+   ],
+   "lat": -26.23656,
+   "lon": 28.36938,
+   "population": 305692,
+   "geonameId": "1016181"
+  },
+  {
+   "id": "city:geonames-946877",
+   "name": "Kariega",
+   "aliases": [
+    "Ehjtenkhakhe",
+    "Ejtenkhakhe",
+    "Jutunkhakh",
+    "Uitenhage",
+    "Utienhage",
+    "awytnhag",
+    "oitenhahe",
+    "xxy then ha ke",
+    "you dan he zhi",
+    "you tan hei ge",
+    "ywtynhagh",
+    "Ейтенхахе",
+    "Эйтенхахе",
+    "Ютънхах",
+    "اویتنهاگ",
+    "يوتينهاغ",
+    "یوٹینہیج",
+    "ออยเทนฮาเก",
+    "オイテンハーヘ",
+    "尤丹赫支",
+    "尤坦黑格"
+   ],
+   "lat": -33.75562,
+   "lon": 25.40074,
+   "population": 291052,
+   "geonameId": "946877"
+  },
+  {
+   "id": "city:geonames-965289",
+   "name": "Polokwane",
+   "aliases": [
+    "PTG",
+    "Palakvaneh",
+    "Petriburgum",
+    "Pietersburg",
+    "Pietrsburg",
+    "Polokouane",
+    "Polokvane",
+    "Polokvanė",
+    "bo luo ke wa ni",
+    "bwlwkwan",
+    "pho lokhe wn",
+    "polakvani",
+    "pollokwane",
+    "polokavane",
+    "polokoyane",
+    "polokvane",
+    "porokuwane",
+    "pwlwkwanh",
+    "pwlwkwyn",
+    "Πολοκουάνε",
+    "Палакванэ",
+    "Полокване",
+    "פולוקוואנה",
+    "بولوكوان",
+    "پولوکوانه",
+    "پولوکوانے",
+    "پولوکوین",
+    "पोलक्वानी",
+    "पोलोक्वाने",
+    "পোলোক্ওয়ানে",
+    "ਪੋਲੋਕਵਾਨੇ",
+    "โพโลเควน",
+    "ፖሎክዋኔ",
+    "ポロクワネ",
+    "波羅克瓦尼",
+    "폴로콰네"
+   ],
+   "lat": -23.90449,
+   "lon": 29.46885,
+   "population": 272461,
+   "geonameId": "965289"
+  },
+  {
+   "id": "city:geonames-1002108",
+   "name": "Germiston",
+   "aliases": [
+    "Dzhermiston",
+    "Germinston",
+    "jie mi si dun",
+    "kwaDukathole",
+    "Гермистон",
+    "Джермистон",
+    "Джермістон",
+    "جرمسٹن",
+    "傑米斯頓"
+   ],
+   "lat": -26.215,
+   "lon": 28.164,
+   "population": 255863,
+   "geonameId": "1002108"
+  },
+  {
+   "id": "city:geonames-962367",
+   "name": "Richards Bay",
+   "aliases": [
+    "RCB",
+    "Ricardusbaia",
+    "Richards Bej",
+    "Richards-Bej",
+    "Richardsbaai",
+    "Ричардс Беј",
+    "Ричардс-Бей"
+   ],
+   "lat": -28.78301,
+   "lon": 32.03768,
+   "population": 252968,
+   "geonameId": "962367"
+  },
+  {
+   "id": "city:geonames-944986",
+   "name": "Vanderbijlpark",
+   "aliases": [
+    "Fanderbajpark",
+    "Fanderbejlpark",
+    "fan de bai er pa ke",
+    "fandrbyjlbark",
+    "phandarabilaparka",
+    "wandrbjlpark",
+    "wndrbyjlprk",
+    "Фандербајпарк",
+    "Фандербейлпарк",
+    "فاندربيجلبارك",
+    "واندربجلپارک",
+    "وندربیجلپرک",
+    "फांडरबीलपार्क",
+    "范德拜爾帕克"
+   ],
+   "lat": -26.71171,
+   "lon": 27.83795,
+   "population": 246754,
+   "geonameId": "944986"
+  },
+  {
+   "id": "city:geonames-3363094",
+   "name": "Paarl",
+   "aliases": [
+    "pa a er",
+    "paru",
+    "Паарл",
+    "パール",
+    "帕阿爾"
+   ],
+   "lat": -33.73378,
+   "lon": 18.97523,
+   "population": 236910,
+   "geonameId": "3363094"
+  },
+  {
+   "id": "city:ZA-centurion",
+   "name": "Centurion",
+   "aliases": [
+    "Lyttelton",
+    "Verwoerdburg",
+    "sacari'ana",
+    "senchurion",
+    "sencuriyana",
+    "sencyuriyana",
+    "shan qiu en",
+    "snchryan",
+    "Центурион",
+    "سنچریان",
+    "سینچورین، گاؤٹینگ",
+    "सेंचुरियन",
+    "सेंच्युरियन",
+    "ਸੰਚਰੀਆਨ",
+    "സെഞ്ചൂറിയൻ",
+    "センチュリオン",
+    "杉球恩"
+   ],
+   "lat": -25.85891,
+   "lon": 28.18577,
+   "population": 236580,
+   "geonameId": "1105777"
+  },
+  {
+   "id": "city:geonames-989921",
+   "name": "Klerksdorp",
+   "aliases": [
+    "KXE",
+    "ke lai ke si duo pu",
+    "Клерксдорп",
+    "克萊克斯多普"
+   ],
+   "lat": -26.85213,
+   "lon": 26.66672,
+   "population": 227039,
+   "geonameId": "989921"
+  },
+  {
+   "id": "city:geonames-6951112",
+   "name": "Somerset West",
+   "aliases": [
+    "Somerset-Uehst",
+    "Somerset-Vest",
+    "Somerset-Wes",
+    "Сомерсет-Вест",
+    "Сомерсет-Уэст"
+   ],
+   "lat": -34.08401,
+   "lon": 18.82113,
+   "population": 225289,
+   "geonameId": "6951112"
+  },
+  {
+   "id": "city:geonames-977432",
+   "name": "Mdantsane",
+   "aliases": [
+    "Мдантсане"
+   ],
+   "lat": -32.93324,
+   "lon": 27.77656,
+   "population": 205504,
+   "geonameId": "977432"
+  },
+  {
+   "id": "city:geonames-976361",
+   "name": "Middelburg",
+   "aliases": [
+    "Middelberg",
+    "mdlbwrkh",
+    "mi de er bao",
+    "Мидделбург",
+    "مدلبورخ",
+    "米德爾堡"
+   ],
+   "lat": -25.77507,
+   "lon": 29.46482,
+   "population": 196263,
+   "geonameId": "976361"
+  },
+  {
+   "id": "city:ZA-george",
+   "name": "George",
+   "aliases": [
+    "Dzhordzh",
+    "GRJ",
+    "jarj tavun",
+    "joji",
+    "qiao zhi",
+    "Джордж",
+    "ஜார்ஜ் டவுன்",
+    "ジョージ",
+    "喬治",
+    "조지"
+   ],
+   "lat": -33.963,
+   "lon": 22.46173,
+   "population": 188580,
+   "geonameId": "1002145"
+  },
+  {
+   "id": "city:geonames-1014073",
+   "name": "Carletonville",
+   "aliases": [
+    "Karletonvill",
+    "Карлетонвилл"
+   ],
+   "lat": -26.36094,
+   "lon": 27.39767,
+   "population": 182304,
+   "geonameId": "1014073"
+  },
+  {
+   "id": "city:geonames-964349",
+   "name": "Potchefstroom",
+   "aliases": [
+    "PCF",
+    "Pochefstrum",
+    "Potchefstrum",
+    "bo qie fu si te lu mu",
+    "peaccephestrum",
+    "pocephastruma",
+    "pochefusutorumu",
+    "pochepeuseuteulom",
+    "Потчефструм",
+    "Почефструм",
+    "पॉचेफस्ट्रूम",
+    "പൊച്ചെഫെസ്ട്രൂം",
+    "ポチェフストルーム",
+    "波切夫斯特魯姆",
+    "포체프스트롬"
+   ],
+   "lat": -26.71667,
+   "lon": 27.1,
+   "population": 178285,
+   "geonameId": "964349"
+  },
+  {
+   "id": "city:geonames-946058",
+   "name": "Mthatha",
+   "aliases": [
+    "UTT",
+    "Umtata",
+    "umutata",
+    "wu mu ta ta",
+    "Умтата",
+    "متھاتھا",
+    "ウムタタ",
+    "烏姆塔塔"
+   ],
+   "lat": -31.58893,
+   "lon": 28.78443,
+   "population": 164848,
+   "geonameId": "946058"
+  },
+  {
+   "id": "city:geonames-952734",
+   "name": "KwaDukuza",
+   "aliases": [
+    "Kvadukuza",
+    "Stanger",
+    "Stanger Station",
+    "Квадукуза"
+   ],
+   "lat": -29.32816,
+   "lon": 31.28954,
+   "population": 161177,
+   "geonameId": "952734"
+  },
+  {
+   "id": "city:geonames-940316",
+   "name": "Westonaria",
+   "aliases": [
+    "Vestonarija",
+    "Вестонария"
+   ],
+   "lat": -26.31905,
+   "lon": 27.6486,
+   "population": 156831,
+   "geonameId": "940316"
+  },
+  {
+   "id": "city:geonames-11204106",
+   "name": "Etwatwa",
+   "aliases": [
+    "Etuatua",
+    "Етуатуа"
+   ],
+   "lat": -26.12516,
+   "lon": 28.45472,
+   "population": 151866,
+   "geonameId": "11204106"
+  },
+  {
+   "id": "city:geonames-942470",
+   "name": "Vryheid",
+   "aliases": [
+    "Frejkhejd",
+    "VYD",
+    "Фрейхейд"
+   ],
+   "lat": -27.76952,
+   "lon": 30.79165,
+   "population": 150012,
+   "geonameId": "942470"
+  },
+  {
+   "id": "city:geonames-965154",
+   "name": "Pinetown",
+   "aliases": [
+    "Pajntaun",
+    "Пайнтаун"
+   ],
+   "lat": -29.82068,
+   "lon": 30.88674,
+   "population": 144026,
+   "geonameId": "965154"
+  },
+  {
+   "id": "city:geonames-984998",
+   "name": "Ladysmith",
+   "aliases": [
+    "LAY",
+    "Ladijsmis",
+    "Ладийсмис"
+   ],
+   "lat": -28.55874,
+   "lon": 29.77896,
+   "population": 143446,
+   "geonameId": "984998"
+  },
+  {
+   "id": "city:geonames-1005646",
+   "name": "eMbalenhle",
+   "aliases": [
+    "Embalenkhle",
+    "Ембаленхле"
+   ],
+   "lat": -26.53333,
+   "lon": 29.06667,
+   "population": 142443,
+   "geonameId": "1005646"
+  },
+  {
+   "id": "city:geonames-990930",
+   "name": "Kimberley",
+   "aliases": [
+    "KIM",
+    "Kimberli",
+    "Kimberlis",
+    "Kimburli",
+    "jin bo li",
+    "kibarali",
+    "kimbarali",
+    "kimbeolli",
+    "kinbari",
+    "kiምberili",
+    "kmbrly",
+    "kmbrly  shmaly kyp",
+    "kymbrly",
+    "qymbrly",
+    "Кимберли",
+    "Кимбърли",
+    "Кімберлі",
+    "קימברלי",
+    "كيمبرلي",
+    "کمبرلي",
+    "کمبرلی، شمالی کیپ",
+    "کمبرلے",
+    "کیمبرلی",
+    "किम्बरली",
+    "কিম্বারলি",
+    "ਕਿੰਬਰਲੀ",
+    "ኪምበርሊ",
+    "キンバリー",
+    "金伯利",
+    "킴벌리"
+   ],
+   "lat": -28.73226,
+   "lon": 24.76232,
+   "population": 142089,
+   "geonameId": "990930"
+  },
+  {
+   "id": "city:geonames-970566",
+   "name": "Nigel",
+   "aliases": [
+    "Najdzhel",
+    "Найджел"
+   ],
+   "lat": -26.43138,
+   "lon": 28.47713,
+   "population": 140644,
+   "geonameId": "970566"
+  },
+  {
+   "id": "city:geonames-11205248",
+   "name": "Motherwell",
+   "aliases": [],
+   "lat": -33.7943,
+   "lon": 25.5858,
+   "population": 140351,
+   "geonameId": "11205248"
+  },
+  {
+   "id": "city:geonames-973111",
+   "name": "Mpumalanga",
+   "aliases": [
+    "Epumalanga",
+    "Hammarsdale",
+    "Мпумаланга"
+   ],
+   "lat": -29.81292,
+   "lon": 30.63646,
+   "population": 140121,
+   "geonameId": "973111"
+  },
+  {
+   "id": "city:geonames-1019330",
+   "name": "Bhisho",
+   "aliases": [
+    "BIY",
+    "Bisho",
+    "Biso",
+    "Bišo",
+    "bhiso",
+    "bi shao",
+    "bisho",
+    "bisyo",
+    "byshw",
+    "Бишо",
+    "Бішо",
+    "بيشو",
+    "بھشو",
+    "بھیشو",
+    "بیشو",
+    "भिशो",
+    "भीशो",
+    "ভিশো",
+    "ਭੀਸ਼ੋ",
+    "ቢሾ",
+    "ビショ",
+    "比绍",
+    "비쇼"
+   ],
+   "lat": -32.84721,
+   "lon": 27.44218,
+   "population": 137287,
+   "geonameId": "1019330"
+  },
+  {
+   "id": "city:geonames-957487",
+   "name": "Sasolburg",
+   "aliases": [
+    "Сасолбург"
+   ],
+   "lat": -26.81358,
+   "lon": 27.81695,
+   "population": 135828,
+   "geonameId": "957487"
+  },
+  {
+   "id": "city:geonames-963230",
+   "name": "Randfontein",
+   "aliases": [
+    "Randfontejn",
+    "lan de fang tan",
+    "Рандфонтейн",
+    "蘭德方坦"
+   ],
+   "lat": -26.1844,
+   "lon": 27.70203,
+   "population": 133654,
+   "geonameId": "963230"
+  },
+  {
+   "id": "city:geonames-3359041",
+   "name": "Worcester",
+   "aliases": [
+    "Vustehr",
+    "Vuster",
+    "Worcester i Western Cape",
+    "usuta",
+    "wu si te",
+    "Вустер",
+    "Вустэр",
+    "ウースター",
+    "伍斯特"
+   ],
+   "lat": -33.64651,
+   "lon": 19.44852,
+   "population": 127597,
+   "geonameId": "3359041"
+  },
+  {
+   "id": "city:geonames-11205667",
+   "name": "Ntuzuma",
+   "aliases": [
+    "Нтузума"
+   ],
+   "lat": -29.739,
+   "lon": 30.949,
+   "population": 125394,
+   "geonameId": "11205667"
+  },
+  {
+   "id": "city:geonames-943882",
+   "name": "Virginia",
+   "aliases": [
+    "Virdzhinija",
+    "Вирджиния"
+   ],
+   "lat": -28.10391,
+   "lon": 26.86593,
+   "population": 122502,
+   "geonameId": "943882"
+  },
+  {
+   "id": "city:geonames-1015621",
+   "name": "Brits",
+   "aliases": [
+    "Britancy",
+    "bu li ci",
+    "Британцы",
+    "Бритс",
+    "布里茨"
+   ],
+   "lat": -25.63473,
+   "lon": 27.78022,
+   "population": 122497,
+   "geonameId": "1015621"
+  },
+  {
+   "id": "city:geonames-1023441",
+   "name": "Alberton",
+   "aliases": [
+    "Al'berton",
+    "ai bo dun",
+    "albrtwn  gawtng",
+    "arubaton",
+    "Альбертон",
+    "البرتون، گاوتنگ",
+    "البرٹن، جنوبی افریقہ",
+    "アルバートン",
+    "艾伯頓"
+   ],
+   "lat": -26.26786,
+   "lon": 28.12225,
+   "population": 121536,
+   "geonameId": "1023441"
+  },
+  {
+   "id": "city:geonames-963516",
+   "name": "Queenstown",
+   "aliases": [
+    "EKomani",
+    "Kuinstaun",
+    "Kvinstaun",
+    "UTW",
+    "kun shi dui",
+    "Квинстаун",
+    "Куинстаун",
+    "昆士敦"
+   ],
+   "lat": -31.89756,
+   "lon": 26.87533,
+   "population": 118599,
+   "geonameId": "963516"
+  },
+  {
+   "id": "city:geonames-986846",
+   "name": "Kroonstad",
+   "aliases": [
+    "Krunstad",
+    "ke long si ta de",
+    "krwnstad",
+    "Крунстад",
+    "کرونستاد",
+    "克龍斯塔德"
+   ],
+   "lat": -27.65036,
+   "lon": 27.23488,
+   "population": 117152,
+   "geonameId": "986846"
+  },
+  {
+   "id": "city:geonames-1105728",
+   "name": "Somaroboro",
+   "aliases": [
+    "Tweefontein",
+    "Сомароборо"
+   ],
+   "lat": -25.34604,
+   "lon": 28.83431,
+   "population": 114369,
+   "geonameId": "1105728"
+  },
+  {
+   "id": "city:geonames-998082",
+   "name": "Hammanskraal",
+   "aliases": [
+    "Khammanskraal",
+    "Хамманскраал"
+   ],
+   "lat": -25.40892,
+   "lon": 28.287,
+   "population": 112950,
+   "geonameId": "998082"
+  },
+  {
+   "id": "city:geonames-980921",
+   "name": "Mabopane",
+   "aliases": [
+    "Мабопане"
+   ],
+   "lat": -25.509,
+   "lon": 28.064,
+   "population": 110972,
+   "geonameId": "980921"
+  },
+  {
+   "id": "city:geonames-971534",
+   "name": "Mbombela",
+   "aliases": [
+    "NLP",
+    "Naspoti",
+    "Nel'sprjujt",
+    "Nelspreyt",
+    "Nelsprojt",
+    "Nelspruit",
+    "emabombela",
+    "mabomabela",
+    "mbomabela",
+    "mbombela",
+    "mbwmbyla",
+    "nei er si pu lei te",
+    "nels pirt",
+    "nelseupeulu-iteu",
+    "nerusupuroito",
+    "nlsprwyt",
+    "nlspryyt",
+    "nylsbrwyt",
+    "nylsprwyt",
+    "Мбомбела",
+    "Нелспройт",
+    "Нелспруит",
+    "Нельспрюйт",
+    "נלספרייט",
+    "مبومبيلا",
+    "نلسپرویت",
+    "نيلسبرويت",
+    "نیلسپرویت",
+    "म्बोमबेला",
+    "म्बोम्बेला",
+    "এমবোম্বেলা",
+    "ਮਬੋਮਬੇਲਾ",
+    "เนลสไปรต์",
+    "ኔልስፕሩዊት",
+    "ネルスプロイト",
+    "内尔斯普雷特",
+    "넬스프루이트"
+   ],
+   "lat": -25.47512,
+   "lon": 30.96935,
+   "population": 110159,
+   "geonameId": "971534"
+  },
+  {
+   "id": "city:geonames-967476",
+   "name": "Orkney",
+   "aliases": [
+    "Eastleigh",
+    "Orknejskie",
+    "Оркнейские"
+   ],
+   "lat": -26.98023,
+   "lon": 26.67272,
+   "population": 110052,
+   "geonameId": "967476"
+  },
+  {
+   "id": "city:geonames-965528",
+   "name": "Phalaborwa",
+   "aliases": [
+    "PHW",
+    "Palabora",
+    "Palaborva",
+    "Pkhalaborva",
+    "pa la bo lu wa",
+    "Палаборва",
+    "Пхалаборва",
+    "帕拉博魯瓦"
+   ],
+   "lat": -23.94299,
+   "lon": 31.14107,
+   "population": 109468,
+   "geonameId": "965528"
+  },
+  {
+   "id": "city:geonames-949224",
+   "name": "Thohoyandou",
+   "aliases": [
+    "THY",
+    "Thohoyanḓou",
+    "Tkhokhojandou",
+    "suo he yan du",
+    "Тхохояндоу",
+    "تھوہویانڈو",
+    "索赫燕杜"
+   ],
+   "lat": -22.94564,
+   "lon": 30.48497,
+   "population": 107144,
+   "geonameId": "949224"
+  },
+  {
+   "id": "city:geonames-948542",
+   "name": "Tokoza",
+   "aliases": [
+    "Токоза"
+   ],
+   "lat": -26.36,
+   "lon": 28.129,
+   "population": 106000,
+   "geonameId": "948542"
+  },
+  {
+   "id": "city:geonames-952747",
+   "name": "Standerton",
+   "aliases": [
+    "Standerston",
+    "Стандертон"
+   ],
+   "lat": -26.93366,
+   "lon": 29.24152,
+   "population": 101101,
+   "geonameId": "952747"
+  },
+  {
+   "id": "city:geonames-964315",
+   "name": "Mokopane",
+   "aliases": [
+    "Potgietersrus",
+    "Potgietersrust",
+    "Potgitersrus",
+    "mo ke pa nei",
+    "Мокопане",
+    "Потгитерсрус",
+    "莫科帕內"
+   ],
+   "lat": -24.19436,
+   "lon": 29.00974,
+   "population": 101090,
+   "geonameId": "964315"
+  },
+  {
+   "id": "city:geonames-1005125",
+   "name": "Ermelo",
+   "aliases": [
+    "Ehrmelo",
+    "ai er mo luo",
+    "Эрмело",
+    "埃爾默洛"
+   ],
+   "lat": -26.53333,
+   "lon": 29.98333,
+   "population": 100324,
+   "geonameId": "1005125"
+  },
+  {
+   "id": "city:geonames-3361025",
+   "name": "Stellenbosch",
+   "aliases": [
+    "Stellenbos",
+    "seutellenboseu",
+    "si tai lun bo si",
+    "suterenbosshu",
+    "Стелленбос",
+    "Սթելլենբոս",
+    "ステレンボッシュ",
+    "斯泰倫博斯",
+    "스텔렌보스"
+   ],
+   "lat": -33.93462,
+   "lon": 18.86676,
+   "population": 96228,
+   "geonameId": "3361025"
+  },
+  {
+   "id": "city:geonames-986083",
+   "name": "Kutloanong",
+   "aliases": [],
+   "lat": -27.83333,
+   "lon": 26.75,
+   "population": 95008,
+   "geonameId": "986083"
+  },
+  {
+   "id": "city:geonames-952192",
+   "name": "Stilfontein",
+   "aliases": [],
+   "lat": -26.84493,
+   "lon": 26.76829,
+   "population": 93110,
+   "geonameId": "952192"
+  },
+  {
+   "id": "city:geonames-990849",
+   "name": "Qonce",
+   "aliases": [
+    "King William's Town",
+    "King William’s Town"
+   ],
+   "lat": -32.88076,
+   "lon": 27.39377,
+   "population": 93072,
+   "geonameId": "990849"
+  },
+  {
+   "id": "city:geonames-1011031",
+   "name": "Delmas",
+   "aliases": [
+    "Del'mas",
+    "Дельмас"
+   ],
+   "lat": -26.1466,
+   "lon": 28.68322,
+   "population": 92046,
+   "geonameId": "1011031"
+  },
+  {
+   "id": "city:geonames-1000501",
+   "name": "Grahamstown",
+   "aliases": [
+    "Grahamstad",
+    "Grehkhehmstaun",
+    "IRhini",
+    "Makhanda",
+    "ge la han zhen",
+    "geuleieomseutaun",
+    "gurahamuzutaun",
+    "Грэхэмстаун",
+    "グラハムズタウン",
+    "格拉罕鎮",
+    "그레이엄스타운"
+   ],
+   "lat": -33.30422,
+   "lon": 26.53276,
+   "population": 91548,
+   "geonameId": "1000501"
+  },
+  {
+   "id": "city:geonames-1019704",
+   "name": "Bethlehem",
+   "aliases": [
+    "Vifleem",
+    "Вифлеем"
+   ],
+   "lat": -28.23078,
+   "lon": 28.30707,
+   "population": 91075,
+   "geonameId": "1019704"
+  },
+  {
+   "id": "city:geonames-1002851",
+   "name": "Ga-Rankuwa",
+   "aliases": [],
+   "lat": -25.61692,
+   "lon": 27.99471,
+   "population": 90945,
+   "geonameId": "1002851"
+  },
+  {
+   "id": "city:geonames-941966",
+   "name": "Bela Bela",
+   "aliases": [
+    "Warmbad",
+    "Warmbaths"
+   ],
+   "lat": -24.88333,
+   "lon": 28.28333,
+   "population": 90210,
+   "geonameId": "941966"
+  },
+  {
+   "id": "city:geonames-1105776",
+   "name": "Midrand",
+   "aliases": [
+    "Мидранд"
+   ],
+   "lat": -25.976,
+   "lon": 28.118,
+   "population": 87387,
+   "geonameId": "1105776"
+  },
+  {
+   "id": "city:geonames-981827",
+   "name": "Louis Trichardt",
+   "aliases": [
+    "LCD",
+    "Luis-Trichard",
+    "lu yi te li ha te",
+    "Луис-Тричард",
+    "لوئی ٹرشارٹ",
+    "ルイス・トリハート",
+    "路易特里哈特"
+   ],
+   "lat": -23.04385,
+   "lon": 29.90319,
+   "population": 86854,
+   "geonameId": "981827"
+  },
+  {
+   "id": "city:geonames-997151",
+   "name": "Heidelberg",
+   "aliases": [
+    "Gejdel'berg",
+    "Heidelburg",
+    "Гейдельберг"
+   ],
+   "lat": -26.50476,
+   "lon": 28.35921,
+   "population": 85858,
+   "geonameId": "997151"
+  },
+  {
+   "id": "city:geonames-1007400",
+   "name": "Dundee",
+   "aliases": [
+    "Dandi",
+    "Данди"
+   ],
+   "lat": -28.16678,
+   "lon": 30.23371,
+   "population": 84413,
+   "geonameId": "1007400"
+  },
+  {
+   "id": "city:geonames-965241",
+   "name": "Piet Retief",
+   "aliases": [
+    "Mkhondo",
+    "eMkhondo"
+   ],
+   "lat": -27.00706,
+   "lon": 30.81323,
+   "population": 84349,
+   "geonameId": "965241"
+  },
+  {
+   "id": "city:geonames-965401",
+   "name": "Phuthaditjhaba",
+   "aliases": [
+    "Phutaditjhaba"
+   ],
+   "lat": -28.52423,
+   "lon": 28.81582,
+   "population": 84258,
+   "geonameId": "965401"
+  },
+  {
+   "id": "city:geonames-3370352",
+   "name": "Atlantis",
+   "aliases": [
+    "Atlantida",
+    "I-Atlantis",
+    "atorantisu (xikepu zhou)",
+    "ya te lan ti si",
+    "Атлантида",
+    "אטלנטיס",
+    "アトランティス（西ケープ州）",
+    "亞特蘭提斯"
+   ],
+   "lat": -33.56668,
+   "lon": 18.48335,
+   "population": 82736,
+   "geonameId": "3370352"
+  },
+  {
+   "id": "city:geonames-973709",
+   "name": "Mossel Bay",
+   "aliases": [
+    "MZY",
+    "Mossel-Bej",
+    "Mosselbaai",
+    "Mosul Bej",
+    "Teluk Mossel",
+    "mo sai er bei",
+    "Моссел-Бей",
+    "Мосъл Бей",
+    "莫塞爾貝"
+   ],
+   "lat": -34.18307,
+   "lon": 22.14605,
+   "population": 78940,
+   "geonameId": "973709"
+  },
+  {
+   "id": "city:geonames-980595",
+   "name": "Mafikeng",
+   "aliases": [
+    "Mafeking",
+    "Mafikengas",
+    "Mahikeng",
+    "Makfikeng",
+    "mafikengu",
+    "mafykng",
+    "mafykyng",
+    "mafykynj",
+    "maphikem",
+    "maphikenga",
+    "maፊkeniግ",
+    "Макфикенг",
+    "Мафикенг",
+    "مافيكينج",
+    "مافيکينج",
+    "مافیکنگ",
+    "مافیکینگ",
+    "माफिकेंग",
+    "মাফিকেং",
+    "ਮਾਫਿਕੇਂਗ",
+    "ማፊኬንግ",
+    "マフィケング"
+   ],
+   "lat": -25.86522,
+   "lon": 25.64421,
+   "population": 77110,
+   "geonameId": "980595"
+  },
+  {
+   "id": "city:geonames-968477",
+   "name": "Odendaalsrus",
+   "aliases": [
+    "Odendaalrus",
+    "Odendaalrust",
+    "Odendaals Rust"
+   ],
+   "lat": -27.87394,
+   "lon": 26.69072,
+   "population": 76371,
+   "geonameId": "968477"
+  },
+  {
+   "id": "city:geonames-967106",
+   "name": "Oudtshoorn",
+   "aliases": [
+    "OUH",
+    "Oudskhorn",
+    "ao ci hu en",
+    "Оудсхорн",
+    "奧茨胡恩"
+   ],
+   "lat": -33.60047,
+   "lon": 22.19955,
+   "population": 73694,
+   "geonameId": "967106"
+  },
+  {
+   "id": "city:geonames-1019760",
+   "name": "Bethal",
+   "aliases": [],
+   "lat": -26.45794,
+   "lon": 29.46553,
+   "population": 72821,
+   "geonameId": "1019760"
+  },
+  {
+   "id": "city:geonames-949703",
+   "name": "Thaba Nchu",
+   "aliases": [
+    "TCU",
+    "Thabantsjoe"
+   ],
+   "lat": -29.20932,
+   "lon": 26.83898,
+   "population": 72721,
+   "geonameId": "949703"
+  },
+  {
+   "id": "city:geonames-1016698",
+   "name": "Bothaville",
+   "aliases": [
+    "Botavill'",
+    "Ботавилль"
+   ],
+   "lat": -27.3887,
+   "lon": 26.61701,
+   "population": 71934,
+   "geonameId": "1016698"
+  },
+  {
+   "id": "city:geonames-945945",
+   "name": "Upington",
+   "aliases": [
+    "Apington",
+    "UTN",
+    "eopingteon",
+    "wu ping tong",
+    "Апингтон",
+    "烏平通",
+    "어핑턴"
+   ],
+   "lat": -28.44776,
+   "lon": 21.25612,
+   "population": 71373,
+   "geonameId": "945945"
+  },
+  {
+   "id": "city:geonames-966166",
+   "name": "Parys",
+   "aliases": [
+    "Paris",
+    "Парис"
+   ],
+   "lat": -26.9033,
+   "lon": 27.45727,
+   "population": 71319,
+   "geonameId": "966166"
+  },
+  {
+   "id": "city:geonames-956907",
+   "name": "Schweizer-Reneke",
+   "aliases": [
+    "Schweizer-Reineke"
+   ],
+   "lat": -27.18871,
+   "lon": 25.32931,
+   "population": 70214,
+   "geonameId": "956907"
+  },
+  {
+   "id": "city:geonames-988698",
+   "name": "Knysna",
+   "aliases": [
+    "De Nysna",
+    "Knajsno",
+    "Knisna",
+    "Najsna",
+    "ke ni si na",
+    "knysna",
+    "Книсна",
+    "Найсна",
+    "كنيسنا",
+    "克尼斯納"
+   ],
+   "lat": -34.03627,
+   "lon": 23.04713,
+   "population": 68659,
+   "geonameId": "988698"
+  },
+  {
+   "id": "city:geonames-3361934",
+   "name": "Saldanha",
+   "aliases": [
+    "Hoedjes Bay",
+    "Hoedjesbaai",
+    "Hoetjes Bay",
+    "SDB",
+    "Saldana",
+    "Салдана"
+   ],
+   "lat": -33.01167,
+   "lon": 17.9442,
+   "population": 68284,
+   "geonameId": "3361934"
+  },
+  {
+   "id": "city:geonames-1021086",
+   "name": "Barberton",
+   "aliases": [
+    "ba bo dun",
+    "巴伯頓"
+   ],
+   "lat": -25.78842,
+   "lon": 31.05319,
+   "population": 67927,
+   "geonameId": "1021086"
+  },
+  {
+   "id": "city:geonames-982899",
+   "name": "Lichtenburg",
+   "aliases": [
+    "Likhtenburge",
+    "Лихтенбурге"
+   ],
+   "lat": -26.152,
+   "lon": 26.15968,
+   "population": 65863,
+   "geonameId": "982899"
+  },
+  {
+   "id": "city:geonames-948468",
+   "name": "Tongaat",
+   "aliases": [
+    "ITongaat",
+    "Tongaat Village",
+    "Victoria",
+    "oThongathi",
+    "tong jia te",
+    "tonkat",
+    "ٹونگاٹ",
+    "டோங்காட்",
+    "通加特"
+   ],
+   "lat": -29.57366,
+   "lon": 31.11552,
+   "population": 64829,
+   "geonameId": "948468"
+  },
+  {
+   "id": "city:geonames-1000543",
+   "name": "Graaff Reinet",
+   "aliases": [
+    "Graaf Reinet",
+    "Graaff-Reinet",
+    "Khraff-Rejnet",
+    "Robert Sobukwe",
+    "ge la fu-li nei te",
+    "gurafu=raine",
+    "Храфф-Рейнет",
+    "グラーフ＝ライネ",
+    "格拉夫-里內特"
+   ],
+   "lat": -32.25215,
+   "lon": 24.53075,
+   "population": 62896,
+   "geonameId": "1000543"
+  },
+  {
+   "id": "city:geonames-1004109",
+   "name": "Fochville",
+   "aliases": [],
+   "lat": -26.48862,
+   "lon": 27.49387,
+   "population": 62416,
+   "geonameId": "1004109"
+  },
+  {
+   "id": "city:geonames-988356",
+   "name": "Kokstad",
+   "aliases": [],
+   "lat": -30.54723,
+   "lon": 29.42412,
+   "population": 61751,
+   "geonameId": "988356"
+  },
+  {
+   "id": "city:geonames-1003953",
+   "name": "Fort Beaufort",
+   "aliases": [
+    "Fort-Bofort",
+    "KwaMaqoma",
+    "bo fu te gang",
+    "Форт-Бофорт",
+    "فورٹ بیوفورٹ",
+    "博福特港"
+   ],
+   "lat": -32.77477,
+   "lon": 26.63376,
+   "population": 58419,
+   "geonameId": "1003953"
+  },
+  {
+   "id": "city:geonames-1105726",
+   "name": "Ekangala",
+   "aliases": [],
+   "lat": -25.668,
+   "lon": 28.73,
+   "population": 58099,
+   "geonameId": "1105726"
+  },
+  {
+   "id": "city:geonames-3365083",
+   "name": "Kraaifontein",
+   "aliases": [],
+   "lat": -33.84808,
+   "lon": 18.71723,
+   "population": 57911,
+   "geonameId": "3365083"
+  },
+  {
+   "id": "city:geonames-3366880",
+   "name": "Hermanus",
+   "aliases": [
+    "he er ma nu si",
+    "赫爾馬努斯"
+   ],
+   "lat": -34.4187,
+   "lon": 19.23446,
+   "population": 56139,
+   "geonameId": "3366880"
+  },
+  {
+   "id": "city:geonames-942511",
+   "name": "Vryburg",
+   "aliases": [
+    "Frejburg",
+    "Frejburga",
+    "VRU",
+    "fu lei bao",
+    "Фрейбург",
+    "Фрейбурга",
+    "弗雷堡"
+   ],
+   "lat": -26.95659,
+   "lon": 24.7284,
+   "population": 55879,
+   "geonameId": "942511"
+  },
+  {
+   "id": "city:geonames-3359510",
+   "name": "Wellington",
+   "aliases": [],
+   "lat": -33.63981,
+   "lon": 19.0112,
+   "population": 55543,
+   "geonameId": "3359510"
+  },
+  {
+   "id": "city:geonames-943960",
+   "name": "Viljoenskroon",
+   "aliases": [],
+   "lat": -27.20841,
+   "lon": 26.94855,
+   "population": 54955,
+   "geonameId": "943960"
+  },
+  {
+   "id": "city:geonames-3368254",
+   "name": "Durbanville",
+   "aliases": [
+    "D'Urban",
+    "D’Urban"
+   ],
+   "lat": -33.83079,
+   "lon": 18.6486,
+   "population": 54286,
+   "geonameId": "3368254"
+  },
+  {
+   "id": "city:geonames-985885",
+   "name": "Kwaggafontein",
+   "aliases": [],
+   "lat": -25.32729,
+   "lon": 28.94224,
+   "population": 54040,
+   "geonameId": "985885"
+  },
+  {
+   "id": "city:geonames-974670",
+   "name": "Mondlo",
+   "aliases": [],
+   "lat": -27.98299,
+   "lon": 30.71769,
+   "population": 53892,
+   "geonameId": "974670"
+  },
+  {
+   "id": "city:geonames-1014489",
+   "name": "Butterworth",
+   "aliases": [
+    "Battervorta",
+    "Gcuwa",
+    "UTE",
+    "Баттерворта"
+   ],
+   "lat": -32.33083,
+   "lon": 28.14981,
+   "population": 53086,
+   "geonameId": "1014489"
+  },
+  {
+   "id": "city:geonames-964406",
+   "name": "Port Shepstone",
+   "aliases": [
+    "Port-Shepston",
+    "xie pu si dui gang",
+    "Порт-Шепстон",
+    "謝普斯敦港"
+   ],
+   "lat": -30.74137,
+   "lon": 30.45499,
+   "population": 52793,
+   "geonameId": "964406"
+  },
+  {
+   "id": "city:geonames-948130",
+   "name": "Trichardt",
+   "aliases": [
+    "Trichard"
+   ],
+   "lat": -26.49155,
+   "lon": 29.22878,
+   "population": 52776,
+   "geonameId": "948130"
+  },
+  {
+   "id": "city:geonames-970341",
+   "name": "Nkowakowa",
+   "aliases": [],
+   "lat": -23.88782,
+   "lon": 30.28708,
+   "population": 51350,
+   "geonameId": "970341"
+  },
+  {
+   "id": "city:geonames-8030223",
+   "name": "Musina",
+   "aliases": [
+    "Messina",
+    "mu xi na",
+    "mushina",
+    "Мусина",
+    "ムシナ",
+    "穆西納"
+   ],
+   "lat": -22.34881,
+   "lon": 30.04074,
+   "population": 51132,
+   "geonameId": "8030223"
+  },
+  {
+   "id": "city:geonames-968665",
+   "name": "Modimolle",
+   "aliases": [
+    "Nylstroom"
+   ],
+   "lat": -24.7,
+   "lon": 28.4,
+   "population": 50306,
+   "geonameId": "968665"
+  },
+  {
+   "id": "city:geonames-12718846",
+   "name": "Letlhabile",
+   "aliases": [],
+   "lat": -25.48238,
+   "lon": 27.83925,
+   "population": 49718,
+   "geonameId": "12718846"
+  },
+  {
+   "id": "city:geonames-981158",
+   "name": "Lydenburg",
+   "aliases": [
+    "Mashishing",
+    "lai deng bao",
+    "raidenbagu",
+    "Машишинг",
+    "ライデンバーグ",
+    "萊登堡"
+   ],
+   "lat": -25.09598,
+   "lon": 30.44393,
+   "population": 49605,
+   "geonameId": "981158"
+  },
+  {
+   "id": "city:geonames-11204446",
+   "name": "Mankweng",
+   "aliases": [],
+   "lat": -23.88384,
+   "lon": 29.70557,
+   "population": 49480,
+   "geonameId": "11204446"
+  },
+  {
+   "id": "city:geonames-1004303",
+   "name": "Ficksburg",
+   "aliases": [
+    "FCB",
+    "fei ke si bao",
+    "菲克斯堡"
+   ],
+   "lat": -28.872,
+   "lon": 27.87506,
+   "population": 49420,
+   "geonameId": "1004303"
+  },
+  {
+   "id": "city:geonames-938457",
+   "name": "Wolmaransstad",
+   "aliases": [
+    "Wolmaranstad"
+   ],
+   "lat": -27.1974,
+   "lon": 25.98311,
+   "population": 49366,
+   "geonameId": "938457"
+  },
+  {
+   "id": "city:geonames-1006834",
+   "name": "Edenvale",
+   "aliases": [],
+   "lat": -26.14095,
+   "lon": 28.15247,
+   "population": 49292,
+   "geonameId": "1006834"
+  },
+  {
+   "id": "city:geonames-1005029",
+   "name": "eSikhaleni",
+   "aliases": [
+    "Esikhawini Township",
+    "Eslkhawini",
+    "eSikhawini"
+   ],
+   "lat": -28.87097,
+   "lon": 31.89961,
+   "population": 49265,
+   "geonameId": "1005029"
+  },
+  {
+   "id": "city:geonames-977975",
+   "name": "Matsulu",
+   "aliases": [],
+   "lat": -25.52297,
+   "lon": 31.35693,
+   "population": 47306,
+   "geonameId": "977975"
+  },
+  {
+   "id": "city:geonames-3364937",
+   "name": "Kuils River",
+   "aliases": [
+    "Kuilsrivier"
+   ],
+   "lat": -33.94208,
+   "lon": 18.70663,
+   "population": 46685,
+   "geonameId": "3364937"
+  },
+  {
+   "id": "city:geonames-1021396",
+   "name": "Balfour",
+   "aliases": [
+    "Bal'fur",
+    "Бальфур"
+   ],
+   "lat": -26.66331,
+   "lon": 28.59016,
+   "population": 46008,
+   "geonameId": "1021396"
+  },
+  {
+   "id": "city:geonames-3359741",
+   "name": "Vredenburg",
+   "aliases": [],
+   "lat": -32.90719,
+   "lon": 17.98997,
+   "population": 45986,
+   "geonameId": "3359741"
+  },
+  {
+   "id": "city:geonames-1020641",
+   "name": "Beaufort West",
+   "aliases": [
+    "Beaufort-Wes",
+    "Bofort-Uehst",
+    "xi bo fu te",
+    "Бофорт-Уэст",
+    "بیوفورٹ غربی",
+    "西博福特"
+   ],
+   "lat": -32.35671,
+   "lon": 22.58295,
+   "population": 44737,
+   "geonameId": "1020641"
+  },
+  {
+   "id": "city:geonames-1023309",
+   "name": "Aliwal North",
+   "aliases": [
+    "Aliwal-Noord",
+    "alywal shmal",
+    "bei a li wa er",
+    "آلیوال شمال",
+    "北阿利瓦爾"
+   ],
+   "lat": -30.69366,
+   "lon": 26.71141,
+   "population": 44436,
+   "geonameId": "1023309"
+  },
+  {
+   "id": "city:geonames-955313",
+   "name": "Siyabuswa",
+   "aliases": [],
+   "lat": -25.11319,
+   "lon": 29.04454,
+   "population": 44189,
+   "geonameId": "955313"
+  },
+  {
+   "id": "city:geonames-1012600",
+   "name": "Cradock",
+   "aliases": [
+    "CDO",
+    "ke la duo ke",
+    "克拉多克"
+   ],
+   "lat": -32.16422,
+   "lon": 25.61918,
+   "population": 43936,
+   "geonameId": "1012600"
+  },
+  {
+   "id": "city:geonames-943032",
+   "name": "Volksrust",
+   "aliases": [
+    "Volkrust"
+   ],
+   "lat": -27.36541,
+   "lon": 29.88175,
+   "population": 43378,
+   "geonameId": "943032"
+  },
+  {
+   "id": "city:geonames-3364346",
+   "name": "Malmesbury",
+   "aliases": [],
+   "lat": -33.4608,
+   "lon": 18.72714,
+   "population": 43009,
+   "geonameId": "3364346"
+  },
+  {
+   "id": "city:geonames-11204552",
+   "name": "Mkhuhlu",
+   "aliases": [],
+   "lat": -24.98776,
+   "lon": 31.2385,
+   "population": 42969,
+   "geonameId": "11204552"
+  },
+  {
+   "id": "city:geonames-940424",
+   "name": "Wesselsbron",
+   "aliases": [],
+   "lat": -27.8549,
+   "lon": 26.36583,
+   "population": 42552,
+   "geonameId": "940424"
+  },
+  {
+   "id": "city:geonames-12718813",
+   "name": "Lebowakgomo",
+   "aliases": [],
+   "lat": -24.31457,
+   "lon": 29.50078,
+   "population": 42040,
+   "geonameId": "12718813"
+  },
+  {
+   "id": "city:geonames-3369129",
+   "name": "Ceres",
+   "aliases": [
+    "Cerera",
+    "sai lei si",
+    "Церера",
+    "塞雷斯"
+   ],
+   "lat": -33.36889,
+   "lon": 19.31095,
+   "population": 41596,
+   "geonameId": "3369129"
+  },
+  {
+   "id": "city:geonames-1015504",
+   "name": "Bronkhorstspruit",
+   "aliases": [
+    "Erasmus"
+   ],
+   "lat": -25.81015,
+   "lon": 28.74248,
+   "population": 41209,
+   "geonameId": "1015504"
+  },
+  {
+   "id": "city:geonames-1010717",
+   "name": "Despatch",
+   "aliases": [],
+   "lat": -33.80172,
+   "lon": 25.46284,
+   "population": 39619,
+   "geonameId": "1010717"
+  },
+  {
+   "id": "city:geonames-956507",
+   "name": "Senekal",
+   "aliases": [],
+   "lat": -28.31971,
+   "lon": 27.62082,
+   "population": 39584,
+   "geonameId": "956507"
+  },
+  {
+   "id": "city:geonames-983065",
+   "name": "Leslie",
+   "aliases": [],
+   "lat": -26.36737,
+   "lon": 28.9189,
+   "population": 39514,
+   "geonameId": "983065"
+  },
+  {
+   "id": "city:geonames-964712",
+   "name": "Plettenberg Bay",
+   "aliases": [
+    "Formosa",
+    "PBZ",
+    "Plettenberg",
+    "Plettenberg-Bej",
+    "Plettenbergbaai",
+    "Плеттенберг-Бей"
+   ],
+   "lat": -34.05274,
+   "lon": 23.3716,
+   "population": 38126,
+   "geonameId": "964712"
+  },
+  {
+   "id": "city:geonames-8063456",
+   "name": "Mandeni",
+   "aliases": [],
+   "lat": -29.14691,
+   "lon": 31.41403,
+   "population": 37533,
+   "geonameId": "8063456"
+  },
+  {
+   "id": "city:geonames-3367513",
+   "name": "Grabouw",
+   "aliases": [],
+   "lat": -34.15152,
+   "lon": 19.01509,
+   "population": 37490,
+   "geonameId": "3367513"
+  },
+  {
+   "id": "city:geonames-11204240",
+   "name": "Lukwatini",
+   "aliases": [],
+   "lat": -26.05501,
+   "lon": 30.82292,
+   "population": 37362,
+   "geonameId": "11204240"
+  },
+  {
+   "id": "city:geonames-1001860",
+   "name": "Giyani",
+   "aliases": [
+    "GIY",
+    "Giyane"
+   ],
+   "lat": -23.30246,
+   "lon": 30.71868,
+   "population": 37024,
+   "geonameId": "1001860"
+  },
+  {
+   "id": "city:geonames-3363882",
+   "name": "Muizenberg",
+   "aliases": [],
+   "lat": -34.09702,
+   "lon": 18.47969,
+   "population": 36857,
+   "geonameId": "3363882"
+  },
+  {
+   "id": "city:geonames-1014306",
+   "name": "Calcutta",
+   "aliases": [],
+   "lat": -24.98317,
+   "lon": 31.23485,
+   "population": 35864,
+   "geonameId": "1014306"
+  },
+  {
+   "id": "city:geonames-951650",
+   "name": "Stutterheim",
+   "aliases": [],
+   "lat": -32.57076,
+   "lon": 27.42396,
+   "population": 35510,
+   "geonameId": "951650"
+  },
+  {
+   "id": "city:geonames-1007140",
+   "name": "Dwarsloop",
+   "aliases": [],
+   "lat": -24.79456,
+   "lon": 31.10277,
+   "population": 35397,
+   "geonameId": "1007140"
+  },
+  {
+   "id": "city:geonames-995094",
+   "name": "Humansdorp",
+   "aliases": [],
+   "lat": -34.02903,
+   "lon": 24.76912,
+   "population": 34733,
+   "geonameId": "995094"
+  },
+  {
+   "id": "city:geonames-949282",
+   "name": "Theunissen",
+   "aliases": [
+    "Tenissen",
+    "Тениссен"
+   ],
+   "lat": -28.41098,
+   "lon": 26.70107,
+   "population": 34718,
+   "geonameId": "949282"
+  },
+  {
+   "id": "city:geonames-949683",
+   "name": "Thabazimbi",
+   "aliases": [],
+   "lat": -24.59165,
+   "lon": 27.41155,
+   "population": 34561,
+   "geonameId": "949683"
+  },
+  {
+   "id": "city:geonames-978895",
+   "name": "Margate",
+   "aliases": [
+    "Berkleys",
+    "MGH",
+    "Margate No. 4"
+   ],
+   "lat": -30.8636,
+   "lon": 30.37052,
+   "population": 34407,
+   "geonameId": "978895"
+  },
+  {
+   "id": "city:geonames-1012413",
+   "name": "Cullinan",
+   "aliases": [
+    "Kullinan",
+    "Куллинан"
+   ],
+   "lat": -25.67088,
+   "lon": 28.52364,
+   "population": 34087,
+   "geonameId": "1012413"
+  },
+  {
+   "id": "city:geonames-940509",
+   "name": "Wembesi",
+   "aliases": [],
+   "lat": -29.04912,
+   "lon": 29.78232,
+   "population": 33849,
+   "geonameId": "940509"
+  },
+  {
+   "id": "city:geonames-940186",
+   "name": "Whittlesea",
+   "aliases": [],
+   "lat": -32.17588,
+   "lon": 26.82437,
+   "population": 33844,
+   "geonameId": "940186"
+  },
+  {
+   "id": "city:geonames-1023713",
+   "name": "Acornhoek",
+   "aliases": [],
+   "lat": -24.5878,
+   "lon": 31.09467,
+   "population": 33529,
+   "geonameId": "1023713"
+  },
+  {
+   "id": "city:geonames-1018673",
+   "name": "Bloemhof",
+   "aliases": [],
+   "lat": -27.64685,
+   "lon": 25.60697,
+   "population": 33432,
+   "geonameId": "1018673"
+  },
+  {
+   "id": "city:geonames-997751",
+   "name": "Harrismith",
+   "aliases": [
+    "42nd Hill",
+    "Garrismit",
+    "HRS",
+    "Гаррисмит"
+   ],
+   "lat": -28.27276,
+   "lon": 29.12946,
+   "population": 33390,
+   "geonameId": "997751"
+  },
+  {
+   "id": "city:geonames-3362349",
+   "name": "Robertson",
+   "aliases": [
+    "ROD"
+   ],
+   "lat": -33.80342,
+   "lon": 19.88537,
+   "population": 33204,
+   "geonameId": "3362349"
+  },
+  {
+   "id": "city:geonames-972803",
+   "name": "Mtubatuba",
+   "aliases": [
+    "DUK"
+   ],
+   "lat": -28.41789,
+   "lon": 32.18483,
+   "population": 33182,
+   "geonameId": "972803"
+  },
+  {
+   "id": "city:geonames-1005544",
+   "name": "Empangeni",
+   "aliases": [
+    "EMG"
+   ],
+   "lat": -28.76197,
+   "lon": 31.89329,
+   "population": 33075,
+   "geonameId": "1005544"
+  },
+  {
+   "id": "city:geonames-997140",
+   "name": "Heilbron",
+   "aliases": [],
+   "lat": -27.28115,
+   "lon": 27.9709,
+   "population": 32836,
+   "geonameId": "997140"
+  },
+  {
+   "id": "city:geonames-993910",
+   "name": "Jeffreys Bay",
+   "aliases": [
+    "Dzheffris-Bej",
+    "Jeffreys baai",
+    "Jeffreysbaai",
+    "jie fu li si bei",
+    "Джеффрис-Бей",
+    "傑弗里斯貝"
+   ],
+   "lat": -34.04526,
+   "lon": 24.92146,
+   "population": 32477,
+   "geonameId": "993910"
+  },
+  {
+   "id": "city:geonames-995202",
+   "name": "Howick",
+   "aliases": [],
+   "lat": -29.47795,
+   "lon": 30.23057,
+   "population": 32453,
+   "geonameId": "995202"
+  },
+  {
+   "id": "city:geonames-962330",
+   "name": "Richmond",
+   "aliases": [],
+   "lat": -29.87196,
+   "lon": 30.27235,
+   "population": 32445,
+   "geonameId": "962330"
+  },
+  {
+   "id": "city:geonames-1011632",
+   "name": "De Aar",
+   "aliases": [
+    "De-Ar",
+    "Deh-Ar",
+    "de a er",
+    "Де-Ар",
+    "Дэ-Ар",
+    "Դե Աար",
+    "德阿爾"
+   ],
+   "lat": -30.64966,
+   "lon": 24.0123,
+   "population": 32318,
+   "geonameId": "1011632"
+  },
+  {
+   "id": "city:geonames-946257",
+   "name": "Ulundi",
+   "aliases": [
+    "Owlundi",
+    "ULD",
+    "ullundi",
+    "urundi",
+    "wu lun di",
+    "Улунди",
+    "Улунді",
+    "Ուլունդի",
+    "ウルンディ",
+    "烏倫迪",
+    "울룬디"
+   ],
+   "lat": -28.33523,
+   "lon": 31.41617,
+   "population": 31795,
+   "geonameId": "946257"
+  },
+  {
+   "id": "city:geonames-1023287",
+   "name": "Allanridge",
+   "aliases": [],
+   "lat": -27.75431,
+   "lon": 26.64382,
+   "population": 31700,
+   "geonameId": "1023287"
+  },
+  {
+   "id": "city:geonames-8604906",
+   "name": "Hartbeestfontein-A",
+   "aliases": [],
+   "lat": -25.44141,
+   "lon": 27.51114,
+   "population": 31554,
+   "geonameId": "8604906"
+  },
+  {
+   "id": "city:geonames-11428880",
+   "name": "Lebohang",
+   "aliases": [],
+   "lat": -26.37945,
+   "lon": 28.92112,
+   "population": 31553,
+   "geonameId": "11428880"
+  },
+  {
+   "id": "city:geonames-8629684",
+   "name": "Marapong",
+   "aliases": [],
+   "lat": -23.65506,
+   "lon": 27.62495,
+   "population": 31424,
+   "geonameId": "8629684"
+  },
+  {
+   "id": "city:geonames-1003763",
+   "name": "Frankfort",
+   "aliases": [],
+   "lat": -27.27888,
+   "lon": 28.49696,
+   "population": 31323,
+   "geonameId": "1003763"
+  },
+  {
+   "id": "city:geonames-964432",
+   "name": "Port Alfred",
+   "aliases": [
+    "AFD",
+    "Kowie",
+    "Port-Al'fred",
+    "The Kowie",
+    "ai er fu lei de gang",
+    "Порт-Альфред",
+    "艾尔弗雷德港"
+   ],
+   "lat": -33.58601,
+   "lon": 26.88329,
+   "population": 30981,
+   "geonameId": "964432"
+  },
+  {
+   "id": "city:geonames-985015",
+   "name": "Ladybrand",
+   "aliases": [],
+   "lat": -29.19448,
+   "lon": 27.45739,
+   "population": 30930,
+   "geonameId": "985015"
+  },
+  {
+   "id": "city:geonames-973139",
+   "name": "Mpophomeni",
+   "aliases": [],
+   "lat": -29.56822,
+   "lon": 30.18618,
+   "population": 30830,
+   "geonameId": "973139"
+  },
+  {
+   "id": "city:geonames-964363",
+   "name": "Postmasburg",
+   "aliases": [],
+   "lat": -28.33392,
+   "lon": 23.06541,
+   "population": 30089,
+   "geonameId": "964363"
+  },
+  {
+   "id": "city:geonames-972206",
+   "name": "Mookgophong",
+   "aliases": [
+    "Naboomspruit",
+    "Naboomsruit"
+   ],
+   "lat": -24.51667,
+   "lon": 28.71667,
+   "population": 29778,
+   "geonameId": "972206"
+  },
+  {
+   "id": "city:geonames-12750584",
+   "name": "Nhlazatje",
+   "aliases": [],
+   "lat": -26.04027,
+   "lon": 30.79268,
+   "population": 28224,
+   "geonameId": "12750584"
+  },
+  {
+   "id": "city:geonames-1008261",
+   "name": "Driefontein",
+   "aliases": [],
+   "lat": -26.96501,
+   "lon": 30.43571,
+   "population": 28127,
+   "geonameId": "1008261"
+  },
+  {
+   "id": "city:geonames-1014747",
+   "name": "Bultfontein",
+   "aliases": [],
+   "lat": -28.28756,
+   "lon": 26.14996,
+   "population": 27994,
+   "geonameId": "1014747"
+  },
+  {
+   "id": "city:geonames-1021360",
+   "name": "Ballitoville",
+   "aliases": [],
+   "lat": -29.53897,
+   "lon": 31.21439,
+   "population": 27718,
+   "geonameId": "1021360"
+  },
+  {
+   "id": "city:geonames-956232",
+   "name": "Shakaskraal",
+   "aliases": [
+    "Chakaskraal"
+   ],
+   "lat": -29.44931,
+   "lon": 31.21532,
+   "population": 27345,
+   "geonameId": "956232"
+  },
+  {
+   "id": "city:geonames-996930",
+   "name": "Hendrina",
+   "aliases": [],
+   "lat": -26.15881,
+   "lon": 29.71528,
+   "population": 27300,
+   "geonameId": "996930"
+  },
+  {
+   "id": "city:geonames-997678",
+   "name": "Hartbeespoort",
+   "aliases": [
+    "Hartebeestpoort"
+   ],
+   "lat": -25.7287,
+   "lon": 27.87,
+   "population": 26732,
+   "geonameId": "997678"
+  },
+  {
+   "id": "city:geonames-12718812",
+   "name": "Praktiseer",
+   "aliases": [],
+   "lat": -24.58398,
+   "lon": 30.31684,
+   "population": 26675,
+   "geonameId": "12718812"
+  },
+  {
+   "id": "city:geonames-944531",
+   "name": "Ventersdorp",
+   "aliases": [],
+   "lat": -26.31401,
+   "lon": 26.82223,
+   "population": 26446,
+   "geonameId": "944531"
+  },
+  {
+   "id": "city:geonames-1004962",
+   "name": "Estcourt",
+   "aliases": [
+    "ai si te ke te",
+    "埃斯特科特"
+   ],
+   "lat": -29.01269,
+   "lon": 29.86619,
+   "population": 26444,
+   "geonameId": "1004962"
+  },
+  {
+   "id": "city:geonames-1009863",
+   "name": "Dimbaza",
+   "aliases": [
+    "Dimbasa"
+   ],
+   "lat": -32.83483,
+   "lon": 27.21742,
+   "population": 26099,
+   "geonameId": "1009863"
+  },
+  {
+   "id": "city:geonames-8604596",
+   "name": "Retreat",
+   "aliases": [],
+   "lat": -34.05515,
+   "lon": 18.47617,
+   "population": 25745,
+   "geonameId": "8604596"
+  },
+  {
+   "id": "city:geonames-938694",
+   "name": "White River",
+   "aliases": [
+    "Witrivier"
+   ],
+   "lat": -25.33177,
+   "lon": 31.01166,
+   "population": 25607,
+   "geonameId": "938694"
+  },
+  {
+   "id": "city:geonames-1022982",
+   "name": "Amandelbult",
+   "aliases": [],
+   "lat": -24.81811,
+   "lon": 27.29659,
+   "population": 25587,
+   "geonameId": "1022982"
+  },
+  {
+   "id": "city:geonames-11204695",
+   "name": "Kamaqhekeza",
+   "aliases": [],
+   "lat": -25.67031,
+   "lon": 31.86288,
+   "population": 25390,
+   "geonameId": "11204695"
+  },
+  {
+   "id": "city:geonames-985011",
+   "name": "Lady Frere",
+   "aliases": [],
+   "lat": -31.70312,
+   "lon": 27.2329,
+   "population": 25041,
+   "geonameId": "985011"
+  },
+  {
+   "id": "city:geonames-1013550",
+   "name": "Christiana",
+   "aliases": [],
+   "lat": -27.91402,
+   "lon": 25.16111,
+   "population": 25019,
+   "geonameId": "1013550"
+  },
+  {
+   "id": "city:geonames-8030233",
+   "name": "Midstream",
+   "aliases": [],
+   "lat": -25.91849,
+   "lon": 28.19881,
+   "population": 25000,
+   "geonameId": "8030233"
+  },
+  {
+   "id": "city:geonames-12718757",
+   "name": "Phomolong",
+   "aliases": [],
+   "lat": -28.01274,
+   "lon": 27.08234,
+   "population": 24635,
+   "geonameId": "12718757"
+  },
+  {
+   "id": "city:geonames-1007514",
+   "name": "Duiwelskloof",
+   "aliases": [
+    "Duivelskloof",
+    "Duweiskloof"
+   ],
+   "lat": -23.69339,
+   "lon": 30.14002,
+   "population": 24572,
+   "geonameId": "1007514"
+  },
+  {
+   "id": "city:geonames-962847",
+   "name": "Reitz",
+   "aliases": [],
+   "lat": -27.80138,
+   "lon": 28.42726,
+   "population": 24181,
+   "geonameId": "962847"
+  },
+  {
+   "id": "city:geonames-956878",
+   "name": "Scottburgh",
+   "aliases": [
+    "Scottburg",
+    "Scottsburgh"
+   ],
+   "lat": -30.28666,
+   "lon": 30.75316,
+   "population": 23949,
+   "geonameId": "956878"
+  },
+  {
+   "id": "city:geonames-994432",
+   "name": "Itsoseng",
+   "aliases": [],
+   "lat": -26.08159,
+   "lon": 25.88124,
+   "population": 23913,
+   "geonameId": "994432"
+  },
+  {
+   "id": "city:geonames-1000937",
+   "name": "Gonubie",
+   "aliases": [
+    "Conubie Mouth",
+    "Gonubie Mouth"
+   ],
+   "lat": -32.94433,
+   "lon": 28.01496,
+   "population": 23733,
+   "geonameId": "1000937"
+  },
+  {
+   "id": "city:geonames-11204123",
+   "name": "Marikana",
+   "aliases": [
+    "Rooikoppies"
+   ],
+   "lat": -25.699,
+   "lon": 27.47475,
+   "population": 23389,
+   "geonameId": "11204123"
+  },
+  {
+   "id": "city:geonames-987648",
+   "name": "Koster",
+   "aliases": [],
+   "lat": -25.86301,
+   "lon": 26.89756,
+   "population": 23361,
+   "geonameId": "987648"
+  },
+  {
+   "id": "city:geonames-1010962",
+   "name": "Deneysville",
+   "aliases": [
+    "Denysville"
+   ],
+   "lat": -26.8908,
+   "lon": 28.09707,
+   "population": 23337,
+   "geonameId": "1010962"
+  },
+  {
+   "id": "city:geonames-957178",
+   "name": "Schoemansdal",
+   "aliases": [
+    "KaMatsamo"
+   ],
+   "lat": -25.70866,
+   "lon": 31.51025,
+   "population": 23257,
+   "geonameId": "957178"
+  },
+  {
+   "id": "city:geonames-12718837",
+   "name": "Redhill",
+   "aliases": [],
+   "lat": -26.26074,
+   "lon": 30.82545,
+   "population": 23153,
+   "geonameId": "12718837"
+  },
+  {
+   "id": "city:geonames-1000006",
+   "name": "Greytown",
+   "aliases": [],
+   "lat": -29.06415,
+   "lon": 30.59279,
+   "population": 23139,
+   "geonameId": "1000006"
+  },
+  {
+   "id": "city:geonames-996918",
+   "name": "Hennenman",
+   "aliases": [],
+   "lat": -27.97654,
+   "lon": 27.02423,
+   "population": 22847,
+   "geonameId": "996918"
+  },
+  {
+   "id": "city:geonames-954161",
+   "name": "Somerset East",
+   "aliases": [
+    "Somerset-Oos"
+   ],
+   "lat": -32.72173,
+   "lon": 25.58804,
+   "population": 22553,
+   "geonameId": "954161"
+  },
+  {
+   "id": "city:geonames-976358",
+   "name": "Middelburg",
+   "aliases": [],
+   "lat": -31.49285,
+   "lon": 25.00633,
+   "population": 22380,
+   "geonameId": "976358"
+  },
+  {
+   "id": "city:geonames-997718",
+   "name": "Hartbeesfontein",
+   "aliases": [
+    "Hartebeestfontein"
+   ],
+   "lat": -26.76566,
+   "lon": 26.42024,
+   "population": 22294,
+   "geonameId": "997718"
+  },
+  {
+   "id": "city:geonames-974738",
+   "name": "Moloto South",
+   "aliases": [
+    "Malotto",
+    "Moloto",
+    "Sybrandskraal"
+   ],
+   "lat": -25.46279,
+   "lon": 28.65041,
+   "population": 22076,
+   "geonameId": "974738"
+  },
+  {
+   "id": "city:geonames-967238",
+   "name": "Ottosdal",
+   "aliases": [],
+   "lat": -26.80908,
+   "lon": 26.00538,
+   "population": 22011,
+   "geonameId": "967238"
+  },
+  {
+   "id": "city:geonames-3359736",
+   "name": "Vredendal",
+   "aliases": [
+    "VRE"
+   ],
+   "lat": -31.66833,
+   "lon": 18.50119,
+   "population": 21769,
+   "geonameId": "3359736"
+  },
+  {
+   "id": "city:geonames-974222",
+   "name": "Mooi River",
+   "aliases": [
+    "Mooirivier"
+   ],
+   "lat": -29.20824,
+   "lon": 29.9946,
+   "population": 21730,
+   "geonameId": "974222"
+  },
+  {
+   "id": "city:geonames-966380",
+   "name": "Pampierstad",
+   "aliases": [
+    "Pampierstat"
+   ],
+   "lat": -27.78324,
+   "lon": 24.68768,
+   "population": 21707,
+   "geonameId": "966380"
+  },
+  {
+   "id": "city:geonames-1023366",
+   "name": "Hlanganani",
+   "aliases": [
+    "Alexandria"
+   ],
+   "lat": -24.95911,
+   "lon": 31.17025,
+   "population": 21506,
+   "geonameId": "1023366"
+  },
+  {
+   "id": "city:geonames-944380",
+   "name": "Verena",
+   "aliases": [],
+   "lat": -25.48251,
+   "lon": 29.02763,
+   "population": 21252,
+   "geonameId": "944380"
+  },
+  {
+   "id": "city:geonames-942701",
+   "name": "Vrede",
+   "aliases": [],
+   "lat": -27.42573,
+   "lon": 29.16585,
+   "population": 21193,
+   "geonameId": "942701"
+  },
+  {
+   "id": "city:geonames-7730334",
+   "name": "Lephalale",
+   "aliases": [
+    "ELL",
+    "Ellisras",
+    "Lepkhalale",
+    "lai pa la lai",
+    "Лепхалале",
+    "萊帕拉萊"
+   ],
+   "lat": -23.66607,
+   "lon": 27.74477,
+   "population": 21133,
+   "geonameId": "7730334"
+  },
+  {
+   "id": "city:geonames-1013266",
+   "name": "Hlohlolwane",
+   "aliases": [
+    "Clocolan"
+   ],
+   "lat": -28.91588,
+   "lon": 27.56957,
+   "population": 21089,
+   "geonameId": "1013266"
+  },
+  {
+   "id": "city:geonames-1001736",
+   "name": "Glencoe",
+   "aliases": [],
+   "lat": -28.17827,
+   "lon": 30.14702,
+   "population": 21024,
+   "geonameId": "1001736"
+  },
+  {
+   "id": "city:geonames-950709",
+   "name": "Swellendam",
+   "aliases": [
+    "Republiken Swellendam",
+    "Shvelendam",
+    "Svellendam",
+    "si wei lun dan",
+    "Свеллендам",
+    "Швелендам",
+    "斯韋倫丹"
+   ],
+   "lat": -34.02262,
+   "lon": 20.44171,
+   "population": 20993,
+   "geonameId": "950709"
+  },
+  {
+   "id": "city:geonames-943937",
+   "name": "Villiers",
+   "aliases": [],
+   "lat": -27.03026,
+   "lon": 28.60061,
+   "population": 20745,
+   "geonameId": "943937"
+  },
+  {
+   "id": "city:geonames-1013067",
+   "name": "Coligny",
+   "aliases": [],
+   "lat": -26.33172,
+   "lon": 26.32065,
+   "population": 20701,
+   "geonameId": "1013067"
+  },
+  {
+   "id": "city:geonames-988290",
+   "name": "Komatipoort",
+   "aliases": [
+    "KOF"
+   ],
+   "lat": -25.43321,
+   "lon": 31.95478,
+   "population": 20508,
+   "geonameId": "988290"
+  },
+  {
+   "id": "city:geonames-956767",
+   "name": "Secunda",
+   "aliases": [
+    "Sekunda",
+    "ZEC",
+    "Секунда"
+   ],
+   "lat": -26.55,
+   "lon": 29.16667,
+   "population": 20418,
+   "geonameId": "956767"
+  },
+  {
+   "id": "city:geonames-946128",
+   "name": "eMkhomazi",
+   "aliases": [
+    "Umkomaas"
+   ],
+   "lat": -30.20672,
+   "lon": 30.79641,
+   "population": 20410,
+   "geonameId": "946128"
+  },
+  {
+   "id": "city:geonames-13527189",
+   "name": "Mafemani",
+   "aliases": [],
+   "lat": -24.78864,
+   "lon": 31.07938,
+   "population": 20389,
+   "geonameId": "13527189"
+  },
+  {
+   "id": "city:geonames-1014012",
+   "name": "Carolina",
+   "aliases": [],
+   "lat": -26.06927,
+   "lon": 30.11489,
+   "population": 20184,
+   "geonameId": "1014012"
+  },
+  {
+   "id": "city:geonames-1020340",
+   "name": "Belfast",
+   "aliases": [],
+   "lat": -25.68991,
+   "lon": 30.03504,
+   "population": 20036,
+   "geonameId": "1020340"
+  },
+  {
+   "id": "city:geonames-963525",
+   "name": "Queensdale",
+   "aliases": [],
+   "lat": -31.87101,
+   "lon": 26.97862,
+   "population": 20009,
+   "geonameId": "963525"
+  },
+  {
+   "id": "city:geonames-3367877",
+   "name": "Franschhoek",
+   "aliases": [
+    "Franskhuk",
+    "French Hoek",
+    "furanshufukku",
+    "Франсхук",
+    "フランシュフック"
+   ],
+   "lat": -33.91075,
+   "lon": 19.1198,
+   "population": 20000,
+   "geonameId": "3367877"
+  },
+  {
+   "id": "city:geonames-945141",
+   "name": "Vaalwater",
+   "aliases": [],
+   "lat": -24.2957,
+   "lon": 28.11415,
+   "population": 19723,
+   "geonameId": "945141"
+  },
+  {
+   "id": "city:geonames-11205753",
+   "name": "Ncotshane",
+   "aliases": [],
+   "lat": -27.342,
+   "lon": 31.58,
+   "population": 19562,
+   "geonameId": "11205753"
+  },
+  {
+   "id": "city:geonames-12718836",
+   "name": "Vaalbank",
+   "aliases": [],
+   "lat": -25.15226,
+   "lon": 28.85563,
+   "population": 19517,
+   "geonameId": "12718836"
+  },
+  {
+   "id": "city:geonames-946010",
+   "name": "eMuziwezinto",
+   "aliases": [
+    "Mzinto",
+    "Umzinto"
+   ],
+   "lat": -30.31002,
+   "lon": 30.66275,
+   "population": 19415,
+   "geonameId": "946010"
+  },
+  {
+   "id": "city:geonames-961152",
+   "name": "Riversdale",
+   "aliases": [
+    "Riversdal"
+   ],
+   "lat": -34.09345,
+   "lon": 21.25725,
+   "population": 19382,
+   "geonameId": "961152"
+  },
+  {
+   "id": "city:geonames-995573",
+   "name": "Hoopstad",
+   "aliases": [],
+   "lat": -27.83273,
+   "lon": 25.90833,
+   "population": 19209,
+   "geonameId": "995573"
+  },
+  {
+   "id": "city:geonames-1014653",
+   "name": "Burgersdorp",
+   "aliases": [
+    "Burgersdorf",
+    "Burghersdorp"
+   ],
+   "lat": -30.99766,
+   "lon": 26.32862,
+   "population": 19159,
+   "geonameId": "1014653"
+  },
+  {
+   "id": "city:geonames-937136",
+   "name": "Zeerust",
+   "aliases": [],
+   "lat": -25.53695,
+   "lon": 26.07512,
+   "population": 19154,
+   "geonameId": "937136"
+  },
+  {
+   "id": "city:geonames-12718811",
+   "name": "Tshitereke",
+   "aliases": [],
+   "lat": -22.88416,
+   "lon": 30.49358,
+   "population": 19092,
+   "geonameId": "12718811"
+  },
+  {
+   "id": "city:geonames-986717",
+   "name": "Kruisfontein",
+   "aliases": [],
+   "lat": -34.00333,
+   "lon": 24.73142,
+   "population": 18991,
+   "geonameId": "986717"
+  },
+  {
+   "id": "city:geonames-958441",
+   "name": "Sabie",
+   "aliases": [],
+   "lat": -25.0999,
+   "lon": 30.78001,
+   "population": 18903,
+   "geonameId": "958441"
+  },
+  {
+   "id": "city:geonames-937246",
+   "name": "Zastron",
+   "aliases": [],
+   "lat": -30.30225,
+   "lon": 27.08395,
+   "population": 18699,
+   "geonameId": "937246"
+  },
+  {
+   "id": "city:geonames-1015776",
+   "name": "Bredasdorp",
+   "aliases": [
+    "bu lei da si duo pu",
+    "Бредасдорп",
+    "布雷達斯多普"
+   ],
+   "lat": -34.53215,
+   "lon": 20.04031,
+   "population": 18599,
+   "geonameId": "1015776"
+  },
+  {
+   "id": "city:geonames-978677",
+   "name": "Marquard",
+   "aliases": [],
+   "lat": -28.66449,
+   "lon": 27.43048,
+   "population": 18573,
+   "geonameId": "978677"
+  },
+  {
+   "id": "city:geonames-1008064",
+   "name": "Driekoppies",
+   "aliases": [],
+   "lat": -25.69776,
+   "lon": 31.564,
+   "population": 18498,
+   "geonameId": "1008064"
+  },
+  {
+   "id": "city:geonames-1013199",
+   "name": "Clydesdale",
+   "aliases": [],
+   "lat": -30.29831,
+   "lon": 29.93772,
+   "population": 18357,
+   "geonameId": "1013199"
+  },
+  {
+   "id": "city:geonames-990825",
+   "name": "Kinross",
+   "aliases": [],
+   "lat": -26.41663,
+   "lon": 29.08668,
+   "population": 18266,
+   "geonameId": "990825"
+  },
+  {
+   "id": "city:geonames-987202",
+   "name": "Kriel",
+   "aliases": [],
+   "lat": -26.25,
+   "lon": 29.26,
+   "population": 18255,
+   "geonameId": "987202"
+  },
+  {
+   "id": "city:geonames-974611",
+   "name": "Montagu",
+   "aliases": [],
+   "lat": -33.78664,
+   "lon": 20.12106,
+   "population": 18182,
+   "geonameId": "974611"
+  },
+  {
+   "id": "city:geonames-12718754",
+   "name": "Ndevana",
+   "aliases": [],
+   "lat": -32.90769,
+   "lon": 27.50973,
+   "population": 18151,
+   "geonameId": "12718754"
+  },
+  {
+   "id": "city:geonames-1023332",
+   "name": "Alice",
+   "aliases": [
+    "Ehlis",
+    "alys  kyp shrqy",
+    "Элис",
+    "الیس، کیپ شرقی"
+   ],
+   "lat": -32.78749,
+   "lon": 26.8344,
+   "population": 18141,
+   "geonameId": "1023332"
+  },
+  {
+   "id": "city:geonames-999602",
+   "name": "Groot-Brakrivier",
+   "aliases": [
+    "Great Brak River"
+   ],
+   "lat": -34.04368,
+   "lon": 22.22574,
+   "population": 18008,
+   "geonameId": "999602"
+  },
+  {
+   "id": "city:geonames-941931",
+   "name": "Warrenton",
+   "aliases": [],
+   "lat": -28.11396,
+   "lon": 24.84753,
+   "population": 17946,
+   "geonameId": "941931"
+  },
+  {
+   "id": "city:geonames-12718835",
+   "name": "Tekwane",
+   "aliases": [],
+   "lat": -25.47776,
+   "lon": 31.14559,
+   "population": 17846,
+   "geonameId": "12718835"
+  },
+  {
+   "id": "city:geonames-12718756",
+   "name": "Tshiame",
+   "aliases": [],
+   "lat": -28.33057,
+   "lon": 28.99087,
+   "population": 17800,
+   "geonameId": "12718756"
+  },
+  {
+   "id": "city:geonames-1005040",
+   "name": "Eshowe",
+   "aliases": [],
+   "lat": -28.88649,
+   "lon": 31.4699,
+   "population": 17663,
+   "geonameId": "1005040"
+  },
+  {
+   "id": "city:geonames-942683",
+   "name": "Vredefort",
+   "aliases": [],
+   "lat": -27.00805,
+   "lon": 27.3646,
+   "population": 17515,
+   "geonameId": "942683"
+  },
+  {
+   "id": "city:geonames-946973",
+   "name": "Tzaneen",
+   "aliases": [
+    "LTA",
+    "cha nen",
+    "zanyn",
+    "Тзанеен",
+    "زانین",
+    "察嫩"
+   ],
+   "lat": -23.83322,
+   "lon": 30.16351,
+   "population": 17457,
+   "geonameId": "946973"
+  },
+  {
+   "id": "city:geonames-12718868",
+   "name": "Le Roux",
+   "aliases": [],
+   "lat": -33.89058,
+   "lon": 19.10328,
+   "population": 17432,
+   "geonameId": "12718868"
+  },
+  {
+   "id": "city:geonames-1005781",
+   "name": "Khowa",
+   "aliases": [
+    "Elliot"
+   ],
+   "lat": -31.33306,
+   "lon": 27.85,
+   "population": 17224,
+   "geonameId": "1005781"
+  },
+  {
+   "id": "city:geonames-1015694",
+   "name": "Breyten",
+   "aliases": [
+    "Breyton"
+   ],
+   "lat": -26.30176,
+   "lon": 29.98696,
+   "population": 17189,
+   "geonameId": "1015694"
+  },
+  {
+   "id": "city:geonames-11204214",
+   "name": "Ga-Malakhe",
+   "aliases": [],
+   "lat": -30.8063,
+   "lon": 30.33484,
+   "population": 16891,
+   "geonameId": "11204214"
+  },
+  {
+   "id": "city:geonames-939608",
+   "name": "Winburg",
+   "aliases": [],
+   "lat": -28.51805,
+   "lon": 27.00933,
+   "population": 16862,
+   "geonameId": "939608"
+  },
+  {
+   "id": "city:geonames-3369179",
+   "name": "Caledon",
+   "aliases": [],
+   "lat": -34.22997,
+   "lon": 19.4265,
+   "population": 16752,
+   "geonameId": "3369179"
+  },
+  {
+   "id": "city:geonames-987875",
+   "name": "Koppies",
+   "aliases": [
+    "Kopjes"
+   ],
+   "lat": -27.24179,
+   "lon": 27.57422,
+   "population": 16537,
+   "geonameId": "987875"
+  },
+  {
+   "id": "city:geonames-12718789",
+   "name": "Frischgewaagd",
+   "aliases": [],
+   "lat": -27.38985,
+   "lon": 30.95469,
+   "population": 16192,
+   "geonameId": "12718789"
+  },
+  {
+   "id": "city:geonames-946932",
+   "name": "Ugie",
+   "aliases": [],
+   "lat": -31.19809,
+   "lon": 28.23351,
+   "population": 16133,
+   "geonameId": "946932"
+  },
+  {
+   "id": "city:geonames-12718768",
+   "name": "Bagale",
+   "aliases": [],
+   "lat": -26.06566,
+   "lon": 27.64765,
+   "population": 16087,
+   "geonameId": "12718768"
+  },
+  {
+   "id": "city:geonames-984012",
+   "name": "Leeudoringstad",
+   "aliases": [
+    "Leeuwdoornsstad",
+    "Leeuwdoornstad"
+   ],
+   "lat": -27.23712,
+   "lon": 26.23514,
+   "population": 16042,
+   "geonameId": "984012"
+  },
+  {
+   "id": "city:geonames-979910",
+   "name": "Makwassie",
+   "aliases": [
+    "Maquassi"
+   ],
+   "lat": -27.31564,
+   "lon": 25.99497,
+   "population": 15996,
+   "geonameId": "979910"
+  },
+  {
+   "id": "city:geonames-949026",
+   "name": "Thulamahashi",
+   "aliases": [],
+   "lat": -24.72459,
+   "lon": 31.19939,
+   "population": 15974,
+   "geonameId": "949026"
+  },
+  {
+   "id": "city:geonames-1022145",
+   "name": "Ashton",
+   "aliases": [],
+   "lat": -33.83136,
+   "lon": 20.05595,
+   "population": 15964,
+   "geonameId": "1022145"
+  },
+  {
+   "id": "city:geonames-3367804",
+   "name": "Gansbaai",
+   "aliases": [
+    "Gans Bay"
+   ],
+   "lat": -34.58301,
+   "lon": 19.35048,
+   "population": 15957,
+   "geonameId": "3367804"
+  },
+  {
+   "id": "city:geonames-973527",
+   "name": "Tlokoeng",
+   "aliases": [
+    "Mount Fletcher"
+   ],
+   "lat": -30.69268,
+   "lon": 28.5061,
+   "population": 15884,
+   "geonameId": "973527"
+  },
+  {
+   "id": "city:geonames-12718834",
+   "name": "Thubelihle",
+   "aliases": [],
+   "lat": -26.21551,
+   "lon": 29.29164,
+   "population": 15876,
+   "geonameId": "12718834"
+  },
+  {
+   "id": "city:geonames-12718833",
+   "name": "Daggakraal",
+   "aliases": [],
+   "lat": -27.13246,
+   "lon": 29.97635,
+   "population": 15793,
+   "geonameId": "12718833"
+  },
+  {
+   "id": "city:geonames-1014322",
+   "name": "Cala",
+   "aliases": [],
+   "lat": -31.52356,
+   "lon": 27.6952,
+   "population": 15764,
+   "geonameId": "1014322"
+  },
+  {
+   "id": "city:geonames-12750601",
+   "name": "Fernie",
+   "aliases": [],
+   "lat": -26.39015,
+   "lon": 30.78742,
+   "population": 15693,
+   "geonameId": "12750601"
+  },
+  {
+   "id": "city:geonames-11282157",
+   "name": "Malamulele",
+   "aliases": [],
+   "lat": -22.97111,
+   "lon": 30.67361,
+   "population": 15659,
+   "geonameId": "11282157"
+  },
+  {
+   "id": "city:geonames-969698",
+   "name": "Northam",
+   "aliases": [],
+   "lat": -24.95775,
+   "lon": 27.26543,
+   "population": 15598,
+   "geonameId": "969698"
+  },
+  {
+   "id": "city:geonames-1003843",
+   "name": "Fouriesburg",
+   "aliases": [],
+   "lat": -28.61961,
+   "lon": 28.20966,
+   "population": 15544,
+   "geonameId": "1003843"
+  },
+  {
+   "id": "city:geonames-1015969",
+   "name": "Winnie Mandela",
+   "aliases": [
+    "Brandfort"
+   ],
+   "lat": -28.70025,
+   "lon": 26.4581,
+   "population": 15454,
+   "geonameId": "1015969"
+  },
+  {
+   "id": "city:geonames-965571",
+   "name": "Mamafubedu",
+   "aliases": [
+    "Petrus Steyn"
+   ],
+   "lat": -27.66606,
+   "lon": 28.13132,
+   "population": 15447,
+   "geonameId": "965571"
+  },
+  {
+   "id": "city:geonames-3363957",
+   "name": "Moorreesburg",
+   "aliases": [],
+   "lat": -33.15388,
+   "lon": 18.66031,
+   "population": 15428,
+   "geonameId": "3363957"
+  },
+  {
+   "id": "city:geonames-7302802",
+   "name": "Rondebosch",
+   "aliases": [
+    "Rondebos",
+    "Rondebosh",
+    "long de bo si",
+    "rondebosshu",
+    "rwndybwsh",
+    "Рондебосч",
+    "Рондебош",
+    "Ռոնդեբոշ",
+    "روندیبوش",
+    "ロンデボッシュ",
+    "龍德博斯"
+   ],
+   "lat": -33.96333,
+   "lon": 18.47639,
+   "population": 15158,
+   "geonameId": "7302802"
+  },
+  {
+   "id": "city:geonames-1007061",
+   "name": "Dysselsdorp",
+   "aliases": [
+    "Dysseldorp",
+    "Oysseldorp"
+   ],
+   "lat": -33.57565,
+   "lon": 22.44391,
+   "population": 15029,
+   "geonameId": "1007061"
+  },
+  {
+   "id": "city:geonames-12718832",
+   "name": "Empuluzu",
+   "aliases": [
+    "Mpuluzi"
+   ],
+   "lat": -26.30497,
+   "lon": 30.77365,
+   "population": 15008,
+   "geonameId": "12718832"
+  }
+ ]
+}

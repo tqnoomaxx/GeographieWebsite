@@ -1,0 +1,1621 @@
+{
+ "country": "country:UG",
+ "cities": [
+  {
+   "id": "city:UG-kampala",
+   "name": "Kampala",
+   "aliases": [
+    "Campala",
+    "IKampala",
+    "KLA",
+    "Kaempaala",
+    "Kambaala",
+    "Kampal",
+    "Kampalo",
+    "Kanpala",
+    "kam pa la",
+    "kambala",
+    "kampala",
+    "kampalla",
+    "kan pa la",
+    "kanpara",
+    "kapala",
+    "kmbala",
+    "kmpala",
+    "qmplh",
+    "Καμπάλα",
+    "Кампала",
+    "Կամպալա",
+    "קאמפאלא",
+    "קמפלה",
+    "كامبالا",
+    "كامپالا",
+    "كمبالا",
+    "کامپالا",
+    "کمپالا",
+    "کمپالہ",
+    "कंपाला",
+    "कम्पाला",
+    "ਕੰਪਾਲਾ",
+    "କାମ୍ପାଲା",
+    "கம்பாலா",
+    "กัมปาลา",
+    "ཀམ་པ་ལ།",
+    "კამპალა",
+    "ካምፓላ",
+    "カンパラ",
+    "坎帕拉",
+    "캄팔라"
+   ],
+   "lat": 0.31628,
+   "lon": 32.58219,
+   "population": 1680600,
+   "geonameId": "232422"
+  },
+  {
+   "id": "city:geonames-10943053",
+   "name": "Nansana",
+   "aliases": [
+    "Нансана"
+   ],
+   "lat": 0.36389,
+   "lon": 32.52861,
+   "population": 532800,
+   "geonameId": "10943053"
+  },
+  {
+   "id": "city:UG-kira-town",
+   "name": "Kira Town",
+   "aliases": [
+    "Kira",
+    "Кира"
+   ],
+   "lat": 0.4,
+   "lon": 32.63333,
+   "population": 462900,
+   "geonameId": "231165"
+  },
+  {
+   "id": "city:geonames-234179",
+   "name": "Bunamwaya",
+   "aliases": [
+    "Bunamuaja",
+    "Бунамуая"
+   ],
+   "lat": 0.25344,
+   "lon": 32.55723,
+   "population": 413400,
+   "geonameId": "234179"
+  },
+  {
+   "id": "city:geonames-10858926",
+   "name": "Kyengera",
+   "aliases": [
+    "Kengera",
+    "Кенгера"
+   ],
+   "lat": 0.29517,
+   "lon": 32.50159,
+   "population": 285400,
+   "geonameId": "10858926"
+  },
+  {
+   "id": "city:geonames-232110",
+   "name": "Kasangati",
+   "aliases": [
+    "kasangati",
+    "Касангати",
+    "カサンガティ"
+   ],
+   "lat": 0.43803,
+   "lon": 32.60246,
+   "population": 277685,
+   "geonameId": "232110"
+  },
+  {
+   "id": "city:UG-mbarara",
+   "name": "Mbarara",
+   "aliases": [
+    "Barara",
+    "MBQ",
+    "eumbalala",
+    "mabarara",
+    "mbarara",
+    "mubarara",
+    "Μπαράρα",
+    "Мбарара",
+    "مبارارا",
+    "म्बारारा",
+    "ম্বারারা",
+    "ਮਬਾਰਾਰਾ",
+    "მბარარა",
+    "ምbarara",
+    "ምባራራ",
+    "ムバララ",
+    "음바라라",
+    "Mbarara City"
+   ],
+   "lat": -0.60467,
+   "lon": 30.64851,
+   "population": 221300,
+   "geonameId": "229268"
+  },
+  {
+   "id": "city:geonames-227812",
+   "name": "Njeru",
+   "aliases": [
+    "Daru",
+    "Ndzheru",
+    "Нджеру"
+   ],
+   "lat": 0.44166,
+   "lon": 33.17917,
+   "population": 201484,
+   "geonameId": "227812"
+  },
+  {
+   "id": "city:geonames-228853",
+   "name": "Mukono",
+   "aliases": [
+    "Муконо"
+   ],
+   "lat": 0.35333,
+   "lon": 32.75528,
+   "population": 191300,
+   "geonameId": "228853"
+  },
+  {
+   "id": "city:UG-gulu",
+   "name": "Gulu",
+   "aliases": [
+    "Gul",
+    "Nkoulou",
+    "Qulu",
+    "ULU",
+    "gu lu",
+    "gullu",
+    "gulu",
+    "guru",
+    "gwlw",
+    "jwlw",
+    "Γκουλού",
+    "Гул",
+    "Гулу",
+    "גולו",
+    "جولو",
+    "گولو",
+    "गुलु",
+    "গুলু",
+    "ਗੁਲੂ",
+    "გულუ",
+    "ጉሉ",
+    "グル",
+    "古盧",
+    "굴루",
+    "Gulu City"
+   ],
+   "lat": 2.77457,
+   "lon": 32.29899,
+   "population": 177400,
+   "geonameId": "233346"
+  },
+  {
+   "id": "city:geonames-232713",
+   "name": "Kajansi",
+   "aliases": [
+    "KJJ",
+    "Каянси"
+   ],
+   "lat": 0.21548,
+   "lon": 32.53453,
+   "population": 155058,
+   "geonameId": "232713"
+  },
+  {
+   "id": "city:geonames-231954",
+   "name": "Katabi",
+   "aliases": [
+    "Катаби"
+   ],
+   "lat": 0.08411,
+   "lon": 32.46972,
+   "population": 154300,
+   "geonameId": "231954"
+  },
+  {
+   "id": "city:geonames-229911",
+   "name": "Lugazi",
+   "aliases": [
+    "Lugazis",
+    "lwgazy",
+    "Лугази",
+    "لوگازی"
+   ],
+   "lat": 0.36788,
+   "lon": 32.9376,
+   "population": 129795,
+   "geonameId": "229911"
+  },
+  {
+   "id": "city:geonames-233312",
+   "name": "Hoima",
+   "aliases": [
+    "Khoima",
+    "Хоима",
+    "ہویما"
+   ],
+   "lat": 1.43314,
+   "lon": 31.35241,
+   "population": 122700,
+   "geonameId": "233312"
+  },
+  {
+   "id": "city:geonames-228971",
+   "name": "Mubende",
+   "aliases": [
+    "Mubendi",
+    "Мубенде",
+    "موبیندے"
+   ],
+   "lat": 0.55849,
+   "lon": 31.39489,
+   "population": 121600,
+   "geonameId": "228971"
+  },
+  {
+   "id": "city:geonames-230166",
+   "name": "Lira",
+   "aliases": [
+    "lyrh",
+    "Лира",
+    "לירה",
+    "لیرا، یوگنڈا"
+   ],
+   "lat": 2.2499,
+   "lon": 32.89985,
+   "population": 119323,
+   "geonameId": "230166"
+  },
+  {
+   "id": "city:geonames-233299",
+   "name": "Ibanda",
+   "aliases": [
+    "Ибанда"
+   ],
+   "lat": -0.13398,
+   "lon": 30.49616,
+   "population": 117700,
+   "geonameId": "233299"
+  },
+  {
+   "id": "city:UG-masaka",
+   "name": "Masaka",
+   "aliases": [
+    "Masaki",
+    "Масака",
+    "Масаки"
+   ],
+   "lat": -0.33379,
+   "lon": 31.73409,
+   "population": 116600,
+   "geonameId": "229380"
+  },
+  {
+   "id": "city:geonames-232066",
+   "name": "Kasese",
+   "aliases": [
+    "KSE",
+    "Kasesė",
+    "ka sai sai",
+    "qssh",
+    "Касесе",
+    "קססה",
+    "کاسیسے",
+    "卡塞塞"
+   ],
+   "lat": 0.18333,
+   "lon": 30.08333,
+   "population": 115400,
+   "geonameId": "232066"
+  },
+  {
+   "id": "city:UG-mbale",
+   "name": "Mbale",
+   "aliases": [
+    "Mbalė",
+    "mu ba lai",
+    "Мбале",
+    "מבאלה",
+    "مبالے",
+    "姆巴萊",
+    "Mbale City"
+   ],
+   "lat": 1.08209,
+   "lon": 34.17503,
+   "population": 111300,
+   "geonameId": "229278"
+  },
+  {
+   "id": "city:geonames-229362",
+   "name": "Masindi",
+   "aliases": [
+    "KCU",
+    "Masinai",
+    "Masindis",
+    "masyndy",
+    "Масинди",
+    "ماسیندی"
+   ],
+   "lat": 1.67444,
+   "lon": 31.715,
+   "population": 110500,
+   "geonameId": "229362"
+  },
+  {
+   "id": "city:geonames-229139",
+   "name": "Mityana",
+   "aliases": [
+    "Mit'jana",
+    "Mitiyana",
+    "Митьяна"
+   ],
+   "lat": 0.4175,
+   "lon": 32.02278,
+   "population": 105200,
+   "geonameId": "229139"
+  },
+  {
+   "id": "city:geonames-233508",
+   "name": "Entebbe",
+   "aliases": [
+    "EBB",
+    "Ehntebbe",
+    "Entebe",
+    "Entebė",
+    "antbh",
+    "antyby",
+    "en de pei",
+    "entebe",
+    "Ентеббе",
+    "Ентебе",
+    "Энтеббе",
+    "אנטבה",
+    "ענטעבע",
+    "إنتيبي",
+    "انتبه",
+    "انتیبے",
+    "အင်တက်ဘီမြို့",
+    "ენტებე",
+    "エンテベ",
+    "恩德培",
+    "엔테베"
+   ],
+   "lat": 0.05621,
+   "lon": 32.47949,
+   "population": 102600,
+   "geonameId": "233508"
+  },
+  {
+   "id": "city:UG-jinja",
+   "name": "Jinja",
+   "aliases": [
+    "Cinja",
+    "Dzhindzha",
+    "Dzindza",
+    "Džindža",
+    "JIN",
+    "Jinga",
+    "Tzintza",
+    "gyngh",
+    "jija",
+    "jin gu",
+    "jinaja",
+    "jinija",
+    "jinja",
+    "jnjہ",
+    "jynja",
+    "Τζίντζα",
+    "Джинджа",
+    "גינגה",
+    "جنجہ",
+    "جينجا",
+    "جینجا",
+    "जिंजा",
+    "জিনজা",
+    "ਜਿੰਜਾ",
+    "ጂንጃ",
+    "ジンジャ",
+    "金賈",
+    "진자"
+   ],
+   "lat": 0.43902,
+   "lon": 33.20317,
+   "population": 93061,
+   "geonameId": "233114"
+  },
+  {
+   "id": "city:geonames-225964",
+   "name": "Wakiso",
+   "aliases": [],
+   "lat": 0.40444,
+   "lon": 32.45944,
+   "population": 87900,
+   "geonameId": "225964"
+  },
+  {
+   "id": "city:geonames-226554",
+   "name": "Rutoma",
+   "aliases": [
+    "Lutoma"
+   ],
+   "lat": -0.56667,
+   "lon": 30.38333,
+   "population": 86100,
+   "geonameId": "226554"
+  },
+  {
+   "id": "city:geonames-233730",
+   "name": "Bwizibwera",
+   "aliases": [],
+   "lat": -0.59167,
+   "lon": 30.62861,
+   "population": 79157,
+   "geonameId": "233730"
+  },
+  {
+   "id": "city:geonames-230617",
+   "name": "Kotido",
+   "aliases": [],
+   "lat": 2.98056,
+   "lon": 34.13306,
+   "population": 75700,
+   "geonameId": "230617"
+  },
+  {
+   "id": "city:UG-arua",
+   "name": "Arua",
+   "aliases": [
+    "RUA",
+    "a lu a",
+    "alua",
+    "arwa",
+    "Аруа",
+    "اروا",
+    "阿鲁阿",
+    "아루아"
+   ],
+   "lat": 3.02013,
+   "lon": 30.91105,
+   "population": 72400,
+   "geonameId": "235039"
+  },
+  {
+   "id": "city:geonames-8581615",
+   "name": "Nakivale Refugee Camp",
+   "aliases": [],
+   "lat": -0.74064,
+   "lon": 30.99632,
+   "population": 68400,
+   "geonameId": "8581615"
+  },
+  {
+   "id": "city:geonames-232397",
+   "name": "Kamuli",
+   "aliases": [],
+   "lat": 0.94722,
+   "lon": 33.11972,
+   "population": 67800,
+   "geonameId": "232397"
+  },
+  {
+   "id": "city:geonames-235130",
+   "name": "Apac",
+   "aliases": [
+    "Apach"
+   ],
+   "lat": 1.97556,
+   "lon": 32.53861,
+   "population": 67700,
+   "geonameId": "235130"
+  },
+  {
+   "id": "city:geonames-233275",
+   "name": "Iganga",
+   "aliases": [
+    "Igang",
+    "aganga",
+    "Иганга",
+    "اگانگا"
+   ],
+   "lat": 0.60917,
+   "lon": 33.46861,
+   "population": 65500,
+   "geonameId": "233275"
+  },
+  {
+   "id": "city:geonames-234077",
+   "name": "Busia",
+   "aliases": [
+    "Busla",
+    "bu xi ya",
+    "بوسیا، یوگنڈا",
+    "布西亞"
+   ],
+   "lat": 0.46588,
+   "lon": 34.09221,
+   "population": 64900,
+   "geonameId": "234077"
+  },
+  {
+   "id": "city:geonames-230725",
+   "name": "Koboko",
+   "aliases": [
+    "Kaboko"
+   ],
+   "lat": 3.41364,
+   "lon": 30.95994,
+   "population": 64500,
+   "geonameId": "230725"
+  },
+  {
+   "id": "city:geonames-226234",
+   "name": "Soroti",
+   "aliases": [
+    "SRT",
+    "suo luo ti",
+    "swrwty",
+    "סורוטי",
+    "سوروتی",
+    "索羅提"
+   ],
+   "lat": 1.71464,
+   "lon": 33.61113,
+   "population": 60900,
+   "geonameId": "226234"
+  },
+  {
+   "id": "city:geonames-233476",
+   "name": "Fort Portal",
+   "aliases": [
+    "Fort Portalas",
+    "Fort-Portal",
+    "Kabarole",
+    "poteupoteol",
+    "Форт-Портал",
+    "فورٹ پورٹل",
+    "フォート・ポータル",
+    "포트포털"
+   ],
+   "lat": 0.66174,
+   "lon": 30.2748,
+   "population": 60800,
+   "geonameId": "233476"
+  },
+  {
+   "id": "city:geonames-229006",
+   "name": "Mpondwe",
+   "aliases": [],
+   "lat": 0.04008,
+   "lon": 29.7248,
+   "population": 58600,
+   "geonameId": "229006"
+  },
+  {
+   "id": "city:geonames-230893",
+   "name": "Kitgum",
+   "aliases": [
+    "Kitgumo",
+    "Китгум"
+   ],
+   "lat": 3.27833,
+   "lon": 32.88667,
+   "population": 56891,
+   "geonameId": "230893"
+  },
+  {
+   "id": "city:geonames-233070",
+   "name": "Kabale",
+   "aliases": [
+    "Kabalė",
+    "Кабале",
+    "קבאלה"
+   ],
+   "lat": -1.24857,
+   "lon": 29.98993,
+   "population": 53200,
+   "geonameId": "233070"
+  },
+  {
+   "id": "city:geonames-232235",
+   "name": "Kapchorwa",
+   "aliases": [
+    "Sabei",
+    "Sebei"
+   ],
+   "lat": 1.40096,
+   "lon": 34.45038,
+   "population": 51200,
+   "geonameId": "232235"
+  },
+  {
+   "id": "city:geonames-13132719",
+   "name": "Rwamwanja Refugee Camp",
+   "aliases": [],
+   "lat": 0.34801,
+   "lon": 30.65427,
+   "population": 49700,
+   "geonameId": "13132719"
+  },
+  {
+   "id": "city:geonames-229024",
+   "name": "Mpigi",
+   "aliases": [],
+   "lat": 0.225,
+   "lon": 32.31361,
+   "population": 49500,
+   "geonameId": "229024"
+  },
+  {
+   "id": "city:geonames-229746",
+   "name": "Luwero",
+   "aliases": [],
+   "lat": 0.84917,
+   "lon": 32.47306,
+   "population": 49100,
+   "geonameId": "229746"
+  },
+  {
+   "id": "city:geonames-226110",
+   "name": "Tororo",
+   "aliases": [
+    "TRY",
+    "Tororas",
+    "tololo",
+    "tororo",
+    "tuo luo luo",
+    "Тороро",
+    "トロロ",
+    "托罗罗",
+    "토로로"
+   ],
+   "lat": 0.69299,
+   "lon": 34.18085,
+   "population": 48500,
+   "geonameId": "226110"
+  },
+  {
+   "id": "city:geonames-225835",
+   "name": "Yumbe",
+   "aliases": [],
+   "lat": 3.46506,
+   "lon": 31.24689,
+   "population": 47600,
+   "geonameId": "225835"
+  },
+  {
+   "id": "city:geonames-230584",
+   "name": "Kumi",
+   "aliases": [],
+   "lat": 1.46083,
+   "lon": 33.93611,
+   "population": 43500,
+   "geonameId": "230584"
+  },
+  {
+   "id": "city:geonames-232661",
+   "name": "Kakira",
+   "aliases": [],
+   "lat": 0.50833,
+   "lon": 33.28778,
+   "population": 42854,
+   "geonameId": "232661"
+  },
+  {
+   "id": "city:geonames-226853",
+   "name": "Paidha",
+   "aliases": [
+    "Pai-ida",
+    "Payida"
+   ],
+   "lat": 2.41669,
+   "lon": 30.98551,
+   "population": 42733,
+   "geonameId": "226853"
+  },
+  {
+   "id": "city:geonames-226823",
+   "name": "Pallisa",
+   "aliases": [
+    "Palissa",
+    "Паллиса"
+   ],
+   "lat": 1.145,
+   "lon": 33.70944,
+   "population": 42300,
+   "geonameId": "226823"
+  },
+  {
+   "id": "city:geonames-232107",
+   "name": "Kasanje",
+   "aliases": [],
+   "lat": 0.15334,
+   "lon": 32.40088,
+   "population": 42300,
+   "geonameId": "232107"
+  },
+  {
+   "id": "city:geonames-227904",
+   "name": "Nebbi",
+   "aliases": [
+    "Nebi"
+   ],
+   "lat": 2.47826,
+   "lon": 31.08893,
+   "population": 41400,
+   "geonameId": "227904"
+  },
+  {
+   "id": "city:geonames-448001",
+   "name": "Ishaka",
+   "aliases": [],
+   "lat": -0.54306,
+   "lon": 30.13694,
+   "population": 41063,
+   "geonameId": "448001"
+  },
+  {
+   "id": "city:geonames-226600",
+   "name": "Rukungiri",
+   "aliases": [
+    "Kinyasano",
+    "Rukungire"
+   ],
+   "lat": -0.84111,
+   "lon": 29.94194,
+   "population": 37200,
+   "geonameId": "226600"
+  },
+  {
+   "id": "city:geonames-235489",
+   "name": "Adjumani",
+   "aliases": [
+    "Ajumani"
+   ],
+   "lat": 3.37786,
+   "lon": 31.7909,
+   "population": 37100,
+   "geonameId": "235489"
+  },
+  {
+   "id": "city:geonames-8261621",
+   "name": "Buyale",
+   "aliases": [],
+   "lat": 1.93421,
+   "lon": 32.11643,
+   "population": 36700,
+   "geonameId": "8261621"
+  },
+  {
+   "id": "city:geonames-234565",
+   "name": "Bugiri",
+   "aliases": [],
+   "lat": 0.57139,
+   "lon": 33.74167,
+   "population": 36000,
+   "geonameId": "234565"
+  },
+  {
+   "id": "city:geonames-7911405",
+   "name": "Isingiro",
+   "aliases": [],
+   "lat": -0.86864,
+   "lon": 30.83019,
+   "population": 34300,
+   "geonameId": "7911405"
+  },
+  {
+   "id": "city:geonames-228448",
+   "name": "Nakaloke",
+   "aliases": [],
+   "lat": 1.15,
+   "lon": 34.15,
+   "population": 33700,
+   "geonameId": "228448"
+  },
+  {
+   "id": "city:geonames-234578",
+   "name": "Bugembe",
+   "aliases": [],
+   "lat": 0.48213,
+   "lon": 33.24065,
+   "population": 33100,
+   "geonameId": "234578"
+  },
+  {
+   "id": "city:geonames-234088",
+   "name": "Busesa",
+   "aliases": [],
+   "lat": 0.62631,
+   "lon": 33.60027,
+   "population": 32900,
+   "geonameId": "234088"
+  },
+  {
+   "id": "city:geonames-229872",
+   "name": "Lukaya",
+   "aliases": [],
+   "lat": -0.11306,
+   "lon": 31.85389,
+   "population": 32825,
+   "geonameId": "229872"
+  },
+  {
+   "id": "city:geonames-232522",
+   "name": "Kalisizo",
+   "aliases": [
+    "Katisizo",
+    "kalysyzw",
+    "کالیسیزو"
+   ],
+   "lat": -0.53639,
+   "lon": 31.62139,
+   "population": 31439,
+   "geonameId": "232522"
+  },
+  {
+   "id": "city:geonames-225858",
+   "name": "Wobulenzi",
+   "aliases": [
+    "Wobolenzi",
+    "Wobulenzil"
+   ],
+   "lat": 0.72833,
+   "lon": 32.51222,
+   "population": 31000,
+   "geonameId": "225858"
+  },
+  {
+   "id": "city:geonames-227528",
+   "name": "Nyachera",
+   "aliases": [
+    "Nyakyera"
+   ],
+   "lat": -0.9,
+   "lon": 30.41667,
+   "population": 30509,
+   "geonameId": "227528"
+  },
+  {
+   "id": "city:geonames-233886",
+   "name": "Buwenge",
+   "aliases": [
+    "bauenji",
+    "بووینگے",
+    "バウェンジ"
+   ],
+   "lat": 0.64996,
+   "lon": 33.17128,
+   "population": 30377,
+   "geonameId": "233886"
+  },
+  {
+   "id": "city:geonames-231696",
+   "name": "Kayunga",
+   "aliases": [],
+   "lat": 0.7025,
+   "lon": 32.88861,
+   "population": 30000,
+   "geonameId": "231696"
+  },
+  {
+   "id": "city:geonames-233840",
+   "name": "Buyende",
+   "aliases": [],
+   "lat": 1.15167,
+   "lon": 33.155,
+   "population": 29700,
+   "geonameId": "233840"
+  },
+  {
+   "id": "city:geonames-230331",
+   "name": "Kyegegwa",
+   "aliases": [],
+   "lat": 0.50222,
+   "lon": 31.04139,
+   "population": 29400,
+   "geonameId": "230331"
+  },
+  {
+   "id": "city:geonames-234658",
+   "name": "Budaka",
+   "aliases": [],
+   "lat": 1.00389,
+   "lon": 33.92556,
+   "population": 29100,
+   "geonameId": "234658"
+  },
+  {
+   "id": "city:geonames-232146",
+   "name": "Kasaali",
+   "aliases": [
+    "Kasali"
+   ],
+   "lat": -0.61667,
+   "lon": 31.55,
+   "population": 29000,
+   "geonameId": "232146"
+  },
+  {
+   "id": "city:geonames-226835",
+   "name": "Pakwach",
+   "aliases": [
+    "Pacwach"
+   ],
+   "lat": 2.46335,
+   "lon": 31.49832,
+   "population": 28700,
+   "geonameId": "226835"
+  },
+  {
+   "id": "city:geonames-230299",
+   "name": "Kyenjojo",
+   "aliases": [
+    "Kyanjojo",
+    "Kyonjojo"
+   ],
+   "lat": 0.63278,
+   "lon": 30.62139,
+   "population": 28600,
+   "geonameId": "230299"
+  },
+  {
+   "id": "city:geonames-232652",
+   "name": "Kakiri",
+   "aliases": [],
+   "lat": 0.41989,
+   "lon": 32.39127,
+   "population": 28100,
+   "geonameId": "232652"
+  },
+  {
+   "id": "city:geonames-232834",
+   "name": "Kagadi",
+   "aliases": [],
+   "lat": 0.93778,
+   "lon": 30.80889,
+   "population": 28000,
+   "geonameId": "232834"
+  },
+  {
+   "id": "city:geonames-11496345",
+   "name": "Muhorro",
+   "aliases": [],
+   "lat": 0.91513,
+   "lon": 30.75078,
+   "population": 27400,
+   "geonameId": "11496345"
+  },
+  {
+   "id": "city:geonames-13132715",
+   "name": "Kyaka II Refugee Camp",
+   "aliases": [],
+   "lat": 0.36738,
+   "lon": 31.10817,
+   "population": 27300,
+   "geonameId": "13132715"
+  },
+  {
+   "id": "city:geonames-234329",
+   "name": "Bukuya",
+   "aliases": [],
+   "lat": 0.67861,
+   "lon": 31.81972,
+   "population": 26972,
+   "geonameId": "234329"
+  },
+  {
+   "id": "city:geonames-234717",
+   "name": "Bombo",
+   "aliases": [
+    "Bumbu"
+   ],
+   "lat": 0.57387,
+   "lon": 32.51545,
+   "population": 26370,
+   "geonameId": "234717"
+  },
+  {
+   "id": "city:geonames-231990",
+   "name": "Kasozi",
+   "aliases": [],
+   "lat": 0.02,
+   "lon": 30.49861,
+   "population": 24500,
+   "geonameId": "231990"
+  },
+  {
+   "id": "city:geonames-235574",
+   "name": "Abim",
+   "aliases": [],
+   "lat": 2.70167,
+   "lon": 33.67611,
+   "population": 24400,
+   "geonameId": "235574"
+  },
+  {
+   "id": "city:geonames-234004",
+   "name": "Butaleja",
+   "aliases": [],
+   "lat": 0.91194,
+   "lon": 33.95111,
+   "population": 24000,
+   "geonameId": "234004"
+  },
+  {
+   "id": "city:geonames-235178",
+   "name": "Anaka",
+   "aliases": [
+    "anaka",
+    "Անակա",
+    "اناکا",
+    "അനക"
+   ],
+   "lat": 2.60114,
+   "lon": 31.94749,
+   "population": 24000,
+   "geonameId": "235178"
+  },
+  {
+   "id": "city:geonames-232371",
+   "name": "Kamwenge",
+   "aliases": [],
+   "lat": 0.1866,
+   "lon": 30.45393,
+   "population": 23900,
+   "geonameId": "232371"
+  },
+  {
+   "id": "city:geonames-13132716",
+   "name": "Kyangwali Refugee Camp",
+   "aliases": [],
+   "lat": 1.18807,
+   "lon": 30.78281,
+   "population": 23847,
+   "geonameId": "13132716"
+  },
+  {
+   "id": "city:geonames-233563",
+   "name": "Dokolo",
+   "aliases": [],
+   "lat": 1.89833,
+   "lon": 33.1775,
+   "population": 23700,
+   "geonameId": "233563"
+  },
+  {
+   "id": "city:geonames-8198328",
+   "name": "Opit",
+   "aliases": [],
+   "lat": 2.61112,
+   "lon": 32.47559,
+   "population": 23200,
+   "geonameId": "8198328"
+  },
+  {
+   "id": "city:geonames-226690",
+   "name": "Rubanda",
+   "aliases": [],
+   "lat": -1.18833,
+   "lon": 29.84611,
+   "population": 22800,
+   "geonameId": "226690"
+  },
+  {
+   "id": "city:geonames-228094",
+   "name": "Namutumba",
+   "aliases": [],
+   "lat": 0.83611,
+   "lon": 33.68611,
+   "population": 22600,
+   "geonameId": "228094"
+  },
+  {
+   "id": "city:geonames-228227",
+   "name": "Namasuba",
+   "aliases": [],
+   "lat": 0.68944,
+   "lon": 32.42139,
+   "population": 22507,
+   "geonameId": "228227"
+  },
+  {
+   "id": "city:geonames-231550",
+   "name": "Kiboga",
+   "aliases": [],
+   "lat": 0.91611,
+   "lon": 31.77417,
+   "population": 22400,
+   "geonameId": "231550"
+  },
+  {
+   "id": "city:geonames-234178",
+   "name": "Bundibugyo",
+   "aliases": [],
+   "lat": 0.71117,
+   "lon": 30.06469,
+   "population": 22300,
+   "geonameId": "234178"
+  },
+  {
+   "id": "city:geonames-228214",
+   "name": "Namayumba",
+   "aliases": [],
+   "lat": 0.52889,
+   "lon": 32.24861,
+   "population": 22100,
+   "geonameId": "228214"
+  },
+  {
+   "id": "city:geonames-231406",
+   "name": "Kigumba",
+   "aliases": [
+    "Kigomba"
+   ],
+   "lat": 1.80838,
+   "lon": 32.00502,
+   "population": 22000,
+   "geonameId": "231406"
+  },
+  {
+   "id": "city:geonames-230753",
+   "name": "Kiziba",
+   "aliases": [],
+   "lat": 0.51389,
+   "lon": 32.35056,
+   "population": 21300,
+   "geonameId": "230753"
+  },
+  {
+   "id": "city:geonames-227593",
+   "name": "Ntungamo",
+   "aliases": [],
+   "lat": -0.87944,
+   "lon": 30.26417,
+   "population": 20900,
+   "geonameId": "227593"
+  },
+  {
+   "id": "city:geonames-229292",
+   "name": "Mayuge",
+   "aliases": [],
+   "lat": 0.45972,
+   "lon": 33.48028,
+   "population": 20800,
+   "geonameId": "229292"
+  },
+  {
+   "id": "city:geonames-8629414",
+   "name": "Malaba",
+   "aliases": [],
+   "lat": 0.64444,
+   "lon": 34.26056,
+   "population": 20800,
+   "geonameId": "8629414"
+  },
+  {
+   "id": "city:geonames-229708",
+   "name": "Lwakyomba",
+   "aliases": [],
+   "lat": 1.11667,
+   "lon": 31.4,
+   "population": 20500,
+   "geonameId": "229708"
+  },
+  {
+   "id": "city:geonames-232526",
+   "name": "Kaliro",
+   "aliases": [],
+   "lat": 0.89444,
+   "lon": 33.49944,
+   "population": 20500,
+   "geonameId": "232526"
+  },
+  {
+   "id": "city:geonames-231383",
+   "name": "Kihihi",
+   "aliases": [
+    "KHX",
+    "Kihi",
+    "Kihiihi",
+    "کیہیہی"
+   ],
+   "lat": -0.75,
+   "lon": 29.7,
+   "population": 20349,
+   "geonameId": "231383"
+  },
+  {
+   "id": "city:geonames-229580",
+   "name": "Mabare",
+   "aliases": [],
+   "lat": -0.96667,
+   "lon": 30.45,
+   "population": 20100,
+   "geonameId": "229580"
+  },
+  {
+   "id": "city:geonames-233194",
+   "name": "Iryango",
+   "aliases": [],
+   "lat": -0.96667,
+   "lon": 30.6,
+   "population": 20000,
+   "geonameId": "233194"
+  },
+  {
+   "id": "city:geonames-227525",
+   "name": "Nyahuka",
+   "aliases": [],
+   "lat": 0.675,
+   "lon": 29.9926,
+   "population": 19600,
+   "geonameId": "227525"
+  },
+  {
+   "id": "city:geonames-229530",
+   "name": "Magamaga",
+   "aliases": [],
+   "lat": 0.5196,
+   "lon": 33.34687,
+   "population": 19500,
+   "geonameId": "229530"
+  },
+  {
+   "id": "city:geonames-234496",
+   "name": "Buhimba",
+   "aliases": [],
+   "lat": 1.34722,
+   "lon": 31.30806,
+   "population": 19500,
+   "geonameId": "234496"
+  },
+  {
+   "id": "city:geonames-231197",
+   "name": "Kinoni",
+   "aliases": [],
+   "lat": -0.70111,
+   "lon": 30.49389,
+   "population": 19400,
+   "geonameId": "231197"
+  },
+  {
+   "id": "city:geonames-226267",
+   "name": "Sironko",
+   "aliases": [
+    "Siroko",
+    "Solokho",
+    "Soloko",
+    "xi long ke",
+    "錫龍科"
+   ],
+   "lat": 1.23132,
+   "lon": 34.24773,
+   "population": 19300,
+   "geonameId": "226267"
+  },
+  {
+   "id": "city:geonames-234660",
+   "name": "Budadiri",
+   "aliases": [],
+   "lat": 1.14806,
+   "lon": 34.32611,
+   "population": 19200,
+   "geonameId": "234660"
+  },
+  {
+   "id": "city:geonames-229059",
+   "name": "Moyo",
+   "aliases": [
+    "OYG"
+   ],
+   "lat": 3.66088,
+   "lon": 31.72474,
+   "population": 18800,
+   "geonameId": "229059"
+  },
+  {
+   "id": "city:geonames-233975",
+   "name": "Butemba",
+   "aliases": [],
+   "lat": 1.15944,
+   "lon": 31.61083,
+   "population": 18800,
+   "geonameId": "233975"
+  },
+  {
+   "id": "city:geonames-8642874",
+   "name": "Rwiimi",
+   "aliases": [],
+   "lat": 0.37957,
+   "lon": 30.23039,
+   "population": 18600,
+   "geonameId": "8642874"
+  },
+  {
+   "id": "city:geonames-234480",
+   "name": "Buikwe",
+   "aliases": [],
+   "lat": 0.3375,
+   "lon": 33.01056,
+   "population": 18500,
+   "geonameId": "234480"
+  },
+  {
+   "id": "city:geonames-8629023",
+   "name": "Kisinga",
+   "aliases": [],
+   "lat": 0.07684,
+   "lon": 29.86832,
+   "population": 18300,
+   "geonameId": "8629023"
+  },
+  {
+   "id": "city:geonames-231848",
+   "name": "Katoke",
+   "aliases": [],
+   "lat": 0.75833,
+   "lon": 30.6825,
+   "population": 18200,
+   "geonameId": "231848"
+  },
+  {
+   "id": "city:geonames-231280",
+   "name": "Kikube",
+   "aliases": [],
+   "lat": 1.35639,
+   "lon": 31.22222,
+   "population": 18100,
+   "geonameId": "231280"
+  },
+  {
+   "id": "city:geonames-231139",
+   "name": "Kireka",
+   "aliases": [],
+   "lat": 0.3475,
+   "lon": 32.64917,
+   "population": 17947,
+   "geonameId": "231139"
+  },
+  {
+   "id": "city:geonames-227843",
+   "name": "Ngora",
+   "aliases": [],
+   "lat": 1.43139,
+   "lon": 33.77722,
+   "population": 17700,
+   "geonameId": "227843"
+  },
+  {
+   "id": "city:geonames-230993",
+   "name": "Kisoro",
+   "aliases": [
+    "KXO",
+    "Kisolo",
+    "kyswrw",
+    "کیسورو"
+   ],
+   "lat": -1.28538,
+   "lon": 29.68497,
+   "population": 17700,
+   "geonameId": "230993"
+  },
+  {
+   "id": "city:geonames-13132713",
+   "name": "Butunduzi",
+   "aliases": [],
+   "lat": 0.55473,
+   "lon": 30.85485,
+   "population": 17600,
+   "geonameId": "13132713"
+  },
+  {
+   "id": "city:geonames-11259341",
+   "name": "Namavundu",
+   "aliases": [],
+   "lat": 0.36402,
+   "lon": 33.81759,
+   "population": 17300,
+   "geonameId": "11259341"
+  },
+  {
+   "id": "city:geonames-232115",
+   "name": "Kasanda",
+   "aliases": [
+    "Kassanda"
+   ],
+   "lat": 0.55667,
+   "lon": 31.80222,
+   "population": 17000,
+   "geonameId": "232115"
+  },
+  {
+   "id": "city:geonames-227592",
+   "name": "Ntungamo",
+   "aliases": [],
+   "lat": -0.88333,
+   "lon": 29.65,
+   "population": 16915,
+   "geonameId": "227592"
+  },
+  {
+   "id": "city:geonames-13132717",
+   "name": "Nyamunuka",
+   "aliases": [],
+   "lat": -0.83487,
+   "lon": 30.09216,
+   "population": 16800,
+   "geonameId": "13132717"
+  },
+  {
+   "id": "city:geonames-234043",
+   "name": "Busolwe",
+   "aliases": [],
+   "lat": 0.85007,
+   "lon": 33.92624,
+   "population": 16800,
+   "geonameId": "234043"
+  },
+  {
+   "id": "city:geonames-13132714",
+   "name": "Kiryandongo Refugee Camp",
+   "aliases": [],
+   "lat": 1.9399,
+   "lon": 32.16605,
+   "population": 16600,
+   "geonameId": "13132714"
+  },
+  {
+   "id": "city:geonames-232287",
+   "name": "Kanungu",
+   "aliases": [
+    "Kanangu",
+    "Kinkizi",
+    "Makiro"
+   ],
+   "lat": -0.9575,
+   "lon": 29.78972,
+   "population": 16600,
+   "geonameId": "232287"
+  },
+  {
+   "id": "city:geonames-233382",
+   "name": "Gombe",
+   "aliases": [],
+   "lat": 0.20333,
+   "lon": 32.08806,
+   "population": 16600,
+   "geonameId": "233382"
+  },
+  {
+   "id": "city:geonames-234368",
+   "name": "Bukomero",
+   "aliases": [],
+   "lat": 0.6975,
+   "lon": 32.02861,
+   "population": 16400,
+   "geonameId": "234368"
+  },
+  {
+   "id": "city:geonames-229112",
+   "name": "Moroto",
+   "aliases": [
+    "Maroto"
+   ],
+   "lat": 2.53453,
+   "lon": 34.66659,
+   "population": 16300,
+   "geonameId": "229112"
+  },
+  {
+   "id": "city:geonames-229599",
+   "name": "Lyantonde",
+   "aliases": [],
+   "lat": -0.40306,
+   "lon": 31.15722,
+   "population": 16300,
+   "geonameId": "229599"
+  },
+  {
+   "id": "city:geonames-230370",
+   "name": "Kyarusozi",
+   "aliases": [],
+   "lat": 0.78417,
+   "lon": 30.53111,
+   "population": 16300,
+   "geonameId": "230370"
+  },
+  {
+   "id": "city:geonames-230348",
+   "name": "Kyazanga",
+   "aliases": [],
+   "lat": -0.38333,
+   "lon": 31.35,
+   "population": 16000,
+   "geonameId": "230348"
+  },
+  {
+   "id": "city:geonames-234497",
+   "name": "Buhesi",
+   "aliases": [],
+   "lat": 0.58105,
+   "lon": 30.21011,
+   "population": 16000,
+   "geonameId": "234497"
+  },
+  {
+   "id": "city:geonames-7911406",
+   "name": "Manafwa",
+   "aliases": [],
+   "lat": 0.952,
+   "lon": 34.27,
+   "population": 16000,
+   "geonameId": "7911406"
+  },
+  {
+   "id": "city:geonames-231670",
+   "name": "Kazo",
+   "aliases": [],
+   "lat": -0.07444,
+   "lon": 30.78528,
+   "population": 15900,
+   "geonameId": "231670"
+  },
+  {
+   "id": "city:geonames-232619",
+   "name": "Kakumiro",
+   "aliases": [],
+   "lat": 0.78056,
+   "lon": 31.32361,
+   "population": 15900,
+   "geonameId": "232619"
+  },
+  {
+   "id": "city:geonames-234092",
+   "name": "Busembatia",
+   "aliases": [],
+   "lat": 0.77725,
+   "lon": 33.62364,
+   "population": 15889,
+   "geonameId": "234092"
+  },
+  {
+   "id": "city:geonames-230476",
+   "name": "Kyamahungu",
+   "aliases": [
+    "Kyamuhunga"
+   ],
+   "lat": -0.45139,
+   "lon": 30.11333,
+   "population": 15800,
+   "geonameId": "230476"
+  },
+  {
+   "id": "city:geonames-232137",
+   "name": "Kasambya",
+   "aliases": [],
+   "lat": 0.43333,
+   "lon": 31.23333,
+   "population": 15700,
+   "geonameId": "232137"
+  },
+  {
+   "id": "city:geonames-229630",
+   "name": "Lwengo",
+   "aliases": [],
+   "lat": -0.41611,
+   "lon": 31.40806,
+   "population": 15100,
+   "geonameId": "229630"
+  }
+ ]
+}

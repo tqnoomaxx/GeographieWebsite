@@ -1,0 +1,561 @@
+{
+ "country": "country:SG",
+ "cities": [
+  {
+   "id": "city:SG-singapur",
+   "name": "Singapur",
+   "aliases": [
+    "Singapore",
+    "Danmaxi",
+    "Dānmǎxī",
+    "Garden City",
+    "Little Red Dot",
+    "SG",
+    "SIN",
+    "Sin-ka-po",
+    "Singapore City",
+    "Singapour",
+    "Singapura",
+    "Sinkapoure",
+    "Syonan-to",
+    "Sîn-kâ-po",
+    "Temasek",
+    "Tumasik",
+    "cinkappur",
+    "prathes singkhpor",
+    "shingaporu",
+    "sigapura",
+    "sing-gapol",
+    "sing-gapoleu",
+    "singapura",
+    "singkh por",
+    "sngapwr",
+    "snghafwrt",
+    "syngpwr",
+    "xin jia po",
+    "xing jia po",
+    "Σιγκαπούρη",
+    "Сингапур",
+    "Сінгапур",
+    "סינגפור",
+    "سنغافورة",
+    "سنگاپور",
+    "सिंगापुर",
+    "सिंगापूर",
+    "ਸਿੰਗਾਪੁਰ",
+    "சிங்கப்பூர்",
+    "ประเทศสิงคโปร์",
+    "สิงค์โปร",
+    "ປະເທດສງກະໂປ",
+    "ປະເທດສິງກະໂປ",
+    "စငကာပနငင",
+    "စင်ကာပူနိုင်ငံ",
+    "សងហបរ",
+    "សិង្ហបុរី",
+    "シンガポール",
+    "新加坡",
+    "星架坡",
+    "싱가포르",
+    "싱가폴"
+   ],
+   "lat": 1.28967,
+   "lon": 103.85007,
+   "population": 5638700,
+   "geonameId": "1880252"
+  },
+  {
+   "id": "city:geonames-1880159",
+   "name": "Ulu Bedok",
+   "aliases": [
+    "Ulu Bedok Village",
+    "Улу Бедок"
+   ],
+   "lat": 1.33333,
+   "lon": 103.93333,
+   "population": 276990,
+   "geonameId": "1880159"
+  },
+  {
+   "id": "city:geonames-1884382",
+   "name": "Bedok New Town",
+   "aliases": [
+    "Bedok",
+    "Bedok Novyj gorod",
+    "Bedok Village",
+    "Pitok",
+    "Piṭōk",
+    "pitok",
+    "wu luo",
+    "Бедок Новый город",
+    "பிடோக்",
+    "勿洛"
+   ],
+   "lat": 1.32639,
+   "lon": 103.94167,
+   "population": 276990,
+   "geonameId": "1884382"
+  },
+  {
+   "id": "city:geonames-7289760",
+   "name": "Sengkang New Town",
+   "aliases": [
+    "Sengkang",
+    "Sengkang Novyj gorod",
+    "Sheng Gang",
+    "Shèng Gǎng",
+    "cenkan",
+    "sheng gang",
+    "Сенгканг Новый город",
+    "செங்காங்",
+    "盛港"
+   ],
+   "lat": 1.39167,
+   "lon": 103.89444,
+   "population": 267600,
+   "geonameId": "7289760"
+  },
+  {
+   "id": "city:geonames-1881953",
+   "name": "Jurong Town",
+   "aliases": [
+    "Bandar Baharu Jurong",
+    "Dzhurong",
+    "Jurong",
+    "Jurong New Town",
+    "Jurong Village",
+    "Yulang",
+    "Yùláng",
+    "juron",
+    "yu lang",
+    "Джуронг",
+    "ஜூரோங்",
+    "裕廊"
+   ],
+   "lat": 1.33417,
+   "lon": 103.72278,
+   "population": 262730,
+   "geonameId": "1881953"
+  },
+  {
+   "id": "city:geonames-1882316",
+   "name": "Woodlands",
+   "aliases": [
+    "Vudlands",
+    "Woodlands New Town",
+    "WuLan",
+    "wu lan",
+    "Вудландс",
+    "兀兰"
+   ],
+   "lat": 1.43801,
+   "lon": 103.78877,
+   "population": 254440,
+   "geonameId": "1882316"
+  },
+  {
+   "id": "city:geonames-1881955",
+   "name": "Jurong West",
+   "aliases": [
+    "Dzhurong Vest",
+    "Jurong West New Town",
+    "yu lang xi",
+    "Джуронг Вест",
+    "裕廊西"
+   ],
+   "lat": 1.35028,
+   "lon": 103.72278,
+   "population": 253840,
+   "geonameId": "1881955"
+  },
+  {
+   "id": "city:geonames-1882155",
+   "name": "Yishun New Town",
+   "aliases": [
+    "Dzhishun Novyj gorod",
+    "Nee Soon",
+    "Yishun",
+    "yi shun",
+    "yicun putiya nakaram",
+    "Джишун Новый город",
+    "யீசூன் புதிய நகரம்",
+    "义顺",
+    "義順"
+   ],
+   "lat": 1.43333,
+   "lon": 103.83111,
+   "population": 228730,
+   "geonameId": "1882155"
+  },
+  {
+   "id": "city:geonames-1880348",
+   "name": "Punggol",
+   "aliases": [
+    "Bang'e",
+    "Bǎng'é",
+    "Ponggol",
+    "Punggol Village",
+    "bang e",
+    "ponkol",
+    "pwngl",
+    "Пунггол",
+    "پونگل",
+    "பொங்கோல்",
+    "榜鹅"
+   ],
+   "lat": 1.41444,
+   "lon": 103.90694,
+   "population": 204150,
+   "geonameId": "1880348"
+  },
+  {
+   "id": "city:geonames-1884737",
+   "name": "Choa Chu Kang New Town",
+   "aliases": [
+    "CCK",
+    "Cai Cuo Gang",
+    "Chhoa Chhu Kang",
+    "Chhòa Chhù Káng",
+    "Choa Chu Kang",
+    "Choa Chu Kang Novyj gorod",
+    "Chua Chu Kang",
+    "Cài Cuò Gǎng",
+    "cai cuo gang",
+    "cuva cu kan",
+    "Чоа Чу Канг Новый город",
+    "சுவா சூ காங்",
+    "蔡厝港"
+   ],
+   "lat": 1.3825,
+   "lon": 103.74972,
+   "population": 187550,
+   "geonameId": "1884737"
+  },
+  {
+   "id": "city:geonames-1884365",
+   "name": "Ang Mo Kio New Town",
+   "aliases": [
+    "AMK",
+    "Ang Mo Kio",
+    "Ang Mo Kio Novyj gorod",
+    "hong mao qiao",
+    "Анг Мо Кио Новый город",
+    "宏茂桥",
+    "宏茂橋"
+   ],
+   "lat": 1.38028,
+   "lon": 103.83972,
+   "population": 159340,
+   "geonameId": "1884365"
+  },
+  {
+   "id": "city:geonames-1880574",
+   "name": "Kampong Pasir Ris",
+   "aliases": [
+    "Baisha",
+    "Baxili",
+    "Báishā",
+    "Bāxīlì",
+    "Pacir ris",
+    "Pasir Ris",
+    "Pācir ris",
+    "ba xi li",
+    "bai sha",
+    "pacir ris",
+    "Кампонг Пасир Рис",
+    "பாசிர் ரிஸ்",
+    "巴西立",
+    "白沙"
+   ],
+   "lat": 1.37833,
+   "lon": 103.93194,
+   "population": 144260,
+   "geonameId": "1880574"
+  },
+  {
+   "id": "city:geonames-1884367",
+   "name": "Bukit Panjang New Town",
+   "aliases": [
+    "BP",
+    "Bt Panjang",
+    "Bukit Panjang",
+    "Bukit Panjang Novyj gorod",
+    "Wujibanrang",
+    "Wǔjíbānràng",
+    "pukkittu pancan",
+    "wu ji ban rang",
+    "Букит Панянг Новый город",
+    "புக்கித்து பஞ்சாங்",
+    "武吉班让"
+   ],
+   "lat": 1.37972,
+   "lon": 103.76472,
+   "population": 138050,
+   "geonameId": "1884367"
+  },
+  {
+   "id": "city:geonames-1880283",
+   "name": "Sembawang Estate",
+   "aliases": [
+    "Sanbawang",
+    "Sembavang Estate",
+    "Sembawang",
+    "Sembawang Village",
+    "Tambuwang",
+    "san ba wang",
+    "Сембаванг Естате",
+    "三巴旺"
+   ],
+   "lat": 1.45083,
+   "lon": 103.82861,
+   "population": 110090,
+   "geonameId": "1880283"
+  },
+  {
+   "id": "city:geonames-1884386",
+   "name": "Queenstown Estate",
+   "aliases": [
+    "Kueenstovn Estate",
+    "Queenstown",
+    "Queenstown New Town",
+    "nu huang zhen",
+    "Куеенстовн Естате",
+    "女皇镇"
+   ],
+   "lat": 1.29417,
+   "lon": 103.8025,
+   "population": 101480,
+   "geonameId": "1884386"
+  },
+  {
+   "id": "city:geonames-1880744",
+   "name": "Bukit Timah",
+   "aliases": [
+    "Bukit Timah Estate",
+    "Bukit Timah Village",
+    "wu ji zhi ma",
+    "武吉知马"
+   ],
+   "lat": 1.328,
+   "lon": 103.791,
+   "population": 85900,
+   "geonameId": "1880744"
+  },
+  {
+   "id": "city:geonames-1881952",
+   "name": "Jurong East",
+   "aliases": [
+    "Jurong East New Town",
+    "yu lang dong",
+    "裕廊东"
+   ],
+   "lat": 1.32888,
+   "lon": 103.73995,
+   "population": 72960,
+   "geonameId": "1881952"
+  },
+  {
+   "id": "city:geonames-7281987",
+   "name": "Novena",
+   "aliases": [
+    "novina",
+    "nuo wei na",
+    "நொவீணா",
+    "诺维娜"
+   ],
+   "lat": 1.31697,
+   "lon": 103.8438,
+   "population": 53160,
+   "geonameId": "7281987"
+  },
+  {
+   "id": "city:geonames-1880463",
+   "name": "Matilda Estate",
+   "aliases": [],
+   "lat": 1.39944,
+   "lon": 103.90278,
+   "population": 52200,
+   "geonameId": "1880463"
+  },
+  {
+   "id": "city:geonames-1882778",
+   "name": "Marine Parade",
+   "aliases": [
+    "MP",
+    "Ma-lim Pah-liat",
+    "Malin Bailie",
+    "Marine Parade Estate",
+    "Má-lîm Pah-lia̍t",
+    "Mǎlín Bǎiliè",
+    "ma lin bai lie",
+    "marin paret",
+    "maryn pryd  sngapwr",
+    "مارین پرید، سنگاپور",
+    "மரின் பரேட்",
+    "馬林百列",
+    "马林百列"
+   ],
+   "lat": 1.30306,
+   "lon": 103.90778,
+   "population": 47180,
+   "geonameId": "1882778"
+  },
+  {
+   "id": "city:geonames-1880517",
+   "name": "Keat Hong Village",
+   "aliases": [
+    "Keat Hong",
+    "ji feng",
+    "吉丰"
+   ],
+   "lat": 1.37778,
+   "lon": 103.74417,
+   "population": 39370,
+   "geonameId": "1880517"
+  },
+  {
+   "id": "city:geonames-1880137",
+   "name": "Yew Tee",
+   "aliases": [
+    "Yew Tee Village",
+    "Youchi",
+    "Yow Toe",
+    "Yóuchí",
+    "you chi",
+    "油池"
+   ],
+   "lat": 1.39665,
+   "lon": 103.74738,
+   "population": 39100,
+   "geonameId": "1880137"
+  },
+  {
+   "id": "city:geonames-7289731",
+   "name": "Eunos",
+   "aliases": [
+    "Geylang East",
+    "Geylang Timur",
+    "kelan kilakku",
+    "ya long dong",
+    "கேலாங் கிழக்கு",
+    "芽笼东",
+    "芽籠東"
+   ],
+   "lat": 1.32252,
+   "lon": 103.89822,
+   "population": 32820,
+   "geonameId": "7289731"
+  },
+  {
+   "id": "city:geonames-1880761",
+   "name": "Boon Lay",
+   "aliases": [
+    "Bun Le",
+    "Bûn Lé",
+    "pun le",
+    "wen li/wen li",
+    "பூன் லே",
+    "文礼/文禮"
+   ],
+   "lat": 1.311,
+   "lon": 103.694,
+   "population": 29510,
+   "geonameId": "1880761"
+  },
+  {
+   "id": "city:geonames-1880135",
+   "name": "Yio Chu Kang",
+   "aliases": [
+    "Ioⁿ-chhu-kang",
+    "Iôⁿ-chhù-káng",
+    "Yio Chu Kang Village",
+    "yang cuo gang",
+    "杨厝港"
+   ],
+   "lat": 1.39111,
+   "lon": 103.85139,
+   "population": 28350,
+   "geonameId": "1880135"
+  },
+  {
+   "id": "city:geonames-1882033",
+   "name": "MacPherson",
+   "aliases": [
+    "MacPherson Estate",
+    "Maiboshen",
+    "Màibōshēn",
+    "mai bo shen",
+    "makpercon",
+    "மக்பெர்சொன்",
+    "麦波申"
+   ],
+   "lat": 1.32713,
+   "lon": 103.88413,
+   "population": 26850,
+   "geonameId": "1882033"
+  },
+  {
+   "id": "city:geonames-13118140",
+   "name": "Teck Whye",
+   "aliases": [],
+   "lat": 1.3803,
+   "lon": 103.75197,
+   "population": 24560,
+   "geonameId": "13118140"
+  },
+  {
+   "id": "city:geonames-13118138",
+   "name": "Anak Bukit",
+   "aliases": [
+    "Small Hill",
+    "an na wu ji",
+    "安娜武吉"
+   ],
+   "lat": 1.34067,
+   "lon": 103.77301,
+   "population": 22960,
+   "geonameId": "13118138"
+  },
+  {
+   "id": "city:geonames-1880469",
+   "name": "Marsiling",
+   "aliases": [
+    "ma xi ling",
+    "马西岭"
+   ],
+   "lat": 1.43254,
+   "lon": 103.77407,
+   "population": 22000,
+   "geonameId": "1880469"
+  },
+  {
+   "id": "city:geonames-1880226",
+   "name": "Sungai Simpang",
+   "aliases": [
+    "Sungei Simpang Village",
+    "Xinbang",
+    "Xīnbāng",
+    "xin bang",
+    "新邦"
+   ],
+   "lat": 1.43806,
+   "lon": 103.82667,
+   "population": 20000,
+   "geonameId": "1880226"
+  },
+  {
+   "id": "city:geonames-1880586",
+   "name": "Kampong Loyang",
+   "aliases": [
+    "Kampong Loya",
+    "Loyang",
+    "luo yang",
+    "洛阳",
+    "洛陽"
+   ],
+   "lat": 1.37778,
+   "lon": 103.95944,
+   "population": 15340,
+   "geonameId": "1880586"
+  }
+ ]
+}

@@ -1,0 +1,1858 @@
+{
+ "country": "country:HK",
+ "cities": [
+  {
+   "id": "city:geonames-1819729",
+   "name": "Hong Kong",
+   "aliases": [
+    "Chon'nk Kon'nk",
+    "Gankong",
+    "Gon Kong",
+    "Gonkong",
+    "HK",
+    "HKG",
+    "Heung Gong",
+    "Hiong-geng",
+    "Hiŏng-gē̤ng",
+    "Hongkong",
+    "Honkong",
+    "Honkongo",
+    "Hồng Kông",
+    "Khongkong",
+    "Khonkong",
+    "Victoria",
+    "Xianggang",
+    "ankan",
+    "hamga kamga",
+    "hanakana",
+    "hang kang",
+    "hang kang nagaram",
+    "hangakanga",
+    "hang‌kang",
+    "hankam",
+    "heankean",
+    "hng kng",
+    "hon'ga kon'ga",
+    "hong-kʼongi",
+    "hongakonga",
+    "hongkong",
+    "honkongu",
+    "hwng kwng",
+    "hwng qwng",
+    "hwngh kwngh",
+    "hwnj kwnj",
+    "hxngkng",
+    "hʼng qʼng",
+    "shyanggang",
+    "xiang gang",
+    "Χονγκ Κονγκ",
+    "Ганконг",
+    "Гонконг",
+    "Хонгконг",
+    "Хонконг",
+    "Һoң Koң",
+    "Һоң Коң",
+    "Հոնկոնգ",
+    "האנג קאנג",
+    "הונג קונג",
+    "شياڭگاڭ",
+    "هانگ کانگ",
+    "هنگ کنگ",
+    "هونج كونج",
+    "هونغ كونغ",
+    "هونگ کونگ",
+    "ھwng kwng",
+    "ھونگ کونگ",
+    "ھۆng kۆng",
+    "ھۆنگ کۆنگ",
+    "ہang kang",
+    "ہانگ کانگ",
+    "ހޮންކޮންގު",
+    "हङकङ",
+    "हाँग काँग",
+    "हांगकांग",
+    "हांग् कांग् नगरम्",
+    "हॉन्ग कॉन्ग",
+    "হংকং",
+    "ਹਾਂਗਕਾਂਗ",
+    "હોંગકોંગ",
+    "ହଂକଂ",
+    "ஆங்காங்",
+    "హాంగ్‌కాంగ్",
+    "ಹಾಂಗ್ ಕಾಂಗ್",
+    "ഹോങ്കോങ്",
+    "හොංකොං",
+    "ฮ่องกง",
+    "ཧང་ཀང་།",
+    "ཧོང་ཀོང་།",
+    "ဟောငကောင",
+    "ဟောင်ကောင်",
+    "ჰონგ-კონგი",
+    "ሆንግ ኮንግ",
+    "ហងកង",
+    "ហុងកុង",
+    "香港",
+    "홍콩"
+   ],
+   "lat": 22.27832,
+   "lon": 114.17469,
+   "population": 7396076,
+   "geonameId": "1819729"
+  },
+  {
+   "id": "city:geonames-1931681",
+   "name": "Victoria",
+   "aliases": [
+    "Victoria City",
+    "Viktoria",
+    "Викториа"
+   ],
+   "lat": 22.2875,
+   "lon": 114.14417,
+   "population": 956800,
+   "geonameId": "1931681"
+  },
+  {
+   "id": "city:geonames-1818446",
+   "name": "Tuen Mun",
+   "aliases": [
+    "Tuenmen",
+    "tun men",
+    "Туен Мун",
+    "屯門",
+    "屯门"
+   ],
+   "lat": 22.39175,
+   "lon": 113.97157,
+   "population": 507900,
+   "geonameId": "1818446"
+  },
+  {
+   "id": "city:geonames-1818920",
+   "name": "Sha Tin",
+   "aliases": [
+    "Sha Tin New Town",
+    "Shatin",
+    "sha tian",
+    "Ша Тин",
+    "沙田"
+   ],
+   "lat": 22.38333,
+   "lon": 114.18333,
+   "population": 495200,
+   "geonameId": "1818920"
+  },
+  {
+   "id": "city:geonames-1818953",
+   "name": "Sham Shui Po",
+   "aliases": [
+    "Sam shui po",
+    "Shamshuipo",
+    "Shan Shin Po",
+    "shen shui bu qu",
+    "Шам Шуи По",
+    "深水埗區"
+   ],
+   "lat": 22.33023,
+   "lon": 114.15945,
+   "population": 431090,
+   "geonameId": "1818953"
+  },
+  {
+   "id": "city:geonames-1818304",
+   "name": "Wong Tai Sin",
+   "aliases": [
+    "Vong Tai Sin",
+    "huang da xian",
+    "Вонг Таи Син",
+    "黃大仙",
+    "黄大仙"
+   ],
+   "lat": 22.35,
+   "lon": 114.18333,
+   "population": 425235,
+   "geonameId": "1818304"
+  },
+  {
+   "id": "city:geonames-1819607",
+   "name": "Kowloon City",
+   "aliases": [
+    "Chiu-lung-ku-ch'eng",
+    "Chiu-lung-ku-ch’eng",
+    "Jiulongcheng",
+    "Kau Lung Sheng",
+    "Kovlun",
+    "Kowloon",
+    "jiu long cheng",
+    "Ковлун",
+    "九龍城",
+    "九龙城"
+   ],
+   "lat": 22.33047,
+   "lon": 114.19222,
+   "population": 418732,
+   "geonameId": "1819607"
+  },
+  {
+   "id": "city:geonames-1818506",
+   "name": "Tseung Kwan O",
+   "aliases": [
+    "Ceung Kvan O",
+    "Chan ji",
+    "Cheung Kwan",
+    "Cheung Kwan O",
+    "Цеунг Кван О"
+   ],
+   "lat": 22.32789,
+   "lon": 114.24992,
+   "population": 412900,
+   "geonameId": "1818506"
+  },
+  {
+   "id": "city:geonames-1819595",
+   "name": "Kwai Chung",
+   "aliases": [
+    "Chung Kwai Chung",
+    "Kuichong",
+    "Kvai Chung",
+    "kui yong",
+    "Кваи Чунг",
+    "葵涌"
+   ],
+   "lat": 22.36828,
+   "lon": 114.13877,
+   "population": 331600,
+   "geonameId": "1819595"
+  },
+  {
+   "id": "city:geonames-1818209",
+   "name": "Tsuen Wan",
+   "aliases": [
+    "Ch'uan-wan",
+    "Ch’üan-wan",
+    "Cuen Van",
+    "Tsun Wan",
+    "Tsun Wan Wai",
+    "quan wan",
+    "Цуен Ван",
+    "荃灣"
+   ],
+   "lat": 22.37137,
+   "lon": 114.11329,
+   "population": 318916,
+   "geonameId": "1818209"
+  },
+  {
+   "id": "city:geonames-1818558",
+   "name": "Tin Shui Wai",
+   "aliases": [
+    "Tianshui Wei",
+    "Tin Shui Vai",
+    "tian shui tong",
+    "tian shui wei",
+    "tyn shwy way",
+    "Тин Шуи Ваи",
+    "تین شوی وای",
+    "天水囲",
+    "天水围",
+    "天水圍"
+   ],
+   "lat": 22.45679,
+   "lon": 114.00234,
+   "population": 286232,
+   "geonameId": "1818558"
+  },
+  {
+   "id": "city:geonames-1818673",
+   "name": "Tai Po",
+   "aliases": [
+    "Tai Po Market",
+    "Tai Po New Town",
+    "Tai Po Old Market",
+    "Tai Po Town",
+    "Tai-po-hui",
+    "Tai-wo-shi",
+    "Taipo NT",
+    "Taj Po",
+    "da bu",
+    "da bu xu",
+    "dapu",
+    "Таи По",
+    "Тај По",
+    "大埔",
+    "大埔墟",
+    "다푸"
+   ],
+   "lat": 22.45007,
+   "lon": 114.16877,
+   "population": 274100,
+   "geonameId": "1818673"
+  },
+  {
+   "id": "city:geonames-1819873",
+   "name": "Fanling",
+   "aliases": [
+    "Fan Leng",
+    "Fen-ling",
+    "Фанлинг"
+   ],
+   "lat": 22.49487,
+   "lon": 114.13949,
+   "population": 263200,
+   "geonameId": "1819873"
+  },
+  {
+   "id": "city:geonames-1819400",
+   "name": "Ma On Shan",
+   "aliases": [
+    "Ma On Shan Tsuen",
+    "Ma'an Shan",
+    "Ma'an Shan Cun",
+    "Ma’an Shan",
+    "Ma’an Shan Cun",
+    "ma an shan",
+    "ma an shan cun",
+    "Ма Он Шан",
+    "馬鞍山",
+    "馬鞍山村",
+    "马鞍山",
+    "马鞍山村"
+   ],
+   "lat": 22.40613,
+   "lon": 114.24079,
+   "population": 215200,
+   "geonameId": "1819400"
+  },
+  {
+   "id": "city:geonames-1818222",
+   "name": "Yuen Long San Hui",
+   "aliases": [
+    "Juen Long San Khui",
+    "Yuan-lang-hsin-hsu",
+    "Yuanlang",
+    "Yuanlang Xinxu",
+    "Yuen Long",
+    "Yuen Long Market",
+    "Yuen Long Town",
+    "Yüan-lang-hsin-hsü",
+    "yuan lang",
+    "yuan lang xin xu",
+    "Юен Лонг Сан Хуи",
+    "元朗",
+    "元朗新墟"
+   ],
+   "lat": 22.43333,
+   "lon": 114.03333,
+   "population": 200000,
+   "geonameId": "1818222"
+  },
+  {
+   "id": "city:geonames-1818225",
+   "name": "Yuen Long",
+   "aliases": [
+    "Juen Long",
+    "Un Long",
+    "Un long hui",
+    "Yuan-lang-hsu",
+    "Yuan-lang-hsü",
+    "Yuanlang",
+    "Yuanlang Xu",
+    "Yuen Long Old Town",
+    "Yuen long kou hui",
+    "yuan lang",
+    "yuan lang xu",
+    "Юен Лонг",
+    "元朗",
+    "元朗墟"
+   ],
+   "lat": 22.44518,
+   "lon": 114.02621,
+   "population": 200000,
+   "geonameId": "1818225"
+  },
+  {
+   "id": "city:geonames-1818483",
+   "name": "Tsing Yi Town",
+   "aliases": [
+    "Cinui",
+    "Tsing Yi",
+    "qing yi",
+    "Цинъи",
+    "青衣"
+   ],
+   "lat": 22.35,
+   "lon": 114.1,
+   "population": 182100,
+   "geonameId": "1818483"
+  },
+  {
+   "id": "city:geonames-1818223",
+   "name": "Yuen Long Kau Hui",
+   "aliases": [
+    "Juen Long Kau Khui",
+    "Yuanlang Jiuxu",
+    "yuan lang jiu xu",
+    "yuan lang xu",
+    "Юен Лонг Кау Хуи",
+    "元朗墟",
+    "元朗旧墟",
+    "元朗舊墟"
+   ],
+   "lat": 22.44831,
+   "lon": 114.03199,
+   "population": 169600,
+   "geonameId": "1818223"
+  },
+  {
+   "id": "city:geonames-1818379",
+   "name": "Wan Chai",
+   "aliases": [
+    "Van'chaj",
+    "Wanchai",
+    "wan zi",
+    "Ваньчай",
+    "灣仔"
+   ],
+   "lat": 22.28142,
+   "lon": 114.17258,
+   "population": 166695,
+   "geonameId": "1818379"
+  },
+  {
+   "id": "city:geonames-1819757",
+   "name": "Aberdeen",
+   "aliases": [
+    "Aberdeen Harbour",
+    "Aberdin",
+    "Aburdijn",
+    "Heung Kong Tsai",
+    "Shekpaiwan",
+    "abrdyn",
+    "aebeodin",
+    "xiang gang zi",
+    "Абердин",
+    "Абердін",
+    "Абърдийн",
+    "أبردين",
+    "香港仔",
+    "애버딘"
+   ],
+   "lat": 22.24802,
+   "lon": 114.15289,
+   "population": 157400,
+   "geonameId": "1819757"
+  },
+  {
+   "id": "city:geonames-1819283",
+   "name": "San Tung Chung Hang",
+   "aliases": [
+    "New Tung Chung Hang",
+    "Old Tung Chung Hang",
+    "San Tung Chung Khang",
+    "Tung Chung",
+    "Tung Chung Hang",
+    "Xindongchongkeng",
+    "xin dong yong keng",
+    "Сан Тунг Чунг Ханг",
+    "新东涌坑",
+    "新東涌坑"
+   ],
+   "lat": 22.27875,
+   "lon": 113.94307,
+   "population": 116000,
+   "geonameId": "1819283"
+  },
+  {
+   "id": "city:geonames-11101593",
+   "name": "Tung Chung",
+   "aliases": [
+    "dong yong",
+    "Тунг Чунг",
+    "东涌",
+    "東涌"
+   ],
+   "lat": 22.28783,
+   "lon": 113.94243,
+   "population": 114100,
+   "geonameId": "11101593"
+  },
+  {
+   "id": "city:geonames-1818916",
+   "name": "Sha Tin Wai",
+   "aliases": [
+    "Sha Tin",
+    "Shatian",
+    "Shatianwei",
+    "Shatjan'vehj",
+    "sha tian",
+    "sha tian wei",
+    "Шатяньвэй",
+    "沙田",
+    "沙田围",
+    "沙田圍"
+   ],
+   "lat": 22.37756,
+   "lon": 114.19753,
+   "population": 80000,
+   "geonameId": "1818916"
+  },
+  {
+   "id": "city:geonames-12719430",
+   "name": "Shap Pat Heung",
+   "aliases": [],
+   "lat": 22.4248,
+   "lon": 114.03581,
+   "population": 77775,
+   "geonameId": "12719430"
+  },
+  {
+   "id": "city:geonames-1819091",
+   "name": "Pok Fu Lam",
+   "aliases": [
+    "Pokfolum"
+   ],
+   "lat": 22.26861,
+   "lon": 114.12924,
+   "population": 77100,
+   "geonameId": "1819091"
+  },
+  {
+   "id": "city:geonames-12689055",
+   "name": "Nam Cheong",
+   "aliases": [],
+   "lat": 22.32799,
+   "lon": 114.15389,
+   "population": 74780,
+   "geonameId": "12689055"
+  },
+  {
+   "id": "city:geonames-1819353",
+   "name": "Mong Kok",
+   "aliases": [
+    "Argyle",
+    "MK",
+    "Mong Kok Tsui",
+    "Mongkok",
+    "Wangjiao",
+    "wang jiao",
+    "旺角"
+   ],
+   "lat": 22.31935,
+   "lon": 114.17136,
+   "population": 62967,
+   "geonameId": "1819353"
+  },
+  {
+   "id": "city:geonames-1818781",
+   "name": "Siu Lek Yuen",
+   "aliases": [
+    "Siu Lik Yuen",
+    "Xiaoliyuan",
+    "xiao li yuan",
+    "小瀝源"
+   ],
+   "lat": 22.38174,
+   "lon": 114.21256,
+   "population": 57349,
+   "geonameId": "1818781"
+  },
+  {
+   "id": "city:geonames-1818972",
+   "name": "Sau Mau Ping",
+   "aliases": [
+    "Xiumaoping",
+    "xiu mao ping",
+    "秀茂坪"
+   ],
+   "lat": 22.3202,
+   "lon": 114.23497,
+   "population": 54218,
+   "geonameId": "1818972"
+  },
+  {
+   "id": "city:geonames-1818550",
+   "name": "Tiu Keng Leng",
+   "aliases": [
+    "Rennie's Mill",
+    "Rennie's Mill Camp",
+    "Rennie's Mill Village",
+    "Rennie’s Mill",
+    "Rennie’s Mill Camp",
+    "Rennie’s Mill Village",
+    "Tiaojingling",
+    "Tiu Keng Wan",
+    "diao jing ling",
+    "調景嶺",
+    "调景岭"
+   ],
+   "lat": 22.29853,
+   "lon": 114.25115,
+   "population": 51751,
+   "geonameId": "1818550"
+  },
+  {
+   "id": "city:geonames-12719433",
+   "name": "LOHAS Park",
+   "aliases": [],
+   "lat": 22.29315,
+   "lon": 114.27245,
+   "population": 50000,
+   "geonameId": "12719433"
+  },
+  {
+   "id": "city:geonames-12640681",
+   "name": "Mei Foo",
+   "aliases": [
+    "Meifoo",
+    "mei fu",
+    "美孚"
+   ],
+   "lat": 22.33719,
+   "lon": 114.13856,
+   "population": 45990,
+   "geonameId": "12640681"
+  },
+  {
+   "id": "city:geonames-1819101",
+   "name": "Ping Shan",
+   "aliases": [
+    "P'ing-shan-hsu",
+    "P’ing-shan-hsü",
+    "ping shan",
+    "屏山"
+   ],
+   "lat": 22.44111,
+   "lon": 114.00608,
+   "population": 45400,
+   "geonameId": "1819101"
+  },
+  {
+   "id": "city:geonames-12640684",
+   "name": "Kai Tak",
+   "aliases": [
+    "qi de",
+    "啟德"
+   ],
+   "lat": 22.32425,
+   "lon": 114.19741,
+   "population": 42552,
+   "geonameId": "12640684"
+  },
+  {
+   "id": "city:geonames-8224045",
+   "name": "Jordan",
+   "aliases": [
+    "zuo dui",
+    "佐敦"
+   ],
+   "lat": 22.30539,
+   "lon": 114.17001,
+   "population": 41537,
+   "geonameId": "8224045"
+  },
+  {
+   "id": "city:geonames-12689063",
+   "name": "Pat Heung",
+   "aliases": [],
+   "lat": 22.4461,
+   "lon": 114.09226,
+   "population": 40357,
+   "geonameId": "12689063"
+  },
+  {
+   "id": "city:geonames-12689057",
+   "name": "Whampoa",
+   "aliases": [],
+   "lat": 22.30504,
+   "lon": 114.19021,
+   "population": 39134,
+   "geonameId": "12689057"
+  },
+  {
+   "id": "city:geonames-12689060",
+   "name": "Choi Wan",
+   "aliases": [],
+   "lat": 22.33385,
+   "lon": 114.21368,
+   "population": 38405,
+   "geonameId": "12689060"
+  },
+  {
+   "id": "city:geonames-1819638",
+   "name": "Kennedy Town",
+   "aliases": [
+    "Jiannidecheng",
+    "XKT",
+    "jian ni de cheng",
+    "堅尼地城"
+   ],
+   "lat": 22.28277,
+   "lon": 114.12953,
+   "population": 38000,
+   "geonameId": "1819638"
+  },
+  {
+   "id": "city:geonames-12719566",
+   "name": "Mei Foo Sun Chuen",
+   "aliases": [],
+   "lat": 22.33636,
+   "lon": 114.14018,
+   "population": 37299,
+   "geonameId": "12719566"
+  },
+  {
+   "id": "city:geonames-1818447",
+   "name": "Tsz Wan Shan",
+   "aliases": [
+    "Ciyunshan",
+    "ci yun shan",
+    "慈云山",
+    "慈雲山"
+   ],
+   "lat": 22.35247,
+   "lon": 114.20016,
+   "population": 37242,
+   "geonameId": "1818447"
+  },
+  {
+   "id": "city:geonames-1819791",
+   "name": "Hang Hau",
+   "aliases": [
+    "Hang Hau Town",
+    "Kengkou",
+    "keng kou",
+    "坑口"
+   ],
+   "lat": 22.31811,
+   "lon": 114.26994,
+   "population": 36529,
+   "geonameId": "1819791"
+  },
+  {
+   "id": "city:geonames-1819050",
+   "name": "Sai Kung",
+   "aliases": [
+    "Sai Gon",
+    "Sài Gòn",
+    "xi gong",
+    "西貢",
+    "西贡"
+   ],
+   "lat": 22.38333,
+   "lon": 114.26667,
+   "population": 35800,
+   "geonameId": "1819050"
+  },
+  {
+   "id": "city:geonames-10170102",
+   "name": "Tai Koo",
+   "aliases": [],
+   "lat": 22.2841,
+   "lon": 114.21631,
+   "population": 35373,
+   "geonameId": "10170102"
+  },
+  {
+   "id": "city:geonames-12719589",
+   "name": "Taikoo Shing",
+   "aliases": [],
+   "lat": 22.28613,
+   "lon": 114.2187,
+   "population": 34799,
+   "geonameId": "12719589"
+  },
+  {
+   "id": "city:geonames-1818266",
+   "name": "Yau Tong",
+   "aliases": [
+    "you tang",
+    "油塘"
+   ],
+   "lat": 22.29569,
+   "lon": 114.23599,
+   "population": 34755,
+   "geonameId": "1818266"
+  },
+  {
+   "id": "city:geonames-1818721",
+   "name": "Tai Kok Tsui",
+   "aliases": [
+    "Dajiaozui",
+    "Ta-chiao Tsui",
+    "Tai Kok Tsu",
+    "da jiao ju",
+    "大角咀"
+   ],
+   "lat": 22.32146,
+   "lon": 114.163,
+   "population": 33801,
+   "geonameId": "1818721"
+  },
+  {
+   "id": "city:geonames-1818892",
+   "name": "Shek Lei",
+   "aliases": [
+    "Shili",
+    "shi li",
+    "石梨"
+   ],
+   "lat": 22.36613,
+   "lon": 114.13982,
+   "population": 31788,
+   "geonameId": "1818892"
+  },
+  {
+   "id": "city:geonames-12719843",
+   "name": "Whampoa Garden",
+   "aliases": [],
+   "lat": 22.30534,
+   "lon": 114.18936,
+   "population": 30038,
+   "geonameId": "12719843"
+  },
+  {
+   "id": "city:geonames-1818268",
+   "name": "Yau Ma Tei",
+   "aliases": [
+    "Yau Ma Ti",
+    "Youmadi",
+    "you ma de",
+    "油麻地"
+   ],
+   "lat": 22.3138,
+   "lon": 114.16857,
+   "population": 29644,
+   "geonameId": "1818268"
+  },
+  {
+   "id": "city:geonames-12746539",
+   "name": "Lower Wong Tai Sin Estate (I & II)",
+   "aliases": [
+    "Lower Wong Tai Sin Estate"
+   ],
+   "lat": 22.33923,
+   "lon": 114.19441,
+   "population": 29542,
+   "geonameId": "12746539"
+  },
+  {
+   "id": "city:geonames-12719432",
+   "name": "South Horizons",
+   "aliases": [],
+   "lat": 22.24383,
+   "lon": 114.14828,
+   "population": 29391,
+   "geonameId": "12719432"
+  },
+  {
+   "id": "city:geonames-12719791",
+   "name": "South Horizons (Estate)",
+   "aliases": [],
+   "lat": 22.24411,
+   "lon": 114.14616,
+   "population": 29180,
+   "geonameId": "12719791"
+  },
+  {
+   "id": "city:geonames-1819529",
+   "name": "Leighton Hill",
+   "aliases": [
+    "Lidunshan",
+    "li dun shan",
+    "礼顿山",
+    "禮頓山"
+   ],
+   "lat": 22.2761,
+   "lon": 114.18398,
+   "population": 29160,
+   "geonameId": "1819529"
+  },
+  {
+   "id": "city:geonames-1819923",
+   "name": "Chuk Yuen",
+   "aliases": [
+    "Chuk Un",
+    "Zhuyuan",
+    "zhu yuan",
+    "竹园",
+    "竹園"
+   ],
+   "lat": 22.34544,
+   "lon": 114.19327,
+   "population": 28645,
+   "geonameId": "1819923"
+  },
+  {
+   "id": "city:geonames-12640693",
+   "name": "Lei Tung",
+   "aliases": [
+    "li dong",
+    "利東"
+   ],
+   "lat": 22.24052,
+   "lon": 114.15757,
+   "population": 26350,
+   "geonameId": "12640693"
+  },
+  {
+   "id": "city:geonames-1818385",
+   "name": "Wah Fu",
+   "aliases": [
+    "Huafu Cun",
+    "Wah Fu Estate",
+    "hua fu cun",
+    "华富邨",
+    "華富邨"
+   ],
+   "lat": 22.25474,
+   "lon": 114.13622,
+   "population": 26275,
+   "geonameId": "1818385"
+  },
+  {
+   "id": "city:geonames-1818950",
+   "name": "Sham Tseng",
+   "aliases": [
+    "Sam Cheung",
+    "Shan Tseng",
+    "Shenjing",
+    "shen jing",
+    "深井"
+   ],
+   "lat": 22.36667,
+   "lon": 114.05,
+   "population": 25893,
+   "geonameId": "1818950"
+  },
+  {
+   "id": "city:geonames-12719555",
+   "name": "Shek Kip Mei Estate",
+   "aliases": [],
+   "lat": 22.33412,
+   "lon": 114.16531,
+   "population": 25561,
+   "geonameId": "12719555"
+  },
+  {
+   "id": "city:geonames-12746532",
+   "name": "Choi Wan Estate (I & II)",
+   "aliases": [],
+   "lat": 22.33337,
+   "lon": 114.21331,
+   "population": 25241,
+   "geonameId": "12746532"
+  },
+  {
+   "id": "city:geonames-1818501",
+   "name": "Tsim Sha Tsui",
+   "aliases": [
+    "Chimsachjoj",
+    "Cimsacuj",
+    "Cimŝacuj",
+    "Tiem Sa Chuy",
+    "Tiêm Sa Chủy",
+    "Tsim Sa Tsoui",
+    "Tsimshatsui",
+    "cim ca cuyi",
+    "cim sa cuy",
+    "jian sha ju",
+    "jian sha zui",
+    "jimsajeoi",
+    "tsym sha tswy",
+    "Τσιμ Σα Τσούι",
+    "Чимсачёй",
+    "צים שא צוי",
+    "تسيم شا تسوي",
+    "تسیم شا تسوی",
+    "சிம் சா சுயி",
+    "จิมซาจุ่ย",
+    "尖沙咀",
+    "尖沙嘴",
+    "짐사저이"
+   ],
+   "lat": 22.3,
+   "lon": 114.16667,
+   "population": 24557,
+   "geonameId": "1818501"
+  },
+  {
+   "id": "city:geonames-12719443",
+   "name": "Wu Kai Sha",
+   "aliases": [],
+   "lat": 22.43016,
+   "lon": 114.24212,
+   "population": 23511,
+   "geonameId": "12719443"
+  },
+  {
+   "id": "city:geonames-12689059",
+   "name": "Laguna City",
+   "aliases": [],
+   "lat": 22.30554,
+   "lon": 114.22861,
+   "population": 22718,
+   "geonameId": "12689059"
+  },
+  {
+   "id": "city:geonames-1818817",
+   "name": "Shuen Wan",
+   "aliases": [
+    "Chuanwan",
+    "chuan wan",
+    "船湾",
+    "船灣"
+   ],
+   "lat": 22.46767,
+   "lon": 114.20812,
+   "population": 22465,
+   "geonameId": "1818817"
+  },
+  {
+   "id": "city:geonames-1819855",
+   "name": "Fo Tan",
+   "aliases": [
+    "Huotan",
+    "huo tan",
+    "Фо Тан",
+    "火炭"
+   ],
+   "lat": 22.39846,
+   "lon": 114.19293,
+   "population": 22127,
+   "geonameId": "1819855"
+  },
+  {
+   "id": "city:geonames-1819685",
+   "name": "Kam Tin",
+   "aliases": [
+    "Jitianshi",
+    "Kam Tin Hui",
+    "Kamtinhu",
+    "jin tian",
+    "錦田",
+    "锦田"
+   ],
+   "lat": 22.44123,
+   "lon": 114.06019,
+   "population": 21876,
+   "geonameId": "1819685"
+  },
+  {
+   "id": "city:geonames-12746541",
+   "name": "Tsz Ching Estate",
+   "aliases": [],
+   "lat": 22.35099,
+   "lon": 114.20056,
+   "population": 21845,
+   "geonameId": "12746541"
+  },
+  {
+   "id": "city:geonames-1819775",
+   "name": "Ha Tsuen",
+   "aliases": [
+    "Ha Tsuen Shi",
+    "Xiacun Shi",
+    "sha cun shi",
+    "厦村市",
+    "廈村市"
+   ],
+   "lat": 22.44724,
+   "lon": 113.9916,
+   "population": 21060,
+   "geonameId": "1819775"
+  },
+  {
+   "id": "city:geonames-1818614",
+   "name": "Tai Wo Hau",
+   "aliases": [
+    "Dawokoucun",
+    "Tai Wo Hau Estate",
+    "Tai Wo Hau Resettlement Area",
+    "da wo kou",
+    "da wo kou cun",
+    "大窝口",
+    "大窝口村",
+    "大窩口",
+    "大窩口邨"
+   ],
+   "lat": 22.36718,
+   "lon": 114.12347,
+   "population": 20848,
+   "geonameId": "1818614"
+  },
+  {
+   "id": "city:geonames-1818883",
+   "name": "Shek O",
+   "aliases": [
+    "Shek O Village",
+    "Shek-O",
+    "Shi'ao Cun",
+    "Shi’ao Cun",
+    "shi ao",
+    "shi ao cun",
+    "Шек-О",
+    "石澳",
+    "石澳村"
+   ],
+   "lat": 22.23344,
+   "lon": 114.25121,
+   "population": 20683,
+   "geonameId": "1818883"
+  },
+  {
+   "id": "city:geonames-1819980",
+   "name": "Chek Chue",
+   "aliases": [
+    "Chik Chu",
+    "Chiktsui",
+    "Port Stanley",
+    "Stanley",
+    "Stanley Village",
+    "Stehnli",
+    "chegchwi",
+    "chi zhu",
+    "Стэнли",
+    "赤柱",
+    "첵취"
+   ],
+   "lat": 22.21849,
+   "lon": 114.21241,
+   "population": 20683,
+   "geonameId": "1819980"
+  },
+  {
+   "id": "city:geonames-1818845",
+   "name": "Sheung Shui",
+   "aliases": [
+    "Shangshui",
+    "Sheung Shui Tsuen",
+    "shang shui",
+    "上水"
+   ],
+   "lat": 22.51667,
+   "lon": 114.11667,
+   "population": 20514,
+   "geonameId": "1818845"
+  },
+  {
+   "id": "city:geonames-1819726",
+   "name": "Hong Lok Yuen",
+   "aliases": [
+    "kang le yuan",
+    "康樂園"
+   ],
+   "lat": 22.46315,
+   "lon": 114.1552,
+   "population": 20389,
+   "geonameId": "1819726"
+  },
+  {
+   "id": "city:geonames-12689069",
+   "name": "Fairview Park",
+   "aliases": [],
+   "lat": 22.46738,
+   "lon": 114.04766,
+   "population": 20268,
+   "geonameId": "12689069"
+  },
+  {
+   "id": "city:geonames-1819394",
+   "name": "Ma Tau Wai",
+   "aliases": [
+    "gu jin wei",
+    "ma tou wei",
+    "古瑾圍",
+    "碼頭圍",
+    "馬頭圍"
+   ],
+   "lat": 22.32074,
+   "lon": 114.18743,
+   "population": 20185,
+   "geonameId": "1819394"
+  },
+  {
+   "id": "city:geonames-1818628",
+   "name": "Tai Wai",
+   "aliases": [
+    "da wei",
+    "大圍"
+   ],
+   "lat": 22.37286,
+   "lon": 114.17897,
+   "population": 19924,
+   "geonameId": "1818628"
+  },
+  {
+   "id": "city:geonames-1819731",
+   "name": "Ho Man Tin",
+   "aliases": [
+    "Hewentian",
+    "he wen tian",
+    "何文田"
+   ],
+   "lat": 22.31584,
+   "lon": 114.18181,
+   "population": 19830,
+   "geonameId": "1819731"
+  },
+  {
+   "id": "city:geonames-1819968",
+   "name": "Cheung Chau",
+   "aliases": [],
+   "lat": 22.21085,
+   "lon": 114.02787,
+   "population": 19769,
+   "geonameId": "1819968"
+  },
+  {
+   "id": "city:geonames-12687143",
+   "name": "Shui Chuen O",
+   "aliases": [],
+   "lat": 22.37161,
+   "lon": 114.19778,
+   "population": 19719,
+   "geonameId": "12687143"
+  },
+  {
+   "id": "city:geonames-1818996",
+   "name": "San Tin",
+   "aliases": [
+    "Xintian",
+    "xin tian",
+    "新田"
+   ],
+   "lat": 22.50166,
+   "lon": 114.06932,
+   "population": 19617,
+   "geonameId": "1818996"
+  },
+  {
+   "id": "city:geonames-1818444",
+   "name": "Tuen Mun San Hui",
+   "aliases": [
+    "Han Hui",
+    "San Hui",
+    "Tunmen Xinxu",
+    "tun men xin xu",
+    "屯門新墟"
+   ],
+   "lat": 22.39877,
+   "lon": 113.97596,
+   "population": 19398,
+   "geonameId": "1818444"
+  },
+  {
+   "id": "city:geonames-12689056",
+   "name": "Olympic",
+   "aliases": [],
+   "lat": 22.31939,
+   "lon": 114.15736,
+   "population": 19373,
+   "geonameId": "12689056"
+  },
+  {
+   "id": "city:geonames-1819894",
+   "name": "Discovery Bay",
+   "aliases": [
+    "DB",
+    "Yi-kin-van",
+    "Yî-kín-vân",
+    "diseukeobeoli bei",
+    "yu jing wan",
+    "ディスカバリー・ベイ",
+    "愉景灣",
+    "디스커버리 베이"
+   ],
+   "lat": 22.3,
+   "lon": 114.01667,
+   "population": 19336,
+   "geonameId": "1819894"
+  },
+  {
+   "id": "city:geonames-12640687",
+   "name": "The Peak",
+   "aliases": [
+    "shan ding",
+    "山頂"
+   ],
+   "lat": 22.26202,
+   "lon": 114.15649,
+   "population": 19202,
+   "geonameId": "12640687"
+  },
+  {
+   "id": "city:geonames-12640671",
+   "name": "Sung Wong Toi",
+   "aliases": [
+    "Song Huang Tai",
+    "Sungwongtoi",
+    "song huang tai",
+    "宋皇臺"
+   ],
+   "lat": 22.32466,
+   "lon": 114.19149,
+   "population": 19078,
+   "geonameId": "12640671"
+  },
+  {
+   "id": "city:geonames-12640674",
+   "name": "So Uk",
+   "aliases": [
+    "su wu",
+    "蘇屋"
+   ],
+   "lat": 22.34131,
+   "lon": 114.15679,
+   "population": 18956,
+   "geonameId": "12640674"
+  },
+  {
+   "id": "city:geonames-1819602",
+   "name": "Kowloon Tong",
+   "aliases": [
+    "Jiulongtang",
+    "Kau Lung Tong",
+    "jiu long tang",
+    "九龍塘",
+    "九龙塘"
+   ],
+   "lat": 22.33312,
+   "lon": 114.17969,
+   "population": 18849,
+   "geonameId": "1819602"
+  },
+  {
+   "id": "city:geonames-12719587",
+   "name": "Siu Sai Wan Estate",
+   "aliases": [
+    "Siu Sai Wan"
+   ],
+   "lat": 22.26155,
+   "lon": 114.24881,
+   "population": 18803,
+   "geonameId": "12719587"
+  },
+  {
+   "id": "city:geonames-1819029",
+   "name": "Sai Wan Ho",
+   "aliases": [
+    "Xiwanhe",
+    "xi wan he",
+    "西湾河",
+    "西灣河"
+   ],
+   "lat": 22.28449,
+   "lon": 114.2232,
+   "population": 18771,
+   "geonameId": "1819029"
+  },
+  {
+   "id": "city:geonames-12719581",
+   "name": "So Uk Estate",
+   "aliases": [],
+   "lat": 22.34153,
+   "lon": 114.15653,
+   "population": 18748,
+   "geonameId": "12719581"
+  },
+  {
+   "id": "city:geonames-12719848",
+   "name": "Tak Long Estate",
+   "aliases": [],
+   "lat": 22.3302,
+   "lon": 114.20338,
+   "population": 18720,
+   "geonameId": "12719848"
+  },
+  {
+   "id": "city:geonames-12719547",
+   "name": "Keng Hau",
+   "aliases": [],
+   "lat": 22.36507,
+   "lon": 114.17472,
+   "population": 18707,
+   "geonameId": "12719547"
+  },
+  {
+   "id": "city:geonames-12719552",
+   "name": "Un Chau Estate",
+   "aliases": [],
+   "lat": 22.33633,
+   "lon": 114.15616,
+   "population": 18670,
+   "geonameId": "12719552"
+  },
+  {
+   "id": "city:geonames-1819554",
+   "name": "Lam Tin",
+   "aliases": [
+    "lan tian",
+    "藍田"
+   ],
+   "lat": 22.30933,
+   "lon": 114.23634,
+   "population": 18666,
+   "geonameId": "1819554"
+  },
+  {
+   "id": "city:geonames-12719787",
+   "name": "Lei Tung Estate",
+   "aliases": [],
+   "lat": 22.24115,
+   "lon": 114.15523,
+   "population": 18575,
+   "geonameId": "12719787"
+  },
+  {
+   "id": "city:geonames-1819003",
+   "name": "San Po Kong",
+   "aliases": [
+    "xin pu gang",
+    "新蒲崗"
+   ],
+   "lat": 22.33546,
+   "lon": 114.19669,
+   "population": 18199,
+   "geonameId": "1819003"
+  },
+  {
+   "id": "city:geonames-12719439",
+   "name": "Hok Yuen",
+   "aliases": [],
+   "lat": 22.31027,
+   "lon": 114.18816,
+   "population": 18091,
+   "geonameId": "12719439"
+  },
+  {
+   "id": "city:geonames-12719440",
+   "name": "Laguna Verde",
+   "aliases": [],
+   "lat": 22.30719,
+   "lon": 114.19071,
+   "population": 18091,
+   "geonameId": "12719440"
+  },
+  {
+   "id": "city:geonames-1818905",
+   "name": "Shek Kip Mei",
+   "aliases": [
+    "Shek Kip Mi Resettlement Area",
+    "Shek Kip Mi Village",
+    "Shep Kip Mei",
+    "shi xia wei",
+    "石硤尾"
+   ],
+   "lat": 22.33146,
+   "lon": 114.16799,
+   "population": 18078,
+   "geonameId": "1818905"
+  },
+  {
+   "id": "city:geonames-12719592",
+   "name": "Heng Fa Chuen",
+   "aliases": [],
+   "lat": 22.27668,
+   "lon": 114.24077,
+   "population": 17963,
+   "geonameId": "12719592"
+  },
+  {
+   "id": "city:geonames-12719542",
+   "name": "Aldrich Bay",
+   "aliases": [],
+   "lat": 22.28203,
+   "lon": 114.22474,
+   "population": 17925,
+   "geonameId": "12719542"
+  },
+  {
+   "id": "city:geonames-12746531",
+   "name": "Choi Hung Estate",
+   "aliases": [],
+   "lat": 22.33636,
+   "lon": 114.20581,
+   "population": 17817,
+   "geonameId": "12746531"
+  },
+  {
+   "id": "city:geonames-1818654",
+   "name": "Tai Shui Hang",
+   "aliases": [
+    "Dashuikeng",
+    "da shui keng",
+    "大水坑"
+   ],
+   "lat": 22.40631,
+   "lon": 114.22385,
+   "population": 17647,
+   "geonameId": "1818654"
+  },
+  {
+   "id": "city:geonames-1818349",
+   "name": "Wo Che",
+   "aliases": [
+    "Ha Wo Che",
+    "he she",
+    "禾輋"
+   ],
+   "lat": 22.39016,
+   "lon": 114.19217,
+   "population": 17572,
+   "geonameId": "1818349"
+  },
+  {
+   "id": "city:geonames-1818695",
+   "name": "Tai Mei Tuk",
+   "aliases": [
+    "Dameidu",
+    "Tai Po Hoi Bun",
+    "da bu hai bin",
+    "da mei du",
+    "大埔海滨",
+    "大埔海濱",
+    "大美督"
+   ],
+   "lat": 22.47447,
+   "lon": 114.23458,
+   "population": 17544,
+   "geonameId": "1818695"
+  },
+  {
+   "id": "city:geonames-12640682",
+   "name": "Kadoorie",
+   "aliases": [
+    "jia dao li",
+    "嘉道理"
+   ],
+   "lat": 22.32247,
+   "lon": 114.17556,
+   "population": 17422,
+   "geonameId": "12640682"
+  },
+  {
+   "id": "city:geonames-12719847",
+   "name": "Oi Man Estate",
+   "aliases": [
+    "Oi Man"
+   ],
+   "lat": 22.31197,
+   "lon": 114.17853,
+   "population": 17407,
+   "geonameId": "12719847"
+  },
+  {
+   "id": "city:geonames-12689054",
+   "name": "Discovery Park",
+   "aliases": [],
+   "lat": 22.37621,
+   "lon": 114.11141,
+   "population": 17325,
+   "geonameId": "12689054"
+  },
+  {
+   "id": "city:geonames-1818574",
+   "name": "Ting Kau",
+   "aliases": [
+    "Dingjiu",
+    "Ting Kaw",
+    "Tingkao",
+    "ting jiu",
+    "汀九"
+   ],
+   "lat": 22.36956,
+   "lon": 114.07907,
+   "population": 17009,
+   "geonameId": "1818574"
+  },
+  {
+   "id": "city:geonames-12746517",
+   "name": "Chuk Yuen North Estate",
+   "aliases": [],
+   "lat": 22.34592,
+   "lon": 114.19197,
+   "population": 16989,
+   "geonameId": "12746517"
+  },
+  {
+   "id": "city:geonames-1818365",
+   "name": "Wang Tau Hom",
+   "aliases": [],
+   "lat": 22.3401,
+   "lon": 114.18732,
+   "population": 16936,
+   "geonameId": "1818365"
+  },
+  {
+   "id": "city:geonames-12719553",
+   "name": "Pak Tin Estate",
+   "aliases": [],
+   "lat": 22.33713,
+   "lon": 114.16673,
+   "population": 16843,
+   "geonameId": "12719553"
+  },
+  {
+   "id": "city:geonames-1818557",
+   "name": "Tin Wan",
+   "aliases": [
+    "tian wan",
+    "田湾",
+    "田灣"
+   ],
+   "lat": 22.25113,
+   "lon": 114.14726,
+   "population": 16811,
+   "geonameId": "1818557"
+  },
+  {
+   "id": "city:geonames-12746547",
+   "name": "Wang Tau Hom Estate",
+   "aliases": [],
+   "lat": 22.34009,
+   "lon": 114.18673,
+   "population": 16794,
+   "geonameId": "12746547"
+  },
+  {
+   "id": "city:geonames-1819577",
+   "name": "Kwun Tong",
+   "aliases": [
+    "Guantang",
+    "KTZ",
+    "Kon Tong",
+    "Koon Tong",
+    "Kuan T'ang",
+    "Kuan T’ang",
+    "Kun Tong",
+    "Kung Tong",
+    "guan tang",
+    "gwantang",
+    "官塘",
+    "観塘",
+    "觀塘",
+    "观塘",
+    "관탕"
+   ],
+   "lat": 22.31184,
+   "lon": 114.22176,
+   "population": 16766,
+   "geonameId": "1819577"
+  },
+  {
+   "id": "city:geonames-12719445",
+   "name": "Kam Ying",
+   "aliases": [],
+   "lat": 22.42285,
+   "lon": 114.23664,
+   "population": 16691,
+   "geonameId": "12719445"
+  },
+  {
+   "id": "city:geonames-12689062",
+   "name": "Sun Tin Wai",
+   "aliases": [],
+   "lat": 22.37058,
+   "lon": 114.18696,
+   "population": 16628,
+   "geonameId": "12689062"
+  },
+  {
+   "id": "city:geonames-1818992",
+   "name": "San Tin",
+   "aliases": [
+    "San Tin Wai",
+    "Xintian",
+    "xin tian",
+    "新田"
+   ],
+   "lat": 22.37193,
+   "lon": 114.18385,
+   "population": 16628,
+   "geonameId": "1818992"
+  },
+  {
+   "id": "city:geonames-12719540",
+   "name": "Sam Shing",
+   "aliases": [],
+   "lat": 22.38128,
+   "lon": 113.97872,
+   "population": 16423,
+   "geonameId": "12719540"
+  },
+  {
+   "id": "city:geonames-9172583",
+   "name": "Wong Chuk Hang",
+   "aliases": [],
+   "lat": 22.23981,
+   "lon": 114.17001,
+   "population": 16316,
+   "geonameId": "9172583"
+  },
+  {
+   "id": "city:geonames-1818259",
+   "name": "Yeung Uk Tsuen",
+   "aliases": [
+    "Yeung Uk"
+   ],
+   "lat": 22.45,
+   "lon": 114.01667,
+   "population": 16236,
+   "geonameId": "1818259"
+  },
+  {
+   "id": "city:geonames-12719438",
+   "name": "Braemar Hill",
+   "aliases": [],
+   "lat": 22.28282,
+   "lon": 114.20034,
+   "population": 16171,
+   "geonameId": "12719438"
+  },
+  {
+   "id": "city:geonames-12719569",
+   "name": "Hoi Lai Estate",
+   "aliases": [],
+   "lat": 22.33182,
+   "lon": 114.14667,
+   "population": 16071,
+   "geonameId": "12719569"
+  },
+  {
+   "id": "city:geonames-1819339",
+   "name": "Mount Davis",
+   "aliases": [],
+   "lat": 22.27862,
+   "lon": 114.11777,
+   "population": 16030,
+   "geonameId": "1819339"
+  },
+  {
+   "id": "city:geonames-12687141",
+   "name": "Pok Hong",
+   "aliases": [],
+   "lat": 22.37558,
+   "lon": 114.19584,
+   "population": 15817,
+   "geonameId": "12687141"
+  },
+  {
+   "id": "city:geonames-12719572",
+   "name": "Fu Cheong Estate",
+   "aliases": [],
+   "lat": 22.32891,
+   "lon": 114.15399,
+   "population": 15655,
+   "geonameId": "12719572"
+  },
+  {
+   "id": "city:geonames-1818544",
+   "name": "To Kwa Wan",
+   "aliases": [
+    "Tok Wah Wan",
+    "tu gua wan",
+    "土瓜灣"
+   ],
+   "lat": 22.31693,
+   "lon": 114.19052,
+   "population": 15646,
+   "geonameId": "1818544"
+  },
+  {
+   "id": "city:geonames-12719444",
+   "name": "Lee On",
+   "aliases": [],
+   "lat": 22.42635,
+   "lon": 114.24133,
+   "population": 15621,
+   "geonameId": "12719444"
+  },
+  {
+   "id": "city:geonames-12689065",
+   "name": "Butterfly",
+   "aliases": [],
+   "lat": 22.37591,
+   "lon": 113.96251,
+   "population": 15488,
+   "geonameId": "12689065"
+  },
+  {
+   "id": "city:geonames-12687144",
+   "name": "Prince Edward",
+   "aliases": [],
+   "lat": 22.3236,
+   "lon": 114.17938,
+   "population": 15481,
+   "geonameId": "12687144"
+  },
+  {
+   "id": "city:geonames-1819361",
+   "name": "Mid Levels",
+   "aliases": [
+    "Mid-levels"
+   ],
+   "lat": 22.28399,
+   "lon": 114.14958,
+   "population": 15464,
+   "geonameId": "1819361"
+  },
+  {
+   "id": "city:geonames-7778986",
+   "name": "Fortress Hill",
+   "aliases": [
+    "fotoresuhiru",
+    "pao tai shan",
+    "フォートレスヒル",
+    "炮臺山",
+    "砲台山"
+   ],
+   "lat": 22.28858,
+   "lon": 114.19417,
+   "population": 15464,
+   "geonameId": "7778986"
+  },
+  {
+   "id": "city:geonames-12746524",
+   "name": "Tung Tau Estate",
+   "aliases": [],
+   "lat": 22.33212,
+   "lon": 114.19277,
+   "population": 15440,
+   "geonameId": "12746524"
+  },
+  {
+   "id": "city:geonames-12640679",
+   "name": "City One",
+   "aliases": [
+    "City One - Shatin",
+    "City One Shatin",
+    "Sha Tin City One",
+    "Shatin City One",
+    "di yi cheng",
+    "第一城"
+   ],
+   "lat": 22.38679,
+   "lon": 114.20275,
+   "population": 15407,
+   "geonameId": "12640679"
+  },
+  {
+   "id": "city:geonames-12719544",
+   "name": "City Garden",
+   "aliases": [],
+   "lat": 22.28997,
+   "lon": 114.19259,
+   "population": 15212,
+   "geonameId": "12719544"
+  },
+  {
+   "id": "city:geonames-12719635",
+   "name": "Yiu Tung Estate",
+   "aliases": [],
+   "lat": 22.27849,
+   "lon": 114.22299,
+   "population": 15061,
+   "geonameId": "12719635"
+  }
+ ]
+}

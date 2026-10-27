@@ -1,0 +1,615 @@
+{
+ "country": "country:RW",
+ "cities": [
+  {
+   "id": "city:RW-kigali",
+   "name": "Kigali",
+   "aliases": [
+    "KGL",
+    "Kigale",
+    "Kigalis",
+    "Kigalo",
+    "Kigaly",
+    "Kinkali",
+    "Kiqali",
+    "Kígalí",
+    "ji jia li",
+    "khikali",
+    "kigali",
+    "kigalli",
+    "kigari",
+    "kikali",
+    "kygaly",
+    "kyghaly",
+    "Κιγκάλι",
+    "Кигали",
+    "Кігалі",
+    "Կիգալի",
+    "קיגאלי",
+    "كيغالي",
+    "کیگالی",
+    "किगाली",
+    "ਕਿਗਾਲੀ",
+    "கிகாலி",
+    "කිගාලි",
+    "คิกาลี",
+    "ཀི་ག་ལི།",
+    "კიგალი",
+    "ኪጋሊ",
+    "キガリ",
+    "吉佳利",
+    "키갈리"
+   ],
+   "lat": -1.94995,
+   "lon": 30.05885,
+   "population": 1132686,
+   "geonameId": "202061"
+  },
+  {
+   "id": "city:geonames-202905",
+   "name": "Gisenyi",
+   "aliases": [
+    "Gisehn'i",
+    "Gisen'i",
+    "Gisenjis",
+    "Gosenyi",
+    "Nkiseni",
+    "giseni",
+    "ji sai ni",
+    "jysayny",
+    "Γκισένι",
+    "Гисеньи",
+    "Гисэньи",
+    "جيسايني",
+    "ギセニ",
+    "吉塞尼",
+    "기세니"
+   ],
+   "lat": -1.70278,
+   "lon": 29.25639,
+   "population": 172357,
+   "geonameId": "202905"
+  },
+  {
+   "id": "city:RW-ruhengeri",
+   "name": "Ruhengeri",
+   "aliases": [
+    "Musanze",
+    "RHG",
+    "Ruhengeris",
+    "Rukhengeri",
+    "Рухенгери"
+   ],
+   "lat": -1.49984,
+   "lon": 29.63497,
+   "population": 153368,
+   "geonameId": "201521"
+  },
+  {
+   "id": "city:geonames-201650",
+   "name": "Nyagatare",
+   "aliases": [
+    "N'jagatare",
+    "Nyakatale",
+    "Nyakatare",
+    "Ньягатаре"
+   ],
+   "lat": -1.2952,
+   "lon": 30.3226,
+   "population": 100000,
+   "geonameId": "201650"
+  },
+  {
+   "id": "city:RW-gitarama",
+   "name": "Gitarama",
+   "aliases": [
+    "Gitarame",
+    "Nkitarama",
+    "gitalama",
+    "gitarama",
+    "ji ta la ma",
+    "Γκιταράμα",
+    "Гитарама",
+    "Гитараме",
+    "გიტარამა",
+    "ギタラマ",
+    "吉塔拉馬",
+    "기타라마",
+    "Muhanga"
+   ],
+   "lat": -2.07444,
+   "lon": 29.75667,
+   "population": 87613,
+   "geonameId": "202217"
+  },
+  {
+   "id": "city:geonames-201830",
+   "name": "Muhanga",
+   "aliases": [
+    "Muhange"
+   ],
+   "lat": -2.02269,
+   "lon": 29.70691,
+   "population": 82797,
+   "geonameId": "201830"
+  },
+  {
+   "id": "city:geonames-203112",
+   "name": "Butare",
+   "aliases": [
+    "BTQ",
+    "Butaré",
+    "Butarė",
+    "Бутаре"
+   ],
+   "lat": -2.59667,
+   "lon": 29.73944,
+   "population": 62823,
+   "geonameId": "203112"
+  },
+  {
+   "id": "city:geonames-202065",
+   "name": "Kibuye",
+   "aliases": [
+    "Kibue",
+    "Kibuje",
+    "Kibujė",
+    "kibu'e",
+    "kibuie",
+    "kibuye",
+    "kybwyh",
+    "kybwyy",
+    "kybwyے",
+    "Кибуе",
+    "Кибуйе",
+    "كيبويي",
+    "کيبويي",
+    "کیبویه",
+    "کیبویے",
+    "किबुये",
+    "কিবুয়ে",
+    "ਕਿਬੁਏ",
+    "ኪቡዬ",
+    "キブイェ"
+   ],
+   "lat": -2.06028,
+   "lon": 29.34778,
+   "population": 48024,
+   "geonameId": "202065"
+  },
+  {
+   "id": "city:geonames-201463",
+   "name": "Rwamagana",
+   "aliases": [
+    "Rouamankana",
+    "Rvamagana",
+    "Rwanagana",
+    "lu wa ma jia na",
+    "ravamagana",
+    "rawamagana",
+    "royamagana",
+    "ruwamagana",
+    "rwamagana",
+    "rwamaghana",
+    "rwamaګana",
+    "Ρουαμαγκάνα",
+    "Рваmagana",
+    "Рвамагана",
+    "رواماغانا",
+    "رواماګانا",
+    "رواماگانا",
+    "रवामागना",
+    "রোয়ামাগানা",
+    "ਰਵਾਮਾਗਾਨਾ",
+    "ራዋማጋና",
+    "ルワマガナ",
+    "盧瓦馬加納"
+   ],
+   "lat": -1.9487,
+   "lon": 30.4347,
+   "population": 47203,
+   "geonameId": "201463"
+  },
+  {
+   "id": "city:geonames-202068",
+   "name": "Kibungo",
+   "aliases": [
+    "Kibungu",
+    "Кибунго"
+   ],
+   "lat": -2.1597,
+   "lon": 30.5427,
+   "population": 46240,
+   "geonameId": "202068"
+  },
+  {
+   "id": "city:geonames-202326",
+   "name": "Cyangugu",
+   "aliases": [
+    "Ciangugu",
+    "Rusisi",
+    "Rusizi",
+    "Shangugu",
+    "Siangugu",
+    "Сиангугу"
+   ],
+   "lat": -2.4846,
+   "lon": 28.9075,
+   "population": 43866,
+   "geonameId": "202326"
+  },
+  {
+   "id": "city:geonames-202345",
+   "name": "Shyorongi",
+   "aliases": [],
+   "lat": -1.85439,
+   "lon": 29.96238,
+   "population": 43744,
+   "geonameId": "202345"
+  },
+  {
+   "id": "city:geonames-203104",
+   "name": "Byumba",
+   "aliases": [
+    "B'jumba",
+    "Biumba",
+    "Bjumba",
+    "bi'umaba",
+    "bi'umba",
+    "biyunba",
+    "biyuምba",
+    "byumba",
+    "bywmba",
+    "Биумба",
+    "Бьюмба",
+    "بيومبا",
+    "بیومبا",
+    "ब्यूम्बा",
+    "বিউম্বা",
+    "ਬਿਊਮਬਾ",
+    "ብዩምባ",
+    "ビユンバ"
+   ],
+   "lat": -1.5763,
+   "lon": 30.0675,
+   "population": 43134,
+   "geonameId": "203104"
+  },
+  {
+   "id": "city:geonames-202572",
+   "name": "Ndera",
+   "aliases": [
+    "Colline Ndera",
+    "Ndera Hill",
+    "Ntera",
+    "Ντέρα"
+   ],
+   "lat": -1.9495,
+   "lon": 30.1697,
+   "population": 41764,
+   "geonameId": "202572"
+  },
+  {
+   "id": "city:geonames-202769",
+   "name": "Kirambo",
+   "aliases": [],
+   "lat": -2.3155,
+   "lon": 29.1415,
+   "population": 40341,
+   "geonameId": "202769"
+  },
+  {
+   "id": "city:geonames-7021400",
+   "name": "Kagano",
+   "aliases": [],
+   "lat": -2.3429,
+   "lon": 29.0912,
+   "population": 39994,
+   "geonameId": "7021400"
+  },
+  {
+   "id": "city:geonames-202557",
+   "name": "Ngororero",
+   "aliases": [
+    "N'nkororero",
+    "Ngoholero",
+    "en ge luo lei luo",
+    "Νγκορορέρο",
+    "Нгорореро",
+    "恩戈羅雷羅"
+   ],
+   "lat": -1.8628,
+   "lon": 29.62541,
+   "population": 38823,
+   "geonameId": "202557"
+  },
+  {
+   "id": "city:geonames-201865",
+   "name": "Nzega",
+   "aliases": [
+    "Mont Nzega",
+    "Mount Nzega",
+    "Nseka"
+   ],
+   "lat": -2.479,
+   "lon": 29.5564,
+   "population": 33832,
+   "geonameId": "201865"
+  },
+  {
+   "id": "city:geonames-7021270",
+   "name": "Macuba",
+   "aliases": [],
+   "lat": -2.2933,
+   "lon": 29.1877,
+   "population": 33319,
+   "geonameId": "7021270"
+  },
+  {
+   "id": "city:geonames-202865",
+   "name": "Karengera",
+   "aliases": [
+    "Colline Karengera",
+    "Karengera Hill"
+   ],
+   "lat": -2.5169,
+   "lon": 29.0326,
+   "population": 32504,
+   "geonameId": "202865"
+  },
+  {
+   "id": "city:geonames-7062967",
+   "name": "Nyanza",
+   "aliases": [
+    "N'Yanza",
+    "Njanza",
+    "Nyabisindu",
+    "Nyanga",
+    "n'yanja",
+    "ni'anza",
+    "niyanaja",
+    "niyaniza",
+    "nyanza",
+    "Нянза",
+    "نيانزا",
+    "نیانزا",
+    "न्यांजा",
+    "নিয়ানজা",
+    "ਨਿਆਂਜ਼ਾ",
+    "ንያንዛ",
+    "ニャンザ"
+   ],
+   "lat": -2.35187,
+   "lon": 29.75089,
+   "population": 32016,
+   "geonameId": "7062967"
+  },
+  {
+   "id": "city:geonames-203141",
+   "name": "Bugarama",
+   "aliases": [
+    "Bugarama-Cite",
+    "Bukarama"
+   ],
+   "lat": -2.6924,
+   "lon": 29.0077,
+   "population": 31086,
+   "geonameId": "203141"
+  },
+  {
+   "id": "city:geonames-7662752",
+   "name": "Gihombo",
+   "aliases": [],
+   "lat": -2.21896,
+   "lon": 29.2343,
+   "population": 29843,
+   "geonameId": "7662752"
+  },
+  {
+   "id": "city:geonames-7021332",
+   "name": "Karambi",
+   "aliases": [],
+   "lat": -2.31695,
+   "lon": 29.24413,
+   "population": 29726,
+   "geonameId": "7021332"
+  },
+  {
+   "id": "city:geonames-203046",
+   "name": "Bushekeri",
+   "aliases": [
+    "Bushekeli"
+   ],
+   "lat": -2.4195,
+   "lon": 29.0908,
+   "population": 29680,
+   "geonameId": "203046"
+  },
+  {
+   "id": "city:geonames-7021426",
+   "name": "Nyabitekeli",
+   "aliases": [],
+   "lat": -2.3541,
+   "lon": 29.0298,
+   "population": 29293,
+   "geonameId": "7021426"
+  },
+  {
+   "id": "city:geonames-203119",
+   "name": "Busogo",
+   "aliases": [],
+   "lat": -1.5584,
+   "lon": 29.5434,
+   "population": 28264,
+   "geonameId": "203119"
+  },
+  {
+   "id": "city:geonames-202352",
+   "name": "Shangi",
+   "aliases": [
+    "Ishangi"
+   ],
+   "lat": -2.4036,
+   "lon": 29.0059,
+   "population": 28064,
+   "geonameId": "202352"
+  },
+  {
+   "id": "city:geonames-384535",
+   "name": "Kayonza",
+   "aliases": [],
+   "lat": -1.9509,
+   "lon": 30.5205,
+   "population": 27059,
+   "geonameId": "384535"
+  },
+  {
+   "id": "city:geonames-7021499",
+   "name": "Cyato",
+   "aliases": [],
+   "lat": -2.3871,
+   "lon": 29.1929,
+   "population": 26996,
+   "geonameId": "7021499"
+  },
+  {
+   "id": "city:geonames-202048",
+   "name": "Kirimbi",
+   "aliases": [],
+   "lat": -2.26469,
+   "lon": 29.19644,
+   "population": 25647,
+   "geonameId": "202048"
+  },
+  {
+   "id": "city:geonames-384181",
+   "name": "Gitesi",
+   "aliases": [],
+   "lat": -2.1139,
+   "lon": 29.4022,
+   "population": 24859,
+   "geonameId": "384181"
+  },
+  {
+   "id": "city:geonames-7032689",
+   "name": "Bushenge",
+   "aliases": [],
+   "lat": -2.4421,
+   "lon": 28.9824,
+   "population": 22624,
+   "geonameId": "7032689"
+  },
+  {
+   "id": "city:geonames-7656357",
+   "name": "Nyamata",
+   "aliases": [
+    "Niamata"
+   ],
+   "lat": -2.20419,
+   "lon": 30.14494,
+   "population": 21509,
+   "geonameId": "7656357"
+  },
+  {
+   "id": "city:geonames-201524",
+   "name": "Ruhango",
+   "aliases": [],
+   "lat": -2.2246,
+   "lon": 29.79088,
+   "population": 21478,
+   "geonameId": "201524"
+  },
+  {
+   "id": "city:geonames-202239",
+   "name": "Gikongoro",
+   "aliases": [],
+   "lat": -2.46397,
+   "lon": 29.57389,
+   "population": 21029,
+   "geonameId": "202239"
+  },
+  {
+   "id": "city:geonames-7662813",
+   "name": "Mahembe",
+   "aliases": [],
+   "lat": -2.2386,
+   "lon": 29.2929,
+   "population": 20043,
+   "geonameId": "7662813"
+  },
+  {
+   "id": "city:geonames-384311",
+   "name": "Mukamira",
+   "aliases": [
+    "Mukamura"
+   ],
+   "lat": -1.61112,
+   "lon": 29.49687,
+   "population": 19021,
+   "geonameId": "384311"
+  },
+  {
+   "id": "city:geonames-201841",
+   "name": "Mugina",
+   "aliases": [],
+   "lat": -2.1057,
+   "lon": 29.9417,
+   "population": 18586,
+   "geonameId": "201841"
+  },
+  {
+   "id": "city:geonames-12718710",
+   "name": "Umutara",
+   "aliases": [],
+   "lat": -1.29547,
+   "lon": 30.32297,
+   "population": 18038,
+   "geonameId": "12718710"
+  },
+  {
+   "id": "city:geonames-384104",
+   "name": "Rangiro",
+   "aliases": [],
+   "lat": -2.4045,
+   "lon": 29.1606,
+   "population": 17967,
+   "geonameId": "384104"
+  },
+  {
+   "id": "city:geonames-12718709",
+   "name": "Kamuhanda / Ruyenzi",
+   "aliases": [],
+   "lat": -1.96571,
+   "lon": 29.98462,
+   "population": 16369,
+   "geonameId": "12718709"
+  },
+  {
+   "id": "city:geonames-12718708",
+   "name": "Bugaragara",
+   "aliases": [],
+   "lat": -1.29289,
+   "lon": 30.40766,
+   "population": 15732,
+   "geonameId": "12718708"
+  },
+  {
+   "id": "city:geonames-384320",
+   "name": "Mukingo",
+   "aliases": [],
+   "lat": -1.5394,
+   "lon": 29.5558,
+   "population": 15695,
+   "geonameId": "384320"
+  },
+  {
+   "id": "city:geonames-384266",
+   "name": "Kora",
+   "aliases": [],
+   "lat": -1.6101,
+   "lon": 29.445,
+   "population": 15134,
+   "geonameId": "384266"
+  }
+ ]
+}

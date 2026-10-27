@@ -21,6 +21,7 @@ import { selectedProfileIds, PROFILE_CATEGORIES } from '@/engine/profile'
 import type { CategoryId } from '@/engine/types'
 import { ErrorState, LoadingState, Page } from '@/ui'
 import { TopicIcon } from './QuizCatalog'
+import { CityRecallSetup } from './CityRecallSetup'
 import { TrainingOptions, useTrainingSettings } from './TrainingOptions'
 import './quiz-selection.css'
 
@@ -91,7 +92,10 @@ export function ExerciseList({ category }: { category: CategoryId }) {
     </Page>
   )
 }
-export function ExerciseSetup({ exercise: q }: { exercise: Exercise }) {
+export function ExerciseSetup({exercise}:{exercise:Exercise}) {
+  return exercise.kind==='city-recall'?<CityRecallSetup exercise={exercise}/>:<StandardExerciseSetup exercise={exercise}/>
+}
+function StandardExerciseSetup({ exercise: q }: { exercise: Exercise }) {
   const { t } = useTranslation()
   const geo = useGeoData()
   const navigate = useNavigate()

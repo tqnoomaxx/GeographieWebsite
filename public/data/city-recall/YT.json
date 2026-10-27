@@ -1,0 +1,104 @@
+{
+ "country": "country:YT",
+ "cities": [
+  {
+   "id": "city:YT-mamoudzou",
+   "name": "Mamoudzou",
+   "aliases": [
+    "Mambutzou",
+    "Mamoutzou",
+    "Mamudzu",
+    "Mamutzu",
+    "mamuju",
+    "Мамудзу",
+    "마무주"
+   ],
+   "lat": -12.78234,
+   "lon": 45.22878,
+   "population": 54831,
+   "geonameId": "921815"
+  },
+  {
+   "id": "city:geonames-1090225",
+   "name": "Koungou",
+   "aliases": [
+    "Kongo",
+    "Kungu",
+    "kaungu",
+    "kongu",
+    "kungu",
+    "kwenigu",
+    "kwnghw",
+    "kwngw",
+    "kwnګw",
+    "Кунгу",
+    "كونغو",
+    "کونګو",
+    "کونگو",
+    "कौंगु",
+    "কোঙ্গু",
+    "ਕੌਂਗੂ",
+    "ኮንጉ",
+    "クングー"
+   ],
+   "lat": -12.73361,
+   "lon": 45.20417,
+   "population": 18118,
+   "geonameId": "1090225"
+  },
+  {
+   "id": "city:geonames-1090275",
+   "name": "Labattoir",
+   "aliases": [],
+   "lat": -12.77698,
+   "lon": 45.28234,
+   "population": 17739,
+   "geonameId": "1090275"
+  },
+  {
+   "id": "city:geonames-1090239",
+   "name": "Kaouéni",
+   "aliases": [
+    "Kaoueni"
+   ],
+   "lat": -12.77121,
+   "lon": 45.22419,
+   "population": 17060,
+   "geonameId": "1090239"
+  },
+  {
+   "id": "city:geonames-921900",
+   "name": "Dzaoudzi",
+   "aliases": [
+    "DZA",
+    "Dzaoudzi-Labattoir",
+    "Dzaudzi",
+    "Zaudzi",
+    "daja'udaji",
+    "daza'udazi",
+    "dizaውdizi",
+    "dja'udaji",
+    "dzawdzy",
+    "zao de ji",
+    "zauji",
+    "Дзаудзи",
+    "دزاودزي",
+    "دزاودزی",
+    "ڈzawڈzy",
+    "ڈزاؤڈزی",
+    "ډzawdzy",
+    "ډزاودزی",
+    "ड्जाउडजी",
+    "ডজাউডজি",
+    "ਡਜ਼ਾਉਡਜ਼ੀ",
+    "ድዛውድዚ",
+    "ザウジ",
+    "藻德济"
+   ],
+   "lat": -12.78339,
+   "lon": 45.25693,
+   "population": 15339,
+   "geonameId": "921900"
+  }
+ ]
+}

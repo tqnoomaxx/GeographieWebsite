@@ -1,0 +1,590 @@
+{
+ "country": "country:HT",
+ "cities": [
+  {
+   "id": "city:HT-port-au-prince",
+   "name": "Port-au-Prince",
+   "aliases": [
+    "PAP",
+    "Port au Prince",
+    "Port o Prens",
+    "Port o Prensas",
+    "Port-o-Prehns",
+    "Port-o-Prens",
+    "Port-o-Prins",
+    "Porto Principe",
+    "Porto Príncipe",
+    "Portoprensa",
+    "Portoprinco",
+    "Portus Principis",
+    "Potoprens",
+    "Puerto Principe",
+    "Puerto Príncipe",
+    "Pòtoprens",
+    "Ville de Port-au-Prince",
+    "bwrt aw brans",
+    "poleutopeulaengseu",
+    "porata-o-prainsa",
+    "port-o-pirins",
+    "porta-a-prinsa",
+    "porta-au-prinsa",
+    "porta-o-prinsa",
+    "porutopuransu",
+    "pwrtw prns",
+    "pwrtwprns",
+    "tai zi gang",
+    "Πορτ-ο-Πρενς",
+    "Порт о Пренс",
+    "Порт-о-Пренс",
+    "Порт-о-Прэнс",
+    "Պորտ-օ-Պրենս",
+    "פורט או פרינס",
+    "פורט-או-פרנס",
+    "بورت أو برانس",
+    "پورتو پرنس",
+    "پورتوپرنس",
+    "پورٹ او پرنس",
+    "पोर्ट-ऑ-प्रिंस",
+    "पोर्ट-औ-प्रिन्स",
+    "পোর্ট-অ-প্রিন্স",
+    "ਪੋਰਤ-ਓ-ਪ੍ਰੈਂਸ",
+    "போர்ட்-ஓ-பிரின்ஸ்",
+    "പോർട്ട്-ഔ-പ്രിൻസ്",
+    "ปอร์โตแปรงซ์",
+    "པོ་རོ་ཊི་ཨའུ་པི་རིན་སི།",
+    "პორტ-ო-პრენსი",
+    "ፖርቶፕሪንስ",
+    "ポルトープランス",
+    "太子港",
+    "포르토프랭스"
+   ],
+   "lat": 18.54349,
+   "lon": -72.33881,
+   "population": 1234742,
+   "geonameId": "3718426"
+  },
+  {
+   "id": "city:HT-carrefour",
+   "name": "Carrefour",
+   "aliases": [
+    "Kafou",
+    "Karrefur",
+    "Каррефур"
+   ],
+   "lat": 18.53333,
+   "lon": -72.4,
+   "population": 511345,
+   "geonameId": "6201369"
+  },
+  {
+   "id": "city:HT-delmas",
+   "name": "Delmas",
+   "aliases": [
+    "Delma",
+    "Dèlma",
+    "Делмас"
+   ],
+   "lat": 18.54478,
+   "lon": -72.30036,
+   "population": 395260,
+   "geonameId": "3726786"
+  },
+  {
+   "id": "city:HT-petionville",
+   "name": "Pétionville",
+   "aliases": [
+    "Petionville",
+    "Petyon-Vil",
+    "Ville de Petion-Ville",
+    "Ville de Pétion-Ville",
+    "Петионвилле",
+    "Pétion-Ville"
+   ],
+   "lat": 18.5125,
+   "lon": -72.28528,
+   "population": 376834,
+   "geonameId": "3719028"
+  },
+  {
+   "id": "city:geonames-3718420",
+   "name": "Port-de-Paix",
+   "aliases": [
+    "PAX",
+    "Podepe",
+    "Podpe",
+    "Por-de-Pe",
+    "Port Paix",
+    "Porto-da-Paz",
+    "Pòdepè",
+    "Pòdpè",
+    "he ping gang",
+    "poleudeupe",
+    "poleudeupei",
+    "porudope",
+    "Пор-де-Пе",
+    "پورت دے پئے",
+    "ポールドペ",
+    "和平港",
+    "포르드페",
+    "포르드페이"
+   ],
+   "lat": 19.93984,
+   "lon": -72.83037,
+   "population": 306217,
+   "geonameId": "3718420"
+  },
+  {
+   "id": "city:HT-saint-marc",
+   "name": "Saint-Marc",
+   "aliases": [
+    "Sen-Mark",
+    "Сен-Марк"
+   ],
+   "lat": 19.11136,
+   "lon": -72.70078,
+   "population": 266642,
+   "geonameId": "3717588"
+  },
+  {
+   "id": "city:geonames-3740007",
+   "name": "Cité Soleil",
+   "aliases": [
+    "Cite Soleil",
+    "Cite Simone",
+    "Cite Simone Duvalier",
+    "Cité Simone",
+    "Cité Simone Duvalier",
+    "Kite Soleil",
+    "Site Soley",
+    "Site Solèy",
+    "Ките Солеил"
+   ],
+   "lat": 18.58028,
+   "lon": -72.33806,
+   "population": 265072,
+   "geonameId": "3740007"
+  },
+  {
+   "id": "city:geonames-3727135",
+   "name": "Croix-des-Bouquets",
+   "aliases": [
+    "Kruaks-Des-Bukec",
+    "Kwadebouke",
+    "Kwadèbouke",
+    "Круакс-Дес-Букец"
+   ],
+   "lat": 18.57677,
+   "lon": -72.22625,
+   "population": 229127,
+   "geonameId": "3727135"
+  },
+  {
+   "id": "city:geonames-3726540",
+   "name": "Dessalines",
+   "aliases": [
+    "Desalin",
+    "Marchand",
+    "Дессалинес"
+   ],
+   "lat": 19.26177,
+   "lon": -72.51611,
+   "population": 181903,
+   "geonameId": "3726540"
+  },
+  {
+   "id": "city:geonames-3723779",
+   "name": "Jacmel",
+   "aliases": [
+    "JAK",
+    "Jakmel",
+    "Jakmèl",
+    "Yaquimo",
+    "Yáquimo",
+    "Zhakmel'",
+    "Zhakmele",
+    "jakeumel",
+    "jakumeru",
+    "jkml",
+    "ya ke mei lei",
+    "zʼqml",
+    "Жакмеле",
+    "Жакмель",
+    "זאקמל",
+    "جکمل",
+    "ジャクメル",
+    "雅克梅勒",
+    "자크멜"
+   ],
+   "lat": 18.23569,
+   "lon": -72.53686,
+   "population": 137966,
+   "geonameId": "3723779"
+  },
+  {
+   "id": "city:HT-cap-haitien",
+   "name": "Cap-Haïtien",
+   "aliases": [
+    "Cap-Haitien",
+    "CAP",
+    "Cabo Haitiano",
+    "Cap Haitien",
+    "Cap-Francais",
+    "Cap-Français",
+    "Cape Haitien",
+    "Cape Haytien",
+    "Guarico",
+    "Guárico",
+    "Haitia Kabo",
+    "Kap Ayisyen",
+    "Kap-Ait'en",
+    "Kap-Ait'ene",
+    "Kap-Aitien",
+    "Le Cap",
+    "Okap",
+    "Ville du Cap-Haitien",
+    "hai de jiao",
+    "kap-hayytyn",
+    "kapaishan",
+    "kapeuaisiaeng",
+    "Καπ-Αϊτιέν",
+    "Кап-Аитьен",
+    "Кап-Аитьене",
+    "Кап-Аїтьєн",
+    "کاپ-هائیتین",
+    "カパイシャン",
+    "海地角",
+    "카프아이시앵"
+   ],
+   "lat": 19.75938,
+   "lon": -72.19815,
+   "population": 134815,
+   "geonameId": "3728474"
+  },
+  {
+   "id": "city:geonames-3722286",
+   "name": "Léogâne",
+   "aliases": [
+    "Leogane",
+    "Leogan",
+    "Leyogan",
+    "Leyogàn",
+    "Ville de Leogane",
+    "Ville de Léogane",
+    "Yaguana",
+    "lai ao gan",
+    "reogan",
+    "Леоган",
+    "レオガン",
+    "萊奧甘"
+   ],
+   "lat": 18.5111,
+   "lon": -72.63343,
+   "population": 134190,
+   "geonameId": "3722286"
+  },
+  {
+   "id": "city:geonames-3731088",
+   "name": "Arcahaie",
+   "aliases": [
+    "Akaye",
+    "Akayè",
+    "Archaie",
+    "Arkakhaie",
+    "L'Arcahaie",
+    "Lakaye",
+    "Lakayè",
+    "L’Arcahaie",
+    "Ville de l'Arcahaie",
+    "Ville de l’Arcahaie",
+    "Аркахаие"
+   ],
+   "lat": 18.77019,
+   "lon": -72.51226,
+   "population": 130306,
+   "geonameId": "3731088"
+  },
+  {
+   "id": "city:HT-les-cayes",
+   "name": "Les Cayes",
+   "aliases": [
+    "Aux Cayes",
+    "CYA",
+    "Cayes",
+    "Le Kajus",
+    "Le-Ke",
+    "Los Cayos",
+    "Okay",
+    "Ville des Cayes",
+    "lai kai",
+    "leukaye",
+    "rekai",
+    "Ле-Ке",
+    "لے سائیس",
+    "レカイ",
+    "萊凱",
+    "르카예"
+   ],
+   "lat": 18.19199,
+   "lon": -73.74948,
+   "population": 125799,
+   "geonameId": "3728097"
+  },
+  {
+   "id": "city:geonames-3718962",
+   "name": "Tigwav",
+   "aliases": [
+    "Petit Goave",
+    "Petit Goâve",
+    "Petit-Goave",
+    "Petit-Goâve",
+    "Tigvav",
+    "Ville de Petit Goave",
+    "Ville de Petit Goâve",
+    "Тигвав"
+   ],
+   "lat": 18.43117,
+   "lon": -72.86521,
+   "population": 117504,
+   "geonameId": "3718962"
+  },
+  {
+   "id": "city:geonames-3723593",
+   "name": "Jérémie",
+   "aliases": [
+    "Jeremie",
+    "JEE",
+    "Jeremi",
+    "Jeremias",
+    "Zheremi",
+    "jelemi",
+    "jeremi",
+    "jyrymy",
+    "re lei mi",
+    "zrmy",
+    "Жереми",
+    "Жеремі",
+    "זרמי",
+    "جیریمی",
+    "ジェレミー",
+    "熱雷米",
+    "제레미"
+   ],
+   "lat": 18.65,
+   "lon": -74.11667,
+   "population": 97503,
+   "geonameId": "3723593"
+  },
+  {
+   "id": "city:geonames-3717560",
+   "name": "Saint-Michel de l'Atalaye",
+   "aliases": [
+    "Saint Michel",
+    "Saint Michel de L'Attaiaye",
+    "Saint Michel de L’Attaiaye",
+    "Sen Michel Latalay",
+    "Sen Michèl Latalay",
+    "Ville de Saint Michel"
+   ],
+   "lat": 19.37084,
+   "lon": -72.33472,
+   "population": 95216,
+   "geonameId": "3717560"
+  },
+  {
+   "id": "city:geonames-3720824",
+   "name": "Miragoâne",
+   "aliases": [
+    "Miragoane"
+   ],
+   "lat": 18.44599,
+   "lon": -73.08957,
+   "population": 89202,
+   "geonameId": "3720824"
+  },
+  {
+   "id": "city:HT-gonaives",
+   "name": "Gonaïves",
+   "aliases": [
+    "Gonaives",
+    "Gonaiv",
+    "Gonayiv",
+    "Les Gonaives",
+    "Les Gonaïves",
+    "Ville des Gonaives",
+    "Ville des Gonaïves",
+    "Гонаив"
+   ],
+   "lat": 19.44755,
+   "lon": -72.68928,
+   "population": 84961,
+   "geonameId": "3724696"
+  },
+  {
+   "id": "city:geonames-3716667",
+   "name": "Thomazeau",
+   "aliases": [
+    "Tomazo"
+   ],
+   "lat": 18.65297,
+   "lon": -72.09391,
+   "population": 52017,
+   "geonameId": "3716667"
+  },
+  {
+   "id": "city:geonames-3724337",
+   "name": "Grangwav",
+   "aliases": [
+    "Grand Goave",
+    "Grand Goâve",
+    "Grand-Goave",
+    "Grand-Goâve",
+    "Grande Goave"
+   ],
+   "lat": 18.4259,
+   "lon": -72.76995,
+   "population": 49288,
+   "geonameId": "3724337"
+  },
+  {
+   "id": "city:geonames-3716044",
+   "name": "Verrettes",
+   "aliases": [
+    "Les Verettes",
+    "Les Verrettes",
+    "Veret",
+    "Vèrèt"
+   ],
+   "lat": 19.0505,
+   "lon": -72.46585,
+   "population": 48724,
+   "geonameId": "3716044"
+  },
+  {
+   "id": "city:geonames-3723440",
+   "name": "Kenscoff",
+   "aliases": [
+    "Kenskof",
+    "Kenskoff",
+    "Kenskòf"
+   ],
+   "lat": 18.44773,
+   "lon": -72.28398,
+   "population": 42175,
+   "geonameId": "3723440"
+  },
+  {
+   "id": "city:geonames-3717546",
+   "name": "Saint-Raphaël",
+   "aliases": [
+    "Saint-Raphael",
+    "Sen Rafayel",
+    "Sen Rafayèl"
+   ],
+   "lat": 19.43877,
+   "lon": -72.1991,
+   "population": 37739,
+   "geonameId": "3717546"
+  },
+  {
+   "id": "city:geonames-3740016",
+   "name": "Ti Port-de-Paix",
+   "aliases": [],
+   "lat": 19.93333,
+   "lon": -72.83333,
+   "population": 34657,
+   "geonameId": "3740016"
+  },
+  {
+   "id": "city:geonames-3722124",
+   "name": "Lenbe",
+   "aliases": [
+    "Le Limbe",
+    "Limbe",
+    "Limbé",
+    "Ville de Limbe",
+    "Ville de Limbé",
+    "Лимбе"
+   ],
+   "lat": 19.70603,
+   "lon": -72.40336,
+   "population": 32645,
+   "geonameId": "3722124"
+  },
+  {
+   "id": "city:geonames-3724233",
+   "name": "Gressier",
+   "aliases": [],
+   "lat": 18.54091,
+   "lon": -72.52679,
+   "population": 25947,
+   "geonameId": "3724233"
+  },
+  {
+   "id": "city:geonames-3716737",
+   "name": "Terrier Rouge",
+   "aliases": [
+    "Terye Wouj",
+    "Tèrye Wouj"
+   ],
+   "lat": 19.63634,
+   "lon": -71.95483,
+   "population": 21328,
+   "geonameId": "3716737"
+  },
+  {
+   "id": "city:geonames-3723841",
+   "name": "Hinche",
+   "aliases": [
+    "Ehnsh",
+    "Ench",
+    "Ensh",
+    "Hincha",
+    "aengsyu",
+    "an shen",
+    "anshu",
+    "Енш",
+    "Энш",
+    "اینشے",
+    "アンシュ",
+    "安什",
+    "앵슈"
+   ],
+   "lat": 19.1409,
+   "lon": -72.01194,
+   "population": 18590,
+   "geonameId": "3723841"
+  },
+  {
+   "id": "city:geonames-3725276",
+   "name": "Fond Parisien",
+   "aliases": [],
+   "lat": 18.50547,
+   "lon": -71.98122,
+   "population": 18256,
+   "geonameId": "3725276"
+  },
+  {
+   "id": "city:geonames-3724331",
+   "name": "Grand Gosier",
+   "aliases": [
+    "Gran Gozye",
+    "Grande Gosier"
+   ],
+   "lat": 18.18543,
+   "lon": -71.9182,
+   "population": 17059,
+   "geonameId": "3724331"
+  },
+  {
+   "id": "city:geonames-3726674",
+   "name": "Désarmes",
+   "aliases": [
+    "Desarmes"
+   ],
+   "lat": 18.99345,
+   "lon": -72.39058,
+   "population": 15594,
+   "geonameId": "3726674"
+  }
+ ]
+}

@@ -1,5 +1,6 @@
 import { exerciseFor, exerciseGenerators, mixedExerciseGenerators } from '@/config/quizCatalog'
 import { countryProfile } from './generators/countryProfile'
+import { cityRecall } from './generators/cityRecall'
 import type { Generator } from './generators/base'
 import * as flags from './generators/flags'
 import * as capitals from './generators/capitals'
@@ -16,6 +17,7 @@ import { AUTO, MIXED_EXCLUDE, PLAY_QUIZZES, autoModes, quizFor, type QuizMode } 
 const all: Generator[] = [
   geographyTrivia,
   countryProfile,
+  cityRecall,
   flags.flagToCountry,
   flags.countryToFlag,
   flags.flagToCountryInput,

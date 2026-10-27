@@ -21,7 +21,7 @@ export interface Exercise {
   resources: DataResource[]
   defaultScope?: string
   defaultLength?: 'all'
-  kind?: 'profile'
+  kind?: 'profile' | 'city-recall'
   content?: Content[]
   targetType?: Entity['type']
   language?: string
@@ -123,6 +123,18 @@ export const QUIZ_TOPICS: QuizTopic[] = [
 ]
 
 export const EXERCISES: Exercise[] = [
+  {
+    id: 'city-recall',
+    topic: 'cities',
+    title: 'Städte auf der Karte sammeln',
+    description: 'Tippe Städtenamen eines Landes ein und fülle die Karte.',
+    variants: { input: ['city_recall'] },
+    scope: 'country',
+    resources: [],
+    kind: 'city-recall',
+    defaultScope: 'country:DE',
+    defaultLength: 'all',
+  },
   {
     id: 'country-flags',
     topic: 'flags',

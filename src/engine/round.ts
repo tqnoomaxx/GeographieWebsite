@@ -1,6 +1,7 @@
 import type { CategoryId } from './types'
 import type { Entity } from '@/domain/types'
 import { AUTO, ROUND_LENGTHS, modeFor, quizFor, type Content } from '@/config/quizzes'
+import { cityMinimum } from '@/domain/cityRecall'
 import { SCOPES } from './scope'
 import { selectedProfileIds } from './profile'
 import { exerciseFor, exerciseScopeAllowed } from '@/config/quizCatalog'
@@ -15,6 +16,7 @@ export interface RoundConfig {
   exercise?: string
   collection?: string
   fields?: string[]
+  minPopulation?: number
   /** Fragetyp: 'auto' oder eine Mode-ID aus config/quizzes.ts */
   mode: string
   /** world | <Kontinent> | country:<ISO> */
@@ -45,6 +47,7 @@ export function toQuery(c: RoundConfig): string {
   const p = new URLSearchParams()
   if (c.exercise) p.set('quiz', c.exercise)
   if (c.collection) p.set('collection', c.collection)
+  if (c.minPopulation !== undefined) p.set('population', String(c.minPopulation))
   if (c.fields?.length) p.set('fields', c.fields.join(','))
   p.set('mode', c.mode)
   p.set('scope', c.scope)
@@ -90,6 +93,10 @@ export function fromQuery(category: CategoryId, params: URLSearchParams): RoundC
     collection: selected?.collections
       ? (selected.collections.find((c) => c.id === params.get('collection')) ?? selected.collections[0]).id
       : undefined,
+    minPopulation:
+      selected?.kind === 'city-recall'
+        ? cityMinimum(params.has('population') ? Number(params.get('population')) : undefined)
+        : undefined,
     fields: selected?.kind === 'profile' ? selectedProfileIds(params.get('fields')?.split(',')) : undefined,
     mode: selected
       ? selected.variants[requestedMode as 'choice' | 'input' | 'map']
@@ -100,8 +107,8 @@ export function fromQuery(category: CategoryId, params: URLSearchParams): RoundC
       selected && !exerciseScopeAllowed(selected, scope, requestedMode)
         ? (selected.defaultScope ?? 'world')
         : scope,
-    length,
-    repeat: params.get('repeat') !== '0',
+    length: selected?.kind === 'city-recall' ? 'all' : length,
+    repeat: selected?.kind === 'city-recall' ? false : params.get('repeat') !== '0',
     content: content === 'country' || content === 'region' ? [content] : undefined,
     only,
     hideFlagHints: params.get('hide_hints') === '1',

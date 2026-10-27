@@ -1,0 +1,4573 @@
+{
+ "country": "country:CO",
+ "cities": [
+  {
+   "id": "city:CO-bogota",
+   "name": "Bogotá",
+   "aliases": [
+    "Bogota",
+    "BOG",
+    "Bagata",
+    "Bogot",
+    "Bogoto",
+    "Bogotà",
+    "Boqota",
+    "Buoguota",
+    "Bógóta",
+    "Mponkota",
+    "Santa-Fe-de-Bogota",
+    "Santafe de Bogota",
+    "Santafe de Bogotá",
+    "Santafé de Bogotá",
+    "Wukuta",
+    "beageatta",
+    "bo ge da",
+    "bogota",
+    "bokota",
+    "bwghwta",
+    "bwgwta",
+    "bwgwth",
+    "bwjwta",
+    "pokotta",
+    "Μπογκοτά",
+    "Багата",
+    "Богота",
+    "Боґота",
+    "Санта-Фе-де-Богота",
+    "Բոգոտա",
+    "באגאטא",
+    "בוגוטה",
+    "بوجوتا",
+    "بوغوتا",
+    "بوگوتا",
+    "بگوٹا",
+    "بۆگۆتا",
+    "बोगोटा",
+    "बोगोता",
+    "বোগোতা",
+    "ਬੋਗੋਤਾ",
+    "ବୋଗୋଟା",
+    "பொகோட்டா",
+    "ಬೊಗೋಟ",
+    "ബൊഗോട്ട",
+    "โบโกตา",
+    "པོ་གོ་ཏ",
+    "ဘိုဂိုတာမြို့",
+    "ბოგოტა",
+    "ቦጎታ",
+    "ទីក្រុងបូកូតា",
+    "ボゴタ",
+    "波哥大",
+    "보고타"
+   ],
+   "lat": 4.60971,
+   "lon": -74.08175,
+   "population": 7674366,
+   "geonameId": "3688689"
+  },
+  {
+   "id": "city:CO-cali",
+   "name": "Cali",
+   "aliases": [
+    "CLO",
+    "Calium",
+    "Cáli",
+    "Kali",
+    "Kalio",
+    "Kalis",
+    "Santiago de Cali",
+    "ka li",
+    "kali",
+    "kalli",
+    "kaly",
+    "santiago・de・kari",
+    "Кали",
+    "Калі",
+    "סנטיאגו דה קאלי",
+    "كالي",
+    "کالی",
+    "काली",
+    "কালি",
+    "ਕਾਲੀ",
+    "กาลี",
+    "ካሊ",
+    "サンティアゴ・デ・カリ",
+    "卡利",
+    "칼리"
+   ],
+   "lat": 3.43054,
+   "lon": -76.5199,
+   "population": 2392877,
+   "geonameId": "3687925"
+  },
+  {
+   "id": "city:CO-medellin",
+   "name": "Medellín",
+   "aliases": [
+    "Medellin",
+    "MDE",
+    "Medegin",
+    "Medehl'in",
+    "Medel'in",
+    "Medelim",
+    "Medelin",
+    "Medeljina",
+    "Medeljinas",
+    "Medeljino",
+    "mai de lin",
+    "mdlyn",
+    "mdyyn",
+    "me de yin",
+    "medein",
+    "medejin",
+    "medelini",
+    "medellina",
+    "medeyina",
+    "meteyin",
+    "mydyllyn",
+    "mydylyn",
+    "myڈyln",
+    "myډyln",
+    "Μεδεγίν",
+    "Меделин",
+    "Медельín",
+    "Медельин",
+    "Медельїн",
+    "Медељин",
+    "Медэльін",
+    "מדיין",
+    "مدلین",
+    "ميديللين",
+    "ميديلين",
+    "میڈیلن",
+    "میډیلن",
+    "मेडेल्लिन",
+    "मेदेयीन",
+    "মেদেয়িন",
+    "ਮੇਦੇਯੀਨ",
+    "மெதெயின்",
+    "เมเดยิน",
+    "მედელინი",
+    "ሜዴሊን",
+    "ទីក្រុងមេឌេយីណ",
+    "メデジン",
+    "麦德林",
+    "메데인"
+   ],
+   "lat": 6.245,
+   "lon": -75.57151,
+   "population": 1999979,
+   "geonameId": "3674962"
+  },
+  {
+   "id": "city:CO-barranquilla",
+   "name": "Barranquilla",
+   "aliases": [
+    "BAQ",
+    "Barankil'ja",
+    "Barankila",
+    "Barankilija",
+    "Barankilijo",
+    "Barankilja",
+    "Barran'kigia",
+    "Barrancas de San Nicolas",
+    "Barrancas de San Nicolás",
+    "Barrankil'ja",
+    "Barrankilya",
+    "Barranquilha",
+    "Killa",
+    "La Arenosa",
+    "Quilla",
+    "ba lan ji ya",
+    "ba leng ji ye",
+    "balangkiya",
+    "bar rang ki ya",
+    "barakwyla",
+    "baranakiya",
+    "baranaku'ila",
+    "baranikila",
+    "barankija",
+    "barankwla",
+    "barankwyla",
+    "beranakila",
+    "brnqyyh",
+    "byarenkvila",
+    "Μπαρρανκίγια",
+    "Баранкиля",
+    "Баранкиља",
+    "Баранкілья",
+    "Барранкилья",
+    "Барранкілья",
+    "ברנקייה",
+    "بارانكويلا",
+    "بارانکولا",
+    "بارانکویلا",
+    "باراکویلا",
+    "बेरानकिला",
+    "ब्यारेन्क्विला",
+    "বারানকুইলা",
+    "ਬਾਰਾਙਕੀਯਾ",
+    "บาร์รังกียา",
+    "ბარანკილია",
+    "ባራንኪላ",
+    "バランキージャ",
+    "巴兰基亚",
+    "巴冷基也",
+    "바랑키야"
+   ],
+   "lat": 10.96854,
+   "lon": -74.78132,
+   "population": 1206319,
+   "geonameId": "3689147"
+  },
+  {
+   "id": "city:CO-cartagena",
+   "name": "Cartagena",
+   "aliases": [
+    "CTG",
+    "Caratagena de Indias",
+    "Cartagena das Indias",
+    "Cartagena das Índias",
+    "Cartagena de Indias",
+    "Cartaxena de Indias",
+    "Carthagene",
+    "Carthagene des Indes",
+    "Carthagène",
+    "Carthagène des Indes",
+    "Kartachena",
+    "Kartageno",
+    "Kartakhena",
+    "Kartakhena de Indijas",
+    "ka ta he na",
+    "kaleutahena",
+    "karatajena",
+    "karitahena",
+    "kartagyna",
+    "kartahena",
+    "kartajena",
+    "kartajyna",
+    "kartakhna",
+    "karutahena",
+    "karٹajyna",
+    "qrtajnt  kwlwmbya",
+    "qrthnh",
+    "Картахена",
+    "Картахена де Индијас",
+    "קרטחנה",
+    "قرطاجنة، كولومبيا",
+    "کارتاجینا",
+    "کارتاخنا",
+    "کارتاگینا",
+    "کارٹاجینا",
+    "कार्टाजेना",
+    "কার্তাহেনা",
+    "ਕਾਰਟਾਜੇਨਾ",
+    "კარტახენა",
+    "ካርታሄና",
+    "カルタヘナ",
+    "卡塔赫纳",
+    "카르타헤나"
+   ],
+   "lat": 10.39817,
+   "lon": -75.49328,
+   "population": 914552,
+   "geonameId": "3687238"
+  },
+  {
+   "id": "city:CO-cucuta",
+   "name": "Cúcuta",
+   "aliases": [
+    "Cucuta",
+    "CUC",
+    "Kukuta",
+    "San Jose de Cucuta",
+    "San Jose de Guacimal",
+    "San José de Cùcuta",
+    "San José de Cúcuta",
+    "San José de Guacimal",
+    "ku ku ta",
+    "kukuta",
+    "kwkwta",
+    "swswta",
+    "Кукутá",
+    "Кукута",
+    "سوسوتا",
+    "كوكوتا",
+    "کوکوتا",
+    "कुकुटा",
+    "কুকুটা",
+    "ਕੁਕੁਟਾ",
+    "กูกูตา",
+    "კუკუტა",
+    "ኩኩታ",
+    "ククタ",
+    "库库塔",
+    "쿠쿠타"
+   ],
+   "lat": 7.90745,
+   "lon": -72.5049,
+   "population": 777106,
+   "geonameId": "3685533"
+  },
+  {
+   "id": "city:geonames-3667905",
+   "name": "Soacha",
+   "aliases": [
+    "Soachu",
+    "Соачу"
+   ],
+   "lat": 4.57937,
+   "lon": -74.21682,
+   "population": 655025,
+   "geonameId": "3667905"
+  },
+  {
+   "id": "city:CO-bucaramanga",
+   "name": "Bucaramanga",
+   "aliases": [
+    "BGA",
+    "Bucaramango",
+    "Bukaramanga",
+    "bu ka la man jia",
+    "bukalamang-ga",
+    "bukaramanga",
+    "bukaramaniga",
+    "bwkaramanga",
+    "bwkaramnga",
+    "bwkaramnګa",
+    "bwkaramyanja",
+    "Букараманга",
+    "Букараманґа",
+    "بوكاراميانجا",
+    "بوکارامانگا",
+    "بوکارامنګا",
+    "بوکارامنگا",
+    "बुकारामांगा",
+    "বুকারামাঙ্গা",
+    "ਬੁਕਾਰਾਮਾਂਗਾ",
+    "ბუკარამანგა",
+    "ቡካራማንጋ",
+    "ブカラマンガ",
+    "布卡拉曼加",
+    "부카라망가"
+   ],
+   "lat": 7.125,
+   "lon": -73.11895,
+   "population": 581130,
+   "geonameId": "3688465"
+  },
+  {
+   "id": "city:CO-ibague",
+   "name": "Ibagué",
+   "aliases": [
+    "Ibague",
+    "IBE",
+    "Ibage",
+    "Ibageh",
+    "Ibaguê",
+    "Ibagė",
+    "abajy",
+    "abygے",
+    "aybagwyh",
+    "ibage",
+    "ibagu",
+    "ibagu'e",
+    "ibagve",
+    "yi wa ge",
+    "ʿibage",
+    "Ібаге",
+    "Ібагэ",
+    "Ибаге",
+    "Ибагуé",
+    "أباجي",
+    "اباگوۓ",
+    "ابیگے",
+    "ایباگوئه",
+    "इबाग्वे",
+    "ইবাগু",
+    "ਇਬਾਗੂਏ",
+    "იბაგე",
+    "ኢባጌ",
+    "イバゲ",
+    "伊瓦格",
+    "이바게"
+   ],
+   "lat": 4.43573,
+   "lon": -75.20289,
+   "population": 529635,
+   "geonameId": "3680656"
+  },
+  {
+   "id": "city:CO-santa-marta",
+   "name": "Santa Marta",
+   "aliases": [
+    "SMR",
+    "Santa-Marta",
+    "sanita marita",
+    "santa marata",
+    "santa marta",
+    "santamaruta",
+    "snth mrth",
+    "Санта Марта",
+    "Санта-Марта",
+    "סנטה מרתה",
+    "سانتا مارتا",
+    "सांता मार्ता",
+    "সান্তা মার্তা",
+    "ਸਾਂਤਾ ਮਾਰਤਾ",
+    "ሳንታ ማርታ",
+    "サンタマルタ"
+   ],
+   "lat": 11.23855,
+   "lon": -74.19427,
+   "population": 499192,
+   "geonameId": "3668605"
+  },
+  {
+   "id": "city:CO-monteria",
+   "name": "Montería",
+   "aliases": [
+    "Monteria",
+    "MTR",
+    "Monterija",
+    "San Jeronimo de Buenavista",
+    "San Jerónimo de Buenavista",
+    "manteriya",
+    "monateri'a",
+    "moniteriya",
+    "monteria",
+    "monteriya",
+    "mwntrya",
+    "mwntyrya",
+    "mwnٹyrya",
+    "Монтерía",
+    "Монтерия",
+    "مونتریا",
+    "مونتيريا",
+    "مونتیریا",
+    "مونٹیریا",
+    "मोंटेरिया",
+    "মন্টেরিয়া",
+    "ਮੋਨਟੇਰਿਆ",
+    "ሞንቴሪያ",
+    "モンテリア"
+   ],
+   "lat": 8.75081,
+   "lon": -75.87823,
+   "population": 490935,
+   "geonameId": "3674453"
+  },
+  {
+   "id": "city:CO-valledupar",
+   "name": "Valledupar",
+   "aliases": [
+    "VUP",
+    "Val'edupar",
+    "Valedupar",
+    "Valjeduparas",
+    "ba ye du pa er",
+    "bajedouparu",
+    "bhyaledupara",
+    "twrbw",
+    "valeduፓri",
+    "valledupara",
+    "veledupara",
+    "waldwpar",
+    "wylydwpar",
+    "wylے ڈwpar",
+    "yedupaleu",
+    "Валедупар",
+    "Вальедупар",
+    "توربو",
+    "والدوپار",
+    "ویلیدوپار",
+    "ویلے ڈوپار",
+    "वल्लेदुपार",
+    "ভ্যালেদুপার",
+    "ਵੇਲੇਦੁਪਾਰ",
+    "ვალიედუპარი",
+    "ቫለዱፓር",
+    "バジェドゥパル",
+    "巴耶杜帕尔",
+    "예두파르"
+   ],
+   "lat": 10.46538,
+   "lon": -73.2531,
+   "population": 490075,
+   "geonameId": "3666304"
+  },
+  {
+   "id": "city:geonames-3672486",
+   "name": "Pereira",
+   "aliases": [
+    "Antigua Cartago",
+    "Cartago Viejo",
+    "PEI",
+    "Perejra",
+    "Villa de Robledo",
+    "byryra",
+    "pere'ira",
+    "pereira",
+    "perera",
+    "perira",
+    "pryra",
+    "pyryra",
+    "Перейра",
+    "بيريرا",
+    "پریرا",
+    "پیریرا",
+    "पेरीरा",
+    "পেরেইরা",
+    "ਪੇਰੇਰਾ",
+    "ፐrera",
+    "ፐሬራ",
+    "ペレイラ"
+   ],
+   "lat": 4.81428,
+   "lon": -75.69488,
+   "population": 467269,
+   "geonameId": "3672486"
+  },
+  {
+   "id": "city:CO-manizales",
+   "name": "Manizales",
+   "aliases": [
+    "MZL",
+    "Manisales",
+    "Manisalesas",
+    "ma ni sa lai si",
+    "manijalesa",
+    "manisalesi",
+    "manisalleseu",
+    "manisaresu",
+    "manizalesa",
+    "manizalesi",
+    "manizelsa",
+    "manysals",
+    "manyzalys",
+    "manzylys",
+    "mnyzals",
+    "Манисалес",
+    "Манісалес",
+    "مانزیلیس",
+    "مانيزاليس",
+    "مانیسالس",
+    "منیزالس",
+    "मानिज़ेल्स",
+    "মানিজালেস",
+    "ਮਾਨਿਜ਼ਾਲੇਸ",
+    "მანისალესი",
+    "ማኒዛለስ",
+    "マニサレス",
+    "馬尼薩萊斯",
+    "마니살레스"
+   ],
+   "lat": 5.0668,
+   "lon": -75.50684,
+   "population": 434403,
+   "geonameId": "3675443"
+  },
+  {
+   "id": "city:geonames-3688452",
+   "name": "Buenaventura",
+   "aliases": [
+    "Буенавентура"
+   ],
+   "lat": 3.58333,
+   "lon": -77,
+   "population": 432385,
+   "geonameId": "3688452"
+  },
+  {
+   "id": "city:geonames-3688928",
+   "name": "Bello",
+   "aliases": [
+    "Begio",
+    "Bejo",
+    "Bel'o",
+    "Beljas",
+    "Bella",
+    "bei yue",
+    "belio",
+    "byyw",
+    "byyw  antywkya",
+    "Μπέγιο",
+    "Бейо",
+    "Белла",
+    "Бельо",
+    "بییو",
+    "بییو، انتیوکیا",
+    "ბელიო",
+    "貝約"
+   ],
+   "lat": 6.33732,
+   "lon": -75.55795,
+   "population": 392939,
+   "geonameId": "3688928"
+  },
+  {
+   "id": "city:CO-pasto",
+   "name": "Pasto",
+   "aliases": [
+    "PSO",
+    "Pastas",
+    "San Juan de Pasto",
+    "bastw",
+    "pasato",
+    "pasto",
+    "pastw",
+    "pasuto",
+    "pasٹw",
+    "Пасто",
+    "باستو",
+    "پاستو",
+    "پاسٹو",
+    "पास्तो",
+    "পাস্তো",
+    "ਪਾਸਤੋ",
+    "ፓsito",
+    "ፓስቶ",
+    "パスト"
+   ],
+   "lat": 1.21456,
+   "lon": -77.27846,
+   "population": 392930,
+   "geonameId": "3672778"
+  },
+  {
+   "id": "city:CO-neiva",
+   "name": "Neiva",
+   "aliases": [
+    "NVA",
+    "Nejva",
+    "ne'ibha",
+    "ne'iva",
+    "neiba",
+    "neyiva",
+    "nyfa",
+    "nywa",
+    "Нейва",
+    "نيفا",
+    "نیوا",
+    "नेइवा",
+    "নেইভা",
+    "ਨੇਇਵਾ",
+    "ኔይቫ",
+    "ネイバ"
+   ],
+   "lat": 2.93001,
+   "lon": -75.27973,
+   "population": 357392,
+   "geonameId": "3673899"
+  },
+  {
+   "id": "city:geonames-3667849",
+   "name": "Soledad",
+   "aliases": [
+    "Соледад"
+   ],
+   "lat": 10.91843,
+   "lon": -74.76459,
+   "population": 342556,
+   "geonameId": "3667849"
+  },
+  {
+   "id": "city:CO-villavicencio",
+   "name": "Villavicencio",
+   "aliases": [
+    "Cantarrana",
+    "Caserio Villavicencio",
+    "VVC",
+    "Vijavisensio",
+    "Vil'javisensio",
+    "Viljavisensijas",
+    "Viljavisensio",
+    "Villavicêncio",
+    "bhillabhisenasi'o",
+    "bi ya wei sen xi ao",
+    "biryabisenshio",
+    "biyabisensio",
+    "fyllafysynsyw",
+    "vilavisenasi'o",
+    "vilavisenisiyo",
+    "viliavisensio",
+    "villavisensiyo",
+    "wlawyknsyw",
+    "wylawysnsyw",
+    "wylawysynsyw",
+    "Вильявисенсио",
+    "Вилявисенсио",
+    "Віявісенсіо",
+    "فيللافيسينسيو",
+    "ولاویکنسیو",
+    "ویلاویسنسیو",
+    "ویلاویسینسیو",
+    "विल्लाविसेन्सियो",
+    "ভিল্লাভিসেনসিও",
+    "ਵਿਲਾਵਿਸੇਨਸੀਓ",
+    "ვილიავისენსიო",
+    "ቪላቪሴንሲዮ",
+    "ビリャビセンシオ",
+    "比亚维森西奥",
+    "비야비센시오"
+   ],
+   "lat": 4.13238,
+   "lon": -73.62564,
+   "population": 321717,
+   "geonameId": "3665900"
+  },
+  {
+   "id": "city:geonames-3671916",
+   "name": "Popayán",
+   "aliases": [
+    "Popayan",
+    "PPN",
+    "Popajan",
+    "Popajanas",
+    "bo pa yang",
+    "bwbayan",
+    "papayana",
+    "popayan",
+    "popayana",
+    "pwpayan",
+    "Попайáн",
+    "Попаян",
+    "بوبايان",
+    "پوپايان",
+    "پوپایان",
+    "पोपायान",
+    "পপায়ান",
+    "ਪੋਪਾਯਾਨ",
+    "ፖፓyani",
+    "ፖፓያን",
+    "ポパヤン",
+    "波帕扬",
+    "포파얀"
+   ],
+   "lat": 2.43823,
+   "lon": -76.61316,
+   "population": 318059,
+   "geonameId": "3671916"
+  },
+  {
+   "id": "city:geonames-3673164",
+   "name": "Palmira",
+   "aliases": [
+    "Палмира"
+   ],
+   "lat": 3.53479,
+   "lon": -76.29774,
+   "population": 312519,
+   "geonameId": "3673164"
+  },
+  {
+   "id": "city:geonames-3689560",
+   "name": "Armenia",
+   "aliases": [
+    "AXM",
+    "Armenie",
+    "Armenien",
+    "Armenija",
+    "Armeniya",
+    "Arminia",
+    "Arménie",
+    "Armênia",
+    "Ermenistan",
+    "Ermənistan",
+    "aramini'a",
+    "armeniya",
+    "armnstan",
+    "armynya",
+    "arumenia",
+    "ʿerimeniya",
+    "Армения",
+    "آرمینیا",
+    "أرمينيا",
+    "ارمنستان",
+    "आर्मेनिया",
+    "আর্মেনিয়া",
+    "ਆਰਮੀਨੀਆ",
+    "አርሜኒያ",
+    "アルメニア"
+   ],
+   "lat": 4.53656,
+   "lon": -75.67263,
+   "population": 304314,
+   "geonameId": "3689560"
+  },
+  {
+   "id": "city:geonames-3680450",
+   "name": "Itagüí",
+   "aliases": [
+    "Itaguei",
+    "Itagoui",
+    "Itagui",
+    "atagwy",
+    "aytagwyy",
+    "yi ta gui",
+    "Ιταγουί",
+    "Итагуи",
+    "اتاگوی",
+    "ایتاگویی",
+    "伊塔圭"
+   ],
+   "lat": 6.18461,
+   "lon": -75.59913,
+   "population": 281853,
+   "geonameId": "3680450"
+  },
+  {
+   "id": "city:geonames-3667983",
+   "name": "Sincelejo",
+   "aliases": [
+    "Cincelejo",
+    "Sinselechas",
+    "Sinselekho",
+    "shinsereho",
+    "sinaselejo",
+    "siniselejo",
+    "sinselekho",
+    "sinselleho",
+    "snsylkhw",
+    "snsylyjw",
+    "snsylyw",
+    "synslkhw",
+    "synsylykhw",
+    "xin sai lai huo",
+    "Синселехо",
+    "سنسیلخو",
+    "سنسیلیجو",
+    "سنسیلیو",
+    "سينسيليخو",
+    "سینسلخو",
+    "सिनसेलेजो",
+    "সিনসেলেজো",
+    "ਸਿਨਸੇਲੇਜੋ",
+    "სინსელეხო",
+    "ሲንሴሌጆ",
+    "シンセレホ",
+    "辛塞萊霍",
+    "신셀레호"
+   ],
+   "lat": 9.3045,
+   "lon": -75.3905,
+   "population": 277773,
+   "geonameId": "3667983"
+  },
+  {
+   "id": "city:geonames-3682385",
+   "name": "Floridablanca",
+   "aliases": [
+    "Florida",
+    "Floridablanka",
+    "Флоридабланка"
+   ],
+   "lat": 7.06222,
+   "lon": -73.08644,
+   "population": 267591,
+   "geonameId": "3682385"
+  },
+  {
+   "id": "city:geonames-3688451",
+   "name": "Buenaventura",
+   "aliases": [
+    "BUN",
+    "Buehnaventura",
+    "bu ai na wen tu la",
+    "bwynawntwra",
+    "Буенавентура",
+    "Буэнавентура",
+    "بوئناونتورا",
+    "بوئناونتورا، ویے دیل کاؤکا",
+    "ბუენავენტურა",
+    "布埃納文圖拉"
+   ],
+   "lat": 3.87962,
+   "lon": -77.03105,
+   "population": 240387,
+   "geonameId": "3688451"
+  },
+  {
+   "id": "city:geonames-3666645",
+   "name": "Tuluá",
+   "aliases": [
+    "Tulua",
+    "Tulúa",
+    "ULQ",
+    "tu lu a",
+    "twlwa",
+    "Тулуа",
+    "تولوآ",
+    "ტულუა",
+    "图卢阿"
+   ],
+   "lat": 4.08484,
+   "lon": -76.19548,
+   "population": 221684,
+   "geonameId": "3666645"
+  },
+  {
+   "id": "city:geonames-3685095",
+   "name": "Dosquebradas",
+   "aliases": [
+    "Dos Quebradas",
+    "Doskebradas",
+    "Доскебрадас"
+   ],
+   "lat": 4.83659,
+   "lon": -75.66926,
+   "population": 206693,
+   "geonameId": "3685095"
+  },
+  {
+   "id": "city:geonames-3689169",
+   "name": "Barrancabermeja",
+   "aliases": [
+    "Barankabermecha",
+    "Barracana Bermeja",
+    "Barrankabermekha",
+    "EJA",
+    "ba lan ka wei mei ha",
+    "barankaberumeha",
+    "Барранкабермеха",
+    "ბარანკაბერმეხა",
+    "バランカベルメハ",
+    "巴蘭卡韋梅哈"
+   ],
+   "lat": 7.06528,
+   "lon": -73.85472,
+   "population": 191403,
+   "geonameId": "3689169"
+  },
+  {
+   "id": "city:geonames-3670745",
+   "name": "Riohacha",
+   "aliases": [
+    "RCH",
+    "Rio de la Hacha",
+    "Rioacha",
+    "Riochacha",
+    "Ríohacha",
+    "ri'ohaca",
+    "riohatcha",
+    "riyohaca",
+    "rywhacha",
+    "rywhachh",
+    "rywhatsha",
+    "rywہachہ",
+    "Риоача",
+    "ريوهاتشا",
+    "ریوهاچا",
+    "ریوهاچه",
+    "ریوہاچہ",
+    "रिओहाचा",
+    "রিওহাচা",
+    "ਰੀਓਹਾਚਾ",
+    "ሪዮሃቻ",
+    "リオハッチャ"
+   ],
+   "lat": 11.54444,
+   "lon": -72.90722,
+   "population": 188014,
+   "geonameId": "3670745"
+  },
+  {
+   "id": "city:geonames-3666608",
+   "name": "Tunja",
+   "aliases": [
+    "Toun'cha",
+    "Tun'kha",
+    "Tuncha",
+    "Tunkha",
+    "tnja",
+    "tnjہ",
+    "tong ha",
+    "tounha",
+    "tunaja",
+    "tunha",
+    "tunija",
+    "tunja",
+    "twnja",
+    "twnkha",
+    "Τούνχα",
+    "Тунха",
+    "Туньха",
+    "تنجا",
+    "تنجہ",
+    "تونجا",
+    "تونخا",
+    "तुंजा",
+    "তুনজা",
+    "ਤੁਂਜਾ",
+    "ቱንጃ",
+    "トゥンハ",
+    "通哈",
+    "툰하"
+   ],
+   "lat": 5.54481,
+   "lon": -73.35756,
+   "population": 172548,
+   "geonameId": "3666608"
+  },
+  {
+   "id": "city:geonames-3665688",
+   "name": "Yopal",
+   "aliases": [
+    "EYP",
+    "El Yopal",
+    "Jopal'",
+    "Jopalis",
+    "Juopales",
+    "Juopalės",
+    "Marroquin",
+    "Marroquín",
+    "i'upala",
+    "yopal",
+    "yopala",
+    "yoparu",
+    "yoፓል",
+    "yue pa er",
+    "ywbal",
+    "ywpal",
+    "Йопаль",
+    "يوبال",
+    "یوپال",
+    "योपाल",
+    "ইউপাল",
+    "ਯੋਪਾਲ",
+    "ዮፓል",
+    "ヨパール",
+    "約帕爾",
+    "요팔"
+   ],
+   "lat": 5.33573,
+   "lon": -72.3939,
+   "population": 168433,
+   "geonameId": "3665688"
+  },
+  {
+   "id": "city:geonames-3682426",
+   "name": "Florencia",
+   "aliases": [
+    "FLA",
+    "Florensija",
+    "Florência",
+    "falorenasi'a",
+    "flwransya",
+    "flwrnshya",
+    "flwrnsya",
+    "furorenshia",
+    "phlorenasiya",
+    "phlorensiya",
+    "Флоренсия",
+    "فلورانسیا",
+    "فلورنسيا",
+    "فلورنشیا",
+    "फ्लोरेंसिया",
+    "ফ্লোরেনশিয়া",
+    "ਫ਼ਲੋਰੇਨਸ਼ੀਆ",
+    "ፍlorenisiya",
+    "ፍሎረንሲያ",
+    "フロレンシア"
+   ],
+   "lat": 1.61549,
+   "lon": -75.60412,
+   "population": 168346,
+   "geonameId": "3682426"
+  },
+  {
+   "id": "city:geonames-3675657",
+   "name": "Maicao",
+   "aliases": [
+    "MCJ",
+    "Maikao",
+    "Маикао"
+   ],
+   "lat": 11.37837,
+   "lon": -72.2395,
+   "population": 166603,
+   "geonameId": "3675657"
+  },
+  {
+   "id": "city:geonames-3672328",
+   "name": "Piedecuesta",
+   "aliases": [
+    "Piedekuesta",
+    "Пиедекуеста"
+   ],
+   "lat": 6.98789,
+   "lon": -73.04953,
+   "population": 163362,
+   "geonameId": "3672328"
+  },
+  {
+   "id": "city:geonames-3682631",
+   "name": "Envigado",
+   "aliases": [
+    "Ehnvigado",
+    "Envigadas",
+    "anwygadw",
+    "aymbygadw",
+    "en wei jia duo",
+    "Ενβιγάδο",
+    "Енвигадо",
+    "Энвигадо",
+    "انویگادو",
+    "ایمبیگادو",
+    "恩維加多"
+   ],
+   "lat": 6.17591,
+   "lon": -75.59174,
+   "population": 163007,
+   "geonameId": "3682631"
+  },
+  {
+   "id": "city:geonames-3682516",
+   "name": "Facatativá",
+   "aliases": [
+    "Facatativa",
+    "Fakatativa",
+    "fa ka ta di wa",
+    "fakatatywa",
+    "Φακατατιβά",
+    "Факататива",
+    "فاکاتاتیوا",
+    "فیکاٹیٹوا",
+    "ფაკატატივა",
+    "法卡塔蒂瓦"
+   ],
+   "lat": 4.81367,
+   "lon": -74.35453,
+   "population": 141762,
+   "geonameId": "3682516"
+  },
+  {
+   "id": "city:geonames-3672110",
+   "name": "Pitalito",
+   "aliases": [
+    "PTX",
+    "Pitalitas",
+    "pi ta li tuo",
+    "Питалито",
+    "პიტალიტო",
+    "皮塔利托"
+   ],
+   "lat": 1.85371,
+   "lon": -76.05071,
+   "population": 135711,
+   "geonameId": "3672110"
+  },
+  {
+   "id": "city:geonames-3675707",
+   "name": "Madrid",
+   "aliases": [
+    "Serrezuela",
+    "Мадрид"
+   ],
+   "lat": 4.73245,
+   "lon": -74.26419,
+   "population": 135000,
+   "geonameId": "3675707"
+  },
+  {
+   "id": "city:geonames-3687230",
+   "name": "Cartago",
+   "aliases": [
+    "CRC",
+    "Kartago",
+    "Картаго"
+   ],
+   "lat": 4.7454,
+   "lon": -75.91247,
+   "population": 134972,
+   "geonameId": "3687230"
+  },
+  {
+   "id": "city:geonames-3665542",
+   "name": "Zipaquirá",
+   "aliases": [
+    "Zipaquira",
+    "Sipakira",
+    "sipakila",
+    "sypagyra",
+    "xi pa ji la",
+    "Сипакира",
+    "سیپاگیرا",
+    "სიპაკირა",
+    "錫帕基拉",
+    "시파키라"
+   ],
+   "lat": 5.02208,
+   "lon": -74.00481,
+   "population": 130432,
+   "geonameId": "3665542"
+  },
+  {
+   "id": "city:geonames-3671116",
+   "name": "Quibdó",
+   "aliases": [
+    "Quibdo",
+    "Kibdo",
+    "Kimpdo",
+    "UIB",
+    "ji bu duo",
+    "kib do",
+    "kibeudo",
+    "kibudo",
+    "ku'ibado",
+    "kubido",
+    "kvibdo",
+    "kwbdw",
+    "kwybdw",
+    "kybdw",
+    "qybdw",
+    "Κιμπδό",
+    "Кибдо",
+    "קיבדו",
+    "قیبدو",
+    "كيبدو",
+    "کوبدو",
+    "کویبدو",
+    "کیبدو",
+    "क्विब्दो",
+    "কুইবদো",
+    "ਕੁਇਬਦੋ",
+    "กิบโด",
+    "ኩብዶ",
+    "キブド",
+    "基布多",
+    "키브도"
+   ],
+   "lat": 5.69188,
+   "lon": -76.65835,
+   "population": 129237,
+   "geonameId": "3671116"
+  },
+  {
+   "id": "city:geonames-3675595",
+   "name": "Malambo",
+   "aliases": [
+    "Маламбо"
+   ],
+   "lat": 10.85953,
+   "lon": -74.77386,
+   "population": 129148,
+   "geonameId": "3675595"
+  },
+  {
+   "id": "city:geonames-3670730",
+   "name": "Rionegro",
+   "aliases": [
+    "li ao nei ge luo",
+    "lionegeulo",
+    "rionegro",
+    "rywngrw",
+    "Ριονέγρο",
+    "Рионегро",
+    "ریونگرو",
+    "რიონეგრო",
+    "里奧內格羅",
+    "리오네그로"
+   ],
+   "lat": 6.15515,
+   "lon": -75.37371,
+   "population": 128153,
+   "geonameId": "3670730"
+  },
+  {
+   "id": "city:geonames-3674292",
+   "name": "Mosquera",
+   "aliases": [
+    "Moskera",
+    "Москера"
+   ],
+   "lat": 4.70592,
+   "lon": -74.23021,
+   "population": 128012,
+   "geonameId": "3674292"
+  },
+  {
+   "id": "city:geonames-3686675",
+   "name": "Chía",
+   "aliases": [
+    "Chia",
+    "Чиа"
+   ],
+   "lat": 4.85876,
+   "lon": -74.05866,
+   "population": 124309,
+   "geonameId": "3686675"
+  },
+  {
+   "id": "city:geonames-3675692",
+   "name": "Magangué",
+   "aliases": [
+    "Magangue",
+    "MGN",
+    "Magange",
+    "Magangė",
+    "Manague",
+    "Mangue",
+    "ma gan ge",
+    "magange",
+    "Маганге",
+    "მაგანგე",
+    "馬甘格"
+   ],
+   "lat": 9.24202,
+   "lon": -74.75467,
+   "population": 123982,
+   "geonameId": "3675692"
+  },
+  {
+   "id": "city:geonames-3682281",
+   "name": "Funza",
+   "aliases": [
+    "Фунза"
+   ],
+   "lat": 4.71638,
+   "lon": -74.21195,
+   "population": 116890,
+   "geonameId": "3682281"
+  },
+  {
+   "id": "city:geonames-3688256",
+   "name": "Guadalajara de Buga",
+   "aliases": [
+    "Buga",
+    "bu jia",
+    "buga",
+    "bwga",
+    "Буга",
+    "بوگا",
+    "ბუგა",
+    "布加"
+   ],
+   "lat": 3.901,
+   "lon": -76.29826,
+   "population": 114316,
+   "geonameId": "3688256"
+  },
+  {
+   "id": "city:geonames-3667873",
+   "name": "Sogamoso",
+   "aliases": [
+    "SOX",
+    "Sogamosas",
+    "suo jia mo suo",
+    "Согамосо",
+    "索加莫索"
+   ],
+   "lat": 5.71434,
+   "lon": -72.93391,
+   "population": 111336,
+   "geonameId": "3667873"
+  },
+  {
+   "id": "city:geonames-3682018",
+   "name": "Girón",
+   "aliases": [
+    "Giron",
+    "Khiron",
+    "Хирон"
+   ],
+   "lat": 7.0682,
+   "lon": -73.16981,
+   "population": 108466,
+   "geonameId": "3682018"
+  },
+  {
+   "id": "city:geonames-3682028",
+   "name": "Girardot City",
+   "aliases": [
+    "GIR",
+    "Girardot",
+    "Zhirardo",
+    "Жирардо"
+   ],
+   "lat": 4.30079,
+   "lon": -74.80754,
+   "population": 107324,
+   "geonameId": "3682028"
+  },
+  {
+   "id": "city:geonames-3670502",
+   "name": "Sabanalarga",
+   "aliases": [
+    "Sabanalargo",
+    "Сабаналарга"
+   ],
+   "lat": 10.63072,
+   "lon": -74.92214,
+   "population": 102334,
+   "geonameId": "3670502"
+  },
+  {
+   "id": "city:geonames-3673662",
+   "name": "Ocaña",
+   "aliases": [
+    "Ocana",
+    "OCV",
+    "Okan'ja",
+    "Okanja",
+    "ao ka ni ya",
+    "awkanya",
+    "Оканья",
+    "اوکانیا",
+    "ოკანია",
+    "奧卡尼亞"
+   ],
+   "lat": 8.23773,
+   "lon": -73.35604,
+   "population": 101158,
+   "geonameId": "3673662"
+  },
+  {
+   "id": "city:geonames-3668572",
+   "name": "Santander de Quilichao",
+   "aliases": [
+    "Quilichao",
+    "Santander"
+   ],
+   "lat": 3.00975,
+   "lon": -76.48499,
+   "population": 99354,
+   "geonameId": "3668572"
+  },
+  {
+   "id": "city:geonames-3690465",
+   "name": "Aguachica",
+   "aliases": [
+    "Aguachika",
+    "Aquachia",
+    "Aquachía",
+    "HAY",
+    "Агуачика"
+   ],
+   "lat": 8.30844,
+   "lon": -73.6166,
+   "population": 97525,
+   "geonameId": "3690465"
+  },
+  {
+   "id": "city:geonames-3686922",
+   "name": "Cereté",
+   "aliases": [
+    "Cerete"
+   ],
+   "lat": 8.88479,
+   "lon": -75.79052,
+   "population": 94935,
+   "geonameId": "3686922"
+  },
+  {
+   "id": "city:geonames-3685084",
+   "name": "Duitama",
+   "aliases": [
+    "Douitama",
+    "du yi ta ma",
+    "Δουιτάμα",
+    "Дуитама",
+    "杜伊塔馬"
+   ],
+   "lat": 5.8245,
+   "lon": -73.03408,
+   "population": 92040,
+   "geonameId": "3685084"
+  },
+  {
+   "id": "city:geonames-3674470",
+   "name": "Montelíbano",
+   "aliases": [
+    "Montelibano",
+    "MTB"
+   ],
+   "lat": 7.97917,
+   "lon": -75.4202,
+   "population": 90450,
+   "geonameId": "3674470"
+  },
+  {
+   "id": "city:geonames-3682274",
+   "name": "Fusagasugá",
+   "aliases": [
+    "Fusagasuga"
+   ],
+   "lat": 4.33646,
+   "lon": -74.36378,
+   "population": 88820,
+   "geonameId": "3682274"
+  },
+  {
+   "id": "city:geonames-3686279",
+   "name": "Ciénaga",
+   "aliases": [
+    "Cienaga",
+    "San Juan de Cienaga",
+    "San Juan de Ciénaga",
+    "Sienaga",
+    "Сиенага"
+   ],
+   "lat": 11.00703,
+   "lon": -74.24765,
+   "population": 88311,
+   "geonameId": "3686279"
+  },
+  {
+   "id": "city:geonames-3666640",
+   "name": "Tumaco",
+   "aliases": [
+    "San Andres de Tumaco",
+    "San Andrés de Tumaco",
+    "TCO",
+    "Tucano",
+    "Tumakas",
+    "Tumako",
+    "tu ma ke",
+    "Тумако",
+    "圖馬科"
+   ],
+   "lat": 1.79112,
+   "lon": -78.79275,
+   "population": 86713,
+   "geonameId": "3666640"
+  },
+  {
+   "id": "city:geonames-3689798",
+   "name": "Apartadó",
+   "aliases": [
+    "Apartado",
+    "APO"
+   ],
+   "lat": 7.88299,
+   "lon": -76.62587,
+   "population": 86438,
+   "geonameId": "3689798"
+  },
+  {
+   "id": "city:geonames-3686636",
+   "name": "Chigorodó",
+   "aliases": [
+    "Chigorodo",
+    "IGO"
+   ],
+   "lat": 7.66638,
+   "lon": -76.68106,
+   "population": 86239,
+   "geonameId": "3686636"
+  },
+  {
+   "id": "city:geonames-3689718",
+   "name": "Arauca",
+   "aliases": [
+    "AUC",
+    "Arauka",
+    "Arauko",
+    "Arausa",
+    "Araŭko",
+    "a lao ka",
+    "alauka",
+    "ara'uka",
+    "arauka",
+    "arawka",
+    "arawka  arawka",
+    "araywka",
+    "ʿeraውka",
+    "Араука",
+    "Арауса",
+    "آراؤکا",
+    "آرائوکا",
+    "آراوکا، آراوکا",
+    "أراوكا",
+    "اراوکا",
+    "अराउका",
+    "আরাউকা",
+    "ਅਰਾਉਕਾ",
+    "არაუკა",
+    "አራውካ",
+    "アラウカ",
+    "阿劳卡",
+    "아라우카"
+   ],
+   "lat": 7.08471,
+   "lon": -70.75908,
+   "population": 85585,
+   "geonameId": "3689718"
+  },
+  {
+   "id": "city:geonames-3687952",
+   "name": "Caldas",
+   "aliases": [
+    "Kal'das",
+    "Kaldas",
+    "ka er da si",
+    "kaldas",
+    "Κάλδας",
+    "Кальдас",
+    "کالداس",
+    "კალდასი",
+    "卡爾達斯"
+   ],
+   "lat": 6.09106,
+   "lon": -75.63569,
+   "population": 82234,
+   "geonameId": "3687952"
+  },
+  {
+   "id": "city:geonames-3679277",
+   "name": "La Dorada",
+   "aliases": [
+    "Dorada",
+    "La-Dorada",
+    "Ла-Дорада"
+   ],
+   "lat": 5.44783,
+   "lon": -74.66311,
+   "population": 81950,
+   "geonameId": "3679277"
+  },
+  {
+   "id": "city:geonames-3687964",
+   "name": "Calarcá",
+   "aliases": [
+    "Calarca"
+   ],
+   "lat": 4.52863,
+   "lon": -75.64024,
+   "population": 79569,
+   "geonameId": "3687964"
+  },
+  {
+   "id": "city:geonames-3680539",
+   "name": "Ipiales",
+   "aliases": [
+    "IPI",
+    "Ip'jales",
+    "Ipijales",
+    "Ipjalesas",
+    "yi pi ya lai si",
+    "Іпіялес",
+    "Ипьялес",
+    "伊皮亞萊斯"
+   ],
+   "lat": 0.82501,
+   "lon": -77.63966,
+   "population": 77729,
+   "geonameId": "3680539"
+  },
+  {
+   "id": "city:geonames-3665657",
+   "name": "Yumbo",
+   "aliases": [],
+   "lat": 3.58236,
+   "lon": -76.49147,
+   "population": 71436,
+   "geonameId": "3665657"
+  },
+  {
+   "id": "city:geonames-3672068",
+   "name": "Planeta Rica",
+   "aliases": [
+    "PLC",
+    "Planeta-Riki",
+    "Планета-Рики"
+   ],
+   "lat": 8.4115,
+   "lon": -75.58508,
+   "population": 69708,
+   "geonameId": "3672068"
+  },
+  {
+   "id": "city:geonames-3681957",
+   "name": "Granada",
+   "aliases": [
+    "Boca de Monte",
+    "Grenada",
+    "Гренада"
+   ],
+   "lat": 3.54625,
+   "lon": -73.70687,
+   "population": 68876,
+   "geonameId": "3681957"
+  },
+  {
+   "id": "city:geonames-3686561",
+   "name": "Chinchiná",
+   "aliases": [
+    "Chinchina",
+    "Chinchiny",
+    "Чинчины"
+   ],
+   "lat": 4.9832,
+   "lon": -75.60488,
+   "population": 68512,
+   "geonameId": "3686561"
+  },
+  {
+   "id": "city:geonames-3689235",
+   "name": "Baranoa",
+   "aliases": [],
+   "lat": 10.79408,
+   "lon": -74.9164,
+   "population": 68383,
+   "geonameId": "3689235"
+  },
+  {
+   "id": "city:geonames-3665913",
+   "name": "Villa del Rosario",
+   "aliases": [
+    "Rosario",
+    "Vil'ja-del'-Rosario",
+    "Villa Rosario",
+    "Вилья-дель-Росарио"
+   ],
+   "lat": 7.83389,
+   "lon": -72.47417,
+   "population": 64951,
+   "geonameId": "3665913"
+  },
+  {
+   "id": "city:geonames-3669346",
+   "name": "San Marcos",
+   "aliases": [
+    "SRS"
+   ],
+   "lat": 8.65972,
+   "lon": -75.12809,
+   "population": 60735,
+   "geonameId": "3669346"
+  },
+  {
+   "id": "city:geonames-3670419",
+   "name": "Sahagún",
+   "aliases": [
+    "Sahagun"
+   ],
+   "lat": 8.94617,
+   "lon": -75.44275,
+   "population": 59188,
+   "geonameId": "3670419"
+  },
+  {
+   "id": "city:geonames-3682292",
+   "name": "Fundación",
+   "aliases": [
+    "Fundacion"
+   ],
+   "lat": 10.52066,
+   "lon": -74.18504,
+   "population": 59175,
+   "geonameId": "3682292"
+  },
+  {
+   "id": "city:geonames-3675975",
+   "name": "Los Patios",
+   "aliases": [],
+   "lat": 7.83793,
+   "lon": -72.5037,
+   "population": 58661,
+   "geonameId": "3675975"
+  },
+  {
+   "id": "city:geonames-3670218",
+   "name": "San Andrés",
+   "aliases": [
+    "San Andres",
+    "ADZ",
+    "Saint Andrews",
+    "San-Andres",
+    "saina aindarisa",
+    "saina endresa",
+    "san andrys",
+    "san'andoresu",
+    "sana andresa",
+    "sani ʿenidiresi",
+    "Сан-Андрес",
+    "سان أندريس",
+    "سان اندریس",
+    "सैन एंड्रेस",
+    "সান আন্দ্রেস",
+    "ਸੈਨ ਐਂਡਰਿਸ",
+    "ሳን አንድሬስ",
+    "サンアンドレス"
+   ],
+   "lat": 12.57858,
+   "lon": -81.69973,
+   "population": 58257,
+   "geonameId": "3670218"
+  },
+  {
+   "id": "city:geonames-3687025",
+   "name": "Caucasia",
+   "aliases": [
+    "CAQ",
+    "Canafistola",
+    "Cañafístola",
+    "Kaukasija",
+    "Kavkaz",
+    "kao ka xi ya",
+    "kawkasya",
+    "Кавказ",
+    "Каукасия",
+    "کاوکاسیا",
+    "კაუკასია",
+    "考卡西亞"
+   ],
+   "lat": 7.98654,
+   "lon": -75.19349,
+   "population": 58034,
+   "geonameId": "3687025"
+  },
+  {
+   "id": "city:geonames-3668454",
+   "name": "Santa Rosa de Cabal",
+   "aliases": [
+    "Santa Rosa",
+    "Santa Rosa Cabal",
+    "Santa-Rosa-de-Kabal'",
+    "Санта-Роса-де-Кабаль"
+   ],
+   "lat": 4.86889,
+   "lon": -75.62195,
+   "population": 57928,
+   "geonameId": "3668454"
+  },
+  {
+   "id": "city:geonames-3829343",
+   "name": "Orito",
+   "aliases": [
+    "Орито"
+   ],
+   "lat": 0.66749,
+   "lon": -76.87297,
+   "population": 57774,
+   "geonameId": "3829343"
+  },
+  {
+   "id": "city:geonames-3675263",
+   "name": "Marinilla",
+   "aliases": [],
+   "lat": 6.17358,
+   "lon": -75.33621,
+   "population": 57403,
+   "geonameId": "3675263"
+  },
+  {
+   "id": "city:geonames-3674654",
+   "name": "Mocoa",
+   "aliases": [
+    "Mokoa",
+    "mo ke a",
+    "moko'a",
+    "mokoa",
+    "mokoya",
+    "mokweya",
+    "mwkwa",
+    "Мокоа",
+    "موكوا",
+    "موکوآ",
+    "موکوا",
+    "मोकोआ",
+    "মোকোয়া",
+    "ਮੋਕੋਆ",
+    "მოკოა",
+    "ሞኮያ",
+    "モコア",
+    "莫科阿",
+    "모코아"
+   ],
+   "lat": 1.15284,
+   "lon": -76.65208,
+   "population": 56398,
+   "geonameId": "3674654"
+  },
+  {
+   "id": "city:geonames-3682573",
+   "name": "Espinal",
+   "aliases": [
+    "Ehspinal'",
+    "El Espinal",
+    "Эспиналь"
+   ],
+   "lat": 4.14924,
+   "lon": -74.88429,
+   "population": 56213,
+   "geonameId": "3682573"
+  },
+  {
+   "id": "city:geonames-3666577",
+   "name": "Turbaco",
+   "aliases": [],
+   "lat": 10.32944,
+   "lon": -75.41137,
+   "population": 56171,
+   "geonameId": "3666577"
+  },
+  {
+   "id": "city:geonames-3689381",
+   "name": "Ayapel",
+   "aliases": [
+    "AYA"
+   ],
+   "lat": 8.31372,
+   "lon": -75.13982,
+   "population": 56082,
+   "geonameId": "3689381"
+  },
+  {
+   "id": "city:geonames-3684917",
+   "name": "El Banco",
+   "aliases": [
+    "Banco",
+    "ELB",
+    "Ehl'-Banka",
+    "Эль-Банка"
+   ],
+   "lat": 9.00114,
+   "lon": -73.97581,
+   "population": 54522,
+   "geonameId": "3684917"
+  },
+  {
+   "id": "city:geonames-3688006",
+   "name": "Cajicá",
+   "aliases": [
+    "Cajica"
+   ],
+   "lat": 4.91857,
+   "lon": -74.02799,
+   "population": 54111,
+   "geonameId": "3688006"
+  },
+  {
+   "id": "city:geonames-3689205",
+   "name": "Barbosa",
+   "aliases": [
+    "Barboza",
+    "ba er bo sa",
+    "babwsa",
+    "barbosa",
+    "Барбоза",
+    "Барбоса",
+    "بابوسا",
+    "ბარბოსა",
+    "巴爾博薩"
+   ],
+   "lat": 6.43809,
+   "lon": -75.33136,
+   "population": 53943,
+   "geonameId": "3689205"
+  },
+  {
+   "id": "city:geonames-3673045",
+   "name": "Pamplona",
+   "aliases": [
+    "Памплона"
+   ],
+   "lat": 7.37565,
+   "lon": -72.64795,
+   "population": 53587,
+   "geonameId": "3673045"
+  },
+  {
+   "id": "city:geonames-3828545",
+   "name": "San José del Guaviare",
+   "aliases": [
+    "San Jose del Guaviare",
+    "SJE",
+    "San Xose del Quavyare",
+    "San-Khose-del'-Guaviare",
+    "saina josa dela gu'avi'ere",
+    "saina jose dela gu'avi'are",
+    "san jwzے ڈyl gwwyar",
+    "san khwsyh dyl gwafyar",
+    "san khwsyh dyl jwafyar",
+    "san khwzh dl gwwyar",
+    "sana hose dela guyabhiyara",
+    "sani hose deል gwaviyari",
+    "san・hose・deru・guabiare",
+    "Сан-Хосе-дель-Гуавиаре",
+    "سان جوزے ڈیل گوویار",
+    "سان خوزه دل گوویار",
+    "سان خوسيه ديل جوافيار",
+    "سان خوسيه ديل گوافيار",
+    "सैन जोस डेल गुआविएरे",
+    "সান হোসে দেল গুয়াভিয়ার",
+    "ਸੈਨ ਜੋਸੇ ਡੇਲ ਗੁਆਵਿਆਰੇ",
+    "ሳን ሆሴ ዴል ጓቪያር",
+    "サン・ホセ・デル・グアビアレ"
+   ],
+   "lat": 2.56799,
+   "lon": -72.63972,
+   "population": 52815,
+   "geonameId": "3828545"
+  },
+  {
+   "id": "city:geonames-3792383",
+   "name": "Agustín Codazzi",
+   "aliases": [
+    "Agustin Codazzi",
+    "Agustin-Kodassi",
+    "Codazzi",
+    "agstn kwdazy",
+    "agwstyn kwdazy",
+    "ke da qi",
+    "Агустин-Кодасси",
+    "آگستن کودازی",
+    "اگوستین کودازی",
+    "კოდასი",
+    "科達齊"
+   ],
+   "lat": 10.03672,
+   "lon": -73.23558,
+   "population": 51478,
+   "geonameId": "3792383"
+  },
+  {
+   "id": "city:geonames-3684945",
+   "name": "El Bagre",
+   "aliases": [
+    "EBG",
+    "Ehl'-Bagre",
+    "ai er ba ge lai",
+    "al bagrh",
+    "el-bagre",
+    "Эль-Багре",
+    "ال باگره",
+    "ელ-ბაგრე",
+    "埃爾巴格萊"
+   ],
+   "lat": 7.60347,
+   "lon": -74.80951,
+   "population": 51150,
+   "geonameId": "3684945"
+  },
+  {
+   "id": "city:geonames-3671540",
+   "name": "Puerto Berrío",
+   "aliases": [
+    "Puerto Berrio",
+    "PBE"
+   ],
+   "lat": 6.49156,
+   "lon": -74.40326,
+   "population": 51079,
+   "geonameId": "3671540"
+  },
+  {
+   "id": "city:geonames-3686255",
+   "name": "Cimitarra",
+   "aliases": [
+    "CIM"
+   ],
+   "lat": 6.31419,
+   "lon": -73.94968,
+   "population": 50892,
+   "geonameId": "3686255"
+  },
+  {
+   "id": "city:geonames-3686540",
+   "name": "Chinú",
+   "aliases": [
+    "Chinu"
+   ],
+   "lat": 9.10569,
+   "lon": -75.39812,
+   "population": 50743,
+   "geonameId": "3686540"
+  },
+  {
+   "id": "city:geonames-3666570",
+   "name": "Turbo",
+   "aliases": [
+    "TRB",
+    "Турбо"
+   ],
+   "lat": 8.09263,
+   "lon": -76.72822,
+   "population": 50508,
+   "geonameId": "3666570"
+  },
+  {
+   "id": "city:geonames-3689570",
+   "name": "Arjona",
+   "aliases": [],
+   "lat": 10.25444,
+   "lon": -75.34389,
+   "population": 50405,
+   "geonameId": "3689570"
+  },
+  {
+   "id": "city:geonames-3687318",
+   "name": "Carmen de Viboral",
+   "aliases": [
+    "Carmen Viboral",
+    "Ehl'-Karmen-de-Viboral'",
+    "El Carmen de Viboral",
+    "al karmn dh wywwral",
+    "ka men de bi bo la er",
+    "Эль-Кармен-де-Вибораль",
+    "ال کارمن ده ویوورال",
+    "კარმენ-დე-ვიბორალი",
+    "卡門德比博拉爾"
+   ],
+   "lat": 6.08236,
+   "lon": -75.33509,
+   "population": 49642,
+   "geonameId": "3687318"
+  },
+  {
+   "id": "city:geonames-3679065",
+   "name": "La Estrella",
+   "aliases": [
+    "Estrella",
+    "La-Ehstrel'ja",
+    "Ла-Эстрелья"
+   ],
+   "lat": 6.15769,
+   "lon": -75.64317,
+   "population": 49386,
+   "geonameId": "3679065"
+  },
+  {
+   "id": "city:geonames-3685949",
+   "name": "Copacabana",
+   "aliases": [
+    "Kopakabana",
+    "Municipio de Copacabana",
+    "Копакабана"
+   ],
+   "lat": 6.34633,
+   "lon": -75.50888,
+   "population": 49169,
+   "geonameId": "3685949"
+  },
+  {
+   "id": "city:geonames-3670293",
+   "name": "Samaniego",
+   "aliases": [],
+   "lat": 1.33849,
+   "lon": -77.5957,
+   "population": 49085,
+   "geonameId": "3670293"
+  },
+  {
+   "id": "city:geonames-3792392",
+   "name": "Plato",
+   "aliases": [
+    "PLT",
+    "Плато"
+   ],
+   "lat": 9.79029,
+   "lon": -74.78244,
+   "population": 48606,
+   "geonameId": "3792392"
+  },
+  {
+   "id": "city:geonames-3676623",
+   "name": "Leticia",
+   "aliases": [
+    "LET",
+    "Leticija",
+    "Letisi",
+    "Letisia",
+    "Letisija",
+    "Letícia",
+    "lai di xi ya",
+    "laitisi'a",
+    "letishiya",
+    "letisia",
+    "letisiya",
+    "ltysya",
+    "ltysyh",
+    "lytykya",
+    "lytyshya",
+    "lytysya",
+    "lytysya  aymazwnas",
+    "retishia",
+    "Летиси",
+    "Летисиа",
+    "Летисия",
+    "Летиция",
+    "לטיסיה",
+    "לעטיסיע",
+    "لتیسیا",
+    "ليتيسيا",
+    "لیتیسیا، ایمازوناس",
+    "لیتیشیا",
+    "لیتیکیا",
+    "लेटिशिया",
+    "লেটিশিয়া",
+    "ਲੈਟੀਸ਼ੀਆ",
+    "ሌቲሺያ",
+    "レティシア",
+    "萊蒂西亞",
+    "레티시아"
+   ],
+   "lat": -4.21079,
+   "lon": -69.93944,
+   "population": 48144,
+   "geonameId": "3676623"
+  },
+  {
+   "id": "city:geonames-3684666",
+   "name": "El Carmen de Bolívar",
+   "aliases": [
+    "El Carmen de Bolivar",
+    "Carmen",
+    "El Carmen",
+    "Karmen-de-Bolivar",
+    "Кармен-де-Боливар"
+   ],
+   "lat": 9.7174,
+   "lon": -75.12023,
+   "population": 47957,
+   "geonameId": "3684666"
+  },
+  {
+   "id": "city:geonames-3682393",
+   "name": "Florida",
+   "aliases": [
+    "La Florida",
+    "Perodias",
+    "Perodías",
+    "Флорида"
+   ],
+   "lat": 3.32401,
+   "lon": -76.23436,
+   "population": 47173,
+   "geonameId": "3682393"
+  },
+  {
+   "id": "city:geonames-3671315",
+   "name": "Puerto Tejada",
+   "aliases": [],
+   "lat": 3.23229,
+   "lon": -76.41784,
+   "population": 46215,
+   "geonameId": "3671315"
+  },
+  {
+   "id": "city:geonames-3669808",
+   "name": "San Gil",
+   "aliases": [
+    "LPZ",
+    "San Chilis",
+    "san khyl",
+    "san-khili",
+    "sheng xi er",
+    "سان خیل",
+    "სან-ხილი",
+    "聖希爾"
+   ],
+   "lat": 6.55952,
+   "lon": -73.13637,
+   "population": 46152,
+   "geonameId": "3669808"
+  },
+  {
+   "id": "city:geonames-3686513",
+   "name": "Chiquinquirá",
+   "aliases": [
+    "Chiquinquira"
+   ],
+   "lat": 5.61637,
+   "lon": -73.81748,
+   "population": 45294,
+   "geonameId": "3686513"
+  },
+  {
+   "id": "city:geonames-3680387",
+   "name": "Jamundí",
+   "aliases": [
+    "Jamundi",
+    "El Rosario",
+    "Khamundi",
+    "Хамунди"
+   ],
+   "lat": 3.26177,
+   "lon": -76.54021,
+   "population": 44833,
+   "geonameId": "3680387"
+  },
+  {
+   "id": "city:geonames-3671772",
+   "name": "Pradera",
+   "aliases": [
+    "Прадера"
+   ],
+   "lat": 3.41974,
+   "lon": -76.24187,
+   "population": 44630,
+   "geonameId": "3671772"
+  },
+  {
+   "id": "city:geonames-8633918",
+   "name": "Piendamo",
+   "aliases": [],
+   "lat": 2.63918,
+   "lon": -76.53055,
+   "population": 44000,
+   "geonameId": "8633918"
+  },
+  {
+   "id": "city:geonames-3668132",
+   "name": "Sevilla",
+   "aliases": [],
+   "lat": 4.26548,
+   "lon": -75.93151,
+   "population": 43738,
+   "geonameId": "3668132"
+  },
+  {
+   "id": "city:geonames-3674702",
+   "name": "Miranda",
+   "aliases": [
+    "Миранда"
+   ],
+   "lat": 3.24987,
+   "lon": -76.22807,
+   "population": 43333,
+   "geonameId": "3674702"
+  },
+  {
+   "id": "city:geonames-3674463",
+   "name": "Montenegro",
+   "aliases": [],
+   "lat": 4.56594,
+   "lon": -75.7499,
+   "population": 41996,
+   "geonameId": "3674463"
+  },
+  {
+   "id": "city:geonames-3689759",
+   "name": "Aracataca",
+   "aliases": [
+    "Arakataka",
+    "a la ka ta ka",
+    "arakataka",
+    "yarkataka",
+    "Аракатака",
+    "آراکاتاکا",
+    "أراكاتاكا",
+    "ئارکاتاکا",
+    "არაკატაკა",
+    "阿拉卡塔卡"
+   ],
+   "lat": 10.59181,
+   "lon": -74.18983,
+   "population": 41872,
+   "geonameId": "3689759"
+  },
+  {
+   "id": "city:geonames-3681702",
+   "name": "Guaduas",
+   "aliases": [],
+   "lat": 5.06692,
+   "lon": -74.59499,
+   "population": 41838,
+   "geonameId": "3681702"
+  },
+  {
+   "id": "city:geonames-3676928",
+   "name": "La Unión",
+   "aliases": [
+    "La Union",
+    "La Unicion",
+    "Lemos"
+   ],
+   "lat": 4.53314,
+   "lon": -76.10337,
+   "population": 41013,
+   "geonameId": "3676928"
+  },
+  {
+   "id": "city:geonames-3690577",
+   "name": "Acacías",
+   "aliases": [
+    "Acacias"
+   ],
+   "lat": 3.98695,
+   "lon": -73.75797,
+   "population": 40627,
+   "geonameId": "3690577"
+  },
+  {
+   "id": "city:geonames-3676397",
+   "name": "Lorica",
+   "aliases": [],
+   "lat": 9.23648,
+   "lon": -75.8135,
+   "population": 40605,
+   "geonameId": "3676397"
+  },
+  {
+   "id": "city:geonames-3688566",
+   "name": "Bosconia",
+   "aliases": [],
+   "lat": 9.97106,
+   "lon": -73.88817,
+   "population": 40562,
+   "geonameId": "3688566"
+  },
+  {
+   "id": "city:geonames-3669469",
+   "name": "San Juan del Cesar",
+   "aliases": [
+    "SJH",
+    "San Juan de Cesar",
+    "San Juan de César"
+   ],
+   "lat": 10.77107,
+   "lon": -73.00314,
+   "population": 40069,
+   "geonameId": "3669469"
+  },
+  {
+   "id": "city:geonames-3666582",
+   "name": "Túquerres",
+   "aliases": [
+    "Tuquerres"
+   ],
+   "lat": 1.08647,
+   "lon": -77.61858,
+   "population": 40038,
+   "geonameId": "3666582"
+  },
+  {
+   "id": "city:geonames-3668175",
+   "name": "Segovia",
+   "aliases": [],
+   "lat": 7.07993,
+   "lon": -74.6989,
+   "population": 39938,
+   "geonameId": "3668175"
+  },
+  {
+   "id": "city:geonames-3685823",
+   "name": "Corozal",
+   "aliases": [
+    "CZU",
+    "Korosal'",
+    "Коросаль"
+   ],
+   "lat": 9.31847,
+   "lon": -75.2933,
+   "population": 39800,
+   "geonameId": "3685823"
+  },
+  {
+   "id": "city:geonames-3676604",
+   "name": "Líbano",
+   "aliases": [
+    "Libano"
+   ],
+   "lat": 4.9218,
+   "lon": -75.06232,
+   "population": 39459,
+   "geonameId": "3676604"
+  },
+  {
+   "id": "city:geonames-3684615",
+   "name": "El Cerrito",
+   "aliases": [
+    "Cerrito"
+   ],
+   "lat": 3.68532,
+   "lon": -76.31203,
+   "population": 38390,
+   "geonameId": "3684615"
+  },
+  {
+   "id": "city:geonames-3689162",
+   "name": "Barrancas",
+   "aliases": [],
+   "lat": 10.95672,
+   "lon": -72.79456,
+   "population": 38232,
+   "geonameId": "3689162"
+  },
+  {
+   "id": "city:geonames-3668451",
+   "name": "Santa Rosa de Osos",
+   "aliases": [
+    "Santa Rosa",
+    "Santa-Rosa-de-Osos",
+    "santa rwsa dh rwsws",
+    "sheng luo sha de ao suo si",
+    "Санта-Роса-де-Осос",
+    "سانتا روسا ده روسوس",
+    "სანტა-როსა-დე-ოსოსი",
+    "聖羅莎德奧索斯"
+   ],
+   "lat": 6.64738,
+   "lon": -75.46031,
+   "population": 37864,
+   "geonameId": "3668451"
+  },
+  {
+   "id": "city:geonames-3672761",
+   "name": "Patía",
+   "aliases": [
+    "Patia"
+   ],
+   "lat": 2.06895,
+   "lon": -77.05273,
+   "population": 37781,
+   "geonameId": "3672761"
+  },
+  {
+   "id": "city:geonames-3781636",
+   "name": "Bosconia",
+   "aliases": [],
+   "lat": 4.85583,
+   "lon": -73.98167,
+   "population": 37676,
+   "geonameId": "3781636"
+  },
+  {
+   "id": "city:geonames-3672664",
+   "name": "Payandé",
+   "aliases": [
+    "Payande",
+    "Corregimiento de Payande",
+    "Payanda"
+   ],
+   "lat": 4.2975,
+   "lon": -75.09667,
+   "population": 37496,
+   "geonameId": "3672664"
+  },
+  {
+   "id": "city:geonames-3669188",
+   "name": "San Pablo",
+   "aliases": [
+    "Corregimiento San Pablo"
+   ],
+   "lat": 10.05154,
+   "lon": -75.26775,
+   "population": 37160,
+   "geonameId": "3669188"
+  },
+  {
+   "id": "city:geonames-3673398",
+   "name": "Belalcázar",
+   "aliases": [
+    "Belalcazar",
+    "Belalcazer",
+    "Belalcázer",
+    "Paez",
+    "Páez"
+   ],
+   "lat": 2.64644,
+   "lon": -75.97269,
+   "population": 36977,
+   "geonameId": "3673398"
+  },
+  {
+   "id": "city:geonames-3679554",
+   "name": "La Ceja",
+   "aliases": [],
+   "lat": 6.03131,
+   "lon": -75.43333,
+   "population": 36584,
+   "geonameId": "3679554"
+  },
+  {
+   "id": "city:geonames-3682047",
+   "name": "Gigante",
+   "aliases": [],
+   "lat": 2.38678,
+   "lon": -75.54736,
+   "population": 36055,
+   "geonameId": "3682047"
+  },
+  {
+   "id": "city:geonames-3671098",
+   "name": "Quimbaya",
+   "aliases": [],
+   "lat": 4.62406,
+   "lon": -75.7627,
+   "population": 35350,
+   "geonameId": "3671098"
+  },
+  {
+   "id": "city:geonames-3665973",
+   "name": "Villamaría",
+   "aliases": [
+    "Villamaria"
+   ],
+   "lat": 5.04509,
+   "lon": -75.51249,
+   "population": 35302,
+   "geonameId": "3665973"
+  },
+  {
+   "id": "city:geonames-3670513",
+   "name": "Sabanagrande",
+   "aliases": [],
+   "lat": 10.79115,
+   "lon": -74.76059,
+   "population": 35044,
+   "geonameId": "3670513"
+  },
+  {
+   "id": "city:geonames-3685335",
+   "name": "Curumaní",
+   "aliases": [
+    "Curumani",
+    "Corregimiento Curumani",
+    "Corregimiento Curumaní",
+    "Kurumani",
+    "Курумани"
+   ],
+   "lat": 9.19992,
+   "lon": -73.54274,
+   "population": 34838,
+   "geonameId": "3685335"
+  },
+  {
+   "id": "city:geonames-3672653",
+   "name": "Paz de Ariporo",
+   "aliases": [
+    "Moreno",
+    "Municipio Paz de Ariporo",
+    "PZA"
+   ],
+   "lat": 5.88148,
+   "lon": -71.89167,
+   "population": 34446,
+   "geonameId": "3672653"
+  },
+  {
+   "id": "city:geonames-3670199",
+   "name": "San Antero",
+   "aliases": [],
+   "lat": 9.3741,
+   "lon": -75.75891,
+   "population": 34196,
+   "geonameId": "3670199"
+  },
+  {
+   "id": "city:geonames-3669454",
+   "name": "San Juan Nepomuceno",
+   "aliases": [
+    "San Juan"
+   ],
+   "lat": 9.95157,
+   "lon": -75.08198,
+   "population": 34110,
+   "geonameId": "3669454"
+  },
+  {
+   "id": "city:geonames-3671091",
+   "name": "Quinchía",
+   "aliases": [
+    "Quinchia",
+    "Nazaret"
+   ],
+   "lat": 5.33948,
+   "lon": -75.72956,
+   "population": 34069,
+   "geonameId": "3671091"
+  },
+  {
+   "id": "city:geonames-3685871",
+   "name": "Corinto",
+   "aliases": [],
+   "lat": 3.17301,
+   "lon": -76.26275,
+   "population": 33846,
+   "geonameId": "3685871"
+  },
+  {
+   "id": "city:geonames-3671348",
+   "name": "Puerto Rico",
+   "aliases": [],
+   "lat": 1.90999,
+   "lon": -75.15931,
+   "population": 33765,
+   "geonameId": "3671348"
+  },
+  {
+   "id": "city:geonames-3671615",
+   "name": "Puebloviejo",
+   "aliases": [
+    "Pueblo Viejo"
+   ],
+   "lat": 10.99376,
+   "lon": -74.28439,
+   "population": 33720,
+   "geonameId": "3671615"
+  },
+  {
+   "id": "city:geonames-3667820",
+   "name": "Sonsón",
+   "aliases": [
+    "Sonson"
+   ],
+   "lat": 5.71062,
+   "lon": -75.31069,
+   "population": 33598,
+   "geonameId": "3667820"
+  },
+  {
+   "id": "city:geonames-3667918",
+   "name": "Sitionuevo",
+   "aliases": [],
+   "lat": 10.77737,
+   "lon": -74.72049,
+   "population": 33440,
+   "geonameId": "3667918"
+  },
+  {
+   "id": "city:geonames-3675252",
+   "name": "San Sebastián de Mariquita",
+   "aliases": [
+    "San Sebastian de Mariquita",
+    "MQU",
+    "Mariquita"
+   ],
+   "lat": 5.19889,
+   "lon": -74.89295,
+   "population": 33340,
+   "geonameId": "3675252"
+  },
+  {
+   "id": "city:geonames-3689833",
+   "name": "Anserma",
+   "aliases": [
+    "Ансерма"
+   ],
+   "lat": 5.33278,
+   "lon": -75.79111,
+   "population": 33146,
+   "geonameId": "3689833"
+  },
+  {
+   "id": "city:geonames-3672093",
+   "name": "Pivijay",
+   "aliases": [],
+   "lat": 10.46167,
+   "lon": -74.61621,
+   "population": 33047,
+   "geonameId": "3672093"
+  },
+  {
+   "id": "city:geonames-3669218",
+   "name": "San Onofre",
+   "aliases": [],
+   "lat": 9.73586,
+   "lon": -75.52626,
+   "population": 32957,
+   "geonameId": "3669218"
+  },
+  {
+   "id": "city:geonames-3688071",
+   "name": "Caicedonia",
+   "aliases": [],
+   "lat": 4.33267,
+   "lon": -75.8265,
+   "population": 32417,
+   "geonameId": "3688071"
+  },
+  {
+   "id": "city:geonames-3682374",
+   "name": "Fonseca",
+   "aliases": [],
+   "lat": 10.88606,
+   "lon": -72.8487,
+   "population": 32220,
+   "geonameId": "3682374"
+  },
+  {
+   "id": "city:geonames-3665951",
+   "name": "Villanueva",
+   "aliases": [],
+   "lat": 5.28333,
+   "lon": -71.96667,
+   "population": 31727,
+   "geonameId": "3665951"
+  },
+  {
+   "id": "city:geonames-3671287",
+   "name": "Puerto Wilches",
+   "aliases": [],
+   "lat": 7.34828,
+   "lon": -73.89601,
+   "population": 31698,
+   "geonameId": "3671287"
+  },
+  {
+   "id": "city:geonames-3674597",
+   "name": "Mompós",
+   "aliases": [
+    "Mompos",
+    "Caserio Jaime"
+   ],
+   "lat": 9.24194,
+   "lon": -74.42667,
+   "population": 30861,
+   "geonameId": "3674597"
+  },
+  {
+   "id": "city:geonames-3667991",
+   "name": "San Luis de Sincé",
+   "aliases": [
+    "San Luis de Since",
+    "Since",
+    "Sincé"
+   ],
+   "lat": 9.24391,
+   "lon": -75.14675,
+   "population": 30768,
+   "geonameId": "3667991"
+  },
+  {
+   "id": "city:geonames-3669087",
+   "name": "San Pedro de Urabá",
+   "aliases": [
+    "San Pedro de Uraba",
+    "NPU"
+   ],
+   "lat": 8.27515,
+   "lon": -76.37641,
+   "population": 30527,
+   "geonameId": "3669087"
+  },
+  {
+   "id": "city:geonames-3681563",
+   "name": "Guamo",
+   "aliases": [],
+   "lat": 4.03078,
+   "lon": -74.9701,
+   "population": 30516,
+   "geonameId": "3681563"
+  },
+  {
+   "id": "city:geonames-3686585",
+   "name": "Chimichagua",
+   "aliases": [
+    "Chimicragua"
+   ],
+   "lat": 9.25778,
+   "lon": -73.81228,
+   "population": 30289,
+   "geonameId": "3686585"
+  },
+  {
+   "id": "city:geonames-3667887",
+   "name": "Socorro",
+   "aliases": [],
+   "lat": 6.46838,
+   "lon": -73.26022,
+   "population": 29997,
+   "geonameId": "3667887"
+  },
+  {
+   "id": "city:geonames-3674676",
+   "name": "Mitú",
+   "aliases": [
+    "Mitu",
+    "MVP",
+    "mitou",
+    "mitu",
+    "mytw",
+    "Митú",
+    "ميتو",
+    "میتو",
+    "मितु",
+    "মিটু",
+    "ਮਿਤੁ",
+    "ሚቱ",
+    "ミトゥ"
+   ],
+   "lat": 1.25744,
+   "lon": -70.23551,
+   "population": 29850,
+   "geonameId": "3674676"
+  },
+  {
+   "id": "city:geonames-3671549",
+   "name": "Puerto Asís",
+   "aliases": [
+    "Puerto Asis",
+    "PUU",
+    "Puehrto-Asis",
+    "Пуэрто-Асис"
+   ],
+   "lat": 0.50514,
+   "lon": -76.49571,
+   "population": 29782,
+   "geonameId": "3671549"
+  },
+  {
+   "id": "city:geonames-3770718",
+   "name": "Morales",
+   "aliases": [
+    "Моралес"
+   ],
+   "lat": 2.75446,
+   "lon": -76.62791,
+   "population": 29737,
+   "geonameId": "3770718"
+  },
+  {
+   "id": "city:geonames-3671208",
+   "name": "Purificación",
+   "aliases": [
+    "Purificacion"
+   ],
+   "lat": 3.85871,
+   "lon": -74.93129,
+   "population": 29539,
+   "geonameId": "3671208"
+  },
+  {
+   "id": "city:geonames-3682108",
+   "name": "Garzón",
+   "aliases": [
+    "Garzon",
+    "GLJ"
+   ],
+   "lat": 2.19593,
+   "lon": -75.62777,
+   "population": 29451,
+   "geonameId": "3682108"
+  },
+  {
+   "id": "city:geonames-3682458",
+   "name": "Flandes",
+   "aliases": [
+    "Фландес"
+   ],
+   "lat": 4.29005,
+   "lon": -74.81612,
+   "population": 29296,
+   "geonameId": "3682458"
+  },
+  {
+   "id": "city:geonames-3667478",
+   "name": "Tame",
+   "aliases": [
+    "TME",
+    "Tam",
+    "ta mei",
+    "tamh",
+    "Там",
+    "تامه",
+    "ტამე",
+    "塔梅"
+   ],
+   "lat": 6.46065,
+   "lon": -71.73618,
+   "population": 29099,
+   "geonameId": "3667478"
+  },
+  {
+   "id": "city:geonames-3665559",
+   "name": "Zarzal",
+   "aliases": [],
+   "lat": 4.3958,
+   "lon": -76.07113,
+   "population": 28761,
+   "geonameId": "3665559"
+  },
+  {
+   "id": "city:geonames-3668332",
+   "name": "Santo Tomás",
+   "aliases": [
+    "Santo Tomas"
+   ],
+   "lat": 10.75773,
+   "lon": -74.75451,
+   "population": 28693,
+   "geonameId": "3668332"
+  },
+  {
+   "id": "city:geonames-3684579",
+   "name": "El Charco",
+   "aliases": [
+    "Charco",
+    "ECR"
+   ],
+   "lat": 2.48075,
+   "lon": -78.10972,
+   "population": 28673,
+   "geonameId": "3684579"
+  },
+  {
+   "id": "city:geonames-3684452",
+   "name": "El Copey",
+   "aliases": [
+    "Copei",
+    "Corregimiento El Copey"
+   ],
+   "lat": 10.15031,
+   "lon": -73.9614,
+   "population": 28550,
+   "geonameId": "3684452"
+  },
+  {
+   "id": "city:geonames-3680840",
+   "name": "Honda",
+   "aliases": [],
+   "lat": 5.20856,
+   "lon": -74.73584,
+   "population": 28158,
+   "geonameId": "3680840"
+  },
+  {
+   "id": "city:geonames-3670520",
+   "name": "Sabana de Torres",
+   "aliases": [
+    "SNT"
+   ],
+   "lat": 7.3915,
+   "lon": -73.49574,
+   "population": 27845,
+   "geonameId": "3670520"
+  },
+  {
+   "id": "city:geonames-3675826",
+   "name": "Luruaco",
+   "aliases": [],
+   "lat": 10.61712,
+   "lon": -75.15146,
+   "population": 27647,
+   "geonameId": "3675826"
+  },
+  {
+   "id": "city:geonames-3670644",
+   "name": "Roldanillo",
+   "aliases": [],
+   "lat": 4.41369,
+   "lon": -76.15259,
+   "population": 27561,
+   "geonameId": "3670644"
+  },
+  {
+   "id": "city:geonames-3666939",
+   "name": "Santiago de Tolú",
+   "aliases": [
+    "Santiago de Tolu",
+    "TLU",
+    "Tol",
+    "Tolu",
+    "Tolú",
+    "tuo lu",
+    "twlw",
+    "Тол",
+    "تولو",
+    "ტოლუ",
+    "托盧"
+   ],
+   "lat": 9.52392,
+   "lon": -75.58139,
+   "population": 27390,
+   "geonameId": "3666939"
+  },
+  {
+   "id": "city:geonames-3671531",
+   "name": "Puerto Boyacá",
+   "aliases": [
+    "Puerto Boyaca",
+    "PYA"
+   ],
+   "lat": 5.976,
+   "lon": -74.58516,
+   "population": 27310,
+   "geonameId": "3671531"
+  },
+  {
+   "id": "city:geonames-3686233",
+   "name": "Circasia",
+   "aliases": [
+    "Circacia"
+   ],
+   "lat": 4.61905,
+   "lon": -75.63584,
+   "population": 27135,
+   "geonameId": "3686233"
+  },
+  {
+   "id": "city:geonames-3673220",
+   "name": "Palmar de Varela",
+   "aliases": [
+    "Palma de Varela",
+    "Palmar",
+    "Palmer"
+   ],
+   "lat": 10.74055,
+   "lon": -74.75443,
+   "population": 27098,
+   "geonameId": "3673220"
+  },
+  {
+   "id": "city:geonames-3677010",
+   "name": "La Tebaida",
+   "aliases": [
+    "Tebaida"
+   ],
+   "lat": 4.45242,
+   "lon": -75.7869,
+   "population": 27098,
+   "geonameId": "3677010"
+  },
+  {
+   "id": "city:geonames-3686479",
+   "name": "Chiriguaná",
+   "aliases": [
+    "Chiriguana"
+   ],
+   "lat": 9.36238,
+   "lon": -73.60313,
+   "population": 27006,
+   "geonameId": "3686479"
+  },
+  {
+   "id": "city:geonames-3690250",
+   "name": "Albania",
+   "aliases": [
+    "Albanio"
+   ],
+   "lat": 11.16099,
+   "lon": -72.59238,
+   "population": 26940,
+   "geonameId": "3690250"
+  },
+  {
+   "id": "city:geonames-3678405",
+   "name": "La Mesa",
+   "aliases": [],
+   "lat": 5.26667,
+   "lon": -73.91667,
+   "population": 26699,
+   "geonameId": "3678405"
+  },
+  {
+   "id": "city:geonames-3667697",
+   "name": "Supía",
+   "aliases": [
+    "Supia"
+   ],
+   "lat": 5.45182,
+   "lon": -75.65107,
+   "population": 26571,
+   "geonameId": "3667697"
+  },
+  {
+   "id": "city:geonames-3689589",
+   "name": "Ariguaní",
+   "aliases": [
+    "Ariguani"
+   ],
+   "lat": 10.25,
+   "lon": -74,
+   "population": 26246,
+   "geonameId": "3689589"
+  },
+  {
+   "id": "city:geonames-3667158",
+   "name": "Tierralta",
+   "aliases": [
+    "Los Bongos",
+    "T'erral'ta",
+    "Tierra Alta",
+    "Тьерральта"
+   ],
+   "lat": 8.17361,
+   "lon": -76.05917,
+   "population": 26242,
+   "geonameId": "3667158"
+  },
+  {
+   "id": "city:geonames-3671497",
+   "name": "Puerto Colombia",
+   "aliases": [],
+   "lat": 10.98778,
+   "lon": -74.95472,
+   "population": 26227,
+   "geonameId": "3671497"
+  },
+  {
+   "id": "city:geonames-3675668",
+   "name": "Mahates",
+   "aliases": [
+    "Mahales"
+   ],
+   "lat": 10.23293,
+   "lon": -75.18985,
+   "population": 26075,
+   "geonameId": "3675668"
+  },
+  {
+   "id": "city:geonames-3682682",
+   "name": "El Zulia",
+   "aliases": [
+    "Villa Zulia",
+    "Zulia"
+   ],
+   "lat": 7.93248,
+   "lon": -72.60125,
+   "population": 26019,
+   "geonameId": "3682682"
+  },
+  {
+   "id": "city:geonames-3674885",
+   "name": "Melgar",
+   "aliases": [
+    "Mel'gar",
+    "Мельгар"
+   ],
+   "lat": 4.20475,
+   "lon": -74.64075,
+   "population": 25980,
+   "geonameId": "3674885"
+  },
+  {
+   "id": "city:geonames-3676720",
+   "name": "La Virginia",
+   "aliases": [],
+   "lat": 4.90006,
+   "lon": -75.88278,
+   "population": 25900,
+   "geonameId": "3676720"
+  },
+  {
+   "id": "city:geonames-3689952",
+   "name": "Anaime",
+   "aliases": [],
+   "lat": 4.39639,
+   "lon": -75.445,
+   "population": 25715,
+   "geonameId": "3689952"
+  },
+  {
+   "id": "city:geonames-3670874",
+   "name": "Repelón",
+   "aliases": [
+    "Repelon"
+   ],
+   "lat": 10.4952,
+   "lon": -75.12448,
+   "population": 25467,
+   "geonameId": "3670874"
+  },
+  {
+   "id": "city:geonames-3681596",
+   "name": "Guamal",
+   "aliases": [
+    "GAA"
+   ],
+   "lat": 9.14334,
+   "lon": -74.22384,
+   "population": 25312,
+   "geonameId": "3681596"
+  },
+  {
+   "id": "city:geonames-3680944",
+   "name": "Hatonuevo",
+   "aliases": [],
+   "lat": 11.06944,
+   "lon": -72.76694,
+   "population": 24792,
+   "geonameId": "3680944"
+  },
+  {
+   "id": "city:geonames-3792389",
+   "name": "Isnos",
+   "aliases": [
+    "Иснос"
+   ],
+   "lat": 1.93556,
+   "lon": -76.24056,
+   "population": 24593,
+   "geonameId": "3792389"
+  },
+  {
+   "id": "city:geonames-3665566",
+   "name": "Zaragoza",
+   "aliases": [],
+   "lat": 7.48971,
+   "lon": -74.86919,
+   "population": 24067,
+   "geonameId": "3665566"
+  },
+  {
+   "id": "city:geonames-3673976",
+   "name": "Nechí",
+   "aliases": [
+    "Nechi"
+   ],
+   "lat": 8.09419,
+   "lon": -74.77573,
+   "population": 24066,
+   "geonameId": "3673976"
+  },
+  {
+   "id": "city:geonames-3685435",
+   "name": "Cumaribo",
+   "aliases": [],
+   "lat": 4.44552,
+   "lon": -69.79897,
+   "population": 23990,
+   "geonameId": "3685435"
+  },
+  {
+   "id": "city:geonames-3687644",
+   "name": "Candelaria",
+   "aliases": [],
+   "lat": 3.40807,
+   "lon": -76.34804,
+   "population": 23989,
+   "geonameId": "3687644"
+  },
+  {
+   "id": "city:geonames-3680434",
+   "name": "Ituango",
+   "aliases": [],
+   "lat": 7.17117,
+   "lon": -75.76404,
+   "population": 23784,
+   "geonameId": "3680434"
+  },
+  {
+   "id": "city:geonames-3669736",
+   "name": "San Jacinto",
+   "aliases": [],
+   "lat": 9.82767,
+   "lon": -75.1217,
+   "population": 23576,
+   "geonameId": "3669736"
+  },
+  {
+   "id": "city:geonames-3669997",
+   "name": "San Carlos",
+   "aliases": [],
+   "lat": 8.79577,
+   "lon": -75.69947,
+   "population": 23532,
+   "geonameId": "3669997"
+  },
+  {
+   "id": "city:geonames-3671936",
+   "name": "Ponedera",
+   "aliases": [
+    "Ponederas",
+    "Ponedero",
+    "Понедера"
+   ],
+   "lat": 10.64297,
+   "lon": -74.75393,
+   "population": 23420,
+   "geonameId": "3671936"
+  },
+  {
+   "id": "city:geonames-3675287",
+   "name": "María la Baja",
+   "aliases": [
+    "Maria la Baja"
+   ],
+   "lat": 9.9832,
+   "lon": -75.30155,
+   "population": 23401,
+   "geonameId": "3675287"
+  },
+  {
+   "id": "city:geonames-3792376",
+   "name": "Ciudad Bolívar",
+   "aliases": [
+    "Ciudad Bolivar"
+   ],
+   "lat": 5.85389,
+   "lon": -76.02528,
+   "population": 23361,
+   "geonameId": "3792376"
+  },
+  {
+   "id": "city:geonames-3672197",
+   "name": "Pinillos",
+   "aliases": [],
+   "lat": 8.91925,
+   "lon": -74.46771,
+   "population": 23349,
+   "geonameId": "3672197"
+  },
+  {
+   "id": "city:geonames-3689816",
+   "name": "Santa Fe de Antioquia",
+   "aliases": [
+    "Antioquia"
+   ],
+   "lat": 6.55687,
+   "lon": -75.82806,
+   "population": 23216,
+   "geonameId": "3689816"
+  },
+  {
+   "id": "city:geonames-3667728",
+   "name": "Sucre",
+   "aliases": [
+    "Boca de Granada",
+    "Sukre",
+    "Сукре"
+   ],
+   "lat": 8.81136,
+   "lon": -74.72084,
+   "population": 23210,
+   "geonameId": "3667728"
+  },
+  {
+   "id": "city:geonames-3668087",
+   "name": "Sibaté",
+   "aliases": [
+    "Sibate"
+   ],
+   "lat": 4.49154,
+   "lon": -74.25957,
+   "population": 23208,
+   "geonameId": "3668087"
+  },
+  {
+   "id": "city:geonames-3670692",
+   "name": "Rivera",
+   "aliases": [
+    "San Mateo",
+    "Ривера"
+   ],
+   "lat": 2.77717,
+   "lon": -75.25642,
+   "population": 22877,
+   "geonameId": "3670692"
+  },
+  {
+   "id": "city:geonames-3687758",
+   "name": "Campo de la Cruz",
+   "aliases": [
+    "Kampo-de-la-Krus",
+    "Puerto Real de la Cruz",
+    "Кампо-де-ла-Крус"
+   ],
+   "lat": 10.37808,
+   "lon": -74.88356,
+   "population": 22810,
+   "geonameId": "3687758"
+  },
+  {
+   "id": "city:geonames-3685295",
+   "name": "Dabeiba",
+   "aliases": [
+    "Dabelba"
+   ],
+   "lat": 7.00017,
+   "lon": -76.26915,
+   "population": 22717,
+   "geonameId": "3685295"
+  },
+  {
+   "id": "city:geonames-3687806",
+   "name": "Campoalegre",
+   "aliases": [
+    "Kampoalegre",
+    "Sevilla",
+    "Кампоалегре"
+   ],
+   "lat": 2.68489,
+   "lon": -75.32311,
+   "population": 22568,
+   "geonameId": "3687806"
+  },
+  {
+   "id": "city:geonames-3674010",
+   "name": "Natagaima",
+   "aliases": [
+    "Matagaima"
+   ],
+   "lat": 3.62057,
+   "lon": -75.09415,
+   "population": 22455,
+   "geonameId": "3674010"
+  },
+  {
+   "id": "city:geonames-3665741",
+   "name": "Yarumal",
+   "aliases": [],
+   "lat": 6.96321,
+   "lon": -75.41738,
+   "population": 22368,
+   "geonameId": "3665741"
+  },
+  {
+   "id": "city:geonames-3669332",
+   "name": "San Martín",
+   "aliases": [
+    "San Martin"
+   ],
+   "lat": 3.69637,
+   "lon": -73.69957,
+   "population": 22281,
+   "geonameId": "3669332"
+  },
+  {
+   "id": "city:geonames-3667355",
+   "name": "Tauramena",
+   "aliases": [
+    "TAU"
+   ],
+   "lat": 5.01789,
+   "lon": -72.74675,
+   "population": 21709,
+   "geonameId": "3667355"
+  },
+  {
+   "id": "city:geonames-3667070",
+   "name": "Timbiquí",
+   "aliases": [
+    "Timbiqui",
+    "Santa Barbara",
+    "Santa Bárbara",
+    "TBD"
+   ],
+   "lat": 2.7717,
+   "lon": -77.66536,
+   "population": 21618,
+   "geonameId": "3667070"
+  },
+  {
+   "id": "city:geonames-3672077",
+   "name": "Planadas",
+   "aliases": [
+    "PLA",
+    "Планадас"
+   ],
+   "lat": 3.19698,
+   "lon": -75.64506,
+   "population": 21557,
+   "geonameId": "3672077"
+  },
+  {
+   "id": "city:geonames-3688989",
+   "name": "Belén de Umbría",
+   "aliases": [
+    "Belen de Umbria",
+    "Belen",
+    "Belén",
+    "Mocatan",
+    "Mocatán"
+   ],
+   "lat": 5.20199,
+   "lon": -75.86753,
+   "population": 21450,
+   "geonameId": "3688989"
+  },
+  {
+   "id": "city:geonames-3678674",
+   "name": "La Jagua de Ibirico",
+   "aliases": [
+    "Jagua",
+    "La Jagua"
+   ],
+   "lat": 9.56228,
+   "lon": -73.33405,
+   "population": 21386,
+   "geonameId": "3678674"
+  },
+  {
+   "id": "city:geonames-3670280",
+   "name": "Sampués",
+   "aliases": [
+    "Sampues"
+   ],
+   "lat": 9.18361,
+   "lon": -75.38167,
+   "population": 21204,
+   "geonameId": "3670280"
+  },
+  {
+   "id": "city:geonames-3671519",
+   "name": "Puerto Carreño",
+   "aliases": [
+    "Puerto Carreno",
+    "PCR",
+    "Puehrto-Karren'o",
+    "Puehrto-Karreno",
+    "bwyrtw karyynw",
+    "pu'erato kairino",
+    "puerutokarenyo",
+    "puyerto kyareno",
+    "pvarto kaireno",
+    "pwrtw karyynw",
+    "pwyrtw karyynw",
+    "pwyrٹw kyrynw",
+    "Пуэрто-Каррeño",
+    "Пуэрто-Карреньо",
+    "بويرتو كاريينو",
+    "پورتو کاریینو",
+    "پويرٹو کیرینو",
+    "پویرتو کاریینو",
+    "प्वर्टो कैरेनो",
+    "পুয়ের্তো ক্যারেনো",
+    "ਪੁਏਰਟੋ ਕੈਰਿਨੋ",
+    "ፕwerito kareno",
+    "ፕዌርቶ ካሬኖ",
+    "プエルトカレーニョ"
+   ],
+   "lat": 6.19041,
+   "lon": -67.48391,
+   "population": 20936,
+   "geonameId": "3671519"
+  },
+  {
+   "id": "city:geonames-3674572",
+   "name": "Moniquirá",
+   "aliases": [
+    "Moniquira"
+   ],
+   "lat": 5.87638,
+   "lon": -73.57284,
+   "population": 20848,
+   "geonameId": "3674572"
+  },
+  {
+   "id": "city:geonames-3676923",
+   "name": "La Unión",
+   "aliases": [
+    "La Union"
+   ],
+   "lat": 5.97431,
+   "lon": -75.36195,
+   "population": 20769,
+   "geonameId": "3676923"
+  },
+  {
+   "id": "city:geonames-3690431",
+   "name": "Aguadas",
+   "aliases": [],
+   "lat": 5.61161,
+   "lon": -75.45624,
+   "population": 20712,
+   "geonameId": "3690431"
+  },
+  {
+   "id": "city:geonames-3670849",
+   "name": "Retiro",
+   "aliases": [
+    "El Retiro",
+    "Ретиро"
+   ],
+   "lat": 6.05861,
+   "lon": -75.50306,
+   "population": 20700,
+   "geonameId": "3670849"
+  },
+  {
+   "id": "city:geonames-3665895",
+   "name": "Villeta",
+   "aliases": [],
+   "lat": 5.00886,
+   "lon": -74.47226,
+   "population": 20689,
+   "geonameId": "3665895"
+  },
+  {
+   "id": "city:geonames-3792375",
+   "name": "Carepa",
+   "aliases": [],
+   "lat": 7.75849,
+   "lon": -76.65255,
+   "population": 20627,
+   "geonameId": "3792375"
+  },
+  {
+   "id": "city:geonames-3668028",
+   "name": "Silvania",
+   "aliases": [],
+   "lat": 4.40367,
+   "lon": -74.3867,
+   "population": 20581,
+   "geonameId": "3668028"
+  },
+  {
+   "id": "city:geonames-3673902",
+   "name": "Neira",
+   "aliases": [],
+   "lat": 5.16648,
+   "lon": -75.5199,
+   "population": 20495,
+   "geonameId": "3673902"
+  },
+  {
+   "id": "city:geonames-3666519",
+   "name": "Villa de San Diego de Ubaté",
+   "aliases": [
+    "Villa de San Diego de Ubate",
+    "Ubate",
+    "Ubaté"
+   ],
+   "lat": 5.30933,
+   "lon": -73.81575,
+   "population": 20485,
+   "geonameId": "3666519"
+  },
+  {
+   "id": "city:geonames-3689026",
+   "name": "Becerril",
+   "aliases": [],
+   "lat": 9.70413,
+   "lon": -73.2793,
+   "population": 20477,
+   "geonameId": "3689026"
+  },
+  {
+   "id": "city:geonames-3685733",
+   "name": "Cota",
+   "aliases": [],
+   "lat": 4.80938,
+   "lon": -74.098,
+   "population": 20462,
+   "geonameId": "3685733"
+  },
+  {
+   "id": "city:geonames-3670587",
+   "name": "Rovira",
+   "aliases": [
+    "Ровира"
+   ],
+   "lat": 4.23921,
+   "lon": -75.24021,
+   "population": 20452,
+   "geonameId": "3670587"
+  },
+  {
+   "id": "city:geonames-3792385",
+   "name": "San Martín",
+   "aliases": [
+    "San Martin"
+   ],
+   "lat": 8.00181,
+   "lon": -73.51143,
+   "population": 20452,
+   "geonameId": "3792385"
+  },
+  {
+   "id": "city:geonames-3689206",
+   "name": "Barbosa",
+   "aliases": [
+    "Barboza",
+    "Барбоза"
+   ],
+   "lat": 5.93168,
+   "lon": -73.61507,
+   "population": 20372,
+   "geonameId": "3689206"
+  },
+  {
+   "id": "city:geonames-3682232",
+   "name": "Galeras",
+   "aliases": [
+    "Corregimiento Nueva Granada",
+    "Nueva Granada"
+   ],
+   "lat": 9.16095,
+   "lon": -75.04811,
+   "population": 20239,
+   "geonameId": "3682232"
+  },
+  {
+   "id": "city:geonames-3682313",
+   "name": "Frontino",
+   "aliases": [
+    "Фронтино"
+   ],
+   "lat": 6.77133,
+   "lon": -76.13324,
+   "population": 20156,
+   "geonameId": "3682313"
+  },
+  {
+   "id": "city:geonames-3671437",
+   "name": "Puerto Leguízamo",
+   "aliases": [
+    "Puerto Leguizamo",
+    "Caucaya",
+    "Caucayá",
+    "LQM",
+    "Leguizamo",
+    "Puehrto Legisamo",
+    "Пуэрто Легисамо"
+   ],
+   "lat": -0.19337,
+   "lon": -74.78189,
+   "population": 20045,
+   "geonameId": "3671437"
+  },
+  {
+   "id": "city:geonames-3666936",
+   "name": "Tolú Viejo",
+   "aliases": [
+    "Tolu Viejo",
+    "Toluviejo"
+   ],
+   "lat": 9.45082,
+   "lon": -75.43864,
+   "population": 20033,
+   "geonameId": "3666936"
+  },
+  {
+   "id": "city:geonames-3669461",
+   "name": "San Juan de Urabá",
+   "aliases": [
+    "San Juan de Uraba",
+    "Coco",
+    "SJR",
+    "San Juan"
+   ],
+   "lat": 8.75924,
+   "lon": -76.52969,
+   "population": 19992,
+   "geonameId": "3669461"
+  },
+  {
+   "id": "city:geonames-3686793",
+   "name": "Chaparral",
+   "aliases": [
+    "CPL"
+   ],
+   "lat": 3.72412,
+   "lon": -75.48386,
+   "population": 19982,
+   "geonameId": "3686793"
+  },
+  {
+   "id": "city:geonames-3688266",
+   "name": "Buesaco",
+   "aliases": [
+    "Bueysaco"
+   ],
+   "lat": 1.38364,
+   "lon": -77.15622,
+   "population": 19951,
+   "geonameId": "3688266"
+  },
+  {
+   "id": "city:geonames-3675605",
+   "name": "Málaga",
+   "aliases": [
+    "Malaga"
+   ],
+   "lat": 6.69903,
+   "lon": -72.73233,
+   "population": 19884,
+   "geonameId": "3675605"
+  },
+  {
+   "id": "city:geonames-3682238",
+   "name": "Galapa",
+   "aliases": [],
+   "lat": 10.89686,
+   "lon": -74.886,
+   "population": 19732,
+   "geonameId": "3682238"
+  },
+  {
+   "id": "city:geonames-3667773",
+   "name": "Suárez",
+   "aliases": [
+    "Suarez"
+   ],
+   "lat": 2.95395,
+   "lon": -76.69644,
+   "population": 19690,
+   "geonameId": "3667773"
+  },
+  {
+   "id": "city:geonames-3681797",
+   "name": "Guacarí",
+   "aliases": [
+    "Guacari",
+    "Concordia"
+   ],
+   "lat": 3.76388,
+   "lon": -76.33201,
+   "population": 19637,
+   "geonameId": "3681797"
+  },
+  {
+   "id": "city:geonames-3671950",
+   "name": "Polonuevo",
+   "aliases": [
+    "Pueblonuevo"
+   ],
+   "lat": 10.77697,
+   "lon": -74.85344,
+   "population": 19454,
+   "geonameId": "3671950"
+  },
+  {
+   "id": "city:geonames-3666232",
+   "name": "Vélez",
+   "aliases": [
+    "Velez"
+   ],
+   "lat": 6.01335,
+   "lon": -73.67352,
+   "population": 19376,
+   "geonameId": "3666232"
+  },
+  {
+   "id": "city:geonames-3683233",
+   "name": "El Retén",
+   "aliases": [
+    "El Reten",
+    "Corregimiento El Reten",
+    "Reten"
+   ],
+   "lat": 10.61135,
+   "lon": -74.26824,
+   "population": 19345,
+   "geonameId": "3683233"
+  },
+  {
+   "id": "city:geonames-3673404",
+   "name": "Padua",
+   "aliases": [],
+   "lat": 5.13429,
+   "lon": -75.14001,
+   "population": 19311,
+   "geonameId": "3673404"
+  },
+  {
+   "id": "city:geonames-3678097",
+   "name": "La Plata",
+   "aliases": [],
+   "lat": 2.39341,
+   "lon": -75.89232,
+   "population": 19275,
+   "geonameId": "3678097"
+  },
+  {
+   "id": "city:geonames-3675512",
+   "name": "Manatí",
+   "aliases": [
+    "Manati"
+   ],
+   "lat": 10.44589,
+   "lon": -74.95869,
+   "population": 19233,
+   "geonameId": "3675512"
+  },
+  {
+   "id": "city:geonames-3670764",
+   "name": "Rioblanco",
+   "aliases": [],
+   "lat": 3.52973,
+   "lon": -75.64525,
+   "population": 19090,
+   "geonameId": "3670764"
+  },
+  {
+   "id": "city:geonames-3670719",
+   "name": "Riosucio",
+   "aliases": [
+    "Ruiosucio"
+   ],
+   "lat": 5.42126,
+   "lon": -75.70271,
+   "population": 18950,
+   "geonameId": "3670719"
+  },
+  {
+   "id": "city:geonames-3689292",
+   "name": "Balboa",
+   "aliases": [],
+   "lat": 2.04183,
+   "lon": -77.21646,
+   "population": 18910,
+   "geonameId": "3689292"
+  },
+  {
+   "id": "city:geonames-3666395",
+   "name": "Urrao",
+   "aliases": [
+    "URR"
+   ],
+   "lat": 6.31696,
+   "lon": -76.1342,
+   "population": 18846,
+   "geonameId": "3666395"
+  },
+  {
+   "id": "city:geonames-3680176",
+   "name": "Juan de Acosta",
+   "aliases": [],
+   "lat": 10.8293,
+   "lon": -75.03346,
+   "population": 18828,
+   "geonameId": "3680176"
+  },
+  {
+   "id": "city:geonames-3780602",
+   "name": "Fredonia",
+   "aliases": [],
+   "lat": 5.92583,
+   "lon": -75.67056,
+   "population": 18790,
+   "geonameId": "3780602"
+  },
+  {
+   "id": "city:geonames-3770955",
+   "name": "Villa Rica",
+   "aliases": [],
+   "lat": 2.5142,
+   "lon": -76.84939,
+   "population": 18761,
+   "geonameId": "3770955"
+  },
+  {
+   "id": "city:geonames-3665934",
+   "name": "Villanueva",
+   "aliases": [],
+   "lat": 10.60768,
+   "lon": -72.97901,
+   "population": 18699,
+   "geonameId": "3665934"
+  },
+  {
+   "id": "city:geonames-3674412",
+   "name": "Morales",
+   "aliases": [
+    "Corregimiento Morales",
+    "Моралес"
+   ],
+   "lat": 8.27621,
+   "lon": -73.86803,
+   "population": 18678,
+   "geonameId": "3674412"
+  },
+  {
+   "id": "city:geonames-3672086",
+   "name": "Pizarro",
+   "aliases": [
+    "Bajo Baudo",
+    "Bajo Baudó",
+    "Baudo",
+    "Baudó",
+    "PZR",
+    "Puerto Pizarro"
+   ],
+   "lat": 4.95499,
+   "lon": -77.36409,
+   "population": 18561,
+   "geonameId": "3672086"
+  },
+  {
+   "id": "city:geonames-3669947",
+   "name": "San Diego",
+   "aliases": [
+    "Corregimiento San Diego"
+   ],
+   "lat": 10.33384,
+   "lon": -73.18048,
+   "population": 18531,
+   "geonameId": "3669947"
+  },
+  {
+   "id": "city:geonames-3689458",
+   "name": "Astrea",
+   "aliases": [
+    "Corregimiento Astrea"
+   ],
+   "lat": 9.49828,
+   "lon": -73.97591,
+   "population": 18434,
+   "geonameId": "3689458"
+  },
+  {
+   "id": "city:geonames-3668472",
+   "name": "Santa Rosa",
+   "aliases": [
+    "El Uvero"
+   ],
+   "lat": 10.44472,
+   "lon": -75.36972,
+   "population": 18375,
+   "geonameId": "3668472"
+  },
+  {
+   "id": "city:geonames-3686445",
+   "name": "Chivolo",
+   "aliases": [
+    "Chibolo",
+    "Chivoto",
+    "Corregimiento Chivolo",
+    "IVO"
+   ],
+   "lat": 10.02502,
+   "lon": -74.62279,
+   "population": 18208,
+   "geonameId": "3686445"
+  },
+  {
+   "id": "city:geonames-3670038",
+   "name": "San Benito Abad",
+   "aliases": [
+    "San Benito Abab",
+    "Tocasman",
+    "Tocasmán"
+   ],
+   "lat": 8.92901,
+   "lon": -75.02709,
+   "population": 18181,
+   "geonameId": "3670038"
+  },
+  {
+   "id": "city:geonames-3689905",
+   "name": "Andalucía",
+   "aliases": [
+    "Andalucia"
+   ],
+   "lat": 4.16983,
+   "lon": -76.16716,
+   "population": 18132,
+   "geonameId": "3689905"
+  },
+  {
+   "id": "city:geonames-3670370",
+   "name": "Salamina",
+   "aliases": [
+    "Саламина"
+   ],
+   "lat": 5.40733,
+   "lon": -75.48749,
+   "population": 18076,
+   "geonameId": "3670370"
+  },
+  {
+   "id": "city:geonames-3668302",
+   "name": "San Vicente",
+   "aliases": [],
+   "lat": 6.28535,
+   "lon": -75.33385,
+   "population": 18051,
+   "geonameId": "3668302"
+  },
+  {
+   "id": "city:geonames-3792380",
+   "name": "Tiquisio",
+   "aliases": [],
+   "lat": 8.55666,
+   "lon": -74.26355,
+   "population": 17939,
+   "geonameId": "3792380"
+  },
+  {
+   "id": "city:geonames-3684276",
+   "name": "El Doncello",
+   "aliases": [],
+   "lat": 1.67817,
+   "lon": -75.28466,
+   "population": 17775,
+   "geonameId": "3684276"
+  },
+  {
+   "id": "city:geonames-3668323",
+   "name": "Santuario",
+   "aliases": [],
+   "lat": 6.13833,
+   "lon": -75.26417,
+   "population": 17722,
+   "geonameId": "3668323"
+  },
+  {
+   "id": "city:geonames-3682330",
+   "name": "Fresno",
+   "aliases": [
+    "Фресно"
+   ],
+   "lat": 5.15264,
+   "lon": -75.03624,
+   "population": 17668,
+   "geonameId": "3682330"
+  },
+  {
+   "id": "city:geonames-3684689",
+   "name": "El Carmen de Chucurí",
+   "aliases": [
+    "El Carmen de Chucuri",
+    "Carmen",
+    "El Carmen"
+   ],
+   "lat": 6.69736,
+   "lon": -73.51117,
+   "population": 17638,
+   "geonameId": "3684689"
+  },
+  {
+   "id": "city:geonames-3686272",
+   "name": "Ciénaga de Oro",
+   "aliases": [
+    "Cienaga de Oro"
+   ],
+   "lat": 8.87443,
+   "lon": -75.62028,
+   "population": 17623,
+   "geonameId": "3686272"
+  },
+  {
+   "id": "city:geonames-3670855",
+   "name": "Restrepo",
+   "aliases": [
+    "Рестрепо"
+   ],
+   "lat": 4.25833,
+   "lon": -73.56142,
+   "population": 17610,
+   "geonameId": "3670855"
+  },
+  {
+   "id": "city:geonames-3690592",
+   "name": "Abejorral",
+   "aliases": [],
+   "lat": 5.78928,
+   "lon": -75.42725,
+   "population": 17599,
+   "geonameId": "3690592"
+  },
+  {
+   "id": "city:geonames-3665691",
+   "name": "Yondó",
+   "aliases": [
+    "Yondo",
+    "Casabe"
+   ],
+   "lat": 7.00621,
+   "lon": -73.90972,
+   "population": 17597,
+   "geonameId": "3665691"
+  },
+  {
+   "id": "city:geonames-3673756",
+   "name": "Nueva Granada",
+   "aliases": [
+    "Corregimiento Nueva Granada",
+    "Granada"
+   ],
+   "lat": 9.80168,
+   "lon": -74.39304,
+   "population": 17470,
+   "geonameId": "3673756"
+  },
+  {
+   "id": "city:geonames-3671308",
+   "name": "Puerto Triunfo",
+   "aliases": [],
+   "lat": 5.87259,
+   "lon": -74.6405,
+   "population": 17231,
+   "geonameId": "3671308"
+  },
+  {
+   "id": "city:geonames-3676626",
+   "name": "Lérida",
+   "aliases": [
+    "Lerida"
+   ],
+   "lat": 4.86242,
+   "lon": -74.90977,
+   "population": 17197,
+   "geonameId": "3676626"
+  },
+  {
+   "id": "city:geonames-3667579",
+   "name": "Tadó",
+   "aliases": [
+    "Tado"
+   ],
+   "lat": 5.26353,
+   "lon": -76.56174,
+   "population": 17000,
+   "geonameId": "3667579"
+  },
+  {
+   "id": "city:geonames-3673379",
+   "name": "Pailitas",
+   "aliases": [],
+   "lat": 8.95671,
+   "lon": -73.62378,
+   "population": 16800,
+   "geonameId": "3673379"
+  },
+  {
+   "id": "city:geonames-3673424",
+   "name": "Pacho",
+   "aliases": [],
+   "lat": 5.13278,
+   "lon": -74.15977,
+   "population": 16698,
+   "geonameId": "3673424"
+  },
+  {
+   "id": "city:geonames-3671418",
+   "name": "Puerto López",
+   "aliases": [
+    "Puerto Lopez"
+   ],
+   "lat": 4.09912,
+   "lon": -72.95647,
+   "population": 16678,
+   "geonameId": "3671418"
+  },
+  {
+   "id": "city:geonames-3669440",
+   "name": "San Lorenzo",
+   "aliases": [],
+   "lat": 1.50294,
+   "lon": -77.21537,
+   "population": 16653,
+   "geonameId": "3669440"
+  },
+  {
+   "id": "city:geonames-3675409",
+   "name": "Manzanares",
+   "aliases": [],
+   "lat": 5.25397,
+   "lon": -75.15403,
+   "population": 16532,
+   "geonameId": "3675409"
+  },
+  {
+   "id": "city:geonames-3669929",
+   "name": "San Estanislao",
+   "aliases": [
+    "Arenal"
+   ],
+   "lat": 10.39833,
+   "lon": -75.15111,
+   "population": 16518,
+   "geonameId": "3669929"
+  },
+  {
+   "id": "city:geonames-3671228",
+   "name": "Pupiales",
+   "aliases": [],
+   "lat": 0.87136,
+   "lon": -77.64027,
+   "population": 16431,
+   "geonameId": "3671228"
+  },
+  {
+   "id": "city:geonames-3689899",
+   "name": "Andes",
+   "aliases": [
+    "ADN",
+    "Los Andes",
+    "Андес"
+   ],
+   "lat": 5.65576,
+   "lon": -75.87959,
+   "population": 16419,
+   "geonameId": "3689899"
+  },
+  {
+   "id": "city:geonames-3671325",
+   "name": "Puerto Santander",
+   "aliases": [
+    "Santander"
+   ],
+   "lat": 8.36361,
+   "lon": -72.4063,
+   "population": 16275,
+   "geonameId": "3671325"
+  },
+  {
+   "id": "city:geonames-3674603",
+   "name": "Momil",
+   "aliases": [
+    "Corregimiento Momil",
+    "Момил"
+   ],
+   "lat": 9.23767,
+   "lon": -75.67489,
+   "population": 16264,
+   "geonameId": "3674603"
+  },
+  {
+   "id": "city:geonames-3685724",
+   "name": "Cotorra",
+   "aliases": [
+    "Corregimiento Cotorra"
+   ],
+   "lat": 9.03886,
+   "lon": -75.78969,
+   "population": 16215,
+   "geonameId": "3685724"
+  },
+  {
+   "id": "city:geonames-3667386",
+   "name": "Tarqui",
+   "aliases": [
+    "Tanqui"
+   ],
+   "lat": 2.11248,
+   "lon": -75.82419,
+   "population": 16108,
+   "geonameId": "3667386"
+  },
+  {
+   "id": "city:geonames-3686013",
+   "name": "Concordia",
+   "aliases": [
+    "Konkordija",
+    "kong ke er di ya",
+    "kwnkwrdya",
+    "Конкордия",
+    "کونکوردیا",
+    "კონკორდია",
+    "孔科爾迪亞"
+   ],
+   "lat": 6.04639,
+   "lon": -75.90705,
+   "population": 16095,
+   "geonameId": "3686013"
+  },
+  {
+   "id": "city:geonames-3681733",
+   "name": "Guadalupe",
+   "aliases": [],
+   "lat": 2.0248,
+   "lon": -75.75589,
+   "population": 15913,
+   "geonameId": "3681733"
+  },
+  {
+   "id": "city:geonames-3670350",
+   "name": "Salgar",
+   "aliases": [],
+   "lat": 5.96502,
+   "lon": -75.96541,
+   "population": 15782,
+   "geonameId": "3670350"
+  },
+  {
+   "id": "city:geonames-3685273",
+   "name": "Darien",
+   "aliases": [
+    "Darién",
+    "El Darien",
+    "El Darién"
+   ],
+   "lat": 3.93135,
+   "lon": -76.48481,
+   "population": 15763,
+   "geonameId": "3685273"
+  },
+  {
+   "id": "city:geonames-3668655",
+   "name": "Santa Lucía",
+   "aliases": [
+    "Santa Lucia",
+    "Corregimiento Santa Lucia"
+   ],
+   "lat": 10.3242,
+   "lon": -74.96017,
+   "population": 15760,
+   "geonameId": "3668655"
+  },
+  {
+   "id": "city:geonames-3690316",
+   "name": "Aguazul",
+   "aliases": [
+    "Agua Azul",
+    "a gua su er",
+    "aguasuli",
+    "agwazwl",
+    "اگوازول",
+    "აგუასული",
+    "阿瓜蘇爾"
+   ],
+   "lat": 5.17282,
+   "lon": -72.54706,
+   "population": 15669,
+   "geonameId": "3690316"
+  },
+  {
+   "id": "city:geonames-3687634",
+   "name": "Candelaria",
+   "aliases": [],
+   "lat": 10.45912,
+   "lon": -74.8797,
+   "population": 15631,
+   "geonameId": "3687634"
+  },
+  {
+   "id": "city:geonames-3675212",
+   "name": "Marsella",
+   "aliases": [
+    "Segovia"
+   ],
+   "lat": 4.93697,
+   "lon": -75.73793,
+   "population": 15455,
+   "geonameId": "3675212"
+  },
+  {
+   "id": "city:geonames-3666997",
+   "name": "Tocancipá",
+   "aliases": [
+    "Tocancipa",
+    "tuo kan xi pa",
+    "twkansypa",
+    "توکانسیپا",
+    "ტოკანსიპა",
+    "托坎西帕"
+   ],
+   "lat": 4.96531,
+   "lon": -73.91301,
+   "population": 15355,
+   "geonameId": "3666997"
+  },
+  {
+   "id": "city:geonames-3668012",
+   "name": "Simití",
+   "aliases": [
+    "Simiti"
+   ],
+   "lat": 7.9579,
+   "lon": -73.9436,
+   "population": 15353,
+   "geonameId": "3668012"
+  },
+  {
+   "id": "city:geonames-3688840",
+   "name": "Betulia",
+   "aliases": [],
+   "lat": 6.11284,
+   "lon": -75.98378,
+   "population": 15097,
+   "geonameId": "3688840"
+  },
+  {
+   "id": "city:geonames-3676934",
+   "name": "La Unión",
+   "aliases": [
+    "La Union"
+   ],
+   "lat": 1.6045,
+   "lon": -77.13152,
+   "population": 15061,
+   "geonameId": "3676934"
+  },
+  {
+   "id": "city:geonames-3671330",
+   "name": "Puerto Salgar",
+   "aliases": [
+    "Salgar"
+   ],
+   "lat": 5.46304,
+   "lon": -74.65436,
+   "population": 15019,
+   "geonameId": "3671330"
+  }
+ ]
+}

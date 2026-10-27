@@ -1,0 +1,7166 @@
+{
+ "country": "country:PH",
+ "cities": [
+  {
+   "id": "city:geonames-1692192",
+   "name": "Quezon City",
+   "aliases": [
+    "Ciudad Quezon",
+    "Keson-Siti",
+    "Kezon Siti",
+    "Kezonurbo",
+    "Lungsod Quezon",
+    "Q.C",
+    "Quezon",
+    "Quezon-Stadt",
+    "kui song shi",
+    "Кезон Сити",
+    "Кесон-Сити",
+    "Кесон-Сіті",
+    "奎松市"
+   ],
+   "lat": 14.6488,
+   "lon": 121.0509,
+   "population": 3084270,
+   "geonameId": "1692192"
+  },
+  {
+   "id": "city:geonames-1715348",
+   "name": "Davao",
+   "aliases": [
+    "Ciudad ti Davao",
+    "DVO",
+    "Dakbayan sa Davao",
+    "Davaa",
+    "Davao City",
+    "Davao Lakanbalen",
+    "Davao Stad",
+    "Davaó",
+    "Lungsod ng Dabaw",
+    "Syudad han Davao",
+    "da wo shi",
+    "dabao",
+    "dabha'o",
+    "dafaw",
+    "dava'o",
+    "davawo",
+    "dawaw",
+    "dawayw syty",
+    "dbʼw syty",
+    "Даваа",
+    "Давао",
+    "דבאו סיטי",
+    "دافاو",
+    "داواؤ",
+    "داوائو سیتی",
+    "داواو",
+    "दवाओ",
+    "দাভাও",
+    "ਦਾਵਾਓ",
+    "ዳቫዎ",
+    "ダバオ",
+    "达沃市",
+    "다바오"
+   ],
+   "lat": 7.07306,
+   "lon": 125.61278,
+   "population": 1848947,
+   "geonameId": "1715348"
+  },
+  {
+   "id": "city:geonames-1720151",
+   "name": "Caloocan",
+   "aliases": [
+    "Caloocan City",
+    "Kalookan",
+    "Kalukan",
+    "Lungsod ng Caloocan",
+    "jia luo kan",
+    "kallokan",
+    "karokan",
+    "qlwʼwqn",
+    "Калоокан",
+    "Калукан",
+    "קלואוקן",
+    "カローカン",
+    "加洛坎",
+    "칼로칸"
+   ],
+   "lat": 14.64953,
+   "lon": 120.96788,
+   "population": 1712945,
+   "geonameId": "1720151"
+  },
+  {
+   "id": "city:PH-manila",
+   "name": "Manila",
+   "aliases": [
+    "City of Manila",
+    "Dakbayan sa Manila",
+    "Lungsod ng Maynila",
+    "MNL",
+    "Mainile",
+    "Manila City",
+    "Manilae",
+    "Manilla",
+    "Manillah",
+    "Manille",
+    "Manilo",
+    "Manyl",
+    "Maníla",
+    "Maynila",
+    "Menila",
+    "ma ni la",
+    "manila",
+    "manilla",
+    "manira",
+    "manyl",
+    "manyla",
+    "mnila",
+    "mnylh",
+    "myanila",
+    "Μανίλα",
+    "Манилæ",
+    "Манила",
+    "Маніла",
+    "מנילה",
+    "مانىلا",
+    "مانيلا",
+    "مانیل",
+    "مانیلا",
+    "मनिला",
+    "मनीला",
+    "ম্যানিলা",
+    "மணிலா",
+    "ಮನಿಲ",
+    "මැනිලා",
+    "มนิลา",
+    "มะนิลา",
+    "མ་ནི་ལ།",
+    "မနီလာမြို့",
+    "მანილა",
+    "ማኒላ",
+    "マニラ",
+    "馬尼拉",
+    "马尼拉",
+    "마닐라"
+   ],
+   "lat": 14.6042,
+   "lon": 120.9822,
+   "population": 1600000,
+   "geonameId": "1701668"
+  },
+  {
+   "id": "city:geonames-1684308",
+   "name": "Taguig",
+   "aliases": [
+    "City of Taguig",
+    "Santa Ana",
+    "Tagig",
+    "Тагиг"
+   ],
+   "lat": 14.5243,
+   "lon": 121.0792,
+   "population": 1308085,
+   "geonameId": "1684308"
+  },
+  {
+   "id": "city:geonames-1723510",
+   "name": "Budta",
+   "aliases": [
+    "Будта"
+   ],
+   "lat": 7.20417,
+   "lon": 124.43972,
+   "population": 1273715,
+   "geonameId": "1723510"
+  },
+  {
+   "id": "city:geonames-1978681",
+   "name": "Malingao",
+   "aliases": [
+    "Малингао"
+   ],
+   "lat": 7.16083,
+   "lon": 124.475,
+   "population": 1121974,
+   "geonameId": "1978681"
+  },
+  {
+   "id": "city:geonames-1679432",
+   "name": "Zamboanga",
+   "aliases": [
+    "Burleigh School",
+    "Ciudad ti Zamboanga",
+    "Dakbayan sa Zamboanga",
+    "Lungsod ng Zamboanga",
+    "Syudad han Zamboanga",
+    "ZAM",
+    "Zamboanga City",
+    "Zamboanga Lakanbalen",
+    "samboang-ga",
+    "san bao yan",
+    "sanboanga",
+    "Замбоанга",
+    "サンボアンガ",
+    "三宝颜",
+    "삼보앙가"
+   ],
+   "lat": 6.91028,
+   "lon": 122.07389,
+   "population": 1018849,
+   "geonameId": "1679432"
+  },
+  {
+   "id": "city:geonames-1717512",
+   "name": "Cebu City",
+   "aliases": [
+    "CEB",
+    "Cebo",
+    "Cebu",
+    "Cebu Sehri",
+    "Cebu Shahri",
+    "Cebu Şehri",
+    "Cidade de Cebu",
+    "City of Cebu",
+    "Ciudad de Cebu",
+    "Ciudad de Cebú",
+    "Dakbayan sa Sugbo",
+    "Garin Cebu",
+    "Jiji la Cebu",
+    "Kota Cebu",
+    "Magaalaa Cebu",
+    "Magaalada Cebu",
+    "Sebu",
+    "Sebu Shakhary",
+    "Sebu Shəһəre",
+    "Sebu Səhəri",
+    "Sebu kˌalasy",
+    "Sebu Şəhəri",
+    "Shakhri Sebu",
+    "mdynt sybw",
+    "sebu",
+    "sebu ketema",
+    "sebu sahara",
+    "sebu sahira",
+    "sebu shi",
+    "shhr sbw",
+    "sybw shہr",
+    "sybw sˌar",
+    "Себу",
+    "Себу Шахары",
+    "Себу Шәһәре",
+    "Себу қаласы",
+    "Шахри Себу",
+    "سیبو شہر",
+    "سیبو ښار",
+    "شهر سبو",
+    "مدينة سيبو",
+    "सेबु शहर",
+    "সেবু শহর",
+    "ਸੇਬੂ ਸ਼ਹਿਰ",
+    "ሴቡ ከተማ",
+    "セブ市",
+    "세부"
+   ],
+   "lat": 10.31672,
+   "lon": 123.89071,
+   "population": 965332,
+   "geonameId": "1717512"
+  },
+  {
+   "id": "city:geonames-1730501",
+   "name": "Antipolo",
+   "aliases": [
+    "Antipolo City",
+    "Антиполо"
+   ],
+   "lat": 14.62578,
+   "lon": 121.12251,
+   "population": 913712,
+   "geonameId": "1730501"
+  },
+  {
+   "id": "city:geonames-7290466",
+   "name": "Pasig City",
+   "aliases": [
+    "Pasig",
+    "Пасиг"
+   ],
+   "lat": 14.58691,
+   "lon": 121.0614,
+   "population": 853050,
+   "geonameId": "7290466"
+  },
+  {
+   "id": "city:geonames-1721080",
+   "name": "Cagayan de Oro",
+   "aliases": [
+    "CGY",
+    "Cagayan de Oro City",
+    "Cagayan de Oro Lakanbalen",
+    "Cagayán de Oro",
+    "Dakbayan sa Cagayan de Oro",
+    "Kagajan de Oras",
+    "Kagajan-de-Oro",
+    "Lungsod ng Cagayan de Oro",
+    "ka jia yan de ao luo",
+    "kagayande-olo",
+    "Кагаян-де-Оро",
+    "カガヤン・デ・オロ",
+    "卡加延德奥罗",
+    "카가얀데오로"
+   ],
+   "lat": 8.48222,
+   "lon": 124.64722,
+   "population": 741617,
+   "geonameId": "1721080"
+  },
+  {
+   "id": "city:geonames-1680102",
+   "name": "Valenzuela",
+   "aliases": [
+    "Валензуела"
+   ],
+   "lat": 14.7,
+   "lon": 120.9667,
+   "population": 725173,
+   "geonameId": "1680102"
+  },
+  {
+   "id": "city:geonames-1713022",
+   "name": "General Santos",
+   "aliases": [
+    "Dadiangas",
+    "Dakbayan sa General Santos",
+    "GES",
+    "GenSan",
+    "General Santos City",
+    "General Santos Lakanbalen",
+    "General-Santos",
+    "Heneral Santos",
+    "Kota General Santos",
+    "Siyudad na Heneral Santos",
+    "jeneoleolsantoseu",
+    "jnral santws",
+    "jnrl santws",
+    "san tou si jiang jun shi",
+    "Генерал-Сантос",
+    "جنرال سانتوس",
+    "جنرل سانتوس",
+    "ジェネラル・サントス",
+    "三投斯將軍市",
+    "제너럴산토스"
+   ],
+   "lat": 6.11278,
+   "lon": 125.17167,
+   "population": 722059,
+   "geonameId": "1713022"
+  },
+  {
+   "id": "city:geonames-1694781",
+   "name": "Paranaque City",
+   "aliases": [
+    "Paranakue",
+    "Paranaque",
+    "Parañaque",
+    "Parañaque City",
+    "Паранакуе"
+   ],
+   "lat": 14.48156,
+   "lon": 121.01749,
+   "population": 703245,
+   "geonameId": "1694781"
+  },
+  {
+   "id": "city:geonames-1707174",
+   "name": "Las Piñas",
+   "aliases": [
+    "Las Pinas",
+    "City of Las Pinas",
+    "City of Las Piñas",
+    "Лас Пинас"
+   ],
+   "lat": 14.45056,
+   "lon": 120.98278,
+   "population": 615549,
+   "geonameId": "1707174"
+  },
+  {
+   "id": "city:geonames-1720681",
+   "name": "Calamba",
+   "aliases": [
+    "Calamba City",
+    "Calamba Lakanbalen",
+    "Calambá",
+    "Kalamba",
+    "Kota Calamba",
+    "Urbs Calamba",
+    "ka lan ba",
+    "kalaba",
+    "kalamba",
+    "kalamba  lagwna",
+    "kalaምba",
+    "kallamba",
+    "karanba",
+    "Каламба",
+    "كالامبا",
+    "کالامبا",
+    "کالامبا، لاگونا",
+    "कलम्बा",
+    "কালাম্বা",
+    "ਕਾਲੰਬਾ",
+    "ካላምባ",
+    "カランバ",
+    "卡兰巴",
+    "칼람바"
+   ],
+   "lat": 14.21167,
+   "lon": 121.16528,
+   "population": 575046,
+   "geonameId": "1720681"
+  },
+  {
+   "id": "city:geonames-1699076",
+   "name": "Muntinlupa",
+   "aliases": [
+    "City of Muntinlupa",
+    "Muntinlupa City",
+    "Мунтинлупа"
+   ],
+   "lat": 14.39028,
+   "lon": 121.0475,
+   "population": 552225,
+   "geonameId": "1699076"
+  },
+  {
+   "id": "city:geonames-1703417",
+   "name": "Makati City",
+   "aliases": [
+    "Makati",
+    "Макати"
+   ],
+   "lat": 14.55027,
+   "lon": 121.03269,
+   "population": 510383,
+   "geonameId": "1703417"
+  },
+  {
+   "id": "city:geonames-1707267",
+   "name": "Lapu-Lapu City",
+   "aliases": [
+    "Dakbayan sa Lapu-Lapu",
+    "Lapu-Lapu",
+    "Opon",
+    "Siudad ti Lapu-Lapu",
+    "la pu la pu shi",
+    "rapu=rapu shi",
+    "Лапу-Лапу",
+    "ラプ＝ラプ市",
+    "拉普拉普市"
+   ],
+   "lat": 10.31028,
+   "lon": 123.94944,
+   "population": 497813,
+   "geonameId": "1707267"
+  },
+  {
+   "id": "city:geonames-1730737",
+   "name": "Angeles City",
+   "aliases": [
+    "Angeles",
+    "CRK",
+    "anghelleseu",
+    "Ангелес",
+    "앙헬레스"
+   ],
+   "lat": 15.15,
+   "lon": 120.58333,
+   "population": 483452,
+   "geonameId": "1730737"
+  },
+  {
+   "id": "city:geonames-1710914",
+   "name": "Imus",
+   "aliases": [
+    "Imus Lakanbalen",
+    "Lungsod ng Imus",
+    "amws",
+    "Имус",
+    "اموس"
+   ],
+   "lat": 14.42972,
+   "lon": 120.93667,
+   "population": 481949,
+   "geonameId": "1710914"
+  },
+  {
+   "id": "city:geonames-1711005",
+   "name": "Iloilo",
+   "aliases": [
+    "ILO",
+    "Iloilo City",
+    "Iloilo Proper",
+    "Илоило"
+   ],
+   "lat": 10.69694,
+   "lon": 122.56444,
+   "population": 473728,
+   "geonameId": "1711005"
+  },
+  {
+   "id": "city:geonames-1700925",
+   "name": "Marikina City",
+   "aliases": [
+    "Marikina",
+    "Марикина"
+   ],
+   "lat": 14.6481,
+   "lon": 121.1133,
+   "population": 471323,
+   "geonameId": "1700925"
+  },
+  {
+   "id": "city:geonames-1701966",
+   "name": "Mandaluyong City",
+   "aliases": [
+    "Lungsod ng Mandaluyong",
+    "Manadalujonga",
+    "Manadalujongas",
+    "Mandaluiong",
+    "Mandalujon",
+    "Mandalujong",
+    "Mandaluyong",
+    "Mandalúyong",
+    "Mandayulong",
+    "Mantalougion'k",
+    "San Felipe",
+    "San Felipe Neri",
+    "man da lu yong",
+    "man da lu yong shi",
+    "man dalu yxng",
+    "mandalluyong",
+    "mandaluying",
+    "mandaluyong",
+    "mandaluyonga",
+    "mandalwywng",
+    "mandalwywngh",
+    "mandalyuyonga",
+    "mandaruyon",
+    "mantaluyon",
+    "myandalum",
+    "Μανταλουγιόνκ",
+    "Мандалуионг",
+    "Мандалуйонг",
+    "Мандалуйоң",
+    "Мандалуён",
+    "Мандалујонг",
+    "ماندالويونغ",
+    "ماندالویونگ",
+    "मंडलुयोंग",
+    "मंडल्युयॉंग",
+    "ম্যান্ডালুং",
+    "મંડલુયોંગ",
+    "மண்டலுயோங்",
+    "మండాలుయోంగ్",
+    "ಮಾಂಡಲೂಯಿಂಗ್",
+    "මණ්ඩලුයෝන්ග්",
+    "มันดาลูยอง",
+    "マンダルヨン",
+    "曼达卢永市",
+    "曼達盧永",
+    "만달루용"
+   ],
+   "lat": 14.5832,
+   "lon": 121.0409,
+   "population": 465902,
+   "geonameId": "1701966"
+  },
+  {
+   "id": "city:geonames-1729564",
+   "name": "Bacolod City",
+   "aliases": [
+    "BCD",
+    "Baclod City",
+    "Bacolod",
+    "Bacoloo City",
+    "Bacólod",
+    "Bakolod",
+    "Ciudad ti Bacolod",
+    "Dakbayan sa Bacolod",
+    "Lungsod ng Bacolod",
+    "Syudad han Bacolod",
+    "Баколод"
+   ],
+   "lat": 10.66667,
+   "lon": 122.95,
+   "population": 454898,
+   "geonameId": "1729564"
+  },
+  {
+   "id": "city:geonames-1701500",
+   "name": "Mansilingan",
+   "aliases": [
+    "Мансилинган"
+   ],
+   "lat": 10.63111,
+   "lon": 122.97889,
+   "population": 454150,
+   "geonameId": "1701500"
+  },
+  {
+   "id": "city:geonames-1715430",
+   "name": "Dasmariñas",
+   "aliases": [
+    "Dasmarinas",
+    "Dasmarin'jas",
+    "Dasmarinas Lakanbalen",
+    "Dasmarines",
+    "Dasmariñas Lakanbalen",
+    "Kota Dasmarinas",
+    "Kota Dasmariñas",
+    "da si ma li ni ya si",
+    "daseumalinyaseu",
+    "dasmarngas",
+    "dasmarynyas",
+    "dasumarinyasu",
+    "Дасмариньяс",
+    "داسمارنگاس",
+    "داسمارینیاس",
+    "ダスマリニャス",
+    "达斯马里尼亚斯",
+    "다스마리냐스"
+   ],
+   "lat": 14.32944,
+   "lon": 120.93667,
+   "population": 441876,
+   "geonameId": "1715430"
+  },
+  {
+   "id": "city:geonames-13118244",
+   "name": "Mandaluyong",
+   "aliases": [
+    "Mandalujong",
+    "Мандалуёнг"
+   ],
+   "lat": 14.57837,
+   "lon": 121.03522,
+   "population": 425000,
+   "geonameId": "13118244"
+  },
+  {
+   "id": "city:geonames-1694611",
+   "name": "Pasay",
+   "aliases": [
+    "Pasaj",
+    "Pasay City",
+    "Пасай"
+   ],
+   "lat": 14.53748,
+   "lon": 121.00144,
+   "population": 416522,
+   "geonameId": "1694611"
+  },
+  {
+   "id": "city:geonames-1682812",
+   "name": "Tarlac City",
+   "aliases": [
+    "Tarlac",
+    "Tarlak",
+    "Тарлак"
+   ],
+   "lat": 15.48017,
+   "lon": 120.59794,
+   "population": 401892,
+   "geonameId": "1682812"
+  },
+  {
+   "id": "city:geonames-1716771",
+   "name": "Cotabato",
+   "aliases": [
+    "CBO",
+    "Catabate",
+    "Catabato",
+    "Cotabato City",
+    "Cottabato",
+    "Dakbayan sa Cotabato",
+    "Kota-Bato",
+    "Kotabato",
+    "kotabato",
+    "kwetabato",
+    "kwtabatw",
+    "kwtabaytw",
+    "kwٹabatw",
+    "Котабато",
+    "كوتابايتو",
+    "کوتاباتو",
+    "کوٹاباتو",
+    "कोटाबातो",
+    "কোটাবাতো",
+    "ਕੋਟਾਬਾਤੋ",
+    "ኮታባቶ",
+    "コタバト"
+   ],
+   "lat": 7.22361,
+   "lon": 124.24639,
+   "population": 383383,
+   "geonameId": "1716771"
+  },
+  {
+   "id": "city:geonames-1703320",
+   "name": "Malabon",
+   "aliases": [
+    "Tanong",
+    "Малабон"
+   ],
+   "lat": 14.67333,
+   "lon": 120.93972,
+   "population": 365525,
+   "geonameId": "1703320"
+  },
+  {
+   "id": "city:geonames-1689395",
+   "name": "San Jose del Monte",
+   "aliases": [
+    "Kota San Jose del Monte",
+    "Lungsod ng San Jose del Monte",
+    "San Jose Del Monte",
+    "San Jose del Monte City",
+    "San Jose del Monte Lakanbalen",
+    "San José Del Monte",
+    "San José del Monte",
+    "San-Joseo de la Monto",
+    "San-Khose-del'-Monte",
+    "sanhosedelmonte",
+    "Сан-Хосе-дель-Монте",
+    "산호세델몬테"
+   ],
+   "lat": 14.81389,
+   "lon": 121.04528,
+   "population": 357828,
+   "geonameId": "1689395"
+  },
+  {
+   "id": "city:geonames-1729524",
+   "name": "Bacoor",
+   "aliases": [
+    "Bacoor Lakanbalen",
+    "Bakoor",
+    "Lungsod ng Bacoor",
+    "bakwwr",
+    "Бакоор",
+    "باکوور"
+   ],
+   "lat": 14.45896,
+   "lon": 120.93851,
+   "population": 356974,
+   "geonameId": "1729524"
+  },
+  {
+   "id": "city:geonames-1688749",
+   "name": "San Pedro",
+   "aliases": [
+    "San-Pedro",
+    "Сан-Педро"
+   ],
+   "lat": 14.3595,
+   "lon": 121.0473,
+   "population": 348968,
+   "geonameId": "1688749"
+  },
+  {
+   "id": "city:geonames-1721906",
+   "name": "Cabanatuan City",
+   "aliases": [
+    "Cabanatuan",
+    "Cabanatúan",
+    "Ciudad ti Cabanatuan",
+    "Kabanatuan",
+    "Lakanbalen ning Cabanatuan",
+    "Lungsod ng Cabanatuan",
+    "Siudad ti Cabanatuan",
+    "Siyudad na Cabanatuan",
+    "Кабанатуан"
+   ],
+   "lat": 15.48586,
+   "lon": 120.96648,
+   "population": 343672,
+   "geonameId": "1721906"
+  },
+  {
+   "id": "city:geonames-1711084",
+   "name": "Iligan",
+   "aliases": [
+    "Dakbayan sa Iligan",
+    "IGN",
+    "Iligan City",
+    "Iligan Lakanbalen",
+    "Lungsod ng Iligan",
+    "illigan",
+    "irigan",
+    "yi li gan",
+    "Илиган",
+    "イリガン",
+    "伊利甘",
+    "일리간"
+   ],
+   "lat": 8.2289,
+   "lon": 124.24344,
+   "population": 342618,
+   "geonameId": "1711084"
+  },
+  {
+   "id": "city:geonames-1701947",
+   "name": "Mandaue City",
+   "aliases": [
+    "Dakbayan sa Mandaue",
+    "Lungsod ng Mandaue",
+    "Mandaue",
+    "Mandaueh",
+    "Мандауэ"
+   ],
+   "lat": 10.32361,
+   "lon": 123.92222,
+   "population": 331320,
+   "geonameId": "1701947"
+  },
+  {
+   "id": "city:geonames-1711082",
+   "name": "Iligan City",
+   "aliases": [
+    "City of Iligan",
+    "Idigan",
+    "Iligan",
+    "Илиган"
+   ],
+   "lat": 8.25,
+   "lon": 124.4,
+   "population": 312323,
+   "geonameId": "1711082"
+  },
+  {
+   "id": "city:geonames-1722186",
+   "name": "Butuan",
+   "aliases": [
+    "BXU",
+    "Butuan City",
+    "Butuan Lakanbalen",
+    "Butuanas",
+    "City of Butuan",
+    "Dakbayan sa Butuan",
+    "Kota Butuan",
+    "Lungsod ng Butuan",
+    "Syudad nin Butuan",
+    "butouan",
+    "butu'ana",
+    "butuan",
+    "butuwani",
+    "butuyana",
+    "bwtwan",
+    "putuvan",
+    "wu duan shi",
+    "Буту́ан",
+    "Бутуан",
+    "بوتوان",
+    "बुतुआन",
+    "বুতুয়ান",
+    "ਬੁਤੁਆਨ",
+    "புடுவன்",
+    "ቡቱዋን",
+    "ブトゥアン",
+    "武端市",
+    "부투안"
+   ],
+   "lat": 8.94917,
+   "lon": 125.54361,
+   "population": 309709,
+   "geonameId": "1722186"
+  },
+  {
+   "id": "city:geonames-1721281",
+   "name": "Cabuyao",
+   "aliases": [
+    "Cabuyao City",
+    "Cabúyao",
+    "Kabujao",
+    "Lungsod ng Cabuyao",
+    "ka bu yao",
+    "Кабуяо",
+    "卡布堯"
+   ],
+   "lat": 14.2726,
+   "lon": 121.1262,
+   "population": 308745,
+   "geonameId": "1721281"
+  },
+  {
+   "id": "city:geonames-1688830",
+   "name": "San Pablo",
+   "aliases": [
+    "San Pablas",
+    "San Pablo City",
+    "San Pamplo",
+    "San-Pablo",
+    "Sanpablo",
+    "can  paplo",
+    "saina pablo",
+    "san bablw",
+    "san pa bol",
+    "san pablo",
+    "sana pablu",
+    "sangpaullo",
+    "sena pablo",
+    "sheng ba bo luo",
+    "sn pablw",
+    "syan pablo",
+    "Σαν Πάμπλο",
+    "Сан-Пабло",
+    "سان بابلو",
+    "سن پابلو",
+    "सॅन पाब्लो",
+    "सैन पाब्लो",
+    "সান পাব্লু",
+    "સેન પબ્લો",
+    "சான்  பப்லோ",
+    "సాన్ పాబ్లో",
+    "ಸ್ಯಾನ್ ಪಾಬ್ಲೊ",
+    "සැන් පැබ්ලෝ",
+    "ซานปาโบล",
+    "サン・パブロ",
+    "圣巴勃罗",
+    "聖巴勃羅",
+    "상파울로"
+   ],
+   "lat": 14.0683,
+   "lon": 121.3256,
+   "population": 300166,
+   "geonameId": "1688830"
+  },
+  {
+   "id": "city:geonames-1725115",
+   "name": "Biñan",
+   "aliases": [
+    "Binan",
+    "Bin'jan",
+    "Binan City",
+    "Binyang",
+    "Biñan City",
+    "Biñán",
+    "Ciudad nin Binan",
+    "Ciudad nin Biñan",
+    "Kota Binan",
+    "Kota Biñan",
+    "Lungsod ng Binan",
+    "Lungsod ng Biñan",
+    "bngan",
+    "Биньян",
+    "بنگان"
+   ],
+   "lat": 14.34267,
+   "lon": 121.08071,
+   "population": 300000,
+   "geonameId": "1725115"
+  },
+  {
+   "id": "city:geonames-1687687",
+   "name": "Santol",
+   "aliases": [
+    "Сантол"
+   ],
+   "lat": 15.16222,
+   "lon": 120.5675,
+   "population": 298976,
+   "geonameId": "1687687"
+  },
+  {
+   "id": "city:geonames-1720840",
+   "name": "Cainta",
+   "aliases": [
+    "Kainta",
+    "Каинта"
+   ],
+   "lat": 14.5786,
+   "lon": 121.1222,
+   "population": 283172,
+   "geonameId": "1720840"
+  },
+  {
+   "id": "city:geonames-1728930",
+   "name": "Baguio",
+   "aliases": [
+    "BAG",
+    "Bagijas",
+    "Bagio",
+    "Baguio City",
+    "Baguio Lakanbalen",
+    "Ciudad ti Baguio",
+    "Dakbayan sa Baguio",
+    "Kota Baguio",
+    "Lungsod ng Baguio",
+    "Siyudad na Baguio",
+    "Syudad nin Baguio",
+    "ba keiy w",
+    "bagio",
+    "bagiyo",
+    "bagu'i'o",
+    "bagyw",
+    "bajyw",
+    "baګyw",
+    "bi yao shi",
+    "pakiyo",
+    "Багио",
+    "باجيو",
+    "باګيو",
+    "باگیؤ",
+    "باگیو",
+    "बागुइओ",
+    "বাগুইও",
+    "ਬਾਗੁਇਓ",
+    "பாகியோ",
+    "บาเกียว",
+    "ባጊዮ",
+    "バギオ",
+    "碧瑶市",
+    "바기오"
+   ],
+   "lat": 16.41639,
+   "lon": 120.59306,
+   "population": 272714,
+   "geonameId": "1728930"
+  },
+  {
+   "id": "city:geonames-1702540",
+   "name": "Malolos",
+   "aliases": [
+    "Dakbayan sa Malolos",
+    "Lungsod ng Malolos",
+    "Malalos",
+    "Malolas",
+    "Malolos City",
+    "Malolos Lakanbalen",
+    "Syudad nin Malolos",
+    "mallolloseu",
+    "Малолос",
+    "말롤로스"
+   ],
+   "lat": 14.8443,
+   "lon": 120.81039,
+   "population": 269809,
+   "geonameId": "1702540"
+  },
+  {
+   "id": "city:geonames-1701472",
+   "name": "Mantampay",
+   "aliases": [
+    "Mantampaj",
+    "Мантампай"
+   ],
+   "lat": 8.16667,
+   "lon": 124.21667,
+   "population": 265032,
+   "geonameId": "1701472"
+  },
+  {
+   "id": "city:geonames-13060482",
+   "name": "Bagong Silang",
+   "aliases": [
+    "Багонг Силанг"
+   ],
+   "lat": 14.7783,
+   "lon": 121.04487,
+   "population": 261729,
+   "geonameId": "13060482"
+  },
+  {
+   "id": "city:geonames-1701053",
+   "name": "Marawi City",
+   "aliases": [
+    "City of Dansalan",
+    "Dansalan",
+    "Dansalan City",
+    "Islamic City of Marawi",
+    "Maraur",
+    "Maravi",
+    "Marawi",
+    "Марави"
+   ],
+   "lat": 8.0034,
+   "lon": 124.28395,
+   "population": 259993,
+   "geonameId": "1701053"
+  },
+  {
+   "id": "city:geonames-1684712",
+   "name": "Tacloban",
+   "aliases": [
+    "Bandaraya Tacloban",
+    "Ciudad ti Tacloban",
+    "Dakbayan sa Tacloban",
+    "Dakuban",
+    "Dayeuh Tacloban",
+    "Kota Tacloban",
+    "Lungsod ng Tacloban",
+    "Syudad han Tacloban",
+    "Syudad nin Tacloban",
+    "TAC",
+    "Taclaban",
+    "Tacloban City",
+    "Tacloban Lakanbalen",
+    "Takloban",
+    "Taklobana",
+    "Taklobanas",
+    "Taklompan",
+    "Taklopan",
+    "Tocloban",
+    "Urbs Taclobana",
+    "du lu wan shi",
+    "tak lo ban",
+    "takeulloban",
+    "taklwban",
+    "takuroban",
+    "teklobena",
+    "tqlwbn",
+    "Τακλομπάν",
+    "Таклобан",
+    "Таклопан",
+    "טאקלאבאן",
+    "טקלובן",
+    "تاكلوبان",
+    "تاکلوبان",
+    "ટેક્લોબેન",
+    "ตักโลบัน",
+    "ታክሎባን",
+    "タクロバン",
+    "独鲁万市",
+    "타클로반"
+   ],
+   "lat": 11.24333,
+   "lon": 125.00472,
+   "population": 259353,
+   "geonameId": "1684712"
+  },
+  {
+   "id": "city:geonames-1690039",
+   "name": "San Fernando",
+   "aliases": [
+    "Dakbayan sa San Fernando",
+    "Kota San Fernando",
+    "Lungsod ng San Fernando",
+    "San Fernando City",
+    "San Fernando Lakanbalen",
+    "San-Fernando",
+    "Santo Rosario",
+    "Siyudad na San Fernando",
+    "Urbs Sancti Ferdinandi",
+    "saina pharanando",
+    "saina pharnando",
+    "san frnandw",
+    "sana pharnando",
+    "sanferunando",
+    "sani ፈrinanido",
+    "sanpeleunando",
+    "sheng fei er nan duo",
+    "Сан Фернандо",
+    "Сан-Фернандо",
+    "سان فرناندو",
+    "سان فرنانڈو، پامپانگا",
+    "सैन फर्नांडो",
+    "সান ফার্নান্দো",
+    "ਸੈਨ ਫਰਨਾਂਡੋ",
+    "ሳን ፈርናንዶ",
+    "サンフェルナンド",
+    "圣费尔南多",
+    "산페르난도"
+   ],
+   "lat": 15.03425,
+   "lon": 120.68445,
+   "population": 251248,
+   "geonameId": "1690039"
+  },
+  {
+   "id": "city:geonames-1706684",
+   "name": "Libertad",
+   "aliases": [
+    "Либертад"
+   ],
+   "lat": 8.94417,
+   "lon": 125.50194,
+   "population": 250353,
+   "geonameId": "1706684"
+  },
+  {
+   "id": "city:geonames-1697846",
+   "name": "Navotas",
+   "aliases": [
+    "Lungsod ng Navotas",
+    "Навотас"
+   ],
+   "lat": 14.66667,
+   "lon": 120.95,
+   "population": 249463,
+   "geonameId": "1697846"
+  },
+  {
+   "id": "city:geonames-1697018",
+   "name": "Ormoc",
+   "aliases": [
+    "Ciudad ti Ormoc",
+    "Dakbayan sa Ormoc",
+    "Kota Ormoc",
+    "Lungsod ng Ormoc",
+    "MacArthur",
+    "OMC",
+    "Ormco",
+    "Ormoc City",
+    "Ormoc Lakanbalen",
+    "Ormok",
+    "Oromoc",
+    "Syudad han Ormoc",
+    "awrmwk",
+    "oleumokeu",
+    "orumokku",
+    "Ормок",
+    "اورموک",
+    "オルモック",
+    "오르모크"
+   ],
+   "lat": 11.00639,
+   "lon": 124.6075,
+   "population": 238545,
+   "geonameId": "1697018"
+  },
+  {
+   "id": "city:geonames-1726280",
+   "name": "Batangas",
+   "aliases": [
+    "Batangas City",
+    "Батангас"
+   ],
+   "lat": 13.7567,
+   "lon": 121.0584,
+   "population": 237370,
+   "geonameId": "1726280"
+  },
+  {
+   "id": "city:geonames-1684269",
+   "name": "Magugpo Poblacion",
+   "aliases": [
+    "Magugpo",
+    "Tagum",
+    "Tagum City",
+    "Taguma",
+    "Tagumas",
+    "Tankoum",
+    "Tàgum",
+    "Tágum",
+    "ta gu mu",
+    "tagam",
+    "tagama",
+    "tagum",
+    "taguma",
+    "tagumu",
+    "tagwm",
+    "tajwm",
+    "takum",
+    "thaka m",
+    "tyagam",
+    "Τάγκουμ",
+    "Тагум",
+    "تاجوم",
+    "تاگوم",
+    "तागम",
+    "तागुम",
+    "টাগুম",
+    "ટાગમ",
+    "டாகும்",
+    "తాగం",
+    "ಟ್ಯಾಗಮ್",
+    "ටගුම්",
+    "ทากัม",
+    "タグム",
+    "塔古姆",
+    "타굼"
+   ],
+   "lat": 7.4475,
+   "lon": 125.8046,
+   "population": 233254,
+   "geonameId": "1684269"
+  },
+  {
+   "id": "city:geonames-1682598",
+   "name": "Taytay",
+   "aliases": [
+    "Tajtaj",
+    "Тайтай"
+   ],
+   "lat": 14.55883,
+   "lon": 121.13285,
+   "population": 231460,
+   "geonameId": "1682598"
+  },
+  {
+   "id": "city:geonames-1705357",
+   "name": "Lucena",
+   "aliases": [
+    "Dakbayan sa Lucena",
+    "Kota Lucena",
+    "Lucena City",
+    "Lucena Lakanbalen",
+    "Lungsod ng Lucena",
+    "Lusena",
+    "Siudad ti Lucena",
+    "lu sai na",
+    "lusena",
+    "lwsyna  flpayn",
+    "Лусена",
+    "لوسینا، فلپائن",
+    "卢塞纳",
+    "루세나"
+   ],
+   "lat": 13.93139,
+   "lon": 121.61722,
+   "population": 228758,
+   "geonameId": "1705357"
+  },
+  {
+   "id": "city:geonames-1699802",
+   "name": "Meycauayan",
+   "aliases": [
+    "Kota Meycauayan",
+    "Mejkauajan",
+    "Meycauayan City",
+    "Meycawayan",
+    "myykawayan",
+    "Мейкауайан",
+    "میئکاوایان"
+   ],
+   "lat": 14.73694,
+   "lon": 120.96083,
+   "population": 228023,
+   "geonameId": "1699802"
+  },
+  {
+   "id": "city:geonames-1680116",
+   "name": "NIA Valencia",
+   "aliases": [
+    "Dakbayan sa Valencia",
+    "Kota Valencia",
+    "Lungsod ng Valencia",
+    "Valencia",
+    "Valencia City",
+    "Valencia Lakanbalen",
+    "Valensija",
+    "ba lun xi ya cheng",
+    "ballensia",
+    "Валенсия",
+    "巴伦西亚城",
+    "발렌시아"
+   ],
+   "lat": 7.90639,
+   "lon": 125.09417,
+   "population": 223620,
+   "geonameId": "1680116"
+  },
+  {
+   "id": "city:geonames-1692685",
+   "name": "Puerto Princesa",
+   "aliases": [
+    "Dakbayan sa Puerto Princesa",
+    "Kota Puerto Princesa",
+    "Lungsod ng Puerto Princesa",
+    "PPS",
+    "Puehrto-Prinsesa",
+    "Puerta Princesa",
+    "Puerto Princesa City",
+    "Puerto Princesa Lakanbalen",
+    "Puerto Prinsesa",
+    "Syudad han Puerto Princesa",
+    "Syudad nin Puerto Princesa",
+    "bwrtwbrnss",
+    "pu lin sai sa gang",
+    "pueleutopeulinsesa",
+    "pwrtwprnss",
+    "pwyrtw prnsysa",
+    "Пуерто Принсеса",
+    "Пуэрто-Принсеса",
+    "بورتوبرنسس",
+    "پورتوپرنسس",
+    "پویرتو پرنسیسا",
+    "プエルト・プリンセサ",
+    "普林塞薩港",
+    "푸에르토프린세사"
+   ],
+   "lat": 9.73917,
+   "lon": 118.73528,
+   "population": 222673,
+   "geonameId": "1692685"
+  },
+  {
+   "id": "city:geonames-1697175",
+   "name": "Olongapo",
+   "aliases": [
+    "Bandaraya Olongapo",
+    "Ciudad ti Olongapo",
+    "Dakbayan sa Olongapo",
+    "Kota Olongapo",
+    "Lungsod ng Olongapo",
+    "Olongapo City",
+    "Olongapo Lakanbalen",
+    "Olóngapo",
+    "Siyudad na Olongapo",
+    "Siyudad na Olóngapo",
+    "Syodad nin Olongapo",
+    "ao long a bo",
+    "awlwngapw",
+    "ollong-gapo",
+    "Олонгапо",
+    "اولونگاپو",
+    "奥隆阿波",
+    "올롱가포"
+   ],
+   "lat": 14.82917,
+   "lon": 120.28278,
+   "population": 221178,
+   "geonameId": "1697175"
+  },
+  {
+   "id": "city:geonames-1725094",
+   "name": "Binangonan",
+   "aliases": [
+    "Бинангонан"
+   ],
+   "lat": 14.4646,
+   "lon": 121.1929,
+   "population": 219204,
+   "geonameId": "1725094"
+  },
+  {
+   "id": "city:geonames-1687894",
+   "name": "Santa Rosa",
+   "aliases": [
+    "Kota Santa Rosa",
+    "Santa Rosa City",
+    "Santa Rosa Lakanbalen",
+    "Santa-Rosa",
+    "Санта-Роса"
+   ],
+   "lat": 14.31222,
+   "lon": 121.11139,
+   "population": 216650,
+   "geonameId": "1687894"
+  },
+  {
+   "id": "city:geonames-7090983",
+   "name": "Commonwealth",
+   "aliases": [
+    "Kommonvealt",
+    "Коммонвеалт"
+   ],
+   "lat": 14.6969,
+   "lon": 121.08006,
+   "population": 215034,
+   "geonameId": "7090983"
+  },
+  {
+   "id": "city:geonames-1706090",
+   "name": "Lipa City",
+   "aliases": [
+    "Ciudad ti Lipa",
+    "Lipa",
+    "Липа"
+   ],
+   "lat": 13.9411,
+   "lon": 121.1631,
+   "population": 212287,
+   "geonameId": "1706090"
+  },
+  {
+   "id": "city:geonames-1695804",
+   "name": "Panabo",
+   "aliases": [
+    "Panabas",
+    "Panabo City",
+    "Panampo",
+    "ba na bo",
+    "banabw",
+    "pa na bo",
+    "panabo",
+    "panabw",
+    "panopa",
+    "penabo",
+    "Πανάμπο",
+    "Панабо",
+    "بانابو",
+    "پانابو",
+    "पानबो",
+    "पानाबो",
+    "পানাবো",
+    "પેનાબો",
+    "பனோபா",
+    "పానాబో",
+    "ಪನಾಬೋ",
+    "පැනබෝ",
+    "ปานาโบ",
+    "パナボ",
+    "巴拿波",
+    "파나보"
+   ],
+   "lat": 7.30806,
+   "lon": 125.68417,
+   "population": 211242,
+   "geonameId": "1695804"
+  },
+  {
+   "id": "city:geonames-1709968",
+   "name": "Kabankalan",
+   "aliases": [
+    "Кабанкалан"
+   ],
+   "lat": 9.9839,
+   "lon": 122.81423,
+   "population": 210893,
+   "geonameId": "1709968"
+  },
+  {
+   "id": "city:geonames-1681602",
+   "name": "Toledo",
+   "aliases": [
+    "Ciudad ti Toledo",
+    "Dakbayan sa Talisay",
+    "Dakbayan sa Toledo",
+    "Lungsod ng Toledo",
+    "Toledo City",
+    "Толедо"
+   ],
+   "lat": 10.3773,
+   "lon": 123.6386,
+   "population": 206692,
+   "geonameId": "1681602"
+  },
+  {
+   "id": "city:geonames-1696710",
+   "name": "Pagadian",
+   "aliases": [
+    "Lungsod ng Pagad",
+    "PAG",
+    "Pagadian City",
+    "bajadyan",
+    "pagadi'ana",
+    "pagadian",
+    "pagadiyana",
+    "pagadyan",
+    "paګadyan",
+    "Пагадиан",
+    "باجاديان",
+    "پاګادیان",
+    "پاگادیان",
+    "पागाडियान",
+    "পাগাদিয়ান",
+    "ਪਾਗਾਡੀਆਨ",
+    "ፓgadiyani",
+    "ፓጋድያን",
+    "パガディアン"
+   ],
+   "lat": 7.8257,
+   "lon": 123.437,
+   "population": 206483,
+   "geonameId": "1696710"
+  },
+  {
+   "id": "city:geonames-1708522",
+   "name": "Koronadal",
+   "aliases": [
+    "Koronadal City",
+    "Koronadal Lakanbalen",
+    "Koronadal'",
+    "Kota Koronadal",
+    "Marbel",
+    "ke luo na da er",
+    "kolonadal",
+    "koronadala",
+    "koronadaru",
+    "koronatal",
+    "krwnadal",
+    "kweronadaል",
+    "kwrwnadal",
+    "Корона́даль",
+    "Коронадаль",
+    "كورونادال",
+    "کرونادال",
+    "کورونادال",
+    "কোরোনাডাল",
+    "ਕੋਰੋਨਾਡਲ",
+    "கொரொனடால்",
+    "ኮሮናዳል",
+    "コロナダル",
+    "科罗纳达尔",
+    "코로나달"
+   ],
+   "lat": 6.50306,
+   "lon": 124.84694,
+   "population": 201844,
+   "geonameId": "1708522"
+  },
+  {
+   "id": "city:geonames-1729085",
+   "name": "Bago City",
+   "aliases": [
+    "Bagas",
+    "Bago",
+    "Banko",
+    "City of Bago",
+    "Dakbanwa/Syudad sang Bago",
+    "ba ge",
+    "ba ko",
+    "bago",
+    "bagw  nygrws ghrby",
+    "bajw",
+    "bego",
+    "bogo",
+    "pako",
+    "Μπάγκο",
+    "Баго",
+    "باجو",
+    "باگو، نیگروس غربی",
+    "बागो",
+    "बेगो",
+    "বাগো",
+    "બૉગો",
+    "பாகோ",
+    "బాగో",
+    "ಬಾಗೋ",
+    "බැගෝ",
+    "บาโก",
+    "ბაგო",
+    "バゴ",
+    "巴哥",
+    "바고"
+   ],
+   "lat": 10.53333,
+   "lon": 122.83333,
+   "population": 192993,
+   "geonameId": "1729085"
+  },
+  {
+   "id": "city:geonames-1695743",
+   "name": "Panalanoy",
+   "aliases": [
+    "Panalanoj",
+    "Паналаной"
+   ],
+   "lat": 11.25111,
+   "lon": 125.00639,
+   "population": 189090,
+   "geonameId": "1695743"
+  },
+  {
+   "id": "city:geonames-1704703",
+   "name": "Mabalacat City",
+   "aliases": [
+    "CRK",
+    "Mabalacat",
+    "Mabalakat",
+    "Мабалакат"
+   ],
+   "lat": 15.22303,
+   "lon": 120.57117,
+   "population": 188050,
+   "geonameId": "1704703"
+  },
+  {
+   "id": "city:geonames-1685755",
+   "name": "Sorsogon",
+   "aliases": [
+    "Sorsogon City",
+    "Сорсогон"
+   ],
+   "lat": 12.97389,
+   "lon": 123.99333,
+   "population": 187670,
+   "geonameId": "1685755"
+  },
+  {
+   "id": "city:geonames-1691444",
+   "name": "Roxas City",
+   "aliases": [
+    "RXS",
+    "Rokhas",
+    "Roxas",
+    "Рохас"
+   ],
+   "lat": 11.58528,
+   "lon": 122.75111,
+   "population": 185236,
+   "geonameId": "1691444"
+  },
+  {
+   "id": "city:geonames-1706889",
+   "name": "Legaspi",
+   "aliases": [
+    "LGP",
+    "Legaspi City",
+    "Legazpi",
+    "Legazpi City",
+    "Легаспи"
+   ],
+   "lat": 13.14125,
+   "lon": 123.74073,
+   "population": 179481,
+   "geonameId": "1706889"
+  },
+  {
+   "id": "city:geonames-1716995",
+   "name": "Concepcion",
+   "aliases": [
+    "Conception",
+    "Konseps'on",
+    "Консепсьон"
+   ],
+   "lat": 15.32546,
+   "lon": 120.65723,
+   "population": 178549,
+   "geonameId": "1716995"
+  },
+  {
+   "id": "city:geonames-1698829",
+   "name": "Naga",
+   "aliases": [
+    "Ciudad nin Naga",
+    "Dakbayan sa Naga",
+    "Kota Naga",
+    "Lungsod ng Naga",
+    "Maogmang Naga",
+    "Naga City",
+    "Naga Lakanbalen",
+    "Nagi",
+    "Syudad nin Naga",
+    "WNP",
+    "naga",
+    "naga  kamarynz jnwby",
+    "Наги",
+    "ناگا، کامارینز جنوبی",
+    "ナガ",
+    "나가"
+   ],
+   "lat": 13.61917,
+   "lon": 123.18139,
+   "population": 174931,
+   "geonameId": "1698829"
+  },
+  {
+   "id": "city:geonames-1716198",
+   "name": "Dagupan",
+   "aliases": [
+    "Dagupan City",
+    "Dagupan Lakanbalen",
+    "Dagupanas",
+    "Dagupán",
+    "Dakbayan sa Dagupan",
+    "Kota Dagupan",
+    "Lungsod ng Dagupan",
+    "Siyudad na Dagupan",
+    "dagupan",
+    "dagwpan",
+    "Дагупан",
+    "داگوپان",
+    "다구판"
+   ],
+   "lat": 16.04313,
+   "lon": 120.33325,
+   "population": 171271,
+   "geonameId": "1716198"
+  },
+  {
+   "id": "city:geonames-1680932",
+   "name": "Tuguegarao",
+   "aliases": [
+    "Lungsod ng Tuguegarao",
+    "TUG",
+    "Tugegarao",
+    "Tuguegarao City",
+    "Tuguegaro",
+    "Tүgegarao",
+    "tjygaraw",
+    "touguegarao",
+    "tugu'egara'o",
+    "tugugeraʾo",
+    "tuguyegara'o",
+    "twggaraw",
+    "twjyjaraw",
+    "twjyګaraw",
+    "Тугегарао",
+    "Түгегарао",
+    "تجیگاراؤ",
+    "توجيجاراو",
+    "توجیګاراو",
+    "توگگاراو",
+    "तुगुएगराओ",
+    "তুগুয়েগারাও",
+    "ਤੁਗੁਏਗਰਾਓ",
+    "ቱጉገራዖ",
+    "トゥグエガラオ"
+   ],
+   "lat": 17.61577,
+   "lon": 121.72285,
+   "population": 167297,
+   "geonameId": "1680932"
+  },
+  {
+   "id": "city:geonames-1711146",
+   "name": "Ilagan",
+   "aliases": [
+    "alagan",
+    "Илаган",
+    "الاگان"
+   ],
+   "lat": 17.14854,
+   "lon": 121.88924,
+   "population": 164020,
+   "geonameId": "1711146"
+  },
+  {
+   "id": "city:geonames-1695462",
+   "name": "Pandi",
+   "aliases": [
+    "Panda",
+    "Панда"
+   ],
+   "lat": 14.865,
+   "lon": 120.95722,
+   "population": 162725,
+   "geonameId": "1695462"
+  },
+  {
+   "id": "city:geonames-1718722",
+   "name": "Capas",
+   "aliases": [
+    "Bayan ng Capas",
+    "Capaz",
+    "Kapas",
+    "Капас"
+   ],
+   "lat": 15.33117,
+   "lon": 120.5898,
+   "population": 162724,
+   "geonameId": "1718722"
+  },
+  {
+   "id": "city:geonames-1700868",
+   "name": "Mariveles",
+   "aliases": [
+    "Маривелес"
+   ],
+   "lat": 14.43385,
+   "lon": 120.48569,
+   "population": 156200,
+   "geonameId": "1700868"
+  },
+  {
+   "id": "city:geonames-1712051",
+   "name": "Guyong",
+   "aliases": [
+    "Gujong",
+    "Гуёнг"
+   ],
+   "lat": 14.8361,
+   "lon": 120.97844,
+   "population": 155391,
+   "geonameId": "1712051"
+  },
+  {
+   "id": "city:geonames-1680197",
+   "name": "Urdaneta",
+   "aliases": [
+    "Kota Urdaneta",
+    "Urdaneta Lakanbalen",
+    "Urdaneta de Pangasinan",
+    "Urdaneta de Pangasinán",
+    "Урданета"
+   ],
+   "lat": 15.97611,
+   "lon": 120.57111,
+   "population": 145935,
+   "geonameId": "1680197"
+  },
+  {
+   "id": "city:geonames-1689510",
+   "name": "San Jose",
+   "aliases": [
+    "Pandurucan",
+    "SJI",
+    "San Dzhose",
+    "Сан Джосе"
+   ],
+   "lat": 12.35275,
+   "lon": 121.06761,
+   "population": 143495,
+   "geonameId": "1689510"
+  },
+  {
+   "id": "city:geonames-1707123",
+   "name": "La Trinidad",
+   "aliases": [
+    "La-Trinidad",
+    "Trinidad",
+    "lateulinidadeu",
+    "Ла-Тринидад",
+    "لا ٹرینیڈاڈ، بینگیت",
+    "라트리니다드"
+   ],
+   "lat": 16.455,
+   "lon": 120.5875,
+   "population": 142925,
+   "geonameId": "1707123"
+  },
+  {
+   "id": "city:geonames-1697497",
+   "name": "Norzagaray",
+   "aliases": [
+    "Bayan ng Norzagaray",
+    "Norzagaraj",
+    "Norzugaray",
+    "Норзагарай"
+   ],
+   "lat": 14.9109,
+   "lon": 121.0493,
+   "population": 140697,
+   "geonameId": "1697497"
+  },
+  {
+   "id": "city:geonames-1712875",
+   "name": "Gingoog",
+   "aliases": [
+    "Dakbayan sa Gingoog",
+    "Gingoog City",
+    "Gingug",
+    "Гингуг"
+   ],
+   "lat": 8.82778,
+   "lon": 125.09972,
+   "population": 138895,
+   "geonameId": "1712875"
+  },
+  {
+   "id": "city:geonames-1698839",
+   "name": "Naga",
+   "aliases": [
+    "City of Naga",
+    "Kota Naga",
+    "Lungsod ng Naga",
+    "Naga City",
+    "naga  sybw",
+    "Нага",
+    "ناگا، سیبو"
+   ],
+   "lat": 10.20898,
+   "lon": 123.758,
+   "population": 138727,
+   "geonameId": "1698839"
+  },
+  {
+   "id": "city:geonames-1719274",
+   "name": "Candelaria",
+   "aliases": [
+    "Kandelaria",
+    "Канделариа"
+   ],
+   "lat": 13.93111,
+   "lon": 121.42333,
+   "population": 137933,
+   "geonameId": "1719274"
+  },
+  {
+   "id": "city:geonames-1727995",
+   "name": "Baliuag",
+   "aliases": [
+    "Baliwag",
+    "Balíuag",
+    "Балиуаг"
+   ],
+   "lat": 14.95472,
+   "lon": 120.89694,
+   "population": 135679,
+   "geonameId": "1727995"
+  },
+  {
+   "id": "city:geonames-1730713",
+   "name": "Angono",
+   "aliases": [
+    "Ангоно"
+   ],
+   "lat": 14.5266,
+   "lon": 121.1536,
+   "population": 134975,
+   "geonameId": "1730713"
+  },
+  {
+   "id": "city:geonames-1699296",
+   "name": "Rodriguez",
+   "aliases": [
+    "Montalban",
+    "Rodriges",
+    "Rodríguez",
+    "luo de li ge si",
+    "Родригес",
+    "罗德里格斯"
+   ],
+   "lat": 14.76011,
+   "lon": 121.19993,
+   "population": 134432,
+   "geonameId": "1699296"
+  },
+  {
+   "id": "city:geonames-1689056",
+   "name": "San Mateo",
+   "aliases": [
+    "Сан Матео"
+   ],
+   "lat": 14.6982,
+   "lon": 121.1236,
+   "population": 134327,
+   "geonameId": "1689056"
+  },
+  {
+   "id": "city:geonames-1689286",
+   "name": "San Juan",
+   "aliases": [
+    "San Juan City",
+    "San Juan del Monte",
+    "San-Khuan",
+    "Сан-Хуан"
+   ],
+   "lat": 14.6,
+   "lon": 121.0333,
+   "population": 134312,
+   "geonameId": "1689286"
+  },
+  {
+   "id": "city:geonames-1683881",
+   "name": "Talisay",
+   "aliases": [
+    "Ciudad ti Talisay",
+    "Talisay City",
+    "Talisej",
+    "tarisai",
+    "Талисей",
+    "タリサイ"
+   ],
+   "lat": 10.24472,
+   "lon": 123.84944,
+   "population": 133148,
+   "geonameId": "1683881"
+  },
+  {
+   "id": "city:geonames-1699054",
+   "name": "Muricay",
+   "aliases": [
+    "Murikaj",
+    "Мурикай"
+   ],
+   "lat": 7.8275,
+   "lon": 123.4782,
+   "population": 132094,
+   "geonameId": "1699054"
+  },
+  {
+   "id": "city:geonames-1722930",
+   "name": "Bulaon",
+   "aliases": [
+    "Bulaun",
+    "Булаон"
+   ],
+   "lat": 15.08262,
+   "lon": 120.66288,
+   "population": 131818,
+   "geonameId": "1722930"
+  },
+  {
+   "id": "city:geonames-1713226",
+   "name": "Gapan",
+   "aliases": [
+    "Capan",
+    "Гапан"
+   ],
+   "lat": 15.3072,
+   "lon": 120.9464,
+   "population": 129610,
+   "geonameId": "1713226"
+  },
+  {
+   "id": "city:geonames-1725863",
+   "name": "Bayambang",
+   "aliases": [
+    "Bajambang",
+    "Bayembang",
+    "Баямбанг"
+   ],
+   "lat": 15.8127,
+   "lon": 120.4557,
+   "population": 129506,
+   "geonameId": "1725863"
+  },
+  {
+   "id": "city:geonames-1721168",
+   "name": "Cadiz",
+   "aliases": [
+    "Cadiz Viejo",
+    "Kadiz",
+    "Кадиз"
+   ],
+   "lat": 10.9465,
+   "lon": 123.288,
+   "population": 129053,
+   "geonameId": "1721168"
+  },
+  {
+   "id": "city:geonames-1691490",
+   "name": "Rosario",
+   "aliases": [
+    "Lagadlanin",
+    "Lagadlarin",
+    "Lagadlaun",
+    "Росарио"
+   ],
+   "lat": 13.6323,
+   "lon": 121.2207,
+   "population": 128352,
+   "geonameId": "1691490"
+  },
+  {
+   "id": "city:geonames-1692520",
+   "name": "Pulong Santa Cruz",
+   "aliases": [
+    "Pulong Santa Kruz",
+    "Pulong Santa Rosa",
+    "Santa Cruz",
+    "Пулонг Санта Круз"
+   ],
+   "lat": 14.27324,
+   "lon": 121.07643,
+   "population": 126844,
+   "geonameId": "1692520"
+  },
+  {
+   "id": "city:geonames-1725804",
+   "name": "Bayawan",
+   "aliases": [
+    "Bagiavan",
+    "Bajavan",
+    "Bajavana",
+    "Bajavanas",
+    "City of Bayawan",
+    "Dakbayan sa Bayawan",
+    "Tolong",
+    "Tolong Nuevo",
+    "Tulong",
+    "ba wan wan",
+    "ba ya wan",
+    "baiavani",
+    "bayana",
+    "bayavam",
+    "bayavan",
+    "bayawan",
+    "beiwan",
+    "bevan",
+    "bevhana",
+    "beyavana",
+    "payavan",
+    "Μπαγιαβάν",
+    "Байаван",
+    "Баяван",
+    "باياوان",
+    "بایاوان",
+    "बायावां",
+    "बेव्हन",
+    "বায়ান",
+    "બેયવન",
+    "பாயாவான்",
+    "బయవాన్",
+    "ಬೇವನ್",
+    "බයාවන්",
+    "บายาวัน",
+    "ბაიავანი",
+    "バヤワン",
+    "巴湾湾",
+    "베이완"
+   ],
+   "lat": 9.3649,
+   "lon": 122.804,
+   "population": 126744,
+   "geonameId": "1725804"
+  },
+  {
+   "id": "city:geonames-1685378",
+   "name": "Sultan Kudarat",
+   "aliases": [
+    "Nuling",
+    "Sultan-Kudarat",
+    "Sultán Kudarat",
+    "sltan qdrt  magwyndanaw",
+    "Султан-Кударат",
+    "سلطان قدرت، ماگوئنداناؤ"
+   ],
+   "lat": 7.22889,
+   "lon": 124.25778,
+   "population": 124965,
+   "geonameId": "1685378"
+  },
+  {
+   "id": "city:geonames-7391141",
+   "name": "Poblacion",
+   "aliases": [
+    "Poblakion",
+    "Поблакион"
+   ],
+   "lat": 14.3787,
+   "lon": 121.025,
+   "population": 124554,
+   "geonameId": "7391141"
+  },
+  {
+   "id": "city:geonames-1711982",
+   "name": "Hagonoy",
+   "aliases": [
+    "Hagony",
+    "Hagunoy",
+    "Khagonoj",
+    "Хагоной"
+   ],
+   "lat": 14.83413,
+   "lon": 120.73271,
+   "population": 123531,
+   "geonameId": "1711982"
+  },
+  {
+   "id": "city:geonames-8031389",
+   "name": "Tabuk",
+   "aliases": [
+    "Табук"
+   ],
+   "lat": 17.41456,
+   "lon": 121.44157,
+   "population": 122771,
+   "geonameId": "8031389"
+  },
+  {
+   "id": "city:geonames-1720034",
+   "name": "Calumpit",
+   "aliases": [
+    "Kalumpit",
+    "Калумпит"
+   ],
+   "lat": 14.91639,
+   "lon": 120.76583,
+   "population": 122187,
+   "geonameId": "1720034"
+  },
+  {
+   "id": "city:geonames-1730413",
+   "name": "Apalit",
+   "aliases": [
+    "Апалит"
+   ],
+   "lat": 14.95333,
+   "lon": 120.77,
+   "population": 121057,
+   "geonameId": "1730413"
+  },
+  {
+   "id": "city:geonames-1693239",
+   "name": "Plaridel",
+   "aliases": [
+    "Pandi",
+    "Quingua",
+    "Quinqua",
+    "Пларидел"
+   ],
+   "lat": 14.88722,
+   "lon": 120.85722,
+   "population": 120939,
+   "geonameId": "1693239"
+  },
+  {
+   "id": "city:geonames-1686547",
+   "name": "Silang",
+   "aliases": [
+    "Силанг"
+   ],
+   "lat": 14.21567,
+   "lon": 120.97137,
+   "population": 119475,
+   "geonameId": "1686547"
+  },
+  {
+   "id": "city:geonames-1702649",
+   "name": "Malita",
+   "aliases": [
+    "Malit",
+    "malyta  dawayw ghrby",
+    "Малита",
+    "مالیتا، داوائو غربی"
+   ],
+   "lat": 6.415,
+   "lon": 125.61167,
+   "population": 118438,
+   "geonameId": "1702649"
+  },
+  {
+   "id": "city:geonames-1712531",
+   "name": "Guiguinto",
+   "aliases": [
+    "Гуигуинто"
+   ],
+   "lat": 14.83333,
+   "lon": 120.88333,
+   "population": 118173,
+   "geonameId": "1712531"
+  },
+  {
+   "id": "city:geonames-1701537",
+   "name": "Manolo Fortich",
+   "aliases": [
+    "Maluko",
+    "Маноло Фортич"
+   ],
+   "lat": 8.36972,
+   "lon": 124.86444,
+   "population": 118075,
+   "geonameId": "1701537"
+  },
+  {
+   "id": "city:geonames-1699755",
+   "name": "Midsayap",
+   "aliases": [
+    "Midsajap",
+    "Мидсаяп"
+   ],
+   "lat": 7.19083,
+   "lon": 124.53028,
+   "population": 117365,
+   "geonameId": "1699755"
+  },
+  {
+   "id": "city:geonames-1711718",
+   "name": "Himamaylan",
+   "aliases": [
+    "City of Himamaylan",
+    "Khimamejlen",
+    "Химамейлен"
+   ],
+   "lat": 10.09889,
+   "lon": 122.87056,
+   "population": 117286,
+   "geonameId": "1711718"
+  },
+  {
+   "id": "city:geonames-1705536",
+   "name": "Los Baños",
+   "aliases": [
+    "Los Banos",
+    "Los-Ban'os",
+    "Лос-Баньос"
+   ],
+   "lat": 14.17025,
+   "lon": 121.24181,
+   "population": 117030,
+   "geonameId": "1705536"
+  },
+  {
+   "id": "city:geonames-1684681",
+   "name": "Tacurong",
+   "aliases": [
+    "Kota Tacurong",
+    "Tacorong",
+    "Tacurong City",
+    "Tacurong Lakanbalen",
+    "Takrong",
+    "Takurong",
+    "Такуронг"
+   ],
+   "lat": 6.6925,
+   "lon": 124.67639,
+   "population": 116945,
+   "geonameId": "1684681"
+  },
+  {
+   "id": "city:geonames-1714781",
+   "name": "Dinaig",
+   "aliases": [
+    "Ara Rancheria",
+    "Динаиг"
+   ],
+   "lat": 7.16985,
+   "lon": 124.20836,
+   "population": 116768,
+   "geonameId": "1714781"
+  },
+  {
+   "id": "city:geonames-1714956",
+   "name": "Digos",
+   "aliases": [
+    "Digos City",
+    "Digos Lakanbalen",
+    "Kota Digos",
+    "dygws",
+    "Дигос",
+    "دیگوس"
+   ],
+   "lat": 6.74972,
+   "lon": 125.35722,
+   "population": 116122,
+   "geonameId": "1714956"
+  },
+  {
+   "id": "city:geonames-1717641",
+   "name": "Cavite City",
+   "aliases": [
+    "Bandar Cavite",
+    "Cavite",
+    "Cavite Lakanbalen",
+    "Ciudad ti Cavite",
+    "Dakbayan sa Cavite",
+    "Kavite",
+    "Lungsod ng Kabite",
+    "Siyudad na Cavite",
+    "Syudad han Cavite",
+    "jia mi de",
+    "kabite",
+    "kavuite",
+    "Кавите",
+    "カヴィテ",
+    "甲米地",
+    "카비테"
+   ],
+   "lat": 14.48369,
+   "lon": 120.89878,
+   "population": 115932,
+   "geonameId": "1717641"
+  },
+  {
+   "id": "city:geonames-1682659",
+   "name": "Tayabas",
+   "aliases": [
+    "City of Tayabas",
+    "Lungsod ng Tayabas",
+    "Tajabas",
+    "Таябас"
+   ],
+   "lat": 14.0259,
+   "lon": 121.5929,
+   "population": 115318,
+   "geonameId": "1682659"
+  },
+  {
+   "id": "city:geonames-1710544",
+   "name": "Iriga City",
+   "aliases": [
+    "Iriga",
+    "Ирига"
+   ],
+   "lat": 13.4324,
+   "lon": 123.4115,
+   "population": 115306,
+   "geonameId": "1710544"
+  },
+  {
+   "id": "city:geonames-1692214",
+   "name": "Quezon",
+   "aliases": [
+    "Keson",
+    "Kiokong",
+    "Кесон"
+   ],
+   "lat": 7.73028,
+   "lon": 125.09889,
+   "population": 114521,
+   "geonameId": "1692214"
+  },
+  {
+   "id": "city:geonames-1714201",
+   "name": "Dumaguete",
+   "aliases": [
+    "DGT",
+    "Dumageta",
+    "Dumagetas",
+    "Dumagete",
+    "Dumageute",
+    "Dumaghete",
+    "Dumaguete City",
+    "Dumaguette",
+    "Ntoumankouete",
+    "Urbs Dumaguete",
+    "doumagete",
+    "du ma ke te",
+    "dumagate",
+    "dumagete",
+    "dumagu'ete",
+    "dumagute",
+    "dumaguye",
+    "dumaguyete",
+    "dwmaghwyty",
+    "dwmagwyty",
+    "dwmgth",
+    "lang mang ya de",
+    "tumaku'ete",
+    "Ντουμαγκουέτε",
+    "Думагете",
+    "דומגטה",
+    "دوماغويتي",
+    "دوماگویتی",
+    "दुमगते",
+    "दुमागुएटे",
+    "দুমাগুয়েতে",
+    "દુમાગુએટે",
+    "டுமாகுஎடே",
+    "దుమగుటె",
+    "ಡುಮಾಗುಯೆ",
+    "ඩුමගුටේ",
+    "ดูมาเกเต",
+    "დუმაგეტე",
+    "ドゥマゲテ",
+    "朗芒芽地",
+    "두마게테"
+   ],
+   "lat": 9.30646,
+   "lon": 123.30769,
+   "population": 113541,
+   "geonameId": "1714201"
+  },
+  {
+   "id": "city:geonames-1718306",
+   "name": "Carmona",
+   "aliases": [
+    "Karmona",
+    "Кармона"
+   ],
+   "lat": 14.3132,
+   "lon": 121.0576,
+   "population": 112140,
+   "geonameId": "1718306"
+  },
+  {
+   "id": "city:geonames-1707404",
+   "name": "Laoag",
+   "aliases": [
+    "Dakbayan sa Laoag",
+    "Kota Laoag",
+    "LAO",
+    "Laoag City",
+    "Laoag Lakanbalen",
+    "Laoang",
+    "Laog",
+    "Loag",
+    "Lungsod ng Laoag",
+    "Siyudad na Laoag",
+    "Syudad nin Laoag",
+    "lao wo",
+    "laoageu",
+    "lawag",
+    "raoagu",
+    "Лаоаг",
+    "لاواگ",
+    "ལའ་ཨག",
+    "ལའོ་ཨག",
+    "ラオアグ",
+    "佬沃",
+    "라오아그"
+   ],
+   "lat": 18.1978,
+   "lon": 120.5957,
+   "population": 112117,
+   "geonameId": "1707404"
+  },
+  {
+   "id": "city:geonames-1692565",
+   "name": "Pulilan",
+   "aliases": [
+    "Пулилан"
+   ],
+   "lat": 14.90167,
+   "lon": 120.84917,
+   "population": 111384,
+   "geonameId": "1692565"
+  },
+  {
+   "id": "city:geonames-1725684",
+   "name": "Bayugan",
+   "aliases": [
+    "Bajugan",
+    "City of Bayugan",
+    "Dakbayan sa Bayugan",
+    "Lungsod ng Bayugan",
+    "Баюган"
+   ],
+   "lat": 8.75611,
+   "lon": 125.7675,
+   "population": 110313,
+   "geonameId": "1725684"
+  },
+  {
+   "id": "city:geonames-1701124",
+   "name": "Maramag",
+   "aliases": [
+    "XMA",
+    "Марамаг"
+   ],
+   "lat": 7.76333,
+   "lon": 125.00528,
+   "population": 109864,
+   "geonameId": "1701124"
+  },
+  {
+   "id": "city:geonames-1683877",
+   "name": "Talisay",
+   "aliases": [
+    "Dakbanwa sang Talisay",
+    "Dakbayan sa Talisay",
+    "Lungsod ng Talisay",
+    "Talisai",
+    "Talisaj",
+    "Talisei",
+    "Talisej",
+    "Taliseja",
+    "Talisejus",
+    "Talisėjus",
+    "Talìsai",
+    "Talísay",
+    "ta li sa yi",
+    "ta li sai",
+    "talice",
+    "talisai",
+    "talisaya",
+    "talise",
+    "tallisai",
+    "talysay",
+    "tarisai",
+    "tha li sey",
+    "Ταλισέι",
+    "Талисай",
+    "Талисей",
+    "Талісей",
+    "تاليساي",
+    "تالیسای",
+    "टाळीसे",
+    "तालिसय",
+    "টালিসে",
+    "ટાલીસે",
+    "தாலிசெ",
+    "తాలిసై",
+    "ಟಾಲಿಸೇ",
+    "ටලිසේ",
+    "ทาลิเซย์",
+    "タリサイ",
+    "塔利賽",
+    "塔里萨伊",
+    "탈리사이"
+   ],
+   "lat": 10.7375,
+   "lon": 122.9666,
+   "population": 109204,
+   "geonameId": "1683877"
+  },
+  {
+   "id": "city:geonames-1687801",
+   "name": "Santiago",
+   "aliases": [
+    "Сантиаго"
+   ],
+   "lat": 16.68808,
+   "lon": 121.5487,
+   "population": 108414,
+   "geonameId": "1687801"
+  },
+  {
+   "id": "city:geonames-1688253",
+   "name": "Santa Cruz",
+   "aliases": [
+    "Santa Kruz",
+    "santa krwz  lagwna",
+    "Санта Круз",
+    "سانتا کروز، لاگونا"
+   ],
+   "lat": 14.2814,
+   "lon": 121.4161,
+   "population": 108145,
+   "geonameId": "1688253"
+  },
+  {
+   "id": "city:geonames-1717911",
+   "name": "Catbalogan",
+   "aliases": [
+    "Catbalogan City",
+    "Katbalogan",
+    "Kota Catbalogan",
+    "Lungsod ng Catbalogan",
+    "katbalwgan",
+    "Катбалоган",
+    "کاتبالوگان"
+   ],
+   "lat": 11.77528,
+   "lon": 124.88611,
+   "population": 107896,
+   "geonameId": "1717911"
+  },
+  {
+   "id": "city:geonames-7090987",
+   "name": "Bagong Silangan",
+   "aliases": [
+    "Багонг Силанган"
+   ],
+   "lat": 14.706,
+   "lon": 121.108,
+   "population": 106886,
+   "geonameId": "7090987"
+  },
+  {
+   "id": "city:geonames-1695097",
+   "name": "Paniqui",
+   "aliases": [
+    "Paniki",
+    "Паники"
+   ],
+   "lat": 15.6689,
+   "lon": 120.5806,
+   "population": 106190,
+   "geonameId": "1695097"
+  },
+  {
+   "id": "city:geonames-1700360",
+   "name": "Mati",
+   "aliases": [
+    "Kota Mati",
+    "MXI",
+    "Mati City",
+    "ma di",
+    "maty  dawayw shrqy",
+    "Мати",
+    "ماتی، داوائو شرقی",
+    "馬蒂"
+   ],
+   "lat": 6.95508,
+   "lon": 126.21655,
+   "population": 105908,
+   "geonameId": "1700360"
+  },
+  {
+   "id": "city:geonames-1683013",
+   "name": "Tanza",
+   "aliases": [
+    "tanza",
+    "Танза",
+    "タンザ"
+   ],
+   "lat": 14.6753,
+   "lon": 120.9389,
+   "population": 105510,
+   "geonameId": "1683013"
+  },
+  {
+   "id": "city:geonames-1710470",
+   "name": "Isulan",
+   "aliases": [
+    "Kalawag",
+    "aswlan  sltan qdrt",
+    "Исулан",
+    "اسولان، سلطان قدرت"
+   ],
+   "lat": 6.62944,
+   "lon": 124.605,
+   "population": 101455,
+   "geonameId": "1710470"
+  },
+  {
+   "id": "city:geonames-1710141",
+   "name": "Jolo",
+   "aliases": [
+    "Dzholi",
+    "JOL",
+    "Joló",
+    "Kholo",
+    "Sug",
+    "Sulu",
+    "Suluk",
+    "hollo",
+    "horo",
+    "jwlw  swlw",
+    "Джоли",
+    "Холо",
+    "جولو، سولو",
+    "ホロ",
+    "홀로"
+   ],
+   "lat": 6.05222,
+   "lon": 121.00222,
+   "population": 101002,
+   "geonameId": "1710141"
+  },
+  {
+   "id": "city:geonames-1720508",
+   "name": "Calasiao",
+   "aliases": [
+    "Colasiao",
+    "Kalasiao",
+    "Каласиао"
+   ],
+   "lat": 16.0111,
+   "lon": 120.36,
+   "population": 100686,
+   "geonameId": "1720508"
+  },
+  {
+   "id": "city:geonames-1724767",
+   "name": "Bislig",
+   "aliases": [
+    "BPH",
+    "Bislig City",
+    "Bislig Lakanbalen",
+    "Dakbayan sa Bislig",
+    "Kota Bislig",
+    "Lungsod ng Bislig",
+    "bi si li ge shi",
+    "bslg",
+    "بسلگ",
+    "比斯利格市"
+   ],
+   "lat": 8.21528,
+   "lon": 126.31639,
+   "population": 99872,
+   "geonameId": "1724767"
+  },
+  {
+   "id": "city:geonames-1724489",
+   "name": "Bocaue",
+   "aliases": [],
+   "lat": 14.79833,
+   "lon": 120.92611,
+   "population": 98649,
+   "geonameId": "1724489"
+  },
+  {
+   "id": "city:geonames-1717926",
+   "name": "Catarman",
+   "aliases": [
+    "CRM",
+    "Catarmán",
+    "Katarman",
+    "katarman  shmaly samar",
+    "Катарман",
+    "کاتارمان، شمالی سامار"
+   ],
+   "lat": 12.4989,
+   "lon": 124.6377,
+   "population": 97738,
+   "geonameId": "1717926"
+  },
+  {
+   "id": "city:geonames-1713818",
+   "name": "Escalante",
+   "aliases": [
+    "Escalante City",
+    "Escalante Lakanbalen",
+    "Kota Escalante",
+    "ایسکالانتے، نیگروس غربی"
+   ],
+   "lat": 10.84028,
+   "lon": 123.49917,
+   "population": 97050,
+   "geonameId": "1713818"
+  },
+  {
+   "id": "city:geonames-1699323",
+   "name": "Monkayo",
+   "aliases": [
+    "Moncayo"
+   ],
+   "lat": 7.81528,
+   "lon": 126.05444,
+   "population": 96405,
+   "geonameId": "1699323"
+  },
+  {
+   "id": "city:geonames-1713014",
+   "name": "General Trias",
+   "aliases": [
+    "General Trias Lakanbalen",
+    "Heneral Trias"
+   ],
+   "lat": 14.38694,
+   "lon": 120.88167,
+   "population": 96022,
+   "geonameId": "1713014"
+  },
+  {
+   "id": "city:geonames-1716388",
+   "name": "Daanbantayan",
+   "aliases": [
+    "Candaya"
+   ],
+   "lat": 11.24681,
+   "lon": 124.01462,
+   "population": 95080,
+   "geonameId": "1716388"
+  },
+  {
+   "id": "city:geonames-1714674",
+   "name": "Dipolog",
+   "aliases": [
+    "DPL",
+    "Dakbayan sa Dipolog",
+    "Dipolog City",
+    "Dipolog Lakanbalen",
+    "Dipólog",
+    "Kota Dipolog",
+    "Lungsod ng Dipolog",
+    "dipollogeu",
+    "diporogu",
+    "dypwlwg",
+    "Диполог",
+    "دیپولوگ",
+    "ディポログ",
+    "디폴로그"
+   ],
+   "lat": 8.56697,
+   "lon": 123.33471,
+   "population": 93549,
+   "geonameId": "1714674"
+  },
+  {
+   "id": "city:geonames-1709632",
+   "name": "Kalibo",
+   "aliases": [
+    "Banwa it Kalibo",
+    "KLO",
+    "Kalibo Town",
+    "Pueblo de Calivo",
+    "kallibo",
+    "Калибо",
+    "칼리보"
+   ],
+   "lat": 11.7086,
+   "lon": 122.3648,
+   "population": 93218,
+   "geonameId": "1709632"
+  },
+  {
+   "id": "city:geonames-1696899",
+   "name": "Ozamiz City",
+   "aliases": [
+    "Bulakay",
+    "Misamis",
+    "OZC",
+    "Ozamis",
+    "Ozamis City",
+    "Ozamiz",
+    "Озамис"
+   ],
+   "lat": 8.1481,
+   "lon": 123.8405,
+   "population": 93082,
+   "geonameId": "1696899"
+  },
+  {
+   "id": "city:geonames-1727401",
+   "name": "Banga",
+   "aliases": [
+    "Bañga"
+   ],
+   "lat": 6.42381,
+   "lon": 124.77603,
+   "population": 91536,
+   "geonameId": "1727401"
+  },
+  {
+   "id": "city:geonames-1685230",
+   "name": "Surallah",
+   "aliases": [
+    "AAV",
+    "Surala"
+   ],
+   "lat": 6.37527,
+   "lon": 124.74521,
+   "population": 91412,
+   "geonameId": "1685230"
+  },
+  {
+   "id": "city:geonames-1691280",
+   "name": "Sablayan",
+   "aliases": [],
+   "lat": 12.8346,
+   "lon": 120.769,
+   "population": 91406,
+   "geonameId": "1691280"
+  },
+  {
+   "id": "city:geonames-1692747",
+   "name": "Prosperidad",
+   "aliases": [
+    "brwsbrydad",
+    "peuloseupelidadeu",
+    "prwsprydad",
+    "prwsprydad  agwsan jnwby",
+    "بروسبريداد",
+    "پروسپریداد",
+    "پروسپریداد، اگوسان جنوبی",
+    "پروسپیریڈاڈ",
+    "프로스페리다드"
+   ],
+   "lat": 8.58,
+   "lon": 125.89639,
+   "population": 90162,
+   "geonameId": "1692747"
+  },
+  {
+   "id": "city:geonames-1731744",
+   "name": "Alabel",
+   "aliases": [],
+   "lat": 6.10179,
+   "lon": 125.29048,
+   "population": 90120,
+   "geonameId": "1731744"
+  },
+  {
+   "id": "city:geonames-1720464",
+   "name": "Calauan",
+   "aliases": [],
+   "lat": 14.14989,
+   "lon": 121.3152,
+   "population": 89670,
+   "geonameId": "1720464"
+  },
+  {
+   "id": "city:geonames-1693136",
+   "name": "Polangui",
+   "aliases": [],
+   "lat": 13.2923,
+   "lon": 123.4855,
+   "population": 89176,
+   "geonameId": "1693136"
+  },
+  {
+   "id": "city:geonames-1720793",
+   "name": "Calabanga",
+   "aliases": [
+    "Calabunga"
+   ],
+   "lat": 13.7068,
+   "lon": 123.2087,
+   "population": 88918,
+   "geonameId": "1720793"
+  },
+  {
+   "id": "city:geonames-1701872",
+   "name": "Mangaldan",
+   "aliases": [],
+   "lat": 16.07,
+   "lon": 120.4025,
+   "population": 88818,
+   "geonameId": "1701872"
+  },
+  {
+   "id": "city:geonames-1728772",
+   "name": "Bais",
+   "aliases": [
+    "Bais City",
+    "Bajs",
+    "bai si",
+    "baisu",
+    "bays  nygrws shrqy",
+    "jzyrt byz",
+    "Байс",
+    "بایس، نیگروس شرقی",
+    "جزيرة بيز",
+    "バイス",
+    "拜斯"
+   ],
+   "lat": 9.59111,
+   "lon": 123.12278,
+   "population": 88050,
+   "geonameId": "1728772"
+  },
+  {
+   "id": "city:geonames-1730225",
+   "name": "Arayat",
+   "aliases": [],
+   "lat": 15.1505,
+   "lon": 120.7697,
+   "population": 87987,
+   "geonameId": "1730225"
+  },
+  {
+   "id": "city:geonames-1685218",
+   "name": "Surigao",
+   "aliases": [
+    "Ciudad ti Surigao",
+    "Dakbayan sa Surigao",
+    "Lungsod ng Surigao",
+    "SUG",
+    "Serigao Siti",
+    "Surigao City",
+    "Surigao Lakanbalen",
+    "su li gao",
+    "suligao",
+    "surigao",
+    "Серигао Сити",
+    "スリガオ",
+    "苏里高",
+    "수리가오"
+   ],
+   "lat": 9.789,
+   "lon": 125.495,
+   "population": 87832,
+   "geonameId": "1685218"
+  },
+  {
+   "id": "city:geonames-1684553",
+   "name": "Tagaytay",
+   "aliases": [
+    "Lungsod ng Tagaytay",
+    "Tagaitai",
+    "Tagaitaium",
+    "Tagaitài",
+    "Tagajtaj",
+    "Tagajtaja",
+    "Tagajtajo",
+    "Tagajtajus",
+    "Tagaytay City",
+    "Tagaïtaï",
+    "Tankeitai",
+    "da ya tai",
+    "ta gai tai",
+    "ta ki ti",
+    "tagaitai",
+    "tagateya",
+    "tagayte",
+    "tagetai",
+    "tagote",
+    "tajaytay",
+    "takaite",
+    "tegayate",
+    "Τάγκεϊταϊ",
+    "Тагайтай",
+    "טאַגײַטײַ",
+    "تاجايتاى",
+    "تاجایتے",
+    "टागाटेय",
+    "तागेतै",
+    "তেগায়তে",
+    "ટાગાટેય",
+    "டகைடே",
+    "తగోతే",
+    "ತಗಾಯ್ಟೆ",
+    "ක්රිසිඋමා",
+    "ตาไกไต",
+    "ტაგაიტაი",
+    "タガイタイ",
+    "塔盖泰",
+    "塔蓋泰",
+    "大雅臺",
+    "타가이타이"
+   ],
+   "lat": 14.09532,
+   "lon": 120.93355,
+   "population": 87811,
+   "geonameId": "1684553"
+  },
+  {
+   "id": "city:geonames-1715542",
+   "name": "Dapitan",
+   "aliases": [
+    "Ciudad de Dapitan",
+    "Dakbayan sa Dapitan",
+    "Dapitan City",
+    "Dapitana",
+    "Dapitanas",
+    "Ntapitan",
+    "da bi dan",
+    "da pi dan",
+    "da pi tan",
+    "dabytan",
+    "dapitan",
+    "dapitana",
+    "dapytan",
+    "depitana",
+    "depitena",
+    "tappitan",
+    "Ντάπιταν",
+    "Дапитан",
+    "Дапітан",
+    "دابيتان",
+    "داپیتان",
+    "दपितान",
+    "दॅपिटॅन",
+    "ডাপিতান",
+    "દેપિટન",
+    "டப்பிடன்",
+    "డపిటన్",
+    "ಡಪಿತನ್",
+    "ඩපිටන්",
+    "ดาปิตัน",
+    "ダピタン",
+    "达必丹",
+    "达皮丹",
+    "達必丹",
+    "다피탄"
+   ],
+   "lat": 8.6561,
+   "lon": 123.4227,
+   "population": 87699,
+   "geonameId": "1715542"
+  },
+  {
+   "id": "city:geonames-1704271",
+   "name": "Maco",
+   "aliases": [],
+   "lat": 7.36194,
+   "lon": 125.85528,
+   "population": 87680,
+   "geonameId": "1704271"
+  },
+  {
+   "id": "city:geonames-1727043",
+   "name": "Bantayan",
+   "aliases": [
+    "Banatayan"
+   ],
+   "lat": 11.1683,
+   "lon": 123.7223,
+   "population": 87394,
+   "geonameId": "1727043"
+  },
+  {
+   "id": "city:geonames-1680007",
+   "name": "Victorias",
+   "aliases": [
+    "Dakbayan sa Victorias",
+    "Syudad han Victorias",
+    "Victorias City"
+   ],
+   "lat": 10.90154,
+   "lon": 123.0705,
+   "population": 86510,
+   "geonameId": "1680007"
+  },
+  {
+   "id": "city:geonames-1684497",
+   "name": "Tagbilaran City",
+   "aliases": [
+    "City of Tagbilaran",
+    "Dakbayan sa Tagbilaran",
+    "Syudad han Tagbilaran",
+    "TAG",
+    "Tagbilaran",
+    "Тагбиларан"
+   ],
+   "lat": 9.65556,
+   "lon": 123.85219,
+   "population": 86411,
+   "geonameId": "1684497"
+  },
+  {
+   "id": "city:geonames-1699088",
+   "name": "Muñoz",
+   "aliases": [
+    "Munoz"
+   ],
+   "lat": 15.71611,
+   "lon": 120.90306,
+   "population": 85061,
+   "geonameId": "1699088"
+  },
+  {
+   "id": "city:geonames-1683088",
+   "name": "Tanjay",
+   "aliases": [
+    "Dakbayan sa Tanjay",
+    "Lungsod ng Tanjay",
+    "Tanjay City"
+   ],
+   "lat": 9.5162,
+   "lon": 123.158,
+   "population": 84593,
+   "geonameId": "1683088"
+  },
+  {
+   "id": "city:geonames-1724933",
+   "name": "Binonga",
+   "aliases": [],
+   "lat": 10.7719,
+   "lon": 122.9817,
+   "population": 83980,
+   "geonameId": "1724933"
+  },
+  {
+   "id": "city:geonames-1700917",
+   "name": "Marilao",
+   "aliases": [
+    "Марилао"
+   ],
+   "lat": 14.75778,
+   "lon": 120.94833,
+   "population": 83276,
+   "geonameId": "1700917"
+  },
+  {
+   "id": "city:geonames-1723066",
+   "name": "Bulacan",
+   "aliases": [],
+   "lat": 14.79278,
+   "lon": 120.87889,
+   "population": 83101,
+   "geonameId": "1723066"
+  },
+  {
+   "id": "city:geonames-1690033",
+   "name": "San Fernando",
+   "aliases": [
+    "Dakbayan sa San Fernando",
+    "Kota San Fernando",
+    "Lungsod ng San Fernando",
+    "SFE",
+    "San Fernandas",
+    "San Fernando City",
+    "San Fernando Lakanbalen",
+    "San-Fernando",
+    "Siyudad na San Fernando",
+    "sanferunando",
+    "sanpeleunando",
+    "sheng fei er nan duo",
+    "Сан-Фернандо",
+    "سان فرنانڈو، لا یونین",
+    "サンフェルナンド",
+    "圣费尔南多",
+    "산페르난도"
+   ],
+   "lat": 16.61591,
+   "lon": 120.31663,
+   "population": 83003,
+   "geonameId": "1690033"
+  },
+  {
+   "id": "city:geonames-1703051",
+   "name": "Malapatan",
+   "aliases": [
+    "Bayan ng Malapatan",
+    "Lungsod sa Malapatan"
+   ],
+   "lat": 5.96917,
+   "lon": 125.28944,
+   "population": 82577,
+   "geonameId": "1703051"
+  },
+  {
+   "id": "city:geonames-1696614",
+   "name": "Pagbilao",
+   "aliases": [
+    "Bayan ng Pagbilao"
+   ],
+   "lat": 13.96689,
+   "lon": 121.69835,
+   "population": 82132,
+   "geonameId": "1696614"
+  },
+  {
+   "id": "city:geonames-1706361",
+   "name": "Limay",
+   "aliases": [],
+   "lat": 14.56194,
+   "lon": 120.59833,
+   "population": 81960,
+   "geonameId": "1706361"
+  },
+  {
+   "id": "city:geonames-1707812",
+   "name": "Lambayong",
+   "aliases": [
+    "Banwa sang Lambayong",
+    "Bayan ng Lambayong",
+    "Lombaying",
+    "Lombayong"
+   ],
+   "lat": 6.51944,
+   "lon": 125.04444,
+   "population": 81288,
+   "geonameId": "1707812"
+  },
+  {
+   "id": "city:geonames-1722267",
+   "name": "Bustos",
+   "aliases": [
+    "Бустос"
+   ],
+   "lat": 14.95806,
+   "lon": 120.91778,
+   "population": 80565,
+   "geonameId": "1722267"
+  },
+  {
+   "id": "city:geonames-1690019",
+   "name": "San Francisco",
+   "aliases": [],
+   "lat": 8.53556,
+   "lon": 125.95,
+   "population": 79718,
+   "geonameId": "1690019"
+  },
+  {
+   "id": "city:geonames-1708824",
+   "name": "Kidapawan",
+   "aliases": [
+    "Kadapawan",
+    "Kidapavan",
+    "Kidapawan Lakanbalen",
+    "Kota Kidapawan",
+    "kidapawan",
+    "kydapawan",
+    "Кидапаван",
+    "کیداپاوان",
+    "키다파완"
+   ],
+   "lat": 7.00833,
+   "lon": 125.08944,
+   "population": 79652,
+   "geonameId": "1708824"
+  },
+  {
+   "id": "city:geonames-1680613",
+   "name": "Tupi",
+   "aliases": [],
+   "lat": 6.33444,
+   "lon": 124.95278,
+   "population": 78599,
+   "geonameId": "1680613"
+  },
+  {
+   "id": "city:geonames-1727681",
+   "name": "Bamban",
+   "aliases": [],
+   "lat": 15.27386,
+   "lon": 120.56683,
+   "population": 78260,
+   "geonameId": "1727681"
+  },
+  {
+   "id": "city:geonames-1716287",
+   "name": "Daet",
+   "aliases": [
+    "DTE",
+    "dayt  kamarynz shmaly",
+    "Дает",
+    "دایت، کامارینز شمالی"
+   ],
+   "lat": 14.1122,
+   "lon": 122.9553,
+   "population": 78142,
+   "geonameId": "1716287"
+  },
+  {
+   "id": "city:geonames-1725983",
+   "name": "Bauang",
+   "aliases": [],
+   "lat": 16.53083,
+   "lon": 120.33306,
+   "population": 77670,
+   "geonameId": "1725983"
+  },
+  {
+   "id": "city:geonames-1729048",
+   "name": "Bagong Barrio",
+   "aliases": [],
+   "lat": 14.66638,
+   "lon": 120.99322,
+   "population": 77490,
+   "geonameId": "1729048"
+  },
+  {
+   "id": "city:geonames-1723763",
+   "name": "Brookes Point",
+   "aliases": [],
+   "lat": 8.77201,
+   "lon": 117.8371,
+   "population": 76715,
+   "geonameId": "1723763"
+  },
+  {
+   "id": "city:geonames-1679802",
+   "name": "Virac",
+   "aliases": [
+    "VRC",
+    "Virak",
+    "wyrak  katandwanys",
+    "Вирак",
+    "ویراک، کاتاندوانیس"
+   ],
+   "lat": 13.5848,
+   "lon": 124.2374,
+   "population": 75135,
+   "geonameId": "1679802"
+  },
+  {
+   "id": "city:geonames-1731486",
+   "name": "Alicia",
+   "aliases": [
+    "alysya  ayzabla",
+    "الیسیا، ایزابلا"
+   ],
+   "lat": 16.77936,
+   "lon": 121.69734,
+   "population": 74699,
+   "geonameId": "1731486"
+  },
+  {
+   "id": "city:geonames-1686102",
+   "name": "Sipalay",
+   "aliases": [],
+   "lat": 9.75194,
+   "lon": 122.40417,
+   "population": 73847,
+   "geonameId": "1686102"
+  },
+  {
+   "id": "city:geonames-1714441",
+   "name": "Don Carlos",
+   "aliases": [
+    "Don Carlos de Maramag"
+   ],
+   "lat": 7.68,
+   "lon": 125.005,
+   "population": 73592,
+   "geonameId": "1714441"
+  },
+  {
+   "id": "city:geonames-1709003",
+   "name": "Kawit",
+   "aliases": [
+    "qwwyt",
+    "קוויט"
+   ],
+   "lat": 14.44426,
+   "lon": 120.90164,
+   "population": 73210,
+   "geonameId": "1709003"
+  },
+  {
+   "id": "city:geonames-1728523",
+   "name": "Balanga",
+   "aliases": [
+    "Balanga City",
+    "Kota Balanga",
+    "Syudad Balanga",
+    "balanga siti",
+    "balanga  batan",
+    "بالانگا، باتآن",
+    "बलांगा सिटी"
+   ],
+   "lat": 14.67611,
+   "lon": 120.53611,
+   "population": 72954,
+   "geonameId": "1728523"
+  },
+  {
+   "id": "city:geonames-1691150",
+   "name": "Sagay",
+   "aliases": [
+    "Kota Sagay",
+    "Sagay City",
+    "Sagay Lakanbalen",
+    "سگے، نیگروس وکڈینٹل"
+   ],
+   "lat": 10.94472,
+   "lon": 123.42417,
+   "population": 72153,
+   "geonameId": "1691150"
+  },
+  {
+   "id": "city:geonames-1707324",
+   "name": "La Paz",
+   "aliases": [
+    "La-Pas",
+    "Ла-Пас"
+   ],
+   "lat": 15.44125,
+   "lon": 120.72863,
+   "population": 71978,
+   "geonameId": "1707324"
+  },
+  {
+   "id": "city:geonames-1685880",
+   "name": "Solana",
+   "aliases": [
+    "Solano"
+   ],
+   "lat": 17.6528,
+   "lon": 121.691,
+   "population": 71475,
+   "geonameId": "1685880"
+  },
+  {
+   "id": "city:geonames-1723893",
+   "name": "Borongan",
+   "aliases": [
+    "BPA",
+    "Borongan City",
+    "Kota Borongan",
+    "bwrwngan",
+    "بورونگان"
+   ],
+   "lat": 11.60806,
+   "lon": 125.43194,
+   "population": 71431,
+   "geonameId": "1723893"
+  },
+  {
+   "id": "city:geonames-1697006",
+   "name": "Oroquieta",
+   "aliases": [
+    "Kota Oroquieta",
+    "Oroguieta",
+    "Oroquieta City",
+    "Oroquieta Lakanbalen",
+    "awrwkwyyta",
+    "olokieta",
+    "orokieta",
+    "اوروکوئیتا",
+    "オロキエタ",
+    "오로키에타"
+   ],
+   "lat": 8.4859,
+   "lon": 123.8048,
+   "population": 71373,
+   "geonameId": "1697006"
+  },
+  {
+   "id": "city:geonames-1723481",
+   "name": "Buenavista",
+   "aliases": [
+    "Bayan ng Buenavista",
+    "Lungsod sa Buenavista"
+   ],
+   "lat": 8.97694,
+   "lon": 125.40889,
+   "population": 70691,
+   "geonameId": "1723481"
+  },
+  {
+   "id": "city:geonames-1700980",
+   "name": "Mariano",
+   "aliases": [],
+   "lat": 8.83333,
+   "lon": 125.11667,
+   "population": 70516,
+   "geonameId": "1700980"
+  },
+  {
+   "id": "city:geonames-1715804",
+   "name": "Danao",
+   "aliases": [
+    "Danao City",
+    "Idanao"
+   ],
+   "lat": 10.52083,
+   "lon": 124.02722,
+   "population": 70270,
+   "geonameId": "1715804"
+  },
+  {
+   "id": "city:geonames-1700179",
+   "name": "Mauban",
+   "aliases": [
+    "Bayan ng Mauban"
+   ],
+   "lat": 14.191,
+   "lon": 121.7309,
+   "population": 70135,
+   "geonameId": "1700179"
+  },
+  {
+   "id": "city:geonames-1710770",
+   "name": "Indang",
+   "aliases": [],
+   "lat": 14.19528,
+   "lon": 120.87694,
+   "population": 70092,
+   "geonameId": "1710770"
+  },
+  {
+   "id": "city:geonames-1724106",
+   "name": "Bongabon",
+   "aliases": [],
+   "lat": 15.6321,
+   "lon": 121.1448,
+   "population": 69376,
+   "geonameId": "1724106"
+  },
+  {
+   "id": "city:geonames-1689171",
+   "name": "San Leonardo",
+   "aliases": [],
+   "lat": 15.363,
+   "lon": 120.9639,
+   "population": 69180,
+   "geonameId": "1689171"
+  },
+  {
+   "id": "city:geonames-1720472",
+   "name": "Calauag",
+   "aliases": [
+    "Calavag"
+   ],
+   "lat": 13.9575,
+   "lon": 122.288,
+   "population": 68999,
+   "geonameId": "1720472"
+  },
+  {
+   "id": "city:geonames-1704067",
+   "name": "Magalang",
+   "aliases": [
+    "Magalan"
+   ],
+   "lat": 15.2151,
+   "lon": 120.6596,
+   "population": 68988,
+   "geonameId": "1704067"
+  },
+  {
+   "id": "city:geonames-1706609",
+   "name": "Libon",
+   "aliases": [],
+   "lat": 13.2997,
+   "lon": 123.4386,
+   "population": 68846,
+   "geonameId": "1706609"
+  },
+  {
+   "id": "city:geonames-1704968",
+   "name": "Lupon",
+   "aliases": [
+    "Sumlog"
+   ],
+   "lat": 6.89814,
+   "lon": 126.00961,
+   "population": 68717,
+   "geonameId": "1704968"
+  },
+  {
+   "id": "city:geonames-1683340",
+   "name": "Tanauan",
+   "aliases": [
+    "Kota Tanauan",
+    "Tanauan City",
+    "Tanauan Lakanbalen"
+   ],
+   "lat": 14.08627,
+   "lon": 121.14975,
+   "population": 68456,
+   "geonameId": "1683340"
+  },
+  {
+   "id": "city:geonames-1730398",
+   "name": "Aparri",
+   "aliases": [
+    "Apparri",
+    "a pa li",
+    "阿帕里"
+   ],
+   "lat": 18.3566,
+   "lon": 121.6406,
+   "population": 68368,
+   "geonameId": "1730398"
+  },
+  {
+   "id": "city:geonames-1720402",
+   "name": "Calbayog City",
+   "aliases": [
+    "CYP",
+    "Calbayog",
+    "Dakbayan sa Calbayog",
+    "Kalbejog Siti",
+    "Syudad san Calbayog",
+    "Калбейог Сити"
+   ],
+   "lat": 12.0668,
+   "lon": 124.5962,
+   "population": 67921,
+   "geonameId": "1720402"
+  },
+  {
+   "id": "city:geonames-1730749",
+   "name": "Angat",
+   "aliases": [
+    "Santa Cruz"
+   ],
+   "lat": 14.9285,
+   "lon": 121.03,
+   "population": 67862,
+   "geonameId": "1730749"
+  },
+  {
+   "id": "city:geonames-1708226",
+   "name": "La Carlota",
+   "aliases": [
+    "City of La Carlota",
+    "Dakbanwa sang La Carlota",
+    "Dakbayan sa La Carlota",
+    "La Calota",
+    "La Carlota City",
+    "La Karlota",
+    "La-Karlota",
+    "Lakarlota",
+    "Lungsod ng La Carlota",
+    "la  karlota",
+    "la ka luo ta",
+    "la kallota",
+    "la karlota",
+    "la karlotyam",
+    "la karlwta",
+    "la kha lota",
+    "lh qrlwth",
+    "Λα Καρλότα",
+    "Ла-Карлота",
+    "לה קרלוטה",
+    "لا كارلوتا",
+    "لا کارلوٹا",
+    "ला कार्लोटा",
+    "লা কার্লোট্যাঁ",
+    "લા કાર્લોટા",
+    "ல  கார்லோடா",
+    "లా కార్లోటా",
+    "ಲಾ ಕಾರ್ಲೋಟಾ",
+    "ලා කාර්ලොටා",
+    "ลา คาโลต้า",
+    "ラ・カルロータ",
+    "拉卡洛塔",
+    "라 칼로타"
+   ],
+   "lat": 10.4242,
+   "lon": 122.9212,
+   "population": 67740,
+   "geonameId": "1708226"
+  },
+  {
+   "id": "city:geonames-1685577",
+   "name": "Subic",
+   "aliases": [],
+   "lat": 14.8787,
+   "lon": 120.23194,
+   "population": 67664,
+   "geonameId": "1685577"
+  },
+  {
+   "id": "city:geonames-1691509",
+   "name": "Rosales",
+   "aliases": [
+    "Rosales de Pangasinan",
+    "Rosales de Pangasinán"
+   ],
+   "lat": 15.89444,
+   "lon": 120.63278,
+   "population": 67510,
+   "geonameId": "1691509"
+  },
+  {
+   "id": "city:geonames-1710519",
+   "name": "City of Isabela",
+   "aliases": [
+    "Basilan",
+    "Basilan City",
+    "Isabel",
+    "Isabela",
+    "Isabela City",
+    "Izabela",
+    "Lungsod ng Isabela",
+    "Municipality of Isabela",
+    "Изабела"
+   ],
+   "lat": 6.70407,
+   "lon": 121.97117,
+   "population": 67336,
+   "geonameId": "1710519"
+  },
+  {
+   "id": "city:geonames-1714766",
+   "name": "Dinalupihan",
+   "aliases": [
+    "Dinalupian",
+    "Dinalupihari",
+    "Dinalupijan",
+    "Dinalupinan"
+   ],
+   "lat": 14.87827,
+   "lon": 120.45221,
+   "population": 66670,
+   "geonameId": "1714766"
+  },
+  {
+   "id": "city:geonames-1688232",
+   "name": "Santa Cruz",
+   "aliases": [
+    "Sant Cruz",
+    "Santa-Krus",
+    "Санта-Крус"
+   ],
+   "lat": 15.7654,
+   "lon": 119.9092,
+   "population": 66647,
+   "geonameId": "1688232"
+  },
+  {
+   "id": "city:geonames-1720561",
+   "name": "Calapan",
+   "aliases": [
+    "Calapan City",
+    "Calapan Lakanbalen",
+    "Calapán",
+    "Dakbayan sa Calapan",
+    "Kalapan",
+    "Kota Calapan",
+    "Lungsod ng Calapan",
+    "ka la pan",
+    "kalapan",
+    "kalapana",
+    "kalaፓni",
+    "kallapan",
+    "karapan",
+    "Калапан",
+    "كالاپان",
+    "کالاپان",
+    "कालापान",
+    "কালাপান",
+    "ਕਾਲਾਪਾਨ",
+    "ካላፓን",
+    "カラパン",
+    "卡拉潘",
+    "칼라판"
+   ],
+   "lat": 13.4117,
+   "lon": 121.1803,
+   "population": 66008,
+   "geonameId": "1720561"
+  },
+  {
+   "id": "city:geonames-1689832",
+   "name": "San Ildefonso",
+   "aliases": [],
+   "lat": 15.0809,
+   "lon": 120.941,
+   "population": 65669,
+   "geonameId": "1689832"
+  },
+  {
+   "id": "city:geonames-1688954",
+   "name": "San Miguel",
+   "aliases": [
+    "San Muigel Mayumo"
+   ],
+   "lat": 15.1423,
+   "lon": 120.97568,
+   "population": 65661,
+   "geonameId": "1688954"
+  },
+  {
+   "id": "city:geonames-1679845",
+   "name": "Villasis",
+   "aliases": [],
+   "lat": 15.90167,
+   "lon": 120.58833,
+   "population": 65086,
+   "geonameId": "1679845"
+  },
+  {
+   "id": "city:geonames-1697384",
+   "name": "Oas",
+   "aliases": [],
+   "lat": 13.2593,
+   "lon": 123.4963,
+   "population": 64890,
+   "geonameId": "1697384"
+  },
+  {
+   "id": "city:geonames-1684016",
+   "name": "Talavera",
+   "aliases": [
+    "Municipality of Talavera",
+    "Талавера"
+   ],
+   "lat": 15.5883,
+   "lon": 120.9192,
+   "population": 64610,
+   "geonameId": "1684016"
+  },
+  {
+   "id": "city:geonames-1713857",
+   "name": "Enrique B. Magalona",
+   "aliases": [
+    "Saravia"
+   ],
+   "lat": 10.87879,
+   "lon": 122.97707,
+   "population": 64290,
+   "geonameId": "1713857"
+  },
+  {
+   "id": "city:geonames-1693077",
+   "name": "Polomolok",
+   "aliases": [
+    "Polomoloc"
+   ],
+   "lat": 6.22167,
+   "lon": 125.06398,
+   "population": 63987,
+   "geonameId": "1693077"
+  },
+  {
+   "id": "city:geonames-1694403",
+   "name": "Pateros",
+   "aliases": [
+    "Bayan ng Pateros"
+   ],
+   "lat": 14.5391,
+   "lon": 121.0726,
+   "population": 63840,
+   "geonameId": "1694403"
+  },
+  {
+   "id": "city:geonames-1697023",
+   "name": "Orion",
+   "aliases": [
+    "Орион"
+   ],
+   "lat": 14.62056,
+   "lon": 120.58167,
+   "population": 63044,
+   "geonameId": "1697023"
+  },
+  {
+   "id": "city:geonames-1698030",
+   "name": "Nasugbu",
+   "aliases": [],
+   "lat": 14.06694,
+   "lon": 120.63181,
+   "population": 62857,
+   "geonameId": "1698030"
+  },
+  {
+   "id": "city:geonames-1681766",
+   "name": "Tinongan",
+   "aliases": [
+    "Tinungan"
+   ],
+   "lat": 10.215,
+   "lon": 123.03528,
+   "population": 62146,
+   "geonameId": "1681766"
+  },
+  {
+   "id": "city:geonames-1699572",
+   "name": "Minglanilla",
+   "aliases": [],
+   "lat": 10.24498,
+   "lon": 123.7964,
+   "population": 62058,
+   "geonameId": "1699572"
+  },
+  {
+   "id": "city:geonames-1702934",
+   "name": "Malaybalay",
+   "aliases": [
+    "Dakbayan sa Malaybalay",
+    "Kota Malaybalay",
+    "Lungsod ng Malaybalay",
+    "Malajbalaj",
+    "Malaybalay City",
+    "Malaybalay Lakanbalen",
+    "malaybalayy",
+    "mallaiballai",
+    "Малайбалай",
+    "مالایبالائی",
+    "말라이발라이"
+   ],
+   "lat": 8.1575,
+   "lon": 125.12778,
+   "population": 61524,
+   "geonameId": "1702934"
+  },
+  {
+   "id": "city:geonames-1680704",
+   "name": "Tunasan",
+   "aliases": [
+    "Tunasancillo"
+   ],
+   "lat": 14.37917,
+   "lon": 121.0525,
+   "population": 61374,
+   "geonameId": "1680704"
+  },
+  {
+   "id": "city:geonames-1712600",
+   "name": "Gubat",
+   "aliases": [],
+   "lat": 12.92056,
+   "lon": 124.12306,
+   "population": 61095,
+   "geonameId": "1712600"
+  },
+  {
+   "id": "city:geonames-1722818",
+   "name": "Buluan",
+   "aliases": [
+    "Bayan ng Buluan",
+    "Inged a Buluan",
+    "Ingud nu Buluan"
+   ],
+   "lat": 6.72028,
+   "lon": 124.80194,
+   "population": 60931,
+   "geonameId": "1722818"
+  },
+  {
+   "id": "city:geonames-1680505",
+   "name": "Ualog",
+   "aliases": [],
+   "lat": 10.57396,
+   "lon": 123.3933,
+   "population": 60548,
+   "geonameId": "1680505"
+  },
+  {
+   "id": "city:geonames-1718328",
+   "name": "Cogan",
+   "aliases": [
+    "Bayan ng Carmen",
+    "Carmen",
+    "Karmen",
+    "Lungsod sa Carmen",
+    "Old Carmen",
+    "Кармен"
+   ],
+   "lat": 10.59306,
+   "lon": 124.01778,
+   "population": 60230,
+   "geonameId": "1718328"
+  },
+  {
+   "id": "city:geonames-1727663",
+   "name": "Bambang",
+   "aliases": [
+    "banban",
+    "バンバン"
+   ],
+   "lat": 16.3865,
+   "lon": 121.1066,
+   "population": 60146,
+   "geonameId": "1727663"
+  },
+  {
+   "id": "city:geonames-1683319",
+   "name": "Tanay",
+   "aliases": [],
+   "lat": 14.4968,
+   "lon": 121.2846,
+   "population": 59950,
+   "geonameId": "1683319"
+  },
+  {
+   "id": "city:geonames-1697376",
+   "name": "Obando",
+   "aliases": [],
+   "lat": 14.7098,
+   "lon": 120.9362,
+   "population": 59929,
+   "geonameId": "1697376"
+  },
+  {
+   "id": "city:geonames-1728584",
+   "name": "Balagtas",
+   "aliases": [
+    "Tabang"
+   ],
+   "lat": 14.81667,
+   "lon": 120.86667,
+   "population": 59826,
+   "geonameId": "1728584"
+  },
+  {
+   "id": "city:geonames-1710441",
+   "name": "Itogon",
+   "aliases": [],
+   "lat": 16.36389,
+   "lon": 120.67694,
+   "population": 59736,
+   "geonameId": "1710441"
+  },
+  {
+   "id": "city:geonames-1702096",
+   "name": "Manaoag",
+   "aliases": [],
+   "lat": 16.0438,
+   "lon": 120.4861,
+   "population": 59115,
+   "geonameId": "1702096"
+  },
+  {
+   "id": "city:geonames-7083355",
+   "name": "Jose Rizal",
+   "aliases": [
+    "Bayan ng Rizal",
+    "Jose P. Rizal",
+    "Rizal"
+   ],
+   "lat": 8.87722,
+   "lon": 117.50415,
+   "population": 59040,
+   "geonameId": "7083355"
+  },
+  {
+   "id": "city:geonames-1727400",
+   "name": "Bañga",
+   "aliases": [
+    "Banga"
+   ],
+   "lat": 6.42389,
+   "lon": 124.77833,
+   "population": 58855,
+   "geonameId": "1727400"
+  },
+  {
+   "id": "city:geonames-1694861",
+   "name": "Paombong",
+   "aliases": [
+    "Paonbong"
+   ],
+   "lat": 14.83111,
+   "lon": 120.78917,
+   "population": 58453,
+   "geonameId": "1694861"
+  },
+  {
+   "id": "city:geonames-1703773",
+   "name": "Magsaysay",
+   "aliases": [],
+   "lat": 6.76667,
+   "lon": 125.18333,
+   "population": 57936,
+   "geonameId": "1703773"
+  },
+  {
+   "id": "city:geonames-1685117",
+   "name": "Tabaco",
+   "aliases": [
+    "Kota Tabaco",
+    "Syudad nin Tabaco",
+    "Tabaco City",
+    "Tabaco Lakanbalen",
+    "Tobaco",
+    "tabako",
+    "tabako shi",
+    "タバコ市",
+    "타바코"
+   ],
+   "lat": 13.35861,
+   "lon": 123.73361,
+   "population": 57860,
+   "geonameId": "1685117"
+  },
+  {
+   "id": "city:geonames-1687534",
+   "name": "Santo Tomas",
+   "aliases": [
+    "Santa Tomas",
+    "Santo-Tomas",
+    "Санто-Томас"
+   ],
+   "lat": 14.1079,
+   "lon": 121.14136,
+   "population": 57438,
+   "geonameId": "1687534"
+  },
+  {
+   "id": "city:geonames-1726339",
+   "name": "Batac City",
+   "aliases": [
+    "City of Batac",
+    "Ciudad ti Batac",
+    "Lungsod ng Batac"
+   ],
+   "lat": 18.0554,
+   "lon": 120.56489,
+   "population": 56781,
+   "geonameId": "1726339"
+  },
+  {
+   "id": "city:geonames-1706188",
+   "name": "Lingayen",
+   "aliases": [],
+   "lat": 16.02182,
+   "lon": 120.23194,
+   "population": 56580,
+   "geonameId": "1706188"
+  },
+  {
+   "id": "city:geonames-1700665",
+   "name": "Masinloc",
+   "aliases": [],
+   "lat": 15.5363,
+   "lon": 119.9502,
+   "population": 56579,
+   "geonameId": "1700665"
+  },
+  {
+   "id": "city:geonames-1710932",
+   "name": "Impasugong",
+   "aliases": [],
+   "lat": 8.30972,
+   "lon": 125.00194,
+   "population": 55901,
+   "geonameId": "1710932"
+  },
+  {
+   "id": "city:geonames-1705440",
+   "name": "Lubao",
+   "aliases": [],
+   "lat": 14.9405,
+   "lon": 120.6011,
+   "population": 55645,
+   "geonameId": "1705440"
+  },
+  {
+   "id": "city:geonames-1698548",
+   "name": "Naic",
+   "aliases": [],
+   "lat": 14.31812,
+   "lon": 120.76609,
+   "population": 55195,
+   "geonameId": "1698548"
+  },
+  {
+   "id": "city:geonames-1713736",
+   "name": "Estancia",
+   "aliases": [
+    "Estacia",
+    "Estancia Town"
+   ],
+   "lat": 11.4551,
+   "lon": 123.152,
+   "population": 54882,
+   "geonameId": "1713736"
+  },
+  {
+   "id": "city:geonames-1722481",
+   "name": "Burauen",
+   "aliases": [],
+   "lat": 10.97556,
+   "lon": 124.89278,
+   "population": 54635,
+   "geonameId": "1722481"
+  },
+  {
+   "id": "city:geonames-1686777",
+   "name": "Sibonga",
+   "aliases": [],
+   "lat": 10.0168,
+   "lon": 123.6171,
+   "population": 54610,
+   "geonameId": "1686777"
+  },
+  {
+   "id": "city:geonames-1699833",
+   "name": "Mercedes",
+   "aliases": [
+    "Meredes"
+   ],
+   "lat": 14.1093,
+   "lon": 123.0109,
+   "population": 53702,
+   "geonameId": "1699833"
+  },
+  {
+   "id": "city:geonames-1679397",
+   "name": "Zaragoza",
+   "aliases": [
+    "Zaragosa"
+   ],
+   "lat": 15.44903,
+   "lon": 120.79627,
+   "population": 53090,
+   "geonameId": "1679397"
+  },
+  {
+   "id": "city:geonames-1694290",
+   "name": "Patuto",
+   "aliases": [],
+   "lat": 14.11667,
+   "lon": 120.96667,
+   "population": 52883,
+   "geonameId": "1694290"
+  },
+  {
+   "id": "city:geonames-1709717",
+   "name": "Kalamansig",
+   "aliases": [
+    "Calamansig"
+   ],
+   "lat": 6.55187,
+   "lon": 124.05111,
+   "population": 52257,
+   "geonameId": "1709717"
+  },
+  {
+   "id": "city:geonames-1702442",
+   "name": "Maluñgun",
+   "aliases": [
+    "Malungun",
+    "Malungon"
+   ],
+   "lat": 6.27917,
+   "lon": 125.28167,
+   "population": 52248,
+   "geonameId": "1702442"
+  },
+  {
+   "id": "city:geonames-1680019",
+   "name": "Victoria",
+   "aliases": [],
+   "lat": 13.17722,
+   "lon": 121.27806,
+   "population": 52215,
+   "geonameId": "1680019"
+  },
+  {
+   "id": "city:geonames-1718426",
+   "name": "Cardona",
+   "aliases": [
+    "Kardona",
+    "Кардона"
+   ],
+   "lat": 14.48646,
+   "lon": 121.22752,
+   "population": 51493,
+   "geonameId": "1718426"
+  },
+  {
+   "id": "city:geonames-1713917",
+   "name": "El Nido",
+   "aliases": [
+    "Bacuit",
+    "ENI",
+    "El Nido Bacuit",
+    "ai ni dao",
+    "al nydw",
+    "elnido",
+    "erunido",
+    "ال نیدو",
+    "エルニド",
+    "愛妮島",
+    "엘니도"
+   ],
+   "lat": 11.18583,
+   "lon": 119.39556,
+   "population": 51367,
+   "geonameId": "1713917"
+  },
+  {
+   "id": "city:geonames-1686123",
+   "name": "Siocon",
+   "aliases": [
+    "Siacon",
+    "Sicogon",
+    "Siocin",
+    "Siokon",
+    "Siokun",
+    "XSO"
+   ],
+   "lat": 7.70611,
+   "lon": 122.13528,
+   "population": 51239,
+   "geonameId": "1686123"
+  },
+  {
+   "id": "city:geonames-1722731",
+   "name": "Bunawan",
+   "aliases": [
+    "Bunauan"
+   ],
+   "lat": 8.16722,
+   "lon": 125.99083,
+   "population": 50999,
+   "geonameId": "1722731"
+  },
+  {
+   "id": "city:geonames-1681149",
+   "name": "Tubod",
+   "aliases": [
+    "Tubud",
+    "twbd  lanayw dl nwrth",
+    "twbwd  lanaw shmaly",
+    "توبد، لانائو دل نورته",
+    "توبود، لاناؤ شمالی"
+   ],
+   "lat": 8.0555,
+   "lon": 123.7904,
+   "population": 50395,
+   "geonameId": "1681149"
+  },
+  {
+   "id": "city:geonames-1728336",
+   "name": "Balayan",
+   "aliases": [
+    "Balajan",
+    "Балаян"
+   ],
+   "lat": 13.93714,
+   "lon": 120.73224,
+   "population": 50115,
+   "geonameId": "1728336"
+  },
+  {
+   "id": "city:geonames-1721636",
+   "name": "Cabiao",
+   "aliases": [],
+   "lat": 15.2488,
+   "lon": 120.8548,
+   "population": 49980,
+   "geonameId": "1721636"
+  },
+  {
+   "id": "city:geonames-1699205",
+   "name": "Morong",
+   "aliases": [
+    "Моронг"
+   ],
+   "lat": 14.51849,
+   "lon": 121.23778,
+   "population": 49589,
+   "geonameId": "1699205"
+  },
+  {
+   "id": "city:geonames-1706393",
+   "name": "Liloan",
+   "aliases": [],
+   "lat": 10.3991,
+   "lon": 123.9992,
+   "population": 49198,
+   "geonameId": "1706393"
+  },
+  {
+   "id": "city:geonames-1716924",
+   "name": "Consolacion",
+   "aliases": [
+    "Consolation"
+   ],
+   "lat": 10.3766,
+   "lon": 123.9573,
+   "population": 48638,
+   "geonameId": "1716924"
+  },
+  {
+   "id": "city:geonames-1679980",
+   "name": "Vigan",
+   "aliases": [
+    "Cidade Historica de Vigan",
+    "Cidade Histórica de Vigan",
+    "Ciudad Fernandina",
+    "Dakbayan sa Vigan",
+    "Kota Vigan",
+    "Lungsod ng Vigan",
+    "Siyudad na Vigan",
+    "VGN",
+    "Vigan City",
+    "Vigan Lakanbalen",
+    "Vigan shaary",
+    "Vinkan",
+    "bhigana",
+    "bigan",
+    "mei an",
+    "vigani",
+    "wi kan",
+    "wygan",
+    "Βιγκάν",
+    "Виган",
+    "Виган шаары",
+    "ויגאן",
+    "ویگان",
+    "भिगन",
+    "വിഗൻ",
+    "วีกัน",
+    "ვიგანი",
+    "ビガン",
+    "美岸",
+    "비간"
+   ],
+   "lat": 17.57472,
+   "lon": 120.38694,
+   "population": 48545,
+   "geonameId": "1679980"
+  },
+  {
+   "id": "city:geonames-1710908",
+   "name": "Inabanga",
+   "aliases": [],
+   "lat": 10.0307,
+   "lon": 124.0671,
+   "population": 48534,
+   "geonameId": "1710908"
+  },
+  {
+   "id": "city:geonames-1697577",
+   "name": "Norala",
+   "aliases": [],
+   "lat": 6.5225,
+   "lon": 124.65917,
+   "population": 48499,
+   "geonameId": "1697577"
+  },
+  {
+   "id": "city:geonames-1727214",
+   "name": "Bangued",
+   "aliases": [
+    "Banged",
+    "banghwyd",
+    "bangwyd",
+    "bangwyd  abra",
+    "Бангед",
+    "بانغويد",
+    "بانگوئد",
+    "بانگوید، ابرا"
+   ],
+   "lat": 17.60833,
+   "lon": 120.63806,
+   "population": 48331,
+   "geonameId": "1727214"
+  },
+  {
+   "id": "city:geonames-1725729",
+   "name": "Bayombong",
+   "aliases": [
+    "baywmbwng",
+    "بائومبونگ"
+   ],
+   "lat": 16.4812,
+   "lon": 121.1497,
+   "population": 48199,
+   "geonameId": "1725729"
+  },
+  {
+   "id": "city:geonames-1700712",
+   "name": "Masbate",
+   "aliases": [
+    "MBT",
+    "Масбате"
+   ],
+   "lat": 12.37169,
+   "lon": 123.62494,
+   "population": 47490,
+   "geonameId": "1700712"
+  },
+  {
+   "id": "city:geonames-1725426",
+   "name": "Upper Bicutan",
+   "aliases": [
+    "Bicutan"
+   ],
+   "lat": 14.4996,
+   "lon": 121.0507,
+   "population": 47397,
+   "geonameId": "1725426"
+  },
+  {
+   "id": "city:geonames-1719329",
+   "name": "Candaba",
+   "aliases": [],
+   "lat": 15.0956,
+   "lon": 120.8267,
+   "population": 47326,
+   "geonameId": "1719329"
+  },
+  {
+   "id": "city:geonames-1688398",
+   "name": "Santa Ana",
+   "aliases": [
+    "San Joaquin",
+    "Santa-Ana",
+    "Санта-Ана"
+   ],
+   "lat": 15.0955,
+   "lon": 120.767,
+   "population": 47158,
+   "geonameId": "1688398"
+  },
+  {
+   "id": "city:geonames-1697486",
+   "name": "Noveleta",
+   "aliases": [],
+   "lat": 14.42922,
+   "lon": 120.87989,
+   "population": 46172,
+   "geonameId": "1697486"
+  },
+  {
+   "id": "city:geonames-1723257",
+   "name": "Bugo",
+   "aliases": [],
+   "lat": 8.50833,
+   "lon": 124.75944,
+   "population": 45787,
+   "geonameId": "1723257"
+  },
+  {
+   "id": "city:geonames-1679811",
+   "name": "Vinzons",
+   "aliases": [
+    "Indan"
+   ],
+   "lat": 14.1737,
+   "lon": 122.9066,
+   "population": 45173,
+   "geonameId": "1679811"
+  },
+  {
+   "id": "city:geonames-1687164",
+   "name": "Sariaya",
+   "aliases": [],
+   "lat": 13.9624,
+   "lon": 121.5265,
+   "population": 44977,
+   "geonameId": "1687164"
+  },
+  {
+   "id": "city:geonames-1694775",
+   "name": "Parang",
+   "aliases": [],
+   "lat": 7.37035,
+   "lon": 124.26973,
+   "population": 44930,
+   "geonameId": "1694775"
+  },
+  {
+   "id": "city:geonames-1697046",
+   "name": "Orani",
+   "aliases": [],
+   "lat": 14.8006,
+   "lon": 120.5371,
+   "population": 44877,
+   "geonameId": "1697046"
+  },
+  {
+   "id": "city:geonames-1719053",
+   "name": "Canlaon",
+   "aliases": [
+    "Canlaon City"
+   ],
+   "lat": 10.38697,
+   "lon": 123.2227,
+   "population": 44851,
+   "geonameId": "1719053"
+  },
+  {
+   "id": "city:geonames-1711655",
+   "name": "Hinatuan",
+   "aliases": [],
+   "lat": 8.37222,
+   "lon": 126.33417,
+   "population": 44475,
+   "geonameId": "1711655"
+  },
+  {
+   "id": "city:geonames-1731212",
+   "name": "Amadeo",
+   "aliases": [],
+   "lat": 14.17056,
+   "lon": 120.92361,
+   "population": 44190,
+   "geonameId": "1731212"
+  },
+  {
+   "id": "city:geonames-1724956",
+   "name": "Binmaley",
+   "aliases": [],
+   "lat": 16.03232,
+   "lon": 120.26904,
+   "population": 44026,
+   "geonameId": "1724956"
+  },
+  {
+   "id": "city:geonames-1699805",
+   "name": "Mexico",
+   "aliases": [
+    "México"
+   ],
+   "lat": 15.0646,
+   "lon": 120.7198,
+   "population": 43694,
+   "geonameId": "1699805"
+  },
+  {
+   "id": "city:geonames-1690666",
+   "name": "Samal",
+   "aliases": [
+    "Island Garden City of Samal",
+    "Kota Samal",
+    "Penaplata",
+    "Peñaplata",
+    "Pulung Lakanbalen Garden ning Samal",
+    "Sámal",
+    "Самал"
+   ],
+   "lat": 7.07444,
+   "lon": 125.70833,
+   "population": 43526,
+   "geonameId": "1690666"
+  },
+  {
+   "id": "city:geonames-1693618",
+   "name": "Pinamalayan",
+   "aliases": [
+    "Pinamalayán",
+    "Wawa"
+   ],
+   "lat": 13.04603,
+   "lon": 121.46205,
+   "population": 43521,
+   "geonameId": "1693618"
+  },
+  {
+   "id": "city:geonames-1694498",
+   "name": "Passi",
+   "aliases": [],
+   "lat": 11.10778,
+   "lon": 122.64194,
+   "population": 42794,
+   "geonameId": "1694498"
+  },
+  {
+   "id": "city:geonames-1691804",
+   "name": "Recodo",
+   "aliases": [],
+   "lat": 6.95194,
+   "lon": 121.96361,
+   "population": 42788,
+   "geonameId": "1691804"
+  },
+  {
+   "id": "city:geonames-1717053",
+   "name": "Compostela",
+   "aliases": [],
+   "lat": 7.67306,
+   "lon": 126.08889,
+   "population": 42563,
+   "geonameId": "1717053"
+  },
+  {
+   "id": "city:geonames-1727741",
+   "name": "Balulang",
+   "aliases": [
+    "Block 9  Lot 10  gold city village"
+   ],
+   "lat": 8.44528,
+   "lon": 124.63139,
+   "population": 42205,
+   "geonameId": "1727741"
+  },
+  {
+   "id": "city:geonames-1701149",
+   "name": "Maragondon",
+   "aliases": [
+    "Maragandon"
+   ],
+   "lat": 14.2733,
+   "lon": 120.7377,
+   "population": 41977,
+   "geonameId": "1701149"
+  },
+  {
+   "id": "city:geonames-1700753",
+   "name": "Masantol",
+   "aliases": [],
+   "lat": 14.896,
+   "lon": 120.7092,
+   "population": 41278,
+   "geonameId": "1700753"
+  },
+  {
+   "id": "city:geonames-1684491",
+   "name": "Tagbina",
+   "aliases": [],
+   "lat": 8.45194,
+   "lon": 126.17139,
+   "population": 41157,
+   "geonameId": "1684491"
+  },
+  {
+   "id": "city:geonames-1702763",
+   "name": "Malilipot",
+   "aliases": [],
+   "lat": 13.3188,
+   "lon": 123.7385,
+   "population": 41066,
+   "geonameId": "1702763"
+  },
+  {
+   "id": "city:geonames-1713004",
+   "name": "Gerona",
+   "aliases": [
+    "Zherona",
+    "Жерона"
+   ],
+   "lat": 15.6065,
+   "lon": 120.5978,
+   "population": 40914,
+   "geonameId": "1713004"
+  },
+  {
+   "id": "city:geonames-1690664",
+   "name": "Samal",
+   "aliases": [
+    "Самал"
+   ],
+   "lat": 14.76778,
+   "lon": 120.54306,
+   "population": 40843,
+   "geonameId": "1690664"
+  },
+  {
+   "id": "city:geonames-1718436",
+   "name": "Carcar",
+   "aliases": [],
+   "lat": 10.1061,
+   "lon": 123.6402,
+   "population": 40739,
+   "geonameId": "1718436"
+  },
+  {
+   "id": "city:geonames-1702372",
+   "name": "Mamatid",
+   "aliases": [
+    "Barangay Mamatid"
+   ],
+   "lat": 14.2349,
+   "lon": 121.15902,
+   "population": 40271,
+   "geonameId": "1702372"
+  },
+  {
+   "id": "city:geonames-1685146",
+   "name": "Taal",
+   "aliases": [
+    "Таал"
+   ],
+   "lat": 13.87992,
+   "lon": 120.92311,
+   "population": 39745,
+   "geonameId": "1685146"
+  },
+  {
+   "id": "city:geonames-1710389",
+   "name": "Jaen",
+   "aliases": [
+    "Khaehn",
+    "Хаэн"
+   ],
+   "lat": 15.3275,
+   "lon": 120.9192,
+   "population": 39700,
+   "geonameId": "1710389"
+  },
+  {
+   "id": "city:geonames-1719683",
+   "name": "Camiling",
+   "aliases": [],
+   "lat": 15.6866,
+   "lon": 120.4128,
+   "population": 39655,
+   "geonameId": "1719683"
+  },
+  {
+   "id": "city:geonames-1711621",
+   "name": "Hinigaran",
+   "aliases": [],
+   "lat": 10.2706,
+   "lon": 122.8507,
+   "population": 39636,
+   "geonameId": "1711621"
+  },
+  {
+   "id": "city:geonames-1688795",
+   "name": "San Pascual",
+   "aliases": [],
+   "lat": 13.81045,
+   "lon": 121.022,
+   "population": 39395,
+   "geonameId": "1688795"
+  },
+  {
+   "id": "city:geonames-1694914",
+   "name": "Pantubig",
+   "aliases": [
+    "Puting Tubig"
+   ],
+   "lat": 14.96806,
+   "lon": 120.95472,
+   "population": 39285,
+   "geonameId": "1694914"
+  },
+  {
+   "id": "city:geonames-1683906",
+   "name": "Talipapa",
+   "aliases": [],
+   "lat": 14.6857,
+   "lon": 121.0269,
+   "population": 39244,
+   "geonameId": "1683906"
+  },
+  {
+   "id": "city:geonames-1685373",
+   "name": "Sultan sa Barongis",
+   "aliases": [
+    "Lambayong"
+   ],
+   "lat": 6.8,
+   "lon": 124.63667,
+   "population": 39182,
+   "geonameId": "1685373"
+  },
+  {
+   "id": "city:geonames-1694826",
+   "name": "Papaya",
+   "aliases": [
+    "Bayan ng Heneral Tinio",
+    "General Tinio"
+   ],
+   "lat": 15.32016,
+   "lon": 120.83574,
+   "population": 38640,
+   "geonameId": "1694826"
+  },
+  {
+   "id": "city:geonames-1690321",
+   "name": "San Antonio",
+   "aliases": [],
+   "lat": 14.94659,
+   "lon": 120.08673,
+   "population": 38617,
+   "geonameId": "1690321"
+  },
+  {
+   "id": "city:geonames-1725157",
+   "name": "Binalbagan",
+   "aliases": [
+    "Banwa sang Binalbagan",
+    "Bayan ng Binalbagan"
+   ],
+   "lat": 10.1948,
+   "lon": 122.8581,
+   "population": 38587,
+   "geonameId": "1725157"
+  },
+  {
+   "id": "city:geonames-1720751",
+   "name": "Calaca",
+   "aliases": [],
+   "lat": 13.93244,
+   "lon": 120.81327,
+   "population": 37443,
+   "geonameId": "1720751"
+  },
+  {
+   "id": "city:geonames-1715169",
+   "name": "Del Pilar",
+   "aliases": [],
+   "lat": 15.03601,
+   "lon": 120.69935,
+   "population": 37329,
+   "geonameId": "1715169"
+  },
+  {
+   "id": "city:geonames-8299649",
+   "name": "Pandan",
+   "aliases": [
+    "Banwa it Pandan",
+    "Banwa kang Pandan",
+    "Banwa sang Pandan",
+    "Bayan ng Pandan",
+    "Municipality of Pandan",
+    "Пандан"
+   ],
+   "lat": 11.74479,
+   "lon": 122.10027,
+   "population": 37325,
+   "geonameId": "8299649"
+  },
+  {
+   "id": "city:geonames-1727052",
+   "name": "Bantay",
+   "aliases": [],
+   "lat": 17.58472,
+   "lon": 120.38917,
+   "population": 37088,
+   "geonameId": "1727052"
+  },
+  {
+   "id": "city:geonames-1699858",
+   "name": "Mendez-Nuñez",
+   "aliases": [
+    "Mendez-Nunez",
+    "Mendez"
+   ],
+   "lat": 14.12861,
+   "lon": 120.90583,
+   "population": 36518,
+   "geonameId": "1699858"
+  },
+  {
+   "id": "city:geonames-1691911",
+   "name": "Ramon",
+   "aliases": [
+    "Рамон"
+   ],
+   "lat": 16.78416,
+   "lon": 121.53504,
+   "population": 36307,
+   "geonameId": "1691911"
+  },
+  {
+   "id": "city:geonames-1685875",
+   "name": "Solano",
+   "aliases": [
+    "Солано"
+   ],
+   "lat": 16.51918,
+   "lon": 121.18124,
+   "population": 36222,
+   "geonameId": "1685875"
+  },
+  {
+   "id": "city:geonames-1725627",
+   "name": "Bel Air",
+   "aliases": [
+    "Bel-Air Four"
+   ],
+   "lat": 14.5594,
+   "lon": 121.0258,
+   "population": 36007,
+   "geonameId": "1725627"
+  },
+  {
+   "id": "city:geonames-1684320",
+   "name": "Tagudin",
+   "aliases": [],
+   "lat": 16.9355,
+   "lon": 120.4442,
+   "population": 35791,
+   "geonameId": "1684320"
+  },
+  {
+   "id": "city:geonames-1689498",
+   "name": "San Jose",
+   "aliases": [
+    "Barangay Oco",
+    "Macaagnay"
+   ],
+   "lat": 13.35,
+   "lon": 123.55,
+   "population": 35768,
+   "geonameId": "1689498"
+  },
+  {
+   "id": "city:geonames-1732354",
+   "name": "Abucay",
+   "aliases": [],
+   "lat": 14.73347,
+   "lon": 120.53358,
+   "population": 35508,
+   "geonameId": "1732354"
+  },
+  {
+   "id": "city:geonames-1710357",
+   "name": "Jalajala",
+   "aliases": [],
+   "lat": 14.353,
+   "lon": 121.3225,
+   "population": 34901,
+   "geonameId": "1710357"
+  },
+  {
+   "id": "city:geonames-1682478",
+   "name": "Teresa",
+   "aliases": [
+    "Tereza",
+    "Тереза"
+   ],
+   "lat": 14.5612,
+   "lon": 121.2195,
+   "population": 34716,
+   "geonameId": "1682478"
+  },
+  {
+   "id": "city:geonames-1693870",
+   "name": "Pila",
+   "aliases": [
+    "Pily",
+    "Пилы"
+   ],
+   "lat": 14.2325,
+   "lon": 121.3648,
+   "population": 34383,
+   "geonameId": "1693870"
+  },
+  {
+   "id": "city:geonames-1702077",
+   "name": "Manapla",
+   "aliases": [
+    "Manapala"
+   ],
+   "lat": 10.95803,
+   "lon": 123.123,
+   "population": 34312,
+   "geonameId": "1702077"
+  },
+  {
+   "id": "city:geonames-1688859",
+   "name": "San Nicolas",
+   "aliases": [
+    "San Nicolas de Ilocos",
+    "San Nicolás de Ilocos"
+   ],
+   "lat": 18.1725,
+   "lon": 120.5953,
+   "population": 34237,
+   "geonameId": "1688859"
+  },
+  {
+   "id": "city:geonames-1731528",
+   "name": "Aliaga",
+   "aliases": [
+    "Алиага"
+   ],
+   "lat": 15.5,
+   "lon": 120.843,
+   "population": 34020,
+   "geonameId": "1731528"
+  },
+  {
+   "id": "city:geonames-1729613",
+   "name": "Baclaran",
+   "aliases": [],
+   "lat": 14.53194,
+   "lon": 120.99417,
+   "population": 33850,
+   "geonameId": "1729613"
+  },
+  {
+   "id": "city:geonames-1711829",
+   "name": "Hermosa",
+   "aliases": [
+    "Ehrmosa",
+    "Эрмоса"
+   ],
+   "lat": 14.8314,
+   "lon": 120.5081,
+   "population": 33714,
+   "geonameId": "1711829"
+  },
+  {
+   "id": "city:geonames-1725991",
+   "name": "Bauan",
+   "aliases": [],
+   "lat": 13.7917,
+   "lon": 121.0085,
+   "population": 33560,
+   "geonameId": "1725991"
+  },
+  {
+   "id": "city:geonames-1725919",
+   "name": "Bay",
+   "aliases": [
+    "Bej",
+    "Бей"
+   ],
+   "lat": 14.18368,
+   "lon": 121.28554,
+   "population": 33547,
+   "geonameId": "1725919"
+  },
+  {
+   "id": "city:geonames-1710222",
+   "name": "Jetafe",
+   "aliases": [
+    "Getafe",
+    "Jetape"
+   ],
+   "lat": 10.14722,
+   "lon": 124.15389,
+   "population": 33485,
+   "geonameId": "1710222"
+  },
+  {
+   "id": "city:geonames-1689129",
+   "name": "San Luis",
+   "aliases": [],
+   "lat": 15.0401,
+   "lon": 120.7883,
+   "population": 33467,
+   "geonameId": "1689129"
+  },
+  {
+   "id": "city:geonames-1714052",
+   "name": "Dupax Del Norte",
+   "aliases": [
+    "Dupax"
+   ],
+   "lat": 16.3079,
+   "lon": 121.1062,
+   "population": 33295,
+   "geonameId": "1714052"
+  },
+  {
+   "id": "city:geonames-1713018",
+   "name": "General Tinio",
+   "aliases": [
+    "Papaya"
+   ],
+   "lat": 15.35075,
+   "lon": 121.04773,
+   "population": 32875,
+   "geonameId": "1713018"
+  },
+  {
+   "id": "city:geonames-1710378",
+   "name": "Jagna",
+   "aliases": [
+    "Iagna"
+   ],
+   "lat": 9.6531,
+   "lon": 124.3697,
+   "population": 32566,
+   "geonameId": "1710378"
+  },
+  {
+   "id": "city:geonames-1712488",
+   "name": "Guimba",
+   "aliases": [],
+   "lat": 15.6605,
+   "lon": 120.7683,
+   "population": 32306,
+   "geonameId": "1712488"
+  },
+  {
+   "id": "city:geonames-1688912",
+   "name": "San Narciso",
+   "aliases": [
+    "San Narcisco"
+   ],
+   "lat": 15.0143,
+   "lon": 120.0803,
+   "population": 32180,
+   "geonameId": "1688912"
+  },
+  {
+   "id": "city:geonames-1710011",
+   "name": "Kabacan",
+   "aliases": [
+    "Kabakan"
+   ],
+   "lat": 7.10667,
+   "lon": 124.82917,
+   "population": 31769,
+   "geonameId": "1710011"
+  },
+  {
+   "id": "city:geonames-1731686",
+   "name": "Alaminos",
+   "aliases": [],
+   "lat": 14.06391,
+   "lon": 121.24649,
+   "population": 31427,
+   "geonameId": "1731686"
+  },
+  {
+   "id": "city:geonames-1702425",
+   "name": "Maluso",
+   "aliases": [],
+   "lat": 6.543,
+   "lon": 121.8753,
+   "population": 31374,
+   "geonameId": "1702425"
+  },
+  {
+   "id": "city:geonames-13060471",
+   "name": "General Salipada K. Pendatun",
+   "aliases": [
+    "Bayan ng Heneral Salipada K. Pendatun",
+    "General S.K Pendatun"
+   ],
+   "lat": 6.82626,
+   "lon": 124.72171,
+   "population": 31263,
+   "geonameId": "13060471"
+  },
+  {
+   "id": "city:geonames-1722032",
+   "name": "Cabadbaran",
+   "aliases": [
+    "Cabadbaran City",
+    "Cabadbarán",
+    "Kabadbaran",
+    "kabadbaran",
+    "kabaddobaran",
+    "kha bad ba ran",
+    "Кабадбаран",
+    "كابادباران",
+    "کابادباران",
+    "คาบัดบารัน",
+    "კაბადბარანი",
+    "カバッドバラン"
+   ],
+   "lat": 9.12261,
+   "lon": 125.53549,
+   "population": 31114,
+   "geonameId": "1722032"
+  },
+  {
+   "id": "city:geonames-1696683",
+   "name": "Pagaluñgan",
+   "aliases": [
+    "Pagalungan",
+    "Pagaluan"
+   ],
+   "lat": 7.14167,
+   "lon": 124.38056,
+   "population": 31052,
+   "geonameId": "1696683"
+  },
+  {
+   "id": "city:geonames-1705367",
+   "name": "Lucban",
+   "aliases": [],
+   "lat": 14.11356,
+   "lon": 121.55574,
+   "population": 30992,
+   "geonameId": "1705367"
+  },
+  {
+   "id": "city:geonames-1732040",
+   "name": "Aglipay",
+   "aliases": [
+    "Guinalbin",
+    "Guinalvin"
+   ],
+   "lat": 16.4889,
+   "lon": 121.645,
+   "population": 30714,
+   "geonameId": "1732040"
+  },
+  {
+   "id": "city:geonames-1694791",
+   "name": "Paraiso",
+   "aliases": [],
+   "lat": 10.8849,
+   "lon": 123.3627,
+   "population": 30494,
+   "geonameId": "1694791"
+  },
+  {
+   "id": "city:geonames-1693778",
+   "name": "Pililla",
+   "aliases": [],
+   "lat": 14.4854,
+   "lon": 121.3062,
+   "population": 30408,
+   "geonameId": "1693778"
+  },
+  {
+   "id": "city:geonames-1684379",
+   "name": "Tagoloan",
+   "aliases": [],
+   "lat": 8.53954,
+   "lon": 124.75411,
+   "population": 30390,
+   "geonameId": "1684379"
+  },
+  {
+   "id": "city:geonames-1705190",
+   "name": "Lumbang",
+   "aliases": [
+    "Lumban"
+   ],
+   "lat": 14.2973,
+   "lon": 121.4598,
+   "population": 30269,
+   "geonameId": "1705190"
+  },
+  {
+   "id": "city:geonames-1723166",
+   "name": "Buhi",
+   "aliases": [
+    "Bulu"
+   ],
+   "lat": 13.4322,
+   "lon": 123.517,
+   "population": 30126,
+   "geonameId": "1723166"
+  },
+  {
+   "id": "city:geonames-1702413",
+   "name": "Malvar",
+   "aliases": [],
+   "lat": 14.04472,
+   "lon": 121.15861,
+   "population": 29880,
+   "geonameId": "1702413"
+  },
+  {
+   "id": "city:geonames-1730171",
+   "name": "Aringay",
+   "aliases": [],
+   "lat": 16.394,
+   "lon": 120.3545,
+   "population": 29825,
+   "geonameId": "1730171"
+  },
+  {
+   "id": "city:geonames-1683116",
+   "name": "Tangub",
+   "aliases": [
+    "Tangob",
+    "Tangub City"
+   ],
+   "lat": 8.0618,
+   "lon": 123.7477,
+   "population": 29721,
+   "geonameId": "1683116"
+  },
+  {
+   "id": "city:geonames-1966336",
+   "name": "Bagong Pagasa",
+   "aliases": [
+    "Bagong Pag-asa",
+    "Pag-Asa"
+   ],
+   "lat": 14.6627,
+   "lon": 121.0328,
+   "population": 29389,
+   "geonameId": "1966336"
+  },
+  {
+   "id": "city:geonames-1729987",
+   "name": "Atimonan",
+   "aliases": [
+    "Antimonan"
+   ],
+   "lat": 14.0027,
+   "lon": 121.92078,
+   "population": 29356,
+   "geonameId": "1729987"
+  },
+  {
+   "id": "city:geonames-1721077",
+   "name": "Mapun",
+   "aliases": [
+    "Cagayan",
+    "Cagayan de Sulu",
+    "Cagayan de Tawi-Tawi",
+    "Kagayan",
+    "Kagayan de Tawi-Tawi",
+    "Mahalu",
+    "Tana' Mapun",
+    "Tana’ Mapun"
+   ],
+   "lat": 6.9747,
+   "lon": 118.5144,
+   "population": 29218,
+   "geonameId": "1721077"
+  },
+  {
+   "id": "city:geonames-1688425",
+   "name": "San Simon",
+   "aliases": [],
+   "lat": 14.9996,
+   "lon": 120.7808,
+   "population": 29049,
+   "geonameId": "1688425"
+  },
+  {
+   "id": "city:geonames-1683302",
+   "name": "Tandag",
+   "aliases": [
+    "Dakbayan sa Tandag",
+    "Kota Tandag",
+    "Lungsod ng Tandag",
+    "TDG",
+    "Tandag City",
+    "Tandag Lakanbalen",
+    "tandag",
+    "تانداگ"
+   ],
+   "lat": 9.07833,
+   "lon": 126.19861,
+   "population": 29011,
+   "geonameId": "1683302"
+  },
+  {
+   "id": "city:geonames-1731959",
+   "name": "Agoo",
+   "aliases": [],
+   "lat": 16.08333,
+   "lon": 120.1,
+   "population": 28972,
+   "geonameId": "1731959"
+  },
+  {
+   "id": "city:geonames-1728825",
+   "name": "Bah-Bah",
+   "aliases": [],
+   "lat": 8.60722,
+   "lon": 125.91444,
+   "population": 28643,
+   "geonameId": "1728825"
+  },
+  {
+   "id": "city:geonames-1695583",
+   "name": "Pandacaqui",
+   "aliases": [
+    "Pandakaki"
+   ],
+   "lat": 15.1719,
+   "lon": 120.65457,
+   "population": 28603,
+   "geonameId": "1695583"
+  },
+  {
+   "id": "city:geonames-1722985",
+   "name": "Bulan",
+   "aliases": [
+    "Bulsan",
+    "Булан"
+   ],
+   "lat": 12.67139,
+   "lon": 123.875,
+   "population": 28529,
+   "geonameId": "1722985"
+  },
+  {
+   "id": "city:geonames-1703450",
+   "name": "Majayjay",
+   "aliases": [],
+   "lat": 14.1463,
+   "lon": 121.4729,
+   "population": 28504,
+   "geonameId": "1703450"
+  },
+  {
+   "id": "city:geonames-1698103",
+   "name": "Narra",
+   "aliases": [],
+   "lat": 9.26877,
+   "lon": 118.4043,
+   "population": 28342,
+   "geonameId": "1698103"
+  },
+  {
+   "id": "city:geonames-1722433",
+   "name": "Burgos",
+   "aliases": [],
+   "lat": 15.72892,
+   "lon": 120.57224,
+   "population": 28178,
+   "geonameId": "1722433"
+  },
+  {
+   "id": "city:geonames-1686728",
+   "name": "Sibulan",
+   "aliases": [
+    "Bayan ng Sibulan",
+    "Lungsod sa Sibulan"
+   ],
+   "lat": 9.3584,
+   "lon": 123.285,
+   "population": 28079,
+   "geonameId": "1686728"
+  },
+  {
+   "id": "city:geonames-1688017",
+   "name": "Santa Maria",
+   "aliases": [],
+   "lat": 16.9518,
+   "lon": 120.4445,
+   "population": 28002,
+   "geonameId": "1688017"
+  },
+  {
+   "id": "city:geonames-1694075",
+   "name": "Peñaranda",
+   "aliases": [
+    "Penaranda",
+    "Pen'jaranda",
+    "Пеньяранда"
+   ],
+   "lat": 15.35116,
+   "lon": 121.00393,
+   "population": 27465,
+   "geonameId": "1694075"
+  },
+  {
+   "id": "city:geonames-1692489",
+   "name": "Pulupandan",
+   "aliases": [
+    "Palupandan",
+    "Puhipandan"
+   ],
+   "lat": 10.51784,
+   "lon": 122.80259,
+   "population": 27363,
+   "geonameId": "1692489"
+  },
+  {
+   "id": "city:geonames-1718078",
+   "name": "Castillejos",
+   "aliases": [
+    "Caslillejos",
+    "Kastil'ekhosu",
+    "Кастильехосу"
+   ],
+   "lat": 14.93363,
+   "lon": 120.19785,
+   "population": 27301,
+   "geonameId": "1718078"
+  },
+  {
+   "id": "city:geonames-1711437",
+   "name": "Iba",
+   "aliases": [
+    "Ibra",
+    "ayba  zambalys",
+    "iba",
+    "yi ba",
+    "Ибра",
+    "ایبا، زامبالیس",
+    "イバ",
+    "伊巴",
+    "이바"
+   ],
+   "lat": 15.3276,
+   "lon": 119.978,
+   "population": 26935,
+   "geonameId": "1711437"
+  },
+  {
+   "id": "city:geonames-1696718",
+   "name": "Paete",
+   "aliases": [],
+   "lat": 14.3647,
+   "lon": 121.4829,
+   "population": 26855,
+   "geonameId": "1696718"
+  },
+  {
+   "id": "city:geonames-1717960",
+   "name": "Catanauan",
+   "aliases": [
+    "Catanuan"
+   ],
+   "lat": 13.5926,
+   "lon": 122.3215,
+   "population": 26804,
+   "geonameId": "1717960"
+  },
+  {
+   "id": "city:geonames-1689549",
+   "name": "San Jose",
+   "aliases": [],
+   "lat": 10.18,
+   "lon": 125.56833,
+   "population": 26735,
+   "geonameId": "1689549"
+  },
+  {
+   "id": "city:geonames-1724088",
+   "name": "Bongao",
+   "aliases": [
+    "Bangaw",
+    "Bongao Poblacion",
+    "Bonggao",
+    "Bonggaw",
+    "TWT",
+    "bongao",
+    "bwnagaw  tawy tawy",
+    "بوناگاؤ، تاوی تاوی",
+    "ボンガオ"
+   ],
+   "lat": 5.02917,
+   "lon": 119.77306,
+   "population": 26518,
+   "geonameId": "1724088"
+  },
+  {
+   "id": "city:geonames-1688363",
+   "name": "Santa Catalina",
+   "aliases": [
+    "Bayan ng Santa Catalina",
+    "Lungsod sa Santa Catalina"
+   ],
+   "lat": 9.3337,
+   "lon": 122.8637,
+   "population": 26457,
+   "geonameId": "1688363"
+  },
+  {
+   "id": "city:geonames-1690194",
+   "name": "Sanchez-Mira",
+   "aliases": [],
+   "lat": 18.56163,
+   "lon": 121.23189,
+   "population": 26292,
+   "geonameId": "1690194"
+  },
+  {
+   "id": "city:geonames-1690313",
+   "name": "San Antonio",
+   "aliases": [],
+   "lat": 15.3062,
+   "lon": 120.856,
+   "population": 26247,
+   "geonameId": "1690313"
+  },
+  {
+   "id": "city:geonames-1691606",
+   "name": "Rizal",
+   "aliases": [
+    "Nazaret",
+    "Rizel",
+    "Ризал"
+   ],
+   "lat": 15.7118,
+   "lon": 121.1061,
+   "population": 26201,
+   "geonameId": "1691606"
+  },
+  {
+   "id": "city:geonames-1682537",
+   "name": "Telabastagan",
+   "aliases": [],
+   "lat": 15.11854,
+   "lon": 120.60773,
+   "population": 25935,
+   "geonameId": "1682537"
+  },
+  {
+   "id": "city:geonames-1704781",
+   "name": "Maao",
+   "aliases": [
+    "Ma-ao Barrio"
+   ],
+   "lat": 10.4896,
+   "lon": 122.9907,
+   "population": 25837,
+   "geonameId": "1704781"
+  },
+  {
+   "id": "city:geonames-1705572",
+   "name": "Lopez",
+   "aliases": [],
+   "lat": 13.884,
+   "lon": 122.2604,
+   "population": 25752,
+   "geonameId": "1705572"
+  },
+  {
+   "id": "city:geonames-1698921",
+   "name": "Nabua",
+   "aliases": [],
+   "lat": 13.4075,
+   "lon": 123.3724,
+   "population": 25687,
+   "geonameId": "1698921"
+  },
+  {
+   "id": "city:geonames-1717008",
+   "name": "Concepcion Ibaba",
+   "aliases": [
+    "Concepcion"
+   ],
+   "lat": 13.92309,
+   "lon": 121.46099,
+   "population": 25628,
+   "geonameId": "1717008"
+  },
+  {
+   "id": "city:geonames-1695283",
+   "name": "Pangil",
+   "aliases": [],
+   "lat": 14.4033,
+   "lon": 121.46506,
+   "population": 25318,
+   "geonameId": "1695283"
+  },
+  {
+   "id": "city:geonames-1722005",
+   "name": "Cabagan",
+   "aliases": [
+    "Cabagán"
+   ],
+   "lat": 17.42782,
+   "lon": 121.76955,
+   "population": 25304,
+   "geonameId": "1722005"
+  },
+  {
+   "id": "city:geonames-1683860",
+   "name": "Talisay",
+   "aliases": [],
+   "lat": 14.0925,
+   "lon": 121.02194,
+   "population": 24969,
+   "geonameId": "1683860"
+  },
+  {
+   "id": "city:geonames-1729324",
+   "name": "Baggabag B",
+   "aliases": [
+    "Bagabag"
+   ],
+   "lat": 16.50588,
+   "lon": 121.19014,
+   "population": 24967,
+   "geonameId": "1729324"
+  },
+  {
+   "id": "city:geonames-1701692",
+   "name": "Manibaug Pasig",
+   "aliases": [
+    "Manibaug"
+   ],
+   "lat": 15.09621,
+   "lon": 120.56445,
+   "population": 24618,
+   "geonameId": "1701692"
+  },
+  {
+   "id": "city:geonames-1698740",
+   "name": "Nagcarlan",
+   "aliases": [],
+   "lat": 14.1364,
+   "lon": 121.4165,
+   "population": 24560,
+   "geonameId": "1698740"
+  },
+  {
+   "id": "city:geonames-1680018",
+   "name": "Victoria",
+   "aliases": [
+    "Nanhaya",
+    "Viktorija",
+    "Виктория"
+   ],
+   "lat": 14.2277,
+   "lon": 121.3292,
+   "population": 24456,
+   "geonameId": "1680018"
+  },
+  {
+   "id": "city:geonames-1708217",
+   "name": "La Castellana",
+   "aliases": [],
+   "lat": 10.3239,
+   "lon": 123.0215,
+   "population": 24407,
+   "geonameId": "1708217"
+  },
+  {
+   "id": "city:geonames-1693401",
+   "name": "Pio",
+   "aliases": [],
+   "lat": 15.04741,
+   "lon": 120.51891,
+   "population": 24345,
+   "geonameId": "1693401"
+  },
+  {
+   "id": "city:geonames-1713053",
+   "name": "General Emilio Aguinaldo",
+   "aliases": [
+    "Bailen"
+   ],
+   "lat": 14.18417,
+   "lon": 120.79583,
+   "population": 24264,
+   "geonameId": "1713053"
+  },
+  {
+   "id": "city:geonames-1712819",
+   "name": "Glan",
+   "aliases": [
+    "Bayan ng Glan",
+    "Glan-Townsite",
+    "Lungsod sa Glan",
+    "Глан"
+   ],
+   "lat": 5.82417,
+   "lon": 125.20333,
+   "population": 24256,
+   "geonameId": "1712819"
+  },
+  {
+   "id": "city:geonames-1702263",
+   "name": "Mamburao",
+   "aliases": [
+    "MBO",
+    "Mambulao"
+   ],
+   "lat": 13.2233,
+   "lon": 120.596,
+   "population": 23892,
+   "geonameId": "1702263"
+  },
+  {
+   "id": "city:geonames-1696165",
+   "name": "Palayan City",
+   "aliases": [
+    "Palagian",
+    "Palajan",
+    "Palajana",
+    "Palajanas",
+    "Palayan",
+    "balayan",
+    "pa la ya ngan",
+    "pa la yang",
+    "palaiyan",
+    "palayan",
+    "palayana",
+    "pallayan",
+    "parayan",
+    "Παλαγιάν",
+    "Палаян",
+    "بالايان",
+    "پالایان",
+    "पलायन",
+    "पालयन",
+    "পালায়ান",
+    "પલાયન",
+    "பாளையன்",
+    "పలయన్",
+    "ಪಲಾಯನ",
+    "පලයන්",
+    "ปาลายางัน",
+    "パラヤン",
+    "帕拉扬",
+    "팔라얀"
+   ],
+   "lat": 15.5415,
+   "lon": 121.0848,
+   "population": 23742,
+   "geonameId": "1696165"
+  },
+  {
+   "id": "city:geonames-13118057",
+   "name": "Al-Barka",
+   "aliases": [],
+   "lat": 6.48623,
+   "lon": 122.17552,
+   "population": 23736,
+   "geonameId": "13118057"
+  },
+  {
+   "id": "city:geonames-1690060",
+   "name": "San Fernando",
+   "aliases": [],
+   "lat": 10.1624,
+   "lon": 123.7076,
+   "population": 23706,
+   "geonameId": "1690060"
+  },
+  {
+   "id": "city:geonames-1724435",
+   "name": "Bogo",
+   "aliases": [
+    "Bogo City",
+    "Kota Bogo"
+   ],
+   "lat": 11.0517,
+   "lon": 124.0055,
+   "population": 23562,
+   "geonameId": "1724435"
+  },
+  {
+   "id": "city:geonames-1730097",
+   "name": "Asia",
+   "aliases": [
+    "Azija",
+    "Isio",
+    "Азия"
+   ],
+   "lat": 9.5506,
+   "lon": 122.5164,
+   "population": 23546,
+   "geonameId": "1730097"
+  },
+  {
+   "id": "city:geonames-1723983",
+   "name": "Bontoc",
+   "aliases": [
+    "Bontoz"
+   ],
+   "lat": 17.08731,
+   "lon": 120.97685,
+   "population": 23466,
+   "geonameId": "1723983"
+  },
+  {
+   "id": "city:geonames-1716526",
+   "name": "Culion",
+   "aliases": [
+    "CUJ",
+    "Culion Leper Colony",
+    "Culion Reservation",
+    "Culión",
+    "Kulion",
+    "kurion",
+    "kwlywn",
+    "Кулион",
+    "کولیون",
+    "クリオン"
+   ],
+   "lat": 11.8904,
+   "lon": 120.0222,
+   "population": 23213,
+   "geonameId": "1716526"
+  },
+  {
+   "id": "city:geonames-1693574",
+   "name": "Pinamungahan",
+   "aliases": [
+    "Pihamungajan",
+    "Pinamangajan",
+    "Pinamangayan",
+    "Pinamungajan",
+    "Pinamunganjan"
+   ],
+   "lat": 10.2708,
+   "lon": 123.5839,
+   "population": 23068,
+   "geonameId": "1693574"
+  },
+  {
+   "id": "city:geonames-1701516",
+   "name": "Mansalay",
+   "aliases": [
+    "Bulalacao"
+   ],
+   "lat": 12.52044,
+   "lon": 121.43851,
+   "population": 23044,
+   "geonameId": "1701516"
+  },
+  {
+   "id": "city:geonames-1723822",
+   "name": "Botolan",
+   "aliases": [],
+   "lat": 15.2896,
+   "lon": 120.0245,
+   "population": 22994,
+   "geonameId": "1723822"
+  },
+  {
+   "id": "city:geonames-1712520",
+   "name": "Guihulñgan",
+   "aliases": [
+    "Guihulngan",
+    "Gihulngan",
+    "Guilhulngan",
+    "Gulhulngan"
+   ],
+   "lat": 10.11947,
+   "lon": 123.27287,
+   "population": 22931,
+   "geonameId": "1712520"
+  },
+  {
+   "id": "city:geonames-10628881",
+   "name": "Apas",
+   "aliases": [],
+   "lat": 10.34076,
+   "lon": 123.90261,
+   "population": 22566,
+   "geonameId": "10628881"
+  },
+  {
+   "id": "city:geonames-1712162",
+   "name": "Gumaca",
+   "aliases": [
+    "Bayan ng Gumaca"
+   ],
+   "lat": 13.921,
+   "lon": 122.1002,
+   "population": 22496,
+   "geonameId": "1712162"
+  },
+  {
+   "id": "city:geonames-1725359",
+   "name": "Bignay Uno",
+   "aliases": [
+    "Bignay"
+   ],
+   "lat": 13.86445,
+   "lon": 121.48792,
+   "population": 22401,
+   "geonameId": "1725359"
+  },
+  {
+   "id": "city:geonames-1728546",
+   "name": "Balamban",
+   "aliases": [
+    "Balanban"
+   ],
+   "lat": 10.5039,
+   "lon": 123.7156,
+   "population": 22283,
+   "geonameId": "1728546"
+  },
+  {
+   "id": "city:geonames-1712232",
+   "name": "Guiset East",
+   "aliases": [
+    "Guiset",
+    "Guiset Este",
+    "Guiset Sur"
+   ],
+   "lat": 16.06667,
+   "lon": 120.68333,
+   "population": 21994,
+   "geonameId": "1712232"
+  },
+  {
+   "id": "city:geonames-1705771",
+   "name": "Loma de Gato",
+   "aliases": [],
+   "lat": 14.78869,
+   "lon": 120.99889,
+   "population": 21990,
+   "geonameId": "1705771"
+  },
+  {
+   "id": "city:geonames-1703116",
+   "name": "Malanday",
+   "aliases": [],
+   "lat": 14.7069,
+   "lon": 121.1306,
+   "population": 21901,
+   "geonameId": "1703116"
+  },
+  {
+   "id": "city:geonames-1687029",
+   "name": "Lake Sebu",
+   "aliases": [
+    "Sebu"
+   ],
+   "lat": 6.22482,
+   "lon": 124.71042,
+   "population": 21767,
+   "geonameId": "1687029"
+  },
+  {
+   "id": "city:geonames-1692914",
+   "name": "Porac",
+   "aliases": [
+    "Porach",
+    "Порач"
+   ],
+   "lat": 15.0711,
+   "lon": 120.5423,
+   "population": 21660,
+   "geonameId": "1692914"
+  },
+  {
+   "id": "city:geonames-1716618",
+   "name": "Cuenca",
+   "aliases": [
+    "Kuehnka",
+    "Куэнка"
+   ],
+   "lat": 13.902,
+   "lon": 121.0521,
+   "population": 21558,
+   "geonameId": "1716618"
+  },
+  {
+   "id": "city:geonames-1727080",
+   "name": "Bansalan",
+   "aliases": [
+    "Dansalan",
+    "Miral"
+   ],
+   "lat": 6.78611,
+   "lon": 125.21333,
+   "population": 21391,
+   "geonameId": "1727080"
+  },
+  {
+   "id": "city:geonames-1710666",
+   "name": "Inopacan",
+   "aliases": [
+    "Inopagan"
+   ],
+   "lat": 10.4997,
+   "lon": 124.7405,
+   "population": 21389,
+   "geonameId": "1710666"
+  },
+  {
+   "id": "city:geonames-1710103",
+   "name": "Jose Pañganiban",
+   "aliases": [
+    "Jose Panganiban",
+    "Mambulao"
+   ],
+   "lat": 14.2906,
+   "lon": 122.6917,
+   "population": 21236,
+   "geonameId": "1710103"
+  },
+  {
+   "id": "city:geonames-1714050",
+   "name": "Dupax del Sur",
+   "aliases": [],
+   "lat": 16.2838,
+   "lon": 121.0896,
+   "population": 21224,
+   "geonameId": "1714050"
+  },
+  {
+   "id": "city:geonames-1686933",
+   "name": "Sasmuan",
+   "aliases": [
+    "Sasmoan",
+    "Sexmoan",
+    "Sexmoán"
+   ],
+   "lat": 14.9438,
+   "lon": 120.6229,
+   "population": 21124,
+   "geonameId": "1686933"
+  },
+  {
+   "id": "city:geonames-1699388",
+   "name": "Molave",
+   "aliases": [],
+   "lat": 8.0844,
+   "lon": 123.491,
+   "population": 21088,
+   "geonameId": "1699388"
+  },
+  {
+   "id": "city:geonames-1712808",
+   "name": "Goa",
+   "aliases": [
+    "Гоа"
+   ],
+   "lat": 13.6978,
+   "lon": 123.4892,
+   "population": 20936,
+   "geonameId": "1712808"
+  },
+  {
+   "id": "city:geonames-1710531",
+   "name": "Irosin",
+   "aliases": [],
+   "lat": 12.70013,
+   "lon": 124.03221,
+   "population": 20716,
+   "geonameId": "1710531"
+  },
+  {
+   "id": "city:geonames-1697773",
+   "name": "New Corella",
+   "aliases": [],
+   "lat": 7.5866,
+   "lon": 125.8237,
+   "population": 20574,
+   "geonameId": "1697773"
+  },
+  {
+   "id": "city:geonames-1683800",
+   "name": "Taloc",
+   "aliases": [
+    "Taluc"
+   ],
+   "lat": 10.5746,
+   "lon": 122.8954,
+   "population": 20409,
+   "geonameId": "1683800"
+  },
+  {
+   "id": "city:geonames-1702032",
+   "name": "Manay",
+   "aliases": [
+    "Bayan ng Manay",
+    "Lungsod sa Manay",
+    "Man-ay"
+   ],
+   "lat": 7.215,
+   "lon": 126.53972,
+   "population": 20336,
+   "geonameId": "1702032"
+  },
+  {
+   "id": "city:geonames-1726765",
+   "name": "Baras",
+   "aliases": [
+    "Барас"
+   ],
+   "lat": 14.51691,
+   "lon": 121.2658,
+   "population": 20250,
+   "geonameId": "1726765"
+  },
+  {
+   "id": "city:geonames-1715812",
+   "name": "Danao",
+   "aliases": [
+    "Munisipalidad sa Danao"
+   ],
+   "lat": 9.55421,
+   "lon": 123.75648,
+   "population": 20245,
+   "geonameId": "1715812"
+  },
+  {
+   "id": "city:geonames-1690570",
+   "name": "Sampaloc",
+   "aliases": [
+    "Sampalok"
+   ],
+   "lat": 14.5402,
+   "lon": 121.3602,
+   "population": 20157,
+   "geonameId": "1690570"
+  },
+  {
+   "id": "city:geonames-1682472",
+   "name": "Ternate",
+   "aliases": [],
+   "lat": 14.2897,
+   "lon": 120.7168,
+   "population": 20049,
+   "geonameId": "1682472"
+  },
+  {
+   "id": "city:geonames-1696814",
+   "name": "Pacol",
+   "aliases": [],
+   "lat": 10.45,
+   "lon": 122.81667,
+   "population": 19839,
+   "geonameId": "1696814"
+  },
+  {
+   "id": "city:geonames-1683818",
+   "name": "Talitay",
+   "aliases": [
+    "Talita"
+   ],
+   "lat": 7.03333,
+   "lon": 124.7,
+   "population": 19750,
+   "geonameId": "1683818"
+  },
+  {
+   "id": "city:geonames-1729814",
+   "name": "Baao",
+   "aliases": [],
+   "lat": 13.4549,
+   "lon": 123.3653,
+   "population": 19612,
+   "geonameId": "1729814"
+  },
+  {
+   "id": "city:geonames-1689973",
+   "name": "San Francisco",
+   "aliases": [
+    "Caysyan"
+   ],
+   "lat": 15.35566,
+   "lon": 120.84001,
+   "population": 19570,
+   "geonameId": "1689973"
+  },
+  {
+   "id": "city:geonames-1703355",
+   "name": "Malabanban Norte",
+   "aliases": [
+    "Malabanban"
+   ],
+   "lat": 13.94521,
+   "lon": 121.43065,
+   "population": 19471,
+   "geonameId": "1703355"
+  },
+  {
+   "id": "city:geonames-1707049",
+   "name": "Laur",
+   "aliases": [
+    "San Estaban"
+   ],
+   "lat": 15.5865,
+   "lon": 121.1834,
+   "population": 19206,
+   "geonameId": "1707049"
+  },
+  {
+   "id": "city:geonames-1710612",
+   "name": "Ipil",
+   "aliases": [
+    "IPE",
+    "Sanito",
+    "Tayun"
+   ],
+   "lat": 7.78444,
+   "lon": 122.58611,
+   "population": 19195,
+   "geonameId": "1710612"
+  },
+  {
+   "id": "city:geonames-1708130",
+   "name": "Lagawe",
+   "aliases": [],
+   "lat": 16.79997,
+   "lon": 121.11924,
+   "population": 19124,
+   "geonameId": "1708130"
+  },
+  {
+   "id": "city:geonames-1703115",
+   "name": "Malanday",
+   "aliases": [],
+   "lat": 14.71694,
+   "lon": 120.95806,
+   "population": 19060,
+   "geonameId": "1703115"
+  },
+  {
+   "id": "city:geonames-1697421",
+   "name": "Nunungan",
+   "aliases": [],
+   "lat": 7.8236,
+   "lon": 123.965,
+   "population": 18827,
+   "geonameId": "1697421"
+  },
+  {
+   "id": "city:geonames-1685349",
+   "name": "Sumag",
+   "aliases": [
+    "Sum-Ag"
+   ],
+   "lat": 10.60139,
+   "lon": 122.91924,
+   "population": 18752,
+   "geonameId": "1685349"
+  },
+  {
+   "id": "city:geonames-1717051",
+   "name": "Compostela",
+   "aliases": [],
+   "lat": 10.455,
+   "lon": 124.0106,
+   "population": 18727,
+   "geonameId": "1717051"
+  },
+  {
+   "id": "city:geonames-1689099",
+   "name": "San Marcelino",
+   "aliases": [
+    "Ili ti San Marcelino"
+   ],
+   "lat": 14.97418,
+   "lon": 120.15733,
+   "population": 18721,
+   "geonameId": "1689099"
+  },
+  {
+   "id": "city:geonames-1689087",
+   "name": "San Mariano",
+   "aliases": [],
+   "lat": 7.5,
+   "lon": 126,
+   "population": 18668,
+   "geonameId": "1689087"
+  },
+  {
+   "id": "city:geonames-1688949",
+   "name": "San Miguel",
+   "aliases": [],
+   "lat": 15.44397,
+   "lon": 120.59923,
+   "population": 18582,
+   "geonameId": "1688949"
+  },
+  {
+   "id": "city:geonames-1692199",
+   "name": "Quezon",
+   "aliases": [
+    "Keson-Siti",
+    "Кесон-Сити"
+   ],
+   "lat": 15.5512,
+   "lon": 120.8147,
+   "population": 18451,
+   "geonameId": "1692199"
+  },
+  {
+   "id": "city:geonames-1713027",
+   "name": "General Mamerto Natividad",
+   "aliases": [
+    "General Natividad",
+    "Natividad"
+   ],
+   "lat": 15.6025,
+   "lon": 121.0515,
+   "population": 18393,
+   "geonameId": "1713027"
+  },
+  {
+   "id": "city:geonames-1704758",
+   "name": "Maasin",
+   "aliases": [
+    "City of Maasin",
+    "Massin City"
+   ],
+   "lat": 10.13272,
+   "lon": 124.84082,
+   "population": 18313,
+   "geonameId": "1704758"
+  },
+  {
+   "id": "city:geonames-1680040",
+   "name": "Veruela",
+   "aliases": [],
+   "lat": 8.0731,
+   "lon": 125.9558,
+   "population": 18114,
+   "geonameId": "1680040"
+  },
+  {
+   "id": "city:geonames-1708291",
+   "name": "Labo",
+   "aliases": [],
+   "lat": 14.1532,
+   "lon": 122.8303,
+   "population": 18105,
+   "geonameId": "1708291"
+  },
+  {
+   "id": "city:geonames-1715165",
+   "name": "Del Remedio",
+   "aliases": [],
+   "lat": 14.0866,
+   "lon": 121.3118,
+   "population": 17871,
+   "geonameId": "1715165"
+  },
+  {
+   "id": "city:geonames-1679678",
+   "name": "Wao",
+   "aliases": [],
+   "lat": 7.68333,
+   "lon": 124.66667,
+   "population": 17845,
+   "geonameId": "1679678"
+  },
+  {
+   "id": "city:geonames-1693839",
+   "name": "Pilar",
+   "aliases": [],
+   "lat": 14.66,
+   "lon": 120.56528,
+   "population": 17831,
+   "geonameId": "1693839"
+  },
+  {
+   "id": "city:geonames-1708056",
+   "name": "Laguilayan",
+   "aliases": [
+    "Lagilayan"
+   ],
+   "lat": 6.67213,
+   "lon": 124.52491,
+   "population": 17764,
+   "geonameId": "1708056"
+  },
+  {
+   "id": "city:geonames-1725799",
+   "name": "Baybay",
+   "aliases": [
+    "Baybay City",
+    "Kota Baybay",
+    "بےبے"
+   ],
+   "lat": 10.6785,
+   "lon": 124.8006,
+   "population": 17668,
+   "geonameId": "1725799"
+  },
+  {
+   "id": "city:geonames-1696041",
+   "name": "Palo",
+   "aliases": [
+    "Polo"
+   ],
+   "lat": 11.1575,
+   "lon": 124.99083,
+   "population": 17534,
+   "geonameId": "1696041"
+  },
+  {
+   "id": "city:geonames-1713767",
+   "name": "Esperanza",
+   "aliases": [],
+   "lat": 11.7365,
+   "lon": 124.042,
+   "population": 17534,
+   "geonameId": "1713767"
+  },
+  {
+   "id": "city:geonames-1718393",
+   "name": "Carigara",
+   "aliases": [
+    "Garigara"
+   ],
+   "lat": 11.29811,
+   "lon": 124.67895,
+   "population": 17495,
+   "geonameId": "1718393"
+  },
+  {
+   "id": "city:geonames-1699060",
+   "name": "Murcia",
+   "aliases": [],
+   "lat": 10.60516,
+   "lon": 123.0417,
+   "population": 17448,
+   "geonameId": "1699060"
+  },
+  {
+   "id": "city:geonames-1704021",
+   "name": "Maganoy",
+   "aliases": [
+    "Maganai",
+    "Maganui",
+    "Maganuy",
+    "Magonay"
+   ],
+   "lat": 6.86472,
+   "lon": 124.44167,
+   "population": 17394,
+   "geonameId": "1704021"
+  },
+  {
+   "id": "city:geonames-1686004",
+   "name": "Sitangkai",
+   "aliases": [
+    "Si Tangkay",
+    "Sitankai",
+    "Venice of the Philippines"
+   ],
+   "lat": 4.66115,
+   "lon": 119.39647,
+   "population": 17200,
+   "geonameId": "1686004"
+  },
+  {
+   "id": "city:geonames-1703598",
+   "name": "Mahayag",
+   "aliases": [],
+   "lat": 8.1183,
+   "lon": 123.4455,
+   "population": 17144,
+   "geonameId": "1703598"
+  },
+  {
+   "id": "city:geonames-1726156",
+   "name": "Bato",
+   "aliases": [],
+   "lat": 13.3528,
+   "lon": 123.3677,
+   "population": 16939,
+   "geonameId": "1726156"
+  },
+  {
+   "id": "city:geonames-1681676",
+   "name": "Tiwi",
+   "aliases": [],
+   "lat": 13.4585,
+   "lon": 123.6805,
+   "population": 16826,
+   "geonameId": "1681676"
+  },
+  {
+   "id": "city:geonames-1688058",
+   "name": "Santa Maria",
+   "aliases": [
+    "Basiauan",
+    "Basiawan"
+   ],
+   "lat": 6.55361,
+   "lon": 125.47083,
+   "population": 16758,
+   "geonameId": "1688058"
+  },
+  {
+   "id": "city:geonames-1707398",
+   "name": "Laoang",
+   "aliases": [
+    "Loangan"
+   ],
+   "lat": 12.5698,
+   "lon": 125.0141,
+   "population": 16725,
+   "geonameId": "1707398"
+  },
+  {
+   "id": "city:geonames-1698887",
+   "name": "Nabunturan",
+   "aliases": [
+    "nabwntwran  wady kwmpwstyla",
+    "نابونتوران، وادی کومپوستیلا"
+   ],
+   "lat": 7.60778,
+   "lon": 125.96639,
+   "population": 16671,
+   "geonameId": "1698887"
+  },
+  {
+   "id": "city:geonames-1691441",
+   "name": "Roxas",
+   "aliases": [],
+   "lat": 17.11894,
+   "lon": 121.62014,
+   "population": 16618,
+   "geonameId": "1691441"
+  },
+  {
+   "id": "city:geonames-1683342",
+   "name": "Tanauan",
+   "aliases": [],
+   "lat": 11.10944,
+   "lon": 125.01556,
+   "population": 16567,
+   "geonameId": "1683342"
+  },
+  {
+   "id": "city:geonames-1721695",
+   "name": "Cabayangan",
+   "aliases": [],
+   "lat": 7.40722,
+   "lon": 125.73306,
+   "population": 16539,
+   "geonameId": "1721695"
+  },
+  {
+   "id": "city:geonames-1710258",
+   "name": "Jasaan",
+   "aliases": [
+    "Hasaan",
+    "Jaman",
+    "Jamán",
+    "جسان، مسمس ورئیینٹل"
+   ],
+   "lat": 8.65417,
+   "lon": 124.75556,
+   "population": 16435,
+   "geonameId": "1710258"
+  },
+  {
+   "id": "city:geonames-1705871",
+   "name": "Loboc",
+   "aliases": [
+    "Laboc"
+   ],
+   "lat": 9.63833,
+   "lon": 124.03482,
+   "population": 16312,
+   "geonameId": "1705871"
+  },
+  {
+   "id": "city:geonames-1679360",
+   "name": "Zumarraga",
+   "aliases": [],
+   "lat": 11.6388,
+   "lon": 124.8417,
+   "population": 16279,
+   "geonameId": "1679360"
+  },
+  {
+   "id": "city:geonames-1689052",
+   "name": "San Mateo",
+   "aliases": [],
+   "lat": 16.88206,
+   "lon": 121.58694,
+   "population": 16233,
+   "geonameId": "1689052"
+  },
+  {
+   "id": "city:geonames-1689994",
+   "name": "Aurora",
+   "aliases": [
+    "San Francisco"
+   ],
+   "lat": 13.3476,
+   "lon": 122.5195,
+   "population": 16178,
+   "geonameId": "1689994"
+  },
+  {
+   "id": "city:geonames-1699204",
+   "name": "Morong",
+   "aliases": [
+    "Moron",
+    "Моронг"
+   ],
+   "lat": 14.67889,
+   "lon": 120.26611,
+   "population": 16117,
+   "geonameId": "1699204"
+  },
+  {
+   "id": "city:geonames-1687409",
+   "name": "San Vicente",
+   "aliases": [
+    "Caluis",
+    "Cobra"
+   ],
+   "lat": 15.2921,
+   "lon": 120.65498,
+   "population": 16116,
+   "geonameId": "1687409"
+  },
+  {
+   "id": "city:geonames-1720499",
+   "name": "Calatagan",
+   "aliases": [
+    "Calalagan"
+   ],
+   "lat": 13.83224,
+   "lon": 120.63219,
+   "population": 16110,
+   "geonameId": "1720499"
+  },
+  {
+   "id": "city:geonames-1697491",
+   "name": "Novaliches Proper",
+   "aliases": [
+    "Novaliches"
+   ],
+   "lat": 14.72259,
+   "lon": 121.04616,
+   "population": 16096,
+   "geonameId": "1697491"
+  },
+  {
+   "id": "city:geonames-1681333",
+   "name": "Trento",
+   "aliases": [],
+   "lat": 8.04583,
+   "lon": 126.06361,
+   "population": 15916,
+   "geonameId": "1681333"
+  },
+  {
+   "id": "city:geonames-1710518",
+   "name": "Isabela",
+   "aliases": [
+    "Isabella",
+    "Izabela",
+    "Изабела"
+   ],
+   "lat": 10.2048,
+   "lon": 122.9888,
+   "population": 15897,
+   "geonameId": "1710518"
+  },
+  {
+   "id": "city:geonames-1702002",
+   "name": "Mankayan",
+   "aliases": [
+    "Mancayan"
+   ],
+   "lat": 16.8632,
+   "lon": 120.7829,
+   "population": 15886,
+   "geonameId": "1702002"
+  },
+  {
+   "id": "city:geonames-1732312",
+   "name": "Abuyog",
+   "aliases": [
+    "abwyag  lyyt",
+    "ابویاگ، لییت"
+   ],
+   "lat": 10.747,
+   "lon": 125.0107,
+   "population": 15632,
+   "geonameId": "1732312"
+  },
+  {
+   "id": "city:geonames-1720052",
+   "name": "Calumpang",
+   "aliases": [
+    "Calumbang",
+    "Kalumpang"
+   ],
+   "lat": 14.6228,
+   "lon": 121.0897,
+   "population": 15602,
+   "geonameId": "1720052"
+  },
+  {
+   "id": "city:geonames-1684137",
+   "name": "Talacogon",
+   "aliases": [],
+   "lat": 8.45611,
+   "lon": 125.78417,
+   "population": 15581,
+   "geonameId": "1684137"
+  },
+  {
+   "id": "city:geonames-1715094",
+   "name": "Diadi",
+   "aliases": [],
+   "lat": 16.7262,
+   "lon": 121.3589,
+   "population": 15567,
+   "geonameId": "1715094"
+  },
+  {
+   "id": "city:geonames-1722356",
+   "name": "Boroon",
+   "aliases": [
+    "Buru-un"
+   ],
+   "lat": 8.18278,
+   "lon": 124.17701,
+   "population": 15490,
+   "geonameId": "1722356"
+  },
+  {
+   "id": "city:geonames-1688372",
+   "name": "Santa Barbara",
+   "aliases": [],
+   "lat": 16.0009,
+   "lon": 120.4023,
+   "population": 15445,
+   "geonameId": "1688372"
+  },
+  {
+   "id": "city:geonames-1688248",
+   "name": "Santa Cruz",
+   "aliases": [],
+   "lat": 14.9127,
+   "lon": 120.56659,
+   "population": 15408,
+   "geonameId": "1688248"
+  },
+  {
+   "id": "city:geonames-1691538",
+   "name": "Romblon",
+   "aliases": [
+    "Romblón",
+    "lombeullon",
+    "rwmblwn  rwmblwn",
+    "Ромблон",
+    "رومبلون، رومبلون",
+    "롬블론"
+   ],
+   "lat": 12.57513,
+   "lon": 122.27081,
+   "population": 15316,
+   "geonameId": "1691538"
+  },
+  {
+   "id": "city:geonames-1684577",
+   "name": "Tagas",
+   "aliases": [],
+   "lat": 13.16667,
+   "lon": 123.71667,
+   "population": 15292,
+   "geonameId": "1684577"
+  },
+  {
+   "id": "city:geonames-1706402",
+   "name": "Lilio",
+   "aliases": [
+    "Liliw"
+   ],
+   "lat": 14.1313,
+   "lon": 121.4362,
+   "population": 15246,
+   "geonameId": "1706402"
+  },
+  {
+   "id": "city:geonames-1691446",
+   "name": "Roxas",
+   "aliases": [
+    "Barbacan",
+    "Del Pilar",
+    "New Barbacan",
+    "rwksas",
+    "روکساس"
+   ],
+   "lat": 10.3215,
+   "lon": 119.3451,
+   "population": 15242,
+   "geonameId": "1691446"
+  },
+  {
+   "id": "city:geonames-1704002",
+   "name": "Magarao",
+   "aliases": [],
+   "lat": 13.6604,
+   "lon": 123.1869,
+   "population": 15205,
+   "geonameId": "1704002"
+  },
+  {
+   "id": "city:geonames-1714519",
+   "name": "Dologon",
+   "aliases": [
+    "Dulogan",
+    "Dulugon"
+   ],
+   "lat": 7.84083,
+   "lon": 125.04444,
+   "population": 15128,
+   "geonameId": "1714519"
+  },
+  {
+   "id": "city:geonames-1714482",
+   "name": "Domalanoan",
+   "aliases": [
+    "Damaloguen",
+    "Domalandan",
+    "Dumalandan"
+   ],
+   "lat": 16.00292,
+   "lon": 120.21154,
+   "population": 15108,
+   "geonameId": "1714482"
+  },
+  {
+   "id": "city:geonames-1691904",
+   "name": "Ramos",
+   "aliases": [
+    "Bani"
+   ],
+   "lat": 15.6653,
+   "lon": 120.6406,
+   "population": 15066,
+   "geonameId": "1691904"
+  },
+  {
+   "id": "city:geonames-1729734",
+   "name": "Babo-Pangulo",
+   "aliases": [],
+   "lat": 15.08333,
+   "lon": 120.51667,
+   "population": 15066,
+   "geonameId": "1729734"
+  }
+ ]
+}

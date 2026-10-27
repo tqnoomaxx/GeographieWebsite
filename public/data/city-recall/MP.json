@@ -1,0 +1,20 @@
+{
+ "country": "country:MP",
+ "cities": [
+  {
+   "id": "city:MP-saipan",
+   "name": "Saipan",
+   "aliases": [
+    "SPN",
+    "Sajpan",
+    "saipan",
+    "Сайпан",
+    "사이판"
+   ],
+   "lat": 15.21233,
+   "lon": 145.7545,
+   "population": 48220,
+   "geonameId": "7828758"
+  }
+ ]
+}

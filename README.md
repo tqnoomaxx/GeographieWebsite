@@ -41,6 +41,7 @@ Weitere Skripte:
 | `npm run data:landmarks` | Sehenswürdigkeiten und geprüfte, versionierte Fotomotive importieren |
 | `npm run data:landmark-facts` | Standortangaben und Kurzfakten für Sehenswürdigkeiten ergänzen |
 | `npm run data:wikidata` | Einwohnerzahlen, höchste Punkte (Wikidata) |
+| `npm run data:city-recall` | Länderweise Städtedaten über 15.000 Einwohner für das Sammelspiel (`-- --refresh` lädt neu) |
 | `npm run data:large-cities` | Alle GeoNames-Städte über 300.000 Einwohner ergänzen (ohne Stadtteile; `-- --refresh` lädt neu) |
 | `npm run data:plates` | Kfz-Kennzeichen DE/AT/CH (Wikidata P395) |
 | `npm run data:nature` | Flüsse, Seen, Berge (Wikidata, nach Bekanntheit) |
@@ -52,6 +53,8 @@ Weitere Skripte:
 ## Deployment
 
 `git push` auf `main` → GitHub Actions → Release-Prüfung, Validierung, Tests, Build → GitHub Pages. Für die Projektseite wird `VITE_BASE_URL=/<repo>/` gesetzt; für eine eigene Domain `VITE_BASE_URL=/` und eine `CNAME`-Datei in `public/`.
+
+Der Workflow baut einmal das Artefakt `release-build`. Die vollständigen Playwright-Projekte `mobile` und `desktop` prüfen diesen Build auf getrennten Runnern mit jeweils einem Browser-Worker. Browserinstallation und Tests haben getrennte Zeitbudgets; Testberichte und Traces liegen in `playwright-results-mobile` beziehungsweise `playwright-results-desktop`. Erst wenn beide Projekte erfolgreich sind, wird derselbe Build veröffentlicht. Neue Läufe brechen nur ältere Läufe desselben Branches beziehungsweise Pull Requests ab.
 
 Vor dem ersten öffentlichen Deployment müssen in den GitHub-Actions-Variablen mindestens `VITE_LEGAL_NAME`, `VITE_LEGAL_ADDRESS` und `VITE_CONTACT_EMAIL` gesetzt werden. Die vollständige Liste steht in `.env.example`. Fehlen Pflichtangaben, blockiert `npm run release:check` das Deployment absichtlich.
 
@@ -73,3 +76,9 @@ Alle Medien tragen Lizenz und Attribution in den Metadaten; der Build schlägt f
 - Geometrien: [Natural Earth](https://www.naturalearthdata.com/) (Public Domain), [geoBoundaries](https://www.geoboundaries.org/) (CC BY 4.0)
 
 Code: MIT (siehe `LICENSE`).
+
+### Städte auf der Karte sammeln
+
+Unter **Spielen → Städte → Städte auf der Karte sammeln** ein Land und eine beliebige ganze Einwohnergrenze ab 15.000 wählen (z. B. 50.000 oder 175.001). Es zählen erfasste Orte mit **mehr als** dieser Zahl. Passende Namen und Aliasse werden automatisch angenommen; nur gefundene Städte erscheinen als Punkte. Gleichnamige Orte werden gemeinsam markiert. Auflösen zeigt die fehlenden Städte und beendet die Eingabe. Die Runde wird mit Grenzwert, Treffern und Ortsdaten zum Fortsetzen gespeichert.
+
+Die bearbeiteten [GeoNames-cities15000-Daten](https://download.geonames.org/export/dump/readme.txt) stehen unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Stadtteile, historische und aufgegebene Orte sind ausgeschlossen. Einwohnerzahlen folgen den unterschiedlichen Erhebungsständen und Ortsabgrenzungen der Quelle. `public/data/city-recall/index.json` enthält Quelle, Datenuntergrenze und Datum des heruntergeladenen Auszugs; die Länderdateien werden einzeln bei Spielstart geladen. Andere Quizze verwenden weiterhin den bisherigen Städtebestand. Der Datenvalidator prüft die Ortsdaten und bezieht sie in die Cache-Version ein.

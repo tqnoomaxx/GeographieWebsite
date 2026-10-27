@@ -18,13 +18,14 @@ function midpoint(a: Point, b: Point): Point {
 }
 
 /** Gemeinsame Kartenfläche mit Mausrad-, Button-, Drag- und Pinch-Zoom. */
-function MapViewport({ viewBox, width, height, interactive, transparent = false, label, children }: {
+export function MapViewport({ viewBox, width, height, interactive, transparent = false, label, children, hint }: {
   viewBox: string
   width: number
   height: number
   interactive: boolean
   transparent?: boolean
   label: string
+  hint?: string
   children: (gestureMoved: () => boolean) => ReactNode
 }) {
   const svgRef = useRef<SVGSVGElement>(null)
@@ -143,7 +144,7 @@ function MapViewport({ viewBox, width, height, interactive, transparent = false,
             <button type="button" aria-label="Herauszoomen" disabled={view.zoom <= 1} onClick={() => applyView(view.zoom / 1.5, view.x, view.y)}><Minus aria-hidden /></button>
             <button type="button" aria-label="Karte zurücksetzen" disabled={view.zoom === 1 && view.x === 0 && view.y === 0} onClick={reset}><RotateCcw aria-hidden /></button>
           </div>
-          <p id={hintId} className="map-gesture-hint">Scrollen oder +/− zum Zoomen · ziehen zum Verschieben · Gebiet antippen</p>
+          <p id={hintId} className="map-gesture-hint">{hint ?? 'Scrollen oder +/− zum Zoomen · ziehen zum Verschieben · Gebiet antippen'}</p>
         </>
       )}
     </div>

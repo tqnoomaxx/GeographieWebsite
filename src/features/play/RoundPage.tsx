@@ -39,6 +39,15 @@ import {
 import { FlagImage } from './FlagImage'
 import { Photo } from '@/ui/Photo'
 import { ProfileQuestion } from './ProfileQuestion'
+import { exerciseFor } from '@/config/quizCatalog'
+import {
+  acceptCityRecall,
+  finishCityRecall,
+  recallCitiesFromSession,
+  withRecallCities,
+} from '@/engine/cityRecall'
+import { useCityRecallData } from './useCityRecallData'
+import { CityRecallGame } from './CityRecallGame'
 
 export default function RoundPage() {
   const location = useLocation()
@@ -79,11 +88,23 @@ function RoundSessionPage() {
     if (!sessionId && !category) setError(new Error(t('play.no_questions')))
   }, [sessionId, category, t])
   const resources = useDataResources(setup ? resourcesForQuiz(setup.category, setup) : [])
+  const isCityRecall = exerciseFor(setup?.exercise)?.kind === 'city-recall'
+  const recall = useCityRecallData(isCityRecall && !stored ? setup?.scope : undefined)
   const label = useRoundLabel()
   useDocumentTitle(setup ? label(setup).title : undefined)
 
   useEffect(() => {
-    if (resources.loading || resources.error || !geo.ready || startedRef.current || !setup) return
+    if (
+      resources.loading ||
+      resources.error ||
+      recall.loading ||
+      recall.error ||
+      !geo.ready ||
+      startedRef.current ||
+      !setup
+    )
+      return
+    if (isCityRecall && !stored && !recall.data) return
     if (!sessionId && params.has('quiz') && !setup.exercise) {
       setError(new Error('Diese Übung wurde nicht gefunden. Wähle sie bitte erneut aus.'))
       return
@@ -98,7 +119,11 @@ function RoundSessionPage() {
           return
         }
         const progress = await repo.getAllEntityProgress()
-        let s = buildSession(geo.contextFor(setup.scope), setup, { progress })
+        let s = buildSession(
+          withRecallCities(geo.contextFor(setup.scope), isCityRecall ? recall.data : undefined),
+          setup,
+          { progress },
+        )
         if (!s.questions.length && category && !setup.only?.length && !setup.exercise) {
           const fallback = defaultRound(category)
           s = buildSession(geo.contextFor(fallback.scope), fallback, { progress })
@@ -114,11 +139,26 @@ function RoundSessionPage() {
       }
     })()
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [resources.loading, resources.error, geo.ready, stored, category])
+  }, [
+    resources.loading,
+    resources.error,
+    recall.loading,
+    recall.error,
+    recall.data,
+    geo.ready,
+    stored,
+    category,
+  ])
 
   // Kontext nach Nachladen aktualisieren (für das Nachladen weiterer Fragen bei „Alle“)
   const ctx = useMemo(
-    () => (session && geo.ready ? geo.contextFor(session.scope) : null),
+    () =>
+      session && geo.ready
+        ? withRecallCities(
+            geo.contextFor(session.scope),
+            isCityRecall ? recallCitiesFromSession(session) : undefined,
+          )
+        : null,
     [session?.scope, geo.ready, geo.regionsLoaded, geo.platesLoaded, geo, session],
   )
 
@@ -137,7 +177,7 @@ function RoundSessionPage() {
           completedAt: new Date().toISOString(),
         }
         await repo.saveSession(done)
-        const out = await applySession(repo, done, geo.byId)
+        const out = await applySession(repo, done, ctx?.byId ?? geo.byId)
         done.xpEarned = out.xp
         await repo.saveSession(done)
         await recomputeLongQuests(repo, geo.byId)
@@ -150,7 +190,7 @@ function RoundSessionPage() {
         setFinishing(false)
       }
     },
-    [repo, geo.byId],
+    [repo, geo.byId, ctx],
   )
 
   const answer = useCallback(
@@ -182,6 +222,29 @@ function RoundSessionPage() {
     await persist(next)
   }, [session, persist])
 
+  const guessCity = useCallback(
+    async (value: string) => {
+      if (!session) return
+      const next = acceptCityRecall(session, value)
+      if (next === session) return
+      setSession(next)
+      await persist(next).catch((cause) =>
+        setError(
+          cause instanceof Error ? cause : new Error('Zwischenstand konnte nicht gespeichert werden.'),
+        ),
+      )
+    },
+    [session, persist],
+  )
+  const revealCities = useCallback(async () => {
+    if (!session) return
+    const next = { ...session, cityRecallRevealed: true }
+    setSession(next)
+    await persist(next).catch((cause) =>
+      setError(cause instanceof Error ? cause : new Error('Zwischenstand konnte nicht gespeichert werden.')),
+    )
+  }, [session, persist])
+
   const advance = useCallback(async () => {
     if (!session || !ctx) return
     const next = advanceSession(session, ctx)
@@ -201,6 +264,8 @@ function RoundSessionPage() {
   }, [session, repo, navigate, finish])
 
   if (resources.error) return <ErrorState onRetry={resources.retry} />
+  if (recall.error)
+    return <ErrorState message="Städte konnten nicht geladen werden." onRetry={recall.reload} />
   if (error)
     return (
       <div className="mx-auto max-w-md p-4">
@@ -212,11 +277,11 @@ function RoundSessionPage() {
     )
   if (finishing) return <LoadingState message="Lernstand wird gespeichert …" />
   if (!session) return <LoadingState message="Runde wird geladen …" />
-  if (session.completedAt) return <ResultView session={session} outcome={outcome} />
+  if (session.completedAt && !isCityRecall) return <ResultView session={session} outcome={outcome} />
 
   const current = session.questions[session.position]
   const total = baseQuestionTotal(session)
-  const position = baseQuestionPosition(session)
+  const position = isCityRecall ? session.score : baseQuestionPosition(session)
   const repeats = pendingRepeatCount(session)
   return (
     <div className="atlas-surface quiz-runtime min-h-dvh" data-category={session.category}>
@@ -250,7 +315,16 @@ function RoundSessionPage() {
         </div>
       </header>
       <main className="relative z-10 mx-auto flex w-full max-w-[1440px] flex-col px-4 py-7 sm:px-8 md:py-10 lg:px-12">
-        {current.question.question_type === 'profile_input' ? (
+        {isCityRecall ? (
+          <CityRecallGame
+            key={session.id}
+            session={session}
+            country={geo.byId.get(session.scope)}
+            onGuess={guessCity}
+            onReveal={revealCities}
+            onFinish={() => finish(finishCityRecall(session))}
+          />
+        ) : current.question.question_type === 'profile_input' ? (
           <ProfileQuestion
             key={current.question.id}
             item={current}

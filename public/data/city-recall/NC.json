@@ -1,0 +1,61 @@
+{
+ "country": "country:NC",
+ "cities": [
+  {
+   "id": "city:NC-noumea",
+   "name": "Nouméa",
+   "aliases": [
+    "Noumea",
+    "NOU",
+    "Nomea",
+    "Numea",
+    "Numeja",
+    "Numeo",
+    "Numėja",
+    "Port de France",
+    "nu me xa",
+    "nu mei a",
+    "nume'a",
+    "numea",
+    "numiya",
+    "nwmya",
+    "Νουμεά",
+    "Нумеа",
+    "נומאה",
+    "نومئا",
+    "نوميا",
+    "नूमेआ",
+    "நூமியா",
+    "นูเมอา",
+    "ნუმეა",
+    "ヌメア",
+    "努美阿",
+    "누메아"
+   ],
+   "lat": -22.27407,
+   "lon": 166.44884,
+   "population": 93060,
+   "geonameId": "2139521"
+  },
+  {
+   "id": "city:geonames-2140066",
+   "name": "Mont-Dore",
+   "aliases": [],
+   "lat": -22.26257,
+   "lon": 166.56621,
+   "population": 24680,
+   "geonameId": "2140066"
+  },
+  {
+   "id": "city:geonames-2141394",
+   "name": "Dumbéa",
+   "aliases": [
+    "Dumbea"
+   ],
+   "lat": -22.15757,
+   "lon": 166.4572,
+   "population": 19346,
+   "geonameId": "2141394"
+  }
+ ]
+}

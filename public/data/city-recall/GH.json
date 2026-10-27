@@ -1,0 +1,1429 @@
+{
+ "country": "country:GH",
+ "cities": [
+  {
+   "id": "city:GH-kumasi",
+   "name": "Kumasi",
+   "aliases": [
+    "Coomassie",
+    "KMS",
+    "Kumase",
+    "Kumasi shaary",
+    "Kumasis",
+    "Kumaso",
+    "Kumassi",
+    "Kumasy",
+    "ku ma xi",
+    "kumashi",
+    "kumasi",
+    "kwmasy",
+    "Кумаси",
+    "Кумаси шаары",
+    "Кумасі",
+    "Կումասի",
+    "كوماسي",
+    "کوماسی",
+    "ਕੁਮਾਸੀ",
+    "クマシ",
+    "库马西",
+    "쿠마시"
+   ],
+   "lat": 6.68848,
+   "lon": -1.62443,
+   "population": 2544530,
+   "geonameId": "2298890"
+  },
+  {
+   "id": "city:GH-accra",
+   "name": "Accra",
+   "aliases": [
+    "ACC",
+    "Aakra",
+    "Aakrá",
+    "Acra",
+    "Akara",
+    "Akkr",
+    "Akkra",
+    "Akkrae",
+    "Akra",
+    "Akrao",
+    "Akʻra",
+    "Nkran",
+    "a ke la",
+    "akara",
+    "akeula",
+    "akra",
+    "akura",
+    "xak kra",
+    "yەkra",
+    "΄Aκκρα",
+    "Άκκρα",
+    "Аккрæ",
+    "Аккра",
+    "Акра",
+    "Աքրա",
+    "אקרא",
+    "אקרה",
+    "آکرا",
+    "أكرا",
+    "ئەکرا",
+    "اكرا",
+    "اکرا",
+    "عکرہ",
+    "अक्रा",
+    "आक्रा",
+    "আক্রা",
+    "ਅਕਰਾ",
+    "ଆକ୍ରା",
+    "அக்ரா",
+    "അക്ര",
+    "อักกรา",
+    "ཨ་ཁ་ར།",
+    "အက်ခရာမြို့",
+    "აკრა",
+    "አክራ",
+    "アクラ",
+    "阿克拉",
+    "아크라"
+   ],
+   "lat": 5.55602,
+   "lon": -0.1969,
+   "population": 1963264,
+   "geonameId": "2306104"
+  },
+  {
+   "id": "city:GH-tamale",
+   "name": "Tamale",
+   "aliases": [
+    "TML",
+    "Тамале"
+   ],
+   "lat": 9.40079,
+   "lon": -0.8393,
+   "population": 464316,
+   "geonameId": "2294877"
+  },
+  {
+   "id": "city:geonames-2294915",
+   "name": "Takoradi",
+   "aliases": [
+    "TKD",
+    "Takoradze",
+    "Такоради"
+   ],
+   "lat": 4.89816,
+   "lon": -1.76029,
+   "population": 389114,
+   "geonameId": "2294915"
+  },
+  {
+   "id": "city:geonames-11808941",
+   "name": "Sekondi",
+   "aliases": [
+    "Секонди"
+   ],
+   "lat": 4.93422,
+   "lon": -1.71454,
+   "population": 285506,
+   "geonameId": "11808941"
+  },
+  {
+   "id": "city:GH-cape-coast",
+   "name": "Cape Coast",
+   "aliases": [
+    "Cabo Corso",
+    "Cape Coast Castle",
+    "Igua Ogwa",
+    "Keip Kostas",
+    "Kejp-Kost",
+    "Ogwa",
+    "hai an jiao",
+    "keipeukoseuteu",
+    "kyp kwst",
+    "Кейп-Кост",
+    "کیپ کوست",
+    "کیپ کوسٹ",
+    "ケープ・コースト",
+    "海岸角",
+    "케이프코스트"
+   ],
+   "lat": 5.10535,
+   "lon": -1.2466,
+   "population": 212426,
+   "geonameId": "2302357"
+  },
+  {
+   "id": "city:geonames-2306079",
+   "name": "Atsiaman",
+   "aliases": [
+    "Achiaman",
+    "Ashaiman",
+    "Ачиаман"
+   ],
+   "lat": 5.69775,
+   "lon": -0.32824,
+   "population": 202932,
+   "geonameId": "2306079"
+  },
+  {
+   "id": "city:geonames-2304121",
+   "name": "Ashaiman",
+   "aliases": [
+    "Asaimana",
+    "Asaimanas",
+    "Aschaiman",
+    "Ashiaman",
+    "Ašaimana",
+    "Ašaimanas",
+    "ao ba xi",
+    "ashaman",
+    "ashyaman",
+    "asi'amana",
+    "asiaman",
+    "asimana",
+    "asiyaman",
+    "asyamena",
+    "Ασχαϊμάν",
+    "Ашаиман",
+    "Ашаіман",
+    "آشيامان",
+    "اشیامان",
+    "अशिमान",
+    "अश्यमेन",
+    "অ্যাশিয়ামান",
+    "અશિઅમન",
+    "அஷியாமண்",
+    "ఆశియామాన్",
+    "ಆಶಿಯಾಮನ್",
+    "අසහියාමන්",
+    "เซียแมน",
+    "アシャマン",
+    "奥巴西",
+    "아시아만"
+   ],
+   "lat": 5.69951,
+   "lon": -0.03484,
+   "population": 190972,
+   "geonameId": "2304121"
+  },
+  {
+   "id": "city:GH-obuasi",
+   "name": "Obuasi",
+   "aliases": [
+    "Obuase",
+    "Oboase",
+    "Obuasis",
+    "Obuassi",
+    "Обуаси"
+   ],
+   "lat": 6.20228,
+   "lon": -1.66796,
+   "population": 179604,
+   "geonameId": "2296606"
+  },
+  {
+   "id": "city:GH-tema",
+   "name": "Tema",
+   "aliases": [
+    "Tehma",
+    "Temma",
+    "Toma",
+    "te ma",
+    "tema",
+    "the ma",
+    "tma",
+    "tmh",
+    "tyma",
+    "Τέμα",
+    "Тема",
+    "Тэма",
+    "Տեմա",
+    "טמה",
+    "تما",
+    "تيما",
+    "تیما",
+    "टेमा",
+    "तेमा",
+    "টেমা",
+    "તેમા",
+    "தேமா",
+    "టేమా",
+    "ಟೇಮಾ",
+    "ටෙමා",
+    "เทมะ",
+    "テマ",
+    "特馬",
+    "特马",
+    "테마"
+   ],
+   "lat": 5.6698,
+   "lon": -0.01657,
+   "population": 155782,
+   "geonameId": "2294700"
+  },
+  {
+   "id": "city:geonames-2299522",
+   "name": "Koforidua",
+   "aliases": [
+    "ke fu li du ya",
+    "kopolidua",
+    "kwfwrydwa",
+    "kwfwrydwya",
+    "Кофоридуа",
+    "کوفوریدوئا",
+    "کوفوریدوا",
+    "科福里杜亞",
+    "코포리두아"
+   ],
+   "lat": 6.09408,
+   "lon": -0.25913,
+   "population": 151255,
+   "geonameId": "2299522"
+  },
+  {
+   "id": "city:GH-sekondi-takoradi",
+   "name": "Sekondi-Takoradi",
+   "aliases": [
+    "Sekandy-Takarady",
+    "Sekondi",
+    "Sekondi Takoradi",
+    "Sekondis-Takoradis",
+    "Sékondi",
+    "se kan di-ta ko ra di",
+    "sekonditakoladi",
+    "skwndy-takwrady",
+    "sqwndy-tqwrdy",
+    "sykwndy takwrady",
+    "Секанды-Такарады",
+    "Секонди",
+    "Секонди Такоради",
+    "Секонди-Такоради",
+    "Секонді-Такораді",
+    "סקונדי-טקורדי",
+    "سيكوندي تاكورادي",
+    "سکوندی-تاکورادی",
+    "سیکونڈی-ٹاکوراڈی",
+    "เซกันดี-ตาโกราดี",
+    "セコンディ・タコラディ",
+    "塞康第─塔科拉迪",
+    "세콘디타코라디"
+   ],
+   "lat": 4.92678,
+   "lon": -1.75773,
+   "population": 138872,
+   "geonameId": "2295458"
+  },
+  {
+   "id": "city:geonames-2300379",
+   "name": "Ho",
+   "aliases": [
+    "Hohoe",
+    "Kho",
+    "No",
+    "ho",
+    "hw. ghna",
+    "Но",
+    "Хо",
+    "هو٬ غنا",
+    "ہو، گھانا",
+    "ホ",
+    "호"
+   ],
+   "lat": 6.60084,
+   "lon": 0.4713,
+   "population": 130701,
+   "geonameId": "2300379"
+  },
+  {
+   "id": "city:geonames-2304848",
+   "name": "Amanfrom",
+   "aliases": [
+    "Amanfro",
+    "Аманфром"
+   ],
+   "lat": 5.53532,
+   "lon": -0.39827,
+   "population": 119467,
+   "geonameId": "2304848"
+  },
+  {
+   "id": "city:geonames-2298330",
+   "name": "Medina Estates",
+   "aliases": [
+    "Madina",
+    "Медина Естатес"
+   ],
+   "lat": 5.6658,
+   "lon": -0.16307,
+   "population": 101207,
+   "geonameId": "2298330"
+  },
+  {
+   "id": "city:geonames-2294308",
+   "name": "Twifu Praso",
+   "aliases": [
+    "Tuifu Praso",
+    "Туифу Прасо"
+   ],
+   "lat": 5.61411,
+   "lon": -1.5502,
+   "population": 100851,
+   "geonameId": "2294308"
+  },
+  {
+   "id": "city:geonames-2300182",
+   "name": "Japekrom",
+   "aliases": [
+    "Gyapekurom"
+   ],
+   "lat": 7.5758,
+   "lon": -2.78516,
+   "population": 96000,
+   "geonameId": "2300182"
+  },
+  {
+   "id": "city:geonames-11205476",
+   "name": "Tema New Town",
+   "aliases": [],
+   "lat": 5.65396,
+   "lon": 0.0264,
+   "population": 95837,
+   "geonameId": "11205476"
+  },
+  {
+   "id": "city:geonames-2295021",
+   "name": "Sunyani",
+   "aliases": [
+    "NYI",
+    "Sun'jani",
+    "Sunjanis",
+    "su ni ya ni",
+    "suniani",
+    "Суньяні",
+    "蘇尼亞尼",
+    "수니아니"
+   ],
+   "lat": 7.33991,
+   "lon": -2.32676,
+   "population": 92825,
+   "geonameId": "2295021"
+  },
+  {
+   "id": "city:geonames-2300372",
+   "name": "Hohoe",
+   "aliases": [
+    "Chochoe",
+    "Chokhoe",
+    "Khokhoe"
+   ],
+   "lat": 7.15181,
+   "lon": 0.47362,
+   "population": 92076,
+   "geonameId": "2300372"
+  },
+  {
+   "id": "city:geonames-2300068",
+   "name": "Jirapa",
+   "aliases": [],
+   "lat": 10.53689,
+   "lon": -2.70155,
+   "population": 91279,
+   "geonameId": "2300068"
+  },
+  {
+   "id": "city:geonames-2296458",
+   "name": "Kasoa",
+   "aliases": [
+    "Oduponkpehe",
+    "kaswa",
+    "odouponkupehe",
+    "کاسوا",
+    "オドゥポンクペヘ"
+   ],
+   "lat": 5.53449,
+   "lon": -0.41679,
+   "population": 86753,
+   "geonameId": "2296458"
+  },
+  {
+   "id": "city:geonames-2300721",
+   "name": "Gbawe",
+   "aliases": [],
+   "lat": 5.57692,
+   "lon": -0.31038,
+   "population": 86718,
+   "geonameId": "2300721"
+  },
+  {
+   "id": "city:geonames-2294727",
+   "name": "Techiman",
+   "aliases": [
+    "Takyiman",
+    "Tekyiman",
+    "Tekyiman-Brong"
+   ],
+   "lat": 7.59054,
+   "lon": -1.93947,
+   "population": 84074,
+   "geonameId": "2294727"
+  },
+  {
+   "id": "city:geonames-2302821",
+   "name": "Bolgatanga",
+   "aliases": [
+    "Bolagatanga",
+    "Bolga",
+    "Bolgatange",
+    "bo er jia tan jia",
+    "bolgatang-ga",
+    "borugatanga",
+    "Болгатанга",
+    "Болгатанге",
+    "ボルガタンガ",
+    "博爾加坦加",
+    "볼가탕가"
+   ],
+   "lat": 10.78556,
+   "lon": -0.85139,
+   "population": 81958,
+   "geonameId": "2302821"
+  },
+  {
+   "id": "city:geonames-2294206",
+   "name": "Wa",
+   "aliases": [
+    "Va",
+    "WZA",
+    "wa",
+    "Ва",
+    "وا، گھانا",
+    "วา",
+    "와"
+   ],
+   "lat": 10.06069,
+   "lon": -2.50192,
+   "population": 78107,
+   "geonameId": "2294206"
+  },
+  {
+   "id": "city:geonames-12640505",
+   "name": "Mandela",
+   "aliases": [],
+   "lat": 5.55221,
+   "lon": -0.33912,
+   "population": 77371,
+   "geonameId": "12640505"
+  },
+  {
+   "id": "city:geonames-2303287",
+   "name": "Bawku",
+   "aliases": [],
+   "lat": 11.05926,
+   "lon": -0.24249,
+   "population": 76459,
+   "geonameId": "2303287"
+  },
+  {
+   "id": "city:geonames-2294034",
+   "name": "Winneba",
+   "aliases": [
+    "Simpa",
+    "Vinnebe",
+    "Winnebah",
+    "Виннебе"
+   ],
+   "lat": 5.35113,
+   "lon": -0.62313,
+   "population": 71288,
+   "geonameId": "2294034"
+  },
+  {
+   "id": "city:geonames-2301217",
+   "name": "Ejura",
+   "aliases": [],
+   "lat": 7.38558,
+   "lon": -1.35617,
+   "population": 70807,
+   "geonameId": "2301217"
+  },
+  {
+   "id": "city:geonames-2303125",
+   "name": "Berekum",
+   "aliases": [],
+   "lat": 7.4534,
+   "lon": -2.58404,
+   "population": 70536,
+   "geonameId": "2303125"
+  },
+  {
+   "id": "city:geonames-2305677",
+   "name": "Aflao",
+   "aliases": [
+    "Aflahu",
+    "Afloa",
+    "Dano",
+    "Porura"
+   ],
+   "lat": 6.11982,
+   "lon": 1.19012,
+   "population": 66546,
+   "geonameId": "2305677"
+  },
+  {
+   "id": "city:geonames-2293801",
+   "name": "Yendi",
+   "aliases": [
+    "Jendi"
+   ],
+   "lat": 9.44272,
+   "lon": -0.00991,
+   "population": 64676,
+   "geonameId": "2293801"
+  },
+  {
+   "id": "city:geonames-2302541",
+   "name": "Buduburam",
+   "aliases": [
+    "Bruburam"
+   ],
+   "lat": 5.52314,
+   "lon": -0.47718,
+   "population": 63217,
+   "geonameId": "2302541"
+  },
+  {
+   "id": "city:geonames-2296564",
+   "name": "Akim Oda",
+   "aliases": [
+    "Akyem Oda",
+    "Insuaim",
+    "Nsuaem",
+    "Oda",
+    "akym awda",
+    "Ода",
+    "اکیم اودا",
+    "アキム・オダ"
+   ],
+   "lat": 5.92665,
+   "lon": -0.98577,
+   "population": 60604,
+   "geonameId": "2296564"
+  },
+  {
+   "id": "city:geonames-2294962",
+   "name": "Swedru",
+   "aliases": [
+    "Agona",
+    "Agona Swedru",
+    "Jwewuhu",
+    "agonaseuwedeulu",
+    "agwna swydrw",
+    "aqwna swydrw",
+    "اقونا سویدرو",
+    "اگونا سویدرو",
+    "アゴナ・スウェドゥル",
+    "아고나스웨드루"
+   ],
+   "lat": 5.53711,
+   "lon": -0.69984,
+   "population": 54417,
+   "geonameId": "2294962"
+  },
+  {
+   "id": "city:geonames-2299625",
+   "name": "Kintampo",
+   "aliases": [],
+   "lat": 8.05627,
+   "lon": -1.73058,
+   "population": 53711,
+   "geonameId": "2299625"
+  },
+  {
+   "id": "city:geonames-2298264",
+   "name": "Mampong",
+   "aliases": [
+    "Mampon",
+    "Mampon Asante",
+    "mampwng",
+    "man pang",
+    "manpon",
+    "mmpwng",
+    "Мампонг",
+    "ממפונג",
+    "مامپونگ",
+    "マンポン",
+    "曼龐"
+   ],
+   "lat": 7.06273,
+   "lon": -1.4001,
+   "population": 51745,
+   "geonameId": "2298264"
+  },
+  {
+   "id": "city:geonames-7648641",
+   "name": "Adenta",
+   "aliases": [],
+   "lat": 5.71417,
+   "lon": -0.15418,
+   "population": 50652,
+   "geonameId": "7648641"
+  },
+  {
+   "id": "city:geonames-2295065",
+   "name": "Suhum",
+   "aliases": [
+    "Sukhum",
+    "sufumu",
+    "Сухум",
+    "سوہوم، گھانا",
+    "スフム"
+   ],
+   "lat": 6.04089,
+   "lon": -0.45004,
+   "population": 50610,
+   "geonameId": "2295065"
+  },
+  {
+   "id": "city:geonames-2294938",
+   "name": "Tafo",
+   "aliases": [
+    "Old Tafo"
+   ],
+   "lat": 6.73156,
+   "lon": -1.6137,
+   "population": 50457,
+   "geonameId": "2294938"
+  },
+  {
+   "id": "city:geonames-2294768",
+   "name": "Tarkwa",
+   "aliases": [
+    "Takwa",
+    "Tarkva",
+    "Tarquah",
+    "takuwa",
+    "tarkwa",
+    "Тарква",
+    "تارکوا",
+    "タークワ"
+   ],
+   "lat": 5.30383,
+   "lon": -1.98956,
+   "population": 49937,
+   "geonameId": "2294768"
+  },
+  {
+   "id": "city:geonames-11428216",
+   "name": "Lashibi",
+   "aliases": [],
+   "lat": 5.68476,
+   "lon": -0.04011,
+   "population": 49223,
+   "geonameId": "11428216"
+  },
+  {
+   "id": "city:geonames-2297141",
+   "name": "Nsawam",
+   "aliases": [
+    "en sa wa mu",
+    "nsawam",
+    "nsawamu",
+    "نساوام",
+    "ンサワム",
+    "恩薩瓦姆"
+   ],
+   "lat": 5.80893,
+   "lon": -0.35026,
+   "population": 48885,
+   "geonameId": "2297141"
+  },
+  {
+   "id": "city:geonames-2301639",
+   "name": "Dome",
+   "aliases": [
+    "Dam",
+    "Dom",
+    "Дом"
+   ],
+   "lat": 5.65003,
+   "lon": -0.2361,
+   "population": 48285,
+   "geonameId": "2301639"
+  },
+  {
+   "id": "city:geonames-12640506",
+   "name": "Nkawkaw",
+   "aliases": [],
+   "lat": 6.54584,
+   "lon": -0.76264,
+   "population": 47968,
+   "geonameId": "12640506"
+  },
+  {
+   "id": "city:geonames-2305537",
+   "name": "Agogo",
+   "aliases": [],
+   "lat": 6.80004,
+   "lon": -1.08193,
+   "population": 46089,
+   "geonameId": "2305537"
+  },
+  {
+   "id": "city:geonames-2304220",
+   "name": "Asamankese",
+   "aliases": [
+    "Asamankese Constituency",
+    "asamankese",
+    "Асаманкесе",
+    "اسامانکیسے",
+    "アサマンケセ"
+   ],
+   "lat": 5.86006,
+   "lon": -0.6635,
+   "population": 46061,
+   "geonameId": "2304220"
+  },
+  {
+   "id": "city:geonames-2294086",
+   "name": "Wankyi",
+   "aliases": [
+    "Wenchi",
+    "uenchi",
+    "wen qi",
+    "wynchy",
+    "وینچی",
+    "ウェンチ",
+    "溫奇"
+   ],
+   "lat": 7.73855,
+   "lon": -2.1036,
+   "population": 45877,
+   "geonameId": "2294086"
+  },
+  {
+   "id": "city:geonames-2299349",
+   "name": "Konongo",
+   "aliases": [
+    "Konongo-Odumase"
+   ],
+   "lat": 6.61667,
+   "lon": -1.21667,
+   "population": 43585,
+   "geonameId": "2299349"
+  },
+  {
+   "id": "city:geonames-2301400",
+   "name": "Dunkwa",
+   "aliases": [
+    "Dunkwa-on-Offin",
+    "ao fen he panDunkwa",
+    "dnkwa-an-awfn",
+    "دنکوا-آن-اوفن",
+    "ドゥンクワ・オン・オフィン",
+    "奥芬河畔Dunkwa"
+   ],
+   "lat": 5.95996,
+   "lon": -1.77792,
+   "population": 42737,
+   "geonameId": "2301400"
+  },
+  {
+   "id": "city:geonames-12640508",
+   "name": "Taifa",
+   "aliases": [],
+   "lat": 5.65825,
+   "lon": -0.25223,
+   "population": 42623,
+   "geonameId": "12640508"
+  },
+  {
+   "id": "city:geonames-2298205",
+   "name": "Mankesim",
+   "aliases": [
+    "Mankessim",
+    "manksym",
+    "mnqsym",
+    "מנקסים",
+    "مانكسيم"
+   ],
+   "lat": 5.2717,
+   "lon": -1.0152,
+   "population": 41541,
+   "geonameId": "2298205"
+  },
+  {
+   "id": "city:geonames-2295517",
+   "name": "Savelugu",
+   "aliases": [
+    "Saveluga",
+    "saberugu",
+    "saylwgw",
+    "Савелугу",
+    "سایلوگو",
+    "サベルグ"
+   ],
+   "lat": 9.62376,
+   "lon": -0.82705,
+   "population": 40654,
+   "geonameId": "2295517"
+  },
+  {
+   "id": "city:geonames-2301529",
+   "name": "Domaa-Ahenkro",
+   "aliases": [
+    "Ahinkrom",
+    "Dormaa-Ahenkro",
+    "Pamu"
+   ],
+   "lat": 7.27386,
+   "lon": -2.87348,
+   "population": 37354,
+   "geonameId": "2301529"
+  },
+  {
+   "id": "city:geonames-11467879",
+   "name": "Assin Foso",
+   "aliases": [],
+   "lat": 5.7,
+   "lon": -1.65,
+   "population": 37230,
+   "geonameId": "11467879"
+  },
+  {
+   "id": "city:geonames-2303060",
+   "name": "Bibiani",
+   "aliases": [
+    "Babianeha",
+    "Bebiani",
+    "Bebianiha"
+   ],
+   "lat": 6.45196,
+   "lon": -2.31635,
+   "population": 36487,
+   "geonameId": "2303060"
+  },
+  {
+   "id": "city:geonames-2298005",
+   "name": "Mim",
+   "aliases": [
+    "Mmem"
+   ],
+   "lat": 6.90412,
+   "lon": -2.56114,
+   "population": 36211,
+   "geonameId": "2298005"
+  },
+  {
+   "id": "city:geonames-2295840",
+   "name": "Prestea",
+   "aliases": [
+    "Esamang",
+    "brystyh",
+    "brystyt",
+    "prystya",
+    "puresuti",
+    "Престеа",
+    "بريستية",
+    "بريستيه",
+    "پریستیا",
+    "プレスティ"
+   ],
+   "lat": 5.43385,
+   "lon": -2.14295,
+   "population": 35611,
+   "geonameId": "2295840"
+  },
+  {
+   "id": "city:geonames-2303611",
+   "name": "Esim",
+   "aliases": [
+    "Axim"
+   ],
+   "lat": 4.86641,
+   "lon": -2.24181,
+   "population": 35487,
+   "geonameId": "2303611"
+  },
+  {
+   "id": "city:geonames-2297289",
+   "name": "Nkoranza",
+   "aliases": [
+    "Nkoransa"
+   ],
+   "lat": 7.57127,
+   "lon": -1.7087,
+   "population": 35401,
+   "geonameId": "2297289"
+  },
+  {
+   "id": "city:geonames-2301190",
+   "name": "Elmina",
+   "aliases": [
+    "Dena",
+    "Edina",
+    "Ehlmina",
+    "El'mina",
+    "Mina Sancti Georgii",
+    "Saint George Del Mina",
+    "Sao Jorge da Mina",
+    "São Jorge da Mina",
+    "ai er mi na",
+    "almyna",
+    "aylmyna",
+    "elmina",
+    "erumina",
+    "Елмина",
+    "Ельміна",
+    "Элмина",
+    "אלמינה",
+    "ألمينا",
+    "ایلمینا",
+    "エルミナ",
+    "埃尔米纳",
+    "엘미나"
+   ],
+   "lat": 5.0847,
+   "lon": -1.35093,
+   "population": 34403,
+   "geonameId": "2301190"
+  },
+  {
+   "id": "city:geonames-2303026",
+   "name": "Bimbila",
+   "aliases": [
+    "Bambilla",
+    "Bimbilla"
+   ],
+   "lat": 8.85488,
+   "lon": 0.05922,
+   "population": 34262,
+   "geonameId": "2303026"
+  },
+  {
+   "id": "city:geonames-2304548",
+   "name": "Anloga",
+   "aliases": [
+    "Awunaga",
+    "anlwga",
+    "anroga",
+    "Анлога",
+    "انلوگا",
+    "アンロガ"
+   ],
+   "lat": 5.79473,
+   "lon": 0.89728,
+   "population": 34050,
+   "geonameId": "2304548"
+  },
+  {
+   "id": "city:geonames-2304931",
+   "name": "Akwatia",
+   "aliases": [],
+   "lat": 6.04024,
+   "lon": -0.80876,
+   "population": 33784,
+   "geonameId": "2304931"
+  },
+  {
+   "id": "city:geonames-2295692",
+   "name": "Sakumona",
+   "aliases": [
+    "Sakumono Estates"
+   ],
+   "lat": 5.62135,
+   "lon": -0.05193,
+   "population": 32886,
+   "geonameId": "2295692"
+  },
+  {
+   "id": "city:geonames-2303878",
+   "name": "Atebubu",
+   "aliases": [
+    "Attebubu",
+    "a tai bu bu",
+    "atebubu",
+    "アテブブ",
+    "阿泰布布"
+   ],
+   "lat": 7.75537,
+   "lon": -0.98085,
+   "population": 32641,
+   "geonameId": "2303878"
+  },
+  {
+   "id": "city:geonames-8457205",
+   "name": "Awoshi",
+   "aliases": [
+    "Awoshie"
+   ],
+   "lat": 5.58385,
+   "lon": -0.27787,
+   "population": 32426,
+   "geonameId": "8457205"
+  },
+  {
+   "id": "city:geonames-2301245",
+   "name": "Ahwiaa",
+   "aliases": [
+    "Abwia",
+    "Ebwia",
+    "Ehwia",
+    "Ehwiaa"
+   ],
+   "lat": 6.76051,
+   "lon": -1.59402,
+   "population": 32163,
+   "geonameId": "2301245"
+  },
+  {
+   "id": "city:geonames-2303224",
+   "name": "Bekwai",
+   "aliases": [
+    "Bekawi",
+    "bekuwai",
+    "ベクワイ"
+   ],
+   "lat": 6.45195,
+   "lon": -1.57866,
+   "population": 32082,
+   "geonameId": "2303224"
+  },
+  {
+   "id": "city:geonames-2305191",
+   "name": "Akatsi",
+   "aliases": [
+    "Akachi"
+   ],
+   "lat": 6.1316,
+   "lon": 0.79853,
+   "population": 31981,
+   "geonameId": "2305191"
+  },
+  {
+   "id": "city:geonames-2301367",
+   "name": "Dzodze",
+   "aliases": [
+    "Djoje"
+   ],
+   "lat": 6.23669,
+   "lon": 0.99578,
+   "population": 30905,
+   "geonameId": "2301367"
+  },
+  {
+   "id": "city:geonames-2297126",
+   "name": "Nsoatre",
+   "aliases": [
+    "Nsuatre",
+    "Suatre",
+    "Нсоатре",
+    "נסואטרה"
+   ],
+   "lat": 7.40353,
+   "lon": -2.46635,
+   "population": 30862,
+   "geonameId": "2297126"
+  },
+  {
+   "id": "city:geonames-7281088",
+   "name": "Effiduase",
+   "aliases": [],
+   "lat": 6.84684,
+   "lon": -1.39612,
+   "population": 30486,
+   "geonameId": "7281088"
+  },
+  {
+   "id": "city:geonames-2297432",
+   "name": "New Tafo",
+   "aliases": [],
+   "lat": 6.71897,
+   "lon": -1.61188,
+   "population": 30380,
+   "geonameId": "2297432"
+  },
+  {
+   "id": "city:geonames-2293805",
+   "name": "Yegyi",
+   "aliases": [
+    "Yeji",
+    "Yɛgyi",
+    "ieji",
+    "yjy",
+    "یجی",
+    "イェジ"
+   ],
+   "lat": 8.22542,
+   "lon": -0.64889,
+   "population": 30311,
+   "geonameId": "2293805"
+  },
+  {
+   "id": "city:geonames-2299945",
+   "name": "Kade",
+   "aliases": [],
+   "lat": 6.09392,
+   "lon": -0.83599,
+   "population": 30233,
+   "geonameId": "2299945"
+  },
+  {
+   "id": "city:geonames-2303789",
+   "name": "Atronie",
+   "aliases": [
+    "Antronie",
+    "Atroni"
+   ],
+   "lat": 7.15341,
+   "lon": -2.40496,
+   "population": 29748,
+   "geonameId": "2303789"
+  },
+  {
+   "id": "city:geonames-2304421",
+   "name": "Anyinam",
+   "aliases": [],
+   "lat": 6.38158,
+   "lon": -0.54932,
+   "population": 29748,
+   "geonameId": "2304421"
+  },
+  {
+   "id": "city:geonames-2303236",
+   "name": "Begoro",
+   "aliases": [],
+   "lat": 6.38706,
+   "lon": -0.37738,
+   "population": 29516,
+   "geonameId": "2303236"
+  },
+  {
+   "id": "city:geonames-2299233",
+   "name": "Kpandu",
+   "aliases": [
+    "Gabi",
+    "Kpando",
+    "Tsakpe",
+    "kbandw",
+    "kpandw",
+    "kupandou",
+    "Кпанду",
+    "קפאנדו",
+    "كباندو",
+    "کپاندو",
+    "クパンドゥ"
+   ],
+   "lat": 6.99536,
+   "lon": 0.29306,
+   "population": 28334,
+   "geonameId": "2299233"
+  },
+  {
+   "id": "city:geonames-2295684",
+   "name": "Salaga",
+   "aliases": [
+    "salaga",
+    "sallaga",
+    "saraga",
+    "Салага",
+    "سالاگا",
+    "サラガ",
+    "살라가"
+   ],
+   "lat": 8.55083,
+   "lon": -0.51875,
+   "population": 25472,
+   "geonameId": "2295684"
+  },
+  {
+   "id": "city:geonames-2297505",
+   "name": "Navrongo",
+   "aliases": [],
+   "lat": 10.89469,
+   "lon": -1.09083,
+   "population": 25470,
+   "geonameId": "2297505"
+  },
+  {
+   "id": "city:geonames-2295672",
+   "name": "Saltpond",
+   "aliases": [
+    "Achimfu",
+    "Soltpond",
+    "sorutopondo",
+    "Салтпонд",
+    "Солтпонд",
+    "سالٹ پونڈ",
+    "ソルトポンド"
+   ],
+   "lat": 5.20913,
+   "lon": -1.06058,
+   "population": 24689,
+   "geonameId": "2295672"
+  },
+  {
+   "id": "city:geonames-2301184",
+   "name": "Elubo",
+   "aliases": [],
+   "lat": 5.28515,
+   "lon": -2.76658,
+   "population": 23952,
+   "geonameId": "2301184"
+  },
+  {
+   "id": "city:geonames-2302002",
+   "name": "Damongo",
+   "aliases": [],
+   "lat": 9.08296,
+   "lon": -1.81884,
+   "population": 23544,
+   "geonameId": "2302002"
+  },
+  {
+   "id": "city:geonames-2301424",
+   "name": "Dambai",
+   "aliases": [
+    "Dambae",
+    "Dambaé",
+    "Danbae",
+    "Dangbae",
+    "Dumbai"
+   ],
+   "lat": 8.06616,
+   "lon": 0.17947,
+   "population": 22445,
+   "geonameId": "2301424"
+  },
+  {
+   "id": "city:geonames-2300749",
+   "name": "Goaso",
+   "aliases": [
+    "Gawso",
+    "Gooso"
+   ],
+   "lat": 6.80355,
+   "lon": -2.5172,
+   "population": 21798,
+   "geonameId": "2300749"
+  },
+  {
+   "id": "city:geonames-2295385",
+   "name": "Shama Junction",
+   "aliases": [
+    "Shama"
+   ],
+   "lat": 5.01806,
+   "lon": -1.66437,
+   "population": 20946,
+   "geonameId": "2295385"
+  },
+  {
+   "id": "city:geonames-2304389",
+   "name": "Apam",
+   "aliases": [
+    "Apaa",
+    "Appam",
+    "apam",
+    "apamu",
+    "Апам",
+    "اپام",
+    "アパム"
+   ],
+   "lat": 5.285,
+   "lon": -0.746,
+   "population": 20147,
+   "geonameId": "2304389"
+  },
+  {
+   "id": "city:geonames-2300883",
+   "name": "Foso",
+   "aliases": [],
+   "lat": 5.70119,
+   "lon": -1.28657,
+   "population": 20078,
+   "geonameId": "2300883"
+  },
+  {
+   "id": "city:geonames-13275281",
+   "name": "Ahwiaa",
+   "aliases": [],
+   "lat": 6.90306,
+   "lon": -1.65199,
+   "population": 19729,
+   "geonameId": "13275281"
+  },
+  {
+   "id": "city:geonames-2306119",
+   "name": "Aburi",
+   "aliases": [],
+   "lat": 5.84802,
+   "lon": -0.17449,
+   "population": 18399,
+   "geonameId": "2306119"
+  },
+  {
+   "id": "city:geonames-2299645",
+   "name": "Keta",
+   "aliases": [
+    "Kitta",
+    "Kwitta",
+    "Quittah",
+    "kai ta",
+    "keta",
+    "kta",
+    "Кета",
+    "Կետա",
+    "کتا",
+    "کیٹا",
+    "ケタ",
+    "凱塔",
+    "케타"
+   ],
+   "lat": 5.91793,
+   "lon": 0.98789,
+   "population": 18077,
+   "geonameId": "2299645"
+  },
+  {
+   "id": "city:geonames-2294676",
+   "name": "Tepa",
+   "aliases": [
+    "Tepi",
+    "Teppa"
+   ],
+   "lat": 7.00595,
+   "lon": -2.16586,
+   "population": 18046,
+   "geonameId": "2294676"
+  },
+  {
+   "id": "city:geonames-2297661",
+   "name": "Nalerigu",
+   "aliases": [],
+   "lat": 10.52726,
+   "lon": -0.36982,
+   "population": 17440,
+   "geonameId": "2297661"
+  },
+  {
+   "id": "city:geonames-2301464",
+   "name": "Duayaw-Nkwanta",
+   "aliases": [
+    "Nkwanta"
+   ],
+   "lat": 7.17487,
+   "lon": -2.09961,
+   "population": 17000,
+   "geonameId": "2301464"
+  },
+  {
+   "id": "city:geonames-2303258",
+   "name": "Bechem",
+   "aliases": [],
+   "lat": 7.09034,
+   "lon": -2.02498,
+   "population": 17000,
+   "geonameId": "2303258"
+  }
+ ]
+}

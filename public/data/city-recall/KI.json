@@ -1,0 +1,34 @@
+{
+ "country": "country:KI",
+ "cities": [
+  {
+   "id": "city:KI-south-tarawa",
+   "name": "South Tarawa",
+   "aliases": [
+    "Tarawa",
+    "Juzhnaja Tarava",
+    "Sued-Tarawa",
+    "Süd-Tarawa",
+    "TRW",
+    "Tarava",
+    "Tarawa Sud",
+    "Tarawa do Sul",
+    "Tarawa-Sud",
+    "Zuid-Tarawa",
+    "namtalawa",
+    "sauseutalawa",
+    "talawa",
+    "Тарава",
+    "Южная Тарава",
+    "דרום טאראווה",
+    "남타라와",
+    "사우스타라와",
+    "타라와"
+   ],
+   "lat": 1.3278,
+   "lon": 172.97696,
+   "population": 40311,
+   "geonameId": "2110257"
+  }
+ ]
+}

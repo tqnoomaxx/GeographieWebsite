@@ -1,0 +1,54 @@
+{
+ "country": "country:SB",
+ "cities": [
+  {
+   "id": "city:SB-honiara",
+   "name": "Honiara",
+   "aliases": [
+    "HIR",
+    "Honiaro",
+    "Khoniara",
+    "Oniara",
+    "ho ni xa ra",
+    "honiala",
+    "honiara",
+    "huo ni ya la",
+    "hwnyara",
+    "Ονιάρα",
+    "Хониара",
+    "Хоніара",
+    "הוניארה",
+    "هونيارا",
+    "هونیارا",
+    "โฮนีอารา",
+    "ሆኒያራ",
+    "ホニアラ",
+    "霍尼亚拉",
+    "霍尼亞拉",
+    "호니아라"
+   ],
+   "lat": -9.43333,
+   "lon": 159.95,
+   "population": 56298,
+   "geonameId": "2108502"
+  },
+  {
+   "id": "city:geonames-13527002",
+   "name": "Tandai",
+   "aliases": [],
+   "lat": -9.44666,
+   "lon": 159.94549,
+   "population": 24592,
+   "geonameId": "13527002"
+  },
+  {
+   "id": "city:geonames-13527001",
+   "name": "Malango",
+   "aliases": [],
+   "lat": -9.42497,
+   "lon": 160.05329,
+   "population": 15560,
+   "geonameId": "13527001"
+  }
+ ]
+}

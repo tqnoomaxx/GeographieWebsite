@@ -1,6 +1,8 @@
 import { describe, expect, it } from 'vitest'
 import { readFileSync, readdirSync } from 'node:fs'
 import { EXERCISES, exerciseFor, exerciseScopeAllowed } from '@/config/quizCatalog'
+import { withRecallCities } from './cityRecall'
+import type { RecallCountry } from '@/domain/cityRecall'
 import { resourcesForQuiz } from '@/app/dataRequirements'
 import { buildContext } from './context'
 import { acceptProfileInput, buildSession, checkAnswer, extendSession, poolFor } from './session'
@@ -46,11 +48,12 @@ describe('gemeinsamer Quizkatalog', () => {
         const subset = Object.fromEntries(
           Object.entries(data).map(([key, value]) => [key, resources.includes(key as never) ? value : []]),
         ) as typeof data
-        const context = buildContext({ ...subset, scope: config.scope })
+        const recall = q.kind === 'city-recall' ? read<RecallCountry>('city-recall/DE.json') : undefined
+        const context = withRecallCities(buildContext({ ...subset, scope: config.scope }), recall)
         const session = buildSession(context, config, { seed: 'catalog:' + q.id + form })
         expect(session.questions.length).toBeGreaterThan(0)
         expect([...poolFor(context, config).keys()].sort()).toEqual(
-          [...poolFor(ctx(config.scope), config).keys()].sort(),
+          [...poolFor(withRecallCities(ctx(config.scope), recall), config).keys()].sort(),
         )
         for (const item of session.questions) {
           if (q.topic === 'mixed') expect(item.question.category).not.toBe('mixed')

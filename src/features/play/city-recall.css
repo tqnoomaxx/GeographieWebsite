@@ -1,0 +1,348 @@
+.city-recall-game {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+  color: var(--ink);
+}
+.city-recall-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 30px;
+}
+.city-recall-eyebrow {
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 8px;
+}
+.city-recall-heading h1 {
+  font-size: clamp(30px, 5vw, 46px);
+  font-weight: 750;
+  letter-spacing: -0.04em;
+  line-height: 1.1;
+}
+.city-recall-heading h1 + p {
+  color: var(--ink-2);
+  line-height: 1.6;
+  margin-top: 10px;
+}
+.city-recall-count {
+  text-align: right;
+  flex-shrink: 0;
+}
+.city-recall-count strong {
+  display: block;
+  font-size: 36px;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.2;
+}
+.city-recall-count span {
+  font-size: 13px;
+  color: var(--ink-2);
+}
+.city-recall-form {
+  max-width: 650px;
+}
+.city-recall-form label {
+  display: block;
+  font-weight: 650;
+  margin-bottom: 9px;
+}
+.city-recall-input-row {
+  display: flex;
+  gap: 10px;
+}
+.city-recall-input-row input {
+  min-width: 0;
+  flex: 1;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 14px 16px;
+  font-size: 18px;
+  color: var(--ink);
+}
+.city-recall-game .city-recall-primary,
+.city-recall-game .city-recall-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 46px;
+  padding: 11px 18px;
+  border-radius: 11px;
+  font-weight: 650;
+  font-size: 14px;
+  line-height: 1.45;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+}
+.city-recall-game .city-recall-primary {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border: 1px solid var(--accent);
+}
+.city-recall-game .city-recall-secondary {
+  background: var(--card);
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+.city-recall-game button:hover,
+.city-recall-game a.city-recall-primary:hover {
+  filter: brightness(0.95);
+}
+.city-recall-form > p,
+.city-recall-status {
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--ink-2);
+  margin-top: 8px;
+}
+.city-recall-status {
+  min-height: 23px;
+  margin: 9px 0;
+  color: var(--accent);
+}
+.city-recall-map {
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  overflow: hidden;
+  background: var(--card);
+}
+.city-recall-map .map-canvas {
+  max-height: none;
+  border-radius: 0;
+}
+.recall-map-water {
+  fill: var(--card-2);
+}
+.recall-map-land {
+  fill: var(--card);
+  stroke: var(--line);
+  stroke-width: 1.3;
+  vector-effect: non-scaling-stroke;
+}
+.recall-map-pin {
+  cursor: pointer;
+  outline: none;
+}
+.recall-map-hit {
+  fill: transparent;
+  stroke: transparent;
+  stroke-width: 30px;
+  vector-effect: non-scaling-stroke;
+}
+.recall-map-found {
+  fill: var(--accent);
+  stroke: var(--card);
+  stroke-width: 2;
+  animation: recall-pin-in 0.3s ease-out;
+}
+.recall-map-missing {
+  fill: var(--ink-2);
+  stroke: var(--card);
+  stroke-width: 1.5;
+  opacity: 0.65;
+}
+.recall-map-pin:focus .recall-map-found,
+.recall-map-pin.is-selected .recall-map-found,
+.recall-map-pin:focus .recall-map-missing,
+.recall-map-pin.is-selected .recall-map-missing {
+  stroke: var(--ink);
+  stroke-width: 2.5;
+}
+.city-recall-map-caption {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  min-height: 63px;
+  font-size: 13px;
+  color: var(--ink-2);
+  padding: 10px 3px;
+}
+.city-recall-map-caption strong {
+  display: block;
+  font-size: 15px;
+  color: var(--ink);
+}
+.city-recall-map-caption p span {
+  display: block;
+  margin-top: 3px;
+}
+.city-recall-legend {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+}
+.city-recall-legend i {
+  width: 8px;
+  height: 8px;
+  background: var(--accent);
+  border-radius: 50%;
+}
+.city-recall-legend i.is-missing {
+  background: var(--ink-2);
+  margin-left: 6px;
+}
+.city-recall-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 15px 0 26px;
+}
+.city-recall-finish-note {
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--card);
+  font-size: 15px;
+  line-height: 1.6;
+}
+.city-recall-list {
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  padding: 18px 0;
+}
+.city-recall-list summary {
+  cursor: pointer;
+  font-weight: 650;
+}
+.city-recall-list > div {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 8px;
+  margin-top: 18px;
+  max-height: 330px;
+  overflow: auto;
+}
+.city-recall-list button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+.city-recall-list small {
+  font-size: 12px;
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+.city-recall-list .is-found {
+  color: var(--accent);
+}
+.city-recall-source {
+  font-size: 12px;
+  line-height: 1.7;
+  color: var(--ink-2);
+  margin-top: 25px;
+  max-width: 700px;
+}
+.city-recall-source a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.exercise-control input[type='number'] {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 13px 15px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--card);
+  color: var(--ink);
+  font-size: 17px;
+  font-weight: 400;
+}
+@keyframes recall-pin-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .recall-map-found {
+    animation: none;
+  }
+}
+@media (max-width: 599px) {
+  .city-recall-heading {
+    gap: 12px;
+    align-items: flex-start;
+    margin-bottom: 24px;
+  }
+  .city-recall-count strong {
+    font-size: 29px;
+  }
+  .city-recall-count span {
+    font-size: 11px;
+  }
+  .city-recall-heading h1 + p {
+    font-size: 14px;
+  }
+  .city-recall-input-row {
+    gap: 7px;
+  }
+  .city-recall-input-row input {
+    padding: 13px 11px;
+    font-size: 16px;
+  }
+  .city-recall-game .city-recall-primary {
+    padding: 10px 12px;
+  }
+  .city-recall-map-caption {
+    align-items: flex-start;
+    min-height: 78px;
+    font-size: 12px;
+  }
+  .city-recall-map-caption > p {
+    max-width: 65%;
+  }
+  .city-recall-legend {
+    font-size: 11px;
+    flex-wrap: wrap;
+  }
+  .city-recall-source {
+    margin-top: 20px;
+  }
+}
+.city-recall-map .map-controls {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  box-shadow: none;
+  overflow: hidden;
+}
+.city-recall-map .map-controls button,
+.city-recall-map .map-controls button:last-child,
+.city-recall-map .map-zoom-value {
+  border-color: var(--line);
+}
+.city-recall-map .map-controls button:hover:not(:disabled) {
+  background: var(--accent-soft);
+}
+.city-recall-map .map-zoom-value {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 11px;
+}
+.city-recall-map .map-gesture-hint {
+  border: 0;
+  border-radius: 6px;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 0;
+  color: var(--ink-2);
+  padding: 5px 8px;
+}

@@ -1,0 +1,2137 @@
+{
+ "country": "country:AO",
+ "cities": [
+  {
+   "id": "city:geonames-2240449",
+   "name": "Luanda",
+   "aliases": [
+    "LAD",
+    "Loanda",
+    "Louanda",
+    "Louanta",
+    "Luand",
+    "Luandae",
+    "Luando",
+    "Lwanda",
+    "Lúanda",
+    "Saint Paul de Loanda",
+    "Sao Paolo de Loanda",
+    "Sao Paulo da Assuncao de Luanda",
+    "Sao Paulo de Loanda",
+    "Sao Paulo de Luanda",
+    "St Paul de Loanda",
+    "São Paolo de Loanda",
+    "São Paulo da Assunção de Luanda",
+    "São Paulo de Loanda",
+    "São Paulo de Luanda",
+    "lu an da",
+    "lu'anda",
+    "luanda",
+    "luo an da",
+    "luvanta",
+    "luxanda",
+    "luyanda",
+    "lwanda",
+    "ruanda",
+    "Λουάντα",
+    "Луандæ",
+    "Луанда",
+    "Լուանդա",
+    "לואנדה",
+    "לואנדע",
+    "لوآندا",
+    "لواندا",
+    "لونڈا",
+    "लुआंडा",
+    "लुआण्डा",
+    "লুয়ান্ডা",
+    "ਲੁਆਂਦਾ",
+    "லுவாண்டா",
+    "ลูอันดา",
+    "ལའུན་ཌ།",
+    "ლუანდა",
+    "ሏንዳ",
+    "ルアンダ",
+    "盧安達",
+    "罗安达",
+    "루안다"
+   ],
+   "lat": -8.83682,
+   "lon": 13.23432,
+   "population": 2776168,
+   "geonameId": "2240449"
+  },
+  {
+   "id": "city:geonames-8307074",
+   "name": "Mulenvos",
+   "aliases": [
+    "Муленвос"
+   ],
+   "lat": -8.86695,
+   "lon": 13.3344,
+   "population": 882014,
+   "geonameId": "8307074"
+  },
+  {
+   "id": "city:AO-viana",
+   "name": "Viana",
+   "aliases": [
+    "Виана"
+   ],
+   "lat": -8.90553,
+   "lon": 13.37499,
+   "population": 865863,
+   "geonameId": "2236500"
+  },
+  {
+   "id": "city:geonames-7758790",
+   "name": "Kikolo",
+   "aliases": [
+    "Quicolo",
+    "Киколо"
+   ],
+   "lat": -8.7815,
+   "lon": 13.33384,
+   "population": 728205,
+   "geonameId": "7758790"
+  },
+  {
+   "id": "city:AO-luanda",
+   "name": "Luanda",
+   "aliases": [
+    "Maianga",
+    "maianga",
+    "Маианга",
+    "マイアンガ"
+   ],
+   "lat": -8.84693,
+   "lon": 13.23698,
+   "population": 727681,
+   "geonameId": "2239888"
+  },
+  {
+   "id": "city:geonames-2591957",
+   "name": "Camama",
+   "aliases": [
+    "Kamama",
+    "Камама"
+   ],
+   "lat": -8.93611,
+   "lon": 13.26518,
+   "population": 667094,
+   "geonameId": "2591957"
+  },
+  {
+   "id": "city:AO-quilamba-quiaxi",
+   "name": "Quilamba Quiaxi",
+   "aliases": [
+    "Golfe",
+    "Голфе"
+   ],
+   "lat": -8.86639,
+   "lon": 13.26173,
+   "population": 655796,
+   "geonameId": "2591953"
+  },
+  {
+   "id": "city:geonames-2242906",
+   "name": "Calumbo",
+   "aliases": [
+    "Catumbo",
+    "Columbo",
+    "Kalumbo",
+    "Калумбо"
+   ],
+   "lat": -9.14692,
+   "lon": 13.41936,
+   "population": 652270,
+   "geonameId": "2242906"
+  },
+  {
+   "id": "city:geonames-13631351",
+   "name": "Hoji ya Henda",
+   "aliases": [
+    "Khoj Ja Khenda",
+    "Хой Я Хенда"
+   ],
+   "lat": -8.80523,
+   "lon": 13.2897,
+   "population": 642050,
+   "geonameId": "13631351"
+  },
+  {
+   "id": "city:AO-lubango",
+   "name": "Lubango",
+   "aliases": [
+    "Lubangas",
+    "SDD",
+    "Sa da Bandeira",
+    "Sá da Bandeira",
+    "lu ban ge",
+    "lubang-gu",
+    "lubango",
+    "lubanigo",
+    "lwbanghw",
+    "lwbangw",
+    "lwbanګw",
+    "lwbngw  angwla",
+    "rubango",
+    "Лубанго",
+    "لوبانغو",
+    "لوبانګو",
+    "لوبانگو",
+    "لوبنگو، آنگولا",
+    "लुबांगो",
+    "লুবাঙ্গো",
+    "ਲੁਬਾਂਗੋ",
+    "ሉባንጎ",
+    "ルバンゴ",
+    "盧班戈",
+    "루방구"
+   ],
+   "lat": -14.91717,
+   "lon": 13.4925,
+   "population": 600751,
+   "geonameId": "3347762"
+  },
+  {
+   "id": "city:AO-huambo",
+   "name": "Huambo",
+   "aliases": [
+    "Huambas",
+    "Huamdo",
+    "Khuambo",
+    "NOV",
+    "Nova Lisboa",
+    "Uambo",
+    "hu'ambo",
+    "huyambo",
+    "hwambw",
+    "hwambw  angwla",
+    "uambu",
+    "uanbo",
+    "wambu",
+    "wan bo",
+    "Вилояти Ҳвамбо",
+    "Уамбо",
+    "Хуамбо",
+    "הואמבו",
+    "هوامبو",
+    "هوامبو، آنگولا",
+    "ہوامبو",
+    "हुआम्बो",
+    "হুয়াম্বো",
+    "ਹੁਆਂਬੋ",
+    "วัมบู",
+    "ሁwaምbo",
+    "ሁዋምቦ",
+    "ウアンボ",
+    "万博",
+    "우암부"
+   ],
+   "lat": -12.77611,
+   "lon": 15.73917,
+   "population": 595304,
+   "geonameId": "3348313"
+  },
+  {
+   "id": "city:AO-benguela",
+   "name": "Benguela",
+   "aliases": [
+    "BUG",
+    "Bengela",
+    "Benguella",
+    "Sao Felipe de Benguela",
+    "São Félipe de Benguela",
+    "ben ji la",
+    "bengera",
+    "bengu'ela",
+    "benguyela",
+    "benigela",
+    "bnghyla",
+    "bngwyla",
+    "bnګwyla",
+    "Бенгела",
+    "بنغيلا",
+    "بنګویلا",
+    "بنگوئلا",
+    "بنگویلا",
+    "बेंगुएला",
+    "বেঙ্গুয়েলা",
+    "ਬੇਂਗੁਏਲਾ",
+    "ቤንጌላ",
+    "ベンゲラ",
+    "本吉拉"
+   ],
+   "lat": -12.57674,
+   "lon": 13.40268,
+   "population": 555124,
+   "geonameId": "3351663"
+  },
+  {
+   "id": "city:AO-cabinda",
+   "name": "Cabinda",
+   "aliases": [
+    "CAB",
+    "Kabenda",
+    "Kabinda",
+    "kabida",
+    "kabinda",
+    "kabinida",
+    "kabnda",
+    "kabndہ",
+    "kabynda",
+    "Кабинда",
+    "كابيندا",
+    "کابندا",
+    "کابندہ",
+    "کابیندا",
+    "कबिंडा",
+    "কাবিন্ডা",
+    "ਕਾਬਿੰਡਾ",
+    "ካቢንዳ",
+    "カビンダ"
+   ],
+   "lat": -5.56198,
+   "lon": 12.19476,
+   "population": 550000,
+   "geonameId": "2243271"
+  },
+  {
+   "id": "city:geonames-2591976",
+   "name": "Talatona",
+   "aliases": [
+    "Талатона"
+   ],
+   "lat": -8.91783,
+   "lon": 13.18562,
+   "population": 500000,
+   "geonameId": "2591976"
+  },
+  {
+   "id": "city:geonames-11592397",
+   "name": "Nova Vida",
+   "aliases": [
+    "Нова Вида"
+   ],
+   "lat": -8.90552,
+   "lon": 13.22213,
+   "population": 464985,
+   "geonameId": "11592397"
+  },
+  {
+   "id": "city:AO-malanje",
+   "name": "Malanje",
+   "aliases": [
+    "MEG",
+    "Malandje",
+    "Malane",
+    "Malange",
+    "Malanzhe",
+    "malanije",
+    "malanje",
+    "malanjh",
+    "malanjy",
+    "malanjې",
+    "malanjے",
+    "maranje",
+    "Маланже",
+    "Малање",
+    "مالانجه",
+    "مالانجي",
+    "مالانجې",
+    "مالانجے",
+    "मालांजे",
+    "মালাঞ্জে",
+    "ਮਾਲਾਂਜੇ",
+    "ማላንጄ",
+    "マランジェ"
+   ],
+   "lat": -9.54015,
+   "lon": 16.34096,
+   "population": 455000,
+   "geonameId": "2239862"
+  },
+  {
+   "id": "city:geonames-13608165",
+   "name": "Kima Kieza",
+   "aliases": [
+    "Quima Quieza",
+    "Кима Киеза"
+   ],
+   "lat": -8.83411,
+   "lon": 13.29517,
+   "population": 428855,
+   "geonameId": "13608165"
+  },
+  {
+   "id": "city:AO-cazenga",
+   "name": "Cazenga",
+   "aliases": [
+    "Kazenga",
+    "kazenga",
+    "Казенга",
+    "カゼンガ"
+   ],
+   "lat": -8.83796,
+   "lon": 13.28399,
+   "population": 394170,
+   "geonameId": "2591949"
+  },
+  {
+   "id": "city:AO-lobito",
+   "name": "Lobito",
+   "aliases": [
+    "LLT",
+    "Labitu",
+    "Llobin",
+    "Llobín",
+    "Lobita",
+    "Lobitas",
+    "Lobitu",
+    "Lompito",
+    "Lubitu",
+    "labito",
+    "lbytw  angwla",
+    "lbytw  anqwla",
+    "lo bi to",
+    "lobito",
+    "lobitu",
+    "lopitu",
+    "luo bi tuo",
+    "lwbytw",
+    "robito",
+    "wbytw",
+    "Λομπίτο",
+    "Лабіту",
+    "Лобито",
+    "Лобиту",
+    "Лобіту",
+    "Լոբիտու",
+    "לוביטו",
+    "لبیتو، آنقولا",
+    "لبیتو، آنگولا",
+    "لوبیتو",
+    "وبيتو",
+    "लोबिटो",
+    "लोबितो",
+    "লবিতো",
+    "લોબિટો",
+    "லோபிடு",
+    "లోబితో",
+    "ಲೋಬಿಟೊ",
+    "ලොබිටෝ",
+    "โลบิโต",
+    "ლობიტუ",
+    "ロビト",
+    "洛比托",
+    "로비투"
+   ],
+   "lat": -12.3644,
+   "lon": 13.53601,
+   "population": 393079,
+   "geonameId": "3347939"
+  },
+  {
+   "id": "city:geonames-145531",
+   "name": "Saurimo",
+   "aliases": [
+    "Henrique de Carvalho",
+    "Saurimu",
+    "VHC",
+    "Vila Henrique de Carvalho",
+    "saurimo",
+    "sawrymw",
+    "saውrimo",
+    "swrmw",
+    "Сауримо",
+    "سأوريمو",
+    "سأوریمو",
+    "سورمو",
+    "सौरिमो",
+    "সৌরিমো",
+    "ਸੌਰਿਮੋ",
+    "ሳውሪሞ",
+    "サウリモ"
+   ],
+   "lat": -9.66078,
+   "lon": 20.39155,
+   "population": 393000,
+   "geonameId": "145531"
+  },
+  {
+   "id": "city:geonames-13546342",
+   "name": "Samba",
+   "aliases": [
+    "Szamba",
+    "sanba",
+    "Самба",
+    "サンバ"
+   ],
+   "lat": -8.88001,
+   "lon": 13.19617,
+   "population": 364986,
+   "geonameId": "13546342"
+  },
+  {
+   "id": "city:geonames-3348078",
+   "name": "Cuíto",
+   "aliases": [
+    "Cuito",
+    "Bie",
+    "Bihe",
+    "Bihé",
+    "Bié",
+    "Kuito",
+    "SVP",
+    "Silva Porto",
+    "Vila Salva Porto",
+    "ku'ito",
+    "kuito",
+    "kuyito",
+    "kwytw",
+    "kwyٹw",
+    "kwyټw",
+    "Куито",
+    "كويتو",
+    "کویتو",
+    "کویٹو",
+    "کویټو",
+    "कुइटो",
+    "কুইটো",
+    "ਕੁਈਟੋ",
+    "ኩይቶ",
+    "クイト"
+   ],
+   "lat": -12.38333,
+   "lon": 16.93333,
+   "population": 355423,
+   "geonameId": "3348078"
+  },
+  {
+   "id": "city:geonames-13631350",
+   "name": "Ramiros",
+   "aliases": [
+    "Рамирос"
+   ],
+   "lat": -9.06259,
+   "lon": 13.0456,
+   "population": 323576,
+   "geonameId": "13631350"
+  },
+  {
+   "id": "city:geonames-2236568",
+   "name": "Uíge",
+   "aliases": [
+    "Uige",
+    "Carmona",
+    "UGO",
+    "Uije",
+    "Uizhe",
+    "Vila Marchel Carmona",
+    "u'ige",
+    "uije",
+    "wayige",
+    "wyg",
+    "wygh",
+    "wyګ",
+    "yu'ija",
+    "Уиге",
+    "Уиже",
+    "ويغ",
+    "ویګ",
+    "ویگ",
+    "उइगे",
+    "উইগে",
+    "ਯੂਇਜ",
+    "ዋይጌ",
+    "ウイジェ"
+   ],
+   "lat": -7.60874,
+   "lon": 15.06131,
+   "population": 322531,
+   "geonameId": "2236568"
+  },
+  {
+   "id": "city:AO-luena",
+   "name": "Luena",
+   "aliases": [
+    "LUO",
+    "Luehna",
+    "Luene",
+    "Luso",
+    "Luzo",
+    "Vila Luso",
+    "Vila Luzo",
+    "Vila Luzu",
+    "Villa Luso",
+    "lu ai na",
+    "lu'ena",
+    "luena",
+    "luwena",
+    "luyena",
+    "lwna  angwla",
+    "lwyna",
+    "ruena",
+    "Луена",
+    "Луэна",
+    "לואנה",
+    "لوئنا، موشیکو صوبہ",
+    "لونا، آنگولا",
+    "لوينا",
+    "لوینا",
+    "लुएना",
+    "লুয়েনা",
+    "ਲੁਏਨਾ",
+    "ሉዌና",
+    "ルエナ",
+    "盧埃納",
+    "루에나"
+   ],
+   "lat": -11.78333,
+   "lon": 19.91667,
+   "population": 273675,
+   "geonameId": "3347719"
+  },
+  {
+   "id": "city:geonames-12170526",
+   "name": "Vila Flor",
+   "aliases": [
+    "Вила Флор"
+   ],
+   "lat": -8.98007,
+   "lon": 13.30781,
+   "population": 256066,
+   "geonameId": "12170526"
+  },
+  {
+   "id": "city:AO-mocamedes",
+   "name": "Moçâmedes",
+   "aliases": [
+    "Mossamedes",
+    "MSZ",
+    "Mocamedes",
+    "Mosamedes",
+    "Namibe",
+    "Namibė",
+    "mosamedesa",
+    "mosamedesi",
+    "mwsamdys",
+    "mwsamyds",
+    "na mi bei",
+    "namibe",
+    "namibeu",
+    "namybh  angwla",
+    "Мосамедес",
+    "Намибе",
+    "Намібе",
+    "موسامديس",
+    "موسامیدس",
+    "نامیبه، آنگولا",
+    "نامیبے",
+    "मोसामेदेस",
+    "মোসামেদেস",
+    "ਮੋਸਾਮੇਦੇਸ",
+    "ሞሳመደስ",
+    "ナミベ",
+    "納米貝",
+    "나미브"
+   ],
+   "lat": -15.19611,
+   "lon": 12.15222,
+   "population": 255000,
+   "geonameId": "3347019"
+  },
+  {
+   "id": "city:geonames-3347353",
+   "name": "Menongue",
+   "aliases": [
+    "Menonge",
+    "Menongve",
+    "Menongė",
+    "SPP",
+    "Serpa Pinto",
+    "Vila Serpa Pinto",
+    "mei nong gai",
+    "menong-geu",
+    "menongu",
+    "menongue",
+    "mnngw  angwla",
+    "mnwngh",
+    "mynwngw",
+    "mynwnjy",
+    "mynwnګ",
+    "Менонгве",
+    "Менонге",
+    "מנונגה",
+    "مننگو، آنگولا",
+    "مينونجي",
+    "مینونګ",
+    "مینونگو",
+    "मेनोंगु",
+    "মেনোঙ্গু",
+    "ਮੇਨੋਂਗੁ",
+    "ሜኖንጉዌ",
+    "メノングエ",
+    "梅農蓋",
+    "메농그"
+   ],
+   "lat": -14.6585,
+   "lon": 17.69099,
+   "population": 251178,
+   "geonameId": "3347353"
+  },
+  {
+   "id": "city:geonames-145778",
+   "name": "Chitato",
+   "aliases": [
+    "Chilalo",
+    "PGI",
+    "Читато"
+   ],
+   "lat": -7.3,
+   "lon": 20.73333,
+   "population": 246880,
+   "geonameId": "145778"
+  },
+  {
+   "id": "city:geonames-13607978",
+   "name": "Navegantes",
+   "aliases": [
+    "Administracao Municipal dos Navegantes",
+    "Administração Municipal dos Navegantes",
+    "Навегантес"
+   ],
+   "lat": -12.58997,
+   "lon": 13.39123,
+   "population": 240075,
+   "geonameId": "13607978"
+  },
+  {
+   "id": "city:geonames-10402606",
+   "name": "Kilamba",
+   "aliases": [
+    "Kilamba Kiaxi",
+    "Киламба"
+   ],
+   "lat": -8.84861,
+   "lon": 13.275,
+   "population": 237528,
+   "geonameId": "10402606"
+  },
+  {
+   "id": "city:geonames-2236967",
+   "name": "Soyo",
+   "aliases": [
+    "SZA",
+    "Saint Antonio do Zaire",
+    "San Antonio",
+    "Santo Antoni",
+    "Santo Antonio do Zaire",
+    "Santo António do Zaire",
+    "Santo-Antonio",
+    "Santo-António",
+    "Sao Antonio",
+    "Sazaire",
+    "Soio",
+    "Sojo",
+    "São Antônio",
+    "Сойо"
+   ],
+   "lat": -6.1349,
+   "lon": 12.36894,
+   "population": 221555,
+   "geonameId": "2236967"
+  },
+  {
+   "id": "city:AO-sumbe",
+   "name": "Sumbe",
+   "aliases": [
+    "Angungescapolo",
+    "NDD",
+    "Ngunza",
+    "Nova Redonda",
+    "Nova Redondo",
+    "Novo Redondo",
+    "Sumbė",
+    "sube",
+    "sumbe",
+    "sun bei",
+    "sunbe",
+    "suምbe",
+    "swmbh  angwla",
+    "swmby",
+    "swmbې",
+    "Сумбе",
+    "سومبه، آنگولا",
+    "سومبي",
+    "سومبې",
+    "سومبے",
+    "सुम्बे",
+    "সুম্বে",
+    "ਸੁੰਬੇ",
+    "ሱምቤ",
+    "スンベ",
+    "孫貝"
+   ],
+   "lat": -11.20605,
+   "lon": 13.84371,
+   "population": 205832,
+   "geonameId": "3346015"
+  },
+  {
+   "id": "city:geonames-11592398",
+   "name": "Zango",
+   "aliases": [
+    "Занго"
+   ],
+   "lat": -9.01212,
+   "lon": 13.38437,
+   "population": 198538,
+   "geonameId": "11592398"
+  },
+  {
+   "id": "city:geonames-2240937",
+   "name": "Benfica",
+   "aliases": [
+    "Bemfica",
+    "Benfika",
+    "Cabolombo",
+    "Gomes e Irmao",
+    "Gomes e Irmão",
+    "Бенфика"
+   ],
+   "lat": -8.94432,
+   "lon": 13.16431,
+   "population": 191828,
+   "geonameId": "2240937"
+  },
+  {
+   "id": "city:geonames-13546341",
+   "name": "Rangel",
+   "aliases": [
+    "rangeru",
+    "Рангел",
+    "ランゲル"
+   ],
+   "lat": -8.82644,
+   "lon": 13.26285,
+   "population": 190569,
+   "geonameId": "13546341"
+  },
+  {
+   "id": "city:geonames-13546343",
+   "name": "Sambizanga",
+   "aliases": [
+    "Sambizanha",
+    "sanbizanga",
+    "Самбизанга",
+    "Самбізанга",
+    "サンビザンガ"
+   ],
+   "lat": -8.78883,
+   "lon": 13.27506,
+   "population": 177808,
+   "geonameId": "13546343"
+  },
+  {
+   "id": "city:geonames-145757",
+   "name": "Dundo",
+   "aliases": [
+    "DUE",
+    "Dundu",
+    "doundo",
+    "dudo",
+    "dundo",
+    "dunido",
+    "dwndw",
+    "Дундо",
+    "Дунду",
+    "دوندو",
+    "ڈnڈw",
+    "ڈنڈو",
+    "डुंडो",
+    "ডুন্ডো",
+    "ਡੁੰਡੋ",
+    "ዱንዶ",
+    "ドゥンド"
+   ],
+   "lat": -7.36643,
+   "lon": 20.81557,
+   "population": 177604,
+   "geonameId": "145757"
+  },
+  {
+   "id": "city:geonames-3351599",
+   "name": "Bocoio",
+   "aliases": [
+    "Bokoio",
+    "Sousa Lara",
+    "Sousa de Lara",
+    "Vila Sousa Lara",
+    "Бокоио"
+   ],
+   "lat": -12.47017,
+   "lon": 14.13688,
+   "population": 164685,
+   "geonameId": "3351599"
+  },
+  {
+   "id": "city:geonames-2239076",
+   "name": "N'dalatando",
+   "aliases": [
+    "Dalatando",
+    "NDF",
+    "Ndalatanda",
+    "Ndalatando",
+    "N’dalatando",
+    "Salazar",
+    "Vila Salazar",
+    "Villa Salazar",
+    "aina'dalatando",
+    "ayndalatandw",
+    "ena'dalatando",
+    "enadalatando",
+    "ndalatandw",
+    "ndaratando",
+    "nidalatanido",
+    "Ндалатандо",
+    "ایندالاتاندو",
+    "ندالاتاندو",
+    "एन'दलातांदो",
+    "এনদালাতান্দো",
+    "ਐਨ'ਦਲਾਤਾਂਦੋ",
+    "ንዳላታንዶ",
+    "ンダラタンド"
+   ],
+   "lat": -9.29782,
+   "lon": 14.91162,
+   "population": 161584,
+   "geonameId": "2239076"
+  },
+  {
+   "id": "city:geonames-13631347",
+   "name": "Panguíla",
+   "aliases": [
+    "Panguila",
+    "Пангуила"
+   ],
+   "lat": -8.69335,
+   "lon": 13.44914,
+   "population": 158068,
+   "geonameId": "13631347"
+  },
+  {
+   "id": "city:geonames-2239520",
+   "name": "Mbanza Kongo",
+   "aliases": [
+    "M'banza Kongo",
+    "Mbanza Congo",
+    "Mbanza-Kongo",
+    "SSY",
+    "San Salvador",
+    "Sao Salvador",
+    "Sao Salvador do Congo",
+    "São Salvador",
+    "São Salvador do Congo",
+    "emabanaja kango",
+    "mabanza kango",
+    "mbanja kango",
+    "mbanza kangw",
+    "mbanza kwnghw",
+    "mbanza kwngw",
+    "mbanza kwnګw",
+    "mubanzakongo",
+    "Мбанза Конго",
+    "Мбанза-Конго",
+    "مبانزا كونغو",
+    "مبانزا کانگو",
+    "مبانزا کونګو",
+    "مبانزا کونگو",
+    "म्बांजा कांगो",
+    "এমবানজা কঙ্গো",
+    "ਮਬਾਂਜ਼ਾ ਕਾਂਗੋ",
+    "ምbaniza kwenigo",
+    "ምባንዛ ኮንጎ",
+    "ムバンザコンゴ"
+   ],
+   "lat": -6.26667,
+   "lon": 14.23833,
+   "population": 148000,
+   "geonameId": "2239520"
+  },
+  {
+   "id": "city:geonames-2243173",
+   "name": "Cacuaco",
+   "aliases": [
+    "Bengo",
+    "Kakuako",
+    "Какуако"
+   ],
+   "lat": -8.7798,
+   "lon": 13.37478,
+   "population": 146867,
+   "geonameId": "2243173"
+  },
+  {
+   "id": "city:geonames-10627325",
+   "name": "Ingombota",
+   "aliases": [
+    "ingonbota",
+    "Інгомбота",
+    "Ингомбота",
+    "インゴンボタ"
+   ],
+   "lat": -8.81806,
+   "lon": 13.22889,
+   "population": 144911,
+   "geonameId": "10627325"
+  },
+  {
+   "id": "city:geonames-3351500",
+   "name": "Caála",
+   "aliases": [
+    "Caala",
+    "Cahala",
+    "Kaala",
+    "Kaale",
+    "Robert Williams",
+    "Roberto Williams",
+    "Vila Robert Williams",
+    "Каале"
+   ],
+   "lat": -12.8525,
+   "lon": 15.56056,
+   "population": 130000,
+   "geonameId": "3351500"
+  },
+  {
+   "id": "city:geonames-3346821",
+   "name": "Ondjiva",
+   "aliases": [
+    "N'Giva",
+    "N'Jiva",
+    "N’Giva",
+    "N’Jiva",
+    "Ondyiva",
+    "Ondzhiva",
+    "Ondzhive",
+    "Ondziva",
+    "Ondživa",
+    "Ongiva",
+    "Onjiva",
+    "Pereira d'Eca",
+    "Pereira de Eca",
+    "Pereira d’Eca",
+    "VPE",
+    "Vila Pereira d'Eca",
+    "Vila Pereira de Eca",
+    "Vila Pereira de Eco",
+    "Vila Pereira de Eça",
+    "Vila Pereira d’Eça",
+    "andjywa",
+    "andzhywa  angwla",
+    "awndjyfa",
+    "ondajibha",
+    "ondajiva",
+    "onjiba",
+    "weng ji wa",
+    "ʿonijiva",
+    "Онджива",
+    "Ондживе",
+    "أوندجيفا",
+    "اندجیوا",
+    "اندژیوا، آنگولا",
+    "ओंडजीवा",
+    "ওন্ডজিভা",
+    "ਓਂਡਜੀਵਾ",
+    "ኦንጂቫ",
+    "オンジバ",
+    "翁吉瓦"
+   ],
+   "lat": -17.06667,
+   "lon": 15.73333,
+   "population": 121537,
+   "geonameId": "3346821"
+  },
+  {
+   "id": "city:geonames-3348094",
+   "name": "Catchiungo",
+   "aliases": [
+    "Bela Vista",
+    "Cachiungo",
+    "Katchiungo",
+    "Vila-Nova",
+    "Катчиунго"
+   ],
+   "lat": -12.56598,
+   "lon": 16.22589,
+   "population": 120677,
+   "geonameId": "3348094"
+  },
+  {
+   "id": "city:geonames-3348613",
+   "name": "Gabela",
+   "aliases": [
+    "Amboim",
+    "Cabela",
+    "Габела"
+   ],
+   "lat": -10.85147,
+   "lon": 14.37993,
+   "population": 116903,
+   "geonameId": "3348613"
+  },
+  {
+   "id": "city:geonames-145724",
+   "name": "Lucapa",
+   "aliases": [
+    "LBZ",
+    "Lukapa",
+    "Лукапа"
+   ],
+   "lat": -8.41915,
+   "lon": 20.74466,
+   "population": 110000,
+   "geonameId": "145724"
+  },
+  {
+   "id": "city:geonames-3351764",
+   "name": "Balombo",
+   "aliases": [
+    "Norton de Matos",
+    "Vila Norton de Matos",
+    "Баломбо"
+   ],
+   "lat": -12.35426,
+   "lon": 14.77232,
+   "population": 108965,
+   "geonameId": "3351764"
+  },
+  {
+   "id": "city:geonames-3351786",
+   "name": "Baía Farta",
+   "aliases": [
+    "Baia Farta",
+    "Bahia Farta",
+    "Farta",
+    "Баиа Фарта"
+   ],
+   "lat": -12.60417,
+   "lon": 13.19667,
+   "population": 107841,
+   "geonameId": "3351786"
+  },
+  {
+   "id": "city:geonames-3350246",
+   "name": "Catumbela",
+   "aliases": [
+    "Asseiceira",
+    "CBT",
+    "Catumbella",
+    "Katumbela",
+    "Катумбела"
+   ],
+   "lat": -12.43002,
+   "lon": 13.54677,
+   "population": 95034,
+   "geonameId": "3350246"
+  },
+  {
+   "id": "city:geonames-2239069",
+   "name": "Negage",
+   "aliases": [
+    "Dimuca",
+    "N'gage",
+    "N'gaje",
+    "N’gage",
+    "N’gáje",
+    "Негаге"
+   ],
+   "lat": -7.75938,
+   "lon": 15.2722,
+   "population": 92950,
+   "geonameId": "2239069"
+  },
+  {
+   "id": "city:geonames-3347853",
+   "name": "Longonjo",
+   "aliases": [
+    "Congonjo",
+    "Logonzhu",
+    "Логонжу"
+   ],
+   "lat": -12.90795,
+   "lon": 15.24845,
+   "population": 92103,
+   "geonameId": "3347853"
+  },
+  {
+   "id": "city:geonames-3346661",
+   "name": "Porto Amboim",
+   "aliases": [
+    "Amboim",
+    "Ambonim",
+    "Ambouim",
+    "Benguela Velha",
+    "Benguela-a-Velha",
+    "Benguella Velha",
+    "Old Benguela",
+    "PBN",
+    "Port Amboim",
+    "Porto Hmboim",
+    "Portu Amboim",
+    "Порту Амбоим"
+   ],
+   "lat": -10.73251,
+   "lon": 13.76844,
+   "population": 91605,
+   "geonameId": "3346661"
+  },
+  {
+   "id": "city:geonames-3349229",
+   "name": "Cubal",
+   "aliases": [
+    "Cubal da Ganda",
+    "Hanha",
+    "Kubal",
+    "Vila do Cubal",
+    "Кубал"
+   ],
+   "lat": -13.03865,
+   "lon": 14.2455,
+   "population": 90367,
+   "geonameId": "3349229"
+  },
+  {
+   "id": "city:geonames-3350123",
+   "name": "Cela",
+   "aliases": [
+    "CEO",
+    "Cela-Cungo",
+    "Kela",
+    "Кела"
+   ],
+   "lat": -11.42173,
+   "lon": 15.12345,
+   "population": 90000,
+   "geonameId": "3350123"
+  },
+  {
+   "id": "city:geonames-7768322",
+   "name": "Cafunfo",
+   "aliases": [
+    "CFF",
+    "Kafounfo",
+    "kafunfo",
+    "kafwnfw  angwla",
+    "Καφούνφο",
+    "کافونفو، آنگولا",
+    "カフンフォー"
+   ],
+   "lat": -8.7672,
+   "lon": 17.99572,
+   "population": 90000,
+   "geonameId": "7768322"
+  },
+  {
+   "id": "city:geonames-7860624",
+   "name": "Quissecula",
+   "aliases": [],
+   "lat": -11.39223,
+   "lon": 15.09201,
+   "population": 90000,
+   "geonameId": "7860624"
+  },
+  {
+   "id": "city:geonames-3348774",
+   "name": "Ecunna",
+   "aliases": [
+    "Ecunha",
+    "Ekunha",
+    "Vila Flor"
+   ],
+   "lat": -12.67889,
+   "lon": 15.50556,
+   "population": 82541,
+   "geonameId": "3348774"
+  },
+  {
+   "id": "city:geonames-3347424",
+   "name": "Matala",
+   "aliases": [
+    "Aldeia da Matala",
+    "Матала"
+   ],
+   "lat": -14.73272,
+   "lon": 15.03479,
+   "population": 78000,
+   "geonameId": "3347424"
+  },
+  {
+   "id": "city:geonames-2243677",
+   "name": "Barra do Dande",
+   "aliases": [
+    "Dande"
+   ],
+   "lat": -8.47175,
+   "lon": 13.37011,
+   "population": 75000,
+   "geonameId": "2243677"
+  },
+  {
+   "id": "city:geonames-2243866",
+   "name": "Bailundo",
+   "aliases": [
+    "Bajlundu",
+    "Vunda",
+    "Байлунду"
+   ],
+   "lat": -9.57499,
+   "lon": 15.99442,
+   "population": 70481,
+   "geonameId": "2243866"
+  },
+  {
+   "id": "city:geonames-3351307",
+   "name": "Cahama",
+   "aliases": [
+    "Kaama",
+    "Kahama",
+    "Каама"
+   ],
+   "lat": -16.28556,
+   "lon": 14.30962,
+   "population": 70061,
+   "geonameId": "3351307"
+  },
+  {
+   "id": "city:geonames-3347615",
+   "name": "Luquembo",
+   "aliases": [],
+   "lat": -10.73912,
+   "lon": 17.71766,
+   "population": 69420,
+   "geonameId": "3347615"
+  },
+  {
+   "id": "city:geonames-2591933",
+   "name": "Gama",
+   "aliases": [],
+   "lat": -8.5675,
+   "lon": 13.47639,
+   "population": 66202,
+   "geonameId": "2591933"
+  },
+  {
+   "id": "city:geonames-3350867",
+   "name": "Camucuio",
+   "aliases": [
+    "Camacuio"
+   ],
+   "lat": -14.11382,
+   "lon": 13.24061,
+   "population": 66112,
+   "geonameId": "3350867"
+  },
+  {
+   "id": "city:geonames-3348581",
+   "name": "Ganda",
+   "aliases": [
+    "Genda",
+    "Kakenda",
+    "Mariano Machado",
+    "Vila Mariano Machado",
+    "Ганда"
+   ],
+   "lat": -13.01592,
+   "lon": 14.63502,
+   "population": 65000,
+   "geonameId": "3348581"
+  },
+  {
+   "id": "city:geonames-2241371",
+   "name": "Dondo",
+   "aliases": [],
+   "lat": -9.68456,
+   "lon": 14.42788,
+   "population": 64643,
+   "geonameId": "2241371"
+  },
+  {
+   "id": "city:geonames-2241372",
+   "name": "Dondo",
+   "aliases": [],
+   "lat": -9.05,
+   "lon": 15.31667,
+   "population": 64643,
+   "geonameId": "2241372"
+  },
+  {
+   "id": "city:geonames-2236360",
+   "name": "Nzagi",
+   "aliases": [
+    "Zage"
+   ],
+   "lat": -8.38549,
+   "lon": 15.30126,
+   "population": 60000,
+   "geonameId": "2236360"
+  },
+  {
+   "id": "city:geonames-3351014",
+   "name": "Camacupa",
+   "aliases": [
+    "General Machado",
+    "General Machado Villa",
+    "General Mathado",
+    "Kamakupa",
+    "Machado",
+    "Vila General Machado",
+    "Камакупа"
+   ],
+   "lat": -12.01667,
+   "lon": 17.48333,
+   "population": 59000,
+   "geonameId": "3351014"
+  },
+  {
+   "id": "city:geonames-876177",
+   "name": "Luau",
+   "aliases": [
+    "Luao",
+    "Teixeira de Sousa",
+    "Teixera de Sousa",
+    "Texeira-de Susa",
+    "UAL",
+    "Vila Teixeira de Sousa",
+    "Vila Teixeira de Souza",
+    "Vila Teixera de Souza",
+    "Vila Texeira de Sousa",
+    "Луау"
+   ],
+   "lat": -10.70727,
+   "lon": 22.22466,
+   "population": 55432,
+   "geonameId": "876177"
+  },
+  {
+   "id": "city:geonames-2241668",
+   "name": "Cuango-Luzamba",
+   "aliases": [
+    "Cuango",
+    "LZM",
+    "Luzamba"
+   ],
+   "lat": -9.14583,
+   "lon": 18.04453,
+   "population": 55000,
+   "geonameId": "2241668"
+  },
+  {
+   "id": "city:geonames-2242001",
+   "name": "Caxito",
+   "aliases": [
+    "Kashito",
+    "Kaxito",
+    "kaikasito",
+    "kaiksito",
+    "kakisito",
+    "kaksytw",
+    "kaksyٹw",
+    "kashito",
+    "kashytw",
+    "kyaksito",
+    "Кашито",
+    "كاشيتو",
+    "کاکسیتو",
+    "کاکسیٹو",
+    "कैक्सिटो",
+    "ক্যাক্সিটো",
+    "ਕੈਕਸਿਟੋ",
+    "ካክሲቶ",
+    "カシート"
+   ],
+   "lat": -8.57848,
+   "lon": 13.66425,
+   "population": 55000,
+   "geonameId": "2242001"
+  },
+  {
+   "id": "city:geonames-2242584",
+   "name": "Cangandala",
+   "aliases": [
+    "Cagandala",
+    "Kangandala",
+    "Кангандала"
+   ],
+   "lat": -9.78333,
+   "lon": 16.43333,
+   "population": 52220,
+   "geonameId": "2242584"
+  },
+  {
+   "id": "city:geonames-3351884",
+   "name": "Andulo",
+   "aliases": [
+    "ANL",
+    "Andulu",
+    "Caunde",
+    "Vila Macedo de Cavaleiros",
+    "Андулу"
+   ],
+   "lat": -11.48676,
+   "lon": 16.69663,
+   "population": 50000,
+   "geonameId": "3351884"
+  },
+  {
+   "id": "city:geonames-3345669",
+   "name": "Ucu Seles",
+   "aliases": [
+    "Seles",
+    "Uco",
+    "Uku",
+    "Vila Nova de Seles",
+    "Vila Nova do Seles",
+    "Уку"
+   ],
+   "lat": -11.41237,
+   "lon": 14.30663,
+   "population": 47421,
+   "geonameId": "3345669"
+  },
+  {
+   "id": "city:geonames-3345790",
+   "name": "Tômbua",
+   "aliases": [
+    "Tombua",
+    "Port Alexander",
+    "Porto Alexandre",
+    "Tombwa",
+    "Tômbwa",
+    "Томбуа"
+   ],
+   "lat": -15.80394,
+   "lon": 11.84485,
+   "population": 46573,
+   "geonameId": "3345790"
+  },
+  {
+   "id": "city:geonames-3351064",
+   "name": "Calulo",
+   "aliases": [
+    "Kalulo",
+    "Santo Antonio de Callulo",
+    "Калуло"
+   ],
+   "lat": -10.00055,
+   "lon": 14.89519,
+   "population": 44000,
+   "geonameId": "3351064"
+  },
+  {
+   "id": "city:geonames-3345517",
+   "name": "Virei",
+   "aliases": [],
+   "lat": -15.727,
+   "lon": 12.94961,
+   "population": 42607,
+   "geonameId": "3345517"
+  },
+  {
+   "id": "city:geonames-2239732",
+   "name": "Maquela do Zombo",
+   "aliases": [
+    "Maguela do Zombo",
+    "Makello do Zombo",
+    "Maquela"
+   ],
+   "lat": -6.05716,
+   "lon": 15.10971,
+   "population": 42000,
+   "geonameId": "2239732"
+  },
+  {
+   "id": "city:geonames-2241623",
+   "name": "Cuímba",
+   "aliases": [
+    "Cuimba",
+    "Banza Cuimba",
+    "Cuimbo",
+    "Kuimba",
+    "Kuimbo",
+    "Куимба"
+   ],
+   "lat": -6.12085,
+   "lon": 14.62086,
+   "population": 41878,
+   "geonameId": "2241623"
+  },
+  {
+   "id": "city:geonames-2236587",
+   "name": "Úcua",
+   "aliases": [
+    "Ucua",
+    "Castendo"
+   ],
+   "lat": -8.65157,
+   "lon": 14.15653,
+   "population": 41654,
+   "geonameId": "2236587"
+  },
+  {
+   "id": "city:geonames-2243458",
+   "name": "Buco Zau",
+   "aliases": [
+    "Bucco-Lau"
+   ],
+   "lat": -4.76667,
+   "lon": 12.55,
+   "population": 40953,
+   "geonameId": "2243458"
+  },
+  {
+   "id": "city:geonames-2243127",
+   "name": "Cacuso",
+   "aliases": [
+    "Cacoso",
+    "Kakuso",
+    "Kakuzu",
+    "Какузу"
+   ],
+   "lat": -9.42102,
+   "lon": 15.74668,
+   "population": 39302,
+   "geonameId": "2243127"
+  },
+  {
+   "id": "city:geonames-3345495",
+   "name": "Alto Hama",
+   "aliases": [
+    "Alto-Uama",
+    "Wama"
+   ],
+   "lat": -12.23333,
+   "lon": 15.55,
+   "population": 36661,
+   "geonameId": "3345495"
+  },
+  {
+   "id": "city:geonames-3348297",
+   "name": "Humbe",
+   "aliases": [
+    "Humbe Mutano",
+    "Mutano"
+   ],
+   "lat": -16.6864,
+   "lon": 14.90317,
+   "population": 35985,
+   "geonameId": "3348297"
+  },
+  {
+   "id": "city:geonames-3345492",
+   "name": "Xangongo",
+   "aliases": [
+    "Chingongo",
+    "Forte Rocadas",
+    "Forte Roçadas",
+    "Ksangongo",
+    "Rocadas",
+    "Roçadas",
+    "Vila Rocadas",
+    "Vila Roçadas",
+    "XGN",
+    "Ксангонго"
+   ],
+   "lat": -16.7444,
+   "lon": 14.97494,
+   "population": 35000,
+   "geonameId": "3345492"
+  },
+  {
+   "id": "city:geonames-2241954",
+   "name": "Cazombo",
+   "aliases": [
+    "Cazemba",
+    "Kazombo",
+    "Казомбо"
+   ],
+   "lat": -8.73204,
+   "lon": 15.37124,
+   "population": 34000,
+   "geonameId": "2241954"
+  },
+  {
+   "id": "city:geonames-876482",
+   "name": "Cazombo",
+   "aliases": [
+    "CAV",
+    "Kazombo",
+    "Kazombu",
+    "Казомбо"
+   ],
+   "lat": -11.89914,
+   "lon": 22.90216,
+   "population": 34000,
+   "geonameId": "876482"
+  },
+  {
+   "id": "city:geonames-2239149",
+   "name": "Mussende",
+   "aliases": [
+    "Munende",
+    "Муссенде"
+   ],
+   "lat": -10.5143,
+   "lon": 16.0199,
+   "population": 33558,
+   "geonameId": "2239149"
+  },
+  {
+   "id": "city:geonames-3349746",
+   "name": "Chindumbo",
+   "aliases": [],
+   "lat": -11.95,
+   "lon": 14.46667,
+   "population": 32013,
+   "geonameId": "3349746"
+  },
+  {
+   "id": "city:geonames-2236991",
+   "name": "Songo",
+   "aliases": [],
+   "lat": -7.35207,
+   "lon": 14.84629,
+   "population": 31382,
+   "geonameId": "2236991"
+  },
+  {
+   "id": "city:geonames-3351023",
+   "name": "Caluquembe",
+   "aliases": [],
+   "lat": -13.86667,
+   "lon": 14.43333,
+   "population": 31000,
+   "geonameId": "3351023"
+  },
+  {
+   "id": "city:geonames-2243421",
+   "name": "Bula Atumba",
+   "aliases": [],
+   "lat": -8.67417,
+   "lon": 14.797,
+   "population": 30537,
+   "geonameId": "2243421"
+  },
+  {
+   "id": "city:geonames-7855993",
+   "name": "Santa Clara",
+   "aliases": [],
+   "lat": -10.19156,
+   "lon": 15.43408,
+   "population": 29000,
+   "geonameId": "7855993"
+  },
+  {
+   "id": "city:geonames-2239001",
+   "name": "N'zeto",
+   "aliases": [
+    "ARZ",
+    "Ambrisette",
+    "Ambrizete",
+    "Ambrizette",
+    "Nzeto",
+    "Нзето"
+   ],
+   "lat": -7.228,
+   "lon": 12.86956,
+   "population": 28840,
+   "geonameId": "2239001"
+  },
+  {
+   "id": "city:geonames-3350372",
+   "name": "Catabola",
+   "aliases": [
+    "Katabola",
+    "Катабола"
+   ],
+   "lat": -12.15,
+   "lon": 17.28333,
+   "population": 28831,
+   "geonameId": "3350372"
+  },
+  {
+   "id": "city:geonames-3346598",
+   "name": "Quibala",
+   "aliases": [
+    "Kibala",
+    "Кибала"
+   ],
+   "lat": -10.73366,
+   "lon": 14.97995,
+   "population": 27128,
+   "geonameId": "3346598"
+  },
+  {
+   "id": "city:geonames-3349723",
+   "name": "Chinguar",
+   "aliases": [
+    "Chingwari",
+    "Xinguar"
+   ],
+   "lat": -12.55708,
+   "lon": 16.33805,
+   "population": 26811,
+   "geonameId": "3349723"
+  },
+  {
+   "id": "city:geonames-2241635",
+   "name": "Cuilo",
+   "aliases": [],
+   "lat": -8.23619,
+   "lon": 19.52566,
+   "population": 26577,
+   "geonameId": "2241635"
+  },
+  {
+   "id": "city:geonames-2238876",
+   "name": "Piri",
+   "aliases": [],
+   "lat": -8.53412,
+   "lon": 14.43555,
+   "population": 26265,
+   "geonameId": "2238876"
+  },
+  {
+   "id": "city:geonames-2240416",
+   "name": "Lubalo",
+   "aliases": [
+    "Lobalu"
+   ],
+   "lat": -9.15445,
+   "lon": 19.28136,
+   "population": 26103,
+   "geonameId": "2240416"
+  },
+  {
+   "id": "city:geonames-3348896",
+   "name": "Dombe Grande",
+   "aliases": [
+    "Dombe",
+    "Домбе Гранде"
+   ],
+   "lat": -12.95167,
+   "lon": 13.1025,
+   "population": 25000,
+   "geonameId": "3348896"
+  },
+  {
+   "id": "city:geonames-3349515",
+   "name": "Chitembo",
+   "aliases": [],
+   "lat": -13.55,
+   "lon": 16.63333,
+   "population": 25000,
+   "geonameId": "3349515"
+  },
+  {
+   "id": "city:geonames-2243646",
+   "name": "Belize",
+   "aliases": [],
+   "lat": -4.65,
+   "lon": 12.76667,
+   "population": 24430,
+   "geonameId": "2243646"
+  },
+  {
+   "id": "city:geonames-3346497",
+   "name": "Quipungo",
+   "aliases": [],
+   "lat": -14.81909,
+   "lon": 14.53504,
+   "population": 23014,
+   "geonameId": "3346497"
+  },
+  {
+   "id": "city:geonames-2237128",
+   "name": "Sanza Pombo",
+   "aliases": [
+    "Sanza"
+   ],
+   "lat": -7.31473,
+   "lon": 16.0024,
+   "population": 23000,
+   "geonameId": "2237128"
+  },
+  {
+   "id": "city:geonames-3345668",
+   "name": "Ucuma",
+   "aliases": [
+    "Cuma",
+    "Ukuma",
+    "Укума"
+   ],
+   "lat": -12.96121,
+   "lon": 15.05958,
+   "population": 21809,
+   "geonameId": "3345668"
+  },
+  {
+   "id": "city:geonames-2242885",
+   "name": "Camabatela",
+   "aliases": [
+    "Ambaca",
+    "Kamabatela",
+    "Камабатела"
+   ],
+   "lat": -8.18812,
+   "lon": 15.37495,
+   "population": 21767,
+   "geonameId": "2242885"
+  },
+  {
+   "id": "city:geonames-3347111",
+   "name": "Mungo",
+   "aliases": [],
+   "lat": -11.83268,
+   "lon": 16.23613,
+   "population": 21662,
+   "geonameId": "3347111"
+  },
+  {
+   "id": "city:geonames-3349324",
+   "name": "Conda",
+   "aliases": [
+    "Konda",
+    "Конда"
+   ],
+   "lat": -11.10862,
+   "lon": 14.33621,
+   "population": 21260,
+   "geonameId": "3349324"
+  },
+  {
+   "id": "city:geonames-3350550",
+   "name": "Capunda",
+   "aliases": [],
+   "lat": -11.13333,
+   "lon": 14.46667,
+   "population": 21260,
+   "geonameId": "3350550"
+  },
+  {
+   "id": "city:geonames-2239106",
+   "name": "Muxaluando",
+   "aliases": [
+    "General Freire",
+    "Muchalnau",
+    "Muchaluando",
+    "Muchaluau",
+    "Muxaluau",
+    "Muxuluando"
+   ],
+   "lat": -8.12307,
+   "lon": 14.28838,
+   "population": 21052,
+   "geonameId": "2239106"
+  },
+  {
+   "id": "city:geonames-2242647",
+   "name": "Canacassala",
+   "aliases": [],
+   "lat": -8.16263,
+   "lon": 14.11663,
+   "population": 20913,
+   "geonameId": "2242647"
+  },
+  {
+   "id": "city:geonames-2236716",
+   "name": "Tombôco",
+   "aliases": [
+    "Tomboco",
+    "Bembe"
+   ],
+   "lat": -6.80517,
+   "lon": 13.33017,
+   "population": 20358,
+   "geonameId": "2236716"
+  },
+  {
+   "id": "city:geonames-145872",
+   "name": "Cassanguidi",
+   "aliases": [
+    "Cassanguide",
+    "Cassinguidi"
+   ],
+   "lat": -7.48367,
+   "lon": 21.30339,
+   "population": 20000,
+   "geonameId": "145872"
+  },
+  {
+   "id": "city:geonames-3349181",
+   "name": "Cuemba",
+   "aliases": [
+    "Coemba",
+    "Koemba",
+    "Neves Ferreira"
+   ],
+   "lat": -12.15,
+   "lon": 18.08333,
+   "population": 19995,
+   "geonameId": "3349181"
+  },
+  {
+   "id": "city:geonames-2240975",
+   "name": "Golungo Alto",
+   "aliases": [
+    "Galungo Alto",
+    "Golungu Al'tu",
+    "Голунгу Альту"
+   ],
+   "lat": -9.13333,
+   "lon": 14.76667,
+   "population": 19992,
+   "geonameId": "2240975"
+  },
+  {
+   "id": "city:geonames-2240393",
+   "name": "Lucala",
+   "aliases": [],
+   "lat": -9.27268,
+   "lon": 15.25206,
+   "population": 19422,
+   "geonameId": "2240393"
+  },
+  {
+   "id": "city:geonames-2240958",
+   "name": "Gombe",
+   "aliases": [
+    "Gombe Dua"
+   ],
+   "lat": -8.12439,
+   "lon": 14.29081,
+   "population": 19209,
+   "geonameId": "2240958"
+  },
+  {
+   "id": "city:geonames-3349222",
+   "name": "Cubal do Lumbo",
+   "aliases": [
+    "Fazenda Maria Judite"
+   ],
+   "lat": -12.31261,
+   "lon": 14.1265,
+   "population": 18451,
+   "geonameId": "3349222"
+  },
+  {
+   "id": "city:geonames-3346942",
+   "name": "Nharêa",
+   "aliases": [
+    "Nharea",
+    "N'Harreia",
+    "Nhareia",
+    "N’Harreia"
+   ],
+   "lat": -11.47512,
+   "lon": 16.96496,
+   "population": 18000,
+   "geonameId": "3346942"
+  },
+  {
+   "id": "city:geonames-3350917",
+   "name": "Cambundi Catembo",
+   "aliases": [
+    "Gaia",
+    "Nova Gaia",
+    "Vila-Nova-de-Gaia"
+   ],
+   "lat": -10.07531,
+   "lon": 17.55058,
+   "population": 17212,
+   "geonameId": "3350917"
+  },
+  {
+   "id": "city:geonames-7745410",
+   "name": "Cambundi",
+   "aliases": [],
+   "lat": -7.46856,
+   "lon": 17.03769,
+   "population": 17212,
+   "geonameId": "7745410"
+  },
+  {
+   "id": "city:geonames-7900710",
+   "name": "Cambundi",
+   "aliases": [],
+   "lat": -10.89481,
+   "lon": 17.76402,
+   "population": 17212,
+   "geonameId": "7900710"
+  },
+  {
+   "id": "city:geonames-3347880",
+   "name": "Londuimbali",
+   "aliases": [
+    "Luimbale",
+    "Vila Massano de Amorim"
+   ],
+   "lat": -12.23712,
+   "lon": 15.31697,
+   "population": 17000,
+   "geonameId": "3347880"
+  },
+  {
+   "id": "city:geonames-2240004",
+   "name": "Mabubas",
+   "aliases": [],
+   "lat": -8.52432,
+   "lon": 13.68622,
+   "population": 16981,
+   "geonameId": "2240004"
+  },
+  {
+   "id": "city:geonames-2243092",
+   "name": "Cage Mazumbo",
+   "aliases": [
+    "Cage",
+    "Caje"
+   ],
+   "lat": -8.29968,
+   "lon": 14.34494,
+   "population": 16093,
+   "geonameId": "2243092"
+  },
+  {
+   "id": "city:geonames-2238951",
+   "name": "Pango Aluquém",
+   "aliases": [
+    "Pango Aluquem"
+   ],
+   "lat": -8.71311,
+   "lon": 14.46292,
+   "population": 16080,
+   "geonameId": "2238951"
+  },
+  {
+   "id": "city:geonames-2240686",
+   "name": "Kunda dya Baze",
+   "aliases": [
+    "Cunda Ria-Baza",
+    "Cunda Rio-Baza",
+    "Cunda dia Baze",
+    "Cunda diá Baze",
+    "Kunda-dia-Baze",
+    "Kunda-ria-Baza",
+    "Kunda-riá-Baza",
+    "Montalegre"
+   ],
+   "lat": -8.90769,
+   "lon": 17.05339,
+   "population": 15965,
+   "geonameId": "2240686"
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "country": "country:GU",
+ "cities": [
+  {
+   "id": "city:geonames-4043909",
+   "name": "Dededo Village",
+   "aliases": [
+    "Dedidu"
+   ],
+   "lat": 13.51777,
+   "lon": 144.8391,
+   "population": 44943,
+   "geonameId": "4043909"
+  },
+  {
+   "id": "city:geonames-4038794",
+   "name": "Yigo Village",
+   "aliases": [
+    "Yigu"
+   ],
+   "lat": 13.53605,
+   "lon": 144.88855,
+   "population": 20539,
+   "geonameId": "4038794"
+  },
+  {
+   "id": "city:geonames-4038659",
+   "name": "Tamuning-Tumon-Harmon Village",
+   "aliases": [
+    "Maria Christina",
+    "Timoneng"
+   ],
+   "lat": 13.48773,
+   "lon": 144.78138,
+   "population": 19685,
+   "geonameId": "4038659"
+  },
+  {
+   "id": "city:geonames-7268049",
+   "name": "Mangilao Village",
+   "aliases": [
+    "Mangilao",
+    "Manguilao",
+    "Manguuao"
+   ],
+   "lat": 13.44761,
+   "lon": 144.80109,
+   "population": 15191,
+   "geonameId": "7268049"
+  }
+ ]
+}

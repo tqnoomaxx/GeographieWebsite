@@ -1,0 +1,129 @@
+import { useMemo, useState } from 'react'
+import { Link, useNavigate, useSearchParams } from 'react-router-dom'
+import { ArrowLeft, ArrowRight } from 'lucide-react'
+import { useGeoData } from '@/app/DataProvider'
+import { useAsync, useDocumentTitle } from '@/app/hooks'
+import { Page, LoadingState, ErrorState } from '@/ui'
+import type { Exercise } from '@/config/quizCatalog'
+import { CITY_RECALL_DEFAULT, CITY_RECALL_MINIMUM, validCityMinimum } from '@/domain/cityRecall'
+import { loadRecallIndex } from '@/services/data/cityRecall'
+import { roundPath } from '@/engine/round'
+import './city-recall.css'
+export function CityRecallSetup({ exercise }: { exercise: Exercise }) {
+  const geo = useGeoData()
+  const navigate = useNavigate()
+  const [params] = useSearchParams()
+  const index = useAsync(loadRecallIndex, [])
+  const [country, setCountry] = useState(params.get('scope') ?? 'country:DE')
+  const [value, setValue] = useState(params.get('population') ?? String(CITY_RECALL_DEFAULT))
+  const minimum = Number(value)
+  const valid = value.trim() !== '' && validCityMinimum(minimum)
+  useDocumentTitle(exercise.title)
+  const countries = useMemo(
+    () =>
+      Object.entries(index.data?.countries ?? {})
+        .map(([id, entry]) => ({
+          id,
+          name: geo.byId.get(id)?.names.de ?? id,
+          count: valid ? entry.populations.filter((p) => p > minimum).length : 0,
+        }))
+        .sort((a, b) => a.name.localeCompare(b.name, 'de')),
+    [index.data, geo.byId, minimum, valid],
+  )
+  const selected =
+    countries.find((c) => c.id === country) ?? countries.find((c) => c.id === 'country:DE') ?? countries[0]
+  const start = () => {
+    if (selected && valid && selected.count)
+      navigate(
+        roundPath({
+          category: 'cities',
+          exercise: exercise.id,
+          mode: 'input',
+          scope: selected.id,
+          length: 'all',
+          repeat: false,
+          minPopulation: minimum,
+        }),
+      )
+  }
+  return (
+    <Page>
+      <div className="exercise-setup">
+        <Link className="simple-back" to="/play/cities">
+          <ArrowLeft aria-hidden />
+          Städte
+        </Link>
+        <header className="exercise-setup-heading">
+          <h1>{exercise.title}</h1>
+          <p>Wie viele Städte kennst du? Richtige Namen erscheinen auf der Karte.</p>
+        </header>
+        {index.error ? (
+          <ErrorState message="Städteauswahl konnte nicht geladen werden." onRetry={index.reload} />
+        ) : index.loading ? (
+          <LoadingState message="Städteauswahl wird geladen …" />
+        ) : (
+          <>
+            <label className="exercise-control">
+              Land
+              <select
+                aria-label="Land"
+                value={selected?.id ?? ''}
+                onChange={(e) => setCountry(e.target.value)}
+              >
+                {countries.map((c) => (
+                  <option key={c.id} value={c.id}>
+                    {c.name}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label className="exercise-control">
+              Einwohnergrenze
+              <input
+                type="number"
+                inputMode="numeric"
+                aria-label="Einwohnergrenze"
+                aria-describedby="city-minimum-note"
+                value={value}
+                onChange={(e) => setValue(e.target.value)}
+                min={CITY_RECALL_MINIMUM}
+                max={1_000_000_000}
+                step="1"
+                required
+              />
+            </label>
+            <p id="city-minimum-note" className="exercise-note">
+              Frei einstellbar ab 15.000 Einwohnern. Gesucht sind Städte mit <strong>mehr als</strong> dieser
+              Zahl, nach GeoNames-Abgrenzung. Stadtteile zählen nicht separat.
+            </p>
+            {!valid ? (
+              <p className="exercise-note" role="status">
+                Gib eine ganze Zahl zwischen 15.000 und 1.000.000.000 ein.
+              </p>
+            ) : (
+              <p className="exercise-summary" aria-live="polite">
+                {selected?.count.toLocaleString('de-DE') ?? 0} Städte über {minimum.toLocaleString('de-DE')}{' '}
+                Einwohnern in {selected?.name}
+              </p>
+            )}
+            {valid && selected?.count === 0 && (
+              <p className="exercise-note" role="status">
+                Für diese Grenze sind hier keine Städte erfasst. Verringere die Zahl oder wähle ein anderes
+                Land.
+              </p>
+            )}
+            <button
+              type="button"
+              className="btn-primary exercise-start"
+              onClick={start}
+              disabled={!valid || !selected?.count}
+            >
+              Quiz starten
+              <ArrowRight aria-hidden />
+            </button>
+          </>
+        )}
+      </div>
+    </Page>
+  )
+}

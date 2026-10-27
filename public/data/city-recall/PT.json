@@ -1,0 +1,2670 @@
+{
+ "country": "country:PT",
+ "cities": [
+  {
+   "id": "city:PT-lissabon",
+   "name": "Lissabon",
+   "aliases": [
+    "Lisbon",
+    "Felicitas Julia",
+    "Felicitas Julia Olissipo",
+    "LIS",
+    "Liospoin",
+    "Liospóin",
+    "Lisabon",
+    "Lisabona",
+    "Lisboa",
+    "Lisbona",
+    "Lisbonne",
+    "Lisbono",
+    "Lisbonum",
+    "Lisimba",
+    "Lisimbã",
+    "Lisszabon",
+    "Lizboa",
+    "Lizbon",
+    "Lizbona",
+    "Lizpon",
+    "Olisipo",
+    "Olissipo",
+    "li si ben",
+    "lisabana",
+    "lisaboni",
+    "lisbana",
+    "lisbxn",
+    "liseubon",
+    "lshbwnt",
+    "lysabwn",
+    "lysbwn",
+    "risubon",
+    "Λισαβώνα",
+    "Лисабон",
+    "Лиссабон",
+    "Лісабон",
+    "Լիզպոն",
+    "Լիսաբոն",
+    "ליסבון",
+    "لشبونة",
+    "لىسابون",
+    "لیسبون",
+    "ܠܫܒܘܢܐ",
+    "लिस्बन",
+    "লিসবন",
+    "ลิสบอน",
+    "ལ་ས་བན།",
+    "ལི་སི་བཱོན།",
+    "ლისაბონი",
+    "ሊዝቦን",
+    "リスボン",
+    "里斯本",
+    "리스본"
+   ],
+   "lat": 38.72509,
+   "lon": -9.1498,
+   "population": 517802,
+   "geonameId": "2267057"
+  },
+  {
+   "id": "city:PT-porto",
+   "name": "Porto",
+   "aliases": [
+    "OPO",
+    "Oporto",
+    "Portu",
+    "Portus Cale",
+    "bo tu",
+    "bwrtw",
+    "porato",
+    "porto",
+    "poruto",
+    "pwrtw",
+    "pwrٹw",
+    "Πορτο",
+    "Πόρτο",
+    "Порто",
+    "Порту",
+    "פורטו",
+    "بورتو",
+    "پورتو",
+    "پورٹو",
+    "पोर्टो",
+    "পোর্তো",
+    "ਪੋਰਟੋ",
+    "პორტუ",
+    "ፖrito",
+    "ፖርቶ",
+    "ポルト",
+    "波圖"
+   ],
+   "lat": 41.1485,
+   "lon": -8.61097,
+   "population": 252687,
+   "geonameId": "2735943"
+  },
+  {
+   "id": "city:geonames-2742032",
+   "name": "Braga",
+   "aliases": [
+    "BGZ",
+    "Bracara Augusta",
+    "Mpranka",
+    "biraga",
+    "braga",
+    "bragha",
+    "buraga",
+    "Μπράγκα",
+    "Брага",
+    "براغا",
+    "براگا",
+    "ब्रागा",
+    "ব্রাগা",
+    "ਬ੍ਰਾਗਾ",
+    "ብራጋ",
+    "ブラガ"
+   ],
+   "lat": 41.5514,
+   "lon": -8.42311,
+   "population": 193324,
+   "geonameId": "2742032"
+  },
+  {
+   "id": "city:geonames-2271772",
+   "name": "Amadora",
+   "aliases": [
+    "Αμαδόρα",
+    "Амадора"
+   ],
+   "lat": 38.75382,
+   "lon": -9.23083,
+   "population": 178858,
+   "geonameId": "2271772"
+  },
+  {
+   "id": "city:geonames-2740637",
+   "name": "Coimbra",
+   "aliases": [
+    "CBP",
+    "Coímbra",
+    "Coïmbra",
+    "Koimbra",
+    "Koimbro",
+    "Koimpra",
+    "Koímbra",
+    "ke ying bu la",
+    "ko'imabara",
+    "ko'imbra",
+    "koinbura",
+    "kweyiምbira",
+    "kwymbra",
+    "Κόιμπρα",
+    "Коимбра",
+    "كويمبرا",
+    "کوئمبرا",
+    "کویمبرا",
+    "कोइम्ब्रा",
+    "কোইম্ব্রা",
+    "ਕੋਇਮਬਰਾ",
+    "ኮይምብራ",
+    "コインブラ",
+    "科英布拉"
+   ],
+   "lat": 40.20686,
+   "lon": -8.41996,
+   "population": 140796,
+   "geonameId": "2740637"
+  },
+  {
+   "id": "city:geonames-2267095",
+   "name": "Leiria",
+   "aliases": [
+    "Lejrija",
+    "QLR",
+    "Vieira de Leiria",
+    "le'iriya",
+    "leri'a",
+    "leriya",
+    "lyrya",
+    "lyyrya",
+    "lyyryh",
+    "reiria",
+    "Λεϊρία",
+    "Лейрия",
+    "Лејрија",
+    "לייריה",
+    "لييريا",
+    "لیریا",
+    "लेरिया",
+    "লেইরিয়া",
+    "ਲੇਰਿਆ",
+    "ልyeriya",
+    "ልየሪያ",
+    "レイリア"
+   ],
+   "lat": 39.74362,
+   "lon": -8.80705,
+   "population": 128640,
+   "geonameId": "2267095"
+  },
+  {
+   "id": "city:geonames-2262963",
+   "name": "Setúbal",
+   "aliases": [
+    "Setubal",
+    "Caetobriga",
+    "Setoumpal",
+    "Setubala",
+    "Setubalis",
+    "sai tu ba er",
+    "setoubaru",
+    "setubal",
+    "setubala",
+    "stwbal",
+    "stwbl",
+    "sux tu bal",
+    "sytwbal",
+    "Σετούμπαλ",
+    "Сетубал",
+    "סטובל",
+    "ستوبال",
+    "سيتوبال",
+    "سیتوبال",
+    "सेतुबल",
+    "সেতুবাল",
+    "ਸੇਤੁਬਾਲ",
+    "ซือตูบัล",
+    "სეტუბალი",
+    "ሴቱባል",
+    "セトゥーバル",
+    "塞图巴尔",
+    "세투발"
+   ],
+   "lat": 38.5244,
+   "lon": -8.8882,
+   "population": 118166,
+   "geonameId": "2262963"
+  },
+  {
+   "id": "city:geonames-2267827",
+   "name": "Funchal",
+   "aliases": [
+    "FNC",
+    "Funsala",
+    "Funsalis",
+    "Funshal",
+    "Funšala",
+    "Funšalis",
+    "Phountsal",
+    "feng sha er",
+    "fnchal  prtgal",
+    "fnchl",
+    "fung chal",
+    "funsharu",
+    "fwnchal",
+    "fwnshal",
+    "phanasala",
+    "phucala",
+    "phuncala",
+    "phunkala",
+    "punshali",
+    "punsyal",
+    "pwnsl",
+    "Φουντσάλ",
+    "Фуншал",
+    "פונשל",
+    "فنچال ،پرتگال",
+    "فنچل",
+    "فونشال",
+    "فونچال",
+    "फुंकल",
+    "फुंचल",
+    "ফানশাল",
+    "ਫੁੰਚਲ",
+    "ฟุงชาล",
+    "ფუნშალი",
+    "ፉnicaል",
+    "ፉንቻል",
+    "フンシャル",
+    "丰沙尔",
+    "푼샬"
+   ],
+   "lat": 32.66568,
+   "lon": -16.92547,
+   "population": 105795,
+   "geonameId": "2267827"
+  },
+  {
+   "id": "city:geonames-2732265",
+   "name": "Viseu",
+   "aliases": [
+    "VSE",
+    "Vizeu",
+    "Vizeu Celorico",
+    "bhisi'u",
+    "fysyw",
+    "vise'u",
+    "viseው",
+    "visi'u",
+    "vuiseu",
+    "wysyw",
+    "wyzyw",
+    "Визеу",
+    "فيسيو",
+    "ویزئو",
+    "ویسیو",
+    "विसेउ",
+    "ভিসিউ",
+    "ਵਿਸਿਊ",
+    "ቪሴው",
+    "ヴィセウ"
+   ],
+   "lat": 40.66165,
+   "lon": -7.90905,
+   "population": 103502,
+   "geonameId": "2732265"
+  },
+  {
+   "id": "city:geonames-2264268",
+   "name": "Queluz",
+   "aliases": [
+    "Kelouz",
+    "Kelusas",
+    "Kelush",
+    "Keluzh",
+    "Queluz i Portugal",
+    "ke lu shen",
+    "kerushu",
+    "kwylwz",
+    "kywylz  prtghal",
+    "Κελούζ",
+    "Келуж",
+    "Келуш",
+    "קואלוז'",
+    "كويلوز",
+    "کیوئلز، پرتغال",
+    "კელუში",
+    "ケルシュ",
+    "克盧什"
+   ],
+   "lat": 38.75657,
+   "lon": -9.25451,
+   "population": 103399,
+   "geonameId": "2264268"
+  },
+  {
+   "id": "city:geonames-2270503",
+   "name": "Cacém",
+   "aliases": [
+    "Cacem"
+   ],
+   "lat": 38.76698,
+   "lon": -9.29793,
+   "population": 93982,
+   "geonameId": "2270503"
+  },
+  {
+   "id": "city:geonames-2742611",
+   "name": "Aveiro",
+   "aliases": [
+    "Abeiro",
+    "Avejro",
+    "Avejru",
+    "ZAV",
+    "afyrw",
+    "ave'iro",
+    "avueiro",
+    "awyrw",
+    "ebhe'iro",
+    "ʿeveyiro",
+    "Αβέιρο",
+    "Авейру",
+    "Авејро",
+    "آویرو",
+    "أفيرو",
+    "اویرو",
+    "अवेइरो",
+    "এভেইরো",
+    "ਅਵੇਇਰੋ",
+    "አቬይሮ",
+    "アヴェイロ"
+   ],
+   "lat": 40.64575,
+   "lon": -8.64643,
+   "population": 80880,
+   "geonameId": "2742611"
+  },
+  {
+   "id": "city:geonames-2732544",
+   "name": "Vila Nova de Gaia",
+   "aliases": [
+    "Bila Noba nte Nkaia",
+    "Gaia",
+    "Portus Cale",
+    "Vila-Nova-de-Gajja",
+    "Βίλα Νόβα ντε Γκάια",
+    "Вила-Нова-де-Гайя"
+   ],
+   "lat": 41.12401,
+   "lon": -8.61241,
+   "population": 70811,
+   "geonameId": "2732544"
+  },
+  {
+   "id": "city:geonames-2268339",
+   "name": "Faro",
+   "aliases": [
+    "FAO",
+    "Faru",
+    "faro",
+    "farw",
+    "pharo",
+    "Фару",
+    "فارو",
+    "फारो",
+    "ফারো",
+    "ਫਾਰੋ",
+    "ፋro",
+    "ፋሮ",
+    "ファロ"
+   ],
+   "lat": 37.01869,
+   "lon": -7.92716,
+   "population": 70347,
+   "geonameId": "2268339"
+  },
+  {
+   "id": "city:geonames-2271977",
+   "name": "Algueirão",
+   "aliases": [
+    "Algueirao"
+   ],
+   "lat": 38.79764,
+   "lon": -9.3437,
+   "population": 66250,
+   "geonameId": "2271977"
+  },
+  {
+   "id": "city:geonames-2266977",
+   "name": "Loures",
+   "aliases": [
+    "Loyres",
+    "Λόυρες"
+   ],
+   "lat": 38.83091,
+   "lon": -9.16845,
+   "population": 66231,
+   "geonameId": "2266977"
+  },
+  {
+   "id": "city:geonames-2739693",
+   "name": "Felgueiras",
+   "aliases": [
+    "Phelnkeiras",
+    "Φέλγκεϊρας"
+   ],
+   "lat": 41.36806,
+   "lon": -8.19396,
+   "population": 58065,
+   "geonameId": "2739693"
+  },
+  {
+   "id": "city:geonames-2263827",
+   "name": "Rio de Mouro",
+   "aliases": [],
+   "lat": 38.76613,
+   "lon": -9.32804,
+   "population": 54695,
+   "geonameId": "2263827"
+  },
+  {
+   "id": "city:geonames-2265467",
+   "name": "Odivelas",
+   "aliases": [
+    "awdywlas",
+    "اودیولاس"
+   ],
+   "lat": 38.79269,
+   "lon": -9.1838,
+   "population": 54624,
+   "geonameId": "2265467"
+  },
+  {
+   "id": "city:geonames-2268406",
+   "name": "Évora",
+   "aliases": [
+    "Evora",
+    "Aebura",
+    "Ebora",
+    "Ehvora",
+    "Elbora",
+    "Erbora",
+    "Yabura/Yabora/Yabra",
+    "awwa",
+    "ayfwra",
+    "aywwara",
+    "ebhora",
+    "evora",
+    "evuora",
+    "ivora",
+    "Ébora",
+    "ʿivora",
+    "Эвора",
+    "إيفورا",
+    "اووا",
+    "ایووارا",
+    "एवोरा",
+    "এভোরা",
+    "ਈਵੋਰਾ",
+    "ኢቮራ",
+    "エヴォラ"
+   ],
+   "lat": 38.56587,
+   "lon": -7.90405,
+   "population": 53591,
+   "geonameId": "2268406"
+  },
+  {
+   "id": "city:geonames-2271680",
+   "name": "Amora",
+   "aliases": [],
+   "lat": 38.62961,
+   "lon": -9.11557,
+   "population": 52577,
+   "geonameId": "2271680"
+  },
+  {
+   "id": "city:geonames-2269041",
+   "name": "Corroios",
+   "aliases": [],
+   "lat": 38.64004,
+   "lon": -9.1508,
+   "population": 52520,
+   "geonameId": "2269041"
+  },
+  {
+   "id": "city:geonames-2271071",
+   "name": "Barreiro",
+   "aliases": [
+    "Barrejru",
+    "ba lei lu",
+    "Баррейру",
+    "巴雷鲁"
+   ],
+   "lat": 38.66314,
+   "lon": -9.0724,
+   "population": 51280,
+   "geonameId": "2271071"
+  },
+  {
+   "id": "city:geonames-2266249",
+   "name": "Monsanto",
+   "aliases": [
+    "Монсанто"
+   ],
+   "lat": 39.46203,
+   "lon": -8.7118,
+   "population": 50000,
+   "geonameId": "2266249"
+  },
+  {
+   "id": "city:geonames-2735083",
+   "name": "Rio Tinto",
+   "aliases": [
+    "Rio Tinto i Portugal",
+    "Riu-Tintu",
+    "li ao ting tuo",
+    "ryw tyntw",
+    "Риу-Тинту",
+    "ریو تینتو",
+    "რიო-ტინტო",
+    "里奧廷托"
+   ],
+   "lat": 41.17872,
+   "lon": -8.55953,
+   "population": 49966,
+   "geonameId": "2735083"
+  },
+  {
+   "id": "city:geonames-2263352",
+   "name": "São Domingos de Rana",
+   "aliases": [
+    "Sao Domingos de Rana",
+    "Domingos De Rana",
+    "Sao Domingos",
+    "São Domingos"
+   ],
+   "lat": 38.70194,
+   "lon": -9.34083,
+   "population": 46718,
+   "geonameId": "2263352"
+  },
+  {
+   "id": "city:geonames-2739590",
+   "name": "Figueira da Foz",
+   "aliases": [
+    "Figeira da Fosas",
+    "Figejra da Fosh",
+    "Figejra-da-Fosh",
+    "Figueira da Foz Municipality",
+    "Figueira de la Foc",
+    "Figueira de la Foç",
+    "Phinkeira nta Phous",
+    "fei gai la-da fu shen",
+    "fygwyra dafwsh",
+    "pigeiladaposeu",
+    "pigeira-da-poshi",
+    "Φιγκέιρα ντα Φους",
+    "Фигейра-да-Фош",
+    "Фигејра да Фош",
+    "فیگوئرا دافوش",
+    "ფიგეირა-და-ფოში",
+    "菲蓋拉-達福什",
+    "피게이라다포스"
+   ],
+   "lat": 40.15085,
+   "lon": -8.86179,
+   "population": 46600,
+   "geonameId": "2739590"
+  },
+  {
+   "id": "city:geonames-2266940",
+   "name": "Lumiar",
+   "aliases": [
+    "Лумиар"
+   ],
+   "lat": 38.77478,
+   "lon": -9.15601,
+   "population": 46334,
+   "geonameId": "2266940"
+  },
+  {
+   "id": "city:geonames-2736680",
+   "name": "Paranhos",
+   "aliases": [
+    "Paran'jush",
+    "Paranho",
+    "pa la niu shen",
+    "Параньюш",
+    "帕拉纽什"
+   ],
+   "lat": 41.17289,
+   "lon": -8.59931,
+   "population": 45883,
+   "geonameId": "2736680"
+  },
+  {
+   "id": "city:geonames-2736041",
+   "name": "Ponte de Lima",
+   "aliases": [
+    "Ponte do Lima",
+    "Понте де Лима"
+   ],
+   "lat": 41.76719,
+   "lon": -8.58393,
+   "population": 44667,
+   "geonameId": "2736041"
+  },
+  {
+   "id": "city:geonames-2265428",
+   "name": "Olival",
+   "aliases": [],
+   "lat": 38.77079,
+   "lon": -9.25015,
+   "population": 42961,
+   "geonameId": "2265428"
+  },
+  {
+   "id": "city:geonames-2734585",
+   "name": "Santo António dos Olivais",
+   "aliases": [
+    "Santo Antonio dos Olivais"
+   ],
+   "lat": 40.21805,
+   "lon": -8.40523,
+   "population": 41150,
+   "geonameId": "2734585"
+  },
+  {
+   "id": "city:geonames-2262957",
+   "name": "Sesimbra",
+   "aliases": [
+    "Cezimbra",
+    "Сесимбра"
+   ],
+   "lat": 38.44451,
+   "lon": -9.10149,
+   "population": 41134,
+   "geonameId": "2262957"
+  },
+  {
+   "id": "city:geonames-2738752",
+   "name": "Guimarães",
+   "aliases": [
+    "Guimaraes",
+    "Gimarajnsh",
+    "Gimarajsh",
+    "Guimarais",
+    "Guimarãis",
+    "Nkimaraes",
+    "Γκιμαράες",
+    "Гимарайнш",
+    "Гимарајш"
+   ],
+   "lat": 41.44443,
+   "lon": -8.29619,
+   "population": 40604,
+   "geonameId": "2738752"
+  },
+  {
+   "id": "city:geonames-2738785",
+   "name": "Guarda",
+   "aliases": [
+    "garida",
+    "ghwrda",
+    "gu'arada",
+    "gu'arda",
+    "guaruda",
+    "guyarda",
+    "gward",
+    "gwarڈa",
+    "gwarډa",
+    "Гуарда",
+    "غوردا",
+    "گوارد",
+    "گوارڈا",
+    "گوارډا",
+    "गुआर्दा",
+    "গুয়ার্দা",
+    "ਗੁਆਰਦਾ",
+    "ጋርዳ",
+    "グアルダ"
+   ],
+   "lat": 40.53754,
+   "lon": -7.26631,
+   "population": 40126,
+   "geonameId": "2738785"
+  },
+  {
+   "id": "city:geonames-2739997",
+   "name": "Ermesinde",
+   "aliases": [
+    "Ehrmezinde",
+    "Ermezinde",
+    "Эрмезинде"
+   ],
+   "lat": 41.21653,
+   "lon": -8.55318,
+   "population": 39420,
+   "geonameId": "2739997"
+  },
+  {
+   "id": "city:geonames-2734576",
+   "name": "Santo Ovídio",
+   "aliases": [
+    "Santo Ovidio",
+    "Santo Oviedo"
+   ],
+   "lat": 41.11379,
+   "lon": -8.60235,
+   "population": 38544,
+   "geonameId": "2734576"
+  },
+  {
+   "id": "city:geonames-2264456",
+   "name": "Portimão",
+   "aliases": [
+    "Portimao",
+    "PRM",
+    "Portiman",
+    "Vila Nova de Portimao",
+    "Vila Nova de Portimão",
+    "Портиман"
+   ],
+   "lat": 37.13856,
+   "lon": -8.53775,
+   "population": 38487,
+   "geonameId": "2264456"
+  },
+  {
+   "id": "city:geonames-2268728",
+   "name": "Damaia",
+   "aliases": [],
+   "lat": 38.75141,
+   "lon": -9.21227,
+   "population": 37607,
+   "geonameId": "2268728"
+  },
+  {
+   "id": "city:geonames-2270962",
+   "name": "Benfica",
+   "aliases": [],
+   "lat": 38.75087,
+   "lon": -9.20282,
+   "population": 36985,
+   "geonameId": "2270962"
+  },
+  {
+   "id": "city:geonames-2269594",
+   "name": "Cascais",
+   "aliases": [
+    "CAT",
+    "Cascaes",
+    "Kashkajsh",
+    "Kaskais",
+    "Kaskaisas",
+    "Kaškaišas",
+    "ka si kai shen",
+    "kasukaisu",
+    "Κασκάις",
+    "Кашкайш",
+    "Кашкајш",
+    "カスカイス",
+    "卡斯凯什"
+   ],
+   "lat": 38.69681,
+   "lon": -9.42147,
+   "population": 36436,
+   "geonameId": "2269594"
+  },
+  {
+   "id": "city:geonames-2738014",
+   "name": "Maia",
+   "aliases": [
+    "Majja",
+    "Майя"
+   ],
+   "lat": 41.23574,
+   "lon": -8.6199,
+   "population": 36426,
+   "geonameId": "2738014"
+  },
+  {
+   "id": "city:geonames-2732773",
+   "name": "Viana do Castelo",
+   "aliases": [
+    "Viana-du-Kashtelu",
+    "Vianna do Castello",
+    "Vjana do Kashtelo",
+    "bhiyana do kastelo",
+    "fyana dw kastylw",
+    "vi'ana du kaisatelo",
+    "vi'ana du kastelo",
+    "viyana du kasitelo",
+    "vuiana・dou・kasutero",
+    "wyana dw kastlw",
+    "wyana ڈw kasٹylw",
+    "wyana ډw kasٹylw",
+    "Виана-ду-Каштелу",
+    "Вјана до Каштело",
+    "فيانا دو كاستيلو",
+    "ویانا دو کاستلو",
+    "ویانا ڈو کاسٹیلو",
+    "ویانا ډو کاسٹیلو",
+    "विआना डु कास्टेलो",
+    "ভিয়ানা দো কাস্টেলো",
+    "ਵਿਆਨਾ ਡੂ ਕੈਸਟੇਲੋ",
+    "ቪያና ዱ ካስቴሎ",
+    "ヴィアナ・ドゥ・カステロ"
+   ],
+   "lat": 41.69323,
+   "lon": -8.83287,
+   "population": 36148,
+   "geonameId": "2732773"
+  },
+  {
+   "id": "city:geonames-2266629",
+   "name": "Marvila",
+   "aliases": [],
+   "lat": 38.73981,
+   "lon": -9.10165,
+   "population": 35463,
+   "geonameId": "2266629"
+  },
+  {
+   "id": "city:geonames-2742027",
+   "name": "Bragança",
+   "aliases": [
+    "Braganca",
+    "BGC",
+    "Bragan'",
+    "Bragance",
+    "Braganza",
+    "biraganisa",
+    "braganasa",
+    "braganka",
+    "bragansa",
+    "braghansa",
+    "buragansa",
+    "Браганца",
+    "Брагань",
+    "براغانسا",
+    "براگانسا",
+    "ब्रागान्का",
+    "ব্রাগানসা",
+    "ਬ੍ਰਾਗਾਂਸਾ",
+    "ብራጋንሳ",
+    "ブラガンサ"
+   ],
+   "lat": 41.80716,
+   "lon": -6.75898,
+   "population": 35341,
+   "geonameId": "2742027"
+  },
+  {
+   "id": "city:geonames-2265464",
+   "name": "Oeiras",
+   "aliases": [],
+   "lat": 38.69105,
+   "lon": -9.31085,
+   "population": 35000,
+   "geonameId": "2265464"
+  },
+  {
+   "id": "city:geonames-2270985",
+   "name": "Beja",
+   "aliases": [
+    "BYJ",
+    "Bekha",
+    "Béja",
+    "Conistorgis",
+    "beja",
+    "byja",
+    "Беха",
+    "بيجا",
+    "بیجا",
+    "बेजा",
+    "বেজা",
+    "ਬੇਜਾ",
+    "በጃ",
+    "ベジャ"
+   ],
+   "lat": 38.01469,
+   "lon": -7.86284,
+   "population": 34760,
+   "geonameId": "2270985"
+  },
+  {
+   "id": "city:geonames-2739848",
+   "name": "Esposende",
+   "aliases": [
+    "Espozende"
+   ],
+   "lat": 41.5361,
+   "lon": -8.78201,
+   "population": 34625,
+   "geonameId": "2739848"
+  },
+  {
+   "id": "city:geonames-2743373",
+   "name": "Afurada de Baixo",
+   "aliases": [
+    "Afurada",
+    "Sao Pedro da Afurada",
+    "São Pedro da Afurada"
+   ],
+   "lat": 41.14389,
+   "lon": -8.64639,
+   "population": 34332,
+   "geonameId": "2743373"
+  },
+  {
+   "id": "city:geonames-2271961",
+   "name": "Almada",
+   "aliases": [
+    "Almanta",
+    "Αλμάντα",
+    "Алмада"
+   ],
+   "lat": 38.67902,
+   "lon": -9.1569,
+   "population": 34008,
+   "geonameId": "2271961"
+  },
+  {
+   "id": "city:geonames-2265432",
+   "name": "Olivais",
+   "aliases": [
+    "Olivaes",
+    "Santa Maria dos Olivais",
+    "Santa-Marija-dush-Olivajsh",
+    "Santa-Marija-duz-Olivajsh",
+    "Санта-Мария-дуз-Оливайш",
+    "Санта-Мария-душ-Оливайш"
+   ],
+   "lat": 38.76994,
+   "lon": -9.10674,
+   "population": 33788,
+   "geonameId": "2265432"
+  },
+  {
+   "id": "city:geonames-2267226",
+   "name": "Lagos",
+   "aliases": [
+    "Lacobriga",
+    "Lagos (Distrito de Faro)",
+    "Lagosh",
+    "Лагош"
+   ],
+   "lat": 37.10202,
+   "lon": -8.67422,
+   "population": 33494,
+   "geonameId": "2267226"
+  },
+  {
+   "id": "city:geonames-2269514",
+   "name": "Castelo Branco",
+   "aliases": [
+    "Kashtelo Branko",
+    "Kashtelu-Branku",
+    "Kastelu-Branku",
+    "kaisatelo branko",
+    "kasitelo biranikwe",
+    "kastelo branko",
+    "kastlw brankw",
+    "kastylw brankw",
+    "kasutero・buranko",
+    "kasٹylw brankw",
+    "kyastelo branko",
+    "Кастелу-Бранку",
+    "Каштело Бранко",
+    "Каштелу-Бранку",
+    "كاستيلو برانكو",
+    "کاستلو برانکو",
+    "کاسٹیلو برانکو",
+    "कास्टेलो ब्रांको",
+    "ক্যাস্টেলো ব্রাঙ্কো",
+    "ਕੈਸਟੇਲੋ ਬ੍ਰਾਂਕੋ",
+    "ካስቴሎ ብራንኮ",
+    "カステロ・ブランコ"
+   ],
+   "lat": 39.82364,
+   "lon": -7.49101,
+   "population": 33479,
+   "geonameId": "2269514"
+  },
+  {
+   "id": "city:geonames-2272215",
+   "name": "Alcabideche",
+   "aliases": [
+    "Alkabideshe",
+    "Aloabideche",
+    "Aloabidèche",
+    "Алкабидеше"
+   ],
+   "lat": 38.73366,
+   "lon": -9.40928,
+   "population": 33315,
+   "geonameId": "2272215"
+  },
+  {
+   "id": "city:geonames-2742493",
+   "name": "Bairro Novo",
+   "aliases": [],
+   "lat": 41.54317,
+   "lon": -8.40725,
+   "population": 32876,
+   "geonameId": "2742493"
+  },
+  {
+   "id": "city:geonames-2739868",
+   "name": "Espinho",
+   "aliases": [
+    "Ehshpin'ju",
+    "Espinio",
+    "Espinjas",
+    "esupinyo",
+    "Εσπίνιο",
+    "Эшпинью",
+    "エスピーニョ"
+   ],
+   "lat": 41.00763,
+   "lon": -8.64125,
+   "population": 32786,
+   "geonameId": "2739868"
+  },
+  {
+   "id": "city:geonames-2270380",
+   "name": "Câmara de Lobos",
+   "aliases": [
+    "Camara de Lobos",
+    "Kamara nte Lompos",
+    "Kamara-de-Lobos",
+    "Kamara-de-Lobush",
+    "Kamara-di-Lobush",
+    "ka ma la-de luo bu shen",
+    "kamara dlwbws",
+    "kamara dy lwbws",
+    "Καμάρα ντε Λόμπος",
+    "Камара-де-Лобос",
+    "Камара-де-Лобуш",
+    "Камара-ди-Лобуш",
+    "كامارا دي لوبوس",
+    "کامارا دلوبوس",
+    "კამარა-დი-ლობუში",
+    "卡馬拉-德洛布什"
+   ],
+   "lat": 32.65043,
+   "lon": -16.97718,
+   "population": 32209,
+   "geonameId": "2270380"
+  },
+  {
+   "id": "city:geonames-6930162",
+   "name": "Alvalade",
+   "aliases": [],
+   "lat": 38.75328,
+   "lon": -9.14397,
+   "population": 31813,
+   "geonameId": "6930162"
+  },
+  {
+   "id": "city:geonames-2271473",
+   "name": "Arrentela",
+   "aliases": [
+    "Arrentella",
+    "Аррентела"
+   ],
+   "lat": 38.625,
+   "lon": -9.10151,
+   "population": 30156,
+   "geonameId": "2271473"
+  },
+  {
+   "id": "city:geonames-2265788",
+   "name": "Montijo",
+   "aliases": [
+    "Montikho",
+    "Монтихо"
+   ],
+   "lat": 38.70675,
+   "lon": -8.97388,
+   "population": 30011,
+   "geonameId": "2265788"
+  },
+  {
+   "id": "city:geonames-2269282",
+   "name": "Charneca de Caparica",
+   "aliases": [
+    "Charneca",
+    "Sharneka",
+    "Шарнека"
+   ],
+   "lat": 38.62032,
+   "lon": -9.19426,
+   "population": 29763,
+   "geonameId": "2269282"
+  },
+  {
+   "id": "city:geonames-2741667",
+   "name": "Campanhã",
+   "aliases": [
+    "Campanha",
+    "Kampan'jan",
+    "kan pa ni yang",
+    "Кампаньян",
+    "坎帕尼扬"
+   ],
+   "lat": 41.15706,
+   "lon": -8.57466,
+   "population": 29666,
+   "geonameId": "2741667"
+  },
+  {
+   "id": "city:geonames-2263480",
+   "name": "Santarém",
+   "aliases": [
+    "Santarem",
+    "Santaren",
+    "Scalabis",
+    "sanitareም",
+    "santarema",
+    "santaren",
+    "santarm",
+    "santaryn",
+    "satarema",
+    "Σανταρέμ",
+    "Сантарен",
+    "سانتارم",
+    "سانتارين",
+    "सांतारेम",
+    "সান্তারেম",
+    "ਸੰਤਾਰੇਮ",
+    "ሳንታረም",
+    "サンタレン"
+   ],
+   "lat": 39.23379,
+   "lon": -8.68617,
+   "population": 29385,
+   "geonameId": "2263480"
+  },
+  {
+   "id": "city:geonames-2265447",
+   "name": "Olhão",
+   "aliases": [
+    "Olhao"
+   ],
+   "lat": 37.0286,
+   "lon": -7.8411,
+   "population": 29239,
+   "geonameId": "2265447"
+  },
+  {
+   "id": "city:geonames-2743131",
+   "name": "Aldoar",
+   "aliases": [],
+   "lat": 41.1671,
+   "lon": -8.6691,
+   "population": 29085,
+   "geonameId": "2743131"
+  },
+  {
+   "id": "city:geonames-2735787",
+   "name": "Póvoa de Varzim",
+   "aliases": [
+    "Povoa de Varzim",
+    "Poboa nte Barzim",
+    "Povua de Varzinas",
+    "Povua-di-Varzin",
+    "Villa Euracini",
+    "bo wa-di wa er jin",
+    "pwwa dwarzym",
+    "Πόβοα ντε Βαρζίμ",
+    "Повоа де Варзим",
+    "Повуа-ди-Варзин",
+    "پووا دوارزیم",
+    "პოვუა-დე-ვარშინი",
+    "波瓦-迪瓦爾津"
+   ],
+   "lat": 41.38344,
+   "lon": -8.76364,
+   "population": 29044,
+   "geonameId": "2735787"
+  },
+  {
+   "id": "city:geonames-2734140",
+   "name": "Senhora da Hora",
+   "aliases": [],
+   "lat": 41.18641,
+   "lon": -8.65172,
+   "population": 28930,
+   "geonameId": "2734140"
+  },
+  {
+   "id": "city:geonames-2266703",
+   "name": "Marinha Grande",
+   "aliases": [],
+   "lat": 39.74769,
+   "lon": -8.93228,
+   "population": 28916,
+   "geonameId": "2266703"
+  },
+  {
+   "id": "city:geonames-2264359",
+   "name": "Póvoa de Santa Iria",
+   "aliases": [
+    "Povoa de Santa Iria",
+    "Povoa",
+    "Povoa Santa Iria",
+    "Povoa de Martinho",
+    "Povoa do Tojal",
+    "Povua-de-Santa-Irija",
+    "Póvoa",
+    "Póvoa Santa Iria",
+    "Póvoa do Tojal",
+    "Повуа-де-Санта-Ирия"
+   ],
+   "lat": 38.86101,
+   "lon": -9.06453,
+   "population": 28901,
+   "geonameId": "2264359"
+  },
+  {
+   "id": "city:geonames-2734106",
+   "name": "Sequeira",
+   "aliases": [],
+   "lat": 40.55364,
+   "lon": -7.22594,
+   "population": 28502,
+   "geonameId": "2734106"
+  },
+  {
+   "id": "city:geonames-2266621",
+   "name": "Massamá",
+   "aliases": [
+    "Massama"
+   ],
+   "lat": 38.75279,
+   "lon": -9.2811,
+   "population": 28112,
+   "geonameId": "2266621"
+  },
+  {
+   "id": "city:geonames-2737824",
+   "name": "Matosinhos",
+   "aliases": [
+    "Matosinhos Municipality",
+    "Matozin'jush",
+    "Matozinhos",
+    "Matozinjosas",
+    "matwsynws",
+    "Матозиньюш",
+    "ماتوسینوس",
+    "მატოზინიუში"
+   ],
+   "lat": 41.18207,
+   "lon": -8.68908,
+   "population": 28070,
+   "geonameId": "2737824"
+  },
+  {
+   "id": "city:geonames-2738925",
+   "name": "Gondomar",
+   "aliases": [
+    "Гондомар"
+   ],
+   "lat": 41.14454,
+   "lon": -8.53223,
+   "population": 27691,
+   "geonameId": "2738925"
+  },
+  {
+   "id": "city:geonames-2743304",
+   "name": "Águas Santas",
+   "aliases": [
+    "Aguas Santas"
+   ],
+   "lat": 41.21017,
+   "lon": -8.57599,
+   "population": 27686,
+   "geonameId": "2743304"
+  },
+  {
+   "id": "city:geonames-2732649",
+   "name": "Vila do Conde",
+   "aliases": [
+    "Bila nto Konte",
+    "Vila do Conde Municipality",
+    "Vila do Konde",
+    "Vila do Kondė",
+    "Vila-du-Konde",
+    "Vila-du-Kondi",
+    "kong di zhen",
+    "wyla dw kndh",
+    "Βίλα ντο Κόντε",
+    "Вила-ду-Конде",
+    "Вила-ду-Конди",
+    "ویلا دو کنده",
+    "ვილა-დუ-კონდე",
+    "孔迪镇"
+   ],
+   "lat": 41.35326,
+   "lon": -8.74516,
+   "population": 27642,
+   "geonameId": "2732649"
+  },
+  {
+   "id": "city:geonames-2270437",
+   "name": "Caldas da Rainha",
+   "aliases": [
+    "Caldad da Rainha",
+    "Kaldash da Rajna",
+    "Kaldash-da-Rain'ja",
+    "kaldas daraynya",
+    "Калдаш да Рајња",
+    "Калдаш-да-Раинья",
+    "کالداس داراینیا",
+    "კალდაშ-და-რაინია",
+    "カルダス・ダ・ライーニャ"
+   ],
+   "lat": 39.40326,
+   "lon": -9.13839,
+   "population": 27378,
+   "geonameId": "2270437"
+  },
+  {
+   "id": "city:geonames-2272005",
+   "name": "Alfornelos",
+   "aliases": [],
+   "lat": 38.76098,
+   "lon": -9.20508,
+   "population": 27093,
+   "geonameId": "2272005"
+  },
+  {
+   "id": "city:geonames-2263284",
+   "name": "São Martinho",
+   "aliases": [
+    "Sao Martinho"
+   ],
+   "lat": 32.6448,
+   "lon": -16.93843,
+   "population": 26482,
+   "geonameId": "2263284"
+  },
+  {
+   "id": "city:geonames-2741551",
+   "name": "Canidelo",
+   "aliases": [
+    "Canidello"
+   ],
+   "lat": 41.12314,
+   "lon": -8.64654,
+   "population": 26431,
+   "geonameId": "2741551"
+  },
+  {
+   "id": "city:geonames-2262912",
+   "name": "Sintra",
+   "aliases": [
+    "Cintra",
+    "shintora",
+    "sing tra",
+    "sinteula",
+    "sintʼra",
+    "siൻtra",
+    "syntra",
+    "syntrh",
+    "xin te la",
+    "Σίντρα",
+    "Синтра",
+    "Сінтра",
+    "Սինտրա",
+    "סינטרה",
+    "سينترا",
+    "سینترا",
+    "സിൻട്ര",
+    "ซิงตรา",
+    "სინტრა",
+    "シントラ",
+    "辛特拉",
+    "신트라"
+   ],
+   "lat": 38.80097,
+   "lon": -9.37826,
+   "population": 26193,
+   "geonameId": "2262912"
+  },
+  {
+   "id": "city:geonames-2265326",
+   "name": "Paço de Arcos",
+   "aliases": [
+    "Paco de Arcos",
+    "Paco d'Arcos",
+    "Paço d'Arcos"
+   ],
+   "lat": 38.69569,
+   "lon": -9.29143,
+   "population": 25974,
+   "geonameId": "2265326"
+  },
+  {
+   "id": "city:geonames-2263432",
+   "name": "Santo António",
+   "aliases": [
+    "Santo Antonio"
+   ],
+   "lat": 32.66138,
+   "lon": -16.93482,
+   "population": 25940,
+   "geonameId": "2263432"
+  },
+  {
+   "id": "city:geonames-2734434",
+   "name": "São Mamede de Infesta",
+   "aliases": [
+    "Sao Mamede de Infesta",
+    "San-Mamed-de-Infeshta",
+    "Santo Mamede de Infesta",
+    "Sao Mamede",
+    "Sao Mamede da Infesta",
+    "São Mamede",
+    "São Mamede da Infesta",
+    "Сан-Мамед-де-Инфешта"
+   ],
+   "lat": 41.19183,
+   "lon": -8.61105,
+   "population": 25940,
+   "geonameId": "2734434"
+  },
+  {
+   "id": "city:geonames-6559488",
+   "name": "Quinta Do Conde",
+   "aliases": [],
+   "lat": 38.56528,
+   "lon": -9.04316,
+   "population": 25606,
+   "geonameId": "6559488"
+  },
+  {
+   "id": "city:geonames-2262581",
+   "name": "Torres Vedras",
+   "aliases": [
+    "Lapangan Terbang Santa Cruz",
+    "Tores Vedrasas",
+    "Torresh",
+    "Torresh-Vedrash",
+    "Torrish-Vedrash",
+    "Turres Veteres",
+    "tuo lei si wei de la shen",
+    "twrs wdras",
+    "Торреш",
+    "Торреш-Ведраш",
+    "Торриш-Ведраш",
+    "تورس ودراس",
+    "ტორეშ-ვედრაში",
+    "托雷斯韋德拉什"
+   ],
+   "lat": 39.09109,
+   "lon": -9.2586,
+   "population": 24443,
+   "geonameId": "2262581"
+  },
+  {
+   "id": "city:geonames-2264299",
+   "name": "Quarteira",
+   "aliases": [],
+   "lat": 37.06946,
+   "lon": -8.10064,
+   "population": 24420,
+   "geonameId": "2264299"
+  },
+  {
+   "id": "city:geonames-2737039",
+   "name": "Oliveira do Douro",
+   "aliases": [],
+   "lat": 41.12466,
+   "lon": -8.58463,
+   "population": 24407,
+   "geonameId": "2737039"
+  },
+  {
+   "id": "city:geonames-2739756",
+   "name": "Fânzeres",
+   "aliases": [
+    "Fanzeres"
+   ],
+   "lat": 41.16754,
+   "lon": -8.52981,
+   "population": 23916,
+   "geonameId": "2739756"
+  },
+  {
+   "id": "city:geonames-2268436",
+   "name": "Estoril",
+   "aliases": [
+    "Ehshtoril",
+    "Eshhoril",
+    "Eshtoril",
+    "Eshturil",
+    "Estorilis",
+    "Estoris",
+    "Estorís",
+    "Estroil",
+    "Eštoril",
+    "ashtwryl",
+    "astwryl",
+    "eshtʼorili",
+    "esutoriru",
+    "iseutolil",
+    "Εστορίλ",
+    "Ешторил",
+    "Ештуріл",
+    "Ещорил",
+    "Эшторил",
+    "إستوريل",
+    "اشتوریل",
+    "ეშტორილი",
+    "エストリル",
+    "이스토릴"
+   ],
+   "lat": 38.70571,
+   "lon": -9.39773,
+   "population": 23700,
+   "geonameId": "2268436"
+  },
+  {
+   "id": "city:geonames-2270157",
+   "name": "Carnaxide",
+   "aliases": [
+    "Karnashide",
+    "Карнашиде"
+   ],
+   "lat": 38.72706,
+   "lon": -9.24671,
+   "population": 23698,
+   "geonameId": "2270157"
+  },
+  {
+   "id": "city:geonames-2264428",
+   "name": "Porto de Mós",
+   "aliases": [
+    "Porto de Mos",
+    "Porto Moz",
+    "Porto de Moz",
+    "Porto de Móz"
+   ],
+   "lat": 37.08534,
+   "lon": -8.68366,
+   "population": 23648,
+   "geonameId": "2264428"
+  },
+  {
+   "id": "city:geonames-2264718",
+   "name": "Pinhal Novo",
+   "aliases": [],
+   "lat": 38.63106,
+   "lon": -8.91376,
+   "population": 23510,
+   "geonameId": "2264718"
+  },
+  {
+   "id": "city:geonames-2265927",
+   "name": "Monte Estoril",
+   "aliases": [],
+   "lat": 38.70636,
+   "lon": -9.40595,
+   "population": 23375,
+   "geonameId": "2265927"
+  },
+  {
+   "id": "city:geonames-2270258",
+   "name": "Caniço",
+   "aliases": [
+    "Canico"
+   ],
+   "lat": 32.65078,
+   "lon": -16.83749,
+   "population": 23368,
+   "geonameId": "2270258"
+  },
+  {
+   "id": "city:geonames-2262968",
+   "name": "Sete Rios",
+   "aliases": [],
+   "lat": 38.74134,
+   "lon": -9.16133,
+   "population": 23261,
+   "geonameId": "2262968"
+  },
+  {
+   "id": "city:geonames-2264526",
+   "name": "Pontinha",
+   "aliases": [],
+   "lat": 38.76771,
+   "lon": -9.19935,
+   "population": 23249,
+   "geonameId": "2264526"
+  },
+  {
+   "id": "city:geonames-2742804",
+   "name": "Arcos de Valdevez",
+   "aliases": [
+    "Arcos de Vale de Vez",
+    "Arcos de Valle de Vez"
+   ],
+   "lat": 41.84668,
+   "lon": -8.41905,
+   "population": 22847,
+   "geonameId": "2742804"
+  },
+  {
+   "id": "city:geonames-2265726",
+   "name": "Moscavide e Portela",
+   "aliases": [],
+   "lat": 38.77929,
+   "lon": -9.10222,
+   "population": 22488,
+   "geonameId": "2265726"
+  },
+  {
+   "id": "city:geonames-11886964",
+   "name": "Parque das Nações",
+   "aliases": [
+    "Parque das Nacoes"
+   ],
+   "lat": 38.76908,
+   "lon": -9.09632,
+   "population": 22382,
+   "geonameId": "11886964"
+  },
+  {
+   "id": "city:geonames-2264508",
+   "name": "Portalegre",
+   "aliases": [
+    "Portalegri",
+    "bwrtalyghry",
+    "bwrtalyjry",
+    "poratalegre",
+    "portalegre",
+    "porutaregure",
+    "prtalgrh",
+    "pwrtalygry",
+    "pwrtalygrے",
+    "Порталегре",
+    "Порталегри",
+    "بورتاليجري",
+    "بورتاليغري",
+    "پرتالگره",
+    "پورتالیگری",
+    "پورتالیگرے",
+    "पोर्टालेग्रे",
+    "পোর্টালেগ্রে",
+    "ਪੋਰਟਾਲੇਗ੍ਰੇ",
+    "ፖritaleግre",
+    "ፖርታሌግሬ",
+    "ポルタレグレ"
+   ],
+   "lat": 39.29379,
+   "lon": -7.43122,
+   "population": 22368,
+   "geonameId": "2264508"
+  },
+  {
+   "id": "city:geonames-2733263",
+   "name": "Valadares",
+   "aliases": [
+    "Lavadoras",
+    "Lavadoures"
+   ],
+   "lat": 41.09294,
+   "lon": -8.63219,
+   "population": 22322,
+   "geonameId": "2733263"
+  },
+  {
+   "id": "city:geonames-2738214",
+   "name": "Lordelo do Ouro",
+   "aliases": [
+    "Lordello",
+    "Lordelo",
+    "Lordelu-du-Oru",
+    "Ouro",
+    "Лорделу-ду-Ору"
+   ],
+   "lat": 41.15059,
+   "lon": -8.64845,
+   "population": 22270,
+   "geonameId": "2738214"
+  },
+  {
+   "id": "city:geonames-2734484",
+   "name": "São João da Madeira",
+   "aliases": [
+    "Sao Joao da Madeira",
+    "San-Zhuan-da-Madejra",
+    "Santo Joao da Madeira",
+    "Santo João da Madeira",
+    "Sao Joao da Madeiro",
+    "Sao Joao de Madeira",
+    "São João da Madeiro",
+    "São João de Madeira",
+    "Сан-Жуан-да-Мадейра"
+   ],
+   "lat": 40.9007,
+   "lon": -8.4902,
+   "population": 22079,
+   "geonameId": "2734484"
+  },
+  {
+   "id": "city:geonames-2267112",
+   "name": "Lavradio",
+   "aliases": [],
+   "lat": 38.66808,
+   "lon": -9.05204,
+   "population": 21877,
+   "geonameId": "2267112"
+  },
+  {
+   "id": "city:geonames-2742051",
+   "name": "Bougado",
+   "aliases": [],
+   "lat": 41.33979,
+   "lon": -8.5518,
+   "population": 21680,
+   "geonameId": "2742051"
+  },
+  {
+   "id": "city:geonames-2271337",
+   "name": "Azambuja",
+   "aliases": [
+    "Azambuzha",
+    "a zan bu ya",
+    "Азамбужа",
+    "阿贊布雅"
+   ],
+   "lat": 39.07029,
+   "lon": -8.86822,
+   "population": 21422,
+   "geonameId": "2271337"
+  },
+  {
+   "id": "city:geonames-2732978",
+   "name": "Valongo",
+   "aliases": [
+    "Valonga",
+    "Valongu",
+    "Валонгу"
+   ],
+   "lat": 41.18883,
+   "lon": -8.49857,
+   "population": 21328,
+   "geonameId": "2732978"
+  },
+  {
+   "id": "city:geonames-2732513",
+   "name": "Vilar",
+   "aliases": [],
+   "lat": 40.62731,
+   "lon": -8.63225,
+   "population": 21227,
+   "geonameId": "2732513"
+  },
+  {
+   "id": "city:geonames-2270229",
+   "name": "Caparica",
+   "aliases": [],
+   "lat": 38.66179,
+   "lon": -9.20032,
+   "population": 21167,
+   "geonameId": "2270229"
+  },
+  {
+   "id": "city:geonames-2271547",
+   "name": "Areeiro",
+   "aliases": [],
+   "lat": 38.741,
+   "lon": -9.138,
+   "population": 21160,
+   "geonameId": "2271547"
+  },
+  {
+   "id": "city:geonames-2742700",
+   "name": "Arouca",
+   "aliases": [],
+   "lat": 40.93057,
+   "lon": -8.24488,
+   "population": 21146,
+   "geonameId": "2742700"
+  },
+  {
+   "id": "city:geonames-2270981",
+   "name": "Belas",
+   "aliases": [],
+   "lat": 38.7767,
+   "lon": -9.26353,
+   "population": 21019,
+   "geonameId": "2270981"
+  },
+  {
+   "id": "city:geonames-2267141",
+   "name": "Laranjeiro",
+   "aliases": [],
+   "lat": 38.65599,
+   "lon": -9.15376,
+   "population": 20988,
+   "geonameId": "2267141"
+  },
+  {
+   "id": "city:geonames-2267067",
+   "name": "Linda-a-Velha",
+   "aliases": [
+    "Linda a Velha"
+   ],
+   "lat": 38.71446,
+   "lon": -9.2422,
+   "population": 20895,
+   "geonameId": "2267067"
+  },
+  {
+   "id": "city:geonames-2268373",
+   "name": "Falagueira",
+   "aliases": [],
+   "lat": 38.76392,
+   "lon": -9.22804,
+   "population": 20788,
+   "geonameId": "2268373"
+  },
+  {
+   "id": "city:geonames-2733352",
+   "name": "Trofa",
+   "aliases": [],
+   "lat": 41.33729,
+   "lon": -8.5596,
+   "population": 20692,
+   "geonameId": "2733352"
+  },
+  {
+   "id": "city:geonames-2742504",
+   "name": "Baião",
+   "aliases": [
+    "Baiao"
+   ],
+   "lat": 41.16273,
+   "lon": -8.0347,
+   "population": 20522,
+   "geonameId": "2742504"
+  },
+  {
+   "id": "city:geonames-2267131",
+   "name": "Laranjeiro",
+   "aliases": [],
+   "lat": 37.06799,
+   "lon": -7.8078,
+   "population": 20473,
+   "geonameId": "2267131"
+  },
+  {
+   "id": "city:geonames-2270184",
+   "name": "Carcavelos",
+   "aliases": [],
+   "lat": 38.69105,
+   "lon": -9.32215,
+   "population": 20366,
+   "geonameId": "2270184"
+  },
+  {
+   "id": "city:geonames-2270377",
+   "name": "Camarate",
+   "aliases": [
+    "Camrate",
+    "Kamarate",
+    "Камарате"
+   ],
+   "lat": 38.80358,
+   "lon": -9.12809,
+   "population": 20177,
+   "geonameId": "2270377"
+  },
+  {
+   "id": "city:geonames-6941014",
+   "name": "Ponta Delgada",
+   "aliases": [
+    "PDL",
+    "Ponta Delgada (Azores)",
+    "Ponta Ntelgada",
+    "Ponta-Dehlgada",
+    "Ponta-Delgada",
+    "Pontae-Delgadae",
+    "bwnta dylghada",
+    "peng ta de er jia da",
+    "ponta dailagada",
+    "ponta delagada",
+    "pontadelgada",
+    "pwnta dlgada",
+    "pwnta ڈylgada",
+    "pwnta ډylګada",
+    "pwnth dlgdh",
+    "Πόντα Ντελγάδα",
+    "Понтæ-Делгадæ",
+    "Понта Делгада",
+    "Понта-Делгада",
+    "Понта-Дэлгада",
+    "פונטה דלגדה",
+    "بونتا ديلغادا",
+    "پونتا دلگادا",
+    "پونتا ڈیلگادا",
+    "پونتا ډیلګادا",
+    "पोन्ता डेलगाडा",
+    "পোন্তা ডেলগাডা",
+    "ਪੋਂਤਾ ਡੈਲਗਾਡਾ",
+    "ปงตาแดลกาดา",
+    "პონტა-დელგადა",
+    "ፖnita deልgada",
+    "ፖንታ ዴልጋዳ",
+    "ポンタ・デルガダ",
+    "蓬塔德爾加達",
+    "폰타델가다"
+   ],
+   "lat": 37.73952,
+   "lon": -25.66874,
+   "population": 20056,
+   "geonameId": "6941014"
+  },
+  {
+   "id": "city:geonames-2268575",
+   "name": "Entroncamento",
+   "aliases": [
+    "Entrocamento"
+   ],
+   "lat": 39.46667,
+   "lon": -8.46667,
+   "population": 19887,
+   "geonameId": "2268575"
+  },
+  {
+   "id": "city:geonames-2736657",
+   "name": "Paredes",
+   "aliases": [],
+   "lat": 41.20485,
+   "lon": -8.33147,
+   "population": 19834,
+   "geonameId": "2736657"
+  },
+  {
+   "id": "city:geonames-2737523",
+   "name": "Monção",
+   "aliases": [
+    "Moncao",
+    "Monsao",
+    "Monsão"
+   ],
+   "lat": 42.07892,
+   "lon": -8.48076,
+   "population": 19738,
+   "geonameId": "2737523"
+  },
+  {
+   "id": "city:geonames-2264736",
+   "name": "Piedade",
+   "aliases": [
+    "Cova da Piedade"
+   ],
+   "lat": 38.67005,
+   "lon": -9.15852,
+   "population": 19472,
+   "geonameId": "2264736"
+  },
+  {
+   "id": "city:geonames-2740174",
+   "name": "Custoias",
+   "aliases": [],
+   "lat": 41.1053,
+   "lon": -7.32097,
+   "population": 19406,
+   "geonameId": "2740174"
+  },
+  {
+   "id": "city:geonames-2271985",
+   "name": "Algés",
+   "aliases": [
+    "Alges"
+   ],
+   "lat": 38.70245,
+   "lon": -9.22936,
+   "population": 19327,
+   "geonameId": "2271985"
+  },
+  {
+   "id": "city:geonames-2262644",
+   "name": "Tomar",
+   "aliases": [
+    "Sellium",
+    "tomara",
+    "tomaru",
+    "tuo ma er",
+    "twmar",
+    "twmʼr",
+    "tʼomari",
+    "Томар",
+    "טומאר",
+    "تومار",
+    "तोमर",
+    "ტომარი",
+    "トマール",
+    "托馬爾"
+   ],
+   "lat": 39.60199,
+   "lon": -8.40924,
+   "population": 19168,
+   "geonameId": "2262644"
+  },
+  {
+   "id": "city:geonames-2742416",
+   "name": "Barcelos",
+   "aliases": [
+    "Barselos",
+    "Barselosas",
+    "Barselush",
+    "ba sai lu shen",
+    "barselosa",
+    "barselushi",
+    "barslws",
+    "barsylws",
+    "baruserosu",
+    "Барселос",
+    "Барселуш",
+    "بارسلوس",
+    "بارسيلوس",
+    "বার্সেলোস",
+    "ბარსელუში",
+    "バルセロス",
+    "巴塞卢什"
+   ],
+   "lat": 41.53174,
+   "lon": -8.61843,
+   "population": 19085,
+   "geonameId": "2742416"
+  },
+  {
+   "id": "city:geonames-2734306",
+   "name": "São Tiago de Custoias",
+   "aliases": [
+    "Sao Tiago de Custoias",
+    "Custoias"
+   ],
+   "lat": 41.2,
+   "lon": -8.63333,
+   "population": 19000,
+   "geonameId": "2734306"
+  },
+  {
+   "id": "city:geonames-2736521",
+   "name": "Pedroso",
+   "aliases": [],
+   "lat": 41.41103,
+   "lon": -8.74897,
+   "population": 18963,
+   "geonameId": "2736521"
+  },
+  {
+   "id": "city:geonames-2732475",
+   "name": "Vilar de Andorinho",
+   "aliases": [
+    "Andorinho",
+    "Vilar de Andorinha",
+    "Villar d'Andorinha",
+    "Villar d'Andorinho",
+    "Villar d’Andorinha",
+    "Villar d’Andorinho"
+   ],
+   "lat": 41.10574,
+   "lon": -8.58622,
+   "population": 18944,
+   "geonameId": "2732475"
+  },
+  {
+   "id": "city:geonames-2263326",
+   "name": "São João da Talha",
+   "aliases": [
+    "Sao Joao da Talha"
+   ],
+   "lat": 38.82378,
+   "lon": -9.09719,
+   "population": 18925,
+   "geonameId": "2263326"
+  },
+  {
+   "id": "city:geonames-11808241",
+   "name": "Azeitão",
+   "aliases": [
+    "Azeitao"
+   ],
+   "lat": 38.51919,
+   "lon": -9.0139,
+   "population": 18877,
+   "geonameId": "11808241"
+  },
+  {
+   "id": "city:geonames-2263523",
+   "name": "Santa Iria da Azóia",
+   "aliases": [
+    "Santa Iria da Azoia",
+    "Santa Iria",
+    "Santa Iria de Azoia"
+   ],
+   "lat": 38.8411,
+   "lon": -9.09908,
+   "population": 18573,
+   "geonameId": "2263523"
+  },
+  {
+   "id": "city:geonames-2736930",
+   "name": "Ovar",
+   "aliases": [
+    "Овар"
+   ],
+   "lat": 40.85862,
+   "lon": -8.62513,
+   "population": 18452,
+   "geonameId": "2736930"
+  },
+  {
+   "id": "city:geonames-2261639",
+   "name": "Vila Franca de Xira",
+   "aliases": [],
+   "lat": 38.95525,
+   "lon": -8.98966,
+   "population": 18355,
+   "geonameId": "2261639"
+  },
+  {
+   "id": "city:geonames-2270148",
+   "name": "Carnide",
+   "aliases": [],
+   "lat": 38.76667,
+   "lon": -9.18333,
+   "population": 18028,
+   "geonameId": "2270148"
+  },
+  {
+   "id": "city:geonames-2738348",
+   "name": "Leça da Palmeira",
+   "aliases": [
+    "Leca da Palmeira",
+    "Leca",
+    "Leca de Palmeira",
+    "Leça",
+    "Leça de Palmeira"
+   ],
+   "lat": 41.191,
+   "lon": -8.70027,
+   "population": 17996,
+   "geonameId": "2738348"
+  },
+  {
+   "id": "city:geonames-2266988",
+   "name": "Loulé",
+   "aliases": [
+    "Loule",
+    "Lola",
+    "Lovle",
+    "Ловле",
+    "Лола"
+   ],
+   "lat": 37.13772,
+   "lon": -8.01968,
+   "population": 17930,
+   "geonameId": "2266988"
+  },
+  {
+   "id": "city:geonames-2266319",
+   "name": "Moita",
+   "aliases": [],
+   "lat": 38.65078,
+   "lon": -8.99038,
+   "population": 17795,
+   "geonameId": "2266319"
+  },
+  {
+   "id": "city:geonames-2263667",
+   "name": "Sacavém",
+   "aliases": [
+    "Sacavem",
+    "Sacaben",
+    "Sacabis",
+    "Sacabén",
+    "Sakavain",
+    "Sakavem",
+    "Sakaven",
+    "Sakaven'",
+    "Sakavena",
+    "Sakavenas",
+    "sa ka wen",
+    "sakavuen",
+    "sakawm",
+    "shqban",
+    "Σακαβέμ",
+    "Сакавен",
+    "Сакавень",
+    "ساکاوم",
+    "شقبان",
+    "საკავენი",
+    "サカヴェン",
+    "萨卡文"
+   ],
+   "lat": 38.79202,
+   "lon": -9.10801,
+   "population": 17718,
+   "geonameId": "2263667"
+  },
+  {
+   "id": "city:geonames-2740313",
+   "name": "Covilhã",
+   "aliases": [
+    "Covilha",
+    "COV",
+    "Kovil'jan",
+    "Ковильян"
+   ],
+   "lat": 40.28106,
+   "lon": -7.50504,
+   "population": 17610,
+   "geonameId": "2740313"
+  },
+  {
+   "id": "city:geonames-2264087",
+   "name": "Ramada",
+   "aliases": [],
+   "lat": 38.80368,
+   "lon": -9.1877,
+   "population": 17535,
+   "geonameId": "2264087"
+  },
+  {
+   "id": "city:geonames-2740761",
+   "name": "Chaves",
+   "aliases": [
+    "CHV"
+   ],
+   "lat": 41.74019,
+   "lon": -7.46879,
+   "population": 17535,
+   "geonameId": "2740761"
+  },
+  {
+   "id": "city:geonames-2264575",
+   "name": "Pombal",
+   "aliases": [
+    "Помбал"
+   ],
+   "lat": 39.91674,
+   "lon": -8.62847,
+   "population": 17355,
+   "geonameId": "2264575"
+  },
+  {
+   "id": "city:geonames-2264269",
+   "name": "Quelfes",
+   "aliases": [],
+   "lat": 37.06003,
+   "lon": -7.82158,
+   "population": 17253,
+   "geonameId": "2264269"
+  },
+  {
+   "id": "city:geonames-2738707",
+   "name": "Ílhavo",
+   "aliases": [
+    "Ilhavo"
+   ],
+   "lat": 40.60188,
+   "lon": -8.67021,
+   "population": 17236,
+   "geonameId": "2738707"
+  },
+  {
+   "id": "city:geonames-2265169",
+   "name": "Parede",
+   "aliases": [],
+   "lat": 38.69282,
+   "lon": -9.35412,
+   "population": 17212,
+   "geonameId": "2265169"
+  },
+  {
+   "id": "city:geonames-2734379",
+   "name": "São Paulo de Frades",
+   "aliases": [
+    "Sao Paulo de Frades"
+   ],
+   "lat": 40.24678,
+   "lon": -8.39402,
+   "population": 17154,
+   "geonameId": "2734379"
+  },
+  {
+   "id": "city:geonames-2740057",
+   "name": "Eiras",
+   "aliases": [],
+   "lat": 40.24827,
+   "lon": -8.41549,
+   "population": 17154,
+   "geonameId": "2740057"
+  },
+  {
+   "id": "city:geonames-2740593",
+   "name": "Condeixa-a-Nova",
+   "aliases": [
+    "Condeixa"
+   ],
+   "lat": 40.11283,
+   "lon": -8.49804,
+   "population": 17078,
+   "geonameId": "2740593"
+  },
+  {
+   "id": "city:geonames-6930153",
+   "name": "Alfragide",
+   "aliases": [],
+   "lat": 38.73203,
+   "lon": -9.2192,
+   "population": 17044,
+   "geonameId": "6930153"
+  },
+  {
+   "id": "city:geonames-2734363",
+   "name": "São Pedro da Cova",
+   "aliases": [
+    "Sao Pedro da Cova"
+   ],
+   "lat": 41.14331,
+   "lon": -8.50033,
+   "population": 17011,
+   "geonameId": "2734363"
+  },
+  {
+   "id": "city:geonames-2732438",
+   "name": "Vila Real",
+   "aliases": [
+    "Bila Real",
+    "Bila Rial",
+    "VRL",
+    "Vila Realas",
+    "Vila-Real",
+    "bhila riyala",
+    "fyla ryal",
+    "lei a er cheng",
+    "vila ri'ala",
+    "vila ri'ola",
+    "vila riʿeል",
+    "vila-reali",
+    "wyla ryal",
+    "Βίλα Ρεάλ",
+    "Вила Реал",
+    "Вила-Реал",
+    "فيلا ريال",
+    "ویلا رئال",
+    "ویلا ریال",
+    "विला रिओल",
+    "ভিলা রিয়াল",
+    "ਵਿਲਾ ਰੀਅਲ",
+    "ვილა-რეალი",
+    "ቪላ ሪአል",
+    "ヴィラ・レアル",
+    "雷阿爾城"
+   ],
+   "lat": 41.3001,
+   "lon": -7.7432,
+   "population": 17001,
+   "geonameId": "2732438"
+  },
+  {
+   "id": "city:geonames-2265223",
+   "name": "Palmela",
+   "aliases": [],
+   "lat": 38.56902,
+   "lon": -8.90126,
+   "population": 16934,
+   "geonameId": "2265223"
+  },
+  {
+   "id": "city:geonames-2739788",
+   "name": "Fafe",
+   "aliases": [
+    "Фафе"
+   ],
+   "lat": 41.45083,
+   "lon": -8.17258,
+   "population": 16868,
+   "geonameId": "2739788"
+  },
+  {
+   "id": "city:geonames-2741865",
+   "name": "Cabeceiras de Basto",
+   "aliases": [
+    "Kabesejrash-di-Bashtu",
+    "ka bei sai la shen de ba shen tu",
+    "Кабесейраш-ди-Башту",
+    "Кабесейраш-ді-Башту",
+    "卡貝塞拉什德巴什圖"
+   ],
+   "lat": 41.51431,
+   "lon": -7.98942,
+   "population": 16710,
+   "geonameId": "2741865"
+  },
+  {
+   "id": "city:geonames-2270978",
+   "name": "Belém",
+   "aliases": [
+    "Belem",
+    "Belem Tower",
+    "Belem torony",
+    "Belemin torni",
+    "Belém Tower",
+    "Belém torony",
+    "Belémin torni",
+    "Betlehemsturninn",
+    "Torre de Belem",
+    "Torre de Belém",
+    "Tour de Belem",
+    "Tour de Belém",
+    "Tuerm vu Belem",
+    "Tuerm vu Belém",
+    "bei lun ta",
+    "贝伦塔"
+   ],
+   "lat": 38.69875,
+   "lon": -9.19289,
+   "population": 16546,
+   "geonameId": "2270978"
+  },
+  {
+   "id": "city:geonames-2739723",
+   "name": "Feira",
+   "aliases": [
+    "Santa Maria da Feira"
+   ],
+   "lat": 40.92535,
+   "lon": -8.54277,
+   "population": 16376,
+   "geonameId": "2739723"
+  },
+  {
+   "id": "city:geonames-2738347",
+   "name": "Leça do Bailio",
+   "aliases": [
+    "Leca do Bailio",
+    "Leca do Balio",
+    "Leca do Belio",
+    "Leça do Balio"
+   ],
+   "lat": 41.21201,
+   "lon": -8.63422,
+   "population": 16103,
+   "geonameId": "2738347"
+  },
+  {
+   "id": "city:geonames-2261697",
+   "name": "Vialonga",
+   "aliases": [],
+   "lat": 38.87206,
+   "lon": -9.07805,
+   "population": 16088,
+   "geonameId": "2261697"
+  },
+  {
+   "id": "city:geonames-2270629",
+   "name": "Buraca",
+   "aliases": [],
+   "lat": 38.73333,
+   "lon": -9.2,
+   "population": 16081,
+   "geonameId": "2270629"
+  },
+  {
+   "id": "city:geonames-2272222",
+   "name": "Albufeira",
+   "aliases": [
+    "Albufejra",
+    "albwfyra",
+    "Албуфейра",
+    "Албуфејра",
+    "آلبوفیرا"
+   ],
+   "lat": 37.08819,
+   "lon": -8.2503,
+   "population": 15851,
+   "geonameId": "2272222"
+  },
+  {
+   "id": "city:geonames-2742506",
+   "name": "Baguim do Monte",
+   "aliases": [
+    "Baguim"
+   ],
+   "lat": 41.19203,
+   "lon": -8.54118,
+   "population": 15850,
+   "geonameId": "2742506"
+  },
+  {
+   "id": "city:geonames-2272147",
+   "name": "Alcobaça",
+   "aliases": [
+    "Alcobaca",
+    "Alkobasa",
+    "a er ke ba sa",
+    "alakobaka",
+    "alkwbaka",
+    "alkwbasa",
+    "Алкобаса",
+    "Ալկոբասա",
+    "آلکوباسا",
+    "ألكوباكا",
+    "আলকোবাকা",
+    "阿爾科巴薩"
+   ],
+   "lat": 39.55223,
+   "lon": -8.97749,
+   "population": 15800,
+   "geonameId": "2272147"
+  },
+  {
+   "id": "city:geonames-2732785",
+   "name": "Vermoim",
+   "aliases": [],
+   "lat": 41.24315,
+   "lon": -8.60651,
+   "population": 15764,
+   "geonameId": "2732785"
+  },
+  {
+   "id": "city:geonames-2264923",
+   "name": "Peniche",
+   "aliases": [],
+   "lat": 39.3558,
+   "lon": -9.38112,
+   "population": 15662,
+   "geonameId": "2264923"
+  },
+  {
+   "id": "city:geonames-2270339",
+   "name": "Campo Grande",
+   "aliases": [],
+   "lat": 38.75471,
+   "lon": -9.16651,
+   "population": 15514,
+   "geonameId": "2270339"
+  },
+  {
+   "id": "city:geonames-2734410",
+   "name": "São Martinho do Bispo",
+   "aliases": [
+    "Sao Martinho do Bispo"
+   ],
+   "lat": 40.21021,
+   "lon": -8.45692,
+   "population": 15315,
+   "geonameId": "2734410"
+  },
+  {
+   "id": "city:geonames-2735175",
+   "name": "Ribeira de Frades",
+   "aliases": [],
+   "lat": 40.20503,
+   "lon": -8.47929,
+   "population": 15315,
+   "geonameId": "2735175"
+  },
+  {
+   "id": "city:geonames-2743095",
+   "name": "Alfena",
+   "aliases": [],
+   "lat": 41.23671,
+   "lon": -8.52454,
+   "population": 15211,
+   "geonameId": "2743095"
+  },
+  {
+   "id": "city:geonames-2262744",
+   "name": "Tavira",
+   "aliases": [
+    "Tabira",
+    "Tavira Municipality",
+    "ta wei la",
+    "tavuira",
+    "tawyra",
+    "Ταβίρα",
+    "Тавира",
+    "Тавіра",
+    "تاویرا",
+    "ტავირა",
+    "タヴィラ",
+    "塔維拉"
+   ],
+   "lat": 37.12734,
+   "lon": -7.64861,
+   "population": 15133,
+   "geonameId": "2262744"
+  },
+  {
+   "id": "city:geonames-2262582",
+   "name": "Torres Novas",
+   "aliases": [],
+   "lat": 39.47581,
+   "lon": -8.54348,
+   "population": 15002,
+   "geonameId": "2262582"
+  }
+ ]
+}

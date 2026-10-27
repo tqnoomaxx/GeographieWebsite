@@ -1,0 +1,70 @@
+{
+ "country": "country:VC",
+ "cities": [
+  {
+   "id": "city:VC-kingstown",
+   "name": "Kingstown",
+   "aliases": [
+    "Kin'nkstaoun",
+    "Kingstaun",
+    "Kingstauna",
+    "Kingstaunas",
+    "Kingstauno",
+    "Kingstaŭno",
+    "Kinqstaun",
+    "SVD",
+    "jin si dui",
+    "khing s thawn",
+    "kigasata'una",
+    "kincutavun",
+    "kingsata'una",
+    "kingseutaun",
+    "kingusutaun",
+    "kynghstawn",
+    "kyngztawn",
+    "Κίνγκσταουν",
+    "Κινγκστάουν",
+    "Кингстаун",
+    "Киҥстаун",
+    "Кінгстаун",
+    "Кінгстаўн",
+    "קינגסטאון",
+    "كينغستاون",
+    "کنگز ٹاؤن",
+    "کینگزتاون",
+    "किंग्सटाउन",
+    "ਕਿੰਗਸਟਾਊਨ",
+    "கிங்சுடவுன்",
+    "คิงส์ทาวน์",
+    "ཁིན་སི་ཐོན།",
+    "კინგსტაუნი",
+    "ኪንግስታውን",
+    "キングスタウン",
+    "金斯敦",
+    "킹스타운"
+   ],
+   "lat": 13.15527,
+   "lon": -61.22742,
+   "population": 24518,
+   "geonameId": "3577887"
+  },
+  {
+   "id": "city:geonames-3748746",
+   "name": "Calliaqua",
+   "aliases": [
+    "ka li ya kua",
+    "kalyakwa",
+    "kariakua",
+    "کالیاکوآ",
+    "カリアクア",
+    "卡利亚夸",
+    "卡利亞夸",
+    "卡利亞誇"
+   ],
+   "lat": 13.12867,
+   "lon": -61.19178,
+   "population": 24205,
+   "geonameId": "3748746"
+  }
+ ]
+}

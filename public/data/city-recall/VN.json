@@ -1,0 +1,5479 @@
+{
+ "country": "country:VN",
+ "cities": [
+  {
+   "id": "city:VN-ho-chi-minh-stadt",
+   "name": "Ho-Chi-Minh-Stadt",
+   "aliases": [
+    "Ho Chi Minh City",
+    "Cathair Ho Chi Minh",
+    "Cidade de Ho Chi Minh",
+    "Ciudad Ho Chi Minh",
+    "Gia GJinh",
+    "Gia Định",
+    "HCM City",
+    "HCMC",
+    "HCMV",
+    "Hcm",
+    "Ho Chi Minh",
+    "Ho Chi Minh Ville",
+    "Ho Chi Minh-borg",
+    "Ho Chi Minh-byen",
+    "Ho Chi Minh-staden",
+    "Ho Chi Minhin kaupunki",
+    "Ho Chi Minhstad",
+    "Ho Ci Minovo Mesto",
+    "Ho Si Min",
+    "Ho Si Min Grad",
+    "Ho Si Minh-varos",
+    "Ho Si Minh-város",
+    "Ho Či Minovo Město",
+    "Ho Ši Min",
+    "Ho Ši Min Grad",
+    "Ho-Chi-Minh-Ville",
+    "Ho-Ci-Min-urbo",
+    "Ho-Ĉi-Min-urbo",
+    "Hociminovo Mesto",
+    "Hosimin",
+    "Hosimina",
+    "Hosiminh",
+    "Hočiminovo Mesto",
+    "Hoşimin",
+    "Hošimina",
+    "Hošiminh",
+    "Hô Chi Minh Ville",
+    "Hô-Chi-Minh-Ville",
+    "Hồ Chí Minhin kaupunki",
+    "Khashymin",
+    "Kho Shi Min",
+    "Khoshimin",
+    "Kota Ho Chi Minh",
+    "Kota Hồ Chí Minh",
+    "SGN",
+    "Sai Gon",
+    "Saigon",
+    "Sajgon",
+    "Sayqon",
+    "Saïgon",
+    "Sài Gòn",
+    "T.P. Ho Chi Minh",
+    "T.P. Hồ Chí Minh",
+    "TP Ho Chi Minh",
+    "TPHCM",
+    "Thanh pho Ho Chi Minh",
+    "Thành phố Hồ Chí Minh",
+    "hochimin",
+    "hochimin shi",
+    "hojjimin",
+    "hu zhi ming shi",
+    "hw z'y myn syty",
+    "mdynt hw tshy mynh",
+    "saigon",
+    "saygwn",
+    "Сайгон",
+    "Сајгон",
+    "Хашымін",
+    "Хо Ши Мин",
+    "Хошимин",
+    "Хошимін",
+    "הו צ'י מין סיטי",
+    "سايگون",
+    "مدينة هو تشي مينه",
+    "サイゴン",
+    "ホーチミン",
+    "ホーチミン市",
+    "胡志明市",
+    "호찌민",
+    "호치민"
+   ],
+   "lat": 10.82302,
+   "lon": 106.62965,
+   "population": 14002598,
+   "geonameId": "1566083"
+  },
+  {
+   "id": "city:VN-hanoi",
+   "name": "Hanoi",
+   "aliases": [
+    "Anoi",
+    "Anoy",
+    "Anòy",
+    "Ganoj",
+    "HAN",
+    "Ha Noi",
+    "Ha Nui",
+    "Hanoj",
+    "Hanoja",
+    "Hanojo",
+    "Hanojus",
+    "Hanoy",
+    "Hanoí",
+    "Hanoï",
+    "Hanòi",
+    "Hanói",
+    "Ho-nui-su",
+    "Hà Nội",
+    "Hò-nui-sṳ",
+    "Ke Cho",
+    "Kecho",
+    "Keicho",
+    "Kescio",
+    "Kesciò",
+    "Khanoj",
+    "Kẻ Chợ",
+    "Thang Long",
+    "Thăng Long",
+    "hano'i",
+    "hanoi",
+    "hanoy",
+    "hanwy",
+    "hanxy",
+    "he nei",
+    "he nei shi",
+    "hyanaya",
+    "khanwy",
+    "Ανόι",
+    "Ганой",
+    "Ханой",
+    "Ханој",
+    "Հանոյ",
+    "האנוי",
+    "خانوي",
+    "هانوى",
+    "هانوي",
+    "هانوی",
+    "ھانۆی",
+    "ہنوئی",
+    "हनोई",
+    "হ্যানয়",
+    "ਹਨੋਈ",
+    "ହାନୋଇ",
+    "ஹனோய்",
+    "ಹಾನೊಯ್",
+    "හැනෝයි",
+    "ฮานอย",
+    "ཧེ་ནོ།",
+    "ဟနွိုင်းမြို့",
+    "ჰანოი",
+    "ሀኖይ",
+    "ទីក្រុងហានូយ",
+    "Ḥanoi",
+    "ハノイ",
+    "河內",
+    "河內市",
+    "하노이"
+   ],
+   "lat": 21.0245,
+   "lon": 105.84117,
+   "population": 8053663,
+   "geonameId": "1581130"
+  },
+  {
+   "id": "city:VN-hai-phong",
+   "name": "Hải Phòng",
+   "aliases": [
+    "Haiphong",
+    "HPH",
+    "Hai Phong",
+    "Hajfong",
+    "Hajfongo",
+    "Hayfon",
+    "Khajfon",
+    "ha'ipham",
+    "ha'iphanga",
+    "ha'iphaunga",
+    "hai fang shi",
+    "haifon",
+    "hayfwng",
+    "hayfwngh",
+    "hayfwnj",
+    "hayiፎniግ",
+    "hi fxng",
+    "Хайфон",
+    "هايفونج",
+    "هايفونغ",
+    "هایفونگ",
+    "ہyfwng",
+    "ہیفونگ",
+    "हाईफांग",
+    "হাইফং",
+    "ਹਾਈਫੌਂਗ",
+    "ไฮฟอง",
+    "ሃይፎንግ",
+    "ハイフォン",
+    "海防市"
+   ],
+   "lat": 20.86481,
+   "lon": 106.68345,
+   "population": 2625200,
+   "geonameId": "1581298"
+  },
+  {
+   "id": "city:VN-can-tho",
+   "name": "Cần Thơ",
+   "aliases": [
+    "Can Tho",
+    "Kan Tho",
+    "Kan Tkho",
+    "VCA",
+    "kaina tho",
+    "kan thw",
+    "kana tho",
+    "kani to",
+    "kanto",
+    "kantw",
+    "kyana tho",
+    "kyn tھw",
+    "qin ju shi",
+    "Кан Тхо",
+    "كان ثو",
+    "کانتو",
+    "کین تھو",
+    "कैन थो",
+    "ক্যান থো",
+    "ਕਨ ਥੋ",
+    "ካን ቶ",
+    "カントー",
+    "芹苴市"
+   ],
+   "lat": 10.03711,
+   "lon": 105.78825,
+   "population": 1507187,
+   "geonameId": "1586203"
+  },
+  {
+   "id": "city:VN-hue",
+   "name": "Huế",
+   "aliases": [
+    "Hue",
+    "Choue",
+    "HUI",
+    "Huje",
+    "Hujė",
+    "Hué",
+    "Khjue",
+    "Khjueh",
+    "Khue",
+    "Sun-fa-su",
+    "Sun-fa-sṳ",
+    "Thanh pho Hue",
+    "Thành phố Huế",
+    "fue",
+    "hi'u",
+    "hue",
+    "hwyh",
+    "hyu",
+    "hyw",
+    "shun hua",
+    "shun hua shi",
+    "we",
+    "Χουέ",
+    "Хуе",
+    "Хюе",
+    "Хюэ",
+    "הואה",
+    "هوئه",
+    "هيو",
+    "ہوائے",
+    "ह्यू",
+    "হিউ",
+    "ਹਿਊ",
+    "เว้",
+    "ჰუე",
+    "ሁwe",
+    "ሁዌ",
+    "フエ",
+    "順化",
+    "順化市",
+    "顺化市",
+    "후에"
+   ],
+   "lat": 16.4619,
+   "lon": 107.59546,
+   "population": 1380000,
+   "geonameId": "1580240"
+  },
+  {
+   "id": "city:VN-a-nang",
+   "name": "Đà Nẵng",
+   "aliases": [
+    "Da Nang",
+    "DAD",
+    "Danan",
+    "Danang",
+    "GJa Nang",
+    "Thanh Thai Phien",
+    "Thành Thái Phien",
+    "Tourane",
+    "Turan",
+    "da nam",
+    "da nanga",
+    "da naniግ",
+    "da nanj",
+    "danan",
+    "danang",
+    "xian gang",
+    "Да Нанг",
+    "Данан",
+    "Дананг",
+    "Дананґ",
+    "دا نانج",
+    "دانانگ",
+    "ڈa nang",
+    "ڈا نانگ",
+    "दा नांग",
+    "দা নাং",
+    "ਦਾ ਨਾਂਗ",
+    "ዳ ናንግ",
+    "ダナン",
+    "岘港",
+    "峴港",
+    "다낭"
+   ],
+   "lat": 16.06778,
+   "lon": 108.22083,
+   "population": 1276000,
+   "geonameId": "1583992"
+  },
+  {
+   "id": "city:VN-bien-hoa",
+   "name": "Biên Hòa",
+   "aliases": [
+    "Bien Hoa",
+    "B'en Khoa",
+    "Ben Khoa",
+    "Bia Hoa",
+    "Bien Hoa City",
+    "Bienhoa",
+    "bi'ena ho'a",
+    "bienhoa",
+    "biyena hoya",
+    "biyeni howa",
+    "byan hwa",
+    "byn ہwa",
+    "Бен Хоа",
+    "Бьен Хоа",
+    "بيان هوا",
+    "بیان هوا",
+    "بین ہوا",
+    "बिएन होआ",
+    "বিয়েন হোয়া",
+    "ਬਿਏਨ ਹੋਆ",
+    "ብየን ሆዋ",
+    "ビエンホア"
+   ],
+   "lat": 10.94469,
+   "lon": 106.82432,
+   "population": 1272235,
+   "geonameId": "1587923"
+  },
+  {
+   "id": "city:geonames-1566166",
+   "name": "Thanh Hóa",
+   "aliases": [
+    "Thanh Hoa",
+    "THD",
+    "Tan Khoa",
+    "Tan'һoa",
+    "Than Hoa",
+    "Than” Hoa",
+    "Tkhan Khoa",
+    "Tkhan' Khoa",
+    "Tkhan'khaa",
+    "Tkhan'khoa",
+    "Tʻhanhoa",
+    "qing hua shi",
+    "tainhoa",
+    "tainhoa shi",
+    "tan hwa",
+    "tana ho'a",
+    "tanh hwa",
+    "tanhoa",
+    "tanhuaia",
+    "tani howa",
+    "thanha ho'a",
+    "thantha hoya",
+    "tھan ہwa",
+    "Таньһоа",
+    "Тањ Хоа",
+    "Тхан Хоа",
+    "Тхань Хоа",
+    "Тханьхаа",
+    "Тханьхоа",
+    "Թhանհոա",
+    "تان هوا",
+    "تانه هوا",
+    "تھان ہوا",
+    "थान्ह होआ",
+    "থান্থ হোয়া",
+    "ਤਾਨ ਹੋਆ",
+    "თანჰუაია",
+    "ታን ሆዋ",
+    "タインホア市",
+    "清化市",
+    "타인호아",
+    "탄호아"
+   ],
+   "lat": 19.8,
+   "lon": 105.76667,
+   "population": 850000,
+   "geonameId": "1566166"
+  },
+  {
+   "id": "city:VN-vinh",
+   "name": "Vinh",
+   "aliases": [
+    "VII",
+    "Vin",
+    "Vin'",
+    "Vinis",
+    "bhinaha",
+    "bin",
+    "fynh",
+    "rong shi",
+    "vina",
+    "vinha",
+    "vinihi",
+    "vuin",
+    "wiy",
+    "wyn",
+    "wyn  wytnam",
+    "wynh",
+    "Вин",
+    "Винь",
+    "Вінь",
+    "וין",
+    "فينه",
+    "وین، ویتنام",
+    "وینه",
+    "وینہ",
+    "विन्ह",
+    "ভিনহ",
+    "ਵਿਨ",
+    "วิญ",
+    "ቪንህ",
+    "ヴィン",
+    "荣市",
+    "빈"
+   ],
+   "lat": 18.67337,
+   "lon": 105.69232,
+   "population": 790000,
+   "geonameId": "1562798"
+  },
+  {
+   "id": "city:geonames-12382296",
+   "name": "Thuận An",
+   "aliases": [
+    "Thuan An",
+    "Tuan An",
+    "Туан Ан"
+   ],
+   "lat": 10.9239,
+   "lon": 106.71428,
+   "population": 588616,
+   "geonameId": "12382296"
+  },
+  {
+   "id": "city:VN-nha-trang",
+   "name": "Nha Trang",
+   "aliases": [
+    "INhatrang",
+    "Kanh-Hoa",
+    "NHA",
+    "Nacana",
+    "Nga-tsong-su",
+    "Ngà-tsông-sṳ",
+    "Niacangas",
+    "Niačangas",
+    "Nja Chang",
+    "Njachang",
+    "naha tranga",
+    "nateulang",
+    "nha tram",
+    "nha trang",
+    "nha tranga",
+    "nha tranj",
+    "nha trng",
+    "niha tiraniግ",
+    "nyachan",
+    "nyajjang",
+    "nھa ٹrang",
+    "ya cang",
+    "ya zhuang",
+    "ya zhuang shi",
+    "Ņačana",
+    "Ња Чанг",
+    "Ня Чанг",
+    "Нячанг",
+    "نها ترانج",
+    "نها ترانگ",
+    "نها ترنگ",
+    "نھا ٹرانگ",
+    "न्हा ट्रांग",
+    "ন্হা ট্রাং",
+    "ਨਹਾ ਤ੍ਰਾਂਗ",
+    "ญาจาง",
+    "ንሃ ትራንግ",
+    "ニャチャン",
+    "芽庄市",
+    "芽莊",
+    "芽莊市",
+    "나트랑",
+    "냐짱"
+   ],
+   "lat": 12.24507,
+   "lon": 109.19432,
+   "population": 579000,
+   "geonameId": "1572151"
+  },
+  {
+   "id": "city:geonames-1565019",
+   "name": "Thủ Đức",
+   "aliases": [
+    "Thu GJuc",
+    "Thu Duc",
+    "Tkhudyk",
+    "Тхудык"
+   ],
+   "lat": 10.84863,
+   "lon": 106.77209,
+   "population": 524670,
+   "geonameId": "1565019"
+  },
+  {
+   "id": "city:geonames-1568574",
+   "name": "Qui Nhon",
+   "aliases": [
+    "Ki N'on",
+    "Ki N’on",
+    "Kin-hon",
+    "Kui Nkhon",
+    "Kuinjon",
+    "Kwinhon",
+    "Qui Nhan",
+    "Qui Nhơn",
+    "Quinn Yan",
+    "Quinton",
+    "Quy Nhon",
+    "Quy Nhơn",
+    "UIH",
+    "gui ren shi",
+    "kku-inyeon",
+    "ku nihoni",
+    "ku'i nhana",
+    "ku'i nhona",
+    "kuinyon",
+    "kwyh nhwn",
+    "kwyy nhwn",
+    "kwyy nہwn",
+    "kyu'i nhona",
+    "Куи Нхон",
+    "Куинён",
+    "كويه نهون",
+    "کوئی نهون",
+    "کوئی نہون",
+    "क्यूई न्हॉन",
+    "কুই ন্হন",
+    "ਕੁਈ ਨ੍ਹੋਨ",
+    "ኩ ንሆን",
+    "クイニョン",
+    "歸仁市",
+    "꾸이년"
+   ],
+   "lat": 13.77648,
+   "lon": 109.22367,
+   "population": 519208,
+   "geonameId": "1568574"
+  },
+  {
+   "id": "city:VN-vung-tau",
+   "name": "Vũng Tàu",
+   "aliases": [
+    "Vung Tau",
+    "Cap-Saint-Jacques",
+    "Cape Saint James",
+    "Saint James",
+    "St. James",
+    "VTG",
+    "Ville du Cap",
+    "Vungtau",
+    "Xa Vung Tau",
+    "bungttau",
+    "buntau",
+    "tou dun shi",
+    "Вунгтау",
+    "ブンタウ",
+    "頭 頓市",
+    "붕따우"
+   ],
+   "lat": 10.34599,
+   "lon": 107.08426,
+   "population": 464860,
+   "geonameId": "1562414"
+  },
+  {
+   "id": "city:geonames-1583518",
+   "name": "Dĩ An",
+   "aliases": [
+    "Di An",
+    "Ди Ан"
+   ],
+   "lat": 10.90682,
+   "lon": 106.7694,
+   "population": 463023,
+   "geonameId": "1583518"
+  },
+  {
+   "id": "city:geonames-1568510",
+   "name": "Rạch Giá",
+   "aliases": [
+    "Rach Gia",
+    "Lit-ka-su",
+    "Li̍t-ka-sṳ",
+    "Rac'zja",
+    "Rach Zha",
+    "Rach Zhia",
+    "Racza",
+    "Racža",
+    "Rat'zja",
+    "VKG",
+    "Zhac Zhja",
+    "di shi shi",
+    "lagja",
+    "raca ji'a",
+    "raca jiya",
+    "rach jya",
+    "racha gya",
+    "raci jiya",
+    "rakkuza",
+    "ratsh jya",
+    "rch gya",
+    "sak sa",
+    "Жаћ Жја",
+    "Ратьзя",
+    "Рацьзя",
+    "Рач Жа",
+    "راتش جيا",
+    "راچ جیا",
+    "راچا گیا",
+    "رچ گیآ",
+    "राच जिया",
+    "রাচ জিয়া",
+    "ਰਾਚ ਜਿਆ",
+    "สักซ้า",
+    "ራች ጂያ",
+    "ラックザー",
+    "迪石市",
+    "락자"
+   ],
+   "lat": 10.01245,
+   "lon": 105.08091,
+   "population": 459860,
+   "geonameId": "1568510"
+  },
+  {
+   "id": "city:geonames-1591527",
+   "name": "Bắc Giang",
+   "aliases": [
+    "Bac Giang",
+    "Bakziangas",
+    "Bakzjang",
+    "Pet-kong",
+    "Pet-kông",
+    "Phu Lang Thong",
+    "Phu Lang Thuong",
+    "Phu Long Thuong",
+    "Thuong",
+    "Vilojati Bak Giang",
+    "bagjang",
+    "bak gyang",
+    "bak zyang",
+    "bakuzan",
+    "bei jiang shi",
+    "Бакзянг",
+    "Вилояти Бак Гианг",
+    "باک زیانگ",
+    "باک گیانگ",
+    "バクザン",
+    "北江市",
+    "박장"
+   ],
+   "lat": 21.27307,
+   "lon": 106.1946,
+   "population": 450000,
+   "geonameId": "1591527"
+  },
+  {
+   "id": "city:VN-nam-inh",
+   "name": "Nam Định",
+   "aliases": [
+    "Nam GJinh",
+    "Nam Din",
+    "Nam Din'",
+    "Nam Dinh",
+    "Namdin'",
+    "Thanh Pho Nam Dinh",
+    "Thành Phố Nam Định",
+    "nam dyh",
+    "nam dynh",
+    "nam ڈinہ",
+    "nama dina",
+    "nama dinaha",
+    "nama dinha",
+    "namudin",
+    "naም dinihi",
+    "Нам Динь",
+    "Намдинь",
+    "نام ديه",
+    "نام دینه",
+    "نام ڈِنہ",
+    "नाम दिन्ह",
+    "নাম দিনহ",
+    "ਨਾਮ ਡਿਨ",
+    "ናም ዲንህ",
+    "ナムディン"
+   ],
+   "lat": 20.43389,
+   "lon": 106.17729,
+   "population": 448225,
+   "geonameId": "1573517"
+  },
+  {
+   "id": "city:VN-buon-ma-thuot",
+   "name": "Buôn Ma Thuột",
+   "aliases": [
+    "Buon Ma Thuot",
+    "BMV",
+    "Ban Me Thaut",
+    "Ban Me Thnot",
+    "Ban Me Thot",
+    "Ban Me Thout",
+    "Ban Me Thuot",
+    "Ban Mê Thuột",
+    "Ban-me-Thurt",
+    "Benmethout",
+    "Buon Ma Tkhuot",
+    "Buon Me Thuot",
+    "Buôn Mê Thuột",
+    "Lac Giao",
+    "Lạc Giao",
+    "Me Thuot",
+    "Metuotas",
+    "bu'ona ma thu'ota",
+    "buonmatouotto",
+    "buʾoni ma tuʾoti",
+    "bwwn ma thwt",
+    "bwwn ma twt",
+    "bwwn ma tھwٹ",
+    "Буон Ма Тхуот",
+    "بوون ما توت",
+    "بوون ما تھوٹ",
+    "بوون ما ثوت",
+    "बुओन मा थुओत",
+    "বুওন মা থুওত",
+    "ਬੁਓਨ ਮਾ ਥੁਓਤ",
+    "ቡዖን ማ ቱዖት",
+    "ブオンマトゥオット"
+   ],
+   "lat": 12.66747,
+   "lon": 108.03775,
+   "population": 434256,
+   "geonameId": "1586896"
+  },
+  {
+   "id": "city:geonames-1566319",
+   "name": "Thái Nguyên",
+   "aliases": [
+    "Thai Nguyen",
+    "Taj-Nguen",
+    "Thanh Pho Thai Nguyen",
+    "Thành Phố Thái Nguyên",
+    "Tkhaj Nguen",
+    "ta'i nagu'ena",
+    "taiguen",
+    "tay njwyn",
+    "tayi niguyeni",
+    "tayy ngwyyn",
+    "tha'i n'guyena",
+    "tha'i naguyena",
+    "tھayy ngwyyں",
+    "Тай-Нгуен",
+    "Тхай Нгуен",
+    "تاي نجوين",
+    "تایی نگویین",
+    "تھائی نگوئیں",
+    "थाई न्गुयेन",
+    "থাই নগুয়েন",
+    "ਤਾਈ ਨਗੁਏਨ",
+    "ታይ ንጉዬን",
+    "タイグエン"
+   ],
+   "lat": 21.59422,
+   "lon": 105.84817,
+   "population": 420000,
+   "geonameId": "1566319"
+  },
+  {
+   "id": "city:geonames-1562820",
+   "name": "Việt Trì",
+   "aliases": [
+    "Viet Tri",
+    "V'et Tri",
+    "Vietri",
+    "betotori",
+    "bhiyeta tri",
+    "fyt try",
+    "vi'eta tri",
+    "viyata tri",
+    "viyeti tiri",
+    "wyt try",
+    "wyt ٹry",
+    "Вьет Три",
+    "فيت تري",
+    "ویت تری",
+    "ویت ٹری",
+    "वियत त्रि",
+    "ভিয়েত ত্রি",
+    "ਵੀਏਟ ਤ੍ਰੀ",
+    "ቪየት ትሪ",
+    "ベトトリ"
+   ],
+   "lat": 21.32274,
+   "lon": 105.40198,
+   "population": 415280,
+   "geonameId": "1562820"
+  },
+  {
+   "id": "city:geonames-9645085",
+   "name": "Quận Mười",
+   "aliases": [
+    "Quan Muoi",
+    "Kuan Muoi",
+    "Q10",
+    "Quan 10",
+    "Quận 10",
+    "Куан Муои"
+   ],
+   "lat": 10.76823,
+   "lon": 106.66632,
+   "population": 399000,
+   "geonameId": "9645085"
+  },
+  {
+   "id": "city:geonames-1565022",
+   "name": "Thủ Dầu Một",
+   "aliases": [
+    "Thu Dau Mot",
+    "Phu Cuong",
+    "Phú Cường",
+    "Thu Dau Mot City",
+    "Tkhu Dau Mot",
+    "Tkhuzaumot",
+    "thu da'u mata",
+    "thu da'u mota",
+    "thu seiwhmt",
+    "thw daw mwt",
+    "touzaumotto",
+    "tu daው moti",
+    "tu long mu shi she",
+    "tujeoumos",
+    "tw daw mwt",
+    "tw dayw mwt",
+    "Тху Дау Мот",
+    "Тхузаумот",
+    "تو دائو موت",
+    "تو داو موت",
+    "تھو داو مؤت",
+    "ثو داو موت",
+    "थु दाउ मोत",
+    "থু দাউ মট",
+    "ਥੁ ਦਾਊ ਮੋਟ",
+    "ถูเสิ่วหมต",
+    "ቱ ዳው ሞት",
+    "トゥーザウモット",
+    "土龍木市社",
+    "투저우못"
+   ],
+   "lat": 10.9804,
+   "lon": 106.6519,
+   "population": 373105,
+   "geonameId": "1565022"
+  },
+  {
+   "id": "city:geonames-8616121",
+   "name": "Đống Đa",
+   "aliases": [
+    "GJong GJa",
+    "Dong Da",
+    "Dongda",
+    "Донгда"
+   ],
+   "lat": 21.013,
+   "lon": 105.825,
+   "population": 371606,
+   "geonameId": "8616121"
+  },
+  {
+   "id": "city:geonames-1588060",
+   "name": "Bến Cát",
+   "aliases": [
+    "Ben Cat",
+    "Ben Kat",
+    "Бен Кат"
+   ],
+   "lat": 11.15,
+   "lon": 106.6,
+   "population": 364578,
+   "geonameId": "1588060"
+  },
+  {
+   "id": "city:geonames-1564064",
+   "name": "Long Bien",
+   "aliases": [
+    "Long Biên",
+    "Лонг Биен"
+   ],
+   "lat": 21.03333,
+   "lon": 105.9,
+   "population": 347829,
+   "geonameId": "1564064"
+  },
+  {
+   "id": "city:geonames-13405933",
+   "name": "Bắc Từ Liêm",
+   "aliases": [
+    "Bac Tu Liem",
+    "Bak Tu Liem",
+    "Бак Ту Лием"
+   ],
+   "lat": 21.06532,
+   "lon": 105.74661,
+   "population": 340605,
+   "geonameId": "13405933"
+  },
+  {
+   "id": "city:geonames-9645084",
+   "name": "Quận Mười Một",
+   "aliases": [
+    "Quan Muoi Mot",
+    "Kuan Muoi Mot",
+    "Q11",
+    "Quan 11",
+    "Quận 11",
+    "Куан Муои Мот"
+   ],
+   "lat": 10.76383,
+   "lon": 106.64355,
+   "population": 332536,
+   "geonameId": "9645084"
+  },
+  {
+   "id": "city:geonames-1571968",
+   "name": "Hoa Lư",
+   "aliases": [
+    "Hoa Lu",
+    "Nin Bin",
+    "Nin' Bin'",
+    "Ninbinh",
+    "Ninh Binh",
+    "Ninh Bình",
+    "Thanh Pho Ninh Binh",
+    "Thành Phố Ninh Bình",
+    "nina bina",
+    "ninaha binaha",
+    "ninbin",
+    "ninha binha",
+    "ninihi binihi",
+    "ninہ binہ",
+    "nynh bynh",
+    "Нинь Бинь",
+    "نينه بينه",
+    "نِنہ بِنہ",
+    "نینه بینه",
+    "निन्ह बिन्ह",
+    "নিনহ বিনহ",
+    "ਨਿਨ ਬਿਨ",
+    "ንንህ ብንህ",
+    "ニンビン",
+    "닌빈"
+   ],
+   "lat": 20.25809,
+   "lon": 105.97965,
+   "population": 319125,
+   "geonameId": "1571968"
+  },
+  {
+   "id": "city:geonames-9871722",
+   "name": "Gia Lâm",
+   "aliases": [
+    "Gia Lam",
+    "Гиа Лам"
+   ],
+   "lat": 21.02,
+   "lon": 105.939,
+   "population": 309353,
+   "geonameId": "9871722"
+  },
+  {
+   "id": "city:geonames-1594308",
+   "name": "An Nhơn",
+   "aliases": [
+    "An Nhon",
+    "An Nkhon",
+    "Bhin-Dinh",
+    "Bin Din",
+    "Binh Dinh",
+    "Ан Нхон"
+   ],
+   "lat": 13.88579,
+   "lon": 109.10823,
+   "population": 308396,
+   "geonameId": "1594308"
+  },
+  {
+   "id": "city:geonames-8616127",
+   "name": "Hai Bà Trưng",
+   "aliases": [
+    "Hai Ba Trung",
+    "Hai BaTrung",
+    "Hai BàTrưng",
+    "Khai Ba Trung",
+    "Хаи Ба Трунг"
+   ],
+   "lat": 21.01341,
+   "lon": 105.84772,
+   "population": 303586,
+   "geonameId": "8616127"
+  },
+  {
+   "id": "city:geonames-1572532",
+   "name": "Nghi Sơn",
+   "aliases": [
+    "Nghi Son",
+    "Bien Son",
+    "Ngkhi Son",
+    "Нгхи Сон"
+   ],
+   "lat": 19.32746,
+   "lon": 105.82145,
+   "population": 302210,
+   "geonameId": "1572532"
+  },
+  {
+   "id": "city:geonames-8531735",
+   "name": "Phu Quoc",
+   "aliases": [
+    "Fukuok",
+    "Koh Trol",
+    "PQC",
+    "Phú Quốc",
+    "fu guo dao",
+    "fukokku dao",
+    "pukkog",
+    "Фукуок",
+    "កោះតរល",
+    "កោះត្រល់",
+    "フーコック島",
+    "富國島",
+    "푸꼭"
+   ],
+   "lat": 10.22409,
+   "lon": 103.97156,
+   "population": 294419,
+   "geonameId": "8531735"
+  },
+  {
+   "id": "city:geonames-8616118",
+   "name": "Thanh Xuân",
+   "aliases": [
+    "Thanh Xuan",
+    "Tankh Ksuan",
+    "Танх Ксуан"
+   ],
+   "lat": 20.99472,
+   "lon": 105.79977,
+   "population": 293292,
+   "geonameId": "8616118"
+  },
+  {
+   "id": "city:geonames-8616113",
+   "name": "Cầu Giấy",
+   "aliases": [
+    "Cau Giay",
+    "Kau Giaj",
+    "Кау Гиай"
+   ],
+   "lat": 21.03228,
+   "lon": 105.80073,
+   "population": 292536,
+   "geonameId": "8616113"
+  },
+  {
+   "id": "city:geonames-1591449",
+   "name": "Bắc Ninh",
+   "aliases": [
+    "Bac Ninh",
+    "Bacht Ninh",
+    "Bak Nin",
+    "Bak Nin'",
+    "Bak Ninh",
+    "baika nina",
+    "baika ninha",
+    "bak nynh",
+    "baka ninha",
+    "baki ninihi",
+    "bakunin",
+    "byk nynہ",
+    "Бак Нинь",
+    "باك نينه",
+    "باک نینه",
+    "بیک نینہ",
+    "बैक निन्ह",
+    "বাক নিন্হ",
+    "ਬੈਕ ਨਿਨ",
+    "ባክ ንንህ",
+    "バクニン"
+   ],
+   "lat": 21.18608,
+   "lon": 106.07631,
+   "population": 287658,
+   "geonameId": "1591449"
+  },
+  {
+   "id": "city:geonames-1570357",
+   "name": "Phú Mỹ",
+   "aliases": [
+    "Phu My",
+    "Fu Mij",
+    "Фу Мий"
+   ],
+   "lat": 10.63333,
+   "lon": 107.06667,
+   "population": 287055,
+   "geonameId": "1570357"
+  },
+  {
+   "id": "city:geonames-1575627",
+   "name": "Long Xuyên",
+   "aliases": [
+    "Long Xuyen",
+    "Cholong Xuyen",
+    "Chơlong Xuyen",
+    "Long Suehn",
+    "Long Swiyen",
+    "Long-Shuyen",
+    "lam juyena",
+    "lang zwyin",
+    "lang zwyyn",
+    "langa ju'ena",
+    "langa svena",
+    "loniግ zowayini",
+    "lwnj swyn",
+    "ronguzuen",
+    "Лонг Суэн",
+    "لانگ زویِن",
+    "لانگ زویین",
+    "لونج سوين",
+    "लांग श्वेन",
+    "লং জুয়েন",
+    "ਲਾਂਗ ਜੁਏਨ",
+    "ሎንግ ዞዋይን",
+    "ロングズエン"
+   ],
+   "lat": 10.38639,
+   "lon": 105.43518,
+   "population": 286140,
+   "geonameId": "1575627"
+  },
+  {
+   "id": "city:geonames-1588129",
+   "name": "Ba Vì",
+   "aliases": [
+    "Ba Vi",
+    "X. Lung",
+    "X. Lũng",
+    "Ба Ви"
+   ],
+   "lat": 21.08333,
+   "lon": 105.38333,
+   "population": 282600,
+   "geonameId": "1588129"
+  },
+  {
+   "id": "city:geonames-1568770",
+   "name": "Quảng Ngãi",
+   "aliases": [
+    "Quang Ngai",
+    "Kang Ngei",
+    "Kong-ngi-su",
+    "Kuang Ngaj",
+    "Kuangngaj",
+    "Kvang Ngaj",
+    "Kwang Ngai",
+    "Kóng-ngi-sṳ",
+    "Thanh pho Quang Ngai",
+    "Thành phố Quảng Ngãi",
+    "Vilojati Kuang Ngaj",
+    "guang yi shi",
+    "kkwang-eung-ai",
+    "koyam enaga'i",
+    "ku'anga naga'i",
+    "kuangai",
+    "kvanga naga'i",
+    "kwang ngay",
+    "kwang ngayy",
+    "kwaniግ nigayi",
+    "kwanj njay",
+    "Вилояти Куанг Нгай",
+    "Кванг Нгај",
+    "Куанг Нгай",
+    "Куангнгай",
+    "كوانج نجاي",
+    "کوانگ نگائی",
+    "کوانگ نگای",
+    "क्वांग नगाई",
+    "কোয়াং এনগাই",
+    "ਕੁਆਂਗ ਨਗਾਈ",
+    "ኳንግ ንጋይ",
+    "クアンガイ",
+    "廣義市",
+    "꽝응아이"
+   ],
+   "lat": 15.12047,
+   "lon": 108.79232,
+   "population": 278496,
+   "geonameId": "1568770"
+  },
+  {
+   "id": "city:geonames-9645072",
+   "name": "Quận Sáu",
+   "aliases": [
+    "Quan Sau",
+    "Kuan Sau",
+    "Q6",
+    "Quan 6",
+    "Quận 6",
+    "Куан Сау"
+   ],
+   "lat": 10.7468,
+   "lon": 106.64903,
+   "population": 271050,
+   "geonameId": "9645072"
+  },
+  {
+   "id": "city:geonames-1574023",
+   "name": "Mỹ Tho",
+   "aliases": [
+    "My Tho",
+    "Mita",
+    "Mitho",
+    "ma'i tho",
+    "may tw",
+    "maya tho",
+    "mi to",
+    "miso",
+    "my thw",
+    "myے tھw",
+    "Мита",
+    "مئے تھو",
+    "مای تو",
+    "مي ثو",
+    "माय थो",
+    "মাই থো",
+    "ਮਾਈ ਥੋ",
+    "ሚ ቶ",
+    "ミーソー"
+   ],
+   "lat": 10.36004,
+   "lon": 106.35996,
+   "population": 270700,
+   "geonameId": "1574023"
+  },
+  {
+   "id": "city:geonames-1580410",
+   "name": "Hạ Long",
+   "aliases": [
+    "Ha Long",
+    "Hon Cay",
+    "Hon Gai",
+    "Hon Gay",
+    "Hon Goi",
+    "Hong Gai",
+    "Honggay",
+    "Hồng Gai",
+    "Khalong",
+    "Thanh Pho Ha Long",
+    "Thành Phố Hạ Long",
+    "VDO",
+    "ha lam",
+    "ha lang",
+    "ha langa",
+    "ha lon'ga",
+    "ha loniግ",
+    "ha lwng",
+    "hallong",
+    "halwnj",
+    "haron shi",
+    "xia long shi",
+    "Халонг",
+    "ها لانگ",
+    "ها لونگ",
+    "هالونج",
+    "ہa lang",
+    "ہا لانگ",
+    "हा लॉन्ग",
+    "হা লং",
+    "ਹਾ ਲਾਂਗ",
+    "ሃ ሎንግ",
+    "ハロン市",
+    "下龍市",
+    "下龙市",
+    "할롱"
+   ],
+   "lat": 20.95045,
+   "lon": 107.07336,
+   "population": 270054,
+   "geonameId": "1580410"
+  },
+  {
+   "id": "city:geonames-1581047",
+   "name": "Hà Tĩnh",
+   "aliases": [
+    "Ha Tinh",
+    "Ha Thin",
+    "Ha Tin",
+    "Ho-tshin-su",
+    "Hò-tshin-sṳ",
+    "Kha Tin",
+    "Kha Tin'",
+    "Khatin'",
+    "Thanh Sen",
+    "Thành Sen",
+    "ha tina",
+    "ha tinha",
+    "ha tinihi",
+    "ha tiy",
+    "ha tyn",
+    "ha tynh",
+    "hatin",
+    "hattin",
+    "he jing shi",
+    "Ха Тин",
+    "Ха Тинь",
+    "Хатинь",
+    "ها تينه",
+    "ها تین",
+    "ہا تنہ",
+    "हा तिन्ह",
+    "হা তিন্হ",
+    "ਹਾ ਤਿਨ",
+    "ห่าติ๋ญ",
+    "ሃ ትንህ",
+    "ハティン",
+    "河靜市",
+    "하띤"
+   ],
+   "lat": 18.34282,
+   "lon": 105.90569,
+   "population": 266321,
+   "geonameId": "1581047"
+  },
+  {
+   "id": "city:geonames-1584071",
+   "name": "Ðà Lạt",
+   "aliases": [
+    "Da Lat",
+    "DLI",
+    "Da lat",
+    "Dalat",
+    "da laita",
+    "da lat",
+    "da lata",
+    "da lati",
+    "dalat",
+    "daratto",
+    "Далат",
+    "دا لات",
+    "دالات",
+    "ڈa lat",
+    "ڈا لات",
+    "दा लैट",
+    "দা লাট",
+    "ਦਾ ਲਾਟ",
+    "ዳ ላት",
+    "ダラット"
+   ],
+   "lat": 11.94646,
+   "lon": 108.44193,
+   "population": 258014,
+   "geonameId": "1584071"
+  },
+  {
+   "id": "city:geonames-1560565",
+   "name": "Xuân Lộc",
+   "aliases": [
+    "Xuan Loc",
+    "Ksuan Lok",
+    "Xa Xuan Loc",
+    "Ксуан Лок"
+   ],
+   "lat": 10.93333,
+   "lon": 107.23333,
+   "population": 253140,
+   "geonameId": "1560565"
+  },
+  {
+   "id": "city:geonames-1582497",
+   "name": "Thị Trấn Đông Triều",
+   "aliases": [
+    "Thi Tran GJong Trieu",
+    "Dong Trieu",
+    "Thi Tran Dong Trieu",
+    "Ti Tran Zong Trieu",
+    "Đông Triều",
+    "Ти Тран Зонг Триеу"
+   ],
+   "lat": 21.08242,
+   "lon": 106.5138,
+   "population": 248896,
+   "geonameId": "1582497"
+  },
+  {
+   "id": "city:geonames-1581326",
+   "name": "Hải Dương",
+   "aliases": [
+    "Hai Duong",
+    "Hai Doong",
+    "Hai dzung",
+    "Hai-Doung",
+    "Haidong",
+    "Haidöng",
+    "Khajzyong",
+    "Thanh Pho Hai Duong",
+    "Thành Phố Hải Dương",
+    "Хайзыонг"
+   ],
+   "lat": 20.94099,
+   "lon": 106.33302,
+   "population": 241373,
+   "geonameId": "1581326"
+  },
+  {
+   "id": "city:geonames-8594709",
+   "name": "Thành Phố Bà Rịa",
+   "aliases": [
+    "Thanh Pho Ba Ria",
+    "Ba Ria",
+    "Bà Rịa",
+    "Tanh Fo Ba Ria",
+    "Tkhan' Fo Ba Ria",
+    "tainfobaria",
+    "teʾanihi ፎ ba riya",
+    "than fw ba rya",
+    "thana pho ba ri'a",
+    "thanh fw ba rya",
+    "thanha pho ba riya",
+    "tھanہ fw ba rya",
+    "Тхань Фо Ба Риа",
+    "تهانه فو با ریا",
+    "تھانہ فو با ریا",
+    "ثان فو با ريا",
+    "थान्ह फो बा रिया",
+    "থান্হ ফো বা রিয়া",
+    "ਥਾਨ ਫੋ ਬਾ ਰੀਆ",
+    "ተዓንህ ፎ ባ ሪያ",
+    "タインフォバリア"
+   ],
+   "lat": 10.49626,
+   "lon": 107.1685,
+   "population": 235192,
+   "geonameId": "8594709"
+  },
+  {
+   "id": "city:geonames-13589354",
+   "name": "Phổ Yên",
+   "aliases": [
+    "Pho Yen",
+    "Fo En",
+    "Фо Ен"
+   ],
+   "lat": 21.41978,
+   "lon": 105.8899,
+   "population": 231363,
+   "geonameId": "13589354"
+  },
+  {
+   "id": "city:geonames-1567621",
+   "name": "Sơn Tây",
+   "aliases": [
+    "Son Tay",
+    "Son-Taj",
+    "Sontai",
+    "Сон-Тай"
+   ],
+   "lat": 21.14053,
+   "lon": 105.50686,
+   "population": 230577,
+   "geonameId": "1567621"
+  },
+  {
+   "id": "city:geonames-1571951",
+   "name": "Ninh Hòa",
+   "aliases": [
+    "Ninh Hoa",
+    "Ninkh Khoa",
+    "Нинх Хоа"
+   ],
+   "lat": 12.49187,
+   "lon": 109.12495,
+   "population": 230566,
+   "geonameId": "1571951"
+  },
+  {
+   "id": "city:geonames-1571058",
+   "name": "Phan Thiết",
+   "aliases": [
+    "Phan Thiet",
+    "Fan Thiet",
+    "Fan Tkhiet",
+    "Fant'et",
+    "Fanthit",
+    "Fantiet",
+    "Fantkh'et",
+    "PHH",
+    "Phan Tiet",
+    "Xa Phan Thiet",
+    "fan tyt",
+    "fan tyyt",
+    "fan tھyt",
+    "fantietto",
+    "pan qie",
+    "phana thi'eta",
+    "phana thiyeta",
+    "Фан Тхиет",
+    "Фантхьет",
+    "Фантьет",
+    "فان تييت",
+    "فان تھیت",
+    "فان تیت",
+    "फान थिएट",
+    "ফান থিয়েত",
+    "ਫਾਨ ਥਿਏਟ",
+    "ፋni tiyeti",
+    "ፋን ትየት",
+    "ファンティエット",
+    "潘切"
+   ],
+   "lat": 10.92889,
+   "lon": 108.10208,
+   "population": 228536,
+   "geonameId": "1571058"
+  },
+  {
+   "id": "city:geonames-1583478",
+   "name": "Điện Bàn",
+   "aliases": [
+    "GJien Ban",
+    "Dien Ban",
+    "Kwang Nam",
+    "Quang Nam",
+    "Vinh Dien",
+    "Vĩnh Điện",
+    "Zien Ban",
+    "Зиен Бан"
+   ],
+   "lat": 15.88853,
+   "lon": 108.25447,
+   "population": 226564,
+   "geonameId": "1583478"
+  },
+  {
+   "id": "city:VN-ca-mau",
+   "name": "Cà Mau",
+   "aliases": [
+    "Ca Mau",
+    "CAH",
+    "Camo",
+    "Cu Mau",
+    "Ka Mau",
+    "Kamao",
+    "Kamau",
+    "Quan Long",
+    "Quang Long",
+    "Song Kualon",
+    "ka ma'u",
+    "ka mau",
+    "ka maw",
+    "ka maው",
+    "kamau",
+    "kamaw",
+    "Ка Мау",
+    "Камау",
+    "كا ماو",
+    "کا ماؤ",
+    "کاماو",
+    "का मौ",
+    "কা মাউ",
+    "ਕਾ ਮਾਉ",
+    "ካ ማው",
+    "カマウ"
+   ],
+   "lat": 9.17682,
+   "lon": 105.15242,
+   "population": 226372,
+   "geonameId": "1586443"
+  },
+  {
+   "id": "city:geonames-7289846",
+   "name": "Ba Dinh",
+   "aliases": [
+    "Ba Dinkh",
+    "Ba GJinh",
+    "Ba Đình",
+    "Ба Динх"
+   ],
+   "lat": 21.03652,
+   "lon": 105.82684,
+   "population": 221893,
+   "geonameId": "7289846"
+  },
+  {
+   "id": "city:geonames-1567788",
+   "name": "Sóc Trăng",
+   "aliases": [
+    "Soc Trang",
+    "Khanh Hong",
+    "Khanh Hung",
+    "Khánh Hưng",
+    "SOA",
+    "Shokchang",
+    "Sok Chang",
+    "Sok Trang",
+    "soka tram",
+    "soka tranga",
+    "soki tiraniግ",
+    "sokkuchan",
+    "swk trang",
+    "swk tranj",
+    "swk ٹrang",
+    "Сок Чанг",
+    "Шокчанг",
+    "سوك ترانج",
+    "سوک ترانگ",
+    "سوک ٹرانگ",
+    "सोक ट्रांग",
+    "সোক ট্রাং",
+    "ਸੋਕ ਤ੍ਰਾਂਗ",
+    "ሶክ ትራንግ",
+    "ソックチャン"
+   ],
+   "lat": 9.59995,
+   "lon": 105.97193,
+   "population": 221430,
+   "geonameId": "1567788"
+  },
+  {
+   "id": "city:geonames-1585489",
+   "name": "Chí Linh",
+   "aliases": [
+    "Chi Linh",
+    "Chi Linkh",
+    "Чи Линх"
+   ],
+   "lat": 21.06667,
+   "lon": 106.31667,
+   "population": 220421,
+   "geonameId": "1585489"
+  },
+  {
+   "id": "city:geonames-9645086",
+   "name": "Quận Ba",
+   "aliases": [
+    "Quan Ba",
+    "Kuan Ba",
+    "Q3",
+    "Quan 3",
+    "Quận 3",
+    "Куан Ба"
+   ],
+   "lat": 10.77494,
+   "lon": 106.68628,
+   "population": 220375,
+   "geonameId": "9645086"
+  },
+  {
+   "id": "city:geonames-1567069",
+   "name": "Tân An",
+   "aliases": [
+    "Tan An",
+    "Tan",
+    "Tan Am",
+    "tan an",
+    "tan'an",
+    "tana ana",
+    "tani ʿeni",
+    "Тан",
+    "Тан Ан",
+    "تان آن",
+    "تان ان",
+    "तान आन",
+    "তান আন",
+    "ਤਾਨ ਆਨ",
+    "ታን አን",
+    "タンアン"
+   ],
+   "lat": 10.53589,
+   "lon": 106.41366,
+   "population": 215250,
+   "geonameId": "1567069"
+  },
+  {
+   "id": "city:geonames-1568212",
+   "name": "Sa Dec",
+   "aliases": [
+    "Sa Dek",
+    "Sa GJec",
+    "Sa Đéc",
+    "Са Дек"
+   ],
+   "lat": 10.29085,
+   "lon": 105.75635,
+   "population": 214610,
+   "geonameId": "1568212"
+  },
+  {
+   "id": "city:geonames-1586151",
+   "name": "Cao Lãnh",
+   "aliases": [
+    "Cao Lanh",
+    "Kao Lanh",
+    "Kao Lankh",
+    "Phong Thanh",
+    "ka'o lanha",
+    "kaoran",
+    "kaw lanh",
+    "kaw lanہ",
+    "kawlanh",
+    "kaʿo lanihi",
+    "Као Ланх",
+    "كاو لانه",
+    "کاؤ لانہ",
+    "کاولانه",
+    "काओ लान्ह",
+    "কাও লান্হ",
+    "ਕਾਓ ਲਾਂਹ",
+    "ካኦ ላንህ",
+    "カオラン"
+   ],
+   "lat": 10.46017,
+   "lon": 105.63294,
+   "population": 211912,
+   "geonameId": "1586151"
+  },
+  {
+   "id": "city:geonames-1571067",
+   "name": "Phan Rang-Tháp Chàm",
+   "aliases": [
+    "Phan Rang-Thap Cham",
+    "Fan Rang-Tkhap Cham",
+    "Fanrang-Tkhaptjam",
+    "PHA",
+    "Phan Rang",
+    "Phan Rang- Thap Cham",
+    "Phan Ranh",
+    "fan rang-tap cham",
+    "fan rang-tھap cham",
+    "fan ranj-thab tsham",
+    "fanran=tappuchamu",
+    "phana ram-thapa cama",
+    "phana ranga-thapa cama",
+    "Фан Ранг-Тхап Чам",
+    "Фанранг-Тхаптям",
+    "فان رانج-ثاب تشام",
+    "فان رانگ-تاپ چام",
+    "فان رانگ-تھاپ چام",
+    "फान रांग-थाप चाम",
+    "ফান রাং-থাপ চাম",
+    "ਫਾਨ ਰਾਂਗ-ਥਾਪ ਚਾਮ",
+    "ፋni raniግ-taፕ chaም",
+    "ፋን ራንግ-ታፕ ጫም",
+    "ファンラン＝タップチャム"
+   ],
+   "lat": 11.56432,
+   "lon": 108.98858,
+   "population": 207998,
+   "geonameId": "1571067"
+  },
+  {
+   "id": "city:geonames-1562818",
+   "name": "Việt Yên",
+   "aliases": [
+    "Viet Yen",
+    "Distretto di Viet Yen",
+    "V'etjen",
+    "Viet Yen District",
+    "Việt Yên District",
+    "Вьетйен",
+    "ویت ین ضلع"
+   ],
+   "lat": 21.26667,
+   "lon": 106.13333,
+   "population": 205900,
+   "geonameId": "1562818"
+  },
+  {
+   "id": "city:geonames-1578500",
+   "name": "Kon Tum",
+   "aliases": [
+    "Cong Tum",
+    "Công Tum",
+    "Kontum",
+    "Tinh Kontum",
+    "Tỉnh Kontum",
+    "Контум"
+   ],
+   "lat": 14.35451,
+   "lon": 108.00759,
+   "population": 205762,
+   "geonameId": "1578500"
+  },
+  {
+   "id": "city:geonames-8656376",
+   "name": "Thanh Khê",
+   "aliases": [
+    "Thanh Khe",
+    "Tankh Khe",
+    "Танх Хе"
+   ],
+   "lat": 16.0706,
+   "lon": 108.19102,
+   "population": 201240,
+   "geonameId": "8656376"
+  },
+  {
+   "id": "city:geonames-1576633",
+   "name": "Lạng Sơn",
+   "aliases": [
+    "Lang Son",
+    "Langson",
+    "Thanh Pho Lang Son",
+    "Thành Phố Lạng Sơn",
+    "lang swn",
+    "langa sona",
+    "laniግ soni",
+    "lanj swn",
+    "lyam sana",
+    "ranguson",
+    "Лангсон",
+    "لانج سون",
+    "لانگ سون",
+    "लांग सोन",
+    "ল্যাং সন",
+    "ਲਾਂਗ ਸੋਨ",
+    "ላንግ ሶን",
+    "ラングソン"
+   ],
+   "lat": 21.85264,
+   "lon": 106.76101,
+   "population": 200108,
+   "geonameId": "1576633"
+  },
+  {
+   "id": "city:geonames-1565047",
+   "name": "Thuận Thanh",
+   "aliases": [
+    "Thuan Thanh",
+    "Tuan Tankh",
+    "Туан Танх"
+   ],
+   "lat": 21.046,
+   "lon": 106.079,
+   "population": 199577,
+   "geonameId": "1565047"
+  },
+  {
+   "id": "city:geonames-9645071",
+   "name": "Quận Bốn",
+   "aliases": [
+    "Quan Bon",
+    "Kuan Bon",
+    "Q4",
+    "Quan 4",
+    "Quận 4",
+    "Куан Бон"
+   ],
+   "lat": 10.76684,
+   "lon": 106.70574,
+   "population": 199329,
+   "geonameId": "9645071"
+  },
+  {
+   "id": "city:geonames-1586360",
+   "name": "Cẩm Phả",
+   "aliases": [
+    "Cam Pha",
+    "Kamfa",
+    "VDO",
+    "jin pu shi",
+    "kam fa",
+    "kamufa",
+    "Камфа",
+    "كام فا",
+    "カムファ",
+    "锦普市"
+   ],
+   "lat": 21.01004,
+   "lon": 107.27345,
+   "population": 190232,
+   "geonameId": "1586360"
+  },
+  {
+   "id": "city:geonames-9645073",
+   "name": "Quận Năm",
+   "aliases": [
+    "Quan Nam",
+    "Kuan Nam",
+    "Q5",
+    "Quan 5",
+    "Quận 5",
+    "Куан Нам"
+   ],
+   "lat": 10.75567,
+   "lon": 106.66745,
+   "population": 187510,
+   "geonameId": "9645073"
+  },
+  {
+   "id": "city:geonames-1562773",
+   "name": "Vĩnh Châu",
+   "aliases": [
+    "Vinh Chau",
+    "Vinkh Chau",
+    "Винх Чау"
+   ],
+   "lat": 9.32439,
+   "lon": 105.98006,
+   "population": 183918,
+   "geonameId": "1562773"
+  },
+  {
+   "id": "city:geonames-1570656",
+   "name": "Phúc Yên",
+   "aliases": [
+    "Phuc Yen",
+    "Fuk En",
+    "Фук Ен"
+   ],
+   "lat": 21.23695,
+   "lon": 105.70483,
+   "population": 180000,
+   "geonameId": "1570656"
+  },
+  {
+   "id": "city:geonames-12253704",
+   "name": "Phú Quốc",
+   "aliases": [
+    "Phu Quoc",
+    "Fu Kuok",
+    "Фу Куок"
+   ],
+   "lat": 10.28715,
+   "lon": 104.01047,
+   "population": 179480,
+   "geonameId": "12253704"
+  },
+  {
+   "id": "city:geonames-1584242",
+   "name": "Thị Trấn Đại Từ",
+   "aliases": [
+    "Thi Tran GJai Tu",
+    "Dai Tu",
+    "Thi Tran Dai Tu",
+    "Ti Tran Zai Tu",
+    "Đại Từ",
+    "Ти Тран Заи Ту"
+   ],
+   "lat": 21.63384,
+   "lon": 105.63766,
+   "population": 179192,
+   "geonameId": "1584242"
+  },
+  {
+   "id": "city:geonames-1567032",
+   "name": "Tân Châu",
+   "aliases": [
+    "Tan Chau",
+    "Тан Чау"
+   ],
+   "lat": 10.79832,
+   "lon": 105.23887,
+   "population": 175211,
+   "geonameId": "1567032"
+  },
+  {
+   "id": "city:geonames-9075789",
+   "name": "Long Khánh",
+   "aliases": [
+    "Long Khanh",
+    "Long Khankh",
+    "Лонг Ханх"
+   ],
+   "lat": 10.92655,
+   "lon": 107.24783,
+   "population": 171276,
+   "geonameId": "9075789"
+  },
+  {
+   "id": "city:geonames-1588275",
+   "name": "Bảo Lộc",
+   "aliases": [
+    "Bao Loc",
+    "Ap Thanh Tam",
+    "Ban Lao",
+    "Baolok",
+    "Blao",
+    "Cong Hinh",
+    "Баолок",
+    "Ấp Thánh Tâm"
+   ],
+   "lat": 11.54798,
+   "lon": 107.80772,
+   "population": 170920,
+   "geonameId": "1588275"
+  },
+  {
+   "id": "city:geonames-1566566",
+   "name": "Tây Hồ",
+   "aliases": [
+    "Tay Ho",
+    "Taj Kho",
+    "Тай Хо"
+   ],
+   "lat": 21.06895,
+   "lon": 105.81053,
+   "population": 168300,
+   "geonameId": "1566566"
+  },
+  {
+   "id": "city:geonames-1582436",
+   "name": "Đồng Xoài",
+   "aliases": [
+    "GJong Xoai",
+    "Ap Dong Xoai",
+    "Cong Xoai",
+    "Don Luan",
+    "Dong Xoa",
+    "Dong Xoai",
+    "Dong Xoi",
+    "Dồng Xoài",
+    "Gjong Xoai",
+    "Zong Khoaj",
+    "gajaunga khu'a'i",
+    "gajon'ga khva'i",
+    "jiyam khoya'i",
+    "jiʾoniግ boyi",
+    "jywng khwayy",
+    "jywng khwy",
+    "jywnj khwy",
+    "zonhoai",
+    "Зонг Хоай",
+    "جيونج خوي",
+    "جیونگ خوائی",
+    "جیونگ خوی",
+    "गजॉन्ग ख्वाई",
+    "জিয়ং খোয়াই",
+    "ਗਜੌਂਗ ਖੁਆਈ",
+    "ጂዖንግ ቦይ",
+    "Ấp Đồng Xoài",
+    "ゾンホアイ"
+   ],
+   "lat": 11.53495,
+   "lon": 106.88324,
+   "population": 168000,
+   "geonameId": "1582436"
+  },
+  {
+   "id": "city:geonames-1567148",
+   "name": "Tam Kỳ",
+   "aliases": [
+    "Tam Ky",
+    "TMK",
+    "Tam Ki",
+    "Tanky",
+    "tam ky",
+    "tama ki",
+    "tamuki",
+    "taም ki",
+    "Там Ки",
+    "تام كي",
+    "تام کی",
+    "तम की",
+    "তাম কি",
+    "ਤਾਮ ਕੀ",
+    "ታም ኪ",
+    "タムキー"
+   ],
+   "lat": 15.57364,
+   "lon": 108.47403,
+   "population": 165240,
+   "geonameId": "1567148"
+  },
+  {
+   "id": "city:geonames-1582926",
+   "name": "Ðông Hà",
+   "aliases": [
+    "Dong Ha",
+    "AQT",
+    "Dong Kha",
+    "Dong Na",
+    "GJong Ha",
+    "Thi Xa Dong Ha",
+    "Thi Xã Ðòng Hà",
+    "dam ha",
+    "daunga ha",
+    "donga ha",
+    "donha",
+    "doniግ ha",
+    "dwng ha",
+    "dwnj ha",
+    "Đông Hà",
+    "Донг Ха",
+    "دونج ها",
+    "دونگ ها",
+    "ڈwng ہa",
+    "ڈونگ ہا",
+    "डोंग हा",
+    "ডং হা",
+    "ਡੌਂਗ ਹਾ",
+    "ዶንግ ሃ",
+    "ドンハー"
+   ],
+   "lat": 16.81625,
+   "lon": 107.10031,
+   "population": 164228,
+   "geonameId": "1582926"
+  },
+  {
+   "id": "city:geonames-1564046",
+   "name": "Trảng Bàng",
+   "aliases": [
+    "Trang Bang",
+    "Changbang",
+    "Чангбанг"
+   ],
+   "lat": 11.02987,
+   "lon": 106.35751,
+   "population": 161831,
+   "geonameId": "1564046"
+  },
+  {
+   "id": "city:geonames-1582173",
+   "name": "Đưc Trọng",
+   "aliases": [
+    "GJuc Trong",
+    "Duc Trong",
+    "Dyk Trong",
+    "Lien Nghia",
+    "Liên Nghĩa",
+    "Дык Тронг"
+   ],
+   "lat": 11.73559,
+   "lon": 108.3733,
+   "population": 161232,
+   "geonameId": "1582173"
+  },
+  {
+   "id": "city:geonames-1577995",
+   "name": "La Gi",
+   "aliases": [
+    "La Ghi",
+    "La-Gi",
+    "Lag",
+    "Lagi",
+    "la gy",
+    "la jy",
+    "laji",
+    "luo yi shi she",
+    "raji",
+    "Ла-Ги",
+    "لا جى",
+    "لا گی",
+    "ラジー",
+    "罗夷市社",
+    "라지"
+   ],
+   "lat": 10.65993,
+   "lon": 107.77206,
+   "population": 160652,
+   "geonameId": "1577995"
+  },
+  {
+   "id": "city:geonames-1563926",
+   "name": "Trà Vinh",
+   "aliases": [
+    "Tra Vinh",
+    "PHU",
+    "Phu Vinh",
+    "Phú Vinh",
+    "Thanh pho Tra Vinh",
+    "Tkhan' Fo Tra Vin'",
+    "Tra Vin",
+    "tan fw tra wynh",
+    "tana pho tra vina",
+    "tanfotorabin",
+    "tani ፎ tira vinihi",
+    "thanh fw tra fyn",
+    "thanha pho tra vinha",
+    "thantha pho tra bhinaha",
+    "tھan fw tra winہ",
+    "Тхань Фо Тра Винь",
+    "تان فو ترا وینه",
+    "تھان فو ترا وِنہ",
+    "ثانه فو ترا فين",
+    "थान्ह फो त्रा विन्ह",
+    "থান্থ ফো ট্রা ভিনহ",
+    "ਤਾਨ ਫੋ ਤ੍ਰਾ ਵਿਨ",
+    "ታን ፎ ትራ ቪንህ",
+    "タンフォトラビン"
+   ],
+   "lat": 9.94719,
+   "lon": 106.34225,
+   "population": 160310,
+   "geonameId": "1563926"
+  },
+  {
+   "id": "city:geonames-1565136",
+   "name": "Thốt Nốt",
+   "aliases": [
+    "Thot Not",
+    "Tho Not",
+    "Tot Not",
+    "Тот Нот"
+   ],
+   "lat": 10.27213,
+   "lon": 105.5338,
+   "population": 158225,
+   "geonameId": "1565136"
+  },
+  {
+   "id": "city:geonames-1591474",
+   "name": "Bạc Liêu",
+   "aliases": [
+    "Bac Lieu",
+    "Bac-Lien",
+    "Bach Lieu",
+    "Bak Lieu",
+    "Bakl'eu",
+    "Thanh Pho Bac Lieu",
+    "Thành Phố Bạc Liêu",
+    "Vinh Loi",
+    "Vĩnh Lợi",
+    "Бакльеу"
+   ],
+   "lat": 9.29414,
+   "lon": 105.72776,
+   "population": 156110,
+   "geonameId": "1591474"
+  },
+  {
+   "id": "city:VN-tuy-hoa",
+   "name": "Tuy Hòa",
+   "aliases": [
+    "Tuy Hoa",
+    "Chau Thanh",
+    "TBB",
+    "Thanh pho Tuy Hoa",
+    "Thuy Hoa",
+    "Thành phố Tuy Hòa",
+    "Toy Hoa",
+    "Tuikhoa",
+    "Tuj Khoa",
+    "sui he shi",
+    "touihoa",
+    "tu'e ho'a",
+    "tu'i hoya",
+    "tuya ho'a",
+    "tuyi howa",
+    "tuے ہwa",
+    "twy hwa",
+    "twyy hwa",
+    "Туихоа",
+    "Туй Хоа",
+    "توي هوا",
+    "تویی هوا",
+    "تُوے ہوا",
+    "तुय होआ",
+    "টুই হোয়া",
+    "ਤੁਏ ਹੋਆ",
+    "ቱይ ሆዋ",
+    "トゥイホア",
+    "綏和市"
+   ],
+   "lat": 13.09546,
+   "lon": 109.32094,
+   "population": 155921,
+   "geonameId": "1563281"
+  },
+  {
+   "id": "city:geonames-1582190",
+   "name": "Đức Phổ",
+   "aliases": [
+    "GJuc Pho",
+    "Duc Pho",
+    "Pho Duc",
+    "Zuk Fo",
+    "Зук Фо"
+   ],
+   "lat": 14.81355,
+   "lon": 108.95931,
+   "population": 155743,
+   "geonameId": "1582190"
+  },
+  {
+   "id": "city:geonames-1590900",
+   "name": "Thị Trấn Thuận Châu",
+   "aliases": [
+    "Thi Tran Thuan Chau",
+    "Ban Chieng Ly",
+    "Ban Dhieng Ly",
+    "Bản Chiêng Lý",
+    "Thuan Chau",
+    "Ti Tran Tuan Chau",
+    "Ти Тран Туан Чау"
+   ],
+   "lat": 21.43849,
+   "lon": 103.69,
+   "population": 153000,
+   "geonameId": "1590900"
+  },
+  {
+   "id": "city:geonames-1586296",
+   "name": "Cần Giuộc",
+   "aliases": [
+    "Can Giuoc",
+    "Can Duoc",
+    "Can Gioc",
+    "Cần Duộc",
+    "Kan Giuok",
+    "Кан Гиуок"
+   ],
+   "lat": 10.60857,
+   "lon": 106.67135,
+   "population": 152200,
+   "geonameId": "1586296"
+  },
+  {
+   "id": "city:geonames-1578163",
+   "name": "Kỳ Anh",
+   "aliases": [
+    "Ky Anh",
+    "Kij Ankh",
+    "Кий Анх"
+   ],
+   "lat": 18.06243,
+   "lon": 106.29832,
+   "population": 150226,
+   "geonameId": "1578163"
+  },
+  {
+   "id": "city:geonames-9081327",
+   "name": "Hòa Thành",
+   "aliases": [
+    "Hoa Thanh",
+    "Khoa Tankh",
+    "Хоа Танх"
+   ],
+   "lat": 11.28696,
+   "lon": 106.12936,
+   "population": 147666,
+   "geonameId": "9081327"
+  },
+  {
+   "id": "city:geonames-1586350",
+   "name": "Cam Ranh",
+   "aliases": [
+    "CXR",
+    "Cam Linh",
+    "Cam Ranh Port",
+    "Kamran'",
+    "Thon Cam Ranh",
+    "Thôn Cam Ranh",
+    "cheng bu gan ling",
+    "jin lan shi",
+    "Камрань",
+    "城庯柑欞",
+    "金兰市"
+   ],
+   "lat": 11.92144,
+   "lon": 109.15913,
+   "population": 146771,
+   "geonameId": "1586350"
+  },
+  {
+   "id": "city:geonames-1581755",
+   "name": "Giá Rai",
+   "aliases": [
+    "Gia Rai",
+    "Xom Gia Rai",
+    "Гиа Раи"
+   ],
+   "lat": 9.23444,
+   "lon": 105.45833,
+   "population": 145340,
+   "geonameId": "1581755"
+  },
+  {
+   "id": "city:geonames-12217184",
+   "name": "Huyện Lâm Hà",
+   "aliases": [
+    "Huyen Lam Ha",
+    "Khuen Lam Kha",
+    "Lam Ha",
+    "Lam Ha District",
+    "Lâm Hà",
+    "Хуен Лам Ха"
+   ],
+   "lat": 11.81554,
+   "lon": 108.21444,
+   "population": 144707,
+   "geonameId": "12217184"
+  },
+  {
+   "id": "city:geonames-1564555",
+   "name": "Tịnh Biên",
+   "aliases": [
+    "Tinh Bien",
+    "Tinkh Bien",
+    "Тинх Биен"
+   ],
+   "lat": 10.59591,
+   "lon": 104.93669,
+   "population": 143098,
+   "geonameId": "1564555"
+  },
+  {
+   "id": "city:geonames-1586551",
+   "name": "Cai Lậy",
+   "aliases": [
+    "Cai Lay",
+    "Kai Laj",
+    "Khiem Ich",
+    "Khiêm Ích",
+    "Каи Лай"
+   ],
+   "lat": 10.4,
+   "lon": 106.11667,
+   "population": 143050,
+   "geonameId": "1586551"
+  },
+  {
+   "id": "city:geonames-1562693",
+   "name": "Vĩnh Long",
+   "aliases": [
+    "Vinh Long",
+    "Vin' Long",
+    "XVL",
+    "bhinaha lam",
+    "binron",
+    "fyn lwnj",
+    "vina langa",
+    "vinha langa",
+    "vinihi loniግ",
+    "winہ lang",
+    "wynh lang",
+    "Винь Лонг",
+    "فين لونج",
+    "وِنہ لانگ",
+    "وینه لانگ",
+    "विन्ह लांग",
+    "ভিনহ লং",
+    "ਵਿਨ ਲਾਂਗ",
+    "ቪንህ ሎንግ",
+    "ビンロン"
+   ],
+   "lat": 10.25369,
+   "lon": 105.9722,
+   "population": 137870,
+   "geonameId": "1562693"
+  },
+  {
+   "id": "city:geonames-1570449",
+   "name": "Phủ Lý",
+   "aliases": [
+    "Phu Ly",
+    "Fu Li",
+    "Ha-Nam",
+    "Phu-li",
+    "Thanh Pho Phu Ly",
+    "Thành Phố Phủ Lý",
+    "furi",
+    "fw ly",
+    "phu li",
+    "Фу Ли",
+    "فو لي",
+    "فو لی",
+    "फु ली",
+    "ফু লি",
+    "ਫੂ ਲੀ",
+    "ፉ li",
+    "ፉ ሊ",
+    "フーリー"
+   ],
+   "lat": 20.54531,
+   "lon": 105.91221,
+   "population": 136654,
+   "geonameId": "1570449"
+  },
+  {
+   "id": "city:geonames-13680023",
+   "name": "Tương Mai",
+   "aliases": [
+    "Tuong Mai",
+    "Туонг Маи"
+   ],
+   "lat": 20.9888,
+   "lon": 105.85525,
+   "population": 136292,
+   "geonameId": "13680023"
+  },
+  {
+   "id": "city:geonames-8616124",
+   "name": "Hoàn Kiếm",
+   "aliases": [
+    "Hoan Kiem",
+    "Khoan Kiem",
+    "Хоан Кием"
+   ],
+   "lat": 21.02857,
+   "lon": 105.85064,
+   "population": 135618,
+   "geonameId": "8616124"
+  },
+  {
+   "id": "city:geonames-1586357",
+   "name": "Cẩm Phả Mines",
+   "aliases": [
+    "Cam Pha Mines",
+    "Cam Pha",
+    "Cẩm Phả",
+    "Kam Fa Mines",
+    "Кам Фа Минес"
+   ],
+   "lat": 21.01667,
+   "lon": 107.3,
+   "population": 135477,
+   "geonameId": "1586357"
+  },
+  {
+   "id": "city:geonames-1566559",
+   "name": "Tây Ninh",
+   "aliases": [
+    "Tay Ninh",
+    "Tai nin",
+    "Taj Nin'",
+    "Tehjnin'",
+    "Tei Nin",
+    "Vilojati Tej Nin",
+    "tainin",
+    "tay nynh",
+    "tay nynha",
+    "taya ninaha",
+    "taya ninha",
+    "tayi ninihi",
+    "te nina",
+    "tteoinin",
+    "xi ning shi",
+    "Вилояти Тей Нин",
+    "Тай Нинь",
+    "Тэйнинь",
+    "Тэйнінь",
+    "تاي نينه",
+    "تای نینه",
+    "تای نینها",
+    "تاے ننہ",
+    "तय नीन्ह",
+    "তায় নিনহ",
+    "ਤੇ ਨਿਨ",
+    "ታይ ንንህ",
+    "タイニン",
+    "西寧市",
+    "떠이닌"
+   ],
+   "lat": 11.31004,
+   "lon": 106.09828,
+   "population": 135254,
+   "geonameId": "1566559"
+  },
+  {
+   "id": "city:geonames-1582886",
+   "name": "Đồng Hới",
+   "aliases": [
+    "GJong Hoi",
+    "Dong Hoi",
+    "Dongkhoj",
+    "Kwang Binh",
+    "VDH",
+    "tong hai shi",
+    "Донгхой",
+    "同海市"
+   ],
+   "lat": 17.46885,
+   "lon": 106.62226,
+   "population": 133672,
+   "geonameId": "1582886"
+  },
+  {
+   "id": "city:geonames-12166273",
+   "name": "Quận Đức Thịnh",
+   "aliases": [
+    "Quan GJuc Thinh",
+    "GJuc Thinh Sa GJec",
+    "Kuan Zuk Tinkh",
+    "Đức Thịnh Sa Đéc",
+    "Куан Зук Тинх"
+   ],
+   "lat": 10.30989,
+   "lon": 105.73855,
+   "population": 132000,
+   "geonameId": "12166273"
+  },
+  {
+   "id": "city:geonames-1581331",
+   "name": "Hải Châu",
+   "aliases": [
+    "Hai Chau",
+    "Khai Chau",
+    "Хаи Чау"
+   ],
+   "lat": 15.91667,
+   "lon": 108.13333,
+   "population": 131427,
+   "geonameId": "1581331"
+  },
+  {
+   "id": "city:geonames-1576303",
+   "name": "Lào Cai",
+   "aliases": [
+    "Lao Cai",
+    "Lao Cai Lalawigan",
+    "Lao Kaj",
+    "Lao Kay",
+    "Laokai",
+    "Laokaj",
+    "Laokajus",
+    "Laos",
+    "Lo-kie-su",
+    "Ló-kiê-sṳ",
+    "Vilojati Lao Kai",
+    "hla wkay",
+    "la'o ka'i",
+    "lao jie shi",
+    "laokkai",
+    "law kay",
+    "law kayy",
+    "lawa kayi",
+    "layw kay",
+    "raokai",
+    "Вилояти Лао Каи",
+    "Лао Кај",
+    "Лаокай",
+    "لائو کای",
+    "لاو كاي",
+    "لاو کائی",
+    "لاو کای",
+    "लाओ काई",
+    "লাও কাই",
+    "ਲਾਓ ਕਾਈ",
+    "หล่าวกาย",
+    "ላዋ ካይ",
+    "ラオカイ",
+    "老街市",
+    "라오까이"
+   ],
+   "lat": 22.48556,
+   "lon": 103.97066,
+   "population": 130671,
+   "geonameId": "1576303"
+  },
+  {
+   "id": "city:geonames-1568142",
+   "name": "Sầm Sơn",
+   "aliases": [
+    "Sam Son",
+    "Сам Сон"
+   ],
+   "lat": 19.73333,
+   "lon": 105.9,
+   "population": 129801,
+   "geonameId": "1568142"
+  },
+  {
+   "id": "city:geonames-1571644",
+   "name": "Ô Môn",
+   "aliases": [
+    "O Mon",
+    "Phong Phu",
+    "Phong Phú",
+    "О Мон"
+   ],
+   "lat": 10.10974,
+   "lon": 105.62318,
+   "population": 129683,
+   "geonameId": "1571644"
+  },
+  {
+   "id": "city:geonames-13513037",
+   "name": "Thành phố Sông Công",
+   "aliases": [
+    "Thanh pho Song Cong",
+    "Song Cong",
+    "Sông Công",
+    "Tankh Fo Song Kong",
+    "Танх Фо Сонг Конг"
+   ],
+   "lat": 21.4772,
+   "lon": 105.84137,
+   "population": 128357,
+   "geonameId": "13513037"
+  },
+  {
+   "id": "city:geonames-1586989",
+   "name": "Buôn Hồ",
+   "aliases": [
+    "Buon Ho",
+    "Ban Ho",
+    "Buon Kho",
+    "Buôn Hô",
+    "Буон Хо"
+   ],
+   "lat": 12.95226,
+   "lon": 108.2962,
+   "population": 127920,
+   "geonameId": "1586989"
+  },
+  {
+   "id": "city:geonames-1585281",
+   "name": "Chũ",
+   "aliases": [
+    "Chu",
+    "Чу"
+   ],
+   "lat": 21.37379,
+   "lon": 106.56649,
+   "population": 127881,
+   "geonameId": "1585281"
+  },
+  {
+   "id": "city:geonames-1587976",
+   "name": "Bến Tre",
+   "aliases": [
+    "Ben Tre",
+    "Truc Giang",
+    "Trúc Giang",
+    "bena tare",
+    "bena tre",
+    "beni tire",
+    "bentore",
+    "bn trh",
+    "bn try",
+    "byn ٹry",
+    "Бен Тре",
+    "بن تره",
+    "بن تري",
+    "بین ٹری",
+    "बेन ट्रे",
+    "বেন ট্রে",
+    "ਬੇਨ ਤਰੇ",
+    "ቤን ትሬ",
+    "ベントレ"
+   ],
+   "lat": 10.24147,
+   "lon": 106.37585,
+   "population": 124449,
+   "geonameId": "1587976"
+  },
+  {
+   "id": "city:geonames-1585317",
+   "name": "Chơn Thành",
+   "aliases": [
+    "Chon Thanh",
+    "Ap Chon Thanh",
+    "Chon Tankh",
+    "Thanh Ghon",
+    "Чон Танх",
+    "Ấp Chơn Thành"
+   ],
+   "lat": 11.42821,
+   "lon": 106.63536,
+   "population": 121083,
+   "geonameId": "1585317"
+  },
+  {
+   "id": "city:geonames-8657105",
+   "name": "Hòa Cường",
+   "aliases": [
+    "Hoa Cuong",
+    "Binh Thuan",
+    "Bình Thuận",
+    "Khoa Kuong",
+    "Хоа Куонг"
+   ],
+   "lat": 16.04314,
+   "lon": 108.18209,
+   "population": 119363,
+   "geonameId": "8657105"
+  },
+  {
+   "id": "city:geonames-1562548",
+   "name": "Vĩnh Yên",
+   "aliases": [
+    "Vinh Yen",
+    "Vieh Yen",
+    "Vin'jen",
+    "Yen",
+    "Виньйен"
+   ],
+   "lat": 21.30891,
+   "lon": 105.60489,
+   "population": 119128,
+   "geonameId": "1562548"
+  },
+  {
+   "id": "city:geonames-1591440",
+   "name": "Bắc Quang",
+   "aliases": [
+    "Bac Quang",
+    "Bac Kwang",
+    "Bac Quong",
+    "Bak Kang",
+    "Bak Kuang",
+    "Ban Kwang",
+    "Ban Quong",
+    "Tan Quang",
+    "Tân Quang",
+    "Бак Куанг"
+   ],
+   "lat": 22.48333,
+   "lon": 104.86667,
+   "population": 118690,
+   "geonameId": "1591440"
+  },
+  {
+   "id": "city:geonames-1580142",
+   "name": "Hưng Yên",
+   "aliases": [
+    "Hung Yen",
+    "Hong-Yen",
+    "Khungjen",
+    "fun'ien",
+    "ham iyena",
+    "huga i'ana",
+    "hunga yena",
+    "hwng yn",
+    "hwnj yn",
+    "Хунгйен",
+    "هونج ين",
+    "هونگ ین",
+    "ہng yn",
+    "ہنگ ین",
+    "हुंग येन",
+    "হাং ইয়েন",
+    "ਹੁੰਗ ਇਆਨ",
+    "ሁniግ yeni",
+    "ሁንግ ዬን",
+    "フンイェン"
+   ],
+   "lat": 20.64637,
+   "lon": 106.05112,
+   "population": 118646,
+   "geonameId": "1580142"
+  },
+  {
+   "id": "city:geonames-1579018",
+   "name": "Kiến An",
+   "aliases": [
+    "Kien An",
+    "Киен Ан"
+   ],
+   "lat": 20.80528,
+   "lon": 106.62556,
+   "population": 118047,
+   "geonameId": "1579018"
+  },
+  {
+   "id": "city:geonames-1584784",
+   "name": "Cờ Đỏ",
+   "aliases": [
+    "Co GJo",
+    "Co Do",
+    "Ko Zo",
+    "Ко Зо"
+   ],
+   "lat": 10.09377,
+   "lon": 105.42916,
+   "population": 116576,
+   "geonameId": "1584784"
+  },
+  {
+   "id": "city:geonames-1574155",
+   "name": "Mỹ Hào",
+   "aliases": [
+    "My Hao",
+    "Mij Khao",
+    "Мий Хао"
+   ],
+   "lat": 20.91667,
+   "lon": 106.08333,
+   "population": 115608,
+   "geonameId": "1574155"
+  },
+  {
+   "id": "city:geonames-1570863",
+   "name": "Phong Điền",
+   "aliases": [
+    "Phong GJien",
+    "Fong Zien",
+    "Phong Dien",
+    "Фонг Зиен"
+   ],
+   "lat": 16.58321,
+   "lon": 107.36438,
+   "population": 114820,
+   "geonameId": "1570863"
+  },
+  {
+   "id": "city:geonames-1569684",
+   "name": "Pleiku",
+   "aliases": [
+    "Gia Lai",
+    "PXU",
+    "Play Cu",
+    "Play Ku",
+    "Plei Cu",
+    "Plejku",
+    "Plây Cu",
+    "Plây Ku",
+    "Po-loi-ku",
+    "Pô-lòi-kú",
+    "Tinh Pleiku",
+    "Tỉnh Pleiku",
+    "blykw",
+    "bo lai gu shi",
+    "paleku",
+    "pel yku",
+    "ple'iku",
+    "plykw",
+    "ppeullaeikku",
+    "pureiku",
+    "Плеику",
+    "Плейку",
+    "بليكو",
+    "پلیکو",
+    "प्लेइकु",
+    "প্লেইকু",
+    "ਪਲੇਕੁ",
+    "เปล็ยกู",
+    "ፕleku",
+    "ፕሌኩ",
+    "プレイク",
+    "波來古市",
+    "쁠래이꾸"
+   ],
+   "lat": 13.98333,
+   "lon": 108,
+   "population": 114225,
+   "geonameId": "1569684"
+  },
+  {
+   "id": "city:geonames-1587759",
+   "name": "Bình Thủy",
+   "aliases": [
+    "Binh Thuy",
+    "Binkh Tuj",
+    "Бинх Туй"
+   ],
+   "lat": 10.07431,
+   "lon": 105.73974,
+   "population": 113565,
+   "geonameId": "1587759"
+  },
+  {
+   "id": "city:geonames-13562438",
+   "name": "Hoàng Mai",
+   "aliases": [
+    "Hoang Mai",
+    "Khoang Mai",
+    "hoanmai",
+    "Хоанг Маи",
+    "ホアンマイ"
+   ],
+   "lat": 19.26758,
+   "lon": 105.71594,
+   "population": 113360,
+   "geonameId": "13562438"
+  },
+  {
+   "id": "city:geonames-1581461",
+   "name": "Gò Vấp",
+   "aliases": [
+    "Go Vap",
+    "Го Вап"
+   ],
+   "lat": 10.81667,
+   "lon": 106.68333,
+   "population": 110850,
+   "geonameId": "1581461"
+  },
+  {
+   "id": "city:geonames-1565157",
+   "name": "Thới Lai",
+   "aliases": [
+    "Thoi Lai",
+    "Toi Lai",
+    "Тои Лаи"
+   ],
+   "lat": 10.06522,
+   "lon": 105.55863,
+   "population": 109684,
+   "geonameId": "1565157"
+  },
+  {
+   "id": "city:geonames-1574507",
+   "name": "Móng Cái",
+   "aliases": [
+    "Mong Cai",
+    "Mon Cay",
+    "Mon Gay",
+    "Mongkaj",
+    "Monkai",
+    "Wangchieh",
+    "Монгкай"
+   ],
+   "lat": 21.52471,
+   "lon": 107.96619,
+   "population": 108553,
+   "geonameId": "1574507"
+  },
+  {
+   "id": "city:geonames-1560037",
+   "name": "Yên Vinh",
+   "aliases": [
+    "Yen Vinh",
+    "En Vinkh",
+    "Ен Винх"
+   ],
+   "lat": 18.66667,
+   "lon": 105.66667,
+   "population": 107082,
+   "geonameId": "1560037"
+  },
+  {
+   "id": "city:geonames-1568737",
+   "name": "Ba Đồn",
+   "aliases": [
+    "Ba GJon",
+    "Ba Don",
+    "Ba Zon",
+    "Quang Trach",
+    "Quảng Trach",
+    "Ба Зон"
+   ],
+   "lat": 17.75353,
+   "lon": 106.42355,
+   "population": 106413,
+   "geonameId": "1568737"
+  },
+  {
+   "id": "city:geonames-1567681",
+   "name": "Sơn La",
+   "aliases": [
+    "Son La",
+    "SQH",
+    "Son La Chau",
+    "Son Lu",
+    "Son-La",
+    "Thanh Pho Son La",
+    "Thành Phố Sơn La",
+    "sana la",
+    "shan luo shi",
+    "sona la",
+    "soni la",
+    "sonra",
+    "swn la",
+    "Сон Ла",
+    "Сон-Ла",
+    "سون لا",
+    "सोन ला",
+    "সন লা",
+    "ਸੋਨ ਲਾ",
+    "ሶን ላ",
+    "ソンラ",
+    "山羅市"
+   ],
+   "lat": 21.3256,
+   "lon": 103.91882,
+   "population": 106052,
+   "geonameId": "1567681"
+  },
+  {
+   "id": "city:geonames-1580830",
+   "name": "Hòa Bình",
+   "aliases": [
+    "Hoa Binh",
+    "Hao Binh",
+    "Hoa Bin",
+    "Khoabin'",
+    "Thanh Pho Hoa Binh",
+    "Thành Phố Hòa Bình",
+    "Хоабинь"
+   ],
+   "lat": 20.81717,
+   "lon": 105.33759,
+   "population": 105260,
+   "geonameId": "1580830"
+  },
+  {
+   "id": "city:geonames-1563287",
+   "name": "Tuyên Quang",
+   "aliases": [
+    "Tuyen Quang",
+    "Thanh Pho Tuyen Quang",
+    "Thành Phố Tuyên Quang",
+    "Tujen Kuang",
+    "Tuyen Kang",
+    "Tuyen Kwang",
+    "touienkuan",
+    "tu'ena ku'anga",
+    "tuyena koyam",
+    "tuyena kvanga",
+    "tuyeni kwaniግ",
+    "tuyin kwang",
+    "twyyn kwang",
+    "twyyn kwanj",
+    "Туйен Куанг",
+    "تويين كوانج",
+    "تویین کوانگ",
+    "تُویِن کوانگ",
+    "तुयेन क्वांग",
+    "তুয়েন কোয়াং",
+    "ਤੁਏਨ ਕੁਆਂਗ",
+    "ቱዬን ኳንግ",
+    "トゥイエンクアン"
+   ],
+   "lat": 21.82356,
+   "lon": 105.21424,
+   "population": 104645,
+   "geonameId": "1563287"
+  },
+  {
+   "id": "city:geonames-9534547",
+   "name": "Ngã Bảy",
+   "aliases": [
+    "Nga Bay",
+    "Nga Baj",
+    "Нга Бай"
+   ],
+   "lat": 9.81371,
+   "lon": 105.82096,
+   "population": 101192,
+   "geonameId": "9534547"
+  },
+  {
+   "id": "city:geonames-1580400",
+   "name": "Hồng Ngự",
+   "aliases": [
+    "Hong Ngu",
+    "Khong Ngu",
+    "Хонг Нгу"
+   ],
+   "lat": 10.8,
+   "lon": 105.35,
+   "population": 101155,
+   "geonameId": "1580400"
+  },
+  {
+   "id": "city:geonames-1560349",
+   "name": "Yên Bái",
+   "aliases": [
+    "Yen Bai",
+    "Jenbaj",
+    "Yen Bay",
+    "Йенбай"
+   ],
+   "lat": 21.72288,
+   "lon": 104.9113,
+   "population": 100631,
+   "geonameId": "1560349"
+  },
+  {
+   "id": "city:geonames-1581052",
+   "name": "Hà Tiên",
+   "aliases": [
+    "Ha Tien",
+    "Khat'en",
+    "hatien",
+    "Хатьен",
+    "ハティエン"
+   ],
+   "lat": 10.3831,
+   "lon": 104.48753,
+   "population": 100560,
+   "geonameId": "1581052"
+  },
+  {
+   "id": "city:geonames-1570864",
+   "name": "Phong Điền",
+   "aliases": [
+    "Phong GJien",
+    "Phong Dien"
+   ],
+   "lat": 9.99753,
+   "lon": 105.6673,
+   "population": 98424,
+   "geonameId": "1570864"
+  },
+  {
+   "id": "city:geonames-9533392",
+   "name": "Vĩnh Thạnh",
+   "aliases": [
+    "Vinh Thanh"
+   ],
+   "lat": 10.22263,
+   "lon": 105.39841,
+   "population": 98399,
+   "geonameId": "9533392"
+  },
+  {
+   "id": "city:geonames-1581529",
+   "name": "Gò Công",
+   "aliases": [
+    "Go Cong"
+   ],
+   "lat": 10.36667,
+   "lon": 106.66667,
+   "population": 97709,
+   "geonameId": "1581529"
+  },
+  {
+   "id": "city:geonames-1572585",
+   "name": "Nghĩa Đô",
+   "aliases": [
+    "Nghia GJo",
+    "Nghia Do"
+   ],
+   "lat": 21.05,
+   "lon": 105.8,
+   "population": 96418,
+   "geonameId": "1572585"
+  },
+  {
+   "id": "city:geonames-1580093",
+   "name": "Hương Thủy",
+   "aliases": [
+    "Huong Thuy",
+    "Hương Thũy"
+   ],
+   "lat": 16.42184,
+   "lon": 107.63999,
+   "population": 95299,
+   "geonameId": "1580093"
+  },
+  {
+   "id": "city:geonames-8539621",
+   "name": "Bình Minh",
+   "aliases": [
+    "Binh Minh",
+    "Cai Von",
+    "Cái Vồn"
+   ],
+   "lat": 10.06821,
+   "lon": 105.82221,
+   "population": 94862,
+   "geonameId": "8539621"
+  },
+  {
+   "id": "city:geonames-1567723",
+   "name": "Sông Cầu",
+   "aliases": [
+    "Song Cau",
+    "Bong Cau",
+    "Bông Cầu",
+    "Song Ka",
+    "Song Ko",
+    "Songkau"
+   ],
+   "lat": 13.4556,
+   "lon": 109.22348,
+   "population": 94066,
+   "geonameId": "1567723"
+  },
+  {
+   "id": "city:geonames-13680018",
+   "name": "Khương Đình",
+   "aliases": [
+    "Khuong GJinh"
+   ],
+   "lat": 20.98366,
+   "lon": 105.81537,
+   "population": 93780,
+   "geonameId": "13680018"
+  },
+  {
+   "id": "city:geonames-1569901",
+   "name": "Phú Thọ",
+   "aliases": [
+    "Phu Tho",
+    "Pho Tho",
+    "Phu To",
+    "Thi Xa Phu Tho",
+    "Thị Xã Phú Thọ"
+   ],
+   "lat": 21.39963,
+   "lon": 105.22221,
+   "population": 91650,
+   "geonameId": "1569901"
+  },
+  {
+   "id": "city:geonames-1591493",
+   "name": "Bạch Mai",
+   "aliases": [
+    "Bach Mai",
+    "Hanoi Bac Mai"
+   ],
+   "lat": 20.98333,
+   "lon": 105.83333,
+   "population": 91308,
+   "geonameId": "1591493"
+  },
+  {
+   "id": "city:geonames-1564956",
+   "name": "Thượng Cát",
+   "aliases": [
+    "Thuong Cat"
+   ],
+   "lat": 21.09342,
+   "lon": 105.73188,
+   "population": 87406,
+   "geonameId": "1564956"
+  },
+  {
+   "id": "city:geonames-8656396",
+   "name": "Sơn Trà",
+   "aliases": [
+    "Son Tra"
+   ],
+   "lat": 16.06068,
+   "lon": 108.23256,
+   "population": 86890,
+   "geonameId": "8656396"
+  },
+  {
+   "id": "city:geonames-1562570",
+   "name": "Vĩnh Tuy",
+   "aliases": [
+    "Vinh Tuy"
+   ],
+   "lat": 21,
+   "lon": 105.88333,
+   "population": 86618,
+   "geonameId": "1562570"
+  },
+  {
+   "id": "city:geonames-1586519",
+   "name": "Cái Răng",
+   "aliases": [
+    "Cai Rang",
+    "Chau Thanh",
+    "Châu Thành"
+   ],
+   "lat": 10.0009,
+   "lon": 105.75095,
+   "population": 86278,
+   "geonameId": "1586519"
+  },
+  {
+   "id": "city:geonames-13680014",
+   "name": "Định Công",
+   "aliases": [
+    "GJinh Cong"
+   ],
+   "lat": 20.98389,
+   "lon": 105.82694,
+   "population": 85502,
+   "geonameId": "13680014"
+  },
+  {
+   "id": "city:geonames-8616016",
+   "name": "Sóc Sơn",
+   "aliases": [
+    "Soc Son"
+   ],
+   "lat": 21.25782,
+   "lon": 105.84894,
+   "population": 85431,
+   "geonameId": "8616016"
+  },
+  {
+   "id": "city:geonames-1581834",
+   "name": "Gia Nghĩa",
+   "aliases": [
+    "Gia Nghia",
+    "Nghia Duc",
+    "Nghiã Đức",
+    "Quang Duc",
+    "Zja Ngia",
+    "gi'a naghi'a",
+    "jiya naghiya",
+    "jiya nghiya",
+    "jiya niግya",
+    "jya nghya",
+    "jya nya",
+    "zanya",
+    "Зя Нгиа",
+    "جيا نغيا",
+    "جیا نغیا",
+    "جیا نیا",
+    "जिया न्घिया",
+    "জিয়া নঘিয়া",
+    "ਗਿਆ ਨਘਿਆ",
+    "ጂያ ንግያ",
+    "ザーニャー"
+   ],
+   "lat": 12.00423,
+   "lon": 107.69074,
+   "population": 85082,
+   "geonameId": "1581834"
+  },
+  {
+   "id": "city:geonames-1583477",
+   "name": "Dien Bien Phu",
+   "aliases": [
+    "D'enb'enfu",
+    "D'enbenfu",
+    "DIN",
+    "Dien Ben Fu",
+    "Dienbienfu",
+    "Dienbjenfu",
+    "Dijen Bijen Fu",
+    "GJien Bien Phu",
+    "Thien-pien-fu",
+    "Thièn-piên-fú",
+    "deiy n beiyn fu",
+    "di'ena bi'ena phu",
+    "dian bian fu",
+    "dienbienfu",
+    "dienbienpu",
+    "diyena biyena phu",
+    "diyeni biyeni ፉ",
+    "dyan byan fw",
+    "dyn byn fw",
+    "dyyn byyn fw",
+    "Ðiện Biên Phủ",
+    "Điện Biên Phủ",
+    "Диен Бен Фу",
+    "Диенбиенфу",
+    "Дијен Бијен Фу",
+    "Дьенбьенфу",
+    "Дьєнбєнфу",
+    "ديان بيان فو",
+    "دیئن بیئن فو",
+    "دیئن بیئن پھو",
+    "دین بین فو",
+    "डिएन बिएन फु",
+    "ডিয়েন বিয়েন ফু",
+    "ਡਿਏਨ ਬਿਏਨ ਫੁ",
+    "เดียนเบียนฟู",
+    "ດຽນບຽນຟູ",
+    "ድየን ብየን ፉ",
+    "ディエンビエンフー",
+    "奠邊府",
+    "디엔비엔푸"
+   ],
+   "lat": 21.38602,
+   "lon": 103.02301,
+   "population": 84672,
+   "geonameId": "1583477"
+  },
+  {
+   "id": "city:geonames-13680015",
+   "name": "Đông Ngạc",
+   "aliases": [
+    "GJong Ngac"
+   ],
+   "lat": 21.08063,
+   "lon": 105.77397,
+   "population": 83544,
+   "geonameId": "13680015"
+  },
+  {
+   "id": "city:geonames-1594436",
+   "name": "An Hải",
+   "aliases": [
+    "An Hai"
+   ],
+   "lat": 16.06667,
+   "lon": 108.23333,
+   "population": 82635,
+   "geonameId": "1594436"
+  },
+  {
+   "id": "city:geonames-1594402",
+   "name": "An Khê",
+   "aliases": [
+    "An Khe",
+    "An Kahe",
+    "An Tuc",
+    "An Túc"
+   ],
+   "lat": 13.95,
+   "lon": 108.65,
+   "population": 81600,
+   "geonameId": "1594402"
+  },
+  {
+   "id": "city:geonames-1592832",
+   "name": "Lai Vung",
+   "aliases": [],
+   "lat": 10.25664,
+   "lon": 105.59329,
+   "population": 80649,
+   "geonameId": "1592832"
+  },
+  {
+   "id": "city:geonames-8340760",
+   "name": "Cung Kiệm",
+   "aliases": [
+    "Cung Kiem"
+   ],
+   "lat": 21.18697,
+   "lon": 106.16076,
+   "population": 80000,
+   "geonameId": "8340760"
+  },
+  {
+   "id": "city:geonames-8656395",
+   "name": "Cẩm Lệ",
+   "aliases": [
+    "Cam Le"
+   ],
+   "lat": 16.01771,
+   "lon": 108.20381,
+   "population": 78837,
+   "geonameId": "8656395"
+  },
+  {
+   "id": "city:geonames-13535707",
+   "name": "Yên Hòa",
+   "aliases": [
+    "Yen Hoa"
+   ],
+   "lat": 21.02185,
+   "lon": 105.79147,
+   "population": 77029,
+   "geonameId": "13535707"
+  },
+  {
+   "id": "city:geonames-13680016",
+   "name": "Giảng Võ",
+   "aliases": [
+    "Giang Vo"
+   ],
+   "lat": 21.03066,
+   "lon": 105.81252,
+   "population": 76658,
+   "geonameId": "13680016"
+  },
+  {
+   "id": "city:geonames-1566126",
+   "name": "Thanh Liệt",
+   "aliases": [
+    "Thanh Liet"
+   ],
+   "lat": 20.96667,
+   "lon": 105.81667,
+   "population": 76238,
+   "geonameId": "1566126"
+  },
+  {
+   "id": "city:geonames-1584661",
+   "name": "Củ Chi",
+   "aliases": [
+    "Cu Chi",
+    "Ku-Chi",
+    "Ку-Чи"
+   ],
+   "lat": 10.97333,
+   "lon": 106.49325,
+   "population": 75000,
+   "geonameId": "1584661"
+  },
+  {
+   "id": "city:geonames-1586185",
+   "name": "Cao Bằng",
+   "aliases": [
+    "Cao Bang",
+    "Cao Pang",
+    "Kao Bang",
+    "Kao banh",
+    "Kaobang",
+    "Thanh Pho Cao Bang",
+    "Thành Phố Cao Bằng",
+    "ka'o bainga",
+    "ka'o bam",
+    "ka'o banga",
+    "kaoban",
+    "kaoban shi",
+    "kaw bang",
+    "kaw banj",
+    "kawbang",
+    "kaʿo baniግ",
+    "Као Банг",
+    "Каобанг",
+    "كاو بانج",
+    "کاؤ بانگ",
+    "کاوبانگ",
+    "काओ बैंग",
+    "কাও বাং",
+    "ਕਾਓ ਬਾਂਗ",
+    "ካኦ ባንግ",
+    "カオバン",
+    "カオバン市"
+   ],
+   "lat": 22.66568,
+   "lon": 106.25786,
+   "population": 73549,
+   "geonameId": "1586185"
+  },
+  {
+   "id": "city:geonames-1580092",
+   "name": "Hương Trà",
+   "aliases": [
+    "Huong Tra"
+   ],
+   "lat": 16.52539,
+   "lon": 107.4755,
+   "population": 72677,
+   "geonameId": "1580092"
+  },
+  {
+   "id": "city:geonames-1574873",
+   "name": "Thị Trấn Mạo Khê",
+   "aliases": [
+    "Thi Tran Mao Khe",
+    "Mao Khe",
+    "Mạo Khê"
+   ],
+   "lat": 21.05858,
+   "lon": 106.59255,
+   "population": 72012,
+   "geonameId": "1574873"
+  },
+  {
+   "id": "city:geonames-13680019",
+   "name": "Kiến Hưng",
+   "aliases": [
+    "Kien Hung"
+   ],
+   "lat": 20.95833,
+   "lon": 105.78972,
+   "population": 70833,
+   "geonameId": "13680019"
+  },
+  {
+   "id": "city:geonames-1585011",
+   "name": "Cổ Đô",
+   "aliases": [
+    "Co GJo",
+    "Co Do",
+    "Cổ Độ"
+   ],
+   "lat": 21.27964,
+   "lon": 105.36404,
+   "population": 70706,
+   "geonameId": "1585011"
+  },
+  {
+   "id": "city:geonames-1585660",
+   "name": "Châu Đốc",
+   "aliases": [
+    "Chau GJoc",
+    "Angiang",
+    "Chau Doc",
+    "Chau Phu",
+    "Chau Phú",
+    "Chaudok",
+    "Cho Dok"
+   ],
+   "lat": 10.7,
+   "lon": 105.11667,
+   "population": 70239,
+   "geonameId": "1585660"
+  },
+  {
+   "id": "city:geonames-9292220",
+   "name": "Duyên Hải",
+   "aliases": [
+    "Duyen Hai"
+   ],
+   "lat": 9.63497,
+   "lon": 106.49237,
+   "population": 69961,
+   "geonameId": "9292220"
+  },
+  {
+   "id": "city:geonames-8668557",
+   "name": "Núi Thành",
+   "aliases": [
+    "Nui Thanh"
+   ],
+   "lat": 15.43194,
+   "lon": 108.65946,
+   "population": 69406,
+   "geonameId": "8668557"
+  },
+  {
+   "id": "city:geonames-1572565",
+   "name": "Nghĩa Lộ",
+   "aliases": [
+    "Nghia Lo"
+   ],
+   "lat": 21.6,
+   "lon": 104.51667,
+   "population": 68206,
+   "geonameId": "1572565"
+  },
+  {
+   "id": "city:geonames-13680021",
+   "name": "Phúc Lợi",
+   "aliases": [
+    "Phuc Loi"
+   ],
+   "lat": 21.04507,
+   "lon": 105.9294,
+   "population": 66790,
+   "geonameId": "13680021"
+  },
+  {
+   "id": "city:geonames-8628059",
+   "name": "Thái Hòa",
+   "aliases": [
+    "Thai Hoa"
+   ],
+   "lat": 18.92031,
+   "lon": 104.97441,
+   "population": 66127,
+   "geonameId": "8628059"
+  },
+  {
+   "id": "city:geonames-1569856",
+   "name": "Từ Sơn",
+   "aliases": [
+    "Tu Son",
+    "Phu Tu Son",
+    "Phủ Từ Sơn",
+    "Treabong"
+   ],
+   "lat": 21.1,
+   "lon": 105.96667,
+   "population": 65697,
+   "geonameId": "1569856"
+  },
+  {
+   "id": "city:geonames-1563241",
+   "name": "Thành Phố Uông Bí",
+   "aliases": [
+    "Thanh Pho Uong Bi",
+    "Uong Bi",
+    "Uông Bí"
+   ],
+   "lat": 21.03433,
+   "lon": 106.77049,
+   "population": 63829,
+   "geonameId": "1563241"
+  },
+  {
+   "id": "city:geonames-1575703",
+   "name": "Long Mỹ",
+   "aliases": [
+    "Long My"
+   ],
+   "lat": 9.68141,
+   "lon": 105.57226,
+   "population": 61781,
+   "geonameId": "1575703"
+  },
+  {
+   "id": "city:geonames-13494190",
+   "name": "Vinhomes Ocean Park",
+   "aliases": [
+    "Ocean City",
+    "Ocean Park",
+    "Vinhomes Ocean City"
+   ],
+   "lat": 20.9948,
+   "lon": 105.9465,
+   "population": 60000,
+   "geonameId": "13494190"
+  },
+  {
+   "id": "city:geonames-1584287",
+   "name": "Dại Mỗ",
+   "aliases": [
+    "Dai Mo"
+   ],
+   "lat": 20.98333,
+   "lon": 105.76667,
+   "population": 59980,
+   "geonameId": "1584287"
+  },
+  {
+   "id": "city:geonames-13535606",
+   "name": "Ngã Năm",
+   "aliases": [
+    "Nga Nam",
+    "enaga nama",
+    "naga nama",
+    "nga nam",
+    "nganamu",
+    "niga naም",
+    "nja nam",
+    "Нга Нам",
+    "نجا نام",
+    "نگا نام",
+    "नगा नाम",
+    "এনগা নাম",
+    "ਨਗਾ ਨਾਮ",
+    "ንጋ ናም",
+    "ンガナム"
+   ],
+   "lat": 9.56513,
+   "lon": 105.59897,
+   "population": 58588,
+   "geonameId": "13535606"
+  },
+  {
+   "id": "city:geonames-1562176",
+   "name": "Trảng Bom",
+   "aliases": [
+    "Trang Bom",
+    "Xa Trang Bom",
+    "Xã Trảng Bôm"
+   ],
+   "lat": 10.95358,
+   "lon": 107.00589,
+   "population": 57560,
+   "geonameId": "1562176"
+  },
+  {
+   "id": "city:geonames-1585639",
+   "name": "Châu Phong",
+   "aliases": [
+    "Chau Phong"
+   ],
+   "lat": 10.71667,
+   "lon": 105.13333,
+   "population": 56322,
+   "geonameId": "1585639"
+  },
+  {
+   "id": "city:geonames-13680013",
+   "name": "Dương Nội",
+   "aliases": [
+    "Duong Noi"
+   ],
+   "lat": 20.97736,
+   "lon": 105.75383,
+   "population": 56091,
+   "geonameId": "13680013"
+  },
+  {
+   "id": "city:geonames-9643221",
+   "name": "Trần Văn Thời",
+   "aliases": [
+    "Tran Van Thoi"
+   ],
+   "lat": 9.07713,
+   "lon": 104.97914,
+   "population": 55897,
+   "geonameId": "9643221"
+  },
+  {
+   "id": "city:geonames-13680017",
+   "name": "Hoàng Liệt",
+   "aliases": [
+    "Hoang Liet"
+   ],
+   "lat": 20.96403,
+   "lon": 105.84055,
+   "population": 55820,
+   "geonameId": "13680017"
+  },
+  {
+   "id": "city:geonames-1581349",
+   "name": "Hà Giang",
+   "aliases": [
+    "Ha Giang",
+    "Thanh Pho Ha Giang",
+    "Thành Phố Hà Giang",
+    "hazan shi",
+    "ハザン市"
+   ],
+   "lat": 22.82333,
+   "lon": 104.98357,
+   "population": 55559,
+   "geonameId": "1581349"
+  },
+  {
+   "id": "city:geonames-1586288",
+   "name": "Cần Giờ",
+   "aliases": [
+    "Can Gio",
+    "Can Thanh",
+    "Cần Thạnh"
+   ],
+   "lat": 10.41115,
+   "lon": 106.95474,
+   "population": 55137,
+   "geonameId": "1586288"
+  },
+  {
+   "id": "city:geonames-1561907",
+   "name": "Xóm Cái Nước",
+   "aliases": [
+    "Xom Cai Nuoc",
+    "Cai Nuoc"
+   ],
+   "lat": 9.8,
+   "lon": 105.1,
+   "population": 54397,
+   "geonameId": "1561907"
+  },
+  {
+   "id": "city:geonames-1570819",
+   "name": "Phong Thạnh",
+   "aliases": [
+    "Phong Thanh"
+   ],
+   "lat": 9.32361,
+   "lon": 105.34639,
+   "population": 53912,
+   "geonameId": "1570819"
+  },
+  {
+   "id": "city:geonames-1587919",
+   "name": "Bỉm Sơn",
+   "aliases": [
+    "Bim Son",
+    "Bien Son",
+    "Biên Sơn"
+   ],
+   "lat": 20.07806,
+   "lon": 105.86028,
+   "population": 53754,
+   "geonameId": "1587919"
+  },
+  {
+   "id": "city:geonames-1566346",
+   "name": "Thái Bình",
+   "aliases": [
+    "Thai Binh",
+    "Kua Loc",
+    "Taibinh",
+    "Thai Bin",
+    "Thanh Pho Thai Binh",
+    "Thành Phố Thái Bình"
+   ],
+   "lat": 20.45,
+   "lon": 106.34002,
+   "population": 53071,
+   "geonameId": "1566346"
+  },
+  {
+   "id": "city:geonames-7910088",
+   "name": "Tân Uyên",
+   "aliases": [
+    "Tan Uyen",
+    "Uyen Hung",
+    "Uyên Hưng"
+   ],
+   "lat": 11.08416,
+   "lon": 106.78834,
+   "population": 52873,
+   "geonameId": "7910088"
+  },
+  {
+   "id": "city:geonames-10182229",
+   "name": "Cửa Nam",
+   "aliases": [
+    "Cua Nam"
+   ],
+   "lat": 21.02115,
+   "lon": 105.85231,
+   "population": 52750,
+   "geonameId": "10182229"
+  },
+  {
+   "id": "city:geonames-1576757",
+   "name": "Thị Trấn Phước Bửu",
+   "aliases": [
+    "Thi Tran Phuoc Buu",
+    "Ap Phuoc Buu",
+    "Lang Phuoc Buu",
+    "Làng Phước Bửu",
+    "Phuoc Buu"
+   ],
+   "lat": 10.53472,
+   "lon": 107.40202,
+   "population": 51895,
+   "geonameId": "1576757"
+  },
+  {
+   "id": "city:geonames-1582367",
+   "name": "Đố Sơn",
+   "aliases": [
+    "GJo Son",
+    "Do Son"
+   ],
+   "lat": 20.71361,
+   "lon": 106.78944,
+   "population": 51417,
+   "geonameId": "1582367"
+  },
+  {
+   "id": "city:geonames-1581364",
+   "name": "Hà Đông",
+   "aliases": [
+    "Ha GJong",
+    "Ha Dong"
+   ],
+   "lat": 20.97136,
+   "lon": 105.77876,
+   "population": 50877,
+   "geonameId": "1581364"
+  },
+  {
+   "id": "city:geonames-1586295",
+   "name": "Cần Đước",
+   "aliases": [
+    "Can GJuoc",
+    "Can Duoc"
+   ],
+   "lat": 10.50966,
+   "lon": 106.60308,
+   "population": 50473,
+   "geonameId": "1586295"
+  },
+  {
+   "id": "city:geonames-7304197",
+   "name": "Mui Ne",
+   "aliases": [
+    "Mui-Ne",
+    "Mujne",
+    "Муи-Не",
+    "Муйне"
+   ],
+   "lat": 10.93314,
+   "lon": 108.28327,
+   "population": 50166,
+   "geonameId": "7304197"
+  },
+  {
+   "id": "city:geonames-13494193",
+   "name": "Vinhomes Smart City",
+   "aliases": [
+    "Smart City"
+   ],
+   "lat": 21.0045,
+   "lon": 105.7404,
+   "population": 50000,
+   "geonameId": "13494193"
+  },
+  {
+   "id": "city:geonames-13494194",
+   "name": "Vinhomes Times City",
+   "aliases": [
+    "Times City",
+    "Times City-Parkhill"
+   ],
+   "lat": 20.9945,
+   "lon": 105.8677,
+   "population": 50000,
+   "geonameId": "13494194"
+  },
+  {
+   "id": "city:geonames-13680012",
+   "name": "Yên Nghĩa",
+   "aliases": [
+    "Yen Nghia"
+   ],
+   "lat": 20.95414,
+   "lon": 105.73474,
+   "population": 49643,
+   "geonameId": "13680012"
+  },
+  {
+   "id": "city:geonames-1572696",
+   "name": "Thị Trấn Ngải Giao",
+   "aliases": [
+    "Thi Tran Ngai Giao",
+    "Ngai Giao",
+    "Ngải Giao"
+   ],
+   "lat": 10.6471,
+   "lon": 107.24577,
+   "population": 49065,
+   "geonameId": "1572696"
+  },
+  {
+   "id": "city:geonames-1570549",
+   "name": "Phú Khương",
+   "aliases": [
+    "Phu Khuong"
+   ],
+   "lat": 11.28333,
+   "lon": 106.13333,
+   "population": 47966,
+   "geonameId": "1570549"
+  },
+  {
+   "id": "city:geonames-1572614",
+   "name": "Nga Sơn",
+   "aliases": [
+    "Nga Son"
+   ],
+   "lat": 20.00722,
+   "lon": 105.97044,
+   "population": 47176,
+   "geonameId": "1572614"
+  },
+  {
+   "id": "city:geonames-1584023",
+   "name": "Thị Trấn Đầm Hà",
+   "aliases": [
+    "Thi Tran GJam Ha",
+    "Dam Ha",
+    "Thi Tran Dam Ha",
+    "Đầm Hà"
+   ],
+   "lat": 21.35314,
+   "lon": 107.59722,
+   "population": 47060,
+   "geonameId": "1584023"
+  },
+  {
+   "id": "city:geonames-8616216",
+   "name": "Tây Mỗ",
+   "aliases": [
+    "Tay Mo"
+   ],
+   "lat": 21.00247,
+   "lon": 105.7457,
+   "population": 46469,
+   "geonameId": "8616216"
+  },
+  {
+   "id": "city:geonames-1591538",
+   "name": "Bắc Kạn",
+   "aliases": [
+    "Bac Kan",
+    "Bac Can",
+    "Bak Kan",
+    "Bắc Cạn"
+   ],
+   "lat": 22.14701,
+   "lon": 105.83481,
+   "population": 45036,
+   "geonameId": "1591538"
+  },
+  {
+   "id": "city:geonames-8550302",
+   "name": "Thị Trấn Sao Vàng",
+   "aliases": [
+    "Thi Tran Sao Vang"
+   ],
+   "lat": 19.88862,
+   "lon": 105.46189,
+   "population": 44643,
+   "geonameId": "8550302"
+  },
+  {
+   "id": "city:geonames-1587406",
+   "name": "Hoàn Lão",
+   "aliases": [
+    "Hoan Lao",
+    "Bo Trach",
+    "Bố Trạch"
+   ],
+   "lat": 17.58436,
+   "lon": 106.53425,
+   "population": 43554,
+   "geonameId": "1587406"
+  },
+  {
+   "id": "city:geonames-8456741",
+   "name": "Lai Châu",
+   "aliases": [
+    "Lai Chau",
+    "Laj Chau",
+    "Muang Lay",
+    "la'i ca'u",
+    "lay chaw",
+    "lay tshaw",
+    "layi caው",
+    "layy chaw",
+    "raichau",
+    "Лай Чау",
+    "لائی چاؤ",
+    "لاي تشاو",
+    "لای چاو",
+    "लाई चाउ",
+    "লাই চাউ",
+    "ਲਾਈ ਚਾਊ",
+    "ላይ ቻው",
+    "ライチャウ"
+   ],
+   "lat": 22.39644,
+   "lon": 103.45824,
+   "population": 42973,
+   "geonameId": "8456741"
+  },
+  {
+   "id": "city:geonames-9534593",
+   "name": "Ấp Một",
+   "aliases": [
+    "Ap Mot",
+    "Ap 1",
+    "Vi Thanh 1",
+    "Vi Thanh Mot",
+    "Vị Thanh 1",
+    "Vị Thanh Một",
+    "Ấp 1"
+   ],
+   "lat": 9.84217,
+   "lon": 105.53602,
+   "population": 42766,
+   "geonameId": "9534593"
+  },
+  {
+   "id": "city:geonames-1575057",
+   "name": "Mai Dịch",
+   "aliases": [
+    "Mai Dich"
+   ],
+   "lat": 21.03333,
+   "lon": 105.78333,
+   "population": 40527,
+   "geonameId": "1575057"
+  },
+  {
+   "id": "city:geonames-1583882",
+   "name": "Đan Phượng",
+   "aliases": [
+    "GJan Phuong",
+    "Dan Phuong",
+    "Phuong Tri"
+   ],
+   "lat": 21.08917,
+   "lon": 105.6625,
+   "population": 39917,
+   "geonameId": "1583882"
+  },
+  {
+   "id": "city:geonames-13405688",
+   "name": "Óc Eo",
+   "aliases": [
+    "Oc Eo"
+   ],
+   "lat": 10.24212,
+   "lon": 105.155,
+   "population": 39481,
+   "geonameId": "13405688"
+  },
+  {
+   "id": "city:geonames-1566545",
+   "name": "Tây Tựu",
+   "aliases": [
+    "Tay Tuu"
+   ],
+   "lat": 21.073,
+   "lon": 105.73,
+   "population": 39436,
+   "geonameId": "1566545"
+  },
+  {
+   "id": "city:geonames-8612792",
+   "name": "Lương Bằng",
+   "aliases": [
+    "Luong Bang"
+   ],
+   "lat": 20.74003,
+   "lon": 106.05998,
+   "population": 39420,
+   "geonameId": "8612792"
+  },
+  {
+   "id": "city:geonames-13680022",
+   "name": "Phú Thương",
+   "aliases": [
+    "Phu Thuong"
+   ],
+   "lat": 21.08734,
+   "lon": 105.80671,
+   "population": 39322,
+   "geonameId": "13680022"
+  },
+  {
+   "id": "city:geonames-1580160",
+   "name": "Hưng Mỹ",
+   "aliases": [
+    "Hung My"
+   ],
+   "lat": 8.9,
+   "lon": 104.98333,
+   "population": 38687,
+   "geonameId": "1580160"
+  },
+  {
+   "id": "city:geonames-1565164",
+   "name": "Thới Bình",
+   "aliases": [
+    "Thoi Binh",
+    "Thot Binh"
+   ],
+   "lat": 9.35584,
+   "lon": 105.09929,
+   "population": 38116,
+   "geonameId": "1565164"
+  },
+  {
+   "id": "city:geonames-1563683",
+   "name": "Hồng Lĩnh",
+   "aliases": [
+    "Hong Linh",
+    "Khon Lin'",
+    "Khong Lin'",
+    "Khonglin'",
+    "Khonlin'",
+    "hong ling shi she",
+    "honrin",
+    "Хон Линь",
+    "Хонг Линь",
+    "Хонглинь",
+    "Хонлинь",
+    "ہwng lynہ dlʿ",
+    "ہؤنگ لئنہ ضلع",
+    "ホンリン",
+    "鸿岭市社"
+   ],
+   "lat": 18.52861,
+   "lon": 105.70636,
+   "population": 36940,
+   "geonameId": "1563683"
+  },
+  {
+   "id": "city:geonames-1561914",
+   "name": "Cái Đôi Vàm",
+   "aliases": [
+    "Cai GJoi Vam",
+    "Cai Doi Vam",
+    "Xom Cai Doi Vam",
+    "Xóm Cái Đôi Vàm"
+   ],
+   "lat": 8.85707,
+   "lon": 104.81199,
+   "population": 36444,
+   "geonameId": "1561914"
+  },
+  {
+   "id": "city:geonames-12808881",
+   "name": "Ô Chợ Dừa",
+   "aliases": [
+    "O Cho Dua"
+   ],
+   "lat": 21.02146,
+   "lon": 105.82464,
+   "population": 36318,
+   "geonameId": "12808881"
+  },
+  {
+   "id": "city:geonames-1568759",
+   "name": "Quán Hàu",
+   "aliases": [
+    "Quan Hau",
+    "Quang Ninh",
+    "Quảng Ninh"
+   ],
+   "lat": 17.40438,
+   "lon": 106.64072,
+   "population": 36210,
+   "geonameId": "1568759"
+  },
+  {
+   "id": "city:geonames-9081358",
+   "name": "Dương Minh Châu",
+   "aliases": [
+    "Duong Minh Chau"
+   ],
+   "lat": 11.38414,
+   "lon": 106.23078,
+   "population": 35878,
+   "geonameId": "9081358"
+  },
+  {
+   "id": "city:geonames-1562278",
+   "name": "Xã Long Hải",
+   "aliases": [
+    "Xa Long Hai",
+    "Ap Long Hai",
+    "Long Hai"
+   ],
+   "lat": 10.38706,
+   "lon": 107.23884,
+   "population": 35167,
+   "geonameId": "1562278"
+  },
+  {
+   "id": "city:geonames-8701253",
+   "name": "A Yun Pa",
+   "aliases": [
+    "Ayun Pa",
+    "Cheo Reo",
+    "Hau Bon",
+    "Hậu Bổn",
+    "Phu Bon",
+    "Phú Bổn",
+    "ayunpa",
+    "アユンパ"
+   ],
+   "lat": 13.40025,
+   "lon": 108.43503,
+   "population": 35058,
+   "geonameId": "8701253"
+  },
+  {
+   "id": "city:geonames-1593041",
+   "name": "Ấp Long Thạnh",
+   "aliases": [
+    "Ap Long Thanh",
+    "Long Thanh",
+    "Long Thạnh"
+   ],
+   "lat": 10.76067,
+   "lon": 105.27428,
+   "population": 34198,
+   "geonameId": "1593041"
+  },
+  {
+   "id": "city:geonames-1568616",
+   "name": "Đông Phú",
+   "aliases": [
+    "GJong Phu",
+    "Dong Phu",
+    "Que Son",
+    "Quế Sơn"
+   ],
+   "lat": 15.67356,
+   "lon": 108.2201,
+   "population": 34122,
+   "geonameId": "1568616"
+  },
+  {
+   "id": "city:geonames-1581225",
+   "name": "Hàm Ninh",
+   "aliases": [
+    "Ham Ninh"
+   ],
+   "lat": 10.18058,
+   "lon": 104.04769,
+   "population": 33503,
+   "geonameId": "1581225"
+  },
+  {
+   "id": "city:geonames-1577859",
+   "name": "Thị Trấn Lam Sơn",
+   "aliases": [
+    "Thi Tran Lam Son",
+    "Lam Son",
+    "Lam Sơn"
+   ],
+   "lat": 19.9047,
+   "lon": 105.40562,
+   "population": 33117,
+   "geonameId": "1577859"
+  },
+  {
+   "id": "city:geonames-1570880",
+   "name": "Thị Trấn Phố Lu",
+   "aliases": [
+    "Thi Tran Pho Lu",
+    "Pho Lu",
+    "Phu-Lu",
+    "Phố Lu"
+   ],
+   "lat": 22.31918,
+   "lon": 104.18719,
+   "population": 32800,
+   "geonameId": "1570880"
+  },
+  {
+   "id": "city:geonames-1580541",
+   "name": "Hoi An",
+   "aliases": [
+    "Cidade Antiga de Hoi An",
+    "Faifo",
+    "Faifoh",
+    "Faifoo",
+    "Feifu",
+    "Hojanas",
+    "Hôi An",
+    "Hội An",
+    "Khoj An",
+    "Khoj An'",
+    "Khojan",
+    "ho'i ena pracina sahara",
+    "hoi-ani",
+    "hoian",
+    "hui an",
+    "hui an shi",
+    "hwy an",
+    "hx yxan",
+    "Хой Ань",
+    "Хойан",
+    "Хоян",
+    "Хој Ан",
+    "הוי אן",
+    "هوي أن",
+    "ہؤئی آن",
+    "होइ एन प्राचीन सहर",
+    "ฮอยอัน",
+    "ჰოი-ანი",
+    "ホイアン",
+    "會安",
+    "會安市",
+    "호이안"
+   ],
+   "lat": 15.87944,
+   "lon": 108.335,
+   "population": 32757,
+   "geonameId": "1580541"
+  },
+  {
+   "id": "city:geonames-1561210",
+   "name": "Xóm Mỹ Xuân",
+   "aliases": [
+    "Xom My Xuan",
+    "My Xuan"
+   ],
+   "lat": 10.61667,
+   "lon": 107.06667,
+   "population": 32345,
+   "geonameId": "1561210"
+  },
+  {
+   "id": "city:geonames-10126715",
+   "name": "Gành Hào",
+   "aliases": [
+    "Ganh Hao"
+   ],
+   "lat": 9.02827,
+   "lon": 105.42116,
+   "population": 31552,
+   "geonameId": "10126715"
+  },
+  {
+   "id": "city:geonames-12808882",
+   "name": "Láng Thượng",
+   "aliases": [
+    "Lang Thuong"
+   ],
+   "lat": 21.02374,
+   "lon": 105.8036,
+   "population": 31279,
+   "geonameId": "12808882"
+  },
+  {
+   "id": "city:geonames-1584725",
+   "name": "Cô Tô",
+   "aliases": [
+    "Co To"
+   ],
+   "lat": 10.35,
+   "lon": 105.01667,
+   "population": 31278,
+   "geonameId": "1584725"
+  },
+  {
+   "id": "city:geonames-1573570",
+   "name": "Năm Căn",
+   "aliases": [
+    "Nam Can",
+    "Nam Ca",
+    "Năm Că"
+   ],
+   "lat": 8.75899,
+   "lon": 104.99285,
+   "population": 30135,
+   "geonameId": "1573570"
+  },
+  {
+   "id": "city:geonames-1586384",
+   "name": "Cam Lộ",
+   "aliases": [
+    "Cam Lo",
+    "Thon Cam Lo",
+    "Thôn Cam Lộ"
+   ],
+   "lat": 16.80797,
+   "lon": 106.99405,
+   "population": 30111,
+   "geonameId": "1586384"
+  },
+  {
+   "id": "city:geonames-8616067",
+   "name": "Trâu Quỳ",
+   "aliases": [
+    "Trau Quy"
+   ],
+   "lat": 21.01951,
+   "lon": 105.93694,
+   "population": 30051,
+   "geonameId": "8616067"
+  },
+  {
+   "id": "city:geonames-1586052",
+   "name": "Cát Bà",
+   "aliases": [
+    "Cat Ba",
+    "Apowan",
+    "Cac Ba",
+    "Kat Ba",
+    "Pho Cac Ba",
+    "Pho Cat Ba",
+    "Кат Ба"
+   ],
+   "lat": 20.72779,
+   "lon": 107.04819,
+   "population": 30000,
+   "geonameId": "1586052"
+  },
+  {
+   "id": "city:geonames-1563490",
+   "name": "Tu Bông",
+   "aliases": [
+    "Tu Bong"
+   ],
+   "lat": 12.76667,
+   "lon": 109.3,
+   "population": 29751,
+   "geonameId": "1563490"
+  },
+  {
+   "id": "city:geonames-1594188",
+   "name": "An Trạch",
+   "aliases": [
+    "An Trach"
+   ],
+   "lat": 9.06861,
+   "lon": 105.39583,
+   "population": 28412,
+   "geonameId": "1594188"
+  },
+  {
+   "id": "city:geonames-1579019",
+   "name": "Kiến An",
+   "aliases": [
+    "Kien An"
+   ],
+   "lat": 10.56667,
+   "lon": 105.36667,
+   "population": 28333,
+   "geonameId": "1579019"
+  },
+  {
+   "id": "city:geonames-1583503",
+   "name": "Dịch Vọng",
+   "aliases": [
+    "Dich Vong"
+   ],
+   "lat": 21.03333,
+   "lon": 105.8,
+   "population": 27979,
+   "geonameId": "1583503"
+  },
+  {
+   "id": "city:geonames-1575655",
+   "name": "Long Thành",
+   "aliases": [
+    "Long Thanh",
+    "LTH"
+   ],
+   "lat": 10.78909,
+   "lon": 106.95029,
+   "population": 27084,
+   "geonameId": "1575655"
+  },
+  {
+   "id": "city:geonames-8616055",
+   "name": "Cầu Diễn",
+   "aliases": [
+    "Cau Dien"
+   ],
+   "lat": 21.03929,
+   "lon": 105.76659,
+   "population": 27017,
+   "geonameId": "8616055"
+  },
+  {
+   "id": "city:geonames-8725037",
+   "name": "Quảng Phú",
+   "aliases": [
+    "Quang Phu"
+   ],
+   "lat": 12.81965,
+   "lon": 108.07738,
+   "population": 26733,
+   "geonameId": "8725037"
+  },
+  {
+   "id": "city:geonames-8336885",
+   "name": "Núi Sập",
+   "aliases": [
+    "Nui Sap"
+   ],
+   "lat": 10.26478,
+   "lon": 105.26676,
+   "population": 25633,
+   "geonameId": "8336885"
+  },
+  {
+   "id": "city:geonames-1579635",
+   "name": "Khánh Hòa",
+   "aliases": [
+    "Khanh Hoa"
+   ],
+   "lat": 10.68333,
+   "lon": 105.16667,
+   "population": 25320,
+   "geonameId": "1579635"
+  },
+  {
+   "id": "city:geonames-9000266",
+   "name": "Phú Quý",
+   "aliases": [
+    "Phu Quy"
+   ],
+   "lat": 10.5166,
+   "lon": 108.93292,
+   "population": 25267,
+   "geonameId": "9000266"
+  },
+  {
+   "id": "city:geonames-1570243",
+   "name": "Phước An",
+   "aliases": [
+    "Phuoc An"
+   ],
+   "lat": 12.71298,
+   "lon": 108.30148,
+   "population": 25120,
+   "geonameId": "1570243"
+  },
+  {
+   "id": "city:geonames-1560551",
+   "name": "Xuân Mai",
+   "aliases": [
+    "Xuan Mai"
+   ],
+   "lat": 20.9,
+   "lon": 105.58333,
+   "population": 25100,
+   "geonameId": "1560551"
+  },
+  {
+   "id": "city:geonames-12382295",
+   "name": "Quang Minh",
+   "aliases": [],
+   "lat": 21.18884,
+   "lon": 105.77269,
+   "population": 25000,
+   "geonameId": "12382295"
+  },
+  {
+   "id": "city:geonames-13494192",
+   "name": "Ecopark",
+   "aliases": [
+    "Ecopark Township"
+   ],
+   "lat": 20.9621,
+   "lon": 105.9318,
+   "population": 25000,
+   "geonameId": "13494192"
+  },
+  {
+   "id": "city:geonames-1578904",
+   "name": "Kim Liên",
+   "aliases": [
+    "Kim Lien"
+   ],
+   "lat": 18.88333,
+   "lon": 105.31667,
+   "population": 24489,
+   "geonameId": "1578904"
+  },
+  {
+   "id": "city:geonames-1562538",
+   "name": "Vị Thanh",
+   "aliases": [
+    "Vi Thanh",
+    "Duc Long",
+    "Vi Tanh",
+    "Vi Tkhan'",
+    "bhi thana",
+    "fy than",
+    "vi tani",
+    "vi thana",
+    "vui・tan",
+    "wy tan",
+    "wy tھan",
+    "Đức Long",
+    "Вi Тхань",
+    "Ви Тхань",
+    "في ثان",
+    "وی تان",
+    "وی تھان",
+    "वी थान",
+    "ভি থান",
+    "ਵੀ ਥਾਨ",
+    "ቪ ታን",
+    "ヴィ・タン"
+   ],
+   "lat": 9.78449,
+   "lon": 105.47012,
+   "population": 24477,
+   "geonameId": "1562538"
+  },
+  {
+   "id": "city:geonames-1573844",
+   "name": "Thị Trấn Na Dương",
+   "aliases": [
+    "Thi Tran Na Duong",
+    "Na Dzuong",
+    "Nà Dzương"
+   ],
+   "lat": 21.7025,
+   "lon": 106.95552,
+   "population": 24369,
+   "geonameId": "1573844"
+  },
+  {
+   "id": "city:geonames-8549745",
+   "name": "Thị Trấn Vân Du",
+   "aliases": [
+    "Thi Tran Van Du"
+   ],
+   "lat": 20.15186,
+   "lon": 105.73097,
+   "population": 24146,
+   "geonameId": "8549745"
+  },
+  {
+   "id": "city:geonames-1574109",
+   "name": "Mỹ Lại",
+   "aliases": [
+    "My Lai",
+    "Binh Tuong Tay",
+    "Binhtay",
+    "My Khe Tay",
+    "Somlang",
+    "Thuan An",
+    "Thuận An",
+    "Tucong",
+    "Xomlang"
+   ],
+   "lat": 15.18764,
+   "lon": 108.88904,
+   "population": 23978,
+   "geonameId": "1574109"
+  },
+  {
+   "id": "city:geonames-1574113",
+   "name": "Mỹ Khê",
+   "aliases": [
+    "My Khe",
+    "Tu Cung"
+   ],
+   "lat": 15.15,
+   "lon": 108.9,
+   "population": 23978,
+   "geonameId": "1574113"
+  },
+  {
+   "id": "city:geonames-1560121",
+   "name": "Yên Phụ",
+   "aliases": [
+    "Yen Phu",
+    "Yen Phu Phuong"
+   ],
+   "lat": 21.03333,
+   "lon": 105.83333,
+   "population": 23942,
+   "geonameId": "1560121"
+  },
+  {
+   "id": "city:geonames-1567523",
+   "name": "Nha Bích",
+   "aliases": [
+    "Nha Bich",
+    "Sroc Nha Bich",
+    "Sroc Nha Binh",
+    "Srok Nha Bich",
+    "Srok Nhá Bích"
+   ],
+   "lat": 11.49117,
+   "lon": 106.69074,
+   "population": 23938,
+   "geonameId": "1567523"
+  },
+  {
+   "id": "city:geonames-1586798",
+   "name": "Buôn Trấp",
+   "aliases": [
+    "Buon Trap",
+    "Ban Trap",
+    "Buôn Trăp"
+   ],
+   "lat": 12.48478,
+   "lon": 108.02982,
+   "population": 23683,
+   "geonameId": "1586798"
+  },
+  {
+   "id": "city:geonames-12261368",
+   "name": "thị xã Quảng Trị",
+   "aliases": [
+    "thi xa Quang Tri",
+    "Quang Tri",
+    "Quảng Trị"
+   ],
+   "lat": 16.75083,
+   "lon": 107.18278,
+   "population": 23356,
+   "geonameId": "12261368"
+  },
+  {
+   "id": "city:geonames-1567167",
+   "name": "Tam Giang",
+   "aliases": [],
+   "lat": 8.8,
+   "lon": 105.18333,
+   "population": 23277,
+   "geonameId": "1567167"
+  },
+  {
+   "id": "city:geonames-11496088",
+   "name": "Kiên Hải",
+   "aliases": [
+    "Kien Hai",
+    "GJac khu Kien Hai",
+    "Đặc khu Kiên Hải"
+   ],
+   "lat": 9.97274,
+   "lon": 104.8475,
+   "population": 23179,
+   "geonameId": "11496088"
+  },
+  {
+   "id": "city:geonames-1564075",
+   "name": "Tràm Chim",
+   "aliases": [
+    "Tram Chim"
+   ],
+   "lat": 10.67001,
+   "lon": 105.56469,
+   "population": 22725,
+   "geonameId": "1564075"
+  },
+  {
+   "id": "city:geonames-1585531",
+   "name": "Chiềng Cơi",
+   "aliases": [
+    "Chieng Coi"
+   ],
+   "lat": 21.3,
+   "lon": 103.9,
+   "population": 22624,
+   "geonameId": "1585531"
+  },
+  {
+   "id": "city:geonames-1593289",
+   "name": "Ấp Hô Phòng",
+   "aliases": [
+    "Ap Ho Phong",
+    "Ho Phong",
+    "Hô Phòng"
+   ],
+   "lat": 9.22583,
+   "lon": 105.41861,
+   "population": 22317,
+   "geonameId": "1593289"
+  },
+  {
+   "id": "city:geonames-8673396",
+   "name": "Lý Sơn",
+   "aliases": [
+    "Ly Son"
+   ],
+   "lat": 15.37198,
+   "lon": 109.11891,
+   "population": 22174,
+   "geonameId": "8673396"
+  },
+  {
+   "id": "city:geonames-1564589",
+   "name": "Thị Trấn Tiên Yên",
+   "aliases": [
+    "Thi Tran Tien Yen",
+    "Tienan",
+    "Tien Yen",
+    "Tien Yer",
+    "Tiên Yên",
+    "T”ienan"
+   ],
+   "lat": 21.33133,
+   "lon": 107.40533,
+   "population": 22164,
+   "geonameId": "1564589"
+  },
+  {
+   "id": "city:geonames-1592500",
+   "name": "Ấp Phước Tĩnh",
+   "aliases": [
+    "Ap Phuoc Tinh",
+    "Phuoc Tinh"
+   ],
+   "lat": 10.4,
+   "lon": 107.18333,
+   "population": 22106,
+   "geonameId": "1592500"
+  },
+  {
+   "id": "city:geonames-1583475",
+   "name": "Diễn Thành",
+   "aliases": [
+    "Dien Thanh",
+    "Dien Chau",
+    "Diễn Châu",
+    "Phu Dien",
+    "Phu Dien Chau"
+   ],
+   "lat": 18.97652,
+   "lon": 105.60034,
+   "population": 21605,
+   "geonameId": "1583475"
+  },
+  {
+   "id": "city:geonames-13680020",
+   "name": "Lĩnh Nam",
+   "aliases": [
+    "Linh Nam"
+   ],
+   "lat": 20.97966,
+   "lon": 105.89044,
+   "population": 20706,
+   "geonameId": "13680020"
+  },
+  {
+   "id": "city:geonames-8724987",
+   "name": "Ea Drăng",
+   "aliases": [
+    "Ea Drang"
+   ],
+   "lat": 13.2045,
+   "lon": 108.21029,
+   "population": 20600,
+   "geonameId": "8724987"
+  },
+  {
+   "id": "city:geonames-1575963",
+   "name": "Liễu Giai",
+   "aliases": [
+    "Lieu Giai"
+   ],
+   "lat": 21.03333,
+   "lon": 105.81667,
+   "population": 20546,
+   "geonameId": "1575963"
+  },
+  {
+   "id": "city:geonames-1574257",
+   "name": "Mường Lay",
+   "aliases": [
+    "Muong Lay"
+   ],
+   "lat": 22,
+   "lon": 103.13333,
+   "population": 20450,
+   "geonameId": "1574257"
+  },
+  {
+   "id": "city:geonames-1571725",
+   "name": "Thị Trấn Nước Hai",
+   "aliases": [
+    "Thi Tran Nuoc Hai",
+    "Hoa An",
+    "Nouc Hai",
+    "Nuoc Hai",
+    "Nước Hai"
+   ],
+   "lat": 22.73738,
+   "lon": 106.15216,
+   "population": 20309,
+   "geonameId": "1571725"
+  },
+  {
+   "id": "city:geonames-1583752",
+   "name": "Thị Trấn Đất Đỏ",
+   "aliases": [
+    "Thi Tran GJat GJo",
+    "Phuoc Tho",
+    "Thi Tran Dat Do",
+    "Xa Phuoc Tho",
+    "Xã Phước Thọ"
+   ],
+   "lat": 10.49093,
+   "lon": 107.27014,
+   "population": 20187,
+   "geonameId": "1583752"
+  },
+  {
+   "id": "city:geonames-1565969",
+   "name": "Thị Trấn Thất Khê",
+   "aliases": [
+    "Thi Tran That Khe",
+    "That Ke",
+    "That Khe",
+    "Thất Khê"
+   ],
+   "lat": 22.25525,
+   "lon": 106.47359,
+   "population": 20153,
+   "geonameId": "1565969"
+  },
+  {
+   "id": "city:geonames-13494195",
+   "name": "Vinhomes Royal City",
+   "aliases": [
+    "Royal City"
+   ],
+   "lat": 21.0028,
+   "lon": 105.8151,
+   "population": 20000,
+   "geonameId": "13494195"
+  },
+  {
+   "id": "city:geonames-8637813",
+   "name": "Nghèn",
+   "aliases": [
+    "Nghen",
+    "Dai Loc",
+    "GJai Loc",
+    "dairokku",
+    "gen",
+    "Đại Lộc",
+    "ゲン",
+    "ダイロック"
+   ],
+   "lat": 18.45119,
+   "lon": 105.77969,
+   "population": 18965,
+   "geonameId": "8637813"
+  },
+  {
+   "id": "city:geonames-1580730",
+   "name": "Hoang Cau",
+   "aliases": [
+    "Hoàng Cầu",
+    "Thanh Nhan"
+   ],
+   "lat": 21.01667,
+   "lon": 105.83333,
+   "population": 18500,
+   "geonameId": "1580730"
+  },
+  {
+   "id": "city:geonames-1562279",
+   "name": "Long Diền",
+   "aliases": [
+    "Long Dien",
+    "Xa Long Dien",
+    "Xã Long Diền"
+   ],
+   "lat": 10.48333,
+   "lon": 107.21667,
+   "population": 18093,
+   "geonameId": "1562279"
+  },
+  {
+   "id": "city:geonames-1563704",
+   "name": "Thị Trấn Trùng Khánh",
+   "aliases": [
+    "Thi Tran Trung Khanh",
+    "Trung Khanh",
+    "Trung Khanh Phu",
+    "Trùng Khánh",
+    "Trùng Khánh Phủ"
+   ],
+   "lat": 22.83514,
+   "lon": 106.52496,
+   "population": 17849,
+   "geonameId": "1563704"
+  },
+  {
+   "id": "city:geonames-1570909",
+   "name": "Thị Trấn Ba Chẽ",
+   "aliases": [
+    "Thi Tran Ba Che",
+    "Pho Ba Che",
+    "Phố Ba Chè"
+   ],
+   "lat": 21.27158,
+   "lon": 107.28358,
+   "population": 17504,
+   "geonameId": "1570909"
+  },
+  {
+   "id": "city:geonames-1572249",
+   "name": "Nhà Bè",
+   "aliases": [
+    "Nha Be",
+    "Lazaret",
+    "Nha Bè"
+   ],
+   "lat": 10.69672,
+   "lon": 106.74032,
+   "population": 17264,
+   "geonameId": "1572249"
+  },
+  {
+   "id": "city:geonames-1587985",
+   "name": "Bến Thủy",
+   "aliases": [
+    "Ben Thuy",
+    "Benhuy"
+   ],
+   "lat": 18.65,
+   "lon": 105.7,
+   "population": 17000,
+   "geonameId": "1587985"
+  },
+  {
+   "id": "city:geonames-1563663",
+   "name": "Trung Phụng",
+   "aliases": [
+    "Trung Phung",
+    "Trung-Phuong"
+   ],
+   "lat": 21,
+   "lon": 105.83333,
+   "population": 16998,
+   "geonameId": "1563663"
+  },
+  {
+   "id": "city:geonames-8628018",
+   "name": "Bản Na Hỷ",
+   "aliases": [
+    "Ban Na Hy",
+    "Na Hy",
+    "Na Hỷ"
+   ],
+   "lat": 19.56361,
+   "lon": 104.53459,
+   "population": 16710,
+   "geonameId": "8628018"
+  },
+  {
+   "id": "city:geonames-1584955",
+   "name": "Cổ Lóa",
+   "aliases": [
+    "Co Loa"
+   ],
+   "lat": 21.11667,
+   "lon": 105.86667,
+   "population": 16514,
+   "geonameId": "1584955"
+  },
+  {
+   "id": "city:geonames-1584301",
+   "name": "Đại Lộc",
+   "aliases": [
+    "GJai Loc",
+    "Ai Nghia",
+    "Dai Loc",
+    "Ái Nghĩa"
+   ],
+   "lat": 15.88214,
+   "lon": 108.12092,
+   "population": 16215,
+   "geonameId": "1584301"
+  },
+  {
+   "id": "city:geonames-1590225",
+   "name": "Ít Ong",
+   "aliases": [
+    "It Ong",
+    "Ban Hit Ong",
+    "Ban It Ong",
+    "Bản It Ong"
+   ],
+   "lat": 21.5175,
+   "lon": 104.02701,
+   "population": 16153,
+   "geonameId": "1590225"
+  },
+  {
+   "id": "city:geonames-8473997",
+   "name": "Thị Trấn Việt Quang",
+   "aliases": [
+    "Thi Tran Viet Quang",
+    "Viet Quang",
+    "Việt Quang"
+   ],
+   "lat": 22.41509,
+   "lon": 104.80682,
+   "population": 16072,
+   "geonameId": "8473997"
+  },
+  {
+   "id": "city:geonames-8991407",
+   "name": "Đinh Văn",
+   "aliases": [
+    "GJinh Van",
+    "Din' Van",
+    "Dinh Van",
+    "Динь Ван"
+   ],
+   "lat": 11.78624,
+   "lon": 108.24282,
+   "population": 16036,
+   "geonameId": "8991407"
+  },
+  {
+   "id": "city:geonames-1587026",
+   "name": "Ea Pốc",
+   "aliases": [
+    "Ea Poc",
+    "Buon Ea Poc",
+    "Buon Poch",
+    "Buôn Ea Pôc"
+   ],
+   "lat": 12.77795,
+   "lon": 108.07114,
+   "population": 16033,
+   "geonameId": "1587026"
+  },
+  {
+   "id": "city:geonames-1570643",
+   "name": "Phú Đô",
+   "aliases": [
+    "Phu GJo",
+    "Phu Do",
+    "lang Phu GJo",
+    "làng Phú Đô"
+   ],
+   "lat": 21.01667,
+   "lon": 105.76667,
+   "population": 15983,
+   "geonameId": "1570643"
+  },
+  {
+   "id": "city:geonames-8993961",
+   "name": "Khánh Hải",
+   "aliases": [
+    "Khanh Hai"
+   ],
+   "lat": 11.59105,
+   "lon": 109.04052,
+   "population": 15585,
+   "geonameId": "8993961"
+  },
+  {
+   "id": "city:geonames-1570209",
+   "name": "Phước Hòa",
+   "aliases": [
+    "Phuoc Hoa",
+    "Bu Gia Map",
+    "Bu Ya Map",
+    "Bu Ya Mập",
+    "Bu-Jamap",
+    "Bù Gia Mập",
+    "Diamap",
+    "Djamap",
+    "Don Djamap",
+    "Poste de Djamap"
+   ],
+   "lat": 12.1,
+   "lon": 107.11667,
+   "population": 15418,
+   "geonameId": "1570209"
+  },
+  {
+   "id": "city:geonames-8551473",
+   "name": "Bo",
+   "aliases": [],
+   "lat": 20.67264,
+   "lon": 105.53625,
+   "population": 15408,
+   "geonameId": "8551473"
+  },
+  {
+   "id": "city:geonames-1593889",
+   "name": "Ấp Bình Châu",
+   "aliases": [
+    "Ap Binh Chau",
+    "Binh Chau"
+   ],
+   "lat": 10.55,
+   "lon": 107.55,
+   "population": 15344,
+   "geonameId": "1593889"
+  },
+  {
+   "id": "city:geonames-8746448",
+   "name": "Ea T’ling",
+   "aliases": [
+    "Ea T'ling"
+   ],
+   "lat": 12.58904,
+   "lon": 107.89578,
+   "population": 15342,
+   "geonameId": "8746448"
+  },
+  {
+   "id": "city:geonames-1591236",
+   "name": "Bà Nà",
+   "aliases": [
+    "Ba Na"
+   ],
+   "lat": 15.98333,
+   "lon": 107.98333,
+   "population": 15276,
+   "geonameId": "1591236"
+  },
+  {
+   "id": "city:geonames-1566029",
+   "name": "Phú Lộc",
+   "aliases": [
+    "Phu Loc",
+    "Huyen Thanh Tri",
+    "Huyện Thạnh Trị",
+    "Thanh Tr",
+    "Thạnh Tr"
+   ],
+   "lat": 9.42838,
+   "lon": 105.74111,
+   "population": 15099,
+   "geonameId": "1566029"
+  }
+ ]
+}

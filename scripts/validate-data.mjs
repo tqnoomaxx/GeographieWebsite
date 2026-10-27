@@ -201,6 +201,40 @@ for (const r of rels) {
   if (!entities.has(r.to)) err(`Beziehung ${r.type}: to ${r.to} fehlt`)
 }
 
+// Getrennt geladene GeoNames-Orte gehören nicht zum normalen Quiz-/Suchpool.
+const recallFiles = ['city-recall/index.json']
+const recallIndex = load('city-recall/index.json')
+const recallIds = new Set()
+if (recallIndex.minimumPopulation !== 15000 || recallIndex.license !== 'CC BY 4.0' ||
+    recallIndex.source !== 'https://download.geonames.org/export/dump/cities15000.zip' ||
+    !/^\d{4}-\d{2}-\d{2}$/.test(recallIndex.snapshotDate ?? '')) err('city-recall: Quelle oder Datenuntergrenze ungültig')
+for (const [country, entry] of Object.entries(recallIndex.countries ?? {})) {
+  if (!entities.has(country) || entry.file !== `city-recall/${country.slice(8)}.json`) {
+    err(`city-recall: ungültiges Land/Datei ${country}`)
+    continue
+  }
+  recallFiles.push(entry.file)
+  const data = load(entry.file)
+  if (data.country !== country || !Array.isArray(data.cities)) { err(`${entry.file}: ungültiges Format`); continue }
+  const populations = data.cities.map(c => c.population)
+  if (JSON.stringify(populations) !== JSON.stringify(entry.populations) || !populations.length ||
+      populations.some((p,i) => i > 0 && p > populations[i-1])) err(`${entry.file}: Anzahl/Sortierung im Index stimmt nicht`)
+  if (entry.hasOutline !== existsSync(join(DATA, 'geo/outlines', country.slice(8)+'.json'))) err(`${entry.file}: Kartenverweis stimmt nicht`)
+  for (const c of data.cities) {
+    if (!/^city:[A-Za-z0-9._-]+$/.test(c.id) || recallIds.has(c.id)) err(`${entry.file}: doppelte/ungültige ID ${c.id}`)
+    recallIds.add(c.id)
+    if (!c.name?.trim() || !Array.isArray(c.aliases) || c.aliases.some(a => typeof a !== 'string' || !a.trim()) ||
+        !/^\d+$/.test(c.geonameId) || !Number.isSafeInteger(c.population) || c.population <= recallIndex.minimumPopulation ||
+        !Number.isFinite(c.lat) || Math.abs(c.lat) > 90 || !Number.isFinite(c.lon) || Math.abs(c.lon) > 180)
+      err(`${entry.file}: ungültige Ortsdaten ${c.id}`)
+    const existing = entities.get(c.id)
+    if (existing && (existing.type !== 'city' || existing.attributes.country !== country)) err(`${entry.file}: ID-Kollision ${c.id}`)
+  }
+}
+if (!recallIds.size) err('city-recall: keine Städte erfasst')
+for (const file of listDir(join(DATA, 'city-recall')))
+  if (file.endsWith('.json') && !recallFiles.includes('city-recall/'+file)) err(`city-recall: veraltete Datei ${file}`)
+
 // Qualitätskennzahlen
 const countries = all.filter((e) => e.type === 'country')
 const missing = (field) => countries.filter((c) => c.attributes[field] === undefined).map((c) => c.id)
@@ -209,6 +243,7 @@ const quality = {
   counts: byType,
   media: mediaAll.length,
   relationships: rels.length,
+  city_recall: { countries: Object.keys(recallIndex.countries ?? {}).length, cities: recallIds.size, minimum_population: recallIndex.minimumPopulation },
   countries_without_population: missing('population'),
   countries_without_capital: countries
     .filter(
@@ -332,6 +367,7 @@ for (const f of [
   'entities/script-words.json',
   'entities/trivia.json',
   'relationships/index.json',
+  ...recallFiles.sort(),
   ...regionFiles.map((f) => `entities/regions/${f}`),
   ...plateFiles.map((f) => `entities/license-plates/${f}`),
 ])
@@ -382,6 +418,10 @@ lines.push(
   '## Großstädte über 300.000 Einwohner',
   '',
   'Städtenamen, Koordinaten und Einwohnerzahlen aus [GeoNames](https://www.geonames.org/), [cities15000-Auszug](https://download.geonames.org/export/dump/) unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Für diesen Modus werden alle erfassten bewohnten Städte mit mehr als 300.000 Einwohnern übernommen; Stadtteile sowie historische und aufgegebene Orte sind ausgeschlossen. Bestehende deutsche Städtenamen bleiben erhalten. Einwohnerzahlen können unterschiedliche Erhebungsstände und Gebietsabgrenzungen haben; die GeoNames-Änderungsdaten bezeichnen keine Volkszählung. Der Import ergänzt und verknüpft den vorhandenen Städtebestand.',
+  '',
+  '## Städte sammeln mit freier Einwohnergrenze',
+  '',
+  'Separater, je Land geladener GeoNames-cities15000-Auszug (CC BY 4.0): bewohnte Orte über 15.000 Einwohnern, ohne Stadtteile, historische und aufgegebene Orte. Frei wählbare Grenze ab 15.000; gesucht werden strikt größere Einwohnerzahlen. Die Quelle verwendet unterschiedliche Erhebungsstände und Ortsabgrenzungen. Deutsche Namen und zusätzliche Aliasse aus dem bisherigen Bestand bleiben erhalten; die Auswahl ist eine bearbeitete Zusammenstellung.',
   '',
   '## Schriften und Umschrift',
   '',

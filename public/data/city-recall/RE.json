@@ -1,0 +1,199 @@
+{
+ "country": "country:RE",
+ "cities": [
+  {
+   "id": "city:RE-saint-denis",
+   "name": "Saint-Denis",
+   "aliases": [
+    "RUN",
+    "Saint-Denis (Reunion)",
+    "Saint-Denis (Réunion)",
+    "Saint-Denis de la Reunion",
+    "Saint-Denis de la Réunion",
+    "Sen-Deni",
+    "St. Denis",
+    "saengdeuni",
+    "snt dnys",
+    "Сен-Дени",
+    "סנט דניס",
+    "サン・ドゥニ",
+    "생드니"
+   ],
+   "lat": -20.88231,
+   "lon": 55.4504,
+   "population": 154765,
+   "geonameId": "935264"
+  },
+  {
+   "id": "city:geonames-935221",
+   "name": "Saint-Paul",
+   "aliases": [
+    "Sen-Pol'",
+    "Сен-Поль"
+   ],
+   "lat": -21.00961,
+   "lon": 55.27134,
+   "population": 105240,
+   "geonameId": "935221"
+  },
+  {
+   "id": "city:geonames-935214",
+   "name": "Saint-Pierre",
+   "aliases": [
+    "Sent-P'er",
+    "ZSE",
+    "Сент-Пьер"
+   ],
+   "lat": -21.3393,
+   "lon": 55.47811,
+   "population": 84077,
+   "geonameId": "935214"
+  },
+  {
+   "id": "city:geonames-935582",
+   "name": "Le Tampon",
+   "aliases": [
+    "Le-Tampon",
+    "Tampon",
+    "Village du Tampon",
+    "lw tampwn",
+    "Ле Тампон",
+    "Ле-Тампон",
+    "لو تامپون",
+    "ル・タンポン"
+   ],
+   "lat": -21.2766,
+   "lon": 55.51766,
+   "population": 81943,
+   "geonameId": "935582"
+  },
+  {
+   "id": "city:geonames-935268",
+   "name": "Saint-André",
+   "aliases": [
+    "Saint-Andre",
+    "Sankt-Andre",
+    "Санкт-Андре"
+   ],
+   "lat": -20.96333,
+   "lon": 55.65031,
+   "population": 57150,
+   "geonameId": "935268"
+  },
+  {
+   "id": "city:geonames-935223",
+   "name": "Saint-Louis",
+   "aliases": [
+    "Sen-Lui",
+    "Сен-Луи"
+   ],
+   "lat": -21.28585,
+   "lon": 55.41124,
+   "population": 53935,
+   "geonameId": "935223"
+  },
+  {
+   "id": "city:geonames-935227",
+   "name": "Saint-Joseph",
+   "aliases": [
+    "Sent-Dzhozef",
+    "Сент-Джозеф"
+   ],
+   "lat": -21.3777,
+   "lon": 55.61691,
+   "population": 38807,
+   "geonameId": "935227"
+  },
+  {
+   "id": "city:geonames-935267",
+   "name": "Saint-Benoît",
+   "aliases": [
+    "Saint-Benoit",
+    "Sankt-Benua",
+    "Санкт-Бенуа"
+   ],
+   "lat": -21.03795,
+   "lon": 55.71546,
+   "population": 37023,
+   "geonameId": "935267"
+  },
+  {
+   "id": "city:geonames-935691",
+   "name": "La Possession",
+   "aliases": [
+    "La Posesion",
+    "La-Posses'jon",
+    "Possession",
+    "la pwsysywn",
+    "lpwssywn",
+    "Ла Посесион",
+    "Ла-Поссесьйон",
+    "لا پوسیسیون",
+    "لپوسسیون"
+   ],
+   "lat": -20.92909,
+   "lon": 55.3348,
+   "population": 35245,
+   "geonameId": "935691"
+  },
+  {
+   "id": "city:geonames-935225",
+   "name": "Saint-Leu",
+   "aliases": [
+    "Sankt-Leu",
+    "saengloe",
+    "Санкт-Леу",
+    "생뢰"
+   ],
+   "lat": -21.17059,
+   "lon": 55.28824,
+   "population": 34893,
+   "geonameId": "935225"
+  },
+  {
+   "id": "city:geonames-935255",
+   "name": "Sainte-Marie",
+   "aliases": [
+    "Sent-Mari",
+    "Сент-Мари"
+   ],
+   "lat": -20.89686,
+   "lon": 55.55056,
+   "population": 34344,
+   "geonameId": "935255"
+  },
+  {
+   "id": "city:geonames-935616",
+   "name": "Le Port",
+   "aliases": [
+    "La Point-aux-galets",
+    "Le Port des Galets",
+    "Port",
+    "Port de la Pointe des Galets",
+    "Port des Galets"
+   ],
+   "lat": -20.93752,
+   "lon": 55.29415,
+   "population": 33336,
+   "geonameId": "935616"
+  },
+  {
+   "id": "city:geonames-7932385",
+   "name": "Piton Saint-Leu",
+   "aliases": [],
+   "lat": -21.21962,
+   "lon": 55.31513,
+   "population": 29278,
+   "geonameId": "7932385"
+  },
+  {
+   "id": "city:geonames-935248",
+   "name": "Sainte-Suzanne",
+   "aliases": [],
+   "lat": -20.90616,
+   "lon": 55.60788,
+   "population": 24293,
+   "geonameId": "935248"
+  }
+ ]
+}

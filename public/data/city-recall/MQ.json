@@ -1,0 +1,159 @@
+{
+ "country": "country:MQ",
+ "cities": [
+  {
+   "id": "city:MQ-fort-de-france",
+   "name": "Fort-de-France",
+   "aliases": [
+    "Arx Gallica",
+    "FDF",
+    "Fod Fwans",
+    "For d'o Frans",
+    "For de Frans",
+    "For de Fransas",
+    "For-de-Frans",
+    "For-nte-Frans",
+    "Fordefransa",
+    "Fort Royal",
+    "Fort Royale",
+    "Fort de France",
+    "Fort-de-Frans",
+    "Fort-deh-Frans",
+    "Fòd Fwans",
+    "Fôrt-de-France",
+    "Le Fort-de-France",
+    "f xr-dex-fr xngs",
+    "fa lan xi bao",
+    "foru=do=furansu",
+    "fwr dw frans",
+    "fwr-dw-frans",
+    "phorta-de-phransa",
+    "pirancuk kottai",
+    "poleudeupeulangseu",
+    "por-de-pransi",
+    "Φορ-ντε-Φρανς",
+    "Фор де Франс",
+    "Фор дьо Франс",
+    "Фор-де-Франс",
+    "Форт-де-Франс",
+    "Форт-дэ-Франс",
+    "Ֆոր դե Ֆրանս",
+    "פור-דה-פראנס",
+    "فور دو فرانس",
+    "فور-دو-فرانس",
+    "فورٹ ڈی فرانس",
+    "फोर्ट-दे-फ्रान्स",
+    "பிரான்சுக் கோட்டை",
+    "ฟอร์-เดอ-ฟร็องส์",
+    "ფორ-დე-ფრანსი",
+    "フォール＝ド＝フランス",
+    "法兰西堡",
+    "포르드프랑스"
+   ],
+   "lat": 14.60365,
+   "lon": -61.07418,
+   "population": 89995,
+   "geonameId": "3570675"
+  },
+  {
+   "id": "city:geonames-3570428",
+   "name": "Le Lamentin",
+   "aliases": [
+    "Lamentin",
+    "Le Lamanten",
+    "Le Lamenten",
+    "Le-Lamanten",
+    "lw lmwntn",
+    "Λε Λαμεντέν",
+    "Ле Ламантен",
+    "Ле-Ламантен",
+    "לה לאמנטין",
+    "لو لمونتن"
+   ],
+   "lat": 14.61341,
+   "lon": -60.99964,
+   "population": 40581,
+   "geonameId": "3570428"
+  },
+  {
+   "id": "city:geonames-3570412",
+   "name": "Le Robert",
+   "aliases": [
+    "Le Rober",
+    "Le Romper",
+    "Le-Rober",
+    "Robert",
+    "lh rwbr",
+    "lw rwbr",
+    "Λε Ρομπέρ",
+    "Ле Робер",
+    "Ле-Робер",
+    "לה רובר",
+    "لو روبر"
+   ],
+   "lat": 14.67751,
+   "lon": -60.94228,
+   "population": 23814,
+   "geonameId": "3570412"
+  },
+  {
+   "id": "city:geonames-3569926",
+   "name": "Sainte-Marie",
+   "aliases": [
+    "Bourg de Sainte Marie",
+    "Sent-Mari",
+    "Сент-Мари"
+   ],
+   "lat": 14.78352,
+   "lon": -60.99227,
+   "population": 20380,
+   "geonameId": "3569926"
+  },
+  {
+   "id": "city:geonames-3570429",
+   "name": "Le François",
+   "aliases": [
+    "Le Francois",
+    "Francois",
+    "François",
+    "Le-Fransua",
+    "Ле-Франсуа"
+   ],
+   "lat": 14.61513,
+   "lon": -60.90311,
+   "population": 19682,
+   "geonameId": "3570429"
+  },
+  {
+   "id": "city:geonames-3570785",
+   "name": "Ducos",
+   "aliases": [],
+   "lat": 14.57529,
+   "lon": -60.97453,
+   "population": 17394,
+   "geonameId": "3570785"
+  },
+  {
+   "id": "city:geonames-3569915",
+   "name": "Saint-Joseph",
+   "aliases": [],
+   "lat": 14.67099,
+   "lon": -61.03905,
+   "population": 16974,
+   "geonameId": "3569915"
+  },
+  {
+   "id": "city:geonames-3570446",
+   "name": "La Trinité",
+   "aliases": [
+    "La Trinite",
+    "Trinite",
+    "Trinité"
+   ],
+   "lat": 14.73807,
+   "lon": -60.96319,
+   "population": 15040,
+   "geonameId": "3570446"
+  }
+ ]
+}

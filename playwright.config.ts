@@ -4,15 +4,14 @@ const base = process.env.VITE_BASE_URL ?? '/'
 export default defineConfig({
   testDir: 'e2e',
   timeout: 60_000,
+  // In CI läuft jedes Projekt in einem eigenen Job; dieses Budget gilt nur für dessen Tests.
   globalTimeout: process.env.CI ? 15 * 60_000 : undefined,
   retries: process.env.CI ? 1 : 0,
   // Die SVG-Kugel und WebGL-Dioramen teilen sich auf dem Runner dieselben CPUs.
   // Ein Browser gleichzeitig verhindert, dass sich ihre Renderarbeiten verdrängen.
   workers: process.env.CI ? 1 : undefined,
   expect: { timeout: process.env.CI ? 15_000 : 5_000 },
-  reporter: process.env.CI
-    ? [['line'], ['github'], ['html', { open: 'never' }]]
-    : 'list',
+  reporter: process.env.CI ? [['line'], ['github'], ['html', { open: 'never' }]] : 'list',
   use: {
     baseURL: `http://localhost:4187${base}`,
     locale: 'de-DE',

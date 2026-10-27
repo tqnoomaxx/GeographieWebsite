@@ -1,0 +1,1270 @@
+{
+ "country": "country:CM",
+ "cities": [
+  {
+   "id": "city:CM-douala",
+   "name": "Douala",
+   "aliases": [
+    "DLA",
+    "Doula",
+    "Dual",
+    "Duala",
+    "Dualao",
+    "Dóúala",
+    "Ntouala",
+    "dau'ala",
+    "douara",
+    "du a la",
+    "du xa la",
+    "du'ala",
+    "dualla",
+    "duwala",
+    "duyala",
+    "dwala",
+    "Ντουάλα",
+    "Дуала",
+    "דואלה",
+    "دوالا",
+    "डुआला",
+    "दौआला",
+    "ডুয়ালা",
+    "ਦੌਆਲਾ",
+    "ดูอาลา",
+    "ዱዋላ",
+    "ドゥアラ",
+    "杜阿拉",
+    "두알라"
+   ],
+   "lat": 4.04827,
+   "lon": 9.70428,
+   "population": 1338082,
+   "geonameId": "2232593"
+  },
+  {
+   "id": "city:CM-yaounde",
+   "name": "Yaoundé",
+   "aliases": [
+    "Yaounde",
+    "Giaounte",
+    "Jande",
+    "Jaunde",
+    "Jaundeh",
+    "Jaundeo",
+    "Jaundė",
+    "Jaúnde",
+    "Jánde",
+    "YAO",
+    "Yaunde",
+    "Yaundé",
+    "Yawunde",
+    "iaunde",
+    "ya wen de",
+    "ya'unde",
+    "yaunde",
+    "yavunte",
+    "yawndy",
+    "yaxunde",
+    "yaywndh",
+    "ye wen de",
+    "Γιαουντέ",
+    "Јаунде",
+    "Яунде",
+    "Яўндэ",
+    "Յաունդե",
+    "יאונדה",
+    "יאונדע",
+    "ياوندي",
+    "یاؤندے",
+    "یائونده",
+    "یائوندێ",
+    "یاونڈی",
+    "याउंदे",
+    "ਯਾਊਂਦੇ",
+    "யாவுண்டே",
+    "ยาอุนเด",
+    "ཡོན་དྷི།",
+    "იაუნდე",
+    "ያዉንዴ",
+    "ヤウンデ",
+    "耶溫得",
+    "雅温得",
+    "야운데"
+   ],
+   "lat": 3.86667,
+   "lon": 11.51667,
+   "population": 1299369,
+   "geonameId": "2220957"
+  },
+  {
+   "id": "city:CM-bamenda",
+   "name": "Bamenda",
+   "aliases": [
+    "BPC",
+    "Bamendy",
+    "ba men da",
+    "bamenda",
+    "bamenida",
+    "bamnda",
+    "bamnډa",
+    "bamynda",
+    "Баменда",
+    "Баменды",
+    "بامندا",
+    "بامنډا",
+    "بامیندا",
+    "बामेंडा",
+    "বামেন্ডা",
+    "ਬਾਮੇਂਡਾ",
+    "ባመንዳ",
+    "バメンダ",
+    "巴门达",
+    "바멘다"
+   ],
+   "lat": 5.9597,
+   "lon": 10.14597,
+   "population": 420445,
+   "geonameId": "2234974"
+  },
+  {
+   "id": "city:CM-bafoussam",
+   "name": "Bafoussam",
+   "aliases": [
+    "BFX",
+    "Bafousam",
+    "Bafusam",
+    "Bafusama",
+    "Bafusamas",
+    "Bafussam",
+    "Bafussama",
+    "Befoussam",
+    "ba fu sa mu",
+    "bafusamu",
+    "bafwsam",
+    "baphausama",
+    "baphusama",
+    "bapusam",
+    "baፍውsaም",
+    "Μπαφουσάμ",
+    "Бафусам",
+    "Бафуссам",
+    "Бафуссама",
+    "بافؤسام",
+    "بافوسام",
+    "बाफूसाम",
+    "বাফৌসাম",
+    "ਬਾਫੁੱਸਾਮ",
+    "ባፍውሳም",
+    "バフーサム",
+    "巴富薩姆",
+    "바푸삼"
+   ],
+   "lat": 5.47775,
+   "lon": 10.41759,
+   "population": 373268,
+   "geonameId": "2235189"
+  },
+  {
+   "id": "city:CM-maroua",
+   "name": "Maroua",
+   "aliases": [
+    "MVR",
+    "Marua",
+    "Marva",
+    "ma lu a",
+    "malua",
+    "maro'a",
+    "maroya",
+    "maru'a",
+    "marua",
+    "maruwa",
+    "marwa",
+    "marwwa",
+    "Μαρουά",
+    "Маруа",
+    "مارؤا",
+    "ماروا",
+    "مارووا",
+    "मारुआ",
+    "মারোয়া",
+    "ਮਾਰੋਆ",
+    "ማሩዋ",
+    "マルア",
+    "马鲁阿",
+    "마루아"
+   ],
+   "lat": 10.59095,
+   "lon": 14.31593,
+   "population": 314122,
+   "geonameId": "2228373"
+  },
+  {
+   "id": "city:CM-ngaoundere",
+   "name": "Ngaoundéré",
+   "aliases": [
+    "Ngaoundere",
+    "NGE",
+    "Ngaundere",
+    "Ngaunderė",
+    "en gang dai lei",
+    "eung-gaundele",
+    "naga'undere",
+    "ngawndrh",
+    "nigaውnidere",
+    "nqawndry",
+    "nugaundere",
+    "nګawnډrh",
+    "Нгаундере",
+    "نقاوندري",
+    "نګاونډره",
+    "نگاؤندیرے",
+    "نگاوندره",
+    "नगाउंडेरे",
+    "নগাউন্ডেরে",
+    "ਨਗਾਉਂਡੇਰੇ",
+    "ንጋውንደሬ",
+    "ヌガウンデレ",
+    "恩冈代雷",
+    "응가운데레"
+   ],
+   "lat": 7.32765,
+   "lon": 13.58472,
+   "population": 238196,
+   "geonameId": "2224827"
+  },
+  {
+   "id": "city:geonames-2229752",
+   "name": "Kumba",
+   "aliases": [
+    "Kumboj",
+    "Кумбой"
+   ],
+   "lat": 4.6363,
+   "lon": 9.4469,
+   "population": 225046,
+   "geonameId": "2229752"
+  },
+  {
+   "id": "city:geonames-2223763",
+   "name": "Nkongsamba",
+   "aliases": [
+    "NKS",
+    "Nkongsomba",
+    "Нконгсамба"
+   ],
+   "lat": 4.9547,
+   "lon": 9.9404,
+   "population": 162309,
+   "geonameId": "2223763"
+  },
+  {
+   "id": "city:geonames-2233410",
+   "name": "Buea",
+   "aliases": [
+    "Bueha",
+    "Bueja",
+    "Buéa",
+    "Buėja",
+    "bu ai ya",
+    "bu'a",
+    "buea",
+    "buya",
+    "bwya",
+    "bwyya",
+    "Буэа",
+    "بوئیا",
+    "بويا",
+    "بویا",
+    "बुआ",
+    "বুয়া",
+    "ਬੁਆ",
+    "ቡያ",
+    "ブエア",
+    "布埃亞",
+    "부에아"
+   ],
+   "lat": 4.15342,
+   "lon": 9.24231,
+   "population": 140533,
+   "geonameId": "2233410"
+  },
+  {
+   "id": "city:geonames-2229798",
+   "name": "Kousséri",
+   "aliases": [
+    "Kousseri",
+    "Fort Fureau",
+    "Fort-Foureau",
+    "Kusseri",
+    "alqswr‎",
+    "fwr fwrw",
+    "kwsyry",
+    "qswr",
+    "Куссери",
+    "القصور‎",
+    "فور فورو",
+    "قصور",
+    "كوسيري"
+   ],
+   "lat": 12.07689,
+   "lon": 15.03063,
+   "population": 139024,
+   "geonameId": "2229798"
+  },
+  {
+   "id": "city:CM-bertoua",
+   "name": "Bertoua",
+   "aliases": [
+    "BTA",
+    "Bertua",
+    "Bertva",
+    "Gamane",
+    "baratu'a",
+    "bartu'a",
+    "bartuya",
+    "bei er tu a",
+    "beleutua",
+    "berituwa",
+    "berutoua",
+    "brtwa",
+    "byrtwa",
+    "bytwa",
+    "Μπερτουά",
+    "Бертуа",
+    "برتوا",
+    "بيرتوا",
+    "بیتؤا",
+    "बर्तुआ",
+    "বার্তুয়া",
+    "ਬਰਤੁਆ",
+    "በርቱዋ",
+    "ベルトゥア",
+    "贝尔图阿",
+    "베르투아"
+   ],
+   "lat": 4.57728,
+   "lon": 13.68459,
+   "population": 137993,
+   "geonameId": "2234359"
+  },
+  {
+   "id": "city:geonames-2229411",
+   "name": "Limbe",
+   "aliases": [
+    "Limbé",
+    "Limbė",
+    "VCC",
+    "Victoria",
+    "limbe",
+    "lin bei",
+    "rinbe",
+    "Лимбе",
+    "リンベ",
+    "林贝",
+    "림베"
+   ],
+   "lat": 4.02356,
+   "lon": 9.20607,
+   "population": 131381,
+   "geonameId": "2229411"
+  },
+  {
+   "id": "city:geonames-2231506",
+   "name": "Foumban",
+   "aliases": [
+    "FOM",
+    "Foumbam",
+    "Fumban",
+    "feng ban",
+    "Фумбан",
+    "豐班"
+   ],
+   "lat": 5.72662,
+   "lon": 10.89865,
+   "population": 130287,
+   "geonameId": "2231506"
+  },
+  {
+   "id": "city:geonames-2229748",
+   "name": "Kumbo",
+   "aliases": [
+    "Кумбо"
+   ],
+   "lat": 6.2,
+   "lon": 10.66667,
+   "population": 125124,
+   "geonameId": "2229748"
+  },
+  {
+   "id": "city:geonames-2232239",
+   "name": "Edéa",
+   "aliases": [
+    "Edea",
+    "Edeja",
+    "Edėja",
+    "Ehdea",
+    "adya",
+    "ai dai a",
+    "edea",
+    "Édéa",
+    "Едеа",
+    "Эдеа",
+    "إديا",
+    "エデア",
+    "埃代阿"
+   ],
+   "lat": 3.8,
+   "lon": 10.13333,
+   "population": 103861,
+   "geonameId": "2232239"
+  },
+  {
+   "id": "city:geonames-2232283",
+   "name": "Ébolowa",
+   "aliases": [
+    "Ebolowa",
+    "EBW",
+    "Ebolova",
+    "Ehbolova",
+    "abwlwa",
+    "abwlwwa",
+    "ebolo'a",
+    "ebolova",
+    "eboloya",
+    "eborowa",
+    "ʿibolowa",
+    "Эболова",
+    "إبولووا",
+    "ابولوا",
+    "ابولووا",
+    "एबोलोवा",
+    "এবোলোয়া",
+    "ਏਬੋਲੋਆ",
+    "ኢቦሎዋ",
+    "エボロワ"
+   ],
+   "lat": 2.9,
+   "lon": 11.15,
+   "population": 101363,
+   "geonameId": "2232283"
+  },
+  {
+   "id": "city:geonames-2232444",
+   "name": "Dschang",
+   "aliases": [
+    "Chang",
+    "DSC",
+    "Dchang",
+    "Djang",
+    "Dzhang",
+    "Tchang",
+    "jan",
+    "jangu",
+    "jiang zhen",
+    "Джанг",
+    "Дсчанг",
+    "דסצ'אנג",
+    "جان",
+    "ジャング",
+    "姜鎮",
+    "姜镇"
+   ],
+   "lat": 5.44397,
+   "lon": 10.05332,
+   "population": 99582,
+   "geonameId": "2232444"
+  },
+  {
+   "id": "city:geonames-2221504",
+   "name": "Tiko",
+   "aliases": [
+    "TKC"
+   ],
+   "lat": 4.075,
+   "lon": 9.36005,
+   "population": 94836,
+   "geonameId": "2221504"
+  },
+  {
+   "id": "city:geonames-2229761",
+   "name": "Kribi",
+   "aliases": [
+    "KBI",
+    "Криби"
+   ],
+   "lat": 2.93725,
+   "lon": 9.90765,
+   "population": 93482,
+   "geonameId": "2229761"
+  },
+  {
+   "id": "city:geonames-2228079",
+   "name": "Mbalmayo",
+   "aliases": [
+    "Mbal'majo",
+    "Mbalmajo",
+    "Мбальмайо"
+   ],
+   "lat": 3.51667,
+   "lon": 11.5,
+   "population": 82384,
+   "geonameId": "2228079"
+  },
+  {
+   "id": "city:geonames-2230876",
+   "name": "Guider",
+   "aliases": [
+    "Gider",
+    "Guidder"
+   ],
+   "lat": 9.9333,
+   "lon": 13.94671,
+   "population": 81608,
+   "geonameId": "2230876"
+  },
+  {
+   "id": "city:geonames-2222230",
+   "name": "Sangmélima",
+   "aliases": [
+    "Sangmelima",
+    "Sangmelina",
+    "Сангмелима"
+   ],
+   "lat": 2.93333,
+   "lon": 11.98333,
+   "population": 80036,
+   "geonameId": "2222230"
+  },
+  {
+   "id": "city:geonames-2227230",
+   "name": "Melong",
+   "aliases": [],
+   "lat": 5.12181,
+   "lon": 9.96143,
+   "population": 76716,
+   "geonameId": "2227230"
+  },
+  {
+   "id": "city:geonames-2231504",
+   "name": "Foumbot",
+   "aliases": [
+    "Foumbat"
+   ],
+   "lat": 5.50803,
+   "lon": 10.6325,
+   "population": 74319,
+   "geonameId": "2231504"
+  },
+  {
+   "id": "city:geonames-2235194",
+   "name": "Bafia",
+   "aliases": [
+    "Bafia Ngitakuba",
+    "Bafiā Ngitakuba"
+   ],
+   "lat": 4.75,
+   "lon": 11.23333,
+   "population": 74050,
+   "geonameId": "2235194"
+  },
+  {
+   "id": "city:geonames-2227613",
+   "name": "Mbouda",
+   "aliases": [],
+   "lat": 5.62611,
+   "lon": 10.25421,
+   "population": 71867,
+   "geonameId": "2227613"
+  },
+  {
+   "id": "city:geonames-2225728",
+   "name": "Mutengene",
+   "aliases": [],
+   "lat": 4.0913,
+   "lon": 9.3144,
+   "population": 64054,
+   "geonameId": "2225728"
+  },
+  {
+   "id": "city:geonames-2225991",
+   "name": "Mora",
+   "aliases": [
+    "More",
+    "Море"
+   ],
+   "lat": 11.04611,
+   "lon": 14.14011,
+   "population": 61523,
+   "geonameId": "2225991"
+  },
+  {
+   "id": "city:geonames-2227402",
+   "name": "Meïganga",
+   "aliases": [
+    "Meiganga",
+    "Meiganda",
+    "Mejgange",
+    "Мейганге"
+   ],
+   "lat": 6.51667,
+   "lon": 14.3,
+   "population": 59426,
+   "geonameId": "2227402"
+  },
+  {
+   "id": "city:geonames-2221030",
+   "name": "Yagoua",
+   "aliases": [
+    "GXX",
+    "Jagua",
+    "Jágua",
+    "Yagua"
+   ],
+   "lat": 10.34107,
+   "lon": 15.23288,
+   "population": 59069,
+   "geonameId": "2221030"
+  },
+  {
+   "id": "city:geonames-2229152",
+   "name": "Loum",
+   "aliases": [
+    "Lum",
+    "Лум"
+   ],
+   "lat": 4.7182,
+   "lon": 9.7351,
+   "population": 58554,
+   "geonameId": "2229152"
+  },
+  {
+   "id": "city:geonames-2235196",
+   "name": "Bafang",
+   "aliases": [],
+   "lat": 5.15705,
+   "lon": 10.1771,
+   "population": 54505,
+   "geonameId": "2235196"
+  },
+  {
+   "id": "city:geonames-2226275",
+   "name": "Mokolo",
+   "aliases": [],
+   "lat": 10.74244,
+   "lon": 13.80227,
+   "population": 51999,
+   "geonameId": "2226275"
+  },
+  {
+   "id": "city:geonames-2234663",
+   "name": "Batouri",
+   "aliases": [
+    "Baturi",
+    "OUR"
+   ],
+   "lat": 4.43333,
+   "lon": 14.36667,
+   "population": 49422,
+   "geonameId": "2234663"
+  },
+  {
+   "id": "city:geonames-2234794",
+   "name": "Banyo",
+   "aliases": [
+    "Banjo"
+   ],
+   "lat": 6.75,
+   "lon": 11.81667,
+   "population": 47936,
+   "geonameId": "2234794"
+  },
+  {
+   "id": "city:geonames-2231319",
+   "name": "Garoua Boulaï",
+   "aliases": [
+    "Garoua Boulai"
+   ],
+   "lat": 5.88333,
+   "lon": 14.55,
+   "population": 46615,
+   "geonameId": "2231319"
+  },
+  {
+   "id": "city:geonames-2223293",
+   "name": "Obala",
+   "aliases": [],
+   "lat": 4.16667,
+   "lon": 11.53333,
+   "population": 45321,
+   "geonameId": "2223293"
+  },
+  {
+   "id": "city:geonames-2223198",
+   "name": "Oku",
+   "aliases": [],
+   "lat": 6.25,
+   "lon": 10.43333,
+   "population": 44443,
+   "geonameId": "2223198"
+  },
+  {
+   "id": "city:geonames-2228005",
+   "name": "Mbanga",
+   "aliases": [
+    "M'Bange",
+    "M’Bangé"
+   ],
+   "lat": 4.5016,
+   "lon": 9.5671,
+   "population": 44155,
+   "geonameId": "2228005"
+  },
+  {
+   "id": "city:geonames-2225726",
+   "name": "Muyuka",
+   "aliases": [
+    "Mouyouka"
+   ],
+   "lat": 4.2898,
+   "lon": 9.4103,
+   "population": 43749,
+   "geonameId": "2225726"
+  },
+  {
+   "id": "city:geonames-2234865",
+   "name": "Bangangté",
+   "aliases": [
+    "Bangangte",
+    "Bangante",
+    "Banganté"
+   ],
+   "lat": 5.14079,
+   "lon": 10.52535,
+   "population": 43694,
+   "geonameId": "2234865"
+  },
+  {
+   "id": "city:geonames-2231482",
+   "name": "Fundong",
+   "aliases": [],
+   "lat": 6.28,
+   "lon": 10.283,
+   "population": 43509,
+   "geonameId": "2231482"
+  },
+  {
+   "id": "city:geonames-2231564",
+   "name": "Fontem",
+   "aliases": [],
+   "lat": 5.4685,
+   "lon": 9.8818,
+   "population": 42689,
+   "geonameId": "2231564"
+  },
+  {
+   "id": "city:geonames-2221053",
+   "name": "Wum",
+   "aliases": [],
+   "lat": 6.38333,
+   "lon": 10.06667,
+   "population": 42457,
+   "geonameId": "2221053"
+  },
+  {
+   "id": "city:geonames-2228499",
+   "name": "Manjo",
+   "aliases": [],
+   "lat": 4.8428,
+   "lon": 9.8217,
+   "population": 41740,
+   "geonameId": "2228499"
+  },
+  {
+   "id": "city:geonames-2576483",
+   "name": "Ngaoundal",
+   "aliases": [],
+   "lat": 6.5,
+   "lon": 13.26667,
+   "population": 40328,
+   "geonameId": "2576483"
+  },
+  {
+   "id": "city:geonames-2234942",
+   "name": "Ndop",
+   "aliases": [
+    "Bamunka",
+    "Ramunka"
+   ],
+   "lat": 5.98843,
+   "lon": 10.43859,
+   "population": 40152,
+   "geonameId": "2234942"
+  },
+  {
+   "id": "city:geonames-2221530",
+   "name": "Tibati",
+   "aliases": [],
+   "lat": 6.46504,
+   "lon": 12.62843,
+   "population": 35673,
+   "geonameId": "2221530"
+  },
+  {
+   "id": "city:geonames-2221631",
+   "name": "Tchéboa",
+   "aliases": [
+    "Tcheboa",
+    "Cheboa",
+    "Tchèboa",
+    "Tscheboa"
+   ],
+   "lat": 9.02871,
+   "lon": 13.1848,
+   "population": 35199,
+   "geonameId": "2221631"
+  },
+  {
+   "id": "city:CM-garoua",
+   "name": "Garoua",
+   "aliases": [
+    "GOU",
+    "Garua",
+    "Garva",
+    "galua",
+    "garo'a",
+    "garoya",
+    "garu'a",
+    "garua",
+    "garuwa",
+    "garwa",
+    "gharwa",
+    "jia lu a",
+    "Гаруа",
+    "غاروا",
+    "گارؤا",
+    "گاروا",
+    "गारुआ",
+    "গারোয়া",
+    "ਗਾਰੋਆ",
+    "ጋሩዋ",
+    "ガルア",
+    "加鲁阿",
+    "가루아"
+   ],
+   "lat": 9.30143,
+   "lon": 13.39771,
+   "population": 34957,
+   "geonameId": "2231320"
+  },
+  {
+   "id": "city:geonames-2222568",
+   "name": "Pitoa",
+   "aliases": [
+    "Piloa",
+    "Pitowa"
+   ],
+   "lat": 9.3839,
+   "lon": 13.50231,
+   "population": 33610,
+   "geonameId": "2222568"
+  },
+  {
+   "id": "city:geonames-2229681",
+   "name": "Lagdo",
+   "aliases": [],
+   "lat": 9.05828,
+   "lon": 13.66605,
+   "population": 33564,
+   "geonameId": "2229681"
+  },
+  {
+   "id": "city:geonames-2220853",
+   "name": "Yokadouma",
+   "aliases": [
+    "Youkadouma"
+   ],
+   "lat": 3.51667,
+   "lon": 15.05,
+   "population": 32900,
+   "geonameId": "2220853"
+  },
+  {
+   "id": "city:geonames-2230599",
+   "name": "Kaélé",
+   "aliases": [
+    "Kaele",
+    "KLE"
+   ],
+   "lat": 10.10917,
+   "lon": 14.45083,
+   "population": 32853,
+   "geonameId": "2230599"
+  },
+  {
+   "id": "city:geonames-2233805",
+   "name": "Bogo",
+   "aliases": [],
+   "lat": 10.7336,
+   "lon": 14.60928,
+   "population": 32830,
+   "geonameId": "2233805"
+  },
+  {
+   "id": "city:geonames-2234904",
+   "name": "Bandjoun",
+   "aliases": [
+    "ban zu en",
+    "班祖恩"
+   ],
+   "lat": 5.37568,
+   "lon": 10.41326,
+   "population": 31750,
+   "geonameId": "2234904"
+  },
+  {
+   "id": "city:geonames-2231636",
+   "name": "Figuil",
+   "aliases": [
+    "Figil",
+    "Fīgil"
+   ],
+   "lat": 9.75574,
+   "lon": 13.9647,
+   "population": 31550,
+   "geonameId": "2231636"
+  },
+  {
+   "id": "city:geonames-2228964",
+   "name": "Magba",
+   "aliases": [],
+   "lat": 5.95,
+   "lon": 11.21667,
+   "population": 30931,
+   "geonameId": "2228964"
+  },
+  {
+   "id": "city:geonames-2235776",
+   "name": "Akonolinga",
+   "aliases": [
+    "Akomolinga"
+   ],
+   "lat": 3.76667,
+   "lon": 12.25,
+   "population": 30078,
+   "geonameId": "2235776"
+  },
+  {
+   "id": "city:geonames-2228028",
+   "name": "Mbandjok",
+   "aliases": [
+    "Mbandjock"
+   ],
+   "lat": 4.45,
+   "lon": 11.9,
+   "population": 29281,
+   "geonameId": "2228028"
+  },
+  {
+   "id": "city:geonames-2228902",
+   "name": "Makak",
+   "aliases": [
+    "Maka",
+    "Mom-Nug's",
+    "Mom-Nug’s",
+    "Макак"
+   ],
+   "lat": 3.55,
+   "lon": 11.03333,
+   "population": 29135,
+   "geonameId": "2228902"
+  },
+  {
+   "id": "city:geonames-2221362",
+   "name": "Touboro",
+   "aliases": [],
+   "lat": 7.7708,
+   "lon": 15.3568,
+   "population": 28987,
+   "geonameId": "2221362"
+  },
+  {
+   "id": "city:geonames-2225457",
+   "name": "Nanga Eboko",
+   "aliases": [],
+   "lat": 4.68333,
+   "lon": 12.36667,
+   "population": 28518,
+   "geonameId": "2225457"
+  },
+  {
+   "id": "city:geonames-2231881",
+   "name": "Eséka",
+   "aliases": [
+    "Eseka"
+   ],
+   "lat": 3.65,
+   "lon": 10.76667,
+   "population": 27928,
+   "geonameId": "2231881"
+  },
+  {
+   "id": "city:geonames-2223734",
+   "name": "Nkoteng",
+   "aliases": [],
+   "lat": 4.51667,
+   "lon": 12.03333,
+   "population": 27677,
+   "geonameId": "2223734"
+  },
+  {
+   "id": "city:geonames-2235029",
+   "name": "Bali",
+   "aliases": [
+    "BLC",
+    "Бали"
+   ],
+   "lat": 5.88737,
+   "lon": 10.01176,
+   "population": 27473,
+   "geonameId": "2235029"
+  },
+  {
+   "id": "city:geonames-2596834",
+   "name": "Blangwa",
+   "aliases": [
+    "Blangoua"
+   ],
+   "lat": 12.77515,
+   "lon": 14.55328,
+   "population": 27208,
+   "geonameId": "2596834"
+  },
+  {
+   "id": "city:geonames-2224197",
+   "name": "Njombé",
+   "aliases": [
+    "Njombe",
+    "Njombo",
+    "Nyombe",
+    "Nyombé"
+   ],
+   "lat": 4.58056,
+   "lon": 9.66472,
+   "population": 27130,
+   "geonameId": "2224197"
+  },
+  {
+   "id": "city:geonames-2230378",
+   "name": "Kekem",
+   "aliases": [],
+   "lat": 5.15689,
+   "lon": 10.01996,
+   "population": 27038,
+   "geonameId": "2230378"
+  },
+  {
+   "id": "city:geonames-2224163",
+   "name": "Nkambe",
+   "aliases": [],
+   "lat": 6.63333,
+   "lon": 10.66667,
+   "population": 26816,
+   "geonameId": "2224163"
+  },
+  {
+   "id": "city:geonames-2235186",
+   "name": "Bafut",
+   "aliases": [],
+   "lat": 6.08333,
+   "lon": 10.1,
+   "population": 25563,
+   "geonameId": "2235186"
+  },
+  {
+   "id": "city:geonames-2235660",
+   "name": "Ambam",
+   "aliases": [],
+   "lat": 2.38333,
+   "lon": 11.28333,
+   "population": 25052,
+   "geonameId": "2235660"
+  },
+  {
+   "id": "city:geonames-2221802",
+   "name": "Souza Gare",
+   "aliases": [
+    "Souza"
+   ],
+   "lat": 4.2344,
+   "lon": 9.6164,
+   "population": 24994,
+   "geonameId": "2221802"
+  },
+  {
+   "id": "city:geonames-2234941",
+   "name": "Bamusso",
+   "aliases": [
+    "Bamuso"
+   ],
+   "lat": 4.4591,
+   "lon": 8.9027,
+   "population": 24741,
+   "geonameId": "2234941"
+  },
+  {
+   "id": "city:geonames-2230873",
+   "name": "Guidiguis",
+   "aliases": [
+    "Gidigig",
+    "Gidigis"
+   ],
+   "lat": 10.13366,
+   "lon": 14.70748,
+   "population": 24554,
+   "geonameId": "2230873"
+  },
+  {
+   "id": "city:geonames-2228977",
+   "name": "Maga",
+   "aliases": [],
+   "lat": 10.8434,
+   "lon": 14.93962,
+   "population": 24492,
+   "geonameId": "2228977"
+  },
+  {
+   "id": "city:geonames-2236053",
+   "name": "Abong Mbang",
+   "aliases": [],
+   "lat": 3.98333,
+   "lon": 13.18333,
+   "population": 24433,
+   "geonameId": "2236053"
+  },
+  {
+   "id": "city:geonames-2221408",
+   "name": "Tombel",
+   "aliases": [],
+   "lat": 4.7466,
+   "lon": 9.6705,
+   "population": 24384,
+   "geonameId": "2221408"
+  },
+  {
+   "id": "city:geonames-2234536",
+   "name": "Bélabo",
+   "aliases": [
+    "Belabo",
+    "Белабо"
+   ],
+   "lat": 4.93333,
+   "lon": 13.3,
+   "population": 24359,
+   "geonameId": "2234536"
+  },
+  {
+   "id": "city:geonames-2223226",
+   "name": "Okoa",
+   "aliases": [
+    "Scho",
+    "So",
+    "Soa"
+   ],
+   "lat": 3.98333,
+   "lon": 11.6,
+   "population": 24110,
+   "geonameId": "2223226"
+  },
+  {
+   "id": "city:geonames-2232102",
+   "name": "Ekondo Titi",
+   "aliases": [
+    "Ekoundon Titi",
+    "Ekundu-Titi"
+   ],
+   "lat": 4.603,
+   "lon": 9.0404,
+   "population": 23975,
+   "geonameId": "2232102"
+  },
+  {
+   "id": "city:geonames-2221607",
+   "name": "Tcholliré",
+   "aliases": [
+    "Tchollire",
+    "Cholire",
+    "Choliré",
+    "Chollire",
+    "Djolere",
+    "Djoléré",
+    "Jolere",
+    "Tcholere",
+    "Tcholire",
+    "Tcholiré",
+    "Tcholéré",
+    "Tscholere"
+   ],
+   "lat": 8.4022,
+   "lon": 14.1698,
+   "population": 23187,
+   "geonameId": "2221607"
+  },
+  {
+   "id": "city:geonames-2229267",
+   "name": "Lolodorf",
+   "aliases": [
+    "Lelodorf",
+    "Lolodrof"
+   ],
+   "lat": 3.23333,
+   "lon": 10.73333,
+   "population": 22252,
+   "geonameId": "2229267"
+  },
+  {
+   "id": "city:geonames-2222623",
+   "name": "Penja",
+   "aliases": [],
+   "lat": 4.63911,
+   "lon": 9.67987,
+   "population": 21367,
+   "geonameId": "2222623"
+  },
+  {
+   "id": "city:geonames-2228675",
+   "name": "Mamfe",
+   "aliases": [
+    "MMF"
+   ],
+   "lat": 5.75132,
+   "lon": 9.3137,
+   "population": 20350,
+   "geonameId": "2228675"
+  },
+  {
+   "id": "city:geonames-2232997",
+   "name": "Dizangué",
+   "aliases": [
+    "Dizangue",
+    "Dizanque",
+    "Dizanqué"
+   ],
+   "lat": 3.76667,
+   "lon": 9.98333,
+   "population": 19243,
+   "geonameId": "2232997"
+  },
+  {
+   "id": "city:geonames-2221394",
+   "name": "Tonga",
+   "aliases": [
+    "Lagosdorf",
+    "Tonga's",
+    "Tonga’s"
+   ],
+   "lat": 4.96667,
+   "lon": 10.7,
+   "population": 16036,
+   "geonameId": "2221394"
+  }
+ ]
+}

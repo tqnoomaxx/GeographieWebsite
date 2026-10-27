@@ -1,0 +1,1002 @@
+{
+ "country": "country:ML",
+ "cities": [
+  {
+   "id": "city:ML-bamako",
+   "name": "Bamako",
+   "aliases": [
+    "BKO",
+    "Bamaco",
+    "Bamaco - Bamako",
+    "Bamakas",
+    "Bamaku",
+    "Bamakó",
+    "Bamakɔ",
+    "Bammaco",
+    "Bammako",
+    "Bàmakɔ",
+    "Mpamako",
+    "ba ma ke",
+    "bamako",
+    "bamakw",
+    "bmqw",
+    "Μπαμάκο",
+    "Бамако",
+    "Բամակո",
+    "במקו",
+    "باماكو",
+    "باماکو",
+    "ባማኮ",
+    "バマコ",
+    "巴馬科",
+    "바마코"
+   ],
+   "lat": 12.60915,
+   "lon": -7.97522,
+   "population": 4227569,
+   "geonameId": "2460596"
+  },
+  {
+   "id": "city:ML-sikasso",
+   "name": "Sikasso",
+   "aliases": [
+    "KSS",
+    "Sikasas",
+    "Sikaso",
+    "shikaso",
+    "sikaso",
+    "sykasw",
+    "xi ka suo",
+    "Σικασσό",
+    "Сикасо",
+    "Сикассо",
+    "Сікасо",
+    "سيكاسو",
+    "سيکاسو",
+    "سیکاسو",
+    "सिकासो",
+    "সিকাসো",
+    "ਸਿਕਾਸੋ",
+    "ሲካሶ",
+    "シカソ",
+    "錫卡索",
+    "시카소"
+   ],
+   "lat": 11.31755,
+   "lon": -5.66654,
+   "population": 349324,
+   "geonameId": "2451185"
+  },
+  {
+   "id": "city:geonames-2454268",
+   "name": "Koutiala",
+   "aliases": [
+    "KTX",
+    "Kucala",
+    "Kutiala",
+    "ku jia la",
+    "Кутиала",
+    "庫佳拉"
+   ],
+   "lat": 12.38723,
+   "lon": -5.46507,
+   "population": 218031,
+   "geonameId": "2454268"
+  },
+  {
+   "id": "city:geonames-2451478",
+   "name": "Ségou",
+   "aliases": [
+    "Segou",
+    "SZU",
+    "Segi",
+    "Segoukoro",
+    "Segu",
+    "Segú",
+    "Senkou",
+    "Ségoukoro",
+    "sai gu",
+    "segu",
+    "sgw",
+    "syghw",
+    "sygw",
+    "syjw",
+    "Σεγκού",
+    "Сеги",
+    "Сегу",
+    "سيجو",
+    "سيغو",
+    "سگو",
+    "سیگو",
+    "सेगू",
+    "সেগু",
+    "ਸੇਗੂ",
+    "ሴጉ",
+    "セグー",
+    "塞古",
+    "세구"
+   ],
+   "lat": 13.44032,
+   "lon": -6.25947,
+   "population": 205787,
+   "geonameId": "2451478"
+  },
+  {
+   "id": "city:geonames-2455518",
+   "name": "Kayes",
+   "aliases": [
+    "KYS",
+    "Kaes",
+    "Kagies",
+    "Kajes",
+    "Kajesas",
+    "Kayi",
+    "Káyì",
+    "ka yi",
+    "ka'esa",
+    "kai",
+    "kay",
+    "kayesa",
+    "kayesi",
+    "kays",
+    "keseu",
+    "kyz",
+    "Καγιές",
+    "Каес",
+    "Кайес",
+    "Каєс",
+    "كايس",
+    "کاي",
+    "کایس",
+    "کیز",
+    "कायेस",
+    "কায়েস",
+    "ਕਾਏਸ",
+    "კაესი",
+    "ካየስ",
+    "カイ",
+    "卡伊",
+    "케스"
+   ],
+   "lat": 14.44776,
+   "lon": -11.44393,
+   "population": 194716,
+   "geonameId": "2455518"
+  },
+  {
+   "id": "city:geonames-2453348",
+   "name": "Mopti",
+   "aliases": [
+    "MZI",
+    "Moptis",
+    "Moti",
+    "Móti",
+    "Mɔputi",
+    "mapti",
+    "mbty",
+    "mo pu ti",
+    "mobti",
+    "mopati",
+    "mopti",
+    "moputi",
+    "moፕti",
+    "mwbty",
+    "mwpty",
+    "Μοπτί",
+    "Мопти",
+    "Мопті",
+    "مبتي",
+    "موبتي",
+    "موپتی",
+    "موپٹی",
+    "मोप्टी",
+    "মপ্টি",
+    "ਮੋਪਟੀ",
+    "ሞፕቲ",
+    "モプティ",
+    "莫普提",
+    "몹티"
+   ],
+   "lat": 14.4843,
+   "lon": -4.18296,
+   "population": 186187,
+   "geonameId": "2453348"
+  },
+  {
+   "id": "city:geonames-2457163",
+   "name": "Gao",
+   "aliases": [
+    "GAQ",
+    "Gawo",
+    "Gàwó",
+    "Nkao",
+    "ga'o",
+    "gao",
+    "gaw",
+    "gawo",
+    "gayw",
+    "ghaw",
+    "jaw",
+    "jia ao",
+    "ka xo",
+    "Γκάο",
+    "Гао",
+    "Ґао",
+    "גאו",
+    "جاو",
+    "غاو",
+    "گائو",
+    "گاو",
+    "गाओ",
+    "গাও",
+    "ਗਾਓ",
+    "กาโอ",
+    "ጋዎ",
+    "ガオ",
+    "加奥",
+    "가오"
+   ],
+   "lat": 16.27167,
+   "lon": -0.04472,
+   "population": 133110,
+   "geonameId": "2457163"
+  },
+  {
+   "id": "city:geonames-2455558",
+   "name": "Kati",
+   "aliases": [
+    "Kati Ville",
+    "Katis",
+    "ka di",
+    "katy",
+    "Кати",
+    "كاتي",
+    "卡蒂"
+   ],
+   "lat": 12.74139,
+   "lon": -8.06754,
+   "population": 130254,
+   "geonameId": "2455558"
+  },
+  {
+   "id": "city:geonames-2451778",
+   "name": "San",
+   "aliases": [
+    "Сан"
+   ],
+   "lat": 13.29701,
+   "lon": -4.89627,
+   "population": 103227,
+   "geonameId": "2451778"
+  },
+  {
+   "id": "city:geonames-2459775",
+   "name": "Bougouni",
+   "aliases": [
+    "Bougoum",
+    "Buguni",
+    "Bugunin"
+   ],
+   "lat": 11.41769,
+   "lon": -7.48323,
+   "population": 90234,
+   "geonameId": "2459775"
+  },
+  {
+   "id": "city:geonames-2449067",
+   "name": "Timbuktu",
+   "aliases": [
+    "TOM",
+    "Timbocto",
+    "Timboctu",
+    "Timboctó",
+    "Timboctú",
+    "Timboektoe",
+    "Timbouctou",
+    "Timbuctoo",
+    "Timbuctu",
+    "Timbuctù",
+    "Timbuctú",
+    "Timbuktuo",
+    "Timbuktú",
+    "Timbúktú",
+    "Timbûktû",
+    "Timpouktou",
+    "Tiombuctu",
+    "Tombouctou",
+    "Tombuctu",
+    "Tombuctú",
+    "Tombuktu",
+    "Tombutu",
+    "Tombutum",
+    "Tonbuktu",
+    "Tumutu",
+    "rrimbakrru",
+    "tang pu tu",
+    "thim bak tu",
+    "tibakatu",
+    "timabuktu",
+    "timbakatu",
+    "timbaktu",
+    "timbugtu",
+    "timpaktu",
+    "ting ba ke tu",
+    "tiምbukitu",
+    "tmbktw",
+    "tonbukutou",
+    "tymbwktw",
+    "tymbwqtw",
+    "Τιμπουκτού",
+    "Тимбукту",
+    "Томбукту",
+    "Тімбукту",
+    "טימבוקטו",
+    "تمبكتو",
+    "تیمبوکتو",
+    "ٹمبکٹو",
+    "ټymbktw",
+    "ټیمبکتو",
+    "टिंबक्टू",
+    "टिम्बकटू",
+    "तिमबुक्तु",
+    "টিম্বাক্টু",
+    "ਤਿੰਬਕਤੂ",
+    "ટિમ્બક્ટુ",
+    "திம்பக்து",
+    "టింబక్టు",
+    "ಟಿಂಬಕ್ಟು",
+    "റ്റിംബക്റ്റൂ",
+    "ทิมบักตู",
+    "ტომბუქტუ",
+    "ቲምቡክቱ",
+    "トンブクトゥ",
+    "廷巴克图",
+    "廷巴克圖",
+    "湯瀑圖",
+    "팀북투"
+   ],
+   "lat": 16.77348,
+   "lon": -3.00742,
+   "population": 84208,
+   "geonameId": "2449067"
+  },
+  {
+   "id": "city:geonames-2455216",
+   "name": "Kita",
+   "aliases": [],
+   "lat": 13.03885,
+   "lon": -9.48817,
+   "population": 75598,
+   "geonameId": "2455216"
+  },
+  {
+   "id": "city:geonames-2594078",
+   "name": "Dialakorodji",
+   "aliases": [
+    "Dialakoroji",
+    "Jalakɔrɔji"
+   ],
+   "lat": 12.70354,
+   "lon": -7.96463,
+   "population": 70619,
+   "geonameId": "2594078"
+  },
+  {
+   "id": "city:geonames-2454530",
+   "name": "Koulikoro",
+   "aliases": [
+    "Koulikoro-Liberte",
+    "Koulikoro-Liberté",
+    "Kulikoras",
+    "Kulikoro",
+    "Kulikɔrɔ",
+    "Kulukɔrɔ",
+    "kaulikoro",
+    "ku li ke luo",
+    "kulikoro",
+    "kulikwero",
+    "kullikolo",
+    "kurikoro",
+    "kwlykwrw",
+    "Κουλικορό",
+    "Куликоро",
+    "Кулікоро",
+    "كوليكورو",
+    "کوليکورو",
+    "کولیکورو",
+    "कौलिकोरो",
+    "কুলিকোরো",
+    "ਕੌਲਿਕੋਰੋ",
+    "ኩሊኮሮ",
+    "クリコロ",
+    "庫利科羅",
+    "쿨리코로"
+   ],
+   "lat": 12.86273,
+   "lon": -7.55985,
+   "population": 64128,
+   "geonameId": "2454530"
+  },
+  {
+   "id": "city:geonames-2457763",
+   "name": "Fana",
+   "aliases": [],
+   "lat": 12.7787,
+   "lon": -6.9564,
+   "population": 56809,
+   "geonameId": "2457763"
+  },
+  {
+   "id": "city:geonames-2453662",
+   "name": "Markala",
+   "aliases": [
+    "Marakala"
+   ],
+   "lat": 13.68427,
+   "lon": -6.07352,
+   "population": 53738,
+   "geonameId": "2453662"
+  },
+  {
+   "id": "city:geonames-2452655",
+   "name": "Niono",
+   "aliases": [
+    "Ɲɔnɔ",
+    "Нионо"
+   ],
+   "lat": 14.25054,
+   "lon": -5.98679,
+   "population": 52584,
+   "geonameId": "2452655"
+  },
+  {
+   "id": "city:geonames-2452651",
+   "name": "Nioro",
+   "aliases": [
+    "NIX",
+    "Nioro du Sahel",
+    "Nioro-du-Sahel",
+    "Noiro",
+    "Ɲooro",
+    "Ɲòoro"
+   ],
+   "lat": 15.23074,
+   "lon": -9.59356,
+   "population": 51933,
+   "geonameId": "2452651"
+  },
+  {
+   "id": "city:geonames-2457410",
+   "name": "Pèlèngana",
+   "aliases": [
+    "Pelengana",
+    "Flangana",
+    "Palenguena",
+    "Palenguéna",
+    "Pelenguena",
+    "Pelennguena",
+    "Pélenguéna",
+    "Pélennguéna",
+    "Pɛlinnana",
+    "Pɛ̀linŋana"
+   ],
+   "lat": 13.4274,
+   "lon": -6.222,
+   "population": 50552,
+   "geonameId": "2457410"
+  },
+  {
+   "id": "city:geonames-2454955",
+   "name": "Kolokani",
+   "aliases": [
+    "Kokolani",
+    "Kɔlɔkanin",
+    "Колокани"
+   ],
+   "lat": 13.57388,
+   "lon": -8.03267,
+   "population": 48774,
+   "geonameId": "2454955"
+  },
+  {
+   "id": "city:geonames-2459657",
+   "name": "Bourem",
+   "aliases": [
+    "Burem",
+    "Burɛmu"
+   ],
+   "lat": 16.955,
+   "lon": -0.34861,
+   "population": 42371,
+   "geonameId": "2459657"
+  },
+  {
+   "id": "city:geonames-12718651",
+   "name": "Sangarébougou",
+   "aliases": [
+    "Sangarebougou"
+   ],
+   "lat": 12.70581,
+   "lon": -7.90268,
+   "population": 42314,
+   "geonameId": "12718651"
+  },
+  {
+   "id": "city:geonames-12718650",
+   "name": "Massiogo",
+   "aliases": [],
+   "lat": 10.30635,
+   "lon": -6.10972,
+   "population": 41317,
+   "geonameId": "12718650"
+  },
+  {
+   "id": "city:geonames-2458589",
+   "name": "Djenné",
+   "aliases": [
+    "Djenne",
+    "Djénné",
+    "Dzhene",
+    "Jene",
+    "Jɛnɛ",
+    "Jɛ̀nɛ",
+    "dzhene",
+    "jnh",
+    "Джене",
+    "جنه"
+   ],
+   "lat": 13.90608,
+   "lon": -4.55332,
+   "population": 40489,
+   "geonameId": "2458589"
+  },
+  {
+   "id": "city:geonames-2455290",
+   "name": "Kidal",
+   "aliases": [
+    "Kidal'",
+    "Kidali",
+    "Kidalis",
+    "Kintal",
+    "ji da er",
+    "kidal",
+    "kidala",
+    "kidaru",
+    "kidaል",
+    "kydal",
+    "Κιντάλ",
+    "Кидал",
+    "Кидаль",
+    "Кідаль",
+    "كيدال",
+    "کيدال",
+    "کڈال",
+    "کیدال",
+    "किडाल",
+    "কিডাল",
+    "ਕਿਡਾਲ",
+    "ኪዳል",
+    "キダル",
+    "基達爾",
+    "키달"
+   ],
+   "lat": 18.44345,
+   "lon": 1.40921,
+   "population": 40030,
+   "geonameId": "2455290"
+  },
+  {
+   "id": "city:geonames-2455974",
+   "name": "Kadiolo",
+   "aliases": [
+    "Kajolo"
+   ],
+   "lat": 10.55,
+   "lon": -5.76667,
+   "population": 38149,
+   "geonameId": "2455974"
+  },
+  {
+   "id": "city:geonames-2458334",
+   "name": "Douentza",
+   "aliases": [
+    "Douenza",
+    "Duwanza",
+    "Dúwanzà"
+   ],
+   "lat": 15.00605,
+   "lon": -2.9517,
+   "population": 37002,
+   "geonameId": "2458334"
+  },
+  {
+   "id": "city:geonames-2460013",
+   "name": "Bla",
+   "aliases": [
+    "Bila"
+   ],
+   "lat": 12.95083,
+   "lon": -5.75557,
+   "population": 33779,
+   "geonameId": "2460013"
+  },
+  {
+   "id": "city:geonames-2453776",
+   "name": "Moninnpébougou",
+   "aliases": [
+    "Moninnpebougou",
+    "Manimpe",
+    "Manimpé",
+    "Monempe",
+    "Monempé",
+    "Monimpe",
+    "Monimpebougou",
+    "Monimpebugu",
+    "Monimpé",
+    "Monimpébougou",
+    "Mɔninpebugu"
+   ],
+   "lat": 14.1508,
+   "lon": -5.5209,
+   "population": 32899,
+   "geonameId": "2453776"
+  },
+  {
+   "id": "city:geonames-2448322",
+   "name": "Zégoua",
+   "aliases": [
+    "Zegoua",
+    "Zegua",
+    "Zeguwa",
+    "Zekoua",
+    "Zékoua"
+   ],
+   "lat": 10.48804,
+   "lon": -5.64943,
+   "population": 31593,
+   "geonameId": "2448322"
+  },
+  {
+   "id": "city:geonames-2458623",
+   "name": "Diré",
+   "aliases": [
+    "Dire"
+   ],
+   "lat": 16.25705,
+   "lon": -3.40126,
+   "population": 31348,
+   "geonameId": "2458623"
+  },
+  {
+   "id": "city:geonames-2458881",
+   "name": "Diéma",
+   "aliases": [
+    "Diema",
+    "Diena",
+    "Diéna",
+    "Jema",
+    "Jɛma"
+   ],
+   "lat": 14.54,
+   "lon": -9.1921,
+   "population": 30592,
+   "geonameId": "2458881"
+  },
+  {
+   "id": "city:geonames-2460546",
+   "name": "Banamba",
+   "aliases": [
+    "Bananba"
+   ],
+   "lat": 13.54773,
+   "lon": -7.44808,
+   "population": 30591,
+   "geonameId": "2460546"
+  },
+  {
+   "id": "city:geonames-2460401",
+   "name": "Bankass",
+   "aliases": [
+    "Bankas",
+    "Bankasse",
+    "Bankassi",
+    "Bankassé"
+   ],
+   "lat": 14.0775,
+   "lon": -3.51594,
+   "population": 30159,
+   "geonameId": "2460401"
+  },
+  {
+   "id": "city:geonames-2460584",
+   "name": "Bamba",
+   "aliases": [
+    "Banba"
+   ],
+   "lat": 10.38333,
+   "lon": -7.15,
+   "population": 28524,
+   "geonameId": "2460584"
+  },
+  {
+   "id": "city:geonames-2460755",
+   "name": "Bafoulabé",
+   "aliases": [
+    "Bafoulabe",
+    "Bafilabɛn",
+    "Bafulabe",
+    "Báfilabɛn"
+   ],
+   "lat": 13.80843,
+   "lon": -10.83344,
+   "population": 26823,
+   "geonameId": "2460755"
+  },
+  {
+   "id": "city:geonames-2453927",
+   "name": "Mahina",
+   "aliases": [],
+   "lat": 13.9044,
+   "lon": -10.0986,
+   "population": 26754,
+   "geonameId": "2453927"
+  },
+  {
+   "id": "city:geonames-2451241",
+   "name": "Sibi",
+   "aliases": [
+    "Siby"
+   ],
+   "lat": 12.37627,
+   "lon": -8.33729,
+   "population": 26633,
+   "geonameId": "2451241"
+  },
+  {
+   "id": "city:geonames-2458634",
+   "name": "Diourou",
+   "aliases": [],
+   "lat": 13.68719,
+   "lon": -5.83203,
+   "population": 26559,
+   "geonameId": "2458634"
+  },
+  {
+   "id": "city:geonames-2460489",
+   "name": "Bandiagara",
+   "aliases": [
+    "Banjagara",
+    "Bánjagara"
+   ],
+   "lat": 14.35005,
+   "lon": -3.61038,
+   "population": 26460,
+   "geonameId": "2460489"
+  },
+  {
+   "id": "city:geonames-2458359",
+   "name": "Dougabougou",
+   "aliases": [
+    "Douabougou"
+   ],
+   "lat": 13.82049,
+   "lon": -6.12057,
+   "population": 26399,
+   "geonameId": "2458359"
+  },
+  {
+   "id": "city:geonames-2454674",
+   "name": "Koro",
+   "aliases": [],
+   "lat": 14.064,
+   "lon": -3.07539,
+   "population": 24694,
+   "geonameId": "2454674"
+  },
+  {
+   "id": "city:geonames-2448518",
+   "name": "Yanfolila",
+   "aliases": [],
+   "lat": 11.18333,
+   "lon": -8.15,
+   "population": 24399,
+   "geonameId": "2448518"
+  },
+  {
+   "id": "city:geonames-2450972",
+   "name": "Siribala Coro",
+   "aliases": [
+    "Siribala",
+    "Siribala-Koro"
+   ],
+   "lat": 14.0432,
+   "lon": -6.1067,
+   "population": 24301,
+   "geonameId": "2450972"
+  },
+  {
+   "id": "city:geonames-2457430",
+   "name": "Finnkolo",
+   "aliases": [
+    "Fenkolo",
+    "Finkolo"
+   ],
+   "lat": 11.26822,
+   "lon": -5.51054,
+   "population": 24229,
+   "geonameId": "2457430"
+  },
+  {
+   "id": "city:geonames-2453681",
+   "name": "Moribabougou",
+   "aliases": [
+    "Maribabougou",
+    "Moribabugu"
+   ],
+   "lat": 12.68672,
+   "lon": -7.86378,
+   "population": 24085,
+   "geonameId": "2453681"
+  },
+  {
+   "id": "city:geonames-2453079",
+   "name": "Nara",
+   "aliases": [
+    "NRM"
+   ],
+   "lat": 15.16931,
+   "lon": -7.28985,
+   "population": 23599,
+   "geonameId": "2453079"
+  },
+  {
+   "id": "city:geonames-2458747",
+   "name": "Dioïla",
+   "aliases": [
+    "Dioila",
+    "Doila",
+    "Doïla",
+    "Dɔyila"
+   ],
+   "lat": 12.48735,
+   "lon": -6.80313,
+   "population": 23535,
+   "geonameId": "2458747"
+  },
+  {
+   "id": "city:geonames-2454285",
+   "name": "Kouri",
+   "aliases": [
+    "Koury",
+    "Kuri"
+   ],
+   "lat": 12.18396,
+   "lon": -4.80284,
+   "population": 22991,
+   "geonameId": "2454285"
+  },
+  {
+   "id": "city:geonames-2451029",
+   "name": "Sirakoro Méguétana",
+   "aliases": [
+    "Sirakoro Meguetana",
+    "Siracoro Meguetana",
+    "Sirakoro"
+   ],
+   "lat": 12.56439,
+   "lon": -7.91551,
+   "population": 22499,
+   "geonameId": "2451029"
+  },
+  {
+   "id": "city:geonames-2596484",
+   "name": "I-n-Tillit",
+   "aliases": [],
+   "lat": 15.54611,
+   "lon": -0.46056,
+   "population": 22100,
+   "geonameId": "2596484"
+  },
+  {
+   "id": "city:geonames-2448955",
+   "name": "Toubakoura",
+   "aliases": [
+    "Touba"
+   ],
+   "lat": 13.4637,
+   "lon": -7.38278,
+   "population": 22059,
+   "geonameId": "2448955"
+  },
+  {
+   "id": "city:geonames-2456917",
+   "name": "Goundam",
+   "aliases": [
+    "GUD",
+    "Gundamu"
+   ],
+   "lat": 16.41453,
+   "lon": -3.67075,
+   "population": 19400,
+   "geonameId": "2456917"
+  },
+  {
+   "id": "city:geonames-2461034",
+   "name": "Andéranboukan",
+   "aliases": [
+    "Anderanboukan",
+    "Amderamboukan",
+    "Amderamboukane",
+    "Amdéramboukane",
+    "Anderabukani",
+    "Anderamboukan",
+    "Anderamboukane",
+    "Anderanboukane",
+    "Anderanbukani",
+    "Andéramboukane",
+    "Andéranboukane"
+   ],
+   "lat": 15.4275,
+   "lon": 3.0175,
+   "population": 18688,
+   "geonameId": "2461034"
+  },
+  {
+   "id": "city:geonames-2448442",
+   "name": "Yorosso",
+   "aliases": [
+    "Joroso",
+    "Yɔrɔso",
+    "Йоросо"
+   ],
+   "lat": 12.35811,
+   "lon": -4.77688,
+   "population": 17447,
+   "geonameId": "2448442"
+  },
+  {
+   "id": "city:geonames-2455735",
+   "name": "Kangaba",
+   "aliases": [
+    "Kaba",
+    "Kangara",
+    "Кангаба"
+   ],
+   "lat": 11.93333,
+   "lon": -8.41667,
+   "population": 17232,
+   "geonameId": "2455735"
+  },
+  {
+   "id": "city:geonames-2451935",
+   "name": "Sagalo",
+   "aliases": [
+    "Sagallo"
+   ],
+   "lat": 12.2,
+   "lon": -10.7,
+   "population": 15830,
+   "geonameId": "2451935"
+  },
+  {
+   "id": "city:geonames-2455465",
+   "name": "Ké-Macina",
+   "aliases": [
+    "Ke-Macina",
+    "Ke Machine",
+    "Ke Macina",
+    "Ke Massina",
+    "Ke-Masina",
+    "Ke-Masino",
+    "Ké Macina",
+    "Ké Massina",
+    "Kɛɛmasina",
+    "Kɛ̀ɛmasina"
+   ],
+   "lat": 13.9641,
+   "lon": -5.35791,
+   "population": 15750,
+   "geonameId": "2455465"
+  }
+ ]
+}

@@ -1,3 +1,4 @@
+import { cityMinimum } from '@/domain/cityRecall'
 import { exerciseFor, exerciseKeeps, EXERCISES } from '@/config/quizCatalog'
 import { selectProfileFields, validProfileAnswer, profileHit } from './profile'
 import type { Entity } from '@/domain/types'
@@ -31,6 +32,7 @@ export interface QuizSession {
   setup: RoundConfig
   category: CategoryId
   scope: string
+  cityRecallRevealed?: boolean
   mode: SessionMode
   length: number | 'all'
   seed: string
@@ -68,6 +70,8 @@ export function baseQuestionTotal(session: Pick<QuizSession, 'questions' | 'rema
 export function baseQuestionPosition(
   session: Pick<QuizSession, 'questions' | 'remaining' | 'position'>,
 ): number {
+  if (session.questions[0]?.question.type === 'city_recall')
+    return session.questions.filter((q) => q.correct).length
   const total = baseQuestionTotal(session)
   const position = session.questions.slice(0, session.position + 1).filter((q) => !q.repeated).length
   return Math.max(1, Math.min(total, position))
@@ -92,7 +96,10 @@ interface PoolItem {
 /** Alle Lernkarten eines Setups (Kategorie, Fragetyp, Bereich, Inhalt) und die Generatoren, die sie bedienen. */
 export function poolFor(
   ctx: GeneratorContext,
-  setup: Pick<RoundConfig, 'category' | 'mode' | 'content' | 'exercise' | 'collection' | 'fields'>,
+  setup: Pick<
+    RoundConfig,
+    'category' | 'mode' | 'content' | 'exercise' | 'collection' | 'fields' | 'minPopulation'
+  >,
 ): Map<string, PoolItem> {
   const exercise = exerciseFor(setup.exercise)
   const content = exercise?.content ?? modeFor(setup.category, setup.mode)?.content ?? setup.content
@@ -128,6 +135,11 @@ export function poolFor(
     for (const e of g.pool(ctx)) {
       if (keep && !keep(e)) continue
       if (exercise && !exerciseKeeps(exercise, e)) continue
+      if (
+        exercise?.kind === 'city-recall' &&
+        Number(e.attributes.geonames_population) <= cityMinimum(setup.minPopulation)
+      )
+        continue
       const cur = map.get(e.id) ?? { entity: e, generators: [] }
       cur.generators.push(g)
       map.set(e.id, cur)
@@ -141,6 +153,7 @@ export function buildSession(
   setup: RoundConfig,
   opts: BuildOptions = {},
 ): QuizSession {
+  if (exerciseFor(setup.exercise)?.kind === 'city-recall') setup = { ...setup, length: 'all', repeat: false }
   const seed = opts.seed ?? `${Date.now()}-${Math.random()}`
   const rng = createRng(seed)
   let entities = [...poolFor(ctx, setup).values()]
@@ -162,7 +175,12 @@ export function buildSession(
   const difficulty = opts.difficulty ?? 2
   const questions: SessionQuestion[] = []
   const remaining: string[] = []
-  const batch = setup.length === 'all' ? 25 : ordered.length
+  const batch =
+    exerciseFor(setup.exercise)?.kind === 'city-recall'
+      ? ordered.length
+      : setup.length === 'all'
+        ? 25
+        : ordered.length
   ordered.forEach((item) => {
     if (questions.length >= batch) {
       remaining.push(item.entity.id)

@@ -1,0 +1,586 @@
+{
+ "country": "country:GN",
+ "cities": [
+  {
+   "id": "city:GN-conakry",
+   "name": "Conakry",
+   "aliases": [
+    "CKY",
+    "Conacri",
+    "Konakri",
+    "Konakrio",
+    "Konakris",
+    "Konakry",
+    "ke na ke li",
+    "konakeuli",
+    "konakuri",
+    "Κόνακρι",
+    "Конакри",
+    "קונאקרי",
+    "コナクリ",
+    "科納克里",
+    "코나크리"
+   ],
+   "lat": 9.53795,
+   "lon": -13.67729,
+   "population": 1928389,
+   "geonameId": "2422465"
+  },
+  {
+   "id": "city:geonames-2422488",
+   "name": "Camayenne",
+   "aliases": [
+    "Camayen",
+    "Kamaenne",
+    "Камаенне"
+   ],
+   "lat": 9.535,
+   "lon": -13.68778,
+   "population": 1871242,
+   "geonameId": "2422488"
+  },
+  {
+   "id": "city:geonames-2416969",
+   "name": "Nzérékoré",
+   "aliases": [
+    "Nzerekore",
+    "NZE",
+    "Nzerekorė",
+    "eunjelekole",
+    "nzerekore",
+    "Нзерекоре",
+    "Նզերեկորե",
+    "نزیریکورے",
+    "ンゼレコレ",
+    "은제레코레"
+   ],
+   "lat": 7.75624,
+   "lon": -8.8179,
+   "population": 226426,
+   "geonameId": "2416969"
+  },
+  {
+   "id": "city:geonames-2419992",
+   "name": "Kankan",
+   "aliases": [
+    "KNN",
+    "Kankanas",
+    "kangkan",
+    "kankan",
+    "Канкан",
+    "کانکان",
+    "カンカン",
+    "캉칸"
+   ],
+   "lat": 10.38542,
+   "lon": -9.30568,
+   "population": 221428,
+   "geonameId": "2419992"
+  },
+  {
+   "id": "city:geonames-2417786",
+   "name": "Manéah",
+   "aliases": [
+    "Maneah",
+    "Manea",
+    "Maneakh",
+    "Manéa",
+    "Манеах"
+   ],
+   "lat": 9.73333,
+   "lon": -13.41667,
+   "population": 194297,
+   "geonameId": "2417786"
+  },
+  {
+   "id": "city:geonames-2421820",
+   "name": "Dixinn",
+   "aliases": [
+    "Diksinn",
+    "Диксинн"
+   ],
+   "lat": 9.55111,
+   "lon": -13.67306,
+   "population": 186553,
+   "geonameId": "2421820"
+  },
+  {
+   "id": "city:geonames-2421535",
+   "name": "Dubréka",
+   "aliases": [
+    "Dubreka",
+    "Debreeka",
+    "Дубрека"
+   ],
+   "lat": 9.79111,
+   "lon": -13.52333,
+   "population": 182296,
+   "geonameId": "2421535"
+  },
+  {
+   "id": "city:geonames-2419533",
+   "name": "Kindia",
+   "aliases": [
+    "Kindla",
+    "Киндиа"
+   ],
+   "lat": 10.05692,
+   "lon": -12.86576,
+   "population": 161024,
+   "geonameId": "2419533"
+  },
+  {
+   "id": "city:GN-siguiri",
+   "name": "Siguiri",
+   "aliases": [
+    "GII",
+    "Sigiri",
+    "Сигири"
+   ],
+   "lat": 11.42282,
+   "lon": -9.16852,
+   "population": 148018,
+   "geonameId": "2415703"
+  },
+  {
+   "id": "city:GN-kamsar",
+   "name": "Kamsar",
+   "aliases": [
+    "Bagataye",
+    "Dougofissa",
+    "Dougoufissa",
+    "Dougouiffissa",
+    "Dougouifissa",
+    "Kakande",
+    "Kakandé",
+    "Komsar",
+    "Port-Kakande",
+    "Port-Kakandé",
+    "Port-Kamsar",
+    "Комсар"
+   ],
+   "lat": 10.65,
+   "lon": -14.61667,
+   "population": 148000,
+   "geonameId": "2416402"
+  },
+  {
+   "id": "city:geonames-2419472",
+   "name": "Kissidougou",
+   "aliases": [
+    "KSI",
+    "Kisidugu",
+    "Kissidugu",
+    "Кисидугу"
+   ],
+   "lat": 9.1848,
+   "lon": -10.09987,
+   "population": 116019,
+   "geonameId": "2419472"
+  },
+  {
+   "id": "city:geonames-2418362",
+   "name": "Labé",
+   "aliases": [
+    "Labe",
+    "LEK",
+    "Laba",
+    "Лаба"
+   ],
+   "lat": 11.31823,
+   "lon": -12.28332,
+   "population": 107571,
+   "geonameId": "2418362"
+  },
+  {
+   "id": "city:GN-gueckedou",
+   "name": "Guéckédou",
+   "aliases": [
+    "Gueckedou",
+    "Guekedou",
+    "Guékédou",
+    "Guéckédougou"
+   ],
+   "lat": 8.56744,
+   "lon": -10.1336,
+   "population": 79140,
+   "geonameId": "2420562"
+  },
+  {
+   "id": "city:geonames-2417833",
+   "name": "Mamou",
+   "aliases": [],
+   "lat": 10.37546,
+   "lon": -12.09148,
+   "population": 79109,
+   "geonameId": "2417833"
+  },
+  {
+   "id": "city:geonames-2422457",
+   "name": "Coyah",
+   "aliases": [
+    "Coya",
+    "Koyah"
+   ],
+   "lat": 9.70643,
+   "lon": -13.38465,
+   "population": 77103,
+   "geonameId": "2422457"
+  },
+  {
+   "id": "city:geonames-2421273",
+   "name": "Faranah",
+   "aliases": [
+    "FAA"
+   ],
+   "lat": 10.04036,
+   "lon": -10.74343,
+   "population": 70181,
+   "geonameId": "2421273"
+  },
+  {
+   "id": "city:geonames-2417988",
+   "name": "Macenta",
+   "aliases": [
+    "MCA",
+    "Magenta",
+    "Masenta",
+    "Масента"
+   ],
+   "lat": 8.54351,
+   "lon": -9.47099,
+   "population": 68020,
+   "geonameId": "2417988"
+  },
+  {
+   "id": "city:geonames-2420884",
+   "name": "Fria",
+   "aliases": [
+    "FIG",
+    "Firiya",
+    "Фриа"
+   ],
+   "lat": 10.36676,
+   "lon": -13.58253,
+   "population": 64169,
+   "geonameId": "2420884"
+  },
+  {
+   "id": "city:geonames-2422924",
+   "name": "Boké",
+   "aliases": [
+    "Boke",
+    "BKJ",
+    "Boque",
+    "Boqué"
+   ],
+   "lat": 10.93217,
+   "lon": -14.29055,
+   "population": 63736,
+   "geonameId": "2422924"
+  },
+  {
+   "id": "city:geonames-13562381",
+   "name": "Kolaboui",
+   "aliases": [],
+   "lat": 10.79569,
+   "lon": -14.39966,
+   "population": 57251,
+   "geonameId": "13562381"
+  },
+  {
+   "id": "city:geonames-2416085",
+   "name": "Sangarédi",
+   "aliases": [
+    "Sangaredi",
+    "Sangarehedi",
+    "Sangaridi"
+   ],
+   "lat": 11.1,
+   "lon": -13.76667,
+   "population": 54824,
+   "geonameId": "2416085"
+  },
+  {
+   "id": "city:geonames-2418623",
+   "name": "Koumbia",
+   "aliases": [],
+   "lat": 11.8,
+   "lon": -13.5,
+   "population": 45970,
+   "geonameId": "2418623"
+  },
+  {
+   "id": "city:geonames-2418437",
+   "name": "Kouroussa",
+   "aliases": [
+    "Kurussa"
+   ],
+   "lat": 10.65,
+   "lon": -9.88333,
+   "population": 36295,
+   "geonameId": "2418437"
+  },
+  {
+   "id": "city:geonames-2418092",
+   "name": "Lola",
+   "aliases": [],
+   "lat": 7.8,
+   "lon": -8.53333,
+   "population": 32555,
+   "geonameId": "2418092"
+  },
+  {
+   "id": "city:geonames-13562331",
+   "name": "Kolenté",
+   "aliases": [
+    "Kolente",
+    "Kolenten"
+   ],
+   "lat": 10.28578,
+   "lon": -12.43699,
+   "population": 31312,
+   "geonameId": "13562331"
+  },
+  {
+   "id": "city:geonames-2414926",
+   "name": "Télimélé",
+   "aliases": [
+    "Telimele"
+   ],
+   "lat": 10.9,
+   "lon": -13.03333,
+   "population": 30311,
+   "geonameId": "2414926"
+  },
+  {
+   "id": "city:geonames-2422442",
+   "name": "Dabola",
+   "aliases": [
+    "Дабола"
+   ],
+   "lat": 10.7433,
+   "lon": -11.10778,
+   "population": 29449,
+   "geonameId": "2422442"
+  },
+  {
+   "id": "city:geonames-2423018",
+   "name": "Bissikrima",
+   "aliases": [
+    "Bissikrinia"
+   ],
+   "lat": 10.85,
+   "lon": -10.93333,
+   "population": 28840,
+   "geonameId": "2423018"
+  },
+  {
+   "id": "city:geonames-2419498",
+   "name": "Kintinian",
+   "aliases": [
+    "Kentinian",
+    "Kintiniou"
+   ],
+   "lat": 11.6,
+   "lon": -9.38333,
+   "population": 27969,
+   "geonameId": "2419498"
+  },
+  {
+   "id": "city:geonames-13562531",
+   "name": "Dogomet",
+   "aliases": [],
+   "lat": 10.58906,
+   "lon": -11.17752,
+   "population": 27748,
+   "geonameId": "13562531"
+  },
+  {
+   "id": "city:geonames-2419622",
+   "name": "Kérouané",
+   "aliases": [
+    "Kerouane"
+   ],
+   "lat": 9.26667,
+   "lon": -9.01667,
+   "population": 26990,
+   "geonameId": "2419622"
+  },
+  {
+   "id": "city:geonames-2414545",
+   "name": "Tougué",
+   "aliases": [
+    "Tougue",
+    "Tongue"
+   ],
+   "lat": 11.44503,
+   "lon": -11.66422,
+   "population": 25531,
+   "geonameId": "2414545"
+  },
+  {
+   "id": "city:geonames-2416443",
+   "name": "Pita",
+   "aliases": [],
+   "lat": 11.05915,
+   "lon": -12.39498,
+   "population": 25355,
+   "geonameId": "2416443"
+  },
+  {
+   "id": "city:geonames-7669271",
+   "name": "Donghol-Sigon",
+   "aliases": [
+    "Donghol Sigon"
+   ],
+   "lat": 11.8,
+   "lon": -12.2167,
+   "population": 25222,
+   "geonameId": "7669271"
+  },
+  {
+   "id": "city:geonames-2414341",
+   "name": "Wendou Borou",
+   "aliases": [
+    "Borou"
+   ],
+   "lat": 11.43333,
+   "lon": -13.88333,
+   "population": 25150,
+   "geonameId": "2414341"
+  },
+  {
+   "id": "city:geonames-2423459",
+   "name": "Banko",
+   "aliases": [],
+   "lat": 10.71667,
+   "lon": -10.71667,
+   "population": 23638,
+   "geonameId": "2423459"
+  },
+  {
+   "id": "city:geonames-2421690",
+   "name": "Douako",
+   "aliases": [
+    "Duako",
+    "Доуако",
+    "ߘߎߥߊߞߐ߫"
+   ],
+   "lat": 9.73333,
+   "lon": -10.18333,
+   "population": 23416,
+   "geonameId": "2421690"
+  },
+  {
+   "id": "city:geonames-2420985",
+   "name": "Forécariah",
+   "aliases": [
+    "Forecariah",
+    "Forecaria",
+    "Forikaria"
+   ],
+   "lat": 9.43056,
+   "lon": -13.08806,
+   "population": 23350,
+   "geonameId": "2420985"
+  },
+  {
+   "id": "city:geonames-2418596",
+   "name": "Koundara",
+   "aliases": [
+    "SBI"
+   ],
+   "lat": 12.48333,
+   "lon": -13.3,
+   "population": 22326,
+   "geonameId": "2418596"
+  },
+  {
+   "id": "city:geonames-2421903",
+   "name": "Dinguiraye",
+   "aliases": [
+    "Dinguiray"
+   ],
+   "lat": 11.29062,
+   "lon": -10.7121,
+   "population": 20993,
+   "geonameId": "2421903"
+  },
+  {
+   "id": "city:geonames-2414170",
+   "name": "Yende Millimou",
+   "aliases": [
+    "Millimou",
+    "Yende"
+   ],
+   "lat": 8.88722,
+   "lon": -10.17222,
+   "population": 20372,
+   "geonameId": "2414170"
+  },
+  {
+   "id": "city:geonames-2423126",
+   "name": "Beyla",
+   "aliases": [],
+   "lat": 8.69011,
+   "lon": -8.64869,
+   "population": 19848,
+   "geonameId": "2423126"
+  },
+  {
+   "id": "city:geonames-2417795",
+   "name": "Mandiana",
+   "aliases": [],
+   "lat": 10.62577,
+   "lon": -8.69413,
+   "population": 19110,
+   "geonameId": "2417795"
+  },
+  {
+   "id": "city:geonames-2423969",
+   "name": "Albadéria",
+   "aliases": [
+    "Albaderia",
+    "Albadaria"
+   ],
+   "lat": 9.55,
+   "lon": -10.1,
+   "population": 17147,
+   "geonameId": "2423969"
+  },
+  {
+   "id": "city:geonames-2417394",
+   "name": "Moussadou",
+   "aliases": [
+    "Moussadougou",
+    "Mussadugu"
+   ],
+   "lat": 8.76667,
+   "lon": -8.61667,
+   "population": 16725,
+   "geonameId": "2417394"
+  },
+  {
+   "id": "city:geonames-2423919",
+   "name": "Arfa Moussaïa",
+   "aliases": [
+    "Arfa Moussaia",
+    "Arfan"
+   ],
+   "lat": 10.76667,
+   "lon": -11.36667,
+   "population": 16561,
+   "geonameId": "2423919"
+  },
+  {
+   "id": "city:geonames-2420139",
+   "name": "Kamabi",
+   "aliases": [],
+   "lat": 12.4,
+   "lon": -13.41667,
+   "population": 16178,
+   "geonameId": "2420139"
+  }
+ ]
+}

@@ -49,6 +49,7 @@ export interface Question {
   answer: string // Entity-ID oder Wert
   accepted?: string[] // für text_input
   profileFields?: ProfileField[]
+  place?: {name:string;lat:number;lon:number;population:number;geonameId:string}
   options?: QuestionOption[]
   media?: {
     kind: 'flag' | 'photo' | 'outline'

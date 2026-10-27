@@ -1,0 +1,74 @@
+{
+ "country": "country:PF",
+ "cities": [
+  {
+   "id": "city:geonames-4034561",
+   "name": "Faaa",
+   "aliases": [
+    "Faa'a",
+    "Faa’a",
+    "Torea"
+   ],
+   "lat": -17.55933,
+   "lon": -149.60352,
+   "population": 29851,
+   "geonameId": "4034561"
+  },
+  {
+   "id": "city:PF-papeete",
+   "name": "Papeetē",
+   "aliases": [
+    "Papeete",
+    "PPT",
+    "Pape'ete",
+    "Papeehte",
+    "Papeehteh",
+    "Papeetė",
+    "Papeiti",
+    "Papete",
+    "Pape’ete",
+    "Papiete",
+    "Papiti",
+    "Papito",
+    "Vaiete",
+    "babyty",
+    "pa pe xe te",
+    "pa pi ti",
+    "papeete",
+    "papete",
+    "papiti",
+    "papyth",
+    "Παπεέτε",
+    "Папеете",
+    "Папете",
+    "Папеэте",
+    "Папеэтэ",
+    "Պապեետե",
+    "بابيتي",
+    "پاپیته",
+    "پاپیٹی",
+    "पापीती",
+    "ปาเปเอเต",
+    "პაპეეტე",
+    "パペーテ",
+    "帕皮提",
+    "파페에테"
+   ],
+   "lat": -17.5347,
+   "lon": -149.56843,
+   "population": 26357,
+   "geonameId": "4033936"
+  },
+  {
+   "id": "city:geonames-4033779",
+   "name": "Punaauia",
+   "aliases": [
+    "Punaavia"
+   ],
+   "lat": -17.63333,
+   "lon": -149.6,
+   "population": 25750,
+   "geonameId": "4033779"
+  }
+ ]
+}

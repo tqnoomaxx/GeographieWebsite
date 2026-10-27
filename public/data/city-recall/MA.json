@@ -1,0 +1,3075 @@
+{
+ "country": "country:MA",
+ "cities": [
+  {
+   "id": "city:MA-casablanca",
+   "name": "Casablanca",
+   "aliases": [
+    "Ad Dar al Bayda",
+    "Ad Dar al Bayda'",
+    "Ad Dār al Bayḑā’",
+    "Anafi",
+    "Anfa",
+    "CMN",
+    "Casa Branca",
+    "Casabranca",
+    "Dar-el-Beida",
+    "Dar-uel-Beyda",
+    "Darul Baidha",
+    "Dâr-ül-Beydâ",
+    "Ed Dar el Baida",
+    "Ed Dār el Baida",
+    "Kasablank",
+    "Kasablanka",
+    "Kasablankae",
+    "Kazablanka",
+    "Kazablanko",
+    "Kazamplan'ka",
+    "Tigemmi Tamellalt",
+    "White House",
+    "ad-Dar al-Baydaʼ",
+    "ad-Dar al-baydaʾ",
+    "ad-Dār al-Bayḍāʼ",
+    "ad-Dār al-bayḍāʾ",
+    "aldar albydaʾ",
+    "anfa",
+    "dar albydaʾ",
+    "daralbyda",
+    "ka sa bu lan ka",
+    "ka sab l xng ka",
+    "kacapilanka",
+    "kasabalanka",
+    "kasabeullangka",
+    "kasabilanika",
+    "kasablanka",
+    "kasaburanka",
+    "kazablanka",
+    "qzblnqh",
+    "Καζαμπλάνκα",
+    "Казабланка",
+    "Касабланкæ",
+    "Касабланка",
+    "Կասաբլանկա",
+    "קזבלנקה",
+    "أنفا",
+    "الدار البيضاء",
+    "دار البیضاء",
+    "دارالبیضا",
+    "كازابلانكا",
+    "کازابلانکا",
+    "کاسابلانکا",
+    "कसाबलांका",
+    "कासाब्लांका",
+    "কাসাব্লাংকা",
+    "ਕਾਸਾਬਲਾਂਕਾ",
+    "காசாபிளாங்கா",
+    "కాసాబ్లాంకా",
+    "ಕಾಸಾಬ್ಲಾಂಕಾ",
+    "കാസബ്ലങ്ക",
+    "กาซาบล็องกา",
+    "ກາຊາບັງກາ",
+    "ကာဆာဘလန်ကာမြို့",
+    "კასაბლანკა",
+    "ካሳብላንካ",
+    "ⴰⵏⴼⴰ",
+    "カサブランカ",
+    "卡萨布兰卡",
+    "카사블랑카"
+   ],
+   "lat": 33.58831,
+   "lon": -7.61138,
+   "population": 3665954,
+   "geonameId": "2553604"
+  },
+  {
+   "id": "city:MA-rabat",
+   "name": "Rabat",
+   "aliases": [
+    "RBA",
+    "Raba",
+    "Rabata",
+    "Rabatas",
+    "Rabato",
+    "Rabatum",
+    "Rabot",
+    "Rabāt",
+    "Rabāta",
+    "Rampat",
+    "Rbat",
+    "Rbaṭ",
+    "al-Rabat",
+    "al-Rabāṭ",
+    "al-Ribat",
+    "al-Ribāṭ",
+    "alrbat",
+    "ar-Rabat",
+    "ar-Rabāṭ",
+    "ar-Ribat",
+    "ar-Ribāṭ",
+    "la ba",
+    "la ba te",
+    "labateu",
+    "raba t",
+    "rabat",
+    "rabata",
+    "rabato",
+    "rabota",
+    "rapat",
+    "rbat",
+    "Ραμπάτ",
+    "Рабат",
+    "Ռաբատ",
+    "ראבאט",
+    "רבאט",
+    "الرباط",
+    "رابات",
+    "ربات",
+    "رباط",
+    "ڕەبات",
+    "रबाट",
+    "रबात",
+    "রাবাত",
+    "ਰਬਾਤ",
+    "ରବୋଟ",
+    "ரபாத்",
+    "ราบัต",
+    "ར་བ་ཐ།",
+    "ར་བ་ཐེ།",
+    "რაბატი",
+    "ራባት",
+    "ラバト",
+    "剌八",
+    "拉巴特",
+    "라바트"
+   ],
+   "lat": 34.01325,
+   "lon": -6.83255,
+   "population": 1655753,
+   "geonameId": "2538475"
+  },
+  {
+   "id": "city:MA-fes",
+   "name": "Fès",
+   "aliases": [
+    "Fes",
+    "FEZ",
+    "Fez",
+    "fas",
+    "fezu",
+    "phesa",
+    "Фес",
+    "فاس",
+    "फेस",
+    "ফেস",
+    "ਫੇਸ",
+    "ፌsi",
+    "ፌስ",
+    "フェズ"
+   ],
+   "lat": 34.03313,
+   "lon": -5.00028,
+   "population": 1191905,
+   "geonameId": "2548885"
+  },
+  {
+   "id": "city:MA-tanger",
+   "name": "Tanger",
+   "aliases": [
+    "Tangier",
+    "TNG",
+    "Tanca",
+    "Tangeri",
+    "Tangero",
+    "Tangiers",
+    "Tanjer",
+    "Tanzha",
+    "Tanzher",
+    "Tanĝero",
+    "Tingis",
+    "Tànger",
+    "Tánger",
+    "Tânger",
+    "tan ji ya",
+    "tanijeri",
+    "tanje",
+    "tanji'ara",
+    "tanji'e",
+    "tanjiyara",
+    "tnjh",
+    "tnjt",
+    "Тангер",
+    "Танжа",
+    "Танжер",
+    "تنجه",
+    "طنجة",
+    "ٹnjyr",
+    "ٹنجیر",
+    "ټnjh",
+    "ټنجه",
+    "तांजिए",
+    "তাঞ্জিয়ার",
+    "ਤਾਂਜੀਅਰ",
+    "ታንጄር",
+    "タンジェ",
+    "坦幾亞"
+   ],
+   "lat": 35.76727,
+   "lon": -5.79975,
+   "population": 1035141,
+   "geonameId": "2530335"
+  },
+  {
+   "id": "city:MA-marrakesch",
+   "name": "Marrakesch",
+   "aliases": [
+    "Marrakesh",
+    "Marakes",
+    "Marakesh",
+    "Marakeso",
+    "Marakeŝo",
+    "Marakeş",
+    "Marakeš",
+    "Maraksh",
+    "Marrakech",
+    "Marrakes",
+    "Marrakesz",
+    "Marraqueix",
+    "Marraquexe",
+    "Marrokesh",
+    "Marràqueix",
+    "Marrákes",
+    "Marrákeš",
+    "Merrakex",
+    "Morocco City",
+    "RAK",
+    "ma la ke shen",
+    "marakesa",
+    "marakeshi",
+    "marakeshu",
+    "mraksh",
+    "Маракеш",
+    "Марракеш",
+    "Маррокеш",
+    "مراكش",
+    "مراکش",
+    "मराकेश",
+    "মারাকেশ",
+    "ਮਾਰਾਕੇਸ਼",
+    "ማራኬሽ",
+    "ⴰⵎⵓⵔⴰⴽⵓⵛ",
+    "マラケシュ",
+    "马拉喀什"
+   ],
+   "lat": 31.63416,
+   "lon": -7.99994,
+   "population": 995871,
+   "geonameId": "2542997"
+  },
+  {
+   "id": "city:MA-sale",
+   "name": "Salé",
+   "aliases": [
+    "Sale",
+    "Sala",
+    "Sali",
+    "Sallee",
+    "Sla",
+    "Slà",
+    "sla",
+    "Сале",
+    "سلا"
+   ],
+   "lat": 34.0531,
+   "lon": -6.79846,
+   "population": 972299,
+   "geonameId": "2537763"
+  },
+  {
+   "id": "city:MA-agadir",
+   "name": "Agadir",
+   "aliases": [
+    "AGA",
+    "Agadair",
+    "Agadir - akadyr",
+    "Agadir Ighir",
+    "Agadiras",
+    "Agadyr",
+    "Agádír",
+    "Ankantir",
+    "Ağadir",
+    "Irhir",
+    "Santa Cruz",
+    "a jia di er",
+    "agadileu",
+    "agadira",
+    "agadiru",
+    "agadyr",
+    "aghadyr",
+    "akadyr",
+    "aګadyr",
+    "aݣadyr",
+    "ʿegadiri",
+    "Αγκαντίρ",
+    "Агадир",
+    "Агадыр",
+    "Агадір",
+    "אגאדיר",
+    "أغادير",
+    "أكادير",
+    "أگادیر",
+    "أݣادير",
+    "اغادیر",
+    "اګادير",
+    "اگادیر",
+    "अगादिर",
+    "अगादीर",
+    "আগাদির",
+    "ਅਗਾਦੀਰ",
+    "አጋዲር",
+    "アガディール",
+    "阿加迪尔",
+    "아가디르"
+   ],
+   "lat": 30.42018,
+   "lon": -9.59815,
+   "population": 698310,
+   "geonameId": "2561668"
+  },
+  {
+   "id": "city:MA-meknes",
+   "name": "Meknès",
+   "aliases": [
+    "Meknes",
+    "MEK",
+    "Mekinez",
+    "mei ke nei si",
+    "mekunesu",
+    "mknas",
+    "mqns",
+    "Мекнес",
+    "מקנס",
+    "مكناس",
+    "مکناس",
+    "ⴰⵎⴽⵏⴰⵙ",
+    "メクネス",
+    "梅克内斯"
+   ],
+   "lat": 33.89352,
+   "lon": -5.54727,
+   "population": 568295,
+   "geonameId": "2542715"
+  },
+  {
+   "id": "city:MA-oujda",
+   "name": "Oujda",
+   "aliases": [
+    "OUD",
+    "Oudja",
+    "Oudjda",
+    "Ouja",
+    "Oujda-Angad",
+    "Ucda",
+    "Udzda",
+    "Udzhda",
+    "Udžda",
+    "Ugda",
+    "Ujda",
+    "Uzhda",
+    "Uĝda",
+    "Wadzda",
+    "Wadżda",
+    "Wejda",
+    "ujada",
+    "ujida",
+    "wgdh",
+    "wjdh",
+    "wjdt",
+    "wjdt-anjad",
+    "wjdt-ankad",
+    "wu ji da",
+    "Уджда",
+    "Уджда қаласы",
+    "Ужда",
+    "Уџда",
+    "וגדה",
+    "وجدة",
+    "وجدة-أنجاد",
+    "وجدة-أنكاد",
+    "وجده",
+    "وجدہ",
+    "उजडा",
+    "উজদা",
+    "ਉਜਡਾ",
+    "ውjada",
+    "ውጃዳ",
+    "ⵜⵉⵓⵊⴷ",
+    "ⵡⴰⵊⴷⴰ",
+    "ウジダ",
+    "乌季达",
+    "우지다"
+   ],
+   "lat": 34.68139,
+   "lon": -1.90858,
+   "population": 539711,
+   "geonameId": "2540483"
+  },
+  {
+   "id": "city:MA-kenitra",
+   "name": "Kénitra",
+   "aliases": [
+    "Kenitra",
+    "Al Qunaytirah",
+    "Al Qunayţirah",
+    "Al-Kunajtira",
+    "Kenitre",
+    "Kenitro",
+    "Khenifra",
+    "Lyautey",
+    "Mina Hassan Tani",
+    "NNA",
+    "Port Laoti",
+    "Port-Lyautey",
+    "Ville de Kenitra",
+    "alqnytrt",
+    "gai ni te la",
+    "keniteula",
+    "kenitira",
+    "kenitora",
+    "kenitra",
+    "knytra",
+    "knytrہ",
+    "qnytrh",
+    "Кенитра",
+    "Кенитра қаласы",
+    "Кенітра",
+    "אל-קניטרה",
+    "القنيطرة",
+    "قنیطره",
+    "کنيترا",
+    "کنیترہ",
+    "केनित्रा",
+    "কেনিত্রা",
+    "ਕੇਨੀਤ੍ਰਾ",
+    "კენიტრა",
+    "ኬኒትራ",
+    "ケニトラ",
+    "蓋尼特拉",
+    "케니트라"
+   ],
+   "lat": 34.26101,
+   "lon": -6.5802,
+   "population": 470949,
+   "geonameId": "2544571"
+  },
+  {
+   "id": "city:MA-tetouan",
+   "name": "Tétouan",
+   "aliases": [
+    "Tetouan",
+    "TTU",
+    "Tehtuan",
+    "Tetouán",
+    "Tetuan",
+    "Tetuanas",
+    "Tetuano",
+    "Tetuao",
+    "Tetuán",
+    "Tetuão",
+    "de tu an",
+    "teto'una",
+    "tetouan",
+    "tetuan",
+    "ttwan",
+    "Τετουάν",
+    "Тетуан",
+    "Тетуан қаласы",
+    "Тэтуан",
+    "תטואן",
+    "تطوان",
+    "तेतोउन",
+    "თეტუანი",
+    "テトゥアン",
+    "得土安",
+    "테투안"
+   ],
+   "lat": 35.57845,
+   "lon": -5.36837,
+   "population": 415810,
+   "geonameId": "2528910"
+  },
+  {
+   "id": "city:geonames-2558545",
+   "name": "Al Hoceïma",
+   "aliases": [
+    "Al Hoceima",
+    "AHU",
+    "Al Huceima",
+    "Al Husaymat",
+    "Al Ḩusaymāt",
+    "Al-Hoceima",
+    "Al-Husajma",
+    "Alhacemas",
+    "Alhucemas",
+    "Ehl'-Khosejma",
+    "Villa Alhucemas",
+    "Villa Sanjurjo",
+    "alhsymt",
+    "hsymh",
+    "Эль-Хосейма",
+    "الحسيمة",
+    "حسیمه"
+   ],
+   "lat": 35.25165,
+   "lon": -3.93723,
+   "population": 395644,
+   "geonameId": "2558545"
+  },
+  {
+   "id": "city:MA-temara",
+   "name": "Témara",
+   "aliases": [
+    "Temara",
+    "Kasba Temara",
+    "Темара"
+   ],
+   "lat": 33.92866,
+   "lon": -6.90656,
+   "population": 342345,
+   "geonameId": "2529013"
+  },
+  {
+   "id": "city:geonames-2537881",
+   "name": "Safi",
+   "aliases": [
+    "Asafi",
+    "Asfi",
+    "SFI",
+    "Safim",
+    "Safí",
+    "Sáfí",
+    "asfy",
+    "asfy  mraksh",
+    "sa fei",
+    "safi",
+    "sapi",
+    "Сафи",
+    "Сафі",
+    "Սաֆի",
+    "סאפי",
+    "آسفي",
+    "اسفی",
+    "اسفی، مراکش",
+    "საფი",
+    "ⴰⵙⴼⵉ",
+    "サフィ",
+    "薩非",
+    "사피"
+   ],
+   "lat": 32.29939,
+   "lon": -9.23718,
+   "population": 336883,
+   "geonameId": "2537881"
+  },
+  {
+   "id": "city:geonames-2542051",
+   "name": "Mohammedia",
+   "aliases": [
+    "Al Muhammadiyah",
+    "Al Muḩammadīyah",
+    "Al-Muhammadijja",
+    "Fadalah",
+    "Faḑālah",
+    "Fdala",
+    "Fedala",
+    "Fedalah",
+    "Fedhala",
+    "Mohamedija",
+    "Mohamedio",
+    "Mohammadia",
+    "Mohammédia",
+    "Mokhammedija",
+    "Muhammediye",
+    "Məhəmmədiyyə",
+    "Sedala",
+    "alhrawyyn",
+    "almhmdyt",
+    "mhmdyh",
+    "mohamedia",
+    "mu han mo di ye",
+    "Мохаммедия",
+    "المحمدية",
+    "الهراويين",
+    "محمدیه",
+    "محمدیہ",
+    "穆罕默迪耶",
+    "모하메디아"
+   ],
+   "lat": 33.68607,
+   "lon": -7.38298,
+   "population": 227799,
+   "geonameId": "2542051"
+  },
+  {
+   "id": "city:geonames-2544248",
+   "name": "Khouribga",
+   "aliases": [
+    "Khouribja",
+    "Khuribga",
+    "Kouriga",
+    "Kourigha",
+    "khrybkt",
+    "Хурибга",
+    "خريبكة"
+   ],
+   "lat": 32.88108,
+   "lon": -6.9063,
+   "population": 214241,
+   "geonameId": "2544248"
+  },
+  {
+   "id": "city:MA-el-jadida",
+   "name": "El Jadida",
+   "aliases": [
+    "Al Jadida",
+    "Al Yadida",
+    "Al-Djadida",
+    "Al-Dzadida",
+    "Al-Dżadida",
+    "Al-Džadída",
+    "Castilho Real",
+    "Dzadida",
+    "Džadida",
+    "Ehl'-Dzhadida",
+    "Ehl'-Dzhadzida",
+    "El Jadid",
+    "El-Jadida",
+    "El-Yadida",
+    "Mazagan",
+    "Mazagao",
+    "Mazaghan",
+    "Mazagão",
+    "Mazargan",
+    "aljdydh",
+    "aljdydt",
+    "el-jadida",
+    "ela jadida",
+    "eljadida",
+    "jie di dai",
+    "xælcha di da",
+    "Мазарґан",
+    "Эль-Джадзіда",
+    "Эль-Джадида",
+    "אל-גדידה",
+    "الجديدة",
+    "الجدیده",
+    "الجدیدہ",
+    "एल जदिदा",
+    "แอลฌาดีดา",
+    "ელ-ჯადიდა",
+    "アル・ジャディーダ",
+    "杰迪代",
+    "엘자디다"
+   ],
+   "lat": 33.25682,
+   "lon": -8.50882,
+   "population": 212863,
+   "geonameId": "2550078"
+  },
+  {
+   "id": "city:geonames-2555745",
+   "name": "Beni Mellal",
+   "aliases": [
+    "Ayt Mellal",
+    "BEM",
+    "Bani Mallal",
+    "Beni Melal",
+    "Beni Melalis",
+    "Beni-Mellal",
+    "Beni-Mellal'",
+    "Beni-Mellal-Centre",
+    "Beni-Millal'",
+    "Béni Mellal",
+    "Béni-Mellal",
+    "bei ni mai la lei",
+    "beni melala",
+    "beni melaል",
+    "benimellal",
+    "beni・merraru",
+    "bny mlal",
+    "bny mll",
+    "Бени-Меллаль",
+    "Бени-Миллаль",
+    "בני מלל",
+    "بني ملال",
+    "بنی ملال",
+    "بنی‌ملال",
+    "बेनी मेलाल",
+    "বেনি মেলাল",
+    "ਬੇਨੀ ਮੇਲਾਲ",
+    "ቤኒ ሜላል",
+    "ベニ・メッラル",
+    "貝尼邁拉勒",
+    "베니멜랄"
+   ],
+   "lat": 32.33725,
+   "lon": -6.34983,
+   "population": 210397,
+   "geonameId": "2555745"
+  },
+  {
+   "id": "city:geonames-10920963",
+   "name": "Salé Al Jadida",
+   "aliases": [
+    "Sale Al Jadida",
+    "Sale Al Dzhadida",
+    "Сале Ал Джадида"
+   ],
+   "lat": 33.99722,
+   "lon": -6.74047,
+   "population": 200000,
+   "geonameId": "10920963"
+  },
+  {
+   "id": "city:MA-ait-melloul",
+   "name": "Aït Melloul",
+   "aliases": [
+    "Ait Melloul",
+    "Аит Меллоул"
+   ],
+   "lat": 30.34164,
+   "lon": -9.50356,
+   "population": 187652,
+   "geonameId": "10374934"
+  },
+  {
+   "id": "city:geonames-2541479",
+   "name": "Nador",
+   "aliases": [
+    "NDR",
+    "Nadora",
+    "Nadoras",
+    "Nnadur",
+    "Nnaḍur",
+    "Nādora",
+    "Villa Nador",
+    "alnazwr",
+    "na zu er",
+    "nad xr",
+    "nadoleu",
+    "nazwr",
+    "Надор",
+    "الناظور",
+    "ناظور",
+    "นาดอร์",
+    "ⵏⴰⴹⵓⵕ",
+    "納祖爾",
+    "나도르"
+   ],
+   "lat": 35.16813,
+   "lon": -2.93352,
+   "population": 176600,
+   "geonameId": "2541479"
+  },
+  {
+   "id": "city:geonames-2552615",
+   "name": "Dar Bouazza",
+   "aliases": [
+    "Дар Боуазза"
+   ],
+   "lat": 33.51535,
+   "lon": -7.81677,
+   "population": 165295,
+   "geonameId": "2552615"
+  },
+  {
+   "id": "city:geonames-2529317",
+   "name": "Taza",
+   "aliases": [
+    "ta zha",
+    "tazh",
+    "tazt",
+    "Таза",
+    "Таза қаласы",
+    "תאזה",
+    "تازة",
+    "تازه",
+    "تازہ",
+    "塔扎"
+   ],
+   "lat": 34.21,
+   "lon": -4.01,
+   "population": 162110,
+   "geonameId": "2529317"
+  },
+  {
+   "id": "city:geonames-2537406",
+   "name": "Settat",
+   "aliases": [
+    "Azettad",
+    "Aẓeṭṭaḍ",
+    "Sattat",
+    "Setatas",
+    "sai ta te",
+    "setateu",
+    "sltat",
+    "stat",
+    "Сеттат",
+    "سطات",
+    "سلطات",
+    "სეტატი",
+    "塞塔特",
+    "세타트"
+   ],
+   "lat": 33.00103,
+   "lon": -7.61662,
+   "population": 155333,
+   "geonameId": "2537406"
+  },
+  {
+   "id": "city:geonames-2556272",
+   "name": "Berrechid",
+   "aliases": [
+    "Barrechid",
+    "Bev-rechid",
+    "Берречид"
+   ],
+   "lat": 33.26553,
+   "lon": -7.58754,
+   "population": 149201,
+   "geonameId": "2556272"
+  },
+  {
+   "id": "city:geonames-2558470",
+   "name": "Khemisset",
+   "aliases": [
+    "Al Khmissat",
+    "Kimisset",
+    "Хемиссет"
+   ],
+   "lat": 33.82404,
+   "lon": -6.06627,
+   "population": 143640,
+   "geonameId": "2558470"
+  },
+  {
+   "id": "city:geonames-2545957",
+   "name": "Inezgane",
+   "aliases": [
+    "Imezgane",
+    "Inezgan",
+    "Insgane",
+    "Инезган"
+   ],
+   "lat": 30.35535,
+   "lon": -9.53639,
+   "population": 142320,
+   "geonameId": "2545957"
+  },
+  {
+   "id": "city:geonames-2544001",
+   "name": "Ksar El Kebir",
+   "aliases": [
+    "Alcazarquebir",
+    "Alcazarquivir",
+    "Alcazquivir",
+    "Ehl'-Ksar-ehl'-Kebir",
+    "El Ksar El Kbir",
+    "El Ksar El Kebir",
+    "Эль-Ксар-эль-Кебир"
+   ],
+   "lat": 35.00044,
+   "lon": -5.90378,
+   "population": 138262,
+   "geonameId": "2544001"
+  },
+  {
+   "id": "city:geonames-2543549",
+   "name": "Larache",
+   "aliases": [
+    "Al `Ara'ish",
+    "Al ‘Arā’īsh",
+    "Al-Araisz",
+    "El Aaraich",
+    "El Araish",
+    "Larasas",
+    "Larash",
+    "Larasha",
+    "Laraso",
+    "Laraxe",
+    "Laraŝo",
+    "Larašas",
+    "Larraix",
+    "Lavache",
+    "araishu",
+    "la la shen",
+    "la rach",
+    "lalasyu",
+    "Лараш",
+    "Лараша",
+    "לראצה",
+    "العرائش",
+    "عرائش",
+    "عرایش",
+    "ลารัช",
+    "アライシュ",
+    "拉臘什",
+    "라라슈"
+   ],
+   "lat": 35.19321,
+   "lon": -6.15572,
+   "population": 136505,
+   "geonameId": "2543549"
+  },
+  {
+   "id": "city:geonames-2548526",
+   "name": "Guelmim",
+   "aliases": [
+    "GLN",
+    "Gel'mim",
+    "Gelmima",
+    "Gelmimas",
+    "Gelmīma",
+    "Goulimine",
+    "Gulimin",
+    "Kulmim",
+    "Kulmīm",
+    "gai lei min",
+    "gelmim",
+    "gerumin",
+    "gu'elamima",
+    "gulimimi",
+    "guweልmiም",
+    "guyelamima",
+    "gwlmym",
+    "klmym",
+    "nglmym",
+    "Гельмим",
+    "Гулимин",
+    "Гулимин қаласы",
+    "Гулімін",
+    "كلميم",
+    "کلمیم",
+    "ڭلميم",
+    "گولمیم",
+    "गुएलमिम",
+    "গুয়েলমিম",
+    "ਗੁਏਲਮਿਮ",
+    "გულიმიმი",
+    "ጉዌልሚም",
+    "ゲルミン",
+    "蓋勒敏",
+    "겔밈"
+   ],
+   "lat": 28.98696,
+   "lon": -10.05738,
+   "population": 129200,
+   "geonameId": "2548526"
+  },
+  {
+   "id": "city:geonames-2544333",
+   "name": "Khenifra",
+   "aliases": [
+    "Chenifra",
+    "Chunajfira",
+    "Jenifra",
+    "Khénifra",
+    "Xnifra",
+    "hai ni fu la",
+    "khnyfrh",
+    "khnyfrt",
+    "Хенифра",
+    "خنيفرة",
+    "خنیفره",
+    "خنیفرہ",
+    "海尼夫拉"
+   ],
+   "lat": 32.93492,
+   "lon": -5.66167,
+   "population": 128318,
+   "geonameId": "2544333"
+  },
+  {
+   "id": "city:geonames-2555467",
+   "name": "Berkane",
+   "aliases": [
+    "Berkan",
+    "Berkawe",
+    "Berkán",
+    "Birkani",
+    "bai er kan",
+    "brkan",
+    "Беркан",
+    "بركان",
+    "برکان",
+    "ⴱⴻⵔⴽⴰⵏ",
+    "拜爾坎"
+   ],
+   "lat": 34.92,
+   "lon": -2.32,
+   "population": 119284,
+   "geonameId": "2555467"
+  },
+  {
+   "id": "city:geonames-2530048",
+   "name": "Taourirt",
+   "aliases": [
+    "Taurirt",
+    "Таурирт"
+   ],
+   "lat": 34.40731,
+   "lon": -2.89732,
+   "population": 112908,
+   "geonameId": "2530048"
+  },
+  {
+   "id": "city:geonames-2554006",
+   "name": "Bouskoura",
+   "aliases": [
+    "Боускоура"
+   ],
+   "lat": 33.44976,
+   "lon": -7.65239,
+   "population": 112501,
+   "geonameId": "2554006"
+  },
+  {
+   "id": "city:geonames-2548830",
+   "name": "Al Fqih Ben Çalah",
+   "aliases": [
+    "Al Fqih Ben Calah",
+    "Al Fkikh Ben Kalakh",
+    "Fkih Ben Salah",
+    "Fquih Ben Salah",
+    "Ал Фких Бен Калах"
+   ],
+   "lat": 32.50213,
+   "lon": -6.68771,
+   "population": 111402,
+   "geonameId": "2548830"
+  },
+  {
+   "id": "city:geonames-2540689",
+   "name": "Oued Zem",
+   "aliases": [
+    "Uehd-Zem",
+    "Wadi Zam",
+    "Wādī Zam",
+    "wad zm",
+    "wady zm",
+    "Уэд-Зем",
+    "واد زم",
+    "وادي زم"
+   ],
+   "lat": 32.8627,
+   "lon": -6.57359,
+   "population": 104029,
+   "geonameId": "2540689"
+  },
+  {
+   "id": "city:geonames-2549979",
+   "name": "El Kelaa des Srarhna",
+   "aliases": [
+    "El Kelaa Des Srarkhna",
+    "El Kelaa des Sraghna",
+    "El Kelaa des Srharna",
+    "Kelaa",
+    "Kelaa Des Srarhna",
+    "Ел Келаа Дес Срархна"
+   ],
+   "lat": 32.05121,
+   "lon": -7.41079,
+   "population": 103982,
+   "geonameId": "2549979"
+  },
+  {
+   "id": "city:geonames-2532945",
+   "name": "Sidi Slimane",
+   "aliases": [
+    "Sidi Slamain",
+    "Sidi Sliman",
+    "Sidi-Slimane",
+    "Сиди-Слимане"
+   ],
+   "lat": 34.26479,
+   "lon": -5.92598,
+   "population": 101541,
+   "geonameId": "2532945"
+  },
+  {
+   "id": "city:geonames-7280528",
+   "name": "Errachidia",
+   "aliases": [
+    "Al-Rashidiyya",
+    "Ar-Raszidijja",
+    "ERH",
+    "Ehr-Rashidija",
+    "Er Rachidia",
+    "Er-Rachidia",
+    "Er-Rachidía",
+    "Imtɣeren",
+    "Ksar es-Souk",
+    "Rachidia",
+    "Rasidija",
+    "Rašidija",
+    "Rāšīdīja",
+    "alrshydyt",
+    "alrshydyt‎",
+    "ar-Rachidiya",
+    "ar-Rachīdīya",
+    "la xi di ye",
+    "Эр-Рашидия",
+    "א-רשידיה",
+    "الرشيدية",
+    "الرشيدية‎",
+    "الرشیدیہ",
+    "拉希迪耶"
+   ],
+   "lat": 31.9314,
+   "lon": -4.42663,
+   "population": 100870,
+   "geonameId": "7280528"
+  },
+  {
+   "id": "city:geonames-2548489",
+   "name": "Guercif",
+   "aliases": [
+    "Garsif"
+   ],
+   "lat": 34.22568,
+   "lon": -3.35361,
+   "population": 99238,
+   "geonameId": "2548489"
+  },
+  {
+   "id": "city:geonames-2539134",
+   "name": "Oulad Teïma",
+   "aliases": [
+    "Oulad Teima",
+    "Ouled Teima"
+   ],
+   "lat": 30.39467,
+   "lon": -9.20897,
+   "population": 97608,
+   "geonameId": "2539134"
+  },
+  {
+   "id": "city:geonames-2556018",
+   "name": "Ben Guerir",
+   "aliases": [
+    "Benguerir"
+   ],
+   "lat": 32.24088,
+   "lon": -7.95397,
+   "population": 96777,
+   "geonameId": "2556018"
+  },
+  {
+   "id": "city:geonames-12718669",
+   "name": "Ouislane",
+   "aliases": [],
+   "lat": 33.91406,
+   "lon": -5.48969,
+   "population": 95995,
+   "geonameId": "12718669"
+  },
+  {
+   "id": "city:geonames-2528659",
+   "name": "Tiflet",
+   "aliases": [],
+   "lat": 33.89469,
+   "lon": -6.30649,
+   "population": 94684,
+   "geonameId": "2528659"
+  },
+  {
+   "id": "city:geonames-10375044",
+   "name": "Lqoliaa",
+   "aliases": [
+    "Lqliaa",
+    "Lqliâa",
+    "ⵍⵇⵍⵉⵄⴰ"
+   ],
+   "lat": 30.29759,
+   "lon": -9.46597,
+   "population": 90890,
+   "geonameId": "10375044"
+  },
+  {
+   "id": "city:geonames-2529649",
+   "name": "Taroudant",
+   "aliases": [
+    "Taroudannt",
+    "Tarudant",
+    "Tarudantas",
+    "Tarudante",
+    "ta lu dan te",
+    "tarwdant",
+    "Тарудант",
+    "تارودانت",
+    "塔魯丹特"
+   ],
+   "lat": 30.47028,
+   "lon": -8.87695,
+   "population": 87520,
+   "geonameId": "2529649"
+  },
+  {
+   "id": "city:geonames-2537545",
+   "name": "Sefrou",
+   "aliases": [
+    "Sefru",
+    "Sefrú"
+   ],
+   "lat": 33.83186,
+   "lon": -4.828,
+   "population": 87234,
+   "geonameId": "2537545"
+  },
+  {
+   "id": "city:geonames-2549263",
+   "name": "Essaouira",
+   "aliases": [
+    "Amegdul",
+    "As Suwayrah",
+    "As-Sawira",
+    "As-Sawíra",
+    "As-Shawirah",
+    "Aş Şuwayrah",
+    "ESU",
+    "Ehs-Suvejra",
+    "Ehssuehjra",
+    "Es Suira",
+    "Es-Suvejra",
+    "Esauira",
+    "Essauira",
+    "Magador",
+    "Medino de Esauiro",
+    "Medino de Esaŭiro",
+    "Mogadar",
+    "Mogador",
+    "Savira",
+    "Suira",
+    "Suvayr",
+    "Szavira",
+    "Szavíra",
+    "alswyrt",
+    "as-Sawira",
+    "as-Ṣawīra",
+    "el-suvaira",
+    "es'sa'ura",
+    "esau-ila",
+    "essauira",
+    "mwghadwr",
+    "mwkadwr",
+    "suo wei la",
+    "swyrh",
+    "Ес-Сувейра",
+    "Эс-Сувейра",
+    "Эссуэйра",
+    "אסואירה",
+    "الصويرة",
+    "صویره",
+    "صویرہ",
+    "موغادور",
+    "موكادور",
+    "एस्साउरा",
+    "ელ-სუვაირა",
+    "エッサウィラ",
+    "索维拉",
+    "에사우이라"
+   ],
+   "lat": 31.5125,
+   "lon": -9.77,
+   "population": 85137,
+   "geonameId": "2549263"
+  },
+  {
+   "id": "city:geonames-2548818",
+   "name": "Fnidek",
+   "aliases": [
+    "Castillejos",
+    "Fnideq",
+    "Fnides",
+    "Los Castillejos",
+    "Фнидек"
+   ],
+   "lat": 35.84906,
+   "lon": -5.35747,
+   "population": 84558,
+   "geonameId": "2548818"
+  },
+  {
+   "id": "city:geonames-2533191",
+   "name": "Sidi Kacem",
+   "aliases": [
+    "Petitjean",
+    "Pettijean",
+    "Sidi Qacem",
+    "Sidi Qasim",
+    "Sīdī Qāsim",
+    "sdy qasm",
+    "سدي قاسم"
+   ],
+   "lat": 34.22149,
+   "lon": -5.70775,
+   "population": 82632,
+   "geonameId": "2533191"
+  },
+  {
+   "id": "city:geonames-2527089",
+   "name": "Tiznit",
+   "aliases": [
+    "Tiznitas",
+    "ti zi ni te",
+    "tznyt",
+    "Тизнит",
+    "تزنيت",
+    "تزنیت",
+    "提茲尼特"
+   ],
+   "lat": 29.69742,
+   "lon": -9.73162,
+   "population": 81569,
+   "geonameId": "2527089"
+  },
+  {
+   "id": "city:geonames-2530241",
+   "name": "Tan-Tan",
+   "aliases": [
+    "TTA",
+    "Tantan",
+    "Tantanas",
+    "tantan",
+    "Тан-Тан",
+    "طانطان",
+    "タンタン"
+   ],
+   "lat": 28.43799,
+   "lon": -11.10321,
+   "population": 79942,
+   "geonameId": "2530241"
+  },
+  {
+   "id": "city:geonames-2540850",
+   "name": "Ouarzazate",
+   "aliases": [
+    "OZZ",
+    "Ouarzazat",
+    "Ouarzazte",
+    "Ouorzazate",
+    "Uarzazat",
+    "Uarzazatas",
+    "Varzazat",
+    "Warzazat",
+    "Warzāzāt",
+    "wrzazat",
+    "wrzzat",
+    "Варзазат",
+    "Уарзазат",
+    "ورزازات",
+    "ورززات"
+   ],
+   "lat": 30.91894,
+   "lon": -6.89341,
+   "population": 77603,
+   "geonameId": "2540850"
+  },
+  {
+   "id": "city:geonames-12718688",
+   "name": "Souk El Arbaa",
+   "aliases": [],
+   "lat": 34.68473,
+   "lon": -6.00344,
+   "population": 75635,
+   "geonameId": "12718688"
+  },
+  {
+   "id": "city:geonames-2526488",
+   "name": "Youssoufia",
+   "aliases": [
+    "Louis Gentil"
+   ],
+   "lat": 32.24634,
+   "lon": -8.52941,
+   "population": 73848,
+   "geonameId": "2526488"
+  },
+  {
+   "id": "city:geonames-2546917",
+   "name": "Ifrane",
+   "aliases": [
+    "Ifran",
+    "Ifranas",
+    "afran",
+    "ipeulan",
+    "yi fu lan",
+    "Ифран",
+    "איפראן",
+    "إفران",
+    "افران",
+    "伊夫兰",
+    "이프란"
+   ],
+   "lat": 33.52666,
+   "lon": -5.11019,
+   "population": 73782,
+   "geonameId": "2546917"
+  },
+  {
+   "id": "city:geonames-12718676",
+   "name": "Lahraouyine",
+   "aliases": [],
+   "lat": 33.54138,
+   "lon": -7.52848,
+   "population": 70783,
+   "geonameId": "12718676"
+  },
+  {
+   "id": "city:geonames-2542987",
+   "name": "Martil",
+   "aliases": [
+    "Rio Martin",
+    "Rio Martine",
+    "Río Martín",
+    "Wad Martin",
+    "Wād Martīn"
+   ],
+   "lat": 35.61662,
+   "lon": -5.27522,
+   "population": 70274,
+   "geonameId": "2542987"
+  },
+  {
+   "id": "city:geonames-2560841",
+   "name": "Aïn Harrouda",
+   "aliases": [
+    "Ain Harrouda",
+    "Ain el Harrouda",
+    "Aïn el Harrouda"
+   ],
+   "lat": 33.63737,
+   "lon": -7.44971,
+   "population": 68161,
+   "geonameId": "2560841"
+  },
+  {
+   "id": "city:geonames-2532412",
+   "name": "Souq Sebt Oulad Nemma",
+   "aliases": [
+    "Es Sebt",
+    "Souk Sebt des Oulad Nemaa",
+    "Souk Sebt des Oulad Nemâa",
+    "Souk es Sebt"
+   ],
+   "lat": 32.2973,
+   "lon": -6.70301,
+   "population": 65601,
+   "geonameId": "2532412"
+  },
+  {
+   "id": "city:geonames-2562055",
+   "name": "Skhirate",
+   "aliases": [
+    "Ac Ckhirat",
+    "Aç Çkhirat",
+    "Kasba Skira",
+    "Minaret de Skhirat",
+    "Skhirat"
+   ],
+   "lat": 33.8527,
+   "lon": -7.03171,
+   "population": 65272,
+   "geonameId": "2562055"
+  },
+  {
+   "id": "city:geonames-2540810",
+   "name": "Ouezzane",
+   "aliases": [
+    "Ouazzane",
+    "Quazzane",
+    "Uazan",
+    "Uazán",
+    "Wazzan"
+   ],
+   "lat": 34.79584,
+   "lon": -5.57849,
+   "population": 65088,
+   "geonameId": "2540810"
+  },
+  {
+   "id": "city:geonames-2555519",
+   "name": "Benslimane",
+   "aliases": [
+    "Ben Sliman",
+    "Ben Slimán",
+    "Bouhault",
+    "Boulhaut",
+    "Boulhout",
+    "Camp Boulhaut",
+    "GMD",
+    "O Ben Slimane"
+   ],
+   "lat": 33.61601,
+   "lon": -7.12153,
+   "population": 62352,
+   "geonameId": "2555519"
+  },
+  {
+   "id": "city:geonames-2555882",
+   "name": "Beni Enzar",
+   "aliases": [
+    "Beni Anzar",
+    "Beni Ensar",
+    "ⴱⵏⵉ ⵏⵚⴰⵔ"
+   ],
+   "lat": 35.26,
+   "lon": -2.93,
+   "population": 61786,
+   "geonameId": "2555882"
+  },
+  {
+   "id": "city:geonames-2542898",
+   "name": "Mdiq",
+   "aliases": [
+    "Al Mediq",
+    "El Medik",
+    "El Rincon",
+    "M'dia",
+    "M'dik",
+    "M'diq",
+    "Mdic",
+    "Mdik",
+    "M’dia",
+    "M’dik",
+    "M’diq",
+    "Ricon el Medik",
+    "Rincon",
+    "Rincon de El Medik",
+    "Rincon de Medik",
+    "Rincon del Medik",
+    "Rincon el Madik",
+    "Rincón de Medik",
+    "Rincón del Medik",
+    "Rincón el Madik",
+    "Мдик"
+   ],
+   "lat": 35.68313,
+   "lon": -5.32871,
+   "population": 61398,
+   "geonameId": "2542898"
+  },
+  {
+   "id": "city:geonames-2536074",
+   "name": "Sidi Bennour",
+   "aliases": [],
+   "lat": 32.65236,
+   "lon": -8.42769,
+   "population": 60948,
+   "geonameId": "2536074"
+  },
+  {
+   "id": "city:geonames-2542227",
+   "name": "Midelt",
+   "aliases": [],
+   "lat": 32.6852,
+   "lon": -4.74512,
+   "population": 60390,
+   "geonameId": "2542227"
+  },
+  {
+   "id": "city:geonames-2556464",
+   "name": "Azrou",
+   "aliases": [
+    "Azru",
+    "Azrú",
+    "ai zi lu",
+    "azrw",
+    "Азру",
+    "أزرو",
+    "ازرو",
+    "艾茲魯"
+   ],
+   "lat": 33.43443,
+   "lon": -5.22126,
+   "population": 59348,
+   "geonameId": "2556464"
+  },
+  {
+   "id": "city:geonames-2527645",
+   "name": "Tirhanimîne",
+   "aliases": [
+    "Tirhanimine"
+   ],
+   "lat": 35.23619,
+   "lon": -3.95453,
+   "population": 55827,
+   "geonameId": "2527645"
+  },
+  {
+   "id": "city:geonames-10375207",
+   "name": "My Drarga",
+   "aliases": [],
+   "lat": 30.37733,
+   "lon": -9.47342,
+   "population": 55631,
+   "geonameId": "10375207"
+  },
+  {
+   "id": "city:geonames-2560939",
+   "name": "Ain El Aouda",
+   "aliases": [
+    "'Ain al 'Awda",
+    "'Ain el 'Aouda",
+    "Ain el Aouda",
+    "Ain el Apuda",
+    "Aïn el Aouda",
+    "Aïn el Apuda",
+    "’Aïn al ’Awda",
+    "’Aïn el ’Aouda"
+   ],
+   "lat": 33.80333,
+   "lon": -6.79461,
+   "population": 54397,
+   "geonameId": "2560939"
+  },
+  {
+   "id": "city:geonames-2555567",
+   "name": "Ben Jerrar",
+   "aliases": [
+    "Ben Jarrar Ait Amira",
+    "Ben Jarrar Aït Amira",
+    "Ben Jerra",
+    "Zaouia Ben Jerrar"
+   ],
+   "lat": 30.26224,
+   "lon": -9.50377,
+   "population": 53026,
+   "geonameId": "2555567"
+  },
+  {
+   "id": "city:geonames-2552292",
+   "name": "Ad Darwa",
+   "aliases": [
+    "Deroua",
+    "Derroua"
+   ],
+   "lat": 33.37487,
+   "lon": -7.5356,
+   "population": 52108,
+   "geonameId": "2552292"
+  },
+  {
+   "id": "city:geonames-2542013",
+   "name": "Al Aaroui",
+   "aliases": [
+    "Mont Arrouit",
+    "Mont-Aroui",
+    "Mont-Arruit",
+    "Monte 'Arrouit",
+    "Monte Arruit",
+    "Monte ’Arrouit"
+   ],
+   "lat": 35.0109,
+   "lon": -3.00938,
+   "population": 51976,
+   "geonameId": "2542013"
+  },
+  {
+   "id": "city:geonames-2544720",
+   "name": "Kasba Tadla",
+   "aliases": [
+    "Kasbah Tadla",
+    "Tadla"
+   ],
+   "lat": 32.5977,
+   "lon": -6.26844,
+   "population": 51697,
+   "geonameId": "2544720"
+  },
+  {
+   "id": "city:geonames-12718663",
+   "name": "Bejaâd",
+   "aliases": [
+    "Bejaad"
+   ],
+   "lat": 32.77133,
+   "lon": -6.39231,
+   "population": 51206,
+   "geonameId": "12718663"
+  },
+  {
+   "id": "city:geonames-10797349",
+   "name": "Sidi Taibi",
+   "aliases": [],
+   "lat": 34.18698,
+   "lon": -6.68176,
+   "population": 51050,
+   "geonameId": "10797349"
+  },
+  {
+   "id": "city:geonames-2545017",
+   "name": "Jerada",
+   "aliases": [
+    "Djerada",
+    "Dzherada",
+    "Jarada",
+    "Джерада",
+    "ⵊⴻⵔⴰⴷⴰ"
+   ],
+   "lat": 34.31,
+   "lon": -2.16,
+   "population": 47507,
+   "geonameId": "2545017"
+  },
+  {
+   "id": "city:geonames-2553455",
+   "name": "Chefchaouen",
+   "aliases": [
+    "Chaouen",
+    "Chaouèn",
+    "Chauen",
+    "Chechaouen",
+    "Chechaouene",
+    "Chechaouèn",
+    "Chefchaouene",
+    "Chichaouene",
+    "Ech Chaouene",
+    "Scheschauen",
+    "Shefshauen",
+    "Ville de Chechaouen",
+    "Ville de Chechaouèn",
+    "Xauen",
+    "Xexauen",
+    "shfshawn",
+    "Шефшауен",
+    "شفشاون"
+   ],
+   "lat": 35.16878,
+   "lon": -5.2636,
+   "population": 46721,
+   "geonameId": "2553455"
+  },
+  {
+   "id": "city:geonames-2545069",
+   "name": "Mrirt",
+   "aliases": [
+    "Djemaa de Mrirt",
+    "Ej Jema de Mrirt",
+    "Ej Jemâ de Mrirt",
+    "Jema de Mrirt",
+    "Jemaa de Mrirt",
+    "Jemaa del Mrirt",
+    "Jemâ de Mrirt",
+    "Souk Jemaa de Mrirt"
+   ],
+   "lat": 33.16427,
+   "lon": -5.56722,
+   "population": 46660,
+   "geonameId": "2545069"
+  },
+  {
+   "id": "city:geonames-2527915",
+   "name": "Tinghir",
+   "aliases": [
+    "Tineghir",
+    "Tinerhir",
+    "Tinrhir"
+   ],
+   "lat": 31.51472,
+   "lon": -5.53278,
+   "population": 45911,
+   "geonameId": "2527915"
+  },
+  {
+   "id": "city:geonames-2550806",
+   "name": "El Aïoun",
+   "aliases": [
+    "El Aioun",
+    "Aioun Sidi Mellouk",
+    "Al 'Youn",
+    "Al ’Youn",
+    "El Aioun Sidi Mellouk",
+    "El Aïoun Sidi Mellouk",
+    "ⵍⵄⵢⵓⵏ",
+    "ⵍⵄⵢⵓⵏ ⵙⵉⴷⵉ ⵎⵍⵍⵓⴽ"
+   ],
+   "lat": 34.58319,
+   "lon": -2.50612,
+   "population": 45679,
+   "geonameId": "2550806"
+  },
+  {
+   "id": "city:geonames-2556657",
+   "name": "Azemmour",
+   "aliases": [
+    "Azamor",
+    "Azimur",
+    "Azzegour"
+   ],
+   "lat": 33.28952,
+   "lon": -8.3425,
+   "population": 44683,
+   "geonameId": "2556657"
+  },
+  {
+   "id": "city:geonames-2532394",
+   "name": "Souq Larb’a al Gharb",
+   "aliases": [
+    "Souq Larb'a al Gharb",
+    "El Arba du Gharb",
+    "El Arba du Rharb",
+    "El Arbaa du Rharb",
+    "El Arboa du Rharb",
+    "Souk-el-Arba-du-Gharb"
+   ],
+   "lat": 34.68664,
+   "lon": -6.00272,
+   "population": 44059,
+   "geonameId": "2532394"
+  },
+  {
+   "id": "city:geonames-2526452",
+   "name": "Zagora",
+   "aliases": [
+    "OZG",
+    "Загора"
+   ],
+   "lat": 30.33241,
+   "lon": -5.8384,
+   "population": 43752,
+   "geonameId": "2526452"
+  },
+  {
+   "id": "city:geonames-2559217",
+   "name": "Ait Ourir",
+   "aliases": [
+    "Ait Urir",
+    "Aït Ourir",
+    "Et Tleta",
+    "Tleta des Ait Ourir"
+   ],
+   "lat": 31.56517,
+   "lon": -7.66163,
+   "population": 42705,
+   "geonameId": "2559217"
+  },
+  {
+   "id": "city:geonames-2556570",
+   "name": "Azilal",
+   "aliases": [
+    "Arilal",
+    "Asila",
+    "Asilal"
+   ],
+   "lat": 31.96156,
+   "lon": -6.57109,
+   "population": 42062,
+   "geonameId": "2556570"
+  },
+  {
+   "id": "city:geonames-2461874",
+   "name": "Smara",
+   "aliases": [
+    "Asmara",
+    "Es-Semara",
+    "Es-Smara",
+    "Esmara",
+    "SMW",
+    "Semara",
+    "Smar",
+    "alsmarh",
+    "alsmart",
+    "camara",
+    "seumala",
+    "si ma la",
+    "sma ra",
+    "smara",
+    "smarh",
+    "sumara",
+    "Σμάρα",
+    "Ес-Семара",
+    "Смара",
+    "Смара қаласы",
+    "סמארה",
+    "السمارة",
+    "السماره",
+    "سمارا",
+    "سماره",
+    "स्मारा",
+    "স্মারা",
+    "સ્મારા",
+    "சமாரா",
+    "స్మర",
+    "ಸ್ಮಾರ",
+    "ස්මරා",
+    "สมารา",
+    "スマラ",
+    "斯馬拉",
+    "斯马拉",
+    "스마라"
+   ],
+   "lat": 26.73841,
+   "lon": -11.67194,
+   "population": 42056,
+   "geonameId": "2461874"
+  },
+  {
+   "id": "city:geonames-2532822",
+   "name": "Sidi Yahia El Gharb",
+   "aliases": [
+    "Sidi Yahia al Gharb",
+    "Sidi Yahia del Garb",
+    "Sidi Yahia el Rharb",
+    "Sidi Yahya du Rharb",
+    "Sidi Yanya du Rharb",
+    "Sidi Yaya du Rhanb",
+    "Sïdi Yaya du Rhanb"
+   ],
+   "lat": 34.30494,
+   "lon": -6.30404,
+   "population": 41472,
+   "geonameId": "2532822"
+  },
+  {
+   "id": "city:geonames-10374981",
+   "name": "Tine Biougra",
+   "aliases": [],
+   "lat": 30.20942,
+   "lon": -9.37922,
+   "population": 41421,
+   "geonameId": "10374981"
+  },
+  {
+   "id": "city:geonames-2530155",
+   "name": "Taounate",
+   "aliases": [
+    "Taounat",
+    "Taunat",
+    "Tawnat",
+    "Таунат"
+   ],
+   "lat": 34.53661,
+   "lon": -4.64009,
+   "population": 41075,
+   "geonameId": "2530155"
+  },
+  {
+   "id": "city:geonames-2553751",
+   "name": "Bouznika",
+   "aliases": [
+    "Bouzhika",
+    "Bouzniqa",
+    "Buznike",
+    "Kasba bou Znika",
+    "Бузнике"
+   ],
+   "lat": 33.78942,
+   "lon": -7.15968,
+   "population": 40663,
+   "geonameId": "2553751"
+  },
+  {
+   "id": "city:geonames-12718675",
+   "name": "Had Soualem",
+   "aliases": [],
+   "lat": 33.41972,
+   "lon": -7.85237,
+   "population": 40146,
+   "geonameId": "12718675"
+  },
+  {
+   "id": "city:geonames-2550898",
+   "name": "Imzouren",
+   "aliases": [
+    "Ain Zoren",
+    "Amzourhen-Khemis-Mrabten",
+    "Amzourhèn-Khémis-Mrabtèn",
+    "Aïn Zorèn",
+    "Eimoren",
+    "Einzoren",
+    "Einzorene",
+    "Imsouren",
+    "Imzourene",
+    "Imzoûrene",
+    "Izourene"
+   ],
+   "lat": 35.14637,
+   "lon": -3.85063,
+   "population": 40000,
+   "geonameId": "2550898"
+  },
+  {
+   "id": "city:geonames-2526435",
+   "name": "Zaïo",
+   "aliases": [
+    "Zaio",
+    "Toumiat Zaio",
+    "Toumiat Zaïo",
+    "Tumiat",
+    "Tumiat Zaio",
+    "ⵣⴰⵢⵢⵓ"
+   ],
+   "lat": 34.94282,
+   "lon": -2.7329,
+   "population": 39099,
+   "geonameId": "2526435"
+  },
+  {
+   "id": "city:geonames-2557500",
+   "name": "Aourir",
+   "aliases": [],
+   "lat": 30.49238,
+   "lon": -9.6355,
+   "population": 38617,
+   "geonameId": "2557500"
+  },
+  {
+   "id": "city:geonames-2550252",
+   "name": "El Hajeb",
+   "aliases": [],
+   "lat": 33.68786,
+   "lon": -5.371,
+   "population": 38527,
+   "geonameId": "2550252"
+  },
+  {
+   "id": "city:geonames-2537538",
+   "name": "Zeghanghane",
+   "aliases": [
+    "Segangan",
+    "Segangane",
+    "ⴰⵣⵖⴰⵏⵖⴰⵏ"
+   ],
+   "lat": 35.15561,
+   "lon": -3.00236,
+   "population": 37154,
+   "geonameId": "2537538"
+  },
+  {
+   "id": "city:geonames-2556076",
+   "name": "Ben Ahmed",
+   "aliases": [
+    "Benahmed",
+    "Kasba Ben Ahmed"
+   ],
+   "lat": 33.06635,
+   "lon": -7.24161,
+   "population": 36149,
+   "geonameId": "2556076"
+  },
+  {
+   "id": "city:geonames-2527271",
+   "name": "Tit Mellil",
+   "aliases": [],
+   "lat": 33.55808,
+   "lon": -7.48647,
+   "population": 35797,
+   "geonameId": "2527271"
+  },
+  {
+   "id": "city:geonames-2542866",
+   "name": "Mechraa Bel Ksiri",
+   "aliases": [
+    "Ksiri",
+    "Mechra Belqsiri",
+    "Mechra al Ksiri",
+    "Mechra-bel-Kairi",
+    "Mechrá Belqsiri"
+   ],
+   "lat": 34.57373,
+   "lon": -5.95585,
+   "population": 34393,
+   "geonameId": "2542866"
+  },
+  {
+   "id": "city:geonames-2557055",
+   "name": "Asilah",
+   "aliases": [
+    "Arcila",
+    "Arcilas",
+    "Arsila",
+    "Arzila",
+    "Arzilah",
+    "Arzīlah",
+    "Asila",
+    "Asilakh",
+    "Assila",
+    "Assilah",
+    "Augusta Zilil",
+    "Aṣīla",
+    "Colonia Augusti Iulia Constantia Zilil",
+    "Ville d'Arcila",
+    "Ville d’Arcila",
+    "ashira",
+    "asilla",
+    "asylh",
+    "asylt",
+    "sylt",
+    "Асила",
+    "Асилах",
+    "أصيلة",
+    "اصیله",
+    "صيلة",
+    "アシラー",
+    "아실라"
+   ],
+   "lat": 35.46522,
+   "lon": -6.03415,
+   "population": 34011,
+   "geonameId": "2557055"
+  },
+  {
+   "id": "city:geonames-2532171",
+   "name": "Tabount",
+   "aliases": [],
+   "lat": 30.90321,
+   "lon": -6.91579,
+   "population": 33929,
+   "geonameId": "2532171"
+  },
+  {
+   "id": "city:geonames-12718681",
+   "name": "Laâttaouia",
+   "aliases": [
+    "Laattaouia"
+   ],
+   "lat": 31.83532,
+   "lon": -7.31431,
+   "population": 33103,
+   "geonameId": "12718681"
+  },
+  {
+   "id": "city:geonames-12718684",
+   "name": "Sidi Slimane Echcharaa",
+   "aliases": [
+    "ⵙⵉⴷⵙ ⵙⵍⵉⵎⴰⵏ"
+   ],
+   "lat": 34.90818,
+   "lon": -2.35055,
+   "population": 32979,
+   "geonameId": "12718684"
+  },
+  {
+   "id": "city:geonames-2552317",
+   "name": "Demnate",
+   "aliases": [
+    "Demnat",
+    "Demnot"
+   ],
+   "lat": 31.73443,
+   "lon": -7.00505,
+   "population": 32217,
+   "geonameId": "2552317"
+  },
+  {
+   "id": "city:geonames-2549356",
+   "name": "Arfoud",
+   "aliases": [
+    "Ehrfud",
+    "Erfoud",
+    "Эрфуд"
+   ],
+   "lat": 31.4353,
+   "lon": -4.23258,
+   "population": 31971,
+   "geonameId": "2549356"
+  },
+  {
+   "id": "city:geonames-2555157",
+   "name": "Bouarfa",
+   "aliases": [
+    "Bordj de Bou Arfa",
+    "Bou Arfa",
+    "Buarfa",
+    "UAR"
+   ],
+   "lat": 32.53379,
+   "lon": -1.96209,
+   "population": 31499,
+   "geonameId": "2555157"
+  },
+  {
+   "id": "city:geonames-2532421",
+   "name": "Souk et Tnine Jorf el Mellah",
+   "aliases": [
+    "El Zoco el Tenin de Yorf el-lah",
+    "Et Tnine Jorf el Mellah",
+    "Jorf-el-Melha",
+    "Souk et Tnine Djorf el Mellah"
+   ],
+   "lat": 34.49162,
+   "lon": -5.50846,
+   "population": 31318,
+   "geonameId": "2532421"
+  },
+  {
+   "id": "city:geonames-2542768",
+   "name": "Mehdya",
+   "aliases": [
+    "Mahdia Plage",
+    "Media",
+    "Mehdaia",
+    "Mehdia",
+    "Mehdia-Plage",
+    "Mehdiya",
+    "Mehdya-Port",
+    "Mehedia",
+    "Mehediya",
+    "Mehediyah",
+    "Mehedyia",
+    "Mendiya-Plage",
+    "Plage",
+    "Plage de Mehdia"
+   ],
+   "lat": 34.25596,
+   "lon": -6.67345,
+   "population": 31269,
+   "geonameId": "2542768"
+  },
+  {
+   "id": "city:geonames-2560774",
+   "name": "Aïn Taoujdat",
+   "aliases": [
+    "Ain Taoujdat",
+    "Ain Taoudjad",
+    "Ain Taoudjat",
+    "Ain Taoujat",
+    "Ain Taoujdate",
+    "Ait Taoujdate",
+    "Aïn Taoudjad",
+    "Aïn Taoudjat",
+    "Aïn Taoujat",
+    "Aïn Taoujdate",
+    "Aït Taoujdate"
+   ],
+   "lat": 33.93575,
+   "lon": -5.21328,
+   "population": 30889,
+   "geonameId": "2560774"
+  },
+  {
+   "id": "city:geonames-8299790",
+   "name": "Tamesna",
+   "aliases": [],
+   "lat": 33.81809,
+   "lon": -6.91658,
+   "population": 30705,
+   "geonameId": "8299790"
+  },
+  {
+   "id": "city:geonames-10375138",
+   "name": "Oadar Temsia",
+   "aliases": [
+    "Temsia"
+   ],
+   "lat": 30.36531,
+   "lon": -9.41044,
+   "population": 30526,
+   "geonameId": "10375138"
+  },
+  {
+   "id": "city:geonames-2553303",
+   "name": "Chichaoua",
+   "aliases": [
+    "Chichaua",
+    "Mzala Chichaoua"
+   ],
+   "lat": 31.54351,
+   "lon": -8.76275,
+   "population": 30432,
+   "geonameId": "2553303"
+  },
+  {
+   "id": "city:geonames-2531480",
+   "name": "Tahla",
+   "aliases": [
+    "El Ayba Tahalla",
+    "Tahala"
+   ],
+   "lat": 34.04965,
+   "lon": -4.42162,
+   "population": 30279,
+   "geonameId": "2531480"
+  },
+  {
+   "id": "city:geonames-11025266",
+   "name": "Sabaa Aiyoun",
+   "aliases": [],
+   "lat": 33.90331,
+   "lon": -5.36868,
+   "population": 28693,
+   "geonameId": "11025266"
+  },
+  {
+   "id": "city:geonames-2538059",
+   "name": "Rich",
+   "aliases": [],
+   "lat": 32.25644,
+   "lon": -4.50152,
+   "population": 28382,
+   "geonameId": "2538059"
+  },
+  {
+   "id": "city:geonames-2542147",
+   "name": "Missour",
+   "aliases": [
+    "Misour"
+   ],
+   "lat": 33.04893,
+   "lon": -3.98947,
+   "population": 27937,
+   "geonameId": "2542147"
+  },
+  {
+   "id": "city:geonames-2526359",
+   "name": "Zawyat ech Cheïkh",
+   "aliases": [
+    "Zawyat ech Cheikh",
+    "Zaouia ech Cheikh",
+    "Zaouia ech Cheïkh",
+    "Zavijja ash Shejkh",
+    "Zouiat ech Cheikh",
+    "Zouiat ech Cheïkh",
+    "Завийя аш Шейх"
+   ],
+   "lat": 32.64445,
+   "lon": -5.91826,
+   "population": 27723,
+   "geonameId": "2526359"
+  },
+  {
+   "id": "city:geonames-2535530",
+   "name": "Bouknadel",
+   "aliases": [
+    "Bou Knadel",
+    "Buknadel",
+    "Sidi Bou Knadel",
+    "Sidi Bouqnadel"
+   ],
+   "lat": 34.11849,
+   "lon": -6.7389,
+   "population": 27577,
+   "geonameId": "2535530"
+  },
+  {
+   "id": "city:geonames-12718687",
+   "name": "Aïn Attig",
+   "aliases": [
+    "Ain Attig"
+   ],
+   "lat": 33.88758,
+   "lon": -6.96807,
+   "population": 27384,
+   "geonameId": "12718687"
+  },
+  {
+   "id": "city:geonames-8504943",
+   "name": "Tamansourt",
+   "aliases": [],
+   "lat": 31.755,
+   "lon": -8.11,
+   "population": 27383,
+   "geonameId": "8504943"
+  },
+  {
+   "id": "city:geonames-2553382",
+   "name": "Echemmaia Est",
+   "aliases": [
+    "Chemaia",
+    "Chemaïa",
+    "Kasba el Chemaia",
+    "Kasba el Chemaïa"
+   ],
+   "lat": 32.08102,
+   "lon": -8.62458,
+   "population": 26538,
+   "geonameId": "2553382"
+  },
+  {
+   "id": "city:geonames-2540180",
+   "name": "Oulad Barhil",
+   "aliases": [
+    "Ksar Oulad Abbou",
+    "Oulad Abbou",
+    "Oulad Barrehil",
+    "Oulad Ber Rehil"
+   ],
+   "lat": 30.64042,
+   "lon": -8.46875,
+   "population": 26521,
+   "geonameId": "2540180"
+  },
+  {
+   "id": "city:geonames-2555342",
+   "name": "Bir Jdid",
+   "aliases": [
+    "Bir Jdid Chavent",
+    "Bir Jedid Chavent",
+    "Bir Jedid Saint-Hubert",
+    "Bir Jedíd Saint-Hubert"
+   ],
+   "lat": 33.37362,
+   "lon": -7.99462,
+   "population": 26355,
+   "geonameId": "2555342"
+  },
+  {
+   "id": "city:geonames-2540207",
+   "name": "Oulad Ayad",
+   "aliases": [],
+   "lat": 32.2,
+   "lon": -6.8,
+   "population": 26008,
+   "geonameId": "2540207"
+  },
+  {
+   "id": "city:geonames-2541210",
+   "name": "Zawyat an Nwaçer",
+   "aliases": [
+    "Zawyat an Nwacer",
+    "Nouaceur",
+    "Nouaseur",
+    "Nwacer",
+    "Nwaçer"
+   ],
+   "lat": 33.37981,
+   "lon": -7.61932,
+   "population": 25991,
+   "geonameId": "2541210"
+  },
+  {
+   "id": "city:geonames-2537368",
+   "name": "Gueznaia",
+   "aliases": [
+    "Badriouene",
+    "Gzanaia",
+    "Gzanaïa",
+    "Gzennaia",
+    "Gzennaïa",
+    "Sgouennaia"
+   ],
+   "lat": 35.70211,
+   "lon": -5.89044,
+   "population": 25771,
+   "geonameId": "2537368"
+  },
+  {
+   "id": "city:geonames-2542826",
+   "name": "Mediouna",
+   "aliases": [],
+   "lat": 33.45161,
+   "lon": -7.51995,
+   "population": 24506,
+   "geonameId": "2542826"
+  },
+  {
+   "id": "city:geonames-12718664",
+   "name": "Moulay Ali Cherif",
+   "aliases": [],
+   "lat": 31.28244,
+   "lon": -4.26541,
+   "population": 24251,
+   "geonameId": "12718664"
+  },
+  {
+   "id": "city:geonames-2534515",
+   "name": "Sidi Ifni",
+   "aliases": [
+    "Ifni",
+    "SII",
+    "Sidi Ifnis",
+    "Sidi-Ifni",
+    "Sidifni",
+    "sidiipeuni",
+    "sydy afny",
+    "Сиди Ифни",
+    "Сиди-Ифни",
+    "سيدي إفني",
+    "시디이프니"
+   ],
+   "lat": 29.37975,
+   "lon": -10.17299,
+   "population": 23606,
+   "geonameId": "2534515"
+  },
+  {
+   "id": "city:geonames-2537469",
+   "name": "Selouane",
+   "aliases": [
+    "Zelaun",
+    "Zelouan",
+    "Zelouane",
+    "Zeluan",
+    "Zeluán",
+    "ⴱⵍⵡⴰⵏ"
+   ],
+   "lat": 35.07313,
+   "lon": -2.9423,
+   "population": 23553,
+   "geonameId": "2537469"
+  },
+  {
+   "id": "city:geonames-2571932",
+   "name": "Azla",
+   "aliases": [],
+   "lat": 35.55303,
+   "lon": -5.24472,
+   "population": 22985,
+   "geonameId": "2571932"
+  },
+  {
+   "id": "city:geonames-2550419",
+   "name": "El Gara",
+   "aliases": [
+    "Boucheron",
+    "El-Guara"
+   ],
+   "lat": 33.27732,
+   "lon": -7.23236,
+   "population": 22773,
+   "geonameId": "2550419"
+  },
+  {
+   "id": "city:geonames-2546128",
+   "name": "Imi-n-Tanout",
+   "aliases": [
+    "Imi n'Tanout",
+    "Imi n’Tanout",
+    "Imi-N-Tanoute",
+    "Kasba Kahira"
+   ],
+   "lat": 31.17213,
+   "lon": -8.84728,
+   "population": 22753,
+   "geonameId": "2546128"
+  },
+  {
+   "id": "city:geonames-2533182",
+   "name": "Sidi Rahal",
+   "aliases": [],
+   "lat": 33.47739,
+   "lon": -7.93641,
+   "population": 22525,
+   "geonameId": "2533182"
+  },
+  {
+   "id": "city:geonames-2538401",
+   "name": "Ras el Ma",
+   "aliases": [
+    "Domaine de Ras el Ma",
+    "Rasse-Ma"
+   ],
+   "lat": 33.97399,
+   "lon": -5.09613,
+   "population": 22345,
+   "geonameId": "2538401"
+  },
+  {
+   "id": "city:geonames-2526239",
+   "name": "Setti Fatma",
+   "aliases": [
+    "Sette Fatna",
+    "Setti Fadma",
+    "Sti Fadma",
+    "Sti-Fadma",
+    "Zaouia Sti Fatma",
+    "Сти-Фадма"
+   ],
+   "lat": 31.22508,
+   "lon": -7.67751,
+   "population": 22283,
+   "geonameId": "2526239"
+  },
+  {
+   "id": "city:geonames-2549750",
+   "name": "El Ksiba",
+   "aliases": [
+    "Ksiba"
+   ],
+   "lat": 32.57286,
+   "lon": -6.01947,
+   "population": 21840,
+   "geonameId": "2549750"
+  },
+  {
+   "id": "city:geonames-2558428",
+   "name": "El Mansouria",
+   "aliases": [
+    "Al Mancouriya",
+    "Al Mançouriya",
+    "Kasba Mansouriah",
+    "Mansoriyeh",
+    "Mansouria",
+    "Mansouriah",
+    "Minaret de Mansuria"
+   ],
+   "lat": 33.74643,
+   "lon": -7.30194,
+   "population": 21679,
+   "geonameId": "2558428"
+  },
+  {
+   "id": "city:geonames-2561124",
+   "name": "Ahfir",
+   "aliases": [
+    "Martimprey du Kiss",
+    "ⴰⵃⴼⵉⵔ"
+   ],
+   "lat": 34.95368,
+   "lon": -2.10027,
+   "population": 21435,
+   "geonameId": "2561124"
+  },
+  {
+   "id": "city:geonames-2550547",
+   "name": "Al Brouj",
+   "aliases": [
+    "El Borch",
+    "El Borouj"
+   ],
+   "lat": 32.50467,
+   "lon": -7.19238,
+   "population": 21004,
+   "geonameId": "2550547"
+  },
+  {
+   "id": "city:geonames-2546028",
+   "name": "Imouzzer Kandar",
+   "aliases": [
+    "Immouzer",
+    "Imouzzer",
+    "Imouzzer du Kandar"
+   ],
+   "lat": 33.72871,
+   "lon": -5.01092,
+   "population": 20884,
+   "geonameId": "2546028"
+  },
+  {
+   "id": "city:geonames-2551147",
+   "name": "Douar Toulal",
+   "aliases": [
+    "Dar Toulal",
+    "Toulal"
+   ],
+   "lat": 33.88483,
+   "lon": -5.59664,
+   "population": 20831,
+   "geonameId": "2551147"
+  },
+  {
+   "id": "city:geonames-2544821",
+   "name": "Karia Ba Mohamed",
+   "aliases": [
+    "Karia Ba Mohammed"
+   ],
+   "lat": 34.37094,
+   "lon": -5.2138,
+   "population": 20487,
+   "geonameId": "2544821"
+  },
+  {
+   "id": "city:geonames-2538027",
+   "name": "Reçani",
+   "aliases": [
+    "Recani",
+    "Risani",
+    "Rissani",
+    "Рисани"
+   ],
+   "lat": 31.28318,
+   "lon": -4.26565,
+   "population": 20469,
+   "geonameId": "2538027"
+  },
+  {
+   "id": "city:geonames-2529362",
+   "name": "Tata",
+   "aliases": [
+    "Tatta"
+   ],
+   "lat": 29.74409,
+   "lon": -7.973,
+   "population": 20322,
+   "geonameId": "2529362"
+  },
+  {
+   "id": "city:geonames-2537610",
+   "name": "Sebt Gzoula",
+   "aliases": [
+    "Es Sebt",
+    "Es Sebt Gzoula",
+    "Gzoula",
+    "Sebt des Gzoula",
+    "Sebt-Gzoula"
+   ],
+   "lat": 32.10779,
+   "lon": -9.08366,
+   "population": 20248,
+   "geonameId": "2537610"
+  },
+  {
+   "id": "city:geonames-10958491",
+   "name": "Bni Bouayach",
+   "aliases": [
+    "Bni Bojazh",
+    "Бни Бояж"
+   ],
+   "lat": 35.10506,
+   "lon": -3.84028,
+   "population": 19951,
+   "geonameId": "10958491"
+  },
+  {
+   "id": "city:geonames-2558436",
+   "name": "Beni Yakhlef",
+   "aliases": [
+    "Al Luwayziyah",
+    "Al Luwayzīyah",
+    "Al Lwiziya",
+    "Ellouizia",
+    "Elluoizia",
+    "Louizia",
+    "Saint-Jean de Fedala"
+   ],
+   "lat": 33.68407,
+   "lon": -7.33924,
+   "population": 19622,
+   "geonameId": "2558436"
+  },
+  {
+   "id": "city:geonames-2538898",
+   "name": "Oulmes",
+   "aliases": [
+    "Oulmes-Les Thermes",
+    "Oulmès",
+    "Oulmès-Les Thermes",
+    "Ul'mes",
+    "awlmas",
+    "wlmas",
+    "Ульмес",
+    "أولماس",
+    "ولماس"
+   ],
+   "lat": 33.42585,
+   "lon": -6.00137,
+   "population": 19014,
+   "geonameId": "2538898"
+  },
+  {
+   "id": "city:geonames-2557533",
+   "name": "Aoulouz",
+   "aliases": [
+    "Dar Caid",
+    "Dar Caïd"
+   ],
+   "lat": 30.67307,
+   "lon": -8.18087,
+   "population": 19010,
+   "geonameId": "2557533"
+  },
+  {
+   "id": "city:geonames-2557019",
+   "name": "Asni",
+   "aliases": [],
+   "lat": 31.24653,
+   "lon": -7.9789,
+   "population": 18674,
+   "geonameId": "2557019"
+  },
+  {
+   "id": "city:geonames-2549981",
+   "name": "Kelaat Mgouna",
+   "aliases": [
+    "El Kelaa",
+    "El Kelaa des Mgouna",
+    "Kelaat Mguna",
+    "Qala'at Mgouna",
+    "Qala’at Mgouna",
+    "Келаат Мгуна"
+   ],
+   "lat": 31.24573,
+   "lon": -6.1326,
+   "population": 18515,
+   "geonameId": "2549981"
+  },
+  {
+   "id": "city:geonames-12718680",
+   "name": "Méchouar-Kasba",
+   "aliases": [
+    "Mechouar-Kasba"
+   ],
+   "lat": 31.6008,
+   "lon": -7.98653,
+   "population": 18410,
+   "geonameId": "12718680"
+  },
+  {
+   "id": "city:geonames-2596460",
+   "name": "Ribat Al Khayr",
+   "aliases": [
+    "Ribat al Kheir",
+    "Ribat el Kheir"
+   ],
+   "lat": 33.81518,
+   "lon": -4.40717,
+   "population": 18278,
+   "geonameId": "2596460"
+  },
+  {
+   "id": "city:geonames-2561358",
+   "name": "Agouraï",
+   "aliases": [
+    "Agourai"
+   ],
+   "lat": 33.63,
+   "lon": -5.58,
+   "population": 18182,
+   "geonameId": "2561358"
+  },
+  {
+   "id": "city:geonames-2530704",
+   "name": "Tamallalt",
+   "aliases": [
+    "Kasba Tamlalt el Djedid",
+    "Tamelelt",
+    "Tamelelt Jdida",
+    "Tamelelt el Jedid",
+    "Tamelelte el Djedid",
+    "Tamelet ej Jdid",
+    "Tamelet el Djedid",
+    "Tamelit ej Jedid"
+   ],
+   "lat": 31.81897,
+   "lon": -7.51446,
+   "population": 18060,
+   "geonameId": "2530704"
+  },
+  {
+   "id": "city:geonames-2548623",
+   "name": "Goulmima",
+   "aliases": [
+    "Goulmina",
+    "Guelmina",
+    "Kulmima",
+    "Kulmīma",
+    "klmymt",
+    "كلميمة"
+   ],
+   "lat": 31.69227,
+   "lon": -4.95256,
+   "population": 17929,
+   "geonameId": "2548623"
+  },
+  {
+   "id": "city:geonames-2538573",
+   "name": "Outat Oulad Al Haj",
+   "aliases": [
+    "Outat Oulad el Hajj",
+    "Outat el Hadj",
+    "Outat el Haj",
+    "Outat el Hajj"
+   ],
+   "lat": 33.34499,
+   "lon": -3.70387,
+   "population": 17895,
+   "geonameId": "2538573"
+  },
+  {
+   "id": "city:geonames-2560922",
+   "name": "Aïn Beni Mathar",
+   "aliases": [
+    "Ain Beni Mathar",
+    "Ajn Bni Matar",
+    "Beni Mattar Ahel Ras-el-Ain",
+    "Berguent",
+    "Ras el Ain des Beni Mathar",
+    "Ras el Aïn des Beni Mathar",
+    "Айн Бни Матар"
+   ],
+   "lat": 34.0097,
+   "lon": -2.03238,
+   "population": 17787,
+   "geonameId": "2560922"
+  },
+  {
+   "id": "city:geonames-6546693",
+   "name": "Boujniba",
+   "aliases": [
+    "Boujniba (Commune Urbaine)",
+    "Boujniba (MU)",
+    "ابي الجعد (البلدية)"
+   ],
+   "lat": 32.90046,
+   "lon": -6.77464,
+   "population": 17504,
+   "geonameId": "6546693"
+  },
+  {
+   "id": "city:geonames-12718686",
+   "name": "Mers El Kheir",
+   "aliases": [],
+   "lat": 33.86262,
+   "lon": -6.92964,
+   "population": 17352,
+   "geonameId": "12718686"
+  },
+  {
+   "id": "city:geonames-2536392",
+   "name": "Sidi Allal El Bahraoui",
+   "aliases": [
+    "Monod",
+    "Sidi Allal al Bahrawi",
+    "Sidi-Allal-Bahraoui"
+   ],
+   "lat": 34.0077,
+   "lon": -6.53082,
+   "population": 17325,
+   "geonameId": "2536392"
+  },
+  {
+   "id": "city:geonames-2543667",
+   "name": "Lalla Mimouna",
+   "aliases": [
+    "Lal-la Mimuna",
+    "Lalla miouna-adachra"
+   ],
+   "lat": 34.84606,
+   "lon": -6.06645,
+   "population": 17217,
+   "geonameId": "2543667"
+  },
+  {
+   "id": "city:geonames-2554281",
+   "name": "Boumia",
+   "aliases": [],
+   "lat": 32.7236,
+   "lon": -5.1025,
+   "population": 17091,
+   "geonameId": "2554281"
+  },
+  {
+   "id": "city:geonames-2550162",
+   "name": "El Harhoura",
+   "aliases": [
+    "Miramar"
+   ],
+   "lat": 33.94483,
+   "lon": -6.93106,
+   "population": 16773,
+   "geonameId": "2550162"
+  },
+  {
+   "id": "city:geonames-2542230",
+   "name": "Midar",
+   "aliases": [
+    "Arba Laazib Midar",
+    "Azib de Midar",
+    "El Arba de Midar",
+    "Soko Arbaa Laazib Midar",
+    "Мидар"
+   ],
+   "lat": 34.94025,
+   "lon": -3.53311,
+   "population": 16402,
+   "geonameId": "2542230"
+  },
+  {
+   "id": "city:geonames-2550985",
+   "name": "Driouch",
+   "aliases": [
+    "Dar Driuch",
+    "Dar Drius"
+   ],
+   "lat": 34.97705,
+   "lon": -3.37902,
+   "population": 16096,
+   "geonameId": "2550985"
+  },
+  {
+   "id": "city:geonames-2556996",
+   "name": "Assa",
+   "aliases": [
+    "Zaouia Assa"
+   ],
+   "lat": 28.60986,
+   "lon": -9.42986,
+   "population": 15910,
+   "geonameId": "2556996"
+  },
+  {
+   "id": "city:geonames-2558052",
+   "name": "Amizmiz",
+   "aliases": [
+    "Amimiz",
+    "Amismiz"
+   ],
+   "lat": 31.21673,
+   "lon": -8.23184,
+   "population": 15685,
+   "geonameId": "2558052"
+  },
+  {
+   "id": "city:geonames-2558844",
+   "name": "Ait Yazza",
+   "aliases": [
+    "Ait Lazza",
+    "Aït Lazza",
+    "Aït Yazza",
+    "Yazza"
+   ],
+   "lat": 30.50188,
+   "lon": -8.79917,
+   "population": 15570,
+   "geonameId": "2558844"
+  },
+  {
+   "id": "city:geonames-2555504",
+   "name": "Ben Taieb",
+   "aliases": [
+    "Ben Tieb",
+    "Ben-Tib"
+   ],
+   "lat": 35.04427,
+   "lon": -3.45418,
+   "population": 15568,
+   "geonameId": "2555504"
+  },
+  {
+   "id": "city:geonames-2554594",
+   "name": "Bou Izakarn",
+   "aliases": [
+    "Bou Izakaren",
+    "Bou Izakarene",
+    "Bu Isacarn"
+   ],
+   "lat": 29.17705,
+   "lon": -9.71181,
+   "population": 15536,
+   "geonameId": "2554594"
+  },
+  {
+   "id": "city:geonames-2539139",
+   "name": "Oulad Tayeb",
+   "aliases": [
+    "Ulad Tajib",
+    "Улад Тайиб"
+   ],
+   "lat": 33.94633,
+   "lon": -4.99509,
+   "population": 15491,
+   "geonameId": "2539139"
+  },
+  {
+   "id": "city:geonames-2561290",
+   "name": "Aguelmous",
+   "aliases": [
+    "Aguelmouss"
+   ],
+   "lat": 33.16139,
+   "lon": -5.84626,
+   "population": 15480,
+   "geonameId": "2561290"
+  }
+ ]
+}

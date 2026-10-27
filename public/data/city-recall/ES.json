@@ -1,0 +1,9961 @@
+{
+ "country": "country:ES",
+ "cities": [
+  {
+   "id": "city:ES-madrid",
+   "name": "Madrid",
+   "aliases": [
+    "La Villa y Corte de Madrid",
+    "Los Madriles",
+    "Lungsod ng Madrid",
+    "MAD",
+    "Ma-daik-li",
+    "Ma-tet-li",
+    "Madrid osh",
+    "Madridas",
+    "Madride",
+    "Madridi",
+    "Madrido",
+    "Madrids",
+    "Madril",
+    "Madrit",
+    "Madrite",
+    "Madryd",
+    "Madryt",
+    "Madríd",
+    "Madrîd",
+    "Magerit",
+    "Maidrid",
+    "Mairil",
+    "Makelika",
+    "Matrit",
+    "Matritum",
+    "Mâ-tet-lî",
+    "Mā-dáik-lī",
+    "ma de li",
+    "madarida",
+    "madeulideu",
+    "madorido",
+    "madorido shi",
+    "madri",
+    "madrid",
+    "madrida",
+    "madridi",
+    "madryd",
+    "matrit",
+    "mdryd",
+    "myadrida",
+    "mydrd",
+    "Μαδρίτη",
+    "Мaдрид",
+    "Мадрид",
+    "Мадрид ош",
+    "Мадрыд",
+    "Мадрід",
+    "Մադրիդ",
+    "Մատրիտ",
+    "מאדריד",
+    "מדריד",
+    "مادرىد",
+    "مادرید",
+    "مدريد",
+    "میدرد",
+    "مەدرید",
+    "ܡܕܪܝܕ",
+    "मद्रिद",
+    "मद्रिद्",
+    "माद्रिद",
+    "माद्री",
+    "म्याड्रिड",
+    "মাদ্রিদ",
+    "ਮਾਦਰੀਦ",
+    "ମାଡ୍ରିଦ",
+    "மத்ரித்",
+    "ಮಡ್ರಿಡ್",
+    "മാഡ്രിഡ്",
+    "มาดริด",
+    "མ་ད་རིད།",
+    "မဒရစ်မြို့",
+    "მადრიდი",
+    "ማድሪድ",
+    "マドリード",
+    "マドリード市",
+    "馬德里",
+    "马德里",
+    "마드리드"
+   ],
+   "lat": 40.4165,
+   "lon": -3.70256,
+   "population": 3255944,
+   "geonameId": "3117735"
+  },
+  {
+   "id": "city:ES-barcelona",
+   "name": "Barcelona",
+   "aliases": [
+    "BCN",
+    "Barcellona",
+    "Barcellonn-a",
+    "Barcelone",
+    "Barcelono",
+    "Barceluna",
+    "Barcelůna",
+    "Barcełona",
+    "Barcillona",
+    "Barcino",
+    "Barkelone",
+    "Barseloana",
+    "Barselon",
+    "Barselona",
+    "Barselonae",
+    "Barselono",
+    "Barseluna",
+    "Barseluona",
+    "Barselóna",
+    "Barslon-a",
+    "Barsélona",
+    "Bartzellona",
+    "Bartzelona",
+    "Barzelona",
+    "Barçellonn-a",
+    "Barċellona",
+    "Baselona",
+    "Lungsod ng Barcelona",
+    "Parcʻhelona",
+    "Parselona",
+    "ba sa long na",
+    "ba sai long na",
+    "ba sai luo na",
+    "baleusellona",
+    "balsaleana",
+    "bar se lon a",
+    "barasilona",
+    "barselona",
+    "barsilona",
+    "barslwn",
+    "barslwna",
+    "barsylwna",
+    "barsێlۆna",
+    "baruserona",
+    "brshlwnt",
+    "brshlwnہ",
+    "brzlwnh",
+    "la Ciudad Condal",
+    "parcelona",
+    "Βαρκελώνη",
+    "Барселон",
+    "Барселонæ",
+    "Барселона",
+    "Барселоно",
+    "Բարսելոնա",
+    "Պարսելոնա",
+    "Պարցհելոնա",
+    "בארצעלאנע",
+    "ברצלונה",
+    "بارسلون",
+    "بارسلونا",
+    "بارسیلونا",
+    "بارسێلۆنا",
+    "برشلونة",
+    "برشلونہ",
+    "बार्सिलोना",
+    "बार्सेलोना",
+    "বার্সেলোনা",
+    "ਬਾਰਸੀਲੋਨਾ",
+    "பார்செலோனா",
+    "ബാഴ്സലോണ",
+    "บาร์เซโลนา",
+    "ບາກເຊໂລນ",
+    "བྷར་སེ་ལོ་ནཱ།",
+    "ဘာစီလိုနာမြို့",
+    "ბარსელონა",
+    "ባርሴሎና",
+    "バルセロナ",
+    "巴塞罗那",
+    "巴塞隆納",
+    "巴薩隆拿",
+    "바르셀로나"
+   ],
+   "lat": 41.38879,
+   "lon": 2.15899,
+   "population": 1686208,
+   "geonameId": "3128760"
+  },
+  {
+   "id": "city:ES-valencia",
+   "name": "Valencia",
+   "aliases": [
+    "Balenzia",
+    "Pa-lun-si-a",
+    "Pâ-lùn-sî-â",
+    "VLC",
+    "Valantsa",
+    "Valence",
+    "Valencia - Valencia",
+    "Valencie",
+    "Valencija",
+    "Valencio",
+    "Valenseje",
+    "Valensi",
+    "Valensia",
+    "Valensii",
+    "Valensij",
+    "Valensija",
+    "Valensiya",
+    "Valensyaa",
+    "Valensėjė",
+    "Valenthia",
+    "Valentia",
+    "Valentzia",
+    "Valenza",
+    "València",
+    "Valéncia",
+    "Valência",
+    "Vałénsia",
+    "Walencja",
+    "Walensiye",
+    "Walénsiye",
+    "ba len seiy",
+    "ba lun xi ya",
+    "ballensia",
+    "barenshia",
+    "blnsyt",
+    "hua lun xi ya",
+    "valainsi'a",
+    "valenciya",
+    "valensia",
+    "valensiya",
+    "valynsya",
+    "wa lun xi ya",
+    "walnsya",
+    "wlnsyh",
+    "wylnsya",
+    "Βαλένθια",
+    "Валенси",
+    "Валенсиа",
+    "Валенсий",
+    "Валенсия",
+    "Валенсија",
+    "Валенсія",
+    "Վալենսիա",
+    "וואלענציע",
+    "ולנסיה",
+    "بلنسية",
+    "والنسیا",
+    "ویلنسیا",
+    "ویلنسیہ",
+    "ڤالينسيا",
+    "ڤالێنسیا",
+    "वालेन्सिया",
+    "ਵਾਲੈਂਸੀਆ",
+    "வாலேன்சியா",
+    "บาเลนเซีย",
+    "ვალენსია",
+    "バレンシア",
+    "巴倫西亞",
+    "瓦伦西亚",
+    "瓦倫西亞",
+    "華倫西亞",
+    "발렌시아"
+   ],
+   "lat": 39.47391,
+   "lon": -0.37966,
+   "population": 824340,
+   "geonameId": "2509954"
+  },
+  {
+   "id": "city:ES-zaragoza",
+   "name": "Zaragoza",
+   "aliases": [
+    "Caesaraugusta",
+    "Caesarea Augusta",
+    "Caragoca",
+    "Salduba",
+    "Salduie",
+    "Saragoca",
+    "Saragosa",
+    "Saragosae",
+    "Saragoso",
+    "Saragossa",
+    "Saragosse",
+    "Saragoza",
+    "Saragozza",
+    "Saragoça",
+    "Saragòssa",
+    "Sarakosa",
+    "Saraqosa",
+    "ZAZ",
+    "ZGZ",
+    "Zaragosa",
+    "Zargoza",
+    "sa la ge sa",
+    "sa ra ko sa",
+    "salagosa",
+    "saragosa",
+    "saragwsa",
+    "sarajwsa",
+    "srgwsh",
+    "srqstt",
+    "sەrەgۆsa",
+    "taragota",
+    "Çaragoça",
+    "Żaragoża",
+    "Σαραγόσα",
+    "Сарагосæ",
+    "Сарагоса",
+    "Сарагосо",
+    "Սարագոսա",
+    "Սարակոսա",
+    "סאראגאסא",
+    "סרגוסה",
+    "ساراجوسا",
+    "ساراگوسا",
+    "سرقسطة",
+    "سەرەگۆسا",
+    "सारागोसा",
+    "ਤਾਰਾਗੋਤਾ",
+    "ซาราโกซา",
+    "სარაგოსა",
+    "サラゴサ",
+    "萨拉戈萨",
+    "사라고사"
+   ],
+   "lat": 41.65606,
+   "lon": -0.87734,
+   "population": 686986,
+   "geonameId": "3104324"
+  },
+  {
+   "id": "city:ES-sevilla",
+   "name": "Sevilla",
+   "aliases": [
+    "Hispalis",
+    "Lungsod ng Sevilla",
+    "SVQ",
+    "Sebilla",
+    "Sebille",
+    "Sevidzheh",
+    "Sevil'ja",
+    "Sevila",
+    "Sevileje",
+    "Sevilha",
+    "Sevilia",
+    "Sevilija",
+    "Sevilja",
+    "Seville",
+    "Sevilo",
+    "Sevilya",
+    "Sevilėjė",
+    "Seviya",
+    "Seweliye",
+    "Sewilla",
+    "Sibilia",
+    "Siviglia",
+    "Sivilja",
+    "Séville",
+    "Séwéliye",
+    "ashbylyt",
+    "ceviya",
+    "isabili'a",
+    "sai wei li ya",
+    "sai wei ya",
+    "sbylyh",
+    "sebi ya",
+    "sebiria",
+    "sebirya",
+    "sebiya",
+    "sevilia",
+    "swya",
+    "sybyya",
+    "Σεβίλλη",
+    "Севиджэ",
+    "Севилья",
+    "Севиля",
+    "Севилја",
+    "Севиља",
+    "Севілья",
+    "Սեվիլիա",
+    "Սևիլյա",
+    "סביליה",
+    "סעווילא",
+    "إشبيلية",
+    "اشبیلیہ",
+    "سویا",
+    "سيبييا",
+    "سێڤیلیا",
+    "सेबिया",
+    "ਇਸ਼ਬੀਲੀਆ",
+    "செவீயா",
+    "เซบียา",
+    "სევილია",
+    "セビリア",
+    "セビリャ",
+    "塞維亞",
+    "塞维利亚",
+    "세비야",
+    "Seville city"
+   ],
+   "lat": 37.38283,
+   "lon": -5.97317,
+   "population": 686741,
+   "geonameId": "2510911"
+  },
+  {
+   "id": "city:ES-malaga",
+   "name": "Málaga",
+   "aliases": [
+    "Malaga",
+    "AGP",
+    "Malaca",
+    "Malagae",
+    "Malago",
+    "Malaqa",
+    "Màlaga",
+    "ma la jia",
+    "maalqat",
+    "malaga",
+    "malagha",
+    "malaja",
+    "malaka",
+    "malga",
+    "malka",
+    "mallaga",
+    "malqt",
+    "maraga",
+    "mlqt",
+    "Μάλαγα",
+    "Малагæ",
+    "Малага",
+    "Մալագա",
+    "מאלגה",
+    "מלאגה",
+    "مالاجا",
+    "مالاغا",
+    "مالاگا",
+    "مالقة",
+    "مالكا",
+    "مالگا",
+    "ملقة",
+    "مَاَلقَة",
+    "مەلەگا",
+    "मलागा",
+    "மாலாகா",
+    "มาลากา",
+    "მალაგა",
+    "マラガ",
+    "馬拉加",
+    "马拉加",
+    "말라가"
+   ],
+   "lat": 36.72016,
+   "lon": -4.42034,
+   "population": 592346,
+   "geonameId": "2514256"
+  },
+  {
+   "id": "city:ES-murcia",
+   "name": "Murcia",
+   "aliases": [
+    "Ciutat de Murcia",
+    "Ciutat de Múrcia",
+    "MJV",
+    "Murcie",
+    "Murcio",
+    "Murcja",
+    "Mursia",
+    "Mursija",
+    "Múrcia",
+    "mrsyt",
+    "mu er xi ya",
+    "murushia",
+    "mwrsya",
+    "mwrsyh",
+    "Мурсия",
+    "מורסיה",
+    "مرسية",
+    "مورسیا",
+    "ムルシア",
+    "穆尔西亚"
+   ],
+   "lat": 37.98704,
+   "lon": -1.13004,
+   "population": 471982,
+   "geonameId": "2513416"
+  },
+  {
+   "id": "city:ES-palma",
+   "name": "Palma",
+   "aliases": [
+    "Ciutat de Mallorca",
+    "Madina Mayurqa",
+    "PMI",
+    "Pal'ma",
+    "Palma Mallorcakoa",
+    "Palma de Maiorca",
+    "Palma de Malhorca",
+    "Palma de Malhòrca",
+    "Palma de Mallorca",
+    "Palma di Maiorca",
+    "mywrqt",
+    "pa er ma",
+    "palmademayoleuka",
+    "plmh dh mywrqh",
+    "Пальма",
+    "פלמה דה מיורקה",
+    "ميورقة",
+    "パルマ・デ・マリョルカ",
+    "帕爾馬",
+    "팔마데마요르카"
+   ],
+   "lat": 39.56939,
+   "lon": 2.65024,
+   "population": 438234,
+   "geonameId": "2512989"
+  },
+  {
+   "id": "city:ES-las-palmas-de-gran-canaria",
+   "name": "Las Palmas de Gran Canaria",
+   "aliases": [
+    "Kanaria Handiko Las Palmas",
+    "LPA",
+    "Las Palmas",
+    "Las Palmas de G.C.",
+    "Las Palmas de Gran Kanaria",
+    "Las-Pal'mas-de-Gran-Kanarija",
+    "Laspalmasa",
+    "Laspalmaso",
+    "Les Palmes de Gran Canaria",
+    "Les Palmes de Gran Canària",
+    "Palmas",
+    "Palmas de Gran Canaria",
+    "la si pa er ma si",
+    "Лас Палмас де Гран Канариа",
+    "Лас-Пальмас-де-Гран-Канария",
+    "ラス・パルマス・デ・グラン・カナリア",
+    "拉斯帕尔马斯"
+   ],
+   "lat": 28.10178,
+   "lon": -15.41573,
+   "population": 383516,
+   "geonameId": "2515270"
+  },
+  {
+   "id": "city:ES-alicante",
+   "name": "Alicante",
+   "aliases": [
+    "A-li-kham-thit",
+    "ALC",
+    "Akra Leuke",
+    "Alacant",
+    "Alacante",
+    "Alacanti",
+    "Alakanto",
+    "Alicant",
+    "Alikante",
+    "Alikanteh",
+    "Alikantė",
+    "Alíkante",
+    "Lucentum",
+    "a li kan te",
+    "alalaqant",
+    "alikante",
+    "allikante",
+    "alykant",
+    "alykanth",
+    "arikante",
+    "xa li kan te",
+    "Â-li-kham-thi̍t",
+    "Αλικάντε",
+    "Аликанте",
+    "Аліканте",
+    "Алікантэ",
+    "Ալիկանտե",
+    "אליקנטה",
+    "آلیکانته",
+    "ألَلَقَنْت",
+    "الیکانت",
+    "الیکانتے",
+    "आलिकांते",
+    "आलिकान्ते",
+    "อาลีกันเต",
+    "ალიკანტე",
+    "アリカンテ",
+    "阿利坎特",
+    "알리칸테"
+   ],
+   "lat": 38.34517,
+   "lon": -0.48149,
+   "population": 348901,
+   "geonameId": "2521978"
+  },
+  {
+   "id": "city:ES-bilbao",
+   "name": "Bilbao",
+   "aliases": [
+    "BIO",
+    "Bil'baa",
+    "Bil'bao",
+    "Bilbau",
+    "Bilbaum",
+    "Bilbaw",
+    "Bilbo",
+    "Bilbo / Bilbao",
+    "Bilmpao",
+    "El Bocho",
+    "bi er ba e",
+    "bil ba xo",
+    "bilba'o",
+    "bilbao",
+    "birubao",
+    "blbaw",
+    "bylbaw",
+    "bylbayw",
+    "Μπιλμπάο",
+    "Билбао",
+    "Бильбао",
+    "Більбаа",
+    "Більбао",
+    "Բիլբաո",
+    "בילבאו",
+    "بلباو",
+    "بیلبائو",
+    "بیلباو",
+    "बिल्बाओ",
+    "บิลบาโอ",
+    "ბილბაო",
+    "ビルバオ",
+    "毕尔巴鄂",
+    "빌바오"
+   ],
+   "lat": 43.26271,
+   "lon": -2.92528,
+   "population": 347342,
+   "geonameId": "3128026"
+  },
+  {
+   "id": "city:geonames-2519240",
+   "name": "Córdoba",
+   "aliases": [
+    "Cordoba",
+    "Cardoue",
+    "Cordoa",
+    "Cordoba i Spania",
+    "Cordoue",
+    "Cordova",
+    "Corduba",
+    "Còrdoa",
+    "Còrdova",
+    "Córdoba i Spania",
+    "Córdova",
+    "Córduba",
+    "Kordava",
+    "Kordoba",
+    "Kordova",
+    "Kordovo",
+    "Kordowa",
+    "ODB",
+    "ge duo hua",
+    "ke er duo wa",
+    "koleudoba",
+    "kordoba",
+    "korudoba",
+    "kurtupa",
+    "kwrdwba",
+    "kxr do ba",
+    "kۆrdۆba",
+    "qrtbh",
+    "qrtbt",
+    "qwrdwbh",
+    "Κόρδοβα",
+    "Кордава",
+    "Кордоба",
+    "Кордова",
+    "Կորդովա",
+    "קארדאבע",
+    "קורדובה",
+    "قرطبة",
+    "قرطبه",
+    "قرطبہ",
+    "كوردوبا",
+    "کوردوبا",
+    "کۆردۆبا",
+    "कोर्दोबा",
+    "குர்துபா",
+    "กอร์โดบา",
+    "კორდობა",
+    "コルドバ",
+    "哥多華",
+    "科爾多瓦",
+    "코르도바"
+   ],
+   "lat": 37.89155,
+   "lon": -4.77275,
+   "population": 325708,
+   "geonameId": "2519240"
+  },
+  {
+   "id": "city:ES-valladolid",
+   "name": "Valladolid",
+   "aliases": [
+    "Lungsod ng Valladolid",
+    "Pincia",
+    "Pucela",
+    "VLL",
+    "Vagiadolid",
+    "Val'jadalid",
+    "Val'jadolid",
+    "Valadoli",
+    "Valadolid",
+    "Valadolido",
+    "Valdoletum",
+    "Valhadolid",
+    "Valjadolid",
+    "Valjadolida",
+    "Valjadolidas",
+    "Valladolis",
+    "Valladolit",
+    "Valladolíd",
+    "Valladolís",
+    "Vallis Tolitum",
+    "Valyadolid",
+    "Vayadolid",
+    "Vaładołì",
+    "ba li ya duo li de",
+    "ba ya do lid",
+    "baryadoriddo",
+    "bayadollideu",
+    "bld alwlyd",
+    "fayadwlydh",
+    "valiadolidi",
+    "vayadolida",
+    "wayadwlyd",
+    "wʼyʼdwlyd",
+    "Βαγιαδολίδ",
+    "Вальядалід",
+    "Вальядолид",
+    "Вальядолід",
+    "Валядолид",
+    "Ваљадолид",
+    "ואיאדוליד",
+    "بلد الوليد",
+    "فايادوليذ",
+    "والاڈولڈ",
+    "وایادولید",
+    "ڤایادۆلید",
+    "वायादोलिद",
+    "บายาโดลิด",
+    "ვალიადოლიდი",
+    "バリャドリッド",
+    "巴利亚多利德",
+    "바야돌리드"
+   ],
+   "lat": 41.65541,
+   "lon": -4.72353,
+   "population": 300618,
+   "geonameId": "3106672"
+  },
+  {
+   "id": "city:geonames-3105976",
+   "name": "Vigo",
+   "aliases": [
+    "Bigo",
+    "VGO",
+    "Viga",
+    "Vigas",
+    "Vigo shaary",
+    "Vigu",
+    "bi ko",
+    "bigo",
+    "bygw",
+    "fyghw",
+    "vigo",
+    "wei ge",
+    "wgw",
+    "wygw",
+    "Βίγο",
+    "Виго",
+    "Виго шаары",
+    "Віга",
+    "Віго",
+    "Վիգո",
+    "ויגו",
+    "بیگو",
+    "فيغو",
+    "وگو",
+    "ویگو",
+    "वीगो",
+    "บีโก",
+    "ვიგო",
+    "ビーゴ",
+    "維戈",
+    "비고"
+   ],
+   "lat": 42.23282,
+   "lon": -8.72264,
+   "population": 293642,
+   "geonameId": "3105976"
+  },
+  {
+   "id": "city:ES-xixon",
+   "name": "Xixón",
+   "aliases": [
+    "Gijón",
+    "Gijon",
+    "Chichonas",
+    "Gigia",
+    "Gijon/Xixon",
+    "Gijón/Xixón",
+    "Hihono",
+    "Khikhon",
+    "Kixoi",
+    "QIJ",
+    "Xixon",
+    "gyjwn",
+    "hihon",
+    "hyhwn",
+    "khi khxn",
+    "khikhoni",
+    "khykhn",
+    "khykhwn",
+    "kikon",
+    "xi hong",
+    "Ĥiĥono",
+    "Хихон",
+    "Хіхон",
+    "חיחון",
+    "خيخون",
+    "خیخن",
+    "خیخۆن",
+    "گیجون",
+    "கிகோன்",
+    "คีคอน",
+    "ხიხონი",
+    "ヒホン",
+    "希洪",
+    "히혼",
+    "Xixón City"
+   ],
+   "lat": 43.53573,
+   "lon": -5.66152,
+   "population": 271780,
+   "geonameId": "3121424"
+  },
+  {
+   "id": "city:geonames-3104499",
+   "name": "Gasteiz / Vitoria",
+   "aliases": [
+    "Bittorixa",
+    "Gasteiz",
+    "VIT",
+    "Victoriacum",
+    "Vitoria",
+    "Vitoria-Gasteiz",
+    "Vitorija",
+    "Vitorija-Gastejs",
+    "Vitorio",
+    "Vitòria",
+    "Vitória",
+    "bitoria",
+    "wytwryh",
+    "Витория",
+    "Витория-Гастейс",
+    "ויטוריה",
+    "ビトリア"
+   ],
+   "lat": 42.84998,
+   "lon": -2.67268,
+   "population": 257407,
+   "geonameId": "3104499"
+  },
+  {
+   "id": "city:ES-l-hospitalet-de-llobregat",
+   "name": "L’Hospitalet de Llobregat",
+   "aliases": [
+    "L'Hospitalet de Llobregat",
+    "Hospitalet de Llobregat",
+    "Ospitalet-de-L'obregat",
+    "l'Hospitalet",
+    "l'Hospitalet de Llobregat",
+    "Оспиталет-де-Льобрегат"
+   ],
+   "lat": 41.35967,
+   "lon": 2.10028,
+   "population": 257038,
+   "geonameId": "3120619"
+  },
+  {
+   "id": "city:geonames-3119841",
+   "name": "A Coruña",
+   "aliases": [
+    "A Coruna",
+    "A Cruna",
+    "A Cruña",
+    "A Koruna",
+    "A-Korun'ja",
+    "Akoruna",
+    "Akoruņa",
+    "Caronium",
+    "Coruna",
+    "Corunako",
+    "Corunha",
+    "Corunya",
+    "Coruña",
+    "Coruñako",
+    "Corùna",
+    "In Coruna",
+    "In Coruña",
+    "Koruna",
+    "Korunjo",
+    "LCG",
+    "La Corogne",
+    "La Coronha",
+    "La Coruna",
+    "La Coruña",
+    "La Koruna",
+    "La Korunja",
+    "La Korunya",
+    "La-Karun'ja",
+    "La-Korun'ja",
+    "La-Korunya",
+    "The Groyne",
+    "la ke lu ni ya",
+    "la kwrwnya",
+    "lakolunya",
+    "lakrwnya",
+    "xa ko ruya",
+    "А Коруња",
+    "А-Корунья",
+    "Коруња",
+    "Ла Коруня",
+    "Ла-Карунья",
+    "Ла-Корунья",
+    "Լա Կորունա",
+    "א קורוניה",
+    "اے کرونا",
+    "لا كورونيا",
+    "لا کۆرونیا",
+    "لاکرونیا",
+    "อาโกรูญา",
+    "ლა-კორუნია",
+    "ア・コルーニャ",
+    "拉科魯尼亞",
+    "라코루냐"
+   ],
+   "lat": 43.37135,
+   "lon": -8.396,
+   "population": 250438,
+   "geonameId": "3119841"
+  },
+  {
+   "id": "city:geonames-2518559",
+   "name": "Elche",
+   "aliases": [
+    "Ehl'ch",
+    "Ehl'che",
+    "El'che",
+    "Elce",
+    "Elch",
+    "Elig",
+    "Elx",
+    "Elčė",
+    "Illici",
+    "ai er qie",
+    "alchh",
+    "alsh",
+    "elche",
+    "eruche",
+    "xelche",
+    "ʼls",
+    "Елч",
+    "Елче",
+    "Ельче",
+    "Эльч",
+    "Эльче",
+    "אלש",
+    "إلش",
+    "الش",
+    "الچه",
+    "เอลเช",
+    "ელჩე",
+    "エルチェ",
+    "埃爾切",
+    "엘체"
+   ],
+   "lat": 38.26218,
+   "lon": -0.70107,
+   "population": 234765,
+   "geonameId": "2518559"
+  },
+  {
+   "id": "city:geonames-2517117",
+   "name": "Granada",
+   "aliases": [
+    "GRX",
+    "Girnata",
+    "Grana",
+    "Granado",
+    "Granata",
+    "Graná",
+    "Grenada",
+    "Grenade",
+    "Grenado",
+    "Grenayd",
+    "Gırnata",
+    "Lungsod ng Granada",
+    "Qranada",
+    "ge la na da",
+    "ge lin na da",
+    "geulanada",
+    "ghrnatt",
+    "granada",
+    "grndh",
+    "guranada",
+    "gurenada",
+    "jranada",
+    "jrynada",
+    "kiranata",
+    "kran a da",
+    "Γρανάδα",
+    "Гранада",
+    "Гренада",
+    "גרנדה",
+    "جرانادا",
+    "جرينادا",
+    "غرناطة",
+    "غرناطہ",
+    "ګرېنادا",
+    "گرانادا",
+    "گرېنادا",
+    "ग्रानादा",
+    "গ্রানাডা",
+    "கிரனாதா",
+    "กรานาดา",
+    "გრანადა",
+    "ግራናዳ",
+    "グラナダ",
+    "グレナダ",
+    "格拉纳达",
+    "格林纳达",
+    "그라나다"
+   ],
+   "lat": 37.18817,
+   "lon": -3.60667,
+   "population": 233532,
+   "geonameId": "2517117"
+  },
+  {
+   "id": "city:geonames-3124964",
+   "name": "Ciudad Lineal",
+   "aliases": [
+    "Barrio Ciudad Lineal",
+    "Ciudad Lineal distritu",
+    "Linia Urbo",
+    "S'judad-Lineal'",
+    "Syudad Lineal",
+    "ciuda Lineal",
+    "ciudá Lineal",
+    "siudadeulineal",
+    "swydad lynyal",
+    "xiu da li nei ya er qu",
+    "Сьюдад-Линеаль",
+    "Սյուդադ Լինեալ",
+    "سويداد لينيال",
+    "シウダー・リネアル",
+    "休达利内亚尔区",
+    "시우다드리네알"
+   ],
+   "lat": 40.44505,
+   "lon": -3.65132,
+   "population": 228171,
+   "geonameId": "3124964"
+  },
+  {
+   "id": "city:geonames-3114711",
+   "name": "Oviedo",
+   "aliases": [
+    "Aueda",
+    "OVI",
+    "Ov'edo",
+    "Ovedo",
+    "Ovetum",
+    "Oviedu",
+    "Ovieu",
+    "Ovjedas",
+    "Ovjedo",
+    "Uvieu",
+    "Uviéu",
+    "abydw",
+    "ao wei ye duo",
+    "awfyydw",
+    "awwydw",
+    "obiedo",
+    "ovhiyedo",
+    "oviedo",
+    "oviyeto",
+    "xo beiy do",
+    "Аўеда",
+    "Овиедо",
+    "Овьедо",
+    "Овєдо",
+    "Овједо",
+    "אוביידו",
+    "أوفييدو",
+    "ابیدو",
+    "اوویدو",
+    "ओव्हियेदो",
+    "ஒவியேதோ",
+    "โอเบียโด",
+    "ოვიედო",
+    "オビエド",
+    "奥维耶多",
+    "오비에도"
+   ],
+   "lat": 43.36029,
+   "lon": -5.84476,
+   "population": 220027,
+   "geonameId": "3114711"
+  },
+  {
+   "id": "city:ES-terrassa",
+   "name": "Terrassa",
+   "aliases": [
+    "Terasa",
+    "telasa",
+    "terrasa",
+    "Τεράσα",
+    "Террасса",
+    "テッラーサ",
+    "테라사"
+   ],
+   "lat": 41.56667,
+   "lon": 2.01667,
+   "population": 218535,
+   "geonameId": "3108286"
+  },
+  {
+   "id": "city:ES-badalona",
+   "name": "Badalona",
+   "aliases": [
+    "ba da lon a",
+    "ba da luo na",
+    "badallona",
+    "badalona",
+    "badalwna",
+    "badarona",
+    "Μπαδαλόνα",
+    "Бадалона",
+    "Բադալոնա",
+    "بادالونا",
+    "बाडालोना",
+    "บาดาโลนา",
+    "ბადალონა",
+    "バダロナ",
+    "巴达洛纳",
+    "바달로나"
+   ],
+   "lat": 41.45004,
+   "lon": 2.24741,
+   "population": 217741,
+   "geonameId": "3129028"
+  },
+  {
+   "id": "city:geonames-2520058",
+   "name": "Cartagena",
+   "aliases": [
+    "Cartachena",
+    "Cartagena i Spania",
+    "Cartaxena",
+    "Carthagene",
+    "Carthago Nova",
+    "Carthagène",
+    "Kartachena",
+    "Kartagena",
+    "Kartagina",
+    "Kartagjena",
+    "Kartahena",
+    "Kartaheno",
+    "Kartakhena",
+    "Kartaĥeno",
+    "Karthageni",
+    "XUF",
+    "ka ta he na",
+    "kaleutahena",
+    "kartagna",
+    "kartajena",
+    "kartajina",
+    "kartakhyna",
+    "kartygana",
+    "karutahena",
+    "qrthnh",
+    "Καρθαγένη",
+    "Картагена",
+    "Картагина",
+    "Картахена",
+    "קרטחנה",
+    "كارتاخينا",
+    "کارتاگنا",
+    "کارتیگانا",
+    "कार्टाजेना",
+    "कार्ताजिना",
+    "კარტახენა",
+    "ካርታሔና",
+    "カルタヘナ",
+    "卡塔赫纳",
+    "카르타헤나"
+   ],
+   "lat": 37.60197,
+   "lon": -0.98397,
+   "population": 213943,
+   "geonameId": "2520058"
+  },
+  {
+   "id": "city:geonames-2516326",
+   "name": "Jerez de la Frontera",
+   "aliases": [
+    "Cheres de la Frontera",
+    "Herezo",
+    "Jarez de la Frontera",
+    "Jerez",
+    "Kherehs-deh-la-Frantehra",
+    "Kheres de la Frontera",
+    "Kheres-de-la-Frontera",
+    "Kherez de la Frontera",
+    "XRY",
+    "Xeres",
+    "Xeresium",
+    "Xerez de la Frontera",
+    "Xerès",
+    "Xérès",
+    "he lei si-de la fu long te la",
+    "heleseudelapeulontela",
+    "hrs dh lh prwntrh",
+    "jyraz dy la frwntyra",
+    "shrysh",
+    "Ĥerezo",
+    "Херез де ла Фронтера",
+    "Херес де ла Фронтера",
+    "Херес-де-ла-Фронтера",
+    "Херэс-дэ-ла-Франтэра",
+    "חרס דה לה פרונטרה",
+    "جیراز دی لا فرونتیرا",
+    "شريش",
+    "ヘレス・デ・ラ・フロンテーラ",
+    "赫雷斯-德拉弗龙特拉",
+    "헤레스데라프론테라"
+   ],
+   "lat": 36.68645,
+   "lon": -6.13606,
+   "population": 212879,
+   "geonameId": "2516326"
+  },
+  {
+   "id": "city:ES-sabadell",
+   "name": "Sabadell",
+   "aliases": [
+    "QSA",
+    "Sabadel'",
+    "Сабадель"
+   ],
+   "lat": 41.54329,
+   "lon": 2.10942,
+   "population": 211734,
+   "geonameId": "3111199"
+  },
+  {
+   "id": "city:geonames-2511174",
+   "name": "Santa Cruz de Tenerife",
+   "aliases": [
+    "Sancta Crux Nivariae",
+    "Santa Cruz",
+    "Santa Cruz Tenerifekoa",
+    "Santa Cruz de Ténérife",
+    "Santa Krouth nte Tenerife",
+    "Santa Krus de Tenerife",
+    "Santa Kruz de Tenerife",
+    "Santa-Krus-de-Tenerife",
+    "Santa-Krus-deh-Tehnehryfeh",
+    "Santakrusa de Tenerife",
+    "TCI",
+    "Tenerife",
+    "Tenerifes Santa Krusas",
+    "Teneriffa",
+    "Tenerifės Santa Krusas",
+    "san ta kru sde te ne rife",
+    "santa kruja de teneriphe",
+    "santa krujha de teneripha",
+    "santa krusa de tenarifa",
+    "santa krws",
+    "santa krws dy tynyryfa",
+    "santa krwth dy tynyryfh",
+    "santa krwz dy tynyrf",
+    "santakeuluseudetenelipe",
+    "sheng ke lu si-de te nei li fei",
+    "snth qrws dh tnryph",
+    "Σάντα Κρουθ ντε Τενερίφε",
+    "Санта Круз де Тенерифе",
+    "Санта Крус де Тенерифе",
+    "Санта-Крус-де-Тенерифе",
+    "Санта-Крус-де-Тенеріфе",
+    "Санта-Крус-дэ-Тэнэрыфэ",
+    "סאנטא קרוז דע טענעריפע",
+    "סנטה קרוס דה טנריפה",
+    "سانتا كروث دي تينيريفه",
+    "سانتا كروس دى تينيريفا",
+    "سانتا کروز دی تینیرف",
+    "سانتا کروز ٹینرائف",
+    "سانتا کروس",
+    "सांता क्रुझ दे तेनेरीफ",
+    "सान्ता क्रूस दे तेनरीफ़",
+    "সান্টা ক্রুজ দে তেনেরিফে",
+    "ซานตากรุซเดเตเนรีเฟ",
+    "სანტა-კრუს-დე-ტენერიფე",
+    "サンタ・クルス・デ・テネリフェ",
+    "圣克鲁斯-德特内里费",
+    "산타크루스데테네리페"
+   ],
+   "lat": 28.46824,
+   "lon": -16.25462,
+   "population": 211359,
+   "geonameId": "2511174"
+  },
+  {
+   "id": "city:geonames-3114472",
+   "name": "Pamplona",
+   "aliases": [
+    "Iruinea",
+    "Iruna",
+    "Irunea",
+    "Iruña",
+    "Iruñea",
+    "Lungsod ng Irunea",
+    "Lungsod ng Iruñea",
+    "PNA",
+    "Pampalona",
+    "Pampeluna",
+    "Pampelune",
+    "Pamplonae",
+    "Pamplono",
+    "Pompaelo",
+    "bnblwnt",
+    "iruniya",
+    "pam po lna",
+    "pampalona",
+    "pampeullona",
+    "pamplwna",
+    "pan pu luo na",
+    "panpurona",
+    "pmplwnh",
+    "Памплонæ",
+    "Памплона",
+    "Պամպլոնա",
+    "פמפלונה",
+    "بنبلونة",
+    "پامپلونا",
+    "पाम्पलोना",
+    "இருனியா",
+    "ปัมโปลนา",
+    "პამპლონა",
+    "パンプローナ",
+    "潘普洛納",
+    "팜플로나"
+   ],
+   "lat": 42.81687,
+   "lon": -1.64323,
+   "population": 208243,
+   "geonameId": "3114472"
+  },
+  {
+   "id": "city:ES-mostoles",
+   "name": "Móstoles",
+   "aliases": [
+    "Mostoles",
+    "Monsteles",
+    "Mostales",
+    "Mostolesas",
+    "Mostolo",
+    "mo si tuo lai si",
+    "moseutolleseu",
+    "mosutoresu",
+    "mwstwls",
+    "mwstwlys",
+    "Мосталес",
+    "Мостолес",
+    "מוסטולס",
+    "موستولس",
+    "موستوليس",
+    "მოსტოლესი",
+    "モストレス",
+    "莫斯托莱斯",
+    "모스톨레스"
+   ],
+   "lat": 40.32234,
+   "lon": -3.86496,
+   "population": 207095,
+   "geonameId": "3116025"
+  },
+  {
+   "id": "city:geonames-2521886",
+   "name": "Almería",
+   "aliases": [
+    "Almeria",
+    "Al'meri",
+    "Al'merija",
+    "Al'meryja",
+    "Almerija",
+    "Almerio",
+    "LEI",
+    "Unci",
+    "a er mei li ya",
+    "almelia",
+    "almeriya",
+    "almrya",
+    "almryt",
+    "almyrya",
+    "arumeria",
+    "Αλμερία",
+    "Алмерия",
+    "Алмерија",
+    "Альмери",
+    "Альмерия",
+    "Альмерыя",
+    "Альмерія",
+    "Ալմերիա",
+    "אלמריה",
+    "آلمریا",
+    "ألمرية",
+    "المریہ",
+    "المیریا",
+    "अल्मेरिया",
+    "आल्मेरिया",
+    "அல்மேரீயா",
+    "アルメリア",
+    "阿尔梅里亚",
+    "알메리아"
+   ],
+   "lat": 36.83814,
+   "lon": -2.45974,
+   "population": 196851,
+   "geonameId": "2521886"
+  },
+  {
+   "id": "city:geonames-3130616",
+   "name": "Alcalá de Henares",
+   "aliases": [
+    "Alcala de Henares",
+    "Al'kala-de-Ehnares",
+    "Al'kala-de-Enares",
+    "Al'kala-deh-Ehnarehs",
+    "Alcála de Henares",
+    "Alkala de Enares",
+    "Alkala de Henaresas",
+    "Alkala nte Enares",
+    "Compluto",
+    "Complutum",
+    "Cómpluto",
+    "ai na lei si bao",
+    "alkala dy aynarys",
+    "alkalladeenaleseu",
+    "arukara・de・enaresu",
+    "xal ka lade xe na res",
+    "Αλκαλά ντε Ενάρες",
+    "Алкала де Енарес",
+    "Алькала-де-Енарес",
+    "Алькала-де-Энарес",
+    "Алькала-дэ-Энарэс",
+    "אלקלה דה אנארס",
+    "ألكالا دي إيناريس",
+    "الكالا دى ايناريس",
+    "อัลกาลาเดเอนาเรส",
+    "ალკალა-დე-ენარესი",
+    "アルカラ・デ・エナーレス",
+    "埃纳雷斯堡",
+    "알칼라데에나레스"
+   ],
+   "lat": 40.48205,
+   "lon": -3.35996,
+   "population": 193751,
+   "geonameId": "3130616"
+  },
+  {
+   "id": "city:geonames-3121960",
+   "name": "Fuenlabrada",
+   "aliases": [
+    "Fons Laborata",
+    "Fuehnlabrada",
+    "feng la fu la da",
+    "fuenraburada",
+    "fwynlabrada",
+    "Фуенлабрада",
+    "Фуэнлабрада",
+    "פואנלברדה",
+    "فوينلابرادا",
+    "フエンラブラダ",
+    "丰拉夫拉达"
+   ],
+   "lat": 40.28419,
+   "lon": -3.79415,
+   "population": 190496,
+   "geonameId": "3121960"
+  },
+  {
+   "id": "city:geonames-3118594",
+   "name": "Leganés",
+   "aliases": [
+    "Leganes",
+    "Legamar",
+    "Leganesas",
+    "lai jia nei si",
+    "leganeseu",
+    "lyjanys",
+    "reganesu",
+    "Леганес",
+    "ليجانيس",
+    "レガネス",
+    "萊加內斯",
+    "레가네스"
+   ],
+   "lat": 40.32718,
+   "lon": -3.7635,
+   "population": 188425,
+   "geonameId": "3118594"
+  },
+  {
+   "id": "city:geonames-3121437",
+   "name": "Getafe",
+   "aliases": [
+    "Chetafe",
+    "Chetafė",
+    "Khetafe",
+    "Khetafeh",
+    "Tituacia",
+    "Xetafe",
+    "he ta fei",
+    "hetafe",
+    "hetape",
+    "khe tafe",
+    "khytafy",
+    "Χετάφε",
+    "Хетафе",
+    "Хетафэ",
+    "خيتافي",
+    "เคตาเฟ",
+    "ヘタフェ",
+    "赫塔费",
+    "헤타페"
+   ],
+   "lat": 40.30571,
+   "lon": -3.73295,
+   "population": 187525,
+   "geonameId": "3121437"
+  },
+  {
+   "id": "city:geonames-3110044",
+   "name": "Donostia / San Sebastián",
+   "aliases": [
+    "San Sebastian",
+    "Donosti",
+    "Donostia",
+    "Donostia / San Sebastian",
+    "Donostia San Sebasian",
+    "Donostia San Sebasián",
+    "Donostia-San Sebastian",
+    "Donostia-San Sebastián",
+    "Donostio",
+    "EAS",
+    "La Bella Easo",
+    "Saint-Sebastien",
+    "Saint-Sébastien",
+    "San Sebastián",
+    "San-Sebast'jan",
+    "Sanse",
+    "Sant Sebastia",
+    "Sant Sebastià",
+    "Sao Sebastiao",
+    "São Sebastião",
+    "san sbastyan",
+    "sheng sai wa si ti an",
+    "Сан-Себастьян",
+    "סן סבסטיאן",
+    "سان سباستيان",
+    "サン・セバスティアン",
+    "圣塞瓦斯提安"
+   ],
+   "lat": 43.31283,
+   "lon": -1.97499,
+   "population": 185357,
+   "geonameId": "3110044"
+  },
+  {
+   "id": "city:geonames-2519752",
+   "name": "Castelló de la Plana",
+   "aliases": [
+    "Castello de la Plana",
+    "CDT",
+    "Castello",
+    "Castellon",
+    "Castellon - Castello de la Plana",
+    "Castellon de la Plana",
+    "Castelló",
+    "Castellón",
+    "Castellón de la Plana",
+    "Kastel'on-de-la-Plana",
+    "Kastelon de la Plana",
+    "ka si te li weng-de la pu la na",
+    "qʼstywn dh lh plʼnh",
+    "Кастельон-де-ла-Плана",
+    "Кастељон де ла Плана",
+    "קאסטיון דה לה פלאנה",
+    "カステリョン・デ・ラ・プラナ",
+    "卡斯特利翁-德拉普拉納"
+   ],
+   "lat": 39.98567,
+   "lon": -0.04935,
+   "population": 183711,
+   "geonameId": "2519752"
+  },
+  {
+   "id": "city:geonames-3127461",
+   "name": "Burgos",
+   "aliases": [
+    "Bourgos",
+    "Burgas",
+    "Burgi",
+    "Burgosa",
+    "Burgosas",
+    "Burgoso",
+    "Burgus",
+    "Burqos",
+    "RGS",
+    "brghsh",
+    "brgws",
+    "bu er ge si",
+    "buleugoseu",
+    "bur kos",
+    "burgosa",
+    "burugosu",
+    "bwrgws",
+    "Μπούργος",
+    "Бургас",
+    "Бургос",
+    "Բուրգոս",
+    "בורגוס",
+    "برغش",
+    "برگوس",
+    "بورگوس",
+    "बुर्गोस",
+    "บูร์โกส",
+    "ブルゴス",
+    "布尔戈斯",
+    "부르고스"
+   ],
+   "lat": 42.34106,
+   "lon": -3.70184,
+   "population": 176418,
+   "geonameId": "3127461"
+  },
+  {
+   "id": "city:geonames-3109718",
+   "name": "Santander",
+   "aliases": [
+    "Portus Victoriae Iuliobrigensium",
+    "SDR",
+    "Sanandere",
+    "Santandehr",
+    "Santandel",
+    "Santandera",
+    "Santanderas",
+    "Santandero",
+    "Santandèr",
+    "Santandér",
+    "cantanter",
+    "sang tan de",
+    "santandeleu",
+    "santandera",
+    "santanderu",
+    "santandr",
+    "santandyr",
+    "sntndr",
+    "Сантандер",
+    "Сантандэр",
+    "סנטנדר",
+    "سانتاندر",
+    "سانتاندير",
+    "سانٹانڈر",
+    "सांतांदेर",
+    "சான்தான்தேர்",
+    "サンタンデール",
+    "桑坦德",
+    "산탄데르"
+   ],
+   "lat": 43.46589,
+   "lon": -3.80493,
+   "population": 173635,
+   "geonameId": "3109718"
+  },
+  {
+   "id": "city:geonames-2522258",
+   "name": "Albacete",
+   "aliases": [
+    "ABC",
+    "Al'basete",
+    "Al'baseteh",
+    "Albacet",
+    "Albasete",
+    "Albasetė",
+    "a er wa sai te",
+    "albasete",
+    "albasth",
+    "albasyty",
+    "albsyt",
+    "arubasete",
+    "bsyt",
+    "Албасете",
+    "Альбасете",
+    "Альбасетэ",
+    "אלבסטה",
+    "آلباسته",
+    "الباسيتي",
+    "الباچیتے",
+    "البسيط",
+    "بسيط",
+    "アルバセテ",
+    "阿尔瓦塞特",
+    "阿爾瓦塞特",
+    "알바세테"
+   ],
+   "lat": 38.99424,
+   "lon": -1.85643,
+   "population": 173050,
+   "geonameId": "2522258"
+  },
+  {
+   "id": "city:geonames-3130564",
+   "name": "Alcorcón",
+   "aliases": [
+    "Alcorcon",
+    "Al'karkon",
+    "Al'korkon",
+    "Alcorconum",
+    "Alkorkon",
+    "Alkorkonas",
+    "Alkorkono",
+    "a er ke er kong",
+    "alkoleukon",
+    "alkwrkwn",
+    "arukorukon",
+    "Алкоркон",
+    "Алькаркон",
+    "Алькоркон",
+    "ألكوركون",
+    "アルコルコン",
+    "阿尔科尔孔",
+    "알코르콘"
+   ],
+   "lat": 40.34582,
+   "lon": -3.82487,
+   "population": 172384,
+   "geonameId": "3130564"
+  },
+  {
+   "id": "city:geonames-2514169",
+   "name": "Marbella",
+   "aliases": [
+    "Marbel'ja",
+    "Marbela",
+    "Marbelja",
+    "Marbellja",
+    "Marbelya",
+    "Marvegia",
+    "QRL",
+    "ma bei la",
+    "maleubeya",
+    "marbella",
+    "marbla",
+    "marbya",
+    "marbyla",
+    "maruberya",
+    "Μαρβέγια",
+    "Марбeлья",
+    "Марбелля",
+    "Марбелья",
+    "Марбеля",
+    "Марбеља",
+    "Մարբելյա",
+    "ماربلا",
+    "ماربيا",
+    "ماربيلا",
+    "ماربیا",
+    "मार्बेल्ला",
+    "マルベーリャ",
+    "马贝拉",
+    "마르베야"
+   ],
+   "lat": 36.51543,
+   "lon": -4.88583,
+   "population": 156295,
+   "geonameId": "2514169"
+  },
+  {
+   "id": "city:geonames-3118150",
+   "name": "Logroño",
+   "aliases": [
+    "Logrono",
+    "Lagron'ja",
+    "Logron'jo",
+    "Logron'o",
+    "Logronh",
+    "Logronio",
+    "Logronjas",
+    "Logronjo",
+    "Logronu",
+    "Logronyo",
+    "Logroñu",
+    "Lucronium",
+    "RJL",
+    "lgrnyw",
+    "lo koryo",
+    "logeulonyo",
+    "logron'yo",
+    "logronyo",
+    "luo ge luo ni ao",
+    "lwghrwnyw",
+    "lwgrwnw",
+    "lwgrwnyw",
+    "roguronyo",
+    "Λογρόνιο",
+    "Лагронья",
+    "Логроньйо",
+    "Логроньо",
+    "Логроњо",
+    "Լոգրոնյո",
+    "לוגרוניו",
+    "لوغرونيو",
+    "لوگرونو",
+    "لگرنیو",
+    "लोग्रोंयो",
+    "लोग्रोन्यो",
+    "โลโกรโญ",
+    "ログローニョ",
+    "洛格罗尼奥",
+    "로그로뇨"
+   ],
+   "lat": 42.46615,
+   "lon": -2.45115,
+   "population": 151164,
+   "geonameId": "3118150"
+  },
+  {
+   "id": "city:geonames-2511401",
+   "name": "La Laguna",
+   "aliases": [
+    "La-Laguna",
+    "San Cristobal de La Laguna",
+    "San Cristóbal de La Laguna",
+    "Ла-Лагуна"
+   ],
+   "lat": 28.4853,
+   "lon": -16.32014,
+   "population": 150661,
+   "geonameId": "2511401"
+  },
+  {
+   "id": "city:geonames-2521420",
+   "name": "Badajoz",
+   "aliases": [
+    "Ara Pacis Augustalis",
+    "BJZ",
+    "Badahozo",
+    "Badajos",
+    "Badakhos",
+    "Badaĥozo",
+    "badahosu",
+    "badakhws",
+    "badakhwz",
+    "btlyws",
+    "Бадахос",
+    "باداخوز",
+    "باداخوس",
+    "بطليوس",
+    "バダホス"
+   ],
+   "lat": 38.87789,
+   "lon": -6.97061,
+   "population": 150530,
+   "geonameId": "2521420"
+  },
+  {
+   "id": "city:geonames-3111108",
+   "name": "Salamanca",
+   "aliases": [
+    "Helmantica",
+    "SLM",
+    "Salamanka",
+    "Salamanko",
+    "Salamanque",
+    "Salmantica",
+    "saramanka",
+    "slmnqt",
+    "Саламанка",
+    "سلمنقة",
+    "サラマンカ"
+   ],
+   "lat": 40.96882,
+   "lon": -5.66388,
+   "population": 144825,
+   "geonameId": "3111108"
+  },
+  {
+   "id": "city:geonames-2516548",
+   "name": "Huelva",
+   "aliases": [
+    "HEV",
+    "Onuba",
+    "Onubo",
+    "Uehl'va",
+    "ueruba",
+    "Уэльва",
+    "ウェルバ",
+    "ウエルバ"
+   ],
+   "lat": 37.26638,
+   "lon": -6.94004,
+   "population": 144258,
+   "geonameId": "2516548"
+  },
+  {
+   "id": "city:geonames-3108288",
+   "name": "Tarragona",
+   "aliases": [
+    "QGN",
+    "Taragono",
+    "Tarraco",
+    "Tarrago",
+    "Tarragone",
+    "taragona",
+    "taragwna",
+    "trgwnh",
+    "Таррагона",
+    "טרגונה",
+    "تاراگونا",
+    "タラゴナ"
+   ],
+   "lat": 41.11905,
+   "lon": 1.24544,
+   "population": 141542,
+   "geonameId": "3108288"
+  },
+  {
+   "id": "city:geonames-3118514",
+   "name": "Lleida",
+   "aliases": [
+    "ILD",
+    "Ilerda",
+    "Ilerdo",
+    "Lerida",
+    "Lheida",
+    "Lhèida",
+    "Ljejda",
+    "Lérida",
+    "lyydh",
+    "rerida",
+    "ryeida",
+    "Љејда",
+    "Лерида",
+    "ליידה",
+    "リェイダ",
+    "レリダ"
+   ],
+   "lat": 41.61674,
+   "lon": 0.62218,
+   "population": 140797,
+   "geonameId": "3118514"
+  },
+  {
+   "id": "city:geonames-3125239",
+   "name": "Chamartín",
+   "aliases": [
+    "Chamartin",
+    "Camartino",
+    "Chamartin de la Rosa",
+    "Chamartin distritu",
+    "Chamartín de la Rosa",
+    "Chamartín distritu",
+    "Distrito Chamartin",
+    "Distrito Chamartín",
+    "Tsamartin",
+    "cha ma ding qu",
+    "chamaleutin",
+    "chamartyn",
+    "chamarutin",
+    "Ĉamartino",
+    "Τσαμαρτίν",
+    "Чамартин",
+    "Չամարտին",
+    "چامارتین",
+    "チャマルティン",
+    "查馬丁區",
+    "차마르틴"
+   ],
+   "lat": 40.46206,
+   "lon": -3.6766,
+   "population": 140000,
+   "geonameId": "3125239"
+  },
+  {
+   "id": "city:geonames-3117164",
+   "name": "Mataró",
+   "aliases": [
+    "Mataro",
+    "Iluro",
+    "ma ta luo",
+    "matalo",
+    "mataro",
+    "matarw  brshlwnt",
+    "Матаро",
+    "ماتارو، برشلونة",
+    "मातारो",
+    "マタロー",
+    "马塔罗",
+    "마타로"
+   ],
+   "lat": 41.54211,
+   "lon": 2.4445,
+   "population": 126988,
+   "geonameId": "3117164"
+  },
+  {
+   "id": "city:geonames-3118532",
+   "name": "León",
+   "aliases": [
+    "Leon",
+    "Ciuda de Llion",
+    "Ciudá de Llión",
+    "LEN",
+    "Leono",
+    "Lleo",
+    "Lleon",
+    "Lleó",
+    "Lleón",
+    "lywn",
+    "reon",
+    "Леон",
+    "ليون",
+    "レオン"
+   ],
+   "lat": 42.60003,
+   "lon": -5.57032,
+   "population": 124772,
+   "geonameId": "3118532"
+  },
+  {
+   "id": "city:geonames-2510542",
+   "name": "Telde",
+   "aliases": [
+    "Tel'de",
+    "te er de",
+    "tyldy",
+    "Телде",
+    "Тельде",
+    "تيلدي",
+    "特尔德"
+   ],
+   "lat": 27.99243,
+   "lon": -15.41915,
+   "population": 123265,
+   "geonameId": "2510542"
+  },
+  {
+   "id": "city:geonames-2518794",
+   "name": "Dos Hermanas",
+   "aliases": [
+    "Dos Ermanas",
+    "Дос Ерманас"
+   ],
+   "lat": 37.28287,
+   "lon": -5.92088,
+   "population": 122943,
+   "geonameId": "2518794"
+  },
+  {
+   "id": "city:geonames-2522013",
+   "name": "Algeciras",
+   "aliases": [
+    "AEI",
+    "Al Jezita",
+    "Al'khesiras",
+    "Alchesirasas",
+    "Alchethiras",
+    "Alchezira",
+    "Algecires",
+    "Algesiras",
+    "Algesires",
+    "Algésiras",
+    "Alkhesiras",
+    "Alxeciras",
+    "a er he xi la si",
+    "alghykras",
+    "alhesilaseu",
+    "alkhythyras",
+    "aruheshirasu",
+    "Αλχεθίρας",
+    "Алхесирас",
+    "Альхесирас",
+    "Альхесірас",
+    "الجزيرة الخضراء",
+    "الخيثيراس",
+    "الغیکراس",
+    "アルヘシラス",
+    "阿尔赫西拉斯",
+    "알헤시라스"
+   ],
+   "lat": 36.13326,
+   "lon": -5.45051,
+   "population": 121414,
+   "geonameId": "2522013"
+  },
+  {
+   "id": "city:geonames-3109981",
+   "name": "Santa Coloma de Gramenet",
+   "aliases": [
+    "Santa Coloma",
+    "Santa-Koloma-de-Gramanet",
+    "Санта-Колома-де-Граманет"
+   ],
+   "lat": 41.45152,
+   "lon": 2.2081,
+   "population": 118821,
+   "geonameId": "3109981"
+  },
+  {
+   "id": "city:geonames-3107784",
+   "name": "Torrejón de Ardoz",
+   "aliases": [
+    "Torrejon de Ardoz",
+    "Torechon de Ardosas",
+    "Torekhon de Ardos",
+    "Torrekhon-de-Ardos",
+    "Turricula Ardozensis",
+    "tuo lei hong de ya er duo si",
+    "Торехон де Ардос",
+    "Торрехон-де-Ардос",
+    "トレホン・デ・アルドス",
+    "托雷洪德亚尔多斯"
+   ],
+   "lat": 40.45535,
+   "lon": -3.46973,
+   "population": 118162,
+   "geonameId": "3107784"
+  },
+  {
+   "id": "city:geonames-2520600",
+   "name": "Cadiz",
+   "aliases": [
+    "CDZ",
+    "Cadice",
+    "Cadis",
+    "Cadix",
+    "Cai",
+    "Càdice",
+    "Cádice",
+    "Cádis",
+    "Cádiz",
+    "Gadeira",
+    "Gades",
+    "Gadir",
+    "Gaðes",
+    "Iungadir",
+    "Kadis",
+    "Kadisas",
+    "Kadiz",
+    "Kadizo",
+    "Kadyks",
+    "Kantith",
+    "La tacita de plata",
+    "jia de si",
+    "kadi s",
+    "kadiseu",
+    "kadisu",
+    "kads",
+    "kadydh",
+    "kadys",
+    "qads",
+    "qdys",
+    "Κάντιθ",
+    "Кадиз",
+    "Кадис",
+    "Кадіс",
+    "קדיס",
+    "قادس",
+    "كاديذ",
+    "کادس",
+    "کادیس",
+    "กาดิซ",
+    "კადისი",
+    "ካዲዝ",
+    "カディス",
+    "加的斯",
+    "카디스"
+   ],
+   "lat": 36.52672,
+   "lon": -6.2891,
+   "population": 116979,
+   "geonameId": "2520600"
+  },
+  {
+   "id": "city:geonames-3130583",
+   "name": "Alcobendas",
+   "aliases": [
+    "Al'kobendas",
+    "Alcovendae",
+    "Alkobendas",
+    "Alkobendasas",
+    "a er ke wen da si",
+    "alkobendaseu",
+    "alkwbyndas",
+    "arukobendasu",
+    "Алкобендас",
+    "Алькобендас",
+    "ألكوبينداس",
+    "アルコベンダス",
+    "阿尔科文达斯",
+    "알코벤다스"
+   ],
+   "lat": 40.54746,
+   "lon": -3.64197,
+   "population": 116037,
+   "geonameId": "3130583"
+  },
+  {
+   "id": "city:geonames-3114256",
+   "name": "Parla",
+   "aliases": [
+    "barla",
+    "pa er la",
+    "Парла",
+    "بارلا",
+    "帕尔拉"
+   ],
+   "lat": 40.23604,
+   "lon": -3.76752,
+   "population": 115611,
+   "geonameId": "3114256"
+  },
+  {
+   "id": "city:geonames-2516395",
+   "name": "Jaén",
+   "aliases": [
+    "Jaen",
+    "Aurgi",
+    "Haeno",
+    "JEA",
+    "Khaehn",
+    "Xaen - Jaen",
+    "Xaén",
+    "haen",
+    "jyan",
+    "Ĥaeno",
+    "Хаэн",
+    "جيان",
+    "ハエン"
+   ],
+   "lat": 37.76922,
+   "lon": -3.79028,
+   "population": 113457,
+   "geonameId": "2516395"
+  },
+  {
+   "id": "city:geonames-3114965",
+   "name": "Ourense",
+   "aliases": [
+    "OUQ",
+    "Orance",
+    "Orense",
+    "Orenso",
+    "Ovrense",
+    "ourense",
+    "Овренсе",
+    "Оренсе",
+    "オウレンセ"
+   ],
+   "lat": 42.33669,
+   "lon": -7.86407,
+   "population": 105233,
+   "geonameId": "3114965"
+  },
+  {
+   "id": "city:geonames-3111933",
+   "name": "Reus",
+   "aliases": [
+    "REU",
+    "Реус"
+   ],
+   "lat": 41.15612,
+   "lon": 1.10687,
+   "population": 103477,
+   "geonameId": "3111933"
+  },
+  {
+   "id": "city:geonames-2513076",
+   "name": "Orihuela",
+   "aliases": [
+    "Auraiola",
+    "Aurariola",
+    "Oriola",
+    "Oriouela",
+    "Oriuehla",
+    "Oriuela",
+    "Orivela",
+    "ao li wei la",
+    "aryhwyla",
+    "awrywyla",
+    "oriuera",
+    "Οριουέλα",
+    "Оривела",
+    "Ориуэла",
+    "Оріуела",
+    "Օրիուելա",
+    "أوريويلا",
+    "اریهوئلا",
+    "اوریہیولا",
+    "オリウエラ",
+    "奥里韦拉"
+   ],
+   "lat": 38.08483,
+   "lon": -0.94401,
+   "population": 101321,
+   "geonameId": "2513076"
+  },
+  {
+   "id": "city:geonames-3109453",
+   "name": "Barakaldo",
+   "aliases": [
+    "Baracaldo",
+    "Done Bikendi",
+    "San Bizente",
+    "San Bizenti-Barakaldo",
+    "San Vicente de Baracaldo",
+    "Sanbi",
+    "Баракалдо"
+   ],
+   "lat": 43.29639,
+   "lon": -2.98813,
+   "population": 100435,
+   "geonameId": "3109453"
+  },
+  {
+   "id": "city:geonames-3121456",
+   "name": "Girona",
+   "aliases": [
+    "GRO",
+    "Gerona",
+    "Gerone",
+    "Girono",
+    "Gérone",
+    "Kherona",
+    "Zherona",
+    "Zhirona",
+    "jirona",
+    "Ĝirono",
+    "Жерона",
+    "Жирона",
+    "Херона",
+    "ジローナ"
+   ],
+   "lat": 41.98311,
+   "lon": 2.82493,
+   "population": 100266,
+   "geonameId": "3121456"
+  },
+  {
+   "id": "city:geonames-3109642",
+   "name": "Santiago de Compostela",
+   "aliases": [
+    "Compostela",
+    "Compostelako Donejakue",
+    "Compostella",
+    "Compostèla",
+    "Lungsod ng Santiago de Compostela",
+    "SCQ",
+    "Saint-Jacques-de-Compostelle",
+    "Sant'jago-de-Kompostela",
+    "Sant'jago-de-Kompostelae",
+    "Santiago",
+    "Santiago de Compostella",
+    "Santiago de Compostel·la",
+    "Santiago de Kompostela",
+    "Santiago di Compostela",
+    "Santiago nte Kompostela",
+    "Santiagu de Compostela",
+    "Santiaqo de Kompostela",
+    "Santijago de Kompostela",
+    "Santjaga-deh-Kampastehla",
+    "Santjago de Kompostela",
+    "Sint-Djake-el-Galice",
+    "Sint-Djåke-el-Galice",
+    "cantiyako te kompocutela",
+    "kong bo si te la de sheng de ya ge",
+    "san teiy ko dek xm po s te la",
+    "santi'ago de komaposatela",
+    "santi'ago de kompostela",
+    "santiagodekomposeutella",
+    "santiyago de kompostela",
+    "santyaghw dy kwmbwstyla",
+    "santyagw d kmpwstla",
+    "santyajw dy kwmbwstyla",
+    "sheng de ya ge jin bo si te la",
+    "sheng de ya ge-de kong bo si te la",
+    "Σαντιάγο ντε Κομποστέλα",
+    "Сантијаго де Компостела",
+    "Сантьяго-де-Компостелæ",
+    "Сантьяго-де-Компостела",
+    "Сантяга-дэ-Кампастэла",
+    "Сантяго де Компостела",
+    "Сантјаго де Компостела",
+    "Սանտիագո դե Կոմպոստելա",
+    "סאנטיאגא דע קאמפאסטעלא",
+    "סנטיאגו דה קומפוסטלה",
+    "سانتياجو دى كومبوستيلا",
+    "سانتياغو دي كومبوستيلا",
+    "سانتیاگو د کمپوستلا",
+    "سانتیاگو دے کومپوستیلا",
+    "सांतिआगो दे कोम्पोस्तेला",
+    "सांतियागो दे कोंपोस्तेला",
+    "ਸਾਂਤੀਆਗੋ ਦੇ ਕੋਮਪੋਸਤੇਲਾ",
+    "சாந்தியாகோ தே கோம்போசுதேலா",
+    "සන්තියාගෝ ඩි කොම්පොස්ටෙලා",
+    "ซานเตียโกเดกอมโปสเตลา",
+    "სანტიაგო-დე-კომპოსტელა",
+    "サンティアゴ・デ・コンポステーラ",
+    "孔波斯特拉的聖地牙哥",
+    "聖地亞哥-德孔波斯特拉",
+    "聖地亞哥金波斯特拉",
+    "산티아고데콤포스텔라"
+   ],
+   "lat": 42.88052,
+   "lon": -8.54569,
+   "population": 99536,
+   "geonameId": "3109642"
+  },
+  {
+   "id": "city:geonames-3117814",
+   "name": "Lugo",
+   "aliases": [
+    "LUY",
+    "lwghw",
+    "rugo",
+    "Луго",
+    "لوغو",
+    "ルーゴ"
+   ],
+   "lat": 43.00992,
+   "lon": -7.55602,
+   "population": 98025,
+   "geonameId": "3117814"
+  },
+  {
+   "id": "city:geonames-2520611",
+   "name": "Cáceres",
+   "aliases": [
+    "Caceres",
+    "Caceres i Spania",
+    "Cacris",
+    "Caçris",
+    "Càceres",
+    "Cáceres i Spania",
+    "Kaserehs",
+    "Kaseres",
+    "Kaseresa",
+    "Kaseresas",
+    "Katheres",
+    "Norba Caesarina",
+    "QUQ",
+    "ka sai lei si",
+    "ka se res",
+    "ka sha li si",
+    "kakeresa",
+    "kakyrys",
+    "kaseleseu",
+    "kaseresu",
+    "kasrs",
+    "kasyrys",
+    "katheresa",
+    "kathyrs",
+    "kathyrys",
+    "qshrsh",
+    "qsrs",
+    "qsrsh",
+    "Κάθερες",
+    "Касерес",
+    "Касерэс",
+    "קסרס",
+    "قشرش",
+    "قصرش",
+    "كاثيرس",
+    "كاثيريس",
+    "کاسرس",
+    "کاسیریس",
+    "کاکیریس",
+    "काकेरेस",
+    "ਕਾਥੇਰੇਸ",
+    "กาเซเรส",
+    "კასერესი",
+    "カセレス",
+    "卡塞雷斯",
+    "卡沙利斯",
+    "카세레스"
+   ],
+   "lat": 39.47649,
+   "lon": -6.37224,
+   "population": 96068,
+   "geonameId": "2520611"
+  },
+  {
+   "id": "city:geonames-3118848",
+   "name": "Las Rozas de Madrid",
+   "aliases": [
+    "Las Rozas",
+    "Las-Rosas-de-Madrid",
+    "Rozae Matritenses",
+    "Rozas de Madrid",
+    "la si luo sa si de ma de li de",
+    "las rwzas dy mdryd",
+    "Лас-Росас-де-Мадрид",
+    "Розас де Мадрид",
+    "لاس روزاس دي مدريد",
+    "拉斯罗萨斯德马德里德"
+   ],
+   "lat": 40.49292,
+   "lon": -3.87371,
+   "population": 95550,
+   "geonameId": "3118848"
+  },
+  {
+   "id": "city:geonames-2511388",
+   "name": "San Fernando",
+   "aliases": [
+    "San Fernanando",
+    "San Fernando i Spania",
+    "San-Fernando",
+    "san frnandw  qads",
+    "sheng fei er nan duo",
+    "Сан Фернандо",
+    "Сан-Фернандо",
+    "سان فرناندو، قادس",
+    "サン・フェルナンド",
+    "圣费尔南多"
+   ],
+   "lat": 36.4759,
+   "lon": -6.19817,
+   "population": 95174,
+   "geonameId": "2511388"
+  },
+  {
+   "id": "city:geonames-2511716",
+   "name": "Roquetas de Mar",
+   "aliases": [
+    "Roketas de Mar",
+    "Roketas-de-Mar",
+    "Roquetas",
+    "luo ke ta si de ma er",
+    "rktas d mar",
+    "rwkwytas dy mar",
+    "Рокетас де Мар",
+    "Рокетас-де-Мар",
+    "روكويتاس دي مار",
+    "رکتاس د مار",
+    "ロケタス・デ・マル",
+    "罗克塔斯德马尔"
+   ],
+   "lat": 36.76419,
+   "lon": -2.61475,
+   "population": 94925,
+   "geonameId": "2511716"
+  },
+  {
+   "id": "city:geonames-3121070",
+   "name": "Guadalajara",
+   "aliases": [
+    "GDU",
+    "Gvadalaharo",
+    "Gvadalakhara",
+    "guadarahara",
+    "Гвадалахара",
+    "グアダラハラ"
+   ],
+   "lat": 40.62862,
+   "lon": -3.16185,
+   "population": 93470,
+   "geonameId": "3121070"
+  },
+  {
+   "id": "city:geonames-2514891",
+   "name": "Lorca",
+   "aliases": [
+    "Llorca",
+    "Lorka",
+    "Lorko",
+    "XJR",
+    "lwrka  mrsyt",
+    "lwrqh",
+    "roruka",
+    "Лорка",
+    "לורקה",
+    "لوركا، مرسية",
+    "ロルカ"
+   ],
+   "lat": 37.67119,
+   "lon": -1.7017,
+   "population": 93079,
+   "geonameId": "2514891"
+  },
+  {
+   "id": "city:geonames-2510693",
+   "name": "Talavera de la Reina",
+   "aliases": [
+    "Aebura",
+    "Caesarobriga",
+    "Ebora",
+    "Ebura",
+    "Elbora",
+    "QWT",
+    "Talavera de la Rejna",
+    "Talavera de la reina",
+    "Talavera del Tajo",
+    "Talavera-de-la-Rejna",
+    "ta la be ra de la rey na",
+    "ta la wei la de la lei na",
+    "talavera di la rina",
+    "tlbyrt",
+    "Талавера де ла Реина",
+    "Талавера де ла Рейна",
+    "Талавера-де-ла-Рейна",
+    "طلبيرة",
+    "टालावेरा दी ला रीना",
+    "ตาลาเบราเดลาเรย์นา",
+    "ታላቬራ ዴ ላ ሬና",
+    "タラベラ・デ・ラ・レイナ",
+    "塔拉韦拉德拉雷纳"
+   ],
+   "lat": 39.96348,
+   "lon": -4.83076,
+   "population": 88856,
+   "geonameId": "2510693"
+  },
+  {
+   "id": "city:geonames-2518207",
+   "name": "El Puerto de Santa María",
+   "aliases": [
+    "El Puerto de Santa Maria",
+    "Ehl'-Puehrto-de-Santa-Marija",
+    "El Puerto",
+    "El'-Puerto-de-Santa-Marija",
+    "PXS",
+    "Portus Sanctae Mariae",
+    "Pto. de Sta. Maria",
+    "Pto. de Sta. María",
+    "Puerto",
+    "Puerto de Santa Maria",
+    "Puerto de Santa Marija",
+    "Puerto de Santa María",
+    "al bwyrtw dy santa marya",
+    "elpueleutodesantamalia",
+    "sheng ma li ya gang",
+    "xelpwyr to de san ta ma ri xa",
+    "Ель-Пуерто-де-Санта-Марія",
+    "Пуерто де Санта Марија",
+    "Эль-Пуэрто-де-Санта-Мария",
+    "إل بويرتو دي سانتا ماريا",
+    "เอลปวยร์โตเดซานตามารีอา",
+    "エル・プエルト・デ・サンタ・マリア",
+    "圣玛丽亚港",
+    "엘푸에르토데산타마리아"
+   ],
+   "lat": 36.59389,
+   "lon": -6.23298,
+   "population": 88364,
+   "geonameId": "2518207"
+  },
+  {
+   "id": "city:geonames-3124569",
+   "name": "Cornellà de Llobregat",
+   "aliases": [
+    "Cornella de Llobregat",
+    "Cornellá de Llobregat"
+   ],
+   "lat": 41.35,
+   "lon": 2.08333,
+   "population": 87173,
+   "geonameId": "3124569"
+  },
+  {
+   "id": "city:geonames-2510409",
+   "name": "Toledo",
+   "aliases": [
+    "Taleda",
+    "Toledas",
+    "Tolede",
+    "Toledo i Spania",
+    "Toledu",
+    "Toletum",
+    "Toleu",
+    "Tolède",
+    "XTJ",
+    "tlytlt",
+    "to le do",
+    "toledo",
+    "toleto",
+    "tolledo",
+    "toredo",
+    "tuo lai duo",
+    "tuo li duo",
+    "twldw",
+    "twldw  aspanya",
+    "twlydw",
+    "Τολέδο",
+    "Таледа",
+    "Толедо",
+    "Տոլեդո",
+    "טאלעדא",
+    "טולדו",
+    "تولدو، اسپانیا",
+    "توليدو",
+    "طليطلة",
+    "طلیطلہ",
+    "तोलेदो",
+    "ਤੋਲੇਦੋ",
+    "டொலேடோ",
+    "โตเลโด",
+    "ტოლედო",
+    "ቶሌዶ",
+    "トレド",
+    "托利多",
+    "托萊多",
+    "톨레도"
+   ],
+   "lat": 39.8581,
+   "lon": -4.02263,
+   "population": 86526,
+   "geonameId": "2510409"
+  },
+  {
+   "id": "city:geonames-2513947",
+   "name": "Melilla",
+   "aliases": [
+    "Ciudad Autonoma de Melilla",
+    "Ciudad Autónoma de Melilla",
+    "Ciudad de Melilla",
+    "Korisnik:Slaven Kosanovic/Melila",
+    "Lungsod ng Melilla",
+    "M'lila",
+    "MLN",
+    "Melil'ja",
+    "Melila",
+    "Melilo",
+    "Melilya",
+    "Meliya",
+    "Millela",
+    "Rusaddir",
+    "Rusadir",
+    "Russadir",
+    "me li ya",
+    "mei li li ya",
+    "melilia",
+    "melliya",
+    "merirya",
+    "mlylyh",
+    "mlylyt",
+    "mlyyh",
+    "Корисник:Славен Косановић/Мелиља",
+    "Мелила",
+    "Мелилья",
+    "Мелиља",
+    "מלייה",
+    "مليلية",
+    "ملیلیه",
+    "เมลียา",
+    "მელილია",
+    "メリリャ",
+    "梅利利亚",
+    "멜리야"
+   ],
+   "lat": 35.29369,
+   "lon": -2.93833,
+   "population": 85985,
+   "geonameId": "2513947"
+  },
+  {
+   "id": "city:geonames-2518494",
+   "name": "El Ejido",
+   "aliases": [
+    "Barriada El Ejido",
+    "Ehl'-Ehkhido",
+    "Ejido",
+    "Ekhido",
+    "El Edzido",
+    "El'-Ekhido",
+    "ai lai xi duo",
+    "al akhydw",
+    "alayjaydw",
+    "Ел Еџидо",
+    "Ель-Ехідо",
+    "Ехидо",
+    "Эль-Эхидо",
+    "إلإيجايدو",
+    "ال اخیدو",
+    "エル・エヒド",
+    "埃莱希多"
+   ],
+   "lat": 36.77629,
+   "lon": -2.81456,
+   "population": 84710,
+   "geonameId": "2518494"
+  },
+  {
+   "id": "city:geonames-2519513",
+   "name": "Chiclana de la Frontera",
+   "aliases": [
+    "Chiclana",
+    "Chiklana-de-la-Frontera",
+    "Чиклана-де-ла-Фронтера"
+   ],
+   "lat": 36.41976,
+   "lon": -6.14367,
+   "population": 83831,
+   "geonameId": "2519513"
+  },
+  {
+   "id": "city:geonames-6362987",
+   "name": "Ceuta",
+   "aliases": [
+    "JCU",
+    "Seuta",
+    "Сеута"
+   ],
+   "lat": 35.88919,
+   "lon": -5.32042,
+   "population": 83179,
+   "geonameId": "6362987"
+  },
+  {
+   "id": "city:geonames-3113209",
+   "name": "Pontevedra",
+   "aliases": [
+    "PTE",
+    "Pontevedro",
+    "pontebedora",
+    "Понтеведра",
+    "ポンテベドラ"
+   ],
+   "lat": 42.431,
+   "lon": -8.64435,
+   "population": 82802,
+   "geonameId": "3113209"
+  },
+  {
+   "id": "city:geonames-2510253",
+   "name": "Torrevieja",
+   "aliases": [
+    "Malnovturo",
+    "Toreviekha",
+    "Toreviexa",
+    "Torevijekha",
+    "Torrev'ekha",
+    "Torrevekha",
+    "Torrevella",
+    "Torrevella de la Mata",
+    "torebieha",
+    "trbykha",
+    "tuo lei wei ye ha",
+    "twrbyyhh",
+    "twrryfyykha",
+    "twryfayja",
+    "Торевиеха",
+    "Торевијеха",
+    "Торревьеха",
+    "Торревєха",
+    "Տոռեվիեխա",
+    "טורבייחה",
+    "تربیخا",
+    "تورريفييخا",
+    "توريفايجا",
+    "トレビエハ",
+    "托雷维耶哈"
+   ],
+   "lat": 37.97872,
+   "lon": -0.68222,
+   "population": 82599,
+   "geonameId": "2510253"
+  },
+  {
+   "id": "city:geonames-3110834",
+   "name": "Sant Boi de Llobregat",
+   "aliases": [],
+   "lat": 41.34357,
+   "lon": 2.03659,
+   "population": 82428,
+   "geonameId": "3110834"
+  },
+  {
+   "id": "city:geonames-3112989",
+   "name": "Pozuelo de Alarcón",
+   "aliases": [
+    "Pozuelo de Alarcon",
+    "Posuehlo-de-Alarkon",
+    "Posuelo-de-Alarkon",
+    "Pozolum",
+    "Pozuelo",
+    "Pozuelo de Alarkon",
+    "bo su ai luo de ya la er kong",
+    "bwzwylw dy alarkwn",
+    "posuellodeallaleukon",
+    "Позуело де Аларкон",
+    "Посуело-де-Аларкон",
+    "Посуэло-де-Аларкон",
+    "بوزويلو دي الاركون",
+    "波苏埃洛德亚拉尔孔",
+    "포수엘로데알라르콘"
+   ],
+   "lat": 40.43293,
+   "lon": -3.81338,
+   "population": 82428,
+   "geonameId": "3112989"
+  },
+  {
+   "id": "city:geonames-3124408",
+   "name": "Coslada",
+   "aliases": [
+    "Coslata",
+    "Koslada",
+    "Koslado",
+    "ke si la da",
+    "kosurada",
+    "kwslada",
+    "Кослада",
+    "كوسلادا",
+    "コスラーダ",
+    "科斯拉达"
+   ],
+   "lat": 40.42378,
+   "lon": -3.56129,
+   "population": 81860,
+   "geonameId": "3124408"
+  },
+  {
+   "id": "city:geonames-3121007",
+   "name": "Getxo",
+   "aliases": [],
+   "lat": 43.35689,
+   "lon": -3.01146,
+   "population": 80770,
+   "geonameId": "3121007"
+  },
+  {
+   "id": "city:geonames-2513882",
+   "name": "Mijas",
+   "aliases": [
+    "Mikhas",
+    "mi ha si",
+    "mihasu",
+    "mykhas",
+    "Михас",
+    "Міхас",
+    "ميخاس",
+    "ミハス",
+    "米哈斯"
+   ],
+   "lat": 36.59575,
+   "lon": -4.63728,
+   "population": 80630,
+   "geonameId": "2513882"
+  },
+  {
+   "id": "city:geonames-3110718",
+   "name": "Sant Cugat del Vallès",
+   "aliases": [
+    "Sant Cugat del Valles",
+    "Sant Cugat"
+   ],
+   "lat": 41.47063,
+   "lon": 2.08611,
+   "population": 79253,
+   "geonameId": "3110718"
+  },
+  {
+   "id": "city:geonames-3129135",
+   "name": "Avilés",
+   "aliases": [
+    "Aviles",
+    "Avilesas",
+    "Avileso",
+    "a wei lai si",
+    "abilleseu",
+    "abiresu",
+    "abyls",
+    "afylys",
+    "awyls",
+    "Авилес",
+    "Авілес",
+    "آبیلس",
+    "أفيليس",
+    "اویلس",
+    "アビレス",
+    "阿维莱斯",
+    "아빌레스"
+   ],
+   "lat": 43.55473,
+   "lon": -5.92483,
+   "population": 78715,
+   "geonameId": "3129135"
+  },
+  {
+   "id": "city:geonames-3114531",
+   "name": "Palencia",
+   "aliases": [
+    "Liste del villagies locata in Palencia",
+    "PCI",
+    "Palencio",
+    "Palensija",
+    "Palentzia",
+    "Pallantia",
+    "Palència",
+    "Paléncia",
+    "Palência",
+    "balnthya",
+    "pa lun xi ya",
+    "pallensia",
+    "palnsya",
+    "parenshia",
+    "Паленсия",
+    "Паленсија",
+    "Паленсія",
+    "بالنثيا",
+    "پالنسیا",
+    "パレンシア",
+    "帕伦西亚",
+    "팔렌시아"
+   ],
+   "lat": 42.00955,
+   "lon": -4.52406,
+   "population": 78629,
+   "geonameId": "3114531"
+  },
+  {
+   "id": "city:geonames-2521582",
+   "name": "Arona",
+   "aliases": [
+    "Aron",
+    "Arona pa Tenerife",
+    "Arona på Tenerife",
+    "a luo na",
+    "arwna  asbanya",
+    "Арон",
+    "Арона",
+    "أرونا، إسبانيا",
+    "阿罗纳"
+   ],
+   "lat": 28.09962,
+   "lon": -16.68102,
+   "population": 78614,
+   "geonameId": "2521582"
+  },
+  {
+   "id": "city:geonames-2510279",
+   "name": "Torrent",
+   "aliases": [
+    "Torrente",
+    "Торрент"
+   ],
+   "lat": 39.43705,
+   "lon": -0.46546,
+   "population": 78543,
+   "geonameId": "2510279"
+  },
+  {
+   "id": "city:geonames-3117533",
+   "name": "Manresa",
+   "aliases": [
+    "Manreza",
+    "Манреза",
+    "Манреса"
+   ],
+   "lat": 41.72815,
+   "lon": 1.82399,
+   "population": 76250,
+   "geonameId": "3117533"
+  },
+  {
+   "id": "city:geonames-3110040",
+   "name": "San Sebastián de los Reyes",
+   "aliases": [
+    "San Sebastian de los Reyes",
+    "S.S. de los Reyes",
+    "SS de los Reyes",
+    "San Sebastian de los Rejesas",
+    "San Sebastijan de los Rejes",
+    "San-Sebast'jan-de-los-Rees",
+    "San-Sebastian-de-los-Rejes",
+    "Sanctus Sebastianus Regum",
+    "Sanse",
+    "san sbastyan dy lws ryys",
+    "sheng sai wa si di an de luo si lei ai si",
+    "Сан Себастијан де лос Рејес",
+    "Сан-Себастиан-де-лос-Рейес",
+    "Сан-Себастьян-де-лос-Реєс",
+    "سان سباستيان دي لوس رييس",
+    "サン・セバスティアン・デ・ロス・レイエス",
+    "圣塞瓦斯蒂安德洛斯雷埃斯"
+   ],
+   "lat": 40.55555,
+   "lon": -3.62733,
+   "population": 75912,
+   "geonameId": "3110040"
+  },
+  {
+   "id": "city:geonames-3106868",
+   "name": "Valdemoro",
+   "aliases": [
+    "Val'demoro",
+    "Vallis Mauri",
+    "ba er de mo luo",
+    "fladymwrw",
+    "Валдеморо",
+    "Вальдеморо",
+    "فلاديمورو",
+    "巴尔德莫罗"
+   ],
+   "lat": 40.19081,
+   "lon": -3.67887,
+   "population": 74745,
+   "geonameId": "3106868"
+  },
+  {
+   "id": "city:geonames-2519402",
+   "name": "Ciudad Real",
+   "aliases": [
+    "CQM",
+    "Cidade Real",
+    "Ciuda Real",
+    "Ciudá Real",
+    "S'judad-Real'",
+    "S'judad-Rehal'",
+    "Sjudad Real",
+    "Villa-Real",
+    "lei a er cheng",
+    "siudadeuleal",
+    "sywdad ryal",
+    "thywdad ryal",
+    "Сьюдад-Реаль",
+    "Сьюдад-Рэаль",
+    "Сјудад Реал",
+    "סיודאד ריאל",
+    "ثيوداد ريال",
+    "سیوداد رئال",
+    "シウダー・レアル",
+    "雷阿爾城",
+    "시우다드레알"
+   ],
+   "lat": 38.98626,
+   "lon": -3.92907,
+   "population": 74743,
+   "geonameId": "2519402"
+  },
+  {
+   "id": "city:geonames-2509769",
+   "name": "Vélez-Málaga",
+   "aliases": [
+    "Velez-Malaga",
+    "Beleth-Malaga",
+    "Veles Malaga",
+    "Veles-Malaga",
+    "Vélez-Màlaga",
+    "bei lai si-ma la jia",
+    "beresu=maraga",
+    "fylyth-malqt",
+    "Μπέλεθ-Μάλαγα",
+    "Вeлес-Мaлага",
+    "Велез-Малага",
+    "Велес-Малага",
+    "Վելես Մալագա",
+    "فيليث-مالقة",
+    "ベレス＝マラガ",
+    "贝莱斯-马拉加"
+   ],
+   "lat": 36.78107,
+   "lon": -4.10266,
+   "population": 74190,
+   "geonameId": "2509769"
+  },
+  {
+   "id": "city:geonames-2517367",
+   "name": "Gandia",
+   "aliases": [
+    "Gandie",
+    "Gandija",
+    "Gandía",
+    "Гандия"
+   ],
+   "lat": 38.96667,
+   "lon": -0.18333,
+   "population": 73829,
+   "geonameId": "2517367"
+  },
+  {
+   "id": "city:geonames-3111294",
+   "name": "Rubí",
+   "aliases": [
+    "Rubi",
+    "Руби"
+   ],
+   "lat": 41.49226,
+   "lon": 2.03305,
+   "population": 72987,
+   "geonameId": "3111294"
+  },
+  {
+   "id": "city:geonames-2511150",
+   "name": "Santa Lucía",
+   "aliases": [
+    "Santa Lucia",
+    "Santa Lucia de Tirajana",
+    "Santa Lucía de Tirajana",
+    "sheng lu xi ya",
+    "圣卢西亚"
+   ],
+   "lat": 27.91174,
+   "lon": -15.54071,
+   "population": 71863,
+   "geonameId": "2511150"
+  },
+  {
+   "id": "city:geonames-2517595",
+   "name": "Fuengirola",
+   "aliases": [
+    "FGR",
+    "Fuehnkhirola",
+    "Fuenkhirola",
+    "feng xi luo la",
+    "fu en ji luo la",
+    "fwynkhyrwla",
+    "shyl",
+    "Фуенхирола",
+    "Фуенхірола",
+    "Фуэнхирoла",
+    "Фуэнхирола",
+    "سهيل",
+    "فوينخيرولا",
+    "丰希罗拉",
+    "福恩吉罗拉"
+   ],
+   "lat": 36.53998,
+   "lon": -4.62473,
+   "population": 71482,
+   "geonameId": "2517595"
+  },
+  {
+   "id": "city:geonames-2521088",
+   "name": "Benidorm",
+   "aliases": [
+    "Benidormo",
+    "bei ni duo er mu",
+    "benidoleum",
+    "benidorumu",
+    "bnydwrm",
+    "Бенидорм",
+    "Бенідорм",
+    "Բենիդորմ",
+    "بنيدورم",
+    "بنیدورم",
+    "ベニドルム",
+    "贝尼多尔姆",
+    "베니도름"
+   ],
+   "lat": 38.53816,
+   "lon": -0.13098,
+   "population": 70450,
+   "geonameId": "2521088"
+  },
+  {
+   "id": "city:geonames-2522165",
+   "name": "Alcalá de Guadaira",
+   "aliases": [
+    "Alcala de Guadaira",
+    "Al'kala-de-Gvadaira",
+    "Alcalá de Guadaíra",
+    "Алькала-де-Гвадаира"
+   ],
+   "lat": 37.33791,
+   "lon": -5.83951,
+   "population": 70155,
+   "geonameId": "2522165"
+  },
+  {
+   "id": "city:geonames-3113236",
+   "name": "Ponferrada",
+   "aliases": [
+    "PFE",
+    "Pomeriada",
+    "Ponferada",
+    "Ponferado",
+    "bwnfyrada",
+    "peng fei la da",
+    "ponferada",
+    "ponpelada",
+    "Понферада",
+    "Понферрада",
+    "بونفيرادا",
+    "ポンフェラーダ",
+    "蓬费拉达",
+    "폰페라다"
+   ],
+   "lat": 42.54664,
+   "lon": -6.59619,
+   "population": 68736,
+   "geonameId": "3113236"
+  },
+  {
+   "id": "city:geonames-3107112",
+   "name": "Rivas-Vaciamadrid",
+   "aliases": [
+    "Rivas Vaciamadrid",
+    "Vaciamadrid",
+    "Vasiamadrid",
+    "Васиамадрид"
+   ],
+   "lat": 40.32605,
+   "lon": -3.51089,
+   "population": 68405,
+   "geonameId": "3107112"
+  },
+  {
+   "id": "city:geonames-3117667",
+   "name": "Majadahonda",
+   "aliases": [
+    "Makhadaonda",
+    "Maxadahonda",
+    "ma ha da weng da",
+    "majadahwnda",
+    "Махадаонда",
+    "ماجاداهوندا",
+    "马哈达翁达"
+   ],
+   "lat": 40.47353,
+   "lon": -3.87182,
+   "population": 68110,
+   "geonameId": "3117667"
+  },
+  {
+   "id": "city:geonames-2511306",
+   "name": "Sanlúcar de Barrameda",
+   "aliases": [
+    "Sanlucar de Barrameda",
+    "San Lucar de Barrameda",
+    "Sanlucar",
+    "Sanlukar de Barameda",
+    "Sanlukar-de-Barrameda",
+    "Sanlúcar",
+    "Sunlucar de Barrameda",
+    "san luk arde bar ra me da",
+    "sang lu ka er de wa la mei da",
+    "sanlukaleudebalameda",
+    "shlwqt",
+    "Санлукар де Барамеда",
+    "Санлукар-де-Баррамеда",
+    "شلوقة",
+    "ซานลูการ์เดบาร์ราเมดา",
+    "სანლუკარ-დე-ბარამედა",
+    "サンルーカル・デ・バラメーダ",
+    "桑卢卡尔德瓦拉梅达",
+    "산루카르데바라메다"
+   ],
+   "lat": 36.77808,
+   "lon": -6.3515,
+   "population": 68037,
+   "geonameId": "2511306"
+  },
+  {
+   "id": "city:geonames-2520425",
+   "name": "Campiña",
+   "aliases": [
+    "Campina",
+    "Caserio Campina",
+    "Caserío Campiña"
+   ],
+   "lat": 38.21896,
+   "lon": -2.98069,
+   "population": 67904,
+   "geonameId": "2520425"
+  },
+  {
+   "id": "city:geonames-2517816",
+   "name": "Estepona",
+   "aliases": [
+    "EVO",
+    "Ehstepona",
+    "ai si te bo na",
+    "astybwna",
+    "esutepona",
+    "Естепона",
+    "Эстепона",
+    "إستيبونا",
+    "エステポナ",
+    "埃斯特波纳"
+   ],
+   "lat": 36.42764,
+   "lon": -5.14589,
+   "population": 67012,
+   "geonameId": "2517816"
+  },
+  {
+   "id": "city:geonames-3123493",
+   "name": "Ferrol",
+   "aliases": [
+    "El Ferrol",
+    "Феррол"
+   ],
+   "lat": 43.48451,
+   "lon": -8.23293,
+   "population": 66799,
+   "geonameId": "3123493"
+  },
+  {
+   "id": "city:geonames-3125897",
+   "name": "Castelldefels",
+   "aliases": [],
+   "lat": 41.27794,
+   "lon": 1.97033,
+   "population": 66375,
+   "geonameId": "3125897"
+  },
+  {
+   "id": "city:geonames-3105935",
+   "name": "Viladecans",
+   "aliases": [
+    "Biladakans",
+    "Viladekans",
+    "bi la de kan si",
+    "fyladykans",
+    "Біладаканс",
+    "Виладеканс",
+    "فيلاديكانس",
+    "比拉德坎斯"
+   ],
+   "lat": 41.31405,
+   "lon": 2.01427,
+   "population": 66168,
+   "geonameId": "3105935"
+  },
+  {
+   "id": "city:geonames-2511619",
+   "name": "Sagunto",
+   "aliases": [
+    "Morvedre",
+    "Sagonte",
+    "Sagunt",
+    "Saguntum",
+    "sgwntwm",
+    "Сагунто",
+    "סגונטום"
+   ],
+   "lat": 39.68333,
+   "lon": -0.26667,
+   "population": 66070,
+   "geonameId": "2511619"
+  },
+  {
+   "id": "city:geonames-3105184",
+   "name": "Vilanova i la Geltrú",
+   "aliases": [
+    "Vilanova i la Geltru",
+    "Vilanova"
+   ],
+   "lat": 41.22392,
+   "lon": 1.72511,
+   "population": 65890,
+   "geonameId": "3105184"
+  },
+  {
+   "id": "city:geonames-2510281",
+   "name": "Torremolinos",
+   "aliases": [
+    "Toremolinos",
+    "Toremolinos-Malaga",
+    "Toremolinos-Málaga",
+    "Torremolinos-Malaga",
+    "Torremolinos-Málaga",
+    "UTL",
+    "tuo lei mo li nuo si",
+    "twrymwlynws",
+    "Τορρεμολίνος",
+    "Торемолинос",
+    "Торремолинос",
+    "Торремолінос",
+    "توريمولينوس",
+    "托雷莫利诺斯"
+   ],
+   "lat": 36.62035,
+   "lon": -4.49976,
+   "population": 65448,
+   "geonameId": "2510281"
+  },
+  {
+   "id": "city:geonames-2515812",
+   "name": "La Línea de la Concepción",
+   "aliases": [
+    "La Linea de la Concepcion",
+    "La Linea",
+    "La Línea",
+    "La-Linea-de-la-Konseps'jon",
+    "La-Linea-de-la-Konseps'on",
+    "La-Linea-deh-la-Kanseps'jon",
+    "Linea de Konsepsion",
+    "la li nei ya de la kong sai pu xi weng",
+    "la lnya dy la kanspchyan",
+    "la yyna dy la kwnsybsywn",
+    "Ла-Линеа-де-ла-Консепсьон",
+    "Ла-Лінеа-де-ла-Консепсьйон",
+    "Ла-Лінеа-дэ-ла-Кансепсьён",
+    "Линеа де Консепсион",
+    "لا لنیا دی لا کانسپچیان",
+    "لا يينا دي لا كونسيبسيون",
+    "ラ・リネア・デ・ラ・コンセプション",
+    "拉利内亚德拉孔塞普西翁"
+   ],
+   "lat": 36.16809,
+   "lon": -5.34777,
+   "population": 64595,
+   "geonameId": "2515812"
+  },
+  {
+   "id": "city:geonames-2513759",
+   "name": "Molina de Segura",
+   "aliases": [
+    "Molina",
+    "Molina-de-Segura",
+    "mo li na de sai gu la",
+    "mwlyna dy syghwra",
+    "Молина де Сегура",
+    "Молина-де-Сегура",
+    "Моліна-де-Сегура",
+    "مولينا دي سيغورا",
+    "モリナ・デ・セグラ",
+    "莫利纳德塞古拉"
+   ],
+   "lat": 38.05456,
+   "lon": -1.20763,
+   "population": 64065,
+   "geonameId": "2513759"
+  },
+  {
+   "id": "city:geonames-2512862",
+   "name": "Paterna",
+   "aliases": [
+    "pa te er na",
+    "pateruna",
+    "Патерна",
+    "パテルナ",
+    "帕特尔纳"
+   ],
+   "lat": 39.50263,
+   "lon": -0.44079,
+   "population": 64023,
+   "geonameId": "2512862"
+  },
+  {
+   "id": "city:geonames-3123329",
+   "name": "El Prat de Llobregat",
+   "aliases": [
+    "Al-Prat-da-Ljubragat",
+    "Ehl' Prat",
+    "Ehl'-Prat-de-L'obregat",
+    "Prat de LJobregat",
+    "Prat de Llobregat",
+    "Prat del Llobregat",
+    "ai er pu la te de e fu lei jia te",
+    "al bart dy ywbryghat",
+    "el Prat",
+    "el Prat de Llobregat",
+    "Ал-Прат-да-Любрагат",
+    "Прат де Љобрегат",
+    "Эль Прат",
+    "Эль-Прат-де-Льобрегат",
+    "إل بارت دي يوبريغات",
+    "アル・プラ・ダ・リョブレガート",
+    "埃尔普拉特德略夫雷加特"
+   ],
+   "lat": 41.32784,
+   "lon": 2.09472,
+   "population": 63418,
+   "geonameId": "3123329"
+  },
+  {
+   "id": "city:geonames-3124794",
+   "name": "Collado-Villalba",
+   "aliases": [
+    "Collado Villalba",
+    "Kol'jado-Vil'jal'ba",
+    "Кольядо-Вильяльба"
+   ],
+   "lat": 40.63506,
+   "lon": -4.00486,
+   "population": 63074,
+   "geonameId": "3124794"
+  },
+  {
+   "id": "city:geonames-2567529",
+   "name": "Grao de Murviedro",
+   "aliases": [],
+   "lat": 39.64167,
+   "lon": -0.23889,
+   "population": 62368,
+   "geonameId": "2567529"
+  },
+  {
+   "id": "city:geonames-3120304",
+   "name": "Irun",
+   "aliases": [
+    "Irun-Uranzu",
+    "Irún",
+    "Irún-Uranzu",
+    "yi lun",
+    "Ирун",
+    "伊倫"
+   ],
+   "lat": 43.33904,
+   "lon": -1.78938,
+   "population": 61983,
+   "geonameId": "3120304"
+  },
+  {
+   "id": "city:geonames-3104342",
+   "name": "Zamora",
+   "aliases": [
+    "Samora",
+    "ZOB",
+    "Zamoro",
+    "samora",
+    "thamora",
+    "zamwra",
+    "Самора",
+    "زامورا",
+    "থামোরা",
+    "サモラ"
+   ],
+   "lat": 41.50633,
+   "lon": -5.74456,
+   "population": 61827,
+   "geonameId": "3104342"
+  },
+  {
+   "id": "city:geonames-2522098",
+   "name": "Alcoy",
+   "aliases": [
+    "Al'ka",
+    "Al'koj",
+    "Alco",
+    "Alcodium",
+    "Alcoi",
+    "Alkoj",
+    "Alkojus",
+    "a er ke yi",
+    "alkwy",
+    "arukoi",
+    "Алкој",
+    "Алька",
+    "Алькой",
+    "آلکوی",
+    "ألكوي",
+    "アルコイ",
+    "阿尔科伊"
+   ],
+   "lat": 38.70545,
+   "lon": -0.47432,
+   "population": 61552,
+   "geonameId": "2522098"
+  },
+  {
+   "id": "city:geonames-2521570",
+   "name": "Arrecife",
+   "aliases": [
+    "ACE",
+    "Aresife",
+    "Аресифе"
+   ],
+   "lat": 28.96302,
+   "lon": -13.54769,
+   "population": 61351,
+   "geonameId": "2521570"
+  },
+  {
+   "id": "city:geonames-3121145",
+   "name": "Granollers",
+   "aliases": [],
+   "lat": 41.60797,
+   "lon": 2.28773,
+   "population": 60981,
+   "geonameId": "3121145"
+  },
+  {
+   "id": "city:geonames-2513477",
+   "name": "Motril",
+   "aliases": [
+    "Motril'",
+    "mo te li er",
+    "motoriru",
+    "mwtryl",
+    "Мотрил",
+    "Мотриль",
+    "Мотріль",
+    "موتريل",
+    "モトリル",
+    "莫特里尔"
+   ],
+   "lat": 36.75066,
+   "lon": -3.5179,
+   "population": 60592,
+   "geonameId": "2513477"
+  },
+  {
+   "id": "city:geonames-6618856",
+   "name": "Santutxu",
+   "aliases": [
+    "Santuchu"
+   ],
+   "lat": 43.25347,
+   "lon": -2.9161,
+   "population": 60000,
+   "geonameId": "6618856"
+  },
+  {
+   "id": "city:geonames-2513917",
+   "name": "Mérida",
+   "aliases": [
+    "Merida",
+    "Emerita Augusta",
+    "Merido",
+    "QWX",
+    "mardt",
+    "merida",
+    "mryda",
+    "mrydh",
+    "myryda",
+    "Мерида",
+    "מרידה",
+    "ماردة",
+    "مريدا",
+    "مریدا",
+    "میریدا",
+    "メリダ"
+   ],
+   "lat": 38.91802,
+   "lon": -6.34292,
+   "population": 59857,
+   "geonameId": "2513917"
+  },
+  {
+   "id": "city:geonames-2521139",
+   "name": "Benalmádena",
+   "aliases": [
+    "Benalmadena",
+    "Benal'madena",
+    "bei na er ma de na",
+    "benalmadena",
+    "bnalmadna",
+    "bynalmadyna",
+    "Беналмадена",
+    "Бенальмадена",
+    "Բենալմադենա",
+    "بنالمادنا",
+    "بينالمادينا",
+    "贝纳尔马德纳",
+    "베날마데나"
+   ],
+   "lat": 36.5961,
+   "lon": -4.57267,
+   "population": 58854,
+   "geonameId": "2521139"
+  },
+  {
+   "id": "city:geonames-3109402",
+   "name": "Cerdanyola del Vallès",
+   "aliases": [
+    "Cerdanyola del Valles",
+    "Cerdanyola"
+   ],
+   "lat": 41.49109,
+   "lon": 2.14079,
+   "population": 58747,
+   "geonameId": "3109402"
+  },
+  {
+   "id": "city:geonames-3129136",
+   "name": "Ávila",
+   "aliases": [
+    "Avila",
+    "AVJ",
+    "Abela",
+    "Abila",
+    "Abula",
+    "Aebura",
+    "Albicella",
+    "Avela",
+    "Avila de los Caballeros",
+    "Avila de los Leales",
+    "Avila de los Santos",
+    "Avila del Rey",
+    "Avilo",
+    "Obila",
+    "abira",
+    "Àvila",
+    "Ávila de los Caballeros",
+    "Ávila de los Leales",
+    "Ávila de los Santos",
+    "Ávila del Rey",
+    "Авила",
+    "アビラ"
+   ],
+   "lat": 40.65724,
+   "lon": -4.69951,
+   "population": 57657,
+   "geonameId": "3129136"
+  },
+  {
+   "id": "city:geonames-2515045",
+   "name": "Linares",
+   "aliases": [
+    "Линарес"
+   ],
+   "lat": 38.09519,
+   "lon": -3.63602,
+   "population": 57414,
+   "geonameId": "2515045"
+  },
+  {
+   "id": "city:geonames-2511032",
+   "name": "San Vicent del Raspeig",
+   "aliases": [
+    "San Vicente",
+    "San Vicente del Raspeig",
+    "Sant Vicent del Raspeig",
+    "Sanvi"
+   ],
+   "lat": 38.3964,
+   "lon": -0.5255,
+   "population": 56715,
+   "geonameId": "2511032"
+  },
+  {
+   "id": "city:geonames-3107775",
+   "name": "Torrelavega",
+   "aliases": [
+    "TVE",
+    "Torelavega",
+    "torerabega",
+    "tuo lei la wei jia",
+    "twrylafyja",
+    "Торелавега",
+    "Торрелавега",
+    "Տոռելավեգա",
+    "توريلافيجا",
+    "ٹوریلاویگا",
+    "トレラベーガ",
+    "托雷拉韦加"
+   ],
+   "lat": 43.34943,
+   "lon": -4.04785,
+   "population": 55297,
+   "geonameId": "3107775"
+  },
+  {
+   "id": "city:geonames-2518505",
+   "name": "Elda",
+   "aliases": [
+    "Ehl'da",
+    "El'da",
+    "ai er da",
+    "alda",
+    "xe lda",
+    "Елда",
+    "Ельда",
+    "Эльда",
+    "Էլդա",
+    "إلدا",
+    "الدا",
+    "เอลดา",
+    "埃尔达"
+   ],
+   "lat": 38.47783,
+   "lon": -0.79157,
+   "population": 55168,
+   "geonameId": "2518505"
+  },
+  {
+   "id": "city:geonames-3124132",
+   "name": "Cuenca",
+   "aliases": [
+    "CEJ",
+    "Conca",
+    "Cuenca i Spania",
+    "Kouen'ka",
+    "Kuehnka",
+    "Kuenka",
+    "Kvenka",
+    "Kvenko",
+    "ke wng ka",
+    "ku'ainaka",
+    "ku'ainka",
+    "kuengka",
+    "kuenka",
+    "kun ka",
+    "kwynka",
+    "qwnkt",
+    "Κουένκα",
+    "Квенка",
+    "Куенка",
+    "Куэнка",
+    "Կուենկա",
+    "קואנקה",
+    "قونكة",
+    "کوئنکا",
+    "کوینکا، ہسپانیہ",
+    "कुऐनका",
+    "ਕੁਐਂਕਾ",
+    "เกวงกา",
+    "კუენკა",
+    "クエンカ",
+    "昆卡",
+    "쿠엥카"
+   ],
+   "lat": 40.06667,
+   "lon": -2.13333,
+   "population": 54898,
+   "geonameId": "3124132"
+  },
+  {
+   "id": "city:geonames-3129857",
+   "name": "Aranjuez",
+   "aliases": [
+    "Aranchuesas",
+    "Aranguesia",
+    "Arankhuehs",
+    "Arankhues",
+    "Arankhuez",
+    "a lan hu ai si",
+    "alanhueseu",
+    "aranfuesu",
+    "arnkhwyth",
+    "Аранхуез",
+    "Аранхуес",
+    "Аранхуэс",
+    "ארנחואס",
+    "آرنخويث",
+    "アランフエス",
+    "阿兰胡埃斯",
+    "아란후에스"
+   ],
+   "lat": 40.03108,
+   "lon": -3.60246,
+   "population": 54055,
+   "geonameId": "3129857"
+  },
+  {
+   "id": "city:geonames-3120514",
+   "name": "Huesca",
+   "aliases": [
+    "Gueesca",
+    "Güesca",
+    "HSK",
+    "Hueska",
+    "Osca",
+    "Oska",
+    "Oueska",
+    "Uehska",
+    "Uesca",
+    "Ueska",
+    "hwyska",
+    "ueseuka",
+    "uesuka",
+    "wei si ka",
+    "wshqt",
+    "Òsca",
+    "ʼwʼsqh",
+    "Ουέσκα",
+    "Уеска",
+    "Уэска",
+    "אואסקה",
+    "هوئسکا",
+    "وشقة",
+    "ウエスカ",
+    "韦斯卡",
+    "우에스카"
+   ],
+   "lat": 42.13615,
+   "lon": -0.4087,
+   "population": 53956,
+   "geonameId": "3120514"
+  },
+  {
+   "id": "city:geonames-2511440",
+   "name": "San Bartolomé de Tirajana",
+   "aliases": [
+    "San Bartolome de Tirajana",
+    "San Bartolome Tirajana",
+    "San Bartolomé Tirajana"
+   ],
+   "lat": 27.92481,
+   "lon": -15.57329,
+   "population": 53588,
+   "geonameId": "2511440"
+  },
+  {
+   "id": "city:geonames-3127958",
+   "name": "Boadilla del Monte",
+   "aliases": [
+    "Boadil'ja-del'-Monte",
+    "bo a di li ya de er meng te",
+    "bwadyla dyl mwnty",
+    "Боадилья-дель-Монте",
+    "Боаділья-дель-Монте",
+    "בואדייה דל מונטה",
+    "بواديلا ديل مونتي",
+    "博阿迪利亚德尔蒙特"
+   ],
+   "lat": 40.405,
+   "lon": -3.87835,
+   "population": 52626,
+   "geonameId": "3127958"
+  },
+  {
+   "id": "city:geonames-2510073",
+   "name": "Utrera",
+   "aliases": [
+    "Утрера"
+   ],
+   "lat": 37.18516,
+   "lon": -5.78093,
+   "population": 52617,
+   "geonameId": "2510073"
+  },
+  {
+   "id": "city:geonames-3116553",
+   "name": "Mollet del Vallès",
+   "aliases": [
+    "Mollet del Valles",
+    "Mollet del Vallés"
+   ],
+   "lat": 41.54026,
+   "lon": 2.21306,
+   "population": 52484,
+   "geonameId": "3116553"
+  },
+  {
+   "id": "city:geonames-2512177",
+   "name": "Puertollano",
+   "aliases": [
+    "Puehrtol'jano",
+    "Puertojano",
+    "Puertolano",
+    "Puertolyano",
+    "UER",
+    "bwrtwlanw",
+    "pu ai er tuo li ya nuo",
+    "puerutoryano",
+    "Пуертояно",
+    "Пуертољано",
+    "Пуэртольяно",
+    "Պուերտոլյանո",
+    "بورتولانو",
+    "プエルトリャノ",
+    "普埃尔托利亚诺"
+   ],
+   "lat": 38.68712,
+   "lon": -4.10734,
+   "population": 51842,
+   "geonameId": "2512177"
+  },
+  {
+   "id": "city:geonames-2520493",
+   "name": "Calvià",
+   "aliases": [
+    "Calvia",
+    "Calviá",
+    "Kal'vija",
+    "Kalvia",
+    "Kalvija",
+    "ka er wei ya",
+    "kalbi xa",
+    "kalbya",
+    "kalfya",
+    "karubia",
+    "Калвиа",
+    "Калвија",
+    "Кальвия",
+    "Кальвія",
+    "كالفيا",
+    "کالبیا",
+    "กัลบีอา",
+    "カルビア",
+    "卡尔维亚"
+   ],
+   "lat": 39.5657,
+   "lon": 2.50621,
+   "population": 51774,
+   "geonameId": "2520493"
+  },
+  {
+   "id": "city:geonames-3109256",
+   "name": "Segovia",
+   "aliases": [
+    "Segovie",
+    "Segovija",
+    "Segovio",
+    "Segowia",
+    "Segòvia",
+    "Segóvia",
+    "Segóvía",
+    "Senkovia",
+    "Ségovie",
+    "XOU",
+    "sai ge wei ya",
+    "se ko beiy",
+    "segobia",
+    "segovi'a",
+    "segovia",
+    "sgwbya",
+    "sgwbyh",
+    "shqwbyt",
+    "syjwvya",
+    "Σεγκόβια",
+    "Сеговия",
+    "Сеговија",
+    "Сеговія",
+    "סגוביה",
+    "سيجوڤيا",
+    "سگوبیا",
+    "شقوبية",
+    "सेगोविआ",
+    "เซโกเบีย",
+    "სეგოვია",
+    "セゴビア",
+    "塞哥维亚",
+    "세고비아"
+   ],
+   "lat": 40.94808,
+   "lon": -4.11839,
+   "population": 51683,
+   "geonameId": "3109256"
+  },
+  {
+   "id": "city:geonames-3129636",
+   "name": "Arganda",
+   "aliases": [
+    "Arganda del Rey",
+    "Арганда"
+   ],
+   "lat": 40.30076,
+   "lon": -3.43722,
+   "population": 51489,
+   "geonameId": "3129636"
+  },
+  {
+   "id": "city:geonames-2509509",
+   "name": "Vila-real",
+   "aliases": [
+    "Vil'jarreal'",
+    "Вильярреаль"
+   ],
+   "lat": 39.9383,
+   "lon": -0.10087,
+   "population": 50577,
+   "geonameId": "2509509"
+  },
+  {
+   "id": "city:geonames-2516479",
+   "name": "Ibiza",
+   "aliases": [
+    "Eivissa",
+    "IBZ",
+    "Ibica",
+    "Ibiza Town",
+    "Ibiza-Stadt",
+    "Ibiza-stad",
+    "Vila d'Eivissa",
+    "Ибица"
+   ],
+   "lat": 38.90883,
+   "lon": 1.43296,
+   "population": 49727,
+   "geonameId": "2516479"
+  },
+  {
+   "id": "city:geonames-3109481",
+   "name": "Santurtzi",
+   "aliases": [
+    "Santurce",
+    "Santurce-Antiguo"
+   ],
+   "lat": 43.32842,
+   "lon": -3.03248,
+   "population": 46978,
+   "geonameId": "3109481"
+  },
+  {
+   "id": "city:geonames-3122453",
+   "name": "Figueres",
+   "aliases": [
+    "Figeras",
+    "Figeres",
+    "Фигерeс",
+    "Фигерас"
+   ],
+   "lat": 42.26645,
+   "lon": 2.96163,
+   "population": 46381,
+   "geonameId": "3122453"
+  },
+  {
+   "id": "city:geonames-3122826",
+   "name": "Esplugues de Llobregat",
+   "aliases": [],
+   "lat": 41.37732,
+   "lon": 2.08809,
+   "population": 46355,
+   "geonameId": "3122826"
+  },
+  {
+   "id": "city:geonames-2513811",
+   "name": "Mislata",
+   "aliases": [
+    "Mizlata",
+    "mi si la ta",
+    "Мислата",
+    "Міслата",
+    "米斯拉塔"
+   ],
+   "lat": 39.47523,
+   "lon": -0.41825,
+   "population": 46131,
+   "geonameId": "2513811"
+  },
+  {
+   "id": "city:geonames-3121519",
+   "name": "Gavà",
+   "aliases": [
+    "Gava",
+    "Гава"
+   ],
+   "lat": 41.30605,
+   "lon": 2.00123,
+   "population": 45994,
+   "geonameId": "3121519"
+  },
+  {
+   "id": "city:geonames-2514287",
+   "name": "Mairena del Aljarafe",
+   "aliases": [
+    "Aljarafe",
+    "Majrena-del'-Al'kharafe",
+    "mai lei na de la er ha la fei",
+    "Майрена-дель-Альхарафе",
+    "迈雷纳德拉尔哈拉费"
+   ],
+   "lat": 37.34461,
+   "lon": -6.06391,
+   "population": 45890,
+   "geonameId": "2514287"
+  },
+  {
+   "id": "city:geonames-3113082",
+   "name": "Portugalete",
+   "aliases": [
+    "Portu",
+    "Portugaleto",
+    "Portus Gallorum",
+    "bo er tu jia lai te",
+    "bwrtghalyty",
+    "la villa jarrillera",
+    "porutougarete",
+    "Португалете",
+    "بورتغاليتي",
+    "ポルトゥガレテ",
+    "波尔图加莱特"
+   ],
+   "lat": 43.32099,
+   "lon": -3.02064,
+   "population": 45826,
+   "geonameId": "3113082"
+  },
+  {
+   "id": "city:geonames-2521710",
+   "name": "Antequera",
+   "aliases": [
+    "Anteguera",
+    "Antekera",
+    "an te ke la",
+    "antqyrt",
+    "Антекера",
+    "أنتقيرة",
+    "安特克拉"
+   ],
+   "lat": 37.01938,
+   "lon": -4.56123,
+   "population": 45168,
+   "geonameId": "2521710"
+  },
+  {
+   "id": "city:geonames-2522129",
+   "name": "Alzira",
+   "aliases": [
+    "Al'sira",
+    "Alchezira",
+    "Alcira",
+    "Alsira",
+    "a er xi la",
+    "alzyra",
+    "alzyra  walnsya",
+    "jzyrt shqr",
+    "Алзіра",
+    "Альсира",
+    "Ալսիրա",
+    "الزیرا",
+    "الزیرا، والنسیا",
+    "جزيرة شقر",
+    "阿尔西拉"
+   ],
+   "lat": 39.15,
+   "lon": -0.43333,
+   "population": 44393,
+   "geonameId": "2522129"
+  },
+  {
+   "id": "city:geonames-3116789",
+   "name": "Mieres",
+   "aliases": [
+    "M'eres",
+    "Mieres del Camin",
+    "Mieres del Camino",
+    "Mieres del Camín",
+    "Мьерес"
+   ],
+   "lat": 43.25,
+   "lon": -5.76667,
+   "population": 44070,
+   "geonameId": "3116789"
+  },
+  {
+   "id": "city:geonames-6943537",
+   "name": "Llefià",
+   "aliases": [
+    "Llefia"
+   ],
+   "lat": 41.43806,
+   "lon": 2.2195,
+   "population": 43827,
+   "geonameId": "6943537"
+  },
+  {
+   "id": "city:geonames-3124765",
+   "name": "Colmenar Viejo",
+   "aliases": [
+    "Kol'menar-V'ekho",
+    "Kol'menar-Vekho",
+    "Kolmenar Viexo",
+    "jiu ke er mei na er",
+    "kwlmnar wygw",
+    "kwlmynar fyjw",
+    "Кольменар-Вьехо",
+    "Кольменар-Вєхо",
+    "Կոլմենար Վիեխո",
+    "קולמנאר וייחו",
+    "كولمينار فيجو",
+    "کولمنار ویگو",
+    "旧科尔梅纳尔"
+   ],
+   "lat": 40.65909,
+   "lon": -3.76762,
+   "population": 43700,
+   "geonameId": "3124765"
+  },
+  {
+   "id": "city:geonames-3113415",
+   "name": "Pinto",
+   "aliases": [
+    "Пинто"
+   ],
+   "lat": 40.24147,
+   "lon": -3.69999,
+   "population": 43501,
+   "geonameId": "3113415"
+  },
+  {
+   "id": "city:geonames-2522437",
+   "name": "Adeje",
+   "aliases": [
+    "Adeche",
+    "Adechė",
+    "Adekhe",
+    "Costa Adeje",
+    "a de he",
+    "adykhy",
+    "Адехе",
+    "أديخي",
+    "阿德赫"
+   ],
+   "lat": 28.12271,
+   "lon": -16.726,
+   "population": 43204,
+   "geonameId": "2522437"
+  },
+  {
+   "id": "city:geonames-3110642",
+   "name": "Sant Feliu de Llobregat",
+   "aliases": [
+    "Feliu-de-L'obregat",
+    "San Feliu de Llobregat",
+    "San Feliú de Llobregat",
+    "Sant Feliu",
+    "Фелиу-де-Льобрегат"
+   ],
+   "lat": 41.38333,
+   "lon": 2.05,
+   "population": 42919,
+   "geonameId": "3110642"
+  },
+  {
+   "id": "city:geonames-6697039",
+   "name": "Basauri",
+   "aliases": [
+    "ba shao li",
+    "basauri",
+    "basawry",
+    "Басаури",
+    "Басаурі",
+    "باساوري",
+    "バサウリ",
+    "巴绍里"
+   ],
+   "lat": 43.2397,
+   "lon": -2.8858,
+   "population": 42657,
+   "geonameId": "6697039"
+  },
+  {
+   "id": "city:geonames-2514216",
+   "name": "Manacor",
+   "aliases": [
+    "Manakor",
+    "Манакор"
+   ],
+   "lat": 39.56964,
+   "lon": 3.20955,
+   "population": 42631,
+   "geonameId": "2514216"
+  },
+  {
+   "id": "city:geonames-2514392",
+   "name": "Lucena",
+   "aliases": [],
+   "lat": 37.40881,
+   "lon": -4.48522,
+   "population": 42248,
+   "geonameId": "2514392"
+  },
+  {
+   "id": "city:geonames-7577022",
+   "name": "Tres Cantos",
+   "aliases": [
+    "Tres-Kantos",
+    "Três Cantos",
+    "te lei si kan tuo si",
+    "trys santws",
+    "Трес-Кантос",
+    "تريس سانتوس",
+    "特雷斯坎托斯"
+   ],
+   "lat": 40.60092,
+   "lon": -3.70806,
+   "population": 41896,
+   "geonameId": "7577022"
+  },
+  {
+   "id": "city:geonames-2515692",
+   "name": "La Orotava",
+   "aliases": [
+    "La-Orotava",
+    "Orotava",
+    "Villa Orotava",
+    "Villa de Orotava",
+    "Villa de la Orotava",
+    "la awrwtafa",
+    "lao luo ta wa",
+    "Ла-Оротава",
+    "Оротава",
+    "لا أوروتافا",
+    "劳罗塔瓦"
+   ],
+   "lat": 28.39076,
+   "lon": -16.52309,
+   "population": 41833,
+   "geonameId": "2515692"
+  },
+  {
+   "id": "city:geonames-2518878",
+   "name": "Denia",
+   "aliases": [
+    "Denija",
+    "Dénia",
+    "Дения"
+   ],
+   "lat": 38.84078,
+   "lon": 0.10574,
+   "population": 41733,
+   "geonameId": "2518878"
+  },
+  {
+   "id": "city:geonames-2522152",
+   "name": "Alcantarilla",
+   "aliases": [
+    "Al'kantaril'ja",
+    "Алькантарилья"
+   ],
+   "lat": 37.96939,
+   "lon": -1.21714,
+   "population": 41084,
+   "geonameId": "2522152"
+  },
+  {
+   "id": "city:geonames-2512169",
+   "name": "Puerto Real",
+   "aliases": [
+    "Puehrto-Real'",
+    "Puerto-Real'",
+    "bwyrtw ryal",
+    "pueleutoleal",
+    "wang gang shi",
+    "Пуерто-Реаль",
+    "Пуэрто-Реаль",
+    "بويرتو ريال",
+    "王港市",
+    "푸에르토레알"
+   ],
+   "lat": 36.52819,
+   "lon": -6.19011,
+   "population": 40183,
+   "geonameId": "2512169"
+  },
+  {
+   "id": "city:geonames-3113331",
+   "name": "Plasencia",
+   "aliases": [
+    "Plasence",
+    "Plasencio",
+    "Plasensia",
+    "Plasensija",
+    "Plasentia",
+    "Plasència",
+    "Prasencia",
+    "Praséncia",
+    "blasynthya",
+    "plasnsya",
+    "pu la sen xi ya",
+    "purasenshia",
+    "Пласенсиа",
+    "Пласенсия",
+    "Пласенсія",
+    "بلاسينثيا",
+    "پلاسنسیا",
+    "プラセンシア",
+    "普拉森西亞"
+   ],
+   "lat": 40.03116,
+   "lon": -6.08845,
+   "population": 40141,
+   "geonameId": "3113331"
+  },
+  {
+   "id": "city:geonames-3127978",
+   "name": "Blanes",
+   "aliases": [
+    "Бланес"
+   ],
+   "lat": 41.67419,
+   "lon": 2.79036,
+   "population": 40047,
+   "geonameId": "3127978"
+  },
+  {
+   "id": "city:geonames-2517111",
+   "name": "Granadilla de Abona",
+   "aliases": [
+    "Granadil'ja-de-Abona",
+    "Granadilla",
+    "ge la na di li ya de ya wo na",
+    "ghranadya dy abwna",
+    "Гранадилья-де-Абона",
+    "Гранаділья-де-Абона",
+    "غراناديا دي أبونا",
+    "格拉纳迪利亚德亚沃纳"
+   ],
+   "lat": 28.11882,
+   "lon": -16.57599,
+   "population": 39993,
+   "geonameId": "2517111"
+  },
+  {
+   "id": "city:geonames-3110962",
+   "name": "Sama",
+   "aliases": [
+    "Langreo",
+    "Llangreu",
+    "Llangréu",
+    "Sama de Langreo",
+    "Same",
+    "Саме"
+   ],
+   "lat": 43.29568,
+   "lon": -5.68416,
+   "population": 39984,
+   "geonameId": "3110962"
+  },
+  {
+   "id": "city:geonames-2518770",
+   "name": "Écija",
+   "aliases": [
+    "Ecija",
+    "Ehsikha",
+    "Esikha",
+    "Exija",
+    "ai xi ha",
+    "astjt",
+    "Есіха",
+    "Эсиха",
+    "إستجة",
+    "埃西哈"
+   ],
+   "lat": 37.5422,
+   "lon": -5.0826,
+   "population": 39882,
+   "geonameId": "2518770"
+  },
+  {
+   "id": "city:geonames-3106050",
+   "name": "Vic",
+   "aliases": [
+    "a'usa",
+    "আউসা"
+   ],
+   "lat": 41.93012,
+   "lon": 2.25486,
+   "population": 39844,
+   "geonameId": "3106050"
+  },
+  {
+   "id": "city:geonames-3110627",
+   "name": "San Fernando de Henares",
+   "aliases": [
+    "San Fernando de Enares",
+    "San-Fernando de Henaro",
+    "San-Fernando-de-Ehnares",
+    "San-Fernando-de-Enares",
+    "ai na lei si he pan sheng fei er nan duo",
+    "san frnandw dy hynarys",
+    "Сан-Фернандо-де-Енарес",
+    "Сан-Фернандо-де-Энарес",
+    "Սան Ֆերնանդո դե Էնարես",
+    "سان فرناندو دي هيناريس",
+    "埃纳雷斯河畔圣费尔南多"
+   ],
+   "lat": 40.42386,
+   "lon": -3.53261,
+   "population": 39466,
+   "geonameId": "3110627"
+  },
+  {
+   "id": "city:geonames-3116689",
+   "name": "Miranda de Ebro",
+   "aliases": [
+    "Miranda",
+    "Miranda Ebro",
+    "Miranda dEbro",
+    "Miranda del Ebro",
+    "Miranda-de-Ebro",
+    "Miranda-de-Ehbro",
+    "ai bu luo he pan mi lan da",
+    "milandadeebeulo",
+    "myranda dy aybrw",
+    "Миранда-де-Эбро",
+    "Міранда-де-Ебро",
+    "ميراندا دي إيبرو",
+    "ሚራንዳ ዴ ኤብሮ",
+    "ミランダ・デ・エブロ",
+    "埃布罗河畔米兰达",
+    "미란다데에브로"
+   ],
+   "lat": 42.6865,
+   "lon": -2.94695,
+   "population": 39264,
+   "geonameId": "3116689"
+  },
+  {
+   "id": "city:geonames-3108681",
+   "name": "Soria",
+   "aliases": [
+    "Sorija",
+    "Sorio",
+    "Soriya",
+    "Soryja",
+    "Sòria",
+    "Sória",
+    "XJO",
+    "solia",
+    "soria",
+    "srya",
+    "suo li ya",
+    "swryh",
+    "Сория",
+    "Сорија",
+    "Сорыя",
+    "Сорія",
+    "סוריה",
+    "سریا",
+    "ソリア",
+    "索里亚",
+    "소리아"
+   ],
+   "lat": 41.76401,
+   "lon": -2.46883,
+   "population": 39112,
+   "geonameId": "3108681"
+  },
+  {
+   "id": "city:geonames-3120431",
+   "name": "Igualada",
+   "aliases": [
+    "Igvalada",
+    "Игвалада",
+    "Игуалада"
+   ],
+   "lat": 41.58098,
+   "lon": 1.6172,
+   "population": 38918,
+   "geonameId": "3120431"
+  },
+  {
+   "id": "city:geonames-3112011",
+   "name": "Errenteria",
+   "aliases": [
+    "Orereta",
+    "Renteria",
+    "Rentería"
+   ],
+   "lat": 43.31195,
+   "lon": -1.90234,
+   "population": 38767,
+   "geonameId": "3112011"
+  },
+  {
+   "id": "city:geonames-2511852",
+   "name": "Rincón de la Victoria",
+   "aliases": [
+    "Rincon de la Victoria",
+    "Bezmiliana",
+    "Rinkon-de-la-Viktoria",
+    "Rinkon-de-la-Viktorija",
+    "lin kong de la wei ke tuo li ya",
+    "rynkwn dy la fyktwrya",
+    "Ринкон-де-ла-Викториа",
+    "Ринкон-де-ла-Виктория",
+    "Рінкон-де-ла-Вікторія",
+    "رينكون دي لا فيكتوريا",
+    "林孔德拉维克托里亚"
+   ],
+   "lat": 36.71715,
+   "lon": -4.27583,
+   "population": 38666,
+   "geonameId": "2511852"
+  },
+  {
+   "id": "city:geonames-2520712",
+   "name": "Burjassot",
+   "aliases": [
+    "Bujursot",
+    "Burkhasot",
+    "Бурхасот"
+   ],
+   "lat": 39.50984,
+   "lon": -0.41327,
+   "population": 38433,
+   "geonameId": "2520712"
+  },
+  {
+   "id": "city:geonames-3105600",
+   "name": "Vilafranca del Penedès",
+   "aliases": [
+    "Vilafranca del Penedes",
+    "Vil'jafranka-del'-Penedes",
+    "Vilafranca Penedes",
+    "Vilafranca do Penedes - Vilafranca del Penedes",
+    "Vilafranca do Penedés",
+    "Villafranca del Panades",
+    "Villafranca del Panadés",
+    "Вильяфранка-дель-Пенедес"
+   ],
+   "lat": 41.34618,
+   "lon": 1.69713,
+   "population": 38425,
+   "geonameId": "3105600"
+  },
+  {
+   "id": "city:geonames-3111605",
+   "name": "Ripollet",
+   "aliases": [
+    "Ripol'et",
+    "Ripolyet",
+    "Ripul'et",
+    "li bo lie te",
+    "rybwlyt",
+    "rypyt",
+    "Рипольет",
+    "Ріпульєт",
+    "Ռիպոլյետ",
+    "ريبوليت",
+    "ریپیت",
+    "里波列特"
+   ],
+   "lat": 41.49686,
+   "lon": 2.15739,
+   "population": 38347,
+   "geonameId": "3111605"
+  },
+  {
+   "id": "city:geonames-2513106",
+   "name": "Ontinyent",
+   "aliases": [
+    "Onten'ente",
+    "Onteniente",
+    "Онтеньенте"
+   ],
+   "lat": 38.82191,
+   "lon": -0.60603,
+   "population": 37735,
+   "geonameId": "2513106"
+  },
+  {
+   "id": "city:geonames-3115739",
+   "name": "Narón",
+   "aliases": [
+    "Naron",
+    "San Julian",
+    "San Julian de Naron",
+    "Нарон"
+   ],
+   "lat": 43.50175,
+   "lon": -8.19082,
+   "population": 37712,
+   "geonameId": "3115739"
+  },
+  {
+   "id": "city:geonames-3105575",
+   "name": "Vilagarcía de Arousa",
+   "aliases": [
+    "Vilagarcia de Arousa",
+    "Vilagarcia",
+    "Vilagarcía",
+    "Vilagarsija de Arouza",
+    "Вилагарсија де Ароуза"
+   ],
+   "lat": 42.59631,
+   "lon": -8.76426,
+   "population": 37576,
+   "geonameId": "3105575"
+  },
+  {
+   "id": "city:geonames-3118212",
+   "name": "Lloret de Mar",
+   "aliases": [
+    "L'oret-de-Mar",
+    "Ljoret",
+    "Ljoret de Mar",
+    "Ljoret na Moru",
+    "Љорет",
+    "Љорет де Мар",
+    "Љорет на Мору",
+    "Льорет-де-Мар"
+   ],
+   "lat": 41.69993,
+   "lon": 2.84565,
+   "population": 37350,
+   "geonameId": "3118212"
+  },
+  {
+   "id": "city:geonames-2521738",
+   "name": "Andújar",
+   "aliases": [
+    "Andujar",
+    "Anducharas",
+    "Andukhar",
+    "an du ha er",
+    "andouharu",
+    "andwjr",
+    "andwkhar",
+    "Андухар",
+    "آندوخار",
+    "أندوجر",
+    "アンドゥハル",
+    "安杜哈尔"
+   ],
+   "lat": 38.03922,
+   "lon": -4.05077,
+   "population": 37113,
+   "geonameId": "2521738"
+  },
+  {
+   "id": "city:geonames-2518820",
+   "name": "Don Benito",
+   "aliases": [
+    "Don Benitu",
+    "Don-Benito",
+    "dong wei ni tuo",
+    "dwn bynaytw",
+    "Дон Бенито",
+    "Дон-Бенито",
+    "Дон-Беніто",
+    "دون بينايتو",
+    "ドン・ベニート",
+    "东韦尼托"
+   ],
+   "lat": 38.95627,
+   "lon": -5.86162,
+   "population": 37010,
+   "geonameId": "2518820"
+  },
+  {
+   "id": "city:geonames-2511730",
+   "name": "Ronda",
+   "aliases": [
+    "RRA",
+    "Ронда"
+   ],
+   "lat": 36.74231,
+   "lon": -5.16709,
+   "population": 36827,
+   "geonameId": "2511730"
+  },
+  {
+   "id": "city:geonames-2514553",
+   "name": "Los Palacios y Villafranca",
+   "aliases": [
+    "Villafranca Los Palacios"
+   ],
+   "lat": 37.16181,
+   "lon": -5.92433,
+   "population": 36824,
+   "geonameId": "2514553"
+  },
+  {
+   "id": "city:geonames-2514097",
+   "name": "Marratxí",
+   "aliases": [
+    "Marratxi",
+    "Marrachi",
+    "Маррачи"
+   ],
+   "lat": 39.62142,
+   "lon": 2.7253,
+   "population": 36725,
+   "geonameId": "2514097"
+  },
+  {
+   "id": "city:geonames-3110921",
+   "name": "Sant Adrià de Besòs",
+   "aliases": [
+    "Sant Adria de Besos",
+    "San Adrian de Besos",
+    "San Adrián de Besós",
+    "Sant Adria",
+    "Sant Adrià",
+    "Sant Adrià de Besós",
+    "Sant-Adria-da-Bazos",
+    "san adryan dy byzws",
+    "sang ta de li ya de wei suo si",
+    "Сант-Адріа-да-Базос",
+    "سان أدريان دي بيزوس",
+    "サント・アドリアー・ダ・バゾス",
+    "桑塔德里亚德韦索斯"
+   ],
+   "lat": 41.43073,
+   "lon": 2.21855,
+   "population": 36669,
+   "geonameId": "3110921"
+  },
+  {
+   "id": "city:geonames-6692471",
+   "name": "Los Realejos",
+   "aliases": [
+    "Los-Realekhos",
+    "luo si lei ya lai huo si",
+    "lws ryalykhws",
+    "Лос-Реалехос",
+    "لوس رياليخوس",
+    "洛斯雷亚莱霍斯"
+   ],
+   "lat": 28.38487,
+   "lon": -16.58275,
+   "population": 36405,
+   "geonameId": "6692471"
+  },
+  {
+   "id": "city:geonames-2521519",
+   "name": "Arucas",
+   "aliases": [
+    "Arukas",
+    "Арукас"
+   ],
+   "lat": 28.11983,
+   "lon": -15.52325,
+   "population": 36259,
+   "geonameId": "2521519"
+  },
+  {
+   "id": "city:geonames-3108126",
+   "name": "Teruel",
+   "aliases": [
+    "Provincia Terulium",
+    "TEJ",
+    "TEV",
+    "Tehruehl'",
+    "Tergueel",
+    "Tergüel",
+    "Terol",
+    "Teruehl'",
+    "Teruel'",
+    "Teruelis",
+    "Teruelo",
+    "Terulium",
+    "Tervel",
+    "Teròl",
+    "te lu ai er",
+    "teluel",
+    "terueru",
+    "trwyl",
+    "tyrwal",
+    "tyrwyl",
+    "Тервел",
+    "Теруел",
+    "Теруель",
+    "Теруэль",
+    "Тэруэль",
+    "تروئل",
+    "تيروال",
+    "تیرویل",
+    "ტერუელი",
+    "テルエル",
+    "特鲁埃尔",
+    "테루엘"
+   ],
+   "lat": 40.3456,
+   "lon": -1.10646,
+   "population": 36240,
+   "geonameId": "3108126"
+  },
+  {
+   "id": "city:geonames-2510392",
+   "name": "Tomelloso",
+   "aliases": [
+    "Tomel'joso",
+    "Tomel'oso",
+    "Tomeloso",
+    "tomejoso",
+    "tuo mei e suo",
+    "twmylwsw  sywdad ryal",
+    "Томельйосо",
+    "Томельосо",
+    "Томељосо",
+    "توميلوسو، سيوداد ريال",
+    "トメジョーソ",
+    "托梅略索"
+   ],
+   "lat": 39.15759,
+   "lon": -3.02156,
+   "population": 36091,
+   "geonameId": "2510392"
+  },
+  {
+   "id": "city:geonames-2514984",
+   "name": "Llucmajor",
+   "aliases": [],
+   "lat": 39.49093,
+   "lon": 2.89108,
+   "population": 36078,
+   "geonameId": "2514984"
+  },
+  {
+   "id": "city:geonames-2514042",
+   "name": "Maspalomas",
+   "aliases": [
+    "ma si pa luo ma si",
+    "masuparomasu",
+    "msplwms",
+    "Маспаломас",
+    "מספלומס",
+    "マスパロマス",
+    "馬斯帕洛馬斯",
+    "马斯帕洛马斯"
+   ],
+   "lat": 27.76056,
+   "lon": -15.58602,
+   "population": 36065,
+   "geonameId": "2514042"
+  },
+  {
+   "id": "city:geonames-2511994",
+   "name": "Realejo Alto",
+   "aliases": [],
+   "lat": 28.37645,
+   "lon": -16.58575,
+   "population": 35963,
+   "geonameId": "2511994"
+  },
+  {
+   "id": "city:geonames-2515562",
+   "name": "La Rinconada",
+   "aliases": [
+    "La-Rinkonada",
+    "la lin ke na da",
+    "Ла-Ринконада",
+    "Ла-Рінконада",
+    "拉林科纳达"
+   ],
+   "lat": 37.48613,
+   "lon": -5.98091,
+   "population": 35928,
+   "geonameId": "2515562"
+  },
+  {
+   "id": "city:geonames-3106180",
+   "name": "El Vendrell",
+   "aliases": [
+    "Vendrel'",
+    "Vendrell",
+    "el Vendrell",
+    "Вендрель"
+   ],
+   "lat": 41.21667,
+   "lon": 1.53333,
+   "population": 35821,
+   "geonameId": "3106180"
+  },
+  {
+   "id": "city:geonames-2512186",
+   "name": "Puerto del Rosario",
+   "aliases": [
+    "Puehrto-del'-Rosario",
+    "Puerto Cabras",
+    "Puerto Rosario",
+    "Puerto de Cabras",
+    "Пуэрто-дель-Росарио"
+   ],
+   "lat": 28.50038,
+   "lon": -13.86272,
+   "population": 35667,
+   "geonameId": "2512186"
+  },
+  {
+   "id": "city:geonames-2510271",
+   "name": "Torre-Pacheco",
+   "aliases": [
+    "Torre Pacheco",
+    "Torre-Pacheko",
+    "Торре-Пачеко"
+   ],
+   "lat": 37.74293,
+   "lon": -0.95396,
+   "population": 35614,
+   "geonameId": "2510271"
+  },
+  {
+   "id": "city:geonames-3115177",
+   "name": "Oleiros",
+   "aliases": [
+    "Alejras",
+    "Olejros",
+    "Santa Maria",
+    "Santa María",
+    "ao lai luo si",
+    "awlyrws",
+    "awlyyrws",
+    "oreirosu",
+    "Алейрас",
+    "Олеирос",
+    "Олейрос",
+    "أوليروس",
+    "اولئیروس",
+    "اولیروس",
+    "オレイロス",
+    "奥莱罗斯"
+   ],
+   "lat": 43.33333,
+   "lon": -8.31667,
+   "population": 35559,
+   "geonameId": "3115177"
+  },
+  {
+   "id": "city:geonames-2509463",
+   "name": "Villena",
+   "aliases": [
+    "Vil'ena",
+    "Вильена"
+   ],
+   "lat": 38.6373,
+   "lon": -0.86568,
+   "population": 35222,
+   "geonameId": "2509463"
+  },
+  {
+   "id": "city:geonames-2513983",
+   "name": "Mazarrón",
+   "aliases": [
+    "Mazarron",
+    "Masarron",
+    "Масаррон"
+   ],
+   "lat": 37.5992,
+   "lon": -1.31493,
+   "population": 35221,
+   "geonameId": "2513983"
+  },
+  {
+   "id": "city:geonames-3107677",
+   "name": "Tortosa",
+   "aliases": [
+    "Tortoza",
+    "Turtoza",
+    "tourutoza",
+    "trtwsht",
+    "tuo er tuo sa",
+    "twrtwsh",
+    "Тортоза",
+    "Тортоса",
+    "Туртоза",
+    "טורטוסה",
+    "طرطوشة",
+    "トゥルトーザ",
+    "托尔托萨"
+   ],
+   "lat": 40.81249,
+   "lon": 0.5216,
+   "population": 35143,
+   "geonameId": "3107677"
+  },
+  {
+   "id": "city:geonames-2521986",
+   "name": "Alhaurín de la Torre",
+   "aliases": [
+    "Alhaurin de la Torre",
+    "Al'khaurin-de-la-Torre",
+    "Alaurin de la Tore",
+    "Alaurin-de-la-Torre",
+    "a er ao lin de la tuo lei",
+    "alhaywryn dw la twr",
+    "brj alhwaryyn",
+    "Алаурин-де-ла-Торре",
+    "Алаурін-де-ла-Торре",
+    "Альхаурин-де-ла-Торре",
+    "Ալաուրին դե լա Տոռե",
+    "الهائورین دو لا تور",
+    "برج الهواريين",
+    "阿尔奥林德拉托雷"
+   ],
+   "lat": 36.66401,
+   "lon": -4.56139,
+   "population": 35114,
+   "geonameId": "2521986"
+  },
+  {
+   "id": "city:geonames-2509402",
+   "name": "Yecla",
+   "aliases": [
+    "Ekla",
+    "Iecla",
+    "ye ke la",
+    "ykla  mrsyt",
+    "Єкла",
+    "Екла",
+    "يكلا، مرسية",
+    "耶克拉"
+   ],
+   "lat": 38.61365,
+   "lon": -1.11468,
+   "population": 35025,
+   "geonameId": "2509402"
+  },
+  {
+   "id": "city:geonames-2511250",
+   "name": "San Pedro Alcántara",
+   "aliases": [
+    "San Pedro Alcantara",
+    "San Pedro",
+    "San Pedro de Alcantara",
+    "San Pedro de Alcántara",
+    "San-Pedro-de-Al'kantara",
+    "St. Peter of Alcantara",
+    "St. Peter of Alcántara",
+    "Сан-Педро-де-Алькантара"
+   ],
+   "lat": 36.48839,
+   "lon": -4.99123,
+   "population": 34922,
+   "geonameId": "2511250"
+  },
+  {
+   "id": "city:geonames-2519425",
+   "name": "Cieza",
+   "aliases": [
+    "S'esa",
+    "Siesa",
+    "sysa",
+    "thytha",
+    "xi ye sa",
+    "Сьеса",
+    "Сьєса",
+    "Սիեսա",
+    "ثيثا",
+    "سیسا",
+    "希耶萨"
+   ],
+   "lat": 38.23998,
+   "lon": -1.41987,
+   "population": 34889,
+   "geonameId": "2519425"
+  },
+  {
+   "id": "city:geonames-3107418",
+   "name": "Tudela",
+   "aliases": [
+    "EEL",
+    "Тудела"
+   ],
+   "lat": 42.06166,
+   "lon": -1.60452,
+   "population": 34717,
+   "geonameId": "3107418"
+  },
+  {
+   "id": "city:geonames-3129046",
+   "name": "Azuqueca de Henares",
+   "aliases": [
+    "Asukeka-de-Ehnares",
+    "Asukeka-de-Enares",
+    "Azuqueca",
+    "a su ke ka de ai na lei si",
+    "Асукека-де-Енарес",
+    "Асукека-де-Энарес",
+    "阿苏克卡德埃纳雷斯"
+   ],
+   "lat": 40.56566,
+   "lon": -3.26753,
+   "population": 34685,
+   "geonameId": "3129046"
+  },
+  {
+   "id": "city:geonames-2510116",
+   "name": "Úbeda",
+   "aliases": [
+    "Ubeda",
+    "abdt",
+    "awbda",
+    "ubeda",
+    "wu wei da",
+    "Убеда",
+    "أبدة",
+    "اوبدا",
+    "უბედა",
+    "ウベダ",
+    "乌韦达",
+    "우베다"
+   ],
+   "lat": 38.01328,
+   "lon": -3.3705,
+   "population": 34602,
+   "geonameId": "2510116"
+  },
+  {
+   "id": "city:geonames-2520709",
+   "name": "Burriana",
+   "aliases": [
+    "Borriana",
+    "bu li ya na",
+    "bwrayna",
+    "Борріана",
+    "Бурриана",
+    "بوراينا",
+    "布里亚纳"
+   ],
+   "lat": 39.88901,
+   "lon": -0.08499,
+   "population": 34544,
+   "geonameId": "2520709"
+  },
+  {
+   "id": "city:geonames-2522333",
+   "name": "Águilas",
+   "aliases": [
+    "Aguilas",
+    "Agilas",
+    "Agudas",
+    "a ji la si",
+    "aghylas",
+    "agillaseu",
+    "agirasu",
+    "Агилас",
+    "Агілас",
+    "أغيلاس",
+    "アギラス",
+    "阿吉拉斯",
+    "아길라스"
+   ],
+   "lat": 37.4063,
+   "lon": -1.58289,
+   "population": 34142,
+   "geonameId": "2522333"
+  },
+  {
+   "id": "city:geonames-2509588",
+   "name": "Villajoyosa",
+   "aliases": [
+    "La Vila Joiosa"
+   ],
+   "lat": 38.50754,
+   "lon": -0.23346,
+   "population": 33797,
+   "geonameId": "2509588"
+  },
+  {
+   "id": "city:geonames-3115093",
+   "name": "Olot",
+   "aliases": [
+    "ao luo te",
+    "awlwt",
+    "Олот",
+    "أولوت",
+    "奥洛特"
+   ],
+   "lat": 42.18096,
+   "lon": 2.49012,
+   "population": 33524,
+   "geonameId": "3115093"
+  },
+  {
+   "id": "city:geonames-2521893",
+   "name": "Almendralejo",
+   "aliases": [
+    "Al'mendralekho",
+    "Almendralechas",
+    "Almendraleju",
+    "Almendralekho",
+    "a er men de la lai huo",
+    "almndralykhw",
+    "Алмендралехо",
+    "Альмендралехо",
+    "ألمندراليخو",
+    "阿尔门德拉莱霍"
+   ],
+   "lat": 38.68316,
+   "lon": -6.40747,
+   "population": 33468,
+   "geonameId": "2521893"
+  },
+  {
+   "id": "city:geonames-3116527",
+   "name": "Montcada i Reixac",
+   "aliases": [
+    "Moncada i Reixac",
+    "Montcada"
+   ],
+   "lat": 41.48333,
+   "lon": 2.18333,
+   "population": 33453,
+   "geonameId": "3116527"
+  },
+  {
+   "id": "city:geonames-3129877",
+   "name": "Aranda de Duero",
+   "aliases": [
+    "Aranda",
+    "Aranda-de-Duehro",
+    "Aranda-de-Duero",
+    "aranda dy dwyrw",
+    "du luo he pan a lan da",
+    "Аранда-де-Дуеро",
+    "Аранда-де-Дуэро",
+    "أراندا دي دويرو",
+    "アランダ・デ・ドゥエロ",
+    "杜罗河畔阿兰达"
+   ],
+   "lat": 41.67041,
+   "lon": -3.6892,
+   "population": 33187,
+   "geonameId": "3129877"
+  },
+  {
+   "id": "city:geonames-3126888",
+   "name": "Cambrils",
+   "aliases": [
+    "Kambril's",
+    "Kambrils",
+    "kan fu li er si",
+    "kanburisu",
+    "kmbrylz",
+    "Камбрилс",
+    "Камбрильс",
+    "Камбрілс",
+    "کمبریلز",
+    "カンブリス",
+    "坎夫里尔斯"
+   ],
+   "lat": 41.06997,
+   "lon": 1.05949,
+   "population": 32422,
+   "geonameId": "3126888"
+  },
+  {
+   "id": "city:geonames-2512196",
+   "name": "Puerto de la Cruz",
+   "aliases": [
+    "Orotava",
+    "Puehrto-de-la-Krus",
+    "Puerto de la Krus",
+    "Puerto de la Krusas",
+    "Puerto-de-la-Krus",
+    "bwyrtw dy la krwth",
+    "pu ai er tuo de la ke lu si",
+    "Пуерто де ла Крус",
+    "Пуерто-де-ла-Крус",
+    "Пуэрто-де-ла-Крус",
+    "بويرتو دي لا كروث",
+    "普埃尔托德拉克鲁斯"
+   ],
+   "lat": 28.41686,
+   "lon": -16.55085,
+   "population": 32219,
+   "geonameId": "2512196"
+  },
+  {
+   "id": "city:geonames-3110519",
+   "name": "Sant Joan Despí",
+   "aliases": [
+    "Sant Joan Despi"
+   ],
+   "lat": 41.36718,
+   "lon": 2.0574,
+   "population": 32030,
+   "geonameId": "3110519"
+  },
+  {
+   "id": "city:geonames-3125621",
+   "name": "Castro-Urdiales",
+   "aliases": [
+    "Castro Urdiales",
+    "Urdialaitz"
+   ],
+   "lat": 43.38285,
+   "lon": -3.22043,
+   "population": 31977,
+   "geonameId": "3125621"
+  },
+  {
+   "id": "city:geonames-3121766",
+   "name": "Galapagar",
+   "aliases": [
+    "jalabajar",
+    "jia la pa jia er",
+    "Галапагар",
+    "جالاباجار",
+    "加拉帕加尔"
+   ],
+   "lat": 40.5783,
+   "lon": -4.00426,
+   "population": 31820,
+   "geonameId": "3121766"
+  },
+  {
+   "id": "city:geonames-2511102",
+   "name": "Santa Pola",
+   "aliases": [
+    "Santa-Pola",
+    "santa bwla",
+    "santa pla",
+    "sheng bo la",
+    "Санта-Пола",
+    "سانتا بولا",
+    "سانتا پلا",
+    "圣波拉"
+   ],
+   "lat": 38.19165,
+   "lon": -0.5658,
+   "population": 31760,
+   "geonameId": "2511102"
+  },
+  {
+   "id": "city:geonames-2522077",
+   "name": "Aldaia",
+   "aliases": [
+    "Al'dajja",
+    "Aldaya",
+    "Альдайя"
+   ],
+   "lat": 39.46569,
+   "lon": -0.46005,
+   "population": 31492,
+   "geonameId": "2522077"
+  },
+  {
+   "id": "city:geonames-2511366",
+   "name": "San Javier",
+   "aliases": [
+    "MJV"
+   ],
+   "lat": 37.80626,
+   "lon": -0.83736,
+   "population": 31432,
+   "geonameId": "2511366"
+  },
+  {
+   "id": "city:geonames-3129356",
+   "name": "Arroyomolinos",
+   "aliases": [
+    "Aorroyomolinos",
+    "Aroyomolinos",
+    "Arrojomolinos",
+    "aloyomollinoseu",
+    "Арройомолинос",
+    "Арройомолінос",
+    "Առոյոմոլինոս",
+    "아로요몰리노스"
+   ],
+   "lat": 40.26951,
+   "lon": -3.91946,
+   "population": 31396,
+   "geonameId": "3129356"
+  },
+  {
+   "id": "city:geonames-2511162",
+   "name": "Santa Eulària des Riu",
+   "aliases": [
+    "Santa Eularia des Riu",
+    "Santa Eulalia del Rio",
+    "Santa Eulalia del Río",
+    "Santa Eularia del Riu",
+    "Santa Eulària del Riu",
+    "Santa-Ehulalija-del'-Rio",
+    "bin he sheng ai wu la li ya",
+    "santa aywlalya dyl ryw",
+    "Санта-Эулалия-дель-Рио",
+    "سانتا إيولاليا ديل ريو",
+    "滨河圣埃乌拉利亚"
+   ],
+   "lat": 38.98457,
+   "lon": 1.53409,
+   "population": 31314,
+   "geonameId": "2511162"
+  },
+  {
+   "id": "city:geonames-3126369",
+   "name": "Carballo",
+   "aliases": [
+    "Karbal'o",
+    "Карбальо"
+   ],
+   "lat": 43.213,
+   "lon": -8.69104,
+   "population": 31261,
+   "geonameId": "3126369"
+  },
+  {
+   "id": "city:geonames-2521665",
+   "name": "Arcos de la Frontera",
+   "aliases": [
+    "Arcos",
+    "Arkos-de-la-Frontera",
+    "a er ke si-de la fu long te la",
+    "aleukoseudelapeulontela",
+    "arkws dyla frwntyra",
+    "Аркос-де-ла-Фронтера",
+    "أركوس ديلا فرونتيرا",
+    "アルコス・デ・ラ・フロンテーラ",
+    "阿尔科斯-德拉弗龙特拉",
+    "아르코스데라프론테라"
+   ],
+   "lat": 36.75075,
+   "lon": -5.81056,
+   "population": 31210,
+   "geonameId": "2521665"
+  },
+  {
+   "id": "city:geonames-3118554",
+   "name": "Leioa",
+   "aliases": [
+    "Lejoa",
+    "Lejona",
+    "Lekhona",
+    "lai ao a",
+    "layaywa",
+    "reioa",
+    "Лейоа",
+    "Лехона",
+    "لايايوا",
+    "レイオア",
+    "莱奥阿"
+   ],
+   "lat": 43.32686,
+   "lon": -2.98884,
+   "population": 31197,
+   "geonameId": "3118554"
+  },
+  {
+   "id": "city:geonames-2509982",
+   "name": "Valdepeñas",
+   "aliases": [
+    "Valdepenas",
+    "Val'depen'jase",
+    "Yaldepenas",
+    "Вальдепеньясе"
+   ],
+   "lat": 38.76211,
+   "lon": -3.38483,
+   "population": 31147,
+   "geonameId": "2509982"
+  },
+  {
+   "id": "city:geonames-3109804",
+   "name": "Barberà del Vallès",
+   "aliases": [
+    "Barbera del Valles",
+    "Barbera Del Valles",
+    "Santa Maria de Barbera",
+    "Santa María de Barberà"
+   ],
+   "lat": 41.5159,
+   "lon": 2.12457,
+   "population": 31144,
+   "geonameId": "3109804"
+  },
+  {
+   "id": "city:geonames-2516797",
+   "name": "Hellín",
+   "aliases": [
+    "Hellin",
+    "Ehl'in",
+    "Ehl'ine",
+    "El'in",
+    "ai lin",
+    "ayyn",
+    "hyyn",
+    "Ельїн",
+    "Эльин",
+    "Эльине",
+    "إيين",
+    "هیین",
+    "埃林"
+   ],
+   "lat": 38.5106,
+   "lon": -1.70096,
+   "population": 30976,
+   "geonameId": "2516797"
+  },
+  {
+   "id": "city:geonames-3110880",
+   "name": "San Andrés del Rabanedo",
+   "aliases": [
+    "San Andres del Rabanedo",
+    "San Andres de Rabanedo",
+    "San Andrés de Rabanedo",
+    "San-Andres-del'-Rabanedo",
+    "sheng an de lei si de er la wa nei duo",
+    "Сан-Андрес-дель-Рабанедо",
+    "圣安德雷斯德尔拉瓦内多"
+   ],
+   "lat": 42.61174,
+   "lon": -5.61671,
+   "population": 30820,
+   "geonameId": "3110880"
+  },
+  {
+   "id": "city:geonames-2522131",
+   "name": "Alcázar de San Juan",
+   "aliases": [
+    "Alcazar de San Juan",
+    "Al'kasar-de-San-Khuan",
+    "Alcazar",
+    "Alcazar de Consuegra",
+    "Alcázar",
+    "Alcázar de Consuegra",
+    "a er ka sa er de sheng hu an",
+    "alkzar dy san khwan",
+    "Алькасар-де-Сан-Хуан",
+    "الكزار دي سان خوان",
+    "阿尔卡萨尔德圣胡安"
+   ],
+   "lat": 39.39011,
+   "lon": -3.20827,
+   "population": 30686,
+   "geonameId": "2522131"
+  },
+  {
+   "id": "city:geonames-2519233",
+   "name": "Coria del Río",
+   "aliases": [
+    "Coria del Rio",
+    "Koria-del'-Rio",
+    "Кориа-дель-Рио",
+    "コリア・デル・リオ"
+   ],
+   "lat": 37.28766,
+   "lon": -6.0541,
+   "population": 30657,
+   "geonameId": "2519233"
+  },
+  {
+   "id": "city:geonames-3110983",
+   "name": "Salt",
+   "aliases": [
+    "Салт"
+   ],
+   "lat": 41.97489,
+   "lon": 2.79281,
+   "population": 30622,
+   "geonameId": "3110983"
+  },
+  {
+   "id": "city:geonames-2514197",
+   "name": "Manises",
+   "aliases": [
+    "Манисес"
+   ],
+   "lat": 39.49139,
+   "lon": -0.46349,
+   "population": 30508,
+   "geonameId": "2514197"
+  },
+  {
+   "id": "city:geonames-3126917",
+   "name": "Camargo",
+   "aliases": [
+    "Kamargo",
+    "Камарго"
+   ],
+   "lat": 43.40744,
+   "lon": -3.88498,
+   "population": 30263,
+   "geonameId": "3126917"
+  },
+  {
+   "id": "city:geonames-2512232",
+   "name": "Puente-Genil",
+   "aliases": [
+    "GEN",
+    "Puente Genil"
+   ],
+   "lat": 37.38943,
+   "lon": -4.76686,
+   "population": 30241,
+   "geonameId": "2512232"
+  },
+  {
+   "id": "city:geonames-3124041",
+   "name": "Culleredo",
+   "aliases": [
+    "Kul'eredo",
+    "Kuleredo",
+    "San Esteban",
+    "ku lie lei duo",
+    "kujeredo",
+    "kwlyrydw",
+    "Кулередо",
+    "Кульередо",
+    "Кульєредо",
+    "كوليريدو",
+    "クジェレード",
+    "库列雷多"
+   ],
+   "lat": 43.28788,
+   "lon": -8.38858,
+   "population": 30221,
+   "geonameId": "3124041"
+  },
+  {
+   "id": "city:geonames-2519466",
+   "name": "Xirivella",
+   "aliases": [
+    "Chirivel'ja",
+    "Чиривелья"
+   ],
+   "lat": 39.46588,
+   "lon": -0.42589,
+   "population": 30002,
+   "geonameId": "2519466"
+  },
+  {
+   "id": "city:geonames-2521486",
+   "name": "Atamaría",
+   "aliases": [
+    "Atamaria",
+    "Atamarija",
+    "Caserio Atamaria",
+    "Caserío Atamaría",
+    "Атамария"
+   ],
+   "lat": 37.59989,
+   "lon": -0.80682,
+   "population": 30000,
+   "geonameId": "2521486"
+  },
+  {
+   "id": "city:geonames-6355013",
+   "name": "Puerto del Carmen",
+   "aliases": [
+    "Puehrto-del'-Karmen",
+    "Пуэрто-дель-Кармен"
+   ],
+   "lat": 28.92313,
+   "lon": -13.66579,
+   "population": 30000,
+   "geonameId": "6355013"
+  },
+  {
+   "id": "city:geonames-3129329",
+   "name": "Arteixo",
+   "aliases": [],
+   "lat": 43.30482,
+   "lon": -8.50749,
+   "population": 29762,
+   "geonameId": "3129329"
+  },
+  {
+   "id": "city:geonames-2516345",
+   "name": "Xàtiva",
+   "aliases": [
+    "Xativa",
+    "Jativa",
+    "Játiva",
+    "Khativa",
+    "shatbt",
+    "Хатива",
+    "شاطبة"
+   ],
+   "lat": 38.99042,
+   "lon": -0.51852,
+   "population": 29386,
+   "geonameId": "2516345"
+  },
+  {
+   "id": "city:geonames-2522297",
+   "name": "Alaquàs",
+   "aliases": [
+    "Alaquas",
+    "Alacuas",
+    "Alacuás",
+    "Alakuas",
+    "Алакуас"
+   ],
+   "lat": 39.45568,
+   "lon": -0.461,
+   "population": 29341,
+   "geonameId": "2522297"
+  },
+  {
+   "id": "city:geonames-2516443",
+   "name": "Ingenio",
+   "aliases": [
+    "Carrizal de Ingenio"
+   ],
+   "lat": 27.91855,
+   "lon": -15.43433,
+   "population": 29319,
+   "geonameId": "2516443"
+  },
+  {
+   "id": "city:geonames-2516452",
+   "name": "Inca",
+   "aliases": [
+    "Inka",
+    "Инка"
+   ],
+   "lat": 39.7211,
+   "lon": 2.91093,
+   "population": 29308,
+   "geonameId": "2516452"
+  },
+  {
+   "id": "city:geonames-2511239",
+   "name": "San Roque",
+   "aliases": [],
+   "lat": 36.20983,
+   "lon": -5.38452,
+   "population": 29249,
+   "geonameId": "2511239"
+  },
+  {
+   "id": "city:geonames-3121751",
+   "name": "Galdakao",
+   "aliases": [
+    "Gal'dakano",
+    "Galdacan",
+    "Galdacano",
+    "Galdacon",
+    "Galdácano",
+    "Гальдакано"
+   ],
+   "lat": 43.23073,
+   "lon": -2.8429,
+   "population": 29226,
+   "geonameId": "3121751"
+  },
+  {
+   "id": "city:geonames-2510224",
+   "name": "Totana",
+   "aliases": [
+    "Тотана"
+   ],
+   "lat": 37.7688,
+   "lon": -1.50229,
+   "population": 29211,
+   "geonameId": "2510224"
+  },
+  {
+   "id": "city:geonames-3112154",
+   "name": "Redondela",
+   "aliases": [
+    "Редондела"
+   ],
+   "lat": 42.28337,
+   "lon": -8.6096,
+   "population": 29194,
+   "geonameId": "3112154"
+  },
+  {
+   "id": "city:geonames-3124967",
+   "name": "Ciutadella",
+   "aliases": [
+    "Ciudadela",
+    "QIU"
+   ],
+   "lat": 40.00112,
+   "lon": 3.84144,
+   "population": 29160,
+   "geonameId": "3124967"
+  },
+  {
+   "id": "city:geonames-2514301",
+   "name": "Maó",
+   "aliases": [
+    "Mao",
+    "Mahon (Menorca)",
+    "Мао"
+   ],
+   "lat": 39.88853,
+   "lon": 4.26583,
+   "population": 29125,
+   "geonameId": "2514301"
+  },
+  {
+   "id": "city:geonames-2519110",
+   "name": "Crevillente",
+   "aliases": [
+    "Crevillent",
+    "Krevil'ente",
+    "Кревильенте"
+   ],
+   "lat": 38.24994,
+   "lon": -0.80975,
+   "population": 28957,
+   "geonameId": "2519110"
+  },
+  {
+   "id": "city:geonames-2522325",
+   "name": "Agüimes",
+   "aliases": [
+    "Aguimes",
+    "Agueimes",
+    "Agvimes",
+    "Агвимес",
+    "Агуимес"
+   ],
+   "lat": 27.90539,
+   "lon": -15.44609,
+   "population": 28924,
+   "geonameId": "2522325"
+  },
+  {
+   "id": "city:geonames-2510764",
+   "name": "Sueca",
+   "aliases": [],
+   "lat": 39.2026,
+   "lon": -0.31114,
+   "population": 28908,
+   "geonameId": "2510764"
+  },
+  {
+   "id": "city:geonames-2511700",
+   "name": "Rota",
+   "aliases": [
+    "ROZ",
+    "Рота"
+   ],
+   "lat": 36.62364,
+   "lon": -6.35997,
+   "population": 28848,
+   "geonameId": "2511700"
+  },
+  {
+   "id": "city:geonames-2520118",
+   "name": "Carmona",
+   "aliases": [
+    "Karmona",
+    "Кармона"
+   ],
+   "lat": 37.47125,
+   "lon": -5.64608,
+   "population": 28620,
+   "geonameId": "2520118"
+  },
+  {
+   "id": "city:geonames-2520477",
+   "name": "Camas",
+   "aliases": [
+    "Kamas",
+    "ka ma si",
+    "Камас",
+    "Կամաս",
+    "卡马斯"
+   ],
+   "lat": 37.40202,
+   "lon": -6.03314,
+   "population": 28620,
+   "geonameId": "2520477"
+  },
+  {
+   "id": "city:geonames-2513145",
+   "name": "Oliva",
+   "aliases": [
+    "Олива"
+   ],
+   "lat": 38.91971,
+   "lon": -0.11935,
+   "population": 28419,
+   "geonameId": "2513145"
+  },
+  {
+   "id": "city:geonames-3110143",
+   "name": "Sant Pere de Ribes",
+   "aliases": [
+    "San Pedro de Ribas"
+   ],
+   "lat": 41.26045,
+   "lon": 1.77391,
+   "population": 28353,
+   "geonameId": "3110143"
+  },
+  {
+   "id": "city:geonames-3104584",
+   "name": "Vinaròs",
+   "aliases": [
+    "Vinaros",
+    "Vinarose",
+    "Vinaroz",
+    "Винаросе"
+   ],
+   "lat": 40.47033,
+   "lon": 0.47559,
+   "population": 28273,
+   "geonameId": "3104584"
+  },
+  {
+   "id": "city:geonames-3123773",
+   "name": "Durango",
+   "aliases": [
+    "Tavira",
+    "Дуранго"
+   ],
+   "lat": 43.17124,
+   "lon": -2.6338,
+   "population": 28229,
+   "geonameId": "3123773"
+  },
+  {
+   "id": "city:geonames-2516336",
+   "name": "Javea",
+   "aliases": [
+    "Jávea",
+    "Xabia",
+    "Xàbia"
+   ],
+   "lat": 38.78333,
+   "lon": 0.16667,
+   "population": 28016,
+   "geonameId": "2516336"
+  },
+  {
+   "id": "city:geonames-3109442",
+   "name": "Sant Vicenç dels Horts",
+   "aliases": [
+    "Sant Vicenc dels Horts"
+   ],
+   "lat": 41.39317,
+   "lon": 2.00689,
+   "population": 27901,
+   "geonameId": "3109442"
+  },
+  {
+   "id": "city:geonames-2520447",
+   "name": "El Campello",
+   "aliases": [
+    "Campello"
+   ],
+   "lat": 38.42885,
+   "lon": -0.39774,
+   "population": 27893,
+   "geonameId": "2520447"
+  },
+  {
+   "id": "city:geonames-3117331",
+   "name": "Martorell",
+   "aliases": [
+    "Martorel'",
+    "Martorelle",
+    "Marturel'",
+    "ma er tuo lei li",
+    "martwrl",
+    "martwryl",
+    "Марторелле",
+    "Марторель",
+    "Мартурель",
+    "مارتورل",
+    "مارتوريل",
+    "马尔托雷利"
+   ],
+   "lat": 41.47402,
+   "lon": 1.93062,
+   "population": 27850,
+   "geonameId": "3117331"
+  },
+  {
+   "id": "city:geonames-2513509",
+   "name": "Morón de la Frontera",
+   "aliases": [
+    "Moron de la Frontera",
+    "Moron",
+    "Moron-de-la-Frontera",
+    "Morón",
+    "OZP",
+    "mo long de la fu long te la",
+    "mwrwr",
+    "Морон-де-ла-Фронтера",
+    "مورور",
+    "莫龙德拉夫龙特拉"
+   ],
+   "lat": 37.12084,
+   "lon": -5.45403,
+   "population": 27844,
+   "geonameId": "2513509"
+  },
+  {
+   "id": "city:geonames-2521847",
+   "name": "Almuñécar",
+   "aliases": [
+    "Almunecar",
+    "Al'mun'ekar",
+    "Sexi Firmum Iulium",
+    "a er mu nie ka er",
+    "almnkb",
+    "almunyekaleu",
+    "arumunyekaru",
+    "Альмуньекар",
+    "Альмуньєкар",
+    "المنكب",
+    "アルムニェーカル",
+    "阿尔穆涅卡尔",
+    "알무녜카르"
+   ],
+   "lat": 36.73246,
+   "lon": -3.69173,
+   "population": 27696,
+   "geonameId": "2521847"
+  },
+  {
+   "id": "city:geonames-3108877",
+   "name": "Sitges",
+   "aliases": [
+    "Sitzhes",
+    "Ситжес"
+   ],
+   "lat": 41.23506,
+   "lon": 1.81193,
+   "population": 27668,
+   "geonameId": "3108877"
+  },
+  {
+   "id": "city:geonames-3104703",
+   "name": "Villaviciosa de Odón",
+   "aliases": [
+    "Villaviciosa de Odon",
+    "Vil'javisiosa-de-Odon",
+    "Вильявисиоса-де-Одон"
+   ],
+   "lat": 40.3581,
+   "lon": -3.9043,
+   "population": 27596,
+   "geonameId": "3104703"
+  },
+  {
+   "id": "city:geonames-3111807",
+   "name": "Ribeira",
+   "aliases": [],
+   "lat": 42.73809,
+   "lon": -8.44106,
+   "population": 27518,
+   "geonameId": "3111807"
+  },
+  {
+   "id": "city:geonames-3109041",
+   "name": "Sestao",
+   "aliases": [
+    "sai si tao",
+    "systaw",
+    "Сестао",
+    "سيستاو",
+    "塞斯陶"
+   ],
+   "lat": 43.30975,
+   "lon": -3.00716,
+   "population": 27445,
+   "geonameId": "3109041"
+  },
+  {
+   "id": "city:geonames-3123709",
+   "name": "Eibar",
+   "aliases": [
+    "Ehibar",
+    "Ehjbar",
+    "Eybar",
+    "Heivar",
+    "Heybar",
+    "Villanueva de San Andres",
+    "Villanueva de San Andres de Heybar",
+    "Villanueva de San Andrés",
+    "Villanueva de San Andrés de Heybar",
+    "Éibar",
+    "Эйбар"
+   ],
+   "lat": 43.18493,
+   "lon": -2.47158,
+   "population": 27406,
+   "geonameId": "3123709"
+  },
+  {
+   "id": "city:geonames-3112866",
+   "name": "Premià de Mar",
+   "aliases": [
+    "Premia de Mar",
+    "Premija-de-Mar",
+    "Премия-де-Мар"
+   ],
+   "lat": 41.49206,
+   "lon": 2.36524,
+   "population": 27399,
+   "geonameId": "3112866"
+  },
+  {
+   "id": "city:geonames-2522012",
+   "name": "Algemesí",
+   "aliases": [
+    "Algemesi",
+    "Al'khemesi",
+    "Aldzhemezi",
+    "a er he mei xi",
+    "Алджемезі",
+    "Альхемеси",
+    "阿尔赫梅西"
+   ],
+   "lat": 39.19042,
+   "lon": -0.43572,
+   "population": 27285,
+   "geonameId": "2522012"
+  },
+  {
+   "id": "city:geonames-2513195",
+   "name": "Novelda",
+   "aliases": [
+    "Novel'da",
+    "Новельда"
+   ],
+   "lat": 38.38479,
+   "lon": -0.76773,
+   "population": 27135,
+   "geonameId": "2513195"
+  },
+  {
+   "id": "city:geonames-3109897",
+   "name": "Santa Uxía de Ribeira",
+   "aliases": [
+    "Santa Uxia de Ribeira",
+    "Reviera",
+    "Ribeira",
+    "Riveira",
+    "Santa Eugenia de Reviera",
+    "Santa Eugenia de Ribeira",
+    "Santa Eugenia de Riveira"
+   ],
+   "lat": 42.55352,
+   "lon": -8.99094,
+   "population": 27067,
+   "geonameId": "3109897"
+  },
+  {
+   "id": "city:geonames-2519690",
+   "name": "Catarroja",
+   "aliases": [
+    "Katarrokh",
+    "Катаррох"
+   ],
+   "lat": 39.4,
+   "lon": -0.4,
+   "population": 27035,
+   "geonameId": "2519690"
+  },
+  {
+   "id": "city:geonames-3110986",
+   "name": "Salou",
+   "aliases": [
+    "sa luo",
+    "salw",
+    "sarou",
+    "Салоу",
+    "سالو",
+    "サロウ",
+    "萨洛"
+   ],
+   "lat": 41.07663,
+   "lon": 1.14163,
+   "population": 26775,
+   "geonameId": "3110986"
+  },
+  {
+   "id": "city:geonames-3113526",
+   "name": "Pineda de Mar",
+   "aliases": [
+    "Pineda",
+    "Пинеда де Мар"
+   ],
+   "lat": 41.62763,
+   "lon": 2.6889,
+   "population": 26659,
+   "geonameId": "3113526"
+  },
+  {
+   "id": "city:geonames-3128273",
+   "name": "Benicarló",
+   "aliases": [
+    "Benicarlo",
+    "Benikarlo",
+    "Беникарло"
+   ],
+   "lat": 40.4165,
+   "lon": 0.42709,
+   "population": 26655,
+   "geonameId": "3128273"
+  },
+  {
+   "id": "city:geonames-2509491",
+   "name": "Villarrobledo",
+   "aliases": [
+    "Billarrobledo",
+    "Vil'jarrobledo",
+    "Villa Robletum",
+    "biryaroburedo",
+    "Βιλλαρροβλέδο",
+    "Вильярробледо",
+    "ビリャロブレド"
+   ],
+   "lat": 39.26992,
+   "lon": -2.60119,
+   "population": 26642,
+   "geonameId": "2509491"
+  },
+  {
+   "id": "city:geonames-2513222",
+   "name": "Níjar",
+   "aliases": [
+    "Nijar",
+    "Nikhar",
+    "Нихар"
+   ],
+   "lat": 36.96655,
+   "lon": -2.20595,
+   "population": 26516,
+   "geonameId": "2513222"
+  },
+  {
+   "id": "city:geonames-2515096",
+   "name": "Lebrija",
+   "aliases": [
+    "Lebrikha",
+    "Лебриха"
+   ],
+   "lat": 36.92077,
+   "lon": -6.07529,
+   "population": 26434,
+   "geonameId": "2515096"
+  },
+  {
+   "id": "city:geonames-2520171",
+   "name": "Caravaca",
+   "aliases": [],
+   "lat": 38.10558,
+   "lon": -1.86343,
+   "population": 26415,
+   "geonameId": "2520171"
+  },
+  {
+   "id": "city:geonames-3110885",
+   "name": "Sant Andreu de la Barca",
+   "aliases": [
+    "San Andres de la Barca",
+    "San Andrés de la Barca"
+   ],
+   "lat": 41.44659,
+   "lon": 1.97187,
+   "population": 26401,
+   "geonameId": "3110885"
+  },
+  {
+   "id": "city:geonames-3117409",
+   "name": "Marín",
+   "aliases": [
+    "Marin",
+    "San Xiao Ancorados"
+   ],
+   "lat": 42.39145,
+   "lon": -8.70136,
+   "population": 25969,
+   "geonameId": "3117409"
+  },
+  {
+   "id": "city:geonames-2515072",
+   "name": "Lepe",
+   "aliases": [
+    "Лепе"
+   ],
+   "lat": 37.25482,
+   "lon": -7.20433,
+   "population": 25886,
+   "geonameId": "2515072"
+  },
+  {
+   "id": "city:geonames-2515698",
+   "name": "La Oliva",
+   "aliases": [
+    "Oliva"
+   ],
+   "lat": 28.61052,
+   "lon": -13.92912,
+   "population": 25884,
+   "geonameId": "2515698"
+  },
+  {
+   "id": "city:geonames-2521909",
+   "name": "Almassora",
+   "aliases": [
+    "Almazora",
+    "Алмассора"
+   ],
+   "lat": 39.94729,
+   "lon": -0.06313,
+   "population": 25831,
+   "geonameId": "2521909"
+  },
+  {
+   "id": "city:geonames-2509553",
+   "name": "Villanueva de la Serena",
+   "aliases": [
+    "Vil'januehva-de-la-Serena",
+    "Vil'janueva-de-la-Serena",
+    "Villanueva la Serena",
+    "fylanywfa dy la syryna",
+    "sai lei na xin zhen",
+    "Вильянуэва-де-ла-Серена",
+    "Вільянуева-де-ла-Серена",
+    "فيلانيوفا دي لا سيرينا",
+    "ビジャヌエバ・デ・ラ・セレーナ",
+    "塞雷纳新镇"
+   ],
+   "lat": 38.97655,
+   "lon": -5.7974,
+   "population": 25759,
+   "geonameId": "2509553"
+  },
+  {
+   "id": "city:geonames-2521857",
+   "name": "Almonte",
+   "aliases": [
+    "Al'monte",
+    "a er meng te",
+    "almwnt  aspanya",
+    "almwnty",
+    "Альмонте",
+    "Ալմոնտե",
+    "ألمونتي",
+    "المونت، اسپانیا",
+    "阿尔蒙特"
+   ],
+   "lat": 37.2647,
+   "lon": -6.51667,
+   "population": 25751,
+   "geonameId": "2521857"
+  },
+  {
+   "id": "city:geonames-3126577",
+   "name": "Cangas do Morrazo",
+   "aliases": [
+    "Cangas"
+   ],
+   "lat": 42.26413,
+   "lon": -8.78463,
+   "population": 25748,
+   "geonameId": "3126577"
+  },
+  {
+   "id": "city:geonames-2516255",
+   "name": "Jumilla",
+   "aliases": [
+    "Chumiella",
+    "Jumella",
+    "Khumil'e",
+    "Khumil'ja",
+    "hu mi li ya",
+    "khwmya",
+    "Хумилье",
+    "Хумилья",
+    "Хумілья",
+    "خوميا",
+    "胡米利亚"
+   ],
+   "lat": 38.47917,
+   "lon": -1.325,
+   "population": 25685,
+   "geonameId": "2516255"
+  },
+  {
+   "id": "city:geonames-2519068",
+   "name": "Quart de Poblet",
+   "aliases": [
+    "Cuart de Poblet",
+    "Kuart-de-Poblet",
+    "Куарт-де-Поблет"
+   ],
+   "lat": 39.48139,
+   "lon": -0.43937,
+   "population": 25499,
+   "geonameId": "2519068"
+  },
+  {
+   "id": "city:geonames-3106492",
+   "name": "Valls",
+   "aliases": [
+    "Val's",
+    "Вальс"
+   ],
+   "lat": 41.28612,
+   "lon": 1.24993,
+   "population": 25092,
+   "geonameId": "3106492"
+  },
+  {
+   "id": "city:geonames-3109689",
+   "name": "Santa Perpètua de Mogoda",
+   "aliases": [
+    "Santa Perpetua de Mogoda",
+    "Santa Perpetua de Moguda"
+   ],
+   "lat": 41.53333,
+   "lon": 2.18333,
+   "population": 25048,
+   "geonameId": "3109689"
+  },
+  {
+   "id": "city:geonames-2513115",
+   "name": "Onda",
+   "aliases": [
+    "awnda",
+    "weng da",
+    "Онда",
+    "أوندا",
+    "翁达"
+   ],
+   "lat": 39.96495,
+   "lon": -0.26041,
+   "population": 24850,
+   "geonameId": "2513115"
+  },
+  {
+   "id": "city:geonames-3127065",
+   "name": "Calahorra",
+   "aliases": [
+    "Calagorra",
+    "Calagurris",
+    "Kalagorria",
+    "Kalaora",
+    "Kalaorra",
+    "ka la ao la",
+    "karaora",
+    "qlhrt",
+    "Калаорра",
+    "Կալաոռա",
+    "قلهرة",
+    "カラオラ",
+    "卡拉奥拉"
+   ],
+   "lat": 42.30506,
+   "lon": -1.96521,
+   "population": 24787,
+   "geonameId": "3127065"
+  },
+  {
+   "id": "city:geonames-2514073",
+   "name": "Martos",
+   "aliases": [
+    "ma er tuo si",
+    "marts",
+    "martws",
+    "martws  khayn",
+    "Мартос",
+    "مارتس",
+    "مارتوس",
+    "مارتوس، خاين",
+    "马尔托斯"
+   ],
+   "lat": 37.72107,
+   "lon": -3.97264,
+   "population": 24655,
+   "geonameId": "2514073"
+  },
+  {
+   "id": "city:geonames-2521923",
+   "name": "Almansa",
+   "aliases": [
+    "Al'mansa",
+    "a er man sa",
+    "almansa",
+    "almnsy",
+    "yan man sha",
+    "Альманса",
+    "آلمانسا",
+    "المنسى",
+    "阿尔曼萨",
+    "顏曼莎"
+   ],
+   "lat": 38.86917,
+   "lon": -1.09713,
+   "population": 24537,
+   "geonameId": "2521923"
+  },
+  {
+   "id": "city:geonames-2522430",
+   "name": "Adra",
+   "aliases": [
+    "Abdera",
+    "Адра"
+   ],
+   "lat": 36.74831,
+   "lon": -3.02076,
+   "population": 24373,
+   "geonameId": "2522430"
+  },
+  {
+   "id": "city:geonames-2520283",
+   "name": "Candelaria",
+   "aliases": [
+    "Cancelaria",
+    "Kandelaria",
+    "Kandelarii",
+    "Kandelarija",
+    "kan de la li ya",
+    "kanderaria",
+    "kandylarya  santa krwth dy tynyryfh",
+    "Κανδελάρια",
+    "Канделарии",
+    "Канделария",
+    "Канделарія",
+    "קאנדלאריה",
+    "كانديلاريا، سانتا كروث دي تينيريفه",
+    "カンデラリア",
+    "坎德拉里亚"
+   ],
+   "lat": 28.3548,
+   "lon": -16.37268,
+   "population": 24319,
+   "geonameId": "2520283"
+  },
+  {
+   "id": "city:geonames-3127066",
+   "name": "Calafell",
+   "aliases": [],
+   "lat": 41.19997,
+   "lon": 1.5683,
+   "population": 24265,
+   "geonameId": "3127066"
+  },
+  {
+   "id": "city:geonames-3123104",
+   "name": "Erandio",
+   "aliases": [
+    "Ehrandio",
+    "ai lan di ao",
+    "ayrandayw",
+    "erandio",
+    "Ерандіо",
+    "Эрандио",
+    "إيراندايو",
+    "エランディオ",
+    "埃兰迪奥"
+   ],
+   "lat": 43.30438,
+   "lon": -2.97352,
+   "population": 24262,
+   "geonameId": "3123104"
+  },
+  {
+   "id": "city:geonames-2522203",
+   "name": "Alboraya",
+   "aliases": [
+    "Al'boraja",
+    "Al'borajja",
+    "Alboraia",
+    "a er wo lai a",
+    "albraya",
+    "Альборайя",
+    "Альборая",
+    "Ալբորայա",
+    "آلبرایا",
+    "阿尔沃赖阿"
+   ],
+   "lat": 39.5,
+   "lon": -0.35,
+   "population": 24222,
+   "geonameId": "2522203"
+  },
+  {
+   "id": "city:geonames-2517436",
+   "name": "Gáldar",
+   "aliases": [
+    "Galdar",
+    "Gal'dar",
+    "Гальдар"
+   ],
+   "lat": 28.14701,
+   "lon": -15.6502,
+   "population": 24209,
+   "geonameId": "2517436"
+  },
+  {
+   "id": "city:geonames-2518949",
+   "name": "Cullera",
+   "aliases": [
+    "Kul'era",
+    "ku lie la",
+    "Кульера",
+    "Кульєра",
+    "库列拉"
+   ],
+   "lat": 39.16667,
+   "lon": -0.25,
+   "population": 24121,
+   "geonameId": "2518949"
+  },
+  {
+   "id": "city:geonames-2516480",
+   "name": "Ibi",
+   "aliases": [
+    "alby",
+    "ayby",
+    "yi wei",
+    "Ібі",
+    "Иби",
+    "Իբի",
+    "إلبي",
+    "ایبی",
+    "伊维"
+   ],
+   "lat": 38.62533,
+   "lon": -0.57225,
+   "population": 24113,
+   "geonameId": "2516480"
+  },
+  {
+   "id": "city:geonames-3116562",
+   "name": "Molins de Rei",
+   "aliases": [
+    "Molins"
+   ],
+   "lat": 41.41667,
+   "lon": 2.01667,
+   "population": 24067,
+   "geonameId": "3116562"
+  },
+  {
+   "id": "city:geonames-3125915",
+   "name": "Castellar del Vallès",
+   "aliases": [
+    "Castellar del Valles"
+   ],
+   "lat": 41.61667,
+   "lon": 2.08333,
+   "population": 24036,
+   "geonameId": "3125915"
+  },
+  {
+   "id": "city:geonames-2516474",
+   "name": "Icod de los Vinos",
+   "aliases": [
+    "Icod",
+    "Ikod-de-los-Vinos",
+    "akwd dy lws fynws",
+    "aykd d ls byns",
+    "yi ke de luo si wei nuo si",
+    "Ікод-де-лос-Вінос",
+    "Икод-де-лос-Винос",
+    "إكود دي لوس فينوس",
+    "ایکد د لس بینس",
+    "伊科德洛斯维诺斯"
+   ],
+   "lat": 28.37241,
+   "lon": -16.71188,
+   "population": 24024,
+   "geonameId": "2516474"
+  },
+  {
+   "id": "city:geonames-2521804",
+   "name": "Altea",
+   "aliases": [],
+   "lat": 38.59878,
+   "lon": -0.05151,
+   "population": 23780,
+   "geonameId": "2521804"
+  },
+  {
+   "id": "city:geonames-2511247",
+   "name": "San Pedro del Pinatar",
+   "aliases": [
+    "San Pedro del Pintar"
+   ],
+   "lat": 37.83568,
+   "lon": -0.79102,
+   "population": 23738,
+   "geonameId": "2511247"
+  },
+  {
+   "id": "city:geonames-2510725",
+   "name": "Tacoronte",
+   "aliases": [
+    "Takoronte",
+    "ta ke long te",
+    "takrnth",
+    "takwrwnty",
+    "Такоронте",
+    "تاكورونتي",
+    "تاکرنته",
+    "塔科龙特"
+   ],
+   "lat": 28.47688,
+   "lon": -16.41016,
+   "population": 23562,
+   "geonameId": "2510725"
+  },
+  {
+   "id": "city:geonames-2513029",
+   "name": "Paiporta",
+   "aliases": [
+    "Pajporta",
+    "Пайпорта"
+   ],
+   "lat": 39.42814,
+   "lon": -0.41765,
+   "population": 23519,
+   "geonameId": "2513029"
+  },
+  {
+   "id": "city:geonames-2514824",
+   "name": "Los Barrios",
+   "aliases": [
+    "Barrios",
+    "Los-Barrios",
+    "luo si ba li ao si",
+    "lws baryws",
+    "lws bryws",
+    "Лос-Барриос",
+    "Лос-Барріос",
+    "לוס בריוס",
+    "لوس باريوس",
+    "洛斯巴里奥斯"
+   ],
+   "lat": 36.18482,
+   "lon": -5.49213,
+   "population": 23513,
+   "geonameId": "2514824"
+  },
+  {
+   "id": "city:geonames-2518294",
+   "name": "El Palmar",
+   "aliases": [],
+   "lat": 37.93939,
+   "lon": -1.16095,
+   "population": 23361,
+   "geonameId": "2518294"
+  },
+  {
+   "id": "city:geonames-2521215",
+   "name": "Baza",
+   "aliases": [
+    "База"
+   ],
+   "lat": 37.49073,
+   "lon": -2.77259,
+   "population": 23359,
+   "geonameId": "2521215"
+  },
+  {
+   "id": "city:geonames-3117232",
+   "name": "El Masnou",
+   "aliases": [
+    "el Masnou"
+   ],
+   "lat": 41.47978,
+   "lon": 2.3188,
+   "population": 23340,
+   "geonameId": "3117232"
+  },
+  {
+   "id": "city:geonames-2520496",
+   "name": "Calp",
+   "aliases": [
+    "Calpe",
+    "Kal'p",
+    "Kalp",
+    "ka er pei",
+    "kalby",
+    "kalp",
+    "Калп",
+    "Кальп",
+    "كالبي",
+    "کالپ",
+    "卡尔佩"
+   ],
+   "lat": 38.6447,
+   "lon": 0.0445,
+   "population": 23326,
+   "geonameId": "2520496"
+  },
+  {
+   "id": "city:geonames-2521985",
+   "name": "Alhaurín el Grande",
+   "aliases": [
+    "Alhaurin el Grande",
+    "Al'khaurin-ehl'-Grande",
+    "Alaurin-ehl'-Grande",
+    "Alaurin-el'-Grande",
+    "a er ao li nei er ge lan de",
+    "alawryn la ghrandy",
+    "Алаурин-эль-Гранде",
+    "Алаурін-ель-Гранде",
+    "Альхаурин-эль-Гранде",
+    "ألاورين لا غراندي",
+    "阿尔奥里内尔格兰德"
+   ],
+   "lat": 36.643,
+   "lon": -4.68728,
+   "population": 23319,
+   "geonameId": "2521985"
+  },
+  {
+   "id": "city:geonames-3115171",
+   "name": "Olesa de Montserrat",
+   "aliases": [
+    "Olesa"
+   ],
+   "lat": 41.54372,
+   "lon": 1.89407,
+   "population": 23301,
+   "geonameId": "3115171"
+  },
+  {
+   "id": "city:geonames-3126890",
+   "name": "Cambre",
+   "aliases": [],
+   "lat": 43.29438,
+   "lon": -8.34736,
+   "population": 23231,
+   "geonameId": "3126890"
+  },
+  {
+   "id": "city:geonames-3112761",
+   "name": "Ponteareas",
+   "aliases": [],
+   "lat": 42.17476,
+   "lon": -8.50398,
+   "population": 23172,
+   "geonameId": "3112761"
+  },
+  {
+   "id": "city:geonames-2513601",
+   "name": "Montilla",
+   "aliases": [
+    "Montil'ja",
+    "Munda",
+    "OZU",
+    "meng di li ya",
+    "montiya",
+    "mwntyla  qrtbt",
+    "Монтилья",
+    "Монтілья",
+    "مونتيلا، قرطبة",
+    "蒙蒂利亚",
+    "몬티야"
+   ],
+   "lat": 37.58627,
+   "lon": -4.63805,
+   "population": 23031,
+   "geonameId": "2513601"
+  },
+  {
+   "id": "city:geonames-2515036",
+   "name": "Llíria",
+   "aliases": [
+    "Lliria",
+    "Liria"
+   ],
+   "lat": 39.62894,
+   "lon": -0.59783,
+   "population": 22972,
+   "geonameId": "2515036"
+  },
+  {
+   "id": "city:geonames-2509650",
+   "name": "Vícar",
+   "aliases": [
+    "Vicar",
+    "Vikar",
+    "bi ka er",
+    "bykar",
+    "Викар",
+    "Вікар",
+    "بيكار",
+    "بیکار",
+    "比卡尔"
+   ],
+   "lat": 36.83155,
+   "lon": -2.64273,
+   "population": 22853,
+   "geonameId": "2509650"
+  },
+  {
+   "id": "city:geonames-2522160",
+   "name": "Alcalá la Real",
+   "aliases": [
+    "Alcala la Real",
+    "Aebura",
+    "Al'kala-la-Real'",
+    "Ebora",
+    "a er ka la la lei ya er",
+    "alkala la ryal",
+    "Алькала-ла-Реаль",
+    "آلکالا لا رئال",
+    "ألكالا لا ريال",
+    "アルカラ・ラ・レアル",
+    "阿尔卡拉拉雷亚尔"
+   ],
+   "lat": 37.4614,
+   "lon": -3.92301,
+   "population": 22783,
+   "geonameId": "2522160"
+  },
+  {
+   "id": "city:geonames-2510394",
+   "name": "Tomares",
+   "aliases": [
+    "Томарес"
+   ],
+   "lat": 37.37281,
+   "lon": -6.04589,
+   "population": 22772,
+   "geonameId": "2510394"
+  },
+  {
+   "id": "city:geonames-3104316",
+   "name": "Zarautz",
+   "aliases": [
+    "Zarauz"
+   ],
+   "lat": 43.28444,
+   "lon": -2.16992,
+   "population": 22627,
+   "geonameId": "3104316"
+  },
+  {
+   "id": "city:geonames-2512282",
+   "name": "Priego de Córdoba",
+   "aliases": [
+    "Priego de Cordoba",
+    "Pr'ego-de-Kordoba",
+    "Priego",
+    "Priego-de-Kordova",
+    "bryghw dy qrtbt  qrtbt",
+    "pu lie ge de ke er duo wa",
+    "Прьего-де-Кордоба",
+    "Прієго-де-Кордова",
+    "بريغو دي قرطبة، قرطبة",
+    "普列戈德科尔多瓦"
+   ],
+   "lat": 37.43807,
+   "lon": -4.19523,
+   "population": 22585,
+   "geonameId": "2512282"
+  },
+  {
+   "id": "city:geonames-2521335",
+   "name": "Barbate",
+   "aliases": [
+    "Barbate de Franco",
+    "Барбате"
+   ],
+   "lat": 36.19237,
+   "lon": -5.92186,
+   "population": 22551,
+   "geonameId": "2521335"
+  },
+  {
+   "id": "city:geonames-2513465",
+   "name": "Mutxamel",
+   "aliases": [
+    "Muchamiel"
+   ],
+   "lat": 38.4158,
+   "lon": -0.44529,
+   "population": 22510,
+   "geonameId": "2513465"
+  },
+  {
+   "id": "city:geonames-3116963",
+   "name": "Mejorada del Campo",
+   "aliases": [],
+   "lat": 40.39283,
+   "lon": -3.48194,
+   "population": 22488,
+   "geonameId": "3116963"
+  },
+  {
+   "id": "city:geonames-2519289",
+   "name": "Conil de la Frontera",
+   "aliases": [
+    "Conil"
+   ],
+   "lat": 36.27719,
+   "lon": -6.0885,
+   "population": 22427,
+   "geonameId": "2519289"
+  },
+  {
+   "id": "city:geonames-3114567",
+   "name": "Palafrugell",
+   "aliases": [
+    "Palafruzhel'",
+    "Палафружель"
+   ],
+   "lat": 41.91738,
+   "lon": 3.1631,
+   "population": 22365,
+   "geonameId": "3114567"
+  },
+  {
+   "id": "city:geonames-3125082",
+   "name": "Ciempozuelos",
+   "aliases": [],
+   "lat": 40.15913,
+   "lon": -3.62103,
+   "population": 22132,
+   "geonameId": "3125082"
+  },
+  {
+   "id": "city:geonames-3116503",
+   "name": "Arrasate / Mondragón",
+   "aliases": [
+    "Arrasate / Mondragon",
+    "Arrasate",
+    "Mondragoe",
+    "Mondragon",
+    "Mondrague",
+    "Mondragón",
+    "Montdragon"
+   ],
+   "lat": 43.06441,
+   "lon": -2.48977,
+   "population": 22019,
+   "geonameId": "3116503"
+  },
+  {
+   "id": "city:geonames-2520069",
+   "name": "Carrizal",
+   "aliases": [
+    "Carrizal de Ingenio",
+    "El Carrizal"
+   ],
+   "lat": 27.91161,
+   "lon": -15.40558,
+   "population": 22000,
+   "geonameId": "2520069"
+  },
+  {
+   "id": "city:geonames-2511880",
+   "name": "Ribarroja del Turia",
+   "aliases": [
+    "Riba-roja de Turia",
+    "Riba-roja de Túria",
+    "Ribarroja"
+   ],
+   "lat": 39.54595,
+   "lon": -0.57069,
+   "population": 21992,
+   "geonameId": "2511880"
+  },
+  {
+   "id": "city:geonames-2510309",
+   "name": "Torre del Mar",
+   "aliases": [
+    "Vina Malaga",
+    "Viña Málaga"
+   ],
+   "lat": 36.742,
+   "lon": -4.09291,
+   "population": 21980,
+   "geonameId": "2510309"
+  },
+  {
+   "id": "city:geonames-3110643",
+   "name": "Sant Feliu de Guíxols",
+   "aliases": [
+    "Sant Feliu de Guixols",
+    "San Feliu de Gisols",
+    "San Feliu de Guixols",
+    "San Felíu de Guixols",
+    "San-Faliu-da-Gishuls",
+    "San-Feliu-de-Gishol's",
+    "san fylyw dy ghykswls",
+    "sant flyw d gyksls",
+    "sheng fei liu-de ji ke suo er si",
+    "Сан-Фаліу-да-Ґішулс",
+    "Сан-Фелиу-де-Гишольс",
+    "Սան Ֆելիու դե Գիշոլս",
+    "سان فيليو دي غيكسولس",
+    "سانت فلیو د گیکسلس",
+    "圣费柳-德吉克索尔斯"
+   ],
+   "lat": 41.78333,
+   "lon": 3.03333,
+   "population": 21977,
+   "geonameId": "3110643"
+  },
+  {
+   "id": "city:geonames-2511330",
+   "name": "Sant Joan d'Alacant",
+   "aliases": [
+    "San Juan (bei Alicante)",
+    "San Juan de Alicante"
+   ],
+   "lat": 38.40148,
+   "lon": -0.43623,
+   "population": 21939,
+   "geonameId": "2511330"
+  },
+  {
+   "id": "city:geonames-2513703",
+   "name": "Moncada",
+   "aliases": [
+    "Monkada",
+    "Montcada",
+    "Монкада"
+   ],
+   "lat": 39.54555,
+   "lon": -0.39551,
+   "population": 21900,
+   "geonameId": "2513703"
+  },
+  {
+   "id": "city:geonames-2519367",
+   "name": "Coín",
+   "aliases": [
+    "Coin"
+   ],
+   "lat": 36.65947,
+   "lon": -4.75639,
+   "population": 21866,
+   "geonameId": "2519367"
+  },
+  {
+   "id": "city:geonames-3122912",
+   "name": "Esparreguera",
+   "aliases": [],
+   "lat": 41.53809,
+   "lon": 1.87025,
+   "population": 21855,
+   "geonameId": "3122912"
+  },
+  {
+   "id": "city:geonames-2511448",
+   "name": "Sant Antoni de Portmany",
+   "aliases": [
+    "Bahia de San Antonio",
+    "San Antonio",
+    "San Antonio Abad",
+    "San-Antonio-Abad",
+    "san antwnyw abad",
+    "sang tan tuo ni de bo er te ma ni",
+    "Сан-Антонио-Абад",
+    "سان أنطونيو أباد",
+    "桑坦托尼德波尔特马尼"
+   ],
+   "lat": 38.98068,
+   "lon": 1.30362,
+   "population": 21852,
+   "geonameId": "2511448"
+  },
+  {
+   "id": "city:geonames-2513240",
+   "name": "Nerja",
+   "aliases": [],
+   "lat": 36.75278,
+   "lon": -3.8744,
+   "population": 21811,
+   "geonameId": "2513240"
+  },
+  {
+   "id": "city:geonames-3107765",
+   "name": "Torrelodones",
+   "aliases": [
+    "Торрелодонес"
+   ],
+   "lat": 40.57654,
+   "lon": -3.92658,
+   "population": 21781,
+   "geonameId": "3107765"
+  },
+  {
+   "id": "city:geonames-3119631",
+   "name": "Laguna de Duero",
+   "aliases": [
+    "Laguna-de-Duehro",
+    "Лагуна-де-Дуэро"
+   ],
+   "lat": 41.58151,
+   "lon": -4.72332,
+   "population": 21762,
+   "geonameId": "3119631"
+  },
+  {
+   "id": "city:geonames-2520150",
+   "name": "Carcaixent",
+   "aliases": [
+    "Carcagente",
+    "Carcaixen",
+    "Carcaixén",
+    "Karkakhente",
+    "Каркахенте"
+   ],
+   "lat": 39.1218,
+   "lon": -0.44812,
+   "population": 21735,
+   "geonameId": "2520150"
+  },
+  {
+   "id": "city:geonames-2513798",
+   "name": "Mogán",
+   "aliases": [
+    "Mogan"
+   ],
+   "lat": 27.88385,
+   "lon": -15.72538,
+   "population": 21690,
+   "geonameId": "2513798"
+  },
+  {
+   "id": "city:geonames-3115659",
+   "name": "Navalcarnero",
+   "aliases": [
+    "Naval'karnero",
+    "Navalkarnero",
+    "na wa er ka er nei luo",
+    "nabalkarnyrw",
+    "Навалькарнеро",
+    "نابالكارنيرو",
+    "纳瓦尔卡尔内罗"
+   ],
+   "lat": 40.28908,
+   "lon": -4.01197,
+   "population": 21584,
+   "geonameId": "3115659"
+  },
+  {
+   "id": "city:geonames-2514946",
+   "name": "Loja",
+   "aliases": [
+    "Lokha",
+    "Loxa",
+    "Лоха"
+   ],
+   "lat": 37.16887,
+   "lon": -4.15129,
+   "population": 21574,
+   "geonameId": "2514946"
+  },
+  {
+   "id": "city:geonames-3117010",
+   "name": "Medina del Campo",
+   "aliases": [
+    "Medina-del'-Kampo",
+    "mei di na de er kan bo",
+    "Медина-дель-Кампо",
+    "Медіна-дель-Кампо",
+    "メディナ・デル・カンポ",
+    "梅迪纳德尔坎波"
+   ],
+   "lat": 41.31239,
+   "lon": -4.91413,
+   "population": 21540,
+   "geonameId": "3117010"
+  },
+  {
+   "id": "city:geonames-2512581",
+   "name": "Pilar de la Horadada",
+   "aliases": [
+    "El Pilar de Horadada",
+    "El Pilar de la Foradada",
+    "Pilar-de-la-Oradada",
+    "baylar dy la hwradada",
+    "pi la er de la ao la da da",
+    "pylar dla hwradada",
+    "Пилар-де-ла-Орадада",
+    "Пілар-де-ла-Орадада",
+    "بايلار دي لا هورادادا",
+    "پیلار دلا هورادادا",
+    "皮拉尔德拉奥拉达达"
+   ],
+   "lat": 37.86591,
+   "lon": -0.79256,
+   "population": 21418,
+   "geonameId": "2512581"
+  },
+  {
+   "id": "city:geonames-2521590",
+   "name": "Armilla",
+   "aliases": [
+    "Armil'ja",
+    "Armilya",
+    "a er mi li ya",
+    "armya",
+    "Армилья",
+    "Армілья",
+    "Արմիլյա",
+    "أرميا",
+    "阿尔米利亚"
+   ],
+   "lat": 37.14386,
+   "lon": -3.62534,
+   "population": 21380,
+   "geonameId": "2521590"
+  },
+  {
+   "id": "city:geonames-2520645",
+   "name": "Cabra",
+   "aliases": [
+    "Kabra",
+    "Кабра"
+   ],
+   "lat": 37.47249,
+   "lon": -4.44206,
+   "population": 21352,
+   "geonameId": "2520645"
+  },
+  {
+   "id": "city:geonames-2516431",
+   "name": "Isla Cristina",
+   "aliases": [
+    "Isla-Kristina",
+    "asla krystyna",
+    "yi si la ke li si di na",
+    "Ісла-Крістіна",
+    "Исла-Кристина",
+    "إسلا كريستينا",
+    "イスラ・クリスティナ",
+    "伊斯拉克里斯蒂纳"
+   ],
+   "lat": 37.2,
+   "lon": -7.31667,
+   "population": 21324,
+   "geonameId": "2516431"
+  },
+  {
+   "id": "city:geonames-2520055",
+   "name": "Cártama",
+   "aliases": [
+    "Cartama",
+    "Kartama",
+    "ka er ta ma",
+    "kartama",
+    "Картама",
+    "كارتاما",
+    "卡尔塔马"
+   ],
+   "lat": 36.71068,
+   "lon": -4.63297,
+   "population": 21313,
+   "geonameId": "2520055"
+  },
+  {
+   "id": "city:geonames-3120410",
+   "name": "Illescas",
+   "aliases": [
+    "Il'eskas",
+    "Ilyeskas",
+    "ayyskas",
+    "yi lie si ka si",
+    "Ільєскас",
+    "Ильескас",
+    "Իլյեսկաս",
+    "اییسکاس",
+    "伊列斯卡斯"
+   ],
+   "lat": 40.12213,
+   "lon": -3.84704,
+   "population": 21264,
+   "geonameId": "3120410"
+  },
+  {
+   "id": "city:geonames-3130131",
+   "name": "Amposta",
+   "aliases": [
+    "Ампоста"
+   ],
+   "lat": 40.70995,
+   "lon": 0.57856,
+   "population": 21240,
+   "geonameId": "3130131"
+  },
+  {
+   "id": "city:geonames-2512990",
+   "name": "Palma del Río",
+   "aliases": [
+    "Palma del Rio",
+    "Pal'ma-del'-Rio",
+    "balma dyl ryw",
+    "pa er ma de er li ao",
+    "Πάλμα δελ Ρίο",
+    "Пальма-дель-Рио",
+    "Пальма-дель-Ріо",
+    "بالما ديل ريو",
+    "帕尔马德尔里奥"
+   ],
+   "lat": 37.70024,
+   "lon": -5.28121,
+   "population": 21159,
+   "geonameId": "2512990"
+  },
+  {
+   "id": "city:geonames-2515219",
+   "name": "Las Torres de Cotillas",
+   "aliases": [
+    "La Torres de Cotillas"
+   ],
+   "lat": 38.02822,
+   "lon": -1.24188,
+   "population": 21062,
+   "geonameId": "2515219"
+  },
+  {
+   "id": "city:geonames-6559503",
+   "name": "l'Alfàs del Pi",
+   "aliases": [
+    "l'Alfas del Pi",
+    "Alfas Del Pi",
+    "Alfaz",
+    "Alfaz del Pi",
+    "L'Alfas Del Pi"
+   ],
+   "lat": 38.58055,
+   "lon": -0.10321,
+   "population": 21011,
+   "geonameId": "6559503"
+  },
+  {
+   "id": "city:geonames-3119739",
+   "name": "La Felguera",
+   "aliases": [
+    "Felguera",
+    "la fylgwyra",
+    "لا فیلگویرا"
+   ],
+   "lat": 43.3075,
+   "lon": -5.69092,
+   "population": 21000,
+   "geonameId": "3119739"
+  },
+  {
+   "id": "city:geonames-2521415",
+   "name": "Baena",
+   "aliases": [
+    "Baehna",
+    "bai na",
+    "byant",
+    "Баена",
+    "Баэна",
+    "بيانة",
+    "拜纳"
+   ],
+   "lat": 37.6167,
+   "lon": -4.32245,
+   "population": 20915,
+   "geonameId": "2521415"
+  },
+  {
+   "id": "city:geonames-2521456",
+   "name": "Ayamonte",
+   "aliases": [
+    "Ajamonte",
+    "Ajjamonte",
+    "ai a meng te",
+    "ayamwnty",
+    "Айямонте",
+    "Аямонте",
+    "أيامونتي",
+    "艾阿蒙特"
+   ],
+   "lat": 37.21329,
+   "lon": -7.40807,
+   "population": 20883,
+   "geonameId": "2521456"
+  },
+  {
+   "id": "city:geonames-3105803",
+   "name": "Vila-seca",
+   "aliases": [
+    "Vilaseca",
+    "Vilaseca de Solcina"
+   ],
+   "lat": 41.11118,
+   "lon": 1.14764,
+   "population": 20866,
+   "geonameId": "3105803"
+  },
+  {
+   "id": "city:geonames-2522057",
+   "name": "Alfafar",
+   "aliases": [
+    "Al'fafar",
+    "a er fa fa er",
+    "Алфафар",
+    "Альфафар",
+    "阿尔法法尔"
+   ],
+   "lat": 39.41667,
+   "lon": -0.38333,
+   "population": 20853,
+   "geonameId": "2522057"
+  },
+  {
+   "id": "city:geonames-2513026",
+   "name": "Pájara",
+   "aliases": [
+    "Pajara"
+   ],
+   "lat": 28.35039,
+   "lon": -14.1076,
+   "population": 20821,
+   "geonameId": "2513026"
+  },
+  {
+   "id": "city:geonames-2514176",
+   "name": "Maracena",
+   "aliases": [],
+   "lat": 37.20764,
+   "lon": -3.63493,
+   "population": 20815,
+   "geonameId": "2514176"
+  },
+  {
+   "id": "city:geonames-2511329",
+   "name": "San Juan de Aznalfarache",
+   "aliases": [
+    "San-Khuan-de-Asnal'farache",
+    "sheng hu an de ya si na er fa la qie",
+    "Сан-Хуан-де-Аснальфараче",
+    "圣胡安德亚斯纳尔法拉切"
+   ],
+   "lat": 37.35813,
+   "lon": -6.03731,
+   "population": 20779,
+   "geonameId": "2511329"
+  },
+  {
+   "id": "city:geonames-3110516",
+   "name": "Vilassar de Mar",
+   "aliases": [
+    "Vilassar del Mar"
+   ],
+   "lat": 41.50507,
+   "lon": 2.39227,
+   "population": 20764,
+   "geonameId": "3110516"
+  },
+  {
+   "id": "city:geonames-2520968",
+   "name": "Bétera",
+   "aliases": [
+    "Betera"
+   ],
+   "lat": 39.59111,
+   "lon": -0.46151,
+   "population": 20740,
+   "geonameId": "2520968"
+  },
+  {
+   "id": "city:geonames-3119746",
+   "name": "A Estrada",
+   "aliases": [
+    "La Estrada",
+    "La-Ehstrada",
+    "Ла-Эстрада"
+   ],
+   "lat": 42.68911,
+   "lon": -8.48842,
+   "population": 20661,
+   "geonameId": "3119746"
+  },
+  {
+   "id": "city:geonames-3117539",
+   "name": "Manlleu",
+   "aliases": [
+    "Manl'eu",
+    "man lie wu",
+    "manlyw",
+    "Манльеу",
+    "مانليو",
+    "曼列乌"
+   ],
+   "lat": 42.00228,
+   "lon": 2.28476,
+   "population": 20647,
+   "geonameId": "3117539"
+  },
+  {
+   "id": "city:geonames-2521855",
+   "name": "Almoradí",
+   "aliases": [
+    "Almoradi",
+    "Al'moradi",
+    "Almordi",
+    "a er mo la di",
+    "almwrady",
+    "Альморади",
+    "Альмораді",
+    "آلمورادی",
+    "ألمورادي",
+    "阿尔莫拉迪"
+   ],
+   "lat": 38.10879,
+   "lon": -0.79197,
+   "population": 20542,
+   "geonameId": "2521855"
+  },
+  {
+   "id": "city:geonames-2516860",
+   "name": "Guía de Isora",
+   "aliases": [
+    "Guia de Isora",
+    "Gia-de-Isora",
+    "Gija-de-Isora",
+    "Guia",
+    "Guia de Izara",
+    "Guía",
+    "ghya dy aswra",
+    "gwya d aysra",
+    "ji ya de suo la",
+    "Гия-де-Исора",
+    "Гіа-де-Ісора",
+    "غيا دي إسورا",
+    "گویا د ایسرا",
+    "吉亚德索拉"
+   ],
+   "lat": 28.21154,
+   "lon": -16.77947,
+   "population": 20536,
+   "geonameId": "2516860"
+  },
+  {
+   "id": "city:geonames-2511752",
+   "name": "Rojales",
+   "aliases": [
+    "Rojals",
+    "Rokhales",
+    "Roxales",
+    "luo ha lai si",
+    "rkhals",
+    "Рохалес",
+    "Ռոխալես",
+    "رخالس",
+    "罗哈莱斯"
+   ],
+   "lat": 38.08799,
+   "lon": -0.72544,
+   "population": 20510,
+   "geonameId": "2511752"
+  },
+  {
+   "id": "city:geonames-2514288",
+   "name": "Mairena del Alcor",
+   "aliases": [
+    "Mairano del Alcor",
+    "Maireno del Alcor"
+   ],
+   "lat": 37.37301,
+   "lon": -5.74951,
+   "population": 20510,
+   "geonameId": "2514288"
+  },
+  {
+   "id": "city:geonames-2512251",
+   "name": "La Pobla de Vallbona",
+   "aliases": [
+    "Puebla de Vallbona"
+   ],
+   "lat": 39.59747,
+   "lon": -0.55468,
+   "population": 20431,
+   "geonameId": "2512251"
+  },
+  {
+   "id": "city:geonames-2511930",
+   "name": "Requena",
+   "aliases": [
+    "Rekena",
+    "lei ke na",
+    "rekena",
+    "Рекена",
+    "レケナ",
+    "雷克纳"
+   ],
+   "lat": 39.48834,
+   "lon": -1.10044,
+   "population": 20227,
+   "geonameId": "2511930"
+  },
+  {
+   "id": "city:geonames-3120811",
+   "name": "Hernani",
+   "aliases": [
+    "Ehrnani",
+    "Ernani",
+    "ai er na ni",
+    "arnany  asbanya",
+    "Ернани",
+    "Ернані",
+    "Эрнани",
+    "إرناني، إسبانيا",
+    "埃尔纳尼"
+   ],
+   "lat": 43.26615,
+   "lon": -1.97615,
+   "population": 20222,
+   "geonameId": "3120811"
+  },
+  {
+   "id": "city:geonames-3130383",
+   "name": "Algete",
+   "aliases": [],
+   "lat": 40.59711,
+   "lon": -3.49743,
+   "population": 20204,
+   "geonameId": "3130383"
+  },
+  {
+   "id": "city:geonames-2521510",
+   "name": "Aspe",
+   "aliases": [
+    "Asp",
+    "a si pei",
+    "asby",
+    "asph",
+    "Аспе",
+    "آسپه",
+    "أسبي",
+    "阿斯佩"
+   ],
+   "lat": 38.34511,
+   "lon": -0.76721,
+   "population": 20180,
+   "geonameId": "2521510"
+  },
+  {
+   "id": "city:geonames-2514651",
+   "name": "Los Llanos de Aridane",
+   "aliases": [
+    "Llanos de Aridane",
+    "Los Llanos",
+    "Los-L'janos-de-Aridane",
+    "luo si li ya nuo si de ya li da nei",
+    "lws yanws dy arydany",
+    "Лос-Льянос-де-Аридане",
+    "Лос-Льянос-де-Арідане",
+    "لوس يانوس دي أريداني",
+    "洛斯利亚诺斯德亚里达内"
+   ],
+   "lat": 28.65851,
+   "lon": -17.91821,
+   "population": 20171,
+   "geonameId": "2514651"
+  },
+  {
+   "id": "city:geonames-3119536",
+   "name": "Lalín",
+   "aliases": [
+    "Lalin",
+    "Лалин"
+   ],
+   "lat": 42.66085,
+   "lon": -8.11285,
+   "population": 20158,
+   "geonameId": "3119536"
+  },
+  {
+   "id": "city:geonames-3128824",
+   "name": "Barañáin",
+   "aliases": [
+    "Baranain",
+    "Baran'jajn",
+    "Бараньяйн"
+   ],
+   "lat": 42.80567,
+   "lon": -1.67731,
+   "population": 20039,
+   "geonameId": "3128824"
+  },
+  {
+   "id": "city:geonames-3127047",
+   "name": "Calatayud",
+   "aliases": [
+    "Calataiud",
+    "Calatayu",
+    "Calatayú",
+    "Kalatajud",
+    "ka la tai wu de",
+    "kalataywd",
+    "karatayu",
+    "Калатаюд",
+    "قلعة أيوب",
+    "کالاتایود",
+    "カラタユー",
+    "卡拉泰乌德"
+   ],
+   "lat": 41.35353,
+   "lon": -1.64318,
+   "population": 20035,
+   "geonameId": "3127047"
+  },
+  {
+   "id": "city:geonames-8629192",
+   "name": "Natahoyo",
+   "aliases": [],
+   "lat": 43.54035,
+   "lon": -5.68233,
+   "population": 20000,
+   "geonameId": "8629192"
+  },
+  {
+   "id": "city:geonames-2521992",
+   "name": "Alhama de Murcia",
+   "aliases": [
+    "Al'khama-de-Mursija",
+    "Alama-de-Mursija",
+    "Alfama de Murcia",
+    "Alhama",
+    "Alhama de Múrcia",
+    "a er a ma de mu er xi ya",
+    "alama dy mrsyt",
+    "Алама-де-Мурсія",
+    "Альхама-де-Мурсия",
+    "ألاما دي مرسية",
+    "阿尔阿马德穆尔西亚"
+   ],
+   "lat": 37.85103,
+   "lon": -1.42507,
+   "population": 19860,
+   "geonameId": "2521992"
+  },
+  {
+   "id": "city:geonames-2510485",
+   "name": "Tías",
+   "aliases": [
+    "Tias"
+   ],
+   "lat": 28.96108,
+   "lon": -13.64502,
+   "population": 19849,
+   "geonameId": "2510485"
+  },
+  {
+   "id": "city:geonames-2522091",
+   "name": "Alcúdia",
+   "aliases": [
+    "Alcudia"
+   ],
+   "lat": 39.85316,
+   "lon": 3.12138,
+   "population": 19793,
+   "geonameId": "2522091"
+  },
+  {
+   "id": "city:geonames-2512620",
+   "name": "Picassent",
+   "aliases": [
+    "Picasent"
+   ],
+   "lat": 39.3635,
+   "lon": -0.45949,
+   "population": 19786,
+   "geonameId": "2512620"
+  },
+  {
+   "id": "city:geonames-2514158",
+   "name": "Marchena",
+   "aliases": [],
+   "lat": 37.329,
+   "lon": -5.41681,
+   "population": 19768,
+   "geonameId": "2514158"
+  },
+  {
+   "id": "city:geonames-3128885",
+   "name": "Banyoles",
+   "aliases": [
+    "Banolas",
+    "Bañolas"
+   ],
+   "lat": 42.11667,
+   "lon": 2.76667,
+   "population": 19615,
+   "geonameId": "3128885"
+  },
+  {
+   "id": "city:geonames-2513791",
+   "name": "Moguer",
+   "aliases": [
+    "Moger",
+    "mo ge er",
+    "mwghyr",
+    "Могер",
+    "موغير",
+    "莫格尔"
+   ],
+   "lat": 37.27559,
+   "lon": -6.83851,
+   "population": 19569,
+   "geonameId": "2513791"
+  },
+  {
+   "id": "city:geonames-2518729",
+   "name": "El Arahal",
+   "aliases": [
+    "Arahal"
+   ],
+   "lat": 37.26273,
+   "lon": -5.5453,
+   "population": 19565,
+   "geonameId": "2518729"
+  },
+  {
+   "id": "city:geonames-3116478",
+   "name": "Monforte de Lemos",
+   "aliases": [
+    "Monforte",
+    "Monforte-de-Lemos",
+    "meng fu er te de lai mo si",
+    "Монфорте-де-Лемос",
+    "モンフォルテ・デ・レモス",
+    "蒙福尔特德莱莫斯"
+   ],
+   "lat": 42.52165,
+   "lon": -7.51422,
+   "population": 19546,
+   "geonameId": "3116478"
+  },
+  {
+   "id": "city:geonames-2511371",
+   "name": "San Isidro",
+   "aliases": [
+    "Сан Исидро"
+   ],
+   "lat": 28.07617,
+   "lon": -16.558,
+   "population": 19541,
+   "geonameId": "2511371"
+  },
+  {
+   "id": "city:geonames-2510573",
+   "name": "Teguise",
+   "aliases": [],
+   "lat": 29.06049,
+   "lon": -13.56397,
+   "population": 19418,
+   "geonameId": "2510573"
+  },
+  {
+   "id": "city:geonames-2519477",
+   "name": "Chipiona",
+   "aliases": [
+    "Chipiana",
+    "chipiona",
+    "qi pi ao na",
+    "tshaybywna",
+    "Чипиона",
+    "Чипіона",
+    "تشايبيونا",
+    "奇皮奥纳",
+    "치피오나"
+   ],
+   "lat": 36.73663,
+   "lon": -6.43703,
+   "population": 19386,
+   "geonameId": "2519477"
+  },
+  {
+   "id": "city:geonames-2514893",
+   "name": "Lora del Río",
+   "aliases": [
+    "Lora del Rio",
+    "Lora-del'-Rio",
+    "luo la de er li ao",
+    "lwra dyl ryw",
+    "lwrt",
+    "Лора-дель-Рио",
+    "Лора-дель-Ріо",
+    "لورا ديل ريو",
+    "لورة",
+    "洛拉德尔里奥"
+   ],
+   "lat": 37.65896,
+   "lon": -5.52751,
+   "population": 19352,
+   "geonameId": "2514893"
+  },
+  {
+   "id": "city:geonames-3111348",
+   "name": "Roses",
+   "aliases": [
+    "Rhode",
+    "Rosas",
+    "Росас"
+   ],
+   "lat": 42.26199,
+   "lon": 3.17689,
+   "population": 19319,
+   "geonameId": "3111348"
+  },
+  {
+   "id": "city:geonames-2518040",
+   "name": "El Viso del Alcor",
+   "aliases": [
+    "Viso del Alcor"
+   ],
+   "lat": 37.39106,
+   "lon": -5.71993,
+   "population": 19191,
+   "geonameId": "2518040"
+  },
+  {
+   "id": "city:geonames-2514190",
+   "name": "Manzanares",
+   "aliases": [
+    "Manzanarre"
+   ],
+   "lat": 38.99915,
+   "lon": -3.36991,
+   "population": 19186,
+   "geonameId": "2514190"
+  },
+  {
+   "id": "city:geonames-3128291",
+   "name": "Benavente",
+   "aliases": [
+    "Бенавенте"
+   ],
+   "lat": 42.00249,
+   "lon": -5.67826,
+   "population": 19119,
+   "geonameId": "3128291"
+  },
+  {
+   "id": "city:geonames-3123477",
+   "name": "El Goloso",
+   "aliases": [
+    "Barrio El Goloso"
+   ],
+   "lat": 40.55342,
+   "lon": -3.69968,
+   "population": 19036,
+   "geonameId": "3123477"
+  },
+  {
+   "id": "city:geonames-2512127",
+   "name": "Puçol",
+   "aliases": [
+    "Pucol",
+    "Puzol"
+   ],
+   "lat": 39.61667,
+   "lon": -0.3,
+   "population": 19018,
+   "geonameId": "2512127"
+  },
+  {
+   "id": "city:geonames-3116653",
+   "name": "Moaña",
+   "aliases": [
+    "Moana",
+    "Moan'ja",
+    "Moanija",
+    "San Martin",
+    "San Martín",
+    "mo a ni ya",
+    "moanya",
+    "mwanya  bwntyfydra",
+    "Моания",
+    "Моанья",
+    "موانيا، بونتيفيدرا",
+    "モアーニャ",
+    "莫阿尼亚"
+   ],
+   "lat": 42.27807,
+   "lon": -8.73921,
+   "population": 19014,
+   "geonameId": "3116653"
+  },
+  {
+   "id": "city:geonames-2509305",
+   "name": "Zubia",
+   "aliases": [
+    "La Zubia"
+   ],
+   "lat": 37.11906,
+   "lon": -3.584,
+   "population": 18995,
+   "geonameId": "2509305"
+  },
+  {
+   "id": "city:geonames-2510880",
+   "name": "Silla",
+   "aliases": [],
+   "lat": 39.36257,
+   "lon": -0.41169,
+   "population": 18979,
+   "geonameId": "2510880"
+  },
+  {
+   "id": "city:geonames-3127451",
+   "name": "Burlata",
+   "aliases": [
+    "Burlada",
+    "Бурлата"
+   ],
+   "lat": 42.82562,
+   "lon": -1.61671,
+   "population": 18934,
+   "geonameId": "3127451"
+  },
+  {
+   "id": "city:geonames-3127889",
+   "name": "Boiro",
+   "aliases": [],
+   "lat": 42.64725,
+   "lon": -8.88459,
+   "population": 18883,
+   "geonameId": "3127889"
+  },
+  {
+   "id": "city:geonames-2521410",
+   "name": "Bailén",
+   "aliases": [
+    "Bailen",
+    "Bailèn",
+    "Bajlen",
+    "bai lun",
+    "baillen",
+    "bayln",
+    "baylyn",
+    "Байлен",
+    "بايلين",
+    "بایلن",
+    "拜伦",
+    "바일렌"
+   ],
+   "lat": 38.09639,
+   "lon": -3.77786,
+   "population": 18785,
+   "geonameId": "2521410"
+  },
+  {
+   "id": "city:geonames-3127007",
+   "name": "Calella",
+   "aliases": [
+    "Callella"
+   ],
+   "lat": 41.61381,
+   "lon": 2.65423,
+   "population": 18728,
+   "geonameId": "3127007"
+  },
+  {
+   "id": "city:geonames-2516925",
+   "name": "Guadix",
+   "aliases": [
+    "Acci",
+    "Guadiks",
+    "Guadis",
+    "Gvadiks",
+    "Quadix",
+    "gua di si",
+    "guadikusu",
+    "wady ash",
+    "Гвадикс",
+    "Гуадис",
+    "Гуадікс",
+    "وادي آش",
+    "グアディクス",
+    "瓜迪斯"
+   ],
+   "lat": 37.29932,
+   "lon": -3.13922,
+   "population": 18718,
+   "geonameId": "2516925"
+  },
+  {
+   "id": "city:geonames-2520833",
+   "name": "Bormujos",
+   "aliases": [],
+   "lat": 37.37358,
+   "lon": -6.07233,
+   "population": 18590,
+   "geonameId": "2520833"
+  },
+  {
+   "id": "city:geonames-2518924",
+   "name": "Daimiel",
+   "aliases": [
+    "Dajm'el'",
+    "Dajmel'",
+    "dai mi ye er",
+    "daymyl  sywdad ryal",
+    "Даймьель",
+    "Даймєль",
+    "دايميل، سيوداد ريال",
+    "代米耶尔"
+   ],
+   "lat": 39.07004,
+   "lon": -3.61498,
+   "population": 18527,
+   "geonameId": "2518924"
+  },
+  {
+   "id": "city:geonames-2511447",
+   "name": "San Bartolomé",
+   "aliases": [
+    "San Bartolome",
+    "San - Bartolome",
+    "Сан - Бартоломе"
+   ],
+   "lat": 29.00093,
+   "lon": -13.613,
+   "population": 18517,
+   "geonameId": "2511447"
+  },
+  {
+   "id": "city:geonames-3117636",
+   "name": "Malgrat de Mar",
+   "aliases": [],
+   "lat": 41.64662,
+   "lon": 2.74135,
+   "population": 18472,
+   "geonameId": "3117636"
+  },
+  {
+   "id": "city:geonames-3110101",
+   "name": "Sant Quirze del Vallès",
+   "aliases": [
+    "Sant Quirze del Valles",
+    "San Quirico de Tarrasa",
+    "San Quírico de Tarrasa"
+   ],
+   "lat": 41.53333,
+   "lon": 2.08333,
+   "population": 18462,
+   "geonameId": "3110101"
+  },
+  {
+   "id": "city:geonames-2511202",
+   "name": "Santa Brígida",
+   "aliases": [
+    "Santa Brigida"
+   ],
+   "lat": 28.03197,
+   "lon": -15.50425,
+   "population": 18314,
+   "geonameId": "2511202"
+  },
+  {
+   "id": "city:geonames-3118228",
+   "name": "Laudio / Llodio",
+   "aliases": [
+    "Llodio",
+    "Laudio",
+    "Plaza",
+    "Plaza de Gogenuri"
+   ],
+   "lat": 43.14322,
+   "lon": -2.96204,
+   "population": 18314,
+   "geonameId": "3118228"
+  },
+  {
+   "id": "city:geonames-2517750",
+   "name": "Felanitx",
+   "aliases": [],
+   "lat": 39.4696,
+   "lon": 3.14831,
+   "population": 18270,
+   "geonameId": "2517750"
+  },
+  {
+   "id": "city:geonames-3110360",
+   "name": "San Martín de la Vega",
+   "aliases": [
+    "San Martin de la Vega",
+    "San-Martin-de-la-Vega",
+    "san martyn dy la fygha",
+    "sheng ma er ting de la wei jia",
+    "Сан-Мартин-де-ла-Вега",
+    "Сан-Мартін-де-ла-Вега",
+    "سان مارتين دي لا فيغا",
+    "圣马尔廷德拉韦加"
+   ],
+   "lat": 40.20735,
+   "lon": -3.57063,
+   "population": 18256,
+   "geonameId": "3110360"
+  },
+  {
+   "id": "city:geonames-2521676",
+   "name": "Archena",
+   "aliases": [],
+   "lat": 38.11631,
+   "lon": -1.30043,
+   "population": 18202,
+   "geonameId": "2521676"
+  },
+  {
+   "id": "city:geonames-2510743",
+   "name": "Tavernes de la Valldigna",
+   "aliases": [
+    "Tabernas",
+    "Tabernes de Valldigna"
+   ],
+   "lat": 39.07195,
+   "lon": -0.26623,
+   "population": 18195,
+   "geonameId": "2510743"
+  },
+  {
+   "id": "city:geonames-2510599",
+   "name": "Tarifa",
+   "aliases": [
+    "Taryfa",
+    "ta li fa",
+    "talipa",
+    "tarifa",
+    "tryfa",
+    "Тарифа",
+    "Тарыфа",
+    "Таріфа",
+    "طريفا",
+    "タリファ",
+    "塔里法",
+    "타리파"
+   ],
+   "lat": 36.01393,
+   "lon": -5.60695,
+   "population": 18169,
+   "geonameId": "2510599"
+  },
+  {
+   "id": "city:geonames-3123667",
+   "name": "El Astillero",
+   "aliases": [
+    "Astillero",
+    "Ehl'-Astil'ero",
+    "El'-Astil'ero",
+    "ai la si di lie luo",
+    "al astyrylw",
+    "Ель-Астільєро",
+    "Эль-Астильеро",
+    "إل أستيريلو",
+    "埃拉斯蒂列罗"
+   ],
+   "lat": 43.40094,
+   "lon": -3.82051,
+   "population": 18108,
+   "geonameId": "3123667"
+  },
+  {
+   "id": "city:geonames-3120501",
+   "name": "Humanes de Madrid",
+   "aliases": [],
+   "lat": 40.25038,
+   "lon": -3.83062,
+   "population": 18098,
+   "geonameId": "3120501"
+  },
+  {
+   "id": "city:geonames-3128272",
+   "name": "Benicàssim",
+   "aliases": [
+    "Benicassim",
+    "Benicasim",
+    "Benicásim",
+    "bnw qasm",
+    "بنو قاسم"
+   ],
+   "lat": 40.05,
+   "lon": 0.06667,
+   "population": 18055,
+   "geonameId": "3128272"
+  },
+  {
+   "id": "city:geonames-2516004",
+   "name": "L'Eliana",
+   "aliases": [
+    "La Eliana"
+   ],
+   "lat": 39.56667,
+   "lon": -0.53333,
+   "population": 18050,
+   "geonameId": "2516004"
+  },
+  {
+   "id": "city:geonames-3108008",
+   "name": "Tolosa",
+   "aliases": [
+    "Толоса"
+   ],
+   "lat": 43.13484,
+   "lon": -2.07801,
+   "population": 18044,
+   "geonameId": "3108008"
+  },
+  {
+   "id": "city:geonames-3115463",
+   "name": "Nigrán",
+   "aliases": [
+    "Nigran",
+    "San Felix",
+    "San Félix",
+    "ni ge lan",
+    "niguran",
+    "nyghran",
+    "Нигран",
+    "Нігран",
+    "نيغران",
+    "ニグラン",
+    "尼格兰"
+   ],
+   "lat": 42.14153,
+   "lon": -8.80656,
+   "population": 18021,
+   "geonameId": "3115463"
+  },
+  {
+   "id": "city:geonames-2510804",
+   "name": "Son Rapinya",
+   "aliases": [
+    "Son Rapina",
+    "Son Rapiña"
+   ],
+   "lat": 39.58932,
+   "lon": 2.61899,
+   "population": 17993,
+   "geonameId": "2510804"
+  },
+  {
+   "id": "city:geonames-2521964",
+   "name": "Aljaraque",
+   "aliases": [],
+   "lat": 37.26989,
+   "lon": -7.02313,
+   "population": 17960,
+   "geonameId": "2521964"
+  },
+  {
+   "id": "city:geonames-2520502",
+   "name": "Callosa de Segura",
+   "aliases": [
+    "Kal'josa-de-Segura",
+    "Kal'osa-de-Segura",
+    "Kalyosa de Segura",
+    "ka e sa de sai gu la",
+    "kalwsa dy swjwra",
+    "kaywsa d sgwra",
+    "Кальйоса-де-Сегура",
+    "Кальоса-де-Сегура",
+    "Կալյոսա դե Սեգուրա",
+    "كالوسا دي سوجورا",
+    "کایوسا د سگورا",
+    "卡略萨德塞古拉"
+   ],
+   "lat": 38.12497,
+   "lon": -0.87822,
+   "population": 17924,
+   "geonameId": "2520502"
+  },
+  {
+   "id": "city:geonames-2520052",
+   "name": "Cartaya",
+   "aliases": [],
+   "lat": 37.28114,
+   "lon": -7.15071,
+   "population": 17905,
+   "geonameId": "2520052"
+  },
+  {
+   "id": "city:geonames-3114566",
+   "name": "Palamós",
+   "aliases": [
+    "Palamos"
+   ],
+   "lat": 41.84843,
+   "lon": 3.12912,
+   "population": 17898,
+   "geonameId": "3114566"
+  },
+  {
+   "id": "city:geonames-3110458",
+   "name": "San Lorenzo de El Escorial",
+   "aliases": [
+    "El Escorial",
+    "Eskorialo",
+    "San Lorenzo",
+    "San Lorenzo del Escorial",
+    "San-Lorenso-de-Ehl'-Ehskorial'",
+    "San-Lorenso-de-El'-Eskorial'",
+    "san lwrnzw dy sh alaskwryal",
+    "sanlolensodeel-eseukolial",
+    "sheng luo lun suo de ai lai si ke li ya er",
+    "Сан-Лоренсо-де-Ель-Ескоріаль",
+    "Сан-Лоренсо-де-Эль-Эскориаль",
+    "سان لورنزو دي ش الإسكوريال",
+    "圣洛伦索德埃莱斯科里亚尔",
+    "산로렌소데엘에스코리알"
+   ],
+   "lat": 40.59144,
+   "lon": -4.14738,
+   "population": 17889,
+   "geonameId": "3110458"
+  },
+  {
+   "id": "city:geonames-2515701",
+   "name": "la Nucia",
+   "aliases": [
+    "La-Nusia",
+    "Ла-Нусиа"
+   ],
+   "lat": 38.61372,
+   "lon": -0.1269,
+   "population": 17874,
+   "geonameId": "2515701"
+  },
+  {
+   "id": "city:geonames-2513052",
+   "name": "Osuna",
+   "aliases": [
+    "ao su na",
+    "ashwnt",
+    "osuna",
+    "Осуна",
+    "أشونة",
+    "オスナ",
+    "奥苏纳"
+   ],
+   "lat": 37.2376,
+   "lon": -5.10311,
+   "population": 17851,
+   "geonameId": "2513052"
+  },
+  {
+   "id": "city:geonames-3114957",
+   "name": "Oria",
+   "aliases": [],
+   "lat": 43.25541,
+   "lon": -2.01873,
+   "population": 17842,
+   "geonameId": "3114957"
+  },
+  {
+   "id": "city:geonames-3130137",
+   "name": "Amorebieta",
+   "aliases": [
+    "Amorebieta-Echano",
+    "Amorebieta-Etxano",
+    "Zornotza"
+   ],
+   "lat": 43.21667,
+   "lon": -2.73333,
+   "population": 17842,
+   "geonameId": "3130137"
+  },
+  {
+   "id": "city:geonames-3108165",
+   "name": "Teo",
+   "aliases": [
+    "Santa Maria",
+    "Santa María"
+   ],
+   "lat": 42.795,
+   "lon": -8.548,
+   "population": 17807,
+   "geonameId": "3108165"
+  },
+  {
+   "id": "city:geonames-3119027",
+   "name": "Lasarte",
+   "aliases": [
+    "Lasarte-Oria",
+    "Ласарте"
+   ],
+   "lat": 43.26774,
+   "lon": -2.02169,
+   "population": 17782,
+   "geonameId": "3119027"
+  },
+  {
+   "id": "city:geonames-2521554",
+   "name": "Arroyo de la Miel",
+   "aliases": [],
+   "lat": 36.59917,
+   "lon": -4.53505,
+   "population": 17763,
+   "geonameId": "2521554"
+  },
+  {
+   "id": "city:geonames-2515151",
+   "name": "La Unión",
+   "aliases": [
+    "La Union",
+    "La-Un'jon",
+    "La-Un'on",
+    "Unio",
+    "la awnyn",
+    "la awnywn",
+    "la wnywn  mwrkya",
+    "lao ni weng",
+    "Ла-Уньйон",
+    "Ла-Уньон",
+    "لا أونيون",
+    "لا اونین",
+    "لا ونیون، مورکیا",
+    "劳尼翁"
+   ],
+   "lat": 37.61915,
+   "lon": -0.87799,
+   "population": 17737,
+   "geonameId": "2515151"
+  },
+  {
+   "id": "city:geonames-3107139",
+   "name": "Utebo",
+   "aliases": [
+    "Утебо"
+   ],
+   "lat": 41.70826,
+   "lon": -0.99916,
+   "population": 17677,
+   "geonameId": "3107139"
+  },
+  {
+   "id": "city:geonames-2512340",
+   "name": "Pozoblanco",
+   "aliases": [
+    "Posoblanko",
+    "bo suo fu lan ke",
+    "bwzwblankw  qrtbt",
+    "Пособланко",
+    "بوزوبلانكو، قرطبة",
+    "波索夫兰科"
+   ],
+   "lat": 38.37906,
+   "lon": -4.84827,
+   "population": 17669,
+   "geonameId": "2512340"
+  },
+  {
+   "id": "city:geonames-2516852",
+   "name": "Güimar",
+   "aliases": [
+    "Guimar"
+   ],
+   "lat": 28.31122,
+   "lon": -16.41276,
+   "population": 17662,
+   "geonameId": "2516852"
+  },
+  {
+   "id": "city:geonames-2516542",
+   "name": "Huercal-Overa",
+   "aliases": [
+    "Huercal Overa",
+    "Huércal Overa",
+    "Khuercal Overa",
+    "Uehrkal'-Overa",
+    "Uerkal'-Overa",
+    "awyrkal-awwra",
+    "hwyrkal-awfyra",
+    "wei er ka er-ao wei la",
+    "Уеркаль-Овера",
+    "Уэркаль-Овера",
+    "Хуерцал Овера",
+    "اوئرکال-اوورا",
+    "هويركال-أوفيرا",
+    "韦尔卡尔-奥韦拉"
+   ],
+   "lat": 37.38918,
+   "lon": -1.943,
+   "population": 17645,
+   "geonameId": "2516542"
+  },
+  {
+   "id": "city:geonames-3114267",
+   "name": "Parets del Vallès",
+   "aliases": [
+    "Parets del Valles",
+    "Sant Esteve de Parets"
+   ],
+   "lat": 41.57481,
+   "lon": 2.23306,
+   "population": 17632,
+   "geonameId": "3114267"
+  },
+  {
+   "id": "city:geonames-3113157",
+   "name": "Porriño",
+   "aliases": [
+    "Porrino",
+    "O Porrino",
+    "O Porriño"
+   ],
+   "lat": 42.16156,
+   "lon": -8.6198,
+   "population": 17475,
+   "geonameId": "3113157"
+  },
+  {
+   "id": "city:geonames-3123688",
+   "name": "Ejea de los Caballeros",
+   "aliases": [
+    "Egea de los Caballeros",
+    "Ehkhea-de-los-Kabal'eros",
+    "Eixea",
+    "Ejea",
+    "Ekhea-de-los-Kabal'eros",
+    "Exea",
+    "Exeya dos Caballers",
+    "Exeya dos Cavallers",
+    "ai he ya de luo si ka wa lie luo si",
+    "aykhya dy lws kabayyrws",
+    "Ехеа-де-лос-Кабальєрос",
+    "Эхеа-де-лос-Кабальерос",
+    "إيخيا دي لوس كاباييروس",
+    "埃赫亚德洛斯卡瓦列罗斯"
+   ],
+   "lat": 42.12632,
+   "lon": -1.13716,
+   "population": 17331,
+   "geonameId": "3123688"
+  },
+  {
+   "id": "city:geonames-3105805",
+   "name": "Vilaseca",
+   "aliases": [
+    "Vila-seka",
+    "Вила-сека"
+   ],
+   "lat": 42.06174,
+   "lon": 2.25528,
+   "population": 17305,
+   "geonameId": "3105805"
+  },
+  {
+   "id": "city:geonames-3119231",
+   "name": "La Pineda",
+   "aliases": [
+    "Ла Пинеда"
+   ],
+   "lat": 41.07699,
+   "lon": 1.17891,
+   "population": 17305,
+   "geonameId": "3119231"
+  },
+  {
+   "id": "city:geonames-3107364",
+   "name": "Tui",
+   "aliases": [
+    "Tuy"
+   ],
+   "lat": 42.04713,
+   "lon": -8.64435,
+   "population": 17262,
+   "geonameId": "3107364"
+  },
+  {
+   "id": "city:geonames-2512432",
+   "name": "Pollença",
+   "aliases": [
+    "Pollenca",
+    "Pollensa"
+   ],
+   "lat": 39.87678,
+   "lon": 3.01626,
+   "population": 17260,
+   "geonameId": "2512432"
+  },
+  {
+   "id": "city:geonames-2513324",
+   "name": "Navalmoral de la Mata",
+   "aliases": [
+    "Naval'moral'-de-la-Mata",
+    "Navalmoral",
+    "Navalmoral de la Mota",
+    "QWW",
+    "na wa er mo la er de la ma ta",
+    "nafalmwral dy la mata",
+    "Навальмораль-де-ла-Мата",
+    "نافالمورال دي لا ماتا",
+    "纳瓦尔莫拉尔德拉马塔"
+   ],
+   "lat": 39.89158,
+   "lon": -5.54064,
+   "population": 17228,
+   "geonameId": "2513324"
+  },
+  {
+   "id": "city:geonames-3110610",
+   "name": "Sanxenxo",
+   "aliases": [
+    "Sangenjo"
+   ],
+   "lat": 42.39996,
+   "lon": -8.80698,
+   "population": 17212,
+   "geonameId": "3110610"
+  },
+  {
+   "id": "city:geonames-3128201",
+   "name": "Berga",
+   "aliases": [],
+   "lat": 42.10429,
+   "lon": 1.84628,
+   "population": 17160,
+   "geonameId": "3128201"
+  },
+  {
+   "id": "city:geonames-6354969",
+   "name": "Playa del Ingles",
+   "aliases": [
+    "Plaja del' Ingles",
+    "Playa del Inglés",
+    "Плая дель Инглес"
+   ],
+   "lat": 27.7567,
+   "lon": -15.5787,
+   "population": 17158,
+   "geonameId": "6354969"
+  },
+  {
+   "id": "city:geonames-2519738",
+   "name": "Castilleja de la Cuesta",
+   "aliases": [
+    "Castilleja"
+   ],
+   "lat": 37.38594,
+   "lon": -6.05258,
+   "population": 17150,
+   "geonameId": "2519738"
+  },
+  {
+   "id": "city:geonames-2522208",
+   "name": "Albolote",
+   "aliases": [
+    "Алболоте"
+   ],
+   "lat": 37.23088,
+   "lon": -3.6551,
+   "population": 17089,
+   "geonameId": "2522208"
+  },
+  {
+   "id": "city:geonames-3116224",
+   "name": "Monzón",
+   "aliases": [
+    "Monzon",
+    "Montso",
+    "Montsó"
+   ],
+   "lat": 41.91084,
+   "lon": 0.19406,
+   "population": 17042,
+   "geonameId": "3116224"
+  },
+  {
+   "id": "city:geonames-3113035",
+   "name": "Poio",
+   "aliases": [
+    "San Juan"
+   ],
+   "lat": 42.44775,
+   "lon": -8.68594,
+   "population": 17018,
+   "geonameId": "3113035"
+  },
+  {
+   "id": "city:geonames-3105148",
+   "name": "Villaquilambre",
+   "aliases": [
+    "Vil'jakilambre",
+    "bi li ya ji lan fu lei",
+    "Вильякиламбре",
+    "Вільякіламбре",
+    "比利亚基兰夫雷"
+   ],
+   "lat": 42.64685,
+   "lon": -5.55835,
+   "population": 17013,
+   "geonameId": "3105148"
+  },
+  {
+   "id": "city:geonames-2510112",
+   "name": "Ubrique",
+   "aliases": [],
+   "lat": 36.67777,
+   "lon": -5.446,
+   "population": 16979,
+   "geonameId": "2510112"
+  },
+  {
+   "id": "city:geonames-2513436",
+   "name": "Mula",
+   "aliases": [
+    "Мула"
+   ],
+   "lat": 38.04095,
+   "lon": -1.49014,
+   "population": 16941,
+   "geonameId": "2513436"
+  },
+  {
+   "id": "city:geonames-3128174",
+   "name": "Bermeo",
+   "aliases": [
+    "Bermeu",
+    "Bermeum",
+    "Bermio",
+    "bei er mei ao",
+    "berumeo",
+    "byrmyw",
+    "Бермео",
+    "بيرميو",
+    "ベルメオ",
+    "贝尔梅奥"
+   ],
+   "lat": 43.42088,
+   "lon": -2.72152,
+   "population": 16937,
+   "geonameId": "3128174"
+  },
+  {
+   "id": "city:geonames-3128795",
+   "name": "Barbastro",
+   "aliases": [
+    "Balbastro",
+    "Barbastras",
+    "Barbastre",
+    "Barmpastro",
+    "ba er wa si te luo",
+    "barubasutoro",
+    "brbshtr",
+    "Μπαρμπάστρο",
+    "Барбастро",
+    "بربشتر",
+    "バルバストロ",
+    "巴尔瓦斯特罗"
+   ],
+   "lat": 42.03565,
+   "lon": 0.12686,
+   "population": 16924,
+   "geonameId": "3128795"
+  },
+  {
+   "id": "city:geonames-2510245",
+   "name": "Torrox",
+   "aliases": [
+    "Torroks",
+    "trsh",
+    "tuo luo si",
+    "Торрокс",
+    "طرش",
+    "托罗斯"
+   ],
+   "lat": 36.75793,
+   "lon": -3.95233,
+   "population": 16890,
+   "geonameId": "2510245"
+  },
+  {
+   "id": "city:geonames-3127035",
+   "name": "Caldes de Montbui",
+   "aliases": [
+    "Caldes de Montbuy"
+   ],
+   "lat": 41.63333,
+   "lon": 2.16667,
+   "population": 16885,
+   "geonameId": "3127035"
+  },
+  {
+   "id": "city:geonames-3110813",
+   "name": "Sant Celoni",
+   "aliases": [
+    "San Celoni"
+   ],
+   "lat": 41.68921,
+   "lon": 2.48965,
+   "population": 16860,
+   "geonameId": "3110813"
+  },
+  {
+   "id": "city:geonames-3128978",
+   "name": "Balaguer",
+   "aliases": [],
+   "lat": 41.79117,
+   "lon": 0.81094,
+   "population": 16841,
+   "geonameId": "3128978"
+  },
+  {
+   "id": "city:geonames-3105247",
+   "name": "Villanueva de la Cañada",
+   "aliases": [
+    "Villanueva de la Canada"
+   ],
+   "lat": 40.44689,
+   "lon": -4.00428,
+   "population": 16804,
+   "geonameId": "3105247"
+  },
+  {
+   "id": "city:geonames-3126317",
+   "name": "Cardedeu",
+   "aliases": [],
+   "lat": 41.63976,
+   "lon": 2.35739,
+   "population": 16596,
+   "geonameId": "3126317"
+  },
+  {
+   "id": "city:geonames-3108285",
+   "name": "Tàrrega",
+   "aliases": [
+    "Tarrega"
+   ],
+   "lat": 41.64704,
+   "lon": 1.13957,
+   "population": 16539,
+   "geonameId": "3108285"
+  },
+  {
+   "id": "city:geonames-3121881",
+   "name": "Hondarribia",
+   "aliases": [
+    "Fuenterrabia",
+    "Fontarabie",
+    "Fuenterrabía",
+    "Hondarribi"
+   ],
+   "lat": 43.36859,
+   "lon": -1.79622,
+   "population": 16458,
+   "geonameId": "3121881"
+  },
+  {
+   "id": "city:geonames-2509377",
+   "name": "Zafra",
+   "aliases": [
+    "Cafra",
+    "Safra",
+    "sa fu la",
+    "safura",
+    "Çafra",
+    "Зафра",
+    "Сафра",
+    "صفراء، بطليوس",
+    "サフラ",
+    "萨夫拉"
+   ],
+   "lat": 38.42539,
+   "lon": -6.41734,
+   "population": 16424,
+   "geonameId": "2509377"
+  },
+  {
+   "id": "city:geonames-3130606",
+   "name": "Alcañiz",
+   "aliases": [
+    "Alcaniz",
+    "Al'kan'is",
+    "Alcanyis",
+    "Alcanyiz",
+    "Alcanyís",
+    "a er ka ni yi si",
+    "alkanyth",
+    "alknays",
+    "arukanisu",
+    "Альканьис",
+    "Альканьїс",
+    "ألكانيث",
+    "الكنائس",
+    "アルカニス",
+    "阿尔卡尼伊斯"
+   ],
+   "lat": 41.05,
+   "lon": -0.13333,
+   "population": 16392,
+   "geonameId": "3130606"
+  },
+  {
+   "id": "city:geonames-2515493",
+   "name": "Las Cabezas de San Juan",
+   "aliases": [
+    "Las Cabezas San Juan"
+   ],
+   "lat": 36.9838,
+   "lon": -5.93933,
+   "population": 16379,
+   "geonameId": "2515493"
+  },
+  {
+   "id": "city:geonames-6559641",
+   "name": "Las Gabias",
+   "aliases": [],
+   "lat": 37.13548,
+   "lon": -3.67029,
+   "population": 16369,
+   "geonameId": "6559641"
+  },
+  {
+   "id": "city:geonames-2516902",
+   "name": "Guardamar del Segura",
+   "aliases": [
+    "Guardamar",
+    "Guardamar de la Safor",
+    "Guardamar de la Segura"
+   ],
+   "lat": 38.09031,
+   "lon": -0.65556,
+   "population": 16329,
+   "geonameId": "2516902"
+  },
+  {
+   "id": "city:geonames-2516217",
+   "name": "La Algaba",
+   "aliases": [
+    "Algaba"
+   ],
+   "lat": 37.46325,
+   "lon": -6.01113,
+   "population": 16301,
+   "geonameId": "2516217"
+  },
+  {
+   "id": "city:geonames-2509408",
+   "name": "Yaiza",
+   "aliases": [
+    "Jaisa",
+    "Яиса"
+   ],
+   "lat": 28.95678,
+   "lon": -13.76535,
+   "population": 16289,
+   "geonameId": "2509408"
+  },
+  {
+   "id": "city:geonames-2521413",
+   "name": "Baeza",
+   "aliases": [],
+   "lat": 37.99384,
+   "lon": -3.47103,
+   "population": 16253,
+   "geonameId": "2521413"
+  },
+  {
+   "id": "city:geonames-3123063",
+   "name": "Ermua",
+   "aliases": [
+    "Ehrmua",
+    "ai er mu a",
+    "ayrmwa",
+    "Ермуа",
+    "Эрмуа",
+    "إيرموا",
+    "埃尔穆阿"
+   ],
+   "lat": 43.18725,
+   "lon": -2.50261,
+   "population": 16252,
+   "geonameId": "3123063"
+  },
+  {
+   "id": "city:geonames-3120989",
+   "name": "Gernika-Lumo",
+   "aliases": [
+    "Gernika",
+    "Guernica",
+    "Guernica y Luno"
+   ],
+   "lat": 43.31667,
+   "lon": -2.68333,
+   "population": 16244,
+   "geonameId": "3120989"
+  },
+  {
+   "id": "city:geonames-3104475",
+   "name": "Viveiro",
+   "aliases": [],
+   "lat": 43.66228,
+   "lon": -7.59344,
+   "population": 16238,
+   "geonameId": "3104475"
+  },
+  {
+   "id": "city:geonames-2513604",
+   "name": "Montijo",
+   "aliases": [],
+   "lat": 38.90839,
+   "lon": -6.61785,
+   "population": 16236,
+   "geonameId": "2513604"
+  },
+  {
+   "id": "city:geonames-3109050",
+   "name": "Seseña",
+   "aliases": [
+    "Sesena"
+   ],
+   "lat": 40.10473,
+   "lon": -3.69793,
+   "population": 16231,
+   "geonameId": "3109050"
+  },
+  {
+   "id": "city:geonames-3115907",
+   "name": "Mungia",
+   "aliases": [
+    "Munguia",
+    "Munguía"
+   ],
+   "lat": 43.35461,
+   "lon": -2.84524,
+   "population": 16209,
+   "geonameId": "3115907"
+  },
+  {
+   "id": "city:geonames-2511287",
+   "name": "San Miguel De Abona",
+   "aliases": [],
+   "lat": 28.09826,
+   "lon": -16.61708,
+   "population": 16179,
+   "geonameId": "2511287"
+  },
+  {
+   "id": "city:geonames-2515555",
+   "name": "La Roda",
+   "aliases": [
+    "La-Roda",
+    "Roda",
+    "la luo da",
+    "la rda",
+    "la rwda",
+    "Ла-Рода",
+    "لا ردا",
+    "لا رودا",
+    "拉罗达"
+   ],
+   "lat": 39.20735,
+   "lon": -2.15723,
+   "population": 16060,
+   "geonameId": "2515555"
+  },
+  {
+   "id": "city:geonames-2518444",
+   "name": "El Grao",
+   "aliases": [
+    "El Grao de Gandia",
+    "El Grao de Gandía",
+    "Grao",
+    "Grao de Castellon",
+    "Grao de Castellón"
+   ],
+   "lat": 39.97358,
+   "lon": 0.01284,
+   "population": 16026,
+   "geonameId": "2518444"
+  },
+  {
+   "id": "city:geonames-3126534",
+   "name": "Canovelles",
+   "aliases": [
+    "Canovellas"
+   ],
+   "lat": 41.61667,
+   "lon": 2.28333,
+   "population": 16023,
+   "geonameId": "3126534"
+  },
+  {
+   "id": "city:geonames-6693088",
+   "name": "Pasaia",
+   "aliases": [
+    "Pasaja",
+    "Pasajes",
+    "Pasakhes",
+    "Passatge",
+    "basakhys",
+    "pa sai a",
+    "pasaia",
+    "Пасахес",
+    "Пасая",
+    "باساخيس",
+    "帕赛阿",
+    "파사이아"
+   ],
+   "lat": 43.3253,
+   "lon": -1.92707,
+   "population": 15990,
+   "geonameId": "6693088"
+  },
+  {
+   "id": "city:geonames-7115111",
+   "name": "Corvera de Asturias",
+   "aliases": [
+    "Corvera",
+    "Korvera-de-Asturias",
+    "ke er wei la de a si tu li ya si",
+    "krbra d astwryas",
+    "kwrfyra dy astwryas",
+    "Корвера-де-Астуриас",
+    "Корвера-де-Астуріас",
+    "كورفيرا دي أستورياس",
+    "کربرا د آستوریاس",
+    "科尔韦拉德阿斯图里亚斯"
+   ],
+   "lat": 43.53554,
+   "lon": -5.88893,
+   "population": 15955,
+   "geonameId": "7115111"
+  },
+  {
+   "id": "city:geonames-2521249",
+   "name": "Barrio de Peral",
+   "aliases": [
+    "Barrio del Peral"
+   ],
+   "lat": 37.62513,
+   "lon": -0.98792,
+   "population": 15937,
+   "geonameId": "2521249"
+  },
+  {
+   "id": "city:geonames-3123504",
+   "name": "El Escorial",
+   "aliases": [
+    "Ehl'-Ehskaryjal'",
+    "Ehl'-Ehskorial'",
+    "El Eskorial",
+    "El'-Eskorial'",
+    "Escorial",
+    "L'Escurial",
+    "ai er ai si ke li ya er",
+    "al askwryal",
+    "alyskwryal",
+    "el-eseukolial",
+    "Ελ Εσκοριάλ",
+    "Ель-Ескоріаль",
+    "Эль-Эскарыяль",
+    "Эль-Эскориаль",
+    "Էլ Էսկորիալ",
+    "إليسكوريال",
+    "ال اسکوریال",
+    "エル・エスコリアル",
+    "埃尔埃斯科里亚尔",
+    "엘에스코리알"
+   ],
+   "lat": 40.58254,
+   "lon": -4.12846,
+   "population": 15842,
+   "geonameId": "3123504"
+  },
+  {
+   "id": "city:geonames-3109546",
+   "name": "Sant Just Desvern",
+   "aliases": [],
+   "lat": 41.38389,
+   "lon": 2.06758,
+   "population": 15811,
+   "geonameId": "3109546"
+  },
+  {
+   "id": "city:geonames-2511180",
+   "name": "Santa Cruz de la Palma",
+   "aliases": [
+    "SPC",
+    "Santa Cruz de La Palma",
+    "Santa-Krus-de-la-Pal'ma",
+    "Санта-Крус-де-ла-Пальма"
+   ],
+   "lat": 28.68351,
+   "lon": -17.76421,
+   "population": 15674,
+   "geonameId": "2511180"
+  },
+  {
+   "id": "city:geonames-2514868",
+   "name": "Los Alcázares",
+   "aliases": [
+    "Los Alcazares",
+    "Alcazares",
+    "Alcázares"
+   ],
+   "lat": 37.74425,
+   "lon": -0.85041,
+   "population": 15674,
+   "geonameId": "2514868"
+  },
+  {
+   "id": "city:geonames-3108317",
+   "name": "Tarancón",
+   "aliases": [
+    "Tarancon",
+    "Tarankon",
+    "ta lan kong",
+    "tarankwn",
+    "Таранкон",
+    "تارانكون",
+    "塔兰孔"
+   ],
+   "lat": 40.00851,
+   "lon": -3.00731,
+   "population": 15651,
+   "geonameId": "3108317"
+  },
+  {
+   "id": "city:geonames-2520121",
+   "name": "Carlet",
+   "aliases": [
+    "Karlet",
+    "ka er lai te",
+    "Карлет",
+    "卡尔莱特"
+   ],
+   "lat": 39.2266,
+   "lon": -0.52142,
+   "population": 15527,
+   "geonameId": "2520121"
+  },
+  {
+   "id": "city:geonames-2515284",
+   "name": "La Solana",
+   "aliases": [],
+   "lat": 38.94422,
+   "lon": -3.2381,
+   "population": 15523,
+   "geonameId": "2515284"
+  },
+  {
+   "id": "city:geonames-3110821",
+   "name": "Sant Carles de la Ràpita",
+   "aliases": [
+    "Sant Carles de la Rapita",
+    "San Carlos des la Rapida",
+    "San-Karlos-de-la-Rapita",
+    "Сан-Карлос-де-ла-Рапита"
+   ],
+   "lat": 40.61667,
+   "lon": 0.6,
+   "population": 15511,
+   "geonameId": "3110821"
+  },
+  {
+   "id": "city:geonames-3116262",
+   "name": "Montornès del Vallès",
+   "aliases": [
+    "Montornes del Valles"
+   ],
+   "lat": 41.54206,
+   "lon": 2.26748,
+   "population": 15509,
+   "geonameId": "3116262"
+  },
+  {
+   "id": "city:geonames-2522250",
+   "name": "Albal",
+   "aliases": [
+    "Албал"
+   ],
+   "lat": 39.4,
+   "lon": -0.41667,
+   "population": 15443,
+   "geonameId": "2522250"
+  },
+  {
+   "id": "city:geonames-2511160",
+   "name": "Santafé",
+   "aliases": [
+    "Santafe"
+   ],
+   "lat": 37.18856,
+   "lon": -3.71887,
+   "population": 15430,
+   "geonameId": "2511160"
+  },
+  {
+   "id": "city:geonames-2521485",
+   "name": "Atarfe",
+   "aliases": [
+    "Атарфе"
+   ],
+   "lat": 37.22479,
+   "lon": -3.68686,
+   "population": 15399,
+   "geonameId": "2521485"
+  },
+  {
+   "id": "city:geonames-3113576",
+   "name": "Piera",
+   "aliases": [],
+   "lat": 41.52232,
+   "lon": 1.75076,
+   "population": 15362,
+   "geonameId": "3113576"
+  },
+  {
+   "id": "city:geonames-3107955",
+   "name": "Tordera",
+   "aliases": [
+    "Тордера"
+   ],
+   "lat": 41.69914,
+   "lon": 2.71888,
+   "population": 15345,
+   "geonameId": "3107955"
+  },
+  {
+   "id": "city:geonames-2511050",
+   "name": "Santomera",
+   "aliases": [
+    "Сантомера"
+   ],
+   "lat": 38.06147,
+   "lon": -1.04877,
+   "population": 15319,
+   "geonameId": "2511050"
+  },
+  {
+   "id": "city:geonames-2513885",
+   "name": "Miguelturra",
+   "aliases": [
+    "Migel'turra",
+    "mi ge er tu la",
+    "myghwyltwra",
+    "Мигельтурра",
+    "Мігельтурра",
+    "ميغويلتورا",
+    "米格尔图拉"
+   ],
+   "lat": 38.96442,
+   "lon": -3.89047,
+   "population": 15316,
+   "geonameId": "2513885"
+  },
+  {
+   "id": "city:geonames-2521105",
+   "name": "Benetússer",
+   "aliases": [
+    "Benetusser"
+   ],
+   "lat": 39.42265,
+   "lon": -0.39686,
+   "population": 15313,
+   "geonameId": "2521105"
+  },
+  {
+   "id": "city:geonames-3129661",
+   "name": "Arenys de Mar",
+   "aliases": [
+    "Aren's-de-Mar",
+    "Aren'sh-da-Mar",
+    "Arenis de Mar",
+    "aleniseudemaleu",
+    "arnys d mar",
+    "arynys dy mar",
+    "bin hai a lei ni si",
+    "Ареньс-де-Мар",
+    "Ареньш-да-Мар",
+    "Արենիս դե Մար",
+    "آرنیس د مار",
+    "أرينيس دي مار",
+    "滨海阿雷尼斯",
+    "아레니스데마르"
+   ],
+   "lat": 41.5819,
+   "lon": 2.54936,
+   "population": 15307,
+   "geonameId": "3129661"
+  },
+  {
+   "id": "city:geonames-2516088",
+   "name": "La Carolina",
+   "aliases": [],
+   "lat": 38.27559,
+   "lon": -3.61535,
+   "population": 15306,
+   "geonameId": "2516088"
+  },
+  {
+   "id": "city:geonames-3107807",
+   "name": "Torredembarra",
+   "aliases": [
+    "Torredembara",
+    "Торредембарра"
+   ],
+   "lat": 41.14505,
+   "lon": 1.39861,
+   "population": 15272,
+   "geonameId": "3107807"
+  },
+  {
+   "id": "city:geonames-2514066",
+   "name": "Massamagrell",
+   "aliases": [
+    "Masamgrell"
+   ],
+   "lat": 39.56667,
+   "lon": -0.33333,
+   "population": 15210,
+   "geonameId": "2514066"
+  },
+  {
+   "id": "city:geonames-6941125",
+   "name": "Sant Agustí",
+   "aliases": [
+    "Sant Agusti"
+   ],
+   "lat": 39.55065,
+   "lon": 2.59741,
+   "population": 15136,
+   "geonameId": "6941125"
+  },
+  {
+   "id": "city:geonames-3105214",
+   "name": "Villanueva del Pardillo",
+   "aliases": [],
+   "lat": 40.49014,
+   "lon": -3.96383,
+   "population": 15087,
+   "geonameId": "3105214"
+  },
+  {
+   "id": "city:geonames-2521016",
+   "name": "Berja",
+   "aliases": [
+    "Berdza",
+    "Berha",
+    "Berkha",
+    "Vergis",
+    "bei er ha",
+    "brjt",
+    "brkha",
+    "Берха",
+    "Берџа",
+    "برجة",
+    "برخا",
+    "贝尔哈"
+   ],
+   "lat": 36.84693,
+   "lon": -2.94966,
+   "population": 15035,
+   "geonameId": "2521016"
+  },
+  {
+   "id": "city:geonames-2519651",
+   "name": "Cehegín",
+   "aliases": [
+    "Cehegin"
+   ],
+   "lat": 38.09242,
+   "lon": -1.7985,
+   "population": 15022,
+   "geonameId": "2519651"
+  },
+  {
+   "id": "city:geonames-3128382",
+   "name": "Béjar",
+   "aliases": [
+    "Bejar",
+    "Bekhar",
+    "Bexa",
+    "bei ha er",
+    "Бехар",
+    "贝哈尔"
+   ],
+   "lat": 40.38641,
+   "lon": -5.76341,
+   "population": 15007,
+   "geonameId": "3128382"
+  },
+  {
+   "id": "city:geonames-2520413",
+   "name": "Campo de Criptana",
+   "aliases": [
+    "Kampo-de-Kriptana",
+    "kambw dy kraybtana",
+    "kan bo de ke li pu ta na",
+    "Кампо-де-Криптана",
+    "Кампо-де-Кріптана",
+    "كامبو دي كرايبتانا",
+    "坎波德克里普塔纳"
+   ],
+   "lat": 39.40463,
+   "lon": -3.12492,
+   "population": 15006,
+   "geonameId": "2520413"
+  }
+ ]
+}
