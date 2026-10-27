@@ -588,7 +588,7 @@ function CategoryHub() {
   )
   return (
     <Page wide>
-      <header className="simple-page-heading">
+      <header className={directMap ? 'sr-only' : 'simple-page-heading'}>
         <h1>{directMap ? 'Deine Wissensinsel' : 'Quiz auswählen'}</h1>
         <p>
           {directMap

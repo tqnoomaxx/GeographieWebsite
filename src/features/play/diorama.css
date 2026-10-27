@@ -7,15 +7,20 @@
 .simple-shell .play-map-toggle { border: 1px solid var(--line); border-radius: 9px; overflow: hidden; flex-shrink: 0; background: var(--card); }
 .simple-shell .play-map-toggle button { font-size: 12px; padding: 10px 14px; min-height: 40px; border: 0; border-radius: 0; color: var(--ink-2); box-shadow: none; }
 .simple-shell .play-map-toggle button.is-active { background: var(--accent-soft); color: var(--ink); }
-.quiz-diorama-3d { --island-glass: rgb(15 48 65 / .91); --island-cream: #fff5df; --island-gold: #f3c565; position: relative; height: min(76vh, 800px); min-height: 620px; border-radius: 16px; background: #3c97a8; isolation: isolate; overflow: hidden; }
+.simple-shell .page-shell:has(.diorama-direct-view) { max-width: 1540px; padding-top: 18px; }
+.simple-shell:has(.quiz-diorama-3d[data-expanded="true"]) > main { z-index: 100; }
+.quiz-diorama-3d { --island-glass: rgb(15 48 65 / .91); --island-cream: #fff5df; --island-gold: #f3c565; position: relative; height: calc(100dvh - 154px); min-height: 620px; max-height: 1100px; border-radius: 20px; background: #3c97a8; isolation: isolate; overflow: hidden; outline: none; scroll-margin-block: 86px; }
+.quiz-diorama-3d[data-expanded="true"], .quiz-diorama-3d:fullscreen { position: fixed; inset: 0; z-index: 100; width: 100vw; height: 100dvh; min-height: 0; max-height: none; border-radius: 0; }
+.quiz-diorama-3d[data-expanded="true"] .diorama-world-tools { top: max(20px, env(safe-area-inset-top)); }
+.quiz-diorama-3d[data-expanded="true"] .quiz-diorama-dock { bottom: max(18px, env(safe-area-inset-bottom)); }
 .quiz-diorama-canvas { position: absolute; inset: 0; }
 .diorama-world-caption { position: absolute; top: 20px; left: 20px; display: flex; align-items: center; gap: 13px; border: 1px solid #ffffff25; border-radius: 15px; padding: 15px 19px; color: var(--island-cream); background: var(--island-glass); box-shadow: 0 7px 24px #102b4521; backdrop-filter: blur(12px); pointer-events: none; }
-.diorama-world-caption > svg { width: 37px; height: 37px; padding: 6px; border: 1px solid var(--island-gold); border-radius: 50%; color: var(--island-gold); }
-.diorama-world-caption strong { display: block; font-size: 20px; font-weight: 720; letter-spacing: -.025em; }
-.diorama-world-caption span { display: block; font-size: 12px; margin-top: 5px; color: #d2e2e8; }
+.diorama-world-caption > svg { width: 44px; height: 44px; padding: 6px; border: 1px solid var(--island-gold); border-radius: 50%; color: var(--island-gold); }
+.diorama-world-caption strong { display: block; font-size: 26px; font-weight: 720; letter-spacing: -.025em; }
+.diorama-world-caption span { display: block; font-size: 14px; margin-top: 5px; color: #d2e2e8; }
 .quiz-diorama-3d[data-active-station] .diorama-world-caption { visibility: hidden; }
 .diorama-world-tools { position: absolute; z-index: 6; top: 20px; right: 20px; display: flex; align-items: center; gap: 3px; border: 1px solid #ffffff25; border-radius: 13px; padding: 6px; color: var(--island-cream); background: var(--island-glass); box-shadow: 0 7px 24px #102b4521; backdrop-filter: blur(12px); }
-.diorama-world-tools > button { display: inline-flex; justify-content: center; align-items: center; gap: 8px; min-width: 39px; height: 40px; border: 0; border-radius: 7px; padding: 0 8px; font-size: 12px; font-weight: 600; color: inherit; cursor: pointer; }
+.diorama-world-tools > button { display: inline-flex; justify-content: center; align-items: center; gap: 8px; min-width: 43px; height: 44px; border: 0; border-radius: 7px; padding: 0 8px; font-size: 13px; font-weight: 600; color: inherit; cursor: pointer; }
 .diorama-world-tools > button:hover:not(:disabled) { color: var(--island-gold); background: #ffffff15; }
 .diorama-world-tools > button:focus-visible { outline: 2px solid var(--island-gold); outline-offset: 0; }
 .diorama-world-tools > button:disabled { opacity: .3; }
@@ -35,9 +40,9 @@
 .quiz-diorama-context a:hover { color: #163944; background: #ffda8b; }
 .quiz-diorama-context a > svg { width: 15px; height: 15px; }
 .quiz-diorama-context a:focus-visible { outline: 2px solid var(--island-cream); outline-offset: 3px; }
-.quiz-diorama-dock { bottom: 18px; gap: 4px; border: 1px solid #ffffff30; border-radius: 18px; padding: 7px; background: var(--island-glass); box-shadow: 0 10px 30px #102b4530; backdrop-filter: blur(12px); }
-.quiz-diorama-dock a { width: 43px; height: 43px; border-radius: 10px; color: #f5ebd4; }
-.quiz-diorama-dock a svg { width: 21px; height: 21px; }
+.quiz-diorama-dock { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); width: min(780px, calc(100% - 48px)); bottom: 18px; gap: 4px; border: 1px solid #ffffff30; border-radius: 18px; padding: 7px; background: var(--island-glass); box-shadow: 0 10px 30px #102b4530; backdrop-filter: blur(12px); }
+.quiz-diorama-dock a { width: 100%; height: 48px; border-radius: 10px; color: #f5ebd4; }
+.quiz-diorama-dock a svg { width: 24px; height: 24px; }
 .quiz-diorama-dock a:hover, .quiz-diorama-dock a:focus-visible, .quiz-diorama-dock a.is-active { background: var(--island-gold); color: #173e4a; border-color: transparent; transform: none; }
 .quiz-diorama-dock a:focus-visible { outline: 2px solid white; outline-offset: 2px; }
 .quiz-diorama-new { color: #173e4a; background: var(--island-gold); font-size: 8px; }
@@ -51,17 +56,17 @@
   .simple-shell .play-map-heading h2 { font-size: 17px; }
   .simple-shell .play-map-heading p { font-size: 12px; }
   .simple-shell .play-map-toggle { align-self: flex-start; }
-  .quiz-diorama-3d { height: 640px; min-height: 640px; border-radius: 12px; }
-  .diorama-world-tools { top: 12px; right: 50%; transform: translateX(50%); gap: 1px; padding: 5px; width: max-content; max-width: calc(100% - 20px); }
-  .diorama-world-tools > button { min-width: 34px; height: 38px; padding-inline: 6px; }
+  .quiz-diorama-3d { height: calc(100dvh - 208px); min-height: 500px; max-height: 760px; border-radius: 14px; }
+  .diorama-world-tools { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); top: 12px; right: 12px; left: 12px; transform: none; gap: 0; padding: 4px; width: auto; max-width: none; }
+  .diorama-world-tools > button { min-width: 0; width: 100%; height: 40px; padding: 0; }
   .diorama-world-tools svg { width: 18px; height: 18px; }
-  .diorama-world-tools .diorama-time-button { padding-inline: 7px; font-size: 11px; }
-  .diorama-tool-divider { margin-inline: 1px; }
-  .diorama-world-caption { top: 76px; left: 12px; padding: 10px 12px; gap: 9px; border-radius: 11px; }
+  .diorama-world-tools .diorama-time-button { padding: 0; }
+  .diorama-time-button > span, .diorama-tool-divider { display: none; }
+  .diorama-world-caption { top: 74px; left: 12px; padding: 10px 12px; gap: 9px; border-radius: 11px; }
   .diorama-world-caption > svg { width: 29px; height: 29px; padding: 4px; }
   .diorama-world-caption strong { font-size: 16px; }
   .diorama-world-caption span { font-size: 10px; margin-top: 3px; }
-  .quiz-diorama-context { top: 76px; left: 12px; width: 205px; padding: 12px 14px; border-radius: 11px; }
+  .quiz-diorama-context { top: 74px; left: 12px; width: 205px; padding: 12px 14px; border-radius: 11px; }
   .quiz-diorama-context strong { font-size: 18px; }
   .quiz-diorama-context small { font-size: 10px; }
   .quiz-diorama-context .quiz-diorama-progress { margin-top: 6px; gap: 3px; }
@@ -72,4 +77,3 @@
   .quiz-diorama-dock a svg { width: 20px; height: 20px; }
   .diorama-direct-view .play-map-heading { padding: 0 0 12px; }
 }
-@media (max-width: 767px) { .quiz-diorama-3d { height: min(72dvh, 600px); min-height: 520px; } }

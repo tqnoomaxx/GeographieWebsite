@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { CatmullRomCurve3, OrthographicCamera, Vector3 } from 'three'
 import {
   createIslandGeometry,
+  createCoastBand,
   createRibbonGeometry,
   DEFAULT_DIORAMA_VIEW,
   DIORAMA_FRAME_POINTS,
@@ -62,6 +63,24 @@ describe('Diorama camera framing', () => {
 })
 
 describe('Floating island geometry', () => {
+  it('closes the shoreline with upward faces and continuous UVs at the seam', () => {
+    const geometry = createCoastBand(0.955, 1.035, -3.025)
+    const points = geometry.getAttribute('position')
+    const uv = geometry.getAttribute('uv')
+    const normals = geometry.getAttribute('normal')
+    for (let i = 0; i < points.count; i++) {
+      expect(points.getY(i)).toBeCloseTo(-3.025)
+      expect(normals.getY(i)).toBeCloseTo(1)
+    }
+    for (let i = 0; i < 2; i++) {
+      const end = points.count - 2 + i
+      expect(points.getX(end)).toBeCloseTo(points.getX(i))
+      expect(points.getZ(end)).toBeCloseTo(points.getZ(i))
+      expect(uv.getX(i)).toBe(0)
+      expect(uv.getX(end)).toBe(1)
+    }
+    geometry.dispose()
+  })
   it.each(['grass', 'cliff'] as const)('creates finite %s facets with a color per vertex', (kind) => {
     const geometry = createIslandGeometry(kind)
     const positions = geometry.getAttribute('position')

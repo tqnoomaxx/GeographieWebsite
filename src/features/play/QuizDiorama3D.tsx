@@ -1,5 +1,5 @@
 import { useReducedMotion } from '@/services/settings/motion'
-import { Suspense, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
+import { Suspense, useEffect, useLayoutEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Canvas, useFrame, useThree, type ThreeEvent } from '@react-three/fiber'
 import { RoundedBox, useTexture } from '@react-three/drei'
 import { Link, useNavigate } from 'react-router-dom'
@@ -26,12 +26,20 @@ import {
   Plus,
   RotateCcw,
   RotateCw,
+  Maximize,
+  Minimize,
+  Pause,
+  Play,
   type LucideIcon,
 } from 'lucide-react'
 import {
   CatmullRomCurve3,
+  CanvasTexture,
   DoubleSide,
   MathUtils,
+  MeshBasicMaterial,
+  InstancedMesh,
+  Object3D,
   OrthographicCamera,
   PlaneGeometry,
   SRGBColorSpace,
@@ -50,6 +58,9 @@ import {
   type DioramaView,
 } from './dioramaGeometry'
 import { DioramaLandscape, IslandTerrain } from './DioramaLandscape'
+import { DioramaMotion, useDioramaMotion } from './DioramaMotion'
+import { DioramaWater } from './DioramaWater'
+import { DioramaForest } from './DioramaForest'
 import './diorama.css'
 
 type SceneId = PlayStationId
@@ -136,20 +147,138 @@ function stationProgressLabel(progress: StationProgress | undefined, t: TFunctio
   })
 }
 
-function CameraSetup({ view }: { view: DioramaView }) {
+function CameraSetup({ view, reducedMotion }: { view: DioramaView; reducedMotion: boolean }) {
   const camera = useThree((state) => state.camera)
   const size = useThree((state) => state.size)
   const invalidate = useThree((state) => state.invalidate)
-  useEffect(() => {
-    if (camera instanceof OrthographicCamera) fitDioramaCamera(camera, size.width, size.height, view)
+  const canvas = useThree((state) => state.gl.domElement)
+  const target = useMemo(() => new OrthographicCamera(), [])
+  const lastSize = useRef('')
+  const changing = useRef(false)
+  useLayoutEffect(() => {
+    if (!(camera instanceof OrthographicCamera)) return
+    target.copy(camera)
+    fitDioramaCamera(target, size.width, size.height, view)
+    const key = `${size.width}:${size.height}`
+    changing.current = !reducedMotion && lastSize.current === key
+    if (!changing.current) camera.copy(target)
+    lastSize.current = key
+    const root = canvas.closest<HTMLElement>('.quiz-diorama-3d')
+    if (root) root.dataset.camera = changing.current ? 'moving' : 'still'
     invalidate()
-  }, [camera, size.width, size.height, invalidate, view])
+  }, [camera, size.width, size.height, invalidate, view, reducedMotion, target, canvas])
+  useFrame((_, delta) => {
+    if (!changing.current || !(camera instanceof OrthographicCamera)) return
+    const alpha = 1 - Math.exp(-Math.min(delta, 0.05) * 12)
+    camera.position.lerp(target.position, alpha)
+    camera.quaternion.slerp(target.quaternion, alpha)
+    camera.zoom = MathUtils.lerp(camera.zoom, target.zoom, alpha)
+    if (camera.position.distanceTo(target.position) < 0.002 && Math.abs(camera.zoom - target.zoom) < 0.002) {
+      camera.copy(target)
+      changing.current = false
+      const root = canvas.closest<HTMLElement>('.quiz-diorama-3d')
+      if (root) root.dataset.camera = 'still'
+    }
+    camera.updateProjectionMatrix()
+    camera.updateMatrixWorld()
+    invalidate()
+  })
   return null
 }
 
-function Tree({ x, z, scale, height }: { x: number; z: number; scale: number; height: number }) {
+/** Cache the expensive shadow pass; slow wind can share a shadow map for several frames. */
+function IslandShadows({
+  active,
+  night,
+  celebrating,
+}: {
+  active?: SceneId
+  night: boolean
+  celebrating?: SceneId
+}) {
+  const gl = useThree((state) => state.gl)
+  const clock = useDioramaMotion()
+  const elapsed = useRef(0)
+  const settling = useRef(0)
+  useEffect(() => {
+    const previous = gl.shadowMap.autoUpdate
+    gl.shadowMap.autoUpdate = false
+    gl.shadowMap.needsUpdate = true
+    return () => {
+      gl.shadowMap.autoUpdate = previous
+    }
+  }, [gl])
+  useEffect(() => {
+    gl.shadowMap.needsUpdate = true
+    settling.current = 0.6
+  }, [gl, active, night, celebrating])
+  useFrame((_, delta) => {
+    if (!clock.running) return
+    elapsed.current += delta
+    settling.current = Math.max(0, settling.current - delta)
+    if (elapsed.current >= (settling.current > 0 ? 0.06 : 0.2)) {
+      gl.shadowMap.needsUpdate = true
+      elapsed.current = 0
+    }
+  })
+  return null
+}
+
+function StationContactShadows({ stations }: { stations: Station[] }) {
+  const resources = useMemo(() => {
+    const canvas = document.createElement('canvas')
+    canvas.width = canvas.height = 64
+    const context = canvas.getContext('2d')!
+    const gradient = context.createRadialGradient(32, 32, 2, 32, 32, 32)
+    gradient.addColorStop(0, 'rgba(23, 43, 35, .65)')
+    gradient.addColorStop(0.45, 'rgba(23, 43, 35, .26)')
+    gradient.addColorStop(1, 'rgba(23, 43, 35, 0)')
+    context.fillStyle = gradient
+    context.fillRect(0, 0, 64, 64)
+    const texture = new CanvasTexture(canvas)
+    const geometry = new PlaneGeometry(1, 1)
+    const material = new MeshBasicMaterial({
+      map: texture,
+      transparent: true,
+      opacity: 0.28,
+      depthWrite: false,
+      toneMapped: false,
+    })
+    return { texture, geometry, material }
+  }, [])
+  useEffect(
+    () => () => {
+      resources.texture.dispose()
+      resources.geometry.dispose()
+      resources.material.dispose()
+    },
+    [resources],
+  )
   return (
-    <group position={[x, GROUND_SURFACE_Y, z]} scale={scale}>
+    <group dispose={null}>
+      {stations.map((station) => (
+        <mesh
+          key={station.id}
+          geometry={resources.geometry}
+          material={resources.material}
+          position={[station.position[0], 0.018, station.position[2]]}
+          rotation={[-Math.PI / 2, 0, 0]}
+          scale={[station.hitbox[0] * 1.2, station.hitbox[2] * 1.2, 1]}
+        />
+      ))}
+    </group>
+  )
+}
+
+function Tree({ x, z, scale, height }: { x: number; z: number; scale: number; height: number }) {
+  const ref = useRef<Group>(null)
+  const clock = useDioramaMotion()
+  useFrame(() => {
+    if (!clock.running || !ref.current) return
+    ref.current.rotation.z = Math.sin(clock.time.value * 0.9 + x * 0.2 + z * 0.3) * 0.025
+  })
+  return (
+    <group ref={ref} position={[x, GROUND_SURFACE_Y, z]} scale={scale}>
       <mesh position={[0, height * 0.36, 0]} castShadow>
         <cylinderGeometry args={[0.09, 0.12, height * 0.72, 7]} />
         <meshStandardMaterial color="#795c43" roughness={1} flatShading />
@@ -168,9 +297,10 @@ function Tree({ x, z, scale, height }: { x: number; z: number; scale: number; he
 
 function Cloud({ moving }: { moving: boolean }) {
   const ref = useRef<Group>(null)
-  useFrame((state) => {
+  const clock = useDioramaMotion()
+  useFrame(() => {
     if (!moving || !ref.current) return
-    ref.current.position.x = 4.9 + Math.sin(state.clock.elapsedTime * 0.055 + 2) * 1.25
+    ref.current.position.x = 4.9 + Math.sin(clock.time.value * 0.055 + 2) * 1.25
   })
   return (
     <group ref={ref} position={[4.9, 3.2, -5.1]} scale={0.72}>
@@ -205,7 +335,7 @@ function Ribbon({
   useEffect(() => () => geometry.dispose(), [geometry])
   return (
     <mesh geometry={geometry} receiveShadow>
-      <meshStandardMaterial color={color} roughness={water ? 0.28 : 0.96} metalness={water ? 0.18 : 0} />
+      {water ? <DioramaWater kind="river" /> : <meshStandardMaterial color={color} roughness={0.96} />}
     </mesh>
   )
 }
@@ -297,21 +427,11 @@ function Ground() {
   return (
     <group>
       <IslandTerrain />
-      <mesh position={[-5.35, GROUND_SURFACE_Y + 0.006, -1.75]} rotation={[0, 0.28, 0]} receiveShadow>
-        <cylinderGeometry args={[3.35, 3.35, 0.012, 9]} />
-        <meshStandardMaterial color="#85af65" roughness={1} flatShading />
-      </mesh>
-      <mesh position={[3.75, GROUND_SURFACE_Y + 0.007, -1.2]} rotation={[0, -0.18, 0]} receiveShadow>
-        <cylinderGeometry args={[4, 4, 0.014, 10]} />
-        <meshStandardMaterial color="#80aa62" roughness={1} flatShading />
-      </mesh>
       <Ribbon curve={road} width={0.6} y={0.025} color="#bfad85" />
       <Ribbon curve={road} width={0.45} y={0.03} color="#eee1bb" />
       <RiverCourse points={riverPoints} />
       <Bridge />
-      {TREE_POSITIONS.map(([x, z, scale, height], index) => (
-        <Tree key={index} x={x} z={z} scale={scale} height={height} />
-      ))}
+      <DioramaForest trees={TREE_POSITIONS} />
     </group>
   )
 }
@@ -432,16 +552,56 @@ function CapitolStation({ active }: { active: boolean }) {
   )
 }
 
+const CITY_BUILDINGS: Array<[number, number, number, number, string]> = [
+  [-0.85, 0.55, 0.2, 1.1, '#c66f54'],
+  [-0.25, 0.85, -0.15, 1.7, '#e0c788'],
+  [0.42, 0.65, 0.18, 1.3, '#73958d'],
+  [0.92, 1.05, -0.22, 2.1, '#a75f51'],
+]
+
+function CityWindows() {
+  const ref = useRef<InstancedMesh>(null)
+  const clock = useDioramaMotion()
+  const count = CITY_BUILDINGS.reduce((n, building) => n + Math.floor(building[3] / 0.34) * 3, 0)
+  useLayoutEffect(() => {
+    if (!ref.current) return
+    const transform = new Object3D()
+    let index = 0
+    for (const [x, , z, height] of CITY_BUILDINGS) {
+      for (let row = 0; row < Math.floor(height / 0.34); row++) {
+        for (const offset of [-0.14, 0.14]) {
+          transform.position.set(x + offset, 0.26 + row * 0.32, z + 0.332)
+          transform.scale.set(0.095, 0.13, 0.018)
+          transform.updateMatrix()
+          ref.current.setMatrixAt(index++, transform.matrix)
+        }
+        transform.position.set(x + 0.284, 0.26 + row * 0.32, z + 0.05)
+        transform.scale.set(0.018, 0.13, 0.14)
+        transform.updateMatrix()
+        ref.current.setMatrixAt(index++, transform.matrix)
+      }
+    }
+    ref.current.instanceMatrix.needsUpdate = true
+    ref.current.computeBoundingSphere()
+  }, [])
+  return (
+    <instancedMesh ref={ref} args={[undefined, undefined, count]}>
+      <boxGeometry args={[1, 1, 1]} />
+      <meshStandardMaterial
+        color="#f4dfaa"
+        emissive="#ffce79"
+        emissiveIntensity={clock.night ? 0.9 : 0.12}
+        roughness={0.7}
+      />
+    </instancedMesh>
+  )
+}
+
 function CityStation({ active }: { active: boolean }) {
-  const buildings: Array<[number, number, number, number, string]> = [
-    [-0.85, 0.55, 0.2, 1.1, '#c66f54'],
-    [-0.25, 0.85, -0.15, 1.7, '#e0c788'],
-    [0.42, 0.65, 0.18, 1.3, '#73958d'],
-    [0.92, 1.05, -0.22, 2.1, '#a75f51'],
-  ]
   return (
     <group>
-      {buildings.map(([x, y, z, height, color], index) => (
+      <CityWindows />
+      {CITY_BUILDINGS.map(([x, y, z, height, color], index) => (
         <group key={index} position={[x, 0, z]}>
           <mesh position={[0, y, 0]} castShadow>
             {material(color, active)}
@@ -451,30 +611,6 @@ function CityStation({ active }: { active: boolean }) {
             {material('#4f625b', active)}
             <coneGeometry args={[0.48, 0.32, 4]} />
           </mesh>
-          {Array.from({ length: Math.floor(height / 0.34) }, (_, row) => (
-            <group key={row} position={[0, 0.26 + row * 0.32, 0]}>
-              {[-0.14, 0.14].map((wx) => (
-                <mesh key={wx} position={[wx, 0, 0.332]}>
-                  <boxGeometry args={[0.095, 0.13, 0.018]} />
-                  <meshStandardMaterial
-                    color="#f4dfaa"
-                    emissive="#ffce79"
-                    emissiveIntensity={0.65}
-                    roughness={0.7}
-                  />
-                </mesh>
-              ))}
-              <mesh position={[0.284, 0, 0.05]}>
-                <boxGeometry args={[0.018, 0.13, 0.14]} />
-                <meshStandardMaterial
-                  color="#f4dfaa"
-                  emissive="#ffce79"
-                  emissiveIntensity={0.65}
-                  roughness={0.7}
-                />
-              </mesh>
-            </group>
-          ))}
         </group>
       ))}
     </group>
@@ -534,15 +670,15 @@ function LibraryStation({ active }: { active: boolean }) {
 }
 
 function FlagCloth({ active }: { active: boolean }) {
-  const reducedMotion = useReducedMotion()
+  const clock = useDioramaMotion()
   const geometry = useMemo(() => new PlaneGeometry(1, 0.62, 10, 2), [])
   useEffect(() => () => geometry.dispose(), [geometry])
-  useFrame((state) => {
-    if (reducedMotion) return
+  useFrame(() => {
+    if (!clock.running) return
     const positions = geometry.getAttribute('position')
     for (let i = 0; i < positions.count; i++) {
       const x = positions.getX(i)
-      positions.setZ(i, Math.sin(state.clock.elapsedTime * 2.8 + x * 6) * 0.07 * (x + 0.5))
+      positions.setZ(i, Math.sin(clock.time.value * 2.8 + x * 6) * 0.07 * (x + 0.5))
     }
     positions.needsUpdate = true
     geometry.computeVertexNormals()
@@ -612,7 +748,7 @@ function WaterStation({ active }: { active: boolean }) {
         <cylinderGeometry args={[1.08, 1.16, 0.13, 32]} />
       </mesh>
       <mesh position={[0, WATER_SURFACE_Y - 0.015, 0]} scale={[1.88, 1, 1.18]} receiveShadow>
-        {material('#4da6ae', active, 0.18)}
+        <DioramaWater kind="lake" />
         <cylinderGeometry args={[1.04, 1.08, 0.03, 32]} />
       </mesh>
       <mesh
@@ -1286,15 +1422,16 @@ function InteractiveStation({
 }) {
   const model = useRef<Group>(null)
   const beacon = useRef<Mesh>(null)
+  const clock = useDioramaMotion()
   const canvas = useThree((state) => state.gl.domElement)
-  useFrame((state, delta) => {
+  useFrame((_, delta) => {
     const group = model.current
     if (!group) return
     const target = active ? 1.09 : celebrating ? 1.06 : 1
-    if (reducedMotion) group.scale.setScalar(target)
+    if (reducedMotion || !clock.running) group.scale.setScalar(target)
     else group.scale.setScalar(MathUtils.damp(group.scale.x, target, 8, delta))
-    if (beacon.current && !reducedMotion) {
-      beacon.current.position.y = station.hitbox[1] + 0.2 + Math.sin(state.clock.elapsedTime * 3) * 0.07
+    if (beacon.current && clock.running) {
+      beacon.current.position.y = station.hitbox[1] + 0.2 + Math.sin(clock.time.value * 3) * 0.07
       beacon.current.rotation.y += delta * 0.8
     }
   })
@@ -1402,22 +1539,23 @@ function DioramaScene({
   useEffect(() => onReady(true), [onReady])
   const daily = stations.find((station) => station.id === 'daily')
   return (
-    <>
-      <CameraSetup view={view} />
-      <color attach="background" args={[night ? '#0e243c' : '#a9d3e0']} />
-      <fog attach="fog" args={[night ? '#102c41' : '#a9d3e0', 48, 100]} />
+    <DioramaMotion running={moving} night={night}>
+      <CameraSetup view={view} reducedMotion={reducedMotion} />
+      <IslandShadows active={active} night={night} celebrating={celebrating} />
+      <color attach="background" args={[night ? '#0e243c' : '#a0ced1']} />
+      <fog attach="fog" args={[night ? '#102c41' : '#a0ced1', 28, 80]} />
       <hemisphereLight
-        args={[night ? '#abc7ec' : '#fff8e5', night ? '#294f56' : '#63806d', night ? 1.05 : 1.5]}
+        args={[night ? '#abc7ec' : '#fff4dc', night ? '#294f56' : '#748a6b', night ? 1.05 : 1.45]}
       />
       <directionalLight
         position={[8, 7, -8]}
-        intensity={night ? 1.1 : 0.65}
+        intensity={night ? 1.1 : 0.85}
         color={night ? '#91b9f4' : '#d6eaf4'}
       />
       <directionalLight
         position={[-6, 13, 8]}
-        intensity={night ? 0.85 : 2.6}
-        color={night ? '#a5c6f2' : '#fff0c8'}
+        intensity={night ? 0.85 : 2.5}
+        color={night ? '#a5c6f2' : '#ffe7b4'}
         castShadow
         shadow-mapSize-width={2048}
         shadow-mapSize-height={2048}
@@ -1431,6 +1569,7 @@ function DioramaScene({
         shadow-camera-bottom={-10}
       />
       <Ground />
+      <StationContactShadows stations={stations} />
       <DioramaLandscape night={night} moving={moving} />
       <Cloud moving={moving} />
       {daily ? (
@@ -1460,7 +1599,7 @@ function DioramaScene({
         <planeGeometry args={[26, 19]} />
         <meshBasicMaterial transparent opacity={0} side={DoubleSide} depthWrite={false} />
       </mesh>
-    </>
+    </DioramaMotion>
   )
 }
 
@@ -1487,6 +1626,31 @@ export default function QuizDiorama3D({
   const [sceneReady, setSceneReady] = useState(false)
   const [inView, setInView] = useState(true)
   const [pageVisible, setPageVisible] = useState(!document.hidden)
+  const [paused, setPaused] = useState(() => localStorage.getItem('atlasfunke.diorama.paused') === 'true')
+  const [expanded, setExpanded] = useState(false)
+  const expandButton = useRef<HTMLButtonElement>(null)
+
+  useEffect(() => {
+    const changed = () => setExpanded(document.fullscreenElement === rootRef.current)
+    document.addEventListener('fullscreenchange', changed)
+    return () => document.removeEventListener('fullscreenchange', changed)
+  }, [])
+
+  useEffect(() => {
+    if (!expanded) return
+    const previous = document.body.style.overflow
+    document.body.style.overflow = 'hidden'
+    rootRef.current?.focus({ preventScroll: true })
+    return () => {
+      document.body.style.overflow = previous
+      expandButton.current?.focus({ preventScroll: true })
+    }
+  }, [expanded])
+
+  const closeExpanded = () => {
+    if (document.fullscreenElement === rootRef.current) void document.exitFullscreen().catch(() => {})
+    setExpanded(false)
+  }
 
   const stations = useMemo<Station[]>(() => {
     const quizStations = PLAY_QUIZZES.map((quiz) => {
@@ -1532,7 +1696,7 @@ export default function QuizDiorama3D({
   }, [])
 
   const selected = stations.find((station) => station.id === active)
-  const motionEnabled = !reducedMotion && inView && pageVisible
+  const motionEnabled = !reducedMotion && !paused && (inView || expanded) && pageVisible
 
   return (
     <div
@@ -1544,8 +1708,29 @@ export default function QuizDiorama3D({
       data-time={night ? 'night' : 'day'}
       data-view-angle={view.angle.toFixed(3)}
       data-view-zoom={view.zoom.toFixed(2)}
+      data-expanded={expanded}
+      data-camera="still"
+      tabIndex={-1}
       onKeyDown={(event) => {
-        if (event.key === 'Escape') setActive(undefined)
+        if (event.key === 'Escape') {
+          setActive(undefined)
+          if (expanded) closeExpanded()
+        }
+        if (expanded && event.key === 'Tab') {
+          const controls = rootRef.current?.querySelectorAll<HTMLElement>('button:not(:disabled), a[href]')
+          const first = controls?.[0],
+            last = controls?.[controls.length - 1]
+          if (
+            event.shiftKey &&
+            (document.activeElement === first || document.activeElement === rootRef.current)
+          ) {
+            event.preventDefault()
+            last?.focus()
+          } else if (!event.shiftKey && document.activeElement === last) {
+            event.preventDefault()
+            first?.focus()
+          }
+        }
       }}
       role="application"
       aria-label={t('play.diorama_label')}
@@ -1555,7 +1740,7 @@ export default function QuizDiorama3D({
         <Canvas
           orthographic
           shadows
-          dpr={[1, 1.5]}
+          dpr={[1, 1.4]}
           frameloop={motionEnabled ? 'always' : 'demand'}
           camera={{ position: [12, 13.5, 16], zoom: 1, near: 0.1, far: 80 }}
           gl={{ antialias: true, alpha: false, powerPreference: 'high-performance' }}
@@ -1646,6 +1831,41 @@ export default function QuizDiorama3D({
         >
           {night ? <Sun aria-hidden /> : <Moon aria-hidden />}
           <span>{night ? 'Tag' : 'Nacht'}</span>
+        </button>
+        <button
+          type="button"
+          aria-label={paused ? 'Animationen fortsetzen' : 'Animationen pausieren'}
+          aria-pressed={paused}
+          disabled={reducedMotion}
+          title={
+            reducedMotion
+              ? 'Reduzierte Bewegung ist aktiviert'
+              : paused
+                ? 'Animationen fortsetzen'
+                : 'Animationen pausieren'
+          }
+          onClick={() => {
+            setPaused(!paused)
+            localStorage.setItem('atlasfunke.diorama.paused', String(!paused))
+          }}
+        >
+          {paused ? <Play aria-hidden /> : <Pause aria-hidden />}
+        </button>
+        <button
+          ref={expandButton}
+          type="button"
+          aria-label={expanded ? 'Vollbild schließen' : 'Vollbild öffnen'}
+          aria-pressed={expanded}
+          title={expanded ? 'Vollbild schließen' : 'Vollbild öffnen'}
+          onClick={() => {
+            if (expanded) closeExpanded()
+            else {
+              setExpanded(true)
+              void rootRef.current?.requestFullscreen?.().catch(() => {})
+            }
+          }}
+        >
+          {expanded ? <Minimize aria-hidden /> : <Maximize aria-hidden />}
         </button>
       </div>
       <div className={`quiz-diorama-context ${selected ? 'is-active' : ''}`} aria-live="polite">

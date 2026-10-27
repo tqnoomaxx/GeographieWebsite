@@ -187,3 +187,48 @@ test('Kamerazoom bleibt begrenzt und die einfache Auswahl lädt ohne WebGL-Szene
   await expect(page.locator('.topic-link')).toHaveCount(11)
   await expect(page.locator('canvas')).toHaveCount(0)
 })
+
+test('Die große Insel bietet Vollbild und hält ihre Animationen wirklich an', async ({ page, isMobile }) => {
+  const errors: string[] = []
+  page.on('pageerror', (error) => errors.push(error.message))
+  if (isMobile) {
+    // The CSS fallback also covers browsers without the native Fullscreen API.
+    await page.addInitScript(() =>
+      Object.defineProperty(Element.prototype, 'requestFullscreen', { value: undefined }),
+    )
+  }
+  await page.emulateMedia({ reducedMotion: 'no-preference' })
+  await page.goto('play?view=diorama')
+  const world = page.locator('.quiz-diorama-3d')
+  await expect(world).toHaveAttribute('aria-busy', 'false')
+  await expect(world).toHaveAttribute('data-motion', 'running')
+  const initial = (await world.boundingBox())!
+  expect(initial.width).toBeGreaterThan(page.viewportSize()!.width * 0.9)
+  expect(initial.height).toBeGreaterThan(page.viewportSize()!.height * 0.7)
+  await page.getByRole('button', { name: 'Vollbild öffnen', exact: true }).click()
+  await expect(world).toHaveAttribute('data-expanded', 'true')
+  await expect
+    .poll(async () => Math.round((await world.boundingBox())!.height))
+    .toBe(page.viewportSize()!.height)
+  await page.waitForLoadState('networkidle')
+  await page.getByRole('button', { name: 'Animationen pausieren' }).click()
+  await expect(world).toHaveAttribute('data-motion', 'paused')
+  const canvas = world.locator('canvas')
+  const still = await canvas.screenshot()
+  await page.waitForTimeout(180)
+  expect((await canvas.screenshot()).equals(still)).toBe(true)
+  await page.getByRole('button', { name: 'Animationen fortsetzen' }).click()
+  await expect(world).toHaveAttribute('data-motion', 'running')
+  const animated = await canvas.screenshot()
+  await page.waitForTimeout(180)
+  expect((await canvas.screenshot()).equals(animated)).toBe(false)
+  await page.getByRole('button', { name: 'Ansicht nach rechts drehen' }).click()
+  await expect(world).toHaveAttribute('data-camera', 'still')
+  await page.getByRole('button', { name: 'Vollbild schließen', exact: true }).click()
+  await expect(world).toHaveAttribute('data-expanded', 'false')
+  await page.getByRole('button', { name: 'Animationen pausieren' }).click()
+  await page.reload()
+  await expect(world).toHaveAttribute('data-motion', 'paused')
+  await expect(page.getByRole('button', { name: 'Animationen fortsetzen' })).toBeVisible()
+  expect(errors).toEqual([])
+})

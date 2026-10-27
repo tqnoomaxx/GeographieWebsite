@@ -27,13 +27,12 @@ export const ISLAND_OUTLINE: Array<[number, number]> = [
 
 // Include the island edges, mountain upgrades and the full drift of the cloud and balloon.
 export const DIORAMA_FRAME_POINTS = [
-  ...[-9.5, 9.5].flatMap((x) => [-5.7, 5.7].flatMap((z) => [0, -3].map((y) => new Vector3(x, y, z)))),
-  new Vector3(-7.9, 4.4, -4.9),
-  new Vector3(-3.8, 4.4, -4.9),
+  ...ISLAND_OUTLINE.flatMap(([x, z]) => [0, -3.2].map((y) => new Vector3(x * 1.035, y, z * 1.035))),
   new Vector3(7.1, 3.8, -5.55),
   new Vector3(2.7, 4, -3.95),
   new Vector3(6.8, 3.7, -3.5),
-  new Vector3(-6.8, 5.2, -4),
+  new Vector3(-7.1, 4.25, 1.4),
+  new Vector3(-5.9, 4.25, 1.4),
 ]
 
 export function fitDioramaCamera(
@@ -43,7 +42,7 @@ export function fitDioramaCamera(
   view: DioramaView = DEFAULT_DIORAMA_VIEW,
 ) {
   const compact = width < 750
-  const padding = { top: compact ? 174 : 40, bottom: compact ? 126 : 80, side: compact ? 18 : 40 }
+  const padding = { top: compact ? 140 : 54, bottom: compact ? 126 : 90, side: compact ? 10 : 24 }
   camera.position.set(12, 13.5, 16)
   camera.position.applyAxisAngle(new Vector3(0, 1, 0), view.angle)
   camera.lookAt(0, 0, 0)
@@ -75,8 +74,8 @@ function MathUtilsClamp(value: number, min: number, max: number) {
 export function createIslandGeometry(kind: 'grass' | 'cliff') {
   const positions: number[] = []
   const colors: number[] = []
-  const grass = ['#82af65', '#85b168', '#80ad63']
-  const rock = ['#7d7b6c', '#85816e', '#75776a']
+  const grass = ['#8cb568', '#93ba6e', '#89af64']
+  const rock = ['#7c7c6c', '#918875', '#717b70', '#85816f']
   let face = 0
   const triangle = (a: number[], b: number[], c: number[], palette: string[]) => {
     const color = new Color(palette[(face++ * 7 + Math.floor(face / 3)) % palette.length])
@@ -105,20 +104,45 @@ export function createIslandGeometry(kind: 'grass' | 'cliff') {
   } else {
     const ring = (i: number, level: number) => {
       const [x, z] = ISLAND_OUTLINE[i % ISLAND_OUTLINE.length]
-      const scale = [1, 1.015, 0.9, 0.66][level]
-      return [x * scale, [0, -0.65, -1.75 - (i % 3) * 0.16, -2.7 + (i % 4) * 0.18][level], z * scale]
+      const scale = [1, 1 + ((i % 3) - 1) * 0.035, 0.97 + ((i % 3) - 1) * 0.018][level]
+      return [x * scale, [0, -1.5 - (i % 3) * 0.12, -3.02][level], z * scale]
     }
-    for (let level = 0; level < 3; level++) {
+    for (let level = 0; level < 2; level++) {
       ISLAND_OUTLINE.forEach((_, i) => {
-        triangle(ring(i, level), ring(i + 1, level), ring(i, level + 1), rock)
-        triangle(ring(i + 1, level), ring(i + 1, level + 1), ring(i, level + 1), rock)
+        const faceColor = [rock[i % rock.length]]
+        triangle(ring(i, level), ring(i + 1, level), ring(i, level + 1), faceColor)
+        triangle(ring(i + 1, level), ring(i + 1, level + 1), ring(i, level + 1), faceColor)
       })
     }
-    ISLAND_OUTLINE.forEach((_, i) => triangle(ring(i, 3), ring(i + 1, 3), [0, -3, 0], rock))
+    ISLAND_OUTLINE.forEach((_, i) => triangle(ring(i, 2), ring(i + 1, 2), [0, -3.02, 0], rock))
   }
   const geometry = new BufferGeometry()
   geometry.setAttribute('position', new Float32BufferAttribute(positions, 3))
   geometry.setAttribute('color', new Float32BufferAttribute(colors, 3))
+  geometry.computeVertexNormals()
+  geometry.computeBoundingBox()
+  return geometry
+}
+
+/** A continuous shore follows the same silhouette as the cliff, including seam-safe UVs. */
+export function createCoastBand(inner: number, outer: number, y: number) {
+  const positions: number[] = [],
+    uvs: number[] = [],
+    indices: number[] = []
+  const count = ISLAND_OUTLINE.length
+  for (let i = 0; i <= count; i++) {
+    const [x, z] = ISLAND_OUTLINE[i % count]
+    positions.push(x * inner, y, z * inner, x * outer, y, z * outer)
+    uvs.push(i / count, 0, i / count, 1)
+    if (i < count) {
+      const a = i * 2
+      indices.push(a, a + 2, a + 1, a + 1, a + 2, a + 3)
+    }
+  }
+  const geometry = new BufferGeometry()
+  geometry.setAttribute('position', new Float32BufferAttribute(positions, 3))
+  geometry.setAttribute('uv', new Float32BufferAttribute(uvs, 2))
+  geometry.setIndex(indices)
   geometry.computeVertexNormals()
   geometry.computeBoundingBox()
   return geometry

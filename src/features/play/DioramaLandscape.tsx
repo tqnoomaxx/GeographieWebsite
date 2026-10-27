@@ -9,17 +9,21 @@ import {
   InstancedMesh,
   Object3D,
 } from 'three'
-import { createIslandGeometry, ISLAND_OUTLINE } from './dioramaGeometry'
+import { createCoastBand, createIslandGeometry, ISLAND_OUTLINE } from './dioramaGeometry'
+import { useDioramaMotion } from './DioramaMotion'
+import { DioramaWater } from './DioramaWater'
 
 export function IslandTerrain() {
   const grass = useMemo(() => createIslandGeometry('grass'), [])
   const cliff = useMemo(() => createIslandGeometry('cliff'), [])
+  const sand = useMemo(() => createCoastBand(0.955, 1.035, -3.025), [])
   useEffect(
     () => () => {
       grass.dispose()
       cliff.dispose()
+      sand.dispose()
     },
-    [grass, cliff],
+    [grass, cliff, sand],
   )
   return (
     <group>
@@ -29,16 +33,78 @@ export function IslandTerrain() {
       <mesh geometry={grass} receiveShadow>
         <meshStandardMaterial vertexColors roughness={1} flatShading />
       </mesh>
+      <mesh geometry={sand} receiveShadow>
+        <meshStandardMaterial color="#e4d3a5" roughness={1} />
+      </mesh>
     </group>
   )
 }
 
-function Ocean({ night }: { night: boolean }) {
+function Ocean() {
   return (
-    <mesh position={[0, -3.45, 0]} rotation={[-Math.PI / 2, 0, 0]} receiveShadow>
+    <mesh position={[0, -3.18, 0]} rotation={[-Math.PI / 2, 0, 0]} receiveShadow>
       <planeGeometry args={[120, 120]} />
-      <meshStandardMaterial color={night ? '#164459' : '#419bad'} roughness={0.6} metalness={0.06} />
+      <DioramaWater kind="ocean" />
     </mesh>
+  )
+}
+
+function Surf() {
+  const clock = useDioramaMotion()
+  const geometry = useMemo(() => createCoastBand(1.025, 1.13, -3.135), [])
+  const uniforms = useMemo(() => ({ uTime: clock.time }), [clock])
+  useEffect(() => () => geometry.dispose(), [geometry])
+  return (
+    <mesh geometry={geometry}>
+      <shaderMaterial
+        uniforms={uniforms}
+        transparent
+        depthWrite={false}
+        vertexShader={`varying vec2 vUv; void main() { vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }`}
+        fragmentShader={`
+        uniform float uTime; varying vec2 vUv;
+        void main() {
+          float wave = sin(vUv.x * 80.0 - uTime * 0.6) * 0.16 + sin(vUv.x * 150.0 + uTime * 0.3) * 0.06;
+          float line = 1.0 - smoothstep(0.05, 0.2, abs(vUv.y - 0.32 - wave - sin(uTime * 0.5) * 0.06));
+          float wash = (1.0 - vUv.y) * 0.15;
+          float foam = 0.65 + 0.35 * sin(vUv.x * 180.0 + sin(vUv.x * 70.0));
+          gl_FragColor = vec4(0.76, 0.94, 0.9, line * 0.4 * foam + wash);
+          #include <tonemapping_fragment>
+          #include <colorspace_fragment>
+        }
+      `}
+      />
+    </mesh>
+  )
+}
+
+function DistantIslets({ night }: { night: boolean }) {
+  return (
+    <group>
+      {[
+        [-13, -5, 0.7],
+        [0, -14, 0.9],
+      ].map(([x, z, scale], index) => (
+        <group key={index} position={[x, -3.15, z]} scale={scale}>
+          <mesh position={[0.2, 0, 0.15]} rotation={[-Math.PI / 2, 0, 0]} scale={[1.55, 1.1, 1]}>
+            <circleGeometry args={[1, 10]} />
+            <meshStandardMaterial color={night ? '#576d70' : '#bdc8ac'} roughness={1} />
+          </mesh>
+          <mesh position={[0.2, -0.005, 0.15]} rotation={[-Math.PI / 2, 0, 0]} scale={[1.55, 1.1, 1]}>
+            <ringGeometry args={[1.02, 1.09, 20]} />
+            <meshBasicMaterial color="#a9dfdc" transparent opacity={0.35} depthWrite={false} />
+          </mesh>
+          <mesh position={[0, 0.55, 0]} rotation={[0, index + 0.3, 0]} castShadow>
+            <coneGeometry args={[1.4, 1.5, 5]} />
+            <meshStandardMaterial color={night ? '#2e5260' : '#81aaa4'} flatShading roughness={1} />
+          </mesh>
+          <mesh position={[0.8, 0.1, 0.4]} scale={[1.2, 0.6, 0.9]}>
+            <dodecahedronGeometry args={[0.9, 0]} />
+            <meshStandardMaterial color={night ? '#31505b' : '#a1b5a0'} flatShading roughness={1} />
+          </mesh>
+        </group>
+      ))}
+    </group>
   )
 }
 
@@ -120,13 +186,16 @@ function Lanterns({ night }: { night: boolean }) {
 
 function Balloon({ moving }: { moving: boolean }) {
   const ref = useRef<Group>(null)
-  useFrame((state) => {
+  const clock = useDioramaMotion()
+  useFrame(() => {
     if (!moving || !ref.current) return
-    ref.current.position.y = 4.45 + Math.sin(state.clock.elapsedTime * 0.45) * 0.16
-    ref.current.rotation.y = Math.sin(state.clock.elapsedTime * 0.15) * 0.2
+    const time = clock.time.value
+    ref.current.position.y = 3.4 + Math.sin(time * 0.45) * 0.16
+    ref.current.rotation.y = Math.sin(time * 0.15) * 0.2
+    ref.current.rotation.z = Math.sin(time * 0.4) * 0.035
   })
   return (
-    <group ref={ref} position={[-6.8, 4.45, -4]}>
+    <group ref={ref} position={[-6.5, 3.4, 1.4]}>
       <group scale={[0.75, 1, 0.75]}>
         {Array.from({ length: 8 }, (_, i) => (
           <mesh key={i} castShadow>
@@ -151,7 +220,16 @@ function Balloon({ moving }: { moving: boolean }) {
   )
 }
 
-function Waterfall({ night }: { night: boolean }) {
+function Waterfall() {
+  const clock = useDioramaMotion()
+  const foam = useRef<Group>(null)
+  useFrame(() => {
+    if (!clock.running || !foam.current) return
+    foam.current.children.forEach((ring, i) => {
+      const phase = (clock.time.value * 0.4 + i / 3) % 1
+      ring.scale.setScalar(0.65 + phase * 1.1)
+    })
+  })
   const geometry = useMemo(() => {
     const vertices: number[] = [],
       indices: number[] = []
@@ -175,23 +253,31 @@ function Waterfall({ night }: { night: boolean }) {
     <group>
       <mesh position={[0.15, 0.13, 5.02]} receiveShadow>
         <boxGeometry args={[0.68, 0.045, 1.02]} />
-        <meshStandardMaterial color="#58c2cd" roughness={0.25} metalness={0.1} />
+        <DioramaWater kind="river" />
       </mesh>
       <mesh geometry={geometry}>
-        <meshStandardMaterial
-          color={night ? '#63b9d0' : '#7cdae0'}
-          transparent
-          opacity={0.82}
-          side={DoubleSide}
-          roughness={0.3}
-          emissive="#267c9d"
-          emissiveIntensity={night ? 0.25 : 0.06}
-        />
+        <DioramaWater kind="fall" />
       </mesh>
-      <mesh position={[0.15, -3.36, 5.8]} rotation={[-Math.PI / 2, 0, 0]} scale={[1, 0.65, 1]}>
-        <circleGeometry args={[0.5, 12]} />
-        <meshBasicMaterial color="#dbf1e7" transparent opacity={0.5} depthWrite={false} />
-      </mesh>
+      <group position={[0.15, -3.12, 5.8]} rotation={[-Math.PI / 2, 0, 0]} scale={[1, 0.65, 1]}>
+        <mesh>
+          <circleGeometry args={[0.44, 16]} />
+          <meshBasicMaterial color="#d3f3e9" transparent opacity={0.55} depthWrite={false} />
+        </mesh>
+        <group ref={foam}>
+          {[0, 1, 2].map((i) => (
+            <mesh key={i} scale={0.65 + i * 0.35}>
+              <ringGeometry args={[0.42, 0.46, 24]} />
+              <meshBasicMaterial
+                color="#dbf1e7"
+                transparent
+                opacity={0.32 - i * 0.05}
+                depthWrite={false}
+                side={DoubleSide}
+              />
+            </mesh>
+          ))}
+        </group>
+      </group>
     </group>
   )
 }
@@ -199,11 +285,13 @@ function Waterfall({ night }: { night: boolean }) {
 export function DioramaLandscape({ night, moving }: { night: boolean; moving: boolean }) {
   return (
     <group>
-      <Ocean night={night} />
+      <Ocean />
+      <Surf />
+      <DistantIslets night={night} />
       <CoastRocks />
       <Lanterns night={night} />
       <Balloon moving={moving} />
-      <Waterfall night={night} />
+      <Waterfall />
     </group>
   )
 }
