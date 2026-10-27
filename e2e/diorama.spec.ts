@@ -69,7 +69,7 @@ test('Die Auswahl bleibt bis zur Konfiguration erreichbar und lässt sich schlie
   await countries.focus()
   await page.locator('.quiz-diorama-context a').click()
   await expect(page).toHaveURL(/\/play\/countries$/)
-  await expect(page.getByRole('button', { name: 'Quiz starten' })).toBeEnabled()
+  await expect(page.locator('[data-exercise="country-map"]')).toBeVisible()
 })
 
 test('Direkter 3D-Klick und zweites Antippen öffnen das passende Quiz', async ({ page, isMobile }) => {
@@ -164,7 +164,7 @@ test('Tag und Nacht sowie Drehen, Zoomen und Zurücksetzen bleiben bedienbar', a
   await expect(page.locator('.quiz-diorama-context')).toContainText('Städte')
   await page.locator('.quiz-diorama-context a').click()
   await expect(page).toHaveURL(/\/play\/cities$/)
-  await expect(page.getByRole('button', { name: 'Quiz starten' })).toBeVisible()
+  await expect(page.locator('[data-exercise="large-cities"]')).toBeVisible()
   expect(errors).toEqual([])
 })
 
@@ -184,7 +184,7 @@ test('Kamerazoom bleibt begrenzt und die einfache Auswahl lädt ohne WebGL-Szene
   await expect(page.getByRole('button', { name: 'Verkleinern', exact: true })).toBeDisabled()
   await expect(world).toHaveAttribute('data-view-zoom', '0.75')
   await page.goto('play')
-  await expect(page.locator('.topic-link')).toHaveCount(11)
+  await expect(page.locator('.topic-link')).toHaveCount(12)
   await expect(page.locator('canvas')).toHaveCount(0)
 })
 

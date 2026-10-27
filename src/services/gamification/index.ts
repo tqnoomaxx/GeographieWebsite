@@ -23,7 +23,11 @@ export interface RoundOutcome {
 }
 
 /** Wertet eine abgeschlossene Runde aus: XP, SRS-Fortschritt, Statistik, Streak, Achievements, Quests. */
-export async function applySession(repo: ProgressRepository, session: QuizSession, byId: Map<string, Entity>): Promise<RoundOutcome> {
+export async function applySession(
+  repo: ProgressRepository,
+  session: QuizSession,
+  byId: Map<string, Entity>,
+): Promise<RoundOutcome> {
   const stats = await repo.getStats()
   const before = levelForXp(stats.xp).level
   let xp = 0
@@ -49,11 +53,13 @@ export async function applySession(repo: ProgressRepository, session: QuizSessio
     const cur = touched.get(primary) ?? progressMap.get(primary) ?? initialProgress(primary)
     if (cur.correct + cur.wrong === 0) xp += XP.new_entity_seen
     touched.set(primary, review(cur, ok))
-    const category = statsCategory(q.question.category)
+    const category = session.setup?.exercise ? q.question.category : statsCategory(q.question.category)
     const cat = (stats.byCategory[category] ??= { answered: 0, correct: 0 })
     cat.answered++
     if (ok) cat.correct++
-    const continent = byId.get(primary)?.attributes.continent ?? byId.get(byId.get(primary)?.attributes.country ?? '')?.attributes.continent
+    const continent =
+      byId.get(primary)?.attributes.continent ??
+      byId.get(byId.get(primary)?.attributes.country ?? '')?.attributes.continent
     if (continent && !stats.continentsPlayed.includes(continent)) stats.continentsPlayed.push(continent)
   }
   if (isSessionComplete(session)) {
@@ -77,7 +83,15 @@ export async function applySession(repo: ProgressRepository, session: QuizSessio
   stats.xp += completedQuests.reduce((s, q) => s + q.reward_xp, 0)
   await repo.saveStats(stats)
   const after = levelForXp(stats.xp).level
-  return { xp, correct, total: baseAnswered.length, newAchievements, completedQuests, levelUp: after > before ? after : undefined, wrongEntities }
+  return {
+    xp,
+    correct,
+    total: baseAnswered.length,
+    newAchievements,
+    completedQuests,
+    levelUp: after > before ? after : undefined,
+    wrongEntities,
+  }
 }
 
 export function touchStreak(stats: UserStats, today = todayKey()) {
@@ -89,7 +103,11 @@ export function touchStreak(stats: UserStats, today = todayKey()) {
   stats.streak.lastActive = today
 }
 
-export async function evaluateAchievements(repo: ProgressRepository, stats: UserStats, mastered: number): Promise<AchievementDef[]> {
+export async function evaluateAchievements(
+  repo: ProgressRepository,
+  stats: UserStats,
+  mastered: number,
+): Promise<AchievementDef[]> {
   const unlocked = new Set((await repo.getAchievements()).map((a) => a.id))
   const fresh: AchievementDef[] = []
   for (const a of ACHIEVEMENTS) {
@@ -124,14 +142,20 @@ export function metric(a: AchievementDef, stats: UserStats, mastered: number): n
   }
 }
 
-async function advanceQuests(repo: ProgressRepository, stats: UserStats, session: QuizSession, answeredCount: number): Promise<QuestDef[]> {
+async function advanceQuests(
+  repo: ProgressRepository,
+  stats: UserStats,
+  session: QuizSession,
+  answeredCount: number,
+): Promise<QuestDef[]> {
   const state = new Map((await repo.getQuests()).map((q) => [q.id, q]))
   const done: QuestDef[] = []
   for (const def of QUESTS) {
     const cur = state.get(def.id) ?? { id: def.id, progress: 0, startedAt: new Date().toISOString() }
     if (cur.completedAt) continue
     let inc = 0
-    if (def.type === 'answer_questions' && (!def.category || def.category === session.category)) inc = session.questions.filter((q) => !q.repeated && q.correct).length
+    if (def.type === 'answer_questions' && (!def.category || def.category === session.category))
+      inc = session.questions.filter((q) => !q.repeated && q.correct).length
     if (def.type === 'complete_sessions' && isSessionComplete(session)) inc = 1
     if (def.type === 'learn_entities' && def.scope) {
       // Fortschritt = Anzahl gelernter (familiar/mastered) Entities im Bereich; wird in recomputeLongQuests gesetzt
@@ -151,7 +175,10 @@ async function advanceQuests(repo: ProgressRepository, stats: UserStats, session
 }
 
 /** Langzeitquests aus dem Lernstand ableiten (Anzahl familiar/mastered Länder im Bereich). */
-export async function recomputeLongQuests(repo: ProgressRepository, byId: Map<string, Entity>): Promise<QuestDef[]> {
+export async function recomputeLongQuests(
+  repo: ProgressRepository,
+  byId: Map<string, Entity>,
+): Promise<QuestDef[]> {
   const progress = await repo.getAllEntityProgress()
   const state = new Map((await repo.getQuests()).map((q) => [q.id, q]))
   const done: QuestDef[] = []
@@ -166,7 +193,8 @@ export async function recomputeLongQuests(repo: ProgressRepository, byId: Map<st
       const scope = def.scope!
       const matches =
         scope === 'americas'
-          ? e.type === 'country' && (e.attributes.continent === 'north-america' || e.attributes.continent === 'south-america')
+          ? e.type === 'country' &&
+            (e.attributes.continent === 'north-america' || e.attributes.continent === 'south-america')
           : scope.startsWith('country:')
             ? e.attributes.country === scope
             : e.type === 'country' && e.attributes.continent === scope
@@ -187,7 +215,11 @@ export async function recomputeLongQuests(repo: ProgressRepository, byId: Map<st
   return done
 }
 
-export async function applyPuzzleSolved(repo: ProgressRepository, attempts: number, solved: boolean): Promise<{ xp: number; newAchievements: AchievementDef[] }> {
+export async function applyPuzzleSolved(
+  repo: ProgressRepository,
+  attempts: number,
+  solved: boolean,
+): Promise<{ xp: number; newAchievements: AchievementDef[] }> {
   const stats = await repo.getStats()
   let xp = 0
   if (solved) {
@@ -196,7 +228,9 @@ export async function applyPuzzleSolved(repo: ProgressRepository, attempts: numb
   }
   stats.xp += xp
   touchStreak(stats)
-  const mastered = [...(await repo.getAllEntityProgress()).values()].filter((p) => p.state === 'mastered').length
+  const mastered = [...(await repo.getAllEntityProgress()).values()].filter(
+    (p) => p.state === 'mastered',
+  ).length
   const newAchievements = await evaluateAchievements(repo, stats, mastered)
   stats.xp += newAchievements.length * XP.achievement
   await repo.saveStats(stats)

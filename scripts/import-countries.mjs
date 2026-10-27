@@ -114,7 +114,14 @@ for (const c of raw) {
       subregion: c.subregion || undefined,
       capital_names: c.capital?.length ? c.capital : undefined,
       area_km2: c.area > 0 ? c.area : undefined,
-      currencies: Object.entries(c.currencies ?? {}).map(([code, v]) => ({
+      // FSM Government: https://gov.fm/cofa/ — USD is legal tender, even if upstream omits it.
+      currencies: Object.entries(
+        Object.keys(c.currencies ?? {}).length
+          ? c.currencies
+          : iso2 === 'FM'
+            ? { USD: { name: 'US-Dollar', symbol: '$' } }
+            : {},
+      ).map(([code, v]) => ({
         code,
         name: v.name,
         symbol: v.symbol,

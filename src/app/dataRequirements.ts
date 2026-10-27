@@ -1,3 +1,4 @@
+import { exerciseFor, exercisesFor } from '@/config/quizCatalog'
 import type { DataResource } from './DataProvider'
 import { isCategory, quizFor } from '@/config/quizzes'
 import type { CategoryId } from '@/engine/types'
@@ -32,8 +33,10 @@ const quizResources: Record<CategoryId, DataResource[]> = {
 }
 export function resourcesForQuiz(
   category: CategoryId,
-  setup?: Pick<RoundConfig, 'mode' | 'content'>,
+  setup?: Pick<RoundConfig, 'mode' | 'content' | 'exercise'>,
 ): DataResource[] {
+  const exercise = exerciseFor(setup?.exercise)
+  if (exercise?.topic === category) return ['index', 'countries', ...exercise.resources]
   let extra = quizResources[category]
   if (setup && ['flags', 'countries', 'maps'].includes(category)) {
     const mode = quizFor(category).modes.find((mode) => mode.id === setup.mode)
@@ -46,12 +49,18 @@ export function resourcesForQuiz(
 }
 export function resourcesForPage(pathname: string, params: URLSearchParams): DataResource[] {
   const [, page, id, action] = pathname.split('/')
-  if (page === 'play' && isCategory(id))
+  if (page === 'play' && isCategory(id)) {
+    if (action !== 'round') {
+      const exercise = exerciseFor(params.get('quiz') ?? undefined)
+      const items = exercise?.topic === id ? [exercise] : exercisesFor(id)
+      return [...new Set<DataResource>(['index', 'countries', ...items.flatMap((q) => q.resources)])]
+    }
     return resourcesForQuiz(
       id,
       action === 'round'
         ? {
             mode: params.get('mode') ?? 'auto',
+            exercise: params.get('quiz') ?? undefined,
             content: params
               .get('content')
               ?.split(',')
@@ -59,6 +68,7 @@ export function resourcesForPage(pathname: string, params: URLSearchParams): Dat
           }
         : undefined,
     )
+  }
   const core: DataResource[] = ['index', 'countries']
   if (page === 'learn')
     return [

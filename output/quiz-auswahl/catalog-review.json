@@ -1,0 +1,1449 @@
+{
+  "current": [
+    {
+      "id": "flags",
+      "icon": "🏳️",
+      "primary": true,
+      "countKey": "flags",
+      "needs": [
+        "regions"
+      ],
+      "perCountry": true,
+      "content": true,
+      "modes": [
+        {
+          "id": "flag_to_name",
+          "form": "choice",
+          "generators": [
+            "flag_to_country",
+            "flag_to_region"
+          ],
+          "title": "Flagge → Name",
+          "description": "Du siehst die Flagge und wählst ihren Namen.",
+          "note": ""
+        },
+        {
+          "id": "name_to_flag",
+          "form": "choice",
+          "generators": [
+            "country_to_flag",
+            "region_to_flag"
+          ],
+          "title": "Name → Flagge",
+          "description": "Du siehst den Namen und wählst das Motiv.",
+          "note": ""
+        },
+        {
+          "id": "region_flag_to_country",
+          "form": "choice",
+          "generators": [
+            "region_flag_to_country"
+          ],
+          "content": [
+            "region"
+          ],
+          "allowCountryScope": false,
+          "title": "Regionalflagge → Land",
+          "description": "Zu welchem Land gehört diese Regionalflagge?",
+          "note": ""
+        },
+        {
+          "id": "flag_input",
+          "form": "input",
+          "generators": [
+            "flag_to_country_input",
+            "region_flag_input"
+          ],
+          "title": "Eintippen",
+          "description": "Du erkennst die Flagge ohne Antwortvorgaben.",
+          "note": ""
+        },
+        {
+          "id": "flag_to_map",
+          "form": "map",
+          "generators": [
+            "flag_to_country_map",
+            "flag_to_region_map"
+          ],
+          "title": "Flagge → Karte",
+          "description": "Du suchst Land oder Region auf der Karte.",
+          "note": ""
+        },
+        {
+          "id": "europe_map",
+          "form": "map",
+          "generators": [
+            "flag_to_europe_map"
+          ],
+          "length": "all",
+          "scopes": [
+            "world",
+            "europe"
+          ],
+          "content": [
+            "region"
+          ],
+          "title": "Europa-Karte",
+          "description": "Flagge sehen, Gebiet auf der Europakarte antippen.",
+          "note": "Nur europäische Regionen; Inhalt Regionen und Länge Alle sind festgelegt."
+        }
+      ],
+      "title": "Flaggen",
+      "note": "Länderflaggen, Regionalflaggen und das Land einer Regionalflagge teilen sich einen Einstellungsbildschirm.",
+      "autoTitle": "Automatisch",
+      "autoNote": ""
+    },
+    {
+      "id": "countries",
+      "icon": "🌍",
+      "primary": true,
+      "countKey": "country",
+      "needs": [
+        "regions"
+      ],
+      "perCountry": true,
+      "mergedFrom": [
+        "regions",
+        "maps"
+      ],
+      "modes": [
+        {
+          "id": "attributes",
+          "form": "choice",
+          "generators": [
+            "country_attribute"
+          ],
+          "title": "Länderwissen",
+          "description": "Währung und Kontinent sicher zuordnen.",
+          "note": ""
+        },
+        {
+          "id": "neighbors",
+          "form": "choice",
+          "generators": [
+            "neighbor_of_country"
+          ],
+          "title": "Nachbarländer",
+          "description": "Welches Land grenzt an …?",
+          "note": ""
+        },
+        {
+          "id": "true_false",
+          "form": "choice",
+          "generators": [
+            "country_true_false"
+          ],
+          "title": "Wahr / Falsch",
+          "description": "Aussagen zu Einwohnerzahl und Binnenlage prüfen.",
+          "note": ""
+        },
+        {
+          "id": "country_codes",
+          "form": "choice",
+          "generators": [
+            "country_code"
+          ],
+          "title": "Ländercodes",
+          "description": "ISO-Kürzel und internationale Vorwahlen.",
+          "note": ""
+        },
+        {
+          "id": "country_compare",
+          "form": "choice",
+          "generators": [
+            "country_comparison"
+          ],
+          "title": "Ländervergleich",
+          "description": "Fläche und Einwohnerzahl vergleichen.",
+          "note": ""
+        },
+        {
+          "id": "national_symbols",
+          "form": "choice",
+          "generators": [
+            "national_animal",
+            "national_flower",
+            "national_bird",
+            "national_tree"
+          ],
+          "title": "Nationale Symbole",
+          "description": "Nationaltiere, Nationalvögel, Nationalblumen und Nationalbäume zuordnen.",
+          "note": ""
+        },
+        {
+          "id": "region_to_country",
+          "form": "choice",
+          "generators": [
+            "region_to_country"
+          ],
+          "content": [
+            "region"
+          ],
+          "allowCountryScope": false,
+          "title": "Region → Land",
+          "description": "Zu welchem Land gehört die Region?",
+          "note": "Regionalaufgabe innerhalb des Länderquiz."
+        },
+        {
+          "id": "region_capital",
+          "form": "choice",
+          "generators": [
+            "region_capital"
+          ],
+          "content": [
+            "region"
+          ],
+          "title": "Regionshauptstadt",
+          "description": "Zur Region die Hauptstadt finden.",
+          "note": "Regionalhauptstädte innerhalb des Länderquiz."
+        },
+        {
+          "id": "countries_on_map",
+          "form": "map",
+          "generators": [
+            "country_on_map"
+          ],
+          "content": [
+            "country"
+          ],
+          "allowCountryScope": false,
+          "title": "Länder auf der Karte",
+          "description": "Land auf der Weltkarte antippen.",
+          "note": ""
+        },
+        {
+          "id": "regions_on_map",
+          "form": "map",
+          "generators": [
+            "region_on_map"
+          ],
+          "content": [
+            "region"
+          ],
+          "title": "Regionen auf der Karte",
+          "description": "Region auf der Landeskarte antippen.",
+          "note": ""
+        }
+      ],
+      "title": "Länder",
+      "note": "„Automatisch“ mischt auch Regionen und Regionalhauptstädte in das Länderquiz.",
+      "autoTitle": "Automatisch",
+      "autoNote": ""
+    },
+    {
+      "id": "capitals",
+      "icon": "🏛️",
+      "primary": true,
+      "countKey": "capitals",
+      "modes": [
+        {
+          "id": "country_to_capital",
+          "form": "choice",
+          "generators": [
+            "country_to_capital"
+          ],
+          "title": "Land → Hauptstadt",
+          "description": "Zum Land die richtige Hauptstadt finden.",
+          "note": ""
+        },
+        {
+          "id": "capital_to_country",
+          "form": "choice",
+          "generators": [
+            "capital_to_country"
+          ],
+          "title": "Hauptstadt → Land",
+          "description": "Die Hauptstadt ihrem Land zuordnen.",
+          "note": ""
+        },
+        {
+          "id": "capital_to_flag",
+          "form": "choice",
+          "generators": [
+            "capital_to_flag"
+          ],
+          "title": "Hauptstadt → Flagge",
+          "description": "Von der Hauptstadt zur passenden Landesflagge.",
+          "note": ""
+        },
+        {
+          "id": "capital_input",
+          "form": "input",
+          "generators": [
+            "capital_input"
+          ],
+          "title": "Eintippen",
+          "description": "Hauptstadt ohne Vorgaben eintippen.",
+          "note": ""
+        }
+      ],
+      "title": "Hauptstädte",
+      "note": "Hauptstadt-Eintippen existiert zusätzlich im Städtequiz.",
+      "autoTitle": "Automatisch",
+      "autoNote": ""
+    },
+    {
+      "id": "languages",
+      "icon": "🔤",
+      "primary": true,
+      "countKey": "script_word",
+      "geographicScope": false,
+      "modes": [
+        {
+          "id": "cyrillic_to_latin",
+          "form": "choice",
+          "generators": [
+            "cyrillic_to_latin"
+          ],
+          "title": "Kyrillisch → Lateinisch",
+          "description": "Russische Wörter und Buchstaben aus Kyrillisch lesen und die lateinische Umschrift wählen.",
+          "note": ""
+        },
+        {
+          "id": "greek_to_latin",
+          "form": "choice",
+          "generators": [
+            "greek_to_latin"
+          ],
+          "title": "Griechisch → Lateinisch",
+          "description": "Griechische Wörter und Buchstaben lesen und die lateinische Umschrift wählen.",
+          "note": ""
+        },
+        {
+          "id": "script_input",
+          "form": "input",
+          "generators": [
+            "script_to_latin_input"
+          ],
+          "title": "Umschrift eintippen",
+          "description": "Die lateinische Umschrift selbst eintippen – gebräuchliche Varianten werden akzeptiert.",
+          "note": "Eingabe mischt kyrillische und griechische Lernkarten."
+        },
+        {
+          "id": "latin_to_script",
+          "form": "choice",
+          "generators": [
+            "latin_to_script"
+          ],
+          "title": "Lateinisch → Original",
+          "description": "Von der lateinischen Umschrift zurück zum passenden Originalzeichen oder -wort.",
+          "note": ""
+        }
+      ],
+      "title": "Schriften & Sprachen",
+      "note": "Schriftwahl und Antwortart sind vermischt: Eintippen verwendet beide Schriften.",
+      "autoTitle": "Automatisch",
+      "autoNote": ""
+    },
+    {
+      "id": "cities",
+      "icon": "🏙️",
+      "primary": false,
+      "countKey": "city",
+      "needs": [
+        "regions"
+      ],
+      "perCountry": true,
+      "defaultMode": "cities_over_300k",
+      "modes": [
+        {
+          "id": "cities_over_300k",
+          "form": "choice",
+          "generators": [
+            "large_city_to_country"
+          ],
+          "allowCountryScope": false,
+          "title": "Großstädte über 300.000",
+          "description": "Alle erfassten Städte mit mehr als 300.000 Einwohnern einem Land oder Gebiet zuordnen. Wähle einen Kontinent und übe kurze Runden oder alle Städte.",
+          "note": "Bei Auswahl eines Landes ist dieser Modus nicht erlaubt; die Oberfläche fällt auf Automatisch zurück."
+        },
+        {
+          "id": "city_to_country",
+          "form": "choice",
+          "generators": [
+            "city_to_country"
+          ],
+          "allowCountryScope": false,
+          "title": "Stadt → Land",
+          "description": "Eine bekannte Stadt dem Land zuordnen.",
+          "note": ""
+        },
+        {
+          "id": "city_to_region",
+          "form": "choice",
+          "generators": [
+            "city_to_region"
+          ],
+          "title": "Stadt → Region",
+          "description": "Stadt der Region zuordnen.",
+          "note": ""
+        },
+        {
+          "id": "city_compare",
+          "form": "choice",
+          "generators": [
+            "city_population"
+          ],
+          "title": "Städtevergleich",
+          "description": "Einwohnerzahlen von Städten vergleichen.",
+          "note": ""
+        },
+        {
+          "id": "capital_input",
+          "form": "input",
+          "generators": [
+            "city_input"
+          ],
+          "title": "Eintippen",
+          "description": "Hauptstadt ohne Vorgaben eintippen.",
+          "note": "Doppelt: fragt wie Hauptstädte → Eintippen die Hauptstadt eines Landes."
+        }
+      ],
+      "title": "Städte",
+      "note": "„Stadt → Land“ und Großstädte ändern den Datenpool, nicht das Lernziel. Eintippen fragt nur Hauptstädte.",
+      "autoTitle": "Automatisch",
+      "autoNote": ""
+    },
+    {
+      "id": "landmarks",
+      "icon": "🏛️",
+      "primary": true,
+      "countKey": "landmark",
+      "perCountry": true,
+      "mergedFrom": [
+        "images"
+      ],
+      "modes": [
+        {
+          "id": "image_to_landmark",
+          "form": "choice",
+          "generators": [
+            "image_to_landmark"
+          ],
+          "title": "Sehenswürdigkeit am Foto erkennen",
+          "description": "Erkenne die Sehenswürdigkeit anhand ihres Fotos.",
+          "note": ""
+        },
+        {
+          "id": "landmark_to_country",
+          "form": "choice",
+          "generators": [
+            "landmark_to_country"
+          ],
+          "allowCountryScope": false,
+          "title": "Sehenswürdigkeit → Land",
+          "description": "In welchem Land steht das Bauwerk?",
+          "note": ""
+        },
+        {
+          "id": "landmark_to_city",
+          "form": "choice",
+          "generators": [
+            "landmark_to_city"
+          ],
+          "title": "Sehenswürdigkeit → Ort",
+          "description": "In welcher Stadt steht es?",
+          "note": ""
+        },
+        {
+          "id": "landmark_to_country_input",
+          "form": "input",
+          "generators": [
+            "landmark_to_country_input"
+          ],
+          "allowCountryScope": false,
+          "title": "Land eintippen",
+          "description": "Das Land ohne Antwortvorgaben eintippen.",
+          "note": ""
+        }
+      ],
+      "title": "Sehenswürdigkeiten",
+      "note": "Drei fertige Foto-Varianten sind nur in der alten, ausgeblendeten Kategorie Bilder definiert.",
+      "autoTitle": "Automatisch",
+      "autoNote": ""
+    },
+    {
+      "id": "water",
+      "icon": "🌊",
+      "primary": false,
+      "countKey": "water",
+      "perCountry": true,
+      "modes": [
+        {
+          "id": "to_country",
+          "form": "choice",
+          "generators": [
+            "river_to_country",
+            "lake_to_country"
+          ],
+          "allowCountryScope": false,
+          "title": "Land zuordnen",
+          "description": "Fluss, See oder Berg dem Land zuordnen.",
+          "note": ""
+        },
+        {
+          "id": "compare",
+          "form": "choice",
+          "generators": [
+            "river_longer",
+            "lake_larger"
+          ],
+          "title": "Vergleichen",
+          "description": "Länger, größer, höher?",
+          "note": ""
+        },
+        {
+          "id": "on_map",
+          "form": "map",
+          "generators": [
+            "water_on_map"
+          ],
+          "title": "Auf der Karte",
+          "description": "Das Land auf der Weltkarte finden.",
+          "note": ""
+        }
+      ],
+      "title": "Flüsse & Seen",
+      "note": "Flüsse und Seen teilen dieselben unspezifischen Modi; Vergleich und Kartenziel werden erst nach der Auswahl klar.",
+      "autoTitle": "Automatisch",
+      "autoNote": ""
+    },
+    {
+      "id": "nature",
+      "icon": "🏔️",
+      "primary": false,
+      "countKey": "mountain",
+      "perCountry": true,
+      "modes": [
+        {
+          "id": "to_country",
+          "form": "choice",
+          "generators": [
+            "mountain_to_country"
+          ],
+          "allowCountryScope": false,
+          "title": "Land zuordnen",
+          "description": "Fluss, See oder Berg dem Land zuordnen.",
+          "note": ""
+        },
+        {
+          "id": "compare",
+          "form": "choice",
+          "generators": [
+            "mountain_higher"
+          ],
+          "title": "Vergleichen",
+          "description": "Länger, größer, höher?",
+          "note": ""
+        },
+        {
+          "id": "on_map",
+          "form": "map",
+          "generators": [
+            "mountain_on_map"
+          ],
+          "title": "Auf der Karte",
+          "description": "Das Land auf der Weltkarte finden.",
+          "note": ""
+        }
+      ],
+      "title": "Berge",
+      "note": "Zuordnung als Auswahl und auf der Karte erscheinen als getrennte Fragetypen.",
+      "autoTitle": "Automatisch",
+      "autoNote": ""
+    },
+    {
+      "id": "license_plates",
+      "icon": "🚗",
+      "primary": false,
+      "countKey": "license_plate",
+      "needs": [
+        "plates",
+        "regions"
+      ],
+      "perCountry": true,
+      "defaultScope": "country:DE",
+      "modes": [
+        {
+          "id": "plate_to_city",
+          "form": "choice",
+          "generators": [
+            "plate_to_city"
+          ],
+          "title": "Kennzeichen → Ort",
+          "description": "Woher kommt das Kennzeichen?",
+          "note": ""
+        },
+        {
+          "id": "city_to_plate",
+          "form": "choice",
+          "generators": [
+            "city_to_plate"
+          ],
+          "title": "Ort → Kennzeichen",
+          "description": "Welches Kürzel gehört zum Ort?",
+          "note": ""
+        },
+        {
+          "id": "plate_to_region",
+          "form": "choice",
+          "generators": [
+            "plate_to_region"
+          ],
+          "title": "Kennzeichen → Region",
+          "description": "Bundesland oder Kanton erkennen.",
+          "note": ""
+        },
+        {
+          "id": "plate_input",
+          "form": "input",
+          "generators": [
+            "plate_input"
+          ],
+          "title": "Kennzeichen → Ort eintippen",
+          "description": "Ort zum Kennzeichen eintippen.",
+          "note": ""
+        },
+        {
+          "id": "city_to_plate_input",
+          "form": "input",
+          "generators": [
+            "city_to_plate_input"
+          ],
+          "title": "Ort → Kennzeichen eintippen",
+          "description": "Kennzeichen zum Ort frei eintippen.",
+          "note": ""
+        }
+      ],
+      "title": "Kennzeichen",
+      "note": "Zwei Lernziele werden für Auswahl und Eingabe jeweils doppelt angeboten.",
+      "autoTitle": "Automatisch",
+      "autoNote": ""
+    },
+    {
+      "id": "trivia",
+      "icon": "💡",
+      "primary": true,
+      "countKey": "trivia",
+      "modes": [
+        {
+          "id": "trivia_questions",
+          "form": "choice",
+          "generators": [
+            "geography_trivia"
+          ],
+          "title": "Wissensfragen",
+          "description": "Teste dein Weltwissen: Landschaften, Rekorde, Länder und Karten – mit Erklärung und Quelle nach jeder Antwort.",
+          "note": "Identischer Generator wie Automatisch."
+        }
+      ],
+      "title": "Geographie-Trivia",
+      "note": "„Automatisch“ und „Wissensfragen“ verwenden denselben Generator. „Welt“ ist die einzige Gebietsauswahl.",
+      "autoTitle": "Automatisch",
+      "autoNote": "Identischer Generator wie Wissensfragen."
+    },
+    {
+      "id": "mixed",
+      "icon": "🎲",
+      "primary": true,
+      "needs": [
+        "regions",
+        "plates"
+      ],
+      "perCountry": true,
+      "modes": [],
+      "title": "Gemischt",
+      "note": "Keine eigene Fragetypwahl. Die Oberfläche zeigt trotzdem den allgemeinen Einstellungsablauf.",
+      "autoTitle": "Automatisch",
+      "autoNote": ""
+    }
+  ],
+  "proposal": [
+    {
+      "id": "flags",
+      "title": "Flaggen",
+      "quizzes": [
+        {
+          "id": "country-flags",
+          "title": "Länderflaggen erkennen",
+          "answers": {
+            "choice": [
+              "flag_to_country"
+            ],
+            "input": [
+              "flag_to_country_input"
+            ],
+            "map": [
+              "flag_to_country_map"
+            ]
+          },
+          "scope": "Welt / Kontinent",
+          "content": "Nur Länderflaggen",
+          "note": "Name, Eingabe und Karte sind Antwortvarianten derselben Übung."
+        },
+        {
+          "id": "choose-flag",
+          "title": "Passende Flagge wählen",
+          "answers": {
+            "choice": [
+              "country_to_flag"
+            ]
+          },
+          "scope": "Welt / Kontinent",
+          "content": "Landname → Flagge",
+          "note": ""
+        }
+      ],
+      "note": "Regionalflaggen erhalten einen eindeutigen Platz bei Regionen. Der Länder/Regionen/Alles-Schalter entfällt."
+    },
+    {
+      "id": "countries",
+      "title": "Länder & Karten",
+      "quizzes": [
+        {
+          "id": "country-profile",
+          "title": "Länderprofil ausfüllen",
+          "answers": {
+            "input": [
+              "country_profile"
+            ]
+          },
+          "scope": "Welt / Kontinent",
+          "content": "Fünf Kategorien pro Land: Hauptstadt / Regierungssitz, Kontinent, Währung, Sprache und ISO-Kürzel als Startvorschlag.",
+          "note": "Neue Spielmechanik: ein gemeinsames Eingabefeld, freie Reihenfolge, richtige vollständige Antworten werden ohne Enter übernommen und erscheinen im passenden Feld. Mehrere gültige Werte: einer reicht. Nach fünf Treffern bewusst zum nächsten Land wechseln.",
+          "status": "planned-new-mechanic",
+          "profile": {
+            "input": "shared",
+            "inputDecision": "Vorgeschlagener Standard; die optionale Rückfrage zur Eingabeart ist noch offen.",
+            "fieldCount": 5,
+            "defaultFields": [
+              "capital",
+              "continent",
+              "currency",
+              "language",
+              "iso2"
+            ],
+            "availableFields": [
+              "capital",
+              "continent",
+              "currency",
+              "language",
+              "iso2",
+              "calling_code",
+              "tld"
+            ],
+            "categories": "Fünf Kategorien vorgewählt; optional vor der Runde austauschen, nicht für jedes Land neu einstellen.",
+            "length": "Alle Länder des gewählten Bereichs als Standard; Fortschritt speichern und später fortsetzen.",
+            "acceptance": "Exakte normalisierte Namen und geprüfte Aliasse; keine Tippfehler-Vermutung während des Tippens.",
+            "animation": "Kurzes Einblenden mit leichtem Größenimpuls; bei reduzierter Bewegung statisch.",
+            "completion": "Ein gültiger Wert pro Kategorie genügt. Kein doppeltes Zählen; bereits gelöste Kategorien bleiben gefüllt.",
+            "next": "Erst alle fünf Antworten sichtbar machen; „Nächstes Land“ startet bewusst den nächsten Eintrag.",
+            "coverage": {
+              "countries": 197,
+              "currencies": 196,
+              "languages": 197
+            },
+            "dataBeforeRelease": [
+              {
+                "country": "country:FM",
+                "field": "currency",
+                "issue": "Im vorhandenen Datensatz fehlt die Währung; vor dem Start des vollständigen Länderprofils nachpflegen."
+              },
+              {
+                "country": "country:NR",
+                "field": "capital",
+                "issue": "Keine offizielle Hauptstadt. Das Feld korrekt „Regierungssitz“ nennen und den vorhandenen Sonderfall verwenden."
+              },
+              {
+                "field": "language",
+                "issue": "Geprüfte deutsche Namen und geläufige Alternativen ergänzen; die vorhandenen Sprachbezeichnungen nicht ungeprüft als sämtliche Amtssprachen ausgeben."
+              },
+              {
+                "field": "continent",
+                "issue": "Transkontinentale Länder korrekt behandeln; akzeptierte Antworten oder benannte statistische Einteilung vorab festlegen."
+              }
+            ],
+            "mechanics": {
+              "kind": "profile-input",
+              "renderer": "Ein generischer Renderer für mehrere Antwortfelder pro Entität.",
+              "fieldAdapters": "Je Kategorie: Label, Antworten, Aliasse, Normalisierung, Gültigkeitsregel und Sonderfälle.",
+              "matcher": "Vollständige Treffer erst nach Ende einer Texteingabe-Komposition prüfen; Mehrdeutigkeiten nicht zufällig zuordnen.",
+              "round": "Land und fünf Feldzustände gemeinsam speichern; Statistik pro beantwortetem Feld, Länderfortschritt separat."
+            }
+          },
+          "kind": "profile-input"
+        },
+        {
+          "id": "country-map",
+          "title": "Länder auf der Karte finden",
+          "answers": {
+            "map": [
+              "country_on_map"
+            ]
+          },
+          "scope": "Welt / Kontinent",
+          "content": "Landname → Kartenposition",
+          "note": ""
+        },
+        {
+          "id": "neighbors",
+          "title": "Nachbarländer kennen",
+          "answers": {
+            "choice": [
+              "neighbor_of_country"
+            ]
+          },
+          "scope": "Welt / Kontinent",
+          "content": "Grenzen und Nachbarschaft",
+          "note": ""
+        },
+        {
+          "id": "country-knowledge",
+          "title": "Länderwissen testen",
+          "answers": {
+            "choice": [
+              "country_attribute",
+              "country_true_false"
+            ]
+          },
+          "scope": "Welt / Kontinent",
+          "content": "Ländereigenschaften und Aussagen",
+          "note": "Länderwissen und Wahr/Falsch werden zu einer Wissensrunde zusammengeführt."
+        },
+        {
+          "id": "country-size",
+          "title": "Länder vergleichen",
+          "answers": {
+            "choice": [
+              "country_comparison"
+            ]
+          },
+          "scope": "Welt / Kontinent",
+          "content": "Einwohner / Fläche vergleichen",
+          "note": ""
+        },
+        {
+          "id": "country-codes",
+          "title": "Ländercodes zuordnen",
+          "answers": {
+            "choice": [
+              "country_code"
+            ]
+          },
+          "scope": "Welt / Kontinent",
+          "content": "Länder und ihre Codes",
+          "note": ""
+        },
+        {
+          "id": "national-symbols",
+          "title": "Nationalsymbole erkennen",
+          "answers": {
+            "choice": [
+              "national_animal",
+              "national_flower",
+              "national_bird",
+              "national_tree"
+            ]
+          },
+          "scope": "Welt / Kontinent",
+          "content": "Tiere, Vögel, Blumen und Bäume",
+          "note": ""
+        }
+      ],
+      "note": "Regionen und Regionalhauptstädte werden ausgelagert. „Länder“ mischt dann keine Regionalaufgaben mehr bei."
+    },
+    {
+      "id": "capitals",
+      "title": "Hauptstädte",
+      "quizzes": [
+        {
+          "id": "name-capital",
+          "title": "Hauptstädte nennen",
+          "answers": {
+            "choice": [
+              "country_to_capital"
+            ],
+            "input": [
+              "capital_input"
+            ]
+          },
+          "scope": "Welt / Kontinent",
+          "content": "Land → Hauptstadt",
+          "note": "Der gleiche Eingabetest unter Städte wird hierher umgeleitet."
+        },
+        {
+          "id": "capital-country",
+          "title": "Hauptstadt dem Land zuordnen",
+          "answers": {
+            "choice": [
+              "capital_to_country"
+            ]
+          },
+          "scope": "Welt / Kontinent",
+          "content": "Hauptstadt → Land",
+          "note": ""
+        },
+        {
+          "id": "capital-flag",
+          "title": "Flagge zur Hauptstadt finden",
+          "answers": {
+            "choice": [
+              "capital_to_flag"
+            ]
+          },
+          "scope": "Welt / Kontinent",
+          "content": "Hauptstadt → Flagge",
+          "note": ""
+        }
+      ],
+      "note": "Lernziel und Antwortart werden getrennt. Eintippen ist keine zweite Übung."
+    },
+    {
+      "id": "regions",
+      "title": "Regionen",
+      "quizzes": [
+        {
+          "id": "regional-flags",
+          "title": "Regionalflaggen erkennen",
+          "answers": {
+            "choice": [
+              "flag_to_region"
+            ],
+            "input": [
+              "region_flag_input"
+            ],
+            "map": [
+              "flag_to_region_map",
+              "flag_to_europe_map"
+            ]
+          },
+          "scope": "Ein Land; Karten zusätzlich Europa",
+          "content": "Nur Regionalflaggen",
+          "note": "Karte nur für unterstützte Gebiete. Europa ist eine Sammlung, kein eigener Fragetyp; „Alle“ wird nicht erzwungen. Die zwei bisherigen Regionalflaggen-Generatoren werden auf die eindeutige Variante zusammengeführt."
+        },
+        {
+          "id": "choose-region-flag",
+          "title": "Passende Regionalflagge wählen",
+          "answers": {
+            "choice": [
+              "region_to_flag"
+            ]
+          },
+          "scope": "Ein Land",
+          "content": "Regionsname → Flagge",
+          "note": ""
+        },
+        {
+          "id": "region-country",
+          "title": "Regionen dem Land zuordnen",
+          "answers": {
+            "choice": [
+              "region_to_country",
+              "region_flag_to_country"
+            ]
+          },
+          "scope": "Welt / Kontinent",
+          "content": "Regionsname oder Regionalflagge → Land",
+          "note": ""
+        },
+        {
+          "id": "region-capitals",
+          "title": "Regionalhauptstädte kennen",
+          "answers": {
+            "choice": [
+              "region_capital"
+            ]
+          },
+          "scope": "Ein Land",
+          "content": "Region → Hauptstadt",
+          "note": ""
+        },
+        {
+          "id": "region-map",
+          "title": "Regionen auf der Karte finden",
+          "answers": {
+            "map": [
+              "region_on_map"
+            ]
+          },
+          "scope": "Ein Land",
+          "content": "Regionsname → Kartenposition",
+          "note": ""
+        }
+      ],
+      "note": "Ein eigenes Thema bündelt die Aufgaben, die heute zwischen Länder und Flaggen verteilt sind."
+    },
+    {
+      "id": "cities",
+      "title": "Städte",
+      "quizzes": [
+        {
+          "id": "large-cities",
+          "title": "Städte einem Land zuordnen",
+          "answers": {
+            "choice": [
+              "large_city_to_country",
+              "city_to_country"
+            ]
+          },
+          "scope": "Welt / Kontinent",
+          "content": "Sammlung: Großstädte über 300.000 (Standard) / alle vorhandenen Städte",
+          "note": "Dieselbe Aufgabe mit zwei Datensammlungen, daher ein Quiz. Nur hier bleibt eine sinnvolle Sammlungswahl; der Standard bleibt bei über 300.000 Einwohnern.",
+          "defaultCollection": "over_300k",
+          "collections": {
+            "over_300k": {
+              "generator": "large_city_to_country"
+            },
+            "all_cities": {
+              "generator": "city_to_country"
+            }
+          }
+        },
+        {
+          "id": "city-region",
+          "title": "Städte einer Region zuordnen",
+          "answers": {
+            "choice": [
+              "city_to_region"
+            ]
+          },
+          "scope": "Ein Land",
+          "content": "Stadt → Region / Bundesland",
+          "note": ""
+        },
+        {
+          "id": "city-size",
+          "title": "Städtegrößen vergleichen",
+          "answers": {
+            "choice": [
+              "city_population"
+            ]
+          },
+          "scope": "Welt / Kontinent / Land",
+          "content": "Einwohnerzahlen vergleichen",
+          "note": ""
+        },
+        {
+          "id": "city-photo",
+          "title": "Städte am Foto erkennen",
+          "answers": {
+            "choice": [
+              "image_to_city"
+            ]
+          },
+          "scope": "Welt / Kontinent / Land",
+          "content": "38 vorhandene Stadtfotos",
+          "note": "Vorhandener Generator aus dem alten Bilderquiz wird wieder sichtbar."
+        }
+      ],
+      "note": "Das Hauptstadt-Eintippen entfällt hier. Stadtfotos werden als eigenständige, vorhandene Übung sichtbar."
+    },
+    {
+      "id": "landmarks",
+      "title": "Orte & Bilder",
+      "quizzes": [
+        {
+          "id": "landmark-photo",
+          "title": "Sehenswürdigkeiten erkennen",
+          "answers": {
+            "choice": [
+              "image_to_landmark"
+            ],
+            "input": [
+              "image_to_landmark_input"
+            ]
+          },
+          "scope": "Welt / Kontinent / Land",
+          "content": "Foto → Name",
+          "note": "Die bereits vorhandene Foto-Eingabe wird als Antwortvariante wieder nutzbar."
+        },
+        {
+          "id": "landmark-country",
+          "title": "Sehenswürdigkeiten dem Land zuordnen",
+          "answers": {
+            "choice": [
+              "landmark_to_country"
+            ],
+            "input": [
+              "landmark_to_country_input"
+            ]
+          },
+          "scope": "Welt / Kontinent",
+          "content": "Sehenswürdigkeit → Land",
+          "note": ""
+        },
+        {
+          "id": "landmark-city",
+          "title": "Sehenswürdigkeiten dem Ort zuordnen",
+          "answers": {
+            "choice": [
+              "landmark_to_city"
+            ]
+          },
+          "scope": "Welt / Kontinent / Land",
+          "content": "Sehenswürdigkeit → Ort",
+          "note": ""
+        },
+        {
+          "id": "country-photo",
+          "title": "Länder am Foto erkennen",
+          "answers": {
+            "choice": [
+              "image_to_country"
+            ]
+          },
+          "scope": "Welt / Kontinent",
+          "content": "Foto → Land",
+          "note": "Vorhandener Generator aus dem alten Bilderquiz wird wieder sichtbar."
+        }
+      ],
+      "note": "Foto, Lernziel und Antwortart werden eindeutig. Das alte Bilderquiz wird nicht als zweite Kategorie geführt."
+    },
+    {
+      "id": "water",
+      "title": "Flüsse & Seen",
+      "quizzes": [
+        {
+          "id": "river-country",
+          "title": "Flüsse zuordnen",
+          "answers": {
+            "choice": [
+              "river_to_country"
+            ],
+            "map": [
+              "water_on_map"
+            ]
+          },
+          "scope": "Welt / Kontinent",
+          "content": "Nur Flüsse",
+          "note": "Nur Flüsse; bei „Karte“ wird das zugehörige Land angeklickt. Kein exakter Fluss-, See- oder Bergverlauf; diese Antwortart ist nur für eindeutige Länderzuordnungen verfügbar."
+        },
+        {
+          "id": "lake-country",
+          "title": "Seen zuordnen",
+          "answers": {
+            "choice": [
+              "lake_to_country"
+            ],
+            "map": [
+              "water_on_map"
+            ]
+          },
+          "scope": "Welt / Kontinent",
+          "content": "Nur Seen",
+          "note": "Nur Seen; bei „Karte“ wird das zugehörige Land angeklickt. Kein exakter Fluss-, See- oder Bergverlauf; diese Antwortart ist nur für eindeutige Länderzuordnungen verfügbar."
+        },
+        {
+          "id": "river-length",
+          "title": "Flusslängen vergleichen",
+          "answers": {
+            "choice": [
+              "river_longer"
+            ]
+          },
+          "scope": "Welt / Kontinent / Land",
+          "content": "Nur Flüsse",
+          "note": ""
+        },
+        {
+          "id": "lake-size",
+          "title": "Seegrößen vergleichen",
+          "answers": {
+            "choice": [
+              "lake_larger"
+            ]
+          },
+          "scope": "Welt / Kontinent / Land",
+          "content": "Nur Seen",
+          "note": ""
+        }
+      ],
+      "note": "Vier klare Übungen ersetzen die unscharfen Einträge „Zuordnen“, „Vergleichen“ und „Auf der Karte“."
+    },
+    {
+      "id": "nature",
+      "title": "Berge & Natur",
+      "quizzes": [
+        {
+          "id": "mountain-country",
+          "title": "Berge zuordnen",
+          "answers": {
+            "choice": [
+              "mountain_to_country"
+            ],
+            "map": [
+              "mountain_on_map"
+            ]
+          },
+          "scope": "Welt / Kontinent",
+          "content": "Berg → Land (als Name oder auf der Weltkarte)",
+          "note": "bei „Karte“ wird das zugehörige Land angeklickt. Kein exakter Fluss-, See- oder Bergverlauf; diese Antwortart ist nur für eindeutige Länderzuordnungen verfügbar."
+        },
+        {
+          "id": "mountain-height",
+          "title": "Berghöhen vergleichen",
+          "answers": {
+            "choice": [
+              "mountain_higher"
+            ]
+          },
+          "scope": "Welt / Kontinent / Land",
+          "content": "Höhen vergleichen",
+          "note": ""
+        }
+      ],
+      "note": "Land zuordnen und Höhe vergleichen bleiben getrennte Lernziele. Zusätzliche Sammlungen wie Vulkane passen in denselben Baukasten."
+    },
+    {
+      "id": "languages",
+      "title": "Schriften",
+      "quizzes": [
+        {
+          "id": "read-cyrillic",
+          "title": "Kyrillisch lesen",
+          "answers": {
+            "choice": [
+              "cyrillic_to_latin"
+            ],
+            "input": [
+              "script_to_latin_input"
+            ]
+          },
+          "scope": "Kein Gebiet",
+          "content": "Nur kyrillische Lernkarten",
+          "note": "Der Eingabegenerator erhält denselben Sprachfilter wie das Auswahlquiz."
+        },
+        {
+          "id": "read-greek",
+          "title": "Griechisch lesen",
+          "answers": {
+            "choice": [
+              "greek_to_latin"
+            ],
+            "input": [
+              "script_to_latin_input"
+            ]
+          },
+          "scope": "Kein Gebiet",
+          "content": "Nur griechische Lernkarten",
+          "note": "Der Eingabegenerator erhält denselben Sprachfilter wie das Auswahlquiz."
+        },
+        {
+          "id": "recognize-script",
+          "title": "Schriftzeichen wiederfinden",
+          "answers": {
+            "choice": [
+              "latin_to_script"
+            ]
+          },
+          "scope": "Kein Gebiet",
+          "content": "Umschrift → Originalschrift",
+          "note": ""
+        }
+      ],
+      "note": "Das Thema heißt Schriften statt Sprachen. Beim Wechsel zu Eintippen bleibt die ausgewählte Schrift erhalten."
+    },
+    {
+      "id": "license_plates",
+      "title": "Kennzeichen",
+      "quizzes": [
+        {
+          "id": "plate-place",
+          "title": "Kennzeichen einem Ort zuordnen",
+          "answers": {
+            "choice": [
+              "plate_to_city"
+            ],
+            "input": [
+              "plate_input"
+            ]
+          },
+          "scope": "Ein Land",
+          "content": "Kennzeichen → Ort",
+          "note": ""
+        },
+        {
+          "id": "place-plate",
+          "title": "Kennzeichen zum Ort finden",
+          "answers": {
+            "choice": [
+              "city_to_plate"
+            ],
+            "input": [
+              "city_to_plate_input"
+            ]
+          },
+          "scope": "Ein Land",
+          "content": "Ort → Kennzeichen",
+          "note": ""
+        },
+        {
+          "id": "plate-region",
+          "title": "Kennzeichen einer Region zuordnen",
+          "answers": {
+            "choice": [
+              "plate_to_region"
+            ]
+          },
+          "scope": "Ein Land",
+          "content": "Kennzeichen → Region / Bundesland",
+          "note": ""
+        }
+      ],
+      "note": "Fünf Modi werden zu drei Lernzielen. Das Land wird genau einmal ausgewählt."
+    },
+    {
+      "id": "trivia",
+      "title": "Wissensfragen",
+      "quizzes": [
+        {
+          "id": "geography-trivia",
+          "title": "Geografie-Wissensfragen",
+          "answers": {
+            "choice": [
+              "geography_trivia"
+            ]
+          },
+          "scope": "Kein Gebiet",
+          "content": "Gemischtes Geografiewissen",
+          "note": ""
+        }
+      ],
+      "note": "Kein Automatisch-Schalter, keine Fragetypwahl und kein Welt-Einzelschalter. Direkt mit zehn Fragen starten."
+    },
+    {
+      "id": "mixed",
+      "title": "Gemischte Runde",
+      "quizzes": [
+        {
+          "id": "mixed-round",
+          "title": "Eine gemischte Runde spielen",
+          "answers": {
+            "choice": []
+          },
+          "scope": "Welt / Kontinent",
+          "content": "Fragen aus mehreren Themen",
+          "note": "Direkter Schnellstart; Themen werden ausgewogen gemischt. Keine Mischung aus Eingabe- und Kartenbedienung."
+        }
+      ],
+      "note": "Ein Schnellstart statt einer weiteren leeren Einstellungsseite. Nicht als doppeltes „Automatisch“ pro Thema anbieten."
+    }
+  ],
+  "legacy": [
+    {
+      "id": "maps",
+      "title": "Karten",
+      "modes": [
+        {
+          "id": "countries_on_map",
+          "form": "map",
+          "generators": [
+            "country_on_map"
+          ]
+        },
+        {
+          "id": "regions_on_map",
+          "form": "map",
+          "generators": [
+            "region_on_map"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "images",
+      "title": "Bilder",
+      "modes": [
+        {
+          "id": "image_to_landmark",
+          "form": "choice",
+          "generators": [
+            "image_to_landmark"
+          ]
+        },
+        {
+          "id": "image_to_landmark_input",
+          "form": "input",
+          "generators": [
+            "image_to_landmark_input"
+          ]
+        },
+        {
+          "id": "image_to_city",
+          "form": "choice",
+          "generators": [
+            "image_to_city"
+          ]
+        },
+        {
+          "id": "image_to_country",
+          "form": "choice",
+          "generators": [
+            "image_to_country"
+          ],
+          "allowCountryScope": false
+        }
+      ]
+    },
+    {
+      "id": "regions",
+      "title": "Regionen",
+      "modes": [
+        {
+          "id": "flag_to_name",
+          "form": "choice",
+          "generators": [
+            "region_flag_to_region"
+          ]
+        },
+        {
+          "id": "region_to_country",
+          "form": "choice",
+          "generators": [
+            "region_to_country"
+          ]
+        },
+        {
+          "id": "region_capital",
+          "form": "choice",
+          "generators": [
+            "region_capital"
+          ]
+        }
+      ]
+    }
+  ],
+  "counts": {
+    "topics": 11,
+    "modes": 45,
+    "proposedTopics": 12,
+    "proposedQuizzes": 39
+  },
+  "sourceFiles": [
+    "src/config/quizzes.ts",
+    "src/features/play/PlayStartPage.tsx",
+    "src/engine/registry.ts",
+    "src/features/play/QuizCatalog.tsx",
+    "src/app/dataRequirements.ts"
+  ],
+  "consolidations": [
+    {
+      "from": "city_input",
+      "to": "capital_input",
+      "reason": "Gleiches Lernziel: Hauptstadt des genannten Landes eintippen."
+    },
+    {
+      "from": "region_flag_to_region",
+      "to": "flag_to_region",
+      "reason": "Gleiches Lernziel; die neuere Variante schließt mehrdeutige gleich aussehende Flaggen aus."
+    }
+  ],
+  "plannedMechanics": [
+    {
+      "id": "country_profile",
+      "kind": "profile-input",
+      "status": "proposed-not-implemented",
+      "reuse": "Nach einmaliger Umsetzung sind weitere Profile über Entität und Feldadapter definierbar."
+    }
+  ]
+}

@@ -1,17 +1,7 @@
 import type { CategoryId } from '@/engine/types'
 
-/**
- * Zentrale Quiz-Konfiguration. Hier – und nur hier – wird eingestellt, was spielbar ist.
- *
- * Ein Quiz ist immer:  Kategorie · Fragetyp · Bereich · Rundenlänge.
- *
- *  - Kategorie  = ein Eintrag in QUIZZES (Flaggen, Hauptstädte, …)
- *  - Fragetyp   = ein `modes`-Eintrag oder „Automatisch“ (mischt alle Fragetypen mit form 'choice', R10)
- *  - Bereich    = world | <Kontinent> | country:<ISO> (einzelnes Land nur mit `perCountry`)
- *  - Länge      = 10 / 20 / 50 / Alle (ROUND_LENGTHS), ein Fragetyp kann „Alle“ erzwingen
- *
- * Labels stehen in locales unter category.<id>, modes.<id> und modes_desc.<id>.
- * Neue Fragetypen: Generator in src/engine/generators anlegen, in registry.ts eintragen, hier einem Fragetyp zuordnen.
+/** Legacy category/mode definitions for saved sessions, old URLs and the current Diorama.
+ * New exercises belong in quizCatalog.ts. The new selection never offers AUTO or these mixed modes.
  */
 
 export type Content = 'country' | 'region'

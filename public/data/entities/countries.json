@@ -10779,7 +10779,14 @@
     "Palikir"
    ],
    "area_km2": 702,
-   "currencies": [],
+   "currencies": [
+    {
+     "code": "USD",
+     "name": "US-Dollar",
+     "name_en": "United States dollar",
+     "symbol": "$"
+    }
+   ],
    "languages": [
     "Englisch"
    ],
@@ -10858,6 +10865,11 @@
     "capitals": {
      "source": "Wikidata (CC0)",
      "imported_at": "2026-10-13"
+    },
+    "currencies": {
+     "source": "FSM Government",
+     "source_url": "https://gov.fm/cofa/",
+     "imported_at": "2026-10-27"
     }
    }
   }

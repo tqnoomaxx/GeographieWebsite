@@ -1,7 +1,14 @@
 import type { Entity } from '@/domain/types'
 
 export type QuestionType =
-  'multiple_choice' | 'text_input' | 'map_click' | 'image_choice' | 'ordering' | 'true_false' | 'flashcard'
+  | 'profile_input'
+  | 'multiple_choice'
+  | 'text_input'
+  | 'map_click'
+  | 'image_choice'
+  | 'ordering'
+  | 'true_false'
+  | 'flashcard'
 
 export type CategoryId =
   | 'flags'
@@ -25,6 +32,14 @@ export interface QuestionOption {
   image?: string
 }
 
+export interface ProfileField {
+  id: string
+  label: string
+  answers: string[]
+  display: string
+  normalization?: 'text' | 'code' | 'domain'
+}
+
 export interface Question {
   id: string
   category: CategoryId
@@ -33,6 +48,7 @@ export interface Question {
   prompt: { key: string; params?: Record<string, string | number> }
   answer: string // Entity-ID oder Wert
   accepted?: string[] // für text_input
+  profileFields?: ProfileField[]
   options?: QuestionOption[]
   media?: {
     kind: 'flag' | 'photo' | 'outline'

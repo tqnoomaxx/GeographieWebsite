@@ -1,3 +1,5 @@
+import { exerciseFor, exerciseGenerators, mixedExerciseGenerators } from '@/config/quizCatalog'
+import { countryProfile } from './generators/countryProfile'
 import type { Generator } from './generators/base'
 import * as flags from './generators/flags'
 import * as capitals from './generators/capitals'
@@ -13,6 +15,7 @@ import { AUTO, MIXED_EXCLUDE, PLAY_QUIZZES, autoModes, quizFor, type QuizMode } 
 
 const all: Generator[] = [
   geographyTrivia,
+  countryProfile,
   flags.flagToCountry,
   flags.countryToFlag,
   flags.flagToCountryInput,
@@ -91,7 +94,24 @@ function fromModes(modes: QuizMode[]): Generator[] {
  * Generatoren für Kategorie + Fragetyp gemäß config/quizzes.ts.
  * 'auto' mischt die Multiple-Choice-Fragetypen (R10); „Gemischt“ nimmt die von allen Kategorien.
  */
-export function generatorsFor(category: CategoryId, mode: string = AUTO, scope?: string): Generator[] {
+export function generatorsFor(
+  category: CategoryId,
+  mode: string = AUTO,
+  scope?: string,
+  exerciseId?: string,
+  collection?: string,
+): Generator[] {
+  const exercise = exerciseFor(exerciseId)
+  if (exercise) {
+    if (exercise.topic !== category) return []
+    const ids =
+      category === 'mixed' ? mixedExerciseGenerators() : exerciseGenerators(exercise, mode, collection, scope)
+    return ids.map((id) => {
+      const generator = registry.get(id)
+      if (!generator) throw new Error('Nicht registrierter Quizbaustein: ' + id)
+      return generator
+    })
+  }
   const available = (item: QuizMode) =>
     (!scope?.startsWith('country:') || item.allowCountryScope !== false) &&
     (!scope || !item.scopes || item.scopes.includes(scope))

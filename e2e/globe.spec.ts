@@ -8,7 +8,6 @@ test('Ziehen per Maus oder Touch behält die Ausrichtung und erlaubt danach die 
   page.on('pageerror', (error) => errors.push(error.message))
   await page.emulateMedia({ reducedMotion: 'reduce' })
   await page.goto('')
-  await page.locator('.atlas-disclosure > summary').click()
   const globe = page.getByRole('application', { name: /Interaktive Weltkugel/ })
   const germany = page.locator('.globe-country[data-country-id="country:DE"]')
   await expect(germany).toHaveAttribute('d', /M/)

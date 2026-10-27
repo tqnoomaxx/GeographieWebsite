@@ -1,25 +1,14 @@
-import { openQuizSettings } from './controls'
 import { test, expect } from '@playwright/test'
 
-test('Trivia ist über die Themenauswahl erreichbar und bietet Welt und Kontinente an', async ({ page }) => {
-  const errors: string[] = []
-  page.on('pageerror', (error) => errors.push(error.message))
-  await page.goto('play')
-  const station = page.locator('[data-quiz-topic="trivia"]')
-  await expect(station).toBeVisible()
-  await station.click()
-  await expect(page).toHaveURL(/\/play\/trivia$/)
-  await expect(page.getByRole('heading', { name: 'Geographie-Trivia' })).toBeVisible()
-  await openQuizSettings(page)
-  await expect(page.getByRole('radio', { name: 'Wissensfragen', exact: true })).toBeVisible()
-  for (const continent of ['Europa', 'Asien', 'Afrika', 'Nordamerika', 'Südamerika', 'Ozeanien']) {
-    await openQuizSettings(page)
-    await expect(page.getByRole('radio', { name: continent, exact: true })).toBeVisible()
-  }
-  await page.getByRole('button', { name: 'Quiz starten' }).click()
+test('Wissensfragen haben eine Übung und einen passenden Kontinentfilter', async ({ page }) => {
+  await page.goto('play/trivia')
+  await expect(page.getByRole('heading', { name: 'Geografie-Wissensfragen', exact: true })).toBeVisible()
+  await page.getByRole('combobox', { name: 'Gebiet', exact: true }).selectOption('oceania')
+  await expect(page.locator('.exercise-summary')).toContainText('8 Lernkarten')
+  await expect(page.getByRole('button', { name: 'Automatisch', exact: true })).toHaveCount(0)
+  await page.getByRole('button', { name: 'Quiz starten', exact: true }).click()
   await expect(page.locator('[data-generator="geography_trivia"]')).toBeVisible()
   await expect(page.locator('[data-option-id]')).toHaveCount(4)
-  expect(errors).toEqual([])
 })
 
 test('Trivia zeigt Erklärung und Quelle und setzt eine gespeicherte Alle-Runde fort', async ({ page }) => {

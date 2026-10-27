@@ -1,0 +1,1476 @@
+{
+  "sources": [
+    "src/features/play/QuizDiorama3D.tsx",
+    "src/features/play/PlayMapSwitcher.tsx",
+    "src/features/play/DioramaLandscape.tsx",
+    "src/features/play/DioramaMotion.tsx",
+    "src/features/play/DioramaForest.tsx",
+    "src/features/play/dioramaGeometry.ts",
+    "src/features/play/stationProgress.ts",
+    "src/features/play/PlayStartPage.tsx"
+  ],
+  "counts": {
+    "currentStations": 12,
+    "currentTools": 8,
+    "proposedThemes": 11,
+    "quickStarts": 2
+  },
+  "sections": [
+    {
+      "id": "world",
+      "title": "Weltaufbau",
+      "current": [
+        {
+          "id": "island",
+          "title": "Inselplateau",
+          "fields": [
+            [
+              "Aufbau",
+              "Eine große, flache Grasfläche auf einer hohen Felskante; zwölf einzelne Stationen."
+            ],
+            [
+              "Prüfpunkt",
+              "Der Stil ist bereits zusammenhängend. Die Orte wirken überwiegend wie nebeneinander ausgestellte Modelle."
+            ],
+            [
+              "Richtung",
+              "Große Insel und klare Silhouetten erhalten; räumlich erkennbare Viertel schaffen."
+            ]
+          ]
+        },
+        {
+          "id": "paths",
+          "title": "Weg und Brücke",
+          "fields": [
+            [
+              "Aufbau",
+              "Ein geschwungener Hauptweg, eine Holzbrücke und ein Fluss über die Insel."
+            ],
+            [
+              "Prüfpunkt",
+              "Der Weg verbindet einen Teil der Gebäude; er bildet noch keine gemeinsame Folge aus Ankunft, Plätzen und Vierteln."
+            ],
+            [
+              "Richtung",
+              "Ein klarer Rundweg mit wenigen Abzweigen verbindet alle Themenbereiche."
+            ]
+          ]
+        },
+        {
+          "id": "water",
+          "title": "Fluss, See und Wasserfall",
+          "fields": [
+            [
+              "Aufbau",
+              "Animierter Fluss, See und Wasserfall an der Inselkante."
+            ],
+            [
+              "Prüfpunkt",
+              "Ein guter gemeinsamer Landschaftsbaustein; die Berge stehen räumlich getrennt davon."
+            ],
+            [
+              "Richtung",
+              "Wasser von der Berglandschaft durch die bewohnten Bereiche bis zum Meer führen."
+            ]
+          ]
+        },
+        {
+          "id": "coast",
+          "title": "Meer und Küste",
+          "fields": [
+            [
+              "Aufbau",
+              "Meer, Brandung, Felsen, Sandkante und zwei entfernte Inselchen."
+            ],
+            [
+              "Prüfpunkt",
+              "Die Umgebung gibt der Insel Größe und Tiefe."
+            ],
+            [
+              "Richtung",
+              "Erhalten und mit großzügigen, ruhigen Flächen komponieren."
+            ]
+          ]
+        },
+        {
+          "id": "decoration",
+          "title": "Bäume, Wolke und Ballon",
+          "fields": [
+            [
+              "Aufbau",
+              "Acht Bäume, Laternen, eine Wolke und ein Ballon ergänzen die Landschaft."
+            ],
+            [
+              "Prüfpunkt",
+              "Wenige gut sichtbare Akzente passen zu deinem Wunsch nach überschaubaren Details."
+            ],
+            [
+              "Richtung",
+              "Gezielt anordnen; lebendige Atmosphäre statt vieler zusätzlicher Kleinteile."
+            ]
+          ]
+        }
+      ],
+      "proposal": [
+        {
+          "id": "arrival",
+          "title": "Ankunftsplatz",
+          "fields": [
+            [
+              "Enthält",
+              "Gemischte Runde und Tagesrätsel als zwei Schnellstarts."
+            ],
+            [
+              "Gestaltung",
+              "Ein offener Platz am Anfang des Rundwegs; Blick auf die gesamte Insel."
+            ],
+            [
+              "Auswahl",
+              "Schnellstarts bleiben von den Themenübungen getrennt."
+            ],
+            [
+              "Wenige Details",
+              "Ein gemeinsames Erkennungszeichen; keine zwei zusätzlichen Gebäudekomplexe."
+            ]
+          ]
+        },
+        {
+          "id": "world-square",
+          "title": "Weltplatz",
+          "fields": [
+            [
+              "Enthält",
+              "Länder & Karten · Flaggen · Regionen."
+            ],
+            [
+              "Gestaltung",
+              "Globus, Flaggen und ein gegliedertes Kartenmotiv bilden eine zusammenhängende Platzgruppe."
+            ],
+            [
+              "Auswahl",
+              "Ein Themenort öffnet seine konkreten Übungen aus dem Quizkatalog, einschließlich des neuen Länderprofil-Spiels."
+            ],
+            [
+              "Wenige Details",
+              "Große Formen, eine gemeinsame Materialwelt, genügend Abstand zwischen Treffern."
+            ]
+          ]
+        },
+        {
+          "id": "city",
+          "title": "Stadtviertel",
+          "fields": [
+            [
+              "Enthält",
+              "Städte · Hauptstädte · Kennzeichen."
+            ],
+            [
+              "Gestaltung",
+              "Eine kleine zusammenhängende Stadt mit Platz und Straße."
+            ],
+            [
+              "Auswahl",
+              "Großstädte über 300.000, Stadtfotos und weitere Stadtübungen teilen sich den Städte-Ort."
+            ],
+            [
+              "Wenige Details",
+              "Wenige charaktervolle Gebäude; Größenvergleich und Skyline erzeugen Wirkung."
+            ]
+          ]
+        },
+        {
+          "id": "culture",
+          "title": "Kulturhafen",
+          "fields": [
+            [
+              "Enthält",
+              "Orte & Bilder · Schriften · Wissensfragen."
+            ],
+            [
+              "Gestaltung",
+              "Museum, Bibliothek und Wissenshaus am ruhigen Hafenbereich."
+            ],
+            [
+              "Auswahl",
+              "Fotos, Sehenswürdigkeiten und Schriften erhalten klar erkennbare Zugänge."
+            ],
+            [
+              "Wenige Details",
+              "Ein gemeinsamer Kai; wiederkehrende Materialien und begrenzte Akzentfarben."
+            ]
+          ]
+        },
+        {
+          "id": "nature",
+          "title": "Berg- und Seenland",
+          "fields": [
+            [
+              "Enthält",
+              "Flüsse & Seen · Berge & Natur."
+            ],
+            [
+              "Gestaltung",
+              "Eine große Bergsilhouette, See, Fluss und Wasserfall als zusammenhängende Landschaft."
+            ],
+            [
+              "Auswahl",
+              "Die Natur selbst dient als Themenort; nicht jedes Quiz braucht ein Gebäude."
+            ],
+            [
+              "Wenige Details",
+              "Gelände und Licht leisten die Hauptarbeit; Bäume in wenigen bewusst gesetzten Gruppen."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stations",
+      "title": "Quiz-Orte",
+      "current": [
+        {
+          "id": "flags",
+          "title": "Flaggen",
+          "fields": [
+            [
+              "3D-Ort",
+              "Fahnenmast"
+            ],
+            [
+              "Quiz-Ziel",
+              "/play/flags"
+            ],
+            [
+              "Auswahl",
+              "6 ausdrückliche Fragetypen plus Automatisch."
+            ],
+            [
+              "Kopplung",
+              "Eine sichtbare Kategorie entspricht genau einer Station."
+            ]
+          ]
+        },
+        {
+          "id": "countries",
+          "title": "Länder",
+          "fields": [
+            [
+              "3D-Ort",
+              "Globus"
+            ],
+            [
+              "Quiz-Ziel",
+              "/play/countries"
+            ],
+            [
+              "Auswahl",
+              "10 ausdrückliche Fragetypen plus Automatisch."
+            ],
+            [
+              "Kopplung",
+              "Eine sichtbare Kategorie entspricht genau einer Station."
+            ]
+          ]
+        },
+        {
+          "id": "capitals",
+          "title": "Hauptstädte",
+          "fields": [
+            [
+              "3D-Ort",
+              "Kapitol"
+            ],
+            [
+              "Quiz-Ziel",
+              "/play/capitals"
+            ],
+            [
+              "Auswahl",
+              "4 ausdrückliche Fragetypen plus Automatisch."
+            ],
+            [
+              "Kopplung",
+              "Eine sichtbare Kategorie entspricht genau einer Station."
+            ]
+          ]
+        },
+        {
+          "id": "languages",
+          "title": "Schriften & Sprachen",
+          "fields": [
+            [
+              "3D-Ort",
+              "Bibliothek"
+            ],
+            [
+              "Quiz-Ziel",
+              "/play/languages"
+            ],
+            [
+              "Auswahl",
+              "4 ausdrückliche Fragetypen plus Automatisch."
+            ],
+            [
+              "Kopplung",
+              "Eine sichtbare Kategorie entspricht genau einer Station."
+            ]
+          ]
+        },
+        {
+          "id": "cities",
+          "title": "Städte",
+          "fields": [
+            [
+              "3D-Ort",
+              "Stadtgruppe"
+            ],
+            [
+              "Quiz-Ziel",
+              "/play/cities"
+            ],
+            [
+              "Auswahl",
+              "5 ausdrückliche Fragetypen plus Automatisch."
+            ],
+            [
+              "Kopplung",
+              "Eine sichtbare Kategorie entspricht genau einer Station."
+            ]
+          ]
+        },
+        {
+          "id": "landmarks",
+          "title": "Sehenswürdigkeiten",
+          "fields": [
+            [
+              "3D-Ort",
+              "Monument"
+            ],
+            [
+              "Quiz-Ziel",
+              "/play/landmarks"
+            ],
+            [
+              "Auswahl",
+              "4 ausdrückliche Fragetypen plus Automatisch."
+            ],
+            [
+              "Kopplung",
+              "Eine sichtbare Kategorie entspricht genau einer Station."
+            ]
+          ]
+        },
+        {
+          "id": "water",
+          "title": "Flüsse & Seen",
+          "fields": [
+            [
+              "3D-Ort",
+              "See und Fluss"
+            ],
+            [
+              "Quiz-Ziel",
+              "/play/water"
+            ],
+            [
+              "Auswahl",
+              "3 ausdrückliche Fragetypen plus Automatisch."
+            ],
+            [
+              "Kopplung",
+              "Eine sichtbare Kategorie entspricht genau einer Station."
+            ]
+          ]
+        },
+        {
+          "id": "nature",
+          "title": "Berge",
+          "fields": [
+            [
+              "3D-Ort",
+              "Berggruppe"
+            ],
+            [
+              "Quiz-Ziel",
+              "/play/nature"
+            ],
+            [
+              "Auswahl",
+              "3 ausdrückliche Fragetypen plus Automatisch."
+            ],
+            [
+              "Kopplung",
+              "Eine sichtbare Kategorie entspricht genau einer Station."
+            ]
+          ]
+        },
+        {
+          "id": "license_plates",
+          "title": "Kennzeichen",
+          "fields": [
+            [
+              "3D-Ort",
+              "Auto und Straße"
+            ],
+            [
+              "Quiz-Ziel",
+              "/play/license_plates"
+            ],
+            [
+              "Auswahl",
+              "5 ausdrückliche Fragetypen plus Automatisch."
+            ],
+            [
+              "Kopplung",
+              "Eine sichtbare Kategorie entspricht genau einer Station."
+            ]
+          ]
+        },
+        {
+          "id": "trivia",
+          "title": "Geographie-Trivia",
+          "fields": [
+            [
+              "3D-Ort",
+              "Wissenshaus"
+            ],
+            [
+              "Quiz-Ziel",
+              "/play/trivia"
+            ],
+            [
+              "Auswahl",
+              "1 ausdrückliche Fragetypen plus Automatisch."
+            ],
+            [
+              "Kopplung",
+              "Eine sichtbare Kategorie entspricht genau einer Station."
+            ]
+          ]
+        },
+        {
+          "id": "mixed",
+          "title": "Gemischt",
+          "fields": [
+            [
+              "3D-Ort",
+              "Kompass"
+            ],
+            [
+              "Quiz-Ziel",
+              "/play/mixed"
+            ],
+            [
+              "Auswahl",
+              "0 ausdrückliche Fragetypen."
+            ],
+            [
+              "Kopplung",
+              "Eine sichtbare Kategorie entspricht genau einer Station."
+            ]
+          ]
+        },
+        {
+          "id": "daily",
+          "title": "Tägliche Rätsel",
+          "fields": [
+            [
+              "3D-Ort",
+              "Observatorium"
+            ],
+            [
+              "Quiz-Ziel",
+              "/daily"
+            ],
+            [
+              "Auswahl",
+              "Eigener Einstieg neben den elf sichtbaren Quizthemen."
+            ]
+          ]
+        }
+      ],
+      "proposal": [
+        {
+          "id": "flags",
+          "title": "Flaggen",
+          "fields": [
+            [
+              "Viertel",
+              "Weltplatz"
+            ],
+            [
+              "Übungen aus dem Quizkatalog",
+              "Länderflaggen erkennen · Passende Flagge wählen"
+            ],
+            [
+              "Umfang",
+              "2 Übungen an einem Themenort."
+            ],
+            [
+              "Erweiterung",
+              "Weitere Quizübung im gleichen Thema → gleicher Ort, automatisch in dessen Auswahl."
+            ]
+          ]
+        },
+        {
+          "id": "countries",
+          "title": "Länder & Karten",
+          "fields": [
+            [
+              "Viertel",
+              "Weltplatz"
+            ],
+            [
+              "Übungen aus dem Quizkatalog",
+              "Länderprofil ausfüllen · Länder auf der Karte finden · Nachbarländer kennen · Länderwissen testen · Länder vergleichen · Ländercodes zuordnen · Nationalsymbole erkennen"
+            ],
+            [
+              "Umfang",
+              "7 Übungen an einem Themenort."
+            ],
+            [
+              "Länderprofil",
+              "Ein Land, fünf Kategorien und automatische Übernahme richtiger Eingaben. Nutzt den bestehenden Länder-Ort."
+            ],
+            [
+              "Erweiterung",
+              "Neue Profil-Kategorien ergänzen Feldbausteine; dafür werden keine zusätzlichen 3D-Modelle benötigt."
+            ]
+          ]
+        },
+        {
+          "id": "capitals",
+          "title": "Hauptstädte",
+          "fields": [
+            [
+              "Viertel",
+              "Stadtviertel"
+            ],
+            [
+              "Übungen aus dem Quizkatalog",
+              "Hauptstädte nennen · Hauptstadt dem Land zuordnen · Flagge zur Hauptstadt finden"
+            ],
+            [
+              "Umfang",
+              "3 Übungen an einem Themenort."
+            ],
+            [
+              "Erweiterung",
+              "Weitere Quizübung im gleichen Thema → gleicher Ort, automatisch in dessen Auswahl."
+            ]
+          ]
+        },
+        {
+          "id": "regions",
+          "title": "Regionen",
+          "fields": [
+            [
+              "Viertel",
+              "Weltplatz"
+            ],
+            [
+              "Übungen aus dem Quizkatalog",
+              "Regionalflaggen erkennen · Passende Regionalflagge wählen · Regionen dem Land zuordnen · Regionalhauptstädte kennen · Regionen auf der Karte finden"
+            ],
+            [
+              "Umfang",
+              "5 Übungen an einem Themenort."
+            ],
+            [
+              "Erweiterung",
+              "Weitere Quizübung im gleichen Thema → gleicher Ort, automatisch in dessen Auswahl."
+            ]
+          ]
+        },
+        {
+          "id": "cities",
+          "title": "Städte",
+          "fields": [
+            [
+              "Viertel",
+              "Stadtviertel"
+            ],
+            [
+              "Übungen aus dem Quizkatalog",
+              "Städte einem Land zuordnen · Städte einer Region zuordnen · Städtegrößen vergleichen · Städte am Foto erkennen"
+            ],
+            [
+              "Umfang",
+              "4 Übungen an einem Themenort."
+            ],
+            [
+              "Erweiterung",
+              "Weitere Quizübung im gleichen Thema → gleicher Ort, automatisch in dessen Auswahl."
+            ]
+          ]
+        },
+        {
+          "id": "landmarks",
+          "title": "Orte & Bilder",
+          "fields": [
+            [
+              "Viertel",
+              "Kulturhafen"
+            ],
+            [
+              "Übungen aus dem Quizkatalog",
+              "Sehenswürdigkeiten erkennen · Sehenswürdigkeiten dem Land zuordnen · Sehenswürdigkeiten dem Ort zuordnen · Länder am Foto erkennen"
+            ],
+            [
+              "Umfang",
+              "4 Übungen an einem Themenort."
+            ],
+            [
+              "Erweiterung",
+              "Weitere Quizübung im gleichen Thema → gleicher Ort, automatisch in dessen Auswahl."
+            ]
+          ]
+        },
+        {
+          "id": "water",
+          "title": "Flüsse & Seen",
+          "fields": [
+            [
+              "Viertel",
+              "Berg- und Seenland"
+            ],
+            [
+              "Übungen aus dem Quizkatalog",
+              "Flüsse zuordnen · Seen zuordnen · Flusslängen vergleichen · Seegrößen vergleichen"
+            ],
+            [
+              "Umfang",
+              "4 Übungen an einem Themenort."
+            ],
+            [
+              "Erweiterung",
+              "Weitere Quizübung im gleichen Thema → gleicher Ort, automatisch in dessen Auswahl."
+            ]
+          ]
+        },
+        {
+          "id": "nature",
+          "title": "Berge & Natur",
+          "fields": [
+            [
+              "Viertel",
+              "Berg- und Seenland"
+            ],
+            [
+              "Übungen aus dem Quizkatalog",
+              "Berge zuordnen · Berghöhen vergleichen"
+            ],
+            [
+              "Umfang",
+              "2 Übungen an einem Themenort."
+            ],
+            [
+              "Erweiterung",
+              "Weitere Quizübung im gleichen Thema → gleicher Ort, automatisch in dessen Auswahl."
+            ]
+          ]
+        },
+        {
+          "id": "languages",
+          "title": "Schriften",
+          "fields": [
+            [
+              "Viertel",
+              "Kulturhafen"
+            ],
+            [
+              "Übungen aus dem Quizkatalog",
+              "Kyrillisch lesen · Griechisch lesen · Schriftzeichen wiederfinden"
+            ],
+            [
+              "Umfang",
+              "3 Übungen an einem Themenort."
+            ],
+            [
+              "Erweiterung",
+              "Weitere Quizübung im gleichen Thema → gleicher Ort, automatisch in dessen Auswahl."
+            ]
+          ]
+        },
+        {
+          "id": "license_plates",
+          "title": "Kennzeichen",
+          "fields": [
+            [
+              "Viertel",
+              "Stadtviertel"
+            ],
+            [
+              "Übungen aus dem Quizkatalog",
+              "Kennzeichen einem Ort zuordnen · Kennzeichen zum Ort finden · Kennzeichen einer Region zuordnen"
+            ],
+            [
+              "Umfang",
+              "3 Übungen an einem Themenort."
+            ],
+            [
+              "Erweiterung",
+              "Weitere Quizübung im gleichen Thema → gleicher Ort, automatisch in dessen Auswahl."
+            ]
+          ]
+        },
+        {
+          "id": "trivia",
+          "title": "Wissensfragen",
+          "fields": [
+            [
+              "Viertel",
+              "Kulturhafen"
+            ],
+            [
+              "Übungen aus dem Quizkatalog",
+              "Geografie-Wissensfragen"
+            ],
+            [
+              "Umfang",
+              "1 Übungen an einem Themenort."
+            ],
+            [
+              "Erweiterung",
+              "Weitere Quizübung im gleichen Thema → gleicher Ort, automatisch in dessen Auswahl."
+            ]
+          ]
+        },
+        {
+          "id": "quick",
+          "title": "Gemischt und Tagesrätsel",
+          "fields": [
+            [
+              "Ort",
+              "Zwei Schnellstarts am Ankunftsplatz."
+            ],
+            [
+              "Gemischt",
+              "Eine ausgewogene Runde mit passenden Auswahlfragen aus mehreren Themen."
+            ],
+            [
+              "Tagesrätsel",
+              "Der bestehende eigene Rätselablauf bleibt erhalten."
+            ],
+            [
+              "Erweiterung",
+              "Schnellstarts sind Routen, keine zusätzlichen Quizthemen."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "entry",
+      "title": "Auswahl und Start",
+      "current": [
+        {
+          "id": "mouse",
+          "title": "Maus am Modell",
+          "fields": [
+            [
+              "Ablauf",
+              "Darüberfahren aktiviert die Station und die Infobox; ein Klick öffnet sofort die Themen-Einstellungen."
+            ],
+            [
+              "Prüfpunkt",
+              "Vorschau und Navigation sind an verschiedene Mausaktionen gekoppelt."
+            ],
+            [
+              "Ziel",
+              "Ein klarer Auswahlablauf für Maus, Touch und Tastatur."
+            ]
+          ]
+        },
+        {
+          "id": "touch",
+          "title": "Touch am Modell",
+          "fields": [
+            [
+              "Ablauf",
+              "Erstes Antippen zeigt die Auswahl; zweites Antippen öffnet die Themen-Einstellungen."
+            ],
+            [
+              "Prüfpunkt",
+              "Das unterscheidet sich vom direkten Mausklick."
+            ],
+            [
+              "Ziel",
+              "Ein Antippen wählt; ein benannter Button startet oder führt zur Übungsauswahl."
+            ]
+          ]
+        },
+        {
+          "id": "dock",
+          "title": "Symbolleiste und Infobox",
+          "fields": [
+            [
+              "Ablauf",
+              "Die zwölf Symbole verlinken direkt; die Infobox hat zusätzlich einen Konfigurieren-Link."
+            ],
+            [
+              "Prüfpunkt",
+              "Mehrere Einstiege öffnen denselben Inhalt, aber mit unterschiedlichem Verhalten."
+            ],
+            [
+              "Ziel",
+              "Welt und Themenliste verwenden denselben Auswahlzustand."
+            ]
+          ]
+        }
+      ],
+      "proposal": [
+        {
+          "id": "select",
+          "title": "Ort auswählen",
+          "fields": [
+            [
+              "Ablauf",
+              "Klick, Antippen oder Tastaturauswahl wählt den Themenort."
+            ],
+            [
+              "Rückmeldung",
+              "Ort wird hervorgehoben; eine einzige passende Themenübersicht öffnet sich."
+            ],
+            [
+              "Hover",
+              "Nur eine dezente Vorschau; kein automatisches Umschalten der offenen Auswahl."
+            ]
+          ]
+        },
+        {
+          "id": "exercise",
+          "title": "Übung wählen und starten",
+          "fields": [
+            [
+              "Ablauf",
+              "Themenort → konkrete Übung → nur passende Optionen → Start."
+            ],
+            [
+              "Gemeinsam",
+              "Genau dieselben Quizdefinitionen und Optionen wie in der normalen Quizauswahl."
+            ],
+            [
+              "Schnellstart",
+              "Gemischt und Tagesrätsel behalten ihren eigenen direkten Einstieg."
+            ]
+          ]
+        },
+        {
+          "id": "return",
+          "title": "Nach einer Runde zurückkehren",
+          "fields": [
+            [
+              "Ablauf",
+              "Zurück zum gewählten Ort und zur vorherigen Kameraposition."
+            ],
+            [
+              "Rückmeldung",
+              "Fortschritt einmal kurz zeigen, danach wieder eine ruhige Welt."
+            ],
+            [
+              "Bedienung",
+              "Auswahl mit Schließen oder Escape beenden; kein unbeabsichtigter Quizstart beim Drehen."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "camera",
+      "title": "Kamera und Werkzeuge",
+      "current": [
+        {
+          "id": "rotation",
+          "title": "Drehen",
+          "fields": [
+            [
+              "Bedienung",
+              "Zwei Buttons drehen die Ansicht schrittweise um jeweils 30 Grad."
+            ],
+            [
+              "Prüfpunkt",
+              "Direktes Ziehen und Pinch-Zoom sind bislang nicht eingerichtet."
+            ]
+          ]
+        },
+        {
+          "id": "zoom",
+          "title": "Zoom",
+          "fields": [
+            [
+              "Bedienung",
+              "Plus und Minus; erlaubter Faktor 0,75 bis 1,65."
+            ],
+            [
+              "Bildaufbau",
+              "Orthografische Kamera passt die gesamte Insel mit reserviertem Platz für die Bedienung ein."
+            ]
+          ]
+        },
+        {
+          "id": "reset",
+          "title": "Zurücksetzen und Vollbild",
+          "fields": [
+            [
+              "Bedienung",
+              "Ansicht zurücksetzen sowie Vollbild mit CSS-Fallback."
+            ],
+            [
+              "Vorhanden",
+              "Fokusführung und Escape-Unterstützung für Vollbild."
+            ]
+          ]
+        },
+        {
+          "id": "tools",
+          "title": "Acht sichtbare Werkzeuge",
+          "fields": [
+            [
+              "Bedienung",
+              "Links, rechts, minus, plus, zurücksetzen, Tag/Nacht, Pause und Vollbild."
+            ],
+            [
+              "Prüfpunkt",
+              "Auf kleinen Bildschirmen belegt die gesamte Werkzeugreihe dauerhaft Platz."
+            ]
+          ]
+        }
+      ],
+      "proposal": [
+        {
+          "id": "gestures",
+          "title": "Direkt bewegen",
+          "fields": [
+            [
+              "Maus und Touch",
+              "Ziehen dreht; Pinch oder bewusste Zoomsteuerung verändert den Ausschnitt."
+            ],
+            [
+              "Schutz",
+              "Bewegung und Auswahl sauber unterscheiden; nach einer Ziehbewegung kein Modellklick."
+            ],
+            [
+              "Alternative",
+              "Drehen und Zoomen bleiben als beschriftete, per Tastatur erreichbare Aktionen verfügbar."
+            ]
+          ]
+        },
+        {
+          "id": "framing",
+          "title": "Gezielter Bildausschnitt",
+          "fields": [
+            [
+              "Start",
+              "Die ganze Insel ist groß und vollständig sichtbar."
+            ],
+            [
+              "Bei Auswahl",
+              "Sanft zum gewählten Viertel ausrichten; jederzeit zur Gesamtansicht zurück."
+            ],
+            [
+              "Bewegung",
+              "Kurze Übergänge; bei reduzierter Bewegung sofortiger Wechsel."
+            ]
+          ]
+        },
+        {
+          "id": "toolbar",
+          "title": "Wenige sichtbare Werkzeuge",
+          "fields": [
+            [
+              "Immer erreichbar",
+              "Gesamtansicht · Vollbild · Weltoptionen."
+            ],
+            [
+              "Weltoptionen",
+              "Tag/Nacht, Animationen sowie alternative Kameraaktionen an einer Stelle."
+            ],
+            [
+              "Mobil",
+              "Bedienung und Themenübersicht reservieren Platz, statt wichtige Modelle zu verdecken."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interface",
+      "title": "Beschriftung und Anzeigen",
+      "current": [
+        {
+          "id": "icons",
+          "title": "Zwölf Symbole",
+          "fields": [
+            [
+              "Anzeige",
+              "Eine untere Symbolleiste mit Tooltip-Namen; mobil zwei Reihen."
+            ],
+            [
+              "Prüfpunkt",
+              "Ohne Vorwissen sind nicht alle Symbole eindeutig."
+            ],
+            [
+              "Vorhanden",
+              "Links sind mit Tastatur und Screenreader erreichbar."
+            ]
+          ]
+        },
+        {
+          "id": "context",
+          "title": "Infobox oben links",
+          "fields": [
+            [
+              "Anzeige",
+              "Name, Datenmenge, Ausbaustufe, Fortschritt und Link zum Konfigurieren."
+            ],
+            [
+              "Prüfpunkt",
+              "Die feste Position liegt über der Welt; Überschrift und Infobox wechseln am selben Platz."
+            ]
+          ]
+        },
+        {
+          "id": "views",
+          "title": "Mehrere Auswahlebenen",
+          "fields": [
+            [
+              "Anzeige",
+              "Quizkatalog, aufklappbares Diorama und eigener Wechsel zwischen Menü und Diorama."
+            ],
+            [
+              "Prüfpunkt",
+              "Im direkten Diorama-Einstieg steht der normale Quizkatalog zusätzlich unter der Welt."
+            ],
+            [
+              "Richtung",
+              "Eine konsistente Auswahl mit zwei Ansichten."
+            ]
+          ]
+        }
+      ],
+      "proposal": [
+        {
+          "id": "names",
+          "title": "Erkennbare Themenorte",
+          "fields": [
+            [
+              "Anzeige",
+              "Klare Silhouetten; Name bei Auswahl oder Fokus, dezente Vorschau bei Hover."
+            ],
+            [
+              "Themenzugriff",
+              "Eine beschriftete Themenliste als gleichwertige Alternative zur 3D-Auswahl."
+            ],
+            [
+              "Weniger Überlagerung",
+              "Keine dauerhaft über allen Orten schwebenden Texte."
+            ]
+          ]
+        },
+        {
+          "id": "panel",
+          "title": "Eine Themenübersicht",
+          "fields": [
+            [
+              "Desktop",
+              "Ein Seitenbereich mit Übungen und passenden Optionen."
+            ],
+            [
+              "Mobil",
+              "Ein unterer Bereich mit derselben Auswahl."
+            ],
+            [
+              "Verhalten",
+              "Ausgewählter Ort bleibt sichtbar; klare Schließen- und Start-Aktion."
+            ]
+          ]
+        },
+        {
+          "id": "one-selection",
+          "title": "Zwei Ansichten, eine Auswahl",
+          "fields": [
+            [
+              "Ansichten",
+              "Liste oder Diorama zeigen denselben Quizkatalog."
+            ],
+            [
+              "Wechsel",
+              "Thema und gewählte Übung bleiben beim Ansichtswechsel erhalten."
+            ],
+            [
+              "Startseite",
+              "Der interaktive Globus bleibt der Einstieg zum geografischen Erkunden."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "motion",
+      "title": "Licht und Animationen",
+      "current": [
+        {
+          "id": "water",
+          "title": "Wasser und Wind",
+          "fields": [
+            [
+              "Vorhanden",
+              "Meer, Brandung, Fluss, Wasserfall, Bäume und Flagge sind animiert."
+            ],
+            [
+              "Technik",
+              "Gemeinsame Uhr für zusammenpassende Bewegungen."
+            ]
+          ]
+        },
+        {
+          "id": "accents",
+          "title": "Wolke, Ballon und Auswahl",
+          "fields": [
+            [
+              "Vorhanden",
+              "Wolke und Ballon bewegen sich langsam; die Auswahl vergrößert das Modell und zeigt Licht, Ring und schwebenden Marker."
+            ],
+            [
+              "Prüfpunkt",
+              "Mehrere gleichzeitige Auswahlzeichen können sich auf engem Raum überlagern."
+            ]
+          ]
+        },
+        {
+          "id": "lighting",
+          "title": "Tag und Nacht",
+          "fields": [
+            [
+              "Vorhanden",
+              "Gespeicherter Tag/Nacht-Wechsel mit anderem Licht, leuchtenden Fenstern und Laternen."
+            ],
+            [
+              "Prüfpunkt",
+              "Ein einheitlicher Lichtstil ist ein guter bestehender Baustein."
+            ]
+          ]
+        },
+        {
+          "id": "pause",
+          "title": "Pause und Sichtbarkeit",
+          "fields": [
+            [
+              "Vorhanden",
+              "Pause wird gespeichert. Verdeckter Browser-Tab, Szene außerhalb des Sichtfelds und reduzierte Bewegung stoppen die Animationen."
+            ],
+            [
+              "Richtung",
+              "Diese Regeln beim Umbau beibehalten."
+            ]
+          ]
+        }
+      ],
+      "proposal": [
+        {
+          "id": "base",
+          "title": "Ruhige Grundbewegung",
+          "fields": [
+            [
+              "Bewegt",
+              "Wasser und wenige Windreaktionen halten die Welt lebendig."
+            ],
+            [
+              "Begrenzt",
+              "Geschwindigkeit und Stärke aufeinander abstimmen; ruhige Bereiche zulassen."
+            ]
+          ]
+        },
+        {
+          "id": "accent",
+          "title": "Ein Akzent je Blickbereich",
+          "fields": [
+            [
+              "Bewegt",
+              "Zum Beispiel ein langsamer Ballon oder eine Wolke, abhängig vom Bildausschnitt."
+            ],
+            [
+              "Auswahl",
+              "Eine klare Hervorhebung; Ring, Leuchten und Marker müssen nicht ständig gemeinsam laufen."
+            ]
+          ]
+        },
+        {
+          "id": "light",
+          "title": "Licht statt Kleinteile",
+          "fields": [
+            [
+              "Bildwirkung",
+              "Stimmige Tages- und Nachtbeleuchtung, warme Fenster, weiche Schatten und lesbare Silhouetten."
+            ],
+            [
+              "Gestaltung",
+              "Ein Material- und Farbkonzept für Gelände, Gebäude und Requisiten."
+            ]
+          ]
+        },
+        {
+          "id": "preferences",
+          "title": "Ein gemeinsamer Bewegungsmodus",
+          "fields": [
+            [
+              "Einstellung",
+              "Animationen an/aus; reduzierte Bewegung respektieren."
+            ],
+            [
+              "Technik",
+              "Gemeinsame Uhr sowie Pausen bei unsichtbarer Szene erhalten."
+            ],
+            [
+              "Übergänge",
+              "Kamera und Fortschrittsrückmeldung berücksichtigen dieselbe Einstellung."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "progress",
+      "title": "Fortschritt und Ausbau",
+      "current": [
+        {
+          "id": "levels",
+          "title": "Fünf Ausbaustufen",
+          "fields": [
+            [
+              "Grundlage",
+              "Level 0 bis 4 je Station. Normale Themen: 50 / 250 / 750 / 1.500 beantwortete Fragen."
+            ],
+            [
+              "Wichtig",
+              "Gezählt werden Antworten, nicht ausschließlich richtige oder beherrschte Lernkarten."
+            ],
+            [
+              "Darstellung",
+              "Stationen erhalten zusätzliche Gebäude, Dächer, Schmuck oder Licht."
+            ]
+          ]
+        },
+        {
+          "id": "special",
+          "title": "Gemischt und Tagesrätsel",
+          "fields": [
+            [
+              "Gemischt",
+              "250 / 1.000 / 3.000 / 7.500 Antworten über alle Themen."
+            ],
+            [
+              "Tagesrätsel",
+              "5 / 25 / 75 / 150 gelöste Tagesrätsel; Übungsrätsel zählen nicht."
+            ],
+            [
+              "Bestand",
+              "Frühere zusammengeführte Kategorien werden weiterhin berücksichtigt."
+            ]
+          ]
+        },
+        {
+          "id": "celebration",
+          "title": "Ausbau melden",
+          "fields": [
+            [
+              "Anzeige",
+              "Neuer Ausbau wird am Modell, in der Symbolleiste und als Benachrichtigung sichtbar."
+            ],
+            [
+              "Prüfpunkt",
+              "Bei mehreren Meldungen und hohen Ausbaustufen kann die Welt dichter werden."
+            ]
+          ]
+        }
+      ],
+      "proposal": [
+        {
+          "id": "honest",
+          "title": "Übungsfortschritt klar benennen",
+          "fields": [
+            [
+              "Messgröße",
+              "Beantwortete Fragen beziehungsweise gelöste Tagesrätsel."
+            ],
+            [
+              "Bedeutung",
+              "Kosmetischer Ausbau zeigt Übungsaktivität. Wissensbeherrschung wäre eine separate, anders berechnete Messgröße."
+            ],
+            [
+              "Bestand",
+              "Bisherigen Fortschritt erhalten und auf Themen zuordnen."
+            ]
+          ]
+        },
+        {
+          "id": "compact",
+          "title": "Ausbauen ohne Überladen",
+          "fields": [
+            [
+              "Darstellung",
+              "Vorhandene Silhouetten, Dächer, Materialien und gezielte Lichtakzente verändern."
+            ],
+            [
+              "Begrenzt",
+              "Nicht bei jeder Stufe zusätzliche Häuser um jedes Modell stapeln."
+            ],
+            [
+              "Zugriff",
+              "Alle Themen und Übungen bleiben unabhängig vom Ausbau zugänglich."
+            ]
+          ]
+        },
+        {
+          "id": "brief",
+          "title": "Kurze Rückmeldung",
+          "fields": [
+            [
+              "Darstellung",
+              "Nach der Runde eine kurze Veränderung am zugehörigen Ort zeigen."
+            ],
+            [
+              "Ruhe",
+              "Danach keine dauernden Popups oder blinkenden Belohnungen."
+            ],
+            [
+              "Reduzierte Bewegung",
+              "Statische Rückmeldung statt Kamerafahrt und Effektanimation."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "performance",
+      "title": "Technik und Erweiterung",
+      "current": [
+        {
+          "id": "foundation",
+          "title": "Bereits gute Grundlagen",
+          "fields": [
+            [
+              "Vorhanden",
+              "Instanzierte Bäume, Fenster und Küstenfelsen; gemeinsame Animationsuhr; begrenzte Pixeldichte."
+            ],
+            [
+              "Rendering",
+              "Schatten werden zwischengespeichert; im Pausenmodus wird nur bei Bedarf gerendert."
+            ],
+            [
+              "Prüfpunkt",
+              "Diese Optimierungen beim Umbau nicht verlieren."
+            ]
+          ]
+        },
+        {
+          "id": "coupling",
+          "title": "Stationen im Code verteilt",
+          "fields": [
+            [
+              "Vorhanden",
+              "Sichtbare Kategorien benötigen Positionen, Symbole, Modell-Zuordnung und Ausbauvarianten an mehreren Stellen."
+            ],
+            [
+              "Kopplung",
+              "Fehlt die Position einer sichtbaren Kategorie, wird ein Fehler ausgelöst."
+            ],
+            [
+              "Prüfpunkt",
+              "Eine neue Quizübung darf künftig nicht automatisch ein neues 3D-Modell verlangen."
+            ]
+          ]
+        },
+        {
+          "id": "fallback",
+          "title": "Laden und Fallback",
+          "fields": [
+            [
+              "Vorhanden",
+              "3D wird nach Bedarf geladen; Menü bei fehlendem WebGL oder Szenenfehler."
+            ],
+            [
+              "Prüfpunkt",
+              "Die zugängliche Themenauswahl ist bereits vom WebGL-Bild getrennt."
+            ]
+          ]
+        }
+      ],
+      "proposal": [
+        {
+          "id": "registry",
+          "title": "Welt- und Quizdefinitionen trennen",
+          "fields": [
+            [
+              "Quizkatalog",
+              "Übung, Thema, Generatoren und sinnvolle Optionen."
+            ],
+            [
+              "Weltkatalog",
+              "Viertel, Themenort, Position, Modellvorlage und Auswahlfläche."
+            ],
+            [
+              "Verknüpfung",
+              "Themen-ID verbindet beides; neue Übung im bestehenden Thema erscheint automatisch."
+            ]
+          ]
+        },
+        {
+          "id": "quality",
+          "title": "Qualität passend zum Gerät",
+          "fields": [
+            [
+              "Stufen",
+              "Auflösung, Schatten und Umgebungsdetails abgestuft statt eine feste Last für alle Geräte."
+            ],
+            [
+              "Priorität",
+              "Bedienung, Modell-Erkennbarkeit und Bildkomposition zuerst; Dekoration danach."
+            ],
+            [
+              "Prüfung",
+              "Tatsächliche Bildzeiten und Reaktionszeiten auf Desktop und Handy messen."
+            ]
+          ]
+        },
+        {
+          "id": "modules",
+          "title": "Kleine, austauschbare Bausteine",
+          "fields": [
+            [
+              "Aufteilung",
+              "Gelände · Themenorte · Kamera/Eingabe · Anzeigen · Fortschritt · Qualitätssteuerung."
+            ],
+            [
+              "Wiederverwenden",
+              "Modellvorlagen, Geometrien und Materialien gemeinsam nutzen."
+            ],
+            [
+              "Fehlertoleranz",
+              "Ein noch nicht gestalteter Themenort erhält eine beschriftete Standardvorlage."
+            ]
+          ]
+        },
+        {
+          "id": "checks",
+          "title": "Umbau prüfen",
+          "fields": [
+            [
+              "Bedienung",
+              "Alle Themen per Maus, Touch und Tastatur erreichbar; Ziehen startet kein Quiz."
+            ],
+            [
+              "Bild",
+              "Große, lesbare Welt ohne überdeckte Auswahl; schmale Ansicht und Vollbild prüfen."
+            ],
+            [
+              "Bestand",
+              "Quizlinks, Speicherstände, Pause und WebGL-Fallback weiter testen."
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

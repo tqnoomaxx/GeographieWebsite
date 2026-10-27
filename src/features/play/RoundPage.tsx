@@ -7,6 +7,7 @@ import { refreshCountryFacts } from '@/engine/countryFacts'
 import { useDocumentTitle } from '@/app/hooks'
 import {
   advanceSession,
+  acceptProfileInput,
   baseQuestionPosition,
   baseQuestionTotal,
   buildSession,
@@ -37,6 +38,7 @@ import {
 } from './QuizVisuals'
 import { FlagImage } from './FlagImage'
 import { Photo } from '@/ui/Photo'
+import { ProfileQuestion } from './ProfileQuestion'
 
 export default function RoundPage() {
   const location = useLocation()
@@ -65,7 +67,8 @@ function RoundSessionPage() {
     if (!sessionId) return
     repo
       .getSession(sessionId)
-      .then((s) => (s ? setStored({ ...s, setup: setupOf(s) }) : setError(new Error('Runde nicht gefunden')))).catch(setError)
+      .then((s) => (s ? setStored({ ...s, setup: setupOf(s) }) : setError(new Error('Runde nicht gefunden'))))
+      .catch(setError)
   }, [sessionId, repo])
   const setup: RoundConfig | null = stored
     ? stored.setup
@@ -81,6 +84,10 @@ function RoundSessionPage() {
 
   useEffect(() => {
     if (resources.loading || resources.error || !geo.ready || startedRef.current || !setup) return
+    if (!sessionId && params.has('quiz') && !setup.exercise) {
+      setError(new Error('Diese Übung wurde nicht gefunden. Wähle sie bitte erneut aus.'))
+      return
+    }
     startedRef.current = true
     ;(async () => {
       try {
@@ -92,7 +99,7 @@ function RoundSessionPage() {
         }
         const progress = await repo.getAllEntityProgress()
         let s = buildSession(geo.contextFor(setup.scope), setup, { progress })
-        if (!s.questions.length && category && !setup.only?.length) {
+        if (!s.questions.length && category && !setup.only?.length && !setup.exercise) {
           const fallback = defaultRound(category)
           s = buildSession(geo.contextFor(fallback.scope), fallback, { progress })
         }
@@ -124,7 +131,11 @@ function RoundSessionPage() {
       finishingRef.current = true
       setFinishing(true)
       try {
-        const done = { ...s, remaining: s.mode === 'full' ? [] : s.remaining, completedAt: new Date().toISOString() }
+        const done = {
+          ...s,
+          remaining: s.mode === 'full' ? [] : s.remaining,
+          completedAt: new Date().toISOString(),
+        }
         await repo.saveSession(done)
         const out = await applySession(repo, done, geo.byId)
         done.xpEarned = out.xp
@@ -134,7 +145,10 @@ function RoundSessionPage() {
         setSession(done)
       } catch (cause) {
         setError(cause instanceof Error ? cause : new Error('Lernstand konnte nicht gespeichert werden.'))
-      } finally { finishingRef.current = false; setFinishing(false) }
+      } finally {
+        finishingRef.current = false
+        setFinishing(false)
+      }
     },
     [repo, geo.byId],
   )
@@ -148,6 +162,17 @@ function RoundSessionPage() {
       await persist(next)
     },
     [session, persist, ctx],
+  )
+
+  const profileInput = useCallback(
+    async (value: string) => {
+      if (!session) return
+      const next = acceptProfileInput(session, value)
+      if (next === session) return
+      setSession(next)
+      await persist(next)
+    },
+    [session, persist],
   )
 
   const skip = useCallback(async () => {
@@ -180,7 +205,9 @@ function RoundSessionPage() {
     return (
       <div className="mx-auto max-w-md p-4">
         <ErrorState message={error.message} />
-        <Link to="/play" className="btn-secondary mt-3">Zur Spielauswahl</Link>
+        <Link to="/play" className="btn-secondary mt-3">
+          Zur Spielauswahl
+        </Link>
       </div>
     )
   if (finishing) return <LoadingState message="Lernstand wird gespeichert …" />
@@ -223,19 +250,29 @@ function RoundSessionPage() {
         </div>
       </header>
       <main className="relative z-10 mx-auto flex w-full max-w-[1440px] flex-col px-4 py-7 sm:px-8 md:py-10 lg:px-12">
-        <QuestionView
-          key={current.question.id}
-          q={current.question}
-          given={current.given}
-          correct={current.correct}
-          repeated={current.repeated}
-          attempts={current.attempts ?? 0}
-          lastWrong={session.lastWrongMapGuess}
-          hideFlagHints={!!session.setup.hideFlagHints}
-          onAnswer={answer}
-          onNext={advance}
-          onSkip={current.question.map?.kind === 'europe' ? skip : undefined}
-        />
+        {current.question.question_type === 'profile_input' ? (
+          <ProfileQuestion
+            key={current.question.id}
+            item={current}
+            onInput={profileInput}
+            onAnswer={answer}
+            onNext={advance}
+          />
+        ) : (
+          <QuestionView
+            key={current.question.id}
+            q={current.question}
+            given={current.given}
+            correct={current.correct}
+            repeated={current.repeated}
+            attempts={current.attempts ?? 0}
+            lastWrong={session.lastWrongMapGuess}
+            hideFlagHints={!!session.setup.hideFlagHints}
+            onAnswer={answer}
+            onNext={advance}
+            onSkip={current.question.map?.kind === 'europe' ? skip : undefined}
+          />
+        )}
       </main>
     </div>
   )
@@ -285,7 +322,10 @@ function QuestionView({
       }
       if (!answered && q.options && /^[1-4]$/.test(e.key)) {
         const opt = q.options[Number(e.key) - 1]
-        if (opt) { e.preventDefault(); onAnswer(opt.id) }
+        if (opt) {
+          e.preventDefault()
+          onAnswer(opt.id)
+        }
       }
     }
     window.addEventListener('keydown', onKey)
@@ -526,7 +566,13 @@ function QuestionView({
               <p className="mt-2 text-xs text-ink-2">
                 {t('play.fact_source')}{' '}
                 {q.sources.map((source) => (
-                  <a key={source.url} href={source.url} target="_blank" rel="noreferrer" className="underline">
+                  <a
+                    key={source.url}
+                    href={source.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="underline"
+                  >
                     {source.label}
                   </a>
                 ))}
@@ -585,10 +631,21 @@ function ResultView({ session, outcome }: { session: QuizSession; outcome: Round
       <div className="mx-auto w-full max-w-3xl text-center">
         <p className="eyebrow mb-3">{t('play.expedition_report')}</p>
         <h1 className="text-4xl font-medium md:text-6xl">
-          {!completed ? 'Runde vorzeitig beendet' : session.mode === 'full' ? t('play.full_done') : t('play.round_done')}
+          {!completed
+            ? 'Runde vorzeitig beendet'
+            : session.mode === 'full'
+              ? t('play.full_done')
+              : t('play.round_done')}
         </h1>
-        <RoundTitle setup={session.setup} className="mx-auto mt-3 w-fit max-w-full text-left [&_p]:whitespace-normal" />
-        {!completed && <p className="mt-3 text-ink-2">{baseAnswered.length} von {baseQuestionTotal(session)} Fragen bearbeitet</p>}
+        <RoundTitle
+          setup={session.setup}
+          className="mx-auto mt-3 w-fit max-w-full text-left [&_p]:whitespace-normal"
+        />
+        {!completed && (
+          <p className="mt-3 text-ink-2">
+            {baseAnswered.length} von {baseQuestionTotal(session)} Fragen bearbeitet
+          </p>
+        )}
         <div className="mx-auto mt-7 flex h-44 w-44 flex-col items-center justify-center rounded-full border-[10px] border-accent-soft bg-card shadow-sm">
           <p className="text-5xl font-semibold tabular-nums">
             {pct}
@@ -616,7 +673,9 @@ function ResultView({ session, outcome }: { session: QuizSession; outcome: Round
             <div className="text-xs text-ink-2">{t('play.recovered')}</div>
           </Card>
         </div>
-        {(outcome || session.xpEarned > 0) && <p className="mt-2 text-lg font-medium text-accent">+{outcome?.xp ?? session.xpEarned} XP</p>}
+        {(outcome || session.xpEarned > 0) && (
+          <p className="mt-2 text-lg font-medium text-accent">+{outcome?.xp ?? session.xpEarned} XP</p>
+        )}
         {outcome?.levelUp && (
           <p className="mt-2 font-medium">⭐ {t('play.level_up', { level: outcome.levelUp })}</p>
         )}

@@ -1,0 +1,40 @@
+/* The original interactive atlas is the start page's main surface. */
+.simple-shell .home-atlas {
+  display: block;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: 0;
+  padding: 24px 28px;
+  background: radial-gradient(circle at 50% 47%, #62cdd933, transparent 38%), radial-gradient(circle at 50% 50%, #142e43, #071521 67%, #030a10 100%);
+  color: #f6fbfb;
+}
+.home-atlas-heading { position: relative; z-index: 3; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+.simple-shell .home-atlas h1 { max-width: none; color: #f6fbfb; font-size: clamp(24px, 2.4vw, 34px); line-height: 1.2; letter-spacing: -.035em; }
+.simple-shell .home-atlas-heading p { margin-top: 6px; font-size: 14px; color: #b9d6dd; }
+.home-atlas-heading .simple-hero-actions { margin-top: 0; gap: 10px; }
+.simple-shell .home-atlas .btn-secondary { color: #e6f2f3; background: #ffffff0b; border-color: #ffffff35; }
+.simple-shell .home-atlas .btn-secondary:hover { background: #ffffff18; border-color: #ffffff70; }
+.home-atlas .interactive-globe { padding: 0 0 2px; margin-top: 4px; }
+.home-atlas .globe-stage { width: min(100%, clamp(340px, calc(100svh - 270px), 620px)); }
+.home-atlas .globe-country-picker { margin-top: -8px; }
+.home-atlas .globe-country-picker label { color: #c7e0e2; font-family: var(--font-sans); font-size: 12px; letter-spacing: 0; text-transform: none; }
+.home-atlas .globe-space-scene { top: -6rem; bottom: -3rem; }
+.home-atlas-loading { display: grid; place-items: center; width: min(100%, 620px); aspect-ratio: 1; margin: auto; color: #c7e0e2; }
+.home-atlas + .country-quiz-panel { margin: 20px 0 28px; border: 1px solid var(--line); border-radius: 14px; box-shadow: none; overflow: hidden; }
+@media (max-width: 900px) {
+  .home-atlas-heading { align-items: flex-start; flex-direction: column; gap: 16px; }
+  .home-atlas .globe-stage { width: min(100%, clamp(320px, calc(100svh - 320px), 540px)); }
+}
+@media (max-width: 767px) {
+  .simple-shell .home-atlas { padding: 20px; }
+  .simple-shell .home-atlas h1 { font-size: 24px; }
+  .home-atlas .interactive-globe { margin-top: 8px; }
+  .home-atlas .globe-stage { width: min(100%, 360px); }
+  .home-atlas .globe-country-picker { width: 100%; margin-top: 0; }
+  .home-atlas .globe-country-picker select { font-size: 14px; }
+}
+@media (max-width: 359px) {
+  .simple-shell .home-atlas { padding: 16px 14px; }
+  .simple-shell .home-atlas h1 { font-size: 22px; }
+}

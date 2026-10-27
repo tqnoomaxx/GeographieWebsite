@@ -2,6 +2,8 @@ import type { CategoryId } from './types'
 import type { Entity } from '@/domain/types'
 import { AUTO, ROUND_LENGTHS, modeFor, quizFor, type Content } from '@/config/quizzes'
 import { SCOPES } from './scope'
+import { selectedProfileIds } from './profile'
+import { exerciseFor, exerciseScopeAllowed } from '@/config/quizCatalog'
 
 /**
  * Das Setup einer Runde – die eine Beschreibung dessen, was gespielt wird.
@@ -9,6 +11,10 @@ import { SCOPES } from './scope'
  */
 export interface RoundConfig {
   category: CategoryId
+  /** Stable catalog exercise; absent on legacy rounds. */
+  exercise?: string
+  collection?: string
+  fields?: string[]
   /** Fragetyp: 'auto' oder eine Mode-ID aus config/quizzes.ts */
   mode: string
   /** world | <Kontinent> | country:<ISO> */
@@ -37,6 +43,9 @@ export function defaultRound(category: CategoryId): RoundConfig {
 
 export function toQuery(c: RoundConfig): string {
   const p = new URLSearchParams()
+  if (c.exercise) p.set('quiz', c.exercise)
+  if (c.collection) p.set('collection', c.collection)
+  if (c.fields?.length) p.set('fields', c.fields.join(','))
   p.set('mode', c.mode)
   p.set('scope', c.scope)
   p.set('len', String(c.length))
@@ -66,6 +75,8 @@ export function fromQuery(category: CategoryId, params: URLSearchParams): RoundC
     SCOPES.includes(requestedScope as (typeof SCOPES)[number]) || /^country:[A-Z]{2}$/.test(requestedScope)
       ? requestedScope
       : fallback.scope
+  const exercise = exerciseFor(params.get('quiz') ?? undefined)
+  const selected = exercise?.topic === category ? exercise : undefined
   const requestedMode = params.get('mode') ?? AUTO
   const requestedModeDef = modeFor(category, requestedMode)
   const modeAllowedInScope =
@@ -75,8 +86,20 @@ export function fromQuery(category: CategoryId, params: URLSearchParams): RoundC
   const mode = requestedMode === AUTO || modeAllowedInScope ? requestedMode : AUTO
   return {
     category,
-    mode,
-    scope,
+    exercise: selected?.id,
+    collection: selected?.collections
+      ? (selected.collections.find((c) => c.id === params.get('collection')) ?? selected.collections[0]).id
+      : undefined,
+    fields: selected?.kind === 'profile' ? selectedProfileIds(params.get('fields')?.split(',')) : undefined,
+    mode: selected
+      ? selected.variants[requestedMode as 'choice' | 'input' | 'map']
+        ? requestedMode
+        : Object.keys(selected.variants)[0]
+      : mode,
+    scope:
+      selected && !exerciseScopeAllowed(selected, scope, requestedMode)
+        ? (selected.defaultScope ?? 'world')
+        : scope,
     length,
     repeat: params.get('repeat') !== '0',
     content: content === 'country' || content === 'region' ? [content] : undefined,

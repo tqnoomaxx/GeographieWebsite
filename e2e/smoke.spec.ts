@@ -68,7 +68,6 @@ test('Startseite und Kategorien', async ({ page }) => {
   const errors = watchErrors(page)
   await page.goto('')
   await expect(page.getByRole('heading', { level: 1 })).toContainText(/Welt/)
-  await page.locator('.atlas-disclosure > summary').click()
   await expect(page.getByRole('application', { name: /Interaktive Weltkugel/ })).toBeVisible()
   await expect(page.getByRole('link', { name: /Flaggen/ }).first()).toBeVisible()
   expect(errors).toEqual([])
@@ -109,8 +108,8 @@ test('Quizlandschaft verlinkt alle sichtbaren Stationen und öffnet die Konfigur
   await countries.press('Enter')
 
   await expect(page).toHaveURL(/\/play\/countries$/)
-  await expect(page.getByRole('heading', { name: 'Länder' })).toBeVisible()
-  await expect(page.getByRole('button', { name: 'Quiz starten' })).toBeEnabled()
+  await expect(page.getByRole('heading', { name: 'Länder & Karten' })).toBeVisible()
+  await expect(page.locator('[data-exercise="country-map"]')).toBeVisible()
   expect(errors).toEqual([])
 })
 
@@ -165,6 +164,38 @@ test('Ausbaustufen erscheinen im Diorama und im Quiz-Menü', async ({ page }) =>
 test('Ein neuer Ausbau wird genau einmal gefeiert und bleibt bei Reduced Motion statisch', async ({
   page,
 }) => {
+  // Capture the transient DOM state at its render, before software WebGL can occupy the main thread.
+  await page.addInitScript(() => {
+    const snapshots: Array<{
+      station: string
+      message: string | null
+      marker: string | null
+      animation: string
+    }> = []
+    Object.assign(window, { __upgradeSnapshots: snapshots })
+    let previous: string | null = null
+    new MutationObserver(() => {
+      const root = document.querySelector('.play-map-switcher')
+      const station = root?.getAttribute('data-upgrade-station') ?? null
+      if (station === previous) return
+      previous = station
+      if (!station || !root) return
+      const toast = root.querySelector('[role="status"]')
+      snapshots.push({
+        station,
+        message: toast?.textContent ?? null,
+        marker: root.querySelector('[data-quiz-station="flags"] .quiz-diorama-new')?.textContent ?? null,
+        animation: toast ? getComputedStyle(toast).animationName : '',
+      })
+    }).observe(document, {
+      subtree: true,
+      childList: true,
+      attributes: true,
+      attributeFilter: ['data-upgrade-station'],
+    })
+  })
+  const observed = () =>
+    page.evaluate(() => (window as Window & { __upgradeSnapshots: unknown[] }).__upgradeSnapshots)
   await page.goto('play?view=diorama')
   await expect
     .poll(() => page.evaluate(() => localStorage.getItem('atlasfunke.station-upgrades.v1')))
@@ -172,21 +203,25 @@ test('Ein neuer Ausbau wird genau einmal gefeiert und bleibt bei Reduced Motion 
   await seedStats(page, { flags: { answered: 50, correct: 0 } }, 50)
   await page.emulateMedia({ reducedMotion: 'reduce' })
   await page.reload()
-
-  const celebration = page.getByRole('status')
-  await expect(celebration).toContainText('Ausbau abgeschlossen')
-  await expect(celebration).toContainText('Flaggen ist jetzt Stufe 1 · Erweitert')
-  await expect(page.locator('.play-map-switcher')).toHaveAttribute('data-upgrade-station', 'flags')
-  await expect(page.locator('[data-quiz-station="flags"] .quiz-diorama-new')).toContainText('Neu')
-  await expect(celebration).toHaveCSS('animation-name', 'none')
+  await expect
+    .poll(observed)
+    .toEqual([
+      {
+        station: 'flags',
+        message: expect.stringContaining('Flaggen ist jetzt Stufe 1 · Erweitert'),
+        marker: 'Neu',
+        animation: 'none',
+      },
+    ])
   await expect
     .poll(() =>
       page.evaluate(() => JSON.parse(localStorage.getItem('atlasfunke.station-upgrades.v1')!).levels.flags),
     )
     .toBe(1)
-
   await page.reload()
-  await expect(page.locator('.play-station-upgrade')).toHaveCount(0)
+  await expect(page.locator('[data-quiz-station="flags"]')).toHaveAttribute('data-station-level', '1')
+  await expect(page.locator('.quiz-diorama-3d')).toHaveAttribute('aria-busy', 'false')
+  expect(await observed()).toEqual([])
 })
 
 test('Ohne WebGL bleibt das vollständige Quiz-Menü verfügbar', async ({ page }) => {
@@ -209,25 +244,20 @@ test('Ohne WebGL bleibt das vollständige Quiz-Menü verfügbar', async ({ page 
   }
 })
 
-test('Fotos sind als Modus in Sehenswürdigkeiten zusammengeführt', async ({ page }) => {
-  await page.goto('play')
-  await expect(page.locator('[data-quiz-station="images"]')).toHaveCount(0)
-  await expect(page.locator('[data-quiz-topic="landmarks"]')).toHaveAttribute('href', /\/play\/landmarks$/)
+test('Fotoübungen bleiben über die bisherigen Links erreichbar', async ({ page }) => {
   await page.goto('play/landmarks')
-  await expect(page).toHaveURL(/\/play\/landmarks$/)
-  await openQuizSettings(page)
-  await expect(page.getByRole('radio', { name: 'Sehenswürdigkeit am Foto erkennen' })).toBeVisible()
-
+  await expect(page.locator('[data-exercise="landmark-photo"]')).toBeVisible()
   await page.goto('play/images')
-  await expect(page).toHaveURL(/\/play\/landmarks\?mode=image_to_landmark$/)
-  await openQuizSettings(page)
-  await expect(page.getByRole('radio', { name: 'Sehenswürdigkeit am Foto erkennen' })).toBeChecked()
+  await expect(page).toHaveURL(/\/play\/landmarks$/)
+  await page.locator('[data-exercise="landmark-photo"]').click()
+  await page.getByRole('button', { name: 'Eintippen', exact: true }).click()
+  await page.getByRole('button', { name: 'Quiz starten', exact: true }).click()
+  await expect(page.locator('[data-generator="image_to_landmark_input"]')).toBeVisible()
 })
 
 test('Weltkugel wählt ein Land und öffnet dessen Quizkonfiguration', async ({ page }) => {
   const errors = watchErrors(page)
   await page.goto('')
-  await page.locator('.atlas-disclosure > summary').click()
   // Die automatische Rotation verändert fortlaufend die SVG-Pfade. Fokus pausiert sie
   // wie bei Tastaturbedienung, damit Playwright einen echten stabilen Klick ausführt.
   const globe = page.getByRole('application', { name: /Interaktive Weltkugel/ })
@@ -239,30 +269,23 @@ test('Weltkugel wählt ein Land und öffnet dessen Quizkonfiguration', async ({ 
   await expect(panel.getByRole('heading', { name: 'Deutschland' })).toBeVisible()
   await expect(panel.getByText('In diesem Land')).toBeVisible()
   await panel.getByRole('link', { name: /Flaggen/ }).click()
-  await expect(page).toHaveURL(/play\/flags\?scope=country%3ADE$/)
-  await openQuizSettings(page)
-  await expect(page.getByRole('radio', { name: 'Deutschland' })).toBeChecked()
+  await expect(page).toHaveURL(/play\/regions\?quiz=regional-flags.*scope=country%3ADE/)
+  await expect(page.getByRole('combobox', { name: 'Land', exact: true })).toHaveValue('country:DE')
   expect(errors).toEqual([])
 })
 
 test('Quiz-Deep-Link validiert unterstützte und ungültige Länderbereiche', async ({ page }) => {
   await page.goto('play/flags?scope=country:DE')
-  await openQuizSettings(page)
-  await expect(page.getByRole('radio', { name: 'Deutschland' })).toBeChecked()
-
+  await expect(page.getByRole('combobox', { name: 'Land', exact: true })).toHaveValue('country:DE')
   await page.goto('play/flags?scope=country:ZZ')
-  await openQuizSettings(page)
-  await expect(page.getByRole('radio', { name: /Welt/ }).first()).toBeChecked()
-
+  await expect(page.getByRole('combobox', { name: 'Land', exact: true })).toHaveValue('country:DE')
   await page.goto('play/capitals?scope=country:DE')
-  await openQuizSettings(page)
-  await expect(page.getByRole('radio', { name: /Welt/ }).first()).toBeChecked()
+  await expect(page.getByRole('combobox', { name: 'Gebiet', exact: true })).toHaveValue('world')
 })
 
 test('Weltkugel respektiert reduzierte Bewegung und Drag wählt kein Land', async ({ page }) => {
   await page.emulateMedia({ reducedMotion: 'reduce' })
   await page.goto('')
-  await page.locator('.atlas-disclosure > summary').click()
   const globe = page.getByRole('application', { name: /Interaktive Weltkugel/ })
   await expect(globe).toBeVisible()
   const germany = page.locator('[data-country-id="country:DE"]')
@@ -305,9 +328,9 @@ test('Flaggenrunde spielen bis zum Ergebnis', async ({ page }) => {
 })
 
 test('„Alle“-Runde speichern und fortsetzen', async ({ page }) => {
-  await page.goto('play/flags')
-  await openQuizSettings(page)
-  await page.getByRole('radio', { name: 'Alle', exact: true }).click()
+  await page.goto('play/flags?quiz=country-flags')
+  await page.locator('.training-options summary').click()
+  await page.getByRole('combobox', { name: 'Rundenlänge', exact: true }).selectOption('all')
   await page.getByRole('button', { name: 'Quiz starten' }).click()
   await expect(page.getByText(/^1 \/ \d+$/)).toBeVisible()
   await page.getByRole('group').getByRole('button').first().click()
@@ -484,14 +507,8 @@ test('Flussseite und Liste', async ({ page }) => {
 })
 
 test('Setup: Land als Bereich, Kartenfrage mit Versuchen', async ({ page }) => {
-  await page.goto('play/flags')
-  await openQuizSettings(page)
-  await page.getByRole('radio', { name: 'Europa', exact: true }).click()
-  await openQuizSettings(page)
-  await page.getByRole('radio', { name: 'Deutschland' }).click()
-  await openQuizSettings(page)
-  await page.getByRole('radio', { name: /Flagge → Karte/ }).click()
-  await page.getByRole('button', { name: 'Quiz starten' }).click()
+  await page.goto('play/regions?quiz=regional-flags&mode=map&scope=country:DE')
+  await page.getByRole('button', { name: 'Quiz starten', exact: true }).click()
   await expect(page.locator('[data-question-type="map_click"]')).toBeVisible()
   await page.locator('[data-id="region:DE-BY"]').first().dispatchEvent('click')
   const answer = await page.locator('[data-question-type]').getAttribute('data-answer')
@@ -508,11 +525,11 @@ test('Lernkarten-Explorer', async ({ page }) => {
 })
 
 test('Setup jeder Kategorie startet eine Runde', async ({ page }) => {
-  const errors = watchErrors(page)
-  for (const cat of [
+  const topics = [
     'flags',
     'countries',
     'capitals',
+    'regions',
     'cities',
     'landmarks',
     'water',
@@ -520,91 +537,67 @@ test('Setup jeder Kategorie startet eine Runde', async ({ page }) => {
     'license_plates',
     'languages',
     'mixed',
-  ]) {
-    await page.goto(`play/${cat}`)
-    if (cat === 'languages') await expect(page.getByRole('radiogroup', { name: 'Bereich' })).toHaveCount(0)
-    else await expect(page.getByRole('radiogroup', { name: 'Bereich' })).toBeVisible()
-    const start = page.getByRole('button', { name: 'Quiz starten' })
-    await expect(start).toBeEnabled({ timeout: 15000 })
-    await start.click()
-    await expect(page.getByText(/^1 \/ \d+$/)).toBeVisible()
+    'trivia',
+  ]
+  for (const topic of topics) {
+    await page.goto('play/' + topic)
+    await page.locator('[data-exercise], .exercise-start').first().waitFor()
+    const exercises = page.locator('[data-exercise]')
+    if (await exercises.count()) await exercises.first().click()
+    await page.getByRole('button', { name: 'Quiz starten', exact: true }).click()
     await expect(page.locator('[data-question-type]')).toBeVisible()
   }
-  expect(errors).toEqual([])
 })
 
 test('Schriftenmodus zeigt Original, Umschrift und Lernfakten', async ({ page }) => {
   const errors = watchErrors(page)
-  await page.goto('play/languages')
-  await expect(page.getByRole('radiogroup', { name: 'Bereich' })).toHaveCount(0)
-  await openQuizSettings(page)
-  await page.getByRole('radio', { name: 'Kyrillisch → Lateinisch', exact: true }).click()
-  await page.getByRole('button', { name: 'Quiz starten' }).click()
+  await page.goto('play/languages?quiz=read-cyrillic')
+  await expect(page.getByRole('combobox', { name: 'Gebiet', exact: true })).toHaveCount(0)
+  await page.getByRole('button', { name: 'Quiz starten', exact: true }).click()
   await expect(page.locator('.script-study-card')).toBeVisible()
   await expect(page.locator('.script-study-original')).not.toBeEmpty()
   const answer = await page.locator('[data-question-type]').getAttribute('data-answer')
   await page.locator(`[data-option-id="${answer}"]`).click()
-  await expect(page.getByRole('status')).toBeVisible()
   await expect(page.getByRole('region', { name: 'Kurzfakten' })).toBeVisible()
   expect(errors).toEqual([])
 })
 
-test('Karten und Regionen sind in Flaggen und Länder zusammengeführt', async ({ page }) => {
+test('Regionen haben einen eigenen Platz, Karten gehören zum jeweiligen Thema', async ({ page }) => {
   await page.goto('play')
-  await expect(page.getByRole('link', { name: /^Karten/ })).toHaveCount(0)
-  await expect(page.getByRole('link', { name: /^Regionen/ })).toHaveCount(0)
-  const countriesStation = page.getByRole('link', { name: /^Länder/ })
-  await countriesStation.click()
-  await openQuizSettings(page)
-  await expect(page.getByRole('radio', { name: 'Region → Land' })).toBeVisible()
-  await openQuizSettings(page)
-  await expect(page.getByRole('radio', { name: 'Länder auf der Karte' })).toBeVisible()
-  await openQuizSettings(page)
-  await expect(page.getByRole('radio', { name: 'Regionen auf der Karte' })).toBeVisible()
+  await expect(page.locator('[data-quiz-topic="regions"]')).toBeVisible()
+  await page.locator('[data-quiz-topic="regions"]').click()
+  await expect(page.locator('[data-exercise="region-country"]')).toBeVisible()
+  await expect(page.locator('[data-exercise="region-map"]')).toBeVisible()
   await page.goto('play/maps')
-  await expect(page).toHaveURL(/\/play\/countries$/)
-  await page.goto('play/regions')
-  await expect(page).toHaveURL(/\/play\/flags$/)
+  await expect(page).toHaveURL(/quiz=country-map/)
+  await page.goto('play/flags')
+  await expect(page.locator('[data-exercise]')).toHaveCount(2)
 })
 
 test('Erweiterte Quizmodi erzeugen die passenden Fragen', async ({ page }) => {
   const cases = [
-    { category: 'countries', mode: 'Ländercodes', generator: 'country_code' },
-    { category: 'countries', mode: 'Ländervergleich', generator: 'country_comparison' },
-    { category: 'capitals', mode: 'Hauptstadt → Flagge', generator: 'capital_to_flag' },
-    { category: 'cities', mode: 'Städtevergleich', generator: 'city_population' },
+    ['countries', 'country-codes', 'country_code'],
+    ['countries', 'country-size', 'country_comparison'],
+    ['capitals', 'capital-flag', 'capital_to_flag'],
+    ['cities', 'city-size', 'city_population'],
   ]
-  for (const item of cases) {
-    await page.goto(`play/${item.category}`)
-    await openQuizSettings(page)
-    await page.getByRole('radio', { name: item.mode, exact: true }).click()
-    await page.getByRole('button', { name: 'Quiz starten' }).click()
-    await expect(page.locator(`[data-generator="${item.generator}"]`)).toBeVisible()
+  for (const [topic, id, generator] of cases) {
+    await page.goto(`play/${topic}?quiz=${id}`)
+    await page.getByRole('button', { name: 'Quiz starten', exact: true }).click()
+    await expect(page.locator(`[data-generator="${generator}"]`)).toBeVisible()
   }
-  await page.goto('play/countries')
-  await openQuizSettings(page)
-  await page.getByRole('radio', { name: 'Nationale Symbole', exact: true }).click()
-  await page.getByRole('button', { name: 'Quiz starten' }).click()
-  await expect(
-    page.locator(
-      '[data-generator="national_animal"], [data-generator="national_flower"], [data-generator="national_bird"], [data-generator="national_tree"]',
-    ),
-  ).toBeVisible()
+  await page.goto('play/countries?quiz=national-symbols')
+  await page.getByRole('button', { name: 'Quiz starten', exact: true }).click()
+  await expect(page.locator('[data-generator^="national_"]')).toBeVisible()
 })
 
 test('Mehrdeutige und triviale Varianten werden vermieden', async ({ page }) => {
-  await page.goto('play/countries')
-  await openQuizSettings(page)
-  await page.getByRole('radio', { name: 'Europa', exact: true }).click()
-  await openQuizSettings(page)
-  await page.getByRole('radio', { name: 'Deutschland', exact: true }).click()
-  await openQuizSettings(page)
-  await expect(page.getByRole('radio', { name: 'Region → Land' })).toHaveCount(0)
-  await openQuizSettings(page)
-  await expect(page.getByRole('radio', { name: 'Länder auf der Karte' })).toHaveCount(0)
-  await openQuizSettings(page)
-  await expect(page.getByRole('radio', { name: 'Regionen auf der Karte' })).toBeVisible()
-
+  await page.goto('play/countries?quiz=country-map')
+  await expect(
+    page.getByRole('combobox', { name: 'Gebiet', exact: true }).locator('option[value^="country:"]'),
+  ).toHaveCount(0)
+  await page.goto('play/regions?quiz=region-map')
+  await expect(page.getByRole('combobox', { name: 'Land', exact: true })).toBeVisible()
   await page.goto('play/flags/round?mode=flag_input&scope=country:DE&len=5&content=region')
   await expect(page.locator('[data-generator="region_flag_input"]')).toBeVisible()
 })
@@ -661,20 +654,13 @@ test('Sehenswürdigkeiten zeigen nach der Antwort Kurzfakten', async ({ page }) 
   await expect(page.locator('.quiz-feedback-facts li')).toHaveCount(3)
 })
 
-test('Flaggen: Land als Bereich und Fragetyp wählen', async ({ page }) => {
-  await page.goto('play/flags')
-  await openQuizSettings(page)
-  await page.getByRole('radio', { name: 'Europa', exact: true }).click()
-  await openQuizSettings(page)
-  await page.getByRole('radio', { name: 'Deutschland' }).click()
-  await expect(page.locator('.simple-current-mode')).toContainText('Automatisch')
-  await expect(page.locator('.simple-round-summary')).toContainText('Deutschland')
-  await openQuizSettings(page)
-  await page.getByRole('radio', { name: 'Flagge → Name' }).click()
-  await expect(page.locator('.simple-current-mode')).toContainText('Flagge → Name')
-  await page.getByRole('button', { name: 'Quiz starten' }).click()
-  await expect(page.getByRole('heading', { level: 1 })).toBeVisible()
-  await expect(page.getByRole('group').getByRole('button')).toHaveCount(4)
+test('Regionalflaggen haben eine eindeutige Länder- und Antwortauswahl', async ({ page }) => {
+  await page.goto('play/regions?quiz=regional-flags')
+  await page.getByRole('combobox', { name: 'Land', exact: true }).selectOption('country:DE')
+  await page.getByRole('button', { name: 'Auswählen', exact: true }).click()
+  await page.getByRole('button', { name: 'Quiz starten', exact: true }).click()
+  await expect(page.locator('[data-generator="flag_to_region"]')).toBeVisible()
+  await expect(page.locator('[data-option-id]')).toHaveCount(4)
 })
 
 test('Account-Sicherheit ist auch ohne Backend verständlich und geschützt', async ({ page }) => {

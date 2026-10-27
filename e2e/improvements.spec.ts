@@ -165,7 +165,6 @@ test('Ruhig bleibt gespeichert, berücksichtigt System und lässt manuelle Steue
     'true',
   )
   await page.goto('')
-  await page.locator('.atlas-disclosure > summary').click()
   const globe = page.locator('.interactive-globe')
   await expect(globe).toHaveAttribute('data-motion', 'paused')
   const svg = page.locator('.globe-svg')

@@ -6,9 +6,15 @@ Spezifikation und Roadmap: [`docs/`](docs/README.md). Ursprünglicher Master-Pro
 
 ## Bedienung
 
-Quiz starten: Thema auswählen, Kontinent und Rundenlänge festlegen, **Quiz starten**. Fragetypen, einzelne Länder und Wiederholungen stehen unter **Weitere Einstellungen**. Offene Alle-Runden erscheinen auf Start- und Quizseite zum Fortsetzen.
+Quiz starten: **Thema → Übung → passende Antwortart und Gebiet → Quiz starten**. Antwortarten mit derselben Aufgabe sind zusammengefasst. Rundenlänge, Fehlerwiederholung und Flaggenhinweise werden unter **Lernoptionen** für die nächsten Quizze gespeichert. Alle-Runden und teilweise gelöste Länderprofile lassen sich auf Start- und Quizseite fortsetzen.
 
-Die Weltkugel auf der Startseite und die 3D-Quizkarte sind zusätzliche, aufklappbare Ansichten. Unter **Entdecken** filtert die Ländersuche die Kontinente direkt. Das gemeinsame Designsystem liegt in `src/styles/simple.css`; die Start- und Quizseite verwenden denselben `QuizCatalog`.
+Die interaktive Weltkugel steht direkt auf der Startseite. Die 3D-Quizkarte ist eine zusätzliche Ansicht. Unter **Entdecken** filtert die Ländersuche die Kontinente direkt. Das gemeinsame Designsystem liegt in `src/styles/simple.css`; die Start- und Quizseite verwenden denselben `QuizCatalog`.
+
+## Neue Quizübungen ergänzen
+
+`src/config/quizCatalog.ts` enthält Themen und konkrete Übungen. Für eine neue Übung mit vorhandenen Generatoren genügt ein `EXERCISES`-Eintrag mit stabiler ID, Thema, Titel, Antwortvarianten, Gebietsregel und Datenpaketen. Menü, Suche, Auswahl, Runden-URL, Fortsetzen und Titel verwenden diesen Eintrag. Ein bestehendes Thema braucht dafür kein neues Diorama-Modell.
+
+Neue Fragesorten benötigen einmalig einen Generator in `src/engine/generators` und die Registrierung in `registry.ts`. Das Länderprofil verwendet `profile_input`: neue Profilkategorien werden über Felddefinitionen mit Label, gültigen Antworten und Normalisierung ergänzt. Die Tests in `src/engine/catalog.test.ts` prüfen für alle Katalogeinträge Datenpakete und echte Fragen. `config/quizzes.ts` bleibt für alte Runden kompatibel und steuert nicht die neue Auswahl.
 
 ## Stack
 

@@ -1,0 +1,327 @@
+.exercise-page,
+.exercise-setup {
+  width: 100%;
+  max-width: 760px;
+  margin: 22px auto 64px;
+}
+.exercise-heading {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin: 12px 0 28px;
+}
+.exercise-heading h1,
+.exercise-setup-heading h1 {
+  font-size: clamp(28px, 4vw, 40px);
+  line-height: 1.15;
+  font-weight: 750;
+  letter-spacing: -0.035em;
+}
+.exercise-heading p,
+.exercise-setup-heading p {
+  margin-top: 10px;
+  color: var(--ink-2);
+  font-size: 17px;
+  line-height: 1.55;
+}
+.exercise-list {
+  display: grid;
+  border-top: 1px solid var(--line);
+}
+.exercise-link {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 23px 4px;
+  border-bottom: 1px solid var(--line);
+}
+.exercise-link > span {
+  flex: 1;
+  min-width: 0;
+}
+.exercise-link strong {
+  display: block;
+  font-size: 18px;
+  font-weight: 650;
+}
+.exercise-link small {
+  display: block;
+  color: var(--ink-2);
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 6px;
+}
+.exercise-link > svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  color: var(--accent);
+}
+.exercise-link:hover strong {
+  color: var(--accent);
+}
+.exercise-setup {
+  max-width: 660px;
+  margin-top: 38px;
+}
+.exercise-setup-heading {
+  margin: 12px 0 36px;
+}
+.exercise-control {
+  display: block;
+  border: 0;
+  min-width: 0;
+  padding: 0;
+  margin: 0 0 28px;
+  font-size: 17px;
+  font-weight: 650;
+}
+.exercise-control legend {
+  margin-bottom: 11px;
+}
+.exercise-control select {
+  display: block;
+  width: 100%;
+  margin-top: 11px;
+  font-weight: 400;
+  min-height: 50px !important;
+}
+.answer-form-options {
+  display: flex;
+  min-width: 0;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  overflow: hidden;
+}
+.answer-form-options > button {
+  flex: 1;
+  min-width: 0;
+  min-height: 50px;
+  padding: 12px 8px;
+  font-size: 15px;
+  font-weight: 500;
+  border-right: 1px solid var(--line);
+  background: var(--card);
+}
+.answer-form-options > button:last-child {
+  border-right: 0;
+}
+.answer-form-options > button.is-selected {
+  background: var(--accent-soft);
+  color: var(--accent);
+  box-shadow: inset 0 0 0 1px var(--accent);
+  font-weight: 650;
+}
+.answer-form-options > button:focus-visible {
+  outline-offset: -4px;
+}
+.exercise-summary {
+  margin: 8px 0 26px;
+  font-size: 14px;
+  color: var(--ink-2);
+}
+.simple-shell .exercise-start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 54px;
+}
+.exercise-start > svg {
+  width: 18px;
+  height: 18px;
+}
+.training-options {
+  margin-top: 22px;
+  font-size: 14px;
+  color: var(--ink-2);
+}
+.training-options summary {
+  cursor: pointer;
+}
+.training-options summary > span {
+  display: block;
+  margin-top: 4px;
+  font-size: 12px;
+}
+.training-options-body {
+  display: grid;
+  gap: 18px;
+  padding: 22px 0 0;
+}
+.training-options-body > label:first-child {
+  display: grid;
+  gap: 9px;
+  color: var(--ink);
+}
+.training-check {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 38px;
+  cursor: pointer;
+}
+.training-check input,
+.profile-category-options input {
+  width: 19px;
+  height: 19px;
+  accent-color: var(--accent);
+  flex-shrink: 0;
+}
+.profile-category-options {
+  margin-bottom: 24px;
+}
+.profile-category-options summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+.profile-category-options summary > span {
+  margin-left: 10px;
+  color: var(--ink-2);
+}
+.profile-category-options > div {
+  display: grid;
+  gap: 12px;
+  margin-top: 18px;
+}
+.profile-category-options label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 32px;
+}
+.exercise-note {
+  color: var(--ink-2);
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+.profile-game {
+  max-width: 760px;
+  margin: 0 auto;
+  width: 100%;
+}
+.profile-game h1 {
+  font-size: clamp(28px, 4vw, 40px);
+  font-weight: 750;
+  letter-spacing: -0.03em;
+  margin-bottom: 12px;
+}
+.profile-game-intro {
+  color: var(--ink-2);
+  line-height: 1.6;
+  margin-bottom: 26px;
+}
+.profile-input {
+  width: 100%;
+  min-height: 58px !important;
+  font-size: 19px !important;
+}
+.profile-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 24px 0;
+}
+.profile-field {
+  border-bottom: 1px solid var(--line);
+  padding: 16px 0;
+  min-width: 0;
+}
+.profile-field dt {
+  font-size: 13px;
+  color: var(--ink-2);
+  margin-bottom: 8px;
+}
+.profile-field dd {
+  font-size: 19px;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+  min-height: 29px;
+}
+.profile-field[data-solved='true'] dd {
+  color: var(--accent);
+  animation: profile-pop 0.2s ease-out;
+}
+.profile-game-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+.profile-game-status {
+  color: var(--ink-2);
+  margin: 12px 0;
+  font-size: 14px;
+}
+@keyframes profile-pop {
+  from {
+    transform: scale(0.94);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .profile-field[data-solved='true'] dd {
+    animation: none;
+  }
+}
+@media (max-width: 600px) {
+  .exercise-page,
+  .exercise-setup {
+    margin-top: 10px;
+  }
+  .exercise-setup-heading {
+    margin-bottom: 28px;
+  }
+  .exercise-heading > .topic-icon {
+    display: none;
+  }
+  .exercise-control {
+    margin-bottom: 24px;
+  }
+  .exercise-link {
+    padding-block: 20px;
+  }
+  .profile-fields {
+    grid-template-columns: 1fr;
+  }
+  .exercise-setup-heading p {
+    font-size: 15px;
+  }
+  .training-options summary > span {
+    display: none;
+  }
+}
+
+.profile-game .profile-next {
+  background: var(--accent);
+  color: var(--accent-ink);
+  border: 1px solid var(--accent);
+  min-height: 48px;
+  padding: 12px 22px;
+  border-radius: 9px;
+  font-weight: 650;
+  box-shadow: none;
+}
+
+.diorama-entry {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-top: 1px solid var(--line);
+  padding: 24px 0;
+  color: var(--accent);
+  font-size: 15px;
+}
+.diorama-entry > span {
+  flex: 1;
+}
+.diorama-entry > svg {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}

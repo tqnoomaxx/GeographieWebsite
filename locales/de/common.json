@@ -346,7 +346,8 @@
     "claimed_capital_input": "Welche Stadt wird von {{name}} als Hauptstadt beansprucht?",
     "claimed_capital_to_country": "{{name}} wird als Hauptstadt beansprucht von …",
     "claimed_capital_to_flag": "Welche Flagge gehört zum Land, das {{name}} als Hauptstadt beansprucht?",
-    "trivia": "{{question}}"
+    "trivia": "{{question}}",
+    "country_profile": "Was weißt du über {{name}}?"
   },
   "daily": {
     "title": "Tägliche Rätsel",

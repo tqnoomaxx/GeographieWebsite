@@ -1,3 +1,5 @@
+import { exerciseFor, exerciseKeeps, EXERCISES } from '@/config/quizCatalog'
+import { selectProfileFields, validProfileAnswer, profileHit } from './profile'
 import type { Entity } from '@/domain/types'
 import type { CategoryId, GeneratorContext, Question } from './types'
 import type { Generator } from './generators/base'
@@ -17,6 +19,7 @@ export interface SessionQuestion {
   repeated?: boolean
   attempts?: number
   given?: string
+  profileAnswers?: Record<string, string>
   correct?: boolean
   answeredAt?: string
   ms?: number
@@ -89,14 +92,42 @@ interface PoolItem {
 /** Alle Lernkarten eines Setups (Kategorie, Fragetyp, Bereich, Inhalt) und die Generatoren, die sie bedienen. */
 export function poolFor(
   ctx: GeneratorContext,
-  setup: Pick<RoundConfig, 'category' | 'mode' | 'content'>,
+  setup: Pick<RoundConfig, 'category' | 'mode' | 'content' | 'exercise' | 'collection' | 'fields'>,
 ): Map<string, PoolItem> {
-  const content = modeFor(setup.category, setup.mode)?.content ?? setup.content
+  const exercise = exerciseFor(setup.exercise)
+  const content = exercise?.content ?? modeFor(setup.category, setup.mode)?.content ?? setup.content
   const keep = contentFilter(content)
   const map = new Map<string, PoolItem>()
-  for (const g of generatorsFor(setup.category, setup.mode, ctx.scope)) {
+  for (const source of generatorsFor(
+    setup.category,
+    setup.mode,
+    ctx.scope,
+    setup.exercise,
+    setup.collection,
+  )) {
+    const g: Generator = exercise
+      ? {
+          ...source,
+          make(target, context, rng, difficulty) {
+            const question = source.make(target, context, rng, difficulty)
+            if (!question) return null
+            return {
+              ...question,
+              category:
+                exercise.topic === 'mixed'
+                  ? (EXERCISES.find((q) => q.variants.choice?.includes(source.id))?.topic ??
+                    question.category)
+                  : exercise.topic,
+              ...(exercise.kind === 'profile'
+                ? { profileFields: selectProfileFields(question.profileFields ?? [], setup.fields) }
+                : {}),
+            }
+          },
+        }
+      : source
     for (const e of g.pool(ctx)) {
       if (keep && !keep(e)) continue
+      if (exercise && !exerciseKeeps(exercise, e)) continue
       const cur = map.get(e.id) ?? { entity: e, generators: [] }
       cur.generators.push(g)
       map.set(e.id, cur)
@@ -122,7 +153,10 @@ export function buildSession(
     setup.length === 'all'
       ? weightedOrder(entities, opts.progress, rng)
       : weightedSample(entities, entities.length, opts.progress, rng)
-  const mixed = spreadAcrossCountries(prioritized, rng)
+  const mixed =
+    setup.exercise && setup.category === 'mixed'
+      ? spreadAcrossTopics(prioritized, rng)
+      : spreadAcrossCountries(prioritized, rng)
   const ordered = setup.length === 'all' ? mixed : mixed.slice(0, Math.min(setup.length, mixed.length))
 
   const difficulty = opts.difficulty ?? 2
@@ -278,6 +312,7 @@ function weightedOrder<T extends { entity: Entity }>(
 }
 
 export function checkAnswer(q: Question, given: string, ctx?: GeneratorContext): boolean {
+  if (q.question_type === 'profile_input') return validProfileAnswer(q, given)
   if (q.question_type === 'text_input') {
     const answers = q.accepted ?? []
     if (matchesExactly(given, answers)) return true
@@ -389,4 +424,42 @@ export function setupOf(
   s: Pick<QuizSession, 'category' | 'scope' | 'length'> & { setup?: RoundConfig },
 ): RoundConfig {
   return s.setup ?? { category: s.category, mode: 'auto', scope: s.scope, length: s.length, repeat: true }
+}
+
+/** Automatic profile acceptance uses complete, unique matches; partial input never counts. */
+export function acceptProfileInput(session: QuizSession, input: string): QuizSession {
+  const current = session.questions[session.position]
+  if (!current || current.given !== undefined || current.question.question_type !== 'profile_input')
+    return session
+  const fields = current.question.profileFields ?? []
+  const filled = current.profileAnswers ?? {}
+  const hit = profileHit(fields, filled, input)
+  if (!hit) return session
+  const answers = { ...filled, [hit.id]: input.trim() }
+  const next = {
+    ...session,
+    questions: session.questions.map((q, i) =>
+      i === session.position ? { ...q, profileAnswers: answers } : q,
+    ),
+  }
+  return fields.every((f) => answers[f.id]) ? recordAnswer(next, JSON.stringify(answers)) : next
+}
+
+function spreadAcrossTopics(items: PoolItem[], rng: Rng): PoolItem[] {
+  const buckets = new Map<string, PoolItem[]>()
+  for (const item of items) {
+    const generator = rng.pick(item.generators)
+    const topic =
+      EXERCISES.find((q) => q.variants.choice?.includes(generator.id))?.topic ?? generator.category
+    const bucket = buckets.get(topic) ?? []
+    bucket.push({ ...item, generators: [generator] })
+    buckets.set(topic, bucket)
+  }
+  const result: PoolItem[] = []
+  let active = rng.shuffle([...buckets.values()])
+  while (active.length) {
+    for (const bucket of active) result.push(bucket.shift()!)
+    active = rng.shuffle(active.filter((bucket) => bucket.length))
+  }
+  return result
 }

@@ -1,14 +1,14 @@
 import { expect, type Page } from '@playwright/test'
 
-/** Zusätzliche Fragetypen liegen seit der vereinfachten Auswahl hinter einem Disclosure. */
+/** Shared training preferences are optional; unrelated pages have no quiz controls. */
 export async function openQuizSettings(page: Page) {
-  if (!/\/play\/[^/]+\/?$/.test(new URL(page.url()).pathname)) return
-  const settings = page.locator('.simple-advanced')
-  await expect(settings).toBeAttached()
-  if (!(await settings.evaluate((element) => (element as HTMLDetailsElement).open))) {
+  const settings = page.locator('.training-options')
+  if (
+    (await settings.count()) &&
+    !(await settings.evaluate((element) => (element as HTMLDetailsElement).open))
+  )
     await settings.locator('summary').click()
-  }
 }
 export async function openAtlas(page: Page) {
-  await page.locator('.atlas-disclosure > summary').click()
+  await expect(page.getByRole('application', { name: /Interaktive Weltkugel/ })).toBeVisible()
 }
