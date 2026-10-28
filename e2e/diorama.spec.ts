@@ -1,28 +1,154 @@
 import { test, expect, type Page } from '@playwright/test'
 import { OrthographicCamera, Vector3 } from 'three'
+import { STORY_CHAPTERS } from '../src/features/story/chapters'
+import { STORY_STORAGE_KEY } from '../src/features/story/storyProgress'
 import { fitDioramaCamera } from '../src/features/play/dioramaGeometry'
 
-// Pick visible model surfaces, rather than bypassing the WebGL hit testing with DOM events.
-const surfaces: Record<string, [number, number, number]> = {
-  trivia: [-1.8, 2.12, -2.65],
-  daily: [-6.45, 1, -2.45],
-  countries: [-4.55, 1.35, 0.1],
-  mixed: [-3.2, 0.28, 3.75],
-  capitals: [1.1, 1.7, 0.05],
-  cities: [2.3, 0.8, 1.35],
-  landmarks: [5.35, 1.65, 1.75],
-  languages: [5.9, 1.4, -1],
-  flags: [7.3, 2.35, -3.5],
-  nature: [2.7, 2, -4.07],
-  license_plates: [-5.88, 0.8, 2.49],
-  water: [0.15, 0.15, 3.7],
+async function solveChapter(page: Page, index: number) {
+  const chapter = STORY_CHAPTERS[index]
+  await page
+    .getByRole('button', { name: index === 0 ? 'Abenteuer beginnen' : 'Kapitel beginnen', exact: true })
+    .click()
+  for (const [taskIndex, task] of chapter.tasks.entries()) {
+    await expect(page.locator('.story-task-prompt')).toHaveText(task.prompt)
+    await page
+      .getByRole('group', { name: 'Deine Antwort', exact: true })
+      .getByRole('button')
+      .nth(task.answer)
+      .click()
+    await expect(page.locator('.story-feedback')).toContainText(task.explanation)
+    const next = page.getByRole('button', {
+      name: taskIndex === chapter.tasks.length - 1 ? 'Fundstück entdecken' : 'Der Spur folgen',
+      exact: true,
+    })
+    if (page.viewportSize()!.width < 600) {
+      const mobileNav = page.locator('.mobile-nav')
+      await expect
+        .poll(async () => {
+          const button = (await next.boundingBox())!
+          const nav = (await mobileNav.boundingBox())!
+          return button.y + button.height <= nav.y
+        })
+        .toBe(true)
+    }
+    await next.click()
+  }
+  await expect(page.locator('.story-artifact')).toContainText(chapter.artifact)
+  await page
+    .getByRole('button', {
+      name: index === 7 ? 'Den Atlas vollenden' : 'Ins Reisetagebuch legen',
+      exact: true,
+    })
+    .click()
 }
 
-async function surfacePoint(page: Page, id: string) {
-  await expect(page.locator('.quiz-diorama-3d')).toHaveAttribute('aria-busy', 'false')
-  const canvas = page.locator('.quiz-diorama-3d canvas')
-  await expect(canvas).toBeVisible()
-  const bounds = (await canvas.boundingBox())!
+test('Alle acht Kapitel sind spielbar, speichern Fundstücke und erreichen ein echtes Ende', async ({
+  page,
+}) => {
+  test.setTimeout(180_000)
+  const errors: string[] = []
+  page.on('pageerror', (error) => errors.push(error.message))
+  await page.emulateMedia({ reducedMotion: 'reduce' })
+  await page.goto('story')
+  for (let i = 0; i < STORY_CHAPTERS.length; i++) {
+    await solveChapter(page, i)
+    await expect(page.locator(`[data-journey-chapter="${i}"]`)).toHaveAccessibleName(/abgeschlossen/)
+    if (i < 7)
+      await expect(page.locator('.story-panel')).toHaveAttribute(
+        'data-story-chapter',
+        STORY_CHAPTERS[i + 1].id,
+      )
+  }
+  await expect(page.locator('.story-complete-note')).toContainText('Abenteuer abgeschlossen')
+  await page.reload()
+  await expect(page.locator('.story-complete-note')).toContainText('Abenteuer abgeschlossen')
+  await page.getByRole('button', { name: 'Reisetagebuch', exact: true }).click()
+  const journal = page.getByRole('dialog')
+  await expect(journal).toBeVisible()
+  await expect(journal.locator('li.is-found')).toHaveCount(8)
+  await expect(journal).toContainText('Der Atlas der Winde')
+  await journal.getByRole('button', { name: 'Reise neu beginnen' }).click()
+  await journal.getByRole('button', { name: 'Abbrechen', exact: true }).click()
+  await expect(journal.locator('li.is-found')).toHaveCount(8)
+  await journal.getByRole('button', { name: 'Reise neu beginnen' }).click()
+  await journal.getByRole('button', { name: 'Ja, neu beginnen', exact: true }).click()
+  await expect(page.getByRole('button', { name: 'Abenteuer beginnen', exact: true })).toBeVisible()
+  await expect(page.locator('[data-journey-chapter="1"]')).toHaveAccessibleName(/verschlossen/)
+  await page.reload()
+  await expect(page.getByRole('button', { name: 'Abenteuer beginnen', exact: true })).toBeVisible()
+  expect(errors).toEqual([])
+})
+
+test('Falsche Antworten geben Hinweise, Fortschritt überlebt Neuladen, spätere Kapitel bleiben gesperrt', async ({
+  page,
+}) => {
+  await page.goto('story')
+  await page.locator('[data-journey-chapter="3"]').click()
+  await expect(page.locator('.story-locked')).toContainText('Dieser Ort wartet noch auf dich')
+  await expect(page.getByRole('button', { name: 'Kapitel beginnen', exact: true })).toHaveCount(0)
+  await page.getByRole('button', { name: 'Weiter mit Kapitel 1' }).click()
+  await page.getByRole('button', { name: 'Abenteuer beginnen', exact: true }).click()
+  await page.getByRole('button', { name: 'Mira um einen Hinweis bitten' }).click()
+  await expect(page.locator('.story-hint')).toContainText('Im Osten')
+  await page.getByRole('group', { name: 'Deine Antwort' }).getByRole('button').nth(0).click()
+  await expect(page.locator('.story-feedback')).toContainText('Versuche es noch einmal')
+  await page.getByRole('group', { name: 'Deine Antwort' }).getByRole('button').nth(1).click()
+  await expect(page.locator('.story-feedback')).toContainText('Spur gefunden')
+  await page.reload()
+  await expect(page.locator('.story-task-prompt')).toHaveText(STORY_CHAPTERS[0].tasks[1].prompt)
+  await expect(page.locator('[data-journey-chapter="1"]')).toHaveAccessibleName(/verschlossen/)
+})
+
+test('Die Karte wählt Kapitel, dreht und zoomt; der Nachtmodus bleibt gespeichert', async ({
+  page,
+  isMobile,
+}) => {
+  await page.emulateMedia({ reducedMotion: 'reduce' })
+  await page.goto('play?view=diorama')
+  await expect(page).toHaveURL(/\/story$/)
+  const world = page.locator('.quiz-diorama-3d')
+  await expect(world).toHaveAttribute('aria-busy', 'false')
+  await expect(world).toHaveAttribute('data-motion', 'paused')
+  await page.getByRole('button', { name: 'Ansicht nach rechts drehen' }).click()
+  await expect(world).not.toHaveAttribute('data-view-angle', '0.000')
+  await page.getByRole('button', { name: 'Vergrößern', exact: true }).click()
+  await expect(world).toHaveAttribute('data-view-zoom', '1.15')
+  await page.getByRole('button', { name: 'Ansicht zurücksetzen' }).click()
+  await expect(world).toHaveAttribute('data-view-angle', '0.000')
+  await page.getByRole('button', { name: 'Nachtmodus', exact: true }).click()
+  await expect(world).toHaveAttribute('data-time', 'night')
+  await page.reload()
+  await expect(world).toHaveAttribute('data-time', 'night')
+  await page.getByRole('button', { name: 'Ort 7:', exact: false }).click()
+  await expect(page.locator('.story-panel')).toHaveAttribute('data-story-chapter', 'gipfel')
+  await expect(page.locator('.story-locked')).toBeVisible()
+  if (isMobile) await expect(page.locator('.story-panel h2')).toBeInViewport()
+  await page.locator('[data-story-route="0"]').click()
+  await expect(page.getByRole('button', { name: 'Abenteuer beginnen', exact: true })).toBeVisible()
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
+})
+
+test('Ohne WebGL ist die gesamte Geschichte weiterhin spielbar', async ({ page }) => {
+  await page.addInitScript(() => {
+    const original = HTMLCanvasElement.prototype.getContext
+    HTMLCanvasElement.prototype.getContext = function (type: string, ...args: unknown[]) {
+      if (type === 'webgl' || type === 'webgl2' || type === 'experimental-webgl') return null
+      return original.call(this, type as '2d', ...(args as []))
+    } as typeof HTMLCanvasElement.prototype.getContext
+  })
+  await page.goto('story')
+  await expect(page.locator('.story-island-fallback')).toBeVisible()
+  await solveChapter(page, 0)
+  await expect(page.locator('.story-panel')).toHaveAttribute('data-story-chapter', 'kartenhaus')
+})
+
+test('Auch das 3D-Modell selbst öffnet ein Kapitel statt eines Quiz', async ({ page, isMobile }) => {
+  await page.emulateMedia({ reducedMotion: 'reduce' })
+  await page.goto('story')
+  const world = page.locator('.quiz-diorama-3d')
+  await expect(world).toHaveAttribute('aria-busy', 'false')
+  await world.scrollIntoViewIfNeeded()
+  const bounds = (await world.locator('canvas').boundingBox())!
   const camera = new OrthographicCamera(
     -bounds.width / 2,
     bounds.width / 2,
@@ -31,204 +157,47 @@ async function surfacePoint(page: Page, id: string) {
     0.1,
     80,
   )
-  fitDioramaCamera(camera, bounds.width, bounds.height)
-  const point = new Vector3(...surfaces[id]).project(camera)
-  return {
-    x: bounds.x + ((point.x + 1) * bounds.width) / 2,
-    y: bounds.y + ((1 - point.y) * bounds.height) / 2,
-  }
-}
-
-test('Jedes 3D-Modell wählt die richtige Quizstation', async ({ page, isMobile }) => {
-  const errors: string[] = []
-  page.on('pageerror', (error) => errors.push(error.message))
-  await page.emulateMedia({ reducedMotion: 'reduce' })
-  await page.goto('play?view=diorama')
-  await page.locator('.quiz-diorama-3d').scrollIntoViewIfNeeded()
-  await expect.poll(() => page.locator('.quiz-diorama-3d canvas').count()).toBe(1)
-  await expect(page.locator('.quiz-diorama-3d canvas')).toHaveAttribute('width', /[1-9]\d+/)
-  for (const id of Object.keys(surfaces)) {
-    const point = await surfacePoint(page, id)
-    if (isMobile) await page.touchscreen.tap(point.x, point.y)
-    else await page.mouse.move(point.x, point.y)
-    await expect(page.locator('.quiz-diorama-3d')).toHaveAttribute('data-active-station', id)
-    await expect(page).toHaveURL(/\/play(?:\?view=diorama)?$/)
-  }
-  expect(errors).toEqual([])
-})
-
-test('Die Auswahl bleibt bis zur Konfiguration erreichbar und lässt sich schließen', async ({ page }) => {
-  await page.goto('play?view=diorama')
-  const countries = page.locator('[data-quiz-station="countries"]')
-  await countries.focus()
-  await page.mouse.move(2, 2)
-  await page.locator('.quiz-diorama-context a').focus()
-  await expect(page.locator('.quiz-diorama-3d')).toHaveAttribute('data-active-station', 'countries')
-  await page.locator('.quiz-diorama-context a').press('Escape')
-  await expect(page.locator('.quiz-diorama-3d')).not.toHaveAttribute('data-active-station')
-  await countries.focus()
-  await page.locator('.quiz-diorama-context a').click()
-  await expect(page).toHaveURL(/\/play\/countries$/)
-  await expect(page.locator('[data-exercise="country-map"]')).toBeVisible()
-})
-
-test('Direkter 3D-Klick und zweites Antippen öffnen das passende Quiz', async ({ page, isMobile }) => {
-  await page.emulateMedia({ reducedMotion: 'reduce' })
-  await page.goto('play?view=diorama')
-  await page.locator('.quiz-diorama-3d').scrollIntoViewIfNeeded()
-  const point = await surfacePoint(page, 'countries')
+  fitDioramaCamera(
+    camera,
+    bounds.width,
+    bounds.height,
+    undefined,
+    bounds.width < 750 ? { top: 70, bottom: 70, side: 20 } : undefined,
+  )
+  const point = new Vector3(7.3, 2.35, -3.5).project(camera)
+  const x = bounds.x + ((point.x + 1) * bounds.width) / 2
+  const y = bounds.y + ((1 - point.y) * bounds.height) / 2
   if (isMobile) {
-    await page.touchscreen.tap(point.x, point.y)
-    await expect(page.locator('.quiz-diorama-3d')).toHaveAttribute('data-active-station', 'countries')
-    await page.touchscreen.tap(point.x, point.y)
-  } else await page.mouse.click(point.x, point.y)
-  await expect(page).toHaveURL(/\/play\/countries$/)
+    await page.touchscreen.tap(x, y)
+    await expect(world).toHaveAttribute('data-active-station', 'flags')
+    await page.touchscreen.tap(x, y)
+  } else await page.mouse.click(x, y)
+  await expect(page.locator('.story-panel')).toHaveAttribute('data-story-chapter', 'signale')
+  await expect(page.locator('.story-locked')).toBeVisible()
+  await expect(page).toHaveURL(/\/story$/)
 })
 
-test('Langsam ladende Globustexturen unterbrechen die Tastaturbedienung nicht', async ({ page }) => {
-  let release!: () => void
-  const pending = new Promise<void>((resolve) => {
-    release = resolve
-  })
-  let requested!: () => void
-  const request = new Promise<void>((resolve) => {
-    requested = resolve
-  })
-  await page.route('**/media/illustrations/diorama-globe.svg', async (route) => {
-    requested()
-    await pending
-    await route.continue()
-  })
-  await page.goto('play?view=diorama', { waitUntil: 'domcontentloaded' })
-  await request
-  try {
-    await page.locator('[data-quiz-station="countries"]').focus()
-    const configure = page.locator('.quiz-diorama-context a')
-    await expect(configure).toBeVisible()
-    await configure.focus()
-    await expect(configure).toBeFocused()
-    await configure.press('Escape')
-    await expect(page.locator('.quiz-diorama-3d')).not.toHaveAttribute('data-active-station')
-    await expect(page.locator('.quiz-diorama-dock')).toBeVisible()
-  } finally {
-    release()
-  }
+test('Fehlerhafte Spielstände und gesperrter Speicher unterbrechen keine Reise', async ({ page }) => {
+  await page.addInitScript((key) => {
+    localStorage.setItem(key, '{broken')
+    const original = Storage.prototype.setItem
+    Storage.prototype.setItem = function (name, value) {
+      if (name === key) throw new DOMException('Unavailable', 'QuotaExceededError')
+      original.call(this, name, value)
+    }
+  }, STORY_STORAGE_KEY)
+  await page.goto('story')
+  await expect(page.locator('.story-save-note')).toContainText('nicht speichern')
+  await page.getByRole('button', { name: 'Abenteuer beginnen', exact: true }).click()
+  await expect(page.locator('.story-task-prompt')).toBeVisible()
 })
 
-test('Alle mobilen Schnellzugriffe sind ohne horizontales Scrollen sichtbar', async ({ page, isMobile }) => {
-  test.skip(!isMobile)
-  await page.goto('play?view=diorama')
-  await page.locator('.quiz-diorama-3d').scrollIntoViewIfNeeded()
-  const dock = page.locator('.quiz-diorama-dock')
-  const bounds = (await dock.boundingBox())!
-  for (const link of await dock.getByRole('link').all()) {
-    const box = (await link.boundingBox())!
-    expect(box.x).toBeGreaterThanOrEqual(bounds.x)
-    expect(box.x + box.width).toBeLessThanOrEqual(bounds.x + bounds.width)
-    expect(box.height).toBeGreaterThanOrEqual(44)
-    await expect(link).toBeInViewport()
-  }
-  await page.locator('[data-quiz-station="daily"]').tap()
-  await expect(page).toHaveURL(/\/daily$/)
-})
-
-test('Tag und Nacht sowie Drehen, Zoomen und Zurücksetzen bleiben bedienbar', async ({ page }, info) => {
-  const errors: string[] = []
-  page.on('pageerror', (error) => errors.push(error.message))
-  page.on('console', (message) => {
-    if (message.type() === 'error') errors.push(message.text())
-  })
-  await page.emulateMedia({ reducedMotion: 'reduce' })
-  await page.goto('play?view=diorama')
-  const world = page.locator('.quiz-diorama-3d')
-  await world.scrollIntoViewIfNeeded()
-  await expect(world).toHaveAttribute('aria-busy', 'false')
-  await expect(world).toHaveAttribute('data-time', 'day')
-  await expect(world).toHaveAttribute('data-motion', 'paused')
-  await page.getByRole('button', { name: 'Ansicht nach rechts drehen' }).click()
-  await expect(world).not.toHaveAttribute('data-view-angle', '0.000')
-  await page.getByRole('button', { name: 'Vergrößern', exact: true }).click()
-  await expect(world).toHaveAttribute('data-view-zoom', '1.15')
-  await page.getByRole('button', { name: 'Ansicht zurücksetzen' }).click()
-  await expect(world).toHaveAttribute('data-view-angle', '0.000')
-  await expect(world).toHaveAttribute('data-view-zoom', '1.00')
-  await world.screenshot({ path: `/tmp/atlas-island-${info.project.name}-day.png` })
-  await page.getByRole('button', { name: 'Nachtmodus' }).click()
-  await expect(world).toHaveAttribute('data-time', 'night')
-  await expect(page.getByRole('button', { name: 'Nachtmodus' })).toHaveAttribute('aria-pressed', 'true')
-  await world.screenshot({ path: `/tmp/atlas-island-${info.project.name}-night.png` })
-  await page.reload()
-  await world.scrollIntoViewIfNeeded()
-  await expect(world).toHaveAttribute('data-time', 'night')
-  await page.locator('[data-quiz-station="cities"]').focus()
-  await expect(page.locator('.quiz-diorama-context')).toContainText('Städte')
-  await page.locator('.quiz-diorama-context a').click()
-  await expect(page).toHaveURL(/\/play\/cities$/)
-  await expect(page.locator('[data-exercise="large-cities"]')).toBeVisible()
-  expect(errors).toEqual([])
-})
-
-test('Kamerazoom bleibt begrenzt und die einfache Auswahl lädt ohne WebGL-Szene', async ({ page }) => {
-  await page.goto('play?view=diorama')
-  const world = page.locator('.quiz-diorama-3d')
-  for (let i = 0; i < 8; i++) {
-    const button = page.getByRole('button', { name: 'Vergrößern', exact: true })
-    if (await button.isEnabled()) await button.click()
-  }
-  await expect(page.getByRole('button', { name: 'Vergrößern', exact: true })).toBeDisabled()
-  await expect(world).toHaveAttribute('data-view-zoom', '1.65')
-  for (let i = 0; i < 10; i++) {
-    const button = page.getByRole('button', { name: 'Verkleinern', exact: true })
-    if (await button.isEnabled()) await button.click()
-  }
-  await expect(page.getByRole('button', { name: 'Verkleinern', exact: true })).toBeDisabled()
-  await expect(world).toHaveAttribute('data-view-zoom', '0.75')
-  await page.goto('play')
-  await expect(page.locator('.topic-link')).toHaveCount(12)
-  await expect(page.locator('canvas')).toHaveCount(0)
-})
-
-test('Die große Insel bietet Vollbild und hält ihre Animationen wirklich an', async ({ page, isMobile }) => {
-  const errors: string[] = []
-  page.on('pageerror', (error) => errors.push(error.message))
-  if (isMobile) {
-    // The CSS fallback also covers browsers without the native Fullscreen API.
-    await page.addInitScript(() =>
-      Object.defineProperty(Element.prototype, 'requestFullscreen', { value: undefined }),
-    )
-  }
-  await page.emulateMedia({ reducedMotion: 'no-preference' })
-  await page.goto('play?view=diorama')
-  const world = page.locator('.quiz-diorama-3d')
-  await expect(world).toHaveAttribute('aria-busy', 'false')
-  await expect(world).toHaveAttribute('data-motion', 'running')
-  const initial = (await world.boundingBox())!
-  expect(initial.width).toBeGreaterThan(page.viewportSize()!.width * 0.9)
-  expect(initial.height).toBeGreaterThan(page.viewportSize()!.height * 0.7)
-  await page.getByRole('button', { name: 'Vollbild öffnen', exact: true }).click()
-  await expect(world).toHaveAttribute('data-expanded', 'true')
-  await expect
-    .poll(async () => Math.round((await world.boundingBox())!.height))
-    .toBe(page.viewportSize()!.height)
-  await page.waitForLoadState('networkidle')
-  await page.getByRole('button', { name: 'Animationen pausieren' }).click()
-  await expect(world).toHaveAttribute('data-motion', 'paused')
-  const canvas = world.locator('canvas')
-  const still = await canvas.screenshot()
-  await page.waitForTimeout(180)
-  expect((await canvas.screenshot()).equals(still)).toBe(true)
-  await page.getByRole('button', { name: 'Animationen fortsetzen' }).click()
-  await expect(world).toHaveAttribute('data-motion', 'running')
-  const animated = await canvas.screenshot()
-  await page.waitForTimeout(180)
-  expect((await canvas.screenshot()).equals(animated)).toBe(false)
-  await page.getByRole('button', { name: 'Ansicht nach rechts drehen' }).click()
-  await expect(world).toHaveAttribute('data-camera', 'still')
-  await page.getByRole('button', { name: 'Vollbild schließen', exact: true }).click()
-  await expect(world).toHaveAttribute('data-expanded', 'false')
-  await page.getByRole('button', { name: 'Animationen pausieren' }).click()
-  await page.reload()
-  await expect(world).toHaveAttribute('data-motion', 'paused')
-  await expect(page.getByRole('button', { name: 'Animationen fortsetzen' })).toBeVisible()
-  expect(errors).toEqual([])
+test('Das Tagebuch hält den Tastaturfokus und schließt mit Escape', async ({ page }) => {
+  await page.goto('story')
+  const open = page.getByRole('button', { name: 'Reisetagebuch', exact: true })
+  await open.click()
+  await expect(page.getByRole('dialog')).toBeVisible()
+  await page.keyboard.press('Escape')
+  await expect(page.getByRole('dialog')).toHaveCount(0)
+  await expect(open).toBeFocused()
 })

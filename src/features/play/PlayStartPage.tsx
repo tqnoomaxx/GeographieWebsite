@@ -1,18 +1,13 @@
-import { lazy, Suspense } from 'react'
 import { Link, Navigate, useParams, useSearchParams } from 'react-router-dom'
-import { useDocumentTitle, useAsync } from '@/app/hooks'
-import { useGeoData } from '@/app/DataProvider'
+import { useDocumentTitle } from '@/app/hooks'
 import { isCategory } from '@/config/quizzes'
 import { exerciseFor, exercisePath, exercisesFor } from '@/config/quizCatalog'
-import { getRepository } from '@/services/progress'
 import { Page } from '@/ui'
 import { Icons } from '@/ui/icons'
 import { ArrowRight, Map as MapIcon } from 'lucide-react'
 import { QuizCatalog } from './QuizCatalog'
 import { OpenRounds } from './OpenRounds'
-import { buildStationProgress } from './stationProgress'
 import { ExerciseList, ExerciseSetup, legacyExercise } from './ExerciseSetup'
-const PlayMapSwitcher = lazy(() => import('./PlayMapSwitcher').then((m) => ({ default: m.PlayMapSwitcher })))
 
 export default function PlayStartPage() {
   const { category } = useParams<{ category?: string }>()
@@ -44,34 +39,16 @@ export default function PlayStartPage() {
 
 function CategoryHub() {
   useDocumentTitle('Quiz auswählen')
-  const geo = useGeoData()
   const [params] = useSearchParams()
-  const directMap = params.get('view') === 'diorama'
-  const { data: stationProgress } = useAsync(async () => {
-    if (!directMap) return undefined
-    const repo = getRepository()
-    const [stats, puzzles] = await Promise.all([repo.getStats(), repo.getPuzzles()])
-    return buildStationProgress(stats, puzzles)
-  }, [directMap])
+  if (params.get('view') === 'diorama') return <Navigate to="/story" replace />
   return (
     <Page wide>
-      <header className={directMap ? 'sr-only' : 'simple-page-heading'}>
-        <h1>{directMap ? 'Deine Wissensinsel' : 'Quiz auswählen'}</h1>
-        <p>
-          {directMap
-            ? 'Erkunde die Welt. Finde dein nächstes Quiz.'
-            : 'Wähle ein Thema und anschließend eine Übung.'}
-        </p>
+      <header className="simple-page-heading">
+        <h1>Quiz auswählen</h1>
+        <p>Wähle ein Thema und anschließend eine Übung.</p>
       </header>
       <OpenRounds />
-      {directMap && (
-        <div className="diorama-direct-view">
-          <Suspense fallback={<p role="status">Karte wird geladen …</p>}>
-            <PlayMapSwitcher counts={geo.index?.counts} progress={stationProgress} />
-          </Suspense>
-        </div>
-      )}
-      {!directMap && <QuizCatalog />}
+      <QuizCatalog />
       <section className="simple-quiz-extras">
         <Link to="/daily">
           <Icons.daily aria-hidden />
@@ -90,18 +67,11 @@ function CategoryHub() {
           <ArrowRight aria-hidden />
         </Link>
       </section>
-      {!directMap && (
-        <Link to="/play?view=diorama" className="diorama-entry">
-          <MapIcon aria-hidden />
-          <span>Quizthemen auf der 3D-Karte ansehen</span>
-          <ArrowRight aria-hidden />
-        </Link>
-      )}
-      {directMap && (
-        <Link to="/play" className="simple-back">
-          Zur vollständigen Themenauswahl
-        </Link>
-      )}
+      <Link to="/story" className="diorama-entry">
+        <MapIcon aria-hidden />
+        <span>Der Atlas der Winde · Starte dein Story-Abenteuer auf der 3D-Insel</span>
+        <ArrowRight aria-hidden />
+      </Link>
     </Page>
   )
 }

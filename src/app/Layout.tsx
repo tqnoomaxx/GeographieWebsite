@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { useOnline } from './hooks'
 import { LoadingState, ErrorState } from '@/ui'
 import { Icons, type NavAtlasIconId } from '@/ui/icons'
-import { Globe } from 'lucide-react'
+import { Globe, Map } from 'lucide-react'
 import { useAuth } from './AuthProvider'
 import { useDataResources } from './DataProvider'
 import { resourcesForPage } from './dataRequirements'
@@ -12,6 +12,7 @@ import { resourcesForPage } from './dataRequirements'
 const NAV = [
   { to: '/', key: 'nav.home', icon: 'home', end: true },
   { to: '/play', key: 'nav.play', icon: 'play' },
+  { to: '/story', key: 'Story', icon: 'daily' },
   { to: '/learn', key: 'nav.learn', icon: 'learn' },
   { to: '/explore', key: 'nav.explore', icon: 'explore' },
   { to: '/progress', key: 'nav.progress', icon: 'progress' },
@@ -50,7 +51,7 @@ export function Layout() {
                   end={n.end}
                   className={({ isActive }) => (isActive ? 'is-active' : '')}
                 >
-                  {n.icon === 'play' ? 'Quiz' : t(n.key)}
+                  {n.to === '/story' ? 'Story' : n.icon === 'play' ? 'Quiz' : t(n.key)}
                 </NavLink>
               ))}
             </nav>
@@ -134,7 +135,7 @@ export function Layout() {
           className="mobile-nav fixed inset-x-0 bottom-0 z-40 pb-[env(safe-area-inset-bottom)] md:hidden"
           aria-label="Hauptnavigation"
         >
-          <div className="grid grid-cols-5">
+          <div className="grid grid-cols-6">
             {NAV.map((n) => (
               <NavLink
                 key={n.to}
@@ -147,7 +148,7 @@ export function Layout() {
                 {({ isActive }) => (
                   <>
                     {(() => {
-                      const Icon = Icons[n.icon]
+                      const Icon = n.to === '/story' ? Map : Icons[n.icon]
                       return (
                         <Icon
                           aria-hidden
@@ -156,7 +157,7 @@ export function Layout() {
                         />
                       )
                     })()}
-                    {n.icon === 'play' ? 'Quiz' : t(n.key)}
+                    {n.to === '/story' ? 'Story' : n.icon === 'play' ? 'Quiz' : t(n.key)}
                   </>
                 )}
               </NavLink>

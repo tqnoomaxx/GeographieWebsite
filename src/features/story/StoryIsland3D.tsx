@@ -1,23 +1,8 @@
 import { useReducedMotion } from '@/services/settings/motion'
-import { Suspense, useEffect, useLayoutEffect, useMemo, useRef, useState, type ReactNode } from 'react'
+import { Suspense, memo, useEffect, useLayoutEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import { Canvas, useFrame, useThree, type ThreeEvent } from '@react-three/fiber'
 import { RoundedBox, useTexture } from '@react-three/drei'
-import { Link, useNavigate } from 'react-router-dom'
-import { useTranslation } from 'react-i18next'
-import type { TFunction } from 'i18next'
 import {
-  Building2,
-  Car,
-  Dices,
-  Flag,
-  Globe2,
-  Landmark,
-  Languages,
-  Lightbulb,
-  Mountain,
-  Puzzle,
-  Waves,
-  ArrowRight,
   Compass,
   Crosshair,
   Moon,
@@ -26,11 +11,9 @@ import {
   Plus,
   RotateCcw,
   RotateCw,
-  Maximize,
-  Minimize,
   Pause,
   Play,
-  type LucideIcon,
+  Check,
 } from 'lucide-react'
 import {
   CatmullRomCurve3,
@@ -47,21 +30,20 @@ import {
   type Group,
   type Mesh,
 } from 'three'
-import { PLAY_QUIZZES, type QuizDef } from '@/config/quizzes'
 import type { CategoryId } from '@/engine/types'
-import type { PlayStationId, StationProgress, StationProgressMap } from './stationProgress'
+import type { PlayStationId, StationProgress } from '@/features/play/stationProgress'
 import {
   createRibbonGeometry,
   DEFAULT_DIORAMA_VIEW,
   DIORAMA_ZOOM,
   fitDioramaCamera,
   type DioramaView,
-} from './dioramaGeometry'
-import { DioramaLandscape, IslandTerrain } from './DioramaLandscape'
-import { DioramaMotion, useDioramaMotion } from './DioramaMotion'
-import { DioramaWater } from './DioramaWater'
-import { DioramaForest } from './DioramaForest'
-import './diorama.css'
+} from '@/features/play/dioramaGeometry'
+import { DioramaLandscape, IslandTerrain } from '@/features/play/DioramaLandscape'
+import { DioramaMotion, useDioramaMotion } from '@/features/play/DioramaMotion'
+import { DioramaWater } from '@/features/play/DioramaWater'
+import { DioramaForest } from '@/features/play/DioramaForest'
+import '@/features/play/diorama.css'
 
 type SceneId = PlayStationId
 type Vec3 = [number, number, number]
@@ -71,9 +53,9 @@ const WATER_SURFACE_Y = GROUND_SURFACE_Y + 0.15
 
 type Station = {
   id: SceneId
-  href: string
   label: string
-  detail?: string
+  index: number
+  status: DioramaChapter['status']
   position: Vec3
   hitbox: Vec3
   progress?: StationProgress
@@ -93,19 +75,10 @@ const PLACEMENTS: Partial<Record<CategoryId, { position: Vec3; hitbox: Vec3 }>> 
   nature: { position: [2.7, GROUND_SURFACE_Y, -3.95], hitbox: [4.4, 3.6, 2.8] },
 }
 
-const MENU_ICONS: Partial<Record<SceneId, LucideIcon>> = {
-  trivia: Lightbulb,
-  flags: Flag,
-  countries: Globe2,
-  capitals: Landmark,
-  languages: Languages,
-  cities: Building2,
-  landmarks: Landmark,
-  water: Waves,
-  nature: Mountain,
-  license_plates: Car,
-  mixed: Dices,
-  daily: Puzzle,
+export type DioramaChapter = {
+  station: PlayStationId
+  title: string
+  status: 'locked' | 'available' | 'complete'
 }
 
 const TREE_POSITIONS: Array<[number, number, number, number]> = [
@@ -119,34 +92,6 @@ const TREE_POSITIONS: Array<[number, number, number, number]> = [
   [-2.25, -4.65, 0.58, 0.82],
 ]
 
-function countLabel(quiz: QuizDef, counts?: Record<string, number>) {
-  const value = quiz.countKey ? counts?.[quiz.countKey] : undefined
-  return value === undefined
-    ? undefined
-    : `${value.toLocaleString('de-DE')} ${quiz.id === 'trivia' ? 'Fragen' : 'Einträge'}`
-}
-
-function stationLevelLabel(progress: StationProgress | undefined, t: TFunction) {
-  if (!progress) return undefined
-  return t('play.station_level', {
-    level: progress.level,
-    name: t(`play.station_levels.${progress.level}`),
-  })
-}
-
-function stationProgressLabel(progress: StationProgress | undefined, t: TFunction) {
-  if (!progress) return undefined
-  const unit = t(`play.station_unit_${progress.unit}`)
-  if (!progress.nextThreshold) {
-    return t('play.station_masterpiece', { value: progress.value.toLocaleString('de-DE'), unit })
-  }
-  return t('play.station_progress', {
-    value: progress.value.toLocaleString('de-DE'),
-    next: progress.nextThreshold.toLocaleString('de-DE'),
-    unit,
-  })
-}
-
 function CameraSetup({ view, reducedMotion }: { view: DioramaView; reducedMotion: boolean }) {
   const camera = useThree((state) => state.camera)
   const size = useThree((state) => state.size)
@@ -158,7 +103,13 @@ function CameraSetup({ view, reducedMotion }: { view: DioramaView; reducedMotion
   useLayoutEffect(() => {
     if (!(camera instanceof OrthographicCamera)) return
     target.copy(camera)
-    fitDioramaCamera(target, size.width, size.height, view)
+    fitDioramaCamera(
+      target,
+      size.width,
+      size.height,
+      view,
+      size.width < 750 ? { top: 70, bottom: 70, side: 20 } : undefined,
+    )
     const key = `${size.width}:${size.height}`
     changing.current = !reducedMotion && lastSize.current === key
     if (!changing.current) camera.copy(target)
@@ -1513,6 +1464,30 @@ function InteractiveStation({
   )
 }
 
+/** Project native buttons in the existing React DOM root, without secondary Html roots. */
+function ChapterMarkerProjection({
+  stations,
+  markers,
+}: {
+  stations: Station[]
+  markers: { current: Map<SceneId, HTMLButtonElement> }
+}) {
+  const camera = useThree((state) => state.camera)
+  const size = useThree((state) => state.size)
+  const point = useMemo(() => new Vector3(), [])
+  useFrame(() => {
+    for (const station of stations) {
+      const marker = markers.current.get(station.id)
+      if (!marker) continue
+      const height = station.id === 'water' ? 0.8 : station.id === 'daily' ? 2.5 : station.hitbox[1] + 0.45
+      point.set(station.position[0], station.position[1] + height, station.position[2]).project(camera)
+      marker.style.transform = `translate(${((point.x + 1) * size.width) / 2}px, ${((1 - point.y) * size.height) / 2}px) translate(-50%, -50%)`
+      marker.style.visibility = 'visible'
+    }
+  })
+  return null
+}
+
 function DioramaScene({
   stations,
   active,
@@ -1533,7 +1508,7 @@ function DioramaScene({
   reducedMotion: boolean
   moving: boolean
   onActive: (id?: SceneId) => void
-  onOpen: (href: string) => void
+  onOpen: (id: SceneId) => void
   onReady: (ready: boolean) => void
 }) {
   useEffect(() => onReady(true), [onReady])
@@ -1572,6 +1547,13 @@ function DioramaScene({
       <StationContactShadows stations={stations} />
       <DioramaLandscape night={night} moving={moving} />
       <Cloud moving={moving} />
+      {Object.entries(PLACEMENTS)
+        .filter(([id]) => !stations.some((station) => station.id === id))
+        .map(([id, placement]) => (
+          <group key={id} position={placement.position}>
+            <BaseStationModel id={id as SceneId} active={false} />
+          </group>
+        ))}
       {daily ? (
         <InteractiveStation
           station={daily}
@@ -1579,7 +1561,7 @@ function DioramaScene({
           celebrating={celebrating === 'daily'}
           reducedMotion={reducedMotion}
           onActivate={() => onActive('daily')}
-          onOpen={() => onOpen('/daily')}
+          onOpen={() => onOpen('daily')}
         />
       ) : null}
       {stations
@@ -1592,7 +1574,7 @@ function DioramaScene({
             celebrating={celebrating === station.id}
             reducedMotion={reducedMotion}
             onActivate={() => onActive(station.id)}
-            onOpen={() => onOpen(station.href)}
+            onOpen={() => onOpen(station.id)}
           />
         ))}
       <mesh position={[0, -3.6, 0]} rotation={[-Math.PI / 2, 0, 0]} onClick={() => onActive(undefined)}>
@@ -1607,77 +1589,61 @@ function SceneFallback({ children }: { children: ReactNode }) {
   return <div className="play-diorama-loading">{children}</div>
 }
 
-export default function QuizDiorama3D({
-  counts,
-  progress,
-  celebrating,
+function preference(key: string) {
+  try {
+    return localStorage.getItem(key)
+  } catch {
+    return null
+  }
+}
+function savePreference(key: string, value: string) {
+  try {
+    localStorage.setItem(key, value)
+  } catch {
+    /* The scene remains usable without storage. */
+  }
+}
+
+export default memo(function StoryIsland3D({
+  chapters,
+  selected,
+  onSelect,
 }: {
-  counts?: Record<string, number>
-  progress?: StationProgressMap
-  celebrating?: PlayStationId
+  chapters: readonly DioramaChapter[]
+  selected: number
+  onSelect: (index: number) => void
 }) {
-  const { t } = useTranslation()
-  const navigate = useNavigate()
   const rootRef = useRef<HTMLDivElement>(null)
+  const markers = useRef(new Map<SceneId, HTMLButtonElement>())
   const reducedMotion = useReducedMotion()
-  const [active, setActive] = useState<SceneId>()
+  const [hovered, setHovered] = useState<SceneId>()
   const [view, setView] = useState<DioramaView>(DEFAULT_DIORAMA_VIEW)
-  const [night, setNight] = useState(() => localStorage.getItem('atlasfunke.diorama.time') === 'night')
+  const [night, setNight] = useState(() => preference('atlasfunke.diorama.time') === 'night')
   const [sceneReady, setSceneReady] = useState(false)
   const [inView, setInView] = useState(true)
   const [pageVisible, setPageVisible] = useState(!document.hidden)
-  const [paused, setPaused] = useState(() => localStorage.getItem('atlasfunke.diorama.paused') === 'true')
-  const [expanded, setExpanded] = useState(false)
-  const expandButton = useRef<HTMLButtonElement>(null)
-
-  useEffect(() => {
-    const changed = () => setExpanded(document.fullscreenElement === rootRef.current)
-    document.addEventListener('fullscreenchange', changed)
-    return () => document.removeEventListener('fullscreenchange', changed)
-  }, [])
-
-  useEffect(() => {
-    if (!expanded) return
-    const previous = document.body.style.overflow
-    document.body.style.overflow = 'hidden'
-    rootRef.current?.focus({ preventScroll: true })
-    return () => {
-      document.body.style.overflow = previous
-      expandButton.current?.focus({ preventScroll: true })
-    }
-  }, [expanded])
-
-  const closeExpanded = () => {
-    if (document.fullscreenElement === rootRef.current) void document.exitFullscreen().catch(() => {})
-    setExpanded(false)
-  }
-
-  const stations = useMemo<Station[]>(() => {
-    const quizStations = PLAY_QUIZZES.map((quiz) => {
-      const placement = PLACEMENTS[quiz.id]
-      if (!placement) throw new Error(`Keine Diorama-Position für sichtbares Quiz: ${quiz.id}`)
-      return {
-        id: quiz.id,
-        href: `/play/${quiz.id}`,
-        label: t(`category.${quiz.id}`),
-        detail: countLabel(quiz, counts),
-        progress: progress?.[quiz.id],
-        ...placement,
-      }
-    })
-    return [
-      ...quizStations,
-      {
-        id: 'daily' as const,
-        href: '/daily',
-        label: t('daily.title'),
-        detail: t('play.daily_count'),
-        progress: progress?.daily,
-        position: [-6.45, GROUND_SURFACE_Y, -2.45] as Vec3,
-        hitbox: [2.4, 3.1, 2.2] as Vec3,
-      },
-    ]
-  }, [counts, progress, t])
+  const [paused, setPaused] = useState(() => preference('atlasfunke.diorama.paused') === 'true')
+  const active = hovered ?? chapters[selected]?.station
+  const stations = useMemo<Station[]>(
+    () =>
+      chapters.map((chapter, index) => ({
+        id: chapter.station,
+        label: chapter.title,
+        index,
+        status: chapter.status,
+        ...(chapter.station === 'daily'
+          ? { position: [-6.45, GROUND_SURFACE_Y, -2.45] as Vec3, hitbox: [2.4, 3.1, 2.2] as Vec3 }
+          : PLACEMENTS[chapter.station as CategoryId]!),
+        progress: {
+          id: chapter.station,
+          level: chapter.status === 'complete' ? 2 : 0,
+          value: 0,
+          progress: 0,
+          unit: 'questions',
+        },
+      })),
+    [chapters],
+  )
 
   useEffect(() => {
     const node = rootRef.current
@@ -1688,55 +1654,32 @@ export default function QuizDiorama3D({
     observer.observe(node)
     return () => observer.disconnect()
   }, [])
-
   useEffect(() => {
     const update = () => setPageVisible(!document.hidden)
     document.addEventListener('visibilitychange', update)
     return () => document.removeEventListener('visibilitychange', update)
   }, [])
 
-  const selected = stations.find((station) => station.id === active)
-  const motionEnabled = !reducedMotion && !paused && (inView || expanded) && pageVisible
-
+  const motionEnabled = !reducedMotion && !paused && inView && pageVisible
   return (
     <div
       ref={rootRef}
-      className={`quiz-diorama-3d atlas-diorama ${motionEnabled ? '' : 'is-motion-paused'}`}
+      className={`quiz-diorama-3d atlas-diorama story-island ${motionEnabled ? '' : 'is-motion-paused'}`}
       data-active-station={active}
-      data-upgrade-station={celebrating}
       data-motion={motionEnabled ? 'running' : 'paused'}
       data-time={night ? 'night' : 'day'}
       data-view-angle={view.angle.toFixed(3)}
       data-view-zoom={view.zoom.toFixed(2)}
-      data-expanded={expanded}
       data-camera="still"
       tabIndex={-1}
       onKeyDown={(event) => {
-        if (event.key === 'Escape') {
-          setActive(undefined)
-          if (expanded) closeExpanded()
-        }
-        if (expanded && event.key === 'Tab') {
-          const controls = rootRef.current?.querySelectorAll<HTMLElement>('button:not(:disabled), a[href]')
-          const first = controls?.[0],
-            last = controls?.[controls.length - 1]
-          if (
-            event.shiftKey &&
-            (document.activeElement === first || document.activeElement === rootRef.current)
-          ) {
-            event.preventDefault()
-            last?.focus()
-          } else if (!event.shiftKey && document.activeElement === last) {
-            event.preventDefault()
-            first?.focus()
-          }
-        }
+        if (event.key === 'Escape') setHovered(undefined)
       }}
-      role="application"
-      aria-label={t('play.diorama_label')}
+      role="region"
+      aria-label="Interaktive Karte der Windinsel"
       aria-busy={!sceneReady}
     >
-      <div className="quiz-diorama-canvas" aria-hidden="true">
+      <div className="quiz-diorama-canvas">
         <Canvas
           orthographic
           shadows
@@ -1744,31 +1687,60 @@ export default function QuizDiorama3D({
           frameloop={motionEnabled ? 'always' : 'demand'}
           camera={{ position: [12, 13.5, 16], zoom: 1, near: 0.1, far: 80 }}
           gl={{ antialias: true, alpha: false, powerPreference: 'high-performance' }}
-          fallback={<SceneFallback>{t('play.diorama_unavailable')}</SceneFallback>}
-          onPointerMissed={() => setActive(undefined)}
+          fallback={
+            <SceneFallback>Die 3D-Karte ist nicht verfügbar. Deine Reise geht rechts weiter.</SceneFallback>
+          }
+          onPointerMissed={() => setHovered(undefined)}
         >
           <Suspense fallback={null}>
             <DioramaScene
               stations={stations}
               active={active}
-              celebrating={celebrating}
               reducedMotion={reducedMotion}
               moving={motionEnabled}
-              onActive={setActive}
-              onOpen={navigate}
+              onActive={setHovered}
+              onOpen={(id) => {
+                const index = chapters.findIndex((chapter) => chapter.station === id)
+                if (index >= 0) {
+                  setHovered(undefined)
+                  onSelect(index)
+                }
+              }}
               onReady={setSceneReady}
               night={night}
               view={view}
             />
+            <ChapterMarkerProjection stations={stations} markers={markers} />
           </Suspense>
         </Canvas>
       </div>
-
+      <div className="story-map-pins">
+        {stations.map((station) => (
+          <button
+            key={station.id}
+            type="button"
+            ref={(element) => {
+              if (element) markers.current.set(station.id, element)
+              else markers.current.delete(station.id)
+            }}
+            style={{ visibility: 'hidden' }}
+            className={`story-map-pin is-${station.status} ${active === station.id ? 'is-selected' : ''}`}
+            aria-label={`Ort ${station.index + 1}: ${station.label}`}
+            title={station.label}
+            onClick={() => {
+              setHovered(undefined)
+              onSelect(station.index)
+            }}
+          >
+            {station.status === 'complete' ? <Check aria-hidden /> : station.index + 1}
+          </button>
+        ))}
+      </div>
       <div className="diorama-world-caption">
         <Compass aria-hidden />
         <div>
-          <strong>Deine Wissensinsel</strong>
-          <span>Wähle einen Ort und starte dein Quiz.</span>
+          <strong>Die Windinsel</strong>
+          <span>Folge den Spuren des Sturms.</span>
         </div>
       </div>
       <div className="diorama-world-tools" role="group" aria-label="Diorama steuern">
@@ -1792,7 +1764,6 @@ export default function QuizDiorama3D({
         <button
           type="button"
           aria-label="Verkleinern"
-          title="Verkleinern"
           disabled={view.zoom <= DIORAMA_ZOOM.min}
           onClick={() => setView((v) => ({ ...v, zoom: Math.max(DIORAMA_ZOOM.min, v.zoom - 0.15) }))}
         >
@@ -1801,7 +1772,6 @@ export default function QuizDiorama3D({
         <button
           type="button"
           aria-label="Vergrößern"
-          title="Vergrößern"
           disabled={view.zoom >= DIORAMA_ZOOM.max}
           onClick={() => setView((v) => ({ ...v, zoom: Math.min(DIORAMA_ZOOM.max, v.zoom + 0.15) }))}
         >
@@ -1810,10 +1780,9 @@ export default function QuizDiorama3D({
         <button
           type="button"
           aria-label="Ansicht zurücksetzen"
-          title="Ansicht zurücksetzen"
           onClick={() => {
             setView(DEFAULT_DIORAMA_VIEW)
-            setActive(undefined)
+            setHovered(undefined)
           }}
         >
           <Crosshair aria-hidden />
@@ -1826,101 +1795,53 @@ export default function QuizDiorama3D({
           aria-pressed={night}
           onClick={() => {
             setNight(!night)
-            localStorage.setItem('atlasfunke.diorama.time', night ? 'day' : 'night')
+            savePreference('atlasfunke.diorama.time', night ? 'day' : 'night')
           }}
         >
           {night ? <Sun aria-hidden /> : <Moon aria-hidden />}
-          <span>{night ? 'Tag' : 'Nacht'}</span>
         </button>
         <button
           type="button"
           aria-label={paused ? 'Animationen fortsetzen' : 'Animationen pausieren'}
           aria-pressed={paused}
           disabled={reducedMotion}
-          title={
-            reducedMotion
-              ? 'Reduzierte Bewegung ist aktiviert'
-              : paused
-                ? 'Animationen fortsetzen'
-                : 'Animationen pausieren'
-          }
           onClick={() => {
             setPaused(!paused)
-            localStorage.setItem('atlasfunke.diorama.paused', String(!paused))
+            savePreference('atlasfunke.diorama.paused', String(!paused))
           }}
         >
           {paused ? <Play aria-hidden /> : <Pause aria-hidden />}
         </button>
-        <button
-          ref={expandButton}
-          type="button"
-          aria-label={expanded ? 'Vollbild schließen' : 'Vollbild öffnen'}
-          aria-pressed={expanded}
-          title={expanded ? 'Vollbild schließen' : 'Vollbild öffnen'}
-          onClick={() => {
-            if (expanded) closeExpanded()
-            else {
-              setExpanded(true)
-              void rootRef.current?.requestFullscreen?.().catch(() => {})
-            }
-          }}
-        >
-          {expanded ? <Minimize aria-hidden /> : <Maximize aria-hidden />}
-        </button>
       </div>
-      <div className={`quiz-diorama-context ${selected ? 'is-active' : ''}`} aria-live="polite">
-        {selected && (
-          <>
-            <strong>{selected.label}</strong>
-            {selected.detail && <small>{selected.detail}</small>}
-            {selected.progress && (
-              <div className="quiz-diorama-progress" data-station-level={selected.progress.level}>
-                <b>{stationLevelLabel(selected.progress, t)}</b>
-                <span className="play-station-progress-track" aria-hidden>
-                  <span style={{ width: `${selected.progress.progress * 100}%` }} />
-                </span>
-                <small>{stationProgressLabel(selected.progress, t)}</small>
-              </div>
-            )}
-            <Link to={selected.href}>
-              {t('play.configure')} <ArrowRight aria-hidden />
-            </Link>
-          </>
-        )}
-      </div>
-
-      <nav className="quiz-diorama-dock" aria-label={t('play.landscape_nav')}>
-        {stations.map((station) => {
-          const Icon = MENU_ICONS[station.id] ?? Globe2
-          return (
-            <Link
-              key={station.id}
-              to={station.href}
-              className={active === station.id ? 'is-active' : ''}
-              data-quiz-station={station.id}
-              data-station-level={station.progress?.level}
-              aria-label={[
-                station.label,
-                stationLevelLabel(station.progress, t),
-                stationProgressLabel(station.progress, t),
-                station.detail,
-                t('play.configure'),
-              ]
-                .filter(Boolean)
-                .join(', ')}
-              title={station.label}
-              data-label={station.label}
-              onPointerEnter={() => setActive(station.id)}
-              onFocus={() => setActive(station.id)}
-            >
-              <Icon strokeWidth={1.7} aria-hidden />
-              {celebrating === station.id ? (
-                <span className="quiz-diorama-new">{t('play.upgrade_new')}</span>
-              ) : null}
-            </Link>
-          )
-        })}
+      <nav className="story-map-route" aria-label="Kapitel auf der Insel">
+        <div>
+          <strong>Deine Route</strong>
+          <span>
+            Kapitel {selected + 1} von {chapters.length}
+          </span>
+        </div>
+        <ol>
+          {chapters.map((chapter, index) => (
+            <li key={chapter.station}>
+              <button
+                type="button"
+                className={`is-${chapter.status} ${index === selected ? 'is-selected' : ''}`}
+                aria-label={`Kapitel ${index + 1}: ${chapter.title}`}
+                aria-current={index === selected ? 'step' : undefined}
+                title={chapter.title}
+                data-story-route={index}
+                data-status={chapter.status}
+                onClick={() => {
+                  setHovered(undefined)
+                  onSelect(index)
+                }}
+              >
+                {chapter.status === 'complete' ? <Check aria-hidden /> : index + 1}
+              </button>
+            </li>
+          ))}
+        </ol>
       </nav>
     </div>
   )
-}
+})

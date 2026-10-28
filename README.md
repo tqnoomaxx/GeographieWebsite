@@ -8,7 +8,11 @@ Spezifikation und Roadmap: [`docs/`](docs/README.md). Ursprünglicher Master-Pro
 
 Quiz starten: **Thema → Übung → passende Antwortart und Gebiet → Quiz starten**. Antwortarten mit derselben Aufgabe sind zusammengefasst. Rundenlänge, Fehlerwiederholung und Flaggenhinweise werden unter **Lernoptionen** für die nächsten Quizze gespeichert. Alle-Runden und teilweise gelöste Länderprofile lassen sich auf Start- und Quizseite fortsetzen.
 
-Die interaktive Weltkugel steht direkt auf der Startseite. Die 3D-Quizkarte ist eine zusätzliche Ansicht. Unter **Entdecken** filtert die Ländersuche die Kontinente direkt. Das gemeinsame Designsystem liegt in `src/styles/simple.css`; die Start- und Quizseite verwenden denselben `QuizCatalog`.
+Die interaktive Weltkugel steht direkt auf der Startseite. Unter **Story** (`/story`) wird das bisherige Diorama zur Expeditionsinsel: In **Der Atlas der Winde** reist du mit der Kartografin Mira durch acht zusammenhängende Kapitel. Je drei geografische Aufgaben bringen die Geschichte voran; Hinweise und erneute Versuche helfen ohne Zeitdruck. Fundstücke landen im Reisetagebuch und öffnen das nächste Kapitel. Spielstand und laufende Aufgaben werden auf diesem Gerät gespeichert. Die Reise bleibt auch ohne WebGL spielbar; der frühere Link `/play?view=diorama` führt zum Story-Modus.
+
+Die Kapitel und Dialoge liegen in `src/features/story/chapters.ts`, die validierte Fortschrittslogik in `storyProgress.ts`. Neue Kapitel bekommen eine stabile ID, eine Inselstation, drei Aufgaben und ein Fundstück. Der Story-Fortschritt ist unabhängig von Quizstatistiken. Das Reisetagebuch bietet einen ausdrücklich bestätigten Neustart.
+
+Unter **Entdecken** filtert die Ländersuche die Kontinente direkt. Das gemeinsame Designsystem liegt in `src/styles/simple.css`; die Start- und Quizseite verwenden denselben `QuizCatalog`.
 
 ## Neue Quizübungen ergänzen
 

@@ -1,0 +1,201 @@
+.simple-shell .story-page { max-width: 1540px; width: 100%; margin: 0 auto; padding: 18px 28px 42px; }
+.story-page { --story-navy: #123c48; --story-deep: #102f3b; --story-cream: #fff5df; --story-muted: #c4d5d8; --story-gold: #f3c565; }
+.story-page-heading { display: flex; justify-content: space-between; align-items: center; gap: 24px; margin-bottom: 22px; }
+.simple-shell .story-page-heading h1 { font-family: Georgia, 'Times New Roman', serif; color: var(--ink); font-size: clamp(36px, 4.3vw, 64px); font-weight: 700; letter-spacing: -.045em; line-height: 1.12; }
+.story-page-heading p { font-family: Georgia, 'Times New Roman', serif; color: var(--ink-2); font-size: clamp(18px, 2vw, 25px); margin-top: 4px; }
+.story-journal-button { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 48px; padding: 12px 18px; border: 1px solid var(--line); border-radius: 8px; color: var(--ink); background: var(--card); font-size: 13px; font-weight: 650; flex-shrink: 0; }
+.story-journal-button:hover { background: var(--card-2); }
+.story-journal-button > svg { width: 21px; height: 21px; }
+.story-journal-count { font-size: 11px; color: var(--ink-2); }
+.story-workspace { display: grid; grid-template-columns: minmax(0, 1fr) 390px; background: var(--story-deep); border-radius: 17px; overflow: hidden; min-height: 700px; }
+.story-panel-anchor { scroll-margin-top: 90px; min-width: 0; }
+.story-panel { display: flex; flex-direction: column; padding: 32px 30px 28px; min-height: 700px; height: 100%; color: var(--story-cream); background: linear-gradient(125deg, #163d49, #102f3b); }
+.story-chapter-number { font-size: 10px; letter-spacing: .14em; line-height: 1.6; text-transform: uppercase; color: #d4dfe1; }
+.story-chapter-number span { margin-inline: 5px; }
+.simple-shell .story-panel h2 { font-family: Georgia, 'Times New Roman', serif; font-size: 48px; font-weight: 700; letter-spacing: -.04em; line-height: 1.1; margin: 15px 0 0; color: var(--story-cream); outline: none; scroll-margin-top: 100px; }
+.story-heading-rule { height: 3px; background: var(--story-gold); width: 82px; border-radius: 2px; margin: 21px 0; flex-shrink: 0; }
+.story-description { font-size: 15px; line-height: 1.75; color: #e0e8e9; }
+.story-dialogue { display: flex; gap: 15px; align-items: flex-start; padding: 21px 0; margin-top: 21px; border-top: 1px solid #ffffff28; border-bottom: 1px solid #ffffff28; }
+.story-mira { display: grid; place-items: center; width: 48px; height: 48px; border: 1.5px solid var(--story-gold); border-radius: 50%; color: var(--story-gold); font: 31px Georgia, serif; flex-shrink: 0; }
+.story-dialogue div > span { font-size: 10px; letter-spacing: .02em; color: var(--story-muted); }
+.story-dialogue blockquote { font-size: 14px; line-height: 1.75; margin-top: 6px; color: #e8edef; }
+.story-artifact { display: flex; gap: 15px; align-items: center; margin-top: 20px; }
+.story-artifact-icon { display: grid; place-items: center; height: 50px; width: 50px; border: 1px solid #a7c0c174; border-radius: 10px; background: #ffffff05; flex-shrink: 0; color: var(--story-gold); }
+.story-artifact-icon > svg { width: 28px; height: 28px; stroke-width: 1.3; }
+.story-artifact small { display: block; color: var(--story-muted); font-size: 10px; margin-bottom: 4px; }
+.story-artifact strong { font: 700 20px/1.2 Georgia, serif; }
+.story-artifact.is-found { margin-top: 28px; }
+.story-artifact.is-found .story-artifact-icon { border-color: var(--story-gold); background: #f3c5650c; }
+.story-artifact-description { font-size: 13px; line-height: 1.7; color: var(--story-muted); margin-top: 16px; }
+.story-goal { font-size: 11px; color: var(--story-muted); line-height: 1.6; margin-top: auto; padding-top: 20px; padding-bottom: 13px; }
+.story-primary { display: flex; align-items: center; justify-content: center; gap: 14px; width: 100%; min-height: 50px; margin-top: 16px; padding: 12px 15px; border-radius: 9px; background: var(--story-gold); color: #163944; border: 1px solid #ffdf99; font-size: 13px; font-weight: 750; transition: background .15s; scroll-margin-block: 95px; }
+.story-primary:hover { background: #ffda89; }
+.story-primary > svg { width: 18px; height: 18px; flex-shrink: 0; }
+.story-panel > .story-primary { margin-top: auto; }
+.story-panel > .story-goal + .story-primary { margin-top: 0; }
+.simple-shell .story-page .story-panel :focus-visible, .simple-shell .story-page .story-map-route :focus-visible { outline-color: var(--story-gold); }
+.story-panel .story-primary:focus-visible { outline-color: white !important; }
+.story-locked { margin-top: auto; padding-top: 24px; }
+.story-locked p, .story-complete-note { display: flex; align-items: center; gap: 8px; font-size: 11px; line-height: 1.6; color: var(--story-muted); }
+.story-locked p > svg, .story-complete-note svg { width: 15px; height: 15px; flex-shrink: 0; }
+.story-complete-note { color: #b4dfc5; margin-block: 24px 14px; }
+.story-task-progress { display: flex; align-items: center; justify-content: space-between; color: var(--story-muted); font-size: 11px; margin-bottom: 19px; }
+.story-task-progress > div { display: flex; gap: 5px; }
+.story-task-progress i { width: 23px; height: 3px; background: #ffffff25; border-radius: 2px; }
+.story-task-progress i.is-current { background: #f3c56580; }
+.story-task-progress i.is-done { background: var(--story-gold); }
+.simple-shell .story-task-prompt { font-size: 17px; line-height: 1.6; font-weight: 580; letter-spacing: -.015em; margin: 0 0 21px; outline: none; }
+.story-task-flag { display: block; max-width: 140px; height: 83px; object-fit: contain; align-self: flex-start; margin: 0 0 18px; border-radius: 3px; }
+.story-answers { display: grid; gap: 10px; }
+.story-answers button { display: flex; align-items: center; gap: 12px; min-height: 48px; border: 1px solid #ffffff38; border-radius: 8px; padding: 10px 13px; background: #ffffff06; color: var(--story-cream); text-align: left; font-size: 13px; line-height: 1.5; }
+.story-answers button > span { font-size: 10px; color: #bdd0d3; border: 1px solid #ffffff28; width: 23px; height: 23px; border-radius: 5px; display: grid; place-items: center; flex-shrink: 0; }
+.story-answers button > svg { width: 17px; height: 17px; margin-left: auto; flex-shrink: 0; }
+.story-answers button:hover:not(:disabled) { border-color: var(--story-gold); background: #f3c5650c; }
+.simple-shell .story-answers button.is-correct { opacity: 1; background: #295e50; border-color: #a5d6aa; color: #eaf9e8; }
+.simple-shell .story-answers button.is-wrong { opacity: .75; background: #6f3c3b4d; border-color: #cf938980; }
+.story-feedback { font-size: 12px; line-height: 1.7; color: #e8c6ba; margin-top: 18px; }
+.story-feedback:empty { margin: 0; }
+.story-feedback.is-correct { color: #c5e6cd; }
+.story-feedback strong { font-weight: 700; }
+.story-hint-area { margin-top: auto; padding-top: 22px; }
+.story-hint-button { display: flex; gap: 8px; align-items: center; min-height: 44px; font-size: 11px; color: var(--story-gold); text-align: left; }
+.story-hint-button svg { width: 16px; height: 16px; flex-shrink: 0; }
+.story-hint { font-size: 12px; color: var(--story-muted); line-height: 1.6; padding-top: 6px; }
+.story-workspace .story-island { border-radius: 0; min-height: 700px; max-height: none; height: 100%; }
+.story-island .diorama-world-caption { top: 18px; left: 18px; padding: 12px 14px; gap: 10px; z-index: 6; border-radius: 12px; visibility: visible !important; }
+.story-island .diorama-world-caption strong { font-size: 18px; }
+.story-island .diorama-world-caption span { font-size: 10px; }
+.story-island .diorama-world-caption > svg { width: 35px; height: 35px; }
+.story-island .diorama-world-tools { top: 18px; right: 18px; gap: 0; padding: 5px; }
+.story-island .diorama-world-tools > button { min-width: 34px; height: 38px; padding: 0 7px; }
+.story-island .diorama-world-tools svg { width: 17px; height: 17px; }
+.story-map-route { position: absolute; z-index: 6; bottom: 18px; left: 22px; right: 22px; display: flex; align-items: center; gap: 28px; padding: 17px 20px; border: 1px solid #ffffff25; border-radius: 12px; color: var(--story-cream); background: #123c48e8; backdrop-filter: blur(12px); }
+.story-map-route > div { display: grid; gap: 3px; flex-shrink: 0; font-size: 11px; }
+.story-map-route strong { font-size: 12px; }
+.story-map-route span { color: #c4d5d8; }
+.story-map-route ol { display: flex; justify-content: space-between; align-items: center; width: 100%; }
+.story-map-route li { position: relative; flex: 1; }
+.story-map-route li:last-child { flex: 0; }
+.story-map-route li:not(:last-child)::after { content: ''; position: absolute; top: 16px; left: 35px; right: 5px; border-top: 1px dashed #92b3b570; }
+.story-map-route button { position: relative; display: grid; place-items: center; width: 33px; height: 33px; border: 1px solid #abc5c96e; border-radius: 50%; color: #d6e3e4; font-size: 12px; }
+.story-map-route button:hover { background: #ffffff18; }
+.story-map-route button.is-selected { background: var(--story-gold); border-color: #ffedb5; color: #143b46; box-shadow: 0 0 20px #f3c5654d; font-weight: 750; }
+.story-map-route button.is-complete:not(.is-selected) { background: #416e60; color: #e8f8df; border-color: #a1c39b; }
+.story-map-route button.is-locked:not(.is-selected) { color: #b1c7cd; }
+.story-map-route button svg { width: 16px; height: 16px; }
+.story-map-pins { position: absolute; inset: 0; z-index: 5; pointer-events: none; }
+.story-map-pin { position: absolute; top: 0; left: 0; pointer-events: auto; display: grid; place-items: center; width: 31px; height: 31px; border: 1.5px solid #f3d78b; border-radius: 50%; background: #153e49f0; color: #fff5df; font-size: 12px; font-weight: 700; box-shadow: 0 3px 8px #123c4838; }
+.story-map-pin::after { content: ''; position: absolute; top: 29px; width: 2px; height: 13px; background: #efcf7d; pointer-events: none; }
+.story-map-pin.is-selected { color: #143b46; background: #f3c565; box-shadow: 0 0 0 4px #f3c56535, 0 0 22px #f3c56575; }
+.story-map-pin.is-complete { background: #366858; }
+.story-map-pin svg { width: 17px; height: 17px; }
+.story-island-fallback, .story-island-loading { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 16px; padding: 50px; min-height: 420px; color: var(--story-cream); background: #247f8b; text-align: center; }
+.story-island-fallback > svg, .story-island-loading > svg { width: 64px; height: 64px; stroke-width: 1; color: var(--story-gold); }
+.story-island-fallback strong { font: 28px Georgia, serif; }
+.story-island-fallback p { max-width: 36ch; font-size: 14px; line-height: 1.7; }
+.story-island-loading { font-size: 13px; }
+.story-journey { margin-top: 24px; }
+.story-journey-heading { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.simple-shell .story-journey h2 { font: 700 26px/1.2 Georgia, serif; letter-spacing: -.035em; }
+.story-journey-heading > span { font-size: 11px; color: var(--ink-2); }
+.story-journey ol { display: grid; grid-template-columns: repeat(8, minmax(0, 1fr)); margin-top: 16px; gap: 12px; }
+.story-journey li { min-width: 0; position: relative; }
+.story-journey li:not(:last-child)::before { content: ''; position: absolute; top: 16px; left: 42px; right: 0; border-top: 1px dashed var(--line); }
+.story-journey li > button { display: grid; text-align: left; width: 100%; gap: 13px; min-height: 90px; border-radius: 6px; }
+.story-journey-index { display: grid; place-items: center; width: 33px; height: 33px; background: var(--card-2); border: 1px solid var(--line); border-radius: 50%; font-size: 12px; font-weight: 650; color: var(--ink-2); }
+.story-journey-index svg { width: 16px; height: 16px; }
+.story-journey .is-selected .story-journey-index { background: #f3c565; border-color: #f3c565; color: #183c44; }
+.story-journey .is-complete .story-journey-index { color: var(--ok); background: var(--ok-soft); border-color: var(--ok); }
+.story-journey-copy { align-self: start; }
+.story-journey-copy strong { display: flex; align-items: center; gap: 4px; font-size: 11px; line-height: 1.5; font-weight: 650; }
+.story-journey-copy strong svg { width: 11px; height: 11px; flex-shrink: 0; color: var(--ink-2); }
+.story-journey-copy small { display: block; margin-top: 3px; font-size: 10px; color: var(--ink-2); line-height: 1.5; }
+.story-save-note { display: flex; align-items: center; gap: 8px; font-size: 10px; color: var(--ink-2); margin-top: 20px; line-height: 1.6; }
+.story-save-note svg { width: 14px; height: 14px; flex-shrink: 0; }
+.story-save-note.is-unsaved { color: var(--bad); }
+.story-journal { width: min(620px, calc(100% - 28px)); max-height: calc(100dvh - 48px); margin: auto; padding: 0; border: 1px solid var(--line); border-radius: 16px; color: var(--ink); background: var(--card); box-shadow: 0 24px 90px #0a273b40; overflow-y: auto; }
+.story-journal::backdrop { background: #0a273b99; backdrop-filter: blur(5px); }
+.story-journal-inner { padding: 28px; }
+.story-journal header { display: flex; align-items: center; gap: 15px; padding-bottom: 22px; border-bottom: 1px solid var(--line); }
+.story-journal header > svg { width: 30px; height: 30px; stroke-width: 1.4; }
+.simple-shell .story-journal h2 { font: 700 27px Georgia, serif; letter-spacing: -.03em; }
+.story-journal header p { font-size: 11px; color: var(--ink-2); margin-top: 5px; }
+.story-journal header button { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 8px; margin-left: auto; flex-shrink: 0; }
+.story-journal header button:hover { background: var(--card-2); }
+.story-journal header button svg { width: 19px; height: 19px; }
+.story-journal li { display: flex; gap: 15px; padding: 20px 0; border-bottom: 1px solid var(--line); }
+.story-journal-index { display: grid; place-items: center; border: 1px solid var(--line); border-radius: 50%; width: 32px; height: 32px; flex-shrink: 0; color: var(--ink-2); }
+.story-journal-index svg { width: 15px; height: 15px; }
+.story-journal .is-found .story-journal-index { color: var(--ok); border-color: var(--ok); background: var(--ok-soft); }
+.story-journal li small { font-size: 10px; color: var(--ink-2); }
+.simple-shell .story-journal li h3 { font-size: 15px; font-weight: 650; margin-block: 4px; letter-spacing: -.015em; }
+.story-journal li p { font-size: 12px; line-height: 1.65; color: var(--ink-2); }
+.story-journal footer { padding-top: 18px; font-size: 12px; }
+.story-reset-button { display: inline-flex; align-items: center; gap: 8px; color: var(--bad); min-height: 44px; }
+.story-reset-button svg { width: 15px; height: 15px; }
+.story-reset-confirm p { line-height: 1.6; }
+.story-reset-confirm > button + button { margin-left: 24px; }
+@media (min-width: 951px) and (max-width: 1250px) {
+  .story-workspace { grid-template-columns: minmax(0, 1fr) 350px; }
+  .story-panel { padding: 28px 24px; }
+  .simple-shell .story-panel h2 { font-size: 37px; }
+  .story-island .diorama-world-tools { top: 95px; right: 15px; }
+  .story-island .diorama-world-caption { top: 18px; }
+  .story-map-route { left: 14px; right: 14px; padding-inline: 13px; gap: 14px; }
+  .story-map-route > div { display: none; }
+}
+@media (max-width: 950px) {
+  .story-workspace { grid-template-columns: minmax(0, 1fr); }
+  .story-workspace .story-island { height: 480px; min-height: 0; }
+  .story-panel { min-height: 0; padding: 30px; }
+  .story-panel > .story-primary { margin-top: 24px; }
+  .story-goal { margin-top: 14px; }
+  .story-journey ol { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px 12px; }
+  .story-journey li:nth-child(4n)::before { display: none; }
+  .story-hint-area { padding-top: 16px; }
+  .story-panel .story-hint-button { min-height: 44px; }
+}
+@media (max-width: 600px) {
+  .simple-shell .story-page { padding: 22px 14px 100px; }
+  .story-page-heading { align-items: flex-start; gap: 10px; margin-bottom: 18px; }
+  .simple-shell .story-page-heading h1 { font-size: 36px; max-width: 260px; }
+  .story-page-heading p { font-size: 16px; line-height: 1.5; max-width: 240px; margin-top: 9px; }
+  .story-journal-button { min-width: 44px; padding: 10px; min-height: 44px; }
+  .story-journal-button > span { display: none; }
+  .story-workspace { border-radius: 13px; }
+  .story-workspace .story-island { height: 420px; border-radius: 0; }
+  .story-island .diorama-world-caption { top: 12px; left: 12px; padding: 10px 12px; }
+  .story-island .diorama-world-caption strong { font-size: 15px; }
+  .story-island .diorama-world-caption span { display: none; }
+  .story-island .diorama-world-caption > svg { width: 29px; height: 29px; }
+  .story-island .diorama-world-tools { top: 12px; left: auto; right: 12px; width: auto; display: flex; flex-direction: row; gap: 0; border-radius: 10px; padding: 4px; }
+  .story-island .diorama-world-tools button { height: 36px; width: 32px; min-width: 0; padding: 0; }
+  .story-island .diorama-world-tools button[aria-label='Ansicht nach links drehen'], .story-island .diorama-world-tools button[aria-label='Verkleinern'], .story-island .diorama-world-tools button[aria-label='Animationen pausieren'], .story-island .diorama-world-tools button[aria-label='Animationen fortsetzen'] { display: none; }
+  .story-island .diorama-world-tools svg { width: 16px; height: 16px; }
+  .story-island .diorama-tool-divider { display: none; }
+  .story-map-route { left: 12px; right: 12px; bottom: 12px; padding: 12px; gap: 0; }
+  .story-map-route > div { display: none; }
+  .story-map-route button { width: 30px; height: 30px; }
+  .story-map-route li:not(:last-child)::after { top: 15px; left: 32px; right: 3px; }
+  .story-map-pin { width: 25px; height: 25px; font-size: 10px; }
+  .story-map-pin::after { top: 24px; height: 9px; }
+  .story-panel { padding: 28px 23px; }
+  .simple-shell .story-panel h2 { font-size: 37px; max-width: 320px; margin-top: 12px; }
+  .story-description { font-size: 13px; }
+  .story-dialogue { margin-top: 19px; padding-block: 19px; }
+  .story-dialogue blockquote { font-size: 12px; }
+  .story-journey-heading > span { font-size: 10px; }
+  .simple-shell .story-journey h2 { font-size: 24px; }
+  .story-journey ol { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px 15px; }
+  .story-journey li:nth-child(2n)::before { display: none; }
+  .story-journey li > button { min-height: 80px; gap: 9px; }
+  .story-journey-copy strong { font-size: 11px; }
+  .story-island-fallback { min-height: 280px; padding: 30px; }
+  .story-panel-anchor { scroll-margin-top: 75px; }
+  .story-journal-inner { padding: 22px; }
+  .simple-shell .story-journal h2 { font-size: 23px; }
+  .story-journal header { gap: 10px; }
+  .story-journal header > svg { display: none; }
+}
+@media (max-width: 360px) { .story-island .diorama-world-caption > svg { display: none; } }
+@media (prefers-reduced-motion: reduce) { .story-page *, .story-page *::before, .story-page *::after { scroll-behavior: auto !important; transition: none !important; animation: none !important; } }

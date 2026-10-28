@@ -7,6 +7,7 @@ import { AuthProvider } from './AuthProvider'
 import { pagesRedirect } from './pagesRedirect'
 
 const Home = lazy(() => import('@/features/home/HomePage'))
+const Story = lazy(() => import('@/features/story/StoryPage'))
 const PlayStart = lazy(() => import('@/features/play/PlayStartPage'))
 const Round = lazy(() => import('@/features/play/RoundPage'))
 const Daily = lazy(() => import('@/features/daily/DailyHubPage'))
@@ -53,6 +54,7 @@ export const router = createBrowserRouter(
       ),
       children: [
         { path: '/', element: <Home /> },
+        { path: '/story', element: <Story /> },
         { path: '/play', element: <PlayStart /> },
         { path: '/play/:category', element: <PlayStart /> },
         { path: '/play/:category/round', element: <Round /> },

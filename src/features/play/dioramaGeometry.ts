@@ -40,9 +40,14 @@ export function fitDioramaCamera(
   width: number,
   height: number,
   view: DioramaView = DEFAULT_DIORAMA_VIEW,
+  framePadding?: { top: number; bottom: number; side: number },
 ) {
   const compact = width < 750
-  const padding = { top: compact ? 140 : 54, bottom: compact ? 126 : 90, side: compact ? 10 : 24 }
+  const padding = framePadding ?? {
+    top: compact ? 140 : 54,
+    bottom: compact ? 126 : 90,
+    side: compact ? 10 : 24,
+  }
   camera.position.set(12, 13.5, 16)
   camera.position.applyAxisAngle(new Vector3(0, 1, 0), view.angle)
   camera.lookAt(0, 0, 0)
