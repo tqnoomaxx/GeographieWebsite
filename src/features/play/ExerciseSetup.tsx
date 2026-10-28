@@ -17,7 +17,8 @@ import { modeFor, type ModeForm } from '@/config/quizzes'
 import { poolFor } from '@/engine/session'
 import { roundPath, type RoundConfig } from '@/engine/round'
 import { SCOPES } from '@/engine/scope'
-import { selectedProfileIds, PROFILE_CATEGORIES } from '@/engine/profile'
+import { selectedProfileIds } from '@/engine/profile'
+import { ProfileOptions } from './ProfileOptions'
 import type { CategoryId } from '@/engine/types'
 import { ErrorState, LoadingState, Page } from '@/ui'
 import { TopicIcon } from './QuizCatalog'
@@ -92,8 +93,12 @@ export function ExerciseList({ category }: { category: CategoryId }) {
     </Page>
   )
 }
-export function ExerciseSetup({exercise}:{exercise:Exercise}) {
-  return exercise.kind==='city-recall'?<CityRecallSetup exercise={exercise}/>:<StandardExerciseSetup exercise={exercise}/>
+export function ExerciseSetup({ exercise }: { exercise: Exercise }) {
+  return exercise.kind === 'city-recall' ? (
+    <CityRecallSetup exercise={exercise} />
+  ) : (
+    <StandardExerciseSetup exercise={exercise} />
+  )
 }
 function StandardExerciseSetup({ exercise: q }: { exercise: Exercise }) {
   const { t } = useTranslation()
@@ -112,6 +117,16 @@ function StandardExerciseSetup({ exercise: q }: { exercise: Exercise }) {
     () => q.collections?.find((c) => c.id === params.get('collection'))?.id ?? q.collections?.[0]?.id,
   )
   const [fields, setFields] = useState(() => selectedProfileIds(params.get('fields')?.split(',')))
+  const [profileLearning, setProfileLearning] = useState(params.get('repeat') === '1')
+  const [profileLength, setProfileLength] = useState<number | 'all'>(() =>
+    params.get('len') === 'all'
+      ? 'all'
+      : ['10', '20', '50'].includes(params.get('len') ?? '')
+        ? Number(params.get('len'))
+        : params.get('repeat') === '1'
+          ? 10
+          : 'all',
+  )
   useDocumentTitle(q.title)
   const setupBase = {
     category: q.topic,
@@ -123,8 +138,15 @@ function StandardExerciseSetup({ exercise: q }: { exercise: Exercise }) {
   }
   const minimum = q.kind === 'profile' || form !== 'choice' ? 1 : (q.minPool ?? 4)
   const available = useMemo(() => {
-    if (resources.loading) return []
-    const setup = { category: q.topic, exercise: q.id, mode: form, collection, content: q.content }
+    if (resources.loading || (q.kind === 'profile' && !fields.length)) return []
+    const setup = {
+      category: q.topic,
+      exercise: q.id,
+      mode: form,
+      collection,
+      content: q.content,
+      fields: q.kind === 'profile' ? fields : undefined,
+    }
     const count = (scope: string) => poolFor(geo.contextFor(scope), setup).size
     if (q.scope === 'none') return [{ id: 'world', label: 'Welt' }]
     const scopes: Array<{ id: string; label: string }> = []
@@ -164,29 +186,30 @@ function StandardExerciseSetup({ exercise: q }: { exercise: Exercise }) {
       )
     }
     return scopes
-  }, [geo, q, form, collection, minimum, resources.loading, t])
+  }, [geo, q, form, collection, fields, minimum, resources.loading, t])
   const scope = available.some((s) => s.id === chosenScope)
     ? chosenScope
     : (available.find((s) => s.id === q.defaultScope)?.id ?? available[0]?.id ?? 'world')
   const poolSize = useMemo(
-    () => (resources.loading ? 0 : poolFor(geo.contextFor(scope), setupBase).size),
-    [geo, scope, q, form, collection, resources.loading],
+    () =>
+      resources.loading || (q.kind === 'profile' && !fields.length)
+        ? 0
+        : poolFor(geo.contextFor(scope), setupBase).size,
+    [geo, scope, q, form, collection, fields, resources.loading],
   )
-  const wanted = q.defaultLength ?? training.length
+  const wanted = q.kind === 'profile' ? profileLength : (q.defaultLength ?? training.length)
   const length = wanted === 'all' || poolSize <= wanted ? 'all' : wanted
   const start = () => {
     const setup: RoundConfig = {
       ...setupBase,
       scope,
       length,
-      repeat: q.kind === 'profile' ? false : training.repeat,
+      repeat: q.kind === 'profile' ? profileLearning : training.repeat,
       hideFlagHints: q.topic === 'flags' && training.hideFlagHints,
     }
     navigate(roundPath(setup))
   }
   const topic = topicFor(q.topic)!
-  const toggleField = (id: string) =>
-    setFields((previous) => (previous.includes(id) ? previous.filter((f) => f !== id) : [...previous, id]))
   return (
     <Page>
       <div className="exercise-setup">
@@ -196,7 +219,7 @@ function StandardExerciseSetup({ exercise: q }: { exercise: Exercise }) {
         </Link>
         <header className="exercise-setup-heading">
           <h1>{q.title}</h1>
-          <p>{q.description}</p>
+          <p>{form === 'map' ? (q.mapDescription ?? q.description) : q.description}</p>
         </header>
         {resources.error ? (
           <ErrorState onRetry={resources.retry} />
@@ -255,29 +278,22 @@ function StandardExerciseSetup({ exercise: q }: { exercise: Exercise }) {
               </label>
             )}
             {q.kind === 'profile' && (
-              <details className="profile-category-options">
-                <summary>
-                  Fünf Kategorien auswählen <span>{fields.length} / 5</span>
-                </summary>
-                <div>
-                  {PROFILE_CATEGORIES.map((c) => (
-                    <label key={c.id}>
-                      <input
-                        type="checkbox"
-                        checked={fields.includes(c.id)}
-                        disabled={fields.length === 5 && !fields.includes(c.id)}
-                        onChange={() => toggleField(c.id)}
-                      />
-                      {c.title}
-                    </label>
-                  ))}
-                </div>
-              </details>
+              <ProfileOptions
+                fields={fields}
+                onFieldsChange={setFields}
+                learning={profileLearning}
+                onLearningChange={(value) => {
+                  setProfileLearning(value)
+                  if (value && profileLength === 'all') setProfileLength(10)
+                }}
+                length={profileLength}
+                onLengthChange={setProfileLength}
+              />
             )}
             {q.kind === 'profile' && (
               <p className="exercise-note">
-                Tippe in beliebiger Reihenfolge. Eine gültige Antwort pro Kategorie genügt. Vollständige
-                Treffer werden automatisch übernommen.
+                Tippe in beliebiger Reihenfolge. Eine gültige Antwort pro Kategorie genügt; anschließend
+                erscheinen alle weiteren gültigen Antworten.
               </p>
             )}
             <p className="exercise-summary" aria-live="polite">
@@ -293,7 +309,7 @@ function StandardExerciseSetup({ exercise: q }: { exercise: Exercise }) {
             <button
               className="btn-primary exercise-start"
               type="button"
-              disabled={poolSize < minimum || (q.kind === 'profile' && fields.length !== 5)}
+              disabled={poolSize < minimum || (q.kind === 'profile' && fields.length === 0)}
               onClick={start}
             >
               Quiz starten

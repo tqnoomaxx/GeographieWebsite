@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import type { Country, NationalSymbol, NationalSymbolKind } from '@/domain/types'
 import { CAPITAL_ROLE_LABELS, countryCapitals } from '@/domain/capitals'
 import { nationalSymbols } from '@/domain/nationalSymbols'
+import { populationReference } from '@/domain/population'
 import { useGeoData } from '@/app/DataProvider'
 import { SourceInfo, formatNumber, entityPath } from '@/ui'
 
@@ -12,6 +13,7 @@ export function FactGrid({ country, compact = false }: { country: Country; compa
   const a = country.attributes
   const capitals = countryCapitals(country, geo.byId)
   const popSrc = country.provenance.fields?.population
+  const popReference = populationReference(country)
   const languageSource = country.provenance.fields?.languages
   const facts: Array<{ label: string; value: React.ReactNode; src?: React.ReactNode }> = [
     {
@@ -42,14 +44,15 @@ export function FactGrid({ country, compact = false }: { country: Country; compa
       ),
     },
     {
-      label: t('facts.population'),
+      label: `${t('facts.population')}${popReference ? ` (${popReference.label})` : ''}`,
       value: formatNumber(a.population),
       src: popSrc && (
         <SourceInfo
-          source="Wikidata"
-          url={`https://www.wikidata.org/wiki/${popSrc.source_id}`}
-          asOf={popSrc.imported_at}
-          dateLabel="Importiert"
+          label="Einwohner"
+          source={popSrc.source}
+          url={popSrc.source_url ?? (popSrc.source === 'wikidata' ? `https://www.wikidata.org/wiki/${popSrc.source_id}` : undefined)}
+          asOf={popSrc.reference_date ?? popSrc.imported_at}
+          dateLabel={popSrc.reference_date ? 'Bezugsdatum' : 'Importiert'}
         />
       ),
     },

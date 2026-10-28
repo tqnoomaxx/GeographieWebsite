@@ -23,6 +23,7 @@ import { review, initialProgress } from './srs'
 import { levelForXp, xpForLevel } from '@/config/levels'
 import type { Country, Entity, Relationship } from '@/domain/types'
 import { isSovereign, options } from './generators/base'
+import { hasMapGeometry } from '@/domain/mapFeatures'
 import { resolvePuzzleGuess, samePuzzlePlace } from '@/features/daily/puzzles'
 import { platePlaceKeys, sharePlatePlace } from '@/domain/licensePlates'
 
@@ -42,6 +43,7 @@ const rivers = read<Entity[]>('entities/rivers.json')
 const lakes = read<Entity[]>('entities/lakes.json')
 const mountains = read<Entity[]>('entities/mountains.json')
 const scriptWords = read<Entity[]>('entities/script-words.json')
+const languageSamples = read<Entity[]>('entities/language-samples.json')
 const trivia = read<Entity[]>('entities/trivia.json')
 /** Runden-Setup mit Standardwerten (Automatisch, Welt, 10, Wiederholung an). */
 const setup = (o: Partial<RoundConfig> & { category: RoundConfig['category'] }): RoundConfig => ({
@@ -62,6 +64,7 @@ const ctx = (scope = 'world') =>
     lakes,
     mountains,
     scriptWords,
+    languageSamples,
     trivia,
     relationships,
     scope,
@@ -514,7 +517,7 @@ describe('landmarks', () => {
 
 describe('Schriften & Sprachen', () => {
   it('enthält belastbare russische und griechische Lernkarten', () => {
-    expect(scriptWords).toHaveLength(131)
+    expect(scriptWords.length).toBeGreaterThan(300)
     expect(scriptWords.filter((entity) => entity.attributes.language === 'ru').length).toBeGreaterThan(60)
     expect(scriptWords.filter((entity) => entity.attributes.language === 'el').length).toBeGreaterThan(55)
     for (const entity of scriptWords) {
@@ -641,6 +644,15 @@ describe('vollständiges Quiz-Inhaltsaudit', () => {
       for (const target of generator.pool(c)) {
         const q = generator.make(target, c, createRng(`map-audit:${target.id}`), 2)
         if (!q?.map) continue
+        if (q.map.kind === 'features') {
+          expect(q.map.featureIds, q.id).toContain(q.answer)
+          expect(q.answer, q.id).toBe(target.id)
+          for (const id of q.map.featureIds) {
+            expect(c.byId.get(id)?.type, id).toBe(q.map.featureType)
+            expect(hasMapGeometry(c.byId.get(id)!), id).toBe(true)
+          }
+          continue
+        }
         const file =
           q.map.kind === 'world'
             ? 'data/geo/world.json'

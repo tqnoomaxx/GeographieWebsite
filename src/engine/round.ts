@@ -53,7 +53,8 @@ export function toQuery(c: RoundConfig): string {
   p.set('scope', c.scope)
   p.set('len', String(c.length))
   if (c.content?.length === 1) p.set('content', c.content[0])
-  if (!c.repeat) p.set('repeat', '0')
+  if (c.exercise === 'country-profile') p.set('repeat', c.repeat ? '1' : '0')
+  else if (!c.repeat) p.set('repeat', '0')
   if (c.hideFlagHints) p.set('hide_hints', '1')
   if (c.only?.length) p.set('only', c.only.join(','))
   return p.toString()
@@ -108,7 +109,12 @@ export function fromQuery(category: CategoryId, params: URLSearchParams): RoundC
         ? (selected.defaultScope ?? 'world')
         : scope,
     length: selected?.kind === 'city-recall' ? 'all' : length,
-    repeat: selected?.kind === 'city-recall' ? false : params.get('repeat') !== '0',
+    repeat:
+      selected?.kind === 'city-recall'
+        ? false
+        : selected?.kind === 'profile'
+          ? params.get('repeat') === '1'
+          : params.get('repeat') !== '0',
     content: content === 'country' || content === 'region' ? [content] : undefined,
     only,
     hideFlagHints: params.get('hide_hints') === '1',

@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T20:22:03.360Z",
+ "generated_at": "2026-10-28T17:25:44.190Z",
  "counts": {
   "country": 254,
   "city": 2561,
@@ -7,7 +7,8 @@
   "river": 220,
   "lake": 113,
   "mountain": 201,
-  "script_word": 131,
+  "script_word": 322,
+  "language_sample": 63,
   "trivia": 60,
   "region": 817,
   "license_plate": 1388
@@ -267,60 +268,6 @@
       {
        "source": "wikidata",
        "value": 1100
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "country:CY",
-   "conflicts": [
-    {
-     "field": "population",
-     "values": [
-      {
-       "source": "wikidata",
-       "value": 1344976
-      },
-      {
-       "source": "wikidata",
-       "value": 1120489
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "country:NL",
-   "conflicts": [
-    {
-     "field": "population",
-     "values": [
-      {
-       "source": "wikidata",
-       "value": 17942942
-      },
-      {
-       "source": "wikidata",
-       "value": 17100715
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "country:TW",
-   "conflicts": [
-    {
-     "field": "population",
-     "values": [
-      {
-       "source": "wikidata",
-       "value": 23317031
-      },
-      {
-       "source": "wikidata",
-       "value": 23262544
       }
      ]
     }

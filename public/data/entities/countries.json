@@ -111,7 +111,7 @@
    "visual_key": "4bd80209ab5bf4e4",
    "capital": "city:AD-andorra-la-vella",
    "wikidata": "Q228",
-   "population": 89752,
+   "population": 83753,
    "highest_point": {
     "name": "Comapedrosa",
     "elevation_m": 2942,
@@ -162,9 +162,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q228",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "AND",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -244,7 +247,7 @@
    "on_world_map": true,
    "capital": "city:AE-abu-dhabi",
    "wikidata": "Q878",
-   "population": 9890400,
+   "population": 11574682,
    "highest_point": {
     "name": "Dschabal Jais",
     "elevation_m": 1911,
@@ -310,9 +313,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q878",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "ARE",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -397,7 +403,7 @@
    "on_world_map": true,
    "capital": "city:AF-kabul",
    "wikidata": "Q889",
-   "population": 41454761,
+   "population": 45047068,
    "highest_point": {
     "name": "Noshak",
     "elevation_m": 7492,
@@ -458,9 +464,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q889",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "AFG",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -533,7 +542,7 @@
    "visual_key": "e795bcd1c8014924",
    "capital": "city:AG-saint-john-s",
    "wikidata": "Q781",
-   "population": 101489,
+   "population": 94626,
    "highest_point": {
     "name": "Mount Obama",
     "elevation_m": 402,
@@ -650,9 +659,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q781",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "ATG",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -724,7 +736,7 @@
    "visual_key": "6ae8bfad8f90b23f",
    "capital": "city:AI-the-valley",
    "wikidata": "Q25228",
-   "population": 19079,
+   "population": 14817,
    "languages_detail": [
     {
      "code": "eng",
@@ -770,9 +782,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q25228",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "AIA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "capitals": {
      "source": "Wikidata (CC0)",
@@ -851,7 +866,7 @@
    "on_world_map": true,
    "capital": "city:AL-tirana",
    "wikidata": "Q222",
-   "population": 2811655,
+   "population": 2751025,
    "highest_point": {
     "name": "Korab",
     "elevation_m": 2764,
@@ -902,9 +917,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q222",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "ALB",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -987,7 +1005,7 @@
    "on_world_map": true,
    "capital": "city:AM-yerevan",
    "wikidata": "Q399",
-   "population": 2930450,
+   "population": 2930915,
    "highest_point": {
     "name": "Aragaz",
     "elevation_m": 4090,
@@ -1038,9 +1056,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q399",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "ARM",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -1122,7 +1143,7 @@
    "on_world_map": true,
    "capital": "city:AO-luanda",
    "wikidata": "Q916",
-   "population": 36749906,
+   "population": 40215180,
    "highest_point": {
     "name": "Môco",
     "elevation_m": 2619,
@@ -1173,9 +1194,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q916",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "AGO",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -1363,7 +1387,7 @@
    "on_world_map": true,
    "capital": "city:AR-buenos-aires",
    "wikidata": "Q414",
-   "population": 47327407,
+   "population": 46003734,
    "highest_point": {
     "name": "Aconcagua",
     "elevation_m": 6962,
@@ -1449,9 +1473,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q414",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "ARG",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -1528,7 +1555,7 @@
    "visual_key": "79df6428d565daff",
    "capital": "city:AS-pago-pago",
    "wikidata": "Q16641",
-   "population": 49710,
+   "population": 45318,
    "highest_point": {
     "name": "Lata",
     "elevation_m": 963,
@@ -1590,9 +1617,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q16641",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "ASM",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -1679,7 +1709,7 @@
    "on_world_map": true,
    "capital": "city:AT-wien",
    "wikidata": "Q40",
-   "population": 8979894,
+   "population": 9107266,
    "highest_point": {
     "name": "Großglockner",
     "elevation_m": 3798,
@@ -1730,9 +1760,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q40",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "AUT",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -1808,7 +1841,7 @@
    "on_world_map": true,
    "capital": "city:AU-canberra",
    "wikidata": "Q408",
-   "population": 27614411,
+   "population": 27227096,
    "highest_point": {
     "name": "Mawson Peak",
     "elevation_m": 2745,
@@ -1906,9 +1939,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q408",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "AUS",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -1981,7 +2017,7 @@
    "visual_key": "f598d1d225ce2d61",
    "capital": "city:AW-oranjestad",
    "wikidata": "Q21203",
-   "population": 106739,
+   "population": 108164,
    "highest_point": {
     "name": "Jamanota",
     "elevation_m": 188,
@@ -2037,9 +2073,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q21203",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "ABW",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -2253,7 +2292,7 @@
    "on_world_map": true,
    "capital": "city:AZ-baku",
    "wikidata": "Q227",
-   "population": 10180770,
+   "population": 10454855,
    "highest_point": {
     "name": "Bazardüzü",
     "elevation_m": 2706,
@@ -2309,9 +2348,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q227",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "AZE",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -2393,7 +2435,7 @@
    "on_world_map": true,
    "capital": "city:BA-sarajevo",
    "wikidata": "Q225",
-   "population": 3816459,
+   "population": 3114242,
    "highest_point": {
     "name": "Maglić",
     "elevation_m": 2386,
@@ -2454,9 +2496,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q225",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "BIH",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -2528,7 +2573,7 @@
    "visual_key": "d1ff17c3a155f96b",
    "capital": "city:BB-bridgetown",
    "wikidata": "Q244",
-   "population": 303431,
+   "population": 282724,
    "highest_point": {
     "name": "Mount Hillaby",
     "elevation_m": 340,
@@ -2594,9 +2639,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q244",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "BRB",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -2676,7 +2724,7 @@
    "on_world_map": true,
    "capital": "city:BD-dhaka",
    "wikidata": "Q902",
-   "population": 171466990,
+   "population": 177818044,
    "highest_point": {
     "name": "Mowdok Mual",
     "elevation_m": 1054,
@@ -2757,9 +2805,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q902",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "BGD",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -2847,7 +2898,7 @@
    "on_world_map": true,
    "capital": "city:BE-brussel",
    "wikidata": "Q31",
-   "population": 11825551,
+   "population": 11774642,
    "highest_point": {
     "name": "Botrange",
     "elevation_m": 694.24,
@@ -2923,9 +2974,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q31",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "BEL",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -3005,7 +3059,7 @@
    "on_world_map": true,
    "capital": "city:BF-ouagadougou",
    "wikidata": "Q965",
-   "population": 23025776,
+   "population": 24601700,
    "highest_point": {
     "name": "Tena Kourou",
     "elevation_m": 749,
@@ -3056,9 +3110,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q965",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "BFA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -3141,7 +3198,7 @@
    "on_world_map": true,
    "capital": "city:BG-sofia",
    "wikidata": "Q219",
-   "population": 6423207,
+   "population": 6667660,
    "highest_point": {
     "name": "Musala",
     "elevation_m": 2925.4,
@@ -3192,9 +3249,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q219",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "BGR",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -3269,7 +3329,7 @@
    "visual_key": "747e9450a3bee045",
    "capital": "city:BH-manama",
    "wikidata": "Q398",
-   "population": 1569666,
+   "population": 1675572,
    "highest_point": {
     "name": "Dschabal ad-Duchan",
     "elevation_m": 134,
@@ -3320,9 +3380,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q398",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "BHR",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -3404,7 +3467,7 @@
    "on_world_map": true,
    "capital": "city:BI-gitega",
    "wikidata": "Q967",
-   "population": 13689450,
+   "population": 14729157,
    "highest_point": {
     "name": "Mont Heha",
     "elevation_m": 2684,
@@ -3461,9 +3524,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q967",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "BDI",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -3544,7 +3610,7 @@
    "on_world_map": true,
    "capital": "city:BJ-porto-novo",
    "wikidata": "Q962",
-   "population": 14111034,
+   "population": 15170420,
    "highest_point": {
     "name": "Mont Sokbaro",
     "elevation_m": 658,
@@ -3603,9 +3669,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q962",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "BEN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -3682,7 +3751,7 @@
    "visual_key": "321ae9a9e500f660",
    "capital": "city:BL-gustavia",
    "wikidata": "Q25362",
-   "population": 10124,
+   "population": 11550,
    "highest_point": {
     "name": "Morne du Vitet",
     "elevation_m": 286,
@@ -3733,9 +3802,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q25362",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "BLM",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -3810,7 +3882,7 @@
    "visual_key": "69472537453eb555",
    "capital": "city:BM-hamilton",
    "wikidata": "Q23635",
-   "population": 65024,
+   "population": 64459,
    "languages_detail": [
     {
      "code": "eng",
@@ -3856,9 +3928,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q23635",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "BMU",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "capitals": {
      "source": "Wikidata (CC0)",
@@ -3939,7 +4014,7 @@
    "on_world_map": true,
    "capital": "city:BN-bandar-seri-begawan",
    "wikidata": "Q921",
-   "population": 458949,
+   "population": 469775,
    "highest_point": {
     "name": "Bukit Pagon",
     "elevation_m": 1850,
@@ -3990,9 +4065,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q921",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "BRN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -4084,7 +4162,7 @@
    "on_world_map": true,
    "capital": "city:BO-sucre",
    "wikidata": "Q750",
-   "population": 12244159,
+   "population": 12749291,
    "highest_point": {
     "name": "Sajama",
     "elevation_m": 6542,
@@ -4181,9 +4259,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q750",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "BOL",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -4261,7 +4342,7 @@
    "visual_key": "6f4e426f29459e61",
    "capital": "city:BQ-kralendijk",
    "wikidata": "Q27561",
-   "population": 29418,
+   "population": 31913,
    "highest_point": {
     "name": "Mount Scenery",
     "elevation_m": 870,
@@ -4315,9 +4396,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q27561",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "BES",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -4406,7 +4490,7 @@
    "on_world_map": true,
    "capital": "city:BR-brasilia",
    "wikidata": "Q155",
-   "population": 214211951,
+   "population": 213562666,
    "highest_point": {
     "name": "Pico da Neblina",
     "elevation_m": 2994,
@@ -4487,9 +4571,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q155",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "BRA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -4570,7 +4657,7 @@
    "on_world_map": true,
    "capital": "city:BS-nassau",
    "wikidata": "Q778",
-   "population": 399440,
+   "population": 404628,
    "highest_point": {
     "name": "Mount Alvernia",
     "elevation_m": 63,
@@ -4666,9 +4753,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q778",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "BHS",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -4752,7 +4842,7 @@
    "on_world_map": true,
    "capital": "city:BT-thimphu",
    "wikidata": "Q917",
-   "population": 787424,
+   "population": 802214,
    "highest_point": {
     "name": "Gangkhar Puensum",
     "elevation_m": 7570,
@@ -4863,9 +4953,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q917",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "BTN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -5040,7 +5133,7 @@
    "on_world_map": true,
    "capital": "city:BW-gaborone",
    "wikidata": "Q963",
-   "population": 2480244,
+   "population": 2603388,
    "highest_point": {
     "name": "Otse Hill",
     "elevation_m": 1491,
@@ -5109,9 +5202,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q963",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "BWA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -5196,7 +5292,7 @@
    "on_world_map": true,
    "capital": "city:BY-minsk",
    "wikidata": "Q184",
-   "population": 9056080,
+   "population": 8937018,
    "highest_point": {
     "name": "Dsjarschynskaja Hara",
     "elevation_m": 345,
@@ -5252,9 +5348,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q184",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "BLR",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -5332,7 +5431,7 @@
    "on_world_map": true,
    "capital": "city:BZ-belmopan",
    "wikidata": "Q242",
-   "population": 411106,
+   "population": 428644,
    "highest_point": {
     "name": "Doyle’s Delight",
     "elevation_m": 1124,
@@ -5453,9 +5552,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q242",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "BLZ",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -5532,7 +5634,7 @@
    "on_world_map": true,
    "capital": "city:CA-ottawa",
    "wikidata": "Q16",
-   "population": 36991981,
+   "population": 40467728,
    "highest_point": {
     "name": "Mount Logan",
     "elevation_m": 5959,
@@ -5618,9 +5720,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q16",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "CAN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -5826,7 +5931,7 @@
    "on_world_map": true,
    "capital": "city:CD-kinshasa",
    "wikidata": "Q974",
-   "population": 105789731,
+   "population": 116452162,
    "highest_point": {
     "name": "Mount Stanley",
     "elevation_m": 5109,
@@ -5897,9 +6002,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q974",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "COD",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -5982,7 +6090,7 @@
    "on_world_map": true,
    "capital": "city:CF-bangui",
    "wikidata": "Q929",
-   "population": 5152421,
+   "population": 5698984,
    "highest_point": {
     "name": "Ngaoui",
     "elevation_m": 1410,
@@ -6038,9 +6146,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q929",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "CAF",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -6125,7 +6236,7 @@
    "on_world_map": true,
    "capital": "city:CG-brazzaville",
    "wikidata": "Q971",
-   "population": 6142180,
+   "population": 6637786,
    "highest_point": {
     "name": "Mont Nabebe",
     "elevation_m": 1020,
@@ -6186,9 +6297,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q971",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "COG",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -6276,7 +6390,7 @@
    "on_world_map": true,
    "capital": "city:CH-bern",
    "wikidata": "Q39",
-   "population": 9104063,
+   "population": 9007798,
    "highest_point": {
     "name": "Dufourspitze",
     "elevation_m": 4634,
@@ -6343,9 +6457,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q39",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "CHE",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -6429,7 +6546,7 @@
    "on_world_map": true,
    "capital": "city:CI-yamoussoukro",
    "wikidata": "Q1008",
-   "population": 31165654,
+   "population": 33494346,
    "highest_point": {
     "name": "Mont Nimba",
     "elevation_m": 1752,
@@ -6481,9 +6598,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1008",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "CIV",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -6564,7 +6684,7 @@
    "visual_key": "165ccadcb9f3be28",
    "capital": "city:CK-avarua",
    "wikidata": "Q26988",
-   "population": 14222,
+   "population": 12826,
    "highest_point": {
     "name": "Te Manga",
     "elevation_m": 652,
@@ -6620,9 +6740,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q26988",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "COK",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -6702,7 +6825,7 @@
    "on_world_map": true,
    "capital": "city:CL-santiago-de-chile",
    "wikidata": "Q298",
-   "population": 19458000,
+   "population": 19945850,
    "highest_point": {
     "name": "Nevado Ojos del Salado",
     "elevation_m": 6893,
@@ -6783,9 +6906,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q298",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "CHL",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -6870,7 +6996,7 @@
    "on_world_map": true,
    "capital": "city:CM-yaounde",
    "wikidata": "Q1009",
-   "population": 28372687,
+   "population": 30640817,
    "highest_point": {
     "name": "Kamerunberg",
     "elevation_m": 4095,
@@ -6926,9 +7052,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1009",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "CMR",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -7029,7 +7158,7 @@
    "on_world_map": true,
    "capital": "city:CN-peking",
    "wikidata": "Q148",
-   "population": 1404890000,
+   "population": 1412914089,
    "highest_point": {
     "name": "Mount Everest",
     "elevation_m": 8848.86,
@@ -7097,9 +7226,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q148",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "CHN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -7182,7 +7314,7 @@
    "on_world_map": true,
    "capital": "city:CO-bogota",
    "wikidata": "Q739",
-   "population": 52321152,
+   "population": 53936226,
    "highest_point": {
     "name": "Pico Simón Bolívar",
     "elevation_m": 5775,
@@ -7263,9 +7395,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q739",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "COL",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -7344,7 +7479,7 @@
    "on_world_map": true,
    "capital": "city:CR-san-jose",
    "wikidata": "Q800",
-   "population": 5265575,
+   "population": 5174789,
    "highest_point": {
     "name": "Cerro Chirripó",
     "elevation_m": 3820,
@@ -7425,9 +7560,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q800",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "CRI",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -7510,7 +7648,7 @@
    "on_world_map": true,
    "capital": "city:CU-havanna",
    "wikidata": "Q241",
-   "population": 10985974,
+   "population": 10892659,
    "highest_point": {
     "name": "Pico Turquino",
     "elevation_m": 1974,
@@ -7576,9 +7714,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q241",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "CUB",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -7654,7 +7795,7 @@
    "visual_key": "3297bdc9b5d5a394",
    "capital": "city:CV-praia",
    "wikidata": "Q1011",
-   "population": 555988,
+   "population": 529630,
    "highest_point": {
     "name": "Pico do Fogo",
     "elevation_m": 2829,
@@ -7705,9 +7846,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1011",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "CPV",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -7786,7 +7930,7 @@
    "visual_key": "c735d8e0c01d35d5",
    "capital": "city:CW-willemstad",
    "wikidata": "Q25279",
-   "population": 152849,
+   "population": 185440,
    "languages_detail": [
     {
      "code": "eng",
@@ -7842,9 +7986,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q25279",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "CUW",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "capitals": {
      "source": "Wikidata (CC0)",
@@ -8047,7 +8194,7 @@
    "on_world_map": true,
    "capital": "city:CY-nikosia",
    "wikidata": "Q229",
-   "population": 1344976,
+   "population": 1382334,
    "highest_point": {
     "name": "Olympos",
     "elevation_m": 1952,
@@ -8104,9 +8251,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q229",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "CYP",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -8122,22 +8272,7 @@
      "source_url": "https://unstats.un.org/unsd/methodology/m49/overview/",
      "imported_at": "2026-10-15"
     }
-   },
-   "conflicts": [
-    {
-     "field": "population",
-     "values": [
-      {
-       "source": "wikidata",
-       "value": 1344976
-      },
-      {
-       "source": "wikidata",
-       "value": 1120489
-      }
-     ]
-    }
-   ]
+   }
   }
  },
  {
@@ -8210,7 +8345,7 @@
    "on_world_map": true,
    "capital": "city:CZ-prag",
    "wikidata": "Q213",
-   "population": 10909500,
+   "population": 10527780,
    "highest_point": {
     "name": "Schneekoppe",
     "elevation_m": 1603.3,
@@ -8266,9 +8401,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q213",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "CZE",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -8354,7 +8492,7 @@
    "on_world_map": true,
    "capital": "city:DE-berlin",
    "wikidata": "Q183",
-   "population": 83577140,
+   "population": 83644258,
    "highest_point": {
     "name": "Zugspitze",
     "elevation_m": 2962.06,
@@ -8420,9 +8558,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q183",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "DEU",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -8508,7 +8649,7 @@
    "on_world_map": true,
    "capital": "city:DJ-djibouti",
    "wikidata": "Q977",
-   "population": 1152944,
+   "population": 1199459,
    "highest_point": {
     "name": "Mousa Alli",
     "elevation_m": 2028,
@@ -8564,9 +8705,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q977",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "DJI",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -8646,7 +8790,7 @@
    "on_world_map": true,
    "capital": "city:DK-kopenhagen",
    "wikidata": "Q35",
-   "population": 5822863,
+   "population": 6023520,
    "highest_point": {
     "name": "Møllehøj",
     "elevation_m": 170.86,
@@ -8703,9 +8847,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q35",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "DNK",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -8781,7 +8928,7 @@
    "visual_key": "cdcbb6cff78165c7",
    "capital": "city:DM-roseau",
    "wikidata": "Q784",
-   "population": 74656,
+   "population": 65511,
    "highest_point": {
     "name": "Morne Diablotins",
     "elevation_m": 1447,
@@ -8862,9 +9009,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q784",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "DMA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -8940,7 +9090,7 @@
    "on_world_map": true,
    "capital": "city:DO-santo-domingo",
    "wikidata": "Q786",
-   "population": 10760028,
+   "population": 11609500,
    "highest_point": {
     "name": "Pico Duarte",
     "elevation_m": 3101,
@@ -9006,9 +9156,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q786",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "DOM",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -9095,7 +9248,7 @@
    "on_world_map": true,
    "capital": "city:DZ-algiers",
    "wikidata": "Q262",
-   "population": 46164219,
+   "population": 48028334,
    "highest_point": {
     "name": "Tahat",
     "elevation_m": 2908,
@@ -9146,9 +9299,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q262",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "DZA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -9227,7 +9383,7 @@
    "on_world_map": true,
    "capital": "city:EC-quito",
    "wikidata": "Q736",
-   "population": 16938986,
+   "population": 18444506,
    "highest_point": {
     "name": "Chimborazo",
     "elevation_m": 6263.47,
@@ -9293,9 +9449,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q736",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "ECU",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -9376,7 +9535,7 @@
    "on_world_map": true,
    "capital": "city:EE-tallinn",
    "wikidata": "Q191",
-   "population": 1369995,
+   "population": 1331062,
    "highest_point": {
     "name": "Suur Munamägi",
     "elevation_m": 317.4,
@@ -9487,9 +9646,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q191",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "EST",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -9571,7 +9733,7 @@
    "on_world_map": true,
    "capital": "city:EG-kairo",
    "wikidata": "Q79",
-   "population": 114535772,
+   "population": 120101175,
    "highest_point": {
     "name": "Dschabal Katrin",
     "elevation_m": 2629,
@@ -9623,9 +9785,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q79",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "EGY",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -9720,7 +9885,7 @@
    "on_world_map": true,
    "capital": "city:EH-el-aaiun",
    "wikidata": "Q6250",
-   "population": 612000,
+   "population": 610813,
    "languages_detail": [
     {
      "code": "ber",
@@ -9769,9 +9934,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q6250",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "ESH",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "capitals": {
      "source": "mledoze/countries",
@@ -9851,7 +10019,7 @@
    "on_world_map": true,
    "capital": "city:ER-asmara",
    "wikidata": "Q986",
-   "population": 3497000,
+   "population": 3682669,
    "highest_point": {
     "name": "Soira",
     "elevation_m": 3013,
@@ -9912,9 +10080,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q986",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "ERI",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -9997,7 +10168,7 @@
    "on_world_map": true,
    "capital": "city:ES-madrid",
    "wikidata": "Q29",
-   "population": 48592909,
+   "population": 47850793,
    "highest_point": {
     "name": "Teide",
     "elevation_m": 3715,
@@ -10041,9 +10212,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q29",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "ESP",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -10128,7 +10302,7 @@
    "on_world_map": true,
    "capital": "city:ET-addis-abeba",
    "wikidata": "Q115",
-   "population": 128691692,
+   "population": 138902185,
    "highest_point": {
     "name": "Ras Daschän",
     "elevation_m": 4533,
@@ -10179,9 +10353,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q115",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "ETH",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -10305,7 +10482,7 @@
    "on_world_map": true,
    "capital": "city:FI-helsinki",
    "wikidata": "Q33",
-   "population": 5652881,
+   "population": 5621739,
    "highest_point": {
     "name": "Haltitunturi",
     "elevation_m": 1361.4,
@@ -10436,9 +10613,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q33",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "FIN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -10519,7 +10699,7 @@
    "on_world_map": true,
    "capital": "city:FJ-suva",
    "wikidata": "Q712",
-   "population": 926276,
+   "population": 937282,
    "highest_point": {
     "name": "Tomanivi",
     "elevation_m": 1324,
@@ -10595,9 +10775,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q712",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "FJI",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -10673,7 +10856,7 @@
    "on_world_map": true,
    "capital": "city:FK-stanley",
    "wikidata": "Q9648",
-   "population": 4550,
+   "population": 3465,
    "highest_point": {
     "name": "Mount Usborne",
     "elevation_m": 705,
@@ -10724,9 +10907,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q9648",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "FLK",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -10802,7 +10988,7 @@
    "visual_key": "d084ae191a766ce4",
    "capital": "city:FM-palikir",
    "wikidata": "Q702",
-   "population": 75817,
+   "population": 114182,
    "highest_point": {
     "name": "Dolohmwar",
     "elevation_m": 791,
@@ -10853,9 +11039,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q702",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "FSM",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -10944,7 +11133,7 @@
    "visual_key": "649c6c10a5d4bdb4",
    "capital": "city:FO-torshavn",
    "wikidata": "Q4628",
-   "population": 54149,
+   "population": 56526,
    "highest_point": {
     "name": "Slættaratindur",
     "elevation_m": 880,
@@ -11000,9 +11189,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q4628",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "FRO",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -11088,7 +11280,7 @@
    "on_world_map": true,
    "capital": "city:FR-paris",
    "wikidata": "Q142",
-   "population": 68605616,
+   "population": 66746401,
    "highest_point": {
     "name": "Mont Blanc",
     "elevation_m": 4805.59,
@@ -11171,9 +11363,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q142",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "FRA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -11254,7 +11449,7 @@
    "on_world_map": true,
    "capital": "city:GA-libreville",
    "wikidata": "Q1000",
-   "population": 2025137,
+   "population": 2647400,
    "highest_point": {
     "name": "Mont Bengoué",
     "elevation_m": 1070,
@@ -11305,9 +11500,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1000",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "GAB",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -11387,7 +11585,7 @@
    "on_world_map": true,
    "capital": "city:GB-london",
    "wikidata": "Q145",
-   "population": 67326569,
+   "population": 69931528,
    "highest_point": {
     "name": "Ben Nevis",
     "elevation_m": 1344.527,
@@ -11438,9 +11636,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q145",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "GBR",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -11517,7 +11718,7 @@
    "visual_key": "14f874310cd7e338",
    "capital": "city:GD-st-george-s",
    "wikidata": "Q769",
-   "population": 114299,
+   "population": 117362,
    "highest_point": {
     "name": "Mount Saint Catherine",
     "elevation_m": 840,
@@ -11598,9 +11799,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q769",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "GRD",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -11680,7 +11884,7 @@
    "on_world_map": true,
    "capital": "city:GE-tbilisi",
    "wikidata": "Q230",
-   "population": 3929581,
+   "population": 3804642,
    "highest_point": {
     "name": "Schchara",
     "elevation_m": 5193.2,
@@ -11731,9 +11935,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q230",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "GEO",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -11810,7 +12017,7 @@
    "visual_key": "95443d5764146dee",
    "capital": "city:GF-cayenne",
    "wikidata": "Q3769",
-   "population": 293996,
+   "population": 318872,
    "highest_point": {
     "name": "Bellevue de l’Inini",
     "elevation_m": 831,
@@ -11854,9 +12061,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q3769",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "GUF",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -11939,7 +12149,7 @@
    "visual_key": "f602e67a64bf4ea4",
    "capital": "city:GG-st-peter-port",
    "wikidata": "Q25230",
-   "population": 67787,
+   "population": 64610,
    "highest_point": {
     "name": "Le Moulin",
     "elevation_m": 109,
@@ -12000,9 +12210,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q25230",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "GGY",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -12086,7 +12299,7 @@
    "on_world_map": true,
    "capital": "city:GH-accra",
    "wikidata": "Q117",
-   "population": 32833031,
+   "population": 35697557,
    "highest_point": {
     "name": "Afadjato",
     "elevation_m": 885,
@@ -12137,9 +12350,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q117",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "GHA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -12212,7 +12428,7 @@
    "visual_key": "92fdfc46aedf1a1a",
    "capital": "city:GI-gibraltar",
    "wikidata": "Q1410",
-   "population": 34003,
+   "population": 40867,
    "languages_detail": [
     {
      "code": "eng",
@@ -12264,9 +12480,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1410",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "GIB",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "capitals": {
      "source": "Wikidata (CC0)",
@@ -12336,7 +12555,7 @@
    "on_world_map": true,
    "capital": "city:GL-nuuk",
    "wikidata": "Q223",
-   "population": 56609,
+   "population": 55629,
    "highest_point": {
     "name": "Gunnbjørns Fjeld",
     "elevation_m": 3694,
@@ -12387,9 +12606,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q223",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "GRL",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -12466,7 +12688,7 @@
    "on_world_map": true,
    "capital": "city:GM-banjul",
    "wikidata": "Q1005",
-   "population": 2639916,
+   "population": 2884079,
    "languages_detail": [
     {
      "code": "eng",
@@ -12512,9 +12734,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1005",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "GMB",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "capitals": {
      "source": "Wikidata (CC0)",
@@ -12592,7 +12817,7 @@
    "on_world_map": true,
    "capital": "city:GN-conakry",
    "wikidata": "Q1006",
-   "population": 17521167,
+   "population": 15441992,
    "highest_point": {
     "name": "Mont Nimba",
     "elevation_m": 1752,
@@ -12643,9 +12868,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1006",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "GIN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -12717,7 +12945,7 @@
    "visual_key": "499bbe64d0ce5713",
    "capital": "city:GP-basse-terre",
    "wikidata": "Q17012",
-   "population": 384160,
+   "population": 372453,
    "highest_point": {
     "name": "Soufrière",
     "elevation_m": 1467,
@@ -12761,9 +12989,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q17012",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "GLP",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -12847,7 +13078,7 @@
    "on_world_map": true,
    "capital": "city:GQ-ciudad-de-la-paz",
    "wikidata": "Q983",
-   "population": 1847549,
+   "population": 1984468,
    "highest_point": {
     "name": "Pico Basilé",
     "elevation_m": 3011,
@@ -12917,9 +13148,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q983",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "GNQ",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -13002,7 +13236,7 @@
    "on_world_map": true,
    "capital": "city:GR-athen",
    "wikidata": "Q41",
-   "population": 10482487,
+   "population": 9897116,
    "highest_point": {
     "name": "Berg Olymp",
     "elevation_m": 2917.727,
@@ -13068,9 +13302,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q41",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "GRC",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -13276,7 +13513,7 @@
    "on_world_map": true,
    "capital": "city:GT-guatemala-city",
    "wikidata": "Q774",
-   "population": 17263239,
+   "population": 18967978,
    "highest_point": {
     "name": "Tajumulco",
     "elevation_m": 4203,
@@ -13372,9 +13609,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q774",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "GTM",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -13449,7 +13689,7 @@
    "visual_key": "c4c1bc901aeaff13",
    "capital": "city:GU-hagatna",
    "wikidata": "Q16635",
-   "population": 153836,
+   "population": 170185,
    "highest_point": {
     "name": "Mount Lamlam",
     "elevation_m": 406,
@@ -13510,9 +13750,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q16635",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "GUM",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -13592,7 +13835,7 @@
    "on_world_map": true,
    "capital": "city:GW-bissau",
    "wikidata": "Q1007",
-   "population": 1861283,
+   "population": 2297808,
    "highest_point": {
     "name": "Monte Torin",
     "elevation_m": 262,
@@ -13648,9 +13891,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1007",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "GNB",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -13729,7 +13975,7 @@
    "on_world_map": true,
    "capital": "city:GY-georgetown",
    "wikidata": "Q734",
-   "population": 878674,
+   "population": 840890,
    "highest_point": {
     "name": "Roraima-Tepui",
     "elevation_m": 2810,
@@ -13827,9 +14073,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q734",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "GUY",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -13905,7 +14154,7 @@
    "emoji": "🇭🇰",
    "visual_key": "8c2c494a583b946b",
    "wikidata": "Q8646",
-   "population": 7413070,
+   "population": 7378602,
    "highest_point": {
     "name": "Tai Mo Shan",
     "elevation_m": 957,
@@ -13960,9 +14209,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q8646",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "HKG",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -14135,7 +14387,7 @@
    "on_world_map": true,
    "capital": "city:HN-tegucigalpa",
    "wikidata": "Q783",
-   "population": 8303771,
+   "population": 11184760,
    "highest_point": {
     "name": "Cerro Las Minas",
     "elevation_m": 2849,
@@ -14231,9 +14483,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q783",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "HND",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -14317,7 +14572,7 @@
    "on_world_map": true,
    "capital": "city:HR-zagreb",
    "wikidata": "Q224",
-   "population": 3871833,
+   "population": 3822345,
    "highest_point": {
     "name": "Dinara",
     "elevation_m": 1831,
@@ -14383,9 +14638,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q224",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "HRV",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -14465,7 +14723,7 @@
    "on_world_map": true,
    "capital": "city:HT-port-au-prince",
    "wikidata": "Q790",
-   "population": 10981229,
+   "population": 12037506,
    "highest_point": {
     "name": "Pic la Selle",
     "elevation_m": 2674,
@@ -14521,9 +14779,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q790",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "HTI",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -14605,7 +14866,7 @@
    "on_world_map": true,
    "capital": "city:HU-budapest",
    "wikidata": "Q28",
-   "population": 9603634,
+   "population": 9585818,
    "highest_point": {
     "name": "Kékes",
     "elevation_m": 1014,
@@ -14656,9 +14917,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q28",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "HUN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -14779,7 +15043,7 @@
    "on_world_map": true,
    "capital": "city:ID-jakarta",
    "wikidata": "Q252",
-   "population": 275439000,
+   "population": 287886782,
    "highest_point": {
     "name": "Carstensz-Pyramide",
     "elevation_m": 4884,
@@ -14861,9 +15125,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q252",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "IDN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -14944,7 +15211,7 @@
    "on_world_map": true,
    "capital": "city:IE-dublin",
    "wikidata": "Q27",
-   "population": 5149139,
+   "population": 5356950,
    "highest_point": {
     "name": "Carrantuohill",
     "elevation_m": 1038.6,
@@ -15000,9 +15267,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q27",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "IRL",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -15085,7 +15355,7 @@
    "on_world_map": true,
    "capital": "city:IL-jerusalem",
    "wikidata": "Q801",
-   "population": 9840000,
+   "population": 9647689,
    "highest_point": {
     "name": "Har Meron",
     "elevation_m": 1208,
@@ -15141,9 +15411,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q801",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "ISR",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -15226,7 +15499,7 @@
    "visual_key": "64a1d132e17f670e",
    "capital": "city:IM-douglas",
    "wikidata": "Q9676",
-   "population": 84523,
+   "population": 84054,
    "highest_point": {
     "name": "Snaefell",
     "elevation_m": 621,
@@ -15282,9 +15555,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q9676",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "IMN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -15377,7 +15653,7 @@
    "on_world_map": true,
    "capital": "city:IN-neu-delhi",
    "wikidata": "Q668",
-   "population": 1326093247,
+   "population": 1476625576,
    "highest_point": {
     "name": "Kangchendzönga",
     "elevation_m": 8586,
@@ -15500,9 +15776,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q668",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "IND",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -15704,7 +15983,7 @@
    "on_world_map": true,
    "capital": "city:IQ-baghdad",
    "wikidata": "Q796",
-   "population": 38274618,
+   "population": 48007437,
    "highest_point": {
     "name": "Cheekha Dar",
     "elevation_m": 3611,
@@ -15765,9 +16044,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q796",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "IRQ",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -15853,7 +16135,7 @@
    "on_world_map": true,
    "capital": "city:IR-tehran",
    "wikidata": "Q794",
-   "population": 92417700,
+   "population": 93168497,
    "highest_point": {
     "name": "Damavand",
     "elevation_m": 5610,
@@ -15904,9 +16186,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q794",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "IRN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -15982,7 +16267,7 @@
    "on_world_map": true,
    "capital": "city:IS-reykjavik",
    "wikidata": "Q189",
-   "population": 364260,
+   "population": 402329,
    "highest_point": {
     "name": "Hvannadalshnúkur",
     "elevation_m": 2110,
@@ -16048,9 +16333,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q189",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "ISL",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -16134,7 +16422,7 @@
    "on_world_map": true,
    "capital": "city:IT-rom",
    "wikidata": "Q38",
-   "population": 58850717,
+   "population": 58926166,
    "highest_point": {
     "name": "Mont Blanc",
     "elevation_m": 4805.59,
@@ -16185,9 +16473,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q38",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "ITA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -16271,7 +16562,7 @@
    "visual_key": "e19d340e736a1b83",
    "capital": "city:JE-saint-helier",
    "wikidata": "Q785",
-   "population": 103267,
+   "population": 104106,
    "languages_detail": [
     {
      "code": "eng",
@@ -16333,9 +16624,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q785",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "JEY",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "capitals": {
      "source": "Wikidata (CC0)",
@@ -16410,7 +16704,7 @@
    "on_world_map": true,
    "capital": "city:JM-kingston",
    "wikidata": "Q766",
-   "population": 2697983,
+   "population": 2833404,
    "highest_point": {
     "name": "Blue Mountain Peak",
     "elevation_m": 2256,
@@ -16511,9 +16805,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q766",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "JAM",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -16597,7 +16894,7 @@
    "on_world_map": true,
    "capital": "city:JO-amman",
    "wikidata": "Q810",
-   "population": 10428241,
+   "population": 11589532,
    "highest_point": {
     "name": "Dschabal Umm ad-Dami",
     "elevation_m": 1854,
@@ -16663,9 +16960,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q810",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "JOR",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -16741,7 +17041,7 @@
    "on_world_map": true,
    "capital": "city:JP-tokio",
    "wikidata": "Q17",
-   "population": 123802000,
+   "population": 122427731,
    "highest_point": {
     "name": "Fuji",
     "elevation_m": 3777.24,
@@ -16822,9 +17122,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q17",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "JPN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -16908,7 +17211,7 @@
    "on_world_map": true,
    "capital": "city:KE-nairobi",
    "wikidata": "Q114",
-   "population": 48468138,
+   "population": 58636412,
    "highest_point": {
     "name": "Mount-Kenya-Massiv",
     "elevation_m": 5199,
@@ -16964,9 +17267,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q114",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "KEN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -17051,7 +17357,7 @@
    "on_world_map": true,
    "capital": "city:KG-bishkek",
    "wikidata": "Q813",
-   "population": 7281800,
+   "population": 7400464,
    "highest_point": {
     "name": "Pik Pobedy",
     "elevation_m": 7439,
@@ -17122,9 +17428,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q813",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "KGZ",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -17210,7 +17519,7 @@
    "on_world_map": true,
    "capital": "city:KH-phnom-penh",
    "wikidata": "Q424",
-   "population": 17423880,
+   "population": 18051219,
    "highest_point": {
     "name": "Phnom Aural",
     "elevation_m": 1813,
@@ -17336,9 +17645,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q424",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "KHM",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -17421,7 +17733,7 @@
    "visual_key": "264b8dcc3bc462c0",
    "capital": "city:KI-south-tarawa",
    "wikidata": "Q710",
-   "population": 134518,
+   "population": 138445,
    "highest_point": {
     "name": "Banaba",
     "elevation_m": 81,
@@ -17477,9 +17789,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q710",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "KIR",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -17559,7 +17874,7 @@
    "visual_key": "7242420248f1b5c7",
    "capital": "city:KM-moroni",
    "wikidata": "Q970",
-   "population": 902348,
+   "population": 899010,
    "highest_point": {
     "name": "Karthala",
     "elevation_m": 2361,
@@ -17635,9 +17950,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q970",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "COM",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -17712,7 +18030,7 @@
    "visual_key": "03af4c3390aaa5f2",
    "capital": "city:KN-basseterre",
    "wikidata": "Q763",
-   "population": 46922,
+   "population": 46992,
    "highest_point": {
     "name": "Mount Liamuiga",
     "elevation_m": 1156,
@@ -17793,9 +18111,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q763",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "KNA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -17881,7 +18202,7 @@
    "on_world_map": true,
    "capital": "city:KP-pyongyang",
    "wikidata": "Q423",
-   "population": 26418204,
+   "population": 26633691,
    "highest_point": {
     "name": "Paektusan",
     "elevation_m": 2744,
@@ -17947,9 +18268,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q423",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "PRK",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -18031,7 +18355,7 @@
    "on_world_map": true,
    "capital": "city:KR-seoul",
    "wikidata": "Q884",
-   "population": 51466201,
+   "population": 51600388,
    "highest_point": {
     "name": "Hallasan",
     "elevation_m": 1947.06,
@@ -18097,9 +18421,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q884",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "KOR",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -18178,7 +18505,7 @@
    "on_world_map": true,
    "capital": "city:KW-kuwait-city",
    "wikidata": "Q817",
-   "population": 4464000,
+   "population": 5102773,
    "highest_point": {
     "name": "Mutla Ridge",
     "elevation_m": 140,
@@ -18244,9 +18571,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q817",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "KWT",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -18320,7 +18650,7 @@
    "visual_key": "a0e03eeb2470e4fd",
    "capital": "city:KY-george-town",
    "wikidata": "Q5785",
-   "population": 88833,
+   "population": 77196,
    "languages_detail": [
     {
      "code": "eng",
@@ -18366,9 +18696,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q5785",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "CYM",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "capitals": {
      "source": "Wikidata (CC0)",
@@ -18453,7 +18786,7 @@
    "on_world_map": true,
    "capital": "city:KZ-astana",
    "wikidata": "Q232",
-   "population": 20139914,
+   "population": 21083626,
    "highest_point": {
     "name": "Khan Tengri",
     "elevation_m": 7010,
@@ -18509,9 +18842,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q232",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "KAZ",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -18594,7 +18930,7 @@
    "on_world_map": true,
    "capital": "city:LA-vientiane",
    "wikidata": "Q819",
-   "population": 6858160,
+   "population": 7974018,
    "highest_point": {
     "name": "Phu Bia",
     "elevation_m": 2819,
@@ -18660,9 +18996,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q819",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "LAO",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -18743,7 +19082,7 @@
    "on_world_map": true,
    "capital": "city:LB-beirut",
    "wikidata": "Q822",
-   "population": 6100075,
+   "population": 5897467,
    "highest_point": {
     "name": "Al-Qurnat as-Sauda",
     "elevation_m": 3088,
@@ -18799,9 +19138,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q822",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "LBN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -18874,7 +19216,7 @@
    "visual_key": "a5a4cc02cd459215",
    "capital": "city:LC-castries",
    "wikidata": "Q760",
-   "population": 167591,
+   "population": 180488,
    "highest_point": {
     "name": "Mount Gimie",
     "elevation_m": 952.4,
@@ -18961,9 +19303,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q760",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "LCA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -19040,7 +19385,7 @@
    "visual_key": "88f34e0aa148bb98",
    "capital": "city:LI-vaduz",
    "wikidata": "Q347",
-   "population": 37922,
+   "population": 40368,
    "highest_point": {
     "name": "Grauspitz",
     "elevation_m": 2599,
@@ -19091,9 +19436,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q347",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "LIE",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -19174,7 +19522,7 @@
    "on_world_map": true,
    "capital": "city:LK-sri-jayewardenepura-kotte",
    "wikidata": "Q854",
-   "population": 21444000,
+   "population": 23348315,
    "highest_point": {
     "name": "Pidurutalagala",
     "elevation_m": 2524,
@@ -19284,9 +19632,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q854",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "LKA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -19365,7 +19716,7 @@
    "on_world_map": true,
    "capital": "city:LR-monrovia",
    "wikidata": "Q1014",
-   "population": 5214030,
+   "population": 5853949,
    "highest_point": {
     "name": "Mount Wuteve",
     "elevation_m": 1440,
@@ -19416,9 +19767,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1014",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "LBR",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -19503,7 +19857,7 @@
    "on_world_map": true,
    "capital": "city:LS-maseru",
    "wikidata": "Q1013",
-   "population": 2007201,
+   "population": 2389336,
    "highest_point": {
     "name": "Thabana Ntlenyana",
     "elevation_m": 3482,
@@ -19559,9 +19913,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1013",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "LSO",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -19643,7 +20000,7 @@
    "on_world_map": true,
    "capital": "city:LT-vilnius",
    "wikidata": "Q37",
-   "population": 2860002,
+   "population": 2797338,
    "highest_point": {
     "name": "Aukštojas",
     "elevation_m": 293.84,
@@ -19694,9 +20051,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q37",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "LTU",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -19781,7 +20141,7 @@
    "on_world_map": true,
    "capital": "city:LU-luxemburg",
    "wikidata": "Q32",
-   "population": 690959,
+   "population": 687448,
    "highest_point": {
     "name": "Kneiff",
     "elevation_m": 560,
@@ -19842,9 +20202,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q32",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "LUX",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -19926,7 +20289,7 @@
    "on_world_map": true,
    "capital": "city:LV-riga",
    "wikidata": "Q211",
-   "population": 1845096,
+   "population": 1835935,
    "highest_point": {
     "name": "Gaiziņkalns",
     "elevation_m": 311.94,
@@ -20007,9 +20370,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q211",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "LVA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -20093,7 +20459,7 @@
    "on_world_map": true,
    "capital": "city:LY-tripoli",
    "wikidata": "Q1016",
-   "population": 7381023,
+   "population": 7539852,
    "highest_point": {
     "name": "Bikku Bitti",
     "elevation_m": 2267,
@@ -20144,9 +20510,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1016",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "LBY",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -20229,7 +20598,7 @@
    "on_world_map": true,
    "capital": "city:MA-rabat",
    "wikidata": "Q1028",
-   "population": 36828330,
+   "population": 38762441,
    "highest_point": {
     "name": "Tubqal",
     "elevation_m": 4167,
@@ -20285,9 +20654,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1028",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MAR",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -20364,7 +20736,7 @@
    "visual_key": "c532f4311cc2b500",
    "capital": "city:MC-monaco",
    "wikidata": "Q235",
-   "population": 38857,
+   "population": 38087,
    "highest_point": {
     "name": "Chemin des Révoires",
     "elevation_m": 162,
@@ -20415,9 +20787,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q235",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MCO",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -20498,7 +20873,7 @@
    "on_world_map": true,
    "capital": "city:MD-chisinau",
    "wikidata": "Q217",
-   "population": 2409207,
+   "population": 2961253,
    "highest_point": {
     "name": "Dealul Bălănești",
     "elevation_m": 430,
@@ -20549,9 +20924,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q217",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MDA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -20631,7 +21009,7 @@
    "on_world_map": true,
    "capital": "city:ME-podgorica",
    "wikidata": "Q236",
-   "population": 617213,
+   "population": 626233,
    "highest_point": {
     "name": "Zla Kolata",
     "elevation_m": 2534,
@@ -20682,9 +21060,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q236",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MNE",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -20763,7 +21144,7 @@
    "visual_key": "499bbe64d0ce5713",
    "capital": "city:MF-marigot",
    "wikidata": "Q126125",
-   "population": 32358,
+   "population": 23898,
    "highest_point": {
     "name": "Pic Paradis",
     "elevation_m": 424,
@@ -20814,9 +21195,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q126125",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MAF",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -20895,7 +21279,7 @@
    "on_world_map": true,
    "capital": "city:MG-antananarivo",
    "wikidata": "Q1019",
-   "population": 31964956,
+   "population": 33522052,
    "highest_point": {
     "name": "Maromokotro",
     "elevation_m": 2876,
@@ -20951,9 +21335,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1019",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MDG",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -21030,7 +21417,7 @@
    "visual_key": "b1195dd3f014196a",
    "capital": "city:MH-majuro",
    "wikidata": "Q709",
-   "population": 53127,
+   "population": 35075,
    "highest_point": {
     "name": "Likiep",
     "elevation_m": 10,
@@ -21086,9 +21473,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q709",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MHL",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -21174,7 +21564,7 @@
    "on_world_map": true,
    "capital": "city:MK-skopje",
    "wikidata": "Q221",
-   "population": 1836713,
+   "population": 1804062,
    "highest_point": {
     "name": "Korab",
     "elevation_m": 2764,
@@ -21225,9 +21615,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q221",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MKD",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -21311,7 +21704,7 @@
    "on_world_map": true,
    "capital": "city:ML-bamako",
    "wikidata": "Q912",
-   "population": 22395489,
+   "population": 25932275,
    "highest_point": {
     "name": "Hombori Tondo",
     "elevation_m": 1153,
@@ -21362,9 +21755,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q912",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MLI",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -21447,7 +21843,7 @@
    "on_world_map": true,
    "capital": "city:MM-naypyidaw",
    "wikidata": "Q836",
-   "population": 53370609,
+   "population": 55184819,
    "highest_point": {
     "name": "Hkakabo Razi",
     "elevation_m": 5881,
@@ -21527,9 +21923,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q836",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MMR",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -21606,7 +22005,7 @@
    "on_world_map": true,
    "capital": "city:MN-ulan-bator",
    "wikidata": "Q711",
-   "population": 3409939,
+   "population": 3556798,
    "highest_point": {
     "name": "Chüiten-Gipfel",
     "elevation_m": 4374,
@@ -21657,9 +22056,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q711",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MNG",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -21736,7 +22138,7 @@
    "emoji": "🇲🇴",
    "visual_key": "a20a5e002eead128",
    "wikidata": "Q14773",
-   "population": 682100,
+   "population": 723188,
    "highest_point": {
     "name": "Alto de Coloane",
     "elevation_m": 1706,
@@ -21781,9 +22183,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q14773",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MAC",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -21857,7 +22262,7 @@
    "visual_key": "e1faa242c3a0d07a",
    "capital": "city:MP-saipan",
    "wikidata": "Q16644",
-   "population": 47329,
+   "population": 42914,
    "highest_point": {
     "name": "Mount Agrihan",
     "wikidata": "Q27728822"
@@ -21917,9 +22322,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q16644",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MNP",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -21990,7 +22398,7 @@
    "visual_key": "6019e188992d2b6c",
    "capital": "city:MQ-fort-de-france",
    "wikidata": "Q17054",
-   "population": 360630,
+   "population": 337711,
    "highest_point": {
     "name": "Montagne Pelée",
     "elevation_m": 1397,
@@ -22041,9 +22449,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q17054",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MTQ",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -22125,7 +22536,7 @@
    "on_world_map": true,
    "capital": "city:MR-nouakchott",
    "wikidata": "Q1025",
-   "population": 4736139,
+   "population": 5461319,
    "highest_point": {
     "name": "Kediet Ijill",
     "elevation_m": 915,
@@ -22176,9 +22587,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1025",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MRT",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -22250,7 +22664,7 @@
    "visual_key": "d4f697f299625fd1",
    "capital": "city:MS-plymouth",
    "wikidata": "Q13353",
-   "population": 5440,
+   "population": 4328,
    "languages_detail": [
     {
      "code": "eng",
@@ -22296,9 +22710,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q13353",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MSR",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "capitals": {
      "source": "Wikidata (CC0)",
@@ -22369,7 +22786,7 @@
    "visual_key": "e85b13ca25d950a8",
    "capital": "city:MT-valletta",
    "wikidata": "Q233",
-   "population": 553214,
+   "population": 549011,
    "highest_point": {
     "name": "Ta’ Dmejrek",
     "elevation_m": 253,
@@ -22425,9 +22842,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q233",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MLT",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -22504,7 +22924,7 @@
    "visual_key": "fe43b74c31b48101",
    "capital": "city:MU-port-louis",
    "wikidata": "Q1027",
-   "population": 1264613,
+   "population": 1265059,
    "highest_point": {
     "name": "Piton de la Petite Rivière Noire",
     "elevation_m": 828,
@@ -22595,9 +23015,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1027",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MUS",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -22674,7 +23097,7 @@
    "visual_key": "68355c56db69d1f3",
    "capital": "city:MV-male",
    "wikidata": "Q826",
-   "population": 436330,
+   "population": 531517,
    "highest_point": {
     "name": "Villingili",
     "elevation_m": 5.1,
@@ -22740,9 +23163,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q826",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MDV",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -22822,7 +23248,7 @@
    "on_world_map": true,
    "capital": "city:MW-lilongwe",
    "wikidata": "Q1020",
-   "population": 17563749,
+   "population": 22785535,
    "highest_point": {
     "name": "Mulanje Massiv",
     "elevation_m": 3002,
@@ -22884,9 +23310,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1020",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MWI",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -22968,7 +23397,7 @@
    "on_world_map": true,
    "capital": "city:MX-mexiko-stadt",
    "wikidata": "Q96",
-   "population": 132274416,
+   "population": 132997658,
    "highest_point": {
     "name": "Citlaltépetl",
     "elevation_m": 5636,
@@ -23055,9 +23484,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q96",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MEX",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -23136,7 +23568,7 @@
    "on_world_map": true,
    "capital": "city:MY-kuala-lumpur",
    "wikidata": "Q833",
-   "population": 34231700,
+   "population": 36385115,
    "highest_point": {
     "name": "Kinabalu",
     "elevation_m": 4095,
@@ -23232,9 +23664,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q833",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MYS",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -23318,7 +23753,7 @@
    "on_world_map": true,
    "capital": "city:MZ-maputo",
    "wikidata": "Q1029",
-   "population": 29668834,
+   "population": 36639850,
    "highest_point": {
     "name": "Monte Binga",
     "elevation_m": 2436,
@@ -23369,9 +23804,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1029",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MOZ",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -23466,7 +23904,7 @@
    "on_world_map": true,
    "capital": "city:NA-windhoek",
    "wikidata": "Q1030",
-   "population": 2533794,
+   "population": 3153246,
    "highest_point": {
     "name": "Brandbergmassiv",
     "elevation_m": 2573,
@@ -23557,9 +23995,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1030",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "NAM",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -23633,7 +24074,7 @@
    "on_world_map": true,
    "capital": "city:NC-noumea",
    "wikidata": "Q33788",
-   "population": 278500,
+   "population": 297892,
    "languages_detail": [
     {
      "code": "fra",
@@ -23679,9 +24120,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q33788",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "NCL",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "capitals": {
      "source": "Wikidata (CC0)",
@@ -23760,7 +24204,7 @@
    "on_world_map": true,
    "capital": "city:NE-niamey",
    "wikidata": "Q1032",
-   "population": 21477348,
+   "population": 28814878,
    "highest_point": {
     "name": "Idoukal-n-Taghès",
     "elevation_m": 2022,
@@ -23811,9 +24255,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1032",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "NER",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -24032,7 +24479,7 @@
    "on_world_map": true,
    "capital": "city:NG-abuja",
    "wikidata": "Q1033",
-   "population": 211400708,
+   "population": 242431832,
    "highest_point": {
     "name": "Chappal Waddi",
     "elevation_m": 2419,
@@ -24113,9 +24560,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1033",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "NGA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -24194,7 +24644,7 @@
    "on_world_map": true,
    "capital": "city:NI-managua",
    "wikidata": "Q811",
-   "population": 5142098,
+   "population": 7097329,
    "highest_point": {
     "name": "Cerro Mogotón",
     "elevation_m": 2107,
@@ -24260,9 +24710,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q811",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "NIC",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -24343,7 +24796,7 @@
    "on_world_map": true,
    "capital": "city:NL-amsterdam",
    "wikidata": "Q55",
-   "population": 17942942,
+   "population": 18448775,
    "highest_point": {
     "name": "Mount Scenery",
     "elevation_m": 870,
@@ -24418,9 +24871,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q55",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "NLD",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -24431,22 +24887,7 @@
      "source": "Tweede Kamer",
      "imported_at": "2026-10-13"
     }
-   },
-   "conflicts": [
-    {
-     "field": "population",
-     "values": [
-      {
-       "source": "wikidata",
-       "value": 17942942
-      },
-      {
-       "source": "wikidata",
-       "value": 17100715
-      }
-     ]
-    }
-   ]
+   }
   }
  },
  {
@@ -24521,7 +24962,7 @@
    "on_world_map": true,
    "capital": "city:NO-oslo",
    "wikidata": "Q20",
-   "population": 5627400,
+   "population": 5652989,
    "highest_point": {
     "name": "Galdhøpiggen",
     "elevation_m": 2468.854,
@@ -24582,9 +25023,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q20",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "NOR",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -24663,7 +25107,7 @@
    "on_world_map": true,
    "capital": "city:NP-kathmandu",
    "wikidata": "Q837",
-   "population": 29164578,
+   "population": 29629410,
    "highest_point": {
     "name": "Mount Everest",
     "elevation_m": 8848.86,
@@ -24744,9 +25188,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q837",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "NPL",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -24821,7 +25268,7 @@
    "emoji": "🇳🇷",
    "visual_key": "e087ce38b7843dca",
    "wikidata": "Q697",
-   "population": 13650,
+   "population": 12101,
    "highest_point": {
     "name": "Command Ridge",
     "elevation_m": 70,
@@ -24876,9 +25323,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q697",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "NRU",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -24951,7 +25401,7 @@
    "visual_key": "530265b69a87c331",
    "capital": "city:NU-alofi",
    "wikidata": "Q34020",
-   "population": 1821,
+   "population": 1822,
    "highest_point": {
     "name": "Niue Highest Point",
     "elevation_m": 68,
@@ -25007,9 +25457,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q34020",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "NIU",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -25086,7 +25539,7 @@
    "on_world_map": true,
    "capital": "city:NZ-wellington",
    "wikidata": "Q664",
-   "population": 5307800,
+   "population": 5287479,
    "highest_point": {
     "name": "Mount Cook",
     "elevation_m": 3724,
@@ -25198,9 +25651,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q664",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "NZL",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -25280,7 +25736,7 @@
    "on_world_map": true,
    "capital": "city:OM-muscat",
    "wikidata": "Q842",
-   "population": 4829480,
+   "population": 5671458,
    "highest_point": {
     "name": "Dschabal Schams",
     "elevation_m": 3018,
@@ -25331,9 +25787,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q842",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "OMN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -25418,7 +25877,7 @@
    "on_world_map": true,
    "capital": "city:PA-panama-stadt",
    "wikidata": "Q804",
-   "population": 4570133,
+   "population": 4625718,
    "highest_point": {
     "name": "Volcán Barú",
     "elevation_m": 3475,
@@ -25514,9 +25973,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q804",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "PAN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -25600,7 +26062,7 @@
    "on_world_map": true,
    "capital": "city:PE-lima",
    "wikidata": "Q419",
-   "population": 34157732,
+   "population": 34922148,
    "highest_point": {
     "name": "Huascarán",
     "elevation_m": 6768,
@@ -25691,9 +26153,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q419",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "PER",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -25768,7 +26233,7 @@
    "visual_key": "dede7228840ec22c",
    "capital": "city:PF-papeete",
    "wikidata": "Q30971",
-   "population": 278786,
+   "population": 283076,
    "highest_point": {
     "name": "Mont Orohena",
     "elevation_m": 2241,
@@ -25819,9 +26284,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q30971",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "PYF",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -25902,7 +26370,7 @@
    "on_world_map": true,
    "capital": "city:PG-port-moresby",
    "wikidata": "Q691",
-   "population": 8935000,
+   "population": 10947848,
    "highest_point": {
     "name": "Mount Wilhelm",
     "elevation_m": 4509,
@@ -25963,9 +26431,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q691",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "PNG",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -26043,7 +26514,7 @@
    "on_world_map": true,
    "capital": "city:PH-manila",
    "wikidata": "Q928",
-   "population": 112729484,
+   "population": 117724472,
    "highest_point": {
     "name": "Apo",
     "elevation_m": 2954,
@@ -26161,9 +26632,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q928",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "PHL",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -26246,7 +26720,7 @@
    "on_world_map": true,
    "capital": "city:PK-islamabad",
    "wikidata": "Q843",
-   "population": 223773700,
+   "population": 259299792,
    "highest_point": {
     "name": "K2",
     "elevation_m": 8611,
@@ -26362,9 +26836,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q843",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "PAK",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -26449,7 +26926,7 @@
    "on_world_map": true,
    "capital": "city:PL-warschau",
    "wikidata": "Q36",
-   "population": 37563071,
+   "population": 37843188,
    "highest_point": {
     "name": "Rysy",
     "elevation_m": 2501,
@@ -26515,9 +26992,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q36",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "POL",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -26591,7 +27071,7 @@
    "visual_key": "499bbe64d0ce5713",
    "capital": "city:PM-saint-pierre",
    "wikidata": "Q34617",
-   "population": 5974,
+   "population": 5513,
    "highest_point": {
     "name": "Morne de la Grande Montagne",
     "elevation_m": 240,
@@ -26642,9 +27122,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q34617",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SPM",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -26846,7 +27329,7 @@
    "on_world_map": true,
    "capital": "city:PR-san-juan",
    "wikidata": "Q1183",
-   "population": 3285874,
+   "population": 3222688,
    "highest_point": {
     "name": "Cerro de Punta",
     "elevation_m": 1338,
@@ -26902,9 +27385,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1183",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "PRI",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -26999,7 +27485,7 @@
    "on_world_map": true,
    "capital": "city:PS-ostjerusalem",
    "wikidata": "Q219060",
-   "population": 5227193,
+   "population": 5692790,
    "highest_point": {
     "name": "Nabi Yunis",
     "elevation_m": 1026,
@@ -27059,9 +27545,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q219060",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "PSE",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -27140,7 +27629,7 @@
    "on_world_map": true,
    "capital": "city:PT-lissabon",
    "wikidata": "Q45",
-   "population": 10347892,
+   "population": 10395362,
    "highest_point": {
     "name": "Ponta do Pico",
     "elevation_m": 2351,
@@ -27184,9 +27673,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q45",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "PRT",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -27262,7 +27754,7 @@
    "visual_key": "6a00477dd5e1e457",
    "capital": "city:PW-ngerulmud",
    "wikidata": "Q695",
-   "population": 21729,
+   "population": 17614,
    "highest_point": {
     "name": "Mount Ngerchelchuus",
     "elevation_m": 242,
@@ -27318,9 +27810,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q695",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "PLW",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -27402,7 +27897,7 @@
    "on_world_map": true,
    "capital": "city:PY-asuncion",
    "wikidata": "Q733",
-   "population": 6811297,
+   "population": 7095279,
    "highest_point": {
     "name": "Cerro Tres Kandú",
     "elevation_m": 842,
@@ -27458,9 +27953,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q733",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "PRY",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -27540,7 +28038,7 @@
    "on_world_map": true,
    "capital": "city:QA-doha",
    "wikidata": "Q846",
-   "population": 2639211,
+   "population": 3173559,
    "highest_point": {
     "name": "Qurain Abu l-Baul",
     "elevation_m": 103,
@@ -27606,9 +28104,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q846",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "QAT",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -27681,7 +28182,7 @@
    "visual_key": "499bbe64d0ce5713",
    "capital": "city:RE-saint-denis",
    "wikidata": "Q17070",
-   "population": 889679,
+   "population": 886298,
    "highest_point": {
     "name": "Piton des Neiges",
     "elevation_m": 3070,
@@ -27725,9 +28226,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q17070",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "REU",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -27810,7 +28314,7 @@
    "on_world_map": true,
    "capital": "city:RO-bukarest",
    "wikidata": "Q218",
-   "population": 19053815,
+   "population": 18800605,
    "highest_point": {
     "name": "Moldoveanu",
     "elevation_m": 2544,
@@ -27861,9 +28365,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q218",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "ROU",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -27953,7 +28460,7 @@
    "on_world_map": true,
    "capital": "city:RS-belgrad",
    "wikidata": "Q403",
-   "population": 6605168,
+   "population": 6641964,
    "highest_point": {
     "name": "Rudoka",
     "elevation_m": 2658,
@@ -28004,9 +28511,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q403",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SRB",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -28100,7 +28610,7 @@
    "on_world_map": true,
    "capital": "city:RU-moskau",
    "wikidata": "Q159",
-   "population": 146119928,
+   "population": 143394458,
    "highest_point": {
     "name": "Elbrus",
     "elevation_m": 5642,
@@ -28151,9 +28661,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q159",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "RUS",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -28238,7 +28751,7 @@
    "on_world_map": true,
    "capital": "city:RW-kigali",
    "wikidata": "Q1037",
-   "population": 14569341,
+   "population": 14889693,
    "highest_point": {
     "name": "Karisimbi",
     "elevation_m": 4507,
@@ -28299,9 +28812,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1037",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "RWA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -28388,7 +28904,7 @@
    "on_world_map": true,
    "capital": "city:SA-riyadh",
    "wikidata": "Q851",
-   "population": 33000000,
+   "population": 35165787,
    "highest_point": {
     "name": "Dschabal Sauda",
     "elevation_m": 3133,
@@ -28439,9 +28955,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q851",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SAU",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -28515,7 +29034,7 @@
    "on_world_map": true,
    "capital": "city:SB-honiara",
    "wikidata": "Q685",
-   "population": 611343,
+   "population": 858288,
    "highest_point": {
     "name": "Mount Popomanaseu",
     "elevation_m": 2335,
@@ -28566,9 +29085,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q685",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SLB",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -28647,7 +29169,7 @@
    "visual_key": "3ddf34d076f859e8",
    "capital": "city:SC-victoria",
    "wikidata": "Q1042",
-   "population": 119773,
+   "population": 134959,
    "highest_point": {
     "name": "Morne Seychellois",
     "elevation_m": 905,
@@ -28723,9 +29245,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1042",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SYC",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -28810,7 +29335,7 @@
    "on_world_map": true,
    "capital": "city:SD-khartoum",
    "wikidata": "Q1049",
-   "population": 40533330,
+   "population": 53282719,
    "highest_point": {
     "name": "Deriba Caldera",
     "elevation_m": 3042,
@@ -28866,9 +29391,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1049",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SDN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -28948,7 +29476,7 @@
    "on_world_map": true,
    "capital": "city:SE-stockholm",
    "wikidata": "Q34",
-   "population": 10609460,
+   "population": 10701046,
    "highest_point": {
     "name": "Kebnekaise",
     "elevation_m": 2096.8,
@@ -28999,9 +29527,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q34",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SWE",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -29084,7 +29615,7 @@
    "visual_key": "3b8ae566d38d00d1",
    "capital": "city:SG-singapur",
    "wikidata": "Q334",
-   "population": 5866139,
+   "population": 5905748,
    "highest_point": {
     "name": "Bukit Timah",
     "elevation_m": 163.63,
@@ -29165,9 +29696,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q334",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SGP",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -29249,7 +29783,7 @@
    "visual_key": "910e4fa63fb7a23d",
    "capital": "city:SH-jamestown",
    "wikidata": "Q192184",
-   "population": 5633,
+   "population": 5148,
    "highest_point": {
     "name": "Queen Mary’s Peak",
     "elevation_m": 2062,
@@ -29300,9 +29834,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q192184",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SHN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -29389,7 +29926,7 @@
    "on_world_map": true,
    "capital": "city:SI-ljubljana",
    "wikidata": "Q215",
-   "population": 2066880,
+   "population": 2114574,
    "highest_point": {
     "name": "Triglav",
     "elevation_m": 2864,
@@ -29440,9 +29977,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q215",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SVN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -29644,7 +30184,7 @@
    "on_world_map": true,
    "capital": "city:SK-bratislava",
    "wikidata": "Q214",
-   "population": 5409407,
+   "population": 5451342,
    "highest_point": {
     "name": "Gerlsdorfer Spitze",
     "elevation_m": 2654.4,
@@ -29695,9 +30235,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q214",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SVK",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -29775,7 +30318,7 @@
    "on_world_map": true,
    "capital": "city:SL-freetown",
    "wikidata": "Q1044",
-   "population": 7557212,
+   "population": 8996744,
    "highest_point": {
     "name": "Bintumani",
     "elevation_m": 1945,
@@ -29826,9 +30369,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1044",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SLE",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -29906,7 +30452,7 @@
    "visual_key": "a6cb32bed1b81725",
    "capital": "city:SM-san-marino",
    "wikidata": "Q238",
-   "population": 33600,
+   "population": 33605,
    "highest_point": {
     "name": "Titano",
     "elevation_m": 739,
@@ -29957,9 +30503,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q238",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SMR",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -30041,7 +30590,7 @@
    "on_world_map": true,
    "capital": "city:SN-dakar",
    "wikidata": "Q1041",
-   "population": 16876720,
+   "population": 19366548,
    "highest_point": {
     "name": "Népin Cliff",
     "elevation_m": 531,
@@ -30092,9 +30641,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1041",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SEN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -30177,7 +30729,7 @@
    "on_world_map": true,
    "capital": "city:SO-mogadishu",
    "wikidata": "Q1045",
-   "population": 11031386,
+   "population": 20305907,
    "highest_point": {
     "name": "Shimbiris",
     "elevation_m": 2460,
@@ -30233,9 +30785,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1045",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SOM",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -30317,7 +30872,7 @@
    "on_world_map": true,
    "capital": "city:SR-paramaribo",
    "wikidata": "Q730",
-   "population": 563402,
+   "population": 645256,
    "highest_point": {
     "name": "Julianatop",
     "elevation_m": 1280,
@@ -30383,9 +30938,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q730",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SUR",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -30468,7 +31026,7 @@
    "on_world_map": true,
    "capital": "city:SS-juba",
    "wikidata": "Q958",
-   "population": 12575714,
+   "population": 12436037,
    "highest_point": {
     "name": "Kinyeti",
     "elevation_m": 3187,
@@ -30519,9 +31077,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q958",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SSD",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -30598,7 +31159,7 @@
    "visual_key": "7c8b52c0995091a4",
    "capital": "city:ST-sao-tome",
    "wikidata": "Q1039",
-   "population": 204327,
+   "population": 244994,
    "highest_point": {
     "name": "Pico de São Tomé",
     "elevation_m": 2024,
@@ -30649,9 +31210,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1039",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "STP",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -30730,7 +31294,7 @@
    "on_world_map": true,
    "capital": "city:SV-san-salvador",
    "wikidata": "Q792",
-   "population": 6029976,
+   "population": 6391254,
    "highest_point": {
     "name": "El Pital",
     "elevation_m": 2730,
@@ -30833,9 +31397,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q792",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SLV",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -30912,7 +31479,7 @@
    "visual_key": "07715012a8e63685",
    "capital": "city:SX-philipsburg",
    "wikidata": "Q26273",
-   "population": 43847,
+   "population": 44447,
    "languages_detail": [
     {
      "code": "eng",
@@ -30968,9 +31535,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q26273",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SXM",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "capitals": {
      "source": "Wikidata (CC0)",
@@ -31049,7 +31619,7 @@
    "on_world_map": true,
    "capital": "city:SY-damascus",
    "wikidata": "Q858",
-   "population": 23865423,
+   "population": 26472497,
    "highest_point": {
     "name": "Hermon",
     "elevation_m": 2813.95,
@@ -31100,9 +31670,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q858",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SYR",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -31193,7 +31766,7 @@
    "on_world_map": true,
    "capital": "city:SZ-mbabane",
    "wikidata": "Q1050",
-   "population": 1230506,
+   "population": 1269859,
    "highest_point": {
     "name": "Emlembe",
     "elevation_m": 1862,
@@ -31258,9 +31831,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1050",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "SWZ",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -31382,7 +31958,7 @@
    "visual_key": "9b7778f9106e45dd",
    "capital": "city:TC-cockburn-town",
    "wikidata": "Q18221",
-   "population": 44542,
+   "population": 47148,
    "highest_point": {
     "name": "Blue Hills",
     "elevation_m": 49,
@@ -31433,9 +32009,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q18221",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "TCA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -31521,7 +32100,7 @@
    "on_world_map": true,
    "capital": "city:TD-n-djamena",
    "wikidata": "Q657",
-   "population": 19319064,
+   "population": 21560380,
    "highest_point": {
     "name": "Emi Koussi",
     "elevation_m": 3445,
@@ -31577,9 +32156,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q657",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "TCD",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -31782,7 +32364,7 @@
    "on_world_map": true,
    "capital": "city:TG-lome",
    "wikidata": "Q945",
-   "population": 7797694,
+   "population": 8780006,
    "highest_point": {
     "name": "Mont Agou",
     "elevation_m": 986,
@@ -31833,9 +32415,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q945",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "TGO",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -31920,7 +32505,7 @@
    "on_world_map": true,
    "capital": "city:TH-bangkok",
    "wikidata": "Q869",
-   "population": 66188503,
+   "population": 71559614,
    "highest_point": {
     "name": "Doi Inthanon",
     "elevation_m": 2565,
@@ -32001,9 +32586,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q869",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "THA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -32088,7 +32676,7 @@
    "on_world_map": true,
    "capital": "city:TJ-dushanbe",
    "wikidata": "Q863",
-   "population": 9504000,
+   "population": 10978598,
    "highest_point": {
     "name": "Pik Kommunisma",
     "elevation_m": 7495,
@@ -32144,9 +32732,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q863",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "TJK",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -32216,7 +32807,7 @@
    "emoji": "🇹🇰",
    "visual_key": "0c14c08ec1b493e9",
    "wikidata": "Q36823",
-   "population": 1499,
+   "population": 2691,
    "languages_detail": [
     {
      "code": "eng",
@@ -32271,9 +32862,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q36823",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "TKL",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "capitals": {
      "source": "Australian Government, DFAT",
@@ -32353,7 +32947,7 @@
    "on_world_map": true,
    "capital": "city:TL-dili",
    "wikidata": "Q574",
-   "population": 1400638,
+   "population": 1436923,
    "highest_point": {
     "name": "Tatamailau",
     "elevation_m": 2963,
@@ -32409,9 +33003,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q574",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "TLS",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -32490,7 +33087,7 @@
    "on_world_map": true,
    "capital": "city:TM-ashgabat",
    "wikidata": "Q874",
-   "population": 6117933,
+   "population": 7736632,
    "highest_point": {
     "name": "Airibaba",
     "elevation_m": 3139,
@@ -32546,9 +33143,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q874",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "TKM",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -32629,7 +33229,7 @@
    "on_world_map": true,
    "capital": "city:TN-tunis",
    "wikidata": "Q948",
-   "population": 11565204,
+   "population": 12415138,
    "highest_point": {
     "name": "Djebel Chambi",
     "elevation_m": 1544,
@@ -32680,9 +33280,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q948",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "TUN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -32757,7 +33360,7 @@
    "visual_key": "8a6b7c9c68e7537c",
    "capital": "city:TO-nuku-alofa",
    "wikidata": "Q678",
-   "population": 108020,
+   "population": 103291,
    "highest_point": {
     "name": "Kao",
     "elevation_m": 1030,
@@ -32813,9 +33416,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q678",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "TON",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -32903,7 +33509,7 @@
    "on_world_map": true,
    "capital": "city:TR-ankara",
    "wikidata": "Q43",
-   "population": 85372377,
+   "population": 87926082,
    "highest_point": {
     "name": "Ararat",
     "elevation_m": 5137,
@@ -32954,9 +33560,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q43",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "TUR",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -33032,7 +33641,7 @@
    "on_world_map": true,
    "capital": "city:TT-port-of-spain",
    "wikidata": "Q754",
-   "population": 1369125,
+   "population": 1513268,
    "highest_point": {
     "name": "Cerro del Aripo",
     "elevation_m": 940,
@@ -33120,9 +33729,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q754",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "TTO",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -33201,7 +33813,7 @@
    "visual_key": "7eb4dc3f01876c46",
    "capital": "city:TV-funafuti",
    "wikidata": "Q672",
-   "population": 10643,
+   "population": 9362,
    "highest_point": {
     "name": "Niulakita",
     "elevation_m": 4.6,
@@ -33257,9 +33869,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q672",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "TUV",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -33341,7 +33956,7 @@
    "on_world_map": true,
    "capital": "city:TW-taipei",
    "wikidata": "Q865",
-   "population": 23317031,
+   "population": 23011292,
    "highest_point": {
     "name": "Yu Shan",
     "elevation_m": 3952,
@@ -33407,9 +34022,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q865",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "TWN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -33420,22 +34038,7 @@
      "source": "mledoze/countries",
      "imported_at": "2026-10-13"
     }
-   },
-   "conflicts": [
-    {
-     "field": "population",
-     "values": [
-      {
-       "source": "wikidata",
-       "value": 23317031
-      },
-      {
-       "source": "wikidata",
-       "value": 23262544
-      }
-     ]
-    }
-   ]
+   }
   }
  },
  {
@@ -33512,7 +34115,7 @@
    "on_world_map": true,
    "capital": "city:TZ-dodoma",
    "wikidata": "Q924",
-   "population": 57310019,
+   "population": 72563780,
    "highest_point": {
     "name": "Kibo",
     "elevation_m": 5895,
@@ -33584,9 +34187,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q924",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "TZA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -33669,7 +34275,7 @@
    "on_world_map": true,
    "capital": "city:UA-kyjiw",
    "wikidata": "Q212",
-   "population": 41167335,
+   "population": 39535848,
    "highest_point": {
     "name": "Howerla",
     "elevation_m": 2061,
@@ -33720,9 +34326,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q212",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "UKR",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -33805,7 +34414,7 @@
    "on_world_map": true,
    "capital": "city:UG-kampala",
    "wikidata": "Q1036",
-   "population": 47123531,
+   "population": 52761470,
    "highest_point": {
     "name": "Mount Stanley",
     "elevation_m": 5109,
@@ -33876,9 +34485,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1036",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "UGA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -34065,7 +34677,7 @@
    "on_world_map": true,
    "capital": "city:US-washington-d-c",
    "wikidata": "Q30",
-   "population": 340110988,
+   "population": 349035494,
    "highest_point": {
     "name": "Denali",
     "elevation_m": 6190,
@@ -34161,9 +34773,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q30",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "USA",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -34242,7 +34857,7 @@
    "on_world_map": true,
    "capital": "city:UY-montevideo",
    "wikidata": "Q77",
-   "population": 3444263,
+   "population": 3382537,
    "highest_point": {
     "name": "Cerro Catedral",
     "elevation_m": 513.7,
@@ -34293,9 +34908,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q77",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "URY",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -34380,7 +34998,7 @@
    "on_world_map": true,
    "capital": "city:UZ-tashkent",
    "wikidata": "Q265",
-   "population": 34915100,
+   "population": 37724223,
    "highest_point": {
     "name": "Hasrat Sulton",
     "elevation_m": 4643,
@@ -34436,9 +35054,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q265",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "UZB",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -34519,7 +35140,7 @@
    "visual_key": "c2fc80282b2d0678",
    "capital": "city:VA-vatikanstadt",
    "wikidata": "Q237",
-   "population": 882,
+   "population": 506,
    "highest_point": {
     "name": "Vatikanischer Hügel",
     "elevation_m": 75,
@@ -34575,9 +35196,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q237",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "VAT",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -34650,7 +35274,7 @@
    "visual_key": "6a1f133bd91f6e93",
    "capital": "city:VC-kingstown",
    "wikidata": "Q757",
-   "population": 109897,
+   "population": 99244,
    "highest_point": {
     "name": "Soufrière",
     "elevation_m": 1220,
@@ -34731,9 +35355,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q757",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "VCT",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -34814,7 +35441,7 @@
    "on_world_map": true,
    "capital": "city:VE-caracas",
    "wikidata": "Q717",
-   "population": 31250306,
+   "population": 28633711,
    "highest_point": {
     "name": "Pico Bolívar",
     "elevation_m": 4978,
@@ -34880,9 +35507,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q717",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "VEN",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -34958,7 +35588,7 @@
    "visual_key": "3297c12998909208",
    "capital": "city:VG-road-town",
    "wikidata": "Q25305",
-   "population": 39369,
+   "population": 39936,
    "languages_detail": [
     {
      "code": "eng",
@@ -35004,9 +35634,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q25305",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "VGB",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "capitals": {
      "source": "Wikidata (CC0)",
@@ -35076,7 +35709,7 @@
    "visual_key": "09dd0ce0fdf3efc3",
    "capital": "city:VI-charlotte-amalie",
    "wikidata": "Q11703",
-   "population": 87146,
+   "population": 83400,
    "highest_point": {
     "name": "Crown Mountain",
     "elevation_m": 473,
@@ -35127,9 +35760,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q11703",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "VIR",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -35210,7 +35846,7 @@
    "on_world_map": true,
    "capital": "city:VN-hanoi",
    "wikidata": "Q881",
-   "population": 96208984,
+   "population": 102177431,
    "highest_point": {
     "name": "Fansipan",
     "elevation_m": 3143,
@@ -35261,9 +35897,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q881",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "VNM",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -35341,7 +35980,7 @@
    "on_world_map": true,
    "capital": "city:VU-port-vila",
    "wikidata": "Q686",
-   "population": 300019,
+   "population": 342564,
    "highest_point": {
     "name": "Tabwemasana",
     "elevation_m": 1879,
@@ -35402,9 +36041,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q686",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "VUT",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -35480,7 +36122,7 @@
    "visual_key": "4478294db4bf4650",
    "capital": "city:WF-mata-utu",
    "wikidata": "Q35555",
-   "population": 11558,
+   "population": 11113,
    "highest_point": {
     "name": "Mont Puke",
     "elevation_m": 524,
@@ -35531,9 +36173,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q35555",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "WLF",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -35609,7 +36254,7 @@
    "visual_key": "a3354a88c504de13",
    "capital": "city:WS-apia",
    "wikidata": "Q683",
-   "population": 200010,
+   "population": 220528,
    "highest_point": {
     "name": "Silisili",
     "elevation_m": 1858,
@@ -35680,9 +36325,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q683",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "WSM",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -35764,7 +36412,7 @@
    "on_world_map": true,
    "capital": "city:XK-pristina",
    "wikidata": "Q1246",
-   "population": 1586659,
+   "population": 1666992,
    "highest_point": {
     "name": "Gjeravica",
     "elevation_m": 2656,
@@ -35820,9 +36468,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q1246",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "XKX",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -35903,7 +36554,7 @@
    "on_world_map": true,
    "capital": "city:YE-sana-a",
    "wikidata": "Q805",
-   "population": 28250420,
+   "population": 42961653,
    "highest_point": {
     "name": "Dschabal an-Nabi Schuʿaib",
     "elevation_m": 3666,
@@ -35977,9 +36628,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q805",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "YEM",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -36053,7 +36707,7 @@
    "visual_key": "499bbe64d0ce5713",
    "capital": "city:YT-mamoudzou",
    "wikidata": "Q17063",
-   "population": 320901,
+   "population": 347536,
    "highest_point": {
     "name": "Benara",
     "elevation_m": 660,
@@ -36097,9 +36751,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q17063",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "MYT",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -36197,7 +36854,7 @@
    "on_world_map": true,
    "capital": "city:ZA-pretoria",
    "wikidata": "Q258",
-   "population": 62027503,
+   "population": 65453084,
    "highest_point": {
     "name": "Mafadi",
     "elevation_m": 3450,
@@ -36397,9 +37054,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q258",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "ZAF",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -36489,7 +37149,7 @@
    "on_world_map": true,
    "capital": "city:ZM-lusaka",
    "wikidata": "Q953",
-   "population": 19610769,
+   "population": 22521915,
    "highest_point": {
     "name": "Mafinga Central",
     "elevation_m": 2339,
@@ -36540,9 +37200,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q953",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "ZMB",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",
@@ -36685,7 +37348,7 @@
    "on_world_map": true,
    "capital": "city:ZW-harare",
    "wikidata": "Q954",
-   "population": 15178979,
+   "population": 17273580,
    "highest_point": {
     "name": "Inyangani",
     "elevation_m": 2592,
@@ -36822,9 +37485,12 @@
    "license": "ODbL-1.0",
    "fields": {
     "population": {
-     "source": "wikidata",
-     "source_id": "Q954",
-     "imported_at": "2026-09-18"
+     "source": "UN World Population Prospects 2024",
+     "source_id": "ZWE",
+     "source_url": "https://population.un.org/wpp/",
+     "reference_date": "2026-07-01",
+     "method": "projection",
+     "imported_at": "2026-10-28"
     },
     "highest_point": {
      "source": "wikidata",

@@ -5,6 +5,7 @@ import { quizFor } from '@/config/quizzes'
 import { isCountryScope, type RoundConfig } from '@/engine/round'
 import { CategoryIconTile } from '@/ui/icons'
 import { cityMinimum } from '@/domain/cityRecall'
+import { selectedProfileIds } from '@/engine/profile'
 
 /**
  * Einheitliche Bezeichnung einer Runde: „Flaggen · Flagge → Name“ plus „Europa · Länderflaggen · 10 Fragen“.
@@ -41,6 +42,11 @@ export function useRoundLabel() {
     else
       parts.push(
         setup.length === 'all' ? t('play.all_short') : t('play.n_questions', { count: setup.length }),
+      )
+    if (exercise?.kind === 'profile')
+      parts.push(
+        `${selectedProfileIds(setup.fields).length} Kategorien`,
+        ...(setup.repeat ? ['Wiederholungslernen'] : []),
       )
     return { title, details: parts.join(' · ') }
   }

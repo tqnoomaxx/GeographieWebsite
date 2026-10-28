@@ -20,6 +20,7 @@ import {
   loadRelationships,
   loadRivers,
   loadScriptWords,
+  loadLanguageSamples,
   loadTrivia,
 } from '@/services/data/dataService'
 import { buildContext } from '@/engine/context'
@@ -34,6 +35,7 @@ const loaders = {
   lakes: loadLakes,
   mountains: loadMountains,
   scriptWords: loadScriptWords,
+  languageSamples: loadLanguageSamples,
   trivia: loadTrivia,
   relationships: loadRelationships,
   regions: loadAllRegions,
@@ -56,6 +58,7 @@ const initialData: Data = {
   lakes: [],
   mountains: [],
   scriptWords: [],
+  languageSamples: [],
   trivia: [],
   relationships: [],
   regions: [],

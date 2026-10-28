@@ -1,0 +1,1841 @@
+[
+ {
+  "id": "language_sample:de-1",
+  "type": "language_sample",
+  "names": {
+   "de": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen."
+  },
+  "attributes": {
+   "language": "de",
+   "language_name": "Deutsch",
+   "language_aliases": [
+    "German"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Achte auf Großschreibung von Nomen und Wörter wie „und“ oder „Recht“."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_deu_1996.xml",
+   "source_id": "UDHR-deu_1996-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:de-3",
+  "type": "language_sample",
+  "names": {
+   "de": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person."
+  },
+  "attributes": {
+   "language": "de",
+   "language_name": "Deutsch",
+   "language_aliases": [
+    "German"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Achte auf Großschreibung von Nomen und Wörter wie „und“ oder „Recht“."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_deu_1996.xml",
+   "source_id": "UDHR-deu_1996-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:de-24",
+  "type": "language_sample",
+  "names": {
+   "de": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub."
+  },
+  "attributes": {
+   "language": "de",
+   "language_name": "Deutsch",
+   "language_aliases": [
+    "German"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Achte auf Großschreibung von Nomen und Wörter wie „und“ oder „Recht“."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_deu_1996.xml",
+   "source_id": "UDHR-deu_1996-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:en-1",
+  "type": "language_sample",
+  "names": {
+   "de": "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood."
+  },
+  "attributes": {
+   "language": "en",
+   "language_name": "Englisch",
+   "language_aliases": [
+    "English"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood.",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Wörter wie „the“, „and“ und „everyone“ sind gute Anhaltspunkte."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_eng.xml",
+   "source_id": "UDHR-eng-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:en-3",
+  "type": "language_sample",
+  "names": {
+   "de": "Everyone has the right to life, liberty and the security of person."
+  },
+  "attributes": {
+   "language": "en",
+   "language_name": "Englisch",
+   "language_aliases": [
+    "English"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Everyone has the right to life, liberty and the security of person.",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Wörter wie „the“, „and“ und „everyone“ sind gute Anhaltspunkte."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_eng.xml",
+   "source_id": "UDHR-eng-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:en-24",
+  "type": "language_sample",
+  "names": {
+   "de": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay."
+  },
+  "attributes": {
+   "language": "en",
+   "language_name": "Englisch",
+   "language_aliases": [
+    "English"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Wörter wie „the“, „and“ und „everyone“ sind gute Anhaltspunkte."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_eng.xml",
+   "source_id": "UDHR-eng-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:fr-1",
+  "type": "language_sample",
+  "names": {
+   "de": "Tous les êtres humains naissent libres et égaux en dignité et en droits. Ils sont doués de raison et de conscience et doivent agir les uns envers les autres dans un esprit de fraternité."
+  },
+  "attributes": {
+   "language": "fr",
+   "language_name": "Französisch",
+   "language_aliases": [
+    "French",
+    "Français"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Tous les êtres humains naissent libres et égaux en dignité et en droits. Ils sont doués de raison et de conscience et doivent agir les uns envers les autres dans un esprit de fraternité.",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Typisch sind Wörter wie „les“ und „droits“ sowie Akzente wie é und è."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_fra.xml",
+   "source_id": "UDHR-fra-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:fr-3",
+  "type": "language_sample",
+  "names": {
+   "de": "Tout individu a droit à la vie, à la liberté et à la sûreté de sa personne."
+  },
+  "attributes": {
+   "language": "fr",
+   "language_name": "Französisch",
+   "language_aliases": [
+    "French",
+    "Français"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Tout individu a droit à la vie, à la liberté et à la sûreté de sa personne.",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Typisch sind Wörter wie „les“ und „droits“ sowie Akzente wie é und è."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_fra.xml",
+   "source_id": "UDHR-fra-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:fr-24",
+  "type": "language_sample",
+  "names": {
+   "de": "Toute personne a droit au repos et aux loisirs et notamment à une limitation raisonnable de la durée du travail et à des congés payés périodiques."
+  },
+  "attributes": {
+   "language": "fr",
+   "language_name": "Französisch",
+   "language_aliases": [
+    "French",
+    "Français"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Toute personne a droit au repos et aux loisirs et notamment à une limitation raisonnable de la durée du travail et à des congés payés périodiques.",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Typisch sind Wörter wie „les“ und „droits“ sowie Akzente wie é und è."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_fra.xml",
+   "source_id": "UDHR-fra-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:es-1",
+  "type": "language_sample",
+  "names": {
+   "de": "Todos los seres humanos nacen libres e iguales en dignidad y derechos y, dotados como están de razón y conciencia, deben comportarse fraternalmente los unos con los otros."
+  },
+  "attributes": {
+   "language": "es",
+   "language_name": "Spanisch",
+   "language_aliases": [
+    "Spanish",
+    "Español"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Todos los seres humanos nacen libres e iguales en dignidad y derechos y, dotados como están de razón y conciencia, deben comportarse fraternalmente los unos con los otros.",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Achte auf Wörter wie „derecho“, „todos“ und auf das ñ."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_spa.xml",
+   "source_id": "UDHR-spa-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:es-3",
+  "type": "language_sample",
+  "names": {
+   "de": "Todo individuo tiene derecho a la vida, a la libertad y a la seguridad de su persona."
+  },
+  "attributes": {
+   "language": "es",
+   "language_name": "Spanisch",
+   "language_aliases": [
+    "Spanish",
+    "Español"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Todo individuo tiene derecho a la vida, a la libertad y a la seguridad de su persona.",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Achte auf Wörter wie „derecho“, „todos“ und auf das ñ."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_spa.xml",
+   "source_id": "UDHR-spa-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:es-24",
+  "type": "language_sample",
+  "names": {
+   "de": "Toda persona tiene derecho al descanso, al disfrute del tiempo libre, a una limitación razonable de la duración del trabajo y a vacaciones periódicas pagadas."
+  },
+  "attributes": {
+   "language": "es",
+   "language_name": "Spanisch",
+   "language_aliases": [
+    "Spanish",
+    "Español"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Toda persona tiene derecho al descanso, al disfrute del tiempo libre, a una limitación razonable de la duración del trabajo y a vacaciones periódicas pagadas.",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Achte auf Wörter wie „derecho“, „todos“ und auf das ñ."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_spa.xml",
+   "source_id": "UDHR-spa-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:pt-1",
+  "type": "language_sample",
+  "names": {
+   "de": "Todos os seres humanos nascem livres e iguais em dignidade e em direitos. Dotados de razão e de consciência, devem agir uns para com os outros em espírito de fraternidade."
+  },
+  "attributes": {
+   "language": "pt",
+   "language_name": "Portugiesisch",
+   "language_aliases": [
+    "Portuguese",
+    "Português"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Todos os seres humanos nascem livres e iguais em dignidade e em direitos. Dotados de razão e de consciência, devem agir uns para com os outros em espírito de fraternidade.",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Schreibungen wie „ção“, „ão“ und „lh“ helfen beim Erkennen."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_por_PT.xml",
+   "source_id": "UDHR-por_PT-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:pt-3",
+  "type": "language_sample",
+  "names": {
+   "de": "Todo o indivíduo tem direito à vida, à liberdade e à segurança pessoal."
+  },
+  "attributes": {
+   "language": "pt",
+   "language_name": "Portugiesisch",
+   "language_aliases": [
+    "Portuguese",
+    "Português"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Todo o indivíduo tem direito à vida, à liberdade e à segurança pessoal.",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Schreibungen wie „ção“, „ão“ und „lh“ helfen beim Erkennen."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_por_PT.xml",
+   "source_id": "UDHR-por_PT-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:pt-24",
+  "type": "language_sample",
+  "names": {
+   "de": "Toda a pessoa tem direito ao repouso e aos lazeres, especialmente, a uma limitação razoável da duração do trabalho e as férias periódicas pagas."
+  },
+  "attributes": {
+   "language": "pt",
+   "language_name": "Portugiesisch",
+   "language_aliases": [
+    "Portuguese",
+    "Português"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Toda a pessoa tem direito ao repouso e aos lazeres, especialmente, a uma limitação razoável da duração do trabalho e as férias periódicas pagas.",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Schreibungen wie „ção“, „ão“ und „lh“ helfen beim Erkennen."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_por_PT.xml",
+   "source_id": "UDHR-por_PT-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:it-1",
+  "type": "language_sample",
+  "names": {
+   "de": "Tutti gli esseri umani nascono liberi ed eguali in dignità e diritti. Essi sono dotati di ragione e di coscienza e devono agire gli uni verso gli altri in spirito di fratellanza."
+  },
+  "attributes": {
+   "language": "it",
+   "language_name": "Italienisch",
+   "language_aliases": [
+    "Italian",
+    "Italiano"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Tutti gli esseri umani nascono liberi ed eguali in dignità e diritti. Essi sono dotati di ragione e di coscienza e devono agire gli uni verso gli altri in spirito di fratellanza.",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Wörter wie „tutti“ und „diritto“ und viele Vokalendungen sind Hinweise."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_ita.xml",
+   "source_id": "UDHR-ita-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:it-3",
+  "type": "language_sample",
+  "names": {
+   "de": "Ogni individuo ha diritto alla vita, alla libertà ed alla sicurezza della propria persona."
+  },
+  "attributes": {
+   "language": "it",
+   "language_name": "Italienisch",
+   "language_aliases": [
+    "Italian",
+    "Italiano"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Ogni individuo ha diritto alla vita, alla libertà ed alla sicurezza della propria persona.",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Wörter wie „tutti“ und „diritto“ und viele Vokalendungen sind Hinweise."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_ita.xml",
+   "source_id": "UDHR-ita-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:it-24",
+  "type": "language_sample",
+  "names": {
+   "de": "Ogni individuo ha diritto al riposo ed allo svago, comprendendo in ciò una ragionevole limitazione delle ore di lavoro e ferie periodiche retribuite."
+  },
+  "attributes": {
+   "language": "it",
+   "language_name": "Italienisch",
+   "language_aliases": [
+    "Italian",
+    "Italiano"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Ogni individuo ha diritto al riposo ed allo svago, comprendendo in ciò una ragionevole limitazione delle ore di lavoro e ferie periodiche retribuite.",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Wörter wie „tutti“ und „diritto“ und viele Vokalendungen sind Hinweise."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_ita.xml",
+   "source_id": "UDHR-ita-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:nl-1",
+  "type": "language_sample",
+  "names": {
+   "de": "Alle mensen worden vrij en gelijk in waardigheid en rechten geboren. Zij zijn begiftigd met verstand en geweten, en behoren zich jegens elkander in een geest van broederschap te gedragen."
+  },
+  "attributes": {
+   "language": "nl",
+   "language_name": "Niederländisch",
+   "language_aliases": [
+    "Dutch",
+    "Nederlands",
+    "Holländisch"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Alle mensen worden vrij en gelijk in waardigheid en rechten geboren. Zij zijn begiftigd met verstand en geweten, en behoren zich jegens elkander in een geest van broederschap te gedragen.",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Achte auf „ij“, „een“ und „het“."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_nld.xml",
+   "source_id": "UDHR-nld-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:nl-3",
+  "type": "language_sample",
+  "names": {
+   "de": "Een ieder heeft het recht op leven, vrijheid en onschendbaarheid van zijn persoon."
+  },
+  "attributes": {
+   "language": "nl",
+   "language_name": "Niederländisch",
+   "language_aliases": [
+    "Dutch",
+    "Nederlands",
+    "Holländisch"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Een ieder heeft het recht op leven, vrijheid en onschendbaarheid van zijn persoon.",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Achte auf „ij“, „een“ und „het“."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_nld.xml",
+   "source_id": "UDHR-nld-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:nl-24",
+  "type": "language_sample",
+  "names": {
+   "de": "Een ieder heeft recht op rust en op eigen vrije tijd, met inbegrip van een redelijke beperking van de arbeidstijd, en op periodieke vakanties met behoud van loon."
+  },
+  "attributes": {
+   "language": "nl",
+   "language_name": "Niederländisch",
+   "language_aliases": [
+    "Dutch",
+    "Nederlands",
+    "Holländisch"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Een ieder heeft recht op rust en op eigen vrije tijd, met inbegrip van een redelijke beperking van de arbeidstijd, en op periodieke vakanties met behoud van loon.",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Achte auf „ij“, „een“ und „het“."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_nld.xml",
+   "source_id": "UDHR-nld-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:pl-1",
+  "type": "language_sample",
+  "names": {
+   "de": "Wszyscy ludzie rodzą się wolni i równi pod względem swej godności i swych praw. Są oni obdarzeni rozumem i sumieniem i powinni postępować wobec innych w duchu braterstwa."
+  },
+  "attributes": {
+   "language": "pl",
+   "language_name": "Polnisch",
+   "language_aliases": [
+    "Polish",
+    "Polski"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Wszyscy ludzie rodzą się wolni i równi pod względem swej godności i swych praw. Są oni obdarzeni rozumem i sumieniem i powinni postępować wobec innych w duchu braterstwa.",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Buchstaben wie ł, ą und ę sowie „cz“ und „sz“ sind typisch."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_pol.xml",
+   "source_id": "UDHR-pol-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:pl-3",
+  "type": "language_sample",
+  "names": {
+   "de": "Każdy człowiek ma prawo do życia, wolności i bezpieczeństwa swej osoby."
+  },
+  "attributes": {
+   "language": "pl",
+   "language_name": "Polnisch",
+   "language_aliases": [
+    "Polish",
+    "Polski"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Każdy człowiek ma prawo do życia, wolności i bezpieczeństwa swej osoby.",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Buchstaben wie ł, ą und ę sowie „cz“ und „sz“ sind typisch."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_pol.xml",
+   "source_id": "UDHR-pol-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:pl-24",
+  "type": "language_sample",
+  "names": {
+   "de": "Każdy człowiek ma prawo do urlopu i wypoczynku, włączając w to rozsądne ograniczenie godzin pracy i okresowe płatne urlopy."
+  },
+  "attributes": {
+   "language": "pl",
+   "language_name": "Polnisch",
+   "language_aliases": [
+    "Polish",
+    "Polski"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Każdy człowiek ma prawo do urlopu i wypoczynku, włączając w to rozsądne ograniczenie godzin pracy i okresowe płatne urlopy.",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Buchstaben wie ł, ą und ę sowie „cz“ und „sz“ sind typisch."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_pol.xml",
+   "source_id": "UDHR-pol-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:sv-1",
+  "type": "language_sample",
+  "names": {
+   "de": "Alla människor äro födda fria och lika i värde och rättigheter. De äro utrustade med förnuft och samvete och böra handla gentemot varandra i en anda av broderskap."
+  },
+  "attributes": {
+   "language": "sv",
+   "language_name": "Schwedisch",
+   "language_aliases": [
+    "Swedish",
+    "Svenska"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Alla människor äro födda fria och lika i värde och rättigheter. De äro utrustade med förnuft och samvete och böra handla gentemot varandra i en anda av broderskap.",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Die Buchstaben å, ä und ö sowie Wörter wie „och“ helfen."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_swe.xml",
+   "source_id": "UDHR-swe-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:sv-3",
+  "type": "language_sample",
+  "names": {
+   "de": "Envar har rätt till liv, frihet och personlig säkerhet."
+  },
+  "attributes": {
+   "language": "sv",
+   "language_name": "Schwedisch",
+   "language_aliases": [
+    "Swedish",
+    "Svenska"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Envar har rätt till liv, frihet och personlig säkerhet.",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Die Buchstaben å, ä und ö sowie Wörter wie „och“ helfen."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_swe.xml",
+   "source_id": "UDHR-swe-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:sv-24",
+  "type": "language_sample",
+  "names": {
+   "de": "Envar har rätt till vila och fritid, innefattande rimlig begränsning av arbetstiden och regelbunden semester med bibehållen lön."
+  },
+  "attributes": {
+   "language": "sv",
+   "language_name": "Schwedisch",
+   "language_aliases": [
+    "Swedish",
+    "Svenska"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Envar har rätt till vila och fritid, innefattande rimlig begränsning av arbetstiden och regelbunden semester med bibehållen lön.",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Die Buchstaben å, ä und ö sowie Wörter wie „och“ helfen."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_swe.xml",
+   "source_id": "UDHR-swe-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:tr-1",
+  "type": "language_sample",
+  "names": {
+   "de": "Bütün insanlar hür, haysiyet ve haklar bakımından eşit doğarlar. Akıl ve vicdana sahiptirler ve birbirlerine karşı kardeşlik zihniyeti ile hareket etmelidirler."
+  },
+  "attributes": {
+   "language": "tr",
+   "language_name": "Türkisch",
+   "language_aliases": [
+    "Turkish",
+    "Türkçe"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Bütün insanlar hür, haysiyet ve haklar bakımından eşit doğarlar. Akıl ve vicdana sahiptirler ve birbirlerine karşı kardeşlik zihniyeti ile hareket etmelidirler.",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Achte auf ı ohne Punkt, auf ş und ğ."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_tur.xml",
+   "source_id": "UDHR-tur-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:tr-3",
+  "type": "language_sample",
+  "names": {
+   "de": "Yaşamak, hürriyet ve kişi emniyeti her ferdin hakkıdır."
+  },
+  "attributes": {
+   "language": "tr",
+   "language_name": "Türkisch",
+   "language_aliases": [
+    "Turkish",
+    "Türkçe"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Yaşamak, hürriyet ve kişi emniyeti her ferdin hakkıdır.",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Achte auf ı ohne Punkt, auf ş und ğ."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_tur.xml",
+   "source_id": "UDHR-tur-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:tr-24",
+  "type": "language_sample",
+  "names": {
+   "de": "Her şahsın dinlenmeye, eğlenmeye, bilhassa çalışma müddetinin makul surette sınırlandırılmasına ve muayyen devrelerde ücretli tatillere hakkı vardır."
+  },
+  "attributes": {
+   "language": "tr",
+   "language_name": "Türkisch",
+   "language_aliases": [
+    "Turkish",
+    "Türkçe"
+   ],
+   "script": "Latin",
+   "script_name": "Lateinisch",
+   "direction": "ltr",
+   "original": "Her şahsın dinlenmeye, eğlenmeye, bilhassa çalışma müddetinin makul surette sınırlandırılmasına ve muayyen devrelerde ücretli tatillere hakkı vardır.",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Achte auf ı ohne Punkt, auf ş und ğ."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_tur.xml",
+   "source_id": "UDHR-tur-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:ru-1",
+  "type": "language_sample",
+  "names": {
+   "de": "Все люди рождаются свободными и равными в своем достоинстве и правах. Они наделены разумом и совестью и должны поступать в отношении друг друга в духе братства."
+  },
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "language_aliases": [
+    "Russian",
+    "Русский"
+   ],
+   "script": "Cyrillic",
+   "script_name": "Kyrillisch",
+   "direction": "ltr",
+   "original": "Все люди рождаются свободными и равными в своем достоинстве и правах. Они наделены разумом и совестью и должны поступать в отношении друг друга в духе братства.",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Russisch nutzt Kyrillisch; Buchstaben wie ы, э und ё unterscheiden es von anderen Sprachen."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_rus.xml",
+   "source_id": "UDHR-rus-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:ru-3",
+  "type": "language_sample",
+  "names": {
+   "de": "Каждый человек имеет право на жизнь, на свободу и на личную неприкосновенность."
+  },
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "language_aliases": [
+    "Russian",
+    "Русский"
+   ],
+   "script": "Cyrillic",
+   "script_name": "Kyrillisch",
+   "direction": "ltr",
+   "original": "Каждый человек имеет право на жизнь, на свободу и на личную неприкосновенность.",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Russisch nutzt Kyrillisch; Buchstaben wie ы, э und ё unterscheiden es von anderen Sprachen."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_rus.xml",
+   "source_id": "UDHR-rus-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:ru-24",
+  "type": "language_sample",
+  "names": {
+   "de": "Каждый человек имеет право на отдых и досуг, включая право на разумное ограничение рабочего дня и на оплачиваемый периодический отпуск."
+  },
+  "attributes": {
+   "language": "ru",
+   "language_name": "Russisch",
+   "language_aliases": [
+    "Russian",
+    "Русский"
+   ],
+   "script": "Cyrillic",
+   "script_name": "Kyrillisch",
+   "direction": "ltr",
+   "original": "Каждый человек имеет право на отдых и досуг, включая право на разумное ограничение рабочего дня и на оплачиваемый периодический отпуск.",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Russisch nutzt Kyrillisch; Buchstaben wie ы, э und ё unterscheiden es von anderen Sprachen."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_rus.xml",
+   "source_id": "UDHR-rus-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:uk-1",
+  "type": "language_sample",
+  "names": {
+   "de": "Всі люди народжуються вільними і рівними у своїй гідності та правах. Вони наділені розумом і совістю і повинні діяти у відношенні один до одного в дусі братерства."
+  },
+  "attributes": {
+   "language": "uk",
+   "language_name": "Ukrainisch",
+   "language_aliases": [
+    "Ukrainian",
+    "Українська"
+   ],
+   "script": "Cyrillic",
+   "script_name": "Kyrillisch",
+   "direction": "ltr",
+   "original": "Всі люди народжуються вільними і рівними у своїй гідності та правах. Вони наділені розумом і совістю і повинні діяти у відношенні один до одного в дусі братерства.",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Achte auf die ukrainischen Buchstaben і, ї und є. Kyrillisch allein verrät die Sprache noch nicht."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_ukr.xml",
+   "source_id": "UDHR-ukr-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:uk-3",
+  "type": "language_sample",
+  "names": {
+   "de": "Кожна людина має право на життя, на свободу і на особисту недоторканність."
+  },
+  "attributes": {
+   "language": "uk",
+   "language_name": "Ukrainisch",
+   "language_aliases": [
+    "Ukrainian",
+    "Українська"
+   ],
+   "script": "Cyrillic",
+   "script_name": "Kyrillisch",
+   "direction": "ltr",
+   "original": "Кожна людина має право на життя, на свободу і на особисту недоторканність.",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Achte auf die ukrainischen Buchstaben і, ї und є. Kyrillisch allein verrät die Sprache noch nicht."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_ukr.xml",
+   "source_id": "UDHR-ukr-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:uk-24",
+  "type": "language_sample",
+  "names": {
+   "de": "Кожна людина має право на відпочинок і дозвілля, включаючи право на розумне обмеження робочого дня та на оплачувану періодичну відпустку."
+  },
+  "attributes": {
+   "language": "uk",
+   "language_name": "Ukrainisch",
+   "language_aliases": [
+    "Ukrainian",
+    "Українська"
+   ],
+   "script": "Cyrillic",
+   "script_name": "Kyrillisch",
+   "direction": "ltr",
+   "original": "Кожна людина має право на відпочинок і дозвілля, включаючи право на розумне обмеження робочого дня та на оплачувану періодичну відпустку.",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Achte auf die ukrainischen Buchstaben і, ї und є. Kyrillisch allein verrät die Sprache noch nicht."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_ukr.xml",
+   "source_id": "UDHR-ukr-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:el-1",
+  "type": "language_sample",
+  "names": {
+   "de": "Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι στην αξιοπρέπεια και τα δικαιώματα. Είναι προικισμένοι με λογική και συνείδηση, και οφείλουν να συμπεριφέρονται μεταξύ τους με πνεύμα αδελφοσύνης."
+  },
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "language_aliases": [
+    "Greek",
+    "Ελληνικά"
+   ],
+   "script": "Greek",
+   "script_name": "Griechisch",
+   "direction": "ltr",
+   "original": "Όλοι οι άνθρωποι γεννιούνται ελεύθεροι και ίσοι στην αξιοπρέπεια και τα δικαιώματα. Είναι προικισμένοι με λογική και συνείδηση, και οφείλουν να συμπεριφέρονται μεταξύ τους με πνεύμα αδελφοσύνης.",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Griechisch hat ein eigenes Alphabet mit Zeichen wie θ, λ und ω."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_ell_monotonic.xml",
+   "source_id": "UDHR-ell_monotonic-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:el-3",
+  "type": "language_sample",
+  "names": {
+   "de": "Κάθε άτομο έχει δικαίωμα στη ζωή, την ελευθερία και την προσωπική του ασφάλεια."
+  },
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "language_aliases": [
+    "Greek",
+    "Ελληνικά"
+   ],
+   "script": "Greek",
+   "script_name": "Griechisch",
+   "direction": "ltr",
+   "original": "Κάθε άτομο έχει δικαίωμα στη ζωή, την ελευθερία και την προσωπική του ασφάλεια.",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Griechisch hat ein eigenes Alphabet mit Zeichen wie θ, λ und ω."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_ell_monotonic.xml",
+   "source_id": "UDHR-ell_monotonic-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:el-24",
+  "type": "language_sample",
+  "names": {
+   "de": "Καθένας έχει το δικαίωμα στην ανάπαυση, σε ελεύθερο χρόνο, και ιδιαίτερα, σε λογικό περιορισμό του χρόνου εργασίας και σε περιοδικές άδειες με πλήρεις αποδοχές."
+  },
+  "attributes": {
+   "language": "el",
+   "language_name": "Griechisch",
+   "language_aliases": [
+    "Greek",
+    "Ελληνικά"
+   ],
+   "script": "Greek",
+   "script_name": "Griechisch",
+   "direction": "ltr",
+   "original": "Καθένας έχει το δικαίωμα στην ανάπαυση, σε ελεύθερο χρόνο, και ιδιαίτερα, σε λογικό περιορισμό του χρόνου εργασίας και σε περιοδικές άδειες με πλήρεις αποδοχές.",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Griechisch hat ein eigenes Alphabet mit Zeichen wie θ, λ und ω."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_ell_monotonic.xml",
+   "source_id": "UDHR-ell_monotonic-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:ka-1",
+  "type": "language_sample",
+  "names": {
+   "de": "ყოველი ადამიანი იბადება თავისუფალი და თანასწორი თავისი ღირსებითა და უფლებებით. მათ მინიჭებული აქვთ გონება და სინდისი და ერთმანეთის მიმართ უნდა ექცეოდნენ ძმობის სულისკვეთებით."
+  },
+  "attributes": {
+   "language": "ka",
+   "language_name": "Georgisch",
+   "language_aliases": [
+    "Georgian",
+    "ქართული",
+    "Kartuli"
+   ],
+   "script": "Georgian",
+   "script_name": "Georgisch (Mchedruli)",
+   "direction": "ltr",
+   "original": "ყოველი ადამიანი იბადება თავისუფალი და თანასწორი თავისი ღირსებითა და უფლებებით. მათ მინიჭებული აქვთ გონება და სინდისი და ერთმანეთის მიმართ უნდა ექცეოდნენ ძმობის სულისკვეთებით.",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Die runden, geschwungenen Zeichen gehören zur georgischen Mchedruli-Schrift."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_kat.xml",
+   "source_id": "UDHR-kat-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:ka-3",
+  "type": "language_sample",
+  "names": {
+   "de": "ყოველ ადამიანს აქვს სიცოცხლის, თავისუფლებისა და პირადი ხელშეუხებლობის უფლება."
+  },
+  "attributes": {
+   "language": "ka",
+   "language_name": "Georgisch",
+   "language_aliases": [
+    "Georgian",
+    "ქართული",
+    "Kartuli"
+   ],
+   "script": "Georgian",
+   "script_name": "Georgisch (Mchedruli)",
+   "direction": "ltr",
+   "original": "ყოველ ადამიანს აქვს სიცოცხლის, თავისუფლებისა და პირადი ხელშეუხებლობის უფლება.",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Die runden, geschwungenen Zeichen gehören zur georgischen Mchedruli-Schrift."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_kat.xml",
+   "source_id": "UDHR-kat-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:ka-24",
+  "type": "language_sample",
+  "names": {
+   "de": "ყოველ ადამიანს აქვს დასვენებისა და თავისუფალი დროის გამოყენების უფლება სამუშაო საათების გონივრული შეზღუდვისა და ანაზღაურებადი პერიოდული შვებულების უფლების ჩათვლით."
+  },
+  "attributes": {
+   "language": "ka",
+   "language_name": "Georgisch",
+   "language_aliases": [
+    "Georgian",
+    "ქართული",
+    "Kartuli"
+   ],
+   "script": "Georgian",
+   "script_name": "Georgisch (Mchedruli)",
+   "direction": "ltr",
+   "original": "ყოველ ადამიანს აქვს დასვენებისა და თავისუფალი დროის გამოყენების უფლება სამუშაო საათების გონივრული შეზღუდვისა და ანაზღაურებადი პერიოდული შვებულების უფლების ჩათვლით.",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Die runden, geschwungenen Zeichen gehören zur georgischen Mchedruli-Schrift."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_kat.xml",
+   "source_id": "UDHR-kat-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:ar-1",
+  "type": "language_sample",
+  "names": {
+   "de": "يولد جميع الناس أحرارًا متساوين في الكرامة والحقوق. وقد وهبوا عقلاً وضميرًا وعليهم أن يعامل بعضهم بعضًا بروح الإخاء."
+  },
+  "attributes": {
+   "language": "ar",
+   "language_name": "Arabisch",
+   "language_aliases": [
+    "Arabic",
+    "العربية"
+   ],
+   "script": "Arabic",
+   "script_name": "Arabisch",
+   "direction": "rtl",
+   "original": "يولد جميع الناس أحرارًا متساوين في الكرامة والحقوق. وقد وهبوا عقلاً وضميرًا وعليهم أن يعامل بعضهم بعضًا بروح الإخاء.",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Arabisch wird von rechts nach links geschrieben; viele Buchstaben sind miteinander verbunden."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_arb.xml",
+   "source_id": "UDHR-arb-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:ar-3",
+  "type": "language_sample",
+  "names": {
+   "de": "لكل فرد الحق في الحياة والحرية وسلامة شخصه."
+  },
+  "attributes": {
+   "language": "ar",
+   "language_name": "Arabisch",
+   "language_aliases": [
+    "Arabic",
+    "العربية"
+   ],
+   "script": "Arabic",
+   "script_name": "Arabisch",
+   "direction": "rtl",
+   "original": "لكل فرد الحق في الحياة والحرية وسلامة شخصه.",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Arabisch wird von rechts nach links geschrieben; viele Buchstaben sind miteinander verbunden."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_arb.xml",
+   "source_id": "UDHR-arb-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:ar-24",
+  "type": "language_sample",
+  "names": {
+   "de": "لكل شخص الحق في الراحة، أو في أوقات الفراغ، ولا سيما في تحديد معقول لساعات العمل وفي عطلات دورية بأجر."
+  },
+  "attributes": {
+   "language": "ar",
+   "language_name": "Arabisch",
+   "language_aliases": [
+    "Arabic",
+    "العربية"
+   ],
+   "script": "Arabic",
+   "script_name": "Arabisch",
+   "direction": "rtl",
+   "original": "لكل شخص الحق في الراحة، أو في أوقات الفراغ، ولا سيما في تحديد معقول لساعات العمل وفي عطلات دورية بأجر.",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Arabisch wird von rechts nach links geschrieben; viele Buchstaben sind miteinander verbunden."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_arb.xml",
+   "source_id": "UDHR-arb-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:hi-1",
+  "type": "language_sample",
+  "names": {
+   "de": "सभी मनुष्यों को गौरव और अधिकारों के मामले में जन्मजात स्वतन्त्रता और समानता प्राप्त है । उन्हें बुद्धि और अन्तरात्मा की देन प्राप्त है और परस्पर उन्हें भाईचारे के भाव से बर्ताव करना चाहिए ।"
+  },
+  "attributes": {
+   "language": "hi",
+   "language_name": "Hindi",
+   "language_aliases": [
+    "हिन्दी",
+    "हिंदी"
+   ],
+   "script": "Devanagari",
+   "script_name": "Devanagari",
+   "direction": "ltr",
+   "original": "सभी मनुष्यों को गौरव और अधिकारों के मामले में जन्मजात स्वतन्त्रता और समानता प्राप्त है । उन्हें बुद्धि और अन्तरात्मा की देन प्राप्त है और परस्पर उन्हें भाईचारे के भाव से बर्ताव करना चाहिए ।",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Hindi wird in Devanagari geschrieben. Die waagerechte Kopflinie ist ein Hinweis auf die Schrift."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_hin.xml",
+   "source_id": "UDHR-hin-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:hi-3",
+  "type": "language_sample",
+  "names": {
+   "de": "प्रत्येक व्यक्ति को जीवन, स्वाधीनता और वैयक्तिक सुरक्षा का अधिकार है ।"
+  },
+  "attributes": {
+   "language": "hi",
+   "language_name": "Hindi",
+   "language_aliases": [
+    "हिन्दी",
+    "हिंदी"
+   ],
+   "script": "Devanagari",
+   "script_name": "Devanagari",
+   "direction": "ltr",
+   "original": "प्रत्येक व्यक्ति को जीवन, स्वाधीनता और वैयक्तिक सुरक्षा का अधिकार है ।",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Hindi wird in Devanagari geschrieben. Die waagerechte Kopflinie ist ein Hinweis auf die Schrift."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_hin.xml",
+   "source_id": "UDHR-hin-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:hi-24",
+  "type": "language_sample",
+  "names": {
+   "de": "प्रत्येक व्यक्ति को विश्राम और अवकाश का अधिकार है । इसके अन्तर्गत काम के घंटों की उचित हदबन्दी और समय-समय पर मज़दूरी सहित छुट्टियां सम्मिलित है ।"
+  },
+  "attributes": {
+   "language": "hi",
+   "language_name": "Hindi",
+   "language_aliases": [
+    "हिन्दी",
+    "हिंदी"
+   ],
+   "script": "Devanagari",
+   "script_name": "Devanagari",
+   "direction": "ltr",
+   "original": "प्रत्येक व्यक्ति को विश्राम और अवकाश का अधिकार है । इसके अन्तर्गत काम के घंटों की उचित हदबन्दी और समय-समय पर मज़दूरी सहित छुट्टियां सम्मिलित है ।",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Hindi wird in Devanagari geschrieben. Die waagerechte Kopflinie ist ein Hinweis auf die Schrift."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_hin.xml",
+   "source_id": "UDHR-hin-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:bn-1",
+  "type": "language_sample",
+  "names": {
+   "de": "সমস্ত মানুষ স্বাধীনভাবে সমান মর্যাদা এবং অধিকার নিয়ে জন্মগ্রহণ করে। তাঁদের বিবেক এবং বুদ্ধি আছে; সুতরাং সকলেরই একে অপরের প্রতি ভ্রাতৃত্বসুলভ মনোভাব নিয়ে আচরণ করা উচিত।"
+  },
+  "attributes": {
+   "language": "bn",
+   "language_name": "Bengalisch",
+   "language_aliases": [
+    "Bengali",
+    "Bangla",
+    "বাংলা"
+   ],
+   "script": "Bengali",
+   "script_name": "Bengalisch",
+   "direction": "ltr",
+   "original": "সমস্ত মানুষ স্বাধীনভাবে সমান মর্যাদা এবং অধিকার নিয়ে জন্মগ্রহণ করে। তাঁদের বিবেক এবং বুদ্ধি আছে; সুতরাং সকলেরই একে অপরের প্রতি ভ্রাতৃত্বসুলভ মনোভাব নিয়ে আচরণ করা উচিত।",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Bengalisch nutzt die bengalische Schrift, mit Kopflinie und vielen geschwungenen Formen."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_ben.xml",
+   "source_id": "UDHR-ben-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:bn-3",
+  "type": "language_sample",
+  "names": {
+   "de": "জীবন, স্বাধীনতা এবং দৈহিক নিরাপত্তায় প্রত্যেকের অধিকার আছে।"
+  },
+  "attributes": {
+   "language": "bn",
+   "language_name": "Bengalisch",
+   "language_aliases": [
+    "Bengali",
+    "Bangla",
+    "বাংলা"
+   ],
+   "script": "Bengali",
+   "script_name": "Bengalisch",
+   "direction": "ltr",
+   "original": "জীবন, স্বাধীনতা এবং দৈহিক নিরাপত্তায় প্রত্যেকের অধিকার আছে।",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Bengalisch nutzt die bengalische Schrift, mit Kopflinie und vielen geschwungenen Formen."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_ben.xml",
+   "source_id": "UDHR-ben-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:bn-24",
+  "type": "language_sample",
+  "names": {
+   "de": "প্রত্যেকের‌ই বিশ্রাম ও অবসরের অধিকার রয়েছে; নিয়মিত সময়ের ব্যবধানে বেতনসহ ছুটি এবং পেশাগত কাজের যুক্তিসঙ্গত সীমা‌ও এ অধিকারের অন্তর্ভূক্ত।"
+  },
+  "attributes": {
+   "language": "bn",
+   "language_name": "Bengalisch",
+   "language_aliases": [
+    "Bengali",
+    "Bangla",
+    "বাংলা"
+   ],
+   "script": "Bengali",
+   "script_name": "Bengalisch",
+   "direction": "ltr",
+   "original": "প্রত্যেকের‌ই বিশ্রাম ও অবসরের অধিকার রয়েছে; নিয়মিত সময়ের ব্যবধানে বেতনসহ ছুটি এবং পেশাগত কাজের যুক্তিসঙ্গত সীমা‌ও এ অধিকারের অন্তর্ভূক্ত।",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Bengalisch nutzt die bengalische Schrift, mit Kopflinie und vielen geschwungenen Formen."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_ben.xml",
+   "source_id": "UDHR-ben-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:ta-1",
+  "type": "language_sample",
+  "names": {
+   "de": "மனிதப் பிறிவியினர் சகலரும் சுதந்திரமாகவே பிறக்கின்றனர்; அவர்கள் மதிப்பிலும், உரிமைகளிலும் சமமானவர்கள், அவர்கள் நியாயத்தையும் மனச்சாட்சியையும் இயற்பண்பாகப் பெற்றவர்கள். அவர்கள் ஒருவருடனொருவர் சகோதர உணர்வுப் பாங்கில் நடந்துகொள்ளல் வேண்டும்."
+  },
+  "attributes": {
+   "language": "ta",
+   "language_name": "Tamil",
+   "language_aliases": [
+    "Tamilisch",
+    "தமிழ்"
+   ],
+   "script": "Tamil",
+   "script_name": "Tamil",
+   "direction": "ltr",
+   "original": "மனிதப் பிறிவியினர் சகலரும் சுதந்திரமாகவே பிறக்கின்றனர்; அவர்கள் மதிப்பிலும், உரிமைகளிலும் சமமானவர்கள், அவர்கள் நியாயத்தையும் மனச்சாட்சியையும் இயற்பண்பாகப் பெற்றவர்கள். அவர்கள் ஒருவருடனொருவர் சகோதர உணர்வுப் பாங்கில் நடந்துகொள்ளல் வேண்டும்.",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Die tamilische Schrift hat viele runde Formen und keine durchgehende Kopflinie."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_tam.xml",
+   "source_id": "UDHR-tam-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:ta-3",
+  "type": "language_sample",
+  "names": {
+   "de": "வாழ்வதற்கும், சுதந்திரத்திற்கும் பாதுகாப்பிற்கும் சகலரும் உரிமையுடையோராவர்."
+  },
+  "attributes": {
+   "language": "ta",
+   "language_name": "Tamil",
+   "language_aliases": [
+    "Tamilisch",
+    "தமிழ்"
+   ],
+   "script": "Tamil",
+   "script_name": "Tamil",
+   "direction": "ltr",
+   "original": "வாழ்வதற்கும், சுதந்திரத்திற்கும் பாதுகாப்பிற்கும் சகலரும் உரிமையுடையோராவர்.",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Die tamilische Schrift hat viele runde Formen und keine durchgehende Kopflinie."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_tam.xml",
+   "source_id": "UDHR-tam-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:ta-24",
+  "type": "language_sample",
+  "names": {
+   "de": "இளைப்பாறுகைக்கும், ஓய்விற்கும் ஒவ்வொருவரும் உரிமையுடையர். இதனுள் வேலை நேர வரையறை, ஊதியத்துடனான முறைப்பட்ட விடுமுறைகள் அடங்கும்."
+  },
+  "attributes": {
+   "language": "ta",
+   "language_name": "Tamil",
+   "language_aliases": [
+    "Tamilisch",
+    "தமிழ்"
+   ],
+   "script": "Tamil",
+   "script_name": "Tamil",
+   "direction": "ltr",
+   "original": "இளைப்பாறுகைக்கும், ஓய்விற்கும் ஒவ்வொருவரும் உரிமையுடையர். இதனுள் வேலை நேர வரையறை, ஊதியத்துடனான முறைப்பட்ட விடுமுறைகள் அடங்கும்.",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Die tamilische Schrift hat viele runde Formen und keine durchgehende Kopflinie."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_tam.xml",
+   "source_id": "UDHR-tam-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:zh-1",
+  "type": "language_sample",
+  "names": {
+   "de": "人人生而自由，在尊严和权利上一律平等。他们赋有理性和良心，并应以兄弟关系的精神相对待。"
+  },
+  "attributes": {
+   "language": "zh",
+   "language_name": "Chinesisch (Mandarin)",
+   "language_aliases": [
+    "Chinesisch",
+    "Mandarin",
+    "Chinese",
+    "中文",
+    "普通话"
+   ],
+   "script": "Han",
+   "script_name": "Chinesische Schrift",
+   "direction": "ltr",
+   "original": "人人生而自由，在尊严和权利上一律平等。他们赋有理性和良心，并应以兄弟关系的精神相对待。",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Die Textprobe verwendet chinesische Schriftzeichen in vereinfachter Form."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_cmn_hans.xml",
+   "source_id": "UDHR-cmn_hans-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:zh-3",
+  "type": "language_sample",
+  "names": {
+   "de": "人人有权享有生命、自由和人身安全。"
+  },
+  "attributes": {
+   "language": "zh",
+   "language_name": "Chinesisch (Mandarin)",
+   "language_aliases": [
+    "Chinesisch",
+    "Mandarin",
+    "Chinese",
+    "中文",
+    "普通话"
+   ],
+   "script": "Han",
+   "script_name": "Chinesische Schrift",
+   "direction": "ltr",
+   "original": "人人有权享有生命、自由和人身安全。",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Die Textprobe verwendet chinesische Schriftzeichen in vereinfachter Form."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_cmn_hans.xml",
+   "source_id": "UDHR-cmn_hans-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:zh-24",
+  "type": "language_sample",
+  "names": {
+   "de": "人人有享有休息和闲暇的权利，包括工作时间有合理限制和定期给薪休假的权利。"
+  },
+  "attributes": {
+   "language": "zh",
+   "language_name": "Chinesisch (Mandarin)",
+   "language_aliases": [
+    "Chinesisch",
+    "Mandarin",
+    "Chinese",
+    "中文",
+    "普通话"
+   ],
+   "script": "Han",
+   "script_name": "Chinesische Schrift",
+   "direction": "ltr",
+   "original": "人人有享有休息和闲暇的权利，包括工作时间有合理限制和定期给薪休假的权利。",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Die Textprobe verwendet chinesische Schriftzeichen in vereinfachter Form."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_cmn_hans.xml",
+   "source_id": "UDHR-cmn_hans-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:ja-1",
+  "type": "language_sample",
+  "names": {
+   "de": "すべての人間は、生まれながらにして自由であり、かつ、尊厳と権利とについて平等である。人間は、理性と良心とを授けられており、互いに同胞の精神をもって行動しなければならない。"
+  },
+  "attributes": {
+   "language": "ja",
+   "language_name": "Japanisch",
+   "language_aliases": [
+    "Japanese",
+    "日本語"
+   ],
+   "script": "Japanese",
+   "script_name": "Kanji und Kana",
+   "direction": "ltr",
+   "original": "すべての人間は、生まれながらにして自由であり、かつ、尊厳と権利とについて平等である。人間は、理性と良心とを授けられており、互いに同胞の精神をもって行動しなければならない。",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Japanisch kombiniert Kanji mit den Silbenschriften Hiragana und Katakana."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_jpn.xml",
+   "source_id": "UDHR-jpn-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:ja-3",
+  "type": "language_sample",
+  "names": {
+   "de": "すべての人は、生命、自由及び身体の安全に対する権利を有する。"
+  },
+  "attributes": {
+   "language": "ja",
+   "language_name": "Japanisch",
+   "language_aliases": [
+    "Japanese",
+    "日本語"
+   ],
+   "script": "Japanese",
+   "script_name": "Kanji und Kana",
+   "direction": "ltr",
+   "original": "すべての人は、生命、自由及び身体の安全に対する権利を有する。",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Japanisch kombiniert Kanji mit den Silbenschriften Hiragana und Katakana."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_jpn.xml",
+   "source_id": "UDHR-jpn-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:ja-24",
+  "type": "language_sample",
+  "names": {
+   "de": "すべて人は、労働時間の合理的な制限及び定期的な有給休暇を含む休息及び余暇をもつ権利を有する。"
+  },
+  "attributes": {
+   "language": "ja",
+   "language_name": "Japanisch",
+   "language_aliases": [
+    "Japanese",
+    "日本語"
+   ],
+   "script": "Japanese",
+   "script_name": "Kanji und Kana",
+   "direction": "ltr",
+   "original": "すべて人は、労働時間の合理的な制限及び定期的な有給休暇を含む休息及び余暇をもつ権利を有する。",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Japanisch kombiniert Kanji mit den Silbenschriften Hiragana und Katakana."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_jpn.xml",
+   "source_id": "UDHR-jpn-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:ko-1",
+  "type": "language_sample",
+  "names": {
+   "de": "모든 인간은 태어날 때부터 자유로우며 그 존엄과 권리에 있어 동등하다. 인간은 천부적으로 이성과 양심을 부여받았으며 서로 형제애의 정신으로 행동하여야 한다."
+  },
+  "attributes": {
+   "language": "ko",
+   "language_name": "Koreanisch",
+   "language_aliases": [
+    "Korean",
+    "한국어"
+   ],
+   "script": "Hangul",
+   "script_name": "Hangul",
+   "direction": "ltr",
+   "original": "모든 인간은 태어날 때부터 자유로우며 그 존엄과 권리에 있어 동등하다. 인간은 천부적으로 이성과 양심을 부여받았으며 서로 형제애의 정신으로 행동하여야 한다.",
+   "meaning": "Alle Menschen sind frei und gleich an Würde und Rechten geboren. Sie sind mit Vernunft und Gewissen begabt und sollen einander im Geist der Brüderlichkeit begegnen.",
+   "article": 1,
+   "hint": "Hangul setzt einzelne Buchstaben zu gut erkennbaren Silbenblöcken zusammen."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_kor.xml",
+   "source_id": "UDHR-kor-1",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:ko-3",
+  "type": "language_sample",
+  "names": {
+   "de": "모든 사람은 생명과 신체의 자유와 안전에 대한 권리를 가진다."
+  },
+  "attributes": {
+   "language": "ko",
+   "language_name": "Koreanisch",
+   "language_aliases": [
+    "Korean",
+    "한국어"
+   ],
+   "script": "Hangul",
+   "script_name": "Hangul",
+   "direction": "ltr",
+   "original": "모든 사람은 생명과 신체의 자유와 안전에 대한 권리를 가진다.",
+   "meaning": "Jeder hat das Recht auf Leben, Freiheit und Sicherheit der Person.",
+   "article": 3,
+   "hint": "Hangul setzt einzelne Buchstaben zu gut erkennbaren Silbenblöcken zusammen."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_kor.xml",
+   "source_id": "UDHR-kor-3",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ },
+ {
+  "id": "language_sample:ko-24",
+  "type": "language_sample",
+  "names": {
+   "de": "모든 사람은 노동시간의 합리적 제한과 정기적인 유급휴가를 포함하여 휴식과 여가의 권리를 가진다."
+  },
+  "attributes": {
+   "language": "ko",
+   "language_name": "Koreanisch",
+   "language_aliases": [
+    "Korean",
+    "한국어"
+   ],
+   "script": "Hangul",
+   "script_name": "Hangul",
+   "direction": "ltr",
+   "original": "모든 사람은 노동시간의 합리적 제한과 정기적인 유급휴가를 포함하여 휴식과 여가의 권리를 가진다.",
+   "meaning": "Jeder hat das Recht auf Erholung und Freizeit und insbesondere auf eine vernünftige Begrenzung der Arbeitszeit und regelmäßigen bezahlten Urlaub.",
+   "article": 24,
+   "hint": "Hangul setzt einzelne Buchstaben zu gut erkennbaren Silbenblöcken zusammen."
+  },
+  "provenance": {
+   "source": "UN/OHCHR · UDHR in XML (Eric Muller)",
+   "source_url": "https://raw.githubusercontent.com/eric-muller/udhr/588b3f4b2d0467aff54842a4b926551b69d5a66a/data/udhr/udhr_kor.xml",
+   "source_id": "UDHR-kor-24",
+   "imported_at": "2026-10-28",
+   "license": "UN/OHCHR translation; source attribution"
+  }
+ }
+]

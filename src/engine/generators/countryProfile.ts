@@ -1,5 +1,6 @@
 import type { Country } from '@/domain/types'
 import { capitalAnswers, countryCapitals } from '@/domain/capitals'
+import { nationalSymbols } from '@/domain/nationalSymbols'
 import type { Generator } from './base'
 import { isSovereign, qid } from './base'
 import type { GeneratorContext, ProfileField } from '../types'
@@ -12,6 +13,35 @@ const continents: Record<string, string> = {
   oceania: 'Ozeanien',
   antarctica: 'Antarktis',
 }
+const subregions: Record<string, string> = {
+  'Southern Europe': 'Südeuropa',
+  'Northern Europe': 'Nordeuropa',
+  'Western Europe': 'Westeuropa',
+  'Central Europe': 'Mitteleuropa',
+  'Eastern Europe': 'Osteuropa',
+  'Southeast Europe': 'Südosteuropa',
+  'Western Asia': 'Westasien',
+  'Southern Asia': 'Südasien',
+  'Eastern Asia': 'Ostasien',
+  'South-Eastern Asia': 'Südostasien',
+  'Central Asia': 'Zentralasien',
+  'Middle Africa': 'Zentralafrika',
+  'Northern Africa': 'Nordafrika',
+  'Southern Africa': 'Südliches Afrika',
+  'Eastern Africa': 'Ostafrika',
+  'Western Africa': 'Westafrika',
+  'North America': 'Nordamerika',
+  'Central America': 'Zentralamerika',
+  'South America': 'Südamerika',
+  Caribbean: 'Karibik',
+  Polynesia: 'Polynesien',
+  Melanesia: 'Melanesien',
+  Micronesia: 'Mikronesien',
+  'Australia and New Zealand': 'Australien und Neuseeland',
+}
+const unique = (values: Array<string | undefined>) => [
+  ...new Set(values.filter((value): value is string => !!value?.trim())),
+]
 export function countryProfileFields(country: Country, ctx: GeneratorContext): ProfileField[] {
   const a = country.attributes
   const capitals = capitalAnswers(country, ctx.byId)
@@ -29,6 +59,11 @@ export function countryProfileFields(country: Country, ctx: GeneratorContext): P
     ...languageDetails.flatMap((l) => [l.de, l.en]).filter((s): s is string => !!s),
   ]
   if (a.iso2 === 'CH') languages.push('Deutsch', 'Schweizerdeutsch')
+  const languageNames = unique(
+    (a.languages ?? []).map((name) =>
+      a.iso2 === 'CH' && name === 'Alemannisch' ? 'Deutsch (Schweizerdeutsch)' : name,
+    ),
+  )
   const allCurrencies = a.currencies ?? []
   const domestic = allCurrencies.find((c) => c.code === a.domestic_currency)
   const currencies = domestic ? [domestic] : allCurrencies
@@ -38,6 +73,12 @@ export function countryProfileFields(country: Country, ctx: GeneratorContext): P
   if (currencies.some((c) => c.code === 'USD'))
     currencyAnswers.push('US-Dollar', 'US Dollar', 'amerikanischer Dollar')
   const region = continents[a.statistical_region ?? a.continent ?? '']
+  const highest = a.highest_point
+  const mountain = highest?.wikidata ? ctx.byId.get(`mountain:${highest.wikidata}`) : undefined
+  const neighbors = (a.borders ?? [])
+    .map((id) => ctx.byId.get(id))
+    .filter((entity): entity is Country => entity?.type === 'country')
+  const subregion = a.subregion ? subregions[a.subregion] : undefined
   return [
     {
       id: 'capital',
@@ -59,9 +100,14 @@ export function countryProfileFields(country: Country, ctx: GeneratorContext): P
       id: 'currency',
       label: domestic ? 'Eigene Landeswährung' : 'Währung',
       answers: currencyAnswers,
-      display: currencies.map((c) => c.name).join(' / '),
+      display: currencies.map((c) => `${c.name} (${c.code})`).join(' / '),
     },
-    { id: 'language', label: 'Eine Sprache', answers: languages, display: (a.languages ?? []).join(' / ') },
+    {
+      id: 'language',
+      label: 'Sprachen (eine genügt)',
+      answers: unique(languages),
+      display: languageNames.join(' / '),
+    },
     {
       id: 'iso2',
       label: 'ISO-Länderkürzel (2 Buchstaben)',
@@ -83,6 +129,67 @@ export function countryProfileFields(country: Country, ctx: GeneratorContext): P
       display: (a.tld ?? []).join(' / '),
       normalization: 'domain',
     },
+    {
+      id: 'highest_point',
+      label: 'Höchste Erhebung (inkl. Außengebiete)',
+      answers: highest
+        ? unique([highest.name, mountain?.names.de, mountain?.names.en, ...(mountain?.aliases ?? [])])
+        : [],
+      display: highest
+        ? highest.name +
+          (typeof highest.elevation_m === 'number'
+            ? ` · ${Math.round(highest.elevation_m).toLocaleString('de-DE')} m`
+            : '')
+        : '',
+    },
+    {
+      id: 'neighbors',
+      label: 'Nachbarländer (eines genügt)',
+      answers: neighbors.length
+        ? unique(
+            neighbors
+              .flatMap((neighbor) => [neighbor.names.de, neighbor.names.en, ...(neighbor.aliases ?? [])])
+              .filter((name) => name && name.length > 2),
+          )
+        : ['keine', 'keine Nachbarländer', 'keine Landnachbarn', 'keine Landgrenzen'],
+      display: neighbors.length
+        ? neighbors.map((neighbor) => neighbor.names.de).join(' / ')
+        : 'Keine Landnachbarn',
+    },
+    {
+      id: 'iso3',
+      label: 'ISO-Länderkürzel (3 Buchstaben)',
+      answers: a.iso3 ? [a.iso3] : [],
+      display: a.iso3 ?? '',
+      normalization: 'code',
+    },
+    {
+      id: 'subregion',
+      label: 'Weltregion',
+      answers: subregion ? [subregion, a.subregion!] : [],
+      display: subregion ?? '',
+    },
+    ...(['animal', 'bird', 'flower', 'tree'] as const).map((kind): ProfileField => {
+      const symbols = nationalSymbols(country, kind)
+      return {
+        id: `national_${kind}`,
+        label: {
+          animal: 'Nationaltier / Wappentier',
+          bird: 'Nationalvogel',
+          flower: 'Nationalblume',
+          tree: 'Nationalbaum',
+        }[kind],
+        answers: unique(
+          symbols.flatMap((symbol) => [
+            symbol.name,
+            symbol.scientific_name,
+            symbol.name.replace(/\s*\([^)]*\)/g, '').trim(),
+            ...(symbol.name.match(/\(([^)]+)\)/)?.slice(1) ?? []),
+          ]),
+        ),
+        display: symbols.map((symbol) => symbol.name).join(' / '),
+      }
+    }),
   ]
 }
 export const countryProfile: Generator = {
@@ -90,8 +197,10 @@ export const countryProfile: Generator = {
   category: 'countries',
   pool: (ctx) => ctx.countries.filter(isSovereign),
   make(target, ctx, _rng, difficulty) {
-    const fields = countryProfileFields(target as Country, ctx)
-    if (fields.some((f) => !f.answers.length)) return null
+    const fields = countryProfileFields(target as Country, ctx).filter(
+      (field) => field.answers.length && field.display,
+    )
+    if (!fields.length) return null
     return {
       id: qid(this.id, target),
       category: 'countries',

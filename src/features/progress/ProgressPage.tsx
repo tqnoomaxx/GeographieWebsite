@@ -103,8 +103,8 @@ export default function ProgressPage() {
     {
       key: 'languages',
       icon: '🔤',
-      total: geo.index?.counts.script_word ?? 0,
-      known: known((id) => id.startsWith('script_word:')),
+      total: geo.index?.counts.languages ?? geo.index?.counts.script_word ?? 0,
+      known: known((id) => id.startsWith('script_word:') || id.startsWith('language_sample:')),
     },
   ].filter((w) => w.total > 0)
   const unlockedSet = new Map((unlocked ?? []).map((a) => [a.id, a.unlockedAt]))

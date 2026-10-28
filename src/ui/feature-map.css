@@ -1,0 +1,33 @@
+.feature-map-ocean { fill: var(--card-2); }
+.feature-map .map-viewport { display: flex; flex-direction: column; }
+.feature-map .map-gesture-hint { position: static; max-width: none; border: 0; background: transparent; padding: 10px 14px 3px; font-family: inherit; font-size: 12px; font-weight: 450; letter-spacing: 0; line-height: 1.6; }
+.feature-map .map-controls { position: static; order: -1; align-self: flex-end; width: max-content; margin: 10px 14px 6px; border: 1px solid var(--line); border-radius: 8px; box-shadow: none; overflow: hidden; }
+.feature-map .map-controls button, .feature-map .map-controls button:last-child, .feature-map .map-zoom-value { border-color: var(--line); }
+.feature-map-countries { pointer-events: none; }
+.feature-map-countries path { fill: var(--card); stroke: var(--line); stroke-width: .8; vector-effect: non-scaling-stroke; }
+.feature-map-country-labels { pointer-events: none; fill: var(--ink-2); opacity: .65; text-anchor: middle; font-size: 11px; font-weight: 500; }
+.feature-map-object { cursor: pointer; color: #267d9e; outline: none; }
+.feature-map-object.is-disabled { cursor: default; }
+.feature-map-object.is-correct { color: var(--ok); }
+.feature-map-object.is-wrong { color: var(--bad); }
+.feature-map-hit { vector-effect: non-scaling-stroke; stroke: transparent; stroke-width: 18px; }
+.feature-map-hit-river { fill: none; pointer-events: stroke; }
+.feature-map-hit-lake { fill: transparent; pointer-events: all; }
+.feature-map-shape { vector-effect: non-scaling-stroke; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; }
+.feature-map-shape-river { fill: none; stroke-width: 2.5px; }
+.feature-map-shape-lake { fill: currentColor; fill-opacity: .4; stroke-width: 1.6px; }
+.feature-map-object:hover:not(.is-disabled) .feature-map-shape, .feature-map-object:focus-visible .feature-map-shape { stroke-width: 4.5px; filter: drop-shadow(0 0 3px color-mix(in srgb, currentColor 45%, transparent)); }
+.feature-map-summit-hit { fill: transparent; stroke: transparent; stroke-width: 16px; vector-effect: non-scaling-stroke; }
+.feature-map-summit { fill: currentColor; stroke: var(--card); stroke-width: 1px; vector-effect: non-scaling-stroke; }
+.feature-map-mountain .feature-map-object { color: var(--ink-2); }
+.feature-map-mountain .feature-map-object.is-correct { color: var(--ok); }
+.feature-map-mountain .feature-map-object.is-wrong { color: var(--bad); }
+.feature-map-snow { fill: var(--card); pointer-events: none; }
+.feature-map-object:hover:not(.is-disabled) .feature-map-summit, .feature-map-object:focus-visible .feature-map-summit { fill: var(--accent); stroke-width: 2px; }
+.feature-map-answer-label { font-size: 13px; font-weight: 750; fill: var(--ink); stroke: var(--card); stroke-width: 4px; paint-order: stroke; text-anchor: middle; pointer-events: none; }
+.feature-map-legend { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; padding: 10px 14px; color: var(--ink-2); font-size: 11px; }
+.feature-map-legend-symbol { width: 22px; height: 3px; background: #267d9e; border-radius: 4px; }
+.feature-map-legend-symbol.is-lake { height: 11px; background: #267d9e80; border: 1px solid #267d9e; }
+.feature-map-legend-symbol.is-mountain { width: 13px; height: 12px; background: var(--ink-2); clip-path: polygon(50% 0, 100% 100%, 0 100%); border-radius: 0; }
+.feature-map-legend-detail { margin-left: auto; }
+@media (max-width: 600px) { .feature-map-country-labels { font-size: 13px; } .feature-map-legend-detail { width: 100%; margin-left: 0; font-size: 10px; } .feature-map-summit { stroke-width: 1.5px; } }

@@ -8,6 +8,7 @@ import { mediaUrl } from '@/services/data/dataService'
 import type { Country } from '@/domain/types'
 import { Photo } from '@/ui/Photo'
 import { normalizeAnswer } from '@/engine/normalize'
+import { populationReference } from '@/domain/population'
 
 export default function ListPage() {
   const { t } = useTranslation()
@@ -156,8 +157,17 @@ export default function ListPage() {
     .filter((c) => (c as Country).attributes.independent !== false && c.attributes[key])
     .sort((a, b) => (b.attributes[key] as number) - (a.attributes[key] as number))
     .slice(0, 50)
+  const popReference = key === 'population' && rows[0] ? populationReference(rows[0]) : undefined
   return (
     <Page title={title} back="/explore">
+      {popReference && (
+        <p className="mb-4 text-sm text-ink-2">
+          {popReference.detail}{' '}
+          <a className="underline" href={popReference.url} target="_blank" rel="noreferrer">
+            {popReference.source}
+          </a>
+        </p>
+      )}
       <ol className="card divide-y divide-line">
         {rows.map((c, i) => (
           <li key={c.id}>

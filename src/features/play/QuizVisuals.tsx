@@ -1,4 +1,5 @@
 import type { Entity } from '@/domain/types'
+import './script-fonts.css'
 import type { Question } from '@/engine/types'
 
 function plateHash(value: string) {
@@ -130,20 +131,20 @@ function WaterAtlas({ entity, compact = false }: { entity: Entity; compact?: boo
   )
 }
 
-function ScriptStudyCard({ entity }: { entity: Entity }) {
+function ScriptStudyCard({ entity, identify }: { entity: Entity; identify?: 'language' | 'script' }) {
   const language = String(entity.attributes.language_name ?? '')
   const script = String(entity.attributes.script_name ?? '')
   const original = String(entity.attributes.original ?? entity.names.de)
   return (
-    <div className="script-study-card" role="img" aria-label={`${original}, ${language} in ${script}`}>
+    <div className={`script-study-card${identify === 'language' ? ' language-study-card' : ''}`} role="group" aria-label={identify ? 'Textprobe' : `${language} in ${script}`}>
       <div className="script-study-meta">
-        <span>{language}</span>
-        <span>{script}</span>
+        {identify ? <span>{identify === 'language' ? 'Sprache gesucht' : 'Schrift gesucht'}</span> : <><span>{language}</span>{script !== language && <span>{script}</span>}</>}
       </div>
-      <strong className="script-study-original" lang={entity.attributes.language === 'ru' ? 'ru' : 'el'}>
+      <strong className={`script-study-original${!identify && original.length >= 8 ? ' script-study-long' : ''}`}
+        lang={String(entity.attributes.language ?? '')} dir={entity.attributes.direction === 'rtl' ? 'rtl' : 'ltr'}>
         {original}
       </strong>
-      <span className="script-study-task">lateinische Umschrift gesucht</span>
+      <span className="script-study-task">{identify === 'language' ? 'Wörter · Zeichen · Satzbau' : identify === 'script' ? 'Erkenne das Schriftsystem' : 'lateinische Umschrift gesucht'}</span>
     </div>
   )
 }
@@ -166,8 +167,9 @@ export function ChoiceVisualization({ question, entity }: { question: Question; 
 
 export function QuestionVisualization({ question, entities, side = false }: { question: Question; entities: Entity[]; side?: boolean }) {
   const primary = entities[0]
-  if (question.category === 'languages' && primary && ['cyrillic_to_latin', 'greek_to_latin', 'script_to_latin_input'].includes(question.type)) {
-    return <ScriptStudyCard entity={primary} />
+  if (question.category === 'languages' && primary && question.type !== 'latin_to_script') {
+    const identify = question.type.startsWith('language_identify') ? 'language' : question.type.startsWith('script_identify') ? 'script' : undefined
+    return <ScriptStudyCard entity={primary} identify={identify} />
   }
   if (question.category === 'license_plates' && primary && !['city_to_plate', 'city_to_plate_input'].includes(question.type)) {
     return <div className="plate-stage"><LicensePlate code={String(primary.attributes.code ?? question.prompt.params?.code ?? '')} country={String(primary.attributes.country ?? 'country:DE').replace('country:', '')} /></div>

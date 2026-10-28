@@ -28,6 +28,7 @@ import { XP } from '@/config/xp'
 import { Card, ErrorState, LoadingState, ProgressBar, entityPath } from '@/ui'
 import { AchievementIcon, Icons } from '@/ui/icons'
 import { WorldMap, RegionMapView } from '@/ui/maps'
+import { FeatureMap } from '@/ui/FeatureMap'
 import { ReportDialog } from '@/features/legal/ReportDialog'
 import { RoundTitle, useRoundLabel } from './RoundLabel'
 import {
@@ -205,9 +206,9 @@ function RoundSessionPage() {
   )
 
   const profileInput = useCallback(
-    async (value: string) => {
+    async (value: string, fieldId?: string) => {
       if (!session) return
-      const next = acceptProfileInput(session, value)
+      const next = acceptProfileInput(session, value, fieldId)
       if (next === session) return
       setSession(next)
       await persist(next)
@@ -284,7 +285,11 @@ function RoundSessionPage() {
   const position = isCityRecall ? session.score : baseQuestionPosition(session)
   const repeats = pendingRepeatCount(session)
   return (
-    <div className="atlas-surface quiz-runtime min-h-dvh" data-category={session.category}>
+    <div
+      className="atlas-surface quiz-runtime min-h-dvh"
+      data-category={session.category}
+      data-exercise={session.setup.exercise}
+    >
       <header className="quiz-topbar">
         <div className="quiz-topbar-inner">
           <div className="quiz-topbar-identity">
@@ -328,6 +333,7 @@ function RoundSessionPage() {
           <ProfileQuestion
             key={current.question.id}
             item={current}
+            learning={session.setup.repeat}
             onInput={profileInput}
             onAnswer={answer}
             onNext={advance}
@@ -378,6 +384,16 @@ function QuestionView({
   const { t } = useTranslation()
   const geo = useGeoData()
   const [text, setText] = useState('')
+  const mapEntities = useMemo(
+    () =>
+      q.map?.kind === 'features'
+        ? q.map.featureIds.flatMap((id) => {
+            const entity = geo.byId.get(id)
+            return entity ? [entity] : []
+          })
+        : [],
+    [q.map, geo.byId],
+  )
   const [report, setReport] = useState(false)
   const answered = given !== undefined
   const inputRef = useRef<HTMLInputElement>(null)
@@ -480,7 +496,17 @@ function QuestionView({
 
           {q.map && (
             <div className="quiz-map-stage">
-              {q.map.kind === 'world' ? (
+              {q.map.kind === 'features' ? (
+                <FeatureMap
+                  entities={mapEntities}
+                  type={q.map.featureType}
+                  scope={q.map.scope}
+                  onPick={onAnswer}
+                  disabled={answered}
+                  correct={answered ? q.answer : undefined}
+                  wrong={!answered ? lastWrong : undefined}
+                />
+              ) : q.map.kind === 'world' ? (
                 <WorldMap
                   onPick={onAnswer}
                   disabled={answered}
@@ -497,7 +523,7 @@ function QuestionView({
                   wrong={!answered ? lastWrong : undefined}
                 />
               )}
-              {!answered && (
+              {!answered && (attempts > 0 || q.map.kind !== 'features') && (
                 <p className="mt-2 text-center text-sm text-ink-2">
                   {attempts > 0 ? `${t('play.try_again')} (${attempts})` : t('play.map_hint')}
                 </p>
@@ -526,6 +552,7 @@ function QuestionView({
                 placeholder={t('play.type_answer')}
                 autoComplete="off"
                 autoCapitalize={q.category === 'languages' ? 'none' : 'words'}
+                dir={q.category === 'languages' ? 'auto' : undefined}
                 spellCheck={q.category !== 'languages'}
                 className="min-h-14 min-w-0 flex-1 rounded-xl border border-line bg-card px-5 text-lg shadow-sm"
                 aria-label={t('play.type_answer')}
@@ -583,7 +610,7 @@ function QuestionView({
                       <img src={o.image} alt="" className="quiz-option-image" />
                     ) : null}
                     {choiceVisual && <ChoiceVisualization question={q} entity={optionEntity} />}
-                    {(!o.image || answered) && <span className="quiz-option-label">{optionLabel}</span>}
+                    {(!o.image || answered) && <span className="quiz-option-label" lang={o.lang} dir={o.dir}>{optionLabel}</span>}
                     {answered && isAnswer && (
                       <span className="quiz-option-mark quiz-option-mark-correct" aria-hidden>
                         ✓
@@ -695,8 +722,22 @@ function ResultView({ session, outcome }: { session: QuizSession; outcome: Round
     answered.filter((q) => q.repeated && q.correct).map((q) => q.question.entities[0]),
   ).size
   const pct = baseAnswered.length ? Math.round((correct / baseAnswered.length) * 100) : 0
+  const profileLearning = session.setup.exercise === 'country-profile' && session.setup.repeat
+  const learnedProfiles = new Set(
+    answered.filter((item) => item.correct).map((item) => item.question.entities[0]),
+  ).size
+  const displayPct = profileLearning
+    ? baseAnswered.length
+      ? Math.round((learnedProfiles / baseAnswered.length) * 100)
+      : 0
+    : pct
   const again = roundPath({ ...session.setup, only: undefined })
-  const repeat = roundPath({ ...session.setup, length: wrong.length, only: wrong, repeat: false })
+  const repeat = roundPath({
+    ...session.setup,
+    length: wrong.length,
+    only: wrong,
+    repeat: session.setup.exercise === 'country-profile',
+  })
   const firstTry = correct
   const baseTotal = baseAnswered.length
   const completed = isSessionComplete(session)
@@ -722,11 +763,20 @@ function ResultView({ session, outcome }: { session: QuizSession; outcome: Round
         )}
         <div className="mx-auto mt-7 flex h-44 w-44 flex-col items-center justify-center rounded-full border-[10px] border-accent-soft bg-card shadow-sm">
           <p className="text-5xl font-semibold tabular-nums">
-            {pct}
+            {displayPct}
             <span className="text-2xl">%</span>
           </p>
-          <p className="text-sm text-ink-2">{t('play.result', { correct, total: baseTotal })}</p>
+          <p className="text-sm text-ink-2">
+            {profileLearning
+              ? `${learnedProfiles} / ${baseTotal} ${baseTotal === 1 ? 'Land' : 'Länder'} gelernt`
+              : t('play.result', { correct, total: baseTotal })}
+          </p>
         </div>
+        {profileLearning && (
+          <p className="mt-4 text-sm text-ink-2">
+            Erfolgreiche Wiederholungen zählen zum Lernziel. Die Erstversuche werden separat ausgewertet.
+          </p>
+        )}
         <div className="mx-auto mt-6 grid max-w-xl grid-cols-2 gap-3 text-sm sm:grid-cols-4">
           <Card className="p-3">
             <div className="text-xl font-semibold tabular-nums">{session.points.toLocaleString('de-DE')}</div>

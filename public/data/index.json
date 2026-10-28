@@ -896,6 +896,7 @@
   "lakes": "entities/lakes.json",
   "mountains": "entities/mountains.json",
   "script_words": "entities/script-words.json",
+  "language_samples": "entities/language-samples.json",
   "trivia": "entities/trivia.json",
   "relationships": "relationships/index.json",
   "world": "geo/world.json",
@@ -1110,14 +1111,16 @@
   "river": 220,
   "lake": 113,
   "mountain": 201,
-  "script_word": 131,
+  "script_word": 322,
+  "language_sample": 63,
   "trivia": 60,
   "region": 817,
   "license_plate": 1388,
   "flags": 1071,
   "photos": 293,
   "capitals": 242,
-  "water": 333
+  "water": 333,
+  "languages": 385
  },
  "continents": {
   "europe": 54,

@@ -16,6 +16,7 @@ export interface Exercise {
   topic: CategoryId
   title: string
   description: string
+  mapDescription?: string
   variants: Partial<Record<ModeForm, string[]>>
   scope: 'none' | 'world' | 'world-country' | 'country'
   resources: DataResource[]
@@ -94,8 +95,8 @@ export const QUIZ_TOPICS: QuizTopic[] = [
   },
   {
     id: 'languages',
-    title: 'Schriften',
-    description: 'Griechisch und Kyrillisch lesen',
+    title: 'Sprachen & Schriften',
+    description: '21 Sprachen erkennen und 7 Schriften lesen',
     icon: 'languages',
     featured: false,
   },
@@ -165,12 +166,13 @@ export const EXERCISES: Exercise[] = [
     id: 'country-profile',
     topic: 'countries',
     title: 'Länderprofil ausfüllen',
-    description: 'Ein Land, fünf Kategorien. Richtige Eingaben werden automatisch übernommen.',
+    description:
+      'Ergänze Länderwissen in frei wählbaren Kategorien – mit höchster Erhebung und Wiederholungslernen.',
     variants: {
       input: ['country_profile'],
     },
     scope: 'world',
-    resources: ['cities', 'relationships'],
+    resources: ['cities', 'relationships', 'mountains'],
     kind: 'profile',
     defaultLength: 'all',
   },
@@ -446,6 +448,7 @@ export const EXERCISES: Exercise[] = [
     topic: 'water',
     title: 'Flüsse zuordnen',
     description: 'Durch welches Land fließt dieser Fluss?',
+    mapDescription: 'Finde den gesuchten Flusslauf direkt auf der Karte.',
     variants: {
       choice: ['river_to_country'],
       map: ['water_on_map'],
@@ -459,6 +462,7 @@ export const EXERCISES: Exercise[] = [
     topic: 'water',
     title: 'Seen zuordnen',
     description: 'In welchem Land liegt dieser See?',
+    mapDescription: 'Erkenne den gesuchten See an seiner Lage und seinem Umriss.',
     variants: {
       choice: ['lake_to_country'],
       map: ['water_on_map'],
@@ -496,6 +500,7 @@ export const EXERCISES: Exercise[] = [
     topic: 'nature',
     title: 'Berge zuordnen',
     description: 'In welchem Land liegt dieser Berg?',
+    mapDescription: 'Finde den gesuchten Berg und tippe auf seine Gipfelmarkierung.',
     variants: {
       choice: ['mountain_to_country'],
       map: ['mountain_on_map'],
@@ -514,6 +519,25 @@ export const EXERCISES: Exercise[] = [
     scope: 'world-country',
     resources: ['mountains'],
     minPool: 2,
+  },
+  {
+    id: 'recognize-language',
+    topic: 'languages',
+    title: 'Sprachen erkennen',
+    description: 'Erkenne 21 Sprachen an echten Textproben. Übersetzung und Lerntipps erscheinen nach der Antwort.',
+    variants: { choice: ['language_identify'], input: ['language_identify_input'] },
+    scope: 'none',
+    resources: ['languageSamples'],
+    targetType: 'language_sample',
+  },
+  {
+    id: 'identify-script',
+    topic: 'languages',
+    title: 'Schriften erkennen',
+    description: 'Unterscheide 7 Schriftsysteme an ihren Zeichen, ohne sie schon lesen zu müssen.',
+    variants: { choice: ['script_identify'], input: ['script_identify_input'] },
+    scope: 'none',
+    resources: ['scriptWords'],
   },
   {
     id: 'read-cyrillic',
@@ -542,10 +566,50 @@ export const EXERCISES: Exercise[] = [
     language: 'el',
   },
   {
+    id: 'read-georgian',
+    topic: 'languages',
+    title: 'Georgisch lesen',
+    description: 'Lerne georgische Mchedruli-Zeichen und Wörter in lateinischer Umschrift.',
+    variants: { choice: ['georgian_to_latin'], input: ['script_to_latin_input'] },
+    scope: 'none', resources: ['scriptWords'], language: 'ka',
+  },
+  {
+    id: 'read-arabic',
+    topic: 'languages',
+    title: 'Arabisch lesen',
+    description: 'Lies arabische Buchstaben und Wörter mit Vokalzeichen von rechts nach links.',
+    variants: { choice: ['arabic_to_latin'], input: ['script_to_latin_input'] },
+    scope: 'none', resources: ['scriptWords'], language: 'ar',
+  },
+  {
+    id: 'read-devanagari',
+    topic: 'languages',
+    title: 'Devanagari lesen · Hindi',
+    description: 'Lies Hindi-Zeichen und Wörter. Devanagari wird in Indien von mehreren Sprachen verwendet.',
+    variants: { choice: ['devanagari_to_latin'], input: ['script_to_latin_input'] },
+    scope: 'none', resources: ['scriptWords'], language: 'hi',
+  },
+  {
+    id: 'read-bengali',
+    topic: 'languages',
+    title: 'Bengalisch lesen',
+    description: 'Entdecke die bengalische Schrift aus Bangladesch und dem Osten Indiens.',
+    variants: { choice: ['bengali_to_latin'], input: ['script_to_latin_input'] },
+    scope: 'none', resources: ['scriptWords'], language: 'bn',
+  },
+  {
+    id: 'read-tamil',
+    topic: 'languages',
+    title: 'Tamil lesen',
+    description: 'Lerne Zeichen und Wörter der tamilischen Schrift aus Südindien und Sri Lanka.',
+    variants: { choice: ['tamil_to_latin'], input: ['script_to_latin_input'] },
+    scope: 'none', resources: ['scriptWords'], language: 'ta',
+  },
+  {
     id: 'recognize-script',
     topic: 'languages',
     title: 'Schriftzeichen wiederfinden',
-    description: 'Wähle die passende griechische oder kyrillische Schreibweise.',
+    description: 'Finde zur lateinischen Umschrift die passende Schreibweise aus 7 Schriften.',
     variants: {
       choice: ['latin_to_script'],
     },
@@ -619,6 +683,7 @@ export const EXERCISES: Exercise[] = [
       'lakes',
       'mountains',
       'scriptWords',
+      'languageSamples',
       'plates',
       'trivia',
     ],

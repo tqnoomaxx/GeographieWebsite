@@ -18,6 +18,7 @@ const data = {
   lakes: read<Entity[]>('entities/lakes.json'),
   mountains: read<Entity[]>('entities/mountains.json'),
   scriptWords: read<Entity[]>('entities/script-words.json'),
+  languageSamples: read<Entity[]>('entities/language-samples.json'),
   trivia: read<Entity[]>('entities/trivia.json'),
   regions: readdirSync('public/data/entities/regions').flatMap((f) =>
     read<Entity[]>('entities/regions/' + f),

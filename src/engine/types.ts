@@ -29,6 +29,8 @@ export type CategoryId =
 export interface QuestionOption {
   id: string
   label: string
+  lang?: string
+  dir?: 'ltr' | 'rtl'
   image?: string
 }
 
@@ -49,7 +51,7 @@ export interface Question {
   answer: string // Entity-ID oder Wert
   accepted?: string[] // für text_input
   profileFields?: ProfileField[]
-  place?: {name:string;lat:number;lon:number;population:number;geonameId:string}
+  place?: { name: string; lat: number; lon: number; population: number; geonameId: string }
   options?: QuestionOption[]
   media?: {
     kind: 'flag' | 'photo' | 'outline'
@@ -59,7 +61,15 @@ export interface Question {
     source_url?: string
     entityId?: string
   }
-  map?: { kind: 'world' | 'region' | 'europe'; iso2?: string; targetId: string }
+  map?:
+    | { kind: 'world' | 'region' | 'europe'; iso2?: string; targetId: string }
+    | {
+        kind: 'features'
+        targetId: string
+        featureIds: string[]
+        featureType: 'river' | 'lake' | 'mountain'
+        scope: string
+      }
   difficulty: number // 1..3
   entities: string[] // beteiligte Entities für Progress
   explanation?: string
@@ -79,6 +89,7 @@ export interface GeneratorContext {
   lakes: Entity[]
   mountains: Entity[]
   scriptWords: Entity[]
+  languageSamples: Entity[]
   trivia: Entity[]
   byId: Map<string, Entity>
   rel: {

@@ -1,4 +1,5 @@
-// Anreicherung der Länder mit Wikidata: Einwohnerzahl (P1082), höchster Punkt (P610), Wikidata-QID.
+// Anreicherung der Länder mit Wikidata: höchster Punkt (P610), Wikidata-QID.
+// Einwohnerzahlen kommen ausschließlich aus dem einheitlichen UN-WPP-Snapshot.
 // Läuft nur, wenn Netzwerk verfügbar ist; ohne Netz bleiben bestehende Werte erhalten.
 import { join } from 'node:path'
 import { existsSync } from 'node:fs'
@@ -6,9 +7,8 @@ import { CACHE, DATA, readJson, writeJson } from './lib/common.mjs'
 
 const ENDPOINT = 'https://query.wikidata.org/sparql'
 const QUERY = `
-SELECT ?iso ?item ?pop ?peak ?peakLabel ?elev WHERE {
+SELECT ?iso ?item ?peak ?peakLabel ?elev WHERE {
   ?item wdt:P297 ?iso .
-  OPTIONAL { ?item wdt:P1082 ?pop . }
   OPTIONAL { ?item wdt:P610 ?peak . OPTIONAL { ?peak wdt:P2044 ?elev . } }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "de,en". }
 }`
@@ -34,8 +34,7 @@ else {
 const byIso = new Map()
 for (const r of rows) {
   const iso = r.iso.value
-  const cur = byIso.get(iso) ?? { qid: r.item.value.split('/').pop(), pops: [], peaks: [] }
-  if (r.pop) cur.pops.push(Number(r.pop.value))
+  const cur = byIso.get(iso) ?? { qid: r.item.value.split('/').pop(), peaks: [] }
   if (r.peak) cur.peaks.push({ qid: r.peak.value.split('/').pop(), name: r.peakLabel?.value, elevation_m: r.elev ? Number(r.elev.value) : undefined })
   byIso.set(iso, cur)
 }
@@ -48,23 +47,12 @@ for (const c of countries) {
   const w = byIso.get(c.attributes.iso2)
   if (!w) continue
   c.attributes.wikidata = w.qid
-  const pops = [...new Set(w.pops)]
-  if (pops.length) {
-    c.attributes.population = Math.max(...pops)
-    c.provenance.fields = { ...c.provenance.fields, population: { source: 'wikidata', source_id: w.qid, imported_at: today } }
-    if (pops.length > 1) {
-      c.provenance.conflicts = [
-        ...(c.provenance.conflicts ?? []).filter((x) => x.field !== 'population'),
-        { field: 'population', values: pops.map((v) => ({ source: 'wikidata', value: v })) },
-      ]
-    }
-    enriched++
-  }
   const peak = w.peaks.find((p) => p.name)
   if (peak) {
     c.attributes.highest_point = { name: peak.name, elevation_m: peak.elevation_m, wikidata: peak.qid }
     c.provenance.fields = { ...c.provenance.fields, highest_point: { source: 'wikidata', source_id: peak.qid, imported_at: today } }
+    enriched++
   }
 }
 writeJson(path, countries)
-console.log(`Wikidata: ${enriched} Länder mit Einwohnerzahl angereichert`)
+console.log(`Wikidata: ${enriched} Länder mit höchster Erhebung angereichert`)

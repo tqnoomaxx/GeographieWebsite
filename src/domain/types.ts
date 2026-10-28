@@ -1,5 +1,5 @@
 export type EntityType =
-  'country' | 'region' | 'city' | 'river' | 'lake' | 'mountain' | 'landmark' | 'license_plate' | 'script_word' | 'trivia'
+  'country' | 'region' | 'city' | 'river' | 'lake' | 'mountain' | 'landmark' | 'license_plate' | 'script_word' | 'language_sample' | 'trivia'
 export type RelationshipType =
   'capital_of' | 'located_in' | 'neighbor_of' | 'flows_through' | 'part_of' | 'plate_code_of' | 'similar_to'
 
@@ -13,7 +13,14 @@ export interface Provenance {
   license?: string
   last_updated?: string
   imported_at: string
-  fields?: Record<string, { source: string; source_id?: string; source_url?: string; imported_at: string }>
+  fields?: Record<string, {
+    source: string
+    source_id?: string
+    source_url?: string
+    imported_at: string
+    reference_date?: string
+    method?: 'estimate' | 'projection'
+  }>
   conflicts?: Array<{ field: string; values: Array<{ source: string; value: unknown }> }>
 }
 
@@ -38,6 +45,8 @@ export interface Entity {
   aliases?: string[]
   location?: { lat: number; lon: number }
   geometry?: string
+  /** Verified river lines / lake outlines; mountain summits use location. */
+  mapGeometry?: GeoJSON.LineString | GeoJSON.MultiLineString | GeoJSON.Polygon | GeoJSON.MultiPolygon
   media?: Media[]
   attributes: Record<string, unknown> & {
     continent?: ContinentId

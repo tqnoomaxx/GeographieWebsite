@@ -1,7 +1,14 @@
 import { cityMinimum } from '@/domain/cityRecall'
 import { exerciseFor, exerciseKeeps, EXERCISES } from '@/config/quizCatalog'
-import { selectProfileFields, validProfileAnswer, profileHit } from './profile'
-import type { Entity } from '@/domain/types'
+import {
+  selectProfileFields,
+  selectedProfileIds,
+  validProfileAnswer,
+  profileHit,
+  profileMatches,
+} from './profile'
+import { countryProfileFields } from './generators/countryProfile'
+import type { Entity, Country } from '@/domain/types'
 import type { CategoryId, GeneratorContext, Question } from './types'
 import type { Generator } from './generators/base'
 import { generatorsFor } from './registry'
@@ -135,6 +142,15 @@ export function poolFor(
     for (const e of g.pool(ctx)) {
       if (keep && !keep(e)) continue
       if (exercise && !exerciseKeeps(exercise, e)) continue
+      if (exercise?.kind === 'profile') {
+        const available = countryProfileFields(e as Country, ctx)
+        if (
+          !selectedProfileIds(setup.fields).every((id) =>
+            available.some((field) => field.id === id && field.answers.length && field.display),
+          )
+        )
+          continue
+      }
       if (
         exercise?.kind === 'city-recall' &&
         Number(e.attributes.geonames_population) <= cityMinimum(setup.minPopulation)
@@ -392,11 +408,27 @@ export function recordAnswer(
         }
       : q,
   )
-  if (!countsCorrect && session.setup.repeat && !isMap && !current.repeated) {
+  if (
+    !countsCorrect &&
+    session.setup.repeat &&
+    !isMap &&
+    (!current.repeated || current.question.question_type === 'profile_input')
+  ) {
     const q = current.question
     const options = q.options ? rng.shuffle(q.options) : undefined
-    const repeated: SessionQuestion = { question: { ...q, id: `${q.id}#r`, options }, repeated: true }
-    questions.splice(Math.min(questions.length, idx + 4), 0, repeated)
+    const profileFields = q.profileFields?.filter((field) => !current.profileAnswers?.[field.id])
+    if (q.question_type !== 'profile_input' || profileFields?.length) {
+      const repeated: SessionQuestion = {
+        question: {
+          ...q,
+          id: `${q.id}#r`,
+          options,
+          ...(q.question_type === 'profile_input' ? { profileFields } : {}),
+        },
+        repeated: true,
+      }
+      questions.splice(Math.min(questions.length, idx + 4), 0, repeated)
+    }
   }
   const streak = countsCorrect ? session.streak + 1 : 0
   return {
@@ -445,13 +477,16 @@ export function setupOf(
 }
 
 /** Automatic profile acceptance uses complete, unique matches; partial input never counts. */
-export function acceptProfileInput(session: QuizSession, input: string): QuizSession {
+export function acceptProfileInput(session: QuizSession, input: string, fieldId?: string): QuizSession {
   const current = session.questions[session.position]
   if (!current || current.given !== undefined || current.question.question_type !== 'profile_input')
     return session
   const fields = current.question.profileFields ?? []
   const filled = current.profileAnswers ?? {}
-  const hit = profileHit(fields, filled, input)
+  const specified = fieldId
+    ? fields.find((field) => field.id === fieldId && !filled[field.id] && profileMatches(input, field))
+    : undefined
+  const hit = fieldId ? specified : profileHit(fields, filled, input)
   if (!hit) return session
   const answers = { ...filled, [hit.id]: input.trim() }
   const next = {

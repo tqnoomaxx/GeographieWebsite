@@ -8,6 +8,10 @@ Spezifikation und Roadmap: [`docs/`](docs/README.md). Ursprünglicher Master-Pro
 
 Quiz starten: **Thema → Übung → passende Antwortart und Gebiet → Quiz starten**. Antwortarten mit derselben Aufgabe sind zusammengefasst. Rundenlänge, Fehlerwiederholung und Flaggenhinweise werden unter **Lernoptionen** für die nächsten Quizze gespeichert. Alle-Runden und teilweise gelöste Länderprofile lassen sich auf Start- und Quizseite fortsetzen.
 
+**Länderprofil ausfüllen** bietet 15 frei kombinierbare Kategorien, darunter höchste Erhebung (einschließlich Außengebieten), Nachbarländer, Weltregion und Nationalsymbole. Die angezeigte Länderauswahl enthält nur Länder mit Angaben zu allen ausgewählten Kategorien. Ein gültiger Treffer deckt die vollständige Antwortliste des Feldes auf, etwa alle Hauptstädte oder Sprachen. Unter **Wiederholungslernen** werden beim Auflösen nur die ungelösten Felder nach einigen weiteren Ländern erneut abgefragt, bis sie selbst gelöst sind. Zehn, zwanzig, fünfzig oder alle passenden Länder sind wählbar. Alle-Runden speichern auch die Wiederholungsschlange und teilweise ausgefüllte Profile.
+
+Im Kartenmodus von Gewässer- und Bergquizzen werden die gesuchten Objekte direkt ausgewählt: Flüsse als echte Flussläufe, Seen als Uferumrisse und Berge als Gipfelmarkierungen. Ländergrenzen dienen zur Orientierung. Länder- und Regionalflaggen behalten ihre jeweiligen Gebietsflächen als Klickziele. `npm run data:nature-maps` verknüpft die Natural-Earth-Geometrien (Public Domain) über Wikidata-IDs mit dem Bestand; Objekte ohne echte Geometrie werden im Kartenmodus nicht angeboten. Die normale Länderzuordnung bleibt über die Antwortart „Auswählen“ erreichbar.
+
 Die interaktive Weltkugel steht direkt auf der Startseite. Unter **Story** (`/story`) wird das bisherige Diorama zur Expeditionsinsel: In **Der Atlas der Winde** reist du mit der Kartografin Mira durch acht zusammenhängende Kapitel. Je drei geografische Aufgaben bringen die Geschichte voran; Hinweise und erneute Versuche helfen ohne Zeitdruck. Fundstücke landen im Reisetagebuch und öffnen das nächste Kapitel. Spielstand und laufende Aufgaben werden auf diesem Gerät gespeichert. Die Reise bleibt auch ohne WebGL spielbar; der frühere Link `/play?view=diorama` führt zum Story-Modus.
 
 Die Kapitel und Dialoge liegen in `src/features/story/chapters.ts`, die validierte Fortschrittslogik in `storyProgress.ts`. Neue Kapitel bekommen eine stabile ID, eine Inselstation, drei Aufgaben und ein Fundstück. Der Story-Fortschritt ist unabhängig von Quizstatistiken. Das Reisetagebuch bietet einen ausdrücklich bestätigten Neustart.
@@ -44,15 +48,20 @@ Weitere Skripte:
 | `npm run data:symbols` | Belegte Tiere, Vögel, Blumen, Bäume, Hymnentitel und amtliche Landesnamen ergänzen |
 | `npm run data:landmarks` | Sehenswürdigkeiten und geprüfte, versionierte Fotomotive importieren |
 | `npm run data:landmark-facts` | Standortangaben und Kurzfakten für Sehenswürdigkeiten ergänzen |
-| `npm run data:wikidata` | Einwohnerzahlen, höchste Punkte (Wikidata) |
+| `npm run data:wikidata` | Höchste Punkte und Wikidata-IDs; überschreibt keine Einwohnerzahlen |
+| `npm run data:population` | Versionierten UN-WPP-Auszug für Ländereinwohnerzahlen anwenden |
 | `npm run data:city-recall` | Länderweise Städtedaten über 15.000 Einwohner für das Sammelspiel (`-- --refresh` lädt neu) |
 | `npm run data:large-cities` | Alle GeoNames-Städte über 300.000 Einwohner ergänzen (ohne Stadtteile; `-- --refresh` lädt neu) |
 | `npm run data:plates` | Kfz-Kennzeichen DE/AT/CH (Wikidata P395) |
 | `npm run data:nature` | Flüsse, Seen, Berge (Wikidata, nach Bekanntheit) |
+| `npm run data:scripts` | 322 Lernkarten für 7 Schriften und 63 Textproben für 21 Sprachen |
+| `npm run data:languages` | Versionierten Sprach-Textbestand offline importieren (`-- --refresh` zum Neuabruf der festgehaltenen Quellrevision) |
 | `npm run data:validate` | Validierung, Index, Suchindex, Attribution; bricht bei Fehlern ab |
 | `npm test` | Engine-Tests |
 | `npm run e2e` | Playwright-Smoke-Tests gegen den Build |
 | `npm run build` | Validierung + Typecheck + Build |
+
+Unter **Quiz → Sprachen & Schriften** stehen „Sprachen erkennen“ (21 Sprachen mit 63 Textproben), „Schriften erkennen“ und sieben Lesekurse bereit: Kyrillisch, Griechisch, Georgisch/Mchedruli, Arabisch, Devanagari/Hindi, Bengalisch und Tamil. Alle Kurse unterstützen Auswählen und Eintippen; „Schriftzeichen wiederfinden“ fragt die umgekehrte Richtung ab. Nach der Antwort erscheinen Übersetzung beziehungsweise Umschrift, Lerntipps und Quellen. Die Sprachproben stammen aus denselben drei Artikeln der UN-Menschenrechtserklärung, in einer festgehaltenen Revision von [UDHR in XML](https://github.com/eric-muller/udhr). Sprach- und Schriftquizze verraten vor der Antwort weder Sprache noch Schrift auf der Textkarte. Arabische Texte erhalten RTL-Ausrichtung; lokal bereitgestellte Noto-Fonts sorgen auch bei indischen Zeichen für lesbare Darstellung. Quelle und OFL-Lizenzen liegen unter `public/fonts/scripts/`. Der Sprachenmodus teilt die bestehenden Lernoptionen, Fehlerwiederholungen und gespeicherten Alle-Runden.
 
 ## Deployment
 
@@ -76,6 +85,7 @@ Alle Medien tragen Lizenz und Attribution in den Metadaten; der Build schlägt f
 - Regionalflaggen: [niemela/flags](https://github.com/niemela/flags) (Metadaten CC BY-SA 4.0, Flaggen je Ursprungslizenz)
 - Fotos: Wikimedia Commons (je Bild angegeben)
 - Länderdaten: [mledoze/countries](https://github.com/mledoze/countries) (ODbL 1.0), [Wikidata](https://www.wikidata.org) (CC0)
+- Ländereinwohnerzahlen: [UN World Population Prospects 2024](https://population.un.org/wpp/) (CC BY 3.0 IGO), mittlere Projektion zum 1. Juli 2026 einschließlich Togo-Korrektur vom 19. Januar 2026. Alle 197 souveränen Quizländer verwenden denselben Bezugszeitpunkt; Indien steht vor China. Der Rohimport wendet den versionierten Auszug ebenfalls an. Zum Aktualisieren: `python3 scripts/update-country-population.py --year 2026`, danach `npm run data:population` und `npm run data:validate`. Die Ausgangsdateien werden gecacht; für einen erneuten Download deren `WPP2024_*`-Dateien aus `scripts/.cache` löschen. Der Auszug dokumentiert Download-URLs und SHA-256-Prüfsummen. Kleinere abhängige Gebiete ohne eigenen UN-Datensatz können ältere, gesondert belegte Zahlen behalten.
 - Großstädte über 300.000 Einwohner: [GeoNames](https://download.geonames.org/export/dump/) (CC BY 4.0); ohne Limit je Land, Einwohnerzahlen nach dortiger Gebietsabgrenzung und Datenstand
 - Geometrien: [Natural Earth](https://www.naturalearthdata.com/) (Public Domain), [geoBoundaries](https://www.geoboundaries.org/) (CC BY 4.0)
 

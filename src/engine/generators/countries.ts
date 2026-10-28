@@ -13,6 +13,7 @@ const CONTINENT_DE: Record<string, string> = {
 import type { Country, NationalSymbolKind } from '@/domain/types'
 import type { GeneratorContext } from '../types'
 import { nationalSymbols } from '@/domain/nationalSymbols'
+import { formatPop, populationComparisonDetails } from '@/domain/population'
 
 const independent = (ctx: GeneratorContext) => ctx.countries.filter(isSovereign)
 
@@ -231,6 +232,7 @@ export const countryComparison: Generator = {
         difficulty: d,
         entities: [target.id, other.id],
         explanation: `${nameOf(target)}: ${formatMetric(value, variant.key)} · ${nameOf(other)}: ${formatMetric(otherValue, variant.key)}`,
+        ...(variant.key === 'population' ? populationComparisonDetails(target, other) : {}),
         metadata: { generator: this.id, scope: ctx.scope },
       }
     }
@@ -374,7 +376,7 @@ export const countryTrueFalse: Generator = {
       ],
       difficulty: d,
       entities: [c.id, other.id],
-      explanation: `${nameOf(c)}: ${formatPop(c.attributes.population!)} · ${nameOf(other)}: ${formatPop(other.attributes.population!)}`,
+      ...populationComparisonDetails(c, other),
       metadata: { generator: this.id, scope: ctx.scope },
     }
   },
@@ -382,10 +384,4 @@ export const countryTrueFalse: Generator = {
 
 function formatMetric(value: number, key: 'population' | 'area_km2') {
   return key === 'population' ? `${formatPop(value)} Einwohner` : `${value.toLocaleString('de-DE')} km²`
-}
-
-export function formatPop(n: number) {
-  if (n >= 1e9) return `${(n / 1e9).toFixed(2).replace('.', ',')} Mrd.`
-  if (n >= 1e6) return `${(n / 1e6).toFixed(1).replace('.', ',')} Mio.`
-  return n.toLocaleString('de-DE')
 }

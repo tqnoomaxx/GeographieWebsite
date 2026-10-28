@@ -3,6 +3,7 @@
 // Alternative deutsche Schreibweisen werden bei freien Eingaben ebenfalls akzeptiert.
 import { join } from 'node:path'
 import { DATA, provenance, writeJson } from './lib/common.mjs'
+import { extraScripts } from './content/script-expansion.mjs'
 
 const SOURCE = 'Atlasfunke Lernredaktion · Unicode CLDR-orientierte Lernumschrift'
 const SOURCE_URL = 'https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines'
@@ -150,10 +151,10 @@ const greekWords = [
   ['taxidi', 'ταξίδι', 'taxidi', 'Reise', ['taksidi']],
 ]
 
-function entity(language, script, kind, row) {
+function entity(language, script, kind, row, config) {
   const [key, original, transliteration, meaning, variants = []] = row
-  const languageName = language === 'ru' ? 'Russisch' : 'Griechisch'
-  const scriptName = script === 'cyrillic' ? 'Kyrillisch' : 'Griechisch'
+  const languageName = config?.languageName ?? (language === 'ru' ? 'Russisch' : 'Griechisch')
+  const scriptName = config?.scriptName ?? (script === 'cyrillic' ? 'Kyrillisch' : 'Griechisch')
   return {
     id: `script_word:${language}-${key}`,
     type: 'script_word',
@@ -170,20 +171,27 @@ function entity(language, script, kind, row) {
       accepted: [transliteration, ...variants],
       ...(meaning ? { meaning } : {}),
       system: 'internationale Lernumschrift',
+      direction: config?.direction ?? 'ltr',
+      ...(config?.note ? { note: config.note } : {}),
     },
     provenance: provenance(SOURCE, {
-      source_url: SOURCE_URL,
+      source_url: config?.sourceUrl ?? SOURCE_URL,
       license: 'Unicode Terms of Use; redaktionelle Auswahl CC BY 4.0',
     }),
   }
 }
 
 const entities = [
-  ...russianLetters.map((row) => entity('ru', 'cyrillic', 'letter', row)),
+  ...russianLetters.map(([key, original, latin, variants = []]) => entity('ru', 'cyrillic', 'letter', [key, original, latin, undefined, variants])),
   ...russianWords.map((row) => entity('ru', 'cyrillic', 'word', row)),
-  ...greekLetters.map((row) => entity('el', 'greek', 'letter', row)),
+  ...greekLetters.map(([key, original, latin, variants = []]) => entity('el', 'greek', 'letter', [key, original, latin, undefined, variants])),
   ...greekWords.map((row) => entity('el', 'greek', 'word', row)),
+  ...extraScripts.flatMap((config) => [
+    ...config.letters.map(([key, original, transliteration, variants = []]) =>
+      entity(config.language, config.script, 'letter', [key, original, transliteration, undefined, variants], config)),
+    ...config.words.map((row) => entity(config.language, config.script, 'word', row, config)),
+  ]),
 ]
 
 writeJson(join(DATA, 'entities', 'script-words.json'), entities)
-console.log(`Schrift-Lernkarten: ${entities.length} (${russianLetters.length + russianWords.length} Russisch, ${greekLetters.length + greekWords.length} Griechisch)`)
+console.log(`Schrift-Lernkarten: ${entities.length} in ${new Set(entities.map((item) => item.attributes.script)).size} Schriften`)

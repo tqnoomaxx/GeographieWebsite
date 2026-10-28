@@ -19,6 +19,7 @@ const files = {
   lakes: 'entities/lakes.json',
   mountains: 'entities/mountains.json',
   script_words: 'entities/script-words.json',
+  language_samples: 'entities/language-samples.json',
   trivia: 'entities/trivia.json',
 }
 const regionFiles = listDir(join(DATA, 'entities', 'regions')).filter((f) => f.endsWith('.json'))
@@ -38,6 +39,7 @@ const all = [
   ...load(files.lakes),
   ...load(files.mountains),
   ...load(files.script_words),
+  ...load(files.language_samples),
   ...load(files.trivia),
   ...regionFiles.flatMap((f) => load(`entities/regions/${f}`)),
   ...plateFiles.flatMap((f) => load(`entities/license-plates/${f}`)),
@@ -52,6 +54,7 @@ const ENTITY_TYPES = new Set([
   'landmark',
   'license_plate',
   'script_word',
+  'language_sample',
   'trivia',
 ])
 const mediaAll = []
@@ -84,8 +87,9 @@ for (const e of all) {
       err(`${e.id}: ungültiger Trivia-Bereich`)
   }
   if (e.type === 'script_word') {
-    if (!['ru', 'el'].includes(e.attributes?.language)) err(`${e.id}: ungültige Sprache`)
-    if (!['cyrillic', 'greek'].includes(e.attributes?.script)) err(`${e.id}: ungültige Schrift`)
+    const scripts = { ru: 'cyrillic', el: 'greek', ka: 'georgian', ar: 'arabic', hi: 'devanagari', bn: 'bengali', ta: 'tamil' }
+    if (scripts[e.attributes?.language] !== e.attributes?.script || !scripts[e.attributes?.language])
+      err(`${e.id}: ungültige Sprach-/Schriftzuordnung`)
     if (!e.attributes?.original || !e.attributes?.transliteration)
       err(`${e.id}: Original oder Umschrift fehlt`)
     if (
@@ -93,20 +97,51 @@ for (const e of all) {
       !e.attributes.accepted.includes(e.attributes.transliteration)
     )
       err(`${e.id}: kanonische Umschrift fehlt in accepted`)
-    if (!/^[A-Za-z -]+$/.test(e.attributes?.transliteration ?? ''))
+    if (!/^[A-Za-z][A-Za-z '-]*$/.test(e.attributes?.transliteration ?? ''))
       err(`${e.id}: Umschrift enthält unerwartete Zeichen`)
-    const scriptPattern = e.attributes?.script === 'cyrillic' ? /\p{Script=Cyrillic}/u : /\p{Script=Greek}/u
-    if (!scriptPattern.test(e.attributes?.original ?? ''))
+    const patterns = { cyrillic: /\p{Script=Cyrillic}/u, greek: /\p{Script=Greek}/u,
+      georgian: /\p{Script=Georgian}/u, arabic: /\p{Script=Arabic}/u,
+      devanagari: /\p{Script=Devanagari}/u, bengali: /\p{Script=Bengali}/u, tamil: /\p{Script=Tamil}/u }
+    if (!patterns[e.attributes?.script]?.test(e.attributes?.original ?? ''))
       err(`${e.id}: Original passt nicht zur angegebenen Schrift`)
     const originalKey = `${e.attributes?.language}:${e.attributes?.original}`
     if (scriptOriginals.has(originalKey)) err(`${e.id}: doppeltes Original ${e.attributes?.original}`)
     scriptOriginals.add(originalKey)
+  }
+  if (e.type === 'language_sample') {
+    const a = e.attributes ?? {}
+    if (!a.language || !a.language_name || !a.original || !a.meaning || !a.hint ||
+        !Array.isArray(a.language_aliases) || ![1, 3, 24].includes(a.article))
+      err(`${e.id}: unvollständige Sprach-Textprobe`)
+    if (!['ltr', 'rtl'].includes(a.direction) || (a.language === 'ar') !== (a.direction === 'rtl'))
+      err(`${e.id}: ungültige Schreibrichtung`)
+    if (!e.provenance.source_url?.startsWith('https://') || !e.provenance.license)
+      err(`${e.id}: Textquelle oder Quellenhinweis fehlt`)
   }
   if (e.location) {
     const { lat, lon } = e.location
     if (!(lat >= -90 && lat <= 90 && lon >= -180 && lon <= 180)) err(`${e.id}: ungültige Koordinaten`)
   }
   if (e.geometry && !existsSync(join(DATA, e.geometry))) err(`${e.id}: Geometrie ${e.geometry} fehlt`)
+  if (e.mapGeometry) {
+    const allowed =
+      e.type === 'river'
+        ? ['LineString', 'MultiLineString']
+        : e.type === 'lake'
+          ? ['Polygon', 'MultiPolygon']
+          : []
+    const validCoordinates = (coordinates) =>
+      Array.isArray(coordinates) &&
+      coordinates.length > 0 &&
+      (typeof coordinates[0] === 'number'
+        ? coordinates.length >= 2 &&
+          coordinates.every(Number.isFinite) &&
+          Math.abs(coordinates[0]) <= 180 &&
+          Math.abs(coordinates[1]) <= 90
+        : coordinates.every(validCoordinates))
+    if (!allowed.includes(e.mapGeometry.type) || !validCoordinates(e.mapGeometry.coordinates))
+      err(`${e.id}: ungültige direkte Kartengeometrie`)
+  }
   for (const m of e.media ?? []) {
     mediaAll.push({ ...m, object_id: e.id })
     if (!m.license) err(`${e.id}: Medium ${m.id} ohne license`)
@@ -333,6 +368,7 @@ const index = {
     photos: photosCount,
     capitals: countries.filter((c) => c.attributes.capital).length,
     water: (byType.river ?? 0) + (byType.lake ?? 0),
+    languages: (byType.script_word ?? 0) + (byType.language_sample ?? 0),
   },
   continents: Object.fromEntries(
     Object.keys(readJson(join(DATA, 'meta', 'continents.json'))).map((k) => [
@@ -345,7 +381,7 @@ writeJson(join(DATA, 'index.json'), index)
 
 // Suchindex
 const search = all
-  .filter((e) => !['script_word', 'trivia'].includes(e.type))
+  .filter((e) => !['script_word', 'language_sample', 'trivia'].includes(e.type))
   .map((e) => ({
     id: e.id,
     t: e.type,
@@ -414,6 +450,8 @@ lines.push(
   '## Geodaten',
   '',
   '[Natural Earth](https://www.naturalearthdata.com/) (Public Domain), [geoBoundaries](https://www.geoboundaries.org/) (CC BY 4.0), [mledoze/countries](https://github.com/mledoze/countries) (ODbL 1.0), [Wikidata](https://www.wikidata.org/) (CC0).',
+  'Ländereinwohnerzahlen: United Nations, Department of Economic and Social Affairs, Population Division (2024), [World Population Prospects 2024, Online Edition](https://population.un.org/wpp/), [CC BY 3.0 IGO](https://creativecommons.org/licenses/by/3.0/igo/). Verwendet wird die mittlere Projektion zum 1. Juli 2026, einschließlich der Togo-Korrektur vom 19. Januar 2026. Der versionierte Auszug wandelt Tausenderwerte in Personen um; Bezugsdatum und Quelle stehen an jedem aktualisierten Land. Kleinere Gebiete ohne eigenen UN-Datensatz behalten gegebenenfalls ihren bisherigen, separat belegten Datenstand.',
+  'Die direkt anklickbaren Flussläufe und Seeumrisse stammen aus den [Natural-Earth-Geodaten im Maßstab 1:10m](https://www.naturalearthdata.com/downloads/10m-physical-vectors/) einschließlich Europa-Ergänzungen (Public Domain). Objekte werden über ihre Wikidata-IDs verknüpft. Gipfelpositionen stammen aus den Wikidata-Koordinaten des jeweiligen Berges. Im Kartenmodus werden nur Objekte mit vorhandener Geometrie beziehungsweise Gipfelposition angeboten.',
   '',
   '## Großstädte über 300.000 Einwohner',
   '',
@@ -425,7 +463,15 @@ lines.push(
   '',
   '## Schriften und Umschrift',
   '',
-  'Der kuratierte russische und griechische Grundwortschatz verwendet eine didaktische, international lesbare Lernumschrift nach den Grundsätzen der [Unicode-CLDR-Transliterationsrichtlinien](https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines). Gebräuchliche deutsche Varianten werden zusätzlich als richtige Eingaben akzeptiert.',
+  'Kuratierte Lernkarten für Kyrillisch, Griechisch, Georgisch (Mchedruli), Arabisch, Devanagari (Hindi), Bengalisch und Tamil verwenden eine vereinfachte, international lesbare Lernumschrift nach den Grundsätzen der [Unicode-CLDR-Transliterationsrichtlinien](https://cldr.unicode.org/index/cldr-spec/transliteration-guidelines). Zeichen wurden mit den Unicode-Zeichentabellen und CLDR-Transliterationen abgeglichen. Die Lernumschrift ist keine vollständige Ausspracheanleitung; zusätzliche gebräuchliche Varianten werden akzeptiert. Quellenlinks stehen an den einzelnen Lernkarten. Arabische Wörter enthalten Vokalzeichen und werden von rechts nach links dargestellt.',
+  '',
+  '## Sprach-Textproben',
+  '',
+  '63 Textproben aus den Artikeln 1, 3 und 24 der Allgemeinen Erklärung der Menschenrechte in 21 Sprachen. Quelle: UN/OHCHR, Unicode-Darstellung aus [UDHR in XML von Eric Muller](https://github.com/eric-muller/udhr), festgehaltene Revision 588b3f4b2d0467aff54842a4b926551b69d5a66a. Deutsche Vergleichsübersetzung aus derselben Sammlung. Die Texte werden unverändert übernommen; Lernhinweise und Auswahl sind redaktionell ergänzt. Die Originalquelle ist je Textprobe verlinkt.',
+  '',
+  '## Schriften-Fonts',
+  '',
+  'Noto Sans Arabic, Bengali, Devanagari, Georgian und Tamil sowie auf die Textproben begrenzte Zeichensätze von Noto Sans SC, JP und KR aus [Google Fonts](https://fonts.google.com/noto), SIL Open Font License 1.1. Die Schriftdateien werden lokal bereitgestellt und nach Bedarf geladen. Quellen und Lizenztexte liegen unter fonts/scripts/.',
 )
 writeJson(join(DATA, 'attribution.json'), { markdown: lines.join('\n') })
 
