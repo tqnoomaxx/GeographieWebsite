@@ -674,6 +674,7 @@ h1, .display {
 .quiz-feedback-label { margin-top: 1.25rem; color: var(--ink-2); font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 .quiz-feedback-answer { display: flex; align-items: center; gap: .8rem; margin-top: .35rem; }
 .quiz-feedback-answer img { width: 4.75rem; height: 3.15rem; border: 1px solid var(--line); border-radius: .35rem; background: white; object-fit: contain; }
+.quiz-feedback-answer img.quiz-feedback-flag { background: transparent; }
 
 /* Fachvisualisierungen: schematisch, damit keine nicht vorhandenen Geodaten vorgetäuscht werden. */
 .license-plate {
@@ -1840,7 +1841,7 @@ textarea {
 
 .flag-media-shell.is-compact { width: min(100%, 17rem); height: 8rem; padding: .5rem; box-shadow: 4px 4px 0 var(--coral); }
 .flag-media-shell.is-option { width: 100%; height: 100%; min-height: 8.5rem; flex: 1; border-width: 1px; padding: .55rem; box-shadow: none; }
-.flag-media-artboard { position: relative; display: block; width: 100%; max-height: 100%; overflow: hidden; aspect-ratio: 4 / 3; background: #fff; }
+.flag-media-artboard { position: relative; display: block; width: 100%; max-height: 100%; overflow: hidden; aspect-ratio: 4 / 3; background: transparent; }
 .flag-media-artboard > img { display: block; width: 100%; height: 100%; object-fit: contain; }
 
 .flag-hint-mask {

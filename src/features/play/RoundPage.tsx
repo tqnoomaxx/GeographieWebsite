@@ -657,7 +657,9 @@ function QuestionView({
             {givenLabel && <p className="quiz-feedback-label">{t('play.your_answer')}</p>}
             {givenLabel && (
               <div className="quiz-feedback-answer">
-                {givenImage && <img src={givenImage} alt="" />}
+                {givenImage && (
+                  <img src={givenImage} alt="" className={q.category === 'flags' ? 'quiz-feedback-flag' : undefined} />
+                )}
                 <p className="font-medium">{givenLabel}</p>
               </div>
             )}
@@ -665,7 +667,9 @@ function QuestionView({
               <>
                 <p className="quiz-feedback-label">{t('play.correct_answer')}</p>
                 <div className="quiz-feedback-answer">
-                  {correctImage && <img src={correctImage} alt="" />}
+                  {correctImage && (
+                    <img src={correctImage} alt="" className={q.category === 'flags' ? 'quiz-feedback-flag' : undefined} />
+                  )}
                   <p className="font-medium">{correctLabel}</p>
                 </div>
               </>

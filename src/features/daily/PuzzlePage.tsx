@@ -365,7 +365,7 @@ function FlagleBoard({ country, revealed }: { country: Country; revealed: number
   // Eine Kachel ist von Beginn an sichtbar; nach jedem Fehlversuch kommt eine weitere dazu.
   const shown = new Set(order.slice(0, Math.min(6, revealed + 1)))
   return (
-    <div className="relative aspect-[3/2] w-full max-w-md overflow-hidden rounded-xl border border-line bg-white">
+    <div className="relative aspect-[3/2] w-full max-w-md overflow-hidden rounded-xl border border-line">
       {flag && (
         <Photo
           src={mediaUrl(flag.url)}

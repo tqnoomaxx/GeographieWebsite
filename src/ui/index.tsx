@@ -88,7 +88,7 @@ export function Flag({ entity, className = '', size = 'md' }: { entity: Entity; 
       alt={`Flagge ${entity.names.de}`}
       loading="lazy"
       decoding="async"
-      className={`${sizes[size]} w-auto max-w-full rounded-md border border-line object-contain bg-white ${className}`}
+      className={`${sizes[size]} w-auto max-w-full rounded-md border border-line object-contain ${className}`}
     />
   )
 }
