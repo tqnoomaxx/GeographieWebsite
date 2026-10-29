@@ -1,2210 +1,5528 @@
 [
-  {
-    "id": "trivia:equator-latitude",
-    "type": "trivia",
-    "names": {
-      "de": "Welchen Breitengrad hat der Äquator?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "0grad",
-          "label": "0°"
-        },
-        {
-          "id": "23-5grad-nord",
-          "label": "23,5° Nord"
-        },
-        {
-          "id": "66-5grad-sud",
-          "label": "66,5° Süd"
-        },
-        {
-          "id": "90grad-nord",
-          "label": "90° Nord"
-        }
-      ],
-      "answer": "0grad",
-      "explanation": "Der Äquator bildet den Breitengrad 0° und trennt die Nord- von der Südhalbkugel.",
-      "difficulty": 1
-    },
-    "provenance": {
-      "source": "NOAA",
-      "source_url": "https://oceanservice.noaa.gov/facts/latitude.html",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
+ {
+  "id": "trivia:equator-latitude",
+  "type": "trivia",
+  "names": {
+   "de": "Welchen Breitengrad hat der Äquator?"
   },
-  {
-    "id": "trivia:hemispheres",
-    "type": "trivia",
-    "names": {
-      "de": "Welche Linie trennt die Nordhalbkugel von der Südhalbkugel?"
+  "attributes": {
+   "choices": [
+    {
+     "id": "0grad",
+     "label": "0°"
     },
-    "attributes": {
-      "choices": [
-        {
-          "id": "aquator",
-          "label": "Äquator"
-        },
-        {
-          "id": "nullmeridian",
-          "label": "Nullmeridian"
-        },
-        {
-          "id": "nordlicher-wendekreis",
-          "label": "Nördlicher Wendekreis"
-        },
-        {
-          "id": "sudlicher-polarkreis",
-          "label": "Südlicher Polarkreis"
-        }
-      ],
-      "answer": "aquator",
-      "explanation": "Die Gebiete nördlich und südlich des Äquators bilden die beiden Halbkugeln.",
-      "difficulty": 1
+    {
+     "id": "23-5grad-nord",
+     "label": "23,5° Nord"
     },
-    "provenance": {
-      "source": "NOAA",
-      "source_url": "https://oceanservice.noaa.gov/facts/latitude.html",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
+    {
+     "id": "66-5grad-sud",
+     "label": "66,5° Süd"
+    },
+    {
+     "id": "90grad-nord",
+     "label": "90° Nord"
     }
+   ],
+   "answer": "0grad",
+   "explanation": "Der Äquator bildet den Breitengrad 0° und trennt die Nord- von der Südhalbkugel.",
+   "difficulty": 1
   },
-  {
-    "id": "trivia:latitude-direction",
-    "type": "trivia",
-    "names": {
-      "de": "Was beschreibt die geografische Breite eines Ortes?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "seine-lage-nordlich-oder-sudlich-des-aquators",
-          "label": "Seine Lage nördlich oder südlich des Äquators"
-        },
-        {
-          "id": "seine-hohe-uber-dem-meer",
-          "label": "Seine Höhe über dem Meer"
-        },
-        {
-          "id": "seinen-abstand-zur-kuste",
-          "label": "Seinen Abstand zur Küste"
-        },
-        {
-          "id": "seine-lage-ostlich-oder-westlich-des-nullmeridians",
-          "label": "Seine Lage östlich oder westlich des Nullmeridians"
-        }
-      ],
-      "answer": "seine-lage-nordlich-oder-sudlich-des-aquators",
-      "explanation": "Breitengrade messen die Lage in Nord-Süd-Richtung; Längengrade beschreiben die Ost-West-Lage.",
-      "difficulty": 2
-    },
-    "provenance": {
-      "source": "NOAA",
-      "source_url": "https://oceanservice.noaa.gov/facts/latitude.html",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:north-pole",
-    "type": "trivia",
-    "names": {
-      "de": "Welche geografische Breite hat der Nordpol?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "90grad-nord",
-          "label": "90° Nord"
-        },
-        {
-          "id": "0grad",
-          "label": "0°"
-        },
-        {
-          "id": "45grad-nord",
-          "label": "45° Nord"
-        },
-        {
-          "id": "180grad-nord",
-          "label": "180° Nord"
-        }
-      ],
-      "answer": "90grad-nord",
-      "explanation": "Am Nordpol erreicht die geografische Breite ihren höchsten nördlichen Wert: 90°.",
-      "difficulty": 1
-    },
-    "provenance": {
-      "source": "NOAA",
-      "source_url": "https://oceanservice.noaa.gov/facts/latitude.html",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:tropic-cancer",
-    "type": "trivia",
-    "names": {
-      "de": "Auf welcher Halbkugel liegt der nördliche Wendekreis?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "nordhalbkugel",
-          "label": "Nordhalbkugel"
-        },
-        {
-          "id": "sudhalbkugel",
-          "label": "Südhalbkugel"
-        },
-        {
-          "id": "auf-beiden-halbkugeln",
-          "label": "Auf beiden Halbkugeln"
-        },
-        {
-          "id": "direkt-auf-dem-aquator",
-          "label": "Direkt auf dem Äquator"
-        }
-      ],
-      "answer": "nordhalbkugel",
-      "explanation": "Der nördliche Wendekreis liegt bei ungefähr 23,5° nördlicher Breite.",
-      "difficulty": 1
-    },
-    "provenance": {
-      "source": "NOAA",
-      "source_url": "https://oceanservice.noaa.gov/facts/latitude.html",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:tropic-capricorn",
-    "type": "trivia",
-    "names": {
-      "de": "Bei welchem Breitengrad liegt ungefähr der südliche Wendekreis?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "23-5grad-sud",
-          "label": "23,5° Süd"
-        },
-        {
-          "id": "23-5grad-nord",
-          "label": "23,5° Nord"
-        },
-        {
-          "id": "66-5grad-sud",
-          "label": "66,5° Süd"
-        },
-        {
-          "id": "90grad-sud",
-          "label": "90° Süd"
-        }
-      ],
-      "answer": "23-5grad-sud",
-      "explanation": "Der südliche Wendekreis begrenzt die Tropen nach Süden und liegt bei etwa 23,5° südlicher Breite.",
-      "difficulty": 2
-    },
-    "provenance": {
-      "source": "NOAA",
-      "source_url": "https://oceanservice.noaa.gov/facts/latitude.html",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:arctic-circle",
-    "type": "trivia",
-    "names": {
-      "de": "Bei welchem Breitengrad liegt ungefähr der nördliche Polarkreis?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "66-5grad-nord",
-          "label": "66,5° Nord"
-        },
-        {
-          "id": "23-5grad-nord",
-          "label": "23,5° Nord"
-        },
-        {
-          "id": "45grad-nord",
-          "label": "45° Nord"
-        },
-        {
-          "id": "90grad-nord",
-          "label": "90° Nord"
-        }
-      ],
-      "answer": "66-5grad-nord",
-      "explanation": "Der nördliche Polarkreis markiert bei etwa 66,5° Nord die Grenze der arktischen Breiten.",
-      "difficulty": 2
-    },
-    "provenance": {
-      "source": "NOAA",
-      "source_url": "https://oceanservice.noaa.gov/facts/latitude.html",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:longitude-direction",
-    "type": "trivia",
-    "names": {
-      "de": "Welche Lage beschreibt die geografische Länge?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "ostlich-oder-westlich-des-nullmeridians",
-          "label": "Östlich oder westlich des Nullmeridians"
-        },
-        {
-          "id": "nordlich-oder-sudlich-des-aquators",
-          "label": "Nördlich oder südlich des Äquators"
-        },
-        {
-          "id": "uber-oder-unter-dem-meeresspiegel",
-          "label": "Über oder unter dem Meeresspiegel"
-        },
-        {
-          "id": "innerhalb-oder-ausserhalb-der-tropen",
-          "label": "Innerhalb oder außerhalb der Tropen"
-        }
-      ],
-      "answer": "ostlich-oder-westlich-des-nullmeridians",
-      "explanation": "Die geografische Länge wird vom Nullmeridian aus nach Osten oder Westen gemessen.",
-      "difficulty": 2
-    },
-    "provenance": {
-      "source": "NOAA",
-      "source_url": "https://oceanservice.noaa.gov/facts/longitude.html",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:greenwich-meridian",
-    "type": "trivia",
-    "names": {
-      "de": "Durch welchen Londoner Stadtteil verläuft der historische Nullmeridian?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "greenwich",
-          "label": "Greenwich"
-        },
-        {
-          "id": "westminster",
-          "label": "Westminster"
-        },
-        {
-          "id": "camden",
-          "label": "Camden"
-        },
-        {
-          "id": "chelsea",
-          "label": "Chelsea"
-        }
-      ],
-      "answer": "greenwich",
-      "explanation": "Der historische Nullmeridian führt durch das Royal Observatory in Greenwich. Moderne Satellitenkoordinaten verwenden eine leicht versetzte Referenzlinie.",
-      "difficulty": 2
-    },
-    "provenance": {
-      "source": "Royal Museums Greenwich",
-      "source_url": "https://www.rmg.co.uk/royal-observatory/attractions/stand-on-prime-meridian-line",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:largest-ocean",
-    "type": "trivia",
-    "names": {
-      "de": "Welcher Ozean ist flächenmäßig der größte der Erde?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "pazifischer-ozean",
-          "label": "Pazifischer Ozean"
-        },
-        {
-          "id": "atlantischer-ozean",
-          "label": "Atlantischer Ozean"
-        },
-        {
-          "id": "indischer-ozean",
-          "label": "Indischer Ozean"
-        },
-        {
-          "id": "arktischer-ozean",
-          "label": "Arktischer Ozean"
-        }
-      ],
-      "answer": "pazifischer-ozean",
-      "explanation": "Der Pazifik ist der größte Ozean und bedeckt mehr als 30 Prozent der Erdoberfläche.",
-      "difficulty": 1
-    },
-    "provenance": {
-      "source": "NOAA",
-      "source_url": "https://oceanexplorer.noaa.gov/ocean-fact/pacific-size/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:challenger-deep",
-    "type": "trivia",
-    "names": {
-      "de": "In welchem Tiefseegraben liegt das Challengertief?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "marianengraben",
-          "label": "Marianengraben"
-        },
-        {
-          "id": "tonga-graben",
-          "label": "Tonga-Graben"
-        },
-        {
-          "id": "puerto-rico-graben",
-          "label": "Puerto-Rico-Graben"
-        },
-        {
-          "id": "java-graben",
-          "label": "Java-Graben"
-        }
-      ],
-      "answer": "marianengraben",
-      "explanation": "Das Challengertief im Marianengraben ist die tiefste bekannte Stelle des Ozeans.",
-      "difficulty": 3
-    },
-    "provenance": {
-      "source": "NOAA",
-      "source_url": "https://oceanexplorer.noaa.gov/ocean-fact/pacific-size/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:ocean-surface",
-    "type": "trivia",
-    "names": {
-      "de": "Wie viel der Erdoberfläche ist ungefähr von Ozeanen bedeckt?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "71-prozent",
-          "label": "71 Prozent"
-        },
-        {
-          "id": "29-prozent",
-          "label": "29 Prozent"
-        },
-        {
-          "id": "50-prozent",
-          "label": "50 Prozent"
-        },
-        {
-          "id": "90-prozent",
-          "label": "90 Prozent"
-        }
-      ],
-      "answer": "71-prozent",
-      "explanation": "Die zusammenhängenden Ozeane bedecken rund 71 Prozent der Erdoberfläche.",
-      "difficulty": 2
-    },
-    "provenance": {
-      "source": "NOAA",
-      "source_url": "https://oceanservice.noaa.gov/facts/howmanyoceans.html",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:acropolis-city",
-    "type": "trivia",
-    "names": {
-      "de": "In welcher Stadt steht die Akropolis mit dem Parthenon?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "athen",
-          "label": "Athen"
-        },
-        {
-          "id": "rom",
-          "label": "Rom"
-        },
-        {
-          "id": "istanbul",
-          "label": "Istanbul"
-        },
-        {
-          "id": "sofia",
-          "label": "Sofia"
-        }
-      ],
-      "answer": "athen",
-      "explanation": "Die Akropolis erhebt sich auf einem Felsen über Athen in Griechenland.",
-      "difficulty": 1,
-      "continent": "europe"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/404/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:venice-water",
-    "type": "trivia",
-    "names": {
-      "de": "In welcher Landschaft liegt die Altstadt von Venedig?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "in-einer-lagune",
-          "label": "In einer Lagune"
-        },
-        {
-          "id": "in-einer-wuste",
-          "label": "In einer Wüste"
-        },
-        {
-          "id": "auf-einem-hochplateau",
-          "label": "Auf einem Hochplateau"
-        },
-        {
-          "id": "in-einem-vulkankrater",
-          "label": "In einem Vulkankrater"
-        }
-      ],
-      "answer": "in-einer-lagune",
-      "explanation": "Venedigs Altstadt liegt auf Inseln in einer Lagune an der italienischen Adriaküste.",
-      "difficulty": 1,
-      "continent": "europe"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/394/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:pisa-tower",
-    "type": "trivia",
-    "names": {
-      "de": "Welche ursprüngliche Funktion hat der Schiefe Turm von Pisa?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "glockenturm",
-          "label": "Glockenturm"
-        },
-        {
-          "id": "leuchtturm",
-          "label": "Leuchtturm"
-        },
-        {
-          "id": "festungsturm",
-          "label": "Festungsturm"
-        },
-        {
-          "id": "wasserturm",
-          "label": "Wasserturm"
-        }
-      ],
-      "answer": "glockenturm",
-      "explanation": "Der schiefe Campanile gehört zum Domensemble von Pisa und wurde als Glockenturm errichtet.",
-      "difficulty": 2,
-      "continent": "europe"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/395/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:causeway-rock",
-    "type": "trivia",
-    "names": {
-      "de": "Aus welchem Gestein bestehen die Säulen am Giant’s Causeway?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "basalt",
-          "label": "Basalt"
-        },
-        {
-          "id": "marmor",
-          "label": "Marmor"
-        },
-        {
-          "id": "kalkstein",
-          "label": "Kalkstein"
-        },
-        {
-          "id": "sandstein",
-          "label": "Sandstein"
-        }
-      ],
-      "answer": "basalt",
-      "explanation": "Die Basaltsäulen an der nordirischen Küste entstanden durch vulkanische Aktivität.",
-      "difficulty": 2,
-      "continent": "europe"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/369/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:causeway-location",
-    "type": "trivia",
-    "names": {
-      "de": "In welchem Teil des Vereinigten Königreichs liegt der Giant’s Causeway?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "nordirland",
-          "label": "Nordirland"
-        },
-        {
-          "id": "schottland",
-          "label": "Schottland"
-        },
-        {
-          "id": "wales",
-          "label": "Wales"
-        },
-        {
-          "id": "england",
-          "label": "England"
-        }
-      ],
-      "answer": "nordirland",
-      "explanation": "Der Giant’s Causeway liegt an der Küste der Grafschaft Antrim in Nordirland.",
-      "difficulty": 1,
-      "continent": "europe"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/369/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:norwegian-fjords",
-    "type": "trivia",
-    "names": {
-      "de": "In welchem Land liegen Geirangerfjord und Nærøyfjord?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "norwegen",
-          "label": "Norwegen"
-        },
-        {
-          "id": "schweden",
-          "label": "Schweden"
-        },
-        {
-          "id": "finnland",
-          "label": "Finnland"
-        },
-        {
-          "id": "danemark",
-          "label": "Dänemark"
-        }
-      ],
-      "answer": "norwegen",
-      "explanation": "Die beiden tiefen, steilwandigen Fjorde gehören zur westnorwegischen Küstenlandschaft.",
-      "difficulty": 1,
-      "continent": "europe"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/1195/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:fjord-origin",
-    "type": "trivia",
-    "names": {
-      "de": "Was hat die tiefen Täler der westnorwegischen Fjorde vor allem geformt?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "gletscher",
-          "label": "Gletscher"
-        },
-        {
-          "id": "sandsturme",
-          "label": "Sandstürme"
-        },
-        {
-          "id": "korallen",
-          "label": "Korallen"
-        },
-        {
-          "id": "meteoriteneinschlage",
-          "label": "Meteoriteneinschläge"
-        }
-      ],
-      "answer": "gletscher",
-      "explanation": "Gletscher formten die Täler; Meerwasser füllte sie später zu Fjorden.",
-      "difficulty": 2,
-      "continent": "europe"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/1195/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:thingvellir-country",
-    "type": "trivia",
-    "names": {
-      "de": "In welchem Land liegt der Nationalpark Þingvellir?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "island",
-          "label": "Island"
-        },
-        {
-          "id": "irland",
-          "label": "Irland"
-        },
-        {
-          "id": "norwegen",
-          "label": "Norwegen"
-        },
-        {
-          "id": "finnland",
-          "label": "Finnland"
-        }
-      ],
-      "answer": "island",
-      "explanation": "Þingvellir liegt in Island und war über viele Jahrhunderte der Versammlungsort des Alþing.",
-      "difficulty": 1,
-      "continent": "europe"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/1152/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:deepest-lake",
-    "type": "trivia",
-    "names": {
-      "de": "Welcher See ist der tiefste der Erde?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "baikalsee",
-          "label": "Baikalsee"
-        },
-        {
-          "id": "viktoriasee",
-          "label": "Viktoriasee"
-        },
-        {
-          "id": "genfersee",
-          "label": "Genfersee"
-        },
-        {
-          "id": "titicacasee",
-          "label": "Titicacasee"
-        }
-      ],
-      "answer": "baikalsee",
-      "explanation": "Der Baikalsee in Sibirien ist der tiefste See der Welt.",
-      "difficulty": 1,
-      "continent": "asia"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/754/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:baikal-region",
-    "type": "trivia",
-    "names": {
-      "de": "In welcher Großregion liegt der Baikalsee?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "sibirien",
-          "label": "Sibirien"
-        },
-        {
-          "id": "arabische-halbinsel",
-          "label": "Arabische Halbinsel"
-        },
-        {
-          "id": "indochina",
-          "label": "Indochina"
-        },
-        {
-          "id": "anatolien",
-          "label": "Anatolien"
-        }
-      ],
-      "answer": "sibirien",
-      "explanation": "Der Baikalsee liegt im südöstlichen Sibirien in Russland.",
-      "difficulty": 2,
-      "continent": "asia"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/754/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:taj-city",
-    "type": "trivia",
-    "names": {
-      "de": "In welcher indischen Stadt steht das Taj Mahal?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "agra",
-          "label": "Agra"
-        },
-        {
-          "id": "mumbai",
-          "label": "Mumbai"
-        },
-        {
-          "id": "jaipur",
-          "label": "Jaipur"
-        },
-        {
-          "id": "chennai",
-          "label": "Chennai"
-        }
-      ],
-      "answer": "agra",
-      "explanation": "Das Taj Mahal wurde im 17. Jahrhundert als Mausoleum in Agra errichtet.",
-      "difficulty": 1,
-      "continent": "asia"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/252/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:angkor-country",
-    "type": "trivia",
-    "names": {
-      "de": "In welchem Land liegt die Tempelstadt Angkor?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "kambodscha",
-          "label": "Kambodscha"
-        },
-        {
-          "id": "thailand",
-          "label": "Thailand"
-        },
-        {
-          "id": "vietnam",
-          "label": "Vietnam"
-        },
-        {
-          "id": "laos",
-          "label": "Laos"
-        }
-      ],
-      "answer": "kambodscha",
-      "explanation": "Angkor liegt in Kambodscha und war ein Zentrum des Khmer-Reiches.",
-      "difficulty": 1,
-      "continent": "asia"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/668/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:petra-country",
-    "type": "trivia",
-    "names": {
-      "de": "In welchem Land liegt die Felsenstadt Petra?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "jordanien",
-          "label": "Jordanien"
-        },
-        {
-          "id": "agypten",
-          "label": "Ägypten"
-        },
-        {
-          "id": "libanon",
-          "label": "Libanon"
-        },
-        {
-          "id": "oman",
-          "label": "Oman"
-        }
-      ],
-      "answer": "jordanien",
-      "explanation": "Petra liegt in Jordanien und ist für seine in Fels gehauenen Bauten bekannt.",
-      "difficulty": 1,
-      "continent": "asia"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/326/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:fuji-landform",
-    "type": "trivia",
-    "names": {
-      "de": "Welche Art von Berg ist der Fuji in Japan?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "vulkan",
-          "label": "Vulkan"
-        },
-        {
-          "id": "koralleninsel",
-          "label": "Koralleninsel"
-        },
-        {
-          "id": "sanddune",
-          "label": "Sanddüne"
-        },
-        {
-          "id": "tafelberg-aus-kalkstein",
-          "label": "Tafelberg aus Kalkstein"
-        }
-      ],
-      "answer": "vulkan",
-      "explanation": "Der Fuji ist ein Vulkan und ein bedeutendes kulturelles Wahrzeichen Japans.",
-      "difficulty": 1,
-      "continent": "asia"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/1418/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:highest-mountain",
-    "type": "trivia",
-    "names": {
-      "de": "Welcher Berg ist der höchste der Erde über dem Meeresspiegel?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "mount-everest",
-          "label": "Mount Everest"
-        },
-        {
-          "id": "k2",
-          "label": "K2"
-        },
-        {
-          "id": "kangchendzonga",
-          "label": "Kangchendzönga"
-        },
-        {
-          "id": "lhotse",
-          "label": "Lhotse"
-        }
-      ],
-      "answer": "mount-everest",
-      "explanation": "Der Mount Everest im Himalaya ist der höchste Gipfel über dem Meeresspiegel. Andere Maßstäbe, etwa die Höhe ab dem Fuß, ergeben andere Rekorde.",
-      "difficulty": 1,
-      "continent": "asia"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/120/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:great-wall-country",
-    "type": "trivia",
-    "names": {
-      "de": "In welchem Land liegt die Große Mauer?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "china",
-          "label": "China"
-        },
-        {
-          "id": "japan",
-          "label": "Japan"
-        },
-        {
-          "id": "mongolei",
-          "label": "Mongolei"
-        },
-        {
-          "id": "sudkorea",
-          "label": "Südkorea"
-        }
-      ],
-      "answer": "china",
-      "explanation": "Die Große Mauer besteht aus zahlreichen historischen Befestigungsabschnitten in China.",
-      "difficulty": 1,
-      "continent": "asia"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/438/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:africa-summit",
-    "type": "trivia",
-    "names": {
-      "de": "Welcher Berg ist der höchste Afrikas?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "kilimandscharo",
-          "label": "Kilimandscharo"
-        },
-        {
-          "id": "mount-kenya",
-          "label": "Mount Kenya"
-        },
-        {
-          "id": "ruwenzori",
-          "label": "Ruwenzori"
-        },
-        {
-          "id": "toubkal",
-          "label": "Toubkal"
-        }
-      ],
-      "answer": "kilimandscharo",
-      "explanation": "Der Kilimandscharo erreicht 5.895 Meter über dem Meeresspiegel und ist Afrikas höchster Berg.",
-      "difficulty": 1,
-      "continent": "africa"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/403/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:kilimanjaro-country",
-    "type": "trivia",
-    "names": {
-      "de": "In welchem Land liegt der Kilimandscharo?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "tansania",
-          "label": "Tansania"
-        },
-        {
-          "id": "kenia",
-          "label": "Kenia"
-        },
-        {
-          "id": "uganda",
-          "label": "Uganda"
-        },
-        {
-          "id": "athiopien",
-          "label": "Äthiopien"
-        }
-      ],
-      "answer": "tansania",
-      "explanation": "Der Kilimandscharo liegt im Norden Tansanias nahe der Grenze zu Kenia.",
-      "difficulty": 1,
-      "continent": "africa"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/403/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:namib-country",
-    "type": "trivia",
-    "names": {
-      "de": "In welchem Land liegt das UNESCO-Welterbe Namib-Sandmeer?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "namibia",
-          "label": "Namibia"
-        },
-        {
-          "id": "botswana",
-          "label": "Botswana"
-        },
-        {
-          "id": "mali",
-          "label": "Mali"
-        },
-        {
-          "id": "tschad",
-          "label": "Tschad"
-        }
-      ],
-      "answer": "namibia",
-      "explanation": "Das Namib-Sandmeer ist ein großes Dünengebiet an der Küste Namibias.",
-      "difficulty": 1,
-      "continent": "africa"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/1430/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:namib-water",
-    "type": "trivia",
-    "names": {
-      "de": "Was ist eine wichtige Wasserquelle für die Lebewesen im Namib-Sandmeer?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "kustennebel",
-          "label": "Küstennebel"
-        },
-        {
-          "id": "tagliche-monsunregen",
-          "label": "Tägliche Monsunregen"
-        },
-        {
-          "id": "schmelzwasser-von-gletschern",
-          "label": "Schmelzwasser von Gletschern"
-        },
-        {
-          "id": "ganzjahrige-schneefalle",
-          "label": "Ganzjährige Schneefälle"
-        }
-      ],
-      "answer": "kustennebel",
-      "explanation": "Nebel liefert Feuchtigkeit in dieser sonst sehr trockenen Küstenwüste.",
-      "difficulty": 3,
-      "continent": "africa"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/1430/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:victoria-river",
-    "type": "trivia",
-    "names": {
-      "de": "Welcher Fluss bildet die Victoriafälle?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "sambesi",
-          "label": "Sambesi"
-        },
-        {
-          "id": "nil",
-          "label": "Nil"
-        },
-        {
-          "id": "kongo",
-          "label": "Kongo"
-        },
-        {
-          "id": "niger",
-          "label": "Niger"
-        }
-      ],
-      "answer": "sambesi",
-      "explanation": "Der Sambesi stürzt an den Victoriafällen in eine Reihe von Basaltschluchten.",
-      "difficulty": 2,
-      "continent": "africa"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/509/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:victoria-border",
-    "type": "trivia",
-    "names": {
-      "de": "Zwischen welchen Ländern liegen die Victoriafälle?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "sambia-und-simbabwe",
-          "label": "Sambia und Simbabwe"
-        },
-        {
-          "id": "kenia-und-tansania",
-          "label": "Kenia und Tansania"
-        },
-        {
-          "id": "agypten-und-sudan",
-          "label": "Ägypten und Sudan"
-        },
-        {
-          "id": "ghana-und-togo",
-          "label": "Ghana und Togo"
-        }
-      ],
-      "answer": "sambia-und-simbabwe",
-      "explanation": "Die Victoriafälle liegen am Sambesi an der Grenze von Sambia und Simbabwe.",
-      "difficulty": 2,
-      "continent": "africa"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/509/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:suez-seas",
-    "type": "trivia",
-    "names": {
-      "de": "Welche beiden Meere verbindet der Suezkanal?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "mittelmeer-und-rotes-meer",
-          "label": "Mittelmeer und Rotes Meer"
-        },
-        {
-          "id": "schwarzes-meer-und-kaspisches-meer",
-          "label": "Schwarzes Meer und Kaspisches Meer"
-        },
-        {
-          "id": "nordsee-und-ostsee",
-          "label": "Nordsee und Ostsee"
-        },
-        {
-          "id": "arabisches-meer-und-gelbes-meer",
-          "label": "Arabisches Meer und Gelbes Meer"
-        }
-      ],
-      "answer": "mittelmeer-und-rotes-meer",
-      "explanation": "Der Suezkanal führt durch Ägypten und verbindet das Mittelmeer mit dem Roten Meer.",
-      "difficulty": 2,
-      "continent": "africa"
-    },
-    "provenance": {
-      "source": "Suez Canal Authority",
-      "source_url": "https://www.suezcanal.gov.eg/English/About/SuezCanal/Pages/CanalCharacteristics.aspx",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:south-africa-capitals",
-    "type": "trivia",
-    "names": {
-      "de": "Wie viele Hauptstädte mit unterschiedlichen staatlichen Funktionen hat Südafrika?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "drei",
-          "label": "Drei"
-        },
-        {
-          "id": "eine",
-          "label": "Eine"
-        },
-        {
-          "id": "zwei",
-          "label": "Zwei"
-        },
-        {
-          "id": "vier",
-          "label": "Vier"
-        }
-      ],
-      "answer": "drei",
-      "explanation": "Pretoria ist die administrative, Kapstadt die legislative und Bloemfontein die judikative Hauptstadt.",
-      "difficulty": 2,
-      "continent": "africa"
-    },
-    "provenance": {
-      "source": "Regierung Südafrikas",
-      "source_url": "https://www.gov.za/about-sa/south-africas-provinces",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:grand-canyon-river",
-    "type": "trivia",
-    "names": {
-      "de": "Welcher Fluss hat den Grand Canyon maßgeblich eingeschnitten?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "colorado",
-          "label": "Colorado"
-        },
-        {
-          "id": "mississippi",
-          "label": "Mississippi"
-        },
-        {
-          "id": "rio-grande",
-          "label": "Rio Grande"
-        },
-        {
-          "id": "yukon",
-          "label": "Yukon"
-        }
-      ],
-      "answer": "colorado",
-      "explanation": "Der Colorado River schnitt sich in das angehobene Colorado-Plateau ein und formte den Grand Canyon.",
-      "difficulty": 1,
-      "continent": "north-america"
-    },
-    "provenance": {
-      "source": "National Park Service",
-      "source_url": "https://www.nps.gov/grca/learn/nature/grca-geology.htm",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:grand-canyon-state",
-    "type": "trivia",
-    "names": {
-      "de": "In welchem US-Bundesstaat liegt der Grand-Canyon-Nationalpark?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "arizona",
-          "label": "Arizona"
-        },
-        {
-          "id": "kalifornien",
-          "label": "Kalifornien"
-        },
-        {
-          "id": "florida",
-          "label": "Florida"
-        },
-        {
-          "id": "montana",
-          "label": "Montana"
-        }
-      ],
-      "answer": "arizona",
-      "explanation": "Der Grand-Canyon-Nationalpark liegt im Norden Arizonas.",
-      "difficulty": 1,
-      "continent": "north-america"
-    },
-    "provenance": {
-      "source": "National Park Service",
-      "source_url": "https://www.nps.gov/grca/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:denali-region",
-    "type": "trivia",
-    "names": {
-      "de": "In welchem US-Bundesstaat liegt der Berg Mount McKinley, auch Denali genannt?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "alaska",
-          "label": "Alaska"
-        },
-        {
-          "id": "colorado",
-          "label": "Colorado"
-        },
-        {
-          "id": "washington",
-          "label": "Washington"
-        },
-        {
-          "id": "nevada",
-          "label": "Nevada"
-        }
-      ],
-      "answer": "alaska",
-      "explanation": "Nordamerikas höchster Berg liegt in der Alaska Range im US-Bundesstaat Alaska.",
-      "difficulty": 2,
-      "continent": "north-america"
-    },
-    "provenance": {
-      "source": "National Park Service",
-      "source_url": "https://www.nps.gov/denali/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:chichen-country",
-    "type": "trivia",
-    "names": {
-      "de": "In welchem Land liegt die Maya-Stätte Chichén Itzá?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "mexiko",
-          "label": "Mexiko"
-        },
-        {
-          "id": "guatemala",
-          "label": "Guatemala"
-        },
-        {
-          "id": "honduras",
-          "label": "Honduras"
-        },
-        {
-          "id": "belize",
-          "label": "Belize"
-        }
-      ],
-      "answer": "mexiko",
-      "explanation": "Chichén Itzá liegt auf der mexikanischen Halbinsel Yucatán.",
-      "difficulty": 1,
-      "continent": "north-america"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/483/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:panama-oceans",
-    "type": "trivia",
-    "names": {
-      "de": "Welche Ozeane verbindet die Schifffahrtsroute durch den Panamakanal?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "atlantik-und-pazifik",
-          "label": "Atlantik und Pazifik"
-        },
-        {
-          "id": "atlantik-und-indischer-ozean",
-          "label": "Atlantik und Indischer Ozean"
-        },
-        {
-          "id": "pazifik-und-arktischer-ozean",
-          "label": "Pazifik und Arktischer Ozean"
-        },
-        {
-          "id": "indischer-ozean-und-arktischer-ozean",
-          "label": "Indischer Ozean und Arktischer Ozean"
-        }
-      ],
-      "answer": "atlantik-und-pazifik",
-      "explanation": "Der Kanal ermöglicht Schiffen die Passage zwischen Atlantik und Pazifik, ohne Südamerika zu umrunden.",
-      "difficulty": 1,
-      "continent": "north-america"
-    },
-    "provenance": {
-      "source": "Autoridad del Canal de Panamá",
-      "source_url": "https://pancanal.com/en/connectivity/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:capital-canada",
-    "type": "trivia",
-    "names": {
-      "de": "Wie heißt die Hauptstadt von Kanada?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "ottawa",
-          "label": "Ottawa"
-        },
-        {
-          "id": "toronto",
-          "label": "Toronto"
-        },
-        {
-          "id": "montreal",
-          "label": "Montréal"
-        },
-        {
-          "id": "vancouver",
-          "label": "Vancouver"
-        }
-      ],
-      "answer": "ottawa",
-      "explanation": "Ottawa ist Kanadas Hauptstadt; Toronto ist zwar größer, hat aber nicht diese Funktion.",
-      "difficulty": 1,
-      "continent": "north-america"
-    },
-    "provenance": {
-      "source": "Regierung Kanadas",
-      "source_url": "https://www.ourcommons.ca/procedure/procedure-et-les-usages-4/ch06-2-e.html",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:niagara-border",
-    "type": "trivia",
-    "names": {
-      "de": "An welcher Staatsgrenze liegen die Niagarafälle?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "kanada-und-usa",
-          "label": "Kanada und USA"
-        },
-        {
-          "id": "usa-und-mexiko",
-          "label": "USA und Mexiko"
-        },
-        {
-          "id": "mexiko-und-guatemala",
-          "label": "Mexiko und Guatemala"
-        },
-        {
-          "id": "kanada-und-gronland",
-          "label": "Kanada und Grönland"
-        }
-      ],
-      "answer": "kanada-und-usa",
-      "explanation": "Die Niagarafälle liegen am Niagara River zwischen der kanadischen Provinz Ontario und dem US-Bundesstaat New York.",
-      "difficulty": 2,
-      "continent": "north-america"
-    },
-    "provenance": {
-      "source": "Niagara Falls Tourism",
-      "source_url": "https://www.niagarafallstourism.com/sites/default/files/2024-06/general-_facts_and_history_2023.pdf",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:largest-great-lake",
-    "type": "trivia",
-    "names": {
-      "de": "Welcher der fünf Großen Seen Nordamerikas hat die größte Oberfläche?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "oberer-see",
-          "label": "Oberer See"
-        },
-        {
-          "id": "michigansee",
-          "label": "Michigansee"
-        },
-        {
-          "id": "eriesee",
-          "label": "Eriesee"
-        },
-        {
-          "id": "ontariosee",
-          "label": "Ontariosee"
-        }
-      ],
-      "answer": "oberer-see",
-      "explanation": "Der Obere See, auf Englisch Lake Superior, ist flächenmäßig der größte der fünf Großen Seen.",
-      "difficulty": 2,
-      "continent": "north-america"
-    },
-    "provenance": {
-      "source": "US Environmental Protection Agency",
-      "source_url": "https://www.epa.gov/greatlakes/lake-superior",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:galapagos-country",
-    "type": "trivia",
-    "names": {
-      "de": "Zu welchem Land gehören die Galápagosinseln?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "ecuador",
-          "label": "Ecuador"
-        },
-        {
-          "id": "peru",
-          "label": "Peru"
-        },
-        {
-          "id": "kolumbien",
-          "label": "Kolumbien"
-        },
-        {
-          "id": "chile",
-          "label": "Chile"
-        }
-      ],
-      "answer": "ecuador",
-      "explanation": "Die Galápagosinseln gehören zu Ecuador und liegen weit westlich des Festlands.",
-      "difficulty": 1,
-      "continent": "south-america"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/1/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:galapagos-ocean",
-    "type": "trivia",
-    "names": {
-      "de": "In welchem Ozean liegen die Galápagosinseln?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "pazifischer-ozean",
-          "label": "Pazifischer Ozean"
-        },
-        {
-          "id": "atlantischer-ozean",
-          "label": "Atlantischer Ozean"
-        },
-        {
-          "id": "indischer-ozean",
-          "label": "Indischer Ozean"
-        },
-        {
-          "id": "arktischer-ozean",
-          "label": "Arktischer Ozean"
-        }
-      ],
-      "answer": "pazifischer-ozean",
-      "explanation": "Die Galápagosinseln liegen im Pazifik, etwa 1.000 Kilometer vor der Küste Ecuadors.",
-      "difficulty": 1,
-      "continent": "south-america"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/1/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:machu-range",
-    "type": "trivia",
-    "names": {
-      "de": "In welchem Gebirge liegt Machu Picchu?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "anden",
-          "label": "Anden"
-        },
-        {
-          "id": "rocky-mountains",
-          "label": "Rocky Mountains"
-        },
-        {
-          "id": "alpen",
-          "label": "Alpen"
-        },
-        {
-          "id": "himalaya",
-          "label": "Himalaya"
-        }
-      ],
-      "answer": "anden",
-      "explanation": "Die Inka-Stätte Machu Picchu liegt in den peruanischen Anden oberhalb des Urubamba-Tals.",
-      "difficulty": 1,
-      "continent": "south-america"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/274/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:nazca-country",
-    "type": "trivia",
-    "names": {
-      "de": "In welchem Land befinden sich die Nazca-Linien?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "peru",
-          "label": "Peru"
-        },
-        {
-          "id": "bolivien",
-          "label": "Bolivien"
-        },
-        {
-          "id": "argentinien",
-          "label": "Argentinien"
-        },
-        {
-          "id": "venezuela",
-          "label": "Venezuela"
-        }
-      ],
-      "answer": "peru",
-      "explanation": "Die großflächigen Bodenzeichnungen liegen in einem trockenen Gebiet im Süden Perus.",
-      "difficulty": 1,
-      "continent": "south-america"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/700/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:iguazu-border",
-    "type": "trivia",
-    "names": {
-      "de": "Zwischen welchen Ländern liegen die Iguazú-Wasserfälle?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "argentinien-und-brasilien",
-          "label": "Argentinien und Brasilien"
-        },
-        {
-          "id": "peru-und-ecuador",
-          "label": "Peru und Ecuador"
-        },
-        {
-          "id": "chile-und-bolivien",
-          "label": "Chile und Bolivien"
-        },
-        {
-          "id": "kolumbien-und-venezuela",
-          "label": "Kolumbien und Venezuela"
-        }
-      ],
-      "answer": "argentinien-und-brasilien",
-      "explanation": "Die Iguazú-Wasserfälle erstrecken sich an der Grenze zwischen Argentinien und Brasilien.",
-      "difficulty": 2,
-      "continent": "south-america"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/303/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:rapa-nui-country",
-    "type": "trivia",
-    "names": {
-      "de": "Zu welchem Staat gehört Rapa Nui, die Osterinsel?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "chile",
-          "label": "Chile"
-        },
-        {
-          "id": "ecuador",
-          "label": "Ecuador"
-        },
-        {
-          "id": "peru",
-          "label": "Peru"
-        },
-        {
-          "id": "argentinien",
-          "label": "Argentinien"
-        }
-      ],
-      "answer": "chile",
-      "explanation": "Rapa Nui gehört zu Chile, liegt aber weit vom südamerikanischen Festland entfernt im Pazifik.",
-      "difficulty": 2,
-      "continent": "south-america"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/715/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:pantanal-landscape",
-    "type": "trivia",
-    "names": {
-      "de": "Welche Landschaft ist für das Pantanal besonders kennzeichnend?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "grosses-tropisches-feuchtgebiet",
-          "label": "Großes tropisches Feuchtgebiet"
-        },
-        {
-          "id": "polare-eiswuste",
-          "label": "Polare Eiswüste"
-        },
-        {
-          "id": "hochgebirgs-gletscher",
-          "label": "Hochgebirgs-Gletscher"
-        },
-        {
-          "id": "korallenriff",
-          "label": "Korallenriff"
-        }
-      ],
-      "answer": "grosses-tropisches-feuchtgebiet",
-      "explanation": "Das Pantanal ist ein ausgedehntes tropisches Feuchtgebiet mit saisonalen Überschwemmungen.",
-      "difficulty": 2,
-      "continent": "south-america"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/999/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:los-glaciares-country",
-    "type": "trivia",
-    "names": {
-      "de": "In welchem Land liegt der Nationalpark Los Glaciares?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "argentinien",
-          "label": "Argentinien"
-        },
-        {
-          "id": "chile",
-          "label": "Chile"
-        },
-        {
-          "id": "peru",
-          "label": "Peru"
-        },
-        {
-          "id": "uruguay",
-          "label": "Uruguay"
-        }
-      ],
-      "answer": "argentinien",
-      "explanation": "Los Glaciares liegt im argentinischen Teil Patagoniens und umfasst große Gletscherlandschaften.",
-      "difficulty": 2,
-      "continent": "south-america"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/145/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:barrier-reef-landscape",
-    "type": "trivia",
-    "names": {
-      "de": "Welche Landschaft bildet das Great Barrier Reef?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "ein-korallenriffsystem",
-          "label": "Ein Korallenriffsystem"
-        },
-        {
-          "id": "eine-gebirgskette",
-          "label": "Eine Gebirgskette"
-        },
-        {
-          "id": "eine-sandwuste",
-          "label": "Eine Sandwüste"
-        },
-        {
-          "id": "ein-susswasser-seegebiet",
-          "label": "Ein Süßwasser-Seegebiet"
-        }
-      ],
-      "answer": "ein-korallenriffsystem",
-      "explanation": "Das Great Barrier Reef vor Australiens Nordostküste ist das größte Korallenriffsystem der Erde.",
-      "difficulty": 1,
-      "continent": "oceania"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/154/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:barrier-reef-coast",
-    "type": "trivia",
-    "names": {
-      "de": "Vor welcher Küste Australiens liegt das Great Barrier Reef?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "nordostkuste",
-          "label": "Nordostküste"
-        },
-        {
-          "id": "sudwestkuste",
-          "label": "Südwestküste"
-        },
-        {
-          "id": "nordwestkuste",
-          "label": "Nordwestküste"
-        },
-        {
-          "id": "sudkuste",
-          "label": "Südküste"
-        }
-      ],
-      "answer": "nordostkuste",
-      "explanation": "Das Riff erstreckt sich vor der Nordostküste Australiens entlang von Queensland.",
-      "difficulty": 2,
-      "continent": "oceania"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/154/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:uluru-rock",
-    "type": "trivia",
-    "names": {
-      "de": "Aus welchem Gestein besteht Uluru überwiegend?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "sandstein",
-          "label": "Sandstein"
-        },
-        {
-          "id": "basalt",
-          "label": "Basalt"
-        },
-        {
-          "id": "marmor",
-          "label": "Marmor"
-        },
-        {
-          "id": "granit",
-          "label": "Granit"
-        }
-      ],
-      "answer": "sandstein",
-      "explanation": "Uluru besteht aus Sandstein; Erosion legte den heute sichtbaren Teil des Gesteinskörpers frei.",
-      "difficulty": 2,
-      "continent": "oceania"
-    },
-    "provenance": {
-      "source": "Geoscience Australia",
-      "source_url": "https://www.ga.gov.au/scientific-topics/national-location-information/landforms/significant-rock-features",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:sydney-opera-location",
-    "type": "trivia",
-    "names": {
-      "de": "An welchem australischen Hafen steht das berühmte Opernhaus?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "sydney-harbour",
-          "label": "Sydney Harbour"
-        },
-        {
-          "id": "port-of-melbourne",
-          "label": "Port of Melbourne"
-        },
-        {
-          "id": "port-of-fremantle",
-          "label": "Port of Fremantle"
-        },
-        {
-          "id": "port-of-darwin",
-          "label": "Port of Darwin"
-        }
-      ],
-      "answer": "sydney-harbour",
-      "explanation": "Das Opernhaus steht auf Bennelong Point im Hafen von Sydney.",
-      "difficulty": 1,
-      "continent": "oceania"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/166/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:tongariro-country",
-    "type": "trivia",
-    "names": {
-      "de": "In welchem Land liegt der vulkanische Nationalpark Tongariro?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "neuseeland",
-          "label": "Neuseeland"
-        },
-        {
-          "id": "australien",
-          "label": "Australien"
-        },
-        {
-          "id": "fidschi",
-          "label": "Fidschi"
-        },
-        {
-          "id": "papua-neuguinea",
-          "label": "Papua-Neuguinea"
-        }
-      ],
-      "answer": "neuseeland",
-      "explanation": "Tongariro liegt auf Neuseelands Nordinsel; seine Vulkane sind auch kulturell für die Māori bedeutend.",
-      "difficulty": 1,
-      "continent": "oceania"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/421/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:kuk-country",
-    "type": "trivia",
-    "names": {
-      "de": "In welchem Land liegt die frühe Agrarlandschaft von Kuk?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "papua-neuguinea",
-          "label": "Papua-Neuguinea"
-        },
-        {
-          "id": "neuseeland",
-          "label": "Neuseeland"
-        },
-        {
-          "id": "samoa",
-          "label": "Samoa"
-        },
-        {
-          "id": "vanuatu",
-          "label": "Vanuatu"
-        }
-      ],
-      "answer": "papua-neuguinea",
-      "explanation": "Kuk liegt im Hochland Papua-Neuguineas und dokumentiert eine lange Geschichte der Landwirtschaft.",
-      "difficulty": 3,
-      "continent": "oceania"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/887/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:levuka-country",
-    "type": "trivia",
-    "names": {
-      "de": "In welchem Inselstaat liegt die historische Hafenstadt Levuka?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "fidschi",
-          "label": "Fidschi"
-        },
-        {
-          "id": "tonga",
-          "label": "Tonga"
-        },
-        {
-          "id": "samoa",
-          "label": "Samoa"
-        },
-        {
-          "id": "kiribati",
-          "label": "Kiribati"
-        }
-      ],
-      "answer": "fidschi",
-      "explanation": "Levuka liegt auf Ovalau in Fidschi und war eine frühere Hauptstadt des Landes.",
-      "difficulty": 2,
-      "continent": "oceania"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/1399/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
-  },
-  {
-    "id": "trivia:nan-madol-landscape",
-    "type": "trivia",
-    "names": {
-      "de": "Worauf wurden die Bauten von Nan Madol errichtet?"
-    },
-    "attributes": {
-      "choices": [
-        {
-          "id": "auf-kunstlichen-inseln",
-          "label": "Auf künstlichen Inseln"
-        },
-        {
-          "id": "auf-schwimmenden-holzplattformen",
-          "label": "Auf schwimmenden Holzplattformen"
-        },
-        {
-          "id": "auf-einem-gletscher",
-          "label": "Auf einem Gletscher"
-        },
-        {
-          "id": "in-einem-vulkankrater",
-          "label": "In einem Vulkankrater"
-        }
-      ],
-      "answer": "auf-kunstlichen-inseln",
-      "explanation": "Nan Madol besteht aus künstlichen Inseln mit Basaltbauten vor Pohnpei in den Föderierten Staaten von Mikronesien.",
-      "difficulty": 3,
-      "continent": "oceania"
-    },
-    "provenance": {
-      "source": "UNESCO-Welterbe",
-      "source_url": "https://whc.unesco.org/en/list/1503/",
-      "last_updated": "2026-10-14",
-      "imported_at": "2026-10-14"
-    }
+  "provenance": {
+   "source": "NOAA",
+   "source_url": "https://oceanservice.noaa.gov/facts/latitude.html",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
   }
+ },
+ {
+  "id": "trivia:hemispheres",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Linie trennt die Nordhalbkugel von der Südhalbkugel?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "aquator",
+     "label": "Äquator"
+    },
+    {
+     "id": "nullmeridian",
+     "label": "Nullmeridian"
+    },
+    {
+     "id": "nordlicher-wendekreis",
+     "label": "Nördlicher Wendekreis"
+    },
+    {
+     "id": "sudlicher-polarkreis",
+     "label": "Südlicher Polarkreis"
+    }
+   ],
+   "answer": "aquator",
+   "explanation": "Die Gebiete nördlich und südlich des Äquators bilden die beiden Halbkugeln.",
+   "difficulty": 1
+  },
+  "provenance": {
+   "source": "NOAA",
+   "source_url": "https://oceanservice.noaa.gov/facts/latitude.html",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:latitude-direction",
+  "type": "trivia",
+  "names": {
+   "de": "Was beschreibt die geografische Breite eines Ortes?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "seine-lage-nordlich-oder-sudlich-des-aquators",
+     "label": "Seine Lage nördlich oder südlich des Äquators"
+    },
+    {
+     "id": "seine-hohe-uber-dem-meer",
+     "label": "Seine Höhe über dem Meer"
+    },
+    {
+     "id": "seinen-abstand-zur-kuste",
+     "label": "Seinen Abstand zur Küste"
+    },
+    {
+     "id": "seine-lage-ostlich-oder-westlich-des-nullmeridians",
+     "label": "Seine Lage östlich oder westlich des Nullmeridians"
+    }
+   ],
+   "answer": "seine-lage-nordlich-oder-sudlich-des-aquators",
+   "explanation": "Breitengrade messen die Lage in Nord-Süd-Richtung; Längengrade beschreiben die Ost-West-Lage.",
+   "difficulty": 2
+  },
+  "provenance": {
+   "source": "NOAA",
+   "source_url": "https://oceanservice.noaa.gov/facts/latitude.html",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:north-pole",
+  "type": "trivia",
+  "names": {
+   "de": "Welche geografische Breite hat der Nordpol?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "90grad-nord",
+     "label": "90° Nord"
+    },
+    {
+     "id": "0grad",
+     "label": "0°"
+    },
+    {
+     "id": "45grad-nord",
+     "label": "45° Nord"
+    },
+    {
+     "id": "180grad-nord",
+     "label": "180° Nord"
+    }
+   ],
+   "answer": "90grad-nord",
+   "explanation": "Am Nordpol erreicht die geografische Breite ihren höchsten nördlichen Wert: 90°.",
+   "difficulty": 1
+  },
+  "provenance": {
+   "source": "NOAA",
+   "source_url": "https://oceanservice.noaa.gov/facts/latitude.html",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:tropic-cancer",
+  "type": "trivia",
+  "names": {
+   "de": "Auf welcher Halbkugel liegt der nördliche Wendekreis?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "nordhalbkugel",
+     "label": "Nordhalbkugel"
+    },
+    {
+     "id": "sudhalbkugel",
+     "label": "Südhalbkugel"
+    },
+    {
+     "id": "auf-beiden-halbkugeln",
+     "label": "Auf beiden Halbkugeln"
+    },
+    {
+     "id": "direkt-auf-dem-aquator",
+     "label": "Direkt auf dem Äquator"
+    }
+   ],
+   "answer": "nordhalbkugel",
+   "explanation": "Der nördliche Wendekreis liegt bei ungefähr 23,5° nördlicher Breite.",
+   "difficulty": 1
+  },
+  "provenance": {
+   "source": "NOAA",
+   "source_url": "https://oceanservice.noaa.gov/facts/latitude.html",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:tropic-capricorn",
+  "type": "trivia",
+  "names": {
+   "de": "Bei welchem Breitengrad liegt ungefähr der südliche Wendekreis?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "23-5grad-sud",
+     "label": "23,5° Süd"
+    },
+    {
+     "id": "23-5grad-nord",
+     "label": "23,5° Nord"
+    },
+    {
+     "id": "66-5grad-sud",
+     "label": "66,5° Süd"
+    },
+    {
+     "id": "90grad-sud",
+     "label": "90° Süd"
+    }
+   ],
+   "answer": "23-5grad-sud",
+   "explanation": "Der südliche Wendekreis begrenzt die Tropen nach Süden und liegt bei etwa 23,5° südlicher Breite.",
+   "difficulty": 2
+  },
+  "provenance": {
+   "source": "NOAA",
+   "source_url": "https://oceanservice.noaa.gov/facts/latitude.html",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:arctic-circle",
+  "type": "trivia",
+  "names": {
+   "de": "Bei welchem Breitengrad liegt ungefähr der nördliche Polarkreis?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "66-5grad-nord",
+     "label": "66,5° Nord"
+    },
+    {
+     "id": "23-5grad-nord",
+     "label": "23,5° Nord"
+    },
+    {
+     "id": "45grad-nord",
+     "label": "45° Nord"
+    },
+    {
+     "id": "90grad-nord",
+     "label": "90° Nord"
+    }
+   ],
+   "answer": "66-5grad-nord",
+   "explanation": "Der nördliche Polarkreis markiert bei etwa 66,5° Nord die Grenze der arktischen Breiten.",
+   "difficulty": 2
+  },
+  "provenance": {
+   "source": "NOAA",
+   "source_url": "https://oceanservice.noaa.gov/facts/latitude.html",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:longitude-direction",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Lage beschreibt die geografische Länge?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "ostlich-oder-westlich-des-nullmeridians",
+     "label": "Östlich oder westlich des Nullmeridians"
+    },
+    {
+     "id": "nordlich-oder-sudlich-des-aquators",
+     "label": "Nördlich oder südlich des Äquators"
+    },
+    {
+     "id": "uber-oder-unter-dem-meeresspiegel",
+     "label": "Über oder unter dem Meeresspiegel"
+    },
+    {
+     "id": "innerhalb-oder-ausserhalb-der-tropen",
+     "label": "Innerhalb oder außerhalb der Tropen"
+    }
+   ],
+   "answer": "ostlich-oder-westlich-des-nullmeridians",
+   "explanation": "Die geografische Länge wird vom Nullmeridian aus nach Osten oder Westen gemessen.",
+   "difficulty": 2
+  },
+  "provenance": {
+   "source": "NOAA",
+   "source_url": "https://oceanservice.noaa.gov/facts/longitude.html",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:greenwich-meridian",
+  "type": "trivia",
+  "names": {
+   "de": "Durch welchen Londoner Stadtteil verläuft der historische Nullmeridian?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "greenwich",
+     "label": "Greenwich"
+    },
+    {
+     "id": "westminster",
+     "label": "Westminster"
+    },
+    {
+     "id": "camden",
+     "label": "Camden"
+    },
+    {
+     "id": "chelsea",
+     "label": "Chelsea"
+    }
+   ],
+   "answer": "greenwich",
+   "explanation": "Der historische Nullmeridian führt durch das Royal Observatory in Greenwich. Moderne Satellitenkoordinaten verwenden eine leicht versetzte Referenzlinie.",
+   "difficulty": 2
+  },
+  "provenance": {
+   "source": "Royal Museums Greenwich",
+   "source_url": "https://www.rmg.co.uk/royal-observatory/attractions/stand-on-prime-meridian-line",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:largest-ocean",
+  "type": "trivia",
+  "names": {
+   "de": "Welcher Ozean ist flächenmäßig der größte der Erde?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "pazifischer-ozean",
+     "label": "Pazifischer Ozean"
+    },
+    {
+     "id": "atlantischer-ozean",
+     "label": "Atlantischer Ozean"
+    },
+    {
+     "id": "indischer-ozean",
+     "label": "Indischer Ozean"
+    },
+    {
+     "id": "arktischer-ozean",
+     "label": "Arktischer Ozean"
+    }
+   ],
+   "answer": "pazifischer-ozean",
+   "explanation": "Der Pazifik ist der größte Ozean und bedeckt mehr als 30 Prozent der Erdoberfläche.",
+   "difficulty": 1
+  },
+  "provenance": {
+   "source": "NOAA",
+   "source_url": "https://oceanexplorer.noaa.gov/ocean-fact/pacific-size/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:challenger-deep",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Tiefseegraben liegt das Challengertief?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "marianengraben",
+     "label": "Marianengraben"
+    },
+    {
+     "id": "tonga-graben",
+     "label": "Tonga-Graben"
+    },
+    {
+     "id": "puerto-rico-graben",
+     "label": "Puerto-Rico-Graben"
+    },
+    {
+     "id": "java-graben",
+     "label": "Java-Graben"
+    }
+   ],
+   "answer": "marianengraben",
+   "explanation": "Das Challengertief im Marianengraben ist die tiefste bekannte Stelle des Ozeans.",
+   "difficulty": 3
+  },
+  "provenance": {
+   "source": "NOAA",
+   "source_url": "https://oceanexplorer.noaa.gov/ocean-fact/pacific-size/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:ocean-surface",
+  "type": "trivia",
+  "names": {
+   "de": "Wie viel der Erdoberfläche ist ungefähr von Ozeanen bedeckt?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "71-prozent",
+     "label": "71 Prozent"
+    },
+    {
+     "id": "29-prozent",
+     "label": "29 Prozent"
+    },
+    {
+     "id": "50-prozent",
+     "label": "50 Prozent"
+    },
+    {
+     "id": "90-prozent",
+     "label": "90 Prozent"
+    }
+   ],
+   "answer": "71-prozent",
+   "explanation": "Die zusammenhängenden Ozeane bedecken rund 71 Prozent der Erdoberfläche.",
+   "difficulty": 2
+  },
+  "provenance": {
+   "source": "NOAA",
+   "source_url": "https://oceanservice.noaa.gov/facts/howmanyoceans.html",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:acropolis-city",
+  "type": "trivia",
+  "names": {
+   "de": "In welcher Stadt steht die Akropolis mit dem Parthenon?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "athen",
+     "label": "Athen"
+    },
+    {
+     "id": "rom",
+     "label": "Rom"
+    },
+    {
+     "id": "istanbul",
+     "label": "Istanbul"
+    },
+    {
+     "id": "sofia",
+     "label": "Sofia"
+    }
+   ],
+   "answer": "athen",
+   "explanation": "Die Akropolis erhebt sich auf einem Felsen über Athen in Griechenland.",
+   "difficulty": 1,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/404/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:venice-water",
+  "type": "trivia",
+  "names": {
+   "de": "In welcher Landschaft liegt die Altstadt von Venedig?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "in-einer-lagune",
+     "label": "In einer Lagune"
+    },
+    {
+     "id": "in-einer-wuste",
+     "label": "In einer Wüste"
+    },
+    {
+     "id": "auf-einem-hochplateau",
+     "label": "Auf einem Hochplateau"
+    },
+    {
+     "id": "in-einem-vulkankrater",
+     "label": "In einem Vulkankrater"
+    }
+   ],
+   "answer": "in-einer-lagune",
+   "explanation": "Venedigs Altstadt liegt auf Inseln in einer Lagune an der italienischen Adriaküste.",
+   "difficulty": 1,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/394/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:pisa-tower",
+  "type": "trivia",
+  "names": {
+   "de": "Welche ursprüngliche Funktion hat der Schiefe Turm von Pisa?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "glockenturm",
+     "label": "Glockenturm"
+    },
+    {
+     "id": "leuchtturm",
+     "label": "Leuchtturm"
+    },
+    {
+     "id": "festungsturm",
+     "label": "Festungsturm"
+    },
+    {
+     "id": "wasserturm",
+     "label": "Wasserturm"
+    }
+   ],
+   "answer": "glockenturm",
+   "explanation": "Der schiefe Campanile gehört zum Domensemble von Pisa und wurde als Glockenturm errichtet.",
+   "difficulty": 2,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/395/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:causeway-rock",
+  "type": "trivia",
+  "names": {
+   "de": "Aus welchem Gestein bestehen die Säulen am Giant’s Causeway?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "basalt",
+     "label": "Basalt"
+    },
+    {
+     "id": "marmor",
+     "label": "Marmor"
+    },
+    {
+     "id": "kalkstein",
+     "label": "Kalkstein"
+    },
+    {
+     "id": "sandstein",
+     "label": "Sandstein"
+    }
+   ],
+   "answer": "basalt",
+   "explanation": "Die Basaltsäulen an der nordirischen Küste entstanden durch vulkanische Aktivität.",
+   "difficulty": 2,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/369/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:causeway-location",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Teil des Vereinigten Königreichs liegt der Giant’s Causeway?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "nordirland",
+     "label": "Nordirland"
+    },
+    {
+     "id": "schottland",
+     "label": "Schottland"
+    },
+    {
+     "id": "wales",
+     "label": "Wales"
+    },
+    {
+     "id": "england",
+     "label": "England"
+    }
+   ],
+   "answer": "nordirland",
+   "explanation": "Der Giant’s Causeway liegt an der Küste der Grafschaft Antrim in Nordirland.",
+   "difficulty": 1,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/369/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:norwegian-fjords",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Land liegen Geirangerfjord und Nærøyfjord?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "norwegen",
+     "label": "Norwegen"
+    },
+    {
+     "id": "schweden",
+     "label": "Schweden"
+    },
+    {
+     "id": "finnland",
+     "label": "Finnland"
+    },
+    {
+     "id": "danemark",
+     "label": "Dänemark"
+    }
+   ],
+   "answer": "norwegen",
+   "explanation": "Die beiden tiefen, steilwandigen Fjorde gehören zur westnorwegischen Küstenlandschaft.",
+   "difficulty": 1,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/1195/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:fjord-origin",
+  "type": "trivia",
+  "names": {
+   "de": "Was hat die tiefen Täler der westnorwegischen Fjorde vor allem geformt?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "gletscher",
+     "label": "Gletscher"
+    },
+    {
+     "id": "sandsturme",
+     "label": "Sandstürme"
+    },
+    {
+     "id": "korallen",
+     "label": "Korallen"
+    },
+    {
+     "id": "meteoriteneinschlage",
+     "label": "Meteoriteneinschläge"
+    }
+   ],
+   "answer": "gletscher",
+   "explanation": "Gletscher formten die Täler; Meerwasser füllte sie später zu Fjorden.",
+   "difficulty": 2,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/1195/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:thingvellir-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Land liegt der Nationalpark Þingvellir?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "island",
+     "label": "Island"
+    },
+    {
+     "id": "irland",
+     "label": "Irland"
+    },
+    {
+     "id": "norwegen",
+     "label": "Norwegen"
+    },
+    {
+     "id": "finnland",
+     "label": "Finnland"
+    }
+   ],
+   "answer": "island",
+   "explanation": "Þingvellir liegt in Island und war über viele Jahrhunderte der Versammlungsort des Alþing.",
+   "difficulty": 1,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/1152/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:deepest-lake",
+  "type": "trivia",
+  "names": {
+   "de": "Welcher See ist der tiefste der Erde?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "baikalsee",
+     "label": "Baikalsee"
+    },
+    {
+     "id": "viktoriasee",
+     "label": "Viktoriasee"
+    },
+    {
+     "id": "genfersee",
+     "label": "Genfersee"
+    },
+    {
+     "id": "titicacasee",
+     "label": "Titicacasee"
+    }
+   ],
+   "answer": "baikalsee",
+   "explanation": "Der Baikalsee in Sibirien ist der tiefste See der Welt.",
+   "difficulty": 1,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/754/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:baikal-region",
+  "type": "trivia",
+  "names": {
+   "de": "In welcher Großregion liegt der Baikalsee?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "sibirien",
+     "label": "Sibirien"
+    },
+    {
+     "id": "arabische-halbinsel",
+     "label": "Arabische Halbinsel"
+    },
+    {
+     "id": "indochina",
+     "label": "Indochina"
+    },
+    {
+     "id": "anatolien",
+     "label": "Anatolien"
+    }
+   ],
+   "answer": "sibirien",
+   "explanation": "Der Baikalsee liegt im südöstlichen Sibirien in Russland.",
+   "difficulty": 2,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/754/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:taj-city",
+  "type": "trivia",
+  "names": {
+   "de": "In welcher indischen Stadt steht das Taj Mahal?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "agra",
+     "label": "Agra"
+    },
+    {
+     "id": "mumbai",
+     "label": "Mumbai"
+    },
+    {
+     "id": "jaipur",
+     "label": "Jaipur"
+    },
+    {
+     "id": "chennai",
+     "label": "Chennai"
+    }
+   ],
+   "answer": "agra",
+   "explanation": "Das Taj Mahal wurde im 17. Jahrhundert als Mausoleum in Agra errichtet.",
+   "difficulty": 1,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/252/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:angkor-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Land liegt die Tempelstadt Angkor?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "kambodscha",
+     "label": "Kambodscha"
+    },
+    {
+     "id": "thailand",
+     "label": "Thailand"
+    },
+    {
+     "id": "vietnam",
+     "label": "Vietnam"
+    },
+    {
+     "id": "laos",
+     "label": "Laos"
+    }
+   ],
+   "answer": "kambodscha",
+   "explanation": "Angkor liegt in Kambodscha und war ein Zentrum des Khmer-Reiches.",
+   "difficulty": 1,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/668/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:petra-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Land liegt die Felsenstadt Petra?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "jordanien",
+     "label": "Jordanien"
+    },
+    {
+     "id": "agypten",
+     "label": "Ägypten"
+    },
+    {
+     "id": "libanon",
+     "label": "Libanon"
+    },
+    {
+     "id": "oman",
+     "label": "Oman"
+    }
+   ],
+   "answer": "jordanien",
+   "explanation": "Petra liegt in Jordanien und ist für seine in Fels gehauenen Bauten bekannt.",
+   "difficulty": 1,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/326/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:fuji-landform",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Art von Berg ist der Fuji in Japan?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "vulkan",
+     "label": "Vulkan"
+    },
+    {
+     "id": "koralleninsel",
+     "label": "Koralleninsel"
+    },
+    {
+     "id": "sanddune",
+     "label": "Sanddüne"
+    },
+    {
+     "id": "tafelberg-aus-kalkstein",
+     "label": "Tafelberg aus Kalkstein"
+    }
+   ],
+   "answer": "vulkan",
+   "explanation": "Der Fuji ist ein Vulkan und ein bedeutendes kulturelles Wahrzeichen Japans.",
+   "difficulty": 1,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/1418/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:highest-mountain",
+  "type": "trivia",
+  "names": {
+   "de": "Welcher Berg ist der höchste der Erde über dem Meeresspiegel?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "mount-everest",
+     "label": "Mount Everest"
+    },
+    {
+     "id": "k2",
+     "label": "K2"
+    },
+    {
+     "id": "kangchendzonga",
+     "label": "Kangchendzönga"
+    },
+    {
+     "id": "lhotse",
+     "label": "Lhotse"
+    }
+   ],
+   "answer": "mount-everest",
+   "explanation": "Der Mount Everest im Himalaya ist der höchste Gipfel über dem Meeresspiegel. Andere Maßstäbe, etwa die Höhe ab dem Fuß, ergeben andere Rekorde.",
+   "difficulty": 1,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/120/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:great-wall-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Land liegt die Große Mauer?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "china",
+     "label": "China"
+    },
+    {
+     "id": "japan",
+     "label": "Japan"
+    },
+    {
+     "id": "mongolei",
+     "label": "Mongolei"
+    },
+    {
+     "id": "sudkorea",
+     "label": "Südkorea"
+    }
+   ],
+   "answer": "china",
+   "explanation": "Die Große Mauer besteht aus zahlreichen historischen Befestigungsabschnitten in China.",
+   "difficulty": 1,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/438/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:africa-summit",
+  "type": "trivia",
+  "names": {
+   "de": "Welcher Berg ist der höchste Afrikas?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "kilimandscharo",
+     "label": "Kilimandscharo"
+    },
+    {
+     "id": "mount-kenya",
+     "label": "Mount Kenya"
+    },
+    {
+     "id": "ruwenzori",
+     "label": "Ruwenzori"
+    },
+    {
+     "id": "toubkal",
+     "label": "Toubkal"
+    }
+   ],
+   "answer": "kilimandscharo",
+   "explanation": "Der Kilimandscharo erreicht 5.895 Meter über dem Meeresspiegel und ist Afrikas höchster Berg.",
+   "difficulty": 1,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/403/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:kilimanjaro-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Land liegt der Kilimandscharo?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "tansania",
+     "label": "Tansania"
+    },
+    {
+     "id": "kenia",
+     "label": "Kenia"
+    },
+    {
+     "id": "uganda",
+     "label": "Uganda"
+    },
+    {
+     "id": "athiopien",
+     "label": "Äthiopien"
+    }
+   ],
+   "answer": "tansania",
+   "explanation": "Der Kilimandscharo liegt im Norden Tansanias nahe der Grenze zu Kenia.",
+   "difficulty": 1,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/403/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:namib-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Land liegt das UNESCO-Welterbe Namib-Sandmeer?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "namibia",
+     "label": "Namibia"
+    },
+    {
+     "id": "botswana",
+     "label": "Botswana"
+    },
+    {
+     "id": "mali",
+     "label": "Mali"
+    },
+    {
+     "id": "tschad",
+     "label": "Tschad"
+    }
+   ],
+   "answer": "namibia",
+   "explanation": "Das Namib-Sandmeer ist ein großes Dünengebiet an der Küste Namibias.",
+   "difficulty": 1,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/1430/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:namib-water",
+  "type": "trivia",
+  "names": {
+   "de": "Was ist eine wichtige Wasserquelle für die Lebewesen im Namib-Sandmeer?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "kustennebel",
+     "label": "Küstennebel"
+    },
+    {
+     "id": "tagliche-monsunregen",
+     "label": "Tägliche Monsunregen"
+    },
+    {
+     "id": "schmelzwasser-von-gletschern",
+     "label": "Schmelzwasser von Gletschern"
+    },
+    {
+     "id": "ganzjahrige-schneefalle",
+     "label": "Ganzjährige Schneefälle"
+    }
+   ],
+   "answer": "kustennebel",
+   "explanation": "Nebel liefert Feuchtigkeit in dieser sonst sehr trockenen Küstenwüste.",
+   "difficulty": 3,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/1430/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:victoria-river",
+  "type": "trivia",
+  "names": {
+   "de": "Welcher Fluss bildet die Victoriafälle?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "sambesi",
+     "label": "Sambesi"
+    },
+    {
+     "id": "nil",
+     "label": "Nil"
+    },
+    {
+     "id": "kongo",
+     "label": "Kongo"
+    },
+    {
+     "id": "niger",
+     "label": "Niger"
+    }
+   ],
+   "answer": "sambesi",
+   "explanation": "Der Sambesi stürzt an den Victoriafällen in eine Reihe von Basaltschluchten.",
+   "difficulty": 2,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/509/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:victoria-border",
+  "type": "trivia",
+  "names": {
+   "de": "Zwischen welchen Ländern liegen die Victoriafälle?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "sambia-und-simbabwe",
+     "label": "Sambia und Simbabwe"
+    },
+    {
+     "id": "kenia-und-tansania",
+     "label": "Kenia und Tansania"
+    },
+    {
+     "id": "agypten-und-sudan",
+     "label": "Ägypten und Sudan"
+    },
+    {
+     "id": "ghana-und-togo",
+     "label": "Ghana und Togo"
+    }
+   ],
+   "answer": "sambia-und-simbabwe",
+   "explanation": "Die Victoriafälle liegen am Sambesi an der Grenze von Sambia und Simbabwe.",
+   "difficulty": 2,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/509/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:suez-seas",
+  "type": "trivia",
+  "names": {
+   "de": "Welche beiden Meere verbindet der Suezkanal?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "mittelmeer-und-rotes-meer",
+     "label": "Mittelmeer und Rotes Meer"
+    },
+    {
+     "id": "schwarzes-meer-und-kaspisches-meer",
+     "label": "Schwarzes Meer und Kaspisches Meer"
+    },
+    {
+     "id": "nordsee-und-ostsee",
+     "label": "Nordsee und Ostsee"
+    },
+    {
+     "id": "arabisches-meer-und-gelbes-meer",
+     "label": "Arabisches Meer und Gelbes Meer"
+    }
+   ],
+   "answer": "mittelmeer-und-rotes-meer",
+   "explanation": "Der Suezkanal führt durch Ägypten und verbindet das Mittelmeer mit dem Roten Meer.",
+   "difficulty": 2,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "Suez Canal Authority",
+   "source_url": "https://www.suezcanal.gov.eg/English/About/SuezCanal/Pages/CanalCharacteristics.aspx",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:south-africa-capitals",
+  "type": "trivia",
+  "names": {
+   "de": "Wie viele Hauptstädte mit unterschiedlichen staatlichen Funktionen hat Südafrika?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "drei",
+     "label": "Drei"
+    },
+    {
+     "id": "eine",
+     "label": "Eine"
+    },
+    {
+     "id": "zwei",
+     "label": "Zwei"
+    },
+    {
+     "id": "vier",
+     "label": "Vier"
+    }
+   ],
+   "answer": "drei",
+   "explanation": "Pretoria ist die administrative, Kapstadt die legislative und Bloemfontein die judikative Hauptstadt.",
+   "difficulty": 2,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "Regierung Südafrikas",
+   "source_url": "https://www.gov.za/about-sa/south-africas-provinces",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:grand-canyon-river",
+  "type": "trivia",
+  "names": {
+   "de": "Welcher Fluss hat den Grand Canyon maßgeblich eingeschnitten?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "colorado",
+     "label": "Colorado"
+    },
+    {
+     "id": "mississippi",
+     "label": "Mississippi"
+    },
+    {
+     "id": "rio-grande",
+     "label": "Rio Grande"
+    },
+    {
+     "id": "yukon",
+     "label": "Yukon"
+    }
+   ],
+   "answer": "colorado",
+   "explanation": "Der Colorado River schnitt sich in das angehobene Colorado-Plateau ein und formte den Grand Canyon.",
+   "difficulty": 1,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "National Park Service",
+   "source_url": "https://www.nps.gov/grca/learn/nature/grca-geology.htm",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:grand-canyon-state",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem US-Bundesstaat liegt der Grand-Canyon-Nationalpark?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "arizona",
+     "label": "Arizona"
+    },
+    {
+     "id": "kalifornien",
+     "label": "Kalifornien"
+    },
+    {
+     "id": "florida",
+     "label": "Florida"
+    },
+    {
+     "id": "montana",
+     "label": "Montana"
+    }
+   ],
+   "answer": "arizona",
+   "explanation": "Der Grand-Canyon-Nationalpark liegt im Norden Arizonas.",
+   "difficulty": 1,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "National Park Service",
+   "source_url": "https://www.nps.gov/grca/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:denali-region",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem US-Bundesstaat liegt der Berg Mount McKinley, auch Denali genannt?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "alaska",
+     "label": "Alaska"
+    },
+    {
+     "id": "colorado",
+     "label": "Colorado"
+    },
+    {
+     "id": "washington",
+     "label": "Washington"
+    },
+    {
+     "id": "nevada",
+     "label": "Nevada"
+    }
+   ],
+   "answer": "alaska",
+   "explanation": "Nordamerikas höchster Berg liegt in der Alaska Range im US-Bundesstaat Alaska.",
+   "difficulty": 2,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "National Park Service",
+   "source_url": "https://www.nps.gov/denali/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:chichen-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Land liegt die Maya-Stätte Chichén Itzá?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "mexiko",
+     "label": "Mexiko"
+    },
+    {
+     "id": "guatemala",
+     "label": "Guatemala"
+    },
+    {
+     "id": "honduras",
+     "label": "Honduras"
+    },
+    {
+     "id": "belize",
+     "label": "Belize"
+    }
+   ],
+   "answer": "mexiko",
+   "explanation": "Chichén Itzá liegt auf der mexikanischen Halbinsel Yucatán.",
+   "difficulty": 1,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/483/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:panama-oceans",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Ozeane verbindet die Schifffahrtsroute durch den Panamakanal?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "atlantik-und-pazifik",
+     "label": "Atlantik und Pazifik"
+    },
+    {
+     "id": "atlantik-und-indischer-ozean",
+     "label": "Atlantik und Indischer Ozean"
+    },
+    {
+     "id": "pazifik-und-arktischer-ozean",
+     "label": "Pazifik und Arktischer Ozean"
+    },
+    {
+     "id": "indischer-ozean-und-arktischer-ozean",
+     "label": "Indischer Ozean und Arktischer Ozean"
+    }
+   ],
+   "answer": "atlantik-und-pazifik",
+   "explanation": "Der Kanal ermöglicht Schiffen die Passage zwischen Atlantik und Pazifik, ohne Südamerika zu umrunden.",
+   "difficulty": 1,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "Autoridad del Canal de Panamá",
+   "source_url": "https://pancanal.com/en/connectivity/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:capital-canada",
+  "type": "trivia",
+  "names": {
+   "de": "Wie heißt die Hauptstadt von Kanada?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "ottawa",
+     "label": "Ottawa"
+    },
+    {
+     "id": "toronto",
+     "label": "Toronto"
+    },
+    {
+     "id": "montreal",
+     "label": "Montréal"
+    },
+    {
+     "id": "vancouver",
+     "label": "Vancouver"
+    }
+   ],
+   "answer": "ottawa",
+   "explanation": "Ottawa ist Kanadas Hauptstadt; Toronto ist zwar größer, hat aber nicht diese Funktion.",
+   "difficulty": 1,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "Regierung Kanadas",
+   "source_url": "https://www.ourcommons.ca/procedure/procedure-et-les-usages-4/ch06-2-e.html",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:niagara-border",
+  "type": "trivia",
+  "names": {
+   "de": "An welcher Staatsgrenze liegen die Niagarafälle?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "kanada-und-usa",
+     "label": "Kanada und USA"
+    },
+    {
+     "id": "usa-und-mexiko",
+     "label": "USA und Mexiko"
+    },
+    {
+     "id": "mexiko-und-guatemala",
+     "label": "Mexiko und Guatemala"
+    },
+    {
+     "id": "kanada-und-gronland",
+     "label": "Kanada und Grönland"
+    }
+   ],
+   "answer": "kanada-und-usa",
+   "explanation": "Die Niagarafälle liegen am Niagara River zwischen der kanadischen Provinz Ontario und dem US-Bundesstaat New York.",
+   "difficulty": 2,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "Niagara Falls Tourism",
+   "source_url": "https://www.niagarafallstourism.com/sites/default/files/2024-06/general-_facts_and_history_2023.pdf",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:largest-great-lake",
+  "type": "trivia",
+  "names": {
+   "de": "Welcher der fünf Großen Seen Nordamerikas hat die größte Oberfläche?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "oberer-see",
+     "label": "Oberer See"
+    },
+    {
+     "id": "michigansee",
+     "label": "Michigansee"
+    },
+    {
+     "id": "eriesee",
+     "label": "Eriesee"
+    },
+    {
+     "id": "ontariosee",
+     "label": "Ontariosee"
+    }
+   ],
+   "answer": "oberer-see",
+   "explanation": "Der Obere See, auf Englisch Lake Superior, ist flächenmäßig der größte der fünf Großen Seen.",
+   "difficulty": 2,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "US Environmental Protection Agency",
+   "source_url": "https://www.epa.gov/greatlakes/lake-superior",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:galapagos-country",
+  "type": "trivia",
+  "names": {
+   "de": "Zu welchem Land gehören die Galápagosinseln?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "ecuador",
+     "label": "Ecuador"
+    },
+    {
+     "id": "peru",
+     "label": "Peru"
+    },
+    {
+     "id": "kolumbien",
+     "label": "Kolumbien"
+    },
+    {
+     "id": "chile",
+     "label": "Chile"
+    }
+   ],
+   "answer": "ecuador",
+   "explanation": "Die Galápagosinseln gehören zu Ecuador und liegen weit westlich des Festlands.",
+   "difficulty": 1,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/1/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:galapagos-ocean",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Ozean liegen die Galápagosinseln?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "pazifischer-ozean",
+     "label": "Pazifischer Ozean"
+    },
+    {
+     "id": "atlantischer-ozean",
+     "label": "Atlantischer Ozean"
+    },
+    {
+     "id": "indischer-ozean",
+     "label": "Indischer Ozean"
+    },
+    {
+     "id": "arktischer-ozean",
+     "label": "Arktischer Ozean"
+    }
+   ],
+   "answer": "pazifischer-ozean",
+   "explanation": "Die Galápagosinseln liegen im Pazifik, etwa 1.000 Kilometer vor der Küste Ecuadors.",
+   "difficulty": 1,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/1/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:machu-range",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Gebirge liegt Machu Picchu?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "anden",
+     "label": "Anden"
+    },
+    {
+     "id": "rocky-mountains",
+     "label": "Rocky Mountains"
+    },
+    {
+     "id": "alpen",
+     "label": "Alpen"
+    },
+    {
+     "id": "himalaya",
+     "label": "Himalaya"
+    }
+   ],
+   "answer": "anden",
+   "explanation": "Die Inka-Stätte Machu Picchu liegt in den peruanischen Anden oberhalb des Urubamba-Tals.",
+   "difficulty": 1,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/274/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:nazca-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Land befinden sich die Nazca-Linien?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "peru",
+     "label": "Peru"
+    },
+    {
+     "id": "bolivien",
+     "label": "Bolivien"
+    },
+    {
+     "id": "argentinien",
+     "label": "Argentinien"
+    },
+    {
+     "id": "venezuela",
+     "label": "Venezuela"
+    }
+   ],
+   "answer": "peru",
+   "explanation": "Die großflächigen Bodenzeichnungen liegen in einem trockenen Gebiet im Süden Perus.",
+   "difficulty": 1,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/700/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:iguazu-border",
+  "type": "trivia",
+  "names": {
+   "de": "Zwischen welchen Ländern liegen die Iguazú-Wasserfälle?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "argentinien-und-brasilien",
+     "label": "Argentinien und Brasilien"
+    },
+    {
+     "id": "peru-und-ecuador",
+     "label": "Peru und Ecuador"
+    },
+    {
+     "id": "chile-und-bolivien",
+     "label": "Chile und Bolivien"
+    },
+    {
+     "id": "kolumbien-und-venezuela",
+     "label": "Kolumbien und Venezuela"
+    }
+   ],
+   "answer": "argentinien-und-brasilien",
+   "explanation": "Die Iguazú-Wasserfälle erstrecken sich an der Grenze zwischen Argentinien und Brasilien.",
+   "difficulty": 2,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/303/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:rapa-nui-country",
+  "type": "trivia",
+  "names": {
+   "de": "Zu welchem Staat gehört Rapa Nui, die Osterinsel?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "chile",
+     "label": "Chile"
+    },
+    {
+     "id": "ecuador",
+     "label": "Ecuador"
+    },
+    {
+     "id": "peru",
+     "label": "Peru"
+    },
+    {
+     "id": "argentinien",
+     "label": "Argentinien"
+    }
+   ],
+   "answer": "chile",
+   "explanation": "Rapa Nui gehört zu Chile, liegt aber weit vom südamerikanischen Festland entfernt im Pazifik.",
+   "difficulty": 2,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/715/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:pantanal-landscape",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Landschaft ist für das Pantanal besonders kennzeichnend?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "grosses-tropisches-feuchtgebiet",
+     "label": "Großes tropisches Feuchtgebiet"
+    },
+    {
+     "id": "polare-eiswuste",
+     "label": "Polare Eiswüste"
+    },
+    {
+     "id": "hochgebirgs-gletscher",
+     "label": "Hochgebirgs-Gletscher"
+    },
+    {
+     "id": "korallenriff",
+     "label": "Korallenriff"
+    }
+   ],
+   "answer": "grosses-tropisches-feuchtgebiet",
+   "explanation": "Das Pantanal ist ein ausgedehntes tropisches Feuchtgebiet mit saisonalen Überschwemmungen.",
+   "difficulty": 2,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/999/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:los-glaciares-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Land liegt der Nationalpark Los Glaciares?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "argentinien",
+     "label": "Argentinien"
+    },
+    {
+     "id": "chile",
+     "label": "Chile"
+    },
+    {
+     "id": "peru",
+     "label": "Peru"
+    },
+    {
+     "id": "uruguay",
+     "label": "Uruguay"
+    }
+   ],
+   "answer": "argentinien",
+   "explanation": "Los Glaciares liegt im argentinischen Teil Patagoniens und umfasst große Gletscherlandschaften.",
+   "difficulty": 2,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/145/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:barrier-reef-landscape",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Landschaft bildet das Great Barrier Reef?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "ein-korallenriffsystem",
+     "label": "Ein Korallenriffsystem"
+    },
+    {
+     "id": "eine-gebirgskette",
+     "label": "Eine Gebirgskette"
+    },
+    {
+     "id": "eine-sandwuste",
+     "label": "Eine Sandwüste"
+    },
+    {
+     "id": "ein-susswasser-seegebiet",
+     "label": "Ein Süßwasser-Seegebiet"
+    }
+   ],
+   "answer": "ein-korallenriffsystem",
+   "explanation": "Das Great Barrier Reef vor Australiens Nordostküste ist das größte Korallenriffsystem der Erde.",
+   "difficulty": 1,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/154/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:barrier-reef-coast",
+  "type": "trivia",
+  "names": {
+   "de": "Vor welcher Küste Australiens liegt das Great Barrier Reef?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "nordostkuste",
+     "label": "Nordostküste"
+    },
+    {
+     "id": "sudwestkuste",
+     "label": "Südwestküste"
+    },
+    {
+     "id": "nordwestkuste",
+     "label": "Nordwestküste"
+    },
+    {
+     "id": "sudkuste",
+     "label": "Südküste"
+    }
+   ],
+   "answer": "nordostkuste",
+   "explanation": "Das Riff erstreckt sich vor der Nordostküste Australiens entlang von Queensland.",
+   "difficulty": 2,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/154/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:uluru-rock",
+  "type": "trivia",
+  "names": {
+   "de": "Aus welchem Gestein besteht Uluru überwiegend?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "sandstein",
+     "label": "Sandstein"
+    },
+    {
+     "id": "basalt",
+     "label": "Basalt"
+    },
+    {
+     "id": "marmor",
+     "label": "Marmor"
+    },
+    {
+     "id": "granit",
+     "label": "Granit"
+    }
+   ],
+   "answer": "sandstein",
+   "explanation": "Uluru besteht aus Sandstein; Erosion legte den heute sichtbaren Teil des Gesteinskörpers frei.",
+   "difficulty": 2,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "Geoscience Australia",
+   "source_url": "https://www.ga.gov.au/scientific-topics/national-location-information/landforms/significant-rock-features",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:sydney-opera-location",
+  "type": "trivia",
+  "names": {
+   "de": "An welchem australischen Hafen steht das berühmte Opernhaus?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "sydney-harbour",
+     "label": "Sydney Harbour"
+    },
+    {
+     "id": "port-of-melbourne",
+     "label": "Port of Melbourne"
+    },
+    {
+     "id": "port-of-fremantle",
+     "label": "Port of Fremantle"
+    },
+    {
+     "id": "port-of-darwin",
+     "label": "Port of Darwin"
+    }
+   ],
+   "answer": "sydney-harbour",
+   "explanation": "Das Opernhaus steht auf Bennelong Point im Hafen von Sydney.",
+   "difficulty": 1,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/166/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:tongariro-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Land liegt der vulkanische Nationalpark Tongariro?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "neuseeland",
+     "label": "Neuseeland"
+    },
+    {
+     "id": "australien",
+     "label": "Australien"
+    },
+    {
+     "id": "fidschi",
+     "label": "Fidschi"
+    },
+    {
+     "id": "papua-neuguinea",
+     "label": "Papua-Neuguinea"
+    }
+   ],
+   "answer": "neuseeland",
+   "explanation": "Tongariro liegt auf Neuseelands Nordinsel; seine Vulkane sind auch kulturell für die Māori bedeutend.",
+   "difficulty": 1,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/421/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:kuk-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Land liegt die frühe Agrarlandschaft von Kuk?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "papua-neuguinea",
+     "label": "Papua-Neuguinea"
+    },
+    {
+     "id": "neuseeland",
+     "label": "Neuseeland"
+    },
+    {
+     "id": "samoa",
+     "label": "Samoa"
+    },
+    {
+     "id": "vanuatu",
+     "label": "Vanuatu"
+    }
+   ],
+   "answer": "papua-neuguinea",
+   "explanation": "Kuk liegt im Hochland Papua-Neuguineas und dokumentiert eine lange Geschichte der Landwirtschaft.",
+   "difficulty": 3,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/887/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:levuka-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Inselstaat liegt die historische Hafenstadt Levuka?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "fidschi",
+     "label": "Fidschi"
+    },
+    {
+     "id": "tonga",
+     "label": "Tonga"
+    },
+    {
+     "id": "samoa",
+     "label": "Samoa"
+    },
+    {
+     "id": "kiribati",
+     "label": "Kiribati"
+    }
+   ],
+   "answer": "fidschi",
+   "explanation": "Levuka liegt auf Ovalau in Fidschi und war eine frühere Hauptstadt des Landes.",
+   "difficulty": 2,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/1399/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:nan-madol-landscape",
+  "type": "trivia",
+  "names": {
+   "de": "Worauf wurden die Bauten von Nan Madol errichtet?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "auf-kunstlichen-inseln",
+     "label": "Auf künstlichen Inseln"
+    },
+    {
+     "id": "auf-schwimmenden-holzplattformen",
+     "label": "Auf schwimmenden Holzplattformen"
+    },
+    {
+     "id": "auf-einem-gletscher",
+     "label": "Auf einem Gletscher"
+    },
+    {
+     "id": "in-einem-vulkankrater",
+     "label": "In einem Vulkankrater"
+    }
+   ],
+   "answer": "auf-kunstlichen-inseln",
+   "explanation": "Nan Madol besteht aus künstlichen Inseln mit Basaltbauten vor Pohnpei in den Föderierten Staaten von Mikronesien.",
+   "difficulty": 3,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "UNESCO-Welterbe",
+   "source_url": "https://whc.unesco.org/en/list/1503/",
+   "last_updated": "2026-10-14",
+   "imported_at": "2026-10-14"
+  }
+ },
+ {
+  "id": "trivia:seasons-axis",
+  "type": "trivia",
+  "names": {
+   "de": "Was verursacht vor allem die Jahreszeiten auf der Erde?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "die-neigung-der-erdachse",
+     "label": "Die Neigung der Erdachse"
+    },
+    {
+     "id": "die-wechselnde-entfernung-zum-mond",
+     "label": "Die wechselnde Entfernung zum Mond"
+    },
+    {
+     "id": "die-gezeiten-der-ozeane",
+     "label": "Die Gezeiten der Ozeane"
+    },
+    {
+     "id": "die-wanderung-der-kontinente",
+     "label": "Die Wanderung der Kontinente"
+    }
+   ],
+   "answer": "die-neigung-der-erdachse",
+   "explanation": "Die geneigte Erdachse verändert im Jahreslauf den Einfallswinkel der Sonnenstrahlen und die Tageslänge.",
+   "difficulty": 1
+  },
+  "provenance": {
+   "source": "NASA",
+   "source_url": "https://science.nasa.gov/earth/facts/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:day-night-rotation",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Bewegung der Erde bewirkt den Wechsel von Tag und Nacht?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "die-drehung-um-die-eigene-achse",
+     "label": "Die Drehung um die eigene Achse"
+    },
+    {
+     "id": "der-umlauf-um-den-mond",
+     "label": "Der Umlauf um den Mond"
+    },
+    {
+     "id": "die-verschiebung-der-erdplatten",
+     "label": "Die Verschiebung der Erdplatten"
+    },
+    {
+     "id": "der-umlauf-um-die-milchstrasse",
+     "label": "Der Umlauf um die Milchstraße"
+    }
+   ],
+   "answer": "die-drehung-um-die-eigene-achse",
+   "explanation": "Während die Erde rotiert, wenden sich ihre Regionen der Sonne zu und wieder von ihr ab.",
+   "difficulty": 1
+  },
+  "provenance": {
+   "source": "NASA",
+   "source_url": "https://science.nasa.gov/earth/facts/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:earth-solar-order",
+  "type": "trivia",
+  "names": {
+   "de": "An welcher Stelle steht die Erde von der Sonne aus gezählt?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "an-dritter-stelle",
+     "label": "An dritter Stelle"
+    },
+    {
+     "id": "an-erster-stelle",
+     "label": "An erster Stelle"
+    },
+    {
+     "id": "an-funfter-stelle",
+     "label": "An fünfter Stelle"
+    },
+    {
+     "id": "an-achter-stelle",
+     "label": "An achter Stelle"
+    }
+   ],
+   "answer": "an-dritter-stelle",
+   "explanation": "Merkur und Venus liegen näher an der Sonne. Danach folgt die Erde als dritter Planet.",
+   "difficulty": 1
+  },
+  "provenance": {
+   "source": "NASA",
+   "source_url": "https://science.nasa.gov/earth/facts/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:tides-moon",
+  "type": "trivia",
+  "names": {
+   "de": "Welcher Himmelskörper übt den stärkeren gezeitenerzeugenden Einfluss auf die Erde aus?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "der-mond",
+     "label": "Der Mond"
+    },
+    {
+     "id": "die-sonne",
+     "label": "Die Sonne"
+    },
+    {
+     "id": "der-jupiter",
+     "label": "Der Jupiter"
+    },
+    {
+     "id": "die-venus",
+     "label": "Die Venus"
+    }
+   ],
+   "answer": "der-mond",
+   "explanation": "Die Nähe des Mondes macht seinen gezeitenerzeugenden Einfluss besonders stark. Auch die Sonne trägt zu den Gezeiten bei.",
+   "difficulty": 2
+  },
+  "provenance": {
+   "source": "NOAA",
+   "source_url": "https://www.noaa.gov/jetstream/ocean/tides",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:brackish-water",
+  "type": "trivia",
+  "names": {
+   "de": "Was ist Brackwasser?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "eine-mischung-aus-suss-und-salzwasser",
+     "label": "Eine Mischung aus Süß- und Salzwasser"
+    },
+    {
+     "id": "wasser-mit-hoherem-salzgehalt-als-gewohnliches-meerwasser",
+     "label": "Wasser mit höherem Salzgehalt als gewöhnliches Meerwasser"
+    },
+    {
+     "id": "vollstandig-salzfreies-wasser",
+     "label": "Vollständig salzfreies Wasser"
+    },
+    {
+     "id": "wasser-das-ausschliesslich-aus-gletschereis-stammt",
+     "label": "Wasser, das ausschließlich aus Gletschereis stammt"
+    }
+   ],
+   "answer": "eine-mischung-aus-suss-und-salzwasser",
+   "explanation": "Brackwasser entsteht häufig dort, wo Flusswasser auf Meerwasser trifft, etwa in vielen Flussmündungen.",
+   "difficulty": 1
+  },
+  "provenance": {
+   "source": "NOAA",
+   "source_url": "https://oceanservice.noaa.gov/education/tutorial_estuaries/est01_whatis.html",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:ocean-salinity",
+  "type": "trivia",
+  "names": {
+   "de": "Welchem ungefähren Salzgehalt entspricht durchschnittliches Meerwasser?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "35-gramm-salz-pro-kilogramm-meerwasser",
+     "label": "35 Gramm Salz pro Kilogramm Meerwasser"
+    },
+    {
+     "id": "0-35-gramm-salz-pro-kilogramm-meerwasser",
+     "label": "0,35 Gramm Salz pro Kilogramm Meerwasser"
+    },
+    {
+     "id": "350-gramm-salz-pro-kilogramm-meerwasser",
+     "label": "350 Gramm Salz pro Kilogramm Meerwasser"
+    },
+    {
+     "id": "700-gramm-salz-pro-kilogramm-meerwasser",
+     "label": "700 Gramm Salz pro Kilogramm Meerwasser"
+    }
+   ],
+   "answer": "35-gramm-salz-pro-kilogramm-meerwasser",
+   "explanation": "Der mittlere Salzgehalt liegt ungefähr bei 35 Promille. Je nach Meeresgebiet kann er deutlich abweichen.",
+   "difficulty": 2
+  },
+  "provenance": {
+   "source": "NOAA",
+   "source_url": "https://oceanservice.noaa.gov/education/tutorial_estuaries/est01_whatis.html",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:freshwater-ice",
+  "type": "trivia",
+  "names": {
+   "de": "Wo ist der größte Teil des Süßwassers der Erde gespeichert?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "in-gletschern-und-eisschilden",
+     "label": "In Gletschern und Eisschilden"
+    },
+    {
+     "id": "in-flussen",
+     "label": "In Flüssen"
+    },
+    {
+     "id": "in-wolken",
+     "label": "In Wolken"
+    },
+    {
+     "id": "in-den-korpern-von-lebewesen",
+     "label": "In den Körpern von Lebewesen"
+    }
+   ],
+   "answer": "in-gletschern-und-eisschilden",
+   "explanation": "Gletscher und Eisschilde bilden den größten Süßwasserspeicher der Erde; große Mengen liegen außerdem im Grundwasser.",
+   "difficulty": 2
+  },
+  "provenance": {
+   "source": "USGS",
+   "source_url": "https://www.usgs.gov/faqs/how-much-earths-water-stored-glaciers",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:aquifer-definition",
+  "type": "trivia",
+  "names": {
+   "de": "Was bezeichnet man als Aquifer?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "eine-grundwasserfuhrende-durchlassige-gesteinsschicht",
+     "label": "Eine grundwasserführende, durchlässige Gesteinsschicht"
+    },
+    {
+     "id": "eine-grenze-zwischen-erdplatten",
+     "label": "Eine Grenze zwischen Erdplatten"
+    },
+    {
+     "id": "ein-durch-erosion-entstandenes-flusstal",
+     "label": "Ein durch Erosion entstandenes Flusstal"
+    },
+    {
+     "id": "einen-kunstlichen-speichersee-im-gebirge",
+     "label": "Einen künstlichen Speichersee im Gebirge"
+    }
+   ],
+   "answer": "eine-grundwasserfuhrende-durchlassige-gesteinsschicht",
+   "explanation": "Ein Aquifer speichert und leitet Grundwasser in Poren oder Klüften von durchlässigem Gestein beziehungsweise Lockermaterial.",
+   "difficulty": 3
+  },
+  "provenance": {
+   "source": "USGS",
+   "source_url": "https://www.usgs.gov/water-science-school/science/water-science-glossary",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:contour-line",
+  "type": "trivia",
+  "names": {
+   "de": "Was verbinden Höhenlinien auf einer topografischen Karte?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "punkte-gleicher-hohe",
+     "label": "Punkte gleicher Höhe"
+    },
+    {
+     "id": "orte-mit-gleicher-einwohnerzahl",
+     "label": "Orte mit gleicher Einwohnerzahl"
+    },
+    {
+     "id": "punkte-gleicher-temperatur",
+     "label": "Punkte gleicher Temperatur"
+    },
+    {
+     "id": "orte-mit-gleicher-zeitzone",
+     "label": "Orte mit gleicher Zeitzone"
+    }
+   ],
+   "answer": "punkte-gleicher-hohe",
+   "explanation": "Höhenlinien verbinden Punkte mit derselben Höhe über einer Bezugsfläche, meist dem mittleren Meeresspiegel.",
+   "difficulty": 2
+  },
+  "provenance": {
+   "source": "USGS",
+   "source_url": "https://www.usgs.gov/ngp-standards-and-specifications/us-topo-cartographic-specifications-map-symbol-guide",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:contour-steepness",
+  "type": "trivia",
+  "names": {
+   "de": "Was zeigen eng beieinanderliegende Höhenlinien bei gleichem Höhenlinienabstand an?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "einen-steilen-hang",
+     "label": "Einen steilen Hang"
+    },
+    {
+     "id": "eine-besonders-flache-ebene",
+     "label": "Eine besonders flache Ebene"
+    },
+    {
+     "id": "eine-staatsgrenze",
+     "label": "Eine Staatsgrenze"
+    },
+    {
+     "id": "ein-gebiet-ohne-hohenunterschiede",
+     "label": "Ein Gebiet ohne Höhenunterschiede"
+    }
+   ],
+   "answer": "einen-steilen-hang",
+   "explanation": "Wenn derselbe Höhenunterschied auf kurzer horizontaler Strecke überwunden wird, ist das Gelände steil.",
+   "difficulty": 2
+  },
+  "provenance": {
+   "source": "USGS",
+   "source_url": "https://www.usgs.gov/ngp-standards-and-specifications/us-topo-cartographic-specifications-map-symbol-guide",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:hurricane-typhoon",
+  "type": "trivia",
+  "names": {
+   "de": "Worin unterscheiden sich die Bezeichnungen Hurrikan und Taifun hauptsächlich?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "im-geografischen-entstehungsgebiet",
+     "label": "Im geografischen Entstehungsgebiet"
+    },
+    {
+     "id": "in-ihrer-grundsatzlichen-entstehungsursache",
+     "label": "In ihrer grundsätzlichen Entstehungsursache"
+    },
+    {
+     "id": "darin-ob-sie-uber-land-oder-wasser-entstehen",
+     "label": "Darin, ob sie über Land oder Wasser entstehen"
+    },
+    {
+     "id": "darin-ob-sie-ein-windarmes-auge-ausbilden",
+     "label": "Darin, ob sie ein windarmes Auge ausbilden"
+    }
+   ],
+   "answer": "im-geografischen-entstehungsgebiet",
+   "explanation": "Beide sind tropische Wirbelstürme. Im Nordwestpazifik spricht man von Taifunen, im Nordatlantik von Hurrikanen.",
+   "difficulty": 2
+  },
+  "provenance": {
+   "source": "NOAA",
+   "source_url": "https://oceanservice.noaa.gov/facts/cyclone.html",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:lava-surface",
+  "type": "trivia",
+  "names": {
+   "de": "Wie heißt geschmolzenes Gestein, sobald es an die Erdoberfläche tritt?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "lava",
+     "label": "Lava"
+    },
+    {
+     "id": "magma",
+     "label": "Magma"
+    },
+    {
+     "id": "granit",
+     "label": "Granit"
+    },
+    {
+     "id": "loss",
+     "label": "Löss"
+    }
+   ],
+   "answer": "lava",
+   "explanation": "Unter der Erdoberfläche heißt die Gesteinsschmelze Magma. An der Oberfläche bezeichnet man sie als Lava.",
+   "difficulty": 1
+  },
+  "provenance": {
+   "source": "USGS",
+   "source_url": "https://www.usgs.gov/faqs/what-difference-between-magma-and-lava",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:wadden-three-countries",
+  "type": "trivia",
+  "names": {
+   "de": "Über welche drei Länder erstreckt sich das UNESCO-Welterbe Wattenmeer?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "niederlande-deutschland-und-danemark",
+     "label": "Niederlande, Deutschland und Dänemark"
+    },
+    {
+     "id": "frankreich-belgien-und-spanien",
+     "label": "Frankreich, Belgien und Spanien"
+    },
+    {
+     "id": "polen-litauen-und-lettland",
+     "label": "Polen, Litauen und Lettland"
+    },
+    {
+     "id": "norwegen-schweden-und-finnland",
+     "label": "Norwegen, Schweden und Finnland"
+    }
+   ],
+   "answer": "niederlande-deutschland-und-danemark",
+   "explanation": "Das Welterbe umfasst Wattenmeergebiete der Niederlande, Deutschlands und Dänemarks mit ihren gezeitengeprägten Lebensräumen.",
+   "difficulty": 2,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/1314/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:dolomites-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Land liegen die zum UNESCO-Welterbe gehörenden Dolomiten?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "italien",
+     "label": "Italien"
+    },
+    {
+     "id": "spanien",
+     "label": "Spanien"
+    },
+    {
+     "id": "norwegen",
+     "label": "Norwegen"
+    },
+    {
+     "id": "polen",
+     "label": "Polen"
+    }
+   ],
+   "answer": "italien",
+   "explanation": "Die Dolomiten sind eine Gebirgsgruppe der nördlichen italienischen Alpen mit markanten Felswänden und Gipfeln.",
+   "difficulty": 1,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/1237/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:plitvice-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Land liegen die Plitvicer Seen?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "kroatien",
+     "label": "Kroatien"
+    },
+    {
+     "id": "slowenien",
+     "label": "Slowenien"
+    },
+    {
+     "id": "montenegro",
+     "label": "Montenegro"
+    },
+    {
+     "id": "albanien",
+     "label": "Albanien"
+    }
+   ],
+   "answer": "kroatien",
+   "explanation": "Die Plitvicer Seen liegen in Kroatien. Wasserfälle und natürliche Kalkbarrieren verbinden die einzelnen Seen.",
+   "difficulty": 1,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/98/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:plitvice-barriers",
+  "type": "trivia",
+  "names": {
+   "de": "Welches Material bildet die natürlichen Barrieren zwischen den Plitvicer Seen?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "abgelagerter-kalk-sogenannter-travertin",
+     "label": "Abgelagerter Kalk, sogenannter Travertin"
+    },
+    {
+     "id": "erstarrte-basaltlava",
+     "label": "Erstarrte Basaltlava"
+    },
+    {
+     "id": "vom-meer-angeschwemmte-korallen",
+     "label": "Vom Meer angeschwemmte Korallen"
+    },
+    {
+     "id": "dauerhaftes-gletschereis",
+     "label": "Dauerhaftes Gletschereis"
+    }
+   ],
+   "answer": "abgelagerter-kalk-sogenannter-travertin",
+   "explanation": "Aus dem Wasser ausgefällter Kalk baut Travertinbarrieren auf. Dadurch entstehen natürliche Dämme und Wasserfälle.",
+   "difficulty": 3,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/98/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:danube-outlet",
+  "type": "trivia",
+  "names": {
+   "de": "In welches Meer mündet die Donau?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "schwarzes-meer",
+     "label": "Schwarzes Meer"
+    },
+    {
+     "id": "ostsee",
+     "label": "Ostsee"
+    },
+    {
+     "id": "adriatisches-meer",
+     "label": "Adriatisches Meer"
+    },
+    {
+     "id": "kaspisches-meer",
+     "label": "Kaspisches Meer"
+    }
+   ],
+   "answer": "schwarzes-meer",
+   "explanation": "Die Donau erreicht das Schwarze Meer durch ihr weit verzweigtes Delta mit Seen, Schilfflächen und Sümpfen.",
+   "difficulty": 1,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/588/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:surtsey-origin",
+  "type": "trivia",
+  "names": {
+   "de": "Wie entstand die isländische Insel Surtsey in den 1960er-Jahren?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "durch-vulkanausbruche",
+     "label": "Durch Vulkanausbrüche"
+    },
+    {
+     "id": "durch-ablagerungen-eines-grossen-flusses",
+     "label": "Durch Ablagerungen eines großen Flusses"
+    },
+    {
+     "id": "durch-die-hebung-eines-korallenriffs",
+     "label": "Durch die Hebung eines Korallenriffs"
+    },
+    {
+     "id": "durch-kunstliche-landaufschuttung",
+     "label": "Durch künstliche Landaufschüttung"
+    }
+   ],
+   "answer": "durch-vulkanausbruche",
+   "explanation": "Vulkanausbrüche zwischen 1963 und 1967 schufen Surtsey. Die Insel dient der Erforschung der Besiedlung neuen Landes.",
+   "difficulty": 2,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/1267/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:aletsch-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Land liegt das UNESCO-Welterbe Jungfrau-Aletsch?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "schweiz",
+     "label": "Schweiz"
+    },
+    {
+     "id": "osterreich",
+     "label": "Österreich"
+    },
+    {
+     "id": "frankreich",
+     "label": "Frankreich"
+    },
+    {
+     "id": "slowakei",
+     "label": "Slowakei"
+    }
+   ],
+   "answer": "schweiz",
+   "explanation": "Das Schweizer Welterbe Jungfrau-Aletsch schützt eine Hochgebirgslandschaft mit großen Gletschern und markanten Alpengipfeln.",
+   "difficulty": 2,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/1037/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:mont-saint-michel-tides",
+  "type": "trivia",
+  "names": {
+   "de": "Welches Naturphänomen prägt die Bucht von Mont-Saint-Michel besonders?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "starke-gezeiten",
+     "label": "Starke Gezeiten"
+    },
+    {
+     "id": "gletscherbewegungen",
+     "label": "Gletscherbewegungen"
+    },
+    {
+     "id": "vulkanische-hebung",
+     "label": "Vulkanische Hebung"
+    },
+    {
+     "id": "jahrliche-flussuberschwemmungen",
+     "label": "Jährliche Flussüberschwemmungen"
+    }
+   ],
+   "answer": "starke-gezeiten",
+   "explanation": "Die Bucht ist von starken Gezeiten und weiten Sandflächen geprägt. Auf der Felseninsel stehen Abtei und Siedlung.",
+   "difficulty": 2,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/80/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:alhambra-city",
+  "type": "trivia",
+  "names": {
+   "de": "In welcher spanischen Stadt steht die Alhambra?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "granada",
+     "label": "Granada"
+    },
+    {
+     "id": "barcelona",
+     "label": "Barcelona"
+    },
+    {
+     "id": "bilbao",
+     "label": "Bilbao"
+    },
+    {
+     "id": "valencia",
+     "label": "Valencia"
+    }
+   ],
+   "answer": "granada",
+   "explanation": "Die Alhambra liegt auf einem Hügel über Granada. Zum Welterbe gehören auch Generalife und das Viertel Albayzín.",
+   "difficulty": 1,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/314/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:budapest-river",
+  "type": "trivia",
+  "names": {
+   "de": "Welcher Fluss durchquert Budapest und trennt Buda von Pest?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "donau",
+     "label": "Donau"
+    },
+    {
+     "id": "rhein",
+     "label": "Rhein"
+    },
+    {
+     "id": "seine",
+     "label": "Seine"
+    },
+    {
+     "id": "weichsel",
+     "label": "Weichsel"
+    }
+   ],
+   "answer": "donau",
+   "explanation": "Buda und Pest liegen an den Ufern der Donau. Teile dieser Uferlandschaft gehören zum UNESCO-Welterbe.",
+   "difficulty": 1,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/400/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:stonehenge-monument",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Art von Bauwerk ist Stonehenge?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "ein-prahistorischer-steinkreis",
+     "label": "Ein prähistorischer Steinkreis"
+    },
+    {
+     "id": "ein-romisches-amphitheater",
+     "label": "Ein römisches Amphitheater"
+    },
+    {
+     "id": "eine-mittelalterliche-hafenmauer",
+     "label": "Eine mittelalterliche Hafenmauer"
+    },
+    {
+     "id": "eine-agyptische-stufenpyramide",
+     "label": "Eine ägyptische Stufenpyramide"
+    }
+   ],
+   "answer": "ein-prahistorischer-steinkreis",
+   "explanation": "Stonehenge gehört zu den berühmten vorgeschichtlichen Megalithanlagen in Wiltshire im Süden Englands.",
+   "difficulty": 1,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/373/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:meteora-rocks",
+  "type": "trivia",
+  "names": {
+   "de": "Wofür sind die Klöster von Meteora besonders bekannt?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "fur-ihre-lage-auf-hohen-felsformationen",
+     "label": "Für ihre Lage auf hohen Felsformationen"
+    },
+    {
+     "id": "fur-ihre-lage-unter-dem-meeresspiegel",
+     "label": "Für ihre Lage unter dem Meeresspiegel"
+    },
+    {
+     "id": "fur-ihre-vollstandig-schwimmenden-fundamente",
+     "label": "Für ihre vollständig schwimmenden Fundamente"
+    },
+    {
+     "id": "fur-ihre-bauweise-aus-gletschereis",
+     "label": "Für ihre Bauweise aus Gletschereis"
+    }
+   ],
+   "answer": "fur-ihre-lage-auf-hohen-felsformationen",
+   "explanation": "Die Klöster von Meteora wurden auf schwer zugänglichen Sandsteinfelsen errichtet und prägen diese griechische Landschaft.",
+   "difficulty": 2,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/455/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:pont-du-gard-purpose",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Aufgabe erfüllte der Pont du Gard ursprünglich?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "er-fuhrte-eine-wasserleitung-uber-ein-flusstal",
+     "label": "Er führte eine Wasserleitung über ein Flusstal"
+    },
+    {
+     "id": "er-diente-als-stadtbefestigung",
+     "label": "Er diente als Stadtbefestigung"
+    },
+    {
+     "id": "er-trug-eine-romische-rennbahn",
+     "label": "Er trug eine römische Rennbahn"
+    },
+    {
+     "id": "er-war-ein-teil-einer-hafenmole",
+     "label": "Er war ein Teil einer Hafenmole"
+    }
+   ],
+   "answer": "er-fuhrte-eine-wasserleitung-uber-ein-flusstal",
+   "explanation": "Der römische Pont du Gard ist Teil eines Aquädukts, das Wasser zur Stadt Nîmes leitete.",
+   "difficulty": 2,
+   "continent": "europe"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/344/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:sundarbans-forest",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Waldform ist für die Sundarbans besonders typisch?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "mangrovenwald",
+     "label": "Mangrovenwald"
+    },
+    {
+     "id": "borealer-nadelwald",
+     "label": "Borealer Nadelwald"
+    },
+    {
+     "id": "alpiner-larchenwald",
+     "label": "Alpiner Lärchenwald"
+    },
+    {
+     "id": "mediterraner-hartlaubwald",
+     "label": "Mediterraner Hartlaubwald"
+    }
+   ],
+   "answer": "mangrovenwald",
+   "explanation": "Die Sundarbans bestehen aus salztoleranten Mangrovenwäldern, die von vielen gezeitenabhängigen Wasserarmen durchzogen werden.",
+   "difficulty": 2,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/798/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:sundarbans-delta",
+  "type": "trivia",
+  "names": {
+   "de": "Im Delta welcher drei Flüsse liegen die Sundarbans?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "ganges-brahmaputra-und-meghna",
+     "label": "Ganges, Brahmaputra und Meghna"
+    },
+    {
+     "id": "indus-amudarja-und-syrdarja",
+     "label": "Indus, Amudarja und Syrdarja"
+    },
+    {
+     "id": "mekong-saluen-und-irrawaddy",
+     "label": "Mekong, Saluen und Irrawaddy"
+    },
+    {
+     "id": "tigris-euphrat-und-jordan",
+     "label": "Tigris, Euphrat und Jordan"
+    }
+   ],
+   "answer": "ganges-brahmaputra-und-meghna",
+   "explanation": "Ganges, Brahmaputra und Meghna bilden am Golf von Bengalen ein ausgedehntes Deltagebiet mit den Sundarbans.",
+   "difficulty": 3,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/798/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:konark-sun",
+  "type": "trivia",
+  "names": {
+   "de": "Welcher Gottheit ist der Sonnentempel von Konark gewidmet?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "dem-sonnengott-surya",
+     "label": "Dem Sonnengott Surya"
+    },
+    {
+     "id": "dem-meeresgott-poseidon",
+     "label": "Dem Meeresgott Poseidon"
+    },
+    {
+     "id": "dem-donnergott-thor",
+     "label": "Dem Donnergott Thor"
+    },
+    {
+     "id": "dem-totengott-anubis",
+     "label": "Dem Totengott Anubis"
+    }
+   ],
+   "answer": "dem-sonnengott-surya",
+   "explanation": "Der Tempel in Konark stellt den Wagen des hinduistischen Sonnengottes Surya mit monumentalen steinernen Rädern dar.",
+   "difficulty": 2,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/246/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:shibam-material",
+  "type": "trivia",
+  "names": {
+   "de": "Aus welchem Material bestehen die berühmten historischen Turmhäuser von Shibam überwiegend?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "sonnengetrockneten-lehmziegeln",
+     "label": "Sonnengetrockneten Lehmziegeln"
+    },
+    {
+     "id": "behauenen-marmorblocken",
+     "label": "Behauenen Marmorblöcken"
+    },
+    {
+     "id": "geschnitzten-holzstammen",
+     "label": "Geschnitzten Holzstämmen"
+    },
+    {
+     "id": "gegossenen-betonplatten",
+     "label": "Gegossenen Betonplatten"
+    }
+   ],
+   "answer": "sonnengetrockneten-lehmziegeln",
+   "explanation": "Die mehrgeschossigen Turmhäuser Shibams sind aus sonnengetrockneten Lehmziegeln gebaut und zeigen eine alte Form verdichteten Städtebaus.",
+   "difficulty": 2,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/192/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:shibam-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Land liegt die historische Hochhausstadt Shibam im Wadi Hadramaut?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "jemen",
+     "label": "Jemen"
+    },
+    {
+     "id": "oman",
+     "label": "Oman"
+    },
+    {
+     "id": "jordanien",
+     "label": "Jordanien"
+    },
+    {
+     "id": "marokko",
+     "label": "Marokko"
+    }
+   ],
+   "answer": "jemen",
+   "explanation": "Shibam liegt im jemenitischen Hadramaut. Seine hohen Lehmbauten brachten dem Ort den Beinamen Manhattan der Wüste ein.",
+   "difficulty": 2,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/192/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:hoh-xil-antelope",
+  "type": "trivia",
+  "names": {
+   "de": "Für welches wandernde Säugetier schützt das Welterbe Hoh Xil wichtige Routen?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "die-tibetantilope",
+     "label": "Die Tibetantilope"
+    },
+    {
+     "id": "das-afrikanische-gnu",
+     "label": "Das afrikanische Gnu"
+    },
+    {
+     "id": "das-sudamerikanische-guanako",
+     "label": "Das südamerikanische Guanako"
+    },
+    {
+     "id": "das-australische-kanguru",
+     "label": "Das australische Känguru"
+    }
+   ],
+   "answer": "die-tibetantilope",
+   "explanation": "Hoh Xil schützt die Wanderwege der Tibetantilope, die an das kalte und hoch gelegene tibetische Plateau angepasst ist.",
+   "difficulty": 3,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/1540/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:hoh-xil-plateau",
+  "type": "trivia",
+  "names": {
+   "de": "Auf welchem Hochland liegt das chinesische Schutzgebiet Hoh Xil?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "dem-tibetischen-hochland",
+     "label": "Dem tibetischen Hochland"
+    },
+    {
+     "id": "dem-dekkan",
+     "label": "Dem Dekkan"
+    },
+    {
+     "id": "dem-iranischen-hochland",
+     "label": "Dem iranischen Hochland"
+    },
+    {
+     "id": "dem-anatolischen-hochland",
+     "label": "Dem anatolischen Hochland"
+    }
+   ],
+   "answer": "dem-tibetischen-hochland",
+   "explanation": "Hoh Xil liegt im Nordosten des Qinghai-Tibet-Plateaus, in einer kalten Hochgebirgs- und Steppenlandschaft.",
+   "difficulty": 2,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/1540/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:borobudur-religion",
+  "type": "trivia",
+  "names": {
+   "de": "Mit welcher Religion ist die Tempelanlage Borobudur historisch verbunden?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "buddhismus",
+     "label": "Buddhismus"
+    },
+    {
+     "id": "christentum",
+     "label": "Christentum"
+    },
+    {
+     "id": "judentum",
+     "label": "Judentum"
+    },
+    {
+     "id": "shintoismus",
+     "label": "Shintoismus"
+    }
+   ],
+   "answer": "buddhismus",
+   "explanation": "Borobudur ist eine buddhistische Tempelanlage aus dem 8. und 9. Jahrhundert mit zahlreichen Stupas und Buddhafiguren.",
+   "difficulty": 2,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/592/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:borobudur-island",
+  "type": "trivia",
+  "names": {
+   "de": "Auf welcher indonesischen Insel steht Borobudur?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "java",
+     "label": "Java"
+    },
+    {
+     "id": "bali",
+     "label": "Bali"
+    },
+    {
+     "id": "sumatra",
+     "label": "Sumatra"
+    },
+    {
+     "id": "sulawesi",
+     "label": "Sulawesi"
+    }
+   ],
+   "answer": "java",
+   "explanation": "Die Tempelanlage Borobudur befindet sich im zentralen Teil der indonesischen Insel Java.",
+   "difficulty": 2,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/592/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:ha-long-karst",
+  "type": "trivia",
+  "names": {
+   "de": "Aus welchem Gestein bestehen die markanten Karstinseln der Ha-Long-Bucht hauptsächlich?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "kalkstein",
+     "label": "Kalkstein"
+    },
+    {
+     "id": "granit",
+     "label": "Granit"
+    },
+    {
+     "id": "basalt",
+     "label": "Basalt"
+    },
+    {
+     "id": "steinsalz",
+     "label": "Steinsalz"
+    }
+   ],
+   "answer": "kalkstein",
+   "explanation": "Die Ha-Long-Bucht und der Cat-Ba-Archipel zeigen vom Meer überflutete Karstlandschaften mit zahlreichen Kalksteininseln.",
+   "difficulty": 2,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/672/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:bagan-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Land liegt die Tempellandschaft Bagan am Irrawaddy?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "myanmar",
+     "label": "Myanmar"
+    },
+    {
+     "id": "thailand",
+     "label": "Thailand"
+    },
+    {
+     "id": "laos",
+     "label": "Laos"
+    },
+    {
+     "id": "nepal",
+     "label": "Nepal"
+    }
+   ],
+   "answer": "myanmar",
+   "explanation": "Bagan liegt in der zentralen Ebene Myanmars an einer Flussbiegung des Ayeyarwady, auch Irrawaddy genannt.",
+   "difficulty": 1,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/1588/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:trang-an-capital",
+  "type": "trivia",
+  "names": {
+   "de": "Welche frühere vietnamesische Hauptstadt gehört zur Kulturlandschaft Trang An?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "hoa-lu",
+     "label": "Hoa Lu"
+    },
+    {
+     "id": "luang-prabang",
+     "label": "Luang Prabang"
+    },
+    {
+     "id": "ayutthaya",
+     "label": "Ayutthaya"
+    },
+    {
+     "id": "sukhothai",
+     "label": "Sukhothai"
+    }
+   ],
+   "answer": "hoa-lu",
+   "explanation": "Hoa Lu war im 10. und 11. Jahrhundert eine Hauptstadt Vietnams. Ihre Lage nutzte den natürlichen Schutz der Karstlandschaft.",
+   "difficulty": 3,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/1438/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:india-population-2026",
+  "type": "trivia",
+  "names": {
+   "de": "Welches Land hat laut mittlerer UN-Bevölkerungsprojektion für 2026 die meisten Einwohner?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "indien",
+     "label": "Indien"
+    },
+    {
+     "id": "china",
+     "label": "China"
+    },
+    {
+     "id": "vereinigte-staaten",
+     "label": "Vereinigte Staaten"
+    },
+    {
+     "id": "indonesien",
+     "label": "Indonesien"
+    }
+   ],
+   "answer": "indien",
+   "explanation": "Die mittlere UN-Projektion zum 1. Juli 2026 setzt Indien mit rund 1,477 Milliarden vor China mit rund 1,413 Milliarden Menschen.",
+   "difficulty": 1,
+   "continent": "asia"
+  },
+  "provenance": {
+   "source": "UN World Population Prospects 2024",
+   "source_url": "https://population.un.org/wpp/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:okavango-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Land liegt das Okavangodelta?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "botswana",
+     "label": "Botswana"
+    },
+    {
+     "id": "kenia",
+     "label": "Kenia"
+    },
+    {
+     "id": "mosambik",
+     "label": "Mosambik"
+    },
+    {
+     "id": "ghana",
+     "label": "Ghana"
+    }
+   ],
+   "answer": "botswana",
+   "explanation": "Das Okavangodelta liegt im Nordwesten Botswanas und umfasst dauerhaft feuchte Gebiete sowie saisonal überflutete Ebenen.",
+   "difficulty": 1,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/1432/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:okavango-inland",
+  "type": "trivia",
+  "names": {
+   "de": "Was ist am Okavangodelta hydrologisch besonders?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "es-ist-ein-binnendelta-ohne-abfluss-ins-meer",
+     "label": "Es ist ein Binnendelta ohne Abfluss ins Meer"
+    },
+    {
+     "id": "es-mundet-direkt-in-den-atlantik",
+     "label": "Es mündet direkt in den Atlantik"
+    },
+    {
+     "id": "es-besteht-vollstandig-aus-salzwasser",
+     "label": "Es besteht vollständig aus Salzwasser"
+    },
+    {
+     "id": "es-wird-ausschliesslich-von-gletschern-gespeist",
+     "label": "Es wird ausschließlich von Gletschern gespeist"
+    }
+   ],
+   "answer": "es-ist-ein-binnendelta-ohne-abfluss-ins-meer",
+   "explanation": "Der Okavango verteilt sein Wasser im Landesinneren. Anders als viele große Flussdeltas erreicht sein Delta keinen Ozean.",
+   "difficulty": 2,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/1432/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:okavango-dry-season",
+  "type": "trivia",
+  "names": {
+   "de": "In welcher örtlichen Jahreszeit erreicht die jährliche Hochwasserwelle das Okavangodelta?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "wahrend-der-trockenzeit",
+     "label": "Während der Trockenzeit"
+    },
+    {
+     "id": "ausschliesslich-wahrend-der-ortlichen-regenzeit",
+     "label": "Ausschließlich während der örtlichen Regenzeit"
+    },
+    {
+     "id": "nur-wahrend-einer-winterlichen-schneeschmelze",
+     "label": "Nur während einer winterlichen Schneeschmelze"
+    },
+    {
+     "id": "das-delta-wird-niemals-uberflutet",
+     "label": "Das Delta wird niemals überflutet"
+    }
+   ],
+   "answer": "wahrend-der-trockenzeit",
+   "explanation": "Das Hochwasser trifft während der lokalen Trockenzeit ein. Pflanzen und Tiere sind an diesen besonderen jahreszeitlichen Rhythmus angepasst.",
+   "difficulty": 3,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/1432/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:serengeti-migration",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Herden gehören besonders zur großen jährlichen Tierwanderung der Serengeti?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "gnus-zebras-und-gazellen",
+     "label": "Gnus, Zebras und Gazellen"
+    },
+    {
+     "id": "rentiere-moschusochsen-und-elche",
+     "label": "Rentiere, Moschusochsen und Elche"
+    },
+    {
+     "id": "lamas-alpakas-und-vikunjas",
+     "label": "Lamas, Alpakas und Vikunjas"
+    },
+    {
+     "id": "kangurus-wombats-und-koalas",
+     "label": "Kängurus, Wombats und Koalas"
+    }
+   ],
+   "answer": "gnus-zebras-und-gazellen",
+   "explanation": "Große Herden von Gnus, Zebras und Gazellen wandern in der Serengeti auf der Suche nach Wasser und Nahrung.",
+   "difficulty": 1,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/156/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:ngorongoro-landform",
+  "type": "trivia",
+  "names": {
+   "de": "Welche geologische Form ist der Ngorongorokrater?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "eine-vulkanische-caldera",
+     "label": "Eine vulkanische Caldera"
+    },
+    {
+     "id": "ein-meteoriteneinschlagskrater",
+     "label": "Ein Meteoriteneinschlagskrater"
+    },
+    {
+     "id": "ein-durch-salzabbau-entstandener-tagebau",
+     "label": "Ein durch Salzabbau entstandener Tagebau"
+    },
+    {
+     "id": "ein-von-korallen-aufgebautes-atoll",
+     "label": "Ein von Korallen aufgebautes Atoll"
+    }
+   ],
+   "answer": "eine-vulkanische-caldera",
+   "explanation": "Der Ngorongorokrater ist die Caldera eines früheren Vulkans. Heute beherbergt diese Beckenlandschaft vielfältige Lebensräume.",
+   "difficulty": 2,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/39/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:ngorongoro-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem ostafrikanischen Land liegt das Ngorongoro-Schutzgebiet?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "tansania",
+     "label": "Tansania"
+    },
+    {
+     "id": "uganda",
+     "label": "Uganda"
+    },
+    {
+     "id": "athiopien",
+     "label": "Äthiopien"
+    },
+    {
+     "id": "ruanda",
+     "label": "Ruanda"
+    }
+   ],
+   "answer": "tansania",
+   "explanation": "Ngorongoro liegt im Norden Tansanias und vereint Wildtierlebensräume mit der traditionellen Weidewirtschaft der Maasai.",
+   "difficulty": 1,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/39/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:lalibela-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Land befinden sich die Felsenkirchen von Lalibela?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "athiopien",
+     "label": "Äthiopien"
+    },
+    {
+     "id": "eritrea",
+     "label": "Eritrea"
+    },
+    {
+     "id": "sudan",
+     "label": "Sudan"
+    },
+    {
+     "id": "agypten",
+     "label": "Ägypten"
+    }
+   ],
+   "answer": "athiopien",
+   "explanation": "Die mittelalterlichen Felsenkirchen von Lalibela liegen im äthiopischen Hochland und sind bedeutende christliche Pilgerstätten.",
+   "difficulty": 2,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/18/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:great-zimbabwe-shona",
+  "type": "trivia",
+  "names": {
+   "de": "Mit welcher historischen Kultur sind die Ruinen von Groß-Simbabwe besonders verbunden?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "der-kultur-der-shona",
+     "label": "Der Kultur der Shona"
+    },
+    {
+     "id": "der-kultur-der-maya",
+     "label": "Der Kultur der Maya"
+    },
+    {
+     "id": "der-kultur-der-khmer",
+     "label": "Der Kultur der Khmer"
+    },
+    {
+     "id": "der-kultur-der-wikinger",
+     "label": "Der Kultur der Wikinger"
+    }
+   ],
+   "answer": "der-kultur-der-shona",
+   "explanation": "Groß-Simbabwe zeugt von der Shona-Kultur zwischen dem 11. und 15. Jahrhundert und war ein wichtiger Handelsplatz.",
+   "difficulty": 3,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/364/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:timbuktu-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem heutigen Staat liegt die historische Gelehrtenstadt Timbuktu?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "mali",
+     "label": "Mali"
+    },
+    {
+     "id": "niger",
+     "label": "Niger"
+    },
+    {
+     "id": "senegal",
+     "label": "Senegal"
+    },
+    {
+     "id": "tschad",
+     "label": "Tschad"
+    }
+   ],
+   "answer": "mali",
+   "explanation": "Timbuktu liegt in Mali. Seine Moscheen und Lehrstätten erinnern an eine bedeutende Geschichte von Bildung und Handel.",
+   "difficulty": 1,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/119/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:tsingy-limestone",
+  "type": "trivia",
+  "names": {
+   "de": "Was sind die Tsingy in den westlichen Landschaften Madagaskars?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "scharfkantige-kalksteinformationen",
+     "label": "Scharfkantige Kalksteinformationen"
+    },
+    {
+     "id": "vulkanische-lavafelder",
+     "label": "Vulkanische Lavafelder"
+    },
+    {
+     "id": "grosse-wanderdunen-aus-sand",
+     "label": "Große Wanderdünen aus Sand"
+    },
+    {
+     "id": "von-gletschern-geschliffene-granitkuppen",
+     "label": "Von Gletschern geschliffene Granitkuppen"
+    }
+   ],
+   "answer": "scharfkantige-kalksteinformationen",
+   "explanation": "Die Tsingy sind markante Karstformationen mit scharfen Kalksteinnadeln. Sie gehören zu den charakteristischen Landschaften Westmadagaskars.",
+   "difficulty": 2,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/494/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:djenne-earth",
+  "type": "trivia",
+  "names": {
+   "de": "Welcher Baustoff prägt die traditionelle Architektur und Große Moschee von Djenné?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "lehm",
+     "label": "Lehm"
+    },
+    {
+     "id": "basalt",
+     "label": "Basalt"
+    },
+    {
+     "id": "marmor",
+     "label": "Marmor"
+    },
+    {
+     "id": "granit",
+     "label": "Granit"
+    }
+   ],
+   "answer": "lehm",
+   "explanation": "Djenné ist für seine monumentale Lehmbauarchitektur bekannt. Auch die Große Moschee gehört zu dieser Bautradition.",
+   "difficulty": 2,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/116/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:aldabra-tortoises",
+  "type": "trivia",
+  "names": {
+   "de": "Für welche großen Landreptilien ist das Aldabra-Atoll besonders bekannt?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "riesenschildkroten",
+     "label": "Riesenschildkröten"
+    },
+    {
+     "id": "komodowarane",
+     "label": "Komodowarane"
+    },
+    {
+     "id": "grune-leguane",
+     "label": "Grüne Leguane"
+    },
+    {
+     "id": "gila-krustenechsen",
+     "label": "Gila-Krustenechsen"
+    }
+   ],
+   "answer": "riesenschildkroten",
+   "explanation": "Auf dem abgelegenen Korallenatoll Aldabra lebt eine außergewöhnlich große natürliche Population von Riesenschildkröten.",
+   "difficulty": 1,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/185/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:robben-island-history",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Funktion hatte Robben Island während der Apartheid besonders?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "gefangnis-fur-politische-haftlinge",
+     "label": "Gefängnis für politische Häftlinge"
+    },
+    {
+     "id": "sitz-des-sudafrikanischen-parlaments",
+     "label": "Sitz des südafrikanischen Parlaments"
+    },
+    {
+     "id": "wichtigster-handelshafen-des-landes",
+     "label": "Wichtigster Handelshafen des Landes"
+    },
+    {
+     "id": "amtssitz-des-staatsprasidenten",
+     "label": "Amtssitz des Staatspräsidenten"
+    }
+   ],
+   "answer": "gefangnis-fur-politische-haftlinge",
+   "explanation": "Robben Island diente unter anderem als Gefängnis für politische Häftlinge. Die Stätte erinnert an den Kampf gegen Apartheid und Unterdrückung.",
+   "difficulty": 2,
+   "continent": "africa"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/916/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:yellowstone-heat",
+  "type": "trivia",
+  "names": {
+   "de": "Woher stammt die Wärme für die heißen Quellen und Geysire von Yellowstone hauptsächlich?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "aus-dem-vulkanischen-untergrund",
+     "label": "Aus dem vulkanischen Untergrund"
+    },
+    {
+     "id": "aus-der-reibung-von-gletschern",
+     "label": "Aus der Reibung von Gletschern"
+    },
+    {
+     "id": "aus-der-gezeitenkraft-im-binnenland",
+     "label": "Aus der Gezeitenkraft im Binnenland"
+    },
+    {
+     "id": "aus-der-zersetzung-von-laub-an-der-oberflache",
+     "label": "Aus der Zersetzung von Laub an der Oberfläche"
+    }
+   ],
+   "answer": "aus-dem-vulkanischen-untergrund",
+   "explanation": "Eine flach liegende magmatische Wärmequelle treibt die hydrothermalen Erscheinungen von Yellowstone an.",
+   "difficulty": 2,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "National Park Service",
+   "source_url": "https://www.nps.gov/yell/learn/nature/geology.htm",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:old-faithful-type",
+  "type": "trivia",
+  "names": {
+   "de": "Was ist Old Faithful im Yellowstone-Nationalpark?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "ein-geysir",
+     "label": "Ein Geysir"
+    },
+    {
+     "id": "ein-wasserfall",
+     "label": "Ein Wasserfall"
+    },
+    {
+     "id": "ein-gletscher",
+     "label": "Ein Gletscher"
+    },
+    {
+     "id": "ein-versteinertes-korallenriff",
+     "label": "Ein versteinertes Korallenriff"
+    }
+   ],
+   "answer": "ein-geysir",
+   "explanation": "Old Faithful ist ein bekannter Geysir, der heißes Wasser und Dampf ausstößt. Seine Ausbrüche lassen sich ungefähr vorhersagen.",
+   "difficulty": 1,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "National Park Service",
+   "source_url": "https://www.nps.gov/yell/planyourvisit/exploreoldfaithful.htm",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:everglades-state",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem US-Bundesstaat liegen die Everglades?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "florida",
+     "label": "Florida"
+    },
+    {
+     "id": "louisiana",
+     "label": "Louisiana"
+    },
+    {
+     "id": "georgia",
+     "label": "Georgia"
+    },
+    {
+     "id": "south-carolina",
+     "label": "South Carolina"
+    }
+   ],
+   "answer": "florida",
+   "explanation": "Die Everglades liegen im Süden Floridas und umfassen ein ausgedehntes subtropisches Feuchtgebiet.",
+   "difficulty": 1,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "National Park Service",
+   "source_url": "https://www.nps.gov/ever/learn/nature/crocodile.htm",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:everglades-crocodilians",
+  "type": "trivia",
+  "names": {
+   "de": "Welche beiden Krokodilarten kommen im Süden Floridas, auch in den Everglades, natürlich vor?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "mississippi-alligator-und-spitzkrokodil",
+     "label": "Mississippi-Alligator und Spitzkrokodil"
+    },
+    {
+     "id": "nilkrokodil-und-leistenkrokodil",
+     "label": "Nilkrokodil und Leistenkrokodil"
+    },
+    {
+     "id": "gangesgavial-und-brillenkaiman",
+     "label": "Gangesgavial und Brillenkaiman"
+    },
+    {
+     "id": "schwarzer-kaiman-und-philippinenkrokodil",
+     "label": "Schwarzer Kaiman und Philippinenkrokodil"
+    }
+   ],
+   "answer": "mississippi-alligator-und-spitzkrokodil",
+   "explanation": "Südflorida ist ein natürliches Überschneidungsgebiet des Mississippi-Alligators und des Spitzkrokodils.",
+   "difficulty": 2,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "National Park Service",
+   "source_url": "https://www.nps.gov/ever/learn/nature/crocodile.htm",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:yosemite-glaciers",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Prozesse haben die breiten U-förmigen Täler von Yosemite entscheidend geformt?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "eiszeitliche-gletscherbewegungen",
+     "label": "Eiszeitliche Gletscherbewegungen"
+    },
+    {
+     "id": "wachstum-von-korallenriffen",
+     "label": "Wachstum von Korallenriffen"
+    },
+    {
+     "id": "ablagerungen-tropischer-wirbelsturme",
+     "label": "Ablagerungen tropischer Wirbelstürme"
+    },
+    {
+     "id": "aufschuttungen-durch-menschen",
+     "label": "Aufschüttungen durch Menschen"
+    }
+   ],
+   "answer": "eiszeitliche-gletscherbewegungen",
+   "explanation": "Gletscher erweiterten und vertieften die bereits vorhandenen Täler von Yosemite und hinterließen charakteristische U-Profile.",
+   "difficulty": 2,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "National Park Service",
+   "source_url": "https://www.nps.gov/yose/learn/nature/geology.htm",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:redwood-tree",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Baumart erreicht in den Redwood National and State Parks außergewöhnliche Rekordhöhen?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "kustenmammutbaum",
+     "label": "Küstenmammutbaum"
+    },
+    {
+     "id": "zirbelkiefer",
+     "label": "Zirbelkiefer"
+    },
+    {
+     "id": "europaische-larche",
+     "label": "Europäische Lärche"
+    },
+    {
+     "id": "olivenbaum",
+     "label": "Olivenbaum"
+    }
+   ],
+   "answer": "kustenmammutbaum",
+   "explanation": "Die Küstenmammutbäume im Norden Kaliforniens gehören zu den höchsten Bäumen der Erde und prägen das geschützte Waldgebiet.",
+   "difficulty": 2,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/134/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:mammoth-limestone",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Gestein entstand das weit verzweigte Höhlensystem der Mammoth Cave vor allem?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "kalkstein",
+     "label": "Kalkstein"
+    },
+    {
+     "id": "granit",
+     "label": "Granit"
+    },
+    {
+     "id": "basalt",
+     "label": "Basalt"
+    },
+    {
+     "id": "gneis",
+     "label": "Gneis"
+    }
+   ],
+   "answer": "kalkstein",
+   "explanation": "Die Mammoth Cave in Kentucky ist ein großes Karsthöhlensystem. Wasser konnte die Hohlräume im löslichen Kalkstein bilden.",
+   "difficulty": 2,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/150/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:mesa-verde-builders",
+  "type": "trivia",
+  "names": {
+   "de": "Wer errichtete die historischen Felsnischensiedlungen von Mesa Verde?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "vorfahren-der-pueblo-volker",
+     "label": "Vorfahren der Pueblo-Völker"
+    },
+    {
+     "id": "die-inka",
+     "label": "Die Inka"
+    },
+    {
+     "id": "die-wikinger",
+     "label": "Die Wikinger"
+    },
+    {
+     "id": "die-khmer",
+     "label": "Die Khmer"
+    }
+   ],
+   "answer": "vorfahren-der-pueblo-volker",
+   "explanation": "Die Ancestral Pueblo People bauten ihre Siedlungen in geschützten Felsnischen des heutigen südwestlichen Colorado.",
+   "difficulty": 2,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "National Park Service",
+   "source_url": "https://www.nps.gov/articles/mesaverde.htm",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:fundy-tidal-range",
+  "type": "trivia",
+  "names": {
+   "de": "Welche kanadische Bucht ist für besonders große, weltweit rekordhohe Gezeitenunterschiede bekannt?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "bay-of-fundy",
+     "label": "Bay of Fundy"
+    },
+    {
+     "id": "hudson-bay",
+     "label": "Hudson Bay"
+    },
+    {
+     "id": "james-bay",
+     "label": "James Bay"
+    },
+    {
+     "id": "baffin-bay",
+     "label": "Baffin Bay"
+    }
+   ],
+   "answer": "bay-of-fundy",
+   "explanation": "In der Bay of Fundy kann der Unterschied zwischen Hoch- und Niedrigwasser am inneren Ende der Bucht etwa 16 Meter erreichen.",
+   "difficulty": 2,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "Parks Canada",
+   "source_url": "https://parks.canada.ca/pn-np/nb/fundy/nature/environment/marees-tides",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:belize-reef",
+  "type": "trivia",
+  "names": {
+   "de": "Vor welchem mittelamerikanischen Land liegt das größte Barriereriff der Nordhalbkugel?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "belize",
+     "label": "Belize"
+    },
+    {
+     "id": "nicaragua",
+     "label": "Nicaragua"
+    },
+    {
+     "id": "panama",
+     "label": "Panama"
+    },
+    {
+     "id": "el-salvador",
+     "label": "El Salvador"
+    }
+   ],
+   "answer": "belize",
+   "explanation": "Das Barriereriff vor Belize gehört zu einem Küstensystem mit Atollen, Mangroven, kleinen Sandinseln und Lagunen.",
+   "difficulty": 2,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/764/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:teotihuacan-pyramids",
+  "type": "trivia",
+  "names": {
+   "de": "Welche mexikanische Ruinenstadt ist besonders für ihre Sonnen- und Mondpyramide bekannt?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "teotihuacan",
+     "label": "Teotihuacán"
+    },
+    {
+     "id": "palenque",
+     "label": "Palenque"
+    },
+    {
+     "id": "uxmal",
+     "label": "Uxmal"
+    },
+    {
+     "id": "monte-alban",
+     "label": "Monte Albán"
+    }
+   ],
+   "answer": "teotihuacan",
+   "explanation": "Teotihuacán liegt nordöstlich von Mexiko-Stadt. Zu seinen großen Bauwerken zählen die Sonnen- und die Mondpyramide.",
+   "difficulty": 2,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/414/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:tikal-civilization",
+  "type": "trivia",
+  "names": {
+   "de": "Zu welcher historischen Kultur gehörte die Stadt Tikal?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "maya",
+     "label": "Maya"
+    },
+    {
+     "id": "inka",
+     "label": "Inka"
+    },
+    {
+     "id": "romer",
+     "label": "Römer"
+    },
+    {
+     "id": "phonizier",
+     "label": "Phönizier"
+    }
+   ],
+   "answer": "maya",
+   "explanation": "Tikal war ein bedeutendes Zentrum der Maya. Die Tempel und Paläste liegen im heutigen Guatemala in einer tropischen Waldlandschaft.",
+   "difficulty": 1,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/64/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:lanse-norse",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Gruppe errichtete im 11. Jahrhundert die Siedlung L’Anse aux Meadows auf Neufundland?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "nordische-wikinger",
+     "label": "Nordische Wikinger"
+    },
+    {
+     "id": "spanische-konquistadoren",
+     "label": "Spanische Konquistadoren"
+    },
+    {
+     "id": "romische-legionare",
+     "label": "Römische Legionäre"
+    },
+    {
+     "id": "phonizische-handler",
+     "label": "Phönizische Händler"
+    }
+   ],
+   "answer": "nordische-wikinger",
+   "explanation": "Die Siedlungsreste belegen die Anwesenheit nordischer Seefahrer in Nordamerika mehrere Jahrhunderte vor Kolumbus.",
+   "difficulty": 2,
+   "continent": "north-america"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/4/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:atacama-location",
+  "type": "trivia",
+  "names": {
+   "de": "Welche extrem trockene Wüste liegt im Norden Chiles?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "atacama",
+     "label": "Atacama"
+    },
+    {
+     "id": "namib",
+     "label": "Namib"
+    },
+    {
+     "id": "thar",
+     "label": "Thar"
+    },
+    {
+     "id": "gobi",
+     "label": "Gobi"
+    }
+   ],
+   "answer": "atacama",
+   "explanation": "Die Atacama liegt in Nordchile. Ihre trockene Atmosphäre begünstigt astronomische Beobachtungen, etwa am Paranal-Observatorium.",
+   "difficulty": 1,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "Europäische Südsternwarte ESO",
+   "source_url": "https://www.hq.eso.org/sci/facilities/paranal/astroclimate/site.html",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:uyuni-country",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Land liegt die große Salzfläche Salar de Uyuni?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "bolivien",
+     "label": "Bolivien"
+    },
+    {
+     "id": "peru",
+     "label": "Peru"
+    },
+    {
+     "id": "chile",
+     "label": "Chile"
+    },
+    {
+     "id": "argentinien",
+     "label": "Argentinien"
+    }
+   ],
+   "answer": "bolivien",
+   "explanation": "Der Salar de Uyuni liegt im bolivianischen Altiplano. Bei flacher Überflutung kann seine Oberfläche wie ein riesiger Spiegel wirken.",
+   "difficulty": 1,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "NASA",
+   "source_url": "https://ciencia.nasa.gov/ciencias-terrestres/salar-en-bolivia/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:titicaca-border",
+  "type": "trivia",
+  "names": {
+   "de": "Zwischen welchen beiden Ländern liegt der Titicacasee?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "peru-und-bolivien",
+     "label": "Peru und Bolivien"
+    },
+    {
+     "id": "chile-und-argentinien",
+     "label": "Chile und Argentinien"
+    },
+    {
+     "id": "ecuador-und-kolumbien",
+     "label": "Ecuador und Kolumbien"
+    },
+    {
+     "id": "brasilien-und-paraguay",
+     "label": "Brasilien und Paraguay"
+    }
+   ],
+   "answer": "peru-und-bolivien",
+   "explanation": "Der Titicacasee liegt auf dem Altiplano in den Anden und erstreckt sich über die Grenze von Peru und Bolivien.",
+   "difficulty": 2,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "NASA",
+   "source_url": "https://science.nasa.gov/earth/earth-observatory/lake-titicaca-4070/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:amazon-discharge",
+  "type": "trivia",
+  "names": {
+   "de": "Welcher Fluss führt im langjährigen Mittel weltweit die größte Wassermenge ins Meer?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "amazonas",
+     "label": "Amazonas"
+    },
+    {
+     "id": "nil",
+     "label": "Nil"
+    },
+    {
+     "id": "jangtse",
+     "label": "Jangtse"
+    },
+    {
+     "id": "kongo",
+     "label": "Kongo"
+    }
+   ],
+   "answer": "amazonas",
+   "explanation": "Beim Wasserabfluss liegt der Amazonas weltweit an erster Stelle. Diese Rangfolge bezieht sich auf die Wassermenge, nicht auf die Flusslänge.",
+   "difficulty": 2,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "NASA",
+   "source_url": "https://science.nasa.gov/earth/earth-observatory/mapping-the-amazon-145649/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:amazon-ocean",
+  "type": "trivia",
+  "names": {
+   "de": "In welchen Ozean mündet der Amazonas?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "atlantischer-ozean",
+     "label": "Atlantischer Ozean"
+    },
+    {
+     "id": "pazifischer-ozean",
+     "label": "Pazifischer Ozean"
+    },
+    {
+     "id": "indischer-ozean",
+     "label": "Indischer Ozean"
+    },
+    {
+     "id": "arktischer-ozean",
+     "label": "Arktischer Ozean"
+    }
+   ],
+   "answer": "atlantischer-ozean",
+   "explanation": "Der Amazonas fließt aus dem Andenraum ostwärts durch Brasilien und mündet an dessen Nordostküste in den Atlantik.",
+   "difficulty": 1,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "NASA",
+   "source_url": "https://science.nasa.gov/earth/earth-observatory/mouth-of-the-amazon-1161/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:quito-altitude",
+  "type": "trivia",
+  "names": {
+   "de": "Auf welcher Höhe liegt Quito laut UNESCO ungefähr?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "2-850-meter-uber-dem-meer",
+     "label": "2.850 Meter über dem Meer"
+    },
+    {
+     "id": "150-meter-uber-dem-meer",
+     "label": "150 Meter über dem Meer"
+    },
+    {
+     "id": "850-meter-uber-dem-meer",
+     "label": "850 Meter über dem Meer"
+    },
+    {
+     "id": "5-800-meter-uber-dem-meer",
+     "label": "5.800 Meter über dem Meer"
+    }
+   ],
+   "answer": "2-850-meter-uber-dem-meer",
+   "explanation": "Die UNESCO beschreibt Quito auf etwa 2.850 Metern Höhe. Die ecuadorianische Hauptstadt liegt in den Anden.",
+   "difficulty": 2,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/2/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:brasilia-planners",
+  "type": "trivia",
+  "names": {
+   "de": "Welches Planungsteam prägte die neu angelegte Hauptstadt Brasília?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "lucio-costa-und-oscar-niemeyer",
+     "label": "Lúcio Costa und Oscar Niemeyer"
+    },
+    {
+     "id": "antoni-gaudi-und-joan-miro",
+     "label": "Antoni Gaudí und Joan Miró"
+    },
+    {
+     "id": "gustave-eiffel-und-auguste-rodin",
+     "label": "Gustave Eiffel und Auguste Rodin"
+    },
+    {
+     "id": "filippo-brunelleschi-und-donatello",
+     "label": "Filippo Brunelleschi und Donatello"
+    }
+   ],
+   "answer": "lucio-costa-und-oscar-niemeyer",
+   "explanation": "Stadtplaner Lúcio Costa und Architekt Oscar Niemeyer prägten die moderne Planung und die öffentlichen Bauten Brasílias.",
+   "difficulty": 3,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/445/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:cartagena-sea",
+  "type": "trivia",
+  "names": {
+   "de": "An welchem Meer liegt die kolumbianische Hafenstadt Cartagena?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "karibisches-meer",
+     "label": "Karibisches Meer"
+    },
+    {
+     "id": "mittelmeer",
+     "label": "Mittelmeer"
+    },
+    {
+     "id": "rotes-meer",
+     "label": "Rotes Meer"
+    },
+    {
+     "id": "schwarzes-meer",
+     "label": "Schwarzes Meer"
+    }
+   ],
+   "answer": "karibisches-meer",
+   "explanation": "Cartagena liegt an einer Bucht des Karibischen Meeres. Historische Befestigungen schützten den bedeutenden Hafen.",
+   "difficulty": 1,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/285/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:valparaiso-transport",
+  "type": "trivia",
+  "names": {
+   "de": "Welche historischen Verkehrsanlagen verbinden in Valparaíso die steilen Hangviertel?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "aufzuge-und-standseilbahnen",
+     "label": "Aufzüge und Standseilbahnen"
+    },
+    {
+     "id": "eine-historische-zahnrad-u-bahn",
+     "label": "Eine historische Zahnrad-U-Bahn"
+    },
+    {
+     "id": "ein-netz-schiffbarer-kanale",
+     "label": "Ein Netz schiffbarer Kanäle"
+    },
+    {
+     "id": "strassenbahnen-in-spiralformigen-tunneln",
+     "label": "Straßenbahnen in spiralförmigen Tunneln"
+    }
+   ],
+   "answer": "aufzuge-und-standseilbahnen",
+   "explanation": "Die historischen Ascensores von Valparaíso erschließen steile Hänge und gehören zur charakteristischen Infrastruktur der Hafenstadt.",
+   "difficulty": 2,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/959/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:qhapaq-nan-builders",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Kultur baute das große Anden-Straßennetz Qhapaq Ñan maßgeblich aus?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "inka",
+     "label": "Inka"
+    },
+    {
+     "id": "maya",
+     "label": "Maya"
+    },
+    {
+     "id": "azteken",
+     "label": "Azteken"
+    },
+    {
+     "id": "olmeken",
+     "label": "Olmeken"
+    }
+   ],
+   "answer": "inka",
+   "explanation": "Die Inka bauten Qhapaq Ñan über Jahrhunderte aus. Das Netz verband Hochgebirge, Küstenräume und weitere Landschaften ihres Reiches.",
+   "difficulty": 2,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/1459/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:potosi-metal",
+  "type": "trivia",
+  "names": {
+   "de": "Welches Metall machte die Bergbaustadt Potosí historisch besonders bedeutend?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "silber",
+     "label": "Silber"
+    },
+    {
+     "id": "aluminium",
+     "label": "Aluminium"
+    },
+    {
+     "id": "zinn",
+     "label": "Zinn"
+    },
+    {
+     "id": "platin",
+     "label": "Platin"
+    }
+   ],
+   "answer": "silber",
+   "explanation": "Der Silbererzabbau am Cerro Rico machte Potosí seit dem 16. Jahrhundert zu einem bedeutenden Bergbau- und Industriezentrum.",
+   "difficulty": 2,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/420/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:canaima-tepui",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Geländeform bezeichnet im venezolanischen Canaima-Gebiet ein Tepui?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "einen-tafelberg",
+     "label": "Einen Tafelberg"
+    },
+    {
+     "id": "eine-sanddune",
+     "label": "Eine Sanddüne"
+    },
+    {
+     "id": "ein-korallenatoll",
+     "label": "Ein Korallenatoll"
+    },
+    {
+     "id": "einen-vulkankegel",
+     "label": "Einen Vulkankegel"
+    }
+   ],
+   "answer": "einen-tafelberg",
+   "explanation": "Tepuis sind markante Tafelberge. Ihre steilen Wände und die Wasserfälle prägen große Teile des Canaima-Nationalparks.",
+   "difficulty": 2,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/701/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:cueva-hands",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Darstellungen gaben der argentinischen Cueva de las Manos ihren Namen?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "umrisse-menschlicher-hande",
+     "label": "Umrisse menschlicher Hände"
+    },
+    {
+     "id": "gemalte-segelschiffe",
+     "label": "Gemalte Segelschiffe"
+    },
+    {
+     "id": "fruhe-schriftzeichen",
+     "label": "Frühe Schriftzeichen"
+    },
+    {
+     "id": "darstellungen-von-sonnenfinsternissen",
+     "label": "Darstellungen von Sonnenfinsternissen"
+    }
+   ],
+   "answer": "umrisse-menschlicher-hande",
+   "explanation": "Der Name bedeutet Höhle der Hände. Berühmt sind die mit Schablonentechnik erzeugten Handumrisse in den Felsmalereien.",
+   "difficulty": 2,
+   "continent": "south-america"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/936/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:kakadu-territory",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem australischen Gebiet liegt der Kakadu-Nationalpark?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "northern-territory",
+     "label": "Northern Territory"
+    },
+    {
+     "id": "queensland",
+     "label": "Queensland"
+    },
+    {
+     "id": "new-south-wales",
+     "label": "New South Wales"
+    },
+    {
+     "id": "tasmanien",
+     "label": "Tasmanien"
+    }
+   ],
+   "answer": "northern-territory",
+   "explanation": "Kakadu liegt im Northern Territory und schützt unter anderem Feuchtgebiete, Überschwemmungsebenen und Felslandschaften.",
+   "difficulty": 2,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/147/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:kakadu-rock-art",
+  "type": "trivia",
+  "names": {
+   "de": "Welche kulturellen Zeugnisse machen Kakadu neben seiner Natur besonders bedeutend?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "felsmalereien-und-felsgravuren-der-aboriginal-kulturen",
+     "label": "Felsmalereien und Felsgravuren der Aboriginal-Kulturen"
+    },
+    {
+     "id": "romische-amphitheater",
+     "label": "Römische Amphitheater"
+    },
+    {
+     "id": "mittelalterliche-fachwerkstadte",
+     "label": "Mittelalterliche Fachwerkstädte"
+    },
+    {
+     "id": "steinerne-pyramiden-der-maya",
+     "label": "Steinerne Pyramiden der Maya"
+    }
+   ],
+   "answer": "felsmalereien-und-felsgravuren-der-aboriginal-kulturen",
+   "explanation": "Felsbilder und archäologische Fundstellen dokumentieren die lange Besiedlung Kakadus und die bis heute lebendigen Aboriginal-Kulturen.",
+   "difficulty": 2,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/147/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:blue-mountains-trees",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Baumgruppe prägt die Wälder der Greater Blue Mountains besonders?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "eukalypten",
+     "label": "Eukalypten"
+    },
+    {
+     "id": "larchen",
+     "label": "Lärchen"
+    },
+    {
+     "id": "olivenbaume",
+     "label": "Olivenbäume"
+    },
+    {
+     "id": "zirbelkiefern",
+     "label": "Zirbelkiefern"
+    }
+   ],
+   "answer": "eukalypten",
+   "explanation": "Die Blue Mountains zeigen eine große Vielfalt an Eukalypten und deren Anpassungen an unterschiedliche Lebensräume.",
+   "difficulty": 2,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/917/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:blue-mountains-rock",
+  "type": "trivia",
+  "names": {
+   "de": "Welches Gestein prägt die Plateaus und Steilwände der Greater Blue Mountains?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "sandstein",
+     "label": "Sandstein"
+    },
+    {
+     "id": "marmor",
+     "label": "Marmor"
+    },
+    {
+     "id": "steinsalz",
+     "label": "Steinsalz"
+    },
+    {
+     "id": "obsidian",
+     "label": "Obsidian"
+    }
+   ],
+   "answer": "sandstein",
+   "explanation": "Die Greater Blue Mountains umfassen ausgedehnte Sandsteinplateaus mit Steilabbrüchen und tief eingeschnittenen Schluchten.",
+   "difficulty": 2,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/917/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:queensland-wet-tropics",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Vegetation ist für die Wet Tropics of Queensland besonders kennzeichnend?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "tropischer-regenwald",
+     "label": "Tropischer Regenwald"
+    },
+    {
+     "id": "polare-tundra",
+     "label": "Polare Tundra"
+    },
+    {
+     "id": "borealer-nadelwald",
+     "label": "Borealer Nadelwald"
+    },
+    {
+     "id": "mediterraner-olivenhain",
+     "label": "Mediterraner Olivenhain"
+    }
+   ],
+   "answer": "tropischer-regenwald",
+   "explanation": "Die Wet Tropics erstrecken sich an Australiens Nordostküste und umfassen vor allem artenreiche tropische Regenwälder.",
+   "difficulty": 1,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/486/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:tasmania-rainforest",
+  "type": "trivia",
+  "names": {
+   "de": "Welche besondere Waldform findet man in der Tasmanian Wilderness?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "gemassigten-regenwald",
+     "label": "Gemäßigten Regenwald"
+    },
+    {
+     "id": "tropischen-mangrovenwald",
+     "label": "Tropischen Mangrovenwald"
+    },
+    {
+     "id": "borealen-larchenwald",
+     "label": "Borealen Lärchenwald"
+    },
+    {
+     "id": "mediterranen-korkeichenwald",
+     "label": "Mediterranen Korkeichenwald"
+    }
+   ],
+   "answer": "gemassigten-regenwald",
+   "explanation": "Tasmaniens geschützte Wildnis enthält bedeutende gemäßigte Regenwälder in einer stark durch Eiszeiten geprägten Landschaft.",
+   "difficulty": 2,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/181/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:new-zealand-kea",
+  "type": "trivia",
+  "names": {
+   "de": "Welcher Papagei lebt im neuseeländischen Hochgebirge, etwa in Te Wahipounamu?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "kea",
+     "label": "Kea"
+    },
+    {
+     "id": "graupapagei",
+     "label": "Graupapagei"
+    },
+    {
+     "id": "hyazinthara",
+     "label": "Hyazinthara"
+    },
+    {
+     "id": "nymphensittich",
+     "label": "Nymphensittich"
+    }
+   ],
+   "answer": "kea",
+   "explanation": "Der Kea ist an alpine Lebensräume Neuseelands angepasst und kommt unter anderem im Welterbe Te Wahipounamu vor.",
+   "difficulty": 2,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/551/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:new-caledonia-ocean",
+  "type": "trivia",
+  "names": {
+   "de": "In welchem Ozean liegen die Lagunen und Korallenriffe Neukaledoniens?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "pazifischer-ozean",
+     "label": "Pazifischer Ozean"
+    },
+    {
+     "id": "atlantischer-ozean",
+     "label": "Atlantischer Ozean"
+    },
+    {
+     "id": "indischer-ozean",
+     "label": "Indischer Ozean"
+    },
+    {
+     "id": "arktischer-ozean",
+     "label": "Arktischer Ozean"
+    }
+   ],
+   "answer": "pazifischer-ozean",
+   "explanation": "Neukaledonien ist eine Inselgruppe im Pazifik. Seine Lagunen und Riffe beherbergen vielfältige marine Ökosysteme.",
+   "difficulty": 1,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/1115/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:palau-rock-islands",
+  "type": "trivia",
+  "names": {
+   "de": "Welche Formen sind für viele Rock Islands in Palau typisch?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "pilzformige-kalksteininseln",
+     "label": "Pilzförmige Kalksteininseln"
+    },
+    {
+     "id": "gletscherbedeckte-granitgipfel",
+     "label": "Gletscherbedeckte Granitgipfel"
+    },
+    {
+     "id": "flache-inseln-aus-treibendem-schilf",
+     "label": "Flache Inseln aus treibendem Schilf"
+    },
+    {
+     "id": "aktive-vulkankegel-aus-obsidian",
+     "label": "Aktive Vulkankegel aus Obsidian"
+    }
+   ],
+   "answer": "pilzformige-kalksteininseln",
+   "explanation": "Viele der bewaldeten Kalksteininseln haben charakteristische pilzartige Formen und liegen in von Korallenriffen umgebenen Lagunen.",
+   "difficulty": 2,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/1386/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:roi-mata-country",
+  "type": "trivia",
+  "names": {
+   "de": "Zu welchem Inselstaat gehört das UNESCO-Welterbe Chief Roi Mata’s Domain?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "vanuatu",
+     "label": "Vanuatu"
+    },
+    {
+     "id": "samoa",
+     "label": "Samoa"
+    },
+    {
+     "id": "tonga",
+     "label": "Tonga"
+    },
+    {
+     "id": "kiribati",
+     "label": "Kiribati"
+    }
+   ],
+   "answer": "vanuatu",
+   "explanation": "Die Stätten auf Efate, Lelepa und Artok in Vanuatu sind mit dem Leben und Tod des Häuptlings Roi Mata verbunden.",
+   "difficulty": 3,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/1280/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:rennell-island-form",
+  "type": "trivia",
+  "names": {
+   "de": "Welche besondere Inselform ist Rennell auf den Salomonen?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "ein-gehobenes-korallenatoll",
+     "label": "Ein gehobenes Korallenatoll"
+    },
+    {
+     "id": "eine-langgestreckte-sandnehrung",
+     "label": "Eine langgestreckte Sandnehrung"
+    },
+    {
+     "id": "eine-vulkanische-caldera-insel",
+     "label": "Eine vulkanische Caldera-Insel"
+    },
+    {
+     "id": "eine-aus-flusssedimenten-entstandene-deltainsel",
+     "label": "Eine aus Flusssedimenten entstandene Deltainsel"
+    }
+   ],
+   "answer": "ein-gehobenes-korallenatoll",
+   "explanation": "Rennell ist ein angehobenes Korallenatoll. Sein See Tegano geht auf die frühere Lagune des Atolls zurück.",
+   "difficulty": 3,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/854/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:kuk-drainage",
+  "type": "trivia",
+  "names": {
+   "de": "Wie gewannen frühe Bauern in Kuk auf Neuguinea nutzbare Anbauflächen aus Feuchtgebieten?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "durch-entwasserungsgraben",
+     "label": "Durch Entwässerungsgräben"
+    },
+    {
+     "id": "durch-bewasserung-von-wustensand",
+     "label": "Durch Bewässerung von Wüstensand"
+    },
+    {
+     "id": "durch-aufschutten-kunstlicher-korallenriffe",
+     "label": "Durch Aufschütten künstlicher Korallenriffe"
+    },
+    {
+     "id": "durch-das-schmelzen-einer-dauerhaften-eisdecke",
+     "label": "Durch das Schmelzen einer dauerhaften Eisdecke"
+    }
+   ],
+   "answer": "durch-entwasserungsgraben",
+   "explanation": "In Kuk belegen unter anderem Gräben die Entwässerung von Feuchtflächen. Die Stätte dokumentiert eine frühe eigenständige Landwirtschaft.",
+   "difficulty": 3,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/887/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ },
+ {
+  "id": "trivia:taputapuatea-island",
+  "type": "trivia",
+  "names": {
+   "de": "Auf welcher Insel liegt der polynesische Zeremonialort Taputapuātea?"
+  },
+  "attributes": {
+   "choices": [
+    {
+     "id": "raiatea",
+     "label": "Raʻiātea"
+    },
+    {
+     "id": "tahiti",
+     "label": "Tahiti"
+    },
+    {
+     "id": "bora-bora",
+     "label": "Bora Bora"
+    },
+    {
+     "id": "moorea",
+     "label": "Moorea"
+    }
+   ],
+   "answer": "raiatea",
+   "explanation": "Taputapuātea liegt auf Raʻiātea. Der Marae-Komplex war ein bedeutendes politisches, zeremonielles und religiöses Zentrum Polynesiens.",
+   "difficulty": 3,
+   "continent": "oceania"
+  },
+  "provenance": {
+   "source": "UNESCO World Heritage Centre",
+   "source_url": "https://whc.unesco.org/en/list/1529/",
+   "last_updated": "2026-10-29",
+   "imported_at": "2026-10-29"
+  }
+ }
 ]

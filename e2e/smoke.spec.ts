@@ -36,7 +36,7 @@ test('Die frühere Quizinsel führt jetzt zur Geschichte', async ({ page }) => {
   await expect(page).toHaveURL(/\/story$/)
   await expect(page.getByRole('heading', { name: 'Der Atlas der Winde', exact: true })).toBeVisible()
   await expect(page.locator('[data-journey-chapter]')).toHaveCount(8)
-  await page.getByRole('button', { name: 'Abenteuer beginnen', exact: true }).click()
+  await page.locator('[data-story-route="0"]').click()
   await expect(page.getByRole('group', { name: 'Deine Antwort', exact: true })).toBeVisible()
   expect(errors).toEqual([])
 })
@@ -44,7 +44,7 @@ test('Die frühere Quizinsel führt jetzt zur Geschichte', async ({ page }) => {
 test('Die Story-Insel respektiert reduzierte Bewegung', async ({ page }) => {
   await page.emulateMedia({ reducedMotion: 'reduce' })
   await page.goto('story')
-  await expect(page.locator('.quiz-diorama-3d')).toHaveAttribute('data-motion', 'paused')
+  await expect(page.locator('.story-page')).toHaveAttribute('data-motion', 'paused')
 })
 
 test('Fotoübungen bleiben über die bisherigen Links erreichbar', async ({ page }) => {

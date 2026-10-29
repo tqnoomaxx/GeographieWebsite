@@ -4,13 +4,16 @@ import {
   emptyStoryProgress,
   parseStoryProgress,
   STORY_STORAGE_KEY,
+  LEGACY_STORY_KEY,
   type StoryAction,
 } from './storyProgress'
 
 export function useStoryProgress() {
   const [progress, setProgress] = useState(() => {
     try {
-      return parseStoryProgress(localStorage.getItem(STORY_STORAGE_KEY))
+      return parseStoryProgress(
+        localStorage.getItem(STORY_STORAGE_KEY) ?? localStorage.getItem(LEGACY_STORY_KEY),
+      )
     } catch {
       return emptyStoryProgress()
     }

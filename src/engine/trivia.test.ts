@@ -13,14 +13,16 @@ import { buildStationProgress } from '@/features/play/stationProgress'
 import { emptyStats } from '@/services/progress/types'
 
 const trivia = JSON.parse(readFileSync('public/data/entities/trivia.json', 'utf8')) as TriviaQuestion[]
-const context = (scope = 'world') => buildContext({ countries: [], cities: [], landmarks: [], regions: [], relationships: [], trivia, scope })
+const context = (scope = 'world') =>
+  buildContext({ countries: [], cities: [], landmarks: [], regions: [], relationships: [], trivia, scope })
 const setup = { ...defaultRound('trivia'), mode: 'trivia_questions', repeat: false }
 
 describe('Geographie-Trivia', () => {
-  it('hat 60 eindeutige, belegte und spielbare Fragen', () => {
+  it('hat 150 eindeutige, belegte und spielbare Fragen', () => {
     const ctx = context()
-    expect(new Set(trivia.map((card) => card.id)).size).toBe(60)
-    expect(new Set(trivia.map((card) => card.names.de)).size).toBe(60)
+    expect(trivia).toHaveLength(150)
+    expect(new Set(trivia.map((card) => card.id)).size).toBe(trivia.length)
+    expect(new Set(trivia.map((card) => card.names.de)).size).toBe(trivia.length)
     for (const card of trivia) {
       const q = geographyTrivia.make(card, ctx, createRng(card.id), 2)!
       expect(q).not.toBeNull()
@@ -36,10 +38,11 @@ describe('Geographie-Trivia', () => {
   })
 
   it('grenzt Kontinente ein und mischt allgemeine Erdfragen nur in Welt', () => {
-    expect(poolFor(context(), setup).size).toBe(60)
+    expect(poolFor(context(), setup).size).toBe(150)
+    expect(context().trivia.filter((card) => !card.attributes.continent)).toHaveLength(24)
     for (const scope of SCOPES.filter((scope) => scope !== 'world')) {
       const ctx = context(scope)
-      expect(poolFor(ctx, setup).size).toBe(8)
+      expect(poolFor(ctx, setup).size).toBe(21)
       expect(ctx.trivia.every((card) => card.attributes.continent === scope)).toBe(true)
     }
     expect(poolFor(context('country:DE'), setup).size).toBe(0)
@@ -51,10 +54,39 @@ describe('Geographie-Trivia', () => {
     expect(round.questions.length).toBe(50)
     expect(new Set(round.questions.map((q) => q.question.id)).size).toBe(50)
     let all = buildSession(ctx, { ...setup, length: 'all' }, { seed: 'trivia-all' })
-    expect(baseQuestionTotal(all)).toBe(60)
+    expect(baseQuestionTotal(all)).toBe(trivia.length)
     while (all.remaining?.length) all = extendSession(all, ctx)
-    expect(all.questions.length).toBe(60)
-    expect(new Set(all.questions.map((q) => q.question.id)).size).toBe(60)
+    expect(all.questions.length).toBe(trivia.length)
+    expect(new Set(all.questions.map((q) => q.question.id)).size).toBe(trivia.length)
+  })
+
+  it('bewahrt die bisherigen Fragen samt IDs und Antworten und ergänzt alle Kontinente', () => {
+    const base = JSON.parse(readFileSync('scripts/data/trivia-base.json', 'utf8')) as TriviaQuestion[]
+    expect(base).toHaveLength(60)
+    for (const old of base) expect(trivia.find((card) => card.id === old.id)).toEqual(old)
+    const baseIds = new Set(base.map((card) => card.id))
+    const additions = trivia.filter((card) => !baseIds.has(card.id))
+    expect(additions).toHaveLength(90)
+    for (const scope of SCOPES.filter((scope) => scope !== 'world'))
+      expect(additions.filter((card) => card.attributes.continent === scope)).toHaveLength(13)
+    for (const card of additions) expect(card.provenance.last_updated).toBe('2026-10-29')
+    expect(new Set(additions.map((card) => card.attributes.difficulty))).toEqual(new Set([1, 2, 3]))
+  })
+
+  it('fragt nach der UN-Projektion 2026 mit Indien als bevölkerungsreichstem Land', () => {
+    const card = trivia.find((card) => card.id === 'trivia:india-population-2026')!
+    const q = geographyTrivia.make(card, context(), createRng('population'), 2)!
+    expect(q.prompt.params?.question).toContain('2026')
+    expect(q.options!.find((option) => option.id === q.answer)!.label).toBe('Indien')
+    expect(q.sources![0].url).toBe('https://population.un.org/wpp/')
+    const countries = JSON.parse(readFileSync('public/data/entities/countries.json', 'utf8')) as Array<{
+      names: { de: string }
+      attributes: { population?: number }
+    }>
+    const largest = countries
+      .filter((country) => country.attributes.population)
+      .sort((a, b) => b.attributes.population! - a.attributes.population!)[0]
+    expect(largest.names.de).toBe('Indien')
   })
 
   it('nutzt Trivia in Gemischt und zählt den eigenen Stationsfortschritt', () => {

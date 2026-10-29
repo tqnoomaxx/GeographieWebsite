@@ -1,7 +1,8 @@
 import { useEffect, useRef, useState } from 'react'
-import { BookOpen, Check, LockKeyhole, RotateCcw, X } from 'lucide-react'
-import { STORY_CHAPTERS } from './chapters'
-import type { StoryProgress } from './storyProgress'
+import { BookOpen, LockKeyhole, RotateCcw, X } from 'lucide-react'
+import { STORY_LEVELS, levelAsset } from './levels'
+import { earnedStars, type StoryProgress } from './levelProgress'
+import { StoryStars } from './StoryStars'
 
 export function StoryJournal({
   progress,
@@ -14,45 +15,55 @@ export function StoryJournal({
 }) {
   const dialog = useRef<HTMLDialogElement>(null)
   const [confirmReset, setConfirmReset] = useState(false)
-  const collected = STORY_CHAPTERS.filter((chapter) => progress.chapters[chapter.id]?.collected).length
   useEffect(() => {
-    dialog.current?.showModal()
+    if (!dialog.current?.open) dialog.current?.showModal()
   }, [])
+  const cleared = STORY_LEVELS.filter((level) => progress.levels[level.id]?.stars).length
   return (
     <dialog
       ref={dialog}
       className="story-journal"
+      aria-labelledby="story-journal-title"
+      onCancel={(event) => {
+        event.preventDefault()
+        onClose()
+      }}
       onClose={onClose}
       onClick={(event) => {
         if (event.target === event.currentTarget) onClose()
       }}
-      aria-labelledby="story-journal-title"
     >
       <div className="story-journal-inner">
         <header>
           <BookOpen aria-hidden />
           <div>
             <h2 id="story-journal-title">Dein Reisetagebuch</h2>
-            <p>{collected} von 8 Fundstücken · Der Atlas der Winde</p>
+            <p>
+              {cleared} / 8 Level · {earnedStars(progress)} / 24 Sterne
+            </p>
           </div>
-          <button type="button" onClick={onClose} aria-label="Reisetagebuch schließen">
+          <button type="button" aria-label="Reisetagebuch schließen" onClick={onClose}>
             <X aria-hidden />
           </button>
         </header>
+        <p className="story-star-guide">
+          Drei Sterne: ohne Fehler und Hinweise. Zwei Sterne: höchstens ein Fehler und ein Hinweis. Jedes
+          abgeschlossene Level öffnet die nächste Welt.
+        </p>
         <ol>
-          {STORY_CHAPTERS.map((chapter, index) => {
-            const found = progress.chapters[chapter.id]?.collected
+          {STORY_LEVELS.map((level, index) => {
+            const stars = progress.levels[level.id]?.stars ?? 0
             return (
-              <li key={chapter.id} className={found ? 'is-found' : ''}>
-                <span className="story-journal-index" aria-hidden>
-                  {found ? <Check /> : <LockKeyhole />}
-                </span>
+              <li key={level.id} className={stars ? 'is-found' : ''}>
+                <img src={levelAsset(level)} alt="" loading="lazy" />
                 <div>
                   <small>
-                    Kapitel {index + 1} · {chapter.place}
+                    Level {index + 1} · {level.place}
                   </small>
-                  <h3>{found ? chapter.artifact : 'Ein Fundstück wartet auf dich'}</h3>
-                  <p>{found ? chapter.artifactDescription : chapter.title}</p>
+                  <h3>{stars ? level.artifact : 'Ein Fundstück wartet auf dich'}</h3>
+                  <p>{stars ? level.artifactDescription : level.mechanics}</p>
+                  <StoryStars count={stars} />
+                  {!stars && <LockKeyhole className="story-journal-lock" aria-label="Noch nicht gefunden" />}
                 </div>
               </li>
             )
@@ -61,7 +72,7 @@ export function StoryJournal({
         <footer>
           {confirmReset ? (
             <div className="story-reset-confirm">
-              <p>Die gesamte Reise und alle Fundstücke auf diesem Gerät zurücksetzen?</p>
+              <p>Die ganze Reise, alle Sterne und laufenden Versuche auf diesem Gerät zurücksetzen?</p>
               <button
                 type="button"
                 className="story-reset-button"
@@ -70,7 +81,7 @@ export function StoryJournal({
                   onClose()
                 }}
               >
-                Ja, neu beginnen
+                Ja, Reise zurücksetzen
               </button>
               <button type="button" onClick={() => setConfirmReset(false)}>
                 Abbrechen

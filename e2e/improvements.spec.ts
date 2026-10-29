@@ -175,9 +175,9 @@ test('Ruhig bleibt gespeichert, berücksichtigt System und lässt manuelle Steue
     .poll(() => page.locator('.globe-country[data-country-id="country:DE"]').getAttribute('d'))
     .not.toBe(before)
   await page.goto('play?view=diorama')
-  await expect(page.locator('.quiz-diorama-3d')).toHaveAttribute('data-motion', 'paused')
+  await expect(page.locator('.story-page')).toHaveAttribute('data-motion', 'paused')
   await page.locator('[data-story-route="0"]').focus()
-  await expect(page.locator('.quiz-diorama-3d')).toHaveAttribute('data-active-station', 'water')
+  await expect(page.locator('[data-story-route="0"]')).toBeFocused()
   await page.goto('settings')
   await page
     .getByRole('radiogroup', { name: 'Bewegung', exact: true })

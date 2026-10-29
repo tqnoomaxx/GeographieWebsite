@@ -12,7 +12,7 @@ Quiz starten: **Thema → Übung → passende Antwortart und Gebiet → Quiz sta
 
 Im Kartenmodus von Gewässer- und Bergquizzen werden die gesuchten Objekte direkt ausgewählt: Flüsse als echte Flussläufe, Seen als Uferumrisse und Berge als Gipfelmarkierungen. Ländergrenzen dienen zur Orientierung. Länder- und Regionalflaggen behalten ihre jeweiligen Gebietsflächen als Klickziele. `npm run data:nature-maps` verknüpft die Natural-Earth-Geometrien (Public Domain) über Wikidata-IDs mit dem Bestand; Objekte ohne echte Geometrie werden im Kartenmodus nicht angeboten. Die normale Länderzuordnung bleibt über die Antwortart „Auswählen“ erreichbar.
 
-Die interaktive Weltkugel steht direkt auf der Startseite. Unter **Story** (`/story`) wird das bisherige Diorama zur Expeditionsinsel: In **Der Atlas der Winde** reist du mit der Kartografin Mira durch acht zusammenhängende Kapitel. Je drei geografische Aufgaben bringen die Geschichte voran; Hinweise und erneute Versuche helfen ohne Zeitdruck. Fundstücke landen im Reisetagebuch und öffnen das nächste Kapitel. Spielstand und laufende Aufgaben werden auf diesem Gerät gespeichert. Die Reise bleibt auch ohne WebGL spielbar; der frühere Link `/play?view=diorama` führt zum Story-Modus.
+Die interaktive Weltkugel steht direkt auf der Startseite. Unter **Story** (`/story`) reist du in **Der Atlas der Winde** mit der Kartografin Mira durch acht Level mit eigenen Landschaften: Küste, Wald, Hafen, Dschungel, Wüste, Schriftenkammer, Eispass und Sternenwarte. Vier bis acht Prüfungen pro Versuch stammen aus einem Pool von 64 Aufgaben. Die Schwierigkeit steigt von einfachen Auswahlfragen zu freien Eingaben, Karten, echten Flussläufen und Gipfeln sowie sortierbaren Routen. Drei Herzen, knapper werdende Hinweise und bis zu drei Sterne machen Wiederholungen sinnvoll; erst ein bestandenes Level öffnet das nächste. Sterne, laufende Versuche und Reihenfolgen bleiben auf diesem Gerät gespeichert. Abgeschlossene Kapitel aus dem alten Story-Modus werden mit je einem Stern übernommen. Die Reise funktioniert ohne WebGL; der frühere Link `/play?view=diorama` führt weiterhin zur Story.
 
 Die Kapitel und Dialoge liegen in `src/features/story/chapters.ts`, die validierte Fortschrittslogik in `storyProgress.ts`. Neue Kapitel bekommen eine stabile ID, eine Inselstation, drei Aufgaben und ein Fundstück. Der Story-Fortschritt ist unabhängig von Quizstatistiken. Das Reisetagebuch bietet einen ausdrücklich bestätigten Neustart.
 
@@ -56,12 +56,15 @@ Weitere Skripte:
 | `npm run data:nature` | Flüsse, Seen, Berge (Wikidata, nach Bekanntheit) |
 | `npm run data:scripts` | 322 Lernkarten für 7 Schriften und 63 Textproben für 21 Sprachen |
 | `npm run data:languages` | Versionierten Sprach-Textbestand offline importieren (`-- --refresh` zum Neuabruf der festgehaltenen Quellrevision) |
+| `npm run data:trivia` | 150 redaktionelle Wissensfragen aus Bestand und geprüfter Erweiterung erzeugen |
 | `npm run data:validate` | Validierung, Index, Suchindex, Attribution; bricht bei Fehlern ab |
 | `npm test` | Engine-Tests |
 | `npm run e2e` | Playwright-Smoke-Tests gegen den Build |
 | `npm run build` | Validierung + Typecheck + Build |
 
 Unter **Quiz → Sprachen & Schriften** stehen „Sprachen erkennen“ (21 Sprachen mit 63 Textproben), „Schriften erkennen“ und sieben Lesekurse bereit: Kyrillisch, Griechisch, Georgisch/Mchedruli, Arabisch, Devanagari/Hindi, Bengalisch und Tamil. Alle Kurse unterstützen Auswählen und Eintippen; „Schriftzeichen wiederfinden“ fragt die umgekehrte Richtung ab. Nach der Antwort erscheinen Übersetzung beziehungsweise Umschrift, Lerntipps und Quellen. Die Sprachproben stammen aus denselben drei Artikeln der UN-Menschenrechtserklärung, in einer festgehaltenen Revision von [UDHR in XML](https://github.com/eric-muller/udhr). Sprach- und Schriftquizze verraten vor der Antwort weder Sprache noch Schrift auf der Textkarte. Arabische Texte erhalten RTL-Ausrichtung; lokal bereitgestellte Noto-Fonts sorgen auch bei indischen Zeichen für lesbare Darstellung. Quelle und OFL-Lizenzen liegen unter `public/fonts/scripts/`. Der Sprachenmodus teilt die bestehenden Lernoptionen, Fehlerwiederholungen und gespeicherten Alle-Runden.
+
+Der **Trivia-Modus** bietet 150 Wissensfragen: je 21 zu Europa, Asien, Afrika, Nordamerika, Südamerika und Ozeanien sowie 24 allgemeine Fragen über Erde, Wetter und Karten. Jede Frage besitzt vier Antwortmöglichkeiten, eine Erklärung und einen Primärquellenlink, etwa zu UNESCO, NASA, NOAA, USGS oder Parks Canada. Die 90 zusätzlichen Fragen wurden am 29. Oktober 2026 geprüft. `npm run data:trivia` verbindet die unveränderten 60 Ausgangsfragen aus `scripts/data/trivia-base.json` mit `scripts/content/trivia-expansion.mjs`; dieser Schritt ist auch in `data:all` enthalten. Die bisherigen IDs bleiben erhalten, damit Lernfortschritte und gespeicherte Runden weiterhin zugeordnet werden können.
 
 ## Deployment
 

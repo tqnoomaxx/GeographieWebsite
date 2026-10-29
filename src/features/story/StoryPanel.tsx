@@ -1,253 +1,257 @@
-import { useEffect, useRef, useState } from 'react'
-import { ArrowRight, Check, Compass, Lightbulb, LockKeyhole, Sparkles } from 'lucide-react'
-import { STORY_CHAPTERS } from './chapters'
-import type { ChapterProgress, ChapterStatus, StoryAction } from './storyProgress'
-
-const EMPTY_CHAPTER: ChapterProgress = { started: false, solved: 0, collected: false }
+import { ArrowLeft, ArrowRight, Compass, Heart, LockKeyhole, RotateCcw, Star, Trophy } from 'lucide-react'
+import { useMemo, useEffect, useRef, type CSSProperties } from 'react'
+import { useDataResources, useGeoData, type DataResource } from '@/app/DataProvider'
+import { ErrorState } from '@/ui'
+import { STORY_LEVELS, STORY_LIVES, levelAsset } from './levels'
+import {
+  currentTask,
+  currentLevelIndex,
+  levelStatus,
+  runStars,
+  type StoryAction,
+  type StoryProgress,
+} from './levelProgress'
+import { StoryTasks } from './StoryTasks'
+import { StoryStars } from './StoryStars'
 
 export function StoryPanel({
   index,
-  status,
-  progress = EMPTY_CHAPTER,
-  current,
+  progress,
+  saved,
   onAdvance,
   onTravel,
+  onMap,
 }: {
   index: number
-  status: ChapterStatus
-  progress?: ChapterProgress
-  current: number
+  progress: StoryProgress
+  saved: boolean
   onAdvance: (action: StoryAction) => void
-  onTravel: (index: number) => void
+  onTravel: (index: number, start?: boolean) => void
+  onMap: () => void
 }) {
-  const chapter = STORY_CHAPTERS[index]
-  const [feedback, setFeedback] = useState<{ task: number; choice: number; correct: boolean }>()
-  const [hint, setHint] = useState(false)
-  const [tried, setTried] = useState<number[]>([])
-  const nextButton = useRef<HTMLButtonElement>(null)
-  const taskHeading = useRef<HTMLHeadingElement>(null)
-  const chapterHeading = useRef<HTMLHeadingElement>(null)
-  const [focusQuestion, setFocusQuestion] = useState(false)
+  const level = STORY_LEVELS[index]
+  const geo = useGeoData()
+  const resourceKeys = useMemo<DataResource[]>(
+    () => [
+      'countries',
+      ...new Set(
+        level.tasks.flatMap((task): DataResource[] =>
+          task.mode === 'features' ? [task.featureType === 'river' ? 'rivers' : 'mountains'] : [],
+        ),
+      ),
+    ],
+    [level],
+  )
+  const resources = useDataResources(resourceKeys)
+  const run = progress.runs[level.id]
+  const status = levelStatus(progress, index)
+  const task = currentTask(level, run)
+  const hearts = STORY_LIVES - (run?.mistakes ?? 0)
+  const finished = run?.status === 'cleared'
+  const failed = run?.status === 'failed'
+  const completedTasks = finished ? level.taskCount : (run?.cursor ?? 0) + (run?.feedback?.correct ? 1 : 0)
+  const resultHeading = useRef<HTMLHeadingElement>(null)
   useEffect(() => {
-    if (feedback?.correct) {
-      nextButton.current?.focus({ preventScroll: true })
-      if (window.matchMedia('(max-width: 950px)').matches)
-        nextButton.current?.scrollIntoView({ block: 'nearest' })
-    }
-  }, [feedback])
-  useEffect(() => {
-    if (focusQuestion) {
-      const target = taskHeading.current ?? chapterHeading.current
-      target?.focus({ preventScroll: true })
-      if (window.matchMedia('(max-width: 950px)').matches)
-        target?.scrollIntoView({ block: taskHeading.current ? 'center' : 'start' })
-    }
-  }, [focusQuestion])
-
-  const taskIndex = feedback?.task ?? progress.solved
-  const task = chapter.tasks[taskIndex]
-  const reward = progress.started && progress.solved === chapter.tasks.length && !feedback
-  const complete = status === 'complete'
-  const locked = status === 'locked'
-  const playing = !locked && progress.started && !complete && !reward
-  const answer = (choice: number) => {
-    if (!task || feedback?.correct || tried.includes(choice)) return
-    const correct = choice === task.answer
-    setFocusQuestion(false)
-    setFeedback({ task: taskIndex, choice, correct })
-    if (correct) onAdvance({ type: 'solve', chapter: index, task: taskIndex, answer: choice })
-    else setTried((previous) => [...previous, choice])
-  }
-  const next = () => {
-    setFeedback(undefined)
-    setHint(false)
-    setTried([])
-    setFocusQuestion(true)
-  }
-
+    if (finished || failed) resultHeading.current?.focus({ preventScroll: true })
+  }, [finished, failed])
+  const answerName = (value: string) => geo.byId.get(value)?.names.de ?? value
   return (
-    <section
-      className={`story-panel ${playing ? 'is-playing' : ''}`}
-      aria-labelledby="story-chapter-title"
-      data-story-chapter={chapter.id}
+    <div
+      className={`story-level-stage scene-${level.biome}`}
+      data-scene={level.biome}
+      data-level={index + 1}
+      style={{ '--scene-accent': level.accent } as CSSProperties}
     >
-      <p className="story-chapter-number">
-        Kapitel {String(index + 1).padStart(2, '0')} <span>·</span> {chapter.place}
-      </p>
-      <h2 ref={chapterHeading} id="story-chapter-title" tabIndex={-1}>
-        {chapter.title}
-      </h2>
-      <div className="story-heading-rule" />
-      {playing && task ? (
-        <>
+      <img className="story-scene-art" src={levelAsset(level)} alt="" aria-hidden fetchPriority="high" />
+      <header className="story-level-hud">
+        <button className="story-map-back" type="button" onClick={onMap}>
+          <ArrowLeft aria-hidden />
+          <span>Zur Karte</span>
+        </button>
+        <div className="story-hud-center">
+          <h1>
+            Level {index + 1} · {level.place}
+          </h1>
           <div
-            className="story-task-progress"
-            aria-label={`Aufgabe ${taskIndex + 1} von ${chapter.tasks.length}`}
+            className="story-level-progress"
+            role="progressbar"
+            aria-label="Level-Fortschritt"
+            aria-valuemin={0}
+            aria-valuemax={level.taskCount}
+            aria-valuenow={completedTasks}
           >
-            <span>
-              Spur {taskIndex + 1} von {chapter.tasks.length}
-            </span>
-            <div aria-hidden>
-              {chapter.tasks.map((_, i) => (
-                <i
-                  key={i}
-                  className={i < progress.solved ? 'is-done' : i === taskIndex ? 'is-current' : ''}
-                />
-              ))}
-            </div>
-          </div>
-          {task.flag && (
-            <img
-              className="story-task-flag"
-              src={`${import.meta.env.BASE_URL}media/flags/countries/${task.flag}.svg`}
-              alt="Die Signalflagge auf dem Hügel"
-            />
-          )}
-          <h3 ref={taskHeading} tabIndex={-1} className="story-task-prompt">
-            {task.prompt}
-          </h3>
-          <div className="story-answers" role="group" aria-label="Deine Antwort">
-            {task.choices.map((choice, i) => (
-              <button
-                key={choice}
-                type="button"
-                onClick={() => answer(i)}
-                disabled={feedback?.correct || tried.includes(i)}
-                className={
-                  feedback?.correct && i === task.answer ? 'is-correct' : tried.includes(i) ? 'is-wrong' : ''
-                }
-              >
-                <span aria-hidden>{String.fromCharCode(65 + i)}</span>
-                {choice}
-                {feedback?.correct && i === task.answer ? <Check aria-hidden /> : null}
-              </button>
+            {Array.from({ length: level.taskCount }, (_, i) => (
+              <i key={i} className={i < completedTasks ? 'is-done' : ''} />
             ))}
           </div>
-          <div
-            aria-live="polite"
-            aria-atomic="true"
-            className={`story-feedback ${feedback?.correct ? 'is-correct' : ''}`}
-          >
-            {feedback ? (
-              feedback.correct ? (
-                <p>
-                  <strong>Spur gefunden.</strong> {task.explanation}
-                </p>
-              ) : (
-                <p>
-                  <strong>Noch eine andere Idee?</strong> {task.hint} Versuche es noch einmal.
-                </p>
-              )
-            ) : null}
+          <span>
+            Prüfung {Math.min((run?.cursor ?? 0) + 1, level.taskCount)} / {level.taskCount}
+          </span>
+        </div>
+        <div className="story-hud-stats">
+          <div className="story-hearts" role="img" aria-label={`${hearts} von ${STORY_LIVES} Herzen`}>
+            {[0, 1, 2].map((i) => (
+              <Heart key={i} aria-hidden className={i < hearts ? 'is-full' : ''} />
+            ))}
           </div>
-          {feedback?.correct ? (
-            <button ref={nextButton} className="story-primary" type="button" onClick={next}>
-              {progress.solved === chapter.tasks.length ? 'Fundstück entdecken' : 'Der Spur folgen'}
-              <ArrowRight aria-hidden />
-            </button>
-          ) : (
-            <div className="story-hint-area">
-              <button
-                type="button"
-                className="story-hint-button"
-                aria-expanded={hint}
-                onClick={() => setHint(!hint)}
-              >
-                <Lightbulb aria-hidden />
-                {hint ? 'Hinweis ausblenden' : 'Mira um einen Hinweis bitten'}
-              </button>
-              {hint && <p className="story-hint">{task.hint}</p>}
-            </div>
-          )}
-        </>
-      ) : (
-        <>
-          <p className="story-description">{reward || complete ? chapter.ending : chapter.description}</p>
-          {!reward && !complete && (
-            <div className="story-dialogue">
-              <span className="story-mira" aria-hidden>
-                M
-              </span>
-              <div>
-                <span>Mira, die Kartografin</span>
-                <blockquote>„{chapter.dialogue}“</blockquote>
-              </div>
-            </div>
-          )}
-          <div className={`story-artifact ${reward || complete ? 'is-found' : ''}`}>
-            <span className="story-artifact-icon">
-              {reward || complete ? <Sparkles aria-hidden /> : <Compass aria-hidden />}
-            </span>
-            <div>
-              <small>
-                {complete
-                  ? 'In deinem Reisetagebuch'
-                  : reward
-                    ? 'Fundstück entdeckt'
-                    : 'Fundstück dieses Kapitels'}
-              </small>
-              <strong>{chapter.artifact}</strong>
-            </div>
-          </div>
-          {(reward || complete) && (
-            <p className="story-artifact-description">{chapter.artifactDescription}</p>
-          )}
-          {locked ? (
-            <div className="story-locked">
-              <p>
-                <LockKeyhole aria-hidden />
-                Dieser Ort wartet noch auf dich.
-              </p>
-              <button type="button" className="story-primary" onClick={() => onTravel(current)}>
-                Weiter mit Kapitel {current + 1}
-                <ArrowRight aria-hidden />
-              </button>
-            </div>
-          ) : complete ? (
-            <>
-              <p className="story-complete-note">
-                <Check aria-hidden />
-                {index === STORY_CHAPTERS.length - 1
-                  ? 'Abenteuer abgeschlossen · Alle acht Fundstücke vereint'
-                  : 'Kapitel abgeschlossen'}
-              </p>
-              <button
-                type="button"
-                className="story-primary"
-                onClick={() => onTravel(index === STORY_CHAPTERS.length - 1 ? 0 : current)}
-              >
-                {index === STORY_CHAPTERS.length - 1 ? 'Die Insel wieder besuchen' : 'Reise fortsetzen'}
-                <ArrowRight aria-hidden />
-              </button>
-            </>
-          ) : reward ? (
+          <span className="story-best-stars" title="Deine beste Leistung">
+            <Star aria-hidden />
+            {progress.levels[level.id]?.stars ?? 0}/3
+          </span>
+        </div>
+      </header>
+      <div className="story-playfield">
+        <p className="story-scene-caption">
+          <Compass aria-hidden />
+          <span>{level.goal}</span>
+        </p>
+        {status === 'locked' ? (
+          <section className="story-task-panel story-intro story-locked" aria-label="Level noch gesperrt">
+            <LockKeyhole className="story-result-icon" aria-hidden />
+            <h2>{level.place}</h2>
+            <p>{level.description}</p>
+            <p>Schließe zuerst Level {index} ab, um diese Welt zu betreten.</p>
             <button
-              type="button"
               className="story-primary"
-              onClick={() => onAdvance({ type: 'collect', chapter: index })}
+              type="button"
+              onClick={() => onTravel(currentLevelIndex(progress), true)}
             >
-              {' '}
-              {index === STORY_CHAPTERS.length - 1 ? 'Den Atlas vollenden' : 'Ins Reisetagebuch legen'}
-              <Check aria-hidden />
+              Zum aktuellen Level <ArrowRight aria-hidden />
             </button>
-          ) : (
-            <>
-              <p className="story-goal">{chapter.goal}</p>
-              <button
-                type="button"
-                className="story-primary"
-                onClick={() => {
-                  onAdvance({ type: 'start', chapter: index })
-                  setFocusQuestion(true)
-                }}
-              >
-                {index === 0 ? 'Abenteuer beginnen' : 'Kapitel beginnen'}
-                <ArrowRight aria-hidden />
-              </button>
-            </>
-          )}
-        </>
+          </section>
+        ) : resources.error ? (
+          <section className="story-task-panel">
+            <ErrorState
+              message="Die Karten für dieses Level konnten nicht geladen werden."
+              onRetry={resources.retry}
+            />
+          </section>
+        ) : resources.loading ? (
+          <section className="story-task-panel story-intro" role="status">
+            <Compass className="story-result-icon" aria-hidden />
+            <h2>Dein Atlas wird aufgeschlagen …</h2>
+            <p>Die Karten für {level.place} werden geladen.</p>
+          </section>
+        ) : failed || finished ? (
+          <section
+            className={`story-task-panel story-result${finished ? ' is-victory' : ''}`}
+            data-story-result={finished ? 'cleared' : 'failed'}
+          >
+            {finished ? (
+              <Trophy className="story-result-icon" aria-hidden />
+            ) : (
+              <Heart className="story-result-icon is-empty" aria-hidden />
+            )}
+            <h2 ref={resultHeading} tabIndex={-1}>
+              {finished
+                ? index === STORY_LEVELS.length - 1
+                  ? 'Der Atlas erwacht.'
+                  : 'Level geschafft!'
+                : 'Ein neuer Versuch wartet.'}
+            </h2>
+            {finished ? (
+              <>
+                <StoryStars count={runStars(run!)} large />
+                <p>{level.ending}</p>
+                <div className="story-earned-artifact">
+                  <Compass aria-hidden />
+                  <div>
+                    <small>Fundstück erhalten</small>
+                    <strong>{level.artifact}</strong>
+                  </div>
+                </div>
+                <p className="story-result-stats">
+                  {level.taskCount} Prüfungen · {run!.mistakes} Fehler · {run!.hints.length} Hinweise
+                </p>
+                <button
+                  className="story-primary"
+                  type="button"
+                  onClick={() => (index < STORY_LEVELS.length - 1 ? onTravel(index + 1, true) : onMap())}
+                >
+                  {index < STORY_LEVELS.length - 1 ? 'Nächstes Level' : 'Zur Reisekarte'}{' '}
+                  <ArrowRight aria-hidden />
+                </button>
+                <button
+                  className="story-secondary"
+                  type="button"
+                  onClick={() => onAdvance({ type: 'retry', level: index })}
+                >
+                  {(progress.levels[level.id]?.stars ?? 0) < 3
+                    ? 'Auf drei Sterne spielen'
+                    : 'Noch einmal spielen'}{' '}
+                  <RotateCcw aria-hidden />
+                </button>
+              </>
+            ) : (
+              <>
+                <p>
+                  Drei Fehler, aber kein verlorener Weg. Sieh dir die Spuren an und versuche es mit einer
+                  neuen Aufgabenfolge. Deine besten Sterne bleiben erhalten.
+                </p>
+                <details className="story-review">
+                  <summary>Aus deinen Fehlern lernen</summary>
+                  {level.tasks
+                    .filter((item) => run!.rejected[item.id]?.length)
+                    .map((item) => (
+                      <div key={item.id}>
+                        <strong>{item.prompt}</strong>
+                        <p>
+                          {Array.isArray(item.answer)
+                            ? item.answer.map(answerName).join(' · ')
+                            : answerName(item.answer)}
+                        </p>
+                        <small>{item.explanation}</small>
+                      </div>
+                    ))}
+                </details>
+                <button
+                  className="story-primary"
+                  type="button"
+                  onClick={() => onAdvance({ type: 'retry', level: index })}
+                >
+                  Neu versuchen <RotateCcw aria-hidden />
+                </button>
+              </>
+            )}
+          </section>
+        ) : !run ? (
+          <section className="story-task-panel story-intro">
+            <span className="story-level-rank">{level.rank}</span>
+            <h2>{level.place}</h2>
+            <p>{level.description}</p>
+            <blockquote>
+              „{level.dialogue}“ <cite>— Mira</cite>
+            </blockquote>
+            <div className="story-intro-rules">
+              <span>{level.taskCount} Prüfungen</span>
+              <span>3 Herzen</span>
+              <span>{level.hintLimit} Hinweise</span>
+            </div>
+            <p className="story-mechanics">{level.mechanics}</p>
+            <button
+              className="story-primary"
+              type="button"
+              onClick={() => onAdvance({ type: 'start', level: index })}
+            >
+              Level starten <ArrowRight aria-hidden />
+            </button>
+          </section>
+        ) : task ? (
+          <StoryTasks
+            key={`${level.id}:${run.attempt}:${task.id}`}
+            index={index}
+            level={level}
+            task={task}
+            run={run}
+            advance={onAdvance}
+          />
+        ) : null}
+      </div>
+      {!saved && (
+        <p className="story-save-note is-unsaved" role="status">
+          Dein Browser kann gerade nicht speichern. Halte diese Seite geöffnet, um weiterzuspielen.
+        </p>
       )}
-    </section>
+    </div>
   )
 }
