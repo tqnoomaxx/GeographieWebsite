@@ -1,6 +1,6 @@
 // Edge Function: Quiz-Vorschläge, Kontakt, Fehlerreports. Serverseitige Validierung, Rate Limiting, Weiterleitung per Mail.
 // Secrets (RESEND_API_KEY, ADMIN_EMAIL) liegen ausschließlich in der Function-Umgebung.
-import { createClient } from 'npm:@supabase/supabase-js@2'
+import { createClient } from 'npm:@supabase/supabase-js@2.118.0'
 import { acceptsJson, corsHeaders, json, originAllowed } from '../_shared/cors.ts'
 import { rateLimit } from '../_shared/auth.ts'
 

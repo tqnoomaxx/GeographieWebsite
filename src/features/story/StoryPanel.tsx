@@ -13,6 +13,7 @@ import {
 } from './levelProgress'
 import { StoryTasks } from './StoryTasks'
 import { StoryStars } from './StoryStars'
+import { QuizNotesButton } from '@/features/notes/QuizNotesButton'
 
 export function StoryPanel({
   index,
@@ -89,6 +90,7 @@ export function StoryPanel({
           </span>
         </div>
         <div className="story-hud-stats">
+          <QuizNotesButton context={`Story · Level ${index + 1}: ${level.place}`} />
           <div className="story-hearts" role="img" aria-label={`${hearts} von ${STORY_LIVES} Herzen`}>
             {[0, 1, 2].map((i) => (
               <Heart key={i} aria-hidden className={i < hearts ? 'is-full' : ''} />

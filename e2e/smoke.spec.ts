@@ -466,11 +466,16 @@ test('Regionalflaggen haben eine eindeutige Länder- und Antwortauswahl', async 
   await expect(page.locator('[data-option-id]')).toHaveCount(4)
 })
 
-test('Account-Sicherheit ist auch ohne Backend verständlich und geschützt', async ({ page }) => {
+test('Account-Sicherheit berücksichtigt den Verbindungsstatus und schützt die Registrierung', async ({
+  page,
+}) => {
   const errors = watchErrors(page)
   await page.goto('account')
   await expect(page).toHaveURL(/\/login$/)
-  await expect(page.getByText('Konten sind in dieser Installation noch nicht aktiviert.')).toBeVisible()
+  await expect(page.getByLabel('E-Mail')).toBeVisible()
+  const configured = !(await page
+    .getByText('Konten sind in dieser Installation noch nicht aktiviert.')
+    .isVisible())
   await openQuizSettings(page)
   await page.getByRole('radio', { name: 'Registrieren' }).click()
   await page.getByLabel('E-Mail').fill('test@example.org')
@@ -478,7 +483,9 @@ test('Account-Sicherheit ist auch ohne Backend verständlich und geschützt', as
   await page.getByLabel('Passwort wiederholen').fill('Eine-Lange9!Passphrase')
   await expect(page.getByText('✓ mindestens 12 Zeichen')).toBeVisible()
   await expect(page.getByText('✓ Sonderzeichen')).toBeVisible()
-  await expect(page.getByRole('button', { name: /Registrieren/ })).toBeDisabled()
+  const register = page.getByRole('button', { name: /Registrieren/ })
+  if (configured) await expect(register).toBeEnabled()
+  else await expect(register).toBeDisabled()
   expect(errors).toEqual([])
 })
 
@@ -488,5 +495,10 @@ test('Datenschutz erklärt Gastmodus, Kontofreiwilligkeit und lokale Löschung',
   await expect(
     page.getByRole('heading', { name: '4. Lokaler Spielfortschritt und Einstellungen' }),
   ).toBeVisible()
-  await expect(page.getByText(/Konten und Cloud-Synchronisierung sind .* nicht aktiviert/)).toBeVisible()
+  const localOnly = page.getByText(/Konten und Cloud-Synchronisierung sind .* nicht aktiviert/)
+  if (await localOnly.isVisible()) await expect(localOnly).toBeVisible()
+  else
+    await expect(
+      page.getByRole('heading', { name: 'Geräteübergreifende Lernnotizen ohne Konto' }),
+    ).toBeVisible()
 })

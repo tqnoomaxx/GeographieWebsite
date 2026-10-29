@@ -28,7 +28,7 @@ Neue Fragesorten benötigen einmalig einen Generator in `src/engine/generators` 
 
 React 19 · TypeScript · Vite · Tailwind CSS 4 · react-router · i18next · idb (IndexedDB) · d3-geo · vite-plugin-pwa · Vitest · Playwright
 
-Phase 1 läuft komplett statisch (GitHub Pages), ohne Backend. Fortschritt liegt lokal im Browser. Phase 2 (Supabase) ist über die Service-Schicht vorbereitet, siehe `supabase/`.
+Standardmäßig läuft die Website statisch auf GitHub Pages; der Spielfortschritt bleibt im Browser. Optionale Konten und geräteübergreifende Lernnotizen sind über Supabase vorbereitet, siehe `supabase/`. Die Notizen brauchen keinen Account: Ein persönlicher Link öffnet dasselbe Notizbuch auf mehreren Geräten. Der Knopf ist in jeder Quizrunde, im Ergebnis, in Tagesrätseln und Story-Leveln erreichbar. Ohne Backend-Verbindung wird der fehlende Online-Zugang klar angezeigt. Einrichtung: [Lernnotizen aktivieren](supabase/NOTES_SETUP.md).
 
 ## Entwicklung
 

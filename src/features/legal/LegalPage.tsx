@@ -62,7 +62,7 @@ function Privacy() {
       <Section title="5. Offline-Funktion">
         <p>Ein Service Worker hält Programmdateien, Geodaten und Medien im Browser-Cache vor. Dadurch funktionieren bereits geladene Inhalte auch offline und müssen nicht bei jedem Besuch erneut übertragen werden. Die App-Caches werden über Einstellungen → Meine Daten → Lokale Daten löschen entfernt; alternativ können Sie sämtliche Website-Daten in den Browser-Einstellungen löschen.</p>
       </Section>
-      <Section title="6. Optionale Konten">
+      <Section title="6. Optionale Konten und Lernnotizen">
         {authConfigured ? (
           <>
             <p>Wenn Sie freiwillig ein Konto anlegen, verarbeiten wir E-Mail-Adresse, technische Authentifizierungs- und Sitzungsdaten, optionale Profilangaben sowie den von Ihnen synchronisierten Quiz-, Lern-, Favoriten- und Rätselstand. Passwörter werden nicht von dieser Anwendung gelesen oder gespeichert, sondern vom Authentifizierungsdienst gehasht verarbeitet. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO zur Bereitstellung der gewünschten Konto- und Synchronisationsfunktion.</p>
@@ -72,6 +72,12 @@ function Privacy() {
             <p>Zum Schutz der Konten verwenden wir E-Mail-Bestätigung, kurzlebige Zugriffstoken, rotierende Sitzungstoken, serverseitige Zugriffskontrollen, mengenbegrenzte Schnittstellen und optional einen Authenticator als zweiten Faktor. Übertragungen erfolgen verschlüsselt per HTTPS.</p>
           </>
         ) : <p>Konten und Cloud-Synchronisierung sind in dieser veröffentlichten Konfiguration nicht aktiviert. Es werden daher keine Konto- oder Fortschrittsdaten an Supabase übertragen.</p>}
+        {authConfigured && <>
+          <h3>Geräteübergreifende Lernnotizen ohne Konto</h3>
+          <p>Wenn Sie das Online-Notizbuch verwenden, speichern wir Ihre selbst eingegebenen Notiztexte, die zugehörige Quizbezeichnung, eine zufällige Notizkennung, den Versionsstand und die Erstellungs- und Änderungszeit bei Supabase. Dafür ist kein Benutzerkonto nötig. Das Notizbuch bleibt gespeichert, bis Sie es über „Notizbuch löschen“ entfernen; einzelne Notizen können Sie jederzeit unmittelbar löschen.</p>
+          <p>Der persönliche Notizlink ermöglicht das Lesen, Ändern und Löschen auf weiteren Geräten. Sein zufälliger Zugangsschlüssel wird im Browser gespeichert und bei Anfragen an den Notizserver übertragen; die Datenbank speichert davon nur einen Hashwert. Der Schlüssel steht im Fragmentteil des Links und wird beim normalen Laden der Website nicht an den Webhost gesendet. Geben Sie den Link nur an Personen weiter, die Zugriff haben sollen. „Dieses Gerät trennen“ entfernt nur den lokalen Zugang, nicht die Online-Notizen.</p>
+          <p>Die Notiztexte werden bei jeder bewussten Nutzung des Notizbuchs online abgerufen und während der geöffneten Ansicht regelmäßig abgeglichen. Zum Schutz vor Missbrauch verwendet der Notizserver die vorhandene, zeitlich begrenzte und mit geheimem Salt gehashte IP-Ratenbegrenzung. Ohne den persönlichen Link können wir das Notizbuch keinem Konto zuordnen oder einen verlorenen Zugang wiederherstellen.</p>
+        </>}
       </Section>
       <Section title="7. Kontakt, Vorschläge und Fehlermeldungen">
         <p>Kontakt öffnet Ihr lokales E-Mail-Programm. Vorschläge und Fehlermeldungen öffnen nach einem weiteren bewussten Klick ein vorausgefülltes GitHub-Formular. Die eingegebenen Formulardaten werden vorher nicht an GitHub übertragen. GitHub kann Inhalte eines dort abgesendeten Issues öffentlich anzeigen; tragen Sie dort keine vertraulichen oder personenbezogenen Daten ein.</p>
@@ -84,7 +90,7 @@ function Privacy() {
         <p>Zur Ausübung Ihrer Rechte können Sie die oben genannte Kontaktadresse verwenden. Kontoexport und Kontolöschung stehen zusätzlich direkt im Kontobereich zur Verfügung.</p>
         <p><a className={external} href="https://www.bfdi.bund.de/DE/Service/Anschriften/anschriften_table.html" target="_blank" rel="noreferrer">Anschriften der deutschen Datenschutz-Aufsichtsbehörden</a></p>
       </Section>
-      <p className="text-xs text-ink-2">Stand: 22. September 2026</p>
+      <p className="text-xs text-ink-2">Stand: 29. Oktober 2026</p>
     </>
   )
 }

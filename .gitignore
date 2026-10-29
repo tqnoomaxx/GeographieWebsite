@@ -12,3 +12,6 @@ coverage
 test-results
 playwright-report
 scripts/.cache
+
+# Supabase CLI connection metadata belongs to this workstation.
+supabase/.temp/

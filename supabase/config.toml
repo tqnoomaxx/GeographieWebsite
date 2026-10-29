@@ -10,8 +10,8 @@ max_rows = 1000
 port = 54322
 
 [auth]
-site_url = "http://localhost:5173"
-additional_redirect_urls = ["https://tqnoomaxx.github.io/GeographieWebsite/**", "http://localhost:5173/**"]
+site_url = "https://tqnoomaxx.github.io/GeographieWebsite"
+additional_redirect_urls = ["https://tqnoomaxx.github.io/GeographieWebsite/**", "http://localhost:5173/**", "http://127.0.0.1:5173/**"]
 enable_signup = true
 jwt_expiry = 900
 enable_refresh_token_rotation = true
@@ -55,4 +55,8 @@ verify_jwt = true
 
 # Feedback can be sent without an account. The function enforces CORS, validation and a durable rate limit.
 [functions.feedback]
+verify_jwt = false
+
+# Notebook links authorize requests; no Supabase Auth account is required.
+[functions.quiz-notes]
 verify_jwt = false

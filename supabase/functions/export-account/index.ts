@@ -1,4 +1,4 @@
-import type { SupabaseClient } from 'npm:@supabase/supabase-js@2'
+import type { SupabaseClient } from 'npm:@supabase/supabase-js@2.118.0'
 import { acceptsJson, corsHeaders, json, originAllowed } from '../_shared/cors.ts'
 import { authenticate, rateLimit } from '../_shared/auth.ts'
 

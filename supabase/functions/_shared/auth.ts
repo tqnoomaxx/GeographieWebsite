@@ -1,4 +1,4 @@
-import { createClient, type SupabaseClient, type User } from 'npm:@supabase/supabase-js@2'
+import { createClient, type SupabaseClient, type User } from 'npm:@supabase/supabase-js@2.118.0'
 
 export interface AuthContext {
   user: User

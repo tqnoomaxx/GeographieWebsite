@@ -34,6 +34,7 @@ import type { Entity } from '@/domain/types'
 import { RegionMapView } from '@/ui/maps'
 import { Icons } from '@/ui/icons'
 import { PuzzleArt } from './PuzzleArt'
+import { QuizNotesButton } from '@/features/notes/QuizNotesButton'
 
 export default function PuzzlePage() {
   const { t } = useTranslation()
@@ -127,7 +128,8 @@ export default function PuzzlePage() {
           (e.aliases ?? []).some((a) => normalizeAnswer(a).startsWith(n)),
       )
       .filter((entity) => {
-        const key = entity.type === 'license_plate' ? `${entity.attributes.country}:${entity.names.de}` : entity.id
+        const key =
+          entity.type === 'license_plate' ? `${entity.attributes.country}:${entity.names.de}` : entity.id
         if (seen.has(key)) return false
         seen.add(key)
         return true
@@ -140,7 +142,13 @@ export default function PuzzlePage() {
       if (!result || !solutionEntity || result.finishedAt || guessingRef.current) return
       const entity = selected ?? resolvePuzzleGuess(name, pool)
       if (!entity) return show(t('search.no_results'))
-      if (result.guesses.some((id) => { const previous = geo.byId.get(id); return previous && samePuzzlePlace(previous, entity) })) return
+      if (
+        result.guesses.some((id) => {
+          const previous = geo.byId.get(id)
+          return previous && samePuzzlePlace(previous, entity)
+        })
+      )
+        return
       const guesses = [...result.guesses, entity.id]
       const solved = solutionIds.includes(entity.id)
       const finished = solved || guesses.length >= MAX_ATTEMPTS
@@ -195,16 +203,19 @@ export default function PuzzlePage() {
           <Link to="/daily" className="daily-game-back">
             <Icons.back aria-hidden /> {t('daily.title')}
           </Link>
-          <div
-            className="daily-attempt-progress"
-            aria-label={t('daily.attempts', { n: attempts, max: MAX_ATTEMPTS })}
-          >
-            <div aria-hidden>
-              {Array.from({ length: MAX_ATTEMPTS }, (_, index) => (
-                <span key={index} className={index < attempts ? 'is-used' : ''} />
-              ))}
+          <div className="daily-notes-tools">
+            <QuizNotesButton context={t(`daily.${def.id}`)} />
+            <div
+              className="daily-attempt-progress"
+              aria-label={t('daily.attempts', { n: attempts, max: MAX_ATTEMPTS })}
+            >
+              <div aria-hidden>
+                {Array.from({ length: MAX_ATTEMPTS }, (_, index) => (
+                  <span key={index} className={index < attempts ? 'is-used' : ''} />
+                ))}
+              </div>
+              <strong>{t('daily.attempts', { n: attempts, max: MAX_ATTEMPTS })}</strong>
             </div>
-            <strong>{t('daily.attempts', { n: attempts, max: MAX_ATTEMPTS })}</strong>
           </div>
         </header>
 
@@ -309,8 +320,9 @@ export default function PuzzlePage() {
                   name:
                     def.id === 'capitale'
                       ? capitalOptions.map((city) => city.names.de).join(' / ')
-                      : def.id === 'kennzeichle' ? platePlaceNames(solutionEntity).join(' / ')
-                      : solutionEntity.names.de,
+                      : def.id === 'kennzeichle'
+                        ? platePlaceNames(solutionEntity).join(' / ')
+                        : solutionEntity.names.de,
                 })}
               </p>
             )}
@@ -484,8 +496,11 @@ function KennzeichleBoard({ plate, revealed }: { plate: Entity; revealed: number
   const geo = useGeoData()
   const { t } = useTranslation()
   const code = plate.attributes.code as string
-  const regions = [...new Set([plate.attributes.region, ...((plate.attributes.regions as string[] | undefined) ?? [])])]
-    .map((id) => typeof id === 'string' ? geo.byId.get(id) : undefined).filter((region): region is Entity => !!region)
+  const regions = [
+    ...new Set([plate.attributes.region, ...((plate.attributes.regions as string[] | undefined) ?? [])]),
+  ]
+    .map((id) => (typeof id === 'string' ? geo.byId.get(id) : undefined))
+    .filter((region): region is Entity => !!region)
   const region = regions.length === 1 ? regions[0] : undefined
   const hints = [
     `${t('daily.hint_length')}: ${code.length}`,

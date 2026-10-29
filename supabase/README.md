@@ -5,6 +5,10 @@ Gehärtete Backend-Schicht für optionale Konten und geräteübergreifenden Fort
 - `migrations/0001_schema.sql` – Nutzertabellen, öffentliche Profil-View, Trigger
 - `migrations/0002_rls.sql` – Row Level Security: Stats, Fortschritt, Achievements und Quests sind für den Client **nur lesbar**; geschrieben wird ausschließlich über Edge Functions
 - `migrations/0003_security_hardening.sql` – öffentliche Schreibwege schließen und Profil-View absichern
+- `migrations/20261029115335_isolate_public_profile_access.sql` – öffentliche Profile mit begrenzter Lese-Funktion und privaten RLS-Helfern
+- `migrations/20261029120306_note_conflicts_return_http409.sql` – sofortige HTTP-409-Antwort bei konkurrierenden Notizänderungen
+- `migrations/0005_quiz_notes.sql` – private, accountfreie Notizbücher mit zufälligem Link-Zugang und Versionsschutz
+- `functions/quiz-notes` – geräteübergreifende Lernnotizen ohne Login, mit serverseitiger Ratenbegrenzung; [Einrichtung](NOTES_SETUP.md)
 - `migrations/0004_account_security.sql` – MFA-erzwingende RLS-Regeln, minimale Privilegien, Eingabegrenzen und persistente Rate Limits
 - `functions/submit-session` – Session einreichen, Plausibilität prüfen (Antwortzeiten, Duplikate), XP/SRS/Achievements serverseitig berechnen
 - `functions/delete-account` – echte Account-Löschung inkl. Kaskade und Session-Invalidierung

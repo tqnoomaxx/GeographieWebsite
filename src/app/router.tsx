@@ -10,6 +10,7 @@ const Home = lazy(() => import('@/features/home/HomePage'))
 const Story = lazy(() => import('@/features/story/StoryPage'))
 const PlayStart = lazy(() => import('@/features/play/PlayStartPage'))
 const Round = lazy(() => import('@/features/play/RoundPage'))
+const Notes = lazy(() => import('@/features/notes/NotesPage'))
 const Daily = lazy(() => import('@/features/daily/DailyHubPage'))
 const Puzzle = lazy(() => import('@/features/daily/PuzzlePage'))
 const Learn = lazy(() => import('@/features/learn/LearnPage'))
@@ -55,6 +56,7 @@ export const router = createBrowserRouter(
       children: [
         { path: '/', element: <Home /> },
         { path: '/story', element: <Story /> },
+        { path: '/notes', element: <Notes /> },
         { path: '/play', element: <PlayStart /> },
         { path: '/play/:category', element: <PlayStart /> },
         { path: '/play/:category/round', element: <Round /> },
