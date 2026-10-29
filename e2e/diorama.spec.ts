@@ -1,4 +1,5 @@
 import { test, expect, type Page } from '@playwright/test'
+import { geoMercator } from 'd3-geo'
 import { INVESTIGATIONS, INVESTIGATION_STORAGE_KEY } from '../src/features/story/investigations'
 
 const noOverflow = async (page: Page) =>
@@ -14,6 +15,35 @@ async function pin(page: Page, index: number, targetIndex: number) {
   const file = INVESTIGATIONS[index],
     target = file.targets[targetIndex]
   await mobileSurface(page, 'map')
+  if (index === 0) {
+    // Use the published river endpoint, independently of the game's answer coordinate.
+    const response = await page.request.get('data/story/caucasus.geojson')
+    const data = await response.json()
+    const aragvi = data.features.find((feature: GeoJSON.Feature) => feature.properties?.name === 'არაგვი')
+    const location = aragvi.geometry.coordinates.at(-1)
+    const map = page.getByRole('group', { name: 'Ermittlungskarte Kaukasus' })
+    const size = await map.evaluate((element) => ({
+      width: Number(element.getAttribute('width')),
+      height: Number(element.getAttribute('height')),
+    }))
+    const projection = geoMercator().fitExtent(
+      [
+        [28, 35],
+        [size.width - 28, size.height - 35],
+      ],
+      {
+        type: 'LineString',
+        coordinates: [
+          [44.59, 41.69],
+          [44.91, 41.91],
+        ],
+      },
+    )
+    const point = projection(location)!
+    await map.click({ position: { x: point[0], y: point[1] } })
+    await expect(page.locator('[data-case-pin="confluence"]')).toBeVisible()
+    return
+  }
   await page.getByRole('button', { name: new RegExp(`^${targetIndex + 1}.*${target.label}`) }).click()
   const coordinates = page.locator('.investigation-coordinates')
   if ((await coordinates.getAttribute('open')) === null) await coordinates.locator('summary').click()

@@ -69,7 +69,7 @@ const CASE_FILES: Investigation[] = [
     objective:
       'Markiere den beschriebenen Zusammenfluss. Belege den Ort mit zwei Unterlagen und kennzeichne den unzuverlässigen Bericht.',
     targets: [
-      target('confluence', 'Zusammenfluss', 'Aragvi und Mtkvari bei Mzcheta', 44.74808, 41.8388, 1.1),
+      target('confluence', 'Zusammenfluss', 'Aragvi und Mtkvari bei Mzcheta', 44.72608, 41.8388, 1.1),
     ],
     evidence: [
       {

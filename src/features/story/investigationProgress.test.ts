@@ -9,6 +9,7 @@ import {
   emptyInvestigationProgress,
   evaluateInvestigation,
   newInvestigationRun,
+  pointDistance,
   numericValue,
   parseInvestigationProgress,
   type InvestigationProgress,
@@ -43,6 +44,20 @@ const submit = (progress: InvestigationProgress, index: number) =>
   advanceInvestigation(progress, { type: 'submit', caseId: INVESTIGATIONS[index].id, map: mapFor(index) })
 
 describe('Geografische Ermittlungen', () => {
+  it('akzeptiert den tatsächlichen Aragvi-Mtkvari-Zusammenfluss aus den OSM-Daten', () => {
+    const map = mapFor(0)
+    const aragvi = map.features.find((feature) => feature.properties.name === 'არაგვი')!
+    expect(aragvi.geometry.type).toBe('LineString')
+    if (aragvi.geometry.type !== 'LineString') throw new Error('Aragvi fehlt')
+    const [lon, lat] = aragvi.geometry.coordinates.at(-1)!
+    const file = INVESTIGATIONS[0]
+    const run = newInvestigationRun()
+    run.pins.confluence = { lon, lat }
+    run.proof = file.proof
+    run.rejected = file.reject!.id
+    expect(pointDistance(file.targets[0].location, { lon, lat })).toBeLessThan(0.1)
+    expect(evaluateInvestigation(file, run, map).solved).toBe(true)
+  })
   it('hat acht eigenständige Fälle mit Karten, belastbaren Belegen und begründeten Gegenprüfungen', () => {
     expect(INVESTIGATIONS).toHaveLength(8)
     expect(new Set(INVESTIGATIONS.map((file) => file.id)).size).toBe(8)
