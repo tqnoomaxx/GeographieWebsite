@@ -1,3 +1,4 @@
+import { DeveloperQuizButton } from '@/features/developer/DeveloperQuizButton'
 import { useEffect, useRef, useState, type CSSProperties } from 'react'
 import {
   ArrowLeft,
@@ -311,6 +312,7 @@ export function InvestigationDesk({
         <span className="investigation-case-number">AKTE {String(index + 1).padStart(2, '0')} / 08</span>
         <div>
           <QuizNotesButton context={`Story · Fall ${index + 1}: ${file.title}`} />
+          <DeveloperQuizButton context={`Story · Fall ${index + 1}: ${file.title}`} />
           <button type="button" className="investigation-text-button" onClick={onArchive}>
             Fallarchiv
           </button>

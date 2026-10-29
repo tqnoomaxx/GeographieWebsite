@@ -1,3 +1,4 @@
+import { DeveloperQuizButton } from '@/features/developer/DeveloperQuizButton'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useParams, useSearchParams, Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
@@ -205,6 +206,7 @@ export default function PuzzlePage() {
           </Link>
           <div className="daily-notes-tools">
             <QuizNotesButton context={t(`daily.${def.id}`)} />
+            <DeveloperQuizButton context={t(`daily.${def.id}`)} />
             <div
               className="daily-attempt-progress"
               aria-label={t('daily.attempts', { n: attempts, max: MAX_ATTEMPTS })}

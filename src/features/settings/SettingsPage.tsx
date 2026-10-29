@@ -8,9 +8,11 @@ import { getThemeMode, setThemeMode, type ThemeMode } from '@/services/settings/
 import { setMotionMode, useMotionMode } from '@/services/settings/motion'
 import { loadVersion } from '@/services/data/dataService'
 import { Page, Card, Chips, useToast } from '@/ui'
+import { useDeveloperAccess } from '@/features/developer/useDeveloperAccess'
 
 export default function SettingsPage() {
   const { t } = useTranslation()
+  const developer = useDeveloperAccess()
   useDocumentTitle(t('settings.title'))
   const repo = getRepository()
   const motion = useMotionMode()
@@ -92,6 +94,7 @@ export default function SettingsPage() {
         <h2 className="font-medium">{t('settings.about')}</h2>
         <Link to="/quellen" className="underline">{t('settings.sources')}</Link>
         <Link to="/admin" className="underline">🛠 Datenqualität</Link>
+        {developer.allowed && <Link to="/developer" className="underline">Quiz-Verbesserungen · Entwicklerpanel</Link>}
         <Link to="/impressum" className="underline">{t('legal.imprint')}</Link>
         <Link to="/datenschutz" className="underline">{t('legal.privacy')}</Link>
         <Link to="/nutzungsbedingungen" className="underline">{t('legal.terms')}</Link>

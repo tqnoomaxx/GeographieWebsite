@@ -2,6 +2,8 @@
 
 Gehärtete Backend-Schicht für optionale Konten und geräteübergreifenden Fortschritt.
 
+Quiz-Verbesserungen für freigeschaltete Entwickler: [Einrichtung und Rechte](DEVELOPER_SETUP.md).
+
 - `migrations/0001_schema.sql` – Nutzertabellen, öffentliche Profil-View, Trigger
 - `migrations/0002_rls.sql` – Row Level Security: Stats, Fortschritt, Achievements und Quests sind für den Client **nur lesbar**; geschrieben wird ausschließlich über Edge Functions
 - `migrations/0003_security_hardening.sql` – öffentliche Schreibwege schließen und Profil-View absichern

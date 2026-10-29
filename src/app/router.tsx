@@ -4,6 +4,7 @@ import { Layout } from './Layout'
 import { DataProvider } from './DataProvider'
 import { ErrorBoundary } from './ErrorBoundary'
 import { AuthProvider } from './AuthProvider'
+import { DeveloperAccessProvider } from '@/features/developer/useDeveloperAccess'
 import { pagesRedirect, pagesHistoryState, PAGES_HISTORY_KEY } from './pagesRedirect'
 
 const Home = lazy(() => import('@/features/home/HomePage'))
@@ -30,6 +31,7 @@ const Legal = lazy(() => import('@/features/legal/LegalPage'))
 const Forms = lazy(() => import('@/features/legal/FormsPage'))
 const Sources = lazy(() => import('@/features/legal/SourcesPage'))
 const Admin = lazy(() => import('@/features/admin/AdminPage'))
+const Developer = lazy(() => import('@/features/developer/DeveloperPage'))
 const NaturePage = lazy(() => import('@/features/explore/NaturePage'))
 const Login = lazy(() => import('@/features/account/LoginPage'))
 const Account = lazy(() => import('@/features/account/AccountPage'))
@@ -73,9 +75,11 @@ export const router = createBrowserRouter(
       element: (
         <ErrorBoundary>
           <AuthProvider>
-            <DataProvider>
-              <Layout />
-            </DataProvider>
+            <DeveloperAccessProvider>
+              <DataProvider>
+                <Layout />
+              </DataProvider>
+            </DeveloperAccessProvider>
           </AuthProvider>
         </ErrorBoundary>
       ),
@@ -111,6 +115,7 @@ export const router = createBrowserRouter(
         { path: '/vorschlagen', element: <Forms kind="suggest" /> },
         { path: '/quellen', element: <Sources /> },
         { path: '/admin', element: <Admin /> },
+        { path: '/developer', element: <Developer /> },
         { path: '/login', element: <Login /> },
         { path: '/account', element: <Account /> },
         { path: '/passwort', element: <ResetPw /> },

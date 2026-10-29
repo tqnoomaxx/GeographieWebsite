@@ -80,6 +80,7 @@ function Privacy() {
         </>}
       </Section>
       <Section title="7. Kontakt, Vorschläge und Fehlermeldungen">
+        <p>Für freigeschaltete Entwickler gibt es eine private Verbesserungsliste bei Supabase. Sie speichert die bewusst eingegebenen Texte, Status, Priorität, Quiz- und Fragebezug, die interne Autorenkennung und Zeitstempel. Nur berechtigte Entwickler können diese Einträge lesen, ändern und endgültig löschen. Bei einer Kontolöschung bleibt die gemeinsame Aufgabe ohne Autorenkennung erhalten.</p>
         <p>Kontakt öffnet Ihr lokales E-Mail-Programm. Vorschläge und Fehlermeldungen öffnen nach einem weiteren bewussten Klick ein vorausgefülltes GitHub-Formular. Die eingegebenen Formulardaten werden vorher nicht an GitHub übertragen. GitHub kann Inhalte eines dort abgesendeten Issues öffentlich anzeigen; tragen Sie dort keine vertraulichen oder personenbezogenen Daten ein.</p>
       </Section>
       <Section title="8. Externe Links">

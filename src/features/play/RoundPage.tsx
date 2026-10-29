@@ -1,3 +1,4 @@
+import { DeveloperQuizButton } from '@/features/developer/DeveloperQuizButton'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { Link, useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
@@ -321,7 +322,10 @@ function RoundSessionPage() {
               <span className="hidden sm:inline">{t('play.points')}</span>
             </strong>
           </div>
-          <QuizNotesButton context={label(session.setup).title} />
+          <div className="dev-quiz-tools">
+            <QuizNotesButton context={label(session.setup).title} />
+            <DeveloperQuizButton context={label(session.setup).title} question={current?.question} />
+          </div>
         </div>
       </header>
       <main className="relative z-10 mx-auto flex w-full max-w-[1440px] flex-col px-4 py-7 sm:px-8 md:py-10 lg:px-12">
@@ -766,8 +770,9 @@ function ResultView({ session, outcome }: { session: QuizSession; outcome: Round
           setup={session.setup}
           className="mx-auto mt-3 w-fit max-w-full text-left [&_p]:whitespace-normal"
         />
-        <div className="mt-4 flex justify-center">
+        <div className="mt-4 flex justify-center gap-2">
           <QuizNotesButton context={label(session.setup).title} />
+          <DeveloperQuizButton context={label(session.setup).title} />
         </div>
         {!completed && (
           <p className="mt-3 text-ink-2">

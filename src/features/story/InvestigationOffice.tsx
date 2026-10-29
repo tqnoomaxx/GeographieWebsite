@@ -1,3 +1,4 @@
+import { DeveloperQuizButton } from '@/features/developer/DeveloperQuizButton'
 import { ArrowUpRight, Archive, Check, LockKeyhole } from 'lucide-react'
 import { INVESTIGATIONS } from './investigations'
 import { nextInvestigation, type InvestigationProgress } from './investigationProgress'
@@ -25,6 +26,7 @@ export function InvestigationOffice({
           <span className="office-brand">ERMITTLUNGSBÜRO</span>
           <div className="office-tools">
             <QuizNotesButton context="Story · Die falsche Route" />
+            <DeveloperQuizButton context="Story · Die falsche Route" />
             <button className="office-archive-button" type="button" onClick={onArchive}>
               <Archive aria-hidden />
               <span>Fallarchiv</span>
