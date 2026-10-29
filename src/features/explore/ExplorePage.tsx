@@ -1,9 +1,10 @@
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { ArrowRight, ChevronDown, Search } from 'lucide-react'
 import { useGeoData } from '@/app/DataProvider'
 import { useDocumentTitle } from '@/app/hooks'
+import { usePageViewState } from '@/app/usePageViewState'
 import { normalizeAnswer } from '@/engine/normalize'
 import { Page, Flag } from '@/ui'
 
@@ -20,7 +21,8 @@ const LISTS = {
 export default function ExplorePage() {
   const { t } = useTranslation()
   const geo = useGeoData()
-  const [query, setQuery] = useState('')
+  const [query, setQuery] = usePageViewState('explore.query', '')
+  const [opened, setOpened] = usePageViewState<string[]>('explore.continents', [])
   useDocumentTitle(t('explore.title'))
   const countries = useMemo(
     () =>
@@ -53,7 +55,22 @@ export default function ExplorePage() {
           const list = countries.filter((country) => country.attributes.continent === continent)
           if (query && !list.length) return null
           return (
-            <details className="simple-disclosure" key={continent} open={query ? true : undefined}>
+            <details
+              className="simple-disclosure"
+              key={continent}
+              open={!!query || opened.includes(continent)}
+              onToggle={(event) => {
+                if (query) return
+                const isOpen = event.currentTarget.open
+                setOpened((current) =>
+                  current.includes(continent) === isOpen
+                    ? current
+                    : isOpen
+                      ? [...current, continent]
+                      : current.filter((item) => item !== continent),
+                )
+              }}
+            >
               <summary>
                 <span>
                   {t(`scope.${continent}`)} <small>{list.length} Länder</small>

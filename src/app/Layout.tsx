@@ -1,4 +1,4 @@
-import { Suspense, useEffect } from 'react'
+import { Suspense } from 'react'
 import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useOnline } from './hooks'
@@ -8,6 +8,7 @@ import { Globe, Map } from 'lucide-react'
 import { useAuth } from './AuthProvider'
 import { useDataResources } from './DataProvider'
 import { resourcesForPage } from './dataRequirements'
+import { NavigationRestoration } from './NavigationRestoration'
 
 const NAV = [
   { to: '/', key: 'nav.home', icon: 'home', end: true },
@@ -26,10 +27,6 @@ export function Layout() {
   const data = useDataResources(resourcesForPage(pathname, new URLSearchParams(search)))
   const { mfaRequired } = useAuth()
 
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [pathname])
-
   const immersive =
     (pathname === '/story' &&
       (new URLSearchParams(search).has('case') || new URLSearchParams(search).has('level'))) ||
@@ -38,6 +35,7 @@ export function Layout() {
     /^\/daily\/[^/]+$/.test(pathname)
   return (
     <div className={`simple-shell flex min-h-dvh flex-col ${immersive ? 'is-immersive' : 'site-shell'}`}>
+      <NavigationRestoration />
       {!immersive && (
         <header className="simple-header">
           <div className="simple-header-inner">

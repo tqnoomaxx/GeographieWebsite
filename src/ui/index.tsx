@@ -1,9 +1,9 @@
 import { useEffect, useState, type ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Link } from 'react-router-dom'
 import { mediaUrl } from '@/services/data/dataService'
 import type { Entity } from '@/domain/types'
 import { ChevronLeft } from 'lucide-react'
+import { BackButton } from './BackButton'
 
 export function Page({ title, children, back, action, wide = false }: { title?: string; children: ReactNode; back?: string; action?: ReactNode; wide?: boolean }) {
   return (
@@ -11,9 +11,9 @@ export function Page({ title, children, back, action, wide = false }: { title?: 
       {(title || back) && (
         <header className="page-heading mb-7 flex items-end gap-3">
           {back && (
-            <Link to={back} className="page-back btn-ghost -ml-2 px-2" aria-label="Zurück">
+            <BackButton fallback={back} className="page-back btn-ghost -ml-2 px-2" aria-label="Zurück">
               <ChevronLeft className="h-6 w-6" />
-            </Link>
+            </BackButton>
           )}
           {title && <h1 className="min-w-0 flex-1 break-words text-[clamp(2.5rem,9vw,5.5rem)] font-black leading-[.86] md:tracking-[-.055em]">{title}</h1>}
           {action && <div className="ml-auto shrink-0">{action}</div>}

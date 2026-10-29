@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
 import { useAsync, useDocumentTitle } from '@/app/hooks'
+import { usePageViewState } from '@/app/usePageViewState'
 import type { Country, Entity } from '@/domain/types'
 import { SCOPES, inScope } from '@/engine/scope'
 import { createRng } from '@/engine/rng'
@@ -18,25 +19,39 @@ export default function LearnPage() {
   useDocumentTitle(t('learn.title'))
   const geo = useGeoData()
   const repo = getRepository()
-  const [scope, setScope] = useState<string>(() => localStorage.getItem('gk.learn.scope') ?? 'europe')
+  const [scope, setScope] = usePageViewState<string>(
+    'learn.scope',
+    () => localStorage.getItem('gk.learn.scope') ?? 'europe',
+  )
   const { data: progress, loading, error, reload } = useAsync(() => repo.getAllEntityProgress(), [])
-  const [seed, setSeed] = useState(0)
-  const [learnedNow, setLearnedNow] = useState(0)
+  const [seed, setSeed] = usePageViewState('learn.seed', 0)
+  const [learnedNow, setLearnedNow] = usePageViewState('learn.learnedNow', 0)
+  const [savedQueue, setSavedQueue] = usePageViewState<{ scope: string; seed: number; ids: string[] } | null>(
+    'learn.queue',
+    null,
+  )
 
   const queue = useMemo(() => {
     if (!geo.ready || !progress) return []
     const pool = geo.countries.filter(
       (c) => (c as Country).attributes.independent !== false && inScope(c, scope, geo.byId),
     )
+    if (savedQueue?.scope === scope && savedQueue.seed === seed) {
+      const byId = new Map(pool.map((country) => [country.id, country]))
+      return savedQueue.ids.flatMap((id) => (byId.has(id) ? [byId.get(id)!] : []))
+    }
     const rng = createRng(`learn:${scope}:${seed}`)
     return rng
       .shuffle(pool)
       .map((e) => ({ e, w: selectionWeight(progress.get(e.id)) }))
       .sort((a, b) => b.w - a.w)
       .map((x) => x.e)
-  }, [geo.ready, geo.countries, geo.byId, progress, scope, seed])
-  const [idx, setIdx] = useState(0)
-  useEffect(() => setIdx(0), [scope, seed])
+  }, [geo.ready, geo.countries, geo.byId, progress, scope, seed, savedQueue])
+  const [idx, setIdx] = usePageViewState('learn.index', 0)
+  useEffect(() => {
+    if (queue.length && (savedQueue?.scope !== scope || savedQueue.seed !== seed))
+      setSavedQueue({ scope, seed, ids: queue.map((country) => country.id) })
+  }, [queue, scope, seed, savedQueue, setSavedQueue])
   const current: Entity | undefined = queue[idx]
 
   const [marking, setMarking] = useState(false)
@@ -74,6 +89,7 @@ export default function LearnPage() {
           value={scope}
           onChange={(event) => {
             setScope(event.target.value)
+            setIdx(0)
             localStorage.setItem('gk.learn.scope', event.target.value)
           }}
         >
@@ -102,6 +118,7 @@ export default function LearnPage() {
               className="btn-primary"
               onClick={() => {
                 setSeed((s) => s + 1)
+                setIdx(0)
                 reload()
               }}
             >

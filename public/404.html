@@ -7,6 +7,19 @@
   var repoBase = document.querySelector('meta[name="gk-base"]');
   var base = repoBase ? repoBase.content : '/' + (segments.length && location.hostname.endsWith('github.io') ? segments[0] + '/' : '');
   var rest = location.pathname.slice(base.length);
+  // A reload retains the entry here, but location.replace would discard its router state.
+  try {
+    var historyKey = 'atlasfunke.pages.history.v1';
+    sessionStorage.removeItem(historyKey);
+    if (history.state && Number.isSafeInteger(history.state.idx)) {
+      sessionStorage.setItem(historyKey, JSON.stringify({
+        path: location.pathname + location.search + location.hash,
+        state: history.state,
+        navigationType: performance.getEntriesByType('navigation')[0]?.type,
+        time: Date.now()
+      }));
+    }
+  } catch (error) { /* The redirect still works with storage disabled. */ }
   location.replace(base + '?p=' + encodeURIComponent('/' + rest + location.search) + location.hash);
 })();
 </script></head><body></body></html>

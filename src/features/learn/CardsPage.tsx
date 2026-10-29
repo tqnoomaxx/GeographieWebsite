@@ -1,8 +1,9 @@
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
 import { useAsync, useDocumentTitle } from '@/app/hooks'
+import { usePageViewState } from '@/app/usePageViewState'
 import { buildCollections } from '@/config/collections'
 import { inScope } from '@/engine/scope'
 import { normalizeAnswer } from '@/engine/normalize'
@@ -19,9 +20,9 @@ export default function CardsPage() {
   const colId = params.get('collection') ?? 'countries'
   const col = collections.find((c) => c.id === colId) ?? collections[0]
   useDocumentTitle(col ? `${t('setup.cards')} · ${col.title}` : t('setup.cards'))
-  const [q, setQ] = useState('')
-  const [revealed, setRevealed] = useState<Set<string>>(new Set())
-  const [hide, setHide] = useState(false)
+  const [q, setQ] = usePageViewState('cards.query', '')
+  const [revealed, setRevealed] = usePageViewState<string[]>('cards.revealed', [])
+  const [hide, setHide] = usePageViewState('cards.hide', false)
   const { data: progress } = useAsync(() => getRepository().getAllEntityProgress(), [])
 
   const items = useMemo(() => {
@@ -42,17 +43,17 @@ export default function CardsPage() {
           ))}
         </select>
         <input value={q} onChange={(e) => setQ(e.target.value)} placeholder={t('search.placeholder')} className="min-h-11 flex-1 rounded-xl border border-line bg-card px-3" aria-label={t('nav.search')} />
-        <button type="button" className={`chip ${hide ? 'chip-active' : ''}`} aria-pressed={hide} onClick={() => { setHide((h) => !h); setRevealed(new Set()) }}>
+        <button type="button" className={`chip ${hide ? 'chip-active' : ''}`} aria-pressed={hide} onClick={() => { setHide((h) => !h); setRevealed([]) }}>
           <Icons.learn className="mr-1 h-4 w-4" /> {t('cards.hide_names')}
         </button>
       </div>
       <p className="mb-3 text-sm text-ink-2">{items.length} {t('cards.items')} · {items.filter((e) => ['familiar', 'mastered'].includes(state(e.id))).length} {t('cards.known')}</p>
       <ul className="grid grid-cols-2 gap-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
         {items.map((e) => {
-          const shown = !hide || revealed.has(e.id)
+          const shown = !hide || revealed.includes(e.id)
           return (
             <li key={e.id}>
-              <button type="button" onClick={() => hide && setRevealed((s) => new Set(s).add(e.id))} className="card flex w-full flex-col items-center gap-2 p-3 text-center hover:bg-card-2">
+              <button type="button" onClick={() => hide && setRevealed((s) => s.includes(e.id) ? s : [...s, e.id])} className="card flex w-full flex-col items-center gap-2 p-3 text-center hover:bg-card-2">
                 <Flag entity={e} size="md" className="h-14" />
                 <span className="flex items-center gap-1.5 text-sm font-medium leading-tight">
                   <span className={`inline-block h-2 w-2 rounded-full ${dot[state(e.id)]}`} role="img" aria-label={t(`learn.states.${state(e.id)}`)} title={t(`learn.states.${state(e.id)}`)} />

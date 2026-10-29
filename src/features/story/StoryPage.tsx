@@ -22,7 +22,6 @@ export default function StoryPage() {
   useDocumentTitle(selected >= 0 ? `${INVESTIGATIONS[selected].title} · Story` : 'Die falsche Route · Story')
   useEffect(() => {
     if ((params.has('case') && selected < 0) || params.has('level')) navigate('/story', { replace: true })
-    window.scrollTo({ top: 0, behavior: 'instant' })
   }, [selected, params, navigate])
   useEffect(() => {
     if (archive && !dialog.current?.open) dialog.current?.showModal()

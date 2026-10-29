@@ -4,7 +4,7 @@ import { Layout } from './Layout'
 import { DataProvider } from './DataProvider'
 import { ErrorBoundary } from './ErrorBoundary'
 import { AuthProvider } from './AuthProvider'
-import { pagesRedirect } from './pagesRedirect'
+import { pagesRedirect, pagesHistoryState, PAGES_HISTORY_KEY } from './pagesRedirect'
 
 const Home = lazy(() => import('@/features/home/HomePage'))
 const Story = lazy(() => import('@/features/story/StoryPage'))
@@ -39,7 +39,33 @@ const PublicProfile = lazy(() => import('@/features/account/PublicProfilePage'))
 
 // GitHub-Pages-Fallback: auch Suchzustand und die Konfiguration einer Runde erhalten.
 const redirected = pagesRedirect(location.search, import.meta.env.BASE_URL, location.hash)
-if (redirected) history.replaceState(null, '', redirected)
+let historyWasRestored = false
+if (redirected) {
+  let state = history.state
+  try {
+    const saved = sessionStorage.getItem(PAGES_HISTORY_KEY)
+    sessionStorage.removeItem(PAGES_HISTORY_KEY)
+    const restored = pagesHistoryState(saved, redirected, state, history.length)
+    historyWasRestored = restored !== state
+    state = restored
+  } catch {
+    /* Navigation also works without session storage. */
+  }
+  history.replaceState(state, '', redirected)
+}
+// A fresh URL visit starts its own view; reload/back and the Pages handoff keep their entry.
+const documentNavigation = performance.getEntriesByType('navigation')[0] as
+  PerformanceNavigationTiming | undefined
+const freshVisit = documentNavigation?.type === 'navigate' && !historyWasRestored
+if (freshVisit || !history.state?.key) {
+  const state = history.state
+  let userState = state?.usr
+  if (freshVisit && userState && typeof userState === 'object' && !Array.isArray(userState)) {
+    userState = { ...userState }
+    delete userState.atlasPageView
+  }
+  history.replaceState({ ...state, usr: userState, key: Math.random().toString(36).slice(2) }, '')
+}
 
 export const router = createBrowserRouter(
   [

@@ -5,6 +5,7 @@ import { useDataResources, useGeoData } from '@/app/DataProvider'
 import { resourcesForQuiz } from '@/app/dataRequirements'
 import { refreshCountryFacts } from '@/engine/countryFacts'
 import { useDocumentTitle } from '@/app/hooks'
+import { usePageViewState } from '@/app/usePageViewState'
 import {
   advanceSession,
   acceptProfileInput,
@@ -65,33 +66,35 @@ function RoundSessionPage() {
   const geo = useGeoData()
   const navigate = useNavigate()
   const repo = getRepository()
-  const [session, setSession] = useState<QuizSession | null>(null)
+  const [session, setSession] = usePageViewState<QuizSession | null>('round.session', null)
   const [error, setError] = useState<Error | null>(null)
-  const [outcome, setOutcome] = useState<RoundOutcome | null>(null)
-  const startedRef = useRef(false)
+  const [outcome, setOutcome] = usePageViewState<RoundOutcome | null>('round.outcome', null)
+  const startedRef = useRef(!!session)
   const finishingRef = useRef(false)
   const [finishing, setFinishing] = useState(false)
 
   // Gespeicherte Runde (Fortsetzen) oder neues Setup aus der URL
   const [stored, setStored] = useState<QuizSession | null | undefined>(sessionId ? undefined : null)
   useEffect(() => {
-    if (!sessionId) return
+    if (!sessionId || startedRef.current) return
     repo
       .getSession(sessionId)
       .then((s) => (s ? setStored({ ...s, setup: setupOf(s) }) : setError(new Error('Runde nicht gefunden'))))
       .catch(setError)
   }, [sessionId, repo])
-  const setup: RoundConfig | null = stored
-    ? stored.setup
-    : stored === null && category
-      ? fromQuery(category, params)
-      : null
+  const setup: RoundConfig | null = session
+    ? session.setup
+    : stored
+      ? stored.setup
+      : stored === null && category
+        ? fromQuery(category, params)
+        : null
   useEffect(() => {
     if (!sessionId && !category) setError(new Error(t('play.no_questions')))
   }, [sessionId, category, t])
   const resources = useDataResources(setup ? resourcesForQuiz(setup.category, setup) : [])
   const isCityRecall = exerciseFor(setup?.exercise)?.kind === 'city-recall'
-  const recall = useCityRecallData(isCityRecall && !stored ? setup?.scope : undefined)
+  const recall = useCityRecallData(isCityRecall && !stored && !session ? setup?.scope : undefined)
   const label = useRoundLabel()
   useDocumentTitle(setup ? label(setup).title : undefined)
 

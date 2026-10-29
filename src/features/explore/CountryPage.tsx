@@ -1,9 +1,9 @@
-import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { Photo } from '@/ui/Photo'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
 import { useAsync, useDocumentTitle } from '@/app/hooks'
+import { usePageViewState } from '@/app/usePageViewState'
 import type { Country, Entity } from '@/domain/types'
 import { mediaUrl } from '@/services/data/dataService'
 import { getRepository } from '@/services/progress'
@@ -19,7 +19,7 @@ export default function CountryPage() {
   const country = geo.countries.find((c) => c.attributes.iso2 === id) as Country | undefined
   useDocumentTitle(country?.names.de)
   const regions = geo.regions.filter((region) => region.attributes.country === country?.id)
-  const [showMap, setShowMap] = useState(false)
+  const [showMap, setShowMap] = usePageViewState('country.map', false)
   const { data: progress } = useAsync(
     () => (country ? getRepository().getEntityProgress(country.id) : Promise.resolve(undefined)),
     [country?.id],

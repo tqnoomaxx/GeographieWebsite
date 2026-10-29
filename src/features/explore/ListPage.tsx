@@ -1,8 +1,9 @@
 import { Link, useParams } from 'react-router-dom'
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useGeoData } from '@/app/DataProvider'
 import { useDocumentTitle } from '@/app/hooks'
+import { usePageViewState } from '@/app/usePageViewState'
 import { Page, Flag, formatNumber, entityPath } from '@/ui'
 import { mediaUrl } from '@/services/data/dataService'
 import type { Country } from '@/domain/types'
@@ -14,8 +15,8 @@ export default function ListPage() {
   const { t } = useTranslation()
   const { list } = useParams()
   const geo = useGeoData()
-  const [landmarkQuery, setLandmarkQuery] = useState('')
-  const [landmarkContinent, setLandmarkContinent] = useState('world')
+  const [landmarkQuery, setLandmarkQuery] = usePageViewState('landmarks.query', '')
+  const [landmarkContinent, setLandmarkContinent] = usePageViewState('landmarks.continent', 'world')
   const landmarks = useMemo(() => {
     const query = normalizeAnswer(landmarkQuery)
     return geo.landmarks

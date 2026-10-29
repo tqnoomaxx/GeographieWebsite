@@ -18,6 +18,8 @@ Falltexte und geografische Quellen liegen in `src/features/story/investigations.
 
 Entwürfe, gelesene Unterlagen, Denkanstöße, gelöste Fälle und Bestleistungen werden versioniert auf diesem Gerät gespeichert. Wiederholungen erhalten Freischaltungen und Bestleistungen. Das Fallarchiv erlaubt einen ausdrücklich bestätigten Neustart. Alte Quiz-Story-Speicherschlüssel werden weder gelöscht noch als gelöste Ermittlungen übernommen. Alte Level-Links führen sicher ins Büro; `/play?view=diorama` führt weiterhin zu `/story`. Die geräteübergreifenden Lernnotizen sind im Büro und in jeder Akte zugänglich.
 
+Der Zurückpfeil folgt dem tatsächlichen Browserverlauf. Bei direkten Einstiegen ohne internen Vorgänger ersetzt er die aktuelle Seite durch das passende Bereichsziel. Suchfilter, geöffnete Kontinente, Kartenansicht, Lernkarten und laufende Quizrunden gehören zum jeweiligen Verlaufseintrag; ein neuer Besuch startet mit einem eigenen Zustand. Beim Zurück- und Vorwärtsnavigieren wird die Scrollposition nach dem Laden der Inhalte wiederhergestellt. Der GitHub-Pages-404-Fallback übergibt den ursprünglichen Eintrag beim Neuladen, damit auch danach der richtige Rückweg erhalten bleibt. Die Logik liegt in `BackButton.tsx`, `usePageViewState.ts`, `NavigationRestoration.tsx` und `pagesRedirect.ts`.
+
 Unter **Entdecken** filtert die Ländersuche die Kontinente direkt. Das gemeinsame Designsystem liegt in `src/styles/simple.css`; die Start- und Quizseite verwenden denselben `QuizCatalog`.
 
 ## Neue Quizübungen ergänzen
