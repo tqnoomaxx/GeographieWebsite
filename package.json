@@ -29,6 +29,7 @@
     "e2e": "playwright test",
     "data:plates": "node scripts/import-plates.mjs DE && node scripts/import-plates.mjs AT && node scripts/import-plates.mjs CH && node scripts/import-polish-plates.mjs",
     "data:nature": "node scripts/import-nature.mjs && node scripts/import-nature-maps.mjs",
+    "data:story": "node scripts/import-story-maps.mjs",
     "data:nature-maps": "node scripts/import-nature-maps.mjs",
     "data:labels": "node scripts/import-labels.mjs",
     "data:cities": "node scripts/import-cities.mjs && node scripts/import-large-cities.mjs && node scripts/import-city-recall.mjs",

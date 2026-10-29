@@ -31,7 +31,8 @@ export function Layout() {
   }, [pathname])
 
   const immersive =
-    (pathname === '/story' && new URLSearchParams(search).has('level')) ||
+    (pathname === '/story' &&
+      (new URLSearchParams(search).has('case') || new URLSearchParams(search).has('level'))) ||
     /^\/play\/[^/]+\/round/.test(pathname) ||
     pathname.startsWith('/play/session/') ||
     /^\/daily\/[^/]+$/.test(pathname)

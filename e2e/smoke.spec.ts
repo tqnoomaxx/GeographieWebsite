@@ -34,10 +34,10 @@ test('Die frühere Quizinsel führt jetzt zur Geschichte', async ({ page }) => {
   const errors = watchErrors(page)
   await page.goto('play?view=diorama')
   await expect(page).toHaveURL(/\/story$/)
-  await expect(page.getByRole('heading', { name: 'Der Atlas der Winde', exact: true })).toBeVisible()
-  await expect(page.locator('[data-journey-chapter]')).toHaveCount(8)
+  await expect(page.getByRole('heading', { name: 'Die falsche Route.', exact: true })).toBeVisible()
+  await expect(page.locator('.story-office')).toBeVisible()
   await page.locator('[data-story-route="0"]').click()
-  await expect(page.getByRole('group', { name: 'Deine Antwort', exact: true })).toBeVisible()
+  await expect(page.getByRole('group', { name: 'Ermittlungskarte Kaukasus', exact: true })).toBeVisible()
   expect(errors).toEqual([])
 })
 

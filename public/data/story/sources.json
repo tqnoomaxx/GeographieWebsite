@@ -1,0 +1,60 @@
+{
+  "retrieved": "2026-10-29",
+  "naturalEarth": {
+    "license": "Public Domain",
+    "scale": "1:10m",
+    "files": [
+      "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_0_countries.geojson",
+      "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_rivers_lake_centerlines.geojson",
+      "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_lakes.geojson"
+    ]
+  },
+  "openStreetMap": {
+    "license": "ODbL 1.0",
+    "attribution": "© OpenStreetMap contributors",
+    "url": "https://www.openstreetmap.org/copyright",
+    "snapshot": "https://api.openstreetmap.org/api/0.6/map?bbox=44.69,41.83,44.74,41.87",
+    "use": "Aragvi and Mtkvari centerlines near their confluence; connected ways followed through the OSM API",
+    "ways": [
+      "20467814",
+      "20468415",
+      "945404053",
+      "945404054",
+      "20564315",
+      "20468351",
+      "149101906",
+      "28091832",
+      "20468313",
+      "20468565",
+      "149101170",
+      "149141936",
+      "20547374",
+      "149141366",
+      "149102128",
+      "260095429",
+      "1114905860",
+      "1394468144",
+      "20547434",
+      "58679806",
+      "1114905859",
+      "1394468145",
+      "149097834",
+      "58679696",
+      "20547474",
+      "149102129",
+      "1063401783",
+      "58679697",
+      "149099339",
+      "56401702",
+      "149099336",
+      "369376923",
+      "1316164380",
+      "1316164385",
+      "1316164386",
+      "135244738",
+      "1190838976",
+      "1190838977"
+    ]
+  },
+  "processing": "Douglas–Peucker simplification; coordinates retained in WGS84. Clockwise polygon exterior rings for d3-geo."
+}

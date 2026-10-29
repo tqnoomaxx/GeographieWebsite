@@ -69,7 +69,7 @@ function CategoryHub() {
       </section>
       <Link to="/story" className="diorama-entry">
         <MapIcon aria-hidden />
-        <span>Der Atlas der Winde · Starte dein Story-Abenteuer auf der 3D-Insel</span>
+        <span>Die falsche Route · Löse geografische Fälle im Ermittlungsbüro</span>
         <ArrowRight aria-hidden />
       </Link>
     </Page>
