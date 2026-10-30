@@ -29,10 +29,10 @@ export function useAsync<T>(fn: () => Promise<T>, deps: unknown[]) {
 }
 
 export function useStats() {
-  const { loading: authLoading } = useAuth()
+  const { loading: authLoading, user, error: sessionError } = useAuth()
   const repo = useRepository()
   const { data, error, loading, reload } = useAsync(() => repo.getStats(), [repo])
-  const stats: UserStats | undefined = authLoading ? undefined : data
+  const stats: UserStats | undefined = authLoading || (sessionError && !user) ? undefined : data
   const level = stats ? levelForXp(stats.xp) : undefined
   return { stats, level, error, loading, reload }
 }

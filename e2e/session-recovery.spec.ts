@@ -153,8 +153,14 @@ test('Ein Auth-Ausfall beim Start zeigt Wiederholen statt das gespeicherte Konto
   await page.goto('profile')
   await expect(page.getByRole('button', { name: 'Sitzung erneut prüfen', exact: true })).toBeVisible()
   expect(await page.evaluate(() => !!sessionStorage.getItem('atlasfunke.auth.session'))).toBe(true)
+  await page.goto('progress')
+  await expect(page.locator('.route-content [role="alert"]')).toContainText('Sitzung')
+  await expect(page.getByRole('heading', { name: 'Mein Fortschritt', exact: true })).toHaveCount(0)
   state.userFailure = false
   await page.getByRole('button', { name: 'Sitzung erneut prüfen', exact: true }).click()
+  await expect(page.getByRole('heading', { name: 'Mein Fortschritt', exact: true })).toBeVisible()
+  await expect(page.getByText('250 / 450 XP', { exact: true })).toBeVisible()
+  await page.goto('profile')
   await expect(page.getByLabel('Name', { exact: true })).toHaveValue('Atlas_Alpha')
 })
 

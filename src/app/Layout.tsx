@@ -25,7 +25,7 @@ export function Layout() {
   const navigate = useNavigate()
   const { pathname, search } = useLocation()
   const data = useDataResources(resourcesForPage(pathname, new URLSearchParams(search)), pathname)
-  const { mfaRequired, loading: sessionLoading, error: sessionError, refresh } = useAuth()
+  const { user, mfaRequired, loading: sessionLoading, error: sessionError, refresh } = useAuth()
   const accountDataPage = /^\/(profile|account|login|settings|progress|learn|play|daily)(\/|$)/.test(pathname)
 
   const immersive =
@@ -115,6 +115,8 @@ export function Layout() {
         <div className="route-content">
           {data.error ? (
             <ErrorState onRetry={data.retry} />
+          ) : sessionError && !user && accountDataPage ? (
+            <ErrorState message={sessionError.message} onRetry={() => void refresh()} />
           ) : data.loading || (sessionLoading && accountDataPage) ? (
             <LoadingState />
           ) : (
