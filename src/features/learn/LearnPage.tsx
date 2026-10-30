@@ -8,26 +8,35 @@ import type { Country, Entity } from '@/domain/types'
 import { SCOPES, inScope } from '@/engine/scope'
 import { createRng } from '@/engine/rng'
 import { selectionWeight } from '@/engine/srs'
-import { getRepository } from '@/services/progress'
+import { useAccountScope, useRepository } from '@/app/useRepository'
+import { useAuth } from '@/app/AuthProvider'
 import { applyLearned } from '@/services/gamification'
 import { Page, Flag, formatNumber, entityPath, EmptyState, ErrorState, LoadingState } from '@/ui'
 import { ReviewPanel } from './ReviewPanel'
 import { FactGrid } from '@/features/explore/facts'
 
 export default function LearnPage() {
+  const { loading } = useAuth()
+  const scope = useAccountScope()
+  if (loading) return <LoadingState message="Sitzung wird geladen …" />
+  return <LearnSession key={scope} />
+}
+
+function LearnSession() {
   const { t } = useTranslation()
   useDocumentTitle(t('learn.title'))
   const geo = useGeoData()
-  const repo = getRepository()
+  const repo = useRepository()
+  const accountScope = useAccountScope()
   const [scope, setScope] = usePageViewState<string>(
     'learn.scope',
     () => localStorage.getItem('gk.learn.scope') ?? 'europe',
   )
-  const { data: progress, loading, error, reload } = useAsync(() => repo.getAllEntityProgress(), [])
+  const { data: progress, loading, error, reload } = useAsync(() => repo.getAllEntityProgress(), [repo])
   const [seed, setSeed] = usePageViewState('learn.seed', 0)
-  const [learnedNow, setLearnedNow] = usePageViewState('learn.learnedNow', 0)
+  const [learnedNow, setLearnedNow] = usePageViewState(`learn.learnedNow.${accountScope}`, 0)
   const [savedQueue, setSavedQueue] = usePageViewState<{ scope: string; seed: number; ids: string[] } | null>(
-    'learn.queue',
+    `learn.queue.${accountScope}`,
     null,
   )
 
@@ -47,7 +56,7 @@ export default function LearnPage() {
       .sort((a, b) => b.w - a.w)
       .map((x) => x.e)
   }, [geo.ready, geo.countries, geo.byId, progress, scope, seed, savedQueue])
-  const [idx, setIdx] = usePageViewState('learn.index', 0)
+  const [idx, setIdx] = usePageViewState(`learn.index.${accountScope}`, 0)
   useEffect(() => {
     if (queue.length && (savedQueue?.scope !== scope || savedQueue.seed !== seed))
       setSavedQueue({ scope, seed, ids: queue.map((country) => country.id) })

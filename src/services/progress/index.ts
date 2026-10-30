@@ -11,8 +11,7 @@ const listeners = new Set<() => void>()
 /** Wählt den Adapter: Supabase für eingeloggte Nutzer, sonst lokal. Die UI kennt nur das Interface. */
 export function getRepository(): ProgressRepository {
   if (activeUserId && authConfigured) {
-    remote ??= new SupabaseRepository()
-    return remote
+    return remote!
   }
   return local
 }
@@ -24,6 +23,7 @@ export function getLocalRepository(): LocalRepository {
 export function setActiveUser(userId: string | null) {
   if (activeUserId === userId) return
   activeUserId = userId
+  remote = userId && authConfigured ? new SupabaseRepository(userId) : undefined
   for (const l of listeners) l()
 }
 

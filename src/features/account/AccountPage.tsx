@@ -4,9 +4,10 @@ import { useTranslation } from 'react-i18next'
 import { useAuth } from '@/app/AuthProvider'
 import { useAsync, useDocumentTitle } from '@/app/hooks'
 import { auth, authErrorMessage, getSupabase, type MfaStatus } from '@/services/auth'
-import { getLocalRepository, getRepository, isRemoteActive } from '@/services/progress'
+import { getLocalRepository, isRemoteActive } from '@/services/progress'
 import { SupabaseRepository } from '@/services/progress/supabaseRepository'
-import { Page, Card, useToast, Stat, Skeleton } from '@/ui'
+import { Page, Card, useToast, Stat, Skeleton, ErrorState } from '@/ui'
+import { useRepository } from '@/app/useRepository'
 import { Icons } from '@/ui/icons'
 import { AccountSecurity } from './AccountSecurity'
 
@@ -20,25 +21,37 @@ function downloadJson(data: unknown, filename: string) {
 }
 
 export default function AccountPage() {
+  const { user, mfaRequired } = useAuth()
+  if (mfaRequired) return <Navigate to="/mfa?next=/account" replace />
+  return <AccountSettings key={user?.id ?? 'guest'} />
+}
+
+function AccountSettings() {
   const { t } = useTranslation()
   useDocumentTitle(t('account.title'))
-  const { user, loading, configured, refresh } = useAuth()
+  const { user, loading, configured, refresh, error: sessionError } = useAuth()
+  const repository = useRepository()
   const navigate = useNavigate()
   const { show, toast } = useToast()
   const [isPublic, setIsPublic] = useState(false)
   const [username, setUsername] = useState('')
   const [mfa, setMfa] = useState<MfaStatus | null>(null)
   const [securityLoading, setSecurityLoading] = useState(true)
+  const [securityOwner, setSecurityOwner] = useState('')
+  const [securityError, setSecurityError] = useState(false)
+  const [securityRetry, setSecurityRetry] = useState(0)
   const [busy, setBusy] = useState(false)
   const [deleteOpen, setDeleteOpen] = useState(false)
   const [deleteEmail, setDeleteEmail] = useState('')
   const [deletePhrase, setDeletePhrase] = useState('')
   const { data: localStats } = useAsync(() => getLocalRepository().getStats(), [])
-  const { data: remoteStats, reload } = useAsync(() => (isRemoteActive() ? getRepository().getStats() : Promise.resolve(undefined)), [user?.id])
+  const { data: remoteStats, error: statsError, reload } = useAsync(() => (isRemoteActive() ? repository.getStats() : Promise.resolve(undefined)), [repository])
 
   useEffect(() => {
     if (!user) return
     let cancelled = false
+    setSecurityLoading(true)
+    setSecurityError(false)
     void Promise.all([
       auth.mfaStatus(),
       getSupabase().then((client) => client.from('profiles').select('username, is_public').eq('id', user.id).maybeSingle()),
@@ -49,33 +62,38 @@ export default function AccountPage() {
         return
       }
       setMfa(status)
-      if (profile.error) show(t('common.error'))
+      if (profile.error || !profile.data) throw new Error('Kontoprofil konnte nicht geladen werden.')
       if (profile.data) {
         setIsPublic(!!profile.data.is_public)
         setUsername(profile.data.username ?? '')
       }
+      setSecurityOwner(user.id)
       setSecurityLoading(false)
-    }).catch((error) => {
+    }).catch(() => {
       if (!cancelled) {
-        show(authErrorMessage(error))
+        setSecurityError(true)
+        setSecurityOwner(user.id)
         setSecurityLoading(false)
       }
     })
     return () => {
       cancelled = true
     }
-  }, [navigate, show, t, user])
+  }, [navigate, user?.id, securityRetry])
 
   if (!configured) return <Navigate to="/login" replace />
   if (loading) return <Page title={t('account.title')} back="/profile"><Skeleton className="h-56" /></Page>
+  if (sessionError && !user) return <Page title={t('account.title')} back="/profile"><ErrorState message={sessionError.message} onRetry={() => void refresh()} /></Page>
   if (!user) return <Navigate to="/login" replace />
-  if (securityLoading) return <Page title={t('account.title')} back="/profile"><Skeleton className="h-56" /></Page>
+  if (securityLoading || securityOwner !== user.id) return <Page title={t('account.title')} back="/profile"><Skeleton className="h-56" /></Page>
+  if (securityError) return <Page title={t('account.title')} back="/profile"><ErrorState message="Deine Kontoeinstellungen konnten nicht geladen werden." onRetry={() => setSecurityRetry(n => n + 1)} /></Page>
+  if (statsError) return <Page title={t('account.title')} back="/profile"><ErrorState message="Deine Kontodaten konnten nicht geladen werden." onRetry={reload} /></Page>
 
   const migrate = async () => {
     setBusy(true)
     try {
       const snapshot = await getLocalRepository().exportAll()
-      const repo = getRepository()
+      const repo = repository
       if (repo instanceof SupabaseRepository) {
         await repo.importAll(snapshot, 'merge')
         show(t('account.migrated', { xp: snapshot.stats.xp, achievements: snapshot.achievements.length, entities: snapshot.entities.length }))

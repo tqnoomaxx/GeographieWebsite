@@ -5,6 +5,7 @@ import { DataProvider } from './DataProvider'
 import { ErrorBoundary } from './ErrorBoundary'
 import { AuthProvider } from './AuthProvider'
 import { DeveloperAccessProvider } from '@/features/developer/useDeveloperAccess'
+import { RouteErrorPage } from './RouteErrorPage'
 import { pagesRedirect, pagesHistoryState, PAGES_HISTORY_KEY } from './pagesRedirect'
 
 const Home = lazy(() => import('@/features/home/HomePage'))
@@ -72,6 +73,7 @@ if (freshVisit || !history.state?.key) {
 export const router = createBrowserRouter(
   [
     {
+      errorElement: <RouteErrorPage />,
       element: (
         <ErrorBoundary>
           <AuthProvider>

@@ -1,4 +1,5 @@
-import type { Factor, SupabaseClient, Session, User } from '@supabase/supabase-js'
+import type { AuthChangeEvent, Factor, SupabaseClient, Session, User } from '@supabase/supabase-js'
+import { AUTH_STORAGE_KEY as STORAGE_KEY, createAuthStorage } from './storage'
 
 export const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL as string | undefined
 export const SUPABASE_ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY as string | undefined
@@ -25,27 +26,15 @@ export interface MfaEnrollment {
   secret: string
 }
 
-export type AuthListener = (user: AuthUser | null) => void
+export type AuthListener = (user: AuthUser | null, event: AuthChangeEvent) => void
 
 let clientPromise: Promise<SupabaseClient> | null = null
-const PERSISTENCE_KEY = 'gk.auth.remember'
-const STORAGE_KEY = 'atlasfunke.auth.session'
-
-const remembersSession = () => localStorage.getItem(PERSISTENCE_KEY) === 'true'
-const selectedStorage = () => (remembersSession() ? localStorage : sessionStorage)
-const otherStorage = () => (remembersSession() ? sessionStorage : localStorage)
+let storage: ReturnType<typeof createAuthStorage> | undefined
+const getAuthStorage = () => (storage ??= createAuthStorage(localStorage, sessionStorage))
 const authStorage = {
-  getItem(key: string) {
-    return selectedStorage().getItem(key) ?? otherStorage().getItem(key)
-  },
-  setItem(key: string, value: string) {
-    selectedStorage().setItem(key, value)
-    otherStorage().removeItem(key)
-  },
-  removeItem(key: string) {
-    localStorage.removeItem(key)
-    sessionStorage.removeItem(key)
-  },
+  getItem: (key: string) => getAuthStorage().getItem(key),
+  setItem: (key: string, value: string) => getAuthStorage().setItem(key, value),
+  removeItem: (key: string) => getAuthStorage().removeItem(key),
 }
 
 function migrateLegacySession() {
@@ -64,7 +53,10 @@ function migrateLegacySession() {
 
 /** Supabase-Client, lazy geladen, damit die statische App ohne Backend klein bleibt. */
 export function getSupabase(): Promise<SupabaseClient> {
-  if (!authConfigured) return Promise.reject(new Error('Supabase ist nicht konfiguriert (VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY).'))
+  if (!authConfigured)
+    return Promise.reject(
+      new Error('Supabase ist nicht konfiguriert (VITE_SUPABASE_URL / VITE_SUPABASE_ANON_KEY).'),
+    )
   if (!clientPromise) {
     migrateLegacySession()
     clientPromise = import('@supabase/supabase-js').then((m) =>
@@ -97,7 +89,10 @@ const toUser = (u: User | null | undefined): AuthUser | null =>
 async function throwFunctionError(error: unknown): Promise<never> {
   const context = (error as { context?: unknown })?.context
   if (context instanceof Response) {
-    const body = await context.clone().json().catch(() => null) as { error?: string } | null
+    const body = (await context
+      .clone()
+      .json()
+      .catch(() => null)) as { error?: string } | null
     if (body?.error) throw new Error(body.error)
   }
   throw error
@@ -110,7 +105,14 @@ export const auth = {
     if (!authConfigured) return null
     const c = await getSupabase()
     const { data, error } = await c.auth.getUser()
-    if (error) return null
+    if (error) {
+      if (error.name === 'AuthSessionMissingError') return null
+      if (error.status === 401 || error.status === 403) {
+        await c.auth.signOut({ scope: 'local' })
+        return null
+      }
+      throw error
+    }
     return toUser(data.user)
   },
   async getSession(): Promise<Session | null> {
@@ -122,7 +124,21 @@ export const auth = {
     let unsub = () => undefined as void
     let cancelled = false
     void getSupabase().then((c) => {
-      const { data } = c.auth.onAuthStateChange((_e, session) => listener(toUser(session?.user)))
+      const { data } = c.auth.onAuthStateChange((event, session) => {
+        if (cancelled) return
+        // Supabase broadcasts events but does not persist received sessions in tab-local storage.
+        // Keep rotating refresh tokens in sync without making an Auth call inside this callback.
+        if (event !== 'INITIAL_SESSION') {
+          if (session && ['TOKEN_REFRESHED', 'USER_UPDATED', 'MFA_CHALLENGE_VERIFIED'].includes(event)) {
+            const stored = getAuthStorage().getItem(STORAGE_KEY)
+            const current = stored ? (JSON.parse(stored) as Session) : null
+            // An old tab must not resurrect a signed-out account or overwrite a newer login.
+            if (!current?.user?.id || current.user.id !== session.user.id) return
+          }
+          getAuthStorage().syncSession(session ? JSON.stringify(session) : null)
+        }
+        listener(toUser(session?.user), event)
+      })
       unsub = () => data.subscription.unsubscribe()
       if (cancelled) unsub()
     })
@@ -133,7 +149,11 @@ export const auth = {
   },
   async signUp(email: string, password: string) {
     const c = await getSupabase()
-    const { data, error } = await c.auth.signUp({ email, password, options: { emailRedirectTo: redirectTo() } })
+    const { data, error } = await c.auth.signUp({
+      email,
+      password,
+      options: { emailRedirectTo: redirectTo() },
+    })
     if (error) throw error
     return { user: toUser(data.user), needsConfirmation: !data.session }
   },
@@ -145,12 +165,17 @@ export const auth = {
   },
   async signInWithMagicLink(email: string) {
     const c = await getSupabase()
-    const { error } = await c.auth.signInWithOtp({ email, options: { emailRedirectTo: redirectTo(), shouldCreateUser: false } })
+    const { error } = await c.auth.signInWithOtp({
+      email,
+      options: { emailRedirectTo: redirectTo(), shouldCreateUser: false },
+    })
     if (error) throw error
   },
   async resetPassword(email: string) {
     const c = await getSupabase()
-    const { error } = await c.auth.resetPasswordForEmail(email, { redirectTo: `${location.origin}${import.meta.env.BASE_URL.replace(/\/$/, '')}/passwort` })
+    const { error } = await c.auth.resetPasswordForEmail(email, {
+      redirectTo: `${location.origin}${import.meta.env.BASE_URL.replace(/\/$/, '')}/passwort`,
+    })
     if (error) throw error
   },
   async updatePassword(password: string) {
@@ -159,14 +184,15 @@ export const auth = {
     if (error) throw error
   },
   setPersistence(remember: boolean) {
-    const value = authStorage.getItem(STORAGE_KEY)
-    localStorage.setItem(PERSISTENCE_KEY, String(remember))
-    if (value) authStorage.setItem(STORAGE_KEY, value)
+    getAuthStorage().setPersistence(remember)
   },
-  remembersSession,
+  remembersSession: () => getAuthStorage().remembersSession(),
   async mfaStatus(): Promise<MfaStatus> {
     const c = await getSupabase()
-    const [aal, listed] = await Promise.all([c.auth.mfa.getAuthenticatorAssuranceLevel(), c.auth.mfa.listFactors()])
+    const [aal, listed] = await Promise.all([
+      c.auth.mfa.getAuthenticatorAssuranceLevel(),
+      c.auth.mfa.listFactors(),
+    ])
     if (aal.error) throw aal.error
     if (listed.error) throw listed.error
     const factors = listed.data.totp
@@ -174,19 +200,26 @@ export const auth = {
       currentLevel: aal.data.currentLevel,
       nextLevel: aal.data.nextLevel,
       factors,
-      required: aal.data.currentLevel === 'aal1' && aal.data.nextLevel === 'aal2',
+      required: factors.length > 0 && aal.data.currentLevel !== 'aal2',
     }
   },
   async enrollMfa(): Promise<MfaEnrollment> {
     const c = await getSupabase()
     const listed = await c.auth.mfa.listFactors()
     if (listed.error) throw listed.error
-    for (const factor of listed.data.all.filter((f) => f.factor_type === 'totp' && f.status === 'unverified')) {
+    for (const factor of listed.data.all.filter(
+      (f) => f.factor_type === 'totp' && f.status === 'unverified',
+    )) {
       await c.auth.mfa.unenroll({ factorId: factor.id })
     }
-    const { data, error } = await c.auth.mfa.enroll({ factorType: 'totp', friendlyName: 'Atlasfunke Authenticator' })
+    const { data, error } = await c.auth.mfa.enroll({
+      factorType: 'totp',
+      friendlyName: 'Atlasfunke Authenticator',
+    })
     if (error) throw error
-    const qrCode = data.totp.qr_code.startsWith('data:') ? data.totp.qr_code : `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(data.totp.qr_code)}`
+    const qrCode = data.totp.qr_code.startsWith('data:')
+      ? data.totp.qr_code
+      : `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(data.totp.qr_code)}`
     return { factorId: data.id, qrCode, secret: data.totp.secret }
   },
   async verifyMfa(factorId: string, code: string) {
@@ -214,7 +247,9 @@ export const auth = {
   /** Echte Löschung über Edge Function (Service Role), danach lokale Session beenden. */
   async deleteAccount(confirmEmail: string) {
     const c = await getSupabase()
-    const { error } = await c.functions.invoke('delete-account', { body: { confirmation: 'DELETE', confirmEmail } })
+    const { error } = await c.functions.invoke('delete-account', {
+      body: { confirmation: 'DELETE', confirmEmail },
+    })
     if (error) await throwFunctionError(error)
     await c.auth.signOut({ scope: 'local' })
   },
@@ -223,12 +258,17 @@ export const auth = {
 /** Übersetzt Supabase-Fehlermeldungen in verständliche deutsche Hinweise. */
 export function authErrorMessage(e: unknown): string {
   const m = (e as { message?: string })?.message ?? ''
-  if (/invalid login credentials|user not found/i.test(m)) return 'Die Anmeldung konnte mit diesen Daten nicht abgeschlossen werden.'
+  if (/invalid login credentials|user not found/i.test(m))
+    return 'Die Anmeldung konnte mit diesen Daten nicht abgeschlossen werden.'
   if (/email not confirmed/i.test(m)) return 'Bitte bestätige zuerst deine E-Mail-Adresse.'
-  if (/password should be at least|password.*weak|password.*character/i.test(m)) return 'Das Passwort erfüllt die Sicherheitsanforderungen noch nicht.'
-  if (/user already registered/i.test(m)) return 'Wenn die Adresse verwendet werden kann, erhältst du gleich eine E-Mail.'
-  if (/mfa|factor|challenge|verification code/i.test(m)) return 'Der Sicherheitscode ist ungültig oder abgelaufen.'
-  if (/reauthentication_required/i.test(m)) return 'Bitte melde dich aus Sicherheitsgründen neu an und versuche es innerhalb von zehn Minuten erneut.'
+  if (/password should be at least|password.*weak|password.*character/i.test(m))
+    return 'Das Passwort erfüllt die Sicherheitsanforderungen noch nicht.'
+  if (/user already registered/i.test(m))
+    return 'Wenn die Adresse verwendet werden kann, erhältst du gleich eine E-Mail.'
+  if (/mfa|factor|challenge|verification code/i.test(m))
+    return 'Der Sicherheitscode ist ungültig oder abgelaufen.'
+  if (/reauthentication_required/i.test(m))
+    return 'Bitte melde dich aus Sicherheitsgründen neu an und versuche es innerhalb von zehn Minuten erneut.'
   if (/confirmation_failed/i.test(m)) return 'Die Sicherheitsbestätigung stimmt nicht.'
   if (/rate limit|too many/i.test(m)) return 'Zu viele Versuche. Bitte warte kurz.'
   if (/not configured/i.test(m)) return m

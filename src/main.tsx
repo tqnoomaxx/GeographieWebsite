@@ -7,7 +7,9 @@ import './i18n'
 import { router } from './app/router'
 import { applyStoredTheme } from './services/settings/theme'
 import { applyStoredMotion } from './services/settings/motion'
+import { installRouteRecovery } from './app/routeRecovery'
 
+installRouteRecovery()
 applyStoredTheme()
 applyStoredMotion()
 

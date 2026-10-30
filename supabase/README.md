@@ -20,3 +20,5 @@ Quiz-Verbesserungen für freigeschaltete Entwickler: [Einrichtung und Rechte](DE
 Katalogtabellen `achievements` und `quests` werden per `npm run supabase:seed` aus `src/config/*.ts` befüllt.
 
 Frontend-Anbindung: `src/services/progress/supabaseRepository.ts` implementiert dasselbe `ProgressRepository`-Interface wie der lokale IndexedDB-Adapter; Auswahl über `VITE_SUPABASE_URL`.
+
+Sitzungen werden zentral geprüft; Token-Erneuerungen und vorübergehende Auth-Ausfälle wechseln nicht zu Gastdaten. Konto-Caches verwenden getrennte IndexedDB-Datenbanken pro verifiziertem Nutzer. Der frühere gemeinsame Cache `geokompass-cache` bleibt unangetastet und wird mangels zuverlässiger Eigentümerkennung nicht automatisch übernommen. Online-Fortschritt bleibt auf dem Server erhalten.

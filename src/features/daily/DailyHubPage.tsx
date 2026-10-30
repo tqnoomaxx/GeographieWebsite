@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useAsync, useDocumentTitle } from '@/app/hooks'
-import { getRepository } from '@/services/progress'
+import { useRepository } from '@/app/useRepository'
 import { Page, ErrorState, LoadingState } from '@/ui'
 import { PUZZLES } from './puzzles'
 import { Icons } from '@/ui/icons'
@@ -10,8 +10,9 @@ import { PUZZLE_ICONS } from '@/ui/icons'
 
 export default function DailyHubPage() {
   const { t } = useTranslation()
+  const repo = useRepository()
   useDocumentTitle(t('daily.title'))
-  const { data: results, loading, error, reload } = useAsync(() => getRepository().getPuzzles(), [])
+  const { data: results, loading, error, reload } = useAsync(() => repo.getPuzzles(), [repo])
   const today = todayKey()
   const puzzles = PUZZLES.filter((p) => p.available)
   const todayResults = puzzles.map((p) => results?.find((result) => result.key === `${p.id}:${today}`))

@@ -7,6 +7,27 @@ import type { Country, DataIndex, Entity, Relationship, TriviaQuestion } from '@
 const base = import.meta.env.BASE_URL.replace(/\/?$/, '/')
 const cache = new Map<string, Promise<unknown>>()
 
+class DataLoadError extends Error {
+  constructor(readonly status: number, path: string) { super(`Daten nicht ladbar: ${path} (${status})`) }
+}
+
+/** Revalidate failed HTTP caches and recover once from short network/server interruptions. */
+async function requestJson<T>(url: string): Promise<T> {
+  for (let attempt = 0; ; attempt++) {
+    const controller = new AbortController()
+    const timeout = setTimeout(() => controller.abort(), 15_000)
+    try {
+      const response = await fetch(url, { cache: 'no-cache', signal: controller.signal })
+      if (!response.ok) throw new DataLoadError(response.status, url)
+      return await response.json() as T
+    } catch (error) {
+      const transient = error instanceof TypeError || (error instanceof Error && error.name === 'AbortError') || (error instanceof DataLoadError && (error.status >= 500 || [408, 429].includes(error.status)))
+      if (attempt || !transient || (typeof navigator !== 'undefined' && navigator.onLine === false)) throw error
+    } finally { clearTimeout(timeout) }
+    await new Promise(resolve => setTimeout(resolve, 200))
+  }
+}
+
 export function dataUrl(path: string) {
   return `${base}data/${path}`
 }
@@ -18,11 +39,7 @@ export function fetchJson<T>(path: string): Promise<T> {
   if (!cache.has(path)) {
     cache.set(
       path,
-      fetch(dataUrl(path))
-        .then((r) => {
-          if (!r.ok) throw new Error(`Daten nicht ladbar: ${path} (${r.status})`)
-          return r.json()
-        })
+      requestJson<T>(dataUrl(path))
         .catch((error: unknown) => {
           cache.delete(path)
           throw error
@@ -82,10 +99,7 @@ export async function loadRegionMap(iso2: string, targetId?: string): Promise<Re
     mapCache.set(
       file,
       (async () => {
-        const r = await fetch(mediaUrl(file))
-        if (!r.ok || !r.headers.get('content-type')?.includes('json'))
-          throw new Error('Karte konnte nicht geladen werden.')
-        return (await r.json()) as RegionMap
+        return requestJson<RegionMap>(mediaUrl(file))
       })().catch((error: unknown) => {
         mapCache.delete(file)
         throw error

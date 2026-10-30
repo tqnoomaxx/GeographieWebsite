@@ -1,6 +1,8 @@
 import { Component, type ReactNode } from 'react'
+import { useLocation } from 'react-router-dom'
+import { PageLoadFailure } from './RouteErrorPage'
 
-export class ErrorBoundary extends Component<{ children: ReactNode }, { error?: Error }> {
+class Boundary extends Component<{ children: ReactNode; resetKey: string }, { error?: Error }> {
   state: { error?: Error } = {}
   static getDerivedStateFromError(error: Error) {
     return { error }
@@ -8,18 +10,18 @@ export class ErrorBoundary extends Component<{ children: ReactNode }, { error?: 
   componentDidCatch(error: Error) {
     console.error(error)
   }
+  componentDidUpdate(previous: { resetKey: string }) {
+    if (this.state.error && previous.resetKey !== this.props.resetKey) this.setState({ error: undefined })
+  }
   render() {
     if (this.state.error) {
-      return (
-        <div className="mx-auto max-w-md p-6 text-center">
-          <p className="mb-1 text-lg font-medium">Etwas ist schiefgelaufen.</p>
-          <p className="mb-4 text-sm text-ink-2">Bitte versuche es erneut.</p>
-          <button className="btn-primary" onClick={() => location.reload()}>
-            Erneut versuchen
-          </button>
-        </div>
-      )
+      return <PageLoadFailure />
     }
     return this.props.children
   }
+}
+
+export function ErrorBoundary({ children }: { children: ReactNode }) {
+  const location = useLocation()
+  return <Boundary resetKey={location.key}>{children}</Boundary>
 }

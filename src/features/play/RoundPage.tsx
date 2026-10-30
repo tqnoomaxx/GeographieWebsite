@@ -24,7 +24,8 @@ import {
 import { defaultRound, fromQuery, roundPath, type RoundConfig } from '@/engine/round'
 import { isCategory } from '@/config/quizzes'
 import type { CategoryId, Question } from '@/engine/types'
-import { getRepository } from '@/services/progress'
+import { useAccountScope, useRepository } from '@/app/useRepository'
+import { useAuth } from '@/app/AuthProvider'
 import { applySession, recomputeLongQuests, type RoundOutcome } from '@/services/gamification'
 import { XP } from '@/config/xp'
 import { Card, ErrorState, LoadingState, ProgressBar, entityPath } from '@/ui'
@@ -55,21 +56,24 @@ import { QuizNotesButton } from '@/features/notes/QuizNotesButton'
 
 export default function RoundPage() {
   const location = useLocation()
+  const accountScope = useAccountScope()
+  const { loading } = useAuth()
+  if (loading) return <LoadingState message="Sitzung wird geladen …" />
   // „Noch einmal“ und „Fehler wiederholen“ benutzen dieselbe Route, brauchen aber eine neue Runde.
-  return <RoundSessionPage key={location.key} />
+  return <RoundSessionPage key={`${location.key}:${accountScope}`} accountScope={accountScope} />
 }
 
-function RoundSessionPage() {
+function RoundSessionPage({ accountScope }: { accountScope: string }) {
   const { t } = useTranslation()
   const { category: categoryParam, sessionId } = useParams<{ category?: string; sessionId?: string }>()
   const category: CategoryId | undefined = isCategory(categoryParam) ? categoryParam : undefined
   const [params] = useSearchParams()
   const geo = useGeoData()
   const navigate = useNavigate()
-  const repo = getRepository()
-  const [session, setSession] = usePageViewState<QuizSession | null>('round.session', null)
+  const repo = useRepository()
+  const [session, setSession] = usePageViewState<QuizSession | null>(`round.session.${accountScope}`, null)
   const [error, setError] = useState<Error | null>(null)
-  const [outcome, setOutcome] = usePageViewState<RoundOutcome | null>('round.outcome', null)
+  const [outcome, setOutcome] = usePageViewState<RoundOutcome | null>(`round.outcome.${accountScope}`, null)
   const startedRef = useRef(!!session)
   const finishingRef = useRef(false)
   const [finishing, setFinishing] = useState(false)

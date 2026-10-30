@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useDataResources, useGeoData } from '@/app/DataProvider'
@@ -10,11 +10,12 @@ import { dueIds } from '@/engine/repetition'
 import { poolFor } from '@/engine/session'
 import { defaultRound, roundPath } from '@/engine/round'
 import type { CategoryId } from '@/engine/types'
-import { getRepository, onRepositoryChange } from '@/services/progress'
+import { useRepository } from '@/app/useRepository'
 import { ErrorState, LoadingState } from '@/ui'
 
 export function ReviewPanel({ refresh = 0 }: { refresh?: number }) {
   const { t } = useTranslation()
+  const repo = useRepository()
   const geo = useGeoData()
   const [category, setCategory] = useState<CategoryId>('flags')
   const [scope, setScope] = useState('world')
@@ -23,13 +24,7 @@ export function ReviewPanel({ refresh = 0 }: { refresh?: number }) {
   // Der weltweite Kontext bleibt für Antwortalternativen erhalten; only begrenzt nur die Fragen.
   const setup = { ...defaultRound(category), scope: effectiveScope }
   const data = useDataResources(resourcesForQuiz(category, setup))
-  const progress = useAsync(() => getRepository().getAllEntityProgress(), [refresh])
-  useEffect(() => {
-    const off = onRepositoryChange(progress.reload)
-    return () => {
-      off()
-    }
-  }, [progress.reload])
+  const progress = useAsync(() => repo.getAllEntityProgress(), [refresh, repo])
   const due = useMemo(() => {
     if (data.loading || !progress.data) return []
     return dueIds(poolFor(geo.contextFor(effectiveScope), { category, mode: 'auto' }).keys(), progress.data)

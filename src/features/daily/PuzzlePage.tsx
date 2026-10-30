@@ -7,14 +7,15 @@ import { useDocumentTitle } from '@/app/hooks'
 import type { Country } from '@/domain/types'
 import { capitalIds, countryCapitals } from '@/domain/capitals'
 import { platePlaceNames, sharePlatePlace } from '@/domain/licensePlates'
-import { getRepository } from '@/services/progress'
+import { useAccountScope, useRepository } from '@/app/useRepository'
+import { useAuth } from '@/app/AuthProvider'
 import type { PuzzleResult } from '@/services/progress/types'
 import { applyPuzzleSolved } from '@/services/gamification'
 import { todayKey } from '@/engine/rng'
 import { normalizeAnswer } from '@/engine/normalize'
 import { mediaUrl } from '@/services/data/dataService'
 import { Photo } from '@/ui/Photo'
-import { Card, Flag, Skeleton, useToast, formatNumber, entityPath } from '@/ui'
+import { Card, Flag, Skeleton, useToast, formatNumber, entityPath, ErrorState } from '@/ui'
 import { Outline } from '@/ui/maps'
 import {
   MAX_ATTEMPTS,
@@ -38,17 +39,26 @@ import { PuzzleArt } from './PuzzleArt'
 import { QuizNotesButton } from '@/features/notes/QuizNotesButton'
 
 export default function PuzzlePage() {
+  const { loading } = useAuth()
+  const scope = useAccountScope()
+  if (loading) return <div role="status" className="p-4">Sitzung wird geladen …</div>
+  return <PuzzleGame key={scope} />
+}
+
+function PuzzleGame() {
   const { t } = useTranslation()
   const { puzzle } = useParams<{ puzzle: PuzzleDef['id'] }>()
   const [params, setParams] = useSearchParams()
   const geo = useGeoData()
-  const repo = getRepository()
+  const repo = useRepository()
   const def = PUZZLES.find((p) => p.id === puzzle)
   useDocumentTitle(def ? t(`daily.${def.id}`) : undefined)
   const practice = params.get('practice')
   const date = todayKey()
   const key = practice ? `${puzzle}:practice:${practice}` : `${puzzle}:${date}`
   const [result, setResult] = useState<PuzzleResult | null>(null)
+  const [resultError, setResultError] = useState(false)
+  const [retryResult, setRetryResult] = useState(0)
   const [input, setInput] = useState('')
   const [xp, setXp] = useState<number | null>(null)
   const { show, toast } = useToast()
@@ -104,9 +114,12 @@ export default function PuzzlePage() {
   }, [def, geo.cities, geo.countries, landmarksWithPhoto, dePlates])
 
   useEffect(() => {
+    let cancelled = false
+    setResult(null)
+    setResultError(false)
     setXp(null)
     void repo.getPuzzle(key).then((r) =>
-      setResult(
+      !cancelled && setResult(
         r ?? {
           key,
           puzzle: puzzle!,
@@ -115,8 +128,9 @@ export default function PuzzlePage() {
           solved: false,
         },
       ),
-    )
-  }, [key, repo, puzzle, date, practice])
+    ).catch(() => { if (!cancelled) setResultError(true) })
+    return () => { cancelled = true }
+  }, [key, repo, puzzle, date, practice, retryResult])
 
   const suggestions = useMemo(() => {
     const n = normalizeAnswer(input)
@@ -175,6 +189,7 @@ export default function PuzzlePage() {
     [result, solutionEntity, solutionIds, pool, geo.byId, repo, show, t, practice],
   )
 
+  if (resultError) return <ErrorState message="Dein Tagesquiz konnte nicht geladen werden." onRetry={() => setRetryResult(n => n + 1)} />
   if (!def || !result || !solutionEntity || (isCountryPuzzle && !target))
     return (
       <div className="mx-auto max-w-xl p-4">

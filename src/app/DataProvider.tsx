@@ -134,15 +134,18 @@ export function useGeoData() {
   return value
 }
 
-/** Jeder Bildschirm wartet nur auf seine Pakete. Fehler werden ausschließlich auf Wunsch erneut geladen. */
-export function useDataResources(resources: DataResource[]) {
+/** Jeder Bildschirm wartet nur auf seine Pakete; ein neuer Seitenaufruf versucht fehlgeschlagene Pakete erneut. */
+export function useDataResources(resources: DataResource[], scope = '') {
   const { states, ensureResources } = useGeoData()
   const key = [...new Set(resources)].sort().join(',')
+  const entry = `${scope}:${key}`
+  const started = useRef('')
   useEffect(() => {
+    started.current = entry
     const keys = key.split(',').filter(Boolean) as DataResource[]
     void ensureResources(keys).catch(() => {})
-  }, [key, ensureResources])
-  const error = resources.map((resource) => states[resource]?.error).find(Boolean)
+  }, [key, entry, ensureResources])
+  const error = started.current === entry ? resources.map((resource) => states[resource]?.error).find(Boolean) : undefined
   return {
     loading: resources.some((resource) => states[resource]?.status !== 'ready'),
     error,

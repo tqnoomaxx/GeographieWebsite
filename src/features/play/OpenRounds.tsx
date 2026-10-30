@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
 import { useAsync } from '@/app/hooks'
-import { getRepository } from '@/services/progress'
+import { useRepository } from '@/app/useRepository'
 import { baseQuestionPosition, baseQuestionTotal, setupOf } from '@/engine/session'
 import { RoundTitle } from './RoundLabel'
 import { ProgressBar } from '@/ui'
 
 export function OpenRounds() {
-  const { data: rounds } = useAsync(() => getRepository().getOpenSessions(), [])
+  const repo = useRepository()
+  const { data: rounds } = useAsync(() => repo.getOpenSessions(), [repo])
   if (!rounds?.length) return null
   return (
     <section className="open-rounds" aria-label="Offene Runden">

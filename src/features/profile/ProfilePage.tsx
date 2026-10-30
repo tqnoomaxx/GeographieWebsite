@@ -1,10 +1,10 @@
-import { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useLayoutEffect, useState } from 'react'
+import { Link, Navigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useAsync, useDocumentTitle, useStats } from '@/app/hooks'
-import { getRepository } from '@/services/progress'
+import { useRepository } from '@/app/useRepository'
 import type { Profile } from '@/services/progress/types'
-import { Page, Card, useToast } from '@/ui'
+import { Page, Card, useToast, LoadingState, ErrorState } from '@/ui'
 import { AchievementIcon, PROFILE_AVATARS, ProfileAvatarIcon, profileAvatarId } from '@/ui/icons'
 import { Settings, LogIn } from 'lucide-react'
 import { useAuth } from '@/app/AuthProvider'
@@ -12,36 +12,53 @@ import { useAuth } from '@/app/AuthProvider'
 const COLORS = ['#446f69', '#56745f', '#8d7440', '#94584e', '#75627f', '#507783']
 
 export default function ProfilePage() {
+  const { user, loading, error, refresh, mfaRequired } = useAuth()
+  if (loading) return <LoadingState message="Sitzung wird geladen …" />
+  if (error && !user) return <ErrorState message={error.message} onRetry={() => void refresh()} />
+  if (mfaRequired) return <Navigate to="/mfa?next=/profile" replace />
+  return <ProfileEditor key={user && !mfaRequired ? user.id : 'guest'} />
+}
+
+function ProfileEditor() {
   const { t } = useTranslation()
   useDocumentTitle(t('profile.title'))
-  const repo = getRepository()
-  const { stats, level } = useStats()
-  const { data: saved } = useAsync(() => repo.getProfile(), [])
-  const { data: unlocked } = useAsync(() => repo.getAchievements(), [])
+  const repo = useRepository()
+  const { stats, level, error: statsError, reload: reloadStats } = useStats()
+  const { data: saved, loading, error, reload } = useAsync(() => repo.getProfile(), [repo])
+  const { data: unlocked } = useAsync(() => repo.getAchievements(), [repo])
   const [p, setP] = useState<Profile>({ username: '', avatar: 'compass', color: COLORS[0], featuredAchievements: [], createdAt: new Date().toISOString() })
   const { show, toast } = useToast()
   const { user, configured } = useAuth()
-  useEffect(() => {
+  const [saving, setSaving] = useState(false)
+  useLayoutEffect(() => {
     if (saved) setP(saved)
   }, [saved])
   const save = async () => {
-    await repo.saveProfile(p)
-    show(t('profile.saved'))
+    if (saving) return
+    setSaving(true)
+    try {
+      await repo.saveProfile(p)
+      show(t('profile.saved'))
+    } catch { show('Das Profil konnte nicht gespeichert werden. Bitte Verbindung und Sitzung prüfen.') }
+    finally { setSaving(false) }
   }
   const toggleFeatured = (id: string) =>
     setP((x) => ({ ...x, featuredAchievements: x.featuredAchievements.includes(id) ? x.featuredAchievements.filter((a) => a !== id) : [...x.featuredAchievements, id].slice(-5) }))
+  if (loading) return <Page title={t('profile.title')}><LoadingState /></Page>
+  if (error) return <Page title={t('profile.title')}><ErrorState message="Dein Profil konnte nicht geladen werden." onRetry={reload} /></Page>
   return (
     <Page title={t('profile.title')} action={<Link to="/settings" className="btn-ghost px-3" aria-label={t('nav.settings')}><Settings className="h-5 w-5" /></Link>}>
       <Card className="profile-hero mb-5 flex flex-col items-center py-8 text-center" style={{ borderTopColor: p.color }}>
         <div className="profile-avatar flex h-24 w-24 items-center justify-center" style={{ background: p.color + '18' }} aria-hidden>
           <ProfileAvatarIcon id={p.avatar} className="h-[88%] w-[88%]" />
         </div>
-        <p className="mt-3 text-2xl font-semibold">{p.username || t('profile.guest')}</p>
+        <p className="mt-3 text-2xl font-semibold">{p.username || (user ? 'Dein Profil' : t('profile.guest'))}</p>
         {level && <p className="text-ink-2">{t('progress.level', { level: level.level })}{p.title && ` · ${p.title}`}</p>}
         <div className="mt-3 flex flex-wrap justify-center gap-1.5">
           {p.featuredAchievements.map((id) => <AchievementIcon key={id} id={id} className="h-9 w-9" />)}
         </div>
       </Card>
+      {statsError && <ErrorState message="Dein Lernfortschritt konnte nicht geladen werden." onRetry={reloadStats} />}
       <Card className="mb-4 flex items-center gap-3">
         <span className="inline-flex h-11 w-11 items-center justify-center rounded-xl tone-indigo">{user ? <ProfileAvatarIcon id={p.avatar} className="h-10 w-10" /> : <LogIn className="h-5 w-5" />}</span>
         <div className="min-w-0 flex-1 text-sm">
@@ -91,7 +108,7 @@ export default function ProfilePage() {
             {(unlocked ?? []).length === 0 && <p className="text-sm text-ink-2">{t('progress.locked')}</p>}
           </div>
         </fieldset>
-        <button className="btn-primary" onClick={save}>{t('profile.save')}</button>
+        <button className="btn-primary" disabled={saving} onClick={save}>{saving ? 'Speichert …' : t('profile.save')}</button>
         {stats && <p className="text-xs text-ink-2">{stats.answered} {t('progress.answered')}</p>}
       </Card>
       {toast}

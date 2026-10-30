@@ -9,7 +9,7 @@ import { QUESTS } from '@/config/quests'
 import { PLAY_QUIZZES, quizFor } from '@/config/quizzes'
 import { setupOf } from '@/engine/session'
 import { RoundTitle } from '@/features/play/RoundLabel'
-import { getRepository } from '@/services/progress'
+import { useRepository } from '@/app/useRepository'
 import { metric } from '@/services/gamification'
 import { Page, Card, ProgressBar, Stat, EmptyState, entityPath, LoadingState, ErrorState } from '@/ui'
 import { AchievementIcon, CategoryIcon, Icons, TypeIcon } from '@/ui/icons'
@@ -19,12 +19,12 @@ export default function ProgressPage() {
   const { t } = useTranslation()
   useDocumentTitle(t('progress.title'))
   const geo = useGeoData()
-  const repo = getRepository()
-  const { stats, level } = useStats()
-  const { data: progress, error, reload } = useAsync(() => repo.getAllEntityProgress(), [])
-  const { data: unlocked } = useAsync(() => repo.getAchievements(), [])
-  const { data: quests } = useAsync(() => repo.getQuests(), [])
-  const { data: favorites } = useAsync(() => repo.getFavorites(), [])
+  const repo = useRepository()
+  const { stats, level, error: statsError, reload: reloadStats } = useStats()
+  const { data: progress, error, reload } = useAsync(() => repo.getAllEntityProgress(), [repo])
+  const { data: unlocked } = useAsync(() => repo.getAchievements(), [repo])
+  const { data: quests } = useAsync(() => repo.getQuests(), [repo])
+  const { data: favorites } = useAsync(() => repo.getFavorites(), [repo])
   const { data: favoriteEntities } = useAsync(
     async () =>
       new Map(
@@ -34,11 +34,11 @@ export default function ProgressPage() {
       ),
     [favorites],
   )
-  const { data: recent } = useAsync(() => repo.getRecentSessions(8), [])
-  if (error)
+  const { data: recent } = useAsync(() => repo.getRecentSessions(8), [repo])
+  if (error || statsError)
     return (
       <Page title={t('progress.title')}>
-        <ErrorState onRetry={reload} />
+        <ErrorState onRetry={() => { reload(); reloadStats() }} />
       </Page>
     )
   if (!stats || !level || !progress)

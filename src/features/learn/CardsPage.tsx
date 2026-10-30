@@ -7,13 +7,14 @@ import { usePageViewState } from '@/app/usePageViewState'
 import { buildCollections } from '@/config/collections'
 import { inScope } from '@/engine/scope'
 import { normalizeAnswer } from '@/engine/normalize'
-import { getRepository } from '@/services/progress'
+import { useRepository } from '@/app/useRepository'
 import { Page, Card, Flag, entityPath } from '@/ui'
 import { Icons } from '@/ui/icons'
 
 /** Lernkarten-Explorer: alle Flaggen einer Sammlung mit Namen, Suche und Lernstand – wie der Flaggenatlas der Vorgängerversion. */
 export default function CardsPage() {
   const { t } = useTranslation()
+  const repo = useRepository()
   const [params, setParams] = useSearchParams()
   const geo = useGeoData()
   const collections = useMemo(() => (geo.index ? buildCollections(geo.index, geo.byId) : []), [geo.index, geo.byId])
@@ -23,7 +24,7 @@ export default function CardsPage() {
   const [q, setQ] = usePageViewState('cards.query', '')
   const [revealed, setRevealed] = usePageViewState<string[]>('cards.revealed', [])
   const [hide, setHide] = usePageViewState('cards.hide', false)
-  const { data: progress } = useAsync(() => getRepository().getAllEntityProgress(), [])
+  const { data: progress } = useAsync(() => repo.getAllEntityProgress(), [repo])
 
   const items = useMemo(() => {
     if (!col) return []

@@ -6,7 +6,7 @@ import { useAsync, useDocumentTitle } from '@/app/hooks'
 import { usePageViewState } from '@/app/usePageViewState'
 import type { Country, Entity } from '@/domain/types'
 import { mediaUrl } from '@/services/data/dataService'
-import { getRepository } from '@/services/progress'
+import { useRepository } from '@/app/useRepository'
 import { Page, Card, Flag, EmptyState, entityPath, SourceInfo } from '@/ui'
 import { WorldMap, Outline } from '@/ui/maps'
 import { FactGrid } from './facts'
@@ -20,9 +20,10 @@ export default function CountryPage() {
   useDocumentTitle(country?.names.de)
   const regions = geo.regions.filter((region) => region.attributes.country === country?.id)
   const [showMap, setShowMap] = usePageViewState('country.map', false)
+  const repo = useRepository()
   const { data: progress } = useAsync(
-    () => (country ? getRepository().getEntityProgress(country.id) : Promise.resolve(undefined)),
-    [country?.id],
+    () => (country ? repo.getEntityProgress(country.id) : Promise.resolve(undefined)),
+    [country?.id, repo],
   )
   if (!geo.ready) return null
   if (!country)

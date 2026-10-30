@@ -2,7 +2,8 @@ import { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useAsync, useDocumentTitle } from '@/app/hooks'
-import { getLocalRepository, getRepository } from '@/services/progress'
+import { getLocalRepository } from '@/services/progress'
+import { useRepository } from '@/app/useRepository'
 import type { ProgressSnapshot } from '@/services/progress/types'
 import { getThemeMode, setThemeMode, type ThemeMode } from '@/services/settings/theme'
 import { setMotionMode, useMotionMode } from '@/services/settings/motion'
@@ -14,7 +15,7 @@ export default function SettingsPage() {
   const { t } = useTranslation()
   const developer = useDeveloperAccess()
   useDocumentTitle(t('settings.title'))
-  const repo = getRepository()
+  const repo = useRepository()
   const motion = useMotionMode()
   const [theme, setTheme] = useState<ThemeMode>(getThemeMode())
   const { data: version } = useAsync(() => loadVersion(), [])

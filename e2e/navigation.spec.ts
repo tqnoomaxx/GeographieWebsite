@@ -47,6 +47,7 @@ test('Verschachtelte Infoseiten folgen dem tatsächlichen Weg bis zum Ausgangspu
 test('Ein Direktaufruf ohne internen Vorgänger bleibt beim Zurückpfeil auf der Website', async ({ page }) => {
   await page.goto('data:text/html,<p>Externe Ausgangsseite</p>')
   await page.goto('settings')
+  await expect(page.getByRole('heading', { name: 'Einstellungen', exact: true })).toBeVisible()
   const length = await page.evaluate(() => history.length)
   await page.evaluate(() => scrollTo(0, document.body.scrollHeight))
   await expect.poll(() => page.evaluate(() => scrollY)).toBeGreaterThan(10)

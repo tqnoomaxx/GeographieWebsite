@@ -24,8 +24,9 @@ export function Layout() {
   const online = useOnline()
   const navigate = useNavigate()
   const { pathname, search } = useLocation()
-  const data = useDataResources(resourcesForPage(pathname, new URLSearchParams(search)))
-  const { mfaRequired } = useAuth()
+  const data = useDataResources(resourcesForPage(pathname, new URLSearchParams(search)), pathname)
+  const { mfaRequired, loading: sessionLoading, error: sessionError, refresh } = useAuth()
+  const accountDataPage = /^\/(profile|account|login|settings|progress|learn|play|daily)(\/|$)/.test(pathname)
 
   const immersive =
     (pathname === '/story' &&
@@ -102,11 +103,19 @@ export function Layout() {
           {t('account.mfa_required_banner')}
         </NavLink>
       )}
+      {sessionError && (
+        <div role="alert" className="bg-warn-soft px-4 py-2 text-center text-sm">
+          {sessionError.message}{' '}
+          <button className="underline" type="button" onClick={() => void refresh()}>
+            Sitzung erneut prüfen
+          </button>
+        </div>
+      )}
       <main className="flex-1">
         <div className="route-content">
           {data.error ? (
             <ErrorState onRetry={data.retry} />
-          ) : data.loading ? (
+          ) : data.loading || (sessionLoading && accountDataPage) ? (
             <LoadingState />
           ) : (
             <Suspense fallback={<LoadingState />}>

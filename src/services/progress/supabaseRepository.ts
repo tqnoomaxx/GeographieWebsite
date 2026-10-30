@@ -17,23 +17,28 @@ function puzzleResultRank(result: PuzzleResult) {
  * Die Supabase-Bibliothek wird erst bei Bedarf dynamisch geladen, damit die statische Phase-1-App klein bleibt.
  */
 export class SupabaseRepository implements ProgressRepository {
-  private local = new LocalRepository('geokompass-cache')
+  private local: LocalRepository
   private client: Promise<SupabaseLike>
 
-  constructor() {
+  constructor(private readonly ownerId: string) {
+    // The old shared cache has no reliable owner and must never be assigned to another account.
+    this.local = new LocalRepository(`geokompass-cache-${ownerId}`)
     this.client = getSupabase() as unknown as Promise<SupabaseLike>
   }
 
-  private async userId(): Promise<string | null> {
+  private async session() {
     const c = await this.client
-    const { data } = await c.auth.getUser()
-    return data.user?.id ?? null
+    const { data, error } = await c.auth.getSession()
+    if (error) throw error
+    if (!data.session || data.session.user.id !== this.ownerId) throw new Error('Die Sitzung hat sich geändert. Bitte die Seite neu laden.')
+    return data.session
   }
+  private async userId() { return (await this.session()).user.id }
 
   private async ownRows(table: string, columns: string): Promise<Array<Record<string, never>> | null> {
     const c = await this.client
+    if (!navigator.onLine) return null
     const uid = await this.userId()
-    if (!uid || !navigator.onLine) return null
     const rows: Array<Record<string, never>> = []
     for (let start = 0; ; start += 1000) {
       const { data, error } = await c
@@ -48,11 +53,12 @@ export class SupabaseRepository implements ProgressRepository {
   }
 
   async getStats(): Promise<UserStats> {
+    if (!navigator.onLine) return this.local.getStats()
     const c = await this.client
     const uid = await this.userId()
-    if (!uid || !navigator.onLine) return this.local.getStats()
-    const { data } = await c.from('user_stats').select('*').eq('user_id', uid).maybeSingle()
-    if (!data) return this.local.getStats()
+    const { data, error } = await c.from('user_stats').select('*').eq('user_id', uid).maybeSingle()
+    if (error) throw error
+    if (!data) throw new Error('Kontofortschritt konnte nicht geladen werden. Bitte erneut versuchen.')
     const stats: UserStats = {
       xp: data.xp,
       answered: data.answered,
@@ -107,12 +113,13 @@ export class SupabaseRepository implements ProgressRepository {
   }
   async flush() {
     const c = await this.client
-    if (!navigator.onLine || !(await this.userId())) return
+    if (!navigator.onLine) return
+    const session = await this.session()
     const pending = (await this.local.getRecentSessions(100)).filter(
       (s) => !(s as QuizSession & { synced?: boolean }).synced,
     )
     for (const s of pending) {
-      const { error } = await c.functions.invoke('submit-session', { body: s })
+      const { error } = await c.functions.invoke('submit-session', { body: s, headers: { Authorization: `Bearer ${session.access_token}` } })
       if (!error) await this.local.saveSession({ ...s, synced: true } as QuizSession)
     }
   }
@@ -209,12 +216,13 @@ export class SupabaseRepository implements ProgressRepository {
     return [...merged.values()]
   }
   async getProfile() {
+    if (!navigator.onLine) return this.local.getProfile()
     const c = await this.client
     const uid = await this.userId()
-    if (!uid || !navigator.onLine) return this.local.getProfile()
-    const { data } = await c.from('profiles').select('*').eq('id', uid).maybeSingle()
-    if (!data) return undefined
-    return {
+    const { data, error } = await c.from('profiles').select('*').eq('id', uid).maybeSingle()
+    if (error) throw error
+    if (!data) throw new Error('Das Kontoprofil konnte nicht geladen werden. Bitte erneut versuchen.')
+    const profile = {
       username: data.username ?? '',
       avatar: data.avatar,
       color: data.color,
@@ -223,13 +231,14 @@ export class SupabaseRepository implements ProgressRepository {
       favoriteCategory: data.favorite_category ?? undefined,
       createdAt: data.created_at,
     }
+    await this.local.saveProfile(profile)
+    return profile
   }
   async saveProfile(p: Profile) {
-    await this.local.saveProfile(p)
+    if (!navigator.onLine) throw new Error('Zum Speichern deines Kontoprofils brauchst du eine Internetverbindung.')
     const c = await this.client
     const uid = await this.userId()
-    if (uid && navigator.onLine)
-      await c
+    const { data, error } = await c
         .from('profiles')
         .update({
           username: p.username || null,
@@ -240,6 +249,11 @@ export class SupabaseRepository implements ProgressRepository {
           favorite_category: p.favoriteCategory ?? null,
         })
         .eq('id', uid)
+        .select('id')
+        .maybeSingle()
+    if (error) throw error
+    if (!data) throw new Error('Das Profil konnte nicht gespeichert werden. Bitte die Sitzung erneut prüfen.')
+    await this.local.saveProfile(p)
   }
   exportAll() {
     return this.local.exportAll()
@@ -256,15 +270,15 @@ export class SupabaseRepository implements ProgressRepository {
 
 /** Minimale Typen für den lazy geladenen Supabase-Client. */
 interface SupabaseLike {
-  auth: { getUser(): Promise<{ data: { user: { id: string } | null } }> }
+  auth: { getSession(): Promise<{ data: { session: { user: { id: string }; access_token: string } | null }; error?: unknown }> }
   from(table: string): QueryLike
-  functions: { invoke(name: string, opts: { body: unknown }): Promise<{ error: unknown }> }
+  functions: { invoke(name: string, opts: { body: unknown; headers?: Record<string, string> }): Promise<{ error: unknown }> }
 }
 interface QueryLike {
   select(cols: string): QueryLike
   eq(col: string, v: unknown): QueryLike
   range(from: number, to: number): QueryLike
-  maybeSingle(): Promise<{ data: Record<string, never> | null }>
+  maybeSingle(): Promise<{ data: Record<string, never> | null; error?: unknown }>
   upsert(v: unknown): Promise<unknown>
   update(v: unknown): QueryLike
   delete(): QueryLike

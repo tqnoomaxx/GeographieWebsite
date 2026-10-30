@@ -24,6 +24,7 @@ describe('erneut abrufbare Datenpakete', () => {
     const fetch = vi
       .fn()
       .mockResolvedValueOnce(new Response('', { status: 503 }))
+      .mockResolvedValueOnce(new Response('', { status: 503 }))
       .mockResolvedValueOnce(Response.json([{ id: 'ok' }]))
     vi.stubGlobal('fetch', fetch)
     const { fetchJson } = await import('./dataService')
@@ -33,12 +34,13 @@ describe('erneut abrufbare Datenpakete', () => {
     const retried = fetchJson('retry.json')
     await expect(retried).resolves.toEqual([{ id: 'ok' }])
     expect(fetchJson('retry.json')).toBe(retried)
-    expect(fetch).toHaveBeenCalledTimes(2)
+    expect(fetch).toHaveBeenCalledTimes(3)
   })
 
   it('versteckt Netzwerkfehler bei Naturdaten nicht als leere Sammlung', async () => {
     const fetch = vi
       .fn()
+      .mockRejectedValueOnce(new TypeError('offline'))
       .mockRejectedValueOnce(new TypeError('offline'))
       .mockResolvedValueOnce(Response.json([{ id: 'river:test' }]))
     vi.stubGlobal('fetch', fetch)
@@ -52,12 +54,13 @@ describe('erneut abrufbare Datenpakete', () => {
       .fn()
       .mockResolvedValueOnce(Response.json({ region_maps: { DE: 'de-map.json' } }))
       .mockResolvedValueOnce(new Response('', { status: 503 }))
+      .mockResolvedValueOnce(new Response('', { status: 503 }))
       .mockResolvedValueOnce(Response.json({ label: 'Deutschland', shapes: [] }))
     vi.stubGlobal('fetch', fetch)
     const { loadRegionMap } = await import('./dataService')
     await expect(loadRegionMap('DE')).rejects.toThrow()
     await expect(loadRegionMap('DE')).resolves.toMatchObject({ label: 'Deutschland' })
-    expect(fetch).toHaveBeenCalledTimes(3)
+    expect(fetch).toHaveBeenCalledTimes(4)
   })
 
   it('unterscheidet fehlende Kennzeichenangebote von defekten vorhandenen Paketen', async () => {
@@ -66,6 +69,7 @@ describe('erneut abrufbare Datenpakete', () => {
       vi
         .fn()
         .mockResolvedValueOnce(Response.json({ plates: { DE: { file: 'plates-DE.json' } } }))
+        .mockResolvedValueOnce(new Response('', { status: 500 }))
         .mockResolvedValueOnce(new Response('', { status: 500 }))
         .mockResolvedValueOnce(Response.json([{ id: 'license_plate:DE-B' }])),
     )

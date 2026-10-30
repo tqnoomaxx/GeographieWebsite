@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { useAuth } from '@/app/AuthProvider'
 import { useDocumentTitle } from '@/app/hooks'
 import { auth, authErrorMessage, isStrongPassword, passwordChecks, PASSWORD_MIN_LENGTH } from '@/services/auth'
-import { Page, Card, Chips } from '@/ui'
+import { Page, Card, Chips, LoadingState } from '@/ui'
 import { Icons } from '@/ui/icons'
 
 type Tab = 'login' | 'register' | 'magic'
@@ -24,11 +24,15 @@ export default function LoginPage() {
   useDocumentTitle(title)
 
   useEffect(() => {
-    if (!user) return
-    void auth.mfaStatus().then((status) => navigate(status.required ? '/mfa' : '/account', { replace: true })).catch(() => navigate('/account', { replace: true }))
-  }, [navigate, user])
+    if (!user || busy) return
+    let cancelled = false
+    void auth.mfaStatus()
+      .then((status) => { if (!cancelled) navigate(status.required ? '/mfa' : '/account', { replace: true }) })
+      .catch(() => { if (!cancelled) navigate('/account', { replace: true }) })
+    return () => { cancelled = true }
+  }, [navigate, user, busy])
 
-  if (user) return null
+  if (user) return <Page title={title}><LoadingState message="Anmeldung wird abgeschlossen …" /></Page>
 
   const submit = async (event: React.FormEvent) => {
     event.preventDefault()
@@ -40,7 +44,7 @@ export default function LoginPage() {
         await auth.signIn(email, password)
         await refresh()
         const mfa = await auth.mfaStatus()
-        navigate(mfa.required ? '/mfa' : '/account')
+        navigate(mfa.required ? '/mfa' : '/account', { replace: true })
       } else if (tab === 'register') {
         if (!isStrongPassword(password)) throw new Error('password too weak')
         if (password !== passwordConfirm) {
