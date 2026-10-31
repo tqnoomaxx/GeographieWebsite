@@ -1251,7 +1251,7 @@ textarea {
 .map-controls button:hover:not(:disabled) { background: var(--gold); }
 .map-controls button:disabled { color: var(--ink-2); opacity: .4; }
 .map-controls svg { width: 1rem; height: 1rem; stroke-width: 2.5; }
-.map-zoom-value { display: flex; min-width: 3.8rem; align-items: center; justify-content: center; border-right: 1px solid var(--ink); font-family: ui-monospace, monospace; font-size: .65rem; font-weight: 800; }
+.map-zoom-value { display: flex; min-width: 3.8rem; align-items: center; justify-content: center; border-right: 1px solid var(--ink); background: var(--ink); color: var(--card); font-family: ui-monospace, monospace; font-size: .8rem; font-weight: 800; font-variant-numeric: tabular-nums; }
 .map-gesture-hint { position: absolute; bottom: .55rem; left: .55rem; z-index: 5; max-width: calc(100% - 1.1rem); border: 1px solid var(--ink); background: color-mix(in srgb, var(--card) 93%, transparent); padding: .35rem .5rem; color: var(--ink); font-family: ui-monospace, monospace; font-size: .58rem; font-weight: 700; letter-spacing: .03em; pointer-events: none; }
 .mountain-visual-compact,
 .water-atlas-compact { border-radius: 0; box-shadow: none; }

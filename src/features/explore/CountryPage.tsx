@@ -10,6 +10,7 @@ import { useRepository } from '@/app/useRepository'
 import { Page, Card, Flag, EmptyState, entityPath, SourceInfo } from '@/ui'
 import { WorldMap, Outline } from '@/ui/maps'
 import { FactGrid } from './facts'
+import { CountryQuizPanel } from '@/features/play/CountryQuizPanel'
 import { FavoriteButton } from './FavoriteButton'
 
 export default function CountryPage() {
@@ -117,7 +118,7 @@ export default function CountryPage() {
           title={t('explore.regions_of', { name: country.names.de })}
           action={
             <Link
-              to={`/play/regions/round?scope=${country.id}&len=all`}
+              to={`/play/regions?quiz=regional-flags&scope=${encodeURIComponent(country.id)}`}
               className="btn-secondary py-2 text-sm"
             >
               🎯 {t('play.all', { count: regions.length })}
@@ -160,9 +161,9 @@ export default function CountryPage() {
         <Section
           title={t('explore.water_of', { name: country.names.de })}
           action={
-            <Link to={`/play/water/round?scope=${country.id}&len=10`} className="btn-secondary py-2 text-sm">
-              🎯 {t('category.water')}
-            </Link>
+            <a href="#country-exercises" className="btn-secondary py-2 text-sm">
+              Passende Übungen
+            </a>
           }
         >
           <ul className="flex flex-wrap gap-2">
@@ -180,9 +181,9 @@ export default function CountryPage() {
         <Section
           title={t('explore.nature_of', { name: country.names.de })}
           action={
-            <Link to={`/play/nature/round?scope=${country.id}&len=10`} className="btn-secondary py-2 text-sm">
-              🎯 {t('category.nature')}
-            </Link>
+            <a href="#country-exercises" className="btn-secondary py-2 text-sm">
+              Passende Übungen
+            </a>
           }
         >
           <ul className="flex flex-wrap gap-2">
@@ -226,16 +227,8 @@ export default function CountryPage() {
           </ul>
         </Section>
       )}
-      <div className="mt-6 grid gap-2 md:grid-cols-2">
-        <Link to={`/play/mixed/round?scope=${country.id}&len=10`} className="btn-primary">
-          🎯 {t('explore.play_this', { name: country.names.de })}
-        </Link>
-        <Link
-          to={`/play/countries/round?scope=${encodeURIComponent(a.continent ?? 'world')}&len=10`}
-          className="btn-secondary"
-        >
-          🌍 {t(`scope.${a.continent ?? 'world'}`)}
-        </Link>
+      <div id="country-exercises">
+        <CountryQuizPanel key={country.id} country={country} />
       </div>
     </Page>
   )

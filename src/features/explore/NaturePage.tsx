@@ -53,7 +53,7 @@ export default function NaturePage() {
       <Section title={t('nav.play')}>
         <div className="grid gap-2 md:grid-cols-2">
           <Link to={`/play/${category}/round?scope=${encodeURIComponent(e.attributes.continent ?? 'world')}&len=10`} className="btn-primary"><CategoryIcon id={category} className="h-6 w-6 object-contain" /> {t(`category.${category}`)} · {t(`scope.${e.attributes.continent ?? 'world'}`)}</Link>
-          {countries[0] && <Link to={`/play/mixed/round?scope=${countries[0].id}&len=10`} className="btn-secondary">🎯 {t('explore.play_this', { name: countries[0].names.de })}</Link>}
+          {countries[0] && <Link to={`/play?scope=${encodeURIComponent(countries[0].id)}`} className="btn-secondary">🎯 {t('explore.play_this', { name: countries[0].names.de })}</Link>}
         </div>
       </Section>
     </Page>

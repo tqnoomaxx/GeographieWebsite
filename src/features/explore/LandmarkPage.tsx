@@ -107,7 +107,7 @@ export default function LandmarkPage() {
           📸 {t('modes.image_to_landmark')}
         </Link>
         {country && (
-          <Link to={`/play/mixed/round?scope=${country.id}&len=10`} className="btn-secondary">
+          <Link to={`/play?scope=${encodeURIComponent(country.id)}`} className="btn-secondary">
             🎯 {t('explore.play_this', { name: country.names.de })}
           </Link>
         )}

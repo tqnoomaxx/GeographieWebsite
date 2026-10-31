@@ -8,6 +8,7 @@ export interface RecallCity {
   lon: number
   population: number
   geonameId: string
+  country?: string
 }
 export interface RecallCountry {
   country: string

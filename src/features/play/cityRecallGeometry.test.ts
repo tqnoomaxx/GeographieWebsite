@@ -70,3 +70,22 @@ it('zeigt auch bei der kleinsten Grenze alle Ziele aller verfügbaren Länder', 
     }
   }
 })
+
+it('zeigt die ganze Welt auch mit wenigen Städten auf schmalen Karten', () => {
+  for (const width of [288, 950]) {
+    const map = cityRecallGeometry(undefined, [], 'world', [13, 52], width, 520)
+    expect(map.path({ type: 'Sphere' })).toBeTruthy()
+    for (const point of [
+      [-179, -70],
+      [179, 70],
+      [13, 52],
+      [-74, 40],
+    ]) {
+      const projected = map.projection(point)!
+      expect(projected[0]).toBeGreaterThanOrEqual(0)
+      expect(projected[0]).toBeLessThanOrEqual(width)
+      expect(projected[1]).toBeGreaterThanOrEqual(0)
+      expect(projected[1]).toBeLessThanOrEqual(520)
+    }
+  }
+})

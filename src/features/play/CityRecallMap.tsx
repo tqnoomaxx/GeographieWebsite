@@ -7,6 +7,7 @@ import { MapViewport } from '@/ui/maps'
 import { ErrorState, LoadingState } from '@/ui'
 import { cityRecallGeometry } from './cityRecallGeometry'
 async function loadMap(iso: string) {
+  if (iso === 'world') return { outline: undefined, world: await loadWorld() }
   const index = await loadRecallIndex()
   if (index.countries['country:' + iso]?.hasOutline)
     return { outline: await loadOutline(iso), world: undefined }
@@ -113,7 +114,7 @@ export const CityRecallMap = memo(function CityRecallMap({
           onRetry={map.reload}
         />
       ) : !geo ? (
-        <LoadingState message="Landeskarte wird geladen …" />
+        <LoadingState message="Karte wird geladen …" />
       ) : (
         <MapViewport
           viewBox={`0 0 ${width} ${height}`}

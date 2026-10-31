@@ -1,0 +1,149 @@
+[
+ {
+  "code": "de",
+  "name": "Deutsch",
+  "alphabetTitle": "Alphabet & Schrift",
+  "letters": 30,
+  "words": 205
+ },
+ {
+  "code": "en",
+  "name": "Englisch",
+  "alphabetTitle": "Alphabet & Schrift",
+  "letters": 26,
+  "words": 205
+ },
+ {
+  "code": "fr",
+  "name": "Französisch",
+  "alphabetTitle": "Alphabet & Schrift",
+  "letters": 41,
+  "words": 205
+ },
+ {
+  "code": "es",
+  "name": "Spanisch",
+  "alphabetTitle": "Alphabet & Schrift",
+  "letters": 27,
+  "words": 205
+ },
+ {
+  "code": "pt",
+  "name": "Portugiesisch",
+  "alphabetTitle": "Alphabet & Schrift",
+  "letters": 38,
+  "words": 205
+ },
+ {
+  "code": "it",
+  "name": "Italienisch",
+  "alphabetTitle": "Alphabet & Schrift",
+  "letters": 26,
+  "words": 205
+ },
+ {
+  "code": "nl",
+  "name": "Niederländisch",
+  "alphabetTitle": "Alphabet & Schrift",
+  "letters": 26,
+  "words": 205
+ },
+ {
+  "code": "pl",
+  "name": "Polnisch",
+  "alphabetTitle": "Alphabet & Schrift",
+  "letters": 32,
+  "words": 205
+ },
+ {
+  "code": "sv",
+  "name": "Schwedisch",
+  "alphabetTitle": "Alphabet & Schrift",
+  "letters": 29,
+  "words": 205
+ },
+ {
+  "code": "tr",
+  "name": "Türkisch",
+  "alphabetTitle": "Alphabet & Schrift",
+  "letters": 29,
+  "words": 205
+ },
+ {
+  "code": "ru",
+  "name": "Russisch",
+  "alphabetTitle": "Alphabet & Schrift",
+  "letters": 33,
+  "words": 205
+ },
+ {
+  "code": "uk",
+  "name": "Ukrainisch",
+  "alphabetTitle": "Alphabet & Schrift",
+  "letters": 33,
+  "words": 205
+ },
+ {
+  "code": "el",
+  "name": "Griechisch",
+  "alphabetTitle": "Alphabet & Schrift",
+  "letters": 24,
+  "words": 205
+ },
+ {
+  "code": "ka",
+  "name": "Georgisch",
+  "alphabetTitle": "Alphabet & Schrift",
+  "letters": 33,
+  "words": 205
+ },
+ {
+  "code": "ar",
+  "name": "Arabisch",
+  "alphabetTitle": "Alphabet & Schrift",
+  "letters": 28,
+  "words": 205
+ },
+ {
+  "code": "hi",
+  "name": "Hindi",
+  "alphabetTitle": "Alphabet & Schrift",
+  "letters": 44,
+  "words": 205
+ },
+ {
+  "code": "bn",
+  "name": "Bengalisch",
+  "alphabetTitle": "Alphabet & Schrift",
+  "letters": 50,
+  "words": 205
+ },
+ {
+  "code": "ta",
+  "name": "Tamil",
+  "alphabetTitle": "Alphabet & Schrift",
+  "letters": 31,
+  "words": 205
+ },
+ {
+  "code": "zh",
+  "name": "Chinesisch (Mandarin)",
+  "alphabetTitle": "Zeichen & Pinyin",
+  "letters": 30,
+  "words": 205
+ },
+ {
+  "code": "ja",
+  "name": "Japanisch",
+  "alphabetTitle": "Hiragana & Katakana",
+  "letters": 92,
+  "words": 205
+ },
+ {
+  "code": "ko",
+  "name": "Koreanisch",
+  "alphabetTitle": "Hangul-Alphabet",
+  "letters": 24,
+  "words": 205
+ }
+]

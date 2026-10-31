@@ -26,7 +26,7 @@ export function MapViewport({ viewBox, width, height, interactive, transparent =
   transparent?: boolean
   label: string
   hint?: string
-  children: (gestureMoved: () => boolean) => ReactNode
+  children: (gestureMoved: () => boolean, view: Readonly<ViewState>) => ReactNode
 }) {
   const svgRef = useRef<SVGSVGElement>(null)
   const pointers = useRef(new Map<number, Point>())
@@ -134,7 +134,7 @@ export function MapViewport({ viewBox, width, height, interactive, transparent =
         onPointerCancel={finishPointer}
         onWheel={onWheel}
       >
-        <g transform={transform}>{children(() => moved.current)}</g>
+        <g transform={transform}>{children(() => moved.current, view)}</g>
       </svg>
       {interactive && (
         <>

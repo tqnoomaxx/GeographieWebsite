@@ -131,7 +131,7 @@ function WaterAtlas({ entity, compact = false }: { entity: Entity; compact?: boo
   )
 }
 
-function ScriptStudyCard({ entity, identify }: { entity: Entity; identify?: 'language' | 'script' }) {
+function ScriptStudyCard({ entity, identify, task }: { entity: Entity; identify?: 'language' | 'script'; task?: string }) {
   const language = String(entity.attributes.language_name ?? '')
   const script = String(entity.attributes.script_name ?? '')
   const original = String(entity.attributes.original ?? entity.names.de)
@@ -144,7 +144,7 @@ function ScriptStudyCard({ entity, identify }: { entity: Entity; identify?: 'lan
         lang={String(entity.attributes.language ?? '')} dir={entity.attributes.direction === 'rtl' ? 'rtl' : 'ltr'}>
         {original}
       </strong>
-      <span className="script-study-task">{identify === 'language' ? 'Wörter · Zeichen · Satzbau' : identify === 'script' ? 'Erkenne das Schriftsystem' : 'lateinische Umschrift gesucht'}</span>
+      <span className="script-study-task">{identify === 'language' ? 'Wörter · Zeichen · Satzbau' : identify === 'script' ? 'Erkenne das Schriftsystem' : task ?? 'lateinische Umschrift gesucht'}</span>
     </div>
   )
 }
@@ -169,7 +169,7 @@ export function QuestionVisualization({ question, entities, side = false }: { qu
   const primary = entities[0]
   if (question.category === 'languages' && primary && question.type !== 'latin_to_script') {
     const identify = question.type.startsWith('language_identify') ? 'language' : question.type.startsWith('script_identify') ? 'script' : undefined
-    return <ScriptStudyCard entity={primary} identify={identify} />
+    return <ScriptStudyCard entity={primary} identify={identify} task={primary.attributes.course ? primary.attributes.kind === 'word' ? 'Deutsche Bedeutung gesucht' : 'Name oder Umschrift gesucht' : undefined} />
   }
   if (question.category === 'license_plates' && primary && !['city_to_plate', 'city_to_plate_input'].includes(question.type)) {
     return <div className="plate-stage"><LicensePlate code={String(primary.attributes.code ?? question.prompt.params?.code ?? '')} country={String(primary.attributes.country ?? 'country:DE').replace('country:', '')} /></div>

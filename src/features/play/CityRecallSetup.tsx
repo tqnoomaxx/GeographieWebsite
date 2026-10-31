@@ -7,6 +7,7 @@ import { Page, LoadingState, ErrorState } from '@/ui'
 import type { Exercise } from '@/config/quizCatalog'
 import { CITY_RECALL_DEFAULT, CITY_RECALL_MINIMUM, validCityMinimum } from '@/domain/cityRecall'
 import { loadRecallIndex } from '@/services/data/cityRecall'
+import { normalizeAnswer } from '@/engine/normalize'
 import { roundPath } from '@/engine/round'
 import './city-recall.css'
 export function CityRecallSetup({ exercise }: { exercise: Exercise }) {
@@ -15,6 +16,7 @@ export function CityRecallSetup({ exercise }: { exercise: Exercise }) {
   const [params] = useSearchParams()
   const index = useAsync(loadRecallIndex, [])
   const [country, setCountry] = useState(params.get('scope') ?? 'country:DE')
+  const [search, setSearch] = useState('')
   const [value, setValue] = useState(params.get('population') ?? String(CITY_RECALL_DEFAULT))
   const minimum = Number(value)
   const valid = value.trim() !== '' && validCityMinimum(minimum)
@@ -30,8 +32,23 @@ export function CityRecallSetup({ exercise }: { exercise: Exercise }) {
         .sort((a, b) => a.name.localeCompare(b.name, 'de')),
     [index.data, geo.byId, minimum, valid],
   )
+  const world = {
+    id: 'world',
+    name: 'der ganzen Welt',
+    count: countries.reduce((sum, c) => sum + c.count, 0),
+  }
+  const filteredCountries = countries.filter((c) =>
+    normalizeAnswer(c.name + ' ' + c.id.slice(8)).includes(normalizeAnswer(search)),
+  )
   const selected =
-    countries.find((c) => c.id === country) ?? countries.find((c) => c.id === 'country:DE') ?? countries[0]
+    country === 'world'
+      ? world
+      : (countries.find((c) => c.id === country) ??
+        (geo.byId.has(country)
+          ? { id: country, name: geo.byId.get(country)!.names.de, count: 0 }
+          : undefined) ??
+        countries.find((c) => c.id === 'country:DE') ??
+        countries[0])
   const start = () => {
     if (selected && valid && selected.count)
       navigate(
@@ -63,20 +80,56 @@ export function CityRecallSetup({ exercise }: { exercise: Exercise }) {
           <LoadingState message="Städteauswahl wird geladen …" />
         ) : (
           <>
-            <label className="exercise-control">
-              Land
-              <select
-                aria-label="Land"
-                value={selected?.id ?? ''}
-                onChange={(e) => setCountry(e.target.value)}
-              >
-                {countries.map((c) => (
-                  <option key={c.id} value={c.id}>
-                    {c.name}
-                  </option>
-                ))}
-              </select>
-            </label>
+            <fieldset className="city-recall-scope">
+              <legend>Spielbereich</legend>
+              <div>
+                <button
+                  type="button"
+                  aria-pressed={country !== 'world'}
+                  onClick={() => setCountry('country:DE')}
+                >
+                  Land
+                </button>
+                <button type="button" aria-pressed={country === 'world'} onClick={() => setCountry('world')}>
+                  Welt
+                </button>
+              </div>
+            </fieldset>
+            {country !== 'world' && (
+              <>
+                <label className="exercise-control">
+                  Land suchen
+                  <input
+                    type="search"
+                    value={search}
+                    onChange={(e) => setSearch(e.target.value)}
+                    placeholder="Land oder Ländercode eingeben …"
+                  />
+                </label>
+                <label className="exercise-control">
+                  Land
+                  <select
+                    aria-label="Land"
+                    value={selected?.id ?? ''}
+                    onChange={(e) => setCountry(e.target.value)}
+                  >
+                    {selected && !filteredCountries.some((c) => c.id === selected.id) && (
+                      <option value={selected.id}>{selected.name} (ausgewählt)</option>
+                    )}
+                    {filteredCountries.map((c) => (
+                      <option key={c.id} value={c.id}>
+                        {c.name}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+                {filteredCountries.length === 0 && (
+                  <p className="exercise-note" role="status">
+                    Kein Land gefunden.
+                  </p>
+                )}
+              </>
+            )}
             <label className="exercise-control">
               Einwohnergrenze
               <input

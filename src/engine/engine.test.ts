@@ -43,6 +43,7 @@ const rivers = read<Entity[]>('entities/rivers.json')
 const lakes = read<Entity[]>('entities/lakes.json')
 const mountains = read<Entity[]>('entities/mountains.json')
 const scriptWords = read<Entity[]>('entities/script-words.json')
+const courseCards = read<Entity[]>('entities/language-courses.json')
 const languageSamples = read<Entity[]>('entities/language-samples.json')
 const trivia = read<Entity[]>('entities/trivia.json')
 /** Runden-Setup mit Standardwerten (Automatisch, Welt, 10, Wiederholung an). */
@@ -64,6 +65,7 @@ const ctx = (scope = 'world') =>
     lakes,
     mountains,
     scriptWords,
+    courseCards,
     languageSamples,
     trivia,
     relationships,

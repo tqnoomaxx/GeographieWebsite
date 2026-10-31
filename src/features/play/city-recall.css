@@ -333,8 +333,8 @@
 }
 .city-recall-map .map-zoom-value {
   font-family: inherit;
-  font-weight: 600;
-  font-size: 11px;
+  font-weight: 800;
+  font-size: 13px;
 }
 .city-recall-map .map-gesture-hint {
   border: 0;
@@ -346,3 +346,11 @@
   color: var(--ink-2);
   padding: 5px 8px;
 }
+
+.city-recall-scope { margin: 24px 0; }
+.city-recall-scope legend { font-weight: 650; margin-bottom: 10px; }
+.city-recall-scope > div { display: flex; gap: 8px; }
+.city-recall-scope button { flex: 1; padding: 12px 18px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); cursor: pointer; }
+.city-recall-scope button[aria-pressed='true'] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.exercise-control input[type='search'], .city-recall-search input { display: block; width: 100%; min-width: 0; margin-top: 10px; padding: 13px 15px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); color: var(--ink); font-size: 16px; font-weight: 400; }
+.city-recall-search { display: block; margin-top: 18px; font-size: 14px; font-weight: 650; }

@@ -8,6 +8,7 @@ import {
   ANSWER_LABELS,
   EXERCISES,
   exerciseFor,
+  exerciseScopeAllowed,
   exercisePath,
   exercisesFor,
   topicFor,
@@ -20,11 +21,13 @@ import { SCOPES } from '@/engine/scope'
 import { selectedProfileIds } from '@/engine/profile'
 import { ProfileOptions } from './ProfileOptions'
 import type { CategoryId } from '@/engine/types'
-import { ErrorState, LoadingState, Page } from '@/ui'
+import { ErrorState, LoadingState, Page, Flag } from '@/ui'
 import { TopicIcon } from './QuizCatalog'
+import { LanguageCourseSetup } from './LanguageCourseSetup'
 import { CityRecallSetup } from './CityRecallSetup'
 import { TrainingOptions, useTrainingSettings } from './TrainingOptions'
 import './quiz-selection.css'
+import './country-exercises.css'
 
 /** Old setup links resolve to one concrete exercise. Old round URLs still use the legacy engine. */
 export function legacyExercise(
@@ -94,7 +97,9 @@ export function ExerciseList({ category }: { category: CategoryId }) {
   )
 }
 export function ExerciseSetup({ exercise }: { exercise: Exercise }) {
-  return exercise.kind === 'city-recall' ? (
+  return exercise.kind === 'language-course' ? (
+    <LanguageCourseSetup exercise={exercise} />
+  ) : exercise.kind === 'city-recall' ? (
     <CityRecallSetup exercise={exercise} />
   ) : (
     <StandardExerciseSetup exercise={exercise} />
@@ -107,11 +112,15 @@ function StandardExerciseSetup({ exercise: q }: { exercise: Exercise }) {
   const [params] = useSearchParams()
   const resources = useDataResources(['index', 'countries', ...q.resources])
   const [training, changeTraining] = useTrainingSettings()
-  const [form, setForm] = useState<ModeForm>(() =>
-    params.get('mode') && q.variants[params.get('mode') as ModeForm]
-      ? (params.get('mode') as ModeForm)
-      : (Object.keys(q.variants)[0] as ModeForm),
-  )
+  const [form, setForm] = useState<ModeForm>(() => {
+    const requested = params.get('mode') as ModeForm | null
+    const scope = params.get('scope') ?? q.defaultScope ?? 'world'
+    if (requested && q.variants[requested] && exerciseScopeAllowed(q, scope, requested)) return requested
+    return (
+      (Object.keys(q.variants) as ModeForm[]).find((mode) => exerciseScopeAllowed(q, scope, mode)) ??
+      (Object.keys(q.variants)[0] as ModeForm)
+    )
+  })
   const [chosenScope, setScope] = useState(params.get('scope') ?? q.defaultScope ?? 'world')
   const [collection, setCollection] = useState(
     () => q.collections?.find((c) => c.id === params.get('collection'))?.id ?? q.collections?.[0]?.id,
@@ -147,7 +156,8 @@ function StandardExerciseSetup({ exercise: q }: { exercise: Exercise }) {
       content: q.content,
       fields: q.kind === 'profile' ? fields : undefined,
     }
-    const count = (scope: string) => poolFor(geo.contextFor(scope), setup).size
+    const count = (scope: string) =>
+      exerciseScopeAllowed(q, scope, form) ? poolFor(geo.contextFor(scope), setup).size : 0
     if (q.scope === 'none') return [{ id: 'world', label: 'Welt' }]
     const scopes: Array<{ id: string; label: string }> = []
     if (q.scope !== 'country')
@@ -163,8 +173,9 @@ function StandardExerciseSetup({ exercise: q }: { exercise: Exercise }) {
           (e.attributes.country ? [e.attributes.country] : [])
         for (const country of countries) counts.set(country, (counts.get(country) ?? 0) + 1)
       }
+      if (q.kind === 'profile') for (const country of geo.countries) counts.set(country.id, count(country.id))
       for (const [id, n] of counts)
-        if (n >= minimum) {
+        if (n >= minimum && exerciseScopeAllowed(q, id, form)) {
           const country = geo.byId.get(id)
           if (country) scopes.push({ id, label: country.names.de })
         }
@@ -187,9 +198,14 @@ function StandardExerciseSetup({ exercise: q }: { exercise: Exercise }) {
     }
     return scopes
   }, [geo, q, form, collection, fields, minimum, resources.loading, t])
-  const scope = available.some((s) => s.id === chosenScope)
-    ? chosenScope
-    : (available.find((s) => s.id === q.defaultScope)?.id ?? available[0]?.id ?? 'world')
+  const explicitCountry =
+    chosenScope.startsWith('country:') &&
+    geo.byId.has(chosenScope) &&
+    exerciseScopeAllowed(q, chosenScope, form)
+  const scope =
+    explicitCountry || available.some((s) => s.id === chosenScope)
+      ? chosenScope
+      : (available.find((s) => s.id === q.defaultScope)?.id ?? available[0]?.id ?? 'world')
   const poolSize = useMemo(
     () =>
       resources.loading || (q.kind === 'profile' && !fields.length)
@@ -210,6 +226,7 @@ function StandardExerciseSetup({ exercise: q }: { exercise: Exercise }) {
     navigate(roundPath(setup))
   }
   const topic = topicFor(q.topic)!
+  const chosenCountry = scope.startsWith('country:') ? geo.byId.get(scope) : undefined
   return (
     <Page>
       <div className="exercise-setup">
@@ -221,6 +238,12 @@ function StandardExerciseSetup({ exercise: q }: { exercise: Exercise }) {
           <h1>{q.title}</h1>
           <p>{form === 'map' ? (q.mapDescription ?? q.description) : q.description}</p>
         </header>
+        {chosenCountry && (
+          <div className="country-setup-context">
+            <Flag entity={chosenCountry} size="sm" />
+            <span>Dein Land: {chosenCountry.names.de}</span>
+          </div>
+        )}
         {resources.error ? (
           <ErrorState onRetry={resources.retry} />
         ) : resources.loading ? (
@@ -236,6 +259,7 @@ function StandardExerciseSetup({ exercise: q }: { exercise: Exercise }) {
                       type="button"
                       key={value}
                       aria-pressed={form === value}
+                      disabled={!!chosenCountry && !exerciseScopeAllowed(q, scope, value)}
                       className={form === value ? 'is-selected' : ''}
                       onClick={() => setForm(value as ModeForm)}
                     >
@@ -261,24 +285,29 @@ function StandardExerciseSetup({ exercise: q }: { exercise: Exercise }) {
                 </select>
               </label>
             )}
-            {q.scope !== 'none' && available.length > 1 && (
-              <label className="exercise-control">
-                {q.scope === 'country' ? 'Land' : 'Gebiet'}
-                <select
-                  aria-label={q.scope === 'country' ? 'Land' : 'Gebiet'}
-                  value={scope}
-                  onChange={(e) => setScope(e.target.value)}
-                >
-                  {available.map((s) => (
-                    <option value={s.id} key={s.id}>
-                      {s.label}
-                    </option>
-                  ))}
-                </select>
-              </label>
-            )}
+            {q.scope !== 'none' &&
+              (available.length > 1 || (chosenCountry && !available.some((item) => item.id === scope))) && (
+                <label className="exercise-control">
+                  {q.scope === 'country' ? 'Land' : 'Gebiet'}
+                  <select
+                    aria-label={q.scope === 'country' ? 'Land' : 'Gebiet'}
+                    value={scope}
+                    onChange={(e) => setScope(e.target.value)}
+                  >
+                    {chosenCountry && !available.some((item) => item.id === scope) && (
+                      <option value={scope}>{chosenCountry.names.de} · keine passenden Inhalte</option>
+                    )}
+                    {available.map((s) => (
+                      <option value={s.id} key={s.id}>
+                        {s.label}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+              )}
             {q.kind === 'profile' && (
               <ProfileOptions
+                scope={scope}
                 fields={fields}
                 onFieldsChange={setFields}
                 learning={profileLearning}
@@ -297,8 +326,14 @@ function StandardExerciseSetup({ exercise: q }: { exercise: Exercise }) {
               </p>
             )}
             <p className="exercise-summary" aria-live="polite">
-              {poolSize.toLocaleString('de-DE')} {q.kind === 'profile' ? 'Länder' : 'Lernkarten'} ·{' '}
-              {length === 'all' ? 'Alle' : `${length} ${q.kind === 'profile' ? 'Länder' : 'Fragen'}`}
+              {q.kind === 'profile' && chosenCountry ? (
+                `${fields.length} Wissensfelder · ${chosenCountry.names.de}`
+              ) : (
+                <>
+                  {poolSize.toLocaleString('de-DE')} {q.kind === 'profile' ? 'Länder' : 'Lernkarten'} ·{' '}
+                  {length === 'all' ? 'Alle' : `${length} ${q.kind === 'profile' ? 'Länder' : 'Fragen'}`}
+                </>
+              )}
               {q.scope === 'none' || available.length > 1
                 ? ''
                 : ` · ${available.find((s) => s.id === scope)?.label ?? scope}`}

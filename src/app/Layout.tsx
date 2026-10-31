@@ -16,8 +16,9 @@ const NAV = [
   { to: '/story', key: 'Story', icon: 'daily' },
   { to: '/learn', key: 'nav.learn', icon: 'learn' },
   { to: '/explore', key: 'nav.explore', icon: 'explore' },
+  { to: '/maps', key: 'nav.maps', icon: 'map' },
   { to: '/progress', key: 'nav.progress', icon: 'progress' },
-] satisfies Array<{ to: string; key: string; icon: NavAtlasIconId; end?: boolean }>
+] satisfies Array<{ to: string; key: string; icon: NavAtlasIconId | 'map'; end?: boolean }>
 
 export function Layout() {
   const { t } = useTranslation()
@@ -143,10 +144,10 @@ export function Layout() {
       )}
       {!immersive && (
         <nav
-          className="mobile-nav fixed inset-x-0 bottom-0 z-40 pb-[env(safe-area-inset-bottom)] md:hidden"
+          className="mobile-nav fixed inset-x-0 bottom-0 z-40 pb-[env(safe-area-inset-bottom)] lg:hidden"
           aria-label="Hauptnavigation"
         >
-          <div className="grid grid-cols-6">
+          <div className="grid grid-cols-7">
             {NAV.map((n) => (
               <NavLink
                 key={n.to}

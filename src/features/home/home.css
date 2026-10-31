@@ -38,3 +38,17 @@
   .simple-shell .home-atlas { padding: 16px 14px; }
   .simple-shell .home-atlas h1 { font-size: 22px; }
 }
+/* Keep pointer focus free of the SVG's rectangular browser outline. */
+.simple-shell .home-atlas .globe-svg {
+  -webkit-tap-highlight-color: transparent;
+}
+.simple-shell .home-atlas .globe-svg:focus,
+.simple-shell .home-atlas .globe-svg:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+.simple-shell .home-atlas .globe-svg:focus-visible .globe-rim {
+  stroke: #c7f5f8;
+  stroke-width: 3.5;
+  filter: drop-shadow(0 0 7px #9ee6ef80);
+}

@@ -195,7 +195,7 @@ export function countryProfileFields(country: Country, ctx: GeneratorContext): P
 export const countryProfile: Generator = {
   id: 'country_profile',
   category: 'countries',
-  pool: (ctx) => ctx.countries.filter(isSovereign),
+  pool: (ctx) => ctx.countries.filter((country) => country.id === ctx.scope || isSovereign(country)),
   make(target, ctx, _rng, difficulty) {
     const fields = countryProfileFields(target as Country, ctx).filter(
       (field) => field.answers.length && field.display,

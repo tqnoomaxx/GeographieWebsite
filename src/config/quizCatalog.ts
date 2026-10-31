@@ -1,3 +1,4 @@
+import languageCourses from './languageCourses.json'
 import type { CategoryId } from '@/engine/types'
 import type { Entity } from '@/domain/types'
 import type { DataResource } from '@/app/DataProvider'
@@ -22,7 +23,7 @@ export interface Exercise {
   resources: DataResource[]
   defaultScope?: string
   defaultLength?: 'all'
-  kind?: 'profile' | 'city-recall'
+  kind?: 'profile' | 'city-recall' | 'language-course'
   content?: Content[]
   targetType?: Entity['type']
   language?: string
@@ -96,7 +97,7 @@ export const QUIZ_TOPICS: QuizTopic[] = [
   {
     id: 'languages',
     title: 'Sprachen & Schriften',
-    description: '21 Sprachen erkennen und 7 Schriften lesen',
+    description: '21 Sprachen lernen: Alphabet, Schriftzeichen und Wortschatz',
     icon: 'languages',
     featured: false,
   },
@@ -128,9 +129,9 @@ export const EXERCISES: Exercise[] = [
     id: 'city-recall',
     topic: 'cities',
     title: 'Städte auf der Karte sammeln',
-    description: 'Tippe Städtenamen eines Landes ein und fülle die Karte.',
+    description: 'Sammle Städte eines Landes oder der ganzen Welt auf der Karte.',
     variants: { input: ['city_recall'] },
-    scope: 'country',
+    scope: 'world-country',
     resources: [],
     kind: 'city-recall',
     defaultScope: 'country:DE',
@@ -171,7 +172,7 @@ export const EXERCISES: Exercise[] = [
     variants: {
       input: ['country_profile'],
     },
-    scope: 'world',
+    scope: 'world-country',
     resources: ['cities', 'relationships', 'mountains'],
     kind: 'profile',
     defaultLength: 'all',
@@ -453,7 +454,7 @@ export const EXERCISES: Exercise[] = [
       choice: ['river_to_country'],
       map: ['water_on_map'],
     },
-    scope: 'world',
+    scope: 'world-country',
     resources: ['rivers', 'lakes'],
     targetType: 'river',
   },
@@ -467,7 +468,7 @@ export const EXERCISES: Exercise[] = [
       choice: ['lake_to_country'],
       map: ['water_on_map'],
     },
-    scope: 'world',
+    scope: 'world-country',
     resources: ['rivers', 'lakes'],
     targetType: 'lake',
   },
@@ -505,7 +506,7 @@ export const EXERCISES: Exercise[] = [
       choice: ['mountain_to_country'],
       map: ['mountain_on_map'],
     },
-    scope: 'world',
+    scope: 'world-country',
     resources: ['mountains'],
   },
   {
@@ -520,6 +521,17 @@ export const EXERCISES: Exercise[] = [
     resources: ['mountains'],
     minPool: 2,
   },
+  ...languageCourses.map((language): Exercise => ({
+    id: `learn-${language.code}`,
+    topic: 'languages',
+    title: `${language.name} lernen`,
+    description: `${language.alphabetTitle} · ${language.words} Wörter aus Alltag, Natur und Reisen`,
+    variants: { choice: ['language_course_choice'], input: ['language_course_input'] },
+    scope: 'none',
+    resources: ['courseCards'],
+    language: language.code,
+    kind: 'language-course',
+  })),
   {
     id: 'recognize-language',
     topic: 'languages',
@@ -683,6 +695,7 @@ export const EXERCISES: Exercise[] = [
       'lakes',
       'mountains',
       'scriptWords',
+      'courseCards',
       'languageSamples',
       'plates',
       'trivia',
@@ -699,13 +712,16 @@ export function exerciseGenerators(q: Exercise, form: string, collection?: strin
   if (q.collections) return (q.collections.find((c) => c.id === collection) ?? q.collections[0]).generators
   return q.variants[form as ModeForm] ?? []
 }
-export function exerciseKeeps(q: Exercise, entity: Entity): boolean {
+export function exerciseKeeps(q: Exercise, entity: Entity, collection?: string): boolean {
   return (
+    (q.kind !== 'language-course' || (entity.attributes.course === true && entity.attributes.kind === (collection === 'words' ? 'word' : 'letter'))) &&
     (!q.targetType || entity.type === q.targetType) &&
     (!q.language || entity.attributes.language === q.language)
   )
 }
 export function exerciseScopeAllowed(q: Exercise, scope: string, form: string): boolean {
+  if (scope.startsWith('country:') && ['river-country', 'lake-country', 'mountain-country'].includes(q.id)) return form === 'map'
+  if (q.kind === 'city-recall') return scope === 'world' || /^country:[A-Z]{2}$/.test(scope)
   if (q.scope === 'none') return scope === 'world'
   if (q.scope === 'country')
     return /^country:[A-Z]{2}$/.test(scope) || !!(q.europeMap && form === 'map' && scope === 'europe')

@@ -57,6 +57,7 @@ export const loadRivers = () => fetchJson<Entity[]>('entities/rivers.json')
 export const loadLakes = () => fetchJson<Entity[]>('entities/lakes.json')
 export const loadMountains = () => fetchJson<Entity[]>('entities/mountains.json')
 export const loadScriptWords = () => fetchJson<Entity[]>('entities/script-words.json')
+export const loadCourseCards = () => fetchJson<Entity[]>('entities/language-courses.json')
 export const loadLanguageSamples = () => fetchJson<Entity[]>('entities/language-samples.json')
 export const loadTrivia = () => fetchJson<TriviaQuestion[]>('entities/trivia.json')
 export const loadRelationships = () => fetchJson<Relationship[]>('relationships/index.json')
@@ -128,7 +129,7 @@ export async function loadEntity(id: string): Promise<Entity | undefined> {
     case 'mountain':
       return (await loadMountains()).find((c) => c.id === id)
     case 'script_word':
-      return (await loadScriptWords()).find((c) => c.id === id)
+      return (await (id.startsWith('script_word:course-') ? loadCourseCards() : loadScriptWords())).find((c) => c.id === id)
     case 'region': {
       const iso2 = rest.split('-')[0]
       return (await loadRegions(`country:${iso2}`)).find((r) => r.id === id)
@@ -156,7 +157,7 @@ export async function loadEntitiesByType(type: Entity['type']): Promise<Entity[]
     case 'region':
       return loadAllRegions()
     case 'script_word':
-      return loadScriptWords()
+      return (await Promise.all([loadScriptWords(), loadCourseCards()])).flat()
     default:
       return []
   }

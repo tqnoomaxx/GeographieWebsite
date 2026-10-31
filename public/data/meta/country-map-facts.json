@@ -1,0 +1,1517 @@
+{
+ "checkedAt": "2026-10-31",
+ "source": {
+  "name": "REST Countries",
+  "url": "https://github.com/restcountries/restcountries/blob/bfadee4f951682c29970e53677707bc558e80b74/src/main/resources/countriesV3.1.json",
+  "license": "MPL-2.0",
+  "revision": "bfadee4f951682c29970e53677707bc558e80b74"
+ },
+ "countries": {
+  "country:AC": {
+   "callingCodes": []
+  },
+  "country:AD": {
+   "callingCodes": [
+    "+376"
+   ],
+   "drivingSide": "right"
+  },
+  "country:AE": {
+   "callingCodes": [
+    "+971"
+   ],
+   "drivingSide": "right"
+  },
+  "country:AF": {
+   "callingCodes": [
+    "+93"
+   ],
+   "drivingSide": "right"
+  },
+  "country:AG": {
+   "callingCodes": [
+    "+1268"
+   ],
+   "drivingSide": "left"
+  },
+  "country:AI": {
+   "callingCodes": [
+    "+1264"
+   ],
+   "drivingSide": "left"
+  },
+  "country:AL": {
+   "callingCodes": [
+    "+355"
+   ],
+   "drivingSide": "right"
+  },
+  "country:AM": {
+   "callingCodes": [
+    "+374"
+   ],
+   "drivingSide": "right"
+  },
+  "country:AO": {
+   "callingCodes": [
+    "+244"
+   ],
+   "drivingSide": "right"
+  },
+  "country:AQ": {
+   "callingCodes": []
+  },
+  "country:AR": {
+   "callingCodes": [
+    "+54"
+   ],
+   "drivingSide": "right"
+  },
+  "country:AS": {
+   "callingCodes": [
+    "+1684"
+   ],
+   "drivingSide": "right"
+  },
+  "country:AT": {
+   "callingCodes": [
+    "+43"
+   ],
+   "drivingSide": "right"
+  },
+  "country:AU": {
+   "callingCodes": [
+    "+61"
+   ],
+   "drivingSide": "left"
+  },
+  "country:AW": {
+   "callingCodes": [
+    "+297"
+   ],
+   "drivingSide": "right"
+  },
+  "country:AX": {
+   "callingCodes": [
+    "+35818"
+   ],
+   "drivingSide": "right"
+  },
+  "country:AZ": {
+   "callingCodes": [
+    "+994"
+   ],
+   "drivingSide": "right"
+  },
+  "country:BA": {
+   "callingCodes": [
+    "+387"
+   ],
+   "drivingSide": "right"
+  },
+  "country:BB": {
+   "callingCodes": [
+    "+1246"
+   ],
+   "drivingSide": "left"
+  },
+  "country:BD": {
+   "callingCodes": [
+    "+880"
+   ],
+   "drivingSide": "left"
+  },
+  "country:BE": {
+   "callingCodes": [
+    "+32"
+   ],
+   "drivingSide": "right"
+  },
+  "country:BF": {
+   "callingCodes": [
+    "+226"
+   ],
+   "drivingSide": "right"
+  },
+  "country:BG": {
+   "callingCodes": [
+    "+359"
+   ],
+   "drivingSide": "right"
+  },
+  "country:BH": {
+   "callingCodes": [
+    "+973"
+   ],
+   "drivingSide": "right"
+  },
+  "country:BI": {
+   "callingCodes": [
+    "+257"
+   ],
+   "drivingSide": "right"
+  },
+  "country:BJ": {
+   "callingCodes": [
+    "+229"
+   ],
+   "drivingSide": "right"
+  },
+  "country:BL": {
+   "callingCodes": [
+    "+590"
+   ],
+   "drivingSide": "right"
+  },
+  "country:BM": {
+   "callingCodes": [
+    "+1441"
+   ],
+   "drivingSide": "left"
+  },
+  "country:BN": {
+   "callingCodes": [
+    "+673"
+   ],
+   "drivingSide": "left"
+  },
+  "country:BO": {
+   "callingCodes": [
+    "+591"
+   ],
+   "drivingSide": "right"
+  },
+  "country:BQ": {
+   "callingCodes": [
+    "+599"
+   ],
+   "drivingSide": "right"
+  },
+  "country:BR": {
+   "callingCodes": [
+    "+55"
+   ],
+   "drivingSide": "right"
+  },
+  "country:BS": {
+   "callingCodes": [
+    "+1242"
+   ],
+   "drivingSide": "left"
+  },
+  "country:BT": {
+   "callingCodes": [
+    "+975"
+   ],
+   "drivingSide": "left"
+  },
+  "country:BV": {
+   "callingCodes": [
+    "+47"
+   ]
+  },
+  "country:BW": {
+   "callingCodes": [
+    "+267"
+   ],
+   "drivingSide": "left"
+  },
+  "country:BY": {
+   "callingCodes": [
+    "+375"
+   ],
+   "drivingSide": "right"
+  },
+  "country:BZ": {
+   "callingCodes": [
+    "+501"
+   ],
+   "drivingSide": "right"
+  },
+  "country:CA": {
+   "callingCodes": [
+    "+1"
+   ],
+   "drivingSide": "right"
+  },
+  "country:CC": {
+   "callingCodes": [
+    "+61"
+   ],
+   "drivingSide": "left"
+  },
+  "country:CD": {
+   "callingCodes": [
+    "+243"
+   ],
+   "drivingSide": "right"
+  },
+  "country:CF": {
+   "callingCodes": [
+    "+236"
+   ],
+   "drivingSide": "right"
+  },
+  "country:CG": {
+   "callingCodes": [
+    "+242"
+   ],
+   "drivingSide": "right"
+  },
+  "country:CH": {
+   "callingCodes": [
+    "+41"
+   ],
+   "drivingSide": "right"
+  },
+  "country:CI": {
+   "callingCodes": [
+    "+225"
+   ],
+   "drivingSide": "right"
+  },
+  "country:CK": {
+   "callingCodes": [
+    "+682"
+   ],
+   "drivingSide": "left"
+  },
+  "country:CL": {
+   "callingCodes": [
+    "+56"
+   ],
+   "drivingSide": "right"
+  },
+  "country:CM": {
+   "callingCodes": [
+    "+237"
+   ],
+   "drivingSide": "right"
+  },
+  "country:CN": {
+   "callingCodes": [
+    "+86"
+   ],
+   "drivingSide": "right"
+  },
+  "country:CO": {
+   "callingCodes": [
+    "+57"
+   ],
+   "drivingSide": "right"
+  },
+  "country:CR": {
+   "callingCodes": [
+    "+506"
+   ],
+   "drivingSide": "right"
+  },
+  "country:CU": {
+   "callingCodes": [
+    "+53"
+   ],
+   "drivingSide": "right"
+  },
+  "country:CV": {
+   "callingCodes": [
+    "+238"
+   ],
+   "drivingSide": "right"
+  },
+  "country:CW": {
+   "callingCodes": [
+    "+599"
+   ],
+   "drivingSide": "right"
+  },
+  "country:CX": {
+   "callingCodes": [
+    "+61"
+   ],
+   "drivingSide": "left"
+  },
+  "country:CY": {
+   "callingCodes": [
+    "+357"
+   ],
+   "drivingSide": "left"
+  },
+  "country:CZ": {
+   "callingCodes": [
+    "+420"
+   ],
+   "drivingSide": "right"
+  },
+  "country:DE": {
+   "callingCodes": [
+    "+49"
+   ],
+   "drivingSide": "right"
+  },
+  "country:DJ": {
+   "callingCodes": [
+    "+253"
+   ],
+   "drivingSide": "right"
+  },
+  "country:DK": {
+   "callingCodes": [
+    "+45"
+   ],
+   "drivingSide": "right"
+  },
+  "country:DM": {
+   "callingCodes": [
+    "+1767"
+   ],
+   "drivingSide": "left"
+  },
+  "country:DO": {
+   "callingCodes": [
+    "+1809",
+    "+1829",
+    "+1849"
+   ],
+   "drivingSide": "right"
+  },
+  "country:DZ": {
+   "callingCodes": [
+    "+213"
+   ],
+   "drivingSide": "right"
+  },
+  "country:EC": {
+   "callingCodes": [
+    "+593"
+   ],
+   "drivingSide": "right"
+  },
+  "country:EE": {
+   "callingCodes": [
+    "+372"
+   ],
+   "drivingSide": "right"
+  },
+  "country:EG": {
+   "callingCodes": [
+    "+20"
+   ],
+   "drivingSide": "right"
+  },
+  "country:EH": {
+   "callingCodes": [
+    "+212"
+   ],
+   "drivingSide": "right"
+  },
+  "country:ER": {
+   "callingCodes": [
+    "+291"
+   ],
+   "drivingSide": "right"
+  },
+  "country:ES": {
+   "callingCodes": [
+    "+34"
+   ],
+   "drivingSide": "right"
+  },
+  "country:ET": {
+   "callingCodes": [
+    "+251"
+   ],
+   "drivingSide": "right"
+  },
+  "country:FI": {
+   "callingCodes": [
+    "+358"
+   ],
+   "drivingSide": "right"
+  },
+  "country:FJ": {
+   "callingCodes": [
+    "+679"
+   ],
+   "drivingSide": "left"
+  },
+  "country:FK": {
+   "callingCodes": [
+    "+500"
+   ],
+   "drivingSide": "left"
+  },
+  "country:FM": {
+   "callingCodes": [
+    "+691"
+   ],
+   "drivingSide": "right"
+  },
+  "country:FO": {
+   "callingCodes": [
+    "+298"
+   ],
+   "drivingSide": "right"
+  },
+  "country:FR": {
+   "callingCodes": [
+    "+33"
+   ],
+   "drivingSide": "right"
+  },
+  "country:GA": {
+   "callingCodes": [
+    "+241"
+   ],
+   "drivingSide": "right"
+  },
+  "country:GB": {
+   "callingCodes": [
+    "+44"
+   ],
+   "drivingSide": "left"
+  },
+  "country:GD": {
+   "callingCodes": [
+    "+1473"
+   ],
+   "drivingSide": "left"
+  },
+  "country:GE": {
+   "callingCodes": [
+    "+995"
+   ],
+   "drivingSide": "right"
+  },
+  "country:GF": {
+   "callingCodes": [
+    "+594"
+   ],
+   "drivingSide": "right"
+  },
+  "country:GG": {
+   "callingCodes": [
+    "+44"
+   ],
+   "drivingSide": "left"
+  },
+  "country:GH": {
+   "callingCodes": [
+    "+233"
+   ],
+   "drivingSide": "right"
+  },
+  "country:GI": {
+   "callingCodes": [
+    "+350"
+   ],
+   "drivingSide": "right"
+  },
+  "country:GL": {
+   "callingCodes": [
+    "+299"
+   ],
+   "drivingSide": "right"
+  },
+  "country:GM": {
+   "callingCodes": [
+    "+220"
+   ],
+   "drivingSide": "right"
+  },
+  "country:GN": {
+   "callingCodes": [
+    "+224"
+   ],
+   "drivingSide": "right"
+  },
+  "country:GP": {
+   "callingCodes": [
+    "+590"
+   ],
+   "drivingSide": "right"
+  },
+  "country:GQ": {
+   "callingCodes": [
+    "+240"
+   ],
+   "drivingSide": "right"
+  },
+  "country:GR": {
+   "callingCodes": [
+    "+30"
+   ],
+   "drivingSide": "right"
+  },
+  "country:GS": {
+   "callingCodes": [
+    "+500"
+   ]
+  },
+  "country:GT": {
+   "callingCodes": [
+    "+502"
+   ],
+   "drivingSide": "right"
+  },
+  "country:GU": {
+   "callingCodes": [
+    "+1671"
+   ],
+   "drivingSide": "right"
+  },
+  "country:GW": {
+   "callingCodes": [
+    "+245"
+   ],
+   "drivingSide": "right"
+  },
+  "country:GY": {
+   "callingCodes": [
+    "+592"
+   ],
+   "drivingSide": "left"
+  },
+  "country:HK": {
+   "callingCodes": [
+    "+852"
+   ],
+   "drivingSide": "left"
+  },
+  "country:HM": {
+   "callingCodes": []
+  },
+  "country:HN": {
+   "callingCodes": [
+    "+504"
+   ],
+   "drivingSide": "right"
+  },
+  "country:HR": {
+   "callingCodes": [
+    "+385"
+   ],
+   "drivingSide": "right"
+  },
+  "country:HT": {
+   "callingCodes": [
+    "+509"
+   ],
+   "drivingSide": "right"
+  },
+  "country:HU": {
+   "callingCodes": [
+    "+36"
+   ],
+   "drivingSide": "right"
+  },
+  "country:IC": {
+   "callingCodes": []
+  },
+  "country:ID": {
+   "callingCodes": [
+    "+62"
+   ],
+   "drivingSide": "left"
+  },
+  "country:IE": {
+   "callingCodes": [
+    "+353"
+   ],
+   "drivingSide": "left"
+  },
+  "country:IL": {
+   "callingCodes": [
+    "+972"
+   ],
+   "drivingSide": "right"
+  },
+  "country:IM": {
+   "callingCodes": [
+    "+44"
+   ],
+   "drivingSide": "left"
+  },
+  "country:IN": {
+   "callingCodes": [
+    "+91"
+   ],
+   "drivingSide": "left"
+  },
+  "country:IO": {
+   "callingCodes": [
+    "+246"
+   ],
+   "drivingSide": "right"
+  },
+  "country:IQ": {
+   "callingCodes": [
+    "+964"
+   ],
+   "drivingSide": "right"
+  },
+  "country:IR": {
+   "callingCodes": [
+    "+98"
+   ],
+   "drivingSide": "right"
+  },
+  "country:IS": {
+   "callingCodes": [
+    "+354"
+   ],
+   "drivingSide": "right"
+  },
+  "country:IT": {
+   "callingCodes": [
+    "+39"
+   ],
+   "drivingSide": "right"
+  },
+  "country:JE": {
+   "callingCodes": [
+    "+44"
+   ],
+   "drivingSide": "left"
+  },
+  "country:JM": {
+   "callingCodes": [
+    "+1876",
+    "+1658"
+   ],
+   "drivingSide": "left"
+  },
+  "country:JO": {
+   "callingCodes": [
+    "+962"
+   ],
+   "drivingSide": "right"
+  },
+  "country:JP": {
+   "callingCodes": [
+    "+81"
+   ],
+   "drivingSide": "left"
+  },
+  "country:KE": {
+   "callingCodes": [
+    "+254"
+   ],
+   "drivingSide": "left"
+  },
+  "country:KG": {
+   "callingCodes": [
+    "+996"
+   ],
+   "drivingSide": "right"
+  },
+  "country:KH": {
+   "callingCodes": [
+    "+855"
+   ],
+   "drivingSide": "right"
+  },
+  "country:KI": {
+   "callingCodes": [
+    "+686"
+   ],
+   "drivingSide": "left"
+  },
+  "country:KM": {
+   "callingCodes": [
+    "+269"
+   ],
+   "drivingSide": "right"
+  },
+  "country:KN": {
+   "callingCodes": [
+    "+1869"
+   ],
+   "drivingSide": "left"
+  },
+  "country:KP": {
+   "callingCodes": [
+    "+850"
+   ],
+   "drivingSide": "right"
+  },
+  "country:KR": {
+   "callingCodes": [
+    "+82"
+   ],
+   "drivingSide": "right"
+  },
+  "country:KW": {
+   "callingCodes": [
+    "+965"
+   ],
+   "drivingSide": "right"
+  },
+  "country:KY": {
+   "callingCodes": [
+    "+1345"
+   ],
+   "drivingSide": "left"
+  },
+  "country:KZ": {
+   "callingCodes": [
+    "+7"
+   ],
+   "drivingSide": "right"
+  },
+  "country:LA": {
+   "callingCodes": [
+    "+856"
+   ],
+   "drivingSide": "right"
+  },
+  "country:LB": {
+   "callingCodes": [
+    "+961"
+   ],
+   "drivingSide": "right"
+  },
+  "country:LC": {
+   "callingCodes": [
+    "+1758"
+   ],
+   "drivingSide": "left"
+  },
+  "country:LI": {
+   "callingCodes": [
+    "+423"
+   ],
+   "drivingSide": "right"
+  },
+  "country:LK": {
+   "callingCodes": [
+    "+94"
+   ],
+   "drivingSide": "left"
+  },
+  "country:LR": {
+   "callingCodes": [
+    "+231"
+   ],
+   "drivingSide": "right"
+  },
+  "country:LS": {
+   "callingCodes": [
+    "+266"
+   ],
+   "drivingSide": "left"
+  },
+  "country:LT": {
+   "callingCodes": [
+    "+370"
+   ],
+   "drivingSide": "right"
+  },
+  "country:LU": {
+   "callingCodes": [
+    "+352"
+   ],
+   "drivingSide": "right"
+  },
+  "country:LV": {
+   "callingCodes": [
+    "+371"
+   ],
+   "drivingSide": "right"
+  },
+  "country:LY": {
+   "callingCodes": [
+    "+218"
+   ],
+   "drivingSide": "right"
+  },
+  "country:MA": {
+   "callingCodes": [
+    "+212"
+   ],
+   "drivingSide": "right"
+  },
+  "country:MC": {
+   "callingCodes": [
+    "+377"
+   ],
+   "drivingSide": "right"
+  },
+  "country:MD": {
+   "callingCodes": [
+    "+373"
+   ],
+   "drivingSide": "right"
+  },
+  "country:ME": {
+   "callingCodes": [
+    "+382"
+   ],
+   "drivingSide": "right"
+  },
+  "country:MF": {
+   "callingCodes": [
+    "+590"
+   ],
+   "drivingSide": "right"
+  },
+  "country:MG": {
+   "callingCodes": [
+    "+261"
+   ],
+   "drivingSide": "right"
+  },
+  "country:MH": {
+   "callingCodes": [
+    "+692"
+   ],
+   "drivingSide": "right"
+  },
+  "country:MK": {
+   "callingCodes": [
+    "+389"
+   ],
+   "drivingSide": "right"
+  },
+  "country:ML": {
+   "callingCodes": [
+    "+223"
+   ],
+   "drivingSide": "right"
+  },
+  "country:MM": {
+   "callingCodes": [
+    "+95"
+   ],
+   "drivingSide": "right"
+  },
+  "country:MN": {
+   "callingCodes": [
+    "+976"
+   ],
+   "drivingSide": "right"
+  },
+  "country:MO": {
+   "callingCodes": [
+    "+853"
+   ],
+   "drivingSide": "left"
+  },
+  "country:MP": {
+   "callingCodes": [
+    "+1670"
+   ],
+   "drivingSide": "right"
+  },
+  "country:MQ": {
+   "callingCodes": [
+    "+596"
+   ],
+   "drivingSide": "right"
+  },
+  "country:MR": {
+   "callingCodes": [
+    "+222"
+   ],
+   "drivingSide": "right"
+  },
+  "country:MS": {
+   "callingCodes": [
+    "+1664"
+   ],
+   "drivingSide": "left"
+  },
+  "country:MT": {
+   "callingCodes": [
+    "+356"
+   ],
+   "drivingSide": "left"
+  },
+  "country:MU": {
+   "callingCodes": [
+    "+230"
+   ],
+   "drivingSide": "left"
+  },
+  "country:MV": {
+   "callingCodes": [
+    "+960"
+   ],
+   "drivingSide": "left"
+  },
+  "country:MW": {
+   "callingCodes": [
+    "+265"
+   ],
+   "drivingSide": "left"
+  },
+  "country:MX": {
+   "callingCodes": [
+    "+52"
+   ],
+   "drivingSide": "right"
+  },
+  "country:MY": {
+   "callingCodes": [
+    "+60"
+   ],
+   "drivingSide": "left"
+  },
+  "country:MZ": {
+   "callingCodes": [
+    "+258"
+   ],
+   "drivingSide": "left"
+  },
+  "country:NA": {
+   "callingCodes": [
+    "+264"
+   ],
+   "drivingSide": "left"
+  },
+  "country:NC": {
+   "callingCodes": [
+    "+687"
+   ],
+   "drivingSide": "right"
+  },
+  "country:NE": {
+   "callingCodes": [
+    "+227"
+   ],
+   "drivingSide": "right"
+  },
+  "country:NF": {
+   "callingCodes": [
+    "+672"
+   ],
+   "drivingSide": "left"
+  },
+  "country:NG": {
+   "callingCodes": [
+    "+234"
+   ],
+   "drivingSide": "right"
+  },
+  "country:NI": {
+   "callingCodes": [
+    "+505"
+   ],
+   "drivingSide": "right"
+  },
+  "country:NL": {
+   "callingCodes": [
+    "+31"
+   ],
+   "drivingSide": "right"
+  },
+  "country:NO": {
+   "callingCodes": [
+    "+47"
+   ],
+   "drivingSide": "right"
+  },
+  "country:NP": {
+   "callingCodes": [
+    "+977"
+   ],
+   "drivingSide": "left"
+  },
+  "country:NR": {
+   "callingCodes": [
+    "+674"
+   ],
+   "drivingSide": "left"
+  },
+  "country:NU": {
+   "callingCodes": [
+    "+683"
+   ],
+   "drivingSide": "left"
+  },
+  "country:NZ": {
+   "callingCodes": [
+    "+64"
+   ],
+   "drivingSide": "left"
+  },
+  "country:OM": {
+   "callingCodes": [
+    "+968"
+   ],
+   "drivingSide": "right"
+  },
+  "country:PA": {
+   "callingCodes": [
+    "+507"
+   ],
+   "drivingSide": "right"
+  },
+  "country:PE": {
+   "callingCodes": [
+    "+51"
+   ],
+   "drivingSide": "right"
+  },
+  "country:PF": {
+   "callingCodes": [
+    "+689"
+   ],
+   "drivingSide": "right"
+  },
+  "country:PG": {
+   "callingCodes": [
+    "+675"
+   ],
+   "drivingSide": "left"
+  },
+  "country:PH": {
+   "callingCodes": [
+    "+63"
+   ],
+   "drivingSide": "right"
+  },
+  "country:PK": {
+   "callingCodes": [
+    "+92"
+   ],
+   "drivingSide": "left"
+  },
+  "country:PL": {
+   "callingCodes": [
+    "+48"
+   ],
+   "drivingSide": "right"
+  },
+  "country:PM": {
+   "callingCodes": [
+    "+508"
+   ],
+   "drivingSide": "right"
+  },
+  "country:PN": {
+   "callingCodes": [
+    "+64"
+   ],
+   "drivingSide": "left"
+  },
+  "country:PR": {
+   "callingCodes": [
+    "+1787",
+    "+1939"
+   ],
+   "drivingSide": "right"
+  },
+  "country:PS": {
+   "callingCodes": [
+    "+970"
+   ],
+   "drivingSide": "right"
+  },
+  "country:PT": {
+   "callingCodes": [
+    "+351"
+   ],
+   "drivingSide": "right"
+  },
+  "country:PW": {
+   "callingCodes": [
+    "+680"
+   ],
+   "drivingSide": "right"
+  },
+  "country:PY": {
+   "callingCodes": [
+    "+595"
+   ],
+   "drivingSide": "right"
+  },
+  "country:QA": {
+   "callingCodes": [
+    "+974"
+   ],
+   "drivingSide": "right"
+  },
+  "country:RE": {
+   "callingCodes": [
+    "+262"
+   ],
+   "drivingSide": "right"
+  },
+  "country:RO": {
+   "callingCodes": [
+    "+40"
+   ],
+   "drivingSide": "right"
+  },
+  "country:RS": {
+   "callingCodes": [
+    "+381"
+   ],
+   "drivingSide": "right"
+  },
+  "country:RU": {
+   "callingCodes": [
+    "+7"
+   ],
+   "drivingSide": "right"
+  },
+  "country:RW": {
+   "callingCodes": [
+    "+250"
+   ],
+   "drivingSide": "right"
+  },
+  "country:SA": {
+   "callingCodes": [
+    "+966"
+   ],
+   "drivingSide": "right"
+  },
+  "country:SB": {
+   "callingCodes": [
+    "+677"
+   ],
+   "drivingSide": "left"
+  },
+  "country:SC": {
+   "callingCodes": [
+    "+248"
+   ],
+   "drivingSide": "left"
+  },
+  "country:SD": {
+   "callingCodes": [
+    "+249"
+   ],
+   "drivingSide": "right"
+  },
+  "country:SE": {
+   "callingCodes": [
+    "+46"
+   ],
+   "drivingSide": "right"
+  },
+  "country:SG": {
+   "callingCodes": [
+    "+65"
+   ],
+   "drivingSide": "left"
+  },
+  "country:SH": {
+   "callingCodes": [
+    "+290",
+    "+247"
+   ],
+   "drivingSide": "left"
+  },
+  "country:SI": {
+   "callingCodes": [
+    "+386"
+   ],
+   "drivingSide": "right"
+  },
+  "country:SJ": {
+   "callingCodes": [
+    "+4779"
+   ],
+   "drivingSide": "right"
+  },
+  "country:SK": {
+   "callingCodes": [
+    "+421"
+   ],
+   "drivingSide": "right"
+  },
+  "country:SL": {
+   "callingCodes": [
+    "+232"
+   ],
+   "drivingSide": "right"
+  },
+  "country:SM": {
+   "callingCodes": [
+    "+378"
+   ],
+   "drivingSide": "right"
+  },
+  "country:SN": {
+   "callingCodes": [
+    "+221"
+   ],
+   "drivingSide": "right"
+  },
+  "country:SO": {
+   "callingCodes": [
+    "+252"
+   ],
+   "drivingSide": "right"
+  },
+  "country:SR": {
+   "callingCodes": [
+    "+597"
+   ],
+   "drivingSide": "left"
+  },
+  "country:SS": {
+   "callingCodes": [
+    "+211"
+   ],
+   "drivingSide": "right"
+  },
+  "country:ST": {
+   "callingCodes": [
+    "+239"
+   ],
+   "drivingSide": "right"
+  },
+  "country:SV": {
+   "callingCodes": [
+    "+503"
+   ],
+   "drivingSide": "right"
+  },
+  "country:SX": {
+   "callingCodes": [
+    "+1721"
+   ],
+   "drivingSide": "right"
+  },
+  "country:SY": {
+   "callingCodes": [
+    "+963"
+   ],
+   "drivingSide": "right"
+  },
+  "country:SZ": {
+   "callingCodes": [
+    "+268"
+   ],
+   "drivingSide": "left"
+  },
+  "country:TA": {
+   "callingCodes": []
+  },
+  "country:TC": {
+   "callingCodes": [
+    "+1649"
+   ],
+   "drivingSide": "left"
+  },
+  "country:TD": {
+   "callingCodes": [
+    "+235"
+   ],
+   "drivingSide": "right"
+  },
+  "country:TF": {
+   "callingCodes": [
+    "+262"
+   ]
+  },
+  "country:TG": {
+   "callingCodes": [
+    "+228"
+   ],
+   "drivingSide": "right"
+  },
+  "country:TH": {
+   "callingCodes": [
+    "+66"
+   ],
+   "drivingSide": "left"
+  },
+  "country:TJ": {
+   "callingCodes": [
+    "+992"
+   ],
+   "drivingSide": "right"
+  },
+  "country:TK": {
+   "callingCodes": [
+    "+690"
+   ],
+   "drivingSide": "left"
+  },
+  "country:TL": {
+   "callingCodes": [
+    "+670"
+   ],
+   "drivingSide": "left"
+  },
+  "country:TM": {
+   "callingCodes": [
+    "+993"
+   ],
+   "drivingSide": "right"
+  },
+  "country:TN": {
+   "callingCodes": [
+    "+216"
+   ],
+   "drivingSide": "right"
+  },
+  "country:TO": {
+   "callingCodes": [
+    "+676"
+   ],
+   "drivingSide": "left"
+  },
+  "country:TR": {
+   "callingCodes": [
+    "+90"
+   ],
+   "drivingSide": "right"
+  },
+  "country:TT": {
+   "callingCodes": [
+    "+1868"
+   ],
+   "drivingSide": "left"
+  },
+  "country:TV": {
+   "callingCodes": [
+    "+688"
+   ],
+   "drivingSide": "left"
+  },
+  "country:TW": {
+   "callingCodes": [
+    "+886"
+   ],
+   "drivingSide": "right"
+  },
+  "country:TZ": {
+   "callingCodes": [
+    "+255"
+   ],
+   "drivingSide": "left"
+  },
+  "country:UA": {
+   "callingCodes": [
+    "+380"
+   ],
+   "drivingSide": "right"
+  },
+  "country:UG": {
+   "callingCodes": [
+    "+256"
+   ],
+   "drivingSide": "left"
+  },
+  "country:UM": {
+   "callingCodes": [
+    "+268"
+   ]
+  },
+  "country:US": {
+   "callingCodes": [
+    "+1"
+   ],
+   "drivingSide": "right"
+  },
+  "country:UY": {
+   "callingCodes": [
+    "+598"
+   ],
+   "drivingSide": "right"
+  },
+  "country:UZ": {
+   "callingCodes": [
+    "+998"
+   ],
+   "drivingSide": "right"
+  },
+  "country:VA": {
+   "callingCodes": [
+    "+39"
+   ],
+   "drivingSide": "right",
+   "note": "Telefonanschlüsse verwenden +39 mit der Ortskennzahl 06 698.",
+   "sourceUrl": "https://www.vatican.va/content/vatican/en/info.html"
+  },
+  "country:VC": {
+   "callingCodes": [
+    "+1784"
+   ],
+   "drivingSide": "left"
+  },
+  "country:VE": {
+   "callingCodes": [
+    "+58"
+   ],
+   "drivingSide": "right"
+  },
+  "country:VG": {
+   "callingCodes": [
+    "+1284"
+   ],
+   "drivingSide": "left"
+  },
+  "country:VI": {
+   "callingCodes": [
+    "+1340"
+   ],
+   "drivingSide": "right"
+  },
+  "country:VN": {
+   "callingCodes": [
+    "+84"
+   ],
+   "drivingSide": "right"
+  },
+  "country:VU": {
+   "callingCodes": [
+    "+678"
+   ],
+   "drivingSide": "right"
+  },
+  "country:WF": {
+   "callingCodes": [
+    "+681"
+   ],
+   "drivingSide": "right"
+  },
+  "country:WS": {
+   "callingCodes": [
+    "+685"
+   ],
+   "drivingSide": "left"
+  },
+  "country:XK": {
+   "callingCodes": [
+    "+383"
+   ],
+   "drivingSide": "right"
+  },
+  "country:YE": {
+   "callingCodes": [
+    "+967"
+   ],
+   "drivingSide": "right"
+  },
+  "country:YT": {
+   "callingCodes": [
+    "+262"
+   ],
+   "drivingSide": "right"
+  },
+  "country:ZA": {
+   "callingCodes": [
+    "+27"
+   ],
+   "drivingSide": "left"
+  },
+  "country:ZM": {
+   "callingCodes": [
+    "+260"
+   ],
+   "drivingSide": "left"
+  },
+  "country:ZW": {
+   "callingCodes": [
+    "+263"
+   ],
+   "drivingSide": "left"
+  }
+ }
+}

@@ -27,6 +27,7 @@ const quizResources: Record<CategoryId, DataResource[]> = {
     'lakes',
     'mountains',
     'scriptWords',
+    'courseCards',
     'languageSamples',
     'plates',
     'trivia',
@@ -71,6 +72,7 @@ export function resourcesForPage(pathname: string, params: URLSearchParams): Dat
     )
   }
   const core: DataResource[] = ['index', 'countries']
+  if (page === 'maps') return core
   if (page === 'learn')
     return [
       ...core,

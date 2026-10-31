@@ -1,0 +1,228 @@
+<div id="atlas-noir-study" aria-label="Atlasfunke – Entwurf für das Ermittlungsbüro">
+  <style>
+    #atlas-noir-study {
+      --office-wall: #1e2725;
+      --office-ink: #242a24;
+      --office-paper: #e6dcc3;
+      --office-gold: #cfb784;
+      --office-text: #e9e3d5;
+      --office-slats: .62;
+      --office-lamp: 1;
+      color: var(--office-text);
+      font: 14px/1.5 Arial, sans-serif;
+      isolation: isolate;
+      width: 100%;
+    }
+    #atlas-noir-study * { box-sizing: border-box; }
+    #atlas-noir-study button { font: inherit; cursor: pointer; }
+    #atlas-noir-study [hidden] { display: none !important; }
+    #atlas-noir-study .office-window { background: #101816; }
+    #atlas-noir-study .office-header {
+      display: flex; align-items: center; justify-content: space-between; gap: 16px;
+      padding: 18px 25px; border-bottom: 1px solid #d8d4b51c; position: relative; z-index: 2;
+    }
+    #atlas-noir-study .office-brand { font-size: 12px; letter-spacing: .18em; color: #e2d7ba; }
+    #atlas-noir-study .office-series { font-family: Georgia, serif; color: #c5c7ba; font-size: 15px; }
+    #atlas-noir-study .office-scene { position: relative; overflow: hidden; }
+    #atlas-noir-study .office-stage { position: relative; height: 552px; overflow: hidden; background: #1c2421; }
+    #atlas-noir-study .back-wall {
+      position: absolute; inset: 0 0 33%;
+      background: radial-gradient(ellipse at 35% 44%, #57615946, transparent 60%), repeating-linear-gradient(90deg, transparent 0 17%, #060e0a23 17.1% 17.3%), linear-gradient(90deg, #18231f, #303b32 46%, #151d19);
+      box-shadow: inset 0 -35px 55px #080e08a3;
+    }
+    #atlas-noir-study .wall-trim { position: absolute; left: 0; right: 0; top: 54%; height: 9px; background: linear-gradient(#65705b3b, #0b140e 55%, #2f3524); }
+    #atlas-noir-study .blind-window {
+      position: absolute; left: 7%; top: 5%; width: 19%; height: 45%; border: 9px solid #0a1612;
+      background: linear-gradient(110deg, #a2b4ad, #536e68); box-shadow: 0 0 50px #b8c6b91c, 7px 8px 6px #070e0980;
+      transform: skewY(-5deg);
+    }
+    #atlas-noir-study .blind-window:before { content: ""; position: absolute; inset: 0; background: repeating-linear-gradient(0deg, #12231d 0 13px, #647368 14px, #182b23 17px, transparent 18px 27px); }
+    #atlas-noir-study .blind-window:after { content: ""; position: absolute; top: 0; bottom: 0; left: 48%; width: 7px; background: #101c16; box-shadow: 5px 0 8px #0c181366; }
+    #atlas-noir-study .light-shafts {
+      pointer-events: none; position: absolute; left: 12%; top: 8%; width: 87%; height: 84%; z-index: 4;
+      opacity: var(--office-slats); transform: rotate(23deg) skewX(-23deg); transform-origin: top left;
+      background: repeating-linear-gradient(0deg, transparent 0 30px, #e8db9e31 31px 42px, #f1e8ba17 43px 47px, transparent 48px 66px);
+      mask-image: linear-gradient(90deg, #000c, #0008 35%, transparent 92%); mix-blend-mode: screen;
+    }
+    #atlas-noir-study .dust { pointer-events: none; position: absolute; left: 14%; top: 8%; width: 58%; height: 70%; z-index: 5; opacity: calc(var(--office-slats) * .6); background-image: radial-gradient(circle at 14% 34%, #f5e9c7 0 .6px, transparent 1px),radial-gradient(circle at 47% 53%, #f5e9c7 0 .6px, transparent 1px),radial-gradient(circle at 71% 16%, #f5e9c7 0 .6px, transparent 1px),radial-gradient(circle at 64% 68%, #f5e9c7 0 .7px, transparent 1px); background-size: 113px 121px,171px 143px,197px 113px,137px 173px; }
+    #atlas-noir-study .pinboard {
+      position: absolute; top: 8%; right: 9%; width: 27%; height: 33%; border: 9px solid #33362a;
+      background: repeating-linear-gradient(25deg, #716849 0 1px, #665f45 2px 5px); transform: rotate(-1deg);
+      box-shadow: 5px 7px 10px #070e0c8c; opacity: .7;
+    }
+    #atlas-noir-study .board-note { position: absolute; background: #c5bea3; box-shadow: 2px 3px 4px #0d140d66; }
+    #atlas-noir-study .board-note:before { content: ""; position: absolute; width: 4px; height: 4px; border-radius: 50%; background: #463c25; left: 50%; top: 5px; box-shadow: 1px 1px 1px #0b130a; }
+    #atlas-noir-study .board-note.a { width: 36%; height: 67%; top: 11%; left: 8%; transform: rotate(-8deg); background: repeating-linear-gradient(0deg, transparent 0 13px, #625c442b 14px 15px), #c5bea3; }
+    #atlas-noir-study .board-note.b { width: 37%; height: 45%; top: 18%; right: 9%; transform: rotate(8deg); border: 8px solid #bdb69b; background: linear-gradient(155deg,#777d6c 0 44%, #4f5e4d 45% 68%, #384c40 69%); }
+    #atlas-noir-study .board-note.c { width: 31%; height: 17%; bottom: 8%; right: 14%; transform: rotate(-2deg); }
+    #atlas-noir-study .filing-cabinet { position: absolute; right: -2%; bottom: 36%; width: 20%; height: 31%; background: linear-gradient(90deg,#1d2a22,#384436 23%,#29392a); border: 6px solid #17251d; box-shadow: -12px 5px 24px #08140f66; }
+    #atlas-noir-study .cabinet-drawer { position: relative; height: 48%; border-bottom: 3px solid #112016; box-shadow: inset 0 1px #87947c33; }
+    #atlas-noir-study .cabinet-drawer:after { content: ""; position: absolute; width: 24%; height: 7px; top: 35%; left: 39%; border: 2px solid #7a7f58; border-radius: 2px; background: #1c271a; }
+    #atlas-noir-study .desk {
+      position: absolute; inset: 56% -5% -9%; transform: perspective(600px) rotateX(19deg); transform-origin: top;
+      background: radial-gradient(ellipse at 36% 27%, #b49c6070, transparent 47%), repeating-linear-gradient(2deg, transparent 0 12px, #130e0833 13px, transparent 14px 31px), linear-gradient(90deg,#2a271c,#65553b 38%,#3d3727 78%,#1f2318);
+      border-top: 5px solid #877453; box-shadow: 0 -8px 17px #09130d80, inset 0 -70px 100px #0c160ecc;
+    }
+    #atlas-noir-study .desk-front { position: absolute; bottom: -3%; left: -3%; right: -3%; height: 8%; background: linear-gradient(#5d5033,#211f14 18%,#131a12); box-shadow: 0 -3px 7px #0a110a85; z-index: 7; }
+    #atlas-noir-study .lamp-glow { position: absolute; left: 9%; top: 42%; width: 54%; height: 49%; background: radial-gradient(ellipse, #e2bd5b55, #b8953d14 52%, transparent 71%); opacity: var(--office-lamp); pointer-events: none; z-index: 2; }
+    #atlas-noir-study .desk-lamp { position: absolute; left: 19%; top: 41%; width: 150px; height: 200px; z-index: 6; transform: rotate(-3deg); }
+    #atlas-noir-study .lamp-foot { position: absolute; width: 92px; height: 26px; bottom: 4px; left: 18px; border-radius: 50%; background: radial-gradient(ellipse at 39% 20%, #a48d52, #4a4d30 42%, #202c1b 75%); box-shadow: 8px 10px 13px #050e0999; }
+    #atlas-noir-study .lamp-stem { position: absolute; width: 8px; height: 148px; left: 60px; bottom: 23px; background: linear-gradient(90deg,#655b31,#b9a569 45%,#4f4a27); transform: rotate(8deg); transform-origin: bottom; }
+    #atlas-noir-study .lamp-shade { position: absolute; width: 140px; height: 62px; top: 0; left: 1px; border-radius: 60% 60% 9% 9%; transform: rotate(-7deg); background: radial-gradient(ellipse at 33% 13%, #839879, #2c5138 35%,#143321 74%); border-bottom: 5px solid #b6a363; box-shadow: inset 0 1px 2px #c1ce9b88, 6px 8px 12px #0c150d99; }
+    #atlas-noir-study .lamp-shade:after { content: ""; position: absolute; bottom: -7px; left: 5%; width: 90%; height: 11px; border-radius: 50%; background: #e8ce83; box-shadow: 0 8px 15px #edc76c88; opacity: var(--office-lamp); }
+    #atlas-noir-study .lamp-chain { position: absolute; left: 111px; top: 56px; height: 47px; width: 1px; background: #bba875; }
+    #atlas-noir-study .lamp-chain:after { content: ""; position: absolute; bottom: -3px; left: -2px; width: 5px; height: 7px; background: #b8a369; border-radius: 3px; }
+    #atlas-noir-study .desk-pad { position: absolute; width: 44%; height: 28%; left: 38%; top: 63%; background: #263529; transform: rotate(-5deg) skewX(-12deg); border: 2px solid #82794a66; box-shadow: 7px 9px 15px #08130bb3; }
+    #atlas-noir-study .loose-paper { position: absolute; top: 60%; left: 56%; width: 25%; height: 23%; transform: rotate(8deg); background: #c0b99d; box-shadow: 3px 5px 6px #06100866; }
+    #atlas-noir-study .loose-paper:after { content: ""; position: absolute; inset: 17% 13%; background: repeating-linear-gradient(0deg, transparent 0 12px, #5f604c42 13px 14px); }
+    #atlas-noir-study .case-file {
+      position: absolute; left: 40%; top: 60%; width: 34%; min-height: 162px; padding: 25px 22px 20px; border: 1px solid #c9b77c;
+      transform: rotate(-7deg); text-align: left; color: #302d21; background: linear-gradient(115deg,#d2bf89,#ad9b69);
+      box-shadow: 7px 11px 15px #07110b91, inset 0 1px #ece1bd; z-index: 8; transition: transform .2s ease, background .2s ease;
+    }
+    #atlas-noir-study .case-file:before { content: ""; position: absolute; left: -1px; top: -13px; height: 13px; width: 41%; border-radius: 4px 4px 0 0; border: 1px solid #c9b77c; border-bottom: 0; background: #c7b47d; }
+    #atlas-noir-study .case-file:hover { transform: rotate(-4deg) translateY(-5px); background: #d4c18b; }
+    #atlas-noir-study .case-file:focus-visible { outline: 3px solid #f0dda5; outline-offset: 5px; }
+    #atlas-noir-study .file-number { display: block; font: 11px/1.4 'Courier New',monospace; letter-spacing: .11em; margin-bottom: 14px; }
+    #atlas-noir-study .file-title { display: block; font: 27px/1.05 Georgia,serif; max-width: 220px; }
+    #atlas-noir-study .file-action { display: block; font-size: 12px; margin-top: 18px; border-top: 1px solid #4c473e45; padding-top: 8px; }
+    #atlas-noir-study .pen { position: absolute; width: 7px; height: 100px; left: 79%; top: 70%; background: linear-gradient(90deg,#111e16,#4e5e3d,#102017); border-top: 20px solid #8f844d; transform: rotate(28deg); box-shadow: 4px 4px 5px #0c180fa3; z-index: 5; }
+    #atlas-noir-study .cup { position: absolute; left: 9%; top: 75%; width: 53px; height: 36px; border-radius: 4px 4px 20px 20px; background: linear-gradient(90deg,#676c56,#b0b195 48%,#626d52); box-shadow: 7px 7px 11px #0b160d99; z-index: 5; }
+    #atlas-noir-study .cup:before { content: ""; position: absolute; top: -5px; left: 0; width: 100%; height: 15px; border: 4px solid #a9aa8d; background: #1e271a; border-radius: 50%; }
+    #atlas-noir-study .cup:after { content: ""; position: absolute; left: -15px; top: 4px; width: 20px; height: 22px; border: 5px solid #777f61; border-radius: 50%; z-index: -1; }
+    #atlas-noir-study .office-title { position: absolute; top: 13%; left: 35%; z-index: 6; text-shadow: 0 2px 8px #08130d; }
+    #atlas-noir-study .office-kicker { margin: 0 0 8px; font-size: 11px; letter-spacing: .16em; text-transform: uppercase; color: #c3c3a7; }
+    #atlas-noir-study .office-title h2 { margin: 0; font: 33px/1.14 Georgia,serif; color: #e3deca; }
+    #atlas-noir-study .office-title p:last-child { margin: 11px 0 0; color: #c9ccb9; font-size: 13px; }
+    #atlas-noir-study .vignette { pointer-events: none; position: absolute; inset: 0; box-shadow: inset 0 0 100px 35px #050f086b; z-index: 9; }
+    #atlas-noir-study .office-footer { display: flex; justify-content: space-between; gap: 15px; padding: 13px 25px; font-size: 11px; letter-spacing: .07em; color: #b2b7a5; border-top: 1px solid #d8d4b516; }
+    #atlas-noir-study .case-stage { padding: 22px; min-height: 552px; background: radial-gradient(ellipse at 30% 25%,#b19a5744,transparent 70%),repeating-linear-gradient(2deg, transparent 0 18px, #090f0933 19px 20px),#3f3b2b; }
+    #atlas-noir-study .case-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 0 0 18px; }
+    #atlas-noir-study .back-to-office { padding: 7px 0; color: #e3ddc6; border: none; background: transparent; }
+    #atlas-noir-study .case-toolbar span { color: #d3c9a9; font-size: 11px; letter-spacing: .12em; }
+    #atlas-noir-study .open-dossier { position: relative; display: grid; grid-template-columns: 1fr .62fr; background: var(--office-paper); color: var(--office-ink); box-shadow: 0 12px 30px #08110b70; }
+    #atlas-noir-study .dossier-main { padding: 36px; background: linear-gradient(90deg,transparent 97%,#63593c1c); }
+    #atlas-noir-study .dossier-index { font: 11px/1.5 'Courier New',monospace; letter-spacing: .1em; color: #62604c; margin-bottom: 14px; }
+    #atlas-noir-study .dossier-main h2 { font: 32px/1.1 Georgia,serif; margin: 0 0 25px; color: #263126; }
+    #atlas-noir-study .dossier-main .lead { font: 21px/1.4 Georgia,serif; margin: 0 0 17px; }
+    #atlas-noir-study .dossier-main p { font-size: 14px; line-height: 1.7; color: #434b3b; }
+    #atlas-noir-study .dossier-rule { margin: 26px 0 14px; height: 1px; background: #9c987d; }
+    #atlas-noir-study .dossier-objective { font: 12px/1.6 'Courier New',monospace; color: #48503e; }
+    #atlas-noir-study .dossier-evidence { padding: 36px 24px; border-left: 1px solid #b7b097; }
+    #atlas-noir-study .evidence-heading { font-size: 11px; letter-spacing: .13em; color: #61644f; margin: 0 0 18px; }
+    #atlas-noir-study .evidence-item { padding: 18px 0; border-top: 1px solid #b5b198; }
+    #atlas-noir-study .evidence-number { font: 11px/1.3 'Courier New',monospace; color: #71715a; }
+    #atlas-noir-study .evidence-name { display: block; margin: 7px 0 0; font: 18px/1.2 Georgia,serif; color: #293b2b; }
+    #atlas-noir-study .evidence-note { display: block; margin-top: 6px; font-size: 12px; color: #62644f; }
+    #atlas-noir-study .dossier-pencil { position: absolute; width: 7px; height: 145px; right: -9px; bottom: 20px; transform: rotate(8deg); background: linear-gradient(90deg,#665427,#c0aa58,#796335); box-shadow: 3px 2px 3px #18201255; }
+    @media (max-width: 640px) {
+      #atlas-noir-study .office-header { padding: 15px 18px; }
+      #atlas-noir-study .office-series { font-size: 13px; }
+      #atlas-noir-study .office-stage { height: 534px; }
+      #atlas-noir-study .blind-window { left: -4%; width: 32%; top: 6%; height: 38%; }
+      #atlas-noir-study .office-title { left: 33%; top: 12%; right: 6%; }
+      #atlas-noir-study .office-title h2 { font-size: 29px; }
+      #atlas-noir-study .office-title p:last-child { max-width: 150px; }
+      #atlas-noir-study .pinboard { display: none; }
+      #atlas-noir-study .filing-cabinet { width: 30%; height: 22%; }
+      #atlas-noir-study .desk { top: 54%; }
+      #atlas-noir-study .wall-trim { top: 52%; }
+      #atlas-noir-study .desk-lamp { left: 5%; top: 42%; transform: scale(.8) rotate(-3deg); transform-origin: left top; }
+      #atlas-noir-study .desk-pad { left: 27%; width: 64%; top: 67%; }
+      #atlas-noir-study .loose-paper { left: 51%; top: 65%; width: 36%; height: 20%; }
+      #atlas-noir-study .case-file { left: 29%; top: 65%; width: 60%; min-height: 154px; padding: 20px; }
+      #atlas-noir-study .file-title { font-size: 26px; }
+      #atlas-noir-study .cup { left: 6%; top: 82%; transform: scale(.8); }
+      #atlas-noir-study .pen { left: 92%; top: 73%; }
+      #atlas-noir-study .light-shafts { width: 140%; left: 4%; }
+      #atlas-noir-study .office-footer { padding: 12px 18px; font-size: 11px; letter-spacing: 0; }
+      #atlas-noir-study .open-dossier { grid-template-columns: 1fr; }
+      #atlas-noir-study .dossier-main { padding: 26px 24px; }
+      #atlas-noir-study .dossier-evidence { padding: 24px; border-left: 0; border-top: 1px solid #b7b097; }
+      #atlas-noir-study .dossier-main h2 { font-size: 28px; }
+      #atlas-noir-study .case-stage { padding: 17px; }
+    }
+    @media (prefers-reduced-motion: reduce) { #atlas-noir-study .case-file { transition: none; } }
+  </style>
+  <div class="office-window">
+    <header class="office-header">
+      <span class="office-brand">ATLASFUNKE</span>
+      <span class="office-series">Die falsche Route</span>
+    </header>
+    <div class="office-scene">
+      <div class="office-stage">
+        <div aria-hidden="true">
+          <div class="back-wall"></div><div class="wall-trim"></div>
+          <div class="blind-window"></div>
+          <div class="pinboard"><div class="board-note a"></div><div class="board-note b"></div><div class="board-note c"></div></div>
+          <div class="filing-cabinet"><div class="cabinet-drawer"></div><div class="cabinet-drawer"></div></div>
+          <div class="desk"></div><div class="desk-pad"></div><div class="loose-paper"></div>
+          <div class="lamp-glow"></div>
+          <div class="desk-lamp"><div class="lamp-foot"></div><div class="lamp-stem"></div><div class="lamp-shade"></div><div class="lamp-chain"></div></div>
+          <div class="cup"></div><div class="pen"></div>
+          <div class="light-shafts"></div><div class="dust"></div><div class="desk-front"></div><div class="vignette"></div>
+        </div>
+        <div class="office-title"><p class="office-kicker">Ermittlungsbüro</p><h2>Eine Spur<br>ist noch offen.</h2><p>Die nächste Akte liegt bereit.</p></div>
+        <button type="button" class="case-file" aria-label="Akte öffnen: Fall 01 – Das Flussprotokoll" aria-controls="atlas-noir-case" aria-expanded="false">
+          <span class="file-number">FALL 01 / KAUKASUS</span>
+          <span class="file-title">Das<br>Flussprotokoll</span>
+          <span class="file-action">Akte öffnen <span aria-hidden="true">↗</span></span>
+        </button>
+      </div>
+      <section class="case-stage" id="atlas-noir-case" aria-label="Geöffnete Fallakte" hidden>
+        <div class="case-toolbar"><button type="button" class="back-to-office">← Zurück ins Büro</button><span>AKTE 001</span></div>
+        <div class="open-dossier">
+          <div class="dossier-main">
+            <div class="dossier-index">KAUKASUS / ERMITTLUNG 01</div>
+            <h2>Das Flussprotokoll</h2>
+            <p class="lead">Zwei Berichte.<br>Eine unmögliche Route.</p>
+            <p>Die Angaben zum Zielmeer widersprechen sich. Rekonstruiere den Flussverlauf und prüfe, welcher Bericht zur Route passt.</p>
+            <div class="dossier-rule"></div>
+            <div class="dossier-objective">Gesucht: ein Zusammenfluss.<br>Belege deine Schlussfolgerung mit zwei Hinweisen.</div>
+          </div>
+          <aside class="dossier-evidence" aria-label="Vorliegende Unterlagen">
+            <p class="evidence-heading">VORLIEGENDE UNTERLAGEN</p>
+            <div class="evidence-item"><span class="evidence-number">01 / AUFZEICHNUNG</span><span class="evidence-name">Flussprotokoll</span><span class="evidence-note">Richtung &amp; Verlauf</span></div>
+            <div class="evidence-item"><span class="evidence-number">02 / KARTENAUSSCHNITT</span><span class="evidence-name">Die fehlende Stelle</span><span class="evidence-note">Lage &amp; Entfernung</span></div>
+            <div class="evidence-item"><span class="evidence-number">03 / REISEBERICHT</span><span class="evidence-name">Die zweite Fassung</span><span class="evidence-note">Widerspruch überprüfen</span></div>
+          </aside>
+          <div class="dossier-pencil" aria-hidden="true"></div>
+        </div>
+      </section>
+    </div>
+    <footer class="office-footer"><span class="office-location">HINTERZIMMER · FALLAUSWAHL</span><span>ENTWURF DER ATMOSPHÄRE</span></footer>
+  </div>
+  <script>
+    (() => {
+      const root = document.getElementById('atlas-noir-study');
+      const office = root.querySelector('.office-stage');
+      const caseView = root.querySelector('.case-stage');
+      const fileButton = root.querySelector('.case-file');
+      const backButton = root.querySelector('.back-to-office');
+      const location = root.querySelector('.office-location');
+      function showCase(open) {
+        office.hidden = open;
+        caseView.hidden = !open;
+        fileButton.setAttribute('aria-expanded', String(open));
+        location.textContent = open ? 'SCHREIBTISCH · FALLAKTE 001' : 'HINTERZIMMER · FALLAUSWAHL';
+        (open ? backButton : fileButton).focus({ preventScroll: true });
+      }
+      fileButton.addEventListener('click', () => showCase(true));
+      backButton.addEventListener('click', () => showCase(false));
+      root.addEventListener('keydown', event => {
+        if (event.key === 'Escape' && !caseView.hidden) showCase(false);
+      });
+      const atmosphere = { blinds: .62, lamp: true };
+      function renderAtmosphere() {
+        root.style.setProperty('--office-slats', String(atmosphere.blinds));
+        root.style.setProperty('--office-lamp', atmosphere.lamp ? '1' : '0');
+      }
+      renderAtmosphere();
+      if (globalThis.Tweak) {
+        const tweak = new Tweak({ container: root, onChange: renderAtmosphere });
+        tweak.addSlider(atmosphere, 'blinds', { label: 'Jalousielicht', min: .15, max: 1, step: .05, reference: '--office-slats' });
+        tweak.addToggle(atmosphere, 'lamp', { label: 'Schreibtischlampe', reference: '--office-lamp' });
+      }
+    })();
+  </script>
+</div>

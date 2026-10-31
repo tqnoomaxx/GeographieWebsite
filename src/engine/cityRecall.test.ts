@@ -56,6 +56,22 @@ const city = (id: string, name: string, population: number, aliases: string[] = 
 })
 
 describe('Städte sammeln mit beliebiger Einwohnergrenze', () => {
+  it('erhält den Weltmodus und Länderzugehörigkeit über die Rundenkonfiguration', () => {
+    const setup = { ...config(3000000), scope: 'world' }
+    expect(fromQuery('cities', new URLSearchParams(toQuery(setup)))).toMatchObject(setup)
+    const data = {
+      country: 'world',
+      cities: [
+        { ...city('1', 'Berlin', 3500000), country: 'country:DE' },
+        { ...city('2', 'New York', 8000000), country: 'country:US' },
+      ],
+    }
+    const ctx = context(data)
+    expect(ctx.byId.get('city:1')?.attributes.country).toBe('country:DE')
+    const s = buildSession(ctx, setup, { seed: 'world' })
+    expect(s.questions).toHaveLength(2)
+    expect(acceptCityRecall(acceptCityRecall(s, 'Berlin'), 'New York').score).toBe(2)
+  })
   it('behält einen frei gewählten Grenzwert über URL und gespeicherte Runde', () => {
     const setup = config(175001)
     expect(fromQuery('cities', new URLSearchParams(toQuery(setup)))).toMatchObject(setup)

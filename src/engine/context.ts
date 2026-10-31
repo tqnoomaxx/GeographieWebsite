@@ -13,6 +13,7 @@ export function buildContext(input: {
   lakes?: Entity[]
   mountains?: Entity[]
   scriptWords?: Entity[]
+  courseCards?: Entity[]
   languageSamples?: Entity[]
   trivia?: Entity[]
   relationships: Relationship[]
@@ -29,6 +30,7 @@ export function buildContext(input: {
     input.lakes ?? [],
     input.mountains ?? [],
     input.scriptWords ?? [],
+    input.courseCards ?? [],
     input.languageSamples ?? [],
     input.trivia ?? [],
   ])
@@ -66,7 +68,7 @@ export function buildContext(input: {
     rivers: filter(input.rivers ?? []),
     lakes: filter(input.lakes ?? []),
     mountains: filter(input.mountains ?? []),
-    scriptWords: filter(input.scriptWords ?? []),
+    scriptWords: filter([...(input.scriptWords ?? []), ...(input.courseCards ?? [])]),
     languageSamples: filter(input.languageSamples ?? []),
     trivia: filter(input.trivia ?? []),
     byId,

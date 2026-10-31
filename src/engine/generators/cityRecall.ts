@@ -17,7 +17,7 @@ export const cityRecall: Generator = {
         key: 'q.city_recall',
         params: {
           name:
-            ctx.byId.get(ctx.scope)?.names.de ??
+            (ctx.scope === 'world' ? 'der ganzen Welt' : ctx.byId.get(ctx.scope)?.names.de) ??
             ctx.byId.get(target.attributes.country ?? '')?.names.de ??
             'diesem Land',
         },

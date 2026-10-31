@@ -1,4 +1,6 @@
 import { Link, Navigate, useParams, useSearchParams } from 'react-router-dom'
+import { useGeoData } from '@/app/DataProvider'
+import { CountryQuizPanel } from './CountryQuizPanel'
 import { useDocumentTitle } from '@/app/hooks'
 import { isCategory } from '@/config/quizzes'
 import { exerciseFor, exercisePath, exercisesFor } from '@/config/quizCatalog'
@@ -38,9 +40,21 @@ export default function PlayStartPage() {
 }
 
 function CategoryHub() {
-  useDocumentTitle('Quiz auswählen')
   const [params] = useSearchParams()
+  const geo = useGeoData()
+  const country = geo.countries.find((country) => country.id === params.get('scope'))
+  useDocumentTitle(country ? `Quizze für ${country.names.de}` : 'Quiz auswählen')
   if (params.get('view') === 'diorama') return <Navigate to="/story" replace />
+  if (country)
+    return (
+      <Page wide>
+        <header className="simple-page-heading">
+          <h1>Quizze für {country.names.de}</h1>
+          <p>Wähle eine passende Übung für dein Land.</p>
+        </header>
+        <CountryQuizPanel key={country.id} country={country} />
+      </Page>
+    )
   return (
     <Page wide>
       <header className="simple-page-heading">

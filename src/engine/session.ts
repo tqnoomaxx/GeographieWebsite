@@ -141,7 +141,7 @@ export function poolFor(
       : source
     for (const e of g.pool(ctx)) {
       if (keep && !keep(e)) continue
-      if (exercise && !exerciseKeeps(exercise, e)) continue
+      if (exercise && !exerciseKeeps(exercise, e, setup.collection)) continue
       if (exercise?.kind === 'profile') {
         const available = countryProfileFields(e as Country, ctx)
         if (

@@ -76,9 +76,17 @@ function toLatinChoice(id: string, language: string): Generator {
   return {
     id,
     category: 'languages',
-    pool: (ctx) => ctx.scriptWords.filter((entity) => entity.attributes.language === language),
+    pool: (ctx) =>
+      ctx.scriptWords
+        .filter((entity) => !entity.attributes.course)
+        .filter((entity) => entity.attributes.language === language),
     make(target, ctx, rng, requested) {
-      const options = choiceOptions(target, ctx.scriptWords, latin, rng)
+      const options = choiceOptions(
+        target,
+        ctx.scriptWords.filter((entity) => !entity.attributes.course),
+        latin,
+        rng,
+      )
       if (!options) return null
       return {
         id: qid(id, target),
@@ -110,7 +118,7 @@ export const tamilToLatin = toLatinChoice('tamil_to_latin', 'ta')
 export const scriptToLatinInput: Generator = {
   id: 'script_to_latin_input',
   category: 'languages',
-  pool: (ctx) => ctx.scriptWords,
+  pool: (ctx) => ctx.scriptWords.filter((entity) => !entity.attributes.course),
   make(target, ctx, _rng, requested) {
     const accepted = (target.attributes.accepted as string[] | undefined) ?? [latin(target)]
     return {
@@ -149,9 +157,9 @@ function unambiguousReversePool(entities: Entity[]) {
 export const latinToScript: Generator = {
   id: 'latin_to_script',
   category: 'languages',
-  pool: (ctx) => unambiguousReversePool(ctx.scriptWords),
+  pool: (ctx) => unambiguousReversePool(ctx.scriptWords.filter((entity) => !entity.attributes.course)),
   make(target, ctx, rng, requested) {
-    const pool = unambiguousReversePool(ctx.scriptWords)
+    const pool = unambiguousReversePool(ctx.scriptWords.filter((entity) => !entity.attributes.course))
     const options = choiceOptions(target, pool, original, rng)
     if (!options) return null
     return {
@@ -191,16 +199,20 @@ function identifyScript(input: boolean): Generator {
     id,
     category: 'languages',
     pool: (ctx) =>
-      ctx.scriptWords.filter(
-        (entity) => entity.attributes.kind === 'word' && scriptAnswers[attr(entity, 'script')],
-      ),
+      ctx.scriptWords
+        .filter((entity) => !entity.attributes.course)
+        .filter((entity) => entity.attributes.kind === 'word' && scriptAnswers[attr(entity, 'script')]),
     make(target, ctx, rng, requested) {
       const script = attr(target, 'script')
       const correct = scriptAnswers[script]
       if (!correct) return null
-      const available = [...new Set(ctx.scriptWords.map((entity) => attr(entity, 'script')))].filter(
-        (key) => key !== script && scriptAnswers[key],
-      )
+      const available = [
+        ...new Set(
+          ctx.scriptWords
+            .filter((entity) => !entity.attributes.course)
+            .map((entity) => attr(entity, 'script')),
+        ),
+      ].filter((key) => key !== script && scriptAnswers[key])
       if (!input && available.length < 3) return null
       return {
         id: qid(id, target),

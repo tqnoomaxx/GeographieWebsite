@@ -53,7 +53,7 @@ export default function CityPage() {
         </Section>
       )}
       <div className="grid gap-2 md:grid-cols-2">
-        {country && <Link to={`/play/cities/round?scope=${country.id}&len=all`} className="btn-primary">🎯 {t('explore.play_this', { name: country.names.de })}</Link>}
+        {country && <Link to={`/play?scope=${encodeURIComponent(country.id)}`} className="btn-primary">🎯 {t('explore.play_this', { name: country.names.de })}</Link>}
         <Link to={`/play/capitals/round?scope=${encodeURIComponent(country?.attributes.continent ?? 'world')}&len=10`} className="btn-secondary">🏛️ {t('category.capitals')}</Link>
       </div>
     </Page>

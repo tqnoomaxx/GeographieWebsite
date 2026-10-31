@@ -19,6 +19,8 @@ const files = {
   lakes: 'entities/lakes.json',
   mountains: 'entities/mountains.json',
   script_words: 'entities/script-words.json',
+  language_courses: 'entities/language-courses.json',
+  country_map_facts: 'meta/country-map-facts.json',
   language_samples: 'entities/language-samples.json',
   trivia: 'entities/trivia.json',
 }
@@ -39,6 +41,7 @@ const all = [
   ...load(files.lakes),
   ...load(files.mountains),
   ...load(files.script_words),
+  ...load(files.language_courses),
   ...load(files.language_samples),
   ...load(files.trivia),
   ...regionFiles.flatMap((f) => load(`entities/regions/${f}`)),
@@ -86,7 +89,14 @@ for (const e of all) {
     if (a.continent && !['europe', 'asia', 'africa', 'north-america', 'south-america', 'oceania'].includes(a.continent))
       err(`${e.id}: ungültiger Trivia-Bereich`)
   }
-  if (e.type === 'script_word') {
+  if (e.type === 'script_word' && e.attributes?.course) {
+    const a = e.attributes
+    if (!a.language || !a.language_name || !a.original || !a.topic || !['word', 'letter'].includes(a.kind)) err(`${e.id}: unvollständige Sprachlernkarte`)
+    if (a.kind === 'word' && !a.meaning) err(`${e.id}: Übersetzung fehlt`)
+    if (a.kind === 'letter' && (!a.transliteration || !a.accepted?.includes(a.transliteration))) err(`${e.id}: Zeichenbeschriftung fehlt`)
+    if (!e.provenance.source_url?.startsWith('https://') || !e.provenance.license) err(`${e.id}: Quelle fehlt`)
+  }
+  if (e.type === 'script_word' && !e.attributes?.course) {
     const scripts = { ru: 'cyrillic', el: 'greek', ka: 'georgian', ar: 'arabic', hi: 'devanagari', bn: 'bengali', ta: 'tamil' }
     if (scripts[e.attributes?.language] !== e.attributes?.script || !scripts[e.attributes?.language])
       err(`${e.id}: ungültige Sprach-/Schriftzuordnung`)
@@ -272,6 +282,15 @@ for (const file of listDir(join(DATA, 'city-recall')))
 
 // Qualitätskennzahlen
 const countries = all.filter((e) => e.type === 'country')
+const mapFacts = readJson(join(DATA, files.country_map_facts))
+if (!mapFacts.checkedAt || !mapFacts.source?.url?.startsWith('https://') || !mapFacts.source?.license)
+  err('Themenkarten: Quellenangabe fehlt')
+for (const country of countries.filter((country) => country.attributes.iso2 !== 'EU')) {
+  const entry = mapFacts.countries?.[country.id]
+  if (!entry || !Array.isArray(entry.callingCodes) || entry.callingCodes.some((code) => !/^\+[1-9]\d{0,8}$/.test(code))) err(`${country.id}: ungültige Karten-Vorwahlen`)
+  if (entry?.drivingSide && !['left', 'right'].includes(entry.drivingSide)) err(`${country.id}: ungültige Verkehrsseite`)
+}
+
 const missing = (field) => countries.filter((c) => c.attributes[field] === undefined).map((c) => c.id)
 const quality = {
   generated_at: new Date().toISOString(),
@@ -401,6 +420,8 @@ for (const f of [
   'entities/lakes.json',
   'entities/mountains.json',
   'entities/script-words.json',
+  'entities/language-courses.json',
+  'meta/country-map-facts.json',
   'entities/trivia.json',
   'relationships/index.json',
   ...recallFiles.sort(),
@@ -452,6 +473,10 @@ lines.push(
   '[Natural Earth](https://www.naturalearthdata.com/) (Public Domain), [geoBoundaries](https://www.geoboundaries.org/) (CC BY 4.0), [mledoze/countries](https://github.com/mledoze/countries) (ODbL 1.0), [Wikidata](https://www.wikidata.org/) (CC0).',
   'Ländereinwohnerzahlen: United Nations, Department of Economic and Social Affairs, Population Division (2024), [World Population Prospects 2024, Online Edition](https://population.un.org/wpp/), [CC BY 3.0 IGO](https://creativecommons.org/licenses/by/3.0/igo/). Verwendet wird die mittlere Projektion zum 1. Juli 2026, einschließlich der Togo-Korrektur vom 19. Januar 2026. Der versionierte Auszug wandelt Tausenderwerte in Personen um; Bezugsdatum und Quelle stehen an jedem aktualisierten Land. Kleinere Gebiete ohne eigenen UN-Datensatz behalten gegebenenfalls ihren bisherigen, separat belegten Datenstand.',
   'Die direkt anklickbaren Flussläufe und Seeumrisse stammen aus den [Natural-Earth-Geodaten im Maßstab 1:10m](https://www.naturalearthdata.com/downloads/10m-physical-vectors/) einschließlich Europa-Ergänzungen (Public Domain). Objekte werden über ihre Wikidata-IDs verknüpft. Gipfelpositionen stammen aus den Wikidata-Koordinaten des jeweiligen Berges. Im Kartenmodus werden nur Objekte mit vorhandener Geometrie beziehungsweise Gipfelposition angeboten.',
+  '',
+  '## Themenkarten',
+  '',
+  'Telefonvorwahlen und Verkehrsseite: [REST Countries](https://github.com/restcountries/restcountries), versionierter Datenstand vom 31. Oktober 2026, MPL-2.0. [Lizenz](RESTCOUNTRIES-LICENSE.txt). Geteilte Nummerierungspläne sind als internationale Vorwahlen mit gegebenenfalls zusätzlichen Gebietskennzahlen dargestellt. Der [Vatikan](https://www.vatican.va/content/vatican/en/info.html) verwendet +39. Internet-Endungen und Währungen stammen aus dem bestehenden Länderbestand. Fehlende oder nicht anwendbare Werte bleiben ohne Angabe.',
   '',
   '## Großstädte über 300.000 Einwohner',
   '',

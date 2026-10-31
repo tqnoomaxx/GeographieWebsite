@@ -1,4 +1,13 @@
-import { geoAlbersUsa, geoArea, geoCentroid, geoContains, geoDistance, geoMercator, geoPath } from 'd3-geo'
+import {
+  geoAlbersUsa,
+  geoArea,
+  geoCentroid,
+  geoContains,
+  geoDistance,
+  geoMercator,
+  geoNaturalEarth1,
+  geoPath,
+} from 'd3-geo'
 import type { GeoPermissibleObjects } from 'd3-geo'
 import type { RecallCity } from '@/domain/cityRecall'
 export function cityRecallGeometry(
@@ -9,6 +18,16 @@ export function cityRecallGeometry(
   width: number,
   height: number,
 ) {
+  if (iso === 'world') {
+    const projection = geoNaturalEarth1().fitExtent(
+      [
+        [16, 16],
+        [width - 16, height - 16],
+      ],
+      { type: 'Sphere' },
+    )
+    return { projection, path: geoPath(projection), geometry: undefined }
+  }
   let focused = geometry
   if (geometry?.type === 'MultiPolygon') {
     const polygons = geometry.coordinates.map((coordinates) => ({ type: 'Polygon' as const, coordinates }))

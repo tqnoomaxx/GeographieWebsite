@@ -36,6 +36,7 @@ export function useRoundLabel() {
     if (!exercise && quiz.content && setup.content?.length === 1 && !isCountryScope(setup.scope))
       parts.push(t(`setup.content.${setup.category}.${setup.content[0]}`))
     if (setup.only) parts.push(t('play.selected_cards'))
+    if (exercise?.kind === 'language-course') parts.push(setup.collection === 'words' ? 'Wörter lernen' : 'Alphabet & Schrift')
     if (exercise?.kind === 'city-recall')
       parts.push(`über ${cityMinimum(setup.minPopulation).toLocaleString('de-DE')} Einwohner`)
     if (progress) parts.push(`${progress.done} / ${progress.total}`)

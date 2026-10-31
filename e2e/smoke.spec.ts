@@ -71,7 +71,7 @@ test('Weltkugel wählt ein Land und öffnet dessen Quizkonfiguration', async ({ 
   const panel = page.locator('.country-quiz-panel')
   await expect(panel.getByRole('heading', { name: 'Deutschland' })).toBeVisible()
   await expect(panel.getByText('In diesem Land')).toBeVisible()
-  await panel.getByRole('link', { name: /Flaggen/ }).click()
+  await panel.locator('[data-country-exercise="regional-flags"]').click()
   await expect(page).toHaveURL(/play\/regions\?quiz=regional-flags.*scope=country%3ADE/)
   await expect(page.getByRole('combobox', { name: 'Land', exact: true })).toHaveValue('country:DE')
   expect(errors).toEqual([])

@@ -97,3 +97,35 @@
     U+c788, U+c790, U+c801, U+c804, U+c815, U+c81c, U+c874, U+c9c4, U+cc9c, U+ccb4, U+d0dc, U+d130, U+d3ec,
     U+d558, U+d55c, U+d568-d569, U+d589, U+d615, U+d734;
 }
+
+/* Course subsets also cover the existing language samples. */
+@font-face {
+  font-family: 'Noto Sans SC Course';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/scripts/noto-sans-zh-course.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans JP Course';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/scripts/noto-sans-ja-course.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans KR Course';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(/fonts/scripts/noto-sans-ko-course.woff2) format('woff2');
+}
+.script-study-original:lang(zh) {
+  font-family: 'Noto Sans SC Course', sans-serif;
+}
+.script-study-original:lang(ja) {
+  font-family: 'Noto Sans JP Course', sans-serif;
+}
+.script-study-original:lang(ko) {
+  font-family: 'Noto Sans KR Course', sans-serif;
+}

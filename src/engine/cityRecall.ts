@@ -14,8 +14,8 @@ export function withRecallCities(ctx: GeneratorContext, data?: RecallCountry): G
     aliases: city.aliases,
     location: { lat: city.lat, lon: city.lon },
     attributes: {
-      country: data.country,
-      continent,
+      country: city.country ?? data.country,
+      continent: city.country ? ctx.byId.get(city.country)?.attributes.continent : continent,
       population: city.population,
       geonames_population: city.population,
       geonames: city.geonameId,

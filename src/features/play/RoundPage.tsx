@@ -99,7 +99,7 @@ function RoundSessionPage({ accountScope }: { accountScope: string }) {
   }, [sessionId, category, t])
   const resources = useDataResources(setup ? resourcesForQuiz(setup.category, setup) : [])
   const isCityRecall = exerciseFor(setup?.exercise)?.kind === 'city-recall'
-  const recall = useCityRecallData(isCityRecall && !stored && !session ? setup?.scope : undefined)
+  const recall = useCityRecallData(isCityRecall && !stored && !session ? setup?.scope : undefined, setup?.minPopulation)
   const label = useRoundLabel()
   useDocumentTitle(setup ? label(setup).title : undefined)
 

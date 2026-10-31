@@ -4,7 +4,7 @@ import type { Entity } from '@/domain/types'
 import type { QuizSession } from '@/engine/session'
 import { cityRecallHits, recallCitiesFromSession } from '@/engine/cityRecall'
 import { cityMinimum } from '@/domain/cityRecall'
-import { matchesExactly } from '@/engine/normalize'
+import { matchesExactly, normalizeAnswer } from '@/engine/normalize'
 import { roundPath } from '@/engine/round'
 import { CityRecallMap } from './CityRecallMap'
 import './city-recall.css'
@@ -23,6 +23,7 @@ export function CityRecallGame({
   onFinish: () => Promise<void>
 }) {
   const [value, setValue] = useState('')
+  const [search, setSearch] = useState('')
   const [message, setMessage] = useState('')
   const [selected, setSelected] = useState<string>()
   const [composing, setComposing] = useState(false)
@@ -36,7 +37,8 @@ export function CityRecallGame({
   const revealed = !!session.cityRecallRevealed
   const complete = found.length === cities.length
   const ended = revealed || complete || !!session.completedAt
-  const name = country?.names.de ?? session.scope.replace('country:', '')
+  const world = session.scope === 'world'
+  const name = world ? 'Welt' : (country?.names.de ?? session.scope.replace('country:', ''))
   const minimum = cityMinimum(session.setup.minPopulation)
   const center = useMemo<[number, number]>(
     () => [country?.location?.lon ?? cities[0]?.lon ?? 0, country?.location?.lat ?? cities[0]?.lat ?? 0],
@@ -56,7 +58,7 @@ export function CityRecallGame({
           setMessage(
             duplicate
               ? 'Diese Stadt hast du schon gefunden.'
-              : 'Kein Treffer. Gesucht sind Städte dieses Landes über der gewählten Einwohnergrenze.',
+              : `Kein Treffer. Gesucht sind Städte ${world ? 'weltweit' : 'dieses Landes'} über der gewählten Einwohnergrenze.`,
           )
           if (duplicate) setValue('')
         }
@@ -71,7 +73,7 @@ export function CityRecallGame({
       setValue('')
       void onGuess(value)
     },
-    [session, value, ended, composing, onGuess],
+    [session, value, ended, composing, onGuess, world],
   )
   useEffect(() => {
     if (!value.trim() || ended || composing) return
@@ -135,7 +137,7 @@ export function CityRecallGame({
         {message || '\u00a0'}
       </p>
       <CityRecallMap
-        iso={session.scope.slice(8)}
+        iso={world ? 'world' : session.scope.slice(8)}
         center={center}
         cities={cities}
         found={found}
@@ -199,9 +201,27 @@ export function CityRecallGame({
           <summary>
             {revealed ? 'Alle Städte' : 'Gefundene Städte'} ({revealed ? cities.length : found.length})
           </summary>
+          <label className="city-recall-search">
+            Städte suchen
+            <input
+              type="search"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Stadt in der Liste suchen …"
+            />
+          </label>
+          {!cities.some(
+            (c) =>
+              (foundSet.has(c.id) || revealed) &&
+              normalizeAnswer(c.name + ' ' + c.aliases.join(' ')).includes(normalizeAnswer(search)),
+          ) && <p role="status">Keine Städte gefunden.</p>}
           <div>
             {cities
-              .filter((c) => foundSet.has(c.id) || revealed)
+              .filter(
+                (c) =>
+                  (foundSet.has(c.id) || revealed) &&
+                  normalizeAnswer(c.name + ' ' + c.aliases.join(' ')).includes(normalizeAnswer(search)),
+              )
               .sort((a, b) => a.name.localeCompare(b.name, 'de'))
               .map((city) => (
                 <button

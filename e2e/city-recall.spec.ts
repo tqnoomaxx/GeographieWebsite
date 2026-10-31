@@ -154,3 +154,58 @@ test('Kartenausfall blockiert das Raten nicht und lässt sich beheben', async ({
   await page.getByRole('button', { name: /Erneut/ }).click()
   await expect(page.locator(`[data-city-pin="${berlin.id}"]`)).toHaveAttribute('data-found', 'true')
 })
+
+test('Ländersuche und Weltmodus mit suchbarer Städteliste', async ({ page }, testInfo) => {
+  const errors: string[] = []
+  page.on('pageerror', (error) => errors.push(error.message))
+  page.on('console', (message) => {
+    if (
+      ['error', 'warning'].includes(message.type()) &&
+      message.text() !== 'Service Worker registration blocked by Playwright'
+    )
+      errors.push(message.text())
+  })
+  await page.goto('play/cities?quiz=city-recall')
+  await page.getByRole('searchbox', { name: 'Land suchen', exact: true }).fill('frank')
+  const countries = page.getByRole('combobox', { name: 'Land', exact: true })
+  await expect(countries.locator('option')).toHaveCount(2)
+  await countries.selectOption('country:FR')
+  await expect(page.locator('.exercise-summary')).toContainText('Frankreich')
+  await page.getByRole('searchbox', { name: 'Land suchen', exact: true }).fill('zzzzzz')
+  await expect(page.getByText('Kein Land gefunden.', { exact: true })).toBeVisible()
+  await page.getByRole('button', { name: 'Welt', exact: true }).click()
+  await expect(page.getByRole('searchbox', { name: 'Land suchen', exact: true })).toHaveCount(0)
+  await page.getByRole('spinbutton', { name: 'Einwohnergrenze', exact: true }).fill('3000000')
+  await expect(page.locator('.exercise-summary')).toContainText('der ganzen Welt')
+  await page.getByRole('button', { name: 'Quiz starten', exact: true }).click()
+  await expect(page).toHaveURL(/scope=world/)
+  await expect(page).toHaveTitle(/Städte auf der Karte sammeln/)
+  await expect(page.locator('.city-recall-heading h1')).toHaveText('Welt')
+  await expect(page.locator('.recall-map-land').first()).toBeVisible()
+  const input = page.getByRole('textbox', { name: 'Welche Städte kennst du?', exact: true })
+  for (const name of ['Berlin', 'New York City']) {
+    await input.fill(name)
+    await expect(input).toHaveValue('')
+  }
+  await expect(page.locator('[data-city-pin][data-found="true"]')).toHaveCount(2)
+  await page.reload()
+  await expect(page.locator('.city-recall-heading h1')).toHaveText('Welt')
+  await expect(page.locator('[data-city-pin][data-found="true"]')).toHaveCount(2)
+  await page.locator('.city-recall-list summary').click()
+  const search = page.getByRole('searchbox', { name: 'Städte suchen', exact: true })
+  await search.fill('berlin')
+  await expect(page.locator('.city-recall-list button')).toHaveCount(1)
+  await search.fill('zzzzzz')
+  await expect(page.getByText('Keine Städte gefunden.', { exact: true })).toBeVisible()
+  await page.getByRole('button', { name: 'Auflösen & fehlende Städte zeigen', exact: true }).click()
+  await search.fill('tok')
+  await expect(page.locator('.city-recall-list button').first()).toBeVisible()
+  await search.fill('')
+  await expect(page.locator('.city-recall-list button')).toHaveCount(
+    await page.locator('[data-city-pin]').count(),
+  )
+  expect(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)).toBe(false)
+  await expect(page.locator('vite-error-overlay')).toHaveCount(0)
+  await page.screenshot({ path: `/tmp/city-recall-world-${testInfo.project.name}.png`, fullPage: true })
+  expect(errors).toEqual([])
+})

@@ -20,6 +20,7 @@ import {
   loadRelationships,
   loadRivers,
   loadScriptWords,
+  loadCourseCards,
   loadLanguageSamples,
   loadTrivia,
 } from '@/services/data/dataService'
@@ -35,6 +36,7 @@ const loaders = {
   lakes: loadLakes,
   mountains: loadMountains,
   scriptWords: loadScriptWords,
+  courseCards: loadCourseCards,
   languageSamples: loadLanguageSamples,
   trivia: loadTrivia,
   relationships: loadRelationships,
@@ -58,6 +60,7 @@ const initialData: Data = {
   lakes: [],
   mountains: [],
   scriptWords: [],
+  courseCards: [],
   languageSamples: [],
   trivia: [],
   relationships: [],

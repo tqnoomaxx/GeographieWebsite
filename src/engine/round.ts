@@ -88,24 +88,33 @@ export function fromQuery(category: CategoryId, params: URLSearchParams): RoundC
     (!scope.startsWith('country:') || requestedModeDef.allowCountryScope !== false) &&
     (!requestedModeDef.scopes || requestedModeDef.scopes.includes(scope))
   const mode = requestedMode === AUTO || modeAllowedInScope ? requestedMode : AUTO
+  const selectedMode = selected
+    ? selected.variants[requestedMode as 'choice' | 'input' | 'map'] &&
+      exerciseScopeAllowed(selected, scope, requestedMode)
+      ? requestedMode
+      : (Object.keys(selected.variants).find((form) => exerciseScopeAllowed(selected, scope, form)) ??
+        Object.keys(selected.variants)[0])
+    : mode
   return {
     category,
     exercise: selected?.id,
-    collection: selected?.collections
-      ? (selected.collections.find((c) => c.id === params.get('collection')) ?? selected.collections[0]).id
-      : undefined,
+    collection:
+      selected?.kind === 'language-course'
+        ? params.get('collection') === 'words'
+          ? 'words'
+          : 'alphabet'
+        : selected?.collections
+          ? (selected.collections.find((c) => c.id === params.get('collection')) ?? selected.collections[0])
+              .id
+          : undefined,
     minPopulation:
       selected?.kind === 'city-recall'
         ? cityMinimum(params.has('population') ? Number(params.get('population')) : undefined)
         : undefined,
     fields: selected?.kind === 'profile' ? selectedProfileIds(params.get('fields')?.split(',')) : undefined,
-    mode: selected
-      ? selected.variants[requestedMode as 'choice' | 'input' | 'map']
-        ? requestedMode
-        : Object.keys(selected.variants)[0]
-      : mode,
+    mode: selectedMode,
     scope:
-      selected && !exerciseScopeAllowed(selected, scope, requestedMode)
+      selected && !exerciseScopeAllowed(selected, scope, selectedMode)
         ? (selected.defaultScope ?? 'world')
         : scope,
     length: selected?.kind === 'city-recall' ? 'all' : length,
